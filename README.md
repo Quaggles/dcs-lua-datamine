@@ -1,4 +1,6 @@
 # DCS Lua Datamine
+![image](https://user-images.githubusercontent.com/8382945/115588129-c502d200-a311-11eb-9e74-08d4218de6e9.png)
+
 ## TL/DR
 
 In DCS 2.7 ED has removed most the lua files in the `Scripts/Database` directory which contained the definitions for most of the rockets, missiles, bombs, warheads, aircraft properties used in the game. For many modders and community members this was a shock since it makes it impossible to see what changes are going on under the hood or to use it as a reference for creating their own weapons/modules.
