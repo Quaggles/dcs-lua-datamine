@@ -4,10 +4,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "SPG M1128 Stryker MGS",
+	DisplayName = "SPG Stryker MGS",
+	DisplayNameShort = "M1128",
 	EPLRS = true,
+	IR_emission_coeff = 0.085,
 	MaxSpeed = 72,
-	Name = "SPG M1128 Stryker MGS",
+	Name = "SPG Stryker MGS",
 	Rate = 15,
 	Sensors = {
 		OPTIC = { "MGS sight day", "MGS sight night" }
@@ -81,13 +83,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						}, {
 							shell_name = {}
 						} },
-					customViewPoint = { "genericAAA", { -1.7, 0.1, 0 } },
 					fireAnimationArgument = 44,
-					sensor = {}
+					sensor = {},
+					sightIndicationMode = 1,
+					sightMasterMode = 1
 				} },
 			angles = { { 0.34906585039887, -3.1415926535898, -0.17453292519943, 0.61086523819802 } },
 			base = 1,
 			center = "CENTER_MGUN_RIGTH_ROTATION",
+			cockpit = { "genericAAA", { -1.7, 0.1, 0 },
+				open = true
+			},
 			drawArgument1 = 25,
 			drawArgument2 = 26,
 			omegaY = 1.0471975511966,
@@ -141,13 +147,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "SPG" },
 	turbine = false,
 	type = "M1128 Stryker MGS",
 	visual = {
-		fire_pos = { -2, 0, 0 },
-		fire_size = 0.8,
-		fire_time = 1000,
+		agony_explosion_size = 3,
+		fire_pos = { 0.5, 1, 0 },
+		fire_size = 0.9,
+		fire_time = 450,
+		max_time_agony = 100,
+		min_time_agony = 10,
 		shape = "M1128",
 		shape_dstr = "M1128_P1"
 	}

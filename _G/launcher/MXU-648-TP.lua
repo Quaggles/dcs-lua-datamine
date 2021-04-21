@@ -8,5 +8,6 @@ _G["launcher"]["MXU-648-TP"] = {
 	Picture = "mxu-468.png",
 	Weight = 300,
 	attribute = { 4, 15, 47, "Redacted" },
+	category = 6,
 	displayName = "MXU-648 Travel Pod"
 }

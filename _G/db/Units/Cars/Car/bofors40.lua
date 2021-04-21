@@ -1,8 +1,10 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Countries = { "Australia", "Belgium", "Canada", "Czech Republic", "France", "Italia", "Poland", "The Netherlands", "UK", "USA", "USSR", "Yugoslavia" },
 	DetectionRange = 0,
-	DisplayName = "AAA Bofors 40mm",
-	Name = "AAA Bofors 40mm",
+	DisplayName = "AAA 40mm Bofors",
+	DisplayNameShort = "Bofors",
+	IR_emission_coeff = 0.01,
+	Name = "AAA 40mm Bofors",
 	Rate = 3,
 	ThreatRange = 7160,
 	WS = { {
@@ -21,7 +23,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				} },
 			angles = { {} },
 			center = "CENTER_POINT_01",
-			cockpit = { "genericAAA", { -1, 0.4, 0 } },
+			cockpit = { "genericAAA", { -1, 0.4, 0 },
+				open = true
+			},
 			drawArgument1 = 0,
 			drawArgument2 = 1,
 			pidY = {},
@@ -67,11 +71,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "bofors40_p_1"
 		} },
 	snd = {},
+	swapped_names = true,
+	tags = { "Air Defence", "AAA" },
 	type = "bofors40",
 	visual = {
-		fire_pos = { 0.2, 0.3, 0 },
-		fire_size = 0.1,
-		fire_time = 500,
+		agony_explosion_size = 0.1,
+		fire_pos = {},
+		fire_size = 0,
+		fire_time = 0,
+		max_time_agony = 0,
 		shape = "bofors40",
 		shape_dstr = "bofors40_p_1"
 	}

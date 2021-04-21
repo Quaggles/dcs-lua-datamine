@@ -6,7 +6,8 @@ _G["launcher"]["{A111396E-D3E8-4b9c-8AC9-2432489304D5}"] = {
 			ShapeName = "AAQ-28_LITENING"
 		} },
 	Picture = "AAQ-28.png",
-	Weight = 300,
+	Weight = 208,
 	attribute = { 4, 15, 44, "Redacted" },
-	displayName = "AN/AAQ-28 LITENING"
+	category = 6,
+	displayName = "AN/AAQ-28 LITENING - Targeting Pod"
 }

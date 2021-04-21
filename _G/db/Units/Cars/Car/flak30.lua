@@ -1,9 +1,11 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Countries = { "Germany", "Third Reich", "Japan", "Italian Social Republic", "Finland", "Hungary", "Romania", "Bulgaria" },
 	DetectionRange = 0,
-	DisplayName = "AAA Flak 38",
+	DisplayName = "AAA Flak 38 20mm",
+	DisplayNameShort = "Flak38",
+	IR_emission_coeff = 0.01,
 	MaxSpeed = 0,
-	Name = "AAA Flak 38",
+	Name = "AAA Flak 38 20mm",
 	Rate = 3,
 	ThreatRange = 2500,
 	WS = { {
@@ -75,7 +77,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					sightMasterMode = 1
 				} },
 			angles = { {} },
-			cockpit = { "genericAAA", { -1, 0.4, 0.4 } },
+			cockpit = { "genericAAA", { -1, 0.4, 0.4 },
+				open = true
+			},
 			pidY = {},
 			pidZ = {},
 			pointer = "POINT_GUN"
@@ -117,11 +121,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "flak30_p_1"
 		} },
 	snd = {},
+	swapped_names = true,
+	tags = { "Air Defence", "AAA" },
 	type = "flak30",
 	visual = {
-		fire_pos = { -0.5, 0.1, 0 },
-		fire_size = 0.08,
-		fire_time = 500,
+		agony_explosion_size = 0.1,
+		fire_pos = {},
+		fire_size = 0,
+		fire_time = 0,
+		max_time_agony = -1,
 		shape = "flak30",
 		shape_dstr = "flak30_p_1"
 	}

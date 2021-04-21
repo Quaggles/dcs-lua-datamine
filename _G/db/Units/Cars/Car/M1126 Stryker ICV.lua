@@ -4,14 +4,16 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "APC M1126 Stryker ICV",
+	DisplayName = "IFV M1126 Stryker ICV",
+	DisplayNameShort = "M1126",
 	EPLRS = true,
+	IR_emission_coeff = 0.085,
 	InternalCargo = {
 		maximalCapacity = 900,
 		nominalCapacity = 900
 	},
 	MaxSpeed = 72,
-	Name = "APC M1126 Stryker ICV",
+	Name = "IFV M1126 Stryker ICV",
 	Rate = 10,
 	Sensors = {
 		OPTIC = { "M151 Protector RWS day", "M151 Protector RWS IR" }
@@ -111,13 +113,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "IFV" },
 	turbine = false,
 	type = "M1126 Stryker ICV",
 	visual = {
-		fire_pos = { 1, 0, 0 },
-		fire_size = 0.9,
-		fire_time = 1000,
+		agony_explosion_size = 3,
+		fire_pos = { 0.4, 1, 0 },
+		fire_size = 0.95,
+		fire_time = 450,
+		max_time_agony = 100,
+		min_time_agony = 10,
 		shape = "M1126",
 		shape_dstr = "M1126_P1"
 	}

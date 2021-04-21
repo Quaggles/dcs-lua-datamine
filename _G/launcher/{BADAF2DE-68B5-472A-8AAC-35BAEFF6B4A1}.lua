@@ -9,5 +9,6 @@ _G["launcher"]["{BADAF2DE-68B5-472A-8AAC-35BAEFF6B4A1}"] = {
 	Picture = "kh65.png",
 	Weight = 1250,
 	attribute = { 4, 4, 8, "Redacted", "Cruise missiles" },
-	displayName = "Kh-65"
+	category = 2,
+	displayName = "Kh-65 (AS-15B Kent) - 1250kg, ASM, IN & MCC"
 }

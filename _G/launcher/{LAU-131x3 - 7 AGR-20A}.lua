@@ -75,6 +75,7 @@ _G["launcher"]["{LAU-131x3 - 7 AGR-20A}"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
-	displayName = "3 x LAU-131 pods - 21 x 2.75' Hydra - Laser Guided M151 - HE APKWS",
+	displayName = 'BRU-42 with 3 x LAU-131 pods - 7 x 2.75" Hydra, Laser Guided Rkts M151, HE APKWS',
+	name = "{LAU-131x3 - 7 AGR-20A}",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

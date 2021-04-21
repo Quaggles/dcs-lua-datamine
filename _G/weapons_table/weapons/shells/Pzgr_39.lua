@@ -13,7 +13,7 @@ _G["weapons_table"]["weapons"]["shells"]["Pzgr_39"] = {
 	charTime = 0,
 	cumulative_mass = 0,
 	cumulative_thickness = 0,
-	cx = { 0.2, 0.6, 0.7, 0.2, 1.67 },
+	cx = { 0, 0.56, 0.79, 0.19, 1.99 },
 	damage_factor = 639,
 	display_name = "8,8cm Pz.Gr.39",
 	explosive = 0.059,
@@ -62,7 +62,7 @@ _G["weapons_table"]["weapons"]["shells"]["Pzgr_39"] = {
 	tracer_pos = { -0.2, 0, 0 },
 	type_name = "shell",
 	user_name = "8,8cm Pz.Gr.39",
-	v0 = 800,
+	v0 = 810,
 	visual_effect_correction = 0,
 	visual_effect_correction_rebound = 0.1
 }

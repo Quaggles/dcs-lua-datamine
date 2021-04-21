@@ -1,7 +1,7 @@
 _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	AOA_take_off = 0.157,
 	AddPropAircraft = {},
-	AmmoWeight = 734.25,
+	AmmoWeight = 156.75,
 	CAS_min = 56,
 	CanopyGeometry = { -0.99984769515639, -0.99984769515639, -0.99984769515639, -0.99984769515639, -0.99984769515639 },
 	Damage = {
@@ -667,7 +667,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			droppable = false
 		},
 		[66] = {
-			args = { 380 },
+			args = { 429 },
 			construction = {
 				durability = 999,
 				min_max_arg_to_break = {
@@ -689,7 +689,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			droppable = false
 		},
 		[75] = {
-			args = { 380 },
+			args = { 430 },
 			construction = {
 				durability = 999,
 				min_max_arg_to_break = {
@@ -844,6 +844,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Guns = { {
 			_file = "./Mods/tech/WWII Units/Database/Aircraft/Ju-88A4.lua",
 			_origin = "WWII Armour and Technics",
+			_unique_resource_name = "weapons.gunmounts.Ju88_Turret_ahead_MG_81",
 			aft_gun_mount = false,
 			azimuth_initial = 0,
 			category = 8,
@@ -880,7 +881,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			name = "Ju88_Turret_ahead_MG_81",
 			short_name = "Ju88_Turret_ahead_MG_81",
 			supply = {
-				count = 3650,
+				count = 750,
 				get_mass = <function 1>,
 				get_mass_ = <function 2>,
 				mixes = { { 1, 1, 1, 3, 6, 7, 1, 4 } },
@@ -1385,6 +1386,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			_file = "./Mods/tech/WWII Units/Database/Aircraft/Ju-88A4.lua",
 			_origin = "WWII Armour and Technics",
+			_unique_resource_name = "weapons.gunmounts.Ju88_Turret_Bottom_MG_81_L",
 			aft_gun_mount = false,
 			azimuth_initial = 0,
 			category = 8,
@@ -1421,7 +1423,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			name = "Ju88_Turret_Bottom_MG_81_L",
 			short_name = "Ju88_Turret_Bottom_MG_81_L",
 			supply = {
-				count = 5650,
+				count = 1000,
 				get_mass = <function 3>,
 				get_mass_ = <function 4>,
 				mixes = { { 1, 1, 1, 3, 6, 7, 1, 4 } },
@@ -1444,6 +1446,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			_file = "./Mods/tech/WWII Units/Database/Aircraft/Ju-88A4.lua",
 			_origin = "WWII Armour and Technics",
+			_unique_resource_name = "weapons.gunmounts.Ju88_Turret_Bottom_MG_81_R",
 			aft_gun_mount = false,
 			azimuth_initial = 0,
 			category = 8,
@@ -1480,7 +1483,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			name = "Ju88_Turret_Bottom_MG_81_R",
 			short_name = "Ju88_Turret_Bottom_MG_81_R",
 			supply = {
-				count = 5650,
+				count = 1000,
 				get_mass = <function 5>,
 				get_mass_ = <function 6>,
 				mixes = { { 1, 1, 1, 3, 6, 7, 1, 4 } },
@@ -1494,6 +1497,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			_file = "./Mods/tech/WWII Units/Database/Aircraft/Ju-88A4.lua",
 			_origin = "WWII Armour and Technics",
+			_unique_resource_name = "weapons.gunmounts.Ju88_Turret_Top_Right_MG_81",
 			aft_gun_mount = false,
 			azimuth_initial = 0,
 			category = 8,
@@ -1530,7 +1534,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			name = "Ju88_Turret_Top_Right_MG_81",
 			short_name = "Ju88_Turret_Top_Right_MG_81",
 			supply = {
-				count = 3650,
+				count = 1000,
 				get_mass = <function 7>,
 				get_mass_ = <function 8>,
 				mixes = { { 1, 1, 1, 3, 6, 7, 1, 4 } },
@@ -1552,6 +1556,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			_file = "./Mods/tech/WWII Units/Database/Aircraft/Ju-88A4.lua",
 			_origin = "WWII Armour and Technics",
+			_unique_resource_name = "weapons.gunmounts.Ju88_Turret_Top_Left_MG_81",
 			aft_gun_mount = false,
 			azimuth_initial = 0,
 			category = 8,
@@ -1588,7 +1593,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			name = "Ju88_Turret_Top_Left_MG_81",
 			short_name = "Ju88_Turret_Top_Left_MG_81",
 			supply = {
-				count = 3650,
+				count = 1000,
 				get_mass = <function 9>,
 				get_mass_ = <function 10>,
 				mixes = { { 1, 1, 1, 3, 6, 7, 1, 4 } },
@@ -1637,6 +1642,24 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			DisplayName = "L",
 			Launchers = { {
 					CLSID = "{LTF_5B}"
+				}, {
+					CLSID = "{SC_250_T1_L2}"
+				}, {
+					CLSID = "SC_501_SC250"
+				}, {
+					CLSID = "SC_501_SC500"
+				}, {
+					CLSID = "{SC_500_L2}"
+				}, {
+					CLSID = "{SD_250_Stg}"
+				}, {
+					CLSID = "{SD_500_A}"
+				}, {
+					CLSID = "{AB_250_2_SD_2}"
+				}, {
+					CLSID = "{AB_250_2_SD_10A}"
+				}, {
+					CLSID = "{AB_500_1_SD_10A}"
 				} },
 			Number = 1,
 			Order = 1,
@@ -1659,6 +1682,24 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			DisplayName = "R",
 			Launchers = { {
 					CLSID = "{LTF_5B}"
+				}, {
+					CLSID = "{SC_250_T1_L2}"
+				}, {
+					CLSID = "SC_501_SC250"
+				}, {
+					CLSID = "SC_501_SC500"
+				}, {
+					CLSID = "{SC_500_L2}"
+				}, {
+					CLSID = "{SD_250_Stg}"
+				}, {
+					CLSID = "{SD_500_A}"
+				}, {
+					CLSID = "{AB_250_2_SD_2}"
+				}, {
+					CLSID = "{AB_250_2_SD_10A}"
+				}, {
+					CLSID = "{AB_500_1_SD_10A}"
 				} },
 			Number = 3,
 			Order = 3,
@@ -1701,7 +1742,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			N_fr_1 = 0.001,
 			N_indic_0 = 980707.31034483,
 			Nmg = 20.5,
-			Nominal_RPM = 2600,
+			Nominal_RPM = 2300,
 			Nu_0 = 1.2,
 			Nu_1 = 0.86,
 			Nu_2 = 0.002,
@@ -1725,6 +1766,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			k_piston = 3000,
 			k_reg = 0.003,
 			k_vel = 0.017,
+			prop_pitch_feather = 82,
+			prop_pitch_max = 80,
+			prop_pitch_min = 20,
 			table_data = { { 0, 16620 }, { 0.1, 15600 }, { 0.2, 14340 }, { 0.3, 13320 }, { 0.4, 12230 }, { 0.5, 11300 }, { 0.6, 10600 }, { 0.7, 10050 }, { 0.8, 9820 }, { 0.9, 5902 }, { 1.9, 3469 } },
 			type = "Piston"
 		}
@@ -1825,13 +1869,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			elevation = 0,
 			exhaust_length_ab = -3,
 			exhaust_length_ab_K = 0.3,
-			pos = { 1.558, -0.732, -6.653 }
+			pos = { 1.7, -0.47, -3.43 }
 		}, {
 			diameter = 0,
 			elevation = 0,
 			exhaust_length_ab = -3,
 			exhaust_length_ab_K = 0.3,
-			pos = { 1.558, -0.732, 6.653 }
+			pos = { 1.7, -0.47, 3.43 }
 		} },
 	fires_pos = { { 1.5, 0.6, 0 },
 		[8] = { 2, -0.1, 0.55 },
@@ -1939,6 +1983,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			name = "Ju-88A4_destr",
 			positioning = "BYNORMAL"
 		} },
+	swapped_names = true,
 	tand_gear_max = 0.577,
 	thrust_sum_ab = 8224,
 	thrust_sum_max = 8224,

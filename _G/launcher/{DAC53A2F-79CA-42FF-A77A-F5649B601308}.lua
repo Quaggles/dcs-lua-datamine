@@ -1,6 +1,7 @@
 _G["launcher"]["{DAC53A2F-79CA-42FF-A77A-F5649B601308}"] = {
 	CLSID = "{DAC53A2F-79CA-42FF-A77A-F5649B601308}",
 	Count = 3,
+	Cx_item = 0.0009765625,
 	Cx_pil = 0.0048166875,
 	Elements = { {
 			Position = { 0, 0, 0 },
@@ -25,7 +26,8 @@ _G["launcher"]["{DAC53A2F-79CA-42FF-A77A-F5649B601308}"] = {
 	Weight = 865,
 	adapter_type = { 4, 15, 47, "Redacted" },
 	attribute = { 4, 4, 32, "Redacted" },
-	displayName = "LAU-88,AGM-65D*3",
+	category = 2,
+	displayName = "LAU-88 with 3 x AGM-65D - Maverick D (IIR ASM)",
 	kind_of_shipping = 1,
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

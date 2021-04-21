@@ -4,9 +4,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "ARV BRDM-2",
+	DisplayName = "IFV BRDM-2",
+	DisplayNameShort = "BRDM2",
+	IR_emission_coeff = 0.08,
 	MaxSpeed = 100.00008,
-	Name = "ARV BRDM-2",
+	Name = "IFV BRDM-2",
 	Rate = 8,
 	Sensors = {
 		OPTIC = { "TPKU-2B", "TKN-1S" }
@@ -100,12 +102,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "Scout/Recon" },
 	type = "BRDM-2",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.5,
-		fire_time = 900,
+		agony_explosion_size = 3,
+		fire_pos = { -0.5, 1, 0 },
+		fire_size = 0.7,
+		fire_time = 480,
+		max_time_agony = 120,
+		min_time_agony = 7,
 		shape = "brdm-2",
 		shape_dstr = "Brdm-2_p_1"
 	}

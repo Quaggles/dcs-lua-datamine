@@ -13,5 +13,6 @@ _G["db"]["Units"]["LTAvehicles"]["LTAvehicle"]["#Index"] = {
 	isPutToWater = true,
 	lenghtRope = 1000,
 	mapclasskey = "P91000109",
+	swapped_names = true,
 	type = "m1_vla"
 }

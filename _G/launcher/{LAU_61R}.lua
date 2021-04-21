@@ -7,11 +7,11 @@ _G["launcher"]["{LAU_61R}"] = {
 			ShapeName = "LAU-61"
 		} },
 	Picture = "LAU61.png",
-	Weight = 290.59,
+	Weight = 271.5,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
-	displayName = "LAU-61R - 19 2.75' rockets MK151 HE",
+	displayName = 'LAU-61R pod - 19 x 2.75" Hydra, UnGd Rkts M151, HE',
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

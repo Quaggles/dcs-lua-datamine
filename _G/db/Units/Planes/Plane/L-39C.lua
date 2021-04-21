@@ -1,6 +1,11 @@
 _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	AOA_take_off = 0.23,
 	AddPropAircraft = { {
+			arg = 472,
+			argTbl = {
+				[false] = 0,
+				[true] = 0.5
+			},
 			control = "checkbox",
 			defValue = false,
 			id = "SoloFlight",
@@ -742,7 +747,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			MaksRUD = 1,
 			MaxRUD = 1,
 			MinRUD = 0,
-			Nmg = 67.5,
+			Nmg = 56.01,
+			Shutdown_Duration = 28,
+			Startup_Prework = 10,
 			cefor = 0.37,
 			cemax = 0.37,
 			dcx_eng = 0.0015,
@@ -1088,6 +1095,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			username = "L-39C",
 			vis = 3
 		} },
+	swapped_names = true,
 	tand_gear_max = 0.577,
 	thrust_sum_ab = 8224,
 	thrust_sum_max = 8224,

@@ -35,6 +35,7 @@ _G["rockets"]["#Index"] = {
 	_unique_resource_name = "weapons.missiles.Rb 74",
 	category = 4,
 	ccm_k0 = 0.75,
+	display_name = "RB-74",
 	exhaust = { 0.7, 0.7, 0.7, 1 },
 	name = "Rb 74",
 	nozzle_exit_area = 0.0068,

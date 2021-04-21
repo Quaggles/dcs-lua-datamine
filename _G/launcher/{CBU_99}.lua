@@ -11,5 +11,5 @@ _G["launcher"]["{CBU_99}"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 5, 38, "Redacted" },
 	category = 1,
-	displayName = "CBU-99"
+	displayName = "CBU-99 - 490lbs, 247 x HEAT Bomblets"
 }

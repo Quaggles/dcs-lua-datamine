@@ -16,6 +16,7 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["Bofors_40mm"] = {
 	max_trg_alt = 4300,
 	name = "Bofors 40mm gun",
 	reactionTime = 2,
+	reflection_limit = 1.1,
 	sensor = {},
 	type = 3
 }

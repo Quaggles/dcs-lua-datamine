@@ -15,7 +15,9 @@ _G["launcher"]["{MIG21_SMOKE_WHITE}"] = {
 	Weight = 30,
 	_file = "./CoreMods/aircraft/MiG-21BIS/Entry/Aw",
 	_origin = "MiG-21Bis AI by Magnitude 3 LLC",
+	_unique_resource_name = "weapons.containers.{MIG21_SMOKE_WHITE}",
 	attribute = { 4, 15, 50, "Redacted" },
 	category = 6,
-	displayName = "Smoke - white - 21"
+	displayName = "Smoke - white - 21",
+	name = "{MIG21_SMOKE_WHITE}"
 }

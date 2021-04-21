@@ -13,11 +13,13 @@ _G["launcher"]["{BRU33_2*LAU68_MK5}"] = {
 			payload_CLSID = "{174C6E6D-0C3D-42ff-BCB3-0853CB371F5C}"
 		} },
 	Picture = "LAU68.png",
-	Weight = 285.4,
+	Weight = 295.2,
+	Weight_Empty = 171.8,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
-	displayName = "BRU-33 - 2 LAU-68 - 7 2.75' rockets MK5 (HE)",
+	displayName = 'BRU-33 with 2 x LAU-68 pod - 7 x 2.75" Hydra, UnGd Rkts Mk5, HEAT',
+	name = "{BRU33_2*LAU68_MK5}",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

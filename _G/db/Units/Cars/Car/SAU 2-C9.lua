@@ -4,9 +4,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "SPH 2S9 Nona",
+	DisplayName = "SPH 2S9 Nona 120mm M",
+	DisplayNameShort = "2S9",
+	IR_emission_coeff = 0.09,
 	MaxSpeed = 60.00012,
-	Name = "SPH 2S9 Nona",
+	Name = "SPH 2S9 Nona 120mm M",
 	Rate = 12,
 	Sensors = {
 		OPTIC = { "TKN-3B day", "TKN-3B night" }
@@ -26,6 +28,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { { 0.61086523819802, -0.61086523819802, -0.069813170079773, 1.3962634015955 } },
+			canSetTacticalDir = true,
 			center = "CENTER_TOWER",
 			drawArgument1 = 0,
 			drawArgument2 = 1,
@@ -80,14 +83,19 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { { 0, 0.6 }, { 10, 1 } },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Artillery", "SPA" },
 	type = "SAU 2-C9",
 	visual = {
+		agony_explosion_size = 2,
 		dirt_pos = { -2.8, 0.55, -1.268 },
 		dust_pos = { 2.2, 0.1, -1.268 },
-		fire_pos = { 0, -1, 0 },
-		fire_size = 0.7,
-		fire_time = 900,
+		fire_pos = { -0.2, 1, 0 },
+		fire_size = 0.95,
+		fire_time = 400,
+		max_time_agony = 100,
+		min_time_agony = 5,
 		shape = "2-c9",
 		shape_dstr = "2-c9_p_1"
 	}

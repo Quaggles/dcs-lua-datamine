@@ -78,6 +78,7 @@ _G["rockets"]["#Index"] = {
 		vert_offset_before_end_game_k = 0.8,
 		wind_k = 1
 	},
+	display_name = "GB-6",
 	fm = {
 		A = 0.07,
 		I = 1046.25,

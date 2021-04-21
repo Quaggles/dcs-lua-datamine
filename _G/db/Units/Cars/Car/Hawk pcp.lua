@@ -1,8 +1,10 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 0,
-	DisplayName = "SAM Hawk PCP",
+	DisplayName = "SAM Hawk Generator (PCP)",
+	DisplayNameShort = "Hawk-CP",
+	IR_emission_coeff = 0.05,
 	MaxSpeed = 0,
-	Name = "SAM Hawk PCP",
+	Name = "SAM Hawk Generator (PCP)",
 	Rate = 20,
 	ThreatRange = 0,
 	WS = { {
@@ -51,11 +53,14 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		min_range_finding_target = 1500
 	},
 	snd = {},
+	swapped_names = true,
+	tags = { "Air Defence", "Generator" },
 	type = "Hawk pcp",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.8,
-		fire_time = 500,
+		fire_pos = { 0, 0.6, 0 },
+		fire_size = 0,
+		fire_time = 0,
+		max_time_agony = 0,
 		shape = "hawk-cv",
 		shape_dstr = "hawk-cv_p_1"
 	}

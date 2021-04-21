@@ -2,6 +2,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Crew = 2,
 	DetectionRange = 5000,
 	DisplayName = "AAA ZU-23 Emplacement",
+	DisplayNameShort = "ZU23",
+	IR_emission_coeff = 0.006,
 	MaxSpeed = 0,
 	Name = "AAA ZU-23 Emplacement",
 	Rate = 3,
@@ -20,12 +22,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						}, {
 							shell_name = {}
 						} },
-					customViewPoint = {
-						[2] = {}
-					},
 					sensor = {}
 				} },
 			angles = { {} },
+			cockpit = {
+				[2] = {}
+			},
 			pidY = {},
 			pidZ = {},
 			pointer = "POINT_SIGHT_01"
@@ -51,11 +53,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		height = 1.736
 	},
 	snd = {},
+	swapped_names = true,
+	tags = { "Air Defence", "AAA" },
 	type = "ZU-23 Emplacement",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.4,
-		fire_time = 500,
+		agony_explosion_size = 0.1,
+		fire_pos = {},
+		fire_size = 0,
+		fire_time = 0,
+		max_time_agony = -1,
 		shape = "ZU-23_S",
 		shape_dstr = "ZU-23_S_P1"
 	}

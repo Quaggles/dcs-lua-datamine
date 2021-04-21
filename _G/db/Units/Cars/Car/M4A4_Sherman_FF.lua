@@ -252,6 +252,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		} },
 	DetectionRange = 0,
 	DisplayName = "MT M4A4 Sherman Firefly",
+	DisplayNameShort = "M4A4 FF",
+	IR_emission_coeff = 0.1,
 	MaxSpeed = 39.996,
 	Name = "MT M4A4 Sherman Firefly",
 	Rate = 20,
@@ -404,14 +406,19 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "Tank" },
 	type = "M4A4_Sherman_FF",
 	visual = {
+		agony_explosion_size = 5,
 		dirt_pos = { -2.6, 0.4, -1.1 },
 		dust_pos = { 2.7, 0.1, -1.1 },
-		fire_pos = { -1.4, 0.8, 0 },
-		fire_size = 0.7,
-		fire_time = 1000,
+		fire_pos = { -1.3, 1.2, 0 },
+		fire_size = 0.65,
+		fire_time = 650,
+		max_time_agony = 70,
+		min_time_agony = 10,
 		shape = "M4A4_Sherman_FF",
 		shape_dstr = "M4A4_Sherman_FF_p_1"
 	}

@@ -3,6 +3,7 @@ _G["weapons_table"]["weapons"]["shells"]["PKT_7_62_T"] = {
 	Da0 = 0.0004,
 	Da1 = 0,
 	Dv0 = 0.0082,
+	_unique_resource_name = "weapons.shells.PKT_7_62_T",
 	caliber = 7.62,
 	cartridge = 0,
 	cartridge_mass = 0,

@@ -10,7 +10,8 @@ _G["launcher"]["GUV_VOG"] = {
 	Weight = 274,
 	Weight_Empty = 140,
 	attribute = { 4, 15, 46, "Redacted" },
-	displayName = "GUV AP-30",
+	category = 6,
+	displayName = "GUV-8700 w AP-30 - 30mm Grenade Launcher",
 	kind_of_shipping = 2,
 	wsTypeOfWeapon = { 4, 6, 10 }
 }

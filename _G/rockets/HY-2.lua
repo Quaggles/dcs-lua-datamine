@@ -57,7 +57,7 @@ _G["rockets"]["#Index"] = {
 		cumulative_thickness = 0,
 		expl_mass = 196,
 		mass = 196,
-		obj_factors = { 2, 1 },
+		obj_factors = { 3, 1 },
 		other_factors = { 1, 1, 1 },
 		piercing_mass = 39.2
 	},

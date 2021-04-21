@@ -1,9 +1,11 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	CustomAimPoint = { 0, 1, 0 },
 	DetectionRange = 0,
-	DisplayName = "Infantry Soldier Rus",
+	DisplayName = "Infantry AK-74 Rus",
+	DisplayNameShort = "AK",
+	IR_emission_coeff = 0.004,
 	MaxSpeed = 14.4,
-	Name = "Infantry Soldier Rus",
+	Name = "Infantry AK-74 Rus",
 	Rate = 1,
 	ThreatRange = 500,
 	Transportable = {
@@ -40,6 +42,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { { 0.78539816339745, -0.78539816339745, -1.0471975511966, 1.0471975511966 } },
+			canSetTacticalDir = true,
 			drawArgument1 = 0,
 			drawArgument2 = 1,
 			omegaY = 1.7453292519943,
@@ -87,9 +90,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		max_range_finding_target = 500
 	},
 	snd = {},
+	swapped_names = true,
+	tags = { "Infantry" },
 	type = "Infantry AK",
 	visual = {
 		fire_pos = {},
+		parachute = 11,
 		shape = "soldier_ru_00",
 		shape_dstr = "soldier_ru_00_d"
 	}

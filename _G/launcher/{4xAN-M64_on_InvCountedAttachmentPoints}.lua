@@ -25,6 +25,6 @@ _G["launcher"]["{4xAN-M64_on_InvCountedAttachmentPoints}"] = {
 	_origin = "World War II AI Units by Eagle Dynamics",
 	attribute = { 4, 5, 9, "Redacted" },
 	category = 1,
-	displayName = "4 * AN-M64",
+	displayName = "4 x AN-M64 - 500lb GP Bomb LD",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

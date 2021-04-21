@@ -2,19 +2,7 @@ _G["launcher"]["{MBDA_MistralD}"] = {
 	CLSID = "{MBDA_MistralD}",
 	Count = 1,
 	Cx_pil = 0.001,
-	Elements = { {
-			IsAdapter = true,
-			Position = { 0, 0, 0 },
-			ShapeName = "LAU_MistralD",
-			shape_table_data = { {
-					file = "LAU_MistralD",
-					fire = { 0, 1 },
-					index = "Redacted",
-					life = 60,
-					name = "LAU_MistralD",
-					username = "LAU_MistralD"
-				} }
-		}, {
+	Elements = { "_G/Pylons/LAU_MistralD.lua", {
 			Position = { -0.038, -0.171, 0 },
 			ShapeName = "MBDA_Mistral"
 		} },
@@ -25,5 +13,6 @@ _G["launcher"]["{MBDA_MistralD}"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 4,
 	displayName = "Mistral",
+	name = "{MBDA_MistralD}",
 	wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 }

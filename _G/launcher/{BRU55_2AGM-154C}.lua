@@ -13,11 +13,12 @@ _G["launcher"]["{BRU55_2*AGM-154C}"] = {
 			payload_CLSID = "{9BCC2A2B-5708-4860-B1F1-053A18442067}"
 		} },
 	Picture = "AGM154.png",
-	Weight = 1018,
+	Weight = 1055.5,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/glide_bombs.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
-	displayName = "BRU-55 - 2 x AGM-154C",
+	displayName = "BRU-55 with 2 x AGM-154C - JSOW Unitary BROACH",
+	name = "{BRU55_2*AGM-154C}",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

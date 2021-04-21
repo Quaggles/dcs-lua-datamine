@@ -69,6 +69,7 @@ _G["rockets"]["#Index"] = {
 		turn_max_calc_angle_deg = 90,
 		turn_point_trigger_dist = 100
 	},
+	display_name = "LS-6-500",
 	fm = {
 		A = 0.07,
 		I = 417.729375,

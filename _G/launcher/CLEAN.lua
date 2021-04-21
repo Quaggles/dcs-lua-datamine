@@ -6,5 +6,6 @@ _G["launcher"]["<CLEAN>"] = {
 	Weight = 0,
 	Weight_Empty = 0,
 	attribute = { 0, 0, 0, "Redacted" },
+	category = 10,
 	displayName = "NO PYLON"
 }

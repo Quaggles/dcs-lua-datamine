@@ -2,6 +2,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	Categories = { {
 			name = "HelicopterCarrier"
 		} },
+	Countries = { "Liberia", "Australia", "Brazil", "Chile", "China", "Egypt", "France", "Germany", "India", "Indonesia", "Iran", "Israel", "Italy", "Japan", "Lebanon", "Malaysia", "Mexico", "Norway", "Oman", "Pakistan", "Poland", "Romania", "Russia", "Saudi Arabia", "South Africa", "South Korea", "Spain", "Thailand", "The Netherlands", "Turkey", "UK", "United Arab Emirates", "USA" },
 	DM = { {
 			area_arg = 70,
 			area_fire = {
@@ -54,27 +55,40 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			area_name = "C_Hull_Back_Left"
 		}, {
 			area_arg = 76,
-			area_life = 200,
+			area_life = 100,
 			area_name = "C_Superstructure_Right"
 		}, {
 			area_arg = 77,
-			area_life = 200,
+			area_life = 100,
 			area_name = "C_Superstructure_Left"
 		}, {
 			area_arg = 78,
 			area_life = 55,
 			area_name = "C_Pipe"
+		}, {
+			area_arg = 79,
+			area_life = 100,
+			area_name = "C_Deck_Front_Right"
+		}, {
+			area_arg = 80,
+			area_life = 100,
+			area_name = "C_Deck_Central_Right"
+		}, {
+			area_arg = 81,
+			area_life = 70,
+			area_name = "C_Deck_Back_Right"
 		} },
 	DeckLevel = 5,
 	DetectionRange = 0,
-	DisplayName = "Bulk carrier Handy Wind",
-	DisplayNameShort = "Handy Wind",
-	Gamma_max = 0.35,
+	DisplayName = "Bulker Handy Wind",
+	DisplayNameShort = "HndWnd",
+	Gamma_max = 1,
 	Height = 27,
 	Helicopter_Num_ = 1,
+	IR_emission_coeff = 0.35,
 	Landing_Point = { 9.2, 6.64, 0 },
 	Length = 180,
-	Name = "Bulk carrier Handy Wind",
+	Name = "Bulker Handy Wind",
 	Om = 0.02,
 	R_min = 400,
 	Rate = 100,
@@ -99,7 +113,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 3, 12, 15, "Redacted", "Unarmed ships", "HelicopterCarrier", "All", "Ships", "HeavyArmoredUnits" },
+	attribute = { 3, 12, 15, "Redacted", "Unarmed ships", "Aircraft Carriers", "HelicopterCarrier", "All", "Ships", "HeavyArmoredUnits", "Armed ships", "Armed Air Defence", "Heavy armed ships" },
 	chassis = {},
 	distFindObstacles = 500,
 	economy_distance = 15927200,
@@ -128,6 +142,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	shipLength = 180,
 	snd = {},
 	speedup = 0.101986,
+	swapped_names = true,
+	tags = { "Civilian" },
 	type = "HandyWind",
 	visual = {
 		shape = "Ship_Handy_Wind",

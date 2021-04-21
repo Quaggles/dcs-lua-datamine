@@ -201,7 +201,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		} },
 	DetectionRange = 0,
 	DisplayName = "MBT M1A2 Abrams",
+	DisplayNameShort = "M1A2",
 	EPLRS = true,
+	IR_emission_coeff = 0.15,
 	MaxSpeed = 66.70008,
 	Name = "MBT M1A2 Abrams",
 	Rate = 20,
@@ -373,15 +375,20 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "MBT" },
 	turbine = true,
 	type = "M-1 Abrams",
 	visual = {
+		agony_explosion_size = 2,
 		dirt_pos = { -3.8, 0.7, -1.429 },
 		dust_pos = { 3.9, 0.1, -1.429 },
-		fire_pos = { 0, 0, 0 },
-		fire_size = 1,
-		fire_time = 1200,
+		fire_pos = { -0.85, 0.9, 0 },
+		fire_size = 1.15,
+		fire_time = 620,
+		max_time_agony = 100,
+		min_time_agony = 10,
 		shape = "m-1",
 		shape_dstr = "M-1_p_1"
 	}

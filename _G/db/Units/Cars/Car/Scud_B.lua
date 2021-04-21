@@ -5,8 +5,10 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	Countries = { "Egypt", "Iran", "Kazakhstan", "North Korea", "Libya", "Oman", "Syria", "Vietnam", "Yemen", "Belarus", "Bulgaria", "Czech Republic", "Hungary", "Iraq", "Poland", "Romania", "Yemen", "Ukraine", "United Arab Emirates", "Yugoslavia", "USSR" },
 	DetectionRange = 0,
-	DisplayName = "SRBM SS-1C Scud-B 9K72 LN 9P117M",
-	Name = "SRBM SS-1C Scud-B 9K72 LN 9P117M",
+	DisplayName = "SSM SS-1C Scud-B",
+	DisplayNameShort = "Scud R-17",
+	IR_emission_coeff = 0.09,
+	Name = "SSM SS-1C Scud-B",
 	Rate = 20,
 	ThreatRange = 320000,
 	ThreatRangeMin = 50000,
@@ -169,14 +171,19 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			sound = "Damage/VehHit"
 		}
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "MissilesSS", "SSM" },
 	toggle_alarm_state_interval = 20,
 	turbine = false,
 	type = "Scud_B",
 	visual = {
-		fire_pos = { 1.575, 0, 0 },
+		agony_explosion_size = 15,
+		fire_pos = { 2.6, 1.5, 0 },
 		fire_size = 0.8,
-		fire_time = 1000,
+		fire_time = 900,
+		max_time_agony = 135,
+		min_time_agony = 30,
 		shape = "Scud_B",
 		shape_dstr = "Scud_B_Crashed"
 	}

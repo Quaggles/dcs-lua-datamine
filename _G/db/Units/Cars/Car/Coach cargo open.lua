@@ -1,7 +1,9 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 0,
-	DisplayName = "Coach for open cargo",
-	Name = "Coach for open cargo",
+	DisplayName = "Open Wagon",
+	DisplayNameShort = "Wagon",
+	IR_emission_coeff = 0,
+	Name = "Open Wagon",
 	Rate = 4,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
@@ -23,24 +25,28 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	mapclasskey = "P0091000212",
 	shape_table_data = { {
 			classname = "lLandVehicle",
-			desrt = "wagon-gruz_otkr_p_1",
+			desrt = "wagon-gruz-otkr_p_1",
 			file = "wagon-gruz-otkr",
 			life = 5,
 			name = "wagon-gruz-otkr",
 			positioning = "BYNORMAL",
 			username = "Coach cargo open"
 		}, {
-			file = "wagon-gruz_otkr_p_1",
-			name = "wagon-gruz_otkr_p_1"
+			file = "wagon-gruz-otkr_p_1",
+			name = "wagon-gruz-otkr_p_1"
 		} },
 	snd = {},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Train", "Carriage" },
 	type = "Coach cargo open",
 	visual = {
-		fire_pos = { -2, 0, 0 },
-		fire_size = 0.7,
-		fire_time = 1000,
+		agony_explosion_size = 0,
+		fire_pos = {},
+		fire_size = 0,
+		fire_time = 0,
+		max_time_agony = -1,
 		shape = "wagon-gruz-otkr",
-		shape_dstr = "wagon-gruz_otkr_p_1"
+		shape_dstr = "wagon-gruz-otkr_p_1"
 	}
 }

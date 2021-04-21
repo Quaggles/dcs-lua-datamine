@@ -187,7 +187,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_250"] = {
 		},
 		scheme = "schemes/bombs/bomb-cassette.sch"
 	},
-	display_name = "RBK-250",
+	display_name = "RBK-250 PTAB-2.5M",
 	mass = 244.6,
 	model = "RBK_250_PTAB_25M_cassette",
 	name = "RBK_250",

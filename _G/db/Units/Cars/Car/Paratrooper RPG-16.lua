@@ -2,7 +2,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	CustomAimPoint = { 0, 1, 0 },
 	DetectionRange = 0,
 	DisplayName = "Paratrooper RPG-16",
+	DisplayNameShort = "RPG16",
 	DropWeight = 100,
+	IR_emission_coeff = 0.004,
 	MaxSpeed = 14.4,
 	Name = "Paratrooper RPG-16",
 	Rate = 1,
@@ -22,6 +24,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { {} },
+			canSetTacticalDir = true,
 			omegaY = 1.3962634015955,
 			omegaZ = 1.3962634015955,
 			pidY = {
@@ -38,7 +41,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			}
 		},
 		fire_on_march = false,
-		maxTargetDetectionRange = 500
+		maxTargetDetectionRange = 2000
 	},
 	Waypoint_Custom_Panel = true,
 	animation_arguments = {},
@@ -59,9 +62,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		max_range_finding_target = 500
 	},
 	snd = {},
+	swapped_names = true,
+	tags = { "Infantry" },
 	type = "Paratrooper RPG-16",
 	visual = {
 		fire_pos = {},
+		parachute = 19,
 		shape = "Infantry_typeD_RPG-16",
 		shape_dstr = "Infantry_typeD_P_1"
 	}

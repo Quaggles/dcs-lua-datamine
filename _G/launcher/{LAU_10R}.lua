@@ -19,11 +19,11 @@ _G["launcher"]["{LAU_10R}"] = {
 			connector_name = "tube_04"
 		} },
 	Picture = "LAU10.png",
-	Weight = 440,
+	Weight = 316.6,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
-	displayName = "LAU-10R - 4 ZUNI MK 71",
+	displayName = "LAU-10R pod - 4 x 127mm ZUNI, UnGd Rkts Mk71, HE/FRAG",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

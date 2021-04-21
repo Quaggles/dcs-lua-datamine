@@ -48,7 +48,7 @@ _G["weapons_table"]["weapons"]["bombs"]["OFAB-100 Jupiter"] = {
 			v0 = 200
 		},
 		type = 0,
-		user_name = "OFAB-100 Jupiter",
+		user_name = "OFAB-100 Jupiter - 100kg GP Bomb LD",
 		warhead = {
 			caliber = 273,
 			concrete_factors = { 1, 1, 1 },
@@ -64,7 +64,7 @@ _G["weapons_table"]["weapons"]["bombs"]["OFAB-100 Jupiter"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
-	display_name = "OFAB-100 Jupiter",
+	display_name = "OFAB-100 Jupiter - 100kg GP Bomb LD",
 	mass = 121,
 	model = "ofab-100-110tu",
 	name = "OFAB-100 Jupiter",
@@ -114,7 +114,7 @@ _G["weapons_table"]["weapons"]["bombs"]["OFAB-100 Jupiter"] = {
 			v0 = 200
 		},
 		type = 0,
-		user_name = "OFAB-100 Jupiter",
+		user_name = "OFAB-100 Jupiter - 100kg GP Bomb LD",
 		warhead = {
 			caliber = 273,
 			concrete_factors = { 1, 1, 1 },

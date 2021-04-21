@@ -6,6 +6,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	DetectionRange = 0,
 	DisplayName = "MBT Leopard 1A3",
+	DisplayNameShort = "Leo1A3",
+	IR_emission_coeff = 0.1,
 	MaxSpeed = 65.00016,
 	Name = "MBT Leopard 1A3",
 	Rate = 10,
@@ -118,15 +120,20 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "MBT" },
 	turbine = false,
 	type = "Leopard1A3",
 	visual = {
+		agony_explosion_size = 2,
 		dirt_pos = { -3.2, 0.6, -1.347 },
 		dust_pos = { 3.05, 0.1, -1.347 },
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.9,
-		fire_time = 1000,
+		fire_pos = { -0.8, 0.8, 0 },
+		fire_size = 0.82,
+		fire_time = 530,
+		max_time_agony = 90,
+		min_time_agony = 10,
 		shape = "LEOPARD-1A3",
 		shape_dstr = "LEOPARD-1A3_P_1"
 	}

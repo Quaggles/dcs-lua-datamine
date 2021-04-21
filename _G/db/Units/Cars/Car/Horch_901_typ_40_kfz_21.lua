@@ -13,13 +13,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	Countries = { "Germany", "Third Reich", "Japan", "Italian Social Republic", "Finland", "Hungary", "Romania", "Bulgaria" },
 	DetectionRange = 0,
-	DisplayName = "Horch 901 typ 40",
+	DisplayName = "LUV Horch 901 Staff Car",
+	DisplayNameShort = "Horch",
+	IR_emission_coeff = 0.065,
 	InternalCargo = {
 		maximalCapacity = 300,
 		nominalCapacity = 300
 	},
 	MaxSpeed = 95.004,
-	Name = "Horch 901 typ 40",
+	Name = "LUV Horch 901 Staff Car",
 	Rate = 3,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
@@ -60,12 +62,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Unarmed", "Scout/Recon" },
 	type = "Horch_901_typ_40_kfz_21",
 	visual = {
-		fire_pos = { 1.5, 0.7, 0 },
-		fire_size = 0.2,
-		fire_time = 400,
+		agony_explosion_size = 2,
+		fire_pos = { 1.55, 0.8, 0 },
+		fire_size = 0.35,
+		fire_time = 440,
+		max_time_agony = 80,
+		min_time_agony = 10,
 		shape = "horch_901_typ_40_kfz_21",
 		shape_dstr = "horch_901_typ_40_kfz_21_p_1"
 	}

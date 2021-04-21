@@ -4,6 +4,7 @@ _G["bombs"]["#Index"] = {
 	Name = "Redacted",
 	VyHold = -10,
 	_unique_resource_name = "weapons.bombs.LUU_2BB",
+	display_name = "LUU-2BB",
 	hMax = 7000,
 	hMin = 400,
 	mass = 13.6,

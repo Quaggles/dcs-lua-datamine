@@ -6,7 +6,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	DetectionRange = 0,
 	DisplayName = "IFV M2A2 Bradley",
+	DisplayNameShort = "M2A2",
 	EPLRS = true,
+	IR_emission_coeff = 0.095,
 	InternalCargo = {
 		maximalCapacity = 600,
 		nominalCapacity = 600
@@ -120,16 +122,21 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "IFV" },
 	toggle_alarm_state_interval = 4,
 	turbine = false,
 	type = "M-2 Bradley",
 	visual = {
+		agony_explosion_size = 3,
 		dirt_pos = { -2.8, 0.5, -1.248 },
 		dust_pos = { 3, 0.1, -1.248 },
-		fire_pos = { 1, 0, 0.762 },
-		fire_size = 0.9,
-		fire_time = 1100,
+		fire_pos = { 0.3, 0.85, 0 },
+		fire_size = 1,
+		fire_time = 400,
+		max_time_agony = 100,
+		min_time_agony = 10,
 		shape = "m-2",
 		shape_dstr = "M-2_P1"
 	}

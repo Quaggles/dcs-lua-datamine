@@ -2,7 +2,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	CustomAimPoint = { 0, 1.5, 0 },
 	DetectionRange = 120000,
 	DisplayName = "EWR 1L13",
+	DisplayNameShort = "EWR13",
 	EWR = true,
+	IR_emission_coeff = 0.07,
 	MaxSpeed = 0,
 	Name = "EWR 1L13",
 	Rate = 100,
@@ -188,13 +190,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		min_range_finding_target = 0
 	},
 	snd = {
-		radarRotation = "RadarRotation"
+		radarRotation = "GndTech/RadarRotation"
 	},
+	swapped_names = true,
+	tags = { "Air Defence", "EW Radar" },
 	type = "1L13 EWR",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.8,
-		fire_time = 900,
+		agony_explosion_size = 2,
+		fire_pos = { 1, 1.1, 0 },
+		fire_size = 0.5,
+		fire_time = 100,
+		max_time_agony = 100,
+		min_time_agony = 5,
 		shape = "1l13",
 		shape_dstr = "Ural-375_p_1"
 	}

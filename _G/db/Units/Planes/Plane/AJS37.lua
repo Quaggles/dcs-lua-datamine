@@ -1572,8 +1572,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				limits_6DOF = {
 					roll = 90,
 					x = { -0.15, 0.5 },
-					y = { -0.35, 1.15 },
-					z = { -0.6, 0.6 }
+					y = { -0.25, 0.25 },
+					z = { -0.2, 0.2 }
 				}
 			} }
 	},
@@ -1603,7 +1603,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			ejection_seat_name = 266,
 			pos = { 4.8, 0.6, 0 },
 			role = "pilot",
-			role_display_name = "Pilot in command"
+			role_display_name = "Pilot"
 		} },
 	crew_size = 1,
 	detection_range_max = 60,
@@ -1631,13 +1631,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		lights = { {
 				lights = { {
 						argument_1 = 811,
-						color = { 0.3, 0, 0, 0.5 },
+						color = { 0.07, 0, 0, 0.5 },
 						connector = "RED_BEACON T001",
 						period = 1.33,
 						phase_shift = 0,
 						typename = "strobelight"
 					}, {
-						color = { 0.3, 0, 0, 0 },
+						color = { 0.07, 0, 0, 0 },
 						connector = "RED_BEACON B001",
 						period = 1.33,
 						phase_shift = 0,
@@ -1727,7 +1727,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			DuplicateOf = "Door0"
 		}
 	},
-	net_animation = { 38, 435, 900, 901, 910, 911 },
+	net_animation = { 38, 400, 435, 811, 900, 901, 910, 911 },
 	nose_gear_pos = { 5.1, -2.1, 0 },
 	nose_gear_wheel_diameter = 0.38,
 	panelRadio = { {
@@ -1801,6 +1801,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			name = "su-25-oblomok",
 			positioning = "BYNORMAL"
 		} },
+	swapped_names = true,
 	tand_gear_max = 0.4,
 	tanker_type = 0,
 	thrust_sum_ab = 11788,

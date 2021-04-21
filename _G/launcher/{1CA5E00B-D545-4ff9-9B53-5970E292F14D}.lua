@@ -30,6 +30,7 @@ _G["launcher"]["{1CA5E00B-D545-4ff9-9B53-5970E292F14D}"] = {
 	Picture = "LAU131.png",
 	Weight = 93.27,
 	attribute = { 4, 7, 32, "Redacted" },
-	displayName = "LAU-131 - 7 2.75' rockets MK61 (Practice)",
+	category = 3,
+	displayName = 'LAU-131 pod - 7 x 2.75" Hydra, UnGd Rkts Mk61, Practice',
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

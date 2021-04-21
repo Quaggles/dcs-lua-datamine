@@ -38,6 +38,7 @@ _G["rockets"]["#Index"] = {
 	_origin = "AircraftWeaponPack",
 	category = 2,
 	class_name = "wAmmunitionSelfHoming",
+	display_name = "AGM-65A",
 	exhaust = { 0.7, 0.7, 0.7, 0.1 },
 	fm = {
 		A = 0.36,

@@ -27,6 +27,6 @@ _G["launcher"]["{P47_5_HVARS_ON_LEFT_WING_RAILS}"] = {
 	_origin = "World War II AI Units by Eagle Dynamics",
 	attribute = { 4, 7, 33, "Redacted" },
 	category = 3,
-	displayName = "5 x HVAR UnGd Rkt",
+	displayName = "5 x HVAR, UnGd Rkt",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

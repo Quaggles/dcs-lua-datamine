@@ -5,9 +5,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	Countries = { "Australia", "Belgium", "Canada", "Czech Republic", "France", "Italia", "Poland", "The Netherlands", "UK", "USA", "USSR", "Yugoslavia" },
 	DetectionRange = 0,
-	DisplayName = "Daimler Armoured Car",
+	DisplayName = "Car Daimler Armored",
+	DisplayNameShort = "Daimler",
+	IR_emission_coeff = 0.07,
 	MaxSpeed = 79.992,
-	Name = "Daimler Armoured Car",
+	Name = "Car Daimler Armored",
 	Rate = 8,
 	ThreatRange = 2000,
 	WS = { {
@@ -145,13 +147,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "Scout/Recon" },
 	toggle_alarm_state_interval = 0,
 	type = "Daimler_AC",
 	visual = {
-		fire_pos = { -1.3, 0.8, 0 },
-		fire_size = 0.2,
-		fire_time = 600,
+		agony_explosion_size = 5,
+		fire_pos = { -0.3, 0.8, 0 },
+		fire_size = 0.33,
+		fire_time = 400,
+		max_time_agony = 130,
+		min_time_agony = 10,
 		shape = "Daimler_AC",
 		shape_dstr = "Daimler_AC-p_1"
 	}

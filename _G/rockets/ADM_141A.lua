@@ -58,6 +58,7 @@ _G["rockets"]["#Index"] = {
 		turn_max_calc_angle_deg = 90,
 		turn_point_trigger_dist = 100
 	},
+	display_name = "ADM-141A",
 	engine_control = {
 		K = 0,
 		Kd = 0,

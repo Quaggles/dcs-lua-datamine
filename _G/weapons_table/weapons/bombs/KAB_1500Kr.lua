@@ -45,7 +45,7 @@ _G["weapons_table"]["weapons"]["bombs"]["KAB_1500Kr"] = {
 			piercing_mass = 89.6
 		}
 	},
-	display_name = "KAB-1500L-Pr",
+	display_name = "KAB-1500LG-Pr",
 	mass = 1500,
 	model = "kab-1500",
 	name = "KAB_1500Kr",

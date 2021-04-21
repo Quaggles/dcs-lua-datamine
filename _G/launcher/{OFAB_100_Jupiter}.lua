@@ -11,5 +11,5 @@ _G["launcher"]["{OFAB_100_Jupiter}"] = {
 	_origin = "L-39C/ZA by Eagle Dynamics",
 	attribute = { 4, 5, 9, "Redacted" },
 	category = 1,
-	displayName = "OFAB-100 Jupiter"
+	displayName = "OFAB-100 Jupiter - 100kg GP Bomb LD"
 }

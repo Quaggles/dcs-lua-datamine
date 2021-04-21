@@ -5,6 +5,7 @@ _G["db"]["Units"]["Fortifications"]["Fortification"]["#Index"] = {
 	Name = "Dragonteeth 5",
 	Rate = 20,
 	ShapeName = "Dragonsteeth_04",
+	ShapeNameDestr = "",
 	_file = "./Mods/tech/WWII Units/Database/db_ground_objects.lua",
 	_origin = "WWII Armour and Technics",
 	attribute = { 5, 9 },
@@ -15,13 +16,19 @@ _G["db"]["Units"]["Fortifications"]["Fortification"]["#Index"] = {
 	positioning = "ONLYHEIGTH",
 	shape_table_data = { {
 			classname = "lLandVehicle",
+			desrt = "",
 			file = "Dragonsteeth_04",
 			life = 150,
 			name = "Dragonsteeth_04",
 			positioning = "ONLYHEIGTH",
 			username = "Dragonteeth 5"
 		}, {
-			name = "Dragonsteeth_04"
+			expMass = 0,
+			file = "",
+			fire = { 0, 1 },
+			iscrashmodel = true,
+			name = ""
 		} },
+	swapped_names = true,
 	type = "Dragonteeth 5"
 }

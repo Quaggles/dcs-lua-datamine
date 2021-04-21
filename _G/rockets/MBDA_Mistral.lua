@@ -58,6 +58,7 @@ _G["rockets"]["#Index"] = {
 		boost_start = 0.001,
 		march_start = 0.2
 	},
+	display_name = "MBDA Mistral",
 	fm = {
 		A = 0.6,
 		I = 5.39121,

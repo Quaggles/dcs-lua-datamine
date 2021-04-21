@@ -12,7 +12,7 @@ _G["launcher"]["{X-29L}"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
-	displayName = "Kh-29L",
+	displayName = "Kh-29L (AS-14 Kedge) - 657kg, ASM, Semi-Act Laser",
 	ejectImpulse = 2000,
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

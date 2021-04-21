@@ -219,10 +219,10 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_250_275_AO_1SCH"] = {
 			v0 = 200
 		},
 		type = 5,
-		user_name = "RBK-250-275 AO-1SCh",
+		user_name = "RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag",
 		wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 	},
-	display_name = "RBK-250-275 AO-1SCh",
+	display_name = "RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag",
 	mass = 273,
 	model = "rbk-250",
 	name = "RBK_250_275_AO_1SCH",
@@ -443,7 +443,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_250_275_AO_1SCH"] = {
 			v0 = 200
 		},
 		type = 5,
-		user_name = "RBK-250-275 AO-1SCh",
+		user_name = "RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag",
 		wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 	},
 	sounderName = "Weapons/Bomb",

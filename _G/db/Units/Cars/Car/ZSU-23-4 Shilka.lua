@@ -4,9 +4,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 5000,
-	DisplayName = "SPAAA ZSU-23-4 Shilka",
+	DisplayName = 'SPAAA ZSU-23-4 Shilka "Gun Dish"',
+	DisplayNameShort = "ZSU-23",
+	IR_emission_coeff = 0.08,
 	MaxSpeed = 43.99992,
-	Name = "SPAAA ZSU-23-4 Shilka",
+	Name = 'SPAAA ZSU-23-4 Shilka "Gun Dish"',
 	Rate = 10,
 	Sensors = {
 		RADAR = "ZSU-23-4 Shilka"
@@ -30,7 +32,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							shell_name = {}
 						} },
 					beamWidth = 1.5707963267949,
-					customViewPoint = { "genericAAA", { 0.05, 0, 0 } },
 					display_name = "2A14x4",
 					name = "2A14_4",
 					reactionTime = 6,
@@ -42,6 +43,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				} },
 			angles = { { 2.6179938779915, -2.6179938779915, -0.1, 1.48 }, { -2.6179938779915, 2.6179938779915, -0.078539816339745, 1.48 } },
 			center = "CENTER_TOWER",
+			cockpit = {
+				[2] = {}
+			},
 			isoviewOffset = { 0, 4, 0 },
 			omegaY = 2.0943951023932,
 			omegaZ = 2.7925268031909,
@@ -92,15 +96,20 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Air Defence", "SP AAA" },
 	toggle_alarm_state_interval = 4,
 	type = "ZSU-23-4 Shilka",
 	visual = {
+		agony_explosion_size = 2,
 		dirt_pos = { -2.9, 0.5, -1.283 },
 		dust_pos = { 3.15, 0.1, -1.283 },
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.8,
-		fire_time = 1000,
+		fire_pos = { -0.8, 0.8, 0 },
+		fire_size = 0.75,
+		fire_time = 400,
+		max_time_agony = 120,
+		min_time_agony = 10,
 		shape = "zsu-23-4",
 		shape_dstr = "Zsu-23-4_p_1"
 	}

@@ -13,12 +13,14 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	Countries = { "UK", "Iran", "Malaysia", "Oman", "Singapore", "Switzerland", "Turkey", "United Arab Emirates", "Zambia", "Australia", "Libya", "Netherlands", "Iraq" },
 	DetectionRange = 0,
-	DisplayName = "Land Rover 109 S3",
+	DisplayName = "LUV Land Rover 109",
+	DisplayNameShort = "R109",
+	IR_emission_coeff = 0.075,
 	InternalCargo = {
 		maximalCapacity = 700,
 		nominalCapacity = 700
 	},
-	Name = "Land Rover 109 S3",
+	Name = "LUV Land Rover 109",
 	Rate = 3,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
@@ -80,12 +82,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Unarmed", "Scout", "Recon" },
 	type = "Land_Rover_109_S3",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.7,
-		fire_time = 1000,
+		agony_explosion_size = 2,
+		fire_pos = { 1.1, 0.9, 0 },
+		fire_size = 0.31,
+		fire_time = 480,
+		max_time_agony = 130,
+		min_time_agony = 10,
 		shape = "land_rover_109_s3",
 		shape_dstr = "land_rover_109_s3_p_1"
 	}

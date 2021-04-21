@@ -4,9 +4,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 50000,
-	DisplayName = "SAM SA-11 Buk LN 9A310M1",
+	DisplayName = 'SAM SA-11 Buk "Gadfly" Fire Dome TEL',
+	DisplayNameShort = "SA-11",
+	IR_emission_coeff = 0.095,
 	MaxSpeed = 65.00016,
-	Name = "SAM SA-11 Buk LN 9A310M1",
+	Name = 'SAM SA-11 Buk "Gadfly" Fire Dome TEL',
 	Rate = 70,
 	Sensors = {
 		OPTIC = { "Karat visir" },
@@ -194,13 +196,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = true,
+	tags = { "Air Defence", "SAM TEL" },
 	toggle_alarm_state_interval = 15,
 	type = "SA-11 Buk LN 9A310M1",
 	visual = {
-		fire_pos = { 0, 0, 0 },
+		agony_explosion_size = 2,
+		fire_pos = { -0.6, 0.85, 0 },
 		fire_size = 0.9,
-		fire_time = 1000,
+		fire_time = 400,
+		max_time_agony = 90,
+		min_time_agony = 10,
 		shape = "9a310m1",
 		shape_dstr = "9a310m1_p_1"
 	}

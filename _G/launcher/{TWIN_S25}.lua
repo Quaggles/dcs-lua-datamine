@@ -18,6 +18,7 @@ _G["launcher"]["{TWIN_S25}"] = {
 	Picture = "S25.png",
 	Weight = 902,
 	attribute = { 4, 7, 32, "Redacted" },
-	displayName = "2xS-25 OFM",
+	category = 3,
+	displayName = "2 x S-25-OFM - 340mm UnGdrocket, 480kg Penetrator",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

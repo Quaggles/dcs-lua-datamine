@@ -2,18 +2,7 @@ _G["launcher"]["{LAU-7 - AIM-9M}"] = {
 	CLSID = "{LAU-7 - AIM-9M}",
 	Count = 1,
 	Cx_pil = 0.000755859375,
-	Elements = { {
-			IsAdapter = true,
-			ShapeName = "HB_F14_EXT_LAU-7",
-			shape_table_data = { {
-					file = "HB_F14_EXT_LAU-7",
-					fire = { 0, 1 },
-					index = "Redacted",
-					life = 60,
-					name = "HB_F14_EXT_LAU-7",
-					username = "HB_F14_EXT_LAU-7"
-				} }
-		}, {
+	Elements = { "_G/Pylons/HB_F14_EXT_LAU-7.lua", {
 			ShapeName = "AIM-9",
 			connector_name = "WEP_Sidewinder_Extra"
 		} },

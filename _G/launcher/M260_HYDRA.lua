@@ -9,6 +9,7 @@ _G["launcher"]["M260_HYDRA"] = {
 	Picture = "lau68.png",
 	Weight = 112,
 	attribute = { 4, 7, 32, "Redacted" },
+	category = 3,
 	displayName = "M260 - 7 2.75' rockets MK156",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

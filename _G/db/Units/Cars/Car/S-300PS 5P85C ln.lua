@@ -1,8 +1,10 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 0,
-	DisplayName = "SAM SA-10 S-300PS LN 5P85C",
+	DisplayName = 'SAM SA-10 S-300 "Grumble" TEL D',
+	DisplayNameShort = "SA-10c",
+	IR_emission_coeff = 0.08,
 	MaxSpeed = 60.00012,
-	Name = "SAM SA-10 S-300PS LN 5P85C",
+	Name = 'SAM SA-10 S-300 "Grumble" TEL D',
 	Rate = 10,
 	ThreatRange = 120000,
 	WS = { {
@@ -57,11 +59,16 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		height = 8.225
 	},
 	snd = {},
+	swapped_names = true,
+	tags = { "Air Defence", "Launcher" },
 	type = "S-300PS 5P85C ln",
 	visual = {
-		fire_pos = { 2, 0, 0 },
+		agony_explosion_size = 2,
+		fire_pos = { 3.9, 1.1, 0 },
 		fire_size = 1.1,
-		fire_time = 1100,
+		fire_time = 500,
+		max_time_agony = 80,
+		min_time_agony = 10,
 		shape = "5p85c",
 		shape_dstr = "5p85c_p_1"
 	}

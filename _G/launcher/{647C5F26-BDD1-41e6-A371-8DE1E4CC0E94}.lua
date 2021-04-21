@@ -28,8 +28,9 @@ _G["launcher"]["{647C5F26-BDD1-41e6-A371-8DE1E4CC0E94}"] = {
 			connector_name = "tube_07"
 		} },
 	Picture = "LAU68.png",
-	Weight = 120.13,
+	Weight = 118.8,
 	attribute = { 4, 7, 32, "Redacted" },
-	displayName = "LAU-68 - 7 2.75' rockets M257 (Parachute illumination)",
+	category = 3,
+	displayName = 'LAU-68 pod - 7 x 2.75" Hydra, UnGd Rkts M257, Para Illum',
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

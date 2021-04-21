@@ -45,6 +45,7 @@ _G["launcher"]["{E1AAE713-5FC3-4CAA-9FF5-3FDCFB899E33}"] = {
 	PictureBlendColor = "0xffffffff",
 	Weight = 2310,
 	attribute = { 4, 5, 32, "Redacted" },
-	displayName = "MER*9 FAB-250",
+	category = 1,
+	displayName = "MBD3-U9M with 9 x FAB-250 - 250kg GP Bombs LD",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

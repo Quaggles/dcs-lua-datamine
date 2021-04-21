@@ -3148,6 +3148,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Nu_1 = 0.9,
 			Nu_2 = 0.001,
 			P_oil = 495438,
+			Shutdown_Duration = 9.8,
+			Startup_Ignition_Time = 8.3,
+			Startup_Prework = 51,
+			Startup_RPMs = { { 0, 0 }, { 1, 60 }, { 8, 60 }, { 8.6, 880 }, { 13, 601 } },
 			Stroke = 0.152,
 			V_pist_0 = 12,
 			cefor = 0.37,
@@ -3167,6 +3171,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			k_piston = 3000,
 			k_reg = 0.003,
 			k_vel = 0.017,
+			prop_blades_count = 4,
+			prop_locations = { { 2.211, -0.014, 0 }, { 0, 0, -0.032637657012294 } },
+			prop_pitch_feather = 80,
+			prop_pitch_max = 65,
+			prop_pitch_min = 23,
 			table_data = { { 0, 16620 }, { 0.1, 15600 }, { 0.2, 14340 }, { 0.3, 13320 }, { 0.4, 12230 }, { 0.5, 11300 }, { 0.6, 10600 }, { 0.7, 10050 }, { 0.8, 9820 }, { 0.9, 5902 }, { 1.9, 3469 } },
 			type = "Piston"
 		}
@@ -3366,7 +3375,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			pilot_name = 56,
 			pos = { -1.46, -0.045, 0 },
 			role = "pilot",
-			role_display_name = "Pilot in command"
+			role_display_name = "Pilot"
 		} },
 	date_of_introduction = 1944,
 	defFuelRatio = 0.68,
@@ -3606,7 +3615,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				min = 100
 			}
 		} },
-	propellorShapeType = "3ARG",
+	propellorShapeName = "P-51D_blade.FBX",
+	propellorShapeType = "3ARG_PROC_BLUR",
 	radar_can_see_ground = false,
 	range = 1015,
 	shape_table_data = { {
@@ -3627,6 +3637,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			name = "p51-oblomoki"
 		} },
 	stores_number = 11,
+	swapped_names = true,
 	tand_gear_max = 0.577,
 	thrust_sum_ab = 8224,
 	thrust_sum_max = 8224,

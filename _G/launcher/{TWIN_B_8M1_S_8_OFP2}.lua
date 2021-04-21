@@ -21,6 +21,7 @@ _G["launcher"]["{TWIN_B_8M1_S_8_OFP2}"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
-	displayName = "2xB-8V20A - 20 S-8OFP2",
+	displayName = "2 x B-8V20A pods - 40 x S-8OFP2, 80mm UnGd Rkts, HE/Frag/AP",
+	name = "{TWIN_B_8M1_S_8_OFP2}",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

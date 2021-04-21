@@ -1,9 +1,11 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Countries = { "Germany", "Third Reich", "Japan", "Italian Social Republic", "Finland", "Hungary", "Romania", "Bulgaria" },
 	DetectionRange = 30000,
-	DisplayName = "AAA Kdo.G.40",
+	DisplayName = "AAA SP Kdo.G.40",
+	DisplayNameShort = "Kdo.G40",
+	IR_emission_coeff = 0.03,
 	MaxSpeed = 0,
-	Name = "AAA Kdo.G.40",
+	Name = "AAA SP Kdo.G.40",
 	Rate = 3,
 	Sensors = {
 		OPTIC = { "long-range air defence optics" }
@@ -106,11 +108,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "KDO_Mod40_p_1"
 		} },
 	snd = {},
+	swapped_names = true,
+	tags = { "Air Defence", "AAA", "Optical Tracker" },
 	type = "KDO_Mod40",
 	visual = {
-		fire_pos = { 0, 0.6, 0 },
-		fire_size = 0.4,
-		fire_time = 500,
+		agony_explosion_size = 0,
+		fire_pos = {},
+		fire_size = 0,
+		fire_time = 0,
+		max_time_agony = -1,
 		shape = "KDO_Mod40",
 		shape_dstr = "KDO_Mod40_p_1"
 	}

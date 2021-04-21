@@ -5,10 +5,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "MLRS M270",
+	DisplayName = "MLRS M270 227mm",
+	DisplayNameShort = "M270",
 	EPLRS = true,
+	IR_emission_coeff = 0.09,
 	MaxSpeed = 64.00008,
-	Name = "MLRS M270",
+	Name = "MLRS M270 227mm",
 	Rate = 20,
 	ThreatRange = 32000,
 	ThreatRangeMin = 10000,
@@ -58,7 +60,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							shot_delay = 0.1
 						} },
 					barrels_reload_type = 3,
-					customViewPoint = { "genericMLRS", { -5, 1.2, -1 } },
+					customViewPoint = { "genericMLRS", { -5, 1.2, -1 },
+						open = true
+					},
 					depends_on_unit = { { { "MLRS FDDM", 1 } }, { { "none" } } },
 					distanceMax = 32000,
 					distanceMin = 10000,
@@ -75,6 +79,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				} },
 			angles = { { 2.0071286397935, 1.0471975511966, 0.10471975511966, 1.0471975511966 }, { -1.0471975511966, -2.0071286397935, 0.10471975511966, 1.0471975511966 } },
 			angles_mech = { { 3.1415926535898, 2.4434609527921, 0, 0.5235987755983 }, { 2.4434609527921, 1.0471975511966, 0, 1.0471975511966 }, { 1.0471975511966, 0.05235987755983, 0.10471975511966, 1.0471975511966 }, { 0.05235987755983, -0.05235987755983, 0, 1.0471975511966 }, { -0.05235987755983, -1.0471975511966, 0.10471975511966, 1.0471975511966 }, { -1.0471975511966, -2.4434609527921, 0, 1.0471975511966 }, { -2.4434609527921, -3.1415926535898, 0, 0.5235987755983 } },
+			canSetTacticalDir = true,
 			center = "CENTER_TOWER",
 			drawArgument1 = 0,
 			drawArgument2 = 1,
@@ -147,15 +152,20 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			sound = "Damage/VehHit"
 		}
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Artillery", "MRL" },
 	turbine = false,
 	type = "MLRS",
 	visual = {
+		agony_explosion_size = 2,
 		dirt_pos = { -3.3, 0.6, -1.248 },
 		dust_pos = { 3.3, 0, -1.248 },
-		fire_pos = { 1.575, 0, 0 },
-		fire_size = 0.8,
-		fire_time = 1000,
+		fire_pos = { 0.69, 0.9, 0 },
+		fire_size = 0.7,
+		fire_time = 380,
+		max_time_agony = 80,
+		min_time_agony = 10,
 		shape = "MLRS",
 		shape_dstr = "MLRS_P_1"
 	}

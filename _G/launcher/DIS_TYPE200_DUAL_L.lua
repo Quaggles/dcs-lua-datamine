@@ -1,18 +1,15 @@
 _G["launcher"]["DIS_TYPE200_DUAL_L"] = {
 	CLSID = "DIS_TYPE200_DUAL_L",
 	Count = 2,
-	Cx_pil = 0.0036,
-	Elements = { {
-			IsAdapter = true,
-			ShapeName = "BRU_33A"
+	Cx_pil = 0.00158,
+	Elements = { "_G/Pylons/JF-17_GDJ-II19L.lua", {
+			DrawArgs = { { 1, 1 } },
+			ShapeName = "type-200a",
+			connector_name = "Pylon_GDJ-II19L_L"
 		}, {
 			DrawArgs = { { 1, 1 } },
 			ShapeName = "type-200a",
-			connector_name = "Point01"
-		}, {
-			DrawArgs = { { 1, 1 } },
-			ShapeName = "type-200a",
-			connector_name = "Point02"
+			connector_name = "Pylon_GDJ-II19L_R"
 		} },
 	Picture = "type200a.png",
 	Weight = 400,
@@ -22,5 +19,6 @@ _G["launcher"]["DIS_TYPE200_DUAL_L"] = {
 	category = 1,
 	displayName = "TYPE-200A Dual",
 	ejectImpulse = 140,
+	name = "DIS_TYPE200_DUAL_L",
 	wsTypeOfWeapon = { 4, 5, 37, "Redacted" }
 }

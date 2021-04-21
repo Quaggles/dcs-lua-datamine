@@ -8,5 +8,6 @@ _G["launcher"]["{BDU-50HD}"] = {
 	Picture = "BDU-50HD.png",
 	Weight = 232,
 	attribute = { 4, 5, 9, "Redacted" },
-	displayName = "BDU-50HD"
+	category = 1,
+	displayName = "BDU-50HD - 500lb Inert Practice Bomb HD"
 }

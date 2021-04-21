@@ -99,7 +99,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BL_755"] = {
 		},
 		scheme = "schemes/bombs/bomb-cassette.sch"
 	},
-	display_name = "BL-755",
+	display_name = "BL755",
 	mass = 277,
 	model = "t-bl-755",
 	name = "BL_755",

@@ -4,18 +4,19 @@ _G["launcher"]["{LAU-115 - AIM-120C}"] = {
 	Cx_pil = 0.001959765625,
 	Elements = { {
 			IsAdapter = true,
-			ShapeName = "LAU-115C"
+			ShapeName = "LAU-115C+2_LAU127"
 		}, {
-			connector_name = "Point01",
-			payload_CLSID = "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+			ShapeName = "AIM-120C",
+			connector_name = "Point03"
 		} },
 	Picture = "us_AIM-120C.png",
 	PictureBlendColor = "0xffffffff",
-	Weight = 215.9,
+	Weight = 306.5,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/aim120_family.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 4,
-	displayName = "LAU-115 - AIM-120C",
+	displayName = "LAU-115 with 1 x LAU-127 AIM-120C-5 AMRAAM - Active Rdr AAM",
+	name = "{LAU-115 - AIM-120C}",
 	wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 }

@@ -4,10 +4,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "MLRS FDDM",
+	DisplayName = "HUMVEE JTAC",
+	DisplayNameShort = "FDDM",
 	EPLRS = true,
+	IR_emission_coeff = 0.075,
 	MaxSpeed = 113.00004,
-	Name = "MLRS FDDM",
+	Name = "HUMVEE JTAC",
 	Rate = 5,
 	ThreatRange = 1200,
 	WS = { {
@@ -67,7 +69,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 0.87266462599716 } },
 			center = "CENTER_TOWER",
-			cockpit = { "IronSight/IronSight", { -1.9, 0.18, 0 } },
+			cockpit = { "IronSight/IronSight", { -1.9, 0.18, 0 },
+				open = true
+			},
 			drawArgument1 = 0,
 			drawArgument2 = 1,
 			omegaY = 1.0471975511966,
@@ -114,12 +118,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Artillery", "Command & Control", "Scout/Recon" },
 	type = "MLRS FDDM",
 	visual = {
-		fire_pos = { 0, 0, 0 },
+		agony_explosion_size = 2,
+		fire_pos = { -0.2, 0.8, 0 },
 		fire_size = 0.6,
-		fire_time = 900,
+		fire_time = 300,
+		max_time_agony = 80,
+		min_time_agony = 10,
 		shape = "HMMWV_M1043",
 		shape_dstr = "HMMWV_M1043_P_1"
 	}

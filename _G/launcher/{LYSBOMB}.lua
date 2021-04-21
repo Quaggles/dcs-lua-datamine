@@ -22,6 +22,6 @@ _G["launcher"]["{LYSBOMB}"] = {
 	_origin = "AJS37 AI by Heatblur Simulations",
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
-	displayName = "LYSBOMB Illumination bomb",
+	displayName = "2x 80kg LYSB-71 Illumination Bomb",
 	wsTypeOfWeapon = { 4, 5, 49, "Redacted" }
 }

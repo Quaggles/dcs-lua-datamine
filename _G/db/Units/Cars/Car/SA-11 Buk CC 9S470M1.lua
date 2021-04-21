@@ -4,9 +4,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "SAM SA-11 Buk CC 9S470M1",
+	DisplayName = 'SAM SA-11 Buk "Gadfly" C2 ',
+	DisplayNameShort = "SA-11CP",
+	IR_emission_coeff = 0.095,
 	MaxSpeed = 65.00016,
-	Name = "SAM SA-11 Buk CC 9S470M1",
+	Name = 'SAM SA-11 Buk "Gadfly" C2 ',
 	Rate = 20,
 	ThreatRange = 0,
 	WS = { {
@@ -209,13 +211,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Air Defence", "Command & Control" },
 	toggle_alarm_state_interval = 20,
 	type = "SA-11 Buk CC 9S470M1",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.8,
-		fire_time = 900,
+		agony_explosion_size = 2,
+		fire_pos = { -0.1, 0.85, 0 },
+		fire_size = 1.05,
+		fire_time = 400,
+		max_time_agony = 90,
+		min_time_agony = 10,
 		shape = "9S470M1",
 		shape_dstr = "9S470M1_P_1"
 	}

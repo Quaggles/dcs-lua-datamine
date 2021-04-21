@@ -10,7 +10,8 @@ _G["launcher"]["M60_SIDE_R"] = {
 	Weight = 141.4,
 	Weight_Empty = 134.4,
 	attribute = { 4, 15, 46, "Redacted" },
-	displayName = "M60 Gun Right Door",
+	category = 6,
+	displayName = "M60 - 7.62mm MG right door",
 	kind_of_shipping = 2,
 	wsTypeOfWeapon = { 4, 6, 10 }
 }

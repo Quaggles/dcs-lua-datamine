@@ -15,6 +15,7 @@ _G["launcher"]["{2234F529-1D57-4496-8BB0-0150F9BDBBD3}"] = {
 	Required = { "{F4920E62-A99A-11d8-9897-000476191836}" },
 	Weight = 570,
 	attribute = { 4, 4, 32, "Redacted" },
-	displayName = "Kh-35",
+	category = 2,
+	displayName = "Kh-35 (AS-20 Kayak) - 520kg, AShM, IN & Act Rdr",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

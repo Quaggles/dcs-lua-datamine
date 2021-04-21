@@ -78,5 +78,6 @@ _G["launcher"]["DIS_RKT_90_UG"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "UG_90MM",
+	name = "DIS_RKT_90_UG",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

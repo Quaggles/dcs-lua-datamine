@@ -1,47 +1,115 @@
 _G["db"]["Countries"]["#Index"] = {
-	Awards = {},
+	Awards = { <1>{
+			countryID = 40,
+			name = "Lotniczy Krzyz Zaslugi z mieczami",
+			nativeName = "Lotniczy Krzyz Zaslugi z mieczami",
+			picture = "Poland/awards/lkzm.png",
+			threshold = 1000
+		}, <2>{
+			countryID = 40,
+			name = "Lotniczy Krzyz Zaslugi",
+			nativeName = "Lotniczy Krzyz Zaslugi",
+			picture = "Poland/awards/lkz.png",
+			threshold = 2000
+		}, <3>{
+			countryID = 40,
+			name = "Medal za dlugoletnia sluzbe Brazowy",
+			nativeName = "Medal za dlugoletnia sluzbe Brazowy",
+			picture = "Poland/awards/mdsb.png",
+			threshold = 3000
+		}, <4>{
+			countryID = 40,
+			name = "Medal za dlugoletnia sluzbe Srebrny",
+			nativeName = "Medal za dlugoletnia sluzbe Srebrny",
+			picture = "Poland/awards/mdss.png",
+			threshold = 3600
+		}, <5>{
+			countryID = 40,
+			name = "Medal za dlugoletnia sluzbe Zloty",
+			nativeName = "Medal za dlugoletnia sluzbe Zloty",
+			picture = "Poland/awards/mdsz.png",
+			threshold = 4400
+		}, <6>{
+			countryID = 40,
+			name = "Medal za dlugoletnia sluzbe Gwiazda",
+			nativeName = "Medal za dlugoletnia sluzbe Gwiazda",
+			picture = "Poland/awards/mdsg.png",
+			threshold = 5000
+		} },
 	InternationalName = "Poland",
 	Name = "Poland",
 	OldID = "Poland",
-	Ranks = { <1>{
+	Ranks = { <7>{
 			name = "Second lieutenant",
-			nativeName = "Second lieutenant",
+			nativeName = "Podporucznik",
 			pictureRect = { 0, 0, 64, 32 },
 			stripes = "Poland/stripes.png",
 			threshold = 0
-		}, <2>{
+		}, <8>{
 			name = "First lieutenant",
-			nativeName = "First lieutenant",
+			nativeName = "Porucznik",
 			pictureRect = { 0, 32, 64, 32 },
 			stripes = "Poland/stripes.png",
 			threshold = 15
-		}, <3>{
+		}, <9>{
 			name = "Captain",
-			nativeName = "Captain",
+			nativeName = "Kaptain",
 			pictureRect = { 0, 64, 64, 32 },
 			stripes = "Poland/stripes.png",
 			threshold = 30
-		}, <4>{
+		}, <10>{
 			name = "Major",
 			nativeName = "Major",
 			pictureRect = { 0, 96, 64, 32 },
 			stripes = "Poland/stripes.png",
 			threshold = 60
-		}, <5>{
+		}, <11>{
 			name = "Lieutenant colonel",
-			nativeName = "Lieutenant colonel",
+			nativeName = "Podpulkownik",
 			pictureRect = { 0, 128, 64, 32 },
 			stripes = "Poland/stripes.png",
 			threshold = 120
-		}, <6>{
+		}, <12>{
 			name = "Colonel",
-			nativeName = "Colonel",
+			nativeName = "Pulkownik",
 			pictureRect = { 0, 160, 64, 32 },
 			stripes = "Poland/stripes.png",
 			threshold = 240
 		} },
 	ShortName = "POL",
-	Troops = {},
+	Troops = { <13>{
+			name = "1 Baza Lotnictwa Transportowego ",
+			nativeName = "1BLTr",
+			picture = "Poland/troops/3SLtr.png"
+		}, <14>{
+			name = "8 Baza Lotnictwa Transportowego",
+			nativeName = "8BLTr",
+			picture = "Poland/troops/8BLTr.png"
+		}, <15>{
+			name = "23 Baza Lotnictwa Taktycznego",
+			nativeName = "23BLT",
+			picture = "Poland/troops/23BLT.png"
+		}, <16>{
+			name = "31 Baza Lotnictwa Taktycznego",
+			nativeName = "31BLT",
+			picture = "Poland/troops/31BLT.png"
+		}, <17>{
+			name = "32 Baza Lotnictwa Taktycznego",
+			nativeName = "32BLT",
+			picture = "Poland/troops/32BLT.png"
+		}, <18>{
+			name = "33 Baza Lotnictwa Transportowego",
+			nativeName = "33BLTr",
+			picture = "Poland/troops/33BLTr.png"
+		}, <19>{
+			name = "41 Baza Lotnictwa Szkolnego",
+			nativeName = "41BLSz",
+			picture = "Poland/troops/41BLSz.png"
+		}, <20>{
+			name = "42 Baza Lotnictwa Szkolnego",
+			nativeName = "42BLSz",
+			picture = "Poland/troops/42BLSz.png"
+		} },
 	Units = {
 		ADEquipments = {
 			ADEquipment = {}
@@ -336,6 +404,18 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "S-200_Launcher",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "RPC_5N62V",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "S-60_Type59_Artillery",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Electric locomotive"
 				}, {
 					Name = "Locomotive"
@@ -351,8 +431,6 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Coach a passenger"
 				}, {
 					Name = "Coach a platform"
-				}, {
-					Name = "T-72B3"
 				}, {
 					Name = "Bedford_MWD"
 				}, {
@@ -695,6 +773,18 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Windsock",
 					in_service = 0,
 					out_of_service = 40000
+				}, {
+					Name = "Beer Bomb"
+				}, {
+					Name = "Concertina wire"
+				}, {
+					Name = "Haystack 1"
+				}, {
+					Name = "Haystack 2"
+				}, {
+					Name = "Haystack 3"
+				}, {
+					Name = "Haystack 4"
 				} }
 		},
 		GrassAirfields = {
@@ -938,16 +1028,32 @@ _G["db"]["Countries"]["#Index"] = {
 		}
 	},
 	WorldID = 40,
-	award_by_name = {},
+	award_by_name = {
+		["Lotniczy Krzyz Zaslugi"] = <table 2>,
+		["Lotniczy Krzyz Zaslugi z mieczami"] = <table 1>,
+		["Medal za dlugoletnia sluzbe Brazowy"] = <table 3>,
+		["Medal za dlugoletnia sluzbe Gwiazda"] = <table 6>,
+		["Medal za dlugoletnia sluzbe Srebrny"] = <table 4>,
+		["Medal za dlugoletnia sluzbe Zloty"] = <table 5>
+	},
 	flag = "FUI/Common/Flags/Poland.png",
 	flag_small = "MissionEditor/data/images/flags/Poland.png",
 	rank_by_name = {
-		Captain = <table 3>,
-		Colonel = <table 6>,
-		["First lieutenant"] = <table 2>,
-		["Lieutenant colonel"] = <table 5>,
-		Major = <table 4>,
-		["Second lieutenant"] = <table 1>
+		Captain = <table 9>,
+		Colonel = <table 12>,
+		["First lieutenant"] = <table 8>,
+		["Lieutenant colonel"] = <table 11>,
+		Major = <table 10>,
+		["Second lieutenant"] = <table 7>
 	},
-	troop_by_name = {}
+	troop_by_name = {
+		["1 Baza Lotnictwa Transportowego "] = <table 13>,
+		["23 Baza Lotnictwa Taktycznego"] = <table 15>,
+		["31 Baza Lotnictwa Taktycznego"] = <table 16>,
+		["32 Baza Lotnictwa Taktycznego"] = <table 17>,
+		["33 Baza Lotnictwa Transportowego"] = <table 18>,
+		["41 Baza Lotnictwa Szkolnego"] = <table 19>,
+		["42 Baza Lotnictwa Szkolnego"] = <table 20>,
+		["8 Baza Lotnictwa Transportowego"] = <table 14>
+	}
 }

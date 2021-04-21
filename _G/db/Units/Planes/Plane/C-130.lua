@@ -202,7 +202,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			MaksRUD = 1,
 			MaxRUD = 1,
 			MinRUD = 0,
-			Nmg = 60.00001,
+			Nmg = 37.68115942029,
+			Nominal_Fan_RPM = 1100,
+			Nominal_RPM = 13800,
+			Startup_Prework = 15,
 			cefor = 0.37,
 			cemax = 0.37,
 			dcx_eng = 0.0085,
@@ -280,6 +283,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			pos = { -0.73, 1.105, 10.335 },
 			smokiness_level = 0.1
 		} },
+	engines_startup_sequence = { 2, 1, 0, 3 },
 	fires_pos = { { -2.33, 1.807, 0 }, { -2.333, 1.807, 5.463 }, { -2.333, 1.807, -5.463 }, { -0.82, 0.265, 2.774 }, { -0.82, 0.265, -2.774 }, { -0.82, 0.255, 4.274 }, { -0.82, 0.255, -4.274 }, { 0.586, 1.66, 4.841 }, { 0.586, 1.66, -4.841 }, { 0.586, 1.546, 10.05 }, { 0.586, 1.546, -10.05 } },
 	flaps_maneuver = 0.5,
 	has_afteburner = false,
@@ -498,6 +502,28 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						C = { { "Arg", 38, "to", 0, "in", 4.7 } }
 					} },
 				Transition = { "Board", "Open" }
+			} },
+		Door11 = { {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "Arg", 86, "to", 0.6, "in", 10 } }
+					} },
+				Transition = { "Close", "Open" }
+			}, {
+				Flags = { "Reversible", "StepsBackwards" },
+				Sequence = { {
+						C = { { "Arg", 86, "to", 0, "in", 15 } }
+					} },
+				Transition = { "Open", "Close" }
+			} }
+	},
+	mechconnectors = {
+		Door11 = { {
+				shift_orient = { 0, 160, 0 },
+				shift_pos = { -11, -0.5, -1 }
+			}, {
+				shift_orient = { 0, -160, 0 },
+				shift_pos = { -11, -0.5, 1 }
 			} }
 	},
 	nose_gear_pos = { 8.133, -2.5, 0 },
@@ -516,10 +542,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			increment = 15
 		}
 	},
+	propellorShapeType = "1ARG_2PHASE",
 	radar_can_see_ground = false,
 	range = 8260,
 	singleInFlight = false,
 	stores_number = 0,
+	swapped_names = true,
 	tand_gear_max = 0.577,
 	thrust_sum_ab = 44400,
 	thrust_sum_max = 44400,

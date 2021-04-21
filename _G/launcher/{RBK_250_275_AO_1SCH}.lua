@@ -11,5 +11,5 @@ _G["launcher"]["{RBK_250_275_AO_1SCH}"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 5, 38, "Redacted" },
 	category = 1,
-	displayName = "RBK-250-275 AO-1SCh"
+	displayName = "RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag"
 }

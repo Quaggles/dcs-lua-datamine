@@ -5,6 +5,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	DetectionRange = 0,
 	DisplayName = "IFV Marder",
+	DisplayNameShort = "Marder",
+	IR_emission_coeff = 0.085,
 	InternalCargo = {
 		maximalCapacity = 600,
 		nominalCapacity = 600
@@ -117,15 +119,20 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "IFV" },
 	turbine = false,
 	type = "Marder",
 	visual = {
+		agony_explosion_size = 3,
 		dirt_pos = { -3.1, 0.5, -1.319 },
 		dust_pos = { 3.25, 0, -1.319 },
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.8,
-		fire_time = 1000,
+		fire_pos = { 0.5, 1, 0 },
+		fire_size = 0.66,
+		fire_time = 450,
+		max_time_agony = 100,
+		min_time_agony = 10,
 		shape = "marder",
 		shape_dstr = "Marder_p_1"
 	}

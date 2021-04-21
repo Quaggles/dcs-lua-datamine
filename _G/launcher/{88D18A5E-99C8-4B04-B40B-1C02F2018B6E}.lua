@@ -25,6 +25,7 @@ _G["launcher"]["{88D18A5E-99C8-4B04-B40B-1C02F2018B6E}"] = {
 	Picture = "agm114.png",
 	Weight = 250,
 	attribute = { 4, 4, 32, "Redacted" },
+	category = 2,
 	displayName = "AGM-114K * 4",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

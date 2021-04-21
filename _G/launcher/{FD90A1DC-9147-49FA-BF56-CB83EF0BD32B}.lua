@@ -64,8 +64,9 @@ _G["launcher"]["{FD90A1DC-9147-49FA-BF56-CB83EF0BD32B}"] = {
 			connector_name = "tube_19"
 		} },
 	Picture = "LAU61.png",
-	Weight = 290.59,
+	Weight = 273.4,
 	attribute = { 4, 7, 32, "Redacted" },
-	displayName = "LAU-61 - 19 2.75' rockets MK151 HE",
+	category = 3,
+	displayName = 'LAU-61 pod - 19 x 2.75" Hydra, UnGd Rkts M151, HE',
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

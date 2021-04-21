@@ -9,15 +9,17 @@ _G["launcher"]["{U22A}"] = {
 	Weight = 348,
 	_file = "./CoreMods/aircraft/AJS37/Entry/Weapons.lua",
 	_origin = "AJS37 AI by Heatblur Simulations",
+	_unique_resource_name = "weapons.containers.U22A",
 	attribute = { 4, 15, 45, "Redacted" },
 	category = 6,
 	displayName = "U22/A Jammer",
+	name = "U22A",
 	shape_table_data = { {
 			file = "U22a",
 			fire = { 0, 1 },
 			index = "Redacted",
 			life = 1,
 			name = "U22a",
-			username = "U22/A Jammer"
+			username = "U22/A Jammer Pod"
 		} }
 }

@@ -27,6 +27,7 @@ _G["rockets"]["#Index"] = {
 	Y_back = 0,
 	Z_back = 0,
 	display_name = "BGM-71 TOW",
+	display_name_short = "BGM-71D",
 	exhaust = { 0.9, 0.9, 0.8, 0.1 },
 	name = "TOW2",
 	sigma = { 4, 4, 4 },

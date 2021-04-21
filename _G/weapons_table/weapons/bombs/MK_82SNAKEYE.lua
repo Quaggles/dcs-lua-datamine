@@ -20,7 +20,7 @@ _G["weapons_table"]["weapons"]["bombs"]["MK_82SNAKEYE"] = {
 			caliber = 0.273,
 			cx_coeff = { 1, 0.29, 0.71, 0.14, 1.28 },
 			cx_factor = 100,
-			mass = 232,
+			mass = 249.5,
 			wind_sigma = 8,
 			wind_time = 1000
 		},
@@ -39,8 +39,8 @@ _G["weapons_table"]["weapons"]["bombs"]["MK_82SNAKEYE"] = {
 			piercing_mass = 14.4
 		}
 	},
-	display_name = "Mk-82 SnakeEye",
-	mass = 232,
+	display_name = "Mk-82 Snakeye",
+	mass = 249.5,
 	model = "MK-82_Snakeye",
 	name = "MK_82SNAKEYE",
 	server = {
@@ -63,7 +63,7 @@ _G["weapons_table"]["weapons"]["bombs"]["MK_82SNAKEYE"] = {
 			caliber = 0.273,
 			cx_coeff = { 1, 0.29, 0.71, 0.14, 1.28 },
 			cx_factor = 100,
-			mass = 232,
+			mass = 249.5,
 			wind_sigma = 8,
 			wind_time = 1000
 		},

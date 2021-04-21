@@ -65,6 +65,7 @@ _G["rockets"]["#Index"] = {
 		boost_start = 0.001,
 		march_start = 0.201
 	},
+	display_name = "RIM-116A",
 	fm = {
 		A = 0.6,
 		I = 48.77472,

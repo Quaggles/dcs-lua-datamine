@@ -6,8 +6,9 @@ _G["launcher"]["BRU-42_LS"] = {
 			ShapeName = "BRU-42_LS"
 		} },
 	Picture = "BRU-42LS.png",
-	Weight = 65,
+	Weight = 56.25,
 	attribute = { 4, 5, 32, "Redacted" },
-	displayName = "BRU-42LS",
+	category = 6,
+	displayName = "BRU-42 - Triple Ejector Rack (TER)",
 	wsTypeOfWeapon = { 0, 0, 0, "Redacted" }
 }

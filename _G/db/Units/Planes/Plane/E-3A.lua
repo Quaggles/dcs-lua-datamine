@@ -194,7 +194,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			MaksRUD = 1,
 			MaxRUD = 1,
 			MinRUD = 0,
-			Nmg = 60.00001,
+			Nmg = 53.181189488243,
+			Nominal_Fan_RPM = 5175,
+			Nominal_RPM = 14460,
 			cefor = 2.56,
 			cemax = 1.24,
 			dcx_eng = 0.0085,
@@ -202,7 +204,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			dpdh_m = 9000,
 			hMaxEng = 19.5,
 			table_data = { { 0, 373600, 373600 }, { 0.2, 312756.6, 312756.6 }, { 0.4, 279000, 279000 }, { 0.6, 251000, 251000 }, { 0.7, 253000, 253000 }, { 0.8, 262000, 262000 }, { 0.9, 274000, 274000 }, { 1, 279000, 279000 }, { 1.1, 280000, 280000 }, { 1.2, 266000, 266000 }, { 1.3, 95001.1, 95001.1 } },
-			type = "TurboJet"
+			type = "TurboFan"
 		}
 	},
 	Sensors = {
@@ -457,6 +459,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	range = 12247,
 	singleInFlight = false,
 	stores_number = 0,
+	swapped_names = true,
 	tand_gear_max = 0.577,
 	tanker_type = 1,
 	thrust_sum_ab = 38100,

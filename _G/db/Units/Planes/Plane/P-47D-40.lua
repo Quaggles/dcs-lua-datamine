@@ -2450,15 +2450,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			enable = false,
 			hh = 0,
 			hidden = false,
-			id = "UNCR_C_STRUT_HOSE_PIERCED",
-			label = "Tail gear hydraulic line damaged",
-			mint = 1,
-			mm = 0,
-			prob = 100
-		}, {
-			enable = false,
-			hh = 0,
-			hidden = false,
 			id = "UNCR_LH_STRUT_HOSE_PIERCED",
 			label = "Left gear hydraulic line damaged",
 			mint = 1,
@@ -2470,6 +2461,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			hidden = false,
 			id = "UNCR_RH_STRUT_HOSE_PIERCED",
 			label = "Right gear hydraulic line damaged",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "UNCR_C_STRUT_HOSE_PIERCED",
+			label = "Tail gear hydraulic line damaged",
 			mint = 1,
 			mm = 0,
 			prob = 100
@@ -3336,9 +3336,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	H_max = 13500,
 	HumanRadio = {
 		editable = true,
-		frequency = 124,
+		frequency = 105,
 		maxFrequency = 156,
-		minFrequency = 38,
+		minFrequency = 100,
 		modulation = 0
 	},
 	IR_emission_coeff = 0.1,
@@ -3366,9 +3366,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{AN-M64}"
 				}, {
-					CLSID = "{US_108GAL_PAPER_FUEL_TANK}"
+					CLSID = "{US_108GAL_PAPER_FUEL_TANK}",
+					DrawArgs = { { 3, 0.1 } }
 				}, {
-					CLSID = "{US_110GAL_FUEL_TANK}"
+					CLSID = "{US_110GAL_FUEL_TANK}",
+					DrawArgs = { { 3, 0.1 } },
+					attach_point_oriented = true
 				} },
 			Number = 1,
 			Order = 200,
@@ -3416,18 +3419,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{US_108GAL_PAPER_FUEL_TANK}",
+					DrawArgs = { { 3, 0 } },
+					arg_value = 0,
 					required = { {
 							loadout = { "{US_108GAL_PAPER_FUEL_TANK}" },
 							station = 3
 						} }
 				}, {
 					CLSID = "{US_110GAL_FUEL_TANK}",
+					DrawArgs = { { 3, 0 } },
+					arg_value = 0,
+					attach_point_oriented = true,
 					required = { {
 							loadout = { "{US_110GAL_FUEL_TANK}" },
 							station = 3
 						} }
 				}, {
 					CLSID = "{US_150GAL_FUEL_TANK}",
+					arg_value = 0.25,
+					attach_point_position = { -0.309, -0.32, 0 },
 					required = { {
 							loadout = { "{US_150GAL_FUEL_TANK}" },
 							station = 3
@@ -3499,18 +3509,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{US_108GAL_PAPER_FUEL_TANK}",
+					DrawArgs = { { 3, 0 } },
+					arg_value = 0,
 					required = { {
 							loadout = { "{US_108GAL_PAPER_FUEL_TANK}" },
 							station = 2
 						} }
 				}, {
 					CLSID = "{US_110GAL_FUEL_TANK}",
+					DrawArgs = { { 3, 0 } },
+					arg_value = 0,
+					attach_point_oriented = true,
 					required = { {
 							loadout = { "{US_110GAL_FUEL_TANK}" },
 							station = 2
 						} }
 				}, {
 					CLSID = "{US_150GAL_FUEL_TANK}",
+					arg_value = 0.25,
+					attach_point_position = { -0.309, -0.32, 0 },
 					required = { {
 							loadout = { "{US_150GAL_FUEL_TANK}" },
 							station = 2
@@ -3626,12 +3643,16 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			N_fr_0 = 0.078,
 			N_fr_1 = 0.002,
 			N_indic_0 = 993576.4,
-			Nmg = 20.5,
+			Nmg = 19.5,
 			Nominal_RPM = 2700,
 			Nu_0 = 1.2,
 			Nu_1 = 0.91,
 			Nu_2 = 0.0015,
 			P_oil = 495438,
+			Shutdown_Duration = 2.8,
+			Startup_Ignition_Time = 11,
+			Startup_Prework = 32,
+			Startup_RPMs = { { 0, 0 }, { 2, 40 }, { 10.3, 40 }, { 11.6, 300 }, { 13, 550 } },
 			Stroke = 0.152,
 			V_pist_0 = 15,
 			cefor = 0.37,
@@ -3652,6 +3673,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			k_piston = 3000,
 			k_reg = 0.003,
 			k_vel = 0.017,
+			prop_blades_count = 4,
+			prop_locations = { { 2.299, 0, 0 } },
+			prop_pitch_feather = 82,
+			prop_pitch_max = 52,
+			prop_pitch_min = 20,
 			table_data = { { 0, 16620 }, { 0.1, 15600 }, { 0.2, 14340 }, { 0.3, 13320 }, { 0.4, 12230 }, { 0.5, 11300 }, { 0.6, 10600 }, { 0.7, 10050 }, { 0.8, 9820 }, { 0.9, 5902 }, { 1.9, 3469 } },
 			type = "Radial"
 		}
@@ -3745,7 +3771,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			pilot_name = 264,
 			pos = { -1.85, 0.185, -0.01 },
 			role = "pilot",
-			role_display_name = "Pilot in command"
+			role_display_name = "Pilot"
 		} },
 	date_of_introduction = 1944.7,
 	debrisGeneration = 1,
@@ -4191,31 +4217,47 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	nose_gear_pos = { -6.294, -0.972, 0 },
 	nose_gear_wheel_diameter = 0.35,
 	panelRadio = { {
+			ID = "SCR522",
 			channels = { {
 					connect = true,
-					default = 39,
+					default = 105,
 					modulation = "AM",
-					name = "ButtonA"
+					name = "Channel A"
 				}, {
-					default = 40,
+					default = 124,
 					modulation = "AM",
-					name = "ButtonB"
+					name = "Channel B"
 				}, {
-					default = 41,
+					default = 131,
 					modulation = "AM",
-					name = "ButtonC"
+					name = "Channel C"
 				}, {
-					default = 42,
+					default = 139,
 					modulation = "AM",
-					name = "ButtonD"
+					name = "Channel D"
 				} },
-			name = "SCR522",
+			displayUnits = "MHz",
+			name = "SCR-522",
 			range = {
 				max = 156,
 				min = 38
 			}
+		}, {
+			ID = "BC1206",
+			channels = { {
+					default = 108.9,
+					modulation = "AM",
+					name = "Initial Frequency"
+				} },
+			displayUnits = "MHz",
+			name = "BC-1206",
+			range = {
+				max = 200,
+				min = 100
+			}
 		} },
-	propellorShapeType = "3ARG",
+	propellorShapeName = "P-47_blade.FBX",
+	propellorShapeType = "3ARG_PROC_BLUR",
 	radar_can_see_ground = false,
 	range = 1015,
 	shape_table_data = { {
@@ -4235,6 +4277,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			fire = { 240, 2 },
 			name = "P-47D_p1"
 		} },
+	swapped_names = true,
 	tand_gear_max = 0.577,
 	thrust_sum_ab = 8224,
 	thrust_sum_max = 8224,

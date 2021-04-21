@@ -126,7 +126,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_99"] = {
 			char_time = 20.43
 		},
 		type = 5,
-		user_name = "CBU-99",
+		user_name = "CBU-99 - 490lbs, 247 x HEAT Bomblets",
 		warhead = {
 			caliber = 335,
 			concrete_factors = { 1, 1, 1 },
@@ -142,7 +142,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_99"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 	},
-	display_name = "CBU-99",
+	display_name = "CBU-99 - 490lbs, 247 x HEAT Bomblets",
 	mass = 222,
 	model = "CBU_99",
 	name = "CBU_99",
@@ -270,7 +270,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_99"] = {
 			char_time = 20.43
 		},
 		type = 5,
-		user_name = "CBU-99",
+		user_name = "CBU-99 - 490lbs, 247 x HEAT Bomblets",
 		warhead = {
 			caliber = 335,
 			concrete_factors = { 1, 1, 1 },

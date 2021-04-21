@@ -4,9 +4,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "MBT Leopard-2",
+	DisplayName = "MBT Leopard 2",
+	DisplayNameShort = "Leo-2",
+	IR_emission_coeff = 0.12,
 	MaxSpeed = 72,
-	Name = "MBT Leopard-2",
+	Name = "MBT Leopard 2",
 	Rate = 20,
 	Sensors = {
 		OPTIC = { "EMES 15 day", "EMES 15 night" }
@@ -135,15 +137,20 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "MBT" },
 	turbine = false,
 	type = "Leopard-2",
 	visual = {
+		agony_explosion_size = 2,
 		dirt_pos = { -4, 0.8, -1.4 },
 		dust_pos = { 3.95, 0.2, -1.4 },
-		fire_pos = { 0, 0, 0 },
-		fire_size = 1,
-		fire_time = 1200,
+		fire_pos = { -0.9, 0.9, 0 },
+		fire_size = 1.1,
+		fire_time = 600,
+		max_time_agony = 90,
+		min_time_agony = 10,
 		shape = "leopard-2",
 		shape_dstr = "Leopard-2_p_1"
 	}

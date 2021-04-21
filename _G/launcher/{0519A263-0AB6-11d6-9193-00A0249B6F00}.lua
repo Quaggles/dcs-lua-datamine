@@ -8,5 +8,6 @@ _G["launcher"]["{0519A263-0AB6-11d6-9193-00A0249B6F00}"] = {
 	Picture = "Shpil.png",
 	Weight = 200,
 	attribute = { 4, 15, 44, "Redacted" },
-	displayName = "Shpil-2M Laser Intelligence Pod"
+	category = 6,
+	displayName = "Shpil-2 Laser Recon & Intel Pod"
 }

@@ -8,5 +8,6 @@ _G["launcher"]["TGM_65H"] = {
 	Picture = "agm65.png",
 	Weight = 208,
 	attribute = { 4, 4, 101, "Redacted" },
-	displayName = "TGM-65H"
+	category = 2,
+	displayName = "TGM-65H - Trg Round for Mav H (CCD)"
 }

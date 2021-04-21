@@ -7,7 +7,8 @@ _G["launcher"]["{C8E06185-7CD6-4C90-959F-044679E90751}"] = {
 		} },
 	Picture = "us_AIM-120B.png",
 	PictureBlendColor = "0xffffffff",
-	Weight = 157.8,
+	Weight = 156,
 	attribute = { 4, 4, 7, "Redacted" },
-	displayName = "AIM-120B"
+	category = 4,
+	displayName = "AIM-120B AMRAAM - Active Rdr AAM"
 }

@@ -4,9 +4,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "APC AAV-7",
+	DisplayName = "APC AAV-7 Amphibious",
+	DisplayNameShort = "AAV-7A1",
+	IR_emission_coeff = 0.09,
 	MaxSpeed = 72,
-	Name = "APC AAV-7",
+	Name = "APC AAV-7 Amphibious",
 	Rate = 8,
 	Sensors = {
 		OPTIC = { "AAV day" }
@@ -116,15 +118,20 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "APC" },
 	turbine = false,
 	type = "AAV7",
 	visual = {
+		agony_explosion_size = 5,
 		dirt_pos = { -3.5, 0.4, -1.386 },
 		dust_pos = { 2.6, 0.1, -1.386 },
-		fire_pos = { 1, 0, 0 },
-		fire_size = 1,
-		fire_time = 1200,
+		fire_pos = { 0.6, 1, 0 },
+		fire_size = 1.15,
+		fire_time = 500,
+		max_time_agony = 90,
+		min_time_agony = 10,
 		shape = "AAV-7",
 		shape_dstr = "AAV-7_p_1"
 	}

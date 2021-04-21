@@ -4,18 +4,19 @@ _G["launcher"]["LAU-115_LAU-127_CATM-9M"] = {
 	Cx_pil = 0.00014,
 	Elements = { {
 			IsAdapter = true,
-			ShapeName = "LAU-115C"
+			ShapeName = "LAU-115C+2_LAU127"
 		}, {
-			connector_name = "Point01",
-			payload_CLSID = "LAU-127_CATM-9M"
+			ShapeName = "CATM-9M",
+			connector_name = "Point03"
 		} },
 	Picture = "us_CATM-9.png",
-	Weight = 185.2,
-	Weight_Empty = 99.7,
+	PictureBlendColor = "0xffffffff",
+	Weight = 230.73,
+	Weight_Empty = 145,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/aim9_family.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 4,
-	displayName = "LAU-115C LAU-127 CAP-9M",
+	displayName = "LAU-115 with 1 x LAU-127 Captive AIM-9M for ACM",
 	wsTypeOfWeapon = { 4, 4, 100, "Redacted" }
 }

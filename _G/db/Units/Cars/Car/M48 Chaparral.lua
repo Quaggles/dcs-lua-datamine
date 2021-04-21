@@ -5,7 +5,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	DetectionRange = 10000,
 	DisplayName = "SAM Chaparral M48",
+	DisplayNameShort = "Chap",
 	EPLRS = true,
+	IR_emission_coeff = 0.085,
 	MaxSpeed = 60.00012,
 	Name = "SAM Chaparral M48",
 	Rate = 8,
@@ -80,14 +82,19 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = true,
+	tags = { "Air Defence", "SAM SHORAD" },
 	type = "M48 Chaparral",
 	visual = {
+		agony_explosion_size = 3,
 		dirt_pos = { -3, 0.3, -1.2 },
 		dust_pos = { 1.8, -0.1, -1.2 },
-		fire_pos = { 2, 0, 0 },
-		fire_size = 0.8,
-		fire_time = 1000,
+		fire_pos = { 0.482, 0.8, 0 },
+		fire_size = 0.65,
+		fire_time = 400,
+		max_time_agony = 100,
+		min_time_agony = 10,
 		shape = "M48",
 		shape_dstr = "M48_P1"
 	}

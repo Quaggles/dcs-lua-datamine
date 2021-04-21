@@ -6,7 +6,7 @@ _G["launcher"]["{Mk_82P}"] = {
 			ShapeName = "mk-82"
 		} },
 	Picture = "mk82.png",
-	Weight = 232,
+	Weight = 228,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 5, 9, "Redacted" },

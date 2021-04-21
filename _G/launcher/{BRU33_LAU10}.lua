@@ -10,11 +10,13 @@ _G["launcher"]["{BRU33_LAU10}"] = {
 			payload_CLSID = "{F3EFE0AB-E91A-42D8-9CA2-B63C91ED570A}"
 		} },
 	Picture = "LAU10.png",
-	Weight = 519,
+	Weight = 407.6,
+	Weight_Empty = 157.2,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
-	displayName = "BRU-33 LAU-10 - 4 ZUNI MK 71",
+	displayName = "BRU-33 with 1 x LAU-10 pod - 4 x 127mm ZUNI, UnGd Rkts Mk71, HE/FRAG",
+	name = "{BRU33_LAU10}",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

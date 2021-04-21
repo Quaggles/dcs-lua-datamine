@@ -3,6 +3,7 @@ _G["weapons_table"]["weapons"]["shells"]["M185_155"] = {
 	Da0 = 0.001,
 	Da1 = 0.00044,
 	Dv0 = 0.003,
+	_unique_resource_name = "weapons.shells.M185_155",
 	caliber = 155,
 	cartridge = 0,
 	cartridge_mass = 0,

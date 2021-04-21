@@ -84,31 +84,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = { false,
 	V_max_sea_level = 280.28,
 	V_opt = 220,
 	V_take_off = 58,
-	ViewSettings = {
-		Arcade = {
-			AnglesDefault = { 0, -8 },
-			LocalPoint = { -21.5, 5.618, 0 }
-		},
-		Chase = {
-			AnglesDefault = { 0, 0 },
-			LocalPoint = { 0.2, -0.652, -0.65 }
-		},
-		Cockpit = { {
-				Allow360rotation = false,
-				CameraAngleLimits = { 200, -90, 90 },
-				CameraAngleRestriction = { false, 90, 0.5 },
-				CameraViewAngleLimits = { 20, 140 },
-				CockpitLocalPoint = { -0.988, 0.744, 0 },
-				EyePoint = { 0.05, 0.1, 0 },
-				ShoulderSize = 0.25,
-				limits_6DOF = {
-					roll = 90,
-					x = { -0.05, 0.45 },
-					y = { -0.1, 0.1 },
-					z = { -0.3, 0.3 }
-				}
-			} }
-	},
 	Vy_max = 10,
 	Waypoint_Custom_Panel = true,
 	WingSpan = 40,
@@ -311,6 +286,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = { false,
 		} },
 	singleInFlight = true,
 	stores_number = 0,
+	swapped_names = true,
 	tand_gear_max = 0.577,
 	tanker_type = 0,
 	thrust_sum_ab = 38100,

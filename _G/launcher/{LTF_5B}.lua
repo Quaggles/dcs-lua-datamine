@@ -11,5 +11,5 @@ _G["launcher"]["{LTF_5B}"] = {
 	_origin = "World War II AI Units by Eagle Dynamics",
 	attribute = { 4, 8, 10, "Redacted" },
 	category = 11,
-	displayName = "LTF 5b"
+	displayName = "LTF 5b Aerial Torpedo"
 }

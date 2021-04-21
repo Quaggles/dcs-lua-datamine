@@ -2,6 +2,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	CustomAimPoint = { -4, 1.5, 19 },
 	DetectionRange = 0,
 	DisplayName = "Outpost",
+	DisplayNameShort = "Outpost",
+	IR_emission_coeff = 0.007,
 	MaxSpeed = 0,
 	Name = "Outpost",
 	Rate = 5,
@@ -202,7 +204,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			pos = { -8.5, 1.7, 12 },
 			reference_angle_Y = 1.5707963267949
 		},
-		maxTargetDetectionRange = 2000
+		maxTargetDetectionRange = 5000
 	},
 	Waypoint_Custom_Panel = true,
 	animation_arguments = {},
@@ -221,16 +223,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	mapclasskey = "P0091000076",
 	sensor = {
 		height = 2,
-		max_range_finding_target = 1000
+		max_range_finding_target = 5000
 	},
 	snd = {},
+	swapped_names = true,
+	tags = { "Fortification", "Buildings" },
 	type = "outpost",
 	visual = {
-		fire_pos = { -7, 1.5, 25 },
-		fire_size = 1.7,
-		fire_time = 900,
-		max_time_agony = 180,
-		min_time_agony = 20,
+		agony_explosion_size = 0,
+		fire_pos = {},
+		fire_size = 0,
+		fire_time = 0,
+		max_time_agony = -1,
 		shape = "block",
 		shape_dstr = "block_d"
 	}

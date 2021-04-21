@@ -7,8 +7,9 @@ _G["launcher"]["{A76344EB-32D2-4532-8FA2-0C1BDC00747E}"] = {
 			ShapeName = "MBD-3-LAU-61"
 		} },
 	Picture = "LAU61.png",
-	Weight = 922.57,
+	Weight = 871,
 	attribute = { 4, 7, 32, "Redacted" },
-	displayName = "LAU-61*3 - 57 2.75' rockets MK151 (HE)",
+	category = 3,
+	displayName = '3 x LAU-61 pods - 57 x 2.75" Hydra, UnGd Rkts M151, HE',
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

@@ -11,5 +11,5 @@ _G["launcher"]["{AGM_84E}"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 8, "Redacted" },
 	category = 2,
-	displayName = "AGM-84E SLAM"
+	displayName = "AGM-84E Harpoon/SLAM (Stand-Off Land-Attack Missile)"
 }

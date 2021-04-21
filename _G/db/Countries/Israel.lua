@@ -1,20 +1,20 @@
 _G["db"]["Countries"]["#Index"] = {
 	Awards = { <1>{
 			countryID = 15,
-			name = "ITUR HAGVURA",
-			nativeName = "ITUR HAGVURA",
+			name = "ITUR HA-GVURA",
+			nativeName = "ITUR HA-GVURA",
 			picture = "Israel/awards/Distinguished_Service_Medal.png",
 			threshold = 1000
 		}, <2>{
 			countryID = 15,
-			name = "ITUR HA'OZ",
-			nativeName = "ITUR HA'OZ",
+			name = "ITUR HA-OZ",
+			nativeName = "ITUR HA-OZ",
 			picture = "Israel/awards/Gallantry_Medal.png",
 			threshold = 2000
 		}, <3>{
 			countryID = 15,
-			name = "ITUR HAMOFET",
-			nativeName = "ITUR HAMOFET",
+			name = "ITUR HA-MOFET",
+			nativeName = "ITUR HA-MOFET",
 			picture = "Israel/awards/Valor_Medal.png",
 			threshold = 3000
 		} },
@@ -699,6 +699,18 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Windsock",
 					in_service = 0,
 					out_of_service = 40000
+				}, {
+					Name = "Beer Bomb"
+				}, {
+					Name = "Concertina wire"
+				}, {
+					Name = "Haystack 1"
+				}, {
+					Name = "Haystack 2"
+				}, {
+					Name = "Haystack 3"
+				}, {
+					Name = "Haystack 4"
 				} }
 		},
 		GrassAirfields = {
@@ -945,9 +957,9 @@ _G["db"]["Countries"]["#Index"] = {
 	},
 	WorldID = 15,
 	award_by_name = {
-		["ITUR HA'OZ"] = <table 2>,
-		["ITUR HAGVURA"] = <table 1>,
-		["ITUR HAMOFET"] = <table 3>
+		["ITUR HA-GVURA"] = <table 1>,
+		["ITUR HA-MOFET"] = <table 3>,
+		["ITUR HA-OZ"] = <table 2>
 	},
 	flag = "FUI/Common/Flags/Israel.png",
 	flag_small = "MissionEditor/data/images/flags/Israel.png",

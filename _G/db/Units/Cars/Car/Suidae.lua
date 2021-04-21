@@ -5,6 +5,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	DetectionRange = 0,
 	DisplayName = "Suidae",
+	DisplayNameShort = "Suidae",
+	IR_emission_coeff = 0.004,
 	MaxSpeed = 18,
 	Name = "Suidae",
 	Rate = 3,
@@ -32,10 +34,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Unarmed", "Animals" },
 	type = "Suidae",
 	visual = {
-		fire_pos = { 0, 0, 0 },
+		fire_pos = { 0, 0.6, 0 },
 		fire_size = 0.1,
 		fire_time = 1,
 		shape = "Suidae",

@@ -37,7 +37,7 @@ _G["weapons_table"]["weapons"]["nurs"]["C_8CM"] = {
 			duration = 300,
 			fantom = 1,
 			flare = false,
-			intensity = 10,
+			intensity = 8,
 			transparency = 0.8
 		}
 	},
@@ -85,7 +85,7 @@ _G["weapons_table"]["weapons"]["nurs"]["C_8CM"] = {
 			duration = 300,
 			fantom = 0,
 			flare = false,
-			intensity = 10,
+			intensity = 8,
 			transparency = 0.8
 		}
 	},

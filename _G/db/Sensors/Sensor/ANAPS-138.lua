@@ -10,6 +10,10 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 			[0] = { 330000,
 				[0] = 330000
 			}
+		},
+		velocity_limits = {
+			radial_velocity_min = 27.777777777778,
+			relative_radial_velocity_min = 27.777777777778
 		}
 	},
 	category = 1,

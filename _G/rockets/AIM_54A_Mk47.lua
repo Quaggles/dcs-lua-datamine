@@ -34,6 +34,7 @@ _G["rockets"]["#Index"] = {
 	active_radar_lock_dist = 18520,
 	category = 4,
 	ccm_k0 = 0.3,
+	display_name = "AIM-54A-Mk47",
 	exhaust = { 1, 1, 1, 1 },
 	go_active_by_default = 0,
 	hoj = 0,

@@ -6,6 +6,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	CustomAimPoint = { 0, 1.3, 0 },
 	DetectionRange = 0,
 	DisplayName = "MBT T-72B",
+	DisplayNameShort = "T72B",
+	IR_emission_coeff = 0.1,
 	MaxSpeed = 60.00012,
 	Name = "MBT T-72B",
 	Rate = 17,
@@ -28,7 +30,13 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							virtualStwID = 2
 						} },
 					beamWidth = 0.017453292519943,
-					sensor = {},
+					sensor = {
+						deviation_error_azimuth = 0.0006,
+						deviation_error_distance = 0.015,
+						deviation_error_elevation = 0.0006,
+						deviation_error_speed_sensor = 0.1,
+						deviation_error_stability = 0.01
+					},
 					sightIndicationMode = 1,
 					sightMasterMode = 1
 				}, {
@@ -180,15 +188,20 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "MBT" },
 	turbine = false,
 	type = "T-72B",
 	visual = {
+		agony_explosion_size = 5,
 		dirt_pos = { -3.1, 0.55, -1.346 },
 		dust_pos = { 2.85, 0.1, -1.346 },
-		fire_pos = { 0, 0, 0 },
-		fire_size = 1,
-		fire_time = 1200,
+		fire_pos = { -1, 1.2, 0 },
+		fire_size = 0.9,
+		fire_time = 750,
+		max_time_agony = 130,
+		min_time_agony = 10,
 		shape = "t-72",
 		shape_dstr = "T-72_p_1"
 	}

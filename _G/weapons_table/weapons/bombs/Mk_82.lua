@@ -16,7 +16,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_82"] = {
 			Mw = 2.146083,
 			caliber = 0.273,
 			cx_coeff = { 1, 0.29, 0.71, 0.14, 1.28 },
-			mass = 232,
+			mass = 228,
 			wind_sigma = 80,
 			wind_time = 1000
 		},
@@ -36,7 +36,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_82"] = {
 		}
 	},
 	display_name = "Mk-82",
-	mass = 232,
+	mass = 228,
 	model = "mk-82",
 	name = "Mk_82",
 	server = {
@@ -55,7 +55,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_82"] = {
 			Mw = 2.146083,
 			caliber = 0.273,
 			cx_coeff = { 1, 0.29, 0.71, 0.14, 1.28 },
-			mass = 232,
+			mass = 228,
 			wind_sigma = 80,
 			wind_time = 1000
 		},

@@ -5,9 +5,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "SAM SA-6 Kub LN 2P25",
+	DisplayName = 'SAM SA-6 Kub "Gainful" TEL',
+	DisplayNameShort = "SA-6",
+	IR_emission_coeff = 0.085,
 	MaxSpeed = 43.99992,
-	Name = "SAM SA-6 Kub LN 2P25",
+	Name = 'SAM SA-6 Kub "Gainful" TEL',
 	Rate = 10,
 	ThreatRange = 25000,
 	WS = { {
@@ -46,7 +48,16 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		maxTargetDetectionRange = 50000
 	},
 	Waypoint_Custom_Panel = true,
-	animation_arguments = {},
+	animation_arguments = {
+		rollers_rotation = {
+			[12] = 1,
+			[14] = 1,
+			[61] = 1.8,
+			[62] = 1.8,
+			[63] = 1.7,
+			[64] = 1.7
+		}
+	},
 	armour_scheme = {
 		hull_azimuth = { {} },
 		hull_elevation = { {} },
@@ -68,12 +79,19 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = true,
+	tags = { "Air Defence", "Launcher" },
 	type = "Kub 2P25 ln",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.8,
-		fire_time = 1000,
+		agony_explosion_size = 2,
+		dirt_pos = { -3, 0.41, -1.331 },
+		dust_pos = { 2.78, 0.1, -1.331 },
+		fire_pos = { -0.2, 0.85, 0 },
+		fire_size = 1.05,
+		fire_time = 400,
+		max_time_agony = 90,
+		min_time_agony = 10,
 		shape = "2p25",
 		shape_dstr = "2p25_p_1"
 	}

@@ -224,6 +224,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Guns = { {
 			_file = "./CoreMods/aircraft/I-16/entry.lua",
 			_origin = "I-16 AI by OctopusG",
+			_unique_resource_name = "weapons.gunmounts.SHKAS_GUN",
 			aft_gun_mount = false,
 			azimuth_initial = -0.22,
 			barrel_circular_error = 0.003,
@@ -274,6 +275,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						Da0 = 0.0004,
 						Da1 = 0,
 						Dv0 = 0.0082,
+						_unique_resource_name = "weapons.shells.7_62x54",
 						caliber = 7.62,
 						cartridge = 205,
 						cartridge_mass = 0,
@@ -334,6 +336,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						Da0 = 0.00085,
 						Da1 = 0,
 						Dv0 = 0.008,
+						_unique_resource_name = "weapons.shells.7_62x54_NOTRACER",
 						caliber = 12.7,
 						cartridge = 0,
 						cartridge_mass = 0,
@@ -633,6 +636,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Launchers = { {
 					CLSID = "I16_FAB_100SV",
 					arg_value = 0
+				}, {
+					CLSID = "I16_DROP_FUEL_TANK",
+					arg_value = 0.5
 				} },
 			Number = 4,
 			Order = 4,
@@ -648,6 +654,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Launchers = { {
 					CLSID = "I16_FAB_100SV",
 					arg_value = 0
+				}, {
+					CLSID = "I16_DROP_FUEL_TANK",
+					arg_value = 0.5
 				} },
 			Number = 5,
 			Order = 5,
@@ -790,6 +799,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Name = "Intercept",
 			OldID = "Intercept",
 			WorldID = 10
+		}, {
+			Name = "Reconnaissance",
+			OldID = "Reconnaissance",
+			WorldID = 17
 		} },
 	V_land = 39,
 	V_max_h = 129,
@@ -824,7 +837,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			pilot_name = 294,
 			pos = { -1.439, 0.182, 0 },
 			role = "pilot",
-			role_display_name = "Pilot in command"
+			role_display_name = "Pilot"
 		} },
 	detection_range_max = 0,
 	engines_count = 1,
@@ -960,6 +973,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			name = "I-16_destr",
 			positioning = "BYNORMAL"
 		} },
+	swapped_names = true,
 	tand_gear_max = 573,
 	tanker_type = 0,
 	thrust_sum_ab = 1200,

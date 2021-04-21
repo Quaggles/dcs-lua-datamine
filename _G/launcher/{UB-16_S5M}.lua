@@ -2,18 +2,7 @@ _G["launcher"]["{UB-16_S5M}"] = {
 	CLSID = "{UB-16_S5M}",
 	Count = 16,
 	Cx_pil = 0.00146484375,
-	Elements = { {
-			IsAdapter = true,
-			ShapeName = "UB-16",
-			shape_table_data = { {
-					file = "UB-16",
-					fire = { 0, 1 },
-					index = "Redacted",
-					life = 60,
-					name = "UB-16",
-					username = "UB-16"
-				} }
-		}, {
+	Elements = { "_G/Pylons/UB-16.lua", {
 			DrawArgs = { { 1, 1 }, { 2, 1 } },
 			Position = { 0.1, -0.077, 0.065 },
 			Rotation = { 0, 0, 0 },
@@ -98,9 +87,11 @@ _G["launcher"]["{UB-16_S5M}"] = {
 	Weight = 119.76,
 	_file = "./CoreMods/aircraft/MiG-21BIS/Entry/Aw",
 	_origin = "MiG-21Bis AI by Magnitude 3 LLC",
-	attribute = { 4, 7, 32, "Redacted" },
+	adapter_type = <1>{ 4, 7, 32, "Redacted" },
+	attribute = <table 1>,
 	category = 3,
 	displayName = "UB-16UM - 16 S-5M",
 	kind_of_shipping = 1,
+	name = "{UB-16_S5M}",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

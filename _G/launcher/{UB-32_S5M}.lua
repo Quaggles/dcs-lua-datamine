@@ -2,18 +2,7 @@ _G["launcher"]["{UB-32_S5M}"] = {
 	CLSID = "{UB-32_S5M}",
 	Count = 32,
 	Cx_pil = 0.00196533203125,
-	Elements = { {
-			IsAdapter = true,
-			ShapeName = "UB-32",
-			shape_table_data = { {
-					file = "UB-32",
-					fire = { 0, 1 },
-					index = "Redacted",
-					life = 60,
-					name = "UB-32",
-					username = "UB-32"
-				} }
-		}, {
+	Elements = { "_G/Pylons/UB-32.lua", {
 			DrawArgs = { { 1, 1 }, { 2, 1 } },
 			Position = { 0.1, -0.15, 0.065 },
 			Rotation = { 0, 0, 0 },
@@ -178,9 +167,11 @@ _G["launcher"]["{UB-32_S5M}"] = {
 	Weight = 228.52,
 	_file = "./CoreMods/aircraft/MiG-21BIS/Entry/Aw",
 	_origin = "MiG-21Bis AI by Magnitude 3 LLC",
-	attribute = { 4, 7, 32, "Redacted" },
+	adapter_type = <1>{ 4, 7, 32, "Redacted" },
+	attribute = <table 1>,
 	category = 3,
 	displayName = "UB-32M - 32 S-5M",
 	kind_of_shipping = 1,
+	name = "{UB-32_S5M}",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

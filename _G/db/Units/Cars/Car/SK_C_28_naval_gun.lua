@@ -1,9 +1,11 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Countries = { "Germany", "Third Reich", "Japan", "Italian Social Republic", "Finland", "Hungary", "Romania", "Bulgaria" },
 	DetectionRange = 0,
-	DisplayName = "Bunker with SK C/28 15cm naval gun",
+	DisplayName = "Gun 15cm SK C/28 Naval in Bunker",
+	DisplayNameShort = "Gun150",
+	IR_emission_coeff = 0.01,
 	MaxSpeed = 0,
-	Name = "Bunker with SK C/28 15cm naval gun",
+	Name = "Gun 15cm SK C/28 Naval in Bunker",
 	Rate = 30,
 	Sensors = {
 		OPTIC = { "long-range naval optics" }
@@ -78,10 +80,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "Pillbox_DM2"
 		} },
 	snd = {},
+	swapped_names = true,
+	tags = { "Fortification", "Buildings" },
 	type = "SK_C_28_naval_gun",
 	visual = {
 		fire_pos = { 4, 1, 0 },
-		fire_size = 0.9,
+		fire_size = 1.1,
 		fire_time = 1000,
 		shape = "pillbox",
 		shape_dstr = "Pillbox_DM2"

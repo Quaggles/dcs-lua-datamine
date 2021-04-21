@@ -15,6 +15,7 @@ _G["launcher"]["{B4C01D60-A8A3-4237-BD72-CA7655BC0FEC}"] = {
 	Required = { "{F4920E62-A99A-11d8-9897-000476191836}" },
 	Weight = 250,
 	attribute = { 4, 4, 32, "Redacted" },
-	displayName = "R-77",
+	category = 4,
+	displayName = "R-77 (AA-12 Adder) - Active Rdr",
 	wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 }

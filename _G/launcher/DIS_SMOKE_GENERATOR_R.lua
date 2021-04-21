@@ -17,7 +17,9 @@ _G["launcher"]["DIS_SMOKE_GENERATOR_R"] = {
 	Weight = 0,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/mils_pl5eii.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
+	_unique_resource_name = "weapons.containers.pl5eii",
 	attribute = { 4, 15, 50, "Redacted" },
 	category = 6,
-	displayName = "Smoke Generator - red"
+	displayName = "Smoke Generator - red",
+	name = "pl5eii"
 }

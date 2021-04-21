@@ -1,9 +1,11 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	CustomAimPoint = { 0, 1, 0 },
 	DetectionRange = 0,
-	DisplayName = "Infantry Soldier Insurgents",
+	DisplayName = "Insurgent AK-74",
+	DisplayNameShort = "AK74 Ins",
+	IR_emission_coeff = 0.004,
 	MaxSpeed = 14.4,
-	Name = "Infantry Soldier Insurgents",
+	Name = "Insurgent AK-74",
 	Rate = 1,
 	ThreatRange = 500,
 	Transportable = {
@@ -40,6 +42,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { { 0.78539816339745, -0.78539816339745, -0.26179938779915, 0.5235987755983 } },
+			canSetTacticalDir = true,
 			drawArgument1 = 0,
 			drawArgument2 = 1,
 			new_rotation = false,
@@ -88,6 +91,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		max_range_finding_target = 500
 	},
 	snd = {},
+	swapped_names = true,
+	tags = { "Infantry" },
 	type = "Infantry AK Ins",
 	visual = {
 		fire_pos = {},

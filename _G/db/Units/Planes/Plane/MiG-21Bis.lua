@@ -638,6 +638,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Guns = { {
 			_file = "./CoreMods/aircraft/MiG-21BIS/Entry/MiG-21bis.lua",
 			_origin = "MiG-21Bis AI by Magnitude 3 LLC",
+			_unique_resource_name = "weapons.gunmounts.GSH_23",
 			aft_gun_mount = false,
 			azimuth_initial = 0,
 			category = 8,
@@ -1861,7 +1862,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			pilot_name = 309,
 			pos = { 2.711, 0.65, 0 },
 			role = "pilot",
-			role_display_name = "Pilot in command"
+			role_display_name = "Pilot"
 		} },
 	crew_size = 1,
 	detection_range_max = 30,
@@ -2087,6 +2088,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			name = "MiG-21Bis_Destroyed",
 			positioning = "BYNORMAL"
 		} },
+	swapped_names = true,
 	tanker_type = 0,
 	thrust_sum_ab = 11400,
 	thrust_sum_max = 7500,

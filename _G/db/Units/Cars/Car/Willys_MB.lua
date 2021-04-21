@@ -13,13 +13,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	Countries = { "Australia", "Belgium", "Canada", "Czech Republic", "France", "Italia", "Poland", "The Netherlands", "UK", "USA", "USSR", "Yugoslavia" },
 	DetectionRange = 0,
-	DisplayName = "Willys MB",
+	DisplayName = "Car Willys Jeep",
+	DisplayNameShort = "Willys",
+	IR_emission_coeff = 0.07,
 	InternalCargo = {
 		maximalCapacity = 300,
 		nominalCapacity = 300
 	},
 	MaxSpeed = 105.012,
-	Name = "Willys MB",
+	Name = "Car Willys Jeep",
 	Rate = 3,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
@@ -58,12 +60,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Unarmed", "Scout/Recon" },
 	type = "Willys_MB",
 	visual = {
-		fire_pos = { 0.7, 0.7, 0 },
-		fire_size = 0.1,
-		fire_time = 2000,
+		agony_explosion_size = 1,
+		fire_pos = { 0.9, 0.7, 0 },
+		fire_size = 0.3,
+		fire_time = 200,
+		max_time_agony = 80,
+		min_time_agony = 10,
 		shape = "Willys_MB",
 		shape_dstr = "Willys_MB_p_1"
 	}

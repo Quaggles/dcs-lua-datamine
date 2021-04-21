@@ -1,9 +1,11 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	CustomAimPoint = { 0, 1, 0 },
 	DetectionRange = 0,
-	DisplayName = "Georgian soldier with M4",
+	DisplayName = "Infantry M4 Georgia",
+	DisplayNameShort = "Inf.Ge.M4",
+	IR_emission_coeff = 0.004,
 	MaxSpeed = 14.4,
-	Name = "Georgian soldier with M4",
+	Name = "Infantry M4 Georgia",
 	Rate = 1,
 	ThreatRange = 500,
 	Transportable = {
@@ -37,6 +39,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { { 0.78539816339745, -0.78539816339745, -0.26179938779915, 0.5235987755983 } },
+			canSetTacticalDir = true,
 			center = "POINT_TOWER",
 			drawArgument1 = 0,
 			drawArgument2 = 1,
@@ -84,6 +87,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		max_range_finding_target = 500
 	},
 	snd = {},
+	swapped_names = true,
+	tags = { "Infantry" },
 	type = "Soldier M4 GRG",
 	visual = {
 		fire_pos = {},

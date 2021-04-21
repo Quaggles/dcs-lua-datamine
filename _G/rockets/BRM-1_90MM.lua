@@ -44,6 +44,7 @@ _G["rockets"]["#Index"] = {
 	},
 	category = 2,
 	class_name = "wAmmunitionLaserHoming",
+	display_name = "BRM-1_90MM",
 	exhaust = { 0.78, 0.78, 0.78, 0.3 },
 	fm = {
 		A = 0.36,

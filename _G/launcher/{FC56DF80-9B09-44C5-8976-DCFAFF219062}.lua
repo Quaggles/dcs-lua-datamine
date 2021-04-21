@@ -10,6 +10,7 @@ _G["launcher"]["{FC56DF80-9B09-44C5-8976-DCFAFF219062}"] = {
 	PictureBlendColor = "0xffffffff",
 	Weight = 510,
 	attribute = { 4, 7, 32, "Redacted" },
-	displayName = "B-13L - 5 S-13 OF",
+	category = 3,
+	displayName = "B-13L pod - 5 x S-13-OF, 122mm UnGd Rkts, Blast/Frag",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

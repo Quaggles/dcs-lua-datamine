@@ -11,5 +11,5 @@ _G["launcher"]["{AGM_122}"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 8, "Redacted" },
 	category = 2,
-	displayName = "AGM-122"
+	displayName = "AGM-122 Sidearm - light ARM"
 }

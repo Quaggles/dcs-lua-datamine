@@ -5,6 +5,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	DetectionRange = 15000,
 	DisplayName = "SPAAA Gepard",
+	DisplayNameShort = "Gepard",
+	IR_emission_coeff = 0.1,
 	MaxSpeed = 65.00016,
 	Name = "SPAAA Gepard",
 	Rate = 10,
@@ -91,17 +93,22 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} },
-		radarRotation = "RadarRotation"
+		radarRotation = "GndTech/RadarRotation"
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Air Defence", "SP AAA" },
 	toggle_alarm_state_interval = 5,
 	type = "Gepard",
 	visual = {
+		agony_explosion_size = 2,
 		dirt_pos = { -3.1, 0.6, -1.347 },
 		dust_pos = { 3.05, 0.1, -1.347 },
-		fire_pos = { 0, 0, 0 },
-		fire_size = 1,
-		fire_time = 1100,
+		fire_pos = { -0.5, 0.8, 0 },
+		fire_size = 0.75,
+		fire_time = 530,
+		max_time_agony = 90,
+		min_time_agony = 10,
 		shape = "gepard",
 		shape_dstr = "Gepard_p_1"
 	}

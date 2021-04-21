@@ -10,6 +10,7 @@ _G["launcher"]["{3DFB7320-AB0E-11d7-9897-000476191836}"] = {
 	PictureBlendColor = "0xffffffff",
 	Weight = 359.5,
 	attribute = { 4, 7, 32, "Redacted" },
-	displayName = "B-8M1 - 20 S-8TsM",
+	category = 3,
+	displayName = "B-8M1 pod - 20 x S-8TsM, 80mm UnGd Rkts, Smk",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

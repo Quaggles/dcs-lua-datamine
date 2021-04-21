@@ -10,7 +10,8 @@ _G["launcher"]["GUV_YakB_GSHP"] = {
 	Weight = 452,
 	Weight_Empty = 140,
 	attribute = { 4, 15, 46, "Redacted" },
-	displayName = "GUV YakB GSHP",
+	category = 6,
+	displayName = "GUV-8700 w 1x12.7 mm & 2x7.62 mm Rotary HMG",
 	kind_of_shipping = 2,
 	wsTypeOfWeapon = { 4, 6, 10, "Redacted" }
 }

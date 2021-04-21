@@ -14,7 +14,8 @@ _G["launcher"]["{FE382A68-8620-4AC0-BDF5-709BFE3977D7}"] = {
 	Picture = "kh58u.png",
 	Weight = 730,
 	attribute = { 4, 4, 32, "Redacted" },
-	displayName = "Kh-58U",
+	category = 2,
+	displayName = "Kh-58U (AS-11 Kilter) - 640kg, ARM, IN & Pas Rdr",
 	ejectImpulse = 2000,
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

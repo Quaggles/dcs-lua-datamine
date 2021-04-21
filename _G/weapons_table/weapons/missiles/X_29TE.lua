@@ -29,8 +29,8 @@ _G["weapons_table"]["weapons"]["missiles"]["X_29TE"] = {
 			work_time = 0
 		},
 		controller = {
-			boost_start = 1,
-			march_start = 1
+			boost_start = 0.01,
+			march_start = 0.8
 		},
 		fm = {
 			A = 0.36,
@@ -104,7 +104,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_29TE"] = {
 	},
 	display_name = "Kh-29TE",
 	mass = 678,
-	model = "X-29TE",
+	model = "X-29T",
 	name = "X_29TE",
 	server = {
 		autopilot = {
@@ -133,8 +133,8 @@ _G["weapons_table"]["weapons"]["missiles"]["X_29TE"] = {
 			work_time = 0
 		},
 		controller = {
-			boost_start = 1,
-			march_start = 1
+			boost_start = 0.01,
+			march_start = 0.8
 		},
 		fm = {
 			A = 0.36,

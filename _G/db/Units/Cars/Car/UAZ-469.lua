@@ -4,13 +4,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "Transport UAZ-469",
+	DisplayName = "LUV UAZ-469 Jeep",
+	DisplayNameShort = "UAZ-469",
+	IR_emission_coeff = 0.07,
 	InternalCargo = {
 		maximalCapacity = 400,
 		nominalCapacity = 400
 	},
 	MaxSpeed = 100.00008,
-	Name = "Transport UAZ-469",
+	Name = "LUV UAZ-469 Jeep",
 	Rate = 3,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
@@ -36,12 +38,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Unarmed", "Scout/Recon" },
 	type = "UAZ-469",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.4,
-		fire_time = 500,
+		agony_explosion_size = 2,
+		fire_pos = { 0.9, 0.8, 0 },
+		fire_size = 0.45,
+		fire_time = 230,
+		max_time_agony = 120,
+		min_time_agony = 10,
 		shape = "uaz-469",
 		shape_dstr = "Uaz-469_p_1"
 	}

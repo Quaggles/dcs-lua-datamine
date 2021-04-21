@@ -10,7 +10,9 @@ _G["launcher"]["{AIS_ASQ_T50}"] = {
 	Weight = 62.6,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/aim9_family.lua",
 	_origin = "AircraftWeaponPack",
+	_unique_resource_name = "weapons.containers.ais-pod-t50",
 	attribute = { 4, 15, 47, "Redacted" },
 	category = 6,
-	displayName = "AN/ASQ-T50 TCTS Pod"
+	displayName = "AN/ASQ-T50 TCTS Pod - ACMI Pod",
+	name = "ais-pod-t50"
 }

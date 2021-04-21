@@ -28,6 +28,7 @@ _G["rockets"]["#Index"] = {
 	Z_back = 0,
 	_unique_resource_name = "weapons.missiles.Vikhr",
 	display_name = "9A4172 Vikhr (AT-16 Scallion)",
+	display_name_short = "9A4172 Vikhr (AT-16 Scallion)",
 	exhaust = { 0.63, 0.67, 0.75, 0.1 },
 	name = "Vikhr",
 	sigma = { 3, 3, 3 },

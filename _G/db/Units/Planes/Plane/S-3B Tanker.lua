@@ -436,6 +436,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	refueling_points_count = 1,
 	singleInFlight = false,
 	stores_number = 0,
+	swapped_names = true,
 	tand_gear_max = 3.73,
 	thrust_sum_ab = 8414,
 	thrust_sum_max = 8414,

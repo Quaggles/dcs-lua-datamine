@@ -235,6 +235,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	scheme = 0,
 	sound_name = "Aircrafts/Engines/RotorUH60",
 	stores_number = 2,
+	swapped_names = true,
 	tail_fin_area = 4.75,
 	tail_pos = { -9.617, 2.116, 0 },
 	tail_stab_area = 2.94,

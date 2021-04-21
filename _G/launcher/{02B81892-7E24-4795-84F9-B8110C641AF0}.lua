@@ -24,6 +24,7 @@ _G["launcher"]["{02B81892-7E24-4795-84F9-B8110C641AF0}"] = {
 	Picture = "RBK250.png",
 	Weight = 1060,
 	attribute = { 4, 5, 32, "Redacted" },
-	displayName = "MER*4 RBK-250 PTAB-2.5M",
+	category = 1,
+	displayName = "MBD3-U4T with 4 x RBK-250 - 42 x PTAB-2.5M, 250kg CBUs Medium HEAT/AP",
 	wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 }

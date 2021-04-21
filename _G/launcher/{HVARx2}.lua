@@ -22,5 +22,5 @@ _G["launcher"]["{HVARx2}"] = {
 	_origin = "F-86F Sabre AI by Eagle Dynamics",
 	attribute = { 4, 7, 33, "Redacted" },
 	category = 3,
-	displayName = "HVARx2"
+	displayName = "2 x HVAR, UnGd Rkts"
 }

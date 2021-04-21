@@ -28,8 +28,9 @@ _G["launcher"]["{4F977A2A-CD25-44df-90EF-164BFA2AE72F}"] = {
 			connector_name = "tube_07"
 		} },
 	Picture = "LAU68.png",
-	Weight = 115.79,
+	Weight = 114.46,
 	attribute = { 4, 7, 32, "Redacted" },
-	displayName = "LAU-68 - 7 2.75' rockets M156(WP)",
+	category = 3,
+	displayName = 'LAU-68 pod - 7 x 2.75" Hydra, UnGd Rkts M156, Wht Phos',
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

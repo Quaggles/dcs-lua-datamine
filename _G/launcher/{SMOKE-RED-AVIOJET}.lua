@@ -25,6 +25,7 @@ _G["launcher"]["{SMOKE-RED-AVIOJET}"] = {
 	attribute = { 4, 15, 50, "Redacted" },
 	category = 6,
 	displayName = "Smoke System red colorant",
+	name = "smoke_pod",
 	shape_table_data = { {
 			file = "smoke_pod",
 			fire = { 0, 1 },

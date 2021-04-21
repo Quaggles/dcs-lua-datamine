@@ -3,6 +3,7 @@ _G["bombs"]["#Index"] = {
 	Cx = 0.001,
 	Name = "Redacted",
 	VyHold = -100,
+	display_name = "M117",
 	hMax = 12000,
 	hMin = 300,
 	mass = 340,

@@ -10,12 +10,14 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Countries = { "Germany", "Third Reich", "Japan", "Italian Social Republic", "Finland", "Hungary", "Romania", "Bulgaria" },
 	DetectionRange = 0,
 	DisplayName = "AAA 8,8cm Flak 18",
+	DisplayNameShort = "Flak18",
+	IR_emission_coeff = 0.01,
 	Name = "AAA 8,8cm Flak 18",
 	Rate = 4,
 	Sensors = {
 		OPTIC = { "long-range air defence optics" }
 	},
-	ThreatRange = 15000,
+	ThreatRange = 11000,
 	WS = { {
 			LN = { {
 					BR = { {
@@ -34,7 +36,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			pidZ = {},
 			pos = {}
 		},
-		maxTargetDetectionRange = 18000
+		maxTargetDetectionRange = 12000
 	},
 	Waypoint_Custom_Panel = true,
 	_file = "./CoreMods/tech/TechWeaponPack/Database/db_units_cars.lua",
@@ -71,11 +73,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "flak18_p_1"
 		} },
 	snd = {},
+	swapped_names = true,
+	tags = { "Air Defence", "AAA" },
 	type = "flak18",
 	visual = {
-		fire_pos = { -1.9, 0.1, 0 },
-		fire_size = 0.08,
-		fire_time = 500,
+		agony_explosion_size = 0.1,
+		fire_pos = {},
+		fire_size = 0,
+		fire_time = 0,
+		max_time_agony = 0,
 		shape = "flak18",
 		shape_dstr = "flak18_p_1"
 	}

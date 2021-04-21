@@ -38,6 +38,7 @@ _G["rockets"]["#Index"] = {
 	_origin = "AJS37 AI by Heatblur Simulations",
 	category = 2,
 	class_name = "wAmmunitionSelfHoming",
+	display_name = "RB-75A",
 	exhaust = { 0.7, 0.7, 0.7, 0.1 },
 	fm = {
 		A = 0.36,

@@ -1,7 +1,9 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 0,
-	DisplayName = "Coach flatbed",
-	Name = "Coach flatbed",
+	DisplayName = "Coach Platform",
+	DisplayNameShort = "Platf",
+	IR_emission_coeff = 0,
+	Name = "Coach Platform",
 	Rate = 4,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
@@ -34,12 +36,16 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "wagon-platforma_p_1"
 		} },
 	snd = {},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Train", "Carriage" },
 	type = "Coach a platform",
 	visual = {
-		fire_pos = { -2, 0, 0 },
-		fire_size = 0.7,
-		fire_time = 1000,
+		agony_explosion_size = 0,
+		fire_pos = {},
+		fire_size = 0,
+		fire_time = 0,
+		max_time_agony = -1,
 		shape = "wagon-platforma",
 		shape_dstr = "wagon-platforma_p_1"
 	}

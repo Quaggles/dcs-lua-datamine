@@ -4,9 +4,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "Fuel Truck ATMZ-5",
+	DisplayName = "Refueler ATMZ-5",
+	DisplayNameShort = "AMTZ5",
+	IR_emission_coeff = 0.08,
 	MaxSpeed = 74.99988,
-	Name = "Fuel Truck ATMZ-5",
+	Name = "Refueler ATMZ-5",
 	Rate = 3,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
@@ -29,12 +31,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Unarmed", "Support & Logistics" },
 	type = "ATMZ-5",
 	visual = {
-		fire_pos = { -2, 0, 0 },
-		fire_size = 1.5,
-		fire_time = 1500,
+		agony_explosion_size = 5,
+		fire_pos = { -0.5, 0.85, 0 },
+		fire_size = 0.9,
+		fire_time = 300,
+		max_time_agony = 120,
+		min_time_agony = 10,
 		shape = "Ural_ATMZ-5",
 		shape_dstr = "Ural_ATZ_P1"
 	}

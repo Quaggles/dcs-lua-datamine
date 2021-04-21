@@ -400,6 +400,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "LiAZ Bus",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "MAZ-6303",
 					in_service = 0,
 					out_of_service = 40000
@@ -656,11 +660,27 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "T-72B3",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "S-200_Launcher",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "RPC_5N62V",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "BTR-82A",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "S-60_Type59_Artillery",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "ZSU_57_2"
-				}, {
-					Name = "T-72B3"
-				}, {
-					Name = "BTR-82A"
 				}, {
 					Name = "ES44AH"
 				}, {
@@ -987,6 +1007,18 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Windsock",
 					in_service = 0,
 					out_of_service = 40000
+				}, {
+					Name = "Beer Bomb"
+				}, {
+					Name = "Concertina wire"
+				}, {
+					Name = "Haystack 1"
+				}, {
+					Name = "Haystack 2"
+				}, {
+					Name = "Haystack 3"
+				}, {
+					Name = "Haystack 4"
 				} }
 		},
 		GrassAirfields = {
@@ -1299,7 +1331,7 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "SOM",
+					Name = "IMPROVED_KILO",
 					in_service = 0,
 					out_of_service = 40000
 				}, {

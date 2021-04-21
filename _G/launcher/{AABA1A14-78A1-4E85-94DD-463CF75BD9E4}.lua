@@ -17,5 +17,6 @@ _G["launcher"]["{AABA1A14-78A1-4E85-94DD-463CF75BD9E4}"] = {
 	Picture = "AGM154.png",
 	Weight = 2560,
 	attribute = { 4, 4, 8, "Redacted" },
-	displayName = "AGM-154C*4"
+	category = 2,
+	displayName = "4 x AGM-154C - JSOW Unitary BROACH"
 }

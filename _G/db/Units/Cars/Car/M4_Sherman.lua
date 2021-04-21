@@ -265,6 +265,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		} },
 	DetectionRange = 0,
 	DisplayName = "MT M4 Sherman",
+	DisplayNameShort = "Sherman",
+	IR_emission_coeff = 0.1,
 	Name = "MT M4 Sherman",
 	Rate = 20,
 	Sensors = {
@@ -470,14 +472,19 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "Tank" },
 	type = "M4_Sherman",
 	visual = {
+		agony_explosion_size = 5,
 		dirt_pos = { -2.5, 0.4, -1.1 },
 		dust_pos = { 2.7, 0.1, -1.1 },
-		fire_pos = { -1.4, 0.8, -0.3 },
-		fire_size = 0.8,
-		fire_time = 1000,
+		fire_pos = { -1.1, 1.2, 0 },
+		fire_size = 0.6,
+		fire_time = 650,
+		max_time_agony = 130,
+		min_time_agony = 10,
 		shape = "M4_Sherman",
 		shape_dstr = "M4_Sherman_p_1"
 	}

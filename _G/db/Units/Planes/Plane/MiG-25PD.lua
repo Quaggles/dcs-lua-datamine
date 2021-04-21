@@ -262,7 +262,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			ejection_seat_name = 9,
 			pos = { 6.972, 0.8, 0 },
 			role = "pilot",
-			role_display_name = "Pilot in command"
+			role_display_name = "Pilot"
 		} },
 	detection_range_max = 100,
 	engines_count = 2,
@@ -394,6 +394,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	radar_can_see_ground = false,
 	range = 1920,
 	stores_number = 4,
+	swapped_names = true,
 	tand_gear_max = 0.577,
 	thrust_sum_ab = 21950,
 	thrust_sum_max = 17260,

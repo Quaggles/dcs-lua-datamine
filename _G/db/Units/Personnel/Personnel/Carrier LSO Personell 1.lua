@@ -21,5 +21,6 @@ _G["db"]["Units"]["Personnel"]["Personnel"]["#Index"] = {
 		}, {
 			name = "carrier_lso1_usa"
 		} },
+	swapped_names = true,
 	type = "Carrier LSO Personell 1"
 }

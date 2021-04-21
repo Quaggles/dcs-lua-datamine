@@ -1,9 +1,11 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	CustomAimPoint = { 0, 1.5, 0 },
 	DetectionRange = 160000,
-	DisplayName = "SAM SA-10 S-300PS TR 30N6",
+	DisplayName = 'SAM SA-10 S-300 "Grumble" Flap Lid TR ',
+	DisplayNameShort = "SA-10 TR",
+	IR_emission_coeff = 0.08,
 	MaxSpeed = 0,
-	Name = "SAM SA-10 S-300PS TR 30N6",
+	Name = 'SAM SA-10 S-300 "Grumble" Flap Lid TR ',
 	Rate = 20,
 	Sensors = {
 		RADAR = "S-300PS 40B6M tr"
@@ -109,13 +111,19 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		min_range_finding_target = 2000
 	},
 	snd = {
-		radarRotation = "RadarRotation"
+		radarRotation = "GndTech/RadarRotation"
 	},
+	swapped_names = true,
+	tags = { "Air Defence", "Tracking Radar" },
 	type = "S-300PS 40B6M tr",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.5,
-		fire_time = 900,
+		agony_explosion_size = 1,
+		fire_pos = {
+			[2] = 1
+		},
+		fire_size = 0,
+		fire_time = 0,
+		max_time_agony = -1,
 		shape = "40b6m",
 		shape_dstr = "Auto-crush"
 	}

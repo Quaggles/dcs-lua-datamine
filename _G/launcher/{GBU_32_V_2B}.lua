@@ -11,5 +11,5 @@ _G["launcher"]["{GBU_32_V_2B}"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 5, 36, "Redacted" },
 	category = 1,
-	displayName = "GBU-32(V)2/B"
+	displayName = "GBU-32(V)2/B - JDAM, 1000lb GPS Guided Bomb"
 }

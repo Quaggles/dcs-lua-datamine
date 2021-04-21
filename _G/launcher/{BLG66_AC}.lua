@@ -12,6 +12,6 @@ _G["launcher"]["{BLG66_AC}"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = <1>{ 4, 5, 38, "Redacted" },
 	category = 1,
-	displayName = "BLG-66-AC Belouga",
+	displayName = "BLG-66 Belouga - 290kg CBU, 151 Frag/Pen bomblets",
 	wsTypeOfWeapon = <table 1>
 }

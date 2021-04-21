@@ -156,9 +156,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			}
 		} },
 	DetectionRange = 0,
-	DisplayName = "M12 GMC",
+	DisplayName = "SPG M12 GMC 155mm",
+	DisplayNameShort = "M12",
+	IR_emission_coeff = 0.08,
 	MaxSpeed = 39.996,
-	Name = "M12 GMC",
+	Name = "SPG M12 GMC 155mm",
 	Rate = 15,
 	Sensors = {
 		OPTIC = { "TRP-2A day", "TRP-2A night" }
@@ -178,6 +180,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { { 0.24434609527921, -0.24434609527921, -0.087266462599716, 0.5235987755983 } },
+			canSetTacticalDir = true,
 			center = "CENTER_TOWER",
 			drawArgument1 = 0,
 			drawArgument2 = 1,
@@ -247,15 +250,20 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Artillery", "SPA" },
 	toggle_alarm_state_interval = 10,
 	type = "M12_GMC",
 	visual = {
+		agony_explosion_size = 5,
 		dirt_pos = { -2.5, 0.4, -1.1 },
 		dust_pos = { 2.7, 0.1, -1.1 },
-		fire_pos = { 0.3, 0.7, -0.3 },
-		fire_size = 0.8,
-		fire_time = 1000,
+		fire_pos = { 0.3, 0.7, 0 },
+		fire_size = 0.5,
+		fire_time = 550,
+		max_time_agony = 130,
+		min_time_agony = 10,
 		shape = "m12",
 		shape_dstr = "m12_p_1"
 	}

@@ -1,9 +1,11 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	CustomAimPoint = { 0, 1, 0 },
 	DetectionRange = 0,
-	DisplayName = "Soldier RPG",
+	DisplayName = "Infantry RPG",
+	DisplayNameShort = "RPG",
+	IR_emission_coeff = 0.004,
 	MaxSpeed = 14.4,
-	Name = "Soldier RPG",
+	Name = "Infantry RPG",
 	Rate = 1,
 	ThreatRange = 500,
 	Transportable = {
@@ -21,6 +23,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { {} },
+			canSetTacticalDir = true,
 			omegaY = 1.3962634015955,
 			omegaZ = 1.3962634015955,
 			pidY = {
@@ -58,6 +61,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		max_range_finding_target = 500
 	},
 	snd = {},
+	swapped_names = true,
+	tags = { "Infantry" },
 	type = "Soldier RPG",
 	visual = {
 		fire_pos = {},

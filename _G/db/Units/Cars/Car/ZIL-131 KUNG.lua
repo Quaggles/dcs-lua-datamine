@@ -4,13 +4,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "Transport ZIL-131 KUNG",
+	DisplayName = "Truck ZIL-131 (C2)",
+	DisplayNameShort = "ZIL-MCC",
+	IR_emission_coeff = 0.08,
 	InternalCargo = {
 		maximalCapacity = 2100,
 		nominalCapacity = 2100
 	},
 	MaxSpeed = 74.99988,
-	Name = "Transport ZIL-131 KUNG",
+	Name = "Truck ZIL-131 (C2)",
 	Rate = 5,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
@@ -35,12 +37,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Unarmed", "Command & Control" },
 	type = "ZIL-131 KUNG",
 	visual = {
-		fire_pos = { 1, 0, 0 },
-		fire_size = 0.6,
-		fire_time = 600,
+		agony_explosion_size = 2,
+		fire_pos = { 0.65, 1, 0 },
+		fire_size = 0.5,
+		fire_time = 350,
+		max_time_agony = 80,
+		min_time_agony = 10,
 		shape = "zil_p19_kung",
 		shape_dstr = "zil_kung_P1"
 	}

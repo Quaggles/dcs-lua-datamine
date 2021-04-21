@@ -4,9 +4,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "SPH 2S1 Gvozdika",
+	DisplayName = "SPH 2S1 Gvozdika 122mm",
+	DisplayNameShort = "2S1",
+	IR_emission_coeff = 0.09,
 	MaxSpeed = 60.00012,
-	Name = "SPH 2S1 Gvozdika",
+	Name = "SPH 2S1 Gvozdika 122mm",
 	Rate = 15,
 	Sensors = {
 		OPTIC = { "TKN-3B day", "TKN-3B night" }
@@ -89,14 +91,19 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { { 0, 0.6 }, { 10, 1 } },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Artillery", "SPA" },
 	type = "SAU Gvozdika",
 	visual = {
+		agony_explosion_size = 2,
 		dirt_pos = { -3.4, 0.45, -1.128 },
 		dust_pos = { 3, 0, -1.128 },
-		fire_pos = { 1.696, 0, 0 },
-		fire_size = 0.8,
-		fire_time = 1000,
+		fire_pos = { 0.1, 1, 0 },
+		fire_size = 0.9,
+		fire_time = 400,
+		max_time_agony = 80,
+		min_time_agony = 5,
 		shape = "2c1",
 		shape_dstr = "2c1-d"
 	}

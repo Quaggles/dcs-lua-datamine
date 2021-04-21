@@ -165,8 +165,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{F3EFE0AB-E91A-42D8-9CA2-B63C91ED570A}"
 				}, {
-					CLSID = "{A76344EB-32D2-4532-8FA2-0C1BDC00747E}"
-				}, {
 					CLSID = "{A504D93B-4E80-4B4F-A533-0D9B65F2C55F}"
 				} },
 			Number = 1,
@@ -178,8 +176,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			Launchers = { {
 					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}"
-				}, {
-					CLSID = "{AB8B8299-F1CC-4359-89B5-2172E0CF4A5A}"
 				}, {
 					CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}"
 				} },
@@ -193,8 +189,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Launchers = { {
 					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}"
 				}, {
-					CLSID = "{AB8B8299-F1CC-4359-89B5-2172E0CF4A5A}"
-				}, {
 					CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}"
 				} },
 			Number = 3,
@@ -207,8 +201,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Launchers = { {
 					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}"
 				}, {
-					CLSID = "{AB8B8299-F1CC-4359-89B5-2172E0CF4A5A}"
-				}, {
 					CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}"
 				} },
 			Number = 4,
@@ -220,8 +212,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			Launchers = { {
 					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}"
-				}, {
-					CLSID = "{AB8B8299-F1CC-4359-89B5-2172E0CF4A5A}"
 				}, {
 					CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}"
 				} },
@@ -255,8 +245,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					Type = 1
 				}, {
 					CLSID = "{F3EFE0AB-E91A-42D8-9CA2-B63C91ED570A}"
-				}, {
-					CLSID = "{A76344EB-32D2-4532-8FA2-0C1BDC00747E}"
 				}, {
 					CLSID = "{A504D93B-4E80-4B4F-A533-0D9B65F2C55F}"
 				} },
@@ -554,6 +542,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	range = 3701,
 	singleInFlight = false,
 	stores_number = 6,
+	swapped_names = true,
 	tand_gear_max = 3.73,
 	tanker_type = 2,
 	thrust_sum_ab = 8414,

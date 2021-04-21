@@ -16,6 +16,6 @@ _G["launcher"]["{RB75T}"] = {
 	_origin = "AJS37 AI by Heatblur Simulations",
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
-	displayName = "RB-75T",
+	displayName = "Rb-75T (AGM-65A Maverick) (TV ASM Lg Whd)",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

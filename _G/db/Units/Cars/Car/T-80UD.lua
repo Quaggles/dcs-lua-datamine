@@ -5,6 +5,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	DetectionRange = 0,
 	DisplayName = "MBT T-80U",
+	DisplayNameShort = "T80U",
+	IR_emission_coeff = 0.1,
 	MaxSpeed = 69.99984,
 	Name = "MBT T-80U",
 	Rate = 20,
@@ -179,15 +181,20 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "MBT" },
 	turbine = false,
 	type = "T-80UD",
 	visual = {
+		agony_explosion_size = 5,
 		dirt_pos = { -2.9, 0.5, -1.477 },
 		dust_pos = { 3, 0.1, -1.477 },
-		fire_pos = { 0, 0, 0 },
-		fire_size = 1,
-		fire_time = 1200,
+		fire_pos = { -0.9, 1.2, 0 },
+		fire_size = 1.1,
+		fire_time = 750,
+		max_time_agony = 130,
+		min_time_agony = 10,
 		shape = "t-80ud",
 		shape_dstr = "T-80ud_p_1"
 	}

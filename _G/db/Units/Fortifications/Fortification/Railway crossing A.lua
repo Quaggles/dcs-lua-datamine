@@ -4,5 +4,6 @@ _G["db"]["Units"]["Fortifications"]["Fortification"]["#Index"] = {
 	Rate = 100,
 	ShapeName = "pereezd_big",
 	category = "Fortification",
+	swapped_names = true,
 	type = "Railway crossing A"
 }

@@ -33,6 +33,7 @@ _G["launcher"]["{1C97B4A0-AA3B-43A8-8EE7-D11071457185}"] = {
 	Picture = "mk82.png",
 	Weight = 1506,
 	attribute = { 4, 5, 32, "Redacted" },
-	displayName = "MER*6 Mk-82",
+	category = 1,
+	displayName = "MER6 with 6 x Mk-82 - 500lb GP Bombs LD",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

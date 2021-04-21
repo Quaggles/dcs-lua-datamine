@@ -2,18 +2,7 @@ _G["launcher"]["{SPRD}"] = {
 	CLSID = "{SPRD}",
 	Count = 2,
 	Cx_pil = 0.001,
-	Elements = { {
-			IsAdapter = true,
-			ShapeName = "SPRD",
-			shape_table_data = { {
-					file = "SPRD",
-					fire = { 0, 1 },
-					index = "Redacted",
-					life = 60,
-					name = "SPRD",
-					username = "SPRD"
-				} }
-		}, {
+	Elements = { "_G/Pylons/SPRD.lua", {
 			Position = { 0, 0.017, 0.63 },
 			Rotation = { 0, 0, 0 },
 			ShapeName = "sprd_dummy"
@@ -26,9 +15,12 @@ _G["launcher"]["{SPRD}"] = {
 	Weight = 500,
 	_file = "./CoreMods/aircraft/MiG-21BIS/Entry/Aw",
 	_origin = "MiG-21Bis AI by Magnitude 3 LLC",
-	attribute = { 4, 7, 32, "Redacted" },
+	_unique_resource_name = "weapons.containers.SPRD",
+	adapter_type = <1>{ 4, 7, 32, "Redacted" },
+	attribute = <table 1>,
 	category = 6,
 	displayName = "SPRD-99",
 	kind_of_shipping = 1,
+	name = "SPRD",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

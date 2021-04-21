@@ -5,9 +5,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "CP SKP-11 ATC Mobile Command Post",
+	DisplayName = "Truck SKP-11 Mobile ATC",
+	DisplayNameShort = "SKP-11",
+	IR_emission_coeff = 0.08,
 	MaxSpeed = 74.99988,
-	Name = "CP SKP-11 ATC Mobile Command Post",
+	Name = "Truck SKP-11 Mobile ATC",
 	Rate = 20,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
@@ -32,12 +34,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Unarmed", "Command & Control" },
 	type = "SKP-11",
 	visual = {
-		fire_pos = { -1, 0, 0 },
-		fire_size = 0.6,
-		fire_time = 600,
+		agony_explosion_size = 2,
+		fire_pos = { 0.7, 1, 0 },
+		fire_size = 0.5,
+		fire_time = 350,
+		max_time_agony = 80,
+		min_time_agony = 10,
 		shape = "ZIL_SKP-11",
 		shape_dstr = "ZIL_SKP-11_P1"
 	}

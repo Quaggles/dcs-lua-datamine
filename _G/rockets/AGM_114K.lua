@@ -28,6 +28,7 @@ _G["rockets"]["#Index"] = {
 	Z_back = 0,
 	_unique_resource_name = "weapons.missiles.AGM_114K",
 	display_name = "AGM-114K Hellfire",
+	display_name_short = "AGM-114K",
 	exhaust = { 0.9, 0.9, 0.85, 0.1 },
 	name = "AGM_114K",
 	sigma = { 4, 4, 4 },

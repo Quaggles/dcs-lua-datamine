@@ -7,10 +7,10 @@ _G["launcher"]["CATM-9M"] = {
 		} },
 	Picture = "us_CATM-9.png",
 	PictureBlendColor = "0xffffffff",
-	Weight = 85.5,
+	Weight = 85.73,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/aim9_family.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 100, "Redacted" },
 	category = 4,
-	displayName = "CAP-9M"
+	displayName = "Captive AIM-9M for ACM"
 }

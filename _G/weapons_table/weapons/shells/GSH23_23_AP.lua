@@ -3,6 +3,7 @@ _G["weapons_table"]["weapons"]["shells"]["GSH23_23_AP"] = {
 	Da0 = 0.0007,
 	Da1 = 0,
 	Dv0 = 0.005,
+	_unique_resource_name = "weapons.shells.GSH23_23_AP",
 	caliber = 23,
 	cartridge = 0,
 	cartridge_mass = 0,

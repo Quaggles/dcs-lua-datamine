@@ -29,8 +29,8 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 		elevation = { -30, 10 }
 	},
 	surface_search = {
-		GMTI_detection_distance = 220000,
-		HRM_detection_distance = 20000,
+		GMTI_detection_distance = 1480000,
+		HRM_detection_distance = 740000,
 		RBM_detection_distance = 180000,
 		RCS = 100,
 		vehicles_detection = true

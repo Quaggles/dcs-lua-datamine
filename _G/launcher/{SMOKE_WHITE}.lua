@@ -15,7 +15,9 @@ _G["launcher"]["{SMOKE_WHITE}"] = {
 	Weight = 30,
 	_file = "./CoreMods/aircraft/AJS37/Entry/Weapons.lua",
 	_origin = "AJS37 AI by Heatblur Simulations",
+	_unique_resource_name = "weapons.containers.{SMOKE_WHITE}",
 	attribute = { 4, 15, 50, "Redacted" },
 	category = 6,
-	displayName = "Smoke - white - 21"
+	displayName = "Smoke - white - 21",
+	name = "{SMOKE_WHITE}"
 }

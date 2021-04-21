@@ -1,7 +1,9 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 0,
-	DisplayName = "Electric locomotive VL80",
-	Name = "Electric locomotive VL80",
+	DisplayName = "Loco VL80 Electric",
+	DisplayNameShort = "Loco80",
+	IR_emission_coeff = 0.1,
+	Name = "Loco VL80 Electric",
 	Rate = 10,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
@@ -53,12 +55,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "elektrowoz_p_1"
 		} },
 	snd = {},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Train", "Locomotive" },
 	type = "Electric locomotive",
 	visual = {
-		fire_pos = { -2, 0, 0 },
-		fire_size = 0.7,
-		fire_time = 1000,
+		agony_explosion_size = 5,
+		fire_pos = { 4.3, 2.5, 0 },
+		fire_size = 1,
+		fire_time = 800,
+		max_time_agony = 190,
+		min_time_agony = 15,
 		shape = "elektrowoz",
 		shape_dstr = "elektrowoz_p_1"
 	}

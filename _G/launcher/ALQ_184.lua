@@ -8,5 +8,6 @@ _G["launcher"]["ALQ_184"] = {
 	Picture = "ALQ184.png",
 	Weight = 215,
 	attribute = { 4, 15, 45, "Redacted" },
-	displayName = "ALQ-184"
+	category = 6,
+	displayName = "ALQ-184 - ECM Pod"
 }

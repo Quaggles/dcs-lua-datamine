@@ -1,8 +1,10 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 5000,
-	DisplayName = "SAM SA-18 Igla MANPADS",
+	DisplayName = 'MANPADS SA-18 Igla "Grouse" Ins',
+	DisplayNameShort = "SA-18ins",
+	IR_emission_coeff = 0.004,
 	MaxSpeed = 14.4,
-	Name = "SAM SA-18 Igla MANPADS",
+	Name = 'MANPADS SA-18 Igla "Grouse" Ins',
 	Rate = 5,
 	ThreatRange = 5200,
 	Transportable = {
@@ -22,7 +24,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					sightMasterMode = 1
 				} },
 			angles = { {} },
-			cockpit = { "IglaSight/IglaSight", { 0, 0, 0 } },
+			cockpit = { "IglaSight/IglaSight", { 0, 0, 0 },
+				open = true
+			},
 			pidY = {},
 			pidZ = {},
 			pointer = "camera",
@@ -54,6 +58,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	mobile = true,
 	sensor = {},
 	snd = {},
+	swapped_names = true,
+	tags = { "Air Defence", "MANPADS" },
 	type = "Igla manpad INS",
 	visual = {
 		fire_pos = {},

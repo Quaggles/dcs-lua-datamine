@@ -1,8 +1,10 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 0,
-	DisplayName = "DRG Class 86",
+	DisplayName = "Loco DRG Class 86",
+	DisplayNameShort = "Loco86",
+	IR_emission_coeff = 0.1,
 	MaxSpeed = 79.92,
-	Name = "DRG Class 86",
+	Name = "Loco DRG Class 86",
 	Rate = 10,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
@@ -35,12 +37,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "DRG_Class_86_p_1"
 		} },
 	snd = {},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Train", "Locomotive" },
 	type = "DRG_Class_86",
 	visual = {
-		fire_pos = { -2, 0.6, 0 },
-		fire_size = 0.7,
+		agony_explosion_size = 10,
+		fire_pos = { -2, 2.1, 0 },
+		fire_size = 0.85,
 		fire_time = 1000,
+		max_time_agony = 120,
+		min_time_agony = 10,
 		shape = "DRG_Class_86",
 		shape_dstr = "DRG_Class_86_p_1"
 	}

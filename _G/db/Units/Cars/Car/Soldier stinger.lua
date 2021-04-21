@@ -1,8 +1,10 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 5000,
-	DisplayName = "Stinger MANPADS",
+	DisplayName = "MANPADS Stinger",
+	DisplayNameShort = "Stinger",
+	IR_emission_coeff = 0.004,
 	MaxSpeed = 14.4,
-	Name = "Stinger MANPADS",
+	Name = "MANPADS Stinger",
 	Rate = 5,
 	ThreatRange = 4500,
 	Transportable = {
@@ -24,7 +26,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					sightMasterMode = 1
 				} },
 			angles = { {} },
-			cockpit = { "StingerSight/StingerSight", { 0.1, 0, -0.23 } },
+			cockpit = { "StingerSight/StingerSight", { 0.1, 0, -0.23 },
+				open = true
+			},
 			pidY = {},
 			pidZ = {},
 			pointer = "camera",
@@ -56,6 +60,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	mobile = true,
 	sensor = {},
 	snd = {},
+	swapped_names = true,
+	tags = { "Air Defence", "MANPADS" },
 	type = "Soldier stinger",
 	visual = {
 		fire_pos = {},

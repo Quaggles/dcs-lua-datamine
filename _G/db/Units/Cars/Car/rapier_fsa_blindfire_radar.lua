@@ -1,8 +1,10 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Countries = { "UK", "Iran", "Malaysia", "Oman", "Singapore", "Switzerland", "Turkey", "United Arab Emirates", "Zambia", "Australia", "Libya", "Netherlands", "Iraq" },
 	DetectionRange = 30000,
-	DisplayName = "Rapier FSA Blindfire Tracker",
-	Name = "Rapier FSA Blindfire Tracker",
+	DisplayName = "SAM Rapier Blindfire TR",
+	DisplayNameShort = "Rapier STR",
+	IR_emission_coeff = 0.03,
+	Name = "SAM Rapier Blindfire TR",
 	Rate = 5,
 	Sensors = {
 		RADAR = { "Tor 9A331" }
@@ -83,11 +85,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "rapier_fsa_blindfire_radar_p_1"
 		} },
 	snd = {},
+	swapped_names = true,
+	tags = { "Air Defence", "Tracking Radar" },
 	type = "rapier_fsa_blindfire_radar",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.3,
-		fire_time = 500,
+		agony_explosion_size = 0,
+		fire_pos = {},
+		fire_size = 0,
+		fire_time = 0,
+		max_time_agony = -1,
 		shape = "rapier_fsa_blindfire_radar",
 		shape_dstr = "rapier_fsa_blindfire_radar_p_1"
 	}

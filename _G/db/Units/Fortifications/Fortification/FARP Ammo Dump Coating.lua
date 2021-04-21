@@ -4,5 +4,6 @@ _G["db"]["Units"]["Fortifications"]["Fortification"]["#Index"] = {
 	Rate = 50,
 	ShapeName = "SetkaKP",
 	category = "Fortification",
+	swapped_names = true,
 	type = "FARP Ammo Dump Coating"
 }

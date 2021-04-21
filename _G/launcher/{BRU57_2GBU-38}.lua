@@ -13,11 +13,12 @@ _G["launcher"]["{BRU57_2*GBU-38}"] = {
 			connector_name = "Point01"
 		} },
 	Picture = "GBU38.png",
-	Weight = 561,
+	Weight = 573,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
-	displayName = "BRU-57 - 2 x GBU-38",
+	displayName = "BRU-57 with 2 x GBU-38 - JDAM, 500lb GPS Guided Bomb",
+	name = "{BRU57_2*GBU-38}",
 	wsTypeOfWeapon = { 4, 5, 36, "Redacted" }
 }

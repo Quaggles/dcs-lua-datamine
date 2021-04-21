@@ -16,5 +16,6 @@ _G["launcher"]["{A4BCC903-06C8-47bb-9937-A30FEDB4E742}"] = {
 	},
 	Weight = 200,
 	attribute = { 4, 15, 50, "Redacted" },
+	category = 6,
 	displayName = "Smokewinder - green"
 }

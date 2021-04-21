@@ -5,13 +5,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "Transport KAMAZ-43101",
+	DisplayName = "Truck KAMAZ 43101",
+	DisplayNameShort = "KAMAZ",
+	IR_emission_coeff = 0.08,
 	InternalCargo = {
 		maximalCapacity = 3000,
 		nominalCapacity = 3000
 	},
 	MaxSpeed = 74.99988,
-	Name = "Transport KAMAZ-43101",
+	Name = "Truck KAMAZ 43101",
 	Rate = 5,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
@@ -36,12 +38,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Unarmed", "Support & Logistics" },
 	type = "KAMAZ Truck",
 	visual = {
-		fire_pos = { 1, 0, 0 },
-		fire_size = 0.7,
-		fire_time = 900,
+		agony_explosion_size = 2,
+		fire_pos = { 0.6, 0.9, 0 },
+		fire_size = 0.55,
+		fire_time = 300,
+		max_time_agony = 120,
+		min_time_agony = 10,
 		shape = "KAMAZ-TENT",
 		shape_dstr = "KAMAZ-TENT-P_1"
 	},

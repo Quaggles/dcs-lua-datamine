@@ -70,8 +70,9 @@ _G["launcher"]["LAU_131x3_HYDRA_70_M156"] = {
 			connector_name = "tube_21"
 		} },
 	Picture = "LAU131.png",
-	Weight = 361.48,
+	Weight = 410.43,
 	attribute = { 4, 7, 32, "Redacted" },
-	displayName = "LAU-131*3 - 7 2.75' rockets M156 (WP)",
+	category = 3,
+	displayName = 'BRU-42 with 3 x LAU-131 pods - 21 x 2.75" Hydra, UnGd Rkts M156, Wht Phos',
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

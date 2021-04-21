@@ -1,8 +1,10 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Countries = { "China", "Iran", "Iraq" },
 	DetectionRange = 200000,
-	DisplayName = "Silkworm Radar",
-	Name = "Silkworm Radar",
+	DisplayName = "AShM Silkworm SR",
+	DisplayNameShort = "SilkWrm SR",
+	IR_emission_coeff = 0.05,
+	Name = "AShM Silkworm SR",
 	Rate = 10,
 	Sensors = {
 		RADAR = "Mys-M1_SR"
@@ -213,13 +215,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "mys-m1_p_1"
 		} },
 	snd = {
-		radarRotation = "RadarRotation"
+		radarRotation = "GndTech/RadarRotation"
 	},
+	swapped_names = true,
+	tags = { "MissilesSS", "RadarSSM" },
 	type = "Silkworm_SR",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.5,
-		fire_time = 500,
+		agony_explosion_size = 5,
+		fire_pos = { -1, 1.8, 0 },
+		fire_size = 0.4,
+		fire_time = 60,
+		max_time_agony = 35,
+		min_time_agony = 8,
 		shape = "mys-m1",
 		shape_dstr = "mys-m1_p_1"
 	}

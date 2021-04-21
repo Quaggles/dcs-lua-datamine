@@ -80,10 +80,6 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			area_life = 150,
 			area_name = "CENTER_L_02"
 		}, {
-			area_arg = 98,
-			area_life = 150,
-			area_name = "CENTER_L_03"
-		}, {
 			area_arg = 75,
 			area_fire = {
 				connector = "FIRE_BACK_L",
@@ -187,18 +183,11 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			area_arg = 110,
 			area_life = 50,
 			area_name = "LIFT_02"
-		}, {
-			area_arg = 111,
-			area_life = 50,
-			area_name = "LIFT_03"
-		}, {
-			area_arg = 112,
-			area_life = 50,
-			area_name = "LIFT_04"
 		} },
 	DeckLevel = 19.98,
 	DetectionRange = 150000,
 	DisplayName = "LHA-1 Tarawa",
+	DisplayNameShort = "Tarawa",
 	Gamma_max = 0.35,
 	Height = 64.36,
 	HelicopterSpawnTerminal = { {
@@ -588,6 +577,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	shipLength = 233,
 	snd = {},
 	speedup = 0.119249,
+	swapped_names = true,
 	type = "LHA_Tarawa",
 	visual = {
 		shape = "LHA_Tarawa",

@@ -18,8 +18,9 @@ _G["launcher"]["{BRU-42_3*Mk-82AIR}"] = {
 			connector_name = "Point03"
 		} },
 	Picture = "mk82.png",
-	Weight = 783,
+	Weight = 782.25,
 	attribute = { 4, 5, 32, "Redacted" },
-	displayName = "3 Mk-82AIR",
+	category = 1,
+	displayName = "BRU-42 with 3 x Mk-82 AIR Ballute - 500lb GP Bombs HD",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

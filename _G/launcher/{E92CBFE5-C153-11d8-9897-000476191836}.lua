@@ -8,7 +8,8 @@ _G["launcher"]["{E92CBFE5-C153-11d8-9897-000476191836}"] = {
 	Picture = "SPPU22.png",
 	Weight = 290,
 	attribute = { 4, 15, 46, "Redacted" },
-	displayName = "SPPU-22-1 Gun pod",
+	category = 6,
+	displayName = "SPPU-22-1 - 2 x 23mm  GSh-23L Autocannon Pod",
 	kind_of_shipping = 2,
 	wsTypeOfWeapon = { 4, 6, 6, "Redacted" }
 }

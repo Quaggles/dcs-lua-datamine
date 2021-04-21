@@ -86,12 +86,15 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		} },
 	DeckLevel = 3,
 	DetectionRange = 10000,
-	DisplayName = "Schnellboot type S130",
-	Gamma_max = 0.35,
+	DisplayName = "Boat Schnellboot type S130",
+	DisplayNameShort = "S130",
+	Gamma_max = 1,
 	Height = 5.5,
+	IR_emission_coeff = 0.3,
 	Length = 32.76,
-	Name = "Schnellboot type S130",
+	Name = "Boat Schnellboot type S130",
 	Om = 0.6,
+	RCS = 3000,
 	R_min = 75,
 	Rate = 200,
 	Sensors = {
@@ -163,7 +166,9 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 				} },
 			angles = { { 2.3736477827123, 0.69813170079773, -0.13089969389957, 1.1344640137963 }, { 0.69813170079773, -0.69813170079773, 0, 1.1344640137963 }, { -0.69813170079773, -2.3736477827123, -0.13089969389957, 1.1344640137963 }, { -2.3736477827123, 2.3736477827123, 0.15707963267949, 1.1344640137963 } },
 			center = "CENTER_MGUN_01",
-			cockpit = { "IronSight/IronSight", { -1.2, 0.1, 0 } },
+			cockpit = { "IronSight/IronSight", { -1.2, 0.1, 0 },
+				open = true
+			},
 			drawArgument1 = 17,
 			drawArgument2 = 18,
 			pidY = {},
@@ -236,7 +241,9 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 				} },
 			angles = { { 2.3736477827123, 0.69813170079773, -0.13089969389957, 1.1344640137963 }, { 0.69813170079773, -0.69813170079773, 0.34906585039887, 1.1344640137963 }, { -0.69813170079773, -2.3736477827123, -0.13089969389957, 1.1344640137963 }, { -2.3736477827123, 2.3736477827123, 0.15707963267949, 1.1344640137963 } },
 			center = "CENTER_MGUN_02",
-			cockpit = { "IronSight/IronSight", { -1.2, 0.1, 0 } },
+			cockpit = { "IronSight/IronSight", { -1.2, 0.1, 0 },
+				open = true
+			},
 			drawArgument1 = 19,
 			drawArgument2 = 20,
 			pidY = {},
@@ -456,7 +463,9 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 				} },
 			angles = { { -0.48869219055841, -2.4783675378319, -0.10471975511966, 1.3613568165556 }, { -2.4783675378319, 2.4783675378319, 0, 1.3613568165556 }, { 2.4783675378319, 0.48869219055841, -0.10471975511966, 1.3613568165556 }, { 0.48869219055841, 0.3989822670059, 0.026179938779915, 1.3613568165556 }, { 0.3989822670059, -0.3989822670059, 0.31415926535898, 1.3613568165556 } },
 			center = "CENTER_GUN",
-			cockpit = { "IronSight/IronSight", { -1.2, 0.1, 0 } },
+			cockpit = { "IronSight/IronSight", { -1.2, 0.1, 0 },
+				open = true
+			},
 			drawArgument1 = 21,
 			drawArgument2 = 22,
 			pidY = {},
@@ -498,6 +507,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					type = 32
 				} },
 			angles = { { 0.0034906585039887, -0.0034906585039887, -0.78539816339745, 0.78539816339745 } },
+			canSetTacticalDir = true,
 			moveable = false,
 			pos = { 30, -3, 0 },
 			reference_angle_Z = 0
@@ -558,6 +568,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	shipLength = 34.6,
 	snd = {},
 	speedup = 0.8,
+	swapped_names = true,
+	tags = { "Fast Attack Craft" },
 	type = "Schnellboot_type_S130",
 	visual = {
 		shape = "Schnellboot_type_S130",

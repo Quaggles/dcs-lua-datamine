@@ -16,8 +16,9 @@ _G["launcher"]["{89D000B0-0360-461A-AD83-FB727E2ABA98}"] = {
 			ShapeName = "GBU-12"
 		} },
 	Picture = "GBU12.png",
-	Weight = 601,
+	Weight = 610.25,
 	attribute = { 4, 5, 32, "Redacted" },
-	displayName = "2xGBU-12",
+	category = 1,
+	displayName = "2xGBU-12 - 500lb Laser Guided Bomb",
 	wsTypeOfWeapon = { 4, 5, 36, "Redacted" }
 }

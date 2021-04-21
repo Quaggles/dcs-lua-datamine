@@ -12,7 +12,7 @@ _G["db"]["Units"]["GT_t"]["WS_t"]["ship_MK41_SM2"]["LN"]["#Index"] = {
 	distanceMin = 4000,
 	launch_delay = 2,
 	reactionTime = 1,
-	reflection_limit = 0.1,
+	reflection_limit = 0.05,
 	sensor = {},
 	type = 4
 }

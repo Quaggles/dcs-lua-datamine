@@ -3,6 +3,7 @@ _G["bombs"]["#Index"] = {
 	Cx = 0.001438,
 	Name = "Redacted",
 	VyHold = -100,
+	display_name = "RBK-500 PTAB-1M",
 	explMass = 172,
 	hMax = 25000,
 	hMin = 200,

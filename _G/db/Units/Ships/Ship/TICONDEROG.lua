@@ -155,14 +155,17 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		} },
 	DeckLevel = 8,
 	DetectionRange = 150000,
-	DisplayName = "Ticonderoga class",
-	Gamma_max = 0.35,
+	DisplayName = "CG Ticonderoga",
+	DisplayNameShort = "Ticonderoga",
+	Gamma_max = 1,
 	Height = 37.2,
 	Helicopter_Num_ = 2,
+	IR_emission_coeff = 0.4,
 	Landing_Point = { -44, 9.93, 0 },
 	Length = 172.34,
-	Name = "Ticonderoga class",
+	Name = "CG Ticonderoga",
 	Om = 0.02,
+	RCS = 90000,
 	R_min = 345.6,
 	Rate = 4000,
 	Sensors = {
@@ -408,7 +411,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					max_trg_alt = 30000,
 					min_trg_alt = 5,
 					reactionTime = 2,
-					reflection_limit = 0.1,
+					reflection_limit = 0.05,
 					type = 102
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -1.5707963267949, 1.3962634015955 } },
@@ -427,7 +430,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 				inn = 50,
 				p = 100
 			},
-			pos = { 0, 19, 0 }
+			pos = { 23, 19, 0 }
 		}, {
 			LN = { {
 					frequencyRange = {}
@@ -1438,9 +1441,18 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	race_distance = 2778000,
 	race_velocity = 15.4333,
 	radar1_period = 3,
+	sensor = {
+		max_alt_finding_target = 30000,
+		max_range_finding_target = 150000,
+		min_alt_finding_target = 0,
+		min_range_finding_target = 0,
+		pos = { -23, 19, 0 }
+	},
 	shipLength = 160.7,
 	snd = {},
 	speedup = 0.229734,
+	swapped_names = true,
+	tags = { "Cruiser" },
 	type = "TICONDEROG",
 	visual = {
 		shape = "ticonderoga",

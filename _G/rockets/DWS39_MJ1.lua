@@ -24,7 +24,7 @@ _G["rockets"]["#Index"] = {
 	Nr_max = 4,
 	OmViz_max = 99.9,
 	Range_max = 10000,
-	Reflection = 0.4,
+	Reflection = 0.15,
 	X_back = 0,
 	Y_back = 0,
 	Z_back = 0,
@@ -46,6 +46,7 @@ _G["rockets"]["#Index"] = {
 	},
 	category = 2,
 	class_name = "wAmmunitionSelfHoming",
+	display_name = "DWS39 MJ1",
 	fm = {
 		A = 0.13,
 		I = 270,

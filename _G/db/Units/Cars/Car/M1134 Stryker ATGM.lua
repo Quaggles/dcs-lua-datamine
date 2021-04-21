@@ -4,10 +4,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "ATGM M1134 Stryker",
+	DisplayName = "ATGM Stryker",
+	DisplayNameShort = "M1134",
 	EPLRS = true,
+	IR_emission_coeff = 0.085,
 	MaxSpeed = 72,
-	Name = "ATGM M1134 Stryker",
+	Name = "ATGM Stryker",
 	Rate = 15,
 	Sensors = {
 		OPTIC = { "TAS4 TOW day", "TAS4 TOW night" }
@@ -134,14 +136,19 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "SP ATGM" },
 	toggle_alarm_state_interval = 4,
 	turbine = false,
 	type = "M1134 Stryker ATGM",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.9,
-		fire_time = 1000,
+		agony_explosion_size = 3,
+		fire_pos = { 0.3, 1, 0 },
+		fire_size = 0.8,
+		fire_time = 450,
+		max_time_agony = 100,
+		min_time_agony = 10,
 		shape = "M1134",
 		shape_dstr = "M1134_P1"
 	}

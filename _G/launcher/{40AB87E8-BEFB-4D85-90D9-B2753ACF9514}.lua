@@ -13,6 +13,7 @@ _G["launcher"]["{40AB87E8-BEFB-4D85-90D9-B2753ACF9514}"] = {
 	Picture = "kh59m.png",
 	Weight = 850,
 	attribute = { 4, 4, 32, "Redacted", "Cruise missiles" },
-	displayName = "Kh-59M",
+	category = 2,
+	displayName = "Kh-59M (AS-18 Kazoo) - 930kg, ASM, IN",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

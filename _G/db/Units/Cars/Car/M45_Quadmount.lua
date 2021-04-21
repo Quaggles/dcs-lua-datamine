@@ -1,9 +1,11 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Countries = { "Australia", "Belgium", "Canada", "Czech Republic", "France", "Italia", "Poland", "The Netherlands", "UK", "USA", "USSR", "Yugoslavia" },
 	DetectionRange = 0,
-	DisplayName = "AAA M45 Quadmount",
+	DisplayName = "AAA M45 Quadmount HB 12.7mm",
+	DisplayNameShort = "M45 Gun",
+	IR_emission_coeff = 0.01,
 	MaxSpeed = 0,
-	Name = "AAA M45 Quadmount",
+	Name = "AAA M45 Quadmount HB 12.7mm",
 	Rate = 3,
 	ThreatRange = 1500,
 	WS = { {
@@ -49,7 +51,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.5690509975429 } },
 			center = "CENTER_TOWER",
-			cockpit = { "genericAAA", { -1, 0.4, -0.4 } },
+			cockpit = { "genericAAA", { -1, 0.4, -0.4 },
+				open = true
+			},
 			drawArgument1 = 0,
 			drawArgument2 = 1,
 			omegaY = 0.87266462599716,
@@ -106,11 +110,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "M45_Quadmount_p_1"
 		} },
 	snd = {},
+	swapped_names = true,
+	tags = { "Air Defence", "AAA" },
 	type = "M45_Quadmount",
 	visual = {
-		fire_pos = { -0.5, 0.1, 0 },
-		fire_size = 0.08,
-		fire_time = 500,
+		agony_explosion_size = 0.1,
+		fire_pos = {},
+		fire_size = 0,
+		fire_time = 0,
+		max_time_agony = -1,
 		shape = "M45_Quadmount",
 		shape_dstr = "M45_Quadmount_p_1"
 	}

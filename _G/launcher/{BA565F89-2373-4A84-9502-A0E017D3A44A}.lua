@@ -8,5 +8,6 @@ _G["launcher"]["{BA565F89-2373-4A84-9502-A0E017D3A44A}"] = {
 	Picture = "KAB500.png",
 	Weight = 534,
 	attribute = { 4, 5, 36, "Redacted" },
-	displayName = "KAB-500L"
+	category = 1,
+	displayName = "KAB-500LG - 500kg Laser Guided Bomb"
 }

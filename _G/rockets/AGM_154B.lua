@@ -24,7 +24,7 @@ _G["rockets"]["#Index"] = {
 	Nr_max = 10,
 	OmViz_max = 99.9,
 	Range_max = 140000,
-	Reflection = 0.0618,
+	Reflection = 0.05,
 	X_back = 0,
 	Y_back = 0,
 	Z_back = 0,
@@ -78,6 +78,7 @@ _G["rockets"]["#Index"] = {
 		vert_offset_before_end_game_k = 0.8,
 		wind_k = 0
 	},
+	display_name = "AGM-154B",
 	fm = {
 		A = 0.25,
 		I = 1000,

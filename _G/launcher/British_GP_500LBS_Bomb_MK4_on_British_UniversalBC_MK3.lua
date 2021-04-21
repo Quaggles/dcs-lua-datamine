@@ -3,18 +3,7 @@ _G["launcher"]["British_GP_500LBS_Bomb_MK4_on_British_UniversalBC_MK3"] = {
 	Count = 1,
 	Cx_item = 0.00133,
 	Cx_pil = 0.00135,
-	Elements = { {
-			IsAdapter = true,
-			ShapeName = "Spitfire_pilon1",
-			shape_table_data = { {
-					file = "Spitfire_pilon1",
-					fire = { 0, 1 },
-					index = "Redacted",
-					life = 60,
-					name = "Spitfire_pilon1",
-					username = "Spitfire_pilon1"
-				} }
-		}, {
+	Elements = { "_G/Pylons/Spitfire_pilon1.lua", {
 			ShapeName = "LB_500",
 			connector_name = "Point01"
 		} },
@@ -26,6 +15,7 @@ _G["launcher"]["British_GP_500LBS_Bomb_MK4_on_British_UniversalBC_MK3"] = {
 	_origin = "World War II AI Units by Eagle Dynamics",
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
-	displayName = "500 lbs. Bomb Mk. IV",
+	displayName = "500lb Mk.I - GP Bomb LD",
+	name = "British_GP_500LBS_Bomb_MK4_on_British_UniversalBC_MK3",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

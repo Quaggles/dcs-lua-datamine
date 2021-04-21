@@ -33,6 +33,7 @@ _G["launcher"]["{LAU68_FFAR_MK5HEAT}"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
-	displayName = "LAU-68 - 7 FFAR Mk5 HEAT",
+	displayName = 'LAU-68 pod - 7 x 2.75" FFAR, UnGd Rkts Mk5, HEAT',
+	name = "{LAU68_FFAR_MK5HEAT}",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

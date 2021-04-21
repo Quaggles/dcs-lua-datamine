@@ -7,6 +7,7 @@ _G["db"]["Units"]["Effects"]["Effect"]["#Index"] = {
 	bTransparency = true,
 	category = "Effect",
 	mapclasskey = "P0091000353",
+	swapped_names = true,
 	tblPresets = {
 		defaultId = "1",
 		values = { {

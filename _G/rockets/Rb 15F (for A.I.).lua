@@ -65,6 +65,7 @@ _G["rockets"]["#Index"] = {
 		boost_start = 0.001,
 		march_start = 0.01
 	},
+	display_name = "RB-15F (for A.I.)",
 	engine_control = {
 		K = 265,
 		Kd = 0.01,

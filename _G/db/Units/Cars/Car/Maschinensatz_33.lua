@@ -1,9 +1,11 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Countries = { "Germany", "Third Reich", "Japan", "Italian Social Republic", "Finland", "Hungary", "Romania", "Bulgaria" },
 	DetectionRange = 0,
-	DisplayName = "Maschinensatz_33",
+	DisplayName = "PU Maschinensatz_33",
+	DisplayNameShort = "Masch_33",
+	IR_emission_coeff = 0.07,
 	MaxSpeed = 0,
-	Name = "Maschinensatz_33",
+	Name = "PU Maschinensatz_33",
 	Rate = 4,
 	ThreatRange = 0,
 	WS = {
@@ -44,11 +46,16 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	snd = {
 		radarRotation = "GndTech/Maschinensatz_33_EngineIdle"
 	},
+	swapped_names = true,
+	tags = { "Air Defence", "AAA", "Generator" },
 	type = "Maschinensatz_33",
 	visual = {
-		fire_pos = { 0, 0.6, 0 },
-		fire_size = 0.08,
-		fire_time = 90,
+		agony_explosion_size = 2,
+		fire_pos = { -0.25, 0.6, 0 },
+		fire_size = 0.35,
+		fire_time = 25,
+		max_time_agony = 25,
+		min_time_agony = 5,
 		shape = "Maschinensatz_33",
 		shape_dstr = "Maschinensatz_33_p_1"
 	}

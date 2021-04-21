@@ -4,5 +4,6 @@ _G["db"]["Units"]["Fortifications"]["Fortification"]["#Index"] = {
 	Rate = 100,
 	ShapeName = "kp_ug",
 	category = "Fortification",
+	swapped_names = true,
 	type = "FARP CP Blindage"
 }

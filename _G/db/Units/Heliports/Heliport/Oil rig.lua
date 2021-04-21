@@ -25,5 +25,6 @@ _G["db"]["Units"]["Heliports"]["Heliport"]["#Index"] = {
 			username = "Oil rig"
 		} },
 	subCategory = "SeaShelfObject",
+	swapped_names = true,
 	type = "Oil rig"
 }

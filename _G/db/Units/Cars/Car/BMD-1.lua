@@ -3,9 +3,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	CustomAimPoint = { 0, 0.9, 0 },
 	DetectionRange = 0,
 	DisplayName = "IFV BMD-1",
+	DisplayNameShort = "BMD1",
 	DropWeight = 8700,
+	IR_emission_coeff = 0.08,
 	InternalCargo = {
 		maximalCapacity = 400,
 		nominalCapacity = 400
@@ -133,7 +136,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {}, {} }
 	},
-	attribute = { 2, 17, 104, "Redacted", "IFV", "ATGM", "Infantry carriers", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "NonAndLightArmoredUnits", "LightArmoredUnits" },
+	attribute = { 2, 17, 104, "Redacted", "IFV", "ATGM", "CustomAimPoint", "Infantry carriers", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "NonAndLightArmoredUnits", "LightArmoredUnits" },
 	category = "Armor",
 	chassis = {
 		life = 2
@@ -156,14 +159,19 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { { 0, 0.6 }, { 10, 1 } },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "IFV" },
 	type = "BMD-1",
 	visual = {
+		agony_explosion_size = 2,
 		dirt_pos = { -2.7, 0.5, -1.268 },
 		dust_pos = { 1.8, 0, -1.268 },
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.6,
-		fire_time = 1000,
+		fire_pos = { -0.3, 0.9, 0 },
+		fire_size = 0.85,
+		fire_time = 400,
+		max_time_agony = 100,
+		min_time_agony = 5,
 		shape = "bmd-1",
 		shape_dstr = "Bmd-1_p_1"
 	}

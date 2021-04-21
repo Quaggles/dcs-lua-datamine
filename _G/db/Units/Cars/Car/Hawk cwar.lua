@@ -1,7 +1,9 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 70000,
 	DisplayName = "SAM Hawk CWAR AN/MPQ-55",
+	DisplayNameShort = "Hawk-CWAR",
 	EPLRS = true,
+	IR_emission_coeff = 0.05,
 	MaxSpeed = 0,
 	Name = "SAM Hawk CWAR AN/MPQ-55",
 	Rate = 20,
@@ -287,13 +289,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		min_range_finding_target = 1500
 	},
 	snd = {
-		radarRotation = "RadarRotation"
+		radarRotation = "GndTech/RadarRotation"
 	},
+	swapped_names = true,
+	tags = { "Air Defence", "Search & Track Radar" },
 	type = "Hawk cwar",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.5,
-		fire_time = 500,
+		agony_explosion_size = 0,
+		fire_pos = {},
+		fire_size = 0,
+		fire_time = 0,
+		max_time_agony = -1,
 		shape = "hawk-cwar",
 		shape_dstr = "hawk-cwar_p_1"
 	}

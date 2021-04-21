@@ -50,7 +50,7 @@ _G["weapons_table"]["weapons"]["nurs"]["FFAR M156 WP"] = {
 				name = "ffar_mk4_m156",
 				username = "FFAR M156 WP"
 			} },
-		user_name = "FFAR M156 WP",
+		user_name = '2.75" FFAR, UnGd Rkts M156, Wht Phos',
 		warhead = {
 			caliber = 69.85,
 			color = { 1, 1, 1 },
@@ -63,7 +63,7 @@ _G["weapons_table"]["weapons"]["nurs"]["FFAR M156 WP"] = {
 		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 	},
 	cx_pil = 1.4920965811477e-05,
-	display_name = "FFAR M156 WP",
+	display_name = '2.75" FFAR, UnGd Rkts M156, Wht Phos',
 	dist_max = 1200,
 	dist_min = 600,
 	mass = 11.2037224,
@@ -117,7 +117,7 @@ _G["weapons_table"]["weapons"]["nurs"]["FFAR M156 WP"] = {
 				name = "ffar_mk4_m156",
 				username = "FFAR M156 WP"
 			} },
-		user_name = "FFAR M156 WP",
+		user_name = '2.75" FFAR, UnGd Rkts M156, Wht Phos',
 		warhead = {
 			caliber = 69.85,
 			color = { 1, 1, 1 },

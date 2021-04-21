@@ -30,6 +30,7 @@ _G["launcher"]["{29A828E2-C6BB-11d8-9897-000476191836}"] = {
 	PictureBlendColor = "0xffffffff",
 	Weight = 465,
 	attribute = { 4, 5, 32, "Redacted" },
-	displayName = "MBD-2-67U - 4 FAB-100",
+	category = 1,
+	displayName = "MBD2-67U with 4 x FAB-100 - 100kg GP Bombs LD",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

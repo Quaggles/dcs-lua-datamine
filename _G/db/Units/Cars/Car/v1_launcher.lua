@@ -1,9 +1,11 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Countries = { "Germany", "Third Reich", "Japan", "Italian Social Republic", "Finland", "Hungary", "Romania", "Bulgaria" },
 	DetectionRange = 0,
-	DisplayName = "V-1 ramp",
+	DisplayName = "SSM V-1 Launcher",
+	DisplayNameShort = "V-1 Ln",
+	IR_emission_coeff = 0.01,
 	MaxSpeed = 0,
-	Name = "V-1 ramp",
+	Name = "SSM V-1 Launcher",
 	Rate = 10,
 	ThreatRange = 0,
 	WS = { {
@@ -70,11 +72,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "v1_ramp_p_1"
 		} },
 	snd = {},
+	swapped_names = true,
+	tags = { "MissilesSS", "SSM" },
 	type = "v1_launcher",
 	visual = {
-		fire_pos = { 0, 0.6, 0 },
-		fire_size = 0.8,
-		fire_time = 900,
+		agony_explosion_size = 0,
+		fire_pos = {},
+		fire_size = 0,
+		fire_time = 0,
+		max_time_agony = -1,
 		shape = "v1_ramp",
 		shape_dstr = "v1_ramp_p_1"
 	}

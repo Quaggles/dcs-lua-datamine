@@ -6,7 +6,8 @@ _G["launcher"]["{Mk82AIR}"] = {
 			ShapeName = "Mk-82AIR"
 		} },
 	Picture = "mk82AIR.png",
-	Weight = 232,
+	Weight = 242,
 	attribute = { 4, 5, 9, "Redacted" },
-	displayName = "Mk-82AIR"
+	category = 1,
+	displayName = "Mk-82 AIR Ballute - 500lb GP Bomb HD"
 }

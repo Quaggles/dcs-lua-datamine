@@ -1,8 +1,10 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Countries = { "Algeria", "Bulgaria", "China", "Czech Republic", "Egypt", "Ethiopia", "Georgia", "Germany", "Hungary", "Indonesia", "Iran", "Kazakhstan", "Libya", "North Korea", "Pakistan", "Romania", "Russia", "Sudan", "Syria", "Poland", "Ukraine", "USSR", "Vietnam", "Yemen", "Yugoslavia", "Cuba" },
 	DetectionRange = 100000,
-	DisplayName = "SAM SA-2 TR SNR-75 Fan Song",
-	Name = "SAM SA-2 TR SNR-75 Fan Song",
+	DisplayName = 'SAM SA-2 S-75 "Fan Song" TR',
+	DisplayNameShort = "SA-2 Tr",
+	IR_emission_coeff = 0.05,
+	Name = 'SAM SA-2 S-75 "Fan Song" TR',
 	Rate = 10,
 	Sensors = {
 		RADAR = "snr s-125 tr"
@@ -110,13 +112,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "SNR_75_p_1"
 		} },
 	snd = {
-		radarRotation = "RadarRotation"
+		radarRotation = "GndTech/RadarRotation"
 	},
+	swapped_names = true,
+	tags = { "Air Defence", "Tracking Radar" },
 	type = "SNR_75V",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.5,
-		fire_time = 500,
+		agony_explosion_size = 5,
+		fire_pos = { 0, 1.5, 0 },
+		fire_size = 0.6,
+		fire_time = 100,
+		max_time_agony = 60,
+		min_time_agony = 10,
 		shape = "SNR_75",
 		shape_dstr = "SNR_75_p_1"
 	}

@@ -45,7 +45,7 @@ _G["weapons_table"]["weapons"]["nurs"]["C_25"] = {
 		}
 	},
 	cx_pil = 0.00048520673702783,
-	display_name = "S-25OFM",
+	display_name = "S-25-OFM",
 	dist_max = 3000,
 	dist_min = 2000,
 	mass = 409.99637,

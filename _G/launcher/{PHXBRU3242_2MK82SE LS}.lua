@@ -17,5 +17,6 @@ _G["launcher"]["{PHXBRU3242_2*MK82SE LS}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "2 Mk-82 SnakeEye",
+	name = "{PHXBRU3242_2*MK82SE LS}",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

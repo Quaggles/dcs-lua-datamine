@@ -9,5 +9,6 @@ _G["launcher"]["{HVAR}"] = {
 	Picture = "HVAR.png",
 	Weight = 64,
 	attribute = { 4, 7, 33, "Redacted" },
-	displayName = "HVAR"
+	category = 3,
+	displayName = "HVAR, UnGd Rkt"
 }

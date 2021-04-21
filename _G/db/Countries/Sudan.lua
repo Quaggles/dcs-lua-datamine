@@ -220,6 +220,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "S-60_Type59_Artillery",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Electric locomotive"
 				}, {
 					Name = "Locomotive"
@@ -561,6 +565,18 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Windsock",
 					in_service = 0,
 					out_of_service = 40000
+				}, {
+					Name = "Beer Bomb"
+				}, {
+					Name = "Concertina wire"
+				}, {
+					Name = "Haystack 1"
+				}, {
+					Name = "Haystack 2"
+				}, {
+					Name = "Haystack 3"
+				}, {
+					Name = "Haystack 4"
 				} }
 		},
 		GrassAirfields = {
@@ -722,8 +738,6 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "speedboat",
 					in_service = 0,
 					out_of_service = 40000
-				}, {
-					Name = "HandyWind"
 				} }
 		},
 		WWIIstructures = {

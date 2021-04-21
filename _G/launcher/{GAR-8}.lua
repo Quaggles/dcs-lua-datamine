@@ -11,11 +11,12 @@ _G["launcher"]["{GAR-8}"] = {
 		} },
 	Picture = "us_AIM-9B.png",
 	PictureBlendColor = "0xffffffff",
-	Weight = 100.5,
+	Weight = 89.39,
+	Weight_Empty = 15,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/aim9_family.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 4,
-	displayName = "LAU-7 GAR-8 Sidewinder IR AAM",
+	displayName = "LAU-7 with AIM-9B Sidewinder IR AAM",
 	wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 }

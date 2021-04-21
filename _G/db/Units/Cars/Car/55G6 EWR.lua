@@ -2,7 +2,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	CustomAimPoint = { 0, 1.5, 0 },
 	DetectionRange = 120000,
 	DisplayName = "EWR 55G6",
+	DisplayNameShort = "EWR55",
 	EWR = true,
+	IR_emission_coeff = 0.07,
 	MaxSpeed = 0,
 	Name = "EWR 55G6",
 	Rate = 100,
@@ -188,13 +190,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		min_range_finding_target = 0
 	},
 	snd = {
-		radarRotation = "RadarRotation"
+		radarRotation = "GndTech/RadarRotation"
 	},
+	swapped_names = true,
+	tags = { "Air Defence", "EW Radar" },
 	type = "55G6 EWR",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 1,
-		fire_time = 1200,
+		agony_explosion_size = 2,
+		fire_pos = { 0.7, 1, 0 },
+		fire_size = 0.55,
+		fire_time = 300,
+		max_time_agony = 90,
+		min_time_agony = 10,
 		shape = "55g6",
 		shape_dstr = "Ural-375_p_1"
 	}

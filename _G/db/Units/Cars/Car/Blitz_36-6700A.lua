@@ -13,12 +13,14 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	Countries = { "Germany", "Third Reich", "Japan", "Italian Social Republic", "Finland", "Hungary", "Romania", "Bulgaria" },
 	DetectionRange = 0,
-	DisplayName = "Blitz 3.6-6700A",
+	DisplayName = "Truck Opel Blitz",
+	DisplayNameShort = "Blitz",
+	IR_emission_coeff = 0.75,
 	InternalCargo = {
 		maximalCapacity = 1100,
 		nominalCapacity = 1100
 	},
-	Name = "Blitz 3.6-6700A",
+	Name = "Truck Opel Blitz",
 	Rate = 5,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
@@ -57,12 +59,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Unarmed", "Support", "Logistics" },
 	type = "Blitz_36-6700A",
 	visual = {
-		fire_pos = { 2.1, 0.81, 0 },
-		fire_size = 0.2,
-		fire_time = 500,
+		agony_explosion_size = 2,
+		fire_pos = { 2.3, 1.2, 0 },
+		fire_size = 0.3,
+		fire_time = 550,
+		max_time_agony = 130,
+		min_time_agony = 10,
 		shape = "Blitz_36-6700A",
 		shape_dstr = "Blitz_36-6700A_p_1"
 	},

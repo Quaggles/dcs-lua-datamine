@@ -456,6 +456,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	range = 12300,
 	singleInFlight = true,
 	stores_number = 2,
+	swapped_names = true,
 	tand_gear_max = 0.577,
 	tanker_type = 4,
 	thrust_sum_ab = 120000,

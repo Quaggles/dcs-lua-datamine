@@ -1,9 +1,11 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Aliases = { "Hawk AN/MPQ-46 TR" },
 	DetectionRange = 90000,
-	DisplayName = "SAM Hawk TR AN/MPQ-46",
+	DisplayName = "SAM Hawk TR (AN/MPQ-46)",
+	DisplayNameShort = "Hawk-TR",
+	IR_emission_coeff = 0.06,
 	MaxSpeed = 0,
-	Name = "SAM Hawk TR AN/MPQ-46",
+	Name = "SAM Hawk TR (AN/MPQ-46)",
 	Rate = 20,
 	Sensors = {
 		RADAR = "Hawk tr"
@@ -95,13 +97,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		min_range_finding_target = 1500
 	},
 	snd = {
-		radarRotation = "RadarRotation"
+		radarRotation = "GndTech/RadarRotation"
 	},
+	swapped_names = true,
+	tags = { "Air Defence", "Tracking Radar" },
 	type = "Hawk tr",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.5,
-		fire_time = 500,
+		agony_explosion_size = 0,
+		fire_pos = {},
+		fire_size = 0,
+		fire_time = 0,
+		max_time_agony = -1,
 		shape = "hawk-upr",
 		shape_dstr = "hawk-upr_p_1"
 	}

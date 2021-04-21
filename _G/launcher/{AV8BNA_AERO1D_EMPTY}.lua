@@ -13,6 +13,7 @@ _G["launcher"]["{AV8BNA_AERO1D_EMPTY}"] = {
 	attribute = { 1, 3, 43, "Redacted" },
 	category = 5,
 	displayName = "AERO 1D 300 Gallons Fuel Tank (Empty)",
+	name = "AV8BNA_FT",
 	shape_table_data = { {
 			file = "AV8BNA_FT",
 			fire = { 0, 1 },

@@ -139,9 +139,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			}
 		} },
 	DetectionRange = 0,
-	DisplayName = "AC Sd.Kfz.234/2 Puma",
+	DisplayName = "IFV Sd.Kfz.234/2 Puma",
+	DisplayNameShort = "Puma",
+	IR_emission_coeff = 0.08,
 	MaxSpeed = 90,
-	Name = "AC Sd.Kfz.234/2 Puma",
+	Name = "IFV Sd.Kfz.234/2 Puma",
 	Rate = 8,
 	ThreatRange = 2000,
 	WS = { {
@@ -276,13 +278,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "Scout/Recon" },
 	toggle_alarm_state_interval = 2,
 	type = "Sd_Kfz_234_2_Puma",
 	visual = {
-		fire_pos = { -1.6, 0.8, -0.3 },
-		fire_size = 0.8,
-		fire_time = 800,
+		agony_explosion_size = 3,
+		fire_pos = { -0.6, 0.9, 0 },
+		fire_size = 0.45,
+		fire_time = 500,
+		max_time_agony = 90,
+		min_time_agony = 10,
 		shape = "Sd_Kfz_234_2_Puma",
 		shape_dstr = "Sd_Kfz_234_2_Puma_p_1"
 	}

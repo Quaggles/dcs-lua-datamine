@@ -11,5 +11,5 @@ _G["launcher"]["{P-50T}"] = {
 	_origin = "L-39C/ZA by Eagle Dynamics",
 	attribute = { 4, 5, 9, "Redacted" },
 	category = 1,
-	displayName = "P-50T"
+	displayName = "P-50T - 50kg Practice Bomb LD"
 }

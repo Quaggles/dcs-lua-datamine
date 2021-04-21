@@ -1,6 +1,6 @@
 _G["bombs"]["#Index"] = {
 	Ag = -20,
-	Cx = 0.00133,
+	Cx = 0.00018,
 	Name = "Redacted",
 	VyHold = -50,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/bomb_type200.lua",

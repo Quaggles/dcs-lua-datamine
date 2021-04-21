@@ -1,7 +1,9 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 0,
-	DisplayName = "Coach for passengers",
-	Name = "Coach for passengers",
+	DisplayName = "Passenger Car",
+	DisplayNameShort = "Pass",
+	IR_emission_coeff = 0.05,
+	Name = "Passenger Car",
 	Rate = 4,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
@@ -34,12 +36,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "wagon-pass_p_1"
 		} },
 	snd = {},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Train", "Carriage" },
 	type = "Coach a passenger",
 	visual = {
-		fire_pos = { -2, 0, 0 },
-		fire_size = 0.7,
-		fire_time = 1000,
+		agony_explosion_size = 5,
+		fire_pos = { -3.5, 1.8, 0 },
+		fire_size = 0.9,
+		fire_time = 700,
+		max_time_agony = 150,
+		min_time_agony = 40,
 		shape = "wagon-pass",
 		shape_dstr = "wagon-pass_p_1"
 	}

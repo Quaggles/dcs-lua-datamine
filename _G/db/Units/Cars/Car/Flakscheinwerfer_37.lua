@@ -1,9 +1,11 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Countries = { "Germany", "Third Reich", "Japan", "Italian Social Republic", "Finland", "Hungary", "Romania", "Bulgaria" },
 	DetectionRange = 15000,
-	DisplayName = "Flak Searchlight 37",
+	DisplayName = "SL Flakscheinwerfer 37",
+	DisplayNameShort = "FlakSchWfr37",
+	IR_emission_coeff = 0.3,
 	MaxSpeed = 0,
-	Name = "Flak Searchlight 37",
+	Name = "SL Flakscheinwerfer 37",
 	Rate = 4,
 	Sensors = {
 		RADAR = { "VIRTUAL_AUDIO_SENSOR" }
@@ -29,7 +31,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					type = 110
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.5706217938697 } },
-			cockpit = { "IronSight/IronSight", { 0.3, 0, -2 } },
+			cockpit = { "IronSight/IronSight", { 0.3, 0, -2 },
+				open = true
+			},
 			drawArgument1 = 0,
 			drawArgument2 = 1,
 			omegaY = 1.3962634015955,
@@ -90,11 +94,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "Flakscheinwerfer_37_p_1"
 		} },
 	snd = {},
+	swapped_names = true,
+	tags = { "Air Defence", "AAA", "Optical Tracker" },
 	type = "Flakscheinwerfer_37",
 	visual = {
-		fire_pos = { 0, 1.6, 0.2 },
-		fire_size = 0.08,
-		fire_time = 90,
+		agony_explosion_size = 0,
+		fire_pos = {},
+		fire_size = 0,
+		fire_time = 0,
+		max_time_agony = -1,
 		shape = "Flakscheinwerfer_37",
 		shape_dstr = "Flakscheinwerfer_37_p_1"
 	}

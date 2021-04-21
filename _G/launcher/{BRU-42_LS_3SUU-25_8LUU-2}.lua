@@ -23,8 +23,9 @@ _G["launcher"]["{BRU-42_LS_3*SUU-25_8*LUU-2}"] = {
 			Position = { -0.3, -0.18, 0.08 }
 		} },
 	Picture = "L005.png",
-	Weight = 490,
+	Weight = 736.65,
 	attribute = { 4, 5, 32, "Redacted" },
-	displayName = "3 SUU-25 * 8 LUU-2",
+	category = 1,
+	displayName = "BRU-42 with 3 x SUU-25 x 8 LUU-2 - Target Marker Flares",
 	wsTypeOfWeapon = { 4, 5, 49, "Redacted" }
 }

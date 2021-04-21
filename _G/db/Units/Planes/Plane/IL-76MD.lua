@@ -236,6 +236,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						Da0 = 0.0007,
 						Da1 = 0,
 						Dv0 = 0.005,
+						_unique_resource_name = "weapons.shells.GSH23_23_HE_T",
 						caliber = 23,
 						cartridge = 0,
 						cartridge_mass = 0,
@@ -350,7 +351,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			MaksRUD = 1,
 			MaxRUD = 1,
 			MinRUD = 0,
-			Nmg = 60.00001,
+			Nmg = 50,
+			Nominal_Fan_RPM = 8550,
+			Nominal_RPM = 11700,
+			Startup_Prework = 10,
 			cefor = 0.37,
 			cemax = 0.37,
 			dcx_eng = 0.0085,
@@ -358,7 +362,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			dpdh_m = 6200,
 			hMaxEng = 19.5,
 			table_data = { { 0, 480000, 480000 }, { 0.2, 400000, 400000 }, { 0.4, 343000, 343000 }, { 0.6, 300000, 300000 }, { 0.7, 285000, 285000 }, { 0.8, 264000, 264000 }, { 0.9, 254000, 254000 }, { 1, 233000, 233000 }, { 1.1, 217000, 217000 } },
-			type = "TurboJet"
+			type = "TurboFan"
 		}
 	},
 	Shape = "IL-76MD",
@@ -580,6 +584,19 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	main_gear_wheel_diameter = 0.972,
 	mapclasskey = "P0091000029",
 	mechanimations = {
+		Door11 = { {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "Arg", 86, "to", 0.8, "in", 15 } }
+					} },
+				Transition = { "Close", "Open" }
+			}, {
+				Flags = { "Reversible", "StepsBackwards" },
+				Sequence = { {
+						C = { { "Arg", 86, "to", 0, "in", 15 } }
+					} },
+				Transition = { "Open", "Close" }
+			} },
 		ServiceHatches = { {
 				Sequence = { {
 						C = { { "PosType", 3 }, { "Sleep", "for", 120 } }
@@ -589,11 +606,20 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				Transition = { "Close", "Open" }
 			}, {
 				Sequence = { {
-						C = { { "PosType", 3 }, { "Sleep", "for", 120 } }
+						C = { { "PosType", 3 }, { "Sleep", "for", 2 } }
 					}, {
 						C = { { "Arg", 24, "set", 0 } }
 					} },
 				Transition = { "Open", "Close" }
+			} }
+	},
+	mechconnectors = {
+		Door11 = { {
+				shift_orient = { 0, 160, 0 },
+				shift_pos = { -12, -1.5, -1.5 }
+			}, {
+				shift_orient = { 0, -160, 0 },
+				shift_pos = { -12, -1.5, 1.5 }
 			} }
 	},
 	nose_gear_pos = { 11.146, -4.009, 0 },
@@ -616,6 +642,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	range = 7300,
 	singleInFlight = false,
 	stores_number = 0,
+	swapped_names = true,
 	tand_gear_max = 0.577,
 	thrust_sum_ab = 47080,
 	thrust_sum_max = 47080,

@@ -70,6 +70,7 @@ _G["rockets"]["#Index"] = {
 		turn_max_calc_angle_deg = 90,
 		turn_point_trigger_dist = 100
 	},
+	display_name = "GB-6-HE",
 	fm = {
 		A = 0.07,
 		I = 1046.25,

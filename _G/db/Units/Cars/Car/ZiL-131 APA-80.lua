@@ -5,9 +5,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "GPU APA-80 on ZiL-131",
+	DisplayName = "GPU APA-80 on ZIL-131",
+	DisplayNameShort = "APA-80",
+	IR_emission_coeff = 0.08,
 	MaxSpeed = 74.99988,
-	Name = "GPU APA-80 on ZiL-131",
+	Name = "GPU APA-80 on ZIL-131",
 	Rate = 6,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
@@ -32,12 +34,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Unarmed", "Support & Logistics" },
 	type = "ZiL-131 APA-80",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.7,
-		fire_time = 600,
+		agony_explosion_size = 2,
+		fire_pos = { 0.75, 1, 0 },
+		fire_size = 0.5,
+		fire_time = 350,
+		max_time_agony = 80,
+		min_time_agony = 10,
 		shape = "Zil_APA-80",
 		shape_dstr = "Zil_APA-80_P1"
 	}

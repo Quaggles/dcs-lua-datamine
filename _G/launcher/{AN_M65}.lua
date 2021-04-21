@@ -12,5 +12,5 @@ _G["launcher"]["{AN_M65}"] = {
 	_origin = "World War II AI Units by Eagle Dynamics",
 	attribute = { 4, 5, 9, "Redacted" },
 	category = 1,
-	displayName = "AN-M65"
+	displayName = "AN-M65 - 1000lb GP Bomb LD"
 }

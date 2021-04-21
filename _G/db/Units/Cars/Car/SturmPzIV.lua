@@ -187,9 +187,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			}
 		} },
 	DetectionRange = 0,
-	DisplayName = "Sturmpanzer IV Brummbär",
+	DisplayName = "SPG Sturmpanzer IV Brummbar",
+	DisplayNameShort = "Brummbar",
+	IR_emission_coeff = 0.08,
 	MaxSpeed = 38.016,
-	Name = "Sturmpanzer IV Brummbär",
+	Name = "SPG Sturmpanzer IV Brummbar",
 	Rate = 15,
 	Sensors = {
 		OPTIC = { "TRP-2A day", "TRP-2A night" }
@@ -220,6 +222,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					sightMasterMode = 1
 				} },
 			angles = { { 0.17453292519943, -0.17453292519943, -0.087266462599716, 0.5235987755983 } },
+			canSetTacticalDir = true,
 			center = "CENTER_TOWER",
 			cockpit = { "Brummbar/Sfl_Z_F_1", { 0, 0, 0 } },
 			drawArgument1 = 0,
@@ -358,14 +361,19 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Artillery", "SPG" },
 	type = "SturmPzIV",
 	visual = {
+		agony_explosion_size = 5,
 		dirt_pos = { -2.6, 0.2, -1.25 },
 		dust_pos = { 2.85, 0.1, -1.25 },
-		fire_pos = { -1.3, 0.7, 0 },
-		fire_size = 0.9,
-		fire_time = 700,
+		fire_pos = { -0.8, 0.7, 0 },
+		fire_size = 0.65,
+		fire_time = 450,
+		max_time_agony = 130,
+		min_time_agony = 10,
 		shape = "Brummbar_Late",
 		shape_dstr = "Brummbar_Late_p_1"
 	}

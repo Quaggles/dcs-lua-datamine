@@ -9,5 +9,6 @@ _G["launcher"]["{5F26DBC2-FB43-4153-92DE-6BBCE26CB0FF}"] = {
 	Picture = "R40T.png",
 	Weight = 475,
 	attribute = { 4, 4, 7, "Redacted" },
-	displayName = "R-40T"
+	category = 4,
+	displayName = "R-40T (AA-6 Acrid) - Infra Red"
 }

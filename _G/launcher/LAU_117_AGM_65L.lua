@@ -1,7 +1,8 @@
 _G["launcher"]["LAU_117_AGM_65L"] = {
 	CLSID = "LAU_117_AGM_65L",
 	Count = 1,
-	Cx_pil = 0.0009765625,
+	Cx_item = 0.0009765625,
+	Cx_pil = 0.0012265625,
 	Elements = { {
 			Position = { 0, 0, 0 },
 			ShapeName = "LAU-117"
@@ -16,6 +17,7 @@ _G["launcher"]["LAU_117_AGM_65L"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
-	displayName = "LAU-117,AGM-65L",
+	displayName = "LAU-117 with AGM-65L - Maverick E2/L (CCD Laser ASM)",
+	name = "LAU_117_AGM_65L",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

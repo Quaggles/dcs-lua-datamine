@@ -4,13 +4,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "Transport VAZ-2109",
+	DisplayName = "Car VAZ-2109",
+	DisplayNameShort = "VAZ-2109",
+	IR_emission_coeff = 0.065,
 	InternalCargo = {
 		maximalCapacity = 300,
 		nominalCapacity = 300
 	},
 	MaxSpeed = 69.99984,
-	Name = "Transport VAZ-2109",
+	Name = "Car VAZ-2109",
 	Rate = 3,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
@@ -35,12 +37,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Unarmed", "Civilian" },
 	type = "VAZ Car",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.3,
-		fire_time = 600,
+		agony_explosion_size = 2,
+		fire_pos = { 1.1, 0.6, 0 },
+		fire_size = 0.35,
+		fire_time = 110,
+		max_time_agony = 60,
+		min_time_agony = 10,
 		shape = "vaz",
 		shape_dstr = "Auto-crush"
 	}

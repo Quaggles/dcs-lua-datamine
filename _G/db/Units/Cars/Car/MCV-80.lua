@@ -4,13 +4,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "IFV MCV-80",
+	DisplayName = "IFV Warrior ",
+	DisplayNameShort = "MCV80",
+	IR_emission_coeff = 0.09,
 	InternalCargo = {
 		maximalCapacity = 700,
 		nominalCapacity = 700
 	},
 	MaxSpeed = 74.99988,
-	Name = "IFV MCV-80",
+	Name = "IFV Warrior ",
 	Rate = 15,
 	Sensors = {
 		OPTIC = { "Raven day", "Raven night" }
@@ -254,15 +256,20 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "IFV" },
 	turbine = false,
 	type = "MCV-80",
 	visual = {
+		agony_explosion_size = 3,
 		dirt_pos = { -2.9, 0.6, -1.259 },
 		dust_pos = { 3.1, 0, -1.259 },
-		fire_pos = { 1, 0, 0.779 },
+		fire_pos = { 0.4, 0.9, 0 },
 		fire_size = 0.8,
-		fire_time = 1000,
+		fire_time = 450,
+		max_time_agony = 100,
+		min_time_agony = 10,
 		shape = "mcv-80",
 		shape_dstr = "MCV-80_P1"
 	}

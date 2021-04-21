@@ -109,6 +109,7 @@ _G["weapons_table"]["weapons"]["missiles"]["SeaSparrow"] = {
 			height_error_max_vel = 138,
 			max_w_LOS = 0.34906585039887,
 			op_time = 75,
+			rad_correction_vis = 1,
 			sens_far_dist = 30000,
 			sens_near_dist = 100
 		},
@@ -252,6 +253,7 @@ _G["weapons_table"]["weapons"]["missiles"]["SeaSparrow"] = {
 			height_error_max_vel = 138,
 			max_w_LOS = 0.34906585039887,
 			op_time = 75,
+			rad_correction_vis = 1,
 			sens_far_dist = 30000,
 			sens_near_dist = 100
 		},

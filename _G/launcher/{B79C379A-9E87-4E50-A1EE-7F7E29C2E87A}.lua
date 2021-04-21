@@ -9,5 +9,6 @@ _G["launcher"]["{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}"] = {
 	Picture = "r27et.png",
 	Weight = 343,
 	attribute = { 4, 4, 7, "Redacted" },
-	displayName = "R-27ET"
+	category = 4,
+	displayName = "R-27ET (AA-10 Alamo D) - IR Extended Range"
 }

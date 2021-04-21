@@ -4,9 +4,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "MBT Merkava Mk. 4",
+	DisplayName = "MBT Merkava IV",
+	DisplayNameShort = "Merk4",
+	IR_emission_coeff = 0.12,
 	MaxSpeed = 65.00016,
-	Name = "MBT Merkava Mk. 4",
+	Name = "MBT Merkava IV",
 	Rate = 10,
 	Sensors = {
 		OPTIC = { "TRP-2A day", "TRP-2A night" }
@@ -254,15 +256,20 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "MBT" },
 	turbine = false,
 	type = "Merkava_Mk4",
 	visual = {
+		agony_explosion_size = 3,
 		dirt_pos = { -3.1, 0.4, -1.5 },
 		dust_pos = { 3.8, 0.1, -1.5 },
-		fire_pos = { 0, 0, 0 },
+		fire_pos = { 0.6, 1, 0 },
 		fire_size = 0.9,
-		fire_time = 1000,
+		fire_time = 550,
+		max_time_agony = 100,
+		min_time_agony = 10,
 		shape = "Merkava_Mk_IV",
 		shape_dstr = "Merkava_Mk_IV_p_1"
 	}

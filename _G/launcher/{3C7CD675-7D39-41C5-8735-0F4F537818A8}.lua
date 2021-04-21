@@ -33,6 +33,7 @@ _G["launcher"]["{3C7CD675-7D39-41C5-8735-0F4F537818A8}"] = {
 	Picture = "rockeye.png",
 	Weight = 1392,
 	attribute = { 4, 5, 32, "Redacted" },
-	displayName = "MER*6 Mk-20 Rockeye",
+	category = 1,
+	displayName = "MER6 with 6 x Mk-20 Rockeye - 490lbs CBUs, 247 x HEAT Bomblets",
 	wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 }

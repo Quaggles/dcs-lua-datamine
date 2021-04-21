@@ -24,6 +24,7 @@ _G["launcher"]["{MER-5E_Mk82SNAKEYEx5}"] = {
 	Picture = "mk82AIR.png",
 	Weight = 1250.7,
 	attribute = { 4, 5, 32, "Redacted" },
-	displayName = "5 Mk-82 SnakeEye",
+	category = 1,
+	displayName = "5 x Mk-82 Snakeye - 500lb GP Bomb HD",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

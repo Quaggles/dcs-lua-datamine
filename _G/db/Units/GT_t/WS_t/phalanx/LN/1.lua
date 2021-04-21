@@ -10,11 +10,11 @@ _G["db"]["Units"]["GT_t"]["WS_t"]["phalanx"]["LN"]["#Index"] = {
 			shot_delay = 0.013333333333333
 		} },
 	beamWidth = 1.5707963267949,
-	distanceMax = 3600,
+	distanceMax = 3000,
 	distanceMin = 0,
 	max_trg_alt = 2000,
-	reactionTime = 1,
-	reflection_limit = 0.05,
+	reactionTime = 0.3,
+	reflection_limit = 0.049,
 	sensor = {},
 	type = 3
 }

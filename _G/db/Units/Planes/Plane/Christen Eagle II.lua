@@ -687,6 +687,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			username = "Christen Eagle II",
 			vis = 3
 		} },
+	swapped_names = true,
 	tand_gear_max = 0.577,
 	tanker_type = 0,
 	thrust_sum_ab = 2500,

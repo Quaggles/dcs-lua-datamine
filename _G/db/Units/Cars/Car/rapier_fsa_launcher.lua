@@ -1,8 +1,10 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Countries = { "UK", "Iran", "Malaysia", "Oman", "Singapore", "Switzerland", "Turkey", "United Arab Emirates", "Zambia", "Australia", "Libya", "Netherlands", "Iraq" },
 	DetectionRange = 30000,
-	DisplayName = "Rapier FSA Launcher",
-	Name = "Rapier FSA Launcher",
+	DisplayName = "SAM Rapier LN",
+	DisplayNameShort = "Rapier LN",
+	IR_emission_coeff = 0.03,
+	Name = "SAM Rapier LN",
 	Rate = 5,
 	Sensors = {
 		RADAR = "Roland Radar"
@@ -132,13 +134,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "rapier_fsa_launcher_p_1"
 		} },
 	snd = {
-		radarRotation = "RadarRotation"
+		radarRotation = "GndTech/RadarRotation"
 	},
+	swapped_names = true,
+	tags = { "Air Defence", "SAM SHORAD" },
 	type = "rapier_fsa_launcher",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.3,
-		fire_time = 500,
+		agony_explosion_size = 1,
+		fire_pos = {},
+		fire_size = 0,
+		fire_time = 0,
+		max_time_agony = -1,
 		shape = "rapier_fsa_launcher",
 		shape_dstr = "rapier_fsa_launcher_p_1"
 	}

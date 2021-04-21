@@ -2,7 +2,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	CustomAimPoint = { 0, 0.7, 0 },
 	DetectionRange = 0,
 	DisplayName = "Paratrooper AKS",
+	DisplayNameShort = "AKS74",
 	DropWeight = 100,
+	IR_emission_coeff = 0.004,
 	MaxSpeed = 14.4,
 	Name = "Paratrooper AKS",
 	Rate = 1,
@@ -38,6 +40,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { { 0.78539816339745, -0.78539816339745, -0.26179938779915, 0.5235987755983 } },
+			canSetTacticalDir = true,
 			drawArgument1 = 0,
 			drawArgument2 = 1,
 			omegaY = 1.7453292519943,
@@ -57,7 +60,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			pos = { 0, 0.95, 0 }
 		},
 		fire_on_march = false,
-		maxTargetDetectionRange = 500
+		maxTargetDetectionRange = 2000
 	},
 	Waypoint_Custom_Panel = true,
 	animation_arguments = {},
@@ -78,9 +81,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		max_range_finding_target = 500
 	},
 	snd = {},
+	swapped_names = true,
+	tags = { "Infantry" },
 	type = "Paratrooper AKS-74",
 	visual = {
 		fire_pos = {},
+		parachute = 11,
 		shape = "Infantry_typeD_AKS-74",
 		shape_dstr = "Infantry_AKS74_P_1"
 	}

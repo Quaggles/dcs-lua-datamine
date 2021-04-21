@@ -576,8 +576,6 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "Coach a platform"
 				}, {
-					Name = "T-72B3"
-				}, {
 					Name = "ES44AH"
 				}, {
 					Name = "Boxcartrinity"
@@ -639,6 +637,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "v1_launcher"
 				}, {
 					Name = "FuMG-401"
+				}, {
+					Name = "FuSe-65"
 				} }
 		},
 		Effects = {
@@ -949,6 +949,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Windsock",
 					in_service = 0,
 					out_of_service = 40000
+				}, {
+					Name = "Beer Bomb"
 				}, {
 					Name = "Belgian gate"
 				}, {

@@ -203,17 +203,17 @@ _G["weapons_table"]["weapons"]["bombs"]["AB_250_2_SD_2"] = {
 				index = "Redacted",
 				life = 1,
 				name = "AB_250_2_SD_2",
-				username = "AB-250-2 SD-2"
+				username = "AB 250-2 SD-2"
 			} },
 		targeting_data = {
 			bomblet_char_time = 22.5,
 			char_time = 20.4
 		},
 		type = 5,
-		user_name = "AB 250-2 (w/ SD 2)",
+		user_name = "AB 250-2 SD-2",
 		wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 	},
-	display_name = "AB 250-2 (w/ SD 2)",
+	display_name = "AB 250-2 SD-2",
 	mass = 290,
 	model = "AB-250_dropping",
 	name = "AB_250_2_SD_2",
@@ -418,14 +418,14 @@ _G["weapons_table"]["weapons"]["bombs"]["AB_250_2_SD_2"] = {
 				index = "Redacted",
 				life = 1,
 				name = "AB_250_2_SD_2",
-				username = "AB-250-2 SD-2"
+				username = "AB 250-2 SD-2"
 			} },
 		targeting_data = {
 			bomblet_char_time = 22.5,
 			char_time = 20.4
 		},
 		type = 5,
-		user_name = "AB 250-2 (w/ SD 2)",
+		user_name = "AB 250-2 SD-2",
 		wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 	},
 	sounderName = "Weapons/Bomb",

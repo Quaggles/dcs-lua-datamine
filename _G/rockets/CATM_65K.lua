@@ -28,6 +28,7 @@ _G["rockets"]["#Index"] = {
 	Z_back = 0,
 	_unique_resource_name = "weapons.missiles.CATM_65K",
 	display_name = "CATM-65K Maverick",
+	display_name_short = "CATM-65K",
 	exhaust = { 1, 1, 1, 1 },
 	name = "CATM_65K",
 	sigma = { 5, 5, 5 },

@@ -5,6 +5,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	DetectionRange = 0,
 	DisplayName = "SAM SA-8 Osa LD 9T217",
+	DisplayNameShort = "SA-8LD",
+	IR_emission_coeff = 0.08,
 	MaxSpeed = 79.99992,
 	Name = "SAM SA-8 Osa LD 9T217",
 	Rate = 10,
@@ -32,10 +34,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Air Defence" },
 	type = "SA-8 Osa LD 9T217",
 	visual = {
-		fire_pos = { 0, 0, 0 },
+		fire_pos = { 0, 0.6, 0 },
 		fire_size = 1,
 		fire_time = 1200,
 		shape = "9t217",

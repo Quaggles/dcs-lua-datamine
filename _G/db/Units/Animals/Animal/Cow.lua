@@ -29,5 +29,6 @@ _G["db"]["Units"]["Animals"]["Animal"]["#Index"] = {
 		} },
 	sound = "Animals/Cow",
 	sound_interval = { 30, 200 },
+	swapped_names = true,
 	type = "Cow"
 }

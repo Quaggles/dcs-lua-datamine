@@ -2,18 +2,7 @@ _G["launcher"]["{3xM8_ROCKETS_IN_TUBES}"] = {
 	CLSID = "{3xM8_ROCKETS_IN_TUBES}",
 	Count = 3,
 	Cx_pil = 0.00196533203125,
-	Elements = { {
-			IsAdapter = true,
-			ShapeName = "Rocket_Launcher_4_5inch",
-			shape_table_data = { {
-					file = "Rocket_Launcher_4_5inch",
-					fire = { 0, 1 },
-					index = "Redacted",
-					life = 60,
-					name = "Rocket_Launcher_4_5inch",
-					username = "Rocket_Launcher_4_5inch"
-				} }
-		}, {
+	Elements = { "_G/Pylons/Rocket_Launcher_4_5inch.lua", {
 			ShapeName = "Rocket_M_8",
 			connector_name = "tube_1"
 		}, {
@@ -31,6 +20,7 @@ _G["launcher"]["{3xM8_ROCKETS_IN_TUBES}"] = {
 	_origin = "World War II AI Units by Eagle Dynamics",
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
-	displayName = "3 x 4.5-Inch M8",
+	displayName = "3 x 4.5 inch M8 UnGd Rocket",
+	name = "{3xM8_ROCKETS_IN_TUBES}",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

@@ -12,6 +12,7 @@ _G["launcher"]["{APU-60-1_R_60M}"] = {
 	Picture = "r60.png",
 	Weight = 76,
 	attribute = { 4, 4, 32, "Redacted" },
-	displayName = "APU-60-1 R-60M",
+	category = 4,
+	displayName = "APU-60-1M with R-60M (AA-8 Aphid) - Infra Red",
 	wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 }

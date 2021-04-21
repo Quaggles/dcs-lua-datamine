@@ -9,7 +9,9 @@ _G["launcher"]["{Eclair}"] = {
 	Weight = 20,
 	_file = "./CoreMods/aircraft/M-2000C/WEAPONS/M2KC_Weapons.luac",
 	_origin = "M-2000C AI by RAZBAM Sims",
+	_unique_resource_name = "weapons.containers.{Eclair}",
 	attribute = { 4, 15, 48, "Redacted" },
 	category = 6,
-	displayName = "Eclair"
+	displayName = "Eclair",
+	name = "{Eclair}"
 }

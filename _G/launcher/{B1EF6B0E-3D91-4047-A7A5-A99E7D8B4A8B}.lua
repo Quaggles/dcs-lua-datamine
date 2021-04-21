@@ -8,5 +8,6 @@ _G["launcher"]["{B1EF6B0E-3D91-4047-A7A5-A99E7D8B4A8B}"] = {
 	Picture = "Mercury.png",
 	Weight = 230,
 	attribute = { 4, 15, 44, "Redacted" },
+	category = 6,
 	displayName = "Mercury LLTV Pod"
 }

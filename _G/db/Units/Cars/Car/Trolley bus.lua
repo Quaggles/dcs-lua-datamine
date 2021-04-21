@@ -4,9 +4,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "Transport ZIU-9",
+	DisplayName = "Bus ZIU-9 Trolley",
+	DisplayNameShort = "Trolley",
+	IR_emission_coeff = 0.06,
 	MaxSpeed = 69.99984,
-	Name = "Transport ZIU-9",
+	Name = "Bus ZIU-9 Trolley",
 	Rate = 3,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
@@ -31,12 +33,16 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Unarmed", "Civilian" },
 	type = "Trolley bus",
 	visual = {
-		fire_pos = { 1, 0, 0 },
-		fire_size = 0.7,
-		fire_time = 900,
+		agony_explosion_size = 2,
+		fire_pos = {},
+		fire_size = 0,
+		fire_time = 0,
+		max_time_agony = 0,
 		shape = "trolebus",
 		shape_dstr = "Auto-crush"
 	}

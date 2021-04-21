@@ -4,9 +4,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 30000,
-	DisplayName = "SAM SA-8 Osa 9A33",
+	DisplayName = 'SAM SA-8 Osa "Gecko" TEL',
+	DisplayNameShort = "SA-8",
+	IR_emission_coeff = 0.08,
 	MaxSpeed = 79.99992,
-	Name = "SAM SA-8 Osa 9A33",
+	Name = 'SAM SA-8 Osa "Gecko" TEL',
 	Rate = 15,
 	Sensors = {
 		OPTIC = { "TKN-3B day", "TKN-3B night", "Karat visir" },
@@ -92,15 +94,20 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} },
-		radarRotation = "RadarRotation"
+		radarRotation = "GndTech/RadarRotation"
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Air Defence", "SAM SHORAD" },
 	toggle_alarm_state_interval = 5,
 	type = "Osa 9A33 ln",
 	visual = {
-		fire_pos = { 0, 0, 0 },
+		agony_explosion_size = 2,
+		fire_pos = { 0, 0.95, 0 },
 		fire_size = 1.1,
-		fire_time = 1100,
+		fire_time = 400,
+		max_time_agony = 80,
+		min_time_agony = 10,
 		shape = "9A33",
 		shape_dstr = "9A33_P_1"
 	}

@@ -5,9 +5,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "FDDM Grad",
+	DisplayName = "Grad MRL FDDM (FC)",
+	DisplayNameShort = "FDDM(r)",
+	IR_emission_coeff = 0.09,
 	MaxSpeed = 60.00012,
-	Name = "FDDM Grad",
+	Name = "Grad MRL FDDM (FC)",
 	Rate = 8,
 	Sensors = {
 		OPTIC = { "NNDV day", "NNDV night" }
@@ -103,7 +105,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_elevation = { {}, {} }
 	},
 	attribute = { 2, 17, 26, "Redacted", "APC", "Infantry carriers", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "NonAndLightArmoredUnits", "LightArmoredUnits" },
-	category = "Armor",
+	category = "Artillery",
 	chassis = {},
 	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
 	driverViewPoint = { 2.4, 1.8, -0.55 },
@@ -121,14 +123,19 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { { 0, 0.6 }, { 10, 1 } },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Artillery", "Command & Control" },
 	type = "Grad_FDDM",
 	visual = {
+		agony_explosion_size = 2,
 		dirt_pos = { -2.8, 0.4, -1.128 },
 		dust_pos = { 2.7, 0, -1.128 },
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.7,
-		fire_time = 1000,
+		fire_pos = { 0.2, 0.8, 0 },
+		fire_size = 0.75,
+		fire_time = 400,
+		max_time_agony = 100,
+		min_time_agony = 10,
 		shape = "BOMAN",
 		shape_dstr = "MTLB_P_1"
 	}

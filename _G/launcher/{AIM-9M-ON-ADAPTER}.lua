@@ -11,11 +11,12 @@ _G["launcher"]["{AIM-9M-ON-ADAPTER}"] = {
 		} },
 	Picture = "us_AIM-9L.png",
 	PictureBlendColor = "0xffffffff",
-	Weight = 101.64,
+	Weight = 100.73,
+	Weight_Empty = 15,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/aim9_family.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 4,
-	displayName = "LAU-7 AIM-9M Sidewinder IR AAM",
+	displayName = "LAU-7 with AIM-9M Sidewinder IR AAM",
 	wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 }

@@ -15,7 +15,9 @@ _G["launcher"]["{CE2_SMOKE_WHITE}"] = {
 	Weight = 7,
 	_file = "./CoreMods/aircraft/Christen Eagle II/Eagle_payload.lua",
 	_origin = "Christen Eagle II AI by Magnitude 3 LLC",
+	_unique_resource_name = "weapons.containers.{CE2_SMOKE_WHITE}",
 	attribute = { 4, 15, 50, "Redacted" },
 	category = 6,
-	displayName = "Smoke for Christen Eagle II, white"
+	displayName = "Smoke for Christen Eagle II, white",
+	name = "{CE2_SMOKE_WHITE}"
 }

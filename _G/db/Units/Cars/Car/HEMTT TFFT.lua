@@ -4,9 +4,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "HEMTT TFFT",
+	DisplayName = "Truck HEMMT TFFT Fire",
+	DisplayNameShort = "M1142",
+	IR_emission_coeff = 0.08,
 	MaxSpeed = 74.99988,
-	Name = "HEMTT TFFT",
+	Name = "Truck HEMMT TFFT Fire",
 	Rate = 15,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
@@ -31,12 +33,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Unarmed", "Support & Logistics" },
 	type = "HEMTT TFFT",
 	visual = {
-		fire_pos = { -3, 0, 0 },
-		fire_size = 1.8,
-		fire_time = 1500,
+		agony_explosion_size = 1,
+		fire_pos = { 1.5, 1.3, 0 },
+		fire_size = 0.5,
+		fire_time = 400,
+		max_time_agony = 120,
+		min_time_agony = 10,
 		shape = "hemtt_fire",
 		shape_dstr = "hemtt_fire_p1"
 	}

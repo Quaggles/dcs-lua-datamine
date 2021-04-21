@@ -2,6 +2,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	CustomAimPoint = { 0, 1.5, 0 },
 	DetectionRange = 0,
 	DisplayName = "Bunker 2",
+	DisplayNameShort = "Bunker 2",
+	IR_emission_coeff = 0.005,
 	MaxSpeed = 0,
 	Name = "Bunker 2",
 	Rate = 5,
@@ -173,11 +175,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		max_range_finding_target = 1000
 	},
 	snd = {},
+	swapped_names = true,
+	tags = { "Fortification", "Pillbox" },
 	type = "Bunker",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.5,
-		fire_time = 1200,
+		agony_explosion_size = 2,
+		fire_pos = {},
+		fire_size = 0,
+		fire_time = 0,
+		max_time_agony = 0,
 		shape = "dot2",
 		shape_dstr = "DOT2destr"
 	}

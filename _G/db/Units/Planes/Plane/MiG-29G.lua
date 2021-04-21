@@ -366,6 +366,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						Da0 = 0.0005,
 						Da1 = 0,
 						Dv0 = 0.0081,
+						_unique_resource_name = "weapons.shells.GSH301_30_HE",
 						caliber = 30,
 						cartridge = 0,
 						cartridge_mass = 0,
@@ -411,8 +412,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						rotation_freq = 7,
 						round_mass = 0.98,
 						s = 0,
+						scale_smoke = 1.8,
 						scale_tracer = 1,
 						silent_self_destruction = false,
+						smoke_opacity = 0.18,
 						smoke_tail_life_time = -1,
 						subcalibre = false,
 						tracer_off = 4,
@@ -798,7 +801,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			MaksRUD = 0.85,
 			MaxRUD = 1,
 			MinRUD = 0,
-			Nmg = 60.00001,
+			Nmg = 71,
 			cefor = 2.56,
 			cemax = 1.24,
 			dcx_eng = 0.0144,
@@ -862,7 +865,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			ejection_seat_name = 9,
 			pos = { 4.403, 1.209, 0 },
 			role = "pilot",
-			role_display_name = "Pilot in command"
+			role_display_name = "Pilot"
 		} },
 	detection_range_max = 160,
 	effects_presets = { {
@@ -894,63 +897,21 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	height = 4.73,
 	length = 20.32,
 	lights_data = {
-		lights = { {}, {
-				lights = { {
-						argument = 209,
-						typename = "argumentlight"
-					}, {
-						argument = 208,
-						typename = "argumentlight"
-					} },
-				typename = "collection"
-			}, {
+		lights = {
+			[3] = {
 				lights = { {
 						argument = 192,
-						color = { 1, 1, 1, 0.333 },
-						connector = "BANO_0",
-						movable = false,
-						position = { -6.079, 2.896, 0 },
-						typename = "omnilight"
+						typename = "argumentlight"
 					}, {
 						argument = 190,
-						color = { 0.99, 0.11, 0.3, 0.333 },
-						connector = "BANO_1",
-						movable = false,
-						position = { -1.516, -0.026, -7.249 },
-						typename = "omnilight"
+						typename = "argumentlight"
 					}, {
 						argument = 191,
-						color = { 0, 0.894, 0.6, 0.333 },
-						connector = "BANO_2",
-						movable = false,
-						position = { -1.516, -0.026, 7.249 },
-						typename = "omnilight"
-					} },
-				typename = "collection"
-			}, {
-				lights = { {
-						argument = 200,
-						movable = false,
-						typename = "argumentlight"
-					}, {
-						argument = 201,
-						movable = false,
-						typename = "argumentlight"
-					}, {
-						argument = 202,
-						movable = false,
-						typename = "argumentlight"
-					}, {
-						argument = 203,
-						movable = false,
-						typename = "argumentlight"
-					}, {
-						argument = 88,
-						movable = false,
 						typename = "argumentlight"
 					} },
 				typename = "collection"
-			} },
+			}
+		},
 		typename = "collection"
 	},
 	main_gear_amortizer_direct_stroke = 0,
@@ -1046,6 +1007,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	radar_can_see_ground = true,
 	range = 1500,
 	stores_number = 7,
+	swapped_names = true,
 	tand_gear_max = 0.577,
 	thrust_sum_ab = 16680,
 	thrust_sum_max = 10160,

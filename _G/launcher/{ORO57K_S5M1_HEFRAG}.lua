@@ -2,18 +2,7 @@ _G["launcher"]["{ORO57K_S5M1_HEFRAG}"] = {
 	CLSID = "{ORO57K_S5M1_HEFRAG}",
 	Count = 8,
 	Cx_pil = 0.00196533203125,
-	Elements = { {
-			IsAdapter = true,
-			ShapeName = "oro-57k.edm",
-			shape_table_data = { {
-					file = "oro-57k.edm",
-					fire = { 0, 1 },
-					index = "Redacted",
-					life = 60,
-					name = "oro-57k.edm",
-					username = "oro-57k.edm"
-				} }
-		}, {
+	Elements = { "_G/Pylons/oro-57k.edm.lua", {
 			ShapeName = "c-5m",
 			connector_name = "tube_1"
 		}, {
@@ -45,5 +34,6 @@ _G["launcher"]["{ORO57K_S5M1_HEFRAG}"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "ORO-57K - S-5M1 HE-FRAG FFAR x 8",
+	name = "{ORO57K_S5M1_HEFRAG}",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

@@ -231,7 +231,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			MaksRUD = 1,
 			MaxRUD = 1,
 			MinRUD = 0,
-			Nmg = 60.00001,
+			Nmg = 56.01,
+			Shutdown_Duration = 28,
+			Startup_Prework = 20,
 			cefor = 0.37,
 			cemax = 0.37,
 			dcx_eng = 0.0124,
@@ -239,7 +241,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			dpdh_m = 2300,
 			hMaxEng = 19.5,
 			table_data = { { 0, 44100 }, { 0.1, 41000 }, { 0.2, 37500 }, { 0.3, 34800 }, { 0.4, 32300 }, { 0.5, 29500 }, { 0.6, 27000 }, { 0.7, 24000 }, { 0.798, 22000 }, { 0.9, 20500 }, { 1.9, 18000 } },
-			type = "TurboJet"
+			type = "TurboFan"
 		}
 	},
 	Shape = "Yak-40",
@@ -567,6 +569,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	range = 900,
 	singleInFlight = false,
 	stores_number = 0,
+	swapped_names = true,
 	tand_gear_max = 0.577,
 	thrust_sum_ab = 44100,
 	thrust_sum_max = 44100,

@@ -66,6 +66,7 @@ _G["launcher"]["LAU3_WP1B"] = {
 	Picture = "LAU61.png",
 	Weight = 234,
 	attribute = { 4, 7, 32, "Redacted" },
-	displayName = "LAU-3 - 19 2.75' rockets WTU-1/B WP",
+	category = 3,
+	displayName = 'LAU-3 pod - 19 x 2.75" Hydra, UnGd Rkts WTU-1/B, Practice',
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

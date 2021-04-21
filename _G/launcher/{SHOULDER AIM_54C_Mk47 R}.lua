@@ -2,18 +2,7 @@ _G["launcher"]["{SHOULDER AIM_54C_Mk47 R}"] = {
 	CLSID = "{SHOULDER AIM_54C_Mk47 R}",
 	Count = 1,
 	Cx_pil = 0.00152587890625,
-	Elements = { {
-			IsAdapter = true,
-			ShapeName = "HB_F14_EXT_SHOULDER_PHX_R",
-			shape_table_data = { {
-					file = "HB_F14_EXT_SHOULDER_PHX_R",
-					fire = { 0, 1 },
-					index = "Redacted",
-					life = 60,
-					name = "HB_F14_EXT_SHOULDER_PHX_R",
-					username = "HB_F14_EXT_SHOULDER_PHX_R"
-				} }
-		}, {
+	Elements = { "_G/Pylons/HB_F14_EXT_SHOULDER_PHX_R.lua", {
 			connector_name = "WEP_Phoenix_Connector",
 			payload_CLSID = "{AIM_54C_Mk47}"
 		} },
@@ -25,5 +14,6 @@ _G["launcher"]["{SHOULDER AIM_54C_Mk47 R}"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 4,
 	displayName = "AIM-54C-Mk47",
+	name = "{SHOULDER AIM_54C_Mk47 R}",
 	wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 }

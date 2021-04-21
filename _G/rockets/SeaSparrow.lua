@@ -1,6 +1,6 @@
 _G["rockets"]["#Index"] = {
 	Cx_pil = 4,
-	D_max = 27000,
+	D_max = 14000,
 	D_min = 1500,
 	Damage = 97.5,
 	Diam = 203,
@@ -33,7 +33,7 @@ _G["rockets"]["#Index"] = {
 	name = "SeaSparrow",
 	sigma = { 15, 15, 15 },
 	t_acc = 4,
-	t_b = 0,
+	t_b = 0.02,
 	t_marsh = 3,
 	v_mid = 500,
 	v_min = 70,

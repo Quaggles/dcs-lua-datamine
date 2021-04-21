@@ -4,13 +4,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "TPz Fuchs",
+	DisplayName = "APC TPz Fuchs ",
+	DisplayNameShort = "Fuchs",
+	IR_emission_coeff = 0.08,
 	InternalCargo = {
 		maximalCapacity = 1000,
 		nominalCapacity = 1000
 	},
 	MaxSpeed = 105.00012,
-	Name = "TPz Fuchs",
+	Name = "APC TPz Fuchs ",
 	Rate = 8,
 	ThreatRange = 1000,
 	WS = { {
@@ -36,7 +38,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						}, {
 							shell_name = {}
 						} },
-					customViewPoint = { "IronSight/IronSight", { -0.8, 0.07, -0.0015 } },
+					customViewPoint = { "IronSight/IronSight", { -0.8, 0.07, -0.0015 },
+						open = true
+					},
 					sensor = {}
 				} },
 			angles = { { 2.3561944901923, -2.3561944901923, -0.15707963267949, 1.0471975511966 }, { -2.3561944901923, 2.3561944901923, -0.047123889803847, 1.0471975511966 } },
@@ -83,12 +87,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "APC" },
 	type = "TPZ",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.6,
-		fire_time = 900,
+		agony_explosion_size = 2,
+		fire_pos = { 0, 1.2, 0 },
+		fire_size = 0.8,
+		fire_time = 400,
+		max_time_agony = 110,
+		min_time_agony = 10,
 		shape = "tpz",
 		shape_dstr = "Tpz_p_1"
 	}

@@ -29,6 +29,7 @@ _G["rockets"]["#Index"] = {
 	_unique_resource_name = "weapons.missiles.X_22",
 	add_attributes = { "Cruise missiles" },
 	display_name = "Kh-22 (AS-4 Kitchen)",
+	display_name_short = "Kh-22",
 	exhaust = { 0.9, 0.9, 0.9, 0.05 },
 	name = "X_22",
 	sigma = { 15, 15, 15 },

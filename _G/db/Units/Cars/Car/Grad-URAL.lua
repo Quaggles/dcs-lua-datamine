@@ -5,9 +5,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "MLRS BM-21 Grad",
+	DisplayName = "MLRS BM-21 Grad 122mm",
+	DisplayNameShort = "BM-21",
+	IR_emission_coeff = 0.08,
 	MaxSpeed = 74.99988,
-	Name = "MLRS BM-21 Grad",
+	Name = "MLRS BM-21 Grad 122mm",
 	Rate = 10,
 	ThreatRange = 19000,
 	ThreatRangeMin = 5000,
@@ -101,7 +103,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							shot_delay = 0.01
 						} },
 					barrels_reload_type = 3,
-					customViewPoint = { "genericMLRS", { -3, 0.3, -0.8 } },
+					customViewPoint = { "genericMLRS", { -3, 0.3, -0.8 },
+						open = true
+					},
 					depends_on_unit = { { { "Grad_FDDM", 1 } }, { { "none" } } },
 					distanceMax = 19000,
 					distanceMin = 5000,
@@ -115,6 +119,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				} },
 			angles = { { 1.7802358370342, 0.78539816339745, 0, 0.95993108859688 }, { 0.78539816339745, -0.78539816339745, 0.26179938779915, 0.95993108859688 }, { -0.78539816339745, -1.221730476396, 0, 0.95993108859688 } },
 			angles_mech = { { 1.7802358370342, -1.221730476396, 0, 0.95993108859688 } },
+			canSetTacticalDir = true,
 			center = "CENTER_TOWER",
 			drawArgument1 = 0,
 			drawArgument2 = 1,
@@ -163,12 +168,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Artillery", "MRL" },
 	type = "Grad-URAL",
 	visual = {
-		fire_pos = { 1, 0, 0 },
-		fire_size = 0.7,
-		fire_time = 900,
+		agony_explosion_size = 2,
+		fire_pos = { 0.5, 1, 0 },
+		fire_size = 0.5,
+		fire_time = 350,
+		max_time_agony = 80,
+		min_time_agony = 10,
 		shape = "bm-21-40",
 		shape_dstr = "BM-21-40_P_1"
 	}

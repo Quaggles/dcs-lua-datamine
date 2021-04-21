@@ -32,6 +32,7 @@ _G["rockets"]["#Index"] = {
 	_unique_resource_name = "weapons.missiles.Matra_S530D",
 	category = 4,
 	ccm_k0 = 0.2,
+	display_name = "Matra S530D",
 	exhaust = { 1, 1, 1, 1 },
 	name = "Matra_S530D",
 	rad_correction = 1,

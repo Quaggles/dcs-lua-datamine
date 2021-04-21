@@ -6,6 +6,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Countries = { "China" },
 	DetectionRange = 0,
 	DisplayName = "ZBD-04A",
+	DisplayNameShort = "04A",
 	EPLRS = true,
 	InternalCargo = {
 		maximalCapacity = 700,
@@ -186,7 +187,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = true,
+	tags = { "Armor", "APC", "IFV" },
 	turbine = false,
 	type = "ZBD04A",
 	visual = {

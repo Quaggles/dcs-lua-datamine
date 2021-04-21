@@ -11,5 +11,5 @@ _G["launcher"]["{KAB_500S_LOADOUT}"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 5, 36, "Redacted" },
 	category = 1,
-	displayName = "KAB-500S"
+	displayName = "KAB-500S - 500kg GPS Guided Bomb"
 }

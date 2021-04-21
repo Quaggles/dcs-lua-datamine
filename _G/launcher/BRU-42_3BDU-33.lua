@@ -18,8 +18,9 @@ _G["launcher"]["BRU-42_3*BDU-33"] = {
 			connector_name = "Point03"
 		} },
 	Picture = "BDU-33.png",
-	Weight = 98,
+	Weight = 90.15,
 	attribute = { 4, 5, 32, "Redacted" },
-	displayName = "3 BDU-33",
+	category = 1,
+	displayName = "BRU-42 with 3 x BDU-33 - 25lb Practice Bombs LD",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

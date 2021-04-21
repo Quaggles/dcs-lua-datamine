@@ -8,5 +8,6 @@ _G["launcher"]["{6C0D552F-570B-42ff-9F6D-F10D9C1D4E1C}"] = {
 	Picture = "ANAAS38.png",
 	Weight = 200,
 	attribute = { 4, 15, 44, "Redacted" },
-	displayName = "AN/AAS-38 FLIR"
+	category = 6,
+	displayName = 'AN/AAS-38 "Nite hawk" FLIR, Laser designator & Laser spot tracker pod'
 }

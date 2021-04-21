@@ -34,6 +34,7 @@ _G["rockets"]["#Index"] = {
 	_origin = "MiG-21Bis AI by Magnitude 3 LLC",
 	_unique_resource_name = "weapons.missiles.Kh-66_Grom",
 	category = 2,
+	display_name = "Kh-66 Grom (21)",
 	exhaust = { 0.75, 0.75, 0.75, 0.33 },
 	name = "Kh-66_Grom",
 	shape_table_data = { {

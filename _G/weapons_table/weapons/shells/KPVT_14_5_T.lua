@@ -3,6 +3,7 @@ _G["weapons_table"]["weapons"]["shells"]["KPVT_14_5_T"] = {
 	Da0 = 0.0008,
 	Da1 = 0,
 	Dv0 = 0.005,
+	_unique_resource_name = "weapons.shells.KPVT_14_5_T",
 	caliber = 14.5,
 	cartridge = 0,
 	cartridge_mass = 0,

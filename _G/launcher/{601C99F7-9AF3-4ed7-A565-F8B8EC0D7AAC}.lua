@@ -13,7 +13,8 @@ _G["launcher"]["{601C99F7-9AF3-4ed7-A565-F8B8EC0D7AAC}"] = {
 	Picture = "kh29T.png",
 	Weight = 760,
 	attribute = { 4, 4, 32, "Redacted" },
-	displayName = "Kh-29T",
+	category = 2,
+	displayName = "Kh-29T (AS-14 Kedge) - 670kg, ASM, TV Guided",
 	ejectImpulse = 2000,
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

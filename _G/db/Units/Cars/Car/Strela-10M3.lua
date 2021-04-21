@@ -5,9 +5,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 8000,
-	DisplayName = "SAM SA-13 Strela-10M3 9A35M3",
+	DisplayName = 'SAM SA-13 Strela 10M3 "Gopher" TEL',
+	DisplayNameShort = "SA-13",
+	IR_emission_coeff = 0.085,
 	MaxSpeed = 60.00012,
-	Name = "SAM SA-13 Strela-10M3 9A35M3",
+	Name = 'SAM SA-13 Strela 10M3 "Gopher" TEL',
 	Rate = 10,
 	ThreatRange = 5000,
 	WS = { {
@@ -144,15 +146,20 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Air Defence", "SAM SHORAD" },
 	toggle_alarm_state_interval = 5,
 	type = "Strela-10M3",
 	visual = {
+		agony_explosion_size = 2,
 		dirt_pos = { -2.5, 0.4, -1.128 },
 		dust_pos = { 2.8, 0, -1.128 },
-		fire_pos = { 1.44, 0, 0 },
+		fire_pos = { 0.2, 0.8, 0 },
 		fire_size = 0.6,
-		fire_time = 1000,
+		fire_time = 500,
+		max_time_agony = 110,
+		min_time_agony = 10,
 		shape = "9a35",
 		shape_dstr = "9a35_p_1"
 	}

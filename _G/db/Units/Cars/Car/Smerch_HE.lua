@@ -4,9 +4,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "MLRS 9A52 Smerch HE",
+	DisplayName = "MLRS 9A52 Smerch HE 300mm",
+	DisplayNameShort = "Smerch HE",
+	IR_emission_coeff = 0.09,
 	MaxSpeed = 60.00012,
-	Name = "MLRS 9A52 Smerch HE",
+	Name = "MLRS 9A52 Smerch HE 300mm",
 	Rate = 20,
 	ThreatRange = 70000,
 	ThreatRangeMin = 20000,
@@ -60,8 +62,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				} },
 			angles = { { 1.0471975511966, 0.34906585039887, 0, 0.78539816339745 }, { 0.34906585039887, -0.34906585039887, 0.26179938779915, 0.78539816339745 }, { -0.34906585039887, -1.0471975511966, 0, 0.78539816339745 } },
 			angles_mech = { { 1.0471975511966, -1.0471975511966, 0, 0.78539816339745 } },
+			canSetTacticalDir = true,
 			center = "CENTER_TOWER",
-			cockpit = { "genericMLRS", { -4, -0.5, -2 } },
+			cockpit = { "genericMLRS", { -4, -0.5, -2 },
+				open = true
+			},
 			drawArgument1 = 0,
 			drawArgument2 = 1,
 			isoviewOffset = { 0, 4, 0 },
@@ -112,13 +117,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Artillery", "MRL" },
 	toggle_alarm_state_interval = 5,
 	type = "Smerch_HE",
 	visual = {
-		fire_pos = { 3, 0, 0 },
-		fire_size = 1,
-		fire_time = 1200,
+		agony_explosion_size = 2,
+		fire_pos = { -0.2, 1.1, 0 },
+		fire_size = 0.85,
+		fire_time = 500,
+		max_time_agony = 80,
+		min_time_agony = 10,
 		shape = "smerch",
 		shape_dstr = "Smerch_p_1"
 	}

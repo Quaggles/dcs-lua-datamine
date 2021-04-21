@@ -193,7 +193,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			MaksRUD = 1,
 			MaxRUD = 1,
 			MinRUD = 0,
-			Nmg = 60.00001,
+			Nmg = 53.181189488243,
+			Nominal_Fan_RPM = 5175,
+			Nominal_RPM = 14460,
+			Startup_Prework = 10,
 			cefor = 2.56,
 			cemax = 1.24,
 			dcx_eng = 0.0085,
@@ -201,7 +204,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			dpdh_m = 9000,
 			hMaxEng = 19.5,
 			table_data = { { 0, 373600, 373600 }, { 0.2, 312756.6, 312756.6 }, { 0.4, 279000, 279000 }, { 0.6, 251000, 251000 }, { 0.7, 253000, 253000 }, { 0.8, 262000, 262000 }, { 0.9, 274000, 274000 }, { 1, 279000, 279000 }, { 1.1, 280000, 280000 }, { 1.2, 266000, 266000 }, { 1.3, 95001.1, 95001.1 } },
-			type = "TurboJet"
+			type = "TurboFan"
 		}
 	},
 	Shape = "KC-135",
@@ -292,70 +295,112 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		lights = {
 			[2] = {
 				lights = { {
-						argument = 209,
-						color = { 255, 255, 200, 0.333 },
-						connector = "MAIN_SPOT_PTR",
-						position = <2>{ 18.092, -1.93, -1.015 },
-						typename = "spotlight"
-					}, {
-						argument = 208,
-						color = { 255, 255, 200, 0.333 },
-						connector = "RESERV_SPOT_PTR",
-						position = <3>{ 18.092, -1.93, 1.015 },
-						typename = "spotlight"
-					}, {
-						argument = 208,
-						color = { 255, 255, 200, 0.333 },
-						connector = "FARA_3",
-						position = <4>{ 10, -2, 0 },
-						typename = "spotlight"
+						lights = { {
+								angle_change_rate = -0.13089969389957,
+								angle_max = 0.57595865315813,
+								angle_min = 0.47123889803847,
+								argument = 208,
+								connector = "MAIN_SPOT_PTR",
+								proto = <2>{
+									angle_change_rate = 0.043633231299858,
+									angle_max = 0.17453292519943,
+									angle_min = 0.10471975511966,
+									color = { 255, 201, 125, 0.19370562748477 },
+									power_up_t = 0.6,
+									range = 2400
+								},
+								typename = "Spot"
+							}, {
+								angle_change_rate = -0.13089969389957,
+								angle_max = 0.57595865315813,
+								angle_min = 0.47123889803847,
+								connector = "RESERV_SPOT_PTR",
+								proto = <table 2>,
+								typename = "Spot"
+							}, {
+								angle_change_rate = -0.13089969389957,
+								angle_max = 0.57595865315813,
+								angle_min = 0.47123889803847,
+								connector = "FARA_3",
+								exposure = { { 0, 0.8, 1 } },
+								movable = true,
+								proto = {
+									angle_change_rate = 0.047996554429844,
+									angle_max = 0.19198621771938,
+									angle_min = 0.1221730476396,
+									color = { 255, 201, 125, 0.27855844122716 },
+									power_up_t = 1,
+									range = 3120
+								},
+								typename = "Spot"
+							} },
+						typename = "Collection"
 					} },
 				typename = "collection"
 			},
 			[3] = {
 				lights = { {
 						argument = 192,
-						color = { 1, 1, 1, 0.333 },
-						connector = "BANO_0",
-						movable = false,
-						position = { -6.079, 2.896, 0 },
-						typename = "omnilight"
+						typename = "argumentlight"
 					}, {
 						argument = 190,
-						color = { 0.99, 0.11, 0.3, 0.333 },
-						connector = "BANO_1",
-						movable = false,
-						position = { -1.516, -0.026, -7.249 },
-						typename = "omnilight"
+						typename = "argumentlight"
 					}, {
 						argument = 191,
-						color = { 0, 0.894, 0.6, 0.333 },
-						connector = "BANO_2",
-						movable = false,
-						position = { -1.516, -0.026, 7.249 },
-						typename = "omnilight"
+						typename = "argumentlight"
 					} },
 				typename = "collection"
 			},
 			[6] = {
 				lights = { {
-						argument = 209,
-						color = { 255, 255, 200, 0.333 },
-						connector = "MAIN_SPOT_PTR",
-						position = <table 2>,
-						typename = "spotlight"
-					}, {
-						argument = 208,
-						color = { 255, 255, 200, 0.333 },
-						connector = "RESERV_SPOT_PTR",
-						position = <table 3>,
-						typename = "spotlight"
-					}, {
-						argument = 208,
-						color = { 255, 255, 200, 0.333 },
-						connector = "FARA_3",
-						position = <table 4>,
-						typename = "spotlight"
+						lights = { {
+								angle_change_rate = -0.26179938779915,
+								angle_max = 1.1519173063163,
+								angle_min = 0.94247779607694,
+								argument = 208,
+								connector = "MAIN_SPOT_PTR",
+								proto = <3>{
+									angle_change_rate = -0.11780972450962,
+									angle_max = 0.47123889803847,
+									angle_min = 0.37699111843078,
+									color = { 255, 201, 125, 0.1608210510119 },
+									power_up_t = 0.75,
+									range = 192
+								},
+								typename = "Spot"
+							}, {
+								angle_change_rate = -0.26179938779915,
+								angle_max = 1.1519173063163,
+								angle_min = 0.94247779607694,
+								connector = "RESERV_SPOT_PTR",
+								proto = <table 3>,
+								typename = "Spot"
+							}, {
+								angle_change_rate = -0.26179938779915,
+								angle_max = 1.1519173063163,
+								angle_min = 0.94247779607694,
+								connector = "FARA_3",
+								movable = true,
+								proto = {
+									angle_change_rate = -0.11780972450962,
+									angle_max = 0.47123889803847,
+									angle_min = 0.37699111843078,
+									color = { 255, 201, 125, 0.18499689437998 },
+									power_up_t = 0.9,
+									range = 300
+								},
+								typename = "Spot"
+							} },
+						typename = "Collection"
+					} },
+				typename = "collection"
+			},
+			[10] = {
+				lights = { {
+						color = { 1, 1, 1, 0.8 },
+						position = { 17.555, 1.527, 0.242 },
+						range = 1,
+						typename = "omnilight"
 					} },
 				typename = "collection"
 			}
@@ -390,6 +435,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	},
 	nose_gear_pos = { 17.671, -3.665, 0 },
 	nose_gear_wheel_diameter = 0.754,
+	propellorShapeType = "1ARG_2PHASE",
 	radar_can_see_ground = true,
 	range = 12247,
 	refueling_points = { {
@@ -399,6 +445,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	refueling_points_count = 1,
 	singleInFlight = false,
 	stores_number = 0,
+	swapped_names = true,
 	tand_gear_max = 0.577,
 	tanker_type = 1,
 	thrust_sum_ab = 38100,

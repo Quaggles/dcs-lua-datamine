@@ -2,18 +2,7 @@ _G["launcher"]["{TWIN_B13L_5OF}"] = {
 	CLSID = "{TWIN_B13L_5OF}",
 	Count = 10,
 	Cx_pil = 0.0004,
-	Elements = { {
-			IsAdapter = true,
-			ShapeName = "su-27-twinpylon",
-			shape_table_data = { {
-					file = "su-27-twinpylon",
-					fire = { 0, 1 },
-					index = "Redacted",
-					life = 60,
-					name = "su-27-twinpylon",
-					username = "su-27-twinpylon"
-				} }
-		}, {
+	Elements = { "_G/Pylons/su-27-twinpylon.lua", {
 			connector_name = "S-25-L",
 			payload_CLSID = "{FC56DF80-9B09-44C5-8976-DCFAFF219062}"
 		}, {
@@ -27,6 +16,7 @@ _G["launcher"]["{TWIN_B13L_5OF}"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
-	displayName = "2xB-13L - 5 S-13 OF",
+	displayName = "2 x B-13L pods - 10 x S-13-OF, 122mm UnGd Rkts, Blast/Frag",
+	name = "{TWIN_B13L_5OF}",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

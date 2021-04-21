@@ -61,5 +61,6 @@ _G["launcher"]["GBU-38*16"] = {
 	Picture = "GBU38.png",
 	Weight = 3856,
 	attribute = { 4, 5, 36, "Redacted" },
-	displayName = "GBU-38*16"
+	category = 1,
+	displayName = "16 x GBU-38 - JDAM, 500lb GPS Guided Bombs"
 }

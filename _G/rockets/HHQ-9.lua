@@ -34,6 +34,7 @@ _G["rockets"]["#Index"] = {
 	_unique_resource_name = "weapons.missiles.HHQ-9",
 	category = 2,
 	ccm_k0 = 0.2,
+	display_name = "HHQ-9",
 	exhaust = { 1, 1, 1, 0.5 },
 	mass = 1200,
 	model = "hhq9a",

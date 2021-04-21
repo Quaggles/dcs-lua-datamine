@@ -15,7 +15,8 @@ _G["db"]["Units"]["GT_t"]["WS_t"]["ZU_23"]["LN"]["#Index"] = {
 		}, {
 			shell_name = {}
 		} },
-	customViewPoint = { "genericAAA", { 0.05, 0, 0 } },
 	fireAnimationArgument = 23,
-	sensor = {}
+	sensor = {},
+	sightIndicationMode = 1,
+	sightMasterMode = 1
 }

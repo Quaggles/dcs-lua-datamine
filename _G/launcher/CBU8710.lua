@@ -25,5 +25,6 @@ _G["launcher"]["CBU87*10"] = {
 	Picture = "CBU.png",
 	Weight = 4300,
 	attribute = { 4, 5, 38, "Redacted" },
-	displayName = "CBU-87*10"
+	category = 1,
+	displayName = "10 x CBU-87 - 202 x CEM Cluster Bombs"
 }

@@ -3,16 +3,20 @@ _G["launcher"]["{AAQ-28_LEFT}"] = {
 	Count = 1,
 	Cx_pil = 0.0001952,
 	Elements = { {
-			Position = { 0, 0, 0 },
 			ShapeName = "aaq-28LEFT litening"
 		} },
 	Picture = "AAQ-28.png",
-	Weight = 300,
+	Sensors = {
+		OPTIC = { "Litening AN/AAQ-28 FLIR", "Litening AN/AAQ-28 CCD TV" }
+	},
+	Weight = 208,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/targeting_pods.lua",
 	_origin = "AircraftWeaponPack",
+	_unique_resource_name = "weapons.containers.aaq-28LEFT litening",
 	attribute = { 4, 15, 44, "Redacted" },
 	category = 6,
-	displayName = "AN/AAQ-28 LITENING",
+	displayName = "AN/AAQ-28 LITENING - Targeting Pod",
+	name = "aaq-28LEFT litening",
 	shape_table_data = { {
 			file = "aaq-28LEFT litening",
 			fire = { 0, 1 },

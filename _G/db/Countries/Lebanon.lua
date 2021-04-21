@@ -152,6 +152,14 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "Infantry AK",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Hummer",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "KAMAZ Truck",
 					in_service = 0,
 					out_of_service = 40000
@@ -168,15 +176,7 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "Hummer",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
 					Name = "TPZ",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Infantry AK",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -196,15 +196,11 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "M-2 Bradley",
+					Name = "bofors40",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
 					Name = "Grad-URAL",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "M-60",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -216,6 +212,14 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "M-2 Bradley",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "M-60",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "M1043 HMMWV Armament",
 					in_service = 0,
 					out_of_service = 40000
@@ -224,15 +228,15 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "M4_Sherman",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "M4A4_Sherman_FF",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "T-55",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "ZU-23 Emplacement Closed",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "ZU-23 Emplacement",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -252,15 +256,11 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "M4_Sherman",
+					Name = "ZU-23 Emplacement Closed",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "M4A4_Sherman_FF",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "bofors40",
+					Name = "ZU-23 Emplacement",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -605,6 +605,18 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Windsock",
 					in_service = 0,
 					out_of_service = 40000
+				}, {
+					Name = "Beer Bomb"
+				}, {
+					Name = "Concertina wire"
+				}, {
+					Name = "Haystack 1"
+				}, {
+					Name = "Haystack 2"
+				}, {
+					Name = "Haystack 3"
+				}, {
+					Name = "Haystack 4"
 				} }
 		},
 		GrassAirfields = {

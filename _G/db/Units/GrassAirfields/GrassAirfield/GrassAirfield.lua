@@ -4,5 +4,6 @@ _G["db"]["Units"]["GrassAirfields"]["GrassAirfield"]["#Index"] = {
 	Name = "Grass Airfield",
 	category = "GrassAirfield",
 	lenght = 2000,
+	swapped_names = true,
 	type = "GrassAirfield"
 }

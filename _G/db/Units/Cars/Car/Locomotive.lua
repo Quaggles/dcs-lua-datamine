@@ -1,7 +1,9 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 0,
-	DisplayName = "Locomotive CHME3T",
-	Name = "Locomotive CHME3T",
+	DisplayName = "Loco CHME3T",
+	DisplayNameShort = "Loco3T",
+	IR_emission_coeff = 0.15,
+	Name = "Loco CHME3T",
 	Rate = 10,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
@@ -53,12 +55,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "teplowoz_p_1"
 		} },
 	snd = {},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Train", "Locomotive" },
 	type = "Locomotive",
 	visual = {
-		fire_pos = { -2, 0, 0 },
-		fire_size = 0.7,
+		agony_explosion_size = 15,
+		fire_pos = { 0, 1.5, 0 },
+		fire_size = 1.5,
 		fire_time = 1000,
+		max_time_agony = 250,
+		min_time_agony = 50,
 		shape = "teplowoz",
 		shape_dstr = "teplowoz_p_1"
 	}

@@ -138,14 +138,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			control = "spinbox",
 			defValue = 0,
 			dimension = " ",
-			id = "WpBullseye",
-			label = "Waypoint Bullseye",
-			max = 20,
-			min = 0
-		}, {
-			control = "spinbox",
-			defValue = 0,
-			dimension = " ",
 			id = "AAR_Zone1",
 			label = "AAR Zone 1",
 			max = 59,
@@ -2234,7 +2226,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			pilot_name = 270,
 			pos = { 3.43, 0.703, 0 },
 			role = "pilot",
-			role_display_name = "Pilot in command"
+			role_display_name = "Pilot"
 		} },
 	detection_range_max = 100,
 	engines_count = 1,
@@ -2789,6 +2781,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			positioning = "BYNORMAL"
 		} },
 	stores_number = 8,
+	swapped_names = true,
 	takeoff_and_landing_type = "VTOL",
 	tand_gear_max = 1,
 	tandem_gear_amortizer_direct_stroke = 0.298704,

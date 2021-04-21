@@ -5,6 +5,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	DetectionRange = 0,
 	DisplayName = "MBT Leclerc",
+	DisplayNameShort = "Leclerc",
+	IR_emission_coeff = 0.12,
 	MaxSpeed = 72,
 	Name = "MBT Leclerc",
 	Rate = 20,
@@ -115,15 +117,20 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "MBT" },
 	turbine = true,
 	type = "Leclerc",
 	visual = {
+		agony_explosion_size = 5,
 		dirt_pos = { -3, 0.6, -1.4 },
 		dust_pos = { 3, 0.2, -1.4 },
-		fire_pos = { 0, 0, 0 },
+		fire_pos = { -1.1, 0.95, 0 },
 		fire_size = 1,
-		fire_time = 1200,
+		fire_time = 600,
+		max_time_agony = 100,
+		min_time_agony = 10,
 		shape = "Leclerc",
 		shape_dstr = "Leclerc_p_1"
 	}

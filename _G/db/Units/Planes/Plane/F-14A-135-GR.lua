@@ -3860,6 +3860,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			fire = { 240, 2 },
 			name = "f-14b-oblomok"
 		} },
+	swapped_names = true,
 	tand_gear_max = 50,
 	tanker_type = 2,
 	thrust_sum_ab = 24740,

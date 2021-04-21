@@ -9,6 +9,7 @@ _G["launcher"]["XM158_M274"] = {
 	Picture = "lau68.png",
 	Weight = 112,
 	attribute = { 4, 7, 32, "Redacted" },
-	displayName = "XM158 - 7 2.75' rockets M274 Practice smoke",
+	category = 3,
+	displayName = 'XM158 pod - 7 x 2.75" Hydra, UnGd Rkts M274, Practice Smk',
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

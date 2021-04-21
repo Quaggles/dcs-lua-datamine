@@ -8,5 +8,6 @@ _G["launcher"]["{35B698AC-9FEF-4EC4-AD29-484A0085F62B}"] = {
 	Picture = "betab500.png",
 	Weight = 430,
 	attribute = { 4, 5, 37, "Redacted" },
-	displayName = "BetAB-500"
+	category = 1,
+	displayName = "BetAB-500 - 500kg Concrete Piercing Bomb LD"
 }

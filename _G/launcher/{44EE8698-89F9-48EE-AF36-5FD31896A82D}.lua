@@ -9,5 +9,6 @@ _G["launcher"]["{44EE8698-89F9-48EE-AF36-5FD31896A82D}"] = {
 	Required = { "{44EE8698-89F9-48EE-AF36-5FD31896A82C}" },
 	Weight = 150,
 	attribute = { 4, 15, 45, "Redacted" },
+	category = 6,
 	displayName = "MPS-410"
 }

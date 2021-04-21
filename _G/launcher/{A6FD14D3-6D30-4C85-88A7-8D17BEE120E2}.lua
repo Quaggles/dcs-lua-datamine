@@ -22,6 +22,7 @@ _G["launcher"]["{A6FD14D3-6D30-4C85-88A7-8D17BEE120E2}"] = {
 	Picture = "APU6.png",
 	Weight = 330,
 	attribute = { 4, 4, 32, "Redacted" },
+	category = 2,
 	displayName = "APU-6 - 6 9A4172 Vikhr",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

@@ -2,18 +2,7 @@ _G["launcher"]["{BRU42_2*MK81 RS}"] = {
 	CLSID = "{BRU42_2*MK81 RS}",
 	Count = 2,
 	Cx_pil = 0.00086,
-	Elements = { {
-			IsAdapter = true,
-			ShapeName = "HB_F14_EXT_BRU42",
-			shape_table_data = { {
-					file = "HB_F14_EXT_BRU42",
-					fire = { 0, 1 },
-					index = "Redacted",
-					life = 60,
-					name = "HB_F14_EXT_BRU42",
-					username = "HB_F14_EXT_BRU42"
-				} }
-		}, {
+	Elements = { "_G/Pylons/HB_F14_EXT_BRU42.lua", {
 			ShapeName = "MK-81",
 			connector_name = "BRU-42_RIGHT"
 		}, {
@@ -27,5 +16,6 @@ _G["launcher"]["{BRU42_2*MK81 RS}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "2 Mk-81",
+	name = "{BRU42_2*MK81 RS}",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

@@ -118,6 +118,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		} },
 	DetectionRange = 0,
 	DisplayName = "MT Pz.Kpfw.V Panther Ausf.G",
+	DisplayNameShort = "Pz.V-G",
+	IR_emission_coeff = 0.1,
 	MaxSpeed = 45.72,
 	Name = "MT Pz.Kpfw.V Panther Ausf.G",
 	Rate = 20,
@@ -324,14 +326,19 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "Tank" },
 	type = "Pz_V_Panther_G",
 	visual = {
+		agony_explosion_size = 3,
 		dirt_pos = { -3.2, 0.6, -1.4 },
 		dust_pos = { 3.05, 0.1, -1.4 },
-		fire_pos = { -2.3, 0.7, 0 },
-		fire_size = 0.8,
-		fire_time = 1000,
+		fire_pos = { -1.55, 1, 0 },
+		fire_size = 0.65,
+		fire_time = 500,
+		max_time_agony = 50,
+		min_time_agony = 10,
 		shape = "Pz_V_G",
 		shape_dstr = "Pz_V_G_p_1"
 	}

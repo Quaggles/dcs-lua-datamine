@@ -1,8 +1,10 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 0,
-	DisplayName = "German tank wagon",
+	DisplayName = "Tank Car (Germany)",
+	DisplayNameShort = "TankCar",
+	IR_emission_coeff = 0.01,
 	MaxSpeed = 79.92,
-	Name = "German tank wagon",
+	Name = "Tank Car (Germany)",
 	Rate = 10,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
@@ -35,12 +37,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "German_tank_wagon_p_1"
 		} },
 	snd = {},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Train", "Carriage" },
 	type = "German_tank_wagon",
 	visual = {
-		fire_pos = { -2, 0.6, 0 },
-		fire_size = 0.7,
+		agony_explosion_size = 10,
+		fire_pos = { 1, 1, 0 },
+		fire_size = 1.1,
 		fire_time = 1000,
+		max_time_agony = 30,
+		min_time_agony = 10,
 		shape = "German_tank_wagon",
 		shape_dstr = "German_tank_wagon_p_1"
 	}

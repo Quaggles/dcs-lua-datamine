@@ -23,6 +23,7 @@ _G["launcher"]["{MBD3_U6_3*FAB-250_fwd}"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
-	displayName = "MER 6*3 FAB-250",
+	displayName = "MBD3-U6-68 with 3 x FAB-250 - 250kg GP Bombs LD",
+	name = "{MBD3_U6_3*FAB-250_fwd}",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

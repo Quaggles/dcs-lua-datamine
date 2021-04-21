@@ -8,5 +8,6 @@ _G["launcher"]["{EF0A9419-01D6-473B-99A3-BEBDB923B14D}"] = {
 	Picture = "GBU27.png",
 	Weight = 1200,
 	attribute = { 4, 5, 36, "Redacted" },
-	displayName = "GBU-27"
+	category = 1,
+	displayName = "GBU-27 - 2000lb Laser Guided Penetrator Bomb"
 }

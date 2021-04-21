@@ -26,13 +26,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	Countries = { "Germany", "Third Reich", "Japan", "Italian Social Republic", "Finland", "Hungary", "Romania", "Bulgaria" },
 	DetectionRange = 0,
-	DisplayName = "Kübelwagen 82",
+	DisplayName = "LUV Kubelwagen 82",
+	DisplayNameShort = "LUV Kuebelwagen",
+	IR_emission_coeff = 0.065,
 	InternalCargo = {
 		maximalCapacity = 300,
 		nominalCapacity = 300
 	},
 	MaxSpeed = 79.992,
-	Name = "Kübelwagen 82",
+	Name = "LUV Kubelwagen 82",
 	Rate = 3,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
@@ -71,12 +73,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Unarmed", "Scout/Recon" },
 	type = "Kubelwagen_82",
 	visual = {
-		fire_pos = { 0.8, 0.7, 0.3 },
-		fire_size = 0.1,
+		agony_explosion_size = 2,
+		fire_pos = { -1.35, 0.7, 0 },
+		fire_size = 0.3,
 		fire_time = 400,
+		max_time_agony = 80,
+		min_time_agony = 10,
 		shape = "Kubelwagen_82",
 		shape_dstr = "Kubelwagen_82_p_1"
 	}

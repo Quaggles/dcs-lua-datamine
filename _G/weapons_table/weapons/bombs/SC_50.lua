@@ -41,7 +41,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SC_50"] = {
 				index = "Redacted",
 				life = 1,
 				name = "SC_50",
-				username = "SC-50"
+				username = "SC 50"
 			} },
 		targeting_data = {
 			char_time = 20.6
@@ -106,7 +106,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SC_50"] = {
 				index = "Redacted",
 				life = 1,
 				name = "SC_50",
-				username = "SC-50"
+				username = "SC 50"
 			} },
 		targeting_data = {
 			char_time = 20.6

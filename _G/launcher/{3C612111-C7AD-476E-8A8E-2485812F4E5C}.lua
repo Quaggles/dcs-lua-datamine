@@ -9,5 +9,6 @@ _G["launcher"]["{3C612111-C7AD-476E-8A8E-2485812F4E5C}"] = {
 	PictureBlendColor = "0xffffffff",
 	Weight = 250,
 	attribute = { 4, 5, 9, "Redacted" },
-	displayName = "FAB-250"
+	category = 1,
+	displayName = "FAB-250 - 250kg GP Bomb LD"
 }

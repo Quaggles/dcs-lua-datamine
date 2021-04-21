@@ -413,6 +413,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					Da0 = 0.0005,
 					Da1 = 0,
 					Dv0 = 0.0081,
+					_unique_resource_name = "weapons.shells.2A42_30_HE",
 					caliber = 30,
 					cartridge = 0,
 					cartridge_mass = 0,
@@ -474,6 +475,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					Da0 = 0.0004,
 					Da1 = 0,
 					Dv0 = 0.0081,
+					_unique_resource_name = "weapons.shells.2A42_30_AP",
 					caliber = 30,
 					cartridge = 0,
 					cartridge_mass = 0,
@@ -830,6 +832,14 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		} },
 	RCS = 5,
 	Rate = "50",
+	SFM_Data = {
+		engine = {
+			Nmg = 82,
+			Shutdown_Duration = 42,
+			Startup_Duration = 53,
+			type = "TurboShaft"
+		}
+	},
 	Sensors = {
 		OPTIC = "Shkval"
 	},
@@ -886,7 +896,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			pilot_name = 11,
 			pos = { 3, 0.7, 0 },
 			role = "pilot",
-			role_display_name = "Pilot in command"
+			role_display_name = "Pilot"
 		} },
 	detection_range_max = 0,
 	effects_presets = { {
@@ -895,6 +905,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			ttl = 3
 		} },
 	engine_data = {
+		Nmg_Ready = 82,
 		SFC_k = { 2.045e-07, -0.0006328, 0.803 },
 		power_RPM_k = { -0.08639, 0.24277, 0.84175 },
 		power_RPM_min = 9.1384,
@@ -1379,6 +1390,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	sound_name = "Aircrafts/Engines/RotorKa50",
 	sounderName = "Aircraft/Helicopters/Ka-50",
 	stores_number = 4,
+	swapped_names = true,
 	tail_fin_area = 1.45,
 	tail_pos = { -7.245, 0.752, 0 },
 	tail_stab_area = 2.94,

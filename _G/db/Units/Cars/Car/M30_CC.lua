@@ -142,9 +142,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			}
 		} },
 	DetectionRange = 0,
-	DisplayName = "M30 Cargo Carrier",
+	DisplayName = "Carrier M30 Cargo",
+	DisplayNameShort = "M30",
+	IR_emission_coeff = 0.08,
 	MaxSpeed = 39.996,
-	Name = "M30 Cargo Carrier",
+	Name = "Carrier M30 Cargo",
 	Rate = 8,
 	ThreatRange = 1200,
 	WS = { {
@@ -165,11 +167,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						}, {
 							shell_name = {}
 						} },
-					sensor = {}
+					sensor = {},
+					sightMasterMode = 1
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.0471975511966 } },
 			area = "MG_TURRET",
 			center = "CENTER_TOWER",
+			cockpit = { "IronSight/IronSight", { -1.9, 0.18, 0 },
+				open = true
+			},
 			drawArgument1 = 0,
 			drawArgument2 = 1,
 			omegaY = 1.0471975511966,
@@ -185,7 +191,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				i = 20,
 				inn = 10,
 				p = 100
-			}
+			},
+			pointer = "POINT_SIGHT_01"
 		},
 		maxTargetDetectionRange = 6000
 	},
@@ -208,11 +215,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_elevation = { { -90, 25, 1 }, { 25, 90, 0.5 } }
 	},
 	attribute = { 2, 17, 26, "Redacted", "APC", "Infantry carriers", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "NonAndLightArmoredUnits", "LightArmoredUnits" },
-	category = "Armor",
+	category = "Unarmed",
 	chassis = {
 		mass = 24700
 	},
-	enablePlayerCanDrive = false,
+	driverCockpit = "DriverCockpit/DriverCockpit",
+	driverViewConnectorName = { "DRIVER_POINT",
+		offset = { 0.05, 0, 0 }
+	},
+	enablePlayerCanDrive = true,
 	mapclasskey = "P0091000004",
 	sensor = {
 		height = 2.5
@@ -236,15 +247,20 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Unarmed", "Support & Logistics" },
 	toggle_alarm_state_interval = 2,
 	type = "M30_CC",
 	visual = {
+		agony_explosion_size = 3,
 		dirt_pos = { -2.5, 0.4, -1.1 },
 		dust_pos = { 2.7, 0.1, -1.1 },
-		fire_pos = { 0, 0.6, -0.3 },
-		fire_size = 0.8,
-		fire_time = 1000,
+		fire_pos = { 0, 0.6, 0 },
+		fire_size = 0.45,
+		fire_time = 450,
+		max_time_agony = 130,
+		min_time_agony = 10,
 		shape = "m30",
 		shape_dstr = "m30_p_1"
 	}

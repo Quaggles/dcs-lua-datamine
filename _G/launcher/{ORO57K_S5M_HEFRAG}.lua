@@ -14,6 +14,7 @@ _G["launcher"]["{ORO57K_S5M_HEFRAG}"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "ORO-57K - S-5M x 8",
+	name = "{ORO57K_S5M_HEFRAG}",
 	shape_table_data = { {
 			file = "ORO57K_S5M_HEFRAG",
 			fire = { 0, 1 },

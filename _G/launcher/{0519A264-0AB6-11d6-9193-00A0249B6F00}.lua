@@ -8,5 +8,6 @@ _G["launcher"]["{0519A264-0AB6-11d6-9193-00A0249B6F00}"] = {
 	Picture = "L081.png",
 	Weight = 300,
 	attribute = { 4, 15, 44, "Redacted" },
+	category = 6,
 	displayName = "L-081 Fantasmagoria ELINT pod"
 }

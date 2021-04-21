@@ -23,7 +23,7 @@ _G["rockets"]["#Index"] = {
 	Nr_max = 12,
 	OmViz_max = 99.9,
 	Range_max = 40000,
-	Reflection = 0.09,
+	Reflection = 0.05,
 	X_back = 0,
 	Y_back = 0,
 	Z_back = 0,
@@ -48,6 +48,7 @@ _G["rockets"]["#Index"] = {
 	controller = {
 		march_start = 0.021
 	},
+	display_name = "AGM-45A",
 	fm = {
 		A = 0.36,
 		I = 137.211875,

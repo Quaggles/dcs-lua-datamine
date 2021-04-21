@@ -5,9 +5,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "SPH 2S19 Msta",
+	DisplayName = "SPH 2S19 Msta 152mm",
+	DisplayNameShort = "2S19",
+	IR_emission_coeff = 0.1,
 	MaxSpeed = 60.00012,
-	Name = "SPH 2S19 Msta",
+	Name = "SPH 2S19 Msta 152mm",
 	Rate = 15,
 	Sensors = {
 		OPTIC = { "TKN-3B day", "TKN-3B night" }
@@ -137,15 +139,20 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Artillery", "SPA" },
 	toggle_alarm_state_interval = 4,
 	type = "SAU Msta",
 	visual = {
+		agony_explosion_size = 5,
 		dirt_pos = { -2.9, 0.5, -1.346 },
 		dust_pos = { 3.57, 0.03, -1.346 },
-		fire_pos = { 1, 0, 0 },
-		fire_size = 1.1,
-		fire_time = 1200,
+		fire_pos = { -0.4, 1, 0 },
+		fire_size = 1,
+		fire_time = 500,
+		max_time_agony = 120,
+		min_time_agony = 5,
 		shape = "2-c19",
 		shape_dstr = "2-c19_p_1"
 	}

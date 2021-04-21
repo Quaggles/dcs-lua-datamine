@@ -1,8 +1,10 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 0,
-	DisplayName = "2B11 mortar",
+	DisplayName = "Mortar 2B11 120mm",
+	DisplayNameShort = "2B11",
+	IR_emission_coeff = 0.005,
 	MaxSpeed = 0,
-	Name = "2B11 mortar",
+	Name = "Mortar 2B11 120mm",
 	Rate = 5,
 	ThreatRange = 7000,
 	ThreatRangeMin = 30,
@@ -55,10 +57,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		height = 2.3
 	},
 	snd = {},
+	swapped_names = true,
+	tags = { "Artillery", "Mortar" },
 	type = "2B11 mortar",
 	visual = {
+		agony_explosion_size = 0,
 		fire_pos = {},
-		fire_time = 3,
+		fire_size = 0,
+		fire_time = 0,
+		max_time_agony = -1,
 		shape = "2B11",
 		shape_dstr = "2B11_P_1"
 	}

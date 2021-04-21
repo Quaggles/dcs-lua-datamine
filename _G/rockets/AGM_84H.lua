@@ -46,7 +46,7 @@ _G["rockets"]["#Index"] = {
 		start_val = 0
 	},
 	category = 2,
-	class_name = "wAmmunitionCruise",
+	class_name = "wAmmunitionAntiShip",
 	control_block = {
 		can_update_target_pos = 1,
 		default_cruise_height = 50,
@@ -95,6 +95,7 @@ _G["rockets"]["#Index"] = {
 		no_alg_vel_k = 10,
 		stab_vel = 237.5
 	},
+	display_name = "AGM-84H",
 	final_autopilot = {
 		J_Angle_K = 0.18,
 		J_Angle_W = 0.8,

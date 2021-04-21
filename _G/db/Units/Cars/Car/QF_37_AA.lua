@@ -1,9 +1,11 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Countries = { "Australia", "Belgium", "Canada", "Czech Republic", "France", "Italia", "Poland", "The Netherlands", "UK", "USA", "USSR", "Yugoslavia" },
 	DetectionRange = 0,
-	DisplayName = 'AA gun QF 3,7"',
+	DisplayName = 'AAA QF 3,7"',
+	DisplayNameShort = 'QF3,7"',
+	IR_emission_coeff = 0.01,
 	MaxSpeed = 0,
-	Name = 'AA gun QF 3,7"',
+	Name = 'AAA QF 3,7"',
 	Rate = 4,
 	ThreatRange = 9000,
 	WS = { {
@@ -89,11 +91,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "QF_37_AA_p_1"
 		} },
 	snd = {},
+	swapped_names = true,
+	tags = { "Air Defence", "AAA" },
 	type = "QF_37_AA",
 	visual = {
-		fire_pos = { -0.5, 0.1, 0 },
-		fire_size = 0.08,
-		fire_time = 500,
+		agony_explosion_size = 0.1,
+		fire_pos = {},
+		fire_size = 0,
+		fire_time = 0,
+		max_time_agony = -1,
 		shape = "QF_37_AA",
 		shape_dstr = "QF_37_AA_p_1"
 	}

@@ -522,6 +522,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			name = "SA342-oblomok"
 		} },
 	sound_name = "Aircrafts/Engines/SA342Rotor",
+	swapped_names = true,
 	tail_fin_area = 1.6,
 	tail_pos = { -5.934, 0.583, 0 },
 	tail_stab_area = 0.6,

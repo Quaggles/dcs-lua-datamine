@@ -425,6 +425,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	singleInFlight = true,
 	sound_name = "Aircrafts/Engines/RotorMi26",
 	stores_number = 0,
+	swapped_names = true,
 	tail_fin_area = 5.45,
 	tail_pos = { -19.78, 4.233, 0 },
 	tail_stab_area = 6.94,

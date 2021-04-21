@@ -34,12 +34,14 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	Countries = { "Germany", "Third Reich", "Japan", "Italian Social Republic", "Finland", "Hungary", "Romania", "Bulgaria" },
 	DetectionRange = 0,
-	DisplayName = "APC Sd.Kfz.251",
+	DisplayName = "APC Sd.Kfz.251 Halftrack",
+	DisplayNameShort = "Kfz.251",
+	IR_emission_coeff = 0.075,
 	InternalCargo = {
 		maximalCapacity = 1000,
 		nominalCapacity = 1000
 	},
-	Name = "APC Sd.Kfz.251",
+	Name = "APC Sd.Kfz.251 Halftrack",
 	Rate = 8,
 	ThreatRange = 1100,
 	WS = { {
@@ -81,7 +83,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						}, {
 							shell_name = {}
 						} },
-					customViewPoint = { "IronSight/IronSight", { -0.9, 0.085, 0 } },
+					customViewPoint = { "IronSight/IronSight", { -0.9, 0.085, 0 },
+						open = true
+					},
 					sensor = {}
 				} },
 			angles = { { 0.87266462599716, -0.87266462599716, -0.17453292519943, 0.5235987755983 } },
@@ -154,15 +158,20 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = true,
+	tags = { "Armor", "APC" },
 	toggle_alarm_state_interval = 2,
 	type = "Sd_Kfz_251",
 	visual = {
+		agony_explosion_size = 5,
 		dirt_pos = { -1.5, 0.1, -0.9 },
 		dust_pos = { 1.5, 0.1, -0.85 },
-		fire_pos = { 0.9, 0.7, 0 },
-		fire_size = 0.5,
-		fire_time = 800,
+		fire_pos = { 1.8, 0.98, 0 },
+		fire_size = 0.35,
+		fire_time = 540,
+		max_time_agony = 80,
+		min_time_agony = 12,
 		shape = "Sd_Kfz_251",
 		shape_dstr = "Sd_Kfz_251_p_1"
 	}

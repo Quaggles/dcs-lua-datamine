@@ -12,5 +12,6 @@ _G["launcher"]["{ODAB-500PM}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "ODAB-500PM",
+	name = "{ODAB-500PM}",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

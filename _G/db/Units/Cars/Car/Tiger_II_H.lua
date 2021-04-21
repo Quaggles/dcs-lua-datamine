@@ -188,6 +188,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		} },
 	DetectionRange = 0,
 	DisplayName = "HT Pz.Kpfw.VI Ausf. B Tiger II",
+	DisplayNameShort = "Tiger II",
+	IR_emission_coeff = 0.105,
 	MaxSpeed = 37.98,
 	Name = "HT Pz.Kpfw.VI Ausf. B Tiger II",
 	Rate = 20,
@@ -398,12 +400,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "Tank" },
 	type = "Tiger_II_H",
 	visual = {
-		fire_pos = { -2, 1, 0 },
-		fire_size = 0.5,
-		fire_time = 1000,
+		agony_explosion_size = 4,
+		fire_pos = { -2, 1.4, 0 },
+		fire_size = 0.65,
+		fire_time = 650,
+		max_time_agony = 90,
+		min_time_agony = 10,
 		shape = "Tiger_II",
 		shape_dstr = "Tiger_II_p_1"
 	}

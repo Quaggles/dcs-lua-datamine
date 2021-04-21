@@ -204,9 +204,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			}
 		} },
 	DetectionRange = 0,
-	DisplayName = "LAC M8 Greyhound",
+	DisplayName = "Car M8 Greyhound Armored",
+	DisplayNameShort = "Greyhnd",
+	IR_emission_coeff = 0.08,
 	MaxSpeed = 88.92,
-	Name = "LAC M8 Greyhound",
+	Name = "Car M8 Greyhound Armored",
 	Rate = 8,
 	ThreatRange = 2000,
 	WS = { {
@@ -270,7 +272,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 0.34906585039887 } },
-			cockpit = { "M70D/M70D", { 0, 0, 0 } },
+			cockpit = { "M70D/M70D", { 0, 0, 0 },
+				open = true
+			},
 			drawArgument1 = 0,
 			drawArgument2 = 1,
 			omegaY = 0.4014257279587,
@@ -313,7 +317,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.43633231299858, 1.221730476396 } },
 			base = 1,
-			cockpit = { "IronSight/IronSight", { -1.6, 0.1, 0 } },
+			cockpit = { "IronSight/IronSight", { -1.6, 0.1, 0 },
+				open = true
+			},
 			drawArgument1 = 80,
 			drawArgument2 = 82,
 			omegaY = 0.87266462599716,
@@ -376,13 +382,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "Scout/Recon" },
 	toggle_alarm_state_interval = 0,
 	type = "M8_Greyhound",
 	visual = {
-		fire_pos = { -1.3, 0.8, 0 },
-		fire_size = 0.2,
-		fire_time = 600,
+		agony_explosion_size = 3,
+		fire_pos = { -1.1, 0.8, 0 },
+		fire_size = 0.45,
+		fire_time = 400,
+		max_time_agony = 130,
+		min_time_agony = 10,
 		shape = "m8_greyhound",
 		shape_dstr = "m8_greyhound_p_1"
 	}

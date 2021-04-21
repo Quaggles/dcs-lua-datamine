@@ -34,6 +34,7 @@ _G["rockets"]["#Index"] = {
 	_unique_resource_name = "weapons.missiles.PL-5EII",
 	category = 4,
 	ccm_k0 = 0.5,
+	display_name = "PL-5EII",
 	exhaust = { 1, 1, 1, 0.1 },
 	name = "PL-5EII",
 	nozzle_exit_area = 0.0068,

@@ -1,6 +1,7 @@
 _G["launcher"]["{2CC29C7A-E863-411C-8A6E-BD6F0E730547}"] = {
 	CLSID = "{2CC29C7A-E863-411C-8A6E-BD6F0E730547}",
 	Count = 2,
+	Cx_item = 0.0009765625,
 	Cx_pil = 0.003840125,
 	Elements = { {
 			Position = { 0, 0, 0 },
@@ -20,7 +21,8 @@ _G["launcher"]["{2CC29C7A-E863-411C-8A6E-BD6F0E730547}"] = {
 	Weight = 783,
 	adapter_type = { 4, 15, 47, "Redacted" },
 	attribute = { 4, 4, 32, "Redacted" },
-	displayName = "LAU-88,AGM-65E*2",
+	category = 2,
+	displayName = "LAU-88 with 2 x AGM-65E - Maverick E (Laser ASM - Lg Whd)",
 	kind_of_shipping = 1,
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

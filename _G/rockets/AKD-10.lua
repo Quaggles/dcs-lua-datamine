@@ -61,6 +61,7 @@ _G["rockets"]["#Index"] = {
 		boost_start = 0.001,
 		march_start = 2.001
 	},
+	display_name = "AKD-10",
 	exhaust = { 0.9, 0.9, 0.85, 0.1 },
 	fm = {
 		A = 0.6,

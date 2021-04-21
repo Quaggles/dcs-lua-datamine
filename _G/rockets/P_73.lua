@@ -32,6 +32,7 @@ _G["rockets"]["#Index"] = {
 	_unique_resource_name = "weapons.missiles.P_73",
 	ccm_k0 = 0.5,
 	display_name = "R-73 (AA-11 Archer)",
+	display_name_short = "R-73",
 	exhaust = { 1, 1, 1, 1 },
 	name = "P_73",
 	sigma = { 3, 3, 3 },

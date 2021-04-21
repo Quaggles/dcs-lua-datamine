@@ -20,5 +20,6 @@ _G["launcher"]["DIS_SD-10_DUAL_R"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 4,
 	displayName = "SD-10 x 2",
+	name = "DIS_SD-10_DUAL_R",
 	wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 }

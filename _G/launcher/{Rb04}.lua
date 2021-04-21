@@ -2,19 +2,7 @@ _G["launcher"]["{Rb04}"] = {
 	CLSID = "{Rb04}",
 	Count = 1,
 	Cx_pil = 0.001,
-	Elements = { {
-			IsAdapter = true,
-			Position = { 0, 0, 0 },
-			ShapeName = "rb04pylon",
-			shape_table_data = { {
-					file = "rb04pylon",
-					fire = { 0, 1 },
-					index = "Redacted",
-					life = 60,
-					name = "rb04pylon",
-					username = "rb04pylon"
-				} }
-		}, {
+	Elements = { "_G/Pylons/rb04pylon.lua", {
 			Position = { 0.58, -0.375, 0 },
 			ShapeName = "Rb04"
 		} },
@@ -24,6 +12,6 @@ _G["launcher"]["{Rb04}"] = {
 	_origin = "AJS37 AI by Heatblur Simulations",
 	attribute = { 4, 4, 32, "Redacted", "Anti-Ship missiles" },
 	category = 2,
-	displayName = "RB-04E with launcher",
+	displayName = "Rb-04E Anti-ship Missile",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

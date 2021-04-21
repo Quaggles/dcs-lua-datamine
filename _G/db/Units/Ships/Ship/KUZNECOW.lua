@@ -40,36 +40,38 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	DeckLevel = 16.257,
 	DetectionRange = 25000,
 	DisplayName = "CV 1143.5 Admiral Kuznetsov",
-	Gamma_max = 0.35,
+	DisplayNameShort = "CV Kuznetsov",
+	Gamma_max = 1,
 	Height = 53.1,
 	HelicopterSpawnTerminal = { {
-			Points = { { { 112.65, 16.1, -7.12 }, 0 } },
+			Points = { { { 112.65, 16.26, -7.12 }, 0 } },
 			TerminalIdx = 1
 		}, {
-			Points = { { { 88.75, 16.1, -10 }, 0 } },
+			Points = { { { 88.75, 16.26, -10 }, 0 } },
 			TerminalIdx = 2
 		}, {
-			Points = { { { 72.7, 16.1, -29 }, 0 } },
+			Points = { { { 72.7, 16.26, -29 }, 0 } },
 			TerminalIdx = 3
 		}, {
-			Points = { { { 48.8, 16.1, -27.5 }, 0 } },
+			Points = { { { 48.8, 16.26, -27.5 }, 0 } },
 			TerminalIdx = 4
 		}, {
-			Points = { { { 25.7, 16.1, -23 }, 0 } },
+			Points = { { { 25.7, 16.26, -23 }, 0 } },
 			TerminalIdx = 5
 		}, {
 			Points = { { { -0.65, 16.1, -23 }, 0 } },
 			TerminalIdx = 6
 		}, {
-			Points = { { { -52.7, 16.1, -26 }, 0 } },
+			Points = { { { -52.7, 16.26, -26 }, 0 } },
 			TerminalIdx = 7
 		}, {
-			Points = { { { -96.45, 16.1, -2.26 }, 0 } },
+			Points = { { { -96.45, 16.26, -2.26 }, 0 } },
 			TerminalIdx = 8
 		},
 		TerminalNumber = 8
 	},
 	Helicopter_Num_ = 12,
+	IR_emission_coeff = 0.45,
 	LSOView = {
 		cockpit = "empty",
 		position = {
@@ -85,6 +87,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	},
 	Om = 0.02,
 	Plane_Num_ = 24,
+	RCS = 1500000,
 	R_min = 609,
 	Rate = 5500,
 	RunWays = { { { -15.55, 16.257, -14.42 }, 352.27036, 201.84, 25, 0, 0, 0, 0, 0, 0, 0 }, { { 76.2, 16.257, 11.93 }, 353, 102.368, 25, 0, 0, 0, 0, 0, 0, 0 }, { { 76.2, 16.257, -11.93 }, 7, 102.368, 25, 0, 0, 0, 0, 0, 0, 0 }, { { -11.3, 16.257, -21.63 }, 7, 189.868, 25, 0, 0, 0, 0, 0, 0, 0 },
@@ -648,9 +651,18 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	numParking = 3,
 	race_distance = 4630000,
 	race_velocity = 15.4333,
+	sensor = {
+		max_alt_finding_target = 15000,
+		max_range_finding_target = 25000,
+		min_alt_finding_target = 0,
+		min_range_finding_target = 0,
+		pos = { 13, 51, 24 }
+	},
 	shipLength = 276.6,
 	snd = {},
 	speedup = 0.148333,
+	swapped_names = true,
+	tags = { "Carrier" },
 	type = "KUZNECOW",
 	visual = {
 		shape = "kuznecow",

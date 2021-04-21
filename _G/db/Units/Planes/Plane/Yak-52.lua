@@ -1,6 +1,8 @@
 _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	AOA_take_off = 0.157,
 	AddPropAircraft = { {
+			arg = 472,
+			boolean_inverted = true,
 			control = "checkbox",
 			defValue = false,
 			id = "SoloFlight",
@@ -15,10 +17,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			label = "Propeller Type",
 			values = { {
 					dispName = "2-Blade V530TA-D35",
-					id = 0
+					id = 0,
+					value = 0
 				}, {
 					dispName = "3-Blade MTV-9",
-					id = 1
+					id = 1,
+					value = 1
 				} },
 			wCtrl = 150
 		}, {
@@ -651,12 +655,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			N_fr_0 = 0.072,
 			N_fr_1 = 0.02,
 			N_indic_0 = 1023040,
-			Nmg = 26.027,
+			Nmg = 24.027,
 			Nominal_RPM = 2920,
 			Nu_0 = 1.2,
 			Nu_1 = 0.9,
 			Nu_2 = 0.001,
 			P_oil = 495438,
+			Startup_Prework = 58,
 			Stroke = 0.152,
 			V_pist_0 = 12,
 			cefor = 0.37,
@@ -805,31 +810,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	V_max_sea_level = 75,
 	V_opt = 52.777777777778,
 	V_take_off = 33.333333333333,
-	ViewSettings = {
-		Arcade = {
-			AnglesDefault = { 0, -8 },
-			LocalPoint = { -12.041, 6.419, 0 }
-		},
-		Chase = {
-			AnglesDefault = { 180, -8 },
-			LocalPoint = { 4.259, 3.819, 0 }
-		},
-		Cockpit = { {
-				Allow360rotation = false,
-				CameraAngleLimits = { 200, -80, 110 },
-				CameraAngleRestriction = { false, 90, 0.5 },
-				CameraViewAngleLimits = { 20, 140 },
-				CockpitLocalPoint = { 7.959, 1.419, 0 },
-				EyePoint = { 0.05, 0, 0 },
-				ShoulderSize = 0.2,
-				limits_6DOF = {
-					roll = 90,
-					x = { -0.05, 0.45 },
-					y = { -0.3, 0.1 },
-					z = { -0.22, 0.22 }
-				}
-			} }
-	},
 	Vy_max = 4.444,
 	Waypoint_Custom_Panel = true,
 	WingSpan = 9.3,
@@ -1160,6 +1140,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			fire = { 240, 2 },
 			name = "Bf-109K-4_oblomki"
 		} },
+	swapped_names = true,
 	tand_gear_max = 0.577,
 	thrust_sum_ab = 3000,
 	thrust_sum_max = 3000,

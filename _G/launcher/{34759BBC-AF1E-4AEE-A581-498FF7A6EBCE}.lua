@@ -9,5 +9,6 @@ _G["launcher"]["{34759BBC-AF1E-4AEE-A581-498FF7A6EBCE}"] = {
 	Required = { "{6C0D552F-570B-42ff-9F6D-F10D9C1D4E1C}" },
 	Weight = 900,
 	attribute = { 4, 5, 36, "Redacted" },
-	displayName = "GBU-24"
+	category = 1,
+	displayName = "GBU-24 Paveway III - 2000lb Laser Guided Bomb"
 }

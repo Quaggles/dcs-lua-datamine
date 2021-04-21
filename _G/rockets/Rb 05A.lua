@@ -35,6 +35,7 @@ _G["rockets"]["#Index"] = {
 	_origin = "AJS37 AI by Heatblur Simulations",
 	_unique_resource_name = "weapons.missiles.Rb 05A",
 	category = 2,
+	display_name = "RB-05A",
 	exhaust = { 0.95, 0.95, 0.95, 0.05 },
 	name = "Rb 05A",
 	shape_table_data = { {

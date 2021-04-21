@@ -30,6 +30,7 @@ _G["rockets"]["#Index"] = {
 	Z_back = -0.005,
 	_unique_resource_name = "weapons.missiles.P_77",
 	display_name = "R-77 (AA-12 Adder)",
+	display_name_short = "R-77",
 	exhaust = { 1, 1, 1, 1 },
 	hoj = 1,
 	name = "P_77",

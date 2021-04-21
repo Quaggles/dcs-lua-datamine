@@ -5,5 +5,6 @@ _G["db"]["Units"]["Fortifications"]["Fortification"]["#Index"] = {
 	SeaObject = true,
 	ShapeName = "plavbaza",
 	category = "Fortification",
+	swapped_names = true,
 	type = "Oil platform"
 }

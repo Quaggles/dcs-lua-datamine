@@ -5,6 +5,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	DetectionRange = 35000,
 	DisplayName = "SAM Roland EWR",
+	DisplayNameShort = "Roland SR",
+	IR_emission_coeff = 0.085,
 	MaxSpeed = 74.99988,
 	Name = "SAM Roland EWR",
 	Rate = 10,
@@ -195,15 +197,20 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} },
-		radarRotation = "RadarRotation"
+		radarRotation = "GndTech/RadarRotation"
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Air Defence", "Search & Track Radar" },
 	toggle_alarm_state_interval = 5,
 	type = "Roland Radar",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.8,
-		fire_time = 900,
+		agony_explosion_size = 3,
+		fire_pos = { -0.5, 1, 0 },
+		fire_size = 0.65,
+		fire_time = 450,
+		max_time_agony = 100,
+		min_time_agony = 10,
 		shape = "roland-rls",
 		shape_dstr = "Marder_p_1"
 	}

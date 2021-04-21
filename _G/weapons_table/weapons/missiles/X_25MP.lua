@@ -114,7 +114,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_25MP"] = {
 			piercing_mass = 17.2
 		}
 	},
-	display_name = "Kh-25MPU",
+	display_name = "Kh-25MP",
 	mass = 315,
 	model = "X-25MP",
 	name = "X_25MP",

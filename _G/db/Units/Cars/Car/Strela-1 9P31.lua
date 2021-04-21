@@ -5,9 +5,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 5000,
-	DisplayName = "SAM SA-9 Strela-1 9P31",
+	DisplayName = 'SAM SA-9 Strela 1 "Gaskin" TEL',
+	DisplayNameShort = "SA-9",
+	IR_emission_coeff = 0.08,
 	MaxSpeed = 100.00008,
-	Name = "SAM SA-9 Strela-1 9P31",
+	Name = 'SAM SA-9 Strela 1 "Gaskin" TEL',
 	Rate = 8,
 	ThreatRange = 4200,
 	WS = { {
@@ -73,13 +75,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Air Defence", "SAM SHORAD" },
 	toggle_alarm_state_interval = 5,
 	type = "Strela-1 9P31",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.6,
-		fire_time = 900,
+		agony_explosion_size = 3,
+		fire_pos = { -0.2, 1, 0 },
+		fire_size = 0.62,
+		fire_time = 480,
+		max_time_agony = 120,
+		min_time_agony = 15,
 		shape = "9p31",
 		shape_dstr = "9P31_P_1"
 	}

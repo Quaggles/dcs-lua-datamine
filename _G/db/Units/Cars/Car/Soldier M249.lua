@@ -1,9 +1,11 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	CustomAimPoint = { 0, 0.2, 0 },
 	DetectionRange = 0,
-	DisplayName = "Soldier M249",
+	DisplayName = "Infantry M249",
+	DisplayNameShort = "M249",
+	IR_emission_coeff = 0.004,
 	MaxSpeed = 14.4,
-	Name = "Soldier M249",
+	Name = "Infantry M249",
 	Rate = 1,
 	ThreatRange = 700,
 	Transportable = {
@@ -26,6 +28,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { { 0.78539816339745, -0.78539816339745, -0.69813170079773, 0.69813170079773 } },
+			canSetTacticalDir = true,
 			center = "CENTER_TOWER",
 			drawArgument1 = 0,
 			drawArgument2 = 1,
@@ -66,6 +69,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		max_range_finding_target = 400
 	},
 	snd = {},
+	swapped_names = true,
+	tags = { "Infantry" },
 	type = "Soldier M249",
 	visual = {
 		fire_pos = {},

@@ -6,11 +6,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			id = "Tent",
 			label = "Tent",
 			values = { {
-					dispName = "Fully Covered",
+					dispName = "Full covered",
 					id = 1,
 					value = 0
 				}, {
-					dispName = "Only Body",
+					dispName = "Only body",
 					id = 2,
 					value = 0.1
 				}, {
@@ -26,12 +26,14 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	Countries = { "Australia", "Belgium", "Canada", "Czech Republic", "France", "Italia", "Poland", "The Netherlands", "UK", "USA", "USSR", "Yugoslavia" },
 	DetectionRange = 0,
-	DisplayName = "Bedford MWD",
+	DisplayName = "Truck Bedford",
+	DisplayNameShort = "Bedford",
+	IR_emission_coeff = 0.07,
 	InternalCargo = {
 		maximalCapacity = 1000,
 		nominalCapacity = 1000
 	},
-	Name = "Bedford MWD",
+	Name = "Truck Bedford",
 	Rate = 5,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
@@ -72,12 +74,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Unarmed", "Support", "Logistics" },
 	type = "Bedford_MWD",
 	visual = {
-		fire_pos = { 1.2, 0.7, 0 },
-		fire_size = 0.7,
-		fire_time = 400,
+		agony_explosion_size = 2,
+		fire_pos = { 1.5, 1, 0 },
+		fire_size = 0.3,
+		fire_time = 490,
+		max_time_agony = 130,
+		min_time_agony = 10,
 		shape = "Bedford_MWD",
 		shape_dstr = "Bedford_MWD_p_1"
 	},

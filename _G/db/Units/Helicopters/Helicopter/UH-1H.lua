@@ -929,6 +929,13 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		} },
 	RCS = 10,
 	Rate = "20",
+	SFM_Data = {
+		engine = {
+			Shutdown_Duration = 42,
+			Startup_Duration = 37,
+			type = "TurboShaft"
+		}
+	},
 	Shape = "AB-212",
 	SnapViews = { { {
 				hAngle = 15,
@@ -1928,8 +1935,10 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	scheme = 0,
 	sound_name = "Aircrafts/Engines/RotorUH1H",
 	stores_number = 4,
+	swapped_names = true,
 	tail_fin_area = 1.2,
 	tail_pos = { -8.525, 2.114, 0 },
+	tail_rotor_RPM = 1798.2,
 	tail_stab_area = 1.7,
 	thrust_correction = 0.75,
 	type = "UH-1H"

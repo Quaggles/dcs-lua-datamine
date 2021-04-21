@@ -16,5 +16,6 @@ _G["launcher"]["{D3F65166-1AB8-490f-AF2F-2FB6E22568B2}"] = {
 	},
 	Weight = 220,
 	attribute = { 4, 15, 50, "Redacted" },
+	category = 6,
 	displayName = "Smoke Generator - green"
 }

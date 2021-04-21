@@ -11,5 +11,5 @@ _G["launcher"]["{BK90}"] = {
 	_origin = "AJS37 AI by Heatblur Simulations",
 	attribute = { 4, 4, 8, "Redacted" },
 	category = 2,
-	displayName = "BK90 MJ1-MJ2"
+	displayName = "BK-90 MJ1+2 (12x MJ2 HEAT / 36x MJ1 HE-FRAG Bomblets)"
 }

@@ -13,11 +13,13 @@ _G["launcher"]["{BRU33_2*LAU68}"] = {
 			payload_CLSID = "{A021F29D-18AB-4d3e-985C-FC9C60E35E9E}"
 		} },
 	Picture = "LAU68.png",
-	Weight = 308.06,
+	Weight = 318.8,
+	Weight_Empty = 171.8,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
-	displayName = "BRU-33 - 2 LAU-68 - 7 2.75' rockets M151 (HE)",
+	displayName = 'BRU-33 with 2 x LAU-68 pod - 7 x 2.75" Hydra, UnGd Rkts M151, HE',
+	name = "{BRU33_2*LAU68}",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

@@ -208,7 +208,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			MaksRUD = 1,
 			MaxRUD = 1,
 			MinRUD = 0,
-			Nmg = 60.00001,
+			Nominal_Fan_RPM = 1245,
+			Nominal_RPM = 15100,
+			Startup_Prework = 20,
 			cefor = 0.37,
 			cemax = 0.37,
 			dcx_eng = 0.0085,
@@ -368,7 +370,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		typename = "collection"
 	},
-	main_gear_pos = { -0.826, -2.55, 3.969 },
+	main_gear_amortizer_direct_stroke = 0,
+	main_gear_amortizer_normal_weight_stroke = -0.1,
+	main_gear_amortizer_reversal_stroke = -0.316,
+	main_gear_pos = { -0.6, -2.816, 3.87 },
 	main_gear_wheel_diameter = 0.972,
 	mapclasskey = "P0091000029",
 	mechanimations = {
@@ -388,12 +393,42 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						C = { { "Arg", 38, "to", 0, "in", 1.6 } }
 					} },
 				Transition = { "Board", "Close" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 38, "to", 0, "in", 1.6 } }
+					} },
+				Transition = { "Any", "Close" }
 			} },
 		Door1 = {
 			DuplicateOf = "Door0"
-		}
+		},
+		Door11 = { {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "Arg", 86, "to", 1, "time", 15 } }
+					} },
+				Transition = { "Close", "Open" }
+			}, {
+				Flags = { "Reversible", "StepsBackwards" },
+				Sequence = { {
+						C = { { "Arg", 86, "to", 0, "time", 15 } }
+					} },
+				Transition = { "Open", "Close" }
+			} }
 	},
-	nose_gear_pos = { 7, -2.55, 0 },
+	mechconnectors = {
+		Door11 = { {
+				shift_orient = { 0, 160, 0 },
+				shift_pos = { -10, -1, -1 }
+			}, {
+				shift_orient = { 0, -160, 0 },
+				shift_pos = { -10, -1, 1 }
+			} }
+	},
+	nose_gear_amortizer_direct_stroke = 0,
+	nose_gear_amortizer_normal_weight_stroke = -0.01,
+	nose_gear_amortizer_reversal_stroke = -0.23,
+	nose_gear_pos = { 7.297, -2.67, 0 },
 	nose_gear_wheel_diameter = 0.754,
 	passivCounterm = {
 		CMDS_Edit = true,
@@ -413,6 +448,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	range = 2660,
 	singleInFlight = false,
 	stores_number = 0,
+	swapped_names = true,
 	tand_gear_max = 0.577,
 	thrust_sum_ab = 22000,
 	thrust_sum_max = 22000,

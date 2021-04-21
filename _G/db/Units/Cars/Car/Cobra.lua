@@ -4,13 +4,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "APC Cobra",
+	DisplayName = "APC Cobra (Scout)",
+	DisplayNameShort = "Cobra",
+	IR_emission_coeff = 0.07,
 	InternalCargo = {
 		maximalCapacity = 700,
 		nominalCapacity = 700
 	},
 	MaxSpeed = 115.2,
-	Name = "APC Cobra",
+	Name = "APC Cobra (Scout)",
 	Rate = 8,
 	ThreatRange = 1200,
 	WS = { {
@@ -83,12 +85,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "Scout/Recon" },
 	type = "Cobra",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.6,
-		fire_time = 900,
+		agony_explosion_size = 2,
+		fire_pos = { 0, 0.8, 0 },
+		fire_size = 0.5,
+		fire_time = 300,
+		max_time_agony = 100,
+		min_time_agony = 5,
 		shape = "Otokar_Cobra",
 		shape_dstr = "Otokar_Cobra_p1"
 	}

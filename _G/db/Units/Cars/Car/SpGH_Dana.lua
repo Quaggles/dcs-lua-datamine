@@ -4,9 +4,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "SpGH Dana",
+	DisplayName = "SPH Dana vz77 152mm",
+	DisplayNameShort = "Dana",
+	IR_emission_coeff = 0.09,
 	MaxSpeed = 79.992,
-	Name = "SpGH Dana",
+	Name = "SPH Dana vz77 152mm",
 	Rate = 15,
 	Sensors = {
 		OPTIC = { "TKN-3B day", "TKN-3B night" }
@@ -82,14 +84,19 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Artillery", "SPA" },
 	type = "SpGH_Dana",
 	visual = {
+		agony_explosion_size = 5,
 		dirt_pos = { -3.6, 0.7, -1.04 },
 		dust_pos = { 3.6, 0.1, -1.04 },
-		fire_pos = { 1.4, 0, -0.461 },
-		fire_size = 0.9,
-		fire_time = 1000,
+		fire_pos = { -1.2, 1.25, 0 },
+		fire_size = 1.05,
+		fire_time = 450,
+		max_time_agony = 110,
+		min_time_agony = 10,
 		shape = "SpGH_Dana",
 		shape_dstr = "SpGH_Dana_p_1"
 	}

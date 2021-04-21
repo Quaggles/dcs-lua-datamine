@@ -7,7 +7,8 @@ _G["launcher"]["{0D33DDAE-524F-4A4E-B5B8-621754FE3ADE}"] = {
 		} },
 	Picture = "GBU16.png",
 	Required = { "{6C0D552F-570B-42ff-9F6D-F10D9C1D4E1C}" },
-	Weight = 564,
+	Weight = 513,
 	attribute = { 4, 5, 36, "Redacted" },
-	displayName = "GBU-16"
+	category = 1,
+	displayName = "GBU-16 - 1000lb Laser Guided Bomb"
 }

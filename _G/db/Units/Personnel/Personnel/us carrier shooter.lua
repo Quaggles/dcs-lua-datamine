@@ -21,5 +21,6 @@ _G["db"]["Units"]["Personnel"]["Personnel"]["#Index"] = {
 		}, {
 			name = "carrier_shooter"
 		} },
+	swapped_names = true,
 	type = "us carrier shooter"
 }

@@ -19,5 +19,6 @@ _G["launcher"]["DIS_SMOKE_GENERATOR_G"] = {
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	attribute = { 4, 15, 50, "Redacted" },
 	category = 6,
-	displayName = "Smoke Generator - green"
+	displayName = "Smoke Generator - green",
+	name = "pl5eii"
 }

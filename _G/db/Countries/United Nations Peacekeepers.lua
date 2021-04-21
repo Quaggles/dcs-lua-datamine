@@ -320,6 +320,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "FuSe-65",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "1L13 EWR",
 					in_service = 0,
 					out_of_service = 40000
@@ -417,6 +421,10 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "LAZ Bus",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "LiAZ Bus",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -656,11 +664,19 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "ZSU_57_2",
+					Name = "S-200_Launcher",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "T-72B3",
+					Name = "RPC_5N62V",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "S-60_Type59_Artillery",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "ZSU_57_2",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -940,6 +956,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "T-72B3",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "BTR-82A",
 					in_service = 0,
 					out_of_service = 40000
@@ -992,7 +1012,7 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "ZTZ96B",
+					Name = "HQ-7_STR_SP",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -1000,7 +1020,11 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "HQ-7_STR_SP",
+					Name = "ZTZ96B",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "PLZ05",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -1378,11 +1402,19 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "Belgian gate",
-					in_service = 0,
-					out_of_service = 40000
+					Name = "Beer Bomb"
 				}, {
-					Name = "Concertina wire",
+					Name = "Concertina wire"
+				}, {
+					Name = "Haystack 1"
+				}, {
+					Name = "Haystack 2"
+				}, {
+					Name = "Haystack 3"
+				}, {
+					Name = "Haystack 4"
+				}, {
+					Name = "Belgian gate",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -1423,22 +1455,6 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "Fire Control Bunker",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Haystack 1",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Haystack 2",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Haystack 3",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Haystack 4",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -1991,8 +2007,6 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "HandyWind"
-				}, {
 					Name = "Uboat_VIIC",
 					in_service = 0,
 					out_of_service = 40000
@@ -2006,6 +2020,10 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "KILO",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "IMPROVED_KILO",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -2041,10 +2059,6 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "SOM",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
 					Name = "ZWEZDNY",
 					in_service = 0,
 					out_of_service = 40000
@@ -2058,6 +2072,10 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "Higgins_boat",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "HandyWind",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -2113,10 +2131,6 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "CVN_75",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
 					Name = "CVN_71",
 					in_service = 0,
 					out_of_service = 40000
@@ -2126,6 +2140,10 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "CVN_73",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "CVN_75",
 					in_service = 0,
 					out_of_service = 40000
 				} }

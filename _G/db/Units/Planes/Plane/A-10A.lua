@@ -173,7 +173,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		WorldID = 31
 	},
 	DisplayName = "A-10A",
-	EmptyWeight = 11325,
+	EmptyWeight = 11625,
 	Failures = { {
 			enable = false,
 			hh = 0,
@@ -302,6 +302,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						Da0 = 0.0011,
 						Da1 = 0,
 						Dv0 = 0.006,
+						_unique_resource_name = "weapons.shells.GAU8_30_AP",
 						caliber = 30,
 						cartridge = 0,
 						cartridge_mass = 0.083,
@@ -350,6 +351,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						scale_smoke = 2,
 						scale_tracer = 0,
 						silent_self_destruction = false,
+						smoke_opacity = 0.5,
 						smoke_tail_life_time = -1,
 						subcalibre = false,
 						tracer_off = -100,
@@ -363,6 +365,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						Da0 = 0.0011,
 						Da1 = 0,
 						Dv0 = 0.006,
+						_unique_resource_name = "weapons.shells.GAU8_30_HE",
 						caliber = 30,
 						cartridge = 0,
 						cartridge_mass = 0.36,
@@ -411,6 +414,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						scale_smoke = 2,
 						scale_tracer = 0,
 						silent_self_destruction = false,
+						smoke_opacity = 0.5,
 						smoke_tail_life_time = -1,
 						subcalibre = false,
 						tracer_off = -100,
@@ -424,6 +428,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						Da0 = 0.0011,
 						Da1 = 0,
 						Dv0 = 0.006,
+						_unique_resource_name = "weapons.shells.GAU8_30_TP",
 						caliber = 30,
 						cartridge = 0,
 						cartridge_mass = 0,
@@ -472,6 +477,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						scale_smoke = 2,
 						scale_tracer = 0,
 						silent_self_destruction = false,
+						smoke_opacity = 0.5,
 						smoke_tail_life_time = -1,
 						subcalibre = false,
 						tracer_off = -100,
@@ -618,7 +624,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	IR_emission_coeff = 0.53,
 	IR_emission_coeff_ab = 0,
 	InheriteCommonCallnames = true,
-	M_empty = 11325,
+	M_empty = 11625,
 	M_fuel_max = 5029,
 	M_max = 21081,
 	M_nominal = 13500,
@@ -676,6 +682,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}"
 				}, {
 					CLSID = "LAU-105_AIS_ASQ_T50_L"
+				}, {
+					CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}"
 				} },
 			Number = 1,
 			Order = 1,
@@ -731,6 +739,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{6D6D5C07-2A90-4a68-9A74-C5D0CFFB05D9}"
 				}, {
 					CLSID = "{5335D97A-35A5-4643-9D9B-026C75961E52}"
+				}, {
+					CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}"
 				} },
 			Number = 2,
 			Order = 2,
@@ -808,6 +818,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{6D6D5C07-2A90-4a68-9A74-C5D0CFFB05D9}"
 				}, {
 					CLSID = "{5335D97A-35A5-4643-9D9B-026C75961E52}"
+				}, {
+					CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}"
 				} },
 			Number = 3,
 			Order = 3,
@@ -871,6 +883,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "Fuel_Tank_FT600"
 				}, {
 					CLSID = "{5335D97A-35A5-4643-9D9B-026C75961E52}"
+				}, {
+					CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}"
 				} },
 			Number = 4,
 			Order = 4,
@@ -896,6 +910,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "BRU-42_3*BDU-33"
 				}, {
 					CLSID = "{5335D97A-35A5-4643-9D9B-026C75961E52}"
+				}, {
+					CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}"
 				} },
 			Number = 5,
 			Order = 5,
@@ -923,6 +939,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "Fuel_Tank_FT600"
 				}, {
 					CLSID = "{5335D97A-35A5-4643-9D9B-026C75961E52}"
+				}, {
+					CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}"
 				} },
 			Number = 6,
 			Order = 6,
@@ -948,6 +966,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "BRU-42_3*BDU-33"
 				}, {
 					CLSID = "{5335D97A-35A5-4643-9D9B-026C75961E52}"
+				}, {
+					CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}"
 				} },
 			Number = 7,
 			Order = 7,
@@ -1011,6 +1031,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "Fuel_Tank_FT600"
 				}, {
 					CLSID = "{5335D97A-35A5-4643-9D9B-026C75961E52}"
+				}, {
+					CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}"
 				} },
 			Number = 8,
 			Order = 8,
@@ -1088,6 +1110,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{6D6D5C07-2A90-4a68-9A74-C5D0CFFB05D9}"
 				}, {
 					CLSID = "{5335D97A-35A5-4643-9D9B-026C75961E52}"
+				}, {
+					CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}"
 				} },
 			Number = 9,
 			Order = 9,
@@ -1143,6 +1167,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{6D6D5C07-2A90-4a68-9A74-C5D0CFFB05D9}"
 				}, {
 					CLSID = "{5335D97A-35A5-4643-9D9B-026C75961E52}"
+				}, {
+					CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}"
 				} },
 			Number = 10,
 			Order = 10,
@@ -1194,6 +1220,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}"
 				}, {
 					CLSID = "LAU-105_AIS_ASQ_T50_R"
+				}, {
+					CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}"
 				} },
 			Number = 11,
 			Order = 11,
@@ -1224,6 +1252,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			MaxRUD = 1,
 			MinRUD = 0,
 			Nmg = 60.00001,
+			Shutdown_Duration = 35,
+			Startup_Duration = 35,
 			cefor = 0.37,
 			cemax = 0.37,
 			dcx_eng = 0.015,
@@ -1297,7 +1327,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			ejection_seat_name = 17,
 			pos = { 3.949, 1.01, 0 },
 			role = "pilot",
-			role_display_name = "Pilot in command"
+			role_display_name = "Pilot"
 		} },
 	detection_range_max = 0,
 	effects_presets = { {
@@ -1777,6 +1807,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		} },
 	sounderName = "Aircraft/Planes/A-10A",
 	stores_number = 11,
+	swapped_names = true,
 	tand_gear_max = 0.577,
 	tanker_type = 1,
 	thrust_sum_ab = 8224,

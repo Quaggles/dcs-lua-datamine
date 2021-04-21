@@ -35,6 +35,7 @@ _G["torpedoes"]["#Index"] = {
 	},
 	category = 11,
 	class_name = "wAmmunition",
+	display_name = "YU-6",
 	engine = {
 		thrust = 9900
 	},

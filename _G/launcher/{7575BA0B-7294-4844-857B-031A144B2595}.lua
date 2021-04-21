@@ -9,5 +9,6 @@ _G["launcher"]["{7575BA0B-7294-4844-857B-031A144B2595}"] = {
 	PictureBlendColor = "0xffffffff",
 	Weight = 463,
 	attribute = { 4, 4, 7, "Redacted" },
-	displayName = "AIM-54C"
+	category = 4,
+	displayName = "AIM-54C-Mk47 Phoenix IN & Semi-Active Radar"
 }

@@ -2387,6 +2387,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						Da0 = 0.0007,
 						Da1 = 0,
 						Dv0 = 0.005,
+						_unique_resource_name = "weapons.shells.GSH23_23_HE_T",
 						caliber = 23,
 						cartridge = 0,
 						cartridge_mass = 0,
@@ -2782,17 +2783,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "DIS_TYPE200_DUAL_L",
 					arg_value = 0.5
 				}, {
-					CLSID = "{BRU33_2X_MK-82}",
-					arg_value = 0.5
+					CLSID = "DIS_MK_82_DUAL_GDJ_II19_L",
+					arg_value = 0.3
 				}, {
-					CLSID = "{BRU33_2X_MK-82_Snakeye}",
-					arg_value = 0.5
+					CLSID = "DIS_MK_82S_DUAL_GDJ_II19_L",
+					arg_value = 0.3
 				}, {
-					CLSID = "{BRU33_2X_ROCKEYE}",
-					arg_value = 0.5
+					CLSID = "DIS_MK_20_DUAL_GDJ_II19_L",
+					arg_value = 0.3
 				}, {
-					CLSID = "DIS_GBU_12_DUAL",
-					arg_value = 0.5
+					CLSID = "DIS_GBU_12_DUAL_GDJ_II19_L",
+					arg_value = 0.3
 				}, {
 					CLSID = "DIS_BRM1_90",
 					arg_value = 0.5
@@ -2800,8 +2801,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "DIS_RKT_90_UG",
 					arg_value = 0.5
 				}, {
-					CLSID = "{BRU33_2*LAU68_MK5}",
-					arg_value = 0.4
+					CLSID = "DIS_LAU68_MK5_DUAL_GDJ_II19_L",
+					arg_value = 0.3
 				}, {
 					CLSID = "DIS_WMD7",
 					arg_value = 0.7,
@@ -2892,6 +2893,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "DIS_TANK1100",
 					arg_value = 0.1
+				}, {
+					CLSID = "{Mk82SNAKEYE}",
+					arg_value = 0.9
 				}, {
 					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
 					arg_value = 0.9
@@ -3031,6 +3035,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "DIS_TANK1100",
 					arg_value = 0.1
 				}, {
+					CLSID = "{Mk82SNAKEYE}",
+					arg_value = 0.9
+				}, {
 					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
 					arg_value = 0.9
 				}, {
@@ -3110,17 +3117,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "DIS_TYPE200_DUAL_R",
 					arg_value = 0.5
 				}, {
-					CLSID = "{BRU33_2X_MK-82}",
-					arg_value = 0.5
+					CLSID = "DIS_MK_82_DUAL_GDJ_II19_R",
+					arg_value = 0.3
 				}, {
-					CLSID = "{BRU33_2X_MK-82_Snakeye}",
-					arg_value = 0.5
+					CLSID = "DIS_MK_82S_DUAL_GDJ_II19_R",
+					arg_value = 0.3
 				}, {
-					CLSID = "{BRU33_2X_ROCKEYE}",
-					arg_value = 0.5
+					CLSID = "DIS_MK_20_DUAL_GDJ_II19_R",
+					arg_value = 0.3
 				}, {
-					CLSID = "DIS_GBU_12_DUAL",
-					arg_value = 0.5
+					CLSID = "DIS_GBU_12_DUAL_GDJ_II19_R",
+					arg_value = 0.3
 				}, {
 					CLSID = "DIS_BRM1_90",
 					arg_value = 0.5
@@ -3128,8 +3135,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "DIS_RKT_90_UG",
 					arg_value = 0.5
 				}, {
-					CLSID = "{BRU33_2*LAU68_MK5}",
-					arg_value = 0.4
+					CLSID = "DIS_LAU68_MK5_DUAL_GDJ_II19_R",
+					arg_value = 0.3
 				}, {
 					CLSID = "DIS_WMD7",
 					arg_value = 0.7,
@@ -3482,7 +3489,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			pilot_name = 282,
 			pos = { 4.45, 0.18, 0 },
 			role = "pilot",
-			role_display_name = "Pilot in command"
+			role_display_name = "Pilot"
 		} },
 	crew_size = 1,
 	date_of_introduction = 2003.8,
@@ -3761,6 +3768,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			name = "JF-17-oblomok",
 			positioning = "BYNORMAL"
 		} },
+	swapped_names = true,
 	tand_gear_max = 0.57,
 	tanker_type = 4,
 	thrust_sum_ab = 15569,

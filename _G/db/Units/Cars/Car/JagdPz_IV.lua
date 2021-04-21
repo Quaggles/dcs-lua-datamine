@@ -142,9 +142,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			}
 		} },
 	DetectionRange = 0,
-	DisplayName = "TD Jagdpanzer IV",
+	DisplayName = "SPG Jagdpanzer IV",
+	DisplayNameShort = "JgdPz-IV",
+	IR_emission_coeff = 0.1,
 	MaxSpeed = 38.016,
-	Name = "TD Jagdpanzer IV",
+	Name = "SPG Jagdpanzer IV",
 	Rate = 15,
 	Sensors = {
 		OPTIC = { "TRP-2A day", "TRP-2A night" }
@@ -195,6 +197,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					type = 6
 				} },
 			angles = { { 0.17453292519943, -0.17453292519943, -0.087266462599716, 0.26179938779915 } },
+			canSetTacticalDir = true,
 			center = "CENTER_TOWER",
 			cockpit = { "Jagdpanzer_IV/Sfl_Z_F_1", { 0, 0, 0 } },
 			drawArgument1 = 0,
@@ -334,15 +337,20 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "SPG" },
 	toggle_alarm_state_interval = 0.01,
 	type = "JagdPz_IV",
 	visual = {
+		agony_explosion_size = 3,
 		dirt_pos = { -2.6, 0.2, -1.25 },
 		dust_pos = { 2.85, 0.1, -1.25 },
-		fire_pos = { -1.9, 0.7, 0 },
-		fire_size = 0.7,
-		fire_time = 1000,
+		fire_pos = { -1.3, 1, 0 },
+		fire_size = 0.65,
+		fire_time = 500,
+		max_time_agony = 40,
+		min_time_agony = 10,
 		shape = "Jagdpanzer_IV",
 		shape_dstr = "Jagdpanzer_IV_p_1"
 	}

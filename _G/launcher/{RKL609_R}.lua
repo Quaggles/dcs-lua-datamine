@@ -12,6 +12,7 @@ _G["launcher"]["{RKL609_R}"] = {
 	attribute = { 4, 15, 45, "Redacted" },
 	category = 6,
 	displayName = "RKL609 ECM Pod (Right)",
+	name = "",
 	shape_table_data = { {
 			file = "",
 			fire = { 0, 1 },

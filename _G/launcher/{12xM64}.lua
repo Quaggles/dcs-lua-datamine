@@ -47,6 +47,6 @@ _G["launcher"]["{12xM64}"] = {
 	_origin = "WWII Armour and Technics",
 	attribute = <1>{ 4, 5, 9, "Redacted" },
 	category = 1,
-	displayName = "12 AN-M64",
+	displayName = "12 AN-M64 - 500lb GP Bomb LD",
 	wsTypeOfWeapon = <table 1>
 }

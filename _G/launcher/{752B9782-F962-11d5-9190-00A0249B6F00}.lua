@@ -33,6 +33,7 @@ _G["launcher"]["{752B9782-F962-11d5-9190-00A0249B6F00}"] = {
 	Picture = "blu107.png",
 	Weight = 1800,
 	attribute = { 4, 5, 32, "Redacted" },
-	displayName = "MER*6 BLU-107",
+	category = 1,
+	displayName = "MER6 with 6 x BLU-107 - 440lb Anti-Runway Penetrator Bombs",
 	wsTypeOfWeapon = { 4, 5, 37, "Redacted" }
 }

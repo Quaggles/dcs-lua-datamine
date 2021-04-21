@@ -35,6 +35,7 @@ _G["rockets"]["#Index"] = {
 	_unique_resource_name = "weapons.missiles.R-55",
 	category = 4,
 	ccm_k0 = 0.6,
+	display_name = "R-55",
 	exhaust = { 0.9, 0.9, 0.9, 0.5 },
 	name = "R-55",
 	shape_table_data = { {

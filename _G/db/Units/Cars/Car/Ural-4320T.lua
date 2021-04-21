@@ -4,13 +4,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "Transport Ural-4320T",
+	DisplayName = "Truck Ural-4320T",
+	DisplayNameShort = "Ural-4320T",
+	IR_emission_coeff = 0.08,
 	InternalCargo = {
 		maximalCapacity = 2700,
 		nominalCapacity = 2700
 	},
 	MaxSpeed = 74.99988,
-	Name = "Transport Ural-4320T",
+	Name = "Truck Ural-4320T",
 	Rate = 5,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
@@ -33,12 +35,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Unarmed", "Support & Logistics" },
 	type = "Ural-4320T",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.7,
-		fire_time = 900,
+		agony_explosion_size = 2,
+		fire_pos = { 0.7, 1, 0 },
+		fire_size = 0.5,
+		fire_time = 350,
+		max_time_agony = 80,
+		min_time_agony = 10,
 		shape = "Ural_4320_T",
 		shape_dstr = "Ural_4320_T_P1"
 	},

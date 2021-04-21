@@ -13,5 +13,6 @@ _G["db"]["Units"]["Cargos"]["Cargo"]["#Index"] = {
 	mass = 1200,
 	maxMass = 4000,
 	minMass = 100,
+	swapped_names = true,
 	type = "container_cargo"
 }

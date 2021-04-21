@@ -234,6 +234,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "FuMG-401"
 				}, {
+					Name = "FuSe-65"
+				}, {
 					Name = "DR_50Ton_Flat_Wagon"
 				}, {
 					Name = "DRG_Class_86"
@@ -552,6 +554,8 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "Beer Bomb"
+				}, {
 					Name = "Belgian gate"
 				}, {
 					Name = "Concertina wire"
@@ -728,8 +732,6 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "speedboat",
 					in_service = 0,
 					out_of_service = 40000
-				}, {
-					Name = "HandyWind"
 				}, {
 					Name = "Uboat_VIIC"
 				}, {

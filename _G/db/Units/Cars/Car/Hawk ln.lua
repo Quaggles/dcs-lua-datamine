@@ -2,6 +2,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Aliases = { "Hawk M192 LN" },
 	DetectionRange = 0,
 	DisplayName = "SAM Hawk LN M192",
+	DisplayNameShort = "Hawk-LN",
+	IR_emission_coeff = 0.05,
 	MaxSpeed = 0,
 	Name = "SAM Hawk LN M192",
 	Rate = 5,
@@ -52,11 +54,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		height = 2.707
 	},
 	snd = {},
+	swapped_names = true,
+	tags = { "Air Defence", "Launcher" },
 	type = "Hawk ln",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.3,
-		fire_time = 500,
+		agony_explosion_size = 0.1,
+		fire_pos = {},
+		fire_size = 0,
+		fire_time = 0,
+		max_time_agony = -1,
 		shape = "hawk-pu",
 		shape_dstr = "hawk-pu_p_1"
 	}

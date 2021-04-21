@@ -50,7 +50,7 @@ _G["weapons_table"]["weapons"]["nurs"]["FFAR Mk1 HE"] = {
 				name = "ffar_mk4_m151he",
 				username = "FFAR Mk1 HE"
 			} },
-		user_name = "FFAR Mk1 HE",
+		user_name = '2.75" FFAR, UnGd Rkts Mk1, HE',
 		warhead = {
 			caliber = 69.85,
 			concrete_factors = { 1, 1, 0.1 },
@@ -67,7 +67,7 @@ _G["weapons_table"]["weapons"]["nurs"]["FFAR Mk1 HE"] = {
 		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 	},
 	cx_pil = 1.4920965811477e-05,
-	display_name = "FFAR Mk1 HE",
+	display_name = '2.75" FFAR, UnGd Rkts Mk1, HE',
 	dist_max = 1200,
 	dist_min = 600,
 	mass = 9.752228,
@@ -121,7 +121,7 @@ _G["weapons_table"]["weapons"]["nurs"]["FFAR Mk1 HE"] = {
 				name = "ffar_mk4_m151he",
 				username = "FFAR Mk1 HE"
 			} },
-		user_name = "FFAR Mk1 HE",
+		user_name = '2.75" FFAR, UnGd Rkts Mk1, HE',
 		warhead = {
 			caliber = 69.85,
 			concrete_factors = { 1, 1, 0.1 },

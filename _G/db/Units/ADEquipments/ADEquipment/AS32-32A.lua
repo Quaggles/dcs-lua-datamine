@@ -23,5 +23,6 @@ _G["db"]["Units"]["ADEquipments"]["ADEquipment"]["#Index"] = {
 			file = "",
 			name = "AS32-32A"
 		} },
+	swapped_names = true,
 	type = "AS32-32A"
 }

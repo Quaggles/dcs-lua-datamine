@@ -25,5 +25,6 @@ _G["db"]["Units"]["Heliports"]["Heliport"]["#Index"] = {
 			username = "Gas platform"
 		} },
 	subCategory = "SeaShelfObject",
+	swapped_names = true,
 	type = "Gas platform"
 }

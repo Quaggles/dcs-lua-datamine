@@ -1088,6 +1088,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Guns = { {
 			_file = "./CoreMods/aircraft/F14/Entry/F-14B.lua",
 			_origin = "F-14B AI by Heatblur Simulations",
+			_unique_resource_name = "weapons.gunmounts.M-61A1",
 			aft_gun_mount = false,
 			azimuth_initial = 0,
 			category = 8,
@@ -3862,6 +3863,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			name = "f-14b-oblomok",
 			positioning = "BYNORMAL"
 		} },
+	swapped_names = true,
 	tand_gear_max = 50,
 	tanker_type = 2,
 	thrust_sum_ab = 24740,

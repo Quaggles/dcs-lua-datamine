@@ -18,8 +18,9 @@ _G["launcher"]["{7B34E0BB-E427-4C2A-A61A-8407CE18B54D}"] = {
 			connector_name = "Point03"
 		} },
 	Picture = "FAB250.png",
-	Weight = 414,
+	Weight = 396.45,
 	attribute = { 4, 5, 32, "Redacted" },
-	displayName = "MER-3*3 Mk-81",
+	category = 1,
+	displayName = "BRU-42 with 3 x Mk-81 - 250lb GP Bombs LD",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

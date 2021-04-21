@@ -146,7 +146,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM_120C"] = {
 			piercing_mass = 3.74
 		}
 	},
-	display_name = "AIM-120C",
+	display_name = "AIM-120C-5",
 	mass = 161.48,
 	model = "aim-120c",
 	name = "AIM_120C",

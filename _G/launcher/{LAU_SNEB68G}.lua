@@ -39,9 +39,11 @@ _G["launcher"]["{LAU_SNEB68G}"] = {
 	Weight = 50.08,
 	_file = "./CoreMods/aircraft/SA342/SA342_Weapons.lua",
 	_origin = "SA342 AI by Polychop-Simulations",
-	attribute = { 4, 4, 32, "Redacted" },
+	adapter_type = <1>{ 4, 4, 32, "Redacted" },
+	attribute = <table 1>,
 	category = 3,
 	displayName = "LAU_SNEB68G - 8xSNEB68_EAP",
 	kind_of_shipping = 1,
+	name = "{LAU_SNEB68G}",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

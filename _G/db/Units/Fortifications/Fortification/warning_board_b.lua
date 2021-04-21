@@ -25,5 +25,6 @@ _G["db"]["Units"]["Fortifications"]["Fortification"]["#Index"] = {
 			positioning = "ONLYHEIGTH",
 			username = "warning_board_b"
 		} },
+	swapped_names = true,
 	type = "warning_board_b"
 }

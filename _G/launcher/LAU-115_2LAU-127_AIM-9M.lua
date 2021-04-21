@@ -2,18 +2,7 @@ _G["launcher"]["LAU-115_2*LAU-127_AIM-9M"] = {
 	CLSID = "LAU-115_2*LAU-127_AIM-9M",
 	Count = 2,
 	Cx_pil = 0.00014,
-	Elements = { {
-			IsAdapter = true,
-			ShapeName = "LAU-115C+2_LAU127",
-			shape_table_data = { {
-					file = "LAU-115C+2_LAU127",
-					fire = { 0, 1 },
-					index = "Redacted",
-					life = 60,
-					name = "LAU-115C+2_LAU127",
-					username = "LAU-115C+2_LAU127"
-				} }
-		}, {
+	Elements = { "_G/Pylons/LAU-115C+2_LAU127.lua", {
 			ShapeName = "AIM-9",
 			connector_name = "Point03"
 		}, {
@@ -22,11 +11,12 @@ _G["launcher"]["LAU-115_2*LAU-127_AIM-9M"] = {
 		} },
 	Picture = "us_AIM-9L.png",
 	PictureBlendColor = "0xffffffff",
-	Weight = 318.28,
+	Weight = 316.46,
+	Weight_Empty = 145,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/aim9_family.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 4,
-	displayName = "LAU-115 - 2 LAU-127 AIM-9M Sidewinder IR AAM",
+	displayName = "LAU-115 with 2 x LAU-127 AIM-9M Sidewinder IR AAM",
 	wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 }

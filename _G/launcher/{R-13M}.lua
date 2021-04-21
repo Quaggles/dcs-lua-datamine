@@ -2,18 +2,7 @@ _G["launcher"]["{R-13M}"] = {
 	CLSID = "{R-13M}",
 	Count = 1,
 	Cx_pil = 0.0001,
-	Elements = { {
-			IsAdapter = true,
-			ShapeName = "apu-13mt",
-			shape_table_data = { {
-					file = "apu-13mt",
-					fire = { 0, 1 },
-					index = "Redacted",
-					life = 60,
-					name = "apu-13mt",
-					username = "apu-13mt"
-				} }
-		}, {
+	Elements = { "_G/Pylons/apu-13mt.lua", {
 			Position = { 0.35, -0.135, 0 },
 			ShapeName = "r-13m"
 		} },
@@ -24,5 +13,6 @@ _G["launcher"]["{R-13M}"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 4,
 	displayName = "R-13M",
+	name = "{R-13M}",
 	wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 }

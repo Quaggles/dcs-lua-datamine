@@ -24,5 +24,6 @@ _G["db"]["Units"]["Heliports"]["Heliport"]["#Index"] = {
 			positioning = "BYNORMAL",
 			username = "Invisible FARP"
 		} },
+	swapped_names = true,
 	type = "Invisible FARP"
 }

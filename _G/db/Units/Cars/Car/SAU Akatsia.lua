@@ -5,9 +5,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "SPH 2S3 Akatsia",
+	DisplayName = "SPH 2S3 Akatsia 152mm",
+	DisplayNameShort = "2S3",
+	IR_emission_coeff = 0.095,
 	MaxSpeed = 60.00012,
-	Name = "SPH 2S3 Akatsia",
+	Name = "SPH 2S3 Akatsia 152mm",
 	Rate = 15,
 	Sensors = {
 		OPTIC = { "TKN-3B day", "TKN-3B night" }
@@ -83,14 +85,19 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Artillery", "SPA" },
 	type = "SAU Akatsia",
 	visual = {
+		agony_explosion_size = 3,
 		dirt_pos = { -3.6, 0.7, -1.54 },
 		dust_pos = { 3.6, 0.1, -1.54 },
-		fire_pos = { 1.4, 0, -0.461 },
-		fire_size = 0.9,
-		fire_time = 1000,
+		fire_pos = { 0.1, 1, 0 },
+		fire_size = 1.05,
+		fire_time = 450,
+		max_time_agony = 80,
+		min_time_agony = 5,
 		shape = "2-c3",
 		shape_dstr = "2-c3_p_1"
 	}

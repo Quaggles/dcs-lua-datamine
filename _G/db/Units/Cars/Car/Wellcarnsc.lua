@@ -1,7 +1,9 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 0,
-	DisplayName = "Wellcarnsc",
-	Name = "Wellcarnsc",
+	DisplayName = "Well Car",
+	DisplayNameShort = "WellCar",
+	IR_emission_coeff = 0,
+	Name = "Well Car",
 	Rate = 4,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
@@ -34,12 +36,16 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "wellcarnsc_p_1"
 		} },
 	snd = {},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Train", "Carriage" },
 	type = "Wellcarnsc",
 	visual = {
-		fire_pos = { -2, 0, 0 },
-		fire_size = 0.7,
-		fire_time = 1000,
+		agony_explosion_size = 0,
+		fire_pos = {},
+		fire_size = 0,
+		fire_time = 0,
+		max_time_agony = -1,
 		shape = "wellcarnsc",
 		shape_dstr = "wellcarnsc_p_1"
 	}

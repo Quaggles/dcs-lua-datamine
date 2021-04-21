@@ -4,9 +4,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "Transport fire-engine Ural ATsP-6",
+	DisplayName = "Truck Ural ATsP-6 Firefighter",
+	DisplayNameShort = "ATsP-6",
+	IR_emission_coeff = 0.08,
 	MaxSpeed = 74.99988,
-	Name = "Transport fire-engine Ural ATsP-6",
+	Name = "Truck Ural ATsP-6 Firefighter",
 	Rate = 5,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
@@ -29,12 +31,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Unarmed", "Support & Logistics" },
 	type = "Ural ATsP-6",
 	visual = {
-		fire_pos = { 0, 0, 0 },
+		agony_explosion_size = 2,
+		fire_pos = { 0.65, 1, 0 },
 		fire_size = 0.5,
-		fire_time = 300,
+		fire_time = 350,
+		max_time_agony = 80,
+		min_time_agony = 10,
 		shape = "Ural_ACP6",
 		shape_dstr = "Ural_ACP6_P1"
 	}

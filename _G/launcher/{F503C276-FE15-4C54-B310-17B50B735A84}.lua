@@ -32,6 +32,7 @@ _G["launcher"]["{F503C276-FE15-4C54-B310-17B50B735A84}"] = {
 	Picture = "RBK_500_255_PTAB_10_5_cassette.png",
 	Weight = 3060,
 	attribute = { 4, 5, 32, "Redacted" },
-	displayName = "MER*6 RBK-500-255 PTAB-10-5",
+	category = 1,
+	displayName = "MBD3-U6-68 with 6 x RBK-500-255 - 30 x PTAB-10-5, 500kg CBUs Heavy HEAT/AP",
 	wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 }

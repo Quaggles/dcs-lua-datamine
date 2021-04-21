@@ -31,6 +31,7 @@ _G["rockets"]["#Index"] = {
 	_unique_resource_name = "weapons.missiles.HQ-7",
 	category = 2,
 	ccm_k0 = 0.3,
+	display_name = "HQ-7",
 	exhaust = { 0.7, 0.7, 0.7, 0.4 },
 	model = "hq7ml",
 	name = "HQ-7",

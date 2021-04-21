@@ -9,7 +9,8 @@ _G["launcher"]["PKT_7_62"] = {
 	PictureBlendColor = "0xffffffff",
 	Weight = 90,
 	attribute = { 4, 15, 46, "Redacted" },
-	displayName = "PKT 7.62 Gun",
+	category = 6,
+	displayName = "PKT 7.62mm MMG",
 	kind_of_shipping = 2,
 	wsTypeOfWeapon = { 4, 6, 10, "Redacted" }
 }

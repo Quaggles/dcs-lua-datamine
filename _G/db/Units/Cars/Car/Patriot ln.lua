@@ -1,8 +1,10 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 0,
-	DisplayName = "SAM Patriot LN M901",
+	DisplayName = "SAM Patriot LN",
+	DisplayNameShort = "Patriot-LN",
+	IR_emission_coeff = 0.05,
 	MaxSpeed = 0,
-	Name = "SAM Patriot LN M901",
+	Name = "SAM Patriot LN",
 	Rate = 10,
 	ThreatRange = 100000,
 	WS = { {
@@ -26,7 +28,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					depends_on_unit = { { { "Patriot str" } } },
 					sensor = {}
 				} },
-			angles = { { 1.9198621771938, -1.9198621771938, 0, 1.3962634015955 } },
+			angles = { { 1.9198621771938, -1.9198621771938, 0, 1.4835298641952 } },
 			drawArgument1 = 0,
 			drawArgument2 = -1,
 			omegaY = 0.523599,
@@ -63,11 +65,16 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		height = 6.249
 	},
 	snd = {},
+	swapped_names = true,
+	tags = { "Air Defence", "Launcher" },
 	type = "Patriot ln",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.8,
-		fire_time = 900,
+		agony_explosion_size = 3,
+		fire_pos = { 1.1, 1.2, 0 },
+		fire_size = 0.7,
+		fire_time = 30,
+		max_time_agony = 30,
+		min_time_agony = 5,
 		shape = "patriot-pu",
 		shape_dstr = "Patriot-pu_p_1"
 	}

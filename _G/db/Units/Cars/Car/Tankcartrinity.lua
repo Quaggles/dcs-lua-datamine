@@ -1,7 +1,9 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 0,
-	DisplayName = "Tankcartrinity",
-	Name = "Tankcartrinity",
+	DisplayName = "Tank Cartrinity",
+	DisplayNameShort = "TankCar",
+	IR_emission_coeff = 0,
+	Name = "Tank Cartrinity",
 	Rate = 4,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
@@ -34,12 +36,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "tankcartrinity_p_1"
 		} },
 	snd = {},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Train", "Carriage" },
 	type = "Tankcartrinity",
 	visual = {
-		fire_pos = { -2, 0, 0 },
-		fire_size = 0.7,
-		fire_time = 1000,
+		agony_explosion_size = 15,
+		fire_pos = { 0, 0.65, 0 },
+		fire_size = 1.3,
+		fire_time = 1300,
+		max_time_agony = 190,
+		min_time_agony = 10,
 		shape = "tankcartrinity",
 		shape_dstr = "tankcartrinity_p_1"
 	}

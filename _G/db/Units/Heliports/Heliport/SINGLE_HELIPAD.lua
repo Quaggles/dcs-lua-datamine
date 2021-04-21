@@ -6,5 +6,6 @@ _G["db"]["Units"]["Heliports"]["Heliport"]["#Index"] = {
 	category = "Heliport",
 	isPutToWater = true,
 	numParking = 1,
+	swapped_names = true,
 	type = "SINGLE_HELIPAD"
 }

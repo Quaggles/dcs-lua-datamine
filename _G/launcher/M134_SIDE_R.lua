@@ -10,7 +10,8 @@ _G["launcher"]["M134_SIDE_R"] = {
 	Weight = 270.4,
 	Weight_Empty = 175.68,
 	attribute = { 4, 15, 46, "Redacted" },
-	displayName = "M134 MiniGun Right Door",
+	category = 6,
+	displayName = "M134 - 6 x 7.62mm MiniGun right door",
 	kind_of_shipping = 2,
 	wsTypeOfWeapon = { 4, 6, 10 }
 }

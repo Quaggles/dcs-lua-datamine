@@ -1,8 +1,10 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Countries = { "China", "Iran", "Iraq" },
 	DetectionRange = 100000,
-	DisplayName = "SS-N-2 Silkworm",
-	Name = "SS-N-2 Silkworm",
+	DisplayName = "AShM SS-N-2 Silkworm",
+	DisplayNameShort = "Silkworm",
+	IR_emission_coeff = 0.01,
+	Name = "AShM SS-N-2 Silkworm",
 	Rate = 10,
 	ThreatRange = 100000,
 	WS = { {
@@ -71,11 +73,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "hy_launcher_p_1"
 		} },
 	snd = {},
+	swapped_names = true,
+	tags = { "MissilesSS", "SSM" },
 	type = "hy_launcher",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.8,
-		fire_time = 900,
+		agony_explosion_size = 0,
+		fire_pos = {},
+		fire_size = 0,
+		fire_time = 0,
+		max_time_agony = -1,
 		shape = "hy_launcher",
 		shape_dstr = "hy_launcher_p_1"
 	}

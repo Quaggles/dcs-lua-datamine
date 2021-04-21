@@ -2,6 +2,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Countries = { "Australia", "Belgium", "Canada", "Czech Republic", "France", "Italia", "Poland", "The Netherlands", "UK", "USA", "USSR", "Yugoslavia" },
 	DetectionRange = 0,
 	DisplayName = "AAA M1 37mm",
+	DisplayNameShort = "M1 37mm",
+	IR_emission_coeff = 0.01,
 	MaxSpeed = 0,
 	Name = "AAA M1 37mm",
 	Rate = 3,
@@ -234,7 +236,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.5690509975429 } },
 			center = "CENTER_TOWER",
-			cockpit = { "genericAAA", { -0.3, 0, 0 } },
+			cockpit = { "genericAAA", { -0.3, 0, 0 },
+				open = true
+			},
 			drawArgument1 = 0,
 			drawArgument2 = 1,
 			omegaY = 0.69813170079773,
@@ -290,11 +294,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "M1_37mm-p_1"
 		} },
 	snd = {},
+	swapped_names = true,
+	tags = { "Air Defence", "AAA" },
 	type = "M1_37mm",
 	visual = {
-		fire_pos = { -0.5, 0.1, 0 },
-		fire_size = 0.08,
-		fire_time = 500,
+		agony_explosion_size = 0.1,
+		fire_pos = {},
+		fire_size = 0,
+		fire_time = 0,
+		max_time_agony = -1,
 		shape = "M1_37mm",
 		shape_dstr = "M1_37mm-p_1"
 	}

@@ -139,6 +139,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						Da0 = 0.001,
 						Da1 = 0,
 						Dv0 = 0.006,
+						_unique_resource_name = "weapons.shells.M197_20",
 						caliber = 20,
 						cartridge = 0,
 						cartridge_mass = 0,
@@ -212,6 +213,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	IR_emission_coeff = 0.2,
 	LandRWCategories = { {
 			Name = "AircraftCarrier"
+		}, {
+			Name = "HelicopterCarrier"
 		} },
 	MOI = { 4600, 24401, 25880 },
 	M_empty = 4814,
@@ -292,6 +295,12 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		} },
 	RCS = 7,
 	Rate = "30",
+	SFM_Data = {
+		engine = {
+			Nmg = 70,
+			type = "TurboShaft"
+		}
+	},
 	Sensors = {
 		OPTIC = "NTS",
 		RWR = "Abstract RWR"
@@ -350,6 +359,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		} },
 	detection_range_max = 0,
 	engine_data = {
+		Nmg_Ready = 88,
 		SFC_k = { 0, -0.000241, 0.6733503 },
 		power_RPM_k = { -0.08639, 0.24277, 0.84175 },
 		power_RPM_min = 9.1384,
@@ -357,7 +367,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		power_WEP = 1269,
 		power_max = 1244,
 		power_take_off = 1244,
-		sound_name = "Aircrafts/Engines/EngineGE"
+		sound_name = { "EngineGE", "", "", "Su25BackEngine2" }
 	},
 	engines_count = 2,
 	fire_rate = 625,
@@ -523,6 +533,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	scheme = 0,
 	sound_name = "Aircrafts/Engines/RotorAH1W",
 	stores_number = 4,
+	swapped_names = true,
 	tail_fin_area = 1.23,
 	tail_pos = { -5.989, 0.973, 0 },
 	tail_stab_area = 2.94,

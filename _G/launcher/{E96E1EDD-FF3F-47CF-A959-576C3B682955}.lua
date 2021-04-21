@@ -32,6 +32,7 @@ _G["launcher"]["{E96E1EDD-FF3F-47CF-A959-576C3B682955}"] = {
 	Picture = "betab500shp.png",
 	Weight = 3060,
 	attribute = { 4, 5, 32, "Redacted" },
-	displayName = "MER*6 BetAB-500SP",
+	category = 1,
+	displayName = "MBD3-U6-68 with 6 x BetAB-500ShP - 500kg Concrete Piercing HD w booster Bombs",
 	wsTypeOfWeapon = { 4, 5, 37, "Redacted" }
 }

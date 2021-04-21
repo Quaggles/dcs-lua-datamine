@@ -484,6 +484,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Guns = { {
 			_file = "./CoreMods/aircraft/M-2000C/M-2000C.lua",
 			_origin = "M-2000C AI by RAZBAM Sims",
+			_unique_resource_name = "weapons.gunmounts.DEFA 554",
 			aft_gun_mount = false,
 			azimuth_initial = 0,
 			category = 8,
@@ -1969,7 +1970,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			pilot_name = 301,
 			pos = { 2.679, 0.512, 0 },
 			role = "pilot",
-			role_display_name = "Pilot in command"
+			role_display_name = "Pilot"
 		} },
 	crew_size = 1,
 	detection_range_max = 120,
@@ -2379,6 +2380,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			positioning = "BYNORMAL"
 		} },
 	stores_number = 9,
+	swapped_names = true,
 	tand_gear_max = 2.1445,
 	tanker_type = 4,
 	thrust_sum_ab = 9697.5,

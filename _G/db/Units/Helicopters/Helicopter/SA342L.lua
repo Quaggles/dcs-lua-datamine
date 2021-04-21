@@ -169,6 +169,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	Guns = { {
 			_file = "./CoreMods/aircraft/SA342/SA342.lua",
 			_origin = "SA342 AI by Polychop-Simulations",
+			_unique_resource_name = "weapons.gunmounts.GIAT_M621G",
 			aft_gun_mount = false,
 			azimuth_initial = 3,
 			category = 8,
@@ -910,6 +911,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			name = "SA342-oblomok"
 		} },
 	sound_name = "Aircrafts/Engines/SA342Rotor",
+	swapped_names = true,
 	tail_fin_area = 1.6,
 	tail_pos = { -5.934, 0.583, 0 },
 	tail_stab_area = 0.6,

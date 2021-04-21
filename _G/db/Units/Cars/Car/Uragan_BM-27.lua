@@ -4,9 +4,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "MLRS 9K57 Uragan BM-27",
+	DisplayName = "MLRS BM-27 Uragan 220mm",
+	DisplayNameShort = "BM-27",
+	IR_emission_coeff = 0.08,
 	MaxSpeed = 64.8,
-	Name = "MLRS 9K57 Uragan BM-27",
+	Name = "MLRS BM-27 Uragan 220mm",
 	Rate = 20,
 	ThreatRange = 35800,
 	ThreatRangeMin = 11500,
@@ -54,7 +56,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							type_ammunition = { 4, 7, 33, "Redacted" }
 						} },
 					barrels_reload_type = 3,
-					customViewPoint = { "genericMLRS", { -3, 0.3, -2 } },
+					customViewPoint = { "genericMLRS", { -3, 0.3, -2 },
+						open = true
+					},
 					distanceMax = 35800,
 					distanceMin = 11500,
 					launch_delay = 0.587,
@@ -67,6 +71,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				} },
 			angles = { { 0.34906585039887, -0.34906585039887, 0.10471975511966, 0.95993108859688 } },
 			angles_mech = { { 0.34906585039887, -0.34906585039887, -0.087266462599716, 0.95993108859688 } },
+			canSetTacticalDir = true,
 			center = "CENTER_TOWER",
 			drawArgument1 = 0,
 			drawArgument2 = 1,
@@ -115,13 +120,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Artillery", "MRL" },
 	toggle_alarm_state_interval = 20,
 	type = "Uragan_BM-27",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 1,
-		fire_time = 1200,
+		agony_explosion_size = 2,
+		fire_pos = { 0.6, 1.1, 0 },
+		fire_size = 0.65,
+		fire_time = 430,
+		max_time_agony = 80,
+		min_time_agony = 10,
 		shape = "Uragan_9k57",
 		shape_dstr = "Uragan_9k57_p_1"
 	}

@@ -13,6 +13,7 @@ _G["launcher"]["{M2KC_08_RPL541_EMPTY}"] = {
 	attribute = { 1, 3, 43, "Redacted" },
 	category = 5,
 	displayName = "RPL 541 2000 liters Fuel Tank (Empty)",
+	name = "M2KC_08_RPL541",
 	shape_table_data = { {
 			file = "M-2000C_08_RP541",
 			fire = { 0, 1 },

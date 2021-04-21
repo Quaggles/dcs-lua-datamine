@@ -8,5 +8,6 @@ _G["launcher"]["{CBU_103}"] = {
 	Picture = "CBU.png",
 	Weight = 430,
 	attribute = { 4, 5, 38, "Redacted" },
-	displayName = "CBU-103"
+	category = 1,
+	displayName = "CBU-103 - 202 x CEM, CBU with WCMD"
 }

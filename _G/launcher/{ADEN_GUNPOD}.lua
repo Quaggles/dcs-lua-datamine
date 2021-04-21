@@ -56,6 +56,7 @@ _G["launcher"]["{ADEN_GUNPOD}"] = {
 						Da0 = 0.0008,
 						Da1 = 0,
 						Dv0 = 0.004,
+						_unique_resource_name = "weapons.shells.DEFA552_30",
 						caliber = 30,
 						cartridge = 0,
 						cartridge_mass = 0,
@@ -116,6 +117,7 @@ _G["launcher"]["{ADEN_GUNPOD}"] = {
 			supply_position = { 0, 0, 0 }
 		} },
 	kind_of_shipping = 2,
+	name = "{ADEN_GUNPOD}",
 	shape_table_data = { {
 			file = "ADEN_GUNPOD",
 			index = "Redacted",

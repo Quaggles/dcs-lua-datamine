@@ -35,7 +35,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB_1500"] = {
 			piercing_mass = 112
 		}
 	},
-	display_name = "FAB-1500",
+	display_name = "FAB-1500 M-54",
 	mass = 1347,
 	model = "fab-1500",
 	name = "FAB_1500",

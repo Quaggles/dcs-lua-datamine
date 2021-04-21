@@ -476,6 +476,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Guns = { {
 			_file = "./CoreMods/aircraft/MiG-19P/MiG-19P.lua",
 			_origin = "MiG-19P AI by RAZBAM",
+			_unique_resource_name = "weapons.gunmounts.NR-30",
 			aft_gun_mount = false,
 			azimuth_initial = 0,
 			category = 8,
@@ -1199,31 +1200,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	V_max_sea_level = 294.16666666667,
 	V_opt = 236.11111111111,
 	V_take_off = 63,
-	ViewSettings = {
-		Arcade = {
-			AnglesDefault = { 0, -8 },
-			LocalPoint = { -12.041, 6.419, 0 }
-		},
-		Chase = {
-			AnglesDefault = { 180, -8 },
-			LocalPoint = { 4.259, 3.819, 0 }
-		},
-		Cockpit = { {
-				Allow360rotation = false,
-				CameraAngleLimits = { 200, -80, 110 },
-				CameraAngleRestriction = { false, 90, 0.5 },
-				CameraViewAngleLimits = { 20, 140 },
-				CockpitLocalPoint = { 7.959, 1.419, 0 },
-				EyePoint = { 0.05, 0, 0 },
-				ShoulderSize = 0.2,
-				limits_6DOF = {
-					roll = 90,
-					x = { -0.05, 0.45 },
-					y = { -0.3, 0.1 },
-					z = { -0.22, 0.22 }
-				}
-			} }
-	},
 	Vy_max = 51,
 	Waypoint_Custom_Panel = true,
 	WingSpan = 9,
@@ -1244,7 +1220,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			pilot_name = 304,
 			pos = { 3.756, 0.391, 0 },
 			role = "pilot",
-			role_display_name = "Pilot in command"
+			role_display_name = "Pilot"
 		} },
 	detection_range_max = 100,
 	engines_count = 2,
@@ -1392,6 +1368,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			positioning = "BYNORMAL"
 		} },
 	stores_number = 4,
+	swapped_names = true,
 	tand_gear_max = 0.7,
 	tanker_type = 0,
 	thrust_sum_ab = 6506,

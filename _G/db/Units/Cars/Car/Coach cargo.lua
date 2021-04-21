@@ -1,7 +1,9 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 0,
-	DisplayName = "Coach for cargo",
-	Name = "Coach for cargo",
+	DisplayName = "Freight Van",
+	DisplayNameShort = "Van",
+	IR_emission_coeff = 0,
+	Name = "Freight Van",
 	Rate = 4,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
@@ -34,12 +36,16 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "wagon-gruz_p_1"
 		} },
 	snd = {},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Train", "Carriage" },
 	type = "Coach cargo",
 	visual = {
-		fire_pos = { -2, 0, 0 },
-		fire_size = 0.7,
-		fire_time = 1000,
+		agony_explosion_size = 0,
+		fire_pos = {},
+		fire_size = 0,
+		fire_time = 0,
+		max_time_agony = -1,
 		shape = "wagon-gruz",
 		shape_dstr = "wagon-gruz_p_1"
 	}

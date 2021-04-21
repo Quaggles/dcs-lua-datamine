@@ -51,7 +51,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_84H"] = {
 			start_val = 0
 		},
 		category = 2,
-		class_name = "wAmmunitionCruise",
+		class_name = "wAmmunitionAntiShip",
 		control_block = {
 			can_update_target_pos = 1,
 			default_cruise_height = 50,
@@ -257,7 +257,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_84H"] = {
 			start_val = 0
 		},
 		category = 2,
-		class_name = "wAmmunitionCruise",
+		class_name = "wAmmunitionAntiShip",
 		control_block = {
 			can_update_target_pos = 1,
 			default_cruise_height = 50,

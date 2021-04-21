@@ -3,37 +3,119 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	DM = { {
+			area_name = "TURRET_FRONT",
+			armour = {
+				width = 0.2
+			}
+		}, {
+			area_name = "TURRET_LEFT",
+			armour = {
+				width = 0.1
+			}
+		}, {
+			area_name = "TURRET_RIGHT",
+			armour = {
+				width = 0.1
+			}
+		}, {
+			area_name = "TURRET_BACK",
+			armour = {
+				width = 0.06
+			}
+		}, {
+			area_name = "TURRET_TOP",
+			armour = {
+				width = 0.045
+			}
+		}, {
+			area_name = "TURRET_COM",
+			armour = {
+				width = 0.03
+			}
+		}, {
+			area_name = "FRONT_01",
+			armour = {
+				width = 0.12
+			}
+		}, {
+			area_name = "FRONT_02",
+			armour = {
+				width = 0.13
+			}
+		}, {
+			area_name = "BODY_RIGHT",
+			armour = {
+				width = 0.055
+			}
+		}, {
+			area_name = "BODY_LEFT",
+			armour = {
+				width = 0.055
+			}
+		}, {
+			area_name = "BODY_TOP",
+			armour = {
+				width = 0.05
+			}
+		}, {
+			area_name = "BODY_BOTTOM",
+			armour = {
+				width = 0.02
+			}
+		}, {
+			area_name = "BODY_BACK",
+			armour = {
+				width = 0.02
+			}
+		}, {
+			area_name = "ENGINE",
+			armour = {
+				width = 0.02
+			}
+		}, {
+			area_name = "TRACK_RIGHT",
+			armour = {
+				width = 0.06
+			}
+		}, {
+			area_name = "TRACK_LEFT",
+			armour = {
+				width = 0.06
+			}
+		}, {
+			area_name = "TRACK_LEFT_FRONT",
+			armour = {
+				width = 0.1
+			}
+		}, {
+			area_name = "TRACK_RIGHT_FRONT",
+			armour = {
+				width = 0.1
+			}
+		}, {
+			area_name = "GUN",
+			armour = {
+				width = 0.2
+			}
+		} },
 	DetectionRange = 0,
 	DisplayName = "MBT M60A3 Patton",
+	DisplayNameShort = "M60A3",
+	IR_emission_coeff = 0.1,
 	MaxSpeed = 47.99988,
 	Name = "MBT M60A3 Patton",
 	Rate = 15,
 	Sensors = {
 		OPTIC = { "AN/VSG-2 day", "AN/VSG-2 night" }
 	},
-	ThreatRange = 2500,
+	ThreatRange = 8000,
 	WS = { {
 			LN = { {
 					BR = { {
-							pos = {}
-						} },
-					PL = { {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						} },
-					beamWidth = 0.017453292519943,
-					connectorFire = false,
-					sensor = {}
-				}, {
-					BR = { {
-							pos = {}
+							connector_name = "POINT_GUN",
+							recoilArgument = 23,
+							recoilTime = 0.3
 						} },
 					PL = { {
 							ammo_capacity = 33,
@@ -42,12 +124,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							virtualStwID = 1
 						} },
 					beamWidth = 0.017453292519943,
-					connectorFire = false,
-					sensor = {}
+					sensor = {},
+					sightIndicationMode = 1,
+					sightMasterMode = 1
 				}, {
-					BR = { {
-							pos = {}
-						} },
+					BR = { {} },
 					PL = { {
 							ammo_capacity = 24,
 							reload_time = 360,
@@ -60,17 +141,45 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					type = 6
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.15707963267949, 0.33161255787892 } },
+			center = "CENTER_TOWER_01",
 			drawArgument1 = 0,
 			drawArgument2 = 1,
 			laser = true,
-			newZ = 2,
-			new_rotation = false,
 			omegaY = 0.41887902047864,
 			omegaZ = 0.069813170079773,
-			pos = { 0.7, 2.1, 0 },
+			pointer = "POINT_SIGHT_01",
 			reference_angle_Z = 0.17453292519943
+		}, {
+			LN = { {
+					BR = { {
+							connector_name = "POINT_MGUN",
+							pos = {}
+						} },
+					PL = { {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						} },
+					sensor = {},
+					sightIndicationMode = 1,
+					sightMasterMode = 1
+				} },
+			angles = { { 3.1415926535898, -3.1415926535898, -0.15707963267949, 0.69813170079773 } },
+			base = 1,
+			center = "CENTER_TOWER_02",
+			drawArgument1 = 24,
+			drawArgument2 = 25,
+			omegaY = 0.69813170079773,
+			omegaZ = 0.69813170079773,
+			pointer = "POINT_SIGHT_03"
 		},
-		maxTargetDetectionRange = 5000
+		maxTargetDetectionRange = 10000
 	},
 	Waypoint_Custom_Panel = true,
 	airWeaponDist = 1500,
@@ -92,15 +201,20 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "MBT" },
 	type = "M-60",
 	visual = {
+		agony_explosion_size = 2,
 		dirt_pos = { -3.3, 0.7, -1.436 },
 		dust_pos = { 3, 0.3, -1.436 },
-		fire_pos = { 0, 0, 0 },
-		fire_size = 1,
-		fire_time = 1200,
+		fire_pos = { -0.5, 0.9, 0 },
+		fire_size = 0.9,
+		fire_time = 500,
+		max_time_agony = 100,
+		min_time_agony = 10,
 		shape = "m-60",
-		shape_dstr = "Mt-lb_p_1"
+		shape_dstr = "m-60_p_1"
 	}
 }

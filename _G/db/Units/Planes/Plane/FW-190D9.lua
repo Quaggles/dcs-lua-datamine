@@ -1727,6 +1727,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Guns = { {
 			_file = "./CoreMods/WWII Units/FW-190D-9/FW-190D-9.lua",
 			_origin = "World War II AI Units by Eagle Dynamics",
+			_unique_resource_name = "weapons.gunmounts.MG_151_20",
 			aft_gun_mount = false,
 			azimuth_initial = -0.092,
 			barrel_circular_error = 0,
@@ -1994,6 +1995,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			_file = "./CoreMods/WWII Units/FW-190D-9/FW-190D-9.lua",
 			_origin = "World War II AI Units by Eagle Dynamics",
+			_unique_resource_name = "weapons.gunmounts.MG_131",
 			aft_gun_mount = false,
 			azimuth_initial = 0,
 			barrel_circular_error = 0,
@@ -2712,12 +2714,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			N_fr_0 = 0.04,
 			N_fr_1 = 0.001,
 			N_indic_0 = 1052480,
-			Nmg = 20.5,
+			Nmg = 15.5,
 			Nominal_RPM = 3250,
 			Nu_0 = 1.2,
 			Nu_1 = 0.9,
 			Nu_2 = 0.001,
 			P_oil = 495438,
+			Startup_Ignition_Time = 27.5,
+			Startup_Prework = 30,
+			Startup_RPMs = { { 0, 0 }, { 28.2, 0 }, { 28.7, 1000 }, { 32, 450 } },
 			Stroke = 0.165,
 			V_pist_0 = 13,
 			cefor = 0.37,
@@ -2738,6 +2743,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			k_piston = 3000,
 			k_reg = 0.003,
 			k_vel = 0.017,
+			prop_locations = { { 2.954, 0, 0 }, { 3.1415926535898, 0, 0 } },
+			prop_pitch_feather = 0,
+			prop_pitch_max = 52,
+			prop_pitch_min = 25,
 			table_data = { { 0, 16620 }, { 0.1, 15600 }, { 0.2, 14340 }, { 0.3, 13320 }, { 0.4, 12230 }, { 0.5, 11300 }, { 0.6, 10600 }, { 0.7, 10050 }, { 0.8, 9820 }, { 0.9, 5902 }, { 1.9, 3469 } },
 			type = "Piston"
 		}
@@ -2827,7 +2836,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			pilot_name = 256,
 			pos = { -0.885, 0.165, 0 },
 			role = "pilot",
-			role_display_name = "Pilot in command"
+			role_display_name = "Pilot"
 		} },
 	detection_range_max = 0,
 	engines_count = 1,
@@ -2949,6 +2958,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	nose_gear_pos = { -5.83, -0.51, 0 },
 	nose_gear_wheel_diameter = 0.319,
 	panelRadio = { {
+			ID = "FuG16",
 			channels = { {
 					default = 39,
 					modulation = "AM",
@@ -2969,14 +2979,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					default = 38,
 					modulation = "AM",
-					name = "AFN2 Base Frequency "
+					name = "AFN2 Base Frequency"
 				} },
+			displayUnits = "kHz",
 			name = "FuG 16",
 			range = {
 				max = 156,
 				min = 38
 			}
 		} },
+	propellorShapeName = "FW-190_blade.FBX",
+	propellorShapeType = "3ARG_PROC_BLUR",
 	radar_can_see_ground = false,
 	range = 1015,
 	shape_table_data = { {
@@ -2998,6 +3011,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			name = "FW-190-oblomoki",
 			positioning = "BYNORMAL"
 		} },
+	swapped_names = true,
 	tand_gear_max = 0.577,
 	thrust_sum_ab = 8224,
 	thrust_sum_max = 8224,

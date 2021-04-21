@@ -48,6 +48,7 @@ _G["rockets"]["#Index"] = {
 	controller = {
 		march_start = 0.021
 	},
+	display_name = "LD-10",
 	exhaust = { 1, 1, 1, 0.5 },
 	fm = {
 		A = 0.36,

@@ -2009,6 +2009,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Guns = { {
 			_file = "./CoreMods/WWII Units/SpitfireLFMkIX/SpitfireLFMkIX.lua",
 			_origin = "World War II AI Units by Eagle Dynamics",
+			_unique_resource_name = "weapons.gunmounts.HispanoMkII",
 			aft_gun_mount = false,
 			azimuth_initial = -0.43333333333333,
 			barrel_circular_error = 0,
@@ -2527,6 +2528,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			_file = "./CoreMods/WWII Units/SpitfireLFMkIX/SpitfireLFMkIX.lua",
 			_origin = "World War II AI Units by Eagle Dynamics",
+			_unique_resource_name = "weapons.gunmounts.Browning303MkII",
 			aft_gun_mount = false,
 			azimuth_initial = -0.6,
 			barrel_circular_error = 0.0002,
@@ -3727,6 +3729,26 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "British_GP_250LBS_Bomb_MK4_on_RH_Spitfire_Wing_Carrier" },
 							station = 3
 						} }
+				}, {
+					CLSID = "Beer_Bomb_(L)_on_LH_Spitfire_Wing_Carrier",
+					forbidden = { {
+							loadout = { "British_GP_500LBS_Bomb_MK4_on_British_UniversalBC_MK3" },
+							station = 2
+						} },
+					required = { {
+							loadout = { "Beer_Bomb_(L)_on_RH_Spitfire_Wing_Carrier" },
+							station = 3
+						} }
+				}, {
+					CLSID = "Beer_Bomb_(D)_on_LH_Spitfire_Wing_Carrier",
+					forbidden = { {
+							loadout = { "British_GP_500LBS_Bomb_MK4_on_British_UniversalBC_MK3" },
+							station = 2
+						} },
+					required = { {
+							loadout = { "Beer_Bomb_(D)_on_RH_Spitfire_Wing_Carrier" },
+							station = 3
+						} }
 				} },
 			Number = 1,
 			Order = 1,
@@ -3759,6 +3781,26 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "British_GP_250LBS_Bomb_MK4_on_RH_Spitfire_Wing_Carrier",
 					required = { {
 							loadout = { "British_GP_250LBS_Bomb_MK4_on_LH_Spitfire_Wing_Carrier" },
+							station = 1
+						} }
+				}, {
+					CLSID = "Beer_Bomb_(L)_on_RH_Spitfire_Wing_Carrier",
+					forbidden = { {
+							loadout = { "British_GP_500LBS_Bomb_MK4_on_British_UniversalBC_MK3" },
+							station = 2
+						} },
+					required = { {
+							loadout = { "Beer_Bomb_(L)_on_LH_Spitfire_Wing_Carrier" },
+							station = 1
+						} }
+				}, {
+					CLSID = "Beer_Bomb_(D)_on_RH_Spitfire_Wing_Carrier",
+					forbidden = { {
+							loadout = { "British_GP_500LBS_Bomb_MK4_on_British_UniversalBC_MK3" },
+							station = 2
+						} },
+					required = { {
+							loadout = { "Beer_Bomb_(D)_on_LH_Spitfire_Wing_Carrier" },
 							station = 1
 						} }
 				} },
@@ -3802,12 +3844,16 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			N_fr_0 = 0.072,
 			N_fr_1 = 0.02,
 			N_indic_0 = 1023040,
-			Nmg = 20.5,
+			Nmg = 18.2,
 			Nominal_RPM = 3000,
 			Nu_0 = 1.2,
 			Nu_1 = 0.9,
 			Nu_2 = 0.001,
 			P_oil = 495438,
+			Shutdown_Duration = 3.8,
+			Startup_Ignition_Time = 5,
+			Startup_Prework = 74,
+			Startup_RPMs = { { 0, 0 }, { 2, 120 }, { 4.5, 120 }, { 5.5, 750 }, { 9, 550 } },
 			Stroke = 0.152,
 			V_pist_0 = 12,
 			cefor = 0.37,
@@ -3827,6 +3873,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			k_piston = 3000,
 			k_reg = 0.003,
 			k_vel = 0.017,
+			name = "RollsRoyceMerlin",
+			prop_blades_count = 4,
+			prop_direction = 1,
+			prop_locations = { { 2.231, 0.076, 0 } },
 			table_data = { { 0, 16620 }, { 0.1, 15600 }, { 0.2, 14340 }, { 0.3, 13320 }, { 0.4, 12230 }, { 0.5, 11300 }, { 0.6, 10600 }, { 0.7, 10050 }, { 0.8, 9820 }, { 0.9, 5902 }, { 1.9, 3469 } },
 			type = "Piston"
 		}
@@ -3923,7 +3973,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			pilot_name = 261,
 			pos = { -1.45, 0, 0 },
 			role = "pilot",
-			role_display_name = "Pilot in command"
+			role_display_name = "Pilot"
 		} },
 	date_of_introduction = 1943.25,
 	detection_range_max = 0,
@@ -4125,31 +4175,38 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	nose_gear_pos = { -6.032, -0.526, 0 },
 	nose_gear_wheel_diameter = 0.35,
 	panelRadio = { {
+			ID = "SCR522",
 			channels = { {
+					default = 105,
+					modulation = "AM",
+					name = "Channel A"
+				}, {
 					connect = true,
-					default = 39,
+					default = 124,
 					modulation = "AM",
-					name = "ButtonA"
+					name = "Channel B"
 				}, {
-					default = 40,
+					default = 131,
 					modulation = "AM",
-					name = "ButtonB"
+					name = "Channel C"
 				}, {
-					default = 41,
+					default = 139,
 					modulation = "AM",
-					name = "ButtonC"
+					name = "Channel D"
 				}, {
-					default = 42,
+					default = 108.9,
 					modulation = "AM",
-					name = "ButtonD"
+					name = "A.1271 Base Frequency"
 				} },
-			name = "SCR522",
+			displayUnits = "MHz",
+			name = "TR.1143",
 			range = {
 				max = 156,
 				min = 38
 			}
 		} },
-	propellorShapeType = "3ARG",
+	propellorShapeName = "SpitfireIXc_blade.FBX",
+	propellorShapeType = "3ARG_PROC_BLUR",
 	radar_can_see_ground = false,
 	range = 1015,
 	shape_table_data = { {
@@ -4171,6 +4228,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			name = "SpitfireIXc_oblomoki",
 			positioning = "BYNORMAL"
 		} },
+	swapped_names = true,
 	tand_gear_max = 0.577,
 	thrust_sum_ab = 8224,
 	thrust_sum_max = 8224,

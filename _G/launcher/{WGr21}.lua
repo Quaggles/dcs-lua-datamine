@@ -2,18 +2,7 @@ _G["launcher"]["{WGr21}"] = {
 	CLSID = "{WGr21}",
 	Count = 1,
 	Cx_pil = 0.00102,
-	Elements = { {
-			IsAdapter = true,
-			ShapeName = "BR21-Gerat",
-			shape_table_data = { {
-					file = "BR21-Gerat",
-					fire = { 0, 1 },
-					index = "Redacted",
-					life = 60,
-					name = "BR21-Gerat",
-					username = "BR21-Gerat"
-				} }
-		}, {
+	Elements = { "_G/Pylons/BR21-Gerat.lua", {
 			ShapeName = "WGr21"
 		} },
 	Picture = "german_WGr21.png",
@@ -23,6 +12,7 @@ _G["launcher"]["{WGr21}"] = {
 	_origin = "World War II AI Units by Eagle Dynamics",
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
-	displayName = "Werfer-Granate 21",
+	displayName = "Werfer-Granate 21 - 21 cm UnGd air-to-air rocket",
+	name = "{WGr21}",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

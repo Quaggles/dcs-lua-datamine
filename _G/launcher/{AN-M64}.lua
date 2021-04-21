@@ -8,5 +8,6 @@ _G["launcher"]["{AN-M64}"] = {
 	PictureBlendColor = "0xffffffff",
 	Weight = 227,
 	attribute = { 4, 5, 9, "Redacted" },
-	displayName = "AN-M64"
+	category = 1,
+	displayName = "AN-M64 - 500lb GP Bomb LD"
 }

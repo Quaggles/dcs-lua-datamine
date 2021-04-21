@@ -4,14 +4,16 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 8000,
-	DisplayName = "SAM Linebacker M6",
+	DisplayName = "SAM Linebacker - Bradley M6",
+	DisplayNameShort = "Lineback",
 	EPLRS = true,
+	IR_emission_coeff = 0.095,
 	InternalCargo = {
 		maximalCapacity = 600,
 		nominalCapacity = 600
 	},
 	MaxSpeed = 65.99988,
-	Name = "SAM Linebacker M6",
+	Name = "SAM Linebacker - Bradley M6",
 	Rate = 15,
 	Sensors = {
 		OPTIC = { "Linebacker day", "Linebacker IR" }
@@ -145,16 +147,21 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			sound = "Damage/VehHit"
 		}
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Air Defence", "SAM SHORAD" },
 	toggle_alarm_state_interval = 5,
 	turbine = false,
 	type = "M6 Linebacker",
 	visual = {
+		agony_explosion_size = 3,
 		dirt_pos = { -2.7, 0.5, -1.248 },
 		dust_pos = { 2.8, 0.1, -1.248 },
-		fire_pos = { 0, 0, 0.762 },
-		fire_size = 0.9,
-		fire_time = 1000,
+		fire_pos = { 0.3, 0.85, 0 },
+		fire_size = 0.7,
+		fire_time = 400,
+		max_time_agony = 100,
+		min_time_agony = 10,
 		shape = "M6",
 		shape_dstr = "M6_P1"
 	}

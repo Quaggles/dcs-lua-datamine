@@ -1,8 +1,10 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 0,
-	DisplayName = "SAM SA-3 S-125 LN 5P73",
+	DisplayName = 'SAM SA-3 S-125 "Goa" LN',
+	DisplayNameShort = "SA-3",
+	IR_emission_coeff = 0.02,
 	MaxSpeed = 0,
-	Name = "SAM SA-3 S-125 LN 5P73",
+	Name = 'SAM SA-3 S-125 "Goa" LN',
 	Rate = 5,
 	ThreatRange = 18000,
 	WS = { {
@@ -54,11 +56,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		height = 2.707
 	},
 	snd = {},
+	swapped_names = true,
+	tags = { "Air Defence", "Launcher" },
 	type = "5p73 s-125 ln",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.3,
-		fire_time = 500,
+		agony_explosion_size = 0.1,
+		fire_pos = {},
+		fire_size = 0,
+		fire_time = 0,
+		max_time_agony = -1,
 		shape = "5P73_LAUNCH",
 		shape_dstr = "5P73_LAUNCH_P_1"
 	}

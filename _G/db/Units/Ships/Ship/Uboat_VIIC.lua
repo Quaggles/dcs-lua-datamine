@@ -3,14 +3,82 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			name = "Armed Ship"
 		} },
 	Countries = { "Germany", "Third Reich", "Japan", "Italian Social Republic", "Finland", "Hungary", "Romania", "Bulgaria" },
+	DM = { {
+			area_arg = 70,
+			area_life = 100,
+			area_name = "Hull_Front_Right"
+		}, {
+			area_arg = 71,
+			area_life = 100,
+			area_name = "Hull_Center_Right"
+		}, {
+			area_arg = 72,
+			area_life = 100,
+			area_name = "Hull_Back_Right"
+		}, {
+			area_arg = 73,
+			area_life = 100,
+			area_name = "Hull_Front_Left"
+		}, {
+			area_arg = 74,
+			area_life = 100,
+			area_name = "Hull_Center_Left"
+		}, {
+			area_arg = 75,
+			area_life = 100,
+			area_name = "Hull_Back_Left"
+		}, {
+			area_arg = 76,
+			area_fire = {
+				pos = { 13.1, 3.28, 0.2 },
+				size = 0.3
+			},
+			area_life = 100,
+			area_name = "Deck_Front"
+		}, {
+			area_arg = 77,
+			area_fire = {
+				pos = { -6.66, 3.28, 0 },
+				size = 0.3
+			},
+			area_life = 100,
+			area_name = "Deck_Central"
+		}, {
+			area_arg = 78,
+			area_fire = {
+				pos = { -28.36, 3.03, 0.02 },
+				size = 0.2
+			},
+			area_life = 100,
+			area_name = "Deck_Back"
+		}, {
+			area_arg = 80,
+			area_life = 100,
+			area_name = "Cabin"
+		}, {
+			area_arg = 81,
+			area_life = 20,
+			area_name = "Mgun_01"
+		}, {
+			area_arg = 82,
+			area_life = 20,
+			area_name = "Mgun_02"
+		}, {
+			area_arg = 83,
+			area_life = 20,
+			area_name = "Gun"
+		} },
 	DeckLevel = 3,
 	DetectionRange = 10000,
-	DisplayName = "Uboat VIIC U-flak",
-	Gamma_max = 0.35,
+	DisplayName = "U-boat VIIC U-flak",
+	DisplayNameShort = "Uboat Flk",
+	Gamma_max = 0.1,
 	Height = 9.6,
+	IR_emission_coeff = 0.25,
 	Length = 67.1,
-	Name = "Uboat VIIC U-flak",
+	Name = "U-boat VIIC U-flak",
 	Om = 0.02,
+	RCS = 5000,
 	R_min = 275,
 	Rate = 2000,
 	Sensors = {
@@ -230,6 +298,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { { -1.1519173063163, 1.1519173063163, -0.087266462599716, 1.3613568165556 }, { 1.1519173063163, -1.1519173063163, 1.1938052083641, 1.3613568165556 } },
+			area = "Gun",
 			center = "CENTER_TOWER_GUN",
 			drawArgument1 = 13,
 			drawArgument2 = 14,
@@ -301,6 +370,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { { -2.9670597283904, 2.9670597283904, 0, 1.1344640137963 }, { 2.9670597283904, 0.17453292519943, -0.17453292519943, 1.1344640137963 }, { 0.17453292519943, -0.05235987755983, 0, 1.1344640137963 }, { -0.05235987755983, -2.9670597283904, 0.5846852994181, 1.1344640137963 } },
+			area = "Mgun_01",
 			center = "CENTER_TOWER_MG01",
 			drawArgument1 = 19,
 			drawArgument2 = 20,
@@ -372,6 +442,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { { 2.9670597283904, 0.087266462599716, 0.5846852994181, 1.1344640137963 }, { 0.087266462599716, -0.17453292519943, 0, 1.1344640137963 }, { -0.17453292519943, -2.9670597283904, -0.17453292519943, 1.1344640137963 }, { -2.9670597283904, 2.9670597283904, 0, 1.1344640137963 } },
+			area = "Mgun_02",
 			center = "CENTER_TOWER_MG02",
 			drawArgument1 = 21,
 			drawArgument2 = 22,
@@ -425,6 +496,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					type = 32
 				} },
 			angles = { { 0.0034906585039887, -0.0034906585039887, -0.78539816339745, 0.78539816339745 } },
+			canSetTacticalDir = true,
 			moveable = false,
 			pos = { 30, -3, 0 },
 			reference_angle_Z = 0
@@ -437,7 +509,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	Waypoint_Custom_Panel = true,
 	Width = 6.2,
 	X_nose = 34,
-	X_tail = -31.5,
+	X_tail = -30.5,
 	_file = "./Mods/tech/WWII Units/Database/db_units_ships.lua",
 	_origin = "WWII Armour and Technics",
 	airFindDist = 10000,
@@ -498,7 +570,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	economy_distance = 15700000,
 	economy_velocity = 5.2,
 	enablePlayerCanDrive = false,
-	life = 1100,
+	life = 800,
 	mapclasskey = "P0091000038",
 	mass = 769000,
 	maxPeriscopeDepth = 9,
@@ -521,7 +593,9 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	shipLength = 67.1,
 	snd = {},
 	speedup = 0.269786,
-	sternEffectDX = { { 2.5, 0, 65.5, 1 }, { 6, 27, 10.2, 1 } },
+	sternEffectDX = { { 0, 0, 64.5, 1 }, { 2.7, 0, 64.5, 1 }, { 3.3, 7, 57, 1 }, { 3.35, 28, 11.5, 1 }, { 7.35, 28, 11.5, 1 } },
+	swapped_names = true,
+	tags = { "Submarine" },
 	type = "Uboat_VIIC",
 	visual = {
 		shape = "Uboat_typeVIIC",

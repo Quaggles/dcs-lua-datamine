@@ -11,6 +11,7 @@ _G["launcher"]["DIS_TANK800"] = {
 	Weight_Empty = 45,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/fuel_800.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
+	_unique_resource_name = "weapons.droptanks.800L Tank",
 	attribute = { 1, 3, 43, "Redacted" },
 	category = 5,
 	displayName = "800L Tank",

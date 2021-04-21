@@ -47,7 +47,7 @@ _G["weapons_table"]["weapons"]["bombs"]["P-50T"] = {
 			char_time = 20.87
 		},
 		type = 0,
-		user_name = "P-50T",
+		user_name = "P-50T - 50kg Practice Bomb LD",
 		warhead = {
 			caliber = 203,
 			color = { 0.95, 0.89, 0.99 },
@@ -68,7 +68,7 @@ _G["weapons_table"]["weapons"]["bombs"]["P-50T"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
-	display_name = "P-50T",
+	display_name = "P-50T - 50kg Practice Bomb LD",
 	mass = 50,
 	model = "p-50t",
 	name = "P-50T",
@@ -117,7 +117,7 @@ _G["weapons_table"]["weapons"]["bombs"]["P-50T"] = {
 			char_time = 20.87
 		},
 		type = 0,
-		user_name = "P-50T",
+		user_name = "P-50T - 50kg Practice Bomb LD",
 		warhead = {
 			caliber = 203,
 			color = { 0.95, 0.89, 0.99 },

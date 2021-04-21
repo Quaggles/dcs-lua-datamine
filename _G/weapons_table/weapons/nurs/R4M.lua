@@ -49,7 +49,7 @@ _G["weapons_table"]["weapons"]["nurs"]["R4M"] = {
 				name = "R4M",
 				username = "R4M"
 			} },
-		user_name = "R4M",
+		user_name = "R4M 3.2kg UnGd air-to-air rocket",
 		warhead = {
 			caliber = 55,
 			concrete_factors = { 1, 1, 1 },
@@ -66,7 +66,7 @@ _G["weapons_table"]["weapons"]["nurs"]["R4M"] = {
 		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 	},
 	cx_pil = 1.3657865548695e-05,
-	display_name = "R4M",
+	display_name = "R4M 3.2kg UnGd air-to-air rocket",
 	dist_max = 1200,
 	dist_min = 600,
 	mass = 3.85,
@@ -119,7 +119,7 @@ _G["weapons_table"]["weapons"]["nurs"]["R4M"] = {
 				name = "R4M",
 				username = "R4M"
 			} },
-		user_name = "R4M",
+		user_name = "R4M 3.2kg UnGd air-to-air rocket",
 		warhead = {
 			caliber = 55,
 			concrete_factors = { 1, 1, 1 },

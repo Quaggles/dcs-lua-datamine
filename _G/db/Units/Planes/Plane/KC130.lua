@@ -84,31 +84,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = { false,
 	V_max_sea_level = 167.5,
 	V_opt = 174,
 	V_take_off = 58,
-	ViewSettings = {
-		Arcade = {
-			AnglesDefault = { 0, -8 },
-			LocalPoint = { -21.5, 5.618, 0 }
-		},
-		Chase = {
-			AnglesDefault = { 0, 0 },
-			LocalPoint = { 0.2, -0.652, -0.65 }
-		},
-		Cockpit = { {
-				Allow360rotation = false,
-				CameraAngleLimits = { 200, -90, 90 },
-				CameraAngleRestriction = { false, 90, 0.5 },
-				CameraViewAngleLimits = { 20, 140 },
-				CockpitLocalPoint = { -0.988, 0.744, 0 },
-				EyePoint = { 0.05, 0.1, 0 },
-				ShoulderSize = 0.25,
-				limits_6DOF = {
-					roll = 90,
-					x = { -0.05, 0.45 },
-					y = { -0.1, 0.1 },
-					z = { -0.3, 0.3 }
-				}
-			} }
-	},
 	Vy_max = 9.1,
 	Waypoint_Custom_Panel = true,
 	WingSpan = 40.4,
@@ -176,14 +151,20 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = { false,
 		lights = { {}, {
 				lights = { {
 						argument = 209,
-						connector = "MAIN_SPOT_PTR",
-						position = { -0.173, -1.512, 2.648 },
-						typename = "spotlight"
+						connector = "LIGHT_L_WING",
+						typename = "argumentlight"
+					}, {
+						argument = 209,
+						connector = "LIGHT_R_WING",
+						typename = "argumentlight"
 					}, {
 						argument = 208,
-						connector = "RESERV_SPOT_PTR",
-						position = { -0.173, -1.512, -2.648 },
-						typename = "spotlight"
+						connector = "LIGHT_L_GEAR",
+						typename = "argumentlight"
+					}, {
+						argument = 208,
+						connector = "LIGHT_R_GEAR",
+						typename = "argumentlight"
 					} },
 				typename = "collection"
 			}, {
@@ -192,40 +173,51 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = { false,
 						color = { 1, 1, 1 },
 						connector = "BANO_0",
 						position = { -6.079, 2.896, 0 },
-						typename = "omnilight"
+						typename = "argumentlight"
 					}, {
 						argument = 190,
 						color = { 0.99, 0.11, 0.3 },
 						connector = "BANO_1",
 						position = { -1.516, -0.026, -7.249 },
-						typename = "omnilight"
+						typename = "argumentlight"
 					}, {
 						argument = 191,
 						color = { 0, 0.894, 0.6 },
 						connector = "BANO_2",
 						position = { -1.516, -0.026, 7.249 },
-						typename = "omnilight"
+						typename = "argumentlight"
 					} },
 				typename = "collection"
-			}, {
+			}, {},
+			[6] = {
 				lights = { {
-						argument = 200,
+						argument = 209,
+						connector = "LIGHT_L_WING",
 						typename = "argumentlight"
 					}, {
-						argument = 201,
-						typename = "argumentlight"
-					}, {
-						argument = 202,
-						typename = "argumentlight"
-					}, {
-						argument = 203,
-						typename = "argumentlight"
-					}, {
-						argument = 88,
+						argument = 209,
+						connector = "LIGHT_R_WING",
 						typename = "argumentlight"
 					} },
 				typename = "collection"
-			} },
+			},
+			[9] = {
+				lights = { {
+						argument = 193,
+						connector = "LIGHT_COCKPIT_1",
+						typename = "argumentlight"
+					}, {
+						argument = 193,
+						connector = "LIGHT_COCKPIT_2",
+						typename = "argumentlight"
+					}, {
+						argument = 193,
+						connector = "LIGHT_COCKPIT_3",
+						typename = "argumentlight"
+					} },
+				typename = "collection"
+			}
+		},
 		typename = "collection"
 	},
 	main_gear_pos = { -2.654, -2.5, 2.746 },
@@ -313,6 +305,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = { false,
 		} },
 	singleInFlight = true,
 	stores_number = 0,
+	swapped_names = true,
 	tand_gear_max = 0.577,
 	tanker_type = 0,
 	thrust_sum_ab = 44400,

@@ -728,7 +728,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			MaksRUD = 0.85,
 			MaxRUD = 1,
 			MinRUD = 0,
-			Nmg = 67.5,
+			Nmg = 70.00001,
 			cefor = 2.56,
 			cemax = 1.24,
 			dcx_eng = 0.0124,
@@ -971,6 +971,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			username = "Su-34",
 			vis = 3
 		} },
+	swapped_names = true,
 	tand_gear_max = 0.577,
 	tanker_type = 4,
 	thrust_sum_ab = 25600,

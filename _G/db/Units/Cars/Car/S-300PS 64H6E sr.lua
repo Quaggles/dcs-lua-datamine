@@ -1,9 +1,11 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	CustomAimPoint = { 0, 1.5, 0 },
 	DetectionRange = 160000,
-	DisplayName = "SAM SA-10 S-300PS SR 64H6E",
+	DisplayName = 'SAM SA-10 S-300 "Grumble" Big Bird SR ',
+	DisplayNameShort = "SA-10 SR",
+	IR_emission_coeff = 0.08,
 	MaxSpeed = 60.00012,
-	Name = "SAM SA-10 S-300PS SR 64H6E",
+	Name = 'SAM SA-10 S-300 "Grumble" Big Bird SR ',
 	Rate = 20,
 	Sensors = {
 		RADAR = "S-300PS 64H6E sr"
@@ -264,13 +266,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		min_range_finding_target = 2000
 	},
 	snd = {
-		radarRotation = "RadarRotation"
+		radarRotation = "GndTech/RadarRotation"
 	},
+	swapped_names = true,
+	tags = { "Air Defence", "Search Radar" },
 	type = "S-300PS 64H6E sr",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 1,
-		fire_time = 1200,
+		agony_explosion_size = 2,
+		fire_pos = { -3.2, 1.1, 0 },
+		fire_size = 0.65,
+		fire_time = 300,
+		max_time_agony = 90,
+		min_time_agony = 10,
 		shape = "64H6E",
 		shape_dstr = "64h6e_p_1"
 	}

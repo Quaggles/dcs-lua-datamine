@@ -17,37 +17,25 @@ _G["db"]["Countries"]["#Index"] = {
 			nativeName = "Medal of the National Peoples Army II",
 			picture = "Algeria/awards/Medal of the National Peoples Army II.png",
 			threshold = 1000
-		}, {
-			countryID = 70,
-			name = "Medal of the Resistance",
-			nativeName = "Medal of the Resistance",
-			picture = "Algeria/awards/Medal of the Resistance.png",
-			threshold = 1400
 		}, <4>{
 			countryID = 70,
-			name = "Medal of the National Peoples ArmyII",
-			nativeName = "Medal of the National Peoples ArmyII",
-			picture = "Algeria/awards/Medal of the National Peoples ArmyII.png",
-			threshold = 1000
-		}, <5>{
-			countryID = 70,
 			name = "Medal of the Resistance",
 			nativeName = "Medal of the Resistance",
 			picture = "Algeria/awards/Medal of the Resistance.png",
 			threshold = 1400
-		}, <6>{
+		}, <5>{
 			countryID = 70,
 			name = "Combat Wounded Medal",
 			nativeName = "Combat Wounded Medal",
 			picture = "Algeria/awards/Combat Wounded Medal.png",
 			threshold = 1800
-		}, <7>{
+		}, <6>{
 			countryID = 70,
 			name = "Medal of the National Liberation Army",
 			nativeName = "Medal of the National Liberation Army",
 			picture = "Algeria/awards/Medal of the National Liberation Army.png",
 			threshold = 2200
-		}, <8>{
+		}, <7>{
 			countryID = 70,
 			name = "Medal of Veterans of the Revolution",
 			nativeName = "Medal of Veterans of the Revolution",
@@ -57,37 +45,37 @@ _G["db"]["Countries"]["#Index"] = {
 	InternationalName = "Algeria",
 	Name = "Algeria",
 	OldID = "Algeria",
-	Ranks = { <9>{
+	Ranks = { <8>{
 			name = "Second lieutenant",
 			nativeName = "Second lieutenant",
 			pictureRect = { 0, 0, 64, 32 },
 			stripes = "Algeria/stripes.png",
 			threshold = 0
-		}, <10>{
+		}, <9>{
 			name = "Lieutenant",
 			nativeName = "Lieutenant",
 			pictureRect = { 0, 32, 64, 32 },
 			stripes = "Algeria/stripes.png",
 			threshold = 15
-		}, <11>{
+		}, <10>{
 			name = "Captain",
 			nativeName = "Captain",
 			pictureRect = { 0, 64, 64, 32 },
 			stripes = "Algeria/stripes.png",
 			threshold = 30
-		}, <12>{
+		}, <11>{
 			name = "Commandant",
 			nativeName = "Commandant",
 			pictureRect = { 0, 96, 64, 32 },
 			stripes = "Algeria/stripes.png",
 			threshold = 60
-		}, <13>{
+		}, <12>{
 			name = "Lieutenant colonel",
 			nativeName = "Lieutenant colonel",
 			pictureRect = { 0, 128, 64, 32 },
 			stripes = "Algeria/stripes.png",
 			threshold = 120
-		}, <14>{
+		}, <13>{
 			name = "Colonel",
 			nativeName = "Colonel",
 			pictureRect = { 0, 160, 64, 32 },
@@ -95,79 +83,79 @@ _G["db"]["Countries"]["#Index"] = {
 			threshold = 240
 		} },
 	ShortName = "DZA",
-	Troops = { <15>{
+	Troops = { <14>{
 			name = "Algerian Air Force",
 			nativeName = "Algerian Air Force",
 			picture = "Algeria/troops/AAF.png"
-		}, <16>{
+		}, <15>{
 			name = "620th advanced training sq",
 			nativeName = "620th advanced training sq",
 			picture = "Algeria/troops/620th.png"
-		}, <17>{
+		}, <16>{
 			name = "618th advanced training sq",
 			nativeName = "618th advanced training sq",
 			picture = "Algeria/troops/618th.png"
-		}, <18>{
+		}, <17>{
 			name = "123rd Air Defense Sq",
 			nativeName = "123rd Air Defense Sq",
 			picture = "Algeria/troops/123rd su30.png"
-		}, <19>{
+		}, <18>{
 			name = "122nd Air Defense Sq",
 			nativeName = "122nd Air Defense Sq",
 			picture = "Algeria/troops/122nd su30.png"
-		}, <20>{
+		}, <19>{
 			name = "121st Air Defense Sq Su-30",
 			nativeName = "121st Air Defense Sq Su-30",
 			picture = "Algeria/troops/121st su30.png"
-		}, <21>{
+		}, <20>{
 			name = "121st Air Defense Sq Su-33",
 			nativeName = "121st Air Defense Sq Su-33",
 			picture = "Algeria/troops/121st su33.png"
-		}, <22>{
+		}, <21>{
 			name = "121st Air Defense Sq Su-27",
 			nativeName = "121st Air Defense Sq Su-27",
 			picture = "Algeria/troops/121st su27.png"
-		}, <23>{
+		}, <22>{
 			name = "110th Fighting sq",
 			nativeName = "110th Fighting sq",
 			picture = "Algeria/troops/110th.png"
-		}, <24>{
+		}, <23>{
 			name = "52nd Close Air Support sq",
 			nativeName = "52nd Close Air Support sq",
 			picture = "Algeria/troops/52nd.png"
-		}, <25>{
+		}, <24>{
 			name = "12th Air Wing",
 			nativeName = "12th Air Wing",
 			picture = "Algeria/troops/12thW.png"
-		}, <26>{
+		}, <25>{
 			name = "7th Tactical transport Wing",
 			nativeName = "7th Tactical transport Wing",
 			picture = "Algeria/troops/7W.png"
-		}, <27>{
+		}, <26>{
 			name = "6th Maneuver Helicopter Regiment",
 			nativeName = "6th Maneuver Helicopter Regiment",
 			picture = "Algeria/troops/6thR.png"
-		}, <28>{
+		}, <27>{
 			name = "5th FIghter Squadron",
 			nativeName = "5th FIghter Squadron",
 			picture = "Algeria/troops/5thFS.png"
-		}, <29>{
+		}, <28>{
 			name = "4th Squadron of Support and penetration",
 			nativeName = "4th Squadron of Support and penetration",
 			picture = "Algeria/troops/4thW.png"
-		}, <30>{
+		}, <29>{
 			name = "3rd Air Defense Wing",
 			nativeName = "3rd Air Defense Wing",
 			picture = "Algeria/troops/3rdW.png"
-		}, <31>{
+		}, <30>{
 			name = "2nd Tactical transport Wing",
 			nativeName = "2nd Tactical transport Wing",
 			picture = "Algeria/troops/2ndW.png"
-		}, <32>{
+		}, <31>{
 			name = "1st Combat Helicopter Regiment",
 			nativeName = "1st Combat Helicopter Regiment",
 			picture = "Algeria/troops/1stR.png"
-		}, <33>{
+		}, <32>{
 			name = "Fictional Mirage2000 sq",
 			nativeName = "Fictional Mirage2000 sq",
 			picture = "Algeria/troops/m2kaaf.png"
@@ -370,6 +358,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "LiAZ Bus",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "M 818",
 					in_service = 0,
 					out_of_service = 40000
@@ -563,6 +555,18 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "S_75M_Volhov",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "S-200_Launcher",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "RPC_5N62V",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "S-60_Type59_Artillery",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -911,6 +915,18 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Windsock",
 					in_service = 0,
 					out_of_service = 40000
+				}, {
+					Name = "Beer Bomb"
+				}, {
+					Name = "Concertina wire"
+				}, {
+					Name = "Haystack 1"
+				}, {
+					Name = "Haystack 2"
+				}, {
+					Name = "Haystack 3"
+				}, {
+					Name = "Haystack 4"
 				} }
 		},
 		GrassAirfields = {
@@ -1178,8 +1194,6 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "REZKY",
 					in_service = 0,
 					out_of_service = 40000
-				}, {
-					Name = "HandyWind"
 				} }
 		},
 		WWIIstructures = {
@@ -1211,44 +1225,43 @@ _G["db"]["Countries"]["#Index"] = {
 	},
 	WorldID = 70,
 	award_by_name = {
-		["Combat Wounded Medal"] = <table 6>,
+		["Combat Wounded Medal"] = <table 5>,
 		["Medal of Military Merit"] = <table 1>,
-		["Medal of Veterans of the Revolution"] = <table 8>,
-		["Medal of the National Liberation Army"] = <table 7>,
+		["Medal of Veterans of the Revolution"] = <table 7>,
+		["Medal of the National Liberation Army"] = <table 6>,
 		["Medal of the National Peoples Army"] = <table 2>,
 		["Medal of the National Peoples Army  II"] = <table 3>,
-		["Medal of the National Peoples ArmyII"] = <table 4>,
-		["Medal of the Resistance"] = <table 5>
+		["Medal of the Resistance"] = <table 4>
 	},
 	flag = "FUI/Common/Flags/Algeria.png",
 	flag_small = "MissionEditor/data/images/flags/Algeria.png",
 	rank_by_name = {
-		Captain = <table 11>,
-		Colonel = <table 14>,
-		Commandant = <table 12>,
-		Lieutenant = <table 10>,
-		["Lieutenant colonel"] = <table 13>,
-		["Second lieutenant"] = <table 9>
+		Captain = <table 10>,
+		Colonel = <table 13>,
+		Commandant = <table 11>,
+		Lieutenant = <table 9>,
+		["Lieutenant colonel"] = <table 12>,
+		["Second lieutenant"] = <table 8>
 	},
 	troop_by_name = {
-		["110th Fighting sq"] = <table 23>,
-		["121st Air Defense Sq Su-27"] = <table 22>,
-		["121st Air Defense Sq Su-30"] = <table 20>,
-		["121st Air Defense Sq Su-33"] = <table 21>,
-		["122nd Air Defense Sq"] = <table 19>,
-		["123rd Air Defense Sq"] = <table 18>,
-		["12th Air Wing"] = <table 25>,
-		["1st Combat Helicopter Regiment"] = <table 32>,
-		["2nd Tactical transport Wing"] = <table 31>,
-		["3rd Air Defense Wing"] = <table 30>,
-		["4th Squadron of Support and penetration"] = <table 29>,
-		["52nd Close Air Support sq"] = <table 24>,
-		["5th FIghter Squadron"] = <table 28>,
-		["618th advanced training sq"] = <table 17>,
-		["620th advanced training sq"] = <table 16>,
-		["6th Maneuver Helicopter Regiment"] = <table 27>,
-		["7th Tactical transport Wing"] = <table 26>,
-		["Algerian Air Force"] = <table 15>,
-		["Fictional Mirage2000 sq"] = <table 33>
+		["110th Fighting sq"] = <table 22>,
+		["121st Air Defense Sq Su-27"] = <table 21>,
+		["121st Air Defense Sq Su-30"] = <table 19>,
+		["121st Air Defense Sq Su-33"] = <table 20>,
+		["122nd Air Defense Sq"] = <table 18>,
+		["123rd Air Defense Sq"] = <table 17>,
+		["12th Air Wing"] = <table 24>,
+		["1st Combat Helicopter Regiment"] = <table 31>,
+		["2nd Tactical transport Wing"] = <table 30>,
+		["3rd Air Defense Wing"] = <table 29>,
+		["4th Squadron of Support and penetration"] = <table 28>,
+		["52nd Close Air Support sq"] = <table 23>,
+		["5th FIghter Squadron"] = <table 27>,
+		["618th advanced training sq"] = <table 16>,
+		["620th advanced training sq"] = <table 15>,
+		["6th Maneuver Helicopter Regiment"] = <table 26>,
+		["7th Tactical transport Wing"] = <table 25>,
+		["Algerian Air Force"] = <table 14>,
+		["Fictional Mirage2000 sq"] = <table 32>
 	}
 }

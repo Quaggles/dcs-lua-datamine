@@ -1,9 +1,11 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	CustomAimPoint = { 0, 1.5, 0 },
 	DetectionRange = 0,
-	DisplayName = "SAM SA-10 S-300PS CP 54K6",
+	DisplayName = 'SAM SA-10 S-300 "Grumble" C2 ',
+	DisplayNameShort = "SA-10 CP",
+	IR_emission_coeff = 0.05,
 	MaxSpeed = 60.00012,
-	Name = "SAM SA-10 S-300PS CP 54K6",
+	Name = 'SAM SA-10 S-300 "Grumble" C2 ',
 	Rate = 20,
 	Sensors = {
 		RADAR = { "S-300PS 40B6M tr" }
@@ -257,12 +259,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		min_range_finding_target = 2000
 	},
 	snd = {},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Air Defence", "Command & Control" },
 	type = "S-300PS 54K6 cp",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.7,
-		fire_time = 900,
+		agony_explosion_size = 2,
+		fire_pos = { 0.9, 1.1, 0 },
+		fire_size = 0.6,
+		fire_time = 500,
+		max_time_agony = 80,
+		min_time_agony = 10,
 		shape = "54k6",
 		shape_dstr = "54k6_p_1"
 	}

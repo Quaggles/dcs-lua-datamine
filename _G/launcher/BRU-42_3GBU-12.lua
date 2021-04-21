@@ -18,8 +18,9 @@ _G["launcher"]["BRU-42_3*GBU-12"] = {
 			connector_name = "Point03"
 		} },
 	Picture = "GBU12.png",
-	Weight = 876,
+	Weight = 887.25,
 	attribute = { 4, 5, 32, "Redacted" },
-	displayName = "3 GBU-12",
+	category = 1,
+	displayName = "BRU-42 with 3 x GBU-12 - 500lb Laser Guided Bombs",
 	wsTypeOfWeapon = { 4, 5, 36, "Redacted" }
 }

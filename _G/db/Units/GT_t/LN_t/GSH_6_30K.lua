@@ -15,7 +15,7 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["GSH_6_30K"] = {
 	max_trg_alt = 2500,
 	name = "GSh-6-30K",
 	reactionTime = 3,
-	reflection_limit = 0.1,
+	reflection_limit = 0.05,
 	sensor = {},
 	type = 3
 }

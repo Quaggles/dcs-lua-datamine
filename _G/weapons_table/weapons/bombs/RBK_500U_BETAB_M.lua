@@ -315,10 +315,10 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_500U_BETAB_M"] = {
 			v0 = 200
 		},
 		type = 5,
-		user_name = "RBK-500U BETAB-M",
+		user_name = "RBK-500U - 10 x BETAB-M, 500kg Bunker Buster CBU HE/Frag",
 		wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 	},
-	display_name = "RBK-500U BETAB-M",
+	display_name = "RBK-500U - 10 x BETAB-M, 500kg Bunker Buster CBU HE/Frag",
 	mass = 427,
 	model = "RBK_500U",
 	name = "RBK_500U_BETAB_M",
@@ -635,7 +635,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_500U_BETAB_M"] = {
 			v0 = 200
 		},
 		type = 5,
-		user_name = "RBK-500U BETAB-M",
+		user_name = "RBK-500U - 10 x BETAB-M, 500kg Bunker Buster CBU HE/Frag",
 		wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 	},
 	sounderName = "Weapons/Bomb",

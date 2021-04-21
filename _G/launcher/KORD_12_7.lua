@@ -9,7 +9,8 @@ _G["launcher"]["KORD_12_7"] = {
 	PictureBlendColor = "0xffffffff",
 	Weight = 95,
 	attribute = { 4, 15, 46, "Redacted" },
-	displayName = "KORD 12.7 Gun",
+	category = 6,
+	displayName = "Kord 12.7mm HMG",
 	kind_of_shipping = 2,
 	wsTypeOfWeapon = { 4, 6, 10, "Redacted" }
 }

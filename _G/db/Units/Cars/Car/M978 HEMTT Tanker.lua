@@ -4,9 +4,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "Tanker M978 HEMTT",
+	DisplayName = "Refueler M978 HEMTT",
+	DisplayNameShort = "M978",
+	IR_emission_coeff = 0.08,
 	MaxSpeed = 74.99988,
-	Name = "Tanker M978 HEMTT",
+	Name = "Refueler M978 HEMTT",
 	Rate = 15,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
@@ -31,12 +33,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Unarmed", "Support & Logistics" },
 	type = "M978 HEMTT Tanker",
 	visual = {
-		fire_pos = { -3, 0, 0 },
-		fire_size = 1.8,
-		fire_time = 1500,
+		agony_explosion_size = 15,
+		fire_pos = { -2.3, 1, 0 },
+		fire_size = 1,
+		fire_time = 900,
+		max_time_agony = 120,
+		min_time_agony = 10,
 		shape = "HEMTT",
 		shape_dstr = "HEMTT_P1"
 	}

@@ -219,10 +219,10 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_500U_OAB_2_5RT"] = {
 			v0 = 200
 		},
 		type = 5,
-		user_name = "RBK-500U OAB-2.5RT",
+		user_name = "RBK-500U - 126 x OAB-2.5RT, 500kg CBU HE/Frag",
 		wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 	},
-	display_name = "RBK-500U OAB-2.5RT",
+	display_name = "RBK-500U - 126 x OAB-2.5RT, 500kg CBU HE/Frag",
 	mass = 427,
 	model = "RBK_500U",
 	name = "RBK_500U_OAB_2_5RT",
@@ -443,7 +443,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_500U_OAB_2_5RT"] = {
 			v0 = 200
 		},
 		type = 5,
-		user_name = "RBK-500U OAB-2.5RT",
+		user_name = "RBK-500U - 126 x OAB-2.5RT, 500kg CBU HE/Frag",
 		wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 	},
 	sounderName = "Weapons/Bomb",

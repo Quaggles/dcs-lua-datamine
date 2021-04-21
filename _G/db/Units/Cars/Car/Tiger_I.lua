@@ -128,6 +128,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		} },
 	DetectionRange = 0,
 	DisplayName = "HT Pz.Kpfw.VI Tiger I",
+	DisplayNameShort = "Tiger I",
+	IR_emission_coeff = 0.105,
 	MaxSpeed = 43.992,
 	Name = "HT Pz.Kpfw.VI Tiger I",
 	Rate = 20,
@@ -334,14 +336,19 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "Tank" },
 	type = "Tiger_I",
 	visual = {
+		agony_explosion_size = 4,
 		dirt_pos = { -3.2, 0.3, -1.45 },
 		dust_pos = { 3.05, 0.2, -1.45 },
-		fire_pos = { -1.8, 0.7, 0 },
-		fire_size = 0.9,
-		fire_time = 800,
+		fire_pos = { -1.7, 1.4, 0 },
+		fire_size = 0.6,
+		fire_time = 650,
+		max_time_agony = 90,
+		min_time_agony = 10,
 		shape = "Tiger_I",
 		shape_dstr = "Tiger_I_p_1"
 	}

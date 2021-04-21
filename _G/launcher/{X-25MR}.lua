@@ -12,6 +12,6 @@ _G["launcher"]["{X-25MR}"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
-	displayName = "Kh-25MR",
+	displayName = "Kh-25MR (AS-10 Karen) - 300kg, ASM, RC Guided",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

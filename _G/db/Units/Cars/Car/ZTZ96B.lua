@@ -152,6 +152,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		} },
 	DetectionRange = 0,
 	DisplayName = "ZTZ-96B",
+	DisplayNameShort = "96B",
 	EPLRS = true,
 	MaxSpeed = 64.98,
 	Name = "ZTZ-96B",
@@ -168,10 +169,10 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							recoilTime = 0.5
 						} },
 					PL = { {
-							shell_name = {},
+							shell_name = { "ZTZ_125_AP" },
 							virtualStwID = 1
 						}, {
-							shell_name = {},
+							shell_name = { "ZTZ_125_AP" },
 							virtualStwID = 2
 						} },
 					beamWidth = 0.017453292519943,
@@ -184,13 +185,13 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					PL = { {
 							ammo_capacity = 7,
 							reload_time = 140,
-							shell_name = { "ZTZ_125_AP" },
+							shell_name = { "ZTZ_125_HE" },
 							shot_delay = 6,
 							virtualStwID = 1
 						}, {
 							ammo_capacity = 10,
 							reload_time = 150,
-							shell_name = { "ZTZ_125_AP" },
+							shell_name = { "ZTZ_125_HE" },
 							shot_delay = 30,
 							virtualStwID = 2
 						} },
@@ -352,7 +353,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	chassis = {},
 	crew_locale = "ENG",
 	crew_members = { "commander", "gunner" },
-	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
+	driverCockpit = "DriverCockpit/DriverCockpitWithIRandLLTV",
 	driverViewConnectorName = { "DRIVER_POINT",
 		offset = { 0.05, 0, 0 }
 	},
@@ -400,7 +401,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			sound = "Damage/VehHit"
 		}
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "MBT" },
 	toggle_alarm_state_interval = 4,
 	turbine = false,
 	type = "ZTZ96B",

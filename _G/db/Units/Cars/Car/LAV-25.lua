@@ -5,7 +5,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	DetectionRange = 0,
 	DisplayName = "IFV LAV-25",
+	DisplayNameShort = "LAV25",
 	DropWeight = 14000,
+	IR_emission_coeff = 0.085,
 	InternalCargo = {
 		maximalCapacity = 600,
 		nominalCapacity = 600
@@ -144,13 +146,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "IFV" },
 	turbine = false,
 	type = "LAV-25",
 	visual = {
-		fire_pos = { 1.256, 0, 0.516 },
-		fire_size = 0.8,
-		fire_time = 1000,
+		agony_explosion_size = 3,
+		fire_pos = { 0.25, 1, 0 },
+		fire_size = 0.85,
+		fire_time = 450,
+		max_time_agony = 100,
+		min_time_agony = 10,
 		shape = "lav-25",
 		shape_dstr = "Lav-25_p1"
 	}

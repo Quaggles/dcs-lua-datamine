@@ -1,8 +1,10 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 160000,
-	DisplayName = "SAM SR P-19",
+	DisplayName = 'SAM P19 "Flat Face" SR (SA-2/3)',
+	DisplayNameShort = "P-19 SR",
+	IR_emission_coeff = 0.08,
 	MaxSpeed = 0,
-	Name = "SAM SR P-19",
+	Name = 'SAM P19 "Flat Face" SR (SA-2/3)',
 	Rate = 20,
 	Sensors = {
 		RADAR = "p-19 s-125 sr"
@@ -178,7 +180,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	chassis = {},
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000083",
-	radar_rotation_period = -6,
+	radar_rotation_period = -5,
 	sensor = {
 		height = 5.841,
 		max_alt_finding_target = 30000,
@@ -186,13 +188,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		min_range_finding_target = 1500
 	},
 	snd = {
-		radarRotation = "RadarRotation"
+		radarRotation = "GndTech/RadarRotation"
 	},
+	swapped_names = true,
+	tags = { "Air Defence", "Search Radar" },
 	type = "p-19 s-125 sr",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.5,
-		fire_time = 500,
+		agony_explosion_size = 2,
+		fire_pos = { 0, 0.8, 0 },
+		fire_size = 0.6,
+		fire_time = 200,
+		max_time_agony = 90,
+		min_time_agony = 10,
 		shape = "Zil_p19_Radar",
 		shape_dstr = "Zil_p19_Radar_p_1"
 	}

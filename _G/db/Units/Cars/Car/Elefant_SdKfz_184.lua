@@ -171,9 +171,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			}
 		} },
 	DetectionRange = 0,
-	DisplayName = "Sd.Kfz.184 Elefant",
+	DisplayName = "SPG Sd.Kfz.184 Elefant",
+	DisplayNameShort = "Elefant",
+	IR_emission_coeff = 0.11,
 	MaxSpeed = 20.016,
-	Name = "Sd.Kfz.184 Elefant",
+	Name = "SPG Sd.Kfz.184 Elefant",
 	Rate = 15,
 	Sensors = {
 		OPTIC = { "TRP-2A day", "TRP-2A night" }
@@ -222,6 +224,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					type = 6
 				} },
 			angles = { { 0.24434609527921, -0.24434609527921, -0.13962634015955, 0.24434609527921 } },
+			canSetTacticalDir = true,
 			cockpit = { "Elefant/Sfl_Z_F_1", { 0, 0, 0 } },
 			drawArgument1 = 0,
 			drawArgument2 = 1,
@@ -351,15 +354,20 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = true,
+	tags = { "Armor", "SPG" },
 	toggle_alarm_state_interval = 0.01,
 	type = "Elefant_SdKfz_184",
 	visual = {
+		agony_explosion_size = 5,
 		dirt_pos = { -2.7, 0.4, -1.45 },
 		dust_pos = { 2.3, 0.1, -1.45 },
-		fire_pos = { 0.8, 0.7, 0 },
-		fire_size = 0.7,
-		fire_time = 1000,
+		fire_pos = { 0.8, 0.8, 0 },
+		fire_size = 0.75,
+		fire_time = 500,
+		max_time_agony = 50,
+		min_time_agony = 10,
 		shape = "Elefant_SdKfz_184",
 		shape_dstr = "Elefant_SdKfz_184_p_1"
 	}

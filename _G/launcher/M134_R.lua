@@ -9,7 +9,8 @@ _G["launcher"]["M134_R"] = {
 	Weight = 146.4,
 	Weight_Empty = 51.68,
 	attribute = { 4, 15, 46, "Redacted" },
-	displayName = "M134 MiniGun Right",
+	category = 6,
+	displayName = "M134 - 6 x 7.62mm MiniGun right",
 	kind_of_shipping = 2,
 	wsTypeOfWeapon = { 4, 6, 10 }
 }

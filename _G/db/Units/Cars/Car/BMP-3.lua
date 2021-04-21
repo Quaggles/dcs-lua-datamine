@@ -5,6 +5,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	DetectionRange = 0,
 	DisplayName = "IFV BMP-3",
+	DisplayNameShort = "BMP3",
+	IR_emission_coeff = 0.095,
 	InternalCargo = {
 		maximalCapacity = 700,
 		nominalCapacity = 700
@@ -174,15 +176,20 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "IFV" },
 	turbine = false,
 	type = "BMP-3",
 	visual = {
+		agony_explosion_size = 3,
 		dirt_pos = { -3.5, 0.8, -1.337 },
 		dust_pos = { 3, 0.1, -1.337 },
-		fire_pos = { 0, 0, 0 },
+		fire_pos = { -0.6, 0.95, 0 },
 		fire_size = 1,
-		fire_time = 1100,
+		fire_time = 450,
+		max_time_agony = 100,
+		min_time_agony = 3,
 		shape = "BMP-3",
 		shape_dstr = "BMP-3_P_1"
 	}

@@ -16,5 +16,6 @@ _G["launcher"]["{HVAR_SMOKE_GENERATOR}"] = {
 	},
 	Weight = 64,
 	attribute = { 4, 15, 50, "Redacted" },
+	category = 6,
 	displayName = "HVAR Smoke Generator"
 }

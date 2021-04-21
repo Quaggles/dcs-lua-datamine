@@ -1,9 +1,9 @@
 _G["warheads"]["Cluster_9N235"] = {
-	caliber = 68,
+	caliber = 69,
 	concrete_factors = { 1.55, 1.55, 1 },
 	concrete_obj_factor = 0,
-	cumulative_factor = 1,
-	cumulative_thickness = 0.008,
+	cumulative_factor = 0,
+	cumulative_thickness = 0,
 	expl_mass = 0.32,
 	mass = 1.75,
 	obj_factors = { 1, 1 },

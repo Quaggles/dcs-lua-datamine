@@ -1,8 +1,10 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Countries = { "Algeria", "Bulgaria", "China", "Czech Republic", "Egypt", "Ethiopia", "Georgia", "Germany", "Hungary", "Indonesia", "Iran", "Kazakhstan", "Libya", "North Korea", "Pakistan", "Romania", "Russia", "Sudan", "Syria", "Poland", "Ukraine", "USSR", "Vietnam", "Yemen", "Yugoslavia", "Cuba" },
 	DetectionRange = 0,
-	DisplayName = "SAM SA-2 LN SM-90",
-	Name = "SAM SA-2 LN SM-90",
+	DisplayName = 'SAM SA-2 S-75 "Guideline" LN',
+	DisplayNameShort = "SA-2",
+	IR_emission_coeff = 0.03,
+	Name = 'SAM SA-2 S-75 "Guideline" LN',
 	Rate = 10,
 	ThreatRange = 43000,
 	ThreatRangeMin = 7000,
@@ -86,12 +88,16 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "S_75_Launcher_p_1"
 		} },
 	snd = {},
+	swapped_names = true,
+	tags = { "Air Defence", "Launcher" },
 	toggle_alarm_state_interval = 0.01,
 	type = "S_75M_Volhov",
 	visual = {
-		fire_pos = { 1.575, 0, 0 },
-		fire_size = 0.8,
-		fire_time = 500,
+		agony_explosion_size = 0.1,
+		fire_pos = {},
+		fire_size = 0,
+		fire_time = 0,
+		max_time_agony = -1,
 		shape = "S_75_Launcher",
 		shape_dstr = "S_75_Launcher_p_1"
 	}

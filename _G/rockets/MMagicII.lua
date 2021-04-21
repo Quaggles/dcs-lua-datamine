@@ -34,6 +34,7 @@ _G["rockets"]["#Index"] = {
 	_unique_resource_name = "weapons.missiles.MMagicII",
 	category = 4,
 	ccm_k0 = 0.5,
+	display_name = "Matra Magic II",
 	exhaust = { 1, 1, 1, 1 },
 	name = "MMagicII",
 	shape_table_data = { {

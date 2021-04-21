@@ -32,6 +32,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			label = "Additional Armor",
 			weight = 419
 		}, {
+			arg = 250,
+			boolean_inverted = true,
 			control = "checkbox",
 			defValue = true,
 			id = "CargoHalfdoor",
@@ -1352,6 +1354,114 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 							station = 6
 						} }
 				}, {
+					CLSID = "B_8V20A_CM_GN",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
+					CLSID = "B_8V20A_CM_RD",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
+					CLSID = "B_8V20A_CM_WH",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
+					CLSID = "B_8V20A_CM_BU",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
+					CLSID = "B_8V20A_CM_YE",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
+					CLSID = "B_8V20A_CM_VT",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
 					CLSID = "B_8V20A_OM",
 					forbidden = { {
 							loadout = { "<CLEAN>" },
@@ -1508,6 +1618,114 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		}, {
 			Launchers = { {
 					CLSID = "B_8V20A_CM",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 1
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
+					CLSID = "B_8V20A_CM_GN",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 1
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
+					CLSID = "B_8V20A_CM_RD",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 1
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
+					CLSID = "B_8V20A_CM_WH",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 1
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
+					CLSID = "B_8V20A_CM_BU",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 1
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
+					CLSID = "B_8V20A_CM_YE",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 1
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
+					CLSID = "B_8V20A_CM_VT",
 					forbidden = { {
 							loadout = { "<CLEAN>" },
 							station = 1
@@ -1752,6 +1970,114 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 							station = 6
 						} }
 				}, {
+					CLSID = "B_8V20A_CM_GN",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 1
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
+					CLSID = "B_8V20A_CM_RD",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 1
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
+					CLSID = "B_8V20A_CM_WH",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 1
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
+					CLSID = "B_8V20A_CM_BU",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 1
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
+					CLSID = "B_8V20A_CM_YE",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 1
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
+					CLSID = "B_8V20A_CM_VT",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 1
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
 					CLSID = "B_8V20A_OM",
 					forbidden = { {
 							loadout = { "<CLEAN>" },
@@ -1907,6 +2233,114 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 							station = 6
 						} }
 				}, {
+					CLSID = "B_8V20A_CM_GN",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 1
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
+					CLSID = "B_8V20A_CM_RD",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 1
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
+					CLSID = "B_8V20A_CM_WH",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 1
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
+					CLSID = "B_8V20A_CM_BU",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 1
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
+					CLSID = "B_8V20A_CM_YE",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 1
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
+					CLSID = "B_8V20A_CM_VT",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 1
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
 					CLSID = "B_8V20A_OM",
 					forbidden = { {
 							loadout = { "<CLEAN>" },
@@ -2045,6 +2479,114 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		}, {
 			Launchers = { {
 					CLSID = "B_8V20A_CM",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 1
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
+					CLSID = "B_8V20A_CM_GN",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 1
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
+					CLSID = "B_8V20A_CM_RD",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 1
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
+					CLSID = "B_8V20A_CM_WH",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 1
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
+					CLSID = "B_8V20A_CM_BU",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 1
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
+					CLSID = "B_8V20A_CM_YE",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 1
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
+					CLSID = "B_8V20A_CM_VT",
 					forbidden = { {
 							loadout = { "<CLEAN>" },
 							station = 1
@@ -2289,6 +2831,114 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 							station = 5
 						} }
 				}, {
+					CLSID = "B_8V20A_CM_GN",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 1
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						} }
+				}, {
+					CLSID = "B_8V20A_CM_RD",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 1
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						} }
+				}, {
+					CLSID = "B_8V20A_CM_WH",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 1
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						} }
+				}, {
+					CLSID = "B_8V20A_CM_BU",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 1
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						} }
+				}, {
+					CLSID = "B_8V20A_CM_YE",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 1
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						} }
+				}, {
+					CLSID = "B_8V20A_CM_VT",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 1
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						} }
+				}, {
 					CLSID = "B_8V20A_OM",
 					forbidden = { {
 							loadout = { "<CLEAN>" },
@@ -2477,6 +3127,14 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		} },
 	RCS = 12,
 	Rate = "30",
+	SFM_Data = {
+		engine = {
+			Nmg = 72,
+			Shutdown_Duration = 42,
+			Startup_Duration = 55,
+			type = "TurboShaft"
+		}
+	},
 	Shape = "MI-8MT",
 	SnapViews = { { {
 				hAngle = 15,
@@ -2957,6 +3615,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			ttl = 3
 		} },
 	engine_data = {
+		Nmg_Ready = 84,
 		SFC_k = { 2.045e-07, -0.0006328, 0.803 },
 		power_RPM_k = { -0.08639, 0.24277, 0.84175 },
 		power_RPM_min = 9.1384,
@@ -2964,7 +3623,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		power_WEP = 1618,
 		power_max = 1618,
 		power_take_off = 1470,
-		sound_name = "Aircrafts/Engines/EngineTV3117"
+		sound_name = ""
 	},
 	engines_count = 2,
 	engines_nozzles = { {
@@ -3569,8 +4228,10 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	sound_name = "Aircrafts/Engines/RotorMi8",
 	sounderName = "Aircraft/Helicopters/Mi-8MT",
 	stores_number = 0,
+	swapped_names = true,
 	tail_fin_area = 1.38,
 	tail_pos = { -12.572, 2.737, 0 },
+	tail_rotor_RPM = 1124,
 	tail_stab_area = 1.47,
 	thrust_correction = 0.8,
 	type = "Mi-8MT"

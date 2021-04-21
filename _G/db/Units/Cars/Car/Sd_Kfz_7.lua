@@ -34,13 +34,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	Countries = { "Germany", "Third Reich", "Japan", "Italian Social Republic", "Finland", "Hungary", "Romania", "Bulgaria" },
 	DetectionRange = 0,
-	DisplayName = "Sd.Kfz.7",
+	DisplayName = "Carrier Sd.Kfz.7 Tractor",
+	DisplayNameShort = "Kfz.7",
+	IR_emission_coeff = 0.075,
 	InternalCargo = {
 		maximalCapacity = 1100,
 		nominalCapacity = 1100
 	},
 	MaxSpeed = 49.968,
-	Name = "Sd.Kfz.7",
+	Name = "Carrier Sd.Kfz.7 Tractor",
 	Rate = 6,
 	Waypoint_Custom_Panel = true,
 	_file = "./Mods/tech/WWII Units/Database/db_units_cars.lua",
@@ -92,14 +94,19 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Unarmed", "Support & Logistics" },
 	type = "Sd_Kfz_7",
 	visual = {
+		agony_explosion_size = 1,
 		dirt_pos = { -1.9, 0.1, -0.9 },
 		dust_pos = { 1.8, 0, -0.9 },
-		fire_pos = { -2.5, 0.8, 0 },
-		fire_size = 0.2,
-		fire_time = 700,
+		fire_pos = { -2.1, 0.8, 0 },
+		fire_size = 0.35,
+		fire_time = 300,
+		max_time_agony = 80,
+		min_time_agony = 10,
 		shape = "sd_kfz_7",
 		shape_dstr = "sd_kfz_7_p_1"
 	}

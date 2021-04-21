@@ -5,6 +5,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	DetectionRange = 0,
 	DisplayName = "MBT T-55",
+	DisplayNameShort = "T55",
+	IR_emission_coeff = 0.1,
 	MaxSpeed = 43.2,
 	Name = "MBT T-55",
 	Rate = 10,
@@ -175,15 +177,20 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "MBT" },
 	turbine = false,
 	type = "T-55",
 	visual = {
+		agony_explosion_size = 5,
 		dirt_pos = { -2.8, 0.5, -1.3 },
 		dust_pos = { 2.9, 0.1, -1.3 },
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.9,
-		fire_time = 1000,
+		fire_pos = { -0.7, 1.1, 0 },
+		fire_size = 0.8,
+		fire_time = 750,
+		max_time_agony = 70,
+		min_time_agony = 10,
 		shape = "T-55",
 		shape_dstr = "T-55_p_1"
 	}

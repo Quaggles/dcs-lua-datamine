@@ -102,9 +102,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			}
 		} },
 	DetectionRange = 0,
-	DisplayName = "TD Jagdpanther G1",
+	DisplayName = "SPG Jagdpanther G1",
+	DisplayNameShort = "JgdPz-G1",
+	IR_emission_coeff = 0.1,
 	MaxSpeed = 45.72,
-	Name = "TD Jagdpanther G1",
+	Name = "SPG Jagdpanther G1",
 	Rate = 20,
 	Sensors = {
 		OPTIC = { "TRP-2A day", "TRP-2A night" }
@@ -155,6 +157,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					type = 6
 				} },
 			angles = { { 0.19198621771938, -0.19198621771938, -0.13962634015955, 0.24434609527921 } },
+			canSetTacticalDir = true,
 			center = "CENTER_TOWER",
 			cockpit = { "Jagdpanther_G1/Sfl_Z_F_1", { 0, 0, 0 } },
 			drawArgument1 = 0,
@@ -286,14 +289,19 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "SPG" },
 	type = "Jagdpanther_G1",
 	visual = {
+		agony_explosion_size = 3,
 		dirt_pos = { -3.2, 0.6, -1.4 },
 		dust_pos = { 3.05, 0.1, -1.4 },
-		fire_pos = { -2.3, 0.7, 0 },
-		fire_size = 0.8,
-		fire_time = 1000,
+		fire_pos = { -1.9, 0.9, 0 },
+		fire_size = 0.65,
+		fire_time = 500,
+		max_time_agony = 55,
+		min_time_agony = 10,
 		shape = "Jagdpanther_G1",
 		shape_dstr = "Jagdpanther_G1_p_1"
 	}

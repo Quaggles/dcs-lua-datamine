@@ -1,8 +1,10 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 100000,
-	DisplayName = "SAM SA-3 S-125 TR SNR",
+	DisplayName = 'SAM SA-3 S-125 "Low Blow" TR',
+	DisplayNameShort = "SA-3 TR",
+	IR_emission_coeff = 0.06,
 	MaxSpeed = 0,
-	Name = "SAM SA-3 S-125 TR SNR",
+	Name = 'SAM SA-3 S-125 "Low Blow" TR',
 	Rate = 20,
 	Sensors = {
 		RADAR = "snr s-125 tr"
@@ -100,6 +102,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				p = 10
 			}
 		},
+		isDetector = true,
 		maxTargetDetectionRange = 100000,
 		radar_type = 103
 	},
@@ -123,13 +126,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		min_range_finding_target = 1500
 	},
 	snd = {
-		radarRotation = "RadarRotation"
+		radarRotation = "GndTech/RadarRotation"
 	},
+	swapped_names = true,
+	tags = { "Air Defence", "Tracking Radar" },
 	type = "snr s-125 tr",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.5,
-		fire_time = 500,
+		agony_explosion_size = 0,
+		fire_pos = {},
+		fire_size = 0,
+		fire_time = 0,
+		max_time_agony = -1,
 		shape = "snr-125",
 		shape_dstr = "snr-125_p_1"
 	}

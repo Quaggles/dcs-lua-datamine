@@ -5,13 +5,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	CustomAimPoint = { 0, 1, 0 },
 	DetectionRange = 0,
-	DisplayName = "ARV BTR-RD",
+	DisplayName = "APC BTR-RD",
+	DisplayNameShort = "BTR-RD",
+	IR_emission_coeff = 0.08,
 	InternalCargo = {
 		maximalCapacity = 1000,
 		nominalCapacity = 1000
 	},
 	MaxSpeed = 60.00012,
-	Name = "ARV BTR-RD",
+	Name = "APC BTR-RD",
 	Rate = 10,
 	Sensors = {
 		OPTIC = { "TKN-3B day", "TKN-3B night" }
@@ -147,14 +149,19 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { { 0, 0.6 }, { 10, 1 } },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "SP ATGM" },
 	type = "BTR_D",
 	visual = {
+		agony_explosion_size = 2,
 		dirt_pos = { -3, 0.55, -1.268 },
 		dust_pos = { 2, 0.1, -1.268 },
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.5,
-		fire_time = 900,
+		fire_pos = { -0.6, 0.8, 0 },
+		fire_size = 0.7,
+		fire_time = 400,
+		max_time_agony = 100,
+		min_time_agony = 5,
 		shape = "btr-d",
 		shape_dstr = "BTR-D_P_1"
 	}

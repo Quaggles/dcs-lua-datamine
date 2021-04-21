@@ -1,6 +1,7 @@
 _G["launcher"]["LAU_88_AGM_65H_2_L"] = {
 	CLSID = "LAU_88_AGM_65H_2_L",
 	Count = 2,
+	Cx_item = 0.0009765625,
 	Cx_pil = 0.003840125,
 	Elements = { {
 			Position = { 0, 0, 0 },
@@ -20,7 +21,8 @@ _G["launcher"]["LAU_88_AGM_65H_2_L"] = {
 	Weight = 627,
 	adapter_type = { 4, 15, 47, "Redacted" },
 	attribute = { 4, 4, 32, "Redacted" },
-	displayName = "LAU-88,AGM-65H*2",
+	category = 2,
+	displayName = "LAU-88 with 2 x AGM-65H - Maverick H (CCD Imp ASM)",
 	kind_of_shipping = 1,
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

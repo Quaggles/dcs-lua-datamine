@@ -117,10 +117,10 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		} },
 	MOI = { 56400, 250000, 268000 },
 	M_empty = 15407,
-	M_fuel_max = 6940,
+	M_fuel_max = 2880,
 	M_max = 31630,
 	M_nominal = 25400,
-	MaxFuelWeight = "1908",
+	MaxFuelWeight = "2880",
 	MaxHeight = "6200",
 	MaxSpeed = "310",
 	MaxTakeOffWeight = "31630",
@@ -130,6 +130,13 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	Pylons = {},
 	RCS = 25,
 	Rate = "30",
+	SFM_Data = {
+		engine = {
+			Nominal_Fan_RPM = 5200,
+			Nominal_RPM = 13600,
+			type = "TurboShaft"
+		}
+	},
 	Shape = "CH-53E",
 	TakeOffRWCategories = { {
 			Name = "AircraftCarrier"
@@ -267,6 +274,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	scheme = 0,
 	sound_name = "Aircrafts/Engines/RotorCH53",
 	stores_number = 0,
+	swapped_names = true,
 	tail_fin_area = 5.6,
 	tail_pos = { -13.65, 2.914, 0 },
 	tail_stab_area = 6.6,

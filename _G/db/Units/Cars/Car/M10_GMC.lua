@@ -171,9 +171,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			}
 		} },
 	DetectionRange = 0,
-	DisplayName = "TD M10 GMC",
+	DisplayName = "SPG M10 GMC",
+	DisplayNameShort = "M10",
+	IR_emission_coeff = 0.09,
 	MaxSpeed = 39.996,
-	Name = "TD M10 GMC",
+	Name = "SPG M10 GMC",
 	Rate = 15,
 	Sensors = {
 		OPTIC = { "TRP-2A day", "TRP-2A night" }
@@ -294,14 +296,19 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "SPG" },
 	type = "M10_GMC",
 	visual = {
+		agony_explosion_size = 5,
 		dirt_pos = { -2.5, 0.4, -1.1 },
 		dust_pos = { 2.7, 0.1, -1.1 },
-		fire_pos = { -1.7, 0.8, 0 },
-		fire_size = 0.8,
-		fire_time = 1000,
+		fire_pos = { -1.3, 1.2, 0 },
+		fire_size = 0.55,
+		fire_time = 650,
+		max_time_agony = 60,
+		min_time_agony = 10,
 		shape = "M10",
 		shape_dstr = "M10_p_1"
 	}

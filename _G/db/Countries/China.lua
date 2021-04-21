@@ -418,6 +418,22 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "HQ-7_STR_SP",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "HQ-7_LN_SP",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "ZTZ96B",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "S-60_Type59_Artillery",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Electric locomotive"
 				}, {
 					Name = "Locomotive"
@@ -434,11 +450,7 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "Coach a platform"
 				}, {
-					Name = "ZTZ96B"
-				}, {
-					Name = "HQ-7_LN_SP"
-				}, {
-					Name = "HQ-7_STR_SP"
+					Name = "PLZ05"
 				}, {
 					Name = "DR_50Ton_Flat_Wagon"
 				}, {
@@ -758,9 +770,21 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "Beer Bomb"
+				}, {
 					Name = "warning_board_a"
 				}, {
 					Name = "warning_board_b"
+				}, {
+					Name = "Concertina wire"
+				}, {
+					Name = "Haystack 1"
+				}, {
+					Name = "Haystack 2"
+				}, {
+					Name = "Haystack 3"
+				}, {
+					Name = "Haystack 4"
 				} }
 		},
 		GrassAirfields = {

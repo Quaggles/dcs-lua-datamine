@@ -9,5 +9,6 @@ _G["launcher"]["{682A481F-0CB5-4693-A382-D00DD4A156D7}"] = {
 	Picture = "r60.png",
 	Weight = 44,
 	attribute = { 4, 4, 7, "Redacted" },
-	displayName = "R-60M"
+	category = 4,
+	displayName = "R-60M (AA-8 Aphid) - Infra Red"
 }

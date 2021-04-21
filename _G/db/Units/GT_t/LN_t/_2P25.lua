@@ -1,13 +1,10 @@
 _G["db"]["Units"]["GT_t"]["LN_t"]["_2P25"] = {
 	BR = { {
-			connector_name = "POINT_KUB_1_1",
-			drawArgument = 4
+			connector_name = "POINT_ROCKET1"
 		}, {
-			connector_name = "POINT_KUB_1_2",
-			drawArgument = 5
+			connector_name = "POINT_ROCKET2"
 		}, {
-			connector_name = "POINT_KUB_1_3",
-			drawArgument = 6
+			connector_name = "POINT_ROCKET3"
 		} },
 	ECM_K = -1,
 	PL = { {

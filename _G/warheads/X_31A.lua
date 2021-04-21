@@ -6,7 +6,7 @@ _G["warheads"]["X_31A"] = {
 	cumulative_thickness = 0,
 	expl_mass = 36,
 	mass = 36,
-	obj_factors = { 2, 1 },
+	obj_factors = { 3, 1 },
 	other_factors = { 1, 1, 1 },
 	piercing_mass = 7.2
 }

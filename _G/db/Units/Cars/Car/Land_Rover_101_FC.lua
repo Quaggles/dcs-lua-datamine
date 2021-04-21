@@ -30,8 +30,10 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	Countries = { "UK", "Iran", "Malaysia", "Oman", "Singapore", "Switzerland", "Turkey", "United Arab Emirates", "Zambia", "Australia", "Libya", "Netherlands", "Iraq" },
 	DetectionRange = 0,
-	DisplayName = "Land Rover 101 FC",
-	Name = "Land Rover 101 FC",
+	DisplayName = "Truck Land Rover 101 FC",
+	DisplayNameShort = "R101",
+	IR_emission_coeff = 0.075,
+	Name = "Truck Land Rover 101 FC",
 	Rate = 3,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
@@ -93,12 +95,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Unarmed", "Support", "Logistics" },
 	type = "Land_Rover_101_FC",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.7,
-		fire_time = 1000,
+		agony_explosion_size = 2,
+		fire_pos = { 0.7, 1.1, 0 },
+		fire_size = 0.33,
+		fire_time = 480,
+		max_time_agony = 130,
+		min_time_agony = 10,
 		shape = "land_rover_101_fc",
 		shape_dstr = "land_rover_101_fc_p_1"
 	}

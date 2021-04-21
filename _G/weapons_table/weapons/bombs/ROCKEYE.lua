@@ -100,7 +100,7 @@ _G["weapons_table"]["weapons"]["bombs"]["ROCKEYE"] = {
 		},
 		scheme = "schemes/bombs/bomb-cassette-2.sch"
 	},
-	display_name = "ROCKEYE",
+	display_name = "Mk-20 Rockeye",
 	mass = 222,
 	model = "rockeye",
 	name = "ROCKEYE",

@@ -70,8 +70,9 @@ _G["launcher"]["{4C044B08-886B-46c8-9B1F-AB05B3ED9C1D}"] = {
 			connector_name = "tube_21"
 		} },
 	Picture = "LAU68.png",
-	Weight = 394.39,
+	Weight = 395.85,
 	attribute = { 4, 7, 32, "Redacted" },
-	displayName = "LAU-68*3 - 7 2.75' rockets M274 (Practice smoke)",
+	category = 3,
+	displayName = 'BRU-42 with 3 x LAU-68 pods - 21 x 2.75" Hydra, UnGd Rkts M274, Practice Smk',
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

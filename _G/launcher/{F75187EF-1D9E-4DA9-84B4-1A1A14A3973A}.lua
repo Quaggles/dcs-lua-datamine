@@ -8,5 +8,6 @@ _G["launcher"]["{F75187EF-1D9E-4DA9-84B4-1A1A14A3973A}"] = {
 	Picture = "SPS141.png",
 	Weight = 150,
 	attribute = { 4, 15, 45, "Redacted" },
-	displayName = "SPS-141"
+	category = 6,
+	displayName = "SPS-141 - ECM Jamming Pod"
 }

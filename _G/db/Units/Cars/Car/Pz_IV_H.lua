@@ -137,8 +137,10 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			}
 		} },
 	DetectionRange = 0,
-	DisplayName = "MT Pz.Kpfw.IV Ausf.H",
-	Name = "MT Pz.Kpfw.IV Ausf.H",
+	DisplayName = "MT PzIV H",
+	DisplayNameShort = "Pz.IV",
+	IR_emission_coeff = 0.1,
+	Name = "MT PzIV H",
 	Rate = 20,
 	Sensors = {
 		OPTIC = { "TRP-2A day", "TRP-2A night" }
@@ -357,14 +359,19 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "Tank" },
 	type = "Pz_IV_H",
 	visual = {
+		agony_explosion_size = 5,
 		dirt_pos = { -2.6, 0.2, -1.25 },
 		dust_pos = { 2.85, 0.1, -1.25 },
-		fire_pos = { -1.3, 0.7, 0 },
-		fire_size = 0.9,
-		fire_time = 1000,
+		fire_pos = { -1.3, 1.3, 0 },
+		fire_size = 0.55,
+		fire_time = 650,
+		max_time_agony = 130,
+		min_time_agony = 10,
 		shape = "Pz_IV_H",
 		shape_dstr = "Pz_IV_H_p_1"
 	}

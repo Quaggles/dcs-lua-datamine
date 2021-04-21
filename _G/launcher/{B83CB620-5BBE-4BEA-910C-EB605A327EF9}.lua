@@ -18,8 +18,9 @@ _G["launcher"]["{B83CB620-5BBE-4BEA-910C-EB605A327EF9}"] = {
 			connector_name = "Point03"
 		} },
 	Picture = "Mk20.png",
-	Weight = 726,
+	Weight = 722.25,
 	attribute = { 4, 5, 32, "Redacted" },
-	displayName = "3 Mk-20 Rockeye",
+	category = 1,
+	displayName = "BRU-42 with 3 x Mk-20 Rockeye - 490lbs CBUs, 247 x HEAT Bomblets",
 	wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 }

@@ -2,13 +2,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Countries = { "Germany", "Third Reich", "Japan", "Italian Social Republic", "Finland", "Hungary", "Romania", "Bulgaria" },
 	DetectionRange = 0,
 	DisplayName = "AAA 8,8cm Flak 41",
+	DisplayNameShort = "Flak41",
+	IR_emission_coeff = 0.01,
 	MaxSpeed = 0,
 	Name = "AAA 8,8cm Flak 41",
 	Rate = 4,
 	Sensors = {
 		OPTIC = { "long-range air defence optics" }
 	},
-	ThreatRange = 20000,
+	ThreatRange = 12500,
 	WS = { {
 			LN = { {
 					BR = { {
@@ -28,7 +30,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			pidZ = {},
 			pos = {}
 		},
-		maxTargetDetectionRange = 18000
+		maxTargetDetectionRange = 15000
 	},
 	Waypoint_Custom_Panel = true,
 	_file = "./Mods/tech/WWII Units/Database/db_units_cars.lua",
@@ -65,11 +67,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "flak41_p_1"
 		} },
 	snd = {},
+	swapped_names = true,
+	tags = { "Air Defence", "AAA" },
 	type = "flak41",
 	visual = {
-		fire_pos = { -1.9, 0.1, 0 },
-		fire_size = 0.08,
-		fire_time = 500,
+		agony_explosion_size = 0.1,
+		fire_pos = {},
+		fire_size = 0,
+		fire_time = 0,
+		max_time_agony = -1,
 		shape = "flak41",
 		shape_dstr = "flak41_p_1"
 	}

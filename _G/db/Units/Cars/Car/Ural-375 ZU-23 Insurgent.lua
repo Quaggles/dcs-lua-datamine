@@ -4,9 +4,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 5000,
-	DisplayName = "AAA ZU-23 Insurgent on Ural-375",
+	DisplayName = "SPAAA ZU-23-2 Insurgent Mounted Ural-375",
+	DisplayNameShort = "ZU23 U",
+	IR_emission_coeff = 0.08,
 	MaxSpeed = 74.99988,
-	Name = "AAA ZU-23 Insurgent on Ural-375",
+	Name = "SPAAA ZU-23-2 Insurgent Mounted Ural-375",
 	Rate = 6,
 	ThreatRange = 2500,
 	WS = { {
@@ -23,13 +25,13 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						}, {
 							shell_name = {}
 						} },
-					customViewPoint = {
-						[2] = {}
-					},
 					sensor = {}
 				} },
 			angles = { { 2.3561944901923, -2.3561944901923, -0.1, 1.48173 }, { -2.3561944901923, 2.3561944901923, 0.20943951023932, 1.48173 } },
 			board = 2,
+			cockpit = {
+				[2] = {}
+			},
 			pidY = {},
 			pidZ = {},
 			pointer = "POINT_SIGHT_01",
@@ -63,12 +65,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Air Defence", "SP AAA" },
 	type = "Ural-375 ZU-23 Insurgent",
 	visual = {
-		fire_pos = { 2, 0, 0 },
-		fire_size = 0.6,
-		fire_time = 900,
+		agony_explosion_size = 2,
+		fire_pos = { 0.2, 0.8, 0 },
+		fire_size = 0.65,
+		fire_time = 300,
+		max_time_agony = 120,
+		min_time_agony = 10,
 		shape = "Ural_ZU-23_CHECH",
 		shape_dstr = "Ural_ZU-23_P1"
 	}

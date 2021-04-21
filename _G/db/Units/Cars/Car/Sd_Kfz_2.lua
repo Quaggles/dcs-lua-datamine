@@ -26,13 +26,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	Countries = { "Germany", "Third Reich", "Japan", "Italian Social Republic", "Finland", "Hungary", "Romania", "Bulgaria" },
 	DetectionRange = 0,
-	DisplayName = "Sd.Kfz.2",
+	DisplayName = "LUV Kettenrad",
+	DisplayNameShort = "Kfz.2",
+	IR_emission_coeff = 0.065,
 	InternalCargo = {
 		maximalCapacity = 200,
 		nominalCapacity = 200
 	},
 	MaxSpeed = 61.488,
-	Name = "Sd.Kfz.2",
+	Name = "LUV Kettenrad",
 	Rate = 3,
 	Waypoint_Custom_Panel = true,
 	_file = "./Mods/tech/WWII Units/Database/db_units_cars.lua",
@@ -81,14 +83,19 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = true,
+	tags = { "Unarmed", "Scout/Recon" },
 	type = "Sd_Kfz_2",
 	visual = {
+		agony_explosion_size = 1,
 		dirt_pos = { -0.8, 0.3, -0.38 },
 		dust_pos = { 0.9, -0.1, -0.38 },
 		fire_pos = { -0.4, 0.7, 0 },
-		fire_size = 0.1,
-		fire_time = 300,
+		fire_size = 0.25,
+		fire_time = 60,
+		max_time_agony = 80,
+		min_time_agony = 10,
 		shape = "Sd_Kfz_2_Kettenkrad",
 		shape_dstr = "Sd_Kfz_2_Kettenkrad_p_1"
 	}

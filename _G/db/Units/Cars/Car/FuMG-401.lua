@@ -3,8 +3,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	CustomAimPoint = { 0, 1.5, 0 },
 	DetectionRange = 160000,
 	DisplayName = "EWR FuMG-401 Freya LZ",
-	DisplayNameShort = "EWR Freya",
+	DisplayNameShort = "Freya EWR",
 	EWR = true,
+	IR_emission_coeff = 0.05,
 	MaxSpeed = 0,
 	Name = "EWR FuMG-401 Freya LZ",
 	Rate = 20,
@@ -23,7 +24,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					reflection_limit = 0.18,
 					type = 101
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.0471975511966 } },
+			angles = { { 0.34906585039887, -0.34906585039887, 0, 1.0471975511966 } },
 			omegaY = 1,
 			omegaZ = 1,
 			pos = { 0, 10, 0 }
@@ -38,7 +39,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					reflection_limit = 0.18,
 					type = 101
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.0471975511966 } },
+			angles = { { 0.34906585039887, -0.34906585039887, 0, 1.0471975511966 } },
 			omegaY = 1,
 			omegaZ = 1,
 			pos = { 0, 10, 0 }
@@ -53,7 +54,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					reflection_limit = 0.18,
 					type = 101
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.0471975511966 } },
+			angles = { { 0.34906585039887, -0.34906585039887, 0, 1.0471975511966 } },
 			omegaY = 1,
 			omegaZ = 1,
 			pos = { 0, 10, 0 }
@@ -68,7 +69,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					reflection_limit = 0.18,
 					type = 101
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.0471975511966 } },
+			angles = { { 0.34906585039887, -0.34906585039887, 0, 1.0471975511966 } },
 			omegaY = 1,
 			omegaZ = 1,
 			pos = { 0, 10, 0 }
@@ -83,7 +84,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					reflection_limit = 0.18,
 					type = 101
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.0471975511966 } },
+			angles = { { 0.34906585039887, -0.34906585039887, 0, 1.0471975511966 } },
 			omegaY = 1,
 			omegaZ = 1,
 			pos = { 0, 10, 0 }
@@ -98,7 +99,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					reflection_limit = 0.18,
 					type = 101
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.0471975511966 } },
+			angles = { { 0.34906585039887, -0.34906585039887, 0, 1.0471975511966 } },
 			omegaY = 1,
 			omegaZ = 1,
 			pos = { 0, 10, 0 }
@@ -113,7 +114,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					reflection_limit = 0.18,
 					type = 101
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.0471975511966 } },
+			angles = { { 0.34906585039887, -0.34906585039887, 0, 1.0471975511966 } },
 			omegaY = 1,
 			omegaZ = 1,
 			pos = { 0, 10, 0 }
@@ -128,7 +129,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					reflection_limit = 0.18,
 					type = 101
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.0471975511966 } },
+			angles = { { 0.34906585039887, -0.34906585039887, 0, 1.0471975511966 } },
 			omegaY = 1,
 			omegaZ = 1,
 			pos = { 0, 10, 0 }
@@ -143,7 +144,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					reflection_limit = 0.18,
 					type = 101
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.0471975511966 } },
+			angles = { { 0.34906585039887, -0.34906585039887, 0, 1.0471975511966 } },
 			omegaY = 1,
 			omegaZ = 1,
 			pos = { 0, 10, 0 }
@@ -158,13 +159,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					reflection_limit = 0.18,
 					type = 101
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.0471975511966 } },
+			angles = { { 0.34906585039887, -0.34906585039887, 0, 1.0471975511966 } },
 			omegaY = 1,
 			omegaZ = 1,
 			pos = { 0, 10, 0 }
 		},
 		maxTargetDetectionRange = 160000,
-		radar_rotation_type = 0,
 		radar_type = 105
 	},
 	Waypoint_Custom_Panel = true,
@@ -206,13 +206,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "FuMG-401_p_1"
 		} },
 	snd = {
-		radarRotation = "RadarRotation"
+		radarRotation = "GndTech/RadarRotation"
 	},
+	swapped_names = true,
+	tags = { "Air Defence", "EW Radar" },
 	type = "FuMG-401",
 	visual = {
-		fire_pos = { 1, 1.1, -0.4 },
-		fire_size = 0.5,
-		fire_time = 700,
+		agony_explosion_size = 0,
+		fire_pos = {},
+		fire_size = 0,
+		fire_time = 0,
+		max_time_agony = -1,
 		shape = "FuMG-401",
 		shape_dstr = "FuMG-401_p_1"
 	}

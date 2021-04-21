@@ -9,7 +9,8 @@ _G["launcher"]["{96A7F676-F956-404A-AD04-F33FB2C74884}"] = {
 	Picture = "KMGU2.png",
 	Weight = 520,
 	attribute = { 4, 5, 32, "Redacted" },
-	displayName = "KMGU-2 - 96 AO-2.5RT",
+	category = 1,
+	displayName = "KMGU-2 - 96 x AO-2.5RT Dispenser (CBU) HE/Frag",
 	kind_of_shipping = 2,
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

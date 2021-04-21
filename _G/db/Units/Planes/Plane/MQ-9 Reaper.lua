@@ -424,33 +424,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	V_land = 27.777777777778,
 	V_max_h = 111.11111111111,
 	V_max_sea_level = 111.11111111111,
-	V_opt = 44,
+	V_opt = 80,
 	V_take_off = 27.777777777778,
-	ViewSettings = {
-		Arcade = {
-			AnglesDefault = { 0, -8 },
-			LocalPoint = { -12.041, 6.419, 0 }
-		},
-		Chase = {
-			AnglesDefault = { 180, -8 },
-			LocalPoint = { 4.259, 3.819, 0 }
-		},
-		Cockpit = { {
-				Allow360rotation = false,
-				CameraAngleLimits = { 200, -80, 110 },
-				CameraAngleRestriction = { false, 90, 0.5 },
-				CameraViewAngleLimits = { 20, 140 },
-				CockpitLocalPoint = { 7.959, 1.419, 0 },
-				EyePoint = { 0.05, 0, 0 },
-				ShoulderSize = 0.2,
-				limits_6DOF = {
-					roll = 90,
-					x = { -0.05, 0.45 },
-					y = { -0.3, 0.1 },
-					z = { -0.22, 0.22 }
-				}
-			} }
-	},
 	Vy_max = 5,
 	Waypoint_Custom_Panel = true,
 	WingSpan = 20,
@@ -550,6 +525,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			vis = 3
 		} },
 	singleInFlight = true,
+	swapped_names = true,
 	tand_gear_max = 0.577,
 	thrust_sum_ab = 8224,
 	thrust_sum_max = 8224,

@@ -19,7 +19,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				width = 0.022
 			}
 		}, {
-			area_name = "BOFY_RIGHT",
+			area_name = "BODY_RIGHT",
 			armour = {
 				width = 0.022
 			}
@@ -61,7 +61,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		} },
 	DetectionRange = 0,
 	DisplayName = "APC M113",
+	DisplayNameShort = "M113",
 	EPLRS = true,
+	IR_emission_coeff = 0.09,
 	InternalCargo = {
 		maximalCapacity = 1100,
 		nominalCapacity = 1100
@@ -94,7 +96,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 0.87266462599716 } },
 			center = "CENTER_TOWER",
-			cockpit = { "IronSight/IronSight", { -1.5, 0.14, 0 } },
+			cockpit = { "IronSight/IronSight", { -1.5, 0.14, 0 },
+				open = true
+			},
 			drawArgument1 = 0,
 			drawArgument2 = 1,
 			omegaY = 1.3962634015955,
@@ -141,15 +145,20 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "APC" },
 	turbine = false,
 	type = "M-113",
 	visual = {
+		agony_explosion_size = 3,
 		dirt_pos = { -2.2, 0.2, -1.085 },
 		dust_pos = { 2.305, 0, -1.085 },
-		fire_pos = { 0, 0, -0.413 },
-		fire_size = 0.4,
-		fire_time = 900,
+		fire_pos = { 0.38, 0.8, 0 },
+		fire_size = 0.95,
+		fire_time = 400,
+		max_time_agony = 100,
+		min_time_agony = 10,
 		shape = "m-113",
 		shape_dstr = "M-113_p_1"
 	}

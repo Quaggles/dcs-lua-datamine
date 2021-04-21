@@ -4,13 +4,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "Transport KrAZ-6322",
+	DisplayName = "Truck KrAZ-6322 6x6",
+	DisplayNameShort = "KrAZ",
+	IR_emission_coeff = 0.08,
 	InternalCargo = {
 		maximalCapacity = 3600,
 		nominalCapacity = 3600
 	},
 	MaxSpeed = 74.99988,
-	Name = "Transport KrAZ-6322",
+	Name = "Truck KrAZ-6322 6x6",
 	Rate = 5,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
@@ -36,12 +38,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Unarmed", "Support & Logistics" },
 	type = "KrAZ6322",
 	visual = {
-		fire_pos = { 1, 0, 0 },
-		fire_size = 0.7,
-		fire_time = 900,
+		agony_explosion_size = 2,
+		fire_pos = { 0.8, 1, 0 },
+		fire_size = 0.6,
+		fire_time = 300,
+		max_time_agony = 120,
+		min_time_agony = 10,
 		shape = "Kraz-6322",
 		shape_dstr = "Kraz-6322_p1"
 	},

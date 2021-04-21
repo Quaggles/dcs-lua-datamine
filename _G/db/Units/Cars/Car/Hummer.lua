@@ -5,14 +5,16 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "APC M1025 HMMWV",
+	DisplayName = "APC HMMWV Jeep",
+	DisplayNameShort = "Hummer",
 	EPLRS = true,
+	IR_emission_coeff = 0.075,
 	InternalCargo = {
 		maximalCapacity = 400,
 		nominalCapacity = 400
 	},
 	MaxSpeed = 113.00004,
-	Name = "APC M1025 HMMWV",
+	Name = "APC HMMWV Jeep",
 	Rate = 3,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
@@ -38,13 +40,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Unarmed", "Scout/Recon" },
 	turbine = true,
 	type = "Hummer",
 	visual = {
-		fire_pos = { 1, 0, 0 },
-		fire_size = 0.6,
-		fire_time = 900,
+		agony_explosion_size = 2,
+		fire_pos = { -0.5, 0.8, 0 },
+		fire_size = 0.5,
+		fire_time = 300,
+		max_time_agony = 80,
+		min_time_agony = 10,
 		shape = "HMMWV_M1025",
 		shape_dstr = "HMMWV_M1025_P_1"
 	}

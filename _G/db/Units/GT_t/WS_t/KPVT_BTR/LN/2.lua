@@ -20,6 +20,7 @@ _G["db"]["Units"]["GT_t"]["WS_t"]["KPVT_BTR"]["LN"]["#Index"] = {
 			shell_name = {}
 		} },
 	fireAnimationArgument = 45,
+	secondary = true,
 	sensor = {},
 	sightIndicationMode = 1,
 	sightMasterMode = 1

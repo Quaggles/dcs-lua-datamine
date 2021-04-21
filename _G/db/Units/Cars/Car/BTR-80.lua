@@ -5,6 +5,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	DetectionRange = 0,
 	DisplayName = "APC BTR-80",
+	DisplayNameShort = "BTR80",
+	IR_emission_coeff = 0.08,
 	InternalCargo = {
 		maximalCapacity = 700,
 		nominalCapacity = 700
@@ -19,7 +21,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	WS = { {
 			LN = { {
 					BR = { {
-							connector_name = "POINT_GUN",
+							connector_name = "POINT_MGUN_01",
 							pos = {}
 						} },
 					PL = { {
@@ -43,11 +45,10 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						}, {
 							shell_name = {}
 						} },
-					fireAnimationArgument = 23,
 					sensor = {}
 				}, {
 					BR = { {
-							connector_name = "POINT_MGUN",
+							connector_name = "POINT_MGUN_02",
 							pos = {}
 						} },
 					PL = { {
@@ -67,16 +68,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						}, {
 							shell_name = {}
 						} },
+					fireAnimationArgument = -1,
 					sensor = {}
 				} },
 			angles = { { 2.7925268031909, -2.7925268031909, -0.10471975511966, 1.0471975511966 }, { -2.7925268031909, 2.7925268031909, -0.034906585039887, 1.0471975511966 } },
-			center = "CENTER_TOWER",
+			center = "CENTER_TOWER_01",
 			cockpit = {
 				[2] = {}
-			}
+			},
+			pointer = "POINT_SIGHT_02"
 		},
 		maxTargetDetectionRange = 5000,
-		smoke = { "SMOKE_03", "SMOKE_04", "SMOKE_02", "SMOKE_05", "SMOKE_01", "SMOKE_06" }
+		smoke = { "SMOKE_01", "SMOKE_02", "SMOKE_03", "SMOKE_04", "SMOKE_05", "SMOKE_06" }
 	},
 	Waypoint_Custom_Panel = true,
 	animation_arguments = {},
@@ -90,7 +93,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	category = "Armor",
 	chassis = {},
 	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
-	driverViewConnectorName = { "DRIVER_POINT",
+	driverViewConnectorName = { "POINT_DRIVER",
 		offset = { 0.05, 0, 0 }
 	},
 	enablePlayerCanDrive = true,
@@ -105,13 +108,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "APC" },
 	turbine = false,
 	type = "BTR-80",
 	visual = {
-		fire_pos = { 1, 0, 0 },
-		fire_size = 0.7,
-		fire_time = 1000,
+		agony_explosion_size = 5,
+		fire_pos = { -0.8, 1.11, 0 },
+		fire_size = 0.85,
+		fire_time = 580,
+		max_time_agony = 120,
+		min_time_agony = 5,
 		shape = "BTR-80",
 		shape_dstr = "BTR-80_p_1"
 	}

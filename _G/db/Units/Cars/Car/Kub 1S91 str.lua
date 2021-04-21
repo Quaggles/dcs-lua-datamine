@@ -5,9 +5,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 70000,
-	DisplayName = "SAM SA-6 Kub STR 9S91",
+	DisplayName = 'SAM SA-6 Kub "Long Track" STR',
+	DisplayNameShort = "SA-6 STR",
+	IR_emission_coeff = 0.085,
 	MaxSpeed = 43.99992,
-	Name = "SAM SA-6 Kub STR 9S91",
+	Name = 'SAM SA-6 Kub "Long Track" STR',
 	Rate = 15,
 	Sensors = {
 		RADAR = "Kub 1S91 str"
@@ -28,10 +30,10 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					type = 102
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, 0, 0.78539816339745 } },
-			drawArgument1 = 0,
-			drawArgument2 = 1,
+			center = "CENTER_RADAR_01",
+			drawArgument1 = 24,
+			drawArgument2 = 25,
 			mount_before_move = true,
-			newZ = 2,
 			omegaY = 0.5235987755983,
 			omegaZ = 0.5235987755983,
 			pidY = {
@@ -46,7 +48,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				inn = 10,
 				p = 80
 			},
-			pos = { 0, 5, 0 }
+			reference_angle_Y = 3.1415926535898
 		},
 		fire_on_march = false,
 		maxTargetDetectionRange = 70000,
@@ -56,7 +58,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	Waypoint_Custom_Panel = true,
 	animation_arguments = {
-		locator_rotation = 11
+		locator_rotation = 11,
+		rollers_rotation = {
+			[12] = 1,
+			[14] = 1,
+			[61] = 1.8,
+			[62] = 1.8,
+			[63] = 1.7,
+			[64] = 1.7
+		}
 	},
 	armour_scheme = {
 		hull_azimuth = { {} },
@@ -82,15 +92,23 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} },
-		radarRotation = "RadarRotation"
+		radarRotation = "GndTech/RadarRotation"
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Air Defence", "Search & Tracking Radar" },
+	toggle_alarm_state_interval = 10,
 	type = "Kub 1S91 str",
 	visual = {
-		fire_pos = { 0, 0, 0 },
-		fire_size = 0.8,
-		fire_time = 900,
-		shape = "1c91",
-		shape_dstr = "2p25_p_1"
+		agony_explosion_size = 2,
+		dirt_pos = { -3, 0.41, -1.331 },
+		dust_pos = { 2.78, 0.1, -1.331 },
+		fire_pos = { -0.2, 0.85, 0 },
+		fire_size = 0.65,
+		fire_time = 400,
+		max_time_agony = 90,
+		min_time_agony = 5,
+		shape = "1s91",
+		shape_dstr = "1s91_p_1"
 	}
 }

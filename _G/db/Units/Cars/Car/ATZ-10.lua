@@ -5,9 +5,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "Fuel Truck ATZ-10",
+	DisplayName = "Refueler ATZ-10",
+	DisplayNameShort = "ATZ10",
+	IR_emission_coeff = 0.08,
 	MaxSpeed = 74.99988,
-	Name = "Fuel Truck ATZ-10",
+	Name = "Refueler ATZ-10",
 	Rate = 3,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
@@ -30,12 +32,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Unarmed", "Support & Logistics" },
 	type = "ATZ-10",
 	visual = {
-		fire_pos = { -2, 0, 0 },
-		fire_size = 1.7,
-		fire_time = 1500,
+		agony_explosion_size = 5,
+		fire_pos = { -0.5, 0.85, 0 },
+		fire_size = 1,
+		fire_time = 300,
+		max_time_agony = 120,
+		min_time_agony = 10,
 		shape = "Ural_ATZ-10",
 		shape_dstr = "Ural_ATZ_P1"
 	}

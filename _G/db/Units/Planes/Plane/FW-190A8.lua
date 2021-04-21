@@ -3259,12 +3259,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			N_fr_0 = 0.012,
 			N_fr_1 = 0.02,
 			N_indic_0 = 1023040,
-			Nmg = 20.5,
+			Nmg = 18.1,
 			Nominal_RPM = 2700,
 			Nu_0 = 1.2,
 			Nu_1 = 0.87,
 			Nu_2 = 0.0035,
 			P_oil = 495438,
+			Startup_Ignition_Time = 17.1,
+			Startup_Prework = 30,
+			Startup_RPMs = { { 0, 0 }, { 17.1, 0 }, { 17.6, 700 }, { 20.6, 450 } },
 			Stroke = 0.156,
 			V_pist_0 = 14.04,
 			cefor = 0.37,
@@ -3285,6 +3288,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			k_piston = 3000,
 			k_reg = 0.003,
 			k_vel = 0.017,
+			prop_locations = { { 2.247, -0.005, 0 } },
+			prop_pitch_feather = 0,
+			prop_pitch_max = 52,
+			prop_pitch_min = 25,
 			table_data = { { 0, 16620 }, { 0.1, 15600 }, { 0.2, 14340 }, { 0.3, 13320 }, { 0.4, 12230 }, { 0.5, 11300 }, { 0.6, 10600 }, { 0.7, 10050 }, { 0.8, 9820 }, { 0.9, 5902 }, { 1.9, 3469 } },
 			type = "Radial"
 		}
@@ -3378,7 +3385,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			pilot_name = 256,
 			pos = { -0.885, 0.165, 0 },
 			role = "pilot",
-			role_display_name = "Pilot in command"
+			role_display_name = "Pilot"
 		} },
 	detection_range_max = 0,
 	engines_count = 1,
@@ -3463,6 +3470,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	nose_gear_pos = { -5.534, -0.74, 0 },
 	nose_gear_wheel_diameter = 0.319,
 	panelRadio = { {
+			ID = "FuG16",
 			channels = { {
 					default = 39,
 					modulation = "AM",
@@ -3483,15 +3491,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					default = 38,
 					modulation = "AM",
-					name = "AFN2 Base Frequency "
+					name = "AFN2 Base Frequency"
 				} },
+			displayUnits = "kHz",
 			name = "FuG 16",
 			range = {
 				max = 156,
 				min = 38
 			}
 		} },
-	propellorShapeType = "3ARG",
+	propellorShapeName = "FW-190_A-8_blade.FBX",
+	propellorShapeType = "3ARG_PROC_BLUR",
 	radar_can_see_ground = false,
 	range = 1015,
 	shape_table_data = { {
@@ -3513,6 +3523,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			name = "fw190a-8-oblomoki",
 			positioning = "BYNORMAL"
 		} },
+	swapped_names = true,
 	tand_gear_max = 0.577,
 	thrust_sum_ab = 8224,
 	thrust_sum_max = 8224,

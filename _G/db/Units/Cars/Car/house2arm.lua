@@ -2,6 +2,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	CustomAimPoint = { 0, 6, 0 },
 	DetectionRange = 0,
 	DisplayName = "Watch tower armed",
+	DisplayNameShort = "Watchtwr",
+	IR_emission_coeff = 0.007,
 	MaxSpeed = 0,
 	Name = "Watch tower armed",
 	Rate = 10,
@@ -153,7 +155,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			pos = { 0, 6.7, 1.3 },
 			reference_angle_Y = -1.5707963267949
 		},
-		maxTargetDetectionRange = 2000
+		maxTargetDetectionRange = 10000
 	},
 	Waypoint_Custom_Panel = true,
 	animation_arguments = {},
@@ -171,18 +173,20 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000076",
 	sensor = {
-		height = 2,
-		max_range_finding_target = 1000
+		height = 7.3,
+		max_range_finding_target = 10000
 	},
 	snd = {},
+	swapped_names = true,
+	tags = { "Fortification", "Buildings" },
 	type = "house2arm",
 	visual = {
-		fire_pos = { 0, 6, 0 },
-		fire_size = 1.3,
-		fire_time = 600,
-		max_time_agony = 100,
-		min_time_agony = 20,
+		agony_explosion_size = 0,
+		fire_pos = {},
+		fire_size = 0,
+		fire_time = 0,
+		max_time_agony = -1,
 		shape = "ohr-vyshka",
-		shape_dstr = "Auto-crush"
+		shape_dstr = "ohr-vyshka_crush"
 	}
 }

@@ -45,7 +45,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_82Y"] = {
 				index = "Redacted",
 				life = 1,
 				name = "Mk_82Y",
-				username = "Mk-82Y"
+				username = "Mk-82Y - 500lb GP Chute Retarded HD"
 			} },
 		targeting_data = {
 			char_time = 21,
@@ -53,7 +53,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_82Y"] = {
 			chute_open_time = 0.2
 		},
 		type = 0,
-		user_name = "Mk-82Y",
+		user_name = "Mk-82Y - 500lb GP Chute Retarded HD",
 		warhead = {
 			caliber = 273,
 			concrete_factors = { 1, 1, 1 },
@@ -69,7 +69,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_82Y"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
-	display_name = "Mk-82Y",
+	display_name = "Mk-82Y - 500lb GP Chute Retarded HD",
 	mass = 232,
 	model = "mk-82air",
 	name = "Mk_82Y",
@@ -116,7 +116,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_82Y"] = {
 				index = "Redacted",
 				life = 1,
 				name = "Mk_82Y",
-				username = "Mk-82Y"
+				username = "Mk-82Y - 500lb GP Chute Retarded HD"
 			} },
 		targeting_data = {
 			char_time = 21,
@@ -124,7 +124,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_82Y"] = {
 			chute_open_time = 0.2
 		},
 		type = 0,
-		user_name = "Mk-82Y",
+		user_name = "Mk-82Y - 500lb GP Chute Retarded HD",
 		warhead = {
 			caliber = 273,
 			concrete_factors = { 1, 1, 1 },

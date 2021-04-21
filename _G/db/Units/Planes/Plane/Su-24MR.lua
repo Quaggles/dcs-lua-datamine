@@ -511,6 +511,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	radar_can_see_ground = true,
 	range = 1200,
 	stores_number = 5,
+	swapped_names = true,
 	tand_gear_max = 0.577,
 	tanker_type = 4,
 	thrust_sum_ab = 22400,

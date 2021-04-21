@@ -5,10 +5,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 5000,
-	DisplayName = "AAA Vulcan M163",
+	DisplayName = "SPAAA Vulcan M163",
+	DisplayNameShort = "Vulcan",
 	EPLRS = true,
+	IR_emission_coeff = 0.09,
 	MaxSpeed = 60.00012,
-	Name = "AAA Vulcan M163",
+	Name = "SPAAA Vulcan M163",
 	Rate = 10,
 	ThreatRange = 2000,
 	WS = { {
@@ -27,7 +29,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 1.221730476396 } },
 			center = "CENTER_TOWER",
-			cockpit = { "M61/M61", { -1.5, 0.2, 0 } },
+			cockpit = { "M61/M61", { -1.5, 0.2, 0 },
+				open = true
+			},
 			drawArgument1 = 0,
 			drawArgument2 = 1,
 			omegaY = 1.0471975511966,
@@ -98,15 +102,20 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			sound = "Damage/VehHit"
 		}
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Air Defence", "SP AAA" },
 	turbine = false,
 	type = "Vulcan",
 	visual = {
+		agony_explosion_size = 3,
 		dirt_pos = { -2.2, 0.2, -1.085 },
 		dust_pos = { 2.35, -0.1, -1.085 },
-		fire_pos = { 0.982, 0, 0.315 },
-		fire_size = 0.6,
-		fire_time = 900,
+		fire_pos = { 0.1, 0.85, 0 },
+		fire_size = 0.7,
+		fire_time = 400,
+		max_time_agony = 100,
+		min_time_agony = 10,
 		shape = "VULCAN",
 		shape_dstr = "VULCAN_P_1"
 	}

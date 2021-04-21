@@ -178,6 +178,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		} },
 	DetectionRange = 0,
 	DisplayName = "CT Cromwell IV",
+	DisplayNameShort = "Cromwell",
+	IR_emission_coeff = 0.1,
 	MaxSpeed = 51.984,
 	Name = "CT Cromwell IV",
 	Rate = 20,
@@ -377,14 +379,19 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
+	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Armor", "Tank" },
 	type = "Cromwell_IV",
 	visual = {
+		agony_explosion_size = 3,
 		dirt_pos = { -2.6, 0.2, -1.26 },
 		dust_pos = { 2.85, 0.1, -1.26 },
-		fire_pos = { -0.9, 0.7, -0.1 },
-		fire_size = 0.7,
-		fire_time = 700,
+		fire_pos = { -1.1, 0.7, 0 },
+		fire_size = 0.55,
+		fire_time = 500,
+		max_time_agony = 60,
+		min_time_agony = 10,
 		shape = "Cromwell_IV",
 		shape_dstr = "Cromwell_IV_p_1"
 	}
