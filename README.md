@@ -1,5 +1,5 @@
 # DCS Lua Datamine
-![image](https://user-images.githubusercontent.com/8382945/115588129-c502d200-a311-11eb-9e74-08d4218de6e9.png)
+![image](https://user-images.githubusercontent.com/8382945/115590264-1a3fe300-a314-11eb-9e74-cf76bd60c4f9.png)
 
 ## TL/DR
 
