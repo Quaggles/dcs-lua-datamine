@@ -5,7 +5,9 @@
 
 In DCS 2.7 ED has removed most the lua files in the `Scripts/Database` directory which contained the definitions for most of the rockets, missiles, bombs, warheads, aircraft properties used in the game. For many modders and community members this was a shock since it makes it impossible to see what changes are going on under the hood or to use it as a reference for creating their own weapons/modules.
 
-Because of this I created a script that reads through all the lua tables in the games memory when it launches and writes them out to disk as .lua files for easy reference and for easily comparison with past patches. Since the exported tables are from the games memory there are **no comments** and **no functions**, I've saved some comments from 2.5.6 before the files were removed and put them in [#Comments](https://github.com/Quaggles/dcs-lua-datamine/#comments), this means it can be harder to work out why the values are set to what they are. I only included the tables that I determined to contain useful data and that could be structured into files properly, if you have a suggestion log an issue.
+Because of this I created a script that reads through all the lua tables in the games memory when it launches and writes them out to disk as .lua files for easy reference and for easy comparison with past patches. Since the exported tables are from the games memory there are **no comments** and **no functions**, I've saved some comments from 2.5.6 before the files were removed and put them in [#Comments](https://github.com/Quaggles/dcs-lua-datamine/#comments), this means it can be harder to work out why the values are set to what they are compared to when we had the original lua files. I only included the tables that I determined to contain useful data and that could be structured into files properly, if you have a suggestion log an issue.
+
+I'm planning to keep updating this repository as every Open Beta patch releases.
 
 A quick rundown of the most useful folders and what they contain:
 
