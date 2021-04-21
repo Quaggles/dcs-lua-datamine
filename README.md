@@ -84,7 +84,7 @@ In the lua tables some values are very volitile and will change nearly every DCS
 ## Comments
 Some comments I extracted from the 2.5.6 scripts that explain some of the variables, these were google translated from Russian so good luck
 
-### _G/weapons_table/weapons/rockets
+### _G/weapons_table/weapons/missiles
 ```lua
 local missileTable = {
     autopilot =	--inertial autopilot + horiz correction when seeker is on
