@@ -1,0 +1,135 @@
+_G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
+	Aliases = { "Boman" },
+	CanopyGeometry = {
+		azimuth = {},
+		elevation = {}
+	},
+	DetectionRange = 0,
+	DisplayName = "FDDM Grad",
+	MaxSpeed = 60.00012,
+	Name = "FDDM Grad",
+	Rate = 8,
+	Sensors = {
+		OPTIC = { "NNDV day", "NNDV night" }
+	},
+	ThreatRange = 1000,
+	WS = { {
+			LN = { {
+					PL = { {
+							ammo_capacity = 1,
+							reload_time = 1,
+							rocket_name = "weapons.nurs.GRAD_9M22U",
+							shot_delay = 0.01
+						} },
+					aiming_director = true,
+					distanceMax = 19000,
+					distanceMin = 5000,
+					maxShootingSpeed = 0,
+					reactionTime = 40,
+					reactionTimeLOFAC = 3,
+					sensor = {},
+					type = 34
+				} },
+			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.221730476396 } },
+			drawArgument1 = 0,
+			mount_before_move = true,
+			omegaY = 0.34906585039887,
+			omegaZ = 3.1415926535898,
+			pidY = {
+				d = 7,
+				i = 0,
+				inn = 30,
+				p = 30
+			},
+			pidZ = {
+				d = 7,
+				i = 0,
+				inn = 30,
+				p = 30
+			},
+			pos = { 0, 2.4, 0 }
+		}, {
+			LN = { {
+					BR = { {
+							connector_name = "POINT_MGUN",
+							pos = {}
+						} },
+					PL = { {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						} },
+					distanceMin = 1,
+					fireAnimationArgument = 44,
+					sensor = {},
+					sightIndicationMode = 1,
+					sightMasterMode = 1
+				} },
+			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 0.69813170079773 } },
+			base = 1,
+			center = "CENTER_MGUN",
+			cockpit = { "IronSight/IronSight", { -1.2, 0.1, 0 } },
+			drawArgument1 = 25,
+			drawArgument2 = 26,
+			omegaY = 1.0471975511966,
+			omegaZ = 0.87266462599716,
+			reference_angle_Y = 0,
+			reference_angle_Z = 0
+		},
+		maxTargetDetectionRange = 5000
+	},
+	Waypoint_Custom_Panel = true,
+	animation_arguments = {},
+	armour_scheme = {
+		hull_azimuth = { {}, {}, {} },
+		hull_elevation = { {}, {} },
+		turret_azimuth = { {} },
+		turret_elevation = { {}, {} }
+	},
+	attribute = { 2, 17, 26, "Redacted", "APC", "Infantry carriers", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "NonAndLightArmoredUnits", "LightArmoredUnits" },
+	category = "Armor",
+	chassis = {},
+	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
+	driverViewPoint = { 2.4, 1.8, -0.55 },
+	enablePlayerCanDrive = true,
+	mapclasskey = "P0091000050",
+	sensor = {
+		height = 2.52
+	},
+	snd = {
+		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_vol_a = { {}, {} },
+		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		move = "GndTech/TankMoveLight",
+		move_gain = { { 0, 0.01 }, { 0.5, 0.5 }, { 12, 1 } },
+		move_pitch = { { 0, 0.6 }, { 10, 1 } },
+		move_vol = { {}, {}, {} }
+	},
+	swing_on_run = false,
+	type = "Grad_FDDM",
+	visual = {
+		dirt_pos = { -2.8, 0.4, -1.128 },
+		dust_pos = { 2.7, 0, -1.128 },
+		fire_pos = { 0, 0, 0 },
+		fire_size = 0.7,
+		fire_time = 1000,
+		shape = "BOMAN",
+		shape_dstr = "MTLB_P_1"
+	}
+}

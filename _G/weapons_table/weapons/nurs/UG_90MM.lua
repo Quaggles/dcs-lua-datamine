@@ -1,0 +1,190 @@
+_G["weapons_table"]["weapons"]["nurs"]["UG_90MM"] = {
+	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/rkt_brm1.lua",
+	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
+	_unique_resource_name = "weapons.nurs.UG_90MM",
+	client = {
+		_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/rkt_brm1.lua",
+		_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
+		category = 3,
+		class_name = "wAmmunitionNURS",
+		engine = {
+			boost_factor = 1,
+			boost_tail = 1,
+			boost_time = 0,
+			fuel_mass = 5,
+			impulse = 205,
+			nozzle_orientationXYZ = { { 0, 0, 0 } },
+			nozzle_position = { { -0.65, 0, 0 } },
+			smoke_color = { 0.9, 0.9, 0.9 },
+			smoke_transparency = 0.5,
+			tail_width = 0.052,
+			work_tail = 1,
+			work_time = 1.1
+		},
+		fm = {
+			I = 5,
+			L = 2,
+			Ma = 2,
+			Mw = 5,
+			caliber = 0.09,
+			cx_coeff = { 1, 0.9, 0.6, 0.32, 2.1 },
+			freq = 7,
+			mass = 15,
+			rail_open = false,
+			shapeName = "90-1",
+			wind_sigma = 5,
+			wind_time = 1.1
+		},
+		mass = 15,
+		model = "90-1",
+		name = "UG_90MM",
+		properties = {
+			dist_max = 8000,
+			dist_min = 600
+		},
+		scheme = "schemes/rockets/nurs-standard.sch",
+		shape_table_data = { {
+				file = "90-1",
+				fire = { 0, 1 },
+				index = "Redacted",
+				life = 1,
+				name = "UG_90MM",
+				username = "UG_90MM"
+			} },
+		user_name = "UG_90MM",
+		warhead = {
+			caliber = 90,
+			concrete_factors = { 1, 1, 1 },
+			concrete_obj_factor = 2,
+			cumulative_factor = 1.5,
+			cumulative_thickness = 0.25,
+			expl_mass = 5,
+			fantom = 1,
+			mass = 5,
+			obj_factors = { 1, 1 },
+			other_factors = { 0.5, 0.5, 0.5 },
+			piercing_mass = 0
+		},
+		warhead_air = {
+			caliber = 90,
+			concrete_factors = { 1, 1, 1 },
+			concrete_obj_factor = 2,
+			cumulative_factor = 1.5,
+			cumulative_thickness = 0.25,
+			expl_mass = 5,
+			mass = 5,
+			obj_factors = { 1, 1 },
+			other_factors = { 0.5, 0.5, 0.5 },
+			piercing_mass = 0
+		},
+		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
+	},
+	cx_pil = 3.6031009549136e-05,
+	display_name = "UG_90MM",
+	dist_max = 8000,
+	dist_min = 600,
+	mass = 15,
+	model = "90-1",
+	name = "UG_90MM",
+	server = {
+		_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/rkt_brm1.lua",
+		_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
+		category = 3,
+		class_name = "wAmmunitionNURS",
+		engine = {
+			boost_factor = 1,
+			boost_tail = 1,
+			boost_time = 0,
+			fuel_mass = 5,
+			impulse = 205,
+			nozzle_orientationXYZ = { { 0, 0, 0 } },
+			nozzle_position = { { -0.65, 0, 0 } },
+			smoke_color = { 0.9, 0.9, 0.9 },
+			smoke_transparency = 0.5,
+			tail_width = 0.052,
+			work_tail = 1,
+			work_time = 1.1
+		},
+		fm = {
+			I = 5,
+			L = 2,
+			Ma = 2,
+			Mw = 5,
+			caliber = 0.09,
+			cx_coeff = { 1, 0.9, 0.6, 0.32, 2.1 },
+			freq = 7,
+			mass = 15,
+			rail_open = false,
+			shapeName = "90-1",
+			wind_sigma = 5,
+			wind_time = 1.1
+		},
+		mass = 15,
+		model = "90-1",
+		name = "UG_90MM",
+		properties = {
+			dist_max = 8000,
+			dist_min = 600
+		},
+		scheme = "schemes/rockets/nurs-standard.sch",
+		shape_table_data = { {
+				file = "90-1",
+				fire = { 0, 1 },
+				index = "Redacted",
+				life = 1,
+				name = "UG_90MM",
+				username = "UG_90MM"
+			} },
+		user_name = "UG_90MM",
+		warhead = {
+			caliber = 90,
+			concrete_factors = { 1, 1, 1 },
+			concrete_obj_factor = 2,
+			cumulative_factor = 1.5,
+			cumulative_thickness = 0.25,
+			expl_mass = 5,
+			fantom = 0,
+			mass = 5,
+			obj_factors = { 1, 1 },
+			other_factors = { 0.5, 0.5, 0.5 },
+			piercing_mass = 0
+		},
+		warhead_air = {
+			caliber = 90,
+			concrete_factors = { 1, 1, 1 },
+			concrete_obj_factor = 2,
+			cumulative_factor = 1.5,
+			cumulative_thickness = 0.25,
+			expl_mass = 5,
+			mass = 5,
+			obj_factors = { 1, 1 },
+			other_factors = { 0.5, 0.5, 0.5 },
+			piercing_mass = 0
+		},
+		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
+	},
+	sight_data = {
+		engine = {
+			fuel_mass = 5,
+			impulse = 205,
+			work_time = 1.1
+		},
+		fm = {
+			I = 5,
+			L = 2,
+			Ma = 2,
+			Mw = 5,
+			caliber = 0.09,
+			cx_coeff = { 1, 0.9, 0.6, 0.32, 2.1 },
+			freq = 7,
+			mass = 15,
+			rail_open = false,
+			shapeName = "90-1",
+			wind_sigma = 5,
+			wind_time = 1.1
+		}
+	},
+	sounderName = "Weapons/Rocket",
+	type_name = "rocket",
+	ws_type = { 4, 7, 33, "Redacted" }
+}

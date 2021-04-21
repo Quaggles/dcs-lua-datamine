@@ -1,0 +1,94 @@
+_G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
+	CanopyGeometry = {
+		azimuth = {},
+		elevation = {}
+	},
+	DetectionRange = 10000,
+	DisplayName = "SAM Chaparral M48",
+	EPLRS = true,
+	MaxSpeed = 60.00012,
+	Name = "SAM Chaparral M48",
+	Rate = 8,
+	ThreatRange = 8500,
+	WS = { {
+			LN = { {
+					BR = { {}, {}, {}, {} },
+					PL = { {
+							type_ammunition = {}
+						} },
+					min_launch_angle = 0.26179938779915,
+					sensor = {},
+					sightIndicationMode = 1,
+					sightMasterMode = 1
+				} },
+			angles = { { 3.1415926535898, 1.221730476396, -0.15707963267949, 1.553343034275 }, { 1.221730476396, -1.221730476396, 0.41887902047864, 1.553343034275 }, { -1.221730476396, -3.1415926535898, -0.15707963267949, 1.553343034275 } },
+			angles_mech = { { 3.1415926535898, -3.1415926535898, -0.15707963267949, 1.553343034275 } },
+			canSetTacticalDir = true,
+			center = "CENTER_TOWER",
+			cockpit = { "ChaparralSight/ChaparralSight", { 0, 0, 0 } },
+			drawArgument1 = 0,
+			drawArgument2 = 1,
+			omegaY = 0.5,
+			omegaZ = 0.6,
+			pidY = {
+				d = 12,
+				i = 2,
+				inn = 10,
+				p = 100
+			},
+			pidZ = {
+				d = 12,
+				i = 2,
+				inn = 10,
+				p = 100
+			},
+			pointer = "POINT_View",
+			reference_angle_Y = 3.1415926535898
+		},
+		maxTargetDetectionRange = 10000
+	},
+	Waypoint_Custom_Panel = true,
+	animation_arguments = {},
+	armour_scheme = {
+		hull_azimuth = { {} },
+		hull_elevation = { {} },
+		turret_azimuth = { {} },
+		turret_elevation = { {} }
+	},
+	attribute = { 2, 16, 27, "Redacted", "AA_missile", "SR SAM", "IR Guided SAM", "Datalink", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "SAM related", "Armed Air Defence", "All", "Ground Units", "Vehicles", "Ground vehicles", "SAM" },
+	category = "Air Defence",
+	chassis = {
+		X_gear_1 = 1,
+		X_gear_2 = -2.25,
+		Z_gear_1 = 1.2,
+		Z_gear_2 = 1.2,
+		life = 1
+	},
+	driverViewConnectorName = { "DRIVER_POINT",
+		offset = { 0, 0, 0 }
+	},
+	enablePlayerCanDrive = true,
+	mapclasskey = "P0091000215",
+	sensor = {
+		height = 2.52,
+		max_range_finding_target = 10000
+	},
+	snd = {
+		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_vol_a = { {}, {} },
+		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		move_pitch = { {}, {} },
+		move_vol = { {}, {}, {} }
+	},
+	swing_on_run = true,
+	type = "M48 Chaparral",
+	visual = {
+		dirt_pos = { -3, 0.3, -1.2 },
+		dust_pos = { 1.8, -0.1, -1.2 },
+		fire_pos = { 2, 0, 0 },
+		fire_size = 0.8,
+		fire_time = 1000,
+		shape = "M48",
+		shape_dstr = "M48_P1"
+	}
+}

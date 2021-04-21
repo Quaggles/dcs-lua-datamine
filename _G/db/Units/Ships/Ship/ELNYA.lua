@@ -1,0 +1,52 @@
+_G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
+	DeckLevel = 7.2,
+	DetectionRange = 0,
+	DisplayName = "Tanker Elnya 160",
+	Gamma_max = 0.35,
+	Height = 25.6,
+	Length = 110.8,
+	Name = "Tanker Elnya 160",
+	Om = 0.02,
+	R_min = 212.4,
+	Rate = 700,
+	Singleton = "no",
+	Tail_Width = 11,
+	ThreatRange = 0,
+	Waypoint_Custom_Panel = true,
+	Width = 15.9,
+	X_nose = 57.7158,
+	X_tail = -40.001,
+	airFindDist = 0,
+	airWeaponDist = 0,
+	animation_arguments = {
+		arresting_wires = {},
+		blast_fences = {},
+		water_propeller = -1
+	},
+	armour_scheme = {
+		hull_azimuth = { {} },
+		hull_elevation = { {} },
+		turret_azimuth = { {} },
+		turret_elevation = { {} }
+	},
+	attribute = { 3, 12, 15, "Redacted", "Unarmed ships", "All", "Ships", "HeavyArmoredUnits" },
+	chassis = {},
+	distFindObstacles = 368.6,
+	economy_distance = 15927200,
+	economy_velocity = 6.17333,
+	life = 400,
+	mapclasskey = "P0000000634",
+	mass = 7250000,
+	max_velocity = 7.20222,
+	race_distance = 15927200,
+	race_velocity = 6.17333,
+	riverCraft = true,
+	shipLength = 101.8,
+	snd = {},
+	speedup = 0.0814062,
+	type = "ELNYA",
+	visual = {
+		shape = "elnya",
+		shape_dstr = ""
+	}
+}

@@ -1,0 +1,16 @@
+_G["launcher"]["{05544F1A-C39C-466b-BC37-5BD1D52E57BB}"] = {
+	CLSID = "{05544F1A-C39C-466b-BC37-5BD1D52E57BB}",
+	Cx_pil = 0.001220703125,
+	Elements = { {
+			Position = { 0, 0, 0 },
+			ShapeName = "UPK-23-250"
+		} },
+	Picture = "rus_UPK-23-250.png",
+	PictureBlendColor = "0xffffffff",
+	Weight = 218,
+	Weight_Empty = 78,
+	attribute = { 4, 15, 46, "Redacted" },
+	displayName = "UPK-23-250",
+	kind_of_shipping = 2,
+	wsTypeOfWeapon = { 4, 6, 10, "Redacted" }
+}

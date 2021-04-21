@@ -1,0 +1,12 @@
+_G["launcher"]["{GBU-31V3B}"] = {
+	CLSID = "{GBU-31V3B}",
+	Elements = { {
+			DrawArgs = { { 1, 1 }, { 2, 1 } },
+			Position = { 0, 0, 0 },
+			ShapeName = "GBU31_V_3B_BLU109"
+		} },
+	Picture = "GBU-31V3B.png",
+	Weight = 981,
+	attribute = { 4, 5, 36, "Redacted" },
+	displayName = "GBU-31(V)3/B"
+}

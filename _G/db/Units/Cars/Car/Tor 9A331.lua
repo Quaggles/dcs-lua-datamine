@@ -1,0 +1,125 @@
+_G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
+	CanopyGeometry = {
+		azimuth = {},
+		elevation = {}
+	},
+	DetectionRange = 25000,
+	DisplayName = "SAM SA-15 Tor 9A331",
+	MaxSpeed = 65.00016,
+	Name = "SAM SA-15 Tor 9A331",
+	Rate = 25,
+	Sensors = {
+		OPTIC = { "generic SAM search visir" },
+		RADAR = "Tor 9A331"
+	},
+	ThreatRange = 12000,
+	WS = { {
+			LN = { {
+					BR = { {
+							connector_name = "POINT_ROCKET_01",
+							drawArgument = 4
+						}, {
+							connector_name = "POINT_ROCKET_02",
+							drawArgument = 5
+						}, {
+							connector_name = "POINT_ROCKET_03",
+							drawArgument = 6
+						}, {
+							connector_name = "POINT_ROCKET_04",
+							drawArgument = 7
+						}, {
+							connector_name = "POINT_ROCKET_05",
+							drawArgument = 18
+						}, {
+							connector_name = "POINT_ROCKET_06",
+							drawArgument = 19
+						}, {
+							connector_name = "POINT_ROCKET_07",
+							drawArgument = 27
+						}, {
+							connector_name = "POINT_ROCKET_08",
+							drawArgument = 28
+						} },
+					PL = { {
+							type_ammunition = {}
+						} },
+					customViewPoint = { "genericMissile", { 0, 0, 0 } },
+					sensor = {}
+				} },
+			PPI_view = "GenericPPI/GenericPPI",
+			angles = { { 3.1415926535898, -3.1415926535898, -0.069813170079773, 1.4835298641952 } },
+			center = "CENTER_TOWER",
+			drawArgument1 = 0,
+			drawArgument2 = 1,
+			isoviewOffset = { 0, 6, 0 },
+			mount_before_move = true,
+			omegaY = 0.5235987755983,
+			omegaZ = 0.69813170079773,
+			pidY = {
+				d = 7,
+				i = 0.1,
+				inn = 3,
+				p = 40
+			},
+			pidZ = {
+				d = 10,
+				i = 0.1,
+				inn = 10,
+				p = 100
+			},
+			pointer = "POINT_SIGHT_01",
+			reference_angle_Y = 3.1415926535898
+		},
+		maxTargetDetectionRange = 25000,
+		radar_rotation_type = 1,
+		radar_type = 104,
+		searchRadarMaxElevation = 0.78539816339745
+	},
+	Waypoint_Custom_Panel = true,
+	animation_arguments = {
+		locator_rotation = 11
+	},
+	armour_scheme = {
+		hull_azimuth = { {}, {}, {} },
+		hull_elevation = { {}, {} },
+		turret_azimuth = { {} },
+		turret_elevation = { {}, {} }
+	},
+	attribute = { 2, 16, 102, "Redacted", "AA_missile", "SR SAM", "SAM SR", "SAM TR", "RADAR_BAND1_FOR_ARM", "All", "Ground Units", "Vehicles", "Ground vehicles", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "SAM related", "SAM elements" },
+	category = "Air Defence",
+	chassis = {},
+	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
+	driverViewConnectorName = { "DRIVER_POINT",
+		offset = { 0.1, 0, 0 }
+	},
+	enablePlayerCanDrive = true,
+	mapclasskey = "P0091000087",
+	radar_rotation_period = 1,
+	sensor = {
+		height = 5.118,
+		max_alt_finding_target = 8000,
+		max_range_finding_target = 25000,
+		min_alt_finding_target = 20,
+		min_range_finding_target = 500
+	},
+	snd = {
+		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_vol_a = { {}, {} },
+		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		move_pitch = { {}, {} },
+		move_vol = { {}, {}, {} },
+		radarRotation = "RadarRotation"
+	},
+	swing_on_run = false,
+	toggle_alarm_state_interval = 10,
+	type = "Tor 9A331",
+	visual = {
+		dirt_pos = { -3.6, 0.5, -1.311 },
+		dust_pos = { 3.5, 0.1, -1.311 },
+		fire_pos = { 0, 0, 0 },
+		fire_size = 1,
+		fire_time = 1000,
+		shape = "9a331",
+		shape_dstr = "9a331_p_1"
+	}
+}

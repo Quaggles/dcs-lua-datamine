@@ -1,0 +1,17 @@
+_G["db"]["Units"]["Cargos"]["Cargo"]["#Index"] = {
+	DisplayName = "Pipes big",
+	Name = "Pipes big",
+	Rate = 100,
+	ShapeName = "pipes_big_cargo",
+	ShapeNameDstr = "pipes_big_cargo_dam",
+	attribute = { "Cargos" },
+	canExplode = false,
+	category = "Cargo",
+	couldCargo = true,
+	life = 15,
+	mapclasskey = "P0091000352",
+	mass = 4815,
+	maxMass = 4815,
+	minMass = 4815,
+	type = "pipes_big_cargo"
+}

@@ -1,0 +1,124 @@
+_G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
+	CanopyGeometry = {
+		azimuth = {},
+		elevation = {}
+	},
+	DetectionRange = 0,
+	DisplayName = "APC M1126 Stryker ICV",
+	EPLRS = true,
+	InternalCargo = {
+		maximalCapacity = 900,
+		nominalCapacity = 900
+	},
+	MaxSpeed = 72,
+	Name = "APC M1126 Stryker ICV",
+	Rate = 10,
+	Sensors = {
+		OPTIC = { "M151 Protector RWS day", "M151 Protector RWS IR" }
+	},
+	ThreatRange = 1200,
+	WS = { {
+			LN = { {
+					BR = { {
+							connector_name = "POINT_GUN",
+							pos = {}
+						} },
+					PL = { {
+							ammo_capacity = 200,
+							portionAmmoCapacity = 200,
+							reload_time = 25,
+							shell_name = {},
+							switch_on_delay = 20
+						}, {
+							ammo_capacity = 200,
+							portionAmmoCapacity = 200,
+							reload_time = 25,
+							shell_name = {},
+							switch_on_delay = 20
+						}, {
+							ammo_capacity = 200,
+							portionAmmoCapacity = 200,
+							reload_time = 25,
+							shell_name = {},
+							switch_on_delay = 20
+						}, {
+							ammo_capacity = 200,
+							portionAmmoCapacity = 200,
+							reload_time = 25,
+							shell_name = {},
+							switch_on_delay = 20
+						}, {
+							ammo_capacity = 200,
+							portionAmmoCapacity = 200,
+							reload_time = 25,
+							shell_name = {},
+							switch_on_delay = 20
+						} },
+					beamWidth = 0.017453292519943,
+					customViewPoint = { "genericAAA", { -1.5, 0.2, 0 } },
+					fireAnimationArgument = 23,
+					sensor = {}
+				} },
+			angles = { { 3.1415926535898, 2.1816615649929, -0.15707963267949, 0.95993108859688 }, { 2.1816615649929, -2.6179938779915, -0.27925268031909, 0.95993108859688 }, { -2.6179938779915, -3.1415926535898, -0.15707963267949, 0.95993108859688 } },
+			angles_mech = { { 3.1415926535898, -3.1415926535898, -0.38397243543875, 0.95993108859688 } },
+			center = "CENTER_TOWER",
+			drawArgument1 = 0,
+			drawArgument2 = 1,
+			laser = true,
+			omegaY = 1.221730476396,
+			omegaZ = 1.5707963267949,
+			pidY = {
+				d = 10,
+				i = 2,
+				inn = 10,
+				p = 100
+			},
+			pidZ = {
+				d = 10,
+				i = 2,
+				inn = 10,
+				p = 100
+			},
+			stabilizer = true
+		},
+		maxTargetDetectionRange = 5000,
+		smoke = { "SMOKE_02", "SMOKE_05", "SMOKE_04", "SMOKE_07", "SMOKE_01", "SMOKE_06", "SMOKE_03", "SMOKE_08" }
+	},
+	Waypoint_Custom_Panel = true,
+	animation_arguments = {},
+	armour_scheme = {
+		hull_azimuth = { {}, {}, {} },
+		hull_elevation = { {}, {} },
+		turret_azimuth = { {} },
+		turret_elevation = { {}, {} }
+	},
+	attribute = { 2, 17, 26, "Redacted", "APC", "Datalink", "Infantry carriers", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "NonAndLightArmoredUnits", "LightArmoredUnits" },
+	category = "Armor",
+	chassis = {},
+	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
+	driverViewConnectorName = { "DRIVER_POINT",
+		offset = { 0.05, 0, 0 }
+	},
+	enablePlayerCanDrive = true,
+	mapclasskey = "P0091000004",
+	sensor = {
+		height = 2.6
+	},
+	snd = {
+		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_vol_a = {},
+		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		move_pitch = { {}, {} },
+		move_vol = { {}, {}, {} }
+	},
+	swing_on_run = false,
+	turbine = false,
+	type = "M1126 Stryker ICV",
+	visual = {
+		fire_pos = { 1, 0, 0 },
+		fire_size = 0.9,
+		fire_time = 1000,
+		shape = "M1126",
+		shape_dstr = "M1126_P1"
+	}
+}

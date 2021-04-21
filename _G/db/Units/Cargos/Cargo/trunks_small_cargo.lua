@@ -1,0 +1,17 @@
+_G["db"]["Units"]["Cargos"]["Cargo"]["#Index"] = {
+	DisplayName = "Trunks short",
+	Name = "Trunks short",
+	Rate = 100,
+	ShapeName = "trunks_small_cargo",
+	ShapeNameDstr = "trunks_small_cargo_dam",
+	attribute = { "Cargos" },
+	canExplode = false,
+	category = "Cargo",
+	couldCargo = true,
+	life = 10,
+	mapclasskey = "P0091000352",
+	mass = 5000,
+	maxMass = 5000,
+	minMass = 5000,
+	type = "trunks_small_cargo"
+}

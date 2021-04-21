@@ -1,0 +1,242 @@
+_G["weapons_table"]["weapons"]["missiles"]["AT_6"] = {
+	Reflection = 0.0495,
+	_unique_resource_name = "weapons.missiles.AT_6",
+	caliber = 0.3,
+	client = {
+		autopilot = {
+			Kd = 0.036,
+			Ki = 0.056,
+			Kp = 0.062,
+			delay = 0.7,
+			fins_discreet = 0.08,
+			max_ctrl_angle = 1.15,
+			no_ctrl_center_ang = 2e-05,
+			op_time = 18
+		},
+		booster = {
+			custom_smoke_dissipation_factor = 0,
+			fuel_mass = 1,
+			impulse = 220,
+			nozzle_position = { { -1, 0, 0 } },
+			smoke_color = { 0.8, 0.8, 0.8 },
+			smoke_transparency = 0.8,
+			tail_width = 0.3,
+			work_time = 0.05
+		},
+		eng_err = {
+			max_time_interval = 1,
+			min_time_interval = 0.1,
+			y_error = 0,
+			z_error = 0.1
+		},
+		fm = {
+			A = 0.6,
+			I = 6.8636583333333,
+			L = 1.63,
+			Ma = 2,
+			Mw = 5,
+			Sw = 0.12,
+			caliber = 0.3,
+			cx_coeff = { 1, 0.36, 1.2, 0.15, 1.6 },
+			dCydA = { 0.024, 0.018 },
+			finsTau = 0.05,
+			freq = 4,
+			mass = 31,
+			maxAoa = 0.2
+		},
+		march = {
+			custom_smoke_dissipation_factor = 0.3,
+			fuel_mass = 5,
+			impulse = 240,
+			nozzle_orientationXYZ = { { 0, -0.2, 0 }, { 0, 0.2, 0 } },
+			nozzle_position = { { -0.45, 0, 0.07 }, { -0.45, 0, -0.07 } },
+			smoke_color = { 0.8, 0.8, 0.8 },
+			smoke_transparency = 0.1,
+			tail_width = 0.06,
+			work_time = 2
+		},
+		march2 = {
+			custom_smoke_dissipation_factor = 0.3,
+			fuel_mass = 3.6,
+			impulse = 250,
+			nozzle_orientationXYZ = { { 0, -0.2, 0 }, { 0, 0.2, 0 } },
+			nozzle_position = { { -0.45, 0, 0.07 }, { -0.45, 0, -0.07 } },
+			smoke_color = { 0.8, 0.8, 0.8 },
+			smoke_transparency = 0.1,
+			tail_width = 0.06,
+			work_time = 2.5
+		},
+		march_smoke = {
+			custom_smoke_dissipation_factor = 0.4,
+			fuel_mass = 0.6,
+			impulse = 240,
+			nozzle_orientationXYZ = { { 0, -0.2, 0.15 }, { 0, 0.2, 0 } },
+			nozzle_position = { { -0.45, 0, 0.1 }, { -0.45, 0, -0.1 } },
+			smoke_color = { 0.1, 0.1, 0.1 },
+			smoke_transparency = 0.1,
+			tail_width = 0.4,
+			work_time = 0.5
+		},
+		scheme = "schemes/missiles/shturm_new.sch",
+		spiral_nav = {
+			def_cone_max_dist = 6500,
+			def_cone_near_rad = 1000,
+			def_cone_near_rad_st = 0,
+			def_cone_time_stab_rad = 0,
+			gb_angle = 0.0036,
+			gb_max_retW = 0.4,
+			gb_min_dist = 3200,
+			gb_ret_Kp = 1.1,
+			gb_use_time = 5.3,
+			t_cone_near_rad = 1000
+		},
+		warhead = {
+			caliber = 130,
+			concrete_factors = { 1, 1, 1 },
+			concrete_obj_factor = 0,
+			cumulative_factor = 3,
+			cumulative_thickness = 0.75,
+			expl_mass = 2.4,
+			fantom = 1,
+			mass = 5.4,
+			obj_factors = { 1, 1 },
+			other_factors = { 1, 1, 1 },
+			piercing_mass = 1.08
+		},
+		warhead_air = {
+			caliber = 130,
+			concrete_factors = { 1, 1, 1 },
+			concrete_obj_factor = 0,
+			cumulative_factor = 3,
+			cumulative_thickness = 0.75,
+			expl_mass = 2.4,
+			fantom = 1,
+			mass = 5.4,
+			obj_factors = { 1, 1 },
+			other_factors = { 1, 1, 1 },
+			piercing_mass = 1.08
+		}
+	},
+	display_name = "AT-6",
+	mass = 31,
+	model = "9m114",
+	name = "AT_6",
+	server = {
+		autopilot = {
+			Kd = 0.036,
+			Ki = 0.056,
+			Kp = 0.062,
+			delay = 0.7,
+			fins_discreet = 0.08,
+			max_ctrl_angle = 1.15,
+			no_ctrl_center_ang = 2e-05,
+			op_time = 18
+		},
+		booster = {
+			custom_smoke_dissipation_factor = 0,
+			fuel_mass = 1,
+			impulse = 220,
+			nozzle_position = { { -1, 0, 0 } },
+			smoke_color = { 0.8, 0.8, 0.8 },
+			smoke_transparency = 0.8,
+			tail_width = 0.3,
+			work_time = 0.05
+		},
+		eng_err = {
+			max_time_interval = 1,
+			min_time_interval = 0.1,
+			y_error = 0,
+			z_error = 0.1
+		},
+		fm = {
+			A = 0.6,
+			I = 6.8636583333333,
+			L = 1.63,
+			Ma = 2,
+			Mw = 5,
+			Sw = 0.12,
+			caliber = 0.3,
+			cx_coeff = { 1, 0.36, 1.2, 0.15, 1.6 },
+			dCydA = { 0.024, 0.018 },
+			finsTau = 0.05,
+			freq = 4,
+			mass = 31,
+			maxAoa = 0.2
+		},
+		march = {
+			custom_smoke_dissipation_factor = 0.3,
+			fuel_mass = 5,
+			impulse = 240,
+			nozzle_orientationXYZ = { { 0, -0.2, 0 }, { 0, 0.2, 0 } },
+			nozzle_position = { { -0.45, 0, 0.07 }, { -0.45, 0, -0.07 } },
+			smoke_color = { 0.8, 0.8, 0.8 },
+			smoke_transparency = 0.1,
+			tail_width = 0.06,
+			work_time = 2
+		},
+		march2 = {
+			custom_smoke_dissipation_factor = 0.3,
+			fuel_mass = 3.6,
+			impulse = 250,
+			nozzle_orientationXYZ = { { 0, -0.2, 0 }, { 0, 0.2, 0 } },
+			nozzle_position = { { -0.45, 0, 0.07 }, { -0.45, 0, -0.07 } },
+			smoke_color = { 0.8, 0.8, 0.8 },
+			smoke_transparency = 0.1,
+			tail_width = 0.06,
+			work_time = 2.5
+		},
+		march_smoke = {
+			custom_smoke_dissipation_factor = 0.4,
+			fuel_mass = 0.6,
+			impulse = 240,
+			nozzle_orientationXYZ = { { 0, -0.2, 0.15 }, { 0, 0.2, 0 } },
+			nozzle_position = { { -0.45, 0, 0.1 }, { -0.45, 0, -0.1 } },
+			smoke_color = { 0.1, 0.1, 0.1 },
+			smoke_transparency = 0.1,
+			tail_width = 0.4,
+			work_time = 0.5
+		},
+		scheme = "schemes/missiles/shturm_new.sch",
+		spiral_nav = {
+			def_cone_max_dist = 6500,
+			def_cone_near_rad = 1000,
+			def_cone_near_rad_st = 0,
+			def_cone_time_stab_rad = 0,
+			gb_angle = 0.0036,
+			gb_max_retW = 0.4,
+			gb_min_dist = 3200,
+			gb_ret_Kp = 1.1,
+			gb_use_time = 5.3,
+			t_cone_near_rad = 1000
+		},
+		warhead = {
+			caliber = 130,
+			concrete_factors = { 1, 1, 1 },
+			concrete_obj_factor = 0,
+			cumulative_factor = 3,
+			cumulative_thickness = 0.75,
+			expl_mass = 2.4,
+			fantom = 0,
+			mass = 5.4,
+			obj_factors = { 1, 1 },
+			other_factors = { 1, 1, 1 },
+			piercing_mass = 1.08
+		},
+		warhead_air = {
+			caliber = 130,
+			concrete_factors = { 1, 1, 1 },
+			concrete_obj_factor = 0,
+			cumulative_factor = 3,
+			cumulative_thickness = 0.75,
+			expl_mass = 2.4,
+			fantom = 0,
+			mass = 5.4,
+			obj_factors = { 1, 1 },
+			other_factors = { 1, 1, 1 },
+			piercing_mass = 1.08
+		}
+	},
+	sounderName = "Weapons/Missile",
+	type_name = "missile",
+	ws_type = { 4, 4, 8, "Redacted" }
+}

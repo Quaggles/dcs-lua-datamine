@@ -1,0 +1,29 @@
+_G["db"]["Units"]["Fortifications"]["Fortification"]["#Index"] = {
+	Countries = { "China" },
+	DisplayName = "Warning Board B",
+	Life = 1,
+	Name = "Warning Board B",
+	Rate = 1,
+	SeaObject = false,
+	ShapeName = "biaoyu-2",
+	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Tech/warning_boards.lua",
+	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
+	attribute = { 5, 9 },
+	category = "Fortification",
+	classname = "lStandartStructure",
+	desrt = "self",
+	enablePlayerCanDrive = false,
+	isPutToWater = false,
+	mapclasskey = "P0091000035",
+	positioning = "ONLYHEIGTH",
+	shape_table_data = { {
+			classname = "lStandartStructure",
+			desrt = "self",
+			file = "biaoyu-2",
+			life = 1,
+			name = "biaoyu-2",
+			positioning = "ONLYHEIGTH",
+			username = "warning_board_b"
+		} },
+	type = "warning_board_b"
+}

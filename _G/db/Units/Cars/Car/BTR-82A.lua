@@ -1,0 +1,122 @@
+_G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
+	CanopyGeometry = {
+		azimuth = {},
+		elevation = {}
+	},
+	Countries = { "Kazakhstan", "Russia", "Syria" },
+	DetectionRange = 0,
+	DisplayName = "APC BTR-82A",
+	DisplayNameShort = "BTR82A",
+	InternalCargo = {
+		maximalCapacity = 700,
+		nominalCapacity = 700
+	},
+	Name = "APC BTR-82A",
+	Rate = 11,
+	Sensors = {
+		OPTIC = { "TKN-3B day", "TKN-3B night" }
+	},
+	ThreatRange = 2000,
+	WS = { {
+			LN = { {
+					BR = { {
+							connector_name = "POINT_GUN_02",
+							pos = {}
+						} },
+					PL = { {
+							ammo_capacity = 2000,
+							portionAmmoCapacity = 2000,
+							reload_time = 600,
+							shell_name = {},
+							switch_on_delay = 0.1
+						} },
+					beamWidth = 0.017453292519943,
+					distanceMaxForFCS = 2000,
+					secondary = true,
+					sensor = {}
+				}, {
+					BR = { {
+							connector_name = "POINT_GUN_01",
+							recoilArgument = 23,
+							recoilTime = 0.1
+						} },
+					PL = { {
+							ammo_capacity = 180,
+							feedSlot = 1,
+							shell_name = {}
+						}, {
+							ammo_capacity = 120,
+							feedSlot = 2,
+							shell_name = {}
+						} },
+					beamWidth = 0.017453292519943,
+					distanceMaxForFCS = 4000,
+					sensor = {},
+					sightIndicationMode = 1,
+					sightMasterMode = 1
+				} },
+			angles = { { 2.7925268031909, -2.7925268031909, -0.10471975511966, 1.0471975511966 }, { -2.7925268031909, 2.7925268031909, -0.034906585039887, 1.0471975511966 } },
+			center = "CENTER_TOWER_01",
+			cockpit = { "BPK-2-42/BPK-2-42", { 0, 0, 0 } },
+			drawArgument1 = 0,
+			drawArgument2 = 1,
+			omegaY = 0.5235987755983,
+			omegaZ = 0.69813170079773,
+			pointer = "POINT_SIGHT_02",
+			stabilizer = true
+		},
+		maxTargetDetectionRange = 5000,
+		smoke = { "SMOKE_03", "SMOKE_04", "SMOKE_02", "SMOKE_05", "SMOKE_01", "SMOKE_06" }
+	},
+	Waypoint_Custom_Panel = true,
+	_file = "./CoreMods/tech/TechWeaponPack/Database/db_units_cars.lua",
+	_origin = "TechWeaponPack",
+	animation_arguments = {},
+	armour_scheme = {
+		hull_azimuth = { {}, {}, {} },
+		hull_elevation = { {}, {} },
+		turret_azimuth = { {} },
+		turret_elevation = { {}, {} }
+	},
+	attribute = { 2, 17, 26, "Redacted", "APC", "Infantry carriers", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "NonAndLightArmoredUnits", "LightArmoredUnits" },
+	category = "Armor",
+	chassis = {},
+	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
+	driverViewConnectorName = { "POINT_DRVER",
+		offset = { 0.05, 0, 0 }
+	},
+	enablePlayerCanDrive = true,
+	mapclasskey = "P0091000004",
+	sensor = {
+		height = 2.32
+	},
+	shape_table_data = { {
+			classname = "lLandVehicle",
+			desrt = "BTR-82A_p_1",
+			file = "BTR-82A",
+			life = 5,
+			name = "BTR-82A",
+			positioning = "BYNORMAL",
+			username = "BTR-82A"
+		}, {
+			file = "BTR-82A_p_1",
+			name = "BTR-82A_p_1"
+		} },
+	snd = {
+		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_vol_a = {},
+		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		move_pitch = { {}, {} },
+		move_vol = { {}, {}, {} }
+	},
+	swing_on_run = false,
+	turbine = false,
+	type = "BTR-82A",
+	visual = {
+		fire_pos = { -2.8, 0.8, 0 },
+		fire_size = 0.5,
+		fire_time = 700,
+		shape = "BTR-82A",
+		shape_dstr = "BTR-82A_p_1"
+	}
+}

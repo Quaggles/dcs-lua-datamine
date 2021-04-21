@@ -1,0 +1,156 @@
+_G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
+	CanopyGeometry = {
+		azimuth = {},
+		elevation = {}
+	},
+	DM = { {
+			area_name = "FRONT_01",
+			armour = {
+				width = 0.02
+			}
+		}, {
+			area_name = "FRONT_02",
+			armour = {
+				width = 0.02
+			}
+		}, {
+			area_name = "BODY_LEFT",
+			armour = {
+				width = 0.022
+			}
+		}, {
+			area_name = "BOFY_RIGHT",
+			armour = {
+				width = 0.022
+			}
+		}, {
+			area_name = "BODY_BACK",
+			armour = {
+				width = 0.02
+			}
+		}, {
+			area_name = "BODY_BOTTOM",
+			armour = {
+				width = 0.014
+			}
+		}, {
+			area_name = "GUN",
+			armour = {
+				width = 0.07
+			}
+		}, {
+			area_name = "TURRET",
+			armour = {
+				width = 0.008
+			}
+		}, {
+			area_name = "HATCH",
+			armour = {
+				width = 0.008
+			}
+		}, {
+			area_name = "Tracks_LEFT",
+			armour = {
+				width = 0.07
+			}
+		}, {
+			area_name = "Tracks_RIGHT",
+			armour = {
+				width = 0.07
+			}
+		} },
+	DetectionRange = 0,
+	DisplayName = "APC M113",
+	EPLRS = true,
+	InternalCargo = {
+		maximalCapacity = 1100,
+		nominalCapacity = 1100
+	},
+	MaxSpeed = 60.00012,
+	Name = "APC M113",
+	Rate = 10,
+	ThreatRange = 1200,
+	WS = { {
+			LN = { {
+					BR = { {
+							connector_name = "POINT_GUN",
+							pos = {}
+						} },
+					PL = { {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						} },
+					fireAnimationArgument = 23,
+					sensor = {},
+					sightIndicationMode = 1,
+					sightMasterMode = 1
+				} },
+			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 0.87266462599716 } },
+			center = "CENTER_TOWER",
+			cockpit = { "IronSight/IronSight", { -1.5, 0.14, 0 } },
+			drawArgument1 = 0,
+			drawArgument2 = 1,
+			omegaY = 1.3962634015955,
+			omegaZ = 1.5707963267949,
+			pidY = {
+				d = 8,
+				i = 0.1,
+				inn = 5.5,
+				p = 60
+			},
+			pidZ = {
+				d = 8,
+				i = 0.1,
+				inn = 5.5,
+				p = 60
+			}
+		},
+		maxTargetDetectionRange = 5000
+	},
+	Waypoint_Custom_Panel = true,
+	animation_arguments = {},
+	armour_scheme = {
+		hull_azimuth = { {}, {}, {} },
+		hull_elevation = { { -90, 50, 1 }, { 50, 90, 0.6 } },
+		turret_azimuth = { {} },
+		turret_elevation = { {}, {} }
+	},
+	attribute = { 2, 17, 26, "Redacted", "APC", "Datalink", "Infantry carriers", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "NonAndLightArmoredUnits", "LightArmoredUnits" },
+	category = "Armor",
+	chassis = {},
+	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
+	driverViewConnectorName = { "DRIVER_POINT",
+		offset = { 0.05, 0.03, 0 }
+	},
+	enablePlayerCanDrive = true,
+	mapclasskey = "P0091000004",
+	sensor = {
+		height = 2.52
+	},
+	snd = {
+		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_vol_a = { {}, {} },
+		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		move_pitch = { {}, {} },
+		move_vol = { {}, {}, {} }
+	},
+	swing_on_run = false,
+	turbine = false,
+	type = "M-113",
+	visual = {
+		dirt_pos = { -2.2, 0.2, -1.085 },
+		dust_pos = { 2.305, 0, -1.085 },
+		fire_pos = { 0, 0, -0.413 },
+		fire_size = 0.4,
+		fire_time = 900,
+		shape = "m-113",
+		shape_dstr = "M-113_p_1"
+	}
+}

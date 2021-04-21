@@ -1,0 +1,26 @@
+_G["launcher"]["{RBK_250_PTAB25M_DUAL_R}"] = {
+	CLSID = "{RBK_250_PTAB25M_DUAL_R}",
+	Count = 2,
+	Cx_pil = 0.0004,
+	Elements = { {
+			IsAdapter = true,
+			ShapeName = "J-11A_twinpylon_r"
+		}, {
+			DrawArgs = { { 1, 1 }, { 2, 1 }, { 3, 1 } },
+			connector_name = "Pylon_out",
+			payload_CLSID = "{4203753F-8198-4E85-9924-6F8FF679F9FF}"
+		}, {
+			DrawArgs = { { 1, 1 }, { 2, 1 }, { 3, -1 } },
+			connector_name = "Pylon_in",
+			payload_CLSID = "{4203753F-8198-4E85-9924-6F8FF679F9FF}"
+		} },
+	JettisonSubmunitionOnly = true,
+	Picture = "rbk250_dual.png",
+	Weight = 578,
+	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/bomb_misc.lua",
+	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
+	attribute = { 4, 5, 32, "Redacted" },
+	category = 1,
+	displayName = "2 x RBK-250 PTAB-2.5M",
+	wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
+}

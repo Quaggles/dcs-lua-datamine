@@ -1,0 +1,242 @@
+_G["weapons_table"]["weapons"]["missiles"]["X_31P"] = {
+	Reflection = 0.3,
+	_unique_resource_name = "weapons.missiles.X_31P",
+	caliber = 0.36,
+	client = {
+		autopilot = {
+			J_Angle_K = 0.24434609527921,
+			J_Angle_W = 3.5,
+			J_Diff_K = 0.4,
+			J_FinAngle_K = 0.41887902047864,
+			J_Int_K = 0,
+			J_Power_K = 1.2,
+			K = 240,
+			Kg = 24,
+			Ki = 0,
+			delay = 1,
+			finsLimit = 0.25,
+			useJumpByDefault = 1
+		},
+		booster = {
+			boost_factor = 0,
+			boost_time = 0,
+			custom_smoke_dissipation_factor = 0.2,
+			fuel_mass = 20,
+			impulse = 160,
+			nozzle_orientationXYZ = { { 0, 0, 0 } },
+			nozzle_position = { { -2, -0.21, 0 } },
+			smoke_color = { 0.8, 0.8, 0.8 },
+			smoke_transparency = 0.8,
+			tail_width = 0.2,
+			work_time = 2
+		},
+		controller = {
+			boost_start = 0.001,
+			march_start = 2.001
+		},
+		fm = {
+			A = 0.36,
+			I = 1104.5,
+			I_x = 60,
+			L = 4.7,
+			Ma = 0.3,
+			Ma_x = 0.001,
+			Mw = 1.116,
+			Mw_x = 0.15,
+			Sw = 0.6,
+			caliber = 0.36,
+			cx_coeff = { 1, 0.5, 1.1, 0.5, 1.4 },
+			dCydA = { 0.07, 0.036 },
+			finsTau = 0.1,
+			lockRoll = 1,
+			mass = 600,
+			maxAoa = 0.28,
+			wind_sigma = 0,
+			wind_time = 0
+		},
+		fuze_proximity = {
+			ignore_inp_armed = 1
+		},
+		march = {
+			boost_factor = 0,
+			boost_time = 0,
+			custom_smoke_dissipation_factor = 0.45,
+			effect_type = 1,
+			fuel_mass = 100,
+			impulse = 280,
+			min_start_speed = 220,
+			nozzle_orientationXYZ = { { 0, 0, 0 } },
+			nozzle_position = { { -2.15, -0.21, 0 } },
+			smoke_color = { 0.9, 0.9, 0.9 },
+			smoke_transparency = 0.05,
+			tail_width = 0.1,
+			work_time = 6
+		},
+		radio_seeker = {
+			FOV = 0.5235987755983,
+			aim_y_offset = 2,
+			blind_ctrl_dist = 2000,
+			blind_rad_val = 0.2,
+			calc_aim_dist = 500000,
+			err_correct_time = 2.5,
+			err_val = 0.0044,
+			keep_aim_time = 4,
+			op_time = 900,
+			pos_memory_time = 40,
+			sens_far_dist = 40000,
+			sens_near_dist = 300
+		},
+		scheme = "schemes/missiles/anti_radiation_missile.sch",
+		simple_gyrostab_seeker = {
+			omega_max = 0.13962634015955
+		},
+		warhead = {
+			caliber = 360,
+			concrete_factors = { 1, 1, 1 },
+			concrete_obj_factor = 0,
+			cumulative_factor = 0,
+			cumulative_thickness = 0,
+			expl_mass = 36,
+			fantom = 1,
+			mass = 36,
+			obj_factors = { 1, 1 },
+			other_factors = { 1, 1, 1 },
+			piercing_mass = 7.2
+		},
+		warhead_air = {
+			caliber = 360,
+			concrete_factors = { 1, 1, 1 },
+			concrete_obj_factor = 0,
+			cumulative_factor = 0,
+			cumulative_thickness = 0,
+			expl_mass = 36,
+			fantom = 1,
+			mass = 36,
+			obj_factors = { 1, 1 },
+			other_factors = { 1, 1, 1 },
+			piercing_mass = 7.2
+		}
+	},
+	display_name = "Kh-31P",
+	mass = 600,
+	model = "X-31",
+	name = "X_31P",
+	server = {
+		autopilot = {
+			J_Angle_K = 0.24434609527921,
+			J_Angle_W = 3.5,
+			J_Diff_K = 0.4,
+			J_FinAngle_K = 0.41887902047864,
+			J_Int_K = 0,
+			J_Power_K = 1.2,
+			K = 240,
+			Kg = 24,
+			Ki = 0,
+			delay = 1,
+			finsLimit = 0.25,
+			useJumpByDefault = 1
+		},
+		booster = {
+			boost_factor = 0,
+			boost_time = 0,
+			custom_smoke_dissipation_factor = 0.2,
+			fuel_mass = 20,
+			impulse = 160,
+			nozzle_orientationXYZ = { { 0, 0, 0 } },
+			nozzle_position = { { -2, -0.21, 0 } },
+			smoke_color = { 0.8, 0.8, 0.8 },
+			smoke_transparency = 0.8,
+			tail_width = 0.2,
+			work_time = 2
+		},
+		controller = {
+			boost_start = 0.001,
+			march_start = 2.001
+		},
+		fm = {
+			A = 0.36,
+			I = 1104.5,
+			I_x = 60,
+			L = 4.7,
+			Ma = 0.3,
+			Ma_x = 0.001,
+			Mw = 1.116,
+			Mw_x = 0.15,
+			Sw = 0.6,
+			caliber = 0.36,
+			cx_coeff = { 1, 0.5, 1.1, 0.5, 1.4 },
+			dCydA = { 0.07, 0.036 },
+			finsTau = 0.1,
+			lockRoll = 1,
+			mass = 600,
+			maxAoa = 0.28,
+			wind_sigma = 0,
+			wind_time = 0
+		},
+		fuze_proximity = {
+			ignore_inp_armed = 1
+		},
+		march = {
+			boost_factor = 0,
+			boost_time = 0,
+			custom_smoke_dissipation_factor = 0.45,
+			effect_type = 1,
+			fuel_mass = 100,
+			impulse = 280,
+			min_start_speed = 220,
+			nozzle_orientationXYZ = { { 0, 0, 0 } },
+			nozzle_position = { { -2.15, -0.21, 0 } },
+			smoke_color = { 0.9, 0.9, 0.9 },
+			smoke_transparency = 0.05,
+			tail_width = 0.1,
+			work_time = 6
+		},
+		radio_seeker = {
+			FOV = 0.5235987755983,
+			aim_y_offset = 2,
+			blind_ctrl_dist = 2000,
+			blind_rad_val = 0.2,
+			calc_aim_dist = 500000,
+			err_correct_time = 2.5,
+			err_val = 0.0044,
+			keep_aim_time = 4,
+			op_time = 900,
+			pos_memory_time = 40,
+			sens_far_dist = 40000,
+			sens_near_dist = 300
+		},
+		scheme = "schemes/missiles/anti_radiation_missile.sch",
+		simple_gyrostab_seeker = {
+			omega_max = 0.13962634015955
+		},
+		warhead = {
+			caliber = 360,
+			concrete_factors = { 1, 1, 1 },
+			concrete_obj_factor = 0,
+			cumulative_factor = 0,
+			cumulative_thickness = 0,
+			expl_mass = 36,
+			fantom = 0,
+			mass = 36,
+			obj_factors = { 1, 1 },
+			other_factors = { 1, 1, 1 },
+			piercing_mass = 7.2
+		},
+		warhead_air = {
+			caliber = 360,
+			concrete_factors = { 1, 1, 1 },
+			concrete_obj_factor = 0,
+			cumulative_factor = 0,
+			cumulative_thickness = 0,
+			expl_mass = 36,
+			fantom = 0,
+			mass = 36,
+			obj_factors = { 1, 1 },
+			other_factors = { 1, 1, 1 },
+			piercing_mass = 7.2
+		}
+	},
+	sounderName = "Weapons/Missile",
+	type_name = "missile",
+	ws_type = { 4, 4, 8, "Redacted" }
+}

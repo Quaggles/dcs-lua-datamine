@@ -1,0 +1,92 @@
+_G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
+	AddPropVehicle = { {
+			arg = 60,
+			boolean_inverted = true,
+			control = "checkbox",
+			defValue = true,
+			id = "TentedRoof",
+			label = "Tented Roof"
+		} },
+	CanopyGeometry = {
+		azimuth = {},
+		elevation = {}
+	},
+	Countries = { "UK", "Iran", "Malaysia", "Oman", "Singapore", "Switzerland", "Turkey", "United Arab Emirates", "Zambia", "Australia", "Libya", "Netherlands", "Iraq" },
+	DetectionRange = 0,
+	DisplayName = "Land Rover 109 S3",
+	InternalCargo = {
+		maximalCapacity = 700,
+		nominalCapacity = 700
+	},
+	Name = "Land Rover 109 S3",
+	Rate = 3,
+	ThreatRange = 0,
+	Waypoint_Custom_Panel = true,
+	_file = "./CoreMods/tech/TechWeaponPack/Database/db_units_cars.lua",
+	_origin = "TechWeaponPack",
+	animation_arguments = {},
+	armour_scheme = {
+		hull_azimuth = { {} },
+		hull_elevation = { {} },
+		turret_azimuth = { {} },
+		turret_elevation = { {} }
+	},
+	attribute = { 2, 17, 25, "Redacted", "Trucks", "All", "Ground Units", "Vehicles", "Ground vehicles", "Ground Units Non Airdefence", "NonAndLightArmoredUnits", "NonArmoredUnits", "Unarmed vehicles" },
+	category = "Unarmed",
+	chassis = {
+		X_gear_1 = 1.4,
+		X_gear_2 = -1.44,
+		Y_gear_1 = 0,
+		Y_gear_2 = 0,
+		Z_gear_1 = 0.7,
+		Z_gear_2 = 0.7,
+		armour_thickness = 0.001,
+		engine_power = 50,
+		fordingDepth = 0.6,
+		gear_type = 1,
+		length = 4.41,
+		life = 2,
+		mass = 1500,
+		max_acceleration = 1.3,
+		max_road_velocity = 34.7,
+		max_slope = 0.47,
+		max_vert_obstacle = 0.5,
+		min_turn_radius = 7.15,
+		r_max = 0.38,
+		width = 1.68
+	},
+	driverCockpit = "DriverCockpit/DriverCockpit",
+	driverViewConnectorName = { "DRIVER_POINT",
+		offset = { 0.3, 0, 0 }
+	},
+	enablePlayerCanDrive = true,
+	mapclasskey = "P0091000212",
+	shape_table_data = { {
+			classname = "lLandVehicle",
+			desrt = "land_rover_109_s3_p_1",
+			file = "land_rover_109_s3",
+			life = 5,
+			name = "land_rover_109_s3",
+			positioning = "BYNORMAL",
+			username = "Land_Rover_109_S3"
+		}, {
+			file = "land_rover_109_s3_p_1",
+			name = "land_rover_109_s3_p_1"
+		} },
+	snd = {
+		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_vol_a = {},
+		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		move_pitch = { {}, {} },
+		move_vol = { {}, {}, {} }
+	},
+	swing_on_run = false,
+	type = "Land_Rover_109_S3",
+	visual = {
+		fire_pos = { 0, 0, 0 },
+		fire_size = 0.7,
+		fire_time = 1000,
+		shape = "land_rover_109_s3",
+		shape_dstr = "land_rover_109_s3_p_1"
+	}
+}

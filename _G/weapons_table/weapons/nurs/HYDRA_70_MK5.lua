@@ -1,0 +1,122 @@
+_G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_MK5"] = {
+	_unique_resource_name = "weapons.nurs.HYDRA_70_MK5",
+	client = {
+		engine = {
+			boost_factor = 1,
+			boost_tail = 1,
+			boost_time = 0,
+			fuel_mass = 3.175,
+			impulse = 210,
+			nozzle_orientationXYZ = { { 0, 0, 0 } },
+			nozzle_position = { { -0.65, 0, 0 } },
+			smoke_color = { 0.9, 0.9, 0.9 },
+			smoke_transparency = 0.5,
+			tail_width = 0.052,
+			work_tail = 1,
+			work_time = 1.1
+		},
+		fm = {
+			I = 1.724,
+			L = 1.288,
+			Ma = 0.23322,
+			Mw = 2.177036,
+			caliber = 0.07,
+			cx_coeff = { 1, 1.5, 0.68, 0.7, 1.75 },
+			freq = 7,
+			mass = 8.81,
+			rail_open = false,
+			shapeName = "",
+			wind_sigma = 5,
+			wind_time = 1.1
+		},
+		scheme = "schemes/rockets/nurs-standard.sch",
+		warhead = {
+			caliber = 70,
+			concrete_factors = { 1, 0.5, 0.1 },
+			concrete_obj_factor = 0,
+			cumulative_factor = 3,
+			cumulative_thickness = 0.3,
+			expl_mass = 0.428,
+			fantom = 1,
+			mass = 2.6,
+			obj_factors = { 1, 1 },
+			other_factors = { 1, 0.5, 0.5 },
+			piercing_mass = 0.52
+		}
+	},
+	cx_pil = 4.7679923901827e-05,
+	display_name = "HYDRA-70 MK5",
+	dist_max = 2000,
+	dist_min = 1000,
+	mass = 8.81,
+	model = "hydra_m151he",
+	name = "HYDRA_70_MK5",
+	server = {
+		engine = {
+			boost_factor = 1,
+			boost_tail = 1,
+			boost_time = 0,
+			fuel_mass = 3.175,
+			impulse = 210,
+			nozzle_orientationXYZ = { { 0, 0, 0 } },
+			nozzle_position = { { -0.65, 0, 0 } },
+			smoke_color = { 0.9, 0.9, 0.9 },
+			smoke_transparency = 0.5,
+			tail_width = 0.052,
+			work_tail = 1,
+			work_time = 1.1
+		},
+		fm = {
+			I = 1.724,
+			L = 1.288,
+			Ma = 0.23322,
+			Mw = 2.177036,
+			caliber = 0.07,
+			cx_coeff = { 1, 1.5, 0.68, 0.7, 1.75 },
+			freq = 7,
+			mass = 8.81,
+			rail_open = false,
+			shapeName = "",
+			wind_sigma = 5,
+			wind_time = 1.1
+		},
+		scheme = "schemes/rockets/nurs-standard.sch",
+		warhead = {
+			caliber = 70,
+			concrete_factors = { 1, 0.5, 0.1 },
+			concrete_obj_factor = 0,
+			cumulative_factor = 3,
+			cumulative_thickness = 0.3,
+			expl_mass = 0.428,
+			fantom = 0,
+			mass = 2.6,
+			obj_factors = { 1, 1 },
+			other_factors = { 1, 0.5, 0.5 },
+			piercing_mass = 0.52
+		}
+	},
+	sight_data = {
+		engine = {
+			fuel_mass = 3.175,
+			impulse = 210,
+			work_time = 1.1
+		},
+		fm = {
+			I = 1.724,
+			L = 1.288,
+			Ma = 0.23322,
+			Mw = 2.177036,
+			caliber = 0.07,
+			cx_coeff = { 1, 1.5, 0.68, 0.7, 1.75 },
+			freq = 7,
+			mass = 8.81,
+			rail_open = false,
+			shapeName = "",
+			wind_sigma = 5,
+			wind_time = 1.1
+		}
+	},
+	sounderName = "Weapons/Rocket",
+	type_name = "rocket",
+	ws_type = { 4, 7, 33, "Redacted" }
+}
