@@ -22,6 +22,17 @@ And here is a link directly to the AIM-120C and the SD-10 incase you want to com
 * [_G/weapons_table/weapons/missiles/AIM_120C.lua](_G/weapons_table/weapons/missiles/AIM_120C.lua)
 * [_G/weapons_table/weapons/missiles/SD-10.lua](_G/weapons_table/weapons/missiles/SD-10.lua)
 
+## Installation of the exporter script
+
+Copy the two scripts in [/Hooks](Hooks) and put them in your `Saved Games/DCS/Scripts/Hooks` directory, now just launch the game you should see the following output in the `dcs.log` file if it worked, output tables are in `Saved Games/DCS/DCS.Lua.Exporter/*`
+
+![image](https://user-images.githubusercontent.com/8382945/115797957-7e4bcf80-a418-11eb-88d1-cf5ec340ecae.png)
+
+Note: The exporter can take around 30 seconds to run and will make the game take longer to load, it should automatically detect if a datamine of your version of DCS has been stored and won't repeat it as long as you keep the files in the output folder. If that happens you will see this in the log
+
+![image](https://user-images.githubusercontent.com/8382945/115798272-37aaa500-a419-11eb-8574-6fcaf272c7ad.png)
+
+
 ## Notes about output lua files
 
 ### Indexes
