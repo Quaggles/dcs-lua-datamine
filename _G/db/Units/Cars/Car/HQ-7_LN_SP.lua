@@ -7,6 +7,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 20000,
 	DisplayName = "HQ-7 Self-Propelled LN",
 	DisplayNameShort = "HQ7-LN",
+	IR_emission_coeff = 0.08,
 	MaxSpeed = 79.2,
 	Name = "HQ-7 Self-Propelled LN",
 	Rate = 20,
@@ -79,6 +80,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	driverCockpit = "DriverCockpit/DriverCockpitWithIRandLLTV",
 	driverViewConnectorName = "DRIVER_POINT",
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = { 0.3,
+			[3] = 1,
+			[18] = 1,
+			[19] = 1,
+			[27] = 1,
+			[28] = 1
+		}
+	},
 	mapclasskey = "P0091000014",
 	radar_rotation_period = 1,
 	sensor = {
@@ -112,9 +122,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Air Defence", "Launcher" },
 	type = "HQ-7_LN_SP",
 	visual = {
+		agony_explosion_size = 5,
 		fire_pos = { 0, 0, 0 },
 		fire_size = 0.8,
-		fire_time = 1000,
+		fire_time = 500,
+		max_time_agony = 120,
+		min_time_agony = 5,
 		shape = "hq7_ln",
 		shape_dstr = "hq7_ln_dstr"
 	}

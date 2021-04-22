@@ -2711,6 +2711,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Pylons = { {
 			Launchers = { {
 					CLSID = "DIS_PL-5EII",
+					Cx_gain = 0,
 					arg_value = 0.1
 				}, {
 					CLSID = "DIS_SMOKE_GENERATOR_R"
@@ -3199,6 +3200,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			Launchers = { {
 					CLSID = "DIS_PL-5EII",
+					Cx_gain = 0,
 					arg_value = 0.1
 				}, {
 					CLSID = "DIS_SMOKE_GENERATOR_R"

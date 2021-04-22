@@ -261,31 +261,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	V_max_sea_level = 167.11,
 	V_opt = 220,
 	V_take_off = 58,
-	ViewSettings = {
-		Arcade = {
-			AnglesDefault = { 0, -8 },
-			LocalPoint = { -12.041, 6.419, 0 }
-		},
-		Chase = {
-			AnglesDefault = { 180, -8 },
-			LocalPoint = { 4.259, 3.819, 0 }
-		},
-		Cockpit = { {
-				Allow360rotation = false,
-				CameraAngleLimits = { 200, -80, 110 },
-				CameraAngleRestriction = { false, 90, 0.5 },
-				CameraViewAngleLimits = { 20, 140 },
-				CockpitLocalPoint = { 7.959, 1.419, 0 },
-				EyePoint = { 0.05, 0, 0 },
-				ShoulderSize = 0.2,
-				limits_6DOF = {
-					roll = 90,
-					x = { -0.05, 0.45 },
-					y = { -0.3, 0.1 },
-					z = { -0.22, 0.22 }
-				}
-			} }
-	},
 	Vy_max = 10,
 	Waypoint_Custom_Panel = true,
 	WingSpan = 50.5,

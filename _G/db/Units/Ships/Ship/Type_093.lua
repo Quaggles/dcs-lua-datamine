@@ -25,7 +25,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	DisplayName = "Type 093 Attack Submarine",
 	DisplayNameShort = "093",
 	Gamma_max = 0.25,
-	Height = 37.2,
+	Height = 10.4,
 	Length = 103,
 	Name = "Type 093 Attack Submarine",
 	Om = 0.01,
@@ -241,6 +241,14 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	economy_distance = 72000000,
 	economy_velocity = 5.15,
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = {
+			[14] = 1,
+			[15] = 1,
+			[16] = 1,
+			[17] = 1
+		}
+	},
 	life = 1500,
 	mapclasskey = "P0091000038",
 	mass = 5300000,

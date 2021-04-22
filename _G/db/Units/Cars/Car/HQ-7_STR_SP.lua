@@ -7,6 +7,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 30000,
 	DisplayName = "HQ-7 Self-Propelled STR",
 	DisplayNameShort = "HQ7-STR",
+	IR_emission_coeff = 0.08,
 	MaxSpeed = 79.2,
 	Name = "HQ-7 Self-Propelled STR",
 	Rate = 10,
@@ -127,6 +128,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	driverCockpit = "DriverCockpit/DriverCockpitWithIRandLLTV",
 	driverViewConnectorName = "DRIVER_POINT",
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = {
+			[3] = 1,
+			[11] = 1
+		}
+	},
 	mapclasskey = "P0091000083",
 	radar_rotation_period = 1,
 	sensor = {
@@ -161,9 +168,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Air Defence", "Tracking Radar" },
 	type = "HQ-7_STR_SP",
 	visual = {
+		agony_explosion_size = 5,
 		fire_pos = { 0, 0, 0 },
 		fire_size = 0.8,
-		fire_time = 1000,
+		fire_time = 500,
+		max_time_agony = 120,
+		min_time_agony = 5,
 		shape = "hq7_str",
 		shape_dstr = "hq7_str_dstr"
 	}

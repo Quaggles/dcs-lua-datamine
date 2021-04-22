@@ -1,8 +1,8 @@
-_G["weapons_table"]["weapons"]["missiles"]["C-802AK"] = {
+_G["weapons_table"]["weapons"]["missiles"]["YJ-83K"] = {
 	Reflection = 0.09,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/mils_c802ak.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
-	_unique_resource_name = "weapons.missiles.C-802AK",
+	_unique_resource_name = "weapons.missiles.YJ-83K",
 	add_attributes = { "Cruise missiles" },
 	caliber = 0.36,
 	client = {
@@ -145,8 +145,8 @@ _G["weapons_table"]["weapons"]["missiles"]["C-802AK"] = {
 			work_time = 9999
 		},
 		mass = 715,
-		model = "c802ak",
-		name = "C-802AK",
+		model = "yj83k",
+		name = "YJ-83K",
 		scheme = "schemes/missiles/anti_ship_missile_prog_path_stpos_ctrl.sch",
 		seeker = {
 			FOV = 1.0471975511966,
@@ -163,12 +163,12 @@ _G["weapons_table"]["weapons"]["missiles"]["C-802AK"] = {
 			ship_track_by_default = 1
 		},
 		shape_table_data = { {
-				file = "c802ak",
+				file = "yj83k",
 				fire = { 0, 1 },
 				index = "Redacted",
 				life = 0.6,
-				name = "C-802AK",
-				username = "C-802AK"
+				name = "YJ-83K",
+				username = "YJ-83K"
 			} },
 		sigma = { 8, 8, 8 },
 		t_acc = 0,
@@ -186,7 +186,7 @@ _G["weapons_table"]["weapons"]["missiles"]["C-802AK"] = {
 			trigger_by_path = 1,
 			use_horiz_dist = 1
 		},
-		user_name = "C-802AK",
+		user_name = "YJ-83K",
 		v_mid = 372,
 		v_min = 270,
 		warhead = {
@@ -217,10 +217,10 @@ _G["weapons_table"]["weapons"]["missiles"]["C-802AK"] = {
 		},
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
-	display_name = "C-802AK",
+	display_name = "YJ-83K",
 	mass = 715,
-	model = "c802ak",
-	name = "C-802AK",
+	model = "yj83k",
+	name = "YJ-83K",
 	server = {
 		Cx_pil = 8,
 		D_max = 220000,
@@ -361,8 +361,8 @@ _G["weapons_table"]["weapons"]["missiles"]["C-802AK"] = {
 			work_time = 9999
 		},
 		mass = 715,
-		model = "c802ak",
-		name = "C-802AK",
+		model = "yj83k",
+		name = "YJ-83K",
 		scheme = "schemes/missiles/anti_ship_missile_prog_path_stpos_ctrl.sch",
 		seeker = {
 			FOV = 1.0471975511966,
@@ -379,12 +379,12 @@ _G["weapons_table"]["weapons"]["missiles"]["C-802AK"] = {
 			ship_track_by_default = 1
 		},
 		shape_table_data = { {
-				file = "c802ak",
+				file = "yj83k",
 				fire = { 0, 1 },
 				index = "Redacted",
 				life = 0.6,
-				name = "C-802AK",
-				username = "C-802AK"
+				name = "YJ-83K",
+				username = "YJ-83K"
 			} },
 		sigma = { 8, 8, 8 },
 		t_acc = 0,
@@ -402,7 +402,7 @@ _G["weapons_table"]["weapons"]["missiles"]["C-802AK"] = {
 			trigger_by_path = 1,
 			use_horiz_dist = 1
 		},
-		user_name = "C-802AK",
+		user_name = "YJ-83K",
 		v_mid = 372,
 		v_min = 270,
 		warhead = {

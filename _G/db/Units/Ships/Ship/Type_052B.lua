@@ -473,6 +473,13 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	economy_distance = 8334000,
 	economy_velocity = 7.716,
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = {
+			[17] = -0.15,
+			[19] = 0.15,
+			[51] = 1
+		}
+	},
 	life = 2700,
 	mapclasskey = "P0091000069",
 	mass = 5850000,

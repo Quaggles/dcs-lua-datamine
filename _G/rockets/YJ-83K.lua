@@ -72,7 +72,7 @@ _G["rockets"]["#Index"] = {
 		boost_start = 0.001,
 		march_start = 0.01
 	},
-	display_name = "C-802AK",
+	display_name = "YJ-83K",
 	engine_control = {
 		K = 265,
 		Kd = 0.01,
@@ -141,8 +141,8 @@ _G["rockets"]["#Index"] = {
 		work_time = 9999
 	},
 	mass = 715,
-	model = "c802ak",
-	name = "C-802AK",
+	model = "yj83k",
+	name = "YJ-83K",
 	scheme = "anti_ship_missile_prog_path_stpos_ctrl",
 	seeker = {
 		FOV = 1.0471975511966,
@@ -159,12 +159,12 @@ _G["rockets"]["#Index"] = {
 		ship_track_by_default = 1
 	},
 	shape_table_data = { {
-			file = "c802ak",
+			file = "yj83k",
 			fire = { 0, 1 },
 			index = "Redacted",
 			life = 0.6,
-			name = "C-802AK",
-			username = "C-802AK"
+			name = "YJ-83K",
+			username = "YJ-83K"
 		} },
 	sigma = { 8, 8, 8 },
 	t_acc = 0,
@@ -182,10 +182,10 @@ _G["rockets"]["#Index"] = {
 		trigger_by_path = 1,
 		use_horiz_dist = 1
 	},
-	user_name = "C-802AK",
+	user_name = "YJ-83K",
 	v_mid = 372,
 	v_min = 270,
-	warhead = <1>{
+	warhead = {
 		caliber = 360,
 		concrete_factors = { 3, 1, 1 },
 		concrete_obj_factor = 2,
@@ -197,7 +197,18 @@ _G["rockets"]["#Index"] = {
 		other_factors = { 1, 1, 1 },
 		piercing_mass = 0
 	},
-	warhead_air = <table 1>,
-	wsTypeOfWeapon = <2>{ 4, 4, 8, "Redacted" },
-	ws_type = <table 2>
+	warhead_air = {
+		caliber = 360,
+		concrete_factors = { 3, 1, 1 },
+		concrete_obj_factor = 2,
+		cumulative_factor = 2,
+		cumulative_thickness = 0,
+		expl_mass = 165,
+		mass = 165,
+		obj_factors = { 3, 1 },
+		other_factors = { 1, 1, 1 },
+		piercing_mass = 0
+	},
+	wsTypeOfWeapon = <1>{ 4, 4, 8, "Redacted" },
+	ws_type = <table 1>
 }

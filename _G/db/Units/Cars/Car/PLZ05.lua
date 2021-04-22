@@ -7,6 +7,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 0,
 	DisplayName = "PLZ-05",
 	EPLRS = true,
+	IR_emission_coeff = 0.1,
 	MaxSpeed = 55.98,
 	Name = "PLZ-05",
 	Rate = 15,
@@ -125,6 +126,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		offset = { 0.05, 0, 0 }
 	},
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = { 0.2,
+			[0] = 0.2,
+			[3] = 1
+		}
+	},
 	mapclasskey = "P0091000006",
 	sensor = {
 		height = 3.55
@@ -154,11 +161,14 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	toggle_alarm_state_interval = 4,
 	type = "PLZ05",
 	visual = {
+		agony_explosion_size = 5,
 		dirt_pos = { -2.9, 0.5, -1.48 },
 		dust_pos = { 3.57, 0.03, -1.48 },
 		fire_pos = { 1, 0, 0 },
 		fire_size = 1.1,
-		fire_time = 1200,
+		fire_time = 600,
+		max_time_agony = 120,
+		min_time_agony = 5,
 		shape = "plz05",
 		shape_dstr = "plz05_dstr"
 	}
