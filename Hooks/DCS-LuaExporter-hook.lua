@@ -6,7 +6,7 @@ package.path = package.path..";"..lfs.writedir().."Scripts/Hooks/?.lua"
 debugLog("Loading")
 local inspect = require 'inspect'
 
-local dumpFolder = "DCS.Lua.Exporter/" --Relative to lfs.writedir, aka "Saved Games/DCS/"
+local dumpFolder = "DCS.Lua.Exporter\\" --Relative to lfs.writedir, aka "Saved Games\DCS\"
 local sepChar = "\t"
 
 
@@ -479,13 +479,14 @@ if newVersion() == false then
 	debugLog("Same dcs version has already been dumped, exiting...")
 	return
 end
-for key, value in pairs(recursiveDir(lfs.writedir()..tostring(dumpFolder))) do
+local clearFolder = lfs.writedir()..tostring(dumpFolder).."_G\\"
+for key, value in pairs(recursiveDir(clearFolder)) do
 	-- Don't clear version number
 	if not endsWith(value, versionPath) then
 		os.remove(tostring(value))
 	end
 end
-for key, value in rpairs(recursiveDir(lfs.writedir()..tostring(dumpFolder), {}, true)) do
+for key, value in rpairs(recursiveDir(clearFolder, {}, true)) do
 	lfs.rmdir(tostring(value))
 end
 LogTime(0, "Global Export", Run)
