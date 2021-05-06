@@ -770,7 +770,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			k_piston = 3000,
 			k_reg = 0.003,
 			k_vel = 0.017,
+			prop_blades_count = 2,
+			prop_locations = { { 1.398, 0, 0 } },
+			prop_pitch_feather = 0,
+			prop_pitch_max = 47,
+			prop_pitch_min = 17,
 			table_data = { { 0, 10000 }, { 2, 10000 } },
+			type = "Radial",
 			typeng = 2
 		}
 	},
@@ -882,7 +888,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			[8] = {
 				lights = { {
 						argument = 69,
-						typename = "omnilight"
+						typename = "argumentlight"
 					} },
 				typename = "collection"
 			}
@@ -953,6 +959,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				min = 100
 			}
 		} },
+	propellorShapeName = "I-16_blade.FBX",
+	propellorShapeType = "3ARG_PROC_BLUR",
 	radar_can_see_ground = false,
 	range = 440,
 	shape_table_data = { {

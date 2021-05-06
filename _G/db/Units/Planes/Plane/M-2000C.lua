@@ -2237,7 +2237,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					modulation = "AM",
 					name = "Channel 17"
 				}, {
-					default = 251,
+					default = 252,
 					modulation = "AM",
 					name = "Channel 18"
 				}, {

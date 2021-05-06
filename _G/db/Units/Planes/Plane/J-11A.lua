@@ -1149,6 +1149,111 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		RWR = "Abstract RWR"
 	},
 	Shape = "J-11A",
+	SnapViews = { { {
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = -32.458889,
+				viewAngle = 71.824692,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = 41.045925,
+				rollAngle = 0,
+				vAngle = -40.805656,
+				viewAngle = 33.361835,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = -41.808968,
+				viewAngle = 30.427544,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = -32.597401,
+				rollAngle = 0,
+				vAngle = -35.293747,
+				viewAngle = 34.392349,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = 129.012665,
+				rollAngle = 0,
+				vAngle = 14.547977,
+				viewAngle = 87.468338,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = -4.951577,
+				viewAngle = 43.977936,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = -129.012665,
+				rollAngle = 0,
+				vAngle = 14.491872,
+				viewAngle = 87.468338,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = 82.862923,
+				rollAngle = 0,
+				vAngle = -9.5,
+				viewAngle = 87.468338,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 38.979362,
+				viewAngle = 87.468338,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = -82.461266,
+				rollAngle = 0,
+				vAngle = -12.843998,
+				viewAngle = 87.468338,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = 15.618313,
+				rollAngle = 0,
+				vAngle = 7.522498,
+				viewAngle = 68.786629,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = -15.683434,
+				rollAngle = 0,
+				vAngle = 8.54915,
+				viewAngle = 69.165199,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = -9.5,
+				viewAngle = 87.468338,
+				x_trans = 0.113927,
+				y_trans = -0.004946,
+				z_trans = 0
+			} } },
 	Tasks = { <table 1>, {
 			Name = "Intercept",
 			OldID = "Intercept",
@@ -1187,6 +1292,31 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	V_max_sea_level = 403,
 	V_opt = 170,
 	V_take_off = 75,
+	ViewSettings = {
+		Arcade = {
+			AnglesDefault = { 0, -8 },
+			LocalPoint = { -12.041, 6.419, 0 }
+		},
+		Chase = {
+			AnglesDefault = { 180, -8 },
+			LocalPoint = { 4.259, 3.819, 0 }
+		},
+		Cockpit = { {
+				Allow360rotation = false,
+				CameraAngleLimits = { 200, -80, 110 },
+				CameraAngleRestriction = { false, 90, 0.5 },
+				CameraViewAngleLimits = { 20, 140 },
+				CockpitLocalPoint = { 7.959, 1.419, 0 },
+				EyePoint = { 0.05, 0, 0 },
+				ShoulderSize = 0.2,
+				limits_6DOF = {
+					roll = 90,
+					x = { -0.05, 0.45 },
+					y = { -0.3, 0.1 },
+					z = { -0.22, 0.22 }
+				}
+			} }
+	},
 	Vy_max = 325,
 	Waypoint_Custom_Panel = true,
 	WingSpan = 14.7,
