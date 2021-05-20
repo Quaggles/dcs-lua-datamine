@@ -1,11 +1,11 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Crew = 2,
 	DetectionRange = 5000,
-	DisplayName = "AAA ZU-23 Closed Emplacement Insurgent",
+	DisplayName = "AAA ZU-23 Insurgent Closed Emplacement",
 	DisplayNameShort = "ZU23",
 	IR_emission_coeff = 0.006,
 	MaxSpeed = 0,
-	Name = "AAA ZU-23 Closed Emplacement Insurgent",
+	Name = "AAA ZU-23 Insurgent Closed Emplacement",
 	Rate = 4,
 	ThreatRange = 2500,
 	WS = { {

@@ -4,11 +4,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "Truck Ural ATsP-6 Firefighter",
+	DisplayName = "Firefighter Ural ATsP-6",
 	DisplayNameShort = "ATsP-6",
 	IR_emission_coeff = 0.08,
 	MaxSpeed = 74.99988,
-	Name = "Truck Ural ATsP-6 Firefighter",
+	Name = "Firefighter Ural ATsP-6",
 	Rate = 5,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,

@@ -434,6 +434,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "generator_5i57",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Electric locomotive"
 				}, {
 					Name = "Locomotive"
@@ -1004,6 +1008,10 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "Type_093",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Seawise_Giant",
 					in_service = 0,
 					out_of_service = 40000
 				} }

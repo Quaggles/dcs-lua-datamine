@@ -80,7 +80,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					reactionTime = 10,
 					reflection_limit = 0.12,
 					sensor = {},
-					type = 102
+					type = 4
 				} },
 			PPI_view = "GenericPPI/GenericPPI",
 			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.0471975511966 } },

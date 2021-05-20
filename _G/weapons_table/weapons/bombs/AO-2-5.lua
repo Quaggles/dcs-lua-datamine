@@ -66,6 +66,7 @@ _G["weapons_table"]["weapons"]["bombs"]["KMGU_2_AO_2_5RT"] = {
 			piercing_mass = 0.24
 		}
 	},
+	sounderName = "Weapons/ClusterBomblets",
 	type_name = "cluster",
 	ws_type = { 4, 5, 32, "Redacted" }
 }

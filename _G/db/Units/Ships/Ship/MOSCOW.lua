@@ -932,6 +932,17 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	distFindObstacles = 611,
 	economy_distance = 14945600,
 	economy_velocity = 9.26,
+	encyclopediaAnimation = {
+		args = {
+			[10] = 1,
+			[14] = 0.15,
+			[20] = 0.1,
+			[21] = -0.5,
+			[23] = -0.5,
+			[25] = 0.5,
+			[27] = 0.5
+		}
+	},
 	life = 5200,
 	mapclasskey = "P0091000067",
 	mass = 11280000,

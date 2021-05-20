@@ -496,6 +496,14 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "generator_5i57",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Leopard-2A4",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Electric locomotive"
 				}, {
 					Name = "Locomotive"
@@ -1038,6 +1046,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "speedboat",
 					in_service = 0,
 					out_of_service = 40000
+				}, {
+					Name = "La_Combattante_II"
 				} }
 		},
 		WWIIstructures = {

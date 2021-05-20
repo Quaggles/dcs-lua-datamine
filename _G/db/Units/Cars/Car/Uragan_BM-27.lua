@@ -4,11 +4,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "MLRS BM-27 Uragan 220mm",
+	DisplayName = "MLRS 9K57 Uragan BM-27 220mm",
 	DisplayNameShort = "BM-27",
 	IR_emission_coeff = 0.08,
 	MaxSpeed = 64.8,
-	Name = "MLRS BM-27 Uragan 220mm",
+	Name = "MLRS 9K57 Uragan BM-27 220mm",
 	Rate = 20,
 	ThreatRange = 35800,
 	ThreatRangeMin = 11500,

@@ -288,6 +288,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "Wellcarnsc"
 				}, {
+					Name = "VAB_Mephisto"
+				}, {
 					Name = "DR_50Ton_Flat_Wagon"
 				}, {
 					Name = "DRG_Class_86"
@@ -766,6 +768,10 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "HandyWind",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Seawise_Giant",
 					in_service = 0,
 					out_of_service = 40000
 				} }

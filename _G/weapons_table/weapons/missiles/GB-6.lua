@@ -229,6 +229,7 @@ _G["weapons_table"]["weapons"]["missiles"]["GB-6"] = {
 						piercing_mass = 0
 					}
 				},
+				sounderName = "Weapons/ClusterBomblets",
 				type_name = "cluster",
 				ws_type = { 4, 5, 38, "Redacted" }
 			},
@@ -520,6 +521,7 @@ _G["weapons_table"]["weapons"]["missiles"]["GB-6"] = {
 						piercing_mass = 0
 					}
 				},
+				sounderName = "Weapons/ClusterBomblets",
 				type_name = "cluster",
 				ws_type = { 4, 5, 38, "Redacted" }
 			},

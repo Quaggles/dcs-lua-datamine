@@ -17,6 +17,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DisplayName = "SPAAA ZSU-57-2",
 	DisplayNameShort = "ZSU57",
 	IR_emission_coeff = 0.1,
+	MaxSpeed = 43.2,
 	Name = "SPAAA ZSU-57-2",
 	Rate = 6,
 	ThreatRange = 7000,
@@ -155,6 +156,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		offset = { 0.02, 0, 0 }
 	},
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = { 0.135,
+			[3] = 1
+		}
+	},
 	mapclasskey = "P0091000205",
 	sensor = {
 		height = 2.826

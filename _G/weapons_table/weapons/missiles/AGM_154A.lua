@@ -231,6 +231,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_154A"] = {
 						piercing_mass = 0.16
 					}
 				},
+				sounderName = "Weapons/ClusterBomblets",
 				type_name = "cluster",
 				ws_type = { 4, 5, 38, "Redacted" }
 			},
@@ -524,6 +525,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_154A"] = {
 						piercing_mass = 0.16
 					}
 				},
+				sounderName = "Weapons/ClusterBomblets",
 				type_name = "cluster",
 				ws_type = { 4, 5, 38, "Redacted" }
 			},

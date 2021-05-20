@@ -1496,6 +1496,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			MaxRUD = 1,
 			MinRUD = 0,
 			Nmg = 67.5,
+			Nominal_Fan_RPM = 8215,
+			Nominal_RPM = 14710,
 			Shutdown_Duration = 19,
 			Startup_Duration = 35,
 			Startup_Prework = 10,
@@ -1506,7 +1508,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			dpdh_m = 6200,
 			hMaxEng = 19,
 			table_data = { { 0, 77000, 108313.6 }, { 0.2, 74000, 109850 }, { 0.4, 74000, 115227.3 }, { 0.6, 85000, 126750 }, { 0.7, 85000, 145000 }, { 0.8, 90000, 157000 }, { 0.9, 94000, 166000 }, { 1, 100000, 170000 }, { 1.096, 96000, 171000 }, { 1.2, 86000, 171000 }, { 1.3, 68000, 173000 }, { 1.4, 55000, 176000 }, { 1.6, 56000, 176000 }, { 1.8, 56000, 184000 }, { 2.2, 52000, 173000 }, { 2.35, 43000, 157000 }, { 3.9, 25000, 120636.4 } },
-			type = "TurboJet"
+			type = "TurboFan"
 		}
 	},
 	Sensors = {
@@ -2085,7 +2087,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			chargeSz = 1,
 			default = 60,
 			increment = 30
-		}
+		},
+		preferred_flare_kind = 2
 	},
 	radar_can_see_ground = true,
 	range = 1500,

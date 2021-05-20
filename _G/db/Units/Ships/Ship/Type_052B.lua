@@ -274,7 +274,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			LN = { {
 					ECM_K = 0.5,
 					beamWidth = 1.5707963267949,
-					distanceMax = 150000,
+					distanceMax = 220000,
 					distanceMin = 1000,
 					max_number_of_missiles_channels = 1,
 					max_trg_alt = 30000,
@@ -310,7 +310,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			LN = { {
 					ECM_K = 0.5,
 					beamWidth = 1.5707963267949,
-					distanceMax = 150000,
+					distanceMax = 220000,
 					distanceMin = 1000,
 					max_number_of_missiles_channels = 1,
 					max_trg_alt = 30000,
@@ -351,6 +351,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							type_ammunition = {}
 						} },
 					customViewPoint = { "genericMissile", { 0, 3, 0 } },
+					depends_on_unit = { { { "self", 6 } }, { { "self", 7 } } },
 					sensor = {}
 				} },
 			PPI_view = "GenericPPI/GenericPPI",
@@ -374,6 +375,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							type_ammunition = {}
 						} },
 					customViewPoint = { "genericMissile", { 0, 3, 0 } },
+					depends_on_unit = { { { "self", 8 } }, { { "self", 9 } } },
 					sensor = {}
 				} },
 			PPI_view = "GenericPPI/GenericPPI",
@@ -401,8 +403,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					fireAnimationArgument = 120,
 					sensor = {}
 				} },
-			angles = { { 3.1415926535898, 0.17453292519943, -0.20943951023932, 1.535889741755 } },
-			angles_mech = { { 3.1415926535898, 0.17453292519943, -0.20943951023932, 1.535889741755 } },
+			angles = { { 3.1415926535898, 0.17453292519943, -0.43633231299858, 1.5184364492351 } },
+			angles_mech = { { 3.1415926535898, 0.17453292519943, -0.43633231299858, 1.5184364492351 } },
 			area = "BORT_L",
 			center = "TARGET_AK530_1_1",
 			drawArgument1 = 19,
@@ -424,8 +426,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					fireAnimationArgument = 119,
 					sensor = {}
 				} },
-			angles = { { -0.17453292519943, -3.1415926535898, -0.20943951023932, 1.535889741755 } },
-			angles_mech = { { -0.17453292519943, -3.1415926535898, -0.20943951023932, 1.535889741755 } },
+			angles = { { -0.17453292519943, -3.1415926535898, -0.43633231299858, 1.5184364492351 } },
+			angles_mech = { { -0.17453292519943, -3.1415926535898, -0.43633231299858, 1.5184364492351 } },
 			area = "BORT_R",
 			center = "TARGET_AK530_2_1",
 			drawArgument1 = 17,

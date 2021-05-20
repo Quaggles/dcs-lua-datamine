@@ -680,6 +680,22 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "PT_76",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "AA8",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "ATZ-5",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "generator_5i57",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "ZSU_57_2"
 				}, {
 					Name = "ES44AH"
@@ -1352,6 +1368,10 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "HandyWind",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Seawise_Giant",
 					in_service = 0,
 					out_of_service = 40000
 				}, {

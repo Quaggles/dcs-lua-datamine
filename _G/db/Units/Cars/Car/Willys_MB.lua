@@ -39,7 +39,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	chassis = {
 		life = 1
 	},
-	enablePlayerCanDrive = false,
+	driverCockpit = "DriverCockpit/DriverCockpit",
+	driverViewConnectorName = { "POINT_DRIVER",
+		offset = { 0, 0, 0 }
+	},
+	enablePlayerCanDrive = true,
 	mapclasskey = "P0091000212",
 	shape_table_data = { {
 			classname = "lLandVehicle",

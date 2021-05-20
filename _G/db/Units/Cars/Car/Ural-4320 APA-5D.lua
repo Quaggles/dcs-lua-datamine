@@ -5,11 +5,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "GPU APA-5D",
+	DisplayName = "GPU APA-5D on Ural 4320",
 	DisplayNameShort = "APA-5",
 	IR_emission_coeff = 0.08,
 	MaxSpeed = 74.99988,
-	Name = "GPU APA-5D",
+	Name = "GPU APA-5D on Ural 4320",
 	Rate = 3,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,

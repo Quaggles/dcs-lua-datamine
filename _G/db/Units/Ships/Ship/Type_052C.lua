@@ -115,7 +115,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					max_trg_alt = 30000,
 					min_trg_alt = 5,
 					reactionTime = 2,
-					reflection_limit = 0.08,
+					reflection_limit = 0.06,
 					type = 102
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -1.5707963267949, 1.3962634015955 } },
@@ -568,7 +568,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					max_number_of_missiles_channels = 2,
 					out_velocity = 2,
 					reactionTime = 2,
-					reflection_limit = 0.08,
+					reflection_limit = 0.06,
 					sensor = {},
 					type = 4
 				} },
@@ -588,8 +588,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					fireAnimationArgument = 119,
 					sensor = {}
 				} },
-			angles = { { 2.0943951023932, -2.0943951023932, -0.20943951023932, 1.535889741755 } },
-			angles_mech = { { 2.0943951023932, -2.0943951023932, -0.20943951023932, 1.535889741755 } },
+			angles = { { 2.0943951023932, -2.0943951023932, -0.43633231299858, 1.5184364492351 } },
+			angles_mech = { { 2.0943951023932, -2.0943951023932, -0.43633231299858, 1.5184364492351 } },
 			area = "CIWS_F",
 			center = "CENTER_CIWS_1_1",
 			drawArgument1 = 17,
@@ -609,8 +609,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					fireAnimationArgument = 120,
 					sensor = {}
 				} },
-			angles = { { -0.5235987755983, 0.5235987755983, -0.20943951023932, 1.535889741755 } },
-			angles_mech = { { -0.5235987755983, 0.5235987755983, -0.20943951023932, 1.535889741755 } },
+			angles = { { -0.5235987755983, 0.5235987755983, -0.43633231299858, 1.5184364492351 } },
+			angles_mech = { { -0.5235987755983, 0.5235987755983, -0.43633231299858, 1.5184364492351 } },
 			area = "CIWS_B",
 			center = "CENTER_CIWS_2_1",
 			drawArgument1 = 19,

@@ -48,7 +48,16 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					aiming_director = true,
 					depends_on_unit = { { { "self", 1 } } },
 					reactionTime = 10,
-					sensor = {}
+					sensor = <1>{
+						Tau = 15,
+						baseLength = 4,
+						deviation_error_azimuth = 0.0007,
+						deviation_error_elevation = 0.0007,
+						deviation_error_speed_sensor = 0.05,
+						kTauDisp = 55,
+						magnification = 24,
+						type = 1
+					}
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.5620696805349 } },
 			omegaY = 1,
@@ -62,7 +71,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					aiming_director = true,
 					depends_on_unit = { { { "self", 1 } } },
 					reactionTime = 10,
-					sensor = {}
+					sensor = <table 1>
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.5620696805349 } },
 			omegaY = 1,

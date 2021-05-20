@@ -137,10 +137,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			}
 		} },
 	DetectionRange = 0,
-	DisplayName = "MT PzIV H",
+	DisplayName = "Tk PzIV H",
 	DisplayNameShort = "Pz.IV",
 	IR_emission_coeff = 0.1,
-	Name = "MT PzIV H",
+	MaxSpeed = 38.016,
+	Name = "Tk PzIV H",
 	Rate = 20,
 	Sensors = {
 		OPTIC = { "TRP-2A day", "TRP-2A night" }

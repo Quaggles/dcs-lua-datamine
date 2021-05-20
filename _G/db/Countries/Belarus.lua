@@ -508,6 +508,18 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "PT_76",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "ATZ-5",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "generator_5i57",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Electric locomotive"
 				}, {
 					Name = "ES44AH"

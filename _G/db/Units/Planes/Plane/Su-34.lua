@@ -100,18 +100,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					Type = 1,
 					arg_value = 0.45
 				}, <10>{
-					CLSID = "{X-25MPU}",
-					arg_value = 0.35
-				}, <11>{
-					CLSID = "{X-25ML}",
-					arg_value = 0.35
-				}, <12>{
-					CLSID = "{X-25MR}",
-					arg_value = 0.35
-				}, <13>{
 					CLSID = "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}",
 					arg_value = 0.05
-				}, <14>{
+				}, <11>{
 					CLSID = "{FC56DF80-9B09-44C5-8976-DCFAFF219062}",
 					arg_value = 0.05
 				}, {
@@ -161,16 +152,16 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74884}"
 				}, {
 					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74881}"
-				}, <table 4>, <table 5>, <15>{
+				}, <table 4>, <table 5>, <12>{
 					CLSID = "{9B25D316-0434-4954-868F-D51DB1A38DF0}",
 					arg_value = 0.35
-				}, <16>{
+				}, <13>{
 					CLSID = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
 					arg_value = 0.35
-				}, <17>{
+				}, <14>{
 					CLSID = "{88DAC840-9F75-4531-8689-B46E64E42E53}",
 					arg_value = 0.35
-				}, <18>{
+				}, <15>{
 					CLSID = "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}",
 					arg_value = 0.35
 				}, {
@@ -189,7 +180,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			connector = "Point3_BD3",
 			use_full_connector_position = true
 		}, {
-			Launchers = { <table 6>, <table 7>, <table 8>, <table 9>, <table 10>, <table 11>, <table 12>, <table 13>, <table 14>, {
+			Launchers = { <table 6>, <table 7>, <table 8>, <table 9>, <table 10>, <table 11>, {
 					CLSID = "{35B698AC-9FEF-4EC4-AD29-484A0085F62B}",
 					arg_value = 0.05
 				}, {
@@ -236,7 +227,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74884}"
 				}, {
 					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74881}"
-				}, <table 5>, <table 15>, <table 16>, <table 17>, <table 18>, <19>{
+				}, <table 5>, <table 12>, <table 13>, <table 14>, <table 15>, <16>{
 					CLSID = "{40AA4ABE-D6EB-4CD6-AEFE-A1A0477B24AB}",
 					arg_value = 0.15
 				}, {
@@ -273,11 +264,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			connector = "Point_4_BD3",
 			use_full_connector_position = true
 		}, {
-			Launchers = { <table 5>, <20>{
+			Launchers = { <table 5>, <17>{
 					CLSID = "{9B25D316-0434-4954-868F-D51DB1A38DF0}",
 					Type = 1,
 					arg_value = 0.3
-				}, <21>{
+				}, <18>{
 					CLSID = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
 					Type = 1,
 					arg_value = 0.3
@@ -383,7 +374,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{F99BEC1A-869D-4AC7-9730-FBA0E3B1F5FC}",
 					arg_value = 0,
 					connector = "PYLON_6"
-				}, <table 20>, <table 21> },
+				}, <table 17>, <table 18> },
 			Number = 6,
 			Order = 6,
 			Type = 1,
@@ -438,7 +429,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{F99BEC1A-869D-4AC7-9730-FBA0E3B1F5FC}",
 					arg_value = 0,
 					connector = "PYLON_7"
-				}, <table 20>, <table 21>, {
+				}, <table 17>, <table 18>, {
 					CLSID = "{39821727-F6E2-45B3-B1F0-490CC8921D1E}",
 					arg_value = 0.1,
 					connector = "Point7_BD4"
@@ -454,7 +445,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{53BE25A4-C86C-4571-9BC0-47D668349595}",
 					arg_value = 0,
 					connector = "PYLON_7"
-				}, <table 19> },
+				}, <table 16> },
 			Number = 7,
 			Order = 7,
 			Type = 1,
@@ -466,7 +457,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			connector = "Point7_BD3",
 			use_full_connector_position = true
 		}, {
-			Launchers = { <table 5>, <table 20>, <table 21>, {
+			Launchers = { <table 5>, <table 17>, <table 18>, {
 					CLSID = "{MBD3_U6_5*FAB-250}",
 					arg_value = 0,
 					connector = "PYLON_8"
@@ -525,7 +516,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			connector = "Point8_BD3",
 			use_full_connector_position = true
 		}, {
-			Launchers = { <table 6>, <table 7>, <table 8>, <table 9>, <table 10>, <table 11>, <table 12>, <table 13>, <table 14>, {
+			Launchers = { <table 6>, <table 7>, <table 8>, <table 9>, <table 10>, <table 11>, {
 					CLSID = "{35B698AC-9FEF-4EC4-AD29-484A0085F62B}",
 					arg_value = 0.05
 				}, {
@@ -572,7 +563,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74884}"
 				}, {
 					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74881}"
-				}, <table 5>, <table 15>, <table 16>, <table 17>, <table 18>, <table 19>, {
+				}, <table 5>, <table 12>, <table 13>, <table 14>, <table 15>, <table 16>, {
 					CLSID = "{MBD3_U6_5*FAB-250}",
 					arg_value = 0,
 					connector = "PYLON_9"
@@ -606,7 +597,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			connector = "Point9_BD3",
 			use_full_connector_position = true
 		}, {
-			Launchers = { <table 6>, <table 7>, <table 8>, <table 9>, <table 10>, <table 11>, <table 12>, <table 13>, <table 14>, {
+			Launchers = { <table 6>, <table 7>, <table 8>, <table 9>, <table 10>, <table 11>, {
 					CLSID = "{35B698AC-9FEF-4EC4-AD29-484A0085F62B}",
 					arg_value = 0.05
 				}, {
@@ -653,7 +644,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74884}"
 				}, {
 					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74881}"
-				}, <table 4>, <table 5>, <table 15>, <table 16>, <table 17>, <table 18>, {
+				}, <table 4>, <table 5>, <table 12>, <table 13>, <table 14>, <table 15>, {
 					CLSID = "{MBD3_U6_5*FAB-250}",
 					arg_value = 0,
 					connector = "PYLON_10"

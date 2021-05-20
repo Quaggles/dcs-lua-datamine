@@ -4,11 +4,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "IFV BRDM-2",
+	DisplayName = "Scout BRDM-2",
 	DisplayNameShort = "BRDM2",
 	IR_emission_coeff = 0.08,
 	MaxSpeed = 100.00008,
-	Name = "IFV BRDM-2",
+	Name = "Scout BRDM-2",
 	Rate = 8,
 	Sensors = {
 		OPTIC = { "TPKU-2B", "TKN-1S" }

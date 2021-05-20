@@ -4,6 +4,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DisplayName = "SAM Rapier Blindfire TR",
 	DisplayNameShort = "Rapier STR",
 	IR_emission_coeff = 0.03,
+	MaxSpeed = 0,
 	Name = "SAM Rapier Blindfire TR",
 	Rate = 5,
 	Sensors = {

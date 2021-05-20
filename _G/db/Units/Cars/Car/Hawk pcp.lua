@@ -1,10 +1,10 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 0,
-	DisplayName = "SAM Hawk Generator (PCP)",
+	DisplayName = "SAM Hawk Platoon Command Post (PCP)",
 	DisplayNameShort = "Hawk-CP",
 	IR_emission_coeff = 0.05,
 	MaxSpeed = 0,
-	Name = "SAM Hawk Generator (PCP)",
+	Name = "SAM Hawk Platoon Command Post (PCP)",
 	Rate = 20,
 	ThreatRange = 0,
 	WS = { {
@@ -54,7 +54,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	snd = {},
 	swapped_names = true,
-	tags = { "Air Defence", "Generator" },
+	tags = { "Air Defence", "Command & Control" },
 	type = "Hawk pcp",
 	visual = {
 		fire_pos = { 0, 0.6, 0 },

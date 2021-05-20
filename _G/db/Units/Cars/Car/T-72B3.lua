@@ -23,12 +23,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		}, {
 			area_name = "TURRET_BACK",
 			armour = {
-				width = 0.1
+				width = 0.06
 			}
 		}, {
 			area_name = "TURRET_TOP",
 			armour = {
-				width = 0.08
+				width = 0.04
 			}
 		}, {
 			area_name = "COMMANDER",
@@ -53,17 +53,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		}, {
 			area_name = "HULL_TOP",
 			armour = {
-				width = 0.08
+				width = 0.06
 			}
 		}, {
 			area_name = "HULL_BOTTOM",
 			armour = {
-				width = 0.08
+				width = 0.04
 			}
 		}, {
 			area_name = "HULL_BACK",
 			armour = {
-				width = 0.08
+				width = 0.04
 			}
 		}, {
 			area_name = "ENGINE",
@@ -100,6 +100,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DisplayName = "MBT T-72B3",
 	DisplayNameShort = "T72B3",
 	IR_emission_coeff = 0.105,
+	MaxSpeed = 64.8,
 	Name = "MBT T-72B3",
 	Rate = 17,
 	Sensors = {

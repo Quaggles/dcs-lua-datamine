@@ -366,6 +366,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "bofors40"
 				}, {
+					Name = "Chieftain_mk3"
+				}, {
 					Name = "ES44AH"
 				}, {
 					Name = "Boxcartrinity"
@@ -924,6 +926,10 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "Schnellboot_type_S130",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Seawise_Giant",
 					in_service = 0,
 					out_of_service = 40000
 				}, {

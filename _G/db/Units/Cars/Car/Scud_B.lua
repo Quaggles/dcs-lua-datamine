@@ -8,6 +8,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DisplayName = "SSM SS-1C Scud-B",
 	DisplayNameShort = "Scud R-17",
 	IR_emission_coeff = 0.09,
+	MaxSpeed = 60.00012,
 	Name = "SSM SS-1C Scud-B",
 	Rate = 20,
 	ThreatRange = 320000,

@@ -764,6 +764,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "speedboat",
 					in_service = 0,
 					out_of_service = 40000
+				}, {
+					Name = "La_Combattante_II"
 				} }
 		},
 		WWIIstructures = {

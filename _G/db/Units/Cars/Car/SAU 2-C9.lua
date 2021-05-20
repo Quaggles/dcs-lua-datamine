@@ -4,11 +4,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "SPH 2S9 Nona 120mm M",
+	DisplayName = "SPM 2S9 Nona 120mm M",
 	DisplayNameShort = "2S9",
 	IR_emission_coeff = 0.09,
 	MaxSpeed = 60.00012,
-	Name = "SPH 2S9 Nona 120mm M",
+	Name = "SPM 2S9 Nona 120mm M",
 	Rate = 12,
 	Sensors = {
 		OPTIC = { "TKN-3B day", "TKN-3B night" }

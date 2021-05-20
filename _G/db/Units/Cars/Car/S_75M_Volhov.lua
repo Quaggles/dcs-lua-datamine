@@ -4,6 +4,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DisplayName = 'SAM SA-2 S-75 "Guideline" LN',
 	DisplayNameShort = "SA-2",
 	IR_emission_coeff = 0.03,
+	MaxSpeed = 0,
 	Name = 'SAM SA-2 S-75 "Guideline" LN',
 	Rate = 10,
 	ThreatRange = 43000,

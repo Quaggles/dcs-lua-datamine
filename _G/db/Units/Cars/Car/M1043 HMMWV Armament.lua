@@ -4,7 +4,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "APC HMMWV (Scout)",
+	DisplayName = "Scout HMMWV",
 	DisplayNameShort = "M1043",
 	EPLRS = true,
 	IR_emission_coeff = 0.075,
@@ -13,7 +13,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		nominalCapacity = 400
 	},
 	MaxSpeed = 113.00004,
-	Name = "APC HMMWV (Scout)",
+	Name = "Scout HMMWV",
 	Rate = 5,
 	ThreatRange = 1200,
 	WS = { {

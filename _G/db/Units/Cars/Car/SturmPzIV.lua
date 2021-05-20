@@ -329,7 +329,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_elevation = { { -90, 25, 1 }, { 25, 90, 0.5 } }
 	},
 	attribute = { 2, 17, 26, "Redacted", "Artillery", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "Indirect fire", "NonAndLightArmoredUnits", "LightArmoredUnits" },
-	category = "Artillery",
+	category = "Armor",
 	chassis = {
 		mass = 30050
 	},
@@ -363,7 +363,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	swapped_names = true,
 	swing_on_run = false,
-	tags = { "Artillery", "SPG" },
+	tags = { "Armor", "SPG" },
 	type = "SturmPzIV",
 	visual = {
 		agony_explosion_size = 5,

@@ -26,5 +26,5 @@ _G["launcher"]["CBU97*10"] = {
 	Weight = 4170,
 	attribute = { 4, 5, 38, "Redacted" },
 	category = 1,
-	displayName = "10 x CBU-97 - 10 x CEM Cluster Bombs"
+	displayName = "10 x CBU-97 - 10 x SFW Cluster Bombs"
 }

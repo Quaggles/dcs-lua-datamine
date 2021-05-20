@@ -690,6 +690,12 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "HandyWind",
 					in_service = 0,
 					out_of_service = 40000
+				}, {
+					Name = "Seawise_Giant",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "La_Combattante_II"
 				} }
 		},
 		WWIIstructures = {

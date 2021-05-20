@@ -2,7 +2,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	AOA_take_off = 0.157,
 	AddPropAircraft = { {
 			arg = 472,
-			boolean_inverted = true,
 			control = "checkbox",
 			defValue = false,
 			id = "SoloFlight",

@@ -33,6 +33,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DisplayName = "Truck Land Rover 101 FC",
 	DisplayNameShort = "R101",
 	IR_emission_coeff = 0.075,
+	MaxSpeed = 124.92,
 	Name = "Truck Land Rover 101 FC",
 	Rate = 3,
 	ThreatRange = 0,
@@ -97,7 +98,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	swapped_names = true,
 	swing_on_run = false,
-	tags = { "Unarmed", "Support", "Logistics" },
+	tags = { "Unarmed", "Support & Logistics" },
 	type = "Land_Rover_101_FC",
 	visual = {
 		agony_explosion_size = 2,

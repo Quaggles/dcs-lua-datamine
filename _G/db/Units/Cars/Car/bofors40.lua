@@ -1,12 +1,13 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Countries = { "Australia", "Belgium", "Canada", "Czech Republic", "France", "Italia", "Poland", "The Netherlands", "UK", "USA", "USSR", "Yugoslavia" },
 	DetectionRange = 0,
-	DisplayName = "AAA 40mm Bofors",
+	DisplayName = "AAA Bofors 40mm",
 	DisplayNameShort = "Bofors",
 	IR_emission_coeff = 0.01,
-	Name = "AAA 40mm Bofors",
+	MaxSpeed = 0,
+	Name = "AAA Bofors 40mm",
 	Rate = 3,
-	ThreatRange = 7160,
+	ThreatRange = 4000,
 	WS = { {
 			LN = { {
 					BR = { {

@@ -5,8 +5,8 @@ _G["launcher"]["{GBU-24}"] = {
 	Elements = { {
 			ShapeName = "gbu-24"
 		} },
-	Picture = "gbu10.png",
-	Weight = 934,
+	Picture = "gbu24.png",
+	Weight = 1087,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/paveway.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 5, 36, "Redacted" },

@@ -5,11 +5,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 70000,
-	DisplayName = 'SAM SA-6 Kub "Long Track" STR',
+	DisplayName = 'SAM SA-6 Kub "Straight Flush" STR',
 	DisplayNameShort = "SA-6 STR",
 	IR_emission_coeff = 0.085,
 	MaxSpeed = 43.99992,
-	Name = 'SAM SA-6 Kub "Long Track" STR',
+	Name = 'SAM SA-6 Kub "Straight Flush" STR',
 	Rate = 15,
 	Sensors = {
 		RADAR = "Kub 1S91 str"
@@ -78,6 +78,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	category = "Air Defence",
 	chassis = {},
 	enablePlayerCanDrive = false,
+	encyclopediaAnimation = {
+		args = {
+			[24] = 1
+		}
+	},
 	mapclasskey = "P0091000083",
 	radar_rotation_period = 4,
 	sensor = {
@@ -96,7 +101,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	swapped_names = true,
 	swing_on_run = false,
-	tags = { "Air Defence", "Search & Tracking Radar" },
+	tags = { "Air Defence", "Search & Track Radar" },
 	toggle_alarm_state_interval = 10,
 	type = "Kub 1S91 str",
 	visual = {

@@ -4,6 +4,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DisplayName = 'SAM SA-2 S-75 "Fan Song" TR',
 	DisplayNameShort = "SA-2 Tr",
 	IR_emission_coeff = 0.05,
+	MaxSpeed = 0,
 	Name = 'SAM SA-2 S-75 "Fan Song" TR',
 	Rate = 10,
 	Sensors = {

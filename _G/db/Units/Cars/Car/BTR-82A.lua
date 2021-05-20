@@ -5,14 +5,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	Countries = { "Kazakhstan", "Russia", "Syria" },
 	DetectionRange = 0,
-	DisplayName = "APC BTR-82A",
+	DisplayName = "IFV BTR-82A",
 	DisplayNameShort = "BTR82A",
 	IR_emission_coeff = 0.08,
 	InternalCargo = {
 		maximalCapacity = 700,
 		nominalCapacity = 700
 	},
-	Name = "APC BTR-82A",
+	MaxSpeed = 90,
+	Name = "IFV BTR-82A",
 	Rate = 11,
 	Sensors = {
 		OPTIC = { "TKN-3B day", "TKN-3B night" }
@@ -87,6 +88,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		offset = { 0.05, 0, 0 }
 	},
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = { 0.1 }
+	},
 	mapclasskey = "P0091000004",
 	sensor = {
 		height = 2.32
@@ -112,7 +116,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	swapped_names = true,
 	swing_on_run = false,
-	tags = { "Armor", "APC" },
+	tags = { "Armor", "IFV" },
 	turbine = false,
 	type = "BTR-82A",
 	visual = {

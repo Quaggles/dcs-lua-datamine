@@ -984,6 +984,27 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	economy_distance = 14816000,
 	economy_velocity = 9.26,
 	enablePlayerCanDrive = false,
+	encyclopediaAnimation = {
+		args = {
+			[12] = 1,
+			[13] = 1,
+			[17] = -0.5,
+			[19] = -0.5,
+			[21] = 0.5,
+			[23] = 0.5,
+			[25] = -0.5,
+			[27] = -0.5,
+			[29] = 0.5,
+			[31] = 0.5,
+			[33] = -0.5,
+			[35] = -0.5,
+			[37] = 0.5,
+			[39] = 0.5,
+			[41] = 1,
+			[43] = 1,
+			[326] = 1
+		}
+	},
 	exhaust = { {
 			pos = { -5, 41, 23 },
 			size = 0.75

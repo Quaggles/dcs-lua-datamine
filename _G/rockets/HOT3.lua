@@ -28,7 +28,6 @@ _G["rockets"]["#Index"] = {
 	Z_back = 0,
 	_file = "./CoreMods/aircraft/SA342/SA342_Weapons.lua",
 	_origin = "SA342 AI by Polychop-Simulations",
-	_unique_resource_name = "weapons.missiles.HOT3",
 	category = 2,
 	display_name = "HOT3",
 	exhaust = { 0.9, 0.9, 0.85, 0.05 },

@@ -1772,7 +1772,23 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "PT_76",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "ATZ-5",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "generator_5i57",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "ZSU_57_2",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "AA8",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -2044,6 +2060,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "Leopard-2A4",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Technician",
 					in_service = 0,
 					out_of_service = 40000
@@ -2084,6 +2104,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "VAB_Mephisto",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Merkava_Mk4",
 					in_service = 0,
 					out_of_service = 40000
@@ -2092,7 +2116,15 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "Leopard-2A5",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Marder",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "leopard-2A4",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -2125,6 +2157,18 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "Igla manpad INS",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Leopard-2A4TRs",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "leopard-2A4_trs",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "T155_Firtina",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -2181,6 +2225,10 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "MCV-80",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Chieftain_mk3",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -3173,6 +3221,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "Seawise_Giant",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "PERRY",
 					in_service = 0,
 					out_of_service = 40000
@@ -3182,6 +3234,10 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "CV_1143_5",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "La_Combattante_II",
 					in_service = 0,
 					out_of_service = 40000
 				}, {

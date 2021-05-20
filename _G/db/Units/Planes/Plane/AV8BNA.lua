@@ -840,7 +840,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			mmint = 1,
 			prob = 100
 		} },
-	H_max = 16764,
+	H_max = 13716,
 	HumanCockpit = true,
 	HumanCockpitPath = "./Mods/aircraft/AV8BNA/Cockpit/",
 	HumanCockpitPlugins = { {
@@ -1128,7 +1128,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	M_nominal = 10410,
 	Mach_max = 0.9,
 	MaxFuelWeight = 3519.423,
-	MaxHeight = 16764,
+	MaxHeight = 13716,
 	MaxSpeed = 990,
 	MaxTakeOffWeight = 14100,
 	Name = "AV-8B N/A",

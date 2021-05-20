@@ -1313,7 +1313,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		minFrequency = 100,
 		modulation = 0
 	},
-	IR_emission_coeff = 0.5,
+	IR_emission_coeff = 0.6,
 	InternalCargo = {
 		maximalCapacity = 2400,
 		nominalCapacity = 2400

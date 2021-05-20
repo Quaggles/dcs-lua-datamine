@@ -857,6 +857,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "Seawise_Giant",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Uboat_VIIC"
 				}, {
 					Name = "Schnellboot_type_S130"

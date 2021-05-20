@@ -4,12 +4,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "HUMVEE JTAC",
+	DisplayName = "MRLS FDDM (FC)",
 	DisplayNameShort = "FDDM",
 	EPLRS = true,
 	IR_emission_coeff = 0.075,
 	MaxSpeed = 113.00004,
-	Name = "HUMVEE JTAC",
+	Name = "MRLS FDDM (FC)",
 	Rate = 5,
 	ThreatRange = 1200,
 	WS = { {

@@ -41,6 +41,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		maximalCapacity = 1000,
 		nominalCapacity = 1000
 	},
+	MaxSpeed = 52.992,
 	Name = "APC Sd.Kfz.251 Halftrack",
 	Rate = 8,
 	ThreatRange = 1100,

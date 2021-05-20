@@ -180,6 +180,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_250"] = {
 						piercing_mass = 0.56
 					}
 				},
+				sounderName = "Weapons/ClusterBomblets",
 				type_name = "cluster",
 				ws_type = { 4, 5, 38, "Redacted" }
 			},
@@ -371,6 +372,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_250"] = {
 						piercing_mass = 0.56
 					}
 				},
+				sounderName = "Weapons/ClusterBomblets",
 				type_name = "cluster",
 				ws_type = { 4, 5, 38, "Redacted" }
 			},

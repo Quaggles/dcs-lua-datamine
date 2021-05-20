@@ -180,10 +180,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "Bunker",
 	visual = {
 		agony_explosion_size = 2,
-		fire_pos = {},
-		fire_size = 0,
-		fire_time = 0,
-		max_time_agony = 0,
+		fire_pos = {
+			[2] = -1
+		},
+		fire_size = 0.8,
+		fire_time = 35,
+		max_time_agony = 10,
 		shape = "dot2",
 		shape_dstr = "DOT2destr"
 	}

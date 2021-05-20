@@ -20,6 +20,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		maximalCapacity = 1100,
 		nominalCapacity = 1100
 	},
+	MaxSpeed = 90,
 	Name = "Truck Opel Blitz",
 	Rate = 5,
 	ThreatRange = 0,
@@ -37,7 +38,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	category = "Unarmed",
 	chassis = {},
 	driverCockpit = "DriverCockpit/DriverCockpit",
-	driverViewPoint = { 1.3, 1.7, -0.4 },
+	driverViewConnectorName = { "POINT_DRIVER",
+		offset = { 0, 0, 0 }
+	},
 	enablePlayerCanDrive = true,
 	mapclasskey = "P0091000212",
 	shape_table_data = { {
@@ -61,7 +64,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	swapped_names = true,
 	swing_on_run = false,
-	tags = { "Unarmed", "Support", "Logistics" },
+	tags = { "Unarmed", "Support & Logistics" },
 	type = "Blitz_36-6700A",
 	visual = {
 		agony_explosion_size = 2,

@@ -4,11 +4,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "Truck HEMMT TFFT Fire",
+	DisplayName = "Firefighter HEMMT TFFT",
 	DisplayNameShort = "M1142",
 	IR_emission_coeff = 0.08,
 	MaxSpeed = 74.99988,
-	Name = "Truck HEMMT TFFT Fire",
+	Name = "Firefighter HEMMT TFFT",
 	Rate = 15,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,

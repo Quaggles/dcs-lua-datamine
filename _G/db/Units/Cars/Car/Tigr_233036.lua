@@ -4,7 +4,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "APC Tigr",
+	DisplayName = "LUV Tigr",
 	DisplayNameShort = "Tigr",
 	IR_emission_coeff = 0.075,
 	InternalCargo = {
@@ -12,7 +12,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		nominalCapacity = 800
 	},
 	MaxSpeed = 144,
-	Name = "APC Tigr",
+	Name = "LUV Tigr",
 	Rate = 3,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,

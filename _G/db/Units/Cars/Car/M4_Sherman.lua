@@ -264,10 +264,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			}
 		} },
 	DetectionRange = 0,
-	DisplayName = "MT M4 Sherman",
+	DisplayName = "Tk M4 Sherman",
 	DisplayNameShort = "Sherman",
 	IR_emission_coeff = 0.1,
-	Name = "MT M4 Sherman",
+	MaxSpeed = 39.996,
+	Name = "Tk M4 Sherman",
 	Rate = 20,
 	Sensors = {
 		OPTIC = { "TRP-2A day", "TRP-2A night" }

@@ -20,6 +20,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		maximalCapacity = 700,
 		nominalCapacity = 700
 	},
+	MaxSpeed = 124.92,
 	Name = "LUV Land Rover 109",
 	Rate = 3,
 	ThreatRange = 0,
@@ -84,7 +85,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	swapped_names = true,
 	swing_on_run = false,
-	tags = { "Unarmed", "Scout", "Recon" },
+	tags = { "Unarmed", "Scout/Recon" },
 	type = "Land_Rover_109_S3",
 	visual = {
 		agony_explosion_size = 2,

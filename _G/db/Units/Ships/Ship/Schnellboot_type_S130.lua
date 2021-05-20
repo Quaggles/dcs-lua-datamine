@@ -543,6 +543,19 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	economy_distance = 15700000,
 	economy_velocity = 15,
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = {
+			[18] = 0.135,
+			[19] = 1,
+			[20] = 0.27,
+			[21] = 1,
+			[22] = 0.1,
+			[153] = 1,
+			[154] = 1,
+			[155] = 1,
+			[156] = 1
+		}
+	},
 	glisser_angle = 0.034906585039887,
 	glisser_height = 0.1,
 	glisser_velocity = 15,

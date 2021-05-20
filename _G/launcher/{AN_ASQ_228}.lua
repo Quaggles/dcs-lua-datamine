@@ -5,7 +5,7 @@ _G["launcher"]["{AN_ASQ_228}"] = {
 	Elements = { {
 			ShapeName = "AN_ASQ_228"
 		} },
-	Picture = "AAQ-28.png",
+	Picture = "ASQ-228.png",
 	Sensors = {
 		OPTIC = { "ATFLIR AN/ASQ-228 FLIR", "ATFLIR AN/ASQ-228 CCD TV" }
 	},

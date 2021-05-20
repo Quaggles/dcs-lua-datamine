@@ -15,7 +15,7 @@ _G["launcher"]["{BRU57_2*CBU-103}"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
-	displayName = "BRU-57 with 2 x CBU-103",
+	displayName = "BRU-57 with 2 x CBU-103 - 202 x CEM, CBU with WCMD",
 	name = "{BRU57_2*CBU-103}",
 	wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 }

@@ -101,6 +101,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SMERCH_9M55K"] = {
 						piercing_mass = 0.35
 					}
 				},
+				sounderName = "Weapons/ClusterBomblets",
 				type_name = "cluster",
 				ws_type = { 4, 5, 38, "Redacted" }
 			},
@@ -216,6 +217,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SMERCH_9M55K"] = {
 						piercing_mass = 0.35
 					}
 				},
+				sounderName = "Weapons/ClusterBomblets",
 				type_name = "cluster",
 				ws_type = { 4, 5, 38, "Redacted" }
 			},

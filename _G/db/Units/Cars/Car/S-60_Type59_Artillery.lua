@@ -4,6 +4,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 5000,
 	DisplayName = "AAA S-60 57mm",
 	DisplayNameShort = "S-60",
+	MaxSpeed = 0,
 	Name = "AAA S-60 57mm",
 	Rate = 3,
 	ThreatRange = 7000,

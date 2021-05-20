@@ -2,10 +2,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	AOA_take_off = 0.17,
 	AmmoWeight = 120.36,
 	CAS_min = 50,
-	CanopyGeometry = {
-		azimuth = { -160, 160 },
-		elevation = { -30, 90 }
-	},
+	CanopyGeometry = { -0.34202014332567, -0.64085638205579, -0.93969262078591, -0.29883623873012, 0.34202014332567 },
 	Categories = { "{78EFB7A2-FD52-4b57-A6A6-3BF0E1D6555F}", "Interceptor" },
 	Damage = { {
 			args = { 150 },

@@ -33,6 +33,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		maximalCapacity = 1000,
 		nominalCapacity = 1000
 	},
+	MaxSpeed = 79.92,
 	Name = "Truck Bedford",
 	Rate = 5,
 	ThreatRange = 0,
@@ -52,7 +53,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		life = 1
 	},
 	driverCockpit = "DriverCockpit/DriverCockpit",
-	driverViewPoint = { 0.4, 1.7, 0.4 },
+	driverViewConnectorName = { "POINT_DRIVER",
+		offset = { 0, 0, 0 }
+	},
 	enablePlayerCanDrive = true,
 	mapclasskey = "P0091000212",
 	shape_table_data = { {
@@ -76,7 +79,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	swapped_names = true,
 	swing_on_run = false,
-	tags = { "Unarmed", "Support", "Logistics" },
+	tags = { "Unarmed", "Support & Logistics" },
 	type = "Bedford_MWD",
 	visual = {
 		agony_explosion_size = 2,

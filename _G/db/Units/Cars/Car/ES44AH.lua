@@ -3,6 +3,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DisplayName = "Loco ES44AH",
 	DisplayNameShort = "Loco44H",
 	IR_emission_coeff = 0.15,
+	MaxSpeed = 74.99988,
 	Name = "Loco ES44AH",
 	Rate = 10,
 	ThreatRange = 0,

@@ -3,12 +3,184 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	Countries = { "Germany" },
+	DM = { {
+			area_name = "GLACIS",
+			armour = {
+				width = 0.07
+			}
+		}, {
+			area_name = "Telo_VLD",
+			armour = {
+				width = 0.45
+			}
+		}, {
+			area_name = "Telo_NLD",
+			armour = {
+				width = 0.35
+			}
+		}, {
+			area_name = "Telo_NIZ",
+			armour = {
+				width = 0.07
+			}
+		}, {
+			area_name = "Telo_BORT_Lev",
+			armour = {
+				width = 0.08
+			}
+		}, {
+			area_name = "Telo_BORT_Prav",
+			armour = {
+				width = 0.08
+			}
+		}, {
+			area_name = "KDZ_Lev",
+			armour = {
+				width = 0.13
+			}
+		}, {
+			area_name = "KDZ_Prav",
+			armour = {
+				width = 0.13
+			}
+		}, {
+			area_name = "Falshbort_Lev",
+			armour = {
+				width = 0.08
+			}
+		}, {
+			area_name = "Falshbort_Prav",
+			armour = {
+				width = 0.08
+			}
+		}, {
+			area_name = "Telo_ZAD",
+			armour = {
+				width = 0.03
+			}
+		}, {
+			area_name = "Telo_VERH",
+			armour = {
+				width = 0.03
+			}
+		}, {
+			area_name = "Telo_MTO",
+			armour = {
+				width = 0.03
+			}
+		}, {
+			area_name = "Bashnya_LOB",
+			armour = {
+				width = 0.5
+			}
+		}, {
+			area_name = "Bashnya_Dop_BORT_Lev",
+			armour = {
+				width = 0.5
+			}
+		}, {
+			area_name = "Bashnya_Dop_BORT_Prav",
+			armour = {
+				width = 0.5
+			}
+		}, {
+			area_name = "Bashnya_BORT_Lev",
+			armour = {
+				width = 0.3
+			}
+		}, {
+			area_name = "Bashnya_BORT_Prav",
+			armour = {
+				width = 0.3
+			}
+		}, {
+			area_name = "Bashnya_ZAD",
+			armour = {
+				width = 0.025
+			}
+		}, {
+			area_name = "Bashnya_NIZ",
+			armour = {
+				width = 0.04
+			}
+		}, {
+			area_name = "Bashnya_VERH",
+			armour = {
+				width = 0.07
+			}
+		}, {
+			area_name = "Bashnya_VERH_2",
+			armour = {
+				width = 0.04
+			}
+		}, {
+			area_name = "Pricel_1",
+			armour = {
+				width = 1
+			}
+		}, {
+			area_name = "Pricel_1_top",
+			armour = {
+				width = 0.04
+			}
+		}, {
+			area_name = "Pricel_2",
+			armour = {
+				width = 1
+			}
+		}, {
+			area_name = "Pricel_2_top",
+			armour = {
+				width = 0.04
+			}
+		}, {
+			area_name = "Luk_Zar",
+			armour = {
+				width = 0.04
+			}
+		}, {
+			area_name = "Luk_Kom",
+			armour = {
+				width = 0.04
+			}
+		}, {
+			area_name = "Guslya_Lev",
+			armour = {
+				width = 0.2
+			}
+		}, {
+			area_name = "Guslya_Lev_Front",
+			armour = {
+				width = 1.5
+			}
+		}, {
+			area_name = "Guslya_Prav",
+			armour = {
+				width = 0.2
+			}
+		}, {
+			area_name = "Guslya_Prav_Front",
+			armour = {
+				width = 1.5
+			}
+		}, {
+			area_name = "Orudie_Maska",
+			armour = {
+				width = 0.5
+			}
+		}, {
+			area_name = "Orudie",
+			armour = {
+				width = 0.4
+			}
+		} },
 	DetectionRange = 0,
-	DisplayName = "MBT Leopard 2",
+	DisplayName = "MBT Leopard-2A6M",
 	DisplayNameShort = "Leo-2",
 	IR_emission_coeff = 0.12,
 	MaxSpeed = 72,
-	Name = "MBT Leopard 2",
+	Name = "MBT Leopard-2A6M",
 	Rate = 20,
 	Sensors = {
 		OPTIC = { "EMES 15 day", "EMES 15 night" }
@@ -17,20 +189,20 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	WS = { {
 			LN = { {
 					BR = { {
-							connector_name = "POINT_GUN",
+							connector_name = "POINT_GUN_01",
 							recoilArgument = 23,
-							recoilTime = 0.5
+							recoilTime = 0.3
 						} },
 					PL = { {
 							ammo_capacity = 9,
 							reload_time = 135,
-							shell_name = {},
+							shell_name = { "M256_120_AP_L55" },
 							shot_delay = 6,
 							virtualStwID = 1
 						}, {
 							ammo_capacity = 16,
 							reload_time = 240,
-							shell_name = {},
+							shell_name = { "M256_120_AP_L55" },
 							shot_delay = 10,
 							virtualStwID = 2
 						} },
@@ -43,13 +215,13 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					PL = { {
 							ammo_capacity = 6,
 							reload_time = 90,
-							shell_name = { "M256_120_HE" },
+							shell_name = { "M256_120_HE_L55" },
 							shot_delay = 6,
 							virtualStwID = 1
 						}, {
 							ammo_capacity = 11,
 							reload_time = 165,
-							shell_name = { "M256_120_HE" },
+							shell_name = { "M256_120_HE_L55" },
 							shot_delay = 10,
 							virtualStwID = 2
 						} },
@@ -61,7 +233,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					type = 6
 				}, {
 					BR = { {
-							connector_name = "POINT_MGUN_01",
+							connector_name = "POINT_MG_01",
 							pos = {}
 						} },
 					PL = { {
@@ -74,40 +246,76 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							shell_name = {}
 						}, {
 							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
 						} },
 					beamWidth = 0.017453292519943,
-					fireAnimationArgument = 45,
 					sensor = {},
 					sightIndicationMode = 3,
 					sightMasterMode = 1
 				} },
 			angles = { { 2.4434609527921, -2.4434609527921, -0.15707963267949, 0.33161255787892 }, { -2.4434609527921, 2.4434609527921, 0, 0.33161255787892 } },
 			center = "CENTER_TOWER",
-			cockpit = { "EMES-15/EMES-15", { 0.1, 0, 0 } },
+			cockpit = { "EMES-15/EMES-15", { 0, 0, 0 } },
 			drawArgument1 = 0,
 			drawArgument2 = 1,
 			laser = true,
 			omegaY = 0.83775804095728,
 			omegaZ = 0.34906585039887,
-			pidY = {
-				d = 14,
-				i = 0,
-				inn = 10,
-				p = 100
-			},
-			pidZ = {
-				d = 14,
-				i = 0,
-				inn = 10,
-				p = 100
-			},
 			pointer = "POINT_SIGHT_01",
 			stabilizer = true
+		}, {
+			LN = { {
+					BR = { {
+							connector_name = "POINT_MG_02",
+							pos = {}
+						} },
+					PL = { {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						} },
+					beamWidth = 0.017453292519943,
+					sensor = {},
+					type = 10
+				} },
+			angles = { { 3.1415926535898, -3.1415926535898, -0.15707963267949, 0.87266462599716 } },
+			center = "CENTER_MG_02",
+			drawArgument1 = 24,
+			drawArgument2 = 25,
+			omegaY = 1.0471975511966,
+			omegaZ = 1.0471975511966
 		},
 		maxTargetDetectionRange = 6000,
 		smoke = { "SMOKE_01", "SMOKE_02", "SMOKE_03", "SMOKE_04", "SMOKE_05", "SMOKE_06", "SMOKE_07", "SMOKE_08", "SMOKE_09", "SMOKE_10", "SMOKE_11", "SMOKE_12", "SMOKE_13", "SMOKE_14", "SMOKE_15", "SMOKE_16" }
 	},
 	Waypoint_Custom_Panel = true,
+	_file = "./CoreMods/tech/TechWeaponPack/Database/db_units_cars.lua",
+	_origin = "TechWeaponPack",
 	airWeaponDist = 1500,
 	animation_arguments = {},
 	armour_scheme = {
@@ -130,6 +338,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	sensor = {
 		height = 2.738
 	},
+	shape_table_data = { {
+			classname = "lLandVehicle",
+			desrt = "Leopard-2_p_1",
+			file = "leopard-2",
+			life = 5,
+			name = "leopard-2",
+			positioning = "BYNORMAL",
+			username = "Leopard-2"
+		}, {
+			file = "Leopard-2_p_1",
+			name = "Leopard-2_p_1"
+		} },
 	snd = {
 		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
 		engine_vol_a = { {}, {} },
@@ -140,17 +360,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	swapped_names = true,
 	swing_on_run = false,
 	tags = { "Armor", "MBT" },
+	toggle_alarm_state_interval = 4,
 	turbine = false,
 	type = "Leopard-2",
 	visual = {
-		agony_explosion_size = 2,
-		dirt_pos = { -4, 0.8, -1.4 },
-		dust_pos = { 3.95, 0.2, -1.4 },
-		fire_pos = { -0.9, 0.9, 0 },
-		fire_size = 1.1,
-		fire_time = 600,
-		max_time_agony = 90,
-		min_time_agony = 10,
+		dirt_pos = { -3.4, 0.8, -1.4 },
+		dust_pos = { 3.6, 0.2, -1.4 },
+		fire_pos = { -2.3, 0.7, 0 },
+		fire_size = 0.6,
+		fire_time = 1200,
 		shape = "leopard-2",
 		shape_dstr = "Leopard-2_p_1"
 	}

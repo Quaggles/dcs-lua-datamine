@@ -4,6 +4,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DisplayName = "AShM SS-N-2 Silkworm",
 	DisplayNameShort = "Silkworm",
 	IR_emission_coeff = 0.01,
+	MaxSpeed = 0,
 	Name = "AShM SS-N-2 Silkworm",
 	Rate = 10,
 	ThreatRange = 100000,

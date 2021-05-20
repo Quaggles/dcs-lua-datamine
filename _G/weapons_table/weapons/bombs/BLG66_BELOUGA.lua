@@ -104,6 +104,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BLG66_BELOUGA"] = {
 						piercing_mass = 0.216
 					}
 				},
+				sounderName = "Weapons/ClusterBomblets",
 				type_name = "cluster",
 				ws_type = { 4, 5, 38, "Redacted" }
 			},
@@ -235,6 +236,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BLG66_BELOUGA"] = {
 						piercing_mass = 0.216
 					}
 				},
+				sounderName = "Weapons/ClusterBomblets",
 				type_name = "cluster",
 				ws_type = { 4, 5, 38, "Redacted" }
 			},

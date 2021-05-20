@@ -11,8 +11,8 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["Oerlikon_20mm"] = {
 			shot_delay = 0.13333333333333,
 			switch_on_delay = 2
 		} },
-	distanceMax = 4400,
-	max_trg_alt = 3000,
+	distanceMax = 1500,
+	max_trg_alt = 1000,
 	name = "Oerlikon 20mm AA gun",
 	reactionTime = 1,
 	sensor = {},

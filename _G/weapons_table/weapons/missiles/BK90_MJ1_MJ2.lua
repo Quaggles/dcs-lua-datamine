@@ -276,6 +276,7 @@ _G["weapons_table"]["weapons"]["missiles"]["BK90_MJ1_MJ2"] = {
 						piercing_mass = 10.02
 					}
 				},
+				sounderName = "Weapons/ClusterBomblets",
 				type_name = "cluster",
 				ws_type = { 4, 5, 38, "Redacted" }
 			},
@@ -597,6 +598,7 @@ _G["weapons_table"]["weapons"]["missiles"]["BK90_MJ1_MJ2"] = {
 						piercing_mass = 10.02
 					}
 				},
+				sounderName = "Weapons/ClusterBomblets",
 				type_name = "cluster",
 				ws_type = { 4, 5, 38, "Redacted" }
 			},

@@ -37,7 +37,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 17, 25, "Redacted", "Trucks", "All", "Ground Units", "Vehicles", "Ground vehicles", "Ground Units Non Airdefence", "NonAndLightArmoredUnits", "NonArmoredUnits", "Unarmed vehicles" },
 	category = "Unarmed",
 	chassis = {},
-	enablePlayerCanDrive = false,
+	driverCockpit = "DriverCockpit/DriverCockpit",
+	driverViewConnectorName = { "POINT_DRIVER",
+		offset = { 0, 0, 0 }
+	},
+	enablePlayerCanDrive = true,
 	mapclasskey = "P0091000212",
 	shape_table_data = { {
 			classname = "lLandVehicle",

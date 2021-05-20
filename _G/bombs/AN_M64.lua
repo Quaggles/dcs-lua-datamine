@@ -9,5 +9,6 @@ _G["bombs"]["#Index"] = {
 	mass = 227,
 	name = "AN_M64",
 	type = 0,
-	warhead = "_G/warheads/AN_M64.lua"
+	warhead = "_G/warheads/AN_M64.lua",
+	ws_type = { 4, 5, 9, "Redacted" }
 }

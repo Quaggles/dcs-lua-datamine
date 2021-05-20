@@ -9,5 +9,5 @@ _G["launcher"]["{CBU_105}"] = {
 	Weight = 417,
 	attribute = { 4, 5, 38, "Redacted" },
 	category = 1,
-	displayName = "CBU-105 - 10 x CEM, CBU with WCMD"
+	displayName = "CBU-105 - 10 x SFW, CBU with WCMD"
 }

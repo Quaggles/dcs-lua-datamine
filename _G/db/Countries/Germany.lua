@@ -308,6 +308,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "Leopard-2A5",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "M-109",
 					in_service = 0,
 					out_of_service = 40000
@@ -560,6 +564,14 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "ATZ-5",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Leopard-2A4",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Electric locomotive"
 				}, {
 					Name = "Locomotive"
@@ -589,6 +601,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Sd_Kfz_251"
 				}, {
 					Name = "flak18"
+				}, {
+					Name = "leopard-2A4"
 				}, {
 					Name = "Kubelwagen_82"
 				}, {
@@ -1200,6 +1214,14 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "HandyWind",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Seawise_Giant",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "La_Combattante_II",
 					in_service = 0,
 					out_of_service = 40000
 				}, {

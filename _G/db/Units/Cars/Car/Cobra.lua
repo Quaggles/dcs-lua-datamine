@@ -4,7 +4,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "APC Cobra (Scout)",
+	DisplayName = "Scout Cobra",
 	DisplayNameShort = "Cobra",
 	IR_emission_coeff = 0.07,
 	InternalCargo = {
@@ -12,7 +12,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		nominalCapacity = 700
 	},
 	MaxSpeed = 115.2,
-	Name = "APC Cobra (Scout)",
+	Name = "Scout Cobra",
 	Rate = 8,
 	ThreatRange = 1200,
 	WS = { {

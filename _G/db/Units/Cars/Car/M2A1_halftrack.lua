@@ -12,6 +12,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		maximalCapacity = 700,
 		nominalCapacity = 700
 	},
+	MaxSpeed = 72,
 	Name = "APC M2A1 Halftrack",
 	Rate = 8,
 	ThreatRange = 1200,

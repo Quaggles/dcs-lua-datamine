@@ -20,11 +20,13 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					reactionTime = 4,
 					reflection_limit = 0.01,
 					sensor = {
+						Tau = 2,
 						deviation_error_azimuth = 0.05,
 						deviation_error_distance = 0,
 						deviation_error_elevation = 0.05,
 						deviation_error_speed_sensor = 0,
-						deviation_error_stability = 0
+						deviation_error_stability = 0,
+						type = 2
 					},
 					sightMasterMode = 1,
 					spotlightConnectorName = "POINT_SPOTLIGHT",

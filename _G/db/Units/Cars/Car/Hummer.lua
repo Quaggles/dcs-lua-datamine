@@ -5,7 +5,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "APC HMMWV Jeep",
+	DisplayName = "LUV HMMWV Jeep",
 	DisplayNameShort = "Hummer",
 	EPLRS = true,
 	IR_emission_coeff = 0.075,
@@ -14,7 +14,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		nominalCapacity = 400
 	},
 	MaxSpeed = 113.00004,
-	Name = "APC HMMWV Jeep",
+	Name = "LUV HMMWV Jeep",
 	Rate = 3,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,

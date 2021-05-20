@@ -4,6 +4,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DisplayName = "AShM Silkworm SR",
 	DisplayNameShort = "SilkWrm SR",
 	IR_emission_coeff = 0.05,
+	MaxSpeed = 0,
 	Name = "AShM Silkworm SR",
 	Rate = 10,
 	Sensors = {

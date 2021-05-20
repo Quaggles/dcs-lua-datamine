@@ -5,7 +5,7 @@ _G["launcher"]["{AGM_84H}"] = {
 	Elements = { {
 			ShapeName = "agm-84h"
 		} },
-	Picture = "agm84a.png",
+	Picture = "agm84h.png",
 	Weight = 675,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/cruise_missiles.lua",
 	_origin = "AircraftWeaponPack",

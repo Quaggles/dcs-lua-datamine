@@ -115,6 +115,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					reactionTime = 100,
 					reactionTimeLOFAC = 3,
 					sensor = {},
+					show_external_missile = true,
 					type = 34
 				} },
 			angles = { { 1.7802358370342, 0.78539816339745, 0, 0.95993108859688 }, { 0.78539816339745, -0.78539816339745, 0.26179938779915, 0.95993108859688 }, { -0.78539816339745, -1.221730476396, 0, 0.95993108859688 } },
@@ -155,7 +156,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 17, 27, "Redacted", "MLRS", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "Indirect fire", "NonAndLightArmoredUnits", "LightArmoredUnits", "Artillery" },
 	category = "Artillery",
 	chassis = {},
-	driverViewConnectorName = "DRIVER_POINT",
+	driverViewConnectorName = "POINT_DRIVER",
 	enablePlayerCanDrive = true,
 	mapclasskey = "P0091000208",
 	sensor = {

@@ -179,11 +179,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Fortification", "Pillbox" },
 	type = "Sandbox",
 	visual = {
-		agony_explosion_size = 0.1,
+		agony_explosion_size = 2,
 		fire_pos = {},
-		fire_size = 0,
-		fire_time = 0,
-		max_time_agony = -1,
+		fire_size = 0.85,
+		fire_time = 35,
+		max_time_agony = 15,
 		shape = "dot",
 		shape_dstr = "DOTdestr"
 	}

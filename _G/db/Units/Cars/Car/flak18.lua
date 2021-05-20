@@ -12,6 +12,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DisplayName = "AAA 8,8cm Flak 18",
 	DisplayNameShort = "Flak18",
 	IR_emission_coeff = 0.01,
+	MaxSpeed = 0,
 	Name = "AAA 8,8cm Flak 18",
 	Rate = 4,
 	Sensors = {

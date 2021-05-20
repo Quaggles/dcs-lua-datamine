@@ -123,6 +123,12 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	economy_distance = 300000,
 	economy_velocity = 4,
 	enablePlayerCanDrive = false,
+	encyclopediaAnimation = {
+		args = {
+			[17] = 0.19,
+			[19] = -0.1
+		}
+	},
 	life = 3.6,
 	mapclasskey = "P0091000039",
 	mass = 8200,

@@ -18,7 +18,7 @@ _G["launcher"]["{TER_9A_3*CBU-97}"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
-	displayName = "TER-9A with 3 x CBU-97 - 10 x Anti-Armor Skeet SFW Cluster Bomb",
+	displayName = "TER-9A with 3 x CBU-97 - 10 x SFW Cluster Bomb",
 	name = "{TER_9A_3*CBU-97}",
 	wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 }

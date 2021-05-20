@@ -181,6 +181,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	category = "Air Defence",
 	chassis = {},
 	enablePlayerCanDrive = false,
+	encyclopediaAnimation = {
+		args = {
+			[0] = 1
+		}
+	},
 	mapclasskey = "P0091000081",
 	sensor = {
 		height = 6.931,
