@@ -348,6 +348,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "Chieftain_mk3",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Electric locomotive"
 				}, {
 					Name = "Locomotive"
@@ -365,8 +369,6 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Coach a platform"
 				}, {
 					Name = "bofors40"
-				}, {
-					Name = "Chieftain_mk3"
 				}, {
 					Name = "ES44AH"
 				}, {

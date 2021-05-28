@@ -348,7 +348,11 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "Leopard-2A4TRs",
+					Name = "T155_Firtina",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "leopard-2A4_trs",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -379,10 +383,6 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Tankcartrinity"
 				}, {
 					Name = "Wellcarnsc"
-				}, {
-					Name = "leopard-2A4_trs"
-				}, {
-					Name = "T155_Firtina"
 				}, {
 					Name = "DR_50Ton_Flat_Wagon"
 				}, {

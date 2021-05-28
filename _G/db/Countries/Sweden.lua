@@ -164,10 +164,6 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "Leopard-2",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
 					Name = "bofors40",
 					in_service = 0,
 					out_of_service = 40000
@@ -192,7 +188,11 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "Leopard-2A4",
+					Name = "leopard-2A4",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Leopard-2A5",
 					in_service = 0,
 					out_of_service = 40000
 				}, {

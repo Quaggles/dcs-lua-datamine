@@ -500,7 +500,7 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "Leopard-2A4",
+					Name = "leopard-2A4",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -1047,7 +1047,9 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "La_Combattante_II"
+					Name = "La_Combattante_II",
+					in_service = 0,
+					out_of_service = 40000
 				} }
 		},
 		WWIIstructures = {

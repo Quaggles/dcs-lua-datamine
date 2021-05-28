@@ -844,6 +844,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "VAB_Mephisto",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "hy_launcher",
 					in_service = 0,
 					out_of_service = 40000
@@ -901,6 +905,10 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "rapier_fsa_blindfire_radar",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Chieftain_mk3",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -964,7 +972,7 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "Leopard-2A4",
+					Name = "leopard-2A4",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -1008,10 +1016,6 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "VAB_Mephisto",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
 					Name = "Merkava_Mk4",
 					in_service = 0,
 					out_of_service = 40000
@@ -1025,10 +1029,6 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "Marder",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "leopard-2A4",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -1064,15 +1064,11 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "Leopard-2A4TRs",
+					Name = "T155_Firtina",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
 					Name = "leopard-2A4_trs",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "T155_Firtina",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -1129,10 +1125,6 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "MCV-80",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Chieftain_mk3",
 					in_service = 0,
 					out_of_service = 40000
 				}, {

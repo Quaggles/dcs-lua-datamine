@@ -364,6 +364,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "Chieftain_mk3",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Electric locomotive"
 				}, {
 					Name = "Locomotive"
@@ -951,7 +955,9 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "La_Combattante_II"
+					Name = "La_Combattante_II",
+					in_service = 0,
+					out_of_service = 40000
 				} }
 		},
 		WWIIstructures = {
