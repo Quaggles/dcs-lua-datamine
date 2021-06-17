@@ -142,7 +142,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 3, 12, 15, "Redacted", "Unarmed ships", "Side approach departure", "HelicopterCarrier", "All", "Ships", "HeavyArmoredUnits" },
+	attribute = { 3, 12, 15, "Redacted", "Unarmed ships", "Side approach departure", "HelicopterCarrier", "Naval", "All", "Ships", "HeavyArmoredUnits" },
 	chassis = {},
 	distFindObstacles = 800,
 	economy_distance = 15927200,

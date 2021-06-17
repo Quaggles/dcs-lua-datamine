@@ -496,7 +496,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				} },
 			ejector_dir = { -2, -2, 0 },
 			ejector_pos = { -3.5, -0.4, 0 },
-			elevation_initial = -0.7,
+			elevation_initial = 0,
 			gun = {
 				barrels_count = 1,
 				impulse_vec_rot = {
@@ -746,7 +746,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				} },
 			ejector_dir = { -2, -2, 0 },
 			ejector_pos = { -3.5, -0.4, 0 },
-			elevation_initial = -0.7,
+			elevation_initial = 0,
 			gun = {
 				barrels_count = 1,
 				impulse_vec_rot = {

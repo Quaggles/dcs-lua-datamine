@@ -1,8 +1,8 @@
 _G["db"]["Units"]["Fortifications"]["Fortification"]["#Index"] = {
 	Countries = { "China" },
-	DisplayName = "Warning Board B",
+	DisplayName = "Warning Board: Catch Spy!",
 	Life = 1,
-	Name = "Warning Board B",
+	Name = "Warning Board: Catch Spy!",
 	Rate = 1,
 	SeaObject = false,
 	ShapeName = "biaoyu-2",

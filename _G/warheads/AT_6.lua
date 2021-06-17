@@ -8,5 +8,6 @@ _G["warheads"]["AT_6"] = {
 	mass = 5.4,
 	obj_factors = { 1, 1 },
 	other_factors = { 1, 1, 1 },
-	piercing_mass = 1.08
+	piercing_mass = 1.08,
+	time_self_destruct = 20
 }

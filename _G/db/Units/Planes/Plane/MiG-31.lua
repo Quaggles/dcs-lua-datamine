@@ -712,5 +712,5 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	type = "MiG-31",
 	wing_area = 61.6,
 	wing_span = 13.46,
-	wing_tip_pos = { -5.108, 0.035, 6.52 }
+	wing_tip_pos = { -6.5, 0.1, 6.8 }
 }

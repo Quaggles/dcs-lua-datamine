@@ -1,5 +1,5 @@
 _G["weapons_table"]["weapons"]["missiles"]["AGM_65L"] = {
-	Reflection = 0.063,
+	Reflection = 0.08,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/agm65_family.lua",
 	_origin = "AircraftWeaponPack",
 	_unique_resource_name = "weapons.missiles.AGM_65L",
@@ -34,7 +34,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_65L"] = {
 			fins_limit = 0.3
 		},
 		Range_max = 11112,
-		Reflection = 0.063,
+		Reflection = 0.08,
 		X_back = -0.9,
 		Y_back = -0.15,
 		Z_back = 0,
@@ -151,7 +151,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_65L"] = {
 			fins_limit = 0.3
 		},
 		Range_max = 11112,
-		Reflection = 0.063,
+		Reflection = 0.08,
 		X_back = -0.9,
 		Y_back = -0.15,
 		Z_back = 0,

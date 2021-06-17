@@ -3,14 +3,23 @@ _G["launcher"]["{MAK79_BDU33 3R}"] = {
 	Count = 3,
 	Cx_pil = 0.00076,
 	Elements = { {
-			Position = { 1.18, -0.16, -0.18 },
-			payload_CLSID = "{BDU-33}"
+			IsAdapter = true,
+			ShapeName = "MAK-79_VAR_2"
 		}, {
-			Position = { 1.18, -0.16, 0.18 },
-			payload_CLSID = "{BDU-33}"
+			attach_point_position = <1>{ 0.19, -0.01, 0 },
+			connector_name = "F_L",
+			payload_CLSID = "{BDU-33}",
+			use_full_connector_position = true
 		}, {
-			Position = { -1.18, -0.16, 0.18 },
-			payload_CLSID = "{BDU-33}"
+			attach_point_position = <table 1>,
+			connector_name = "F_R",
+			payload_CLSID = "{BDU-33}",
+			use_full_connector_position = true
+		}, {
+			attach_point_position = <table 1>,
+			connector_name = "R_R",
+			payload_CLSID = "{BDU-33}",
+			use_full_connector_position = true
 		} },
 	Picture = "bdu-33.png",
 	Weight = 63,

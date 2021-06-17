@@ -9,6 +9,9 @@ _G["weapons_table"]["weapons"]["bombs"]["MK_82AIR"] = {
 			enabled = false,
 			velK = 1
 		},
+		collider = {
+			min_obj_sens_vel = 20
+		},
 		control = {
 			open_delay = 0.2
 		},
@@ -51,6 +54,9 @@ _G["weapons_table"]["weapons"]["bombs"]["MK_82AIR"] = {
 		arming_vane = {
 			enabled = false,
 			velK = 1
+		},
+		collider = {
+			min_obj_sens_vel = 20
 		},
 		control = {
 			open_delay = 0.2

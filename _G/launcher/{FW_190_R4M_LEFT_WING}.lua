@@ -52,5 +52,6 @@ _G["launcher"]["{FW_190_R4M_LEFT_WING}"] = {
 	attribute = <1>{ 4, 7, 33, "Redacted" },
 	category = 3,
 	displayName = "13 R4M 3.2kg UnGd air-to-air rocket",
+	pilon_jettison_option = 2,
 	wsTypeOfWeapon = <table 1>
 }

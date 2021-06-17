@@ -36,6 +36,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			name = "AircraftCarrier With Catapult"
 		}, {
 			name = "Armed Ship"
+		}, {
+			name = "AircraftCarrier With Arresting Gear"
 		} },
 	Countries = { "USA" },
 	DM = { {
@@ -851,7 +853,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 3, 12, 12, "Redacted", "Aircraft Carriers", "Arresting Gear", "catapult", "RADAR_BAND1_FOR_ARM", "RADAR_BAND2_FOR_ARM", "AircraftCarrier", "AircraftCarrier With Catapult", "Armed Ship", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
+	attribute = { 3, 12, 12, "Redacted", "Aircraft Carriers", "Arresting Gear", "catapult", "RADAR_BAND1_FOR_ARM", "RADAR_BAND2_FOR_ARM", "AircraftCarrier", "AircraftCarrier With Catapult", "Armed Ship", "AircraftCarrier With Arresting Gear", "Naval", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
 	carrierIlluminationStates = { { { 69, 0, 1 }, { 795, 0, 1 }, { 797, 0, 1 }, { 801, 0, 1 } }, { { 790, 0, 1 }, { 791, 0, 1 }, { 792, 0, 1 }, { 793, 0, 1 }, { 794, 0, 1 }, { 795, 0, 1 }, { 796, 0, 1 }, { 797, 0, 1 }, { 801, 0, 1 } }, { { 150, 0, 1 }, { 152, 0, 1, 3, true }, { 790, 0, 0 }, { 792, 0, 1 }, { 795, 0, 0 }, { 797, 0, 0 }, { 801, 1, 0 } } },
 	carrier_crew_config_name = "./CoreMods/tech/USS_Nimitz/scripts/GroundCrew.lua",
 	chassis = {},

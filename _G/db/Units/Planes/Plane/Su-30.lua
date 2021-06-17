@@ -360,8 +360,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{9B25D316-0434-4954-868F-D51DB1A38DF0}"
 				}, {
 					CLSID = "{E8069896-8435-4B90-95C0-01A03AE6E400}"
-				}, {
-					CLSID = "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}"
 				}, <table 3>, {
 					CLSID = "{D8F2C90B-887B-4B9E-9FE2-996BC9E9AF03}",
 					Type = 1
@@ -493,8 +491,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{9B25D316-0434-4954-868F-D51DB1A38DF0}"
 				}, {
 					CLSID = "{E8069896-8435-4B90-95C0-01A03AE6E400}"
-				}, {
-					CLSID = "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}"
 				}, <table 3>, {
 					CLSID = "{D8F2C90B-887B-4B9E-9FE2-996BC9E9AF03}",
 					Type = 1

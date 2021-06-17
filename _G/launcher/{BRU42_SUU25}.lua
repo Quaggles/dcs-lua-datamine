@@ -6,6 +6,7 @@ _G["launcher"]["{BRU42_SUU25}"] = {
 			IsAdapter = true,
 			ShapeName = "HB_F14_EXT_BRU42"
 		}, {
+			attach_point_position = { 0.05, 0, 0 },
 			connector_name = "BRU-42_RIGHT",
 			payload_CLSID = "{CAE48299-A294-4bad-8EE6-89EFC5DCDF00}"
 		} },

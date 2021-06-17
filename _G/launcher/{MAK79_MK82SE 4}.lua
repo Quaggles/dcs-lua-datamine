@@ -3,17 +3,24 @@ _G["launcher"]["{MAK79_MK82SE 4}"] = {
 	Count = 4,
 	Cx_pil = 0.00101,
 	Elements = { {
-			Position = { 1.18, -0.16, -0.18 },
-			payload_CLSID = "{Mk82SNAKEYE}"
+			IsAdapter = true,
+			ShapeName = "MAK-79_VAR_3"
 		}, {
-			Position = { 1.18, -0.16, 0.18 },
-			payload_CLSID = "{Mk82SNAKEYE}"
+			connector_name = "F_L",
+			payload_CLSID = "{Mk82SNAKEYE}",
+			use_full_connector_position = true
 		}, {
-			Position = { -1.18, -0.16, -0.18 },
-			payload_CLSID = "{Mk82SNAKEYE}"
+			connector_name = "F_R",
+			payload_CLSID = "{Mk82SNAKEYE}",
+			use_full_connector_position = true
 		}, {
-			Position = { -1.18, -0.16, 0.18 },
-			payload_CLSID = "{Mk82SNAKEYE}"
+			connector_name = "R_L",
+			payload_CLSID = "{Mk82SNAKEYE}",
+			use_full_connector_position = true
+		}, {
+			connector_name = "R_R",
+			payload_CLSID = "{Mk82SNAKEYE}",
+			use_full_connector_position = true
 		} },
 	Picture = "mk82AIR.png",
 	Weight = 1004,

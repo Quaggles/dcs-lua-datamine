@@ -568,6 +568,42 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "ZIL-135",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "KS-19",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "RLS_19J6",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "ATZ-60_Maz",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "ATZ-60_TANK",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "S_75_ZIL",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "S_75_Zil_Trailer",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "TZ-22_KrAZ",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "TZ-22_TANK",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "ZSU_57_2"
 				}, {
 					Name = "AA8"

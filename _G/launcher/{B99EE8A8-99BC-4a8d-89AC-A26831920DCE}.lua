@@ -10,5 +10,5 @@ _G["launcher"]["{B99EE8A8-99BC-4a8d-89AC-A26831920DCE}"] = {
 	Weight_Empty = 110,
 	attribute = { 1, 3, 43, "Redacted" },
 	category = 5,
-	displayName = "Fuel tank Ka-50"
+	displayName = "Fuel tank PTB-450"
 }

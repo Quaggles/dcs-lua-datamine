@@ -5,15 +5,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "Truck M818 6x6",
-	DisplayNameShort = "M818",
+	DisplayName = "Truck M939 Heavy",
+	DisplayNameShort = "M939",
 	IR_emission_coeff = 0.08,
 	InternalCargo = {
 		maximalCapacity = 3000,
 		nominalCapacity = 3000
 	},
 	MaxSpeed = 74.99988,
-	Name = "Truck M818 6x6",
+	Name = "Truck M939 Heavy",
 	Rate = 5,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
@@ -51,7 +51,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		max_time_agony = 120,
 		min_time_agony = 10,
 		shape = "m-818",
-		shape_dstr = "M-818_p_1"
+		shape_dstr = "m-818_p_1"
 	},
 	warehouse = true
 }

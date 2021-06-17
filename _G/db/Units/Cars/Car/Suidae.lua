@@ -25,6 +25,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		life = 1
 	},
 	enablePlayerCanDrive = false,
+	encyclopedia_hidden = true,
 	mapclasskey = "P0091000211",
 	snd = {
 		engine = "",

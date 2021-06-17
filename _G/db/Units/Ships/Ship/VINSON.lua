@@ -36,6 +36,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			name = "AircraftCarrier With Catapult"
 		}, {
 			name = "Armed Ship"
+		}, {
+			name = "AircraftCarrier With Arresting Gear"
 		} },
 	DeckLevel = 19.6,
 	DetectionRange = 30000,
@@ -235,7 +237,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 3, 12, 12, "Redacted", "Aircraft Carriers", "Arresting Gear", "catapult", "RADAR_BAND1_FOR_ARM", "RADAR_BAND2_FOR_ARM", "AircraftCarrier", "AircraftCarrier With Catapult", "Armed Ship", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
+	attribute = { 3, 12, 12, "Redacted", "Aircraft Carriers", "Arresting Gear", "catapult", "RADAR_BAND1_FOR_ARM", "RADAR_BAND2_FOR_ARM", "AircraftCarrier", "AircraftCarrier With Catapult", "Armed Ship", "AircraftCarrier With Arresting Gear", "Naval", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
 	chassis = {},
 	distFindObstacles = 1048.7,
 	economy_distance = 74080000,

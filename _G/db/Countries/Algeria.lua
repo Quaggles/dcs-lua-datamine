@@ -578,6 +578,22 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "ZIL-135",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "KS-19",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "ATZ-60_Maz",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "ATZ-60_TANK",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Electric locomotive"
 				}, {
 					Name = "Locomotive"
@@ -977,6 +993,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "UH-1H",
 					in_service = 0,
 					out_of_service = 40000
+				}, {
+					Name = "Mi-24P"
 				}, {
 					Name = "SA342M"
 				}, {

@@ -75,7 +75,7 @@ _G["weapons_table"]["weapons"]["missiles"]["SD-10"] = {
 			nozzle_orientationXYZ = { { 0, 0, 0 } },
 			nozzle_position = { { -1.74, -0.11, 0 } },
 			smoke_color = { 1, 1, 1 },
-			smoke_transparency = 0.05,
+			smoke_transparency = 0.4,
 			tail_width = 0.4,
 			work_time = 6
 		},
@@ -128,7 +128,7 @@ _G["weapons_table"]["weapons"]["missiles"]["SD-10"] = {
 			nozzle_orientationXYZ = { { 0, 0, 0 } },
 			nozzle_position = { { -1.74, -0.11, 0 } },
 			smoke_color = { 1, 1, 1 },
-			smoke_transparency = 0.05,
+			smoke_transparency = 0.4,
 			tail_width = 0.4,
 			work_time = 4
 		},
@@ -279,7 +279,7 @@ _G["weapons_table"]["weapons"]["missiles"]["SD-10"] = {
 			nozzle_orientationXYZ = { { 0, 0, 0 } },
 			nozzle_position = { { -1.74, -0.11, 0 } },
 			smoke_color = { 1, 1, 1 },
-			smoke_transparency = 0.05,
+			smoke_transparency = 0.4,
 			tail_width = 0.4,
 			work_time = 6
 		},
@@ -332,7 +332,7 @@ _G["weapons_table"]["weapons"]["missiles"]["SD-10"] = {
 			nozzle_orientationXYZ = { { 0, 0, 0 } },
 			nozzle_position = { { -1.74, -0.11, 0 } },
 			smoke_color = { 1, 1, 1 },
-			smoke_transparency = 0.05,
+			smoke_transparency = 0.4,
 			tail_width = 0.4,
 			work_time = 4
 		},

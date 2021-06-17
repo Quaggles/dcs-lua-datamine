@@ -17,9 +17,9 @@ _G["weapons_table"]["weapons"]["bombs"]["BLG66_BELOUGA"] = {
 			velK = 1
 		},
 		category = 1,
-		class_name = "wAmmunition",
+		class_name = "wAmmunitionCbu",
 		control = {
-			open_delay = 1.3
+			open_delay = 2
 		},
 		explMass = 94,
 		fm = {
@@ -47,12 +47,12 @@ _G["weapons_table"]["weapons"]["bombs"]["BLG66_BELOUGA"] = {
 						caliber = 0.065,
 						count = 151,
 						cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
-						effect_count = 20,
-						impulse_sigma = 5,
+						effect_count = 30,
+						impulse_sigma = 3,
 						mass = 1.2,
 						model_name = "PTAB-2_5KO",
 						moment_sigma = 0.0001,
-						wind_sigma = 5
+						wind_sigma = 10
 					},
 					scheme = "schemes/cluster/cluster.sch",
 					warhead = {
@@ -69,10 +69,10 @@ _G["weapons_table"]["weapons"]["bombs"]["BLG66_BELOUGA"] = {
 						piercing_mass = 0.216
 					}
 				},
-				display_name = "BLG-66",
+				display_name = "GR_66_AC",
 				mass = 0,
 				model = "",
-				name = "BLG-66",
+				name = "GR_66_AC",
 				server = {
 					cluster = {
 						I = 0.005784,
@@ -82,12 +82,12 @@ _G["weapons_table"]["weapons"]["bombs"]["BLG66_BELOUGA"] = {
 						caliber = 0.065,
 						count = 151,
 						cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
-						effect_count = 20,
-						impulse_sigma = 5,
+						effect_count = 30,
+						impulse_sigma = 3,
 						mass = 1.2,
 						model_name = "PTAB-2_5KO",
 						moment_sigma = 0.0001,
-						wind_sigma = 5
+						wind_sigma = 10
 					},
 					scheme = "schemes/cluster/cluster.sch",
 					warhead = {
@@ -113,7 +113,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BLG66_BELOUGA"] = {
 		mass = 305,
 		model = "M2000C_BLG66",
 		name = "BLG66_BELOUGA",
-		scheme = "schemes/bombs/bomb-cassette.sch",
+		scheme = "schemes/bombs/bomb-cassette_new.sch",
 		shape_table_data = { {
 				file = "M2000C_BLG66",
 				fire = { 0, 1 },
@@ -123,8 +123,8 @@ _G["weapons_table"]["weapons"]["bombs"]["BLG66_BELOUGA"] = {
 				username = "BLG-66 BELOUGA"
 			} },
 		targeting_data = {
-			data = { { 1, 20.2, 0 }, { 10, 20.387832, 4.9e-05 }, { 20, 20.41108, -0.000119 }, { 30, 20.417762, -0.000146 }, { 40, 20.418872, -0.000155 }, { 50, 20.422678, -0.000196 }, { 60, 20.422795, -0.000193 }, { 70, 20.424225, -0.000193 }, { 80, 20.423192, -0.000183 }, { 90, 20.425867, -0.000199 }, { 100, 20.430273, -0.00018 }, { 200, 20.62297, -5.3e-05 }, { 300, 20.857516, -4.7e-05 }, { 400, 21.057872, -0.000108 }, { 500, 21.223882, -0.000184 }, { 600, 21.362917, -0.000257 }, { 700, 21.481392, -0.000324 }, { 800, 21.583711, -0.000385 }, { 900, 21.673304, -0.000438 }, { 1000, 21.752745, -0.000486 }, { 1100, 21.823816, -0.000529 }, { 1200, 21.887984, -0.000567 }, { 1300, 21.946335, -0.000601 }, { 1400, 21.999764, -0.000632 }, { 1500, 22.048955, -0.000659 }, { 1600, 22.094484, -0.000684 }, { 1700, 22.136835, -0.000706 }, { 1800, 22.176353, -0.000726 }, { 1900, 22.213413, -0.000743 }, { 2000, 22.248243, -0.000759 }, { 3000, 22.514201, -0.000834 }, { 4000, 22.696, -0.000852 }, { 5000, 22.8368, -0.000867 }, { 6000, 22.954552, -0.0009 }, { 7000, 23.058133, -0.000956 }, { 8000, 23.152369, -0.00103 }, { 9000, 23.239969, -0.001118 }, { 10000, 23.322436, -0.001221 } },
-			v0 = 200
+			bomblet_char_time = 22.16,
+			char_time = 22
 		},
 		type = 5,
 		user_name = "BLG-66 Belouga",
@@ -149,9 +149,9 @@ _G["weapons_table"]["weapons"]["bombs"]["BLG66_BELOUGA"] = {
 			velK = 1
 		},
 		category = 1,
-		class_name = "wAmmunition",
+		class_name = "wAmmunitionCbu",
 		control = {
-			open_delay = 1.3
+			open_delay = 2
 		},
 		explMass = 94,
 		fm = {
@@ -179,12 +179,12 @@ _G["weapons_table"]["weapons"]["bombs"]["BLG66_BELOUGA"] = {
 						caliber = 0.065,
 						count = 151,
 						cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
-						effect_count = 20,
-						impulse_sigma = 5,
+						effect_count = 30,
+						impulse_sigma = 3,
 						mass = 1.2,
 						model_name = "PTAB-2_5KO",
 						moment_sigma = 0.0001,
-						wind_sigma = 5
+						wind_sigma = 10
 					},
 					scheme = "schemes/cluster/cluster.sch",
 					warhead = {
@@ -201,10 +201,10 @@ _G["weapons_table"]["weapons"]["bombs"]["BLG66_BELOUGA"] = {
 						piercing_mass = 0.216
 					}
 				},
-				display_name = "BLG-66",
+				display_name = "GR_66_AC",
 				mass = 0,
 				model = "",
-				name = "BLG-66",
+				name = "GR_66_AC",
 				server = {
 					cluster = {
 						I = 0.005784,
@@ -214,12 +214,12 @@ _G["weapons_table"]["weapons"]["bombs"]["BLG66_BELOUGA"] = {
 						caliber = 0.065,
 						count = 151,
 						cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
-						effect_count = 20,
-						impulse_sigma = 5,
+						effect_count = 30,
+						impulse_sigma = 3,
 						mass = 1.2,
 						model_name = "PTAB-2_5KO",
 						moment_sigma = 0.0001,
-						wind_sigma = 5
+						wind_sigma = 10
 					},
 					scheme = "schemes/cluster/cluster.sch",
 					warhead = {
@@ -245,7 +245,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BLG66_BELOUGA"] = {
 		mass = 305,
 		model = "M2000C_BLG66",
 		name = "BLG66_BELOUGA",
-		scheme = "schemes/bombs/bomb-cassette.sch",
+		scheme = "schemes/bombs/bomb-cassette_new.sch",
 		shape_table_data = { {
 				file = "M2000C_BLG66",
 				fire = { 0, 1 },
@@ -255,8 +255,8 @@ _G["weapons_table"]["weapons"]["bombs"]["BLG66_BELOUGA"] = {
 				username = "BLG-66 BELOUGA"
 			} },
 		targeting_data = {
-			data = { { 1, 20.2, 0 }, { 10, 20.387832, 4.9e-05 }, { 20, 20.41108, -0.000119 }, { 30, 20.417762, -0.000146 }, { 40, 20.418872, -0.000155 }, { 50, 20.422678, -0.000196 }, { 60, 20.422795, -0.000193 }, { 70, 20.424225, -0.000193 }, { 80, 20.423192, -0.000183 }, { 90, 20.425867, -0.000199 }, { 100, 20.430273, -0.00018 }, { 200, 20.62297, -5.3e-05 }, { 300, 20.857516, -4.7e-05 }, { 400, 21.057872, -0.000108 }, { 500, 21.223882, -0.000184 }, { 600, 21.362917, -0.000257 }, { 700, 21.481392, -0.000324 }, { 800, 21.583711, -0.000385 }, { 900, 21.673304, -0.000438 }, { 1000, 21.752745, -0.000486 }, { 1100, 21.823816, -0.000529 }, { 1200, 21.887984, -0.000567 }, { 1300, 21.946335, -0.000601 }, { 1400, 21.999764, -0.000632 }, { 1500, 22.048955, -0.000659 }, { 1600, 22.094484, -0.000684 }, { 1700, 22.136835, -0.000706 }, { 1800, 22.176353, -0.000726 }, { 1900, 22.213413, -0.000743 }, { 2000, 22.248243, -0.000759 }, { 3000, 22.514201, -0.000834 }, { 4000, 22.696, -0.000852 }, { 5000, 22.8368, -0.000867 }, { 6000, 22.954552, -0.0009 }, { 7000, 23.058133, -0.000956 }, { 8000, 23.152369, -0.00103 }, { 9000, 23.239969, -0.001118 }, { 10000, 23.322436, -0.001221 } },
-			v0 = 200
+			bomblet_char_time = 22.16,
+			char_time = 22
 		},
 		type = 5,
 		user_name = "BLG-66 Belouga",
@@ -264,8 +264,8 @@ _G["weapons_table"]["weapons"]["bombs"]["BLG66_BELOUGA"] = {
 	},
 	sounderName = "Weapons/Bomb",
 	targeting_data = {
-		data = { { 1, 20.2, 0 }, { 10, 20.387832, 4.9e-05 }, { 20, 20.41108, -0.000119 }, { 30, 20.417762, -0.000146 }, { 40, 20.418872, -0.000155 }, { 50, 20.422678, -0.000196 }, { 60, 20.422795, -0.000193 }, { 70, 20.424225, -0.000193 }, { 80, 20.423192, -0.000183 }, { 90, 20.425867, -0.000199 }, { 100, 20.430273, -0.00018 }, { 200, 20.62297, -5.3e-05 }, { 300, 20.857516, -4.7e-05 }, { 400, 21.057872, -0.000108 }, { 500, 21.223882, -0.000184 }, { 600, 21.362917, -0.000257 }, { 700, 21.481392, -0.000324 }, { 800, 21.583711, -0.000385 }, { 900, 21.673304, -0.000438 }, { 1000, 21.752745, -0.000486 }, { 1100, 21.823816, -0.000529 }, { 1200, 21.887984, -0.000567 }, { 1300, 21.946335, -0.000601 }, { 1400, 21.999764, -0.000632 }, { 1500, 22.048955, -0.000659 }, { 1600, 22.094484, -0.000684 }, { 1700, 22.136835, -0.000706 }, { 1800, 22.176353, -0.000726 }, { 1900, 22.213413, -0.000743 }, { 2000, 22.248243, -0.000759 }, { 3000, 22.514201, -0.000834 }, { 4000, 22.696, -0.000852 }, { 5000, 22.8368, -0.000867 }, { 6000, 22.954552, -0.0009 }, { 7000, 23.058133, -0.000956 }, { 8000, 23.152369, -0.00103 }, { 9000, 23.239969, -0.001118 }, { 10000, 23.322436, -0.001221 } },
-		v0 = 200
+		bomblet_char_time = 22.16,
+		char_time = 22
 	},
 	type_name = "bomb",
 	ws_type = { 4, 5, 38, "Redacted" }

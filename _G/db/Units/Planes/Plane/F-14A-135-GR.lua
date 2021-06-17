@@ -247,6 +247,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 529 },
 			critical_damage = 2
 		},
+		[98] = {
+			args = { 2502 },
+			critical_damage = 3
+		},
 		[99] = {
 			args = { 520 },
 			critical_damage = 3
@@ -505,6 +509,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			FUSELAGE_TOP = 99,
 			GUN_AMMO = 141,
 			GUN_BARELLS = 142,
+			HOOK = 98,
 			INTAKE_RAMPS_LEFT = 143,
 			INTAKE_RAMPS_RIGHT = 144,
 			KEEL_L = 43,
@@ -539,7 +544,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[1035] = "f-14b_damageParts_wing",
 		[1036] = "f-14b_damageParts_wing",
 		[1051] = "f-14b_damageParts_stabilizer",
-		[1052] = "f-14b_damageParts_stabilizer"
+		[1052] = "f-14b_damageParts_stabilizer",
+		[1098] = "f-14b_damageParts_hook"
 	},
 	DefaultTask = <1>{
 		Name = "Intercept",
@@ -1743,6 +1749,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{PHXBRU3242_BDU33}",
 					connector = "WEP_PhoenixWingPylon_L"
+				}, {
+					CLSID = "{PHXBRU3242_2*BDU45 LS}",
+					connector = "WEP_PhoenixWingPylon_L"
+				}, {
+					CLSID = "{PHXBRU3242_2*BDU45B LS}",
+					connector = "WEP_PhoenixWingPylon_L"
 				} },
 			Number = 2,
 			Order = 2,
@@ -1984,20 +1996,40 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.5,
 					connector = "WEP_BRU-34_F_L"
 				}, {
-					CLSID = "{MAK79_MK81 4}",
+					CLSID = "{BRU-32 BDU-45}",
 					arg = 601,
 					arg_value = 0.5,
 					connector = "WEP_BRU-34_F_L"
+				}, {
+					CLSID = "{BRU-32 BDU-45B}",
+					arg = 601,
+					arg_value = 0.5,
+					connector = "WEP_BRU-34_F_L"
+				}, {
+					CLSID = "{MAK79_MK81 4}",
+					arg = 601,
+					arg_value = 0.5,
+					connector = "MAK-79_Root_F_L"
 				}, {
 					CLSID = "{MAK79_MK82 4}",
 					arg = 601,
 					arg_value = 0.5,
-					connector = "WEP_BRU-34_F_L"
+					connector = "MAK-79_Root_F_L"
+				}, {
+					CLSID = "{MAK79_BDU45 4}",
+					arg = 601,
+					arg_value = 0.5,
+					connector = "MAK-79_Root_F_L"
+				}, {
+					CLSID = "{MAK79_BDU45B 4}",
+					arg = 601,
+					arg_value = 0.5,
+					connector = "MAK-79_Root_F_L"
 				}, {
 					CLSID = "{MAK79_BDU33 4}",
 					arg = 601,
 					arg_value = 0.5,
-					connector = "WEP_BRU-34_F_L"
+					connector = "MAK-79_Root_F_L"
 				}, {
 					CLSID = "{BRU3242_3*BDU33}",
 					arg = 601,
@@ -2007,17 +2039,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{MAK79_MK82AIR 4}",
 					arg = 601,
 					arg_value = 0.5,
-					connector = "WEP_BRU-34_F_L"
+					connector = "MAK-79_Root_F_L"
 				}, {
 					CLSID = "{MAK79_MK82SE 4}",
 					arg = 601,
 					arg_value = 0.5,
-					connector = "WEP_BRU-34_F_L"
+					connector = "MAK-79_Root_F_L"
 				}, {
 					CLSID = "{MAK79_MK83 3L}",
 					arg = 601,
 					arg_value = 0.5,
-					connector = "WEP_BRU-34_F_L"
+					connector = "MAK-79_Root_F_L"
 				}, {
 					CLSID = "{BRU-32 MK-83}",
 					arg = 601,
@@ -2062,7 +2094,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{MAK79_MK20 2L}",
 					arg = 601,
 					arg_value = 0.5,
-					connector = "WEP_BRU-34_F_L"
+					connector = "MAK-79_Root_F_L"
 				}, {
 					CLSID = "{BRU-32 GBU-24}",
 					arg = 601,
@@ -2267,20 +2299,40 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.5,
 					connector = "WEP_BRU-34_R_L"
 				}, {
-					CLSID = "{MAK79_MK81 3L}",
+					CLSID = "{BRU-32 BDU-45}",
 					arg = 603,
 					arg_value = 0.5,
 					connector = "WEP_BRU-34_R_L"
+				}, {
+					CLSID = "{BRU-32 BDU-45B}",
+					arg = 603,
+					arg_value = 0.5,
+					connector = "WEP_BRU-34_R_L"
+				}, {
+					CLSID = "{MAK79_MK81 3L}",
+					arg = 603,
+					arg_value = 0.5,
+					connector = "MAK-79_Root_R_L"
 				}, {
 					CLSID = "{MAK79_MK82 3L}",
 					arg = 603,
 					arg_value = 0.5,
-					connector = "WEP_BRU-34_R_L"
+					connector = "MAK-79_Root_R_L"
+				}, {
+					CLSID = "{MAK79_BDU45 3L}",
+					arg = 603,
+					arg_value = 0.5,
+					connector = "MAK-79_Root_R_L"
+				}, {
+					CLSID = "{MAK79_BDU45B 3L}",
+					arg = 603,
+					arg_value = 0.5,
+					connector = "MAK-79_Root_R_L"
 				}, {
 					CLSID = "{MAK79_BDU33 3L}",
 					arg = 603,
 					arg_value = 0.5,
-					connector = "WEP_BRU-34_R_L"
+					connector = "MAK-79_Root_R_L"
 				}, {
 					CLSID = "{BRU3242_3*BDU33}",
 					arg = 603,
@@ -2290,17 +2342,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{MAK79_MK82AIR 3L}",
 					arg = 603,
 					arg_value = 0.5,
-					connector = "WEP_BRU-34_R_L"
+					connector = "MAK-79_Root_R_L"
 				}, {
 					CLSID = "{MAK79_MK82SE 3L}",
 					arg = 603,
 					arg_value = 0.5,
-					connector = "WEP_BRU-34_R_L"
+					connector = "MAK-79_Root_R_L"
 				}, {
 					CLSID = "{MAK79_MK83 1L}",
 					arg = 603,
 					arg_value = 0.5,
-					connector = "WEP_BRU-34_R_L"
+					connector = "MAK-79_Root_R_L"
 				}, {
 					CLSID = "{BRU-32 MK-83}",
 					arg = 603,
@@ -2340,7 +2392,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{MAK79_MK20 1L}",
 					arg = 603,
 					arg_value = 0.5,
-					connector = "WEP_BRU-34_R_L"
+					connector = "MAK-79_Root_R_L"
 				} },
 			Number = 5,
 			Order = 5,
@@ -2594,20 +2646,40 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.5,
 					connector = "WEP_BRU-34_R_R"
 				}, {
-					CLSID = "{MAK79_MK81 3R}",
+					CLSID = "{BRU-32 BDU-45}",
 					arg = 604,
 					arg_value = 0.5,
 					connector = "WEP_BRU-34_R_R"
+				}, {
+					CLSID = "{BRU-32 BDU-45B}",
+					arg = 604,
+					arg_value = 0.5,
+					connector = "WEP_BRU-34_R_R"
+				}, {
+					CLSID = "{MAK79_MK81 3R}",
+					arg = 604,
+					arg_value = 0.5,
+					connector = "MAK-79_Root_R_R"
 				}, {
 					CLSID = "{MAK79_MK82 3R}",
 					arg = 604,
 					arg_value = 0.5,
-					connector = "WEP_BRU-34_R_R"
+					connector = "MAK-79_Root_R_R"
+				}, {
+					CLSID = "{MAK79_BDU45 3R}",
+					arg = 604,
+					arg_value = 0.5,
+					connector = "MAK-79_Root_R_R"
+				}, {
+					CLSID = "{MAK79_BDU45B 3R}",
+					arg = 604,
+					arg_value = 0.5,
+					connector = "MAK-79_Root_R_R"
 				}, {
 					CLSID = "{MAK79_BDU33 3R}",
 					arg = 604,
 					arg_value = 0.5,
-					connector = "WEP_BRU-34_R_R"
+					connector = "MAK-79_Root_R_R"
 				}, {
 					CLSID = "{BRU3242_3*BDU33}",
 					arg = 604,
@@ -2617,17 +2689,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{MAK79_MK82AIR 3R}",
 					arg = 604,
 					arg_value = 0.5,
-					connector = "WEP_BRU-34_R_R"
+					connector = "MAK-79_Root_R_R"
 				}, {
 					CLSID = "{MAK79_MK82SE 3R}",
 					arg = 604,
 					arg_value = 0.5,
-					connector = "WEP_BRU-34_R_R"
+					connector = "MAK-79_Root_R_R"
 				}, {
 					CLSID = "{MAK79_MK83 1R}",
 					arg = 604,
 					arg_value = 0.5,
-					connector = "WEP_BRU-34_R_R"
+					connector = "MAK-79_Root_R_R"
 				}, {
 					CLSID = "{BRU-32 MK-83}",
 					arg = 604,
@@ -2667,7 +2739,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{MAK79_MK20 1R}",
 					arg = 604,
 					arg_value = 0.5,
-					connector = "WEP_BRU-34_R_R"
+					connector = "MAK-79_Root_R_R"
 				}, {
 					CLSID = "{BRU-32 GBU-24}",
 					arg = 604,
@@ -2899,20 +2971,40 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.5,
 					connector = "WEP_BRU-34_F_R"
 				}, {
-					CLSID = "{MAK79_MK81 4}",
+					CLSID = "{BRU-32 BDU-45}",
 					arg = 602,
 					arg_value = 0.5,
 					connector = "WEP_BRU-34_F_R"
+				}, {
+					CLSID = "{BRU-32 BDU-45B}",
+					arg = 602,
+					arg_value = 0.5,
+					connector = "WEP_BRU-34_F_R"
+				}, {
+					CLSID = "{MAK79_MK81 4}",
+					arg = 602,
+					arg_value = 0.5,
+					connector = "MAK-79_Root_F_R"
 				}, {
 					CLSID = "{MAK79_MK82 4}",
 					arg = 602,
 					arg_value = 0.5,
-					connector = "WEP_BRU-34_F_R"
+					connector = "MAK-79_Root_F_R"
+				}, {
+					CLSID = "{MAK79_BDU45 4}",
+					arg = 602,
+					arg_value = 0.5,
+					connector = "MAK-79_Root_F_R"
+				}, {
+					CLSID = "{MAK79_BDU45B 4}",
+					arg = 602,
+					arg_value = 0.5,
+					connector = "MAK-79_Root_F_R"
 				}, {
 					CLSID = "{MAK79_BDU33 4}",
 					arg = 602,
 					arg_value = 0.5,
-					connector = "WEP_BRU-34_F_R"
+					connector = "MAK-79_Root_F_R"
 				}, {
 					CLSID = "{BRU3242_3*BDU33}",
 					arg = 602,
@@ -2922,17 +3014,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{MAK79_MK82AIR 4}",
 					arg = 602,
 					arg_value = 0.5,
-					connector = "WEP_BRU-34_F_R"
+					connector = "MAK-79_Root_F_R"
 				}, {
 					CLSID = "{MAK79_MK82SE 4}",
 					arg = 602,
 					arg_value = 0.5,
-					connector = "WEP_BRU-34_F_R"
+					connector = "MAK-79_Root_F_R"
 				}, {
 					CLSID = "{MAK79_MK83 3R}",
 					arg = 602,
 					arg_value = 0.5,
-					connector = "WEP_BRU-34_F_R"
+					connector = "MAK-79_Root_F_R"
 				}, {
 					CLSID = "{BRU-32 MK-83}",
 					arg = 602,
@@ -2977,7 +3069,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{MAK79_MK20 2R}",
 					arg = 602,
 					arg_value = 0.5,
-					connector = "WEP_BRU-34_F_R"
+					connector = "MAK-79_Root_F_R"
 				} },
 			Number = 7,
 			Order = 7,
@@ -3052,6 +3144,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					connector = "WEP_PhoenixWingPylon_R"
 				}, {
 					CLSID = "{PHXBRU3242_BDU33}",
+					connector = "WEP_PhoenixWingPylon_R"
+				}, {
+					CLSID = "{PHXBRU3242_2*BDU45 RS}",
+					connector = "WEP_PhoenixWingPylon_R"
+				}, {
+					CLSID = "{PHXBRU3242_2*BDU45B RS}",
 					connector = "WEP_PhoenixWingPylon_R"
 				}, {
 					CLSID = "{F14-LANTIRN-TP}",

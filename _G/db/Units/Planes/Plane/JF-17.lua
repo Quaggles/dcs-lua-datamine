@@ -2947,7 +2947,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.3
 				}, {
 					CLSID = "DIS_WMD7",
-					arg_value = 0.5,
+					arg_value = 0.4,
 					forbidden = { {
 							loadout = { "DIS_WMD7" },
 							station = 2
@@ -2957,7 +2957,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "DIS_AKG_DLPOD",
-					arg_value = 0.5,
+					arg_value = 0.4,
 					forbidden = { {
 							loadout = { "DIS_AKG_DLPOD" },
 							station = 2
@@ -2967,7 +2967,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "DIS_SPJ_POD",
-					arg_value = 0.5,
+					arg_value = 0.4,
 					forbidden = { {
 							loadout = { "DIS_SPJ_POD" },
 							station = 2

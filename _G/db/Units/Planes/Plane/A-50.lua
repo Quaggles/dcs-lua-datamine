@@ -532,5 +532,5 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	type = "A-50",
 	wing_area = 300,
 	wing_span = 50.5,
-	wing_tip_pos = { -6.627, -0.265, 25.25 }
+	wing_tip_pos = { -9.627, 1.5, 25.25 }
 }

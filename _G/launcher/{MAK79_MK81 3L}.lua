@@ -2,15 +2,18 @@ _G["launcher"]["{MAK79_MK81 3L}"] = {
 	CLSID = "{MAK79_MK81 3L}",
 	Count = 3,
 	Cx_pil = 0.00055,
-	Elements = { {
-			Position = { 1.18, -0.16, -0.18 },
-			payload_CLSID = "{90321C8E-7ED1-47D4-A160-E074D5ABD902}"
+	Elements = { "_G/Pylons/MAK-79_VAR_4.lua", {
+			connector_name = "F_L",
+			payload_CLSID = "{90321C8E-7ED1-47D4-A160-E074D5ABD902}",
+			use_full_connector_position = true
 		}, {
-			Position = { 1.18, -0.16, 0.18 },
-			payload_CLSID = "{90321C8E-7ED1-47D4-A160-E074D5ABD902}"
+			connector_name = "F_R",
+			payload_CLSID = "{90321C8E-7ED1-47D4-A160-E074D5ABD902}",
+			use_full_connector_position = true
 		}, {
-			Position = { -1.18, -0.16, -0.18 },
-			payload_CLSID = "{90321C8E-7ED1-47D4-A160-E074D5ABD902}"
+			connector_name = "R_L",
+			payload_CLSID = "{90321C8E-7ED1-47D4-A160-E074D5ABD902}",
+			use_full_connector_position = true
 		} },
 	Picture = "FAB100.png",
 	Weight = 384,

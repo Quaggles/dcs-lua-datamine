@@ -3,11 +3,16 @@ _G["launcher"]["{MAK79_MK20 2L}"] = {
 	Count = 2,
 	Cx_pil = 5e-05,
 	Elements = { {
-			Position = { 1.55, -0.16, -0.18 },
-			payload_CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}"
+			IsAdapter = true,
+			ShapeName = "MAK-79_VAR_4"
 		}, {
-			Position = { -1.55, -0.16, -0.18 },
-			payload_CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}"
+			connector_name = "F_L",
+			payload_CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}",
+			use_full_connector_position = true
+		}, {
+			connector_name = "R_L",
+			payload_CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}",
+			use_full_connector_position = true
 		} },
 	Picture = "Mk20.png",
 	Weight = 464,

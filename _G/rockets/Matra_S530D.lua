@@ -1,5 +1,5 @@
 _G["rockets"]["#Index"] = {
-	Cx_pil = 2.5,
+	Cx_pil = 2,
 	D_max = 12000,
 	D_min = 600,
 	Damage = 67.5,

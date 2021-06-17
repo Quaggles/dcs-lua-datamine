@@ -74,7 +74,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 3, 12, 14, "Redacted", "low_reflection_vessel", "Light armed ships", "NO_SAM", "Armed Ship", "All", "Ships", "Armed ships", "NonAndLightArmoredUnits", "NonArmoredUnits" },
+	attribute = { 3, 12, 14, "Redacted", "low_reflection_vessel", "Light armed ships", "NO_SAM", "Armed Ship", "Naval", "All", "Ships", "Armed ships", "NonAndLightArmoredUnits", "NonArmoredUnits" },
 	chassis = {
 		armour_thickness = 0.0005
 	},

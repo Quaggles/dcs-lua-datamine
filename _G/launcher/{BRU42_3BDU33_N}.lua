@@ -7,12 +7,15 @@ _G["launcher"]["{BRU42_3*BDU33_N}"] = {
 			ShapeName = "HB_F14_EXT_BRU42"
 		}, {
 			ShapeName = "BDU-33",
+			attach_point_position = <1>{ 0.18, 0.01, 0 },
 			connector_name = "BRU-42_LEFT"
 		}, {
 			ShapeName = "BDU-33",
+			attach_point_position = <table 1>,
 			connector_name = "BRU-42_RIGHT"
 		}, {
 			ShapeName = "BDU-33",
+			attach_point_position = <table 1>,
 			connector_name = "BRU-42_LOWER"
 		} },
 	Picture = "bdu-33.png",

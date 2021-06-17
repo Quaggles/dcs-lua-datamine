@@ -771,6 +771,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "SA342Minigun",
 					in_service = 0,
 					out_of_service = 40000
+				}, {
+					Name = "Mi-24P"
 				} }
 		},
 		Heliports = {

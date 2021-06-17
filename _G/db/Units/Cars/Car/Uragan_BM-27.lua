@@ -106,7 +106,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	attribute = { 2, 17, 27, "Redacted", "MLRS", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "Indirect fire", "NonAndLightArmoredUnits", "LightArmoredUnits", "Artillery" },
 	category = "Artillery",
-	chassis = {},
+	chassis = {
+		mass = 20000
+	},
 	driverViewPoint = { 3.33, 2.3, -0.74 },
 	enablePlayerCanDrive = true,
 	mapclasskey = "P0091000209",

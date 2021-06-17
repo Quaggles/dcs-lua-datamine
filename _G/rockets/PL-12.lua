@@ -71,7 +71,7 @@ _G["rockets"]["#Index"] = {
 		nozzle_orientationXYZ = { { 0, 0, 0 } },
 		nozzle_position = { { -1.74, -0.11, 0 } },
 		smoke_color = { 1, 1, 1 },
-		smoke_transparency = 0.05,
+		smoke_transparency = 0.4,
 		tail_width = 0.4,
 		work_time = 6
 	},
@@ -125,7 +125,7 @@ _G["rockets"]["#Index"] = {
 		nozzle_orientationXYZ = { { 0, 0, 0 } },
 		nozzle_position = { { -1.74, -0.11, 0 } },
 		smoke_color = { 1, 1, 1 },
-		smoke_transparency = 0.05,
+		smoke_transparency = 0.4,
 		tail_width = 0.4,
 		work_time = 4
 	},
@@ -171,7 +171,7 @@ _G["rockets"]["#Index"] = {
 	t_b = 0,
 	t_marsh = 4,
 	user_name = "PL-12",
-	v_mid = 900,
+	v_mid = 1200,
 	v_min = 140,
 	warhead = <1>{
 		caliber = 203,

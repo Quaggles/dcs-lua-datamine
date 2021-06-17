@@ -264,6 +264,22 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "NASAMS_Command_Post",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "NASAMS_Radar_MPQ64F1",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "NASAMS_LN_B",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "NASAMS_LN_C",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Electric locomotive"
 				}, {
 					Name = "Locomotive"
@@ -639,6 +655,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "UH-1H",
 					in_service = 0,
 					out_of_service = 40000
+				}, {
+					Name = "Mi-24P"
 				}, {
 					Name = "SA342M"
 				}, {

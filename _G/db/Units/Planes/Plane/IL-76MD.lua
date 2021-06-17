@@ -649,5 +649,5 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	type = "IL-76MD",
 	wing_area = 300,
 	wing_span = 50.5,
-	wing_tip_pos = { -6.627, -0.265, 25.25 }
+	wing_tip_pos = { -8.627, 1.26, 25.25 }
 }

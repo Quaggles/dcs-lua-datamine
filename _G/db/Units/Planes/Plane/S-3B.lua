@@ -124,7 +124,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	IR_emission_coeff = 0.53,
 	IR_emission_coeff_ab = 0,
 	LandRWCategories = { {
-			Name = "AircraftCarrier"
+			Name = "AircraftCarrier With Arresting Gear"
 		} },
 	M_empty = 12088,
 	M_fuel_max = 5500,

@@ -14,5 +14,6 @@ _G["launcher"]["{WGr21}"] = {
 	category = 3,
 	displayName = "Werfer-Granate 21 - 21 cm UnGd air-to-air rocket",
 	name = "{WGr21}",
+	pilon_jettison_option = 2,
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

@@ -82,6 +82,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			id = "LoadNVGCase",
 			label = "Load NVG Case",
 			weightWhenOn = -80
+		}, {
+			control = "slider",
+			defValue = 0,
+			dimension = "min",
+			id = "InitHotDrift",
+			label = "Initial drift for in flight start",
+			max = 180,
+			min = 0
 		} },
 	AmmoWeight = 141.75,
 	CAS_min = 30,
@@ -527,7 +535,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				count = 125,
 				get_mass = <function 1>,
 				get_mass_ = <function 2>,
-				mixes = { { 1 } },
+				mixes = { { 1 }, { 2 } },
 				shells = { <2>{
 						AP_cap_caliber = 30,
 						Da0 = 0.0022,
@@ -545,7 +553,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						cumulative_thickness = 0.05,
 						cx = { 0.5, 1.27, 0.7, 0.2, 2.3 },
 						damage_factor = 639,
-						display_name = "DEFA554_30_HE",
+						display_name = "30mm HE",
 						explosive = 0.12,
 						full_scale_time = -1,
 						j = 0,
@@ -553,7 +561,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						l = 0,
 						life_time = 12,
 						mass = 0.242,
-						model_name = "tracer_bullet_yellow",
+						model_name = "pula",
 						name = "DEFA554_30_HE",
 						payload = 0.022152482924128,
 						piercing_mass = 0.0484,
@@ -591,7 +599,74 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						tracer_off = 5,
 						tracer_on = 0.02,
 						type_name = "shell",
-						user_name = "DEFA554_30_HE",
+						user_name = "30mm HE",
+						v0 = 830,
+						visual_effect_correction = 0,
+						visual_effect_correction_rebound = 0.1
+					}, <4>{
+						AP_cap_caliber = 30,
+						Da0 = 0.0022,
+						Da1 = 0,
+						Dv0 = 0.007,
+						_file = "./CoreMods/aircraft/M-2000C/WEAPONS/M2KC_Weapons.luac",
+						_origin = "M-2000C AI by RAZBAM Sims",
+						_unique_resource_name = "weapons.shells.DEFA554_30_HE_TRACERS",
+						caliber = 30,
+						cartridge = 0,
+						cartridge_mass = 0.083,
+						category = 7,
+						charTime = 0,
+						cumulative_mass = 0.28,
+						cumulative_thickness = 0.05,
+						cx = { 0.5, 1.27, 0.7, 0.2, 2.3 },
+						damage_factor = 639,
+						display_name = "30mm HE tracers",
+						explosive = 0.12,
+						full_scale_time = -1,
+						j = 0,
+						k1 = 2e-08,
+						l = 0,
+						life_time = 12,
+						mass = 0.242,
+						model_name = "tracer_bullet_yellow",
+						name = "DEFA554_30_HE_TRACERS",
+						payload = 0.022152482924128,
+						piercing_mass = 0.0484,
+						rebound_concrete = <5>{
+							angle0 = 50,
+							angle100 = 75,
+							cx_factor = 5,
+							deviation_angle = 30,
+							velocity_loss_factor = 0.5
+						},
+						rebound_ground = {
+							angle0 = 55,
+							angle100 = 73,
+							cx_factor = 5,
+							deviation_angle = 30,
+							velocity_loss_factor = 0.5
+						},
+						rebound_object = <table 5>,
+						rebound_water = {
+							angle0 = 65,
+							angle100 = 83,
+							cx_factor = 5,
+							deviation_angle = 30,
+							velocity_loss_factor = 0.5
+						},
+						rotation_freq = 7,
+						round_mass = 0.567,
+						s = 0,
+						scale_smoke = 0.5,
+						scale_tracer = 0,
+						silent_self_destruction = false,
+						smoke_opacity = 0.1,
+						smoke_tail_life_time = 0.5,
+						subcalibre = false,
+						tracer_off = 5,
+						tracer_on = 0.02,
+						type_name = "shell",
+						user_name = "30mm HE tracers",
 						v0 = 830,
 						visual_effect_correction = 0,
 						visual_effect_correction_rebound = 0.1
@@ -643,8 +718,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				count = 125,
 				get_mass = <function 3>,
 				get_mass_ = <function 4>,
-				mixes = { { 1 } },
-				shells = { <table 2> }
+				mixes = { { 1 }, { 2 } },
+				shells = { <table 2>, <table 4> }
 			},
 			supply_position = { 0, 0, 0 }
 		} },
@@ -660,10 +735,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				["A-10A"] = {
 					enable_options_key_for_unit = "a10a_enabled"
 				},
-				["A-10C"] = <4>{
+				["A-10C"] = <6>{
 					enable_options_key_for_unit = "disabled"
 				},
-				["A-10C_2"] = <table 4>,
+				["A-10C_2"] = <table 6>,
 				AJS37 = {
 					enable_options_key_for_unit = "ajs37_enabled"
 				},
@@ -682,14 +757,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				["F-15C"] = {
 					enable_options_key_for_unit = "f15c_enabled"
 				},
-				["F-16C_50"] = <table 4>,
+				["F-16C_50"] = <table 6>,
 				["F-5E-3"] = {
 					enable_options_key_for_unit = "f5e3_enabled"
 				},
 				["F-86F Sabre"] = {
 					enable_options_key_for_unit = "f86f_enabled"
 				},
-				["FA-18C_hornet"] = <table 4>,
+				["FA-18C_hornet"] = <table 6>,
 				["FW-190D9"] = {
 					enable_options_key_for_unit = "fw190d9_enabled"
 				},
@@ -699,7 +774,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				["J-11A"] = {
 					enable_options_key_for_unit = "j11a_enabled"
 				},
-				["Ka-50"] = <table 4>,
+				["Ka-50"] = <table 6>,
 				["L-39C"] = {
 					enable_options_key_for_unit = "l39c_common_enabled"
 				},
@@ -1050,6 +1125,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 8
 						} }
 				}, {
+					CLSID = "{Mk82AIR}",
+					arg_value = 0.35,
+					attach_point_position = { -0.13, -0.14, 0 },
+					required = { {
+							loadout = { "{Mk82AIR}" },
+							station = 8
+						} }
+				}, {
 					CLSID = "{BLG66_BELOUGA_AC}",
 					arg_value = 0.35,
 					required = { {
@@ -1073,6 +1156,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 8
 						} }
 				}, {
+					CLSID = "{M2KC_RAFAUT_MK82A}",
+					arg_value = 0.35,
+					attach_point_position = { 0.015, 0.036, 0 },
+					required = { {
+							loadout = { "{M2KC_RAFAUT_MK82A}" },
+							station = 8
+						} }
+				}, {
 					CLSID = "{M2KC_RAFAUT_BLG66}",
 					arg_value = 0.35,
 					attach_point_position = { 0.015, 0.036, 0 },
@@ -1082,14 +1173,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{M2KC_02_RPL541}",
-					arg_value = 0,
 					required = { {
 							loadout = { "{M2KC_08_RPL541}" },
 							station = 8
 						} }
 				}, {
 					CLSID = "{M2KC_02_RPL541_EMPTY}",
-					arg_value = 0,
 					required = { {
 							loadout = { "{M2KC_08_RPL541_EMPTY}" },
 							station = 8
@@ -1132,6 +1221,20 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 6
 						}, {
 							loadout = { "{Mk82SNAKEYE}" },
+							station = 7
+						} }
+				}, {
+					CLSID = "{Mk82AIR}",
+					arg_value = 0.15,
+					attach_point_position = { -0.13, -0.14, 0 },
+					required = { {
+							loadout = { "{Mk82AIR}" },
+							station = 4
+						}, {
+							loadout = { "{Mk82AIR}" },
+							station = 6
+						}, {
+							loadout = { "{Mk82AIR}" },
 							station = 7
 						} }
 				}, {
@@ -1202,6 +1305,20 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 7
 						} }
 				}, {
+					CLSID = "{Mk82AIR}",
+					arg_value = 0.15,
+					attach_point_position = { -0.13, -0.14, 0 },
+					required = { {
+							loadout = { "{Mk82AIR}" },
+							station = 3
+						}, {
+							loadout = { "{Mk82AIR}" },
+							station = 6
+						}, {
+							loadout = { "{Mk82AIR}" },
+							station = 7
+						} }
+				}, {
 					CLSID = "{BLG66_BELOUGA_AC}",
 					arg_value = 0.15,
 					attach_point_position = { -0.04, 0.02, 0 },
@@ -1239,6 +1356,18 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{34759BBC-AF1E-4AEE-A581-498FF7A6EBCE}",
 					arg_value = 0.25
+				}, {
+					CLSID = "{M2KC_BAP100_6_RACK}",
+					arg_value = 0.25,
+					attach_point_position = { 0.1, 0.02, 0 }
+				}, {
+					CLSID = "{M2KC_BAP100_12_RACK}",
+					arg_value = 0.25,
+					attach_point_position = { 0.1, 0.02, 0 }
+				}, {
+					CLSID = "{M2KC_BAP100_18_RACK}",
+					arg_value = 0.25,
+					attach_point_position = { 0.1, 0.02, 0 }
 				}, {
 					CLSID = "{M2KC_RAFAUT_GBU12}",
 					arg_value = 0.25,
@@ -1392,6 +1521,20 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 7
 						} }
 				}, {
+					CLSID = "{Mk82AIR}",
+					arg_value = 0.15,
+					attach_point_position = { -0.13, -0.14, 0 },
+					required = { {
+							loadout = { "{Mk82AIR}" },
+							station = 3
+						}, {
+							loadout = { "{Mk82AIR}" },
+							station = 4
+						}, {
+							loadout = { "{Mk82AIR}" },
+							station = 7
+						} }
+				}, {
 					CLSID = "{BLG66_BELOUGA_AC}",
 					arg_value = 0.15,
 					attach_point_position = { -0.04, 0.02, 0 },
@@ -1443,6 +1586,20 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 4
 						}, {
 							loadout = { "{Mk82SNAKEYE}" },
+							station = 6
+						} }
+				}, {
+					CLSID = "{Mk82AIR}",
+					arg_value = 0.15,
+					attach_point_position = { -0.13, -0.14, 0 },
+					required = { {
+							loadout = { "{Mk82AIR}" },
+							station = 3
+						}, {
+							loadout = { "{Mk82AIR}" },
+							station = 4
+						}, {
+							loadout = { "{Mk82AIR}" },
 							station = 6
 						} }
 				}, {
@@ -1522,6 +1679,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 2
 						} }
 				}, {
+					CLSID = "{Mk82AIR}",
+					arg_value = 0.35,
+					attach_point_position = { -0.13, -0.14, 0 },
+					required = { {
+							loadout = { "{Mk82AIR}" },
+							station = 2
+						} }
+				}, {
 					CLSID = "{BLG66_BELOUGA_AC}",
 					arg_value = 0.35,
 					required = { {
@@ -1545,6 +1710,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 2
 						} }
 				}, {
+					CLSID = "{M2KC_RAFAUT_MK82A}",
+					arg_value = 0.35,
+					attach_point_position = { 0.015, 0.036, 0 },
+					required = { {
+							loadout = { "{M2KC_RAFAUT_MK82A}" },
+							station = 2
+						} }
+				}, {
 					CLSID = "{M2KC_RAFAUT_BLG66}",
 					arg_value = 0.35,
 					attach_point_position = { 0.015, 0.036, 0 },
@@ -1554,14 +1727,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{M2KC_08_RPL541}",
-					arg_value = 0,
 					required = { {
 							loadout = { "{M2KC_02_RPL541}" },
 							station = 2
 						} }
 				}, {
 					CLSID = "{M2KC_08_RPL541_EMPTY}",
-					arg_value = 0,
 					required = { {
 							loadout = { "{M2KC_02_RPL541_EMPTY}" },
 							station = 2
@@ -1715,6 +1886,21 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Type = 0,
 			X = -5.086,
 			Y = -0.587,
+			Z = 0,
+			arg = 317,
+			arg_value = 0,
+			connector = "str_pnt_010",
+			use_full_connector_position = true
+		}, {
+			Launchers = { {
+					CLSID = "{M2KC_AGF}",
+					arg_value = 0
+				} },
+			Number = 11,
+			Order = 11,
+			Type = 0,
+			X = 0,
+			Y = 0,
 			Z = 0,
 			arg = 317,
 			arg_value = 0,
@@ -1935,6 +2121,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	_origin = "M-2000C AI by RAZBAM Sims",
 	_origin_flyable = "M-2000C by RAZBAM Sims",
 	air_refuel_receptacle_pos = { 5.436, 1.027, 0.409 },
+	ammo_type = { "30mm AP", "30mm AP Tracers" },
 	attribute = { 1, 1, 1, "Redacted", "Multirole fighters", "Refuelable", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },
 	average_fuel_consumption = 0.25,
 	bank_angle_max = 60,

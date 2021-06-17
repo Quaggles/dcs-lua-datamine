@@ -9,9 +9,16 @@ _G["weapons_table"]["weapons"]["missiles"]["AT_6"] = {
 			Kp = 0.062,
 			delay = 0.7,
 			fins_discreet = 0.08,
+			fins_limit = 1,
 			max_ctrl_angle = 1.15,
 			no_ctrl_center_ang = 2e-05,
-			op_time = 18
+			op_time = 18,
+			self_destruct_command_timer = 3,
+			self_destruct_maneuver = 1,
+			self_destruct_maneuver_cmd_y = 0.3,
+			self_destruct_maneuver_cmd_z = 0.6,
+			self_destruct_no_signal_lim = 0.5,
+			self_destruct_start_timer = 18
 		},
 		booster = {
 			custom_smoke_dissipation_factor = 0,
@@ -101,7 +108,8 @@ _G["weapons_table"]["weapons"]["missiles"]["AT_6"] = {
 			mass = 5.4,
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
-			piercing_mass = 1.08
+			piercing_mass = 1.08,
+			time_self_destruct = 20
 		},
 		warhead_air = {
 			caliber = 130,
@@ -114,7 +122,8 @@ _G["weapons_table"]["weapons"]["missiles"]["AT_6"] = {
 			mass = 5.4,
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
-			piercing_mass = 1.08
+			piercing_mass = 1.08,
+			time_self_destruct = 20
 		}
 	},
 	display_name = "AT-6",
@@ -128,9 +137,16 @@ _G["weapons_table"]["weapons"]["missiles"]["AT_6"] = {
 			Kp = 0.062,
 			delay = 0.7,
 			fins_discreet = 0.08,
+			fins_limit = 1,
 			max_ctrl_angle = 1.15,
 			no_ctrl_center_ang = 2e-05,
-			op_time = 18
+			op_time = 18,
+			self_destruct_command_timer = 3,
+			self_destruct_maneuver = 1,
+			self_destruct_maneuver_cmd_y = 0.3,
+			self_destruct_maneuver_cmd_z = 0.6,
+			self_destruct_no_signal_lim = 0.5,
+			self_destruct_start_timer = 18
 		},
 		booster = {
 			custom_smoke_dissipation_factor = 0,
@@ -220,7 +236,8 @@ _G["weapons_table"]["weapons"]["missiles"]["AT_6"] = {
 			mass = 5.4,
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
-			piercing_mass = 1.08
+			piercing_mass = 1.08,
+			time_self_destruct = 20
 		},
 		warhead_air = {
 			caliber = 130,
@@ -233,7 +250,8 @@ _G["weapons_table"]["weapons"]["missiles"]["AT_6"] = {
 			mass = 5.4,
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
-			piercing_mass = 1.08
+			piercing_mass = 1.08,
+			time_self_destruct = 20
 		}
 	},
 	sounderName = "Weapons/Missile",

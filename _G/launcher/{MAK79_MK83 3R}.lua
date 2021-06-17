@@ -3,14 +3,20 @@ _G["launcher"]["{MAK79_MK83 3R}"] = {
 	Count = 3,
 	Cx_pil = 0.00106,
 	Elements = { {
-			Position = { 1.55, -0.16, -0.18 },
-			payload_CLSID = "{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}"
+			IsAdapter = true,
+			ShapeName = "MAK-79_VAR_1"
 		}, {
-			Position = { -1.55, -0.16, -0.18 },
-			payload_CLSID = "{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}"
+			connector_name = "F_L",
+			payload_CLSID = "{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}",
+			use_full_connector_position = true
 		}, {
-			Position = { -1.55, -0.16, 0.18 },
-			payload_CLSID = "{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}"
+			connector_name = "R_L",
+			payload_CLSID = "{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}",
+			use_full_connector_position = true
+		}, {
+			connector_name = "R_R",
+			payload_CLSID = "{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}",
+			use_full_connector_position = true
 		} },
 	Picture = "mk83.png",
 	Weight = 1371,

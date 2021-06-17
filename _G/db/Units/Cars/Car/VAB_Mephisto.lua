@@ -55,7 +55,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							type_ammunition = {}
 						} },
 					barrels_reload_type = 3,
-					customViewPoint = { "genericMissileAT", { 0, 0, 0 } },
+					customViewPoint = { "missileATWithPrefire", { 0, 0, 0 } },
 					sensor = {}
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 0.17453292519943 } },

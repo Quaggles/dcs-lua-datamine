@@ -36,6 +36,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			name = "AircraftCarrier With Tramplin"
 		}, {
 			name = "Armed Ship"
+		}, {
+			name = "AircraftCarrier With Arresting Gear"
 		} },
 	Countries = { "Russia" },
 	DM = { {
@@ -977,7 +979,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 3, 12, 12, "Redacted", "Aircraft Carriers", "Arresting Gear", "ski_jump", "RADAR_BAND1_FOR_ARM", "DetectionByAWACS", "Straight_in_approach_type", "AircraftCarrier", "AircraftCarrier With Tramplin", "Armed Ship", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
+	attribute = { 3, 12, 12, "Redacted", "Aircraft Carriers", "Arresting Gear", "ski_jump", "RADAR_BAND1_FOR_ARM", "DetectionByAWACS", "Straight_in_approach_type", "AircraftCarrier", "AircraftCarrier With Tramplin", "Armed Ship", "AircraftCarrier With Arresting Gear", "Naval", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
 	carrierIlluminationStates = { { { 69, 0, 0.999 }, { 149, 0, 0.999 } }, { { 150, 0, 0.999 }, { 152, 0, 0.999 } }, { { 150, 0, 0.999 }, { 152, 0, 0.999 } } },
 	chassis = {},
 	distFindObstacles = 963.5,

@@ -6,11 +6,11 @@ _G["launcher"]["{B919B0F4-7C25-455E-9A02-CEA51DB895E3}"] = {
 			Position = { 0, 0, 0 },
 			ShapeName = "9M114-PILON"
 		}, {
-			Position = { 1, 0.05, -0.225 },
+			Position = { 1, 0.03, 0.17 },
 			Rotation = { 0, 0, 1 },
 			ShapeName = ""
 		}, {
-			Position = { 1, 0.05, 0.225 },
+			Position = { 1, 0.03, -0.17 },
 			Rotation = { 0, 0, 1 },
 			ShapeName = ""
 		} },

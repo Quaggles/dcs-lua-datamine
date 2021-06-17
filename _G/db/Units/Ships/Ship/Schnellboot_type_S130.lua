@@ -537,7 +537,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 3, 12, 14, "Redacted", "Light armed ships", "NO_SAM", "Armed Ship", "All", "Ships", "Armed ships", "NonAndLightArmoredUnits", "NonArmoredUnits" },
+	attribute = { 3, 12, 14, "Redacted", "Light armed ships", "NO_SAM", "Armed Ship", "Naval", "All", "Ships", "Armed ships", "NonAndLightArmoredUnits", "NonArmoredUnits" },
 	chassis = {},
 	distFindObstacles = 200,
 	economy_distance = 15700000,

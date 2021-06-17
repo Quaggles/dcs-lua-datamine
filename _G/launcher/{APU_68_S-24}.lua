@@ -7,7 +7,7 @@ _G["launcher"]["{APU_68_S-24}"] = {
 			payload_CLSID = "{1FA14DEA-8CDB-45AD-88A8-EC068DF1E65A}"
 		} },
 	Picture = "RBK250.png",
-	Weight = 295,
+	Weight = 273.5,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },

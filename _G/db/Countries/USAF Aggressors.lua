@@ -1784,6 +1784,42 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "ZIL-135",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "KS-19",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "RLS_19J6",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "ATZ-60_Maz",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "ATZ-60_TANK",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "S_75_ZIL",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "S_75_Zil_Trailer",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "TZ-22_KrAZ",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "TZ-22_TANK",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "ZSU_57_2",
 					in_service = 0,
 					out_of_service = 40000
@@ -2069,6 +2105,22 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "leopard-2A4",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "NASAMS_Command_Post",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "NASAMS_Radar_MPQ64F1",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "NASAMS_LN_B",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "NASAMS_LN_C",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -2652,6 +2704,8 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "Mi-24P"
+				}, {
 					Name = "SA342M"
 				}, {
 					Name = "SA342L"
@@ -2661,10 +2715,6 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "SA342Minigun"
 				}, {
 					Name = "Ka-27",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Mi-24P",
 					in_service = 0,
 					out_of_service = 40000
 				}, {

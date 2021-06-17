@@ -36,6 +36,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			name = "AircraftCarrier With Tramplin"
 		}, {
 			name = "Armed Ship"
+		}, {
+			name = "AircraftCarrier With Arresting Gear"
 		} },
 	DeckLevel = 16.257,
 	DetectionRange = 25000,
@@ -635,7 +637,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 3, 12, 12, "Redacted", "Aircraft Carriers", "Arresting Gear", "ski_jump", "RADAR_BAND1_FOR_ARM", "DetectionByAWACS", "Straight_in_approach_type", "AircraftCarrier", "AircraftCarrier With Tramplin", "Armed Ship", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
+	attribute = { 3, 12, 12, "Redacted", "Aircraft Carriers", "Arresting Gear", "ski_jump", "RADAR_BAND1_FOR_ARM", "DetectionByAWACS", "Straight_in_approach_type", "AircraftCarrier", "AircraftCarrier With Tramplin", "Armed Ship", "AircraftCarrier With Arresting Gear", "Naval", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
 	chassis = {},
 	distFindObstacles = 963.5,
 	economy_distance = 14816000,

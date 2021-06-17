@@ -28,5 +28,6 @@ _G["launcher"]["{P47_5_HVARS_ON_LEFT_WING_RAILS}"] = {
 	attribute = { 4, 7, 33, "Redacted" },
 	category = 3,
 	displayName = "5 x HVAR, UnGd Rkt",
+	pilon_jettison_option = 3,
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

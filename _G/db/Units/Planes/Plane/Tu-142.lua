@@ -510,5 +510,5 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	type = "Tu-142",
 	wing_area = 295,
 	wing_span = 50.04,
-	wing_tip_pos = { -6.627, -0.265, 25.02 }
+	wing_tip_pos = { -12, -1, 25.02 }
 }

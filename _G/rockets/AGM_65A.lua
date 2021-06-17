@@ -30,7 +30,7 @@ _G["rockets"]["#Index"] = {
 		fins_limit = 0.3
 	},
 	Range_max = 24076,
-	Reflection = 0.063,
+	Reflection = 0.08,
 	X_back = -0.9,
 	Y_back = -0.15,
 	Z_back = 0,
