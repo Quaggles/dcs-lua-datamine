@@ -3637,7 +3637,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				count = 350,
 				get_mass = <function 9>,
 				get_mass_ = <function 10>,
-				mixes = { { 11 }, { 3 }, { 11 }, { 33 }, { 1, 14 } },
+				mixes = { { 11 }, { 3 }, { 11 }, { 3 }, { 1, 14 } },
 				shells = { <table 14>, <table 16>, <table 18>, <table 20>, <table 22>, <table 24>, <table 26>, <table 28>, <table 30>, <table 32>, <table 34>, <table 36>, <table 38>, <table 40> }
 			},
 			supply_position = { -0.22, -0.368, 3.432 }

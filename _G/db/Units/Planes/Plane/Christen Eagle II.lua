@@ -25,6 +25,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					id = -2
 				} },
 			wCtrl = 150
+		}, {
+			control = "checkbox",
+			defValue = true,
+			id = "NS430allow",
+			label = "NS430 Allow",
+			playerOnly = true
 		} },
 	AmmoWeight = 0,
 	CAS_min = 29,

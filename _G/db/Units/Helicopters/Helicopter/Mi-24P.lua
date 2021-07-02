@@ -1210,6 +1210,9 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				lights = { {
 						argument = 209,
 						typename = "argumentlight"
+					}, {
+						argument = 208,
+						typename = "argumentlight"
 					} },
 				typename = "collection"
 			},
@@ -1287,6 +1290,32 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					} },
 				Transition = { "Open", "Close" }
 			} },
+		Door4 = { {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "Arg", 34, "to", 0.9, "in", 1 } }
+					} },
+				Transition = { "Close", "Open" }
+			}, {
+				Flags = { "Reversible", "StepsBackwards" },
+				Sequence = { {
+						C = { { "Arg", 34, "to", 0, "in", 1 } }
+					} },
+				Transition = { "Open", "Close" }
+			} },
+		Door5 = { {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "Arg", 30, "to", 0.9, "in", 1 } }
+					} },
+				Transition = { "Close", "Open" }
+			}, {
+				Flags = { "Reversible", "StepsBackwards" },
+				Sequence = { {
+						C = { { "Arg", 30, "to", 0, "in", 1 } }
+					} },
+				Transition = { "Open", "Close" }
+			} },
 		HeadLights = { {
 				Sequence = { {
 						C = { { "Arg", 425, "to", 0, "speed", 0.2 }, { "Arg", 426, "to", 0, "speed", 0.3 } }
@@ -1302,6 +1331,82 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						C = { { "Arg", 425, "to", 0.3, "speed", 0.2 }, { "Arg", 426, "to", 0.13, "speed", 0.3 } }
 					} },
 				Transition = { "Any", "High" }
+			} },
+		WindscreenWiper0 = { {
+				Sequence = { {
+						C = { { "Sleep", "for", 0 } }
+					} },
+				Transition = { "Any", "Hang" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 13, "to", 0, "at", 1, "sign", -1 } }
+					} },
+				Transition = { "Any", "Retract" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 13, "to", 1, "at", 3, "sign", 1 } }
+					}, {
+						C = { { "Arg", 13, "to", 0, "at", 3, "sign", -1 } }
+					}, {
+						C = { { "ValuePhase", 0 } }
+					} },
+				Transition = { "Any", "CustomStage0" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 13, "to", 1, "at", 2, "sign", 1 } }
+					}, {
+						C = { { "Arg", 13, "to", 0, "at", 2, "sign", -1 } }
+					}, {
+						C = { { "ValuePhase", 0 } }
+					} },
+				Transition = { "Any", "CustomStage1" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 13, "to", 1, "at", 1, "sign", 1 } }
+					}, {
+						C = { { "Arg", 13, "to", 0, "at", 1, "sign", -1 } }
+					}, {
+						C = { { "ValuePhase", 0 } }
+					} },
+				Transition = { "Any", "CustomStage2" }
+			} },
+		WindscreenWiper1 = { {
+				Sequence = { {
+						C = { { "Sleep", "for", 0 } }
+					} },
+				Transition = { "Any", "Hang" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 14, "to", 0, "at", 1, "sign", -1 } }
+					} },
+				Transition = { "Any", "Retract" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 14, "to", 1, "at", 3, "sign", 1 } }
+					}, {
+						C = { { "Arg", 14, "to", 0, "at", 3, "sign", -1 } }
+					}, {
+						C = { { "ValuePhase", 0 } }
+					} },
+				Transition = { "Any", "CustomStage0" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 14, "to", 1, "at", 2, "sign", 1 } }
+					}, {
+						C = { { "Arg", 14, "to", 0, "at", 2, "sign", -1 } }
+					}, {
+						C = { { "ValuePhase", 0 } }
+					} },
+				Transition = { "Any", "CustomStage1" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 14, "to", 1, "at", 1, "sign", 1 } }
+					}, {
+						C = { { "Arg", 14, "to", 0, "at", 1, "sign", -1 } }
+					}, {
+						C = { { "ValuePhase", 0 } }
+					} },
+				Transition = { "Any", "CustomStage2" }
 			} }
 	},
 	nose_gear_pos = { 3.3, -2.02, 0 },
