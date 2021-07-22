@@ -173,6 +173,24 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 						} },
 					PL = { {
 							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
 						} },
 					fireAnimationArgument = 117,
 					sensor = {}
@@ -192,6 +210,24 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							pos = {}
 						} },
 					PL = { {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
 							shell_name = {}
 						} },
 					fireAnimationArgument = 118,
@@ -213,6 +249,24 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 						} },
 					PL = { {
 							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
 						} },
 					fireAnimationArgument = 119,
 					sensor = {}
@@ -232,6 +286,24 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							pos = {}
 						} },
 					PL = { {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
 							shell_name = {}
 						} },
 					fireAnimationArgument = 120,
@@ -327,6 +399,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			shape = "tech_01"
 		} },
 	distFindObstacles = 1048.7,
+	draft = 5,
 	economy_distance = 19000000,
 	economy_velocity = 9.16667,
 	enablePlayerCanDrive = true,

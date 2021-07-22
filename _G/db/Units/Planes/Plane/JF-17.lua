@@ -2825,16 +2825,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 6
 						} }
 				}, {
-					CLSID = "DIS_SPJ_POD",
-					arg_value = 0.7,
-					forbidden = { {
-							loadout = { "DIS_SPJ_POD" },
-							station = 4
-						}, {
-							loadout = { "DIS_SPJ_POD" },
-							station = 6
-						} }
-				}, {
 					CLSID = "DIS_SMOKE_GENERATOR_R",
 					arg_value = 0.1
 				}, {
@@ -2906,6 +2896,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{AB8B8299-F1CC-4359-89B5-2172E0CF4A5A}",
 					arg_value = 0.2
+				}, {
+					CLSID = "DIS_MK_20",
+					arg_value = 0.9
 				}, {
 					CLSID = "DIS_GBU_10",
 					arg_value = 0.2
@@ -3048,6 +3041,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{AB8B8299-F1CC-4359-89B5-2172E0CF4A5A}",
 					arg_value = 0.2
 				}, {
+					CLSID = "DIS_MK_20",
+					arg_value = 0.9
+				}, {
 					CLSID = "DIS_GBU_10",
 					arg_value = 0.2
 				}, {
@@ -3156,16 +3152,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 2
 						}, {
 							loadout = { "DIS_AKG_DLPOD" },
-							station = 4
-						} }
-				}, {
-					CLSID = "DIS_SPJ_POD",
-					arg_value = 0.7,
-					forbidden = { {
-							loadout = { "DIS_SPJ_POD" },
-							station = 2
-						}, {
-							loadout = { "DIS_SPJ_POD" },
 							station = 4
 						} }
 				}, {

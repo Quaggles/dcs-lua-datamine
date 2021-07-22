@@ -1,5 +1,6 @@
 _G["launcher"]["{FB3CE165-BF07-4979-887C-92B87F13276B}"] = {
 	CLSID = "{FB3CE165-BF07-4979-887C-92B87F13276B}",
+	Cx_pil = 0.00035,
 	Elements = { {
 			DrawArgs = { { 1, 1 }, { 2, 1 } },
 			Position = { 0, 0, 0 },

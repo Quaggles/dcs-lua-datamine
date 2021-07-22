@@ -433,6 +433,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	type = "B-1B",
 	wing_area = 181,
 	wing_span = 41.67,
-	wing_tip_pos = { -3.996, -1, 20.835 },
+	wing_tip_pos = { -3.3, -1, 21.2 },
 	wing_type = 1
 }

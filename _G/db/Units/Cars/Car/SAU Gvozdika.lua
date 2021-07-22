@@ -71,7 +71,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		X_gear_1 = 2.1,
 		X_gear_2 = -2.6,
 		armour_thickness = 0.022,
-		life = 3
+		life = 4
 	},
 	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
 	driverViewConnectorName = { "DRIVER_POINT",

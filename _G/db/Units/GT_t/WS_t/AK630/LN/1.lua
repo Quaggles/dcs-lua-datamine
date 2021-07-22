@@ -4,6 +4,24 @@ _G["db"]["Units"]["GT_t"]["WS_t"]["AK630"]["LN"]["#Index"] = {
 		} },
 	PL = { {
 			shell_name = {}
+		}, {
+			shell_name = {}
+		}, {
+			shell_name = {}
+		}, {
+			shell_name = {}
+		}, {
+			shell_name = {}
+		}, {
+			shell_name = {}
+		}, {
+			shell_name = {}
+		}, {
+			shell_name = {}
+		}, {
+			shell_name = {}
+		}, {
+			shell_name = {}
 		} },
 	sensor = {}
 }

@@ -7,7 +7,7 @@ _G["launcher"]["{AB_500_1_SD_10A}"] = {
 		} },
 	Picture = "german_AB500-1_SD10A.png",
 	PictureBlendColor = "0xffffffff",
-	Weight = 500,
+	Weight = 470,
 	_file = "./CoreMods/WWII Units/Weapons/Weapons.lua",
 	_origin = "World War II AI Units by Eagle Dynamics",
 	attribute = { 4, 5, 38, "Redacted" },

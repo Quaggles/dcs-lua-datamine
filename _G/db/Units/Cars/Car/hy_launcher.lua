@@ -54,7 +54,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 16, 27, "Redacted", "SS_missile", "Artillery", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "Indirect fire", "NonAndLightArmoredUnits", "LightArmoredUnits" },
 	category = "MissilesSS",
 	chassis = {
-		life = 3
+		life = 4
 	},
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000079",
@@ -65,7 +65,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			classname = "lLandVehicle",
 			desrt = "hy_launcher_p_1",
 			file = "hy_launcher",
-			life = 5,
+			life = 6,
 			name = "hy_launcher",
 			positioning = "BYNORMAL",
 			username = "hy_launcher"

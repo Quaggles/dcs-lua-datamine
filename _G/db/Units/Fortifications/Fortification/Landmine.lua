@@ -4,6 +4,7 @@ _G["db"]["Units"]["Fortifications"]["Fortification"]["#Index"] = {
 	Rate = 1,
 	ShapeName = "landmine",
 	category = "Fortification",
+	encyclopedia_hidden = true,
 	swapped_names = true,
 	type = "Landmine"
 }

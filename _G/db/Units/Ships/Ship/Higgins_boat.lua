@@ -129,7 +129,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			[19] = -0.1
 		}
 	},
-	life = 3.6,
+	life = 4.6,
 	mapclasskey = "P0091000039",
 	mass = 8200,
 	max_velocity = 6.11,

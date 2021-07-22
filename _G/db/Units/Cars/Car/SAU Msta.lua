@@ -120,7 +120,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		X_gear_2 = -2.35,
 		armour_thickness = 0.012,
 		canCrossRiver = false,
-		life = 3,
+		life = 4,
 		r_max = 0.44
 	},
 	driverCockpit = "DriverCockpit/DriverCockpitWithIR",

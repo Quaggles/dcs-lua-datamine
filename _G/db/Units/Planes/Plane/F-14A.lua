@@ -1106,6 +1106,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	type = "F-14A",
 	wing_area = 68.5,
 	wing_span = 19.54,
-	wing_tip_pos = { -2.112, 0.233, 9.181 },
+	wing_tip_pos = { -2.5, 0.233, 9.71 },
 	wing_type = 1
 }

@@ -44,9 +44,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	attribute = { 2, 16, 26, "Redacted", "AA_flak", "Static AAA", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "Armed Air Defence", "Rocket Attack Valid AirDefence", "AAA", "All", "Ground Units", "Vehicles", "Ground vehicles" },
 	category = "Air Defence",
-	chassis = {
-		life = 1
-	},
+	chassis = {},
 	enablePlayerCanDrive = true,
 	mapclasskey = "P0091000015",
 	sensor = {

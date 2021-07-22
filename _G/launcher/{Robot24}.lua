@@ -1,7 +1,7 @@
 _G["launcher"]["{Robot24}"] = {
 	CLSID = "{Robot24}",
 	Count = 1,
-	Cx_pil = 0.0001,
+	Cx_pil = 0.00014,
 	Elements = { "_G/Pylons/aero-3b.lua", {
 			Position = { 0, -0.125, 0 },
 			ShapeName = "aim-9b"

@@ -1148,6 +1148,12 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		} },
 	crew_size = 2,
 	detection_range_max = 30,
+	doors_movement = 2,
+	effects_presets = { {
+			effect = "APU_STARTUP_BLAST",
+			preset = "mi8mtv2",
+			ttl = 3
+		} },
 	engine_data = {
 		SFC_k = { 2.045e-07, -0.0006328, 0.803 },
 		power_RPM_k = { -0.08639, 0.24277, 0.84175 },
@@ -1159,6 +1165,13 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		sound_name = "Aircrafts/Engines/EngineTV3117"
 	},
 	engines_count = 2,
+	engines_nozzles = { {
+			azimuth = 10,
+			exhaust_length_ab_K = 0.3
+		}, {
+			azimuth = -10,
+			exhaust_length_ab_K = 0.3
+		} },
 	fire_rate = 625,
 	fires_pos = { { 0, 0.7, 0 }, { 1.63, 0.95, -0.6 }, { 1.63, 0.95, 0.6 }, { -8.4, 0.96, 0 }, { -1.34, 0.65, 0 }, { 1.21, -1.06, 0 }, { 0, 0, 0 }, { 0, 0, 0 }, { 0, 0, 0 }, { 0, 0, 0 }, { 0, 0, 0 } },
 	flight_time_maximum = 240,
@@ -1166,7 +1179,10 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	fuselage_Cxa0 = 0.5,
 	fuselage_Cxa90 = 5.9,
 	fuselage_area = 4.8,
+	h_max_gear_hook = 2,
 	height = 4.354,
+	helicopter_hook_pos = { 0, -1, 0 },
+	input_profile_entry = "Mi-24P_pilot",
 	lead_stock_main = 0.438,
 	lead_stock_support = 0.356,
 	length = 20.953,
@@ -1409,6 +1425,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				Transition = { "Any", "CustomStage2" }
 			} }
 	},
+	net_animation = { 423, 424 },
 	nose_gear_pos = { 3.3, -2.02, 0 },
 	panelRadio = { {
 			channels = { {

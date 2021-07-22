@@ -253,9 +253,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	attribute = { 2, 16, 101, "Redacted", "LR SAM", "SAM SR", "RADAR_BAND1_FOR_ARM", "CustomAimPoint", "All", "Ground Units", "Vehicles", "Ground vehicles", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "SAM related", "SAM elements" },
 	category = "Air Defence",
-	chassis = {
-		life = 4
-	},
+	chassis = {},
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000083",
 	radar_rotation_period = 12,

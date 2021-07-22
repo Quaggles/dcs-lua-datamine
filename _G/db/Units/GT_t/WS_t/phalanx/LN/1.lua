@@ -7,7 +7,26 @@ _G["db"]["Units"]["GT_t"]["WS_t"]["phalanx"]["LN"]["#Index"] = {
 			reload_time = 1000000,
 			shell_display_name = "20mm AP+HE",
 			shell_name = { "M61_20_AP", "M61_20_HE" },
-			shot_delay = 0.013333333333333
+			shot_delay = 0.013333333333333,
+			switch_on_delay = 300
+		}, {
+			shell_name = {}
+		}, {
+			shell_name = {}
+		}, {
+			shell_name = {}
+		}, {
+			shell_name = {}
+		}, {
+			shell_name = {}
+		}, {
+			shell_name = {}
+		}, {
+			shell_name = {}
+		}, {
+			shell_name = {}
+		}, {
+			shell_name = {}
 		} },
 	beamWidth = 1.5707963267949,
 	distanceMax = 3000,

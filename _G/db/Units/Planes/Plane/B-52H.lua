@@ -551,5 +551,5 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	type = "B-52H",
 	wing_area = 371,
 	wing_span = 56.4,
-	wing_tip_pos = { -6.627, -0.265, 28.2 }
+	wing_tip_pos = { -13.5, -0.265, 28.2 }
 }

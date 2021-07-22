@@ -90,7 +90,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	category = "Air Defence",
 	chassis = {
 		armour_thickness = 0.001,
-		life = 0.5
+		life = 1.5
 	},
 	enablePlayerCanDrive = true,
 	mapclasskey = "P0091000015",
@@ -101,7 +101,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			classname = "lLandVehicle",
 			desrt = "M45_Quadmount_p_1",
 			file = "M45_Quadmount",
-			life = 5,
+			life = 6,
 			name = "M45_Quadmount",
 			positioning = "BYNORMAL",
 			username = "M45_Quadmount"

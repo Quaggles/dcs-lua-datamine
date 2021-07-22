@@ -49,9 +49,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	attribute = { 2, 17, 25, "Redacted", "Trucks", "All", "Ground Units", "Vehicles", "Ground vehicles", "Ground Units Non Airdefence", "NonAndLightArmoredUnits", "NonArmoredUnits", "Unarmed vehicles" },
 	category = "Unarmed",
-	chassis = {
-		life = 1
-	},
+	chassis = {},
 	driverCockpit = "DriverCockpit/DriverCockpit",
 	driverViewConnectorName = { "POINT_DRIVER",
 		offset = { 0, 0, 0 }
@@ -62,7 +60,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			classname = "lLandVehicle",
 			desrt = "Kubelwagen_82_p_1",
 			file = "Kubelwagen_82",
-			life = 5,
+			life = 6,
 			name = "Kubelwagen_82",
 			positioning = "BYNORMAL",
 			username = "Kubelwagen_82"

@@ -7,7 +7,26 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["GSH_6_30K"] = {
 			reload_time = 1000000,
 			shell_display_name = "30mm AP+HE",
 			shell_name = { "AK630_30_AP", "AK630_30_HE" },
-			shot_delay = 0.010909090909091
+			shot_delay = 0.010909090909091,
+			switch_on_delay = 600
+		}, {
+			shell_name = {}
+		}, {
+			shell_name = {}
+		}, {
+			shell_name = {}
+		}, {
+			shell_name = {}
+		}, {
+			shell_name = {}
+		}, {
+			shell_name = {}
+		}, {
+			shell_name = {}
+		}, {
+			shell_name = {}
+		}, {
+			shell_name = {}
 		} },
 	display_name = "GSh-6-30K",
 	distanceMax = 3500,

@@ -197,6 +197,24 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 						} },
 					PL = { {
 							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
 						} },
 					fireAnimationArgument = 119,
 					sensor = {}
@@ -214,6 +232,24 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							pos = {}
 						} },
 					PL = { {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
 							shell_name = {}
 						} },
 					fireAnimationArgument = 120,

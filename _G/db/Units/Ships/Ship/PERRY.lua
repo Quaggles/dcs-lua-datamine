@@ -115,7 +115,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		} },
 	DeckLevel = 5.8,
 	DetectionRange = 150000,
-	DisplayName = "FFG Oliver Hazzard Perry",
+	DisplayName = "FFG Oliver Hazard Perry",
 	DisplayNameShort = "Perry",
 	Gamma_max = 1,
 	Height = 31.5,
@@ -123,7 +123,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	IR_emission_coeff = 0.4,
 	Landing_Point = { -55.3, 4.73, 0 },
 	Length = 137.5,
-	Name = "FFG Oliver Hazzard Perry",
+	Name = "FFG Oliver Hazard Perry",
 	Om = 0.02,
 	RCS = 60000,
 	R_min = 275,
@@ -289,6 +289,24 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 						} },
 					PL = { {
 							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
 						} },
 					fireAnimationArgument = 119,
 					sensor = {}
@@ -374,7 +392,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 						} },
 					sensor = {}
 				} },
-			angles = { { -0.34906585039887, 0.34906585039887 } },
+			angles = { { -0.34906585039887, -2.7925268031909, -0.069813170079773, 1.221730476396 }, { -2.7925268031909, 2.7925268031909, 0.27925268031909, 1.221730476396 }, { 2.7925268031909, 0.34906585039887, -0.069813170079773, 1.221730476396 } },
 			area = "TOWER_NADSTROYKA",
 			center = "CENTER_TOWER_01",
 			drawArgument1 = 13,

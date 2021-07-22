@@ -52,7 +52,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 17, 27, "Redacted", "SS_missile", "Artillery", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "Indirect fire", "NonAndLightArmoredUnits", "LightArmoredUnits" },
 	category = "MissilesSS",
 	chassis = {
-		life = 3
+		life = 4
 	},
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000079",
@@ -63,7 +63,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			classname = "lLandVehicle",
 			desrt = "v1_ramp_p_1",
 			file = "v1_ramp",
-			life = 5,
+			life = 6,
 			name = "v1_ramp",
 			positioning = "BYNORMAL",
 			username = "v1_launcher"

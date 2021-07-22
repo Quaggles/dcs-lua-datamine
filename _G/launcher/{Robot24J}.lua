@@ -1,7 +1,7 @@
 _G["launcher"]["{Robot24J}"] = {
 	CLSID = "{Robot24J}",
 	Count = 1,
-	Cx_pil = 0.0001,
+	Cx_pil = 0.00014,
 	Elements = { {
 			IsAdapter = true,
 			Position = { 0, 0, 0 },

@@ -192,7 +192,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 16, 101, "Redacted", "DetectionByAWACS", "Artillery", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "Indirect fire", "NonAndLightArmoredUnits", "LightArmoredUnits" },
 	category = "MissilesSS",
 	chassis = {
-		life = 3
+		life = 4
 	},
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000083",
@@ -207,7 +207,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			classname = "lLandVehicle",
 			desrt = "mys-m1_p_1",
 			file = "mys-m1",
-			life = 5,
+			life = 6,
 			name = "mys-m1",
 			positioning = "BYNORMAL",
 			username = "Silkworm_SR"

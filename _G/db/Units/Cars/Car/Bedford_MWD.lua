@@ -50,7 +50,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 17, 25, "Redacted", "Trucks", "All", "Ground Units", "Vehicles", "Ground vehicles", "Ground Units Non Airdefence", "NonAndLightArmoredUnits", "NonArmoredUnits", "Unarmed vehicles" },
 	category = "Unarmed",
 	chassis = {
-		life = 1
+		life = 2
 	},
 	driverCockpit = "DriverCockpit/DriverCockpit",
 	driverViewConnectorName = { "POINT_DRIVER",
@@ -62,7 +62,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			classname = "lLandVehicle",
 			desrt = "Bedford_MWD_p_1",
 			file = "Bedford_MWD",
-			life = 5,
+			life = 6,
 			name = "Bedford_MWD",
 			positioning = "BYNORMAL",
 			username = "Bedford_MWD"

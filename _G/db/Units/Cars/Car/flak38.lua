@@ -118,7 +118,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 16, 26, "Redacted", "AA_flak", "Static AAA", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "Armed Air Defence", "Rocket Attack Valid AirDefence", "AAA", "All", "Ground Units", "Vehicles", "Ground vehicles" },
 	category = "Air Defence",
 	chassis = {
-		life = 0.5
+		life = 1.5
 	},
 	enablePlayerCanDrive = true,
 	mapclasskey = "P0091000015",
@@ -129,7 +129,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			classname = "lLandVehicle",
 			desrt = "flak38_p_1",
 			file = "flak38",
-			life = 5,
+			life = 6,
 			name = "flak38",
 			positioning = "BYNORMAL",
 			username = "flak38"

@@ -110,7 +110,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 16, 27, "Redacted", "AA_missile", "SR SAM", "SAM SR", "SAM TR", "SAM LL", "RADAR_BAND1_FOR_ARM", "RADAR_BAND2_FOR_ARM", "All", "Ground Units", "Vehicles", "Ground vehicles", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "SAM related", "SAM elements", "Armed Air Defence" },
 	category = "Air Defence",
 	chassis = {
-		life = 2
+		life = 3
 	},
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000082",
@@ -126,7 +126,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			classname = "lLandVehicle",
 			desrt = "rapier_fsa_launcher_p_1",
 			file = "rapier_fsa_launcher",
-			life = 5,
+			life = 6,
 			name = "rapier_fsa_launcher",
 			positioning = "BYNORMAL",
 			username = "rapier_fsa_launcher"

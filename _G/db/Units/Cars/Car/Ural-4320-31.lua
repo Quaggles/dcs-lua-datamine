@@ -27,7 +27,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	category = "Unarmed",
 	chassis = {
 		armour_thickness = 0.012,
-		life = 2
+		life = 3
 	},
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000005",

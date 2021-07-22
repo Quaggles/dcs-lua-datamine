@@ -1,10 +1,10 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 160000,
-	DisplayName = 'SAM P19 "Flat Face" SR (SA-2/3)',
+	DisplayName = 'SAM SA-2/3/5 P19 "Flat Face" SR ',
 	DisplayNameShort = "P-19 SR",
 	IR_emission_coeff = 0.08,
 	MaxSpeed = 0,
-	Name = 'SAM P19 "Flat Face" SR (SA-2/3)',
+	Name = 'SAM SA-2/3/5 P19 "Flat Face" SR ',
 	Rate = 20,
 	Sensors = {
 		RADAR = "p-19 s-125 sr"

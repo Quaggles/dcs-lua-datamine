@@ -64,8 +64,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 17, 26, "Redacted", "Artillery", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "Indirect fire", "NonAndLightArmoredUnits", "LightArmoredUnits" },
 	category = "Artillery",
 	chassis = {
-		canForceRiver = false,
-		life = 3
+		canForceRiver = false
 	},
 	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
 	driverViewConnectorName = "DRIVER_POINT",

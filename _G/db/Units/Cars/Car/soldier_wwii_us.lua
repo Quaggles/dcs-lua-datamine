@@ -18,7 +18,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							connector_name = "POINT_GUN",
 							pos = {},
 							recoilArgument = 13,
-							recoilTime = 0.9
+							recoilTime = 0.4
 						} },
 					PL = { {
 							ammo_capacity = 8,
@@ -41,6 +41,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					fireAnimationArgument = 23,
 					maxShootingSpeed = 0,
 					name = "M1 Garand .30 cal",
+					reloadSound = {
+						firstSoundTime = 0,
+						onEmptyFeeder = true,
+						secondSoundTime = 0.5
+					},
 					sensor = {}
 				} },
 			angles = { { 0.78539816339745, -0.78539816339745, -1.0471975511966, 1.0471975511966 } },
@@ -97,7 +102,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			classname = "lLandVehicle",
 			desrt = "soldier_wwii_us_01_d",
 			file = "soldier_wwii_us_01",
-			life = 5,
+			life = 6,
 			name = "soldier_wwii_us_01",
 			positioning = "BYNORMAL",
 			username = "soldier_wwii_us"

@@ -7,6 +7,24 @@ _G["db"]["Units"]["GT_t"]["WS_t"]["kortik"]["LN"]["#Index"] = {
 	PL = { {
 			ammo_capacity = 1000,
 			shell_name = {}
+		}, {
+			shell_name = {}
+		}, {
+			shell_name = {}
+		}, {
+			shell_name = {}
+		}, {
+			shell_name = {}
+		}, {
+			shell_name = {}
+		}, {
+			shell_name = {}
+		}, {
+			shell_name = {}
+		}, {
+			shell_name = {}
+		}, {
+			shell_name = {}
 		} },
 	beamWidth = 1.5707963267949,
 	sensor = {}

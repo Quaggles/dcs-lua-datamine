@@ -26,7 +26,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 17, 25, "Redacted", "AD Auxillary Equipment", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "All", "Ground Units", "Vehicles", "Ground vehicles", "Air Defence vehicles" },
 	category = "Air Defence",
 	chassis = {
-		life = 2,
+		life = 3,
 		mass = 4000
 	},
 	enablePlayerCanDrive = false,
@@ -35,7 +35,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			classname = "lLandVehicle",
 			desrt = "generator_5i57_p_1",
 			file = "generator_5i57",
-			life = 5,
+			life = 6,
 			name = "generator_5i57",
 			positioning = "BYNORMAL",
 			username = "generator_5i57"

@@ -2932,6 +2932,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	undercarriage_transmission = "Hydraulic",
 	wing_area = 18.3,
 	wing_span = 10.5,
-	wing_tip_pos = { -1.1, 0, 4.5 },
+	wing_tip_pos = { -0.5, 0, 5 },
 	wing_type = 0
 }

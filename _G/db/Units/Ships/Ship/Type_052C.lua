@@ -584,6 +584,24 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 						} },
 					PL = { {
 							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
 						} },
 					fireAnimationArgument = 119,
 					sensor = {}
@@ -604,6 +622,24 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							pos = {}
 						} },
 					PL = { {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
 							shell_name = {}
 						} },
 					fireAnimationArgument = 120,
@@ -730,6 +766,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	attribute = { 3, 12, 13, "Redacted", "Cruisers", "RADAR_BAND1_FOR_ARM", "RADAR_BAND2_FOR_ARM", "DetectionByAWACS", "Armed Ship", "HelicopterCarrier", "Naval", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
 	chassis = {},
 	distFindObstacles = 568.4,
+	draft = 15,
 	economy_distance = 8337000,
 	economy_velocity = 7.71667,
 	enablePlayerCanDrive = false,

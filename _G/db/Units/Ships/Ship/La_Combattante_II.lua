@@ -281,6 +281,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	snd = {},
 	speedup = 0.8,
 	swapped_names = true,
+	tags = { "Fast Attack Craft" },
 	type = "La_Combattante_II",
 	visual = {
 		shape = "La_Combattante_II",

@@ -25,9 +25,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	attribute = { 2, 17, 25, "Redacted", "Cars", "human_vehicle", "All", "Ground Units", "Vehicles", "Ground vehicles", "Ground Units Non Airdefence", "NonAndLightArmoredUnits", "NonArmoredUnits", "Unarmed vehicles" },
 	category = "Unarmed",
-	chassis = {
-		life = 1
-	},
+	chassis = {},
 	driverViewPoint = { 0, 1.55, -0.4 },
 	enablePlayerCanDrive = true,
 	mapclasskey = "P0091000005",

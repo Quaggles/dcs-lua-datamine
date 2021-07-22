@@ -398,6 +398,24 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 						} },
 					PL = { {
 							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
 						} },
 					customViewPoint = { "IronSight/IronSight", { 0, 0, 0 } },
 					fireAnimationArgument = 120,
@@ -420,6 +438,24 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							pos = {}
 						} },
 					PL = { {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						}, {
 							shell_name = {}
 						} },
 					customViewPoint = { "IronSight/IronSight", { 0, 0, 0 } },
@@ -468,6 +504,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	attribute = { 3, 12, 13, "Redacted", "Destroyers", "RADAR_BAND1_FOR_ARM", "RADAR_BAND2_FOR_ARM", "DetectionByAWACS", "Armed Ship", "HelicopterCarrier", "Naval", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
 	chassis = {},
 	distFindObstacles = 568.4,
+	draft = 15,
 	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
 	driverViewConnectorName = { "POINT_MUSICRADAR",
 		offset = { 3, 0, 0 }

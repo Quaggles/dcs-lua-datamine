@@ -1783,6 +1783,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Name = "Anti-ship Strike",
 			OldID = "Antiship Strike",
 			WorldID = 30
+		}, {
+			Name = "CAS",
+			OldID = "CAS",
+			WorldID = 31
 		} },
 	V_land = 50,
 	V_max_h = 150,

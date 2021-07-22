@@ -63,7 +63,7 @@ _G["weapons_table"]["weapons"]["nurs"]["WGr21"] = {
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
 			piercing_mass = 8.16,
-			time_self_destruct = 3
+			time_self_destruct = 5.5
 		},
 		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 	},
@@ -135,7 +135,7 @@ _G["weapons_table"]["weapons"]["nurs"]["WGr21"] = {
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
 			piercing_mass = 8.16,
-			time_self_destruct = 3
+			time_self_destruct = 5.5
 		},
 		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 	},

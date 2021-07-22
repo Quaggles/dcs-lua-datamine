@@ -125,9 +125,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	attribute = { 2, 17, 26, "Redacted", "IFV", "Tanks", "Modern Tanks", "Datalink", "Infantry carriers", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "NonAndLightArmoredUnits", "LightArmoredUnits", "HeavyArmoredUnits" },
 	category = "Armor",
-	chassis = {
-		life = 3
-	},
+	chassis = {},
 	crew_locale = "ENG",
 	crew_members = { "commander", "gunner" },
 	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
@@ -135,7 +133,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		offset = { 0.05, 0, 0 }
 	},
 	enablePlayerCanDrive = true,
-	gear_type = 1,
 	mapclasskey = "P0091000001",
 	sensor = {
 		height = 2.6

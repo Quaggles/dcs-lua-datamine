@@ -20,7 +20,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 8, 100, "Redacted", "Trucks", "All", "Ground Units", "Vehicles", "Ground vehicles", "Ground Units Non Airdefence", "NonAndLightArmoredUnits", "NonArmoredUnits", "Unarmed vehicles" },
 	category = "Locomotive",
 	chassis = {
-		life = 1
+		life = 2
 	},
 	enablePlayerCanDrive = false,
 	mapclasskey = "P91000108",
@@ -28,7 +28,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			classname = "lLandVehicle",
 			desrt = "DRG_Class_86_p_1",
 			file = "DRG_Class_86",
-			life = 5,
+			life = 6,
 			name = "DRG_Class_86",
 			positioning = "BYNORMAL",
 			username = "DRG_Class_86"

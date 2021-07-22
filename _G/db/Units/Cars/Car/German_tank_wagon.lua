@@ -20,7 +20,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 8, "Redacted", "Ground Units", "Trucks", "All", "Vehicles", "Ground vehicles", "Ground Units Non Airdefence", "NonAndLightArmoredUnits", "NonArmoredUnits", "Unarmed vehicles" },
 	category = "Carriage",
 	chassis = {
-		life = 1
+		life = 2
 	},
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000212",
@@ -28,7 +28,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			classname = "lLandVehicle",
 			desrt = "German_tank_wagon_p_1",
 			file = "German_tank_wagon",
-			life = 5,
+			life = 6,
 			name = "German_tank_wagon",
 			positioning = "BYNORMAL",
 			username = "German_tank_wagon"

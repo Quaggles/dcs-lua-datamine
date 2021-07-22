@@ -59,7 +59,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 16, 27, "Redacted", "SR SAM", "SAM SR", "All", "Ground Units", "Vehicles", "Ground vehicles", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "SAM related", "SAM elements" },
 	category = "Air Defence",
 	chassis = {
-		life = 2
+		life = 3
 	},
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000082",
@@ -70,7 +70,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			classname = "lLandVehicle",
 			desrt = "rapier_fsa_optical_tracker_unit_p_1",
 			file = "rapier_fsa_optical_tracker_unit",
-			life = 5,
+			life = 6,
 			name = "rapier_fsa_optical_tracker_unit",
 			positioning = "BYNORMAL",
 			username = "rapier_fsa_optical_tracker_unit"

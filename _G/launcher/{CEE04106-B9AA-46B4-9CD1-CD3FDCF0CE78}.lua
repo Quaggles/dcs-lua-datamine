@@ -1,7 +1,7 @@
 _G["launcher"]["{CEE04106-B9AA-46B4-9CD1-CD3FDCF0CE78}"] = {
 	CLSID = "{CEE04106-B9AA-46B4-9CD1-CD3FDCF0CE78}",
 	Count = 3,
-	Cx_pil = 0.00158,
+	Cx_pil = 0.00205,
 	Elements = { {
 			Position = { 0, 0, 0 },
 			ShapeName = "MBD-3"

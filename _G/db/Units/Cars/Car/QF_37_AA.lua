@@ -71,7 +71,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 16, 26, "Redacted", "AA_flak", "Static AAA", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "Armed Air Defence", "Rocket Attack Valid AirDefence", "AAA", "All", "Ground Units", "Vehicles", "Ground vehicles" },
 	category = "Air Defence",
 	chassis = {
-		life = 1
+		life = 2
 	},
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000015",
@@ -82,7 +82,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			classname = "lLandVehicle",
 			desrt = "QF_37_AA_p_1",
 			file = "QF_37_AA",
-			life = 5,
+			life = 6,
 			name = "QF_37_AA",
 			positioning = "BYNORMAL",
 			username = "QF_37_AA"
