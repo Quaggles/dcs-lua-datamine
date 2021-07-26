@@ -1425,7 +1425,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				Transition = { "Any", "CustomStage2" }
 			} }
 	},
-	net_animation = { 423, 424 },
+	net_animation = { 423, 424, 457 },
 	nose_gear_pos = { 3.3, -2.02, 0 },
 	panelRadio = { {
 			channels = { {
