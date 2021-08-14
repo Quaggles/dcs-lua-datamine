@@ -147,7 +147,6 @@ _G["rockets"]["#Index"] = {
 		hoj = 1,
 		max_w_LOS = 0.34906585039887,
 		op_time = 75,
-		rad_correction = -0,
 		sens_far_dist = 30000,
 		sens_near_dist = 100
 	},

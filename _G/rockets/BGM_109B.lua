@@ -28,6 +28,11 @@ _G["rockets"]["#Index"] = {
 	Z_back = 0,
 	add_attributes = { "Cruise missiles" },
 	display_name = "BGM-109B",
+	encyclopediaAnimation = {
+		args = { 1,
+			[25] = 1
+		}
+	},
 	exhaust1 = { 1, 1, 1, 1 },
 	name = "BGM_109B",
 	sigma = { 20, 20, 20 },

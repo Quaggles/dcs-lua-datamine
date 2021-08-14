@@ -197,6 +197,9 @@ _G["weapons_table"]["weapons"]["missiles"]["YJ-62"] = {
 		wsTypeOfWeapon = { 4, 4, 11, "Redacted" }
 	},
 	display_name = "YJ-62",
+	encyclopediaAnimation = {
+		args = { 1 }
+	},
 	mass = 1240,
 	model = "yj62",
 	name = "YJ-62",

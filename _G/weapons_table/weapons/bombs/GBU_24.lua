@@ -52,16 +52,16 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_24"] = {
 		},
 		warhead = {
 			caliber = 457,
-			concrete_factors = { 1, 1, 1 },
-			concrete_obj_factor = 0,
+			concrete_factors = { 5, 1, 10 },
+			concrete_obj_factor = 5,
 			cumulative_factor = 0,
 			cumulative_thickness = 0,
-			expl_mass = 340,
+			expl_mass = 349.6,
 			fantom = 1,
-			mass = 340,
+			mass = 349.6,
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
-			piercing_mass = 68
+			piercing_mass = 69.92
 		}
 	},
 	display_name = "GBU-24 Paveway III",
@@ -120,16 +120,16 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_24"] = {
 		},
 		warhead = {
 			caliber = 457,
-			concrete_factors = { 1, 1, 1 },
-			concrete_obj_factor = 0,
+			concrete_factors = { 5, 1, 10 },
+			concrete_obj_factor = 5,
 			cumulative_factor = 0,
 			cumulative_thickness = 0,
-			expl_mass = 340,
+			expl_mass = 349.6,
 			fantom = 0,
-			mass = 340,
+			mass = 349.6,
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
-			piercing_mass = 68
+			piercing_mass = 69.92
 		}
 	},
 	sounderName = "Weapons/Bomb",

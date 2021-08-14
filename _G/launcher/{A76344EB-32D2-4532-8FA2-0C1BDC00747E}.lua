@@ -4,10 +4,19 @@ _G["launcher"]["{A76344EB-32D2-4532-8FA2-0C1BDC00747E}"] = {
 	Cx_pil = 0.0029296875,
 	Elements = { {
 			IsAdapter = true,
-			ShapeName = "MBD-3-LAU-61"
+			ShapeName = "BRU_42A"
+		}, {
+			connector_name = "Point01",
+			payload_CLSID = "{FD90A1DC-9147-49FA-BF56-CB83EF0BD32B}"
+		}, {
+			connector_name = "Point02",
+			payload_CLSID = "{FD90A1DC-9147-49FA-BF56-CB83EF0BD32B}"
+		}, {
+			connector_name = "Point03",
+			payload_CLSID = "{FD90A1DC-9147-49FA-BF56-CB83EF0BD32B}"
 		} },
 	Picture = "LAU61.png",
-	Weight = 871,
+	Weight = 876.45,
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = '3 x LAU-61 pods - 57 x 2.75" Hydra, UnGd Rkts M151, HE',

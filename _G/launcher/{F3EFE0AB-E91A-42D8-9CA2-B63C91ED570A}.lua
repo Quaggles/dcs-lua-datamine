@@ -6,17 +6,17 @@ _G["launcher"]["{F3EFE0AB-E91A-42D8-9CA2-B63C91ED570A}"] = {
 			IsAdapter = true,
 			ShapeName = "LAU-10"
 		}, {
-			ShapeName = "zuni",
-			connector_name = "tube_01"
+			Position = { 0.1, 0.049, 0.072 },
+			ShapeName = "zuni"
 		}, {
-			ShapeName = "zuni",
-			connector_name = "tube_02"
+			Position = { 0.1, 0.049, -0.073 },
+			ShapeName = "zuni"
 		}, {
-			ShapeName = "zuni",
-			connector_name = "tube_03"
+			Position = { 0.1, -0.095, 0.072 },
+			ShapeName = "zuni"
 		}, {
-			ShapeName = "zuni",
-			connector_name = "tube_04"
+			Position = { 0.1, -0.095, -0.073 },
+			ShapeName = "zuni"
 		} },
 	Picture = "LAU10.png",
 	Weight = 316.6,

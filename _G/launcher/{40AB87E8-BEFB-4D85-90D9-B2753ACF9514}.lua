@@ -1,6 +1,7 @@
 _G["launcher"]["{40AB87E8-BEFB-4D85-90D9-B2753ACF9514}"] = {
 	CLSID = "{40AB87E8-BEFB-4D85-90D9-B2753ACF9514}",
 	Count = 1,
+	Cx_pil = 0.0018,
 	Elements = { {
 			Position = { 0, 0, 0 },
 			ShapeName = "AKU-58"
@@ -11,7 +12,10 @@ _G["launcher"]["{40AB87E8-BEFB-4D85-90D9-B2753ACF9514}"] = {
 		} },
 	NatoName = "(AS-18)",
 	Picture = "kh59m.png",
-	Weight = 850,
+	Weight = 1115,
+	Weight_Empty = 185,
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/cruise_missiles.lua",
+	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted", "Cruise missiles" },
 	category = 2,
 	displayName = "Kh-59M (AS-18 Kazoo) - 930kg, ASM, IN",

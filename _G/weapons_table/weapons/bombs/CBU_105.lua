@@ -2,11 +2,17 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_105"] = {
 	_unique_resource_name = "weapons.bombs.CBU_105",
 	client = {
 		WCMD_guidence = {
-			PID_differ = 0.5,
+			Kdx = 0.01,
+			Kx = 0.12,
+			PID_differ = 6,
 			PID_integr = 0,
-			PID_koef = 12,
+			PID_koef = 9,
 			bomblet_char_time = 99.24,
-			char_time = 20.34
+			char_time = 20.38,
+			delay = 2,
+			fins_limit = 0.6,
+			fins_limit_x = 0.04,
+			signal_limit = 0.16
 		},
 		arming_delay = {
 			delay_time = 0.8,
@@ -17,19 +23,21 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_105"] = {
 			velK = 1
 		},
 		fm = {
-			A = 0.6,
+			A = 0.36,
 			I = 194.1438464,
+			Kw_x = 0.05,
 			L = 2.3552,
 			Ma = 0.26928515872306,
+			Ma_x = 3,
 			Mw = 2.6875518117511,
 			Sw = 0.6,
 			caliber = 0.39624,
-			cx_coeff = { 1, 0.39, 0.6, 0.168, 1.31 },
+			cx_coeff = { 1, 0.55, 0.8, 0.2, 1.5 },
 			dCydA = { 0.095, 0.036 },
 			finsTau = 0.1,
 			mass = 420,
 			maxAoa = 0.26,
-			wind_sigma = 30,
+			wind_sigma = 5,
 			wind_time = 1000
 		},
 		launcher = {
@@ -413,19 +421,34 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_105"] = {
 			},
 			server = 0
 		},
+		rotation_control = {
+			arg_out = 0,
+			rot_out = 0
+		},
 		scheme = "schemes/bombs/bomb-cassette-wcmd.sch"
 	},
 	display_name = "CBU-105",
+	encyclopediaAnimation = {
+		args = {
+			[0] = 1
+		}
+	},
 	mass = 420,
 	model = "CBU-97",
 	name = "CBU_105",
 	server = {
 		WCMD_guidence = {
-			PID_differ = 0.5,
+			Kdx = 0.01,
+			Kx = 0.12,
+			PID_differ = 6,
 			PID_integr = 0,
-			PID_koef = 12,
+			PID_koef = 9,
 			bomblet_char_time = 99.24,
-			char_time = 20.34
+			char_time = 20.38,
+			delay = 2,
+			fins_limit = 0.6,
+			fins_limit_x = 0.04,
+			signal_limit = 0.16
 		},
 		arming_delay = {
 			delay_time = 0.8,
@@ -436,19 +459,21 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_105"] = {
 			velK = 1
 		},
 		fm = {
-			A = 0.6,
+			A = 0.36,
 			I = 194.1438464,
+			Kw_x = 0.05,
 			L = 2.3552,
 			Ma = 0.26928515872306,
+			Ma_x = 3,
 			Mw = 2.6875518117511,
 			Sw = 0.6,
 			caliber = 0.39624,
-			cx_coeff = { 1, 0.39, 0.6, 0.168, 1.31 },
+			cx_coeff = { 1, 0.55, 0.8, 0.2, 1.5 },
 			dCydA = { 0.095, 0.036 },
 			finsTau = 0.1,
 			mass = 420,
 			maxAoa = 0.26,
-			wind_sigma = 30,
+			wind_sigma = 5,
 			wind_time = 1000
 		},
 		launcher = {
@@ -832,12 +857,16 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_105"] = {
 			},
 			server = 1
 		},
+		rotation_control = {
+			arg_out = 0,
+			rot_out = 0
+		},
 		scheme = "schemes/bombs/bomb-cassette-wcmd.sch"
 	},
 	sounderName = "Weapons/Bomb",
 	targeting_data = {
 		bomblet_char_time = 99.24,
-		char_time = 20.34
+		char_time = 20.38
 	},
 	type_name = "bomb",
 	ws_type = { 4, 5, 38, "Redacted" }

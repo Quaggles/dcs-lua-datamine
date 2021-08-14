@@ -9,9 +9,8 @@ _G["weapons_table"]["aircraft_gunpods"]["{AN-M3}"] = {
 			aft_gun_mount = false,
 			azimuth_initial = 0,
 			category = 8,
-			display_name = "m3_browning",
-			drop_cartridge = 0,
-			effect_arg_number = 1051,
+			display_name = "AN/M3 Gunpod",
+			drop_cartridge = 204,
 			effective_fire_distance = 1000,
 			effects = { {
 					arg = 1051,
@@ -24,8 +23,8 @@ _G["weapons_table"]["aircraft_gunpods"]["{AN-M3}"] = {
 				}, {
 					name = "SmokeEffect"
 				} },
-			ejector_dir = { 0, -1, 0 },
-			ejector_pos = { -0.4, -1.2, 0.18 },
+			ejector_dir = { 0, -5, 0 },
+			ejector_pos = { -1.4, -0.15, 0 },
 			elevation_initial = 0,
 			gun = {
 				barrels_count = 1,
@@ -34,23 +33,24 @@ _G["weapons_table"]["aircraft_gunpods"]["{AN-M3}"] = {
 					y = 0,
 					z = 0
 				},
-				max_burst_length = 220,
-				rates = { 1249 },
-				recoil_coeff = 1,
+				max_burst_length = 350,
+				rates = <1>{ 1200 },
+				recoil_coeff = 0.4225,
 				trigger = {
 					name = "GunTrigger"
 				}
 			},
-			muzzle_pos = { 0, 0, 0 },
+			muzzle_pos = { 3.11, -1.2, 0 },
 			muzzle_pos_connector = "Point_Gun",
 			name = "m3_browning",
-			short_name = "m3_browning",
+			short_name = "ANM3",
 			supply = {
 				count = 220,
 				get_mass = <function 1>,
 				get_mass_ = <function 2>,
-				mixes = { { 2, 1, 1, 1, 1, 1 } },
-				shells = { <1>{
+				max_burst_length = 220,
+				mixes = <2>{ { 2, 1, 1, 1 } },
+				shells = <3>{ {
 						AP_cap_caliber = 12.7,
 						Da0 = 0.00085,
 						Da1 = 0,
@@ -76,7 +76,7 @@ _G["weapons_table"]["aircraft_gunpods"]["{AN-M3}"] = {
 						name = "M2_50_aero_AP",
 						payload = 0,
 						piercing_mass = 0.046,
-						rebound_concrete = <2>{
+						rebound_concrete = <4>{
 							angle0 = 50,
 							angle100 = 75,
 							cx_factor = 5,
@@ -90,7 +90,7 @@ _G["weapons_table"]["aircraft_gunpods"]["{AN-M3}"] = {
 							deviation_angle = 30,
 							velocity_loss_factor = 0.5
 						},
-						rebound_object = <table 2>,
+						rebound_object = <table 4>,
 						rebound_water = {
 							angle0 = 65,
 							angle100 = 83,
@@ -112,7 +112,7 @@ _G["weapons_table"]["aircraft_gunpods"]["{AN-M3}"] = {
 						v0 = 823.5,
 						visual_effect_correction = 0,
 						visual_effect_correction_rebound = 0.1
-					}, <3>{
+					}, {
 						AP_cap_caliber = 12.7,
 						Da0 = 0.00085,
 						Da1 = 0,
@@ -138,7 +138,7 @@ _G["weapons_table"]["aircraft_gunpods"]["{AN-M3}"] = {
 						name = "M20_50_aero_APIT",
 						payload = 0,
 						piercing_mass = 0.041,
-						rebound_concrete = <4>{
+						rebound_concrete = <5>{
 							angle0 = 50,
 							angle100 = 75,
 							cx_factor = 5,
@@ -152,7 +152,7 @@ _G["weapons_table"]["aircraft_gunpods"]["{AN-M3}"] = {
 							deviation_angle = 30,
 							velocity_loss_factor = 0.5
 						},
-						rebound_object = <table 4>,
+						rebound_object = <table 5>,
 						rebound_water = {
 							angle0 = 65,
 							angle100 = 83,
@@ -182,9 +182,8 @@ _G["weapons_table"]["aircraft_gunpods"]["{AN-M3}"] = {
 			aft_gun_mount = false,
 			azimuth_initial = 0,
 			category = 8,
-			display_name = "m3_browning",
-			drop_cartridge = 0,
-			effect_arg_number = 1052,
+			display_name = "AN/M3 Gunpod",
+			drop_cartridge = 204,
 			effective_fire_distance = 1000,
 			effects = { {
 					arg = 1052,
@@ -197,8 +196,8 @@ _G["weapons_table"]["aircraft_gunpods"]["{AN-M3}"] = {
 				}, {
 					name = "SmokeEffect"
 				} },
-			ejector_dir = { 0, -1, 0 },
-			ejector_pos = { -0.4, -1.2, 0.18 },
+			ejector_dir = { 0, -5, 0 },
+			ejector_pos = { -1.4, -0.15, 0 },
 			elevation_initial = 0,
 			gun = {
 				barrels_count = 1,
@@ -207,23 +206,24 @@ _G["weapons_table"]["aircraft_gunpods"]["{AN-M3}"] = {
 					y = 0,
 					z = 0
 				},
-				max_burst_length = 220,
-				rates = { 1229 },
-				recoil_coeff = 1,
+				max_burst_length = 350,
+				rates = <table 1>,
+				recoil_coeff = 0.4225,
 				trigger = {
 					name = "GunTrigger"
 				}
 			},
-			muzzle_pos = { 0, 0, 0 },
+			muzzle_pos = { 3.11, -1.2, 0 },
 			muzzle_pos_connector = "Point_Gun_1",
 			name = "m3_browning",
-			short_name = "m3_browning",
+			short_name = "ANM3",
 			supply = {
 				count = 220,
 				get_mass = <function 3>,
 				get_mass_ = <function 4>,
-				mixes = { { 1, 1, 2, 1, 1, 1 } },
-				shells = { <table 1>, <table 3> }
+				max_burst_length = 220,
+				mixes = <table 2>,
+				shells = <table 3>
 			},
 			supply_position = { 2, -0.3, -0.4 }
 		} },

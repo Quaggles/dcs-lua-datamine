@@ -128,7 +128,7 @@ _G["rockets"]["#Index"] = {
 	v_min = 50,
 	warhead = {
 		caliber = 180,
-		concrete_factors = { 5, 1, 1 },
+		concrete_factors = { 2, 1, 1 },
 		concrete_obj_factor = 2,
 		cumulative_factor = 2,
 		cumulative_thickness = 0,
@@ -140,7 +140,7 @@ _G["rockets"]["#Index"] = {
 	},
 	warhead_air = {
 		caliber = 180,
-		concrete_factors = { 5, 1, 1 },
+		concrete_factors = { 2, 1, 1 },
 		concrete_obj_factor = 2,
 		cumulative_factor = 2,
 		cumulative_thickness = 0,

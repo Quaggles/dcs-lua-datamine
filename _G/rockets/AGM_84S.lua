@@ -23,12 +23,17 @@ _G["rockets"]["#Index"] = {
 	OmViz_max = 99.9,
 	Range_max = 241401,
 	Reflection = 0.1,
-	X_back = -2.235,
-	Y_back = -0.173,
+	X_back = -2.8,
+	Y_back = 0,
 	Z_back = 0,
 	_unique_resource_name = "weapons.missiles.AGM_84S",
 	add_attributes = { "Cruise missiles" },
-	display_name = "AGM-84S Harpoon",
+	display_name = "RGM-84D Harpoon",
+	encyclopediaAnimation = {
+		args = { 1,
+			[25] = 1
+		}
+	},
 	exhaust1 = { 1, 1, 1, 1 },
 	name = "AGM_84S",
 	sigma = { 10, 10, 10 },

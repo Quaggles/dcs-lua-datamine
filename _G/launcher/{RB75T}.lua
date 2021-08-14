@@ -11,11 +11,12 @@ _G["launcher"]["{RB75T}"] = {
 			ShapeName = "RB75T"
 		} },
 	Picture = "agm65.png",
-	Weight = 210,
+	Weight = 354,
+	Weight_Empty = 59,
 	_file = "./CoreMods/aircraft/AJS37/Entry/Weapons.lua",
 	_origin = "AJS37 AI by Heatblur Simulations",
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
-	displayName = "Rb-75T (AGM-65A Maverick) (TV ASM Lg Whd)",
+	displayName = "Rb-75T (AGM-65A Maverick) (TV ASM Lg HE Whd)",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

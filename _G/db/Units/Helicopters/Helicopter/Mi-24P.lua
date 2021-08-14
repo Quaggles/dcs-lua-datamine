@@ -67,6 +67,16 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			defValue = false,
 			id = "HideAngleBoxes",
 			label = "Hide boxes in Pilot AI menu"
+		}, {
+			control = "checkbox",
+			defValue = true,
+			id = "PilotNVG",
+			label = "Allow Pilots NVG"
+		}, {
+			control = "checkbox",
+			defValue = true,
+			id = "OperatorNVG",
+			label = "Allow Operators NVG"
 		} },
 	AmmoWeight = 245,
 	CanopyGeometry = { -0.93969262078591, -0.95280922353749, -0.96592582628907, 0.0094409633615699, 0.98480775301221 },
@@ -651,6 +661,11 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		modulation = 0
 	},
 	IR_emission_coeff = 0.5,
+	LandRWCategories = { {
+			Name = "AircraftCarrier"
+		}, {
+			Name = "HelicopterCarrier"
+		} },
 	MOI = { 16562, 77634, 75047 },
 	M_empty = 8891,
 	M_fuel_max = 1701,
@@ -744,6 +759,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "{RBK_500U_OAB_2_5RT}"
 				}, {
 					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74884}"
+				}, {
+					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74881}"
 				}, {
 					CLSID = "{B99EE8A8-99BC-4a8d-89AC-A26831920DCE}"
 				}, {
@@ -1039,6 +1056,11 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				y_trans = 0,
 				z_trans = 0
 			} } },
+	TakeOffRWCategories = { {
+			Name = "AircraftCarrier"
+		}, {
+			Name = "HelicopterCarrier"
+		} },
 	Tasks = { <table 1>, {
 			Name = "Ground Attack",
 			OldID = "Ground Attack",

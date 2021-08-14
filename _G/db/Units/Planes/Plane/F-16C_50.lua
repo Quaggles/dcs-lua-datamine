@@ -66,21 +66,53 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Damage = {
 		[0] = {
 			args = { 146 },
-			critical_damage = 7
+			critical_damage = 3
 		},
 		[3] = {
 			args = { 65 },
 			critical_damage = 1
 		},
+		[4] = {
+			args = { 298 },
+			critical_damage = 3
+		},
+		[5] = {
+			args = { 299 },
+			critical_damage = 3
+		},
+		[6] = {
+			args = { 152 },
+			critical_damage = 3
+		},
+		[9] = {
+			args = { 154 },
+			critical_damage = 3
+		},
+		[10] = {
+			args = { 153 },
+			critical_damage = 3
+		},
+		[12] = {
+			args = { 160 },
+			critical_damage = 2
+		},
+		[19] = {
+			args = { 183 },
+			critical_damage = 1
+		},
+		[20] = {
+			args = { 185 },
+			critical_damage = 1
+		},
 		[23] = {
-			args = { 225 },
-			critical_damage = 10,
-			deps_cells = { 25, 33 }
+			args = { 223 },
+			critical_damage = 2,
+			deps_cells = { 33 }
 		},
 		[24] = {
-			args = { 215 },
-			critical_damage = 10,
-			deps_cells = { 26, 34 }
+			args = { 213 },
+			critical_damage = 2,
+			deps_cells = { 34 }
 		},
 		[25] = {
 			args = { 226 },
@@ -90,6 +122,16 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 216 },
 			critical_damage = 3
 		},
+		[29] = {
+			args = { 224 },
+			critical_damage = 4,
+			deps_cells = { 23, 33, 25 }
+		},
+		[30] = {
+			args = { 214 },
+			critical_damage = 4,
+			deps_cells = { 24, 34, 26 }
+		},
 		[33] = {
 			args = { 230 },
 			critical_damage = 2
@@ -98,49 +140,87 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 220 },
 			critical_damage = 2
 		},
-		[39] = {
-			args = { 241 },
-			critical_damage = 7,
-			deps_cells = { 53 }
+		[35] = {
+			args = { 225 },
+			critical_damage = 5,
+			deps_cells = { 29, 23, 33, 25 }
 		},
-		[43] = {
+		[36] = {
+			args = { 215 },
+			critical_damage = 5,
+			deps_cells = { 30, 24, 34, 26 }
+		},
+		[40] = {
+			args = { 241 },
+			critical_damage = 2,
+			deps_cells = { 54 }
+		},
+		[42] = {
 			args = { 242 },
-			critical_damage = 4
+			critical_damage = 3,
+			deps_cells = { 40 }
+		},
+		[44] = {
+			args = { 243 },
+			critical_damage = 4,
+			deps_cells = { 40 }
+		},
+		[49] = {
+			args = { 239 },
+			critical_damage = 1
+		},
+		[50] = {
+			args = { 237 },
+			critical_damage = 1
 		},
 		[51] = {
 			args = { 240 },
-			critical_damage = 2
+			critical_damage = 2,
+			deps_cells = { 49 }
 		},
 		[52] = {
 			args = { 238 },
-			critical_damage = 2
+			critical_damage = 2,
+			deps_cells = { 50 }
 		},
-		[53] = {
+		[54] = {
 			args = { 247 },
 			critical_damage = 1
 		},
-		[111] = {
-			args = { 153 },
-			critical_damage = 9
+		[56] = {
+			args = { 158 },
+			critical_damage = 3
 		},
-		cell_indices = {
-			AILERON_L = 25,
-			AILERON_R = 26,
-			COCKPIT = 3,
-			ELEVATOR_L = 51,
-			ELEVATOR_R = 52,
-			FIN_L_BOTTOM = 43,
-			FIN_L_TOP = 39,
-			FUSELAGE_CENTER = 111,
-			NOSE_CENTER = 0,
-			RUDDER = 53,
-			WING_L_OUT = 23,
-			WING_L_PART_IN = 33,
-			WING_R_OUT = 24,
-			WING_R_PART_IN = 34
+		[57] = {
+			args = { 157 },
+			critical_damage = 3
+		},
+		[58] = {
+			args = { 156 },
+			critical_damage = 3
+		},
+		[59] = {
+			args = { 148 },
+			critical_damage = 3
+		},
+		[82] = {
+			args = { 152 },
+			critical_damage = 4
+		},
+		[83] = {
+			args = { 135 },
+			critical_damage = 3
+		},
+		[84] = {
+			args = { 137 },
+			critical_damage = 3
+		},
+		[85] = {
+			args = { 136 },
+			critical_damage = 3
 		}
 	},
-	DamageParts = { "F-16C_oblomok_wing_R", "F-16C_oblomok_wing_L" },
+	DamageParts = { "f-16c_bl50_oblomok_wing_R", "f-16c_bl50_oblomok_wing_L" },
 	DefaultTask = <1>{
 		Name = "CAP",
 		OldID = "CAP",
@@ -1151,8 +1231,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{BRU57_2*AGM-154A}",
 					Type = 1
 				}, <52>{
-					CLSID = "MXU-648-TP"
+					CLSID = "{CBU_105}"
 				}, <53>{
+					CLSID = "{BRU57_2*CBU-105}"
+				}, <54>{
+					CLSID = "MXU-648-TP"
+				}, <55>{
 					CLSID = "<CLEAN>",
 					add_mass = -131.1,
 					arg_value = 1
@@ -1195,107 +1279,107 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			mass = 131.1,
 			use_full_connector_position = true
 		}, {
-			Launchers = { <54>{
+			Launchers = { <56>{
 					CLSID = "LAU3_WP156",
 					add_mass = -82.5,
 					arg_value = 0.5
-				}, <55>{
+				}, <57>{
 					CLSID = "LAU3_WP1B",
 					add_mass = -82.5,
 					arg_value = 0.5
-				}, <56>{
+				}, <58>{
 					CLSID = "LAU3_WP61",
 					add_mass = -82.5,
 					arg_value = 0.5
-				}, <57>{
+				}, <59>{
 					CLSID = "LAU3_HE5",
 					add_mass = -82.5,
 					arg_value = 0.5
-				}, <58>{
+				}, <60>{
 					CLSID = "LAU3_HE151",
 					add_mass = -82.5,
 					arg_value = 0.5
-				}, <59>{
+				}, <61>{
 					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
 					Cx_gain = 1.563,
 					add_mass = -82.5,
 					arg_value = 0.5
-				}, <60>{
+				}, <62>{
 					CLSID = "{Mk82SNAKEYE}",
 					Cx_gain = 1.882,
 					add_mass = -82.5,
 					arg_value = 0.5
-				}, <61>{
+				}, <63>{
 					CLSID = "{Mk82AIR}",
 					Cx_gain = 1.882,
 					add_mass = -82.5,
 					arg_value = 0.5
-				}, <62>{
+				}, <64>{
 					CLSID = "{TER_9A_3*MK-82}",
 					Cx_gain_item = 2.493,
 					add_mass = -82.5,
 					arg_value = 0.5
-				}, <63>{
+				}, <65>{
 					CLSID = "{TER_9A_3*MK-82_Snakeye}",
 					Cx_gain_item = 2.11,
 					add_mass = -82.5,
 					arg_value = 0.5
-				}, <64>{
+				}, <66>{
 					CLSID = "{TER_9A_3*MK-82AIR}",
 					Cx_gain_item = 2.11,
 					add_mass = -82.5,
 					arg_value = 0.5
-				}, <65>{
+				}, <67>{
 					CLSID = "{AB8B8299-F1CC-4359-89B5-2172E0CF4A5A}",
 					Cx_gain = 1.255,
 					add_mass = -82.5,
 					arg_value = 0.5
-				}, <66>{
+				}, <68>{
 					CLSID = "{51F9AAE5-964F-4D21-83FB-502E3BFE5F8A}",
 					Cx_gain = 1.561,
 					add_mass = -82.5,
 					arg_value = 0.5
-				}, <67>{
+				}, <69>{
 					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
 					Cx_gain = 0.967,
 					add_mass = -82.5,
 					arg_value = 0.5
-				}, <68>{
+				}, <70>{
 					CLSID = "{CBU-87}",
 					Cx_gain = 3.398,
 					add_mass = -82.5,
 					arg_value = 0.5
-				}, <69>{
+				}, <71>{
 					CLSID = "{5335D97A-35A5-4643-9D9B-026C75961E52}",
 					Cx_gain = 3.398,
 					add_mass = -82.5,
 					arg_value = 0.5
-				}, <70>{
+				}, <72>{
 					CLSID = "{TER_9A_3*CBU-87}",
 					Cx_gain_item = 4.146,
 					add_mass = -82.5,
 					arg_value = 0.5
-				}, <71>{
+				}, <73>{
 					CLSID = "{TER_9A_3*CBU-97}",
 					Cx_gain_item = 4.146,
 					add_mass = -82.5,
 					arg_value = 0.5
-				}, <72>{
+				}, <74>{
 					CLSID = "{TER_9A_3*BDU-33}",
 					add_mass = -82.5,
 					arg_value = 0.5
-				}, <73>{
+				}, <75>{
 					CLSID = "{F376DBEE-4CAE-41BA-ADD9-B2910AC95DEC}"
-				}, <74>{
+				}, <76>{
 					CLSID = "MXU-648-TP",
 					add_mass = -82.5,
 					arg_value = 0.5
-				}, <75>{
+				}, <77>{
 					CLSID = "{B06DD79A-F21E-4EB9-BD9D-AB3844618C93}",
 					Cx_gain_item = 0.4,
 					add_mass = -82.5,
 					arg_value = 0.5
-				}, <76>{
+				}, <78>{
 					CLSID = "<CLEAN>",
 					add_mass = -133.8,
 					arg_value = 1
@@ -1360,7 +1444,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			use_full_connector_position = true
 		}, {
 			DisplayName = "6",
-			Launchers = { <table 54>, <table 55>, <table 56>, <table 57>, <table 58>, <table 59>, <table 60>, <table 61>, <table 62>, <table 63>, <table 64>, <table 65>, <table 66>, <table 67>, <table 68>, <table 69>, <table 70>, <table 71>, <table 72>, <table 73>, <table 74>, <table 75>, <table 76>, {
+			Launchers = { <table 56>, <table 57>, <table 58>, <table 59>, <table 60>, <table 61>, <table 62>, <table 63>, <table 64>, <table 65>, <table 66>, <table 67>, <table 68>, <table 69>, <table 70>, <table 71>, <table 72>, <table 73>, <table 74>, <table 75>, <table 76>, <table 77>, <table 78>, {
 					CLSID = "{TER_9A_2R*MK-82}",
 					Cx_gain_item = 2.813,
 					add_mass = -82.5,
@@ -1399,7 +1483,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			use_full_connector_position = true
 		}, {
 			DisplayName = "7",
-			Launchers = { <table 13>, <table 14>, <table 15>, <table 16>, <table 17>, <table 18>, <table 19>, <table 20>, <table 21>, <table 22>, <table 23>, <table 24>, <table 25>, <table 26>, <table 27>, <table 28>, <table 29>, <table 30>, <table 31>, <table 32>, <table 33>, <table 34>, <table 35>, <table 36>, <table 37>, <table 38>, <table 39>, <table 40>, <table 41>, <table 42>, <table 43>, <table 44>, <table 45>, <table 46>, <table 47>, <table 48>, <table 49>, <table 50>, <table 51>, <table 52>, <table 53>, {
+			Launchers = { <table 13>, <table 14>, <table 15>, <table 16>, <table 17>, <table 18>, <table 19>, <table 20>, <table 21>, <table 22>, <table 23>, <table 24>, <table 25>, <table 26>, <table 27>, <table 28>, <table 29>, <table 30>, <table 31>, <table 32>, <table 33>, <table 34>, <table 35>, <table 36>, <table 37>, <table 38>, <table 39>, <table 40>, <table 41>, <table 42>, <table 43>, <table 44>, <table 45>, <table 46>, <table 47>, <table 48>, <table 49>, <table 50>, <table 51>, <table 52>, <table 53>, <table 54>, <table 55>, {
 					CLSID = "{TER_9A_2R*MK-82}",
 					Cx_gain_item = 2.813
 				}, {
@@ -1751,7 +1835,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	country_of_origin = "USA",
 	crew_members = { {
 			canopy_pos = { 0, 0, 0 },
-			drop_canopy_name = 23,
+			drop_canopy_name = 287,
 			ejection_seat_name = 17,
 			pos = { 3.9, 1.4, 0 },
 			role = "pilot",
@@ -1775,7 +1859,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			pos = { -6.003, 0.261, 0 },
 			smokiness_level = 0.05
 		} },
-	fires_pos = { { -0.707, 0.553, -0.213 }, { -0.037, 0.285, 1.391 }, { -0.037, 0.285, -1.391 }, { -0.82, 0.265, 2.774 }, { -0.82, 0.265, -2.774 }, { -0.82, 0.255, 4.274 }, { -0.82, 0.255, -4.274 }, { -5.003, 0.261, 0 }, { -5.003, 0.261, 0 }, { -0.707, 0.453, 1.036 }, { -0.707, 0.453, -1.036 } },
+	fires_pos = { { -0.707, 0.553, -0.213 }, { -0.037, 0.285, 1.391 }, { -0.037, 0.285, -1.391 }, { -0.82, 0.265, 2.774 }, { -0.82, 0.265, -2.774 }, { -0.82, 0.255, 4.274 }, { -0.82, 0.255, -4.274 }, { -5.003, 0.261, 0 } },
 	flaps_maneuver = 1,
 	has_afteburner = true,
 	has_speedbrake = true,
@@ -1800,7 +1884,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						mode = "1 Flash",
 						period = 0.5,
 						position = { -6.8, 3.25, 0 },
-						proto = <77>{
+						proto = <79>{
 							angle_max = 3.1415926535898,
 							angle_min = 0.5235987755983,
 							color = { 0.92, 0.92, 1, 0.20784609690827 },
@@ -1821,7 +1905,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						mode = "1 Flash",
 						period = 0.5,
 						position = { -6.8, 3.25, 0 },
-						proto = <table 77>,
+						proto = <table 79>,
 						range = 64,
 						typename = "Spot"
 					} },

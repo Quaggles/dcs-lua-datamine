@@ -150,7 +150,6 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM-7F"] = {
 			hoj = 1,
 			max_w_LOS = 0.34906585039887,
 			op_time = 75,
-			rad_correction = -0,
 			sens_far_dist = 30000,
 			sens_near_dist = 100
 		},
@@ -348,7 +347,6 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM-7F"] = {
 			hoj = 1,
 			max_w_LOS = 0.34906585039887,
 			op_time = 75,
-			rad_correction = -0,
 			sens_far_dist = 30000,
 			sens_near_dist = 100
 		},

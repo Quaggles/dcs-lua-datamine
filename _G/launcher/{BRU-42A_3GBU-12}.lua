@@ -19,6 +19,7 @@ _G["launcher"]["{BRU-42A_3*GBU-12}"] = {
 		} },
 	Picture = "GBU12.png",
 	Weight = 772,
+	Weight_Empty = 97,
 	_file = "./CoreMods/aircraft/AV8BNA/WEAPONS/AV8BNA_Weapons.lua",
 	_origin = "AV-8B N/A AI by RAZBAM Sims",
 	attribute = { 4, 5, 32, "Redacted" },

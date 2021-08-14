@@ -28,6 +28,9 @@ _G["rockets"]["#Index"] = {
 	Z_back = 0,
 	_unique_resource_name = "weapons.missiles.AGM_130",
 	display_name = "AGM-130",
+	encyclopediaAnimation = {
+		args = { 0.01 }
+	},
 	name = "AGM_130",
 	sigma = { 10, 10, 10 },
 	t_acc = 5,

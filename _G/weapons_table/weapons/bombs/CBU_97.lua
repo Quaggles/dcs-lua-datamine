@@ -15,7 +15,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_97"] = {
 			Ma = 0.25151351983409,
 			Mw = 2.5101851847884,
 			caliber = 0.41,
-			cx_coeff = { 1, 0.39, 0.6, 0.168, 1.31 },
+			cx_coeff = { 1, 0.55, 0.8, 0.2, 1.5 },
 			mass = 420,
 			wind_sigma = 30,
 			wind_time = 1000
@@ -401,9 +401,18 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_97"] = {
 			},
 			server = 0
 		},
+		rotation_control = {
+			arg_out = 0,
+			rot_out = 0
+		},
 		scheme = "schemes/bombs/bomb-cassette_new.sch"
 	},
 	display_name = "CBU-97",
+	encyclopediaAnimation = {
+		args = {
+			[0] = 1
+		}
+	},
 	mass = 420,
 	model = "CBU-97",
 	name = "CBU_97",
@@ -422,7 +431,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_97"] = {
 			Ma = 0.25151351983409,
 			Mw = 2.5101851847884,
 			caliber = 0.41,
-			cx_coeff = { 1, 0.39, 0.6, 0.168, 1.31 },
+			cx_coeff = { 1, 0.55, 0.8, 0.2, 1.5 },
 			mass = 420,
 			wind_sigma = 30,
 			wind_time = 1000
@@ -808,12 +817,16 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_97"] = {
 			},
 			server = 1
 		},
+		rotation_control = {
+			arg_out = 0,
+			rot_out = 0
+		},
 		scheme = "schemes/bombs/bomb-cassette_new.sch"
 	},
 	sounderName = "Weapons/Bomb",
 	targeting_data = {
 		bomblet_char_time = 99.14,
-		char_time = 20.4
+		char_time = 20.38
 	},
 	type_name = "bomb",
 	ws_type = { 4, 5, 38, "Redacted" }

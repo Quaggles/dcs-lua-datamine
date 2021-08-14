@@ -20,7 +20,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M64"] = {
 			wind_sigma = 80,
 			wind_time = 1000
 		},
-		scheme = "schemes/bombs/bomb-common.sch",
+		scheme = "schemes/bombs/bomb-common-anim.sch",
 		warhead = {
 			caliber = 273,
 			concrete_factors = { 1, 1, 1 },
@@ -59,7 +59,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M64"] = {
 			wind_sigma = 80,
 			wind_time = 1000
 		},
-		scheme = "schemes/bombs/bomb-common.sch",
+		scheme = "schemes/bombs/bomb-common-anim.sch",
 		warhead = {
 			caliber = 273,
 			concrete_factors = { 1, 1, 1 },

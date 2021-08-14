@@ -2088,7 +2088,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	crew_members = { {
 			canopy_arg = 38,
 			canopy_pos = { 4.361, -1.031, -0.473 },
-			drop_canopy_name = 313,
+			drop_canopy_name = 314,
 			drop_parachute_name = "pilot_raf_parachute",
 			ejection_added_speed = { -0.5, -1, -2 },
 			ejection_order = 5,
@@ -2101,7 +2101,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			canopy_arg = 38,
 			canopy_pos = { 4.361, -1.031, -0.473 },
-			drop_canopy_name = 313,
+			drop_canopy_name = 314,
 			drop_parachute_name = "pilot_raf_parachute",
 			ejection_added_speed = { -0.5, -1.5, -2.5 },
 			ejection_order = 4,
@@ -2114,7 +2114,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			canopy_arg = 38,
 			canopy_pos = { 4.361, -1.031, -0.473 },
-			drop_canopy_name = 313,
+			drop_canopy_name = 314,
 			drop_parachute_name = "pilot_raf_parachute",
 			ejection_added_speed = { -0.5, -1.2, -2.2 },
 			ejection_order = 3,
@@ -2127,7 +2127,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			canopy_arg = 38,
 			canopy_pos = { 4.361, -1.031, -0.473 },
-			drop_canopy_name = 313,
+			drop_canopy_name = 314,
 			drop_parachute_name = "pilot_raf_parachute",
 			ejection_added_speed = { -0.5, -1.5, -2.5 },
 			ejection_order = 2,
@@ -2140,7 +2140,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			canopy_arg = 38,
 			canopy_pos = { 4.361, -1.031, -0.473 },
-			drop_canopy_name = 313,
+			drop_canopy_name = 314,
 			drop_parachute_name = "pilot_raf_parachute",
 			ejection_added_speed = { -10.3, -11.3, -21.1 },
 			ejection_order = 1,
@@ -2153,7 +2153,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			canopy_arg = 38,
 			canopy_pos = { -7.765, -0.089, 0.745 },
-			drop_canopy_name = 312,
+			drop_canopy_name = 313,
 			drop_parachute_name = "pilot_raf_parachute",
 			ejection_added_speed = { -10.7, -11.5, -11.5 },
 			ejection_order = 2,
@@ -2166,7 +2166,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			canopy_arg = 38,
 			canopy_pos = { -7.765, -0.089, 0.745 },
-			drop_canopy_name = 312,
+			drop_canopy_name = 313,
 			drop_parachute_name = "pilot_raf_parachute",
 			ejection_added_speed = { -10.6, -11.3, 11.2 },
 			ejection_order = 1,
@@ -2179,7 +2179,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			canopy_arg = 38,
 			canopy_pos = { -7.765, -0.089, 0.745 },
-			drop_canopy_name = 312,
+			drop_canopy_name = 313,
 			drop_parachute_name = "pilot_raf_parachute",
 			ejection_added_speed = { -10.5, -11.5, 11 },
 			ejection_order = 3,
@@ -2192,7 +2192,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			canopy_arg = 38,
 			canopy_pos = { -7.765, -0.089, 0.745 },
-			drop_canopy_name = 312,
+			drop_canopy_name = 313,
 			drop_parachute_name = "pilot_raf_parachute",
 			ejection_added_speed = { -10.4, -10.5, 10.8 },
 			ejection_order = 4,
@@ -2204,7 +2204,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			canopy_arg = 38,
 			canopy_pos = { -11.536, -0.092, 0.402 },
-			drop_canopy_name = 314,
+			drop_canopy_name = 315,
 			drop_parachute_name = "pilot_raf_parachute",
 			ejection_added_speed = { 10, -10, -150.1 },
 			ejection_order = 1,

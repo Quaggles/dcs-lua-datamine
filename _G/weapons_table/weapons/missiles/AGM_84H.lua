@@ -221,6 +221,11 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_84H"] = {
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	display_name = "AGM-84H",
+	encyclopediaAnimation = {
+		args = {
+			[25] = 1
+		}
+	},
 	mass = 675,
 	model = "agm-84h",
 	name = "AGM_84H",

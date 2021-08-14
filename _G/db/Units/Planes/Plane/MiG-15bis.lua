@@ -862,11 +862,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	crew_members = { {
 			bailout_arg = 91,
 			canopy_pos = { 1.5, 0.7, 0 },
-			drop_canopy_name = 303,
+			drop_canopy_name = 304,
 			drop_parachute_name = "pilot_mig15_parachute",
-			ejection_seat_name = 302,
+			ejection_seat_name = 303,
 			g_suit = 0.35,
-			pilot_name = 304,
+			pilot_name = 305,
 			pos = { 1.771, 0.856, 0 },
 			role = "pilot",
 			role_display_name = "Pilot"
@@ -936,7 +936,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				Transition = { "Open", "Close" }
 			}, {
 				Sequence = { {
-						C = { { "Arg", 38, "set", 0.04 }, { "Sleep", "for", 1 } }
+						C = { { "ArgumentPhase", 5, "x", 38, "to", 0.88, "sign", 1 } }
+					}, {
+						C = { { "Arg", 38, "set", 0.04 } }
+					}, {
+						C = { { "Sleep", "for", 1 } }
 					}, {
 						C = { { "TearCanopy", 0 } }
 					}, {
@@ -945,6 +949,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						C = { { "Arg", 91, "set", 1 } }
 					} },
 				Transition = { "Any", "Bailout" }
+			}, {
+				Sequence = { {
+						C = { { "TearCanopy", 0 }, { "Arg", 91, "set", 1 } }
+					} },
+				Transition = { "Any", "TearOff" }
 			} }
 	},
 	nose_gear_amortizer_direct_stroke = 0,

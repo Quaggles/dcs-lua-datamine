@@ -22,7 +22,8 @@ _G["launcher"]["{02B81892-7E24-4795-84F9-B8110C641AF0}"] = {
 			ShapeName = "RBK_250_PTAB_25M_cassette"
 		} },
 	Picture = "RBK250.png",
-	Weight = 1060,
+	Weight = 1126.4,
+	Weight_Empty = 148,
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "MBD3-U4T with 4 x RBK-250 - 42 x PTAB-2.5M, 250kg CBUs Medium HEAT/AP",
