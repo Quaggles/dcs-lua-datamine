@@ -1363,7 +1363,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	country_of_origin = "USA",
 	crew_members = { {
 			canopy_pos = { 0, 0, 0 },
-			drop_canopy_name = 317,
+			drop_canopy_name = 320,
 			drop_parachute_name = "pilot_p51_parachute",
 			ejection_seat_name = 0,
 			pilot_name = 56,
@@ -1576,27 +1576,42 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	nose_gear_pos = { -4.99, -0.82, 0 },
 	nose_gear_wheel_diameter = 0.319,
 	panelRadio = { {
+			ID = "SCR522",
 			channels = { {
 					connect = true,
 					default = 105,
 					modulation = "AM",
-					name = "ButtonA"
+					name = "Channel A"
 				}, {
 					default = 124,
 					modulation = "AM",
-					name = "ButtonB"
+					name = "Channel B"
 				}, {
 					default = 131,
 					modulation = "AM",
-					name = "ButtonC"
+					name = "Channel C"
 				}, {
 					default = 139,
 					modulation = "AM",
-					name = "ButtonD"
+					name = "Channel D"
 				} },
-			name = "SCR522",
+			displayUnits = "MHz",
+			name = "SCR-522",
 			range = {
 				max = 156,
+				min = 38
+			}
+		}, {
+			ID = "BC1206",
+			channels = { {
+					default = 108.9,
+					modulation = "AM",
+					name = "Initial Frequency"
+				} },
+			displayUnits = "MHz",
+			name = "BC-1206",
+			range = {
+				max = 200,
 				min = 100
 			}
 		} },

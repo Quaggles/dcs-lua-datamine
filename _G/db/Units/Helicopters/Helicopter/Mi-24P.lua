@@ -78,7 +78,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			id = "OperatorNVG",
 			label = "Allow Operators NVG"
 		} },
-	AmmoWeight = 245,
+	AmmoWeight = 207.5,
 	CanopyGeometry = { -0.93969262078591, -0.95280922353749, -0.96592582628907, 0.0094409633615699, 0.98480775301221 },
 	Categories = {},
 	Damage = { {
@@ -418,7 +418,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	Guns = { {
 			aft_gun_mount = false,
 			azimuth_initial = 0,
-			display_name = "GSh-2-30",
+			display_name = "GSh-2-30K",
 			drop_cartridge = 0,
 			effective_fire_distance = 1800,
 			effects = { {
@@ -453,17 +453,18 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			},
 			muzzle_pos = { 3.11, -1.2, 0 },
 			muzzle_pos_connector = "Gun_point_0",
-			short_name = "GSh_30_2",
+			short_name = "GSh_30_2K",
 			supply = {
 				count = 250,
 				get_mass = <function 1>,
 				get_mass_ = <function 2>,
+				mixes = { { 2, 2, 1, 1, 2, 3, 1, 1 }, { 2, 2, 3, 1, 1 }, { 2, 2, 1, 1 }, { 2, 2, 3, 2, 2 }, { 1, 1, 4, 1, 1 } },
 				shells = { {
 						AP_cap_caliber = 30,
 						Da0 = 0.0005,
 						Da1 = 0,
 						Dv0 = 0.0081,
-						_unique_resource_name = "weapons.shells.GSH301_30_AP",
+						_unique_resource_name = "weapons.shells.GSh_30_2K_AP",
 						caliber = 30,
 						cartridge = 0,
 						cartridge_mass = 0,
@@ -472,7 +473,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						cumulative_thickness = 0,
 						cx = { 0.7, 0.7, 0.25, 0.236, 2.31 },
 						damage_factor = 639,
-						display_name = "30mm AP",
+						display_name = "GSh_30_2K_AP",
 						explosive = 0,
 						full_scale_time = -1,
 						j = 0,
@@ -480,8 +481,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						l = 0,
 						life_time = 6,
 						mass = 0.39,
-						model_name = "tracer_bullet_yellow",
-						name = "GSH301_30_AP",
+						model_name = "pula",
+						name = "GSh_30_2K_AP",
 						payload = 0,
 						piercing_mass = 0.39,
 						rebound_concrete = <2>{
@@ -507,7 +508,133 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 							velocity_loss_factor = 0.5
 						},
 						rotation_freq = 7,
-						round_mass = 0.98,
+						round_mass = 0.83,
+						s = 0,
+						scale_smoke = 1.8,
+						scale_tracer = 0,
+						silent_self_destruction = false,
+						smoke_opacity = 0.18,
+						smoke_tail_life_time = -1,
+						subcalibre = false,
+						tracer_off = 4,
+						tracer_on = 0.01,
+						type_name = "shell",
+						v0 = 940,
+						visual_effect_correction = 0,
+						visual_effect_correction_rebound = 0.1
+					}, {
+						AP_cap_caliber = 30,
+						Da0 = 0.0005,
+						Da1 = 0,
+						Dv0 = 0.0081,
+						_unique_resource_name = "weapons.shells.GSh_30_2K_HE",
+						caliber = 30,
+						cartridge = 0,
+						cartridge_mass = 0,
+						charTime = 0,
+						cumulative_mass = 0,
+						cumulative_thickness = 0,
+						cx = { 0.7, 0.7, 0.25, 0.236, 2.31 },
+						damage_factor = 639,
+						display_name = "GSh_30_2K_HE",
+						explosive = 0.39,
+						full_scale_time = -1,
+						j = 0,
+						k1 = 7.6e-09,
+						l = 0,
+						life_time = 6,
+						mass = 0.387,
+						model_name = "pula",
+						name = "GSh_30_2K_HE",
+						payload = 0.071995569503415,
+						piercing_mass = 0.0774,
+						rebound_concrete = <3>{
+							angle0 = 50,
+							angle100 = 75,
+							cx_factor = 5,
+							deviation_angle = 30,
+							velocity_loss_factor = 0.5
+						},
+						rebound_ground = {
+							angle0 = 55,
+							angle100 = 73,
+							cx_factor = 5,
+							deviation_angle = 30,
+							velocity_loss_factor = 0.5
+						},
+						rebound_object = <table 3>,
+						rebound_water = {
+							angle0 = 65,
+							angle100 = 83,
+							cx_factor = 5,
+							deviation_angle = 30,
+							velocity_loss_factor = 0.5
+						},
+						rotation_freq = 7,
+						round_mass = 0.83,
+						s = 0,
+						scale_smoke = 1.8,
+						scale_tracer = 0,
+						silent_self_destruction = false,
+						smoke_opacity = 0.18,
+						smoke_tail_life_time = -1,
+						subcalibre = false,
+						tracer_off = 4,
+						tracer_on = 0.01,
+						type_name = "shell",
+						v0 = 940,
+						visual_effect_correction = 0,
+						visual_effect_correction_rebound = 0.1
+					}, {
+						AP_cap_caliber = 30,
+						Da0 = 0.0005,
+						Da1 = 0,
+						Dv0 = 0.0081,
+						_unique_resource_name = "weapons.shells.GSh_30_2K_HE_Tr",
+						caliber = 30,
+						cartridge = 0,
+						cartridge_mass = 0,
+						charTime = 0,
+						cumulative_mass = 0,
+						cumulative_thickness = 0,
+						cx = { 0.7, 0.7, 0.25, 0.236, 2.31 },
+						damage_factor = 639,
+						display_name = "GSh_30_2K_HE_Tr",
+						explosive = 0.39,
+						full_scale_time = -1,
+						j = 0,
+						k1 = 7.6e-09,
+						l = 0,
+						life_time = 6,
+						mass = 0.39,
+						model_name = "tracer_bullet_yellow",
+						name = "GSh_30_2K_HE_Tr",
+						payload = 0.071995569503415,
+						piercing_mass = 0.078,
+						rebound_concrete = <4>{
+							angle0 = 50,
+							angle100 = 75,
+							cx_factor = 5,
+							deviation_angle = 30,
+							velocity_loss_factor = 0.5
+						},
+						rebound_ground = {
+							angle0 = 55,
+							angle100 = 73,
+							cx_factor = 5,
+							deviation_angle = 30,
+							velocity_loss_factor = 0.5
+						},
+						rebound_object = <table 4>,
+						rebound_water = {
+							angle0 = 65,
+							angle100 = 83,
+							cx_factor = 5,
+							deviation_angle = 30,
+							velocity_loss_factor = 0.5
+						},
+						rotation_freq = 7,
+						round_mass = 0.83,
 						s = 0,
 						scale_smoke = 1.8,
 						scale_tracer = 1,
@@ -518,7 +645,70 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						tracer_off = 4,
 						tracer_on = 0.01,
 						type_name = "shell",
-						v0 = 890,
+						v0 = 940,
+						visual_effect_correction = 0,
+						visual_effect_correction_rebound = 0.1
+					}, {
+						AP_cap_caliber = 30,
+						Da0 = 0.0005,
+						Da1 = 0,
+						Dv0 = 0.0081,
+						_unique_resource_name = "weapons.shells.GSh_30_2K_AP_Tr",
+						caliber = 30,
+						cartridge = 0,
+						cartridge_mass = 0,
+						charTime = 0,
+						cumulative_mass = 0,
+						cumulative_thickness = 0,
+						cx = { 0.7, 0.7, 0.25, 0.236, 2.31 },
+						damage_factor = 639,
+						display_name = "GSh_30_2K_AP_Tr",
+						explosive = 0,
+						full_scale_time = -1,
+						j = 0,
+						k1 = 7.6e-09,
+						l = 0,
+						life_time = 6,
+						mass = 0.39,
+						model_name = "tracer_bullet_yellow",
+						name = "GSh_30_2K_AP_Tr",
+						payload = 0,
+						piercing_mass = 0.39,
+						rebound_concrete = <5>{
+							angle0 = 50,
+							angle100 = 75,
+							cx_factor = 5,
+							deviation_angle = 30,
+							velocity_loss_factor = 0.5
+						},
+						rebound_ground = {
+							angle0 = 55,
+							angle100 = 73,
+							cx_factor = 5,
+							deviation_angle = 30,
+							velocity_loss_factor = 0.5
+						},
+						rebound_object = <table 5>,
+						rebound_water = {
+							angle0 = 65,
+							angle100 = 83,
+							cx_factor = 5,
+							deviation_angle = 30,
+							velocity_loss_factor = 0.5
+						},
+						rotation_freq = 7,
+						round_mass = 0.83,
+						s = 0,
+						scale_smoke = 1.8,
+						scale_tracer = 1,
+						silent_self_destruction = false,
+						smoke_opacity = 0.18,
+						smoke_tail_life_time = -1,
+						subcalibre = false,
+						tracer_off = 4,
+						tracer_on = 0.01,
+						type_name = "shell",
+						v0 = 940,
 						visual_effect_correction = 0,
 						visual_effect_correction_rebound = 0.1
 					} }
@@ -540,10 +730,10 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				["A-10A"] = {
 					enable_options_key_for_unit = "a10a_enabled"
 				},
-				["A-10C"] = <3>{
+				["A-10C"] = <6>{
 					enable_options_key_for_unit = "disabled"
 				},
-				["A-10C_2"] = <table 3>,
+				["A-10C_2"] = <table 6>,
 				AJS37 = {
 					enable_options_key_for_unit = "ajs37_enabled"
 				},
@@ -562,14 +752,14 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				["F-15C"] = {
 					enable_options_key_for_unit = "f15c_enabled"
 				},
-				["F-16C_50"] = <table 3>,
+				["F-16C_50"] = <table 6>,
 				["F-5E-3"] = {
 					enable_options_key_for_unit = "f5e3_enabled"
 				},
 				["F-86F Sabre"] = {
 					enable_options_key_for_unit = "f86f_enabled"
 				},
-				["FA-18C_hornet"] = <table 3>,
+				["FA-18C_hornet"] = <table 6>,
 				["FW-190D9"] = {
 					enable_options_key_for_unit = "fw190d9_enabled"
 				},
@@ -579,7 +769,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				["J-11A"] = {
 					enable_options_key_for_unit = "j11a_enabled"
 				},
-				["Ka-50"] = <table 3>,
+				["Ka-50"] = <table 6>,
 				["L-39C"] = {
 					enable_options_key_for_unit = "l39c_common_enabled"
 				},
@@ -678,7 +868,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	Ny_max = 2.5,
 	Picture = "Mi-24V.png",
 	Pylons = { {
-			Launchers = <4>{ {
+			Launchers = <7>{ {
 					CLSID = "{B919B0F4-7C25-455E-9A02-CEA51DB895E3}"
 				}, {
 					CLSID = "{9M114 Shturm-V-2 Rack}"
@@ -692,7 +882,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			connector = "hardpoint-1",
 			use_full_connector_position = true
 		}, {
-			Launchers = <5>{ {
+			Launchers = <8>{ {
 					CLSID = "B_8V20A_CM"
 				}, {
 					CLSID = "B_8V20A_OFP2"
@@ -705,7 +895,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				}, {
 					CLSID = "{FC56DF80-9B09-44C5-8976-DCFAFF219062}"
 				}, {
-					CLSID = "{B99EE8A8-99BC-4a8d-89AC-A26831920DCE}"
+					CLSID = "{PTB_450}"
 				}, {
 					CLSID = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}"
 				}, {
@@ -731,7 +921,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			use_full_connector_position = true
 		}, {
 			FiZ = 0,
-			Launchers = <6>{ {
+			Launchers = <9>{ {
 					CLSID = "B_8V20A_CM"
 				}, {
 					CLSID = "B_8V20A_OFP2"
@@ -762,7 +952,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				}, {
 					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74881}"
 				}, {
-					CLSID = "{B99EE8A8-99BC-4a8d-89AC-A26831920DCE}"
+					CLSID = "{PTB_450}"
 				}, {
 					CLSID = "{APU_68_S-24}"
 				}, {
@@ -780,7 +970,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			use_full_connector_position = true
 		}, {
 			FiZ = 0,
-			Launchers = <table 6>,
+			Launchers = <table 9>,
 			Number = 4,
 			Order = 4,
 			Type = 0,
@@ -790,7 +980,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			connector = "hardpoint-4",
 			use_full_connector_position = true
 		}, {
-			Launchers = <table 5>,
+			Launchers = <table 8>,
 			Number = 5,
 			Order = 5,
 			Type = 0,
@@ -800,7 +990,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			connector = "hardpoint-5",
 			use_full_connector_position = true
 		}, {
-			Launchers = <table 4>,
+			Launchers = <table 7>,
 			Number = 6,
 			Order = 6,
 			Type = 0,
@@ -1050,7 +1240,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			}, {
 				hAngle = 0,
 				rollAngle = 0,
-				vAngle = -17,
+				vAngle = 0,
 				viewAngle = 89.777542,
 				x_trans = 0,
 				y_trans = 0,
@@ -1095,31 +1285,31 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		},
 		Cockpit = { {
 				Allow360rotation = false,
-				CameraAngleLimits = { 200, -95, 90 },
+				CameraAngleLimits = { 200, -65, 90 },
 				CameraAngleRestriction = { false, 90, 0.4 },
 				CameraViewAngleLimits = { 20, 140 },
-				CockpitLocalPoint = { 3.15, 0.59, -0.007 },
+				CockpitLocalPoint = { 3.15, 0.57, -0.007 },
 				EyePoint = { 0.05, 0.1, 0 },
 				ShoulderSize = 0.25,
 				limits_6DOF = {
-					roll = 110,
-					x = { -1.1, 1.5 },
-					y = { -1.3, 1.1 },
-					z = { -1.3, 1.3 }
+					roll = 90,
+					x = { -0.1, 0.5 },
+					y = { -0.3, 0.1 },
+					z = { -0.3, 0.3 }
 				}
 			}, {
 				Allow360rotation = false,
-				CameraAngleLimits = { 200, -95, 90 },
+				CameraAngleLimits = { 200, -65, 90 },
 				CameraAngleRestriction = { false, 90, 0.4 },
 				CameraViewAngleLimits = { 20, 140 },
-				CockpitLocalPoint = { 4.65, -0.05, -0.007 },
+				CockpitLocalPoint = { 4.65, 0.04, -0.007 },
 				EyePoint = { 0.05, 0.1, 0 },
 				ShoulderSize = 0.25,
 				limits_6DOF = {
-					roll = 110,
-					x = { -1.1, 1.5 },
-					y = { -1.3, 1.1 },
-					z = { -1.3, 1.3 }
+					roll = 90,
+					x = { -0.1, 0.5 },
+					y = { -0.3, 0.1 },
+					z = { -0.3, 0.3 }
 				}
 			},
 			CockpitAnchorPoint = { 3.176, 0.586, -0.007 }
@@ -1133,6 +1323,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	_file_flyable = "./Mods/aircraft/Mi-24P/entry.lua",
 	_origin = "Mi-24P AI by Eagle Dynamics",
 	_origin_flyable = "Mi-24P by Eagle Dynamics",
+	ammo_type = { "Combat Mix", "Combat Mix More Tracers", "Combat Mix No Tracers", "30MM HE", "30MM AP" },
+	ammo_type_default = 1,
 	attribute = { 1, 2, 6, "Redacted", "Attack helicopters", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Helicopters" },
 	blade_area = 3.34,
 	blade_chord = 0.58,

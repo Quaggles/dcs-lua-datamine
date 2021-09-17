@@ -3361,7 +3361,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	_origin_flyable = "P-51D Mustang by Eagle Dynamics",
 	aim_error_dive_bombing = 10,
 	aim_error_level_bombing = 20,
-	ammo_type = { "CM Combat Mix", "AG Ground Attack", "CS No Tracers" },
+	ammo_type = { "CM - Combat Mix", "AG - Ground Attack", "CS - No Tracers" },
 	attribute = { 1, 1, 1, "Redacted", "Battleplanes", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },
 	average_fuel_consumption = 0.302,
 	bank_angle_max = 60,
@@ -3591,27 +3591,42 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	nose_gear_pos = { -4.99, -0.82, 0 },
 	nose_gear_wheel_diameter = 0.319,
 	panelRadio = { {
+			ID = "SCR522",
 			channels = { {
 					connect = true,
 					default = 105,
 					modulation = "AM",
-					name = "ButtonA"
+					name = "Channel A"
 				}, {
 					default = 124,
 					modulation = "AM",
-					name = "ButtonB"
+					name = "Channel B"
 				}, {
 					default = 131,
 					modulation = "AM",
-					name = "ButtonC"
+					name = "Channel C"
 				}, {
 					default = 139,
 					modulation = "AM",
-					name = "ButtonD"
+					name = "Channel D"
 				} },
-			name = "SCR522",
+			displayUnits = "MHz",
+			name = "SCR-522",
 			range = {
 				max = 156,
+				min = 38
+			}
+		}, {
+			ID = "BC1206",
+			channels = { {
+					default = 108.9,
+					modulation = "AM",
+					name = "Initial Frequency"
+				} },
+			displayUnits = "MHz",
+			name = "BC-1206",
+			range = {
+				max = 200,
 				min = 100
 			}
 		} },

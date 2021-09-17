@@ -17,10 +17,10 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 	scan_period = 6,
 	scan_volume = {
 		azimuth = { -180, 180 },
-		elevation = { -15, 50 }
+		elevation = { -15, 45 }
 	},
 	type = 0,
 	velocity_limits = {
-		radial_velocity_min = 15
+		radial_velocity_min = 20
 	}
 }

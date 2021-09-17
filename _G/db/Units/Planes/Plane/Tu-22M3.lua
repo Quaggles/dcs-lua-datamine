@@ -48,12 +48,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[23] = {
 			args = { 223 },
 			critical_damage = 3,
-			deps_cells = { 27, 31, 37, 112 }
+			deps_cells = { 27, 31, 37, 136 }
 		},
 		[24] = {
 			args = { 213 },
 			critical_damage = 3,
-			deps_cells = { 28, 32, 38, 113 }
+			deps_cells = { 28, 32, 38, 137 }
 		},
 		[27] = {
 			args = { 221 },
@@ -111,15 +111,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 152 },
 			critical_damage = 4
 		},
-		[111] = {
+		[135] = {
 			args = { 244 },
 			critical_damage = 4
 		},
-		[112] = {
+		[136] = {
 			args = { 228 },
 			critical_damage = 6
 		},
-		[113] = {
+		[137] = {
 			args = { 218 },
 			critical_damage = 6
 		},
@@ -127,11 +127,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			COCKPIT = 3,
 			ENGINE_L = 11,
 			ENGINE_R = 12,
-			FIN_TOP = 111,
-			["FLAP_L_ CENTER"] = 112,
+			FIN_TOP = 135,
+			["FLAP_L_ CENTER"] = 136,
 			FLAP_L_IN = 37,
 			FLAP_L_OUT = 31,
-			["FLAP_R_ CENTER"] = 113,
+			["FLAP_R_ CENTER"] = 137,
 			FLAP_R_IN = 38,
 			FLAP_R_OUT = 32,
 			FUSELAGE_BOTTOM = 82,

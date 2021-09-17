@@ -40,6 +40,11 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_50HD"] = {
 		}
 	},
 	display_name = "BDU-50HD",
+	encyclopediaAnimation = {
+		args = {
+			[0] = 1
+		}
+	},
 	mass = 232,
 	model = "BDU-50HD",
 	name = "BDU_50HD",

@@ -188,12 +188,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[0] = {
 			args = { 147 },
 			critical_damage = 8,
-			deps_cells = { 123, 65, 68 }
+			deps_cells = { 147, 65, 68 }
 		},
 		[8] = {
 			args = { 265 },
 			critical_damage = 5,
-			deps_cells = { 115 }
+			deps_cells = { 139 }
 		},
 		[9] = {
 			args = { 177 },
@@ -220,12 +220,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[15] = {
 			args = { 267 },
 			critical_damage = 5,
-			deps_cells = { 121 }
+			deps_cells = { 145 }
 		},
 		[16] = {
 			args = { 266 },
 			critical_damage = 5,
-			deps_cells = { 127 }
+			deps_cells = { 151 }
 		},
 		[17] = {
 			args = { 273 },
@@ -474,84 +474,84 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[98] = {
 			args = { 268 },
 			critical_damage = 5,
-			deps_cells = { 111 }
+			deps_cells = { 135 }
 		},
 		[99] = {
 			args = { 151 },
 			critical_damage = 8
 		},
-		[111] = {
+		[135] = {
 			args = { 263 },
 			critical_damage = 3,
-			deps_cells = { 129 }
+			deps_cells = { 153 }
 		},
-		[112] = {
+		[136] = {
 			args = { 305 },
 			critical_damage = 3
 		},
-		[113] = {
+		[137] = {
 			critical_damage = 2
 		},
-		[114] = {
+		[138] = {
 			critical_damage = 2
 		},
-		[115] = {
+		[139] = {
 			args = { 253 },
 			critical_damage = 3,
 			deps_cells = { 83 }
 		},
-		[116] = {
+		[140] = {
 			critical_damage = 2
 		},
-		[117] = {
+		[141] = {
 			critical_damage = 2
 		},
-		[118] = {
+		[142] = {
 			critical_damage = 2
 		},
-		[119] = {
+		[143] = {
 			critical_damage = 2
 		},
-		[120] = {
+		[144] = {
 			critical_damage = 2
 		},
-		[121] = {
+		[145] = {
 			args = { 259 },
 			critical_damage = 3,
 			deps_cells = { 84 }
 		},
-		[122] = {
+		[146] = {
 			args = { 303 },
 			critical_damage = 2
 		},
-		[123] = {
+		[147] = {
 			args = { 144 },
 			critical_damage = 8
 		},
-		[124] = {
+		[148] = {
 			critical_damage = 2
 		},
-		[125] = {
+		[149] = {
 			critical_damage = 2
 		},
-		[126] = {
+		[150] = {
 			critical_damage = 2
 		},
-		[127] = {
+		[151] = {
 			args = { 255 },
 			critical_damage = 3,
 			deps_cells = { 85 }
 		},
-		[128] = {
+		[152] = {
 			args = { 304 },
 			critical_damage = 2
 		},
-		[129] = {
+		[153] = {
 			args = { 135 },
 			critical_damage = 3
 		},
 		cell_indices = {
-			AFT_WHEEL = 111,
+			AFT_WHEEL = 135,
 			AILERON_L = 25,
 			AILERON_R = 26,
 			AIR_BRAKE_L = 19,
@@ -572,14 +572,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			BLADE_6_CENTER = 80,
 			BLADE_6_IN = 79,
 			BLADE_6_OUT = 81,
-			BOTTOM_CM = 112,
+			BOTTOM_CM = 136,
 			CABIN_BOTTOM = 6,
 			CABIN_LEFT_SIDE = 4,
 			CABIN_RIGHT_SIDE = 5,
 			COCKPIT = 3,
 			CREW_1 = 90,
-			DECU1 = 113,
-			DECU2 = 114,
+			DECU1 = 137,
+			DECU2 = 138,
 			ELEVATOR_L_IN = 51,
 			ELEVATOR_R_IN = 52,
 			ENGINE = 11,
@@ -593,22 +593,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			FLAP_R_IN = 38,
 			FLAP_R_OUT = 32,
 			FRONT_GEAR_BOX = 8,
-			FRONT_WHEEL = 115,
+			FRONT_WHEEL = 139,
 			FUEL_TANK_LEFT_SIDE = 61,
 			FUEL_TANK_RIGHT_SIDE = 62,
 			FUSELAGE_BOTTOM = 82,
 			FUSELAGE_LEFT_SIDE = 9,
 			FUSELAGE_RIGHT_SIDE = 10,
 			FUSELAGE_TOP = 99,
-			GENERATOR = 116,
+			GENERATOR = 140,
 			HOOK = 98,
-			HYD1_PUMP = 117,
-			HYD2_PUMP = 118,
-			HYD_RES_1 = 119,
-			IGV = 120,
+			HYD1_PUMP = 141,
+			HYD2_PUMP = 142,
+			HYD_RES_1 = 143,
+			IGV = 144,
 			LEFT_GEAR_BOX = 15,
-			LEFT_WHEEL = 121,
-			L_TOP_CM = 122,
+			LEFT_WHEEL = 145,
+			L_TOP_CM = 146,
 			MTG_L = 17,
 			MTG_L_BOTTOM = 13,
 			MTG_R = 18,
@@ -617,25 +617,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			NOSE_CENTER = 0,
 			NOSE_LEFT_SIDE = 1,
 			NOSE_RIGHT_SIDE = 2,
-			NOSE_SENSOR = 123,
-			OIL_COOLER = 124,
-			OIL_PUMP = 125,
-			OIL_TANK = 126,
+			NOSE_SENSOR = 147,
+			OIL_COOLER = 148,
+			OIL_PUMP = 149,
+			OIL_TANK = 150,
 			PWD = 60,
 			PYLON1 = 86,
 			PYLON2 = 87,
 			PYLON3 = 88,
 			PYLON4 = 89,
 			RIGHT_GEAR_BOX = 16,
-			RIGHT_WHEEL = 127,
+			RIGHT_WHEEL = 151,
 			ROTOR = 63,
 			RUDDER = 53,
-			R_TOP_CM = 128,
+			R_TOP_CM = 152,
 			TAIL = 55,
 			TAIL_BOTTOM = 58,
 			TAIL_LEFT_SIDE = 56,
 			TAIL_RIGHT_SIDE = 57,
-			WHEEL_A = 129,
+			WHEEL_A = 153,
 			WHEEL_F = 83,
 			WHEEL_L = 84,
 			WHEEL_R = 85,
@@ -2227,11 +2227,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		} },
 	crew_members = { {
 			bailout_arg = -1,
-			drop_canopy_name = 269,
+			drop_canopy_name = 271,
 			drop_parachute_name = "AV8BNA_Parachute",
-			ejection_seat_name = 268,
+			ejection_seat_name = 270,
 			g_suit = 2,
-			pilot_name = 270,
+			pilot_name = 272,
 			pos = { 3.43, 0.703, 0 },
 			role = "pilot",
 			role_display_name = "Pilot"

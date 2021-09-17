@@ -174,12 +174,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[35] = {
 			args = { 510 },
 			critical_damage = 6,
-			deps_cells = { 37, 160 }
+			deps_cells = { 37, 184 }
 		},
 		[36] = {
 			args = { 571 },
 			critical_damage = 6,
-			deps_cells = { 38, 160 }
+			deps_cells = { 38, 184 }
 		},
 		[37] = {
 			args = { 513 },
@@ -255,287 +255,287 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 520 },
 			critical_damage = 3
 		},
-		[111] = {
+		[135] = {
 			args = { 536 },
 			critical_damage = 2
 		},
-		[112] = {
+		[136] = {
 			args = { 537 },
 			critical_damage = 2
 		},
-		[113] = {
+		[137] = {
 			args = { 538 },
 			critical_damage = 2
 		},
-		[114] = {
+		[138] = {
 			args = { 539 },
 			critical_damage = 2
 		},
-		[115] = {
+		[139] = {
 			args = { 541 },
 			critical_damage = 2
 		},
-		[116] = {
+		[140] = {
 			args = { 540 },
 			critical_damage = 2
 		},
-		[117] = {
+		[141] = {
 			args = { 590 },
 			critical_damage = 2
 		},
-		[118] = {
+		[142] = {
 			args = { 591 },
 			critical_damage = 2
 		},
-		[119] = {
+		[143] = {
 			args = { 592 },
 			critical_damage = 2
 		},
-		[120] = {
+		[144] = {
 			args = { 593 },
 			critical_damage = 2
 		},
-		[121] = {
+		[145] = {
 			args = { 565 },
 			critical_damage = 1
 		},
-		[122] = {
+		[146] = {
 			args = { 594 },
 			critical_damage = 2
 		},
-		[123] = {
+		[147] = {
 			args = { 595 },
 			critical_damage = 2
 		},
-		[124] = {
+		[148] = {
 			args = { 566 },
 			critical_damage = 1
 		},
-		[125] = {
+		[149] = {
 			args = { 596 },
 			critical_damage = 6
 		},
-		[126] = {
+		[150] = {
 			args = { 597 },
 			critical_damage = 6
 		},
-		[127] = {
+		[151] = {
 			args = { 522 },
 			critical_damage = 3
 		},
-		[128] = {
+		[152] = {
 			args = { 523 },
 			critical_damage = 3
 		},
-		[129] = {
+		[153] = {
 			args = { 521 },
 			critical_damage = 3
 		},
-		[130] = {
+		[154] = {
 			args = { 524 },
 			critical_damage = 3
 		},
-		[131] = {
+		[155] = {
 			args = { 557 },
 			critical_damage = 4
 		},
-		[132] = {
+		[156] = {
 			args = { 561 },
 			critical_damage = 4
 		},
-		[133] = {
+		[157] = {
 			args = { 558 },
 			critical_damage = 4
 		},
-		[134] = {
+		[158] = {
 			args = { 562 },
 			critical_damage = 4
 		},
-		[135] = {
+		[159] = {
 			args = { 559 },
 			critical_damage = 4
 		},
-		[136] = {
+		[160] = {
 			args = { 563 },
 			critical_damage = 4
 		},
-		[137] = {
+		[161] = {
 			args = { 555 },
 			critical_damage = 2
 		},
-		[138] = {
+		[162] = {
 			args = { 546 },
 			critical_damage = 2
 		},
-		[139] = {
+		[163] = {
 			args = { 545 },
 			critical_damage = 2
 		},
-		[140] = {
+		[164] = {
 			args = { 547 },
 			critical_damage = 2
 		},
-		[141] = {
+		[165] = {
 			args = { 554 },
 			critical_damage = 3
 		},
-		[142] = {
+		[166] = {
 			args = { 553 },
 			critical_damage = 3
 		},
-		[143] = {
+		[167] = {
 			args = { 551 },
 			critical_damage = 3
 		},
-		[144] = {
+		[168] = {
 			args = { 550 },
 			critical_damage = 3
 		},
-		[145] = {
+		[169] = {
 			args = { 560 },
 			critical_damage = 4
 		},
-		[146] = {
+		[170] = {
 			args = { 564 },
 			critical_damage = 4
 		},
-		[147] = {
+		[171] = {
 			args = { 556 },
 			critical_damage = 2
 		},
-		[148] = {
+		[172] = {
 			args = { 569 },
 			critical_damage = 1
 		},
-		[149] = {
+		[173] = {
 			args = { 570 },
 			critical_damage = 1
 		},
-		[150] = {
+		[174] = {
 			args = { 577 },
 			critical_damage = 1
 		},
-		[151] = {
+		[175] = {
 			args = { 578 },
 			critical_damage = 1
 		},
-		[152] = {
+		[176] = {
 			args = { 542 },
 			critical_damage = 2
 		},
-		[153] = {
+		[177] = {
 			args = { 543 },
 			critical_damage = 2
 		},
-		[154] = {
+		[178] = {
 			args = { 544 },
 			critical_damage = 2
 		},
-		[155] = {
+		[179] = {
 			args = { 567 },
 			critical_damage = 1
 		},
-		[156] = {
+		[180] = {
 			args = { 552 },
 			critical_damage = 1
 		},
-		[157] = {
+		[181] = {
 			args = { 568 },
 			critical_damage = 1
 		},
-		[158] = {
+		[182] = {
 			args = { 514 },
 			critical_damage = 15
 		},
-		[159] = {
+		[183] = {
 			args = { 515 },
 			critical_damage = 15
 		},
-		[160] = {
+		[184] = {
 			args = { 548 },
 			critical_damage = 3
 		},
-		[161] = {
+		[185] = {
 			args = { 549 },
 			critical_damage = 3
 		},
 		cell_indices = {
-			AVX_001 = 111,
-			AVX_002 = 112,
-			AVX_003 = 113,
-			AVX_004 = 114,
-			AVX_ECS = 115,
-			AVX_GTS = 116,
-			AVX_WALL_LEFT_FRONT = 117,
-			AVX_WALL_LEFT_REAR = 118,
-			AVX_WALL_RIGHT_FRONT = 119,
-			AVX_WALL_RIGHT_REAR = 120,
+			AVX_001 = 135,
+			AVX_002 = 136,
+			AVX_003 = 137,
+			AVX_004 = 138,
+			AVX_ECS = 139,
+			AVX_GTS = 140,
+			AVX_WALL_LEFT_FRONT = 141,
+			AVX_WALL_LEFT_REAR = 142,
+			AVX_WALL_RIGHT_FRONT = 143,
+			AVX_WALL_RIGHT_REAR = 144,
 			CABIN_LEFT_SIDE = 4,
 			CABIN_RIGHT_SIDE = 5,
-			COUNTERMEASURES = 121,
+			COUNTERMEASURES = 145,
 			CREW_1 = 90,
 			CREW_2 = 91,
-			DASHBOARD_PILOT = 122,
-			DASHBOARD_RIO = 123,
-			ECM_DUCKTAIL = 124,
-			EJECTION_SEAT_PILOT = 125,
-			EJECTION_SEAT_RIO = 126,
+			DASHBOARD_PILOT = 146,
+			DASHBOARD_RIO = 147,
+			ECM_DUCKTAIL = 148,
+			EJECTION_SEAT_PILOT = 149,
+			EJECTION_SEAT_RIO = 150,
 			ELEVATOR_L = 51,
 			ELEVATOR_R = 52,
 			ENGINE_L = 11,
-			ENGINE_L_INTAKE = 127,
-			ENGINE_L_UPPER = 128,
+			ENGINE_L_INTAKE = 151,
+			ENGINE_L_UPPER = 152,
 			ENGINE_R = 12,
-			ENGINE_R_INTAKE = 129,
-			ENGINE_R_UPPER = 130,
-			F110_FRONT_L = 131,
-			F110_FRONT_R = 132,
-			F110_MID_L = 133,
-			F110_MID_R = 134,
-			F110_REAR_L = 135,
-			F110_REAR_R = 136,
+			ENGINE_R_INTAKE = 153,
+			ENGINE_R_UPPER = 154,
+			F110_FRONT_L = 155,
+			F110_FRONT_R = 156,
+			F110_MID_L = 157,
+			F110_MID_R = 158,
+			F110_REAR_L = 159,
+			F110_REAR_R = 160,
 			FIN_L_CENTER = 41,
 			FIN_L_TOP = 39,
 			FIN_R_CENTER = 42,
 			FIN_R_TOP = 40,
 			FLAP_L = 37,
 			FLAP_R = 38,
-			FRONT_PHOENIX = 137,
-			FUEL_TANK_CENTR = 138,
-			FUEL_TANK_FRONT = 139,
-			FUEL_TANK_REAR = 140,
+			FRONT_PHOENIX = 161,
+			FUEL_TANK_CENTR = 162,
+			FUEL_TANK_FRONT = 163,
+			FUEL_TANK_REAR = 164,
 			FUSELAGE_LEFT_SIDE = 9,
 			FUSELAGE_RIGHT_SIDE = 10,
 			FUSELAGE_TOP = 99,
-			GUN_AMMO = 141,
-			GUN_BARELLS = 142,
+			GUN_AMMO = 165,
+			GUN_BARELLS = 166,
 			HOOK = 98,
-			INTAKE_RAMPS_LEFT = 143,
-			INTAKE_RAMPS_RIGHT = 144,
+			INTAKE_RAMPS_LEFT = 167,
+			INTAKE_RAMPS_RIGHT = 168,
 			KEEL_L = 43,
 			KEEL_R = 44,
 			NOSE_CENTER = 0,
-			NOZZLE_L = 145,
-			NOZZLE_R = 146,
+			NOZZLE_L = 169,
+			NOZZLE_R = 170,
 			PYLONL = 86,
 			PYLONR = 87,
-			REAR_PHOENIX = 147,
+			REAR_PHOENIX = 171,
 			RUDDER_L = 53,
 			RUDDER_R = 54,
-			RWR_NACELLE_L = 148,
-			RWR_NACELLE_R = 149,
-			RWR_TAIL_L = 150,
-			RWR_TAIL_R = 151,
-			SPINE_LINES_01 = 152,
-			SPINE_LINES_02 = 153,
-			SPINE_LINES_03 = 154,
-			TACAN = 155,
-			TCS = 156,
-			UHF_IFF = 157,
-			WINGBOX_LEFT = 158,
-			WINGBOX_RIGHT = 159,
-			WING_FUEL_TANK_L = 160,
-			WING_FUEL_TANK_R = 161,
+			RWR_NACELLE_L = 172,
+			RWR_NACELLE_R = 173,
+			RWR_TAIL_L = 174,
+			RWR_TAIL_R = 175,
+			SPINE_LINES_01 = 176,
+			SPINE_LINES_02 = 177,
+			SPINE_LINES_03 = 178,
+			TACAN = 179,
+			TCS = 180,
+			UHF_IFF = 181,
+			WINGBOX_LEFT = 182,
+			WINGBOX_RIGHT = 183,
+			WING_FUEL_TANK_L = 184,
+			WING_FUEL_TANK_R = 185,
 			WING_L = 35,
 			WING_R = 36
 		}
@@ -3565,10 +3565,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			can_be_playable = true,
 			canopy_arg = 38,
 			canopy_pos = { 3.916, 0.798, 0 },
-			drop_canopy_name = 292,
+			drop_canopy_name = 295,
 			ejection_added_speed = { -3, 15, -3 },
 			ejection_order = 2,
-			ejection_seat_name = 291,
+			ejection_seat_name = 294,
 			g_suit = 2,
 			pos = { 4, 0.65, 0 },
 			role = "pilot",
@@ -3577,10 +3577,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			can_be_playable = true,
 			canopy_arg = 38,
 			canopy_pos = { 3.916, 0.798, 0 },
-			drop_canopy_name = 292,
+			drop_canopy_name = 295,
 			ejection_added_speed = { -3, 15, 3 },
 			ejection_order = 1,
-			ejection_seat_name = 291,
+			ejection_seat_name = 294,
 			g_suit = 2,
 			pilot_body_arg = 472,
 			pos = { 2.5, 0.65, 0 },

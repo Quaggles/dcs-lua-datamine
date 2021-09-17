@@ -82,22 +82,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[29] = {
 			args = { 224 },
 			critical_damage = 4,
-			deps_cells = { 23, 25, 27, 120 }
+			deps_cells = { 23, 25, 27, 144 }
 		},
 		[30] = {
 			args = { 214 },
 			critical_damage = 4,
-			deps_cells = { 24, 26, 28, 124 }
+			deps_cells = { 24, 26, 28, 148 }
 		},
 		[35] = {
 			args = { 225 },
 			critical_damage = 5,
-			deps_cells = { 29, 37, 121 }
+			deps_cells = { 29, 37, 145 }
 		},
 		[36] = {
 			args = { 215 },
 			critical_damage = 5,
-			deps_cells = { 30, 38, 123 }
+			deps_cells = { 30, 38, 147 }
 		},
 		[37] = {
 			args = { 227 },
@@ -158,58 +158,58 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[98] = {
 			critical_damage = 2
 		},
-		[111] = {
+		[135] = {
 			args = { 158 },
 			critical_damage = 3
 		},
-		[112] = {
+		[136] = {
 			args = { 157 },
 			critical_damage = 3
 		},
-		[113] = {
+		[137] = {
 			args = { 267 },
 			critical_damage = 3
 		},
-		[114] = {
+		[138] = {
 			args = { 169 },
 			critical_damage = 3
 		},
-		[115] = {
+		[139] = {
 			args = { 163 },
 			critical_damage = 3
 		},
-		[116] = {
+		[140] = {
 			args = { 168 },
 			critical_damage = 3
 		},
-		[117] = {
+		[141] = {
 			args = { 162 },
 			critical_damage = 3
 		},
-		[118] = {
+		[142] = {
 			args = { 166 },
 			critical_damage = 3
 		},
-		[119] = {
+		[143] = {
 			args = { 160 },
 			critical_damage = 3
 		},
-		[120] = {
+		[144] = {
 			critical_damage = 2
 		},
-		[121] = {
+		[145] = {
 			critical_damage = 2
 		},
-		[122] = {
+		[146] = {
 			critical_damage = 2
 		},
-		[123] = {
+		[147] = {
 			critical_damage = 2
 		},
-		[124] = {
+		[148] = {
 			critical_damage = 2
 		},
-		[125] = {
+		[149] = {
 			args = { 266 },
 			critical_damage = 3
 		},
@@ -229,29 +229,29 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			FLAP_R_IN = 38,
 			FRONT_GEAR_BOX = 8,
 			FUSELAGE_BOTTOM = 82,
-			FUSELAGE_BOTTOM_LEFT = 111,
-			FUSELAGE_BOTTOM_RIGHT = 112,
+			FUSELAGE_BOTTOM_LEFT = 135,
+			FUSELAGE_BOTTOM_RIGHT = 136,
 			FUSELAGE_LEFT_SIDE = 9,
 			FUSELAGE_RIGHT_SIDE = 10,
 			HOOK = 98,
-			L_GEAR_BOX = 113,
-			MTG_BOTTOM_LEFT = 114,
-			MTG_BOTTOM_RIGHT = 115,
-			MTG_CENTER_L = 116,
-			MTG_CENTER_R = 117,
-			MTG_LEFT_SIDE = 118,
-			MTG_RIGHT_SIDE = 119,
+			L_GEAR_BOX = 137,
+			MTG_BOTTOM_LEFT = 138,
+			MTG_BOTTOM_RIGHT = 139,
+			MTG_CENTER_L = 140,
+			MTG_CENTER_R = 141,
+			MTG_LEFT_SIDE = 142,
+			MTG_RIGHT_SIDE = 143,
 			NOSE_BOTTOM = 59,
 			NOSE_CENTER = 0,
 			NOSE_LEFT_SIDE = 1,
 			NOSE_RIGHT_SIDE = 2,
-			PYLON_02 = 120,
-			PYLON_03 = 121,
-			PYLON_04 = 122,
-			PYLON_05 = 123,
-			PYLON_06 = 124,
+			PYLON_02 = 144,
+			PYLON_03 = 145,
+			PYLON_04 = 146,
+			PYLON_05 = 147,
+			PYLON_06 = 148,
 			RUDDER = 53,
-			R_GEAR_BOX = 125,
+			R_GEAR_BOX = 149,
 			STABILIZER_L_IN = 47,
 			STABILIZER_R_IN = 48,
 			TAIL = 55,
@@ -1156,7 +1156,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	WorldID = 46,
 	_file = "./CoreMods/aircraft/F-5E/F-5E.lua",
 	_origin = "F-5E/E-3 by Belsimtek",
-	ammo_type = { "HEI High Explosive Incendiary", "CM Combat Mix", "AP Armor Piercing", "TP Target Practice" },
+	ammo_type = { "HEI - High Explosive Incendiary", "CM - Combat Mix", "AP Armor Piercing", "TP - Target Practice" },
 	ammo_type_default = 2,
 	attribute = { 1, 1, 1, "Redacted", "Fighters", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },
 	average_fuel_consumption = 0.06,

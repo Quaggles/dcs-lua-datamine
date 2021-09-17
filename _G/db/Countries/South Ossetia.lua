@@ -792,6 +792,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "P-47D-40"
 				}, {
+					Name = "MosquitoFBMkVI"
+				}, {
 					Name = "A-20G"
 				}, {
 					Name = "A-10A"

@@ -1,7 +1,7 @@
 _G["launcher"]["{LAU-115 - AIM-120B_R}"] = {
 	CLSID = "{LAU-115 - AIM-120B_R}",
 	Count = 1,
-	Cx_pil = 0.001959765625,
+	Cx_pil = 0.001349765625,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "LAU-115C+2_LAU127"
@@ -12,6 +12,7 @@ _G["launcher"]["{LAU-115 - AIM-120B_R}"] = {
 	Picture = "us_AIM-120B.png",
 	PictureBlendColor = "0xffffffff",
 	Weight = 301,
+	Weight_Empty = 145,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/aim120_family.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },

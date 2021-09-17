@@ -146,6 +146,11 @@ _G["weapons_table"]["weapons"]["missiles"]["ADM_141A"] = {
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	display_name = "ADM-141A",
+	encyclopediaAnimation = {
+		args = {
+			[25] = 1
+		}
+	},
 	mass = 180,
 	model = "ADM_141",
 	name = "ADM_141A",

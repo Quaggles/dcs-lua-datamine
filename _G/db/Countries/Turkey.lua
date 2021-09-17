@@ -846,6 +846,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "MosquitoFBMkVI",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "FW-190A8"
 				}, {
 					Name = "Bf-109K-4"

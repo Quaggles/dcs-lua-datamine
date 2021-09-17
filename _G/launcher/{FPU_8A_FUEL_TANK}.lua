@@ -1,6 +1,6 @@
 _G["launcher"]["{FPU_8A_FUEL_TANK}"] = {
 	CLSID = "{FPU_8A_FUEL_TANK}",
-	Cx_pil = 0.00141885432,
+	Cx_pil = 0.000956902,
 	Elements = { {
 			ShapeName = "FPU_8A"
 		} },

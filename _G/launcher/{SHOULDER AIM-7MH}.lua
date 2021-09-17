@@ -19,5 +19,5 @@ _G["launcher"]["{SHOULDER AIM-7MH}"] = {
 	category = 4,
 	displayName = "AIM-7MH",
 	name = "{SHOULDER AIM-7MH}",
-	wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
+	wsTypeOfWeapon = "weapons.missiles.AIM-7MH"
 }

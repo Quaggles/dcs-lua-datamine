@@ -22,12 +22,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[23] = {
 			args = { 213 },
 			critical_damage = 5,
-			deps_cells = { 113, 29 }
+			deps_cells = { 137, 29 }
 		},
 		[24] = {
 			args = { 213 },
 			critical_damage = 5,
-			deps_cells = { 116, 30 }
+			deps_cells = { 140, 30 }
 		},
 		[25] = {
 			args = { 229 },
@@ -42,12 +42,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[29] = {
 			args = { 214 },
 			critical_damage = 5,
-			deps_cells = { 111, 112, 35 }
+			deps_cells = { 135, 136, 35 }
 		},
 		[30] = {
 			args = { 214 },
 			critical_damage = 5,
-			deps_cells = { 114, 115, 36 }
+			deps_cells = { 138, 139, 36 }
 		},
 		[35] = {
 			args = { 223 },
@@ -123,50 +123,50 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 115 },
 			critical_damage = 5
 		},
-		[111] = {
+		[135] = {
 			args = { 227 },
 			critical_damage = 2,
 			droppable = false
 		},
-		[112] = {
+		[136] = {
 			args = { 228 },
 			critical_damage = 2,
 			droppable = false
 		},
-		[113] = {
+		[137] = {
 			args = { 226 },
 			critical_damage = 2,
 			droppable = false
 		},
-		[114] = {
+		[138] = {
 			args = { 217 },
 			critical_damage = 2,
 			droppable = false
 		},
-		[115] = {
+		[139] = {
 			args = { 218 },
 			critical_damage = 2,
 			droppable = false
 		},
-		[116] = {
+		[140] = {
 			args = { 216 },
 			critical_damage = 2,
 			droppable = false
 		},
-		[117] = {
+		[141] = {
 			args = { 147 },
 			critical_damage = 2
 		},
-		[118] = {
+		[142] = {
 			args = { 147 },
 			critical_damage = 2
 		},
-		[119] = {
+		[143] = {
 			args = { 246 },
 			critical_damage = 5,
 			deps_cells = { 51, 49 }
 		},
-		[120] = {
+		[144] = {
 			args = { 243 },
 			critical_damage = 5,
 			deps_cells = { 52, 50 }
@@ -181,25 +181,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			ELEVATOR_L_OUT = 49,
 			ELEVATOR_R_IN = 52,
 			ELEVATOR_R_OUT = 50,
-			FLAPS_L_CENTER = 111,
-			FLAPS_L_IN = 112,
-			FLAPS_L_OUT = 113,
-			FLAPS_R_CENTER = 114,
-			FLAPS_R_IN = 115,
-			FLAPS_R_OUT = 116,
+			FLAPS_L_CENTER = 135,
+			FLAPS_L_IN = 136,
+			FLAPS_L_OUT = 137,
+			FLAPS_R_CENTER = 138,
+			FLAPS_R_IN = 139,
+			FLAPS_R_OUT = 140,
 			FRONT_GEAR_BOX = 8,
 			FUSELAGE_BOTTOM = 82,
 			FUSELAGE_TOP = 99,
 			LEFT_GEAR_BOX = 15,
-			NOSE_Bottom = 117,
+			NOSE_Bottom = 141,
 			NOSE_CENTER = 0,
-			NOSE_TOP = 118,
+			NOSE_TOP = 142,
 			RIGHT_GEAR_BOX = 16,
 			ROTOR = 63,
 			RUDDER = 53,
 			RUDDER_R = 54,
-			STABILIZATOR_L_IN = 119,
-			STABILIZATOR_R_IN = 120,
+			STABILIZATOR_L_IN = 143,
+			STABILIZATOR_R_IN = 144,
 			TAIL_BOTTOM = 58,
 			TAIL_TOP = 100,
 			WING_L_CENTER = 29,

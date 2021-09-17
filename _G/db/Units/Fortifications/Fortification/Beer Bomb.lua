@@ -1,7 +1,7 @@
 _G["db"]["Units"]["Fortifications"]["Fortification"]["#Index"] = {
-	DisplayName = '"Beer Bomb"',
+	DisplayName = "Barrel",
 	Life = 5,
-	Name = '"Beer Bomb"',
+	Name = "Barrel",
 	Rate = 5,
 	ShapeName = "barrelofbeer_support",
 	ShapeNameDestr = "",

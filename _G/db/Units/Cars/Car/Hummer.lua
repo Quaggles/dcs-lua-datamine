@@ -6,7 +6,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	DetectionRange = 0,
 	DisplayName = "LUV HMMWV Jeep",
-	DisplayNameShort = "Hummer",
+	DisplayNameShort = "M1025",
 	EPLRS = true,
 	IR_emission_coeff = 0.075,
 	InternalCargo = {

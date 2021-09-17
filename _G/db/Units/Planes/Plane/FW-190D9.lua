@@ -2823,7 +2823,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	XRayShape = "FW-190_X-Ray",
 	_file = "./CoreMods/WWII Units/FW-190D-9/FW-190D-9.lua",
 	_origin = "World War II AI Units by Eagle Dynamics",
-	ammo_type = { "CM Combat Mix", "HE Anti-Bomber", "AG Ground Attack", "CS No Tracers", "TP Target Practice" },
+	ammo_type = { "CM - Combat Mix", "HE - Anti-Bomber", "AG - Ground Attack", "CS - No Tracers", "TP - Target Practice" },
 	attribute = { 1, 1, 1, "Redacted", "Battleplanes", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },
 	average_fuel_consumption = 0.302,
 	bank_angle_max = 60,
@@ -2979,10 +2979,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					default = 38,
 					modulation = "AM",
-					name = "AFN2 Base Frequency"
+					name = "AFN-2 Base Frequency"
 				} },
-			displayUnits = "kHz",
-			name = "FuG 16",
+			displayUnits = "MHz",
+			name = "FuG 16 Z",
 			range = {
 				max = 156,
 				min = 38

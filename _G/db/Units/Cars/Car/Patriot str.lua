@@ -1,4 +1,5 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
+	AuthoritySector = { 0.95993108859688, -0.95993108859688 },
 	DetectionRange = 160000,
 	DisplayName = "SAM Patriot STR",
 	DisplayNameShort = "Patriot STR",

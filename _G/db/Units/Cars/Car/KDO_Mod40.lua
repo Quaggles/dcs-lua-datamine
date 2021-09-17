@@ -19,7 +19,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					min_trg_alt = 50,
 					reactionTime = 4,
 					reflection_limit = 0.01,
-					type = 103
+					type = 103,
+					typeForTargetPriority = 11
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.5620696805349 } },
 			drawArgument1 = 0,
@@ -94,7 +95,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 16, 26, "Redacted", "Static AAA", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "Armed Air Defence", "Rocket Attack Valid AirDefence", "AAA", "All", "Ground Units", "Vehicles", "Ground vehicles" },
 	category = "Air Defence",
 	chassis = {
-		life = 0.5
+		life = 1.5
 	},
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000015",

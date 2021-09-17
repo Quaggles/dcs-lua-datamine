@@ -41,13 +41,13 @@ _G["weapons_table"]["weapons"]["bombs"]["British_GP_250LB_Bomb_Mk4"] = {
 				index = "Redacted",
 				life = 1,
 				name = "British_GP_250LB_Bomb_Mk4",
-				username = "250lb Mk.IV - GP Bomb LD"
+				username = "250 lb GP Mk.IV"
 			} },
 		targeting_data = {
 			char_time = 20.55
 		},
 		type = 0,
-		user_name = "250lb Mk.IV - GP Bomb LD",
+		user_name = "250 lb GP Mk.IV",
 		warhead = {
 			caliber = 259,
 			concrete_factors = { 1, 1, 1 },
@@ -63,7 +63,7 @@ _G["weapons_table"]["weapons"]["bombs"]["British_GP_250LB_Bomb_Mk4"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
-	display_name = "250lb Mk.IV - GP Bomb LD",
+	display_name = "250 lb GP Mk.IV",
 	mass = 104.326,
 	model = "250_lb_gp_mk_IV",
 	name = "British_GP_250LB_Bomb_Mk4",
@@ -106,13 +106,13 @@ _G["weapons_table"]["weapons"]["bombs"]["British_GP_250LB_Bomb_Mk4"] = {
 				index = "Redacted",
 				life = 1,
 				name = "British_GP_250LB_Bomb_Mk4",
-				username = "250lb Mk.IV - GP Bomb LD"
+				username = "250 lb GP Mk.IV"
 			} },
 		targeting_data = {
 			char_time = 20.55
 		},
 		type = 0,
-		user_name = "250lb Mk.IV - GP Bomb LD",
+		user_name = "250 lb GP Mk.IV",
 		warhead = {
 			caliber = 259,
 			concrete_factors = { 1, 1, 1 },

@@ -28,6 +28,7 @@ _G["rockets"]["#Index"] = {
 	X_back = -2.44,
 	Y_back = -0.21,
 	Z_back = 0,
+	add_attributes = { "encyclopedia_hidden" },
 	display_name = "Kh-28",
 	display_name_short = "Kh-28",
 	exhaust = { 0.9, 0.9, 0.9, 0.05 },

@@ -15,7 +15,7 @@ _G["launcher"]["British_GP_250LBS_Bomb_MK4_on_LH_Spitfire_Wing_Carrier"] = {
 	_origin = "World War II AI Units by Eagle Dynamics",
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
-	displayName = "250lb Mk.I - GP Bomb LD",
+	displayName = "250 lb GP Mk.I",
 	name = "British_GP_250LBS_Bomb_MK4_on_LH_Spitfire_Wing_Carrier",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

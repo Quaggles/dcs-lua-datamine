@@ -588,6 +588,10 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "Coach a platform"
 				}, {
+					Name = "RPC_5N62V"
+				}, {
+					Name = "S-200_Launcher"
+				}, {
 					Name = "ES44AH"
 				}, {
 					Name = "Boxcartrinity"
@@ -596,11 +600,11 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "Wellcarnsc"
 				}, {
+					Name = "flak18"
+				}, {
 					Name = "Pz_IV_H"
 				}, {
 					Name = "Sd_Kfz_251"
-				}, {
-					Name = "flak18"
 				}, {
 					Name = "Kubelwagen_82"
 				}, {
@@ -1157,6 +1161,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "P-47D-30bl1"
 				}, {
 					Name = "P-47D-40"
+				}, {
+					Name = "MosquitoFBMkVI"
 				}, {
 					Name = "A-20G"
 				}, {

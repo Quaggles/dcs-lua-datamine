@@ -4,10 +4,10 @@ _G["weapons_table"]["weapons"]["missiles"]["MIM_72G"] = {
 	caliber = 0.127,
 	client = {
 		autopilot = {
-			K = 2.6,
+			K = 3,
 			Kg = 0.15,
 			Ki = 0.0001,
-			delay = 1.5,
+			delay = 0.02,
 			fin2_coeff = 0.5,
 			finsLimit = 0.44
 		},
@@ -15,18 +15,18 @@ _G["weapons_table"]["weapons"]["missiles"]["MIM_72G"] = {
 			boost_factor = 0,
 			boost_time = 0,
 			custom_smoke_dissipation_factor = 0.3,
-			fuel_mass = 2,
+			fuel_mass = 0,
 			impulse = 160,
 			nozzle_orientationXYZ = { { 0, 0, 0 } },
 			nozzle_position = { { -1.6, 0, 0 } },
 			smoke_color = { 1, 1, 1 },
-			smoke_transparency = 0.9,
+			smoke_transparency = 0.1,
 			tail_width = 0.4,
-			work_time = 0.5
+			work_time = 0.001
 		},
 		controller = {
 			boost_start = 0.001,
-			march_start = 0.501
+			march_start = 0.002
 		},
 		fm = {
 			A = 0.6,
@@ -46,21 +46,21 @@ _G["weapons_table"]["weapons"]["missiles"]["MIM_72G"] = {
 			maxAoa = 0.25
 		},
 		fuze_proximity = {
-			ignore_inp_armed = 0,
-			radius = 0
+			ignore_inp_armed = 1,
+			radius = 7
 		},
 		march = {
 			boost_factor = 0,
 			boost_time = 0,
 			custom_smoke_dissipation_factor = 0.3,
 			fuel_mass = 27,
-			impulse = 160,
+			impulse = 217,
 			nozzle_orientationXYZ = { { 0, 0, 0 } },
 			nozzle_position = { { -1.6, 0, 0 } },
 			smoke_color = { 1, 1, 1 },
-			smoke_transparency = 0.9,
+			smoke_transparency = 0.1,
 			tail_width = 0.2,
-			work_time = 9
+			work_time = 4.7
 		},
 		scheme = "schemes/missiles/IR_seeker_stab_missile.sch",
 		simple_IR_seeker = {
@@ -113,10 +113,10 @@ _G["weapons_table"]["weapons"]["missiles"]["MIM_72G"] = {
 	name = "MIM_72G",
 	server = {
 		autopilot = {
-			K = 2.6,
+			K = 3,
 			Kg = 0.15,
 			Ki = 0.0001,
-			delay = 1.5,
+			delay = 0.02,
 			fin2_coeff = 0.5,
 			finsLimit = 0.44
 		},
@@ -124,18 +124,18 @@ _G["weapons_table"]["weapons"]["missiles"]["MIM_72G"] = {
 			boost_factor = 0,
 			boost_time = 0,
 			custom_smoke_dissipation_factor = 0.3,
-			fuel_mass = 2,
+			fuel_mass = 0,
 			impulse = 160,
 			nozzle_orientationXYZ = { { 0, 0, 0 } },
 			nozzle_position = { { -1.6, 0, 0 } },
 			smoke_color = { 1, 1, 1 },
-			smoke_transparency = 0.9,
+			smoke_transparency = 0.1,
 			tail_width = 0.4,
-			work_time = 0.5
+			work_time = 0.001
 		},
 		controller = {
 			boost_start = 0.001,
-			march_start = 0.501
+			march_start = 0.002
 		},
 		fm = {
 			A = 0.6,
@@ -155,21 +155,21 @@ _G["weapons_table"]["weapons"]["missiles"]["MIM_72G"] = {
 			maxAoa = 0.25
 		},
 		fuze_proximity = {
-			ignore_inp_armed = 0,
-			radius = 0
+			ignore_inp_armed = 1,
+			radius = 7
 		},
 		march = {
 			boost_factor = 0,
 			boost_time = 0,
 			custom_smoke_dissipation_factor = 0.3,
 			fuel_mass = 27,
-			impulse = 160,
+			impulse = 217,
 			nozzle_orientationXYZ = { { 0, 0, 0 } },
 			nozzle_position = { { -1.6, 0, 0 } },
 			smoke_color = { 1, 1, 1 },
-			smoke_transparency = 0.9,
+			smoke_transparency = 0.1,
 			tail_width = 0.2,
-			work_time = 9
+			work_time = 4.7
 		},
 		scheme = "schemes/missiles/IR_seeker_stab_missile.sch",
 		simple_IR_seeker = {

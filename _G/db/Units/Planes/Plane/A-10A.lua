@@ -1261,7 +1261,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			dpdh_m = 4500,
 			hMaxEng = 19.5,
 			table_data = { { 0, 77824 }, { 0.1, 68600 }, { 0.2, 61300 }, { 0.3, 54500 }, { 0.4, 47600 }, { 0.5, 41900 }, { 0.6, 36700 }, { 0.7, 31100 }, { 0.8, 26000 }, { 0.9, 25520 }, { 1.9, 15000 } },
-			type = "TurboJet"
+			type = "TurboFan"
 		}
 	},
 	Sensors = {
@@ -1302,7 +1302,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	_origin = "A-10 Warthog",
 	_origin_flyable = "Flaming Cliffs by Eagle Dynamics",
 	air_refuel_receptacle_pos = { 6.317, 0.65, 0 },
-	ammo_type = { "CM Combat Mix", "HEI High Explosive Incendiary", "TP Target Practice" },
+	ammo_type = { "CM - Combat Mix", "HEI - High Explosive Incendiary", "TP - Target Practice" },
 	attribute = { 1, 1, 6, "Redacted", "Battleplanes", "Refuelable", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },
 	average_fuel_consumption = 0.302,
 	bank_angle_max = 60,

@@ -1,7 +1,7 @@
 _G["launcher"]["{AAQ-28_LEFT}"] = {
 	CLSID = "{AAQ-28_LEFT}",
 	Count = 1,
-	Cx_pil = 0.0001952,
+	Cx_pil = 0.0005949,
 	Elements = { {
 			ShapeName = "aaq-28LEFT litening"
 		} },

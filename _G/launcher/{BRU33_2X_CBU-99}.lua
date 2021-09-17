@@ -1,8 +1,11 @@
 _G["launcher"]["{BRU33_2X_CBU-99}"] = {
 	CLSID = "{BRU33_2X_CBU-99}",
 	Count = 2,
-	Cx_pil = 0.000826,
-	Elements = { "_G/Pylons/BRU_33A.lua", {
+	Cx_pil = 0.00326740625,
+	Elements = { {
+			IsAdapter = true,
+			ShapeName = "BRU_33A"
+		}, {
 			ShapeName = "CBU-99",
 			connector_name = "Point02"
 		}, {

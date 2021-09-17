@@ -707,7 +707,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				} }
 		},
 		[55] = {
-			args = { 81 },
+			args = { 159, -1, -1, -1, -1, 81 },
 			children = { 43, 47, 48, 8 },
 			construction = {
 				durability = 1.136,
@@ -2725,7 +2725,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	XRayShape = "Bf-109K-4_X-Ray",
 	_file = "./CoreMods/WWII Units/Bf-109K-4/Bf-109K-4.lua",
 	_origin = "World War II AI Units by Eagle Dynamics",
-	ammo_type = { "CM Combat Mix", "HE Anti-Bomber", "AG Ground Attack", "CS No Tracers", "TP Target Practice" },
+	ammo_type = { "CM - Combat Mix", "HE - Anti-Bomber", "AG - Ground Attack", "CS - No Tracers", "TP - Target Practice" },
 	attribute = { 1, 1, 1, "Redacted", "Battleplanes", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },
 	average_fuel_consumption = 0.302,
 	bank_angle_max = 60,
@@ -2892,9 +2892,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					default = 38,
 					modulation = "AM",
-					name = "AFN2 Base Frequency"
+					name = "AFN-2 Base Frequency"
 				} },
-			displayUnits = "kHz",
+			displayUnits = "MHz",
 			name = "FuG 16 ZY",
 			range = {
 				max = 156,

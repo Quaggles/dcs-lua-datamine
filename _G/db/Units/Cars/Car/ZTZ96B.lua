@@ -288,25 +288,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					customViewPoint = { "CWS/CWS", { -1.6, 0.19, -0.06 } },
 					fireAnimationArgument = 44,
 					sensor = {},
-					sightMasterMode = 1,
 					type = 10
 				}, {
 					BR = { {
-							connector_name = "PNT_SIGHT_CMD",
-							pos = {}
-						} },
-					PL = { {
-							ammo_capacity = 0,
-							shell_name = {},
-							switch_delay = 15
-						}, {
-							shell_name = {}
+							connector_name = "PNT_SIGHT_CMD"
 						} },
 					customViewPoint = { "CWS/CWS", { 0.1, 0, 0 } },
 					display_name = "Commander Periscope Sight",
+					distanceMax = 0,
+					distanceMaxForFCS = 5000,
+					distanceMin = 0,
 					name = "CMD_Periscope",
-					sensor = {},
-					type = 3
+					type = 103
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.13962634015955, 1.0995574287564 } },
 			base = 1,
@@ -326,10 +319,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				i = 0.1,
 				inn = 50,
 				p = 100
-			},
-			reference_angle_X = 0,
-			reference_angle_Y = 0,
-			reference_angle_Z = 0
+			}
 		},
 		maxTargetDetectionRange = 5500,
 		smoke = { "PNT_SMOKE1", "PNT_SMOKE2", "PNT_SMOKE3", "PNT_SMOKE4", "PNT_SMOKE5", "PNT_SMOKE6", "PNT_SMOKE7", "PNT_SMOKE8", "PNT_SMOKE9", "PNT_SMOKE10", "PNT_SMOKE11", "PNT_SMOKE12" }

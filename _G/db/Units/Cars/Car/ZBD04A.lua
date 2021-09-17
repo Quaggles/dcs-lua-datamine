@@ -100,27 +100,19 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		}, {
 			LN = { {
 					BR = { {
-							connector_name = "POINT_SIGHT_PANORAMA",
-							pos = {}
+							connector_name = "POINT_SIGHT_PANORAMA"
 						} },
-					PL = { {
-							ammo_capacity = 0,
-							shell_name = {},
-							switch_delay = 1
-						} },
-					display_name = "Commander Panorama Sight",
-					distanceMax = 5000,
-					fireAnimationArgument = -1,
-					max_trg_alt = 800,
-					name = "CMD_Panorama",
-					sensor = {},
-					sightMasterMode = 1,
-					type = 10
+					customViewPoint = { "CWS/CWS", { 0.1, 0, 0 } },
+					display_name = "Commander Periscope Sight",
+					distanceMax = 0,
+					distanceMaxForFCS = 5000,
+					distanceMin = 0,
+					name = "CMD_Periscope",
+					type = 103
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.13962634015955, 0.5235987755983 } },
 			base = 1,
 			center = "CENTER_PANORAMA",
-			cockpit = { "CWS/CWS", { 0.1, 0, 0 } },
 			drawArgument1 = 25,
 			drawArgument2 = 26,
 			omegaY = 0.87266462599716,
@@ -136,8 +128,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				i = 0.1,
 				inn = 50,
 				p = 100
-			},
-			pointer = "POINT_SIGHT_PANORAMA"
+			}
 		},
 		maxTargetDetectionRange = 12000,
 		smoke = { "SMOKE_06", "SMOKE_05", "SMOKE_07", "SMOKE_04", "SMOKE_08", "SMOKE_03", "SMOKE_09", "SMOKE_02", "SMOKE_10", "SMOKE_01" }
@@ -165,6 +156,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		offset = { 0.05, -0.04, 0 }
 	},
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = {}
+	},
 	mapclasskey = "P0091000002",
 	sensor = {
 		height = 2.45

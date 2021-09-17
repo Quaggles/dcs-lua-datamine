@@ -1,11 +1,11 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Countries = { "Russia", "USSR" },
 	DetectionRange = 0,
-	DisplayName = "Gen Diesel Power Station 5157A",
+	DisplayName = "Diesel Power Station 5I57A",
 	DisplayNameShort = "DPS",
 	IR_emission_coeff = 0.07,
 	MaxSpeed = 0,
-	Name = "Gen Diesel Power Station 5157A",
+	Name = "Diesel Power Station 5I57A",
 	Rate = 4,
 	ThreatRange = 0,
 	WS = {

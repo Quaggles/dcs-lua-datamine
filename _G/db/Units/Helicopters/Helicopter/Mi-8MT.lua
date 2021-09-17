@@ -610,7 +610,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			},
 			critical_damage = 10
 		},
-		[111] = {
+		[135] = {
 			args = { 147 },
 			construction = {
 				durability = 5.24,
@@ -618,7 +618,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			},
 			critical_damage = 4
 		},
-		[112] = {
+		[136] = {
 			args = { 252 },
 			construction = {
 				durability = 5.24,
@@ -626,7 +626,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			},
 			critical_damage = 4
 		},
-		[113] = {
+		[137] = {
 			args = { 148 },
 			construction = {
 				durability = 4.17,
@@ -634,7 +634,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			},
 			critical_damage = 6
 		},
-		[114] = {
+		[138] = {
 			args = { -1 },
 			construction = {
 				durability = 2,
@@ -642,7 +642,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			},
 			critical_damage = 1
 		},
-		[115] = {
+		[139] = {
 			args = { -1 },
 			construction = {
 				durability = 99999.99999,
@@ -650,7 +650,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			},
 			critical_damage = 99999
 		},
-		[116] = {
+		[140] = {
 			args = { -1 },
 			construction = {
 				durability = 99999.99999,
@@ -658,7 +658,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			},
 			critical_damage = 99999
 		},
-		[117] = {
+		[141] = {
 			args = { -1 },
 			construction = {
 				durability = 1,
@@ -666,7 +666,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			},
 			critical_damage = 3
 		},
-		[118] = {
+		[142] = {
 			args = { -1 },
 			construction = {
 				durability = 1,
@@ -674,7 +674,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			},
 			critical_damage = 3
 		},
-		[119] = {
+		[143] = {
 			args = { -1 },
 			construction = {
 				durability = 99999.99999,
@@ -683,8 +683,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			critical_damage = 99999
 		},
 		cell_indices = {
-			[" FUEL_TANK_LEFT_SIDE"] = 111,
-			[" FUEL_TANK_RIGHT_SIDE"] = 112,
+			[" FUEL_TANK_LEFT_SIDE"] = 135,
+			[" FUEL_TANK_RIGHT_SIDE"] = 136,
 			ARMOR_NOSE_PLATE_LEFT = 94,
 			ARMOR_NOSE_PLATE_RIGHT = 95,
 			ARMOR_PLATE_LEFT = 96,
@@ -704,7 +704,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			BLADE_5_CENTER = 77,
 			BLADE_5_IN = 76,
 			BLADE_5_OUT = 78,
-			CABINE_BOTTOM = 113,
+			CABINE_BOTTOM = 137,
 			CABIN_LEFT_SIDE = 4,
 			CABIN_RIGHT_SIDE = 5,
 			COCKPIT = 3,
@@ -712,19 +712,19 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			CREW_2 = 91,
 			CREW_3 = 92,
 			CREW_4 = 93,
-			CREW_5 = 114,
+			CREW_5 = 138,
 			ENGINE_L = 11,
 			ENGINE_R = 12,
 			EWU_L = 17,
 			EWU_R = 18,
-			FRONT_WHEEL = 115,
+			FRONT_WHEEL = 139,
 			FUEL_TANK_LEFT_SIDE = 61,
 			FUEL_TANK_RIGHT_SIDE = 62,
 			FUSELAGE_BOTTOM = 82,
 			FUSELAGE_LEFT_SIDE = 9,
 			FUSELAGE_RIGHT_SIDE = 10,
 			GUN = 7,
-			LEFT_WHEEL = 116,
+			LEFT_WHEEL = 140,
 			MTG_L_BOTTOM = 13,
 			MTG_R_BOTTOM = 14,
 			NOSE_BOTTOM = 59,
@@ -735,9 +735,9 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			PYLON2 = 87,
 			PYLON3 = 88,
 			PYLON4 = 89,
-			PYLON5 = 117,
-			PYLON6 = 118,
-			RIGHT_WHEEL = 119,
+			PYLON5 = 141,
+			PYLON6 = 142,
+			RIGHT_WHEEL = 143,
 			RN_L = 53,
 			ROTOR = 63,
 			RUDDER_R = 54,

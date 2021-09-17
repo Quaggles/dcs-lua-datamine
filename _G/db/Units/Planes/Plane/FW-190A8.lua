@@ -865,7 +865,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[82] = {
 			args = { 152 },
-			children = { 11, 12, 7, 111, 112, 113, 114, 115, 116, 117, 118, 4, 5, 3, 35, 36 },
+			children = { 11, 12, 7, 135, 136, 137, 138, 139, 140, 141, 142, 4, 5, 3, 35, 36 },
 			construction = {
 				durability = 3.263,
 				skin = "Aluminum"
@@ -1002,7 +1002,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			damage_boundary = 0.25,
 			droppable = false
 		},
-		[111] = {
+		[135] = {
 			args = { 296 },
 			construction = {
 				durability = 0.544,
@@ -1021,7 +1021,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.004
 				} }
 		},
-		[112] = {
+		[136] = {
 			args = { 297 },
 			construction = {
 				durability = 0.272,
@@ -1037,7 +1037,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.004
 				} }
 		},
-		[113] = {
+		[137] = {
 			args = { 298 },
 			construction = {
 				durability = 0.544,
@@ -1056,7 +1056,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.004
 				} }
 		},
-		[114] = {
+		[138] = {
 			args = { 300 },
 			construction = {
 				durability = 0.544,
@@ -1075,7 +1075,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.004
 				} }
 		},
-		[115] = {
+		[139] = {
 			args = { 302 },
 			construction = {
 				durability = 0.544,
@@ -1094,7 +1094,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.004
 				} }
 		},
-		[116] = {
+		[140] = {
 			args = { 303 },
 			construction = {
 				durability = 0.272,
@@ -1110,7 +1110,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.004
 				} }
 		},
-		[117] = {
+		[141] = {
 			args = { 304 },
 			construction = {
 				durability = 0.544,
@@ -1129,7 +1129,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.004
 				} }
 		},
-		[118] = {
+		[142] = {
 			args = { 273 },
 			children = { 63 },
 			construction = {
@@ -1278,16 +1278,16 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			CABIN_LEFT_SIDE = 4,
 			CABIN_RIGHT_SIDE = 5,
 			COCKPIT = 3,
-			COWLING_1 = 111,
-			COWLING_2 = 112,
-			COWLING_3 = 113,
-			COWLING_4 = 114,
-			COWLING_5 = 115,
-			COWLING_6 = 116,
-			COWLING_7 = 117,
+			COWLING_1 = 135,
+			COWLING_2 = 136,
+			COWLING_3 = 137,
+			COWLING_4 = 138,
+			COWLING_5 = 139,
+			COWLING_6 = 140,
+			COWLING_7 = 141,
 			ELEVATOR_L_OUT = 49,
 			ELEVATOR_R_OUT = 50,
-			ENGINE_CENTER = 118,
+			ENGINE_CENTER = 142,
 			ENGINE_L = 11,
 			ENGINE_R = 12,
 			FIN_L_BOTTOM = 43,
@@ -3372,7 +3372,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	XRayShape = "fw190a-8_X-Ray",
 	_file = "./CoreMods/WWII Units/FW-190A-8/FW-190A-8.lua",
 	_origin = "World War II AI Units by Eagle Dynamics",
-	ammo_type = { "CM Combat Mix", "HE Anti-Bomber", "AG Ground Attack", "CS No Tracers", "TP Target Practice" },
+	ammo_type = { "CM - Combat Mix", "HE - Anti-Bomber", "AG - Ground Attack", "CS - No Tracers", "TP - Target Practice" },
 	attribute = { 1, 1, 1, "Redacted", "Battleplanes", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },
 	average_fuel_consumption = 0.302,
 	bank_angle_max = 60,
@@ -3491,10 +3491,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					default = 38,
 					modulation = "AM",
-					name = "AFN2 Base Frequency"
+					name = "AFN-2 Base Frequency"
 				} },
-			displayUnits = "kHz",
-			name = "FuG 16",
+			displayUnits = "MHz",
+			name = "FuG 16 Z",
 			range = {
 				max = 156,
 				min = 38

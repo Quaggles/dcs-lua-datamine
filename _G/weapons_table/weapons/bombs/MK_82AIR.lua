@@ -43,6 +43,12 @@ _G["weapons_table"]["weapons"]["bombs"]["MK_82AIR"] = {
 		}
 	},
 	display_name = "Mk-82AIR",
+	encyclopediaAnimation = {
+		args = {
+			[0] = 1,
+			[19] = 1
+		}
+	},
 	mass = 242,
 	model = "Mk-82AIR",
 	name = "MK_82AIR",

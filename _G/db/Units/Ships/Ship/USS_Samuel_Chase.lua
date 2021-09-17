@@ -783,7 +783,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	},
 	life = 2100,
 	mapclasskey = "P0091000069",
-	mass = 1625000,
+	mass = 16250000,
 	max_velocity = 9.2,
 	race_distance = 2778000,
 	race_velocity = 7,

@@ -29,7 +29,7 @@ _G["rockets"]["#Index"] = {
 	add_attributes = { "Cruise missiles" },
 	display_name = "BGM-109B",
 	encyclopediaAnimation = {
-		args = { 1,
+		args = {
 			[25] = 1
 		}
 	},

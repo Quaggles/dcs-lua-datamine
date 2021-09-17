@@ -15,6 +15,7 @@ _G["launcher"]["LAU-115_2*LAU-127_AIM-120C"] = {
 	Picture = "us_AIM-120C.png",
 	PictureBlendColor = "0xffffffff",
 	Weight = 468,
+	Weight_Empty = 145,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/aim120_family.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },

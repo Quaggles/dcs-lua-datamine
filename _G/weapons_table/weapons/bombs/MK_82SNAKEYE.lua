@@ -40,6 +40,12 @@ _G["weapons_table"]["weapons"]["bombs"]["MK_82SNAKEYE"] = {
 		}
 	},
 	display_name = "Mk-82 Snakeye",
+	encyclopediaAnimation = {
+		args = {
+			[0] = 1,
+			[19] = 1
+		}
+	},
 	mass = 249.5,
 	model = "MK-82_Snakeye",
 	name = "MK_82SNAKEYE",

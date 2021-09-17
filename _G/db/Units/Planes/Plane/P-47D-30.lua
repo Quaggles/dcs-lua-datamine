@@ -77,7 +77,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			failures = { { "ELEC_SIGNAL_LIGHTS_FAILURE", 0.01 }, { "ELEC_SIGNAL_LIGHTS_MALFUNCTION", 0.05 }, { "ELEC_CABIN_LIGHTS_FAILURE", 0.05, "Exclusive" }, { "ELEC_OIL_GAUGE_FAILURE", 0.05 }, { "ELEC_C5_LAMP_1_POOR_CONTACT", 1 } }
 		}, {
 			args = { 152 },
-			children = { 82, 59, 4, 5, 111 },
+			children = { 82, 59, 4, 5, 135 },
 			construction = {
 				durability = 3.13,
 				skin = "Aluminum"
@@ -860,7 +860,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[59] = {
 			args = { 148 },
-			children = { 1, 2, 114, 35, 36, 103 },
+			children = { 1, 2, 138, 35, 36, 103 },
 			construction = {
 				durability = 2.52,
 				skin = "Aluminum"
@@ -1143,7 +1143,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[103] = {
 			args = { 146 },
-			children = { 12, 112, 11, 113, 63 },
+			children = { 12, 136, 11, 137, 63 },
 			construction = {
 				durability = 0.64,
 				skin = "Aluminum",
@@ -1342,7 +1342,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.006
 				} }
 		},
-		[111] = {
+		[135] = {
 			args = { 151 },
 			children = { 3 },
 			construction = {
@@ -1354,7 +1354,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			droppable = false,
 			failures = { { "INST_VARIOMETER_DEPRESSURIZATION", 0.01 }, { "INST_VARIOMETER_CLOGGED", 0.01 }, { "INST_SPEEDOMETER_DEPRESSURIZATION", 0.01 }, { "INST_DI_EXCESSIVE_DRIFT", 0.01 }, { "INST_DI_MECHANICAL_FAILURE", 0.01 }, { "INST_TACH0_LOOM_SEVERED", 0.01 }, { "INST_TACH0_POOR_CONNECTION", 0.01 }, { "INST_TACH0_RESISTANCE_MISMATCH", 0.01 }, { "INST_TACH1_LOOM_SEVERED", 0.01 }, { "INST_TACH1_POOR_CONNECTION", 0.01 }, { "INST_TACH1_RESISTANCE_MISMATCH", 0.01 }, { "INST_HUD_FAILURE", 0.01 }, { "INST_COMPASS_MALFUNCTION", 0.01 }, { "INST_CLOCK_MALFUNCTION", 0.01 }, { "HORIZON_BAR_NOT_SETTLE", 0.01 }, { "TURNIND_POINTER_FAILS_NO_VACUUM", 0.01 }, { "TURNIND_POINTER_FAILS_DEFECTIVE", 0.01 }, { "TURNIND_INCORRECT_SENS_DEFECTIVE", 0.01 }, { "TURNIND_INCORRECT_SENS_VAC_HIGH", 0.01 }, { "TURNIND_INCORRECT_SENS_VAC_LOW", 0.01 }, { "TURNIND_POINTER_NOT_SET_ZERO", 0.01 }, { "TURNIND_POINTER_VIBRATES", 0.01 }, { "ELEC_RETICLE_BULB_FAILURE", 0.01 }, { "K14_NO_POWER_SUPPLY", 0.01 }, { "K14_FIXED_LAMP_DEFECTIVE", 0.01 }, { "K14_MOV_LAMP_DEFECTIVE", 0.01 }, { "K14_MOTOR_DEFECTIVE", 0.01 } }
 		},
-		[112] = {
+		[136] = {
 			args = { 296 },
 			construction = {
 				durability = 0.84,
@@ -1378,7 +1378,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.006
 				} }
 		},
-		[113] = {
+		[137] = {
 			args = { 298 },
 			construction = {
 				durability = 1.95,
@@ -1402,7 +1402,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.006
 				} }
 		},
-		[114] = {
+		[138] = {
 			args = { 147 },
 			construction = {
 				durability = 2,
@@ -1425,10 +1425,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			CABIN_BOTTOM = 6,
 			CABIN_LEFT_SIDE = 4,
 			CABIN_RIGHT_SIDE = 5,
-			CABIN_TOP = 111,
+			CABIN_TOP = 135,
 			COCKPIT = 3,
-			COWLING_2 = 112,
-			COWLING_4 = 113,
+			COWLING_2 = 136,
+			COWLING_4 = 137,
 			ELERON_L = 25,
 			ELERON_R = 26,
 			ELEVATOR_L_OUT = 49,
@@ -1450,7 +1450,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			NOSE_BOTTOM = 59,
 			NOSE_LEFT_SIDE = 1,
 			NOSE_RIGHT_SIDE = 2,
-			NOSE_TOP = 114,
+			NOSE_TOP = 138,
 			PYLONL = 86,
 			PYLONR = 87,
 			ROTOR = 63,
@@ -3707,7 +3707,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	XRayShape = "P-47D_X-Ray",
 	_file = "./CoreMods/WWII Units/P-47D-30/P-47D-30.lua",
 	_origin = "World War II AI Units by Eagle Dynamics",
-	ammo_type = { "CM Combat Mix", "AG Ground Attack", "CS No Tracers" },
+	ammo_type = { "CM - Combat Mix", "AG - Ground Attack", "CS - No Tracers" },
 	attribute = { 1, 1, 1, "Redacted", "Battleplanes", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },
 	average_fuel_consumption = 0.302,
 	bank_angle_max = 60,

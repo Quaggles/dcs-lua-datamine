@@ -387,19 +387,19 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 5,
 			droppable = false
 		},
-		[111] = {
+		[135] = {
 			critical_damage = 5
 		},
-		[112] = {
+		[136] = {
 			critical_damage = 5
 		},
-		[113] = {
+		[137] = {
 			critical_damage = 5
 		},
-		[114] = {
+		[138] = {
 			critical_damage = 5
 		},
-		[115] = {
+		[139] = {
 			args = { 301 },
 			critical_damage = 8,
 			droppable = false
@@ -446,10 +446,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			FRONT_GEAR_BOX = 8,
 			FUEL_TANK_B = 62,
 			FUEL_TANK_F = 61,
-			FUEL_TANK_LEFT_SIDE_F = 111,
-			FUEL_TANK_LEFT_SIDE_R = 112,
-			FUEL_TANK_RIGHT_SIDE_F = 113,
-			FUEL_TANK_RIGHT_SIDE_R = 114,
+			FUEL_TANK_LEFT_SIDE_F = 135,
+			FUEL_TANK_LEFT_SIDE_R = 136,
+			FUEL_TANK_RIGHT_SIDE_F = 137,
+			FUEL_TANK_RIGHT_SIDE_R = 138,
 			FUSELAGE_BOTTOM = 82,
 			FUSELAGE_LEFT_SIDE = 9,
 			FUSELAGE_RIGHT_SIDE = 10,
@@ -470,7 +470,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			PYLON3 = 88,
 			PYLON4 = 89,
 			RIGHT_GEAR_BOX = 16,
-			RSBN_1 = 115,
+			RSBN_1 = 139,
 			RUDDER = 53,
 			RUDDER_R = 54,
 			STABILIZER_L_IN = 47,
@@ -1857,9 +1857,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			pos = { -1.714, -0.38, -0.5 }
 		} },
 	crew_members = { {
-			drop_canopy_name = 309,
-			ejection_seat_name = 308,
-			pilot_name = 310,
+			drop_canopy_name = 312,
+			ejection_seat_name = 311,
+			pilot_name = 313,
 			pos = { 2.711, 0.65, 0 },
 			role = "pilot",
 			role_display_name = "Pilot"

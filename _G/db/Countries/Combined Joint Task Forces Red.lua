@@ -196,15 +196,15 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "German_tank_wagon"
 				}, {
+					Name = "flak18",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Pz_IV_H",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
 					Name = "Sd_Kfz_251",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "flak18",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -1760,6 +1760,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "P-47D-40"
 				}, {
+					Name = "MosquitoFBMkVI"
+				}, {
 					Name = "A-20G"
 				}, {
 					Name = "A-10A"
@@ -2043,6 +2045,10 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "KJ-2000",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "H-6J",
 					in_service = 0,
 					out_of_service = 40000
 				}, {

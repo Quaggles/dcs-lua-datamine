@@ -240,9 +240,9 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "M2A1_halftrack"
 				}, {
-					Name = "Bedford_MWD"
-				}, {
 					Name = "bofors40"
+				}, {
+					Name = "Bedford_MWD"
 				}, {
 					Name = "ES44AH"
 				}, {
@@ -695,6 +695,10 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "Yak-40",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "MosquitoFBMkVI",
 					in_service = 0,
 					out_of_service = 40000
 				}, {

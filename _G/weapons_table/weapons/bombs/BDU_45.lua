@@ -74,6 +74,12 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_45"] = {
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
 	display_name = "BDU-45",
+	encyclopediaAnimation = {
+		args = {
+			[-0] = 1,
+			[19] = 1
+		}
+	},
 	mass = 232,
 	model = "mk-82_snakeye_inert",
 	name = "BDU_45",

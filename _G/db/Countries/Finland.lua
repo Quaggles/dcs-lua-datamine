@@ -340,11 +340,11 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "Wellcarnsc"
 				}, {
+					Name = "flak18"
+				}, {
 					Name = "Pz_IV_H"
 				}, {
 					Name = "Sd_Kfz_251"
-				}, {
-					Name = "flak18"
 				}, {
 					Name = "Blitz_36-6700A"
 				}, {
@@ -811,6 +811,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "P-47D-30bl1"
 				}, {
 					Name = "P-47D-40"
+				}, {
+					Name = "MosquitoFBMkVI"
 				}, {
 					Name = "A-20G"
 				}, {

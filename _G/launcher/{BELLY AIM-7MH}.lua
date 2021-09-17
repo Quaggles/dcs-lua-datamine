@@ -10,7 +10,7 @@ _G["launcher"]["{BELLY AIM-7MH}"] = {
 	Weight_Empty = 0,
 	_file = "./CoreMods/aircraft/F14/Entry/Weapons.lua",
 	_origin = "F-14B AI by Heatblur Simulations",
-	attribute = { 4, 4, 7, "Redacted" },
+	attribute = "weapons.missiles.AIM-7MH",
 	category = 4,
 	displayName = "AIM-7MH"
 }
