@@ -8,7 +8,7 @@ _G["launcher"]["DIS_DF4A_KD20"] = {
 		} },
 	JettisonSubmunitionOnly = true,
 	Picture = "kd20.png",
-	Weight = 2050,
+	Weight = 1750,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/mils_kd20.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	attribute = { 4, 4, 32, "Redacted" },

@@ -3,7 +3,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	AddPropAircraft = { {
 			arg = 26,
 			control = "checkbox",
-			defValue = true,
+			defValue = false,
 			id = "Belly Bay Door",
 			label = "Open Bay Door",
 			weight = 0
@@ -69,11 +69,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			deps_cells = { 32, 26 }
 		},
 		[25] = {
-			args = { 219 },
+			args = { 229 },
 			critical_damage = 4
 		},
 		[26] = {
-			args = { 229 },
+			args = { 219 },
 			critical_damage = 4
 		},
 		[31] = {
@@ -735,17 +735,18 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	nose_gear_wheel_diameter = 0.883,
 	passivCounterm = {
 		CMDS_Edit = true,
-		SingleChargeTotal = 60,
+		SingleChargeTotal = 240,
 		chaff = {
 			chargeSz = 1,
-			default = 24,
-			increment = 4
+			default = 120,
+			increment = 40
 		},
 		flare = {
 			chargeSz = 1,
-			default = 36,
-			increment = 4
-		}
+			default = 120,
+			increment = 40
+		},
+		preferred_flare_kind = 2
 	},
 	radar_can_see_ground = true,
 	range = 6000,
@@ -775,6 +776,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	type = "H-6J",
 	wing_area = 165,
 	wing_span = 33,
-	wing_tip_pos = { -0.847, -0.829, 17.098 },
+	wing_tip_pos = { -8.261, -0.852, 17.147 },
 	wing_type = 0
 }

@@ -7,7 +7,7 @@ _G["launcher"]["DIS_KD20"] = {
 			ShapeName = "kd20"
 		} },
 	Picture = "kd20.png",
-	Weight = 2000,
+	Weight = 1700,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/mils_kd20.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	attribute = { 4, 4, 8, "Redacted" },
