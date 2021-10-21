@@ -7,7 +7,7 @@ _G["launcher"]["{S-24B}"] = {
 			ShapeName = "APU-12-40"
 		}, {
 			Position = { 0.23, -0.228, 0 },
-			ShapeName = "C-24"
+			ShapeName = "s-24b"
 		} },
 	Picture = "S24A_piercing.png",
 	Weight = 235,
@@ -15,7 +15,7 @@ _G["launcher"]["{S-24B}"] = {
 	_origin = "MiG-21Bis AI by Magnitude 3 LLC",
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
-	displayName = "S-24B (21)",
+	displayName = "S-24B (21) - 180 kg, fragmented unguided rocket",
 	name = "{S-24B}",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

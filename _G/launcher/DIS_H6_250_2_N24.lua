@@ -3,16 +3,10 @@ _G["launcher"]["DIS_H6_250_2_N24"] = {
 	Count = 24,
 	Cx_pil = 0,
 	Elements = { {
-			Position = { 2.2, -0.32, -0.5 },
+			Position = { 2.2, 0.64, -0.5 },
 			ShapeName = "fab-250-m54"
 		}, {
-			Position = { 2.2, -0.32, 0.5 },
-			ShapeName = "fab-250-m54"
-		}, {
-			Position = { 2.2, 0, -0.5 },
-			ShapeName = "fab-250-m54"
-		}, {
-			Position = { 2.2, 0, 0.5 },
+			Position = { 2.2, 0.64, 0.5 },
 			ShapeName = "fab-250-m54"
 		}, {
 			Position = { 2.2, 0.32, -0.5 },
@@ -21,28 +15,16 @@ _G["launcher"]["DIS_H6_250_2_N24"] = {
 			Position = { 2.2, 0.32, 0.5 },
 			ShapeName = "fab-250-m54"
 		}, {
-			Position = { 2.2, 0.64, -0.5 },
+			Position = { 2.2, -1.1102230246252e-16, -0.5 },
 			ShapeName = "fab-250-m54"
 		}, {
-			Position = { 2.2, 0.64, 0.5 },
+			Position = { 2.2, -1.1102230246252e-16, 0.5 },
 			ShapeName = "fab-250-m54"
 		}, {
-			Position = { 0, -0.32, -0.5 },
+			Position = { 2.2, -0.32, -0.5 },
 			ShapeName = "fab-250-m54"
 		}, {
-			Position = { 0, -0.32, 0.5 },
-			ShapeName = "fab-250-m54"
-		}, {
-			Position = { 0, 0, -0.5 },
-			ShapeName = "fab-250-m54"
-		}, {
-			Position = { 0, 0, 0.5 },
-			ShapeName = "fab-250-m54"
-		}, {
-			Position = { 0, 0.32, -0.5 },
-			ShapeName = "fab-250-m54"
-		}, {
-			Position = { 0, 0.32, 0.5 },
+			Position = { 2.2, -0.32, 0.5 },
 			ShapeName = "fab-250-m54"
 		}, {
 			Position = { 0, 0.64, -0.5 },
@@ -51,16 +33,28 @@ _G["launcher"]["DIS_H6_250_2_N24"] = {
 			Position = { 0, 0.64, 0.5 },
 			ShapeName = "fab-250-m54"
 		}, {
-			Position = { -2.2, -0.32, -0.5 },
+			Position = { 0, 0.32, -0.5 },
 			ShapeName = "fab-250-m54"
 		}, {
-			Position = { -2.2, -0.32, 0.5 },
+			Position = { 0, 0.32, 0.5 },
 			ShapeName = "fab-250-m54"
 		}, {
-			Position = { -2.2, 0, -0.5 },
+			Position = { 0, -1.1102230246252e-16, -0.5 },
 			ShapeName = "fab-250-m54"
 		}, {
-			Position = { -2.2, 0, 0.5 },
+			Position = { 0, -1.1102230246252e-16, 0.5 },
+			ShapeName = "fab-250-m54"
+		}, {
+			Position = { 0, -0.32, -0.5 },
+			ShapeName = "fab-250-m54"
+		}, {
+			Position = { 0, -0.32, 0.5 },
+			ShapeName = "fab-250-m54"
+		}, {
+			Position = { -2.2, 0.64, -0.5 },
+			ShapeName = "fab-250-m54"
+		}, {
+			Position = { -2.2, 0.64, 0.5 },
 			ShapeName = "fab-250-m54"
 		}, {
 			Position = { -2.2, 0.32, -0.5 },
@@ -69,10 +63,16 @@ _G["launcher"]["DIS_H6_250_2_N24"] = {
 			Position = { -2.2, 0.32, 0.5 },
 			ShapeName = "fab-250-m54"
 		}, {
-			Position = { -2.2, 0.64, -0.5 },
+			Position = { -2.2, -1.1102230246252e-16, -0.5 },
 			ShapeName = "fab-250-m54"
 		}, {
-			Position = { -2.2, 0.64, 0.5 },
+			Position = { -2.2, -1.1102230246252e-16, 0.5 },
+			ShapeName = "fab-250-m54"
+		}, {
+			Position = { -2.2, -0.32, -0.5 },
+			ShapeName = "fab-250-m54"
+		}, {
+			Position = { -2.2, -0.32, 0.5 },
 			ShapeName = "fab-250-m54"
 		} },
 	Picture = "rus_FAB-250n-1.png",

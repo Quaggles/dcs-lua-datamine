@@ -47,7 +47,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB-500TA"] = {
 			char_time = 20.37
 		},
 		type = 0,
-		user_name = "FAB-500 TA",
+		user_name = "FAB-500 TA - 477 kg, bomb, free-fall",
 		warhead = {
 			caliber = 400,
 			concrete_factors = { 1, 1, 1 },
@@ -63,7 +63,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB-500TA"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
-	display_name = "FAB-500 TA",
+	display_name = "FAB-500 TA - 477 kg, bomb, free-fall",
 	mass = 477,
 	model = "fab-500-ta",
 	name = "FAB-500TA",
@@ -112,7 +112,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB-500TA"] = {
 			char_time = 20.37
 		},
 		type = 0,
-		user_name = "FAB-500 TA",
+		user_name = "FAB-500 TA - 477 kg, bomb, free-fall",
 		warhead = {
 			caliber = 400,
 			concrete_factors = { 1, 1, 1 },

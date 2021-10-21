@@ -50,7 +50,7 @@ _G["weapons_table"]["weapons"]["nurs"]["S-5M"] = {
 				life = 1,
 				username = "S-5M"
 			} },
-		user_name = "S-5M",
+		user_name = "S-5M - unguided rocket 57mm",
 		warhead = {
 			caliber = 57,
 			concrete_factors = { 0.8, 0.8, 0.8 },
@@ -67,7 +67,7 @@ _G["weapons_table"]["weapons"]["nurs"]["S-5M"] = {
 		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 	},
 	cx_pil = 4.3004286920946e-05,
-	display_name = "S-5M",
+	display_name = "S-5M - unguided rocket 57mm",
 	dist_max = 4000,
 	dist_min = 500,
 	mass = 2.87,
@@ -121,7 +121,7 @@ _G["weapons_table"]["weapons"]["nurs"]["S-5M"] = {
 				life = 1,
 				username = "S-5M"
 			} },
-		user_name = "S-5M",
+		user_name = "S-5M - unguided rocket 57mm",
 		warhead = {
 			caliber = 57,
 			concrete_factors = { 0.8, 0.8, 0.8 },

@@ -127,11 +127,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			}
 		} },
 	DetectionRange = 0,
-	DisplayName = "HT Pz.Kpfw.VI Tiger I",
+	DisplayName = "Tk Tiger 1",
 	DisplayNameShort = "Tiger I",
 	IR_emission_coeff = 0.105,
 	MaxSpeed = 43.992,
-	Name = "HT Pz.Kpfw.VI Tiger I",
+	Name = "Tk Tiger 1",
 	Rate = 20,
 	Sensors = {
 		OPTIC = { "TRP-2A day" }
@@ -141,6 +141,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_GUN_01",
+							muzzleBrakeType = 2,
 							recoilArgument = 23,
 							recoilTime = 0.4
 						} },

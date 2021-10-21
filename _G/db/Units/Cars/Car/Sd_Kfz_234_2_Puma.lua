@@ -139,17 +139,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			}
 		} },
 	DetectionRange = 0,
-	DisplayName = "IFV Sd.Kfz.234/2 Puma",
+	DisplayName = "Scout Puma AC",
 	DisplayNameShort = "Puma",
 	IR_emission_coeff = 0.08,
 	MaxSpeed = 90,
-	Name = "IFV Sd.Kfz.234/2 Puma",
+	Name = "Scout Puma AC",
 	Rate = 8,
 	ThreatRange = 2000,
 	WS = { {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_GUN",
+							muzzleBrakeType = 2,
 							recoilArgument = 23,
 							recoilTime = 0.3
 						} },

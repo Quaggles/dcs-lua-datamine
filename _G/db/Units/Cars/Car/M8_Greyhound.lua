@@ -204,17 +204,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			}
 		} },
 	DetectionRange = 0,
-	DisplayName = "Car M8 Greyhound Armored",
+	DisplayName = "Scout M8 Greyhound AC",
 	DisplayNameShort = "Greyhnd",
 	IR_emission_coeff = 0.08,
 	MaxSpeed = 88.92,
-	Name = "Car M8 Greyhound Armored",
+	Name = "Scout M8 Greyhound AC",
 	Rate = 8,
 	ThreatRange = 2000,
 	WS = { {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_GUN_01",
+							muzzleBrakeType = 2,
 							recoilArgument = 23,
 							recoilTime = 0.3
 						} },

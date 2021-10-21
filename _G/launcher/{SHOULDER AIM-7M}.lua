@@ -1,7 +1,7 @@
 _G["launcher"]["{SHOULDER AIM-7M}"] = {
 	CLSID = "{SHOULDER AIM-7M}",
 	Count = 1,
-	Cx_pil = 0.000809326171875,
+	Cx_pil = 0.0007176025390625,
 	Elements = { "_G/Pylons/HB_F14_EXT_SPARROW_PYLON.lua", {
 			ShapeName = "HB_F14_EXT_AIM-7",
 			connector_name = "WEP_Sparrow_Connector",

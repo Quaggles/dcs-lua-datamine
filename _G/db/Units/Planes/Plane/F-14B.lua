@@ -174,12 +174,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[35] = {
 			args = { 510 },
 			critical_damage = 6,
-			deps_cells = { 37, 184 }
+			deps_cells = { 37, 185 }
 		},
 		[36] = {
 			args = { 571 },
 			critical_damage = 6,
-			deps_cells = { 38, 184 }
+			deps_cells = { 38, 185 }
 		},
 		[37] = {
 			args = { 513 },
@@ -255,287 +255,287 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 520 },
 			critical_damage = 3
 		},
-		[135] = {
+		[136] = {
 			args = { 536 },
 			critical_damage = 2
 		},
-		[136] = {
+		[137] = {
 			args = { 537 },
 			critical_damage = 2
 		},
-		[137] = {
+		[138] = {
 			args = { 538 },
 			critical_damage = 2
 		},
-		[138] = {
+		[139] = {
 			args = { 539 },
 			critical_damage = 2
 		},
-		[139] = {
+		[140] = {
 			args = { 541 },
 			critical_damage = 2
 		},
-		[140] = {
+		[141] = {
 			args = { 540 },
 			critical_damage = 2
 		},
-		[141] = {
+		[142] = {
 			args = { 590 },
 			critical_damage = 2
 		},
-		[142] = {
+		[143] = {
 			args = { 591 },
 			critical_damage = 2
 		},
-		[143] = {
+		[144] = {
 			args = { 592 },
 			critical_damage = 2
 		},
-		[144] = {
+		[145] = {
 			args = { 593 },
 			critical_damage = 2
 		},
-		[145] = {
+		[146] = {
 			args = { 565 },
 			critical_damage = 1
 		},
-		[146] = {
+		[147] = {
 			args = { 594 },
 			critical_damage = 2
 		},
-		[147] = {
+		[148] = {
 			args = { 595 },
 			critical_damage = 2
 		},
-		[148] = {
+		[149] = {
 			args = { 566 },
 			critical_damage = 1
 		},
-		[149] = {
+		[150] = {
 			args = { 596 },
 			critical_damage = 6
 		},
-		[150] = {
+		[151] = {
 			args = { 597 },
 			critical_damage = 6
 		},
-		[151] = {
+		[152] = {
 			args = { 522 },
 			critical_damage = 3
 		},
-		[152] = {
+		[153] = {
 			args = { 523 },
 			critical_damage = 3
 		},
-		[153] = {
+		[154] = {
 			args = { 521 },
 			critical_damage = 3
 		},
-		[154] = {
+		[155] = {
 			args = { 524 },
 			critical_damage = 3
 		},
-		[155] = {
+		[156] = {
 			args = { 557 },
 			critical_damage = 4
 		},
-		[156] = {
+		[157] = {
 			args = { 561 },
 			critical_damage = 4
 		},
-		[157] = {
+		[158] = {
 			args = { 558 },
 			critical_damage = 4
 		},
-		[158] = {
+		[159] = {
 			args = { 562 },
 			critical_damage = 4
 		},
-		[159] = {
+		[160] = {
 			args = { 559 },
 			critical_damage = 4
 		},
-		[160] = {
+		[161] = {
 			args = { 563 },
 			critical_damage = 4
 		},
-		[161] = {
+		[162] = {
 			args = { 555 },
 			critical_damage = 2
 		},
-		[162] = {
+		[163] = {
 			args = { 546 },
 			critical_damage = 2
 		},
-		[163] = {
+		[164] = {
 			args = { 545 },
 			critical_damage = 2
 		},
-		[164] = {
+		[165] = {
 			args = { 547 },
 			critical_damage = 2
 		},
-		[165] = {
+		[166] = {
 			args = { 554 },
 			critical_damage = 3
 		},
-		[166] = {
+		[167] = {
 			args = { 553 },
 			critical_damage = 3
 		},
-		[167] = {
+		[168] = {
 			args = { 551 },
 			critical_damage = 3
 		},
-		[168] = {
+		[169] = {
 			args = { 550 },
 			critical_damage = 3
 		},
-		[169] = {
+		[170] = {
 			args = { 560 },
 			critical_damage = 4
 		},
-		[170] = {
+		[171] = {
 			args = { 564 },
 			critical_damage = 4
 		},
-		[171] = {
+		[172] = {
 			args = { 556 },
 			critical_damage = 2
 		},
-		[172] = {
+		[173] = {
 			args = { 569 },
 			critical_damage = 1
 		},
-		[173] = {
+		[174] = {
 			args = { 570 },
 			critical_damage = 1
 		},
-		[174] = {
+		[175] = {
 			args = { 577 },
 			critical_damage = 1
 		},
-		[175] = {
+		[176] = {
 			args = { 578 },
 			critical_damage = 1
 		},
-		[176] = {
+		[177] = {
 			args = { 542 },
 			critical_damage = 2
 		},
-		[177] = {
+		[178] = {
 			args = { 543 },
 			critical_damage = 2
 		},
-		[178] = {
+		[179] = {
 			args = { 544 },
 			critical_damage = 2
 		},
-		[179] = {
+		[180] = {
 			args = { 567 },
 			critical_damage = 1
 		},
-		[180] = {
+		[181] = {
 			args = { 552 },
 			critical_damage = 1
 		},
-		[181] = {
+		[182] = {
 			args = { 568 },
 			critical_damage = 1
 		},
-		[182] = {
+		[183] = {
 			args = { 514 },
 			critical_damage = 15
 		},
-		[183] = {
+		[184] = {
 			args = { 515 },
 			critical_damage = 15
 		},
-		[184] = {
+		[185] = {
 			args = { 548 },
 			critical_damage = 3
 		},
-		[185] = {
+		[186] = {
 			args = { 549 },
 			critical_damage = 3
 		},
 		cell_indices = {
-			AVX_001 = 135,
-			AVX_002 = 136,
-			AVX_003 = 137,
-			AVX_004 = 138,
-			AVX_ECS = 139,
-			AVX_GTS = 140,
-			AVX_WALL_LEFT_FRONT = 141,
-			AVX_WALL_LEFT_REAR = 142,
-			AVX_WALL_RIGHT_FRONT = 143,
-			AVX_WALL_RIGHT_REAR = 144,
+			AVX_001 = 136,
+			AVX_002 = 137,
+			AVX_003 = 138,
+			AVX_004 = 139,
+			AVX_ECS = 140,
+			AVX_GTS = 141,
+			AVX_WALL_LEFT_FRONT = 142,
+			AVX_WALL_LEFT_REAR = 143,
+			AVX_WALL_RIGHT_FRONT = 144,
+			AVX_WALL_RIGHT_REAR = 145,
 			CABIN_LEFT_SIDE = 4,
 			CABIN_RIGHT_SIDE = 5,
-			COUNTERMEASURES = 145,
+			COUNTERMEASURES = 146,
 			CREW_1 = 90,
 			CREW_2 = 91,
-			DASHBOARD_PILOT = 146,
-			DASHBOARD_RIO = 147,
-			ECM_DUCKTAIL = 148,
-			EJECTION_SEAT_PILOT = 149,
-			EJECTION_SEAT_RIO = 150,
+			DASHBOARD_PILOT = 147,
+			DASHBOARD_RIO = 148,
+			ECM_DUCKTAIL = 149,
+			EJECTION_SEAT_PILOT = 150,
+			EJECTION_SEAT_RIO = 151,
 			ELEVATOR_L = 51,
 			ELEVATOR_R = 52,
 			ENGINE_L = 11,
-			ENGINE_L_INTAKE = 151,
-			ENGINE_L_UPPER = 152,
+			ENGINE_L_INTAKE = 152,
+			ENGINE_L_UPPER = 153,
 			ENGINE_R = 12,
-			ENGINE_R_INTAKE = 153,
-			ENGINE_R_UPPER = 154,
-			F110_FRONT_L = 155,
-			F110_FRONT_R = 156,
-			F110_MID_L = 157,
-			F110_MID_R = 158,
-			F110_REAR_L = 159,
-			F110_REAR_R = 160,
+			ENGINE_R_INTAKE = 154,
+			ENGINE_R_UPPER = 155,
+			F110_FRONT_L = 156,
+			F110_FRONT_R = 157,
+			F110_MID_L = 158,
+			F110_MID_R = 159,
+			F110_REAR_L = 160,
+			F110_REAR_R = 161,
 			FIN_L_CENTER = 41,
 			FIN_L_TOP = 39,
 			FIN_R_CENTER = 42,
 			FIN_R_TOP = 40,
 			FLAP_L = 37,
 			FLAP_R = 38,
-			FRONT_PHOENIX = 161,
-			FUEL_TANK_CENTR = 162,
-			FUEL_TANK_FRONT = 163,
-			FUEL_TANK_REAR = 164,
+			FRONT_PHOENIX = 162,
+			FUEL_TANK_CENTR = 163,
+			FUEL_TANK_FRONT = 164,
+			FUEL_TANK_REAR = 165,
 			FUSELAGE_LEFT_SIDE = 9,
 			FUSELAGE_RIGHT_SIDE = 10,
 			FUSELAGE_TOP = 99,
-			GUN_AMMO = 165,
-			GUN_BARELLS = 166,
+			GUN_AMMO = 166,
+			GUN_BARELLS = 167,
 			HOOK = 98,
-			INTAKE_RAMPS_LEFT = 167,
-			INTAKE_RAMPS_RIGHT = 168,
+			INTAKE_RAMPS_LEFT = 168,
+			INTAKE_RAMPS_RIGHT = 169,
 			KEEL_L = 43,
 			KEEL_R = 44,
 			NOSE_CENTER = 0,
-			NOZZLE_L = 169,
-			NOZZLE_R = 170,
+			NOZZLE_L = 170,
+			NOZZLE_R = 171,
 			PYLONL = 86,
 			PYLONR = 87,
-			REAR_PHOENIX = 171,
+			REAR_PHOENIX = 172,
 			RUDDER_L = 53,
 			RUDDER_R = 54,
-			RWR_NACELLE_L = 172,
-			RWR_NACELLE_R = 173,
-			RWR_TAIL_L = 174,
-			RWR_TAIL_R = 175,
-			SPINE_LINES_01 = 176,
-			SPINE_LINES_02 = 177,
-			SPINE_LINES_03 = 178,
-			TACAN = 179,
-			TCS = 180,
-			UHF_IFF = 181,
-			WINGBOX_LEFT = 182,
-			WINGBOX_RIGHT = 183,
-			WING_FUEL_TANK_L = 184,
-			WING_FUEL_TANK_R = 185,
+			RWR_NACELLE_L = 173,
+			RWR_NACELLE_R = 174,
+			RWR_TAIL_L = 175,
+			RWR_TAIL_R = 176,
+			SPINE_LINES_01 = 177,
+			SPINE_LINES_02 = 178,
+			SPINE_LINES_03 = 179,
+			TACAN = 180,
+			TCS = 181,
+			UHF_IFF = 182,
+			WINGBOX_LEFT = 183,
+			WINGBOX_RIGHT = 184,
+			WING_FUEL_TANK_L = 185,
+			WING_FUEL_TANK_R = 186,
 			WING_L = 35,
 			WING_R = 36
 		}
@@ -567,6 +567,230 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			hh = 0,
 			id = "DDD_FAILURE_TOTAL",
 			label = "DDD: Total",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "L_ENG_FIRE",
+			label = "Left Engine: Fire",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "R_ENG_FIRE",
+			label = "Right Engine: Fire",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "L_ENG_SEIZED",
+			label = "Left Engine: Main Spool Seizure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "R_ENG_SEIZED",
+			label = "Right Engine: Main Spool Seizure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "L_ENG_TURBINE_FAILURE",
+			label = "Left Engine: Turbine Failed",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "R_ENG_TURBINE_FAILURE",
+			label = "Right Engine: Turbine Failed",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "L_ENG_OIL_LEAK_SLOW",
+			label = "Left Engine: Slow Oil Leak (1 hr)",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "R_ENG_OIL_LEAK_SLOW",
+			label = "Right Engine: Slow Oil Leak (1 hr)",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "L_ENG_OIL_LEAK_MODERATE",
+			label = "Left Engine: Moderate Oil Leak (30 min)",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "R_ENG_OIL_LEAK_MODERATE",
+			label = "Right Engine: Moderate Oil Leak (30 min)",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "L_ENG_OIL_LEAK_SEVERE",
+			label = "Left Engine: Severe Oil Leak (2 min)",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "R_ENG_OIL_LEAK_SEVERE",
+			label = "Right Engine: Severe Oil Leak (2 min)",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "L_ENG_COMPRESSOR_STALL",
+			label = "Left Engine: Compressor Stall",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "R_ENG_COMPRESSOR_STALL",
+			label = "Right Engine: Compressor Stall",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "L_ENG_POP_STALL",
+			label = "Left Engine: Pop Stall",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "R_ENG_POP_STALL",
+			label = "Right Engine: Pop Stall",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "L_ENG_HPT_OVERSPEED",
+			label = "Left Engine: Turbine Overspeed",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "R_ENG_HPT_OVERSPEED",
+			label = "Right Engine: Turbine Overspeed",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "L_ENG_AFTC_PRI_FAILED",
+			label = "Left Engine: AFTC Failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "R_ENG_AFTC_PRI_FAILED",
+			label = "Right Engine: AFTC Failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "L_ENG_AICS_RAMP_FAIL_OPEN",
+			label = "Left Engine: AICS Ramp Fail Open",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "R_ENG_AICS_RAMP_FAIL_OPEN",
+			label = "Right Engine: AICS Ramp Fail Open",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "L_ENG_AICS_RAMP_FAIL_CLOSED",
+			label = "Left Engine: AICS Ramp Fail Closed",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "R_ENG_AICS_RAMP_FAIL_CLOSED",
+			label = "Right Engine: AICS Ramp Fail Closed",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "L_ENG_AICS_RAMP_FAIL_IN_POS",
+			label = "Left Engine: AICS Ramp Fail In Position",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "R_ENG_AICS_RAMP_FAIL_IN_POS",
+			label = "Right Engine: AICS Ramp Fail In Position",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "L_ENG_NOZZLE_FAILURE",
+			label = "Left Engine: Exhaust Nozzle Failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "R_ENG_NOZZLE_FAILURE",
+			label = "Right Engine: Exhaust Nozzle Failure",
 			mm = 0,
 			mmint = 1,
 			prob = 100
@@ -1791,7 +2015,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			DisplayName = "3",
 			Launchers = { {
 					CLSID = "{AIM_54A_Mk47}",
-					Cx_gain = 0.7,
+					Cx_gain = 0.57,
 					arg = 601,
 					arg_value = 0,
 					connector = "WEP_Phoenix_FrontPallette_L",
@@ -1825,7 +2049,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{AIM_54A_Mk60}",
-					Cx_gain = 0.7,
+					Cx_gain = 0.57,
 					arg = 601,
 					arg_value = 0,
 					connector = "WEP_Phoenix_FrontPallette_L",
@@ -1859,7 +2083,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{AIM_54C_Mk47}",
-					Cx_gain = 0.7,
+					Cx_gain = 0.57,
 					arg = 601,
 					arg_value = 0,
 					connector = "WEP_Phoenix_FrontPallette_L",
@@ -1893,7 +2117,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{BELLY AIM-7M}",
-					Cx_gain = 0.5,
+					Cx_gain = 0.125,
 					arg = 600,
 					arg_value = 1,
 					connector = "WEP_Sparrow_Indent_F_L",
@@ -1918,7 +2142,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{BELLY AIM-7F}",
-					Cx_gain = 0.5,
+					Cx_gain = 0.125,
 					arg = 600,
 					arg_value = 1,
 					connector = "WEP_Sparrow_Indent_F_L",
@@ -1943,7 +2167,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{BELLY AIM-7MH}",
-					Cx_gain = 0.5,
+					Cx_gain = 0.125,
 					arg = 600,
 					arg_value = 1,
 					connector = "WEP_Sparrow_Indent_F_L",
@@ -2121,7 +2345,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			DisplayName = "4",
 			Launchers = { {
 					CLSID = "{AIM_54A_Mk47}",
-					Cx_gain = 0.8,
+					Cx_gain = 0.57,
 					arg = 603,
 					arg_value = 0,
 					connector = "WEP_Phoenix_RearPallette_L",
@@ -2146,7 +2370,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{AIM_54A_Mk60}",
-					Cx_gain = 0.8,
+					Cx_gain = 0.57,
 					arg = 603,
 					arg_value = 0,
 					connector = "WEP_Phoenix_RearPallette_L",
@@ -2171,7 +2395,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{AIM_54C_Mk47}",
-					Cx_gain = 0.8,
+					Cx_gain = 0.57,
 					arg = 603,
 					arg_value = 0,
 					connector = "WEP_Phoenix_RearPallette_L",
@@ -2196,7 +2420,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{BELLY AIM-7M}",
-					Cx_gain = 0.5,
+					Cx_gain = 0.125,
 					arg = 605,
 					arg_value = 1,
 					connector = "WEP_Sparrow_Rear",
@@ -2221,7 +2445,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{BELLY AIM-7F}",
-					Cx_gain = 0.5,
+					Cx_gain = 0.125,
 					arg = 605,
 					arg_value = 1,
 					connector = "WEP_Sparrow_Rear",
@@ -2246,7 +2470,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{BELLY AIM-7MH}",
-					Cx_gain = 0.5,
+					Cx_gain = 0.125,
 					arg = 605,
 					arg_value = 1,
 					connector = "WEP_Sparrow_Rear",
@@ -2414,7 +2638,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			DisplayName = "5",
 			Launchers = { {
 					CLSID = "{AIM_54A_Mk47}",
-					Cx_gain = 0.8,
+					Cx_gain = 0.57,
 					arg = 604,
 					arg_value = 0,
 					connector = "WEP_Phoenix_RearPallette_R",
@@ -2439,7 +2663,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{AIM_54A_Mk60}",
-					Cx_gain = 0.8,
+					Cx_gain = 0.57,
 					arg = 604,
 					arg_value = 0,
 					connector = "WEP_Phoenix_RearPallette_R",
@@ -2464,7 +2688,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{AIM_54C_Mk47}",
-					Cx_gain = 0.8,
+					Cx_gain = 0.57,
 					arg = 604,
 					arg_value = 0,
 					connector = "WEP_Phoenix_RearPallette_R",
@@ -2489,7 +2713,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{BELLY AIM-7M}",
-					Cx_gain = 0.5,
+					Cx_gain = 0.125,
 					arg = 605,
 					arg_value = 1,
 					connector = "WEP_Sparrow_Centr",
@@ -2532,7 +2756,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{BELLY AIM-7F}",
-					Cx_gain = 0.5,
+					Cx_gain = 0.125,
 					arg = 605,
 					arg_value = 1,
 					connector = "WEP_Sparrow_Centr",
@@ -2575,7 +2799,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{BELLY AIM-7MH}",
-					Cx_gain = 0.5,
+					Cx_gain = 0.125,
 					arg = 605,
 					arg_value = 1,
 					connector = "WEP_Sparrow_Centr",
@@ -2766,7 +2990,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			DisplayName = "6",
 			Launchers = { {
 					CLSID = "{AIM_54A_Mk47}",
-					Cx_gain = 0.7,
+					Cx_gain = 0.57,
 					arg = 602,
 					arg_value = 0,
 					connector = "WEP_Phoenix_FrontPallette_R",
@@ -2800,7 +3024,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{AIM_54A_Mk60}",
-					Cx_gain = 0.7,
+					Cx_gain = 0.57,
 					arg = 602,
 					arg_value = 0,
 					connector = "WEP_Phoenix_FrontPallette_R",
@@ -2834,7 +3058,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{AIM_54C_Mk47}",
-					Cx_gain = 0.7,
+					Cx_gain = 0.57,
 					arg = 602,
 					arg_value = 0,
 					connector = "WEP_Phoenix_FrontPallette_R",
@@ -2868,7 +3092,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{BELLY AIM-7M}",
-					Cx_gain = 0.5,
+					Cx_gain = 0.125,
 					arg = 600,
 					arg_value = 1,
 					connector = "WEP_Sparrow_Indent_F_R",
@@ -2893,7 +3117,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{BELLY AIM-7F}",
-					Cx_gain = 0.5,
+					Cx_gain = 0.125,
 					arg = 600,
 					arg_value = 1,
 					connector = "WEP_Sparrow_Indent_F_R",
@@ -2918,7 +3142,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{BELLY AIM-7MH}",
-					Cx_gain = 0.5,
+					Cx_gain = 0.125,
 					arg = 600,
 					arg_value = 1,
 					connector = "WEP_Sparrow_Indent_F_R",

@@ -1,11 +1,11 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Countries = { "Germany", "Third Reich", "Japan", "Italian Social Republic", "Finland", "Hungary", "Romania", "Bulgaria" },
 	DetectionRange = 30000,
-	DisplayName = "AAA SP Kdo.G.40",
+	DisplayName = "AAA Kdo.G.40",
 	DisplayNameShort = "Kdo.G40",
 	IR_emission_coeff = 0.03,
 	MaxSpeed = 0,
-	Name = "AAA SP Kdo.G.40",
+	Name = "AAA Kdo.G.40",
 	Rate = 3,
 	Sensors = {
 		OPTIC = { "long-range air defence optics" }

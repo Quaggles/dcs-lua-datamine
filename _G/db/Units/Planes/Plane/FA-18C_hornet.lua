@@ -256,14 +256,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 2
 		},
 		[135] = {
+			critical_damage = 2
+		},
+		[136] = {
 			args = { 183 },
 			critical_damage = 1
 		},
-		[136] = {
-			critical_damage = 2
-		},
 		cell_indices = {
-			AIR_BRAKE = 135,
+			AIR_BRAKE = 136,
 			CABIN_BOTTOM = 6,
 			CABIN_LEFT_SIDE = 4,
 			CABIN_RIGHT_SIDE = 5,
@@ -285,7 +285,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			FUSELAGE_LEFT_SIDE = 9,
 			FUSELAGE_RIGHT_SIDE = 10,
 			HOOK = 98,
-			LAUNCH_BAR = 136,
+			LAUNCH_BAR = 135,
 			LEFT_GEAR_BOX = 15,
 			NOSE_BOTTOM = 59,
 			NOSE_CENTER = 0,

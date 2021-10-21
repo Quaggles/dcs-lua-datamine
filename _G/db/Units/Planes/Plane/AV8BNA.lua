@@ -188,12 +188,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[0] = {
 			args = { 147 },
 			critical_damage = 8,
-			deps_cells = { 147, 65, 68 }
+			deps_cells = { 148, 65, 68 }
 		},
 		[8] = {
 			args = { 265 },
 			critical_damage = 5,
-			deps_cells = { 139 }
+			deps_cells = { 140 }
 		},
 		[9] = {
 			args = { 177 },
@@ -220,12 +220,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[15] = {
 			args = { 267 },
 			critical_damage = 5,
-			deps_cells = { 145 }
+			deps_cells = { 146 }
 		},
 		[16] = {
 			args = { 266 },
 			critical_damage = 5,
-			deps_cells = { 151 }
+			deps_cells = { 152 }
 		},
 		[17] = {
 			args = { 273 },
@@ -474,34 +474,31 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[98] = {
 			args = { 268 },
 			critical_damage = 5,
-			deps_cells = { 135 }
+			deps_cells = { 136 }
 		},
 		[99] = {
 			args = { 151 },
 			critical_damage = 8
 		},
-		[135] = {
+		[136] = {
 			args = { 263 },
 			critical_damage = 3,
-			deps_cells = { 153 }
-		},
-		[136] = {
-			args = { 305 },
-			critical_damage = 3
+			deps_cells = { 154 }
 		},
 		[137] = {
-			critical_damage = 2
+			args = { 305 },
+			critical_damage = 3
 		},
 		[138] = {
 			critical_damage = 2
 		},
 		[139] = {
+			critical_damage = 2
+		},
+		[140] = {
 			args = { 253 },
 			critical_damage = 3,
 			deps_cells = { 83 }
-		},
-		[140] = {
-			critical_damage = 2
 		},
 		[141] = {
 			critical_damage = 2
@@ -516,20 +513,20 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 2
 		},
 		[145] = {
+			critical_damage = 2
+		},
+		[146] = {
 			args = { 259 },
 			critical_damage = 3,
 			deps_cells = { 84 }
 		},
-		[146] = {
+		[147] = {
 			args = { 303 },
 			critical_damage = 2
 		},
-		[147] = {
+		[148] = {
 			args = { 144 },
 			critical_damage = 8
-		},
-		[148] = {
-			critical_damage = 2
 		},
 		[149] = {
 			critical_damage = 2
@@ -538,20 +535,23 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 2
 		},
 		[151] = {
+			critical_damage = 2
+		},
+		[152] = {
 			args = { 255 },
 			critical_damage = 3,
 			deps_cells = { 85 }
 		},
-		[152] = {
+		[153] = {
 			args = { 304 },
 			critical_damage = 2
 		},
-		[153] = {
+		[154] = {
 			args = { 135 },
 			critical_damage = 3
 		},
 		cell_indices = {
-			AFT_WHEEL = 135,
+			AFT_WHEEL = 136,
 			AILERON_L = 25,
 			AILERON_R = 26,
 			AIR_BRAKE_L = 19,
@@ -572,14 +572,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			BLADE_6_CENTER = 80,
 			BLADE_6_IN = 79,
 			BLADE_6_OUT = 81,
-			BOTTOM_CM = 136,
+			BOTTOM_CM = 137,
 			CABIN_BOTTOM = 6,
 			CABIN_LEFT_SIDE = 4,
 			CABIN_RIGHT_SIDE = 5,
 			COCKPIT = 3,
 			CREW_1 = 90,
-			DECU1 = 137,
-			DECU2 = 138,
+			DECU1 = 138,
+			DECU2 = 139,
 			ELEVATOR_L_IN = 51,
 			ELEVATOR_R_IN = 52,
 			ENGINE = 11,
@@ -593,22 +593,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			FLAP_R_IN = 38,
 			FLAP_R_OUT = 32,
 			FRONT_GEAR_BOX = 8,
-			FRONT_WHEEL = 139,
+			FRONT_WHEEL = 140,
 			FUEL_TANK_LEFT_SIDE = 61,
 			FUEL_TANK_RIGHT_SIDE = 62,
 			FUSELAGE_BOTTOM = 82,
 			FUSELAGE_LEFT_SIDE = 9,
 			FUSELAGE_RIGHT_SIDE = 10,
 			FUSELAGE_TOP = 99,
-			GENERATOR = 140,
+			GENERATOR = 141,
 			HOOK = 98,
-			HYD1_PUMP = 141,
-			HYD2_PUMP = 142,
-			HYD_RES_1 = 143,
-			IGV = 144,
+			HYD1_PUMP = 142,
+			HYD2_PUMP = 143,
+			HYD_RES_1 = 144,
+			IGV = 145,
 			LEFT_GEAR_BOX = 15,
-			LEFT_WHEEL = 145,
-			L_TOP_CM = 146,
+			LEFT_WHEEL = 146,
+			L_TOP_CM = 147,
 			MTG_L = 17,
 			MTG_L_BOTTOM = 13,
 			MTG_R = 18,
@@ -617,25 +617,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			NOSE_CENTER = 0,
 			NOSE_LEFT_SIDE = 1,
 			NOSE_RIGHT_SIDE = 2,
-			NOSE_SENSOR = 147,
-			OIL_COOLER = 148,
-			OIL_PUMP = 149,
-			OIL_TANK = 150,
+			NOSE_SENSOR = 148,
+			OIL_COOLER = 149,
+			OIL_PUMP = 150,
+			OIL_TANK = 151,
 			PWD = 60,
 			PYLON1 = 86,
 			PYLON2 = 87,
 			PYLON3 = 88,
 			PYLON4 = 89,
 			RIGHT_GEAR_BOX = 16,
-			RIGHT_WHEEL = 151,
+			RIGHT_WHEEL = 152,
 			ROTOR = 63,
 			RUDDER = 53,
-			R_TOP_CM = 152,
+			R_TOP_CM = 153,
 			TAIL = 55,
 			TAIL_BOTTOM = 58,
 			TAIL_LEFT_SIDE = 56,
 			TAIL_RIGHT_SIDE = 57,
-			WHEEL_A = 153,
+			WHEEL_A = 154,
 			WHEEL_F = 83,
 			WHEEL_L = 84,
 			WHEEL_R = 85,
@@ -1165,6 +1165,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.2,
 					attach_point_position = { -0.1, -0.17, 0 }
 				}, {
+					CLSID = "{CBU_99}",
+					arg_value = 0.2,
+					attach_point_position = { -0.1, -0.17, 0 }
+				}, {
 					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
 					arg_value = 0.2,
 					attach_point_position = { 0.307, -0.15, 0 }
@@ -1233,6 +1237,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}",
 					attach_point_position = { -0.1, -0.17, 0 }
 				}, {
+					CLSID = "{CBU_99}",
+					attach_point_position = { -0.1, -0.17, 0 }
+				}, {
 					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
 					attach_point_position = { 0.301, -0.14, 0 }
 				}, {
@@ -1251,6 +1258,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{BRU-42_2*Mk-82_LEFT}"
 				}, {
 					CLSID = "{BRU-42_2*MK-20_LEFT}"
+				}, {
+					CLSID = "{BRU-70_2*CBU-99_LEFT}"
 				}, {
 					CLSID = "{BRU-42_2*GBU-12_LEFT}"
 				}, {
@@ -1414,6 +1423,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}",
 					attach_point_position = { -0.1, -0.17, 0 }
 				}, {
+					CLSID = "{CBU_99}",
+					attach_point_position = { -0.1, -0.17, 0 }
+				}, {
 					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
 					attach_point_position = { 0.301, -0.14, 0 }
 				}, {
@@ -1436,6 +1448,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{BRU-42_2*Mk-83_LEFT}"
 				}, {
 					CLSID = "{BRU-42_2*MK-20_LEFT}"
+				}, {
+					CLSID = "{BRU-70_2*CBU-99_LEFT}"
 				}, {
 					CLSID = "{BRU-42_2*GBU-12_LEFT}"
 				}, {
@@ -1545,6 +1559,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Launchers = { {
 					CLSID = "{GAU_12_Equalizer}",
 					arg_value = 0.2
+				}, {
+					CLSID = "{GAU_12_Equalizer_AP}",
+					arg_value = 0.2
+				}, {
+					CLSID = "{GAU_12_Equalizer_HE}",
+					arg_value = 0.2
 				} },
 			Number = 4,
 			Order = 4,
@@ -1598,6 +1618,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}",
 					attach_point_position = { -0.1, -0.17, 0 }
 				}, {
+					CLSID = "{CBU_99}",
+					attach_point_position = { -0.1, -0.17, 0 }
+				}, {
 					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
 					attach_point_position = { 0.301, -0.14, 0 }
 				}, {
@@ -1620,6 +1643,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{BRU-42_2*Mk-83_RIGHT}"
 				}, {
 					CLSID = "{BRU-42_2*MK-20_RIGHT}"
+				}, {
+					CLSID = "{BRU-70_2*CBU-99_RIGHT}"
 				}, {
 					CLSID = "{BRU-42_2*GBU-12_RIGHT}"
 				}, {
@@ -1750,6 +1775,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}",
 					attach_point_position = { -0.1, -0.17, 0 }
 				}, {
+					CLSID = "{CBU_99}",
+					attach_point_position = { -0.1, -0.17, 0 }
+				}, {
 					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
 					attach_point_position = { 0.301, -0.14, 0 }
 				}, {
@@ -1768,6 +1796,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{BRU-42_2*Mk-82_RIGHT}"
 				}, {
 					CLSID = "{BRU-42_2*MK-20_RIGHT}"
+				}, {
+					CLSID = "{BRU-70_2*CBU-99_RIGHT}"
 				}, {
 					CLSID = "{BRU-42_2*GBU-12_RIGHT}"
 				}, {
@@ -1936,6 +1966,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					attach_point_position = { -0.09, -0.133, 0 }
 				}, {
 					CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}",
+					arg_value = 0.2,
+					attach_point_position = { -0.1, -0.17, 0 }
+				}, {
+					CLSID = "{CBU_99}",
 					arg_value = 0.2,
 					attach_point_position = { -0.1, -0.17, 0 }
 				}, {

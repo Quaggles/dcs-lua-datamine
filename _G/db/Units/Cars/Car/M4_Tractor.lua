@@ -5,11 +5,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	Countries = { "Australia", "Belgium", "Canada", "Czech Republic", "France", "Italia", "Poland", "The Netherlands", "UK", "USA", "USSR", "Yugoslavia" },
 	DetectionRange = 0,
-	DisplayName = "Tractor M4 Hi-Speed",
+	DisplayName = "Tractor M4 High Speed",
 	DisplayNameShort = "M4",
 	IR_emission_coeff = 0.08,
 	MaxSpeed = 55.98,
-	Name = "Tractor M4 Hi-Speed",
+	Name = "Tractor M4 High Speed",
 	Rate = 5,
 	ThreatRange = 1200,
 	WS = { {

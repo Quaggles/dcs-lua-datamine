@@ -248,6 +248,50 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "M-109",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "KAMAZ Truck",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Land_Rover_101_FC",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Land_Rover_109_S3",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Soldier M4",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Soldier M249",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "HEMTT TFFT",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "M978 HEMTT Tanker",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Tigr_233036",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Cobra",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "VAB_Mephisto",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "NASAMS_Command_Post",
 					in_service = 0,
 					out_of_service = 40000
@@ -636,13 +680,33 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "SA342M"
+					Name = "AH-64D",
+					in_service = 0,
+					out_of_service = 40000
 				}, {
-					Name = "SA342L"
+					Name = "Mi-8MT",
+					in_service = 0,
+					out_of_service = 40000
 				}, {
-					Name = "SA342Mistral"
+					Name = "UH-1H",
+					in_service = 0,
+					out_of_service = 40000
 				}, {
-					Name = "SA342Minigun"
+					Name = "SA342M",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "SA342L",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "SA342Mistral",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "SA342Minigun",
+					in_service = 0,
+					out_of_service = 40000
 				} }
 		},
 		Heliports = {
@@ -802,6 +866,10 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "Seawise_Giant",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "La_Combattante_II",
 					in_service = 0,
 					out_of_service = 40000
 				} }

@@ -1,7 +1,7 @@
 _G["launcher"]["{LAU-7 - AIM-9M}"] = {
 	CLSID = "{LAU-7 - AIM-9M}",
 	Count = 1,
-	Cx_pil = 0.000755859375,
+	Cx_pil = 0.0007086181640625,
 	Elements = { "_G/Pylons/HB_F14_EXT_LAU-7.lua", {
 			ShapeName = "AIM-9",
 			connector_name = "WEP_Sidewinder_Extra"

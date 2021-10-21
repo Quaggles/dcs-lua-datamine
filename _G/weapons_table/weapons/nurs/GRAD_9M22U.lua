@@ -45,7 +45,7 @@ _G["weapons_table"]["weapons"]["nurs"]["GRAD_9M22U"] = {
 		}
 	},
 	cx_pil = 4.1380057571708e-05,
-	display_name = "GRAD",
+	display_name = "9M22U (122mm HE)",
 	dist_max = 0,
 	dist_min = 0,
 	mass = 67,

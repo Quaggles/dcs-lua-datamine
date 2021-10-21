@@ -1479,7 +1479,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			canopy_args = { 38, 1, 43, 5, 44, 5, 45, 0.8, 459, 1, 460, 10, 457, 0.1, 458, 0.1, 453, 0.5, 454, 0.5, 146, 1 },
 			pilot_body_arg = 365,
 			pos = { 2.3, 0, -0.5 },
-			role = "pilot",
+			role = "copilot",
 			role_display_name = "Copilot"
 		}, {
 			can_be_playable = true,
@@ -1487,7 +1487,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			canopy_args = { 38, 0.5, 43, 5, 44, 5, 45, 0.5, 459, 10, 460, 1, 457, 0.1, 458, 0.1, 453, 0.5, 454, 0.5, 146, 1 },
 			pilot_body_arg = 0,
 			pos = { -0.121463, 0.19, -1.39 },
-			role = "pilot",
+			role = "gunner",
 			role_display_name = "Left Gunner"
 		}, {
 			can_be_playable = true,
@@ -1495,7 +1495,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			canopy_args = { 38, 0.5, 43, 5, 44, 5, 45, 0.5, 459, 1, 460, 10, 457, 0.1, 458, 0.1, 453, 0.5, 454, 0.5, 146, 1 },
 			pilot_body_arg = 0,
 			pos = { -0.121463, 0.19, 1.39 },
-			role = "pilot",
+			role = "gunner",
 			role_display_name = "Right Gunner"
 		} },
 	detection_range_max = 11,

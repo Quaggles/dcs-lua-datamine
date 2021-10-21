@@ -26,7 +26,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	Countries = { "Germany", "Third Reich", "Japan", "Italian Social Republic", "Finland", "Hungary", "Romania", "Bulgaria" },
 	DetectionRange = 0,
-	DisplayName = "LUV Kubelwagen 82",
+	DisplayName = "LUV Kubelwagen Jeep",
 	DisplayNameShort = "LUV Kuebelwagen",
 	IR_emission_coeff = 0.065,
 	InternalCargo = {
@@ -34,7 +34,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		nominalCapacity = 300
 	},
 	MaxSpeed = 79.992,
-	Name = "LUV Kubelwagen 82",
+	Name = "LUV Kubelwagen Jeep",
 	Rate = 3,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,

@@ -171,11 +171,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			}
 		} },
 	DetectionRange = 0,
-	DisplayName = "SPG M10 GMC",
+	DisplayName = "SPG M10 GMC TD",
 	DisplayNameShort = "M10",
 	IR_emission_coeff = 0.09,
 	MaxSpeed = 39.996,
-	Name = "SPG M10 GMC",
+	Name = "SPG M10 GMC TD",
 	Rate = 15,
 	Sensors = {
 		OPTIC = { "TRP-2A day", "TRP-2A night" }
@@ -185,6 +185,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_GUN_01",
+							muzzleBrakeType = 2,
 							recoilArgument = 23,
 							recoilTime = 0.35
 						} },

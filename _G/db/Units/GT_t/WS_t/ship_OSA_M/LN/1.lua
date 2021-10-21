@@ -3,6 +3,7 @@ _G["db"]["Units"]["GT_t"]["WS_t"]["ship_OSA_M"]["LN"]["#Index"] = {
 	ECM_K = -1,
 	PL = { {
 			ammo_capacity = 22,
+			reload_time = 1000000,
 			shot_delay = 18,
 			type_ammunition = {}
 		} },

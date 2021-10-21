@@ -92,6 +92,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 215 },
 			critical_damage = 10
 		},
+		[43] = {
+			args = { 243 },
+			critical_damage = 4
+		},
 		[47] = {
 			args = { 235 },
 			critical_damage = 7
@@ -132,10 +136,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 152 },
 			critical_damage = 4
 		},
-		[135] = {
-			args = { 244 },
-			critical_damage = 4
-		},
 		[136] = {
 			args = { 154 },
 			critical_damage = 4
@@ -152,7 +152,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			ELEVATOR_R_IN = 52,
 			ENGINE_L = 11,
 			ENGINE_R = 12,
-			FIN_TOP = 135,
+			FIN_L_BOTTOM = 43,
 			FLAP_L_OUT = 31,
 			FLAP_R_OUT = 32,
 			FUSELAGE_BOTTOM = 82,
@@ -178,7 +178,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			WING_R_OUT = 24
 		}
 	},
-	DamageParts = { "H-6J-oblomok-wing-L", "H-6J-oblomok-wing-R" },
+	DamageParts = { "H-6J-dp-wing-R", "H-6J-dp-wing-L", "H-6J-dp-TAIL" },
 	DefaultTask = <1>{
 		Name = "Anti-ship Strike",
 		OldID = "Antiship Strike",
@@ -207,7 +207,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Mach_max = 0.85,
 	MaxFuelWeight = 25000,
 	MaxHeight = 13100,
-	MaxSpeed = 964.8,
+	MaxSpeed = 1044,
 	MaxTakeOffWeight = 76000,
 	Name = "H-6J",
 	Navpoint_Panel = true,
@@ -489,7 +489,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			dpdh_f = 6200,
 			dpdh_m = 6200,
 			hMaxEng = 19.5,
-			table_data = { { 0, 235344, 235344 }, { 0.2, 255056, 253056 }, { 0.4, 273520, 253520 }, { 0.6, 293200, 254200 }, { 0.7, 307072, 242072 }, { 0.8, 314528, 231528 }, { 0.9, 320944, 220944 }, { 1, 327360, 220360 }, { 1.1, 328400, 220400 } },
+			table_data = { { 0, 235344, 235344 }, { 0.2, 245056, 245056 }, { 0.4, 253520, 253520 }, { 0.6, 254200, 254200 }, { 0.7, 242072, 242072 }, { 0.8, 231528, 231528 }, { 0.9, 220944, 220944 }, { 1, 220360, 220360 }, { 1.1, 220400, 220400 } },
 			typeng = 0
 		}
 	},
@@ -518,7 +518,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			WorldID = 31
 		} },
 	V_land = 62,
-	V_max_h = 268,
+	V_max_h = 290,
 	V_max_sea_level = 200,
 	V_opt = 213.33,
 	V_take_off = 80,
@@ -771,8 +771,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	swapped_names = true,
 	tand_gear_max = 0.698,
 	tanker_type = 0,
-	thrust_sum_ab = 235344,
-	thrust_sum_max = 235344,
+	thrust_sum_ab = 25420,
+	thrust_sum_max = 25420,
 	type = "H-6J",
 	wing_area = 165,
 	wing_span = 33,

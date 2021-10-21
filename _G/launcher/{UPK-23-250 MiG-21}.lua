@@ -12,7 +12,7 @@ _G["launcher"]["{UPK-23-250 MiG-21}"] = {
 	_origin = "MiG-21Bis AI by Magnitude 3 LLC",
 	attribute = { 4, 15, 46, "Redacted" },
 	category = 6,
-	displayName = "UPK-23-250",
+	displayName = "UPK-23-250 - gun pod",
 	kind_of_shipping = 2,
 	wsTypeOfWeapon = { 4, 6, 10, "Redacted" }
 }

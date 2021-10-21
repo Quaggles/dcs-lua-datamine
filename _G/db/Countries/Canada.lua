@@ -364,6 +364,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "M8_Greyhound"
 				}, {
+					Name = "M2A1-105"
+				}, {
 					Name = "M1_37mm"
 				}, {
 					Name = "DR_50Ton_Flat_Wagon"
@@ -877,11 +879,11 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "LST_Mk2",
+					Name = "HandyWind",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "HandyWind",
+					Name = "LST_Mk2",
 					in_service = 0,
 					out_of_service = 40000
 				}, {

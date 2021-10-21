@@ -22,7 +22,7 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["_9A33"] = {
 	PL = { {
 			ammo_capacity = 6,
 			name_ammunition = "9M33",
-			reload_time = 1800,
+			reload_time = 300,
 			shot_delay = 0.1,
 			type_ammunition = { 4, 4, 34, "Redacted" }
 		} },

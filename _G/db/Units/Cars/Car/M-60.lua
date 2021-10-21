@@ -138,10 +138,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMax = 8000,
 					distanceMin = 20,
 					sensor = {},
+					sightIndicationMode = 2,
 					type = 6
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.15707963267949, 0.33161255787892 } },
 			center = "CENTER_TOWER_01",
+			cockpit = { "M60A3 Patton/M60A3", { 0, 0, 0 } },
 			drawArgument1 = 0,
 			drawArgument2 = 1,
 			laser = true,
@@ -173,13 +175,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			angles = { { 3.1415926535898, -3.1415926535898, -0.15707963267949, 0.69813170079773 } },
 			base = 1,
 			center = "CENTER_TOWER_02",
+			cockpit = { "CWS/CWS", { 0.1, 0, 0 } },
 			drawArgument1 = 24,
 			drawArgument2 = 25,
 			omegaY = 0.69813170079773,
 			omegaZ = 0.69813170079773,
 			pointer = "POINT_SIGHT_03"
 		},
-		maxTargetDetectionRange = 10000
+		maxTargetDetectionRange = 10000,
+		smoke = { "SMOKE_01", "SMOKE_02", "SMOKE_03", "SMOKE_04", "SMOKE_01", "SMOKE_02", "SMOKE_03", "SMOKE_04" }
 	},
 	Waypoint_Custom_Panel = true,
 	airWeaponDist = 1500,
@@ -189,7 +193,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	chassis = {},
 	crew_locale = "ENG",
 	crew_members = { "commander", "gunner" },
-	enablePlayerCanDrive = false,
+	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
+	driverViewConnectorName = { "POINT_DRIVER",
+		offset = { 0.05, 0, 0 }
+	},
+	enablePlayerCanDrive = true,
 	mapclasskey = "P0091000001",
 	sensor = {
 		height = 3.27

@@ -34,7 +34,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	Countries = { "Germany", "Third Reich", "Japan", "Italian Social Republic", "Finland", "Hungary", "Romania", "Bulgaria" },
 	DetectionRange = 0,
-	DisplayName = "Carrier Sd.Kfz.7 Tractor",
+	DisplayName = "Tractor Sd.Kfz.7 Art'y Tractor",
 	DisplayNameShort = "Kfz.7",
 	IR_emission_coeff = 0.075,
 	InternalCargo = {
@@ -42,7 +42,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		nominalCapacity = 1100
 	},
 	MaxSpeed = 49.968,
-	Name = "Carrier Sd.Kfz.7 Tractor",
+	Name = "Tractor Sd.Kfz.7 Art'y Tractor",
 	Rate = 6,
 	Waypoint_Custom_Panel = true,
 	_file = "./Mods/tech/WWII Units/Database/db_units_cars.lua",

@@ -1,17 +1,18 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Countries = { "Australia", "Belgium", "Canada", "Czech Republic", "France", "Italia", "Poland", "The Netherlands", "UK", "USA", "USSR", "Yugoslavia" },
 	DetectionRange = 0,
-	DisplayName = 'AAA QF 3,7"',
+	DisplayName = 'AAA QF 3.7"',
 	DisplayNameShort = 'QF3,7"',
 	IR_emission_coeff = 0.01,
 	MaxSpeed = 0,
-	Name = 'AAA QF 3,7"',
+	Name = 'AAA QF 3.7"',
 	Rate = 4,
 	ThreatRange = 9000,
 	WS = { {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_GUN_01",
+							muzzleBrakeType = 2,
 							recoilArgument = 23,
 							recoilTime = 0.8
 						} },

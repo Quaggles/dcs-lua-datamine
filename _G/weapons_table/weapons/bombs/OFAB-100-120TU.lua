@@ -51,7 +51,7 @@ _G["weapons_table"]["weapons"]["bombs"]["OFAB-100-120TU"] = {
 			v0 = 200
 		},
 		type = 0,
-		user_name = "OFAB 100-120 TU",
+		user_name = "OFAB 100-120 TU - 123 kg, bomb, parachute",
 		warhead = {
 			caliber = 273,
 			concrete_factors = { 1, 1, 1 },
@@ -67,7 +67,7 @@ _G["weapons_table"]["weapons"]["bombs"]["OFAB-100-120TU"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
-	display_name = "OFAB 100-120 TU",
+	display_name = "OFAB 100-120 TU - 123 kg, bomb, parachute",
 	mass = 123,
 	model = "ofab-100-120",
 	name = "OFAB-100-120TU",
@@ -120,7 +120,7 @@ _G["weapons_table"]["weapons"]["bombs"]["OFAB-100-120TU"] = {
 			v0 = 200
 		},
 		type = 0,
-		user_name = "OFAB 100-120 TU",
+		user_name = "OFAB 100-120 TU - 123 kg, bomb, parachute",
 		warhead = {
 			caliber = 273,
 			concrete_factors = { 1, 1, 1 },

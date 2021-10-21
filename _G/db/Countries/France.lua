@@ -376,6 +376,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "M8_Greyhound"
 				}, {
+					Name = "M2A1-105"
+				}, {
 					Name = "M1_37mm"
 				}, {
 					Name = "DR_50Ton_Flat_Wagon"

@@ -36,7 +36,7 @@ _G["weapons_table"]["weapons"]["nurs"]["S-24B"] = {
 			wind_time = 1,
 			wing_unfold_time = 0
 		},
-		model = "C-24",
+		model = "s-24B",
 		name = "S-24B",
 		properties = {
 			dist_max = 4000,
@@ -44,13 +44,13 @@ _G["weapons_table"]["weapons"]["nurs"]["S-24B"] = {
 		},
 		scheme = "schemes/rockets/nurs-standard.sch",
 		shape_table_data = { {
-				file = "C-24",
+				file = "s-24b",
 				fire = { 0, 1 },
 				index = "Redacted",
 				life = 1,
 				username = "S-24B"
 			} },
-		user_name = "S-24B (21)",
+		user_name = "S-24B (21) - 180 kg, fragmented unguided rocket",
 		warhead = {
 			caliber = 240,
 			concrete_factors = { 0.5, 0.5, 0.1 },
@@ -67,11 +67,11 @@ _G["weapons_table"]["weapons"]["nurs"]["S-24B"] = {
 		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 	},
 	cx_pil = 0.00079051314330613,
-	display_name = "S-24B (21)",
+	display_name = "S-24B (21) - 180 kg, fragmented unguided rocket",
 	dist_max = 4000,
 	dist_min = 2000,
 	mass = 180.5,
-	model = "C-24",
+	model = "s-24B",
 	name = "S-24B",
 	server = {
 		_file = "./CoreMods/aircraft/MiG-21BIS/Entry/Aw",
@@ -107,7 +107,7 @@ _G["weapons_table"]["weapons"]["nurs"]["S-24B"] = {
 			wind_time = 1,
 			wing_unfold_time = 0
 		},
-		model = "C-24",
+		model = "s-24B",
 		name = "S-24B",
 		properties = {
 			dist_max = 4000,
@@ -115,13 +115,13 @@ _G["weapons_table"]["weapons"]["nurs"]["S-24B"] = {
 		},
 		scheme = "schemes/rockets/nurs-standard.sch",
 		shape_table_data = { {
-				file = "C-24",
+				file = "s-24b",
 				fire = { 0, 1 },
 				index = "Redacted",
 				life = 1,
 				username = "S-24B"
 			} },
-		user_name = "S-24B (21)",
+		user_name = "S-24B (21) - 180 kg, fragmented unguided rocket",
 		warhead = {
 			caliber = 240,
 			concrete_factors = { 0.5, 0.5, 0.1 },

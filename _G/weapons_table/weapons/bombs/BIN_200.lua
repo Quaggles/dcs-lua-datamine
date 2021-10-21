@@ -47,7 +47,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BIN_200"] = {
 			char_time = 20.87
 		},
 		type = 0,
-		user_name = "BIN-200",
+		user_name = "BIN-200 - 200kg Napalm Incendiary Bomb",
 		warhead = {
 			caliber = 325,
 			concrete_factors = { 1, 1, 1 },
@@ -63,7 +63,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BIN_200"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
-	display_name = "BIN-200",
+	display_name = "BIN-200 - 200kg Napalm Incendiary Bomb",
 	mass = 200,
 	model = "BIN-200",
 	name = "BIN_200",
@@ -112,7 +112,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BIN_200"] = {
 			char_time = 20.87
 		},
 		type = 0,
-		user_name = "BIN-200",
+		user_name = "BIN-200 - 200kg Napalm Incendiary Bomb",
 		warhead = {
 			caliber = 325,
 			concrete_factors = { 1, 1, 1 },

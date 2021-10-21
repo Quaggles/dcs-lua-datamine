@@ -69,8 +69,8 @@ _G["rockets"]["#Index"] = {
 	category = 2,
 	class_name = "wAmmunitionAntiShip",
 	controller = {
-		boost_start = 0.001,
-		march_start = 0.01
+		boost_start = 0,
+		march_start = 0
 	},
 	display_name = "C-802AK",
 	engine_control = {
@@ -184,7 +184,7 @@ _G["rockets"]["#Index"] = {
 	},
 	user_name = "C-802AK",
 	v_mid = 372,
-	v_min = 270,
+	v_min = 170,
 	warhead = <1>{
 		caliber = 360,
 		concrete_factors = { 3, 1, 1 },

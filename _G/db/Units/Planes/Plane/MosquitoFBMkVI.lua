@@ -28,7 +28,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				[0] = 0.15
 			},
 			control = "comboList",
-			defValue = 0,
+			defValue = 0.15,
 			id = "ResinLights",
 			label = "Resin Lights Colour Filter",
 			values = { {
@@ -58,7 +58,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				} },
 			wCtrl = 150
 		} },
-	AmmoWeight = 268.8,
+	AmmoWeight = 235.8,
 	CAS_min = 56,
 	CMDS_Edit = false,
 	CMDS_Incrementation = 0,
@@ -68,7 +68,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	ChaffDefault = 0,
 	Damage = { {
 			args = { -1 },
-			children = { 146, 147 },
+			children = { 147, 148 },
 			construction = {
 				durability = 2.54,
 				skin = "Plywood"
@@ -115,7 +115,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				} }
 		}, {
 			args = { -1 },
-			children = { 139, 145, 148 },
+			children = { 140, 146, 149 },
 			construction = {
 				durability = 2.34,
 				skin = "Plywood"
@@ -149,7 +149,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				} }
 		}, {
 			args = { -1 },
-			children = { 140 },
+			children = { 141 },
 			construction = {
 				durability = 0.86,
 				skin = "Glass",
@@ -234,7 +234,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[10] = {
 			args = { -1 },
-			children = { 123, 142 },
+			children = { 123, 143 },
 			construction = {
 				durability = 3.56,
 				skin = "Plywood"
@@ -761,7 +761,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[59] = {
 			args = { -1 },
-			children = { 1, 2, 149, 0, 82 },
+			children = { 1, 2, 150, 0, 82 },
 			construction = {
 				durability = 1.78,
 				skin = "Plywood"
@@ -980,7 +980,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[82] = {
 			args = { -1 },
-			children = { 9, 10, 99, 143, 144, 58 },
+			children = { 9, 10, 99, 144, 145, 58 },
 			construction = {
 				durability = 2.1,
 				skin = "Plywood"
@@ -1058,7 +1058,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[99] = {
 			args = { 147 },
-			children = { 141 },
+			children = { 142 },
 			construction = {
 				durability = 3.56,
 				skin = "Plywood"
@@ -1404,7 +1404,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[113] = {
 			args = { -1, 167, 170, 171 },
-			children = { 114, 103, 135, 136, 15 },
+			children = { 114, 103, 136, 137, 15 },
 			construction = {
 				durability = 2.97,
 				skin = "Plywood",
@@ -1624,7 +1624,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[125] = {
 			args = { -1, 161, 164, 165 },
-			children = { 126, 104, 137, 138, 16 },
+			children = { 126, 104, 138, 139, 16 },
 			construction = {
 				durability = 2.97,
 				skin = "Plywood",
@@ -1782,7 +1782,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.004
 				} }
 		},
-		[135] = {
+		[136] = {
 			args = { -1 },
 			construction = {
 				durability = 0.51,
@@ -1834,17 +1834,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.004
 				} }
 		},
-		[136] = {
-			args = { -1 },
-			construction = {
-				durability = 0.51,
-				skin = "Aluminum",
-				spar = "Truss"
-			},
-			critical_damage = 1,
-			damage_boundary = 0.01,
-			droppable = false
-		},
 		[137] = {
 			args = { -1 },
 			construction = {
@@ -1870,6 +1859,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[139] = {
 			args = { -1 },
 			construction = {
+				durability = 0.51,
+				skin = "Aluminum",
+				spar = "Truss"
+			},
+			critical_damage = 1,
+			damage_boundary = 0.01,
+			droppable = false
+		},
+		[140] = {
+			args = { -1 },
+			construction = {
 				durability = 0.46,
 				skin = "Aluminum",
 				spar = "Truss"
@@ -1889,7 +1889,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.006
 				} }
 		},
-		[140] = {
+		[141] = {
 			args = { 118 },
 			construction = {
 				durability = 0.35,
@@ -1900,7 +1900,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			damage_boundary = 0.01,
 			droppable = true
 		},
-		[141] = {
+		[142] = {
 			args = { -1 },
 			construction = {
 				durability = 0.81,
@@ -1911,7 +1911,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			damage_boundary = 0.01,
 			droppable = true
 		},
-		[142] = {
+		[143] = {
 			args = { -1 },
 			construction = {
 				durability = 1.24,
@@ -1922,7 +1922,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			damage_boundary = 0.01,
 			droppable = true
 		},
-		[143] = {
+		[144] = {
 			args = { -1 },
 			construction = {
 				durability = 1.86,
@@ -1949,7 +1949,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.006
 				} }
 		},
-		[144] = {
+		[145] = {
 			args = { -1 },
 			construction = {
 				durability = 1.86,
@@ -1976,7 +1976,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.006
 				} }
 		},
-		[145] = {
+		[146] = {
 			args = { -1 },
 			construction = {
 				durability = 0.79,
@@ -2003,7 +2003,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.006
 				} }
 		},
-		[146] = {
+		[147] = {
 			args = { -1 },
 			construction = {
 				durability = 0.79,
@@ -2030,7 +2030,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.006
 				} }
 		},
-		[147] = {
+		[148] = {
 			args = { -1 },
 			construction = {
 				durability = 0.35,
@@ -2052,7 +2052,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.006
 				} }
 		},
-		[148] = {
+		[149] = {
 			args = { -1 },
 			construction = {
 				durability = 0.35,
@@ -2074,7 +2074,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.006
 				} }
 		},
-		[149] = {
+		[150] = {
 			args = { -1 },
 			children = { 3 },
 			construction = {
@@ -2131,10 +2131,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			BLADE_6_IN = 79,
 			BLADE_6_OUT = 81,
 			COCKPIT = 3,
-			COWLING_1 = 135,
-			COWLING_2 = 136,
-			COWLING_3 = 137,
-			COWLING_4 = 138,
+			COWLING_1 = 136,
+			COWLING_2 = 137,
+			COWLING_3 = 138,
+			COWLING_4 = 139,
 			ELEVATOR_L_IN = 51,
 			ELEVATOR_L_OUT = 49,
 			ELEVATOR_R_IN = 52,
@@ -2153,21 +2153,21 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			FUSELAGE_TOP = 99,
 			GEAR_L = 15,
 			GEAR_R = 16,
-			HATCH_01 = 139,
-			HATCH_02 = 140,
-			HATCH_03 = 141,
-			HATCH_04 = 142,
-			HATCH_05 = 143,
-			HATCH_06 = 144,
-			HATCH_07 = 145,
-			HATCH_08 = 146,
-			HATCH_09 = 147,
-			HATCH_10 = 148,
+			HATCH_01 = 140,
+			HATCH_02 = 141,
+			HATCH_03 = 142,
+			HATCH_04 = 143,
+			HATCH_05 = 144,
+			HATCH_06 = 145,
+			HATCH_07 = 146,
+			HATCH_08 = 147,
+			HATCH_09 = 148,
+			HATCH_10 = 149,
 			NOSE_BOTTOM = 59,
 			NOSE_CENTER = 0,
 			NOSE_LEFT_SIDE = 1,
 			NOSE_RIGHT_SIDE = 2,
-			NOSE_TOP = 149,
+			NOSE_TOP = 150,
 			RUDDER = 53,
 			RUDDER_R = 54,
 			STABILIZER_L_IN = 47,
@@ -2207,7 +2207,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		WorldID = 11
 	},
 	DisplayName = "Mosquito FB Mk. VI",
-	EmptyWeight = 6506,
+	EmptyWeight = 7489.5,
 	Failures = { {
 			enable = false,
 			hh = 0,
@@ -2960,7 +2960,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						visual_effect_correction_rebound = 0.1
 					} }
 			},
-			supply_position = { -0.065, -0.154, -0.227 }
+			supply_position = { -0.49, -0.154, -0.227 }
 		}, {
 			_file = "./CoreMods/WWII Units/MosquitoFBMkVI/MosquitoFBMkVI.lua",
 			_origin = "World War II AI Units by Eagle Dynamics",
@@ -3010,7 +3010,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				mixes = { { 2, 4 }, { 2, 4 }, { 2, 4 }, { 2, 4 }, { 1, 6, 2, 2, 4 }, { 1, 6, 2, 2, 4 }, { 3, 6, 3, 3, 3 }, { 1, 1, 2, 2, 4 }, { 1, 5, 2, 2, 4 }, { 1, 1, 1, 6, 1, 1, 1 } },
 				shells = { <table 2>, <table 4>, <table 6>, <table 8>, <table 10>, <table 12> }
 			},
-			supply_position = { 0.154, -0.154, -0.032 }
+			supply_position = { 0.346, -0.154, -0.032 }
 		}, {
 			_file = "./CoreMods/WWII Units/MosquitoFBMkVI/MosquitoFBMkVI.lua",
 			_origin = "World War II AI Units by Eagle Dynamics",
@@ -3060,7 +3060,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				mixes = { { 2, 4 }, { 2, 4 }, { 2, 4 }, { 2, 4 }, { 2, 4, 1, 6, 2 }, { 2, 4, 1, 6, 2 }, { 3, 3, 3, 6, 3 }, { 2, 4, 1, 1, 2 }, { 2, 4, 1, 5, 2 }, { 1, 1, 1, 1, 1, 6, 1 } },
 				shells = { <table 2>, <table 4>, <table 6>, <table 8>, <table 10>, <table 12> }
 			},
-			supply_position = { 0.154, -0.154, -0.032 }
+			supply_position = { 0.346, -0.154, -0.032 }
 		}, {
 			_file = "./CoreMods/WWII Units/MosquitoFBMkVI/MosquitoFBMkVI.lua",
 			_origin = "World War II AI Units by Eagle Dynamics",
@@ -3110,7 +3110,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				mixes = { { 2, 4, 6, 2, 4 }, { 2, 4, 6, 2, 4 }, { 2, 4 }, { 2, 4 }, { 6, 2, 2, 4, 1 }, { 6, 2, 2, 4, 1 }, { 6, 3, 3, 3, 3 }, { 1, 2, 2, 4, 1 }, { 5, 2, 2, 4, 1 }, { 6, 1, 1, 1, 1, 1, 1 } },
 				shells = { <table 2>, <table 4>, <table 6>, <table 8>, <table 10>, <table 12> }
 			},
-			supply_position = { -0.065, -0.154, -0.227 }
+			supply_position = { -0.49, -0.154, -0.227 }
 		}, {
 			_file = "./CoreMods/WWII Units/MosquitoFBMkVI/MosquitoFBMkVI.lua",
 			_origin = "World War II AI Units by Eagle Dynamics",
@@ -3153,7 +3153,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			name = "Browning303MkII",
 			short_name = "Browning303MkII",
 			supply = {
-				count = 750,
+				count = 500,
 				get_mass = <function 9>,
 				get_mass_ = <function 10>,
 				mixes = { { 13, 13, 8, 13, 13, 13, 13 }, { 13, 13, 8, 13, 13, 13, 13 }, { 13 }, { 11 }, { 14, 3, 3, 3, 3 }, { 14, 11, 11, 11, 11 }, { 14, 3, 3, 3, 3 }, { 3 }, { 3 }, { 14, 1 } },
@@ -4117,7 +4117,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						visual_effect_correction_rebound = 0.1
 					} }
 			},
-			supply_position = { 1.938, 0.248, -0.24 }
+			supply_position = { 1.81, 0.248, -0.24 }
 		}, {
 			_file = "./CoreMods/WWII Units/MosquitoFBMkVI/MosquitoFBMkVI.lua",
 			_origin = "World War II AI Units by Eagle Dynamics",
@@ -4160,13 +4160,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			name = "Browning303MkII",
 			short_name = "Browning303MkII",
 			supply = {
-				count = 750,
+				count = 500,
 				get_mass = <function 11>,
 				get_mass_ = <function 12>,
 				mixes = { { 11 }, { 3 }, { 11 }, { 3 }, { 13, 8, 13, 13, 13 }, { 13, 8, 13, 13, 13 }, { 11, 6, 11, 11, 11 }, { 13 }, { 13, 9, 13, 13, 13 }, { 8 } },
 				shells = { <table 14>, <table 16>, <table 18>, <table 20>, <table 22>, <table 24>, <table 26>, <table 28>, <table 30>, <table 32>, <table 34>, <table 36>, <table 38>, <table 40> }
 			},
-			supply_position = { 1.938, 0.248, -0.08 }
+			supply_position = { 1.81, 0.248, -0.08 }
 		}, {
 			_file = "./CoreMods/WWII Units/MosquitoFBMkVI/MosquitoFBMkVI.lua",
 			_origin = "World War II AI Units by Eagle Dynamics",
@@ -4209,13 +4209,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			name = "Browning303MkII",
 			short_name = "Browning303MkII",
 			supply = {
-				count = 750,
+				count = 500,
 				get_mass = <function 13>,
 				get_mass_ = <function 14>,
 				mixes = { { 11 }, { 3 }, { 11 }, { 3 }, { 13, 13, 13, 8, 13 }, { 13, 13, 13, 8, 13 }, { 11, 11, 11, 6, 11 }, { 13 }, { 13, 13, 13, 9, 13 }, { 8 } },
 				shells = { <table 14>, <table 16>, <table 18>, <table 20>, <table 22>, <table 24>, <table 26>, <table 28>, <table 30>, <table 32>, <table 34>, <table 36>, <table 38>, <table 40> }
 			},
-			supply_position = { 1.938, 0.248, 0.08 }
+			supply_position = { 1.81, 0.248, 0.08 }
 		}, {
 			_file = "./CoreMods/WWII Units/MosquitoFBMkVI/MosquitoFBMkVI.lua",
 			_origin = "World War II AI Units by Eagle Dynamics",
@@ -4258,13 +4258,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			name = "Browning303MkII",
 			short_name = "Browning303MkII",
 			supply = {
-				count = 750,
+				count = 500,
 				get_mass = <function 15>,
 				get_mass_ = <function 16>,
 				mixes = { { 13, 13, 13, 13, 8, 13, 13 }, { 13, 13, 13, 13, 8, 13, 13 }, { 13 }, { 11 }, { 11, 11, 14, 11, 11 }, { 11, 11, 14, 11, 11 }, { 11, 11, 6, 11, 11 }, { 3 }, { 11 }, { 1, 14 } },
 				shells = { <table 14>, <table 16>, <table 18>, <table 20>, <table 22>, <table 24>, <table 26>, <table 28>, <table 30>, <table 32>, <table 34>, <table 36>, <table 38>, <table 40> }
 			},
-			supply_position = { 1.938, 0.248, 0.24 }
+			supply_position = { 1.81, 0.248, 0.24 }
 		} },
 	H_max = 11500,
 	HumanRadio = {
@@ -4289,7 +4289,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	},
 	IR_emission_coeff = 0.1,
 	IR_emission_coeff_ab = 0,
-	M_empty = 6506,
+	M_empty = 7489.5,
 	M_fuel_max = 1483.1,
 	M_fuel_per_tank = { 190, 214.4, 255.3, 163.7, 255.3, 214.4, 190, 206.2 },
 	M_max = 11000,
@@ -4828,7 +4828,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			pos = { 0.695, -0.228, 2.552 }
 		} },
 	fires_pos = { { 0, 0.5, 0 }, { -0.6, -0.3, 0.95 }, { -0.6, -0.3, -0.95 }, { -0.7, -0.25, 2.2 }, { -0.7, -0.25, -2.2 }, { -0.9, -0.18, 4.4 }, { -0.9, -0.18, -4.4 }, { 1.7, -0.1, 0.1 }, { 1.7, -0.1, -0.1 }, { 0.2, 0.1, 0.1 }, { 0.2, 0.1, -0.1 } },
-	flaps_maneuver = 0,
+	flaps_maneuver = 0.5,
 	flaps_transmission = "Hydraulic",
 	has_afteburner = false,
 	has_differential_stabilizer = false,

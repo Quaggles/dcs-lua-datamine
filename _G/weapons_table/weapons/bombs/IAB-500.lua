@@ -47,7 +47,7 @@ _G["weapons_table"]["weapons"]["bombs"]["IAB-500"] = {
 			char_time = 20.6
 		},
 		type = 0,
-		user_name = "IAB-500",
+		user_name = "IAB-500 - 470 kg, bomb, free fall",
 		warhead = {
 			caliber = 580,
 			concrete_factors = { 1, 1, 1 },
@@ -63,7 +63,7 @@ _G["weapons_table"]["weapons"]["bombs"]["IAB-500"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
-	display_name = "IAB-500",
+	display_name = "IAB-500 - 470 kg, bomb, free fall",
 	mass = 470,
 	model = "IAB-500",
 	name = "IAB-500",
@@ -112,7 +112,7 @@ _G["weapons_table"]["weapons"]["bombs"]["IAB-500"] = {
 			char_time = 20.6
 		},
 		type = 0,
-		user_name = "IAB-500",
+		user_name = "IAB-500 - 470 kg, bomb, free fall",
 		warhead = {
 			caliber = 580,
 			concrete_factors = { 1, 1, 1 },

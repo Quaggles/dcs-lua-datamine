@@ -16,7 +16,7 @@ _G["db"]["Countries"]["#Index"] = {
 			name = "Al Valor en Combate",
 			nativeName = "Al Valor en Combate",
 			picture = "Argentina/awards/Al Valor en Combate.png",
-			threshold = 600
+			threshold = 800
 		}, <4>{
 			countryID = 83,
 			name = "Heroismo en Combate",
@@ -46,13 +46,13 @@ _G["db"]["Countries"]["#Index"] = {
 			name = "Orden de Mayo",
 			nativeName = "Orden de Mayo",
 			picture = "Argentina/awards/Orden de Mayo.png",
-			threshold = 2200
+			threshold = 2600
 		}, <9>{
 			countryID = 83,
 			name = "Gran Cruz Libertador San Martin",
 			nativeName = "Gran Cruz Libertador San Martin",
 			picture = "Argentina/awards/Gran Cruz Libertador San Martin.png",
-			threshold = 2200
+			threshold = 3000
 		} },
 	InternationalName = "Argentina",
 	Name = "Argentina",
@@ -749,6 +749,10 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "F-86F_MAC",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "MB-339A",
 					in_service = 0,
 					out_of_service = 40000
 				}, {

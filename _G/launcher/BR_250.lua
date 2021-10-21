@@ -11,5 +11,5 @@ _G["launcher"]["BR_250"] = {
 	_origin = "C-101 Aviojet by AvioDev",
 	attribute = { 4, 5, 9, "Redacted" },
 	category = 1,
-	displayName = "BR-250"
+	displayName = "BR-250 - 250kg GP Bomb LD"
 }

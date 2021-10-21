@@ -7,5 +7,6 @@ _G["db"]["Units"]["GT_t"]["SS_t"]["OSA_tracker"]["LN"]["#Index"] = {
 	max_trg_alt = 5000,
 	min_trg_alt = 10,
 	reactionTime = 10,
+	reflection_limit = 0.1,
 	type = 102
 }

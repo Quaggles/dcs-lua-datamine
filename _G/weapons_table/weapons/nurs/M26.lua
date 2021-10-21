@@ -110,7 +110,7 @@ _G["weapons_table"]["weapons"]["nurs"]["M26"] = {
 		scheme = "schemes/rockets/nurs-ground-cluster.sch"
 	},
 	cx_pil = 0.00014707101891584,
-	display_name = "M26",
+	display_name = "M26 (270mm DPICM)",
 	dist_max = 0,
 	dist_min = 0,
 	mass = 306,

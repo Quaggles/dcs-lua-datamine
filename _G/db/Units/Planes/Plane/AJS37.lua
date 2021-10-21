@@ -115,7 +115,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[23] = {
 			args = { 223 },
 			critical_damage = 5,
-			deps_cells = { 135, 25 }
+			deps_cells = { 136, 25 }
 		},
 		[24] = {
 			args = { 700 },
@@ -133,7 +133,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[35] = {
 			args = { 225 },
 			critical_damage = 5,
-			deps_cells = { 23, 51, 137, 136, 25 }
+			deps_cells = { 23, 51, 138, 137, 25 }
 		},
 		[36] = {
 			args = { 701 },
@@ -194,9 +194,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 135 },
 			critical_damage = 4
 		},
-		[135] = {
-			critical_damage = 2
-		},
 		[136] = {
 			critical_damage = 2
 		},
@@ -204,6 +201,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 2
 		},
 		[138] = {
+			critical_damage = 2
+		},
+		[139] = {
 			critical_damage = 2
 		},
 		cell_indices = {
@@ -220,10 +220,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			FRONT = 0,
 			FUSELAGE_LEFT_SIDE = 9,
 			FUSELAGE_RIGHT_SIDE = 10,
-			PYLON_01 = 135,
-			PYLON_02 = 136,
-			PYLON_03 = 137,
-			PYLON_04 = 138,
+			PYLON_01 = 136,
+			PYLON_02 = 137,
+			PYLON_03 = 138,
+			PYLON_04 = 139,
 			RUDDER = 53,
 			STABILIZATOR_L = 47,
 			STABILIZATOR_R = 48,

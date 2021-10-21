@@ -74,8 +74,8 @@ _G["weapons_table"]["weapons"]["missiles"]["C-802AK"] = {
 		category = 2,
 		class_name = "wAmmunitionAntiShip",
 		controller = {
-			boost_start = 0.001,
-			march_start = 0.01
+			boost_start = 0,
+			march_start = 0
 		},
 		engine_control = {
 			K = 265,
@@ -188,7 +188,7 @@ _G["weapons_table"]["weapons"]["missiles"]["C-802AK"] = {
 		},
 		user_name = "C-802AK",
 		v_mid = 372,
-		v_min = 270,
+		v_min = 170,
 		warhead = {
 			caliber = 360,
 			concrete_factors = { 3, 1, 1 },
@@ -290,8 +290,8 @@ _G["weapons_table"]["weapons"]["missiles"]["C-802AK"] = {
 		category = 2,
 		class_name = "wAmmunitionAntiShip",
 		controller = {
-			boost_start = 0.001,
-			march_start = 0.01
+			boost_start = 0,
+			march_start = 0
 		},
 		engine_control = {
 			K = 265,
@@ -404,7 +404,7 @@ _G["weapons_table"]["weapons"]["missiles"]["C-802AK"] = {
 		},
 		user_name = "C-802AK",
 		v_mid = 372,
-		v_min = 270,
+		v_min = 170,
 		warhead = {
 			caliber = 360,
 			concrete_factors = { 3, 1, 1 },

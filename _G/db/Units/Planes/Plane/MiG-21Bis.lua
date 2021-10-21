@@ -387,9 +387,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 5,
 			droppable = false
 		},
-		[135] = {
-			critical_damage = 5
-		},
 		[136] = {
 			critical_damage = 5
 		},
@@ -400,6 +397,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 5
 		},
 		[139] = {
+			critical_damage = 5
+		},
+		[140] = {
 			args = { 301 },
 			critical_damage = 8,
 			droppable = false
@@ -446,10 +446,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			FRONT_GEAR_BOX = 8,
 			FUEL_TANK_B = 62,
 			FUEL_TANK_F = 61,
-			FUEL_TANK_LEFT_SIDE_F = 135,
-			FUEL_TANK_LEFT_SIDE_R = 136,
-			FUEL_TANK_RIGHT_SIDE_F = 137,
-			FUEL_TANK_RIGHT_SIDE_R = 138,
+			FUEL_TANK_LEFT_SIDE_F = 136,
+			FUEL_TANK_LEFT_SIDE_R = 137,
+			FUEL_TANK_RIGHT_SIDE_F = 138,
+			FUEL_TANK_RIGHT_SIDE_R = 139,
 			FUSELAGE_BOTTOM = 82,
 			FUSELAGE_LEFT_SIDE = 9,
 			FUSELAGE_RIGHT_SIDE = 10,
@@ -470,7 +470,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			PYLON3 = 88,
 			PYLON4 = 89,
 			RIGHT_GEAR_BOX = 16,
-			RSBN_1 = 139,
+			RSBN_1 = 140,
 			RUDDER = 53,
 			RUDDER_R = 54,
 			STABILIZER_L_IN = 47,

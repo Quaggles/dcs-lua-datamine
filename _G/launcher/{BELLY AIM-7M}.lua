@@ -1,7 +1,7 @@
 _G["launcher"]["{BELLY AIM-7M}"] = {
 	CLSID = "{BELLY AIM-7M}",
 	Count = 1,
-	Cx_pil = 0.001959765625,
+	Cx_pil = 0.00053955078125,
 	Elements = { {
 			ShapeName = "HB_F14_EXT_AIM-7"
 		} },

@@ -60,6 +60,22 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "AS32-36A",
 					in_service = 0,
 					out_of_service = 40000
+				}, {
+					Name = "CV_59_H60",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "CV_59_Large_Forklift",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "CV_59_MD3",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "CV_59_NS60",
+					in_service = 0,
+					out_of_service = 40000
 				} }
 		},
 		Animals = {
@@ -256,6 +272,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "Wespe124",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Sd_Kfz_234_2_Puma",
 					in_service = 0,
 					out_of_service = 40000
@@ -321,6 +341,14 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "FuSe-65",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Pak40",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "LeFH_18-40-105",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -768,6 +796,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "M2A1-105",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "M4_Tractor",
 					in_service = 0,
 					out_of_service = 40000
@@ -824,6 +856,18 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "TPZ",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Soldier M4",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "M1045 HMMWV TOW",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "M-60",
 					in_service = 0,
 					out_of_service = 40000
@@ -865,10 +909,6 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "SA-18 Igla-S comm",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "M1045 HMMWV TOW",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -1048,10 +1088,6 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "TPZ",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
 					Name = "Cobra",
 					in_service = 0,
 					out_of_service = 40000
@@ -1061,10 +1097,6 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "Soldier M249",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Soldier M4",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -1932,6 +1964,18 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "Mirage 2000-5",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "F-86F_MAC",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "P-51D-30-NA",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "F-16C bl.50",
 					in_service = 0,
 					out_of_service = 40000
@@ -1940,19 +1984,11 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "F-86F_MAC",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
 					Name = "F-16A MLU",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
 					Name = "Tornado IDS",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "P-51D-30-NA",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -1973,6 +2009,14 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "RQ-1A Predator",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "MB-339A",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "MB-339A/PAN",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -2021,10 +2065,6 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "KC-135",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Mirage 2000-5",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -2248,6 +2288,10 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "CVN_75",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Forrestal",
 					in_service = 0,
 					out_of_service = 40000
 				} }

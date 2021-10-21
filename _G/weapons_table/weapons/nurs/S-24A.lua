@@ -50,7 +50,7 @@ _G["weapons_table"]["weapons"]["nurs"]["S-24A"] = {
 				life = 1,
 				username = "S-24A"
 			} },
-		user_name = "S-24A (21)",
+		user_name = "S-24A (21) - 180 kg, cumulative unguided rocket",
 		warhead = {
 			caliber = 240,
 			concrete_factors = { 1, 1, 1 },
@@ -67,7 +67,7 @@ _G["weapons_table"]["weapons"]["nurs"]["S-24A"] = {
 		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 	},
 	cx_pil = 0.00078250625229522,
-	display_name = "S-24A (21)",
+	display_name = "S-24A (21) - 180 kg, cumulative unguided rocket",
 	dist_max = 4000,
 	dist_min = 2000,
 	mass = 180.5,
@@ -121,7 +121,7 @@ _G["weapons_table"]["weapons"]["nurs"]["S-24A"] = {
 				life = 1,
 				username = "S-24A"
 			} },
-		user_name = "S-24A (21)",
+		user_name = "S-24A (21) - 180 kg, cumulative unguided rocket",
 		warhead = {
 			caliber = 240,
 			concrete_factors = { 1, 1, 1 },

@@ -1,16 +1,7 @@
-_G["Pylons"]["F4-PILON"] = {
-	IsAdapter = true,
-	ShapeName = "F4-PILON",
-	_unique_resource_name = "weapons.adapters.F4-PILON",
+_G["Pylons"]["f4-pilon"] = {
+	ShapeName = "f4-pilon",
+	_unique_resource_name = "weapons.adapters.f4-pilon",
 	index = "Redacted",
-	name = "F4-PILON",
-	shape_table_data = { {
-			file = "F4-PILON",
-			fire = { 0, 1 },
-			index = "Redacted",
-			life = 60,
-			name = "F4-PILON",
-			username = "F4-PILON"
-		} },
+	name = "f4-pilon",
 	ws_type = { 4, 15, 47, "Redacted" }
 }

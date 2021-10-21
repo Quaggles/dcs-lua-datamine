@@ -1,11 +1,11 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Countries = { "Germany", "Third Reich", "Japan", "Italian Social Republic", "Finland", "Hungary", "Romania", "Bulgaria" },
 	DetectionRange = 0,
-	DisplayName = "PU Maschinensatz_33",
-	DisplayNameShort = "Masch_33",
+	DisplayName = "Maschinensatz 33 Gen",
+	DisplayNameShort = "Gen Maschinensatz 33",
 	IR_emission_coeff = 0.07,
 	MaxSpeed = 0,
-	Name = "PU Maschinensatz_33",
+	Name = "Maschinensatz 33 Gen",
 	Rate = 4,
 	ThreatRange = 0,
 	WS = {

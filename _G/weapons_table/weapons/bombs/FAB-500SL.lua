@@ -51,7 +51,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB-500SL"] = {
 			v0 = 200
 		},
 		type = 0,
-		user_name = "FAB-500 SL",
+		user_name = "FAB-500 SL - 515 kg, bomb, parachute",
 		warhead = {
 			caliber = 450,
 			concrete_factors = { 1, 1, 1 },
@@ -67,7 +67,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB-500SL"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
-	display_name = "FAB-500 SL",
+	display_name = "FAB-500 SL - 515 kg, bomb, parachute",
 	mass = 515,
 	model = "fab-500-sl",
 	name = "FAB-500SL",
@@ -120,7 +120,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB-500SL"] = {
 			v0 = 200
 		},
 		type = 0,
-		user_name = "FAB-500 SL",
+		user_name = "FAB-500 SL - 515 kg, bomb, parachute",
 		warhead = {
 			caliber = 450,
 			concrete_factors = { 1, 1, 1 },

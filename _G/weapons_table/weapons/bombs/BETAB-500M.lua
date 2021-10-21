@@ -47,7 +47,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BETAB-500M"] = {
 			char_time = 20.58
 		},
 		type = 1,
-		user_name = "BETAB-500M",
+		user_name = "BETAB-500M - 479 kg, bomb, penetrating",
 		warhead = {
 			caliber = 350,
 			concrete_factors = { 1, 1, 10 },
@@ -63,7 +63,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BETAB-500M"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
-	display_name = "BETAB-500M",
+	display_name = "BETAB-500M - 479 kg, bomb, penetrating",
 	mass = 479,
 	model = "BETAB-500M",
 	name = "BETAB-500M",
@@ -112,7 +112,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BETAB-500M"] = {
 			char_time = 20.58
 		},
 		type = 1,
-		user_name = "BETAB-500M",
+		user_name = "BETAB-500M - 479 kg, bomb, penetrating",
 		warhead = {
 			caliber = 350,
 			concrete_factors = { 1, 1, 10 },

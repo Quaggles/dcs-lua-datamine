@@ -117,11 +117,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			}
 		} },
 	DetectionRange = 0,
-	DisplayName = "MT Pz.Kpfw.V Panther Ausf.G",
+	DisplayName = "Tk Panther G (Pz V)",
 	DisplayNameShort = "Pz.V-G",
 	IR_emission_coeff = 0.1,
 	MaxSpeed = 45.72,
-	Name = "MT Pz.Kpfw.V Panther Ausf.G",
+	Name = "Tk Panther G (Pz V)",
 	Rate = 20,
 	Sensors = {
 		OPTIC = { "TRP-2A day", "TRP-2A night" }
@@ -131,6 +131,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_GUN_01",
+							muzzleBrakeType = 2,
 							recoilArgument = 23,
 							recoilTime = 0.5
 						} },

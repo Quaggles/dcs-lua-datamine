@@ -328,18 +328,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			drawArgument2 = 26,
 			omegaY = 0.87266462599716,
 			omegaZ = 0.87266462599716,
-			pidY = {
-				d = 12,
-				i = 0.1,
-				inn = 50,
-				p = 100
-			},
-			pidZ = {
-				d = 12,
-				i = 0.1,
-				inn = 50,
-				p = 100
-			},
 			pointer = "POINT_SIGHT_CWS"
 		},
 		maxTargetDetectionRange = 6000,

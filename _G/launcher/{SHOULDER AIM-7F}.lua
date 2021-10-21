@@ -1,7 +1,7 @@
 _G["launcher"]["{SHOULDER AIM-7F}"] = {
 	CLSID = "{SHOULDER AIM-7F}",
 	Count = 1,
-	Cx_pil = 0.000809326171875,
+	Cx_pil = 0.0007176025390625,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "HB_F14_EXT_SPARROW_PYLON"

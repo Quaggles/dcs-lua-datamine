@@ -1,11 +1,11 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Countries = { "Germany", "Third Reich", "Japan", "Italian Social Republic", "Finland", "Hungary", "Romania", "Bulgaria" },
 	DetectionRange = 0,
-	DisplayName = "SSM V-1 Launcher",
+	DisplayName = "V-1 Launch Ramp",
 	DisplayNameShort = "V-1 Ln",
 	IR_emission_coeff = 0.01,
 	MaxSpeed = 0,
-	Name = "SSM V-1 Launcher",
+	Name = "V-1 Launch Ramp",
 	Rate = 10,
 	ThreatRange = 0,
 	WS = { {

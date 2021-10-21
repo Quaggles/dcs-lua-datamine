@@ -16,7 +16,7 @@ _G["launcher"]["{R-3S}"] = {
 	_origin = "MiG-21Bis AI by Magnitude 3 LLC",
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 4,
-	displayName = "R-3S",
+	displayName = "R-3S - AAM, IR guided",
 	name = "{R-3S}",
 	wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 }

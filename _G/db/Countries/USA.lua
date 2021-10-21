@@ -1148,6 +1148,14 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "AS32-32A"
 				}, {
 					Name = "AS32-36A"
+				}, {
+					Name = "CV_59_H60"
+				}, {
+					Name = "CV_59_Large_Forklift"
+				}, {
+					Name = "CV_59_MD3"
+				}, {
+					Name = "CV_59_NS60"
 				} }
 		},
 		Animals = {
@@ -1587,6 +1595,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "QF_37_AA"
 				}, {
 					Name = "soldier_wwii_us"
+				}, {
+					Name = "M2A1-105"
 				}, {
 					Name = "DR_50Ton_Flat_Wagon"
 				}, {
@@ -2342,6 +2352,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Seawise_Giant",
 					in_service = 0,
 					out_of_service = 40000
+				}, {
+					Name = "Forrestal"
 				} }
 		},
 		WWIIstructures = {

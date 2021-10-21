@@ -5,17 +5,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	Countries = { "Australia", "Belgium", "Canada", "Czech Republic", "France", "Italia", "Poland", "The Netherlands", "UK", "USA", "USSR", "Yugoslavia" },
 	DetectionRange = 0,
-	DisplayName = "LT Mk VII Tetrarch",
+	DisplayName = "Tk Tetrach",
 	DisplayNameShort = "Mk VII",
 	IR_emission_coeff = 0.085,
 	MaxSpeed = 79.992,
-	Name = "LT Mk VII Tetrarch",
+	Name = "Tk Tetrach",
 	Rate = 8,
 	ThreatRange = 2000,
 	WS = { {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_GUN_01",
+							muzzleBrakeType = 2,
 							recoilArgument = 23,
 							recoilTime = 0.3
 						} },

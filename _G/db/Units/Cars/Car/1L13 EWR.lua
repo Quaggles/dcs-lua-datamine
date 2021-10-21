@@ -1,6 +1,6 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	CustomAimPoint = { 0, 1.5, 0 },
-	DetectionRange = 120000,
+	DetectionRange = 300000,
 	DisplayName = "EWR 1L13",
 	DisplayNameShort = "EWR13",
 	EWR = true,
@@ -15,7 +15,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	WS = { {
 			LN = { {
 					ECM_K = 0.65,
-					distanceMax = 120000,
+					distanceMax = 300000,
 					distanceMin = 0,
 					max_trg_alt = 30000,
 					min_trg_alt = 50,
@@ -30,7 +30,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		}, {
 			LN = { {
 					ECM_K = 0.65,
-					distanceMax = 120000,
+					distanceMax = 300000,
 					distanceMin = 0,
 					max_trg_alt = 30000,
 					min_trg_alt = 50,
@@ -45,7 +45,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		}, {
 			LN = { {
 					ECM_K = 0.65,
-					distanceMax = 120000,
+					distanceMax = 300000,
 					distanceMin = 0,
 					max_trg_alt = 30000,
 					min_trg_alt = 50,
@@ -60,7 +60,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		}, {
 			LN = { {
 					ECM_K = 0.65,
-					distanceMax = 120000,
+					distanceMax = 300000,
 					distanceMin = 0,
 					max_trg_alt = 30000,
 					min_trg_alt = 50,
@@ -75,7 +75,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		}, {
 			LN = { {
 					ECM_K = 0.65,
-					distanceMax = 120000,
+					distanceMax = 300000,
 					distanceMin = 0,
 					max_trg_alt = 30000,
 					min_trg_alt = 50,
@@ -90,7 +90,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		}, {
 			LN = { {
 					ECM_K = 0.65,
-					distanceMax = 120000,
+					distanceMax = 300000,
 					distanceMin = 0,
 					max_trg_alt = 30000,
 					min_trg_alt = 50,
@@ -105,7 +105,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		}, {
 			LN = { {
 					ECM_K = 0.65,
-					distanceMax = 120000,
+					distanceMax = 300000,
 					distanceMin = 0,
 					max_trg_alt = 30000,
 					min_trg_alt = 50,
@@ -120,7 +120,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		}, {
 			LN = { {
 					ECM_K = 0.65,
-					distanceMax = 120000,
+					distanceMax = 300000,
 					distanceMin = 0,
 					max_trg_alt = 30000,
 					min_trg_alt = 50,
@@ -135,7 +135,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		}, {
 			LN = { {
 					ECM_K = 0.65,
-					distanceMax = 120000,
+					distanceMax = 300000,
 					distanceMin = 0,
 					max_trg_alt = 30000,
 					min_trg_alt = 50,
@@ -150,7 +150,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		}, {
 			LN = { {
 					ECM_K = 0.65,
-					distanceMax = 120000,
+					distanceMax = 300000,
 					distanceMin = 0,
 					max_trg_alt = 30000,
 					min_trg_alt = 50,
@@ -163,7 +163,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			omegaZ = 1,
 			pos = { 0, 10, 0 }
 		},
-		maxTargetDetectionRange = 120000,
+		maxTargetDetectionRange = 300000,
 		radar_rotation_type = 0,
 		radar_type = 105
 	},
@@ -186,7 +186,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	sensor = {
 		height = 39,
 		max_alt_finding_target = 30000,
-		max_range_finding_target = 120000,
+		max_range_finding_target = 300000,
 		min_range_finding_target = 0
 	},
 	snd = {

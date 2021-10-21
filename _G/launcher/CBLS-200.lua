@@ -16,11 +16,11 @@ _G["launcher"]["CBLS-200"] = {
 			connector_name = "BDU-33-B-R"
 		} },
 	Picture = "bdu-33.png",
-	Weight = 98,
+	Weight = 84.4,
 	_file = "./CoreMods/aircraft/C-101/Weapons.lua",
 	_origin = "C-101 Aviojet by AvioDev",
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
-	displayName = "4*BDU-33",
+	displayName = "4*BDU-33 - AF/B37K Rack with 4*25lb Practice Bomb LD",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

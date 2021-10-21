@@ -11,7 +11,7 @@ _G["launcher"]["{BETAB-500S}"] = {
 	_origin = "MiG-21Bis AI by Magnitude 3 LLC",
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
-	displayName = "BETAB-500S",
+	displayName = "BETAB-500S - 425 kg, bomb, penetrating",
 	name = "{BETAB-500S}",
 	wsTypeOfWeapon = { 4, 5, 37, "Redacted" }
 }

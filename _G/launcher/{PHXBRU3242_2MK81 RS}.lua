@@ -1,7 +1,7 @@
 _G["launcher"]["{PHXBRU3242_2*MK81 RS}"] = {
 	CLSID = "{PHXBRU3242_2*MK81 RS}",
 	Count = 2,
-	Cx_pil = 0.00108,
+	Cx_pil = 0.00098,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "HB_F14_EXT_SHOULDER_PHX_L"

@@ -47,7 +47,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB-500M54"] = {
 			char_time = 20.4
 		},
 		type = 0,
-		user_name = "FAB-500 M54",
+		user_name = "FAB-500 M54 - 474 kg, bomb, free-fall",
 		warhead = {
 			caliber = 450,
 			concrete_factors = { 1, 1, 1 },
@@ -63,7 +63,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB-500M54"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
-	display_name = "FAB-500 M54",
+	display_name = "FAB-500 M54 - 474 kg, bomb, free-fall",
 	mass = 474,
 	model = "fab-500-m54",
 	name = "FAB-500M54",
@@ -112,7 +112,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB-500M54"] = {
 			char_time = 20.4
 		},
 		type = 0,
-		user_name = "FAB-500 M54",
+		user_name = "FAB-500 M54 - 474 kg, bomb, free-fall",
 		warhead = {
 			caliber = 450,
 			concrete_factors = { 1, 1, 1 },

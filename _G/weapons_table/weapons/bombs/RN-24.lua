@@ -47,7 +47,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RN-24"] = {
 			char_time = 20.6
 		},
 		type = 0,
-		user_name = "RN-24",
+		user_name = "RN-24 - 470kg, nuclear bomb, free fall",
 		warhead = {
 			caliber = 580,
 			concrete_factors = { 1, 1, 1 },
@@ -63,7 +63,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RN-24"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
-	display_name = "RN-24",
+	display_name = "RN-24 - 470kg, nuclear bomb, free fall",
 	mass = 470,
 	model = "RN-24",
 	name = "RN-24",
@@ -112,7 +112,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RN-24"] = {
 			char_time = 20.6
 		},
 		type = 0,
-		user_name = "RN-24",
+		user_name = "RN-24 - 470kg, nuclear bomb, free fall",
 		warhead = {
 			caliber = 580,
 			concrete_factors = { 1, 1, 1 },

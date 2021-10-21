@@ -2,6 +2,12 @@ _G["Pylons"]["adapter_df4a"] = {
 	IsAdapter = true,
 	ShapeName = "adapter_df4a",
 	_unique_resource_name = "weapons.adapters.adapter_df4a",
+	animation = {
+		arg_num = 1,
+		init_value = 0,
+		rate_in = 1,
+		rate_out = 17
+	},
 	index = "Redacted",
 	name = "adapter_df4a",
 	shape_table_data = { {

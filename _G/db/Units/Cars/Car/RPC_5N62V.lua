@@ -20,7 +20,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					max_number_of_missiles_channels = 1,
 					max_trg_alt = 40000,
 					min_trg_alt = 25,
-					reactionTime = 2,
+					reactionTime = 17,
 					reflection_limit = 0.18,
 					type = 102
 				} },

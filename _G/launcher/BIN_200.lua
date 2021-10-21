@@ -11,5 +11,5 @@ _G["launcher"]["BIN_200"] = {
 	_origin = "C-101 Aviojet by AvioDev",
 	attribute = { 4, 5, 9, "Redacted" },
 	category = 1,
-	displayName = "BIN-200"
+	displayName = "BIN-200 - 200kg Napalm Incendiary Bomb"
 }

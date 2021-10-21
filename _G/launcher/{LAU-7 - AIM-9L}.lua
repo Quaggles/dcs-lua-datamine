@@ -1,7 +1,7 @@
 _G["launcher"]["{LAU-7 - AIM-9L}"] = {
 	CLSID = "{LAU-7 - AIM-9L}",
 	Count = 1,
-	Cx_pil = 0.000755859375,
+	Cx_pil = 0.0007086181640625,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "HB_F14_EXT_LAU-7"

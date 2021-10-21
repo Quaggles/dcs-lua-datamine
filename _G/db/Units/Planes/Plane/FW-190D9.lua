@@ -2952,6 +2952,28 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						C = { { "Arg", 38, "to", 0.9, "in", 5 } }
 					} },
 				Transition = { "Any", "Ditch" }
+			} },
+		ServiceHatch10 = { {
+				Sequence = { {
+						C = { { "Origin", "x", 0.398, "y", -0.4, "z", -2.437 }, { "Impulse", 2, "tertiary", 7.2 } }
+					} },
+				Transition = { "Any", "TearOff" }
+			}, {
+				Sequence = { {
+						C = { { "Sleep", "for", 0 } }
+					} },
+				Transition = { "Any", "Close" }
+			} },
+		ServiceHatch11 = { {
+				Sequence = { {
+						C = { { "Origin", "x", 0.398, "y", -0.4, "z", 2.437 }, { "Impulse", 2, "tertiary", 7.2 } }
+					} },
+				Transition = { "Any", "TearOff" }
+			}, {
+				Sequence = { {
+						C = { { "Sleep", "for", 0 } }
+					} },
+				Transition = { "Any", "Close" }
 			} }
 	},
 	net_animation = { 420 },

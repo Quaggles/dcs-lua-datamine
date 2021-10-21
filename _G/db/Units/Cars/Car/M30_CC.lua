@@ -142,11 +142,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			}
 		} },
 	DetectionRange = 0,
-	DisplayName = "Carrier M30 Cargo",
+	DisplayName = "Ammo M30 Cargo Carrier",
 	DisplayNameShort = "M30",
 	IR_emission_coeff = 0.08,
 	MaxSpeed = 39.996,
-	Name = "Carrier M30 Cargo",
+	Name = "Ammo M30 Cargo Carrier",
 	Rate = 8,
 	ThreatRange = 1200,
 	WS = { {

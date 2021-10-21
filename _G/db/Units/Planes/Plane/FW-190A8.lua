@@ -865,7 +865,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[82] = {
 			args = { 152 },
-			children = { 11, 12, 7, 135, 136, 137, 138, 139, 140, 141, 142, 4, 5, 3, 35, 36 },
+			children = { 11, 12, 7, 136, 137, 138, 139, 140, 141, 142, 143, 4, 5, 3, 35, 36 },
 			construction = {
 				durability = 3.263,
 				skin = "Aluminum"
@@ -1002,7 +1002,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			damage_boundary = 0.25,
 			droppable = false
 		},
-		[135] = {
+		[136] = {
 			args = { 296 },
 			construction = {
 				durability = 0.544,
@@ -1021,7 +1021,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.004
 				} }
 		},
-		[136] = {
+		[137] = {
 			args = { 297 },
 			construction = {
 				durability = 0.272,
@@ -1037,7 +1037,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.004
 				} }
 		},
-		[137] = {
+		[138] = {
 			args = { 298 },
 			construction = {
 				durability = 0.544,
@@ -1056,7 +1056,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.004
 				} }
 		},
-		[138] = {
+		[139] = {
 			args = { 300 },
 			construction = {
 				durability = 0.544,
@@ -1075,7 +1075,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.004
 				} }
 		},
-		[139] = {
+		[140] = {
 			args = { 302 },
 			construction = {
 				durability = 0.544,
@@ -1094,7 +1094,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.004
 				} }
 		},
-		[140] = {
+		[141] = {
 			args = { 303 },
 			construction = {
 				durability = 0.272,
@@ -1110,7 +1110,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.004
 				} }
 		},
-		[141] = {
+		[142] = {
 			args = { 304 },
 			construction = {
 				durability = 0.544,
@@ -1129,7 +1129,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.004
 				} }
 		},
-		[142] = {
+		[143] = {
 			args = { 273 },
 			children = { 63 },
 			construction = {
@@ -1278,16 +1278,16 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			CABIN_LEFT_SIDE = 4,
 			CABIN_RIGHT_SIDE = 5,
 			COCKPIT = 3,
-			COWLING_1 = 135,
-			COWLING_2 = 136,
-			COWLING_3 = 137,
-			COWLING_4 = 138,
-			COWLING_5 = 139,
-			COWLING_6 = 140,
-			COWLING_7 = 141,
+			COWLING_1 = 136,
+			COWLING_2 = 137,
+			COWLING_3 = 138,
+			COWLING_4 = 139,
+			COWLING_5 = 140,
+			COWLING_6 = 141,
+			COWLING_7 = 142,
 			ELEVATOR_L_OUT = 49,
 			ELEVATOR_R_OUT = 50,
-			ENGINE_CENTER = 142,
+			ENGINE_CENTER = 143,
 			ENGINE_L = 11,
 			ENGINE_R = 12,
 			FIN_L_BOTTOM = 43,
@@ -3387,6 +3387,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			role = "pilot",
 			role_display_name = "Pilot"
 		} },
+	date_of_introduction = 1944.3,
 	detection_range_max = 0,
 	engines_count = 1,
 	engines_nozzles = { {
@@ -3462,6 +3463,28 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						C = { { "Arg", 38, "to", 0.9, "in", 5 } }
 					} },
 				Transition = { "Any", "Ditch" }
+			} },
+		ServiceHatch10 = { {
+				Sequence = { {
+						C = { { "Origin", "x", 0.237, "y", -0.4, "z", -2.537 }, { "Impulse", 2, "tertiary", 7.2 } }
+					} },
+				Transition = { "Any", "TearOff" }
+			}, {
+				Sequence = { {
+						C = { { "Sleep", "for", 0 } }
+					} },
+				Transition = { "Any", "Close" }
+			} },
+		ServiceHatch11 = { {
+				Sequence = { {
+						C = { { "Origin", "x", 0.237, "y", -0.4, "z", 2.537 }, { "Impulse", 2, "tertiary", 7.2 } }
+					} },
+				Transition = { "Any", "TearOff" }
+			}, {
+				Sequence = { {
+						C = { { "Sleep", "for", 0 } }
+					} },
+				Transition = { "Any", "Close" }
 			} }
 	},
 	net_animation = { 420 },

@@ -142,11 +142,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			}
 		} },
 	DetectionRange = 0,
-	DisplayName = "SPG Jagdpanzer IV",
+	DisplayName = "SPG Jagdpanzer IV TD",
 	DisplayNameShort = "JgdPz-IV",
 	IR_emission_coeff = 0.1,
 	MaxSpeed = 38.016,
-	Name = "SPG Jagdpanzer IV",
+	Name = "SPG Jagdpanzer IV TD",
 	Rate = 15,
 	Sensors = {
 		OPTIC = { "TRP-2A day", "TRP-2A night" }
@@ -156,6 +156,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_GUN",
+							muzzleBrakeType = 2,
 							recoilArgument = 23,
 							recoilTime = 0.4
 						} },

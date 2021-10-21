@@ -13,7 +13,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	Countries = { "Australia", "Belgium", "Canada", "Czech Republic", "France", "Italia", "Poland", "The Netherlands", "UK", "USA", "USSR", "Yugoslavia" },
 	DetectionRange = 0,
-	DisplayName = 'Truck GMC "Jimmy" 6x6 Truck',
+	DisplayName = 'Truck GMC "Jimmy" 6x6',
 	DisplayNameShort = "CCKW335",
 	IR_emission_coeff = 0.08,
 	InternalCargo = {
@@ -21,7 +21,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		nominalCapacity = 1200
 	},
 	MaxSpeed = 72,
-	Name = 'Truck GMC "Jimmy" 6x6 Truck',
+	Name = 'Truck GMC "Jimmy" 6x6',
 	Rate = 5,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,

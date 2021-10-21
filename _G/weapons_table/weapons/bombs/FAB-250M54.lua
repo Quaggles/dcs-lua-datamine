@@ -47,7 +47,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB-250M54"] = {
 			char_time = 20.4
 		},
 		type = 0,
-		user_name = "FAB-250 M54",
+		user_name = "FAB-250 M54 - 235 kg, bomb, parachute",
 		warhead = {
 			caliber = 325,
 			concrete_factors = { 1, 1, 1 },
@@ -63,7 +63,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB-250M54"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
-	display_name = "FAB-250 M54",
+	display_name = "FAB-250 M54 - 235 kg, bomb, parachute",
 	mass = 235,
 	model = "fab-250-m54",
 	name = "FAB-250M54",
@@ -112,7 +112,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB-250M54"] = {
 			char_time = 20.4
 		},
 		type = 0,
-		user_name = "FAB-250 M54",
+		user_name = "FAB-250 M54 - 235 kg, bomb, parachute",
 		warhead = {
 			caliber = 325,
 			concrete_factors = { 1, 1, 1 },

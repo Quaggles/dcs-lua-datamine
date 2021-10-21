@@ -45,7 +45,7 @@ _G["weapons_table"]["weapons"]["nurs"]["URAGAN_9M27F"] = {
 		}
 	},
 	cx_pil = 1.3456025171128e-05,
-	display_name = "URAGAN",
+	display_name = "9M27F (220mm HE)",
 	dist_max = 0,
 	dist_min = 0,
 	mass = 280,

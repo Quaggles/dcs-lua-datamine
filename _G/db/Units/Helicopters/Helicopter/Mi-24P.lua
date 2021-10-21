@@ -70,6 +70,11 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		}, {
 			control = "checkbox",
 			defValue = true,
+			id = "TrackAirTargets",
+			label = "Track air targets"
+		}, {
+			control = "checkbox",
+			defValue = true,
 			id = "PilotNVG",
 			label = "Allow Pilots NVG"
 		}, {
@@ -419,7 +424,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			aft_gun_mount = false,
 			azimuth_initial = 0,
 			display_name = "GSh-2-30K",
-			drop_cartridge = 0,
+			drop_cartridge = 203,
 			effective_fire_distance = 1800,
 			effects = { {
 					helicopter = true,
@@ -435,8 +440,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					helicopterback = true,
 					name = "FireEffect"
 				} },
-			ejector_dir = { 0, 0, 1 },
-			ejector_pos = { -3.3, -0.07, -0.07 },
+			ejector_dir = { -1, 0, 0 },
+			ejector_pos = { -3.7, -0.2, 0 },
 			elevation_initial = 0,
 			gun = {
 				impulse_vec_rot = {
@@ -851,6 +856,10 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		modulation = 0
 	},
 	IR_emission_coeff = 0.5,
+	InternalCargo = {
+		maximalCapacity = 2400,
+		nominalCapacity = 2400
+	},
 	LandRWCategories = { {
 			Name = "AircraftCarrier"
 		}, {
@@ -871,11 +880,17 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			Launchers = <7>{ {
 					CLSID = "{B919B0F4-7C25-455E-9A02-CEA51DB895E3}"
 				}, {
+					CLSID = "{2x9M120_Ataka_V}"
+				}, {
+					CLSID = "{2x9M120F_Ataka_V}"
+				}, {
+					CLSID = "{2x9M220_Ataka_V}"
+				}, {
 					CLSID = "{9M114 Shturm-V-2 Rack}"
 				} },
 			Number = 1,
 			Order = 1,
-			Type = 1,
+			Type = 0,
 			X = -1.15,
 			Y = -0.732,
 			Z = -3.208,
@@ -892,6 +907,12 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "{UB-32A-24}"
 				}, {
 					CLSID = "{B919B0F4-7C25-455E-9A02-CEA51DB895E3}"
+				}, {
+					CLSID = "{2x9M120_Ataka_V}"
+				}, {
+					CLSID = "{2x9M120F_Ataka_V}"
+				}, {
+					CLSID = "{2x9M220_Ataka_V}"
 				}, {
 					CLSID = "{FC56DF80-9B09-44C5-8976-DCFAFF219062}"
 				}, {
@@ -913,7 +934,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				} },
 			Number = 2,
 			Order = 2,
-			Type = 1,
+			Type = 0,
 			X = -1.073,
 			Y = -0.191,
 			Z = -2.282,
@@ -1240,7 +1261,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			}, {
 				hAngle = 0,
 				rollAngle = 0,
-				vAngle = 0,
+				vAngle = -17,
 				viewAngle = 89.777542,
 				x_trans = 0,
 				y_trans = 0,
@@ -1302,7 +1323,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				CameraAngleLimits = { 200, -65, 90 },
 				CameraAngleRestriction = { false, 90, 0.4 },
 				CameraViewAngleLimits = { 20, 140 },
-				CockpitLocalPoint = { 4.65, 0.04, -0.007 },
+				CockpitLocalPoint = { 4.65, -0.05, -0.007 },
 				EyePoint = { 0.05, 0.1, 0 },
 				ShoulderSize = 0.25,
 				limits_6DOF = {

@@ -84,7 +84,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	category = "Armor",
 	chassis = {},
 	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
-	driverViewConnectorName = { "POINT_DRVER",
+	driverViewConnectorName = { "POINT_DRIVER",
 		offset = { 0.05, 0, 0 }
 	},
 	enablePlayerCanDrive = true,

@@ -51,7 +51,7 @@ _G["weapons_table"]["weapons"]["bombs"]["ODAB-500PM"] = {
 			v0 = 200
 		},
 		type = 0,
-		user_name = "ODAB-500PM",
+		user_name = "ODAB-500PM - 525 kg, bomb, parachute, simulated aerosol",
 		warhead = {
 			caliber = 500,
 			concrete_factors = { 1, 1, 1 },
@@ -67,7 +67,7 @@ _G["weapons_table"]["weapons"]["bombs"]["ODAB-500PM"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
-	display_name = "ODAB-500PM",
+	display_name = "ODAB-500PM - 525 kg, bomb, parachute, simulated aerosol",
 	mass = 520,
 	model = "ODAB-500PM",
 	name = "ODAB-500PM",
@@ -120,7 +120,7 @@ _G["weapons_table"]["weapons"]["bombs"]["ODAB-500PM"] = {
 			v0 = 200
 		},
 		type = 0,
-		user_name = "ODAB-500PM",
+		user_name = "ODAB-500PM - 525 kg, bomb, parachute, simulated aerosol",
 		warhead = {
 			caliber = 500,
 			concrete_factors = { 1, 1, 1 },

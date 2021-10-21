@@ -320,6 +320,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "SturmPzIV"
 				}, {
+					Name = "Wespe124"
+				}, {
 					Name = "Sd_Kfz_234_2_Puma"
 				}, {
 					Name = "flak30"
@@ -353,6 +355,10 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "FuMG-401"
 				}, {
 					Name = "FuSe-65"
+				}, {
+					Name = "Pak40"
+				}, {
+					Name = "LeFH_18-40-105"
 				}, {
 					Name = "DR_50Ton_Flat_Wagon"
 				}, {

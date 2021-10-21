@@ -145,7 +145,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[11] = {
 			args = { 272 },
-			children = { 135, 15 },
+			children = { 136, 15 },
 			construction = {
 				durability = 3.2,
 				skin = "Aluminum",
@@ -183,7 +183,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[12] = {
 			args = { 270 },
-			children = { 136, 16 },
+			children = { 137, 16 },
 			construction = {
 				durability = 3.2,
 				skin = "Aluminum",
@@ -646,7 +646,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[59] = {
 			args = { 148 },
-			children = { 137 },
+			children = { 138 },
 			construction = {
 				durability = 1,
 				skin = "Aluminum"
@@ -757,7 +757,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			damage_boundary = 0.25,
 			droppable = false
 		},
-		[135] = {
+		[136] = {
 			args = { -1 },
 			children = { 64 },
 			construction = {
@@ -767,7 +767,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 1.17,
 			droppable = false
 		},
-		[136] = {
+		[137] = {
 			args = { -1 },
 			children = { 73 },
 			construction = {
@@ -777,7 +777,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 1.17,
 			droppable = false
 		},
-		[137] = {
+		[138] = {
 			args = { -1 },
 			construction = {
 				durability = 0.6,
@@ -813,8 +813,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			GEAR_R = 16,
 			NOSE_BOTTOM = 59,
 			NOSE_CENTER = 0,
-			ROTOR_L = 135,
-			ROTOR_R = 136,
+			ROTOR_L = 136,
+			ROTOR_R = 137,
 			RUDDER = 53,
 			STABILIZER_L_IN = 47,
 			STABILIZER_L_OUT = 45,
@@ -822,7 +822,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			STABILIZER_R_OUT = 46,
 			TAIL_LEFT_SIDE = 56,
 			TAIL_RIGHT_SIDE = 57,
-			TURRET = 137,
+			TURRET = 138,
 			WHEEL_FRONT = 83,
 			WHEEL_L = 84,
 			WHEEL_R = 85,
@@ -1623,6 +1623,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	},
 	IR_emission_coeff = 0.1,
 	IR_emission_coeff_ab = 0,
+	InheriteCommonCallnames = true,
 	M_Boost_Mixt_max = 0,
 	M_empty = 9860,
 	M_fuel_max = 2120,
@@ -1775,6 +1776,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	},
 	Sensors = {},
 	Shape = "Ju-88A4",
+	SpecificCallnames = {
+		USA = {}
+	},
 	Tasks = { <table 1>, {
 			Name = "Runway Attack",
 			OldID = "Runway Attack",

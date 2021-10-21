@@ -46,7 +46,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BR_500"] = {
 			char_time = 20.87
 		},
 		type = 0,
-		user_name = "BR-500",
+		user_name = "BR-500 - 500kg GP Bomb LD",
 		warhead = {
 			caliber = 356,
 			concrete_factors = { 1, 1, 1 },
@@ -62,7 +62,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BR_500"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
-	display_name = "BR-500",
+	display_name = "BR-500 - 500kg GP Bomb LD",
 	mass = 500,
 	model = "BR-500",
 	name = "BR_500",
@@ -110,7 +110,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BR_500"] = {
 			char_time = 20.87
 		},
 		type = 0,
-		user_name = "BR-500",
+		user_name = "BR-500 - 500kg GP Bomb LD",
 		warhead = {
 			caliber = 356,
 			concrete_factors = { 1, 1, 1 },

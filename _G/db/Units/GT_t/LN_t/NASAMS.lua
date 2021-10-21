@@ -5,8 +5,8 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["NASAMS"] = {
 			ammo_capacity = 6,
 			automaticLoader = false,
 			name_ammunition = "AIM-120B",
-			reload_time = 240,
-			shot_delay = 40,
+			reload_time = 2520,
+			shot_delay = 0.1,
 			type_ammunition = { 4, 4, 7, "Redacted" }
 		} },
 	barrels_reload_type = 3,

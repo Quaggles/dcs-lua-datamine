@@ -22,12 +22,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[23] = {
 			args = { 213 },
 			critical_damage = 5,
-			deps_cells = { 137 }
+			deps_cells = { 138 }
 		},
 		[24] = {
 			args = { 243 },
 			critical_damage = 5,
-			deps_cells = { 140 }
+			deps_cells = { 141 }
 		},
 		[25] = {
 			args = { 229 },
@@ -42,12 +42,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[29] = {
 			args = { 214 },
 			critical_damage = 5,
-			deps_cells = { 135, 136, 35 }
+			deps_cells = { 136, 137, 35 }
 		},
 		[30] = {
 			args = { 214 },
 			critical_damage = 5,
-			deps_cells = { 138, 139, 36 }
+			deps_cells = { 139, 140, 36 }
 		},
 		[35] = {
 			args = { 223 },
@@ -122,50 +122,50 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 115 },
 			critical_damage = 5
 		},
-		[135] = {
+		[136] = {
 			args = { 227 },
 			critical_damage = 2,
 			droppable = false
 		},
-		[136] = {
+		[137] = {
 			args = { 228 },
 			critical_damage = 2,
 			droppable = false
 		},
-		[137] = {
+		[138] = {
 			args = { 226 },
 			critical_damage = 2,
 			droppable = false
 		},
-		[138] = {
+		[139] = {
 			args = { 217 },
 			critical_damage = 2,
 			droppable = false
 		},
-		[139] = {
+		[140] = {
 			args = { 218 },
 			critical_damage = 2,
 			droppable = false
 		},
-		[140] = {
+		[141] = {
 			args = { 216 },
 			critical_damage = 2,
 			droppable = false
-		},
-		[141] = {
-			args = { 147 },
-			critical_damage = 2
 		},
 		[142] = {
 			args = { 147 },
 			critical_damage = 2
 		},
 		[143] = {
+			args = { 147 },
+			critical_damage = 2
+		},
+		[144] = {
 			args = { 246 },
 			critical_damage = 5,
 			deps_cells = { 51, 49 }
 		},
-		[144] = {
+		[145] = {
 			args = { 243 },
 			critical_damage = 5,
 			deps_cells = { 52, 50 }
@@ -180,25 +180,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			ELEVATOR_L_OUT = 49,
 			ELEVATOR_R_IN = 52,
 			ELEVATOR_R_OUT = 50,
-			FLAPS_L_CENTER = 135,
-			FLAPS_L_IN = 136,
-			FLAPS_L_OUT = 137,
-			FLAPS_R_CENTER = 138,
-			FLAPS_R_IN = 139,
-			FLAPS_R_OUT = 140,
+			FLAPS_L_CENTER = 136,
+			FLAPS_L_IN = 137,
+			FLAPS_L_OUT = 138,
+			FLAPS_R_CENTER = 139,
+			FLAPS_R_IN = 140,
+			FLAPS_R_OUT = 141,
 			FRONT_GEAR_BOX = 8,
 			FUSELAGE_BOTTOM = 82,
 			FUSELAGE_TOP = 99,
 			LEFT_GEAR_BOX = 15,
-			NOSE_Bottom = 141,
+			NOSE_Bottom = 142,
 			NOSE_CENTER = 0,
-			NOSE_TOP = 142,
+			NOSE_TOP = 143,
 			RIGHT_GEAR_BOX = 16,
 			ROTOR = 63,
 			RUDDER = 53,
 			RUDDER_R = 54,
-			STABILIZATOR_L_IN = 143,
-			STABILIZATOR_R_IN = 144,
+			STABILIZATOR_L_IN = 144,
+			STABILIZATOR_R_IN = 145,
 			TAIL_BOTTOM = 58,
 			TAIL_TOP = 100,
 			WING_L_CENTER = 29,
@@ -211,9 +211,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	},
 	DamageParts = { "wingloong_oblomok_R", "wingloong_oblomok_L" },
 	DefaultTask = <1>{
-		Name = "Reconnaissance",
-		OldID = "Reconnaissance",
-		WorldID = 17
+		Name = "CAS",
+		OldID = "CAS",
+		WorldID = 31
 	},
 	DisplayName = "WingLoong-I",
 	EPLRS = true,
@@ -304,7 +304,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		OPTIC = { "Winglong-1 CAM", "Winglong-1 FLIR" }
 	},
 	Shape = "wingloong-1",
-	Tasks = { {
+	Tasks = { <table 1>, {
 			Name = "Ground Attack",
 			OldID = "Ground Attack",
 			WorldID = 32
@@ -312,7 +312,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Name = "AFAC",
 			OldID = "AFAC",
 			WorldID = 16
-		}, <table 1> },
+		}, {
+			Name = "Reconnaissance",
+			OldID = "Reconnaissance",
+			WorldID = 17
+		} },
 	V_land = 27.777777777778,
 	V_max_h = 77.777777777778,
 	V_max_sea_level = 77.777777777778,
