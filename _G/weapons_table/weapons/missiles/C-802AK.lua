@@ -74,8 +74,8 @@ _G["weapons_table"]["weapons"]["missiles"]["C-802AK"] = {
 		category = 2,
 		class_name = "wAmmunitionAntiShip",
 		controller = {
-			boost_start = 0,
-			march_start = 0
+			boost_start = 0.001,
+			march_start = 0.01
 		},
 		engine_control = {
 			K = 265,
@@ -290,8 +290,8 @@ _G["weapons_table"]["weapons"]["missiles"]["C-802AK"] = {
 		category = 2,
 		class_name = "wAmmunitionAntiShip",
 		controller = {
-			boost_start = 0,
-			march_start = 0
+			boost_start = 0.001,
+			march_start = 0.01
 		},
 		engine_control = {
 			K = 265,

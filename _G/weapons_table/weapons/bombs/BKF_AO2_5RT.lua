@@ -233,8 +233,9 @@ _G["weapons_table"]["weapons"]["bombs"]["BKF_AO2_5RT"] = {
 				username = "BKF - 12 x AO-2.5RT"
 			} },
 		targeting_data = {
-			bomblet_char_time = 20.5,
-			char_time = 20.43
+			bomblet_char_time = 26,
+			char_time = 26,
+			v0 = 200
 		},
 		type = 5,
 		user_name = "BKF - 12 x AO-2.5RT",
@@ -475,8 +476,9 @@ _G["weapons_table"]["weapons"]["bombs"]["BKF_AO2_5RT"] = {
 				username = "BKF - 12 x AO-2.5RT"
 			} },
 		targeting_data = {
-			bomblet_char_time = 20.5,
-			char_time = 20.43
+			bomblet_char_time = 26,
+			char_time = 26,
+			v0 = 200
 		},
 		type = 5,
 		user_name = "BKF - 12 x AO-2.5RT",
@@ -484,8 +486,9 @@ _G["weapons_table"]["weapons"]["bombs"]["BKF_AO2_5RT"] = {
 	},
 	sounderName = "Weapons/Bomb",
 	targeting_data = {
-		bomblet_char_time = 20.5,
-		char_time = 20.43
+		bomblet_char_time = 26,
+		char_time = 26,
+		v0 = 200
 	},
 	type_name = "bomb",
 	ws_type = { 4, 5, 38, "Redacted" }

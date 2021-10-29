@@ -18,7 +18,7 @@ _G["launcher"]["{2x9M220_Ataka_V}"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 4,
 	displayName = "2 x 9M220O Ataka (AT-9 Spiral-2) - AAM, SACLOS, Frag",
-	kind_of_shipping = 2,
+	kind_of_shipping = 0,
 	name = "{2x9M220_Ataka_V}",
 	wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 }

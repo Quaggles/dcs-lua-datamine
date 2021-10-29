@@ -117,6 +117,14 @@ _G["rockets"]["#Index"] = {
 		wind_sigma = 0,
 		wind_time = 0
 	},
+	gimbal = {
+		delay = 0,
+		max_tracking_rate = 0.5235987755983,
+		op_time = 95,
+		pitch_max = 1.0471975511966,
+		tracking_gain = 40,
+		yaw_max = 1.0471975511966
+	},
 	march = {
 		custom_smoke_dissipation_factor = 0.2,
 		fuel_mass = 11.6,

@@ -69,8 +69,8 @@ _G["rockets"]["#Index"] = {
 	category = 2,
 	class_name = "wAmmunitionAntiShip",
 	controller = {
-		boost_start = 0,
-		march_start = 0
+		boost_start = 0.001,
+		march_start = 0.01
 	},
 	display_name = "YJ-83K",
 	engine_control = {

@@ -97,7 +97,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_97"] = {
 						set_start_args = { 0, 12, 13 },
 						spawm_args_change = { { 1, 1, 1 }, { 1, 12, 0 }, { 2, 2, 1 } },
 						spawn_args_change = { { 1, 12, 0 }, { 1, 1, 0.6 } },
-						spawn_time = { 0.02, 0.16, 0.52 },
+						spawn_time = { 0.02, 0.16, 0.58 },
 						spawn_weight_loss = { 0, 150, 150 },
 						wind_sigma = 20
 					},
@@ -290,7 +290,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_97"] = {
 						set_start_args = { 0, 12, 13 },
 						spawm_args_change = { { 1, 1, 1 }, { 1, 12, 0 }, { 2, 2, 1 } },
 						spawn_args_change = { { 1, 12, 0 }, { 1, 1, 0.6 } },
-						spawn_time = { 0.02, 0.16, 0.52 },
+						spawn_time = { 0.02, 0.16, 0.58 },
 						spawn_weight_loss = { 0, 150, 150 },
 						wind_sigma = 20
 					},
@@ -523,7 +523,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_97"] = {
 						set_start_args = { 0, 12, 13 },
 						spawm_args_change = { { 1, 1, 1 }, { 1, 12, 0 }, { 2, 2, 1 } },
 						spawn_args_change = { { 1, 12, 0 }, { 1, 1, 0.6 } },
-						spawn_time = { 0.02, 0.16, 0.52 },
+						spawn_time = { 0.02, 0.16, 0.58 },
 						spawn_weight_loss = { 0, 150, 150 },
 						wind_sigma = 20
 					},
@@ -716,7 +716,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_97"] = {
 						set_start_args = { 0, 12, 13 },
 						spawm_args_change = { { 1, 1, 1 }, { 1, 12, 0 }, { 2, 2, 1 } },
 						spawn_args_change = { { 1, 12, 0 }, { 1, 1, 0.6 } },
-						spawn_time = { 0.02, 0.16, 0.52 },
+						spawn_time = { 0.02, 0.16, 0.58 },
 						spawn_weight_loss = { 0, 150, 150 },
 						wind_sigma = 20
 					},
@@ -845,8 +845,8 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_97"] = {
 	},
 	sounderName = "Weapons/Bomb",
 	targeting_data = {
-		bomblet_char_time = 250,
-		char_time = 20.38
+		bomblet_char_time = 80,
+		char_time = 20.39
 	},
 	type_name = "bomb",
 	ws_type = { 4, 5, 38, "Redacted" }
