@@ -29,7 +29,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_29TE"] = {
 			work_time = 0
 		},
 		controller = {
-			boost_start = 0.01,
+			boost_start = 0,
 			march_start = 0.8
 		},
 		fm = {
@@ -133,7 +133,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_29TE"] = {
 			work_time = 0
 		},
 		controller = {
-			boost_start = 0.01,
+			boost_start = 0,
 			march_start = 0.8
 		},
 		fm = {

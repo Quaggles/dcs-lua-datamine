@@ -256,18 +256,6 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "M4_Sherman",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "M4A4_Sherman_FF",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Pz_IV_H",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
 					Name = "Soldier stinger",
 					in_service = 0,
 					out_of_service = 40000
@@ -368,6 +356,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "Coach a platform"
 				}, {
+					Name = "M4_Sherman"
+				}, {
 					Name = "bofors40"
 				}, {
 					Name = "ES44AH"
@@ -377,6 +367,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Tankcartrinity"
 				}, {
 					Name = "Wellcarnsc"
+				}, {
+					Name = "M4A4_Sherman_FF"
 				}, {
 					Name = "soldier_wwii_br_01"
 				}, {

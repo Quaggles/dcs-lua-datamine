@@ -639,36 +639,39 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}",
 					arg_value = 0.35
 				}, <9>{
-					CLSID = "{37DCC01E-9E02-432F-B61D-10C166CA2798}",
+					CLSID = "{FAB_250_M62}",
 					arg_value = 0.35
 				}, <10>{
-					CLSID = "{4203753F-8198-4E85-9924-6F8FF679F9FF}",
+					CLSID = "{37DCC01E-9E02-432F-B61D-10C166CA2798}",
 					arg_value = 0.35
 				}, <11>{
-					CLSID = "{RBK_250_275_AO_1SCH}",
+					CLSID = "{4203753F-8198-4E85-9924-6F8FF679F9FF}",
 					arg_value = 0.35
 				}, <12>{
-					CLSID = "{D5435F26-F120-4FA3-9867-34ACE562EF1B}",
+					CLSID = "{RBK_250_275_AO_1SCH}",
 					arg_value = 0.35
 				}, <13>{
-					CLSID = "{7AEC222D-C523-425e-B714-719C0D1EB14D}",
+					CLSID = "{D5435F26-F120-4FA3-9867-34ACE562EF1B}",
 					arg_value = 0.35
 				}, <14>{
-					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74884}",
+					CLSID = "{7AEC222D-C523-425e-B714-719C0D1EB14D}",
 					arg_value = 0.35
 				}, <15>{
-					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74881}",
+					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74884}",
 					arg_value = 0.35
 				}, <16>{
-					CLSID = "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}",
+					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74881}",
 					arg_value = 0.35
 				}, <17>{
-					CLSID = "{3858707D-F5D5-4bbb-BDD8-ABB0530EBC7C}",
+					CLSID = "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}",
 					arg_value = 0.35
 				}, <18>{
-					CLSID = "B-8M1 - 20 S-8OFP2",
+					CLSID = "{3858707D-F5D5-4bbb-BDD8-ABB0530EBC7C}",
 					arg_value = 0.35
 				}, <19>{
+					CLSID = "B-8M1 - 20 S-8OFP2",
+					arg_value = 0.35
+				}, <20>{
 					CLSID = "{3DFB7320-AB0E-11d7-9897-000476191836}",
 					arg_value = 0.35
 				} },
@@ -682,7 +685,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			arg_value = 0,
 			use_full_connector_position = true
 		}, {
-			Launchers = <20>{ {
+			Launchers = <21>{ {
 					CLSID = "{682A481F-0CB5-4693-A382-D00DD4A156D7}",
 					arg_value = 0.6
 				}, {
@@ -703,7 +706,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "<CLEAN>",
 					arg_value = 1
-				}, <table 6>, <table 7>, <table 8>, <table 9>, <table 10>, <table 11>, <table 12>, <table 13>, <table 14>, <table 15>, <table 16>, <table 17>, <table 18>, <table 19>, {
+				}, <table 6>, <table 7>, <table 8>, <table 9>, <table 10>, <table 11>, <table 12>, <table 13>, <table 14>, <table 15>, <table 16>, <table 17>, <table 18>, <table 19>, <table 20>, {
 					CLSID = "{9B25D316-0434-4954-868F-D51DB1A38DF0}"
 				}, {
 					CLSID = "{88DAC840-9F75-4531-8689-B46E64E42E53}"
@@ -747,7 +750,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Y = -0.15,
 			Z = 0
 		}, {
-			Launchers = <table 20>,
+			Launchers = <table 21>,
 			Number = 5,
 			Order = 5,
 			Type = 0,

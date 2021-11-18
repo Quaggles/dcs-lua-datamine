@@ -48,7 +48,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						} },
 					aiming_director = true,
 					depends_on_unit = { { { "self", 1 } } },
-					reactionTime = 10,
+					distanceMax = 11000,
+					reactionTime = 15,
 					sensor = <1>{
 						Tau = 2,
 						baseLength = 4,
@@ -57,7 +58,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						deviation_error_speed_sensor = 0.02,
 						magnification = 24,
 						type = 1
-					}
+					},
+					sightMaxTanVel = 200
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.5620696805349 } },
 			omegaY = 1,
@@ -70,8 +72,10 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						} },
 					aiming_director = true,
 					depends_on_unit = { { { "self", 1 } } },
-					reactionTime = 10,
-					sensor = <table 1>
+					distanceMax = 15000,
+					reactionTime = 15,
+					sensor = <table 1>,
+					sightMaxTanVel = 200
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.5620696805349 } },
 			omegaY = 1,
@@ -92,7 +96,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 2, 16, 26, "Redacted", "Static AAA", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "Armed Air Defence", "Rocket Attack Valid AirDefence", "AAA", "All", "Ground Units", "Vehicles", "Ground vehicles" },
+	attribute = { 2, 16, 26, "Redacted", "AA_flak", "Static AAA", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "Armed Air Defence", "Rocket Attack Valid AirDefence", "AAA", "All", "Ground Units", "Vehicles", "Ground vehicles" },
 	category = "Air Defence",
 	chassis = {
 		life = 1.5

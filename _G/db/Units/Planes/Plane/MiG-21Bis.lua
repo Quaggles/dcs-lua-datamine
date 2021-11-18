@@ -1534,9 +1534,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{4203753F-8198-4E85-9924-6F8FF679F9FF}",
 					connector = "PYLON_R_OUT_2"
 				}, {
-					CLSID = "{40A24F07-CD7D-4F83-89A2-39B2258B62C6}",
-					connector = "PYLON_R_OUT_2"
-				}, {
 					CLSID = "{FAB-250-M54-TU}",
 					connector = "PYLON_R_OUT_1"
 				}, {

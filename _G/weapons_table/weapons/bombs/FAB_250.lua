@@ -17,8 +17,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB_250"] = {
 			caliber = 0.325,
 			cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
 			mass = 236,
-			wind_sigma = 30,
-			wind_time = 1000
+			wind_sigma = 30
 		},
 		scheme = "schemes/bombs/bomb-common.sch",
 		warhead = {
@@ -56,8 +55,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB_250"] = {
 			caliber = 0.325,
 			cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
 			mass = 236,
-			wind_sigma = 30,
-			wind_time = 1000
+			wind_sigma = 30
 		},
 		scheme = "schemes/bombs/bomb-common.sch",
 		warhead = {

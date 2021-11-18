@@ -19,7 +19,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMin = 2000,
 					max_trg_alt = 25000,
 					min_trg_alt = 100,
-					reactionTime = 10,
+					reactionTime = 4,
 					reflection_limit = 0.049,
 					type = 101
 				} },
@@ -34,7 +34,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMin = 2000,
 					max_trg_alt = 25000,
 					min_trg_alt = 100,
-					reactionTime = 10,
+					reactionTime = 4,
 					reflection_limit = 0.049,
 					type = 101
 				} },
@@ -49,7 +49,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMin = 2000,
 					max_trg_alt = 25000,
 					min_trg_alt = 100,
-					reactionTime = 10,
+					reactionTime = 4,
 					reflection_limit = 0.049,
 					type = 101
 				} },
@@ -64,7 +64,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMin = 2000,
 					max_trg_alt = 25000,
 					min_trg_alt = 100,
-					reactionTime = 10,
+					reactionTime = 4,
 					reflection_limit = 0.049,
 					type = 101
 				} },
@@ -79,7 +79,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMin = 2000,
 					max_trg_alt = 25000,
 					min_trg_alt = 100,
-					reactionTime = 10,
+					reactionTime = 4,
 					reflection_limit = 0.049,
 					type = 101
 				} },
@@ -94,7 +94,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMin = 2000,
 					max_trg_alt = 25000,
 					min_trg_alt = 100,
-					reactionTime = 10,
+					reactionTime = 4,
 					reflection_limit = 0.049,
 					type = 101
 				} },
@@ -109,7 +109,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMin = 2000,
 					max_trg_alt = 25000,
 					min_trg_alt = 100,
-					reactionTime = 10,
+					reactionTime = 4,
 					reflection_limit = 0.049,
 					type = 101
 				} },
@@ -124,7 +124,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMin = 2000,
 					max_trg_alt = 25000,
 					min_trg_alt = 100,
-					reactionTime = 10,
+					reactionTime = 4,
 					reflection_limit = 0.049,
 					type = 101
 				} },
@@ -139,7 +139,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMin = 2000,
 					max_trg_alt = 25000,
 					min_trg_alt = 100,
-					reactionTime = 10,
+					reactionTime = 4,
 					reflection_limit = 0.049,
 					type = 101
 				} },
@@ -154,7 +154,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMin = 2000,
 					max_trg_alt = 25000,
 					min_trg_alt = 100,
-					reactionTime = 10,
+					reactionTime = 4,
 					reflection_limit = 0.049,
 					type = 101
 				} },
@@ -169,7 +169,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMin = 2000,
 					max_trg_alt = 25000,
 					min_trg_alt = 100,
-					reactionTime = 10,
+					reactionTime = 4,
 					reflection_limit = 0.049,
 					type = 101
 				} },
@@ -184,7 +184,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMin = 2000,
 					max_trg_alt = 25000,
 					min_trg_alt = 100,
-					reactionTime = 10,
+					reactionTime = 4,
 					reflection_limit = 0.049,
 					type = 101
 				} },
@@ -199,7 +199,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMin = 2000,
 					max_trg_alt = 25000,
 					min_trg_alt = 100,
-					reactionTime = 10,
+					reactionTime = 4,
 					reflection_limit = 0.049,
 					type = 101
 				} },
@@ -214,7 +214,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMin = 2000,
 					max_trg_alt = 25000,
 					min_trg_alt = 100,
-					reactionTime = 10,
+					reactionTime = 4,
 					reflection_limit = 0.049,
 					type = 101
 				} },
@@ -229,7 +229,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMin = 2000,
 					max_trg_alt = 25000,
 					min_trg_alt = 100,
-					reactionTime = 10,
+					reactionTime = 4,
 					reflection_limit = 0.049,
 					type = 101
 				} },
@@ -244,7 +244,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMin = 2000,
 					max_trg_alt = 25000,
 					min_trg_alt = 100,
-					reactionTime = 10,
+					reactionTime = 4,
 					reflection_limit = 0.049,
 					type = 101
 				} },
@@ -259,7 +259,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMin = 2000,
 					max_trg_alt = 25000,
 					min_trg_alt = 100,
-					reactionTime = 10,
+					reactionTime = 4,
 					reflection_limit = 0.049,
 					type = 101
 				} },
@@ -274,7 +274,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMin = 2000,
 					max_trg_alt = 25000,
 					min_trg_alt = 100,
-					reactionTime = 10,
+					reactionTime = 4,
 					reflection_limit = 0.049,
 					type = 101
 				} },
@@ -289,7 +289,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMin = 2000,
 					max_trg_alt = 25000,
 					min_trg_alt = 100,
-					reactionTime = 10,
+					reactionTime = 4,
 					reflection_limit = 0.049,
 					type = 101
 				} },
@@ -304,7 +304,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMin = 2000,
 					max_trg_alt = 25000,
 					min_trg_alt = 100,
-					reactionTime = 10,
+					reactionTime = 4,
 					reflection_limit = 0.049,
 					type = 101
 				} },
@@ -319,7 +319,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMin = 2000,
 					max_trg_alt = 25000,
 					min_trg_alt = 100,
-					reactionTime = 10,
+					reactionTime = 4,
 					reflection_limit = 0.049,
 					type = 101
 				} },
@@ -334,7 +334,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMin = 2000,
 					max_trg_alt = 25000,
 					min_trg_alt = 100,
-					reactionTime = 10,
+					reactionTime = 4,
 					reflection_limit = 0.049,
 					type = 101
 				} },
@@ -349,7 +349,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMin = 2000,
 					max_trg_alt = 25000,
 					min_trg_alt = 100,
-					reactionTime = 10,
+					reactionTime = 4,
 					reflection_limit = 0.049,
 					type = 101
 				} },
@@ -364,7 +364,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMin = 2000,
 					max_trg_alt = 25000,
 					min_trg_alt = 100,
-					reactionTime = 10,
+					reactionTime = 4,
 					reflection_limit = 0.049,
 					type = 101
 				} },
@@ -379,7 +379,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMin = 2000,
 					max_trg_alt = 25000,
 					min_trg_alt = 100,
-					reactionTime = 10,
+					reactionTime = 4,
 					reflection_limit = 0.049,
 					type = 101
 				} },
@@ -394,7 +394,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMin = 2000,
 					max_trg_alt = 25000,
 					min_trg_alt = 100,
-					reactionTime = 10,
+					reactionTime = 4,
 					reflection_limit = 0.049,
 					type = 101
 				} },
@@ -409,7 +409,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMin = 2000,
 					max_trg_alt = 25000,
 					min_trg_alt = 100,
-					reactionTime = 10,
+					reactionTime = 4,
 					reflection_limit = 0.049,
 					type = 101
 				} },
@@ -424,7 +424,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMin = 2000,
 					max_trg_alt = 25000,
 					min_trg_alt = 100,
-					reactionTime = 10,
+					reactionTime = 4,
 					reflection_limit = 0.049,
 					type = 101
 				} },
@@ -439,7 +439,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMin = 2000,
 					max_trg_alt = 25000,
 					min_trg_alt = 100,
-					reactionTime = 10,
+					reactionTime = 4,
 					reflection_limit = 0.049,
 					type = 101
 				} },
@@ -454,7 +454,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMin = 2000,
 					max_trg_alt = 25000,
 					min_trg_alt = 100,
-					reactionTime = 10,
+					reactionTime = 4,
 					reflection_limit = 0.049,
 					type = 101
 				} },
@@ -469,7 +469,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMin = 2000,
 					max_trg_alt = 25000,
 					min_trg_alt = 100,
-					reactionTime = 10,
+					reactionTime = 4,
 					reflection_limit = 0.049,
 					type = 101
 				} },
@@ -484,7 +484,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMin = 2000,
 					max_trg_alt = 25000,
 					min_trg_alt = 100,
-					reactionTime = 10,
+					reactionTime = 4,
 					reflection_limit = 0.049,
 					type = 101
 				} },

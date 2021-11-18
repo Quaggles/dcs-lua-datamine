@@ -320,14 +320,6 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "M4_Sherman",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "M4A4_Sherman_FF",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
 					Name = "MLRS",
 					in_service = 0,
 					out_of_service = 40000
@@ -440,6 +432,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "Coach a platform"
 				}, {
+					Name = "M4_Sherman"
+				}, {
 					Name = "Bedford_MWD"
 				}, {
 					Name = "ES44AH"
@@ -451,6 +445,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Wellcarnsc"
 				}, {
 					Name = "Cromwell_IV"
+				}, {
+					Name = "M4A4_Sherman_FF"
 				}, {
 					Name = "Centaur_IV"
 				}, {

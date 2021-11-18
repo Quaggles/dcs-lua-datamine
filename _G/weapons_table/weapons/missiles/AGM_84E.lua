@@ -62,8 +62,8 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_84E"] = {
 			default_cruise_height = 1524
 		},
 		controller = {
-			boost_start = 0.001,
-			march_start = 0.01
+			boost_start = 0,
+			march_start = 0
 		},
 		engine_control = {
 			K = 240,
@@ -260,8 +260,8 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_84E"] = {
 			default_cruise_height = 1524
 		},
 		controller = {
-			boost_start = 0.001,
-			march_start = 0.01
+			boost_start = 0,
+			march_start = 0
 		},
 		engine_control = {
 			K = 240,

@@ -42,7 +42,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					dispName = "Pilot",
 					id = 0
 				}, {
-					dispName = "Operator",
+					dispName = "Copilot-gunner",
 					id = 1
 				}, {
 					dispName = "Ask Always",
@@ -423,7 +423,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	Guns = { {
 			aft_gun_mount = false,
 			azimuth_initial = 0,
-			display_name = "GSh-2-30K",
+			display_name = "GSh-30-2K",
 			drop_cartridge = 203,
 			effective_fire_distance = 1800,
 			effects = { {
@@ -478,7 +478,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						cumulative_thickness = 0,
 						cx = { 0.7, 0.7, 0.25, 0.236, 2.31 },
 						damage_factor = 639,
-						display_name = "GSh_30_2K_AP",
+						display_name = "GSh-30-2K AP",
 						explosive = 0,
 						full_scale_time = -1,
 						j = 0,
@@ -541,7 +541,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						cumulative_thickness = 0,
 						cx = { 0.7, 0.7, 0.25, 0.236, 2.31 },
 						damage_factor = 639,
-						display_name = "GSh_30_2K_HE",
+						display_name = "GSh-30-2K HE",
 						explosive = 0.39,
 						full_scale_time = -1,
 						j = 0,
@@ -604,7 +604,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						cumulative_thickness = 0,
 						cx = { 0.7, 0.7, 0.25, 0.236, 2.31 },
 						damage_factor = 639,
-						display_name = "GSh_30_2K_HE_Tr",
+						display_name = "GSh-30-2K HE Tracer",
 						explosive = 0.39,
 						full_scale_time = -1,
 						j = 0,
@@ -667,7 +667,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						cumulative_thickness = 0,
 						cx = { 0.7, 0.7, 0.25, 0.236, 2.31 },
 						damage_factor = 639,
-						display_name = "GSh_30_2K_AP_Tr",
+						display_name = "GSh-30-2K AP Tracer",
 						explosive = 0,
 						full_scale_time = -1,
 						j = 0,
@@ -922,6 +922,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				}, {
 					CLSID = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}"
 				}, {
+					CLSID = "{FAB_250_M62}"
+				}, {
 					CLSID = "{FB3CE165-BF07-4979-887C-92B87F13276B}"
 				}, {
 					CLSID = "{4203753F-8198-4E85-9924-6F8FF679F9FF}"
@@ -956,6 +958,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "{FB3CE165-BF07-4979-887C-92B87F13276B}"
 				}, {
 					CLSID = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}"
+				}, {
+					CLSID = "{FAB_250_M62}"
 				}, {
 					CLSID = "{37DCC01E-9E02-432F-B61D-10C166CA2798}"
 				}, {
@@ -1379,7 +1383,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			ejection_seat_name = 0,
 			pos = { 4.9, -0.5, -1 },
 			role = "pilot",
-			role_display_name = "Operator"
+			role_display_name = "Copilot-gunner"
 		} },
 	crew_size = 2,
 	detection_range_max = 30,

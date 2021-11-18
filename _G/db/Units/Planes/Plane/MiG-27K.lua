@@ -322,6 +322,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Launchers = { {
 					CLSID = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}"
 				}, {
+					CLSID = "{FAB_250_M62}"
+				}, {
 					CLSID = "{4203753F-8198-4E85-9924-6F8FF679F9FF}"
 				}, {
 					CLSID = "{RBK_250_275_AO_1SCH}"
@@ -345,6 +347,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			Launchers = { {
 					CLSID = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}"
+				}, {
+					CLSID = "{FAB_250_M62}"
 				}, {
 					CLSID = "{4203753F-8198-4E85-9924-6F8FF679F9FF}"
 				}, {

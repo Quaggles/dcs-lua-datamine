@@ -50,7 +50,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_45A"] = {
 		category = 2,
 		class_name = "wAmmunitionSelfHoming",
 		controller = {
-			march_start = 0.021
+			march_start = 0
 		},
 		fm = {
 			A = 0.36,
@@ -214,7 +214,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_45A"] = {
 		category = 2,
 		class_name = "wAmmunitionSelfHoming",
 		controller = {
-			march_start = 0.021
+			march_start = 0
 		},
 		fm = {
 			A = 0.36,

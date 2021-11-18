@@ -355,6 +355,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				}, {
 					CLSID = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}"
 				}, {
+					CLSID = "{FAB_250_M62}"
+				}, {
 					CLSID = "{37DCC01E-9E02-432F-B61D-10C166CA2798}"
 				}, {
 					CLSID = "{3DFB7320-AB0E-11d7-9897-000476191836}"
@@ -390,6 +392,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}"
 				}, {
 					CLSID = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}"
+				}, {
+					CLSID = "{FAB_250_M62}"
 				}, {
 					CLSID = "{37DCC01E-9E02-432F-B61D-10C166CA2798}"
 				}, {

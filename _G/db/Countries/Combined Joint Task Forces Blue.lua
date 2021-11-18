@@ -436,6 +436,14 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "Infantry AK ver2",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Infantry AK ver3",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "KAMAZ Truck",
 					in_service = 0,
 					out_of_service = 40000
@@ -668,10 +676,6 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "M4_Sherman",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
 					Name = "SpGH_Dana",
 					in_service = 0,
 					out_of_service = 40000
@@ -749,6 +753,10 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "TZ-22_TANK",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "M4_Sherman",
 					in_service = 0,
 					out_of_service = 40000
 				}, {

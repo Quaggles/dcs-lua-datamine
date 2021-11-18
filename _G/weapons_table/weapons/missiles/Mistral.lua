@@ -59,7 +59,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Mistral"] = {
 		ccm_k0 = 0.5,
 		class_name = "wAmmunitionSelfHoming",
 		controller = {
-			boost_start = 0.001,
+			boost_start = 0,
 			march_start = 0.2
 		},
 		fm = {
@@ -215,7 +215,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Mistral"] = {
 		ccm_k0 = 0.5,
 		class_name = "wAmmunitionSelfHoming",
 		controller = {
-			boost_start = 0.001,
+			boost_start = 0,
 			march_start = 0.2
 		},
 		fm = {

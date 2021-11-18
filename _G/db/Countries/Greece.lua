@@ -468,10 +468,6 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "flak18",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
 					Name = "ZSU-23-4 Shilka",
 					in_service = 0,
 					out_of_service = 40000

@@ -42,7 +42,7 @@ _G["weapons_table"]["weapons"]["missiles"]["SCUD_RAKETA"] = {
 			test_mode = 0
 		},
 		controller = {
-			boost_start = 0.01,
+			boost_start = 0,
 			march_start = 2.98
 		},
 		fm = {
@@ -148,7 +148,7 @@ _G["weapons_table"]["weapons"]["missiles"]["SCUD_RAKETA"] = {
 			test_mode = 0
 		},
 		controller = {
-			boost_start = 0.01,
+			boost_start = 0,
 			march_start = 2.98
 		},
 		fm = {

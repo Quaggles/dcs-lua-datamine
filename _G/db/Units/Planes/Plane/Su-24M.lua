@@ -292,6 +292,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0,
 					connector = "PylonBD3_1"
 				}, {
+					CLSID = "{FAB_250_M62}",
+					arg_value = 0,
+					connector = "PylonBD3_1"
+				}, {
 					CLSID = "{FC56DF80-9B09-44C5-8976-DCFAFF219062}",
 					arg_value = 0,
 					connector = "PylonBD3_1"
@@ -301,6 +305,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					connector = "PylonBD3_1"
 				}, {
 					CLSID = "{A0648264-4BC0-4EE8-A543-D119F6BA4257}",
+					arg_value = 0,
+					connector = "PylonBD3_1"
+				}, {
+					CLSID = "{S_25_O}",
 					arg_value = 0,
 					connector = "PylonBD3_1"
 				}, {
@@ -376,6 +384,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0,
 					connector = "PylonBD3_2"
 				}, {
+					CLSID = "{FAB_250_M62}",
+					arg_value = 0,
+					connector = "PylonBD3_2"
+				}, {
 					CLSID = "{37DCC01E-9E02-432F-B61D-10C166CA2798}",
 					arg_value = 0,
 					connector = "PylonBD3_2"
@@ -440,6 +452,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0,
 					connector = "PylonBD3_2"
 				}, {
+					CLSID = "{S_25_O}",
+					arg_value = 0,
+					connector = "PylonBD3_2"
+				}, {
 					CLSID = "{39821727-F6E2-45B3-B1F0-490CC8921D1E}",
 					arg_value = 0.1,
 					connector = "PylonBD4_2"
@@ -487,6 +503,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					connector = "PylonBD3_3"
 				}, {
 					CLSID = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}",
+					arg_value = 0,
+					connector = "PylonBD3_3"
+				}, {
+					CLSID = "{FAB_250_M62}",
 					arg_value = 0,
 					connector = "PylonBD3_3"
 				}, {
@@ -564,6 +584,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0,
 					connector = "PylonBD3_4"
 				}, {
+					CLSID = "{FAB_250_M62}",
+					arg_value = 0,
+					connector = "PylonBD3_4"
+				}, {
 					CLSID = "{0511E528-EA28-4caf-A212-00D1408DF10A}",
 					arg_value = 0,
 					connector = "PylonBD3_4"
@@ -609,6 +633,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0,
 					connector = "PylonBD3_5"
 				}, {
+					CLSID = "{FAB_250_M62}",
+					arg_value = 0,
+					connector = "PylonBD3_5"
+				}, {
 					CLSID = "{4203753F-8198-4E85-9924-6F8FF679F9FF}",
 					arg_value = 0,
 					connector = "PylonBD3_5"
@@ -640,6 +668,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					connector = "PylonBD3_6"
 				}, {
 					CLSID = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}",
+					arg_value = 0,
+					connector = "PylonBD3_6"
+				}, {
+					CLSID = "{FAB_250_M62}",
 					arg_value = 0,
 					connector = "PylonBD3_6"
 				}, {
@@ -747,6 +779,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0,
 					connector = "PylonBD3_7"
 				}, {
+					CLSID = "{FAB_250_M62}",
+					arg_value = 0,
+					connector = "PylonBD3_7"
+				}, {
 					CLSID = "{37DCC01E-9E02-432F-B61D-10C166CA2798}",
 					arg_value = 0,
 					connector = "PylonBD3_7"
@@ -808,6 +844,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					connector = "PylonBD3_7"
 				}, {
 					CLSID = "{A0648264-4BC0-4EE8-A543-D119F6BA4257}",
+					arg_value = 0,
+					connector = "PylonBD3_7"
+				}, {
+					CLSID = "{S_25_O}",
 					arg_value = 0,
 					connector = "PylonBD3_7"
 				}, {
@@ -877,6 +917,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0,
 					connector = "PylonBD3_8"
 				}, {
+					CLSID = "{FAB_250_M62}",
+					arg_value = 0,
+					connector = "PylonBD3_8"
+				}, {
 					CLSID = "{FC56DF80-9B09-44C5-8976-DCFAFF219062}",
 					arg_value = 0,
 					connector = "PylonBD3_8"
@@ -886,6 +930,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					connector = "PylonBD3_8"
 				}, {
 					CLSID = "{A0648264-4BC0-4EE8-A543-D119F6BA4257}",
+					arg_value = 0,
+					connector = "PylonBD3_8"
+				}, {
+					CLSID = "{S_25_O}",
 					arg_value = 0,
 					connector = "PylonBD3_8"
 				}, {

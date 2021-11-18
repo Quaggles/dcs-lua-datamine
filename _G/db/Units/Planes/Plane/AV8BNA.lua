@@ -1376,6 +1376,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{BRU-42_LS_3*SUU-25_8*LUU-2}"
 				}, {
+					CLSID = "{A111396E-D3E8-4b9c-8AC9-2432489304D5}",
+					attach_point_position = <4>{ -0.15, -0.2, 0 },
+					forbidden = { {
+							loadout = { "{A111396E-D3E8-4b9c-8AC9-2432489304D5}" },
+							station = 3
+						}, {
+							loadout = { "{A111396E-D3E8-4b9c-8AC9-2432489304D5}" },
+							station = 5
+						}, {
+							loadout = { "{A111396E-D3E8-4b9c-8AC9-2432489304D5}" },
+							station = 6
+						}, {
+							loadout = { "{A111396E-D3E8-4b9c-8AC9-2432489304D5}" },
+							station = 7
+						} }
+				}, {
 					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}"
 				}, {
 					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}"
@@ -1500,7 +1516,20 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{LAU-131 - 7 AGR-20 M282}"
 				}, {
 					CLSID = "{A111396E-D3E8-4b9c-8AC9-2432489304D5}",
-					attach_point_position = <4>{ -0.15, -0.2, 0 }
+					attach_point_position = <table 4>,
+					forbidden = { {
+							loadout = { "{A111396E-D3E8-4b9c-8AC9-2432489304D5}" },
+							station = 2
+						}, {
+							loadout = { "{A111396E-D3E8-4b9c-8AC9-2432489304D5}" },
+							station = 5
+						}, {
+							loadout = { "{A111396E-D3E8-4b9c-8AC9-2432489304D5}" },
+							station = 6
+						}, {
+							loadout = { "{A111396E-D3E8-4b9c-8AC9-2432489304D5}" },
+							station = 7
+						} }
 				}, {
 					CLSID = "{AV8BNA_AERO1D}",
 					forbidden = { {
@@ -1695,7 +1724,20 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{LAU-131 - 7 AGR-20 M282}"
 				}, {
 					CLSID = "{A111396E-D3E8-4b9c-8AC9-2432489304D5}",
-					attach_point_position = <table 4>
+					attach_point_position = <table 4>,
+					forbidden = { {
+							loadout = { "{A111396E-D3E8-4b9c-8AC9-2432489304D5}" },
+							station = 2
+						}, {
+							loadout = { "{A111396E-D3E8-4b9c-8AC9-2432489304D5}" },
+							station = 3
+						}, {
+							loadout = { "{A111396E-D3E8-4b9c-8AC9-2432489304D5}" },
+							station = 5
+						}, {
+							loadout = { "{A111396E-D3E8-4b9c-8AC9-2432489304D5}" },
+							station = 7
+						} }
 				}, {
 					CLSID = "{AV8BNA_AERO1D}",
 					forbidden = { {
@@ -1913,6 +1955,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{CAE48299-A294-4bad-8EE6-89EFC5DCDF00}"
 				}, {
 					CLSID = "{BRU-42_LS_3*SUU-25_8*LUU-2}"
+				}, {
+					CLSID = "{A111396E-D3E8-4b9c-8AC9-2432489304D5}",
+					attach_point_position = <table 4>,
+					forbidden = { {
+							loadout = { "{A111396E-D3E8-4b9c-8AC9-2432489304D5}" },
+							station = 2
+						}, {
+							loadout = { "{A111396E-D3E8-4b9c-8AC9-2432489304D5}" },
+							station = 3
+						}, {
+							loadout = { "{A111396E-D3E8-4b9c-8AC9-2432489304D5}" },
+							station = 5
+						}, {
+							loadout = { "{A111396E-D3E8-4b9c-8AC9-2432489304D5}" },
+							station = 6
+						} }
 				}, {
 					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}"
 				}, {

@@ -25,8 +25,8 @@ _G["weapons_table"]["weapons"]["missiles"]["MIM_72G"] = {
 			work_time = 0.001
 		},
 		controller = {
-			boost_start = 0.001,
-			march_start = 0.002
+			boost_start = 0,
+			march_start = 0
 		},
 		fm = {
 			A = 0.6,
@@ -134,8 +134,8 @@ _G["weapons_table"]["weapons"]["missiles"]["MIM_72G"] = {
 			work_time = 0.001
 		},
 		controller = {
-			boost_start = 0.001,
-			march_start = 0.002
+			boost_start = 0,
+			march_start = 0
 		},
 		fm = {
 			A = 0.6,

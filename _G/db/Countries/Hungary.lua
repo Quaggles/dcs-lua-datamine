@@ -176,10 +176,6 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "Sd_Kfz_251",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
 					Name = "BRDM-2",
 					in_service = 0,
 					out_of_service = 40000
@@ -189,10 +185,6 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "T-55",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Pz_IV_H",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -333,6 +325,10 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Wellcarnsc"
 				}, {
 					Name = "flak18"
+				}, {
+					Name = "Pz_IV_H"
+				}, {
+					Name = "Sd_Kfz_251"
 				}, {
 					Name = "Blitz_36-6700A"
 				}, {

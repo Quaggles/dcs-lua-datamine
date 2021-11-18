@@ -57,8 +57,8 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_84A"] = {
 			work_time = 0
 		},
 		controller = {
-			boost_start = 0.001,
-			march_start = 0.01
+			boost_start = 0,
+			march_start = 0
 		},
 		engine_control = {
 			K = 265,
@@ -245,8 +245,8 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_84A"] = {
 			work_time = 0
 		},
 		controller = {
-			boost_start = 0.001,
-			march_start = 0.01
+			boost_start = 0,
+			march_start = 0
 		},
 		engine_control = {
 			K = 265,

@@ -25,7 +25,7 @@ _G["weapons_table"]["weapons"]["missiles"]["FIM_92C"] = {
 			work_time = 0.048
 		},
 		controller = {
-			boost_start = 0.001,
+			boost_start = 0,
 			march2_start = 1.8,
 			march_start = 0.4
 		},
@@ -146,7 +146,7 @@ _G["weapons_table"]["weapons"]["missiles"]["FIM_92C"] = {
 			work_time = 0.048
 		},
 		controller = {
-			boost_start = 0.001,
+			boost_start = 0,
 			march2_start = 1.8,
 			march_start = 0.4
 		},

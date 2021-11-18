@@ -34,7 +34,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AGM_62"] = {
 			mass = 1061,
 			maxAoa = 0.23,
 			wind_sigma = 0,
-			wind_time = 1000
+			wind_time = 0
 		},
 		march = {
 			smoke_color = { 0.9, 0.9, 0.9 },
@@ -102,7 +102,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AGM_62"] = {
 			mass = 1061,
 			maxAoa = 0.23,
 			wind_sigma = 0,
-			wind_time = 1000
+			wind_time = 0
 		},
 		march = {
 			smoke_color = { 0.9, 0.9, 0.9 },

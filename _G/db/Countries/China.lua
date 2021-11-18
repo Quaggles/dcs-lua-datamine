@@ -346,10 +346,6 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "M4_Sherman",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
 					Name = "Smerch",
 					in_service = 0,
 					out_of_service = 40000
@@ -363,10 +359,6 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "bofors40",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "flak18",
 					in_service = 0,
 					out_of_service = 40000
 				}, {

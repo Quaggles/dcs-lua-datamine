@@ -48,7 +48,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM_120C"] = {
 			work_time = 0.1
 		},
 		controller = {
-			boost_start = 0.4,
+			boost_start = 0,
 			march_start = 0.5
 		},
 		fm = {
@@ -110,11 +110,9 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM_120C"] = {
 			radius = 7
 		},
 		scheme = "schemes/missiles/aa_missile_amraam2.sch",
-		seeker = {
-			FOV = 2.0943951023932,
-			active_dist_trig_by_default = 1,
-			active_radar_lock_dist = 15000,
-			aim_sigma = 6,
+		sensor = {
+			FOV = 0.26179938779915,
+			aim_sigma = 3.5,
 			ccm_k0 = 0.1,
 			delay = 1.5,
 			height_error_k = 20,
@@ -123,7 +121,6 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM_120C"] = {
 			hoj = 1,
 			max_w_LOS = 0.5235987755983,
 			op_time = 80,
-			rad_correction = 1,
 			sens_far_dist = 30000,
 			sens_near_dist = 100
 		},
@@ -204,7 +201,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM_120C"] = {
 			work_time = 0.1
 		},
 		controller = {
-			boost_start = 0.4,
+			boost_start = 0,
 			march_start = 0.5
 		},
 		fm = {
@@ -266,11 +263,9 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM_120C"] = {
 			radius = 7
 		},
 		scheme = "schemes/missiles/aa_missile_amraam2.sch",
-		seeker = {
-			FOV = 2.0943951023932,
-			active_dist_trig_by_default = 1,
-			active_radar_lock_dist = 15000,
-			aim_sigma = 6,
+		sensor = {
+			FOV = 0.26179938779915,
+			aim_sigma = 3.5,
 			ccm_k0 = 0.1,
 			delay = 1.5,
 			height_error_k = 20,
@@ -279,7 +274,6 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM_120C"] = {
 			hoj = 1,
 			max_w_LOS = 0.5235987755983,
 			op_time = 80,
-			rad_correction = 1,
 			sens_far_dist = 30000,
 			sens_near_dist = 100
 		},

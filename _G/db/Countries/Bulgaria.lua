@@ -192,10 +192,6 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "Pz_IV_H",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
 					Name = "2B11 mortar",
 					in_service = 0,
 					out_of_service = 40000
@@ -209,10 +205,6 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "SAU Akatsia",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "flak30",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -378,6 +370,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "flak18"
 				}, {
+					Name = "Pz_IV_H"
+				}, {
 					Name = "Sd_Kfz_251"
 				}, {
 					Name = "Blitz_36-6700A"
@@ -407,6 +401,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Wespe124"
 				}, {
 					Name = "Sd_Kfz_234_2_Puma"
+				}, {
+					Name = "flak30"
 				}, {
 					Name = "flak36"
 				}, {

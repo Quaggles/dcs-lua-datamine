@@ -31,8 +31,8 @@ _G["weapons_table"]["weapons"]["missiles"]["ALARM"] = {
 			work_time = 1
 		},
 		controller = {
-			boost_start = 0.001,
-			march_start = 1.001
+			boost_start = 0,
+			march_start = 1
 		},
 		fm = {
 			A = 0.36,
@@ -157,8 +157,8 @@ _G["weapons_table"]["weapons"]["missiles"]["ALARM"] = {
 			work_time = 1
 		},
 		controller = {
-			boost_start = 0.001,
-			march_start = 1.001
+			boost_start = 0,
+			march_start = 1
 		},
 		fm = {
 			A = 0.36,

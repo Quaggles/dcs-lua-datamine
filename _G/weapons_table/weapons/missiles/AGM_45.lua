@@ -18,7 +18,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_45"] = {
 			useJumpByDefault = 1
 		},
 		controller = {
-			march_start = 0.021
+			march_start = 0
 		},
 		fm = {
 			A = 0.36,
@@ -131,7 +131,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_45"] = {
 			useJumpByDefault = 1
 		},
 		controller = {
-			march_start = 0.021
+			march_start = 0
 		},
 		fm = {
 			A = 0.36,

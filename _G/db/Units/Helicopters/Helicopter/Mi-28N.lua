@@ -293,6 +293,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				}, {
 					CLSID = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}"
 				}, {
+					CLSID = "{FAB_250_M62}"
+				}, {
 					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74884}"
 				}, {
 					CLSID = "{FC56DF80-9B09-44C5-8976-DCFAFF219062}"
@@ -323,6 +325,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "B_8V20A_OM"
 				}, {
 					CLSID = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}"
+				}, {
+					CLSID = "{FAB_250_M62}"
 				}, {
 					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74884}"
 				}, {
@@ -357,6 +361,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				}, {
 					CLSID = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}"
 				}, {
+					CLSID = "{FAB_250_M62}"
+				}, {
 					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74884}"
 				}, {
 					CLSID = "{FC56DF80-9B09-44C5-8976-DCFAFF219062}"
@@ -389,6 +395,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "B_8V20A_OM"
 				}, {
 					CLSID = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}"
+				}, {
+					CLSID = "{FAB_250_M62}"
 				}, {
 					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74884}"
 				}, {

@@ -1570,6 +1570,24 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 							station = 6
 						} }
 				}, {
+					CLSID = "{FAB_250_M62}",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
 					CLSID = "GUV_VOG",
 					forbidden = { {
 							loadout = { "<CLEAN>" },
@@ -1816,6 +1834,24 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 1
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
+					CLSID = "{FAB_250_M62}",
 					forbidden = { {
 							loadout = { "<CLEAN>" },
 							station = 1
@@ -2150,6 +2186,24 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 							station = 6
 						} }
 				}, {
+					CLSID = "{FAB_250_M62}",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 1
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
 					CLSID = "{FB3CE165-BF07-4979-887C-92B87F13276B}",
 					forbidden = { {
 							loadout = { "<CLEAN>" },
@@ -2396,6 +2450,24 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 1
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
+					CLSID = "{FAB_250_M62}",
 					forbidden = { {
 							loadout = { "<CLEAN>" },
 							station = 1
@@ -2677,6 +2749,24 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 1
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
+					CLSID = "{FAB_250_M62}",
 					forbidden = { {
 							loadout = { "<CLEAN>" },
 							station = 1
@@ -3030,6 +3120,24 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}",
+					forbidden = { {
+							loadout = { "<CLEAN>" },
+							station = 1
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN-200.5>" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						} }
+				}, {
+					CLSID = "{FAB_250_M62}",
 					forbidden = { {
 							loadout = { "<CLEAN>" },
 							station = 1

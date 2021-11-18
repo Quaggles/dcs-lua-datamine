@@ -20,7 +20,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					max_number_of_missiles_channels = 1,
 					max_trg_alt = 40000,
 					min_trg_alt = 25,
-					reactionTime = 17,
+					reactionTime = 30,
 					reflection_limit = 0.18,
 					type = 102
 				} },
@@ -28,19 +28,19 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			center = "POINT_CENTER",
 			drawArgument1 = 0,
 			drawArgument2 = 1,
-			omegaY = 0.174533,
-			omegaZ = 0.174533,
+			omegaY = 0.26179938779915,
+			omegaZ = 0.26179938779915,
 			pidY = {
-				d = 3,
-				i = 1,
-				inn = 1,
-				p = 10
+				d = 4,
+				i = 0,
+				inn = 0.2,
+				p = 5
 			},
 			pidZ = {
-				d = 3,
-				i = 1,
-				inn = 1,
-				p = 10
+				d = 4,
+				i = 0,
+				inn = 0.2,
+				p = 5
 			},
 			pointer = "POINT_RADAR"
 		}, {
@@ -52,7 +52,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					maxShootingSpeed = 0,
 					max_number_of_missiles_channels = 1,
 					max_trg_alt = 40000,
-					reactionTime = 18,
+					reactionTime = 20,
 					reflection_limit = 0.18,
 					type = 101
 				} },

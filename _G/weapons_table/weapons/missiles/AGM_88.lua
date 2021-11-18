@@ -52,8 +52,8 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_88"] = {
 			work_time = 1
 		},
 		controller = {
-			boost_start = 0.02,
-			march_start = 1.02
+			boost_start = 0,
+			march_start = 1
 		},
 		fm = {
 			A1trim = { 10, 10 },
@@ -204,8 +204,8 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_88"] = {
 			work_time = 1
 		},
 		controller = {
-			boost_start = 0.02,
-			march_start = 1.02
+			boost_start = 0,
+			march_start = 1
 		},
 		fm = {
 			A1trim = { 10, 10 },

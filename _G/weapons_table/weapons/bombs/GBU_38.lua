@@ -47,7 +47,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_38"] = {
 			maxAoa = 0.43633231299858,
 			model_roll = -0.78539816339745,
 			wind_sigma = 0,
-			wind_time = 1000
+			wind_time = 0
 		},
 		scheme = "schemes/bombs/bomb_jdam.sch",
 		seeker = {
@@ -120,7 +120,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_38"] = {
 			maxAoa = 0.43633231299858,
 			model_roll = -0.78539816339745,
 			wind_sigma = 0,
-			wind_time = 1000
+			wind_time = 0
 		},
 		scheme = "schemes/bombs/bomb_jdam.sch",
 		seeker = {

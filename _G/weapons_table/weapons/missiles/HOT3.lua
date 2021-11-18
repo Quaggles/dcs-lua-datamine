@@ -56,7 +56,7 @@ _G["weapons_table"]["weapons"]["missiles"]["HOT3"] = {
 		category = 2,
 		class_name = "wAmmunitionVikhr",
 		controller = {
-			boost_start = 0.001,
+			boost_start = 0,
 			march_start = 0.9
 		},
 		eng_err = {
@@ -207,7 +207,7 @@ _G["weapons_table"]["weapons"]["missiles"]["HOT3"] = {
 		category = 2,
 		class_name = "wAmmunitionVikhr",
 		controller = {
-			boost_start = 0.001,
+			boost_start = 0,
 			march_start = 0.9
 		},
 		eng_err = {

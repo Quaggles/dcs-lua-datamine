@@ -42,7 +42,7 @@ _G["weapons_table"]["weapons"]["missiles"]["BGM_109B"] = {
 			turn_point_trigger_dist = 100
 		},
 		controller = {
-			boost_start = 0.01,
+			boost_start = 0,
 			march_start = 8
 		},
 		cruise_autopilot = {
@@ -214,7 +214,7 @@ _G["weapons_table"]["weapons"]["missiles"]["BGM_109B"] = {
 			turn_point_trigger_dist = 100
 		},
 		controller = {
-			boost_start = 0.01,
+			boost_start = 0,
 			march_start = 8
 		},
 		cruise_autopilot = {

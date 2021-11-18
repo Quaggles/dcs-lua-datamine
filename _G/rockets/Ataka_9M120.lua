@@ -120,6 +120,12 @@ _G["rockets"]["#Index"] = {
 	model = "9M120T",
 	name = "Ataka_9M120",
 	scheme = "shturm_new",
+	shape_table_data = { {
+			file = "",
+			index = "Redacted",
+			name = "9M120",
+			username = "9M120"
+		} },
 	sigma = { 4, 4, 4 },
 	spiral_nav = {
 		def_cone_max_dist = 6500,

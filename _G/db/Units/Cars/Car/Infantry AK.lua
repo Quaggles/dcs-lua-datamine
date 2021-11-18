@@ -1,11 +1,11 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	CustomAimPoint = { 0, 1, 0 },
 	DetectionRange = 0,
-	DisplayName = "Infantry AK-74 Rus",
+	DisplayName = "Infantry AK-74 Rus ver1",
 	DisplayNameShort = "AK",
 	IR_emission_coeff = 0.004,
 	MaxSpeed = 14.4,
-	Name = "Infantry AK-74 Rus",
+	Name = "Infantry AK-74 Rus ver1",
 	Rate = 1,
 	ThreatRange = 500,
 	Transportable = {

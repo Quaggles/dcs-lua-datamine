@@ -41,7 +41,7 @@ _G["weapons_table"]["weapons"]["missiles"]["SeaSparrow"] = {
 			work_time = 3.7
 		},
 		controller = {
-			boost_start = 0.02,
+			boost_start = 0,
 			march_start = 3.7
 		},
 		fm = {
@@ -186,7 +186,7 @@ _G["weapons_table"]["weapons"]["missiles"]["SeaSparrow"] = {
 			work_time = 3.7
 		},
 		controller = {
-			boost_start = 0.02,
+			boost_start = 0,
 			march_start = 3.7
 		},
 		fm = {

@@ -631,6 +631,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 5
 						} }
 				}, {
+					CLSID = "{FAB_250_M62}",
+					arg_value = 0.3,
+					required = { {
+							loadout = { "{FAB_250_M62}" },
+							station = 5
+						} }
+				}, {
 					CLSID = "{OFAB_100_Jupiter}",
 					arg_value = 0.3,
 					required = { {
@@ -755,6 +762,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 4
 						} }
 				}, {
+					CLSID = "{FAB_250_M62}",
+					arg_value = 0.3,
+					required = { {
+							loadout = { "{FAB_250_M62}" },
+							station = 4
+						} }
+				}, {
 					CLSID = "{OFAB_100_Jupiter}",
 					arg_value = 0.3,
 					required = { {
@@ -865,6 +879,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 2
 						} }
 				}, {
+					CLSID = "{FAB_250_M62}",
+					arg_value = 0.3,
+					required = { {
+							loadout = { "{FAB_250_M62}" },
+							station = 2
+						} }
+				}, {
 					CLSID = "{OFAB_100_Jupiter}",
 					arg_value = 0.3,
 					required = { {
@@ -944,6 +965,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.3,
 					required = { {
 							loadout = { "{3C612111-C7AD-476E-8A8E-2485812F4E5C}" },
+							station = 1
+						} }
+				}, {
+					CLSID = "{FAB_250_M62}",
+					arg_value = 0.3,
+					required = { {
+							loadout = { "{FAB_250_M62}" },
 							station = 1
 						} }
 				}, {

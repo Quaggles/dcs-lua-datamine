@@ -64,7 +64,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_84H"] = {
 			use_horiz_dist = 1
 		},
 		controller = {
-			boost_start = 0.001,
+			boost_start = 0,
 			march_start = 0.8
 		},
 		cruise_autopilot = {
@@ -288,7 +288,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_84H"] = {
 			use_horiz_dist = 1
 		},
 		controller = {
-			boost_start = 0.001,
+			boost_start = 0,
 			march_start = 0.8
 		},
 		cruise_autopilot = {

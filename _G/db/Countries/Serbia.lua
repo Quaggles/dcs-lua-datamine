@@ -312,6 +312,14 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "Infantry AK ver2",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Infantry AK ver3",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Hummer",
 					in_service = 0,
 					out_of_service = 40000

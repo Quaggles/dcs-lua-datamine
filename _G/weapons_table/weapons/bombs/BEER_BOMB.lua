@@ -26,8 +26,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BEER_BOMB"] = {
 			cx_coeff = { 1, 0.9, 0.6, 0.6, 1.2 },
 			cx_factor = 300,
 			mass = 100,
-			wind_sigma = 2000,
-			wind_time = 1000
+			wind_sigma = 2000
 		},
 		hMax = 12000,
 		hMin = 300,
@@ -91,8 +90,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BEER_BOMB"] = {
 			cx_coeff = { 1, 0.9, 0.6, 0.6, 1.2 },
 			cx_factor = 300,
 			mass = 100,
-			wind_sigma = 2000,
-			wind_time = 1000
+			wind_sigma = 2000
 		},
 		hMax = 12000,
 		hMin = 300,

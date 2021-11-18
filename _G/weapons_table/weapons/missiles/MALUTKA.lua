@@ -25,7 +25,7 @@ _G["weapons_table"]["weapons"]["missiles"]["MALUTKA"] = {
 			work_time = 0.1
 		},
 		controller = {
-			boost_start = 0.001,
+			boost_start = 0,
 			march_start = 0.1
 		},
 		eng_err = {
@@ -128,7 +128,7 @@ _G["weapons_table"]["weapons"]["missiles"]["MALUTKA"] = {
 			work_time = 0.1
 		},
 		controller = {
-			boost_start = 0.001,
+			boost_start = 0,
 			march_start = 0.1
 		},
 		eng_err = {

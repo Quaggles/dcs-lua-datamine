@@ -25,7 +25,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Vikhr_M"] = {
 			work_time = 0.5
 		},
 		controller = {
-			boost_start = 0.001,
+			boost_start = 0,
 			march_start = 0.5
 		},
 		eng_err = {
@@ -127,7 +127,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Vikhr_M"] = {
 			work_time = 0.5
 		},
 		controller = {
-			boost_start = 0.001,
+			boost_start = 0,
 			march_start = 0.5
 		},
 		eng_err = {

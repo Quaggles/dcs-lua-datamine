@@ -17,7 +17,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					ECM_K = -1,
 					PL = { {
 							ammo_capacity = 1,
-							reload_time = 2700,
+							reload_time = 120,
 							shot_delay = 0.1,
 							type_ammunition = { 4, 4, 34, "Redacted" }
 						} },
@@ -26,7 +26,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMax = 255000,
 					distanceMin = 7000,
 					max_number_of_missiles_channels = 1,
-					min_launch_angle = 0.78539816339745,
+					min_launch_angle = 0.83775804095728,
 					reactionTime = 3,
 					sensor = {},
 					show_external_missile = true,
@@ -35,19 +35,19 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			angles = { { 3.1415926535898, -3.1415926535898, 0, 0.87266462599716 } },
 			drawArgument1 = 0,
 			drawArgument2 = 1,
-			omegaY = 0.323599,
-			omegaZ = 0.174533,
+			omegaY = 0.08918632477691,
+			omegaZ = 0.023911010752322,
 			pidY = {
-				d = 2,
+				d = 4,
 				i = 0,
-				inn = 1,
+				inn = 0.2,
 				p = 5
 			},
 			pidZ = {
-				d = 2,
+				d = 40,
 				i = 0,
-				inn = 1,
-				p = 5
+				inn = 0.2,
+				p = 50
 			},
 			pos = { 0, 1.7, 0 }
 		},

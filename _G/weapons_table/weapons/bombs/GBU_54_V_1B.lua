@@ -62,7 +62,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_54_V_1B"] = {
 			maxAoa = 0.43633231299858,
 			model_roll = -0.78539816339745,
 			wind_sigma = 0,
-			wind_time = 1000
+			wind_time = 0
 		},
 		hMax = 15000,
 		hMin = 400,
@@ -172,7 +172,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_54_V_1B"] = {
 			maxAoa = 0.43633231299858,
 			model_roll = -0.78539816339745,
 			wind_sigma = 0,
-			wind_time = 1000
+			wind_time = 0
 		},
 		hMax = 15000,
 		hMin = 400,

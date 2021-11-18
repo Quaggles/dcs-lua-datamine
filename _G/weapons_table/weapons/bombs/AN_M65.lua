@@ -25,8 +25,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M65"] = {
 			caliber = 0.477,
 			cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
 			mass = 475,
-			wind_sigma = 30,
-			wind_time = 1000
+			wind_sigma = 30
 		},
 		hMax = 12000,
 		hMin = 300,
@@ -89,8 +88,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M65"] = {
 			caliber = 0.477,
 			cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
 			mass = 475,
-			wind_sigma = 30,
-			wind_time = 1000
+			wind_sigma = 30
 		},
 		hMax = 12000,
 		hMin = 300,

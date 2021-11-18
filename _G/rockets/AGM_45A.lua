@@ -46,7 +46,7 @@ _G["rockets"]["#Index"] = {
 	category = 2,
 	class_name = "wAmmunitionSelfHoming",
 	controller = {
-		march_start = 0.021
+		march_start = 0
 	},
 	display_name = "AGM-45A",
 	fm = {

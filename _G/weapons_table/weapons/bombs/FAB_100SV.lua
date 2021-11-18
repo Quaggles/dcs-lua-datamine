@@ -27,7 +27,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB_100SV"] = {
 			cx_factor = 100,
 			mass = 100,
 			wind_sigma = 20,
-			wind_time = 1000
+			wind_time = 100
 		},
 		hMax = 12000,
 		hMin = 1000,
@@ -92,7 +92,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB_100SV"] = {
 			cx_factor = 100,
 			mass = 100,
 			wind_sigma = 20,
-			wind_time = 1000
+			wind_time = 100
 		},
 		hMax = 12000,
 		hMin = 1000,

@@ -27,7 +27,7 @@ _G["weapons_table"]["weapons"]["missiles"]["TOW2"] = {
 			work_time = 0.04
 		},
 		controller = {
-			boost_start = 0.001,
+			boost_start = 0,
 			march_start = 0.13
 		},
 		err = {
@@ -135,7 +135,7 @@ _G["weapons_table"]["weapons"]["missiles"]["TOW2"] = {
 			work_time = 0.04
 		},
 		controller = {
-			boost_start = 0.001,
+			boost_start = 0,
 			march_start = 0.13
 		},
 		err = {

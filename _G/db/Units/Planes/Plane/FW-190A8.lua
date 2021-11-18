@@ -900,11 +900,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					skin = "Steel",
 					wall = 0.044
 				}, {
+					failures = { { "ELEC_REAR_FUEL_PUMP_FAILURE", 0.007 } },
 					id = "XFuelTank0",
 					lining = "Rubber",
 					skin = "Aluminum",
 					wall = 0.002
 				}, {
+					failures = { { "ELEC_FORWARD_FUEL_PUMP_FAILURE", 0.007 } },
 					id = "XFuelTank1",
 					lining = "Rubber",
 					skin = "Aluminum",

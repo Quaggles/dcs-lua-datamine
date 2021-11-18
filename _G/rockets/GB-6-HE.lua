@@ -128,7 +128,7 @@ _G["rockets"]["#Index"] = {
 		expl_mass = 500,
 		mass = 500,
 		obj_factors = { 3, 1 },
-		other_factors = { 2, 1, 1 },
+		other_factors = { 1, 1, 1 },
 		piercing_mass = 0
 	},
 	warhead_air = <table 1>,

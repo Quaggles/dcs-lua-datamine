@@ -14,5 +14,6 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["Mk12_5in38cal"] = {
 	max_trg_alt = 11300,
 	reactionTime = 3,
 	sensor = {},
+	sightMaxTanVel = 20,
 	type = 11
 }

@@ -15,9 +15,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	MaxSpeed = 0,
 	Name = "AAA 8,8cm Flak 36",
 	Rate = 4,
-	Sensors = {
-		OPTIC = { "long-range air defence optics" }
-	},
 	ThreatRange = 11000,
 	WS = { {
 			LN = { {
@@ -39,7 +36,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			pidZ = {},
 			pos = {}
 		},
-		maxTargetDetectionRange = 12000
+		maxTargetDetectionRange = 16000
 	},
 	Waypoint_Custom_Panel = true,
 	_file = "./Mods/tech/WWII Units/Database/db_units_cars.lua",

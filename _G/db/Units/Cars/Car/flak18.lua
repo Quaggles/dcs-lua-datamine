@@ -15,10 +15,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	MaxSpeed = 0,
 	Name = "AAA 8,8cm Flak 18",
 	Rate = 4,
-	Sensors = {
-		OPTIC = { "long-range air defence optics" }
-	},
-	ThreatRange = 11000,
+	ThreatRange = 5000,
 	WS = { {
 			LN = { {
 					BR = { {
@@ -30,6 +27,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					PL = { {
 							shell_name = {}
 						} },
+					depends_on_unit = { { { "KDO_Mod40", 2 } }, { { "none" } } },
 					sensor = {}
 				} },
 			angles = { {} },
@@ -38,7 +36,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			pidZ = {},
 			pos = {}
 		},
-		maxTargetDetectionRange = 12000
+		maxTargetDetectionRange = 16000
 	},
 	Waypoint_Custom_Panel = true,
 	_file = "./CoreMods/tech/TechWeaponPack/Database/db_units_cars.lua",

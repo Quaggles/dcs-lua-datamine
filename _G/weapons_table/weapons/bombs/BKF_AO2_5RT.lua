@@ -42,8 +42,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BKF_AO2_5RT"] = {
 			spawn_time = { 0, 0.02 },
 			spawn_weight_loss = { 0, 30 },
 			use_effects = 0,
-			wind_sigma = 20,
-			wind_time = 1000
+			wind_sigma = 20
 		},
 		hMax = 1000,
 		hMin = 30,
@@ -285,8 +284,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BKF_AO2_5RT"] = {
 			spawn_time = { 0, 0.02 },
 			spawn_weight_loss = { 0, 30 },
 			use_effects = 0,
-			wind_sigma = 20,
-			wind_time = 1000
+			wind_sigma = 20
 		},
 		hMax = 1000,
 		hMin = 30,

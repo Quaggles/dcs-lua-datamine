@@ -110,11 +110,9 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM_120"] = {
 			radius = 7
 		},
 		scheme = "schemes/missiles/aa_missile_amraam2.sch",
-		seeker = {
-			FOV = 2.0943951023932,
-			active_dist_trig_by_default = 1,
-			active_radar_lock_dist = 15000,
-			aim_sigma = 7,
+		sensor = {
+			FOV = 0.26179938779915,
+			aim_sigma = 4,
 			ccm_k0 = 0.2,
 			delay = 1.5,
 			height_error_k = 25,
@@ -123,7 +121,6 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM_120"] = {
 			hoj = 1,
 			max_w_LOS = 0.5235987755983,
 			op_time = 80,
-			rad_correction = 1,
 			sens_far_dist = 30000,
 			sens_near_dist = 100
 		},
@@ -266,11 +263,9 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM_120"] = {
 			radius = 7
 		},
 		scheme = "schemes/missiles/aa_missile_amraam2.sch",
-		seeker = {
-			FOV = 2.0943951023932,
-			active_dist_trig_by_default = 1,
-			active_radar_lock_dist = 15000,
-			aim_sigma = 7,
+		sensor = {
+			FOV = 0.26179938779915,
+			aim_sigma = 4,
 			ccm_k0 = 0.2,
 			delay = 1.5,
 			height_error_k = 25,
@@ -279,7 +274,6 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM_120"] = {
 			hoj = 1,
 			max_w_LOS = 0.5235987755983,
 			op_time = 80,
-			rad_correction = 1,
 			sens_far_dist = 30000,
 			sens_near_dist = 100
 		},

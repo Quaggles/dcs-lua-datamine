@@ -1554,7 +1554,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			use_full_connector_position = true
 		}, {
 			DisplayName = "5L",
-			Launchers = {},
+			Launchers = { {
+					CLSID = "{AN_ASQ_213}"
+				} },
 			Number = 10,
 			Order = 5,
 			Type = 0,

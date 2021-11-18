@@ -512,10 +512,6 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "Sd_Kfz_2",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
 					Name = "UAZ-469",
 					in_service = 0,
 					out_of_service = 40000
@@ -607,6 +603,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Sd_Kfz_251"
 				}, {
 					Name = "Kubelwagen_82"
+				}, {
+					Name = "Sd_Kfz_2"
 				}, {
 					Name = "Sd_Kfz_7"
 				}, {

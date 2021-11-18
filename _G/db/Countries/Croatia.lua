@@ -152,10 +152,6 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "Sd_Kfz_251",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
 					Name = "BRDM-2",
 					in_service = 0,
 					out_of_service = 40000

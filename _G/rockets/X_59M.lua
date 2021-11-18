@@ -89,7 +89,7 @@ _G["rockets"]["#Index"] = {
 		default_cruise_height = 100
 	},
 	controller = {
-		boost_start = 0.001,
+		boost_start = 0,
 		march_start = 1
 	},
 	display_name = "Kh-59M (AS-18 Kazoo)",

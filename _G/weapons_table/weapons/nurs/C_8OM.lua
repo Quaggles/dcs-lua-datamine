@@ -58,8 +58,7 @@ _G["weapons_table"]["weapons"]["nurs"]["C_8OM"] = {
 						cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
 						cx_factor = 300,
 						mass = 20,
-						wind_sigma = 0,
-						wind_time = 1000
+						wind_sigma = 0
 					},
 					light = {
 						duration = 35,
@@ -99,8 +98,7 @@ _G["weapons_table"]["weapons"]["nurs"]["C_8OM"] = {
 						cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
 						cx_factor = 300,
 						mass = 20,
-						wind_sigma = 0,
-						wind_time = 1000
+						wind_sigma = 0
 					},
 					light = {
 						duration = 35,
@@ -192,8 +190,7 @@ _G["weapons_table"]["weapons"]["nurs"]["C_8OM"] = {
 						cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
 						cx_factor = 300,
 						mass = 20,
-						wind_sigma = 0,
-						wind_time = 1000
+						wind_sigma = 0
 					},
 					light = {
 						duration = 35,
@@ -233,8 +230,7 @@ _G["weapons_table"]["weapons"]["nurs"]["C_8OM"] = {
 						cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
 						cx_factor = 300,
 						mass = 20,
-						wind_sigma = 0,
-						wind_time = 1000
+						wind_sigma = 0
 					},
 					light = {
 						duration = 35,

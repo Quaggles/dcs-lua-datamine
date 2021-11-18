@@ -192,14 +192,6 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "flak37",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "flak30",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
 					Name = "ZU-23 Emplacement Closed",
 					in_service = 0,
 					out_of_service = 40000
@@ -374,7 +366,11 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "Sd_Kfz_234_2_Puma"
 				}, {
+					Name = "flak30"
+				}, {
 					Name = "flak36"
+				}, {
+					Name = "flak37"
 				}, {
 					Name = "flak38"
 				}, {

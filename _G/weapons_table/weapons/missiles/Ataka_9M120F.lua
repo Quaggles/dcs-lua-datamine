@@ -123,6 +123,12 @@ _G["weapons_table"]["weapons"]["missiles"]["Ataka_9M120F"] = {
 		model = "9M120F",
 		name = "Ataka_9M120F",
 		scheme = "schemes/missiles/shturm_new.sch",
+		shape_table_data = { {
+				file = "9M120F",
+				index = "Redacted",
+				name = "9M120F",
+				username = "9M120F"
+			} },
 		sigma = { 4, 4, 4 },
 		spiral_nav = {
 			def_cone_max_dist = 6500,
@@ -295,6 +301,12 @@ _G["weapons_table"]["weapons"]["missiles"]["Ataka_9M120F"] = {
 		model = "9M120F",
 		name = "Ataka_9M120F",
 		scheme = "schemes/missiles/shturm_new.sch",
+		shape_table_data = { {
+				file = "9M120F",
+				index = "Redacted",
+				name = "9M120F",
+				username = "9M120F"
+			} },
 		sigma = { 4, 4, 4 },
 		spiral_nav = {
 			def_cone_max_dist = 6500,

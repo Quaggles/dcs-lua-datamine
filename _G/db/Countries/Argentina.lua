@@ -282,14 +282,6 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "M4_Sherman",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "M4A4_Sherman_FF",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
 					Name = "M 818",
 					in_service = 0,
 					out_of_service = 40000

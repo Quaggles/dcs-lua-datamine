@@ -59,8 +59,8 @@ _G["rockets"]["#Index"] = {
 	category = 2,
 	class_name = "wAmmunitionSelfHoming",
 	controller = {
-		boost_start = 0.001,
-		march_start = 2.001
+		boost_start = 0,
+		march_start = 2
 	},
 	display_name = "Kh-25MP (AS-12 Kegler)",
 	fm = {

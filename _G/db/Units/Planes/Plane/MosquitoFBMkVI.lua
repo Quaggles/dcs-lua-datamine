@@ -4802,7 +4802,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			pilot_name = 266,
 			pos = { 0.95, 0.225, -0.21 },
 			role = "copilot",
-			role_display_name = "Observer"
+			role_display_name = "Navigator"
 		} },
 	crew_stations = "HumanOrchestra",
 	date_of_introduction = 1942.5,
@@ -5171,7 +5171,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		Door0 = { {
 				Flags = { "Reversible" },
 				Sequence = { {
-						C = { { "Arg", 38, "from", 0, "to", 0.25, "in", 0.25 } }
+						C = { { "Arg", 38, "from", 0, "to", 0.25, "in", 0.25 }, { "PokeSound", 12006 } }
 					}, {
 						C = { { "Sleep", "for", 0.5 } }
 					}, {
@@ -5185,7 +5185,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					}, {
 						C = { { "Sleep", "for", 0.25 } }
 					}, {
-						C = { { "Arg", 38, "from", 0.9, "to", 0.25, "in", 0.9 } }
+						C = { { "Arg", 38, "from", 0.9, "to", 0.25, "in", 0.9 }, { "PokeSound", 12007 } }
 					} },
 				Transition = { "Open", "Close" }
 			}, {

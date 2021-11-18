@@ -131,7 +131,7 @@ _G["weapons_table"]["weapons"]["missiles"]["LS-6-500"] = {
 			fantom = 1,
 			mass = 200,
 			obj_factors = { 3, 1 },
-			other_factors = { 2, 1, 1 },
+			other_factors = { 1, 1, 1 },
 			piercing_mass = 0
 		},
 		warhead_air = {
@@ -144,7 +144,7 @@ _G["weapons_table"]["weapons"]["missiles"]["LS-6-500"] = {
 			fantom = 1,
 			mass = 200,
 			obj_factors = { 3, 1 },
-			other_factors = { 2, 1, 1 },
+			other_factors = { 1, 1, 1 },
 			piercing_mass = 0
 		},
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
@@ -280,7 +280,7 @@ _G["weapons_table"]["weapons"]["missiles"]["LS-6-500"] = {
 			fantom = 0,
 			mass = 200,
 			obj_factors = { 3, 1 },
-			other_factors = { 2, 1, 1 },
+			other_factors = { 1, 1, 1 },
 			piercing_mass = 0
 		},
 		warhead_air = {
@@ -293,7 +293,7 @@ _G["weapons_table"]["weapons"]["missiles"]["LS-6-500"] = {
 			fantom = 0,
 			mass = 200,
 			obj_factors = { 3, 1 },
-			other_factors = { 2, 1, 1 },
+			other_factors = { 1, 1, 1 },
 			piercing_mass = 0
 		},
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }

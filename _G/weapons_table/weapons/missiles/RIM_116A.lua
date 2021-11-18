@@ -66,8 +66,8 @@ _G["weapons_table"]["weapons"]["missiles"]["RIM_116A"] = {
 		category = 2,
 		class_name = "wAmmunitionSelfHoming",
 		controller = {
-			boost_start = 0.001,
-			march_start = 0.201
+			boost_start = 0,
+			march_start = 0.2
 		},
 		fm = {
 			A = 0.6,
@@ -225,8 +225,8 @@ _G["weapons_table"]["weapons"]["missiles"]["RIM_116A"] = {
 		category = 2,
 		class_name = "wAmmunitionSelfHoming",
 		controller = {
-			boost_start = 0.001,
-			march_start = 0.201
+			boost_start = 0,
+			march_start = 0.2
 		},
 		fm = {
 			A = 0.6,
