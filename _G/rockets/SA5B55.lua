@@ -27,6 +27,7 @@ _G["rockets"]["#Index"] = {
 	Y_back = 0,
 	Z_back = 0,
 	_unique_resource_name = "weapons.missiles.SA5B55",
+	ccm_k0 = 0.5,
 	display_name = "5V55 S-300PS (SA-10B Grumble)",
 	exhaust = { 1, 1, 1, 1 },
 	name = "SA5B55",

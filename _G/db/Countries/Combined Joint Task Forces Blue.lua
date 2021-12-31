@@ -1852,6 +1852,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "Ju-88A4"
 				}, {
+					Name = "C-47"
+				}, {
 					Name = "A-50",
 					in_service = 0,
 					out_of_service = 40000

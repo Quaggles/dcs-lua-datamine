@@ -117,6 +117,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "soldier_wwii_us",
 	visual = {
 		fire_pos = {},
+		parachute = 261,
 		shape = "soldier_wwii_us_01",
 		shape_dstr = "soldier_wwii_us_01_d"
 	}

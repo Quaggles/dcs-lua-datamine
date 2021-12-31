@@ -27,6 +27,7 @@ _G["rockets"]["#Index"] = {
 	Y_back = 0,
 	Z_back = 0,
 	_unique_resource_name = "weapons.missiles.SA9M330",
+	ccm_k0 = 0.5,
 	display_name = "9M330 Tor (SA-15 Gauntlet)",
 	exhaust = { 1, 1, 1, 1 },
 	name = "SA9M330",

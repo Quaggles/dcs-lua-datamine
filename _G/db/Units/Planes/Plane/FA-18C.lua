@@ -664,6 +664,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	},
 	IR_emission_coeff = 0.73,
 	IR_emission_coeff_ab = 4,
+	InheriteCommonCallnames = true,
 	LandRWCategories = { {
 			Name = "AircraftCarrier With Arresting Gear"
 		} },
@@ -1151,6 +1152,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		RWR = "Abstract RWR"
 	},
 	Shape = "f-18c",
+	SpecificCallnames = {
+		USA = { { "Hornet", "Hornet" }, { "Squid", "Squid" }, { "Ragin", "Ragin" }, { "Roman", "Roman" }, { "Sting", "Sting" }, { "Jury", "Jury" }, { "Joker", "Joker" }, { "Ram", "Ram" }, { "Hawk", "Hawk" }, { "Devil", "Devil" }, { "Check", "Check" }, { "Snake", "Snake" } }
+	},
 	TakeOffRWCategories = { {
 			Name = "AircraftCarrier With Catapult"
 		} },

@@ -27,6 +27,7 @@ _G["rockets"]["#Index"] = {
 	Y_back = 0,
 	Z_back = 0,
 	_unique_resource_name = "weapons.missiles.SA9M33",
+	ccm_k0 = 1,
 	display_name = "9M33 Osa (SA-8 Gecko)",
 	exhaust = { 1, 1, 1, 1 },
 	name = "SA9M33",

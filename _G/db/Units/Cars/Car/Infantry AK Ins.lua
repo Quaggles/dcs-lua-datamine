@@ -45,7 +45,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			canSetTacticalDir = true,
 			drawArgument1 = 0,
 			drawArgument2 = 1,
-			new_rotation = false,
 			omegaY = 1.7453292519943,
 			omegaZ = 1.7453292519943,
 			pidY = {

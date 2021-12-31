@@ -655,6 +655,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	},
 	IR_emission_coeff = 0.6,
 	IR_emission_coeff_ab = 3,
+	InheriteCommonCallnames = true,
 	M_empty = 8853,
 	M_fuel_max = 3104,
 	M_max = 19187,
@@ -1100,6 +1101,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		RWR = "Abstract RWR"
 	},
 	Shape = "f-16",
+	SpecificCallnames = {
+		USA = { { "Viper", "Viper" }, { "Venom", "Venom" }, { "Lobo", "Lobo" }, { "Cowboy", "Cowboy" }, { "Python", "Python" }, { "Rattler", "Rattler" }, { "Panther", "Panther" }, { "Wolf", "Wolf" }, { "Weasel", "Weasel" }, { "Wild", "Wild" }, { "Ninja", "Ninja" }, { "Jedi", "Jedi" } }
+	},
 	Tasks = { <table 1>, {
 			Name = "Escort",
 			OldID = "Escort",

@@ -2273,6 +2273,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Yak-52"
 				}, {
 					Name = "Ju-88A4"
+				}, {
+					Name = "C-47"
 				} }
 		},
 		Ships = {

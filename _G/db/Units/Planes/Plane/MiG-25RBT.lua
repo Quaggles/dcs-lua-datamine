@@ -292,6 +292,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}
 	},
 	Sensors = {
+		OPTIC = "Kaira-1",
+		RADAR = "Orion-A",
 		RWR = "Abstract RWR"
 	},
 	Shape = "mig-25",

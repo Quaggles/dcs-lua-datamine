@@ -124,6 +124,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	},
 	IR_emission_coeff = 4,
 	IR_emission_coeff_ab = 0,
+	InheriteCommonCallnames = true,
 	M_empty = 83460,
 	M_fuel_max = 141135,
 	M_max = 256735,
@@ -228,6 +229,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		RWR = "Abstract RWR"
 	},
 	Shape = "b-52",
+	SpecificCallnames = {
+		USA = { { "Buff", "Buff" }, { "Dump", "Dump" }, { "Kenworth", "Kenworth" } }
+	},
 	Tasks = { <table 1>, {
 			Name = "Runway Attack",
 			OldID = "Runway Attack",

@@ -29,6 +29,7 @@ _G["rockets"]["#Index"] = {
 	Y_back = 0,
 	Z_back = 0,
 	_unique_resource_name = "weapons.missiles.SA9M311",
+	ccm_k0 = 0.5,
 	display_name = "9M311 Tunguska (SA-19 Grison)",
 	effect_max_length = 1300,
 	exhaust = { 0.7, 0.7, 0.7, 0.4 },

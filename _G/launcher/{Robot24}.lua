@@ -1,13 +1,14 @@
 _G["launcher"]["{Robot24}"] = {
 	CLSID = "{Robot24}",
 	Count = 1,
-	Cx_pil = 0.00014,
+	Cx_pil = 0.00016,
 	Elements = { "_G/Pylons/aero-3b.lua", {
 			Position = { 0, -0.125, 0 },
 			ShapeName = "aim-9b"
 		} },
 	Picture = "aim9p.png",
-	Weight = 90,
+	Weight = 132,
+	Weight_Empty = 59,
 	_file = "./CoreMods/aircraft/AJS37/Entry/Weapons.lua",
 	_origin = "AJS37 AI by Heatblur Simulations",
 	attribute = { 4, 4, 32, "Redacted" },

@@ -28,6 +28,7 @@ _G["rockets"]["#Index"] = {
 	Y_back = 0,
 	Z_back = 0,
 	_unique_resource_name = "weapons.missiles.SA5B27",
+	ccm_k0 = 2,
 	display_name = "5V27 S-125 Neva (SA-3 Goa)",
 	exhaust = { 0.63, 0.67, 0.75, 0.2 },
 	name = "SA5B27",

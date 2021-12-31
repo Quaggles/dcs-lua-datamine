@@ -28,6 +28,7 @@ _G["rockets"]["#Index"] = {
 	Y_back = 0,
 	Z_back = 0,
 	_unique_resource_name = "weapons.missiles.P_40R",
+	ccm_k0 = 1,
 	display_name = "R-40R (AA-6 Acrid)",
 	display_name_short = "R-40R",
 	exhaust = { 1, 1, 1, 1 },

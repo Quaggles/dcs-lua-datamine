@@ -2885,6 +2885,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "DIS_TANK1100",
 					arg_value = 0.1
 				}, {
+					CLSID = "DIS_TANK800_EMPTY",
+					arg_value = 0.1
+				}, {
+					CLSID = "DIS_TANK1100_EMPTY",
+					arg_value = 0.1
+				}, {
 					CLSID = "{Mk82SNAKEYE}",
 					arg_value = 0.9
 				}, {
@@ -2925,6 +2931,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			Launchers = { {
 					CLSID = "DIS_TANK800",
+					arg_value = 0.1
+				}, {
+					CLSID = "DIS_TANK800_EMPTY",
 					arg_value = 0.1
 				}, {
 					CLSID = "{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}",
@@ -3027,6 +3036,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.1
 				}, {
 					CLSID = "DIS_TANK1100",
+					arg_value = 0.1
+				}, {
+					CLSID = "DIS_TANK800_EMPTY",
+					arg_value = 0.1
+				}, {
+					CLSID = "DIS_TANK1100_EMPTY",
 					arg_value = 0.1
 				}, {
 					CLSID = "{Mk82SNAKEYE}",
@@ -3627,7 +3642,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				Transition = { "Open", "Close" }
 			} }
 	},
-	net_animation = { 83, 190, 191, 192, 200, 201, 208, 209, 38, 23, 130, 131, 132, 133, 182, 184, 186, 188, 35, 36, 37, 334, 335, 611, 612, 613, 419, 900, 901, 950, 951, 952, 953, 954, 955, 956, 957, 958, 959 },
+	net_animation = { 83, 190, 191, 192, 200, 201, 208, 209, 38, 23, 130, 131, 132, 133, 182, 184, 186, 188, 35, 36, 37, 334, 335, 611, 612, 613, 419, 900, 901, 950, 951, 952, 953, 954, 955, 956, 957, 958, 959, 961, 962 },
 	nose_gear_amortizer_direct_stroke = 0.109795,
 	nose_gear_amortizer_normal_weight_stroke = 3.571e-05,
 	nose_gear_amortizer_reversal_stroke = -0.109795,

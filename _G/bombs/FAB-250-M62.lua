@@ -10,17 +10,6 @@ _G["bombs"]["#Index"] = {
 	mass = 227,
 	name = "FAB-250-M62",
 	type = 1,
-	warhead = {
-		caliber = 300,
-		concrete_factors = { 1, 1, 0.1 },
-		concrete_obj_factor = -0,
-		cumulative_factor = -0,
-		cumulative_thickness = -0,
-		expl_mass = 149,
-		mass = 227,
-		obj_factors = { 1, 1 },
-		other_factors = { 1, 1, 1 },
-		piercing_mass = 227
-	},
+	warhead = "_G/warheads/FAB_250.lua",
 	ws_type = { 4, 5, 9, "Redacted" }
 }

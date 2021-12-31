@@ -4309,6 +4309,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{British_GP_250LB_Bomb_Mk4}",
 					DrawArgs = { { 57, 0.1 } },
 					arg_value = 0,
+					forbidden = { {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						} },
 					required = { {
 							loadout = { "{British_GP_250LB_Bomb_Mk4}" },
 							station = 2
@@ -4317,6 +4336,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{British_GP_250LB_Bomb_Mk5}",
 					DrawArgs = { { 57, 0.1 } },
 					arg_value = 0,
+					forbidden = { {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						} },
 					required = { {
 							loadout = { "{British_GP_250LB_Bomb_Mk5}" },
 							station = 2
@@ -4325,6 +4363,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{British_GP_500LB_Bomb_Mk4}",
 					DrawArgs = { { 57, 0.1 } },
 					arg_value = 0,
+					forbidden = { {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						} },
 					required = { {
 							loadout = { "{British_GP_500LB_Bomb_Mk4}" },
 							station = 2
@@ -4332,6 +4389,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{British_GP_500LB_Bomb_Mk4_Short}",
 					arg_value = 0,
+					forbidden = { {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						} },
 					required = { {
 							loadout = { "{British_GP_500LB_Bomb_Mk4_Short}" },
 							station = 2
@@ -4340,6 +4416,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{British_GP_500LB_Bomb_Mk5}",
 					DrawArgs = { { 57, 0.1 } },
 					arg_value = 0,
+					forbidden = { {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						} },
 					required = { {
 							loadout = { "{British_GP_500LB_Bomb_Mk5}" },
 							station = 2
@@ -4348,6 +4443,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{British_MC_250LB_Bomb_Mk1}",
 					DrawArgs = { { 57, 0.1 } },
 					arg_value = 0,
+					forbidden = { {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						} },
 					required = { {
 							loadout = { "{British_MC_250LB_Bomb_Mk1}" },
 							station = 2
@@ -4356,6 +4470,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{British_MC_250LB_Bomb_Mk2}",
 					DrawArgs = { { 57, 0.1 } },
 					arg_value = 0,
+					forbidden = { {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						} },
 					required = { {
 							loadout = { "{British_MC_250LB_Bomb_Mk2}" },
 							station = 2
@@ -4363,6 +4496,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{British_MC_500LB_Bomb_Mk1_Short}",
 					arg_value = 0,
+					forbidden = { {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						} },
 					required = { {
 							loadout = { "{British_MC_500LB_Bomb_Mk1_Short}" },
 							station = 2
@@ -4371,6 +4523,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{British_MC_500LB_Bomb_Mk2}",
 					DrawArgs = { { 57, 0.1 } },
 					arg_value = 0,
+					forbidden = { {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						} },
 					required = { {
 							loadout = { "{British_MC_500LB_Bomb_Mk2}" },
 							station = 2
@@ -4379,6 +4550,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{British_SAP_500LB_Bomb_Mk5}",
 					DrawArgs = { { 57, 0.1 } },
 					arg_value = 0,
+					forbidden = { {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						} },
 					required = { {
 							loadout = { "{British_SAP_500LB_Bomb_Mk5}" },
 							station = 2
@@ -4387,6 +4577,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{MOSQUITO_50GAL_SLIPPER_TANK}",
 					arg_value = 0.2,
 					attach_point_oriented = true,
+					forbidden = { {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						} },
 					required = { {
 							loadout = { "{MOSQUITO_50GAL_SLIPPER_TANK}" },
 							station = 2
@@ -4395,6 +4604,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{MOSQUITO_100GAL_SLIPPER_TANK}",
 					arg_value = 0.2,
 					attach_point_oriented = true,
+					forbidden = { {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						} },
 					required = { {
 							loadout = { "{MOSQUITO_100GAL_SLIPPER_TANK}" },
 							station = 2
@@ -4415,6 +4643,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{British_GP_250LB_Bomb_Mk4}",
 					DrawArgs = { { 57, 0.1 } },
 					arg_value = 0,
+					forbidden = { {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						} },
 					required = { {
 							loadout = { "{British_GP_250LB_Bomb_Mk4}" },
 							station = 1
@@ -4423,6 +4670,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{British_GP_250LB_Bomb_Mk5}",
 					DrawArgs = { { 57, 0.1 } },
 					arg_value = 0,
+					forbidden = { {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						} },
 					required = { {
 							loadout = { "{British_GP_250LB_Bomb_Mk5}" },
 							station = 1
@@ -4431,6 +4697,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{British_GP_500LB_Bomb_Mk4}",
 					DrawArgs = { { 57, 0.1 } },
 					arg_value = 0,
+					forbidden = { {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						} },
 					required = { {
 							loadout = { "{British_GP_500LB_Bomb_Mk4}" },
 							station = 1
@@ -4438,6 +4723,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{British_GP_500LB_Bomb_Mk4_Short}",
 					arg_value = 0,
+					forbidden = { {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						} },
 					required = { {
 							loadout = { "{British_GP_500LB_Bomb_Mk4_Short}" },
 							station = 1
@@ -4446,6 +4750,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{British_GP_500LB_Bomb_Mk5}",
 					DrawArgs = { { 57, 0.1 } },
 					arg_value = 0,
+					forbidden = { {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						} },
 					required = { {
 							loadout = { "{British_GP_500LB_Bomb_Mk5}" },
 							station = 1
@@ -4454,6 +4777,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{British_MC_250LB_Bomb_Mk1}",
 					DrawArgs = { { 57, 0.1 } },
 					arg_value = 0,
+					forbidden = { {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						} },
 					required = { {
 							loadout = { "{British_MC_250LB_Bomb_Mk1}" },
 							station = 1
@@ -4462,6 +4804,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{British_MC_250LB_Bomb_Mk2}",
 					DrawArgs = { { 57, 0.1 } },
 					arg_value = 0,
+					forbidden = { {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						} },
 					required = { {
 							loadout = { "{British_MC_250LB_Bomb_Mk2}" },
 							station = 1
@@ -4469,6 +4830,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{British_MC_500LB_Bomb_Mk1_Short}",
 					arg_value = 0,
+					forbidden = { {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						} },
 					required = { {
 							loadout = { "{British_MC_500LB_Bomb_Mk1_Short}" },
 							station = 1
@@ -4477,6 +4857,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{British_MC_500LB_Bomb_Mk2}",
 					DrawArgs = { { 57, 0.1 } },
 					arg_value = 0,
+					forbidden = { {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						} },
 					required = { {
 							loadout = { "{British_MC_500LB_Bomb_Mk2}" },
 							station = 1
@@ -4485,6 +4884,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{British_SAP_500LB_Bomb_Mk5}",
 					DrawArgs = { { 57, 0.1 } },
 					arg_value = 0,
+					forbidden = { {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						} },
 					required = { {
 							loadout = { "{British_SAP_500LB_Bomb_Mk5}" },
 							station = 1
@@ -4493,6 +4911,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{MOSQUITO_50GAL_SLIPPER_TANK}",
 					arg_value = 0.2,
 					attach_point_oriented = true,
+					forbidden = { {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						} },
 					required = { {
 							loadout = { "{MOSQUITO_50GAL_SLIPPER_TANK}" },
 							station = 1
@@ -4501,6 +4938,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{MOSQUITO_100GAL_SLIPPER_TANK}",
 					arg_value = 0.2,
 					attach_point_oriented = true,
+					forbidden = { {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						} },
 					required = { {
 							loadout = { "{MOSQUITO_100GAL_SLIPPER_TANK}" },
 							station = 1
@@ -4620,6 +5076,150 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Z = 0,
 			connector = "PYLON_7",
 			use_full_connector_position = true
+		}, {
+			Launchers = { {
+					CLSID = "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_LEFT_WING_RAILS}",
+					arg_value = 0.2,
+					required = { {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "" },
+							station = 1
+						}, {
+							loadout = { "" },
+							station = 2
+						} }
+				}, {
+					CLSID = "{MOSSIE_2_British_HE_60LBFNo1_3INCHNo1_ON_LEFT_WING_RAILS}",
+					arg_value = 0.1,
+					required = { {
+							loadout = { "{MOSSIE_2_British_HE_60LBFNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						} }
+				}, {
+					CLSID = "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_LEFT_WING_RAILS}",
+					arg_value = 0.2,
+					required = { {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "" },
+							station = 1
+						}, {
+							loadout = { "" },
+							station = 2
+						} }
+				}, {
+					CLSID = "{MOSSIE_2_British_HE_60LBSAPNo2_3INCHNo1_ON_LEFT_WING_RAILS}",
+					arg_value = 0.1,
+					required = { {
+							loadout = { "{MOSSIE_2_British_HE_60LBSAPNo2_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						} }
+				}, {
+					CLSID = "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_LEFT_WING_RAILS}",
+					arg_value = 0.2,
+					required = { {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						}, {
+							loadout = { "" },
+							station = 1
+						}, {
+							loadout = { "" },
+							station = 2
+						} }
+				}, {
+					CLSID = "{MOSSIE_2_British_AP_25LBNo1_3INCHNo1_ON_LEFT_WING_RAILS}",
+					arg_value = 0.1,
+					required = { {
+							loadout = { "{MOSSIE_2_British_AP_25LBNo1_3INCHNo1_ON_RIGHT_WING_RAILS}" },
+							station = 6
+						} }
+				} },
+			Number = 5,
+			Order = 50,
+			Type = 0,
+			X = 0,
+			Y = 0,
+			Z = 0,
+			arg = 312,
+			arg_value = 0,
+			connector = "PYLON_1",
+			use_full_connector_position = true
+		}, {
+			Launchers = { {
+					CLSID = "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_RIGHT_WING_RAILS}",
+					arg_value = 0.2,
+					required = { {
+							loadout = { "{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "" },
+							station = 1
+						}, {
+							loadout = { "" },
+							station = 2
+						} }
+				}, {
+					CLSID = "{MOSSIE_2_British_HE_60LBFNo1_3INCHNo1_ON_RIGHT_WING_RAILS}",
+					arg_value = 0.1,
+					required = { {
+							loadout = { "{MOSSIE_2_British_HE_60LBFNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						} }
+				}, {
+					CLSID = "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_RIGHT_WING_RAILS}",
+					arg_value = 0.2,
+					required = { {
+							loadout = { "{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "" },
+							station = 1
+						}, {
+							loadout = { "" },
+							station = 2
+						} }
+				}, {
+					CLSID = "{MOSSIE_2_British_HE_60LBSAPNo2_3INCHNo1_ON_RIGHT_WING_RAILS}",
+					arg_value = 0.1,
+					required = { {
+							loadout = { "{MOSSIE_2_British_HE_60LBSAPNo2_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						} }
+				}, {
+					CLSID = "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_RIGHT_WING_RAILS}",
+					arg_value = 0.2,
+					required = { {
+							loadout = { "{MOSSIE_4_British_AP_25LBNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						}, {
+							loadout = { "" },
+							station = 1
+						}, {
+							loadout = { "" },
+							station = 2
+						} }
+				}, {
+					CLSID = "{MOSSIE_2_British_AP_25LBNo1_3INCHNo1_ON_RIGHT_WING_RAILS}",
+					arg_value = 0.1,
+					required = { {
+							loadout = { "{MOSSIE_2_British_AP_25LBNo1_3INCHNo1_ON_LEFT_WING_RAILS}" },
+							station = 5
+						} }
+				} },
+			Number = 6,
+			Order = 450,
+			Type = 0,
+			X = 0,
+			Y = 0,
+			Z = 0,
+			arg = 318,
+			arg_value = 0,
+			connector = "PYLON_12",
+			use_full_connector_position = true
 		} },
 	RCS = 2.5,
 	Rate = 40,
@@ -4684,7 +5284,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			name = "RollsRoyceMerlin",
 			prop_blades_count = 3,
 			prop_direction = 1,
-			prop_locations = { { 2.363, 0.104, -2.491 }, { 3.1415926535898, 0, 0 }, { 2.363, 0.104, 2.491 }, { 3.1415926535898, 0, 0 } },
 			prop_pitch_feather = 90,
 			prop_pitch_max = 82,
 			prop_pitch_min = 26,

@@ -1,4 +1,5 @@
 _G["weapons_table"]["weapons"]["missiles"]["X_35"] = {
+	Reflection = 0.13,
 	_unique_resource_name = "weapons.missiles.X_35",
 	add_attributes = { "Cruise missiles" },
 	caliber = 0.42,

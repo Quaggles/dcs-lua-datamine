@@ -27,6 +27,7 @@ _G["rockets"]["#Index"] = {
 	Y_back = 0,
 	Z_back = 0,
 	_unique_resource_name = "weapons.missiles.SM_2",
+	ccm_k0 = 0.5,
 	display_name = "SM-2",
 	exhaust = { 1, 1, 1, 1 },
 	name = "SM_2",

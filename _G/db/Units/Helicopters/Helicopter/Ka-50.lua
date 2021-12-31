@@ -844,6 +844,115 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		OPTIC = "Shkval"
 	},
 	Shape = "KA-50",
+	SnapViews = { { {
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = -40.067383,
+				viewAngle = 67.452896,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = 51.644135,
+				rollAngle = 0,
+				vAngle = -51.870411,
+				viewAngle = 37.846794,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = -1.912186,
+				rollAngle = 0,
+				vAngle = -34.446247,
+				viewAngle = 36.178646,
+				x_trans = 0,
+				y_trans = -0.025421,
+				z_trans = 0.073226
+			}, {
+				hAngle = -90.361992,
+				rollAngle = 0,
+				vAngle = -44.103138,
+				viewAngle = 73.605141,
+				x_trans = 0.169696,
+				y_trans = -0.073508,
+				z_trans = 0
+			}, {
+				hAngle = 109.752129,
+				rollAngle = 0,
+				vAngle = 1.484382,
+				viewAngle = 91.348198,
+				x_trans = 0.190306,
+				y_trans = 0.044778,
+				z_trans = -0.150335
+			}, {
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = -4.47801,
+				viewAngle = 42.512844,
+				x_trans = 0.154018,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = -108.85202,
+				rollAngle = 0,
+				vAngle = 0.085984,
+				viewAngle = 91.348198,
+				x_trans = 0.190306,
+				y_trans = 0.044778,
+				z_trans = 0.139404
+			}, {
+				hAngle = 16.411518,
+				rollAngle = 0,
+				vAngle = -27.209915,
+				viewAngle = 89.777542,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = -0.218292
+			}, {
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 34.042202,
+				viewAngle = 88.727844,
+				x_trans = 0.142145,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = -32.128311,
+				rollAngle = 0,
+				vAngle = -5.720805,
+				viewAngle = 59.208893,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = 14.80306,
+				rollAngle = 0,
+				vAngle = 3.332499,
+				viewAngle = 56.03204,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = -14.414484,
+				rollAngle = 0,
+				vAngle = 3.332499,
+				viewAngle = 56.03204,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = -15.592758,
+				viewAngle = 89.777542,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				x_trans = 0.04,
+				y_trans = -0.01,
+				z_trans = 0
+			} } },
 	TakeOffRWCategories = { {
 			Name = "AircraftCarrier"
 		}, {
@@ -868,6 +977,31 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		} },
 	V_max = 350,
 	V_max_cruise = 310,
+	ViewSettings = {
+		Arcade = {
+			AnglesDefault = { 0, -8 },
+			LocalPoint = { -16.812, 5.39, 0 }
+		},
+		Chase = {
+			AnglesDefault = { 180, -8 },
+			LocalPoint = { -0.512, 2.79, 0 }
+		},
+		Cockpit = { {
+				Allow360rotation = false,
+				CameraAngleLimits = { 200, -90, 90 },
+				CameraAngleRestriction = { false, 90, 0.5 },
+				CameraViewAngleLimits = { 20, 140 },
+				CockpitLocalPoint = { 3.188, 0.39, 0 },
+				EyePoint = { 0.09, 0, 0 },
+				ShoulderSize = 0.25,
+				limits_6DOF = {
+					roll = 90,
+					x = { -0.02, 0.35 },
+					y = { -0.15, 0.165 },
+					z = { -0.17, 0.17 }
+				}
+			} }
+	},
 	Vy_land_max = 12.8,
 	Vy_max = 14.6,
 	Waypoint_Custom_Panel = true,

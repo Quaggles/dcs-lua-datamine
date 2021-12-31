@@ -98,6 +98,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			defValue = true,
 			id = "EnableTAF",
 			label = "Enable TAF (GCI link)"
+		}, {
+			control = "checkbox",
+			defValue = false,
+			id = "DisableVTBExport",
+			label = "Disable VTB Export"
 		} },
 	AmmoWeight = 141.75,
 	CAS_min = 30,

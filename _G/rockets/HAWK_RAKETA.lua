@@ -27,6 +27,7 @@ _G["rockets"]["#Index"] = {
 	Y_back = 0,
 	Z_back = 0,
 	_unique_resource_name = "weapons.missiles.HAWK_RAKETA",
+	ccm_k0 = 1,
 	display_name = "MIM-23K Hawk",
 	exhaust = { 1, 1, 1, 1 },
 	name = "HAWK_RAKETA",

@@ -324,7 +324,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	Stations = {
 		LSO = {
 			HQ_model = "empty",
-			cameraPos = { -109, 19.8, -17.5, 180 },
+			cameraPos = { -109, 19.8, -18.7, 180 },
 			dockConnector = "LSO_VIEW",
 			hide_argument = 821
 		}

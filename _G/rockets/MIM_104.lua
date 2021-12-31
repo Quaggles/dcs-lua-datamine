@@ -28,6 +28,7 @@ _G["rockets"]["#Index"] = {
 	Y_back = 0,
 	Z_back = 0,
 	_unique_resource_name = "weapons.missiles.MIM_104",
+	ccm_k0 = 0.5,
 	display_name = "MIM-104 Patriot",
 	exhaust = { 1, 1, 1, 1 },
 	name = "MIM_104",

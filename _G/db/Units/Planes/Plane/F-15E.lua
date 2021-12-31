@@ -734,6 +734,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	},
 	IR_emission_coeff = 0.91,
 	IR_emission_coeff_ab = 4,
+	InheriteCommonCallnames = true,
 	M_empty = 17072,
 	M_fuel_max = 10246,
 	M_max = 36741,
@@ -809,7 +810,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{69DC8AE7-8F77-427B-B8AA-B19D3F478B66}"
 				}, {
-					CLSID = "{9BCC2A2B-5708-4860-B1F1-053A18442067}"
+					CLSID = "{9BCC2A2B-5708-4860-B1F1-053A18442067}",
+					Cx_gain = 0.277,
+					Type = 1
 				}, {
 					CLSID = "LAU_117_AGM_65G"
 				}, {
@@ -1367,7 +1370,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{69DC8AE7-8F77-427B-B8AA-B19D3F478B66}"
 				}, {
-					CLSID = "{9BCC2A2B-5708-4860-B1F1-053A18442067}"
+					CLSID = "{9BCC2A2B-5708-4860-B1F1-053A18442067}",
+					Cx_gain = 0.277,
+					Type = 1
 				}, {
 					CLSID = "LAU_117_AGM_65G"
 				} },
@@ -1440,6 +1445,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		RWR = "Abstract RWR"
 	},
 	Shape = "f-15e",
+	SpecificCallnames = {
+		USA = { { "Dude", "Dude" }, { "Thud", "Thud" }, { "Gunny", "Gunny" }, { "Mad", "Mad" }, { "Trek", "Trek" }, { "Sniper", "Sniper" }, { "Sled", "Sled" }, { "Best", "Best" }, { "Jazz", "Jazz" }, { "Rage", "Rage" }, { "Tahoe", "Tahoe" } }
+	},
 	Tasks = { {
 			Name = "CAP",
 			OldID = "CAP",

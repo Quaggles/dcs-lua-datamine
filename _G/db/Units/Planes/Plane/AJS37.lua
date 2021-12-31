@@ -864,6 +864,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			mm = 0,
 			mmint = 1,
 			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "LANDINGGEARL",
+			label = "Left landing gear",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "LANDINGGEARR",
+			label = "Right landing gear",
+			mm = 0,
+			mmint = 1,
+			prob = 100
 		} },
 	H_max = 21000,
 	HumanCockpit = true,
@@ -994,93 +1010,101 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		moment_of_inertia = { 14609, 95834, 96800 },
 		suspension = { {
 				allowable_hard_contact_length = 1,
-				amortizer_back_damper_force_factor = 28500,
+				amortizer_back_damper_force_factor = 15000,
 				amortizer_basic_length = 0.35,
-				amortizer_direct_damper_force_factor = 28500,
+				amortizer_direct_damper_force_factor = 10000,
 				amortizer_max_length = 0.35,
-				amortizer_reduce_length = 0.05,
-				amortizer_spring_force_factor = 1152830,
-				amortizer_spring_force_factor_rate = 2.9,
-				amortizer_static_force = 8000,
+				amortizer_reduce_length = 0.01,
+				amortizer_spring_force_factor = 2520123,
+				amortizer_spring_force_factor_rate = 3.5,
+				amortizer_static_force = 12343,
+				anti_skid_installed = false,
 				arg_amortizer = 1,
 				arg_post = 0,
 				arg_wheel_rotation = 76,
 				arg_wheel_yaw = 2,
 				collision_shell_name = "WHEEL_F",
-				damage_element = 150,
-				damage_omega = 300,
+				damage_element = 83,
+				damper_coeff = 20,
 				mass = 50,
-				pos = { 5, -2, 1, 0 },
-				self_attitude = false,
+				self_attitude = true,
+				wheel_axle_offset = 0,
 				wheel_damage_force_factor = 450,
-				wheel_damage_speed = 150,
-				wheel_glide_friction_factor = 0.65,
-				wheel_moment_of_inertia = 2,
+				wheel_damage_speed = 180,
+				wheel_glide_friction_factor = 0.58,
+				wheel_moment_of_inertia = 7,
 				wheel_radius = 0.2,
-				wheel_roll_friction_factor = 0.04,
-				wheel_side_friction_factor = 0.65,
-				wheel_static_friction_factor = 0.65,
-				yaw_limit = 0.017543859649123
+				wheel_roll_friction_factor = 0.06,
+				wheel_side_friction_factor = 1.1,
+				wheel_static_friction_factor = 0.35,
+				yaw_limit = 0.5235987755983
 			}, {
-				allowable_hard_contact_length = 1,
-				amortizer_back_damper_force_factor = 64000,
+				allowable_hard_contact_length = 0.3,
+				amortizer_back_damper_force_factor = 20000,
 				amortizer_basic_length = 0.4,
-				amortizer_direct_damper_force_factor = 48000,
+				amortizer_direct_damper_force_factor = 30000,
 				amortizer_max_length = 0.4,
-				amortizer_reduce_length = 0.05,
-				amortizer_spring_force_factor = 1249425,
+				amortizer_reduce_length = 0.01,
+				amortizer_spring_force_factor = 4949355,
 				amortizer_spring_force_factor_rate = 3,
-				amortizer_static_force = 40000,
+				amortizer_static_force = 39674,
+				anti_skid_gain = 400,
+				anti_skid_improved = true,
 				anti_skid_installed = true,
 				arg_amortizer = 6,
-				arg_post = 3,
-				arg_wheel_rotation = 77,
-				arg_wheel_yaw = -1,
-				collision_shell_name = "WHEEL_LFront",
-				damage_element = 83,
-				damage_omega = 150,
-				mass = 90,
-				pos = { -0.4, -2.1, 2.4 },
-				self_attitude = false,
-				wheel_brake_moment_max = 17000,
-				wheel_damage_force_factor = 450,
-				wheel_damage_speed = 150,
-				wheel_glide_friction_factor = 0.95,
-				wheel_moment_of_inertia = 3,
-				wheel_radius = 0.3,
-				wheel_roll_friction_factor = 0.04,
-				wheel_side_friction_factor = 0.75,
-				wheel_static_friction_factor = 0.65,
-				yaw_limit = 0
-			}, {
-				amortizer_back_damper_force_factor = 64000,
-				amortizer_basic_length = 0.4,
-				amortizer_direct_damper_force_factor = 48000,
-				amortizer_max_length = 0.4,
-				amortizer_reduce_length = 0.05,
-				amortizer_spring_force_factor = 1249425,
-				amortizer_spring_force_factor_rate = 3,
-				amortizer_static_force = 40000,
-				anti_skid_installed = true,
-				arg_amortizer = 4,
 				arg_post = 5,
 				arg_wheel_rotation = 77,
 				arg_wheel_yaw = -1,
-				collision_shell_name = "WHEEL_RFront",
-				damage_element = 83,
-				damage_omega = 150,
-				mass = 90,
-				pos = { -0.4, -3.1, -2.4 },
+				collision_shell_name = "WHEEL_LFront",
+				crossover_locked_wheel_protection = true,
+				crossover_locked_wheel_protection_speed_min = 18,
+				damage_element = 84,
+				damper_coeff = 30,
+				mass = 80,
 				self_attitude = false,
-				wheel_brake_moment_max = 17000,
-				wheel_damage_force_factor = 450,
-				wheel_damage_speed = 150,
-				wheel_glide_friction_factor = 0.95,
-				wheel_moment_of_inertia = 3,
+				wheel_brake_moment_max = 18000,
+				wheel_damage_force_factor = 200,
+				wheel_damage_speed = 180,
+				wheel_glide_friction_factor = 0.8,
+				wheel_moment_of_inertia = 9,
 				wheel_radius = 0.3,
-				wheel_roll_friction_factor = 0.04,
-				wheel_side_friction_factor = 0.75,
-				wheel_static_friction_factor = 0.65,
+				wheel_roll_friction_factor = 0.067,
+				wheel_side_friction_factor = 0.95,
+				wheel_static_friction_factor = 0.42,
+				yaw_limit = 0
+			}, {
+				allowable_hard_contact_length = 0.3,
+				amortizer_back_damper_force_factor = 20000,
+				amortizer_basic_length = 0.4,
+				amortizer_direct_damper_force_factor = 30000,
+				amortizer_max_length = 0.4,
+				amortizer_reduce_length = 0.01,
+				amortizer_spring_force_factor = 4949355,
+				amortizer_spring_force_factor_rate = 3,
+				amortizer_static_force = 39674,
+				anti_skid_gain = 400,
+				anti_skid_improved = true,
+				anti_skid_installed = true,
+				arg_amortizer = 4,
+				arg_post = 3,
+				arg_wheel_rotation = 77,
+				arg_wheel_yaw = -1,
+				collision_shell_name = "WHEEL_RFront",
+				crossover_locked_wheel_protection = true,
+				crossover_locked_wheel_protection_speed_min = 18,
+				damage_element = 85,
+				damper_coeff = 30,
+				mass = 80,
+				self_attitude = false,
+				wheel_brake_moment_max = 18000,
+				wheel_damage_force_factor = 200,
+				wheel_damage_speed = 180,
+				wheel_glide_friction_factor = 0.8,
+				wheel_moment_of_inertia = 9,
+				wheel_radius = 0.3,
+				wheel_roll_friction_factor = 0.067,
+				wheel_side_friction_factor = 0.95,
+				wheel_static_friction_factor = 0.42,
 				yaw_limit = 0
 			} }
 	},
@@ -1733,6 +1757,166 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	panelRadio = { {
 			channels = { {
 					connect = true,
+					default = 305,
+					modulation = "AM",
+					name = "Group 100"
+				}, {
+					default = 264,
+					modulation = "AM",
+					name = "Group 101"
+				}, {
+					default = 265,
+					modulation = "AM",
+					name = "Group 102"
+				}, {
+					default = 256,
+					modulation = "AM",
+					name = "Group 103"
+				}, {
+					default = 254,
+					modulation = "AM",
+					name = "Group 104"
+				}, {
+					default = 250,
+					modulation = "AM",
+					name = "Group 105"
+				}, {
+					default = 270,
+					modulation = "AM",
+					name = "Group 106"
+				}, {
+					default = 257,
+					modulation = "AM",
+					name = "Group 107"
+				}, {
+					default = 255,
+					modulation = "AM",
+					name = "Group 108"
+				}, {
+					default = 262,
+					modulation = "AM",
+					name = "Group 109"
+				}, {
+					default = 259,
+					modulation = "AM",
+					name = "Group 110"
+				}, {
+					default = 268,
+					modulation = "AM",
+					name = "Group 111"
+				}, {
+					default = 269,
+					modulation = "AM",
+					name = "Group 112"
+				}, {
+					default = 260,
+					modulation = "AM",
+					name = "Group 113"
+				}, {
+					default = 263,
+					modulation = "AM",
+					name = "Group 114"
+				}, {
+					default = 261,
+					modulation = "AM",
+					name = "Group 115"
+				}, {
+					default = 267,
+					modulation = "AM",
+					name = "Group 116"
+				}, {
+					default = 251,
+					modulation = "AM",
+					name = "Group 117"
+				}, {
+					default = 253,
+					modulation = "AM",
+					name = "Group 118"
+				}, {
+					default = 266,
+					modulation = "AM",
+					name = "Group 119"
+				}, {
+					default = 305,
+					modulation = "AM",
+					name = "Group 120"
+				}, {
+					default = 264,
+					modulation = "AM",
+					name = "Group 121"
+				}, {
+					default = 265,
+					modulation = "AM",
+					name = "Group 122"
+				}, {
+					default = 256,
+					modulation = "AM",
+					name = "Group 123"
+				}, {
+					default = 254,
+					modulation = "AM",
+					name = "Group 124"
+				}, {
+					default = 250,
+					modulation = "AM",
+					name = "Group 125"
+				}, {
+					default = 270,
+					modulation = "AM",
+					name = "Group 126"
+				}, {
+					default = 257,
+					modulation = "AM",
+					name = "Group 127"
+				}, {
+					default = 255,
+					modulation = "AM",
+					name = "Group 128"
+				}, {
+					default = 262,
+					modulation = "AM",
+					name = "Group 139"
+				}, {
+					default = 259,
+					modulation = "AM",
+					name = "Group 130"
+				}, {
+					default = 268,
+					modulation = "AM",
+					name = "Group 131"
+				}, {
+					default = 269,
+					modulation = "AM",
+					name = "Group 132"
+				}, {
+					default = 260,
+					modulation = "AM",
+					name = "Group 133"
+				}, {
+					default = 263,
+					modulation = "AM",
+					name = "Group 134"
+				}, {
+					default = 261,
+					modulation = "AM",
+					name = "Group 135"
+				}, {
+					default = 267,
+					modulation = "AM",
+					name = "Group 136"
+				}, {
+					default = 251,
+					modulation = "AM",
+					name = "Group 137"
+				}, {
+					default = 253,
+					modulation = "AM",
+					name = "Group 138"
+				}, {
+					default = 266,
+					modulation = "AM",
+					name = "Group 139"
+				}, {
 					default = 305,
 					modulation = "AM",
 					name = "Special 1"

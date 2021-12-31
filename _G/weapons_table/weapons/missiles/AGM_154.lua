@@ -1,5 +1,5 @@
 _G["weapons_table"]["weapons"]["missiles"]["AGM_154"] = {
-	Reflection = 0.0618,
+	Reflection = 0.05,
 	_unique_resource_name = "weapons.missiles.AGM_154",
 	caliber = 0.4,
 	client = {

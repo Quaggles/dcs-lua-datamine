@@ -15,7 +15,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	WS = { {
 			LN = { {
 					BR = { {
-							pos = { 1.5, 0, 0.4 }
+							pos = { 1, 0, 0 }
 						} },
 					PL = { {
 							shell_name = {}
@@ -57,7 +57,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				inn = 10,
 				p = 100
 			},
-			pos = { 0, 0.95, 0 }
+			pos = { 0, 0.95, 0.2 }
 		},
 		fire_on_march = false,
 		maxTargetDetectionRange = 2000

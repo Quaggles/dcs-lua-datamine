@@ -1,7 +1,7 @@
 _G["launcher"]["{Robot74}"] = {
 	CLSID = "{Robot74}",
 	Count = 1,
-	Cx_pil = 0.00014,
+	Cx_pil = 0.00016,
 	Elements = { {
 			IsAdapter = true,
 			Position = { 0, 0, 0 },
@@ -11,7 +11,8 @@ _G["launcher"]["{Robot74}"] = {
 			ShapeName = "AIM-9L"
 		} },
 	Picture = "aim9m.png",
-	Weight = 90,
+	Weight = 144,
+	Weight_Empty = 59,
 	_file = "./CoreMods/aircraft/AJS37/Entry/Weapons.lua",
 	_origin = "AJS37 AI by Heatblur Simulations",
 	attribute = { 4, 4, 32, "Redacted" },

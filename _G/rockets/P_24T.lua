@@ -30,6 +30,7 @@ _G["rockets"]["#Index"] = {
 	Y_back = -0.101,
 	Z_back = 0,
 	_unique_resource_name = "weapons.missiles.P_24T",
+	ccm_k0 = 1,
 	display_name = "R-24T (AA-7 Apex IR)",
 	display_name_short = "R-24T",
 	exhaust = { 1, 1, 1, 1 },

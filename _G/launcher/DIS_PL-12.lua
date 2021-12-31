@@ -9,7 +9,7 @@ _G["launcher"]["DIS_PL-12"] = {
 		} },
 	Picture = "pl12.png",
 	Weight = 199,
-	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/mils_pl12.lua",
+	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/mils_sd10.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	attribute = { 4, 4, 7, "Redacted" },
 	category = 4,
