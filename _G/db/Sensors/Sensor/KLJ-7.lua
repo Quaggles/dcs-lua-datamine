@@ -13,7 +13,7 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 				[0] = 76000
 			},
 			[0] = { 46000,
-				[0] = 76000
+				[0] = 89000
 			}
 		},
 		lock_on_distance_coeff = 0.85,
@@ -23,16 +23,16 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 		}
 	},
 	category = 1,
-	max_measuring_distance = 265000,
+	max_measuring_distance = 125000,
 	scan_period = 5,
 	scan_volume = {
 		azimuth = { -60, 60 },
 		elevation = { -30, 10 }
 	},
 	surface_search = {
-		GMTI_detection_distance = 220000,
+		GMTI_detection_distance = 140000,
 		HRM_detection_distance = 20000,
-		RBM_detection_distance = 180000,
+		RBM_detection_distance = 150000,
 		RCS = 100,
 		vehicles_detection = true
 	},

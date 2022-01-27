@@ -37,7 +37,6 @@ _G["rockets"]["#Index"] = {
 	display_name = "Matra Magic II",
 	exhaust = { 1, 1, 1, 1 },
 	name = "MMagicII",
-	nozzle_exit_area = 0.016,
 	shape_table_data = { {
 			file = "MAGIC-R550",
 			fire = { 0, 1 },
@@ -47,7 +46,6 @@ _G["rockets"]["#Index"] = {
 			username = "M.Magic II"
 		} },
 	sigma = { 3, 3, 3 },
-	supersonic_A_coef_skew = 0.25,
 	t_acc = 1.88,
 	t_b = 0,
 	t_marsh = 0,

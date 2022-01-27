@@ -390,7 +390,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { { -2.3561944901923, 0.78539816339745, -0.087266462599716, 1.3962634015955 } },
-			center = "Gun_Point_lha_02",
+			center = "Gun_Center_lha_02",
 			drawArgument1 = 19,
 			drawArgument2 = 20,
 			pidY = {},

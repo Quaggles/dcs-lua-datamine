@@ -272,7 +272,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			reference_angle_Y = -1.5707963267949
 		}, {
 			LN = { {
-					ECM_K = 0.5,
+					ECM_K = 0.4,
 					beamWidth = 1.5707963267949,
 					distanceMax = 220000,
 					distanceMin = 1000,
@@ -280,7 +280,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					max_trg_alt = 30000,
 					min_trg_alt = 5,
 					reactionTime = 2,
-					reflection_limit = 0.1,
+					reflection_limit = 0.07,
 					type = 102
 				} },
 			angles = { { 2.3561944901923, -2.3561944901923, -0.17453292519943, 1.5707963267949 } },
@@ -308,7 +308,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			pos = {}
 		}, {
 			LN = { {
-					ECM_K = 0.5,
+					ECM_K = 0.4,
 					beamWidth = 1.5707963267949,
 					distanceMax = 220000,
 					distanceMin = 1000,
@@ -316,7 +316,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					max_trg_alt = 30000,
 					min_trg_alt = 5,
 					reactionTime = 2,
-					reflection_limit = 0.1,
+					reflection_limit = 0.07,
 					type = 102
 				} },
 			angles = { { -0.78539816339745, 0.78539816339745, -0.17453292519943, 1.5707963267949 } },

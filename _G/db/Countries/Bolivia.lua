@@ -836,11 +836,7 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "C-130",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "P-51D-30-NA",
+					Name = "C-47",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -907,8 +903,6 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Yak-52"
 				}, {
 					Name = "Ju-88A4"
-				}, {
-					Name = "C-47"
 				} }
 		},
 		Ships = {

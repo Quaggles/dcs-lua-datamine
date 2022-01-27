@@ -221,6 +221,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			OldID = "Ground Attack",
 			WorldID = 32
 		}, {
+			Name = "CAS",
+			OldID = "CAS",
+			WorldID = 31
+		}, {
 			Name = "AFAC",
 			OldID = "AFAC",
 			WorldID = 16

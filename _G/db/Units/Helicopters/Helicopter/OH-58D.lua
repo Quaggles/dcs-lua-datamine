@@ -64,7 +64,11 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		modulation = 0
 	},
 	IR_emission_coeff = 0.2,
-	LandRWCategories = {},
+	LandRWCategories = { {
+			Name = "AircraftCarrier"
+		}, {
+			Name = "HelicopterCarrier"
+		} },
 	MOI = { 1380, 5002, 5305 },
 	M_empty = 1560,
 	M_fuel_max = 454,
@@ -130,6 +134,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	Shape = "OH-58D",
 	TakeOffRWCategories = { {
 			Name = "AircraftCarrier"
+		}, {
+			Name = "HelicopterCarrier"
 		} },
 	Tasks = { <table 1>, {
 			Name = "Transport",

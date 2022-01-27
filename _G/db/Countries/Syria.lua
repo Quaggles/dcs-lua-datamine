@@ -324,10 +324,6 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "Leopard-2A5",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
 					Name = "ZIL-135",
 					in_service = 0,
 					out_of_service = 40000
@@ -337,6 +333,70 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "RLS_19J6",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "T-72B",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "2S6 Tunguska",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Strela-10M3",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Soldier RPG",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Soldier AK",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Ural-4320 APA-5D",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "ZiL-131 APA-80",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "ATZ-5",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "ATMZ-5",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "ATZ-10",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "S-300PS 5P85C ln",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "S-300PS 5P85D ln",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "S-300PS 54K6 cp",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "S-300PS 40B6M tr",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "S-300PS 40B6MD sr",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "S-300PS 64H6E sr",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -727,6 +787,10 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "SA342Minigun",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Mi-24V",
 					in_service = 0,
 					out_of_service = 40000
 				}, {

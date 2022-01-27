@@ -758,7 +758,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{89D000B0-0360-461A-AD83-FB727E2ABA98}",
 					attach_point_position = { 0.5, 0.02, 0 }
 				}, {
-					CLSID = "{9BCC2A2B-5708-4860-B1F1-053A18442067}"
+					CLSID = "{9BCC2A2B-5708-4860-B1F1-053A18442067}",
+					Cx_gain = 0.277,
+					Type = 1
 				}, {
 					CLSID = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}"
 				}, {
@@ -923,7 +925,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{BRU-42_2xGBU-12_right}",
 					attach_point_position = { 0.5, 0.02, 0 }
 				}, {
-					CLSID = "{9BCC2A2B-5708-4860-B1F1-053A18442067}"
+					CLSID = "{9BCC2A2B-5708-4860-B1F1-053A18442067}",
+					Cx_gain = 0.277,
+					Type = 1
 				}, {
 					CLSID = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}"
 				}, {

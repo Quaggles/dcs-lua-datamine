@@ -14,7 +14,10 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	WS = { {
 			LN = { {
 					BR = { {
-							pos = {}
+							connector_name = "POINT_GUN_01",
+							muzzleBrakeType = 2,
+							recoilArgument = 23,
+							recoliTime = 0.3
 						} },
 					PL = { {
 							shell_name = {}

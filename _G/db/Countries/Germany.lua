@@ -1148,6 +1148,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "C-47",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "FW-190D9"
 				}, {
 					Name = "FW-190A8"
@@ -1211,8 +1215,6 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "MiG-19P"
 				}, {
 					Name = "Ju-88A4"
-				}, {
-					Name = "C-47"
 				}, {
 					Name = "TF-51D"
 				} }

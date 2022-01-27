@@ -2694,12 +2694,16 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				Flags = { "Reversible" },
 				Sequence = { {
 						C = { { "Arg", 8, "to", 0, "in", 5 } }
+					}, {
+						C = { { "Arg", 19, "to", 0, "in", 0.3 } }
 					} },
 				Transition = { "Retract", "Extend" }
 			}, {
 				Flags = { "Reversible", "StepsBackwards" },
 				Sequence = { {
 						C = { { "Arg", 8, "to", 1, "in", 15 } }
+					}, {
+						C = { { "Arg", 19, "to", 1, "in", 0.3 } }
 					} },
 				Transition = { "Extend", "Retract" }
 			} },

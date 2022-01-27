@@ -3589,7 +3589,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				Transition = { "Any", "Ditch" }
 			} }
 	},
-	net_animation = { 420 },
+	net_animation = { 278, 279, 420 },
 	nose_gear_pos = { -4.99, -0.82, 0 },
 	nose_gear_wheel_diameter = 0.319,
 	panelRadio = { {

@@ -775,7 +775,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{EF0A9419-01D6-473B-99A3-BEBDB923B14D}"
 				}, {
-					CLSID = "{9BCC2A2B-5708-4860-B1F1-053A18442067}"
+					CLSID = "{9BCC2A2B-5708-4860-B1F1-053A18442067}",
+					Cx_gain = 0.277,
+					Type = 1
 				}, {
 					CLSID = "{B06DD79A-F21E-4EB9-BD9D-AB3844618C93}"
 				}, {
@@ -976,7 +978,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{EF0A9419-01D6-473B-99A3-BEBDB923B14D}"
 				}, {
-					CLSID = "{9BCC2A2B-5708-4860-B1F1-053A18442067}"
+					CLSID = "{9BCC2A2B-5708-4860-B1F1-053A18442067}",
+					Cx_gain = 0.277,
+					Type = 1
 				}, {
 					CLSID = "{B06DD79A-F21E-4EB9-BD9D-AB3844618C93}"
 				}, {

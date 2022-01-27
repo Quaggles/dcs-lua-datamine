@@ -52,14 +52,14 @@ _G["weapons_table"]["weapons"]["missiles"]["C-701T"] = {
 		},
 		boost = {
 			custom_smoke_dissipation_factor = 0.2,
-			fuel_mass = 0,
+			fuel_mass = 12,
 			impulse = 125,
 			nozzle_orientationXYZ = { { 0, 0, 0 } },
 			nozzle_position = { { -1.13, 0, 0 } },
 			smoke_color = { 0.6, 0.6, 0.6 },
 			smoke_transparency = 0.8,
 			tail_width = 0.2,
-			work_time = 0
+			work_time = 3
 		},
 		category = 2,
 		class_name = "wAmmunitionSelfHoming",
@@ -89,7 +89,7 @@ _G["weapons_table"]["weapons"]["missiles"]["C-701T"] = {
 		},
 		march = {
 			custom_smoke_dissipation_factor = 0.2,
-			fuel_mass = 12,
+			fuel_mass = 6,
 			impulse = 150,
 			nozzle_orientationXYZ = { { 0, 0, 0 } },
 			nozzle_position = { { -1.13, 0, 0 } },
@@ -209,14 +209,14 @@ _G["weapons_table"]["weapons"]["missiles"]["C-701T"] = {
 		},
 		boost = {
 			custom_smoke_dissipation_factor = 0.2,
-			fuel_mass = 0,
+			fuel_mass = 12,
 			impulse = 125,
 			nozzle_orientationXYZ = { { 0, 0, 0 } },
 			nozzle_position = { { -1.13, 0, 0 } },
 			smoke_color = { 0.6, 0.6, 0.6 },
 			smoke_transparency = 0.8,
 			tail_width = 0.2,
-			work_time = 0
+			work_time = 3
 		},
 		category = 2,
 		class_name = "wAmmunitionSelfHoming",
@@ -246,7 +246,7 @@ _G["weapons_table"]["weapons"]["missiles"]["C-701T"] = {
 		},
 		march = {
 			custom_smoke_dissipation_factor = 0.2,
-			fuel_mass = 12,
+			fuel_mass = 6,
 			impulse = 150,
 			nozzle_orientationXYZ = { { 0, 0, 0 } },
 			nozzle_position = { { -1.13, 0, 0 } },

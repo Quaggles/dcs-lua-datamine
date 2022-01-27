@@ -454,7 +454,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	},
 	radar_can_see_ground = false,
 	range = 12300,
-	singleInFlight = true,
+	singleInFlight = false,
 	stores_number = 2,
 	swapped_names = true,
 	tand_gear_max = 0.577,

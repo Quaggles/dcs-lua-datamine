@@ -95,7 +95,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			drawArgument2 = 14
 		}, {
 			LN = { {
-					ECM_K = 0.4,
+					ECM_K = 0.45,
 					beamWidth = 1.5707963267949,
 					distanceMax = 160000,
 					distanceMin = 1000,

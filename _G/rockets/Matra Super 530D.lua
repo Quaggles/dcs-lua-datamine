@@ -1,7 +1,7 @@
 _G["rockets"]["#Index"] = {
 	Cx_pil = 2.25,
 	D_max = 12000,
-	D_min = 1500,
+	D_min = 2500,
 	Damage = 150,
 	Diam = 263,
 	Escort = 1,
@@ -51,7 +51,7 @@ _G["rockets"]["#Index"] = {
 		loft_active_by_default = 1,
 		loft_add_pitch = 0.78539816339745,
 		loft_max_dist = 100000,
-		loft_min_dist = 10000,
+		loft_min_dist = 18520,
 		loft_time = 10,
 		max_side_N = 10,
 		max_signal_Fi = 0.20943951023932,
@@ -72,7 +72,7 @@ _G["rockets"]["#Index"] = {
 		work_time = 2
 	},
 	category = 4,
-	ccm_k0 = 0.25,
+	ccm_k0 = 0.1,
 	class_name = "wAmmunitionSelfHoming",
 	controller = {
 		boost_start = 0.1,

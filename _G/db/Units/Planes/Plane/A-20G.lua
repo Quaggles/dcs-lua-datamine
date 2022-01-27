@@ -2056,7 +2056,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Name = "Runway Attack",
 			OldID = "Runway Attack",
 			WorldID = 34
-		}, <table 1> },
+		}, <table 1>, {
+			Name = "Anti-ship Strike",
+			OldID = "Antiship Strike",
+			WorldID = 30
+		} },
 	V_land = 50,
 	V_max_h = 172,
 	V_max_sea_level = 183.3,

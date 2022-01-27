@@ -107,15 +107,16 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			drawArgument2 = 14
 		}, {
 			LN = { {
-					ECM_K = 0.2,
+					ECM_K = 0.5,
 					beamWidth = 1.5707963267949,
 					distanceMax = 260000,
 					distanceMin = 1000,
+					frequencyRange = { 500000000, 580000000 },
 					max_number_of_missiles_channels = 2,
 					max_trg_alt = 30000,
 					min_trg_alt = 5,
 					reactionTime = 2,
-					reflection_limit = 0.06,
+					reflection_limit = 0.05,
 					type = 102
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -1.5707963267949, 1.3962634015955 } },
@@ -135,43 +136,57 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			},
 			pos = { 0, 19, 0 }
 		}, {
-			LN = { {} },
+			LN = { {
+					frequencyRange = {}
+				} },
 			angles = { {} },
 			pidY = {},
 			pidZ = {},
 			pos = {}
 		}, {
-			LN = { {} },
+			LN = { {
+					frequencyRange = {}
+				} },
 			angles = { {} },
 			pidY = {},
 			pidZ = {},
 			pos = {}
 		}, {
-			LN = { {} },
+			LN = { {
+					frequencyRange = {}
+				} },
 			angles = { {} },
 			pidY = {},
 			pidZ = {},
 			pos = {}
 		}, {
-			LN = { {} },
+			LN = { {
+					frequencyRange = {}
+				} },
 			angles = { {} },
 			pidY = {},
 			pidZ = {},
 			pos = {}
 		}, {
-			LN = { {} },
+			LN = { {
+					frequencyRange = {}
+				} },
 			angles = { {} },
 			pidY = {},
 			pidZ = {},
 			pos = {}
 		}, {
-			LN = { {} },
+			LN = { {
+					frequencyRange = {}
+				} },
 			angles = { {} },
 			pidY = {},
 			pidZ = {},
 			pos = {}
 		}, {
-			LN = { {} },
+			LN = { {
+					frequencyRange = {}
+				} },
 			angles = { {} },
 			pidY = {},
 			pidZ = {},
@@ -554,28 +569,15 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							recoilT2 = 0.5,
 							recoilTime = 2
 						} },
-					ECM_K = 0.2,
 					PL = { {
-							ammo_capacity = 6,
-							reload_time = 1000000,
-							type_ammunition = { 4, 4, 34, "Redacted" }
+							type_ammunition = {}
 						} },
-					barrels_reload_type = 2,
 					depends_on_unit = <table 1>,
-					distanceMax = 100000,
-					distanceMin = 10000,
-					launch_delay = 2,
-					max_number_of_missiles_channels = 2,
-					out_velocity = 2,
-					reactionTime = 2,
-					reflection_limit = 0.06,
-					sensor = {},
-					type = 4
+					sensor = {}
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, -1.5707963267949, 1.5707963267949 } },
+			angles = { {} },
 			area = "NOSE_R",
-			center = "POINT_HHQ9_3_3",
-			moveable = false
+			center = "POINT_HHQ9_3_3"
 		}, {
 			LN = { {
 					BR = { {
@@ -737,6 +739,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		},
 		maxTargetDetectionRange = 450000,
 		radar_type = 102,
+		searchRadarFrequencies = { { 50000000, 54000000 }, { 2000000000, 2200000000 } },
 		searchRadarMaxElevation = 1.3962634015955
 	},
 	Waypoint_Custom_Panel = true,
