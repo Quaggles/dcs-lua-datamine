@@ -18,6 +18,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_45B"] = {
 		},
 		category = 1,
 		class_name = "wAmmunitionFuzeCtrl",
+		displayName = "BDU-45B - 500lb Practice Bomb",
 		fm = {
 			I = 94.42593,
 			L = 2.21,
@@ -89,6 +90,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_45B"] = {
 		},
 		category = 1,
 		class_name = "wAmmunitionFuzeCtrl",
+		displayName = "BDU-45B - 500lb Practice Bomb",
 		fm = {
 			I = 94.42593,
 			L = 2.21,

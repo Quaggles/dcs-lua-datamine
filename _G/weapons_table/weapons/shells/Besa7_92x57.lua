@@ -52,7 +52,6 @@ _G["weapons_table"]["weapons"]["shells"]["Besa7_92x57"] = {
 	rotation_freq = 7,
 	round_mass = 0.0128,
 	s = 0,
-	scale_tracer = 0,
 	silent_self_destruction = false,
 	smoke_tail_life_time = -1,
 	subcalibre = false,

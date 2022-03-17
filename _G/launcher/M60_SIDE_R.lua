@@ -2,7 +2,6 @@ _G["launcher"]["M60_SIDE_R"] = {
 	CLSID = "M60_SIDE_R",
 	Cx_pil = 0.001220703125,
 	Elements = { {
-			Position = { 0, 0, 0 },
 			ShapeName = "ab-212_m60gunner_r"
 		} },
 	Picture = "M60.png",

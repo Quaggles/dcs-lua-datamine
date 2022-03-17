@@ -9,6 +9,7 @@ _G["launcher"]["{British_SAP_250LB_Bomb_Mk5_on_Handley_Page_Type_B_Cut_Bar}"] = 
 			attach_point_connector = "AttachPoint_Carrier_N_1_EM_EF",
 			use_full_connector_position = true
 		}, {
+			attach_point_connector = "",
 			attach_point_oriented = true,
 			connector_name = "AttachPoint",
 			payload_CLSID = "{British_SAP_250LB_Bomb_Mk5}"
@@ -22,5 +23,62 @@ _G["launcher"]["{British_SAP_250LB_Bomb_Mk5_on_Handley_Page_Type_B_Cut_Bar}"] = 
 	category = 1,
 	displayName = "250 lb S.A.P.",
 	name = "{British_SAP_250LB_Bomb_Mk5_on_Handley_Page_Type_B_Cut_Bar}",
+	settings = { {
+			control = "comboList",
+			defValue = 1,
+			dimension = "",
+			id = "GUI_fuze_type",
+			label = "Fuze Type",
+			stringIndex = 1,
+			values = { {
+					dispName = "TP No. 30 Mk III",
+					id = 1
+				} },
+			wCtrl = 350,
+			xCtrl = 170
+		}, {
+			VisibilityCondition = { {
+					id = "GUI_fuze_type",
+					value = 1
+				} },
+			control = "comboList",
+			defValue = 0,
+			dimension = "s",
+			id = "function_delay_ctrl_TP30MkIII",
+			label = "Function Delay",
+			stringIndex = 2,
+			values = { {
+					dispName = 0,
+					id = 0
+				}, {
+					dispName = 0.12,
+					id = 0.12
+				}, {
+					dispName = 1,
+					id = 1
+				}, {
+					dispName = 11,
+					id = 11
+				} },
+			xCtrl = 170,
+			xLbl = 10
+		}, {
+			VisibilityCondition = { {
+					id = "GUI_fuze_type",
+					value = 1
+				} },
+			control = "spinbox",
+			defValue = 1.04,
+			dimension = "s",
+			id = "arm_delay_ctrl_TP30MkIII",
+			label = "Arm Delay",
+			max = 1800,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 2,
+			xCtrl = 460,
+			xLbl = 280
+		} },
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

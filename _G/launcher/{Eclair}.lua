@@ -7,11 +7,11 @@ _G["launcher"]["{Eclair}"] = {
 		} },
 	Picture = "mercury.png",
 	Weight = 20,
-	_file = "./CoreMods/aircraft/M-2000C/WEAPONS/M2KC_Weapons.luac",
+	_file = "./CoreMods/aircraft/M-2000C/WEAPONS/M2KC_ECLAIR.lua",
 	_origin = "M-2000C AI by RAZBAM Sims",
 	_unique_resource_name = "weapons.containers.{Eclair}",
 	attribute = { 4, 15, 48, "Redacted" },
 	category = 6,
-	displayName = "Eclair",
+	displayName = "Eclair 16 flares 16 chaffs",
 	name = "{Eclair}"
 }

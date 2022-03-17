@@ -6,12 +6,10 @@ _G["launcher"]["{89D000B0-0360-461A-AD83-FB727E2ABA98}"] = {
 			Position = { 0, 0, 0 },
 			ShapeName = "BRU-42_HS"
 		}, {
-			DrawArgs = <1>{ { 1, 1 }, { 2, 1 } },
 			Position = { 0.3, -0.15, -0.15 },
 			Rotation = { 45, 0, 0 },
 			ShapeName = "GBU-12"
 		}, {
-			DrawArgs = <table 1>,
 			Position = { 0.3, -0.37, 0 },
 			ShapeName = "GBU-12"
 		} },

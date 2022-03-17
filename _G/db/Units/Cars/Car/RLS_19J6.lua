@@ -543,6 +543,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Air Defence", "Search Radar" },
 	type = "RLS_19J6",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0, 0 }, { 0, 0 }, { 0.2, 0.00026666666666667 } }
+		},
 		fire_pos = { -3.2, 1.1, 0 },
 		fire_size = 0.4,
 		fire_time = 800,

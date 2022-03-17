@@ -138,7 +138,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		},
 		[61] = {
 			args = { 147 },
-			critical_damage = 5
+			critical_damage = 5,
+			droppable = false
 		},
 		[62] = {
 			args = { 250 },
@@ -459,7 +460,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					rotation_freq = 7,
 					round_mass = 0.98,
 					s = 0,
-					scale_tracer = 1,
 					silent_self_destruction = false,
 					smoke_tail_life_time = -1,
 					subcalibre = false,
@@ -521,7 +521,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					rotation_freq = 7,
 					round_mass = 0.98,
 					s = 0,
-					scale_tracer = 1,
 					silent_self_destruction = false,
 					smoke_tail_life_time = -1,
 					subcalibre = false,
@@ -554,6 +553,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					enable_options_key_for_unit = "disabled"
 				},
 				["A-10C_2"] = <table 4>,
+				["AH-64D_BLK_II"] = <table 4>,
 				AJS37 = {
 					enable_options_key_for_unit = "ajs37_enabled"
 				},

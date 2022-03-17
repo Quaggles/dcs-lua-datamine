@@ -200,7 +200,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						rotation_freq = 7,
 						round_mass = 0.616,
 						s = 0,
-						scale_tracer = 1,
 						silent_self_destruction = false,
 						smoke_tail_life_time = -1,
 						subcalibre = false,
@@ -290,13 +289,23 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			FiX = 90,
 			Launchers = { {
-					CLSID = "{0D33DDAE-524F-4A4E-B5B8-621754FE3ADE}"
+					CLSID = "{0D33DDAE-524F-4A4E-B5B8-621754FE3ADE}",
+					required = <3>{ {
+							loadout = { "" },
+							station = 5
+						}, {
+							loadout = { "" },
+							station = 6
+						} }
 				}, {
-					CLSID = "{E6747967-B1F0-4C77-977B-AB2E6EB0C102}"
+					CLSID = "{E6747967-B1F0-4C77-977B-AB2E6EB0C102}",
+					required = <table 3>
 				}, {
-					CLSID = "{1461CD18-429A-42A9-A21F-4C621ECD4573}"
+					CLSID = "{1461CD18-429A-42A9-A21F-4C621ECD4573}",
+					required = <table 3>
 				}, {
-					CLSID = "{EF0A9419-01D6-473B-99A3-BEBDB923B14D}"
+					CLSID = "{EF0A9419-01D6-473B-99A3-BEBDB923B14D}",
+					required = <table 3>
 				} },
 			Number = 4,
 			Order = 4,
@@ -308,9 +317,21 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			FiX = 90,
 			Launchers = { {
-					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}"
+					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
+					required = <4>{ {
+							loadout = { "" },
+							station = 4
+						} }
 				}, {
-					CLSID = "{A111396E-D3E8-4b9c-8AC9-2432489304D5}"
+					CLSID = "{08164777-5E9C-4B08-B48E-5AA7AFB246E2}",
+					forbidden = { {
+							loadout = { "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}" },
+							station = 6
+						} },
+					required = <table 4>
+				}, {
+					CLSID = "{A111396E-D3E8-4b9c-8AC9-2432489304D5}",
+					required = <table 4>
 				} },
 			Number = 5,
 			Order = 5,
@@ -322,7 +343,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			FiX = 90,
 			Launchers = { {
-					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}"
+					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
+					attach_point_position = { -0.58, -0.148, 0 },
+					forbidden = { {
+							loadout = { "{08164777-5E9C-4B08-B48E-5AA7AFB246E2}" },
+							station = 5
+						} },
+					required = <table 4>
+				}, {
+					CLSID = "{08164777-5E9C-4B08-B48E-5AA7AFB246E2}",
+					attach_point_position = { -0.78, 0, 0 },
+					required = <table 4>
 				} },
 			Number = 6,
 			Order = 6,
@@ -334,7 +365,20 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			FiX = 90,
 			Launchers = { {
-					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}"
+					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
+					attach_point_position = { -0.58, -0.148, 0 },
+					forbidden = { {
+							loadout = { "{08164777-5E9C-4B08-B48E-5AA7AFB246E2}" },
+							station = 8
+						} },
+					required = <5>{ {
+							loadout = { "" },
+							station = 9
+						} }
+				}, {
+					CLSID = "{08164777-5E9C-4B08-B48E-5AA7AFB246E2}",
+					attach_point_position = { -0.78, 0, 0 },
+					required = <table 5>
 				} },
 			Number = 7,
 			Order = 7,
@@ -346,7 +390,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			FiX = 90,
 			Launchers = { {
-					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}"
+					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
+					required = <table 5>
+				}, {
+					CLSID = "{08164777-5E9C-4B08-B48E-5AA7AFB246E2}",
+					forbidden = { {
+							loadout = { "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}" },
+							station = 7
+						} },
+					required = <table 5>
 				} },
 			Number = 8,
 			Order = 8,
@@ -358,13 +410,23 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			FiX = 90,
 			Launchers = { {
-					CLSID = "{0D33DDAE-524F-4A4E-B5B8-621754FE3ADE}"
+					CLSID = "{0D33DDAE-524F-4A4E-B5B8-621754FE3ADE}",
+					required = <6>{ {
+							loadout = { "" },
+							station = 7
+						}, {
+							loadout = { "" },
+							station = 8
+						} }
 				}, {
-					CLSID = "{E6747967-B1F0-4C77-977B-AB2E6EB0C102}"
+					CLSID = "{E6747967-B1F0-4C77-977B-AB2E6EB0C102}",
+					required = <table 6>
 				}, {
-					CLSID = "{1461CD18-429A-42A9-A21F-4C621ECD4573}"
+					CLSID = "{1461CD18-429A-42A9-A21F-4C621ECD4573}",
+					required = <table 6>
 				}, {
-					CLSID = "{EF0A9419-01D6-473B-99A3-BEBDB923B14D}"
+					CLSID = "{EF0A9419-01D6-473B-99A3-BEBDB923B14D}",
+					required = <table 6>
 				} },
 			Number = 9,
 			Order = 9,
@@ -502,12 +564,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			canopy_arg = 38,
 			drop_canopy_name = 39,
 			ejection_seat_name = 9,
-			pos = <3>{ 3.34, 1.102, 0 },
+			pos = <7>{ 3.34, 1.102, 0 },
 			role = "pilot",
 			role_display_name = "Pilot in command"
 		}, {
 			canopy_arg = 38,
-			canopy_pos = <table 3>,
+			canopy_pos = <table 7>,
 			drop_canopy_name = 39,
 			ejection_seat_name = 9,
 			pos = { 1.935, 1.102, 0 },
@@ -544,19 +606,19 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						argument = 209,
 						color = { 255, 255, 200, 0.333 },
 						connector = "MAIN_SPOT_PTR",
-						position = <4>{ 4.02, -1.291, 0 },
+						position = <8>{ 4.02, -1.291, 0 },
 						typename = "spotlight"
 					}, {
 						argument = 208,
 						color = { 255, 255, 200, 0.333 },
 						connector = "RESERV_SPOT_PTR",
-						position = <5>{ 0.409, -0.708, 0.864 },
+						position = <9>{ 0.409, -0.708, 0.864 },
 						typename = "spotlight"
 					}, {
 						argument = 208,
 						color = { 255, 255, 200, 0.333 },
 						connector = "FARA_3",
-						position = <6>{ 0.409, -0.708, -0.864 },
+						position = <10>{ 0.409, -0.708, -0.864 },
 						typename = "spotlight"
 					} },
 				typename = "collection"
@@ -591,19 +653,19 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						argument = 209,
 						color = { 255, 255, 200, 0.333 },
 						connector = "MAIN_SPOT_PTR",
-						position = <table 4>,
+						position = <table 8>,
 						typename = "spotlight"
 					}, {
 						argument = 208,
 						color = { 255, 255, 200, 0.333 },
 						connector = "RESERV_SPOT_PTR",
-						position = <table 5>,
+						position = <table 9>,
 						typename = "spotlight"
 					}, {
 						argument = 208,
 						color = { 255, 255, 200, 0.333 },
 						connector = "FARA_3",
-						position = <table 6>,
+						position = <table 10>,
 						typename = "spotlight"
 					} },
 				typename = "collection"

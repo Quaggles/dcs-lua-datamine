@@ -33,6 +33,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						}, {
 							shell_name = {}
 						} },
+					additionalShotDispersion = {},
 					connectorFire = false,
 					fireAnimationArgument = 23,
 					maxShootingSpeed = 0,
@@ -91,6 +92,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Infantry" },
 	type = "Soldier M4 GRG",
 	visual = {
+		IR = {
+			coeffs = { {}, {}, {}, {} }
+		},
 		fire_pos = {},
 		shape = "soldier_ge_00",
 		shape_dstr = "soldier_ge_00_d"

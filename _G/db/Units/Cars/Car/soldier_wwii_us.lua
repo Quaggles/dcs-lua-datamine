@@ -116,6 +116,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	toggle_alarm_state_interval = 1,
 	type = "soldier_wwii_us",
 	visual = {
+		IR = {
+			coeffs = { {}, {}, {}, {} }
+		},
 		fire_pos = {},
 		parachute = 261,
 		shape = "soldier_wwii_us_01",

@@ -1,6 +1,8 @@
 _G["weapons_table"]["weapons"]["bombs"]["SAB_100_LE"] = {
+	Reflection = 0.015,
 	_unique_resource_name = "weapons.bombs.SAB_100_LE",
 	client = {
+		Reflection = 0.015,
 		arming_delay = {
 			delay_time = 0.8,
 			enabled = true
@@ -41,6 +43,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100_LE"] = {
 	model = "luu-2",
 	name = "SAB_100_LE",
 	server = {
+		Reflection = 0.015,
 		arming_delay = {
 			delay_time = 0.8,
 			enabled = true

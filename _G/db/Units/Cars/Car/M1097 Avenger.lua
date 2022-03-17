@@ -103,7 +103,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 16, 104, "Redacted", "AA_missile", "AA_flak", "SR SAM", "IR Guided SAM", "Datalink", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "SAM related", "Armed Air Defence", "All", "Ground Units", "Vehicles", "Ground vehicles", "SAM" },
 	category = "Air Defence",
 	chassis = {
-		armour_thickness = 0.002
+		armour_thickness = 0.002,
+		gearRatios = {}
 	},
 	driverViewPoint = { 0.3, 1.5, -0.7 },
 	enablePlayerCanDrive = true,
@@ -114,9 +115,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		max_range_finding_target = 5200
 	},
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = {},
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -125,6 +126,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Air Defence", "SAM SHORAD" },
 	type = "M1097 Avenger",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.003, 0.0031 }, { 0.3, 0.017 }, { 0, 0 }, { 0.2, 0.00025 } }
+		},
 		agony_explosion_size = 2,
 		fire_pos = { 0, 0.8, 0 },
 		fire_size = 0.6,

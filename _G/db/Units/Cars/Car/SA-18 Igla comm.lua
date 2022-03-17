@@ -34,6 +34,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Air Defence", "MANPADS" },
 	type = "SA-18 Igla comm",
 	visual = {
+		IR = {
+			coeffs = { { 0.1858, 0.0151 }, { 0, 0 }, { 0.1, 0.008 }, { 0, 0 }, { 0.1, 0.00025 } }
+		},
 		fire_pos = {},
 		shape = "SA18_com2",
 		shape_dstr = "SA18_com2_d"

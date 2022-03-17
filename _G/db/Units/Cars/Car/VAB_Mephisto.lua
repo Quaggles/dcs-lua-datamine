@@ -128,6 +128,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		offset = { 0.05, 0, 0 }
 	},
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = {
+			[4] = 1,
+			[5] = 1,
+			[6] = 1,
+			[7] = 1,
+			[25] = 1,
+			[95] = 1,
+			[96] = 1
+		}
+	},
 	mapclasskey = "P0091000204",
 	sensor = {
 		height = 3
@@ -145,9 +156,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "VAB_Mephisto_p_1"
 		} },
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = {},
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -157,6 +168,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	turbine = false,
 	type = "VAB_Mephisto",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0.3, 0.017 }, { 0, 0 }, { 0.2, 0.00015384615384615 } }
+		},
 		fire_pos = { 2.2, 0.8, 0.4 },
 		fire_size = 0.4,
 		fire_time = 500,

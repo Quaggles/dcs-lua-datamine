@@ -88,9 +88,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "sd_kfz_7_p_1"
 		} },
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = { {}, {} },
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -99,6 +99,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Unarmed", "Support & Logistics" },
 	type = "Sd_Kfz_7",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0, 0 }, { 0, 0 }, { 0.15, 0.00027272727272727 } }
+		},
 		agony_explosion_size = 1,
 		dirt_pos = { -1.9, 0.1, -0.9 },
 		dust_pos = { 1.8, 0, -0.9 },

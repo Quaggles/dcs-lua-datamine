@@ -9,6 +9,7 @@ _G["launcher"]["{British_MC_500LB_Bomb_Mk1_Short_on_Handley_Page_Type_B_Cut_Bar}
 			attach_point_connector = "AttachPoint_Carrier_N_1_EM_EF",
 			use_full_connector_position = true
 		}, {
+			attach_point_connector = "",
 			attach_point_oriented = true,
 			connector_name = "AttachPoint",
 			payload_CLSID = "{British_MC_500LB_Bomb_Mk1_Short}"
@@ -22,5 +23,154 @@ _G["launcher"]["{British_MC_500LB_Bomb_Mk1_Short_on_Handley_Page_Type_B_Cut_Bar}
 	category = 1,
 	displayName = "500 lb MC Short tail",
 	name = "{British_MC_500LB_Bomb_Mk1_Short_on_Handley_Page_Type_B_Cut_Bar}",
+	settings = { {
+			control = "comboList",
+			defValue = 1,
+			dimension = "",
+			id = "GUI_fuze_type",
+			label = "Fuze Type",
+			stringIndex = 1,
+			values = { {
+					dispName = "NP No. 27 Mk II",
+					id = 1
+				}, {
+					dispName = "TP No. 30 Mk III",
+					id = 2
+				}, {
+					dispName = "NP No. 44",
+					id = 3
+				} },
+			wCtrl = 350,
+			xCtrl = 170
+		}, {
+			VisibilityCondition = { {
+					id = "GUI_fuze_type",
+					value = 1
+				} },
+			control = "comboList",
+			defValue = 0,
+			dimension = "s",
+			id = "function_delay_ctrl_NP27MkII",
+			label = "Function Delay",
+			stringIndex = 2,
+			values = { {
+					dispName = 0,
+					id = 0
+				}, {
+					dispName = 0.025,
+					id = 0.025
+				}, {
+					dispName = 1,
+					id = 1
+				}, {
+					dispName = 11,
+					id = 11
+				} },
+			xCtrl = 170,
+			xLbl = 10
+		}, {
+			VisibilityCondition = { {
+					id = "GUI_fuze_type",
+					value = 1
+				} },
+			control = "spinbox",
+			defValue = 0.6,
+			dimension = "s",
+			id = "arm_delay_ctrl_NP27MkII",
+			label = "Arm Delay",
+			max = 1800,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 2,
+			xCtrl = 460,
+			xLbl = 280
+		}, {
+			VisibilityCondition = { {
+					id = "GUI_fuze_type",
+					value = 2
+				} },
+			control = "comboList",
+			defValue = 0,
+			dimension = "s",
+			id = "function_delay_ctrl_TP30MkIII",
+			label = "Function Delay",
+			stringIndex = 2,
+			values = { {
+					dispName = 0,
+					id = 0
+				}, {
+					dispName = 0.12,
+					id = 0.12
+				}, {
+					dispName = 1,
+					id = 1
+				}, {
+					dispName = 11,
+					id = 11
+				} },
+			xCtrl = 170,
+			xLbl = 10
+		}, {
+			VisibilityCondition = { {
+					id = "GUI_fuze_type",
+					value = 2
+				} },
+			control = "spinbox",
+			defValue = 1.04,
+			dimension = "s",
+			id = "arm_delay_ctrl_TP30MkIII",
+			label = "Arm Delay",
+			max = 1800,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 2,
+			xCtrl = 460,
+			xLbl = 280
+		}, {
+			VisibilityCondition = { {
+					id = "GUI_fuze_type",
+					value = 3
+				} },
+			control = "comboList",
+			defValue = 0,
+			dimension = "s",
+			id = "function_delay_ctrl_NP44",
+			label = "Function Delay",
+			stringIndex = 2,
+			values = { {
+					dispName = 0,
+					id = 0
+				}, {
+					dispName = 0.025,
+					id = 0.025
+				}, {
+					dispName = 1,
+					id = 1
+				}, {
+					dispName = 11,
+					id = 11
+				} },
+			xCtrl = 170,
+			xLbl = 10
+		}, {
+			VisibilityCondition = { {
+					id = "GUI_fuze_type",
+					value = 3
+				} },
+			control = "spinbox",
+			defValue = 2.6,
+			dimension = "s",
+			id = "arm_delay_ctrl_NP44",
+			label = "Arm Delay",
+			max = 1800,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 2,
+			xCtrl = 460,
+			xLbl = 280
+		} },
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

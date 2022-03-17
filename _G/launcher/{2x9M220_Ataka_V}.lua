@@ -2,13 +2,7 @@ _G["launcher"]["{2x9M220_Ataka_V}"] = {
 	CLSID = "{2x9M220_Ataka_V}",
 	Count = 2,
 	Cx_pil = 0.001,
-	Elements = { "_G/Pylons/9M120_pylon.lua", {
-			ShapeName = "9M120F",
-			connector_name = "tube_01"
-		}, {
-			ShapeName = "9M120F",
-			connector_name = "tube_02"
-		} },
+	Elements = { "_G/Pylons/9M120_pylon.lua" },
 	NatoName = "AT-9",
 	Picture = "apu2.png",
 	Weight = 112,

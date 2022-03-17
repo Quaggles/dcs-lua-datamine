@@ -81,6 +81,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	chassis = {},
 	driverViewConnectorName = { "DRIVER_POINT" },
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = { 0.175,
+			[3] = 1
+		}
+	},
 	mapclasskey = "P0091000017",
 	sensor = {
 		height = 3.458,
@@ -90,9 +95,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		min_range_finding_target = 0
 	},
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = { {}, {} },
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -102,6 +107,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	toggle_alarm_state_interval = 4,
 	type = "ZSU-23-4 Shilka",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.0062, 0.00215 }, { 0, 0 }, { 0.3, 0.00016666666666667 } }
+		},
 		agony_explosion_size = 2,
 		dirt_pos = { -2.9, 0.5, -1.283 },
 		dust_pos = { 3.15, 0.1, -1.283 },

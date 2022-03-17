@@ -93,7 +93,6 @@ _G["weapons_table"]["aircraft_gunpods"]["{ADEN_GUNPOD}"] = {
 						rotation_freq = 7,
 						round_mass = 0.567,
 						s = 0,
-						scale_tracer = 1,
 						silent_self_destruction = false,
 						smoke_tail_life_time = -1,
 						subcalibre = false,

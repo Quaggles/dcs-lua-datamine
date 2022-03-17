@@ -26,6 +26,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Unarmed", "Command & Control" },
 	type = "Predator GCS",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0, 0 }, { 0, 0 }, { 0, 0 }, { 0.23, 0.0002875 } }
+		},
 		agony_explosion_size = 2,
 		fire_pos = {},
 		fire_size = 0,

@@ -1,5 +1,5 @@
 _G["weapons_table"]["weapons"]["missiles"]["Kh25MP_PRGS1VP"] = {
-	Reflection = 0.06,
+	Reflection = 0.05,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/anti-radiation missiles.lua",
 	_origin = "AircraftWeaponPack",
 	_unique_resource_name = "weapons.missiles.Kh25MP_PRGS1VP",

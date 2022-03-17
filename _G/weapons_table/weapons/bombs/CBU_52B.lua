@@ -1,6 +1,8 @@
 _G["weapons_table"]["weapons"]["bombs"]["CBU_52B"] = {
+	Reflection = 0.03,
 	_unique_resource_name = "weapons.bombs.CBU_52B",
 	client = {
+		Reflection = 0.03,
 		arming_delay = {
 			delay_time = 0.8,
 			enabled = true
@@ -105,6 +107,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_52B"] = {
 	model = "cbu-24b",
 	name = "CBU_52B",
 	server = {
+		Reflection = 0.03,
 		arming_delay = {
 			delay_time = 0.8,
 			enabled = true

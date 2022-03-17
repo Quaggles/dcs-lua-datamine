@@ -161,6 +161,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{8DCAF3A3-7FCF-41B8-BB88-58DEDA878EDE}"
 				}, {
+					CLSID = "{8_x_AGM_86C}"
+				}, {
 					CLSID = "{46ACDCF8-5451-4E26-BDDB-E78D5830E93C}"
 				} },
 			Number = 2,

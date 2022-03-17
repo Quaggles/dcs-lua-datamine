@@ -125,14 +125,21 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		offset = { 0.05, 0, 0 }
 	},
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = {
+			[3] = 1,
+			[4] = 1,
+			[5] = 1
+		}
+	},
 	mapclasskey = "P0091000204",
 	sensor = {
 		height = 2.6
 	},
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = {},
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -143,6 +150,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	turbine = false,
 	type = "M1134 Stryker ATGM",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0.3, 0.017 }, { 0, 0 }, { 0.3, 0.00021428571428571 } }
+		},
 		agony_explosion_size = 3,
 		fire_pos = { 0.3, 1, 0 },
 		fire_size = 0.8,

@@ -182,9 +182,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		height = 2.723
 	},
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = { {}, {} },
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -194,6 +194,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	turbine = false,
 	type = "T-72B",
 	visual = {
+		IR = {
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.005, 0.0013 }, { 0, 0 }, { 0.29, 0.00017058823529412 } }
+		},
 		agony_explosion_size = 5,
 		dirt_pos = { -3.1, 0.55, -1.346 },
 		dust_pos = { 2.85, 0.1, -1.346 },

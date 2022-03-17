@@ -189,7 +189,6 @@ _G["weapons_table"]["weapons"]["shells"]["I_Gr_33"] = {
 	rotation_freq = 7,
 	round_mass = 50,
 	s = 0,
-	scale_tracer = 0,
 	silent_self_destruction = false,
 	smoke_tail_life_time = 0,
 	subcalibre = false,

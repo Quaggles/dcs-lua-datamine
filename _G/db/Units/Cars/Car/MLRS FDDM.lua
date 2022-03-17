@@ -103,7 +103,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	attribute = { 2, 17, 26, "Redacted", "APC", "Datalink", "Infantry carriers", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "NonAndLightArmoredUnits", "LightArmoredUnits" },
 	category = "Artillery",
-	chassis = {},
+	chassis = {
+		gearRatios = {}
+	},
 	driverCockpit = "DriverCockpit/DriverCockpitWithLLTV",
 	driverViewConnectorName = "DRIVER_POINT",
 	enablePlayerCanDrive = true,
@@ -112,9 +114,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		height = 2
 	},
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = {},
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -123,6 +125,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Artillery", "Command & Control", "Scout/Recon" },
 	type = "MLRS FDDM",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.003, 0.0031 }, { 0.0322, 0.0028 }, { 0, 0 }, { 0.3, 0.00025 } }
+		},
 		agony_explosion_size = 2,
 		fire_pos = { -0.2, 0.8, 0 },
 		fire_size = 0.6,

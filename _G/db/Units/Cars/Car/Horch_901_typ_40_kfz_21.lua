@@ -56,9 +56,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "horch_901_typ_40_kfz_21_p_1"
 		} },
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = {},
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -67,6 +67,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Unarmed", "Scout/Recon" },
 	type = "Horch_901_typ_40_kfz_21",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.003, 0.0031 }, { 0, 0 }, { 0, 0 }, { 0.15, 0.00017647058823529 } }
+		},
 		agony_explosion_size = 2,
 		fire_pos = { 1.55, 0.8, 0 },
 		fire_size = 0.35,

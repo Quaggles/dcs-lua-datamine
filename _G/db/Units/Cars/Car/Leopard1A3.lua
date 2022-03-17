@@ -114,9 +114,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		height = 3.27
 	},
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = { {}, {} },
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -126,6 +126,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	turbine = false,
 	type = "Leopard1A3",
 	visual = {
+		IR = {
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0032, 0.0015 }, { 0, 0 }, { 0.3, 0.0002 } }
+		},
 		agony_explosion_size = 2,
 		dirt_pos = { -3.2, 0.6, -1.347 },
 		dust_pos = { 3.05, 0.1, -1.347 },

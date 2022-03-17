@@ -34,6 +34,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						}, {
 							shell_name = {}
 						} },
+					additionalShotDispersion = {},
 					connectorFire = false,
 					fireAnimationArgument = 23,
 					maxShootingSpeed = 0,
@@ -85,6 +86,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Infantry" },
 	type = "Paratrooper AKS-74",
 	visual = {
+		IR = {
+			coeffs = { {}, {}, {}, {} }
+		},
 		fire_pos = {},
 		parachute = 11,
 		shape = "Infantry_typeD_AKS-74",

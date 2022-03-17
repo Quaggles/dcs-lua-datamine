@@ -113,6 +113,20 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
 	driverViewConnectorName = "DRIVER_POINT",
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = { 0.1,
+			[3] = 1,
+			[11] = 1,
+			[18] = 1,
+			[19] = 1,
+			[27] = 1,
+			[28] = 1,
+			[29] = 1,
+			[30] = 1,
+			[31] = 1,
+			[32] = 1
+		}
+	},
 	mapclasskey = "P0091000014",
 	radar_rotation_period = 1,
 	sensor = {
@@ -123,9 +137,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		min_range_finding_target = 200
 	},
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = { {}, {} },
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} },
 		radarRotation = "GndTech/RadarRotation"
@@ -135,6 +149,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Air Defence", "SAM SHORAD" },
 	type = "2S6 Tunguska",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.0062, 0.00215 }, { 0, 0 }, { 0.3, 0.00023076923076923 } }
+		},
 		agony_explosion_size = 2,
 		dirt_pos = { -3.3, 0.5, -1.311 },
 		dust_pos = { 3.6, 0.1, -1.311 },

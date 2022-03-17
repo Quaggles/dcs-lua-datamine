@@ -141,6 +141,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Air Defence", "SAM SHORAD" },
 	type = "rapier_fsa_launcher",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.003, 0.0031 }, { 0.3, 0.017 }, { 0, 0 }, { 0.15, 0.00027272727272727 } }
+		},
 		agony_explosion_size = 1,
 		fire_pos = {},
 		fire_size = 0,

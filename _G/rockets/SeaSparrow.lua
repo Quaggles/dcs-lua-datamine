@@ -39,5 +39,5 @@ _G["rockets"]["#Index"] = {
 	v_mid = 500,
 	v_min = 70,
 	warhead = "_G/warheads/SeaSparrow.lua",
-	ws_type = { 4, 4, 8, "Redacted" }
+	ws_type = { 4, 4, 34, "Redacted" }
 }

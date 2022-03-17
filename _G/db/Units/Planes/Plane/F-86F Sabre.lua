@@ -417,7 +417,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						rotation_freq = 7,
 						round_mass = 0.137,
 						s = 0,
-						scale_tracer = 1,
 						silent_self_destruction = false,
 						smoke_opacity = 0.5,
 						smoke_tail_life_time = 0.5,
@@ -479,12 +478,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						rotation_freq = 7,
 						round_mass = 0.132,
 						s = 0,
-						scale_tracer = 1,
 						silent_self_destruction = false,
 						smoke_tail_life_time = 0.5,
 						subcalibre = false,
 						tracer_off = 4,
-						tracer_on = 0.01,
+						tracer_on = 0,
 						type_name = "shell",
 						v0 = 875,
 						visual_effect_correction = 0,
@@ -862,7 +860,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{00F5DAC4-0466-4122-998F-B1A298E34113}",
 					arg_value = 0.5,
-					attach_point_position = { 0, 0.02, 0 },
+					attach_point_position = { -0.09, 0.02, 0 },
 					forbidden = { {
 							station = 3
 						} }
@@ -932,7 +930,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{00F5DAC4-0466-4122-998F-B1A298E34113}",
 					arg_value = 0.5,
-					attach_point_position = { 0, 0.02, 0 },
+					attach_point_position = { -0.09, 0.02, 0 },
 					forbidden = { {
 							station = 8
 						} }

@@ -76,6 +76,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Air Defence", "AAA" },
 	type = "bofors40",
 	visual = {
+		IR = {
+			coeffs = { { 0, 0 }, { 0.00775, 0.00265 }, { 0.00095, 0.0019 }, { 0, 0 }, { 0.27, 0.00049090909090909 } }
+		},
 		agony_explosion_size = 0.1,
 		fire_pos = {},
 		fire_size = 0,

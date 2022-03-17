@@ -117,6 +117,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	toggle_alarm_state_interval = 0.3,
 	type = "soldier_mauser98",
 	visual = {
+		IR = {
+			coeffs = { {}, {}, {}, {} }
+		},
 		fire_pos = {},
 		shape = "soldier_wwii_de_01",
 		shape_dstr = "soldier_wwii_de_01_d"

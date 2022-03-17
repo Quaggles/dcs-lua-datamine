@@ -120,6 +120,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Artillery", "Howitzer" },
 	type = "Pak40",
 	visual = {
+		IR = {
+			coeffs = { { 0, 0 }, { 0.003, 0.0031 }, { 0.0032, 0.0015 }, { 0, 0 }, { 0.12, 0.00026666666666667 } }
+		},
 		agony_explosion_size = 0.5,
 		dirt_pos = { 0, 0, -1 },
 		dust_pos = { 0, 0, -1 },

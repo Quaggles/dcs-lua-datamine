@@ -198,7 +198,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						rotation_freq = 7,
 						round_mass = 0.41,
 						s = 0,
-						scale_tracer = 1,
 						silent_self_destruction = false,
 						smoke_tail_life_time = -1,
 						subcalibre = false,
@@ -344,12 +343,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Z = -2.526
 		}, {
 			Launchers = { {
-					CLSID = "{682A481F-0CB5-4693-A382-D00DD4A156D7}"
+					CLSID = "{APU-60-1_R_60M}"
 				} },
 			Number = 2,
 			Order = 2,
 			Type = 0,
-			X = 1.15,
+			X = 0.46,
 			Y = -0.304,
 			Z = -1.853
 		}, {
@@ -586,12 +585,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Z = 1.22
 		}, {
 			Launchers = { {
-					CLSID = "{682A481F-0CB5-4693-A382-D00DD4A156D7}"
+					CLSID = "{APU-60-1_R_60M}"
 				} },
 			Number = 7,
 			Order = 7,
 			Type = 0,
-			X = 1.15,
+			X = 0.46,
 			Y = -0.304,
 			Z = 1.853
 		}, {

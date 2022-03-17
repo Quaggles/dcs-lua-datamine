@@ -41,9 +41,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "Zil_135l_p1"
 		} },
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = {},
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -52,6 +52,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Unarmed", "Support & Logistics" },
 	type = "ZIL-135",
 	visual = {
+		IR = {
+			coeffs = { { 0.02, 0.0012 }, { 0.0069, 0.0036 }, { 0, 0 }, { 0, 0 }, { 0.29, 0.00018125 } }
+		},
 		agony_explosion_size = 2,
 		fire_pos = { 0.75, 1, 0 },
 		fire_size = 0.5,

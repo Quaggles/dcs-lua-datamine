@@ -16,9 +16,7 @@ _G["launcher"]["{PTB_450}"] = {
 	name = "PTB-450",
 	shape_table_data = { {
 			file = "PTB-450",
-			fire = { 0, 1 },
 			index = "Redacted",
-			life = 60,
 			name = "PTB_450",
 			username = "PTB-450"
 		} }

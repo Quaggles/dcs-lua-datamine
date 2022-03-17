@@ -76,9 +76,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		max_range_finding_target = 10000
 	},
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = { {}, {} },
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -87,6 +87,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Air Defence", "SAM SHORAD" },
 	type = "M48 Chaparral",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.3, 0.017 }, { 0, 0 }, { 0.25, 0.00020833333333333 } }
+		},
 		agony_explosion_size = 3,
 		dirt_pos = { -3, 0.3, -1.2 },
 		dust_pos = { 1.8, -0.1, -1.2 },

@@ -69,6 +69,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Infantry" },
 	type = "Paratrooper RPG-16",
 	visual = {
+		IR = {
+			coeffs = { {}, {}, { 0.011, 0.01 }, {} }
+		},
 		fire_pos = {},
 		parachute = 19,
 		shape = "Infantry_typeD_RPG-16",

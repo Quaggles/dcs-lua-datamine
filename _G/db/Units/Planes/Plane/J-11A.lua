@@ -383,13 +383,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						round_mass = 0.98,
 						s = 0,
 						scale_smoke = 1.8,
-						scale_tracer = 1,
 						silent_self_destruction = false,
 						smoke_opacity = 0.18,
 						smoke_tail_life_time = -1,
 						subcalibre = false,
 						tracer_off = 4,
-						tracer_on = 0.01,
+						tracer_on = 0,
 						type_name = "shell",
 						v0 = 890,
 						visual_effect_correction = 0,
@@ -414,6 +413,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					enable_options_key_for_unit = "disabled"
 				},
 				["A-10C_2"] = <table 3>,
+				["AH-64D_BLK_II"] = <table 3>,
 				AJS37 = {
 					enable_options_key_for_unit = "ajs37_enabled"
 				},

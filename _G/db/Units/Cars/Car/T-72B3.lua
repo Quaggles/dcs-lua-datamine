@@ -281,9 +281,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "T-72B3_p_1"
 		} },
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = { {}, {} },
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -293,6 +293,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	turbine = false,
 	type = "T-72B3",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.008, 0.002 }, { 0.005, 0.0013 }, { 0, 0 }, { 0.3, 0.00017142857142857 } }
+		},
 		agony_explosion_size = 5,
 		dirt_pos = { -3.1, 0.55, -1.346 },
 		dust_pos = { 2.85, 0.1, -1.346 },

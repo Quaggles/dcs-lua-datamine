@@ -1,7 +1,7 @@
 _G["launcher"]["{MMagicII}"] = {
 	CLSID = "{MMagicII}",
 	Count = 1,
-	Cx_pil = 0.0015,
+	Cx_pil = 0.001,
 	Elements = { {
 			ShapeName = "MAGIC-R550"
 		} },

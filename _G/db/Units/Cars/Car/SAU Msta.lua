@@ -133,9 +133,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		height = 2.985
 	},
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = { {}, {} },
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -145,6 +145,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	toggle_alarm_state_interval = 4,
 	type = "SAU Msta",
 	visual = {
+		IR = {
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.00045, 0.003 }, { 0, 0 }, { 0.3, 0.00016666666666667 } }
+		},
 		agony_explosion_size = 5,
 		dirt_pos = { -2.9, 0.5, -1.346 },
 		dust_pos = { 3.57, 0.03, -1.346 },

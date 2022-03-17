@@ -78,9 +78,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		height = 3.5
 	},
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = {},
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -89,6 +89,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Artillery", "SPA" },
 	type = "SpGH_Dana",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0.00045, 0.003 }, { 0, 0 }, { 0.3, 0.00016666666666667 } }
+		},
 		agony_explosion_size = 5,
 		dirt_pos = { -3.6, 0.7, -1.04 },
 		dust_pos = { 3.6, 0.1, -1.04 },

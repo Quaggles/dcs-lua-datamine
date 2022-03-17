@@ -59,9 +59,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		height = 2.826
 	},
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = {},
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -70,6 +70,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Air Defence", "SP AAA" },
 	type = "Ural-375 ZU-23 Insurgent",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0.0062, 0.00215 }, { 0, 0 }, { 0.15, 0.00011538461538462 } }
+		},
 		agony_explosion_size = 2,
 		fire_pos = { 0.2, 0.8, 0 },
 		fire_size = 0.65,

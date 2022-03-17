@@ -3,10 +3,8 @@ _G["launcher"]["{B4C01D60-A8A3-4237-BD72-CA7655BC0FEC}"] = {
 	Count = 1,
 	Cx_pil = 0.001,
 	Elements = { {
-			Position = { 0, 0, 0 },
 			ShapeName = "APU-170"
 		}, {
-			DrawArgs = { { 1, 1 }, { 2, 1 } },
 			Position = { 0, -0.224, 0 },
 			ShapeName = "R-77"
 		} },

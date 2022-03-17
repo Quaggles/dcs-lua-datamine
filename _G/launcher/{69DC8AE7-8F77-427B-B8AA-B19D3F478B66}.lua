@@ -4,12 +4,10 @@ _G["launcher"]["{69DC8AE7-8F77-427B-B8AA-B19D3F478B66}"] = {
 	Cx_item = 0.0009765625,
 	Cx_pil = 0.0012265625,
 	Elements = { {
-			Position = { 0, 0, 0 },
 			ShapeName = "LAU-117"
 		}, {
-			DrawArgs = { { 1, 1 }, { 2, 1 } },
-			Position = { 0.18, -0.078, 0 },
-			ShapeName = "AGM-65K"
+			ShapeName = "AGM-65K",
+			connector_name = "Point01"
 		} },
 	Picture = "agm65.png",
 	Weight = 356,

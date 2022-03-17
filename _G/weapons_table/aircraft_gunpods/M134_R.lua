@@ -102,7 +102,6 @@ _G["weapons_table"]["aircraft_gunpods"]["M134_R"] = {
 						round_mass = 0.00933,
 						s = 0,
 						scale_smoke = 0.5,
-						scale_tracer = 1,
 						silent_self_destruction = false,
 						smoke_opacity = 0.25,
 						smoke_particle = 0.5,

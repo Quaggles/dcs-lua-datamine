@@ -185,7 +185,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						rotation_freq = 7,
 						round_mass = 0.349,
 						s = 0,
-						scale_tracer = 1,
 						silent_self_destruction = false,
 						smoke_tail_life_time = -1,
 						subcalibre = false,
@@ -367,7 +366,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		power_WEP = 1269,
 		power_max = 1244,
 		power_take_off = 1244,
-		sound_name = { "EngineGE", "", "", "Su25BackEngine2" }
+		sound_name = { "EngineGE", "", "", "EngineAH1W" }
 	},
 	engines_count = 2,
 	fire_rate = 625,

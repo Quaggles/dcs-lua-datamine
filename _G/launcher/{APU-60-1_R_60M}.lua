@@ -5,8 +5,8 @@ _G["launcher"]["{APU-60-1_R_60M}"] = {
 			IsAdapter = true,
 			ShapeName = "APU-60-1"
 		}, {
-			Position = { 0.527352, -0.155526, 0 },
-			ShapeName = "R-60"
+			ShapeName = "R-60",
+			connector_name = "Point Pilon R60"
 		} },
 	NatoName = "(AA-8)",
 	Picture = "r60.png",

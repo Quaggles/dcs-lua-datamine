@@ -150,7 +150,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			omegaY = 0.41887902047864,
 			omegaZ = 0.069813170079773,
 			pointer = "POINT_SIGHT_01",
-			reference_angle_Z = 0.17453292519943
+			reference_angle_Z = 0.17453292519943,
+			stabilizer = true
 		}, {
 			LN = { {
 					BR = { {
@@ -168,6 +169,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						}, {
 							shell_name = {}
 						} },
+					primaryWeapon = false,
 					sensor = {},
 					sightIndicationMode = 1,
 					sightMasterMode = 1
@@ -193,9 +195,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	chassis = {},
 	crew_locale = "ENG",
 	crew_members = { "commander", "gunner" },
-	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
+	driverCockpit = "DriverCockpit/DriverCockpit",
 	driverViewConnectorName = { "POINT_DRIVER",
-		offset = { 0.05, 0, 0 }
+		offset = { 0.02, 0, 0 }
 	},
 	enablePlayerCanDrive = true,
 	mapclasskey = "P0091000001",
@@ -203,9 +205,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		height = 3.27
 	},
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = { {}, {} },
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -214,6 +216,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Armor", "MBT" },
 	type = "M-60",
 	visual = {
+		IR = {
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0032, 0.0015 }, { 0, 0 }, { 0.3, 0.0002 } }
+		},
 		agony_explosion_size = 2,
 		dirt_pos = { -3.3, 0.7, -1.436 },
 		dust_pos = { 3, 0.3, -1.436 },

@@ -2,7 +2,6 @@ _G["launcher"]["MXU-648-TP"] = {
 	CLSID = "MXU-648-TP",
 	Cx_pil = 0,
 	Elements = { {
-			Position = { 0, 0, 0 },
 			ShapeName = "MXU-648"
 		} },
 	Picture = "mxu-468.png",

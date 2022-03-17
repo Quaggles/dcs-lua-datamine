@@ -3,7 +3,6 @@ _G["launcher"]["{F789E86A-EE2E-4E6B-B81E-D5E5F903B6ED}"] = {
 	Count = 8,
 	Cx_pil = 0.001,
 	Elements = { {
-			Position = { 0, 0, 0 },
 			ShapeName = "9M120"
 		}, {
 			Position = { 0, -0.235, -0.263 }

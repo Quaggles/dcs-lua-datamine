@@ -2,7 +2,6 @@ _G["launcher"]["{PTB-150GAL}"] = {
 	CLSID = "{PTB-150GAL}",
 	Cx_pil = 0.001953125,
 	Elements = { {
-			Position = { 0, 0, 0 },
 			ShapeName = "PTB-150"
 		} },
 	Picture = "PTB2.png",

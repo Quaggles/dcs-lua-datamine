@@ -2,7 +2,6 @@ _G["launcher"]["GUV_VOG"] = {
 	CLSID = "GUV_VOG",
 	Cx_pil = 0.001220703125,
 	Elements = { {
-			Position = { 0, 0, 0 },
 			ShapeName = "GUV-7800_G"
 		} },
 	Picture = "rus_9-A-669.png",

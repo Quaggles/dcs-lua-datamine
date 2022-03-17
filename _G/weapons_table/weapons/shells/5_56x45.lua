@@ -1,6 +1,6 @@
 _G["weapons_table"]["weapons"]["shells"]["5_56x45"] = {
 	AP_cap_caliber = 5.56,
-	Da0 = 0.0004,
+	Da0 = 0.001,
 	Da1 = 0,
 	Dv0 = 0.0082,
 	_unique_resource_name = "weapons.shells.5_56x45",
@@ -49,7 +49,6 @@ _G["weapons_table"]["weapons"]["shells"]["5_56x45"] = {
 	rotation_freq = 7,
 	round_mass = 0.00356,
 	s = 0,
-	scale_tracer = 1,
 	silent_self_destruction = false,
 	smoke_tail_life_time = -1,
 	subcalibre = false,

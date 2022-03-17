@@ -34,6 +34,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						}, {
 							shell_name = {}
 						} },
+					additionalShotDispersion = {},
 					distanceMin = 0,
 					fireAnimationArgument = 23,
 					maxShootingSpeed = 0,
@@ -85,6 +86,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Infantry" },
 	type = "Soldier M4",
 	visual = {
+		IR = {
+			coeffs = { {}, {}, {}, {} }
+		},
 		fire_pos = {},
 		parachute = 19,
 		shape = "Soldier_M4",

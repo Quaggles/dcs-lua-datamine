@@ -1,6 +1,8 @@
 _G["weapons_table"]["weapons"]["bombs"]["AN_M64"] = {
+	Reflection = 0.03,
 	_unique_resource_name = "weapons.bombs.AN_M64",
 	client = {
+		Reflection = 0.03,
 		arming_delay = {
 			delay_time = 0.8,
 			enabled = true
@@ -20,13 +22,18 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M64"] = {
 			wind_sigma = 80,
 			wind_time = 1000
 		},
-		scheme = "schemes/bombs/bomb-common-anim.sch",
+		fuze = {
+			default_arm_delays = { 1.05 },
+			default_function_delays = { 0 }
+		},
+		scheme = "schemes/bombs/bomb-common-2.sch",
 		warhead = {
 			caliber = 273,
 			concrete_factors = { 1, 1, 1 },
 			concrete_obj_factor = 0,
 			cumulative_factor = 0,
 			cumulative_thickness = 0,
+			default_fuze_delay = 0,
 			expl_mass = 100,
 			fantom = 1,
 			mass = 100,
@@ -40,6 +47,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M64"] = {
 	model = "AN-M64",
 	name = "AN_M64",
 	server = {
+		Reflection = 0.03,
 		arming_delay = {
 			delay_time = 0.8,
 			enabled = true
@@ -59,13 +67,18 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M64"] = {
 			wind_sigma = 80,
 			wind_time = 1000
 		},
-		scheme = "schemes/bombs/bomb-common-anim.sch",
+		fuze = {
+			default_arm_delays = { 1.05 },
+			default_function_delays = { 0 }
+		},
+		scheme = "schemes/bombs/bomb-common-2.sch",
 		warhead = {
 			caliber = 273,
 			concrete_factors = { 1, 1, 1 },
 			concrete_obj_factor = 0,
 			cumulative_factor = 0,
 			cumulative_thickness = 0,
+			default_fuze_delay = 0,
 			expl_mass = 100,
 			fantom = 0,
 			mass = 100,

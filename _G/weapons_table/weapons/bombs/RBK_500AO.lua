@@ -1,6 +1,8 @@
 _G["weapons_table"]["weapons"]["bombs"]["RBK_500AO"] = {
+	Reflection = 0.03,
 	_unique_resource_name = "weapons.bombs.RBK_500AO",
 	client = {
+		Reflection = 0.03,
 		arming_delay = {
 			delay_time = 0.8,
 			enabled = true
@@ -195,6 +197,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_500AO"] = {
 	model = "RBK_500_255_PTAB_10_5_cassette",
 	name = "RBK_500AO",
 	server = {
+		Reflection = 0.03,
 		arming_delay = {
 			delay_time = 0.8,
 			enabled = true

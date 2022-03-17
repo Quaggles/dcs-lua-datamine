@@ -2,8 +2,6 @@ _G["launcher"]["BF109K_4_FUEL_TANK"] = {
 	CLSID = "BF109K_4_FUEL_TANK",
 	Cx_pil = 0.00066,
 	Elements = { {
-			DrawArgs = { { 1, 1 }, { 2, 1 } },
-			Position = { 0, 0, 0 },
 			ShapeName = "Drop_Tank_300_Liter"
 		} },
 	Picture = "german_tank_300l.png",

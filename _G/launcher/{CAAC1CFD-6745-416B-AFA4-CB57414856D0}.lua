@@ -2,7 +2,6 @@ _G["launcher"]["{CAAC1CFD-6745-416B-AFA4-CB57414856D0}"] = {
 	CLSID = "{CAAC1CFD-6745-416B-AFA4-CB57414856D0}",
 	Cx_pil = 0.000244140625,
 	Elements = { {
-			Position = { 0, 0, 0 },
 			ShapeName = "LANTIRN"
 		} },
 	Picture = "Lantirn.png",

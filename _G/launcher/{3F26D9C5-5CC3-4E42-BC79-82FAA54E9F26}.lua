@@ -1,8 +1,6 @@
 _G["launcher"]["{3F26D9C5-5CC3-4E42-BC79-82FAA54E9F26}"] = {
 	CLSID = "{3F26D9C5-5CC3-4E42-BC79-82FAA54E9F26}",
 	Elements = { {
-			DrawArgs = { { 1, 1 }, { 2, 1 } },
-			Position = { 0, 0, 0 },
 			ShapeName = "X-41"
 		} },
 	NatoName = "(SS-N-22)",

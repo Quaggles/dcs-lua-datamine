@@ -58,6 +58,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Air Defence", "Launcher" },
 	type = "Hawk ln",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.003, 0.0031 }, { 0.3, 0.017 }, { 0, 0 }, { 0.1, 0.00058823529411765 } }
+		},
 		agony_explosion_size = 0.1,
 		fire_pos = {},
 		fire_size = 0,

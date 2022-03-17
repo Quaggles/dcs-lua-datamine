@@ -56,6 +56,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						endVal = 1,
 						startTime = 60,
 						startVal = 1
+					} } }, { 3, { {
+						endTime = 50,
+						startTime = 0
+					}, {
+						endTime = 60,
+						leveling = true,
+						startTime = 50
+					}, {
+						endTime = 447,
+						endVal = 1,
+						startTime = 60,
+						startVal = 1
 					} } }, { 4, { {
 						endTime = 63,
 						endVal = 0,
@@ -128,6 +140,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	chassis = {},
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000208",
+	maxVerticalDeviationAngle = 0.087266462599716,
 	sensor = {
 		height = 2.617
 	},
@@ -144,9 +157,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "Scud_B_Crashed"
 		} },
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = {},
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -178,7 +191,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	toggle_alarm_state_interval = 20,
 	turbine = false,
 	type = "Scud_B",
+	verticalDeviationCompensationPeriod = 10,
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0.3, 0.017 }, { 0, 0 }, { 0.3, 0.0002 } }
+		},
 		agony_explosion_size = 15,
 		fire_pos = { 2.6, 1.5, 0 },
 		fire_size = 0.8,

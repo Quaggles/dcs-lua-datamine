@@ -2,7 +2,6 @@ _G["launcher"]["{F376DBEE-4CAE-41BA-ADD9-B2910AC95DEC}"] = {
 	CLSID = "{F376DBEE-4CAE-41BA-ADD9-B2910AC95DEC}",
 	Cx_pil = 0.00175,
 	Elements = { {
-			Position = { 0, 0, 0 },
 			ShapeName = "fuel_tank_370gal"
 		} },
 	Picture = "PTB.png",

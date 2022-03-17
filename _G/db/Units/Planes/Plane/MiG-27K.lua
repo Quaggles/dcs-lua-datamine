@@ -206,13 +206,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						round_mass = 0.98,
 						s = 0,
 						scale_smoke = 1.8,
-						scale_tracer = 1,
 						silent_self_destruction = false,
 						smoke_opacity = 0.18,
 						smoke_tail_life_time = -1,
 						subcalibre = false,
 						tracer_off = 4,
-						tracer_on = 0.01,
+						tracer_on = 0,
 						type_name = "shell",
 						v0 = 890,
 						visual_effect_correction = 0,
@@ -255,6 +254,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Y = -0.256,
 			Z = -2.146
 		}, {
+			FiZ = -2,
 			Launchers = { {
 					CLSID = "{79D73885-0801-45a9-917F-C90FE1CE3DFC}"
 				}, {
@@ -294,7 +294,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{E659C4BE-2CD8-4472-8C08-3F28ACB61A8A}"
 				}, {
-					CLSID = "{682A481F-0CB5-4693-A382-D00DD4A156D7}"
+					CLSID = "{APU-60-1_R_60M}"
+				}, {
+					CLSID = "{B0DBC591-0F52-4F7D-AD7B-51E67725FB81}"
 				}, {
 					CLSID = "{Kh-25MP}"
 				} },
@@ -305,8 +307,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Y = -0.041,
 			Z = -1.554
 		}, {
+			FiX = 10,
+			FiZ = -2,
 			Launchers = { {
-					CLSID = "{682A481F-0CB5-4693-A382-D00DD4A156D7}"
+					CLSID = "{APU-60-1_R_60M}"
+				}, {
+					CLSID = "{B0DBC591-0F52-4F7D-AD7B-51E67725FB81}"
 				}, {
 					CLSID = "{637334E4-AB5A-47C0-83A6-51B7F1DF3CD5}"
 				}, {
@@ -361,8 +367,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Y = -0.701,
 			Z = 0.76
 		}, {
+			FiX = -10,
+			FiZ = -2,
 			Launchers = { {
-					CLSID = "{682A481F-0CB5-4693-A382-D00DD4A156D7}"
+					CLSID = "{APU-60-1_R_60M}"
+				}, {
+					CLSID = "{275A2855-4A79-4B2D-B082-91EA2ADF4691}"
 				}, {
 					CLSID = "{637334E4-AB5A-47C0-83A6-51B7F1DF3CD5}"
 				}, {
@@ -375,6 +385,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Y = -1.071,
 			Z = 0.328
 		}, {
+			FiZ = -2,
 			Launchers = { {
 					CLSID = "{79D73885-0801-45a9-917F-C90FE1CE3DFC}"
 				}, {
@@ -414,7 +425,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{E659C4BE-2CD8-4472-8C08-3F28ACB61A8A}"
 				}, {
-					CLSID = "{682A481F-0CB5-4693-A382-D00DD4A156D7}"
+					CLSID = "{APU-60-1_R_60M}"
+				}, {
+					CLSID = "{275A2855-4A79-4B2D-B082-91EA2ADF4691}"
 				}, {
 					CLSID = "{Kh-25MP}"
 				} },

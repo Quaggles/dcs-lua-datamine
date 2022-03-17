@@ -61,6 +61,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Artillery", "Mortar" },
 	type = "2B11 mortar",
 	visual = {
+		IR = {
+			coeffs = { { 0, 0 }, { 0, 0 }, { 0.0035, 0.002 }, { 0, 0 }, { 0.1, 0.00055555555555556 } }
+		},
 		agony_explosion_size = 0,
 		fire_pos = {},
 		fire_size = 0,

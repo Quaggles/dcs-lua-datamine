@@ -99,7 +99,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_elevation = { { -90, 25, 1 }, { 25, 90, 0.5 } }
 	},
 	attribute = { 2, 17, 26, "Redacted", "IFV", "Infantry carriers", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "NonAndLightArmoredUnits", "LightArmoredUnits" },
-	category = "Unarmed",
+	category = "Armor",
 	chassis = {},
 	driverCockpit = "DriverCockpit/DriverCockpit",
 	driverViewConnectorName = { "DRIVER_POINT",
@@ -123,18 +123,21 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "M4_Tractor-p_1"
 		} },
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = { {}, {} },
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
 	swapped_names = true,
 	swing_on_run = false,
-	tags = { "Unarmed", "Support & Logistics" },
+	tags = { "Armor", "APC" },
 	toggle_alarm_state_interval = 0,
 	type = "M4_Tractor",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.0322, 0.0028 }, { 0, 0 }, { 0.3, 0.00026086956521739 } }
+		},
 		agony_explosion_size = 3,
 		fire_pos = { -0.9, 0.8, 0 },
 		fire_size = 0.4,

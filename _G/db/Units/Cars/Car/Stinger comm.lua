@@ -37,6 +37,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Air Defence", "MANPADS" },
 	type = "Stinger comm",
 	visual = {
+		IR = {
+			coeffs = { { 0.1858, 0.0151 }, { 0, 0 }, { 0.1, 0.008 }, { 0, 0 }, { 0.1, 0.00025 } }
+		},
 		fire_pos = {},
 		shape = "Stinger_com",
 		shape_dstr = "Stinger_com_d"

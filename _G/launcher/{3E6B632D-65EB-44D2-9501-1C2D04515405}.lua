@@ -3,11 +3,9 @@ _G["launcher"]["{3E6B632D-65EB-44D2-9501-1C2D04515405}"] = {
 	Count = 1,
 	Cx_pil = 0.001,
 	Elements = { {
-			Position = { 0, 0, 0 },
 			ShapeName = "lau-118a"
 		}, {
-			DrawArgs = { { 1, 1 }, { 2, 1 } },
-			Position = { 0.091, -0.132, 0 },
+			Position = { 0.091, -0.129, 0 },
 			ShapeName = "AGM-45"
 		} },
 	Picture = "agm45.png",

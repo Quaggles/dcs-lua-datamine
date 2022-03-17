@@ -3,18 +3,16 @@ _G["launcher"]["{D109EE9C-A1B7-4F1C-8D87-631C293A1D26}"] = {
 	Count = 3,
 	Cx_pil = 0.00322,
 	Elements = { {
-			Position = { 0, 0, 0 },
 			ShapeName = "MBD-3"
 		}, {
-			DrawArgs = { { 1, 1 }, { 2, 1 } },
 			Position = { 0, -0.415, 0 },
 			ShapeName = "FAB-250-N1"
 		}, {
-			DrawArgs = { { 1, 1 }, { 2, 1 }, { 3, -1 } },
+			DrawArgs = { { 3, -1 } },
 			Position = { 0, -0.266, 0.293 },
 			ShapeName = "FAB-250-N1"
 		}, {
-			DrawArgs = { { 1, 1 }, { 2, 1 }, { 3, 1 } },
+			DrawArgs = { { 3, 1 } },
 			Position = { 0, -0.266, -0.293 },
 			ShapeName = "FAB-250-N1"
 		} },

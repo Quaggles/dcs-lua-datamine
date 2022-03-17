@@ -199,7 +199,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						rotation_freq = 7,
 						round_mass = 0.616,
 						s = 0,
-						scale_tracer = 1,
 						silent_self_destruction = false,
 						smoke_tail_life_time = -1,
 						subcalibre = false,
@@ -332,11 +331,20 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			FiX = 90,
 			Launchers = { {
-					CLSID = "{0D33DDAE-524F-4A4E-B5B8-621754FE3ADE}"
+					CLSID = "{0D33DDAE-524F-4A4E-B5B8-621754FE3ADE}",
+					required = <5>{ {
+							loadout = { "" },
+							station = 5
+						}, {
+							loadout = { "" },
+							station = 6
+						} }
 				}, {
-					CLSID = "{B06DD79A-F21E-4EB9-BD9D-AB3844618C93}"
+					CLSID = "{B06DD79A-F21E-4EB9-BD9D-AB3844618C93}",
+					required = <table 5>
 				}, {
-					CLSID = "{7210496B-7B81-4B52-80D6-8529ECF847CD}"
+					CLSID = "{7210496B-7B81-4B52-80D6-8529ECF847CD}",
+					required = <table 5>
 				} },
 			Number = 4,
 			Order = 4,
@@ -348,7 +356,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			FiX = 90,
 			Launchers = { {
-					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}"
+					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
+					required = <6>{ {
+							loadout = { "" },
+							station = 4
+						} }
 				} },
 			Number = 5,
 			Order = 5,
@@ -360,7 +372,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			FiX = 90,
 			Launchers = { {
-					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}"
+					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
+					required = <table 6>
 				} },
 			Number = 6,
 			Order = 6,
@@ -372,7 +385,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			FiX = 90,
 			Launchers = { {
-					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}"
+					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
+					required = <7>{ {
+							loadout = { "" },
+							station = 9
+						} }
 				} },
 			Number = 7,
 			Order = 7,
@@ -384,7 +401,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			FiX = 90,
 			Launchers = { {
-					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}"
+					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
+					required = <table 7>
 				} },
 			Number = 8,
 			Order = 8,
@@ -396,11 +414,20 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			FiX = 90,
 			Launchers = { {
-					CLSID = "{0D33DDAE-524F-4A4E-B5B8-621754FE3ADE}"
+					CLSID = "{0D33DDAE-524F-4A4E-B5B8-621754FE3ADE}",
+					required = <8>{ {
+							loadout = { "" },
+							station = 7
+						}, {
+							loadout = { "" },
+							station = 8
+						} }
 				}, {
-					CLSID = "{B06DD79A-F21E-4EB9-BD9D-AB3844618C93}"
+					CLSID = "{B06DD79A-F21E-4EB9-BD9D-AB3844618C93}",
+					required = <table 8>
 				}, {
-					CLSID = "{7210496B-7B81-4B52-80D6-8529ECF847CD}"
+					CLSID = "{7210496B-7B81-4B52-80D6-8529ECF847CD}",
+					required = <table 8>
 				} },
 			Number = 9,
 			Order = 9,
@@ -539,12 +566,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			canopy_arg = 38,
 			drop_canopy_name = 39,
 			ejection_seat_name = 9,
-			pos = <5>{ 3.34, 1.102, 0 },
+			pos = <9>{ 3.34, 1.102, 0 },
 			role = "pilot",
 			role_display_name = "Pilot in command"
 		}, {
 			canopy_arg = 38,
-			canopy_pos = <table 5>,
+			canopy_pos = <table 9>,
 			drop_canopy_name = 39,
 			ejection_seat_name = 9,
 			pos = { 1.935, 1.102, 0 },
@@ -581,19 +608,19 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						argument = 209,
 						color = { 255, 255, 200, 0.333 },
 						connector = "MAIN_SPOT_PTR",
-						position = <6>{ 4.02, -1.291, 0 },
+						position = <10>{ 4.02, -1.291, 0 },
 						typename = "spotlight"
 					}, {
 						argument = 208,
 						color = { 255, 255, 200, 0.333 },
 						connector = "RESERV_SPOT_PTR",
-						position = <7>{ 0.409, -0.708, 0.864 },
+						position = <11>{ 0.409, -0.708, 0.864 },
 						typename = "spotlight"
 					}, {
 						argument = 208,
 						color = { 255, 255, 200, 0.333 },
 						connector = "FARA_3",
-						position = <8>{ 0.409, -0.708, -0.864 },
+						position = <12>{ 0.409, -0.708, -0.864 },
 						typename = "spotlight"
 					} },
 				typename = "collection"
@@ -628,19 +655,19 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						argument = 209,
 						color = { 255, 255, 200, 0.333 },
 						connector = "MAIN_SPOT_PTR",
-						position = <table 6>,
+						position = <table 10>,
 						typename = "spotlight"
 					}, {
 						argument = 208,
 						color = { 255, 255, 200, 0.333 },
 						connector = "RESERV_SPOT_PTR",
-						position = <table 7>,
+						position = <table 11>,
 						typename = "spotlight"
 					}, {
 						argument = 208,
 						color = { 255, 255, 200, 0.333 },
 						connector = "FARA_3",
-						position = <table 8>,
+						position = <table 12>,
 						typename = "spotlight"
 					} },
 				typename = "collection"

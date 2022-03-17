@@ -90,6 +90,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	Length = 180,
 	Name = "Bulker Handy Wind",
 	Om = 0.02,
+	RCS = 100000,
 	R_min = 400,
 	Rate = 100,
 	Singleton = "no",

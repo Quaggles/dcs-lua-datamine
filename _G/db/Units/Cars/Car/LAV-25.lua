@@ -140,9 +140,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		height = 2.692
 	},
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = {},
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -152,6 +152,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	turbine = false,
 	type = "LAV-25",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0.0062, 0.00215 }, { 0, 0 }, { 0.3, 0.00016666666666667 } }
+		},
 		agony_explosion_size = 3,
 		fire_pos = { 0.25, 1, 0 },
 		fire_size = 0.85,

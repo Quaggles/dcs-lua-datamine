@@ -119,6 +119,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Air Defence", "Tracking Radar" },
 	type = "SNR_75V",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0, 0 }, { 0, 0 }, { 0, 0 }, { 0.2, 0.00026666666666667 } }
+		},
 		agony_explosion_size = 5,
 		fire_pos = { 0, 1.5, 0 },
 		fire_size = 0.6,

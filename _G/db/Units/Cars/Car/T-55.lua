@@ -24,14 +24,14 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					PL = { {
 							ammo_capacity = 6,
 							reload_time = 90,
-							shell_name = {},
+							shell_name = { "3UBM11_100mm_AP" },
 							shot_delay = 8.5,
 							virtualStwID = 1
 						}, {
 							ammo_capacity = 26,
 							automaticLoader = false,
 							reload_time = 390,
-							shell_name = { "M68_105_AP" },
+							shell_name = { "3UBM11_100mm_AP" },
 							shot_delay = 13.5,
 							virtualStwID = 2
 						} },
@@ -43,13 +43,13 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					PL = { {
 							ammo_capacity = 2,
 							reload_time = 30,
-							shell_name = { "UOF_412_100HE" },
+							shell_name = { "UOF412_100HE" },
 							shot_delay = 8.5,
 							virtualStwID = 1
 						}, {
 							ammo_capacity = 9,
 							reload_time = 135,
-							shell_name = { "UOF_412_100HE" },
+							shell_name = { "UOF412_100HE" },
 							shot_delay = 13.5,
 							virtualStwID = 2
 						} },
@@ -171,9 +171,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		height = 2.723
 	},
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = { {}, {} },
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -183,6 +183,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	turbine = false,
 	type = "T-55",
 	visual = {
+		IR = {
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0032, 0.0015 }, { 0, 0 }, { 0.29, 0.00020714285714286 } }
+		},
 		agony_explosion_size = 5,
 		dirt_pos = { -2.8, 0.5, -1.3 },
 		dust_pos = { 2.9, 0.1, -1.3 },

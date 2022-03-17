@@ -3,7 +3,6 @@ _G["launcher"]["{57232979-8B0F-4db7-8D9A-55197E06B0F5}"] = {
 	Count = 8,
 	Cx_pil = 0.002,
 	Elements = { {
-			Position = { 0, 0, 0 },
 			ShapeName = "9K114_Shturm"
 		} },
 	NatoName = "AT-6",

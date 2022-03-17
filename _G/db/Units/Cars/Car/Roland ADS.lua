@@ -76,6 +76,14 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	driverViewConnectorName = { "DRIVER_POINT" },
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = {
+			[3] = 1,
+			[4] = 1,
+			[5] = 1,
+			[11] = 1
+		}
+	},
 	mapclasskey = "P0091000086",
 	radar_rotation_period = 1,
 	sensor = {
@@ -86,9 +94,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		min_range_finding_target = 1500
 	},
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = { {}, {} },
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -97,6 +105,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Air Defence", "SAM SHORAD" },
 	type = "Roland ADS",
 	visual = {
+		IR = {
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.3, 0.017 }, { 0, 0 }, { 0.3, 0.0002 } }
+		},
 		agony_explosion_size = 3,
 		dirt_pos = { -3, 0.5, -1.319 },
 		dust_pos = { 3.05, 0, -1.319 },

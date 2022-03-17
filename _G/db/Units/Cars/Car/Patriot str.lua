@@ -137,6 +137,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Air Defence", "Search & Track Radar" },
 	type = "Patriot str",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0, 0 }, { 0, 0 }, { 0.3, 0.0002 } }
+		},
 		agony_explosion_size = 2,
 		fire_pos = { -0.5, 1.8, 0 },
 		fire_size = 0.75,

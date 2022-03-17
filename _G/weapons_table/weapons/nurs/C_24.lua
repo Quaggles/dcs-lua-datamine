@@ -11,7 +11,7 @@ _G["weapons_table"]["weapons"]["nurs"]["C_24"] = {
 			nozzle_position = { { -1.14, 0.039, -0.068 }, { -1.14, 0.078, 0 }, { -1.14, 0.039, 0.068 }, { -1.14, -0.039, -0.068 }, { -1.14, -0.078, 0 }, { -1.14, -0.039, 0.068 } },
 			smoke_color = { 0.5, 0.5, 0.5 },
 			smoke_transparency = 0.5,
-			tail_width = 0.6,
+			tail_width = 0.074,
 			work_tail = 1,
 			work_time = 1.3
 		},
@@ -62,7 +62,7 @@ _G["weapons_table"]["weapons"]["nurs"]["C_24"] = {
 			nozzle_position = { { -1.14, 0.039, -0.068 }, { -1.14, 0.078, 0 }, { -1.14, 0.039, 0.068 }, { -1.14, -0.039, -0.068 }, { -1.14, -0.078, 0 }, { -1.14, -0.039, 0.068 } },
 			smoke_color = { 0.5, 0.5, 0.5 },
 			smoke_transparency = 0.5,
-			tail_width = 0.6,
+			tail_width = 0.074,
 			work_tail = 1,
 			work_time = 1.3
 		},

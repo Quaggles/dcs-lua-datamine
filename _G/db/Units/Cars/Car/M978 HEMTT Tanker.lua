@@ -25,9 +25,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000212",
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = {},
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -36,6 +36,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Unarmed", "Support & Logistics" },
 	type = "M978 HEMTT Tanker",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0, 0 }, { 0, 0 }, { 0.33, 0.00014347826086957 } }
+		},
 		agony_explosion_size = 15,
 		fire_pos = { -2.3, 1, 0 },
 		fire_size = 1,

@@ -55,6 +55,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Air Defence", "AAA" },
 	type = "ZU-23 Closed Insurgent",
 	visual = {
+		IR = {
+			coeffs = { { 0, 0 }, { 0, 0 }, { 0.0062, 0.00215 }, { 0, 0 }, { 0.15, 0.00083333333333333 } }
+		},
 		agony_explosion_size = 0.1,
 		fire_pos = {},
 		fire_size = 0,

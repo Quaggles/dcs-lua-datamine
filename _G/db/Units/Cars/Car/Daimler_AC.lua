@@ -142,9 +142,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "Daimler_AC-p_1"
 		} },
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = {},
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -154,6 +154,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	toggle_alarm_state_interval = 0,
 	type = "Daimler_AC",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0.00095, 0.0019 }, { 0, 0 }, { 0.3, 0.00026086956521739 } }
+		},
 		agony_explosion_size = 5,
 		fire_pos = { -0.3, 0.8, 0 },
 		fire_size = 0.33,

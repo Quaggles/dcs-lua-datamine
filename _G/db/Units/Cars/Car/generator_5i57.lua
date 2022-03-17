@@ -8,9 +8,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "Diesel Power Station 5I57A",
 	Rate = 4,
 	ThreatRange = 0,
-	WS = {
-		radar_rotation_type = 0
-	},
 	Waypoint_Custom_Panel = true,
 	_file = "./CoreMods/tech/TechWeaponPack/Database/db_units_cars.lua",
 	_origin = "TechWeaponPack",
@@ -43,13 +40,14 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			file = "generator_5i57_p_1",
 			name = "generator_5i57_p_1"
 		} },
-	snd = {
-		radarRotation = "GndTech/DieselGenerator5I57A"
-	},
+	snd = {},
 	swapped_names = true,
 	tags = { "Air Defence", "Generator" },
 	type = "generator_5i57",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0, 0 }, { 0, 0 }, { 0.27, 0.0001741935483871 } }
+		},
 		fire_pos = { 1, 0.8, 0 },
 		fire_size = 0.7,
 		fire_time = 120,

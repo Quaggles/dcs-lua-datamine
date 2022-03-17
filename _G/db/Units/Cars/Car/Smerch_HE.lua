@@ -109,9 +109,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		height = 3.05
 	},
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = {},
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -121,6 +121,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	toggle_alarm_state_interval = 5,
 	type = "Smerch_HE",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0.023, 0.002 }, { 0, 0 }, { 0.25, 0.00022727272727273 } }
+		},
 		agony_explosion_size = 2,
 		fire_pos = { -0.2, 1.1, 0 },
 		fire_size = 0.85,

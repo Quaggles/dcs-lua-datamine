@@ -29,6 +29,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Air Defence", "Command & Control" },
 	type = "Patriot cp",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0, 0 }, { 0, 0 }, { 0.2, 0.00036363636363636 } }
+		},
 		agony_explosion_size = 2,
 		fire_pos = { 0.65, 0.9, 0 },
 		fire_size = 0.6,

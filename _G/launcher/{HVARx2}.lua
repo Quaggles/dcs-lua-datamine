@@ -3,15 +3,11 @@ _G["launcher"]["{HVARx2}"] = {
 	Count = 2,
 	Cx_pil = 0.001313754,
 	Elements = { {
-			DrawArgs = {
-				[3] = { 3, 0.1 }
-			},
+			DrawArgs = { { 3, 0.1 } },
 			Position = { 0, 0, 0 },
 			ShapeName = "HVAR_rocket"
 		}, {
-			DrawArgs = {
-				[3] = { 3, 0.2 }
-			},
+			DrawArgs = { { 3, 0.2 } },
 			Position = { 0.155, -0.139648, 0 },
 			ShapeName = "HVAR_rocket"
 		} },

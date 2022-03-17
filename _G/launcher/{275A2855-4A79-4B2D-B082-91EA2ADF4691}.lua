@@ -5,12 +5,11 @@ _G["launcher"]["{275A2855-4A79-4B2D-B082-91EA2ADF4691}"] = {
 	Elements = { {
 			ShapeName = "apu-60-2_R"
 		}, {
-			Position = { 0.48914, -0.301191, 0 },
-			ShapeName = "R-60"
+			ShapeName = "R-60",
+			connector_name = "Point Pilon R60"
 		}, {
-			Position = { 0.48914, -0.094083, 0.151469 },
-			Rotation = { -90, 0, 0 },
-			ShapeName = "R-60"
+			ShapeName = "R-60",
+			connector_name = "Point Pilon R60_1"
 		} },
 	Picture = "r60.png",
 	Weight = 148,

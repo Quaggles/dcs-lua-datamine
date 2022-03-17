@@ -1,6 +1,8 @@
 _G["weapons_table"]["weapons"]["bombs"]["KAB_500Kr"] = {
+	Reflection = 0.03,
 	_unique_resource_name = "weapons.bombs.KAB_500Kr",
 	client = {
+		Reflection = 0.03,
 		arming_delay = {
 			delay_time = 0.8,
 			enabled = true
@@ -51,6 +53,7 @@ _G["weapons_table"]["weapons"]["bombs"]["KAB_500Kr"] = {
 	model = "kab-500t",
 	name = "KAB_500Kr",
 	server = {
+		Reflection = 0.03,
 		arming_delay = {
 			delay_time = 0.8,
 			enabled = true

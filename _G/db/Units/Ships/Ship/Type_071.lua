@@ -320,24 +320,17 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		}, {
 			LN = { {
 					BR = { {
-							connector_name = "DOCK_VIEW",
-							pos = {}
+							connector_name = "DOCK_VIEW"
 						} },
-					PL = { {
-							ammo_capacity = 0,
-							shell_name = {},
-							switch_delay = 15
-						}, {
-							shell_name = {}
-						} },
-					customViewPoint = { "DriverCockpit/DriverCockpitWithIRandLLTV", { 0.1, 0.5, 0 } },
+					customViewPoint = { "DriverCockpit/DriverCockpitWithIRandLLTV", { 0.1, 0, 0 } },
 					display_name = "Dock View",
+					distanceMax = 0,
+					distanceMaxForFCS = 5000,
+					distanceMin = 0,
 					name = "Dock_View",
-					sensor = {},
-					type = 3
+					type = 103
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.13962634015955, 1.0995574287564 } },
-			base = 1,
 			center = "DOCK_VIEW",
 			drawArgument1 = 27,
 			drawArgument2 = -1,

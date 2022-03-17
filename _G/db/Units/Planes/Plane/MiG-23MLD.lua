@@ -201,12 +201,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						rotation_freq = 7,
 						round_mass = 0.44,
 						s = 0,
-						scale_tracer = 1,
 						silent_self_destruction = false,
 						smoke_tail_life_time = -1,
 						subcalibre = false,
 						tracer_off = 4,
-						tracer_on = 0.01,
+						tracer_on = 0,
 						type_name = "shell",
 						v0 = 715,
 						visual_effect_correction = 0,
@@ -289,11 +288,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Y = -0.116,
 			Z = -1.554
 		}, {
+			FiX = 10,
 			FiZ = -2,
 			Launchers = { {
 					CLSID = "{B0DBC591-0F52-4F7D-AD7B-51E67725FB81}"
 				}, {
-					CLSID = "{682A481F-0CB5-4693-A382-D00DD4A156D7}"
+					CLSID = "{APU-60-1_R_60M}"
+				}, {
+					CLSID = "{B0DBC591-0F52-4F7D-AD7B-51E67725FB81}"
 				}, {
 					CLSID = "{3858707D-F5D5-4bbb-BDD8-ABB0530EBC7C}"
 				}, {
@@ -337,11 +339,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Y = -1.151,
 			Z = 0
 		}, {
+			FiX = -10,
 			FiZ = -2,
 			Launchers = { {
 					CLSID = "{275A2855-4A79-4B2D-B082-91EA2ADF4691}"
 				}, {
-					CLSID = "{682A481F-0CB5-4693-A382-D00DD4A156D7}"
+					CLSID = "{APU-60-1_R_60M}"
+				}, {
+					CLSID = "{275A2855-4A79-4B2D-B082-91EA2ADF4691}"
 				}, {
 					CLSID = "{3858707D-F5D5-4bbb-BDD8-ABB0530EBC7C}"
 				}, {

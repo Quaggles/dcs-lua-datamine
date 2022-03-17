@@ -178,9 +178,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "ZSU_57_2_p_1"
 		} },
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = { {}, {} },
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -189,6 +189,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Air Defence", "SP AAA" },
 	type = "ZSU_57_2",
 	visual = {
+		IR = {
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.00095, 0.0019 }, { 0, 0 }, { 0.27, 0.0001741935483871 } }
+		},
 		agony_explosion_size = 5,
 		fire_pos = { -1, 1.1, 0 },
 		fire_size = 0.65,

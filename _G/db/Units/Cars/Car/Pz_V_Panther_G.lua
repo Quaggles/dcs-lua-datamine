@@ -321,9 +321,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "Pz_V_G_p_1"
 		} },
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = { {}, {} },
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -332,6 +332,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Armor", "Tank" },
 	type = "Pz_V_Panther_G",
 	visual = {
+		IR = {
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0032, 0.0015 }, { 0, 0 }, { 0.3, 0.00026086956521739 } }
+		},
 		agony_explosion_size = 3,
 		dirt_pos = { -3.2, 0.6, -1.4 },
 		dust_pos = { 3.05, 0.1, -1.4 },

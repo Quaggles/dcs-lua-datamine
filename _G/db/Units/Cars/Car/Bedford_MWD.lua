@@ -71,9 +71,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "Bedford_MWD_p_1"
 		} },
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = {},
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -82,6 +82,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Unarmed", "Support & Logistics" },
 	type = "Bedford_MWD",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.003, 0.0031 }, { 0, 0 }, { 0, 0 }, { 0.15, 0.0003 } }
+		},
 		agony_explosion_size = 2,
 		fire_pos = { 1.5, 1, 0 },
 		fire_size = 0.3,

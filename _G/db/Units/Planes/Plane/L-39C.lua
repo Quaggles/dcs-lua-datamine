@@ -517,6 +517,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{0511E528-EA28-4caf-A212-00D1408DF10A}",
 					arg_value = 0.3,
+					attach_point_position = { 0, 0.05, 0 },
 					required = { {
 							loadout = { "{0511E528-EA28-4caf-A212-00D1408DF10A}" },
 							station = 3
@@ -641,6 +642,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{0511E528-EA28-4caf-A212-00D1408DF10A}",
 					arg_value = 0.3,
+					attach_point_position = { 0, 0.05, 0 },
 					required = { {
 							loadout = { "{0511E528-EA28-4caf-A212-00D1408DF10A}" },
 							station = 1

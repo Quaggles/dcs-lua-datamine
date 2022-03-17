@@ -3,10 +3,11 @@ _G["launcher"]["{Kh-25MP}"] = {
 	Count = 1,
 	Cx_pil = 0.001,
 	Elements = { {
+			IsAdapter = true,
 			ShapeName = "APU-68"
 		}, {
-			Position = { 0, -0.135, 0 },
-			ShapeName = "X-25MP"
+			ShapeName = "X-25MP",
+			connector_name = "Point01"
 		} },
 	Picture = "kh25mpu.png",
 	Weight = 355,

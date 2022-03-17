@@ -196,7 +196,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						rotation_freq = 7,
 						round_mass = 0.154,
 						s = 0,
-						scale_tracer = 1,
 						silent_self_destruction = false,
 						smoke_tail_life_time = -1,
 						subcalibre = false,
@@ -257,7 +256,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						rotation_freq = 7,
 						round_mass = 0.154,
 						s = 0,
-						scale_tracer = 1,
 						silent_self_destruction = false,
 						smoke_tail_life_time = -1,
 						subcalibre = false,
@@ -329,7 +327,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				}, {
 					CLSID = "{05544F1A-C39C-466b-BC37-5BD1D52E57BB}"
 				}, {
-					CLSID = "{B99EE8A8-99BC-4a8d-89AC-A26831920DCE}"
+					CLSID = "{PTB_450}"
 				}, {
 					CLSID = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}"
 				}, {
@@ -367,7 +365,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				}, {
 					CLSID = "{05544F1A-C39C-466b-BC37-5BD1D52E57BB}"
 				}, {
-					CLSID = "{B99EE8A8-99BC-4a8d-89AC-A26831920DCE}"
+					CLSID = "{PTB_450}"
 				}, {
 					CLSID = "GUV_YakB_GSHP"
 				}, {
@@ -405,7 +403,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				}, {
 					CLSID = "{05544F1A-C39C-466b-BC37-5BD1D52E57BB}"
 				}, {
-					CLSID = "{B99EE8A8-99BC-4a8d-89AC-A26831920DCE}"
+					CLSID = "{PTB_450}"
 				}, {
 					CLSID = "GUV_YakB_GSHP"
 				}, {
@@ -435,7 +433,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				}, {
 					CLSID = "{05544F1A-C39C-466b-BC37-5BD1D52E57BB}"
 				}, {
-					CLSID = "{B99EE8A8-99BC-4a8d-89AC-A26831920DCE}"
+					CLSID = "{PTB_450}"
 				}, {
 					CLSID = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}"
 				}, {

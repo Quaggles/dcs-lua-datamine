@@ -4,10 +4,10 @@ _G["launcher"]["{3858707D-F5D5-4bbb-BDD8-ABB0530EBC7C}"] = {
 	Cx_pil = 0.001,
 	Elements = { {
 			IsAdapter = true,
-			ShapeName = "APU-7"
+			ShapeName = "APU-68"
 		}, {
-			Position = { 0.37, -0.24, 0 },
-			ShapeName = "C-24"
+			ShapeName = "C-24",
+			connector_name = "Point01"
 		} },
 	Picture = "RBK250.png",
 	Weight = 295,

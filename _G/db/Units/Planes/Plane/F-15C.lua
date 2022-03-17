@@ -371,12 +371,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						rotation_freq = 7,
 						round_mass = 0.26,
 						s = 0,
-						scale_tracer = 1,
 						silent_self_destruction = false,
 						smoke_tail_life_time = -1,
 						subcalibre = false,
 						tracer_off = 3,
-						tracer_on = 0.07,
+						tracer_on = 0,
 						type_name = "shell",
 						v0 = 1050,
 						visual_effect_correction = 0,
@@ -432,7 +431,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						rotation_freq = 7,
 						round_mass = 0.26,
 						s = 0,
-						scale_tracer = 0,
 						silent_self_destruction = false,
 						smoke_tail_life_time = -1,
 						subcalibre = false,
@@ -493,7 +491,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						rotation_freq = 7,
 						round_mass = 0.26,
 						s = 0,
-						scale_tracer = 0,
 						silent_self_destruction = false,
 						smoke_tail_life_time = -1,
 						subcalibre = false,
@@ -554,7 +551,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						rotation_freq = 7,
 						round_mass = 0.26,
 						s = 0,
-						scale_tracer = 0,
 						silent_self_destruction = false,
 						smoke_tail_life_time = -1,
 						subcalibre = false,
@@ -615,12 +611,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						rotation_freq = 7,
 						round_mass = 0.26,
 						s = 0,
-						scale_tracer = 1,
 						silent_self_destruction = false,
 						smoke_tail_life_time = -1,
 						subcalibre = false,
 						tracer_off = 3,
-						tracer_on = 0.07,
+						tracer_on = 0,
 						type_name = "shell",
 						v0 = 1050,
 						visual_effect_correction = 0,
@@ -676,7 +671,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						rotation_freq = 7,
 						round_mass = 0.26,
 						s = 0,
-						scale_tracer = 0,
 						silent_self_destruction = false,
 						smoke_tail_life_time = -1,
 						subcalibre = false,
@@ -737,7 +731,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						rotation_freq = 7,
 						round_mass = 0.257,
 						s = 0,
-						scale_tracer = 0,
 						silent_self_destruction = false,
 						smoke_tail_life_time = -1,
 						subcalibre = false,
@@ -798,12 +791,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						rotation_freq = 7,
 						round_mass = 0.26,
 						s = 0,
-						scale_tracer = 1,
 						silent_self_destruction = false,
 						smoke_tail_life_time = -1,
 						subcalibre = false,
 						tracer_off = 3,
-						tracer_on = 0.07,
+						tracer_on = 0,
 						type_name = "shell",
 						v0 = 1040,
 						visual_effect_correction = 0,
@@ -828,6 +820,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					enable_options_key_for_unit = "disabled"
 				},
 				["A-10C_2"] = <table 10>,
+				["AH-64D_BLK_II"] = <table 10>,
 				AJS37 = {
 					enable_options_key_for_unit = "ajs37_enabled"
 				},
@@ -1426,126 +1419,40 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	lights_data = {
 		lights = { {
 				lights = { {
-						lights = { {
-								argument = 199,
-								connector = "RESERV1_BANO_1",
-								dir_correction = {
-									azimuth = -0.95993108859688
-								},
-								proto = <11>{
-									angle_max = 3.1415926535898,
-									angle_min = 3.1415926535898,
-									color = { 1, 0, 0, 0.37947331922021 },
-									controller = "Strobe",
-									period = 1.33333,
-									range = 48
-								},
-								typename = "Spot"
-							}, {
-								connector = "RESERV_BANO_1",
-								dir_correction = {
-									azimuth = 0.95993108859688
-								},
-								proto = <table 11>,
-								typename = "Spot"
-							}, {
-								connector = "RESERV2_BANO_1",
-								proto = <table 11>,
-								typename = "Omni"
-							} },
-						typename = "collection"
+						argument = 199,
+						controller = "Strobe",
+						period = 1.33333,
+						typename = "Argument"
 					} },
 				typename = "collection"
 			}, {
 				lights = { {
-						lights = { {
-								argument = 209,
-								connector = "MAIN_SPOT_PTR",
-								dir_correction = {
-									elevation = 0.20943951023932
-								},
-								exposure = { { 0, 0.99, 1 } },
-								movable = true,
-								proto = <12>{
-									angle_change_rate = 0.05235987755983,
-									angle_max = 0.20943951023932,
-									angle_min = 0.13962634015955,
-									color = { 255, 201, 125, 0.40347331922021 },
-									power_up_t = 3.22,
-									range = 6480
-								},
-								typename = "Spot"
-							}, {
-								angle_max = 3.1415926535898,
-								angle_min = 2.9670597283904,
-								connector = "MAIN_SPOT_PTR",
-								dir_correction = {
-									elevation = 0.20943951023932
-								},
-								exposure = { { 0, 0.99, 1 } },
-								movable = true,
-								proto = <table 12>,
-								range = 18,
-								typename = "Spot"
-							} },
-						typename = "Collection"
+						argument = 209,
+						typename = "Argument"
 					} },
 				typename = "Collection"
 			}, {
 				lights = { {
-						angle_max = 3.1415926535898,
-						angle_min = 2.9670597283904,
 						argument = 192,
-						connector = "BANO_0",
-						dir_correction = {
-							azimuth = 3.1415926535898
-						},
-						proto = {
-							angle_max = 3.1415926535898,
-							color = { 1, 1, 1, 0.155 },
-							range = 30
-						},
-						typename = "Spot"
+						typename = "Argument"
 					}, {
-						angle_max = 3.1415926535898,
-						angle_min = 1.5707963267949,
 						argument = 190,
-						connector = "BANO_1",
 						controller = "Strobe",
 						cool_down_t = 0.6,
-						dir_correction = {
-							azimuth = -0.78539816339745
-						},
 						flash_time = 0.7,
 						mode = 1,
 						period = 1,
 						power_up_t = 0.3,
-						proto = {
-							angle_max = 3.1415926535898,
-							color = { 1, 0.35, 0.15, 0.12 },
-							range = 22.2
-						},
-						typename = "Spot"
+						typename = "Argument"
 					}, {
-						angle_max = 3.1415926535898,
-						angle_min = 1.5707963267949,
 						argument = 191,
-						connector = "BANO_2",
 						controller = "Strobe",
 						cool_down_t = 0.6,
-						dir_correction = {
-							azimuth = 0.78539816339745
-						},
 						flash_time = 0.7,
 						mode = 1,
 						period = 1,
 						power_up_t = 0.3,
-						proto = {
-							angle_max = 3.1415926535898,
-							color = { 0, 0.894, 0.6, 0.12 },
-							range = 22.2
-						},
-						typename = "Spot"
+						typename = "Argument"
 					} },
 				typename = "Collection"
 			}, {
@@ -1554,35 +1461,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			},
 			[6] = {
 				lights = { {
-						lights = { {
-								angle_max = 1.2566370614359,
-								argument = 208,
-								connector = "MAIN_SPOT_PTR",
-								exposure = { { 0, 0.99, 1 } },
-								movable = true,
-								power_up_t = 0.75,
-								proto = <13>{
-									angle_change_rate = -0.11780972450962,
-									angle_max = 0.47123889803847,
-									angle_min = 0.37699111843078,
-									color = { 255, 201, 125, 0.18499689437998 },
-									power_up_t = 0.9,
-									range = 300
-								},
-								typename = "Spot"
-							}, {
-								angle_max = 3.1415926535898,
-								angle_min = 2.9670597283904,
-								argument = 208,
-								connector = "MAIN_SPOT_PTR",
-								exposure = { { 0, 0.99, 1 } },
-								movable = true,
-								power_up_t = 0.75,
-								proto = <table 13>,
-								range = 18,
-								typename = "Spot"
-							} },
-						typename = "Collection"
+						argument = 208,
+						typename = "Argument"
 					} },
 				typename = "Collection"
 			}

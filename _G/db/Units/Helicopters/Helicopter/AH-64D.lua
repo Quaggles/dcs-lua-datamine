@@ -201,7 +201,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						rotation_freq = 7,
 						round_mass = 0.567,
 						s = 0,
-						scale_tracer = 1,
 						silent_self_destruction = false,
 						smoke_tail_life_time = -1,
 						subcalibre = false,
@@ -251,14 +250,26 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				}, {
 					CLSID = "{FD90A1DC-9147-49FA-BF56-CB83EF0BD32B}"
 				}, {
-					CLSID = "{FD90A1DC-9147-49FA-BF56-CB83EF0BD32B}"
+					CLSID = "{M299_3xAGM_114K_OUTBOARD_PORT}"
+				}, {
+					CLSID = "{M299_3xAGM_114K_OUTBOARD_STARBOARD}"
+				}, {
+					CLSID = "{M299_2xAGM_114K}"
+				}, {
+					CLSID = "{M299_1xAGM_114K_OUTBOARD_PORT}"
+				}, {
+					CLSID = "{M299_1xAGM_114K_OUTBOARD_STARBOARD}"
+				}, {
+					CLSID = "{M299_EMPTY}"
 				} },
 			Number = 1,
 			Order = 1,
 			Type = 0,
 			X = 0.288,
 			Y = -0.976,
-			Z = -2.425
+			Z = -2.425,
+			connector = "Point Zero",
+			use_full_connector_position = true
 		}, {
 			FiZ = 0,
 			Launchers = { {
@@ -268,14 +279,26 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				}, {
 					CLSID = "{88D18A5E-99C8-4B04-B40B-1C02F2018B6E}"
 				}, {
-					CLSID = "{FD90A1DC-9147-49FA-BF56-CB83EF0BD32B}"
+					CLSID = "{M299_3xAGM_114K_OUTBOARD_PORT}"
+				}, {
+					CLSID = "{M299_3xAGM_114K_OUTBOARD_STARBOARD}"
+				}, {
+					CLSID = "{M299_2xAGM_114K}"
+				}, {
+					CLSID = "{M299_1xAGM_114K_OUTBOARD_PORT}"
+				}, {
+					CLSID = "{M299_1xAGM_114K_OUTBOARD_STARBOARD}"
+				}, {
+					CLSID = "{M299_EMPTY}"
 				} },
 			Number = 2,
 			Order = 2,
 			Type = 0,
 			X = 0.288,
 			Y = -0.976,
-			Z = -1.685
+			Z = -1.685,
+			connector = "Point Zero01",
+			use_full_connector_position = true
 		}, {
 			FiZ = 0,
 			Launchers = { {
@@ -285,14 +308,26 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				}, {
 					CLSID = "{88D18A5E-99C8-4B04-B40B-1C02F2018B6E}"
 				}, {
-					CLSID = "{FD90A1DC-9147-49FA-BF56-CB83EF0BD32B}"
+					CLSID = "{M299_3xAGM_114K_OUTBOARD_PORT}"
+				}, {
+					CLSID = "{M299_3xAGM_114K_OUTBOARD_STARBOARD}"
+				}, {
+					CLSID = "{M299_2xAGM_114K}"
+				}, {
+					CLSID = "{M299_1xAGM_114K_OUTBOARD_PORT}"
+				}, {
+					CLSID = "{M299_1xAGM_114K_OUTBOARD_STARBOARD}"
+				}, {
+					CLSID = "{M299_EMPTY}"
 				} },
 			Number = 3,
 			Order = 3,
 			Type = 0,
 			X = 0.288,
 			Y = -0.976,
-			Z = 1.685
+			Z = 1.685,
+			connector = "Point Zero02",
+			use_full_connector_position = true
 		}, {
 			FiZ = 0,
 			Launchers = { {
@@ -300,14 +335,26 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				}, {
 					CLSID = "{88D18A5E-99C8-4B04-B40B-1C02F2018B6E}"
 				}, {
-					CLSID = "{FD90A1DC-9147-49FA-BF56-CB83EF0BD32B}"
+					CLSID = "{M299_3xAGM_114K_OUTBOARD_PORT}"
+				}, {
+					CLSID = "{M299_3xAGM_114K_OUTBOARD_STARBOARD}"
+				}, {
+					CLSID = "{M299_2xAGM_114K}"
+				}, {
+					CLSID = "{M299_1xAGM_114K_OUTBOARD_PORT}"
+				}, {
+					CLSID = "{M299_1xAGM_114K_OUTBOARD_STARBOARD}"
+				}, {
+					CLSID = "{M299_EMPTY}"
 				} },
 			Number = 4,
 			Order = 4,
 			Type = 0,
 			X = 0.288,
 			Y = -0.976,
-			Z = 2.425
+			Z = 2.425,
+			connector = "Point Zero03",
+			use_full_connector_position = true
 		} },
 	RCS = 5,
 	Rate = "50",

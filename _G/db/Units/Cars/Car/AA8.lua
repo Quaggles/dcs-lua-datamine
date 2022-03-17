@@ -40,9 +40,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "aa8_p_1"
 		} },
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = {},
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -51,6 +51,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Unarmed", "Support & Logistics" },
 	type = "AA8",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0, 0 }, { 0, 0 }, { 0.2, 0.00018181818181818 } }
+		},
 		fire_pos = { -1.4, 0.9, 0 },
 		fire_size = 1.9,
 		fire_time = 1500,

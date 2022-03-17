@@ -897,6 +897,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					enable_options_key_for_unit = "disabled"
 				},
 				["A-10C_2"] = <table 2>,
+				["AH-64D_BLK_II"] = <table 2>,
 				AJS37 = {
 					enable_options_key_for_unit = "ajs37_enabled"
 				},
@@ -1637,7 +1638,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			afterburner_circles_pos = { 0.2, 0.8 },
 			afterburner_circles_scale = 1,
 			afterburner_effect_texture = "afterburner_f-16c",
-			diameter = 1.6,
+			diameter = 1.3,
 			elevation = 0,
 			exhaust_length_ab = 11,
 			exhaust_length_ab_K = 0.76,

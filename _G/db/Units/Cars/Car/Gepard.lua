@@ -78,6 +78,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	driverViewPoint = { 2.3, 1.5, 0.62 },
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = { 0.14,
+			[3] = 1,
+			[11] = 1
+		}
+	},
 	mapclasskey = "P0091000017",
 	radar_rotation_period = 1,
 	sensor = {
@@ -88,9 +94,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		min_range_finding_target = 0
 	},
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = { {}, {} },
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} },
 		radarRotation = "GndTech/RadarRotation"
@@ -101,6 +107,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	toggle_alarm_state_interval = 5,
 	type = "Gepard",
 	visual = {
+		IR = {
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0062, 0.00215 }, { 0, 0 }, { 0.3, 0.00017142857142857 } }
+		},
 		agony_explosion_size = 2,
 		dirt_pos = { -3.1, 0.6, -1.347 },
 		dust_pos = { 3.05, 0.1, -1.347 },

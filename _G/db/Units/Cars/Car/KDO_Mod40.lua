@@ -51,11 +51,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMax = 11000,
 					reactionTime = 15,
 					sensor = <1>{
-						Tau = 2,
+						Tau = 0.2,
 						baseLength = 4,
 						deviation_error_azimuth = 0.0007,
 						deviation_error_elevation = 0.0007,
 						deviation_error_speed_sensor = 0.02,
+						kTau = 0.1,
 						magnification = 24,
 						type = 1
 					},
@@ -125,6 +126,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Air Defence", "AAA", "Optical Tracker" },
 	type = "KDO_Mod40",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0, 0 }, { 0, 0 }, { 0, 0 }, { 0.27, 0.00049090909090909 } }
+		},
 		agony_explosion_size = 0,
 		fire_pos = {},
 		fire_size = 0,

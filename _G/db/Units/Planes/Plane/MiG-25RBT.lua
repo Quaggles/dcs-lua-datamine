@@ -136,7 +136,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Picture = "MiG-25RBT.png",
 	Pylons = { {
 			Launchers = { {
-					CLSID = "{682A481F-0CB5-4693-A382-D00DD4A156D7}"
+					CLSID = "{APU-60-1_R_60M}"
 				}, {
 					CLSID = "{FB3CE165-BF07-4979-887C-92B87F13276B}"
 				}, {
@@ -228,7 +228,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Z = 3.483
 		}, {
 			Launchers = { {
-					CLSID = "{682A481F-0CB5-4693-A382-D00DD4A156D7}"
+					CLSID = "{APU-60-1_R_60M}"
 				}, {
 					CLSID = "{FB3CE165-BF07-4979-887C-92B87F13276B}"
 				}, {

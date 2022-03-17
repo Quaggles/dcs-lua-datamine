@@ -53,7 +53,6 @@ _G["weapons_table"]["weapons"]["shells"]["53-UBR-281U"] = {
 	round_mass = 2.8,
 	s = 0,
 	scale_smoke = 1,
-	scale_tracer = 1,
 	silent_self_destruction = false,
 	smoke_opacity = 0.3,
 	smoke_tail_life_time = -1,

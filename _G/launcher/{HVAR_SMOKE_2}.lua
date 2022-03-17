@@ -3,9 +3,7 @@ _G["launcher"]["{HVAR_SMOKE_2}"] = {
 	Count = 1,
 	Cx_pil = 0.001313754,
 	Elements = { {
-			DrawArgs = {
-				[3] = { 3, 0.1 }
-			},
+			DrawArgs = { { 3, 0.1 } },
 			Position = { 0, -0.059317, 0 },
 			ShapeName = "HVAR_rocket"
 		} },

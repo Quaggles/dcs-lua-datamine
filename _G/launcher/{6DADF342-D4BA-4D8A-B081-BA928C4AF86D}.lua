@@ -5,8 +5,8 @@ _G["launcher"]["{6DADF342-D4BA-4D8A-B081-BA928C4AF86D}"] = {
 	Elements = { {
 			ShapeName = "APU-68"
 		}, {
-			Position = { 0, -0.135, 0 },
-			ShapeName = "X-25ML"
+			ShapeName = "X-25ML",
+			connector_name = "Point01"
 		} },
 	Picture = "kh25ml.png",
 	Weight = 360,

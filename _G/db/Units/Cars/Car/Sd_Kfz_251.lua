@@ -153,9 +153,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "Sd_Kfz_251_p_1"
 		} },
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = { {}, {} },
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -165,6 +165,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	toggle_alarm_state_interval = 2,
 	type = "Sd_Kfz_251",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.083, 0.0023 }, { 0, 0 }, { 0.3, 0.0002 } }
+		},
 		agony_explosion_size = 5,
 		dirt_pos = { -1.5, 0.1, -0.9 },
 		dust_pos = { 1.5, 0.1, -0.85 },

@@ -111,9 +111,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "hq7_ln_dstr"
 		} },
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = {},
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -122,6 +122,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Air Defence", "Launcher" },
 	type = "HQ-7_LN_SP",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.003, 0.0031 }, { 0.3, 0.017 }, { 0, 0 }, { 0.2, 0.00016666666666667 } }
+		},
 		agony_explosion_size = 5,
 		fire_pos = { 0, 0, 0 },
 		fire_size = 0.8,

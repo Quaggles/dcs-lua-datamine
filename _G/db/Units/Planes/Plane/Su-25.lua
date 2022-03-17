@@ -307,6 +307,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				count = 250,
 				get_mass = <function 1>,
 				get_mass_ = <function 2>,
+				mixes = { { 1, 1 }, { 2, 2, 2, 1, 1 } },
 				shells = { {
 						AP_cap_caliber = 30,
 						Da0 = 0.0005,
@@ -359,13 +360,74 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						round_mass = 0.98,
 						s = 0,
 						scale_smoke = 1.8,
-						scale_tracer = 1,
 						silent_self_destruction = false,
 						smoke_opacity = 0.18,
 						smoke_tail_life_time = -1,
 						subcalibre = false,
 						tracer_off = 4,
-						tracer_on = 0.01,
+						tracer_on = 0,
+						type_name = "shell",
+						v0 = 890,
+						visual_effect_correction = 0,
+						visual_effect_correction_rebound = 0.1
+					}, {
+						AP_cap_caliber = 30,
+						Da0 = 0.0005,
+						Da1 = 0,
+						Dv0 = 0.0081,
+						_unique_resource_name = "weapons.shells.GSH301_30_HE",
+						caliber = 30,
+						cartridge = 0,
+						cartridge_mass = 0,
+						charTime = 0,
+						cumulative_mass = 0,
+						cumulative_thickness = 0,
+						cx = { 0.7, 0.7, 0.25, 0.236, 2.31 },
+						damage_factor = 639,
+						display_name = "30mm HE",
+						explosive = 0.39,
+						full_scale_time = -1,
+						j = 0,
+						k1 = 7.6e-09,
+						l = 0,
+						life_time = 6,
+						mass = 0.39,
+						model_name = "tracer_bullet_yellow",
+						name = "GSH301_30_HE",
+						payload = 0.071995569503415,
+						piercing_mass = 0.078,
+						rebound_concrete = <3>{
+							angle0 = 50,
+							angle100 = 75,
+							cx_factor = 5,
+							deviation_angle = 30,
+							velocity_loss_factor = 0.5
+						},
+						rebound_ground = {
+							angle0 = 55,
+							angle100 = 73,
+							cx_factor = 5,
+							deviation_angle = 30,
+							velocity_loss_factor = 0.5
+						},
+						rebound_object = <table 3>,
+						rebound_water = {
+							angle0 = 65,
+							angle100 = 83,
+							cx_factor = 5,
+							deviation_angle = 30,
+							velocity_loss_factor = 0.5
+						},
+						rotation_freq = 7,
+						round_mass = 0.98,
+						s = 0,
+						scale_smoke = 1.8,
+						silent_self_destruction = false,
+						smoke_opacity = 0.18,
+						smoke_tail_life_time = -1,
+						subcalibre = false,
+						tracer_off = 4,
+						tracer_on = 0,
 						type_name = "shell",
 						v0 = 890,
 						visual_effect_correction = 0,
@@ -386,10 +448,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				["A-10A"] = {
 					enable_options_key_for_unit = "a10a_enabled"
 				},
-				["A-10C"] = <3>{
+				["A-10C"] = <4>{
 					enable_options_key_for_unit = "disabled"
 				},
-				["A-10C_2"] = <table 3>,
+				["A-10C_2"] = <table 4>,
+				["AH-64D_BLK_II"] = <table 4>,
 				AJS37 = {
 					enable_options_key_for_unit = "ajs37_enabled"
 				},
@@ -408,14 +471,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				["F-15C"] = {
 					enable_options_key_for_unit = "f15c_enabled"
 				},
-				["F-16C_50"] = <table 3>,
+				["F-16C_50"] = <table 4>,
 				["F-5E-3"] = {
 					enable_options_key_for_unit = "f5e3_enabled"
 				},
 				["F-86F Sabre"] = {
 					enable_options_key_for_unit = "f86f_enabled"
 				},
-				["FA-18C_hornet"] = <table 3>,
+				["FA-18C_hornet"] = <table 4>,
 				["FW-190D9"] = {
 					enable_options_key_for_unit = "fw190d9_enabled"
 				},
@@ -425,7 +488,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				["J-11A"] = {
 					enable_options_key_for_unit = "j11a_enabled"
 				},
-				["Ka-50"] = <table 3>,
+				["Ka-50"] = <table 4>,
 				["L-39C"] = {
 					enable_options_key_for_unit = "l39c_common_enabled"
 				},

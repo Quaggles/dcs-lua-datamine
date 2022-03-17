@@ -2,7 +2,6 @@ _G["launcher"]["KORD_12_7"] = {
 	CLSID = "KORD_12_7",
 	Cx_pil = 0.001220703125,
 	Elements = { {
-			Position = { 0, 0, 0 },
 			ShapeName = "mi-8_gunner"
 		} },
 	Picture = "M60.png",

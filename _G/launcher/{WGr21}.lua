@@ -15,5 +15,90 @@ _G["launcher"]["{WGr21}"] = {
 	displayName = "Werfer-Granate 21 - 21 cm UnGd air-to-air rocket",
 	name = "{WGr21}",
 	pilon_jettison_option = 2,
+	settings = { {
+			control = "comboList",
+			defValue = 1,
+			dimension = "",
+			id = "GUI_fuze_type",
+			label = "Fuze Type",
+			stringIndex = 1,
+			values = { {
+					dispName = "Impact Fuze",
+					id = 1
+				}, {
+					dispName = "Airburst Fuze",
+					id = 2
+				} },
+			wCtrl = 350,
+			xCtrl = 170
+		}, {
+			VisibilityCondition = { {
+					id = "GUI_fuze_type",
+					value = 1
+				} },
+			control = "spinbox",
+			defValue = 0,
+			dimension = "s",
+			id = "function_delay_ctrl_WGr21_A2G",
+			label = "Function Delay",
+			max = 1800,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 2,
+			xCtrl = 170,
+			xLbl = 10
+		}, {
+			VisibilityCondition = { {
+					id = "GUI_fuze_type",
+					value = 1
+				} },
+			control = "spinbox",
+			defValue = 0,
+			dimension = "s",
+			id = "arm_delay_ctrl_WGr21_A2G",
+			label = "Arm Delay",
+			max = 1800,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 2,
+			xCtrl = 460,
+			xLbl = 280
+		}, {
+			VisibilityCondition = { {
+					id = "GUI_fuze_type",
+					value = 2
+				} },
+			control = "spinbox",
+			defValue = 5.5,
+			dimension = "s",
+			id = "time_self_destruct_ctrl_WGr21_A2A",
+			label = "Function Delay",
+			max = 1800,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 2,
+			xCtrl = 170,
+			xLbl = 10
+		}, {
+			VisibilityCondition = { {
+					id = "GUI_fuze_type",
+					value = 2
+				} },
+			control = "spinbox",
+			defValue = 0,
+			dimension = "s",
+			id = "arm_delay_ctrl_WGr21_A2A",
+			label = "Arm Delay",
+			max = 1800,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 2,
+			xCtrl = 460,
+			xLbl = 280
+		} },
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

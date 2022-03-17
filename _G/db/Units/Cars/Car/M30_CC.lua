@@ -241,9 +241,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "m30_p_1"
 		} },
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = { {}, {} },
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -253,6 +253,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	toggle_alarm_state_interval = 2,
 	type = "M30_CC",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.0322, 0.0028 }, { 0, 0 }, { 0.3, 0.00026086956521739 } }
+		},
 		agony_explosion_size = 3,
 		dirt_pos = { -2.5, 0.4, -1.1 },
 		dust_pos = { 2.7, 0.1, -1.1 },

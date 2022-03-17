@@ -98,9 +98,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "pt-76_p_1"
 		} },
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = { {}, {} },
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -109,6 +109,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Armor", "Tank" },
 	type = "PT_76",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.0032, 0.0015 }, { 0, 0 }, { 0.23, 0.000184 } }
+		},
 		dirt_pos = { -2.7, 0.5, -1.37 },
 		dust_pos = { 1.8, 0, -1.37 },
 		fire_pos = { -1.8, 0.7, 0 },

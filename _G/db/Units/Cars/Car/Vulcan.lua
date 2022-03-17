@@ -74,40 +74,20 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		height = 3.872
 	},
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = { {}, {} },
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
-	},
-	sound = {
-		engine = {
-			acc_end = "GndTech/BradleyEngineAccEnd",
-			acc_start = "GndTech/BradleyEngineAccStart",
-			idle = "GndTech/BradleyEngineIdle",
-			idle_formula_gain = "0.625 x * 0.875 +",
-			idle_formula_pitch = "0.55 x * 0.89 +",
-			max = "GndTech/BradleyEngineMax",
-			max_formula_gain = "0.75 x * 0.25 +",
-			max_formula_pitch = "0.7025 x * 0.4195 +"
-		},
-		move = {
-			end_move = "GndTech/TEndMove",
-			gain = { { 0, 0.01 }, { 0.5, 0.5 }, { 12, 1 } },
-			pitch = { { 0, 0.6 }, { 10, 1.2 } },
-			sound = "GndTech/TankMove",
-			start_move = "GndTech/TStartMove"
-		},
-		noise = {
-			sound = "Damage/VehHit"
-		}
 	},
 	swapped_names = true,
 	swing_on_run = false,
 	tags = { "Air Defence", "SP AAA" },
-	turbine = false,
 	type = "Vulcan",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.0322, 0.0028 }, { 0, 0 }, { 0.25, 0.00020833333333333 } }
+		},
 		agony_explosion_size = 3,
 		dirt_pos = { -2.2, 0.2, -1.085 },
 		dust_pos = { 2.35, -0.1, -1.085 },

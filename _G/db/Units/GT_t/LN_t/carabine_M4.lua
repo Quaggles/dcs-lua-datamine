@@ -8,6 +8,11 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["carabine_M4"] = {
 			shot_delay = 0.070588235294118,
 			switch_on_delay = 3
 		} },
+	additionalShotDispersion = {
+		azimuth = 0,
+		compensationK = 7,
+		elevation = 0.0058904862254809
+	},
 	display_name = "M4",
 	distanceMax = 500,
 	max_trg_alt = 300,

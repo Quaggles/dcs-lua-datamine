@@ -2,8 +2,7 @@ _G["launcher"]["{HVAR_SMOKE_GENERATOR}"] = {
 	CLSID = "{HVAR_SMOKE_GENERATOR}",
 	Cx_pil = 0.0004,
 	Elements = { {
-			Position = { 0, 0, 0 },
-			ShapeName = "hvar_SmokåGenerator"
+			ShapeName = "hvar_SmokeGenerator"
 		} },
 	Picture = "HVAR_smoke.png",
 	Smoke = {

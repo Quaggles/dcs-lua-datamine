@@ -114,6 +114,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Air Defence", "AAA" },
 	type = "M45_Quadmount",
 	visual = {
+		IR = {
+			coeffs = { { 0, 0 }, { 0, 0 }, { 0.0322, 0.0028 }, { 0, 0 }, { 0.27, 0.00049090909090909 } }
+		},
 		agony_explosion_size = 0.1,
 		fire_pos = {},
 		fire_size = 0,

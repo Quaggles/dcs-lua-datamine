@@ -4,11 +4,11 @@ _G["launcher"]["{F4-2-AIM9B}"] = {
 	Cx_pil = 0.00014,
 	Elements = { "_G/Pylons/F4-PILON.lua", {
 			Position = { 0.465, 0, -0.28 },
-			Rotation = { -90, 0, 0 },
+			Rotation = { 90, 0, 0 },
 			ShapeName = "GAR-8"
 		}, {
 			Position = { 0.465, 0, 0.28 },
-			Rotation = { 90, 0, 0 },
+			Rotation = { -90, 0, 0 },
 			ShapeName = "GAR-8"
 		} },
 	Picture = "us_AIM-9B.png",

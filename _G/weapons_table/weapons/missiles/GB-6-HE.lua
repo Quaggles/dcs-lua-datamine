@@ -1,5 +1,5 @@
 _G["weapons_table"]["weapons"]["missiles"]["GB-6-HE"] = {
-	Reflection = 0.1,
+	Reflection = 0.05,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/jsow_gb6.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	_unique_resource_name = "weapons.missiles.GB-6-HE",

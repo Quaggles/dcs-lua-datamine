@@ -1,0 +1,145 @@
+_G["weapons_table"]["weapons"]["bombs"]["MK106"] = {
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
+	_origin = "AircraftWeaponPack",
+	_unique_resource_name = "weapons.bombs.MK106",
+	client = {
+		Ag = -1.23,
+		Cx = 0.00015,
+		VyHold = -100,
+		_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
+		_origin = "AircraftWeaponPack",
+		arming_delay = {
+			delay_time = 0.8,
+			enabled = true
+		},
+		arming_vane = {
+			enabled = false,
+			velK = 1
+		},
+		category = 1,
+		fm = {
+			I = 94.425933,
+			L = 0.575,
+			Ma = 2.746331,
+			Mw = 2.146083,
+			caliber = 0.1,
+			cx_coeff = { 1, 0.82, 0.65, 0.142, 2.11 },
+			mass = 2.27,
+			wind_sigma = 80,
+			wind_time = 1000
+		},
+		hMax = 12000,
+		hMin = 200,
+		mass = 2.27,
+		model = "MK106",
+		name = "MK106",
+		scheme = "schemes/bombs/bomb-smoke.sch",
+		shape_table_data = { {
+				file = "MK106",
+				fire = { -0, 1 },
+				index = "Redacted",
+				life = 1,
+				name = "MK106",
+				username = "MK106"
+			} },
+		targeting_data = {
+			char_time = 22.02
+		},
+		type = -0,
+		user_name = "Mk 106",
+		warhead = {
+			caliber = 100,
+			color = { 2, 2, 2 },
+			concrete_factors = { 1, 1, 1 },
+			concrete_obj_factor = -0,
+			cumulative_factor = -0,
+			cumulative_thickness = -0,
+			duration = 300,
+			expl_mass = 0.01,
+			fantom = 1,
+			flare = false,
+			intensity = 10,
+			mass = 1,
+			obj_factors = { 1, 1 },
+			other_factors = { 1, 1, 1 },
+			piercing_mass = 1,
+			transparency = 0.5
+		},
+		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
+	},
+	display_name = "Mk 106",
+	mass = 2.27,
+	model = "MK106",
+	name = "MK106",
+	server = {
+		Ag = -1.23,
+		Cx = 0.00015,
+		VyHold = -100,
+		_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
+		_origin = "AircraftWeaponPack",
+		arming_delay = {
+			delay_time = 0.8,
+			enabled = true
+		},
+		arming_vane = {
+			enabled = false,
+			velK = 1
+		},
+		category = 1,
+		fm = {
+			I = 94.425933,
+			L = 0.575,
+			Ma = 2.746331,
+			Mw = 2.146083,
+			caliber = 0.1,
+			cx_coeff = { 1, 0.82, 0.65, 0.142, 2.11 },
+			mass = 2.27,
+			wind_sigma = 80,
+			wind_time = 1000
+		},
+		hMax = 12000,
+		hMin = 200,
+		mass = 2.27,
+		model = "MK106",
+		name = "MK106",
+		scheme = "schemes/bombs/bomb-smoke.sch",
+		shape_table_data = { {
+				file = "MK106",
+				fire = { -0, 1 },
+				index = "Redacted",
+				life = 1,
+				name = "MK106",
+				username = "MK106"
+			} },
+		targeting_data = {
+			char_time = 22.02
+		},
+		type = -0,
+		user_name = "Mk 106",
+		warhead = {
+			caliber = 100,
+			color = { 2, 2, 2 },
+			concrete_factors = { 1, 1, 1 },
+			concrete_obj_factor = -0,
+			cumulative_factor = -0,
+			cumulative_thickness = -0,
+			duration = 300,
+			expl_mass = 0.01,
+			fantom = 0,
+			flare = false,
+			intensity = 10,
+			mass = 1,
+			obj_factors = { 1, 1 },
+			other_factors = { 1, 1, 1 },
+			piercing_mass = 1,
+			transparency = 0.5
+		},
+		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
+	},
+	sounderName = "Weapons/Bomb",
+	targeting_data = {
+		char_time = 22.02
+	},
+	type_name = "bomb",
+	ws_type = { 4, 5, 9, "Redacted" }
+}

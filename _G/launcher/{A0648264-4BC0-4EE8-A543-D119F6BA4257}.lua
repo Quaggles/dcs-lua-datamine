@@ -6,7 +6,6 @@ _G["launcher"]["{A0648264-4BC0-4EE8-A543-D119F6BA4257}"] = {
 			DrawArgs = { { 3, 0.5 } },
 			ShapeName = "C-25PU"
 		}, {
-			DrawArgs = { { 2, 1 } },
 			Position = { -0.129395, -0.247116, 0 },
 			ShapeName = "c-25",
 			connector_name = "tube_1"

@@ -3,10 +3,8 @@ _G["launcher"]["{2234F529-1D57-4496-8BB0-0150F9BDBBD3}"] = {
 	Count = 1,
 	Cx_pil = 0.001,
 	Elements = { {
-			Position = { 0, 0, 0 },
 			ShapeName = "AKU-58"
 		}, {
-			DrawArgs = { { 1, 1 }, { 2, 1 } },
 			Position = { -0.58, -0.25, 0 },
 			ShapeName = "X-35"
 		} },

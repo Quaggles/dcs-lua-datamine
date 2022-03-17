@@ -74,9 +74,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		height = 2.3
 	},
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = { {}, {} },
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move = "GndTech/TankMoveLight",
 		move_gain = { { 0, 0.01 }, { 0.5, 0.5 }, { 12, 1 } },
 		move_pitch = { { 0, 0.6 }, { 10, 1 } },
@@ -87,6 +87,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Artillery", "SPA" },
 	type = "SAU 2-C9",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.0035, 0.002 }, { 0, 0 }, { 0.3, 0.00016666666666667 } }
+		},
 		agony_explosion_size = 2,
 		dirt_pos = { -2.8, 0.55, -1.268 },
 		dust_pos = { 2.2, 0.1, -1.268 },

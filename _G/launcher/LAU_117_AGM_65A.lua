@@ -4,10 +4,8 @@ _G["launcher"]["LAU_117_AGM_65A"] = {
 	Cx_item = 0.0009765625,
 	Cx_pil = 0.0012265625,
 	Elements = { {
-			Position = { 0, 0, 0 },
 			ShapeName = "LAU-117"
 		}, {
-			DrawArgs = { { 1, 1 }, { 2, 1 } },
 			Position = { 0.18, -0.078, 0 },
 			ShapeName = "AGM-65F"
 		} },

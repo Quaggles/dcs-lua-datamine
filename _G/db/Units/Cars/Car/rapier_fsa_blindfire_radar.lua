@@ -90,6 +90,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Air Defence", "Tracking Radar" },
 	type = "rapier_fsa_blindfire_radar",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.003, 0.0031 }, { 0, 0 }, { 0, 0 }, { 0.15, 0.00027272727272727 } }
+		},
 		agony_explosion_size = 0,
 		fire_pos = {},
 		fire_size = 0,

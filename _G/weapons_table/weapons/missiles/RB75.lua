@@ -1,5 +1,5 @@
 _G["weapons_table"]["weapons"]["missiles"]["RB75"] = {
-	Reflection = 0.063,
+	Reflection = 0.05,
 	_file = "./CoreMods/aircraft/AJS37/Entry/Weapons.lua",
 	_origin = "AJS37 AI by Heatblur Simulations",
 	_unique_resource_name = "weapons.missiles.RB75",

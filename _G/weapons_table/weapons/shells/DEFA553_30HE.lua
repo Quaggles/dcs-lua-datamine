@@ -50,7 +50,6 @@ _G["weapons_table"]["weapons"]["shells"]["DEFA553_30HE"] = {
 	round_mass = 0.53,
 	s = 0,
 	scale_smoke = 1.5,
-	scale_tracer = 1,
 	silent_self_destruction = false,
 	smoke_opacity = 0.1,
 	smoke_tail_life_time = 0.3,

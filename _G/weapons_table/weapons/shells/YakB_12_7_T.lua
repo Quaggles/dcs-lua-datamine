@@ -49,7 +49,6 @@ _G["weapons_table"]["weapons"]["shells"]["YakB_12_7_T"] = {
 	rotation_freq = 7,
 	round_mass = 0.154,
 	s = 0,
-	scale_tracer = 1,
 	silent_self_destruction = false,
 	smoke_tail_life_time = -1,
 	subcalibre = false,

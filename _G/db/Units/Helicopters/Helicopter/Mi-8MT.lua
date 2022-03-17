@@ -1197,6 +1197,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					enable_options_key_for_unit = "disabled"
 				},
 				["A-10C_2"] = <table 2>,
+				["AH-64D_BLK_II"] = <table 2>,
 				AJS37 = {
 					enable_options_key_for_unit = "ajs37_enabled"
 				},
@@ -3716,6 +3717,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			role = "technician",
 			role_display_name = "Technician"
 		} },
+	crew_stations = "HumanOrchestra",
 	detection_range_max = 0,
 	effects_presets = { {
 			effect = "APU_STARTUP_BLAST",

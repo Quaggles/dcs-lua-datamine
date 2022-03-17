@@ -2,7 +2,6 @@ _G["launcher"]["{05544F1A-C39C-466b-BC37-5BD1D52E57BB}"] = {
 	CLSID = "{05544F1A-C39C-466b-BC37-5BD1D52E57BB}",
 	Cx_pil = 0.001220703125,
 	Elements = { {
-			Position = { 0, 0, 0 },
 			ShapeName = "UPK-23-250"
 		} },
 	Picture = "rus_UPK-23-250.png",

@@ -7,11 +7,11 @@ _G["launcher"]["{9DDF5297-94B9-42FC-A45E-6E316121CD85}"] = {
 			ShapeName = "F4-PILON"
 		}, {
 			Position = { 0.465, 0, -0.28 },
-			Rotation = { -90, 0, 0 },
+			Rotation = { 90, 0, 0 },
 			ShapeName = "AIM-9"
 		}, {
 			Position = { 0.465, 0, 0.28 },
-			Rotation = { 90, 0, 0 },
+			Rotation = { -90, 0, 0 },
 			ShapeName = "AIM-9"
 		} },
 	Picture = "us_AIM-9L.png",

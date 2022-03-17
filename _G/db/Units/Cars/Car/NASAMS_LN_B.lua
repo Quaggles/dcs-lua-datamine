@@ -108,6 +108,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Air Defence", "Launcher" },
 	type = "NASAMS_LN_B",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.003, 0.0031 }, { 0.3, 0.017 }, { 0, 0 }, { 0.15, 0.00027272727272727 } }
+		},
 		agony_explosion_size = 0.5,
 		fire_pos = { 0, 0.9, 0 },
 		fire_size = 0.5,

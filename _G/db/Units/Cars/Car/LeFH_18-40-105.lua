@@ -93,6 +93,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Artillery", "Howitzer" },
 	type = "LeFH_18-40-105",
 	visual = {
+		IR = {
+			coeffs = { { 0, 0 }, { 0.003, 0.0031 }, { 0.005, 0.0013 }, { 0, 0 }, { 0.12, 0.00026666666666667 } }
+		},
 		agony_explosion_size = 0.1,
 		dirt_pos = { 0, 0, -1 },
 		dust_pos = { 0, 0, -1 },

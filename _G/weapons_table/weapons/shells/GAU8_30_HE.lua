@@ -50,7 +50,6 @@ _G["weapons_table"]["weapons"]["shells"]["GAU8_30_HE"] = {
 	round_mass = 0.7,
 	s = 0,
 	scale_smoke = 2,
-	scale_tracer = 0,
 	silent_self_destruction = false,
 	smoke_opacity = 0.5,
 	smoke_tail_life_time = -1,

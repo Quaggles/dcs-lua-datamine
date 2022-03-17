@@ -3,7 +3,6 @@ _G["launcher"]["{US_108GAL_PAPER_FUEL_TANK}"] = {
 	Cx_pil = 0.00066,
 	Elements = { {
 			DrawArgs = { { 19, 0 }, { 57, 0 } },
-			Position = { 0, 0, 0 },
 			ShapeName = "droptank_108_gal"
 		} },
 	Picture = "us_Tank_108gal.png",

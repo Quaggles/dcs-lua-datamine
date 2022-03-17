@@ -91,6 +91,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	toggle_alarm_state_interval = 0.01,
 	type = "S-200_Launcher",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0, 0 }, { 0.3, 0.017 }, { 0, 0 }, { 0.15, 0.00027272727272727 } }
+		},
 		fire_pos = { 0, 0.6, 0 },
 		fire_size = 0.4,
 		fire_time = 500,

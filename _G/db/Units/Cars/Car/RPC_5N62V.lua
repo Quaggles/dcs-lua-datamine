@@ -118,6 +118,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Air Defence", "Search & Track Radar" },
 	type = "RPC_5N62V",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0, 0 }, { 0, 0 }, { 0, 0 }, { 0.2, 0.00026666666666667 } }
+		},
 		fire_pos = { 0, 0.6, 0 },
 		fire_size = 0.5,
 		fire_time = 500,

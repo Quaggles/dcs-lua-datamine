@@ -94,6 +94,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	toggle_alarm_state_interval = 0.01,
 	type = "S_75M_Volhov",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0, 0 }, { 0.3, 0.017 }, { 0, 0 }, { 0.15, 0.00027272727272727 } }
+		},
 		agony_explosion_size = 0.1,
 		fire_pos = {},
 		fire_size = 0,

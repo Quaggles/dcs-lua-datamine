@@ -1,8 +1,6 @@
 _G["launcher"]["{DB769D48-67D7-42ED-A2BE-108D566C8B1E}"] = {
 	CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
 	Elements = { {
-			DrawArgs = { { 1, 1 }, { 2, 1 } },
-			Position = { 0, 0, 0 },
 			ShapeName = "GBU-12"
 		} },
 	Picture = "GBU12.png",

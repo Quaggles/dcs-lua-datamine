@@ -1,10 +1,12 @@
 _G["weapons_table"]["weapons"]["bombs"]["TYPE-200A"] = {
+	Reflection = 0.01,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/bomb_type200.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	_unique_resource_name = "weapons.bombs.TYPE-200A",
 	client = {
 		Ag = -20,
 		Cx = 0.00018,
+		Reflection = 0.01,
 		VyHold = -75,
 		_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/bomb_type200.lua",
 		_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
@@ -94,6 +96,7 @@ _G["weapons_table"]["weapons"]["bombs"]["TYPE-200A"] = {
 	server = {
 		Ag = -20,
 		Cx = 0.00018,
+		Reflection = 0.01,
 		VyHold = -75,
 		_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/bomb_type200.lua",
 		_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
@@ -176,7 +179,7 @@ _G["weapons_table"]["weapons"]["bombs"]["TYPE-200A"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 37, "Redacted" }
 	},
-	sounderName = "Weapons/Bomb",
+	sounderName = "Weapons/BetAB_500ShP",
 	targeting_data = {
 		char_time = 20.325,
 		chute_char_time = 42.15,

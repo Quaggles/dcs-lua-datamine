@@ -90,8 +90,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				i = 0,
 				inn = 5,
 				p = 6
-			},
-			pointer = "POINT_SIGHT"
+			}
 		},
 		fire_on_march = false,
 		maxTargetDetectionRange = 5000
@@ -116,9 +115,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		height = 3.05
 	},
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = {},
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -128,6 +127,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	toggle_alarm_state_interval = 20,
 	type = "Uragan_BM-27",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0.07, 0.002 }, { 0, 0 }, { 0.25, 0.00022727272727273 } }
+		},
 		agony_explosion_size = 2,
 		fire_pos = { 0.6, 1.1, 0 },
 		fire_size = 0.65,

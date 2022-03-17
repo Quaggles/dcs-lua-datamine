@@ -68,6 +68,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Infantry" },
 	type = "Soldier RPG",
 	visual = {
+		IR = {
+			coeffs = { {}, {}, { 0.011, 0.01 }, {} }
+		},
 		fire_pos = {},
 		shape = "Soldier_RPG",
 		shape_dstr = "Soldier_RPG_D"

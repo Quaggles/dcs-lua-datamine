@@ -1248,17 +1248,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	is_tanker = false,
 	length = 13.025,
 	lights_data = {
-		lights = { {
-				lights = { {
-						argument = 208,
-						dir_correction = {
-							elevation = 0.05235987755983
-						},
-						speed = 1,
-						typename = "argumentlight"
-					} },
-				typename = "collection"
-			}, {
+		lights = {
+			[2] = {
 				lights = { {
 						argument = 209,
 						dir_correction = {
@@ -1268,7 +1259,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						typename = "argumentlight"
 					} },
 				typename = "collection"
-			}, {
+			},
+			[3] = {
 				lights = { {
 						argument = 190,
 						typename = "argumentlight"
@@ -1280,7 +1272,19 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						typename = "argumentlight"
 					} },
 				typename = "collection"
-			} },
+			},
+			[6] = {
+				lights = { {
+						argument = 208,
+						dir_correction = {
+							elevation = 0.05235987755983
+						},
+						speed = 1,
+						typename = "argumentlight"
+					} },
+				typename = "collection"
+			}
+		},
 		typename = "collection"
 	},
 	main_gear_amortizer_direct_stroke = 0.15,

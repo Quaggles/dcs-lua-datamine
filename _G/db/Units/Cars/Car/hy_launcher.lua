@@ -78,6 +78,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "MissilesSS", "SSM" },
 	type = "hy_launcher",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.083, 0.0023 }, { 0, 0 }, { 0.15, 0.00042857142857143 } }
+		},
 		agony_explosion_size = 0,
 		fire_pos = {},
 		fire_size = 0,

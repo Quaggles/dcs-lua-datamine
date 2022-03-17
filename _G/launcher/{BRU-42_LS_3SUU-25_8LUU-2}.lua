@@ -3,7 +3,6 @@ _G["launcher"]["{BRU-42_LS_3*SUU-25_8*LUU-2}"] = {
 	Count = 24,
 	Cx_pil = 0.001,
 	Elements = { {
-			Position = { 0, 0, 0 },
 			ShapeName = "BRU-42_LS_(SUU-25)"
 		}, {
 			Position = { -0.3, -0.1, 0 }

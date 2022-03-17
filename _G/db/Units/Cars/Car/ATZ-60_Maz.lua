@@ -23,6 +23,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_elevation = { {} }
 	},
 	attribute = { 2, 17, 25, "Redacted", "Trucks", "All", "Ground Units", "Vehicles", "Ground vehicles", "Ground Units Non Airdefence", "NonAndLightArmoredUnits", "NonArmoredUnits", "Unarmed vehicles" },
+	canTow = { "Saddle22", "Saddle60" },
 	category = "Unarmed",
 	chassis = {},
 	enablePlayerCanDrive = false,
@@ -40,9 +41,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "atz60_maz_crashed"
 		} },
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = {},
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -51,6 +52,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Unarmed", "Support & Logistics" },
 	type = "ATZ-60_Maz",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0, 0 }, { 0, 0 }, { 0.29, 0.00024166666666667 } }
+		},
 		fire_pos = { 2.4, 0.9, 0 },
 		fire_size = 1.9,
 		fire_time = 1500,

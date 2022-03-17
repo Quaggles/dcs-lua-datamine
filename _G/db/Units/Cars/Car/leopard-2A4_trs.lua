@@ -346,9 +346,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "Leopard-2a4_trs_p_1"
 		} },
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = { {}, {} },
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -359,6 +359,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	turbine = false,
 	type = "leopard-2A4_trs",
 	visual = {
+		IR = {
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.005, 0.0013 }, { 0, 0 }, { 0.3, 0.00017142857142857 } }
+		},
 		dirt_pos = { -3.4, 0.8, -1.4 },
 		dust_pos = { 3.6, 0.2, -1.4 },
 		fire_pos = { -2, 0.7, 0 },

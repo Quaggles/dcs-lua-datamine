@@ -2,7 +2,6 @@ _G["launcher"]["{US_150GAL_FUEL_TANK}"] = {
 	CLSID = "{US_150GAL_FUEL_TANK}",
 	Cx_pil = 0.00066,
 	Elements = { {
-			Position = { 0, 0, 0 },
 			ShapeName = "droptank_150_gal"
 		} },
 	Picture = "us_Tank_150gal.png",

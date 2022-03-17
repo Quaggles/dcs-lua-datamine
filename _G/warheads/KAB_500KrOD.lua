@@ -4,6 +4,7 @@ _G["warheads"]["KAB_500KrOD"] = {
 	concrete_obj_factor = 0,
 	cumulative_factor = 0,
 	cumulative_thickness = 0,
+	default_fuze_delay = 0,
 	expl_mass = 224,
 	mass = 224,
 	obj_factors = { 1, 1 },

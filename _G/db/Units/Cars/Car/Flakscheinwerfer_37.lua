@@ -100,6 +100,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Air Defence", "AAA", "Optical Tracker" },
 	type = "Flakscheinwerfer_37",
 	visual = {
+		IR = {
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0032, 0.0015 }, { 0, 0 }, { 0.27, 0.00049090909090909 } }
+		},
 		agony_explosion_size = 0,
 		fire_pos = {},
 		fire_size = 0,

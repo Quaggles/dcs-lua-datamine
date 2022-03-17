@@ -7,7 +7,7 @@ _G["launcher"]["{LAU-7_AIS_ASQ_T50}"] = {
 			ShapeName = "F4-PILON"
 		}, {
 			Position = { 0.465, 0, -0.28 },
-			Rotation = { -90, 0, 0 },
+			Rotation = { 90, 0, 0 },
 			ShapeName = "ais-pod-t50"
 		} },
 	Picture = "ais-pod-t50.png",

@@ -4,6 +4,7 @@ _G["warheads"]["X_41"] = {
 	concrete_obj_factor = 2,
 	cumulative_factor = 2,
 	cumulative_thickness = 0.1,
+	default_fuze_delay = 0,
 	expl_mass = 128,
 	mass = 128,
 	obj_factors = { 2.5, 1 },

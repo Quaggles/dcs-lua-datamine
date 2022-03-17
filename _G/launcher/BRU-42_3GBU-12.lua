@@ -5,15 +5,12 @@ _G["launcher"]["BRU-42_3*GBU-12"] = {
 	Elements = { {
 			ShapeName = "BRU-42_LS"
 		}, {
-			DrawArgs = <1>{ { 1, 1 }, { 2, 1 } },
 			ShapeName = "GBU-12",
 			connector_name = "Point01"
 		}, {
-			DrawArgs = <table 1>,
 			ShapeName = "GBU-12",
 			connector_name = "Point02"
 		}, {
-			DrawArgs = <table 1>,
 			ShapeName = "GBU-12",
 			connector_name = "Point03"
 		} },

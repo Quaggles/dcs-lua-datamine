@@ -1,6 +1,8 @@
 _G["weapons_table"]["weapons"]["bombs"]["ROCKEYE"] = {
+	Reflection = 0.03,
 	_unique_resource_name = "weapons.bombs.ROCKEYE",
 	client = {
+		Reflection = 0.03,
 		arming_delay = {
 			delay_time = 0.8,
 			enabled = true
@@ -106,6 +108,7 @@ _G["weapons_table"]["weapons"]["bombs"]["ROCKEYE"] = {
 	model = "rockeye",
 	name = "ROCKEYE",
 	server = {
+		Reflection = 0.03,
 		arming_delay = {
 			delay_time = 0.8,
 			enabled = true

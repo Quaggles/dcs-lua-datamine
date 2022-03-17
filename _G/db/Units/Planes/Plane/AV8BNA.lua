@@ -856,6 +856,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					enable_options_key_for_unit = "disabled"
 				},
 				["A-10C_2"] = <table 2>,
+				["AH-64D_BLK_II"] = <table 2>,
 				AJS37 = {
 					enable_options_key_for_unit = "ajs37_enabled"
 				},
@@ -2355,12 +2356,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	lights_data = {
 		lights = { {
 				lights = { {
-						argument = 209,
-						dir_correction = {
-							elevation = 0.05235987755983
-						},
-						speed = 1,
-						typename = "argumentlight"
+						argument = 83,
+						period = 1.333,
+						phase_shift = 0,
+						typename = "argnatostrobelight"
+					}, {
+						argument = 802,
+						period = 1.333,
+						phase_shift = 0.5,
+						typename = "argnatostrobelight"
 					} },
 				typename = "collection"
 			}, {
@@ -2371,29 +2375,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						},
 						speed = 1,
 						typename = "argumentlight"
-					} },
-				typename = "collection"
-			}, {
-				lights = { {
-						argument = 905,
-						color = { 0.99, 0.99, 0.99 },
-						connector = "CTN_AUX",
-						pos_correction = { 0, 0, 0 },
-						speed = 1,
-						typename = "argumentlight"
-					} },
-				typename = "collection"
-			}, {
-				lights = { {
-						argument = 83,
-						period = 1.333,
-						phase_shift = 0,
-						typename = "argnatostrobelight"
-					}, {
-						argument = 802,
-						period = 1.333,
-						phase_shift = 0.5,
-						typename = "argnatostrobelight"
 					} },
 				typename = "collection"
 			}, {
@@ -2419,15 +2400,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				typename = "collection"
 			}, {
 				lights = { {
-						argument = 903,
-						color = { 0.99, 0.99, 0.99 },
-						connector = "CNT_RF1",
-						pos_correction = { 0, 0, 0 },
-						typename = "argumentlight"
-					} },
-				typename = "collection"
-			}, {
-				lights = { {
 						argument = 904,
 						color = { 0.99, 0.99, 0.99 },
 						connector = "CNT_WV",
@@ -2435,7 +2407,39 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						typename = "argumentlight"
 					} },
 				typename = "collection"
-			} },
+			}, {
+				lights = { {
+						argument = 905,
+						color = { 0.99, 0.99, 0.99 },
+						connector = "CTN_AUX",
+						pos_correction = { 0, 0, 0 },
+						speed = 1,
+						typename = "argumentlight"
+					} },
+				typename = "collection"
+			},
+			[10] = {
+				lights = { {
+						argument = 903,
+						color = { 0.99, 0.99, 0.99 },
+						connector = "CNT_RF1",
+						pos_correction = { 0, 0, 0 },
+						typename = "argumentlight"
+					} },
+				typename = "collection"
+			},
+			[12] = {
+				lights = { {
+						argument = 209,
+						dir_correction = {
+							elevation = 0.05235987755983
+						},
+						speed = 1,
+						typename = "argumentlight"
+					} },
+				typename = "collection"
+			}
+		},
 		typename = "collection"
 	},
 	main_gear_amortizer_direct_stroke = 0.135382,

@@ -1,6 +1,13 @@
 _G["weapons_table"]["weapons"]["bombs"]["LUU_2B"] = {
 	_unique_resource_name = "weapons.bombs.LUU_2B",
 	client = {
+		anim_constraints = {
+			lead_chute_min_arg_val = 0,
+			main_chute_min_arg_val = 0.4
+		},
+		anim_constraints_check_delay = {
+			delay_par = 10
+		},
 		arming_delay = {
 			delay_time = 0.8,
 			enabled = true
@@ -13,18 +20,24 @@ _G["weapons_table"]["weapons"]["bombs"]["LUU_2B"] = {
 			delay_par = 3
 		},
 		fm = {
-			I = 6.75,
-			L = 0.9,
+			I = 0.93851333333333,
+			L = 0.91,
 			Ma = 0.68,
 			Mw = 5.6,
-			caliber = 0.3,
+			caliber = 0.124,
+			chute_Cx = 26,
+			chute_Kmx = 1,
+			chute_Ma = 5,
+			chute_Mw = 20,
+			chute_cut_time = 243,
+			chute_diam = 1.31,
+			chute_open_time = 3,
 			cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
-			cx_factor = 300,
-			mass = 13,
+			mass = 13.6,
 			wind_sigma = 0
 		},
 		light = {
-			duration = 300,
+			duration = 240,
 			light_attenuation = 600,
 			light_color = { 0.53, 0.53, 0.424 },
 			light_position = { 0.45, -0.07, 0 },
@@ -34,13 +47,20 @@ _G["weapons_table"]["weapons"]["bombs"]["LUU_2B"] = {
 			smoke_width = 1,
 			start_time = 2
 		},
-		scheme = "schemes/bombs/bomb-light.sch"
+		scheme = "schemes/bombs/bomb-light-2.sch"
 	},
 	display_name = "LUU-2B",
-	mass = 13,
+	mass = 13.6,
 	model = "luu-2",
 	name = "LUU_2B",
 	server = {
+		anim_constraints = {
+			lead_chute_min_arg_val = 0,
+			main_chute_min_arg_val = 0.4
+		},
+		anim_constraints_check_delay = {
+			delay_par = 10
+		},
 		arming_delay = {
 			delay_time = 0.8,
 			enabled = true
@@ -53,18 +73,24 @@ _G["weapons_table"]["weapons"]["bombs"]["LUU_2B"] = {
 			delay_par = 3
 		},
 		fm = {
-			I = 6.75,
-			L = 0.9,
+			I = 0.93851333333333,
+			L = 0.91,
 			Ma = 0.68,
 			Mw = 5.6,
-			caliber = 0.3,
+			caliber = 0.124,
+			chute_Cx = 26,
+			chute_Kmx = 1,
+			chute_Ma = 5,
+			chute_Mw = 20,
+			chute_cut_time = 243,
+			chute_diam = 1.31,
+			chute_open_time = 3,
 			cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
-			cx_factor = 300,
-			mass = 13,
+			mass = 13.6,
 			wind_sigma = 0
 		},
 		light = {
-			duration = 300,
+			duration = 240,
 			light_attenuation = 600,
 			light_color = { 0.53, 0.53, 0.424 },
 			light_position = { 0.45, -0.07, 0 },
@@ -74,7 +100,7 @@ _G["weapons_table"]["weapons"]["bombs"]["LUU_2B"] = {
 			smoke_width = 1,
 			start_time = 2
 		},
-		scheme = "schemes/bombs/bomb-light.sch"
+		scheme = "schemes/bombs/bomb-light-2.sch"
 	},
 	sounderName = "Weapons/Bomb",
 	targeting_data = {

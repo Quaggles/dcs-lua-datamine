@@ -70,6 +70,7 @@ _G["rockets"]["#Index"] = {
 	},
 	control_block2 = {
 		add_y = 180,
+		can_update_target_pos = 0,
 		delay = 0.5,
 		max_no_vert_offset_open_h = 90,
 		use_snake_maneuver = 0,
@@ -431,6 +432,7 @@ _G["rockets"]["#Index"] = {
 		concrete_obj_factor = 0,
 		cumulative_factor = 0,
 		cumulative_thickness = 0,
+		default_fuze_delay = 0,
 		expl_mass = 0,
 		mass = 0,
 		obj_factors = { 1, 1 },

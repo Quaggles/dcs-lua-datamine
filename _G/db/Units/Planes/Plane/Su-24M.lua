@@ -221,12 +221,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						rotation_freq = 7,
 						round_mass = 0.175,
 						s = 0,
-						scale_tracer = 1,
 						silent_self_destruction = false,
 						smoke_tail_life_time = -1,
 						subcalibre = false,
 						tracer_off = 0,
-						tracer_on = 0.01,
+						tracer_on = 0,
 						type_name = "shell",
 						v0 = 715,
 						visual_effect_correction = 0,
@@ -262,7 +261,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Picture = "Su-24M.png",
 	Pylons = { {
 			Launchers = { {
-					CLSID = "{B0DBC591-0F52-4F7D-AD7B-51E67725FB81}",
+					CLSID = "{APU-60-1_R_60M}",
 					arg_value = 0,
 					connector = "PylonBD3_1"
 				}, {
@@ -343,22 +342,28 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{F99BEC1A-869D-4AC7-9730-FBA0E3B1F5FC}"
 				}, {
 					CLSID = "{3468C652-E830-4E73-AFA9-B5F260AB7C3D}",
-					Type = 1
+					Type = 1,
+					attach_point_position = { 0.4, 0, 0 }
 				}, {
 					CLSID = "{B4FC81C9-B861-4E87-BBDC-A1158E648EBF}",
-					Type = 1
+					Type = 1,
+					attach_point_position = { 0.4, 0, 0 }
 				}, {
 					CLSID = "{4D13E282-DF46-4B23-864A-A9423DFDE504}",
-					Type = 1
+					Type = 1,
+					attach_point_position = { 0.4, 0, 0 }
 				}, {
 					CLSID = "{D8F2C90B-887B-4B9E-9FE2-996BC9E9AF03}",
-					Type = 1
+					Type = 1,
+					attach_point_position = { 0.4, 0, 0 }
 				}, {
 					CLSID = "{FE382A68-8620-4AC0-BDF5-709BFE3977D7}",
-					Type = 1
+					Type = 1,
+					attach_point_position = { 0.4, 0, 0 }
 				}, {
 					CLSID = "{40AB87E8-BEFB-4D85-90D9-B2753ACF9514}",
-					Type = 1
+					Type = 1,
+					attach_point_position = { 0.4, 0, 0 }
 				}, {
 					CLSID = "{6DADF342-D4BA-4D8A-B081-BA928C4AF86D}",
 					arg_value = 0,
@@ -545,18 +550,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{0511E528-EA28-4caf-A212-00D1408DF10A}",
 					arg_value = 0,
 					connector = "PylonBD3_3"
-				}, {
-					CLSID = "{637334E4-AB5A-47C0-83A6-51B7F1DF3CD5}",
-					arg_value = 0,
-					connector = "PylonBD3_3"
-				}, {
-					CLSID = "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}",
-					arg_value = 0,
-					connector = "PylonBD3_3"
-				}, {
-					CLSID = "{3858707D-F5D5-4bbb-BDD8-ABB0530EBC7C}",
-					arg_value = 0,
-					connector = "PylonBD3_3"
 				} },
 			Number = 3,
 			Order = 3,
@@ -570,8 +563,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
-					CLSID = "{F99BEC1A-869D-4AC7-9730-FBA0E3B1F5FC}"
-				}, {
 					CLSID = "{4203753F-8198-4E85-9924-6F8FF679F9FF}",
 					arg_value = 0,
 					connector = "PylonBD3_4"
@@ -710,18 +701,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{0511E528-EA28-4caf-A212-00D1408DF10A}",
 					arg_value = 0,
 					connector = "PylonBD3_6"
-				}, {
-					CLSID = "{637334E4-AB5A-47C0-83A6-51B7F1DF3CD5}",
-					arg_value = 0,
-					connector = "PylonBD3_6"
-				}, {
-					CLSID = "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}",
-					arg_value = 0,
-					connector = "PylonBD3_6"
-				}, {
-					CLSID = "{3858707D-F5D5-4bbb-BDD8-ABB0530EBC7C}",
-					arg_value = 0,
-					connector = "PylonBD3_6"
 				} },
 			Number = 6,
 			Order = 6,
@@ -738,22 +717,28 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{F99BEC1A-869D-4AC7-9730-FBA0E3B1F5FC}"
 				}, {
 					CLSID = "{3468C652-E830-4E73-AFA9-B5F260AB7C3D}",
-					Type = 1
+					Type = 1,
+					attach_point_position = { 0.4, 0, 0 }
 				}, {
 					CLSID = "{B4FC81C9-B861-4E87-BBDC-A1158E648EBF}",
-					Type = 1
+					Type = 1,
+					attach_point_position = { 0.4, 0, 0 }
 				}, {
 					CLSID = "{4D13E282-DF46-4B23-864A-A9423DFDE504}",
-					Type = 1
+					Type = 1,
+					attach_point_position = { 0.4, 0, 0 }
 				}, {
 					CLSID = "{D8F2C90B-887B-4B9E-9FE2-996BC9E9AF03}",
-					Type = 1
+					Type = 1,
+					attach_point_position = { 0.4, 0, 0 }
 				}, {
 					CLSID = "{FE382A68-8620-4AC0-BDF5-709BFE3977D7}",
-					Type = 1
+					Type = 1,
+					attach_point_position = { 0.4, 0, 0 }
 				}, {
 					CLSID = "{40AB87E8-BEFB-4D85-90D9-B2753ACF9514}",
-					Type = 1
+					Type = 1,
+					attach_point_position = { 0.4, 0, 0 }
 				}, {
 					CLSID = "{6DADF342-D4BA-4D8A-B081-BA928C4AF86D}",
 					arg_value = 0,
@@ -887,7 +872,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
-					CLSID = "{275A2855-4A79-4B2D-B082-91EA2ADF4691}",
+					CLSID = "{APU-60-1_R_60M}",
 					arg_value = 0,
 					connector = "PylonBD3_8"
 				}, {

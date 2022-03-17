@@ -74,12 +74,13 @@ _G["weapons_table"]["weapons"]["bombs"]["BAP_100"] = {
 			concrete_obj_factor = 5,
 			cumulative_factor = 0,
 			cumulative_thickness = 0,
-			expl_mass = 3.5,
+			default_fuze_delay = 0,
+			expl_mass = 8,
 			fantom = 1,
-			mass = 3.5,
+			mass = 8,
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
-			piercing_mass = 0.7
+			piercing_mass = 1.6
 		},
 		wsTypeOfWeapon = { 4, 5, 37, "Redacted" }
 	},
@@ -159,12 +160,13 @@ _G["weapons_table"]["weapons"]["bombs"]["BAP_100"] = {
 			concrete_obj_factor = 5,
 			cumulative_factor = 0,
 			cumulative_thickness = 0,
-			expl_mass = 3.5,
+			default_fuze_delay = 0,
+			expl_mass = 8,
 			fantom = 0,
-			mass = 3.5,
+			mass = 8,
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
-			piercing_mass = 0.7
+			piercing_mass = 1.6
 		},
 		wsTypeOfWeapon = { 4, 5, 37, "Redacted" }
 	},

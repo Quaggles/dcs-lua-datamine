@@ -2,7 +2,6 @@ _G["launcher"]["{E1F29B21-F291-4589-9FD8-3272EEC69506}"] = {
 	CLSID = "{E1F29B21-F291-4589-9FD8-3272EEC69506}",
 	Cx_pil = 0.002443848,
 	Elements = { {
-			Position = { 0, 0, 0 },
 			ShapeName = "F15-PTB"
 		} },
 	Picture = "PTB.png",

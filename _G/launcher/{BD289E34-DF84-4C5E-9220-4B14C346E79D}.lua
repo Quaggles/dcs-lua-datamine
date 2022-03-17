@@ -1,8 +1,6 @@
 _G["launcher"]["{BD289E34-DF84-4C5E-9220-4B14C346E79D}"] = {
 	CLSID = "{BD289E34-DF84-4C5E-9220-4B14C346E79D}",
 	Elements = { {
-			DrawArgs = { { 1, 1 }, { 2, 1 } },
-			Position = { 0, 0, 0 },
 			ShapeName = "BETAB-500SP"
 		} },
 	Picture = "betab500shp.png",

@@ -1655,6 +1655,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					enable_options_key_for_unit = "disabled"
 				},
 				["A-10C_2"] = <table 6>,
+				["AH-64D_BLK_II"] = <table 6>,
 				AJS37 = {
 					enable_options_key_for_unit = "ajs37_enabled"
 				},

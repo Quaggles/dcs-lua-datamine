@@ -3,16 +3,14 @@ _G["launcher"]["AGM114x2_OH_58"] = {
 	Count = 2,
 	Cx_pil = 0.001,
 	Elements = { {
-			Position = { 0, 0, 0 },
-			ShapeName = "M272_AGM114"
+			IsAdapter = true,
+			ShapeName = "M272"
 		}, {
-			DrawArgs = { { 1, 1 }, { 2, 1 } },
-			Position = { 0.149, -0.174, 0.1572 },
-			ShapeName = "AGM114"
+			ShapeName = "AGM-114K",
+			connector_name = "Point001"
 		}, {
-			DrawArgs = { { 1, 1 }, { 2, 1 } },
-			Position = { 0.149, -0.174, -0.1572 },
-			ShapeName = "AGM114"
+			ShapeName = "AGM-114K",
+			connector_name = "Point003"
 		} },
 	Picture = "agm114.png",
 	Weight = 250,

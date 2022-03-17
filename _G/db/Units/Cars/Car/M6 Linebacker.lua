@@ -118,41 +118,21 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		max_range_finding_target = 8000
 	},
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = { {}, {} },
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
-	},
-	sound = {
-		engine = {
-			acc_end = "GndTech/BradleyEngineAccEnd",
-			acc_start = "GndTech/BradleyEngineAccStart",
-			idle = "GndTech/BradleyEngineIdle",
-			idle_formula_gain = "0.625 x * 0.875 +",
-			idle_formula_pitch = "0.55 x * 0.89 +",
-			max = "GndTech/BradleyEngineMax",
-			max_formula_gain = "0.75 x * 0.25 +",
-			max_formula_pitch = "0.7025 x * 0.4195 +"
-		},
-		move = {
-			end_move = "GndTech/TEndMove",
-			gain = { { 0, 0.01 }, { 0.5, 0.5 }, { 12, 1 } },
-			pitch = { { 0, 0.6 }, { 10, 1.2 } },
-			sound = "GndTech/TankMove",
-			start_move = "GndTech/TStartMove"
-		},
-		noise = {
-			sound = "Damage/VehHit"
-		}
 	},
 	swapped_names = true,
 	swing_on_run = false,
 	tags = { "Air Defence", "SAM SHORAD" },
 	toggle_alarm_state_interval = 5,
-	turbine = false,
 	type = "M6 Linebacker",
 	visual = {
+		IR = {
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0062, 0.00215 }, { 0, 0 }, { 0.3, 0.00016666666666667 } }
+		},
 		agony_explosion_size = 3,
 		dirt_pos = { -2.7, 0.5, -1.248 },
 		dust_pos = { 2.8, 0.1, -1.248 },

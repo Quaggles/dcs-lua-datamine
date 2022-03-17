@@ -57,6 +57,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Air Defence", "Command & Control" },
 	type = "Hawk pcp",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0, 0 }, { 0, 0 }, { 0, 0 }, { 0.1, 0.00052631578947368 } }
+		},
 		fire_pos = { 0, 0.6, 0 },
 		fire_size = 0,
 		fire_time = 0,

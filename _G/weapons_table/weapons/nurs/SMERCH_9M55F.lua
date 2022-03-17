@@ -49,6 +49,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SMERCH_9M55F"] = {
 	dist_max = 0,
 	dist_min = 0,
 	mass = 810,
+	max_TOF = 120,
 	model = "9M55",
 	name = "SMERCH_9M55F",
 	server = {

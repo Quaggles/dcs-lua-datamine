@@ -375,9 +375,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "churchill_vii_p_1"
 		} },
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = { {}, {} },
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -386,6 +386,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Armor", "Tank" },
 	type = "Churchill_VII",
 	visual = {
+		IR = {
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0032, 0.0015 }, { 0, 0 }, { 0.3, 0.00026086956521739 } }
+		},
 		agony_explosion_size = 3,
 		dirt_pos = { -2.6, 0.2, -1.13 },
 		dust_pos = { 2.85, 0.1, -1.13 },

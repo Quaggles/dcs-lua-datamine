@@ -195,9 +195,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		min_range_finding_target = 3000
 	},
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = { {}, {} },
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -207,6 +207,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	toggle_alarm_state_interval = 15,
 	type = "SA-11 Buk LN 9A310M1",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.008, 0.002 }, { 0.3, 0.017 }, { 0, 0 }, { 0.2, 0.00016666666666667 } }
+		},
 		agony_explosion_size = 2,
 		fire_pos = { -0.6, 0.85, 0 },
 		fire_size = 0.9,

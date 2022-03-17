@@ -11,5 +11,5 @@ _G["launcher"]["{BDU_45LG}"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 5, 36, "Redacted" },
 	category = 1,
-	displayName = "BDU-45 LG"
+	displayName = "BDU-45 LG - 500lb Practice Laser Guided Bomb"
 }

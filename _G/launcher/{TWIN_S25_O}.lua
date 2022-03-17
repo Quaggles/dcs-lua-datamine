@@ -13,7 +13,7 @@ _G["launcher"]["{TWIN_S25_O}"] = {
 			payload_CLSID = "{S_25_O}"
 		} },
 	JettisonSubmunitionOnly = true,
-	Picture = "s25_dual.png",
+	Picture = "S25.png",
 	Weight = 922,
 	Weight_Empty = 162,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",

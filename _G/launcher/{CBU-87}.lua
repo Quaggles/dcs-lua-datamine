@@ -1,8 +1,6 @@
 _G["launcher"]["{CBU-87}"] = {
 	CLSID = "{CBU-87}",
 	Elements = { {
-			DrawArgs = { { 1, 1 }, { 2, 1 } },
-			Position = { 0, 0, 0 },
 			ShapeName = "CBU-97"
 		} },
 	Picture = "CBU.png",

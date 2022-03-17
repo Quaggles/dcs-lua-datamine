@@ -1,6 +1,8 @@
 _G["weapons_table"]["weapons"]["bombs"]["CBU_103"] = {
+	Reflection = 0.03,
 	_unique_resource_name = "weapons.bombs.CBU_103",
 	client = {
+		Reflection = 0.03,
 		WCMD_guidence = {
 			Kdx = 0.01,
 			Kx = 0.12,
@@ -238,6 +240,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_103"] = {
 	model = "CBU-97",
 	name = "CBU_103",
 	server = {
+		Reflection = 0.03,
 		WCMD_guidence = {
 			Kdx = 0.01,
 			Kx = 0.12,

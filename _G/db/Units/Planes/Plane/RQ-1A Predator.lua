@@ -138,9 +138,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Number = 1,
 			Order = 1,
 			Type = 0,
-			X = -0.216,
-			Y = -0.387,
-			Z = -1.585
+			X = 0.05,
+			Y = -0.382,
+			Z = -1.58
 		}, {
 			FiZ = 0,
 			Launchers = { {
@@ -149,9 +149,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Number = 2,
 			Order = 2,
 			Type = 0,
-			X = -0.26,
-			Y = -0.387,
-			Z = 1.585
+			X = 0.05,
+			Y = -0.382,
+			Z = 1.58
 		} },
 	RCS = 0.65,
 	Rate = "50",

@@ -17,6 +17,7 @@ _G["bombs"]["#Index"] = {
 		concrete_obj_factor = 0.5,
 		cumulative_factor = 2.5,
 		cumulative_thickness = 0.2,
+		default_fuze_delay = 0.01,
 		expl_mass = 44,
 		mass = 44,
 		obj_factors = { 1, 1 },

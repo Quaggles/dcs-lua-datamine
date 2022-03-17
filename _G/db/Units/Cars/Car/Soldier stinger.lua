@@ -64,6 +64,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Air Defence", "MANPADS" },
 	type = "Soldier stinger",
 	visual = {
+		IR = {
+			coeffs = { { 0.1858, 0.0151 }, { 0, 0 }, { 0.1, 0.008 }, { 0, 0 }, { 0.1, 0.00025 } }
+		},
 		fire_pos = {},
 		shape = "soldier_stinger",
 		shape_dstr = "soldier_stinger_d"

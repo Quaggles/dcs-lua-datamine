@@ -73,9 +73,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		height = 3.18
 	},
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = { {}, {} },
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -84,6 +84,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Air Defence", "Launcher" },
 	type = "Kub 2P25 ln",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.003, 0.0031 }, { 0, 0 }, { 0.3, 0.0003 } }
+		},
 		agony_explosion_size = 2,
 		dirt_pos = { -3, 0.41, -1.331 },
 		dust_pos = { 2.78, 0.1, -1.331 },

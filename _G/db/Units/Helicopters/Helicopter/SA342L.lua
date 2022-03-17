@@ -5,6 +5,14 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			id = "NS430allow",
 			label = "NS430 Allow",
 			playerOnly = true
+		}, {
+			arg = 1338,
+			boolean_inverted = false,
+			control = "checkbox",
+			defValue = false,
+			id = "SA342RemoveDoors",
+			label = "Remove Doors",
+			playerOnly = false
 		} },
 	AmmoWeight = 24,
 	CanopyGeometry = { -0.76604444311898, -0.81603492345171, -0.86602540378444, 0.059391174613885, 0.98480775301221 },
@@ -97,6 +105,10 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			args = { 159 },
 			critical_damage = 6,
 			deps_cells = { 35, 36, 39 }
+		},
+		[59] = {
+			args = { 152 },
+			critical_damage = 1
 		},
 		[63] = {
 			args = { 160 },
@@ -641,6 +653,17 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			X = 0,
 			Y = 0,
 			Z = 0
+		}, {
+			FiZ = 0,
+			Launchers = { {
+					CLSID = "{SA342_Dipole}"
+				} },
+			Number = 7,
+			Order = 7,
+			Type = 0,
+			X = 0,
+			Y = 0,
+			Z = 0
 		} },
 	RCS = 3,
 	Rate = 30,
@@ -678,7 +701,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	WorldID = 290,
 	_file = "./CoreMods/aircraft/SA342/SA342.lua",
 	_origin = "SA342 AI by Polychop-Simulations",
-	ammo_type = { "Combat mix 4x AP 1x HE-T", "Combat mix 4x HE 1x AP-T", "HEI - High Explosive Incendiary", "AP Armor Piercing", "SAPHEI High Explosive Armor Piercing PGU" },
+	ammo_type = { "Combat mix 3x HE 1x AP", "HEI - High Explosive Incendiary", "AP Armor Piercing", "SAPHEI High Explosive Armor Piercing PGU" },
 	ammo_type_default = 1,
 	attribute = { 1, 2, 6, "Redacted", "Attack helicopters", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Helicopters" },
 	blade_area = 1.8375,
@@ -714,6 +737,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			role_display_name = "Instructor pilot"
 		} },
 	crew_size = 2,
+	crew_stations = "HumanOrchestra",
 	detection_range_max = 11,
 	engine_data = {
 		SFC_k = { 2.045e-07, -0.0006328, 0.803 },
@@ -747,9 +771,9 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		lights = { {
 				lights = { {
 						argument = 193,
-						color = { 1, 0, 0 },
+						color = { 0.99, 0.11, 0.3 },
 						connector = "RED_BEACON",
-						intensity_max = 10,
+						intensity_max = 6,
 						pos_correction = { 0, 0, 0 },
 						typename = "omnilight"
 					} },
@@ -759,7 +783,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						argument = 208,
 						color = { 1, 1, 1 },
 						connector = "MAIN_SPOT_PTR",
-						intensity_max = 1000,
+						intensity_max = 0,
 						pos_correction = { 0, 0, 0 },
 						typename = "spotlight"
 					}, {
@@ -772,23 +796,20 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			}, {
 				lights = { {
 						argument = 190,
-						color = { 1, 0, 0 },
+						color = { 0.99, 0.11, 0.3 },
 						connector = "BANO_1",
-						intensity_max = 10,
 						pos_correction = { 0, 0, 0 },
 						typename = "omnilight"
 					}, {
 						argument = 191,
-						color = { 0, 0.9, 0.1 },
+						color = { 0, 0.894, 0.6 },
 						connector = "BANO_2",
-						intensity_max = 10,
 						pos_correction = { 0, 0, 0 },
 						typename = "omnilight"
 					}, {
 						argument = 192,
 						color = { 1, 1, 1 },
 						connector = "BANO_0_BACK",
-						intensity_max = 10,
 						pos_correction = { 0, 0, 0 },
 						typename = "omnilight"
 					} },
@@ -830,7 +851,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			DuplicateOf = "Door0"
 		}
 	},
-	net_animation = { 34, 38, 337, 399, 11, 15, 17, 274, 276, 277, 280, 281, 282, 283, 284, 285, 196, 209, 210, 211, 212, 213, 215, 216, 400, 401, 506, 507, 526, 527 },
+	net_animation = { 34, 38, 337, 399, 11, 15, 17, 274, 276, 277, 280, 281, 282, 283, 284, 285, 196, 209, 210, 211, 212, 213, 215, 216, 400, 401, 506, 507, 526, 527, 1337, 1338 },
 	nose_gear_pos = { 0.835, -0.966, 0 },
 	panelRadio = { {
 			channels = { {

@@ -251,7 +251,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{GBU-38}",
 					arg_value = 1,
-					connector = "Pylon1_gbu38"
+					connector = "Pylon1_gbu12"
 				}, {
 					CLSID = "AGM114x2_OH_58",
 					arg_value = 0.5,
@@ -278,7 +278,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{GBU-38}",
 					arg_value = 1,
-					connector = "Pylon2_gbu38"
+					connector = "Pylon2_gbu12"
 				}, {
 					CLSID = "AGM114x2_OH_58",
 					arg_value = 0.5,
@@ -301,7 +301,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{GBU-38}",
 					arg_value = 1,
-					connector = "Pylon3_gbu38"
+					connector = "Pylon3_gbu12"
 				}, {
 					CLSID = "AGM114x2_OH_58",
 					arg_value = 0.5,
@@ -324,7 +324,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{GBU-38}",
 					arg_value = 1,
-					connector = "Pylon4_gbu38"
+					connector = "Pylon4_gbu12"
 				}, {
 					CLSID = "AGM114x2_OH_58",
 					arg_value = 0.5,

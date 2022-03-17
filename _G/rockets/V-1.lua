@@ -55,6 +55,7 @@ _G["rockets"]["#Index"] = {
 		concrete_obj_factor = 2,
 		cumulative_factor = 2,
 		cumulative_thickness = 0.1,
+		default_fuze_delay = 0,
 		expl_mass = 196,
 		mass = 196,
 		obj_factors = { 2.5, 1 },

@@ -3,7 +3,6 @@ _G["launcher"]["{B919B0F4-7C25-455E-9A02-CEA51DB895E3}"] = {
 	Count = 2,
 	Cx_pil = 0.001,
 	Elements = { {
-			Position = { 0, 0, 0 },
 			ShapeName = "9M114-PILON"
 		}, {
 			Position = { 1, 0.03, 0.17 },

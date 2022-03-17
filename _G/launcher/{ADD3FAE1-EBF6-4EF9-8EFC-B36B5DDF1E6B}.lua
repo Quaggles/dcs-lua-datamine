@@ -1,8 +1,6 @@
 _G["launcher"]["{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}"] = {
 	CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}",
 	Elements = { {
-			DrawArgs = { { 1, 1 }, { 2, 1 } },
-			Position = { 0, 0, 0 },
 			ShapeName = "ROCKEYE"
 		} },
 	Picture = "Mk20.png",

@@ -108,6 +108,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Air Defence", "EW Radar" },
 	type = "FuSe-65",
 	visual = {
+		IR = {
+			coeffs = { { 0.02, 0.0012 }, { 0, 0 }, { 0, 0 }, { 0, 0 }, { 0.27, 0.00049090909090909 } }
+		},
 		agony_explosion_size = 0,
 		fire_pos = {},
 		fire_size = 0,

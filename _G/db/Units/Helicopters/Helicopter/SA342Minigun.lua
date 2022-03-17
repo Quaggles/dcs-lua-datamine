@@ -98,6 +98,10 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			critical_damage = 6,
 			deps_cells = { 35, 36, 39 }
 		},
+		[59] = {
+			args = { 152 },
+			critical_damage = 1
+		},
 		[63] = {
 			args = { 160 },
 			critical_damage = 10,
@@ -265,7 +269,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						round_mass = 0.00933,
 						s = 0,
 						scale_smoke = 0.5,
-						scale_tracer = 1,
 						silent_self_destruction = false,
 						smoke_opacity = 0.25,
 						smoke_particle = 0.5,
@@ -441,6 +444,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			role_display_name = "Instructor pilot"
 		} },
 	crew_size = 2,
+	crew_stations = "HumanOrchestra",
 	detection_range_max = 11,
 	engine_data = {
 		SFC_k = { 2.045e-07, -0.0006328, 0.803 },
@@ -474,9 +478,9 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		lights = { {
 				lights = { {
 						argument = 193,
-						color = { 1, 0, 0 },
+						color = { 0.99, 0.11, 0.3 },
 						connector = "RED_BEACON",
-						intensity_max = 10,
+						intensity_max = 6,
 						pos_correction = { 0, 0, 0 },
 						typename = "omnilight"
 					} },
@@ -486,7 +490,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						argument = 208,
 						color = { 1, 1, 1 },
 						connector = "MAIN_SPOT_PTR",
-						intensity_max = 1000,
+						intensity_max = 0,
 						pos_correction = { 0, 0, 0 },
 						typename = "spotlight"
 					}, {
@@ -499,23 +503,20 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			}, {
 				lights = { {
 						argument = 190,
-						color = { 1, 0, 0 },
+						color = { 0.99, 0.11, 0.3 },
 						connector = "BANO_1",
-						intensity_max = 10,
 						pos_correction = { 0, 0, 0 },
 						typename = "omnilight"
 					}, {
 						argument = 191,
-						color = { 0, 0.9, 0.1 },
+						color = { 0, 0.894, 0.6 },
 						connector = "BANO_2",
-						intensity_max = 10,
 						pos_correction = { 0, 0, 0 },
 						typename = "omnilight"
 					}, {
 						argument = 192,
 						color = { 1, 1, 1 },
 						connector = "BANO_0_BACK",
-						intensity_max = 10,
 						pos_correction = { 0, 0, 0 },
 						typename = "omnilight"
 					} },

@@ -274,7 +274,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	crew_locale = "ENG",
 	crew_members = { "commander", "gunner" },
-	enablePlayerCanDrive = false,
+	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
+	driverViewConnectorName = { "DRIVER_POINT",
+		offset = { 0.05, 0, 0 }
+	},
+	enablePlayerCanDrive = true,
 	mapclasskey = "P0091000001",
 	sensor = {
 		height = 2.9
@@ -292,9 +296,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "Chieftain_mk3_p_1"
 		} },
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = { {}, {} },
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -304,6 +308,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	turbine = false,
 	type = "Chieftain_mk3",
 	visual = {
+		IR = {
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.005, 0.0013 }, { 0, 0 }, { 0.3, 0.00017142857142857 } }
+		},
 		dirt_pos = { -3.9, 0.54, -1.4 },
 		dust_pos = { 3.15, 0.1, -1.4 },
 		fire_pos = { -2.5, 1.5, 0 },

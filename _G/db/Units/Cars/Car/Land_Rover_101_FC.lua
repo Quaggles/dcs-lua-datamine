@@ -90,9 +90,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "land_rover_101_fc_p_1"
 		} },
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = {},
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -101,6 +101,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Unarmed", "Support & Logistics" },
 	type = "Land_Rover_101_FC",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.003, 0.0031 }, { 0, 0 }, { 0, 0 }, { 0.15, 0.0001875 } }
+		},
 		agony_explosion_size = 2,
 		fire_pos = { 0.7, 1.1, 0 },
 		fire_size = 0.33,

@@ -73,6 +73,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Infantry" },
 	type = "Soldier M249",
 	visual = {
+		IR = {
+			coeffs = { {}, {}, {}, {} }
+		},
 		fire_pos = {},
 		shape = "Soldier_M249",
 		shape_dstr = "Soldier_M249_P_1"

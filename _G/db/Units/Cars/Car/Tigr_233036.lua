@@ -35,9 +35,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	enablePlayerCanDrive = true,
 	mapclasskey = "P0091000005",
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = {},
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -47,6 +47,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	turbine = true,
 	type = "Tigr_233036",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.003, 0.0031 }, { 0, 0 }, { 0, 0 }, { 0.22, 0.000275 } }
+		},
 		agony_explosion_size = 2,
 		fire_pos = { 0.5, 0.8, 0 },
 		fire_size = 0.6,

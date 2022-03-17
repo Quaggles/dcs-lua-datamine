@@ -639,6 +639,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Mi-8MT",
 					in_service = 0,
 					out_of_service = 40000
+				}, {
+					Name = "AH-64D_BLK_II"
 				} }
 		},
 		Heliports = {

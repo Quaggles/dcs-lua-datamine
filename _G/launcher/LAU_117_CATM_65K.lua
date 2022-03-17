@@ -4,12 +4,10 @@ _G["launcher"]["LAU_117_CATM_65K"] = {
 	Cx_item = 0.0009765625,
 	Cx_pil = 0.0012265625,
 	Elements = { {
-			Position = { 0, 0, 0 },
 			ShapeName = "LAU-117"
 		}, {
-			DrawArgs = { { 1, 1 }, { 2, 1 } },
-			Position = { 0.18, -0.078, 0 },
-			ShapeName = "CATM-65K"
+			ShapeName = "CATM-65K",
+			connector_name = "Point01"
 		} },
 	Picture = "agm65.png",
 	Weight = 356,

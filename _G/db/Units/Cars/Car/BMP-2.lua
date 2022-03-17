@@ -116,7 +116,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	attribute = { 2, 17, 104, "Redacted", "IFV", "ATGM", "Infantry carriers", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "NonAndLightArmoredUnits", "LightArmoredUnits" },
 	category = "Armor",
-	chassis = {},
+	chassis = {
+		gearRatios = {}
+	},
 	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
 	driverViewConnectorName = "DRIVER_POINT",
 	enablePlayerCanDrive = true,
@@ -125,9 +127,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		height = 2.45
 	},
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = { {}, {} },
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -138,7 +140,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "BMP-2",
 	visual = {
 		IR = {
-			coeffs = { { 0.1, 0.01 }, { 0.02, 0.01 }, { 0.002, 0.01 }, { 1, 0 } }
+			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.0062, 0.00215 }, { 1, 1 }, { 0.3, 0.00016666666666667 } }
 		},
 		agony_explosion_size = 3,
 		dirt_pos = { -2.9, 0.5, -1.28 },

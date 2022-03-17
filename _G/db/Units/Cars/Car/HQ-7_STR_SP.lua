@@ -142,9 +142,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "hq7_str_dstr"
 		} },
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = {},
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} },
 		radarRotation = "GndTech/RadarRotation"
@@ -155,7 +155,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "HQ-7_STR_SP",
 	visual = {
 		IR = {
-			coeffs = { { 0.034, 0.003 }, { 0.0095, 0.0085 }, { 0.1, 0.008 }, { 0, 0 } }
+			coeffs = { { 0.031, 0.0022 }, { 0.003, 0.0031 }, { 0.02, 0.0012 }, { 0, 0 }, { 0.2, 0.00016666666666667 } }
 		},
 		agony_explosion_size = 5,
 		fire_pos = { 0, 0, 0 },

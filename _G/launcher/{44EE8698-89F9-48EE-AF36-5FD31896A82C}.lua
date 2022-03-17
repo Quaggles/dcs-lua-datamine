@@ -2,7 +2,6 @@ _G["launcher"]["{44EE8698-89F9-48EE-AF36-5FD31896A82C}"] = {
 	CLSID = "{44EE8698-89F9-48EE-AF36-5FD31896A82C}",
 	Cx_pil = 0.000244140625,
 	Elements = { {
-			Position = { 0, 0, 0 },
 			ShapeName = "MPS-410"
 		} },
 	Picture = "MPS410.png",

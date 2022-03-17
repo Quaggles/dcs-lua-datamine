@@ -143,7 +143,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{5F26DBC2-FB43-4153-92DE-6BBCE26CB0FF}"
 				}, {
-					CLSID = "{682A481F-0CB5-4693-A382-D00DD4A156D7}"
+					CLSID = "{APU-60-1_R_60M}"
 				} },
 			Number = 1,
 			Order = 1,
@@ -181,7 +181,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{5F26DBC2-FB43-4153-92DE-6BBCE26CB0FF}"
 				}, {
-					CLSID = "{682A481F-0CB5-4693-A382-D00DD4A156D7}"
+					CLSID = "{APU-60-1_R_60M}"
 				} },
 			Number = 4,
 			Order = 4,

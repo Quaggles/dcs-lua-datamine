@@ -139,9 +139,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		laser = true
 	},
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = { {}, {} },
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -151,6 +151,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	turbine = true,
 	type = "Challenger2",
 	visual = {
+		IR = {
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.005, 0.0013 }, { 0, 0 }, { 0.33, 0.00017368421052632 } }
+		},
 		agony_explosion_size = 5,
 		dirt_pos = { -3.5, 0.8, -1.4 },
 		dust_pos = { 3.5, 0.2, -1.4 },

@@ -49,7 +49,6 @@ _G["weapons_table"]["weapons"]["shells"]["AK630_30_AP"] = {
 	rotation_freq = 7,
 	round_mass = 0.39,
 	s = 0,
-	scale_tracer = 1,
 	silent_self_destruction = false,
 	smoke_tail_life_time = -1,
 	subcalibre = false,

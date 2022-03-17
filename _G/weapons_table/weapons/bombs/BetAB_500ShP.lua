@@ -1,6 +1,8 @@
 _G["weapons_table"]["weapons"]["bombs"]["BetAB_500ShP"] = {
+	Reflection = 0.03,
 	_unique_resource_name = "weapons.bombs.BetAB_500ShP",
 	client = {
+		Reflection = 0.03,
 		arming_delay = {
 			delay_time = 0.8,
 			enabled = true
@@ -59,6 +61,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BetAB_500ShP"] = {
 	model = "betab-500sp",
 	name = "BetAB_500ShP",
 	server = {
+		Reflection = 0.03,
 		arming_delay = {
 			delay_time = 0.8,
 			enabled = true

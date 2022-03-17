@@ -2,10 +2,7 @@ _G["launcher"]["{LAU-115 - AIM-7E}"] = {
 	CLSID = "{LAU-115 - AIM-7E}",
 	Count = 1,
 	Cx_pil = 0.000894765625,
-	Elements = { {
-			IsAdapter = true,
-			ShapeName = "LAU-115C"
-		}, {
+	Elements = { "_G/Pylons/LAU-115C.lua", {
 			connector_name = "Point01",
 			payload_CLSID = "{AIM-7E}"
 		} },

@@ -188,6 +188,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Air Defence", "AAA" },
 	type = "S-60_Type59_Artillery",
 	visual = {
+		IR = {
+			coeffs = { { 0, 0 }, { 0.003, 0.0031 }, { 0.00095, 0.0019 }, { 0, 0 }, { 0.27, 0.00049090909090909 } }
+		},
 		agony_explosion_size = 0.1,
 		fire_pos = {},
 		fire_size = 0,

@@ -1,5 +1,5 @@
 _G["weapons_table"]["weapons"]["missiles"]["Rapier"] = {
-	Reflection = 0.08,
+	Reflection = 0.05,
 	_file = "./CoreMods/tech/TechWeaponPack/Database/vehicles/SAM/Rapier_FSA_Launcher.lua",
 	_origin = "TechWeaponPack",
 	_unique_resource_name = "weapons.missiles.Rapier",
@@ -85,6 +85,10 @@ _G["weapons_table"]["weapons"]["missiles"]["Rapier"] = {
 			maxAoa = 0.28,
 			wind_sigma = 0,
 			wind_time = 0
+		},
+		fuze_proximity = {
+			ignore_inp_armed = 0,
+			radius = 7
 		},
 		march = {
 			boost_factor = 0,
@@ -246,6 +250,10 @@ _G["weapons_table"]["weapons"]["missiles"]["Rapier"] = {
 			maxAoa = 0.28,
 			wind_sigma = 0,
 			wind_time = 0
+		},
+		fuze_proximity = {
+			ignore_inp_armed = 0,
+			radius = 7
 		},
 		march = {
 			boost_factor = 0,

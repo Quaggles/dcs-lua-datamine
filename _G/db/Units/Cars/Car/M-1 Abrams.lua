@@ -357,9 +357,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		height = 2.713
 	},
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = { {}, {} },
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -369,6 +369,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	turbine = true,
 	type = "M-1 Abrams",
 	visual = {
+		IR = {
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.005, 0.0013 }, { 0, 0 }, { 0.35, 0.00019444444444444 } }
+		},
 		agony_explosion_size = 2,
 		dirt_pos = { -3.8, 0.7, -1.429 },
 		dust_pos = { 3.9, 0.1, -1.429 },

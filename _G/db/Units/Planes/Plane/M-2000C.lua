@@ -1,12 +1,6 @@
 _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	AOA_take_off = 0.175,
 	AddPropAircraft = { {
-			control = "checkbox",
-			defValue = true,
-			id = "NoDDMSensor",
-			label = "Mount the DDM sensors",
-			weightWhenOn = -80
-		}, {
 			control = "comboList",
 			defValue = 6,
 			id = "RocketBurst",
@@ -138,11 +132,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 296 },
 			critical_damage = 3
 		},
-		[8] = {
-			args = { 265 },
-			critical_damage = 6,
-			deps_cells = { 83 }
-		},
 		[9] = {
 			args = { 154 },
 			critical_damage = 5
@@ -155,16 +144,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 271 },
 			critical_damage = 8
 		},
-		[15] = {
-			args = { 267 },
-			critical_damage = 6,
-			deps_cells = { 84 }
-		},
-		[16] = {
-			args = { 266 },
-			critical_damage = 6,
-			deps_cells = { 85 }
-		},
 		[19] = {
 			args = { 183 },
 			critical_damage = 2
@@ -175,21 +154,21 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[21] = {
 			args = { 232 },
-			critical_damage = 3
+			critical_damage = 1
 		},
 		[22] = {
 			args = { 222 },
-			critical_damage = 3
+			critical_damage = 1
 		},
 		[23] = {
 			args = { 223 },
 			critical_damage = 3,
-			deps_cells = { 21 }
+			deps_cells = { 21, 25 }
 		},
 		[24] = {
 			args = { 213 },
 			critical_damage = 3,
-			deps_cells = { 22 }
+			deps_cells = { 22, 26 }
 		},
 		[25] = {
 			args = { 226 },
@@ -202,30 +181,30 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[29] = {
 			args = { 224 },
 			critical_damage = 5,
-			deps_cells = { 19, 23, 84 }
+			deps_cells = { 23 }
 		},
 		[30] = {
 			args = { 214 },
 			critical_damage = 5,
-			deps_cells = { 20, 24, 85 }
+			deps_cells = { 24 }
 		},
 		[33] = {
 			args = { 230 },
-			critical_damage = 4
+			critical_damage = 1
 		},
 		[34] = {
 			args = { 220 },
-			critical_damage = 4
+			critical_damage = 1
 		},
 		[35] = {
 			args = { 225 },
 			critical_damage = 7,
-			deps_cells = { 23, 21, 29, 33, 61, 15, 84 }
+			deps_cells = { 19, 29, 33, 61, 84 }
 		},
 		[36] = {
 			args = { 215 },
 			critical_damage = 7,
-			deps_cells = { 24, 22, 30, 34, 62, 16, 85 }
+			deps_cells = { 20, 30, 34, 62, 85 }
 		},
 		[39] = {
 			args = { 244 },
@@ -472,8 +451,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			enable = false,
 			hh = 0,
-			id = "RWR_FAILURE_SENSOR_RIGHT",
-			label = "RWR Right Wing Sensor Fail",
+			id = "RWR_FAILURE_SENSOR_TAIL",
+			label = "SPIRALE Tail Sensor",
 			mm = 0,
 			mmint = 1,
 			prob = 100
@@ -481,23 +460,23 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			enable = false,
 			hh = 0,
 			id = "RWR_FAILURE_SENSOR_LEFT",
-			label = "RWR Left Wing Sensor Fail",
+			label = "SPIRALE L Sensor",
 			mm = 0,
 			mmint = 1,
 			prob = 100
 		}, {
 			enable = false,
 			hh = 0,
-			id = "RWR_FAILURE_SENSOR_TAIL_F",
-			label = "RWR Tail Front Sensor Fail",
+			id = "RWR_FAILURE_SENSOR_RIGHT",
+			label = "SPIRALE R Sensor",
 			mm = 0,
 			mmint = 1,
 			prob = 100
 		}, {
 			enable = false,
 			hh = 0,
-			id = "RWR_FAILURE_SENSOR_TAIL_R",
-			label = "RWR Tail Rear Sensor Fail",
+			id = "RWR_FAILURE_TOTAL",
+			label = "SPIRALE Main",
 			mm = 0,
 			mmint = 1,
 			prob = 100
@@ -752,6 +731,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					enable_options_key_for_unit = "disabled"
 				},
 				["A-10C_2"] = <table 6>,
+				["AH-64D_BLK_II"] = <table 6>,
 				AJS37 = {
 					enable_options_key_for_unit = "ajs37_enabled"
 				},
@@ -980,6 +960,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 9
 						} }
 				}, {
+					CLSID = "{MMagicII_DDM}",
+					arg_value = 0.25,
+					required = { {
+							loadout = { "{MMagicII_DDM}" },
+							station = 9
+						} }
+				}, {
 					CLSID = "{Matra155RocketPod}",
 					arg_value = 0.15,
 					required = { {
@@ -1102,7 +1089,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			Launchers = { {
 					CLSID = "{MMagicII}",
-					arg_value = 0.15,
+					arg_value = 0.45,
 					required = { {
 							loadout = { "{MMagicII}" },
 							station = 8
@@ -1656,7 +1643,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			Launchers = { {
 					CLSID = "{MMagicII}",
-					arg_value = 0.15,
+					arg_value = 0.45,
 					required = { {
 							loadout = { "{MMagicII}" },
 							station = 2
@@ -1767,6 +1754,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.15,
 					required = { {
 							loadout = { "{MMagicII}" },
+							station = 1
+						} }
+				}, {
+					CLSID = "{MMagicII_DDM}",
+					arg_value = 0.25,
+					required = { {
+							loadout = { "{MMagicII_DDM}" },
 							station = 1
 						} }
 				}, {
@@ -1893,6 +1887,27 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Launchers = { {
 					CLSID = "{Eclair}",
 					arg_value = 0.4
+				}, {
+					CLSID = "{EclairM_06}",
+					arg_value = 0.4
+				}, {
+					CLSID = "{EclairM_15}",
+					arg_value = 0.4
+				}, {
+					CLSID = "{EclairM_24}",
+					arg_value = 0.4
+				}, {
+					CLSID = "{EclairM_33}",
+					arg_value = 0.4
+				}, {
+					CLSID = "{EclairM_42}",
+					arg_value = 0.4
+				}, {
+					CLSID = "{EclairM_51}",
+					arg_value = 0.4
+				}, {
+					CLSID = "{EclairM_60}",
+					arg_value = 0.4
 				} },
 			Number = 10,
 			Order = 10,
@@ -1915,7 +1930,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			X = 0,
 			Y = 0,
 			Z = 0,
-			arg = 317,
 			arg_value = 0,
 			connector = "str_pnt_010",
 			use_full_connector_position = true
@@ -2141,25 +2155,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	brakeshute_name = 2,
 	chaff_flare_dispenser = { {
 			dir = { 0, -1, -1 },
-			pos = { -5.827, 0.108, -0.835 }
-		}, {
-			dir = { 0, -1, -1 },
 			pos = { -5.232, 0.17, -0.573 }
-		}, {
-			dir = { 0, -1, 1 },
-			pos = { -5.827, 0.108, 0.835 }
 		}, {
 			dir = { 0, -1, 1 },
 			pos = { -5.232, 0.17, 0.573 }
 		}, {
-			dir = { 0, -1, 1 },
-			pos = { -4.854, -0.333, 0 }
-		}, {
-			dir = { 0, -1, 1 },
-			pos = { -4.987, -0.307, 0 }
-		}, {
-			dir = { 0, -1, 1 },
-			pos = { -5.117, -0.301, 0 }
+			dir = { 0, -1, 0 },
+			pos = { -5, -0.3, 0 }
 		} },
 	crew_members = { {
 			bailout_arg = -1,
@@ -2211,23 +2213,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				typename = "collection"
 			}, {
 				lights = { {
-						argument = 209,
-						dir_correction = {
-							elevation = 0.05235987755983
-						},
-						speed = 1,
-						typename = "argumentlight"
-					}, {
-						argument = 209,
-						dir_correction = {
-							elevation = 0.05235987755983
-						},
-						speed = 1,
-						typename = "argumentlight"
-					} },
-				typename = "collection"
-			}, {
-				lights = { {
 						argument = 208,
 						dir_correction = {
 							elevation = 0.05235987755983
@@ -2258,13 +2243,34 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			}, {
 				lights = { {
 						argument = 200,
+						color = { 0.02, 0.02, 0.02 },
 						typename = "argumentlight"
 					}, {
 						argument = 201,
+						color = { 0.02, 0.02, 0.02 },
 						typename = "argumentlight"
 					} },
 				typename = "collection"
-			}, {
+			},
+			[6] = {
+				lights = { {
+						argument = 209,
+						dir_correction = {
+							elevation = 0.05235987755983
+						},
+						speed = 1,
+						typename = "argumentlight"
+					}, {
+						argument = 209,
+						dir_correction = {
+							elevation = 0.05235987755983
+						},
+						speed = 1,
+						typename = "argumentlight"
+					} },
+				typename = "collection"
+			},
+			[10] = {
 				lights = { {
 						argument = 903,
 						color = { 0.99, 0.99, 0.99 },
@@ -2287,17 +2293,54 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						typename = "argumentlight"
 					} },
 				typename = "collection"
-			}, {
+			},
+			[11] = {
 				lights = { {
+						angle_max = 0.87266462599716,
+						angle_min = 0,
 						argument = 905,
-						color = { 0.99, 0.99, 0.99 },
+						color = { 1, 1, 1 },
 						connector = "CTN_POL1",
+						direction = {
+							azimuth = -0.69813170079773,
+							elevation = -0.069813170079773
+						},
 						pos_correction = { 0, 0, 0 },
+						range = 150,
 						speed = 1,
-						typename = "argumentlight"
+						typename = "spotlight"
+					}, {
+						angle_max = 0.43633231299858,
+						angle_min = 0,
+						argument = 905,
+						color = { 1, 1, 1 },
+						connector = "CTN_POL1",
+						direction = {
+							azimuth = -0.69813170079773,
+							elevation = -0.069813170079773
+						},
+						pos_correction = { 0, 0, 0 },
+						range = 190,
+						speed = 1,
+						typename = "spotlight"
+					}, {
+						angle_max = 0.087266462599716,
+						angle_min = 0,
+						argument = 905,
+						color = { 1, 1, 1 },
+						connector = "CTN_POL1",
+						direction = {
+							azimuth = -0.69813170079773,
+							elevation = -0.069813170079773
+						},
+						pos_correction = { 0, 0, 0 },
+						range = 230,
+						speed = 1,
+						typename = "spotlight"
 					} },
 				typename = "collection"
-			} },
+			}
+		},
 		typename = "collection"
 	},
 	main_gear_amortizer_direct_stroke = 0.21,
@@ -2360,7 +2403,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				Transition = { "Open", "Close" }
 			} }
 	},
-	net_animation = { 21, 35, 38, 49, 51, 83, 88, 99, 190, 191, 192, 200, 201, 208, 209, 334, 335, 336, 373, 802, 902, 903, 904, 905, 906, 907, 908, 182, 184, 900, 901 },
+	net_animation = { 21, 35, 38, 49, 51, 83, 88, 99, 190, 191, 192, 200, 201, 208, 209, 334, 335, 336, 373, 802, 902, 903, 904, 905, 182, 184, 900, 901, 13, 14, 90, 86 },
 	nose_gear_amortizer_direct_stroke = 0.22,
 	nose_gear_amortizer_normal_weight_stroke = 0.1,
 	nose_gear_amortizer_reversal_stroke = -0.015,
@@ -2546,17 +2589,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				} }
 		} },
 	passivCounterm = {
-		CMDS_Edit = true,
-		SingleChargeTotal = 162,
+		CMDS_Edit = false,
+		SingleChargeTotal = 128,
 		chaff = {
-			chargeSz = 1,
+			chargeSz = 0,
 			default = 112,
-			increment = 112
+			increment = 1
 		},
 		flare = {
-			chargeSz = 1,
+			chargeSz = 0,
 			default = 16,
-			increment = 16
+			increment = 1
 		}
 	},
 	radar_can_see_ground = true,

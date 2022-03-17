@@ -49,7 +49,6 @@ _G["weapons_table"]["weapons"]["shells"]["M2_50_aero_AP"] = {
 	rotation_freq = 7,
 	round_mass = 0.137,
 	s = 0,
-	scale_tracer = 1,
 	silent_self_destruction = false,
 	smoke_opacity = 0.5,
 	smoke_tail_life_time = 0.5,

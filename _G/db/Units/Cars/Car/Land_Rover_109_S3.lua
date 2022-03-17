@@ -77,9 +77,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			name = "land_rover_109_s3_p_1"
 		} },
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = {},
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -88,6 +88,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Unarmed", "Scout/Recon" },
 	type = "Land_Rover_109_S3",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.003, 0.0031 }, { 0, 0 }, { 0, 0 }, { 0.18, 0.000225 } }
+		},
 		agony_explosion_size = 2,
 		fire_pos = { 1.1, 0.9, 0 },
 		fire_size = 0.31,

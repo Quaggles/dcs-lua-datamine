@@ -255,6 +255,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Air Defence", "Search Radar" },
 	type = "S-300PS 40B6MD sr",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0, 0 }, { 0, 0 }, { 0.2, 0.0002 } }
+		},
 		agony_explosion_size = 1,
 		fire_pos = {
 			[2] = 1

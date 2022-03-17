@@ -562,12 +562,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						rotation_freq = 7,
 						round_mass = 0.44,
 						s = 0,
-						scale_tracer = 1,
 						silent_self_destruction = false,
 						smoke_tail_life_time = -1,
 						subcalibre = false,
 						tracer_off = 4,
-						tracer_on = 0.01,
+						tracer_on = 0,
 						type_name = "shell",
 						v0 = 715,
 						visual_effect_correction = 0,
@@ -619,6 +618,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{0511E528-EA28-4caf-A212-00D1408DF10A}",
 					arg_value = 0.3,
+					attach_point_position = { 0, 0.05, 0 },
 					required = { {
 							loadout = { "{0511E528-EA28-4caf-A212-00D1408DF10A}" },
 							station = 5
@@ -750,6 +750,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{0511E528-EA28-4caf-A212-00D1408DF10A}",
 					arg_value = 0.3,
+					attach_point_position = { 0, 0.05, 0 },
 					required = { {
 							loadout = { "{0511E528-EA28-4caf-A212-00D1408DF10A}" },
 							station = 4
@@ -867,6 +868,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{0511E528-EA28-4caf-A212-00D1408DF10A}",
 					arg_value = 0.3,
+					attach_point_position = { 0, 0.05, 0 },
 					required = { {
 							loadout = { "{0511E528-EA28-4caf-A212-00D1408DF10A}" },
 							station = 2
@@ -956,6 +958,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{0511E528-EA28-4caf-A212-00D1408DF10A}",
 					arg_value = 0.3,
+					attach_point_position = { 0, 0.05, 0 },
 					required = { {
 							loadout = { "{0511E528-EA28-4caf-A212-00D1408DF10A}" },
 							station = 1

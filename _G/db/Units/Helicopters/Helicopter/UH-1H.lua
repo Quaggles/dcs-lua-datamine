@@ -672,6 +672,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					enable_options_key_for_unit = "disabled"
 				},
 				["A-10C_2"] = <table 2>,
+				["AH-64D_BLK_II"] = <table 2>,
 				AJS37 = {
 					enable_options_key_for_unit = "ajs37_enabled"
 				},
@@ -1498,6 +1499,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			role = "gunner",
 			role_display_name = "Right Gunner"
 		} },
+	crew_stations = "CaptainExclusive",
 	detection_range_max = 11,
 	doors_movement = 2,
 	engine_data = {

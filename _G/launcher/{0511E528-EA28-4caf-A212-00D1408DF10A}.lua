@@ -1,7 +1,6 @@
 _G["launcher"]["{0511E528-EA28-4caf-A212-00D1408DF10A}"] = {
 	CLSID = "{0511E528-EA28-4caf-A212-00D1408DF10A}",
 	Elements = { {
-			DrawArgs = { { 1, 1 }, { 2, 1 } },
 			Position = { 0, 0, 0 },
 			ShapeName = "SAB-100"
 		} },

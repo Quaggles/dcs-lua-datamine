@@ -49,6 +49,7 @@ _G["weapons_table"]["weapons"]["nurs"]["URAGAN_9M27F"] = {
 	dist_max = 0,
 	dist_min = 0,
 	mass = 280,
+	max_TOF = 120,
 	model = "9m27f",
 	name = "URAGAN_9M27F",
 	server = {

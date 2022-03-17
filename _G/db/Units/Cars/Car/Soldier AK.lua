@@ -33,6 +33,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						}, {
 							shell_name = {}
 						} },
+					additionalShotDispersion = {},
 					connectorFire = false,
 					fireAnimationArgument = 23,
 					maxShootingSpeed = 0,
@@ -84,6 +85,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Infantry" },
 	type = "Soldier AK",
 	visual = {
+		IR = {
+			coeffs = { {}, {}, {}, {} }
+		},
 		fire_pos = {},
 		shape = "Soldier_AK",
 		shape_dstr = "Soldier_AK_D"

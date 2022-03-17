@@ -311,12 +311,10 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Air Defence", "Search Radar" },
 	type = "NASAMS_Radar_MPQ64F1",
 	visual = {
-		agony_explosion_size = 0.2,
-		fire_pos = { 0, 0.9, 0 },
-		fire_size = 0.65,
-		fire_time = 200,
-		max_time_agony = 30,
-		min_time_agony = 2,
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.003, 0.0031 }, { 0, 0 }, { 0, 0 }, { 0.2, 0.00026666666666667 } }
+		},
+		fire_pos = {},
 		shape = "NASAMS_Radar_MPQ64F1",
 		shape_dstr = "NASAMS_Radar_MPQ64F1_p_1"
 	}

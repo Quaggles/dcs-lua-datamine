@@ -5,12 +5,6 @@ _G["launcher"]["{2x9M120F_Ataka_V}"] = {
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "9M120_pylon"
-		}, {
-			ShapeName = "9M120F",
-			connector_name = "tube_01"
-		}, {
-			ShapeName = "9M120F",
-			connector_name = "tube_02"
 		} },
 	NatoName = "AT-9",
 	Picture = "apu2.png",

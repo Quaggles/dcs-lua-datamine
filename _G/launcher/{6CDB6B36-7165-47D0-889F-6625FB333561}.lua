@@ -3,30 +3,27 @@ _G["launcher"]["{6CDB6B36-7165-47D0-889F-6625FB333561}"] = {
 	Count = 6,
 	Cx_pil = 0.007,
 	Elements = { {
-			Position = { 0, 0, 0 },
 			ShapeName = "MBD"
 		}, {
-			DrawArgs = { { 1, 1 }, { 2, 1 } },
 			Position = { -1.242, -0.415, 0 },
 			ShapeName = "M117"
 		}, {
-			DrawArgs = { { 1, 1 }, { 2, 1 } },
 			Position = { 1.19, -0.415, 0 },
 			ShapeName = "M117"
 		}, {
-			DrawArgs = { { 1, 1 }, { 2, 1 }, { 3, -1 } },
+			DrawArgs = { { 3, -1 } },
 			Position = { -1.242, -0.266, 0.293 },
 			ShapeName = "M117"
 		}, {
-			DrawArgs = { { 1, 1 }, { 2, 1 }, { 3, 1 } },
+			DrawArgs = { { 3, 1 } },
 			Position = { -1.242, -0.266, -0.293 },
 			ShapeName = "M117"
 		}, {
-			DrawArgs = { { 1, 1 }, { 2, 1 }, { 3, -1 } },
+			DrawArgs = { { 3, -1 } },
 			Position = { 1.19, -0.266, 0.293 },
 			ShapeName = "M117"
 		}, {
-			DrawArgs = { { 1, 1 }, { 2, 1 }, { 3, 1 } },
+			DrawArgs = { { 3, 1 } },
 			Position = { 1.19, -0.266, -0.293 },
 			ShapeName = "M117"
 		} },

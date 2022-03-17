@@ -26,9 +26,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000212",
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = {},
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -37,6 +37,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Unarmed", "Support & Logistics" },
 	type = "Ural-4320 APA-5D",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0, 0 }, { 0, 0 }, { 0.28, 0.00025454545454545 } }
+		},
 		agony_explosion_size = 2,
 		fire_pos = { 0.7, 1, 0 },
 		fire_size = 0.5,

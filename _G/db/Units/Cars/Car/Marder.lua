@@ -113,9 +113,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		height = 2.985
 	},
 	snd = {
-		engine_pitch = { {}, {}, {}, {}, {}, {}, {}, {} },
-		engine_vol_a = { {}, {} },
-		engine_vol_v = { {}, {}, {}, {}, {}, {}, {}, {} },
+		engine_pitch = { {}, {}, {} },
+		engine_vol_a = { {}, {}, {} },
+		engine_vol_v = { {}, {}, {} },
 		move_pitch = { {}, {} },
 		move_vol = { {}, {}, {} }
 	},
@@ -125,6 +125,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	turbine = false,
 	type = "Marder",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.0062, 0.00215 }, { 0, 0 }, { 0.3, 0.0001875 } }
+		},
 		agony_explosion_size = 3,
 		dirt_pos = { -3.1, 0.5, -1.319 },
 		dust_pos = { 3.25, 0, -1.319 },

@@ -1,7 +1,8 @@
 _G["launcher"]["{AIM-7E}"] = {
 	CLSID = "{AIM-7E}",
-	Count = 1,
 	Elements = { {
+			DrawArgs = { { 1, 1 }, { 2, 1 }, { 3, 1 } },
+			Position = { 0, 0, 0 },
 			ShapeName = "aim-7"
 		} },
 	Picture = "us_AIM-7.png",

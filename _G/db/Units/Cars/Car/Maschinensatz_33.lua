@@ -8,9 +8,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "Maschinensatz 33 Gen",
 	Rate = 4,
 	ThreatRange = 0,
-	WS = {
-		radar_rotation_type = 0
-	},
 	Waypoint_Custom_Panel = true,
 	_file = "./Mods/tech/WWII Units/Database/db_units_cars.lua",
 	_origin = "WWII Armour and Technics",
@@ -43,13 +40,14 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			file = "Maschinensatz_33_p_1",
 			name = "Maschinensatz_33_p_1"
 		} },
-	snd = {
-		radarRotation = "GndTech/Maschinensatz_33_EngineIdle"
-	},
+	snd = {},
 	swapped_names = true,
 	tags = { "Air Defence", "AAA", "Generator" },
 	type = "Maschinensatz_33",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022 }, { 0, 0 }, { 0, 0 }, { 0, 0 }, { 0.27, 0.00049090909090909 } }
+		},
 		agony_explosion_size = 2,
 		fire_pos = { -0.25, 0.6, 0 },
 		fire_size = 0.35,
