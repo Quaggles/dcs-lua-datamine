@@ -484,13 +484,21 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			drop_cartridge = 203,
 			effective_fire_distance = 1500,
 			effects = { {
-					arg = 350,
+					name = "TurretRecoil",
+					recoil_arg = 350,
+					recoil_coeff = 0.95,
+					spring_coeff = 0.3
+				}, {
+					arg = 46,
 					attenuation = 2,
 					duration = 0.02,
 					light_pos = { 0.5, 0, 0 },
 					name = "FireEffect"
 				}, {
 					name = "SmokeEffect"
+				}, {
+					name = "ShellsMovement",
+					shells_movement_arg = 349
 				} },
 			ejector_dir = { -2, -5, 0 },
 			ejector_pos = { -0.5, -0.5, 0 },
@@ -904,7 +912,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				arg_amortizer = 6,
 				arg_post = 5,
 				arg_wheel_damage = 136,
-				arg_wheel_rotation = 102,
+				arg_wheel_rotation = 103,
 				damage_element = 84,
 				wheel_brake_moment_max = 5500,
 				wheel_damage_delta_speedX = 11.5,
@@ -929,7 +937,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				arg_amortizer = 4,
 				arg_post = 3,
 				arg_wheel_damage = 135,
-				arg_wheel_rotation = 103,
+				arg_wheel_rotation = 102,
 				damage_element = 85,
 				wheel_brake_moment_max = 5500,
 				wheel_damage_delta_speedX = 11.5,
@@ -1760,15 +1768,16 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		lights = { {
 				lights = { {
 						argument = 193,
+						controller = "Strobe",
+						flash_time = 0.05,
+						period = 1.7,
+						phase_shift = 0.5,
 						typename = "argumentlight"
 					}, {
 						argument = 194,
-						typename = "argumentlight"
-					}, {
-						argument = 195,
-						typename = "argumentlight"
-					}, {
-						argument = 196,
+						controller = "Strobe",
+						flash_time = 0.05,
+						period = 1.7,
 						typename = "argumentlight"
 					} },
 				typename = "collection"
@@ -1796,7 +1805,25 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						typename = "argumentlight"
 					} },
 				typename = "collection"
-			} },
+			},
+			[12] = {
+				lights = { {
+						argument = 195,
+						controller = "Strobe",
+						flash_time = 0.05,
+						period = 1.7,
+						phase_shift = 0.5,
+						typename = "argumentlight"
+					}, {
+						argument = 196,
+						controller = "Strobe",
+						flash_time = 0.05,
+						period = 1.7,
+						typename = "argumentlight"
+					} },
+				typename = "collection"
+			}
+		},
 		typename = "collection"
 	},
 	main_gear_pos = { 1.361, -1.832, 1.017 },
@@ -1827,6 +1854,40 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						C = { { "Arg", 38, "to", 0, "in", 2 } }
 					} },
 				Transition = { "Open", "Close" }
+			} },
+		HeadLights = { {
+				Sequence = { {
+						C = { { "Arg", 209, "to", 0, "speed", 1 }, { "Arg", 423, "to", 0, "speed", 0.5 }, { "Arg", 424, "to", 0, "speed", 0.5 } }
+					} },
+				Transition = { "Any", "Retract" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 209, "to", 1, "speed", 0.5 }, { "Arg", 423, "to", 0.95, "speed", 0.5 }, { "Arg", 424, "to", 0, "speed", 0.5 } }
+					} },
+				Transition = { "Any", "Taxi" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 209, "to", 1, "speed", 0.5 }, { "Arg", 423, "to", 0.7, "speed", 0.1 }, { "Arg", 424, "to", 0, "speed", 0.5 } }
+					} },
+				Transition = { "Any", "High" }
+			}, {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "Arg", 209, "from", 0, "to", 1, "in", 10 }, { "Arg", 423, "to", 0.95, "speed", 0.5 } }
+					} },
+				Transition = { "Retract", "Taxi" }
+			}, {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "Arg", 209, "to", 1, "in", 0.5 }, { "Arg", 423, "from", 0.7, "to", 0.95, "in", 3 } }
+					} },
+				Transition = { "High", "Taxi" }
+			}, {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "Arg", 209, "to", 1, "in", 10 }, { "Arg", 423, "from", 0.95, "to", 0.7, "in", 5 } }
+					} },
+				Transition = { "Taxi", "High" }
 			} },
 		Pylon0Elevation = { {
 				Flags = { "Reversible" },
@@ -2286,7 +2347,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	thrust_correction = 0.75,
 	type = "AH-64D_BLK_II",
 	visualIR = {
-		coeffs = { { 0.02, 0.01, 1, 0 }, { 0.1, 0.01, 1, 0 }, { 0.003, 0.05, 1, 0 }, { 0.01, 0.02, 0.35, 0.2 } }
+		coeffs = { { 0.02, 0.01, 1, 0 }, { 0.1, 0.01, 1, -0.1 }, { 0.003, 0.05, 1, 0 }, { 0.01, 0.02, 4, 0.1 } }
 	},
 	wheel_steering_angle_max = 3.1415926535898
 }

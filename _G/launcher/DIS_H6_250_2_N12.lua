@@ -4,40 +4,40 @@ _G["launcher"]["DIS_H6_250_2_N12"] = {
 	Cx_pil = 0,
 	Elements = { {
 			Position = { 2.2, 0, -0.5 },
-			ShapeName = "fab-250-m54"
+			ShapeName = "250-2"
 		}, {
 			Position = { 2.2, 0, 0.5 },
-			ShapeName = "fab-250-m54"
+			ShapeName = "250-2"
 		}, {
 			Position = { 2.2, -0.32, -0.5 },
-			ShapeName = "fab-250-m54"
+			ShapeName = "250-2"
 		}, {
 			Position = { 2.2, -0.32, 0.5 },
-			ShapeName = "fab-250-m54"
+			ShapeName = "250-2"
 		}, {
 			Position = { 0, 0, -0.5 },
-			ShapeName = "fab-250-m54"
+			ShapeName = "250-2"
 		}, {
 			Position = { 0, 0, 0.5 },
-			ShapeName = "fab-250-m54"
+			ShapeName = "250-2"
 		}, {
 			Position = { 0, -0.32, -0.5 },
-			ShapeName = "fab-250-m54"
+			ShapeName = "250-2"
 		}, {
 			Position = { 0, -0.32, 0.5 },
-			ShapeName = "fab-250-m54"
+			ShapeName = "250-2"
 		}, {
 			Position = { -2.2, 0, -0.5 },
-			ShapeName = "fab-250-m54"
+			ShapeName = "250-2"
 		}, {
 			Position = { -2.2, 0, 0.5 },
-			ShapeName = "fab-250-m54"
+			ShapeName = "250-2"
 		}, {
 			Position = { -2.2, -0.32, -0.5 },
-			ShapeName = "fab-250-m54"
+			ShapeName = "250-2"
 		}, {
 			Position = { -2.2, -0.32, 0.5 },
-			ShapeName = "fab-250-m54"
+			ShapeName = "250-2"
 		} },
 	Picture = "rus_FAB-250n-1.png",
 	Weight = 3000,

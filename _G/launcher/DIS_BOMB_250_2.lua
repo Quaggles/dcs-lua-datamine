@@ -3,7 +3,7 @@ _G["launcher"]["DIS_BOMB_250_2"] = {
 	Count = 1,
 	Cx_pil = 0.000999,
 	Elements = { {
-			ShapeName = "fab-250-m54"
+			ShapeName = "250-2"
 		} },
 	Picture = "rus_FAB-250n-1.png",
 	Weight = 250,

@@ -157,6 +157,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_84A"] = {
 			default_destruct_tg_dist = 1000,
 			default_final_maneuver_tg_dist = 4000,
 			default_sensor_tg_dist = 8000,
+			default_straight_nav_tg_dist = 1000,
 			final_maneuver_by_default = 1,
 			trigger_by_path = 1
 		},
@@ -347,6 +348,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_84A"] = {
 			default_destruct_tg_dist = 1000,
 			default_final_maneuver_tg_dist = 4000,
 			default_sensor_tg_dist = 8000,
+			default_straight_nav_tg_dist = 1000,
 			final_maneuver_by_default = 1,
 			trigger_by_path = 1
 		},

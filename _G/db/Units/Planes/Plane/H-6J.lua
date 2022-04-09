@@ -225,6 +225,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					Type = 1,
 					arg_value = 1
 				}, {
+					CLSID = "DIS_MER6_250_2_N6",
+					arg_value = 1
+				}, {
 					CLSID = "DIS_MER6_250_3_N6",
 					arg_value = 1
 				} },
@@ -266,6 +269,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "DIS_GDJ_YJ83K",
 					Type = 1,
+					arg_value = 1
+				}, {
+					CLSID = "DIS_MER6_250_2_N6",
 					arg_value = 1
 				}, {
 					CLSID = "DIS_MER6_250_3_N6",
@@ -311,6 +317,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					Type = 1,
 					arg_value = 1
 				}, {
+					CLSID = "DIS_MER6_250_2_N6",
+					arg_value = 1
+				}, {
 					CLSID = "DIS_MER6_250_3_N6",
 					arg_value = 1
 				} },
@@ -352,6 +361,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "DIS_GDJ_YJ83K",
 					Type = 1,
+					arg_value = 1
+				}, {
+					CLSID = "DIS_MER6_250_2_N6",
 					arg_value = 1
 				}, {
 					CLSID = "DIS_MER6_250_3_N6",
@@ -397,6 +409,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					Type = 1,
 					arg_value = 1
 				}, {
+					CLSID = "DIS_MER6_250_2_N6",
+					arg_value = 1
+				}, {
 					CLSID = "DIS_MER6_250_3_N6",
 					arg_value = 1
 				} },
@@ -418,6 +433,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "DIS_DF4A_KD20",
 					Type = 1,
+					arg_value = 1
+				}, {
+					CLSID = "DIS_MER6_250_2_N6",
 					arg_value = 1
 				}, {
 					CLSID = "DIS_MER6_250_3_N6",
