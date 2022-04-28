@@ -6,7 +6,7 @@ _G["launcher"]["{8C3F26A2-FA0F-11d5-9190-00A0249B6F00}"] = {
 		} },
 	Picture = "skyshadow.png",
 	Weight = 200,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 15, 45, "Redacted" },
-	category = 6,
 	displayName = "Sky-Shadow ECM Pod"
 }

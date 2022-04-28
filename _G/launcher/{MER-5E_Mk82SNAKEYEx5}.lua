@@ -23,8 +23,8 @@ _G["launcher"]["{MER-5E_Mk82SNAKEYEx5}"] = {
 		} },
 	Picture = "mk82AIR.png",
 	Weight = 1250.7,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 5, 32, "Redacted" },
-	category = 1,
 	displayName = "5 x Mk-82 Snakeye - 500lb GP Bomb HD",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

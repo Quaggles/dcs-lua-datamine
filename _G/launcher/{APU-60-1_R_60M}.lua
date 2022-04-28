@@ -11,8 +11,8 @@ _G["launcher"]["{APU-60-1_R_60M}"] = {
 	NatoName = "(AA-8)",
 	Picture = "r60.png",
 	Weight = 76,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 4, 32, "Redacted" },
-	category = 4,
 	displayName = "APU-60-1M with R-60M (AA-8 Aphid) - Infra Red",
 	wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 }

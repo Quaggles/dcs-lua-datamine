@@ -6,7 +6,7 @@ _G["launcher"]["{A111396E-D3E8-4b9c-8AC9-2432489304D5}"] = {
 		} },
 	Picture = "AAQ-28.png",
 	Weight = 208,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 15, 44, "Redacted" },
-	category = 6,
 	displayName = "AN/AAQ-28 LITENING - Targeting Pod"
 }

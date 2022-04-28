@@ -6,8 +6,8 @@ _G["launcher"]["{E92CBFE5-C153-11d8-9897-000476191836}"] = {
 		} },
 	Picture = "SPPU22.png",
 	Weight = 290,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 15, 46, "Redacted" },
-	category = 6,
 	displayName = "SPPU-22-1 - 2 x 23mm  GSh-23L Autocannon Pod",
 	kind_of_shipping = 2,
 	wsTypeOfWeapon = { 4, 6, 6, "Redacted" }

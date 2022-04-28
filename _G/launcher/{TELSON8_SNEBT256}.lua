@@ -3,37 +3,32 @@ _G["launcher"]["{TELSON8_SNEBT256}"] = {
 	Count = 8,
 	Cx_pil = 0.007,
 	Elements = { {
-			Position = { 0, 0.04, 0.12 },
-			Rotation = { 0, 0, 0 },
-			ShapeName = "sneb68_eap2"
+			IsAdapter = true,
+			ShapeName = "SA342_Telson8"
 		}, {
-			Position = { 0, 0.04, 0.042 },
-			Rotation = { 0, 0, 0 },
-			ShapeName = "sneb68_eap2"
+			ShapeName = "SA342_SNEB68",
+			connector_name = "tube_01"
 		}, {
-			Position = { 0, 0.04, -0.044 },
-			Rotation = { 0, 0, 0 },
-			ShapeName = "sneb68_eap2"
+			ShapeName = "SA342_SNEB68",
+			connector_name = "tube_02"
 		}, {
-			Position = { 0, 0.04, -0.122 },
-			Rotation = { 0, 0, 0 },
-			ShapeName = "sneb68_eap2"
+			ShapeName = "SA342_SNEB68",
+			connector_name = "tube_03"
 		}, {
-			Position = { 0, -0.042, -0.12 },
-			Rotation = { 0, 0, 0 },
-			ShapeName = "sneb68_eap2"
+			ShapeName = "SA342_SNEB68",
+			connector_name = "tube_04"
 		}, {
-			Position = { 0, -0.042, -0.042 },
-			Rotation = { 0, 0, 0 },
-			ShapeName = "sneb68_eap2"
+			ShapeName = "SA342_SNEB68",
+			connector_name = "tube_05"
 		}, {
-			Position = { 0, -0.042, 0.044 },
-			Rotation = { 0, 0, 0 },
-			ShapeName = "sneb68_eap2"
+			ShapeName = "SA342_SNEB68",
+			connector_name = "tube_06"
 		}, {
-			Position = { 0, -0.042, 0.122 },
-			Rotation = { 0, 0, 0 },
-			ShapeName = "sneb68_eap2"
+			ShapeName = "SA342_SNEB68",
+			connector_name = "tube_07"
+		}, {
+			ShapeName = "SA342_SNEB68",
+			connector_name = "tube_08"
 		} },
 	Picture = "SNEB68.png",
 	Weight = 80.08,

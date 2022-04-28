@@ -6,7 +6,7 @@ _G["launcher"]["{62BE78B1-9258-48AE-B882-279534C0D278}"] = {
 		} },
 	Picture = "GBU10.png",
 	Weight = 1974.25,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 5, 36, "Redacted" },
-	category = 1,
 	displayName = "BRU-42 with 2 x GBU-10 - 2000lb Laser Guided Bombs"
 }

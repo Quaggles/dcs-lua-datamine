@@ -4,7 +4,7 @@ _G["launcher"]["{EFEC8200-B922-11d7-9897-000476191836}"] = {
 	Picture = "PTB.png",
 	Weight = 1067.750921,
 	Weight_Empty = 50,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 1, 3, 43, "Redacted" },
-	category = 5,
 	displayName = "Fuel tank 330 gal"
 }

@@ -6,7 +6,7 @@ _G["launcher"]["{D3ABF208-FA56-4D56-BB31-E0D931D57AE3}"] = {
 		} },
 	Picture = "FAB250.png",
 	Weight = 25032,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 5, 9, "Redacted" },
-	category = 1,
 	displayName = "Mk 84*28"
 }

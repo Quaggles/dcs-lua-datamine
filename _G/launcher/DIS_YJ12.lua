@@ -7,7 +7,7 @@ _G["launcher"]["DIS_YJ12"] = {
 			ShapeName = "yj12"
 		} },
 	Picture = "yj12.png",
-	Weight = 2500,
+	Weight = 1750,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/mils_yj12.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	attribute = { 4, 4, 8, "Redacted" },

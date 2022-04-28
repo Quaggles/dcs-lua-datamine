@@ -2,10 +2,7 @@ _G["launcher"]["{M2KC_RAFAUT_MK82A}"] = {
 	CLSID = "{M2KC_RAFAUT_MK82A}",
 	Count = 2,
 	Cx_pil = 0.001,
-	Elements = { {
-			IsAdapter = true,
-			ShapeName = "M-2000C_AUF2"
-		}, {
+	Elements = { "_G/Pylons/M-2000C_AUF2.lua", {
 			Position = { -0.011874, -0.162894, 0.22 },
 			Rotation = { -0, 0, 0 },
 			ShapeName = "Mk-82AIR"

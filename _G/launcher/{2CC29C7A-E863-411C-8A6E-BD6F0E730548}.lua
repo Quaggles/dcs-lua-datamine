@@ -16,9 +16,9 @@ _G["launcher"]["{2CC29C7A-E863-411C-8A6E-BD6F0E730548}"] = {
 		} },
 	Picture = "agm65.png",
 	Weight = 783,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	adapter_type = { 4, 15, 47, "Redacted" },
 	attribute = { 4, 4, 32, "Redacted" },
-	category = 2,
 	displayName = "LAU-88 with 2 x AGM-65E - Maverick E (Laser ASM - Lg Whd)",
 	kind_of_shipping = 1,
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }

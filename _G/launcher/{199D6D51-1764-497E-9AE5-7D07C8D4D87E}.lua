@@ -6,7 +6,7 @@ _G["launcher"]["{199D6D51-1764-497E-9AE5-7D07C8D4D87E}"] = {
 		} },
 	Picture = "L005.png",
 	Weight = 200,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 15, 44, "Redacted" },
-	category = 6,
 	displayName = "Pavetack F-111"
 }

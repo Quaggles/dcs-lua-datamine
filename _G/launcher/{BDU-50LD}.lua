@@ -5,7 +5,7 @@ _G["launcher"]["{BDU-50LD}"] = {
 		} },
 	Picture = "BDU-50LD.png",
 	Weight = 232,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 5, 9, "Redacted" },
-	category = 1,
 	displayName = "BDU-50LD - 500lb Inert Practice Bomb LD"
 }

@@ -18,8 +18,8 @@ _G["launcher"]["{005E70F5-C3EA-4E95-A148-C1044C42D845}"] = {
 		} },
 	Picture = "betab500.png",
 	Weight = 1566,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 5, 32, "Redacted" },
-	category = 1,
 	displayName = "MBD3 with 3 x BetAB-500 - 500kg Concrete Piercing Bombs LD",
 	wsTypeOfWeapon = { 4, 5, 37, "Redacted" }
 }

@@ -8,7 +8,7 @@ _G["launcher"]["DIS_DF4B_YJ12"] = {
 		} },
 	JettisonSubmunitionOnly = true,
 	Picture = "yj12.png",
-	Weight = 2550,
+	Weight = 1800,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/mils_yj12.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	attribute = { 4, 4, 32, "Redacted" },

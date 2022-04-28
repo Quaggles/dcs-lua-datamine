@@ -7,8 +7,8 @@ _G["launcher"]["LAU-105"] = {
 		} },
 	Picture = "lau-105.png",
 	Weight = 18,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 4, 32, "Redacted" },
-	category = 6,
 	displayName = "LAU-105",
 	wsTypeOfWeapon = { 0, 0, 0, "Redacted" }
 }

@@ -16,8 +16,8 @@ _G["launcher"]["{7C5F0F5F-0A0B-46E8-937C-8922303E39A8}"] = {
 	Picture = "rus_FAB-1500.png",
 	PictureBlendColor = "0xffffffff",
 	Weight = 3100,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 5, 32, "Redacted" },
-	category = 1,
 	displayName = "MBD3-U2T with 2 x FAB-1500 M-54 - 1500kg GP Bombs LD",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

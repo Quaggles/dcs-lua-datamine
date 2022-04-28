@@ -40,8 +40,8 @@ _G["launcher"]["{4CD2BB0F-5493-44EF-A927-9760350F7BA1}"] = {
 		} },
 	Picture = "rockeye.png",
 	Weight = 2050,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 5, 32, "Redacted" },
-	category = 1,
 	displayName = "HSAB with 9 x Mk-20 Rockeye - 490lbs CBUs, 247 x HEAT Bomblets",
 	wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 }

@@ -17,8 +17,8 @@ _G["launcher"]["{TWIN_S25}"] = {
 	JettisonSubmunitionOnly = true,
 	Picture = "S25.png",
 	Weight = 902,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 7, 32, "Redacted" },
-	category = 3,
 	displayName = "2 x S-25-OFM - 340mm UnGdrocket, 480kg Penetrator",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

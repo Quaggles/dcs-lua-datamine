@@ -24,8 +24,8 @@ _G["launcher"]["{6A367BB4-327F-4A04-8D9E-6D86BDC98E7E}"] = {
 	Picture = "rus_FAB-250n-1.png",
 	PictureBlendColor = "0xffffffff",
 	Weight = 1060,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 5, 32, "Redacted" },
-	category = 1,
 	displayName = "MBD3-U4T with 4 x FAB-250 - 250kg GP Bombs LD",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

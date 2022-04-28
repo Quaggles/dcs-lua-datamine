@@ -51,8 +51,8 @@ _G["launcher"]["{574EDEDF-20DE-4942-B2A2-B2EDFD621562}"] = {
 		} },
 	Picture = "KMGU2.png",
 	Weight = 4250,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 5, 32, "Redacted" },
-	category = 1,
 	displayName = "MER12 with 12 x M117 - 750lb GP Bombs LD",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

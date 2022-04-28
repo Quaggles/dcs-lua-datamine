@@ -11,8 +11,8 @@ _G["launcher"]["{4D13E282-DF46-4B23-864A-A9423DFDE504}"] = {
 	NatoName = "(AS-17)",
 	Picture = "kh31a.png",
 	Weight = 690,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 4, 32, "Redacted" },
-	category = 2,
 	displayName = "Kh-31A (AS-17 Krypton) - 610kg, AShM, IN & Act Rdr",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

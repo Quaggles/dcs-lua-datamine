@@ -7,7 +7,7 @@ _G["launcher"]["Fuel_Tank_FT600"] = {
 	Picture = "PTB.png",
 	Weight = 1925,
 	Weight_Empty = 110,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 1, 3, 43, "Redacted" },
-	category = 5,
 	displayName = "Fuel tank FT600"
 }

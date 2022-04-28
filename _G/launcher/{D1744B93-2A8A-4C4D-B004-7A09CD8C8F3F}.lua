@@ -6,7 +6,7 @@ _G["launcher"]["{D1744B93-2A8A-4C4D-B004-7A09CD8C8F3F}"] = {
 		} },
 	Picture = "Lantirn.png",
 	Weight = 200,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 15, 44, "Redacted" },
-	category = 6,
 	displayName = "Lantirn Target Pod"
 }

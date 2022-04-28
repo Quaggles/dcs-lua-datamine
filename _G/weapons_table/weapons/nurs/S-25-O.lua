@@ -51,16 +51,16 @@ _G["weapons_table"]["weapons"]["nurs"]["S-25-O"] = {
 		user_name = "S-25-O",
 		warhead = {
 			caliber = 420,
-			concrete_factors = { 1, 1, 0.1 },
+			concrete_factors = { 0.5, 1, 0.1 },
 			concrete_obj_factor = 0,
 			cumulative_factor = 0,
 			cumulative_thickness = 0,
 			expl_mass = 58,
 			fantom = 1,
-			mass = 151,
+			mass = 145,
 			obj_factors = { 1, 1 },
-			other_factors = { 1, 1, 1 },
-			piercing_mass = 30.2
+			other_factors = { 0.5, 1, 1 },
+			piercing_mass = 29
 		},
 		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 	},
@@ -120,16 +120,16 @@ _G["weapons_table"]["weapons"]["nurs"]["S-25-O"] = {
 		user_name = "S-25-O",
 		warhead = {
 			caliber = 420,
-			concrete_factors = { 1, 1, 0.1 },
+			concrete_factors = { 0.5, 1, 0.1 },
 			concrete_obj_factor = 0,
 			cumulative_factor = 0,
 			cumulative_thickness = 0,
 			expl_mass = 58,
 			fantom = 0,
-			mass = 151,
+			mass = 145,
 			obj_factors = { 1, 1 },
-			other_factors = { 1, 1, 1 },
-			piercing_mass = 30.2
+			other_factors = { 0.5, 1, 1 },
+			piercing_mass = 29
 		},
 		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 	},

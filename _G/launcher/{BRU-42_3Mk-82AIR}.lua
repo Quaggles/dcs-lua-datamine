@@ -16,8 +16,8 @@ _G["launcher"]["{BRU-42_3*Mk-82AIR}"] = {
 		} },
 	Picture = "mk82.png",
 	Weight = 782.25,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 5, 32, "Redacted" },
-	category = 1,
 	displayName = "BRU-42 with 3 x Mk-82 AIR Ballute - 500lb GP Bombs HD",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

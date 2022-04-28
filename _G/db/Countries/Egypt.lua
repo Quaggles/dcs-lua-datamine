@@ -448,6 +448,22 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "Coach a platform"
 				}, {
+					Name = "HL_DSHK"
+				}, {
+					Name = "HL_KORD"
+				}, {
+					Name = "tt_DSHK"
+				}, {
+					Name = "tt_KORD"
+				}, {
+					Name = "HL_ZU-23"
+				}, {
+					Name = "tt_ZU-23"
+				}, {
+					Name = "HL_B8M1"
+				}, {
+					Name = "tt_B8M1"
+				}, {
 					Name = "DR_50Ton_Flat_Wagon"
 				}, {
 					Name = "DRG_Class_86"

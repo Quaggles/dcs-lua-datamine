@@ -14,7 +14,7 @@ _G["launcher"]["{HVAR_SMOKE_GENERATOR}"] = {
 		r = 245
 	},
 	Weight = 64,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 15, 50, "Redacted" },
-	category = 6,
 	displayName = "HVAR Smoke Generator"
 }

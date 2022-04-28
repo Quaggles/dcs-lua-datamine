@@ -29,8 +29,8 @@ _G["launcher"]["{6CDB6B36-7165-47D0-889F-6625FB333561}"] = {
 		} },
 	Picture = "RBK250.png",
 	Weight = 2100,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 5, 32, "Redacted" },
-	category = 1,
 	displayName = "MER6 with 6 x M117 - 750lb GP Bombs LD",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

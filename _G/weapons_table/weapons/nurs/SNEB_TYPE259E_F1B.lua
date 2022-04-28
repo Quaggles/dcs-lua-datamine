@@ -20,7 +20,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE259E_F1B"] = {
 			induced_RPS = 20,
 			length = 0.608,
 			nozzle_orientationXYZ = { { 0, 0, 0 } },
-			nozzle_position = { { -0.43, 0, 0 } },
+			nozzle_position = { { -0.324165, 0, 0 } },
 			smoke_color = { 0.6, 0.6, 0.6 },
 			smoke_transparency = 0.5,
 			tail_width = 0.068,
@@ -38,7 +38,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE259E_F1B"] = {
 			freq = 20,
 			mass = 9.06,
 			rail_open = false,
-			shapeName = "sneb68_eap",
+			shapeName = "SA342_SNEB68",
 			wind_sigma = 5,
 			wind_time = 120
 		},
@@ -134,7 +134,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE259E_F1B"] = {
 			},
 			server = 0
 		},
-		model = "sneb68_eap",
+		model = "SA342_SNEB68",
 		name = "SNEB_TYPE259E_F1B",
 		properties = {
 			dist_max = 4000,
@@ -142,7 +142,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE259E_F1B"] = {
 		},
 		scheme = "schemes/rockets/nurs-light.sch",
 		shape_table_data = { {
-				file = "sneb68_eap",
+				file = "SA342_SNEB68",
 				index = "Redacted",
 				name = "SNEB_TYPE259E_F1B"
 			} },
@@ -158,7 +158,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE259E_F1B"] = {
 	dist_max = 4000,
 	dist_min = 500,
 	mass = 9.06,
-	model = "sneb68_eap",
+	model = "SA342_SNEB68",
 	name = "SNEB_TYPE259E_F1B",
 	server = {
 		_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
@@ -178,7 +178,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE259E_F1B"] = {
 			induced_RPS = 20,
 			length = 0.608,
 			nozzle_orientationXYZ = { { 0, 0, 0 } },
-			nozzle_position = { { -0.43, 0, 0 } },
+			nozzle_position = { { -0.324165, 0, 0 } },
 			smoke_color = { 0.6, 0.6, 0.6 },
 			smoke_transparency = 0.5,
 			tail_width = 0.068,
@@ -196,7 +196,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE259E_F1B"] = {
 			freq = 20,
 			mass = 9.06,
 			rail_open = false,
-			shapeName = "sneb68_eap",
+			shapeName = "SA342_SNEB68",
 			wind_sigma = 5,
 			wind_time = 120
 		},
@@ -292,7 +292,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE259E_F1B"] = {
 			},
 			server = 1
 		},
-		model = "sneb68_eap",
+		model = "SA342_SNEB68",
 		name = "SNEB_TYPE259E_F1B",
 		properties = {
 			dist_max = 4000,
@@ -300,7 +300,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE259E_F1B"] = {
 		},
 		scheme = "schemes/rockets/nurs-light.sch",
 		shape_table_data = { {
-				file = "sneb68_eap",
+				file = "SA342_SNEB68",
 				index = "Redacted",
 				name = "SNEB_TYPE259E_F1B"
 			} },
@@ -327,7 +327,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE259E_F1B"] = {
 			freq = 20,
 			mass = 9.06,
 			rail_open = false,
-			shapeName = "sneb68_eap",
+			shapeName = "SA342_SNEB68",
 			wind_sigma = 5,
 			wind_time = 120
 		}

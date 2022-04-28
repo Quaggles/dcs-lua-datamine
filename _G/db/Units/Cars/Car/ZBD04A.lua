@@ -183,7 +183,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_vol = { {}, {}, {} }
 	},
 	swapped_names = true,
-	swing_on_run = true,
+	swing_on_run = false,
 	tags = { "Armor", "APC", "IFV" },
 	turbine = false,
 	type = "ZBD04A",

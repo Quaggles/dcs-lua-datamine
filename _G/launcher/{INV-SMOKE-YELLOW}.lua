@@ -13,7 +13,7 @@ _G["launcher"]["{INV-SMOKE-YELLOW}"] = {
 	},
 	Weight = 0,
 	Weight_Empty = 0,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 15, 50, "Redacted" },
-	category = 6,
 	displayName = "Smoke Generator - yellow"
 }

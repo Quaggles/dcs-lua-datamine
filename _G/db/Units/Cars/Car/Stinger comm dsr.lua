@@ -38,7 +38,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "Stinger comm dsr",
 	visual = {
 		IR = {
-			coeffs = { { 0.1858, 0.0151 }, { 0, 0 }, { 0.1, 0.008 }, { 0, 0 }, { 0.1, 0.00025 } }
+			coeffs = { {}, {}, {}, {} }
 		},
 		fire_pos = {},
 		shape = "Stinger_com2",

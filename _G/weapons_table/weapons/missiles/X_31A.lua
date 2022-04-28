@@ -144,7 +144,8 @@ _G["weapons_table"]["weapons"]["missiles"]["X_31A"] = {
 			default_final_maneuver_tg_dist = 8000,
 			default_sensor_tg_dist = 12000,
 			final_maneuver_by_default = 1,
-			trigger_by_path = 1
+			trigger_by_path = 0,
+			use_horiz_dist = 1
 		},
 		warhead = {
 			caliber = 360,
@@ -321,7 +322,8 @@ _G["weapons_table"]["weapons"]["missiles"]["X_31A"] = {
 			default_final_maneuver_tg_dist = 8000,
 			default_sensor_tg_dist = 12000,
 			final_maneuver_by_default = 1,
-			trigger_by_path = 1
+			trigger_by_path = 0,
+			use_horiz_dist = 1
 		},
 		warhead = {
 			caliber = 360,

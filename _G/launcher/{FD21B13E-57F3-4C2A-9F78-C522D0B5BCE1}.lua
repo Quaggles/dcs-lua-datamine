@@ -5,7 +5,7 @@ _G["launcher"]["{FD21B13E-57F3-4C2A-9F78-C522D0B5BCE1}"] = {
 		} },
 	Picture = "super530.png",
 	Weight = 270,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 4, 7, "Redacted" },
-	category = 4,
 	displayName = "Super 530D"
 }

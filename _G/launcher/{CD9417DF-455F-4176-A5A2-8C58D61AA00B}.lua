@@ -6,7 +6,7 @@ _G["launcher"]["{CD9417DF-455F-4176-A5A2-8C58D61AA00B}"] = {
 		} },
 	Picture = "kh65.png",
 	Weight = 10000,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 4, 8, "Redacted" },
-	category = 2,
 	displayName = "8 x Kh-65 (AS-15B Kent) - 1250kg, ASM, IN & MCC"
 }

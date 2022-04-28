@@ -324,6 +324,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	category = "Air Defence",
 	chassis = {},
 	enablePlayerCanDrive = false,
+	encyclopediaAnimation = {
+		args = {
+			[3] = 1,
+			[11] = 0.857
+		}
+	},
 	mapclasskey = "P0091000083",
 	radar_rotation_period = 12,
 	sensor = {

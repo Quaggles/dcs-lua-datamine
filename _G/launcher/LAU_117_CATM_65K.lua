@@ -11,9 +11,9 @@ _G["launcher"]["LAU_117_CATM_65K"] = {
 		} },
 	Picture = "agm65.png",
 	Weight = 356,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	adapter_type = { 4, 15, 47, "Redacted" },
 	attribute = { 4, 4, 32, "Redacted" },
-	category = 2,
 	displayName = "LAU-117 with CATM-65K - Captive Trg Round for Mav K (CCD)",
 	wsTypeOfWeapon = { 4, 4, 101, "Redacted" }
 }

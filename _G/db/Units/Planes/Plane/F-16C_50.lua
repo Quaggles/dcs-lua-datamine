@@ -1027,22 +1027,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Pylons = { {
 			Launchers = <11>{ {
 					CLSID = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}",
-					Cx_gain = 0.44
+					Cx_gain = 0.436
 				}, {
 					CLSID = "{AIM-9L}",
-					Cx_gain = 0.44
+					Cx_gain = 0.436
 				}, {
 					CLSID = "{5CE2FF2A-645A-4197-B48D-8720AC69394F}",
-					Cx_gain = 0.44
+					Cx_gain = 0.436
 				}, {
 					CLSID = "{C8E06185-7CD6-4C90-959F-044679E90751}",
-					Cx_gain = 0.33
+					Cx_gain = 0.328
 				}, {
 					CLSID = "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}",
-					Cx_gain = 0.33
+					Cx_gain = 0.328
 				}, {
 					CLSID = "CATM-9M",
-					Cx_gain = 0.44
+					Cx_gain = 0.436
 				}, {
 					CLSID = "{AIS_ASQ_T50}",
 					Cx_gain = 0.44,
@@ -1061,25 +1061,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			Launchers = <12>{ {
 					CLSID = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}",
-					Cx_gain = 0.55
+					Cx_gain = 0.545
 				}, {
 					CLSID = "{AIM-9L}",
-					Cx_gain = 0.55
+					Cx_gain = 0.545
 				}, {
 					CLSID = "{5CE2FF2A-645A-4197-B48D-8720AC69394F}",
-					Cx_gain = 0.55
+					Cx_gain = 0.545
 				}, {
 					CLSID = "{C8E06185-7CD6-4C90-959F-044679E90751}",
-					Cx_gain = 0.33
+					Cx_gain = 0.328
 				}, {
 					CLSID = "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}",
-					Cx_gain = 0.33
+					Cx_gain = 0.328
 				}, {
 					CLSID = "CATM-9M",
-					Cx_gain = 0.55
+					Cx_gain = 0.545
 				}, {
 					CLSID = "{AIS_ASQ_T50}",
-					Cx_gain = 0.55,
+					Cx_gain = 0.545,
 					attach_point_position = { 0.25, 0, 0 }
 				}, {
 					CLSID = "<CLEAN>",
@@ -1100,59 +1100,64 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			Launchers = { <13>{
 					CLSID = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}",
-					Cx_gain = 0.55,
+					Cx_gain = 0.545,
 					add_mass = -79.8,
 					arg_value = 0.5
 				}, <14>{
 					CLSID = "{AIM-9L}",
-					Cx_gain = 0.55,
+					Cx_gain = 0.545,
 					add_mass = -79.8,
 					arg_value = 0.5
 				}, <15>{
 					CLSID = "{5CE2FF2A-645A-4197-B48D-8720AC69394F}",
-					Cx_gain = 0.55,
+					Cx_gain = 0.545,
 					add_mass = -79.8,
 					arg_value = 0.5
 				}, <16>{
 					CLSID = "{C8E06185-7CD6-4C90-959F-044679E90751}",
-					Cx_gain = 0.33,
+					Cx_gain = 0.328,
 					add_mass = -79.8,
 					arg_value = 0.5
 				}, <17>{
 					CLSID = "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}",
-					Cx_gain = 0.33,
+					Cx_gain = 0.328,
 					add_mass = -79.8,
 					arg_value = 0.5
 				}, <18>{
 					CLSID = "CATM-9M",
-					Cx_gain = 0.55,
+					Cx_gain = 0.545,
 					add_mass = -79.8,
 					arg_value = 0.5
 				}, <19>{
 					CLSID = "{AIS_ASQ_T50}",
-					Cx_gain = 0.55,
+					Cx_gain = 0.545,
 					add_mass = -79.8,
 					arg_value = 0.5,
 					attach_point_position = { 0.25, 0, 0 }
 				}, <20>{
-					CLSID = "LAU3_WP156"
+					CLSID = "LAU3_WP156",
+					Cx_gain_empty = 0.478
 				}, <21>{
-					CLSID = "LAU3_WP1B"
+					CLSID = "LAU3_WP1B",
+					Cx_gain_empty = 0.478
 				}, <22>{
-					CLSID = "LAU3_WP61"
+					CLSID = "LAU3_WP61",
+					Cx_gain_empty = 0.478
 				}, <23>{
-					CLSID = "LAU3_HE5"
+					CLSID = "LAU3_HE5",
+					Cx_gain_empty = 0.478
 				}, <24>{
-					CLSID = "LAU3_HE151"
+					CLSID = "LAU3_HE151",
+					Cx_gain_empty = 0.478
 				}, <25>{
 					CLSID = "{BDU-50LD}",
-					Cx_gain = 1.563
+					Cx_gain = 1.388
 				}, <26>{
 					CLSID = "{BDU-50LGB}",
-					Cx_gain = 0.967
+					Cx_gain = 1.667
 				}, <27>{
 					CLSID = "{BDU-50HD}",
-					Cx_gain = 1.882
+					Cx_gain = 1.668
 				}, <28>{
 					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
 					Cx_gain = 1.563
@@ -1163,31 +1168,36 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{Mk82AIR}",
 					Cx_gain = 1.882
 				}, <31>{
-					CLSID = "{TER_9A_3*MK-82}",
-					Cx_gain_item = 2.493
-				}, <32>{
-					CLSID = "{TER_9A_3*MK-82_Snakeye}",
-					Cx_gain_item = 2.11
-				}, <33>{
-					CLSID = "{TER_9A_3*MK-82AIR}",
-					Cx_gain_item = 2.11
-				}, <34>{
 					CLSID = "{AB8B8299-F1CC-4359-89B5-2172E0CF4A5A}",
-					Cx_gain = 1.255
-				}, <35>{
+					Cx_gain = 1.26
+				}, <32>{
 					CLSID = "{51F9AAE5-964F-4D21-83FB-502E3BFE5F8A}",
-					Cx_gain = 1.561
-				}, <36>{
+					Cx_gain = 1.673
+				}, <33>{
 					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
-					Cx_gain = 0.967
-				}, <37>{
+					Cx_gain = 0.959
+				}, <34>{
 					CLSID = "{CBU-87}",
 					Cx_gain = 3.398
-				}, <38>{
+				}, <35>{
 					CLSID = "{5335D97A-35A5-4643-9D9B-026C75961E52}",
 					Cx_gain = 3.398
+				}, <36>{
+					CLSID = "{TER_9A_3*MK-82}",
+					Cx_gain_empty = 0.625,
+					Cx_gain_item = 2.813
+				}, <37>{
+					CLSID = "{TER_9A_3*MK-82_Snakeye}",
+					Cx_gain_empty = 0.478,
+					Cx_gain_item = 2.957
+				}, <38>{
+					CLSID = "{TER_9A_3*MK-82AIR}",
+					Cx_gain_empty = 0.478,
+					Cx_gain_item = 2.957
 				}, <39>{
-					CLSID = "{TER_9A_3*BDU-33}"
+					CLSID = "{TER_9A_3*BDU-33}",
+					Cx_gain_empty = 0.389,
+					Cx_gain_item = 3.45
 				}, <40>{
 					CLSID = "{444BA8AE-82A7-4345-842E-76154EFCCA46}",
 					Cx_gain_item = 0.41
@@ -1202,45 +1212,58 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					Cx_gain_item = 0.41
 				}, <44>{
 					CLSID = "LAU_88_AGM_65D_ONE",
-					Cx_gain_empty = 0.37,
-					Cx_gain_item = 0.67
+					Cx_gain_empty = 0.371,
+					Cx_gain_item = 0.665
 				}, <45>{
 					CLSID = "{DAC53A2F-79CA-42FF-A77A-F5649B601308}",
-					Cx_gain_empty = 0.37,
-					Cx_gain_item = 0.67
+					Cx_gain_empty = 0.371,
+					Cx_gain_item = 0.665
 				}, <46>{
 					CLSID = "LAU_88_AGM_65H",
-					Cx_gain_empty = 0.37,
-					Cx_gain_item = 0.67
+					Cx_gain_empty = 0.371,
+					Cx_gain_item = 0.665
 				}, <47>{
 					CLSID = "LAU_88_AGM_65H_3",
-					Cx_gain_empty = 0.37,
-					Cx_gain_item = 0.67
+					Cx_gain_empty = 0.371,
+					Cx_gain_item = 0.665
 				}, <48>{
 					CLSID = "{B06DD79A-F21E-4EB9-BD9D-AB3844618C93}",
 					Cx_gain_item = 0.4
 				}, <49>{
-					CLSID = "{GBU-31}"
+					CLSID = "{GBU-31}",
+					Cx_gain = 0.17
 				}, <50>{
-					CLSID = "{GBU-31V3B}"
+					CLSID = "{GBU-31V3B}",
+					Cx_gain = 0.265
 				}, <51>{
-					CLSID = "{GBU-38}"
+					CLSID = "{GBU-38}",
+					Cx_gain = 0.473
 				}, <52>{
-					CLSID = "{BRU57_2*GBU-38}"
+					CLSID = "{BRU57_2*GBU-38}",
+					Cx_gain_empty = 0.572
 				}, <53>{
 					CLSID = "{AGM-154A}",
+					Cx_gain = 0.486,
 					Type = 1
 				}, <54>{
 					CLSID = "{BRU57_2*AGM-154A}",
+					Cx_gain_empty = 0.445,
+					Cx_gain_item = 0.6657,
 					Type = 1
 				}, <55>{
-					CLSID = "{CBU_105}"
+					CLSID = "{CBU_105}",
+					Cx_gain = 3.396
 				}, <56>{
-					CLSID = "{BRU57_2*CBU-105}"
+					CLSID = "{BRU57_2*CBU-105}",
+					Cx_gain_empty = 0.347,
+					Cx_gain_item = 4.151
 				}, <57>{
-					CLSID = "{CBU_103}"
+					CLSID = "{CBU_103}",
+					Cx_gain = 3.396
 				}, <58>{
-					CLSID = "{BRU57_2*CBU-103}"
+					CLSID = "{BRU57_2*CBU-103}",
+					Cx_gain_empty = 0.347,
+					Cx_gain_item = 4.151
 				}, <59>{
 					CLSID = "MXU-648-TP"
 				}, <60>{
@@ -1256,30 +1279,36 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 1
 				}, {
 					CLSID = "{TER_9A_2L*MK-82}",
+					Cx_gain_empty = 0.714,
 					Cx_gain_item = 2.813
 				}, {
 					CLSID = "{TER_9A_2L*MK-82_Snakeye}",
-					Cx_gain_item = 2.11
+					Cx_gain_empty = 0.578,
+					Cx_gain_item = 2.957
 				}, {
 					CLSID = "{TER_9A_2L*MK-82AIR}",
-					Cx_gain_item = 2.11
+					Cx_gain_empty = 0.578,
+					Cx_gain_item = 2.957
 				}, {
 					CLSID = "{TER_9A_2L*GBU-12}",
-					Cx_gain_item = 1.871
+					Cx_gain_empty = 0.824,
+					Cx_gain_item = 1.37
 				}, {
 					CLSID = "{TER_9A_2L*CBU-87}",
-					Cx_gain_item = 4.146
+					Cx_gain_empty = 0.164,
+					Cx_gain_item = 4.152
 				}, {
 					CLSID = "{TER_9A_2L*CBU-97}",
-					Cx_gain_item = 4.146
+					Cx_gain_empty = 0.164,
+					Cx_gain_item = 4.152
 				}, {
 					CLSID = "{E6A6262A-CA08-4B3D-B030-E1A993B98452}",
-					Cx_gain_empty = 0.37,
-					Cx_gain_item = 0.67
+					Cx_gain_empty = 0.371,
+					Cx_gain_item = 0.665
 				}, {
 					CLSID = "LAU_88_AGM_65H_2_L",
-					Cx_gain_empty = 0.37,
-					Cx_gain_item = 0.67
+					Cx_gain_empty = 0.371,
+					Cx_gain_item = 0.665
 				} },
 			Number = 3,
 			Order = 3,
@@ -1295,37 +1324,42 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			Launchers = { <63>{
 					CLSID = "LAU3_WP156",
+					Cx_gain_empty = 0.478,
 					add_mass = -82.5,
 					arg_value = 0.5
 				}, <64>{
 					CLSID = "LAU3_WP1B",
+					Cx_gain_empty = 0.478,
 					add_mass = -82.5,
 					arg_value = 0.5
 				}, <65>{
 					CLSID = "LAU3_WP61",
+					Cx_gain_empty = 0.478,
 					add_mass = -82.5,
 					arg_value = 0.5
 				}, <66>{
 					CLSID = "LAU3_HE5",
+					Cx_gain_empty = 0.478,
 					add_mass = -82.5,
 					arg_value = 0.5
 				}, <67>{
 					CLSID = "LAU3_HE151",
+					Cx_gain_empty = 0.478,
 					add_mass = -82.5,
 					arg_value = 0.5
 				}, <68>{
 					CLSID = "{BDU-50LD}",
-					Cx_gain = 1.563,
+					Cx_gain = 1.388,
 					add_mass = -82.5,
 					arg_value = 0.5
 				}, <69>{
 					CLSID = "{BDU-50LGB}",
-					Cx_gain = 0.967,
+					Cx_gain = 1.667,
 					add_mass = -82.5,
 					arg_value = 0.5
 				}, <70>{
 					CLSID = "{BDU-50HD}",
-					Cx_gain = 1.882,
+					Cx_gain = 1.668,
 					add_mass = -82.5,
 					arg_value = 0.5
 				}, <71>{
@@ -1344,68 +1378,75 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					add_mass = -82.5,
 					arg_value = 0.5
 				}, <74>{
-					CLSID = "{TER_9A_3*MK-82}",
-					Cx_gain_item = 2.493,
+					CLSID = "{AB8B8299-F1CC-4359-89B5-2172E0CF4A5A}",
+					Cx_gain = 1.26,
 					add_mass = -82.5,
 					arg_value = 0.5
 				}, <75>{
-					CLSID = "{TER_9A_3*MK-82_Snakeye}",
-					Cx_gain_item = 2.11,
+					CLSID = "{51F9AAE5-964F-4D21-83FB-502E3BFE5F8A}",
+					Cx_gain = 1.673,
 					add_mass = -82.5,
 					arg_value = 0.5
 				}, <76>{
-					CLSID = "{TER_9A_3*MK-82AIR}",
-					Cx_gain_item = 2.11,
+					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
+					Cx_gain = 0.959,
 					add_mass = -82.5,
 					arg_value = 0.5
 				}, <77>{
-					CLSID = "{AB8B8299-F1CC-4359-89B5-2172E0CF4A5A}",
-					Cx_gain = 1.255,
-					add_mass = -82.5,
-					arg_value = 0.5
-				}, <78>{
-					CLSID = "{51F9AAE5-964F-4D21-83FB-502E3BFE5F8A}",
-					Cx_gain = 1.561,
-					add_mass = -82.5,
-					arg_value = 0.5
-				}, <79>{
-					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
-					Cx_gain = 0.967,
-					add_mass = -82.5,
-					arg_value = 0.5
-				}, <80>{
 					CLSID = "{CBU-87}",
 					Cx_gain = 3.398,
 					add_mass = -82.5,
 					arg_value = 0.5
-				}, <81>{
+				}, <78>{
 					CLSID = "{5335D97A-35A5-4643-9D9B-026C75961E52}",
 					Cx_gain = 3.398,
 					add_mass = -82.5,
 					arg_value = 0.5
+				}, <79>{
+					CLSID = "{TER_9A_3*MK-82}",
+					Cx_gain_empty = 0.625,
+					Cx_gain_item = 2.813,
+					add_mass = -82.5,
+					arg_value = 0.5
+				}, <80>{
+					CLSID = "{TER_9A_3*MK-82_Snakeye}",
+					Cx_gain_empty = 0.478,
+					Cx_gain_item = 2.957,
+					add_mass = -82.5,
+					arg_value = 0.5
+				}, <81>{
+					CLSID = "{TER_9A_3*MK-82AIR}",
+					Cx_gain_empty = 0.478,
+					Cx_gain_item = 2.957,
+					add_mass = -82.5,
+					arg_value = 0.5
 				}, <82>{
-					CLSID = "{TER_9A_3*CBU-87}",
-					Cx_gain_item = 4.146,
+					CLSID = "{TER_9A_3*BDU-33}",
+					Cx_gain_empty = 0.389,
+					Cx_gain_item = 3.45,
 					add_mass = -82.5,
 					arg_value = 0.5
 				}, <83>{
-					CLSID = "{TER_9A_3*CBU-97}",
-					Cx_gain_item = 4.146,
+					CLSID = "{TER_9A_3*CBU-87}",
+					Cx_gain_empty = 0.156,
+					Cx_gain_item = 4.152,
 					add_mass = -82.5,
 					arg_value = 0.5
 				}, <84>{
-					CLSID = "{TER_9A_3*BDU-33}",
+					CLSID = "{TER_9A_3*CBU-97}",
+					Cx_gain_empty = 0.156,
+					Cx_gain_item = 4.152,
 					add_mass = -82.5,
 					arg_value = 0.5
 				}, <85>{
-					CLSID = "{F376DBEE-4CAE-41BA-ADD9-B2910AC95DEC}"
-				}, <86>{
-					CLSID = "MXU-648-TP",
-					add_mass = -82.5,
-					arg_value = 0.5
-				}, <87>{
 					CLSID = "{B06DD79A-F21E-4EB9-BD9D-AB3844618C93}",
 					Cx_gain_item = 0.4,
+					add_mass = -82.5,
+					arg_value = 0.5
+				}, <86>{
+					CLSID = "{F376DBEE-4CAE-41BA-ADD9-B2910AC95DEC}"
+				}, <87>{
+					CLSID = "MXU-648-TP",
 					add_mass = -82.5,
 					arg_value = 0.5
 				}, <88>{
@@ -1414,27 +1455,32 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 1
 				}, {
 					CLSID = "{TER_9A_2L*MK-82}",
+					Cx_gain_empty = 0.714,
 					Cx_gain_item = 2.813,
 					add_mass = -82.5,
 					arg_value = 0.5
 				}, {
 					CLSID = "{TER_9A_2L*MK-82_Snakeye}",
-					Cx_gain_item = 2.11,
+					Cx_gain_empty = 0.578,
+					Cx_gain_item = 2.957,
 					add_mass = -82.5,
 					arg_value = 0.5
 				}, {
 					CLSID = "{TER_9A_2L*MK-82AIR}",
-					Cx_gain_item = 2.11,
+					Cx_gain_empty = 0.578,
+					Cx_gain_item = 2.957,
 					add_mass = -82.5,
 					arg_value = 0.5
 				}, {
 					CLSID = "{TER_9A_2L*CBU-87}",
-					Cx_gain_item = 4.146,
+					Cx_gain_empty = 0.164,
+					Cx_gain_item = 4.152,
 					add_mass = -82.5,
 					arg_value = 0.5
 				}, {
 					CLSID = "{TER_9A_2L*CBU-97}",
-					Cx_gain_item = 4.146,
+					Cx_gain_empty = 0.164,
+					Cx_gain_item = 4.152,
 					add_mass = -82.5,
 					arg_value = 0.5
 				} },
@@ -1482,27 +1528,32 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			DisplayName = "6",
 			Launchers = { <table 63>, <table 64>, <table 65>, <table 66>, <table 67>, <table 68>, <table 69>, <table 70>, <table 71>, <table 72>, <table 73>, <table 74>, <table 75>, <table 76>, <table 77>, <table 78>, <table 79>, <table 80>, <table 81>, <table 82>, <table 83>, <table 84>, <table 85>, <table 86>, <table 87>, <table 88>, {
 					CLSID = "{TER_9A_2R*MK-82}",
+					Cx_gain_empty = 0.714,
 					Cx_gain_item = 2.813,
 					add_mass = -82.5,
 					arg_value = 0.5
 				}, {
 					CLSID = "{TER_9A_2R*MK-82_Snakeye}",
-					Cx_gain_item = 2.11,
+					Cx_gain_empty = 0.578,
+					Cx_gain_item = 2.957,
 					add_mass = -82.5,
 					arg_value = 0.5
 				}, {
 					CLSID = "{TER_9A_2R*MK-82AIR}",
-					Cx_gain_item = 2.11,
+					Cx_gain_empty = 0.578,
+					Cx_gain_item = 2.957,
 					add_mass = -82.5,
 					arg_value = 0.5
 				}, {
 					CLSID = "{TER_9A_2R*CBU-87}",
-					Cx_gain_item = 4.146,
+					Cx_gain_empty = 0.164,
+					Cx_gain_item = 4.152,
 					add_mass = -82.5,
 					arg_value = 0.5
 				}, {
 					CLSID = "{TER_9A_2R*CBU-97}",
-					Cx_gain_item = 4.146,
+					Cx_gain_empty = 0.164,
+					Cx_gain_item = 4.152,
 					add_mass = -82.5,
 					arg_value = 0.5
 				} },
@@ -1521,30 +1572,36 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			DisplayName = "7",
 			Launchers = { <table 13>, <table 14>, <table 15>, <table 16>, <table 17>, <table 18>, <table 19>, <table 20>, <table 21>, <table 22>, <table 23>, <table 24>, <table 25>, <table 26>, <table 27>, <table 28>, <table 29>, <table 30>, <table 31>, <table 32>, <table 33>, <table 34>, <table 35>, <table 36>, <table 37>, <table 38>, <table 39>, <table 40>, <table 41>, <table 42>, <table 43>, <table 44>, <table 45>, <table 46>, <table 47>, <table 48>, <table 49>, <table 50>, <table 51>, <table 52>, <table 53>, <table 54>, <table 55>, <table 56>, <table 57>, <table 58>, <table 59>, <table 60>, <table 61>, <table 62>, {
 					CLSID = "{TER_9A_2R*MK-82}",
+					Cx_gain_empty = 0.714,
 					Cx_gain_item = 2.813
 				}, {
 					CLSID = "{TER_9A_2R*MK-82_Snakeye}",
-					Cx_gain_item = 2.11
+					Cx_gain_empty = 0.578,
+					Cx_gain_item = 2.957
 				}, {
 					CLSID = "{TER_9A_2R*MK-82AIR}",
-					Cx_gain_item = 2.11
+					Cx_gain_empty = 0.578,
+					Cx_gain_item = 2.957
 				}, {
 					CLSID = "{TER_9A_2R*GBU-12}",
-					Cx_gain_item = 1.871
+					Cx_gain_empty = 0.824,
+					Cx_gain_item = 1.37
 				}, {
 					CLSID = "{TER_9A_2R*CBU-87}",
-					Cx_gain_item = 4.146
+					Cx_gain_empty = 0.164,
+					Cx_gain_item = 4.152
 				}, {
 					CLSID = "{TER_9A_2R*CBU-97}",
-					Cx_gain_item = 4.146
+					Cx_gain_empty = 0.164,
+					Cx_gain_item = 4.152
 				}, {
 					CLSID = "{E6A6262A-CA08-4B3D-B030-E1A993B98453}",
-					Cx_gain_empty = 0.37,
-					Cx_gain_item = 0.67
+					Cx_gain_empty = 0.371,
+					Cx_gain_item = 0.665
 				}, {
 					CLSID = "LAU_88_AGM_65H_2_R",
-					Cx_gain_empty = 0.37,
-					Cx_gain_item = 0.67
+					Cx_gain_empty = 0.371,
+					Cx_gain_item = 0.665
 				} },
 			Number = 7,
 			Order = 9,
@@ -1601,6 +1658,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			DisplayName = "5R",
 			Launchers = { {
 					CLSID = "{A111396E-D3E8-4b9c-8AC9-2432489304D5}",
+					Cx_gain = 4.872,
 					arg_value = 0
 				} },
 			Number = 11,

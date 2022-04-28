@@ -29,8 +29,8 @@ _G["launcher"]["M260_HYDRA"] = {
 		} },
 	Picture = "lau68.png",
 	Weight = 112,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 7, 32, "Redacted" },
-	category = 3,
 	displayName = 'M260 pod - 7 x 2.75" Hydra, UnGd Rkts Mk5, HEAT',
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

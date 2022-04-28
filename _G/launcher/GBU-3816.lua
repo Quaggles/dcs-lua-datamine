@@ -60,7 +60,7 @@ _G["launcher"]["GBU-38*16"] = {
 		} },
 	Picture = "GBU38.png",
 	Weight = 3856,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 5, 36, "Redacted" },
-	category = 1,
 	displayName = "16 x GBU-38 - JDAM, 500lb GPS Guided Bombs"
 }

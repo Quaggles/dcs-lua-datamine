@@ -12,8 +12,8 @@ _G["launcher"]["{A0648264-4BC0-4EE8-A543-D119F6BA4257}"] = {
 		} },
 	Picture = "S25.png",
 	Weight = 495,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 7, 32, "Redacted" },
-	category = 3,
 	displayName = "S-25-OFM - 340mm UnGd Rkt, 480kg Penetrator",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

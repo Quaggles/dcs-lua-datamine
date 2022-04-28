@@ -19,7 +19,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					PL = { {
 							type_ammunition = {}
 						} },
-					min_launch_angle = 0.087266462599716,
 					reactionTime = 2,
 					sensor = {},
 					sightIndicationMode = 1,
@@ -65,7 +64,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "Soldier stinger",
 	visual = {
 		IR = {
-			coeffs = { { 0.1858, 0.0151 }, { 0, 0 }, { 0.1, 0.008 }, { 0, 0 }, { 0.1, 0.00025 } }
+			coeffs = { {}, {}, {}, {} }
 		},
 		fire_pos = {},
 		shape = "soldier_stinger",

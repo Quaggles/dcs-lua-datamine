@@ -14,8 +14,8 @@ _G["launcher"]["{07BE2D19-0E48-4B0B-91DA-5F6C8F9E3C75}"] = {
 	Picture = "ALARM.png",
 	Weight = 530,
 	Weight_Empty = 0,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 4, 32, "Redacted" },
-	category = 2,
 	displayName = "2 x ALARM",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

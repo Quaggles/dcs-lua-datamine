@@ -10,8 +10,8 @@ _G["launcher"]["{6DADF342-D4BA-4D8A-B081-BA928C4AF86D}"] = {
 		} },
 	Picture = "kh25ml.png",
 	Weight = 360,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 4, 32, "Redacted" },
-	category = 2,
 	displayName = "Kh-25ML (AS-10 Karen) - 300kg, ASM, Semi-Act Laser",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

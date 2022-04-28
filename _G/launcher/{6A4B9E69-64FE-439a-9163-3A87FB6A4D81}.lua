@@ -69,8 +69,8 @@ _G["launcher"]["{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}"] = {
 	Picture = "rus_B-8V20A_S-8KOM.png",
 	PictureBlendColor = "0xffffffff",
 	Weight = 349,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 7, 32, "Redacted" },
-	category = 3,
 	displayName = "B-8V20A pod - 20 x S-8KOM, 80mm UnGd Rkts, HEAT/AP",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

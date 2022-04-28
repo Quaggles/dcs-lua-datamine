@@ -14,8 +14,8 @@ _G["launcher"]["{18617C93-78E7-4359-A8CE-D754103EDF63}"] = {
 	Picture = "FAB250.png",
 	Weight = 1017,
 	Weight_Empty = 109,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 5, 32, "Redacted" },
-	category = 1,
 	displayName = "MER2 with 2 x Mk-83 - 1000lb GP Bombs LD",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

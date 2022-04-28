@@ -24,7 +24,7 @@ _G["launcher"]["CBU97*10"] = {
 		} },
 	Picture = "CBU.png",
 	Weight = 4170,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 5, 38, "Redacted" },
-	category = 1,
 	displayName = "10 x CBU-97 - 10 x SFW Cluster Bombs"
 }

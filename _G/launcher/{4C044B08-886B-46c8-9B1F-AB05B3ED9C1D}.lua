@@ -71,8 +71,8 @@ _G["launcher"]["{4C044B08-886B-46c8-9B1F-AB05B3ED9C1D}"] = {
 		} },
 	Picture = "LAU68.png",
 	Weight = 395.85,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 7, 32, "Redacted" },
-	category = 3,
 	displayName = 'BRU-42 with 3 x LAU-68 pods - 21 x 2.75" Hydra, UnGd Rkts M274, Practice Smk',
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

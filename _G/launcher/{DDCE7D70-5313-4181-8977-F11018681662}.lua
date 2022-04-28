@@ -29,8 +29,8 @@ _G["launcher"]["{DDCE7D70-5313-4181-8977-F11018681662}"] = {
 		} },
 	Picture = "LAU131.png",
 	Weight = 102.3,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 7, 32, "Redacted" },
-	category = 3,
 	displayName = 'LAU-131 pod - 7 x 2.75" Hydra, UnGd Rkts WTU-1/B, Practice',
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

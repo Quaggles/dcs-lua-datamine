@@ -5,7 +5,7 @@ _G["launcher"]["{CBU_105}"] = {
 		} },
 	Picture = "CBU.png",
 	Weight = 417,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 5, 38, "Redacted" },
-	category = 1,
 	displayName = "CBU-105 - 10 x SFW, CBU with WCMD"
 }

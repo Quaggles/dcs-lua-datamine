@@ -7,7 +7,7 @@ _G["launcher"]["{E8D4652F-FD48-45B7-BA5B-2AE05BB5A9CF}"] = {
 	Picture = "PTB.png",
 	Weight = 760,
 	Weight_Empty = 140,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 1, 3, 43, "Redacted" },
-	category = 5,
 	displayName = "Fuel tank 800L Wing"
 }

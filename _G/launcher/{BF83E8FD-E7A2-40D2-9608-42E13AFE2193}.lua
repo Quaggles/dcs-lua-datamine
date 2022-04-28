@@ -43,8 +43,8 @@ _G["launcher"]["{BF83E8FD-E7A2-40D2-9608-42E13AFE2193}"] = {
 		} },
 	Picture = "RBK250.png",
 	Weight = 2535,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 5, 32, "Redacted" },
-	category = 1,
 	displayName = "MBD3-U9M with 9 x RBK-250 - 42 x PTAB-2.5M, 250kg CBUs Medium HEAT/AP",
 	wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 }

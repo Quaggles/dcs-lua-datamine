@@ -13,8 +13,8 @@ _G["launcher"]["{275A2855-4A79-4B2D-B082-91EA2ADF4691}"] = {
 		} },
 	Picture = "r60.png",
 	Weight = 148,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 4, 32, "Redacted" },
-	category = 4,
 	displayName = "APU-60-2M with 2 x R-60M (AA-8 Aphid) - Infra Red",
 	wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 }

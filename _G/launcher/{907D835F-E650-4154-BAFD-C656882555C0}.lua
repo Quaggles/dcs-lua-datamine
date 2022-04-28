@@ -20,9 +20,9 @@ _G["launcher"]["{907D835F-E650-4154-BAFD-C656882555C0}"] = {
 		} },
 	Picture = "agm65.png",
 	Weight = 1102,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	adapter_type = { 4, 15, 47, "Redacted" },
 	attribute = { 4, 4, 32, "Redacted" },
-	category = 2,
 	displayName = "LAU-88 with 3 x AGM-65K - Maverick K (CCD Imp ASM)",
 	kind_of_shipping = 1,
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }

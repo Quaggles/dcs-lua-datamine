@@ -2162,6 +2162,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			dir = { 0, -1, 0 },
 			pos = { -5, -0.3, 0 }
+		}, {
+			dir = { 0, -1, 0 },
+			pos = { -5, -0.3, 0 }
 		} },
 	crew_members = { {
 			bailout_arg = -1,
@@ -2590,16 +2593,16 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		} },
 	passivCounterm = {
 		CMDS_Edit = false,
-		SingleChargeTotal = 128,
+		SingleChargeTotal = 3024,
 		chaff = {
-			chargeSz = 0,
-			default = 112,
-			increment = 1
+			chargeSz = 8,
+			default = 234,
+			increment = 18
 		},
 		flare = {
-			chargeSz = 0,
-			default = 16,
-			increment = 1
+			chargeSz = 18,
+			default = 64,
+			increment = 8
 		}
 	},
 	radar_can_see_ground = true,

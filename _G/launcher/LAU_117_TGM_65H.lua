@@ -11,9 +11,9 @@ _G["launcher"]["LAU_117_TGM_65H"] = {
 		} },
 	Picture = "agm65.png",
 	Weight = 267,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	adapter_type = { 4, 15, 47, "Redacted" },
 	attribute = { 4, 4, 32, "Redacted" },
-	category = 2,
 	displayName = "LAU-117 with TGM-65H - Trg Round for Mav H (CCD)",
 	wsTypeOfWeapon = { 4, 4, 101, "Redacted" }
 }

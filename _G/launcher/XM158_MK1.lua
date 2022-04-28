@@ -8,8 +8,8 @@ _G["launcher"]["XM158_MK1"] = {
 		} },
 	Picture = "lau68.png",
 	Weight = 112,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 7, 32, "Redacted" },
-	category = 3,
 	displayName = 'XM158 pod - 7 x 2.75" Hydra, UnGd Rkts Mk1, Practice',
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

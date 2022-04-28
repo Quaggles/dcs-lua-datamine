@@ -23,8 +23,8 @@ _G["launcher"]["{MER-5E_MK82x5}"] = {
 		} },
 	Picture = "mk82.png",
 	Weight = 1295.7,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 5, 32, "Redacted" },
-	category = 1,
 	displayName = "5 x Mk-82 - 500lb GP Bombs LD",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

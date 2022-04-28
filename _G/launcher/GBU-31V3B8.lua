@@ -28,7 +28,7 @@ _G["launcher"]["GBU-31V3B*8"] = {
 		} },
 	Picture = "GBU-31V3B.png",
 	Weight = 7848,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 5, 36, "Redacted" },
-	category = 1,
 	displayName = "8 x GBU-31(V)3/B - JDAM, 2000lb GPS Guided Penetrator Bombs"
 }

@@ -7,7 +7,7 @@ _G["launcher"]["{3C612111-C7AD-476E-8A8E-2485812F4E5C}"] = {
 	Picture = "rus_FAB-250n-1.png",
 	PictureBlendColor = "0xffffffff",
 	Weight = 250,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 5, 9, "Redacted" },
-	category = 1,
 	displayName = "FAB-250 - 250kg GP Bomb LD"
 }

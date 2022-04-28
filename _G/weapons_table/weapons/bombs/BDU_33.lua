@@ -23,12 +23,12 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_33"] = {
 		scheme = "schemes/bombs/bomb-smoke.sch",
 		warhead = {
 			caliber = 100,
-			color = { 2, 2, 2 },
-			duration = 300,
+			color = { 1, 1, 1 },
+			duration = 10,
 			fantom = 1,
 			flare = false,
-			intensity = 10,
-			transparency = 0.5
+			intensity = 2,
+			transparency = 0.8
 		}
 	},
 	display_name = "BDU-33",
@@ -58,12 +58,12 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_33"] = {
 		scheme = "schemes/bombs/bomb-smoke.sch",
 		warhead = {
 			caliber = 100,
-			color = { 2, 2, 2 },
-			duration = 300,
+			color = { 1, 1, 1 },
+			duration = 10,
 			fantom = 0,
 			flare = false,
-			intensity = 10,
-			transparency = 0.5
+			intensity = 2,
+			transparency = 0.8
 		}
 	},
 	sounderName = "Weapons/Bomb",

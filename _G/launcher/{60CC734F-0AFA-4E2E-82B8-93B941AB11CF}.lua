@@ -16,8 +16,8 @@ _G["launcher"]["{60CC734F-0AFA-4E2E-82B8-93B941AB11CF}"] = {
 		} },
 	Picture = "mk82.png",
 	Weight = 740.25,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 5, 32, "Redacted" },
-	category = 1,
 	displayName = "BRU-42 with 3 x Mk-82 - 500lb GP Bombs LD",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

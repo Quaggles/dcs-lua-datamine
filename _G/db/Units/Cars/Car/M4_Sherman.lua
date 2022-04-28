@@ -400,11 +400,14 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						}, {
 							shell_name = {}
 						} },
-					sensor = {}
+					sensor = {},
+					sightIndicationMode = 1,
+					sightMasterMode = 1
 				} },
 			angles = { { 0.26179938779915, -0.26179938779915, -0.26179938779915, 0.26179938779915 } },
 			area = "COL_MG_02",
 			center = "CENTER_MG_02",
+			cockpit = { "IronSight/IronSight" },
 			drawArgument1 = 24,
 			drawArgument2 = 25,
 			omegaY = 1.0471975511966,

@@ -7,7 +7,7 @@ _G["launcher"]["{44EE8698-89F9-48EE-AF36-5FD31896A82F}"] = {
 	Picture = "L005.png",
 	Required = { "{44EE8698-89F9-48EE-AF36-5FD31896A82A}" },
 	Weight = 150,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 15, 45, "Redacted" },
-	category = 6,
 	displayName = "L005 Sorbtsiya ECM pod (left)"
 }

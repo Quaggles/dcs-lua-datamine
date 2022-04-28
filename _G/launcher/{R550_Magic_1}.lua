@@ -6,7 +6,6 @@ _G["launcher"]["{R550_Magic_1}"] = {
 			ShapeName = "Magic_1"
 		} },
 	Picture = "r60.png",
-	PictureBlendColor = "0xffffffff",
 	Weight = 89,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/Matra_A2A.lua",
 	_origin = "AircraftWeaponPack",

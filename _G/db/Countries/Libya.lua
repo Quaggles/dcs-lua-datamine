@@ -284,6 +284,22 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "Coach a platform"
 				}, {
+					Name = "HL_DSHK"
+				}, {
+					Name = "HL_KORD"
+				}, {
+					Name = "tt_DSHK"
+				}, {
+					Name = "tt_KORD"
+				}, {
+					Name = "HL_ZU-23"
+				}, {
+					Name = "tt_ZU-23"
+				}, {
+					Name = "HL_B8M1"
+				}, {
+					Name = "tt_B8M1"
+				}, {
 					Name = "rapier_fsa_launcher"
 				}, {
 					Name = "rapier_fsa_optical_tracker_unit"

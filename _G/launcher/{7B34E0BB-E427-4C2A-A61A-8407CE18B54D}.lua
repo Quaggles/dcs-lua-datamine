@@ -16,8 +16,8 @@ _G["launcher"]["{7B34E0BB-E427-4C2A-A61A-8407CE18B54D}"] = {
 		} },
 	Picture = "FAB250.png",
 	Weight = 396.45,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 5, 32, "Redacted" },
-	category = 1,
 	displayName = "BRU-42 with 3 x Mk-81 - 250lb GP Bombs LD",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

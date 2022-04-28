@@ -8,7 +8,7 @@ _G["launcher"]["{HVAR}"] = {
 		} },
 	Picture = "HVAR.png",
 	Weight = 64,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 7, 33, "Redacted" },
-	category = 3,
 	displayName = "HVAR, UnGd Rkt"
 }

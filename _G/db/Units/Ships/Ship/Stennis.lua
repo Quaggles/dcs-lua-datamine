@@ -672,7 +672,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 3, 12, 12, "Redacted", "Aircraft Carriers", "Arresting Gear", "catapult", "RADAR_BAND1_FOR_ARM", "RADAR_BAND2_FOR_ARM", "AircraftCarrier", "AircraftCarrier With Catapult", "Armed Ship", "AircraftCarrier With Arresting Gear", "Naval", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
+	attribute = { 3, 12, 12, "Redacted", "Aircraft Carriers", "Arresting Gear", "catapult", "RADAR_BAND1_FOR_ARM", "RADAR_BAND2_FOR_ARM", "Datalink", "Link4", "ACLS", "AircraftCarrier", "AircraftCarrier With Catapult", "Armed Ship", "AircraftCarrier With Arresting Gear", "Naval", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
 	carrierIlluminationStates = { { { 69, 0, 1 } }, { { 801, 0, 1 } }, { { 150, 0, 1 } } },
 	chassis = {},
 	distFindObstacles = 1048.7,

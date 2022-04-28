@@ -14,8 +14,8 @@ _G["launcher"]["{0B9ABA77-93B8-45FC-9C63-82AFB2CB50A4}"] = {
 	Picture = "Mk20.png",
 	Weight = 553,
 	Weight_Empty = 109,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 5, 32, "Redacted" },
-	category = 1,
 	displayName = "MER2 with 2 x Mk-20 Rockeye - 490lbs CBUs, 247 x HEAT Bomblets",
 	wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 }

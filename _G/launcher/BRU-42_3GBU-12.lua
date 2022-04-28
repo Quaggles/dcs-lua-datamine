@@ -16,8 +16,8 @@ _G["launcher"]["BRU-42_3*GBU-12"] = {
 		} },
 	Picture = "GBU12.png",
 	Weight = 887.25,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 5, 32, "Redacted" },
-	category = 1,
 	displayName = "BRU-42 with 3 x GBU-12 - 500lb Laser Guided Bombs",
 	wsTypeOfWeapon = { 4, 5, 36, "Redacted" }
 }

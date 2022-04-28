@@ -6,7 +6,7 @@ _G["launcher"]["MXU-648-TP"] = {
 		} },
 	Picture = "mxu-468.png",
 	Weight = 300,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 15, 47, "Redacted" },
-	category = 6,
 	displayName = "MXU-648 Travel Pod"
 }

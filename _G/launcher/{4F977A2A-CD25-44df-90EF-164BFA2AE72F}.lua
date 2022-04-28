@@ -29,8 +29,8 @@ _G["launcher"]["{4F977A2A-CD25-44df-90EF-164BFA2AE72F}"] = {
 		} },
 	Picture = "LAU68.png",
 	Weight = 114.46,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 7, 32, "Redacted" },
-	category = 3,
 	displayName = 'LAU-68 pod - 7 x 2.75" Hydra, UnGd Rkts M156, Wht Phos',
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

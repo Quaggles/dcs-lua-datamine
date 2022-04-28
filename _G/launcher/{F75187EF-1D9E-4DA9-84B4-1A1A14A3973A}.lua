@@ -6,7 +6,7 @@ _G["launcher"]["{F75187EF-1D9E-4DA9-84B4-1A1A14A3973A}"] = {
 		} },
 	Picture = "SPS141.png",
 	Weight = 150,
+	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 15, 45, "Redacted" },
-	category = 6,
 	displayName = "SPS-141 - ECM Jamming Pod"
 }
