@@ -1,12 +1,13 @@
 _G["weapons_table"]["weapons"]["bombs"]["FAB_100M"] = {
-	_file = "./CoreMods/aircraft/MiG-19P/WEAPONS/MiG-19P_Weapons.lua",
-	_origin = "MiG-19P AI by RAZBAM",
+	_file = "./CoreMods/aircraft/MiG-15bis/MiG-15bis.lua",
+	_origin = "MiG-15bis AI by Eagle Dynamics",
+	_unique_resource_name = "weapons.bombs.FAB_100M",
 	client = {
 		Ag = -1.23,
 		Cx = 0.00035,
 		VyHold = -100,
-		_file = "./CoreMods/aircraft/MiG-19P/WEAPONS/MiG-19P_Weapons.lua",
-		_origin = "MiG-19P AI by RAZBAM",
+		_file = "./CoreMods/aircraft/MiG-15bis/MiG-15bis.lua",
+		_origin = "MiG-15bis AI by Eagle Dynamics",
 		arming_delay = {
 			delay_time = 0,
 			enabled = false
@@ -45,7 +46,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB_100M"] = {
 			char_time = 20.84
 		},
 		type = 0,
-		user_name = "FAB-100M",
+		user_name = "FAB-100M - 100kg GP Bomb LD",
 		warhead = {
 			caliber = 280,
 			concrete_factors = { 1, 1, 1 },
@@ -61,7 +62,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB_100M"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
-	display_name = "FAB-100M",
+	display_name = "FAB-100M - 100kg GP Bomb LD",
 	mass = 100,
 	model = "fab100_40x",
 	name = "FAB_100M",
@@ -69,8 +70,8 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB_100M"] = {
 		Ag = -1.23,
 		Cx = 0.00035,
 		VyHold = -100,
-		_file = "./CoreMods/aircraft/MiG-19P/WEAPONS/MiG-19P_Weapons.lua",
-		_origin = "MiG-19P AI by RAZBAM",
+		_file = "./CoreMods/aircraft/MiG-15bis/MiG-15bis.lua",
+		_origin = "MiG-15bis AI by Eagle Dynamics",
 		arming_delay = {
 			delay_time = 0,
 			enabled = false
@@ -109,7 +110,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB_100M"] = {
 			char_time = 20.84
 		},
 		type = 0,
-		user_name = "FAB-100M",
+		user_name = "FAB-100M - 100kg GP Bomb LD",
 		warhead = {
 			caliber = 280,
 			concrete_factors = { 1, 1, 1 },

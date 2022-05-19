@@ -90,7 +90,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	attribute = { 2, 17, 26, "Redacted", "Infantry", "CustomAimPoint", "New infantry", "Skeleton_type_A", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "NonAndLightArmoredUnits", "NonArmoredUnits" },
 	category = "Infantry",
-	chassis = {},
+	chassis = {
+		life = 1.02
+	},
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000201",
 	mobile = true,

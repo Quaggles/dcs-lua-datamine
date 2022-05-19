@@ -131,7 +131,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 				size = 0.8
 			},
 			area_life = 100,
-			area_name = "PALUBA_NOSE"
+			area_name = "PALUBA_NOSE",
+			belongsToRunway = true
 		}, {
 			area_arg = 77,
 			area_fire = {
@@ -290,8 +291,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	},
 	Helicopter_Num_ = 6,
 	ICLS = true,
-	ICLS_Glideslope_position = { -79, 26.5, 32.7, 3.5 },
-	ICLS_Localizer_position = { -153, 12, 9.4, 189 },
+	ICLS_Glideslope_position = { -68.8, 26.5, 21.3, 3.5 },
+	ICLS_Localizer_position = { -137.5, 12, 6.9, 189.4 },
 	LSOView = {
 		cockpit = "empty",
 		position = {
@@ -313,7 +314,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	Plane_Num_ = 72,
 	R_min = 665.8,
 	Rate = 5500,
-	RunWays = { { { -28.28, 18.46, -10.54 }, 350, 170, 25, 0, 2.5, 2.8, 3, 3, 3.2, 3.5 }, { { 82.414, 18.46, 13.907 }, 356.72, 94.5, 25, 0, 2.5, 2.8, 3, 3, 3.2, 3.5 }, { { 81.735, 18.46, -11.985 }, 3.03, 95, 25, 0, 2.5, 2.8, 3, 3, 3.2, 3.5 }, { { -36.638, 18.46, -17.912 }, 352.92, 96.4, 25, 0, 2.5, 2.8, 3, 3, 3.2, 3.5 }, { { -46.811, 18.46, -31.578 }, 0, 127.7, 25, 0, 2.5, 2.8, 3, 3, 3.2, 3.5 },
+	RunWays = { { { -28.28, 18.46, -10.54 }, 350.58, 170, 25, 0, 2.5, 2.8, 3, 3, 3.2, 3.5 }, { { 82.414, 18.46, 13.907 }, 356.72, 94.5, 25, 0, 2.5, 2.8, 3, 3, 3.2, 3.5 }, { { 81.735, 18.46, -11.985 }, 3.03, 95, 25, 0, 2.5, 2.8, 3, 3, 3.2, 3.5 }, { { -36.638, 18.46, -17.912 }, 352.92, 96.4, 25, 0, 2.5, 2.8, 3, 3, 3.2, 3.5 }, { { -46.811, 18.46, -31.578 }, 0, 127.7, 25, 0, 2.5, 2.8, 3, 3, 3.2, 3.5 },
 		RunwaysNumber = 5
 	},
 	Sensors = {
@@ -661,7 +662,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 3, 12, 12, "Redacted", "Aircraft Carriers", "Arresting Gear", "catapult", "RADAR_BAND1_FOR_ARM", "RADAR_BAND2_FOR_ARM", "AircraftCarrier", "AircraftCarrier With Catapult", "Armed Ship", "AircraftCarrier With Arresting Gear", "Naval", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
+	attribute = { 3, 12, 12, "Redacted", "Aircraft Carriers", "Arresting Gear", "catapult", "RADAR_BAND1_FOR_ARM", "RADAR_BAND2_FOR_ARM", "Datalink", "Link4", "ACLS", "AircraftCarrier", "AircraftCarrier With Catapult", "Armed Ship", "AircraftCarrier With Arresting Gear", "Naval", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
 	carrierIlluminationStates = { { { 792, 0, 1 }, { 794, 0, 1 }, { 150, 0, 1 } }, { { 790, 0, 1 }, { 792, 0, 1 }, { 793, 0, 1 }, { 794, 0, 1 }, { 150, 0, 1 } }, { { 793, 0, 1 }, { 794, 0, 1 }, { 792, 0, 1 }, { 150, 0, 1 } } },
 	chassis = {},
 	distFindObstacles = 1048.7,

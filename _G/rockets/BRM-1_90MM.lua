@@ -65,14 +65,14 @@ _G["rockets"]["#Index"] = {
 		maxAoa = 0.13962634015955,
 		shapeName = "brm1_90",
 		wind_sigma = 5,
-		wind_time = 1.1
+		wind_time = 1.5
 	},
 	march = {
 		boost_factor = 1,
 		boost_tail = 1,
 		boost_time = 0,
 		custom_smoke_dissipation_factor = 0.2,
-		fuel_mass = 5,
+		fuel_mass = 5.65,
 		impulse = 190,
 		nozzle_orientationXYZ = { { 0, 0, 0 } },
 		nozzle_position = { { -0.95, 0, 0 } },

@@ -71,7 +71,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			control = "checkbox",
 			defValue = true,
 			id = "TrackAirTargets",
-			label = "Track air targets"
+			label = "Track Air Targets"
 		}, {
 			control = "checkbox",
 			defValue = true,

@@ -171,9 +171,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0,
 					connector = "PYLON_3"
 				}, {
-					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74884}"
+					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74884}",
+					arg_value = 0.05
 				}, {
-					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74881}"
+					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74881}",
+					arg_value = 0.05
 				}, <table 4>, <table 5>, <16>{
 					CLSID = "{9B25D316-0434-4954-868F-D51DB1A38DF0}",
 					arg_value = 0.35
@@ -252,9 +254,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0,
 					connector = "PYLON_4"
 				}, {
-					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74884}"
+					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74884}",
+					arg_value = 0.05
 				}, {
-					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74881}"
+					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74881}",
+					arg_value = 0.05
 				}, <table 5>, <table 16>, <table 17>, <table 18>, <table 19>, <20>{
 					CLSID = "{40AA4ABE-D6EB-4CD6-AEFE-A1A0477B24AB}",
 					arg_value = 0.15
@@ -618,9 +622,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0,
 					connector = "PYLON_9"
 				}, {
-					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74884}"
+					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74884}",
+					arg_value = 0.05
 				}, {
-					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74881}"
+					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74881}",
+					arg_value = 0.05
 				}, <table 5>, <table 16>, <table 17>, <table 18>, <table 19>, <table 20>, {
 					CLSID = "{MBD3_U6_5*FAB-250}",
 					arg_value = 0,
@@ -705,9 +711,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0,
 					connector = "PYLON_10"
 				}, {
-					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74884}"
+					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74884}",
+					arg_value = 0.05
 				}, {
-					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74881}"
+					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74881}",
+					arg_value = 0.05
 				}, <table 4>, <table 5>, <table 16>, <table 17>, <table 18>, <table 19>, {
 					CLSID = "{MBD3_U6_5*FAB-250}",
 					arg_value = 0,

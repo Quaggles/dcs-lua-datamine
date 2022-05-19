@@ -5,14 +5,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			id = "NS430allow",
 			label = "NS430 Allow",
 			playerOnly = true
-		}, {
-			arg = 1338,
-			boolean_inverted = false,
-			control = "checkbox",
-			defValue = false,
-			id = "SA342RemoveDoors",
-			label = "Remove Doors",
-			playerOnly = false
 		} },
 	AmmoWeight = 24,
 	CanopyGeometry = { -0.76604444311898, -0.81603492345171, -0.86602540378444, 0.059391174613885, 0.98480775301221 },
@@ -106,10 +98,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			critical_damage = 6,
 			deps_cells = { 35, 36, 39 }
 		},
-		[59] = {
-			args = { 152 },
-			critical_damage = 1
-		},
 		[63] = {
 			args = { 160 },
 			critical_damage = 10,
@@ -177,7 +165,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	},
 	DisplayName = "SA342L",
 	EPLRS = true,
-	EmptyWeight = 1582.5,
+	EmptyWeight = 1494.5,
 	Guns = { {
 			_file = "./CoreMods/aircraft/SA342/SA342.lua",
 			_origin = "SA342 AI by Polychop-Simulations",
@@ -578,7 +566,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		}, {
 			Name = "AircraftCarrier"
 		} },
-	M_empty = 1582.5,
+	M_empty = 1494.5,
 	M_fuel_max = 416.33,
 	M_max = 2100,
 	M_nominal = 1900,
@@ -601,18 +589,59 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			Y = -0.366,
 			Z = 0.984
 		}, {
+			DisplayName = "2",
 			FiZ = -3,
 			Launchers = { {
-					CLSID = "{LAU_SNEB68G}"
+					CLSID = "{TELSON8_SNEBT250}",
+					arg_value = 0.1,
+					connector = "AttachPoint"
 				}, {
-					CLSID = "{LAU_SNEB68_WP}"
+					CLSID = "{TELSON8_SNEBT251}",
+					arg_value = 0.1,
+					connector = "AttachPoint"
+				}, {
+					CLSID = "{TELSON8_SNEBT252}",
+					arg_value = 0.1,
+					connector = "AttachPoint"
+				}, {
+					CLSID = "{TELSON8_SNEBT253}",
+					arg_value = 0.1,
+					connector = "AttachPoint"
+				}, {
+					CLSID = "{TELSON8_SNEBT254_RED}",
+					arg_value = 0.1,
+					connector = "AttachPoint"
+				}, {
+					CLSID = "{TELSON8_SNEBT254_YELLOW}",
+					arg_value = 0.1,
+					connector = "AttachPoint"
+				}, {
+					CLSID = "{TELSON8_SNEBT254_GREEN}",
+					arg_value = 0.1,
+					connector = "AttachPoint"
+				}, {
+					CLSID = "{TELSON8_SNEBT256}",
+					arg_value = 0.1,
+					connector = "AttachPoint"
+				}, {
+					CLSID = "{TELSON8_SNEBT257}",
+					arg_value = 0.1,
+					connector = "AttachPoint"
+				}, {
+					CLSID = "{TELSON8_SNEBT259E}",
+					arg_value = 0.1,
+					connector = "AttachPoint"
 				} },
 			Number = 2,
 			Order = 2,
 			Type = 0,
 			X = 0.068,
 			Y = -0.153,
-			Z = -1.282
+			Z = -1.282,
+			arg = 1339,
+			arg_value = 0,
+			connector = "str_pnt_002",
+			use_full_connector_position = true
 		}, {
 			FiZ = 0,
 			Launchers = {},
@@ -660,6 +689,17 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				} },
 			Number = 7,
 			Order = 7,
+			Type = 0,
+			X = 0,
+			Y = 0,
+			Z = 0
+		}, {
+			FiZ = 0,
+			Launchers = { {
+					CLSID = "{SA342_Doors}"
+				} },
+			Number = 8,
+			Order = 8,
 			Type = 0,
 			X = 0,
 			Y = 0,

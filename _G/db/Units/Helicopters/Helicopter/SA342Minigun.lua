@@ -98,10 +98,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			critical_damage = 6,
 			deps_cells = { 35, 36, 39 }
 		},
-		[59] = {
-			args = { 152 },
-			critical_damage = 1
-		},
 		[63] = {
 			args = { 160 },
 			critical_damage = 10,
@@ -442,6 +438,16 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			pos = { 3, 0.7, -0.3 },
 			role = "instructor",
 			role_display_name = "Instructor pilot"
+		}, {
+			can_be_playable = true,
+			drop_canopy_name = 0,
+			ejection_added_speed = { 0, 0, 5 },
+			ejection_order = 3,
+			ejection_seat_name = 0,
+			pilot_body_arg = 420,
+			pos = { 3, 0.7, -0.3 },
+			role = "gunner",
+			role_display_name = "Gunner"
 		} },
 	crew_size = 2,
 	crew_stations = "HumanOrchestra",

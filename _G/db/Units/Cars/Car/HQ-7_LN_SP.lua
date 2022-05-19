@@ -28,7 +28,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					sightIndicationMode = 4,
 					sightMasterMode = 1
 				} },
-			PPI_view = "GenericPPI/GenericPPI",
 			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 0.78539816339745 } },
 			center = "CENTER_TOWER",
 			cockpit = { "_1A29/_1A29", { 0, 0, 0 } },
@@ -74,7 +73,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {}, {} }
 	},
-	attribute = { 2, 16, 102, "Redacted", "AA_missile", "SR SAM", "SAM SR", "SAM TR", "RADAR_BAND1_FOR_ARM", "All", "Ground Units", "Vehicles", "Ground vehicles", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "SAM related", "SAM elements" },
+	attribute = { 2, 16, 102, "Redacted", "AA_missile", "SR SAM" },
 	category = "Air Defence",
 	chassis = {},
 	driverCockpit = "DriverCockpit/DriverCockpitWithIRandLLTV",

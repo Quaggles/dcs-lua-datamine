@@ -72,7 +72,7 @@ _G["launcher"]["DIS_RKT_90_UG"] = {
 		} },
 	JettisonSubmunitionOnly = false,
 	Picture = "brm1_pod.png",
-	Weight = 382.5,
+	Weight = 462.5,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/rkt_brm1.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	attribute = { 4, 7, 32, "Redacted" },

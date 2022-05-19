@@ -47,46 +47,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				p = 80
 			},
 			pos = { 0, 5, 0 }
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "POINT_RDR"
-						} },
-					ECM_K = 0.65,
-					PL = { {
-							ammo_capacity = 1
-						} },
-					beamWidth = 1.5707963267949,
-					customViewPoint = { "GenericPPI/GenericPPI", { 0, 0, 0 } },
-					distanceMax = 30000,
-					distanceMin = 500,
-					maxShootingSpeed = 0,
-					max_number_of_missiles_channels = 4,
-					max_trg_alt = 5500,
-					min_trg_alt = 10,
-					reactionTime = 10,
-					reflection_limit = 0.12,
-					type = 102
-				} },
-			PPI_view = "GenericPPI/GenericPPI",
-			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.0471975511966 } },
-			drawArgument1 = 0,
-			mount_before_move = true,
-			omegaY = 0.5235987755983,
-			omegaZ = 0.5235987755983,
-			pidY = {
-				d = 8,
-				i = 0.1,
-				inn = 5,
-				p = 40
-			},
-			pidZ = {
-				d = 9,
-				i = 0.1,
-				inn = 10,
-				p = 80
-			},
-			pos = { 0, 5, 0 }
 		},
 		maxTargetDetectionRange = 30000,
 		radar_rotation_type = 1,

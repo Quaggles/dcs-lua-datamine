@@ -1,49 +1,43 @@
 _G["launcher"]["{LAU_SNEB68G}"] = {
 	CLSID = "{LAU_SNEB68G}",
 	Count = 8,
+	Cx_pil = 0.007,
 	Elements = { {
-			DrawArgs = { { 1, 1 }, { 2, 1 } },
-			Position = { 0, 0.04, 0.12 },
-			Rotation = { 0, 0, 0 },
-			ShapeName = "sneb68_eap"
+			IsAdapter = true,
+			ShapeName = "SA342_Telson8"
 		}, {
-			DrawArgs = { { 1, 1 }, { 2, 1 } },
-			Position = { 0, 0.04, 0.042 },
-			ShapeName = "sneb68_eap"
+			ShapeName = "SA342_SNEB68",
+			connector_name = "tube_01"
 		}, {
-			DrawArgs = { { 1, 1 }, { 2, 1 } },
-			Position = { 0, 0.04, -0.044 },
-			ShapeName = "sneb68_eap"
+			ShapeName = "SA342_SNEB68",
+			connector_name = "tube_02"
 		}, {
-			DrawArgs = { { 1, 1 }, { 2, 1 } },
-			Position = { 0, 0.04, -0.122 },
-			ShapeName = "sneb68_eap"
+			ShapeName = "SA342_SNEB68",
+			connector_name = "tube_03"
 		}, {
-			DrawArgs = { { 1, 1 }, { 2, 1 } },
-			Position = { 0, -0.042, -0.12 },
-			ShapeName = "sneb68_eap"
+			ShapeName = "SA342_SNEB68",
+			connector_name = "tube_04"
 		}, {
-			DrawArgs = { { 1, 1 }, { 2, 1 } },
-			Position = { 0, -0.042, -0.042 },
-			ShapeName = "sneb68_eap"
+			ShapeName = "SA342_SNEB68",
+			connector_name = "tube_05"
 		}, {
-			DrawArgs = { { 1, 1 }, { 2, 1 } },
-			Position = { 0, -0.042, 0.044 },
-			ShapeName = "sneb68_eap"
+			ShapeName = "SA342_SNEB68",
+			connector_name = "tube_06"
 		}, {
-			DrawArgs = { { 1, 1 }, { 2, 1 } },
-			Position = { 0, -0.042, 0.122 },
-			ShapeName = "sneb68_eap"
+			ShapeName = "SA342_SNEB68",
+			connector_name = "tube_07"
+		}, {
+			ShapeName = "SA342_SNEB68",
+			connector_name = "tube_08"
 		} },
 	Picture = "SNEB68.png",
-	Weight = 50.08,
-	_file = "./CoreMods/aircraft/SA342/SA342_Weapons.lua",
-	_origin = "SA342 AI by Polychop-Simulations",
-	adapter_type = <1>{ 4, 4, 32, "Redacted" },
-	attribute = <table 1>,
+	Weight = 70.4,
+	Weight_Empty = 30,
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
+	_origin = "AircraftWeaponPack",
+	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
-	displayName = "LAU_SNEB68G - 8xSNEB68_EAP",
-	kind_of_shipping = 1,
+	displayName = "Telson 8 - 8 x 68 mm SNEB Type 253 H1 HEAT",
 	name = "{LAU_SNEB68G}",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

@@ -98,10 +98,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			critical_damage = 6,
 			deps_cells = { 35, 36, 39 }
 		},
-		[59] = {
-			args = { 152 },
-			critical_damage = 1
-		},
 		[63] = {
 			args = { 160 },
 			critical_damage = 10,
@@ -170,6 +166,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	DisplayName = "SA342Mistral",
 	EPLRS = true,
 	EmptyWeight = 1559,
+	Guns = {},
 	H_din_one_eng = 6000,
 	H_din_two_eng = 6000,
 	H_max = 6000,
