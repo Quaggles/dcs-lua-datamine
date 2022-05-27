@@ -5,6 +5,14 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			id = "NS430allow",
 			label = "NS430 Allow",
 			playerOnly = true
+		}, {
+			arg = 1338,
+			boolean_inverted = false,
+			control = "checkbox",
+			defValue = false,
+			id = "SA342RemoveDoors",
+			label = "Remove Doors",
+			playerOnly = false
 		} },
 	AmmoWeight = 24,
 	CanopyGeometry = { -0.76604444311898, -0.81603492345171, -0.86602540378444, 0.059391174613885, 0.98480775301221 },
