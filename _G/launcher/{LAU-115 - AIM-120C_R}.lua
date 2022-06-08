@@ -11,13 +11,13 @@ _G["launcher"]["{LAU-115 - AIM-120C_R}"] = {
 		} },
 	Picture = "us_AIM-120C.png",
 	PictureBlendColor = "0xffffffff",
-	Weight = 306.5,
+	Weight = 306.48,
 	Weight_Empty = 145,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/aim120_family.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 4,
-	displayName = "LAU-115 with 1 x LAU-127 AIM-120C-5 AMRAAM - Active Rdr AAM",
+	displayName = "LAU-115 with 1 x LAU-127 AIM-120C AMRAAM - Active Radar AAM",
 	name = "{LAU-115 - AIM-120C_R}",
 	wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 }

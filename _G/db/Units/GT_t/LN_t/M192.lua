@@ -27,6 +27,5 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["M192"] = {
 	reflection_limit = 0.1,
 	sensor = {},
 	show_external_missile = true,
-	type = 4,
-	xc = -0.529
+	type = 4
 }

@@ -21,6 +21,5 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["howitzer_2A18"] = {
 	reactionTime = 100,
 	reactionTimeLOFAC = 3,
 	sensor = {},
-	type = 6,
-	xc = 0.716
+	type = 6
 }

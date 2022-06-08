@@ -476,12 +476,29 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			}, {
 				lights = { {
 						lights = { {
+								angle_max = 1.0471975511966,
 								argument = 209,
 								connector = "MAIN_SPOT_PTR",
 								dir_correction = {
 									azimuth = 1.0471975511966
 								},
 								proto = <4>{
+									angle_change_rate = -0.11780972450962,
+									angle_max = 0.47123889803847,
+									angle_min = 0.37699111843078,
+									color = { 255, 201, 125, 0.1608210510119 },
+									power_up_t = 0.75,
+									range = 192
+								},
+								typename = "spotlight"
+							}, {
+								angle_max = 0.39269908169872,
+								argument = 209,
+								connector = "MAIN_SPOT_PTR",
+								dir_correction = {
+									azimuth = 1.0821041362365
+								},
+								proto = <5>{
 									angle_change_rate = 0.043633231299858,
 									angle_max = 0.17453292519943,
 									angle_min = 0.10471975511966,
@@ -543,12 +560,22 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			[6] = {
 				lights = { {
 						lights = { {
+								angle_max = 1.0471975511966,
 								argument = 209,
 								connector = "MAIN_SPOT_PTR",
 								dir_correction = {
-									azimuth = 1.0471975511966
+									azimuth = 1.3962634015955
 								},
 								proto = <table 4>,
+								typename = "spotlight"
+							}, {
+								angle_max = 0.39269908169872,
+								argument = 209,
+								connector = "MAIN_SPOT_PTR",
+								dir_correction = {
+									azimuth = 1.4137166941154
+								},
+								proto = <table 5>,
 								typename = "spotlight"
 							} },
 						typename = "collection"
@@ -565,7 +592,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 								},
 								period = 2,
 								phase_shift = 0,
-								proto = <5>{
+								proto = <6>{
 									angle_max = 3.1415926535898,
 									angle_min = 0.5235987755983,
 									color = { 0.92, 0.92, 1, 0.20784609690827 },
@@ -582,7 +609,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 								},
 								period = 2,
 								phase_shift = 0.5,
-								proto = <table 5>,
+								proto = <table 6>,
 								typename = "natostrobelight"
 							} },
 						typename = "Collection"

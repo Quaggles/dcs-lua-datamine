@@ -414,7 +414,21 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 						}, {
 							connector_name = "Rocket_Point_126",
 							drawArgument = 156
-						}, {
+						} },
+					PL = { {
+							ammo_capacity = 4,
+							type_ammunition = {}
+						} },
+					max_number_of_missiles_channels = 4,
+					sensor = {}
+				} },
+			angles = { { 3.1415926535898, 0, -1.5707963267949, 1.5707963267949 } },
+			area = "KORMA_TOP",
+			canSetTacticalDir = true,
+			pos = { -83.594, 7.002, -4.54 }
+		}, {
+			LN = { {
+					BR = { {
 							connector_name = "Rocket_Point_127",
 							drawArgument = 157
 						}, {
@@ -428,14 +442,12 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							drawArgument = 160
 						} },
 					PL = { {
-							ammo_capacity = 8,
 							type_ammunition = {}
 						} },
 					sensor = {}
 				} },
-			angles = { {} },
-			area = "KORMA_TOP",
-			pos = { -83.594, 7.002, -4.54 }
+			angles = { { 0, -3.1415926535898, -1.5707963267949, 1.5707963267949 } },
+			pos = {}
 		}, {
 			LN = { {
 					ECM_K = 0.5,
@@ -853,7 +865,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							ammo_capacity = 45,
 							type_ammunition = {}
 						} },
-					depends_on_unit = <1>{ { { "self", 11 } }, { { "self", 12 } }, { { "self", 13 } }, { { "self", 14 } }, { { "self", 15 } }, { { "self", 16 } }, { { "self", 17 } }, { { "self", 18 } }, { { "self", 19 } } },
+					depends_on_unit = <1>{ { { "self", 12 } }, { { "self", 13 } }, { { "self", 14 } }, { { "self", 15 } }, { { "self", 16 } }, { { "self", 17 } }, { { "self", 18 } }, { { "self", 19 } }, { { "self", 20 } } },
 					sensor = {}
 				} },
 			angles = { {} },

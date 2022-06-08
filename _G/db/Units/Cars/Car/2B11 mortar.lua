@@ -12,6 +12,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_GUN",
+							muzzleBrakeType = 2,
 							pos = {}
 						} },
 					PL = { {
@@ -21,7 +22,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							shell_name = {}
 						} },
 					connectorFire = false,
-					sensor = {}
+					sensor = {},
+					xc = 0.967
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, 0.78539816339745, 1.3962634015955 } },
 			center = "CENTER_TOWER",

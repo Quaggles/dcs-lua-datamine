@@ -64,7 +64,8 @@ _G["launcher"]["{LAU3_FFAR_WP156}"] = {
 			connector_name = "tube_19"
 		} },
 	Picture = "LAU61.png",
-	Weight = 312.8707256,
+	Weight = 247.3707256,
+	Weight_Empty = 34.5,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/FFAR.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },

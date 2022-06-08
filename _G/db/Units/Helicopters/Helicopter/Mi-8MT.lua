@@ -3202,7 +3202,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			Z = 3.26,
 			use_full_connector_position = true
 		}, {
-			DisplayName = "KORD",
+			DisplayName = "L MG",
 			Launchers = { {
 					CLSID = "KORD_12_7",
 					arg_value = 1
@@ -3218,7 +3218,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			connector = "Gunner_Point",
 			use_full_connector_position = true
 		}, {
-			DisplayName = "PKT",
+			DisplayName = "R MG",
 			Launchers = { {
 					CLSID = "PKT_7_62",
 					arg_value = -1

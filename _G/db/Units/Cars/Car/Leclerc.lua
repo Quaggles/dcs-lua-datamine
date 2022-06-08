@@ -99,6 +99,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	category = "Armor",
 	chassis = {
 		X_gear_2 = -2.3,
+		gearRatios = {},
 		life = 32
 	},
 	crew_locale = "ENG",
@@ -120,7 +121,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	swapped_names = true,
 	swing_on_run = false,
 	tags = { "Armor", "MBT" },
-	turbine = true,
 	type = "Leclerc",
 	visual = {
 		IR = {

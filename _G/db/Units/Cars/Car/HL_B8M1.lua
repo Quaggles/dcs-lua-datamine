@@ -3,6 +3,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	Countries = { "Japan" },
 	Crew = 2,
 	DetectionRange = 5000,
 	DisplayName = "MLRS HL with B8M1 80mm",

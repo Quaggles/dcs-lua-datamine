@@ -147,7 +147,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	swing_on_run = false,
 	tags = { "Armor", "SP ATGM" },
 	toggle_alarm_state_interval = 4,
-	turbine = false,
 	type = "M1134 Stryker ATGM",
 	visual = {
 		IR = {

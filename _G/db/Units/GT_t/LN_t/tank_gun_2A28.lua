@@ -14,6 +14,5 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["tank_gun_2A28"] = {
 	max_trg_alt = 300,
 	reactionTime = 2,
 	sensor = {},
-	type = 2,
-	xc = 0.512
+	type = 2
 }

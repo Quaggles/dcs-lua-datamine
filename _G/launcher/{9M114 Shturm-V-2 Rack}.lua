@@ -8,6 +8,6 @@ _G["launcher"]["{9M114 Shturm-V-2 Rack}"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
-	displayName = "9M114 Shturm-V-2 Rack",
+	displayName = "Missile Launcher Rack (Empty)",
 	name = "{9M114 Shturm-V-2 Rack}"
 }

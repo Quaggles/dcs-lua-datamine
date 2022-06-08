@@ -15,6 +15,5 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["M901"] = {
 	reactionTime = 2,
 	reflection_limit = 0.049,
 	sensor = {},
-	type = 4,
-	xc = -1.109
+	type = 4
 }

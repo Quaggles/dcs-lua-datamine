@@ -111,7 +111,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	swapped_names = true,
 	swing_on_run = false,
 	tags = { "Armor", "APC" },
-	turbine = false,
 	type = "BTR-80",
 	visual = {
 		IR = {

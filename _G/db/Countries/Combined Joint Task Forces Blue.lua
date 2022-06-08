@@ -196,22 +196,6 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "Coach a platform"
 				}, {
-					Name = "HL_DSHK"
-				}, {
-					Name = "HL_KORD"
-				}, {
-					Name = "tt_DSHK"
-				}, {
-					Name = "tt_KORD"
-				}, {
-					Name = "HL_ZU-23"
-				}, {
-					Name = "tt_ZU-23"
-				}, {
-					Name = "HL_B8M1"
-				}, {
-					Name = "tt_B8M1"
-				}, {
 					Name = "ES44AH"
 				}, {
 					Name = "Boxcartrinity"
@@ -804,6 +788,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "Allies_Director",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "CCKW_353",
 					in_service = 0,
 					out_of_service = 40000
@@ -853,6 +841,38 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "KrAZ6322",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "tt_KORD",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "tt_DSHK",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "tt_B8M1",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "tt_ZU-23",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "HL_KORD",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "HL_DSHK",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "HL_B8M1",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "HL_ZU-23",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -1177,6 +1197,10 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "PLZ05",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "TYPE-59",
 					in_service = 0,
 					out_of_service = 40000
 				}, {

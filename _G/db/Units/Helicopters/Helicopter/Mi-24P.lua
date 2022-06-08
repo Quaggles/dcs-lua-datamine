@@ -82,6 +82,16 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			defValue = true,
 			id = "OperatorNVG",
 			label = "Allow Operators NVG"
+		}, {
+			control = "checkbox",
+			defValue = true,
+			id = "R60equipment",
+			label = "R-60 equipment",
+			weaponRestricted = {
+				["{275A2855-4A79-4B2D-B082-91EA2ADF4691}"] = true,
+				["{APU-60-1_R_60M}"] = true,
+				["{B0DBC591-0F52-4F7D-AD7B-51E67725FB81}"] = true
+			}
 		} },
 	AmmoWeight = 207.5,
 	CanopyGeometry = { -0.93969262078591, -0.95280922353749, -0.96592582628907, 0.0094409633615699, 0.98480775301221 },
@@ -854,8 +864,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	},
 	IR_emission_coeff = 0.5,
 	InternalCargo = {
-		maximalCapacity = 2400,
-		nominalCapacity = 2400
+		maximalCapacity = 800,
+		nominalCapacity = 800
 	},
 	LandRWCategories = { {
 			Name = "AircraftCarrier"
@@ -894,42 +904,47 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			connector = "hardpoint-1",
 			use_full_connector_position = true
 		}, {
-			Launchers = <8>{ {
+			Launchers = { <8>{
 					CLSID = "B_8V20A_CM"
-				}, {
+				}, <9>{
 					CLSID = "B_8V20A_OFP2"
-				}, {
+				}, <10>{
 					CLSID = "B_8V20A_OM"
-				}, {
+				}, <11>{
 					CLSID = "{UB-32A-24}"
-				}, {
+				}, <12>{
 					CLSID = "{B919B0F4-7C25-455E-9A02-CEA51DB895E3}"
-				}, {
+				}, <13>{
 					CLSID = "{2x9M120_Ataka_V}"
-				}, {
+				}, <14>{
 					CLSID = "{2x9M120F_Ataka_V}"
-				}, {
+				}, <15>{
 					CLSID = "{2x9M220_Ataka_V}"
-				}, {
+				}, <16>{
 					CLSID = "{FC56DF80-9B09-44C5-8976-DCFAFF219062}"
-				}, {
+				}, <17>{
 					CLSID = "{PTB_450}"
-				}, {
+				}, <18>{
 					CLSID = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}"
-				}, {
+				}, <19>{
 					CLSID = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}"
-				}, {
+				}, <20>{
 					CLSID = "{FAB_250_M62}"
-				}, {
+				}, <21>{
 					CLSID = "{FB3CE165-BF07-4979-887C-92B87F13276B}"
-				}, {
+				}, <22>{
 					CLSID = "{4203753F-8198-4E85-9924-6F8FF679F9FF}"
-				}, {
+				}, <23>{
 					CLSID = "{RBK_250_275_AO_1SCH}"
-				}, {
+				}, <24>{
 					CLSID = "{APU_68_S-24}"
-				}, {
+				}, <25>{
 					CLSID = "GUV_VOG"
+				}, <26>{
+					CLSID = "{APU-60-1_R_60M}",
+					Type = 1
+				}, {
+					CLSID = "{B0DBC591-0F52-4F7D-AD7B-51E67725FB81}"
 				} },
 			Number = 2,
 			Order = 2,
@@ -941,7 +956,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			use_full_connector_position = true
 		}, {
 			FiZ = 0,
-			Launchers = <9>{ {
+			Launchers = <27>{ {
 					CLSID = "B_8V20A_CM"
 				}, {
 					CLSID = "B_8V20A_OFP2"
@@ -992,7 +1007,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			use_full_connector_position = true
 		}, {
 			FiZ = 0,
-			Launchers = <table 9>,
+			Launchers = <table 27>,
 			Number = 4,
 			Order = 4,
 			Type = 0,
@@ -1002,7 +1017,9 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			connector = "hardpoint-4",
 			use_full_connector_position = true
 		}, {
-			Launchers = <table 8>,
+			Launchers = { <table 8>, <table 9>, <table 10>, <table 11>, <table 12>, <table 13>, <table 14>, <table 15>, <table 16>, <table 17>, <table 18>, <table 19>, <table 20>, <table 21>, <table 22>, <table 23>, <table 24>, <table 25>, <table 26>, {
+					CLSID = "{275A2855-4A79-4B2D-B082-91EA2ADF4691}"
+				} },
 			Number = 5,
 			Order = 5,
 			Type = 0,
@@ -1267,6 +1284,222 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				x_trans = 0,
 				y_trans = 0,
 				z_trans = 0
+			} }, { {
+				hAngle = 15,
+				rollAngle = 0,
+				vAngle = -20.067383,
+				viewAngle = 67.452896,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = 51.644135,
+				rollAngle = 0,
+				vAngle = -51.870411,
+				viewAngle = 37.846794,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = -1.912186,
+				rollAngle = 0,
+				vAngle = -34.446247,
+				viewAngle = 36.178646,
+				x_trans = 0,
+				y_trans = -0.025421,
+				z_trans = 0.073226
+			}, {
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = -90,
+				viewAngle = 90.348198,
+				x_trans = -4,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = -90.361992,
+				rollAngle = 0,
+				vAngle = -44.103138,
+				viewAngle = 73.605141,
+				x_trans = 0.169696,
+				y_trans = -0.073508,
+				z_trans = 0
+			}, {
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = -4.47801,
+				viewAngle = 42.512844,
+				x_trans = 0.154018,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = -108.85202,
+				rollAngle = 0,
+				vAngle = 0.085984,
+				viewAngle = 91.348198,
+				x_trans = 0.190306,
+				y_trans = 0.044778,
+				z_trans = 0.139404
+			}, {
+				hAngle = 16.411518,
+				rollAngle = 0,
+				vAngle = -27.209915,
+				viewAngle = 89.777542,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = -0.218292
+			}, {
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 34.042202,
+				viewAngle = 88.727844,
+				x_trans = 0.142145,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = -32.128311,
+				rollAngle = 0,
+				vAngle = -5.720805,
+				viewAngle = 59.208893,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = 14.80306,
+				rollAngle = 0,
+				vAngle = 3.332499,
+				viewAngle = 56.03204,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = -14.414484,
+				rollAngle = 0,
+				vAngle = 3.332499,
+				viewAngle = 56.03204,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 89.777542,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				x_trans = -0.12,
+				y_trans = 0.03,
+				z_trans = 0
+			} }, { {
+				hAngle = 15,
+				rollAngle = 0,
+				vAngle = -20.067383,
+				viewAngle = 67.452896,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = 51.644135,
+				rollAngle = 0,
+				vAngle = -51.870411,
+				viewAngle = 37.846794,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = -1.912186,
+				rollAngle = 0,
+				vAngle = -34.446247,
+				viewAngle = 36.178646,
+				x_trans = 0,
+				y_trans = -0.025421,
+				z_trans = 0.073226
+			}, {
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = -90,
+				viewAngle = 90.348198,
+				x_trans = -4,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = -90.361992,
+				rollAngle = 0,
+				vAngle = -44.103138,
+				viewAngle = 73.605141,
+				x_trans = 0.169696,
+				y_trans = -0.073508,
+				z_trans = 0
+			}, {
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = -4.47801,
+				viewAngle = 42.512844,
+				x_trans = 0.154018,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = -108.85202,
+				rollAngle = 0,
+				vAngle = 0.085984,
+				viewAngle = 91.348198,
+				x_trans = 0.190306,
+				y_trans = 0.044778,
+				z_trans = 0.139404
+			}, {
+				hAngle = 16.411518,
+				rollAngle = 0,
+				vAngle = -27.209915,
+				viewAngle = 89.777542,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = -0.218292
+			}, {
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 34.042202,
+				viewAngle = 88.727844,
+				x_trans = 0.142145,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = -32.128311,
+				rollAngle = 0,
+				vAngle = -5.720805,
+				viewAngle = 59.208893,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = 14.80306,
+				rollAngle = 0,
+				vAngle = 3.332499,
+				viewAngle = 56.03204,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = -14.414484,
+				rollAngle = 0,
+				vAngle = 3.332499,
+				viewAngle = 56.03204,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 89.777542,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				x_trans = -0.12,
+				y_trans = 0.03,
+				z_trans = 0
 			} } },
 	TakeOffRWCategories = { {
 			Name = "AircraftCarrier"
@@ -1332,6 +1565,34 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					x = { -0.1, 0.5 },
 					y = { -0.3, 0.1 },
 					z = { -0.3, 0.3 }
+				}
+			}, {
+				Allow360rotation = false,
+				CameraAngleLimits = { 90, -45, 60 },
+				CameraAngleRestriction = { false, 60, 0.4 },
+				CameraViewAngleLimits = { 20, 100 },
+				CockpitLocalPoint = { 0, 0, 0 },
+				CockpitLocalPointAzimuth = 90,
+				EyePoint = { 0.09, 0, 0 },
+				limits_6DOF = {
+					roll = 45,
+					x = { -5, 5 },
+					y = { -5, 5 },
+					z = { -5, 5 }
+				}
+			}, {
+				Allow360rotation = false,
+				CameraAngleLimits = { 90, -45, 60 },
+				CameraAngleRestriction = { false, 60, 0.4 },
+				CameraViewAngleLimits = { 20, 100 },
+				CockpitLocalPoint = { 0, 0, 0 },
+				CockpitLocalPointAzimuth = -90,
+				EyePoint = { 0.09, 0, 0 },
+				limits_6DOF = {
+					roll = 45,
+					x = { -5, 5 },
+					y = { -5, 5 },
+					z = { -5, 5 }
 				}
 			},
 			CockpitAnchorPoint = { 3.176, 0.586, -0.007 }

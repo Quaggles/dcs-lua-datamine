@@ -37,6 +37,5 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["_9M311"] = {
 	reactionTime = 5,
 	reflection_limit = 0.05,
 	sensor = {},
-	type = 33,
-	xc = -1.072
+	type = 33
 }

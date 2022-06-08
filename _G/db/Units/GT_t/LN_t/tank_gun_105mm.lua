@@ -13,6 +13,5 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["tank_gun_105mm"] = {
 	max_trg_alt = 500,
 	reactionTime = 2,
 	sensor = {},
-	type = 2,
-	xc = 1.059
+	type = 2
 }

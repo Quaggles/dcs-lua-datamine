@@ -19,6 +19,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_GUN",
+							muzzleBrakeType = 2,
 							recoilArgument = 23,
 							recoilTime = 0.15
 						} },

@@ -12,20 +12,19 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_24"] = {
 			velK = 1
 		},
 		autopilot = {
-			K = 5,
-			Kd = 0,
-			Ki = 0,
-			Kix = 0,
-			Ks = 4,
-			Kw = 1,
-			Kx = 0,
-			PN_dist_data = { 2000, 1, 500, 1 },
-			add_err_val = 0.02,
-			conv_input = 0,
-			delay = 1,
-			fins_limit = 0.43633231299858,
-			rotated_WLOS_input = 0,
-			w_limit = 0.087266462599716
+			Kbias = 4,
+			Kd = 2,
+			Kdx = 0.2,
+			Ki = 10,
+			Kix = 0.8,
+			Knav = 4,
+			Kpitch = 2,
+			Tf = 0.2,
+			delay = 2,
+			fins_limit = 0.34906585039887,
+			fins_limit_x = 0.17453292519943,
+			null_roll = 0.78539816339745,
+			op_time = 100
 		},
 		fm = {
 			A = 0.6,
@@ -44,12 +43,13 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_24"] = {
 			finsTau = 0.1,
 			mass = 1087,
 			maxAoa = 0.43633231299858,
+			model_roll = 0.78539816339745,
 			wind_sigma = 0,
 			wind_time = 1000
 		},
 		scheme = "schemes/bombs/bomb-paveway-III.sch",
 		seeker = {
-			FOV = 0.5235987755983,
+			FOV = 1.5707963267949,
 			delay = 0
 		},
 		warhead = {
@@ -67,7 +67,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_24"] = {
 			piercing_mass = 69.92
 		}
 	},
-	display_name = "GBU-24 Paveway III",
+	display_name = "GBU-24A/B Paveway III",
 	mass = 1087,
 	model = "GBU-24",
 	name = "GBU_24",
@@ -82,20 +82,19 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_24"] = {
 			velK = 1
 		},
 		autopilot = {
-			K = 5,
-			Kd = 0,
-			Ki = 0,
-			Kix = 0,
-			Ks = 4,
-			Kw = 1,
-			Kx = 0,
-			PN_dist_data = { 2000, 1, 500, 1 },
-			add_err_val = 0.02,
-			conv_input = 0,
-			delay = 1,
-			fins_limit = 0.43633231299858,
-			rotated_WLOS_input = 0,
-			w_limit = 0.087266462599716
+			Kbias = 4,
+			Kd = 2,
+			Kdx = 0.2,
+			Ki = 10,
+			Kix = 0.8,
+			Knav = 4,
+			Kpitch = 2,
+			Tf = 0.2,
+			delay = 2,
+			fins_limit = 0.34906585039887,
+			fins_limit_x = 0.17453292519943,
+			null_roll = 0.78539816339745,
+			op_time = 100
 		},
 		fm = {
 			A = 0.6,
@@ -114,12 +113,13 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_24"] = {
 			finsTau = 0.1,
 			mass = 1087,
 			maxAoa = 0.43633231299858,
+			model_roll = 0.78539816339745,
 			wind_sigma = 0,
 			wind_time = 1000
 		},
 		scheme = "schemes/bombs/bomb-paveway-III.sch",
 		seeker = {
-			FOV = 0.5235987755983,
+			FOV = 1.5707963267949,
 			delay = 0
 		},
 		warhead = {

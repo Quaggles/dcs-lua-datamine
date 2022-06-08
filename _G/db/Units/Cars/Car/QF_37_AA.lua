@@ -25,6 +25,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							switch_on_delay = 0.1
 						} },
 					connectorFire = true,
+					depends_on_unit = { { { "Allies_Director", 2 } }, { { "none" } } },
 					distanceMax = 9000,
 					distanceMin = 0,
 					max_trg_alt = 9000,

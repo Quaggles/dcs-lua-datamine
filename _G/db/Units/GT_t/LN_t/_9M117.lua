@@ -23,6 +23,5 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["_9M117"] = {
 	radialDisperse = 2.7,
 	reactionTime = 10,
 	sensor = {},
-	type = 33,
-	xc = 0.585
+	type = 33
 }

@@ -19,6 +19,5 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["roland"] = {
 	maxTrackingSpeed = 0,
 	reactionTime = 8,
 	sensor = {},
-	type = 4,
-	xc = -3.255
+	type = 4
 }

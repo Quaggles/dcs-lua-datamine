@@ -64,7 +64,8 @@ _G["launcher"]["LAU3_WP156"] = {
 			connector_name = "tube_19"
 		} },
 	Picture = "LAU61.png",
-	Weight = 234,
+	Weight = 155.91,
+	Weight_Empty = 34.5,
 	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 7, 32, "Redacted" },
 	displayName = 'LAU-3 pod - 19 x 2.75" Hydra, UnGd Rkts M156, Wht Phos',

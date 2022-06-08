@@ -1,6 +1,5 @@
 _G["Pylons"]["9M114-PYLON_EMPTY"] = {
 	IsAdapter = true,
-	Position = { 0, 0, 0 },
 	ShapeName = "9M114-PYLON_EMPTY",
 	_unique_resource_name = "weapons.adapters.9M114-PYLON_EMPTY",
 	index = "Redacted",

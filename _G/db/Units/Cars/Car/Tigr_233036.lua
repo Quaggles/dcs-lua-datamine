@@ -30,7 +30,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	attribute = { 2, 17, 25, "Redacted", "APC", "human_vehicle", "Infantry carriers", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "NonAndLightArmoredUnits", "LightArmoredUnits" },
 	category = "Unarmed",
-	chassis = {},
+	chassis = {
+		gearRatios = {}
+	},
 	driverViewConnectorName = "DRIVER_POINT",
 	enablePlayerCanDrive = true,
 	mapclasskey = "P0091000005",
@@ -44,7 +46,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	swapped_names = true,
 	swing_on_run = false,
 	tags = { "Unarmed", "Scout/Recon" },
-	turbine = true,
 	type = "Tigr_233036",
 	visual = {
 		IR = {

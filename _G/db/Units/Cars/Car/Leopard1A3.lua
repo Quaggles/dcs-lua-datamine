@@ -123,7 +123,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	swapped_names = true,
 	swing_on_run = false,
 	tags = { "Armor", "MBT" },
-	turbine = false,
 	type = "Leopard1A3",
 	visual = {
 		IR = {

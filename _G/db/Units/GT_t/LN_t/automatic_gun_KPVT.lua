@@ -34,6 +34,5 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["automatic_gun_KPVT"] = {
 	name = "KPVT",
 	reactionTime = 1.8,
 	sensor = {},
-	type = 12,
-	xc = 1.251
+	type = 12
 }

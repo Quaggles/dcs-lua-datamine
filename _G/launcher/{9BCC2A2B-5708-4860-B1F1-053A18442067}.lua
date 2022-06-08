@@ -1,7 +1,7 @@
 _G["launcher"]["{9BCC2A2B-5708-4860-B1F1-053A18442067}"] = {
 	CLSID = "{9BCC2A2B-5708-4860-B1F1-053A18442067}",
 	Elements = { {
-			ShapeName = "AGM-154"
+			ShapeName = "AGM-154C"
 		} },
 	Picture = "AGM154.png",
 	Weight = 484,

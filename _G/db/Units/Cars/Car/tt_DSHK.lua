@@ -3,6 +3,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	Countries = { "Japan" },
 	Crew = 2,
 	DetectionRange = 5000,
 	DisplayName = "Scout LC with DSHK 12.7mm",
@@ -64,6 +65,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 17, 26, "Redacted", "APC", "Infantry carriers", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "NonAndLightArmoredUnits", "LightArmoredUnits" },
 	category = "Armor",
 	chassis = {
+		gearRatios = {},
 		mass = 2155
 	},
 	driverCockpit = "DriverCockpit/DriverCockpit",

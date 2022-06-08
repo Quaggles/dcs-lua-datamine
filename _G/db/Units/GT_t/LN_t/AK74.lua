@@ -11,9 +11,9 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["AK74"] = {
 			switch_on_delay = 3
 		} },
 	additionalShotDispersion = {
-		azimuth = 0,
+		azimuth = -0.0098174770424681,
 		compensationK = 5,
-		elevation = 0.0098174770424681
+		elevation = 0
 	},
 	display_name = "AK-74",
 	distanceMax = 500,

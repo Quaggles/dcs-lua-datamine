@@ -86,7 +86,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 0.34906585039887 } },
 			center = "CENTER_TOWER",
-			cockpit = { "TZF_5e/TZF_5e", { 0, 0, 0 } },
+			cockpit = { "Daimler_MK1/Daimler_MK1", { 0, 0, 0 } },
 			drawArgument1 = 0,
 			drawArgument2 = 1,
 			omegaY = 0.2757620218151,

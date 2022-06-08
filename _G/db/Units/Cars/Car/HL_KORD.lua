@@ -3,6 +3,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	Countries = { "Japan" },
 	Crew = 2,
 	DetectionRange = 5000,
 	DisplayName = "Scout HL with KORD 12.7mm",

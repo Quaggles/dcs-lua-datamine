@@ -126,7 +126,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	swing_on_run = false,
 	tags = { "Armor", "IFV" },
 	toggle_alarm_state_interval = 4,
-	turbine = false,
 	type = "M-2 Bradley",
 	visual = {
 		IR = {

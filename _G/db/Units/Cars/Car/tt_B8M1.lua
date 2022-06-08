@@ -3,6 +3,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	Countries = { "Japan" },
 	Crew = 2,
 	DetectionRange = 5000,
 	DisplayName = "MLRS LC with B8M1 80mm",
@@ -105,6 +106,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 17, 27, "Redacted", "</WSTYPE>", "MLRS", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "Indirect fire", "NonAndLightArmoredUnits", "LightArmoredUnits", "Artillery" },
 	category = "Artillery",
 	chassis = {
+		gearRatios = {},
 		mass = 2545
 	},
 	driverCockpit = "DriverCockpit/DriverCockpit",

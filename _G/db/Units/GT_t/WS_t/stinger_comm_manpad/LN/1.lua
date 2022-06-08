@@ -5,6 +5,5 @@ _G["db"]["Units"]["GT_t"]["WS_t"]["stinger_comm_manpad"]["LN"]["#Index"] = {
 	min_trg_alt = 10,
 	reactionTime = 5,
 	reflection_limit = 0.22,
-	type = 102,
-	xc = 0
+	type = 102
 }

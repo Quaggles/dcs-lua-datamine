@@ -116,7 +116,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	swapped_names = true,
 	swing_on_run = false,
 	tags = { "Armor", "IFV" },
-	turbine = false,
 	type = "M1126 Stryker ICV",
 	visual = {
 		IR = {

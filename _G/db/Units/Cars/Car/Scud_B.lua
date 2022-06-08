@@ -189,7 +189,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	swing_on_run = false,
 	tags = { "MissilesSS", "SSM" },
 	toggle_alarm_state_interval = 20,
-	turbine = false,
 	type = "Scud_B",
 	verticalDeviationCompensationPeriod = 10,
 	visual = {

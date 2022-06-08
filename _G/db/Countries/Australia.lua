@@ -482,6 +482,38 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "tt_KORD",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "tt_DSHK",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "tt_B8M1",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "tt_ZU-23",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "HL_KORD",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "HL_DSHK",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "HL_B8M1",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "HL_ZU-23",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Electric locomotive"
 				}, {
 					Name = "Locomotive"
@@ -498,22 +530,6 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "Coach a platform"
 				}, {
-					Name = "HL_DSHK"
-				}, {
-					Name = "HL_KORD"
-				}, {
-					Name = "tt_DSHK"
-				}, {
-					Name = "tt_KORD"
-				}, {
-					Name = "HL_ZU-23"
-				}, {
-					Name = "tt_ZU-23"
-				}, {
-					Name = "HL_B8M1"
-				}, {
-					Name = "tt_B8M1"
-				}, {
 					Name = "M4_Sherman"
 				}, {
 					Name = "M2A1_halftrack"
@@ -529,6 +545,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Churchill_VII"
 				}, {
 					Name = "Tetrarch"
+				}, {
+					Name = "Allies_Director"
 				}, {
 					Name = "CCKW_353"
 				}, {

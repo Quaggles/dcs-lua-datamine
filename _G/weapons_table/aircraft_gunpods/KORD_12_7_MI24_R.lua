@@ -1,36 +1,8 @@
-_G["launcher"]["KORD_12_7_MI24"] = {
-	CLSID = "KORD_12_7_MI24",
-	Cx_pil = 0.001220703125,
-	Elements = { {
-			Position = { 0, 0, 0 },
-			ShapeName = "mi-24p_kord"
-		} },
-	Picture = "M60.png",
-	PictureBlendColor = "0xffffffff",
-	Weight = 95,
-	_file = "./CoreMods/aircraft/AircraftWeaponPack/gunpods.lua",
-	_origin = "AircraftWeaponPack",
-	attribute = { 4, 15, 46, "Redacted" },
-	category = 6,
-	control_container_data = {
-		arg_c_num = 0,
-		arg_x = 0,
-		arg_x_ch_range = { 0, 1 },
-		arg_y = 423,
-		arg_y_ch_range = { 0.225, -0.218 },
-		arg_z = 424,
-		arg_z_ch_range = { -0.444, 0.111 },
-		init_c = -0.6,
-		init_state = true,
-		rate_x = 0,
-		rate_y = 60,
-		rate_z = 60,
-		rot_x = { 0, 0 },
-		rot_y = { -40, 40 },
-		rot_z = { -40, 10 }
-	},
-	displayName = "Kord 12.7mm HMG",
-	gun_mounts = { {
+_G["weapons_table"]["aircraft_gunpods"]["KORD_12_7_MI24_R"] = {
+	_unique_resource_name = "weapons.gunmounts.KORD_12_7_MI24_R",
+	display_name = "KORD_12_7_MI24_R",
+	gunpod_name = "KORD_12_7_MI24_R",
+	mounts = { {
 			aft_gun_mount = false,
 			azimuth_initial = 0,
 			barrel_circular_error = 0.0007,
@@ -204,12 +176,7 @@ _G["launcher"]["KORD_12_7_MI24"] = {
 				name = "KORD_side_gun"
 			}
 		} },
-	kind_of_shipping = 2,
-	name = "KORD_12_7_MI24",
-	shape_table_data = { {
-			file = "mi-24p_kord",
-			index = "Redacted",
-			name = "mi-24p_kord",
-			username = "MI24Gunner"
-		} }
+	name = "KORD_12_7_MI24_R",
+	short_name = "KORD_12_7_MI24_R",
+	ws_type = "Redacted"
 }

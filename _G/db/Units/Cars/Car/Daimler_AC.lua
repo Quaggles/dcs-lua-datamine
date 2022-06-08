@@ -86,6 +86,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 0.34906585039887 } },
 			center = "CENTER_TOWER",
+			cockpit = { "Daimler_MK1/Daimler_MK1", { 0, 0, 0 } },
 			drawArgument1 = 0,
 			drawArgument2 = 1,
 			omegaY = 0.2757620218151,
@@ -102,6 +103,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				inn = 0.2,
 				p = 10
 			},
+			pointer = "POINT_SIGHT_01",
 			pos = { -0.06, 1.639, 0 }
 		},
 		maxTargetDetectionRange = 5000

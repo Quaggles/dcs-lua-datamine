@@ -36,6 +36,14 @@ _G["rockets"]["#Index"] = {
 	display_name = "CATM-9M",
 	exhaust = { 0.7, 0.7, 0.7, 0.08 },
 	name = "CATM_9M",
+	shape_table_data = { {
+			file = "catm-9",
+			fire = { 0, 1 },
+			index = "Redacted",
+			life = 1,
+			name = "CATM-9M",
+			username = "CATM-9M"
+		} },
 	sigma = { 3, 3, 3 },
 	t_acc = 5,
 	t_b = 0,

@@ -23,6 +23,5 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["Malutka"] = {
 	reactionTime = 10,
 	sensor = {},
 	show_external_missile = true,
-	type = 33,
-	xc = 0.512
+	type = 33
 }
