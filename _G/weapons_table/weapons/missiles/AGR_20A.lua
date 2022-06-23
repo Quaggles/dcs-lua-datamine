@@ -1,5 +1,5 @@
 _G["weapons_table"]["weapons"]["missiles"]["AGR_20A"] = {
-	Reflection = 0.05,
+	Reflection = 0.04,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/AS_Missiles.lua",
 	_origin = "AircraftWeaponPack",
 	_unique_resource_name = "weapons.missiles.AGR_20A",

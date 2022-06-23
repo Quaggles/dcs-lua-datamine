@@ -1073,6 +1073,10 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	h_max_gear_hook = 3.3,
 	height = 5.6,
 	helicopter_hook_pos = { 0, -0.5, 0 },
+	laserEquipment = {
+		laserDesignator = true,
+		laserRangefinder = true
+	},
 	lead_stock_main = 0.295,
 	lead_stock_support = 0.21,
 	length = 15.84,

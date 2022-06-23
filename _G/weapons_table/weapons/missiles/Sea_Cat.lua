@@ -1,5 +1,5 @@
 _G["weapons_table"]["weapons"]["missiles"]["Sea_Cat"] = {
-	Reflection = 0.05,
+	Reflection = 0.0182,
 	_file = "./CoreMods/tech/TechWeaponPack/Database/Weapons/ammunition_missiles.lua",
 	_origin = "TechWeaponPack",
 	_unique_resource_name = "weapons.missiles.Sea_Cat",

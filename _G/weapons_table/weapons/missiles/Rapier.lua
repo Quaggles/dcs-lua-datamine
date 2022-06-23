@@ -1,5 +1,5 @@
 _G["weapons_table"]["weapons"]["missiles"]["Rapier"] = {
-	Reflection = 0.05,
+	Reflection = 0.08,
 	_file = "./CoreMods/tech/TechWeaponPack/Database/vehicles/SAM/Rapier_FSA_Launcher.lua",
 	_origin = "TechWeaponPack",
 	_unique_resource_name = "weapons.missiles.Rapier",

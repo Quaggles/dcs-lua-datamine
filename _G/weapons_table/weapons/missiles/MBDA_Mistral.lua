@@ -1,5 +1,5 @@
 _G["weapons_table"]["weapons"]["missiles"]["MBDA_Mistral"] = {
-	Reflection = 0.05,
+	Reflection = 0.0182,
 	_file = "./CoreMods/aircraft/SA342/SA342_Weapons.lua",
 	_origin = "SA342 AI by Polychop-Simulations",
 	_unique_resource_name = "weapons.missiles.MBDA_Mistral",

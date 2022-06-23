@@ -377,6 +377,10 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	fuselage_Cxa90 = 5.9,
 	fuselage_area = 3.2,
 	height = 3.9,
+	laserEquipment = {
+		laserDesignator = true,
+		laserRangefinder = true
+	},
 	lead_stock_main = -0.1,
 	lead_stock_support = -0.1,
 	length = 17.27,

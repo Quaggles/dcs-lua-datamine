@@ -1,11 +1,11 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	CustomAimPoint = { 0, 1.5, 0 },
 	DetectionRange = 60000,
-	DisplayName = 'SAM SA-10 S-300 "Grumble" Clam Shell SR',
-	DisplayNameShort = "SA-10 SR",
+	DisplayName = "SAM SA-10 S-300PS Low Alt SR 5N66M",
+	DisplayNameShort = "SA-10 SR(L)",
 	IR_emission_coeff = 0.08,
 	MaxSpeed = 60.00012,
-	Name = 'SAM SA-10 S-300 "Grumble" Clam Shell SR',
+	Name = "SAM SA-10 S-300PS Low Alt SR 5N66M",
 	Rate = 20,
 	Sensors = {
 		RADAR = "S-300PS 40B6MD sr"

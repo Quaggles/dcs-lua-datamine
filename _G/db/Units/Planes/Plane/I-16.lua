@@ -218,6 +218,54 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			mm = 0,
 			mmint = 1,
 			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "ENG0_BOOST_REGULATOR_MALFUNCTION",
+			label = "Boost regulator failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "ELEC_RETICLE_BULB_FAILURE",
+			label = "Reticle bulb broken",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "ENG0_MIXTURE_AUTOMATIC_CONTROL_FAILURE",
+			label = "Mixture automatic control failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "OXYGEN_AUTOMATIC_CONTROL_MALFUNCTION",
+			label = "Breathe oxygen automatic control malfunction",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "OXYGEN_AUTOMATIC_CONTROL_FAILURE",
+			label = "Breathe oxygen automatic control failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "GEAR_DOWN_AUTOMATIC_BRAKE_FAILURE",
+			label = "Gear down automatic brake failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
 		} },
 	FlareChargeSize = 0,
 	FlareDefault = 0,

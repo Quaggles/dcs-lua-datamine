@@ -36,7 +36,6 @@ _G["rockets"]["#Index"] = {
 	add_attributes = { "Cruise missiles" },
 	category = 2,
 	display_name = "CM-802AKG",
-	manualWeaponFlag = 2,
 	mass = 715,
 	model = "cm802akg",
 	name = "CM-802AKG",

@@ -1,5 +1,5 @@
 _G["weapons_table"]["weapons"]["missiles"]["Matra Super 530D"] = {
-	Reflection = 0.05,
+	Reflection = 0.0257,
 	_file = "./CoreMods/aircraft/M-2000C/WEAPONS/M2KC_Weapons.luac",
 	_origin = "M-2000C AI by RAZBAM Sims",
 	_unique_resource_name = "weapons.missiles.Matra Super 530D",

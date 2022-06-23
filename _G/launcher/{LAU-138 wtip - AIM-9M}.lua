@@ -5,7 +5,7 @@ _G["launcher"]["{LAU-138 wtip - AIM-9M}"] = {
 	Elements = { {
 			ShapeName = "AIM-9"
 		} },
-	Picture = "aim9p.png",
+	Picture = "us_AIM-9L.png",
 	Weight = 86.64,
 	_file = "./CoreMods/aircraft/F14/Entry/Weapons.lua",
 	_origin = "F-14B AI by Heatblur Simulations",

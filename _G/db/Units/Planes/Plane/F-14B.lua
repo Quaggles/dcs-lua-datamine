@@ -1907,7 +1907,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{LAU-138 wtip - AIM-9L}"
 				}, {
-					CLSID = "{AIS_ASQ_T50}"
+					CLSID = "{LAU-138 wtip - TCTS L}"
 				}, {
 					CLSID = "CATM-9M"
 				}, {
@@ -1959,6 +1959,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{LAU-7 - AIM-9L}",
 					Type = 0,
 					connector = "WEP_Sidewinder_Extra_L"
+				}, {
+					CLSID = "{LAU-7 - TCTS}",
+					connector = "WEP_Sidewinder_Extra_L"
+				}, {
+					CLSID = "{SHOULDER AIM-7P}",
+					connector = "WEP_Shoulder_Sparrow_L"
 				}, {
 					CLSID = "{PHXBRU3242_2*LAU10 LS}",
 					connector = "WEP_PhoenixWingPylon_L"
@@ -2047,6 +2053,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{BELLY AIM-7MH}" },
 							station = 7
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 4
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 7
 						} }
 				}, {
 					CLSID = "{AIM_54A_Mk60}",
@@ -2081,6 +2096,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{BELLY AIM-7MH}" },
 							station = 7
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 4
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 7
 						} }
 				}, {
 					CLSID = "{AIM_54C_Mk47}",
@@ -2114,6 +2138,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 4
 						}, {
 							loadout = { "{BELLY AIM-7MH}" },
+							station = 7
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 4
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
 							station = 7
 						} }
 				}, {
@@ -2195,6 +2228,31 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "<CLEAN>",
 					arg = 600,
 					arg_value = 1,
+					forbidden = { {
+							loadout = { "{AIM_54A_Mk47}" },
+							station = 4
+						}, {
+							loadout = { "{AIM_54A_Mk60}" },
+							station = 4
+						}, {
+							loadout = { "{AIM_54C_Mk47}" },
+							station = 4
+						}, {
+							loadout = { "{AIM_54A_Mk47}" },
+							station = 7
+						}, {
+							loadout = { "{AIM_54A_Mk60}" },
+							station = 7
+						}, {
+							loadout = { "{AIM_54C_Mk47}" },
+							station = 7
+						} }
+				}, {
+					CLSID = "{BELLY AIM-7P}",
+					Cx_gain = 0.125,
+					arg = 600,
+					arg_value = 1,
+					connector = "WEP_Sparrow_Indent_F_L",
 					forbidden = { {
 							loadout = { "{AIM_54A_Mk47}" },
 							station = 4
@@ -2368,6 +2426,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{BELLY AIM-7MH}" },
 							station = 5
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 5
 						} }
 				}, {
 					CLSID = "{AIM_54A_Mk60}",
@@ -2393,6 +2457,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{BELLY AIM-7MH}" },
 							station = 5
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 5
 						} }
 				}, {
 					CLSID = "{AIM_54C_Mk47}",
@@ -2417,6 +2487,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 6
 						}, {
 							loadout = { "{BELLY AIM-7MH}" },
+							station = 5
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
 							station = 5
 						} }
 				}, {
@@ -2498,6 +2574,31 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "<CLEAN>",
 					arg = 605,
 					arg_value = 1,
+					forbidden = { {
+							loadout = { "{AIM_54A_Mk47}" },
+							station = 5
+						}, {
+							loadout = { "{AIM_54A_Mk60}" },
+							station = 5
+						}, {
+							loadout = { "{AIM_54C_Mk47}" },
+							station = 5
+						}, {
+							loadout = { "{AIM_54A_Mk47}" },
+							station = 6
+						}, {
+							loadout = { "{AIM_54A_Mk60}" },
+							station = 6
+						}, {
+							loadout = { "{AIM_54C_Mk47}" },
+							station = 6
+						} }
+				}, {
+					CLSID = "{BELLY AIM-7P}",
+					Cx_gain = 0.125,
+					arg = 605,
+					arg_value = 1,
+					connector = "WEP_Sparrow_Rear",
 					forbidden = { {
 							loadout = { "{AIM_54A_Mk47}" },
 							station = 5
@@ -2661,6 +2762,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{BELLY AIM-7MH}" },
 							station = 5
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 5
 						} }
 				}, {
 					CLSID = "{AIM_54A_Mk60}",
@@ -2686,6 +2793,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{BELLY AIM-7MH}" },
 							station = 5
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 5
 						} }
 				}, {
 					CLSID = "{AIM_54C_Mk47}",
@@ -2710,6 +2823,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 6
 						}, {
 							loadout = { "{BELLY AIM-7MH}" },
+							station = 5
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
 							station = 5
 						} }
 				}, {
@@ -2863,6 +2982,49 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{AIM_54C_Mk47}" },
 							station = 6
+						} }
+				}, {
+					CLSID = "{BELLY AIM-7P}",
+					Cx_gain = 0.125,
+					arg = 605,
+					arg_value = 1,
+					connector = "WEP_Sparrow_Centr",
+					forbidden = { {
+							loadout = { "{AIM_54A_Mk47}" },
+							station = 4
+						}, {
+							loadout = { "{AIM_54A_Mk60}" },
+							station = 4
+						}, {
+							loadout = { "{AIM_54C_Mk47}" },
+							station = 4
+						}, {
+							loadout = { "{AIM_54A_Mk47}" },
+							station = 5
+						}, {
+							loadout = { "{AIM_54A_Mk60}" },
+							station = 5
+						}, {
+							loadout = { "{AIM_54C_Mk47}" },
+							station = 5
+						}, {
+							loadout = { "{AIM_54A_Mk47}" },
+							station = 6
+						}, {
+							loadout = { "{AIM_54A_Mk60}" },
+							station = 6
+						}, {
+							loadout = { "{AIM_54C_Mk47}" },
+							station = 6
+						}, {
+							loadout = { "{AIM_54A_Mk47}" },
+							station = 7
+						}, {
+							loadout = { "{AIM_54A_Mk60}" },
+							station = 7
+						}, {
+							loadout = { "{AIM_54C_Mk47}" },
+							station = 7
 						} }
 				}, {
 					CLSID = "{BRU-32 MK-82}",
@@ -3022,6 +3184,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{BELLY AIM-7MH}" },
 							station = 7
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 4
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 7
 						} }
 				}, {
 					CLSID = "{AIM_54A_Mk60}",
@@ -3056,6 +3227,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{BELLY AIM-7MH}" },
 							station = 7
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 4
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 7
 						} }
 				}, {
 					CLSID = "{AIM_54C_Mk47}",
@@ -3089,6 +3269,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 4
 						}, {
 							loadout = { "{BELLY AIM-7MH}" },
+							station = 7
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 4
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
 							station = 7
 						} }
 				}, {
@@ -3170,6 +3359,31 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "<CLEAN>",
 					arg = 600,
 					arg_value = 1,
+					forbidden = { {
+							loadout = { "{AIM_54A_Mk47}" },
+							station = 4
+						}, {
+							loadout = { "{AIM_54A_Mk60}" },
+							station = 4
+						}, {
+							loadout = { "{AIM_54C_Mk47}" },
+							station = 4
+						}, {
+							loadout = { "{AIM_54A_Mk47}" },
+							station = 7
+						}, {
+							loadout = { "{AIM_54A_Mk60}" },
+							station = 7
+						}, {
+							loadout = { "{AIM_54C_Mk47}" },
+							station = 7
+						} }
+				}, {
+					CLSID = "{BELLY AIM-7P}",
+					Cx_gain = 0.125,
+					arg = 600,
+					arg_value = 1,
+					connector = "WEP_Sparrow_Indent_F_R",
 					forbidden = { {
 							loadout = { "{AIM_54A_Mk47}" },
 							station = 4
@@ -3356,6 +3570,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					Type = 0,
 					connector = "WEP_Sidewinder_Extra_R"
 				}, {
+					CLSID = "{LAU-7 - TCTS}",
+					connector = "WEP_Sidewinder_Extra_R"
+				}, {
+					CLSID = "{SHOULDER AIM-7P}",
+					connector = "WEP_Shoulder_Sparrow_R"
+				}, {
 					CLSID = "{PHXBRU3242_2*LAU10 RS}",
 					connector = "WEP_PhoenixWingPylon_R"
 				}, {
@@ -3405,7 +3625,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{LAU-138 wtip - AIM-9L}"
 				}, {
-					CLSID = "{AIS_ASQ_T50}"
+					CLSID = "{LAU-138 wtip - TCTS R}"
 				}, {
 					CLSID = "CATM-9M"
 				}, {

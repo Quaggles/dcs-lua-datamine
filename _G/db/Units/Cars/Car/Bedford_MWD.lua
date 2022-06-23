@@ -6,11 +6,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			id = "Tent",
 			label = "Tent",
 			values = { {
-					dispName = "Full covered",
+					dispName = "Fully Covered",
 					id = 1,
 					value = 0
 				}, {
-					dispName = "Only body",
+					dispName = "Only Body",
 					id = 2,
 					value = 0.1
 				}, {

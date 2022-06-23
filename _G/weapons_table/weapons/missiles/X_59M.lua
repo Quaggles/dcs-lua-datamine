@@ -1,5 +1,5 @@
 _G["weapons_table"]["weapons"]["missiles"]["X_59M"] = {
-	Reflection = 0.05,
+	Reflection = 0.2,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/cruise_missiles.lua",
 	_origin = "AircraftWeaponPack",
 	_unique_resource_name = "weapons.missiles.X_59M",

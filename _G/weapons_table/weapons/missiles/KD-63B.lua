@@ -1,5 +1,5 @@
 _G["weapons_table"]["weapons"]["missiles"]["KD-63B"] = {
-	Reflection = 0.05,
+	Reflection = 0.121,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/mils_kd63.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	_unique_resource_name = "weapons.missiles.KD-63B",

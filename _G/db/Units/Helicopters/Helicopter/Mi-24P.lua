@@ -941,8 +941,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				}, <25>{
 					CLSID = "GUV_VOG"
 				}, <26>{
-					CLSID = "{APU-60-1_R_60M}",
-					Type = 1
+					CLSID = "{APU-60-1_R_60M}"
 				}, {
 					CLSID = "{B0DBC591-0F52-4F7D-AD7B-51E67725FB81}"
 				} },
@@ -952,6 +951,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			X = -1.073,
 			Y = -0.191,
 			Z = -2.282,
+			arg = 309,
 			connector = "hardpoint-2",
 			use_full_connector_position = true
 		}, {
@@ -993,7 +993,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				}, {
 					CLSID = "{APU_68_S-24}"
 				}, {
-					CLSID = "GUV_YakB_GSHP"
+					CLSID = "GUV_YakB_GSHP",
+					arg_value = 0.2
 				}, {
 					CLSID = "GUV_VOG"
 				} },
@@ -1003,6 +1004,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			X = -1.073,
 			Y = -0.067,
 			Z = -1.689,
+			arg = 310,
 			connector = "hardpoint-3",
 			use_full_connector_position = true
 		}, {
@@ -1014,6 +1016,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			X = -1.073,
 			Y = -0.139,
 			Z = 1.769,
+			arg = 311,
 			connector = "hardpoint-4",
 			use_full_connector_position = true
 		}, {
@@ -1026,6 +1029,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			X = -1.073,
 			Y = -0.272,
 			Z = 2.363,
+			arg = 312,
 			connector = "hardpoint-5",
 			use_full_connector_position = true
 		}, {

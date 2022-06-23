@@ -234,8 +234,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[55] = {
 			args = { 159 },
-			critical_damage = 4,
-			deps_cells = { 11 }
+			critical_damage = 4
 		},
 		[56] = {
 			args = { 158 },
@@ -247,8 +246,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[58] = {
 			args = { 156 },
-			critical_damage = 4,
-			deps_cells = { 11 }
+			critical_damage = 4
 		},
 		[61] = {
 			args = { 224 },
@@ -285,8 +283,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[82] = {
 			args = { 152 },
-			critical_damage = 5,
-			deps_cells = { 11 }
+			critical_damage = 5
 		},
 		[83] = {
 			args = { 134 },
@@ -842,20 +839,20 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	HumanCommPanelPath = "./Mods/aircraft/M-2000C/Comm/comm.lua",
 	HumanFM = { "M-2000C by RAZBAM Sims", "M2KC_FM",
 		center_of_mass = { -1.25, 0.25, 0 },
-		config_path = "./Mods/aircraft/M-2000C/FM/config.luac",
+		config_path = "./Mods/aircraft/M-2000C/FM/config.lua",
 		disable_built_in_oxygen_system = false,
 		moment_of_inertia = { 15288, 80000, 70000, 0 },
 		suspension = { {
 				allowable_hard_contact_length = 0.1,
-				amortizer_back_damper_force_factor = 35000,
+				amortizer_back_damper_force_factor = 20000,
 				amortizer_basic_length = 0.235,
-				amortizer_direct_damper_force_factor = 30000,
+				amortizer_direct_damper_force_factor = 20000,
 				amortizer_max_length = 0.235,
 				amortizer_min_length = 0,
 				amortizer_reduce_length = 0.22,
-				amortizer_spring_force_factor = 750000,
-				amortizer_spring_force_factor_rate = 2,
-				amortizer_static_force = 25000,
+				amortizer_spring_force_factor = 850000,
+				amortizer_spring_force_factor_rate = 2.2,
+				amortizer_static_force = 22000,
 				anti_skid_installed = false,
 				arg_amortizer = 1,
 				arg_post = 0,
@@ -867,25 +864,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				filter_yaw = false,
 				moment_limit = 750,
 				self_attitude = false,
-				wheel_axle_offset = 0,
+				wheel_axle_offset = 0.02,
 				wheel_damage_force_factor = 450,
 				wheel_damage_speed = 102,
 				wheel_glide_friction_factor = 0.65,
 				wheel_radius = 0.35,
-				wheel_roll_friction_factor = 0.06,
+				wheel_roll_friction_factor = 0.01,
 				wheel_side_friction_factor = 0.85,
 				wheel_static_friction_factor = 0.75,
 				yaw_limit = 1.1344640137963
 			}, {
 				allowable_hard_contact_length = 0.2,
-				amortizer_back_damper_force_factor = 65000,
+				amortizer_back_damper_force_factor = 20000,
 				amortizer_basic_length = 0.22,
-				amortizer_direct_damper_force_factor = 65000,
+				amortizer_direct_damper_force_factor = 30000,
 				amortizer_max_length = 0.22,
 				amortizer_reduce_length = 0.21,
 				amortizer_spring_force_factor = 15000000,
 				amortizer_spring_force_factor_rate = 3,
-				amortizer_static_force = 30000,
+				amortizer_static_force = 45000,
 				anti_skid_installed = true,
 				arg_amortizer = 6,
 				arg_post = 5,
@@ -898,19 +895,19 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				wheel_damage_speed = 111,
 				wheel_glide_friction_factor = 0.65,
 				wheel_radius = 0.45,
-				wheel_roll_friction_factor = 0.08,
+				wheel_roll_friction_factor = 0.05,
 				wheel_side_friction_factor = 0.85,
 				wheel_static_friction_factor = 0.85
 			}, {
 				allowable_hard_contact_length = 0.2,
-				amortizer_back_damper_force_factor = 65000,
+				amortizer_back_damper_force_factor = 20000,
 				amortizer_basic_length = 0.22,
-				amortizer_direct_damper_force_factor = 65000,
+				amortizer_direct_damper_force_factor = 30000,
 				amortizer_max_length = 0.22,
 				amortizer_reduce_length = 0.21,
-				amortizer_spring_force_factor = 15000000,
+				amortizer_spring_force_factor = 18000000,
 				amortizer_spring_force_factor_rate = 3,
-				amortizer_static_force = 30000,
+				amortizer_static_force = 20000,
 				anti_skid_installed = true,
 				arg_amortizer = 4,
 				arg_post = 3,
@@ -923,7 +920,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				wheel_damage_speed = 111,
 				wheel_glide_friction_factor = 0.65,
 				wheel_radius = 0.45,
-				wheel_roll_friction_factor = 0.08,
+				wheel_roll_friction_factor = 0.05,
 				wheel_side_friction_factor = 0.85,
 				wheel_static_friction_factor = 0.85
 			} }
@@ -1096,6 +1093,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{Matra_S530D}",
+					Cx_gain = 0.35,
 					arg_value = 0.15,
 					required = { {
 							loadout = { "{Matra_S530D}" },
@@ -1140,6 +1138,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 8
 						} }
 				}, {
+					CLSID = "{SAMP250LD}",
+					arg_value = 0.35,
+					attach_point_position = { -0.28, -0.16, 0 },
+					required = { {
+							loadout = { "{SAMP250LD}" },
+							station = 8
+						} }
+				}, {
+					CLSID = "{SAMP250HD}",
+					arg_value = 0.35,
+					attach_point_position = { -0.33, -0.16, 0 },
+					required = { {
+							loadout = { "{SAMP250HD}" },
+							station = 8
+						} }
+				}, {
 					CLSID = "{M2KC_RAFAUT_MK82}",
 					arg_value = 0.35,
 					attach_point_position = { 0.015, 0.036, 0 },
@@ -1169,6 +1183,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					attach_point_position = { 0.015, 0.036, 0 },
 					required = { {
 							loadout = { "{M2KC_RAFAUT_BLG66}" },
+							station = 8
+						} }
+				}, {
+					CLSID = "{M2KC_RAFAUT_SAMP250LD}",
+					arg_value = 0.35,
+					attach_point_position = { 0.015, 0.036, 0 },
+					required = { {
+							loadout = { "{M2KC_RAFAUT_SAMP250LD}" },
+							station = 8
+						} }
+				}, {
+					CLSID = "{M2KC_RAFAUT_SAMP250HD}",
+					arg_value = 0.35,
+					attach_point_position = { 0.015, 0.036, 0 },
+					required = { {
+							loadout = { "{M2KC_RAFAUT_SAMP250HD}" },
 							station = 8
 						} }
 				}, {
@@ -1264,6 +1294,34 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}" },
 							station = 7
 						} }
+				}, {
+					CLSID = "{SAMP250LD}",
+					arg_value = 0.15,
+					attach_point_position = { -0.28, -0.15, 0 },
+					required = { {
+							loadout = { "{SAMP250LD}" },
+							station = 4
+						}, {
+							loadout = { "{SAMP250LD}" },
+							station = 6
+						}, {
+							loadout = { "{SAMP250LD}" },
+							station = 7
+						} }
+				}, {
+					CLSID = "{SAMP250HD}",
+					arg_value = 0.15,
+					attach_point_position = { -0.33, -0.15, 0 },
+					required = { {
+							loadout = { "{SAMP250HD}" },
+							station = 4
+						}, {
+							loadout = { "{SAMP250HD}" },
+							station = 6
+						}, {
+							loadout = { "{SAMP250HD}" },
+							station = 7
+						} }
 				} },
 			Number = 3,
 			Order = 3,
@@ -1330,6 +1388,34 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 6
 						}, {
 							loadout = { "{BLG66_BELOUGA_AC}" },
+							station = 7
+						} }
+				}, {
+					CLSID = "{SAMP250LD}",
+					arg_value = 0.15,
+					attach_point_position = { -0.28, -0.16, 0 },
+					required = { {
+							loadout = { "{SAMP250LD}" },
+							station = 3
+						}, {
+							loadout = { "{SAMP250LD}" },
+							station = 6
+						}, {
+							loadout = { "{SAMP250LD}" },
+							station = 7
+						} }
+				}, {
+					CLSID = "{SAMP250HD}",
+					arg_value = 0.15,
+					attach_point_position = { -0.33, -0.16, 0 },
+					required = { {
+							loadout = { "{SAMP250HD}" },
+							station = 3
+						}, {
+							loadout = { "{SAMP250HD}" },
+							station = 6
+						}, {
+							loadout = { "{SAMP250HD}" },
 							station = 7
 						} }
 				} },
@@ -1548,6 +1634,34 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BLG66_BELOUGA_AC}" },
 							station = 7
 						} }
+				}, {
+					CLSID = "{SAMP250LD}",
+					arg_value = 0.15,
+					attach_point_position = { -0.28, -0.16, 0 },
+					required = { {
+							loadout = { "{SAMP250LD}" },
+							station = 3
+						}, {
+							loadout = { "{SAMP250LD}" },
+							station = 4
+						}, {
+							loadout = { "{SAMP250LD}" },
+							station = 7
+						} }
+				}, {
+					CLSID = "{SAMP250HD}",
+					arg_value = 0.15,
+					attach_point_position = { -0.33, -0.16, 0 },
+					required = { {
+							loadout = { "{SAMP250HD}" },
+							station = 3
+						}, {
+							loadout = { "{SAMP250HD}" },
+							station = 4
+						}, {
+							loadout = { "{SAMP250HD}" },
+							station = 7
+						} }
 				} },
 			Number = 6,
 			Order = 6,
@@ -1629,6 +1743,34 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}" },
 							station = 3
 						} }
+				}, {
+					CLSID = "{SAMP250LD}",
+					arg_value = 0.15,
+					attach_point_position = { -0.28, -0.15, 0 },
+					required = { {
+							loadout = { "{SAMP250LD}" },
+							station = 3
+						}, {
+							loadout = { "{SAMP250LD}" },
+							station = 4
+						}, {
+							loadout = { "{SAMP250LD}" },
+							station = 6
+						} }
+				}, {
+					CLSID = "{SAMP250HD}",
+					arg_value = 0.15,
+					attach_point_position = { -0.33, -0.15, 0 },
+					required = { {
+							loadout = { "{SAMP250HD}" },
+							station = 3
+						}, {
+							loadout = { "{SAMP250HD}" },
+							station = 4
+						}, {
+							loadout = { "{SAMP250HD}" },
+							station = 6
+						} }
 				} },
 			Number = 7,
 			Order = 7,
@@ -1643,6 +1785,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			Launchers = { {
 					CLSID = "{MMagicII}",
+					Cx_gain = 0.5,
 					arg_value = 0.45,
 					required = { {
 							loadout = { "{MMagicII}" },
@@ -1650,6 +1793,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{Matra_S530D}",
+					Cx_gain = 0.35,
 					arg_value = 0.15,
 					required = { {
 							loadout = { "{Matra_S530D}" },
@@ -1694,6 +1838,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 2
 						} }
 				}, {
+					CLSID = "{SAMP250LD}",
+					arg_value = 0.35,
+					attach_point_position = { -0.28, -0.16, 0 },
+					required = { {
+							loadout = { "{SAMP250LD}" },
+							station = 2
+						} }
+				}, {
+					CLSID = "{SAMP250HD}",
+					arg_value = 0.35,
+					attach_point_position = { -0.33, -0.16, 0 },
+					required = { {
+							loadout = { "{SAMP250HD}" },
+							station = 2
+						} }
+				}, {
 					CLSID = "{M2KC_RAFAUT_MK82}",
 					arg_value = 0.35,
 					attach_point_position = { 0.015, 0.036, 0 },
@@ -1723,6 +1883,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					attach_point_position = { 0.015, 0.036, 0 },
 					required = { {
 							loadout = { "{M2KC_RAFAUT_BLG66}" },
+							station = 2
+						} }
+				}, {
+					CLSID = "{M2KC_RAFAUT_SAMP250LD}",
+					arg_value = 0.35,
+					attach_point_position = { 0.015, 0.036, 0 },
+					required = { {
+							loadout = { "{M2KC_RAFAUT_SAMP250LD}" },
+							station = 2
+						} }
+				}, {
+					CLSID = "{M2KC_RAFAUT_SAMP250HD}",
+					arg_value = 0.35,
+					attach_point_position = { 0.015, 0.036, 0 },
+					required = { {
+							loadout = { "{M2KC_RAFAUT_SAMP250HD}" },
 							station = 2
 						} }
 				}, {
@@ -2406,7 +2582,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				Transition = { "Open", "Close" }
 			} }
 	},
-	net_animation = { 21, 35, 38, 49, 51, 83, 88, 99, 190, 191, 192, 200, 201, 208, 209, 334, 335, 336, 373, 802, 902, 903, 904, 905, 182, 184, 900, 901, 13, 14, 90, 86 },
+	net_animation = { 21, 35, 38, 49, 51, 83, 88, 99, 190, 191, 192, 200, 208, 209, 334, 335, 336, 373, 802, 902, 903, 904, 905, 182, 184, 900, 901, 13, 14, 131, 133, 90, 86, 1000 },
 	nose_gear_amortizer_direct_stroke = 0.22,
 	nose_gear_amortizer_normal_weight_stroke = 0.1,
 	nose_gear_amortizer_reversal_stroke = -0.015,

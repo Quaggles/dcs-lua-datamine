@@ -12,7 +12,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_24"] = {
 			velK = 1
 		},
 		autopilot = {
-			Kbias = 4,
+			Kbias = 0,
 			Kd = 2,
 			Kdx = 0.2,
 			Ki = 10,
@@ -82,7 +82,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_24"] = {
 			velK = 1
 		},
 		autopilot = {
-			Kbias = 4,
+			Kbias = 0,
 			Kd = 2,
 			Kdx = 0.2,
 			Ki = 10,

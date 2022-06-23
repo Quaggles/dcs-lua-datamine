@@ -1,14 +1,14 @@
 _G["launcher"]["{M2KC_RPL_522}"] = {
 	CLSID = "{M2KC_RPL_522}",
 	Capacity = 990,
-	Cx_pil = 0.00185,
+	Cx_pil = 0.001,
 	Elements = { {
 			ShapeName = "M2KC_RPL_522"
 		} },
 	Picture = "PTB.png",
 	Weight = 1170,
 	Weight_Empty = 180,
-	_file = "./CoreMods/aircraft/M-2000C/WEAPONS/M2KC_Weapons.luac",
+	_file = "./CoreMods/aircraft/M-2000C/WEAPONS/M2KC_RP.lua",
 	_origin = "M-2000C AI by RAZBAM Sims",
 	_unique_resource_name = "weapons.droptanks.M2KC_RPL_522",
 	attribute = { 1, 3, 43, "Redacted" },

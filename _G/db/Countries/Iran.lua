@@ -416,6 +416,10 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "Coach a platform"
 				}, {
+					Name = "tacr2a"
+				}, {
+					Name = "LARC-V"
+				}, {
 					Name = "Land_Rover_101_FC"
 				}, {
 					Name = "Land_Rover_109_S3"
@@ -748,6 +752,26 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "Beer Bomb"
 				}, {
+					Name = "WindTurbine"
+				}, {
+					Name = "WindTurbine_11"
+				}, {
+					Name = "offshore WindTurbine"
+				}, {
+					Name = "offshore WindTurbine2"
+				}, {
+					Name = "Orca"
+				}, {
+					Name = "billboard_motorized"
+				}, {
+					Name = "Stanley_LightHouse"
+				}, {
+					Name = "345 Excavator"
+				}, {
+					Name = "Tower Crane"
+				}, {
+					Name = "Small_LightHouse"
+				}, {
 					Name = "Concertina wire"
 				}, {
 					Name = "Haystack 1"
@@ -814,6 +838,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "SINGLE_HELIPAD",
 					in_service = 0,
 					out_of_service = 40000
+				}, {
+					Name = "FARP_SINGLE_01"
 				}, {
 					Name = "Oil rig"
 				}, {
@@ -1000,6 +1026,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "La_Combattante_II",
 					in_service = 0,
 					out_of_service = 40000
+				}, {
+					Name = "HarborTug"
 				} }
 		},
 		WWIIstructures = {

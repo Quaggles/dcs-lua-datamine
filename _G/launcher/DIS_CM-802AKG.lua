@@ -8,7 +8,6 @@ _G["launcher"]["DIS_CM-802AKG"] = {
 			ShapeName = "cm802akg"
 		} },
 	Picture = "c802akg.png",
-	Required = { "DIS_AKG_DLPOD" },
 	Weight = 765,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/mils_cm802akg.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",

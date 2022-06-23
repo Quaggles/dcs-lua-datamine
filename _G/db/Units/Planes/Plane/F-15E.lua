@@ -1542,6 +1542,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	has_afteburner = true,
 	has_speedbrake = true,
 	height = 5.63,
+	laserEquipment = {
+		laserDesignator = true,
+		laserRangefinder = true
+	},
 	length = 19.43,
 	lights_data = {
 		lights = { {

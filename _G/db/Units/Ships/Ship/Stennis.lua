@@ -167,7 +167,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		}, {
 			area_arg = 84,
 			area_fire = {
-				connector = "FIRE_RUBKA_73_02",
+				connector = "FIRE_RUBKA_74_02",
 				size = 0.3
 			},
 			area_life = 75,
@@ -179,7 +179,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		}, {
 			area_arg = 86,
 			area_fire = {
-				connector = "FIRE_RUBKA_73_04",
+				connector = "FIRE_RUBKA_74_04",
 				size = 0.3
 			},
 			area_life = 75,
@@ -187,7 +187,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		}, {
 			area_arg = 87,
 			area_fire = {
-				connector = "FIRE_RUBKA_73_05",
+				connector = "FIRE_RUBKA_74_05",
 				size = 0.4
 			},
 			area_life = 75,
@@ -253,6 +253,9 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		}, {
 			area_life = 2,
 			area_name = "Rad_74_11"
+		}, {
+			area_life = 2,
+			area_name = "Rad_74_12"
 		}, {
 			area_life = 2,
 			area_name = "Rad_74_13"
@@ -605,8 +608,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					frequencyRange = {}
 				} },
 			angles = { { -2.9670597283904, 0.34906585039887, -1.5707963267949, 1.3962634015955 } },
-			area = "TOWER",
-			center = "CENTER_RADAR_12",
+			area = "Rad_74_12",
+			center = "CENTER_RADAR_74_10",
 			drawArgument1 = 10,
 			drawArgument2 = 11,
 			pidY = {},

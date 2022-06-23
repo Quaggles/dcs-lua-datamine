@@ -1,5 +1,5 @@
 _G["weapons_table"]["weapons"]["missiles"]["AIM-7MH"] = {
-	Reflection = 0.05,
+	Reflection = 0.08,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/aim7_family.lua",
 	_origin = "AircraftWeaponPack",
 	_unique_resource_name = "weapons.missiles.AIM-7MH",

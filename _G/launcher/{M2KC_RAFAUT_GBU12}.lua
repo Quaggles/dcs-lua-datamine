@@ -13,7 +13,7 @@ _G["launcher"]["{M2KC_RAFAUT_GBU12}"] = {
 		} },
 	Picture = "GBU12.png",
 	Weight = 621,
-	_file = "./CoreMods/aircraft/M-2000C/WEAPONS/M2KC_BLG66.lua",
+	_file = "./CoreMods/aircraft/M-2000C/WEAPONS/M2KC_RACKS.lua",
 	_origin = "M-2000C AI by RAZBAM Sims",
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,

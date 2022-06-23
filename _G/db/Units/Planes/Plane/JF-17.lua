@@ -2863,6 +2863,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					Type = 1,
 					arg_value = 0.9
 				}, {
+					CLSID = "DIS_CM-802AKG_AI",
+					Type = 1,
+					arg_value = 0.9
+				}, {
 					CLSID = "DIS_LS_6_500",
 					Type = 1,
 					arg_value = 0.5
@@ -3013,6 +3017,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.9
 				}, {
 					CLSID = "DIS_CM-802AKG",
+					Type = 1,
+					arg_value = 0.9
+				}, {
+					CLSID = "DIS_CM-802AKG_AI",
 					Type = 1,
 					arg_value = 0.9
 				}, {

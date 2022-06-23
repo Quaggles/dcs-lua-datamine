@@ -10,7 +10,7 @@ _G["launcher"]["{LAU-7 - AIM-9L}"] = {
 			connector_name = "WEP_Sidewinder_Extra"
 		} },
 	JettisonSubmunitionOnly = true,
-	Picture = "aim9p.png",
+	Picture = "us_AIM-9L.png",
 	Weight = 100.5,
 	_file = "./CoreMods/aircraft/F14/Entry/Weapons.lua",
 	_origin = "F-14B AI by Heatblur Simulations",

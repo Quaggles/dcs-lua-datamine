@@ -1,5 +1,5 @@
 _G["weapons_table"]["weapons"]["missiles"]["Mistral"] = {
-	Reflection = 0.05,
+	Reflection = 0.0182,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/AA_Missiles.lua",
 	_origin = "AircraftWeaponPack",
 	_unique_resource_name = "weapons.missiles.Mistral",

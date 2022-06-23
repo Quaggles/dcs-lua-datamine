@@ -2255,6 +2255,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Name = "Escort",
 			OldID = "Escort",
 			WorldID = 18
+		}, {
+			Name = "CAP",
+			OldID = "CAP",
+			WorldID = 11
 		} },
 	V_land = 61,
 	V_max_h = 275,

@@ -1,5 +1,5 @@
 _G["weapons_table"]["weapons"]["missiles"]["DWS39_MJ2"] = {
-	Reflection = 0.05,
+	Reflection = 0.15,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/glide_bombs.lua",
 	_origin = "AircraftWeaponPack",
 	_unique_resource_name = "weapons.missiles.DWS39_MJ2",

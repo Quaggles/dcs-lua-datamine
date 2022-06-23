@@ -786,6 +786,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	HumanFM = { "AH-64D BLK.II", "AH64D",
 		MainRotorPos = { 0.32, 2.214, 0 },
 		TailRotorPos = { -8.79, 2.106, -0.721 },
+		altHold = 0.015,
+		altInt = 0.11,
 		balancing = { { 0, -0.081, 0.078, -0.424, 11.9 }, { 6.9, -0.021, -0.006, -0.373, 11.5 }, { 14, 0.021, -0.039, -0.252, 10.7 }, { 21.2, 0.051, -0.058, -0.131, 10 }, { 28.8, 0.045, -0.101, -0.132, 9.8 }, { 35, 0.033, -0.156, -0.156, 9.6 }, { 42.5, -0.03, -0.216, 0.025, 9.9 }, { 48.9, -0.081, -0.33, 0.044, 10.5 }, { 55.6, -0.09, -0.445, 0.045, 11.5 }, { 62.3, -0.054, -0.577, 0.028, 12.6 }, { 69.5, -0.176, -0.693, -0.013, 14.3 }, { 76.5, -0.109, -0.816, -0.032, 16.4 }, { 83.3, -0.17, -0.95, -0.015, 17.4 } },
 		betaGain = 4,
 		betaGainInt = 1,
@@ -836,24 +838,24 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			cyclic_roll_speed = 0.13333333333333,
 			pedals_speed = 0.15384615384615
 		},
-		mainRotorVortexRingCyclicLoss = 0.65,
-		mainRotorVortexRingK1 = 0.5,
-		mainRotorVortexRingK2 = 1.5,
+		mainRotorVortexRingCyclicLoss = 0.95,
+		mainRotorVortexRingK1 = 0.45,
+		mainRotorVortexRingK2 = 0.9,
 		mainRotorVortexRingK3 = 4,
-		mainRotorVortexRingThrustLoss = 0.6,
-		mainRotorVortexRingVibration = 0.2,
-		mainRotorVortexRingWashout = 15,
+		mainRotorVortexRingThrustLoss = 0.5,
+		mainRotorVortexRingVibration = 0.17,
+		mainRotorVortexRingWashout = 13,
 		major_shake_ampl = 0.25,
 		minor_shake_ampl = 0.07,
 		moment_of_inertia = { 9290, 51874, 51468, -5937 },
-		pedalCoeff = 1,
+		pedalCoeff = 0.5,
 		pitchHold_K_int = 0.5,
 		pitchHold_K_pitch = 0.35,
 		pitchHold_K_wz = 0.6,
 		pitchOutK = 1,
-		pitchRateDirectFB_Coef = 0.15,
-		pitchRateInputK = 0.65,
-		pitchStickK = 1,
+		pitchRateDirectFB_Coef = 0.1,
+		pitchRateInputK = 0.9,
+		pitchStickK = 0.75,
 		pos_distance = 10,
 		pos_dxMaxVal = 0.1,
 		pos_dzMaxVal = 0.1,
@@ -970,9 +972,10 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		user_options = "AH-64D_BLK_II",
 		velHold_K_vx = 2.5,
 		velHold_K_vz = 2.5,
+		vyDamp = 0.075,
 		yawOutK = 1,
 		yawRateDirectFB_Coef = 0.2,
-		yawRateInputK = 0.65
+		yawRateInputK = 0.9
 	},
 	HumanRadio = {
 		editable = true,
@@ -1018,13 +1021,13 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "M261_MK151",
 					arg_value = 1,
 					forbidden = { {
-							loadout = { "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
+							loadout = { "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
 							station = 2
 						}, {
-							loadout = { "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
+							loadout = { "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
 							station = 3
 						}, {
-							loadout = { "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
+							loadout = { "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
 							station = 4
 						} },
 					required = {}
@@ -1032,13 +1035,13 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "{M261_M257}",
 					arg_value = 1,
 					forbidden = { {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 2
 						}, {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 3
 						}, {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}", "{M261_OUTBOARD_AB_M151_E_M257}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}", "{M261_OUTBOARD_AB_M151_E_M257}" },
 							station = 4
 						} },
 					required = {}
@@ -1046,13 +1049,13 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "{M261_M274}",
 					arg_value = 1,
 					forbidden = { {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 2
 						}, {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 3
 						}, {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}", "{M261_OUTBOARD_AB_M151_E_M274}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}", "{M261_OUTBOARD_AB_M151_E_M274}" },
 							station = 4
 						} },
 					required = {}
@@ -1060,13 +1063,13 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "{M261_M229}",
 					arg_value = 1,
 					forbidden = { {
-							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 2
 						}, {
-							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 3
 						}, {
-							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 4
 						} },
 					required = {}
@@ -1074,13 +1077,27 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "{M261_M282}",
 					arg_value = 1,
 					forbidden = { {
-							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 2
 						}, {
-							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 3
 						}, {
-							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							station = 4
+						} },
+					required = {}
+				}, {
+					CLSID = "{M261_M151_M433}",
+					arg_value = 1,
+					forbidden = { {
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							station = 2
+						}, {
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							station = 3
+						}, {
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 4
 						} },
 					required = {}
@@ -1088,13 +1105,13 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "{M261_OUTBOARD_AB_M151_E_M274}",
 					arg_value = 1,
 					forbidden = { {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 2
 						}, {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 3
 						}, {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}", "{M261_M274}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}", "{M261_M274}" },
 							station = 4
 						} },
 					required = {}
@@ -1102,13 +1119,13 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "{M261_OUTBOARD_AB_M151_E_M257}",
 					arg_value = 1,
 					forbidden = { {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 2
 						}, {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 3
 						}, {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}", "{M261_M257}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}", "{M261_M257}" },
 							station = 4
 						} },
 					required = {}
@@ -1147,13 +1164,13 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "M261_MK151",
 					arg_value = 1,
 					forbidden = { {
-							loadout = { "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
+							loadout = { "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
 							station = 1
 						}, {
-							loadout = { "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 3
 						}, {
-							loadout = { "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
+							loadout = { "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
 							station = 4
 						} },
 					required = {}
@@ -1161,13 +1178,13 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "{M261_M257}",
 					arg_value = 1,
 					forbidden = { {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 1
 						}, {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 3
 						}, {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 4
 						} },
 					required = {}
@@ -1175,13 +1192,13 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "{M261_M274}",
 					arg_value = 1,
 					forbidden = { {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 1
 						}, {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 3
 						}, {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 4
 						} },
 					required = {}
@@ -1189,13 +1206,13 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "{M261_M229}",
 					arg_value = 1,
 					forbidden = { {
-							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 1
 						}, {
-							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 3
 						}, {
-							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 4
 						} },
 					required = {}
@@ -1203,13 +1220,27 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "{M261_M282}",
 					arg_value = 1,
 					forbidden = { {
-							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 1
 						}, {
-							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 3
 						}, {
-							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							station = 4
+						} },
+					required = {}
+				}, {
+					CLSID = "{M261_M151_M433}",
+					arg_value = 1,
+					forbidden = { {
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							station = 1
+						}, {
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							station = 3
+						}, {
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 4
 						} },
 					required = {}
@@ -1217,13 +1248,13 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "{M261_INBOARD_DE_M151_C_M274}",
 					arg_value = 1,
 					forbidden = { {
-							loadout = { "{M261_M229}", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
+							loadout = { "{M261_M229}", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
 							station = 1
 						}, {
-							loadout = { "{M261_M229}", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "M261_MK151", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "{M261_M229}", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "M261_MK151", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 3
 						}, {
-							loadout = { "{M261_M229}", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
+							loadout = { "{M261_M229}", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
 							station = 4
 						} },
 					required = {}
@@ -1231,13 +1262,13 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "{M261_INBOARD_DE_M151_C_M257}",
 					arg_value = 1,
 					forbidden = { {
-							loadout = { "{M261_M229}", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
+							loadout = { "{M261_M229}", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
 							station = 1
 						}, {
-							loadout = { "{M261_M229}", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "M261_MK151", "{M261_INBOARD_DE_M151_C_M274}" },
+							loadout = { "{M261_M229}", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "M261_MK151", "{M261_INBOARD_DE_M151_C_M274}" },
 							station = 3
 						}, {
-							loadout = { "{M261_M229}", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
+							loadout = { "{M261_M229}", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
 							station = 4
 						} },
 					required = {}
@@ -1276,13 +1307,13 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "M261_MK151",
 					arg_value = 1,
 					forbidden = { {
-							loadout = { "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
+							loadout = { "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
 							station = 1
 						}, {
-							loadout = { "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 2
 						}, {
-							loadout = { "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
+							loadout = { "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
 							station = 4
 						} },
 					required = {}
@@ -1290,13 +1321,13 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "{M261_M257}",
 					arg_value = 1,
 					forbidden = { {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 1
 						}, {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 2
 						}, {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 4
 						} },
 					required = {}
@@ -1304,13 +1335,13 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "{M261_M274}",
 					arg_value = 1,
 					forbidden = { {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 1
 						}, {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 2
 						}, {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 4
 						} },
 					required = {}
@@ -1318,13 +1349,13 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "{M261_M229}",
 					arg_value = 1,
 					forbidden = { {
-							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 1
 						}, {
-							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 2
 						}, {
-							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 4
 						} },
 					required = {}
@@ -1332,13 +1363,27 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "{M261_M282}",
 					arg_value = 1,
 					forbidden = { {
-							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 1
 						}, {
-							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 2
 						}, {
-							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							station = 4
+						} },
+					required = {}
+				}, {
+					CLSID = "{M261_M151_M433}",
+					arg_value = 1,
+					forbidden = { {
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							station = 1
+						}, {
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							station = 2
+						}, {
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 4
 						} },
 					required = {}
@@ -1346,13 +1391,13 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "{M261_INBOARD_DE_M151_C_M274}",
 					arg_value = 1,
 					forbidden = { {
-							loadout = { "{M261_M229}", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
+							loadout = { "{M261_M229}", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
 							station = 1
 						}, {
-							loadout = { "{M261_M229}", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "M261_MK151", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "{M261_M229}", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "M261_MK151", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 2
 						}, {
-							loadout = { "{M261_M229}", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
+							loadout = { "{M261_M229}", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
 							station = 4
 						} },
 					required = {}
@@ -1360,13 +1405,13 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "{M261_INBOARD_DE_M151_C_M257}",
 					arg_value = 1,
 					forbidden = { {
-							loadout = { "{M261_M229}", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
+							loadout = { "{M261_M229}", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
 							station = 1
 						}, {
-							loadout = { "{M261_M229}", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "M261_MK151", "{M261_INBOARD_DE_M151_C_M274}" },
+							loadout = { "{M261_M229}", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "M261_MK151", "{M261_INBOARD_DE_M151_C_M274}" },
 							station = 2
 						}, {
-							loadout = { "{M261_M229}", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
+							loadout = { "{M261_M229}", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
 							station = 4
 						} },
 					required = {}
@@ -1405,13 +1450,13 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "M261_MK151",
 					arg_value = 1,
 					forbidden = { {
-							loadout = { "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
+							loadout = { "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
 							station = 1
 						}, {
-							loadout = { "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
+							loadout = { "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
 							station = 2
 						}, {
-							loadout = { "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
+							loadout = { "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}" },
 							station = 3
 						} },
 					required = {}
@@ -1419,13 +1464,13 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "{M261_M257}",
 					arg_value = 1,
 					forbidden = { {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}", "{M261_OUTBOARD_AB_M151_E_M257}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}", "{M261_OUTBOARD_AB_M151_E_M257}" },
 							station = 1
 						}, {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 2
 						}, {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 3
 						} },
 					required = {}
@@ -1433,13 +1478,13 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "{M261_M274}",
 					arg_value = 1,
 					forbidden = { {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}", "{M261_OUTBOARD_AB_M151_E_M274}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}", "{M261_OUTBOARD_AB_M151_E_M274}" },
 							station = 1
 						}, {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 2
 						}, {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 3
 						} },
 					required = {}
@@ -1447,13 +1492,13 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "{M261_M229}",
 					arg_value = 1,
 					forbidden = { {
-							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 1
 						}, {
-							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 2
 						}, {
-							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 3
 						} },
 					required = {}
@@ -1461,13 +1506,27 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "{M261_M282}",
 					arg_value = 1,
 					forbidden = { {
-							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 1
 						}, {
-							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 2
 						}, {
-							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							station = 3
+						} },
+					required = {}
+				}, {
+					CLSID = "{M261_M151_M433}",
+					arg_value = 1,
+					forbidden = { {
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							station = 1
+						}, {
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							station = 2
+						}, {
+							loadout = { "M261_MK151", "{M261_M257}", "{M261_M274}", "{M261_M229}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 3
 						} },
 					required = {}
@@ -1475,13 +1534,13 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "{M261_OUTBOARD_AB_M151_E_M274}",
 					arg_value = 1,
 					forbidden = { {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}", "{M261_M274}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}", "{M261_M274}" },
 							station = 1
 						}, {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 2
 						}, {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M257}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M257}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 3
 						} },
 					required = {}
@@ -1489,13 +1548,13 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "{M261_OUTBOARD_AB_M151_E_M257}",
 					arg_value = 1,
 					forbidden = { {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}", "{M261_M257}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}", "{M261_M257}" },
 							station = 1
 						}, {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 2
 						}, {
-							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
+							loadout = { "M261_MK151", "{M261_M229}", "{M261_M274}", "{M261_M282}", "{M261_M151_M433}", "{M261_OUTBOARD_AB_M151_E_M274}", "{M261_INBOARD_DE_M151_C_M274}", "{M261_INBOARD_DE_M151_C_M257}" },
 							station = 3
 						} },
 					required = {}
@@ -1778,6 +1837,10 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	fuselage_area = 4,
 	height = 4.15,
 	input_profile_entry = "AH-64D_BLK_II_PLT",
+	laserEquipment = {
+		laserDesignator = true,
+		laserRangefinder = true
+	},
 	lead_stock_main = 0.37,
 	lead_stock_support = 0.147,
 	length = 17.87,
@@ -2270,7 +2333,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				} },
 			name = "FM 1: ARC-201D",
 			range = {
-				max = 87.995,
+				max = 87.975,
 				min = 30,
 				modulation = 1
 			}
@@ -2308,7 +2371,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				} },
 			name = "FM 2: ARC-201D",
 			range = {
-				max = 87.995,
+				max = 87.975,
 				min = 30,
 				modulation = 1
 			}

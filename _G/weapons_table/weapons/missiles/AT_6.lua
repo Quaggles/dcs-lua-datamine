@@ -1,5 +1,5 @@
 _G["weapons_table"]["weapons"]["missiles"]["AT_6"] = {
-	Reflection = 0.05,
+	Reflection = 0.03,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/AS_Missiles.lua",
 	_origin = "AircraftWeaponPack",
 	caliber = 0.13,

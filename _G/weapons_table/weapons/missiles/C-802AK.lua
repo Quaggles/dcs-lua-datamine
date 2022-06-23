@@ -1,5 +1,5 @@
 _G["weapons_table"]["weapons"]["missiles"]["C-802AK"] = {
-	Reflection = 0.05,
+	Reflection = 0.09,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/mils_c802ak.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	_unique_resource_name = "weapons.missiles.C-802AK",

@@ -1,6 +1,7 @@
 _G["launcher"]["{ADM_141A}"] = {
 	CLSID = "{ADM_141A}",
 	Count = 1,
+	Cx_pil = 0.001953125,
 	Elements = { {
 			ShapeName = "ADM_141"
 		} },
