@@ -6,7 +6,8 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["machinegun_12_7_M2"] = {
 			ammo_capacity = 100,
 			portionAmmoCapacity = 100,
 			reload_time = 15,
-			shell_name = { "M2_12_7_T" },
+			shell_display_name = "12.7mm",
+			shell_name = { "M2_12_7_TR", "M2_12_7", "M2_12_7", "M2_12_7", "M2_12_7" },
 			shot_delay = 0.11538461538462,
 			switch_on_delay = 12
 		}, {

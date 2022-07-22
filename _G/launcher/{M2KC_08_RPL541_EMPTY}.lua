@@ -1,7 +1,7 @@
 _G["launcher"]["{M2KC_08_RPL541_EMPTY}"] = {
 	CLSID = "{M2KC_08_RPL541_EMPTY}",
 	Capacity = 1580,
-	Cx_pil = 0.0015,
+	Cx_pil = 0.002,
 	Elements = { {
 			ShapeName = "M2KC_08_RPL541"
 		} },

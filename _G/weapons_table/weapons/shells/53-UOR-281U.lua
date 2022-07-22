@@ -6,6 +6,12 @@ _G["weapons_table"]["weapons"]["shells"]["53-UOR-281U"] = {
 	_file = "./CoreMods/tech/TechWeaponPack/Database/Weapons/ammunition.lua",
 	_origin = "TechWeaponPack",
 	_unique_resource_name = "weapons.shells.53-UOR-281U",
+	aiming_table = { {
+			init_vel = 820
+		},
+		precalculateAimingTable = true,
+		precalculateAirDefenceAimingTable = true
+	},
 	caliber = 57,
 	cartridge = 0,
 	cartridge_mass = 0,
@@ -62,6 +68,6 @@ _G["weapons_table"]["weapons"]["shells"]["53-UOR-281U"] = {
 	type_name = "shell",
 	user_name = "UOR-281 (57mm HE-T)",
 	v0 = 1000,
-	visual_effect_correction = 0,
+	visual_effect_correction = 4,
 	visual_effect_correction_rebound = 0.1
 }

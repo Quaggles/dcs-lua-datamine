@@ -2,10 +2,7 @@ _G["launcher"]["{TELSON8_SNEBT253}"] = {
 	CLSID = "{TELSON8_SNEBT253}",
 	Count = 8,
 	Cx_pil = 0.007,
-	Elements = { {
-			IsAdapter = true,
-			ShapeName = "SA342_Telson8"
-		}, {
+	Elements = { "_G/Pylons/SA342_Telson8.lua", {
 			ShapeName = "SA342_SNEB68",
 			connector_name = "tube_01"
 		}, {
@@ -38,6 +35,6 @@ _G["launcher"]["{TELSON8_SNEBT253}"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "Telson 8 - 8 x 68 mm SNEB Type 253 H1 HEAT",
-	name = "{TELSON8_SNEBT253}",
+	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

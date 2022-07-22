@@ -19,6 +19,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP400HD"] = {
 		control = {
 			open_delay = 0.3
 		},
+		displayName = "SAMP-400 - 400 kg GP Chute Retarded Bomb HD",
 		fm = {
 			I = 158.44885166667,
 			L = 2.194,
@@ -85,6 +86,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP400HD"] = {
 		control = {
 			open_delay = 0.3
 		},
+		displayName = "SAMP-400 - 400 kg GP Chute Retarded Bomb HD",
 		fm = {
 			I = 158.44885166667,
 			L = 2.194,

@@ -37,13 +37,17 @@ _G["weapons_table"]["weapons"]["nurs"]["British_HE_60LBFNo1_3INCHNo1"] = {
 			wind_sigma = 50,
 			wind_time = 3
 		},
+		fuze = {
+			default_arm_delays = { 0.7 },
+			is_vane_anim_required = true
+		},
 		model = "he_60lb_f_no1mkI",
 		name = "British_HE_60LBFNo1_3INCHNo1",
 		properties = {
 			dist_max = 1600,
 			dist_min = 500
 		},
-		scheme = "schemes/rockets/nurs-standard.sch",
+		scheme = "schemes/rockets/nurs_standard_v2.sch",
 		shape_table_data = { {
 				file = "he_60lb_f_no1mki",
 				fire = { 0, 1 },
@@ -53,11 +57,6 @@ _G["weapons_table"]["weapons"]["nurs"]["British_HE_60LBFNo1_3INCHNo1"] = {
 				username = "RP-3 HE"
 			} },
 		user_name = "RP-3 HE",
-		vane_anim = {
-			K_t = 5,
-			loop = true,
-			start_val = 1
-		},
 		warhead = {
 			caliber = 114,
 			concrete_factors = { 1, 1, 1 },
@@ -115,13 +114,17 @@ _G["weapons_table"]["weapons"]["nurs"]["British_HE_60LBFNo1_3INCHNo1"] = {
 			wind_sigma = 50,
 			wind_time = 3
 		},
+		fuze = {
+			default_arm_delays = { 0.7 },
+			is_vane_anim_required = true
+		},
 		model = "he_60lb_f_no1mkI",
 		name = "British_HE_60LBFNo1_3INCHNo1",
 		properties = {
 			dist_max = 1600,
 			dist_min = 500
 		},
-		scheme = "schemes/rockets/nurs-standard.sch",
+		scheme = "schemes/rockets/nurs_standard_v2.sch",
 		shape_table_data = { {
 				file = "he_60lb_f_no1mki",
 				fire = { 0, 1 },
@@ -131,11 +134,6 @@ _G["weapons_table"]["weapons"]["nurs"]["British_HE_60LBFNo1_3INCHNo1"] = {
 				username = "RP-3 HE"
 			} },
 		user_name = "RP-3 HE",
-		vane_anim = {
-			K_t = 5,
-			loop = true,
-			start_val = 1
-		},
 		warhead = {
 			caliber = 114,
 			concrete_factors = { 1, 1, 1 },

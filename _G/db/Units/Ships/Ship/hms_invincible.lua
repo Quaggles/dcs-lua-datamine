@@ -180,7 +180,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	RCS = 700000,
 	R_min = 665.8,
 	Rate = 5500,
-	RunWays = { { { -100, 14.709, -9.952 }, 359.33, 180, 25, 0, 2.5, 2.8, 3, 3, 3.2, 3.5 }, { { -88, 14.709, -9.952 }, 359.33, 180, 12, 0, 2.5, 2.8, 3, 3, 3.2, 3.5 },
+	RunWays = { { { -12, 14.709, -10.5 }, 359.33, 180, 25, 0, 2.5, 2.8, 3, 3, 3.2, 3.5 }, { { -88, 14.709, -9.952 }, 359.33, 180, 12, 0, 2.5, 2.8, 3, 3, 3.2, 3.5 },
 		RunwaysNumber = 2
 	},
 	Sensors = {
@@ -301,7 +301,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 3, 12, 12, "Redacted", "Aircraft Carriers", "ski_jump", "RADAR_BAND1_FOR_ARM", "RADAR_BAND2_FOR_ARM", "DetectionByAWACS", "AircraftCarrier", "AircraftCarrier With Tramplin", "Armed Ship", "Naval", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
+	attribute = { 3, 12, 12, "Redacted", "Aircraft Carriers", "ski_jump", "Armed Air Defence", "RADAR_BAND1_FOR_ARM", "RADAR_BAND2_FOR_ARM", "DetectionByAWACS", "AircraftCarrier", "AircraftCarrier With Tramplin", "Armed Ship", "Naval", "All", "Ships", "Armed ships", "HeavyArmoredUnits", "Heavy armed ships" },
 	carrierIlluminationStates = { { { 69, 0, 1 }, { 149, 0, 0.2 }, { 150, 0, 0 }, { 307, 0, 0 }, { 791, 0, 1 }, { 792, 0, 1 }, { 793, 0, 0 }, { 797, 0, 1 }, { 798, 0, 1 } }, { { 69, 0, 1 }, { 149, 0, 0.4 }, { 150, 0, 1 }, { 307, 0, 0.4 }, { 791, 0, 0 }, { 792, 0, 0 }, { 793, 0, 1 }, { 797, 0, 1 }, { 798, 0, 1 } }, { { 69, 0, 0 }, { 149, 0, 0.6 }, { 150, 0, 1 }, { 307, 0, 0.7 }, { 791, 0, 0 }, { 792, 0, 0 }, { 793, 0, 1 }, { 797, 0, 1 }, { 798, 0, 0 } } },
 	chassis = {},
 	distFindObstacles = 1000,

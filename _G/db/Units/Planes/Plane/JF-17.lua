@@ -42,7 +42,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		azimuth = { -160, 160 },
 		elevation = { -50, 90 }
 	},
-	Categories = { "{78EFB7A2-FD52-4b57-A6A6-3BF0E1D6555F}", "Interceptor" },
+	Categories = {
+		CLSID = "{78EFB7A2-FD52-4b57-A6A6-3BF0E1D6555F}",
+		Name = "Interceptor"
+	},
 	ColdStartDefaultControls = {
 		[9] = 0,
 		[10] = 0,
@@ -2478,6 +2481,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				["C-101EB"] = {
 					enable_options_key_for_unit = "c101eb_common_enabled"
 				},
+				["F-14B"] = {
+					enable_options_key_for_unit = "f14b_enabled"
+				},
 				["F-15C"] = {
 					enable_options_key_for_unit = "f15c_enabled"
 				},
@@ -2498,6 +2504,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				["J-11A"] = {
 					enable_options_key_for_unit = "j11a_enabled"
 				},
+				["JF-17"] = {
+					enable_options_key_for_unit = "jf17_enabled"
+				},
 				["Ka-50"] = <table 3>,
 				["L-39C"] = {
 					enable_options_key_for_unit = "l39c_common_enabled"
@@ -2507,6 +2516,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				},
 				["M-2000C"] = {
 					enable_options_key_for_unit = "miraj_enabled"
+				},
+				["Mi-24P"] = {
+					enable_options_key_for_unit = "mi24p_enabled"
 				},
 				["Mi-8MT"] = {
 					enable_options_key_for_unit = "mi8_common_enabled"
@@ -3504,10 +3516,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		} },
 	crew_size = 1,
 	date_of_introduction = 2003.8,
-	detection_range_max = 180,
+	detection_range_max = 125,
 	effects_presets = { {
 			effect = "OVERWING_VAPOR",
-			file = "./CoreMods/aircraft/ChinaAssetPack/Effects/JF-17_overwingVapor.lua",
+			file = "./CoreMods/aircraft/ChinaAssetPack/Effects/overwingVapor.lua",
 			preset = "JF17"
 		} },
 	engines_count = 1,

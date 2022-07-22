@@ -25,17 +25,69 @@ _G["launcher"]["{British_GP_250LB_Bomb_Mk4_on_Handley_Page_Type_B_Cut_Bar}"] = {
 			label = "Fuze Type",
 			stringIndex = 1,
 			values = { {
-					dispName = "NP No. 27 Mk II",
+					dispName = "Nose Pistol No. 27 Mk II",
 					id = 1
 				}, {
-					dispName = "TP No. 30 Mk III",
+					dispName = "Tail Pistol No. 30 Mk III",
 					id = 2
 				}, {
-					dispName = "NP No. 44",
+					dispName = "Nose Pistol No. 44",
 					id = 3
 				} },
-			wCtrl = 350,
+			wCtrl = 355,
 			xCtrl = 170
+		}, {
+			VisibilityCondition = { {
+					id = "GUI_fuze_type",
+					value = 3
+				} },
+			control = "comboList",
+			defValue = 0,
+			dimension = "s",
+			id = "function_delay_ctrl_NP44",
+			label = "Function Delay",
+			stringIndex = 2,
+			values = { {
+					dispName = 0,
+					id = 0
+				}, {
+					dispName = 0.025,
+					id = 0.025
+				}, {
+					dispName = 1,
+					id = 1
+				}, {
+					dispName = 11,
+					id = 11
+				} },
+			xCtrl = 170,
+			xLbl = 10
+		}, {
+			VisibilityCondition = { {
+					id = "GUI_fuze_type",
+					value = 2
+				} },
+			control = "comboList",
+			defValue = 0,
+			dimension = "s",
+			id = "function_delay_ctrl_TP30MkIII",
+			label = "Function Delay",
+			stringIndex = 2,
+			values = { {
+					dispName = 0,
+					id = 0
+				}, {
+					dispName = 0.12,
+					id = 0.12
+				}, {
+					dispName = 1,
+					id = 1
+				}, {
+					dispName = 11,
+					id = 11
+				} },
+			xCtrl = 170,
+			xLbl = 10
 		}, {
 			VisibilityCondition = { {
 					id = "GUI_fuze_type",
@@ -67,104 +119,55 @@ _G["launcher"]["{British_GP_250LB_Bomb_Mk4_on_Handley_Page_Type_B_Cut_Bar}"] = {
 					id = "GUI_fuze_type",
 					value = 1
 				} },
+			baseDim = "rev",
 			control = "spinbox",
-			defValue = 0.6,
-			dimension = "s",
-			id = "arm_delay_ctrl_NP27MkII",
-			label = "Arm Delay",
-			max = 1800,
+			defValue = 7,
+			dimension = "rev",
+			id = "vane_rev_threshold_ctrl_NP27MkII",
+			label = "Arming Vane Revs. Required",
+			max = 3600,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 2,
-			xCtrl = 460,
-			xLbl = 280
+			xCtrl = 465,
+			xLbl = 285
 		}, {
 			VisibilityCondition = { {
 					id = "GUI_fuze_type",
 					value = 2
 				} },
-			control = "comboList",
-			defValue = 0,
-			dimension = "s",
-			id = "function_delay_ctrl_TP30MkIII",
-			label = "Function Delay",
-			stringIndex = 2,
-			values = { {
-					dispName = 0,
-					id = 0
-				}, {
-					dispName = 0.12,
-					id = 0.12
-				}, {
-					dispName = 1,
-					id = 1
-				}, {
-					dispName = 11,
-					id = 11
-				} },
-			xCtrl = 170,
-			xLbl = 10
-		}, {
-			VisibilityCondition = { {
-					id = "GUI_fuze_type",
-					value = 2
-				} },
+			baseDim = "rev",
 			control = "spinbox",
-			defValue = 1.04,
-			dimension = "s",
-			id = "arm_delay_ctrl_TP30MkIII",
-			label = "Arm Delay",
-			max = 1800,
+			defValue = 13,
+			dimension = "rev",
+			id = "vane_rev_threshold_ctrl_TP30MkIII",
+			label = "Arming Vane Revs. Required",
+			max = 3600,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 2,
-			xCtrl = 460,
-			xLbl = 280
+			xCtrl = 465,
+			xLbl = 285
 		}, {
 			VisibilityCondition = { {
 					id = "GUI_fuze_type",
 					value = 3
 				} },
-			control = "comboList",
-			defValue = 0,
-			dimension = "s",
-			id = "function_delay_ctrl_NP44",
-			label = "Function Delay",
-			stringIndex = 2,
-			values = { {
-					dispName = 0,
-					id = 0
-				}, {
-					dispName = 0.025,
-					id = 0.025
-				}, {
-					dispName = 1,
-					id = 1
-				}, {
-					dispName = 11,
-					id = 11
-				} },
-			xCtrl = 170,
-			xLbl = 10
-		}, {
-			VisibilityCondition = { {
-					id = "GUI_fuze_type",
-					value = 3
-				} },
+			baseDim = "rev",
 			control = "spinbox",
-			defValue = 2.6,
-			dimension = "s",
-			id = "arm_delay_ctrl_NP44",
-			label = "Arm Delay",
-			max = 1800,
+			defValue = 7,
+			dimension = "rev",
+			id = "vane_rev_threshold_ctrl_NP44",
+			label = "Arming Vane Revs. Required",
+			max = 3600,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 2,
-			xCtrl = 460,
-			xLbl = 280
+			xCtrl = 465,
+			xLbl = 285
 		} },
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

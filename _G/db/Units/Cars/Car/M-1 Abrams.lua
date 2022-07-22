@@ -221,13 +221,13 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					PL = { {
 							ammo_capacity = 11,
 							reload_time = 165,
-							shell_name = {},
+							shell_name = { "M256_120_AP" },
 							shot_delay = 6,
 							virtualStwID = 1
 						}, {
 							ammo_capacity = 14,
 							reload_time = 210,
-							shell_name = {},
+							shell_name = { "M256_120_AP" },
 							shot_delay = 18,
 							virtualStwID = 2
 						} },

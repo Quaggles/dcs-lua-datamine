@@ -808,11 +808,15 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "Stanley_LightHouse"
 				}, {
+					Name = "Nodding_Donkey"
+				}, {
 					Name = "345 Excavator"
 				}, {
 					Name = "Tower Crane"
 				}, {
 					Name = "Small_LightHouse"
+				}, {
+					Name = "Ski Ramp"
 				}, {
 					Name = "Concertina wire"
 				}, {
@@ -1003,6 +1007,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "L-39C"
 				}, {
 					Name = "M-2000C"
+				}, {
+					Name = "Mirage-F1CE"
 				}, {
 					Name = "Ju-88A4"
 				}, {

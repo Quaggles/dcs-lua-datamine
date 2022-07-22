@@ -24,17 +24,118 @@ _G["launcher"]["{AN_M30A1}"] = {
 					dispName = "AN-M100A2",
 					id = 1
 				}, {
-					dispName = "AN-M103A1",
+					dispName = "AN-M115",
 					id = 2
 				}, {
-					dispName = "M118",
+					dispName = "AN-M123A1",
 					id = 3
 				}, {
-					dispName = "M119",
+					dispName = "AN-M132",
 					id = 4
+				}, {
+					dispName = "AN-M103A1",
+					id = 5
+				}, {
+					dispName = "Mk 243 Mod 0",
+					id = 6
+				}, {
+					dispName = "Mk 243 Mod 1",
+					id = 7
 				} },
-			wCtrl = 350,
+			wCtrl = 355,
 			xCtrl = 170
+		}, {
+			VisibilityCondition = { {
+					id = "GUI_fuze_type",
+					value = 7
+				} },
+			baseDim = "s",
+			control = "spinbox",
+			defValue = 4,
+			dimension = "s",
+			id = "function_delay_ctrl_Mk243Mod1",
+			label = "Function Delay",
+			max = 3600,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 2,
+			xCtrl = 170,
+			xLbl = 10
+		}, {
+			VisibilityCondition = { {
+					id = "GUI_fuze_type",
+					value = 5
+				} },
+			control = "comboList",
+			defValue = 0,
+			dimension = "s",
+			id = "function_delay_ctrl_ANM103A1",
+			label = "Function Delay",
+			stringIndex = 2,
+			values = { {
+					dispName = 0,
+					id = 0
+				}, {
+					dispName = 0.1,
+					id = 0.1
+				} },
+			xCtrl = 170,
+			xLbl = 10
+		}, {
+			VisibilityCondition = { {
+					id = "GUI_fuze_type",
+					value = 6
+				} },
+			baseDim = "s",
+			control = "spinbox",
+			defValue = 0.025,
+			dimension = "ms",
+			id = "function_delay_ctrl_Mk243Mod0",
+			label = "Function Delay",
+			max = 3600000,
+			min = 0,
+			readOnly = true,
+			step = 10,
+			stringIndex = 2,
+			xCtrl = 170,
+			xLbl = 10
+		}, {
+			VisibilityCondition = { {
+					id = "GUI_fuze_type",
+					value = 3
+				} },
+			baseDim = "s",
+			control = "spinbox",
+			defValue = 3600,
+			dimension = "h",
+			id = "function_delay_ctrl_ANM123A1",
+			label = "Function Delay",
+			max = 1,
+			min = 0,
+			readOnly = true,
+			step = 2.7777777777778e-06,
+			stringIndex = 2,
+			xCtrl = 170,
+			xLbl = 10
+		}, {
+			VisibilityCondition = { {
+					id = "GUI_fuze_type",
+					value = 4
+				} },
+			baseDim = "s",
+			control = "spinbox",
+			defValue = 1800,
+			dimension = "h",
+			id = "function_delay_ctrl_ANM132",
+			label = "Function Delay",
+			max = 1,
+			min = 0,
+			readOnly = true,
+			step = 2.7777777777778e-06,
+			stringIndex = 2,
+			xCtrl = 170,
+			xLbl = 10
 		}, {
 			VisibilityCondition = { {
 					id = "GUI_fuze_type",
@@ -64,149 +165,174 @@ _G["launcher"]["{AN_M30A1}"] = {
 		}, {
 			VisibilityCondition = { {
 					id = "GUI_fuze_type",
-					value = 1
-				} },
-			control = "spinbox",
-			defValue = 1.05,
-			dimension = "s",
-			id = "arm_delay_ctrl_ANM100A2",
-			label = "Arm Delay",
-			max = 1800,
-			min = 0,
-			readOnly = true,
-			step = 0.01,
-			stringIndex = 2,
-			xCtrl = 460,
-			xLbl = 280
-		}, {
-			VisibilityCondition = { {
-					id = "GUI_fuze_type",
 					value = 2
 				} },
 			control = "comboList",
-			defValue = 0,
+			defValue = 1,
 			dimension = "s",
-			id = "function_delay_ctrl_ANM103A1",
+			id = "function_delay_ctrl_ANM115",
 			label = "Function Delay",
 			stringIndex = 2,
 			values = { {
-					dispName = 0,
-					id = 0
+					dispName = 5,
+					id = 5
 				}, {
-					dispName = 0.1,
-					id = 0.1
+					dispName = 11,
+					id = 11
 				} },
 			xCtrl = 170,
 			xLbl = 10
 		}, {
 			VisibilityCondition = { {
 					id = "GUI_fuze_type",
-					value = 2
-				}, "and", {
-					bNot = false,
-					id = "function_delay_ctrl_ANM103A1",
-					value = 0
+					value = 3
 				} },
+			baseDim = "rev",
 			control = "spinbox",
-			defValue = 1.81,
-			dimension = "s",
-			id = "arm_delay_ctrl0_ANM103A1",
-			label = "Arm Delay",
-			max = 1800,
+			defValue = 8,
+			dimension = "rev",
+			id = "vane_rev_threshold_ctrl_ANM123A1",
+			label = "Arming Vane Revs. Required",
+			max = 3600,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 2,
-			xCtrl = 460,
-			xLbl = 280
+			xCtrl = 465,
+			xLbl = 285
 		}, {
 			VisibilityCondition = { {
 					id = "GUI_fuze_type",
-					value = 2
+					value = 6
+				} },
+			baseDim = "rev",
+			control = "spinbox",
+			defValue = 130,
+			dimension = "rev",
+			id = "vane_rev_threshold_ctrl_Mk243Mod0",
+			label = "Arming Vane Revs. Required",
+			max = 3600,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 2,
+			xCtrl = 465,
+			xLbl = 285
+		}, {
+			VisibilityCondition = { {
+					id = "GUI_fuze_type",
+					value = 5
 				}, "and", {
 					bNot = false,
 					id = "function_delay_ctrl_ANM103A1",
 					value = 0.1
 				} },
+			baseDim = "rev",
 			control = "spinbox",
-			defValue = 1.21,
-			dimension = "s",
-			id = "arm_delay_ctrl0.1_ANM103A1",
-			label = "Arm Delay",
-			max = 1800,
+			defValue = 180,
+			dimension = "rev",
+			id = "vane_rev_threshold_ctrl_FD_0.1_ANM103A1",
+			label = "Arming Vane Revs. Required",
+			max = 3600,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 2,
-			xCtrl = 460,
-			xLbl = 280
+			xCtrl = 465,
+			xLbl = 285
 		}, {
 			VisibilityCondition = { {
 					id = "GUI_fuze_type",
-					value = 3
+					value = 5
+				}, "and", {
+					bNot = false,
+					id = "function_delay_ctrl_ANM103A1",
+					value = 0
 				} },
+			baseDim = "rev",
 			control = "spinbox",
-			defValue = 5,
-			dimension = "s",
-			id = "function_delay_ctrl_M118",
-			label = "Function Delay",
-			max = 1800,
+			defValue = 300,
+			dimension = "rev",
+			id = "vane_rev_threshold_ctrl_FD_0_ANM103A1",
+			label = "Arming Vane Revs. Required",
+			max = 3600,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 2,
-			xCtrl = 170,
-			xLbl = 10
+			xCtrl = 465,
+			xLbl = 285
 		}, {
 			VisibilityCondition = { {
 					id = "GUI_fuze_type",
-					value = 3
+					value = 1
 				} },
+			baseDim = "rev",
 			control = "spinbox",
-			defValue = 0.24,
-			dimension = "s",
-			id = "arm_delay_ctrl_M118",
-			label = "Arm Delay",
-			max = 1800,
+			defValue = 160,
+			dimension = "rev",
+			id = "vane_rev_threshold_ctrl_ANM100A2",
+			label = "Arming Vane Revs. Required",
+			max = 3600,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 2,
-			xCtrl = 460,
-			xLbl = 280
+			xCtrl = 465,
+			xLbl = 285
+		}, {
+			VisibilityCondition = { {
+					id = "GUI_fuze_type",
+					value = 2
+				} },
+			baseDim = "rev",
+			control = "spinbox",
+			defValue = 160,
+			dimension = "rev",
+			id = "vane_rev_threshold_ctrl_ANM115",
+			label = "Arming Vane Revs. Required",
+			max = 3600,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 2,
+			xCtrl = 465,
+			xLbl = 285
 		}, {
 			VisibilityCondition = { {
 					id = "GUI_fuze_type",
 					value = 4
 				} },
+			baseDim = "rev",
 			control = "spinbox",
-			defValue = 11,
-			dimension = "s",
-			id = "function_delay_ctrl_M119",
-			label = "Function Delay",
-			max = 1800,
+			defValue = 8,
+			dimension = "rev",
+			id = "vane_rev_threshold_ctrl_ANM132",
+			label = "Arming Vane Revs. Required",
+			max = 3600,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 2,
-			xCtrl = 170,
-			xLbl = 10
+			xCtrl = 465,
+			xLbl = 285
 		}, {
 			VisibilityCondition = { {
 					id = "GUI_fuze_type",
-					value = 4
+					value = 7
 				} },
+			baseDim = "rev",
 			control = "spinbox",
-			defValue = 0.24,
-			dimension = "s",
-			id = "arm_delay_ctrl_M119",
-			label = "Arm Delay",
-			max = 1800,
+			defValue = 130,
+			dimension = "rev",
+			id = "vane_rev_threshold_ctrl_Mk243Mod1",
+			label = "Arming Vane Revs. Required",
+			max = 3600,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 2,
-			xCtrl = 460,
-			xLbl = 280
+			xCtrl = 465,
+			xLbl = 285
 		} }
 }

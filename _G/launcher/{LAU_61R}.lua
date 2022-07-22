@@ -13,5 +13,5 @@ _G["launcher"]["{LAU_61R}"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = 'LAU-61R pod - 19 x 2.75" Hydra, UnGd Rkts M151, HE',
-	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
+	wsTypeOfWeapon = "weapons.nurs.HYDRA_70_M151"
 }

@@ -50,6 +50,7 @@ _G["weapons_table"]["weapons"]["shells"]["7_62x51"] = {
 	round_mass = 0.00933,
 	s = 0,
 	scale_smoke = 0,
+	scale_tracer = 0,
 	silent_self_destruction = false,
 	smoke_tail_life_time = -1,
 	subcalibre = false,

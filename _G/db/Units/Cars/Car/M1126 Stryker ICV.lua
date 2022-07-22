@@ -57,13 +57,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							switch_on_delay = 20
 						} },
 					beamWidth = 0.017453292519943,
-					customViewPoint = { "genericAAA", { -1.5, 0.2, 0 } },
 					fireAnimationArgument = 23,
-					sensor = {}
+					sensor = {},
+					sightIndicationMode = 1,
+					sightMasterMode = 1
 				} },
 			angles = { { 3.1415926535898, 2.1816615649929, -0.15707963267949, 0.95993108859688 }, { 2.1816615649929, -2.6179938779915, -0.27925268031909, 0.95993108859688 }, { -2.6179938779915, -3.1415926535898, -0.15707963267949, 0.95993108859688 } },
 			angles_mech = { { 3.1415926535898, -3.1415926535898, -0.38397243543875, 0.95993108859688 } },
 			center = "CENTER_TOWER",
+			cockpit = { "M1126 Stryker ICV/M1126", { 0, 0, 0 } },
 			drawArgument1 = 0,
 			drawArgument2 = 1,
 			laser = true,
@@ -81,6 +83,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				inn = 10,
 				p = 100
 			},
+			pointer = "POINT_SIGHT_01",
 			stabilizer = true
 		},
 		maxTargetDetectionRange = 5000,

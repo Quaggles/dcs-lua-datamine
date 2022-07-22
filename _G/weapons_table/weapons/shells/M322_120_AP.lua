@@ -49,6 +49,7 @@ _G["weapons_table"]["weapons"]["shells"]["M322_120_AP"] = {
 	rotation_freq = 0,
 	round_mass = 5.6,
 	s = 0,
+	scale_tracer = 0,
 	silent_self_destruction = false,
 	smoke_tail_life_time = -1,
 	subcalibre = true,

@@ -876,7 +876,10 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		holdback_bars_angle = { 808, 809, 810, 811 },
 		holdback_bars_color = { 812, 813, 814, 815 },
 		holdback_bars_deck_cleat = { 804, 805, 806, 807 },
-		holdback_bars_pos = { 817, 818, 819, 820 }
+		holdback_bars_pos = { 817, 818, 819, 820 },
+		radar1_rotation = 2,
+		radar2_rotation = 3,
+		radar3_rotation = 1
 	},
 	armour_scheme = {
 		hull_azimuth = { {} },

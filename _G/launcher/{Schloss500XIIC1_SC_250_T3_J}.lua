@@ -26,7 +26,7 @@ _G["launcher"]["{Schloss500XIIC1_SC_250_T3_J}"] = {
 					dispName = "Zünder 25C",
 					id = 1
 				} },
-			wCtrl = 350,
+			wCtrl = 355,
 			xCtrl = 170
 		}, {
 			VisibilityCondition = { {
@@ -48,28 +48,7 @@ _G["launcher"]["{Schloss500XIIC1_SC_250_T3_J}"] = {
 				} },
 			wCtrl = 75,
 			xCtrl = 700,
-			xLbl = 550
-		}, {
-			VisibilityCondition = { {
-					id = "GUI_fuze_type",
-					value = 1
-				}, "and", {
-					bNot = false,
-					id = "GUI_fuze_operation_mode",
-					value = 2
-				} },
-			control = "spinbox",
-			defValue = 8.5,
-			dimension = "s",
-			id = "function_delay_ctrl_oV_FFD_Z25C",
-			label = "oV Mode Function Delay",
-			max = 1800,
-			min = 0,
-			readOnly = true,
-			step = 0.01,
-			stringIndex = 2,
-			xCtrl = 170,
-			xLbl = 10
+			xLbl = 560
 		}, {
 			VisibilityCondition = { {
 					id = "GUI_fuze_type",
@@ -79,12 +58,13 @@ _G["launcher"]["{Schloss500XIIC1_SC_250_T3_J}"] = {
 					id = "GUI_fuze_operation_mode",
 					value = 1
 				} },
+			baseDim = "s",
 			control = "spinbox",
 			defValue = 0,
 			dimension = "s",
 			id = "function_delay_ctrl_oV_VFD_Z25C",
 			label = "oV Mode Function Delay",
-			max = 1800,
+			max = 3600,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
@@ -100,18 +80,41 @@ _G["launcher"]["{Schloss500XIIC1_SC_250_T3_J}"] = {
 					id = "GUI_fuze_operation_mode",
 					value = 2
 				} },
+			baseDim = "s",
+			control = "spinbox",
+			defValue = 8.5,
+			dimension = "s",
+			id = "function_delay_ctrl_oV_FFD_Z25C",
+			label = "oV Mode Function Delay",
+			max = 3600,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 2,
+			xCtrl = 170,
+			xLbl = 10
+		}, {
+			VisibilityCondition = { {
+					id = "GUI_fuze_type",
+					value = 1
+				}, "and", {
+					bNot = false,
+					id = "GUI_fuze_operation_mode",
+					value = 2
+				} },
+			baseDim = "s",
 			control = "spinbox",
 			defValue = 8.5,
 			dimension = "s",
 			id = "function_delay_ctrl_mV_FFD_Z25C",
 			label = "mV Mode Function Delay",
-			max = 1800,
+			max = 3600,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 2,
-			xCtrl = 460,
-			xLbl = 260
+			xCtrl = 465,
+			xLbl = 265
 		}, {
 			VisibilityCondition = { {
 					id = "GUI_fuze_type",
@@ -121,18 +124,19 @@ _G["launcher"]["{Schloss500XIIC1_SC_250_T3_J}"] = {
 					id = "GUI_fuze_operation_mode",
 					value = 1
 				} },
+			baseDim = "s",
 			control = "spinbox",
 			defValue = 0.08,
-			dimension = "s",
+			dimension = "ms",
 			id = "function_delay_ctrl_mV_VFD_Z25C",
 			label = "mV Mode Function Delay",
-			max = 1800,
+			max = 3600000,
 			min = 0,
 			readOnly = true,
-			step = 0.01,
+			step = 10,
 			stringIndex = 2,
-			xCtrl = 460,
-			xLbl = 260
+			xCtrl = 465,
+			xLbl = 265
 		}, {
 			VisibilityCondition = { {
 					id = "GUI_fuze_type",
@@ -142,18 +146,19 @@ _G["launcher"]["{Schloss500XIIC1_SC_250_T3_J}"] = {
 					id = "GUI_fuze_operation_mode",
 					value = 2
 				} },
+			baseDim = "s",
 			control = "spinbox",
 			defValue = 8.5,
 			dimension = "s",
 			id = "function_delay_ctrl_Vz_FFD_Z25C",
 			label = "Vz Mode Function Delay",
-			max = 1800,
+			max = 3600,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 2,
 			xCtrl = 700,
-			xLbl = 550
+			xLbl = 560
 		}, {
 			VisibilityCondition = { {
 					id = "GUI_fuze_type",
@@ -163,39 +168,19 @@ _G["launcher"]["{Schloss500XIIC1_SC_250_T3_J}"] = {
 					id = "GUI_fuze_operation_mode",
 					value = 1
 				} },
+			baseDim = "s",
 			control = "spinbox",
 			defValue = 8.5,
 			dimension = "s",
 			id = "function_delay_ctrl_Vz_VFD_Z25C",
 			label = "Vz Mode Function Delay",
-			max = 1800,
+			max = 3600,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 2,
 			xCtrl = 700,
-			xLbl = 550
-		}, {
-			VisibilityCondition = { {
-					id = "GUI_fuze_type",
-					value = 1
-				}, "and", {
-					bNot = false,
-					id = "GUI_fuze_operation_mode",
-					value = 2
-				} },
-			control = "spinbox",
-			defValue = 0.08,
-			dimension = "s",
-			id = "arm_delay_ctrl_Strz_FFD_Z25C",
-			label = "Sturz Mode Arm Delay",
-			max = 1800,
-			min = 0,
-			readOnly = true,
-			step = 0.01,
-			stringIndex = 3,
-			xCtrl = 170,
-			xLbl = 10
+			xLbl = 560
 		}, {
 			VisibilityCondition = { {
 					id = "GUI_fuze_type",
@@ -205,15 +190,16 @@ _G["launcher"]["{Schloss500XIIC1_SC_250_T3_J}"] = {
 					id = "GUI_fuze_operation_mode",
 					value = 1
 				} },
+			baseDim = "s",
 			control = "spinbox",
 			defValue = 0.08,
-			dimension = "s",
+			dimension = "ms",
 			id = "arm_delay_ctrl_Strz_VFD_Z25C",
 			label = "Sturz Mode Arm Delay",
-			max = 1800,
+			max = 3600000,
 			min = 0,
 			readOnly = true,
-			step = 0.01,
+			step = 10,
 			stringIndex = 3,
 			xCtrl = 170,
 			xLbl = 10
@@ -226,18 +212,41 @@ _G["launcher"]["{Schloss500XIIC1_SC_250_T3_J}"] = {
 					id = "GUI_fuze_operation_mode",
 					value = 2
 				} },
+			baseDim = "s",
 			control = "spinbox",
 			defValue = 0.08,
-			dimension = "s",
-			id = "arm_delay_ctrl_Wgrcht_FFD_Z25C",
-			label = "Wagerecht Mode Arm Delay",
-			max = 1800,
+			dimension = "ms",
+			id = "arm_delay_ctrl_Strz_FFD_Z25C",
+			label = "Sturz Mode Arm Delay",
+			max = 3600000,
 			min = 0,
 			readOnly = true,
-			step = 0.01,
+			step = 10,
 			stringIndex = 3,
-			xCtrl = 460,
-			xLbl = 260
+			xCtrl = 170,
+			xLbl = 10
+		}, {
+			VisibilityCondition = { {
+					id = "GUI_fuze_type",
+					value = 1
+				}, "and", {
+					bNot = false,
+					id = "GUI_fuze_operation_mode",
+					value = 2
+				} },
+			baseDim = "s",
+			control = "spinbox",
+			defValue = 0.08,
+			dimension = "ms",
+			id = "arm_delay_ctrl_Wgrcht_FFD_Z25C",
+			label = "Wagerecht Mode Arm Delay",
+			max = 3600000,
+			min = 0,
+			readOnly = true,
+			step = 10,
+			stringIndex = 3,
+			xCtrl = 465,
+			xLbl = 265
 		}, {
 			VisibilityCondition = { {
 					id = "GUI_fuze_type",
@@ -247,18 +256,19 @@ _G["launcher"]["{Schloss500XIIC1_SC_250_T3_J}"] = {
 					id = "GUI_fuze_operation_mode",
 					value = 1
 				} },
+			baseDim = "s",
 			control = "spinbox",
 			defValue = 0.08,
-			dimension = "s",
+			dimension = "ms",
 			id = "arm_delay_ctrl_Wgrcht_VFD_Z25C",
 			label = "Wagerecht Mode Arm Delay",
-			max = 1800,
+			max = 3600000,
 			min = 0,
 			readOnly = true,
-			step = 0.01,
+			step = 10,
 			stringIndex = 3,
-			xCtrl = 460,
-			xLbl = 260
+			xCtrl = 465,
+			xLbl = 265
 		} },
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

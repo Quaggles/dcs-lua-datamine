@@ -7,7 +7,6 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE252_H1"] = {
 		_origin = "AircraftWeaponPack",
 		category = 3,
 		class_name = "wAmmunitionNURS",
-		control = {},
 		displayName = "68 mm SNEB Type 252 H1 TP",
 		engine = {
 			boost_factor = 1,
@@ -36,12 +35,9 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE252_H1"] = {
 			freq = 30,
 			mass = 4.38,
 			rail_open = false,
-			shapeName = "SA342_SNEB68",
+			shapeName = "",
 			wind_sigma = 5,
-			wind_time = 120
-		},
-		launcher = {
-			server = 0
+			wind_time = 1
 		},
 		model = "SA342_SNEB68",
 		name = "SNEB_TYPE252_H1",
@@ -53,7 +49,8 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE252_H1"] = {
 		shape_table_data = { {
 				file = "SA342_SNEB68",
 				index = "Redacted",
-				name = "SNEB_TYPE252_H1"
+				name = "SNEB_TYPE252_H1",
+				username = "68 mm SNEB Type 252 H1 TP"
 			} },
 		user_name = "SNEB Type 252 H1 TP",
 		warhead = {
@@ -84,7 +81,6 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE252_H1"] = {
 		_origin = "AircraftWeaponPack",
 		category = 3,
 		class_name = "wAmmunitionNURS",
-		control = {},
 		displayName = "68 mm SNEB Type 252 H1 TP",
 		engine = {
 			boost_factor = 1,
@@ -113,12 +109,9 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE252_H1"] = {
 			freq = 30,
 			mass = 4.38,
 			rail_open = false,
-			shapeName = "SA342_SNEB68",
+			shapeName = "",
 			wind_sigma = 5,
-			wind_time = 120
-		},
-		launcher = {
-			server = 1
+			wind_time = 1
 		},
 		model = "SA342_SNEB68",
 		name = "SNEB_TYPE252_H1",
@@ -130,7 +123,8 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE252_H1"] = {
 		shape_table_data = { {
 				file = "SA342_SNEB68",
 				index = "Redacted",
-				name = "SNEB_TYPE252_H1"
+				name = "SNEB_TYPE252_H1",
+				username = "68 mm SNEB Type 252 H1 TP"
 			} },
 		user_name = "SNEB Type 252 H1 TP",
 		warhead = {
@@ -165,9 +159,9 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE252_H1"] = {
 			freq = 30,
 			mass = 4.38,
 			rail_open = false,
-			shapeName = "SA342_SNEB68",
+			shapeName = "",
 			wind_sigma = 5,
-			wind_time = 120
+			wind_time = 1
 		}
 	},
 	sounderName = "Weapons/Rocket",

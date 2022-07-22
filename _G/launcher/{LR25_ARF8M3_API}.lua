@@ -83,10 +83,12 @@ _G["launcher"]["{LR25_ARF8M3_API}"] = {
 		} },
 	Picture = "LR25.png",
 	Weight = 141,
+	Weight_Empty = 46,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "LR-25 - 25 x ARF-8/M3 API",
+	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

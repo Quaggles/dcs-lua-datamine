@@ -744,6 +744,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				["C-101EB"] = {
 					enable_options_key_for_unit = "c101eb_common_enabled"
 				},
+				["F-14B"] = {
+					enable_options_key_for_unit = "f14b_enabled"
+				},
 				["F-15C"] = {
 					enable_options_key_for_unit = "f15c_enabled"
 				},
@@ -764,6 +767,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				["J-11A"] = {
 					enable_options_key_for_unit = "j11a_enabled"
 				},
+				["JF-17"] = {
+					enable_options_key_for_unit = "jf17_enabled"
+				},
 				["Ka-50"] = <table 6>,
 				["L-39C"] = {
 					enable_options_key_for_unit = "l39c_common_enabled"
@@ -773,6 +779,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				},
 				["M-2000C"] = {
 					enable_options_key_for_unit = "miraj_enabled"
+				},
+				["Mi-24P"] = {
+					enable_options_key_for_unit = "mi24p_enabled"
 				},
 				["Mi-8MT"] = {
 					enable_options_key_for_unit = "mi8_common_enabled"
@@ -895,7 +904,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				wheel_damage_speed = 111,
 				wheel_glide_friction_factor = 0.65,
 				wheel_radius = 0.45,
-				wheel_roll_friction_factor = 0.05,
+				wheel_roll_friction_factor = 0.025,
 				wheel_side_friction_factor = 0.85,
 				wheel_static_friction_factor = 0.85
 			}, {
@@ -920,7 +929,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				wheel_damage_speed = 111,
 				wheel_glide_friction_factor = 0.65,
 				wheel_radius = 0.45,
-				wheel_roll_friction_factor = 0.05,
+				wheel_roll_friction_factor = 0.025,
 				wheel_side_friction_factor = 0.85,
 				wheel_static_friction_factor = 0.85
 			} }
@@ -1095,6 +1104,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{Matra_S530D}",
 					Cx_gain = 0.35,
 					arg_value = 0.15,
+					attach_point_position = { 0, -0.13, 0 },
 					required = { {
 							loadout = { "{Matra_S530D}" },
 							station = 8
@@ -1139,6 +1149,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{SAMP250LD}",
+					Cx_gain = 0.1,
 					arg_value = 0.35,
 					attach_point_position = { -0.28, -0.16, 0 },
 					required = { {
@@ -1147,6 +1158,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{SAMP250HD}",
+					Cx_gain = 0.1,
 					arg_value = 0.35,
 					attach_point_position = { -0.33, -0.16, 0 },
 					required = { {
@@ -1296,6 +1308,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{SAMP250LD}",
+					Cx_gain = 0.1,
 					arg_value = 0.15,
 					attach_point_position = { -0.28, -0.15, 0 },
 					required = { {
@@ -1310,6 +1323,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{SAMP250HD}",
+					Cx_gain = 0.1,
 					arg_value = 0.15,
 					attach_point_position = { -0.33, -0.15, 0 },
 					required = { {
@@ -1392,6 +1406,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{SAMP250LD}",
+					Cx_gain = 0.1,
 					arg_value = 0.15,
 					attach_point_position = { -0.28, -0.16, 0 },
 					required = { {
@@ -1406,6 +1421,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{SAMP250HD}",
+					Cx_gain = 0.1,
 					arg_value = 0.15,
 					attach_point_position = { -0.33, -0.16, 0 },
 					required = { {
@@ -1636,6 +1652,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{SAMP250LD}",
+					Cx_gain = 0.1,
 					arg_value = 0.15,
 					attach_point_position = { -0.28, -0.16, 0 },
 					required = { {
@@ -1650,6 +1667,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{SAMP250HD}",
+					Cx_gain = 0.1,
 					arg_value = 0.15,
 					attach_point_position = { -0.33, -0.16, 0 },
 					required = { {
@@ -1745,6 +1763,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{SAMP250LD}",
+					Cx_gain = 0.1,
 					arg_value = 0.15,
 					attach_point_position = { -0.28, -0.15, 0 },
 					required = { {
@@ -1759,6 +1778,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{SAMP250HD}",
+					Cx_gain = 0.1,
 					arg_value = 0.15,
 					attach_point_position = { -0.33, -0.15, 0 },
 					required = { {
@@ -1785,7 +1805,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			Launchers = { {
 					CLSID = "{MMagicII}",
-					Cx_gain = 0.5,
 					arg_value = 0.45,
 					required = { {
 							loadout = { "{MMagicII}" },
@@ -1795,6 +1814,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{Matra_S530D}",
 					Cx_gain = 0.35,
 					arg_value = 0.15,
+					attach_point_position = { 0, -0.13, 0 },
 					required = { {
 							loadout = { "{Matra_S530D}" },
 							station = 2
@@ -1839,6 +1859,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{SAMP250LD}",
+					Cx_gain = 0.1,
 					arg_value = 0.35,
 					attach_point_position = { -0.28, -0.16, 0 },
 					required = { {
@@ -1847,6 +1868,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{SAMP250HD}",
+					Cx_gain = 0.1,
 					arg_value = 0.35,
 					attach_point_position = { -0.33, -0.16, 0 },
 					required = { {
@@ -2167,7 +2189,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				hAngle = 0,
 				rollAngle = 0,
 				vAngle = -37.757484,
-				viewAngle = 55.35635,
+				viewAngle = 30,
 				x_trans = 0,
 				y_trans = -0.004173,
 				z_trans = 0

@@ -35,6 +35,6 @@ _G["launcher"]["{TELSON8_SNEBT250}"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "Telson 8 - 8 x 68 mm SNEB Type 250 F1B TP-SM",
-	name = "{TELSON8_SNEBT250}",
+	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

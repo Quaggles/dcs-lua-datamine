@@ -7,6 +7,7 @@ _G["db"]["Units"]["GT_t"]["WS_t"]["ship_Sea_Cat"]["LN"]["#Index"] = {
 			reload_time = 1000000,
 			type_ammunition = { 4, 4, 34, "Redacted" }
 		} },
+	beamWidth = 1.5707963267949,
 	distanceMax = 5000,
 	distanceMin = 500,
 	launch_delay = 2,

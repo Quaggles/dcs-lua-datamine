@@ -43,7 +43,7 @@ _G["weapons_table"]["weapons"]["nurs"]["British_AP_25LBNo1_3INCHNo1"] = {
 			dist_max = 800,
 			dist_min = 300
 		},
-		scheme = "schemes/rockets/nurs-standard.sch",
+		scheme = "schemes/rockets/nurs_standard_v2.sch",
 		shape_table_data = { {
 				file = "shot_25lb_ap_mkI",
 				fire = { 0, 1 },
@@ -116,7 +116,7 @@ _G["weapons_table"]["weapons"]["nurs"]["British_AP_25LBNo1_3INCHNo1"] = {
 			dist_max = 800,
 			dist_min = 300
 		},
-		scheme = "schemes/rockets/nurs-standard.sch",
+		scheme = "schemes/rockets/nurs_standard_v2.sch",
 		shape_table_data = { {
 				file = "shot_25lb_ap_mkI",
 				fire = { 0, 1 },

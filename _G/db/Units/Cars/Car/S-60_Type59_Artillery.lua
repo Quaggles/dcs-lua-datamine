@@ -7,7 +7,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	MaxSpeed = 0,
 	Name = "AAA S-60 57mm",
 	Rate = 3,
-	ThreatRange = 7000,
+	ThreatRange = 6000,
 	WS = { {
 			LN = { {
 					BR = { {
@@ -16,14 +16,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							recoilTime = 0.3
 						} },
 					PL = { {
-							ammo_capacity = 4,
-							feedSlot = 1,
-							portionAmmoCapacity = 4,
-							reload_time = 4,
-							shell_display_name = "57mm HE-T",
-							shell_name = { "53-UOR-281U" },
-							shot_delay = 0.5,
-							switch_on_delay = 0.7
+							shell_name = {}
 						}, {
 							shell_name = {}
 						}, {
@@ -83,9 +76,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						}, {
 							shell_name = {}
 						}, {
-							feedSlot = 2,
-							shell_display_name = "57mm APCBC-HE-T",
-							shell_name = { "53-UBR-281U" }
+							shell_name = {}
 						}, {
 							shell_name = {}
 						}, {
@@ -113,16 +104,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						}, {
 							shell_name = {}
 						} },
-					connectorFire = true,
-					distanceMax = 7000,
-					distanceMin = 0,
-					max_trg_alt = 4000,
-					reactionTime = 3,
-					reflection_limit = 0.22,
-					sensor = {},
-					sightIndicationMode = 1,
-					sightMasterMode = 1,
-					type = 3
+					depends_on_unit = { { { "SON_9", 4 } }, { { "none" } } },
+					sensor = {}
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.535889741755 } },
 			center = "CENTER_POINT",

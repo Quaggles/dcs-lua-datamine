@@ -38,9 +38,9 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE259E_H1"] = {
 			freq = 30,
 			mass = 9.06,
 			rail_open = false,
-			shapeName = "SA342_SNEB68",
+			shapeName = "",
 			wind_sigma = 5,
-			wind_time = 120
+			wind_time = 1
 		},
 		launcher = {
 			ammunition = {
@@ -144,13 +144,10 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE259E_H1"] = {
 		shape_table_data = { {
 				file = "SA342_SNEB68",
 				index = "Redacted",
-				name = "SNEB_TYPE259E_H1"
+				name = "SNEB_TYPE259E_H1",
+				username = "68 mm SNEB Type 259E H1 IL"
 			} },
 		user_name = "SNEB Type 259E H1 IL",
-		warhead = {
-			caliber = 68,
-			fantom = 1
-		},
 		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 	},
 	cx_pil = 1.414105917984e-05,
@@ -196,9 +193,9 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE259E_H1"] = {
 			freq = 30,
 			mass = 9.06,
 			rail_open = false,
-			shapeName = "SA342_SNEB68",
+			shapeName = "",
 			wind_sigma = 5,
-			wind_time = 120
+			wind_time = 1
 		},
 		launcher = {
 			ammunition = {
@@ -302,13 +299,10 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE259E_H1"] = {
 		shape_table_data = { {
 				file = "SA342_SNEB68",
 				index = "Redacted",
-				name = "SNEB_TYPE259E_H1"
+				name = "SNEB_TYPE259E_H1",
+				username = "68 mm SNEB Type 259E H1 IL"
 			} },
 		user_name = "SNEB Type 259E H1 IL",
-		warhead = {
-			caliber = 68,
-			fantom = 0
-		},
 		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 	},
 	sight_data = {
@@ -327,9 +321,9 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE259E_H1"] = {
 			freq = 30,
 			mass = 9.06,
 			rail_open = false,
-			shapeName = "SA342_SNEB68",
+			shapeName = "",
 			wind_sigma = 5,
-			wind_time = 120
+			wind_time = 1
 		}
 	},
 	sounderName = "Weapons/Rocket",

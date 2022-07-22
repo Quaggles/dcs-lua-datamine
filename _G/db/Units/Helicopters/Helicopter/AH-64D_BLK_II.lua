@@ -38,6 +38,25 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		}, {
 			control = "comboList",
 			defValue = 0,
+			id = "OverrideIFF",
+			label = "AI IFF Mode",
+			playerOnly = true,
+			values = { {
+					dispName = "Auto",
+					id = 0
+				}, {
+					dispName = "Simple",
+					id = 1
+				}, {
+					dispName = "Label Only",
+					id = 2
+				}, {
+					dispName = "Realistic",
+					id = 3
+				} }
+		}, {
+			control = "comboList",
+			defValue = 0,
 			id = "FlareBurstCount",
 			label = "Flare Burst Count",
 			playerOnly = true,
@@ -690,6 +709,9 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				["C-101EB"] = {
 					enable_options_key_for_unit = "c101eb_common_enabled"
 				},
+				["F-14B"] = {
+					enable_options_key_for_unit = "f14b_enabled"
+				},
 				["F-15C"] = {
 					enable_options_key_for_unit = "f15c_enabled"
 				},
@@ -710,6 +732,9 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				["J-11A"] = {
 					enable_options_key_for_unit = "j11a_enabled"
 				},
+				["JF-17"] = {
+					enable_options_key_for_unit = "jf17_enabled"
+				},
 				["Ka-50"] = <table 4>,
 				["L-39C"] = {
 					enable_options_key_for_unit = "l39c_common_enabled"
@@ -719,6 +744,9 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				},
 				["M-2000C"] = {
 					enable_options_key_for_unit = "miraj_enabled"
+				},
+				["Mi-24P"] = {
+					enable_options_key_for_unit = "mi24p_enabled"
 				},
 				["Mi-8MT"] = {
 					enable_options_key_for_unit = "mi8_common_enabled"
@@ -1631,8 +1659,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				rollAngle = 0,
 				vAngle = -10,
 				viewAngle = 76,
-				x_trans = -0.142,
-				y_trans = 0.07,
+				x_trans = 0,
+				y_trans = 0,
 				z_trans = 0
 			},
 			[13] = {
@@ -1640,8 +1668,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				rollAngle = 0,
 				vAngle = -10,
 				viewAngle = 76,
-				x_trans = -0.142,
-				y_trans = 0.07,
+				x_trans = 0,
+				y_trans = 0,
 				z_trans = 0
 			},
 			[14] = {
@@ -1649,8 +1677,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				rollAngle = 0,
 				vAngle = -10,
 				viewAngle = 76,
-				x_trans = -0.142,
-				y_trans = 0.07,
+				x_trans = 0,
+				y_trans = 0,
 				z_trans = 0
 			}
 		}, { {
@@ -1658,27 +1686,27 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				rollAngle = 0,
 				vAngle = -5,
 				viewAngle = 76,
-				x_trans = -0.142,
-				y_trans = 0.07,
-				z_trans = -0.0575
+				x_trans = 0,
+				y_trans = -0.018,
+				z_trans = 0
 			},
 			[13] = {
 				hAngle = 0,
 				rollAngle = 0,
 				vAngle = -5,
 				viewAngle = 76,
-				x_trans = -0.142,
-				y_trans = 0.07,
-				z_trans = -0.0575
+				x_trans = 0,
+				y_trans = -0.018,
+				z_trans = 0
 			},
 			[14] = {
 				hAngle = 0,
 				rollAngle = 0,
 				vAngle = -5,
 				viewAngle = 76,
-				x_trans = 0.078,
-				y_trans = 0.07,
-				z_trans = -0.0575
+				x_trans = 0.22,
+				y_trans = 0,
+				z_trans = 0
 			}
 		} },
 	SpecificCallnames = {
@@ -1723,7 +1751,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				CameraAngleLimits = { 200, -90, 90 },
 				CameraAngleRestriction = { false, 90, 0.5 },
 				CameraViewAngleLimits = { 20, 140 },
-				CockpitLocalPoint = { 1.926, 0.922, 0.045 },
+				CockpitLocalPoint = { 1.784, 0.992, 0.045 },
 				EyePoint = { 0.09, 0, 0 },
 				ShoulderSize = 0.25,
 				limits_6DOF = {
@@ -1737,7 +1765,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				CameraAngleLimits = { 200, -90, 90 },
 				CameraAngleRestriction = { false, 90, 0.5 },
 				CameraViewAngleLimits = { 20, 140 },
-				CockpitLocalPoint = { 3.226, 0.452, 0.045 },
+				CockpitLocalPoint = { 3.084, 0.542, -0.0125 },
 				EyePoint = { 0.09, 0, 0 },
 				ShoulderSize = 0.25,
 				limits_6DOF = {

@@ -6,7 +6,8 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["automatic_gun_KPVT"] = {
 			ammo_capacity = 50,
 			portionAmmoCapacity = 50,
 			reload_time = 20,
-			shell_name = { "KPVT_14_5_T" },
+			shell_display_name = "KPVT_14_5",
+			shell_name = { "KPVT_14_5_T", "KPVT_14_5", "KPVT_14_5", "KPVT_14_5", "KPVT_14_5" },
 			shot_delay = 0.1,
 			switch_on_delay = 20
 		}, {

@@ -29,6 +29,7 @@ _G["launcher"]["{6_x_AGM_86C_MER}"] = {
 		} },
 	Picture = "AGM86.png",
 	Weight = 12360,
+	Weight_Empty = 60,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/cruise_missiles.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },

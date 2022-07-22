@@ -10,13 +10,13 @@ _G["launcher"]["{M299_1xAGM_114K_OUTBOARD_STARBOARD}"] = {
 			connector_name = "Point003"
 		} },
 	Picture = "agm114.png",
-	Weight = 111.2,
-	Weight_Empty = 65.8,
+	Weight = 109.8,
+	Weight_Empty = 64.9,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/AS_Missiles.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
 	displayName = "M299 - 1 x AGM-114K Hellfire, Starboard",
-	name = "{M299_1xAGM_114K_OUTBOARD_STARBOARD}",
-	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
+	shape_table_data = {},
+	wsTypeOfWeapon = "weapons.missiles.AGM_114K"
 }

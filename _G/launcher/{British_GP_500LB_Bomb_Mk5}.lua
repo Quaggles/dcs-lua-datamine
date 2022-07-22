@@ -21,25 +21,26 @@ _G["launcher"]["{British_GP_500LB_Bomb_Mk5}"] = {
 			label = "Fuze Type",
 			stringIndex = 1,
 			values = { {
-					dispName = "TP No. 17 Mk I",
+					dispName = "Tail Pistol No. 17 Mk I",
 					id = 1
 				} },
-			wCtrl = 350,
+			wCtrl = 355,
 			xCtrl = 170
 		}, {
 			VisibilityCondition = { {
 					id = "GUI_fuze_type",
 					value = 1
 				} },
+			baseDim = "s",
 			control = "spinbox",
 			defValue = 1800,
-			dimension = "s",
+			dimension = "h",
 			id = "function_delay_ctrl_TP17MkI",
 			label = "Function Delay",
-			max = 1800,
+			max = 1,
 			min = 0,
 			readOnly = true,
-			step = 0.01,
+			step = 2.7777777777778e-06,
 			stringIndex = 2,
 			xCtrl = 170,
 			xLbl = 10
@@ -48,17 +49,18 @@ _G["launcher"]["{British_GP_500LB_Bomb_Mk5}"] = {
 					id = "GUI_fuze_type",
 					value = 1
 				} },
+			baseDim = "rev",
 			control = "spinbox",
-			defValue = 0.64,
-			dimension = "s",
-			id = "arm_delay_ctrl_TP17MkI",
-			label = "Arm Delay",
-			max = 1800,
+			defValue = 8,
+			dimension = "rev",
+			id = "vane_rev_threshold_ctrl_TP17MkI",
+			label = "Arming Vane Revs. Required",
+			max = 3600,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 2,
-			xCtrl = 460,
-			xLbl = 280
+			xCtrl = 465,
+			xLbl = 285
 		} }
 }

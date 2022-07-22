@@ -920,11 +920,15 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "Stanley_LightHouse"
 				}, {
+					Name = "Nodding_Donkey"
+				}, {
 					Name = "345 Excavator"
 				}, {
 					Name = "Tower Crane"
 				}, {
 					Name = "Small_LightHouse"
+				}, {
+					Name = "Ski Ramp"
 				}, {
 					Name = "Concertina wire"
 				}, {
@@ -1121,6 +1125,22 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "MiG-19P"
 				}, {
 					Name = "MiG-21Bis"
+				}, {
+					Name = "Mirage-F1CE"
+				}, {
+					Name = "Mirage-F1EE"
+				}, {
+					Name = "Mirage-F1M-EE"
+				}, {
+					Name = "Mirage-F1M-CE"
+				}, {
+					Name = "Mirage-F1JA"
+				}, {
+					Name = "Mirage-F1EDA"
+				}, {
+					Name = "Mirage-F1BE"
+				}, {
+					Name = "Mirage-F1DDA"
 				}, {
 					Name = "Yak-52"
 				}, {

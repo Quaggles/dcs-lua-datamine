@@ -31,10 +31,10 @@ _G["launcher"]["{British_SAP_250LB_Bomb_Mk5_on_Handley_Page_Type_B_Cut_Bar}"] = 
 			label = "Fuze Type",
 			stringIndex = 1,
 			values = { {
-					dispName = "TP No. 30 Mk III",
+					dispName = "Tail Pistol No. 30 Mk III",
 					id = 1
 				} },
-			wCtrl = 350,
+			wCtrl = 355,
 			xCtrl = 170
 		}, {
 			VisibilityCondition = { {
@@ -67,18 +67,19 @@ _G["launcher"]["{British_SAP_250LB_Bomb_Mk5_on_Handley_Page_Type_B_Cut_Bar}"] = 
 					id = "GUI_fuze_type",
 					value = 1
 				} },
+			baseDim = "rev",
 			control = "spinbox",
-			defValue = 1.04,
-			dimension = "s",
-			id = "arm_delay_ctrl_TP30MkIII",
-			label = "Arm Delay",
-			max = 1800,
+			defValue = 13,
+			dimension = "rev",
+			id = "vane_rev_threshold_ctrl_TP30MkIII",
+			label = "Arming Vane Revs. Required",
+			max = 3600,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 2,
-			xCtrl = 460,
-			xLbl = 280
+			xCtrl = 465,
+			xLbl = 285
 		} },
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

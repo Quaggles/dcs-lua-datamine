@@ -688,6 +688,9 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				["C-101EB"] = {
 					enable_options_key_for_unit = "c101eb_common_enabled"
 				},
+				["F-14B"] = {
+					enable_options_key_for_unit = "f14b_enabled"
+				},
 				["F-15C"] = {
 					enable_options_key_for_unit = "f15c_enabled"
 				},
@@ -708,6 +711,9 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				["J-11A"] = {
 					enable_options_key_for_unit = "j11a_enabled"
 				},
+				["JF-17"] = {
+					enable_options_key_for_unit = "jf17_enabled"
+				},
 				["Ka-50"] = <table 2>,
 				["L-39C"] = {
 					enable_options_key_for_unit = "l39c_common_enabled"
@@ -717,6 +723,9 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				},
 				["M-2000C"] = {
 					enable_options_key_for_unit = "miraj_enabled"
+				},
+				["Mi-24P"] = {
+					enable_options_key_for_unit = "mi24p_enabled"
 				},
 				["Mi-8MT"] = {
 					enable_options_key_for_unit = "mi8_common_enabled"

@@ -1,6 +1,7 @@
 _G["launcher"]["{M261_INBOARD_DE_M151_C_M274}"] = {
 	CLSID = "{M261_INBOARD_DE_M151_C_M274}",
 	Count = 19,
+	Cx_pil = 0.001708984375,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "M261"
@@ -63,14 +64,13 @@ _G["launcher"]["{M261_INBOARD_DE_M151_C_M274}"] = {
 			payload_CLSID = "{M274_HYDRA}"
 		} },
 	Picture = "LAU61.png",
-	Weight = 273.1,
-	Weight_Empty = 73.9,
+	Weight = 237,
+	Weight_Empty = 39.4,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
-	displayName = "M261: Inboard Launcher, Zone C: M274 Hydra (6SK), Zones D/E: M151 Hydra (6PD)",
-	kind_of_shipping = 2,
-	name = "{M261_INBOARD_DE_M151_C_M274}",
-	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
+	displayName = "M261 - 19 x Hydra 70, Pod Zones: C - M274; D/E - M151",
+	shape_table_data = {},
+	wsTypeOfWeapon = "weapons.nurs.HYDRA_70_M151"
 }

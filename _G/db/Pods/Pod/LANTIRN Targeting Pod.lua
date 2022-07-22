@@ -1,4 +1,5 @@
 _G["db"]["Pods"]["Pod"]["#Index"] = {
 	DisplayName = "LANTIRN Targeting Pod",
-	Name = "Redacted"
+	Name = "Redacted",
+	OPTIC = { "LANTIRN AAQ-14 FLIR" }
 }

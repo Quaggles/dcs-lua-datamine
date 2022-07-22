@@ -22,7 +22,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							recoilTime = 0.5
 						} },
 					PL = { {
-							shell_name = {},
+							shell_name = { "OFL_120F2_AP" },
 							virtualStwID = 1
 						}, {
 							shell_name = {},
@@ -37,12 +37,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					PL = { {
 							ammo_capacity = 6,
 							reload_time = 120,
-							shell_name = { "M256_120_HE" },
+							shell_name = { "120_EXPL_F1_120mm_HE" },
 							virtualStwID = 1
 						}, {
 							ammo_capacity = 6,
 							reload_time = 90,
-							shell_name = { "M256_120_HE" },
+							shell_name = { "120_EXPL_F1_120mm_HE" },
 							virtualStwID = 2
 						} },
 					distanceMax = 8000,

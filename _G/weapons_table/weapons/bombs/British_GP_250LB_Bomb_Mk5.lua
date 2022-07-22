@@ -32,8 +32,10 @@ _G["weapons_table"]["weapons"]["bombs"]["British_GP_250LB_Bomb_Mk5"] = {
 			wind_time = 1
 		},
 		fuze = {
-			default_arm_delays = { 0.64 },
-			default_function_delays = { 1800 }
+			default_function_delays = { 1800 },
+			is_vane_sim_required = true,
+			vane_rev_threshold = 8,
+			vane_span = 0.11684
 		},
 		hMax = 12000,
 		hMin = 300,
@@ -103,8 +105,10 @@ _G["weapons_table"]["weapons"]["bombs"]["British_GP_250LB_Bomb_Mk5"] = {
 			wind_time = 1
 		},
 		fuze = {
-			default_arm_delays = { 0.64 },
-			default_function_delays = { 1800 }
+			default_function_delays = { 1800 },
+			is_vane_sim_required = true,
+			vane_rev_threshold = 8,
+			vane_span = 0.11684
 		},
 		hMax = 12000,
 		hMin = 300,

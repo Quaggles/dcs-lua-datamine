@@ -1,6 +1,7 @@
 _G["launcher"]["{M261_OUTBOARD_AB_M151_E_M257}"] = {
 	CLSID = "{M261_OUTBOARD_AB_M151_E_M257}",
 	Count = 19,
+	Cx_pil = 0.001708984375,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "M261"
@@ -63,14 +64,13 @@ _G["launcher"]["{M261_OUTBOARD_AB_M151_E_M257}"] = {
 			payload_CLSID = "{M151_HYDRA}"
 		} },
 	Picture = "LAU61.png",
-	Weight = 275.5,
-	Weight_Empty = 73.9,
+	Weight = 239.4,
+	Weight_Empty = 39.4,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
-	displayName = "M261: Outboard Launcher, Zones A/B: M151 Hydra (6PD), Zone E: M257 Hydra (6IL)",
-	kind_of_shipping = 2,
-	name = "{M261_OUTBOARD_AB_M151_E_M257}",
-	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
+	displayName = "M261 - 19 x Hydra 70, Pod Zones: A/B - M151; E - M257",
+	shape_table_data = {},
+	wsTypeOfWeapon = "weapons.nurs.HYDRA_70_M151"
 }

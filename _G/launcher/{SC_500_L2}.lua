@@ -27,7 +27,7 @@ _G["launcher"]["{SC_500_L2}"] = {
 					dispName = "Zünder 17",
 					id = 2
 				} },
-			wCtrl = 350,
+			wCtrl = 355,
 			xCtrl = 170
 		}, {
 			VisibilityCondition = { {
@@ -49,7 +49,47 @@ _G["launcher"]["{SC_500_L2}"] = {
 				} },
 			wCtrl = 75,
 			xCtrl = 700,
-			xLbl = 550
+			xLbl = 560
+		}, {
+			VisibilityCondition = { {
+					id = "GUI_fuze_type",
+					value = 1
+				}, "and", {
+					bNot = false,
+					id = "GUI_fuze_operation_mode",
+					value = 1
+				} },
+			baseDim = "s",
+			control = "spinbox",
+			defValue = 0.05,
+			dimension = "ms",
+			id = "function_delay_ctrl_oV_VFD_Z38",
+			label = "oV Mode Function Delay",
+			max = 3600000,
+			min = 0,
+			readOnly = true,
+			step = 10,
+			stringIndex = 2,
+			xCtrl = 170,
+			xLbl = 10
+		}, {
+			VisibilityCondition = { {
+					id = "GUI_fuze_type",
+					value = 2
+				} },
+			baseDim = "s",
+			control = "spinbox",
+			defValue = 180,
+			dimension = "min",
+			id = "function_delay_ctrl_oV_Z17",
+			label = "oV Mode Function Delay",
+			max = 60,
+			min = 0,
+			readOnly = true,
+			step = 0.00016666666666667,
+			stringIndex = 2,
+			xCtrl = 170,
+			xLbl = 10
 		}, {
 			VisibilityCondition = { {
 					id = "GUI_fuze_type",
@@ -59,33 +99,13 @@ _G["launcher"]["{SC_500_L2}"] = {
 					id = "GUI_fuze_operation_mode",
 					value = 2
 				} },
+			baseDim = "s",
 			control = "spinbox",
 			defValue = 5,
 			dimension = "s",
 			id = "function_delay_ctrl_oV_FFD_Z38",
 			label = "oV Mode Function Delay",
-			max = 1800,
-			min = 0,
-			readOnly = true,
-			step = 0.01,
-			stringIndex = 2,
-			xCtrl = 170,
-			xLbl = 10
-		}, {
-			VisibilityCondition = { {
-					id = "GUI_fuze_type",
-					value = 1
-				}, "and", {
-					bNot = false,
-					id = "GUI_fuze_operation_mode",
-					value = 1
-				} },
-			control = "spinbox",
-			defValue = 0.05,
-			dimension = "s",
-			id = "function_delay_ctrl_oV_VFD_Z38",
-			label = "oV Mode Function Delay",
-			max = 1800,
+			max = 3600,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
@@ -101,18 +121,19 @@ _G["launcher"]["{SC_500_L2}"] = {
 					id = "GUI_fuze_operation_mode",
 					value = 2
 				} },
+			baseDim = "s",
 			control = "spinbox",
 			defValue = 5,
 			dimension = "s",
 			id = "function_delay_ctrl_mV_FFD_Z38",
 			label = "mV Mode Function Delay",
-			max = 1800,
+			max = 3600,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 2,
-			xCtrl = 460,
-			xLbl = 260
+			xCtrl = 465,
+			xLbl = 265
 		}, {
 			VisibilityCondition = { {
 					id = "GUI_fuze_type",
@@ -122,18 +143,37 @@ _G["launcher"]["{SC_500_L2}"] = {
 					id = "GUI_fuze_operation_mode",
 					value = 1
 				} },
+			baseDim = "s",
 			control = "spinbox",
 			defValue = 0.2,
 			dimension = "s",
 			id = "function_delay_ctrl_mV_VFD_Z38",
 			label = "mV Mode Function Delay",
-			max = 1800,
+			max = 3600,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 2,
-			xCtrl = 460,
-			xLbl = 260
+			xCtrl = 465,
+			xLbl = 265
+		}, {
+			VisibilityCondition = { {
+					id = "GUI_fuze_type",
+					value = 2
+				} },
+			baseDim = "s",
+			control = "spinbox",
+			defValue = 180,
+			dimension = "min",
+			id = "function_delay_ctrl_mV_Z17",
+			label = "mV Mode Function Delay",
+			max = 60,
+			min = 0,
+			readOnly = true,
+			step = 0.00016666666666667,
+			stringIndex = 2,
+			xCtrl = 465,
+			xLbl = 265
 		}, {
 			VisibilityCondition = { {
 					id = "GUI_fuze_type",
@@ -143,18 +183,37 @@ _G["launcher"]["{SC_500_L2}"] = {
 					id = "GUI_fuze_operation_mode",
 					value = 2
 				} },
+			baseDim = "s",
 			control = "spinbox",
 			defValue = 5,
 			dimension = "s",
 			id = "function_delay_ctrl_Vz_FFD_Z38",
 			label = "Vz Mode Function Delay",
-			max = 1800,
+			max = 3600,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 2,
 			xCtrl = 700,
-			xLbl = 550
+			xLbl = 560
+		}, {
+			VisibilityCondition = { {
+					id = "GUI_fuze_type",
+					value = 2
+				} },
+			baseDim = "s",
+			control = "spinbox",
+			defValue = 180,
+			dimension = "min",
+			id = "function_delay_ctrl_Vz_Z17",
+			label = "Vz Mode Function Delay",
+			max = 60,
+			min = 0,
+			readOnly = true,
+			step = 0.00016666666666667,
+			stringIndex = 2,
+			xCtrl = 700,
+			xLbl = 560
 		}, {
 			VisibilityCondition = { {
 					id = "GUI_fuze_type",
@@ -164,18 +223,19 @@ _G["launcher"]["{SC_500_L2}"] = {
 					id = "GUI_fuze_operation_mode",
 					value = 1
 				} },
+			baseDim = "s",
 			control = "spinbox",
 			defValue = 5,
 			dimension = "s",
 			id = "function_delay_ctrl_Vz_VFD_Z38",
 			label = "Vz Mode Function Delay",
-			max = 1800,
+			max = 3600,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 2,
 			xCtrl = 700,
-			xLbl = 550
+			xLbl = 560
 		}, {
 			VisibilityCondition = { {
 					id = "GUI_fuze_type",
@@ -185,12 +245,13 @@ _G["launcher"]["{SC_500_L2}"] = {
 					id = "GUI_fuze_operation_mode",
 					value = 2
 				} },
+			baseDim = "s",
 			control = "spinbox",
 			defValue = 1,
 			dimension = "s",
 			id = "arm_delay_ctrl_Strz_FFD_Z38",
 			label = "Sturz Mode Arm Delay",
-			max = 1800,
+			max = 3600,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
@@ -200,128 +261,15 @@ _G["launcher"]["{SC_500_L2}"] = {
 		}, {
 			VisibilityCondition = { {
 					id = "GUI_fuze_type",
-					value = 1
-				}, "and", {
-					bNot = false,
-					id = "GUI_fuze_operation_mode",
-					value = 1
-				} },
-			control = "spinbox",
-			defValue = 3,
-			dimension = "s",
-			id = "arm_delay_ctrl_Strz_VFD_Z38",
-			label = "Sturz Mode Arm Delay",
-			max = 1800,
-			min = 0,
-			readOnly = true,
-			step = 0.01,
-			stringIndex = 3,
-			xCtrl = 170,
-			xLbl = 10
-		}, {
-			VisibilityCondition = { {
-					id = "GUI_fuze_type",
-					value = 1
-				}, "and", {
-					bNot = false,
-					id = "GUI_fuze_operation_mode",
 					value = 2
 				} },
-			control = "spinbox",
-			defValue = 2,
-			dimension = "s",
-			id = "arm_delay_ctrl_Wgrcht_FFD_Z38",
-			label = "Wagerecht Mode Arm Delay",
-			max = 1800,
-			min = 0,
-			readOnly = true,
-			step = 0.01,
-			stringIndex = 3,
-			xCtrl = 460,
-			xLbl = 260
-		}, {
-			VisibilityCondition = { {
-					id = "GUI_fuze_type",
-					value = 1
-				}, "and", {
-					bNot = false,
-					id = "GUI_fuze_operation_mode",
-					value = 1
-				} },
-			control = "spinbox",
-			defValue = 7.5,
-			dimension = "s",
-			id = "arm_delay_ctrl_Wgrcht_VFD_Z38",
-			label = "Wagerecht Mode Arm Delay",
-			max = 1800,
-			min = 0,
-			readOnly = true,
-			step = 0.01,
-			stringIndex = 3,
-			xCtrl = 460,
-			xLbl = 260
-		}, {
-			VisibilityCondition = { {
-					id = "GUI_fuze_type",
-					value = 2
-				} },
-			control = "spinbox",
-			defValue = 180,
-			dimension = "s",
-			id = "function_delay_ctrl_oV_Z17",
-			label = "oV Mode Function Delay",
-			max = 1800,
-			min = 0,
-			readOnly = true,
-			step = 0.01,
-			stringIndex = 2,
-			xCtrl = 170,
-			xLbl = 10
-		}, {
-			VisibilityCondition = { {
-					id = "GUI_fuze_type",
-					value = 2
-				} },
-			control = "spinbox",
-			defValue = 180,
-			dimension = "s",
-			id = "function_delay_ctrl_mV_Z17",
-			label = "mV Mode Function Delay",
-			max = 1800,
-			min = 0,
-			readOnly = true,
-			step = 0.01,
-			stringIndex = 2,
-			xCtrl = 460,
-			xLbl = 260
-		}, {
-			VisibilityCondition = { {
-					id = "GUI_fuze_type",
-					value = 2
-				} },
-			control = "spinbox",
-			defValue = 180,
-			dimension = "s",
-			id = "function_delay_ctrl_Vz_Z17",
-			label = "Vz Mode Function Delay",
-			max = 1800,
-			min = 0,
-			readOnly = true,
-			step = 0.01,
-			stringIndex = 2,
-			xCtrl = 700,
-			xLbl = 550
-		}, {
-			VisibilityCondition = { {
-					id = "GUI_fuze_type",
-					value = 2
-				} },
+			baseDim = "s",
 			control = "spinbox",
 			defValue = 0,
 			dimension = "s",
 			id = "arm_delay_ctrl_Strz_Z17",
 			label = "Sturz Mode Arm Delay",
-			max = 1800,
+			max = 3600,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
@@ -331,19 +279,86 @@ _G["launcher"]["{SC_500_L2}"] = {
 		}, {
 			VisibilityCondition = { {
 					id = "GUI_fuze_type",
+					value = 1
+				}, "and", {
+					bNot = false,
+					id = "GUI_fuze_operation_mode",
+					value = 1
+				} },
+			baseDim = "s",
+			control = "spinbox",
+			defValue = 3,
+			dimension = "s",
+			id = "arm_delay_ctrl_Strz_VFD_Z38",
+			label = "Sturz Mode Arm Delay",
+			max = 3600,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 3,
+			xCtrl = 170,
+			xLbl = 10
+		}, {
+			VisibilityCondition = { {
+					id = "GUI_fuze_type",
+					value = 1
+				}, "and", {
+					bNot = false,
+					id = "GUI_fuze_operation_mode",
+					value = 1
+				} },
+			baseDim = "s",
+			control = "spinbox",
+			defValue = 7.5,
+			dimension = "s",
+			id = "arm_delay_ctrl_Wgrcht_VFD_Z38",
+			label = "Wagerecht Mode Arm Delay",
+			max = 3600,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 3,
+			xCtrl = 465,
+			xLbl = 265
+		}, {
+			VisibilityCondition = { {
+					id = "GUI_fuze_type",
+					value = 1
+				}, "and", {
+					bNot = false,
+					id = "GUI_fuze_operation_mode",
 					value = 2
 				} },
+			baseDim = "s",
+			control = "spinbox",
+			defValue = 2,
+			dimension = "s",
+			id = "arm_delay_ctrl_Wgrcht_FFD_Z38",
+			label = "Wagerecht Mode Arm Delay",
+			max = 3600,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 3,
+			xCtrl = 465,
+			xLbl = 265
+		}, {
+			VisibilityCondition = { {
+					id = "GUI_fuze_type",
+					value = 2
+				} },
+			baseDim = "s",
 			control = "spinbox",
 			defValue = 0,
 			dimension = "s",
 			id = "arm_delay_ctrl_Wgrcht_Z17",
 			label = "Wagerecht Mode Arm Delay",
-			max = 1800,
+			max = 3600,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 3,
-			xCtrl = 460,
-			xLbl = 260
+			xCtrl = 465,
+			xLbl = 265
 		} }
 }

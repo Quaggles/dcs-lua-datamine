@@ -23,8 +23,8 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M64"] = {
 			wind_time = 1000
 		},
 		fuze = {
-			default_arm_delays = { 1.05 },
-			default_function_delays = { 0 }
+			is_vane_sim_required = true,
+			vane_rev_threshold = 160
 		},
 		scheme = "schemes/bombs/bomb-common-2.sch",
 		warhead = {
@@ -68,8 +68,8 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M64"] = {
 			wind_time = 1000
 		},
 		fuze = {
-			default_arm_delays = { 1.05 },
-			default_function_delays = { 0 }
+			is_vane_sim_required = true,
+			vane_rev_threshold = 160
 		},
 		scheme = "schemes/bombs/bomb-common-2.sch",
 		warhead = {

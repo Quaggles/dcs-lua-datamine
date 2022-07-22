@@ -28,8 +28,8 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M66"] = {
 			wind_sigma = 30
 		},
 		fuze = {
-			default_arm_delays = { 1.05 },
-			default_function_delays = { 0 }
+			is_vane_sim_required = true,
+			vane_rev_threshold = 160
 		},
 		hMax = 12000,
 		hMin = 300,
@@ -96,8 +96,8 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M66"] = {
 			wind_sigma = 30
 		},
 		fuze = {
-			default_arm_delays = { 1.05 },
-			default_function_delays = { 0 }
+			is_vane_sim_required = true,
+			vane_rev_threshold = 160
 		},
 		hMax = 12000,
 		hMin = 300,

@@ -24,13 +24,13 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					PL = { {
 							ammo_capacity = 14,
 							reload_time = 210,
-							shell_name = {},
+							shell_name = { "L23_120_AP" },
 							shot_delay = 6,
 							virtualStwID = 1
 						}, {
 							ammo_capacity = 14,
 							reload_time = 210,
-							shell_name = {},
+							shell_name = { "L23_120_AP" },
 							shot_delay = 14,
 							virtualStwID = 2
 						} },
@@ -42,11 +42,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					BR = { {} },
 					PL = { {
 							ammo_capacity = 11,
-							shell_name = { "M256_120_HE" },
+							shell_name = { "L31_120mm_HESH" },
 							virtualStwID = 1
 						}, {
 							ammo_capacity = 10,
-							shell_name = { "M256_120_HE" },
+							shell_name = { "L31_120mm_HESH" },
 							virtualStwID = 2
 						} },
 					distanceMax = 8000,

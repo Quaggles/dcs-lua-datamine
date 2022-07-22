@@ -16,12 +16,14 @@ _G["launcher"]["{88D18A5E-99C8-4B04-B40B-1C02F2018B6E}"] = {
 			connector_name = "Point004"
 		} },
 	Picture = "agm114.png",
-	Weight = 247.4,
-	Weight_Empty = 65.8,
+	Weight = 244.5,
+	Weight_Empty = 64.9,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/AS_Missiles.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
 	displayName = "M299 - 4 x AGM-114K Hellfire",
-	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
+	name = "{88D18A5E-99C8-4B04-B40B-1C02F2018B6E}",
+	shape_table_data = {},
+	wsTypeOfWeapon = "weapons.missiles.AGM_114K"
 }

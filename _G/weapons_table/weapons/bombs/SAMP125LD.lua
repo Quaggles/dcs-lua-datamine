@@ -16,6 +16,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP125LD"] = {
 			velK = 1
 		},
 		category = 1,
+		displayName = "SAMP-125 - 125 kg GP Bomb LD",
 		fm = {
 			I = 19.76836,
 			L = 1.406,
@@ -76,6 +77,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP125LD"] = {
 			velK = 1
 		},
 		category = 1,
+		displayName = "SAMP-125 - 125 kg GP Bomb LD",
 		fm = {
 			I = 19.76836,
 			L = 1.406,

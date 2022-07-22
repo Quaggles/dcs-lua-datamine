@@ -37,7 +37,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							feedSlot = 1,
 							portionAmmoCapacity = 8,
 							reload_time = 4,
-							shell_display_name = "57mm HE-T",
+							shell_display_name = "53UOR281U (57mm HE-T)",
 							shell_name = { "53-UOR-281U" },
 							shot_delay = 0.5,
 							switch_on_delay = 0.7
@@ -71,7 +71,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							shell_name = {}
 						}, {
 							feedSlot = 2,
-							shell_display_name = "57mm APCBC-HE-T",
+							shell_display_name = "53UBR281U (57mm APCBC-HE-T)",
 							shell_name = { "53-UBR-281U" }
 						}, {
 							shell_name = {}

@@ -7,7 +7,6 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE250_F1B"] = {
 		_origin = "AircraftWeaponPack",
 		category = 3,
 		class_name = "wAmmunitionNURS",
-		control = {},
 		displayName = "68 mm SNEB Type 250 F1B TP-SM",
 		engine = {
 			boost_factor = 1,
@@ -36,12 +35,9 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE250_F1B"] = {
 			freq = 20,
 			mass = 3.894,
 			rail_open = false,
-			shapeName = "SA342_SNEB68",
+			shapeName = "",
 			wind_sigma = 5,
-			wind_time = 120
-		},
-		launcher = {
-			server = 0
+			wind_time = 1
 		},
 		model = "SA342_SNEB68",
 		name = "SNEB_TYPE250_F1B",
@@ -53,7 +49,8 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE250_F1B"] = {
 		shape_table_data = { {
 				file = "SA342_SNEB68",
 				index = "Redacted",
-				name = "SNEB_TYPE250_F1B"
+				name = "SNEB_TYPE250_F1B",
+				username = "68 mm SNEB Type 250 F1B TP-SM"
 			} },
 		user_name = "SNEB Type 250 F1B TP-SM",
 		warhead = {
@@ -83,7 +80,6 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE250_F1B"] = {
 		_origin = "AircraftWeaponPack",
 		category = 3,
 		class_name = "wAmmunitionNURS",
-		control = {},
 		displayName = "68 mm SNEB Type 250 F1B TP-SM",
 		engine = {
 			boost_factor = 1,
@@ -112,12 +108,9 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE250_F1B"] = {
 			freq = 20,
 			mass = 3.894,
 			rail_open = false,
-			shapeName = "SA342_SNEB68",
+			shapeName = "",
 			wind_sigma = 5,
-			wind_time = 120
-		},
-		launcher = {
-			server = 1
+			wind_time = 1
 		},
 		model = "SA342_SNEB68",
 		name = "SNEB_TYPE250_F1B",
@@ -129,7 +122,8 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE250_F1B"] = {
 		shape_table_data = { {
 				file = "SA342_SNEB68",
 				index = "Redacted",
-				name = "SNEB_TYPE250_F1B"
+				name = "SNEB_TYPE250_F1B",
+				username = "68 mm SNEB Type 250 F1B TP-SM"
 			} },
 		user_name = "SNEB Type 250 F1B TP-SM",
 		warhead = {
@@ -163,9 +157,9 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE250_F1B"] = {
 			freq = 20,
 			mass = 3.894,
 			rail_open = false,
-			shapeName = "SA342_SNEB68",
+			shapeName = "",
 			wind_sigma = 5,
-			wind_time = 120
+			wind_time = 1
 		}
 	},
 	sounderName = "Weapons/Rocket",

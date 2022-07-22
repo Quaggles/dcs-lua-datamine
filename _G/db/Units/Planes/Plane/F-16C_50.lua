@@ -784,6 +784,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				["C-101EB"] = {
 					enable_options_key_for_unit = "c101eb_common_enabled"
 				},
+				["F-14B"] = {
+					enable_options_key_for_unit = "f14b_enabled"
+				},
 				["F-15C"] = {
 					enable_options_key_for_unit = "f15c_enabled"
 				},
@@ -804,6 +807,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				["J-11A"] = {
 					enable_options_key_for_unit = "j11a_enabled"
 				},
+				["JF-17"] = {
+					enable_options_key_for_unit = "jf17_enabled"
+				},
 				["Ka-50"] = <table 10>,
 				["L-39C"] = {
 					enable_options_key_for_unit = "l39c_common_enabled"
@@ -813,6 +819,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				},
 				["M-2000C"] = {
 					enable_options_key_for_unit = "miraj_enabled"
+				},
+				["Mi-24P"] = {
+					enable_options_key_for_unit = "mi24p_enabled"
 				},
 				["Mi-8MT"] = {
 					enable_options_key_for_unit = "mi8_common_enabled"
@@ -1679,6 +1688,28 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			arg_value = 1,
 			connector = "Pylon11",
 			use_full_connector_position = true
+		}, {
+			DisplayName = "SMK",
+			Launchers = { {
+					CLSID = "{INV-SMOKE-RED}"
+				}, {
+					CLSID = "{INV-SMOKE-GREEN}"
+				}, {
+					CLSID = "{INV-SMOKE-BLUE}"
+				}, {
+					CLSID = "{INV-SMOKE-WHITE}"
+				}, {
+					CLSID = "{INV-SMOKE-YELLOW}"
+				}, {
+					CLSID = "{INV-SMOKE-ORANGE}"
+				} },
+			Number = 12,
+			Order = 12,
+			Type = 2,
+			X = -7.1,
+			Y = 0.1,
+			Z = -0.2,
+			connector = "disable"
 		} },
 	RCS = 4,
 	Rate = 50,
@@ -2134,7 +2165,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			DuplicateOf = "Door0"
 		}
 	},
-	net_animation = { 799 },
+	net_animation = { 274, 799 },
 	nose_gear_amortizer_direct_stroke = 0,
 	nose_gear_amortizer_normal_weight_stroke = -0.146,
 	nose_gear_amortizer_reversal_stroke = -0.244,

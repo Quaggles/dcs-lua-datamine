@@ -31,12 +31,14 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							type_ammunition = {}
 						} },
 					barrels_reload_type = 3,
-					customViewPoint = { "genericMissileAT", { 0, 0, 0 } },
-					sensor = {}
+					sensor = {},
+					sightIndicationMode = 1,
+					sightMasterMode = 1
 				} },
 			angles = { { 3.1415926535898, -0.26179938779915, -0.1221730476396, 0.5235987755983 }, { -0.26179938779915, -1.221730476396, -0.034906585039887, 0.5235987755983 }, { -1.221730476396, -3.1415926535898, -0.1221730476396, 0.5235987755983 } },
 			angles_mech = { { 3.1415926535898, -3.1415926535898, -0.1221730476396, 0.5235987755983 } },
 			center = "CENTER_TOWER",
+			cockpit = { "M1134 Stryker ATGM/M1134", { 0, 0, 0 } },
 			drawArgument1 = 0,
 			drawArgument2 = 1,
 			laser = true,
@@ -85,7 +87,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				} },
 			angles = { { 1.9198621771938, -2.6179938779915, -0.087266462599716, 0.69813170079773 } },
 			center = "CENTER_MGUN",
-			cockpit = { "IronSight/IronSight", { -1.1, 0.18, 0 } },
+			cockpit = { "CWS/CWS", { -0.5, 0.5, 0 } },
 			drawArgument1 = 25,
 			drawArgument2 = 26,
 			omegaY = 2.0943951023932,
@@ -120,7 +122,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 17, 104, "Redacted", "IFV", "ATGM", "Datalink", "Infantry carriers", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "NonAndLightArmoredUnits", "LightArmoredUnits" },
 	category = "Armor",
 	chassis = {},
-	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
 	driverViewConnectorName = { "DRIVER_POINT",
 		offset = { 0.05, 0, 0 }
 	},

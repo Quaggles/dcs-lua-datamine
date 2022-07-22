@@ -6,7 +6,8 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["machinegun_M240C"] = {
 			ammo_capacity = 800,
 			portionAmmoCapacity = 800,
 			reload_time = 480,
-			shell_name = { "7_62x51" },
+			shell_display_name = "7.62mm",
+			shell_name = { "7_62x51tr", "7_62x51", "7_62x51", "7_62x51", "7_62x51" },
 			shot_delay = 0.070588235294118
 		} },
 	display_name = "M240",

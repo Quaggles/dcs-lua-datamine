@@ -25,7 +25,7 @@ _G["db"]["Formations"]["big_formations"]["list"]["#Index"] = {
 					name = "High Squadron",
 					positions = {
 						x = -80,
-						y = 100,
+						y = 50,
 						z = 120
 					}
 				}, {

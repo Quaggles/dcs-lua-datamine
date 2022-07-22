@@ -55,9 +55,13 @@ _G["weapons_table"]["weapons"]["nurs"]["FFAR M156 WP"] = {
 			caliber = 69.85,
 			color = { 1, 1, 1 },
 			duration = 40,
+			expl_mass = 1.752,
 			fantom = 1,
 			flare = false,
 			intensity = 3,
+			length = 0.412,
+			mass = 4.38,
+			piercing_mass = 0.876,
 			transparency = 0.8
 		},
 		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
@@ -122,9 +126,13 @@ _G["weapons_table"]["weapons"]["nurs"]["FFAR M156 WP"] = {
 			caliber = 69.85,
 			color = { 1, 1, 1 },
 			duration = 40,
+			expl_mass = 1.752,
 			fantom = 0,
 			flare = false,
 			intensity = 3,
+			length = 0.412,
+			mass = 4.38,
+			piercing_mass = 0.876,
 			transparency = 0.8
 		},
 		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }

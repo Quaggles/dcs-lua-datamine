@@ -6,7 +6,7 @@ _G["launcher"]["{EFT_230GAL}"] = {
 		} },
 	Picture = "PTB.png",
 	Weight = 765.45,
-	Weight_Empty = 66.45,
+	Weight_Empty = 63.5,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/FuelTanks.lua",
 	_origin = "AircraftWeaponPack",
 	_unique_resource_name = "weapons.droptanks.fuel_tank_230",

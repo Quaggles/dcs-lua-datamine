@@ -7,7 +7,7 @@ _G["launcher"]["{M274_HYDRA}"] = {
 	Weight = 10.4,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
 	_origin = "AircraftWeaponPack",
-	attribute = { 4, 7, 33, "Redacted" },
+	attribute = <1>{ 4, 7, 33, "Redacted" },
 	category = 3,
-	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
+	wsTypeOfWeapon = <table 1>
 }

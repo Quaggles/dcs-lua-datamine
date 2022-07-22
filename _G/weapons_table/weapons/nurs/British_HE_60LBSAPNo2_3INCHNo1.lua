@@ -37,13 +37,16 @@ _G["weapons_table"]["weapons"]["nurs"]["British_HE_60LBSAPNo2_3INCHNo1"] = {
 			wind_sigma = 50,
 			wind_time = 3
 		},
+		fuze = {
+			default_arm_delays = { 0.5 }
+		},
 		model = "he_60lb_sap_no2mkI",
 		name = "British_HE_60LBSAPNo2_3INCHNo1",
 		properties = {
 			dist_max = 1200,
 			dist_min = 500
 		},
-		scheme = "schemes/rockets/nurs-standard.sch",
+		scheme = "schemes/rockets/nurs_standard_v2.sch",
 		shape_table_data = { {
 				file = "he_60lb_sap_no2mkI",
 				fire = { 0, 1 },
@@ -110,13 +113,16 @@ _G["weapons_table"]["weapons"]["nurs"]["British_HE_60LBSAPNo2_3INCHNo1"] = {
 			wind_sigma = 50,
 			wind_time = 3
 		},
+		fuze = {
+			default_arm_delays = { 0.5 }
+		},
 		model = "he_60lb_sap_no2mkI",
 		name = "British_HE_60LBSAPNo2_3INCHNo1",
 		properties = {
 			dist_max = 1200,
 			dist_min = 500
 		},
-		scheme = "schemes/rockets/nurs-standard.sch",
+		scheme = "schemes/rockets/nurs_standard_v2.sch",
 		shape_table_data = { {
 				file = "he_60lb_sap_no2mkI",
 				fire = { 0, 1 },

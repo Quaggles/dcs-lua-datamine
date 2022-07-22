@@ -33,11 +33,15 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_MK61"] = {
 		scheme = "schemes/rockets/nurs-marker.sch",
 		warhead = {
 			caliber = 70,
-			color = { 2, 2, 2 },
-			duration = 300,
+			color = { 1, 1, 1 },
+			duration = 1,
+			expl_mass = 1.68,
 			fantom = 1,
 			flare = false,
-			intensity = 10,
+			intensity = 1,
+			length = 0.412,
+			mass = 4.2,
+			piercing_mass = 0.84,
 			transparency = 0.5
 		}
 	},
@@ -81,11 +85,15 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_MK61"] = {
 		scheme = "schemes/rockets/nurs-marker.sch",
 		warhead = {
 			caliber = 70,
-			color = { 2, 2, 2 },
-			duration = 300,
+			color = { 1, 1, 1 },
+			duration = 1,
+			expl_mass = 1.68,
 			fantom = 0,
 			flare = false,
-			intensity = 10,
+			intensity = 1,
+			length = 0.412,
+			mass = 4.2,
+			piercing_mass = 0.84,
 			transparency = 0.5
 		}
 	},

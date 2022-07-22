@@ -1,12 +1,8 @@
 _G["launcher"]["{MATRA_F1_SNEBT254_GREEN}"] = {
 	CLSID = "{MATRA_F1_SNEBT254_GREEN}",
 	Count = 36,
-	Cx_empty = 0.01,
-	Cx_pil = 0.016,
-	Elements = { {
-			IsAdapter = true,
-			ShapeName = "Matra-F1-Rocket"
-		}, {
+	Cx_pil = 0.00064,
+	Elements = { "_G/Pylons/Matra-F1-Rocket.lua", {
 			ShapeName = "SA342_SNEB68",
 			connector_name = "tube_01"
 		}, {
@@ -122,7 +118,7 @@ _G["launcher"]["{MATRA_F1_SNEBT254_GREEN}"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
-	displayName = "MATRA F1 Rocket Launcher - 36 x 68 mm SNEB Type 254 F1B SM Green",
-	name = "{MATRA_F1_SNEBT254_GREEN}",
+	displayName = "MATRA F1 - 36 x 68 mm SNEB Type 254 F1B SM Green",
+	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

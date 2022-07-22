@@ -24,14 +24,14 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					PL = { {
 							ammo_capacity = 7,
 							reload_time = 105,
-							shell_name = {},
+							shell_name = { "M322_120_AP" },
 							shot_delay = 6.5,
 							virtualStwID = 1
 						}, {
 							ammo_capacity = 22,
 							automaticLoader = false,
 							reload_time = 330,
-							shell_name = { "M256_120_AP" },
+							shell_name = { "M322_120_AP" },
 							shot_delay = 13.5,
 							virtualStwID = 2
 						} },
@@ -45,12 +45,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					PL = { {
 							ammo_capacity = 3,
 							reload_time = 45,
-							shell_name = { "M256_120_HE" },
+							shell_name = { "M339_120mm_HEAT_MP_T" },
 							virtualStwID = 1
 						}, {
 							ammo_capacity = 16,
 							reload_time = 240,
-							shell_name = { "M256_120_HE" },
+							shell_name = { "M339_120mm_HEAT_MP_T" },
 							virtualStwID = 2
 						} },
 					beamWidth = 0.017453292519943,

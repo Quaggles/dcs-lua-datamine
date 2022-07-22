@@ -2,7 +2,10 @@ _G["launcher"]["{LR25_ARF8M3_HEI}"] = {
 	CLSID = "{LR25_ARF8M3_HEI}",
 	Count = 25,
 	Cx_pil = 0.00059912109375,
-	Elements = { "_G/Pylons/LR-25.lua", {
+	Elements = { {
+			IsAdapter = true,
+			ShapeName = "LR-25"
+		}, {
 			ShapeName = "ARF8M3_HEI",
 			connector_name = "Tube_01"
 		}, {
@@ -80,10 +83,12 @@ _G["launcher"]["{LR25_ARF8M3_HEI}"] = {
 		} },
 	Picture = "LR25.png",
 	Weight = 161,
+	Weight_Empty = 46,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
-	displayName = "LR-25 - 25 x ARF-8/M3 HEI",
+	displayName = "LR-25 - 25 x ARF-8/M3 HEI Heavy",
+	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

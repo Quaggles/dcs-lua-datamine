@@ -20,5 +20,55 @@ _G["launcher"]["{MOSSIE_2_British_HE_60LBFNo1_3INCHNo1_ON_RIGHT_WING_RAILS}"] = 
 	category = 3,
 	displayName = "2 x RP-3 60lb F No1 Mk.I",
 	pilon_jettison_option = 3,
+	settings = { {
+			control = "comboList",
+			defValue = 1,
+			dimension = "",
+			id = "GUI_fuze_type",
+			label = "Fuze Type",
+			stringIndex = 1,
+			values = { {
+					dispName = "Nose Fuze No. 899 Mk I",
+					id = 1
+				} },
+			wCtrl = 355,
+			xCtrl = 170
+		}, {
+			VisibilityCondition = { {
+					id = "GUI_fuze_type",
+					value = 1
+				} },
+			baseDim = "s",
+			control = "spinbox",
+			defValue = 0,
+			dimension = "s",
+			id = "function_delay_ctrl_NFNo899MkI",
+			label = "Function Delay",
+			max = 3600,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 2,
+			xCtrl = 170,
+			xLbl = 10
+		}, {
+			VisibilityCondition = { {
+					id = "GUI_fuze_type",
+					value = 1
+				} },
+			baseDim = "s",
+			control = "spinbox",
+			defValue = 0.7,
+			dimension = "s",
+			id = "arm_delay_ctrl_NFNo899MkI",
+			label = "Arm Delay",
+			max = 3600,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 2,
+			xCtrl = 465,
+			xLbl = 285
+		} },
 	wsTypeOfWeapon = <table 1>
 }

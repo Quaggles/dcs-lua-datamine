@@ -92,6 +92,25 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				["{APU-60-1_R_60M}"] = true,
 				["{B0DBC591-0F52-4F7D-AD7B-51E67725FB81}"] = true
 			}
+		}, {
+			control = "comboList",
+			defValue = 0,
+			id = "OverrideIFF",
+			label = "AI IFF Mode",
+			playerOnly = true,
+			values = { {
+					dispName = "Auto",
+					id = 0
+				}, {
+					dispName = "Simple",
+					id = 1
+				}, {
+					dispName = "Label Only",
+					id = 2
+				}, {
+					dispName = "Realistic",
+					id = 3
+				} }
 		} },
 	AmmoWeight = 207.5,
 	CanopyGeometry = { -0.93969262078591, -0.95280922353749, -0.96592582628907, 0.0094409633615699, 0.98480775301221 },
@@ -113,7 +132,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			critical_damage = 5
 		}, {
 			args = { 152 },
-			critical_damage = 5
+			critical_damage = 5,
+			droppable = false
 		}, {
 			args = { 297 },
 			critical_damage = 4
@@ -359,6 +379,14 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		},
 		[91] = {
 			args = { 460 },
+			critical_damage = 5
+		},
+		[92] = {
+			args = { 461 },
+			critical_damage = 5
+		},
+		[93] = {
+			args = { 462 },
 			critical_damage = 5
 		},
 		[94] = {
@@ -761,6 +789,9 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				["C-101EB"] = {
 					enable_options_key_for_unit = "c101eb_common_enabled"
 				},
+				["F-14B"] = {
+					enable_options_key_for_unit = "f14b_enabled"
+				},
 				["F-15C"] = {
 					enable_options_key_for_unit = "f15c_enabled"
 				},
@@ -781,6 +812,9 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				["J-11A"] = {
 					enable_options_key_for_unit = "j11a_enabled"
 				},
+				["JF-17"] = {
+					enable_options_key_for_unit = "jf17_enabled"
+				},
 				["Ka-50"] = <table 6>,
 				["L-39C"] = {
 					enable_options_key_for_unit = "l39c_common_enabled"
@@ -790,6 +824,9 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				},
 				["M-2000C"] = {
 					enable_options_key_for_unit = "miraj_enabled"
+				},
+				["Mi-24P"] = {
+					enable_options_key_for_unit = "mi24p_enabled"
 				},
 				["Mi-8MT"] = {
 					enable_options_key_for_unit = "mi8_common_enabled"
@@ -956,16 +993,36 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			use_full_connector_position = true
 		}, {
 			FiZ = 0,
-			Launchers = <27>{ {
-					CLSID = "B_8V20A_CM"
+			Launchers = { {
+					CLSID = "B_8V20A_CM",
+					forbidden = { {
+							loadout = { "KORD_12_7_MI24_L" },
+							station = 7
+						} }
 				}, {
-					CLSID = "B_8V20A_OFP2"
+					CLSID = "B_8V20A_OFP2",
+					forbidden = { {
+							loadout = { "KORD_12_7_MI24_L" },
+							station = 7
+						} }
 				}, {
-					CLSID = "B_8V20A_OM"
+					CLSID = "B_8V20A_OM",
+					forbidden = { {
+							loadout = { "KORD_12_7_MI24_L" },
+							station = 7
+						} }
 				}, {
-					CLSID = "{UB-32A-24}"
+					CLSID = "{UB-32A-24}",
+					forbidden = { {
+							loadout = { "KORD_12_7_MI24_L" },
+							station = 7
+						} }
 				}, {
-					CLSID = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}"
+					CLSID = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}",
+					forbidden = { {
+							loadout = { "KORD_12_7_MI24_L" },
+							station = 7
+						} }
 				}, {
 					CLSID = "{FB3CE165-BF07-4979-887C-92B87F13276B}"
 				}, {
@@ -991,12 +1048,24 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				}, {
 					CLSID = "{PTB_450}"
 				}, {
-					CLSID = "{APU_68_S-24}"
+					CLSID = "{APU_68_S-24}",
+					forbidden = { {
+							loadout = { "KORD_12_7_MI24_L" },
+							station = 7
+						} }
 				}, {
 					CLSID = "GUV_YakB_GSHP",
-					arg_value = 0.2
+					arg_value = 0.2,
+					forbidden = { {
+							loadout = { "KORD_12_7_MI24_L" },
+							station = 7
+						} }
 				}, {
-					CLSID = "GUV_VOG"
+					CLSID = "GUV_VOG",
+					forbidden = { {
+							loadout = { "KORD_12_7_MI24_L" },
+							station = 7
+						} }
 				} },
 			Number = 3,
 			Order = 3,
@@ -1009,7 +1078,80 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			use_full_connector_position = true
 		}, {
 			FiZ = 0,
-			Launchers = <table 27>,
+			Launchers = { {
+					CLSID = "B_8V20A_CM",
+					forbidden = { {
+							loadout = { "KORD_12_7_MI24_R" },
+							station = 8
+						} }
+				}, {
+					CLSID = "B_8V20A_OFP2",
+					forbidden = { {
+							loadout = { "KORD_12_7_MI24_R" },
+							station = 8
+						} }
+				}, {
+					CLSID = "B_8V20A_OM",
+					forbidden = { {
+							loadout = { "KORD_12_7_MI24_R" },
+							station = 8
+						} }
+				}, {
+					CLSID = "{UB-32A-24}",
+					forbidden = { {
+							loadout = { "KORD_12_7_MI24_R" },
+							station = 8
+						} }
+				}, {
+					CLSID = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}",
+					forbidden = { {
+							loadout = { "KORD_12_7_MI24_R" },
+							station = 8
+						} }
+				}, {
+					CLSID = "{FB3CE165-BF07-4979-887C-92B87F13276B}"
+				}, {
+					CLSID = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}"
+				}, {
+					CLSID = "{FAB_250_M62}"
+				}, {
+					CLSID = "{37DCC01E-9E02-432F-B61D-10C166CA2798}"
+				}, {
+					CLSID = "{4203753F-8198-4E85-9924-6F8FF679F9FF}"
+				}, {
+					CLSID = "{RBK_250_275_AO_1SCH}"
+				}, {
+					CLSID = "{D5435F26-F120-4FA3-9867-34ACE562EF1B}"
+				}, {
+					CLSID = "{7AEC222D-C523-425e-B714-719C0D1EB14D}"
+				}, {
+					CLSID = "{RBK_500U_OAB_2_5RT}"
+				}, {
+					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74884}"
+				}, {
+					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74881}"
+				}, {
+					CLSID = "{PTB_450}"
+				}, {
+					CLSID = "{APU_68_S-24}",
+					forbidden = { {
+							loadout = { "KORD_12_7_MI24_R" },
+							station = 8
+						} }
+				}, {
+					CLSID = "GUV_YakB_GSHP",
+					arg_value = 0.2,
+					forbidden = { {
+							loadout = { "KORD_12_7_MI24_R" },
+							station = 8
+						} }
+				}, {
+					CLSID = "GUV_VOG",
+					forbidden = { {
+							loadout = { "KORD_12_7_MI24_R" },
+							station = 8
+						} }
+				} },
 			Number = 4,
 			Order = 4,
 			Type = 0,
@@ -1041,6 +1183,94 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			Y = -0.828,
 			Z = 3.289,
 			connector = "hardpoint-6",
+			use_full_connector_position = true
+		}, {
+			DisplayName = "L MG",
+			Launchers = { {
+					CLSID = "KORD_12_7_MI24_L",
+					arg_value = 1,
+					forbidden = { {
+							loadout = { "KORD_12_7_MI24_R" },
+							station = 8
+						}, {
+							loadout = { "B_8V20A_CM" },
+							station = 3
+						}, {
+							loadout = { "B_8V20A_OFP2" },
+							station = 3
+						}, {
+							loadout = { "B_8V20A_OM" },
+							station = 3
+						}, {
+							loadout = { "{UB-32A-24}" },
+							station = 3
+						}, {
+							loadout = { "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}" },
+							station = 3
+						}, {
+							loadout = { "{APU_68_S-24}" },
+							station = 3
+						}, {
+							loadout = { "GUV_YakB_GSHP" },
+							station = 3
+						}, {
+							loadout = { "GUV_VOG" },
+							station = 3
+						} }
+				} },
+			Number = 7,
+			Order = 7,
+			Type = 0,
+			X = 0,
+			Y = 0,
+			Z = 0,
+			arg = 38,
+			arg_value = 0,
+			connector = "GUNNER_POINT1",
+			use_full_connector_position = true
+		}, {
+			DisplayName = "R MG",
+			Launchers = { {
+					CLSID = "KORD_12_7_MI24_R",
+					arg_value = 1,
+					forbidden = { {
+							loadout = { "KORD_12_7_MI24_L" },
+							station = 7
+						}, {
+							loadout = { "B_8V20A_CM" },
+							station = 4
+						}, {
+							loadout = { "B_8V20A_OFP2" },
+							station = 4
+						}, {
+							loadout = { "B_8V20A_OM" },
+							station = 4
+						}, {
+							loadout = { "{UB-32A-24}" },
+							station = 4
+						}, {
+							loadout = { "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}" },
+							station = 4
+						}, {
+							loadout = { "{APU_68_S-24}" },
+							station = 4
+						}, {
+							loadout = { "GUV_YakB_GSHP" },
+							station = 4
+						}, {
+							loadout = { "GUV_VOG" },
+							station = 4
+						} }
+				} },
+			Number = 8,
+			Order = 8,
+			Type = 0,
+			X = 0,
+			Y = 0,
+			Z = 0,
+			arg = 86,
+			arg_value = 0,
+			connector = "GUNNER_POINT",
 			use_full_connector_position = true
 		} },
 	RCS = 12,
@@ -1396,114 +1626,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				x_trans = -0.12,
 				y_trans = 0.03,
 				z_trans = 0
-			} }, { {
-				hAngle = 15,
-				rollAngle = 0,
-				vAngle = -20.067383,
-				viewAngle = 67.452896,
-				x_trans = 0,
-				y_trans = 0,
-				z_trans = 0
-			}, {
-				hAngle = 51.644135,
-				rollAngle = 0,
-				vAngle = -51.870411,
-				viewAngle = 37.846794,
-				x_trans = 0,
-				y_trans = 0,
-				z_trans = 0
-			}, {
-				hAngle = -1.912186,
-				rollAngle = 0,
-				vAngle = -34.446247,
-				viewAngle = 36.178646,
-				x_trans = 0,
-				y_trans = -0.025421,
-				z_trans = 0.073226
-			}, {
-				hAngle = 0,
-				rollAngle = 0,
-				vAngle = -90,
-				viewAngle = 90.348198,
-				x_trans = -4,
-				y_trans = 0,
-				z_trans = 0
-			}, {
-				hAngle = -90.361992,
-				rollAngle = 0,
-				vAngle = -44.103138,
-				viewAngle = 73.605141,
-				x_trans = 0.169696,
-				y_trans = -0.073508,
-				z_trans = 0
-			}, {
-				hAngle = 0,
-				rollAngle = 0,
-				vAngle = -4.47801,
-				viewAngle = 42.512844,
-				x_trans = 0.154018,
-				y_trans = 0,
-				z_trans = 0
-			}, {
-				hAngle = -108.85202,
-				rollAngle = 0,
-				vAngle = 0.085984,
-				viewAngle = 91.348198,
-				x_trans = 0.190306,
-				y_trans = 0.044778,
-				z_trans = 0.139404
-			}, {
-				hAngle = 16.411518,
-				rollAngle = 0,
-				vAngle = -27.209915,
-				viewAngle = 89.777542,
-				x_trans = 0,
-				y_trans = 0,
-				z_trans = -0.218292
-			}, {
-				hAngle = 0,
-				rollAngle = 0,
-				vAngle = 34.042202,
-				viewAngle = 88.727844,
-				x_trans = 0.142145,
-				y_trans = 0,
-				z_trans = 0
-			}, {
-				hAngle = -32.128311,
-				rollAngle = 0,
-				vAngle = -5.720805,
-				viewAngle = 59.208893,
-				x_trans = 0,
-				y_trans = 0,
-				z_trans = 0
-			}, {
-				hAngle = 14.80306,
-				rollAngle = 0,
-				vAngle = 3.332499,
-				viewAngle = 56.03204,
-				x_trans = 0,
-				y_trans = 0,
-				z_trans = 0
-			}, {
-				hAngle = -14.414484,
-				rollAngle = 0,
-				vAngle = 3.332499,
-				viewAngle = 56.03204,
-				x_trans = 0,
-				y_trans = 0,
-				z_trans = 0
-			}, {
-				hAngle = 0,
-				rollAngle = 0,
-				vAngle = 0,
-				viewAngle = 89.777542,
-				x_trans = 0,
-				y_trans = 0,
-				z_trans = 0
-			}, {
-				x_trans = -0.12,
-				y_trans = 0.03,
-				z_trans = 0
 			} } },
 	TakeOffRWCategories = { {
 			Name = "AircraftCarrier"
@@ -1584,20 +1706,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					y = { -5, 5 },
 					z = { -5, 5 }
 				}
-			}, {
-				Allow360rotation = false,
-				CameraAngleLimits = { 90, -45, 60 },
-				CameraAngleRestriction = { false, 60, 0.4 },
-				CameraViewAngleLimits = { 20, 100 },
-				CockpitLocalPoint = { 0, 0, 0 },
-				CockpitLocalPointAzimuth = -90,
-				EyePoint = { 0.09, 0, 0 },
-				limits_6DOF = {
-					roll = 45,
-					x = { -5, 5 },
-					y = { -5, 5 },
-					z = { -5, 5 }
-				}
 			},
 			CockpitAnchorPoint = { 3.176, 0.586, -0.007 }
 		}
@@ -1646,8 +1754,17 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			pos = { 4.9, -0.5, -1 },
 			role = "pilot",
 			role_display_name = "Copilot-gunner"
+		}, {
+			can_be_playable = true,
+			canopy_arg = 133,
+			drop_canopy_name = 0,
+			ejection_added_speed = { 0, 0, -1 },
+			ejection_seat_name = 0,
+			pos = { 1.5, -0.5, 0 },
+			role = "gunner",
+			role_display_name = "KORD-gunner"
 		} },
-	crew_size = 2,
+	crew_size = 3,
 	detection_range_max = 30,
 	doors_movement = 2,
 	effects_presets = { {

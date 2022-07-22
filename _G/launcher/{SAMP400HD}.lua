@@ -5,8 +5,7 @@ _G["launcher"]["{SAMP400HD}"] = {
 	Elements = { {
 			ShapeName = "SAMP_400R"
 		} },
-	Picture = "rus_FAB-250n-1.png",
-	PictureBlendColor = "0xffffffff",
+	Picture = "mk83.png",
 	Weight = 395,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
 	_origin = "AircraftWeaponPack",

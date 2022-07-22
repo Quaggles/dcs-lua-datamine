@@ -18,17 +18,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	WS = { {
 			LN = { {
 					BR = { {
-							connector_name = "POINT_MGUN_02",
-							pos = {}
-						} },
-					PL = { {
-							shell_name = {}
-						} },
-					beamWidth = 0.017453292519943,
-					customViewPoint = { "genericAAA", { 0, 0, 0 } },
-					sensor = {}
-				}, {
-					BR = { {
 							connector_name = "POINT_GUN",
 							recoilArgument = 23,
 							recoilTime = 0.5
@@ -41,8 +30,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							virtualStwID = 1
 						} },
 					beamWidth = 0.017453292519943,
-					customViewPoint = { "genericTankblue", { 0, 0, 0 } },
-					sensor = {}
+					sensor = {},
+					sightIndicationMode = 1,
+					sightMasterMode = 1
 				}, {
 					BR = { {} },
 					PL = { {
@@ -51,14 +41,28 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							shell_name = { "HESH_105" },
 							virtualStwID = 1
 						} },
-					customViewPoint = { "genericTankblueHE", { 0, 0, 0 } },
 					distanceMax = 5000,
 					distanceMin = 20,
 					sensor = {},
+					sightIndicationMode = 2,
+					sightMasterMode = 1,
 					type = 6
+				}, {
+					BR = { {
+							connector_name = "POINT_MGUN_02",
+							pos = {}
+						} },
+					PL = { {
+							shell_name = {}
+						} },
+					beamWidth = 0.017453292519943,
+					sensor = {},
+					sightIndicationMode = 3,
+					sightMasterMode = 1
 				} },
 			angles = { { 3.1415926535898, 2.3212879051525, -0.10471975511966, 0.26179938779915 }, { 2.3212879051525, 0.47123889803847, -0.10471975511966, 0.31415926535898 }, { 0.47123889803847, 0.31415926535898, -0.069813170079773, 0.31415926535898 }, { 0.31415926535898, 0.17453292519943, 0, 0.31415926535898 }, { 0.17453292519943, -0.62831853071796, -0.062831853071796, 0.31415926535898 }, { -0.62831853071796, -3.1415926535898, -0.10471975511966, 0.31415926535898 } },
 			center = "CENTER_TOWER",
+			cockpit = { "M1128 Stryker MGS/M1128", { 0.1, 0, 0 } },
 			drawArgument1 = 0,
 			drawArgument2 = 1,
 			laser = true,
@@ -91,9 +95,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			angles = { { 0.34906585039887, -3.1415926535898, -0.17453292519943, 0.61086523819802 } },
 			base = 1,
 			center = "CENTER_MGUN_RIGTH_ROTATION",
-			cockpit = { "genericAAA", { -1.7, 0.1, 0 },
-				open = true
-			},
+			cockpit = { "CWS/CWS", { -0.5, 0.5, 0 } },
 			drawArgument1 = 25,
 			drawArgument2 = 26,
 			omegaY = 1.0471975511966,

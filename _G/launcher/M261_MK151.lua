@@ -64,9 +64,13 @@ _G["launcher"]["M261_MK151"] = {
 			connector_name = "tube_19"
 		} },
 	Picture = "LAU61.png",
-	Weight = 234,
-	_file = "Scripts/Database/db_weapons_data.lua",
+	Weight = 237,
+	Weight_Empty = 39.4,
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
+	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
-	displayName = 'M261 pod - 19 x 2.75" Hydra, UnGd Rkts M151, HE',
+	category = 3,
+	displayName = "M261 - 19 x Hydra 70 M151 HE",
+	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

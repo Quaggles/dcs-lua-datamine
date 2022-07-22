@@ -454,6 +454,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	has_differential_stabilizer = false,
 	has_speedbrake = false,
 	height = 4.77,
+	laserEquipment = {
+		laserDesignator = true
+	},
 	length = 11,
 	lights_data = {
 		lights = {

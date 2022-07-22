@@ -57,7 +57,7 @@ _G["rockets"]["#Index"] = {
 		boost_start = 0,
 		march_start = 0.8
 	},
-	display_name = "Sea Cat",
+	display_name = "GWS-20 Mod. 1 Sea Cat",
 	err = {
 		max_time_interval = 0.9,
 		min_time_interval = 0,
@@ -124,33 +124,11 @@ _G["rockets"]["#Index"] = {
 	t_acc = 0.9,
 	t_b = 0,
 	t_marsh = 17.5,
-	user_name = "Sea Cat",
+	user_name = "GWS-20 Mod. 1 Sea Cat",
 	v_mid = 300,
 	v_min = 0,
-	warhead = {
-		caliber = 220,
-		concrete_factors = { 1, 1, 1 },
-		concrete_obj_factor = 0,
-		cumulative_factor = 0,
-		cumulative_thickness = 0,
-		expl_mass = 19,
-		mass = 27.5,
-		obj_factors = { 1, 1 },
-		other_factors = { 1, 1, 1 },
-		piercing_mass = 8.5
-	},
-	warhead_air = {
-		caliber = 220,
-		concrete_factors = { 1, 1, 1 },
-		concrete_obj_factor = 0,
-		cumulative_factor = 0,
-		cumulative_thickness = 0,
-		expl_mass = 19,
-		mass = 27.5,
-		obj_factors = { 1, 1 },
-		other_factors = { 1, 1, 1 },
-		piercing_mass = 8.5
-	},
+	warhead = "_G/warheads/GWS20Mod1.lua",
+	warhead_air = "_G/warheads/GWS20Mod1.lua",
 	wsTypeOfWeapon = <1>{ 4, 4, 34, "Redacted" },
 	ws_type = <table 1>
 }

@@ -23,25 +23,44 @@ _G["launcher"]["{WGr21}"] = {
 			label = "Fuze Type",
 			stringIndex = 1,
 			values = { {
-					dispName = "Impact Fuze",
+					dispName = "Zt. Zünder S/30",
 					id = 1
 				}, {
-					dispName = "Airburst Fuze",
+					dispName = "Hbgr. Zünder 35 D",
 					id = 2
 				} },
-			wCtrl = 350,
+			wCtrl = 355,
 			xCtrl = 170
 		}, {
 			VisibilityCondition = { {
 					id = "GUI_fuze_type",
 					value = 1
 				} },
+			baseDim = "s",
+			control = "spinbox",
+			defValue = 5.5,
+			dimension = "s",
+			id = "self_destruct_delay_ctrl_ZTZS30",
+			label = "Self-Destruct Delay",
+			max = 3600,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 2,
+			xCtrl = 170,
+			xLbl = 10
+		}, {
+			VisibilityCondition = { {
+					id = "GUI_fuze_type",
+					value = 2
+				} },
+			baseDim = "s",
 			control = "spinbox",
 			defValue = 0,
 			dimension = "s",
-			id = "function_delay_ctrl_WGr21_A2G",
+			id = "function_delay_ctrl_HBGRZ35D",
 			label = "Function Delay",
-			max = 1800,
+			max = 3600,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
@@ -53,52 +72,37 @@ _G["launcher"]["{WGr21}"] = {
 					id = "GUI_fuze_type",
 					value = 1
 				} },
+			baseDim = "s",
 			control = "spinbox",
 			defValue = 0,
 			dimension = "s",
-			id = "arm_delay_ctrl_WGr21_A2G",
+			id = "arm_delay_ctrl_ZTZS30",
 			label = "Arm Delay",
-			max = 1800,
+			max = 3600,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 2,
-			xCtrl = 460,
-			xLbl = 280
+			xCtrl = 465,
+			xLbl = 285
 		}, {
 			VisibilityCondition = { {
 					id = "GUI_fuze_type",
 					value = 2
 				} },
-			control = "spinbox",
-			defValue = 5.5,
-			dimension = "s",
-			id = "time_self_destruct_ctrl_WGr21_A2A",
-			label = "Function Delay",
-			max = 1800,
-			min = 0,
-			readOnly = true,
-			step = 0.01,
-			stringIndex = 2,
-			xCtrl = 170,
-			xLbl = 10
-		}, {
-			VisibilityCondition = { {
-					id = "GUI_fuze_type",
-					value = 2
-				} },
+			baseDim = "s",
 			control = "spinbox",
 			defValue = 0,
 			dimension = "s",
-			id = "arm_delay_ctrl_WGr21_A2A",
+			id = "arm_delay_ctrl_HBGRZ35D",
 			label = "Arm Delay",
-			max = 1800,
+			max = 3600,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 2,
-			xCtrl = 460,
-			xLbl = 280
+			xCtrl = 465,
+			xLbl = 285
 		} },
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }
