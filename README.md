@@ -334,3 +334,62 @@ local modelData = {
         [59] = 0.7, -- Changing the slope coefficients of the curve in the upper and lower hemispheres from the height of the carrier.
 } -- end of ["ModelData"]
 ```
+### _G/warheads
+```lua
+-- Description of coefficients
+
+--[[
+expl_mass = 2.0
+The mass of explosive in the warhead of the ammunition in kilograms
+
+ other_factors = { HE1, HE2, HE3};
+High-explosive action coefficients when hitting the ground:
+HE1. – high-explosive damaging effect (expl_mass *HE1)
+HE2. - explosion effect size
+HE3. - the size of the funnel from the explosion
+
+ concrete_factors = { HE1, HE2, HE3},
+High-explosive action coefficients when hitting concrete:
+HE1 - explosive damaging effect (expl_mass *HE1)
+HE2 - explosion effect size
+HE3 - explosion crater size
+
+ concrete_obj_factor = cp,
+Coefficients of concrete-penetrating action when it hits concrete:
+CP - concrete-penetrating effect for concrete-piercing ammunition (expl_mass *CP)
+
+ obj_factors = { HE1, HE2 },
+High-explosive action coefficient when it hits a ground object (equipment):
+HE1 - explosive damaging effect (expl_mass *HE1)
+HE2 - explosion effect size
+
+ cumulative_factor=SC,
+SC - cumulative effect for cumulative ammunition (expl_mass *SC)
+ cumulative_thickness = TH
+TH - the maximum thickness of the armor that the cumulative part of the damage can penetrate (in meters).
+     If the unit's armor is greater, then the cumulative damage is not applied.
+
+
+Let us assume that the warhead of a conditional bomb has an explosive mass of 10 kg.
+
+The bomb has the following coefficients:
+
+obj_factors = {0.5, 1},
+concrete_factors = {0.8, 1, 1},
+other_factors = {0.9, 1, 1},
+cumulative_factor = 5,
+concrete_obj_factor = 3
+cumulative_thickness = 0.05
+
+then,
+
+1. if the bomb falls into the ground, then the explosive effect will be 10 * 0.9 = 9
+2. if the bomb falls on a concrete object, then the explosive effect will be 10 * 0.8, plus an additional 3 * 10 = 30 more concrete-piercing damaging effects are transferred to this object
+3. if the bomb hits the car, then the high-explosive effect will be 10 * 0.5,
+    plus additionally 5*10=50 more cumulative damaging effects are transferred to this object if the armor of the vehicle is less than 5 cm.
+
+In order not to write large tables for each warhead, there is the simple_warhead function, which takes one parameter - the mass of explosives. The output is a conventional warhead with a high-explosive fragmentation effect.
+
+
+--]]
+```
