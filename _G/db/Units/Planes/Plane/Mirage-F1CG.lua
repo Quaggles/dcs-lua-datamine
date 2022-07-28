@@ -1892,10 +1892,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{R530F_IR}" },
 							station = 4
-						} },
-					required = { {
-							loadout = { "{R530F_EM}" },
-							station = 5
 						} }
 				}, {
 					CLSID = "{R530F_IR}",
@@ -1907,10 +1903,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{R530F_IR}" },
 							station = 4
-						} },
-					required = { {
-							loadout = { "{R530F_IR}" },
-							station = 5
 						} }
 				}, {
 					CLSID = "{FD21B13E-57F3-4C2A-9F78-C522D0B5BCE1}",
@@ -2232,10 +2224,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{R530F_IR}" },
 							station = 4
-						} },
-					required = { {
-							loadout = { "{R530F_EM}" },
-							station = 3
 						} }
 				}, {
 					CLSID = "{R530F_IR}",
@@ -2247,10 +2235,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{R530F_IR}" },
 							station = 4
-						} },
-					required = { {
-							loadout = { "{R530F_IR}" },
-							station = 3
 						} }
 				}, {
 					CLSID = "{FD21B13E-57F3-4C2A-9F78-C522D0B5BCE1}",
@@ -2652,7 +2636,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			role_display_name = "Pilot"
 		} },
 	crew_size = 1,
-	detection_range_max = 55,
+	detection_range_max = 70,
 	effects_presets = { {
 			effect = "OVERWING_VAPOR",
 			file = "./CoreMods/aircraft/Mirage-F1/Effects/MirageF1_overwingVapor.lua"
@@ -2672,6 +2656,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	has_differential_stabilizer = false,
 	has_speedbrake = true,
 	height = 4.5,
+	input_profile_entry = "Mirage-F1CG",
 	is_tanker = false,
 	length = 15.3,
 	lights_data = {

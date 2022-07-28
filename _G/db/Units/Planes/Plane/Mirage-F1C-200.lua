@@ -1857,10 +1857,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{R530F_IR}" },
 							station = 4
-						} },
-					required = { {
-							loadout = { "{R530F_EM}" },
-							station = 5
 						} }
 				}, {
 					CLSID = "{R530F_IR}",
@@ -1872,10 +1868,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{R530F_IR}" },
 							station = 4
-						} },
-					required = { {
-							loadout = { "{R530F_IR}" },
-							station = 5
 						} }
 				}, {
 					CLSID = "{FD21B13E-57F3-4C2A-9F78-C522D0B5BCE1}",
@@ -2197,10 +2189,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{R530F_IR}" },
 							station = 4
-						} },
-					required = { {
-							loadout = { "{R530F_EM}" },
-							station = 3
 						} }
 				}, {
 					CLSID = "{R530F_IR}",
@@ -2212,10 +2200,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{R530F_IR}" },
 							station = 4
-						} },
-					required = { {
-							loadout = { "{R530F_IR}" },
-							station = 3
 						} }
 				}, {
 					CLSID = "{FD21B13E-57F3-4C2A-9F78-C522D0B5BCE1}",
@@ -2543,11 +2527,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Vy_max = 243,
 	Waypoint_Custom_Panel = true,
 	WingSpan = 8.4,
-	WorldID = 305,
+	WorldID = 306,
 	_file = "./CoreMods/aircraft/Mirage-F1/Mirage-F1C-200.lua",
 	_origin = "Mirage F1 Assets by Aerges",
 	air_refuel_receptacle_pos = { 5.679, 0.532, 0.363 },
-	attribute = { 1, 1, 1, "Redacted", "Multirole fighters", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },
+	attribute = { 1, 1, 1, "Redacted", "Multirole fighters", "Refuelable", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },
 	average_fuel_consumption = 0.5,
 	bank_angle_max = 85,
 	bigParkingRamp = false,
@@ -2582,7 +2566,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			role_display_name = "Pilot"
 		} },
 	crew_size = 1,
-	detection_range_max = 55,
+	detection_range_max = 70,
 	effects_presets = { {
 			effect = "OVERWING_VAPOR",
 			file = "./CoreMods/aircraft/Mirage-F1/Effects/MirageF1_overwingVapor.lua"
@@ -2602,6 +2586,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	has_differential_stabilizer = false,
 	has_speedbrake = true,
 	height = 4.5,
+	input_profile_entry = "Mirage-F1C-200",
 	is_tanker = false,
 	length = 15.3,
 	lights_data = {

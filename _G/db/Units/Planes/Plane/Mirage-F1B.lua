@@ -1,6 +1,254 @@
 _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	AOA_take_off = 0.12,
 	AddPropAircraft = { {
+			control = "comboList",
+			defValue = 1,
+			id = "RadarCoverSettings",
+			label = "Radar Cover Installed At Start",
+			playerOnly = true,
+			values = { {
+					dispName = "YES",
+					id = 1
+				}, {
+					dispName = "NO",
+					id = 2
+				} },
+			wCtrl = 75
+		}, {
+			control = "comboList",
+			defValue = 1,
+			id = "ChaffMultiNumber",
+			label = "Chaff Burst Count",
+			playerOnly = true,
+			values = { {
+					dispName = "1",
+					id = 1
+				}, {
+					dispName = "2",
+					id = 2
+				}, {
+					dispName = "3",
+					id = 3
+				}, {
+					dispName = "4",
+					id = 4
+				}, {
+					dispName = "6",
+					id = 5
+				}, {
+					dispName = "8",
+					id = 6
+				} },
+			wCtrl = 75
+		}, {
+			control = "comboList",
+			defValue = 1,
+			id = "ChaffMultiTime",
+			label = "Chaff Burst Interval",
+			playerOnly = true,
+			values = { {
+					dispName = "0.05 s",
+					id = 1
+				}, {
+					dispName = "0.1 s",
+					id = 2
+				}, {
+					dispName = "0.15 s",
+					id = 3
+				}, {
+					dispName = "0.2 s",
+					id = 4
+				}, {
+					dispName = "0.3 s",
+					id = 5
+				}, {
+					dispName = "0.4 s",
+					id = 6
+				} },
+			wCtrl = 75
+		}, {
+			control = "comboList",
+			defValue = 1,
+			id = "ChaffProgramNumber",
+			label = "Chaff Salvo Count",
+			playerOnly = true,
+			values = { {
+					dispName = "1",
+					id = 1
+				}, {
+					dispName = "2",
+					id = 2
+				}, {
+					dispName = "4",
+					id = 3
+				}, {
+					dispName = "8",
+					id = 4
+				}, {
+					dispName = "Continuous",
+					id = 5
+				} },
+			wCtrl = 75
+		}, {
+			control = "comboList",
+			defValue = 1,
+			id = "ChaffProgramTime",
+			label = "Chaff Salvo Interval",
+			playerOnly = true,
+			values = { {
+					dispName = "1.0 s",
+					id = 1
+				}, {
+					dispName = "2.0 s",
+					id = 2
+				}, {
+					dispName = "3.0 s",
+					id = 3
+				}, {
+					dispName = "4.0 s",
+					id = 4
+				}, {
+					dispName = "5.0 s",
+					id = 5
+				}, {
+					dispName = "8.0 s",
+					id = 6
+				}, {
+					dispName = "Random",
+					id = 7
+				} },
+			wCtrl = 75
+		}, {
+			control = "comboList",
+			defValue = 1,
+			id = "FlareMultiNumber",
+			label = "Flare Burst Count",
+			playerOnly = true,
+			values = { {
+					dispName = "1",
+					id = 1
+				}, {
+					dispName = "2",
+					id = 2
+				}, {
+					dispName = "4",
+					id = 3
+				}, {
+					dispName = "8",
+					id = 4
+				}, {
+					dispName = "Continuous",
+					id = 5
+				} },
+			wCtrl = 75
+		}, {
+			control = "comboList",
+			defValue = 1,
+			id = "FlareMultiTime",
+			label = "Flare Burst Interval",
+			playerOnly = true,
+			values = { {
+					dispName = "3.0 s",
+					id = 1
+				}, {
+					dispName = "4.0 s",
+					id = 2
+				}, {
+					dispName = "6.0 s",
+					id = 3
+				}, {
+					dispName = "8.0 s",
+					id = 4
+				}, {
+					dispName = "10.0 s",
+					id = 5
+				} },
+			wCtrl = 75
+		}, {
+			control = "comboList",
+			defValue = 1,
+			id = "GunBurstSettings",
+			label = "Gun Burst Settings",
+			playerOnly = true,
+			values = { {
+					dispName = "Off",
+					id = 0
+				}, {
+					dispName = "BURST",
+					id = 1
+				}, {
+					dispName = "0.5 s",
+					id = 2
+				}, {
+					dispName = "1 s",
+					id = 3
+				} },
+			wCtrl = 75
+		}, {
+			control = "comboList",
+			defValue = 1,
+			id = "RocketSalvoF1",
+			label = "F1 Rocket Launcher Salvo Count",
+			playerOnly = true,
+			values = { {
+					dispName = "6",
+					id = 1
+				}, {
+					dispName = "12",
+					id = 2
+				}, {
+					dispName = "18",
+					id = 3
+				} },
+			wCtrl = 75
+		}, {
+			control = "comboList",
+			defValue = 1,
+			id = "RocketSalvoF4",
+			label = "F4 Rocket Launcher Salvo Count",
+			playerOnly = true,
+			values = { {
+					dispName = "1",
+					id = 1
+				}, {
+					dispName = "3",
+					id = 2
+				}, {
+					dispName = "6",
+					id = 3
+				}, {
+					dispName = "18",
+					id = 4
+				} },
+			wCtrl = 75
+		}, {
+			control = "spinbox",
+			defValue = 6,
+			dimension = " ",
+			id = "LaserCode100",
+			label = "Laser code for GBUs, 1x11",
+			max = 7,
+			min = 5,
+			playerOnly = true
+		}, {
+			control = "spinbox",
+			defValue = 8,
+			dimension = " ",
+			id = "LaserCode10",
+			label = "Laser code for GBUs, 11x1",
+			max = 8,
+			min = 1,
+			playerOnly = true
+		}, {
+			control = "spinbox",
+			defValue = 8,
+			dimension = " ",
+			id = "LaserCode1",
+			label = "Laser code for GBUs, 111x",
+			max = 8,
+			min = 1,
+			playerOnly = true
+		}, {
 			control = "checkbox",
 			defValue = false,
 			id = "SoloFlight",
@@ -98,12 +346,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[23] = {
 			args = { 223 },
 			critical_damage = 3,
-			deps_cells = { 27 }
+			deps_cells = { 27, 308, 309, 310 }
 		},
 		[24] = {
 			args = { 213 },
 			critical_damage = 3,
-			deps_cells = { 28 }
+			deps_cells = { 28, 312, 313, 314 }
 		},
 		[25] = {
 			args = { 226 },
@@ -124,12 +372,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[29] = {
 			args = { 224 },
 			critical_damage = 5,
-			deps_cells = { 25, 21, 33, 37, 86 }
+			deps_cells = { 25, 21, 33, 37, 86, 308, 309, 310 }
 		},
 		[30] = {
 			args = { 214 },
 			critical_damage = 5,
-			deps_cells = { 26, 22, 34, 38, 87 }
+			deps_cells = { 26, 22, 34, 38, 87, 312, 313, 314 }
 		},
 		[31] = {
 			args = { 219 },
@@ -150,12 +398,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[35] = {
 			args = { 225 },
 			critical_damage = 7,
-			deps_cells = { 25, 21, 33, 37, 31, 27, 86 }
+			deps_cells = { 25, 21, 33, 37, 31, 27, 86, 308, 309, 310 }
 		},
 		[36] = {
 			args = { 215 },
 			critical_damage = 7,
-			deps_cells = { 26, 22, 34, 38, 32, 25, 87 }
+			deps_cells = { 26, 22, 34, 38, 32, 25, 87312, 313, 314 }
 		},
 		[37] = {
 			args = { 227 },
@@ -308,11 +556,716 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	},
 	DisplayName = "Mirage F1B",
 	EmptyWeight = 8000,
-	H_max = 21000,
+	Failures = { {
+			enable = false,
+			hh = 0,
+			id = "battery_fail",
+			label = "Battery failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "alt1_fail",
+			label = "Alternator 1 failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "alt2_fail",
+			label = "Alternator 2 failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "tr1_fail",
+			label = "Transformer 1 failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "tr2_fail",
+			label = "Transformer 2 failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "triphase_inv_fail",
+			label = "Three-phase inverter failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "miss_bus_fail",
+			label = "Missile bus failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "left_fuel_pump_fail",
+			label = "Left fuel pump failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "right_fuel_pump_fail",
+			label = "Right fuel pump failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "detotalizer_fail",
+			label = "Fuel detotalizer failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "fuel_gauges_fail",
+			label = "Fuel gauges failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "fuel_intercom_fail",
+			label = "Fuel crossfeed valve failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "left_wing_transfer_fail",
+			label = "Left wing fuel tank transfer failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "right_wing_transfer_fail",
+			label = "Right wing fuel tank transfer failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "front_central_transfer_fail",
+			label = "Front central fuel tank transfer failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "left_front_transfer_fail",
+			label = "Left front fuel tank transfer failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "right_front_transfer_fail",
+			label = "Right front fuel tank transfer failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "left_rear_transfer_fail",
+			label = "Left rear fuel tank transfer failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "right_rear_transfer_fail",
+			label = "Right rear fuel tank transfer failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "external_tanks_transfer_fail",
+			label = "External fuel tanks transfer failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "left_wing_leaks",
+			label = "Left wing fuel tank leaks",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "right_wing_leaks",
+			label = "Right wing fuel tank leaks",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "front_central_leaks",
+			label = "Front central fuel tank leaks",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "left_front_leaks",
+			label = "Left front fuel tank leaks",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "right_front_leaks",
+			label = "Right front fuel tank leaks",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "left_rear_leaks",
+			label = "Left rear fuel tank leaks",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "right_rear_leaks",
+			label = "Right rear fuel tank leaks",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "left_feeder_leaks",
+			label = "Left feeder fuel tank leaks",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "right_feeder_leaks",
+			label = "Right feeder fuel tank leaks",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "fuel_accu_leaks",
+			label = "Fuel accumulator leaks",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "left_airbrake_fail",
+			label = "Left airbrake failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "right_airbrake_fail",
+			label = "Right airbrake failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "gear_lever_fail",
+			label = "Gear actuation failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "gear_down_lock_fail",
+			label = "Gear locking failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "gear_nose_stuck",
+			label = "Nose gear stuck",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "gear_left_stuck",
+			label = "Left gear stuck",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "gear_right_stuck",
+			label = "Right gear stuck",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "brakes_fail",
+			label = "Wheel brakes failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "chute_fail",
+			label = "Drag chute failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "electropump_fail",
+			label = "Electropump failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "hydr1_leaks",
+			label = "Hydraulic circuit 1 leaks",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "hydr1_reserv_leaks",
+			label = "Hydraulic reservoir 1 leaks",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "hydr1_pump_fail",
+			label = "Hydraulic pump 1 failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "hydr2_leaks",
+			label = "Hydraulic circuit 2 leaks",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "hydr2_reserv_leaks",
+			label = "Hydraulic reservoir 2 leaks",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "hydr2_pump_fail",
+			label = "Hydraulic pump 2 failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "hydr_serv_leaks",
+			label = "Hydraulic servitudes circuit leaks",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "flap_left_stuck",
+			label = "Left flap stuck",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "flap_right_stuck",
+			label = "Right flap stuck",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "flaps_stuck",
+			label = "Both flaps stuck",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "slat_inner_left_stuck",
+			label = "Left inner slat stuck",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "slat_inner_right_stuck",
+			label = "Right inner slat stuck",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "slat_outer_left_stuck",
+			label = "Left outer slat stuck",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "slat_outer_right_stuck",
+			label = "Right outer slat stuck",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "slats_stuck",
+			label = "All slats stuck",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "pitot_heat_fail",
+			label = "Pitot tube heating failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "altitude_chain_fail",
+			label = "Altitude chain failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "mach_chain_fail",
+			label = "Mach chain failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "incidometer_fail",
+			label = "Incidometer failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "incidometer_blockage_fail",
+			label = "Incidometer stuck",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "anemo_central_fail",
+			label = "Anemometry central failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "trim_pitch_fail",
+			label = "Pitch trim fail",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "trim_roll_fail",
+			label = "Roll trim fail",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "trim_yaw_fail",
+			label = "Yaw trim fail",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "trim_elect_supply",
+			label = "Trim electric failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "yaw_damper_fail",
+			label = "Yaw damper failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "pilot_aids_1_fail",
+			label = "Pilot aids 1 electric supply failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "pilot_aids_2_fail",
+			label = "Pilot aids 2 electric supply failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "pitch_chain_fail",
+			label = "Pitch control chain failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "ap_global_fail",
+			label = "Autopilot failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "broken_guards",
+			label = "Engine nozzle vanes stuck",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "oil_fail",
+			label = "Engine oil pump failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "nosecone_stuck",
+			label = "Engine nosecones stuck",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "nosecone_stuck_forward",
+			label = "Engine nosecones stuck forwards",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "nosecone_stuck_backward",
+			label = "Engine nosecones stuck backwards",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "start_fail",
+			label = "Engine starter failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "ignition_fail",
+			label = "Engine ignition failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "total_comp_stall",
+			label = "Total compressor stall",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "partial_comp_stall",
+			label = "Partial compressor stall",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "overspeed_fail",
+			label = "Engine overspeed failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "discharge_valves_fail",
+			label = "Engine discharge valves failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "engine_fire",
+			label = "Engine fire",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "AB_fire",
+			label = "Afterburner fire",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "compressor_damage",
+			label = "Engine compressor damaged",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "engine_flameout",
+			label = "Engine flameout",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "cabin_temp_fail",
+			label = "Cabin temperature regulation fail",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "equip_temp_fail",
+			label = "Equipment bay temperature regulation fail",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "oxygen_regulator_fail",
+			label = "Oxygen regulator fail",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		} },
+	H_max = 15240,
 	HumanRadio = {
 		editable = true,
 		frequency = 127.5,
-		maxFrequency = 156,
+		maxFrequency = 400,
 		minFrequency = 100,
 		modulation = 0
 	},
@@ -322,14 +1275,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	M_fuel_max = 4000,
 	M_max = 17000,
 	M_nominal = 10000,
-	Mach_max = 2.2,
+	Mach_max = 2.1,
 	MaxFuelWeight = 4000,
-	MaxHeight = 21000,
+	MaxHeight = 15240,
 	MaxSpeed = 2336.4,
 	MaxTakeOffWeight = 17000,
 	Name = "Mirage F1B",
-	Ny_max = 7.5,
-	Ny_max_e = 7.5,
+	Ny_max = 7.2,
+	Ny_max_e = 6,
 	Ny_min = -3,
 	Picture = "Mirage-F1B.png",
 	Pylons = { {
@@ -1539,6 +2492,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			dpdh_m = 4100,
 			hMaxEng = 19.5,
 			table_data = { { 0, 47700, 68300 }, { 0.2, 47700, 68300 }, { 0.3, 38160, 54640 }, { 0.4, 38000, 54000 }, { 0.6, 38160, 54640 }, { 0.7, 39000, 55000 }, { 0.8, 45000, 85000 }, { 0.9, 55000, 95000 }, { 1, 83000, 118000 }, { 1.1, 83000, 118000 }, { 1.2, 83000, 118000 }, { 1.3, 83000, 118000 }, { 1.5, 83000, 118000 }, { 1.8, 83000, 118000 }, { 2, 83000, 118000 }, { 2.2, 90000, 130000 }, { 2.5, 47700, 68300 }, { 3, 47700, 68300 } },
+			type = "TurboJet",
 			typeng = 1
 		}
 	},
@@ -1588,10 +2542,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Vy_max = 243,
 	Waypoint_Custom_Panel = true,
 	WingSpan = 8.4,
-	WorldID = 322,
+	WorldID = 319,
 	_file = "./CoreMods/aircraft/Mirage-F1/Mirage-F1B.lua",
 	_origin = "Mirage F1 Assets by Aerges",
-	attribute = { 1, 1, 1, "Redacted", "Multirole fighters", "Refuelable", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },
+	air_refuel_receptacle_pos = { 5.679, 0.532, 0.363 },
+	attribute = { 1, 1, 1, "Redacted", "Multirole fighters", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },
 	average_fuel_consumption = 0.5,
 	bank_angle_max = 85,
 	bigParkingRamp = false,
@@ -1604,28 +2559,38 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			pos = { -4.312, -0.648, 0.488 }
 		} },
 	crew_members = { {
+			bailout_arg = -1,
+			boarding_arg = 38,
 			can_be_playable = true,
+			canopy_arg = 38,
+			canopy_args = { 38, 1 },
+			canopy_ejection_dir = { -0.4, 1, 0 },
 			canopy_pos = { 2.311, 0.907, 0 },
 			drop_canopy_name = 315,
+			drop_parachute_name = "Mirage-F1_parachute",
 			ejection_added_speed = { -5, 15, 0 },
 			ejection_order = 2,
 			ejection_play_arg = 149,
 			ejection_seat_name = 318,
 			ejection_through_canopy = true,
 			g_suit = 0.8,
+			pilot_body_arg = 50,
 			pilot_name = 319,
 			pos = { 3.19, 0.003, 0 },
 			role = "pilot",
 			role_display_name = "Pilot"
 		}, {
+			bailout_arg = -1,
 			can_be_playable = true,
 			canopy_arg = 421,
 			canopy_pos = { 0.811, 0.892, 0 },
 			drop_canopy_name = 315,
+			drop_parachute_name = "Mirage-F1_parachute",
 			ejection_added_speed = { -5, 15, 0 },
 			ejection_order = 1,
 			ejection_seat_name = 320,
 			ejection_through_canopy = true,
+			g_suit = 0.8,
 			pilot_body_arg = 472,
 			pilot_name = 321,
 			pos = { 1.525, 0.221, -0.005 },
@@ -1633,7 +2598,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			role_display_name = "Instructor pilot"
 		} },
 	crew_size = 2,
-	detection_range_max = 60,
+	detection_range_max = 70,
 	effects_presets = { {
 			effect = "OVERWING_VAPOR",
 			file = "./CoreMods/aircraft/Mirage-F1/Effects/MirageF1_overwingVapor.lua"
@@ -1642,10 +2607,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	engines_nozzles = { {
 			diameter = 1.029,
 			elevation = 0,
-			exhaust_length_ab = 8,
-			exhaust_length_ab_K = 0.86,
+			exhaust_length_ab = 9,
+			exhaust_length_ab_K = 0.5,
 			pos = { -6.93, -0.111, 0 },
-			smokiness_level = 0.3
+			smokiness_level = 0.2
 		} },
 	fires_pos = { { -0.855, 0.593, 0 }, { -2.314, 0.178, 2.065 }, { -2.332, 0.187, -2.02 }, { -2.836, 0.122, 2.775 }, { -2.973, 0.095, -3.034 }, { -3.615, -0.012, 4.086 }, { -3.553, -0.017, -4.077 }, { -5.249, -0.1, 0 } },
 	flaps_maneuver = 0.5,
@@ -1699,7 +2664,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			},
 			[5] = {
 				lights = { {
+						argument = 200,
+						typename = "argumentlight"
+					}, {
 						argument = 201,
+						typename = "argumentlight"
+					} },
+				typename = "collection"
+			},
+			[6] = {
+				lights = { {
+						argument = 903,
 						typename = "argumentlight"
 					} },
 				typename = "collection"
@@ -1743,6 +2718,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			DuplicateOf = "Door0"
 		}
 	},
+	net_animation = { 11, 12, 13, 14, 15, 16, 18, 28, 35, 36, 37, 38, 69, 75, 83, 86, 90, 115, 116, 117, 120, 123, 126, 127, 128, 129, 149, 182, 184, 190, 191, 201, 209, 282, 283, 284, 285, 308, 309, 310, 311, 312, 313, 314, 338, 339, 340, 341, 427, 705, 750, 751, 752, 753, 754, 755, 780, 781, 782, 802, 803, 844, 845, 905, 911, 924, 925, 926, 970, 971, 972, 973, 974, 975 },
 	nose_gear_amortizer_direct_stroke = 0.151,
 	nose_gear_amortizer_normal_weight_stroke = -0.00311633945,
 	nose_gear_amortizer_reversal_stroke = -0.152,
@@ -1785,9 +2761,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	stores_number = 9,
 	swapped_names = true,
 	tand_gear_max = 2.1445,
-	tanker_type = 2,
-	thrust_sum_ab = 7200,
-	thrust_sum_max = 5000,
+	tanker_type = 0,
+	thrust_sum_ab = 6969,
+	thrust_sum_max = 4867,
 	type = "Mirage-F1B",
 	wing_area = 25,
 	wing_span = 8.4,

@@ -2501,7 +2501,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	_file = "./CoreMods/aircraft/Mirage-F1/Mirage-F1CR.lua",
 	_origin = "Mirage F1 Assets by Aerges",
 	air_refuel_receptacle_pos = { 5.679, 0.532, 0.363 },
-	attribute = { 1, 1, 1, "Redacted", "Multirole fighters", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },
+	attribute = { 1, 1, 1, "Redacted", "Multirole fighters", "Refuelable", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },
 	average_fuel_consumption = 0.5,
 	bank_angle_max = 85,
 	bigParkingRamp = false,
@@ -2536,7 +2536,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			role_display_name = "Pilot"
 		} },
 	crew_size = 1,
-	detection_range_max = 55,
+	detection_range_max = 70,
 	effects_presets = { {
 			effect = "OVERWING_VAPOR",
 			file = "./CoreMods/aircraft/Mirage-F1/Effects/MirageF1_overwingVapor.lua"
@@ -2556,6 +2556,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	has_differential_stabilizer = false,
 	has_speedbrake = true,
 	height = 4.5,
+	input_profile_entry = "Mirage-F1CR",
 	is_tanker = false,
 	length = 15.3,
 	lights_data = {
@@ -2840,17 +2841,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			}
 		} },
 	passivCounterm = {
-		CMDS_Edit = true,
-		SingleChargeTotal = 60,
+		CMDS_Edit = false,
+		SingleChargeTotal = 0,
 		chaff = {
-			chargeSz = 1,
-			default = 30,
-			increment = 30
+			chargeSz = 0,
+			default = 0,
+			increment = 0
 		},
 		flare = {
-			chargeSz = 2,
-			default = 15,
-			increment = 15
+			chargeSz = 0,
+			default = 0,
+			increment = 0
 		}
 	},
 	radar_can_see_ground = true,

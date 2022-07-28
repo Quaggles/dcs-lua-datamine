@@ -2582,7 +2582,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			role_display_name = "Pilot"
 		} },
 	crew_size = 1,
-	detection_range_max = 55,
+	detection_range_max = 70,
 	effects_presets = { {
 			effect = "OVERWING_VAPOR",
 			file = "./CoreMods/aircraft/Mirage-F1/Effects/MirageF1_overwingVapor.lua"
@@ -2602,6 +2602,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	has_differential_stabilizer = false,
 	has_speedbrake = true,
 	height = 4.5,
+	input_profile_entry = "Mirage-F1JA",
 	is_tanker = false,
 	length = 15.3,
 	lights_data = {
@@ -2886,17 +2887,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			}
 		} },
 	passivCounterm = {
-		CMDS_Edit = false,
-		SingleChargeTotal = 0,
+		CMDS_Edit = true,
+		SingleChargeTotal = 60,
 		chaff = {
-			chargeSz = 0,
-			default = 0,
-			increment = 0
+			chargeSz = 1,
+			default = 30,
+			increment = 30
 		},
 		flare = {
-			chargeSz = 0,
-			default = 0,
-			increment = 0
+			chargeSz = 2,
+			default = 15,
+			increment = 15
 		}
 	},
 	radar_can_see_ground = true,

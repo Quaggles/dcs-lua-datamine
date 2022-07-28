@@ -96,7 +96,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			control = "comboList",
 			defValue = 0,
 			id = "OverrideIFF",
-			label = "AI IFF Mode",
+			label = "AI IFF Detection Mode",
 			playerOnly = true,
 			values = { {
 					dispName = "Auto",
@@ -110,7 +110,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				}, {
 					dispName = "Realistic",
 					id = 3
-				} }
+				} },
+			wCtrl = 150
 		} },
 	AmmoWeight = 207.5,
 	CanopyGeometry = { -0.93969262078591, -0.95280922353749, -0.96592582628907, 0.0094409633615699, 0.98480775301221 },

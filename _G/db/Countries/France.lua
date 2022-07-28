@@ -956,11 +956,11 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "MiG-21Bis"
 				}, {
+					Name = "Mirage-F1C"
+				}, {
 					Name = "Mirage-F1CE"
 				}, {
 					Name = "Mirage-F1C-200"
-				}, {
-					Name = "Mirage-F1C"
 				}, {
 					Name = "Mirage-F1CR"
 				}, {

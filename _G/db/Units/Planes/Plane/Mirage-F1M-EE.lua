@@ -1437,34 +1437,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Picture = "Mirage-F1.png",
 	Pylons = { {
 			Launchers = { {
-					CLSID = "{AIM-9B}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{AIM-9B}" },
-							station = 7
-						} }
-				}, {
-					CLSID = "{AIM-9J}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{AIM-9J}" },
-							station = 7
-						} }
-				}, {
-					CLSID = "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}" },
-							station = 7
-						} }
-				}, {
-					CLSID = "{AIM-9JULI}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{AIM-9JULI}" },
-							station = 7
-						} }
-				}, {
 					CLSID = "{R550_Magic_1}",
 					arg_value = 0.15,
 					required = { {
@@ -1484,34 +1456,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
-					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}" },
-							station = 6
-						} }
-				}, {
-					CLSID = "{B{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{B{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}}" },
-							station = 6
-						} }
-				}, {
-					CLSID = "BR_250",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "BR_250" },
-							station = 6
-						} }
-				}, {
-					CLSID = "BR_500",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "BR_500" },
-							station = 6
-						} }
-				}, {
 					CLSID = "{SAMP125LD}",
 					arg_value = 0.25,
 					required = { {
@@ -1714,34 +1658,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
-					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}" },
-							station = 5
-						} }
-				}, {
-					CLSID = "{B{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{B{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}}" },
-							station = 5
-						} }
-				}, {
-					CLSID = "BR_250",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "BR_250" },
-							station = 5
-						} }
-				}, {
-					CLSID = "BR_500",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "BR_500" },
-							station = 5
-						} }
-				}, {
 					CLSID = "{SAMP125LD}",
 					arg_value = 0.15,
 					required = { {
@@ -1941,10 +1857,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{R530F_IR}" },
 							station = 4
-						} },
-					required = { {
-							loadout = { "{R530F_EM}" },
-							station = 5
 						} }
 				}, {
 					CLSID = "{R530F_IR}",
@@ -1956,23 +1868,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{R530F_IR}" },
 							station = 4
-						} },
-					required = { {
-							loadout = { "{R530F_IR}" },
-							station = 5
 						} }
 				}, {
-					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
+					CLSID = "{FD21B13E-57F3-4C2A-9F78-C522D0B5BCE1}",
 					arg_value = 0.15,
 					required = { {
-							loadout = { "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}" },
-							station = 5
-						} }
-				}, {
-					CLSID = "{0D33DDAE-524F-4A4E-B5B8-621754FE3ADE}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{0D33DDAE-524F-4A4E-B5B8-621754FE3ADE}" },
+							loadout = { "{FD21B13E-57F3-4C2A-9F78-C522D0B5BCE1}" },
 							station = 5
 						} }
 				}, {
@@ -1995,12 +1896,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
-					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
-					arg_value = 0.15
-				}, {
-					CLSID = "{B{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}}",
-					arg_value = 0.15
-				}, {
 					CLSID = "{51F9AAE5-964F-4D21-83FB-502E3BFE5F8A}",
 					arg_value = 0.15
 				}, {
@@ -2065,9 +1960,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "PTB-1200-F1",
 					arg_value = 0.15
 				}, {
-					CLSID = "{CLB4_MK82}",
-					arg_value = 0.35
-				}, {
 					CLSID = "{CLB4_BLU107}",
 					arg_value = 0.35
 				}, {
@@ -2098,34 +1990,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
-					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}" },
-							station = 3
-						} }
-				}, {
-					CLSID = "{B{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{B{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}}" },
-							station = 3
-						} }
-				}, {
-					CLSID = "BR_250",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "BR_250" },
-							station = 3
-						} }
-				}, {
-					CLSID = "BR_500",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "BR_500" },
-							station = 3
-						} }
-				}, {
 					CLSID = "{SAMP125LD}",
 					arg_value = 0.15,
 					required = { {
@@ -2325,10 +2189,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{R530F_IR}" },
 							station = 4
-						} },
-					required = { {
-							loadout = { "{R530F_EM}" },
-							station = 3
 						} }
 				}, {
 					CLSID = "{R530F_IR}",
@@ -2340,23 +2200,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{R530F_IR}" },
 							station = 4
-						} },
-					required = { {
-							loadout = { "{R530F_IR}" },
-							station = 3
 						} }
 				}, {
-					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
+					CLSID = "{FD21B13E-57F3-4C2A-9F78-C522D0B5BCE1}",
 					arg_value = 0.15,
 					required = { {
-							loadout = { "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}" },
-							station = 3
-						} }
-				}, {
-					CLSID = "{0D33DDAE-524F-4A4E-B5B8-621754FE3ADE}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{0D33DDAE-524F-4A4E-B5B8-621754FE3ADE}" },
+							loadout = { "{FD21B13E-57F3-4C2A-9F78-C522D0B5BCE1}" },
 							station = 3
 						} }
 				}, {
@@ -2379,34 +2228,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
-					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}" },
-							station = 2
-						} }
-				}, {
-					CLSID = "{B{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{B{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}}" },
-							station = 2
-						} }
-				}, {
-					CLSID = "BR_250",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "BR_250" },
-							station = 2
-						} }
-				}, {
-					CLSID = "BR_500",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "BR_500" },
-							station = 2
-						} }
-				}, {
 					CLSID = "{SAMP125LD}",
 					arg_value = 0.25,
 					required = { {
@@ -2609,34 +2430,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
-					CLSID = "{AIM-9B}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{AIM-9B}" },
-							station = 1
-						} }
-				}, {
-					CLSID = "{AIM-9J}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{AIM-9J}" },
-							station = 1
-						} }
-				}, {
-					CLSID = "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}" },
-							station = 1
-						} }
-				}, {
-					CLSID = "{AIM-9JULI}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{AIM-9JULI}" },
-							station = 1
-						} }
-				}, {
 					CLSID = "{R550_Magic_1}",
 					arg_value = 0.15,
 					required = { {
@@ -2848,11 +2641,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Vy_max = 243,
 	Waypoint_Custom_Panel = true,
 	WingSpan = 8.4,
-	WorldID = 303,
+	WorldID = 304,
 	_file = "./CoreMods/aircraft/Mirage-F1/Mirage-F1M-EE.lua",
 	_origin = "Mirage F1 Assets by Aerges",
 	air_refuel_receptacle_pos = { 5.679, 0.532, 0.363 },
-	attribute = { 1, 1, 1, "Redacted", "Multirole fighters", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },
+	attribute = { 1, 1, 1, "Redacted", "Multirole fighters", "Refuelable", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },
 	average_fuel_consumption = 0.5,
 	bank_angle_max = 85,
 	bigParkingRamp = false,
@@ -2887,7 +2680,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			role_display_name = "Pilot"
 		} },
 	crew_size = 1,
-	detection_range_max = 55,
+	detection_range_max = 70,
 	effects_presets = { {
 			effect = "OVERWING_VAPOR",
 			file = "./CoreMods/aircraft/Mirage-F1/Effects/MirageF1_overwingVapor.lua"
@@ -2907,6 +2700,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	has_differential_stabilizer = false,
 	has_speedbrake = true,
 	height = 4.5,
+	input_profile_entry = "Mirage-F1M-EE",
 	is_tanker = false,
 	length = 15.3,
 	lights_data = {

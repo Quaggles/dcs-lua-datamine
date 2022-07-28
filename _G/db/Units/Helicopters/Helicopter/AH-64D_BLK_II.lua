@@ -24,7 +24,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				}, {
 					dispName = "Equally Responsible",
 					id = -2
-				} }
+				} },
+			wCtrl = 150
 		}, {
 			control = "checkbox",
 			defValue = false,
@@ -39,7 +40,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			control = "comboList",
 			defValue = 0,
 			id = "OverrideIFF",
-			label = "AI IFF Mode",
+			label = "AI IFF Detection Mode",
 			playerOnly = true,
 			values = { {
 					dispName = "Auto",
@@ -53,7 +54,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				}, {
 					dispName = "Realistic",
 					id = 3
-				} }
+				} },
+			wCtrl = 150
 		}, {
 			control = "comboList",
 			defValue = 0,
