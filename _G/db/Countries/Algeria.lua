@@ -664,6 +664,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "HQ-7_LN_SP"
 				}, {
+					Name = "HQ-7_LN_EO"
+				}, {
 					Name = "HQ-7_STR_SP"
 				}, {
 					Name = "DR_50Ton_Flat_Wagon"

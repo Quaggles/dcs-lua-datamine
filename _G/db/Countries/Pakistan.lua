@@ -312,6 +312,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "LARC-V"
 				}, {
+					Name = "HQ-7_LN_EO"
+				}, {
 					Name = "DR_50Ton_Flat_Wagon"
 				}, {
 					Name = "DRG_Class_86"

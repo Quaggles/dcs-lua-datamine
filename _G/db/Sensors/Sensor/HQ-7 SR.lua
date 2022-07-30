@@ -1,15 +1,15 @@
 _G["db"]["Sensors"]["Sensor"]["#Index"] = {
-	DisplayName = "HQ-7 STR",
-	Name = "HQ-7 STR",
+	DisplayName = "HQ-7 SR",
+	Name = "HQ-7 SR",
 	RCS = 2,
 	SensorType = 1,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Tech/sensors.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	category = 1,
-	detection_distance = { { 20000,
+	detection_distance = { { 30000,
 			[0] = 30000
 		},
-		[0] = { 20000,
+		[0] = { 30000,
 			[0] = 30000
 		}
 	},
@@ -22,6 +22,6 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 	},
 	type = 0,
 	velocity_limits = {
-		radial_velocity_min = 10
+		radial_velocity_min = 15
 	}
 }

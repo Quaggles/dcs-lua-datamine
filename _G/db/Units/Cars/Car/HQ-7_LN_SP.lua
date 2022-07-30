@@ -4,7 +4,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	Countries = { "China", "Pakistan", "Algeria" },
-	DetectionRange = 20000,
+	DetectionRange = 15000,
 	DisplayName = "HQ-7 Self-Propelled LN",
 	DisplayNameShort = "HQ7-LN",
 	IR_emission_coeff = 0.08,
@@ -15,46 +15,100 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		OPTIC = { "TKN-3B day", "TKN-3B night", "Tunguska optic sight" },
 		RADAR = "HQ-7 TR"
 	},
-	ThreatRange = 12000,
+	ThreatRange = 15000,
 	WS = { {
+			LN = { {
+					ECM_K = 0.65,
+					beamWidth = 1.5707963267949,
+					depends_on_unit = { { { "self", 3 } }, { { "HQ-7_STR_SP" } } },
+					distanceMax = 15000,
+					distanceMin = 200,
+					maxShootingSpeed = 0,
+					max_number_of_missiles_channels = 1,
+					max_trg_alt = 5500,
+					min_trg_alt = 10,
+					reactionTime = 5,
+					reflection_limit = 0.18,
+					type = 102
+				} },
+			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 0.78539816339745 } },
+			drawArgument1 = 0,
+			mount_before_move = true,
+			omegaY = 0.523599,
+			omegaZ = 0.17453292519943,
+			pidY = {
+				d = 7,
+				i = 0.1,
+				inn = 4,
+				p = 40
+			},
+			pos = { 0, 3.1, 0 },
+			reference_angle_Y = 3.1415926535898
+		}, {
 			LN = { {
 					BR = { {}, {}, {}, {} },
 					PL = { {
 							type_ammunition = {}
 						} },
-					inclination_correction_bias = 0,
-					inclination_correction_upper_limit = 0,
-					sensor = {},
-					sightIndicationMode = 4,
-					sightMasterMode = 1
+					depends_on_unit = { { { "self", 1 } } },
+					inclination_correction_bias = 0.10471975511966,
+					inclination_correction_upper_limit = 0.5235987755983,
+					sensor = {}
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 0.78539816339745 } },
-			center = "CENTER_TOWER",
-			cockpit = { "_1A29/_1A29", { 0, 0, 0 } },
-			drawArgument1 = 0,
+			angles = { { 0.034906585039887, -0.034906585039887, -0.087266462599716, 0.78539816339745 } },
+			base = 1,
 			drawArgument2 = 1,
-			isoviewOffset = { 0, 3.5, 0 },
-			omegaY = 1.3962634015955,
-			omegaZ = 1.3962634015955,
+			mount_before_move = true,
+			omegaY = 1,
+			omegaZ = 1,
 			pidY = {
-				d = 10,
-				i = 1,
-				inn = 10,
-				p = 80
+				d = 2,
+				i = 0.1,
+				inn = 1,
+				p = 4
 			},
 			pidZ = {
-				d = 10,
-				i = 1,
-				inn = 10,
-				p = 80
+				d = 2,
+				i = 0.1,
+				inn = 1,
+				p = 4
 			},
-			pointer = "POINT_SIGHT_01",
-			reference_angle_Y = 3.1415926535898,
-			stabilizer = true,
-			type = 5
+			pos = { 0, 0, 0 },
+			reference_angle_Z = 0.034906585039887
+		}, {
+			LN = { {
+					ECM_K = 0.65,
+					beamWidth = 1.5707963267949,
+					distanceMax = 15000,
+					distanceMin = 200,
+					maxShootingSpeed = 0,
+					max_number_of_missiles_channels = 1,
+					max_trg_alt = 5500,
+					min_trg_alt = 10,
+					reactionTime = 5,
+					reflection_limit = 0.18,
+					type = 101
+				} },
+			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 0.78539816339745 } },
+			base = 2,
+			omegaY = 1,
+			omegaZ = 1,
+			pidY = {
+				d = 3,
+				i = 0.1,
+				inn = 3,
+				p = 10
+			},
+			pidZ = {
+				d = 3,
+				i = 0.1,
+				inn = 3,
+				p = 10
+			},
+			pos = { 0, 0, 0 }
 		},
-		maxTargetDetectionRange = 20000,
-		radar_rotation_type = 1,
+		fire_on_march = false,
+		maxTargetDetectionRange = 15000,
 		radar_type = 104,
 		searchRadarMaxElevation = 0.78539816339745
 	},
@@ -73,12 +127,10 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {}, {} }
 	},
-	attribute = { 2, 16, 102, "Redacted", "AA_missile", "SR SAM" },
+	attribute = { 2, 16, 102, "Redacted", "AA_missile", "SR SAM", "SAM TR", "SAM LL", "RADAR_BAND1_FOR_ARM", "RADAR_BAND2_FOR_ARM", "All", "Ground Units", "Vehicles", "Ground vehicles", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "SAM related", "SAM elements", "Armed Air Defence" },
 	category = "Air Defence",
 	chassis = {},
-	driverCockpit = "DriverCockpit/DriverCockpitWithIRandLLTV",
-	driverViewConnectorName = "DRIVER_POINT",
-	enablePlayerCanDrive = true,
+	enablePlayerCanDrive = false,
 	encyclopediaAnimation = {
 		args = { 0.3,
 			[3] = 1,
@@ -88,13 +140,13 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			[28] = 1
 		}
 	},
-	mapclasskey = "P0091000014",
+	mapclasskey = "P0091000081",
 	radar_rotation_period = 1,
 	sensor = {
 		height = 3.675,
 		max_alt_finding_target = 5500,
-		max_range_finding_target = 20000,
-		min_alt_finding_target = 0,
+		max_range_finding_target = 15000,
+		min_alt_finding_target = 10,
 		min_range_finding_target = 200
 	},
 	shape_table_data = { {

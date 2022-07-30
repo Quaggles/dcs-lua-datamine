@@ -3519,7 +3519,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	detection_range_max = 125,
 	effects_presets = { {
 			effect = "OVERWING_VAPOR",
-			file = "./CoreMods/aircraft/ChinaAssetPack/Effects/overwingVapor.lua",
+			file = "./CoreMods/aircraft/ChinaAssetPack/Effects/JF-17_overwingVapor.lua",
 			preset = "JF17"
 		} },
 	engines_count = 1,

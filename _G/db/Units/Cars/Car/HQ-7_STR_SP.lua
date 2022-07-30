@@ -12,22 +12,290 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "HQ-7 Self-Propelled STR",
 	Rate = 10,
 	Sensors = {
-		RADAR = "HQ-7 STR"
+		RADAR = "HQ-7 SR"
 	},
 	ThreatRange = 0,
 	WS = { {
 			LN = { {
 					ECM_K = 0.03,
-					beamWidth = 1.5707963267949,
 					distanceMax = 30000,
-					distanceMin = 500,
+					distanceMin = 200,
 					maxShootingSpeed = 0,
-					max_number_of_missiles_channels = 4,
 					max_trg_alt = 5500,
-					min_trg_alt = 10,
+					min_trg_alt = 15,
 					reactionTime = 10,
 					reflection_limit = 0.12,
-					type = 102
+					type = 101
+				} },
+			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.0471975511966 } },
+			drawArgument1 = 0,
+			mount_before_move = true,
+			omegaY = 0.5235987755983,
+			omegaZ = 0.5235987755983,
+			pidY = {
+				d = 8,
+				i = 0.1,
+				inn = 5,
+				p = 40
+			},
+			pidZ = {
+				d = 9,
+				i = 0.1,
+				inn = 10,
+				p = 80
+			},
+			pos = { 0, 5, 0 }
+		}, {
+			LN = { {
+					ECM_K = 0.03,
+					distanceMax = 30000,
+					distanceMin = 200,
+					maxShootingSpeed = 0,
+					max_trg_alt = 5500,
+					min_trg_alt = 15,
+					reactionTime = 10,
+					reflection_limit = 0.12,
+					type = 101
+				} },
+			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.0471975511966 } },
+			drawArgument1 = 0,
+			mount_before_move = true,
+			omegaY = 0.5235987755983,
+			omegaZ = 0.5235987755983,
+			pidY = {
+				d = 8,
+				i = 0.1,
+				inn = 5,
+				p = 40
+			},
+			pidZ = {
+				d = 9,
+				i = 0.1,
+				inn = 10,
+				p = 80
+			},
+			pos = { 0, 5, 0 }
+		}, {
+			LN = { {
+					ECM_K = 0.03,
+					distanceMax = 30000,
+					distanceMin = 200,
+					maxShootingSpeed = 0,
+					max_trg_alt = 5500,
+					min_trg_alt = 15,
+					reactionTime = 10,
+					reflection_limit = 0.12,
+					type = 101
+				} },
+			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.0471975511966 } },
+			drawArgument1 = 0,
+			mount_before_move = true,
+			omegaY = 0.5235987755983,
+			omegaZ = 0.5235987755983,
+			pidY = {
+				d = 8,
+				i = 0.1,
+				inn = 5,
+				p = 40
+			},
+			pidZ = {
+				d = 9,
+				i = 0.1,
+				inn = 10,
+				p = 80
+			},
+			pos = { 0, 5, 0 }
+		}, {
+			LN = { {
+					ECM_K = 0.03,
+					distanceMax = 30000,
+					distanceMin = 200,
+					maxShootingSpeed = 0,
+					max_trg_alt = 5500,
+					min_trg_alt = 15,
+					reactionTime = 10,
+					reflection_limit = 0.12,
+					type = 101
+				} },
+			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.0471975511966 } },
+			drawArgument1 = 0,
+			mount_before_move = true,
+			omegaY = 0.5235987755983,
+			omegaZ = 0.5235987755983,
+			pidY = {
+				d = 8,
+				i = 0.1,
+				inn = 5,
+				p = 40
+			},
+			pidZ = {
+				d = 9,
+				i = 0.1,
+				inn = 10,
+				p = 80
+			},
+			pos = { 0, 5, 0 }
+		}, {
+			LN = { {
+					ECM_K = 0.03,
+					distanceMax = 30000,
+					distanceMin = 200,
+					maxShootingSpeed = 0,
+					max_trg_alt = 5500,
+					min_trg_alt = 15,
+					reactionTime = 10,
+					reflection_limit = 0.12,
+					type = 101
+				} },
+			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.0471975511966 } },
+			drawArgument1 = 0,
+			mount_before_move = true,
+			omegaY = 0.5235987755983,
+			omegaZ = 0.5235987755983,
+			pidY = {
+				d = 8,
+				i = 0.1,
+				inn = 5,
+				p = 40
+			},
+			pidZ = {
+				d = 9,
+				i = 0.1,
+				inn = 10,
+				p = 80
+			},
+			pos = { 0, 5, 0 }
+		}, {
+			LN = { {
+					ECM_K = 0.03,
+					distanceMax = 30000,
+					distanceMin = 200,
+					maxShootingSpeed = 0,
+					max_trg_alt = 5500,
+					min_trg_alt = 15,
+					reactionTime = 10,
+					reflection_limit = 0.12,
+					type = 101
+				} },
+			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.0471975511966 } },
+			drawArgument1 = 0,
+			mount_before_move = true,
+			omegaY = 0.5235987755983,
+			omegaZ = 0.5235987755983,
+			pidY = {
+				d = 8,
+				i = 0.1,
+				inn = 5,
+				p = 40
+			},
+			pidZ = {
+				d = 9,
+				i = 0.1,
+				inn = 10,
+				p = 80
+			},
+			pos = { 0, 5, 0 }
+		}, {
+			LN = { {
+					ECM_K = 0.03,
+					distanceMax = 30000,
+					distanceMin = 200,
+					maxShootingSpeed = 0,
+					max_trg_alt = 5500,
+					min_trg_alt = 15,
+					reactionTime = 10,
+					reflection_limit = 0.12,
+					type = 101
+				} },
+			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.0471975511966 } },
+			drawArgument1 = 0,
+			mount_before_move = true,
+			omegaY = 0.5235987755983,
+			omegaZ = 0.5235987755983,
+			pidY = {
+				d = 8,
+				i = 0.1,
+				inn = 5,
+				p = 40
+			},
+			pidZ = {
+				d = 9,
+				i = 0.1,
+				inn = 10,
+				p = 80
+			},
+			pos = { 0, 5, 0 }
+		}, {
+			LN = { {
+					ECM_K = 0.03,
+					distanceMax = 30000,
+					distanceMin = 200,
+					maxShootingSpeed = 0,
+					max_trg_alt = 5500,
+					min_trg_alt = 15,
+					reactionTime = 10,
+					reflection_limit = 0.12,
+					type = 101
+				} },
+			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.0471975511966 } },
+			drawArgument1 = 0,
+			mount_before_move = true,
+			omegaY = 0.5235987755983,
+			omegaZ = 0.5235987755983,
+			pidY = {
+				d = 8,
+				i = 0.1,
+				inn = 5,
+				p = 40
+			},
+			pidZ = {
+				d = 9,
+				i = 0.1,
+				inn = 10,
+				p = 80
+			},
+			pos = { 0, 5, 0 }
+		}, {
+			LN = { {
+					ECM_K = 0.03,
+					distanceMax = 30000,
+					distanceMin = 200,
+					maxShootingSpeed = 0,
+					max_trg_alt = 5500,
+					min_trg_alt = 15,
+					reactionTime = 10,
+					reflection_limit = 0.12,
+					type = 101
+				} },
+			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.0471975511966 } },
+			drawArgument1 = 0,
+			mount_before_move = true,
+			omegaY = 0.5235987755983,
+			omegaZ = 0.5235987755983,
+			pidY = {
+				d = 8,
+				i = 0.1,
+				inn = 5,
+				p = 40
+			},
+			pidZ = {
+				d = 9,
+				i = 0.1,
+				inn = 10,
+				p = 80
+			},
+			pos = { 0, 5, 0 }
+		}, {
+			LN = { {
+					ECM_K = 0.03,
+					distanceMax = 30000,
+					distanceMin = 200,
+					maxShootingSpeed = 0,
+					max_trg_alt = 5500,
+					min_trg_alt = 15,
+					reactionTime = 10,
+					reflection_limit = 0.12,
+					type = 101
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.0471975511966 } },
 			drawArgument1 = 0,
@@ -50,8 +318,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		},
 		maxTargetDetectionRange = 30000,
 		radar_rotation_type = 1,
-		radar_type = 103,
-		searchRadarMaxElevation = 1.0471975511966
+		radar_type = 103
 	},
 	Waypoint_Custom_Panel = true,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Tech/hq7_str.lua",
@@ -68,7 +335,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {}, {} }
 	},
-	attribute = { 2, 16, 101, "Redacted", "SR SAM", "SAM SR", "SAM TR", "RADAR_BAND1_FOR_ARM", "RADAR_BAND2_FOR_ARM", "All", "Ground Units", "Vehicles", "Ground vehicles", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "SAM related", "SAM elements" },
+	attribute = { 2, 16, 101, "Redacted", "SR SAM", "SAM SR", "RADAR_BAND1_FOR_ARM", "All", "Ground Units", "Vehicles", "Ground vehicles", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "SAM related", "SAM elements" },
 	category = "Air Defence",
 	chassis = {},
 	driverCockpit = "DriverCockpit/DriverCockpitWithIRandLLTV",
@@ -86,7 +353,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		height = 3.675,
 		max_alt_finding_target = 5500,
 		max_range_finding_target = 30000,
-		min_alt_finding_target = 0,
+		min_alt_finding_target = 15,
 		min_range_finding_target = 200
 	},
 	shape_table_data = { {
@@ -111,7 +378,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	swapped_names = true,
 	swing_on_run = true,
-	tags = { "Air Defence", "Tracking Radar" },
+	tags = { "Air Defence", "Search Radar" },
 	type = "HQ-7_STR_SP",
 	visual = {
 		IR = {
