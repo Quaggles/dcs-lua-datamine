@@ -7,7 +7,7 @@ _G["launcher"]["{2x9M120F_Ataka_V}"] = {
 			ShapeName = "9M120_pylon"
 		} },
 	NatoName = "AT-9",
-	Picture = "apu2.png",
+	Picture = "24_ME_ATGM_Launch+2_Miss.png",
 	Weight = 112,
 	Weight_Empty = 27,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/AS_Missiles.lua",

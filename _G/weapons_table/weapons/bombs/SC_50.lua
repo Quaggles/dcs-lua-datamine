@@ -1,7 +1,10 @@
 _G["weapons_table"]["weapons"]["bombs"]["SC_50"] = {
+	I = 443.4929,
+	L = 3.365,
 	_file = "./CoreMods/WWII Units/Weapons/Weapons.lua",
 	_origin = "World War II AI Units by Eagle Dynamics",
 	_unique_resource_name = "weapons.bombs.SC_50",
+	caliber = 0.2,
 	client = {
 		Ag = -1.23,
 		Cx = 0.00014,
@@ -69,6 +72,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SC_50"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
+	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "SC 50",
 	mass = 50,
 	model = "SC50",

@@ -1,7 +1,10 @@
 _G["weapons_table"]["weapons"]["bombs"]["FAB-500SL"] = {
+	I = 211.5105,
+	L = 2.22,
 	_file = "./CoreMods/aircraft/MiG-21BIS/Entry/Aw",
 	_origin = "MiG-21Bis AI by Magnitude 3 LLC",
 	_unique_resource_name = "weapons.bombs.FAB-500SL",
+	caliber = 0.45,
 	client = {
 		Ag = -1.23,
 		Cx = 0.00162,
@@ -66,6 +69,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB-500SL"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
+	cx = { 0.1, 0.39, 0.6, 0.768, 1.31 },
 	display_name = "FAB-500 SL - 515 kg, bomb, parachute",
 	mass = 515,
 	model = "fab-500-sl",

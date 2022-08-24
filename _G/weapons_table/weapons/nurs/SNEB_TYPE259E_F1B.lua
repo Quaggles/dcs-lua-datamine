@@ -44,8 +44,11 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE259E_F1B"] = {
 		},
 		launcher = {
 			ammunition = {
+				I = 6.75,
+				L = 0.9,
 				Reflection = 0.015,
 				_unique_resource_name = "weapons.bombs.SAB_100_LE",
+				caliber = 0.3,
 				client = {
 					Reflection = 0.015,
 					arming_delay = {
@@ -83,6 +86,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE259E_F1B"] = {
 					},
 					scheme = "schemes/bombs/bomb-light.sch"
 				},
+				cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 				display_name = "SAB-100",
 				mass = 5.8,
 				model = "luu-2",
@@ -199,8 +203,11 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE259E_F1B"] = {
 		},
 		launcher = {
 			ammunition = {
+				I = 6.75,
+				L = 0.9,
 				Reflection = 0.015,
 				_unique_resource_name = "weapons.bombs.SAB_100_LE",
+				caliber = 0.3,
 				client = {
 					Reflection = 0.015,
 					arming_delay = {
@@ -238,6 +245,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE259E_F1B"] = {
 					},
 					scheme = "schemes/bombs/bomb-light.sch"
 				},
+				cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 				display_name = "SAB-100",
 				mass = 5.8,
 				model = "luu-2",

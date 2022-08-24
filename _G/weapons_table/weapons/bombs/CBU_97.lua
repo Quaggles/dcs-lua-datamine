@@ -1,6 +1,9 @@
 _G["weapons_table"]["weapons"]["bombs"]["CBU_97"] = {
+	I = 194.1438464,
+	L = 2.3552,
 	Reflection = 0.03,
 	_unique_resource_name = "weapons.bombs.CBU_97",
+	caliber = 0.41,
 	client = {
 		Reflection = 0.03,
 		arming_delay = {
@@ -419,6 +422,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_97"] = {
 		},
 		scheme = "schemes/bombs/bomb-cassette_new.sch"
 	},
+	cx = { 1, 0.55, 0.8, 0.2, 1.5 },
 	display_name = "CBU-97",
 	encyclopediaAnimation = {
 		args = {

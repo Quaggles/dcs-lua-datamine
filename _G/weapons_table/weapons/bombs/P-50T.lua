@@ -1,8 +1,11 @@
 _G["weapons_table"]["weapons"]["bombs"]["P-50T"] = {
+	I = 4.507,
+	L = 1.04,
 	Reflection = 0.01,
 	_file = "./CoreMods/aircraft/L-39/L-39C.lua",
 	_origin = "L-39C/ZA by Eagle Dynamics",
 	_unique_resource_name = "weapons.bombs.P-50T",
+	caliber = 0.203,
 	client = {
 		Ag = -1.23,
 		Cx = 0.00035,
@@ -69,6 +72,7 @@ _G["weapons_table"]["weapons"]["bombs"]["P-50T"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
+	cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 	display_name = "P-50T - 50kg Practice Bomb LD",
 	mass = 50,
 	model = "p-50t",

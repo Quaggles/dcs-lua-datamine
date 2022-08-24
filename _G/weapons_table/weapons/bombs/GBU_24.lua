@@ -1,6 +1,9 @@
 _G["weapons_table"]["weapons"]["bombs"]["GBU_24"] = {
+	I = 1485.015168,
+	L = 4.368,
 	Reflection = 0.05,
 	_unique_resource_name = "weapons.bombs.GBU_24",
+	caliber = 0.457,
 	client = {
 		Reflection = 0.05,
 		arming_delay = {
@@ -67,6 +70,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_24"] = {
 			piercing_mass = 69.92
 		}
 	},
+	cx = { 1.037, 0.91, 0.9, 0.382, 1.34 },
 	display_name = "GBU-24A/B Paveway III",
 	mass = 1087,
 	model = "GBU-24",

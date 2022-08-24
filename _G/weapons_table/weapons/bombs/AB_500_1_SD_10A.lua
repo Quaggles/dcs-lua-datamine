@@ -1,8 +1,11 @@
 _G["weapons_table"]["weapons"]["bombs"]["AB_500_1_SD_10A"] = {
+	I = 150,
+	L = 2.03,
 	Reflection = 0.035,
 	_file = "./CoreMods/WWII Units/Weapons/Weapons.lua",
 	_origin = "World War II AI Units by Eagle Dynamics",
 	_unique_resource_name = "weapons.bombs.AB_500_1_SD_10A",
+	caliber = 0.46,
 	client = {
 		Ag = -1.23,
 		Cx = 0.000413,
@@ -223,6 +226,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AB_500_1_SD_10A"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 	},
+	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "AB 500-1 SD-10A",
 	mass = 470,
 	model = "AB-500-1_dropping",

@@ -1,7 +1,10 @@
 _G["weapons_table"]["weapons"]["bombs"]["BR_500"] = {
+	I = 340.5,
+	L = 3,
 	_file = "./CoreMods/aircraft/C-101/Weapons.lua",
 	_origin = "C-101 Aviojet by AvioDev",
 	_unique_resource_name = "weapons.bombs.BR_500",
+	caliber = 0.356,
 	client = {
 		Ag = -1.23,
 		Cx = 0.00035,
@@ -62,6 +65,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BR_500"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
+	cx = { 1, 0.29, 0.71, 0.13, 1.28 },
 	display_name = "BR-500 - 500kg GP Bomb LD",
 	mass = 500,
 	model = "BR-500",

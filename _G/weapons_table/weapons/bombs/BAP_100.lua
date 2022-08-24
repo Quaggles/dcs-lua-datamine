@@ -1,7 +1,10 @@
 _G["weapons_table"]["weapons"]["bombs"]["BAP_100"] = {
+	I = 8.775,
+	L = 1.8,
 	_file = "./CoreMods/aircraft/M-2000C/WEAPONS/M2KC_BAP100.lua",
 	_origin = "M-2000C AI by RAZBAM Sims",
 	_unique_resource_name = "weapons.bombs.BAP_100",
+	caliber = 0.1,
 	client = {
 		Ag = -5,
 		Cx = 0.004,
@@ -84,6 +87,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BAP_100"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 37, "Redacted" }
 	},
+	cx = { 1, 0.82, 0.65, 0.142, 2.11 },
 	display_name = "BAP-100",
 	mass = 32.5,
 	model = "M-2000c_BAP100",

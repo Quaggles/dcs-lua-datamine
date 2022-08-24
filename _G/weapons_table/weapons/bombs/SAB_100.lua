@@ -1,6 +1,9 @@
 _G["weapons_table"]["weapons"]["bombs"]["SAB_100"] = {
+	I = 43.077867,
+	L = 1.48,
 	Reflection = 0.015,
 	_unique_resource_name = "weapons.bombs.SAB_100",
+	caliber = 0.325,
 	client = {
 		Reflection = 0.015,
 		arming_delay = {
@@ -28,8 +31,11 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100"] = {
 		},
 		launcher = {
 			ammunition = {
+				I = 6.75,
+				L = 0.9,
 				Reflection = 0.015,
 				_unique_resource_name = "weapons.bombs.SAB_100_LE",
+				caliber = 0.3,
 				client = {
 					Reflection = 0.015,
 					arming_delay = {
@@ -67,6 +73,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100"] = {
 					},
 					scheme = "schemes/bombs/bomb-light.sch"
 				},
+				cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 				display_name = "SAB-100",
 				mass = 5.8,
 				model = "luu-2",
@@ -120,6 +127,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100"] = {
 		},
 		scheme = "schemes/bombs/bomb-sab.sch"
 	},
+	cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 	display_name = "SAB-100",
 	mass = 236,
 	model = "sab-100",
@@ -151,8 +159,11 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100"] = {
 		},
 		launcher = {
 			ammunition = {
+				I = 6.75,
+				L = 0.9,
 				Reflection = 0.015,
 				_unique_resource_name = "weapons.bombs.SAB_100_LE",
+				caliber = 0.3,
 				client = {
 					Reflection = 0.015,
 					arming_delay = {
@@ -190,6 +201,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100"] = {
 					},
 					scheme = "schemes/bombs/bomb-light.sch"
 				},
+				cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 				display_name = "SAB-100",
 				mass = 5.8,
 				model = "luu-2",

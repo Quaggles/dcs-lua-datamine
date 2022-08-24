@@ -18,6 +18,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			wCtrl = 110
 		} },
 	AmmoWeight = 328.8,
+	Boost_Mixt_type = 2,
 	CAS_min = 56,
 	CMDS_Edit = false,
 	CMDS_Incrementation = 0,
@@ -3342,6 +3343,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	},
 	IR_emission_coeff = 0.1,
 	IR_emission_coeff_ab = 0,
+	M_Boost_Mixt_max = 114,
 	M_empty = 5006,
 	M_fuel_max = 1007,
 	M_fuel_per_tank = { 735, 272 },

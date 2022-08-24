@@ -34,6 +34,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	swapped_names = true,
 	swing_on_run = false,
+	tags = { "Unarmed", "Support & Logistics" },
 	type = "tacr2a",
 	visual = {
 		fire_pos = { 0, 0, 0 },

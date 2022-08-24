@@ -1,7 +1,10 @@
 _G["weapons_table"]["weapons"]["bombs"]["BETAB-500S"] = {
+	I = 265.8941,
+	L = 2.74,
 	_file = "./CoreMods/aircraft/MiG-21BIS/Entry/Aw",
 	_origin = "MiG-21Bis AI by Magnitude 3 LLC",
 	_unique_resource_name = "weapons.bombs.BETAB-500S",
+	caliber = 0.325,
 	client = {
 		Ag = -20,
 		Cx = 0.00133,
@@ -81,6 +84,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BETAB-500S"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 37, "Redacted" }
 	},
+	cx = { 0.1, 0.39, 0.71, 0.768, 1.31 },
 	display_name = "BETAB-500S - 425 kg, bomb, penetrating",
 	mass = 425,
 	model = "BETAB-500S",

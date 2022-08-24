@@ -1,7 +1,10 @@
 _G["weapons_table"]["weapons"]["bombs"]["BKF_PTAB2_5KO"] = {
+	I = 0.73274606666667,
+	L = 0.373,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/cluster_bombs.lua",
 	_origin = "AircraftWeaponPack",
 	_unique_resource_name = "weapons.bombs.BKF_PTAB2_5KO",
+	caliber = 0.346,
 	client = {
 		Ag = -1.23,
 		Cx = 0.000413,
@@ -252,6 +255,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BKF_PTAB2_5KO"] = {
 		user_name = "BKF - 12 x PTAB-2.5KO",
 		wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 	},
+	cx = { 0, 0.9, 0.9, 1, 2 },
 	display_name = "BKF - 12 x PTAB-2.5KO",
 	mass = 63.2,
 	model = "ptab-2_5ko_block2",

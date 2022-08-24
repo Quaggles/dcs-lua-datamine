@@ -1,7 +1,10 @@
 _G["weapons_table"]["weapons"]["bombs"]["RN-28"] = {
+	I = 152.1541,
+	L = 2.65,
 	_file = "./CoreMods/aircraft/MiG-21BIS/Entry/Aw",
 	_origin = "MiG-21Bis AI by Magnitude 3 LLC",
 	_unique_resource_name = "weapons.bombs.RN-28",
+	caliber = 0.47,
 	client = {
 		Ag = -1.23,
 		Cx = 0.00124,
@@ -62,6 +65,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RN-28"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
+	cx = { 0.1, 0.39, 0.6, 0.768, 1.31 },
 	display_name = "RN-28 - 260 kg, nuclear bomb, free fall",
 	mass = 260,
 	model = "RN-28",

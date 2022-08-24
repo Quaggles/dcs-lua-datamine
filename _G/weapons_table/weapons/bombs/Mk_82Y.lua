@@ -1,8 +1,11 @@
 _G["weapons_table"]["weapons"]["bombs"]["Mk_82Y"] = {
+	I = 94.42593,
+	L = 2.21,
 	Reflection = 0.035,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
 	_origin = "AircraftWeaponPack",
 	_unique_resource_name = "weapons.bombs.Mk_82Y",
+	caliber = 0.273,
 	client = {
 		Ag = -1.23,
 		Cx = 0.00035,
@@ -72,6 +75,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_82Y"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
+	cx = { 1, 0.29, 0.71, 0.14, 1.28 },
 	display_name = "Mk-82Y - 500lb GP Chute Retarded HD",
 	mass = 232,
 	model = "mk-82air",

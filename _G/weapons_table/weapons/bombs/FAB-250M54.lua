@@ -1,7 +1,10 @@
 _G["weapons_table"]["weapons"]["bombs"]["FAB-250M54"] = {
+	I = 42.895,
+	L = 1.48,
 	_file = "./CoreMods/aircraft/MiG-21BIS/Entry/Aw",
 	_origin = "MiG-21Bis AI by Magnitude 3 LLC",
 	_unique_resource_name = "weapons.bombs.FAB-250M54",
+	caliber = 0.325,
 	client = {
 		Ag = -1.23,
 		Cx = 0.00112,
@@ -62,6 +65,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB-250M54"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
+	cx = { 0.1, 0.29, 0.51, 0.54, 1.28 },
 	display_name = "FAB-250 M54 - 235 kg, bomb, parachute",
 	mass = 235,
 	model = "fab-250-m54",

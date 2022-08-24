@@ -1,6 +1,9 @@
 _G["weapons_table"]["weapons"]["bombs"]["GBU_31_V_3B"] = {
+	I = 592.5,
+	L = 0.368,
 	Reflection = 0.04,
 	_unique_resource_name = "weapons.bombs.GBU_31_V_3B",
+	caliber = 0.368,
 	client = {
 		Reflection = 0.04,
 		arming_delay = {
@@ -72,6 +75,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_31_V_3B"] = {
 			piercing_mass = 69.92
 		}
 	},
+	cx = { 1, 0.45, 0.8, 0.15, 1.55 },
 	display_name = "GBU-31(V)3/B",
 	mass = 961,
 	model = "GBU31_V_3B_BLU109",

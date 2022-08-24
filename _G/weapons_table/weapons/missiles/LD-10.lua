@@ -76,7 +76,7 @@ _G["weapons_table"]["weapons"]["missiles"]["LD-10"] = {
 			nozzle_orientationXYZ = { { 0, 0, 0 } },
 			nozzle_position = { { -1.74, -0.11, 0 } },
 			smoke_color = { 0.9, 0.9, 0.9 },
-			smoke_transparency = 0.1,
+			smoke_transparency = 0.5,
 			tail_width = 0.4,
 			work_time = 6
 		},
@@ -86,7 +86,7 @@ _G["weapons_table"]["weapons"]["missiles"]["LD-10"] = {
 			boost_start = 0,
 			march_start = 1
 		},
-		exhaust = { 1, 1, 1, 0.5 },
+		exhaust = { 1, 1, 1, 0.8 },
 		fm = {
 			A1trim = { 4, 6, 10, 15 },
 			A2trim = { 4, 6, 10, 15 },
@@ -129,7 +129,7 @@ _G["weapons_table"]["weapons"]["missiles"]["LD-10"] = {
 			nozzle_orientationXYZ = { { 0, 0, 0 } },
 			nozzle_position = { { -1.74, -0.11, 0 } },
 			smoke_color = { 0.6, 0.6, 0.6 },
-			smoke_transparency = 0.8,
+			smoke_transparency = 0.5,
 			tail_width = 0.3,
 			work_time = 4
 		},
@@ -278,7 +278,7 @@ _G["weapons_table"]["weapons"]["missiles"]["LD-10"] = {
 			nozzle_orientationXYZ = { { 0, 0, 0 } },
 			nozzle_position = { { -1.74, -0.11, 0 } },
 			smoke_color = { 0.9, 0.9, 0.9 },
-			smoke_transparency = 0.1,
+			smoke_transparency = 0.5,
 			tail_width = 0.4,
 			work_time = 6
 		},
@@ -288,7 +288,7 @@ _G["weapons_table"]["weapons"]["missiles"]["LD-10"] = {
 			boost_start = 0,
 			march_start = 1
 		},
-		exhaust = { 1, 1, 1, 0.5 },
+		exhaust = { 1, 1, 1, 0.8 },
 		fm = {
 			A1trim = { 4, 6, 10, 15 },
 			A2trim = { 4, 6, 10, 15 },
@@ -331,7 +331,7 @@ _G["weapons_table"]["weapons"]["missiles"]["LD-10"] = {
 			nozzle_orientationXYZ = { { 0, 0, 0 } },
 			nozzle_position = { { -1.74, -0.11, 0 } },
 			smoke_color = { 0.6, 0.6, 0.6 },
-			smoke_transparency = 0.8,
+			smoke_transparency = 0.5,
 			tail_width = 0.3,
 			work_time = 4
 		},

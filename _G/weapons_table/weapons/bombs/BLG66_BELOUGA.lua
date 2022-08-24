@@ -1,7 +1,10 @@
 _G["weapons_table"]["weapons"]["bombs"]["BLG66_BELOUGA"] = {
+	I = 101.2986,
+	L = 2.34,
 	_file = "./CoreMods/aircraft/M-2000C/WEAPONS/M2KC_BLG66.lua",
 	_origin = "M-2000C AI by RAZBAM Sims",
 	_unique_resource_name = "weapons.bombs.BLG66_BELOUGA",
+	caliber = 0.36,
 	client = {
 		Ag = -1.23,
 		Cx = 0.000413,
@@ -130,6 +133,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BLG66_BELOUGA"] = {
 		user_name = "BLG-66 Belouga",
 		wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 	},
+	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "BLG-66 Belouga",
 	mass = 290,
 	model = "M2000C_BLG66",

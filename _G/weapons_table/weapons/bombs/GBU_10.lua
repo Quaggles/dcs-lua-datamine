@@ -1,6 +1,9 @@
 _G["weapons_table"]["weapons"]["bombs"]["GBU_10"] = {
+	I = 1524.763968,
+	L = 4.368,
 	Reflection = 0.04,
 	_unique_resource_name = "weapons.bombs.GBU_10",
+	caliber = 0.457,
 	client = {
 		Reflection = 0.04,
 		arming_delay = {
@@ -47,6 +50,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_10"] = {
 			piercing_mass = 68
 		}
 	},
+	cx = { 1.037, 0.91, 0.6, 0.382, 1.34 },
 	display_name = "GBU-10",
 	mass = 959,
 	model = "GBU-10",

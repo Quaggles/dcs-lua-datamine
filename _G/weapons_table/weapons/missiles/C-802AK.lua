@@ -195,6 +195,7 @@ _G["weapons_table"]["weapons"]["missiles"]["C-802AK"] = {
 			sens_near_dist = 10,
 			sens_ref_dist = 32000,
 			sens_ref_rcs = 10000,
+			ship_l_error_k = 0.33,
 			ship_track_by_default = 1
 		},
 		shape_table_data = { {
@@ -447,6 +448,7 @@ _G["weapons_table"]["weapons"]["missiles"]["C-802AK"] = {
 			sens_near_dist = 10,
 			sens_ref_dist = 32000,
 			sens_ref_rcs = 10000,
+			ship_l_error_k = 0.33,
 			ship_track_by_default = 1
 		},
 		shape_table_data = { {

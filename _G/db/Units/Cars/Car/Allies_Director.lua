@@ -22,11 +22,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		} },
 	Countries = { "Australia", "Belgium", "Canada", "Czech Republic", "France", "Italia", "Poland", "The Netherlands", "UK", "USA", "USSR", "Yugoslavia" },
 	DetectionRange = 30000,
-	DisplayName = "Allies_Director",
+	DisplayName = "Allies Rangefinder (DRT)",
 	DisplayNameShort = "DRT",
 	IR_emission_coeff = 0.03,
 	MaxSpeed = 0,
-	Name = "Allies_Director",
+	Name = "Allies Rangefinder (DRT)",
 	Rate = 3,
 	Sensors = {
 		OPTIC = { "long-range air defence optics" }

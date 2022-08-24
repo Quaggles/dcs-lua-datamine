@@ -1,8 +1,11 @@
 _G["weapons_table"]["weapons"]["bombs"]["SD_250_Stg"] = {
+	I = 43.077867,
+	L = 1.64,
 	Reflection = 0.02,
 	_file = "./CoreMods/WWII Units/Weapons/Weapons.lua",
 	_origin = "World War II AI Units by Eagle Dynamics",
 	_unique_resource_name = "weapons.bombs.SD_250_Stg",
+	caliber = 0.368,
 	client = {
 		Ag = -1.23,
 		Cx = 0.00124,
@@ -72,6 +75,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SD_250_Stg"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
+	cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 	display_name = "SD 250 Stg",
 	mass = 250,
 	model = "SD-250Stg",

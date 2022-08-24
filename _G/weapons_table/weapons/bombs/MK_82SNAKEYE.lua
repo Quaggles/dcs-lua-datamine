@@ -1,6 +1,9 @@
 _G["weapons_table"]["weapons"]["bombs"]["MK_82SNAKEYE"] = {
+	I = 94.42593,
+	L = 2.21,
 	Reflection = 0.035,
 	_unique_resource_name = "weapons.bombs.MK_82SNAKEYE",
+	caliber = 0.273,
 	client = {
 		Reflection = 0.035,
 		arming_delay = {
@@ -45,6 +48,7 @@ _G["weapons_table"]["weapons"]["bombs"]["MK_82SNAKEYE"] = {
 			piercing_mass = 14.4
 		}
 	},
+	cx = { 1, 0.29, 0.71, 0.14, 1.28 },
 	display_name = "Mk-82 Snakeye",
 	encyclopediaAnimation = {
 		args = {

@@ -1,6 +1,9 @@
 _G["weapons_table"]["weapons"]["bombs"]["AGM_62"] = {
+	I = 1443.1014666667,
+	L = 4.04,
 	Reflection = 0.3,
 	_unique_resource_name = "weapons.bombs.AGM_62",
+	caliber = 0.457,
 	client = {
 		PN_autopilot = {
 			K = 0.024,
@@ -46,12 +49,14 @@ _G["weapons_table"]["weapons"]["bombs"]["AGM_62"] = {
 		scheme = "schemes/bombs/AGM-62.sch",
 		seeker = {
 			FOV = 1.0471975511966,
+			activate_on_update = 0,
 			delay = 0,
+			max_lock_dist = 60000,
 			max_target_speed = 33,
 			max_target_speed_rnd_coeff = 10,
 			max_w_LOS = 0.06,
 			max_w_LOS_surf = 0.03,
-			op_time = 200
+			op_time = 800
 		},
 		warhead = {
 			caliber = 457,
@@ -68,6 +73,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AGM_62"] = {
 			piercing_mass = 73.12
 		}
 	},
+	cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 	display_name = "AGM-62 Walleye II",
 	mass = 1061,
 	model = "agm-62",
@@ -117,12 +123,14 @@ _G["weapons_table"]["weapons"]["bombs"]["AGM_62"] = {
 		scheme = "schemes/bombs/AGM-62.sch",
 		seeker = {
 			FOV = 1.0471975511966,
+			activate_on_update = 0,
 			delay = 0,
+			max_lock_dist = 60000,
 			max_target_speed = 33,
 			max_target_speed_rnd_coeff = 10,
 			max_w_LOS = 0.06,
 			max_w_LOS_surf = 0.03,
-			op_time = 200
+			op_time = 800
 		},
 		warhead = {
 			caliber = 457,

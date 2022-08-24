@@ -1,8 +1,11 @@
 _G["weapons_table"]["weapons"]["bombs"]["RBK_500U_BETAB_M"] = {
+	I = 107.827833,
+	L = 2.43,
 	Reflection = 0.03,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/cluster_bombs.lua",
 	_origin = "AircraftWeaponPack",
 	_unique_resource_name = "weapons.bombs.RBK_500U_BETAB_M",
+	caliber = 0.4,
 	client = {
 		Ag = -1.23,
 		Cx = 0.001438,
@@ -323,6 +326,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_500U_BETAB_M"] = {
 		user_name = "RBK-500U - 10 x BETAB-M, 500kg Bunker Buster CBU HE/Frag",
 		wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 	},
+	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "RBK-500U - 10 x BETAB-M, 500kg Bunker Buster CBU HE/Frag",
 	mass = 427,
 	model = "RBK_500U",

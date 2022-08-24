@@ -1,6 +1,9 @@
 _G["weapons_table"]["weapons"]["bombs"]["BetAB_500ShP"] = {
+	I = 220.833333,
+	L = 2.5,
 	Reflection = 0.03,
 	_unique_resource_name = "weapons.bombs.BetAB_500ShP",
+	caliber = 0.325,
 	client = {
 		Reflection = 0.03,
 		arming_delay = {
@@ -56,6 +59,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BetAB_500ShP"] = {
 			piercing_mass = 40
 		}
 	},
+	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "BetAB-500ShP",
 	mass = 372.2,
 	model = "betab-500sp",

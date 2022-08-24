@@ -2388,7 +2388,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			exhaust_length_ab = 9,
 			exhaust_length_ab_K = 0.7,
 			pos = { -6.585, 0.525, 0 },
-			smokiness_level = 0.02
+			smokiness_level = 0.2
 		} },
 	fires_pos = { { -3.484, -0.004, -0.149 }, { -2.518, 0.055, 1.216 }, { -2.518, 0.055, -1.216 }, { -6.25, 0.525, 0 }, { -6.75, 0.525, 0 }, { -2.346, -0.448, 0 }, { 2.346, -0.448, 0 } },
 	flaps_maneuver = 0.5,

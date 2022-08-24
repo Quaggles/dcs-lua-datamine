@@ -1,8 +1,11 @@
 _G["weapons_table"]["weapons"]["bombs"]["British_MC_500LB_Bomb_Mk2"] = {
+	I = 62.100166516667,
+	L = 1.793,
 	Reflection = 0.03,
 	_file = "./CoreMods/WWII Units/Weapons/Weapons.lua",
 	_origin = "World War II AI Units by Eagle Dynamics",
 	_unique_resource_name = "weapons.bombs.British_MC_500LB_Bomb_Mk2",
+	caliber = 0.328,
 	client = {
 		Ag = -1.23,
 		Cx = 0.00133,
@@ -72,6 +75,7 @@ _G["weapons_table"]["weapons"]["bombs"]["British_MC_500LB_Bomb_Mk2"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
+	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "500 lb MC Mk.II",
 	mass = 231.8,
 	model = "500_lb_mc_mkII",

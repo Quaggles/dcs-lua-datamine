@@ -1,8 +1,11 @@
 _G["weapons_table"]["weapons"]["bombs"]["AN_M30A1"] = {
+	I = 3.6356650666667,
+	L = 0.976,
 	Reflection = 0.01,
 	_file = "./CoreMods/WWII Units/Weapons/Weapons.lua",
 	_origin = "World War II AI Units by Eagle Dynamics",
 	_unique_resource_name = "weapons.bombs.AN_M30A1",
+	caliber = 0.207,
 	client = {
 		Ag = -1.23,
 		Cx = 0.00025,
@@ -68,6 +71,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M30A1"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
+	cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 	display_name = "AN-M30A1",
 	mass = 45.8,
 	model = "AN-M30A1",

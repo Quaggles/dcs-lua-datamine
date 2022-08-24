@@ -9,7 +9,7 @@ _G["db"]["Units"]["Fortifications"]["Fortification"]["#Index"] = {
 	attribute = { 5, 9 },
 	category = "Fortification",
 	enablePlayerCanDrive = false,
-	isPutToWater = true,
+	isPutToWater = false,
 	mapclasskey = "P0091000076",
 	shape_table_data = { {
 			classname = "lWindmill",
@@ -17,7 +17,7 @@ _G["db"]["Units"]["Fortifications"]["Fortification"]["#Index"] = {
 			file = "cat_345l",
 			life = 100,
 			name = "cat_345l",
-			positioning = "ADD_HEIGTH",
+			positioning = "BYNORMAL",
 			username = "345 Excavator"
 		} },
 	swapped_names = true,

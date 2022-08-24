@@ -1,6 +1,9 @@
 _G["weapons_table"]["weapons"]["bombs"]["M_117"] = {
+	I = 144.2824,
+	L = 2.06,
 	Reflection = 0.025,
 	_unique_resource_name = "weapons.bombs.M_117",
+	caliber = 0.408,
 	client = {
 		Reflection = 0.025,
 		arming_delay = {
@@ -38,6 +41,7 @@ _G["weapons_table"]["weapons"]["bombs"]["M_117"] = {
 			piercing_mass = 28
 		}
 	},
+	cx = { 1, 0.29, 0.71, 0.13, 1.28 },
 	display_name = "M117",
 	mass = 408,
 	model = "m117",

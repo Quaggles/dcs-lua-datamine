@@ -4,7 +4,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		}, {
 			name = "HelicopterCarrier"
 		} },
-	Countries = { "UK", "CHL" },
+	Countries = { "UK", "France", "ARG", "CHL" },
 	DM = { {
 			area_arg = 72,
 			area_fire = {
@@ -183,7 +183,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			area_name = "Leander_Destroyed"
 		} },
 	DeckLevel = 4.511,
-	DetectionRange = 180000,
+	DetectionRange = 150000,
 	DisplayName = "CNS Almirante Condell (PFG-06)",
 	Gamma_max = 0.35,
 	Height = 29.5,
@@ -196,19 +196,19 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	Rate = 4000,
 	Sensors = {
 		OPTIC = { "long-range naval optics", "long-range naval LLTV", "long-range naval FLIR" },
-		RADAR = { "Patriot str" }
+		RADAR = { "ticonderoga search radar", "Patriot str" }
 	},
 	Singleton = "yes",
 	Tail_Width = 5.2,
-	ThreatRange = 140000,
+	ThreatRange = 100000,
 	WS = { {
 			LN = { {
 					ECM_K = 0.65,
 					beamWidth = 1.5707963267949,
-					distanceMax = 180000,
+					distanceMax = 150000,
 					distanceMin = 400,
 					frequencyRange = { 500000000, 580000000 },
-					max_number_of_missiles_channels = 1,
+					max_number_of_missiles_channels = 3,
 					max_trg_alt = 25000,
 					min_trg_alt = 5,
 					reactionTime = 2.5,
@@ -217,7 +217,6 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 				} },
 			angles = { { 3.1415926535898, 1.5707963267949, -0.17453292519943, 1.3962634015955 } },
 			area = "DMG-C-REAR-MAST",
-			center = "CENTER_RADAR_01",
 			omegaY = 1,
 			omegaZ = 1,
 			pidY = {
@@ -237,9 +236,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			LN = { {
 					frequencyRange = {}
 				} },
-			angles = { { 1.5707963267949, -2.9670597283904 } },
+			angles = { { 2.9670597283904, -2.9670597283904 } },
 			area = "DMG-C-MAST-FORE-UPPER",
-			center = "CENTER_RADAR_02",
 			pidY = {},
 			pidZ = {},
 			reference_angle_Y = 1.5707963267949
@@ -295,9 +293,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 						}, {
 							shell_name = {}
 						} },
-					fireAnimationArgument = 120,
 					sensor = {}
-				}, {} },
+				} },
 			angles = { { 3.1415926535898, 0.34906585039887, 0, 1.4835298641952 }, { 0.34906585039887, -0.34906585039887, 1.0471975511966, 1.4835298641952 }, { -0.34906585039887, -3.1415926535898, 0, 1.4835298641952 } },
 			center = "CENTER_TOWER_05",
 			drawArgument1 = 46,
@@ -401,19 +398,18 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			canSetTacticalDir = true,
 			center = "POINT_ROCKET_03"
 		},
-		maxTargetDetectionRange = 450000,
-		radar_type = 102,
-		searchRadarFrequencies = { { 50000000, 54000000 }, { 2000000000, 2200000000 } },
-		searchRadarMaxElevation = 1.0471975511966
+		maxTargetDetectionRange = 25000,
+		radar_type = 109,
+		searchRadarMaxElevation = 1.221730476396
 	},
 	Waypoint_Custom_Panel = true,
 	Width = 13,
 	X_nose = 56.851,
 	X_tail = -56.857,
-	_file = "./CoreMods/tech/SouthAtlanticAssets/Entries/Navy/leander-gun-condell.lua",
+	_file = "./CoreMods/tech/SouthAtlanticAssets/Entries/Navy/condell.lua",
 	_origin = "South_Atlantic_Assets",
-	airFindDist = 180000,
-	airWeaponDist = 140000,
+	airFindDist = 150000,
+	airWeaponDist = 100000,
 	animation_arguments = {
 		flight_deck_fences = 88,
 		nav_lights = 69,
@@ -430,7 +426,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	},
 	attribute = { 3, 12, 14, "Redacted", "Frigates", "RADAR_BAND1_FOR_ARM", "DetectionByAWACS", "Armed Ship", "HelicopterCarrier", "Naval", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
 	chassis = {},
-	distFindObstacles = 10000,
+	distFindObstacles = 350.6,
+	draft = 7,
 	economy_distance = 4200000,
 	economy_velocity = 7.2,
 	enablePlayerCanDrive = false,

@@ -1,7 +1,10 @@
 _G["weapons_table"]["weapons"]["bombs"]["SAMP125LD"] = {
+	I = 19.76836,
+	L = 1.406,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
 	_origin = "AircraftWeaponPack",
 	_unique_resource_name = "weapons.bombs.SAMP125LD",
+	caliber = 0.198,
 	client = {
 		Ag = -5,
 		VyHold = -50,
@@ -59,6 +62,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP125LD"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
+	cx = { 1, 0.32, 0.71, 0.15, 1.28 },
 	display_name = "SAMP-125 LD",
 	mass = 120,
 	model = "SAMP_125",

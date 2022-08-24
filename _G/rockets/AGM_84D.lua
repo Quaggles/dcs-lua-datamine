@@ -187,6 +187,7 @@ _G["rockets"]["#Index"] = {
 		sens_near_dist = 10,
 		sens_ref_dist = 40000,
 		sens_ref_rcs = 10000,
+		ship_l_error_k = 0.33,
 		ship_track_by_default = 1
 	},
 	shape_table_data = { {

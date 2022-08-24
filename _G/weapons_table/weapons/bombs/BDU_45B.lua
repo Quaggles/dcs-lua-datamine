@@ -1,7 +1,10 @@
 _G["weapons_table"]["weapons"]["bombs"]["BDU_45B"] = {
+	I = 94.42593,
+	L = 2.21,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
 	_origin = "AircraftWeaponPack",
 	_unique_resource_name = "weapons.bombs.BDU_45B",
+	caliber = 0.273,
 	client = {
 		Ag = -1.23,
 		Cx = 0.00035,
@@ -70,6 +73,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_45B"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
+	cx = { 1, 0.29, 0.71, 0.14, 1.28 },
 	display_name = "BDU-45B",
 	mass = 232,
 	model = "BDU_45B",

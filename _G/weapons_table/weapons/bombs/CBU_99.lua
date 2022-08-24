@@ -1,8 +1,11 @@
 _G["weapons_table"]["weapons"]["bombs"]["CBU_99"] = {
+	I = 101.2986,
+	L = 2.34,
 	Reflection = 0.03,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/cluster_bombs.lua",
 	_origin = "AircraftWeaponPack",
 	_unique_resource_name = "weapons.bombs.CBU_99",
+	caliber = 0.335,
 	client = {
 		Ag = -1.23,
 		Cx = 0.000413,
@@ -146,6 +149,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_99"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 	},
+	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "CBU-99 - 490lbs, 247 x HEAT Bomblets",
 	mass = 222,
 	model = "CBU_99",

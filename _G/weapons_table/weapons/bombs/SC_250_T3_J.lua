@@ -1,8 +1,11 @@
 _G["weapons_table"]["weapons"]["bombs"]["SC_250_T3_J"] = {
+	I = 43.077867,
+	L = 1.64,
 	Reflection = 0.02,
 	_file = "./CoreMods/WWII Units/Weapons/Weapons.lua",
 	_origin = "World War II AI Units by Eagle Dynamics",
 	_unique_resource_name = "weapons.bombs.SC_250_T3_J",
+	caliber = 0.368,
 	client = {
 		Ag = -1.23,
 		Cx = 0.00118,
@@ -71,6 +74,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SC_250_T3_J"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
+	cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 	display_name = "SC 250 Type 3 J",
 	mass = 250,
 	model = "SC-250",

@@ -1,7 +1,10 @@
 _G["weapons_table"]["weapons"]["bombs"]["ODAB-500PM"] = {
+	I = 225.46164,
+	L = 2.281,
 	_file = "./CoreMods/aircraft/MiG-21BIS/Entry/Aw",
 	_origin = "MiG-21Bis AI by Magnitude 3 LLC",
 	_unique_resource_name = "weapons.bombs.ODAB-500PM",
+	caliber = 0.5,
 	client = {
 		Ag = -1.23,
 		Cx = 0.00137,
@@ -66,6 +69,7 @@ _G["weapons_table"]["weapons"]["bombs"]["ODAB-500PM"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
+	cx = { 0.1, 0.39, 0.6, 0.768, 1.31 },
 	display_name = "ODAB-500PM - 525 kg, bomb, parachute, simulated aerosol",
 	mass = 520,
 	model = "ODAB-500PM",

@@ -1,8 +1,11 @@
 _G["weapons_table"]["weapons"]["bombs"]["British_GP_500LB_Bomb_Mk4_Short"] = {
+	I = 34.508385733333,
+	L = 1.412,
 	Reflection = 0.03,
 	_file = "./CoreMods/WWII Units/Weapons/Weapons.lua",
 	_origin = "World War II AI Units by Eagle Dynamics",
 	_unique_resource_name = "weapons.bombs.British_GP_500LB_Bomb_Mk4_Short",
+	caliber = 0.328,
 	client = {
 		Ag = -1.23,
 		Cx = 0.00133,
@@ -72,6 +75,7 @@ _G["weapons_table"]["weapons"]["bombs"]["British_GP_500LB_Bomb_Mk4_Short"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
+	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "500 lb GP Short tail",
 	mass = 207.7,
 	model = "500_lb_gp_st_type",

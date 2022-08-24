@@ -1,7 +1,10 @@
 _G["weapons_table"]["weapons"]["bombs"]["FAB-500TA"] = {
+	I = 233.7548,
+	L = 2.425,
 	_file = "./CoreMods/aircraft/MiG-21BIS/Entry/Aw",
 	_origin = "MiG-21Bis AI by Magnitude 3 LLC",
 	_unique_resource_name = "weapons.bombs.FAB-500TA",
+	caliber = 0.4,
 	client = {
 		Ag = -1.23,
 		Cx = 0.00133,
@@ -62,6 +65,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB-500TA"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
+	cx = { 0.1, 0.39, 0.6, 0.768, 1.31 },
 	display_name = "FAB-500 TA - 477 kg, bomb, free-fall",
 	mass = 477,
 	model = "fab-500-ta",

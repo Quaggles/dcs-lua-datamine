@@ -3307,6 +3307,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			OldID = "Escort",
 			WorldID = 18
 		}, {
+			Name = "Intercept",
+			OldID = "Intercept",
+			WorldID = 10
+		}, {
 			Name = "Fighter Sweep",
 			OldID = "Fighter Sweep",
 			WorldID = 19

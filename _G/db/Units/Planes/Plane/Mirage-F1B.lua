@@ -346,12 +346,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[23] = {
 			args = { 223 },
 			critical_damage = 3,
-			deps_cells = { 27, 308, 309, 310 }
+			deps_cells = { 27, 86 }
 		},
 		[24] = {
 			args = { 213 },
 			critical_damage = 3,
-			deps_cells = { 28, 312, 313, 314 }
+			deps_cells = { 28, 87 }
 		},
 		[25] = {
 			args = { 226 },
@@ -372,12 +372,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[29] = {
 			args = { 224 },
 			critical_damage = 5,
-			deps_cells = { 25, 21, 33, 37, 86, 308, 309, 310 }
+			deps_cells = { 25, 21, 33, 37, 86 }
 		},
 		[30] = {
 			args = { 214 },
 			critical_damage = 5,
-			deps_cells = { 26, 22, 34, 38, 87, 312, 313, 314 }
+			deps_cells = { 26, 22, 34, 38, 87 }
 		},
 		[31] = {
 			args = { 219 },
@@ -398,12 +398,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[35] = {
 			args = { 225 },
 			critical_damage = 7,
-			deps_cells = { 25, 21, 33, 37, 31, 27, 86, 308, 309, 310 }
+			deps_cells = { 25, 21, 33, 37, 31, 27, 86 }
 		},
 		[36] = {
 			args = { 215 },
 			critical_damage = 7,
-			deps_cells = { 26, 22, 34, 38, 32, 25, 87312, 313, 314 }
+			deps_cells = { 26, 22, 34, 38, 32, 25, 87 }
 		},
 		[37] = {
 			args = { 227 },
@@ -528,11 +528,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[86] = {
 			args = { 308, 309, 310 },
-			critical_damage = 4
+			critical_damage = 7
 		},
 		[87] = {
 			args = { 312, 313, 314 },
-			critical_damage = 4
+			critical_damage = 7
 		},
 		[90] = {
 			args = { 400 },
@@ -1313,10 +1313,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 6
 						} }
 				}, {
-					CLSID = "{B{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}}",
+					CLSID = "{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}",
 					arg_value = 0.25,
 					required = { {
-							loadout = { "{B{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}}" },
+							loadout = { "{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}" },
 							station = 6
 						} }
 				}, {
@@ -1543,10 +1543,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 5
 						} }
 				}, {
-					CLSID = "{B{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}}",
+					CLSID = "{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}",
 					arg_value = 0.15,
 					required = { {
-							loadout = { "{B{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}}" },
+							loadout = { "{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}" },
 							station = 5
 						} }
 				}, {
@@ -1827,7 +1827,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
 					arg_value = 0.15
 				}, {
-					CLSID = "{B{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}}",
+					CLSID = "{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}",
 					arg_value = 0.15
 				}, {
 					CLSID = "{51F9AAE5-964F-4D21-83FB-502E3BFE5F8A}",
@@ -1934,10 +1934,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						} }
 				}, {
-					CLSID = "{B{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}}",
+					CLSID = "{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}",
 					arg_value = 0.15,
 					required = { {
-							loadout = { "{B{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}}" },
+							loadout = { "{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}" },
 							station = 3
 						} }
 				}, {
@@ -2222,10 +2222,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 2
 						} }
 				}, {
-					CLSID = "{B{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}}",
+					CLSID = "{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}",
 					arg_value = 0.25,
 					required = { {
-							loadout = { "{B{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}}" },
+							loadout = { "{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}" },
 							station = 2
 						} }
 				}, {
@@ -2488,10 +2488,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			cefor = 2.56,
 			cemax = 1.24,
 			dcx_eng = 0.0085,
-			dpdh_f = 11800,
-			dpdh_m = 4100,
+			dpdh_f = 6600,
+			dpdh_m = 3270,
 			hMaxEng = 19.5,
-			table_data = { { 0, 47700, 68300 }, { 0.2, 47700, 68300 }, { 0.3, 38160, 54640 }, { 0.4, 38000, 54000 }, { 0.6, 38160, 54640 }, { 0.7, 39000, 55000 }, { 0.8, 45000, 85000 }, { 0.9, 55000, 95000 }, { 1, 83000, 118000 }, { 1.1, 83000, 118000 }, { 1.2, 83000, 118000 }, { 1.3, 83000, 118000 }, { 1.5, 83000, 118000 }, { 1.8, 83000, 118000 }, { 2, 83000, 118000 }, { 2.2, 90000, 130000 }, { 2.5, 47700, 68300 }, { 3, 47700, 68300 } },
+			table_data = { { 0, 49000, 70600 }, { 0.2, 45700, 67700 }, { 0.3, 44900, 68700 }, { 0.4, 44800, 69700 }, { 0.6, 46000, 74600 }, { 0.7, 47000, 78500 }, { 0.8, 48600, 82400 }, { 0.9, 50000, 87500 }, { 1, 51500, 93200 }, { 1.1, 53000, 98100 }, { 1.2, 54500, 104000 }, { 1.3, 56500, 109900 }, { 1.5, 59000, 121600 }, { 1.8, 70000, 144000 }, { 2, 70000, 155800 }, { 2.2, 90000, 167530 }, { 2.5, 47700, 162000 }, { 3, 20000, 40000 } },
 			type = "TurboJet",
 			typeng = 1
 		}
@@ -2725,17 +2725,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	nose_gear_pos = { 2.871, -2.13, 0 },
 	nose_gear_wheel_diameter = 0.346,
 	passivCounterm = {
-		CMDS_Edit = false,
-		SingleChargeTotal = 0,
+		CMDS_Edit = true,
+		SingleChargeTotal = 60,
 		chaff = {
-			chargeSz = 0,
-			default = 0,
-			increment = 0
+			chargeSz = 1,
+			default = 30,
+			increment = 30
 		},
 		flare = {
-			chargeSz = 0,
-			default = 0,
-			increment = 0
+			chargeSz = 2,
+			default = 15,
+			increment = 15
 		}
 	},
 	radar_can_see_ground = true,

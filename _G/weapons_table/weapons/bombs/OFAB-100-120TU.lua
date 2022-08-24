@@ -1,7 +1,10 @@
 _G["weapons_table"]["weapons"]["bombs"]["OFAB-100-120TU"] = {
+	I = 15.1313,
+	L = 1.215,
 	_file = "./CoreMods/aircraft/MiG-21BIS/Entry/Aw",
 	_origin = "MiG-21Bis AI by Magnitude 3 LLC",
 	_unique_resource_name = "weapons.bombs.OFAB-100-120TU",
+	caliber = 0.273,
 	client = {
 		Ag = -1.23,
 		Cx = 0.00035,
@@ -67,6 +70,7 @@ _G["weapons_table"]["weapons"]["bombs"]["OFAB-100-120TU"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
+	cx = { 0.1, 0.39, 0.58, 0.636, 1.31 },
 	display_name = "OFAB 100-120 TU - 123 kg, bomb, parachute",
 	mass = 123,
 	model = "ofab-100-120",

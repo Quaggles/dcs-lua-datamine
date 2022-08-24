@@ -1,6 +1,9 @@
 _G["weapons_table"]["weapons"]["bombs"]["Mk_84"] = {
+	I = 864.446267,
+	L = 2.5,
 	Reflection = 0.04,
 	_unique_resource_name = "weapons.bombs.Mk_84",
+	caliber = 0.457,
 	client = {
 		Reflection = 0.04,
 		arming_delay = {
@@ -38,6 +41,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_84"] = {
 			piercing_mass = 68
 		}
 	},
+	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "Mk-84",
 	mass = 908,
 	model = "mk-84",

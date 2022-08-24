@@ -1,7 +1,10 @@
 _G["weapons_table"]["weapons"]["bombs"]["FAB-500M54"] = {
+	I = 88.875,
+	L = 1.5,
 	_file = "./CoreMods/aircraft/MiG-21BIS/Entry/Aw",
 	_origin = "MiG-21Bis AI by Magnitude 3 LLC",
 	_unique_resource_name = "weapons.bombs.FAB-500M54",
+	caliber = 0.45,
 	client = {
 		Ag = -1.23,
 		Cx = 0.00205,
@@ -62,6 +65,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB-500M54"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
+	cx = { 0.1, 0.39, 0.6, 0.768, 1.31 },
 	display_name = "FAB-500 M54 - 474 kg, bomb, free-fall",
 	mass = 474,
 	model = "fab-500-m54",

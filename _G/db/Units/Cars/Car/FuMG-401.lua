@@ -1,4 +1,5 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
+	AuthoritySector = { 0.34906585039887, -0.34906585039887 },
 	Countries = { "Germany", "Third Reich", "Japan", "Italian Social Republic", "Finland", "Hungary", "Romania", "Bulgaria" },
 	CustomAimPoint = { 0, 1.5, 0 },
 	DetectionRange = 160000,

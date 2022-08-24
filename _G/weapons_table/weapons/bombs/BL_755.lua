@@ -1,6 +1,9 @@
 _G["weapons_table"]["weapons"]["bombs"]["BL_755"] = {
+	I = 138.557708,
+	L = 2.45,
 	Reflection = 0.03,
 	_unique_resource_name = "weapons.bombs.BL_755",
+	caliber = 0.41,
 	client = {
 		Reflection = 0.03,
 		arming_delay = {
@@ -102,6 +105,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BL_755"] = {
 		},
 		scheme = "schemes/bombs/bomb-cassette.sch"
 	},
+	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "BL755",
 	mass = 277,
 	model = "t-bl-755",

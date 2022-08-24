@@ -1,6 +1,9 @@
 _G["weapons_table"]["weapons"]["bombs"]["FAB_1500"] = {
+	I = 880.04,
+	L = 2.8,
 	Reflection = 0.04,
 	_unique_resource_name = "weapons.bombs.FAB_1500",
+	caliber = 0.622,
 	client = {
 		Reflection = 0.04,
 		arming_delay = {
@@ -37,6 +40,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB_1500"] = {
 			piercing_mass = 112
 		}
 	},
+	cx = { 1, 0.4, 0.37, 0.288, 1.31 },
 	display_name = "FAB-1500 M-54",
 	mass = 1347,
 	model = "fab-1500",

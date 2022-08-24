@@ -9,7 +9,7 @@ _G["launcher"]["DIS_mk46torp"] = {
 	Weight = 231,
 	_file = "./CoreMods/tech/SouthAtlanticAssets/Entries/Weapons.lua",
 	_origin = "South_Atlantic_Assets",
-	attribute = { 4, 8, 10, "Redacted" },
+	attribute = { 4, 8, 11, "Redacted" },
 	category = 11,
 	displayName = "MK46 Torpedo"
 }

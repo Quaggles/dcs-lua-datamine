@@ -1,6 +1,9 @@
 _G["weapons_table"]["weapons"]["bombs"]["Durandal"] = {
+	I = 113.24,
+	L = 2.491,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
 	_origin = "AircraftWeaponPack",
+	caliber = 0.212,
 	client = {
 		Ag = -20,
 		Cx = 0.0006,
@@ -85,6 +88,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Durandal"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 37, "Redacted" }
 	},
+	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "BLU-107/B Durandal",
 	mass = 219,
 	model = "Durandal",

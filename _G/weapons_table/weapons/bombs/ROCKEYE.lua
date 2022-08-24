@@ -1,6 +1,9 @@
 _G["weapons_table"]["weapons"]["bombs"]["ROCKEYE"] = {
+	I = 101.2986,
+	L = 2.34,
 	Reflection = 0.03,
 	_unique_resource_name = "weapons.bombs.ROCKEYE",
+	caliber = 0.335,
 	client = {
 		Reflection = 0.03,
 		arming_delay = {
@@ -103,6 +106,7 @@ _G["weapons_table"]["weapons"]["bombs"]["ROCKEYE"] = {
 		},
 		scheme = "schemes/bombs/bomb-cassette-2.sch"
 	},
+	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "Mk-20 Rockeye",
 	mass = 222,
 	model = "rockeye",

@@ -1,8 +1,11 @@
 _G["weapons_table"]["weapons"]["bombs"]["KAB_1500LG"] = {
+	I = 2327.9633333333,
+	L = 4.28,
 	Reflection = 0.08,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/KABs.lua",
 	_origin = "AircraftWeaponPack",
 	_unique_resource_name = "weapons.bombs.KAB_1500LG",
+	caliber = 0.58,
 	client = {
 		Ag = -1,
 		Cx = 0.00133,
@@ -81,6 +84,7 @@ _G["weapons_table"]["weapons"]["bombs"]["KAB_1500LG"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 36, "Redacted" }
 	},
+	cx = { 1, 0.4, 0.37, 0.288, 1.31 },
 	display_name = "KAB-1500LG-Pr",
 	mass = 1525,
 	model = "kab-1500lg",

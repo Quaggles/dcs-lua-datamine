@@ -120,7 +120,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_84E"] = {
 		ins = {
 			aim_sigma = 350,
 			check_AI = 1,
-			error_coeff = 0.05
+			error_coeff = 0.03
 		},
 		march = {
 			custom_smoke_dissipation_factor = 0.2,
@@ -321,7 +321,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_84E"] = {
 		ins = {
 			aim_sigma = 350,
 			check_AI = 1,
-			error_coeff = 0.05
+			error_coeff = 0.03
 		},
 		march = {
 			custom_smoke_dissipation_factor = 0.2,

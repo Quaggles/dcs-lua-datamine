@@ -11,7 +11,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			defValue = 90,
 			dimension = "%",
 			id = "LeftEngineResource",
-			label = "Remaining srvc. life (left engine)",
+			label = "Remaining srvc. life (lh engine)",
 			max = 100,
 			min = 40,
 			playerOnly = true
@@ -20,7 +20,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			defValue = 90,
 			dimension = "%",
 			id = "RightEngineResource",
-			label = "Remaining srvc. life (right engine)",
+			label = "Remaining srvc. life (rh engine)",
 			max = 100,
 			min = 40,
 			playerOnly = true
@@ -3621,6 +3621,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			LocalPoint = { -5.7, 1.4, -3 }
 		},
 		Cockpit = { {
+				Allow360rotation = false,
 				CameraAngleLimits = { 140, -65, 90 },
 				CameraAngleRestriction = { false, 90, 0.4 },
 				CameraViewAngleLimits = { 20, 160 },
@@ -3633,6 +3634,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					z = { -0.65, 1 }
 				}
 			}, {
+				Allow360rotation = false,
 				CameraAngleLimits = { 140, -65, 90 },
 				CameraAngleRestriction = { false, 90, 0.4 },
 				CameraViewAngleLimits = { 20, 160 },
@@ -3645,6 +3647,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					z = { -0.4, 1 }
 				}
 			}, {
+				Allow360rotation = false,
 				CameraAngleLimits = { 140, -65, 90 },
 				CameraAngleRestriction = { false, 90, 0.4 },
 				CameraViewAngleLimits = { 20, 160 },
@@ -3657,14 +3660,15 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					z = { -0.4, 0.4 }
 				}
 			}, {
-				CameraAngleLimits = { 140, -65, 90 },
-				CameraAngleRestriction = { false, 90, 0.4 },
+				Allow360rotation = false,
+				CameraAngleLimits = { 90, -45, 60 },
+				CameraAngleRestriction = { false, 60, 0.4 },
 				CameraViewAngleLimits = { 20, 135 },
 				CockpitLocalPoint = { 4.35, -0.11, -1.1 },
 				CockpitLocalPointAzimuth = 90,
 				EyePoint = { 0.09, 0, 0 },
 				limits_6DOF = {
-					roll = 90,
+					roll = 45,
 					x = { -1.8, 0.2 },
 					y = { -0.6, 0.5 },
 					z = { -1.1, 0.25 }

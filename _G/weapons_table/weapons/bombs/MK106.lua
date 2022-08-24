@@ -1,7 +1,10 @@
 _G["weapons_table"]["weapons"]["bombs"]["MK106"] = {
+	I = 94.425933,
+	L = 0.575,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
 	_origin = "AircraftWeaponPack",
 	_unique_resource_name = "weapons.bombs.MK106",
+	caliber = 0.1,
 	client = {
 		Ag = -1.23,
 		Cx = 0.00015,
@@ -67,6 +70,7 @@ _G["weapons_table"]["weapons"]["bombs"]["MK106"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
+	cx = { 1, 0.82, 0.65, 0.142, 2.11 },
 	display_name = "Mk 106",
 	mass = 2.27,
 	model = "MK106",

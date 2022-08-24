@@ -1,5 +1,8 @@
 _G["weapons_table"]["weapons"]["bombs"]["LUU_2B"] = {
+	I = 0.93851333333333,
+	L = 0.91,
 	_unique_resource_name = "weapons.bombs.LUU_2B",
+	caliber = 0.124,
 	client = {
 		anim_constraints = {
 			lead_chute_min_arg_val = 0,
@@ -49,6 +52,7 @@ _G["weapons_table"]["weapons"]["bombs"]["LUU_2B"] = {
 		},
 		scheme = "schemes/bombs/bomb-light-2.sch"
 	},
+	cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 	display_name = "LUU-2B",
 	mass = 13.6,
 	model = "luu-2",

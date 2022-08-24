@@ -1,8 +1,11 @@
 _G["weapons_table"]["weapons"]["bombs"]["AN_M57"] = {
+	I = 13.878245666667,
+	L = 1.214,
 	Reflection = 0.025,
 	_file = "./CoreMods/WWII Units/Weapons/Weapons.lua",
 	_origin = "World War II AI Units by Eagle Dynamics",
 	_unique_resource_name = "weapons.bombs.AN_M57",
+	caliber = 0.277,
 	client = {
 		Ag = -1.23,
 		Cx = 0.00035,
@@ -68,6 +71,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M57"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
+	cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 	display_name = "AN-M57",
 	mass = 113,
 	model = "AN-M57",

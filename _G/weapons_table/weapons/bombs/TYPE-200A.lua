@@ -1,8 +1,11 @@
 _G["weapons_table"]["weapons"]["bombs"]["TYPE-200A"] = {
+	I = 220.833333,
+	L = 2.5,
 	Reflection = 0.01,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/bomb_type200.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	_unique_resource_name = "weapons.bombs.TYPE-200A",
+	caliber = 0.223,
 	client = {
 		Ag = -20,
 		Cx = 0.00018,
@@ -89,6 +92,7 @@ _G["weapons_table"]["weapons"]["bombs"]["TYPE-200A"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 37, "Redacted" }
 	},
+	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "TYPE-200A",
 	mass = 200,
 	model = "type-200a",

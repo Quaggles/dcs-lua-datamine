@@ -1,7 +1,10 @@
 _G["weapons_table"]["weapons"]["bombs"]["Mk_83CT"] = {
+	I = 340.5,
+	L = 3,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
 	_origin = "AircraftWeaponPack",
 	_unique_resource_name = "weapons.bombs.Mk_83CT",
+	caliber = 0.356,
 	client = {
 		Ag = -1.23,
 		Cx = 0.00035,
@@ -69,6 +72,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_83CT"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
+	cx = { 1, 0.29, 0.71, 0.14, 1.28 },
 	display_name = "Mk-83CT",
 	mass = 454,
 	model = "mk-82air",

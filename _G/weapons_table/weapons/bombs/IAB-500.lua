@@ -1,7 +1,10 @@
 _G["weapons_table"]["weapons"]["bombs"]["IAB-500"] = {
+	I = 443.4929,
+	L = 3.365,
 	_file = "./CoreMods/aircraft/MiG-21BIS/Entry/Aw",
 	_origin = "MiG-21Bis AI by Magnitude 3 LLC",
 	_unique_resource_name = "weapons.bombs.IAB-500",
+	caliber = 0.58,
 	client = {
 		Ag = -1.23,
 		Cx = 0.00124,
@@ -62,6 +65,7 @@ _G["weapons_table"]["weapons"]["bombs"]["IAB-500"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
+	cx = { 0.1, 0.39, 0.6, 0.768, 1.31 },
 	display_name = "IAB-500 - 470 kg, bomb, free fall",
 	mass = 470,
 	model = "IAB-500",

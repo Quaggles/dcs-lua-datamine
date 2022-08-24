@@ -72,7 +72,7 @@ _G["rockets"]["#Index"] = {
 		nozzle_orientationXYZ = { { 0, 0, 0 } },
 		nozzle_position = { { -1.74, -0.11, 0 } },
 		smoke_color = { 0.9, 0.9, 0.9 },
-		smoke_transparency = 0.1,
+		smoke_transparency = 0.5,
 		tail_width = 0.4,
 		work_time = 6
 	},
@@ -83,7 +83,7 @@ _G["rockets"]["#Index"] = {
 		march_start = 1
 	},
 	display_name = "LD-10",
-	exhaust = { 1, 1, 1, 0.5 },
+	exhaust = { 1, 1, 1, 0.8 },
 	fm = {
 		A1trim = { 4, 6, 10, 15 },
 		A2trim = { 4, 6, 10, 15 },
@@ -126,7 +126,7 @@ _G["rockets"]["#Index"] = {
 		nozzle_orientationXYZ = { { 0, 0, 0 } },
 		nozzle_position = { { -1.74, -0.11, 0 } },
 		smoke_color = { 0.6, 0.6, 0.6 },
-		smoke_transparency = 0.8,
+		smoke_transparency = 0.5,
 		tail_width = 0.3,
 		work_time = 4
 	},

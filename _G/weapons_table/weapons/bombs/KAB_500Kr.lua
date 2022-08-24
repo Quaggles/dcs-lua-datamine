@@ -1,6 +1,9 @@
 _G["weapons_table"]["weapons"]["bombs"]["KAB_500Kr"] = {
+	I = 387.60416666667,
+	L = 3.05,
 	Reflection = 0.03,
 	_unique_resource_name = "weapons.bombs.KAB_500Kr",
+	caliber = 0.35,
 	client = {
 		Reflection = 0.03,
 		arming_delay = {
@@ -48,6 +51,7 @@ _G["weapons_table"]["weapons"]["bombs"]["KAB_500Kr"] = {
 			piercing_mass = 30.4
 		}
 	},
+	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "KAB-500Kr",
 	mass = 500,
 	model = "kab-500t",

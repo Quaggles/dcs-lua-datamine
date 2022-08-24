@@ -1,7 +1,10 @@
 _G["weapons_table"]["weapons"]["bombs"]["BKF_AO2_5RT"] = {
+	I = 0.88115033333333,
+	L = 0.373,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/cluster_bombs.lua",
 	_origin = "AircraftWeaponPack",
 	_unique_resource_name = "weapons.bombs.BKF_AO2_5RT",
+	caliber = 0.346,
 	client = {
 		Ag = -1.23,
 		Cx = 0.000413,
@@ -242,6 +245,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BKF_AO2_5RT"] = {
 		user_name = "BKF - 12 x AO-2.5RT",
 		wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 	},
+	cx = { 0, 0.9, 0.9, 1, 2 },
 	display_name = "BKF - 12 x AO-2.5RT",
 	mass = 76,
 	model = "ao-2_5rt_block2",

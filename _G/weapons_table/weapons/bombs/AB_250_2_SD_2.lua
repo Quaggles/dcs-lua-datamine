@@ -1,8 +1,11 @@
 _G["weapons_table"]["weapons"]["bombs"]["AB_250_2_SD_2"] = {
+	I = 125,
+	L = 1.73,
 	Reflection = 0.03,
 	_file = "./CoreMods/WWII Units/Weapons/Weapons.lua",
 	_origin = "World War II AI Units by Eagle Dynamics",
 	_unique_resource_name = "weapons.bombs.AB_250_2_SD_2",
+	caliber = 0.4,
 	client = {
 		Ag = -1.23,
 		Cx = 0.000413,
@@ -220,6 +223,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AB_250_2_SD_2"] = {
 		user_name = "AB 250-2 SD-2",
 		wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 	},
+	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "AB 250-2 SD-2",
 	mass = 280,
 	model = "AB-250_dropping",

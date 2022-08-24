@@ -1,7 +1,10 @@
 _G["weapons_table"]["weapons"]["bombs"]["HEBOMBD"] = {
+	I = 94.425933,
+	L = 2.21,
 	_file = "./CoreMods/aircraft/AJS37/Entry/Weapons.lua",
 	_origin = "AJS37 AI by Heatblur Simulations",
 	_unique_resource_name = "weapons.bombs.HEBOMBD",
+	caliber = 0.428,
 	client = {
 		Ag = -1.23,
 		Cx = 0.00018,
@@ -68,6 +71,7 @@ _G["weapons_table"]["weapons"]["bombs"]["HEBOMBD"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
+	cx = { 1, 0.29, 0.71, 0.14, 1.28 },
 	display_name = "M/71 HE-Bomb w chute",
 	mass = 121,
 	model = "SB71HD",

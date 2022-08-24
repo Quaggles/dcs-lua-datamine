@@ -1,6 +1,9 @@
 _G["weapons_table"]["weapons"]["bombs"]["RBK_250"] = {
+	I = 107.827833,
+	L = 2.3,
 	Reflection = 0.02,
 	_unique_resource_name = "weapons.bombs.RBK_250",
+	caliber = 0.325,
 	client = {
 		Reflection = 0.02,
 		arming_delay = {
@@ -190,6 +193,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_250"] = {
 		},
 		scheme = "schemes/bombs/bomb-cassette.sch"
 	},
+	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "RBK-250 PTAB-2.5M",
 	mass = 244.6,
 	model = "RBK_250_PTAB_25M_cassette",

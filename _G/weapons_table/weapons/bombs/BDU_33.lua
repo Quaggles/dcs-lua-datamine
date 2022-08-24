@@ -1,5 +1,8 @@
 _G["weapons_table"]["weapons"]["bombs"]["BDU_33"] = {
+	I = 94.425933,
+	L = 0.575,
 	_unique_resource_name = "weapons.bombs.BDU_33",
+	caliber = 0.1,
 	client = {
 		arming_delay = {
 			delay_time = 0.8,
@@ -31,6 +34,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_33"] = {
 			transparency = 0.8
 		}
 	},
+	cx = { 1, 0.82, 0.65, 0.142, 2.11 },
 	display_name = "BDU-33",
 	mass = 11.3,
 	model = "BDU-33",

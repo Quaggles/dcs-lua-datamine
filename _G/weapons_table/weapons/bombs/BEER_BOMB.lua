@@ -1,7 +1,10 @@
 _G["weapons_table"]["weapons"]["bombs"]["BEER_BOMB"] = {
+	I = 3.796875,
+	L = 0.675,
 	_file = "./CoreMods/WWII Units/Weapons/Weapons.lua",
 	_origin = "World War II AI Units by Eagle Dynamics",
 	_unique_resource_name = "weapons.bombs.BEER_BOMB",
+	caliber = 0.516,
 	client = {
 		Ag = -1.23,
 		Cx = 0.00133,
@@ -62,6 +65,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BEER_BOMB"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
+	cx = { 1, 0.9, 0.6, 0.6, 1.2 },
 	display_name = '"Beer Bomb"',
 	mass = 100,
 	model = "beer_bomb",

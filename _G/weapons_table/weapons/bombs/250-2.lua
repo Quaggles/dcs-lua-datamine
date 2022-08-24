@@ -1,8 +1,11 @@
 _G["weapons_table"]["weapons"]["bombs"]["250-2"] = {
+	I = 43.077867,
+	L = 1.48,
 	Reflection = 0.02,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/bomb_misc.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	_unique_resource_name = "weapons.bombs.250-2",
+	caliber = 0.325,
 	client = {
 		Ag = -1.23,
 		Cx = 0.000999,
@@ -65,6 +68,7 @@ _G["weapons_table"]["weapons"]["bombs"]["250-2"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
+	cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 	display_name = "250-2 - 250kg GP Bombs HD",
 	mass = 250,
 	model = "250-2",

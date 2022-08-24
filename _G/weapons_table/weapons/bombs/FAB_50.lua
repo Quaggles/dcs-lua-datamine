@@ -1,7 +1,10 @@
 _G["weapons_table"]["weapons"]["bombs"]["FAB_50"] = {
+	I = 4.507,
+	L = 1.04,
 	_file = "./CoreMods/aircraft/MiG-15bis/MiG-15bis.lua",
 	_origin = "MiG-15bis AI by Eagle Dynamics",
 	_unique_resource_name = "weapons.bombs.FAB_50",
+	caliber = 0.2,
 	client = {
 		Ag = -1.23,
 		Cx = 0.00035,
@@ -62,6 +65,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB_50"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
+	cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 	display_name = "FAB-50 - 50kg GP Bomb LD",
 	mass = 50,
 	model = "fab50_40x",

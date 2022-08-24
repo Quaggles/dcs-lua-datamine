@@ -1141,6 +1141,10 @@ _G["db"]["Countries"]["#Index"] = {
 	Units = {
 		ADEquipments = {
 			ADEquipment = { {
+					Name = "Ski Ramp"
+				}, {
+					Name = "SA Ski Ramp"
+				}, {
 					Name = "AS32-p25"
 				}, {
 					Name = "AS32-31A"
@@ -1956,21 +1960,15 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "Beer Bomb"
 				}, {
+					Name = "Orca"
+				}, {
 					Name = "WindTurbine"
 				}, {
 					Name = "WindTurbine_11"
 				}, {
-					Name = "offshore WindTurbine"
-				}, {
-					Name = "offshore WindTurbine2"
-				}, {
-					Name = "Orca"
-				}, {
 					Name = "billboard_motorized"
 				}, {
 					Name = "Stanley_LightHouse"
-				}, {
-					Name = "Nodding_Donkey"
 				}, {
 					Name = "345 Excavator"
 				}, {
@@ -1978,7 +1976,15 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "Small_LightHouse"
 				}, {
-					Name = "Ski Ramp"
+					Name = "Nodding_Donkey_Pump"
+				}, {
+					Name = "offshore WindTurbine"
+				}, {
+					Name = "offshore WindTurbine2"
+				}, {
+					Name = "container_40ft"
+				}, {
+					Name = "container_20ft"
 				}, {
 					Name = "Concertina wire"
 				}, {

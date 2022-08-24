@@ -1,8 +1,11 @@
 _G["weapons_table"]["weapons"]["bombs"]["OFAB-100 Jupiter"] = {
+	I = 33.282267,
+	L = 1.05,
 	Reflection = 0.015,
 	_file = "./CoreMods/aircraft/L-39/L-39ZA.lua",
 	_origin = "L-39C/ZA by Eagle Dynamics",
 	_unique_resource_name = "weapons.bombs.OFAB-100 Jupiter",
+	caliber = 0.273,
 	client = {
 		Ag = -1.23,
 		Cx = 0.00018,
@@ -67,6 +70,7 @@ _G["weapons_table"]["weapons"]["bombs"]["OFAB-100 Jupiter"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
+	cx = { 1, 0.32, 0.71, 0.15, 1.28 },
 	display_name = "OFAB-100 Jupiter - 100kg GP Bomb HD",
 	mass = 121,
 	model = "ofab-100-110tu",

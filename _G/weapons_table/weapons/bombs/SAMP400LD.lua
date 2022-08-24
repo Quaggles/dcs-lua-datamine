@@ -1,7 +1,10 @@
 _G["weapons_table"]["weapons"]["bombs"]["SAMP400LD"] = {
+	I = 144.40908,
+	L = 2.194,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
 	_origin = "AircraftWeaponPack",
 	_unique_resource_name = "weapons.bombs.SAMP400LD",
+	caliber = 0.403,
 	client = {
 		Ag = -5,
 		VyHold = -50,
@@ -59,6 +62,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP400LD"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
+	cx = { 1, 0.29, 0.71, 0.13, 1.28 },
 	display_name = "SAMP-400 LD",
 	mass = 360,
 	model = "SAMP_400FB",

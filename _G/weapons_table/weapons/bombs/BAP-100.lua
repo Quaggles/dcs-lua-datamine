@@ -1,7 +1,10 @@
 _G["weapons_table"]["weapons"]["bombs"]["BAP-100"] = {
+	I = 8.58,
+	L = 1.78,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
 	_origin = "AircraftWeaponPack",
 	_unique_resource_name = "weapons.bombs.BAP-100",
+	caliber = 0.1,
 	client = {
 		Ag = -5,
 		Cx = 0.0006,
@@ -85,6 +88,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BAP-100"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 37, "Redacted" }
 	},
+	cx = { 1, 0.82, 0.65, 0.142, 2.11 },
 	display_name = "BAP-100",
 	mass = 32.5,
 	model = "BAP-100",

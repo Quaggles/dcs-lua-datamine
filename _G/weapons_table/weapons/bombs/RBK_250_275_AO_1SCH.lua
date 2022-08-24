@@ -1,8 +1,11 @@
 _G["weapons_table"]["weapons"]["bombs"]["RBK_250_275_AO_1SCH"] = {
+	I = 107.827833,
+	L = 2.3,
 	Reflection = 0.02,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/cluster_bombs.lua",
 	_origin = "AircraftWeaponPack",
 	_unique_resource_name = "weapons.bombs.RBK_250_275_AO_1SCH",
+	caliber = 0.325,
 	client = {
 		Ag = -1.23,
 		Cx = 0.001,
@@ -227,6 +230,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_250_275_AO_1SCH"] = {
 		user_name = "RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag",
 		wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 	},
+	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag",
 	mass = 273,
 	model = "rbk-250",

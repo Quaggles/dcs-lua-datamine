@@ -1,7 +1,10 @@
 _G["weapons_table"]["weapons"]["bombs"]["LYSBOMB_CANDLE"] = {
+	I = 88.875,
+	L = 50,
 	_file = "./CoreMods/aircraft/AJS37/Entry/Weapons.lua",
 	_origin = "AJS37 AI by Heatblur Simulations",
 	_unique_resource_name = "weapons.bombs.LYSBOMB_CANDLE",
+	caliber = 0.201,
 	client = {
 		Ag = -1.23,
 		Cx = 0.00205,
@@ -63,6 +66,7 @@ _G["weapons_table"]["weapons"]["bombs"]["LYSBOMB_CANDLE"] = {
 		user_name = "LYSBOMB_CANDLE whatever",
 		wsTypeOfWeapon = { 4, 5, 49, "Redacted" }
 	},
+	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "LYSBOMB_CANDLE whatever",
 	mass = 25,
 	model = "luu-2",

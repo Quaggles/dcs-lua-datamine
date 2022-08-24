@@ -1,7 +1,10 @@
 _G["weapons_table"]["weapons"]["bombs"]["FAB_100SV"] = {
+	I = 6.75,
+	L = 0.9,
 	_file = "./CoreMods/aircraft/I-16/entry.lua",
 	_origin = "I-16 AI by OctopusG",
 	_unique_resource_name = "weapons.bombs.FAB_100SV",
+	caliber = 0.3,
 	client = {
 		Ag = -1.23,
 		Cx = 0.00035,
@@ -63,6 +66,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB_100SV"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
+	cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 	display_name = "FAB-100SV",
 	mass = 100,
 	model = "i16_FAB-100SV",

@@ -1,5 +1,8 @@
 _G["weapons_table"]["weapons"]["bombs"]["S-8OM_LE"] = {
+	I = 6.75,
+	L = 0.9,
 	_unique_resource_name = "weapons.bombs.S-8OM_LE",
+	caliber = 0.3,
 	client = {
 		arming_delay = {
 			delay_time = 0.8,
@@ -36,6 +39,7 @@ _G["weapons_table"]["weapons"]["bombs"]["S-8OM_LE"] = {
 		},
 		scheme = "schemes/bombs/bomb-light.sch"
 	},
+	cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 	display_name = "S-8OM",
 	mass = 20,
 	model = "luu-2",

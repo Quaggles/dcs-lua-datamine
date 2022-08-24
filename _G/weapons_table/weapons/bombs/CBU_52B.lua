@@ -1,6 +1,9 @@
 _G["weapons_table"]["weapons"]["bombs"]["CBU_52B"] = {
+	I = 107.827833,
+	L = 2.3,
 	Reflection = 0.03,
 	_unique_resource_name = "weapons.bombs.CBU_52B",
+	caliber = 0.325,
 	client = {
 		Reflection = 0.03,
 		arming_delay = {
@@ -102,6 +105,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_52B"] = {
 		},
 		scheme = "schemes/bombs/bomb-cassette.sch"
 	},
+	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "CBU-52B",
 	mass = 244.6,
 	model = "cbu-24b",

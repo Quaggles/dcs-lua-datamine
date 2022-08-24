@@ -1,5 +1,8 @@
 _G["weapons_table"]["weapons"]["bombs"]["BDU_50HD"] = {
+	I = 94.42593,
+	L = 2.21,
 	_unique_resource_name = "weapons.bombs.BDU_50HD",
+	caliber = 0.273,
 	client = {
 		arming_delay = {
 			delay_time = 0.8,
@@ -40,6 +43,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_50HD"] = {
 			piercing_mass = 8e-06
 		}
 	},
+	cx = { 1, 0.29, 0.71, 0.14, 1.28 },
 	display_name = "BDU-50HD",
 	encyclopediaAnimation = {
 		args = {

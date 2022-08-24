@@ -1,7 +1,10 @@
 _G["weapons_table"]["weapons"]["bombs"]["AN_M66"] = {
+	I = 442.00294166667,
+	L = 2.33,
 	_file = "./CoreMods/WWII Units/Weapons/Weapons.lua",
 	_origin = "World War II AI Units by Eagle Dynamics",
 	_unique_resource_name = "weapons.bombs.AN_M66",
+	caliber = 0.585,
 	client = {
 		Ag = -1.23,
 		Cx = 0.0008,
@@ -66,6 +69,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M66"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
+	cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 	display_name = "AN-M66",
 	mass = 977,
 	model = "AN-M66",

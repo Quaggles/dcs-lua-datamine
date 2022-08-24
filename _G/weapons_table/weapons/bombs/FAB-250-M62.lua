@@ -1,7 +1,10 @@
 _G["weapons_table"]["weapons"]["bombs"]["FAB-250-M62"] = {
+	I = 70.03,
+	L = 1.924,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
 	_origin = "AircraftWeaponPack",
 	_unique_resource_name = "weapons.bombs.FAB-250-M62",
+	caliber = 0.3,
 	client = {
 		Ag = -5,
 		VyHold = -50,
@@ -58,6 +61,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB-250-M62"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
+	cx = { 1, 0.39, 0.8, 0.168, 1.31 },
 	display_name = "FAB-250-M62",
 	mass = 227,
 	model = "fab-250-m62",

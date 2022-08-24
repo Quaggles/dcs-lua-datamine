@@ -1,8 +1,11 @@
 _G["weapons_table"]["weapons"]["bombs"]["KAB_500S"] = {
+	I = 375,
+	L = 3,
 	Reflection = 0.03,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/KABs.lua",
 	_origin = "AircraftWeaponPack",
 	_unique_resource_name = "weapons.bombs.KAB_500S",
+	caliber = 0.4,
 	client = {
 		Ag = -1,
 		Cx = 0.00133,
@@ -97,6 +100,7 @@ _G["weapons_table"]["weapons"]["bombs"]["KAB_500S"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 36, "Redacted" }
 	},
+	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "KAB-500S",
 	mass = 500,
 	model = "kab-500s",

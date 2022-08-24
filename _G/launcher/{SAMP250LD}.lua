@@ -1,7 +1,7 @@
 _G["launcher"]["{SAMP250LD}"] = {
 	CLSID = "{SAMP250LD}",
 	Count = 1,
-	Cx_pil = 0.003,
+	Cx_pil = 0.00012,
 	Elements = { {
 			ShapeName = "SAMP_250FB"
 		} },

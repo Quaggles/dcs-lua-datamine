@@ -1,7 +1,7 @@
 _G["launcher"]["DIS_LS_6_500"] = {
 	CLSID = "DIS_LS_6_500",
 	Count = 1,
-	Cx_pil = 0.001,
+	Cx_pil = 0.0018,
 	Elements = { {
 			DrawArgs = { { 2, 1 } },
 			ShapeName = "ls-6"

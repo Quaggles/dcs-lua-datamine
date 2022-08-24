@@ -66,6 +66,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { {} },
+			canSetTacticalDir = false,
 			reference_angle_Z = 0.087266462599716
 		},
 		maxTargetDetectionRange = 450000,

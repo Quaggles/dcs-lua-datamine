@@ -1,5 +1,8 @@
 _G["weapons_table"]["weapons"]["bombs"]["M257_FLARE"] = {
+	I = 0.22816666666667,
+	L = 0.74,
 	_unique_resource_name = "weapons.bombs.M257_FLARE",
+	caliber = 0.07,
 	client = {
 		anim_constraints = {
 			lead_chute_min_arg_val = 0,
@@ -49,6 +52,7 @@ _G["weapons_table"]["weapons"]["bombs"]["M257_FLARE"] = {
 		},
 		scheme = "schemes/bombs/bomb-light-2.sch"
 	},
+	cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 	display_name = "M257",
 	mass = 5,
 	model = "Hydra_M257_Parashute",

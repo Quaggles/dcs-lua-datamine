@@ -1,7 +1,10 @@
 _G["weapons_table"]["weapons"]["bombs"]["BAT-120"] = {
+	I = 6.38,
+	L = 1.5,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
 	_origin = "AircraftWeaponPack",
 	_unique_resource_name = "weapons.bombs.BAT-120",
+	caliber = 0.12,
 	client = {
 		Ag = -5,
 		Cx = 0.0006,
@@ -67,6 +70,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BAT-120"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
+	cx = { 1, 0.82, 0.65, 0.142, 2.11 },
 	display_name = "BAT-120 ABL",
 	mass = 34,
 	model = "BAT-120",

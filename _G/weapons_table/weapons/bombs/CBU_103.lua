@@ -1,6 +1,9 @@
 _G["weapons_table"]["weapons"]["bombs"]["CBU_103"] = {
+	I = 194.1438464,
+	L = 2.3552,
 	Reflection = 0.03,
 	_unique_resource_name = "weapons.bombs.CBU_103",
+	caliber = 0.39624,
 	client = {
 		Reflection = 0.03,
 		WCMD_guidence = {
@@ -230,6 +233,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_103"] = {
 		},
 		scheme = "schemes/bombs/bomb-cassette-wcmd.sch"
 	},
+	cx = { 1, 0.55, 0.8, 0.2, 1.5 },
 	display_name = "CBU-103",
 	encyclopediaAnimation = {
 		args = {

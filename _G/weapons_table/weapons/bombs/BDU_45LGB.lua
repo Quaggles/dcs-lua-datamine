@@ -1,7 +1,10 @@
 _G["weapons_table"]["weapons"]["bombs"]["BDU_45LGB"] = {
+	I = 247.734396,
+	L = 3.276,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/paveway.lua",
 	_origin = "AircraftWeaponPack",
 	_unique_resource_name = "weapons.bombs.BDU_45LGB",
+	caliber = 0.279,
 	client = {
 		Ag = -2,
 		Cx = 0.000365,
@@ -80,6 +83,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_45LGB"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 36, "Redacted" }
 	},
+	cx = { 1.037, 0.74, 0.6, 0.382, 1.34 },
 	display_name = "BDU-45LGB",
 	mass = 277,
 	model = "BDU-50LGB",

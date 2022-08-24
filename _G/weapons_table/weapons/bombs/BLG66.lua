@@ -1,8 +1,11 @@
 _G["weapons_table"]["weapons"]["bombs"]["BLG66"] = {
+	I = 281.84,
+	L = 3.33,
 	Reflection = 0.03,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/cluster_bombs.lua",
 	_origin = "AircraftWeaponPack",
 	_unique_resource_name = "weapons.bombs.BLG66",
+	caliber = 0.36,
 	client = {
 		Ag = -1.23,
 		Cx = 0.000413,
@@ -245,6 +248,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BLG66"] = {
 		user_name = "BLG-66 Belouga AC",
 		wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 	},
+	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "BLG-66 Belouga AC",
 	mass = 305,
 	model = "M2000C_BLG66",

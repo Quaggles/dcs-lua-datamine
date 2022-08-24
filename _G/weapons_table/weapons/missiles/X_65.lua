@@ -109,8 +109,8 @@ _G["weapons_table"]["weapons"]["missiles"]["X_65"] = {
 		},
 		march = {
 			custom_smoke_dissipation_factor = 0.2,
-			fuel_mass = 720,
-			impulse = 690,
+			fuel_mass = 225,
+			impulse = 3300,
 			max_thrust = 4000,
 			min_fuel_rate = 0.005,
 			min_thrust = -150,
@@ -277,8 +277,8 @@ _G["weapons_table"]["weapons"]["missiles"]["X_65"] = {
 		},
 		march = {
 			custom_smoke_dissipation_factor = 0.2,
-			fuel_mass = 720,
-			impulse = 690,
+			fuel_mass = 225,
+			impulse = 3300,
 			max_thrust = 4000,
 			min_fuel_rate = 0.005,
 			min_thrust = -150,

@@ -1,7 +1,10 @@
 _G["weapons_table"]["weapons"]["bombs"]["BIN_200"] = {
+	I = 220.833333,
+	L = 2.5,
 	_file = "./CoreMods/aircraft/C-101/Weapons.lua",
 	_origin = "C-101 Aviojet by AvioDev",
 	_unique_resource_name = "weapons.bombs.BIN_200",
+	caliber = 0.325,
 	client = {
 		Ag = -1.23,
 		Cx = 0.00035,
@@ -63,6 +66,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BIN_200"] = {
 		},
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
+	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "BIN-200 - 200kg Napalm Incendiary Bomb",
 	mass = 200,
 	model = "BIN-200",

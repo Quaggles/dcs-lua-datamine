@@ -1,7 +1,10 @@
 _G["weapons_table"]["weapons"]["bombs"]["BELOUGA"] = {
+	I = 101.2986,
+	L = 2.34,
 	_file = "./CoreMods/aircraft/C-101/Weapons.lua",
 	_origin = "C-101 Aviojet by AvioDev",
 	_unique_resource_name = "weapons.bombs.BELOUGA",
+	caliber = 0.36,
 	client = {
 		Ag = -1.23,
 		Cx = 0.000413,
@@ -130,6 +133,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BELOUGA"] = {
 		user_name = "Belouga",
 		wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 	},
+	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "Belouga",
 	mass = 290,
 	model = "BELOUGA",
