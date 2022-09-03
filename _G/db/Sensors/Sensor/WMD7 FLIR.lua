@@ -1,20 +1,20 @@
 _G["db"]["Sensors"]["Sensor"]["#Index"] = {
-	DisplayName = "Winglong-1 FLIR",
-	Name = "Winglong-1 FLIR",
+	DisplayName = "WMD7 FLIR",
+	Name = "WMD7 FLIR",
 	SensorType = 0,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Tech/sensors.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	category = 0,
 	laserRanger = true,
-	magnifications = { 1.4, 7, 22.5, 43.75 },
-	resolution = 0.08,
+	magnifications = { 11.7, 41 },
+	resolution = 0.09,
 	scan_volume = {
-		azimuth = { -120, 120 },
-		elevation = { -60, 30 }
+		azimuth = { -150, 150 },
+		elevation = { -150, 5 }
 	},
 	type = 2,
 	view_volume_max = {
-		azimuth_sector = 50,
-		elevation_sector = 50
+		azimuth_sector = 6,
+		elevation_sector = 6
 	}
 }

@@ -11,7 +11,7 @@ _G["launcher"]["{SHOULDER AIM_54A_Mk60 R}"] = {
 		} },
 	JettisonSubmunitionOnly = true,
 	Picture = "aim54.png",
-	Weight = 517.06,
+	Weight = 489.36,
 	_file = "./CoreMods/aircraft/F14/Entry/Weapons.lua",
 	_origin = "F-14B AI by Heatblur Simulations",
 	attribute = { 4, 4, 32, "Redacted" },

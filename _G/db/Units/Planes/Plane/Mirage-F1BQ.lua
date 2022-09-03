@@ -2559,7 +2559,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	WorldID = 321,
 	_file = "./CoreMods/aircraft/Mirage-F1/Mirage-F1BQ.lua",
 	_origin = "Mirage F1 Assets by Aerges",
-	air_refuel_receptacle_pos = { 5.679, 0.532, 0.363 },
 	attribute = { 1, 1, 1, "Redacted", "Multirole fighters", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },
 	average_fuel_consumption = 0.5,
 	bank_angle_max = 85,

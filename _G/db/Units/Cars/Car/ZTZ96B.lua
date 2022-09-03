@@ -177,6 +177,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							virtualStwID = 2
 						} },
 					beamWidth = 0.017453292519943,
+					combatRange = 1200,
 					distanceMaxForFCS = 5000,
 					sensor = {},
 					sightIndicationMode = 1,
@@ -196,6 +197,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							shot_delay = 30,
 							virtualStwID = 2
 						} },
+					combatRange = 800,
 					distanceMax = 4000,
 					distanceMaxForFCS = 4000,
 					distanceMin = 100,
@@ -400,7 +402,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "ZTZ96B",
 	visual = {
 		IR = {
-			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.005, 0.0013 }, { 0, 0 }, { 0.29, 0.00017058823529412 } }
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.005, 0.0013 },
+				[5] = { 0.29, 0.00017058823529412 }
+			}
 		},
 		agony_explosion_size = 5,
 		dirt_pos = { -2.39, 0.6, -1.57 },

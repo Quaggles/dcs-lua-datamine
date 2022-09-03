@@ -2560,7 +2560,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	WorldID = 317,
 	_file = "./CoreMods/aircraft/Mirage-F1/Mirage-F1CR.lua",
 	_origin = "Mirage F1 Assets by Aerges",
-	air_refuel_receptacle_pos = { 5.679, 0.532, 0.363 },
+	air_refuel_receptacle_pos = { 5.64, 0.532, 0.363 },
 	attribute = { 1, 1, 1, "Redacted", "Multirole fighters", "Refuelable", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },
 	average_fuel_consumption = 0.5,
 	bank_angle_max = 85,
@@ -2813,7 +2813,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			}
 		}, {
 			channels = { {
-					connect = true,
 					default = 225,
 					modulation = "AM",
 					name = "Channel 1"

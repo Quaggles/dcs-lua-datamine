@@ -7,7 +7,7 @@ _G["launcher"]["{AIM_54A_Mk60}"] = {
 			ShapeName = "AIM-54A_M60"
 		} },
 	Picture = "aim54.png",
-	Weight = 471.7,
+	Weight = 444,
 	_file = "./CoreMods/aircraft/F14/Entry/Weapons.lua",
 	_origin = "F-14B AI by Heatblur Simulations",
 	attribute = { 4, 4, 7, "Redacted" },

@@ -2899,8 +2899,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	WorldID = 303,
 	_file = "./CoreMods/aircraft/Mirage-F1/Mirage-F1EE.lua",
 	_origin = "Mirage F1 Assets by Aerges",
-	air_refuel_receptacle_pos = { 5.679, 0.532, 0.363 },
-	attribute = { 1, 1, 1, "Redacted", "Multirole fighters", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },
+	air_refuel_receptacle_pos = { 5.74, 0.532, 0.363 },
+	attribute = { 1, 1, 1, "Redacted", "Multirole fighters", "Refuelable", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },
 	average_fuel_consumption = 0.5,
 	bank_angle_max = 85,
 	bigParkingRamp = false,
@@ -3152,7 +3152,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			}
 		}, {
 			channels = { {
-					connect = true,
 					default = 225,
 					modulation = "AM",
 					name = "Channel 1"
@@ -3276,7 +3275,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	stores_number = 9,
 	swapped_names = true,
 	tand_gear_max = 2.1445,
-	tanker_type = 0,
+	tanker_type = 2,
 	thrust_sum_ab = 6969,
 	thrust_sum_max = 4867,
 	type = "Mirage-F1EE",

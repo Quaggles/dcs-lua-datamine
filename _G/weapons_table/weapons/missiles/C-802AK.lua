@@ -223,7 +223,7 @@ _G["weapons_table"]["weapons"]["missiles"]["C-802AK"] = {
 			update_pos_from_input = 0,
 			use_horiz_dist = 1
 		},
-		user_name = "C-802AK",
+		user_name = "C802AK",
 		v_mid = 372,
 		v_min = 170,
 		warhead = {
@@ -254,7 +254,7 @@ _G["weapons_table"]["weapons"]["missiles"]["C-802AK"] = {
 		},
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
-	display_name = "C-802AK",
+	display_name = "C802AK",
 	mass = 715,
 	model = "c802ak",
 	name = "C-802AK",
@@ -476,7 +476,7 @@ _G["weapons_table"]["weapons"]["missiles"]["C-802AK"] = {
 			update_pos_from_input = 0,
 			use_horiz_dist = 1
 		},
-		user_name = "C-802AK",
+		user_name = "C802AK",
 		v_mid = 372,
 		v_min = 170,
 		warhead = {
