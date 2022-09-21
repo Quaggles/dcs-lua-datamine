@@ -7,10 +7,10 @@ _G["launcher"]["DIS_GBU_12_DUAL_GDJ_II19_R"] = {
 			ShapeName = "JF-17_GDJ-II19R"
 		}, {
 			ShapeName = "GBU-12",
-			connector_name = "Pylon_GDJ-II19R_R"
+			connector_name = "Pylon_GDJ-II19R_L"
 		}, {
 			ShapeName = "GBU-12",
-			connector_name = "Pylon_GDJ-II19R_L"
+			connector_name = "Pylon_GDJ-II19R_R"
 		} },
 	JettisonSubmunitionOnly = true,
 	Picture = "GBU12.png",
@@ -21,5 +21,6 @@ _G["launcher"]["DIS_GBU_12_DUAL_GDJ_II19_R"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "GDJ-II19 - 2 x GBU-12",
+	ejectImpulse = 140,
 	wsTypeOfWeapon = { 4, 5, 36, "Redacted" }
 }

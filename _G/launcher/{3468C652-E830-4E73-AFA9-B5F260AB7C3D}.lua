@@ -9,7 +9,8 @@ _G["launcher"]["{3468C652-E830-4E73-AFA9-B5F260AB7C3D}"] = {
 			ShapeName = "X-29L"
 		} },
 	Picture = "kh29L.png",
-	Weight = 747,
+	Weight = 846,
+	Weight_Empty = 186,
 	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 4, 32, "Redacted" },
 	displayName = "Kh-29L (AS-14 Kedge) - 657kg, ASM, Semi-Act Laser",

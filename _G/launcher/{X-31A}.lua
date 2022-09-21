@@ -8,7 +8,7 @@ _G["launcher"]["{X-31A}"] = {
 		} },
 	NatoName = "(AS-17)",
 	Picture = "kh31a.png",
-	Weight = 690,
+	Weight = 610,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/AS_Missiles.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },

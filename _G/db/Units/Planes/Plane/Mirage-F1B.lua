@@ -4,14 +4,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			control = "comboList",
 			defValue = 1,
 			id = "RadarCoverSettings",
-			label = "Radar Cover Installed At Start",
+			label = "Force Radar Cover State At Start",
 			playerOnly = true,
 			values = { {
-					dispName = "YES",
+					dispName = "NO",
 					id = 1
 				}, {
-					dispName = "NO",
+					dispName = "FORCE ON",
 					id = 2
+				}, {
+					dispName = "FORCE OFF",
+					id = 3
 				} },
 			wCtrl = 75
 		}, {
@@ -2723,18 +2726,194 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	nose_gear_amortizer_reversal_stroke = -0.152,
 	nose_gear_pos = { 2.871, -2.13, 0 },
 	nose_gear_wheel_diameter = 0.346,
+	panelRadio = { {
+			channels = { {
+					connect = true,
+					default = 118,
+					modulation = "AM",
+					name = "Channel 1"
+				}, {
+					default = 119.25,
+					modulation = "AM",
+					name = "Channel 2"
+				}, {
+					default = 122,
+					modulation = "AM",
+					name = "Channel 3"
+				}, {
+					default = 126.5,
+					modulation = "AM",
+					name = "Channel 4"
+				}, {
+					default = 127,
+					modulation = "AM",
+					name = "Channel 5"
+				}, {
+					default = 129,
+					modulation = "AM",
+					name = "Channel 6"
+				}, {
+					default = 131,
+					modulation = "AM",
+					name = "Channel 7"
+				}, {
+					default = 133,
+					modulation = "AM",
+					name = "Channel 8"
+				}, {
+					default = 141,
+					modulation = "AM",
+					name = "Channel 9"
+				}, {
+					default = 250.5,
+					modulation = "AM",
+					name = "Channel 10"
+				}, {
+					default = 251,
+					modulation = "AM",
+					name = "Channel 11"
+				}, {
+					default = 253,
+					modulation = "AM",
+					name = "Channel 12"
+				}, {
+					default = 254,
+					modulation = "AM",
+					name = "Channel 13"
+				}, {
+					default = 257,
+					modulation = "AM",
+					name = "Channel 14"
+				}, {
+					default = 260,
+					modulation = "AM",
+					name = "Channel 15"
+				}, {
+					default = 261,
+					modulation = "AM",
+					name = "Channel 16"
+				}, {
+					default = 262,
+					modulation = "AM",
+					name = "Channel 17"
+				}, {
+					default = 263,
+					modulation = "AM",
+					name = "Channel 18"
+				}, {
+					default = 267,
+					modulation = "AM",
+					name = "Channel 19"
+				}, {
+					default = 270,
+					modulation = "AM",
+					name = "Channel 20"
+				} },
+			name = "TRAP-136",
+			range = {
+				max = 399.975,
+				min = 118
+			}
+		}, {
+			channels = { {
+					default = 225,
+					modulation = "AM",
+					name = "Channel 1"
+				}, {
+					default = 230,
+					modulation = "AM",
+					name = "Channel 2"
+				}, {
+					default = 240,
+					modulation = "AM",
+					name = "Channel 3"
+				}, {
+					default = 250.5,
+					modulation = "AM",
+					name = "Channel 4"
+				}, {
+					default = 251,
+					modulation = "AM",
+					name = "Channel 5"
+				}, {
+					default = 256,
+					modulation = "AM",
+					name = "Channel 6"
+				}, {
+					default = 257,
+					modulation = "AM",
+					name = "Channel 7"
+				}, {
+					default = 262,
+					modulation = "AM",
+					name = "Channel 8"
+				}, {
+					default = 263,
+					modulation = "AM",
+					name = "Channel 9"
+				}, {
+					default = 267,
+					modulation = "AM",
+					name = "Channel 10"
+				}, {
+					default = 270,
+					modulation = "AM",
+					name = "Channel 11"
+				}, {
+					default = 254,
+					modulation = "AM",
+					name = "Channel 12"
+				}, {
+					default = 264,
+					modulation = "AM",
+					name = "Channel 13"
+				}, {
+					default = 266,
+					modulation = "AM",
+					name = "Channel 14"
+				}, {
+					default = 265,
+					modulation = "AM",
+					name = "Channel 15"
+				}, {
+					default = 252,
+					modulation = "AM",
+					name = "Channel 16"
+				}, {
+					default = 268,
+					modulation = "AM",
+					name = "Channel 17"
+				}, {
+					default = 271,
+					modulation = "AM",
+					name = "Channel 18"
+				}, {
+					default = 275,
+					modulation = "AM",
+					name = "Channel 19"
+				}, {
+					default = 360,
+					modulation = "AM",
+					name = "Channel 20 (N/A in 'Easy Comms')"
+				} },
+			name = "TRAP-137B",
+			range = {
+				max = 399.975,
+				min = 225
+			}
+		} },
 	passivCounterm = {
-		CMDS_Edit = true,
-		SingleChargeTotal = 60,
+		CMDS_Edit = false,
+		SingleChargeTotal = 0,
 		chaff = {
-			chargeSz = 1,
-			default = 30,
-			increment = 30
+			chargeSz = 0,
+			default = 0,
+			increment = 0
 		},
 		flare = {
-			chargeSz = 2,
-			default = 15,
-			increment = 15
+			chargeSz = 0,
+			default = 0,
+			increment = 0
 		}
 	},
 	radar_can_see_ground = true,

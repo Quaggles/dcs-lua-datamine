@@ -84,6 +84,7 @@ _G["rockets"]["#Index"] = {
 		ignore_inp_armed = 1,
 		radius = 4
 	},
+	manualWeaponFlag = 18,
 	march = {
 		custom_smoke_dissipation_factor = 1,
 		fuel_mass = 5.53,

@@ -83,7 +83,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_31P"] = {
 			nozzle_position = { { -2.15, -0.21, 0 } },
 			smoke_color = { 0.9, 0.9, 0.9 },
 			smoke_transparency = 0.05,
-			tail_width = 0.1,
+			tail_width = 0.2,
 			work_time = 0
 		},
 		scheme = "schemes/missiles/anti_radiation_missile_ramjet.sch",
@@ -218,7 +218,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_31P"] = {
 			nozzle_position = { { -2.15, -0.21, 0 } },
 			smoke_color = { 0.9, 0.9, 0.9 },
 			smoke_transparency = 0.05,
-			tail_width = 0.1,
+			tail_width = 0.2,
 			work_time = 0
 		},
 		scheme = "schemes/missiles/anti_radiation_missile_ramjet.sch",

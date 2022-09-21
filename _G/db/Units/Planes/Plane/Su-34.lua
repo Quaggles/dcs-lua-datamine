@@ -86,22 +86,27 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Launchers = { <6>{
 					CLSID = "{X-29T}",
 					Type = 1,
+					add_mass = 186,
 					arg_value = 0.45
 				}, <7>{
 					CLSID = "{X-29L}",
 					Type = 1,
+					add_mass = 186,
 					arg_value = 0.45
 				}, <8>{
 					CLSID = "{X-31A}",
 					Type = 1,
+					add_mass = 186,
 					arg_value = 0.45
 				}, <9>{
 					CLSID = "{X-31P}",
 					Type = 1,
+					add_mass = 186,
 					arg_value = 0.45
 				}, <10>{
 					CLSID = "{2234F529-1D57-4496-8BB0-0150F9BDBBD2}",
 					Type = 1,
+					add_mass = 186,
 					arg_value = 0.45,
 					attach_point_position = { -0.069, -0.27, 0 }
 				}, <11>{

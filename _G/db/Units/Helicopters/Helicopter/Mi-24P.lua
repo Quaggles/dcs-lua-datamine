@@ -1,12 +1,5 @@
 _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	AddPropAircraft = { {
-			arg = 457,
-			control = "checkbox",
-			defValue = true,
-			id = "ExhaustScreen",
-			label = "Exhaust IR suppressors",
-			weight = 160
-		}, {
 			control = "slider",
 			defValue = 90,
 			dimension = "%",
@@ -14,7 +7,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			label = "Remaining srvc. life (lh engine)",
 			max = 100,
 			min = 40,
-			playerOnly = true
+			playerOnly = true,
+			xCtrl = 195
 		}, {
 			control = "slider",
 			defValue = 90,
@@ -23,7 +17,65 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			label = "Remaining srvc. life (rh engine)",
 			max = 100,
 			min = 40,
-			playerOnly = true
+			playerOnly = true,
+			xCtrl = 195
+		}, {
+			arg = 457,
+			control = "checkbox",
+			defValue = true,
+			id = "ExhaustScreen",
+			label = "Exhaust IR suppressors",
+			weight = 160
+		}, {
+			control = "checkbox",
+			defValue = true,
+			id = "NS430allow",
+			label = "NS 430 allow"
+		}, {
+			control = "checkbox",
+			defValue = true,
+			id = "PilotNVG",
+			label = "Allow Pilots NVG"
+		}, {
+			control = "checkbox",
+			defValue = true,
+			id = "OperatorNVG",
+			label = "Allow Operators NVG"
+		}, {
+			control = "checkbox",
+			defValue = true,
+			id = "R60equipment",
+			label = "R-60 equipment",
+			weaponRestricted = {
+				["{275A2855-4A79-4B2D-B082-91EA2ADF4691}"] = true,
+				["{APU-60-1_R_60M}"] = true,
+				["{B0DBC591-0F52-4F7D-AD7B-51E67725FB81}"] = true
+			}
+		}, {
+			control = "label",
+			id = "mul_Label",
+			label = "AI HELPER",
+			xLbl = 150
+		}, {
+			control = "comboList",
+			defValue = 0,
+			id = "OverrideIFF",
+			label = "AI IFF Detection Mode",
+			playerOnly = true,
+			values = { {
+					dispName = "Auto",
+					id = 0
+				}, {
+					dispName = "Simple",
+					id = 1
+				}, {
+					dispName = "Label Only",
+					id = 2
+				}, {
+					dispName = "Realistic",
+					id = 3
+				} },
+			wCtrl = 150
 		}, {
 			control = "slider",
 			defValue = 90,
@@ -31,7 +83,28 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			id = "GunnersAISkill",
 			label = "Gunners AI Skill",
 			max = 100,
-			min = 10
+			min = 10,
+			xCtrl = 195
+		}, {
+			control = "checkbox",
+			defValue = false,
+			id = "SimplifiedAI",
+			label = "Simplified AI"
+		}, {
+			control = "checkbox",
+			defValue = false,
+			id = "HideAngleBoxes",
+			label = "Hide boxes in Pilot AI menu"
+		}, {
+			control = "checkbox",
+			defValue = true,
+			id = "TrackAirTargets",
+			label = "Track Air Targets"
+		}, {
+			control = "label",
+			id = "mul_Label",
+			label = "MULTIPLAYER",
+			xLbl = 150
 		}, {
 			control = "comboList",
 			defValue = 0,
@@ -54,64 +127,9 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			wCtrl = 150
 		}, {
 			control = "checkbox",
-			defValue = true,
-			id = "NS430allow",
-			label = "NS 430 allow"
-		}, {
-			control = "checkbox",
 			defValue = false,
-			id = "SimplifiedAI",
-			label = "Simplified AI"
-		}, {
-			control = "checkbox",
-			defValue = false,
-			id = "HideAngleBoxes",
-			label = "Hide boxes in Pilot AI menu"
-		}, {
-			control = "checkbox",
-			defValue = true,
-			id = "TrackAirTargets",
-			label = "Track Air Targets"
-		}, {
-			control = "checkbox",
-			defValue = true,
-			id = "PilotNVG",
-			label = "Allow Pilots NVG"
-		}, {
-			control = "checkbox",
-			defValue = true,
-			id = "OperatorNVG",
-			label = "Allow Operators NVG"
-		}, {
-			control = "checkbox",
-			defValue = true,
-			id = "R60equipment",
-			label = "R-60 equipment",
-			weaponRestricted = {
-				["{275A2855-4A79-4B2D-B082-91EA2ADF4691}"] = true,
-				["{APU-60-1_R_60M}"] = true,
-				["{B0DBC591-0F52-4F7D-AD7B-51E67725FB81}"] = true
-			}
-		}, {
-			control = "comboList",
-			defValue = 0,
-			id = "OverrideIFF",
-			label = "AI IFF Detection Mode",
-			playerOnly = true,
-			values = { {
-					dispName = "Auto",
-					id = 0
-				}, {
-					dispName = "Simple",
-					id = 1
-				}, {
-					dispName = "Label Only",
-					id = 2
-				}, {
-					dispName = "Realistic",
-					id = 3
-				} },
-			wCtrl = 150
+			id = "HumanOrchestra",
+			label = "Disable Multicrew"
 		} },
 	AmmoWeight = 207.5,
 	CanopyGeometry = { -0.93969262078591, -0.95280922353749, -0.96592582628907, 0.0094409633615699, 0.98480775301221 },
@@ -1766,6 +1784,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			role_display_name = "KORD-gunner"
 		} },
 	crew_size = 3,
+	crew_stations = "Hybrid",
 	detection_range_max = 30,
 	doors_movement = 2,
 	effects_presets = { {

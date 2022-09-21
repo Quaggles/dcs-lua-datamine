@@ -1100,32 +1100,64 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{UB-16_S5M}",
 					arg = 309,
 					arg_value = 0.5,
-					connector = "PYLON_L_OUT_3"
+					connector = "PYLON_L_OUT_3",
+					required = { {
+							loadout = { "{UB-16_S5M}" },
+							station = 5
+						} }
 				}, {
 					CLSID = "{S-24B}",
 					arg = 309,
 					arg_value = 0.5,
-					connector = "PYLON_L_OUT"
+					connector = "PYLON_L_OUT",
+					required = { {
+							loadout = { "{S-24B}" },
+							station = 5
+						} }
 				}, {
 					CLSID = "{S-24A}",
 					arg = 309,
 					arg_value = 0.5,
-					connector = "PYLON_L_OUT"
+					connector = "PYLON_L_OUT",
+					required = { {
+							loadout = { "{S-24A}" },
+							station = 5
+						} }
 				}, {
 					CLSID = "{FB3CE165-BF07-4979-887C-92B87F13276B}",
-					connector = "PYLON_L_OUT_2"
+					connector = "PYLON_L_OUT_2",
+					required = { {
+							loadout = { "{FB3CE165-BF07-4979-887C-92B87F13276B}" },
+							station = 5
+						} }
 				}, {
 					CLSID = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}",
-					connector = "PYLON_L_OUT_1"
+					connector = "PYLON_L_OUT_1",
+					required = { {
+							loadout = { "{3C612111-C7AD-476E-8A8E-2485812F4E5C}" },
+							station = 5
+						} }
 				}, {
 					CLSID = "{4203753F-8198-4E85-9924-6F8FF679F9FF}",
-					connector = "PYLON_L_OUT_2"
+					connector = "PYLON_L_OUT_2",
+					required = { {
+							loadout = { "{4203753F-8198-4E85-9924-6F8FF679F9FF}" },
+							station = 5
+						} }
 				}, {
 					CLSID = "{FAB-250-M54-TU}",
-					connector = "PYLON_L_OUT_1"
+					connector = "PYLON_L_OUT_1",
+					required = { {
+							loadout = { "{FAB-250-M54-TU}" },
+							station = 5
+						} }
 				}, {
 					CLSID = "{0511E528-EA28-4caf-A212-00D1408DF10A}",
-					connector = "PYLON_L_OUT"
+					connector = "PYLON_L_OUT",
+					required = { {
+							loadout = { "{0511E528-EA28-4caf-A212-00D1408DF10A}" },
+							station = 5
+						} }
 				}, {
 					CLSID = "{R-13M}",
 					arg = 309,
@@ -1167,6 +1199,19 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					forbidden = { {
 							loadout = { "{R-60M 2L}" },
 							station = 2
+						}, {
+							loadout = { "{R-60 2L}" },
+							station = 2
+						}, {
+							loadout = { "{R-60M 2R}" },
+							station = 4
+						}, {
+							loadout = { "{R-60 2R}" },
+							station = 4
+						} },
+					required = { {
+							loadout = { "{R-60M 2R}" },
+							station = 5
 						} }
 				}, {
 					CLSID = "{R-60 2L}",
@@ -1176,12 +1221,29 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					forbidden = { {
 							loadout = { "{R-60 2L}" },
 							station = 2
+						}, {
+							loadout = { "{R-60M 2L}" },
+							station = 2
+						}, {
+							loadout = { "{R-60 2R}" },
+							station = 4
+						}, {
+							loadout = { "{R-60M 2R}" },
+							station = 4
+						} },
+					required = { {
+							loadout = { "{R-60 2R}" },
+							station = 5
 						} }
 				}, {
 					CLSID = "{PTB_490_MIG21}",
 					arg = 320,
 					arg_value = 0.5,
-					connector = "PYLON_L_OUT_FUEL"
+					connector = "PYLON_L_OUT_FUEL",
+					required = { {
+							loadout = { "{PTB_490_MIG21}" },
+							station = 5
+						} }
 				} },
 			Number = 1,
 			Order = 1,
@@ -1196,67 +1258,127 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{UB-16_S5M}",
 					arg = 318,
 					arg_value = 0.5,
-					connector = "PYLON_L_IN_3"
+					connector = "PYLON_L_IN_3",
+					required = { {
+							loadout = { "{UB-16_S5M}" },
+							station = 4
+						} }
 				}, {
 					CLSID = "{UB-32_S5M}",
 					arg = 318,
 					arg_value = 0.5,
-					connector = "PYLON_L_IN_3"
+					connector = "PYLON_L_IN_3",
+					required = { {
+							loadout = { "{UB-32_S5M}" },
+							station = 4
+						} }
 				}, {
 					CLSID = "{S-24B}",
 					arg = 310,
 					arg_value = 0.5,
-					connector = "PYLON_L_IN"
+					connector = "PYLON_L_IN",
+					required = { {
+							loadout = { "{S-24B}" },
+							station = 4
+						} }
 				}, {
 					CLSID = "{S-24A}",
 					arg = 310,
 					arg_value = 0.5,
-					connector = "PYLON_L_IN"
+					connector = "PYLON_L_IN",
+					required = { {
+							loadout = { "{S-24A}" },
+							station = 4
+						} }
 				}, {
 					CLSID = "{FAB-100-4}",
 					arg = 318,
 					arg_value = 0.5,
-					connector = "PYLON_L_IN"
+					connector = "PYLON_L_IN",
+					required = { {
+							loadout = { "{FAB-100-4}" },
+							station = 4
+						} }
 				}, {
 					CLSID = "{FB3CE165-BF07-4979-887C-92B87F13276B}",
-					connector = "PYLON_L_IN_2"
+					connector = "PYLON_L_IN_2",
+					required = { {
+							loadout = { "{FB3CE165-BF07-4979-887C-92B87F13276B}" },
+							station = 4
+						} }
 				}, {
 					CLSID = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}",
-					connector = "PYLON_L_IN_1"
+					connector = "PYLON_L_IN_1",
+					required = { {
+							loadout = { "{3C612111-C7AD-476E-8A8E-2485812F4E5C}" },
+							station = 4
+						} }
 				}, {
 					CLSID = "{37DCC01E-9E02-432F-B61D-10C166CA2798}",
 					arg = 314,
 					arg_value = 0.5,
-					connector = "PYLON_L_IN_1"
+					connector = "PYLON_L_IN_1",
+					required = { {
+							loadout = { "{37DCC01E-9E02-432F-B61D-10C166CA2798}" },
+							station = 4
+						} }
 				}, {
 					CLSID = "{35B698AC-9FEF-4EC4-AD29-484A0085F62B}",
 					arg = 314,
 					arg_value = 0.5,
-					connector = "PYLON_L_IN_2"
+					connector = "PYLON_L_IN_2",
+					required = { {
+							loadout = { "{35B698AC-9FEF-4EC4-AD29-484A0085F62B}" },
+							station = 4
+						} }
 				}, {
 					CLSID = "{BD289E34-DF84-4C5E-9220-4B14C346E79D}",
 					arg = 314,
 					arg_value = 0.5,
-					connector = "PYLON_L_IN_2"
+					connector = "PYLON_L_IN_2",
+					required = { {
+							loadout = { "{BD289E34-DF84-4C5E-9220-4B14C346E79D}" },
+							station = 4
+						} }
 				}, {
 					CLSID = "{4203753F-8198-4E85-9924-6F8FF679F9FF}",
-					connector = "PYLON_L_IN_2"
+					connector = "PYLON_L_IN_2",
+					required = { {
+							loadout = { "{4203753F-8198-4E85-9924-6F8FF679F9FF}" },
+							station = 4
+						} }
 				}, {
 					CLSID = "{D5435F26-F120-4FA3-9867-34ACE562EF1B}",
 					arg = 314,
 					arg_value = 0.5,
-					connector = "PYLON_L_IN_2"
+					connector = "PYLON_L_IN_2",
+					required = { {
+							loadout = { "{D5435F26-F120-4FA3-9867-34ACE562EF1B}" },
+							station = 4
+						} }
 				}, {
 					CLSID = "{08164777-5E9C-4B08-B48E-5AA7AFB246E2}",
 					arg = 314,
 					arg_value = 0.5,
-					connector = "PYLON_L_IN_2"
+					connector = "PYLON_L_IN_2",
+					required = { {
+							loadout = { "{08164777-5E9C-4B08-B48E-5AA7AFB246E2}" },
+							station = 4
+						} }
 				}, {
 					CLSID = "{0511E528-EA28-4caf-A212-00D1408DF10A}",
-					connector = "PYLON_L_IN_2"
+					connector = "PYLON_L_IN_2",
+					required = { {
+							loadout = { "{0511E528-EA28-4caf-A212-00D1408DF10A}" },
+							station = 4
+						} }
 				}, {
 					CLSID = "{Kh-66_Grom}",
-					connector = "PYLON_L_IN"
+					connector = "PYLON_L_IN",
+					required = { {
+							loadout = { "{Kh-66_Grom}" },
+							station = 4
+						} }
 				}, {
 					CLSID = "{R-13M}",
 					arg = 310,
@@ -1301,6 +1423,19 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					forbidden = { {
 							loadout = { "{R-60M 2L}" },
 							station = 1
+						}, {
+							loadout = { "{R-60 2L}" },
+							station = 1
+						}, {
+							loadout = { "{R-60M 2R}" },
+							station = 5
+						}, {
+							loadout = { "{R-60 2R}" },
+							station = 5
+						} },
+					required = { {
+							loadout = { "{R-60M 2R}" },
+							station = 4
 						} }
 				}, {
 					CLSID = "{R-60 2L}",
@@ -1310,12 +1445,29 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					forbidden = { {
 							loadout = { "{R-60 2L}" },
 							station = 1
+						}, {
+							loadout = { "{R-60M 2L}" },
+							station = 1
+						}, {
+							loadout = { "{R-60 2R}" },
+							station = 5
+						}, {
+							loadout = { "{R-60M 2R}" },
+							station = 5
+						} },
+					required = { {
+							loadout = { "{R-60 2R}" },
+							station = 4
 						} }
 				}, {
 					CLSID = "{UPK-23-250 MiG-21}",
 					arg = 310,
 					arg_value = 0.5,
-					connector = "PYLON_L_IN_1"
+					connector = "PYLON_L_IN_1",
+					required = { {
+							loadout = { "{UPK-23-250 MiG-21}" },
+							station = 4
+						} }
 				} },
 			Number = 2,
 			Order = 2,
@@ -1389,67 +1541,127 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{UB-16_S5M}",
 					arg = 319,
 					arg_value = 0.5,
-					connector = "PYLON_R_IN_3"
+					connector = "PYLON_R_IN_3",
+					required = { {
+							loadout = { "{UB-16_S5M}" },
+							station = 2
+						} }
 				}, {
 					CLSID = "{UB-32_S5M}",
 					arg = 319,
 					arg_value = 0.5,
-					connector = "PYLON_R_IN_3"
+					connector = "PYLON_R_IN_3",
+					required = { {
+							loadout = { "{UB-32_S5M}" },
+							station = 2
+						} }
 				}, {
 					CLSID = "{S-24B}",
 					arg = 311,
 					arg_value = 0.5,
-					connector = "PYLON_R_IN"
+					connector = "PYLON_R_IN",
+					required = { {
+							loadout = { "{S-24B}" },
+							station = 2
+						} }
 				}, {
 					CLSID = "{S-24A}",
 					arg = 311,
 					arg_value = 0.5,
-					connector = "PYLON_R_IN"
+					connector = "PYLON_R_IN",
+					required = { {
+							loadout = { "{S-24A}" },
+							station = 2
+						} }
 				}, {
 					CLSID = "{FAB-100-4}",
 					arg = 319,
 					arg_value = 0.5,
-					connector = "PYLON_R_IN"
+					connector = "PYLON_R_IN",
+					required = { {
+							loadout = { "{FAB-100-4}" },
+							station = 2
+						} }
 				}, {
 					CLSID = "{FB3CE165-BF07-4979-887C-92B87F13276B}",
-					connector = "PYLON_R_IN_2"
+					connector = "PYLON_R_IN_2",
+					required = { {
+							loadout = { "{FB3CE165-BF07-4979-887C-92B87F13276B}" },
+							station = 2
+						} }
 				}, {
 					CLSID = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}",
-					connector = "PYLON_R_IN_1"
+					connector = "PYLON_R_IN_1",
+					required = { {
+							loadout = { "{3C612111-C7AD-476E-8A8E-2485812F4E5C}" },
+							station = 2
+						} }
 				}, {
 					CLSID = "{37DCC01E-9E02-432F-B61D-10C166CA2798}",
 					arg = 315,
 					arg_value = 0.5,
-					connector = "PYLON_R_IN_1"
+					connector = "PYLON_R_IN_1",
+					required = { {
+							loadout = { "{37DCC01E-9E02-432F-B61D-10C166CA2798}" },
+							station = 2
+						} }
 				}, {
 					CLSID = "{35B698AC-9FEF-4EC4-AD29-484A0085F62B}",
 					arg = 315,
 					arg_value = 0.5,
-					connector = "PYLON_R_IN_2"
+					connector = "PYLON_R_IN_2",
+					required = { {
+							loadout = { "{35B698AC-9FEF-4EC4-AD29-484A0085F62B}" },
+							station = 2
+						} }
 				}, {
 					CLSID = "{BD289E34-DF84-4C5E-9220-4B14C346E79D}",
 					arg = 315,
 					arg_value = 0.5,
-					connector = "PYLON_R_IN_2"
+					connector = "PYLON_R_IN_2",
+					required = { {
+							loadout = { "{BD289E34-DF84-4C5E-9220-4B14C346E79D}" },
+							station = 2
+						} }
 				}, {
 					CLSID = "{4203753F-8198-4E85-9924-6F8FF679F9FF}",
-					connector = "PYLON_R_IN_2"
+					connector = "PYLON_R_IN_2",
+					required = { {
+							loadout = { "{4203753F-8198-4E85-9924-6F8FF679F9FF}" },
+							station = 2
+						} }
 				}, {
 					CLSID = "{D5435F26-F120-4FA3-9867-34ACE562EF1B}",
 					arg = 315,
 					arg_value = 0.5,
-					connector = "PYLON_R_IN_2"
+					connector = "PYLON_R_IN_2",
+					required = { {
+							loadout = { "{D5435F26-F120-4FA3-9867-34ACE562EF1B}" },
+							station = 2
+						} }
 				}, {
 					CLSID = "{08164777-5E9C-4B08-B48E-5AA7AFB246E2}",
 					arg = 315,
 					arg_value = 0.5,
-					connector = "PYLON_R_IN_2"
+					connector = "PYLON_R_IN_2",
+					required = { {
+							loadout = { "{08164777-5E9C-4B08-B48E-5AA7AFB246E2}" },
+							station = 2
+						} }
 				}, {
 					CLSID = "{0511E528-EA28-4caf-A212-00D1408DF10A}",
-					connector = "PYLON_R_IN_2"
+					connector = "PYLON_R_IN_2",
+					required = { {
+							loadout = { "{0511E528-EA28-4caf-A212-00D1408DF10A}" },
+							station = 2
+						} }
 				}, {
 					CLSID = "{Kh-66_Grom}",
-					connector = "PYLON_R_IN"
+					connector = "PYLON_R_IN",
+					required = { {
+							loadout = { "{Kh-66_Grom}" },
+							station = 2
+						} }
 				}, {
 					CLSID = "{R-13M}",
 					arg = 311,
@@ -1494,6 +1706,19 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					forbidden = { {
 							loadout = { "{R-60M 2R}" },
 							station = 5
+						}, {
+							loadout = { "{R-60 2R}" },
+							station = 5
+						}, {
+							loadout = { "{R-60M 2L}" },
+							station = 1
+						}, {
+							loadout = { "{R-60 2L}" },
+							station = 1
+						} },
+					required = { {
+							loadout = { "{R-60M 2L}" },
+							station = 2
 						} }
 				}, {
 					CLSID = "{R-60 2R}",
@@ -1503,12 +1728,29 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					forbidden = { {
 							loadout = { "{R-60 2R}" },
 							station = 5
+						}, {
+							loadout = { "{R-60M 2R}" },
+							station = 5
+						}, {
+							loadout = { "{R-60 2L}" },
+							station = 1
+						}, {
+							loadout = { "{R-60M 2L}" },
+							station = 1
+						} },
+					required = { {
+							loadout = { "{R-60 2L}" },
+							station = 2
 						} }
 				}, {
 					CLSID = "{UPK-23-250 MiG-21}",
 					arg = 311,
 					arg_value = 0.5,
-					connector = "PYLON_R_IN_1"
+					connector = "PYLON_R_IN_1",
+					required = { {
+							loadout = { "{UPK-23-250 MiG-21}" },
+							station = 2
+						} }
 				} },
 			Number = 4,
 			Order = 4,
@@ -1523,32 +1765,64 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{UB-16_S5M}",
 					arg = 312,
 					arg_value = 0.5,
-					connector = "PYLON_R_OUT_3"
+					connector = "PYLON_R_OUT_3",
+					required = { {
+							loadout = { "{UB-16_S5M}" },
+							station = 1
+						} }
 				}, {
 					CLSID = "{S-24B}",
 					arg = 312,
 					arg_value = 0.5,
-					connector = "PYLON_R_OUT"
+					connector = "PYLON_R_OUT",
+					required = { {
+							loadout = { "{S-24B}" },
+							station = 1
+						} }
 				}, {
 					CLSID = "{S-24A}",
 					arg = 312,
 					arg_value = 0.5,
-					connector = "PYLON_R_OUT"
+					connector = "PYLON_R_OUT",
+					required = { {
+							loadout = { "{S-24A}" },
+							station = 1
+						} }
 				}, {
 					CLSID = "{FB3CE165-BF07-4979-887C-92B87F13276B}",
-					connector = "PYLON_R_OUT_2"
+					connector = "PYLON_R_OUT_2",
+					required = { {
+							loadout = { "{FB3CE165-BF07-4979-887C-92B87F13276B}" },
+							station = 1
+						} }
 				}, {
 					CLSID = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}",
-					connector = "PYLON_R_OUT_1"
+					connector = "PYLON_R_OUT_1",
+					required = { {
+							loadout = { "{3C612111-C7AD-476E-8A8E-2485812F4E5C}" },
+							station = 1
+						} }
 				}, {
 					CLSID = "{4203753F-8198-4E85-9924-6F8FF679F9FF}",
-					connector = "PYLON_R_OUT_2"
+					connector = "PYLON_R_OUT_2",
+					required = { {
+							loadout = { "{4203753F-8198-4E85-9924-6F8FF679F9FF}" },
+							station = 1
+						} }
 				}, {
 					CLSID = "{FAB-250-M54-TU}",
-					connector = "PYLON_R_OUT_1"
+					connector = "PYLON_R_OUT_1",
+					required = { {
+							loadout = { "{FAB-250-M54-TU}" },
+							station = 1
+						} }
 				}, {
 					CLSID = "{0511E528-EA28-4caf-A212-00D1408DF10A}",
-					connector = "PYLON_R_OUT"
+					connector = "PYLON_R_OUT",
+					required = { {
+							loadout = { "{0511E528-EA28-4caf-A212-00D1408DF10A}" },
+							station = 1
+						} }
 				}, {
 					CLSID = "{R-13M}",
 					arg = 312,
@@ -1590,6 +1864,19 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					forbidden = { {
 							loadout = { "{R-60M 2R}" },
 							station = 4
+						}, {
+							loadout = { "{R-60 2R}" },
+							station = 4
+						}, {
+							loadout = { "{R-60M 2L}" },
+							station = 2
+						}, {
+							loadout = { "{R-60 2L}" },
+							station = 2
+						} },
+					required = { {
+							loadout = { "{R-60M 2L}" },
+							station = 1
 						} }
 				}, {
 					CLSID = "{R-60 2R}",
@@ -1599,12 +1886,29 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					forbidden = { {
 							loadout = { "{R-60 2R}" },
 							station = 4
+						}, {
+							loadout = { "{R-60M 2R}" },
+							station = 4
+						}, {
+							loadout = { "{R-60 2L}" },
+							station = 2
+						}, {
+							loadout = { "{R-60M 2L}" },
+							station = 2
+						} },
+					required = { {
+							loadout = { "{R-60 2L}" },
+							station = 1
 						} }
 				}, {
 					CLSID = "{PTB_490_MIG21}",
 					arg = 321,
 					arg_value = 0.5,
-					connector = "PYLON_R_OUT_FUEL"
+					connector = "PYLON_R_OUT_FUEL",
+					required = { {
+							loadout = { "{PTB_490_MIG21}" },
+							station = 1
+						} }
 				} },
 			Number = 5,
 			Order = 5,

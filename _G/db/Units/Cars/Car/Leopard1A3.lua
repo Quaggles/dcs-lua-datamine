@@ -37,6 +37,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							virtualStwID = 2
 						} },
 					beamWidth = 0.017453292519943,
+					combatRange = 1100,
 					customViewPoint = { "genericTankblue", { 0.03, 0, 0 } },
 					reactionTime = 2,
 					sensor = {}
@@ -53,6 +54,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							shell_name = { "HESH_105" },
 							virtualStwID = 2
 						} },
+					combatRange = 700,
 					customViewPoint = { "genericTankblueHE", { 0.03, 0, 0 } },
 					distanceMax = 8000,
 					distanceMin = 20,

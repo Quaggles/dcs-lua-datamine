@@ -14,5 +14,6 @@ _G["launcher"]["DIS_GBU_16"] = {
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	attribute = { 4, 5, 36, "Redacted" },
 	category = 1,
-	displayName = "GBU-16"
+	displayName = "GBU-16",
+	ejectImpulse = 140
 }

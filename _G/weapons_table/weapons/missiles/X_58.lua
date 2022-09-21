@@ -31,12 +31,12 @@ _G["weapons_table"]["weapons"]["missiles"]["X_58"] = {
 			work_time = 3.6
 		},
 		controller = {
-			boost_start = 0.301,
+			boost_start = 0.3,
 			march_start = 3.9
 		},
 		fm = {
 			A = 0.36,
-			I = 1228.8,
+			I = 1248,
 			I_x = 50,
 			L = 4.8,
 			Ma = 0.3,
@@ -48,7 +48,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_58"] = {
 			cx_coeff = { 1, 0.4, 1.1, 0.5, 1.4 },
 			dCydA = { 0.07, 0.036 },
 			finsTau = 0.1,
-			mass = 640,
+			mass = 650,
 			maxAoa = 0.28,
 			wind_sigma = 0,
 			wind_time = 0
@@ -124,7 +124,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_58"] = {
 		}
 	},
 	display_name = "Kh-58U",
-	mass = 640,
+	mass = 650,
 	model = "X-58",
 	name = "X_58",
 	server = {
@@ -156,12 +156,12 @@ _G["weapons_table"]["weapons"]["missiles"]["X_58"] = {
 			work_time = 3.6
 		},
 		controller = {
-			boost_start = 0.301,
+			boost_start = 0.3,
 			march_start = 3.9
 		},
 		fm = {
 			A = 0.36,
-			I = 1228.8,
+			I = 1248,
 			I_x = 50,
 			L = 4.8,
 			Ma = 0.3,
@@ -173,7 +173,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_58"] = {
 			cx_coeff = { 1, 0.4, 1.1, 0.5, 1.4 },
 			dCydA = { 0.07, 0.036 },
 			finsTau = 0.1,
-			mass = 640,
+			mass = 650,
 			maxAoa = 0.28,
 			wind_sigma = 0,
 			wind_time = 0

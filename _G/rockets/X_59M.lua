@@ -193,9 +193,7 @@ _G["rockets"]["#Index"] = {
 	},
 	shape_table_data = { {
 			file = "X-59M",
-			fire = { 0, 1 },
 			index = "Redacted",
-			life = 1,
 			name = "X-59M",
 			username = "Kh-59M"
 		} },

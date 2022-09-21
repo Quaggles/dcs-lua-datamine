@@ -9,7 +9,8 @@ _G["launcher"]["{B4FC81C9-B861-4E87-BBDC-A1158E648EBF}"] = {
 			ShapeName = "X-29T"
 		} },
 	Picture = "kh29T.png",
-	Weight = 760,
+	Weight = 876,
+	Weight_Empty = 186,
 	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 4, 32, "Redacted" },
 	displayName = "Kh-29T (AS-14 Kedge) - 670kg, ASM, TV Guided",

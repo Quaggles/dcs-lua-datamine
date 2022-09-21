@@ -3732,7 +3732,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		}, {
 			can_be_playable = true,
 			canopy_arg = 43,
-			pilot_body_arg = 0,
 			pos = { 3.916, -0.11, 0 },
 			role = "gunner",
 			role_display_name = "Left Gunner"

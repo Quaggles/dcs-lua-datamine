@@ -1,0 +1,27 @@
+_G["launcher"]["DIS_LS_6_100_DUAL_R"] = {
+	CLSID = "DIS_LS_6_100_DUAL_R",
+	Count = 2,
+	Cx_pil = 0.0027,
+	Elements = { {
+			IsAdapter = true,
+			ShapeName = "JF-17_GDJ-II19R"
+		}, {
+			DrawArgs = { { 1, 1 } },
+			ShapeName = "ls-6-100",
+			connector_name = "Pylon_GDJ-II19R_L"
+		}, {
+			DrawArgs = { { 1, 1 } },
+			ShapeName = "ls-6-100",
+			connector_name = "Pylon_GDJ-II19R_R"
+		} },
+	Picture = "GBU54.png",
+	Weight = 221,
+	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/jdam_ls6.lua",
+	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
+	attribute = { 4, 5, 32, "Redacted" },
+	category = 1,
+	displayName = "LS-6-100 Dual",
+	ejectImpulse = 140,
+	name = "DIS_LS_6_100_DUAL_R",
+	wsTypeOfWeapon = { 4, 5, 36, "Redacted" }
+}

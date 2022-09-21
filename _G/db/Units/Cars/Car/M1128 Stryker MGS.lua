@@ -30,6 +30,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							virtualStwID = 1
 						} },
 					beamWidth = 0.017453292519943,
+					combatRange = 1100,
 					sensor = {},
 					sightIndicationMode = 1,
 					sightMasterMode = 1
@@ -41,6 +42,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							shell_name = { "HESH_105" },
 							virtualStwID = 1
 						} },
+					combatRange = 700,
 					distanceMax = 5000,
 					distanceMin = 20,
 					sensor = {},

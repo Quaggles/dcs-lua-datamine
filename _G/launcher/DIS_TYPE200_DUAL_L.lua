@@ -5,11 +5,11 @@ _G["launcher"]["DIS_TYPE200_DUAL_L"] = {
 	Elements = { "_G/Pylons/JF-17_GDJ-II19L.lua", {
 			DrawArgs = { { 1, 1 } },
 			ShapeName = "type-200a",
-			connector_name = "Pylon_GDJ-II19L_L"
+			connector_name = "Pylon_GDJ-II19L_R"
 		}, {
 			DrawArgs = { { 1, 1 } },
 			ShapeName = "type-200a",
-			connector_name = "Pylon_GDJ-II19L_R"
+			connector_name = "Pylon_GDJ-II19L_L"
 		} },
 	Picture = "type200a.png",
 	Weight = 400,

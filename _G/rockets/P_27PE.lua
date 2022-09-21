@@ -22,6 +22,7 @@ _G["rockets"]["#Index"] = {
 	Name = "Redacted",
 	Nr_max = 24,
 	OmViz_max = 0.35,
+	PN_gain = 4,
 	Range_max = 60000,
 	Reflection = 0.09,
 	X_back = -2.55,

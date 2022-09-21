@@ -4,14 +4,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			control = "comboList",
 			defValue = 1,
 			id = "RadarCoverSettings",
-			label = "Radar Cover Installed At Start",
+			label = "Force Radar Cover State At Start",
 			playerOnly = true,
 			values = { {
-					dispName = "YES",
+					dispName = "NO",
 					id = 1
 				}, {
-					dispName = "NO",
+					dispName = "FORCE ON",
 					id = 2
+				}, {
+					dispName = "FORCE OFF",
+					id = 3
 				} },
 			wCtrl = 75
 		}, {
@@ -249,7 +252,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			min = 1,
 			playerOnly = true
 		} },
-	AmmoWeight = 141.75,
+	AmmoWeight = 76.545,
 	CAS_min = 50,
 	CanopyGeometry = {
 		azimuth = { -160, 160 },
@@ -1258,116 +1261,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			category = 8,
 			display_name = "defa_553",
 			drop_cartridge = 0,
-			effect_arg_number = 434,
-			effective_fire_distance = 1800,
-			effects = { {
-					arg = 434,
-					name = "FireEffect"
-				}, {
-					barrel_k = 1.2474,
-					body_k = 6.6066,
-					name = "HeatEffectExt",
-					shot_heat = 7.823
-				}, {
-					name = "SmokeEffect"
-				} },
-			ejector_dir = { 0, -1, 0 },
-			ejector_pos = { -0.4, -1.2, 0.18 },
-			elevation_initial = 0,
-			gun = {
-				barrels_count = 1,
-				impulse_vec_rot = {
-					x = 0,
-					y = 0,
-					z = 0
-				},
-				max_burst_length = 25,
-				rates = { 1249 },
-				recoil_coeff = 1,
-				trigger = {
-					name = "GunTrigger"
-				}
-			},
-			muzzle_pos = { 0, 0, 0 },
-			muzzle_pos_connector = "Gun_point_1",
-			name = "defa_553",
-			short_name = "defa_553",
-			supply = {
-				count = 125,
-				get_mass = <function 1>,
-				get_mass_ = <function 2>,
-				mixes = { { 2, 1, 1, 1, 1, 1 } },
-				shells = { <2>{
-						AP_cap_caliber = 30,
-						Da0 = 0.0008,
-						Da1 = 0,
-						Dv0 = 0.004,
-						_unique_resource_name = "weapons.shells.DEFA552_30",
-						caliber = 30,
-						cartridge = 0,
-						cartridge_mass = 0,
-						charTime = 0,
-						cumulative_mass = 0,
-						cumulative_thickness = 0,
-						cx = { 0.5, 0.75, 0.78, 0.27, 1.65 },
-						damage_factor = 639,
-						display_name = "30mm HE",
-						explosive = 0,
-						full_scale_time = -1,
-						j = 0,
-						k1 = 2e-08,
-						l = 0,
-						life_time = 5,
-						mass = 0.242,
-						model_name = "tracer_bullet_yellow",
-						name = "DEFA552_30",
-						payload = 0,
-						piercing_mass = 0.242,
-						rebound_concrete = <3>{
-							angle0 = 50,
-							angle100 = 75,
-							cx_factor = 5,
-							deviation_angle = 30,
-							velocity_loss_factor = 0.5
-						},
-						rebound_ground = {
-							angle0 = 55,
-							angle100 = 73,
-							cx_factor = 5,
-							deviation_angle = 30,
-							velocity_loss_factor = 0.5
-						},
-						rebound_object = <table 3>,
-						rebound_water = {
-							angle0 = 65,
-							angle100 = 83,
-							cx_factor = 5,
-							deviation_angle = 30,
-							velocity_loss_factor = 0.5
-						},
-						rotation_freq = 7,
-						round_mass = 0.567,
-						s = 0,
-						silent_self_destruction = false,
-						smoke_tail_life_time = -1,
-						subcalibre = false,
-						tracer_off = 4,
-						tracer_on = 0,
-						type_name = "shell",
-						v0 = 820,
-						visual_effect_correction = 0,
-						visual_effect_correction_rebound = 0.1
-					} }
-			},
-			supply_position = { 0.646, -0.876, -0.205 }
-		}, {
-			_file = "./CoreMods/aircraft/Mirage-F1/Mirage-F1CT.lua",
-			_origin = "Mirage F1 Assets by Aerges",
-			aft_gun_mount = false,
-			azimuth_initial = 0,
-			category = 8,
-			display_name = "defa_553",
-			drop_cartridge = 0,
 			effect_arg_number = 435,
 			effective_fire_distance = 1800,
 			effects = { {
@@ -1403,11 +1296,71 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			name = "defa_553",
 			short_name = "defa_553",
 			supply = {
-				count = 125,
-				get_mass = <function 3>,
-				get_mass_ = <function 4>,
+				count = 135,
+				get_mass = <function 1>,
+				get_mass_ = <function 2>,
 				mixes = { { 1, 1, 2, 1, 1, 1 } },
-				shells = { <table 2> }
+				shells = { {
+						AP_cap_caliber = 30,
+						Da0 = 0.0008,
+						Da1 = 0,
+						Dv0 = 0.004,
+						_unique_resource_name = "weapons.shells.DEFA552_30",
+						caliber = 30,
+						cartridge = 0,
+						cartridge_mass = 0,
+						charTime = 0,
+						cumulative_mass = 0,
+						cumulative_thickness = 0,
+						cx = { 0.5, 0.75, 0.78, 0.27, 1.65 },
+						damage_factor = 639,
+						display_name = "30mm HE",
+						explosive = 0,
+						full_scale_time = -1,
+						j = 0,
+						k1 = 2e-08,
+						l = 0,
+						life_time = 5,
+						mass = 0.242,
+						model_name = "tracer_bullet_yellow",
+						name = "DEFA552_30",
+						payload = 0,
+						piercing_mass = 0.242,
+						rebound_concrete = <2>{
+							angle0 = 50,
+							angle100 = 75,
+							cx_factor = 5,
+							deviation_angle = 30,
+							velocity_loss_factor = 0.5
+						},
+						rebound_ground = {
+							angle0 = 55,
+							angle100 = 73,
+							cx_factor = 5,
+							deviation_angle = 30,
+							velocity_loss_factor = 0.5
+						},
+						rebound_object = <table 2>,
+						rebound_water = {
+							angle0 = 65,
+							angle100 = 83,
+							cx_factor = 5,
+							deviation_angle = 30,
+							velocity_loss_factor = 0.5
+						},
+						rotation_freq = 7,
+						round_mass = 0.567,
+						s = 0,
+						silent_self_destruction = false,
+						smoke_tail_life_time = -1,
+						subcalibre = false,
+						tracer_off = 4,
+						tracer_on = 0,
+						type_name = "shell",
+						v0 = 820,
+						visual_effect_correction = 0,
+						visual_effect_correction_rebound = 0.1
+					} }
 			},
 			supply_position = { 0.646, -0.876, 0.205 }
 		} },
@@ -1857,36 +1810,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{FD21B13E-57F3-4C2A-9F78-C522D0B5BCE1}",
 					arg_value = 0.25,
-					attach_point_position = { 0.368, 0.029, 0 },
-					forbidden = { {
-							loadout = { "{R530F_EM}" },
-							station = 4
-						}, {
-							loadout = { "{R530F_IR}" },
-							station = 4
-						} },
-					required = { {
-							loadout = { "{FD21B13E-57F3-4C2A-9F78-C522D0B5BCE1}" },
-							station = 5
-						} }
-				}, {
-					CLSID = "PTB-1200-F1",
-					arg_value = 0.15,
-					attach_point_position = { 0.368, 0.029, 0 },
-					forbidden = { {
-							loadout = { "{R530F_EM}" },
-							station = 4
-						}, {
-							loadout = { "{R530F_IR}" },
-							station = 4
-						} },
-					required = { {
-							loadout = { "PTB-1200-F1" },
-							station = 5
-						} }
-				}, {
-					CLSID = "{FD21B13E-57F3-4C2A-9F78-C522D0B5BCE1}",
-					arg_value = 0.15,
 					required = { {
 							loadout = { "{FD21B13E-57F3-4C2A-9F78-C522D0B5BCE1}" },
 							station = 5
@@ -1943,46 +1866,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.35
 				}, {
 					CLSID = "{CLB4_SAMP125LD}",
-					arg_value = 0.35,
-					attach_point_position = { -0.068, -0.112, 0 },
-					forbidden = { {
-							loadout = { "{R530F_EM}" },
-							station = 3
-						}, {
-							loadout = { "{R530F_EM}" },
-							station = 5
-						}, {
-							loadout = { "{R530F_IR}" },
-							station = 3
-						}, {
-							loadout = { "{R530F_IR}" },
-							station = 5
-						} }
-				}, {
-					CLSID = "{CLB4_SAMP250LD}",
-					arg_value = 0.35,
-					attach_point_position = { -0.068, -0.112, 0 },
-					forbidden = { {
-							loadout = { "{R530F_EM}" },
-							station = 3
-						}, {
-							loadout = { "{R530F_EM}" },
-							station = 5
-						}, {
-							loadout = { "{R530F_IR}" },
-							station = 3
-						}, {
-							loadout = { "{R530F_IR}" },
-							station = 5
-						} }
-				}, {
-					CLSID = "{CLB4_SAMP250HD}",
-					arg_value = 0.35
-				}, {
-					CLSID = "{CLB4_SAMP400LD}",
-					arg_value = 0.35
-				}, {
-					CLSID = "{CLB4_SAMP400HD}",
 					arg_value = 0.35
 				}, {
 					CLSID = "{CLB4_SAMP250LD}",
@@ -2201,39 +2084,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{FD21B13E-57F3-4C2A-9F78-C522D0B5BCE1}",
 					arg_value = 0.25,
-					attach_point_position = { 0.368, 0.029, 0 },
-					forbidden = { {
-							loadout = { "{R530F_EM}" },
-							station = 4
-						}, {
-							loadout = { "{R530F_IR}" },
-							station = 4
-						} },
 					required = { {
 							loadout = { "{FD21B13E-57F3-4C2A-9F78-C522D0B5BCE1}" },
 							station = 5
-						} }
-				}, {
-					CLSID = "PTB-1200-F1",
-					arg_value = 0.15,
-					attach_point_position = { 0.368, 0.029, 0 },
-					forbidden = { {
-							loadout = { "{R530F_EM}" },
-							station = 4
-						}, {
-							loadout = { "{R530F_IR}" },
-							station = 4
-						} },
-					required = { {
-							loadout = { "PTB-1200-F1" },
-							station = 3
-						} }
-				}, {
-					CLSID = "{FD21B13E-57F3-4C2A-9F78-C522D0B5BCE1}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{FD21B13E-57F3-4C2A-9F78-C522D0B5BCE1}" },
-							station = 3
 						} }
 				}, {
 					CLSID = "PTB-1200-F1",
@@ -2895,7 +2748,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					default = 360,
 					modulation = "AM",
-					name = "Channel 20"
+					name = "Channel 20 (N/A in 'Easy Comms')"
 				} },
 			name = "TRAP-137B",
 			range = {
@@ -2904,17 +2757,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			}
 		} },
 	passivCounterm = {
-		CMDS_Edit = true,
-		SingleChargeTotal = 60,
+		CMDS_Edit = false,
+		SingleChargeTotal = 0,
 		chaff = {
-			chargeSz = 1,
-			default = 30,
-			increment = 30
+			chargeSz = 0,
+			default = 0,
+			increment = 0
 		},
 		flare = {
-			chargeSz = 2,
-			default = 15,
-			increment = 15
+			chargeSz = 0,
+			default = 0,
+			increment = 0
 		}
 	},
 	radar_can_see_ground = true,

@@ -776,11 +776,13 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "SON_9",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "tacr2a"
 				}, {
 					Name = "LARC-V"
-				}, {
-					Name = "SON_9"
 				}, {
 					Name = "ZSU_57_2"
 				}, {

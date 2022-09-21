@@ -7,7 +7,7 @@ _G["launcher"]["{X-29L}"] = {
 			ShapeName = "X-29L"
 		} },
 	Picture = "kh29L.png",
-	Weight = 747,
+	Weight = 660,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/AS_Missiles.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },

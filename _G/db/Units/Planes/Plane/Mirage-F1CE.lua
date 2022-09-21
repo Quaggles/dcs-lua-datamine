@@ -4,14 +4,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			control = "comboList",
 			defValue = 1,
 			id = "RadarCoverSettings",
-			label = "Radar Cover Installed At Start",
+			label = "Force Radar Cover State At Start",
 			playerOnly = true,
 			values = { {
-					dispName = "YES",
+					dispName = "NO",
 					id = 1
 				}, {
-					dispName = "NO",
+					dispName = "FORCE ON",
 					id = 2
+				}, {
+					dispName = "FORCE OFF",
+					id = 3
 				} },
 			wCtrl = 75
 		}, {
@@ -249,7 +252,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			min = 1,
 			playerOnly = true
 		} },
-	AmmoWeight = 141.75,
+	AmmoWeight = 153.09,
 	CAS_min = 50,
 	CanopyGeometry = {
 		azimuth = { -160, 160 },
@@ -1292,7 +1295,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			name = "defa_553",
 			short_name = "defa_553",
 			supply = {
-				count = 125,
+				count = 135,
 				get_mass = <function 1>,
 				get_mass_ = <function 2>,
 				mixes = { { 2, 1, 1, 1, 1, 1 } },
@@ -1402,7 +1405,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			name = "defa_553",
 			short_name = "defa_553",
 			supply = {
-				count = 125,
+				count = 135,
 				get_mass = <function 3>,
 				get_mass_ = <function 4>,
 				mixes = { { 1, 1, 2, 1, 1, 1 } },
@@ -1783,7 +1786,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{SAMP250HD}",
 					arg_value = 0.25,
-					attach_point_position = { 0.04, 0, 0 },
 					required = { {
 							loadout = { "{SAMP250HD}" },
 							station = 6
@@ -2014,7 +2016,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{SAMP250HD}",
 					arg_value = 0.15,
-					attach_point_position = { 0.04, 0, 0 },
 					required = { {
 							loadout = { "{SAMP250HD}" },
 							station = 5
@@ -2163,14 +2164,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{MATRA_F4_SNEBT254_GREEN}",
 					arg_value = 0.15,
-					attach_point_position = { 0.368, 0.029, 0 },
-					forbidden = { {
-							loadout = { "{R530F_EM}" },
-							station = 4
-						}, {
-							loadout = { "{R530F_IR}" },
-							station = 4
-						} },
 					required = { {
 							loadout = { "{MATRA_F4_SNEBT254_GREEN}" },
 							station = 5
@@ -2178,14 +2171,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{MATRA_F4_SNEBT256}",
 					arg_value = 0.15,
-					attach_point_position = { 0.368, 0.029, 0 },
-					forbidden = { {
-							loadout = { "{R530F_EM}" },
-							station = 4
-						}, {
-							loadout = { "{R530F_IR}" },
-							station = 4
-						} },
 					required = { {
 							loadout = { "{MATRA_F4_SNEBT256}" },
 							station = 5
@@ -2288,38 +2273,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.15
 				}, {
 					CLSID = "{SAMP400LD}",
-					arg_value = 0.15,
-					attach_point_position = { -0.068, -0.112, 0 },
-					forbidden = { {
-							loadout = { "{R530F_EM}" },
-							station = 3
-						}, {
-							loadout = { "{R530F_EM}" },
-							station = 5
-						}, {
-							loadout = { "{R530F_IR}" },
-							station = 3
-						}, {
-							loadout = { "{R530F_IR}" },
-							station = 5
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{SAMP400HD}",
-					arg_value = 0.15,
-					attach_point_position = { -0.068, -0.112, 0 },
-					forbidden = { {
-							loadout = { "{R530F_EM}" },
-							station = 3
-						}, {
-							loadout = { "{R530F_EM}" },
-							station = 5
-						}, {
-							loadout = { "{R530F_IR}" },
-							station = 3
-						}, {
-							loadout = { "{R530F_IR}" },
-							station = 5
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{R530F_EM}",
 					arg_value = 0.25,
@@ -2435,7 +2392,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{SAMP250HD}",
 					arg_value = 0.15,
-					attach_point_position = { 0.04, 0, 0 },
 					required = { {
 							loadout = { "{SAMP250HD}" },
 							station = 3
@@ -2584,14 +2540,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{MATRA_F4_SNEBT254_GREEN}",
 					arg_value = 0.15,
-					attach_point_position = { 0.368, 0.029, 0 },
-					forbidden = { {
-							loadout = { "{R530F_EM}" },
-							station = 4
-						}, {
-							loadout = { "{R530F_IR}" },
-							station = 4
-						} },
 					required = { {
 							loadout = { "{MATRA_F4_SNEBT254_GREEN}" },
 							station = 3
@@ -2599,14 +2547,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{MATRA_F4_SNEBT256}",
 					arg_value = 0.15,
-					attach_point_position = { 0.368, 0.029, 0 },
-					forbidden = { {
-							loadout = { "{R530F_EM}" },
-							station = 4
-						}, {
-							loadout = { "{R530F_IR}" },
-							station = 4
-						} },
 					required = { {
 							loadout = { "{MATRA_F4_SNEBT256}" },
 							station = 3
@@ -2725,7 +2665,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{SAMP250HD}",
 					arg_value = 0.25,
-					attach_point_position = { 0.04, 0, 0 },
 					required = { {
 							loadout = { "{SAMP250HD}" },
 							station = 2
@@ -3486,7 +3425,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					default = 360,
 					modulation = "AM",
-					name = "Channel 20"
+					name = "Channel 20 (N/A in 'Easy Comms')"
 				} },
 			name = "TRAP-137B",
 			range = {

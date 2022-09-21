@@ -4,14 +4,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			control = "comboList",
 			defValue = 1,
 			id = "RadarCoverSettings",
-			label = "Radar Cover Installed At Start",
+			label = "Force Radar Cover State At Start",
 			playerOnly = true,
 			values = { {
-					dispName = "YES",
+					dispName = "NO",
 					id = 1
 				}, {
-					dispName = "NO",
+					dispName = "FORCE ON",
 					id = 2
+				}, {
+					dispName = "FORCE OFF",
+					id = 3
 				} },
 			wCtrl = 75
 		}, {
@@ -249,7 +252,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			min = 1,
 			playerOnly = true
 		} },
-	AmmoWeight = 141.75,
+	AmmoWeight = 153.09,
 	CAS_min = 50,
 	CanopyGeometry = {
 		azimuth = { -160, 160 },
@@ -1293,7 +1296,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			name = "defa_553",
 			short_name = "defa_553",
 			supply = {
-				count = 125,
+				count = 135,
 				get_mass = <function 1>,
 				get_mass_ = <function 2>,
 				mixes = { { 2, 1, 1, 1, 1, 1 } },
@@ -1403,7 +1406,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			name = "defa_553",
 			short_name = "defa_553",
 			supply = {
-				count = 125,
+				count = 135,
 				get_mass = <function 3>,
 				get_mass_ = <function 4>,
 				mixes = { { 1, 1, 2, 1, 1, 1 } },
@@ -2860,7 +2863,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					default = 360,
 					modulation = "AM",
-					name = "Channel 20"
+					name = "Channel 20 (N/A in 'Easy Comms')"
 				} },
 			name = "TRAP-137B",
 			range = {

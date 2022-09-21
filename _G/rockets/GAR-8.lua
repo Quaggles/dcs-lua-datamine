@@ -37,6 +37,7 @@ _G["rockets"]["#Index"] = {
 	display_name = "AIM-9B",
 	exhaust = { 1, 1, 1, 1 },
 	name = "GAR-8",
+	nozzle_exit_area = 0.005,
 	shape_table_data = { {
 			file = "aim-9b",
 			fire = { 0, 1 },
@@ -46,6 +47,7 @@ _G["rockets"]["#Index"] = {
 			username = "GAR-8"
 		} },
 	sigma = { 3, 3, 3 },
+	supersonic_A_coef_skew = 0.25,
 	t_acc = 2.2,
 	t_b = 0,
 	t_marsh = 0,

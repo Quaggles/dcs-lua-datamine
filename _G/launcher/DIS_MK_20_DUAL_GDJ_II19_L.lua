@@ -7,10 +7,10 @@ _G["launcher"]["DIS_MK_20_DUAL_GDJ_II19_L"] = {
 			ShapeName = "JF-17_GDJ-II19L"
 		}, {
 			ShapeName = "ROCKEYE",
-			connector_name = "Pylon_GDJ-II19L_L"
+			connector_name = "Pylon_GDJ-II19L_R"
 		}, {
 			ShapeName = "ROCKEYE",
-			connector_name = "Pylon_GDJ-II19L_R"
+			connector_name = "Pylon_GDJ-II19L_L"
 		} },
 	JettisonSubmunitionOnly = true,
 	Picture = "Mk20.png",
@@ -20,6 +20,7 @@ _G["launcher"]["DIS_MK_20_DUAL_GDJ_II19_L"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "GDJ-II19 - 2 x Mk-20",
+	ejectImpulse = 140,
 	name = "DIS_MK_20_DUAL_GDJ_II19_L",
 	wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 }

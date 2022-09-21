@@ -7,55 +7,17 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			label = "FCR/RFI removed",
 			weightWhenOn = -237.23
 		}, {
-			control = "comboList",
-			defValue = 0,
-			id = "NetCrewControlPriority",
-			label = "Aircraft Control Priority",
-			playerOnly = true,
-			values = { {
-					dispName = "Pilot",
-					id = 0
-				}, {
-					dispName = "CPG",
-					id = 1
-				}, {
-					dispName = "Ask Always",
-					id = -1
-				}, {
-					dispName = "Equally Responsible",
-					id = -2
-				} },
-			wCtrl = 150
-		}, {
-			control = "checkbox",
-			defValue = false,
-			id = "AIDisabled",
-			label = "AI Disabled"
-		}, {
+			arg = 509,
 			control = "checkbox",
 			defValue = true,
-			id = "TrackAirTargets",
-			label = "Track Air Targets"
+			id = "PltNVG",
+			label = "Allow Plt NVG"
 		}, {
-			control = "comboList",
-			defValue = 0,
-			id = "OverrideIFF",
-			label = "AI IFF Detection Mode",
-			playerOnly = true,
-			values = { {
-					dispName = "Auto",
-					id = 0
-				}, {
-					dispName = "Simple",
-					id = 1
-				}, {
-					dispName = "Label Only",
-					id = 2
-				}, {
-					dispName = "Realistic",
-					id = 3
-				} },
-			wCtrl = 150
+			arg = 519,
+			control = "checkbox",
+			defValue = true,
+			id = "CpgNVG",
+			label = "Allow Cpg NVG"
 		}, {
 			control = "comboList",
 			defValue = 0,
@@ -175,27 +137,81 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				} },
 			wCtrl = 150
 		}, {
-			arg = 509,
-			control = "checkbox",
-			defValue = true,
-			id = "PltNVG",
-			label = "Allow Plt NVG"
+			control = "label",
+			id = "mul_Label",
+			label = "AI HELPER",
+			xLbl = 150
 		}, {
-			arg = 519,
+			control = "comboList",
+			defValue = 0,
+			id = "OverrideIFF",
+			label = "AI IFF Detection Mode",
+			playerOnly = true,
+			values = { {
+					dispName = "Auto",
+					id = 0
+				}, {
+					dispName = "Simple",
+					id = 1
+				}, {
+					dispName = "Label Only",
+					id = 2
+				}, {
+					dispName = "Realistic",
+					id = 3
+				} },
+			wCtrl = 150
+		}, {
 			control = "checkbox",
 			defValue = true,
-			id = "CpgNVG",
-			label = "Allow Cpg NVG"
+			id = "TrackAirTargets",
+			label = "Track Air Targets"
+		}, {
+			control = "label",
+			id = "mul_Label",
+			label = "MULTIPLAYER",
+			xLbl = 150
+		}, {
+			control = "comboList",
+			defValue = 0,
+			id = "NetCrewControlPriority",
+			label = "Aircraft Control Priority",
+			playerOnly = true,
+			values = { {
+					dispName = "Pilot",
+					id = 0
+				}, {
+					dispName = "CPG",
+					id = 1
+				}, {
+					dispName = "Ask Always",
+					id = -1
+				}, {
+					dispName = "Equally Responsible",
+					id = -2
+				} },
+			wCtrl = 150
+		}, {
+			control = "checkbox",
+			defValue = false,
+			id = "AIDisabled",
+			label = "AI Disabled"
+		}, {
+			control = "checkbox",
+			defValue = false,
+			id = "HumanOrchestra",
+			label = "Disable Multicrew",
+			playerOnly = true
 		} },
 	AmmoWeight = 102.9,
 	CanopyGeometry = { -0.93969262078591, -0.95280922353749, -0.96592582628907, -0.049950211252315, 0.86602540378444 },
 	Categories = {},
 	Damage = { {
 			args = { 150 },
-			critical_damage = 5
+			critical_damage = 3
 		}, {
 			args = { 149 },
-			critical_damage = 5
+			critical_damage = 3
 		}, {
 			args = { 65 },
 			critical_damage = 3
@@ -210,7 +226,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		},
 		[7] = {
 			args = { 610 },
-			critical_damage = 4
+			critical_damage = 3
 		},
 		[9] = {
 			args = { 154 },
@@ -222,19 +238,19 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		},
 		[11] = {
 			args = { 166 },
-			critical_damage = 5
+			critical_damage = 3
 		},
 		[12] = {
 			args = { 160 },
-			critical_damage = 5
+			critical_damage = 3
 		},
 		[15] = {
 			args = { 257 },
-			critical_damage = 5
+			critical_damage = 3
 		},
 		[16] = {
 			args = { 256 },
-			critical_damage = 5
+			critical_damage = 3
 		},
 		[23] = {
 			args = { 224 },
@@ -246,11 +262,11 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		},
 		[33] = {
 			args = { 227 },
-			critical_damage = 5
+			critical_damage = 3
 		},
 		[34] = {
 			args = { 226 },
-			critical_damage = 5
+			critical_damage = 3
 		},
 		[35] = {
 			args = { 225 },
@@ -264,30 +280,31 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		},
 		[39] = {
 			args = { 61 },
-			critical_damage = 5,
+			critical_damage = 3,
 			deps_cells = { 40, 47, 83, 54 }
 		},
 		[40] = {
 			args = { 62 },
-			critical_damage = 5
+			critical_damage = 3,
+			deps_cells = { 54 }
 		},
 		[41] = {
 			args = { 245 },
-			critical_damage = 5,
+			critical_damage = 3,
 			deps_cells = { 39, 43 }
 		},
 		[42] = {
 			args = { 242 },
-			critical_damage = 5,
+			critical_damage = 3,
 			deps_cells = { 39, 43 }
 		},
 		[43] = {
 			args = { 81 },
-			critical_damage = 5
+			critical_damage = 3
 		},
 		[47] = {
 			args = { 63 },
-			critical_damage = 5
+			critical_damage = 3
 		},
 		[54] = {
 			args = { 238 },
@@ -307,7 +324,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		},
 		[59] = {
 			args = { 148 },
-			critical_damage = 5
+			critical_damage = 3
 		},
 		[63] = {
 			critical_damage = 20,
@@ -371,19 +388,19 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		},
 		[82] = {
 			args = { 152 },
-			critical_damage = 5
+			critical_damage = 3
 		},
 		[83] = {
 			args = { 264 },
-			critical_damage = 5
+			critical_damage = 3
 		},
 		[84] = {
 			args = { 255 },
-			critical_damage = 5
+			critical_damage = 3
 		},
 		[85] = {
 			args = { 254 },
-			critical_damage = 5
+			critical_damage = 3
 		},
 		[90] = {
 			critical_damage = 1
@@ -393,7 +410,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		},
 		[99] = {
 			args = { 151 },
-			critical_damage = 5
+			critical_damage = 3
 		},
 		[100] = {
 			args = { 155 },
@@ -477,7 +494,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	},
 	DisplayName = "AH-64D BLK.II",
 	EPLRS = true,
-	EmptyWeight = 6035.5,
+	EmptyWeight = 6167.7,
 	Failures = { {
 			enable = false,
 			hh = 0,
@@ -842,7 +859,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				table = { { -1, -27 }, { -0.95, -25.697 }, { -0.9, -24.406 }, { -0.85, -23.129 }, { -0.8, -21.864 }, { -0.75, -20.613 }, { -0.7, -19.374 }, { -0.65, -18.149 }, { -0.6, -16.936 }, { -0.55, -15.737 }, { -0.5, -14.55 }, { -0.45, -13.377 }, { -0.4, -12.216 }, { -0.35, -11.069 }, { -0.3, -9.934 }, { -0.25, -8.813 }, { -0.2, -7.704 }, { -0.15, -6.609 }, { -0.1, -5.526 }, { -0.05, -4.457 }, { 0, -3.4 }, { 0.05, -2.357 }, { 0.1, -1.326 }, { 0.15, -0.309 }, { 0.2, 0.696 }, { 0.25, 1.688 }, { 0.3, 2.666 }, { 0.35, 3.632 }, { 0.4, 4.584 }, { 0.45, 5.524 }, { 0.5, 6.45 }, { 0.55, 7.364 }, { 0.6, 8.264 }, { 0.65, 9.152 }, { 0.7, 10.026 }, { 0.75, 10.888 }, { 0.8, 11.736 }, { 0.85, 12.572 }, { 0.9, 13.394 }, { 0.95, 14.204 }, { 1, 15 } }
 			}
 		},
-		debugLine = "{Vx_l}:%4.1f {Vy_w}:%4.1f {Vz_l}:%4.1f {pitch}:%4.1f {roll}:%5.1f {RAlt}:%7.1f {Alt}:%7.1f {BAlt}:%7.1f;{mass}:%6.1f {mass_lb}:%7.1f {CG_X_inch}:%5.1f {CenteringX}:%4.0f {CenteringY}:%4.0f {Collective}:%4.1f {Lstab}:%4.1f ;{FAT}:%5.1f {TailRotPitch}:%5.1f {StickR}:%6.1f {StickP}:%6.1f {Rud}:%6.1f ;{RotorRPM}:%5.1f {PlateR}:%4.1f {PlateP}:%4.1f {N1_L}:%5.1f {N1_R}:%5.1f {N2_L}:%5.1f {N2_R}:%5.1f ",
+		debugLine = "{Vx_l}:%4.1f {Vy_w}:%4.1f {Vz_l}:%4.1f {pitch}:%4.1f {roll}:%5.1f {RAlt}:%7.1f {Alt}:%7.1f {BAlt}:%7.1f;{mass}:%6.1f {mass_lb}:%7.1f {CG_X_inch}:%5.1f {CenteringX}:%4.0f {CenteringY}:%4.0f {MainRotPitch}:%4.1f {Lstab}:%4.1f ;{FAT}:%5.1f {TailRotPitch}:%5.1f {StickR}:%6.1f {StickP}:%6.1f {Rud}:%6.1f ;{RotorRPM}:%5.1f {PlateR}:%4.1f {PlateP}:%4.1f {N1_L}:%5.1f {N1_R}:%5.1f {N2_L}:%5.1f {N2_R}:%5.1f ",
 		disable_built_in_oxygen_system = true,
 		ffbPitchK = 0.65,
 		ffbRollK = 0.65,
@@ -997,6 +1014,11 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				wheel_side_friction_factor = 0.35,
 				wheel_static_friction_factor = 0.7
 			} },
+		tailRotorVortexRingK1 = 1.5,
+		tailRotorVortexRingK2 = 2.1,
+		tailRotorVortexRingK3 = 6.5,
+		tailRotorVortexRingThrustLoss = 0.6,
+		tailRotorVortexRingWashout = 12.5,
 		thrust_function = { { 40, 0 }, { 440, 0.8 }, { 462, 0.805 }, { 484, 0.81 }, { 506, 0.815 }, { 528, 0.82 }, { 550, 0.825 }, { 572, 0.83 }, { 594, 0.835 }, { 616, 0.84 }, { 638, 0.845 }, { 660, 0.852 }, { 682, 0.863 }, { 704, 0.877 }, { 726, 0.89 }, { 748, 0.906 }, { 770, 0.923 }, { 792, 0.942 }, { 814, 0.957 }, { 836, 0.975 }, { 858, 0.99 }, { 880, 1 } },
 		totalTransmissionInertiaMoment = 7909.0362,
 		user_options = "AH-64D_BLK_II",
@@ -1035,7 +1057,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			Name = "HelicopterCarrier"
 		} },
 	MOI = { 6170, 28982, 33441 },
-	M_empty = 6035.5,
+	M_empty = 6167.7,
 	M_fuel_max = 1438,
 	M_max = 10432.6,
 	M_nominal = 6552,
@@ -1827,6 +1849,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			role_display_name = "Copilot/Gunner"
 		} },
 	crew_size = 2,
+	crew_stations = "HumanOrchestra",
 	detection_range_max = 0,
 	doors_movement = 2,
 	effects_presets = { {

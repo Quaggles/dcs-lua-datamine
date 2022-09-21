@@ -31,6 +31,7 @@ _G["launcher"]["DIS_MER6_250_3_N6"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "MER6 - 6 x 250-3 - 250kg GP Bombs LD",
+	ejectImpulse = 140,
 	name = "DIS_MER6_250_3_N6",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

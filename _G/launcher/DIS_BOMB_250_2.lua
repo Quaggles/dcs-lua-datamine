@@ -11,5 +11,6 @@ _G["launcher"]["DIS_BOMB_250_2"] = {
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	attribute = { 4, 5, 9, "Redacted" },
 	category = 1,
-	displayName = "250-2 - 250kg GP Bombs HD"
+	displayName = "250-2 - 250kg GP Bombs HD",
+	ejectImpulse = 140
 }

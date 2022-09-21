@@ -29,6 +29,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							virtualStwID = 2
 						} },
 					beamWidth = 0.017453292519943,
+					combatRange = 1200,
 					sensor = {},
 					sightIndicationMode = 1,
 					sightMasterMode = 1
@@ -45,6 +46,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							shell_name = { "120_EXPL_F1_120mm_HE" },
 							virtualStwID = 2
 						} },
+					combatRange = 800,
 					distanceMax = 8000,
 					distanceMin = 20,
 					sensor = {},

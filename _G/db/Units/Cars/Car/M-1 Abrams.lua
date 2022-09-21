@@ -232,6 +232,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							virtualStwID = 2
 						} },
 					beamWidth = 0.017453292519943,
+					combatRange = 1200,
 					distanceMaxForFCS = 5000,
 					sensor = {},
 					sightIndicationMode = 1,
@@ -251,6 +252,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							shot_delay = 18,
 							virtualStwID = 2
 						} },
+					combatRange = 800,
 					distanceMax = 8000,
 					distanceMaxForFCS = 5000,
 					distanceMin = 20,

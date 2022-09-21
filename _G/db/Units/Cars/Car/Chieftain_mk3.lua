@@ -143,6 +143,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							virtualStwID = 2
 						} },
 					beamWidth = 0.017453292519943,
+					combatRange = 1100,
 					reactionTime = 2,
 					sensor = {},
 					sightIndicationMode = 1,
@@ -160,6 +161,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							shell_name = { "L31A7_HESH" },
 							virtualStwID = 2
 						} },
+					combatRange = 700,
 					distanceMax = 5000,
 					distanceMin = 20,
 					sensor = {},

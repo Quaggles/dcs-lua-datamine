@@ -4,14 +4,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			control = "comboList",
 			defValue = 1,
 			id = "RadarCoverSettings",
-			label = "Radar Cover Installed At Start",
+			label = "Force Radar Cover State At Start",
 			playerOnly = true,
 			values = { {
-					dispName = "YES",
+					dispName = "NO",
 					id = 1
 				}, {
-					dispName = "NO",
+					dispName = "FORCE ON",
 					id = 2
+				}, {
+					dispName = "FORCE OFF",
+					id = 3
 				} },
 			wCtrl = 75
 		}, {
@@ -1791,10 +1794,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{R530F_IR}" },
 							station = 4
-						} },
-					required = { {
-							loadout = { "{R530F_EM}" },
-							station = 5
 						} }
 				}, {
 					CLSID = "{R530F_IR}",
@@ -1806,10 +1805,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{R530F_IR}" },
 							station = 4
-						} },
-					required = { {
-							loadout = { "{R530F_IR}" },
-							station = 5
 						} }
 				}, {
 					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
@@ -1823,13 +1818,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.15,
 					required = { {
 							loadout = { "{0D33DDAE-524F-4A4E-B5B8-621754FE3ADE}" },
-							station = 5
-						} }
-				}, {
-					CLSID = "PTB-1200-F1",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "PTB-1200-F1" },
 							station = 5
 						} }
 				}, {
@@ -2182,10 +2170,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{R530F_IR}" },
 							station = 4
-						} },
-					required = { {
-							loadout = { "{R530F_EM}" },
-							station = 3
 						} }
 				}, {
 					CLSID = "{R530F_IR}",
@@ -2197,10 +2181,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{R530F_IR}" },
 							station = 4
-						} },
-					required = { {
-							loadout = { "{R530F_IR}" },
-							station = 3
 						} }
 				}, {
 					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
@@ -2214,13 +2194,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.15,
 					required = { {
 							loadout = { "{0D33DDAE-524F-4A4E-B5B8-621754FE3ADE}" },
-							station = 3
-						} }
-				}, {
-					CLSID = "PTB-1200-F1",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "PTB-1200-F1" },
 							station = 3
 						} }
 				}, {
@@ -3011,6 +2984,182 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	nose_gear_amortizer_reversal_stroke = -0.152,
 	nose_gear_pos = { 2.871, -2.13, 0 },
 	nose_gear_wheel_diameter = 0.346,
+	panelRadio = { {
+			channels = { {
+					connect = true,
+					default = 118,
+					modulation = "AM",
+					name = "Channel 1"
+				}, {
+					default = 119.25,
+					modulation = "AM",
+					name = "Channel 2"
+				}, {
+					default = 122,
+					modulation = "AM",
+					name = "Channel 3"
+				}, {
+					default = 126.5,
+					modulation = "AM",
+					name = "Channel 4"
+				}, {
+					default = 127,
+					modulation = "AM",
+					name = "Channel 5"
+				}, {
+					default = 129,
+					modulation = "AM",
+					name = "Channel 6"
+				}, {
+					default = 131,
+					modulation = "AM",
+					name = "Channel 7"
+				}, {
+					default = 133,
+					modulation = "AM",
+					name = "Channel 8"
+				}, {
+					default = 141,
+					modulation = "AM",
+					name = "Channel 9"
+				}, {
+					default = 250.5,
+					modulation = "AM",
+					name = "Channel 10"
+				}, {
+					default = 251,
+					modulation = "AM",
+					name = "Channel 11"
+				}, {
+					default = 253,
+					modulation = "AM",
+					name = "Channel 12"
+				}, {
+					default = 254,
+					modulation = "AM",
+					name = "Channel 13"
+				}, {
+					default = 257,
+					modulation = "AM",
+					name = "Channel 14"
+				}, {
+					default = 260,
+					modulation = "AM",
+					name = "Channel 15"
+				}, {
+					default = 261,
+					modulation = "AM",
+					name = "Channel 16"
+				}, {
+					default = 262,
+					modulation = "AM",
+					name = "Channel 17"
+				}, {
+					default = 263,
+					modulation = "AM",
+					name = "Channel 18"
+				}, {
+					default = 267,
+					modulation = "AM",
+					name = "Channel 19"
+				}, {
+					default = 270,
+					modulation = "AM",
+					name = "Channel 20"
+				} },
+			name = "TRAP-136",
+			range = {
+				max = 399.975,
+				min = 118
+			}
+		}, {
+			channels = { {
+					default = 225,
+					modulation = "AM",
+					name = "Channel 1"
+				}, {
+					default = 230,
+					modulation = "AM",
+					name = "Channel 2"
+				}, {
+					default = 240,
+					modulation = "AM",
+					name = "Channel 3"
+				}, {
+					default = 250.5,
+					modulation = "AM",
+					name = "Channel 4"
+				}, {
+					default = 251,
+					modulation = "AM",
+					name = "Channel 5"
+				}, {
+					default = 256,
+					modulation = "AM",
+					name = "Channel 6"
+				}, {
+					default = 257,
+					modulation = "AM",
+					name = "Channel 7"
+				}, {
+					default = 262,
+					modulation = "AM",
+					name = "Channel 8"
+				}, {
+					default = 263,
+					modulation = "AM",
+					name = "Channel 9"
+				}, {
+					default = 267,
+					modulation = "AM",
+					name = "Channel 10"
+				}, {
+					default = 270,
+					modulation = "AM",
+					name = "Channel 11"
+				}, {
+					default = 254,
+					modulation = "AM",
+					name = "Channel 12"
+				}, {
+					default = 264,
+					modulation = "AM",
+					name = "Channel 13"
+				}, {
+					default = 266,
+					modulation = "AM",
+					name = "Channel 14"
+				}, {
+					default = 265,
+					modulation = "AM",
+					name = "Channel 15"
+				}, {
+					default = 252,
+					modulation = "AM",
+					name = "Channel 16"
+				}, {
+					default = 268,
+					modulation = "AM",
+					name = "Channel 17"
+				}, {
+					default = 271,
+					modulation = "AM",
+					name = "Channel 18"
+				}, {
+					default = 275,
+					modulation = "AM",
+					name = "Channel 19"
+				}, {
+					default = 360,
+					modulation = "AM",
+					name = "Channel 20 (N/A in 'Easy Comms')"
+				} },
+			name = "TRAP-137B",
+			range = {
+				max = 399.975,
+				min = 225
+			}
+		} },
 	passivCounterm = {
 		CMDS_Edit = true,
 		SingleChargeTotal = 60,
