@@ -15,6 +15,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	WS = { {
 			LN = { {
 					BR = { {
+							alternativeRecoil = true,
 							connector_name = "POINT_GUN",
 							pos = {},
 							recoilArgument = 13,
@@ -38,13 +39,14 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						}, {
 							shell_name = {}
 						} },
+					connectorFire = false,
 					fireAnimationArgument = 23,
 					maxShootingSpeed = 0,
 					name = "M1 Garand .30 cal",
 					reloadSound = {
 						firstSoundTime = 0,
 						onEmptyFeeder = true,
-						secondSoundTime = 0.5
+						secondSoundTime = 2.5
 					},
 					sensor = {}
 				} },
@@ -78,6 +80,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		breath = {},
 		dead = {},
 		idle = {},
+		knee = {
+			animation_down_time = 0.6,
+			animation_up_time = 0.8,
+			argument = 4,
+			end_animation_down = 1,
+			end_animation_up = 0,
+			start_animation_down = 0,
+			start_animation_up = 1
+		},
 		run = {},
 		walk = {}
 	},
@@ -96,6 +107,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000201",
 	mobile = true,
+	morale = {},
 	sensor = {
 		height = 1.8,
 		max_range_finding_target = 2000

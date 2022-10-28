@@ -186,7 +186,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		},
 		[0] = {
 			args = { 146 },
-			critical_damage = 5
+			critical_damage = 10
 		},
 		[19] = {
 			args = { 185 },
@@ -209,6 +209,14 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		[25] = {
 			args = { 151 },
 			critical_damage = 5
+		},
+		[26] = {
+			args = { 296 },
+			critical_damage = 4
+		},
+		[31] = {
+			args = { 303 },
+			critical_damage = 10
 		},
 		[35] = {
 			args = { 225 },
@@ -542,10 +550,12 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						k1 = 7.6e-09,
 						l = 0,
 						life_time = 6,
+						manualWeaponFlag = 21,
 						mass = 0.39,
 						model_name = "pula",
 						name = "GSh_30_2K_AP",
 						payload = 0,
+						payload_type = 0,
 						piercing_mass = 0.39,
 						rebound_concrete = <2>{
 							angle0 = 50,
@@ -604,10 +614,12 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						k1 = 7.6e-09,
 						l = 0,
 						life_time = 6,
+						manualWeaponFlag = 21,
 						mass = 0.387,
 						model_name = "pula",
 						name = "GSh_30_2K_HE",
 						payload = 0.071995569503415,
+						payload_type = 0,
 						piercing_mass = 0.0774,
 						rebound_concrete = <3>{
 							angle0 = 50,
@@ -666,10 +678,12 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						k1 = 7.6e-09,
 						l = 0,
 						life_time = 6,
+						manualWeaponFlag = 21,
 						mass = 0.39,
 						model_name = "tracer_bullet_yellow",
 						name = "GSh_30_2K_HE_Tr",
 						payload = 0.071995569503415,
+						payload_type = 0,
 						piercing_mass = 0.078,
 						rebound_concrete = <4>{
 							angle0 = 50,
@@ -728,10 +742,12 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						k1 = 7.6e-09,
 						l = 0,
 						life_time = 6,
+						manualWeaponFlag = 21,
 						mass = 0.39,
 						model_name = "tracer_bullet_yellow",
 						name = "GSh_30_2K_AP_Tr",
 						payload = 0,
+						payload_type = 0,
 						piercing_mass = 0.39,
 						rebound_concrete = <5>{
 							angle0 = 50,
@@ -808,6 +824,9 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				["C-101EB"] = {
 					enable_options_key_for_unit = "c101eb_common_enabled"
 				},
+				["Christen Eagle II"] = {
+					enable_options_key_for_unit = "CE_II_enabled"
+				},
 				["F-14B"] = {
 					enable_options_key_for_unit = "f14b_enabled"
 				},
@@ -835,6 +854,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					enable_options_key_for_unit = "jf17_enabled"
 				},
 				["Ka-50"] = <table 6>,
+				["Ka-50_3"] = <table 6>,
 				["L-39C"] = {
 					enable_options_key_for_unit = "l39c_common_enabled"
 				},
@@ -1721,9 +1741,9 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				EyePoint = { 0.09, 0, 0 },
 				limits_6DOF = {
 					roll = 45,
-					x = { -5, 5 },
-					y = { -5, 5 },
-					z = { -5, 5 }
+					x = { -1.1, 1.6 },
+					y = { -0.55, 0.55 },
+					z = { -0.46, 0.46 }
 				}
 			},
 			CockpitAnchorPoint = { 3.176, 0.586, -0.007 }

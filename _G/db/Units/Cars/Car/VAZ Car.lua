@@ -3,6 +3,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	CustomAimPoint = { 0, 0.7, 0 },
 	DetectionRange = 0,
 	DisplayName = "Car VAZ-2109",
 	DisplayNameShort = "VAZ-2109",
@@ -23,7 +24,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 2, 17, 25, "Redacted", "Cars", "All", "Ground Units", "Vehicles", "Ground vehicles", "Ground Units Non Airdefence", "NonAndLightArmoredUnits", "NonArmoredUnits", "Unarmed vehicles" },
+	attribute = { 2, 17, 25, "Redacted", "Cars", "CustomAimPoint", "All", "Ground Units", "Vehicles", "Ground vehicles", "Ground Units Non Airdefence", "NonAndLightArmoredUnits", "NonArmoredUnits", "Unarmed vehicles" },
 	category = "Unarmed",
 	chassis = {},
 	enablePlayerCanDrive = false,
@@ -41,7 +42,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "VAZ Car",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0.003, 0.0031 }, { 0, 0 }, { 0, 0 }, { 0.22, 0.000275 } }
+			coeffs = { { 0.031, 0.0022 }, { 0.003, 0.0031 }, { 0, 0 },
+				[5] = { 0.22, 0.000275 }
+			}
 		},
 		agony_explosion_size = 2,
 		fire_pos = { 1.1, 0.6, 0 },

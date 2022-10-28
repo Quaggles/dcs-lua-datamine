@@ -43,13 +43,13 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP125LD"] = {
 				username = "SAMP125"
 			} },
 		targeting_data = {
-			char_time = 20.33
+			char_time = 20.34
 		},
 		type = 1,
 		user_name = "SAMP-125 LD",
 		warhead = {
 			caliber = 198,
-			concrete_factors = { 1, 1, 0.1 },
+			concrete_factors = { 1, 1, 0.5 },
 			concrete_obj_factor = 1,
 			cumulative_factor = 0,
 			cumulative_thickness = 0,
@@ -105,13 +105,13 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP125LD"] = {
 				username = "SAMP125"
 			} },
 		targeting_data = {
-			char_time = 20.33
+			char_time = 20.34
 		},
 		type = 1,
 		user_name = "SAMP-125 LD",
 		warhead = {
 			caliber = 198,
-			concrete_factors = { 1, 1, 0.1 },
+			concrete_factors = { 1, 1, 0.5 },
 			concrete_obj_factor = 1,
 			cumulative_factor = 0,
 			cumulative_thickness = 0,
@@ -126,7 +126,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP125LD"] = {
 	},
 	sounderName = "Weapons/Bomb",
 	targeting_data = {
-		char_time = 20.33
+		char_time = 20.34
 	},
 	type_name = "bomb",
 	ws_type = { 4, 5, 9, "Redacted" }

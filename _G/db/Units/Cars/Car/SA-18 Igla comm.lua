@@ -28,6 +28,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	chassis = {},
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000201",
+	morale = {},
 	sensor = {},
 	snd = {},
 	swapped_names = true,

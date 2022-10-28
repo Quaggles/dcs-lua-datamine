@@ -5,9 +5,9 @@ _G["warheads"]["X_25ML"] = {
 	cumulative_factor = 0,
 	cumulative_thickness = 0,
 	default_fuze_delay = 0,
-	expl_mass = 35.84,
-	mass = 35.84,
+	expl_mass = 46.2,
+	mass = 46.2,
 	obj_factors = { 1, 1 },
 	other_factors = { 1, 1, 1 },
-	piercing_mass = 7.168
+	piercing_mass = 9.24
 }

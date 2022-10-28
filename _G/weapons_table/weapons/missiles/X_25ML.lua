@@ -82,12 +82,12 @@ _G["weapons_table"]["weapons"]["missiles"]["X_25ML"] = {
 			cumulative_factor = 0,
 			cumulative_thickness = 0,
 			default_fuze_delay = 0,
-			expl_mass = 35.84,
+			expl_mass = 46.2,
 			fantom = 1,
-			mass = 35.84,
+			mass = 46.2,
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
-			piercing_mass = 7.168
+			piercing_mass = 9.24
 		},
 		warhead_air = {
 			caliber = 275,
@@ -96,12 +96,12 @@ _G["weapons_table"]["weapons"]["missiles"]["X_25ML"] = {
 			cumulative_factor = 0,
 			cumulative_thickness = 0,
 			default_fuze_delay = 0,
-			expl_mass = 35.84,
+			expl_mass = 46.2,
 			fantom = 1,
-			mass = 35.84,
+			mass = 46.2,
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
-			piercing_mass = 7.168
+			piercing_mass = 9.24
 		}
 	},
 	display_name = "Kh-25ML",
@@ -188,12 +188,12 @@ _G["weapons_table"]["weapons"]["missiles"]["X_25ML"] = {
 			cumulative_factor = 0,
 			cumulative_thickness = 0,
 			default_fuze_delay = 0,
-			expl_mass = 35.84,
+			expl_mass = 46.2,
 			fantom = 0,
-			mass = 35.84,
+			mass = 46.2,
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
-			piercing_mass = 7.168
+			piercing_mass = 9.24
 		},
 		warhead_air = {
 			caliber = 275,
@@ -202,12 +202,12 @@ _G["weapons_table"]["weapons"]["missiles"]["X_25ML"] = {
 			cumulative_factor = 0,
 			cumulative_thickness = 0,
 			default_fuze_delay = 0,
-			expl_mass = 35.84,
+			expl_mass = 46.2,
 			fantom = 0,
-			mass = 35.84,
+			mass = 46.2,
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
-			piercing_mass = 7.168
+			piercing_mass = 9.24
 		}
 	},
 	sounderName = "Weapons/Missile",

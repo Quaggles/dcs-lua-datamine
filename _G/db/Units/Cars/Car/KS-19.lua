@@ -16,7 +16,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							muzzleBrakeType = 2,
 							recoilArgument = 23,
 							recoilTime = 0.55,
-							reloadAnimDelay = 2,
+							reloadAnimDelay = 1.8,
 							reloadArgument = 70,
 							reloadDuration = 1.8
 						} },
@@ -104,7 +104,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "KS-19",
 	visual = {
 		IR = {
-			coeffs = { { 0, 0 }, { 0.00775, 0.00265 }, { 0.0032, 0.0015 }, { 0, 0 }, { 0.27, 0.00049090909090909 } }
+			coeffs = { { 0, 0 }, { 0.00775, 0.00265 }, { 0.002, 0.0015 }, { 0, 0 }, { 0.27, 0.00049090909090909 } }
 		},
 		agony_explosion_size = 1,
 		dirt_pos = { 0, 0, -0 },

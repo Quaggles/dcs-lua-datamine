@@ -31,6 +31,7 @@ _G["rockets"]["#Index"] = {
 	ccm_k0 = 2,
 	display_name = "5V27 S-125 Neva (SA-3 Goa)",
 	exhaust = { 0.63, 0.67, 0.75, 0.2 },
+	exhaust_effect_type = 1,
 	name = "SA5B27",
 	sigma = { 50, 50, 50 },
 	t_acc = 4,

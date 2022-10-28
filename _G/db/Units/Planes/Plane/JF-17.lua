@@ -2406,10 +2406,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						k1 = 2.3e-08,
 						l = 0,
 						life_time = 6,
+						manualWeaponFlag = 21,
 						mass = 0.175,
 						model_name = "tracer_bullet_yellow",
 						name = "GSH23_23_HE_T",
 						payload = 0.032305704264353,
+						payload_type = 0,
 						piercing_mass = 0.035,
 						rebound_concrete = <2>{
 							angle0 = 50,
@@ -2481,6 +2483,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				["C-101EB"] = {
 					enable_options_key_for_unit = "c101eb_common_enabled"
 				},
+				["Christen Eagle II"] = {
+					enable_options_key_for_unit = "CE_II_enabled"
+				},
 				["F-14B"] = {
 					enable_options_key_for_unit = "f14b_enabled"
 				},
@@ -2508,6 +2513,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					enable_options_key_for_unit = "jf17_enabled"
 				},
 				["Ka-50"] = <table 3>,
+				["Ka-50_3"] = <table 3>,
 				["L-39C"] = {
 					enable_options_key_for_unit = "l39c_common_enabled"
 				},
@@ -2772,6 +2778,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.1
 				}, {
 					CLSID = "DIS_LS_6_500",
+					Type = 1,
+					arg_value = 0.5
+				}, {
+					CLSID = "DIS_LS_6_250",
+					Type = 1,
+					arg_value = 0.5
+				}, {
+					CLSID = "DIS_LS_6_100",
+					Type = 1,
+					arg_value = 0.5
+				}, {
+					CLSID = "DIS_LS_6_250_DUAL_L",
+					Type = 1,
+					arg_value = 0.5
+				}, {
+					CLSID = "DIS_LS_6_100_DUAL_L",
 					Type = 1,
 					arg_value = 0.5
 				}, {
@@ -3125,6 +3147,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.1
 				}, {
 					CLSID = "DIS_LS_6_500",
+					Type = 1,
+					arg_value = 0.5
+				}, {
+					CLSID = "DIS_LS_6_250",
+					Type = 1,
+					arg_value = 0.5
+				}, {
+					CLSID = "DIS_LS_6_100",
+					Type = 1,
+					arg_value = 0.5
+				}, {
+					CLSID = "DIS_LS_6_250_DUAL_R",
+					Type = 1,
+					arg_value = 0.5
+				}, {
+					CLSID = "DIS_LS_6_100_DUAL_R",
 					Type = 1,
 					arg_value = 0.5
 				}, {

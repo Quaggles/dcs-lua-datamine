@@ -380,6 +380,15 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			dockConnector = "AirBoss_Connector_75",
 			hide_argument = 67
 		},
+		BRIEFING_ROOM = {
+			HQ_model = "Nimitz_Briefing_Room",
+			cameraLimitsLocal = { {
+					box = { -6, 0.1, -5.1, 3.2, 3, 1.2 },
+					boxPosLocal = { 0, 0, 0, 0 }
+				} },
+			cameraPosLocal = { 0, 1.75, -2.5 },
+			dockPos = { 0, 0, 0 }
+		},
 		HANGAR = {
 			HQ_model = "Nimitz_Hangar",
 			cameraLimitsLocal = { {
@@ -425,6 +434,15 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			cameraPos = { -130, 21.75, -21, 190 },
 			dockConnector = "LSO_Connection",
 			hide_argument = 821
+		},
+		SUPERCARRIER = {
+			HQ_model = "Nimitz_Deck",
+			cameraLimitsLocal = { {
+					box = { -171, 20.5, -46, 170, 65, 42 },
+					boxPosLocal = { 0, 0, 0, 0 }
+				} },
+			cameraPosLocal = { 0, 21.75, 0 },
+			dockPos = { 0, 0, 0 }
 		}
 	},
 	TACAN = true,
@@ -909,6 +927,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	carrier_crew_config_name = "./CoreMods/tech/USS_Nimitz/scripts/GroundCrew.lua",
 	chassis = {},
 	distFindObstacles = 1048.7,
+	draft = 13,
 	economy_distance = 74080000,
 	economy_velocity = 15.4333,
 	enablePlayerCanDrive = false,

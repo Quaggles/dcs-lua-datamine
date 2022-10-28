@@ -14,5 +14,6 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["Besa"] = {
 	distanceMax = 1100,
 	max_trg_alt = 600,
 	name = "Besa",
+	primaryWeapon = false,
 	sensor = {}
 }

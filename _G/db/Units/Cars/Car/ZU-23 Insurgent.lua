@@ -1,5 +1,6 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Crew = 2,
+	CustomAimPoint = { 0, 0.7, 0 },
 	DetectionRange = 5000,
 	DisplayName = "AAA ZU-23 Insurgent Emplacement",
 	DisplayNameShort = "ZU23",
@@ -42,7 +43,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 2, 16, 26, "Redacted", "AA_flak", "Static AAA", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "Armed Air Defence", "Rocket Attack Valid AirDefence", "AAA", "All", "Ground Units", "Vehicles", "Ground vehicles" },
+	attribute = { 2, 16, 26, "Redacted", "AA_flak", "Static AAA", "CustomAimPoint", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "Armed Air Defence", "Rocket Attack Valid AirDefence", "AAA", "All", "Ground Units", "Vehicles", "Ground vehicles" },
 	category = "Air Defence",
 	chassis = {
 		life = 1.2

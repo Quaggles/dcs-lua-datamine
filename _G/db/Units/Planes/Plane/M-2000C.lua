@@ -549,10 +549,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						k1 = 2e-08,
 						l = 0,
 						life_time = 12,
+						manualWeaponFlag = 21,
 						mass = 0.245,
 						model_name = "pula",
 						name = "DEFA554_30_HE",
 						payload = 0.022152482924128,
+						payload_type = 0,
 						piercing_mass = 0.049,
 						rebound_concrete = <3>{
 							angle0 = 50,
@@ -616,10 +618,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						k1 = 2e-08,
 						l = 0,
 						life_time = 12,
+						manualWeaponFlag = 21,
 						mass = 0.245,
 						model_name = "tracer_bullet_yellow",
 						name = "DEFA554_30_HE_TRACERS",
 						payload = 0.022152482924128,
+						payload_type = 0,
 						piercing_mass = 0.049,
 						rebound_concrete = <5>{
 							angle0 = 50,
@@ -744,6 +748,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				["C-101EB"] = {
 					enable_options_key_for_unit = "c101eb_common_enabled"
 				},
+				["Christen Eagle II"] = {
+					enable_options_key_for_unit = "CE_II_enabled"
+				},
 				["F-14B"] = {
 					enable_options_key_for_unit = "f14b_enabled"
 				},
@@ -771,6 +778,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					enable_options_key_for_unit = "jf17_enabled"
 				},
 				["Ka-50"] = <table 6>,
+				["Ka-50_3"] = <table 6>,
 				["L-39C"] = {
 					enable_options_key_for_unit = "l39c_common_enabled"
 				},
@@ -953,6 +961,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	MaxSpeed = 2376,
 	MaxTakeOffWeight = 16500,
 	Name = "M-2000C",
+	Navpoint_Panel = true,
 	Ny_max = 8,
 	Ny_max_e = 8,
 	Ny_min = -3,

@@ -187,6 +187,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000036",
+	positioning = "ONLYHEIGTH",
 	radar_rotation_period = 18,
 	sensor = {
 		height = 39,
@@ -200,7 +201,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			file = "FuMG-401",
 			life = 6,
 			name = "FuMG-401",
-			positioning = "BYNORMAL",
+			positioning = "ONLYHEIGTH",
 			username = "FuMG-401"
 		}, {
 			file = "FuMG-401_p_1",

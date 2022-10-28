@@ -86,6 +86,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							shell_name = {}
 						} },
 					fireAnimationArgument = 44,
+					primaryWeapon = false,
 					sensor = {},
 					sightIndicationMode = 1,
 					sightMasterMode = 1
@@ -153,7 +154,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "Strela-10M3",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.3, 0.017 }, { 0, 0 }, { 0.2, 0.00016666666666667 } }
+			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.3, 0.017 },
+				[5] = { 0.2, 0.00016666666666667 }
+			}
 		},
 		agony_explosion_size = 2,
 		dirt_pos = { -2.5, 0.4, -1.128 },

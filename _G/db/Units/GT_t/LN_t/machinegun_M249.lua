@@ -7,7 +7,7 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["machinegun_M249"] = {
 			portionAmmoCapacity = 200,
 			reload_time = 20,
 			shell_display_name = "5.56mm",
-			shell_name = { "5_56x45" },
+			shell_name = { "5_56x45", "5_56x45_NOtr", "5_56x45_NOtr" },
 			shot_delay = 0.070588235294118,
 			switch_on_delay = 15
 		} },

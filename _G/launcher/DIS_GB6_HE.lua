@@ -10,7 +10,8 @@ _G["launcher"]["DIS_GB6_HE"] = {
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/jsow_gb6.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	attribute = { 4, 4, 8, "Redacted" },
-	category = 2,
+	category = 1,
 	displayName = "GB-6-HE",
-	ejectImpulse = 140
+	ejectDirection = { 0, -1, 0 },
+	ejectImpulse = 744
 }

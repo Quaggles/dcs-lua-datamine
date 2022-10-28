@@ -14,5 +14,6 @@ _G["launcher"]["DIS_C-802AK"] = {
 	attribute = { 4, 4, 8, "Redacted" },
 	category = 2,
 	displayName = "C802AK",
-	ejectImpulse = 2000
+	ejectDirection = { 0, -1, 0 },
+	ejectImpulse = 858
 }

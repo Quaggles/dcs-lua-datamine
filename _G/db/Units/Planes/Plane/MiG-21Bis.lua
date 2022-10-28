@@ -712,10 +712,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						k1 = 2.3e-08,
 						l = 0,
 						life_time = 6,
+						manualWeaponFlag = 21,
 						mass = 0.18,
 						model_name = "tracer_bullet_red",
 						name = "GSH_23_HE",
 						payload = 0.033228724386192,
+						payload_type = 0,
 						piercing_mass = 0.036,
 						rebound_concrete = <2>{
 							angle0 = 50,
@@ -777,10 +779,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						k1 = 2.3e-08,
 						l = 0,
 						life_time = 6,
+						manualWeaponFlag = 21,
 						mass = 0.18,
 						model_name = "tracer_bullet_yellow",
 						name = "GSH_23_AP",
 						payload = 0,
+						payload_type = 0,
 						piercing_mass = 0.18,
 						rebound_concrete = <3>{
 							angle0 = 50,
@@ -854,6 +858,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				["C-101EB"] = {
 					enable_options_key_for_unit = "c101eb_common_enabled"
 				},
+				["Christen Eagle II"] = {
+					enable_options_key_for_unit = "CE_II_enabled"
+				},
 				["F-14B"] = {
 					enable_options_key_for_unit = "f14b_enabled"
 				},
@@ -881,6 +888,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					enable_options_key_for_unit = "jf17_enabled"
 				},
 				["Ka-50"] = <table 4>,
+				["Ka-50_3"] = <table 4>,
 				["L-39C"] = {
 					enable_options_key_for_unit = "l39c_common_enabled"
 				},
@@ -2168,9 +2176,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			pos = { -1.714, -0.38, -0.5 }
 		} },
 	crew_members = { {
-			drop_canopy_name = 312,
-			ejection_seat_name = 311,
-			pilot_name = 313,
+			drop_canopy_name = 314,
+			ejection_seat_name = 313,
+			pilot_name = 315,
 			pos = { 2.711, 0.65, 0 },
 			role = "pilot",
 			role_display_name = "Pilot"

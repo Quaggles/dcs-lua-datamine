@@ -45,9 +45,10 @@ _G["weapons_table"]["weapons"]["missiles"]["ADM_141B"] = {
 			finsLimit = 0.5,
 			glide_height = 1000,
 			inertial_km_error = 4,
+			landing_vel = 150,
 			max_roll = 0.7,
 			max_vert_speed = 35,
-			stab_vel = 200,
+			stab_vel = 160,
 			start_fins_vert_val = -0.0015,
 			vel_save_k = 1.7
 		},
@@ -89,7 +90,7 @@ _G["weapons_table"]["weapons"]["missiles"]["ADM_141B"] = {
 			wind_sigma = 0,
 			wind_time = 0
 		},
-		manualWeaponFlag = 7,
+		manualWeaponFlag = 20,
 		march = {
 			fuel_mass = 0,
 			impulse = 0,
@@ -190,9 +191,10 @@ _G["weapons_table"]["weapons"]["missiles"]["ADM_141B"] = {
 			finsLimit = 0.5,
 			glide_height = 1000,
 			inertial_km_error = 4,
+			landing_vel = 150,
 			max_roll = 0.7,
 			max_vert_speed = 35,
-			stab_vel = 200,
+			stab_vel = 160,
 			start_fins_vert_val = -0.0015,
 			vel_save_k = 1.7
 		},
@@ -234,7 +236,7 @@ _G["weapons_table"]["weapons"]["missiles"]["ADM_141B"] = {
 			wind_sigma = 0,
 			wind_time = 0
 		},
-		manualWeaponFlag = 7,
+		manualWeaponFlag = 20,
 		march = {
 			fuel_mass = 0,
 			impulse = 0,

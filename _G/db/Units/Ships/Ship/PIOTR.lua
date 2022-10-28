@@ -24,7 +24,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		RADAR = { "S-300PS 40B6M tr navy", "Tor 9A331", "2S6 Tunguska", "piotr velikiy search radar" }
 	},
 	Singleton = "no",
-	Tail_Width = 8.6,
+	Tail_Width = 20,
 	ThreatRange = 190000,
 	WS = { {
 			LN = { {
@@ -751,6 +751,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	attribute = { 3, 12, 14, "Redacted", "Cruisers", "RADAR_BAND1_FOR_ARM", "DetectionByAWACS", "Armed Ship", "HelicopterCarrier", "Naval", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
 	chassis = {},
 	distFindObstacles = 788.6,
+	draft = 11.5,
 	economy_distance = 7408000,
 	economy_velocity = 8.2889,
 	life = 6500,

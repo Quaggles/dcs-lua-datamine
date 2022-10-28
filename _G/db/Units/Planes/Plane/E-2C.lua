@@ -191,7 +191,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		editable = true,
 		frequency = 251,
 		maxFrequency = 399.975,
-		minFrequency = 225,
+		minFrequency = 100,
 		modulation = 0
 	},
 	IR_emission_coeff = 0.5,

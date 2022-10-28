@@ -145,10 +145,20 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	},
 	attribute = { 3, 12, 15, "Redacted", "Unarmed ships", "Side approach departure", "HelicopterCarrier", "Naval", "All", "Ships", "HeavyArmoredUnits" },
 	chassis = {},
+	deltaWaterline = 10,
 	distFindObstacles = 800,
+	draft = 29,
 	economy_distance = 15927200,
 	economy_velocity = 6,
 	enablePlayerCanDrive = false,
+	exhaust = { {
+			connector = "SMOKE_PIPE_1_L",
+			preset = "Bazar/ParticleEffects/effects/SmokeShip.lua",
+			size = 0.5
+		}, {
+			connector = "SMOKE_PIPE_1_R",
+			size = 0.5
+		} },
 	life = 1500,
 	mapclasskey = "P0000000634",
 	mass = 646642000,
@@ -174,6 +184,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	speedup = 0.101986,
 	swapped_names = true,
 	tags = { "Civilian" },
+	trim = 0.5,
 	type = "Seawise_Giant",
 	visual = {
 		shape = "seawise_giant",

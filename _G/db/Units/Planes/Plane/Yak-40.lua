@@ -6,175 +6,97 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Categories = {},
 	Damage = { {
 			args = { 296 },
-			critical_damage = 3
+			critical_damage = 5
 		}, {
 			args = { 297 },
-			critical_damage = 3
+			critical_damage = 5
 		}, {
 			args = { 65 },
-			critical_damage = 8
-		}, {
-			args = { 298 },
-			critical_damage = 2
-		}, {
-			args = { 301 },
-			critical_damage = 2
-		},
-		[0] = {
-			args = { 146 },
-			critical_damage = 5
-		},
-		[7] = {
-			args = { 249 },
-			critical_damage = 2
-		},
-		[8] = {
-			args = { 265 },
-			critical_damage = 3
+			critical_damage = 15
 		},
 		[9] = {
 			args = { 154 },
-			critical_damage = 3
+			critical_damage = 6
 		},
 		[10] = {
 			args = { 153 },
-			critical_damage = 3
+			critical_damage = 6
 		},
 		[11] = {
 			args = { 167 },
-			critical_damage = 1
+			critical_damage = 6
 		},
 		[12] = {
 			args = { 161 },
-			critical_damage = 1
-		},
-		[13] = {
-			args = { 169 },
-			critical_damage = 2
-		},
-		[14] = {
-			args = { 163 },
-			critical_damage = 2
-		},
-		[15] = {
-			args = { 267 },
-			critical_damage = 2
-		},
-		[16] = {
-			args = { 266 },
-			critical_damage = 2
+			critical_damage = 6
 		},
 		[17] = {
 			args = { 168 },
-			critical_damage = 2
-		},
-		[18] = {
-			args = { 162 },
-			critical_damage = 2
-		},
-		[20] = {
-			args = { 183 },
-			critical_damage = 2
+			critical_damage = 6
 		},
 		[23] = {
 			args = { 223 },
-			critical_damage = 5
+			critical_damage = 6
 		},
 		[24] = {
 			args = { 213 },
-			critical_damage = 5
-		},
-		[25] = {
-			args = { 226 },
-			critical_damage = 2
-		},
-		[26] = {
-			args = { 216 },
-			critical_damage = 2
+			critical_damage = 6
 		},
 		[29] = {
 			args = { 224 },
-			critical_damage = 5,
-			deps_cells = { 23, 25 }
+			critical_damage = 8,
+			deps_cells = { 23 }
 		},
 		[30] = {
 			args = { 214 },
-			critical_damage = 5,
-			deps_cells = { 24, 26 }
+			critical_damage = 8,
+			deps_cells = { 24 }
 		},
 		[35] = {
 			args = { 225 },
-			critical_damage = 6,
-			deps_cells = { 23, 29, 25, 37 }
+			critical_damage = 20,
+			deps_cells = { 23, 29 }
 		},
 		[36] = {
 			args = { 215 },
-			critical_damage = 6,
-			deps_cells = { 24, 30, 26, 38 }
-		},
-		[37] = {
-			args = { 228 },
-			critical_damage = 2
-		},
-		[38] = {
-			args = { 218 },
-			critical_damage = 2
+			critical_damage = 20,
+			deps_cells = { 24, 30 }
 		},
 		[39] = {
 			args = { 244 },
-			critical_damage = 2,
-			deps_cells = { 53 }
+			critical_damage = 6
 		},
 		[40] = {
 			args = { 241 },
-			critical_damage = 2,
-			deps_cells = { 54 }
-		},
-		[43] = {
-			args = { 243 },
-			critical_damage = 2,
-			deps_cells = { 39, 53 }
-		},
-		[44] = {
-			args = { 242 },
-			critical_damage = 2,
-			deps_cells = { 40, 54 }
+			critical_damage = 6
 		},
 		[51] = {
 			args = { 240 },
-			critical_damage = 2
+			critical_damage = 6
 		},
 		[52] = {
 			args = { 238 },
-			critical_damage = 2
+			critical_damage = 6
 		},
 		[53] = {
 			args = { 248 },
-			critical_damage = 2
+			critical_damage = 6
 		},
-		[54] = {
-			args = { 247 },
-			critical_damage = 2
+		[55] = {
+			args = { 156, 159 },
+			critical_damage = 20
 		},
 		[56] = {
 			args = { 158 },
-			critical_damage = 2
+			critical_damage = 6
 		},
 		[57] = {
 			args = { 157 },
-			critical_damage = 2
-		},
-		[59] = {
-			args = { 148 },
-			critical_damage = 3
-		},
-		[61] = {
-			args = { 147 },
-			critical_damage = 2
+			critical_damage = 6
 		},
 		[82] = {
 			args = { 152 },
-			critical_damage = 2
+			critical_damage = 6
 		}
 	},
 	DefaultTask = <1>{
@@ -190,7 +112,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		editable = true,
 		frequency = 251,
 		maxFrequency = 399.975,
-		minFrequency = 225,
+		minFrequency = 100,
 		modulation = 0
 	},
 	IR_emission_coeff = 0.5,

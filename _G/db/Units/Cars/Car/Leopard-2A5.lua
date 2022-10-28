@@ -303,14 +303,20 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						} },
 					beamWidth = 0.017453292519943,
 					sensor = {},
+					sightIndicationMode = 1,
+					sightMasterMode = 1,
 					type = 10
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.15707963267949, 0.87266462599716 } },
 			center = "CENTER_MG_02",
+			cockpit = { "IronSight/IronSight", { 0, 0, 0 },
+				open = true
+			},
 			drawArgument1 = 24,
 			drawArgument2 = 25,
 			omegaY = 1.0471975511966,
-			omegaZ = 1.0471975511966
+			omegaZ = 1.0471975511966,
+			pointer = "POINT_SIGHT_02"
 		},
 		maxTargetDetectionRange = 6000,
 		smoke = { "SMOKE_01", "SMOKE_02", "SMOKE_03", "SMOKE_04", "SMOKE_05", "SMOKE_06", "SMOKE_07", "SMOKE_08", "SMOKE_09", "SMOKE_10", "SMOKE_11", "SMOKE_12", "SMOKE_13", "SMOKE_14", "SMOKE_15", "SMOKE_16" }
@@ -368,12 +374,14 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "Leopard-2A5",
 	visual = {
 		IR = {
-			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.005, 0.0013 }, { 0, 0 }, { 0.3, 0.00017142857142857 } }
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0019, 0.0013 },
+				[5] = { 0.3, 0.00017142857142857 }
+			}
 		},
 		dirt_pos = { -3.4, 0.8, -1.4 },
 		dust_pos = { 3.6, 0.2, -1.4 },
-		fire_pos = { -2.3, 0.7, 0 },
-		fire_size = 0.6,
+		fire_pos = { -2, 0.7, 0 },
+		fire_size = 0.95,
 		fire_time = 1200,
 		shape = "leopard-2a5",
 		shape_dstr = "Leopard-2a5_p_1"

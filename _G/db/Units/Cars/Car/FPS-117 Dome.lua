@@ -185,6 +185,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	chassis = {},
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000036",
+	positioning = "ONLYHEIGTH",
 	radar_rotation_period = 10,
 	sensor = {
 		height = 21.5,
@@ -198,7 +199,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			file = "ewr_fps117radar_dome",
 			life = 6,
 			name = "ewr_fps117radar_dome",
-			positioning = "BYNORMAL",
+			positioning = "ONLYHEIGTH",
 			username = "FPS-117 Dome"
 		}, {
 			file = "ewr_fps117radar_dome_p_1",
@@ -212,7 +213,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "FPS-117 Dome",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0, 0 }, { 0, 0 }, { 0, 0 }, { 0.2, 0.00019047619047619 } }
+			coeffs = { { 0.035, 0.0012 }, { 0, 0 }, { 0, 0 }, { 0, 0 }, { 0.2, 0.00019047619047619 } }
 		},
 		agony_explosion_size = 0.2,
 		fire_pos = {

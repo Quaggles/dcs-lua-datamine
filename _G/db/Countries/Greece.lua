@@ -1106,17 +1106,15 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "L-39C"
 				}, {
+					Name = "MB-339A"
+				}, {
+					Name = "MB-339APAN"
+				}, {
 					Name = "MiG-15bis"
 				}, {
 					Name = "MiG-19P"
 				}, {
 					Name = "MiG-21Bis"
-				}, {
-					Name = "Mirage-F1CE"
-				}, {
-					Name = "Mirage-F1CG"
-				}, {
-					Name = "Yak-52"
 				}, {
 					Name = "Ju-88A4"
 				} }

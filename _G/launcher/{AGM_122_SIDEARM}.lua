@@ -6,7 +6,7 @@ _G["launcher"]["{AGM_122_SIDEARM}"] = {
 			ShapeName = "AIM-9B"
 		} },
 	Picture = "aim9p.png",
-	Weight = 92,
+	Weight = 98.883056,
 	_file = "./CoreMods/aircraft/AV8BNA/WEAPONS/AV8BNA_Weapons.lua",
 	_origin = "AV-8B N/A AI by RAZBAM Sims",
 	attribute = { 4, 4, 8, "Redacted" },

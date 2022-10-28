@@ -14,5 +14,6 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["Browning_M1919"] = {
 	distanceMax = 1100,
 	max_trg_alt = 600,
 	name = "Browning .30 cal",
+	primaryWeapon = false,
 	sensor = {}
 }

@@ -64,6 +64,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000201",
 	mobile = true,
+	morale = {},
 	sensor = {
 		height = 1.8,
 		max_range_finding_target = 400

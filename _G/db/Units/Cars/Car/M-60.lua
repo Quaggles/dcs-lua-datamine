@@ -149,7 +149,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			laser = true,
 			omegaY = 0.41887902047864,
 			omegaZ = 0.069813170079773,
-			pointer = "POINT_SIGHT_01",
+			pointer = "POINT_SIGHT_02",
 			reference_angle_Z = 0.17453292519943,
 			stabilizer = true
 		}, {
@@ -217,7 +217,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "M-60",
 	visual = {
 		IR = {
-			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0032, 0.0015 }, { 0, 0 }, { 0.3, 0.0002 } }
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.002, 0.0015 },
+				[5] = { 0.3, 0.0002 }
+			}
 		},
 		agony_explosion_size = 2,
 		dirt_pos = { -3.3, 0.7, -1.436 },

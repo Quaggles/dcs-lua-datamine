@@ -29,6 +29,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						} },
 					connectorFire = false,
 					customViewPoint = { "genericHowitzer", { -3.5, 0.3, 0 } },
+					depends_on_unit = { { { "M109_FDDM", 1 } }, { { "none" } } },
 					reactionTime = 100,
 					reactionTimeLOFAC = 3,
 					sensor = {}
@@ -90,7 +91,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "M-109",
 	visual = {
 		IR = {
-			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.00045, 0.003 }, { 0, 0 }, { 0.3, 0.00016666666666667 } }
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.00045, 0.003 },
+				[5] = { 0.3, 0.00016666666666667 }
+			}
 		},
 		agony_explosion_size = 5,
 		dirt_pos = { -2.8, 0.6, -1.357 },

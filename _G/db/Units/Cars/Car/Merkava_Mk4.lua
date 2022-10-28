@@ -207,6 +207,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							shell_name = {}
 						} },
 					fireAnimationArgument = 44,
+					primaryWeapon = false,
 					sensor = {},
 					sightMasterMode = 1,
 					type = 10
@@ -240,9 +241,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	animation_arguments = {},
 	attribute = { 2, 17, 26, "Redacted", "Tanks", "Modern Tanks", "Datalink", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "HeavyArmoredUnits" },
 	category = "Armor",
-	chassis = {
-		canCrossRiver = true
-	},
+	chassis = {},
 	crew_locale = "IZR",
 	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
 	driverViewConnectorName = { "DRIVER_POINT" },
@@ -264,7 +263,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "Merkava_Mk4",
 	visual = {
 		IR = {
-			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.005, 0.0013 }, { 0, 0 }, { 0.33, 0.00017368421052632 } }
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0019, 0.0013 },
+				[5] = { 0.33, 0.00017368421052632 }
+			}
 		},
 		agony_explosion_size = 3,
 		dirt_pos = { -3.1, 0.4, -1.5 },

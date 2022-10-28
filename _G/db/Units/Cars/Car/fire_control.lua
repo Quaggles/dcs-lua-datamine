@@ -56,6 +56,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							shell_name = {}
 						} },
 					customViewPoint = { "IronSight/IronSight", { -1.5, 0.1, 0 } },
+					primaryWeapon = true,
 					sensor = {}
 				} },
 			angles = { { 0.95993108859688, -0.95993108859688, -0.26179938779915, 0.26179938779915 } },
@@ -121,6 +122,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							shell_name = {}
 						} },
 					customViewPoint = { "IronSight/IronSight", { -1.5, 0.1, 0 } },
+					primaryWeapon = true,
 					sensor = {}
 				} },
 			angles = { { 0, -1.9198621771938, -0.26179938779915, 0.26179938779915 } },
@@ -187,6 +189,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							shell_name = {}
 						} },
 					customViewPoint = { "IronSight/IronSight", { -1.5, 0.1, 0 } },
+					primaryWeapon = true,
 					sensor = {}
 				} },
 			angles = { { 1.9198621771938, 0, -0.26179938779915, 0.26179938779915 } },
@@ -222,8 +225,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 17, 26, "Redacted", "Fortifications", "CustomAimPoint", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "AntiAir Armed Vehicles", "HeavyArmoredUnits" },
 	category = "Fortification",
 	chassis = {
-		armour_thickness = 0.15,
-		life = 40
+		armour_thickness = 0.02,
+		life = 180
 	},
 	enablePlayerCanDrive = true,
 	mapclasskey = "P0091000075",

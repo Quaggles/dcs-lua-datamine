@@ -71,6 +71,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						} },
 					beamWidth = 0.017453292519943,
 					fireAnimationArgument = 45,
+					primaryWeapon = false,
 					secondary = true,
 					sensor = {}
 				} },
@@ -126,7 +127,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "Leclerc",
 	visual = {
 		IR = {
-			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.005, 0.0013 }, { 0, 0 }, { 0.33, 0.00017368421052632 } }
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0019, 0.0013 },
+				[5] = { 0.33, 0.00017368421052632 }
+			}
 		},
 		agony_explosion_size = 5,
 		dirt_pos = { -3, 0.6, -1.4 },

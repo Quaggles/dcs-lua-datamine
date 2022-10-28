@@ -3,7 +3,7 @@ _G["launcher"]["{CLB30_MK83}"] = {
 	Count = 1,
 	Cx_pil = 0.00032,
 	Elements = { "_G/Pylons/CLB_30.lua", {
-			Position = { -0, -0.046, -0 },
+			Position = { 0, -0.046, 0 },
 			ShapeName = "MK-83"
 		} },
 	Picture = "mk83.png",

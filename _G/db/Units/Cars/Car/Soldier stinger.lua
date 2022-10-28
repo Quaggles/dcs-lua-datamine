@@ -41,6 +41,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		breath = {},
 		dead = {},
 		idle = {},
+		knee = {
+			knee_on_alarm = false
+		},
 		run = {},
 		walk = {}
 	},
@@ -57,6 +60,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	enablePlayerCanDrive = true,
 	mapclasskey = "P0091000216",
 	mobile = true,
+	morale = {},
 	sensor = {},
 	snd = {},
 	swapped_names = true,

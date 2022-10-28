@@ -727,10 +727,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						k1 = 5.7e-09,
 						l = 0,
 						life_time = 31,
+						manualWeaponFlag = 21,
 						mass = 0.36,
 						model_name = "tracer_bullet_A-10",
 						name = "GAU8_30_AP",
 						payload = 0,
+						payload_type = 0,
 						piercing_mass = 0.36,
 						rebound_concrete = <2>{
 							angle0 = 50,
@@ -789,10 +791,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						k1 = 5.7e-09,
 						l = 0,
 						life_time = 31,
+						manualWeaponFlag = 21,
 						mass = 0.36,
 						model_name = "tracer_bullet_A-10",
 						name = "GAU8_30_HE",
 						payload = 0.066457448772383,
+						payload_type = 0,
 						piercing_mass = 0.072,
 						rebound_concrete = <3>{
 							angle0 = 50,
@@ -851,10 +855,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						k1 = 5.7e-09,
 						l = 0,
 						life_time = 31,
+						manualWeaponFlag = 21,
 						mass = 0.36,
 						model_name = "tracer_bullet_A-10",
 						name = "GAU8_30_TP",
 						payload = 0,
+						payload_type = 0,
 						piercing_mass = 0.071,
 						rebound_concrete = <4>{
 							angle0 = 50,
@@ -928,6 +934,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				["C-101EB"] = {
 					enable_options_key_for_unit = "c101eb_common_enabled"
 				},
+				["Christen Eagle II"] = {
+					enable_options_key_for_unit = "CE_II_enabled"
+				},
 				["F-14B"] = {
 					enable_options_key_for_unit = "f14b_enabled"
 				},
@@ -955,6 +964,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					enable_options_key_for_unit = "jf17_enabled"
 				},
 				["Ka-50"] = <table 5>,
+				["Ka-50_3"] = <table 5>,
 				["L-39C"] = {
 					enable_options_key_for_unit = "l39c_common_enabled"
 				},
@@ -2310,17 +2320,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		} },
 	engines_count = 2,
 	engines_nozzles = { {
-			diameter = 1.052,
+			diameter = 0.9,
 			elevation = 0,
 			exhaust_length_ab = 8.631,
 			exhaust_length_ab_K = 0.76,
-			pos = { -5.899, 0.951, -1.4 }
+			pos = { -5.2, 0.85, -1.44 }
 		}, {
-			diameter = 1.052,
+			diameter = 0.9,
 			elevation = 0,
 			exhaust_length_ab = 8.631,
 			exhaust_length_ab_K = 0.76,
-			pos = { -5.899, 0.951, 1.4 }
+			pos = { -5.2, 0.85, 1.44 }
 		} },
 	fires_pos = { { -0.781, 0.254, 0 }, { -1.197, 0.356, 4.09 }, { -1.252, 0.307, -2.819 }, { -0.82, 0.265, 2.774 }, { -0.82, 0.265, -2.774 }, { -0.82, 0.255, 4.274 }, { -0.82, 0.255, -4.274 }, { -4.91, 0.964, 1.385 }, { -4.91, 0.964, -1.385 }, { -0.13, 0.21, 0.75 }, { -0.13, 0.21, -0.75 } },
 	flaps_maneuver = 0.35,
@@ -2328,6 +2338,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	has_differential_stabilizer = false,
 	has_speedbrake = true,
 	height = 4.47,
+	input_profile_entry = "A-10C II",
 	length = 16.26,
 	lights_data = {
 		lights = { {

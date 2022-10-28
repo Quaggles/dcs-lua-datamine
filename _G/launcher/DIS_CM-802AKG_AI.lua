@@ -14,5 +14,6 @@ _G["launcher"]["DIS_CM-802AKG_AI"] = {
 	attribute = { 4, 4, 8, "Redacted" },
 	category = 2,
 	displayName = "CM-802AKG (AI Only)",
-	ejectImpulse = 2000
+	ejectDirection = { 0, -1, 0 },
+	ejectImpulse = 858
 }

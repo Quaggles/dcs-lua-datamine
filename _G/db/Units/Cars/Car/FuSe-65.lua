@@ -86,6 +86,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		args = { 0.15 }
 	},
 	mapclasskey = "P0091000036",
+	positioning = "ONLYHEIGTH",
 	sensor = {
 		height = 10,
 		max_alt_finding_target = 20000,
@@ -98,7 +99,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			file = "FuSe-65",
 			life = 6,
 			name = "FuSe-65",
-			positioning = "BYNORMAL",
+			positioning = "ONLYHEIGTH",
 			username = "FuSe-65"
 		}, {
 			file = "FuSe-65_p_1",

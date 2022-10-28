@@ -69,7 +69,7 @@ _G["weapons_table"]["weapons"]["missiles"]["CM-802AKG_AI"] = {
 		},
 		controller = {
 			boost_start = 0,
-			march_start = 0.8
+			march_start = 5
 		},
 		cruise_autopilot = {
 			Kd_eng = 0,
@@ -292,7 +292,7 @@ _G["weapons_table"]["weapons"]["missiles"]["CM-802AKG_AI"] = {
 		},
 		controller = {
 			boost_start = 0,
-			march_start = 0.8
+			march_start = 5
 		},
 		cruise_autopilot = {
 			Kd_eng = 0,

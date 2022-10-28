@@ -332,6 +332,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "LARC-V"
 				}, {
+					Name = "RD_75"
+				}, {
 					Name = "ES44AH"
 				}, {
 					Name = "Boxcartrinity"
@@ -784,10 +786,6 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "F-5E_MAC",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
 					Name = "L-39C",
 					in_service = 0,
 					out_of_service = 40000
@@ -850,15 +848,15 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "M-2000C"
 				}, {
+					Name = "MB-339A"
+				}, {
+					Name = "MB-339APAN"
+				}, {
 					Name = "MiG-15bis"
 				}, {
 					Name = "MiG-19P"
 				}, {
 					Name = "MiG-21Bis"
-				}, {
-					Name = "Mirage-F1CE"
-				}, {
-					Name = "Yak-52"
 				}, {
 					Name = "Ju-88A4"
 				}, {

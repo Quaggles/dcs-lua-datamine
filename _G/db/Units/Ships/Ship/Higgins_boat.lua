@@ -42,6 +42,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 						}
 					},
 					fireAnimationArgument = 23,
+					primaryWeapon = true,
 					sensor = {}
 				} },
 			angles = { { 1.5707963267949, 0.17453292519943, -0.087266462599716, 1.221730476396 }, { 0.17453292519943, -0.95993108859688, -0.087266462599716, 1.221730476396 } },
@@ -120,6 +121,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	attribute = { 3, 12, 14, "Redacted", "low_reflection_vessel", "Light armed ships", "NO_SAM", "Armed Ship", "Naval", "All", "Ships", "Armed ships", "NonAndLightArmoredUnits", "NonArmoredUnits" },
 	chassis = {},
 	distFindObstacles = 50,
+	draft = 1.3,
 	economy_distance = 300000,
 	economy_velocity = 4,
 	enablePlayerCanDrive = false,

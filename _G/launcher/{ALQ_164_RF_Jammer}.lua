@@ -6,7 +6,7 @@ _G["launcher"]["{ALQ_164_RF_Jammer}"] = {
 			ShapeName = "AV8BNA_ALQ164"
 		} },
 	Picture = "ALQ184.png",
-	Weight = 143.789,
+	Weight = 188.241,
 	_file = "./CoreMods/aircraft/AV8BNA/WEAPONS/AV8BNA_Weapons.lua",
 	_origin = "AV-8B N/A AI by RAZBAM Sims",
 	_unique_resource_name = "weapons.containers.AV8BNA_ALQ164",

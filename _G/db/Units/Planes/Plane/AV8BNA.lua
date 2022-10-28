@@ -686,7 +686,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		WorldID = 31
 	},
 	DisplayName = "AV-8B N/A",
-	EmptyWeight = 6715,
+	EmptyWeight = 7242.0558,
 	Failures = { {
 			enable = false,
 			hh = 0,
@@ -896,6 +896,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				["C-101EB"] = {
 					enable_options_key_for_unit = "c101eb_common_enabled"
 				},
+				["Christen Eagle II"] = {
+					enable_options_key_for_unit = "CE_II_enabled"
+				},
 				["F-14B"] = {
 					enable_options_key_for_unit = "f14b_enabled"
 				},
@@ -923,6 +926,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					enable_options_key_for_unit = "jf17_enabled"
 				},
 				["Ka-50"] = <table 2>,
+				["Ka-50_3"] = <table 2>,
 				["L-39C"] = {
 					enable_options_key_for_unit = "l39c_common_enabled"
 				},
@@ -1156,7 +1160,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			Name = "AircraftCarrier With Tramplin"
 		} },
-	M_empty = 6715,
+	M_empty = 7242.0558,
 	M_fuel_max = 3519.423,
 	M_max = 14100,
 	M_nominal = 10410,

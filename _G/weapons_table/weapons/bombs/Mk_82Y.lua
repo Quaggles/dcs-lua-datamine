@@ -53,8 +53,8 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_82Y"] = {
 				username = "Mk-82Y - 500lb GP Chute Retarded HD"
 			} },
 		targeting_data = {
-			char_time = 21,
-			chute_char_time = 33.9,
+			char_time = 20.31,
+			chute_char_time = 33.5,
 			chute_open_time = 0.2
 		},
 		type = 0,
@@ -127,8 +127,8 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_82Y"] = {
 				username = "Mk-82Y - 500lb GP Chute Retarded HD"
 			} },
 		targeting_data = {
-			char_time = 21,
-			chute_char_time = 33.9,
+			char_time = 20.31,
+			chute_char_time = 33.5,
 			chute_open_time = 0.2
 		},
 		type = 0,
@@ -151,8 +151,8 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_82Y"] = {
 	},
 	sounderName = "Weapons/Bomb",
 	targeting_data = {
-		char_time = 21,
-		chute_char_time = 33.9,
+		char_time = 20.31,
+		chute_char_time = 33.5,
 		chute_open_time = 0.2
 	},
 	type_name = "bomb",

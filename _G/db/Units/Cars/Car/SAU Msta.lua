@@ -119,7 +119,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		X_gear_1 = 2.46,
 		X_gear_2 = -2.35,
 		armour_thickness = 0.012,
-		canCrossRiver = false,
 		gearRatios = {},
 		life = 4,
 		r_max = 0.44
@@ -147,7 +146,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "SAU Msta",
 	visual = {
 		IR = {
-			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.00045, 0.003 }, { 0, 0 }, { 0.3, 0.00016666666666667 } }
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.00045, 0.003 },
+				[5] = { 0.3, 0.00016666666666667 }
+			}
 		},
 		agony_explosion_size = 5,
 		dirt_pos = { -2.9, 0.5, -1.346 },

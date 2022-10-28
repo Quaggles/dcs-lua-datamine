@@ -5,11 +5,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	Countries = { "Russia", "USSR" },
 	DetectionRange = 0,
-	DisplayName = "Refueler ATZ-60 Tractor",
-	DisplayNameShort = "ATZ60",
+	DisplayName = "Refueler ATZ-60 Tractor (MAZ-7410)",
+	DisplayNameShort = "MAZ",
 	IR_emission_coeff = 0.1,
 	MaxSpeed = 54,
-	Name = "Refueler ATZ-60 Tractor",
+	Name = "Refueler ATZ-60 Tractor (MAZ-7410)",
 	Rate = 3,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
@@ -30,15 +30,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	mapclasskey = "P0091000212",
 	shape_table_data = { {
 			classname = "lLandVehicle",
-			desrt = "atz60_maz_crashed",
+			desrt = "atz60_maz_p_1",
 			file = "atz60_maz",
 			life = 6,
 			name = "atz60_maz",
 			positioning = "BYNORMAL",
 			username = "ATZ-60_Maz"
 		}, {
-			file = "atz60_maz_crashed",
-			name = "atz60_maz_crashed"
+			file = "atz60_maz_p_1",
+			name = "atz60_maz_p_1"
 		} },
 	snd = {
 		engine_pitch = { {}, {}, {} },
@@ -53,12 +53,14 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "ATZ-60_Maz",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0, 0 }, { 0, 0 }, { 0.29, 0.00024166666666667 } }
+			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0, 0 },
+				[5] = { 0.29, 0.00024166666666667 }
+			}
 		},
 		fire_pos = { 2.4, 0.9, 0 },
 		fire_size = 1.9,
 		fire_time = 1500,
 		shape = "atz60_maz",
-		shape_dstr = "atz60_maz_crashed"
+		shape_dstr = "atz60_maz_p_1"
 	}
 }

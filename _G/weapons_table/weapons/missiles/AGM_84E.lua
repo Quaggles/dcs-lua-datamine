@@ -153,8 +153,6 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_84E"] = {
 			max_lock_dist = 30000,
 			max_target_speed = 33,
 			max_target_speed_rnd_coeff = 10,
-			max_w_LOS = 0.06,
-			max_w_LOS_surf = 0.03,
 			op_time = 800
 		},
 		triggers_control = {
@@ -354,8 +352,6 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_84E"] = {
 			max_lock_dist = 30000,
 			max_target_speed = 33,
 			max_target_speed_rnd_coeff = 10,
-			max_w_LOS = 0.06,
-			max_w_LOS_surf = 0.03,
 			op_time = 800
 		},
 		triggers_control = {

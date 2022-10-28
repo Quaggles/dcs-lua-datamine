@@ -6,19 +6,19 @@ _G["launcher"]["{MBD3_U6_4*FAB-250_fwd}"] = {
 			ShapeName = "mbd3-u6-68"
 		}, {
 			Position = { 0.898147, -0.124806, 0.159743 },
-			Rotation = { -40, -0, -0 },
+			Rotation = { -40, 0, 0 },
 			ShapeName = "fab-250-n1"
 		}, {
 			Position = { 0.898147, -0.122812, -0.160811 },
-			Rotation = { 40, -0, -0 },
+			Rotation = { 40, 0, 0 },
 			ShapeName = "fab-250-n1"
 		}, {
-			Position = { 0.898015, -0.360123, -0 },
-			Rotation = { -0, -0, -0 },
+			Position = { 0.898015, -0.360123, 0 },
+			Rotation = { 0, 0, 0 },
 			ShapeName = "fab-250-n1"
 		}, {
-			Position = { -0.986625, -0.360123, -0 },
-			Rotation = { -0, -0, -0 },
+			Position = { -0.986625, -0.360123, 0 },
+			Rotation = { 0, 0, 0 },
 			ShapeName = "fab-250-n1"
 		} },
 	Picture = "FAB250.png",

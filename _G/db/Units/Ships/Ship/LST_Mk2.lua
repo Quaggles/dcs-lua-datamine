@@ -425,6 +425,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	attribute = { 3, 12, 14, "Redacted", "Landing Ships", "Heavy armed ships", "NO_SAM", "Armed Ship", "Naval", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits" },
 	chassis = {},
 	distFindObstacles = 462.5,
+	draft = 3,
 	economy_distance = 8334000,
 	economy_velocity = 4.375,
 	enablePlayerCanDrive = false,

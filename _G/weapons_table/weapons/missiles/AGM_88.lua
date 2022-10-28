@@ -55,6 +55,9 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_88"] = {
 			boost_start = 0,
 			march_start = 1
 		},
+		conv = {
+			seeker_add_pitch = -0.34906585039887
+		},
 		fm = {
 			A1trim = { 10, 10 },
 			A2trim = { 10, 10 },
@@ -210,6 +213,9 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_88"] = {
 		controller = {
 			boost_start = 0,
 			march_start = 1
+		},
+		conv = {
+			seeker_add_pitch = -0.34906585039887
 		},
 		fm = {
 			A1trim = { 10, 10 },

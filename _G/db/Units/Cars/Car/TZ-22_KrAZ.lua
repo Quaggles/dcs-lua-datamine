@@ -5,11 +5,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	Countries = { "Russia", "USSR" },
 	DetectionRange = 0,
-	DisplayName = "Refueler TZ-22 Tractor",
-	DisplayNameShort = "TZ22",
+	DisplayName = "Refueler TZ-22 Tractor (KrAZ-258B1)",
+	DisplayNameShort = "KrAZ",
 	IR_emission_coeff = 0.09,
 	MaxSpeed = 59.976,
-	Name = "Refueler TZ-22 Tractor",
+	Name = "Refueler TZ-22 Tractor (KrAZ-258B1)",
 	Rate = 3,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
@@ -53,7 +53,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "TZ-22_KrAZ",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0, 0 }, { 0, 0 }, { 0.25, 0.0003125 } }
+			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0, 0 },
+				[5] = { 0.25, 0.0003125 }
+			}
 		},
 		fire_pos = { 2.4, 0.9, 0 },
 		fire_size = 1.9,

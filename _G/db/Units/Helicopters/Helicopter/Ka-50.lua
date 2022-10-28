@@ -270,7 +270,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		WorldID = 31
 	},
 	DisplayName = "Ka-50",
-	EmptyWeight = "8030",
+	EmptyWeight = 8030,
 	Failures = { {
 			enable = false,
 			hh = 0,
@@ -430,10 +430,12 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					k1 = 6e-09,
 					l = 0,
 					life_time = 9,
+					manualWeaponFlag = 21,
 					mass = 0.39,
 					model_name = "tracer_bullet_red",
 					name = "2A42_30_HE",
 					payload = 0.071995569503415,
+					payload_type = 0,
 					piercing_mass = 0.078,
 					rebound_concrete = <2>{
 						angle0 = 50,
@@ -491,10 +493,12 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					k1 = 5.5e-09,
 					l = 0,
 					life_time = 30,
+					manualWeaponFlag = 21,
 					mass = 0.39,
 					model_name = "tracer_bullet_red",
 					name = "2A42_30_AP",
 					payload = 0,
+					payload_type = 0,
 					piercing_mass = 0.39,
 					rebound_concrete = <3>{
 						angle0 = 50,
@@ -569,6 +573,9 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				["C-101EB"] = {
 					enable_options_key_for_unit = "c101eb_common_enabled"
 				},
+				["Christen Eagle II"] = {
+					enable_options_key_for_unit = "CE_II_enabled"
+				},
 				["F-14B"] = {
 					enable_options_key_for_unit = "f14b_enabled"
 				},
@@ -596,6 +603,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					enable_options_key_for_unit = "jf17_enabled"
 				},
 				["Ka-50"] = <table 4>,
+				["Ka-50_3"] = <table 4>,
 				["L-39C"] = {
 					enable_options_key_for_unit = "l39c_common_enabled"
 				},
@@ -690,10 +698,9 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	M_fuel_max = 1450,
 	M_max = 11900,
 	M_nominal = 9800,
-	MaxFuelWeight = "1450",
-	MaxHeight = "6600",
-	MaxSpeed = "300",
-	MaxTakeOffWeight = "11900",
+	MaxFuelWeight = 1450,
+	MaxSpeed = 350,
+	MaxTakeOffWeight = 11900,
 	Name = "Ka-50",
 	Navpoint_Panel = true,
 	Ny_max = 3.5,
@@ -706,9 +713,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "B_8V20A_OFP2"
 				}, {
 					CLSID = "B_8V20A_OM"
-				}, {
-					CLSID = "{A6FD14D3-6D30-4C85-88A7-8D17BEE120E2}",
-					arg_value = 0
 				}, {
 					CLSID = "{6DADF342-D4BA-4D8A-B081-BA928C4AF86D}"
 				}, {
@@ -728,7 +732,10 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				}, {
 					CLSID = "{37DCC01E-9E02-432F-B61D-10C166CA2798}"
 				}, {
-					CLSID = "{B99EE8A8-99BC-4a8d-89AC-A26831920DCE}"
+					CLSID = "{PTB_450}"
+				}, {
+					CLSID = "{A6FD14D3-6D30-4C85-88A7-8D17BEE120E2}",
+					arg_value = 0
 				} },
 			Number = 1,
 			Order = 1,
@@ -740,7 +747,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			arg_value = 0.701
 		}, {
 			FiZ = -3,
-			Launchers = { {
+			Launchers = <5>{ {
 					CLSID = "B_8V20A_CM"
 				}, {
 					CLSID = "B_8V20A_OFP2"
@@ -763,7 +770,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				}, {
 					CLSID = "{37DCC01E-9E02-432F-B61D-10C166CA2798}"
 				}, {
-					CLSID = "{B99EE8A8-99BC-4a8d-89AC-A26831920DCE}"
+					CLSID = "{PTB_450}"
 				} },
 			Number = 2,
 			Order = 2,
@@ -774,31 +781,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			arg = 309
 		}, {
 			FiZ = -3,
-			Launchers = { {
-					CLSID = "B_8V20A_CM"
-				}, {
-					CLSID = "B_8V20A_OFP2"
-				}, {
-					CLSID = "B_8V20A_OM"
-				}, {
-					CLSID = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}"
-				}, {
-					CLSID = "{FC56DF80-9B09-44C5-8976-DCFAFF219062}"
-				}, {
-					CLSID = "{05544F1A-C39C-466b-BC37-5BD1D52E57BB}"
-				}, {
-					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74884}"
-				}, {
-					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74881}"
-				}, {
-					CLSID = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}"
-				}, {
-					CLSID = "{FAB_250_M62}"
-				}, {
-					CLSID = "{37DCC01E-9E02-432F-B61D-10C166CA2798}"
-				}, {
-					CLSID = "{B99EE8A8-99BC-4a8d-89AC-A26831920DCE}"
-				} },
+			Launchers = <table 5>,
 			Number = 3,
 			Order = 3,
 			Type = 0,
@@ -815,9 +798,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				}, {
 					CLSID = "B_8V20A_OM"
 				}, {
-					CLSID = "{A6FD14D3-6D30-4C85-88A7-8D17BEE120E2}",
-					arg_value = 0
-				}, {
 					CLSID = "{6DADF342-D4BA-4D8A-B081-BA928C4AF86D}"
 				}, {
 					CLSID = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}"
@@ -836,7 +816,10 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				}, {
 					CLSID = "{37DCC01E-9E02-432F-B61D-10C166CA2798}"
 				}, {
-					CLSID = "{B99EE8A8-99BC-4a8d-89AC-A26831920DCE}"
+					CLSID = "{PTB_450}"
+				}, {
+					CLSID = "{A6FD14D3-6D30-4C85-88A7-8D17BEE120E2}",
+					arg_value = 0
 				} },
 			Number = 4,
 			Order = 4,
@@ -867,7 +850,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				vAngle = -40.067383,
 				viewAngle = 67.452896,
 				x_trans = 0,
-				y_trans = 0,
+				y_trans = -0.024,
 				z_trans = 0
 			}, {
 				hAngle = 51.644135,
@@ -875,7 +858,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				vAngle = -51.870411,
 				viewAngle = 37.846794,
 				x_trans = 0,
-				y_trans = 0,
+				y_trans = -0.024,
 				z_trans = 0
 			}, {
 				hAngle = -1.912186,
@@ -907,7 +890,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				vAngle = -4.47801,
 				viewAngle = 42.512844,
 				x_trans = 0.154018,
-				y_trans = 0,
+				y_trans = -0.024,
 				z_trans = 0
 			}, {
 				hAngle = -108.85202,
@@ -923,7 +906,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				vAngle = -27.209915,
 				viewAngle = 89.777542,
 				x_trans = 0,
-				y_trans = 0,
+				y_trans = -0.024,
 				z_trans = -0.218292
 			}, {
 				hAngle = 0,
@@ -931,7 +914,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				vAngle = 34.042202,
 				viewAngle = 88.727844,
 				x_trans = 0.142145,
-				y_trans = 0,
+				y_trans = -0.024,
 				z_trans = 0
 			}, {
 				hAngle = -32.128311,
@@ -939,7 +922,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				vAngle = -5.720805,
 				viewAngle = 59.208893,
 				x_trans = 0,
-				y_trans = 0,
+				y_trans = -0.024,
 				z_trans = 0
 			}, {
 				hAngle = 14.80306,
@@ -947,7 +930,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				vAngle = 3.332499,
 				viewAngle = 56.03204,
 				x_trans = 0,
-				y_trans = 0,
+				y_trans = -0.024,
 				z_trans = 0
 			}, {
 				hAngle = -14.414484,
@@ -955,7 +938,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				vAngle = 3.332499,
 				viewAngle = 56.03204,
 				x_trans = 0,
-				y_trans = 0,
+				y_trans = -0.024,
 				z_trans = 0
 			}, {
 				hAngle = 0,
@@ -963,11 +946,15 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				vAngle = -15.592758,
 				viewAngle = 89.777542,
 				x_trans = 0,
-				y_trans = 0,
+				y_trans = -0.024,
 				z_trans = 0
 			}, {
-				x_trans = 0.04,
-				y_trans = -0.01,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 89.777542,
+				x_trans = 0,
+				y_trans = -0.024,
 				z_trans = 0
 			} } },
 	TakeOffRWCategories = { {
@@ -1009,7 +996,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				CameraAngleRestriction = { false, 90, 0.5 },
 				CameraViewAngleLimits = { 20, 140 },
 				CockpitLocalPoint = { 3.188, 0.39, 0 },
-				EyePoint = { 0.09, 0, 0 },
+				EyePoint = { 0.05, 0.1, 0 },
 				ShoulderSize = 0.25,
 				limits_6DOF = {
 					roll = 90,
@@ -1023,12 +1010,12 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	Vy_max = 14.6,
 	Waypoint_Custom_Panel = true,
 	WorldID = 155,
-	_file = "Scripts/Database/helicopters\\Ka-50.lua",
+	_file = "./CoreMods/aircraft/Ka-50/Ka-50.lua",
 	_file_flyable = "./Mods/aircraft/Ka-50/entry.lua",
+	_origin = "Ka-50 Black Shark",
 	_origin_flyable = "Ka-50 Black Shark by Eagle Dynamics",
 	apu_rpm_delay_ = 2,
 	attribute = { 1, 2, 6, "Redacted", "Attack helicopters", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Helicopters" },
-	bigParkingRamp = false,
 	blade_area = 2.65,
 	blade_chord = 0.53,
 	blades_number = 6,
@@ -1071,12 +1058,14 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			diameter = 3,
 			engine_number = 1,
 			exhaust_length_ab = 3,
+			exhaust_length_ab_K = 0.3,
 			orientation = { 0.5, 0.5, 1 },
 			pos = { -0.388, 0.594, -1.399 }
 		}, {
 			diameter = 3,
 			engine_number = 2,
 			exhaust_length_ab = 3,
+			exhaust_length_ab_K = 0.3,
 			orientation = { 0.5, 0.5, -1 },
 			pos = { -0.388, 0.594, 1.399 }
 		} },
@@ -1105,7 +1094,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 								argument = 46,
 								connector = "MAIN_SPOT_PTR",
 								movable = true,
-								proto = <5>{
+								proto = <6>{
 									angle_change_rate = 0.10471975511966,
 									angle_max = 0.22689280275926,
 									angle_min = 0.19198621771938,
@@ -1118,7 +1107,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 							}, {
 								connector = "MAIN_SPOT_PTR",
 								movable = true,
-								proto = <6>{
+								proto = <7>{
 									angle_change_rate = 0.20943951023932,
 									angle_max = 0.83775804095728,
 									angle_min = 0,
@@ -1132,7 +1121,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 								connector = "MAIN_SPOT_PTR",
 								movable = true,
 								pos_correction = { 0.25, 0, 0 },
-								proto = <table 5>,
+								proto = <table 6>,
 								range = 8,
 								typename = "omnilight"
 							} },
@@ -1142,18 +1131,18 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 								argument = 45,
 								connector = "RESERV_SPOT_PTR",
 								movable = true,
-								proto = <table 5>,
-								typename = "spotlight"
-							}, {
-								connector = "RESERV_SPOT_PTR",
-								movable = true,
 								proto = <table 6>,
 								typename = "spotlight"
 							}, {
 								connector = "RESERV_SPOT_PTR",
 								movable = true,
+								proto = <table 7>,
+								typename = "spotlight"
+							}, {
+								connector = "RESERV_SPOT_PTR",
+								movable = true,
 								pos_correction = { 0.25, 0, 0 },
-								proto = <table 5>,
+								proto = <table 6>,
 								range = 8,
 								typename = "omnilight"
 							} },
@@ -1235,18 +1224,18 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 								argument = 46,
 								connector = "MAIN_SPOT_PTR",
 								movable = true,
-								proto = <table 5>,
-								typename = "spotlight"
-							}, {
-								connector = "MAIN_SPOT_PTR",
-								movable = true,
 								proto = <table 6>,
 								typename = "spotlight"
 							}, {
 								connector = "MAIN_SPOT_PTR",
 								movable = true,
+								proto = <table 7>,
+								typename = "spotlight"
+							}, {
+								connector = "MAIN_SPOT_PTR",
+								movable = true,
 								pos_correction = { 0.25, 0, 0 },
-								proto = <table 5>,
+								proto = <table 6>,
 								range = 8,
 								typename = "omnilight"
 							} },
@@ -1256,18 +1245,18 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 								argument = 45,
 								connector = "RESERV_SPOT_PTR",
 								movable = true,
-								proto = <table 5>,
-								typename = "spotlight"
-							}, {
-								connector = "RESERV_SPOT_PTR",
-								movable = true,
 								proto = <table 6>,
 								typename = "spotlight"
 							}, {
 								connector = "RESERV_SPOT_PTR",
 								movable = true,
+								proto = <table 7>,
+								typename = "spotlight"
+							}, {
+								connector = "RESERV_SPOT_PTR",
+								movable = true,
 								pos_correction = { 0.25, 0, 0 },
-								proto = <table 5>,
+								proto = <table 6>,
 								range = 8,
 								typename = "omnilight"
 							} },
@@ -1337,6 +1326,21 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						C = { { "Arg", 209, "to", 0.73, "speed", 0.14 }, { "Arg", 44, "to", 0, "speed", 0.14 }, { "Arg", 208, "to", 0.41, "speed", 0.14 }, { "Arg", 43, "to", -0.6, "speed", 0.14 } }
 					} },
 				Transition = { "Any", "High" }
+			} },
+		ServiceHatches = { {
+				Sequence = { {
+						C = { { "PosType", 3 }, { "Sleep", "for", 1200 } }
+					}, {
+						C = { { "Arg", 428, "to", 1, "speed", 0.6 } }
+					} },
+				Transition = { "Close", "Open" }
+			}, {
+				Sequence = { {
+						C = { { "PosType", 3 }, { "Sleep", "for", 1200 } }
+					}, {
+						C = { { "Arg", 428, "to", 0, "speed", 0.6 } }
+					} },
+				Transition = { "Open", "Close" }
 			} },
 		WindscreenWiper0 = { {
 				Sequence = { {
@@ -1542,6 +1546,24 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	rotor_height = 2.7,
 	rotor_pos = { 0.838, 2.339, 0 },
 	scheme = 1,
+	shape_table_data = { {
+			classname = "lLandPlane",
+			desrt = "KA-50-OBLOMOK",
+			file = "ka-50",
+			fire = { 300, 2 },
+			index = "Redacted",
+			life = 15,
+			name = "ka-50",
+			positioning = "BYNORMAL",
+			username = "Ka-50",
+			vis = 3
+		}, {
+			classname = "lLandPlane",
+			file = "KA-50-OBLOMOK",
+			fire = { 0, 1 },
+			name = "KA-50-OBLOMOK",
+			positioning = "BYNORMAL"
+		} },
 	sound_name = "Aircrafts/Engines/RotorKa50",
 	sounderName = "Aircraft/Helicopters/Ka-50",
 	stores_number = 4,

@@ -186,6 +186,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	chassis = {},
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000036",
+	positioning = "ONLYHEIGTH",
 	radar_rotation_period = 10,
 	sensor = {
 		height = 14.5,
@@ -199,7 +200,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			file = "ewr_fps117",
 			life = 6,
 			name = "ewr_fps117",
-			positioning = "BYNORMAL",
+			positioning = "ONLYHEIGTH",
 			username = "FPS-117"
 		}, {
 			file = "ewr_fps117_p_1",
@@ -213,7 +214,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "FPS-117",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0, 0 }, { 0, 0 }, { 0, 0 }, { 0.2, 0.00019047619047619 } }
+			coeffs = { { 0.035, 0.0012 }, { 0, 0 }, { 0, 0 }, { 0, 0 }, { 0.2, 0.00019047619047619 } }
 		},
 		agony_explosion_size = 0,
 		fire_pos = {},

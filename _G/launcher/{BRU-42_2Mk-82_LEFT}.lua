@@ -14,8 +14,8 @@ _G["launcher"]["{BRU-42_2*Mk-82_LEFT}"] = {
 			connector_name = "Point01"
 		} },
 	Picture = "mk82.png",
-	Weight = 579,
-	Weight_Empty = 97,
+	Weight = 520.270024,
+	Weight_Empty = 57.606184,
 	_file = "./CoreMods/aircraft/AV8BNA/WEAPONS/AV8BNA_Weapons.lua",
 	_origin = "AV-8B N/A AI by RAZBAM Sims",
 	attribute = { 4, 5, 32, "Redacted" },

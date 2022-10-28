@@ -90,6 +90,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							shell_name = {}
 						} },
 					fireAnimationArgument = 44,
+					primaryWeapon = false,
 					sensor = {},
 					sightIndicationMode = 1,
 					sightMasterMode = 1
@@ -155,7 +156,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "M1128 Stryker MGS",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0.0032, 0.0015 }, { 0, 0 }, { 0.3, 0.00025 } }
+			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0.002, 0.0015 },
+				[5] = { 0.3, 0.00025 }
+			}
 		},
 		agony_explosion_size = 3,
 		fire_pos = { 0.5, 1, 0 },

@@ -4,7 +4,9 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["carabine_M4"] = {
 		} },
 	PL = { {
 			ammo_capacity = 30,
-			shell_name = { "5_56x45" },
+			portionAmmoCapacity = 30,
+			reload_time = 5,
+			shell_name = { "5_56x45", "5_56x45_NOtr", "5_56x45_NOtr" },
 			shot_delay = 0.070588235294118,
 			switch_on_delay = 3
 		} },

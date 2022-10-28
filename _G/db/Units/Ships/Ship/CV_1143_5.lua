@@ -1236,6 +1236,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	carrierIlluminationStates = { { { 69, 0, 0.999 }, { 149, 0, 0.999 } }, { { 150, 0, 0.999 }, { 152, 0, 0.999 } }, { { 150, 0, 0.999 }, { 152, 0, 0.999 } } },
 	chassis = {},
 	distFindObstacles = 963.5,
+	draft = 13,
 	economy_distance = 14816000,
 	economy_velocity = 9.26,
 	enablePlayerCanDrive = false,

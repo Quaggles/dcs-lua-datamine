@@ -1046,10 +1046,6 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "F-86F_MAC",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
 					Name = "MQ-9 Reaper",
 					in_service = 0,
 					out_of_service = 40000
@@ -1126,29 +1122,15 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "M-2000C"
 				}, {
+					Name = "MB-339A"
+				}, {
+					Name = "MB-339APAN"
+				}, {
 					Name = "MiG-15bis"
 				}, {
 					Name = "MiG-19P"
 				}, {
 					Name = "MiG-21Bis"
-				}, {
-					Name = "Mirage-F1CE"
-				}, {
-					Name = "Mirage-F1EE"
-				}, {
-					Name = "Mirage-F1M-EE"
-				}, {
-					Name = "Mirage-F1M-CE"
-				}, {
-					Name = "Mirage-F1JA"
-				}, {
-					Name = "Mirage-F1EDA"
-				}, {
-					Name = "Mirage-F1BE"
-				}, {
-					Name = "Mirage-F1DDA"
-				}, {
-					Name = "Yak-52"
 				}, {
 					Name = "Ju-88A4"
 				}, {

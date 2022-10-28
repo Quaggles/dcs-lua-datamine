@@ -27,7 +27,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_24"] = {
 			fins_limit = 0.34906585039887,
 			fins_limit_x = 0.17453292519943,
 			null_roll = 0.78539816339745,
-			op_time = 100
+			op_time = 120
 		},
 		fm = {
 			A = 0.6,
@@ -53,7 +53,9 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_24"] = {
 		scheme = "schemes/bombs/bomb-paveway-III.sch",
 		seeker = {
 			FOV = 1.5707963267949,
-			delay = 0
+			delay = 6.5,
+			max_dist_to_emitter = 49000,
+			max_seeker_range = 22500
 		},
 		warhead = {
 			caliber = 457,
@@ -98,7 +100,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_24"] = {
 			fins_limit = 0.34906585039887,
 			fins_limit_x = 0.17453292519943,
 			null_roll = 0.78539816339745,
-			op_time = 100
+			op_time = 120
 		},
 		fm = {
 			A = 0.6,
@@ -124,7 +126,9 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_24"] = {
 		scheme = "schemes/bombs/bomb-paveway-III.sch",
 		seeker = {
 			FOV = 1.5707963267949,
-			delay = 0
+			delay = 6.5,
+			max_dist_to_emitter = 49000,
+			max_seeker_range = 22500
 		},
 		warhead = {
 			caliber = 457,

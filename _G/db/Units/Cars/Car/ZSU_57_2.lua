@@ -161,7 +161,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			[3] = 1
 		}
 	},
-	mapclasskey = "P0091000205",
+	mapclasskey = "SPAAA_NoRAD_Tank",
 	sensor = {
 		height = 2.826
 	},
@@ -190,7 +190,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "ZSU_57_2",
 	visual = {
 		IR = {
-			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.00095, 0.0019 }, { 0, 0 }, { 0.27, 0.0001741935483871 } }
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.00095, 0.0019 },
+				[5] = { 0.27, 0.0001741935483871 }
+			}
 		},
 		agony_explosion_size = 5,
 		fire_pos = { -1, 1.1, 0 },

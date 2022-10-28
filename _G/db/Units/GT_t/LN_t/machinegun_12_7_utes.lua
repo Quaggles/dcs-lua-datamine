@@ -25,5 +25,6 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["machinegun_12_7_utes"] = {
 	distanceMax = 1200,
 	max_trg_alt = 500,
 	name = "12_7_MG",
+	primaryWeapon = false,
 	sensor = {}
 }

@@ -12,5 +12,6 @@ _G["launcher"]["DIS_LS_6_100"] = {
 	attribute = { 4, 5, 36, "Redacted" },
 	category = 1,
 	displayName = "LS-6-100",
-	ejectImpulse = 140
+	ejectDirection = { 0, -1, 0 },
+	ejectImpulse = 105.6
 }

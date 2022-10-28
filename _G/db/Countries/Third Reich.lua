@@ -764,15 +764,15 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "M-2000C"
 				}, {
+					Name = "MB-339A"
+				}, {
+					Name = "MB-339APAN"
+				}, {
 					Name = "MiG-15bis"
 				}, {
 					Name = "MiG-19P"
 				}, {
 					Name = "MiG-21Bis"
-				}, {
-					Name = "Mirage-F1CE"
-				}, {
-					Name = "Yak-52"
 				}, {
 					Name = "Ju-88A4"
 				}, {
@@ -823,6 +823,7 @@ _G["db"]["Countries"]["#Index"] = {
 	award_by_name = {},
 	flag = "FUI/Common/Flags/Third Reich.png",
 	flag_small = "MissionEditor/data/images/flags/Third Reich.png",
+	hide = false,
 	rank_by_name = {
 		Captain = <table 3>,
 		Colonel = <table 6>,

@@ -38,6 +38,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	attribute = { 3, 12, 16, "Redacted", "Submarines", "NO_SAM", "Naval", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
 	chassis = {},
 	distFindObstacles = 323,
+	draft = 8.5,
 	economy_distance = 926000,
 	economy_velocity = 1.54333,
 	encyclopedia_hidden = true,

@@ -490,6 +490,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "M4_Sherman"
 				}, {
+					Name = "RD_75"
+				}, {
 					Name = "Bedford_MWD"
 				}, {
 					Name = "ES44AH"
@@ -988,10 +990,6 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "MiG-15bis_MAC",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
 					Name = "MiG-21Bis",
 					in_service = 0,
 					out_of_service = 40000
@@ -1070,9 +1068,9 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "M-2000C"
 				}, {
-					Name = "Mirage-F1CE"
+					Name = "MB-339A"
 				}, {
-					Name = "Yak-52"
+					Name = "MB-339APAN"
 				}, {
 					Name = "Ju-88A4"
 				} }

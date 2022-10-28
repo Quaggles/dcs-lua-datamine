@@ -6,7 +6,7 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["AK74"] = {
 			ammo_capacity = 30,
 			portionAmmoCapacity = 30,
 			reload_time = 5,
-			shell_name = { "5_45x39" },
+			shell_name = { "5_45x39", "5_45x39_NOtr", "5_45x39_NOtr" },
 			shot_delay = 0.1,
 			switch_on_delay = 3
 		} },

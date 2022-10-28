@@ -34,7 +34,9 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	},
 	attribute = { 3, 12, 15, "Redacted", "Unarmed ships", "Naval", "All", "Ships", "HeavyArmoredUnits" },
 	chassis = {},
+	deltaWaterline = 1.5,
 	distFindObstacles = 368.6,
+	draft = 5.5,
 	economy_distance = 15927200,
 	economy_velocity = 6.17333,
 	life = 400,
@@ -49,6 +51,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	speedup = 0.0814062,
 	swapped_names = true,
 	tags = { "Civilian" },
+	trim = 0.5,
 	type = "ELNYA",
 	visual = {
 		shape = "elnya",

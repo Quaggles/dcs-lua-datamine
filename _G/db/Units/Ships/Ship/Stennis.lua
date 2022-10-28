@@ -344,7 +344,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	LSOView = {
 		cockpit = "empty",
 		position = {
-			offset = { -14, 20.5, -14.65, -171, 3.6 }
+			offset = { -14, 20.5, -14.871349502995, -170.69323535351, 3.6 }
 		}
 	},
 	Landing_Point = { -104, 19.6, -33 },
@@ -371,6 +371,85 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		RADAR = { "seasparrow tr", "carrier search radar" }
 	},
 	Singleton = "yes",
+	Stations = {
+		BOSS = {
+			HQ_model = "AirBoss_73-75-CPT",
+			cameraLimitsLocal = { {
+					box = { -0.89, 0.4, -2, 3, 2, 2 },
+					boxPosLocal = { 0, 0, 0, 0 }
+				}, {
+					box = { -1, 0.4, -2, 1, 2, 2 },
+					boxPosLocal = { -1, 0, -0.3, -37 }
+				} },
+			cameraPosLocal = { 2, 1.75, 1, 0 },
+			dockConnector = "AirBoss_Connector_74",
+			hide_argument = 67
+		},
+		BRIEFING_ROOM = {
+			HQ_model = "Nimitz_Briefing_Room",
+			cameraLimitsLocal = { {
+					box = { -6, 0.1, -5.1, 3.2, 3, 1.2 },
+					boxPosLocal = { 0, 0, 0, 0 }
+				} },
+			cameraPosLocal = { 0, 1.75, -2.5 },
+			dockPos = { 0, 0, 0 }
+		},
+		HANGAR = {
+			HQ_model = "Nimitz_Hangar",
+			cameraLimitsLocal = { {
+					box = { -126, 8.8, -12.5, 50, 15.2, 12 },
+					boxPosLocal = { 0, 0, 0, 0 }
+				}, {
+					box = { 68, 8.8, -15, 72, 11.3, 15 },
+					boxPosLocal = { 0, 0, 0, 0 }
+				}, {
+					box = { 50, 8.8, -1.5, 68, 15.2, 15 },
+					boxPosLocal = { 0, 0, 0, 0 }
+				}, {
+					box = { 7, 8.8, 11, 68, 15.2, 15 },
+					boxPosLocal = { 0, 0, 0, 0 }
+				}, {
+					box = { -43, 8.8, 11, -5, 15.2, 15 },
+					boxPosLocal = { 0, 0, 0, 0 }
+				}, {
+					box = { -61, 8.8, 11, -51, 10.6, 16 },
+					boxPosLocal = { 0, 0, 0, 0 }
+				}, {
+					box = { -127, 8.8, 11, -65, 15.2, 15 },
+					boxPosLocal = { 0, 0, 0, 0 }
+				}, {
+					box = { 50, 8.8, -16, 68, 13.5, -1.5 },
+					boxPosLocal = { 0, 0, 0, 0 }
+				}, {
+					box = { 6, 8.8, -16, 50, 15.2, -12 },
+					boxPosLocal = { 0, 0, 0, 0 }
+				}, {
+					box = { -61, 8.8, -16, 2.5, 15.2, -12 },
+					boxPosLocal = { 0, 0, 0, 0 }
+				}, {
+					box = { -127, 8.8, -16, -65, 15.2, -12 },
+					boxPosLocal = { 0, 0, 0, 0 }
+				} },
+			cameraPosLocal = { -113, 10.45, -10, 10 },
+			dockPos = { 0, 0, 0 },
+			indoor = true
+		},
+		LSO = {
+			HQ_model = "LSO_HQ",
+			cameraPos = { -130, 21.75, -21, 190 },
+			dockConnector = "LSO_Connection",
+			hide_argument = 821
+		},
+		SUPERCARRIER = {
+			HQ_model = "Nimitz_Deck",
+			cameraLimitsLocal = { {
+					box = { -171, 20.5, -46, 170, 65, 42 },
+					boxPosLocal = { 0, 0, 0, 0 }
+				} },
+			cameraPosLocal = { 0, 21.75, 0 },
+			dockPos = { 0, 0, 0 }
+		}
+	},
 	TACAN = true,
 	TACAN_position = { -55, 55, 29 },
 	Tail_Width = 22,
@@ -889,8 +968,10 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	},
 	attribute = { 3, 12, 12, "Redacted", "Aircraft Carriers", "Arresting Gear", "catapult", "RADAR_BAND1_FOR_ARM", "RADAR_BAND2_FOR_ARM", "Datalink", "Link4", "ACLS", "AircraftCarrier", "AircraftCarrier With Catapult", "Armed Ship", "AircraftCarrier With Arresting Gear", "Naval", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
 	carrierIlluminationStates = { { { 69, 0, 1 }, { 795, 0, 1 }, { 797, 0, 1 }, { 801, 0, 1 } }, { { 790, 0, 1 }, { 791, 0, 1 }, { 792, 0, 1 }, { 793, 0, 1 }, { 794, 0, 1 }, { 795, 0, 1 }, { 796, 0, 1 }, { 797, 0, 1 }, { 801, 0, 1 } }, { { 150, 0, 1 }, { 152, 0, 1, 3, true }, { 790, 0, 0 }, { 792, 0, 1 }, { 795, 0, 0 }, { 797, 0, 0 }, { 801, 1, 0 } } },
+	carrier_crew_config_name = "./CoreMods/tech/USS_Nimitz/scripts/GroundCrew.lua",
 	chassis = {},
 	distFindObstacles = 1048.7,
+	draft = 13,
 	economy_distance = 74080000,
 	economy_velocity = 15.4333,
 	enablePlayerCanDrive = false,

@@ -31,11 +31,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						} },
 					beamWidth = 0.017453292519943,
 					sensor = {
-						deviation_error_azimuth = 0.0006,
-						deviation_error_distance = 0.015,
-						deviation_error_elevation = 0.0006,
+						deviation_error_azimuth = 0.00055,
+						deviation_error_distance = 0.0001,
+						deviation_error_elevation = 0.00055,
 						deviation_error_speed_sensor = 0.1,
-						deviation_error_stability = 0.01
+						deviation_error_stability = 0.005
 					},
 					sightIndicationMode = 1,
 					sightMasterMode = 1
@@ -196,7 +196,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "T-72B",
 	visual = {
 		IR = {
-			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.005, 0.0013 }, { 0, 0 }, { 0.29, 0.00017058823529412 } }
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0019, 0.0013 },
+				[5] = { 0.29, 0.00017058823529412 }
+			}
 		},
 		agony_explosion_size = 5,
 		dirt_pos = { -3.1, 0.55, -1.346 },

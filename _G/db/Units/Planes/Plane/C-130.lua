@@ -153,7 +153,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		editable = true,
 		frequency = 251,
 		maxFrequency = 399.975,
-		minFrequency = 225,
+		minFrequency = 100,
 		modulation = 0
 	},
 	IR_emission_coeff = 1,
@@ -528,6 +528,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	},
 	nose_gear_pos = { 8.133, -2.5, 0 },
 	nose_gear_wheel_diameter = 0.754,
+	openRamp = 1,
 	passivCounterm = {
 		CMDS_Edit = true,
 		SingleChargeTotal = 240,

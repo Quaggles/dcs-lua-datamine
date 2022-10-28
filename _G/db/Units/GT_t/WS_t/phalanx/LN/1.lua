@@ -6,7 +6,7 @@ _G["db"]["Units"]["GT_t"]["WS_t"]["phalanx"]["LN"]["#Index"] = {
 			ammo_capacity = 1550,
 			reload_time = 1000000,
 			shell_display_name = "20mm AP+HE",
-			shell_name = { "M61_20_AP", "M61_20_HE" },
+			shell_name = { "M61_20_AP_gr", "M61_20_HE_gr", "M61_20_HE_gr", "M61_20_HE_gr" },
 			shot_delay = 0.013333333333333,
 			switch_on_delay = 300
 		}, {

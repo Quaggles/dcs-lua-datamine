@@ -136,10 +136,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 147 },
 			critical_damage = 4
 		},
-		[62] = {
-			args = { 250 },
-			critical_damage = 6
-		},
 		[82] = {
 			args = { 152 },
 			critical_damage = 6
@@ -159,7 +155,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		editable = true,
 		frequency = 251,
 		maxFrequency = 399.975,
-		minFrequency = 225,
+		minFrequency = 100,
 		modulation = 0
 	},
 	IR_emission_coeff = 0.5,

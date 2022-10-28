@@ -328,6 +328,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "LARC-V"
 				}, {
+					Name = "RD_75"
+				}, {
 					Name = "rapier_fsa_launcher"
 				}, {
 					Name = "rapier_fsa_optical_tracker_unit"
@@ -836,17 +838,13 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "M-2000C"
 				}, {
+					Name = "MB-339A"
+				}, {
+					Name = "MB-339APAN"
+				}, {
 					Name = "MiG-15bis"
 				}, {
 					Name = "MiG-19P"
-				}, {
-					Name = "Mirage-F1CE"
-				}, {
-					Name = "Mirage-F1ED"
-				}, {
-					Name = "Mirage-F1BD"
-				}, {
-					Name = "Yak-52"
 				}, {
 					Name = "Ju-88A4"
 				}, {

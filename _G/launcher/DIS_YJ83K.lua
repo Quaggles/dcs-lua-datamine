@@ -13,5 +13,6 @@ _G["launcher"]["DIS_YJ83K"] = {
 	attribute = { 4, 4, 8, "Redacted" },
 	category = 2,
 	displayName = "YJ-83K",
-	ejectImpulse = 140
+	ejectDirection = { 0, -1, 0 },
+	ejectImpulse = 858
 }

@@ -46,6 +46,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							shell_name = {}
 						} },
 					fireAnimationArgument = 44,
+					primaryWeapon = true,
 					sensor = {}
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 1.221730476396 } },

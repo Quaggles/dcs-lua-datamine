@@ -19,9 +19,10 @@ _G["launcher"]["DIS_LS_6_250_DUAL_L"] = {
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/jsow_ls6.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	attribute = { 4, 4, 32, "Redacted" },
-	category = 2,
+	category = 1,
 	displayName = "LS-6-250 Dual",
-	ejectImpulse = 140,
+	ejectDirection = { 0, -1, 0 },
+	ejectImpulse = 330,
 	name = "DIS_LS_6_250_DUAL_L",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

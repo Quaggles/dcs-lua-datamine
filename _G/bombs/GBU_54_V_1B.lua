@@ -16,7 +16,7 @@ _G["bombs"]["#Index"] = {
 	hMin = 400,
 	mass = 253.1,
 	name = "GBU_54_V_1B",
-	type = 0,
+	type = 4,
 	warhead = "_G/warheads/Mk_82.lua",
 	ws_type = { 4, 5, 36, "Redacted" }
 }

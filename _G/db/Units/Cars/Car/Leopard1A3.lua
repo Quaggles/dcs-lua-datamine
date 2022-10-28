@@ -103,9 +103,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	animation_arguments = {},
 	attribute = { 2, 17, 26, "Redacted", "Tanks", "Old Tanks", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "HeavyArmoredUnits" },
 	category = "Armor",
-	chassis = {
-		canCrossRiver = true
-	},
+	chassis = {},
 	crew_locale = "ENG",
 	crew_members = { "commander", "gunner" },
 	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
@@ -128,7 +126,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "Leopard1A3",
 	visual = {
 		IR = {
-			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0032, 0.0015 }, { 0, 0 }, { 0.3, 0.0002 } }
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.002, 0.0015 },
+				[5] = { 0.3, 0.0002 }
+			}
 		},
 		agony_explosion_size = 2,
 		dirt_pos = { -3.2, 0.6, -1.347 },

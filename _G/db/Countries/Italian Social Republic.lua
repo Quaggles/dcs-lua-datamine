@@ -152,6 +152,14 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "Sd_Kfz_251",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Stug_III",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Electric locomotive"
 				}, {
 					Name = "Locomotive"
@@ -183,8 +191,6 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "flak18"
 				}, {
 					Name = "Pz_IV_H"
-				}, {
-					Name = "Sd_Kfz_251"
 				}, {
 					Name = "Blitz_36-6700A"
 				}, {
@@ -233,8 +239,6 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "SK_C_28_naval_gun"
 				}, {
 					Name = "fire_control"
-				}, {
-					Name = "Stug_III"
 				}, {
 					Name = "Elefant_SdKfz_184"
 				}, {
@@ -666,9 +670,11 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "FW-190A8"
+					Name = "Bf-109K-4",
+					in_service = 0,
+					out_of_service = 40000
 				}, {
-					Name = "Bf-109K-4"
+					Name = "FW-190A8"
 				}, {
 					Name = "SpitfireLFMkIX"
 				}, {
@@ -722,15 +728,15 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "M-2000C"
 				}, {
+					Name = "MB-339A"
+				}, {
+					Name = "MB-339APAN"
+				}, {
 					Name = "MiG-15bis"
 				}, {
 					Name = "MiG-19P"
 				}, {
 					Name = "MiG-21Bis"
-				}, {
-					Name = "Mirage-F1CE"
-				}, {
-					Name = "Yak-52"
 				}, {
 					Name = "Ju-88A4"
 				}, {
@@ -781,6 +787,7 @@ _G["db"]["Countries"]["#Index"] = {
 	award_by_name = {},
 	flag = "FUI/Common/Flags/Italian Social Republic.png",
 	flag_small = "MissionEditor/data/images/flags/Italian Social Republic.png",
+	hide = false,
 	rank_by_name = {
 		Captain = <table 3>,
 		Colonel = <table 6>,

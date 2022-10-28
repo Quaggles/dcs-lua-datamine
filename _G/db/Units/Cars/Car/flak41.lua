@@ -34,6 +34,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Waypoint_Custom_Panel = true,
 	_file = "./Mods/tech/WWII Units/Database/db_units_cars.lua",
 	_origin = "WWII Armour and Technics",
+	airWeaponDist = 5000,
 	animation_arguments = {
 		alarm_state = -1
 	},
@@ -71,7 +72,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "flak41",
 	visual = {
 		IR = {
-			coeffs = { { 0, 0 }, { 0.00775, 0.00265 }, { 0.0032, 0.0015 }, { 0, 0 }, { 0.27, 0.00049090909090909 } }
+			coeffs = { { 0, 0 }, { 0.00775, 0.00265 }, { 0.002, 0.0015 }, { 0, 0 }, { 0.27, 0.00049090909090909 } }
 		},
 		agony_explosion_size = 0.1,
 		fire_pos = {},

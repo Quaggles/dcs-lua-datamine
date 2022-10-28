@@ -188,7 +188,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					PL = { {
 							shell_name = {}
 						} },
-					sensor = {}
+					sensor = {},
+					xc = 5
 				} },
 			angles = { {} },
 			board = 2,
@@ -222,6 +223,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	attribute = { 3, 12, 14, "Redacted", "Frigates", "RADAR_BAND2_FOR_ARM", "Armed Ship", "Naval", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
 	chassis = {},
 	distFindObstacles = 260,
+	draft = 4,
 	economy_distance = 4630000,
 	economy_velocity = 7.20222,
 	life = 1600,

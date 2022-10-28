@@ -121,9 +121,9 @@ _G["weapons_table"]["weapons"]["bombs"]["BetAB_500ShP"] = {
 	},
 	sounderName = "Weapons/BetAB_500ShP",
 	targeting_data = {
-		char_time = 20.325,
-		chute_char_time = 42.15,
-		chute_cut_time = 7.5,
+		char_time = 20.34,
+		chute_char_time = 37.6,
+		chute_cut_time = 10,
 		chute_open_time = 1.5
 	},
 	type_name = "bomb",

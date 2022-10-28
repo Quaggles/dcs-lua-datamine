@@ -48,14 +48,14 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP250HD"] = {
 			} },
 		targeting_data = {
 			char_time = 20.36,
-			chute_char_time = 67.15,
+			chute_char_time = 70,
 			chute_open_time = 0.3
 		},
 		type = 1,
 		user_name = "SAMP-250 HD",
 		warhead = {
 			caliber = 324,
-			concrete_factors = { 1, 1, 0.1 },
+			concrete_factors = { 1, 1, 0.5 },
 			concrete_obj_factor = 1,
 			cumulative_factor = 0,
 			cumulative_thickness = 0,
@@ -116,14 +116,14 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP250HD"] = {
 			} },
 		targeting_data = {
 			char_time = 20.36,
-			chute_char_time = 67.15,
+			chute_char_time = 70,
 			chute_open_time = 0.3
 		},
 		type = 1,
 		user_name = "SAMP-250 HD",
 		warhead = {
 			caliber = 324,
-			concrete_factors = { 1, 1, 0.1 },
+			concrete_factors = { 1, 1, 0.5 },
 			concrete_obj_factor = 1,
 			cumulative_factor = 0,
 			cumulative_thickness = 0,
@@ -139,7 +139,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP250HD"] = {
 	sounderName = "Weapons/Bomb",
 	targeting_data = {
 		char_time = 20.36,
-		chute_char_time = 67.15,
+		chute_char_time = 70,
 		chute_open_time = 0.3
 	},
 	type_name = "bomb",

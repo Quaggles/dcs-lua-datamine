@@ -22,9 +22,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					type = 101
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 0.17453292519943 } },
+			center = "CENTER_TOWER",
 			omegaY = 3,
-			omegaZ = 3,
-			pos = { 0, 42.158, 0 }
+			omegaZ = 3
 		}, {
 			LN = { {
 					ECM_K = 0.65,
@@ -36,9 +36,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					type = 101
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 0.17453292519943 } },
+			center = "CENTER_TOWER",
 			omegaY = 3,
-			omegaZ = 3,
-			pos = { 0, 42.158, 0 }
+			omegaZ = 3
 		}, {
 			LN = { {
 					ECM_K = 0.65,
@@ -50,9 +50,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					type = 101
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 0.17453292519943 } },
+			center = "CENTER_TOWER",
 			omegaY = 3,
-			omegaZ = 3,
-			pos = { 0, 42.158, 0 }
+			omegaZ = 3
 		}, {
 			LN = { {
 					ECM_K = 0.65,
@@ -64,9 +64,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					type = 101
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 0.17453292519943 } },
+			center = "CENTER_TOWER",
 			omegaY = 3,
-			omegaZ = 3,
-			pos = { 0, 42.158, 0 }
+			omegaZ = 3
 		}, {
 			LN = { {
 					ECM_K = 0.65,
@@ -78,9 +78,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					type = 101
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 0.17453292519943 } },
+			center = "CENTER_TOWER",
 			omegaY = 3,
-			omegaZ = 3,
-			pos = { 0, 42.158, 0 }
+			omegaZ = 3
 		}, {
 			LN = { {
 					ECM_K = 0.65,
@@ -92,9 +92,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					type = 101
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 0.17453292519943 } },
+			center = "CENTER_TOWER",
 			omegaY = 3,
-			omegaZ = 3,
-			pos = { 0, 42.158, 0 }
+			omegaZ = 3
 		}, {
 			LN = { {
 					ECM_K = 0.65,
@@ -106,9 +106,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					type = 101
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 0.17453292519943 } },
+			center = "CENTER_TOWER",
 			omegaY = 3,
-			omegaZ = 3,
-			pos = { 0, 42.158, 0 }
+			omegaZ = 3
 		}, {
 			LN = { {
 					ECM_K = 0.65,
@@ -120,9 +120,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					type = 101
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 0.17453292519943 } },
+			center = "CENTER_TOWER",
 			omegaY = 3,
-			omegaZ = 3,
-			pos = { 0, 42.158, 0 }
+			omegaZ = 3
 		}, {
 			LN = { {
 					ECM_K = 0.65,
@@ -134,9 +134,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					type = 101
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 0.17453292519943 } },
+			center = "CENTER_TOWER",
 			omegaY = 3,
-			omegaZ = 3,
-			pos = { 0, 42.158, 0 }
+			omegaZ = 3
 		}, {
 			LN = { {
 					ECM_K = 0.65,
@@ -148,9 +148,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					type = 101
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 0.17453292519943 } },
+			center = "CENTER_TOWER",
 			omegaY = 3,
-			omegaZ = 3,
-			pos = { 0, 42.158, 0 }
+			omegaZ = 3
 		}, {
 			LN = { {
 					ECM_K = 0.65,
@@ -162,9 +162,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					type = 101
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 0.17453292519943 } },
+			center = "CENTER_TOWER",
 			omegaY = 3,
-			omegaZ = 3,
-			pos = { 0, 42.158, 0 }
+			omegaZ = 3
 		}, {
 			LN = { {
 					ECM_K = 0.65,
@@ -176,9 +176,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					type = 101
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 0.17453292519943 } },
+			center = "CENTER_TOWER",
 			omegaY = 3,
-			omegaZ = 3,
-			pos = { 0, 42.158, 0 }
+			omegaZ = 3
 		}, {
 			LN = { {
 					ECM_K = 0.65,
@@ -190,9 +190,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					type = 101
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 0.17453292519943 } },
+			center = "CENTER_TOWER",
 			omegaY = 3,
-			omegaZ = 3,
-			pos = { 0, 42.158, 0 }
+			omegaZ = 3
 		}, {
 			LN = { {
 					ECM_K = 0.65,
@@ -204,9 +204,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					type = 101
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 0.17453292519943 } },
+			center = "CENTER_TOWER",
 			omegaY = 3,
-			omegaZ = 3,
-			pos = { 0, 42.158, 0 }
+			omegaZ = 3
 		}, {
 			LN = { {
 					ECM_K = 0.65,
@@ -218,9 +218,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					type = 101
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 0.17453292519943 } },
+			center = "CENTER_TOWER",
 			omegaY = 3,
-			omegaZ = 3,
-			pos = { 0, 42.158, 0 }
+			omegaZ = 3
 		},
 		maxTargetDetectionRange = 60000,
 		radar_rotation_type = 0,
@@ -228,7 +228,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	Waypoint_Custom_Panel = true,
 	animation_arguments = {
-		locator_rotation = 11
+		locator_rotation = 0
 	},
 	armour_scheme = {
 		hull_azimuth = { {} },
@@ -243,7 +243,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	mapclasskey = "P0091000083",
 	radar_rotation_period = 3,
 	sensor = {
-		height = 42.158,
+		height = 38.4,
 		max_alt_finding_target = 3000,
 		max_range_finding_target = 60000,
 		min_range_finding_target = 2000
@@ -256,7 +256,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "S-300PS 40B6MD sr",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0, 0 }, { 0, 0 }, { 0.2, 0.0002 } }
+			coeffs = { { 0.035, 0.0012 }, { 0.0069, 0.0036 }, { 0, 0 },
+				[5] = { 0.2, 0.0002 }
+			}
 		},
 		agony_explosion_size = 1,
 		fire_pos = {
@@ -265,7 +267,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		fire_size = 0,
 		fire_time = 0,
 		max_time_agony = -1,
-		shape = "40b6md",
-		shape_dstr = "Auto-crush"
+		shape = "s-300_40v6md_5n66m_nvo",
+		shape_dstr = "s-300_40v6md_5n66m_nvo_p_1"
 	}
 }

@@ -267,10 +267,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						k1 = 7.6e-09,
 						l = 0,
 						life_time = 6,
+						manualWeaponFlag = 21,
 						mass = 0.39,
 						model_name = "tracer_bullet_yellow",
 						name = "GSH301_30_AP",
 						payload = 0,
+						payload_type = 0,
 						piercing_mass = 0.39,
 						rebound_concrete = <2>{
 							angle0 = 50,
@@ -329,10 +331,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						k1 = 7.6e-09,
 						l = 0,
 						life_time = 6,
+						manualWeaponFlag = 21,
 						mass = 0.39,
 						model_name = "tracer_bullet_yellow",
 						name = "GSH301_30_HE",
 						payload = 0.071995569503415,
+						payload_type = 0,
 						piercing_mass = 0.078,
 						rebound_concrete = <3>{
 							angle0 = 50,
@@ -380,7 +384,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		editable = true,
 		frequency = 251,
 		maxFrequency = 399.975,
-		minFrequency = 225,
+		minFrequency = 100,
 		modulation = 0
 	},
 	IR_emission_coeff = 0.7,
@@ -491,10 +495,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{CBC29BFE-3D24-4C64-B81D-941239D12249}",
 					arg_value = 0.5
-				}, {
-					CLSID = "{B4C01D60-A8A3-4237-BD72-CA7655BC0FEC}",
-					arg_value = 0.6,
-					connector = "hardpoint_APU_170-2"
 				} },
 			Number = 2,
 			Order = 2,

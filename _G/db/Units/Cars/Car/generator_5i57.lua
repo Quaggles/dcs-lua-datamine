@@ -46,10 +46,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "generator_5i57",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0, 0 }, { 0, 0 }, { 0.27, 0.0001741935483871 } }
+			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0, 0 },
+				[5] = { 0.27, 0.0001741935483871 }
+			}
 		},
-		fire_pos = { 1, 0.8, 0 },
-		fire_size = 0.7,
+		fire_pos = { 1, 1.8, 0 },
+		fire_size = 0.8,
 		fire_time = 120,
 		shape = "generator_5i57",
 		shape_dstr = "generator_5i57_p_1"

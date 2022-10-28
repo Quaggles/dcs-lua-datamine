@@ -552,7 +552,11 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_BAZALT_01",
-							pos = {}
+							recoilArgument = 177,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
 						} },
 					PL = { {
 							type_ammunition = {}
@@ -560,17 +564,17 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { {} },
-			animation_alarm_state = {
-				arg = 177,
-				time = 1.5
-			},
 			area = "TPK_01_R",
 			center = "POINT_BAZALT_01"
 		}, {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_BAZALT_02",
-							pos = {}
+							recoilArgument = 178,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
 						} },
 					PL = { {
 							type_ammunition = {}
@@ -578,17 +582,17 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { {} },
-			animation_alarm_state = {
-				arg = 178,
-				time = 1.5
-			},
 			area = "TPK_01_L",
 			center = "POINT_BAZALT_02"
 		}, {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_BAZALT_03",
-							pos = {}
+							recoilArgument = 179,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
 						} },
 					PL = { {
 							type_ammunition = {}
@@ -596,17 +600,17 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { {} },
-			animation_alarm_state = {
-				arg = 179,
-				time = 1.5
-			},
 			area = "TPK_01_R",
 			center = "POINT_BAZALT_03"
 		}, {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_BAZALT_04",
-							pos = {}
+							recoilArgument = 180,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
 						} },
 					PL = { {
 							type_ammunition = {}
@@ -614,17 +618,17 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { {} },
-			animation_alarm_state = {
-				arg = 180,
-				time = 1.5
-			},
 			area = "TPK_01_L",
 			center = "POINT_BAZALT_04"
 		}, {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_BAZALT_05",
-							pos = {}
+							recoilArgument = 181,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
 						} },
 					PL = { {
 							type_ammunition = {}
@@ -632,17 +636,17 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { {} },
-			animation_alarm_state = {
-				arg = 181,
-				time = 1.5
-			},
 			area = "TPK_02_R",
 			center = "POINT_BAZALT_05"
 		}, {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_BAZALT_06",
-							pos = {}
+							recoilArgument = 182,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
 						} },
 					PL = { {
 							type_ammunition = {}
@@ -650,17 +654,17 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { {} },
-			animation_alarm_state = {
-				arg = 182,
-				time = 1.5
-			},
 			area = "TPK_02_L",
 			center = "POINT_BAZALT_06"
 		}, {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_BAZALT_07",
-							pos = {}
+							recoilArgument = 183,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
 						} },
 					PL = { {
 							type_ammunition = {}
@@ -668,17 +672,17 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { {} },
-			animation_alarm_state = {
-				arg = 183,
-				time = 1.5
-			},
 			area = "TPK_02_R",
 			center = "POINT_BAZALT_07"
 		}, {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_BAZALT_08",
-							pos = {}
+							recoilArgument = 184,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
 						} },
 					PL = { {
 							type_ammunition = {}
@@ -686,17 +690,17 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { {} },
-			animation_alarm_state = {
-				arg = 184,
-				time = 1.5
-			},
 			area = "TPK_02_L",
 			center = "POINT_BAZALT_08"
 		}, {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_BAZALT_09",
-							pos = {}
+							recoilArgument = 185,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
 						} },
 					PL = { {
 							type_ammunition = {}
@@ -704,17 +708,17 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { {} },
-			animation_alarm_state = {
-				arg = 185,
-				time = 1.5
-			},
 			area = "TPK_03_R",
 			center = "POINT_BAZALT_09"
 		}, {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_BAZALT_10",
-							pos = {}
+							recoilArgument = 186,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
 						} },
 					PL = { {
 							type_ammunition = {}
@@ -722,17 +726,17 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { {} },
-			animation_alarm_state = {
-				arg = 186,
-				time = 1.5
-			},
 			area = "TPK_03_L",
 			center = "POINT_BAZALT_10"
 		}, {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_BAZALT_11",
-							pos = {}
+							recoilArgument = 187,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
 						} },
 					PL = { {
 							type_ammunition = {}
@@ -740,17 +744,17 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { {} },
-			animation_alarm_state = {
-				arg = 187,
-				time = 1.5
-			},
 			area = "TPK_03_R",
 			center = "POINT_BAZALT_11"
 		}, {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_BAZALT_12",
-							pos = {}
+							recoilArgument = 188,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
 						} },
 					PL = { {
 							type_ammunition = {}
@@ -758,17 +762,17 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { {} },
-			animation_alarm_state = {
-				arg = 188,
-				time = 1.5
-			},
 			area = "TPK_03_L",
 			center = "POINT_BAZALT_12"
 		}, {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_BAZALT_13",
-							pos = {}
+							recoilArgument = 189,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
 						} },
 					PL = { {
 							type_ammunition = {}
@@ -776,17 +780,17 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { {} },
-			animation_alarm_state = {
-				arg = 189,
-				time = 1.5
-			},
 			area = "TPK_04_R",
 			center = "POINT_BAZALT_13"
 		}, {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_BAZALT_14",
-							pos = {}
+							recoilArgument = 190,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
 						} },
 					PL = { {
 							type_ammunition = {}
@@ -794,17 +798,17 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { {} },
-			animation_alarm_state = {
-				arg = 190,
-				time = 1.5
-			},
 			area = "TPK_04_L",
 			center = "POINT_BAZALT_14"
 		}, {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_BAZALT_15",
-							pos = {}
+							recoilArgument = 191,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
 						} },
 					PL = { {
 							type_ammunition = {}
@@ -812,17 +816,17 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { {} },
-			animation_alarm_state = {
-				arg = 191,
-				time = 1.5
-			},
 			area = "TPK_04_R",
 			center = "POINT_BAZALT_15"
 		}, {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_BAZALT_16",
-							pos = {}
+							recoilArgument = 192,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
 						} },
 					PL = { {
 							type_ammunition = {}
@@ -830,10 +834,6 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { {} },
-			animation_alarm_state = {
-				arg = 192,
-				time = 1.5
-			},
 			area = "TPK_04_L",
 			center = "POINT_BAZALT_16"
 		}, {
@@ -1038,6 +1038,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	attribute = { 3, 12, 13, "Redacted", "Cruisers", "RADAR_BAND1_FOR_ARM", "DetectionByAWACS", "Armed Ship", "HelicopterCarrier", "Naval", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
 	chassis = {},
 	distFindObstacles = 611,
+	draft = 13,
 	economy_distance = 14945600,
 	economy_velocity = 9.26,
 	encyclopediaAnimation = {

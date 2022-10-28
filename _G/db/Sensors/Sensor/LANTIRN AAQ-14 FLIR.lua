@@ -3,6 +3,7 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 	Name = "LANTIRN AAQ-14 FLIR",
 	SensorType = 0,
 	category = 0,
+	laserRanger = true,
 	magnifications = { 11.7, 41 },
 	resolution = 0.09,
 	scan_volume = {

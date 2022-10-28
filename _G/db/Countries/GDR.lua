@@ -926,10 +926,6 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "MiG-15bis_MAC",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
 					Name = "MiG-21Bis",
 					in_service = 0,
 					out_of_service = 40000
@@ -1002,11 +998,11 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "M-2000C"
 				}, {
+					Name = "MB-339A"
+				}, {
+					Name = "MB-339APAN"
+				}, {
 					Name = "MiG-19P"
-				}, {
-					Name = "Mirage-F1CE"
-				}, {
-					Name = "Yak-52"
 				}, {
 					Name = "Ju-88A4"
 				}, {
@@ -1062,6 +1058,7 @@ _G["db"]["Countries"]["#Index"] = {
 	},
 	flag = "FUI/Common/Flags/GDR.png",
 	flag_small = "MissionEditor/data/images/flags/GDR.png",
+	hide = false,
 	rank_by_name = {
 		Captain = <table 11>,
 		Colonel = <table 14>,

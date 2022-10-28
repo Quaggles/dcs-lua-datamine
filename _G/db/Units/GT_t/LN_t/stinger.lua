@@ -1,6 +1,5 @@
 _G["db"]["Units"]["GT_t"]["LN_t"]["stinger"] = {
 	BR = { {
-			drawArgument = 4,
 			pos = { 1, 0, 0 }
 		} },
 	ECM_K = -1,

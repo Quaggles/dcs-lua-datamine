@@ -6,8 +6,8 @@ _G["launcher"]["{AV8BNA_AERO1D}"] = {
 			ShapeName = "AV8BNA_FT"
 		} },
 	Picture = "PTB.png",
-	Weight = 1002.439,
-	Weight_Empty = 93.89362,
+	Weight = 998.3513,
+	Weight_Empty = 89.8113,
 	_file = "./CoreMods/aircraft/AV8BNA/WEAPONS/AV8BNA_Weapons.lua",
 	_origin = "AV-8B N/A AI by RAZBAM Sims",
 	_unique_resource_name = "weapons.droptanks.AV8BNA_FT",

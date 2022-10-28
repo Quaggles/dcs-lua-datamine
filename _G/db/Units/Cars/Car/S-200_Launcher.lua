@@ -17,7 +17,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					ECM_K = -1,
 					PL = { {
 							ammo_capacity = 1,
-							reload_time = 120,
+							reload_time = 900,
 							shot_delay = 0.1,
 							type_ammunition = { 4, 4, 34, "Redacted" }
 						} },

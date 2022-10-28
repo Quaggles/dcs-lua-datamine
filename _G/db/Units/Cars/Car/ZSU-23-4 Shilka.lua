@@ -35,11 +35,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					display_name = "2A14x4",
 					name = "2A14_4",
 					reactionTime = 6,
-					sensor = {},
-					sound = {
-						cycle_shot = "Weapons/Automatic/ZU_23_4",
-						end_burst = "Weapons/Automatic/ZU_23_4_End"
-					}
+					sensor = {}
 				} },
 			angles = { { 2.6179938779915, -2.6179938779915, -0.1, 1.48 }, { -2.6179938779915, 2.6179938779915, -0.078539816339745, 1.48 } },
 			center = "CENTER_TOWER",
@@ -108,7 +104,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "ZSU-23-4 Shilka",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.0062, 0.00215 }, { 0, 0 }, { 0.3, 0.00016666666666667 } }
+			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.0062, 0.00215 },
+				[5] = { 0.3, 0.00016666666666667 }
+			}
 		},
 		agony_explosion_size = 2,
 		dirt_pos = { -2.9, 0.5, -1.283 },

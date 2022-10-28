@@ -33,11 +33,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					fireAnimationArgument = 23,
 					sensor = {},
 					sightIndicationMode = 1,
-					sightMasterMode = 1,
-					sound = {
-						cycle_shot = "Weapons/Automatic/2A42",
-						end_burst = "Weapons/Automatic/2A42_End"
-					}
+					sightMasterMode = 1
 				}, {
 					BR = { {
 							connector_name = "POINT_MGUN",
@@ -139,7 +135,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "BMP-2",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.0062, 0.00215 }, { 1, 1 }, { 0.3, 0.00016666666666667 } }
+			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.0062, 0.00215 },
+				[5] = { 0.3, 0.00016666666666667 }
+			}
 		},
 		agony_explosion_size = 3,
 		dirt_pos = { -2.9, 0.5, -1.28 },

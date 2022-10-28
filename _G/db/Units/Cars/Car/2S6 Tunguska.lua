@@ -127,7 +127,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			[32] = 1
 		}
 	},
-	mapclasskey = "P0091000014",
+	mapclasskey = "SAM_SPAAA_RAD_APC",
 	radar_rotation_period = 1,
 	sensor = {
 		height = 3.675,
@@ -150,7 +150,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "2S6 Tunguska",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.0062, 0.00215 }, { 0, 0 }, { 0.3, 0.00023076923076923 } }
+			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.0062, 0.00215 },
+				[5] = { 0.3, 0.00023076923076923 }
+			}
 		},
 		agony_explosion_size = 2,
 		dirt_pos = { -3.3, 0.5, -1.311 },

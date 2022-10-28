@@ -92,7 +92,7 @@ _G["rockets"]["#Index"] = {
 	class_name = "wAmmunitionAntiShip",
 	controller = {
 		boost_start = 0,
-		march_start = 0
+		march_start = 5
 	},
 	display_name = "C802AK",
 	engine_control = {

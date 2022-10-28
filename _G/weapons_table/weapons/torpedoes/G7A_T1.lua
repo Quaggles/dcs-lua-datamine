@@ -89,8 +89,7 @@ _G["weapons_table"]["weapons"]["torpedoes"]["G7A_T1"] = {
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
 			piercing_mass = 56,
-			time_self_destruct = 430,
-			water_explosion_factor = 10
+			time_self_destruct = 430
 		},
 		warhead_water = {
 			caliber = 533,
@@ -104,8 +103,7 @@ _G["weapons_table"]["weapons"]["torpedoes"]["G7A_T1"] = {
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
 			piercing_mass = 56,
-			time_self_destruct = 430,
-			water_explosion_factor = 10
+			time_self_destruct = 430
 		},
 		wsTypeOfWeapon = { 4, 8, 11, "Redacted" }
 	},
@@ -200,8 +198,7 @@ _G["weapons_table"]["weapons"]["torpedoes"]["G7A_T1"] = {
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
 			piercing_mass = 56,
-			time_self_destruct = 430,
-			water_explosion_factor = 10
+			time_self_destruct = 430
 		},
 		warhead_water = {
 			caliber = 533,
@@ -215,8 +212,7 @@ _G["weapons_table"]["weapons"]["torpedoes"]["G7A_T1"] = {
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
 			piercing_mass = 56,
-			time_self_destruct = 430,
-			water_explosion_factor = 10
+			time_self_destruct = 430
 		},
 		wsTypeOfWeapon = { 4, 8, 11, "Redacted" }
 	},

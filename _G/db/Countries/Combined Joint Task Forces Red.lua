@@ -220,15 +220,19 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "German_tank_wagon"
 				}, {
+					Name = "Sd_Kfz_251",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Stug_III",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "flak18",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
 					Name = "Pz_IV_H",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Sd_Kfz_251",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -325,10 +329,6 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "fire_control",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Stug_III",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -772,6 +772,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "RD_75",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "ZSU_57_2",
 					in_service = 0,
 					out_of_service = 40000
@@ -1088,6 +1092,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "JTAC",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Leopard-2",
 					in_service = 0,
 					out_of_service = 40000
@@ -1133,6 +1141,10 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "NASAMS_LN_C",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Infantry Animated",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -1184,6 +1196,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "Igla manpad INS",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Leclerc",
 					in_service = 0,
 					out_of_service = 40000
@@ -1217,10 +1233,6 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "TYPE-59",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Igla manpad INS",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -1806,6 +1818,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "Ka-50_3",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "CH-53E",
 					in_service = 0,
 					out_of_service = 40000
@@ -1940,15 +1956,15 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "M-2000C"
 				}, {
+					Name = "MB-339A"
+				}, {
+					Name = "MB-339APAN"
+				}, {
 					Name = "MiG-15bis"
 				}, {
 					Name = "MiG-19P"
 				}, {
 					Name = "MiG-21Bis"
-				}, {
-					Name = "Mirage-F1CE"
-				}, {
-					Name = "Yak-52"
 				}, {
 					Name = "Ju-88A4"
 				}, {
@@ -1979,10 +1995,6 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "IL-78M",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "MiG-15bis_MAC",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -2062,11 +2074,11 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "C-130",
+					Name = "Yak-52",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "F-5E_MAC",
+					Name = "C-130",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -2075,10 +2087,6 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "Mirage 2000-5",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "F-86F_MAC",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -2091,26 +2099,6 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "F-16C bl.52d",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Mirage-F1EH",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Mirage-F1CH",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Mirage-F1BE",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Mirage-F1EQ",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Mirage-F1BQ",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -2142,10 +2130,6 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "MB-339A",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
 					Name = "MB-339A/PAN",
 					in_service = 0,
 					out_of_service = 40000
@@ -2159,30 +2143,6 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "F-4E_new",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Mirage-F1EE",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Mirage-F1M-EE",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Mirage-F1M-CE",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Mirage-F1JA",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Mirage-F1EDA",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Mirage-F1DDA",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -2234,27 +2194,7 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "Mirage-F1C-200",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Mirage-F1CR",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Mirage-F1CT",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Mirage-F1B",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Mirage-F1ED",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Mirage-F1BD",
+					Name = "Mirage-F1CE",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -2271,18 +2211,6 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "H-6J",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "L-39_MAC",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Mirage-F1CZ",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Mirage-F1CJ",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -2323,14 +2251,6 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "Tornado GR4",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Mirage-F1CG",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Mirage-F1CK",
 					in_service = 0,
 					out_of_service = 40000
 				} }

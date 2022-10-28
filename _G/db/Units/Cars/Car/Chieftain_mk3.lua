@@ -274,9 +274,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	attribute = { 2, 17, 26, "Redacted", "Tanks", "Old Tanks", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "HeavyArmoredUnits" },
 	category = "Armor",
-	chassis = {
-		canCrossRiver = true
-	},
+	chassis = {},
 	crew_locale = "ENG",
 	crew_members = { "commander", "gunner" },
 	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
@@ -310,16 +308,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	swapped_names = true,
 	swing_on_run = false,
 	tags = { "Armor", "MBT" },
-	turbine = false,
 	type = "Chieftain_mk3",
 	visual = {
 		IR = {
-			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.005, 0.0013 }, { 0, 0 }, { 0.3, 0.00017142857142857 } }
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0019, 0.0013 },
+				[5] = { 0.3, 0.00017142857142857 }
+			}
 		},
 		dirt_pos = { -3.9, 0.54, -1.4 },
 		dust_pos = { 3.15, 0.1, -1.4 },
-		fire_pos = { -2.5, 1.5, 0 },
-		fire_size = 0.4,
+		fire_pos = { -2.3, 1.2, 0 },
+		fire_size = 0.75,
 		fire_time = 600,
 		shape = "Chieftain_mk3",
 		shape_dstr = "Chieftain_mk3_p_1"

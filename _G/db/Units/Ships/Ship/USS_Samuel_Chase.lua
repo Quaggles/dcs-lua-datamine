@@ -609,8 +609,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			},
 			drawArgument1 = 17,
 			drawArgument2 = 18,
-			omegaY = 1.0471975511966,
-			omegaZ = 1.0471975511966,
+			omegaY = 0.34906585039887,
+			omegaZ = 0.5235987755983,
 			pidY = <1>{
 				d = 10,
 				i = 20,
@@ -647,8 +647,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			},
 			drawArgument1 = 19,
 			drawArgument2 = 20,
-			omegaY = 1.0471975511966,
-			omegaZ = 1.0471975511966,
+			omegaY = 0.34906585039887,
+			omegaZ = 0.5235987755983,
 			pidY = <table 1>,
 			pidZ = <table 2>,
 			reference_angle_Y = 0.87266462599716
@@ -675,8 +675,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			},
 			drawArgument1 = 21,
 			drawArgument2 = 22,
-			omegaY = 1.0471975511966,
-			omegaZ = 1.0471975511966,
+			omegaY = 0.34906585039887,
+			omegaZ = 0.5235987755983,
 			pidY = <table 1>,
 			pidZ = <table 2>,
 			reference_angle_Y = -2.7925268031909
@@ -703,8 +703,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			},
 			drawArgument1 = 23,
 			drawArgument2 = 24,
-			omegaY = 1.0471975511966,
-			omegaZ = 1.0471975511966,
+			omegaY = 0.34906585039887,
+			omegaZ = 0.5235987755983,
 			pidY = <table 1>,
 			pidZ = <table 2>,
 			reference_angle_Y = 2.7925268031909
@@ -731,8 +731,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			},
 			drawArgument1 = 13,
 			drawArgument2 = 14,
-			omegaY = 0.5235987755983,
-			omegaZ = 0.5235987755983,
+			omegaY = 0.17453292519943,
+			omegaZ = 0.34906585039887,
 			reference_angle_Y = -3.1415926535898
 		},
 		maxTargetDetectionRange = 12000
@@ -760,6 +760,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	attribute = { 3, 12, 14, "Redacted", "Landing Ships", "Heavy armed ships", "NO_SAM", "Armed Ship", "Naval", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits" },
 	chassis = {},
 	distFindObstacles = 350,
+	draft = 8.5,
 	economy_distance = 8334000,
 	economy_velocity = 6,
 	enablePlayerCanDrive = true,

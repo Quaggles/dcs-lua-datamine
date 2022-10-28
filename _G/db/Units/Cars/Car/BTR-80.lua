@@ -3,6 +3,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	Countries = { "USSR" },
 	DetectionRange = 0,
 	DisplayName = "APC BTR-80",
 	DisplayNameShort = "BTR80",
@@ -82,6 +83,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		smoke = { "SMOKE_01", "SMOKE_02", "SMOKE_03", "SMOKE_04", "SMOKE_05", "SMOKE_06" }
 	},
 	Waypoint_Custom_Panel = true,
+	_file = "./CoreMods/tech/TechWeaponPack/Database/db_units_cars.lua",
+	_origin = "TechWeaponPack",
 	animation_arguments = {},
 	armour_scheme = {
 		hull_azimuth = { {}, {}, {} },
@@ -101,6 +104,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	sensor = {
 		height = 2.32
 	},
+	shape_table_data = { {
+			classname = "lLandVehicle",
+			desrt = "BTR-80_p_1",
+			file = "BTR-80",
+			life = 6,
+			name = "BTR-80",
+			positioning = "BYNORMAL",
+			username = "BTR-80"
+		}, {
+			file = "BTR-80_p_1",
+			name = "BTR-80_p_1"
+		} },
 	snd = {
 		engine_pitch = { {}, {}, {} },
 		engine_vol_a = { {}, {}, {} },
@@ -114,7 +129,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "BTR-80",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0.0322, 0.0028 }, { 0, 0 }, { 0.3, 0.00021428571428571 } }
+			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0.0322, 0.0028 },
+				[5] = { 0.3, 0.00021428571428571 }
+			}
 		},
 		agony_explosion_size = 5,
 		fire_pos = { -0.8, 1.11, 0 },
