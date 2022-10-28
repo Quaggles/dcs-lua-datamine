@@ -4,10 +4,9 @@ local function debugLogError(message) log.write(logName, log.ERROR, tostring(mes
 local originalPackagePath = package.path
 package.path = package.path..";"..lfs.writedir().."Scripts/Hooks/?.lua"
 debugLog("Loading")
+local dumpFolder = "DCS.Lua.Exporter\\" --Relative to lfs.writedir, aka "Saved Games\DCS\"
 local function Run()
 	local inspect = require 'inspect'
-
-	local dumpFolder = "DCS.Lua.Exporter\\" --Relative to lfs.writedir, aka "Saved Games\DCS\"
 	local sepChar = "\t"
 
 
@@ -214,6 +213,13 @@ local function Run()
 		end, t, #t + 1
 	end
 
+	local function getDcsVersion()
+		local currentVersion = _G["__DCS_VERSION__"]
+		if (currentVersion == nil) then
+			currentVersion = _G["_APP_VERSION"]
+		end
+		return currentVersion
+	end
 	local versionPath = "_G/".."__DCS_VERSION__.lua"
 	local function newVersion()
 		local file, error = io.open (lfs.writedir()..tostring(dumpFolder)..versionPath, "r")
@@ -223,8 +229,7 @@ local function Run()
 			local cachedVersion = tostring(file:read())
 			file:close()
 			if cachedVersion == "nil" then return true end
-			local currentVersion = _G["__DCS_VERSION__"]
-			return cachedVersion ~= currentVersion
+			return cachedVersion ~= getDcsVersion()
 		end
 	end
 
@@ -460,7 +465,7 @@ local function Run()
 		LogTime(1, "Writing \""..tableName.."\"", DumpRecurse, getTableFromPath(tableName), "_G\t"..tableName:gsub("%.", "\t"), tablePropertyFilters, recurse)
 	end
 	local function Export()
-		Output(_G["__DCS_VERSION__"], "_G/", "__DCS_VERSION__")
+		Output(getDcsVersion(), "_G/", "__DCS_VERSION__")
 		for _, v in ipairs(scanList) do
 			Scan(v)
 		end
