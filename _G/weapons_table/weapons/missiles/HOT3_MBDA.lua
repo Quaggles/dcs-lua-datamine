@@ -81,6 +81,11 @@ _G["weapons_table"]["weapons"]["missiles"]["HOT3_MBDA"] = {
 			maxAoa = 0.2,
 			rail_open = 0
 		},
+		fuze = {
+			default_arm_delays = { 0.8 },
+			default_function_delays = { 0, 0.02 },
+			default_proximity_radius = 7
+		},
 		march = {
 			custom_smoke_dissipation_factor = 0.06,
 			fuel_mass = 5.24,
@@ -137,17 +142,7 @@ _G["weapons_table"]["weapons"]["missiles"]["HOT3_MBDA"] = {
 			piercing_mass = 1.296
 		},
 		warhead_air = {
-			caliber = 150,
-			concrete_factors = { 1, 1, 1 },
-			concrete_obj_factor = 0,
-			cumulative_factor = 3,
-			cumulative_thickness = 1,
-			expl_mass = 5,
-			fantom = 1,
-			mass = 6.48,
-			obj_factors = { 1, 1 },
-			other_factors = { 1, 1, 1 },
-			piercing_mass = 1.296
+			fantom = 1
 		},
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
@@ -232,6 +227,11 @@ _G["weapons_table"]["weapons"]["missiles"]["HOT3_MBDA"] = {
 			maxAoa = 0.2,
 			rail_open = 0
 		},
+		fuze = {
+			default_arm_delays = { 0.8 },
+			default_function_delays = { 0, 0.02 },
+			default_proximity_radius = 7
+		},
 		march = {
 			custom_smoke_dissipation_factor = 0.06,
 			fuel_mass = 5.24,
@@ -288,17 +288,7 @@ _G["weapons_table"]["weapons"]["missiles"]["HOT3_MBDA"] = {
 			piercing_mass = 1.296
 		},
 		warhead_air = {
-			caliber = 150,
-			concrete_factors = { 1, 1, 1 },
-			concrete_obj_factor = 0,
-			cumulative_factor = 3,
-			cumulative_thickness = 1,
-			expl_mass = 5,
-			fantom = 0,
-			mass = 6.48,
-			obj_factors = { 1, 1 },
-			other_factors = { 1, 1, 1 },
-			piercing_mass = 1.296
+			fantom = 0
 		},
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},

@@ -267,6 +267,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			laser = true,
 			omegaY = 0.83775804095728,
 			omegaZ = 0.34906585039887,
+			pidY = {
+				d = 22,
+				i = 10,
+				inn = 0.4,
+				p = 60
+			},
+			pidZ = {
+				d = 22,
+				i = 10,
+				inn = 0.4,
+				p = 60
+			},
 			pointer = "POINT_SIGHT_01",
 			stabilizer = true
 		}, {
@@ -303,6 +315,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					type = 10
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.15707963267949, 0.87266462599716 } },
+			base = 1,
 			center = "CENTER_MG_02",
 			cockpit = { "IronSight/IronSight", { 0, 0, 0 },
 				open = true

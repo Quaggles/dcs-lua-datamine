@@ -82,9 +82,10 @@ _G["rockets"]["#Index"] = {
 		wind_sigma = 0,
 		wind_time = 0
 	},
-	fuze_proximity = {
-		ignore_inp_armed = 0,
-		radius = 7
+	fuze = {
+		default_arm_delays = { 0.8 },
+		default_function_delays = { 0, 0.02 },
+		default_proximity_radius = 7
 	},
 	march = {
 		boost_factor = 0,
@@ -132,7 +133,7 @@ _G["rockets"]["#Index"] = {
 	v_mid = 600,
 	v_min = 170,
 	warhead = "_G/warheads/FSA_Rapier.lua",
-	warhead_air = "_G/warheads/FSA_Rapier.lua",
+	warhead_air = {},
 	wsTypeOfWeapon = <1>{ 4, 4, 34, "Redacted" },
 	ws_type = <table 1>
 }

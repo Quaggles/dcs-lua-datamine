@@ -78,6 +78,11 @@ _G["rockets"]["#Index"] = {
 		maxAoa = 0.2,
 		rail_open = 0
 	},
+	fuze = {
+		default_arm_delays = { 0.8 },
+		default_function_delays = { 0, 0.02 },
+		default_proximity_radius = 7
+	},
 	march = {
 		custom_smoke_dissipation_factor = 0.06,
 		fuel_mass = 5.24,
@@ -121,7 +126,7 @@ _G["rockets"]["#Index"] = {
 	v_mid = 235,
 	v_min = 0,
 	warhead = "_G/warheads/HOT3.lua",
-	warhead_air = "_G/warheads/HOT3.lua",
+	warhead_air = {},
 	wsTypeOfWeapon = <1>{ 4, 4, 8, "Redacted" },
 	ws_type = <table 1>
 }

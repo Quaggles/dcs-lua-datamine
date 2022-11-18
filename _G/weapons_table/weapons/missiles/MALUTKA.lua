@@ -50,6 +50,9 @@ _G["weapons_table"]["weapons"]["missiles"]["MALUTKA"] = {
 			maxAoa = 0.2,
 			rail_open = 0
 		},
+		fuze = {
+			default_arm_delays = { 0.8 }
+		},
 		march = {
 			custom_smoke_dissipation_factor = 0.013,
 			fuel_mass = 1.4,
@@ -88,17 +91,7 @@ _G["weapons_table"]["weapons"]["missiles"]["MALUTKA"] = {
 			piercing_mass = 0.7
 		},
 		warhead_air = {
-			caliber = 125,
-			concrete_factors = { 1, 1, 1 },
-			concrete_obj_factor = 0,
-			cumulative_factor = 3,
-			cumulative_thickness = 0.6,
-			expl_mass = 2.2,
-			fantom = 1,
-			mass = 3.5,
-			obj_factors = { 1, 1 },
-			other_factors = { 1, 1, 1 },
-			piercing_mass = 0.7
+			fantom = 1
 		}
 	},
 	display_name = "AT-3 Sagger",
@@ -153,6 +146,9 @@ _G["weapons_table"]["weapons"]["missiles"]["MALUTKA"] = {
 			maxAoa = 0.2,
 			rail_open = 0
 		},
+		fuze = {
+			default_arm_delays = { 0.8 }
+		},
 		march = {
 			custom_smoke_dissipation_factor = 0.013,
 			fuel_mass = 1.4,
@@ -191,17 +187,7 @@ _G["weapons_table"]["weapons"]["missiles"]["MALUTKA"] = {
 			piercing_mass = 0.7
 		},
 		warhead_air = {
-			caliber = 125,
-			concrete_factors = { 1, 1, 1 },
-			concrete_obj_factor = 0,
-			cumulative_factor = 3,
-			cumulative_thickness = 0.6,
-			expl_mass = 2.2,
-			fantom = 0,
-			mass = 3.5,
-			obj_factors = { 1, 1 },
-			other_factors = { 1, 1, 1 },
-			piercing_mass = 0.7
+			fantom = 0
 		}
 	},
 	sounderName = "Weapons/Missile",

@@ -206,7 +206,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_87"] = {
 		},
 		rotation_control = {
 			arg_out = 1,
-			bomblet_char_time = 22.16,
+			bomblet_char_time = 25.25,
 			char_time = 20.38,
 			rot_out = 0,
 			vis_w_mult = 0.5
@@ -425,7 +425,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_87"] = {
 		},
 		rotation_control = {
 			arg_out = 1,
-			bomblet_char_time = 22.16,
+			bomblet_char_time = 25.25,
 			char_time = 20.38,
 			rot_out = 0,
 			vis_w_mult = 0.5
@@ -434,8 +434,8 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_87"] = {
 	},
 	sounderName = "Weapons/Bomb",
 	targeting_data = {
-		bomblet_char_time = 22.24,
-		char_time = 20.36
+		bomblet_char_time = 25.25,
+		char_time = 20.38
 	},
 	type_name = "bomb",
 	ws_type = { 4, 5, 38, "Redacted" }

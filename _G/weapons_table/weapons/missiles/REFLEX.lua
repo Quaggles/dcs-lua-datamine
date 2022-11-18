@@ -49,6 +49,9 @@ _G["weapons_table"]["weapons"]["missiles"]["REFLEX"] = {
 			mass = 17.2,
 			maxAoa = 0.2
 		},
+		fuze = {
+			default_arm_delays = { 0.8 }
+		},
 		march = {
 			custom_smoke_dissipation_factor = 0.01,
 			fuel_mass = 1.5,
@@ -87,17 +90,7 @@ _G["weapons_table"]["weapons"]["missiles"]["REFLEX"] = {
 			piercing_mass = 0.9
 		},
 		warhead_air = {
-			caliber = 125,
-			concrete_factors = { 1, 1, 1 },
-			concrete_obj_factor = 0,
-			cumulative_factor = 3,
-			cumulative_thickness = 1,
-			expl_mass = 2.7,
-			fantom = 1,
-			mass = 4.5,
-			obj_factors = { 1, 1 },
-			other_factors = { 1, 1, 1 },
-			piercing_mass = 0.9
+			fantom = 1
 		}
 	},
 	display_name = "AT-11 Sniper",
@@ -151,6 +144,9 @@ _G["weapons_table"]["weapons"]["missiles"]["REFLEX"] = {
 			mass = 17.2,
 			maxAoa = 0.2
 		},
+		fuze = {
+			default_arm_delays = { 0.8 }
+		},
 		march = {
 			custom_smoke_dissipation_factor = 0.01,
 			fuel_mass = 1.5,
@@ -189,17 +185,7 @@ _G["weapons_table"]["weapons"]["missiles"]["REFLEX"] = {
 			piercing_mass = 0.9
 		},
 		warhead_air = {
-			caliber = 125,
-			concrete_factors = { 1, 1, 1 },
-			concrete_obj_factor = 0,
-			cumulative_factor = 3,
-			cumulative_thickness = 1,
-			expl_mass = 2.7,
-			fantom = 0,
-			mass = 4.5,
-			obj_factors = { 1, 1 },
-			other_factors = { 1, 1, 1 },
-			piercing_mass = 0.9
+			fantom = 0
 		}
 	},
 	sounderName = "Weapons/Missile",

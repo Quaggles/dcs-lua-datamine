@@ -615,6 +615,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	snd = {},
 	speedup = 0.119249,
 	swapped_names = true,
+	tags = { "Carrier" },
 	type = "LHA_Tarawa",
 	visual = {
 		shape = "LHA_Tarawa",

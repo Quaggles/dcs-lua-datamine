@@ -70,6 +70,7 @@ _G["rockets"]["#Index"] = {
 	},
 	control_block2 = {
 		add_y = 180,
+		can_update_target_pos = 0,
 		delay = 0.5,
 		max_no_vert_offset_open_h = 90,
 		use_snake_maneuver = 0,

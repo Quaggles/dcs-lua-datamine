@@ -82,10 +82,8 @@ _G["weapons_table"]["weapons"]["missiles"]["Ataka_9M120F"] = {
 			mass = 42.5,
 			maxAoa = 0.2
 		},
-		fuze_proximity = {
-			arm_delay = 0.8,
-			ignore_inp_armed = 0,
-			radius = 0
+		fuze = {
+			default_arm_delays = { 0.8 }
 		},
 		manualWeaponFlag = 3,
 		march = {
@@ -164,18 +162,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Ataka_9M120F"] = {
 			time_self_destruct = 20
 		},
 		warhead_air = {
-			caliber = 130,
-			concrete_factors = { 1.28, 1.28, 1 },
-			concrete_obj_factor = 0,
-			cumulative_factor = 0,
-			cumulative_thickness = 0,
-			expl_mass = 7.4,
-			fantom = 1,
-			mass = 7.4,
-			obj_factors = { 1.28, 1.28 },
-			other_factors = { 1.28, 1.28, 1 },
-			piercing_mass = 1.48,
-			time_self_destruct = 20
+			fantom = 1
 		},
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
@@ -261,10 +248,8 @@ _G["weapons_table"]["weapons"]["missiles"]["Ataka_9M120F"] = {
 			mass = 42.5,
 			maxAoa = 0.2
 		},
-		fuze_proximity = {
-			arm_delay = 0.8,
-			ignore_inp_armed = 0,
-			radius = 0
+		fuze = {
+			default_arm_delays = { 0.8 }
 		},
 		manualWeaponFlag = 3,
 		march = {
@@ -343,18 +328,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Ataka_9M120F"] = {
 			time_self_destruct = 20
 		},
 		warhead_air = {
-			caliber = 130,
-			concrete_factors = { 1.28, 1.28, 1 },
-			concrete_obj_factor = 0,
-			cumulative_factor = 0,
-			cumulative_thickness = 0,
-			expl_mass = 7.4,
-			fantom = 0,
-			mass = 7.4,
-			obj_factors = { 1.28, 1.28 },
-			other_factors = { 1.28, 1.28, 1 },
-			piercing_mass = 1.48,
-			time_self_destruct = 20
+			fantom = 0
 		},
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},

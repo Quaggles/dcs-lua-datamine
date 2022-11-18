@@ -79,10 +79,10 @@ _G["rockets"]["#Index"] = {
 		mass = 42.5,
 		maxAoa = 0.2
 	},
-	fuze_proximity = {
-		arm_delay = 0.8,
-		ignore_inp_armed = 1,
-		radius = 4
+	fuze = {
+		default_arm_delays = { 0.8 },
+		default_proximity_radius = 4,
+		tdd_position = { 0.83, 0, 0 }
 	},
 	manualWeaponFlag = 18,
 	march = {
@@ -147,7 +147,7 @@ _G["rockets"]["#Index"] = {
 	v_mid = 300,
 	v_min = 170,
 	warhead = "_G/warheads/9M220.lua",
-	warhead_air = "_G/warheads/9M220.lua",
+	warhead_air = {},
 	wsTypeOfWeapon = <1>{ 4, 4, 7, "Redacted" },
 	ws_type = <table 1>
 }

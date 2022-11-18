@@ -86,9 +86,10 @@ _G["weapons_table"]["weapons"]["missiles"]["Rapier"] = {
 			wind_sigma = 0,
 			wind_time = 0
 		},
-		fuze_proximity = {
-			ignore_inp_armed = 0,
-			radius = 7
+		fuze = {
+			default_arm_delays = { 0.8 },
+			default_function_delays = { 0, 0.02 },
+			default_proximity_radius = 7
 		},
 		march = {
 			boost_factor = 0,
@@ -150,18 +151,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Rapier"] = {
 			time_self_destruct = 20
 		},
 		warhead_air = {
-			caliber = 133,
-			concrete_factors = { 1, 1, 1 },
-			concrete_obj_factor = 0,
-			cumulative_factor = 0,
-			cumulative_thickness = 0,
-			expl_mass = 1.4,
-			fantom = 1,
-			mass = 1.4,
-			obj_factors = { 1, 1 },
-			other_factors = { 1, 1, 1 },
-			piercing_mass = 0.28,
-			time_self_destruct = 20
+			fantom = 1
 		},
 		wsTypeOfWeapon = { 4, 4, 34, "Redacted" }
 	},
@@ -251,9 +241,10 @@ _G["weapons_table"]["weapons"]["missiles"]["Rapier"] = {
 			wind_sigma = 0,
 			wind_time = 0
 		},
-		fuze_proximity = {
-			ignore_inp_armed = 0,
-			radius = 7
+		fuze = {
+			default_arm_delays = { 0.8 },
+			default_function_delays = { 0, 0.02 },
+			default_proximity_radius = 7
 		},
 		march = {
 			boost_factor = 0,
@@ -315,18 +306,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Rapier"] = {
 			time_self_destruct = 20
 		},
 		warhead_air = {
-			caliber = 133,
-			concrete_factors = { 1, 1, 1 },
-			concrete_obj_factor = 0,
-			cumulative_factor = 0,
-			cumulative_thickness = 0,
-			expl_mass = 1.4,
-			fantom = 0,
-			mass = 1.4,
-			obj_factors = { 1, 1 },
-			other_factors = { 1, 1, 1 },
-			piercing_mass = 0.28,
-			time_self_destruct = 20
+			fantom = 0
 		},
 		wsTypeOfWeapon = { 4, 4, 34, "Redacted" }
 	},

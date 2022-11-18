@@ -81,9 +81,9 @@ _G["rockets"]["#Index"] = {
 		wind_sigma = 0,
 		wind_time = 1000
 	},
-	fuze_proximity = {
-		ignore_inp_armed = 1,
-		radius = 5
+	fuze = {
+		default_arm_delays = { 0.8 },
+		default_proximity_radius = 5
 	},
 	march = {
 		boost_factor = 0,
@@ -128,7 +128,7 @@ _G["rockets"]["#Index"] = {
 	v_mid = 300,
 	v_min = 0,
 	warhead = "_G/warheads/GWS20Mod1.lua",
-	warhead_air = "_G/warheads/GWS20Mod1.lua",
+	warhead_air = {},
 	wsTypeOfWeapon = <1>{ 4, 4, 34, "Redacted" },
 	ws_type = <table 1>
 }

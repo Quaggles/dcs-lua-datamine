@@ -27,10 +27,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 146 },
 			critical_damage = 5
 		},
-		[7] = {
-			args = { 249 },
-			critical_damage = 2
-		},
 		[8] = {
 			args = { 265 },
 			critical_damage = 2
@@ -75,8 +71,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 162 },
 			critical_damage = 2
 		},
-		[20] = {
+		[19] = {
 			args = { 183 },
+			critical_damage = 1
+		},
+		[20] = {
+			args = { 185 },
 			critical_damage = 1
 		},
 		[21] = {
@@ -200,6 +200,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[85] = {
 			args = { 135 },
 			critical_damage = 3
+		},
+		[90] = {
+			args = { 663 },
+			critical_damage = 1
 		}
 	},
 	DamageParts = { "MIG-29A-OBLOMOK-WING-R", "MIG-29A-OBLOMOK-WING-L" },

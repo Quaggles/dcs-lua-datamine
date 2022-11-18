@@ -49,6 +49,9 @@ _G["weapons_table"]["weapons"]["missiles"]["P_9M133"] = {
 			mass = 26,
 			maxAoa = 0.2
 		},
+		fuze = {
+			default_arm_delays = { 0.8 }
+		},
 		march = {
 			custom_smoke_dissipation_factor = 0.08,
 			fuel_mass = 5,
@@ -87,17 +90,7 @@ _G["weapons_table"]["weapons"]["missiles"]["P_9M133"] = {
 			piercing_mass = 1.18
 		},
 		warhead_air = {
-			caliber = 152,
-			concrete_factors = { 1, 1, 1 },
-			concrete_obj_factor = 0,
-			cumulative_factor = 3,
-			cumulative_thickness = 1,
-			expl_mass = 3.5,
-			fantom = 1,
-			mass = 5.9,
-			obj_factors = { 1, 1 },
-			other_factors = { 1, 1, 1 },
-			piercing_mass = 1.18
+			fantom = 1
 		}
 	},
 	display_name = "AT-14 Spriggan",
@@ -151,6 +144,9 @@ _G["weapons_table"]["weapons"]["missiles"]["P_9M133"] = {
 			mass = 26,
 			maxAoa = 0.2
 		},
+		fuze = {
+			default_arm_delays = { 0.8 }
+		},
 		march = {
 			custom_smoke_dissipation_factor = 0.08,
 			fuel_mass = 5,
@@ -189,17 +185,7 @@ _G["weapons_table"]["weapons"]["missiles"]["P_9M133"] = {
 			piercing_mass = 1.18
 		},
 		warhead_air = {
-			caliber = 152,
-			concrete_factors = { 1, 1, 1 },
-			concrete_obj_factor = 0,
-			cumulative_factor = 3,
-			cumulative_thickness = 1,
-			expl_mass = 3.5,
-			fantom = 0,
-			mass = 5.9,
-			obj_factors = { 1, 1 },
-			other_factors = { 1, 1, 1 },
-			piercing_mass = 1.18
+			fantom = 0
 		}
 	},
 	sounderName = "Weapons/Missile",

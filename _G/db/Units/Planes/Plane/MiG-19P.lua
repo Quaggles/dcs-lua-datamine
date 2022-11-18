@@ -172,12 +172,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[35] = {
 			args = { 225 },
 			critical_damage = 4,
-			deps_cells = { 29, 37, 86, 84 }
+			deps_cells = { 29, 37, 86 }
 		},
 		[36] = {
 			args = { 215 },
 			critical_damage = 4,
-			deps_cells = { 30, 38, 87, 85, 72 }
+			deps_cells = { 30, 38, 87, 72 }
 		},
 		[37] = {
 			args = { 227 },
@@ -321,18 +321,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 4,
 			deps_cells = { 98 }
 		},
-		[83] = {
-			args = { 134 },
-			critical_damage = 3
-		},
-		[84] = {
-			args = { 136 },
-			critical_damage = 3
-		},
-		[85] = {
-			args = { 137 },
-			critical_damage = 3
-		},
 		[86] = {
 			critical_damage = 2
 		},
@@ -364,18 +352,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[136] = {
 			args = { 253 },
-			critical_damage = 3,
-			deps_cells = { 83 }
+			critical_damage = 3
 		},
 		[137] = {
 			args = { 259 },
-			critical_damage = 3,
-			deps_cells = { 84 }
+			critical_damage = 3
 		},
 		[138] = {
 			args = { 255 },
-			critical_damage = 3,
-			deps_cells = { 85 }
+			critical_damage = 3
 		},
 		cell_indices = {
 			AILERON_L = 25,
@@ -444,9 +429,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			TAIL_BOTTOM = 58,
 			TAIL_LEFT_SIDE = 56,
 			TAIL_RIGHT_SIDE = 57,
-			WHEEL_F = 83,
-			WHEEL_L = 84,
-			WHEEL_R = 85,
 			WING_L_CENTER = 29,
 			WING_L_IN = 35,
 			WING_L_OUT = 23,

@@ -2,10 +2,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	AOA_take_off = 0.14,
 	AddPropAircraft = { {
 			control = "checkbox",
+			defValue = true,
+			id = "LoadWater",
+			label = "Load Water (500lb)",
+			weightWhenOn = 226.796
+		}, {
+			control = "checkbox",
 			defValue = false,
 			id = "MountNVG",
-			label = "Load AN/AVS-9 NVG case",
-			weightWhenOn = -80
+			label = "Load AN/AVS-9 NVG case"
 		}, {
 			control = "comboList",
 			defValue = 1,
@@ -686,7 +691,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		WorldID = 31
 	},
 	DisplayName = "AV-8B N/A",
-	EmptyWeight = 7242.0558,
+	EmptyWeight = 7015.2598,
 	Failures = { {
 			enable = false,
 			hh = 0,
@@ -1160,16 +1165,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			Name = "AircraftCarrier With Tramplin"
 		} },
-	M_empty = 7242.0558,
+	M_empty = 7015.2598,
 	M_fuel_max = 3519.423,
 	M_max = 14100,
-	M_nominal = 10410,
+	M_nominal = 10534.6828,
 	Mach_max = 0.9,
 	MaxFuelWeight = 3519.423,
 	MaxHeight = 13716,
 	MaxSpeed = 990,
 	MaxTakeOffWeight = 14100,
 	Name = "AV-8B N/A",
+	Navpoint_Panel = true,
 	Ny_max = 7,
 	Ny_max_e = 7,
 	Ny_min = -2,

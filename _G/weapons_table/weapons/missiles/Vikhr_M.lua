@@ -49,6 +49,12 @@ _G["weapons_table"]["weapons"]["missiles"]["Vikhr_M"] = {
 			mass = 45,
 			maxAoa = 0.2
 		},
+		fuze = {
+			default_arm_delays = { 0.8 },
+			default_function_delays = { 0, 0.02 },
+			default_proximity_radius = 7,
+			tdd_position = { 1.09, 0, 0 }
+		},
 		march = {
 			custom_smoke_dissipation_factor = 0.2,
 			fuel_mass = 8.1,
@@ -87,17 +93,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Vikhr_M"] = {
 			piercing_mass = 1.6
 		},
 		warhead_air = {
-			caliber = 130,
-			concrete_factors = { 1, 1, 1 },
-			concrete_obj_factor = 0,
-			cumulative_factor = 3,
-			cumulative_thickness = 0.9,
-			expl_mass = 4,
-			fantom = 1,
-			mass = 8,
-			obj_factors = { 1, 1 },
-			other_factors = { 1, 1, 1 },
-			piercing_mass = 1.6
+			fantom = 1
 		}
 	},
 	display_name = "Vikhr M",
@@ -151,6 +147,12 @@ _G["weapons_table"]["weapons"]["missiles"]["Vikhr_M"] = {
 			mass = 45,
 			maxAoa = 0.2
 		},
+		fuze = {
+			default_arm_delays = { 0.8 },
+			default_function_delays = { 0, 0.02 },
+			default_proximity_radius = 7,
+			tdd_position = { 1.09, 0, 0 }
+		},
 		march = {
 			custom_smoke_dissipation_factor = 0.2,
 			fuel_mass = 8.1,
@@ -189,17 +191,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Vikhr_M"] = {
 			piercing_mass = 1.6
 		},
 		warhead_air = {
-			caliber = 130,
-			concrete_factors = { 1, 1, 1 },
-			concrete_obj_factor = 0,
-			cumulative_factor = 3,
-			cumulative_thickness = 0.9,
-			expl_mass = 4,
-			fantom = 0,
-			mass = 8,
-			obj_factors = { 1, 1 },
-			other_factors = { 1, 1, 1 },
-			piercing_mass = 1.6
+			fantom = 0
 		}
 	},
 	sounderName = "Weapons/Missile",

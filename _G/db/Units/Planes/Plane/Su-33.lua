@@ -248,6 +248,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[85] = {
 			args = { 135 },
 			critical_damage = 3
+		},
+		[98] = {
+			args = { 135 },
+			critical_damage = 20
 		}
 	},
 	DamageParts = { "SU-33-OBLOMOK-WING-R", "SU-33-OBLOMOK-WING-L" },

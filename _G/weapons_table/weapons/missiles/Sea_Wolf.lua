@@ -84,9 +84,9 @@ _G["weapons_table"]["weapons"]["missiles"]["Sea_Wolf"] = {
 			wind_sigma = 0,
 			wind_time = 1000
 		},
-		fuze_proximity = {
-			ignore_inp_armed = 1,
-			radius = 5
+		fuze = {
+			default_arm_delays = { 0.8 },
+			default_proximity_radius = 5
 		},
 		march = {
 			boost_factor = 0,
@@ -144,17 +144,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Sea_Wolf"] = {
 			piercing_mass = 2.8
 		},
 		warhead_air = {
-			caliber = 180,
-			concrete_factors = { 1, 1, 0.1 },
-			concrete_obj_factor = 0,
-			cumulative_factor = 0,
-			cumulative_thickness = 0,
-			expl_mass = 9.8,
-			fantom = 1,
-			mass = 14,
-			obj_factors = { 1, 1 },
-			other_factors = { 1, 1, 1 },
-			piercing_mass = 2.8
+			fantom = 1
 		},
 		wsTypeOfWeapon = { 4, 4, 34, "Redacted" }
 	},
@@ -242,9 +232,9 @@ _G["weapons_table"]["weapons"]["missiles"]["Sea_Wolf"] = {
 			wind_sigma = 0,
 			wind_time = 1000
 		},
-		fuze_proximity = {
-			ignore_inp_armed = 1,
-			radius = 5
+		fuze = {
+			default_arm_delays = { 0.8 },
+			default_proximity_radius = 5
 		},
 		march = {
 			boost_factor = 0,
@@ -302,17 +292,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Sea_Wolf"] = {
 			piercing_mass = 2.8
 		},
 		warhead_air = {
-			caliber = 180,
-			concrete_factors = { 1, 1, 0.1 },
-			concrete_obj_factor = 0,
-			cumulative_factor = 0,
-			cumulative_thickness = 0,
-			expl_mass = 9.8,
-			fantom = 0,
-			mass = 14,
-			obj_factors = { 1, 1 },
-			other_factors = { 1, 1, 1 },
-			piercing_mass = 2.8
+			fantom = 0
 		},
 		wsTypeOfWeapon = { 4, 4, 34, "Redacted" }
 	},

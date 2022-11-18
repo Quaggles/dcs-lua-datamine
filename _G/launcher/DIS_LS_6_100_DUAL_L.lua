@@ -1,7 +1,7 @@
 _G["launcher"]["DIS_LS_6_100_DUAL_L"] = {
 	CLSID = "DIS_LS_6_100_DUAL_L",
 	Count = 2,
-	Cx_pil = 0.0027,
+	Cx_pil = 0.00208,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "JF-17_GDJ-II19L"

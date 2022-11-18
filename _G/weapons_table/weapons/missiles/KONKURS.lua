@@ -50,6 +50,9 @@ _G["weapons_table"]["weapons"]["missiles"]["KONKURS"] = {
 			maxAoa = 0.25,
 			rail_open = 0
 		},
+		fuze = {
+			default_arm_delays = { 0.8 }
+		},
 		march = {
 			custom_smoke_dissipation_factor = 0.013,
 			fuel_mass = 2,
@@ -88,17 +91,7 @@ _G["weapons_table"]["weapons"]["missiles"]["KONKURS"] = {
 			piercing_mass = 0.54
 		},
 		warhead_air = {
-			caliber = 135,
-			concrete_factors = { 1, 1, 1 },
-			concrete_obj_factor = 0,
-			cumulative_factor = 3,
-			cumulative_thickness = 0.4,
-			expl_mass = 1.5,
-			fantom = 1,
-			mass = 2.7,
-			obj_factors = { 1, 1 },
-			other_factors = { 1, 1, 1 },
-			piercing_mass = 0.54
+			fantom = 1
 		}
 	},
 	display_name = "AT-5 Spandrel",
@@ -153,6 +146,9 @@ _G["weapons_table"]["weapons"]["missiles"]["KONKURS"] = {
 			maxAoa = 0.25,
 			rail_open = 0
 		},
+		fuze = {
+			default_arm_delays = { 0.8 }
+		},
 		march = {
 			custom_smoke_dissipation_factor = 0.013,
 			fuel_mass = 2,
@@ -191,17 +187,7 @@ _G["weapons_table"]["weapons"]["missiles"]["KONKURS"] = {
 			piercing_mass = 0.54
 		},
 		warhead_air = {
-			caliber = 135,
-			concrete_factors = { 1, 1, 1 },
-			concrete_obj_factor = 0,
-			cumulative_factor = 3,
-			cumulative_thickness = 0.4,
-			expl_mass = 1.5,
-			fantom = 0,
-			mass = 2.7,
-			obj_factors = { 1, 1 },
-			other_factors = { 1, 1, 1 },
-			piercing_mass = 0.54
+			fantom = 0
 		}
 	},
 	sounderName = "Weapons/Missile",

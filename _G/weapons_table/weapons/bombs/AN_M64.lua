@@ -29,7 +29,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M64"] = {
 			is_vane_sim_required = true,
 			vane_rev_threshold = 160
 		},
-		scheme = "schemes/bombs/bomb-common-2.sch",
+		scheme = "schemes/bombs/bomb_common_v2.sch",
 		warhead = {
 			caliber = 273,
 			concrete_factors = { 1, 1, 1 },
@@ -75,7 +75,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M64"] = {
 			is_vane_sim_required = true,
 			vane_rev_threshold = 160
 		},
-		scheme = "schemes/bombs/bomb-common-2.sch",
+		scheme = "schemes/bombs/bomb_common_v2.sch",
 		warhead = {
 			caliber = 273,
 			concrete_factors = { 1, 1, 1 },

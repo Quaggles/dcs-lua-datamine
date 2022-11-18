@@ -53,9 +53,8 @@ _G["weapons_table"]["weapons"]["missiles"]["TOW2"] = {
 			wind_sigma = 0,
 			wind_time = 0
 		},
-		fuze_proximity = {
-			ignore_inp_armed = 0,
-			radius = 7
+		fuze = {
+			default_arm_delays = { 0.8 }
 		},
 		march = {
 			boost_factor = 0,
@@ -165,9 +164,8 @@ _G["weapons_table"]["weapons"]["missiles"]["TOW2"] = {
 			wind_sigma = 0,
 			wind_time = 0
 		},
-		fuze_proximity = {
-			ignore_inp_armed = 0,
-			radius = 7
+		fuze = {
+			default_arm_delays = { 0.8 }
 		},
 		march = {
 			boost_factor = 0,
