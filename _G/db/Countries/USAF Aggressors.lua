@@ -2240,10 +2240,6 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "Infantry Animated",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
 					Name = "Technician",
 					in_service = 0,
 					out_of_service = 40000
@@ -3064,6 +3060,10 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "MiG-21Bis"
 				}, {
+					Name = "Mirage-F1CE"
+				}, {
+					Name = "Yak-52"
+				}, {
 					Name = "Ju-88A4"
 				}, {
 					Name = "C-47"
@@ -3172,10 +3172,6 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "Yak-52",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
 					Name = "C-130",
 					in_service = 0,
 					out_of_service = 40000
@@ -3197,6 +3193,26 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "F-16C bl.52d",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Mirage-F1EH",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Mirage-F1CH",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Mirage-F1BE",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Mirage-F1EQ",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Mirage-F1BQ",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -3241,6 +3257,30 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "F-4E_new",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Mirage-F1EE",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Mirage-F1M-EE",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Mirage-F1M-CE",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Mirage-F1JA",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Mirage-F1EDA",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Mirage-F1DDA",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -3292,7 +3332,27 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "Mirage-F1CE",
+					Name = "Mirage-F1C-200",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Mirage-F1CR",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Mirage-F1CT",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Mirage-F1B",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Mirage-F1ED",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Mirage-F1BD",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -3305,6 +3365,14 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "H-6J",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Mirage-F1CZ",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Mirage-F1CJ",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -3345,6 +3413,14 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "Tornado GR4",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Mirage-F1CG",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Mirage-F1CK",
 					in_service = 0,
 					out_of_service = 40000
 				} }

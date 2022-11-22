@@ -882,6 +882,10 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "MiG-21Bis"
 				}, {
+					Name = "Mirage-F1CE"
+				}, {
+					Name = "Yak-52"
+				}, {
 					Name = "Ju-88A4"
 				}, {
 					Name = "TF-51D"

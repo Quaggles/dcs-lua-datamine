@@ -701,6 +701,344 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	H_din_two_eng = 6400,
 	H_stat_max = 3505,
 	H_stat_max_L = 4570,
+	HumanCockpit = true,
+	HumanCockpitPath = "./Mods/aircraft/AH-64D/Cockpit/Scripts/",
+	HumanCockpitPlugins = { {
+			_file = "./Mods/aircraft/NS430/entry.lua",
+			_origin = "NS430",
+			name = "NS430",
+			path = "./Mods/aircraft/NS430/Cockpit/Scripts/",
+			per_unit_data = {
+				["A-10A"] = {
+					enable_options_key_for_unit = "a10a_enabled"
+				},
+				["A-10C"] = <4>{
+					enable_options_key_for_unit = "disabled"
+				},
+				["A-10C_2"] = <table 4>,
+				["AH-64D_BLK_II"] = <table 4>,
+				AJS37 = {
+					enable_options_key_for_unit = "ajs37_enabled"
+				},
+				AV8BNA = {
+					enable_options_key_for_unit = "av8b_enabled"
+				},
+				["Bf-109K-4"] = {
+					enable_options_key_for_unit = "bf109k4_enabled"
+				},
+				["C-101CC"] = {
+					enable_options_key_for_unit = "c101cc_common_enabled"
+				},
+				["C-101EB"] = {
+					enable_options_key_for_unit = "c101eb_common_enabled"
+				},
+				["Christen Eagle II"] = {
+					enable_options_key_for_unit = "CE_II_enabled"
+				},
+				["F-14B"] = {
+					enable_options_key_for_unit = "f14b_enabled"
+				},
+				["F-15C"] = {
+					enable_options_key_for_unit = "f15c_enabled"
+				},
+				["F-16C_50"] = <table 4>,
+				["F-5E-3"] = {
+					enable_options_key_for_unit = "f5e3_enabled"
+				},
+				["F-86F Sabre"] = {
+					enable_options_key_for_unit = "f86f_enabled"
+				},
+				["FA-18C_hornet"] = <table 4>,
+				["FW-190D9"] = {
+					enable_options_key_for_unit = "fw190d9_enabled"
+				},
+				["I-16"] = {
+					enable_options_key_for_unit = "i16_enabled"
+				},
+				["J-11A"] = {
+					enable_options_key_for_unit = "j11a_enabled"
+				},
+				["JF-17"] = {
+					enable_options_key_for_unit = "jf17_enabled"
+				},
+				["Ka-50"] = <table 4>,
+				["Ka-50_3"] = <table 4>,
+				["L-39C"] = {
+					enable_options_key_for_unit = "l39c_common_enabled"
+				},
+				["L-39ZA"] = {
+					enable_options_key_for_unit = "l39za_enabled"
+				},
+				["M-2000C"] = {
+					enable_options_key_for_unit = "miraj_enabled"
+				},
+				["Mi-24P"] = {
+					enable_options_key_for_unit = "mi24p_enabled"
+				},
+				["Mi-8MT"] = {
+					enable_options_key_for_unit = "mi8_common_enabled"
+				},
+				["MiG-15bis"] = {
+					enable_options_key_for_unit = "mig15bis_enabled"
+				},
+				["MiG-21bis"] = {
+					enable_options_key_for_unit = "mig21bis_enabled"
+				},
+				["MiG-29A"] = {
+					enable_options_key_for_unit = "mig29a_enabled"
+				},
+				["MiG-29G"] = {
+					enable_options_key_for_unit = "mig29g_enabled"
+				},
+				["MiG-29S"] = {
+					enable_options_key_for_unit = "mig29s_enabled"
+				},
+				["P-51D"] = {
+					enable_options_key_for_unit = "p51d_enabled"
+				},
+				SA342L = {
+					enable_options_key_for_unit = "sa342_enabled"
+				},
+				SA342M = {
+					enable_options_key_for_unit = "sa342_enabled"
+				},
+				SA342Minigun = {
+					enable_options_key_for_unit = "sa342_enabled"
+				},
+				SA342Mistral = {
+					enable_options_key_for_unit = "sa342_enabled"
+				},
+				SpitfireLFMkIX = {
+					enable_options_key_for_unit = "SpitfireLFMkIX_enabled"
+				},
+				SpitfireLFMkIXCW = {
+					enable_options_key_for_unit = "SpitfireLFMkIXCW_enabled"
+				},
+				["Su-25"] = {
+					enable_options_key_for_unit = "su25_enabled"
+				},
+				["Su-25T"] = {
+					enable_options_key_for_unit = "su25t_enabled"
+				},
+				["Su-27"] = {
+					enable_options_key_for_unit = "su27_enabled"
+				},
+				["Su-33"] = {
+					enable_options_key_for_unit = "su33_enabled"
+				},
+				["TF-51D"] = {
+					enable_options_key_for_unit = "tf51d_enabled"
+				},
+				["UH-1H"] = {
+					enable_options_key_for_unit = "uh1h_enabled"
+				},
+				["Yak-52"] = {
+					enable_options_key_for_unit = "yak52_enabled"
+				}
+			}
+		} },
+	HumanCommPanelPath = "./Mods/aircraft/AH-64D/comm.lua",
+	HumanFM = { "AH-64D BLK.II", "AH64D",
+		MainRotorPos = { 0.3, 2.1, 0 },
+		TailRotorPos = { -8.725, 2.106, -0.721 },
+		altHold = 0.01,
+		altInt = 0.04,
+		balancing = { { 0, -0.081, 0.078, -0.424, 11.9 }, { 6.9, -0.021, -0.006, -0.373, 11.5 }, { 14, 0.021, -0.039, -0.252, 10.7 }, { 21.2, 0.051, -0.058, -0.131, 10 }, { 28.8, 0.045, -0.101, -0.132, 9.8 }, { 35, 0.033, -0.156, -0.156, 9.6 }, { 42.5, -0.03, -0.216, 0.025, 9.9 }, { 48.9, -0.081, -0.33, 0.044, 10.5 }, { 55.6, -0.09, -0.445, 0.045, 11.5 }, { 62.3, -0.054, -0.577, 0.028, 12.6 }, { 69.5, -0.176, -0.693, -0.013, 14.3 }, { 76.5, -0.109, -0.816, -0.032, 16.4 }, { 83.3, -0.17, -0.95, -0.015, 17.4 } },
+		betaGain = 4,
+		betaGainInt = 1,
+		center_of_mass = { 0.151, 0, 0 },
+		config_path = "./Mods/aircraft/AH-64D/FM/config.lua",
+		control_kinematics = {
+			collective = {
+				table = { { 0, 1 }, { 1, 20 } }
+			},
+			pitch = {
+				table = { { -1, -10 }, { -0.95, -9.381 }, { -0.9, -8.775 }, { -0.85, -8.181 }, { -0.8, -7.6 }, { -0.75, -7.031 }, { -0.7, -6.475 }, { -0.65, -5.931 }, { -0.6, -5.4 }, { -0.55, -4.881 }, { -0.5, -4.375 }, { -0.45, -3.881 }, { -0.4, -3.4 }, { -0.35, -2.931 }, { -0.3, -2.475 }, { -0.25, -2.031 }, { -0.2, -1.6 }, { -0.15, -1.181 }, { -0.1, -0.775 }, { -0.05, -0.381 }, { 0, 0 }, { 0.05, 0.369 }, { 0.1, 0.725 }, { 0.15, 1.069 }, { 0.2, 1.4 }, { 0.25, 1.719 }, { 0.3, 2.025 }, { 0.35, 2.319 }, { 0.4, 2.6 }, { 0.45, 2.869 }, { 0.5, 3.125 }, { 0.55, 3.369 }, { 0.6, 3.6 }, { 0.65, 3.819 }, { 0.7, 4.025 }, { 0.75, 4.219 }, { 0.8, 4.4 }, { 0.85, 4.569 }, { 0.9, 4.725 }, { 0.95, 4.869 }, { 1, 5 } }
+			},
+			roll = {
+				table = { { -1, -5.25 }, { 0, -0.875 }, { 1, 3.5 } }
+			},
+			tail_collective_by_main_collective = {
+				range = { -11.5, 9 },
+				table = { { 0, 0 }, { 0.1, 0 }, { 0.2, 0 }, { 0.3, 0 }, { 0.4, 0 }, { 0.5, 0 }, { 0.6, 0 }, { 0.7, 0 }, { 0.8, 0 }, { 0.9, 0 }, { 1, 0 } }
+			},
+			tail_collective_by_pedals = {
+				range = { -27, 15 },
+				table = { { -1, -27 }, { -0.95, -25.697 }, { -0.9, -24.406 }, { -0.85, -23.129 }, { -0.8, -21.864 }, { -0.75, -20.613 }, { -0.7, -19.374 }, { -0.65, -18.149 }, { -0.6, -16.936 }, { -0.55, -15.737 }, { -0.5, -14.55 }, { -0.45, -13.377 }, { -0.4, -12.216 }, { -0.35, -11.069 }, { -0.3, -9.934 }, { -0.25, -8.813 }, { -0.2, -7.704 }, { -0.15, -6.609 }, { -0.1, -5.526 }, { -0.05, -4.457 }, { 0, -3.4 }, { 0.05, -2.357 }, { 0.1, -1.326 }, { 0.15, -0.309 }, { 0.2, 0.696 }, { 0.25, 1.688 }, { 0.3, 2.666 }, { 0.35, 3.632 }, { 0.4, 4.584 }, { 0.45, 5.524 }, { 0.5, 6.45 }, { 0.55, 7.364 }, { 0.6, 8.264 }, { 0.65, 9.152 }, { 0.7, 10.026 }, { 0.75, 10.888 }, { 0.8, 11.736 }, { 0.85, 12.572 }, { 0.9, 13.394 }, { 0.95, 14.204 }, { 1, 15 } }
+			}
+		},
+		debugLine = "{Vx_l}:%4.1f {Vy_w}:%4.1f {Vz_l}:%4.1f {pitch}:%4.1f {roll}:%5.1f {RAlt}:%7.1f {Alt}:%7.1f {BAlt}:%7.1f;{mass}:%6.1f {mass_lb}:%7.1f {CG_X_inch}:%5.1f {CenteringX}:%4.0f {CenteringY}:%4.0f {ny}:%4.1f {MainRotPitch}:%4.1f {Lstab}:%4.1f ;{FAT}:%5.1f {TailRotPitch}:%5.1f {StickR}:%6.1f {StickP}:%6.1f {Rud}:%6.1f {TailRotF}:%5.0f;{RotorRPM}:%5.1f {PlateR}:%4.1f {PlateP}:%4.1f {N1_L}:%5.1f {N1_R}:%5.1f {N2_L}:%5.1f {N2_R}:%5.1f ",
+		disable_built_in_oxygen_system = true,
+		ffbPitchK = 0.65,
+		ffbRollK = 0.65,
+		headingHold_K_int = 0.75,
+		headingHold_K_wy = 0.065,
+		headingHold_K_yaw = 0.2,
+		imgui_permissions = {},
+		kDamp_Mx_d1 = 0,
+		kDamp_Mx_d2 = -3,
+		kDamp_Mx_s1 = 0,
+		kDamp_Mx_s2 = -800,
+		kDamp_My_d1 = -85,
+		kDamp_My_d2 = -20,
+		kDamp_My_s1 = 0,
+		kDamp_My_s2 = -16000,
+		kDamp_Mz_d1 = -40,
+		kDamp_Mz_d2 = -20,
+		kDamp_Mz_s1 = 0,
+		kDamp_Mz_s2 = 0,
+		keyboard_control = {
+			collective_speed = 0.076923076923077,
+			cyclic_pitch_speed = 0.13333333333333,
+			cyclic_roll_speed = 0.13333333333333,
+			pedals_speed = 0.15384615384615
+		},
+		mainRotorVortexRingCyclicLoss = 0.95,
+		mainRotorVortexRingK1 = 0.45,
+		mainRotorVortexRingK2 = 0.9,
+		mainRotorVortexRingK3 = 4,
+		mainRotorVortexRingThrustLoss = 0.5,
+		mainRotorVortexRingVibration = 0.17,
+		mainRotorVortexRingWashout = 13,
+		major_shake_ampl = 0.25,
+		minor_shake_ampl = 0.07,
+		moment_of_inertia = { 9290, 51874, 51468, -5937 },
+		pedalCoeff = 0.5,
+		pitchHold_K_int = 0.5,
+		pitchHold_K_pitch = 0.35,
+		pitchHold_K_wz = 0.6,
+		pitchOutK = 1,
+		pitchRateDirectFB_Coef = 0.1,
+		pitchRateInputK = 0.9,
+		pitchStickK = 0.75,
+		pos_distance = 10,
+		pos_dxMaxVal = 0.1,
+		pos_dzMaxVal = 0.1,
+		recordStep = 0.6,
+		rollHold_K_int = 0.5,
+		rollHold_K_roll = 0.85,
+		rollHold_K_wx = 1.5,
+		rollOutK = 1,
+		rollRateDirectFB_Coef = 0.35,
+		rollRateInputK = 0.75,
+		rollStickK = 1,
+		rotorBladeDamageCentrifugalScale = 0.3,
+		rotorCritRollBladeMach = 0.7,
+		rotorCritRollGrowthRatio = 12,
+		rotorCritRollIntensity = 1,
+		rotorDampCoeff_wx = 1.8,
+		rotorDampCoeff_wz = 1.8,
+		rotorFlapAnimationScaleMax = 10,
+		rotorFlapAnimationScaleMin = -10,
+		rotorGroundEffectAttenuation = 0.45,
+		rotorGroundEffectDensCoeff = 1,
+		rotorGroundEffectIntensity = 0.1,
+		rotorGyroscopicMomentCoeff = 20,
+		suspension = { {
+				AxleFric0f = 4,
+				AxleFric0s = 190,
+				AxleFricVf = 1,
+				AxleFricVs = 0.1,
+				allowable_hard_contact_length = 0.25,
+				amortizer_back_damper_force_factor = 20000,
+				amortizer_basic_length = 0.276,
+				amortizer_direct_damper_force_factor = 40000,
+				amortizer_max_length = 0.276,
+				amortizer_min_length = 0,
+				amortizer_reduce_length = 0.2,
+				amortizer_spring_force_factor = 9000000,
+				amortizer_spring_force_factor_rate = 5,
+				amortizer_static_force = 1000,
+				arg_amortizer = 1,
+				arg_post = 0,
+				arg_wheel_damage = 134,
+				arg_wheel_rotation = 101,
+				axle_angle = 0.087266462599716,
+				axle_omega_limit = 2,
+				axle_omega_limited = true,
+				damage_element = 83,
+				damper_coeff = 50,
+				filter_yaw = false,
+				moment_limit = 750,
+				self_attitude = false,
+				wheel_axle_offset = 0.1,
+				wheel_can_rotate_while_not_spin = true,
+				wheel_damage_delta_speedX = 11.5,
+				wheel_damage_force_factor = 450,
+				wheel_damage_speedX = 115,
+				wheel_glide_friction_factor = 0.75,
+				wheel_radius = 0.1614,
+				wheel_roll_friction_factor = 0.05,
+				wheel_side_friction_factor = 0.8,
+				wheel_static_friction_factor = 0.8,
+				yaw_limit = 3.1415926535898
+			}, {
+				allowable_hard_contact_length = 0.215,
+				amortizer_back_damper_force_factor = 30000,
+				amortizer_basic_length = 0.323,
+				amortizer_direct_damper_force_factor = 50000,
+				amortizer_max_length = 0.323,
+				amortizer_reduce_length = 0.3,
+				amortizer_spring_force_factor = 16000000,
+				amortizer_spring_force_factor_rate = 4,
+				amortizer_static_force = 10000,
+				arg_amortizer = 6,
+				arg_post = 5,
+				arg_wheel_damage = 136,
+				arg_wheel_rotation = 103,
+				damage_element = 84,
+				wheel_brake_moment_max = 5500,
+				wheel_damage_delta_speedX = 11.5,
+				wheel_damage_force_factor = 450,
+				wheel_damage_speedX = 115,
+				wheel_glide_friction_factor = 0.3,
+				wheel_kz_factor = 0.52,
+				wheel_radius = 0.3224,
+				wheel_roll_friction_factor = 0.04,
+				wheel_side_friction_factor = 0.35,
+				wheel_static_friction_factor = 0.7
+			}, {
+				allowable_hard_contact_length = 0.215,
+				amortizer_back_damper_force_factor = 30000,
+				amortizer_basic_length = 0.323,
+				amortizer_direct_damper_force_factor = 50000,
+				amortizer_max_length = 0.323,
+				amortizer_reduce_length = 0.3,
+				amortizer_spring_force_factor = 16000000,
+				amortizer_spring_force_factor_rate = 4,
+				amortizer_static_force = 10000,
+				arg_amortizer = 4,
+				arg_post = 3,
+				arg_wheel_damage = 135,
+				arg_wheel_rotation = 102,
+				damage_element = 85,
+				wheel_brake_moment_max = 5500,
+				wheel_damage_delta_speedX = 11.5,
+				wheel_damage_force_factor = 450,
+				wheel_damage_speedX = 115,
+				wheel_glide_friction_factor = 0.3,
+				wheel_kz_factor = 0.52,
+				wheel_radius = 0.3224,
+				wheel_roll_friction_factor = 0.04,
+				wheel_side_friction_factor = 0.35,
+				wheel_static_friction_factor = 0.7
+			} },
+		tailRotorThrustFilterT1 = 0,
+		tailRotorVortexRingK1 = 3,
+		tailRotorVortexRingK2 = 4.2,
+		tailRotorVortexRingK3 = 13,
+		tailRotorVortexRingThrustLoss = 0.25,
+		tailRotorVortexRingWashout = 12.5,
+		thrust_function = { { 40, 0 }, { 440, 0.8 }, { 462, 0.805 }, { 484, 0.81 }, { 506, 0.815 }, { 528, 0.82 }, { 550, 0.825 }, { 572, 0.83 }, { 594, 0.835 }, { 616, 0.84 }, { 638, 0.845 }, { 660, 0.852 }, { 682, 0.863 }, { 704, 0.877 }, { 726, 0.89 }, { 748, 0.906 }, { 770, 0.923 }, { 792, 0.942 }, { 814, 0.957 }, { 836, 0.975 }, { 858, 0.99 }, { 880, 1 } },
+		totalTransmissionInertiaMoment = 7909.0362,
+		user_options = "AH-64D_BLK_II",
+		velHold_K_vx = 2.5,
+		velHold_K_vz = 2.5,
+		vyDamp = 0.075,
+		yawOutK = 1,
+		yawRateDirectFB_Coef = 0.2,
+		yawRateInputK = 0.9
+	},
 	HumanRadio = {
 		editable = true,
 		frequency = 127.5,
@@ -1350,6 +1688,61 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		RWR = "Abstract RWR"
 	},
 	Shape = "AH-64D_bl2",
+	SnapViews = { { {
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = -10,
+				viewAngle = 76,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			},
+			[13] = {
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = -10,
+				viewAngle = 76,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			},
+			[14] = {
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = -10,
+				viewAngle = 76,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}
+		}, { {
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = -5,
+				viewAngle = 76,
+				x_trans = 0,
+				y_trans = -0.018,
+				z_trans = 0
+			},
+			[13] = {
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = -5,
+				viewAngle = 76,
+				x_trans = 0,
+				y_trans = -0.018,
+				z_trans = 0
+			},
+			[14] = {
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = -5,
+				viewAngle = 76,
+				x_trans = 0.22,
+				y_trans = 0,
+				z_trans = 0
+			}
+		} },
 	SpecificCallnames = {
 		USA = { { "ArmyAir", "Army_Air" }, { "Apache", "Apache" }, { "Crow", "Crow" }, { "Chaos", "Chaos" }, { "Sioux", "Sioux" }, { "Gatling", "Gatling" }, { "Gunslinger", "Gunslinger" }, { "Hammerhead", "Hammerhead" }, { "Bootleg", "Bootleg" }, { "Palehorse", "Palehorse" }, { "Carnivore", "Carnivore" }, { "Saber", "Saber" } }
 	},
@@ -1378,12 +1771,55 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		} },
 	V_max = 365,
 	V_max_cruise = 296,
+	ViewSettings = {
+		Arcade = {
+			AnglesDefault = { 0, -8 },
+			LocalPoint = { -21.5, 5.618, 0 }
+		},
+		Chase = {
+			AnglesDefault = { 0, 0 },
+			LocalPoint = { -5, 1, 3 }
+		},
+		Cockpit = { {
+				Allow360rotation = false,
+				CameraAngleLimits = { 200, -90, 90 },
+				CameraAngleRestriction = { false, 90, 0.5 },
+				CameraViewAngleLimits = { 20, 140 },
+				CockpitLocalPoint = { 1.784, 0.992, 0.045 },
+				EyePoint = { 0.09, 0, 0 },
+				ShoulderSize = 0.25,
+				limits_6DOF = {
+					roll = 90,
+					x = { -0.2, 0.3 },
+					y = { -0.3, 0.2 },
+					z = { -0.3, 0.3 }
+				}
+			}, {
+				Allow360rotation = false,
+				CameraAngleLimits = { 200, -90, 90 },
+				CameraAngleRestriction = { false, 90, 0.5 },
+				CameraViewAngleLimits = { 20, 140 },
+				CockpitLocalPoint = { 3.084, 0.542, -0.0125 },
+				EyePoint = { 0.09, 0, 0 },
+				ShoulderSize = 0.25,
+				limits_6DOF = {
+					roll = 90,
+					x = { -0.2, 0.3 },
+					y = { -0.3, 0.2 },
+					z = { -0.3, 0.3 }
+				}
+			},
+			CockpitAnchorPoint = { 1.926, 0.922, 0 }
+		}
+	},
 	Vy_land_max = 12.8,
 	Vy_max = 12.7,
 	Waypoint_Custom_Panel = true,
 	WorldID = 300,
 	_file = "./CoreMods/aircraft/AH-64D/AH-64D.lua",
+	_file_flyable = "./Mods/aircraft/AH-64D/entry.lua",
 	_origin = "AH-64D BLK.II AI",
+	_origin_flyable = "AH-64D BLK.II",
 	air_refuel_receptacle_pos = { -0.051, 0.911, 0 },
 	ammo_type = { "M789 HEDP", "M788 TP" },
 	ammo_type_default = 1,

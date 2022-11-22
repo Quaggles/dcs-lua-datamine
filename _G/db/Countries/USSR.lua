@@ -1274,6 +1274,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "MB-339APAN"
 				}, {
+					Name = "Mirage-F1CE"
+				}, {
 					Name = "Ju-88A4"
 				} }
 		},

@@ -396,10 +396,6 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "Infantry Animated",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
 					Name = "KAMAZ Truck",
 					in_service = 0,
 					out_of_service = 40000
@@ -1433,6 +1429,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "MiG-19P"
 				}, {
 					Name = "MiG-21Bis"
+				}, {
+					Name = "Mirage-F1CE"
 				}, {
 					Name = "Ju-88A4"
 				}, {

@@ -2356,6 +2356,22 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "MiG-21Bis"
 				}, {
+					Name = "Mirage-F1CE"
+				}, {
+					Name = "Mirage-F1M-EE"
+				}, {
+					Name = "Mirage-F1M-CE"
+				}, {
+					Name = "Mirage-F1CR"
+				}, {
+					Name = "Mirage-F1CT"
+				}, {
+					Name = "Mirage-F1B"
+				}, {
+					Name = "Mirage-F1BE"
+				}, {
+					Name = "Yak-52"
+				}, {
 					Name = "Ju-88A4"
 				}, {
 					Name = "C-47"
