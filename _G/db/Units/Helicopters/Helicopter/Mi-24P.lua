@@ -958,8 +958,9 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	MaxTakeOffWeight = 11500,
 	Name = "Mi-24P",
 	Ny_max = 2.5,
-	Picture = "Mi-24V.png",
+	Picture = "Mi-24P.png",
 	Pylons = { {
+			DisplayName = "MSL",
 			Launchers = <7>{ {
 					CLSID = "{B919B0F4-7C25-455E-9A02-CEA51DB895E3}"
 				}, {
@@ -980,6 +981,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			connector = "hardpoint-1",
 			use_full_connector_position = true
 		}, {
+			DisplayName = "1",
 			Launchers = { <8>{
 					CLSID = "B_8V20A_CM"
 				}, <9>{
@@ -1031,6 +1033,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			connector = "hardpoint-2",
 			use_full_connector_position = true
 		}, {
+			DisplayName = "2",
 			FiZ = 0,
 			Launchers = { {
 					CLSID = "B_8V20A_CM",
@@ -1116,6 +1119,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			connector = "hardpoint-3",
 			use_full_connector_position = true
 		}, {
+			DisplayName = "3",
 			FiZ = 0,
 			Launchers = { {
 					CLSID = "B_8V20A_CM",
@@ -1201,6 +1205,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			connector = "hardpoint-4",
 			use_full_connector_position = true
 		}, {
+			DisplayName = "4",
 			Launchers = { <table 8>, <table 9>, <table 10>, <table 11>, <table 12>, <table 13>, <table 14>, <table 15>, <table 16>, <table 17>, <table 18>, <table 19>, <table 20>, <table 21>, <table 22>, <table 23>, <table 24>, <table 25>, <table 26>, {
 					CLSID = "{275A2855-4A79-4B2D-B082-91EA2ADF4691}"
 				} },
@@ -1214,6 +1219,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			connector = "hardpoint-5",
 			use_full_connector_position = true
 		}, {
+			DisplayName = "MSL",
 			Launchers = <table 7>,
 			Number = 6,
 			Order = 6,

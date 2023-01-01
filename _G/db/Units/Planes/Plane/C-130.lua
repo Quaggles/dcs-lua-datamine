@@ -160,6 +160,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	IR_emission_coeff_ab = 0,
 	InternalCargo = {
 		area = { 12.19, 3.1, 2.6 },
+		far_wall_pos = { 6.1, -1.35, 0 },
 		maximalCapacity = 21770,
 		nominalCapacity = 19350,
 		para_unit_point = 64,
@@ -469,6 +470,37 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	main_gear_wheel_diameter = 0.972,
 	mapclasskey = "P0091000029",
 	mechanimations = {
+		CargoBayGate0 = { {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "Arg", 86, "to", 1, "in", 10 } }
+					} },
+				Transition = { "Any", "Open" }
+			}, {
+				Flags = { "Reversible", "StepsBackwards" },
+				Sequence = { {
+						C = { { "Arg", 86, "to", 0, "in", 15 } }
+					} },
+				Transition = { "Any", "Close" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 86, "to", 0.603, "in", 7.5 } }
+					} },
+				Transition = { "Any", "Stage" }
+			} },
+		CargoBayGates = { {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "Arg", 86, "to", 1, "in", 10 } }
+					} },
+				Transition = { "Close", "Open" }
+			}, {
+				Flags = { "Reversible", "StepsBackwards" },
+				Sequence = { {
+						C = { { "Arg", 86, "to", 0, "in", 15 } }
+					} },
+				Transition = { "Open", "Close" }
+			} },
 		Door0 = { {
 				Sequence = { {
 						C = { { "Sleep", "for", 0 } }

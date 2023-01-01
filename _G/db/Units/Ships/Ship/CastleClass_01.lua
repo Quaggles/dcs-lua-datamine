@@ -105,7 +105,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	},
 	attribute = { 3, 12, 14, "Redacted", "Corvettes", "Armed Ship", "Naval", "RADAR_BAND2_FOR_ARM", "HelicopterCarrier", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
 	chassis = {},
-	distFindObstacles = 300,
+	distFindObstacles = 200,
 	economy_distance = 10000,
 	economy_velocity = 5.144,
 	enablePlayerCanDrive = false,

@@ -6,7 +6,7 @@ _G["launcher"]["{KB}"] = {
 			ShapeName = "KBpod"
 		} },
 	Picture = "kb.png",
-	Weight = 296,
+	Weight = 316,
 	_file = "./CoreMods/aircraft/AJS37/Entry/Weapons.lua",
 	_origin = "AJS37 AI by Heatblur Simulations",
 	_unique_resource_name = "weapons.containers.KBpod",

@@ -95,15 +95,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					id = "XArmor00",
 					skin = "Steel",
-					wall = 0.012
+					wall = 0.007
 				}, {
 					id = "XArmor01",
 					skin = "Steel",
-					wall = 0.018
+					wall = 0.006
 				}, {
 					id = "XArmor02",
 					skin = "ReinforcedGlass",
-					wall = 0.075
+					wall = 0.041
 				}, {
 					id = "XCtrlCrew0Stick",
 					skin = "Steel",

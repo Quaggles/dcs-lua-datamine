@@ -56,7 +56,7 @@ _G["rockets"]["#Index"] = {
 	class_name = "wAmmunitionAntiShip",
 	control_block = {
 		can_update_target_pos = 1,
-		default_cruise_height = 600,
+		default_cruise_height = 300,
 		obj_sensor = 0,
 		seeker_activation_dist = 20000,
 		turn_before_point_reach = 1,
@@ -120,7 +120,7 @@ _G["rockets"]["#Index"] = {
 		hKp_err = 120,
 		hKp_err_croll = 0.04,
 		max_roll = 0.8,
-		useJumpByDefault = 1
+		useJumpByDefault = 0
 	},
 	fm = {
 		A = 0.5,

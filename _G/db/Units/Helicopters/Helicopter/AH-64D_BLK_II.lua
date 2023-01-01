@@ -395,11 +395,11 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			critical_damage = 3
 		},
 		[84] = {
-			args = { 255 },
+			args = { 259 },
 			critical_damage = 3
 		},
 		[85] = {
-			args = { 254 },
+			args = { 255 },
 			critical_damage = 3
 		},
 		[90] = {
@@ -1718,18 +1718,18 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		}, { {
 				hAngle = 0,
 				rollAngle = 0,
-				vAngle = -5,
+				vAngle = -25,
 				viewAngle = 76,
-				x_trans = 0,
+				x_trans = 0.22,
 				y_trans = -0.018,
 				z_trans = 0
 			},
 			[13] = {
 				hAngle = 0,
 				rollAngle = 0,
-				vAngle = -5,
+				vAngle = -25,
 				viewAngle = 76,
-				x_trans = 0,
+				x_trans = 0.22,
 				y_trans = -0.018,
 				z_trans = 0
 			},
@@ -1799,7 +1799,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				CameraAngleLimits = { 200, -90, 90 },
 				CameraAngleRestriction = { false, 90, 0.5 },
 				CameraViewAngleLimits = { 20, 140 },
-				CockpitLocalPoint = { 3.084, 0.542, -0.0125 },
+				CockpitLocalPoint = { 3.084, 0.542, 0.045 },
 				EyePoint = { 0.09, 0, 0 },
 				ShoulderSize = 0.25,
 				limits_6DOF = {

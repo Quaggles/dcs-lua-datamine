@@ -11,8 +11,8 @@ _G["launcher"]["{RB75T}"] = {
 			ShapeName = "RB75T"
 		} },
 	Picture = "agm65.png",
-	Weight = 354,
-	Weight_Empty = 59,
+	Weight = 332.6,
+	Weight_Empty = 37.6,
 	_file = "./CoreMods/aircraft/AJS37/Entry/Weapons.lua",
 	_origin = "AJS37 AI by Heatblur Simulations",
 	attribute = { 4, 4, 32, "Redacted" },

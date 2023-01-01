@@ -1,11 +1,74 @@
 _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	AOA_take_off = 0.16,
 	AddPropAircraft = { {
+			arg = 472,
+			argTbl = {
+				[false] = 0,
+				[true] = 0.99
+			},
 			control = "checkbox",
-			defValue = true,
+			defValue = false,
 			id = "SoloFlight",
 			label = "Solo Flight",
 			weightWhenOn = -85
+		}, {
+			arg = 550,
+			control = "comboList",
+			id = "PilotEquipment",
+			label = "Pilot Equipment",
+			values = { {
+					dispName = "Livery Default"
+				}, {
+					dispName = "HGU-55P + Secumar",
+					id = 1,
+					value = 0
+				}, {
+					dispName = "HGU-33 + Aerazur",
+					id = 2,
+					value = 0.8
+				} },
+			wCtrl = 150
+		}, {
+			arg = 999,
+			control = "comboList",
+			id = "AircraftVariant",
+			label = "Aircraft Variant",
+			values = { {
+					dispName = "Livery Default"
+				}, {
+					dispName = "Pre-MLU",
+					id = 1,
+					value = 1
+				}, {
+					dispName = "MLU",
+					id = 2,
+					value = 0
+				} },
+			wCtrl = 150
+		}, {
+			control = "label",
+			id = "spacer_Label",
+			label = ""
+		}, {
+			control = "label",
+			id = "aero_Label",
+			label = "AEROBATICS",
+			xLbl = 120
+		}, {
+			control = "checkbox",
+			defValue = false,
+			id = "UnlimitedSmoke",
+			label = "Unlimited Smoke"
+		}, {
+			control = "label",
+			id = "spacer_Label",
+			label = ""
+		}, {
+			control = "label",
+			id = "mul_Label",
+			label = "MULTIPLAYER",
+			playerOnly = true,
+			xLbl = 120
 		}, {
 			control = "comboList",
 			defValue = 1,
@@ -26,11 +89,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					id = -2
 				} },
 			wCtrl = 150
-		}, {
-			control = "checkbox",
-			defValue = false,
-			id = "UnlimitedSmoke",
-			label = "Unlimited Smoke"
 		} },
 	AmmoWeight = 0,
 	CAS_min = 56,
@@ -726,9 +784,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Pylons = { {
 			DisplayName = "TT",
 			Launchers = { {
-					CLSID = "<CLEAN>",
-					arg_value = 0
-				}, {
 					CLSID = "{FUEL-TIP-TANK-500-L}",
 					arg_value = 0.6,
 					required = { {
@@ -749,7 +804,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			X = -0.905,
 			Y = -0.201,
 			Z = -5.11,
-			arg = 525,
+			arg = 524,
 			arg_value = 0,
 			connector = "TIP_SX",
 			use_full_connector_position = true
@@ -958,9 +1013,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			DisplayName = "TT",
 			Launchers = { {
-					CLSID = "<CLEAN>",
-					arg_value = 0
-				}, {
 					CLSID = "{FUEL-TIP-TANK-500-R}",
 					arg_value = 0.6,
 					required = { {

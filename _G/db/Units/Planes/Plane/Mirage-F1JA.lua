@@ -251,6 +251,20 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			max = 8,
 			min = 1,
 			playerOnly = true
+		}, {
+			control = "comboList",
+			defValue = 1,
+			id = "INSStartMode",
+			label = "INS always starts with the correct coordinates",
+			playerOnly = true,
+			values = { {
+					dispName = "YES",
+					id = 1
+				}, {
+					dispName = "NO",
+					id = 2
+				} },
+			wCtrl = 75
 		} },
 	AmmoWeight = 153.09,
 	CAS_min = 50,
@@ -411,17 +425,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[39] = {
 			args = { 244 },
-			critical_damage = 4,
-			deps_cells = { 41, 53 }
+			critical_damage = 4
 		},
 		[41] = {
 			args = { 245 },
 			critical_damage = 4,
-			deps_cells = { 43, 53 }
+			deps_cells = { 53 }
 		},
 		[43] = {
 			args = { 246 },
-			critical_damage = 5
+			critical_damage = 5,
+			deps_cells = { 53 }
 		},
 		[49] = {
 			args = { 239 },
@@ -443,8 +457,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[53] = {
 			args = { 248 },
-			critical_damage = 3,
-			deps_cells = { 41, 43, 53 }
+			critical_damage = 3
 		},
 		[56] = {
 			args = { 158 },
@@ -1244,6 +1257,30 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			mm = 0,
 			mmint = 1,
 			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "gyros_general_BSM_fail",
+			label = "General gyroscopic central fail",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "gyros_main_fail",
+			label = "Main gyroscope fail",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "gyros_emergency_fail",
+			label = "Emergency gyroscope fail",
+			mm = 0,
+			mmint = 1,
+			prob = 100
 		} },
 	Guns = { {
 			_file = "./CoreMods/aircraft/Mirage-F1/Mirage-F1JA.lua",
@@ -1436,6 +1473,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Launchers = { {
 					CLSID = "{R550_Magic_1}",
 					arg_value = 0.15,
+					attach_point_position = { -0.1, -0.09, 0 },
 					required = { {
 							loadout = { "{R550_Magic_1}" },
 							station = 7
@@ -1444,7 +1482,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Number = 1,
 			Order = 1,
 			Type = 0,
-			X = -3.466,
+			X = -3.215,
 			Y = -0.035,
 			Z = -4.329,
 			arg = 308,
@@ -1875,10 +1913,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 5
 						} }
 				}, {
-					CLSID = "{FD21B13E-57F3-4C2A-9F78-C522D0B5BCE1}",
+					CLSID = "{S530F}",
 					arg_value = 0.15,
 					required = { {
-							loadout = { "{FD21B13E-57F3-4C2A-9F78-C522D0B5BCE1}" },
+							loadout = { "{S530F}" },
 							station = 5
 						} }
 				}, {
@@ -2215,10 +2253,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						} }
 				}, {
-					CLSID = "{FD21B13E-57F3-4C2A-9F78-C522D0B5BCE1}",
+					CLSID = "{S530F}",
 					arg_value = 0.15,
 					required = { {
-							loadout = { "{FD21B13E-57F3-4C2A-9F78-C522D0B5BCE1}" },
+							loadout = { "{S530F}" },
 							station = 3
 						} }
 				}, {
@@ -2445,6 +2483,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Launchers = { {
 					CLSID = "{R550_Magic_1}",
 					arg_value = 0.15,
+					attach_point_position = { -0.1, -0.09, 0 },
 					required = { {
 							loadout = { "{R550_Magic_1}" },
 							station = 1
@@ -2453,7 +2492,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Number = 7,
 			Order = 7,
 			Type = 0,
-			X = -3.466,
+			X = -3.215,
 			Y = -0.035,
 			Z = 4.329,
 			arg = 314,

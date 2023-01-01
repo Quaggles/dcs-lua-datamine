@@ -160,6 +160,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	},
 	IR_emission_coeff = 0.5,
 	IR_emission_coeff_ab = 0,
+	InternalCargo = {
+		area = { 11.1, 2.25, 1.91 },
+		maximalCapacity = 1040,
+		nominalCapacity = 1040,
+		para_unit_point = 0,
+		unit_block = { 0.73, 1.1 },
+		unit_point = 20
+	},
 	M_empty = 15850,
 	M_fuel_max = 5500,
 	M_max = 24000,
@@ -364,27 +372,19 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	main_gear_wheel_diameter = 0.972,
 	mapclasskey = "P0091000026",
 	mechanimations = {
-		Door0 = { {
+		CargoBayGates = { {
 				Flags = { "Reversible" },
 				Sequence = { {
-						C = { { "Arg", 38, "to", 0.9, "in", 9 } }
+						C = { { "Arg", 38, "to", 1, "in", 5 } }
 					} },
 				Transition = { "Close", "Open" }
 			}, {
 				Flags = { "Reversible", "StepsBackwards" },
 				Sequence = { {
-						C = { { "Arg", 38, "to", 0, "in", 6 } }
+						C = { { "Arg", 38, "to", 0, "in", 3 } }
 					} },
 				Transition = { "Open", "Close" }
-			}, {
-				Sequence = { {
-						C = { { "JettisonCanopy", 0 } }
-					} },
-				Transition = { "Any", "Bailout" }
-			} },
-		Door1 = {
-			DuplicateOf = "Door0"
-		}
+			} }
 	},
 	nose_gear_amortizer_direct_stroke = 0,
 	nose_gear_amortizer_normal_weight_stroke = -0.01,

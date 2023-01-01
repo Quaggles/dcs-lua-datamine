@@ -2,6 +2,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AT_6"] = {
 	Reflection = 0.03,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/AS_Missiles.lua",
 	_origin = "AircraftWeaponPack",
+	_unique_resource_name = "weapons.missiles.AT_6",
 	caliber = 0.13,
 	client = {
 		Cx_pil = 0,

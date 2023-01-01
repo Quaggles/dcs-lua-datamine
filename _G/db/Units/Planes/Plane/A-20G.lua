@@ -1516,6 +1516,146 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						v0 = 875,
 						visual_effect_correction = 0,
 						visual_effect_correction_rebound = 0.1
+					}, <10>{
+						AP_cap_caliber = 12.7,
+						Da0 = 0.00085,
+						Da1 = 0,
+						Dv0 = 0.0082,
+						_file = "./CoreMods/WWII Units/Weapons/Weapons.lua",
+						_origin = "World War II AI Units by Eagle Dynamics",
+						_unique_resource_name = "weapons.shells.50Browning_I_M1",
+						caliber = 12.7,
+						cartridge = 0,
+						cartridge_mass = 0.012,
+						category = 7,
+						charTime = 0,
+						cumulative_mass = 0,
+						cumulative_thickness = 0,
+						cx = { 0.5, 0.61, 0.8, 0.17, 2 },
+						damage_factor = 639,
+						display_name = "50Browning_I_M1",
+						explosive = 0.0092089,
+						full_scale_time = -1,
+						j = 0,
+						k1 = 1.35e-08,
+						l = 0,
+						life_time = 7,
+						manualWeaponFlag = 21,
+						mass = 0.0405,
+						model_name = "tracer_bullet_white",
+						name = "50Browning_I_M1",
+						payload = 0.0017,
+						payloadEffect = "Thermal",
+						payloadMaterial = "Thermite",
+						payload_type = 0,
+						piercing_mass = 0.0405,
+						projectile = "Ball",
+						rebound_concrete = <11>{
+							angle0 = 50,
+							angle100 = 75,
+							cx_factor = 5,
+							deviation_angle = 30,
+							velocity_loss_factor = 0.5
+						},
+						rebound_ground = {
+							angle0 = 55,
+							angle100 = 73,
+							cx_factor = 5,
+							deviation_angle = 30,
+							velocity_loss_factor = 0.5
+						},
+						rebound_object = <table 11>,
+						rebound_water = {
+							angle0 = 65,
+							angle100 = 83,
+							cx_factor = 5,
+							deviation_angle = 30,
+							velocity_loss_factor = 0.5
+						},
+						rotation_freq = 7,
+						round_mass = 0.135,
+						s = 0,
+						scale_smoke = 1,
+						silent_self_destruction = false,
+						smoke_opacity = 0.1,
+						smoke_tail_life_time = 0,
+						subcalibre = false,
+						tracer_off = -1,
+						tracer_on = 0,
+						type_name = "shell",
+						user_name = "50Browning_I_M1",
+						v0 = 860,
+						visual_effect_correction = 0,
+						visual_effect_correction_rebound = 0.1
+					}, <12>{
+						AP_cap_caliber = 12.7,
+						Da0 = 0.00085,
+						Da1 = 0,
+						Dv0 = 0.0082,
+						_file = "./CoreMods/WWII Units/Weapons/Weapons.lua",
+						_origin = "World War II AI Units by Eagle Dynamics",
+						_unique_resource_name = "weapons.shells.50Browning_T_M1",
+						caliber = 12.7,
+						cartridge = 0,
+						cartridge_mass = 0.012,
+						category = 7,
+						charTime = 0,
+						cumulative_mass = 0,
+						cumulative_thickness = 0,
+						cx = { 0.5, 0.61, 0.8, 0.17, 2 },
+						damage_factor = 639,
+						display_name = "50Browning_T_M1",
+						explosive = 0,
+						full_scale_time = -1,
+						j = 0,
+						k1 = 1.35e-08,
+						l = 0,
+						life_time = 7,
+						manualWeaponFlag = 21,
+						mass = 0.0437,
+						model_name = "tracer_bullet_red",
+						name = "50Browning_T_M1",
+						payload = 0,
+						payload_type = 0,
+						piercing_mass = 0.0437,
+						projectile = "Ball",
+						rebound_concrete = <13>{
+							angle0 = 50,
+							angle100 = 75,
+							cx_factor = 5,
+							deviation_angle = 30,
+							velocity_loss_factor = 0.5
+						},
+						rebound_ground = {
+							angle0 = 55,
+							angle100 = 73,
+							cx_factor = 5,
+							deviation_angle = 30,
+							velocity_loss_factor = 0.5
+						},
+						rebound_object = <table 13>,
+						rebound_water = {
+							angle0 = 65,
+							angle100 = 83,
+							cx_factor = 5,
+							deviation_angle = 30,
+							velocity_loss_factor = 0.5
+						},
+						rotation_freq = 7,
+						round_mass = 0.136,
+						s = 0,
+						scale_smoke = 1,
+						silent_self_destruction = false,
+						smoke_opacity = 0.1,
+						smoke_tail_life_time = 0.5,
+						subcalibre = false,
+						tracer_off = 4,
+						tracer_on = 0,
+						type_name = "shell",
+						user_name = "50Browning_T_M1",
+						v0 = 875,
+						visual_effect_correction = 0,
+						visual_effect_correction_rebound = 0.1
 					} }
 			},
 			supply_position = { -0.385, -0.179, -4.205 }
@@ -1566,7 +1706,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				get_mass = <function 3>,
 				get_mass_ = <function 4>,
 				mixes = { { 2, 2, 2, 2, 2, 2, 2, 4 }, { 2 }, { 4 } },
-				shells = { <table 2>, <table 4>, <table 6>, <table 8> }
+				shells = { <table 2>, <table 4>, <table 6>, <table 8>, <table 10>, <table 12> }
 			},
 			supply_position = { -0.385, -0.179, -4.205 }
 		}, {
@@ -1616,7 +1756,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				get_mass = <function 5>,
 				get_mass_ = <function 6>,
 				mixes = { { 2, 2, 2, 2, 2, 2, 2, 4 }, { 2 }, { 4 } },
-				shells = { <table 2>, <table 4>, <table 6>, <table 8> }
+				shells = { <table 2>, <table 4>, <table 6>, <table 8>, <table 10>, <table 12> }
 			},
 			supply_position = { -0.385, -0.179, -4.205 }
 		}, {
@@ -1666,7 +1806,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				get_mass = <function 7>,
 				get_mass_ = <function 8>,
 				mixes = { { 2, 2, 2, 2, 2, 2, 2, 4 }, { 2 }, { 4 } },
-				shells = { <table 2>, <table 4>, <table 6>, <table 8> }
+				shells = { <table 2>, <table 4>, <table 6>, <table 8>, <table 10>, <table 12> }
 			},
 			supply_position = { -0.385, -0.179, -4.205 }
 		}, {
@@ -1716,7 +1856,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				get_mass = <function 9>,
 				get_mass_ = <function 10>,
 				mixes = { { 2, 2, 2, 2, 2, 2, 2, 4 }, { 2 }, { 4 } },
-				shells = { <table 2>, <table 4>, <table 6>, <table 8> }
+				shells = { <table 2>, <table 4>, <table 6>, <table 8>, <table 10>, <table 12> }
 			},
 			supply_position = { -0.385, -0.179, -4.205 }
 		}, {
@@ -1766,7 +1906,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				get_mass = <function 11>,
 				get_mass_ = <function 12>,
 				mixes = { { 2, 2, 2, 2, 2, 2, 2, 4 }, { 2 }, { 4 } },
-				shells = { <table 2>, <table 4>, <table 6>, <table 8> }
+				shells = { <table 2>, <table 4>, <table 6>, <table 8>, <table 10>, <table 12> }
 			},
 			supply_position = { -0.385, -0.179, -4.205 }
 		}, {
@@ -1813,7 +1953,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				get_mass = <function 13>,
 				get_mass_ = <function 14>,
 				mixes = { { 1, 1, 4 } },
-				shells = { <10>{
+				shells = { <14>{
 						AP_cap_caliber = 7.62,
 						Da0 = 0.0004,
 						Da1 = 0,
@@ -1841,7 +1981,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						payload = 0,
 						payload_type = 0,
 						piercing_mass = 0.00933,
-						rebound_concrete = <11>{
+						rebound_concrete = <15>{
 							angle0 = 50,
 							angle100 = 75,
 							cx_factor = 5,
@@ -1855,7 +1995,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							deviation_angle = 30,
 							velocity_loss_factor = 0.5
 						},
-						rebound_object = <table 11>,
+						rebound_object = <table 15>,
 						rebound_water = {
 							angle0 = 65,
 							angle100 = 83,
@@ -1938,7 +2078,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				get_mass = <function 15>,
 				get_mass_ = <function 16>,
 				mixes = { { 1, 1, 4 } },
-				shells = { <table 10> }
+				shells = { <table 14> }
 			},
 			supply_position = { 0, 0.3, -0.3 },
 			turret = {

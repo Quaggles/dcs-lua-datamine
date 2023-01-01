@@ -30,12 +30,12 @@ _G["rockets"]["#Index"] = {
 	_origin = "TechWeaponPack",
 	autopilot = {
 		Kd = 0.01,
-		Ki = 0.006,
-		Kp = 0.012,
+		Ki = 0.003,
+		Kp = 0.016,
 		delay = 0.5,
 		fins_discreet = 0.01,
 		max_ctrl_angle = 1.1,
-		no_ctrl_center_ang = 3e-05,
+		no_ctrl_center_ang = 2e-05,
 		op_time = 20
 	},
 	booster = {
@@ -122,7 +122,7 @@ _G["rockets"]["#Index"] = {
 		gb_max_retW = 0.078539816339745,
 		gb_min_dist = 1,
 		gb_ret_Kp = 2.6,
-		gb_use_time = 0.5,
+		gb_use_time = 2,
 		t_cone_near_rad = 1000
 	},
 	t_acc = 2,

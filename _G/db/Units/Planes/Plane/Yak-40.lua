@@ -463,6 +463,19 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	main_gear_wheel_diameter = 1.1,
 	mapclasskey = "P0091000029",
 	mechanimations = {
+		CargoBayGates = { {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "Arg", 91, "to", 1, "in", 7 } }
+					} },
+				Transition = { "Close", "Open" }
+			}, {
+				Flags = { "Reversible", "StepsBackwards" },
+				Sequence = { {
+						C = { { "Arg", 91, "to", 0, "in", 10 } }
+					} },
+				Transition = { "Open", "Close" }
+			} },
 		HeadLights = { {
 				Sequence = { {
 						C = { { "Arg", 51, "to", 0, "in", 1 } }

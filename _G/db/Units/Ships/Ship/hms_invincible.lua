@@ -225,6 +225,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					type = 102
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.3962634015955 } },
+			center = "CENTER_RADAR_01",
 			omegaY = 1,
 			omegaZ = 1,
 			pidY = {
@@ -245,6 +246,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					frequencyRange = {}
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898 } },
+			center = "CENTER_RADAR_02",
 			pidY = {},
 			pidZ = {},
 			reference_angle_Y = 1.5707963267949
@@ -298,7 +300,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	attribute = { 3, 12, 12, "Redacted", "Aircraft Carriers", "Armed Air Defence", "ski_jump", "RADAR_BAND1_FOR_ARM", "RADAR_BAND2_FOR_ARM", "DetectionByAWACS", "AircraftCarrier", "AircraftCarrier With Tramplin", "Armed Ship", "Naval", "All", "Ships", "Armed ships", "HeavyArmoredUnits", "Heavy armed ships" },
 	carrierIlluminationStates = { { { 69, 0, 1 }, { 149, 0, 0.2 }, { 150, 0, 0 }, { 307, 0, 0 }, { 791, 0, 1 }, { 792, 0, 1 }, { 793, 0, 0 }, { 797, 0, 1 }, { 798, 0, 1 } }, { { 69, 0, 1 }, { 149, 0, 0.4 }, { 150, 0, 1 }, { 307, 0, 0.4 }, { 791, 0, 0 }, { 792, 0, 0 }, { 793, 0, 1 }, { 797, 0, 1 }, { 798, 0, 1 } }, { { 69, 0, 0 }, { 149, 0, 0.6 }, { 150, 0, 1 }, { 307, 0, 0.7 }, { 791, 0, 0 }, { 792, 0, 0 }, { 793, 0, 1 }, { 797, 0, 1 }, { 798, 0, 0 } } },
 	chassis = {},
-	distFindObstacles = 10000,
+	distFindObstacles = 250,
 	draft = 11,
 	economy_distance = 13000,
 	economy_velocity = 9.26,

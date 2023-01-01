@@ -1641,6 +1641,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		} },
 	crew_size = 1,
 	detection_range_max = 60,
+	effects_presets = { {
+			effect = "OVERWING_VAPOR",
+			file = "./CoreMods/aircraft/AJS37/Effects/AJS37_overwingVapor.lua"
+		} },
 	engines_count = 1,
 	engines_nozzles = { {
 			afterburner_circles_count = 0,

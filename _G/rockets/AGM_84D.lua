@@ -204,6 +204,7 @@ _G["rockets"]["#Index"] = {
 	t_marsh = 10000,
 	triggers_control = {
 		can_increase_tg_dist = 1,
+		check_self_destruct_dist_with_no_target = 1,
 		final_maneuver_tg_dist = 4000,
 		final_maneuver_trig_v_lim = 3,
 		pre_maneuver_glide_height = 15,

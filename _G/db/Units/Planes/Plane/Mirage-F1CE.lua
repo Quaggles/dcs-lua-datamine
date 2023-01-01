@@ -251,6 +251,20 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			max = 8,
 			min = 1,
 			playerOnly = true
+		}, {
+			control = "comboList",
+			defValue = 1,
+			id = "INSStartMode",
+			label = "INS always starts with the correct coordinates",
+			playerOnly = true,
+			values = { {
+					dispName = "YES",
+					id = 1
+				}, {
+					dispName = "NO",
+					id = 2
+				} },
+			wCtrl = 75
 		} },
 	AmmoWeight = 153.09,
 	CAS_min = 50,
@@ -410,17 +424,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[39] = {
 			args = { 244 },
-			critical_damage = 4,
-			deps_cells = { 41, 53 }
+			critical_damage = 4
 		},
 		[41] = {
 			args = { 245 },
 			critical_damage = 4,
-			deps_cells = { 43, 53 }
+			deps_cells = { 53 }
 		},
 		[43] = {
 			args = { 246 },
-			critical_damage = 5
+			critical_damage = 5,
+			deps_cells = { 53 }
 		},
 		[49] = {
 			args = { 239 },
@@ -442,8 +456,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[53] = {
 			args = { 248 },
-			critical_damage = 3,
-			deps_cells = { 41, 43, 53 }
+			critical_damage = 3
 		},
 		[56] = {
 			args = { 158 },
@@ -1243,6 +1256,30 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			mm = 0,
 			mmint = 1,
 			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "gyros_general_BSM_fail",
+			label = "General gyroscopic central fail",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "gyros_main_fail",
+			label = "Main gyroscope fail",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "gyros_emergency_fail",
+			label = "Emergency gyroscope fail",
+			mm = 0,
+			mmint = 1,
+			prob = 100
 		} },
 	Guns = { {
 			_file = "./CoreMods/aircraft/Mirage-F1/Mirage-F1CE.lua",
@@ -1579,7 +1616,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				influence_of_pos_z_to_V_l_z = false,
 				mass = 83,
 				moment_limit = 0,
-				noise_k = 0.6,
+				noise_k = 0.4,
 				self_attitude = false,
 				track_width = 0.2,
 				wheel_axle_offset = 0.05,
@@ -1591,9 +1628,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				wheel_kz_factor = 0,
 				wheel_moment_of_inertia = 0.6,
 				wheel_radius = 0.17,
-				wheel_roll_friction_factor = 0.03,
+				wheel_roll_friction_factor = 0.02,
 				wheel_side_friction_factor = 0.65,
-				wheel_static_friction_factor = 0.75,
+				wheel_static_friction_factor = 0.9,
 				yaw_limit = 0.78539816339745
 			}, {
 				allowable_hard_contact_length = 0.2,
@@ -1615,10 +1652,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				drag_factor = 0,
 				influence_of_pos_z_to_V_l_z = true,
 				mass = 210,
-				noise_k = 0.6,
+				noise_k = 0.4,
 				track_width = 0.3,
 				wheel_axle_offset = 0.25,
-				wheel_brake_moment_max = 7500,
+				wheel_brake_moment_max = 8500,
 				wheel_damage_delta_speedX = 28,
 				wheel_damage_force_factor = 250,
 				wheel_damage_speedX = 90,
@@ -1627,9 +1664,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				wheel_kz_factor = 0,
 				wheel_moment_of_inertia = 4.95,
 				wheel_radius = 0.3,
-				wheel_roll_friction_factor = 0.03,
+				wheel_roll_friction_factor = 0.02,
 				wheel_side_friction_factor = 0.65,
-				wheel_static_friction_factor = 0.75
+				wheel_static_friction_factor = 0.9
 			}, {
 				allowable_hard_contact_length = 0.2,
 				amortizer_back_damper_force_factor = 40000,
@@ -1650,10 +1687,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				drag_factor = 0,
 				influence_of_pos_z_to_V_l_z = true,
 				mass = 210,
-				noise_k = 0.6,
+				noise_k = 0.4,
 				track_width = 0.3,
 				wheel_axle_offset = 0.25,
-				wheel_brake_moment_max = 7500,
+				wheel_brake_moment_max = 8500,
 				wheel_damage_delta_speedX = 28,
 				wheel_damage_force_factor = 250,
 				wheel_damage_speedX = 90,
@@ -1662,9 +1699,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				wheel_kz_factor = 0,
 				wheel_moment_of_inertia = 4.95,
 				wheel_radius = 0.3,
-				wheel_roll_friction_factor = 0.03,
+				wheel_roll_friction_factor = 0.02,
 				wheel_side_friction_factor = 0.65,
-				wheel_static_friction_factor = 0.75
+				wheel_static_friction_factor = 0.9
 			} },
 		zeroize_amortizers_before_collision_check = true
 	},
@@ -1723,15 +1760,24 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{R550_Magic_1}",
 					arg_value = 0.15,
+					attach_point_position = { -0.1, -0.09, 0 },
 					required = { {
 							loadout = { "{R550_Magic_1}" },
+							station = 7
+						} }
+				}, {
+					CLSID = "{FC23864E-3B80-48E3-9C03-4DA8B1D7497B}",
+					arg_value = 0.15,
+					attach_point_position = { -0.1, -0.09, 0 },
+					required = { {
+							loadout = { "{FC23864E-3B80-48E3-9C03-4DA8B1D7497B}" },
 							station = 7
 						} }
 				} },
 			Number = 1,
 			Order = 1,
 			Type = 0,
-			X = -3.466,
+			X = -3.215,
 			Y = -0.035,
 			Z = -4.329,
 			arg = 308,
@@ -2210,6 +2256,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 4
 						} }
 				}, {
+					CLSID = "{S530F}",
+					arg_value = 0.15,
+					required = { {
+							loadout = { "{S530F}" },
+							station = 5
+						} }
+				}, {
 					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
 					arg_value = 0.15,
 					required = { {
@@ -2586,6 +2639,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 4
 						} }
 				}, {
+					CLSID = "{S530F}",
+					arg_value = 0.15,
+					required = { {
+							loadout = { "{S530F}" },
+							station = 5
+						} }
+				}, {
 					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
 					arg_value = 0.15,
 					required = { {
@@ -2879,15 +2939,24 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{R550_Magic_1}",
 					arg_value = 0.15,
+					attach_point_position = { -0.1, -0.09, 0 },
 					required = { {
 							loadout = { "{R550_Magic_1}" },
+							station = 1
+						} }
+				}, {
+					CLSID = "{FC23864E-3B80-48E3-9C03-4DA8B1D7497B}",
+					arg_value = 0.15,
+					attach_point_position = { -0.1, -0.09, 0 },
+					required = { {
+							loadout = { "{FC23864E-3B80-48E3-9C03-4DA8B1D7497B}" },
 							station = 1
 						} }
 				} },
 			Number = 7,
 			Order = 7,
 			Type = 0,
-			X = -3.466,
+			X = -3.215,
 			Y = -0.035,
 			Z = 4.329,
 			arg = 314,

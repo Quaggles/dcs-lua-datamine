@@ -3540,10 +3540,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		} },
 	country_of_origin = "CHN",
 	crew_members = { {
+			bailout_arg = -1,
 			canopy_pos = { 4.282, 0.62, 0 },
 			drop_canopy_name = 283,
 			drop_parachute_name = "JF-17_parachute",
-			ejection_play_arg = 990,
+			ejection_play_arg = 993,
 			ejection_seat_name = 282,
 			ejection_through_canopy = true,
 			g_suit = 5,
@@ -3677,7 +3678,19 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				Transition = { "Open", "Close" }
 			}, {
 				Sequence = { {
-						C = { { "JettisonCanopy", 0 } }
+						C = { { "TearCanopy", 0 }, { "Arg", 993, "set", 1 } }
+					} },
+				Transition = { "Open", "Bailout" }
+			}, {
+				Sequence = { {
+						C = { { "TearCanopy", 0 }, { "Arg", 993, "set", 1 } }
+					} },
+				Transition = { "Taxi", "Bailout" }
+			}, {
+				Sequence = { {
+						C = { { "Origin", "x", 3.458, "y", 0.703, "z", 0 }, { "Impulse", 1, "tertiary", 1 }, { "Impulse", 2, "tertiary", 10.5 }, { "Sleep", "for", 0.005 } }
+					}, {
+						C = { { "Arg", 993, "set", 1 } }
 					} },
 				Transition = { "Any", "Bailout" }
 			} },

@@ -33,7 +33,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			innards = { {
 					id = "XArmor01",
 					skin = "Steel",
-					wall = 0.02
+					wall = 0.012
 				} }
 		},
 		[4] = {
@@ -880,11 +880,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					id = "XArmor00",
 					skin = "Steel",
-					wall = 0.02
+					wall = 0.01
 				}, {
 					id = "XArmor02",
 					skin = "ReinforcedGlass",
-					wall = 0.075
+					wall = 0.05
 				}, {
 					failures = { { "ELEC_RETICLE_BULB_FAILURE", 1 } },
 					id = "XCockpitElement01",

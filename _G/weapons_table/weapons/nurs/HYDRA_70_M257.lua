@@ -50,11 +50,11 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_M257"] = {
 				caliber = 0.07,
 				client = {
 					anim_constraints = {
-						lead_chute_min_arg_val = 0,
-						main_chute_min_arg_val = 0.4
+						lead_chute_min_arg_val = -1,
+						main_chute_min_arg_val = 0.8
 					},
 					anim_constraints_check_delay = {
-						delay_par = 5
+						delay_par = 2
 					},
 					arming_delay = {
 						delay_time = 0.8,
@@ -63,9 +63,6 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_M257"] = {
 					arming_vane = {
 						enabled = false,
 						velK = 1
-					},
-					control = {
-						delay_par = 1
 					},
 					fm = {
 						I = 0.22816666666667,
@@ -77,12 +74,15 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_M257"] = {
 						chute_Kmx = 1,
 						chute_Ma = 5,
 						chute_Mw = 20,
-						chute_cut_time = 124,
+						chute_cut_time = 123,
 						chute_diam = 0.77,
 						chute_open_time = 1,
 						cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
 						mass = 5,
 						wind_sigma = 0
+					},
+					lead_chute_draw_arg_anim = {
+						K_t = 2
 					},
 					light = {
 						duration = 120,
@@ -104,11 +104,11 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_M257"] = {
 				name = "M257_FLARE",
 				server = {
 					anim_constraints = {
-						lead_chute_min_arg_val = 0,
-						main_chute_min_arg_val = 0.4
+						lead_chute_min_arg_val = -1,
+						main_chute_min_arg_val = 0.8
 					},
 					anim_constraints_check_delay = {
-						delay_par = 5
+						delay_par = 2
 					},
 					arming_delay = {
 						delay_time = 0.8,
@@ -117,9 +117,6 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_M257"] = {
 					arming_vane = {
 						enabled = false,
 						velK = 1
-					},
-					control = {
-						delay_par = 1
 					},
 					fm = {
 						I = 0.22816666666667,
@@ -131,12 +128,15 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_M257"] = {
 						chute_Kmx = 1,
 						chute_Ma = 5,
 						chute_Mw = 20,
-						chute_cut_time = 124,
+						chute_cut_time = 123,
 						chute_diam = 0.77,
 						chute_open_time = 1,
 						cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
 						mass = 5,
 						wind_sigma = 0
+					},
+					lead_chute_draw_arg_anim = {
+						K_t = 2
 					},
 					light = {
 						duration = 120,
@@ -233,11 +233,11 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_M257"] = {
 				caliber = 0.07,
 				client = {
 					anim_constraints = {
-						lead_chute_min_arg_val = 0,
-						main_chute_min_arg_val = 0.4
+						lead_chute_min_arg_val = -1,
+						main_chute_min_arg_val = 0.8
 					},
 					anim_constraints_check_delay = {
-						delay_par = 5
+						delay_par = 2
 					},
 					arming_delay = {
 						delay_time = 0.8,
@@ -246,9 +246,6 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_M257"] = {
 					arming_vane = {
 						enabled = false,
 						velK = 1
-					},
-					control = {
-						delay_par = 1
 					},
 					fm = {
 						I = 0.22816666666667,
@@ -260,12 +257,15 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_M257"] = {
 						chute_Kmx = 1,
 						chute_Ma = 5,
 						chute_Mw = 20,
-						chute_cut_time = 124,
+						chute_cut_time = 123,
 						chute_diam = 0.77,
 						chute_open_time = 1,
 						cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
 						mass = 5,
 						wind_sigma = 0
+					},
+					lead_chute_draw_arg_anim = {
+						K_t = 2
 					},
 					light = {
 						duration = 120,
@@ -287,11 +287,11 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_M257"] = {
 				name = "M257_FLARE",
 				server = {
 					anim_constraints = {
-						lead_chute_min_arg_val = 0,
-						main_chute_min_arg_val = 0.4
+						lead_chute_min_arg_val = -1,
+						main_chute_min_arg_val = 0.8
 					},
 					anim_constraints_check_delay = {
-						delay_par = 5
+						delay_par = 2
 					},
 					arming_delay = {
 						delay_time = 0.8,
@@ -300,9 +300,6 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_M257"] = {
 					arming_vane = {
 						enabled = false,
 						velK = 1
-					},
-					control = {
-						delay_par = 1
 					},
 					fm = {
 						I = 0.22816666666667,
@@ -314,12 +311,15 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_M257"] = {
 						chute_Kmx = 1,
 						chute_Ma = 5,
 						chute_Mw = 20,
-						chute_cut_time = 124,
+						chute_cut_time = 123,
 						chute_diam = 0.77,
 						chute_open_time = 1,
 						cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
 						mass = 5,
 						wind_sigma = 0
+					},
+					lead_chute_draw_arg_anim = {
+						K_t = 2
 					},
 					light = {
 						duration = 120,

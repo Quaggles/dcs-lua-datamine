@@ -7,8 +7,8 @@ _G["launcher"]["{Robot24}"] = {
 			ShapeName = "aim-9b"
 		} },
 	Picture = "aim9p.png",
-	Weight = 132,
-	Weight_Empty = 59,
+	Weight = 112,
+	Weight_Empty = 37.6,
 	_file = "./CoreMods/aircraft/AJS37/Entry/Weapons.lua",
 	_origin = "AJS37 AI by Heatblur Simulations",
 	attribute = { 4, 4, 32, "Redacted" },

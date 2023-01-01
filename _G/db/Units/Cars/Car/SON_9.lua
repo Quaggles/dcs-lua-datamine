@@ -8,7 +8,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "AAA Fire Can SON-9",
 	Rate = 10,
 	Sensors = {
-		RADAR = "long-range air defence optics"
+		RADAR = "son-9 tr"
 	},
 	ThreatRange = 0,
 	WS = { {
@@ -193,14 +193,14 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 2, 16, 26, "Redacted", "AAA", "Optical Tracker", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "Armed Air Defence", "Rocket Attack Valid AirDefence" },
+	attribute = { 2, 16, 101, "Redacted", "SAM TR", "AAA", "All", "Ground Units", "Vehicles", "Ground vehicles", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "SAM related", "SAM elements", "Armed Air Defence", "Rocket Attack Valid AirDefence" },
 	category = "Air Defence",
 	chassis = {
 		life = 2,
 		mass = 5000
 	},
 	enablePlayerCanDrive = false,
-	mapclasskey = "P0091000015",
+	mapclasskey = "P0091000083",
 	radar_rotation_period = 2.5,
 	sensor = {
 		height = 4.5,
@@ -224,7 +224,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		radarRotation = "GndTech/RadarRotation"
 	},
 	swapped_names = true,
-	tags = { "Air Defence", "AAA", "Optical Tracker" },
+	tags = { "Air Defence", "Tracking Radar", "AAA" },
 	type = "SON_9",
 	visual = {
 		IR = {

@@ -2617,7 +2617,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				Transition = { "Open", "Close" }
 			} }
 	},
-	net_animation = { 21, 35, 38, 49, 51, 83, 88, 99, 190, 191, 192, 200, 208, 209, 334, 335, 336, 373, 802, 902, 903, 904, 905, 182, 184, 900, 901, 13, 14, 131, 133, 90, 86, 1000 },
+	net_animation = { 21, 35, 38, 49, 51, 83, 88, 99, 190, 191, 192, 200, 208, 209, 334, 335, 336, 373, 802, 902, 903, 904, 905, 182, 184, 900, 901, 13, 14, 131, 133, 90, 86, 1000, 1001, 1002 },
 	nose_gear_amortizer_direct_stroke = 0.22,
 	nose_gear_amortizer_normal_weight_stroke = 0.1,
 	nose_gear_amortizer_reversal_stroke = -0.015,

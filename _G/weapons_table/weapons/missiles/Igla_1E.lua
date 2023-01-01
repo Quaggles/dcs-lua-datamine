@@ -122,7 +122,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Igla_1E"] = {
 			time_self_destruct = 17
 		}
 	},
-	display_name = "Igla-S",
+	display_name = "9M39 Igla",
 	mass = 10.6,
 	model = "9M39",
 	name = "Igla_1E",

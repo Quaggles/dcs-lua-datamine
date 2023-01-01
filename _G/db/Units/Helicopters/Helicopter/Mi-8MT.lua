@@ -571,12 +571,17 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			critical_damage = 1
 		},
 		[93] = {
-			args = { 999 },
+			args = { 452 },
 			construction = {
 				durability = 2,
 				skin = "Fabric"
 			},
-			critical_damage = 1
+			critical_damage = 1,
+			innards = { {
+					id = "XCrew3"
+				}, {
+					id = "XCrew3H"
+				} }
 		},
 		[94] = {
 			args = { -1 },

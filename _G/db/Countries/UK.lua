@@ -184,6 +184,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "trunks_long_cargo",
 					in_service = 0,
 					out_of_service = 40000
+				}, {
+					Name = "L118"
 				} }
 		},
 		Cars = {
@@ -854,6 +856,8 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "Ka-50_3"
+				}, {
 					Name = "Mi-24P"
 				} }
 		},
@@ -1006,6 +1010,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "Mirage-F1CE"
 				}, {
+					Name = "Mirage-F1EE"
+				}, {
 					Name = "Yak-52"
 				}, {
 					Name = "B-17G"
@@ -1050,6 +1056,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "leander-gun-condell"
 				}, {
 					Name = "leander-gun-lynch"
+				}, {
+					Name = "Ship_Tilde_Supply"
 				}, {
 					Name = "USS_Samuel_Chase"
 				}, {

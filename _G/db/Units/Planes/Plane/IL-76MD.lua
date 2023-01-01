@@ -585,6 +585,19 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	main_gear_wheel_diameter = 0.972,
 	mapclasskey = "P0091000029",
 	mechanimations = {
+		CargoBayGates = { {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "Arg", 86, "to", 1, "in", 10 } }
+					} },
+				Transition = { "Close", "Open" }
+			}, {
+				Flags = { "Reversible", "StepsBackwards" },
+				Sequence = { {
+						C = { { "Arg", 86, "to", 0, "in", 15 } }
+					} },
+				Transition = { "Open", "Close" }
+			} },
 		Door11 = { {
 				Flags = { "Reversible" },
 				Sequence = { {
@@ -625,6 +638,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	},
 	nose_gear_pos = { 11.146, -4.009, 0 },
 	nose_gear_wheel_diameter = 0.754,
+	openRamp = 1,
 	passivCounterm = {
 		CMDS_Edit = true,
 		SingleChargeTotal = 192,

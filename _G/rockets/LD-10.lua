@@ -150,6 +150,7 @@ _G["rockets"]["#Index"] = {
 		calc_aim_dist = 200000,
 		delay = 2.4,
 		err_correct_time = 2,
+		filter_ignore_strings = { "EWR", "ewr" },
 		keep_aim_time = 5,
 		lock_manual_target_types_only = 0,
 		max_w_LOS = 0.34906585039887,

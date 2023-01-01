@@ -735,7 +735,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "{PTB_450}"
 				}, {
 					CLSID = "{A6FD14D3-6D30-4C85-88A7-8D17BEE120E2}",
-					arg_value = 0
+					arg_value = 0,
+					connector = "hardpoint-1"
 				} },
 			Number = 1,
 			Order = 1,
@@ -819,7 +820,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "{PTB_450}"
 				}, {
 					CLSID = "{A6FD14D3-6D30-4C85-88A7-8D17BEE120E2}",
-					arg_value = 0
+					arg_value = 0,
+					connector = "hardpoint-4"
 				} },
 			Number = 4,
 			Order = 4,
@@ -850,7 +852,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				vAngle = -40.067383,
 				viewAngle = 67.452896,
 				x_trans = 0,
-				y_trans = -0.024,
+				y_trans = -0.04,
 				z_trans = 0
 			}, {
 				hAngle = 51.644135,
@@ -858,7 +860,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				vAngle = -51.870411,
 				viewAngle = 37.846794,
 				x_trans = 0,
-				y_trans = -0.024,
+				y_trans = -0.04,
 				z_trans = 0
 			}, {
 				hAngle = -1.912186,
@@ -890,7 +892,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				vAngle = -4.47801,
 				viewAngle = 42.512844,
 				x_trans = 0.154018,
-				y_trans = -0.024,
+				y_trans = -0.04,
 				z_trans = 0
 			}, {
 				hAngle = -108.85202,
@@ -906,7 +908,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				vAngle = -27.209915,
 				viewAngle = 89.777542,
 				x_trans = 0,
-				y_trans = -0.024,
+				y_trans = -0.04,
 				z_trans = -0.218292
 			}, {
 				hAngle = 0,
@@ -914,7 +916,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				vAngle = 34.042202,
 				viewAngle = 88.727844,
 				x_trans = 0.142145,
-				y_trans = -0.024,
+				y_trans = -0.04,
 				z_trans = 0
 			}, {
 				hAngle = -32.128311,
@@ -922,7 +924,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				vAngle = -5.720805,
 				viewAngle = 59.208893,
 				x_trans = 0,
-				y_trans = -0.024,
+				y_trans = -0.04,
 				z_trans = 0
 			}, {
 				hAngle = 14.80306,
@@ -930,7 +932,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				vAngle = 3.332499,
 				viewAngle = 56.03204,
 				x_trans = 0,
-				y_trans = -0.024,
+				y_trans = -0.04,
 				z_trans = 0
 			}, {
 				hAngle = -14.414484,
@@ -938,7 +940,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				vAngle = 3.332499,
 				viewAngle = 56.03204,
 				x_trans = 0,
-				y_trans = -0.024,
+				y_trans = -0.04,
 				z_trans = 0
 			}, {
 				hAngle = 0,
@@ -946,7 +948,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				vAngle = -15.592758,
 				viewAngle = 89.777542,
 				x_trans = 0,
-				y_trans = -0.024,
+				y_trans = -0.04,
 				z_trans = 0
 			}, {
 				hAngle = 0,
@@ -954,7 +956,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				vAngle = 0,
 				viewAngle = 89.777542,
 				x_trans = 0,
-				y_trans = -0.024,
+				y_trans = -0.04,
 				z_trans = 0
 			} } },
 	TakeOffRWCategories = { {
@@ -1126,27 +1128,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 								typename = "omnilight"
 							} },
 						typename = "collection"
-					}, {
-						lights = { {
-								argument = 45,
-								connector = "RESERV_SPOT_PTR",
-								movable = true,
-								proto = <table 6>,
-								typename = "spotlight"
-							}, {
-								connector = "RESERV_SPOT_PTR",
-								movable = true,
-								proto = <table 7>,
-								typename = "spotlight"
-							}, {
-								connector = "RESERV_SPOT_PTR",
-								movable = true,
-								pos_correction = { 0.25, 0, 0 },
-								proto = <table 6>,
-								range = 8,
-								typename = "omnilight"
-							} },
-						typename = "collection"
 					} },
 				typename = "collection"
 			},
@@ -1240,27 +1221,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 								typename = "omnilight"
 							} },
 						typename = "collection"
-					}, {
-						lights = { {
-								argument = 45,
-								connector = "RESERV_SPOT_PTR",
-								movable = true,
-								proto = <table 6>,
-								typename = "spotlight"
-							}, {
-								connector = "RESERV_SPOT_PTR",
-								movable = true,
-								proto = <table 7>,
-								typename = "spotlight"
-							}, {
-								connector = "RESERV_SPOT_PTR",
-								movable = true,
-								pos_correction = { 0.25, 0, 0 },
-								proto = <table 6>,
-								range = 8,
-								typename = "omnilight"
-							} },
-						typename = "collection"
 					} },
 				typename = "collection"
 			},
@@ -1284,11 +1244,33 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						typename = "Collection"
 					} },
 				typename = "collection"
+			},
+			[11] = {
+				lights = { {
+						argument = 45,
+						connector = "RESERV_SPOT_PTR",
+						movable = true,
+						proto = <table 6>,
+						typename = "spotlight"
+					}, {
+						connector = "RESERV_SPOT_PTR",
+						movable = true,
+						proto = <table 7>,
+						typename = "spotlight"
+					}, {
+						connector = "RESERV_SPOT_PTR",
+						movable = true,
+						pos_correction = { 0.25, 0, 0 },
+						proto = <table 6>,
+						range = 8,
+						typename = "omnilight"
+					} },
+				typename = "collection"
 			}
 		},
 		typename = "collection"
 	},
-	main_gear_pos = { -0.414, -1.83, 1.336 },
+	main_gear_pos = { -0.414, -1.86, 1.336 },
 	mapclasskey = "P0091000021",
 	mechanimations = {
 		Door0 = { {
@@ -1318,12 +1300,12 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				Transition = { "Any", "Retract" }
 			}, {
 				Sequence = { {
-						C = { { "Arg", 209, "to", 1, "speed", 0.14 }, { "Arg", 44, "to", 1, "speed", 0.14 }, { "Arg", 208, "to", 1, "speed", 0.14 }, { "Arg", 43, "to", -1, "speed", 0.14 } }
+						C = { { "Arg", 209, "to", 1, "speed", 0.14 }, { "Arg", 44, "to", 0, "speed", 0.14 }, { "Arg", 208, "to", 1, "speed", 0.14 }, { "Arg", 43, "to", 0, "speed", 0.14 } }
 					} },
 				Transition = { "Any", "Taxi" }
 			}, {
 				Sequence = { {
-						C = { { "Arg", 209, "to", 0.73, "speed", 0.14 }, { "Arg", 44, "to", 0, "speed", 0.14 }, { "Arg", 208, "to", 0.41, "speed", 0.14 }, { "Arg", 43, "to", -0.6, "speed", 0.14 } }
+						C = { { "Arg", 209, "to", 0.73, "speed", 0.14 }, { "Arg", 44, "to", 0, "speed", 0.14 }, { "Arg", 208, "to", 0.73, "speed", 0.14 }, { "Arg", 43, "to", 0, "speed", 0.14 } }
 					} },
 				Transition = { "Any", "High" }
 			} },
@@ -1402,7 +1384,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			} }
 	},
 	net_animation = { 208, 43, 209, 44 },
-	nose_gear_pos = { 4.41, -1.79, 0 },
+	nose_gear_pos = { 4.41, -1.81, 0 },
 	panelRadio = { {
 			channels = { {
 					default = 21.5,

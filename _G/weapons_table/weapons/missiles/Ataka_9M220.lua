@@ -87,7 +87,6 @@ _G["weapons_table"]["weapons"]["missiles"]["Ataka_9M220"] = {
 			default_proximity_radius = 4,
 			tdd_position = { 0.83, 0, 0 }
 		},
-		manualWeaponFlag = 18,
 		march = {
 			custom_smoke_dissipation_factor = 1,
 			fuel_mass = 5.53,
@@ -255,7 +254,6 @@ _G["weapons_table"]["weapons"]["missiles"]["Ataka_9M220"] = {
 			default_proximity_radius = 4,
 			tdd_position = { 0.83, 0, 0 }
 		},
-		manualWeaponFlag = 18,
 		march = {
 			custom_smoke_dissipation_factor = 1,
 			fuel_mass = 5.53,

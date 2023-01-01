@@ -359,30 +359,23 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	main_gear_wheel_diameter = 1.114,
 	mapclasskey = "P0091000029",
 	mechanimations = {
-		Door0 = { {
+		CargoBayGates = { {
 				Flags = { "Reversible" },
 				Sequence = { {
-						C = { { "Arg", 38, "to", 0.9, "in", 9 } }
+						C = { { "Arg", 86, "to", 1, "in", 10 } }
 					} },
 				Transition = { "Close", "Open" }
 			}, {
 				Flags = { "Reversible", "StepsBackwards" },
 				Sequence = { {
-						C = { { "Arg", 38, "to", 0, "in", 6 } }
+						C = { { "Arg", 86, "to", 0, "in", 15 } }
 					} },
 				Transition = { "Open", "Close" }
-			}, {
-				Sequence = { {
-						C = { { "JettisonCanopy", 0 } }
-					} },
-				Transition = { "Any", "Bailout" }
-			} },
-		Door1 = {
-			DuplicateOf = "Door0"
-		}
+			} }
 	},
 	nose_gear_pos = { 14.09, -2.99, 0 },
 	nose_gear_wheel_diameter = 0.945,
+	openRamp = 1,
 	passivCounterm = {
 		CMDS_Edit = true,
 		SingleChargeTotal = 240,

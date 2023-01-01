@@ -7,7 +7,7 @@ _G["launcher"]["DIS_WMD7"] = {
 		} },
 	Picture = "wmd7.png",
 	Sensors = {
-		OPTIC = "WMD7 FLIR"
+		OPTIC = { "WMD7 FLIR" }
 	},
 	Weight = 295,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/pod_wmd7.lua",
@@ -16,6 +16,7 @@ _G["launcher"]["DIS_WMD7"] = {
 	attribute = { 4, 15, 44, "Redacted" },
 	category = 6,
 	displayName = "WMD7 POD",
+	laserDesignator = true,
 	laserRanger = true,
 	name = "wmd7",
 	shape_table_data = { {

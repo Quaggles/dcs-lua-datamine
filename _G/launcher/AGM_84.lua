@@ -3,5 +3,5 @@ _G["launcher"]["AGM_84"] = {
 	Elements = {},
 	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 4, 11, "Redacted" },
-	displayName = "AGM-84 HARPOON"
+	displayName = "RGM-84D Harpoon"
 }
