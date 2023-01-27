@@ -217,7 +217,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[0] = {
 			args = { 147 },
 			critical_damage = 8,
-			deps_cells = { 148, 65, 68 }
+			deps_cells = { 149, 65, 68 }
 		},
 		[8] = {
 			args = { 265 },
@@ -249,12 +249,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[15] = {
 			args = { 267 },
 			critical_damage = 5,
-			deps_cells = { 146 }
+			deps_cells = { 147 }
 		},
 		[16] = {
 			args = { 266 },
 			critical_damage = 5,
-			deps_cells = { 152 }
+			deps_cells = { 153 }
 		},
 		[17] = {
 			args = { 273 },
@@ -512,7 +512,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[136] = {
 			args = { 263 },
 			critical_damage = 3,
-			deps_cells = { 154 }
+			deps_cells = { 155 }
 		},
 		[137] = {
 			args = { 305 },
@@ -545,20 +545,20 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 2
 		},
 		[146] = {
+			critical_damage = 2
+		},
+		[147] = {
 			args = { 259 },
 			critical_damage = 3,
 			deps_cells = { 84 }
 		},
-		[147] = {
+		[148] = {
 			args = { 303 },
 			critical_damage = 2
 		},
-		[148] = {
+		[149] = {
 			args = { 144 },
 			critical_damage = 8
-		},
-		[149] = {
-			critical_damage = 2
 		},
 		[150] = {
 			critical_damage = 2
@@ -567,15 +567,18 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 2
 		},
 		[152] = {
+			critical_damage = 2
+		},
+		[153] = {
 			args = { 255 },
 			critical_damage = 3,
 			deps_cells = { 85 }
 		},
-		[153] = {
+		[154] = {
 			args = { 304 },
 			critical_damage = 2
 		},
-		[154] = {
+		[155] = {
 			args = { 135 },
 			critical_damage = 3
 		},
@@ -634,10 +637,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			HYD1_PUMP = 142,
 			HYD2_PUMP = 143,
 			HYD_RES_1 = 144,
-			IGV = 145,
+			HYD_RES_2 = 145,
+			IGV = 146,
 			LEFT_GEAR_BOX = 15,
-			LEFT_WHEEL = 146,
-			L_TOP_CM = 147,
+			LEFT_WHEEL = 147,
+			L_TOP_CM = 148,
 			MTG_L = 17,
 			MTG_L_BOTTOM = 13,
 			MTG_R = 18,
@@ -646,25 +650,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			NOSE_CENTER = 0,
 			NOSE_LEFT_SIDE = 1,
 			NOSE_RIGHT_SIDE = 2,
-			NOSE_SENSOR = 148,
-			OIL_COOLER = 149,
-			OIL_PUMP = 150,
-			OIL_TANK = 151,
+			NOSE_SENSOR = 149,
+			OIL_COOLER = 150,
+			OIL_PUMP = 151,
+			OIL_TANK = 152,
 			PWD = 60,
 			PYLON1 = 86,
 			PYLON2 = 87,
 			PYLON3 = 88,
 			PYLON4 = 89,
 			RIGHT_GEAR_BOX = 16,
-			RIGHT_WHEEL = 152,
+			RIGHT_WHEEL = 153,
 			ROTOR = 63,
 			RUDDER = 53,
-			R_TOP_CM = 153,
+			R_TOP_CM = 154,
 			TAIL = 55,
 			TAIL_BOTTOM = 58,
 			TAIL_LEFT_SIDE = 56,
 			TAIL_RIGHT_SIDE = 57,
-			WHEEL_A = 154,
+			WHEEL_A = 155,
 			WHEEL_F = 83,
 			WHEEL_L = 84,
 			WHEEL_R = 85,
@@ -1131,7 +1135,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				wheel_roll_friction_factor = 0.03,
 				wheel_side_friction_factor = 0.55,
 				wheel_static_friction_factor = 0.8
-			} }
+			} },
+		water_debug = false
 	},
 	HumanRadio = {
 		editable = true,
@@ -1184,66 +1189,840 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			DisplayName = "1",
 			Launchers = { {
 					CLSID = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}",
-					attach_point_position = <3>{ 0.5, -0.062, 0 }
+					attach_point_position = <3>{ 0.5, -0.062, 0 },
+					forbidden = <4>{ {
+							loadout = { "{BRU-42A_2*GBU-12_SIDE_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*Mk-83_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70A_3*GBU-38}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70A_2*GBU-38_SIDE_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70A_3*GBU-54}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70A_2*GBU-54_SIDE_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_3*Mk-82LD}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*Mk-82_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*Mk-82AIR_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_3_MK82AIR}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*Mk-82SNAKEYE_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_3*Mk-82SNAKEYE}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*MK-20_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70_2*CBU-99_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_3*Mk-81LD}" },
+							station = 2
+						}, {
+							loadout = { "BRU-42_3*BDU-33" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 8
+						}, {
+							loadout = { "{BRU-42A_3*GBU-12}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*GBU-12_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_3*GBU-38}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*GBU-38_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70A_2*GBU-54_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42A_3*GBU-12}" },
+							station = 7
+						} }
+				}, {
+					CLSID = "{AIM-9L}",
+					attach_point_position = <table 3>,
+					forbidden = <table 4>
 				}, {
 					CLSID = "{AGM_122_SIDEARM}",
-					attach_point_position = <table 3>
+					attach_point_position = <table 3>,
+					forbidden = <table 4>
 				}, {
 					CLSID = "{90321C8E-7ED1-47D4-A160-E074D5ABD902}",
 					arg_value = 0.2,
-					attach_point_position = { -0.02, -0.115, 0 }
+					attach_point_position = { -0.02, -0.115, 0 },
+					forbidden = <5>{ {
+							loadout = { "{AV8BNA_AERO1D}" },
+							station = 2
+						}, {
+							loadout = { "{AV8BNA_AERO1D_EMPTY}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42A_3*GBU-12}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42A_3*GBU-12}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 8
+						} }
 				}, {
 					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
 					arg_value = 0.2,
-					attach_point_position = { -0.11, -0.14, 0 }
+					attach_point_position = { -0.11, -0.14, 0 },
+					forbidden = <table 5>
 				}, {
 					CLSID = "{Mk82SNAKEYE}",
 					arg_value = 0.2,
-					attach_point_position = { -0.11, -0.14, 0 }
+					attach_point_position = { -0.11, -0.14, 0 },
+					forbidden = <table 5>
 				}, {
 					CLSID = "{Mk82AIR}",
 					arg_value = 0.2,
-					attach_point_position = { -0.11, -0.14, 0 }
+					attach_point_position = { -0.11, -0.14, 0 },
+					forbidden = <table 5>
 				}, {
 					CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}",
 					arg_value = 0.2,
-					attach_point_position = { -0.1, -0.17, 0 }
+					attach_point_position = { -0.1, -0.17, 0 },
+					forbidden = <table 5>
 				}, {
 					CLSID = "{CBU_99}",
 					arg_value = 0.2,
-					attach_point_position = { -0.1, -0.17, 0 }
+					attach_point_position = { -0.1, -0.17, 0 },
+					forbidden = <table 5>
 				}, {
 					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
 					arg_value = 0.2,
-					attach_point_position = { 0.307, -0.15, 0 }
+					attach_point_position = { 0.307, -0.15, 0 },
+					forbidden = { {
+							loadout = { "{BRU-42A_2*GBU-12_SIDE_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42A_3*GBU-12}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42A_3*GBU-12}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70_3*GBU-38}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70A_2*GBU-38_SIDE_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70A_3*GBU-54}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70A_2*GBU-54_SIDE_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_3*Mk-82LD}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*Mk-82_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*Mk-82AIR_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_3_MK82AIR}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*Mk-82SNAKEYE_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_3*Mk-82SNAKEYE}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*MK-20_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70_2*CBU-99_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_3*Mk-81LD}" },
+							station = 2
+						}, {
+							loadout = { "BRU-42_3*BDU-33" },
+							station = 2
+						}, {
+							loadout = { "{AV8BNA_AERO1D}" },
+							station = 2
+						}, {
+							loadout = { "{AV8BNA_AERO1D_EMPTY}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 8
+						}, {
+							loadout = { "{BRU-42_2*GBU-12_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_3*GBU-38}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*GBU-38_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70A_2*GBU-54_LEFT}" },
+							station = 2
+						} }
 				}, {
 					CLSID = "{AIS_ASQ_T50}",
-					attach_point_position = { 0.6, 0, 0 }
+					attach_point_position = { 0.6, 0, 0 },
+					forbidden = <table 4>
 				}, {
 					CLSID = "CATM-9M",
-					attach_point_position = { 0.5, 0, 0 }
+					attach_point_position = { 0.5, 0, 0 },
+					forbidden = <table 4>
 				}, {
 					CLSID = "{BDU-33}",
 					arg_value = 0.2,
-					attach_point_position = { 0.18, 0, 0 }
+					attach_point_position = { 0.18, 0, 0 },
+					forbidden = <table 5>
 				}, {
 					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
-					arg_value = 0.2
+					arg_value = 0.2,
+					forbidden = <6>{ {
+							loadout = { "{BRU-42A_3*GBU-12}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42A_3*GBU-12}" },
+							station = 7
+						}, {
+							loadout = { "{AIM-9M-ON-ADAPTER}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9L-ON-ADAPTER}" },
+							station = 2
+						}, {
+							loadout = { "{LAU_7_AGM_122_SIDEARM}" },
+							station = 2
+						}, {
+							loadout = { "{90321C8E-7ED1-47D4-A160-E074D5ABD902}" },
+							station = 2
+						}, {
+							loadout = { "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}" },
+							station = 2
+						}, {
+							loadout = { "{Mk82SNAKEYE}" },
+							station = 2
+						}, {
+							loadout = { "{Mk82AIR}" },
+							station = 2
+						}, {
+							loadout = { "{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}" },
+							station = 2
+						}, {
+							loadout = { "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}" },
+							station = 2
+						}, {
+							loadout = { "{CBU_99}" },
+							station = 2
+						}, {
+							loadout = { "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}" },
+							station = 2
+						}, {
+							loadout = { "{0D33DDAE-524F-4A4E-B5B8-621754FE3ADE}" },
+							station = 2
+						}, {
+							loadout = { "{GBU-38}" },
+							station = 2
+						}, {
+							loadout = { "{GBU_32_V_2B}" },
+							station = 2
+						}, {
+							loadout = { "{GBU_54_V_1B}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*Mk-82_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*MK-20_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70_2*CBU-99_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42A_2*GBU-12_SIDE_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*Mk-82AIR_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*Mk-82SNAKEYE_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70A_2*GBU-38_SIDE_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70A_2*GBU-54_SIDE_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*Mk-82_RIGHT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*Mk-83_RIGHT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*MK-20_RIGHT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70_2*CBU-99_RIGHT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*Mk-82AIR_RIGHT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*Mk-82SNAKEYE_RIGHT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*GBU-38_RIGHT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70A_2*GBU-54_RIGHT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_3*Mk-81LD}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_3*Mk-82LD}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_3_MK82AIR}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_3*Mk-82SNAKEYE}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42A_3*GBU-12}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70_3*GBU-38}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70A_3*GBU-54}" },
+							station = 2
+						}, {
+							loadout = { "{BDU-33}" },
+							station = 2
+						}, {
+							loadout = { "BRU-42_3*BDU-33" },
+							station = 2
+						}, {
+							loadout = { "{F16A4DE0-116C-4A71-97F0-2CF85B0313EC}" },
+							station = 2
+						}, {
+							loadout = { "LAU_117_AGM_65L" },
+							station = 2
+						}, {
+							loadout = { "LAU_117_AGM_65F" },
+							station = 2
+						}, {
+							loadout = { "{F3EFE0AB-E91A-42D8-9CA2-B63C91ED570A}" },
+							station = 2
+						}, {
+							loadout = { "{174C6E6D-0C3D-42ff-BCB3-0853CB371F5C}" },
+							station = 2
+						}, {
+							loadout = { "{A021F29D-18AB-4d3e-985C-FC9C60E35E9E}" },
+							station = 2
+						}, {
+							loadout = { "{4F977A2A-CD25-44df-90EF-164BFA2AE72F}" },
+							station = 2
+						}, {
+							loadout = { "{1F7136CB-8120-4e77-B97B-945FF01FB67C}" },
+							station = 2
+						}, {
+							loadout = { "{647C5F26-BDD1-41e6-A371-8DE1E4CC0E94}" },
+							station = 2
+						}, {
+							loadout = { "{0877B74B-5A00-4e61-BA8A-A56450BA9E27}" },
+							station = 2
+						}, {
+							loadout = { "{9115A5AF-6D5C-4b6b-BEA9-31D48B5C6001}" },
+							station = 2
+						}, {
+							loadout = { "{LAU-131 - 7 AGR-20A}" },
+							station = 2
+						}, {
+							loadout = { "{LAU-131 - 7 AGR-20 M282}" },
+							station = 2
+						}, {
+							loadout = { "{LAU3_FFAR_WP156}" },
+							station = 2
+						}, {
+							loadout = { "{LAU3_FFAR_MK1HE}" },
+							station = 2
+						}, {
+							loadout = { "{LAU3_FFAR_MK5HEAT}" },
+							station = 2
+						}, {
+							loadout = { "{CAE48299-A294-4bad-8EE6-89EFC5DCDF00}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_LS_3*SUU-25_8*LUU-2}" },
+							station = 2
+						}, {
+							loadout = { "{A111396E-D3E8-4b9c-8AC9-2432489304D5}" },
+							station = 2
+						}, {
+							loadout = { "{AV8BNA_AERO1D}" },
+							station = 2
+						}, {
+							loadout = { "{AV8BNA_AERO1D_EMPTY}" },
+							station = 2
+						}, {
+							station = 3
+						}, {
+							station = 4
+						}, {
+							station = 5
+						}, {
+							station = 6
+						}, {
+							loadout = { "{AIM-9M-ON-ADAPTER}" },
+							station = 7
+						}, {
+							loadout = { "{AIM-9L-ON-ADAPTER}" },
+							station = 7
+						}, {
+							loadout = { "{LAU_7_AGM_122_SIDEARM}" },
+							station = 7
+						}, {
+							loadout = { "{90321C8E-7ED1-47D4-A160-E074D5ABD902}" },
+							station = 7
+						}, {
+							loadout = { "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}" },
+							station = 7
+						}, {
+							loadout = { "{Mk82SNAKEYE}" },
+							station = 7
+						}, {
+							loadout = { "{Mk82AIR}" },
+							station = 7
+						}, {
+							loadout = { "{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}" },
+							station = 7
+						}, {
+							loadout = { "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}" },
+							station = 7
+						}, {
+							loadout = { "{CBU_99}" },
+							station = 7
+						}, {
+							loadout = { "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}" },
+							station = 7
+						}, {
+							loadout = { "{0D33DDAE-524F-4A4E-B5B8-621754FE3ADE}" },
+							station = 7
+						}, {
+							loadout = { "{GBU-38}" },
+							station = 7
+						}, {
+							loadout = { "{GBU_32_V_2B}" },
+							station = 7
+						}, {
+							loadout = { "{GBU_54_V_1B}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*Mk-82_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*MK-20_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70_2*CBU-99_LEFT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42A_2*GBU-12_SIDE_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*Mk-82AIR_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*Mk-82SNAKEYE_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70A_2*GBU-38_SIDE_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70A_2*GBU-54_SIDE_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*Mk-82_LEFT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*Mk-83_LEFT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*MK-20_LEFT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70_2*CBU-99_LEFT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*Mk-82AIR_LEFT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*Mk-82SNAKEYE_LEFT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*GBU-38_LEFT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70A_2*GBU-54_LEFT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_3*Mk-81LD}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_3*Mk-82LD}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_3_MK82AIR}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_3*Mk-82SNAKEYE}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42A_3*GBU-12}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70_3*GBU-38}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70A_3*GBU-54}" },
+							station = 7
+						}, {
+							loadout = { "{BDU-33}" },
+							station = 7
+						}, {
+							loadout = { "BRU-42_3*BDU-33" },
+							station = 7
+						}, {
+							loadout = { "{F16A4DE0-116C-4A71-97F0-2CF85B0313EC}" },
+							station = 7
+						}, {
+							loadout = { "LAU_117_AGM_65L" },
+							station = 7
+						}, {
+							loadout = { "LAU_117_AGM_65F" },
+							station = 7
+						}, {
+							loadout = { "{F3EFE0AB-E91A-42D8-9CA2-B63C91ED570A}" },
+							station = 7
+						}, {
+							loadout = { "{174C6E6D-0C3D-42ff-BCB3-0853CB371F5C}" },
+							station = 7
+						}, {
+							loadout = { "{A021F29D-18AB-4d3e-985C-FC9C60E35E9E}" },
+							station = 7
+						}, {
+							loadout = { "{4F977A2A-CD25-44df-90EF-164BFA2AE72F}" },
+							station = 7
+						}, {
+							loadout = { "{1F7136CB-8120-4e77-B97B-945FF01FB67C}" },
+							station = 7
+						}, {
+							loadout = { "{647C5F26-BDD1-41e6-A371-8DE1E4CC0E94}" },
+							station = 7
+						}, {
+							loadout = { "{0877B74B-5A00-4e61-BA8A-A56450BA9E27}" },
+							station = 7
+						}, {
+							loadout = { "{9115A5AF-6D5C-4b6b-BEA9-31D48B5C6001}" },
+							station = 7
+						}, {
+							loadout = { "{LAU-131 - 7 AGR-20A}" },
+							station = 7
+						}, {
+							loadout = { "{LAU-131 - 7 AGR-20 M282}" },
+							station = 7
+						}, {
+							loadout = { "{LAU3_FFAR_WP156}" },
+							station = 7
+						}, {
+							loadout = { "{LAU3_FFAR_MK1HE}" },
+							station = 7
+						}, {
+							loadout = { "{LAU3_FFAR_MK5HEAT}" },
+							station = 7
+						}, {
+							loadout = { "{CAE48299-A294-4bad-8EE6-89EFC5DCDF00}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_LS_3*SUU-25_8*LUU-2}" },
+							station = 7
+						}, {
+							loadout = { "{A111396E-D3E8-4b9c-8AC9-2432489304D5}" },
+							station = 7
+						}, {
+							loadout = { "{AV8BNA_AERO1D}" },
+							station = 7
+						}, {
+							loadout = { "{AV8BNA_AERO1D_EMPTY}" },
+							station = 7
+						}, {
+							loadout = { "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}" },
+							station = 8
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 8
+						}, {
+							loadout = { "{AGM_122_SIDEARM}" },
+							station = 8
+						}, {
+							loadout = { "{90321C8E-7ED1-47D4-A160-E074D5ABD902}" },
+							station = 8
+						}, {
+							loadout = { "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}" },
+							station = 8
+						}, {
+							loadout = { "{Mk82SNAKEYE}" },
+							station = 8
+						}, {
+							loadout = { "{Mk82AIR}" },
+							station = 8
+						}, {
+							loadout = { "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}" },
+							station = 8
+						}, {
+							loadout = { "{CBU_99}" },
+							station = 8
+						}, {
+							loadout = { "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}" },
+							station = 8
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 8
+						}, {
+							loadout = { "CATM-9M" },
+							station = 8
+						}, {
+							loadout = { "{BDU-33}" },
+							station = 8
+						}, {
+							loadout = { "{BRU-42_2*GBU-12_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_3*GBU-38}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*GBU-38_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70A_2*GBU-54_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*GBU-12_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_3*GBU-38}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*GBU-38_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70A_2*GBU-54_RIGHT}" },
+							station = 7
+						} }
 				}, {
 					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}",
-					arg_value = 0.2
+					arg_value = 0.2,
+					forbidden = <table 6>
 				}, {
 					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}",
-					arg_value = 0.2
+					arg_value = 0.2,
+					forbidden = <table 6>
 				}, {
 					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
-					arg_value = 0.2
+					arg_value = 0.2,
+					forbidden = <table 6>
 				}, {
 					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}",
-					arg_value = 0.2
+					arg_value = 0.2,
+					forbidden = <table 6>
 				}, {
 					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}",
-					arg_value = 0.2
+					arg_value = 0.2,
+					forbidden = <table 6>
 				} },
 			Number = 1,
 			Order = 1,
@@ -1259,9 +2038,93 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			DisplayName = "2",
 			Launchers = { {
 					CLSID = "{AIM-9M-ON-ADAPTER}",
-					arg_value = 0.15
+					arg_value = 0.15,
+					forbidden = <7>{ {
+							loadout = { "{BRU-42A_3*GBU-12}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42A_3*GBU-12}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 8
+						} }
 				}, {
-					CLSID = "{LAU_7_AGM_122_SIDEARM}"
+					CLSID = "{AIM-9L-ON-ADAPTER}",
+					arg_value = 0.15,
+					forbidden = <table 7>
+				}, {
+					CLSID = "{LAU_7_AGM_122_SIDEARM}",
+					forbidden = <table 7>
 				}, {
 					CLSID = "{90321C8E-7ED1-47D4-A160-E074D5ABD902}",
 					attach_point_position = { -0.02, -0.105, 0 }
@@ -1299,89 +2162,262 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{GBU_54_V_1B}",
 					attach_point_position = { -0.11, -0.14, 0 }
 				}, {
-					CLSID = "{BRU-42_2*Mk-82_LEFT}"
+					CLSID = "{BRU-42_2*Mk-82_LEFT}",
+					forbidden = <8>{ {
+							loadout = { "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}" },
+							station = 1
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 1
+						}, {
+							loadout = { "{AGM_122_SIDEARM}" },
+							station = 1
+						}, {
+							loadout = { "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}" },
+							station = 1
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 1
+						}, {
+							loadout = { "CATM-9M" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42A_3*GBU-12}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 8
+						} }
 				}, {
-					CLSID = "{BRU-42_2*MK-20_LEFT}"
+					CLSID = "{BRU-42_2*Mk-83_LEFT}",
+					forbidden = <table 8>
 				}, {
-					CLSID = "{BRU-70_2*CBU-99_LEFT}"
+					CLSID = "{BRU-42_2*MK-20_LEFT}",
+					forbidden = <table 8>
 				}, {
-					CLSID = "{BRU-42_2*GBU-12_LEFT}"
+					CLSID = "{BRU-70_2*CBU-99_LEFT}",
+					forbidden = <table 8>
 				}, {
-					CLSID = "{BRU-42_2*Mk-82AIR_LEFT}"
+					CLSID = "{BRU-42A_2*GBU-12_SIDE_LEFT}",
+					forbidden = <table 8>
 				}, {
-					CLSID = "{BRU-42_2*Mk-82SNAKEYE_LEFT}"
+					CLSID = "{BRU-42_2*Mk-82AIR_LEFT}",
+					forbidden = <table 8>
 				}, {
-					CLSID = "{BRU-42_2*GBU-38_LEFT}"
+					CLSID = "{BRU-42_2*Mk-82SNAKEYE_LEFT}",
+					forbidden = <table 8>
 				}, {
-					CLSID = "{BRU-70A_2*GBU-54_LEFT}"
+					CLSID = "{BRU-70A_2*GBU-38_SIDE_LEFT}",
+					forbidden = <table 8>
+				}, {
+					CLSID = "{BRU-70A_2*GBU-54_SIDE_LEFT}",
+					forbidden = <table 8>
+				}, {
+					CLSID = "{BRU-42_2*Mk-82_RIGHT}"
+				}, {
+					CLSID = "{BRU-42_2*MK-20_RIGHT}"
+				}, {
+					CLSID = "{BRU-70_2*CBU-99_RIGHT}"
+				}, {
+					CLSID = "{BRU-42_2*Mk-82AIR_RIGHT}"
+				}, {
+					CLSID = "{BRU-42_2*Mk-82SNAKEYE_RIGHT}"
+				}, {
+					CLSID = "{BRU-42_2*GBU-38_RIGHT}"
+				}, {
+					CLSID = "{BRU-70A_2*GBU-54_RIGHT}"
+				}, {
+					CLSID = "{BRU-42_2*GBU-38_LEFT}",
+					forbidden = <table 8>
+				}, {
+					CLSID = "{BRU-70A_2*GBU-54_LEFT}",
+					forbidden = <table 8>
 				}, {
 					CLSID = "{BRU-42_3*Mk-81LD}",
-					forbidden = { {
-							loadout = { "{AV8BNA_AERO1D" },
-							station = 3
+					forbidden = <9>{ {
+							loadout = { "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}" },
+							station = 1
 						}, {
-							loadout = { "{AV8BNA_AERO1D_EMPTY" },
-							station = 3
+							loadout = { "{AIM-9L}" },
+							station = 1
+						}, {
+							loadout = { "{AGM_122_SIDEARM}" },
+							station = 1
+						}, {
+							loadout = { "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}" },
+							station = 1
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 1
+						}, {
+							loadout = { "CATM-9M" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42A_3*GBU-12}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 8
 						} }
 				}, {
 					CLSID = "{BRU-42_3*Mk-82LD}",
-					forbidden = { {
-							loadout = { "{AV8BNA_AERO1D" },
-							station = 3
-						}, {
-							loadout = { "{AV8BNA_AERO1D_EMPTY" },
-							station = 3
-						} }
+					forbidden = <table 9>
 				}, {
 					CLSID = "{BRU-42_3_MK82AIR}",
-					forbidden = { {
-							loadout = { "{AV8BNA_AERO1D" },
-							station = 3
-						}, {
-							loadout = { "{AV8BNA_AERO1D_EMPTY" },
-							station = 3
-						} }
+					forbidden = <table 9>
 				}, {
 					CLSID = "{BRU-42_3*Mk-82SNAKEYE}",
-					forbidden = { {
-							loadout = { "{AV8BNA_AERO1D" },
-							station = 3
-						}, {
-							loadout = { "{AV8BNA_AERO1D_EMPTY" },
-							station = 3
-						} }
+					forbidden = <table 9>
 				}, {
-					CLSID = "{BRU-42A_3*GBU-12}",
-					forbidden = { {
-							loadout = { "{AV8BNA_AERO1D" },
-							station = 3
-						}, {
-							loadout = { "{AV8BNA_AERO1D_EMPTY" },
-							station = 3
-						} }
-				}, {
-					CLSID = "{BRU-42_3*GBU-38}",
-					forbidden = { {
-							loadout = { "{AV8BNA_AERO1D" },
-							station = 3
-						}, {
-							loadout = { "{AV8BNA_AERO1D_EMPTY" },
-							station = 3
-						} }
+					CLSID = "{BRU-70A_3*GBU-38}",
+					forbidden = <table 9>
 				}, {
 					CLSID = "{BRU-70A_3*GBU-54}",
-					forbidden = { {
-							loadout = { "{AV8BNA_AERO1D" },
-							station = 3
-						}, {
-							loadout = { "{AV8BNA_AERO1D_EMPTY" },
-							station = 3
-						} }
+					forbidden = <table 9>
 				}, {
 					CLSID = "{BDU-33}",
 					attach_point_position = { 0.18, 0, 0 }
 				}, {
-					CLSID = "BRU-42_3*BDU-33"
+					CLSID = "BRU-42_3*BDU-33",
+					forbidden = <table 9>
 				}, {
 					CLSID = "{F16A4DE0-116C-4A71-97F0-2CF85B0313EC}"
 				}, {
@@ -1416,12 +2452,28 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{LAU-131 - 7 AGR-20 M282}"
 				}, {
+					CLSID = "{LAU3_FFAR_WP156}"
+				}, {
+					CLSID = "{LAU3_FFAR_MK1HE}"
+				}, {
+					CLSID = "{LAU3_FFAR_MK5HEAT}"
+				}, {
+					CLSID = "LAU3_WP156"
+				}, {
+					CLSID = "LAU3_WP1B"
+				}, {
+					CLSID = "LAU3_WP61"
+				}, {
+					CLSID = "LAU3_HE5"
+				}, {
+					CLSID = "LAU3_HE151"
+				}, {
 					CLSID = "{CAE48299-A294-4bad-8EE6-89EFC5DCDF00}"
 				}, {
 					CLSID = "{BRU-42_LS_3*SUU-25_8*LUU-2}"
 				}, {
 					CLSID = "{A111396E-D3E8-4b9c-8AC9-2432489304D5}",
-					attach_point_position = <4>{ -0.15, -0.2, 0 },
+					attach_point_position = <10>{ -0.15, -0.2, 0 },
 					forbidden = { {
 							loadout = { "{A111396E-D3E8-4b9c-8AC9-2432489304D5}" },
 							station = 3
@@ -1434,23 +2486,456 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{A111396E-D3E8-4b9c-8AC9-2432489304D5}" },
 							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42A_3*GBU-12}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 8
 						} }
 				}, {
-					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}"
+					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
+					arg_value = 0.2,
+					forbidden = <11>{ {
+							loadout = { "{BRU-42A_3*GBU-12}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42A_3*GBU-12}" },
+							station = 7
+						}, {
+							loadout = { "{90321C8E-7ED1-47D4-A160-E074D5ABD902}" },
+							station = 1
+						}, {
+							loadout = { "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}" },
+							station = 1
+						}, {
+							loadout = { "{Mk82SNAKEYE}" },
+							station = 1
+						}, {
+							loadout = { "{Mk82AIR}" },
+							station = 1
+						}, {
+							loadout = { "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}" },
+							station = 1
+						}, {
+							loadout = { "{CBU_99}" },
+							station = 1
+						}, {
+							loadout = { "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}" },
+							station = 1
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 1
+						}, {
+							loadout = { "CATM-9M" },
+							station = 1
+						}, {
+							loadout = { "{BDU-33}" },
+							station = 1
+						}, {
+							station = 3
+						}, {
+							station = 4
+						}, {
+							station = 5
+						}, {
+							station = 6
+						}, {
+							loadout = { "{AIM-9M-ON-ADAPTER}" },
+							station = 7
+						}, {
+							loadout = { "{AIM-9L-ON-ADAPTER}" },
+							station = 7
+						}, {
+							loadout = { "{LAU_7_AGM_122_SIDEARM}" },
+							station = 7
+						}, {
+							loadout = { "{90321C8E-7ED1-47D4-A160-E074D5ABD902}" },
+							station = 7
+						}, {
+							loadout = { "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}" },
+							station = 7
+						}, {
+							loadout = { "{Mk82SNAKEYE}" },
+							station = 7
+						}, {
+							loadout = { "{Mk82AIR}" },
+							station = 7
+						}, {
+							loadout = { "{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}" },
+							station = 7
+						}, {
+							loadout = { "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}" },
+							station = 7
+						}, {
+							loadout = { "{CBU_99}" },
+							station = 7
+						}, {
+							loadout = { "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}" },
+							station = 7
+						}, {
+							loadout = { "{0D33DDAE-524F-4A4E-B5B8-621754FE3ADE}" },
+							station = 7
+						}, {
+							loadout = { "{GBU-38}" },
+							station = 7
+						}, {
+							loadout = { "{GBU_32_V_2B}" },
+							station = 7
+						}, {
+							loadout = { "{GBU_54_V_1B}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*Mk-82_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*MK-20_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70_2*CBU-99_LEFT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42A_2*GBU-12_SIDE_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*Mk-82AIR_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*Mk-82SNAKEYE_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70A_2*GBU-38_SIDE_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70A_2*GBU-54_SIDE_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*Mk-82_LEFT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*Mk-83_LEFT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*MK-20_LEFT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70_2*CBU-99_LEFT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*Mk-82AIR_LEFT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*Mk-82SNAKEYE_LEFT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*GBU-38_LEFT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70A_2*GBU-54_LEFT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_3*Mk-81LD}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_3*Mk-82LD}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_3_MK82AIR}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_3*Mk-82SNAKEYE}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42A_3*GBU-12}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70_3*GBU-38}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70A_3*GBU-54}" },
+							station = 7
+						}, {
+							loadout = { "{BDU-33}" },
+							station = 7
+						}, {
+							loadout = { "BRU-42_3*BDU-33" },
+							station = 7
+						}, {
+							loadout = { "{F16A4DE0-116C-4A71-97F0-2CF85B0313EC}" },
+							station = 7
+						}, {
+							loadout = { "LAU_117_AGM_65L" },
+							station = 7
+						}, {
+							loadout = { "LAU_117_AGM_65F" },
+							station = 7
+						}, {
+							loadout = { "{F3EFE0AB-E91A-42D8-9CA2-B63C91ED570A}" },
+							station = 7
+						}, {
+							loadout = { "{174C6E6D-0C3D-42ff-BCB3-0853CB371F5C}" },
+							station = 7
+						}, {
+							loadout = { "{A021F29D-18AB-4d3e-985C-FC9C60E35E9E}" },
+							station = 7
+						}, {
+							loadout = { "{4F977A2A-CD25-44df-90EF-164BFA2AE72F}" },
+							station = 7
+						}, {
+							loadout = { "{1F7136CB-8120-4e77-B97B-945FF01FB67C}" },
+							station = 7
+						}, {
+							loadout = { "{647C5F26-BDD1-41e6-A371-8DE1E4CC0E94}" },
+							station = 7
+						}, {
+							loadout = { "{0877B74B-5A00-4e61-BA8A-A56450BA9E27}" },
+							station = 7
+						}, {
+							loadout = { "{9115A5AF-6D5C-4b6b-BEA9-31D48B5C6001}" },
+							station = 7
+						}, {
+							loadout = { "{LAU-131 - 7 AGR-20A}" },
+							station = 7
+						}, {
+							loadout = { "{LAU-131 - 7 AGR-20 M282}" },
+							station = 7
+						}, {
+							loadout = { "{LAU3_FFAR_WP156}" },
+							station = 7
+						}, {
+							loadout = { "{LAU3_FFAR_MK1HE}" },
+							station = 7
+						}, {
+							loadout = { "{LAU3_FFAR_MK5HEAT}" },
+							station = 7
+						}, {
+							loadout = { "{CAE48299-A294-4bad-8EE6-89EFC5DCDF00}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_LS_3*SUU-25_8*LUU-2}" },
+							station = 7
+						}, {
+							loadout = { "{A111396E-D3E8-4b9c-8AC9-2432489304D5}" },
+							station = 7
+						}, {
+							loadout = { "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}" },
+							station = 8
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 8
+						}, {
+							loadout = { "{AGM_122_SIDEARM}" },
+							station = 8
+						}, {
+							loadout = { "{90321C8E-7ED1-47D4-A160-E074D5ABD902}" },
+							station = 8
+						}, {
+							loadout = { "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}" },
+							station = 8
+						}, {
+							loadout = { "{Mk82SNAKEYE}" },
+							station = 8
+						}, {
+							loadout = { "{Mk82AIR}" },
+							station = 8
+						}, {
+							loadout = { "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}" },
+							station = 8
+						}, {
+							loadout = { "{CBU_99}" },
+							station = 8
+						}, {
+							loadout = { "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}" },
+							station = 8
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 8
+						}, {
+							loadout = { "CATM-9M" },
+							station = 8
+						}, {
+							loadout = { "{BDU-33}" },
+							station = 8
+						}, {
+							loadout = { "{BRU-42_2*GBU-12_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_3*GBU-38}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*GBU-38_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70A_2*GBU-54_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*GBU-12_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_3*GBU-38}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*GBU-38_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70A_2*GBU-54_RIGHT}" },
+							station = 7
+						} }
 				}, {
-					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}"
+					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}",
+					arg_value = 0.2,
+					forbidden = <table 11>
 				}, {
-					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}"
+					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}",
+					arg_value = 0.2,
+					forbidden = <table 11>
 				}, {
-					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}"
+					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
+					arg_value = 0.2,
+					forbidden = <table 11>
 				}, {
-					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}"
+					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}",
+					arg_value = 0.2,
+					forbidden = <table 11>
 				}, {
-					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}"
+					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}",
+					arg_value = 0.2,
+					forbidden = <table 11>
 				}, {
-					CLSID = "{AV8BNA_AERO1D}"
+					CLSID = "{AV8BNA_AERO1D}",
+					forbidden = <12>{ {
+							loadout = { "{90321C8E-7ED1-47D4-A160-E074D5ABD902}" },
+							station = 1
+						}, {
+							loadout = { "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}" },
+							station = 1
+						}, {
+							loadout = { "{Mk82SNAKEYE}" },
+							station = 1
+						}, {
+							loadout = { "{Mk82AIR}" },
+							station = 1
+						}, {
+							loadout = { "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}" },
+							station = 1
+						}, {
+							loadout = { "{CBU_99}" },
+							station = 1
+						}, {
+							loadout = { "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42A_3*GBU-12}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 8
+						} }
 				}, {
-					CLSID = "{AV8BNA_AERO1D_EMPTY}"
+					CLSID = "{AV8BNA_AERO1D_EMPTY}",
+					forbidden = <table 12>
 				} },
 			Number = 2,
 			Order = 2,
@@ -1501,7 +2986,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{GBU_54_V_1B}",
 					attach_point_position = { -0.11, -0.14, 0 }
 				}, {
-					CLSID = "{BRU-42_3*Mk-81LD}"
+					CLSID = "{BRU-42_2*Mk-81LD_LEFT}"
 				}, {
 					CLSID = "{BRU-42_2*Mk-82_LEFT}"
 				}, {
@@ -1510,8 +2995,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{BRU-42_2*MK-20_LEFT}"
 				}, {
 					CLSID = "{BRU-70_2*CBU-99_LEFT}"
-				}, {
-					CLSID = "{BRU-42_2*GBU-12_LEFT}"
 				}, {
 					CLSID = "{BRU-42_2*Mk-82AIR_LEFT}"
 				}, {
@@ -1559,9 +3042,31 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{LAU-131 - 7 AGR-20 M282}"
 				}, {
+					CLSID = "{LAU3_FFAR_WP156}"
+				}, {
+					CLSID = "{LAU3_FFAR_MK1HE}"
+				}, {
+					CLSID = "{LAU3_FFAR_MK5HEAT}"
+				}, {
+					CLSID = "LAU3_WP156"
+				}, {
+					CLSID = "LAU3_WP1B"
+				}, {
+					CLSID = "LAU3_WP61"
+				}, {
+					CLSID = "LAU3_HE5"
+				}, {
+					CLSID = "LAU3_HE151"
+				}, {
 					CLSID = "{A111396E-D3E8-4b9c-8AC9-2432489304D5}",
-					attach_point_position = <table 4>,
+					attach_point_position = <table 10>,
 					forbidden = { {
+							loadout = { "{BRU-42A_3*GBU-12}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42A_3*GBU-12}" },
+							station = 7
+						}, {
 							loadout = { "{A111396E-D3E8-4b9c-8AC9-2432489304D5}" },
 							station = 2
 						}, {
@@ -1573,49 +3078,157 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{A111396E-D3E8-4b9c-8AC9-2432489304D5}" },
 							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 8
 						} }
 				}, {
 					CLSID = "{AV8BNA_AERO1D}",
-					forbidden = { {
-							loadout = { "{BRU-42_3*Mk-82LD}" },
+					forbidden = <13>{ {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
 							station = 2
 						}, {
-							loadout = { "{BRU-42_3_MK82AIR}" },
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
 							station = 2
 						}, {
-							loadout = { "{BRU-42_3*Mk-82SNAKEYE}" },
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
 							station = 2
 						}, {
-							loadout = { "{BRU-42A_3*GBU-12}" },
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
 							station = 2
 						}, {
-							loadout = { "{BRU-42_3*GBU-38}" },
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
 							station = 2
 						}, {
-							loadout = { "{BRU-70A_3*GBU-54}" },
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
 							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 8
 						} }
 				}, {
 					CLSID = "{AV8BNA_AERO1D_EMPTY}",
-					forbidden = { {
-							loadout = { "{BRU-42_3*Mk-82LD}" },
-							station = 2
-						}, {
-							loadout = { "{BRU-42_3_MK82AIR}" },
-							station = 2
-						}, {
-							loadout = { "{BRU-42_3*Mk-82SNAKEYE}" },
-							station = 2
-						}, {
-							loadout = { "{BRU-42A_3*GBU-12}" },
-							station = 2
-						}, {
-							loadout = { "{BRU-42_3*GBU-38}" },
-							station = 2
-						}, {
-							loadout = { "{BRU-70A_3*GBU-54}" },
-							station = 2
-						} }
+					forbidden = <table 13>
 				} },
 			Number = 3,
 			Order = 3,
@@ -1631,13 +3244,16 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			DisplayName = "4A",
 			Launchers = { {
 					CLSID = "{GAU_12_Equalizer}",
-					arg_value = 0.2
+					arg_value = 0.2,
+					forbidden = <table 7>
 				}, {
 					CLSID = "{GAU_12_Equalizer_AP}",
-					arg_value = 0.2
+					arg_value = 0.2,
+					forbidden = <table 7>
 				}, {
 					CLSID = "{GAU_12_Equalizer_HE}",
-					arg_value = 0.2
+					arg_value = 0.2,
+					forbidden = <table 7>
 				} },
 			Number = 4,
 			Order = 4,
@@ -1654,11 +3270,103 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Launchers = { {
 					CLSID = "{ALQ_164_RF_Jammer}",
 					arg_value = 0.1,
-					attach_point_position = { 0, 0, 0 }
+					attach_point_position = { 0, 0, 0 },
+					forbidden = <table 7>
 				}, {
 					CLSID = "{A111396E-D3E8-4b9c-8AC9-2432489304D5}",
 					arg_value = 0.1,
-					attach_point_position = { -0.2, -0.2, 0 }
+					attach_point_position = { -0.2, -0.2, 0 },
+					forbidden = { {
+							loadout = { "{BRU-42A_3*GBU-12}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42A_3*GBU-12}" },
+							station = 7
+						}, {
+							loadout = { "{A111396E-D3E8-4b9c-8AC9-2432489304D5}" },
+							station = 2
+						}, {
+							loadout = { "{A111396E-D3E8-4b9c-8AC9-2432489304D5}" },
+							station = 3
+						}, {
+							loadout = { "{A111396E-D3E8-4b9c-8AC9-2432489304D5}" },
+							station = 6
+						}, {
+							loadout = { "{A111396E-D3E8-4b9c-8AC9-2432489304D5}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 8
+						} }
 				} },
 			Number = 5,
 			Order = 5,
@@ -1709,17 +3417,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{GBU_54_V_1B}",
 					attach_point_position = { -0.11, -0.14, 0 }
 				}, {
-					CLSID = "{BRU-42_3*Mk-81LD}"
+					CLSID = "{BRU-42_2*Mk-81LD_RIGHT}"
 				}, {
 					CLSID = "{BRU-42_2*Mk-82_RIGHT}"
-				}, {
-					CLSID = "{BRU-42_2*Mk-83_RIGHT}"
 				}, {
 					CLSID = "{BRU-42_2*MK-20_RIGHT}"
 				}, {
 					CLSID = "{BRU-70_2*CBU-99_RIGHT}"
-				}, {
-					CLSID = "{BRU-42_2*GBU-12_RIGHT}"
 				}, {
 					CLSID = "{BRU-42_2*Mk-82AIR_RIGHT}"
 				}, {
@@ -1767,9 +3471,31 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{LAU-131 - 7 AGR-20 M282}"
 				}, {
+					CLSID = "{LAU3_FFAR_WP156}"
+				}, {
+					CLSID = "{LAU3_FFAR_MK1HE}"
+				}, {
+					CLSID = "{LAU3_FFAR_MK5HEAT}"
+				}, {
+					CLSID = "LAU3_WP156"
+				}, {
+					CLSID = "LAU3_WP1B"
+				}, {
+					CLSID = "LAU3_WP61"
+				}, {
+					CLSID = "LAU3_HE5"
+				}, {
+					CLSID = "LAU3_HE151"
+				}, {
 					CLSID = "{A111396E-D3E8-4b9c-8AC9-2432489304D5}",
-					attach_point_position = <table 4>,
+					attach_point_position = <table 10>,
 					forbidden = { {
+							loadout = { "{BRU-42A_3*GBU-12}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42A_3*GBU-12}" },
+							station = 7
+						}, {
 							loadout = { "{A111396E-D3E8-4b9c-8AC9-2432489304D5}" },
 							station = 2
 						}, {
@@ -1781,49 +3507,157 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{A111396E-D3E8-4b9c-8AC9-2432489304D5}" },
 							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 8
 						} }
 				}, {
 					CLSID = "{AV8BNA_AERO1D}",
-					forbidden = { {
-							loadout = { "{BRU-42_3*Mk-82LD}" },
+					forbidden = <14>{ {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
 							station = 7
 						}, {
-							loadout = { "{BRU-42_3_MK82AIR}" },
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
 							station = 7
 						}, {
-							loadout = { "{BRU-42_3*Mk-82SNAKEYE}" },
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
 							station = 7
 						}, {
-							loadout = { "{BRU-42A_3*GBU-12}" },
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
 							station = 7
 						}, {
-							loadout = { "{BRU-42_3*GBU-38}" },
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
 							station = 7
 						}, {
-							loadout = { "{BRU-70A_3*GBU-54}" },
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
 							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 8
 						} }
 				}, {
 					CLSID = "{AV8BNA_AERO1D_EMPTY}",
-					forbidden = { {
-							loadout = { "{BRU-42_3*Mk-82LD}" },
-							station = 7
-						}, {
-							loadout = { "{BRU-42_3_MK82AIR}" },
-							station = 7
-						}, {
-							loadout = { "{BRU-42_3*Mk-82SNAKEYE}" },
-							station = 7
-						}, {
-							loadout = { "{BRU-42A_3*GBU-12}" },
-							station = 7
-						}, {
-							loadout = { "{BRU-42_3*GBU-38}" },
-							station = 7
-						}, {
-							loadout = { "{BRU-70A_3*GBU-54}" },
-							station = 7
-						} }
+					forbidden = <table 14>
 				} },
 			Number = 6,
 			Order = 6,
@@ -1839,9 +3673,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			DisplayName = "6",
 			Launchers = { {
 					CLSID = "{AIM-9M-ON-ADAPTER}",
-					arg_value = 0.15
+					arg_value = 0.15,
+					forbidden = <table 7>
 				}, {
-					CLSID = "{LAU_7_AGM_122_SIDEARM}"
+					CLSID = "{AIM-9L-ON-ADAPTER}",
+					arg_value = 0.15,
+					forbidden = <table 7>
+				}, {
+					CLSID = "{LAU_7_AGM_122_SIDEARM}",
+					forbidden = <table 7>
 				}, {
 					CLSID = "{90321C8E-7ED1-47D4-A160-E074D5ABD902}",
 					attach_point_position = { -0.02, -0.105, 0 }
@@ -1879,89 +3719,261 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{GBU_54_V_1B}",
 					attach_point_position = { -0.11, -0.14, 0 }
 				}, {
-					CLSID = "{BRU-42_2*Mk-82_RIGHT}"
+					CLSID = "{BRU-42_2*Mk-82_RIGHT}",
+					forbidden = <15>{ {
+							loadout = { "{BRU-42A_3*GBU-12}" },
+							station = 2
+						}, {
+							loadout = { "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}" },
+							station = 8
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 8
+						}, {
+							loadout = { "{AGM_122_SIDEARM}" },
+							station = 8
+						}, {
+							loadout = { "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}" },
+							station = 8
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 8
+						}, {
+							loadout = { "CATM-9M" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 8
+						} }
 				}, {
-					CLSID = "{BRU-42_2*MK-20_RIGHT}"
+					CLSID = "{BRU-42_2*Mk-83_RIGHT}",
+					forbidden = <table 15>
 				}, {
-					CLSID = "{BRU-70_2*CBU-99_RIGHT}"
+					CLSID = "{BRU-42_2*MK-20_RIGHT}",
+					forbidden = <table 15>
 				}, {
-					CLSID = "{BRU-42_2*GBU-12_RIGHT}"
+					CLSID = "{BRU-70_2*CBU-99_RIGHT}",
+					forbidden = <table 15>
 				}, {
-					CLSID = "{BRU-42_2*Mk-82AIR_RIGHT}"
+					CLSID = "{BRU-42A_2*GBU-12_SIDE_RIGHT}",
+					forbidden = <table 15>
 				}, {
-					CLSID = "{BRU-42_2*Mk-82SNAKEYE_RIGHT}"
+					CLSID = "{BRU-42_2*Mk-82AIR_RIGHT}",
+					forbidden = <table 15>
 				}, {
-					CLSID = "{BRU-42_2*GBU-38_RIGHT}"
+					CLSID = "{BRU-42_2*Mk-82SNAKEYE_RIGHT}",
+					forbidden = <table 15>
 				}, {
-					CLSID = "{BRU-70A_2*GBU-54_RIGHT}"
+					CLSID = "{BRU-70A_2*GBU-38_SIDE_RIGHT}",
+					forbidden = <table 15>
+				}, {
+					CLSID = "{BRU-70A_2*GBU-54_SIDE_RIGHT}",
+					forbidden = <table 15>
+				}, {
+					CLSID = "{BRU-42_2*Mk-82_LEFT}"
+				}, {
+					CLSID = "{BRU-42_2*Mk-83_LEFT}"
+				}, {
+					CLSID = "{BRU-42_2*MK-20_LEFT}"
+				}, {
+					CLSID = "{BRU-70_2*CBU-99_LEFT}"
+				}, {
+					CLSID = "{BRU-42_2*Mk-82AIR_LEFT}"
+				}, {
+					CLSID = "{BRU-42_2*Mk-82SNAKEYE_LEFT}"
+				}, {
+					CLSID = "{BRU-42_2*GBU-38_LEFT}"
+				}, {
+					CLSID = "{BRU-70A_2*GBU-54_LEFT}"
+				}, {
+					CLSID = "{BRU-42_2*GBU-38_RIGHT}",
+					forbidden = <table 15>
+				}, {
+					CLSID = "{BRU-70A_2*GBU-54_RIGHT}",
+					forbidden = <table 15>
 				}, {
 					CLSID = "{BRU-42_3*Mk-81LD}",
-					forbidden = { {
-							loadout = { "{AV8BNA_AERO1D" },
-							station = 6
+					forbidden = <16>{ {
+							loadout = { "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}" },
+							station = 8
 						}, {
-							loadout = { "{AV8BNA_AERO1D_EMPTY" },
-							station = 6
+							loadout = { "{AIM-9L}" },
+							station = 8
+						}, {
+							loadout = { "{AGM_122_SIDEARM}" },
+							station = 8
+						}, {
+							loadout = { "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}" },
+							station = 8
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 8
+						}, {
+							loadout = { "CATM-9M" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 8
 						} }
 				}, {
 					CLSID = "{BRU-42_3*Mk-82LD}",
-					forbidden = { {
-							loadout = { "{AV8BNA_AERO1D" },
-							station = 6
-						}, {
-							loadout = { "{AV8BNA_AERO1D_EMPTY" },
-							station = 6
-						} }
+					forbidden = <table 16>
 				}, {
 					CLSID = "{BRU-42_3_MK82AIR}",
-					forbidden = { {
-							loadout = { "{AV8BNA_AERO1D" },
-							station = 6
-						}, {
-							loadout = { "{AV8BNA_AERO1D_EMPTY" },
-							station = 6
-						} }
+					forbidden = <table 16>
 				}, {
 					CLSID = "{BRU-42_3*Mk-82SNAKEYE}",
-					forbidden = { {
-							loadout = { "{AV8BNA_AERO1D" },
-							station = 6
-						}, {
-							loadout = { "{AV8BNA_AERO1D_EMPTY" },
-							station = 6
-						} }
+					forbidden = <table 16>
 				}, {
-					CLSID = "{BRU-42A_3*GBU-12}",
-					forbidden = { {
-							loadout = { "{AV8BNA_AERO1D" },
-							station = 6
-						}, {
-							loadout = { "{AV8BNA_AERO1D_EMPTY" },
-							station = 6
-						} }
-				}, {
-					CLSID = "{BRU-42_3*GBU-38}",
-					forbidden = { {
-							loadout = { "{AV8BNA_AERO1D" },
-							station = 6
-						}, {
-							loadout = { "{AV8BNA_AERO1D_EMPTY" },
-							station = 6
-						} }
+					CLSID = "{BRU-70A_3*GBU-38}",
+					forbidden = <table 16>
 				}, {
 					CLSID = "{BRU-70A_3*GBU-54}",
-					forbidden = { {
-							loadout = { "{AV8BNA_AERO1D" },
-							station = 6
-						}, {
-							loadout = { "{AV8BNA_AERO1D_EMPTY" },
-							station = 6
-						} }
+					forbidden = <table 16>
 				}, {
 					CLSID = "{BDU-33}",
 					attach_point_position = { 0.18, 0, 0 }
 				}, {
-					CLSID = "BRU-42_3*BDU-33"
+					CLSID = "BRU-42_3*BDU-33",
+					forbidden = <table 16>
 				}, {
 					CLSID = "{F16A4DE0-116C-4A71-97F0-2CF85B0313EC}"
 				}, {
@@ -1996,13 +4008,32 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{LAU-131 - 7 AGR-20 M282}"
 				}, {
+					CLSID = "{LAU3_FFAR_WP156}"
+				}, {
+					CLSID = "{LAU3_FFAR_MK1HE}"
+				}, {
+					CLSID = "{LAU3_FFAR_MK5HEAT}"
+				}, {
+					CLSID = "LAU3_WP156"
+				}, {
+					CLSID = "LAU3_WP1B"
+				}, {
+					CLSID = "LAU3_WP61"
+				}, {
+					CLSID = "LAU3_HE5"
+				}, {
+					CLSID = "LAU3_HE151"
+				}, {
 					CLSID = "{CAE48299-A294-4bad-8EE6-89EFC5DCDF00}"
 				}, {
 					CLSID = "{BRU-42_LS_3*SUU-25_8*LUU-2}"
 				}, {
 					CLSID = "{A111396E-D3E8-4b9c-8AC9-2432489304D5}",
-					attach_point_position = <table 4>,
+					attach_point_position = <table 10>,
 					forbidden = { {
+							loadout = { "{BRU-42A_3*GBU-12}" },
+							station = 2
+						}, {
 							loadout = { "{A111396E-D3E8-4b9c-8AC9-2432489304D5}" },
 							station = 2
 						}, {
@@ -2014,23 +4045,453 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{A111396E-D3E8-4b9c-8AC9-2432489304D5}" },
 							station = 6
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 8
 						} }
 				}, {
-					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}"
+					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
+					arg_value = 0.2,
+					forbidden = <17>{ {
+							loadout = { "{90321C8E-7ED1-47D4-A160-E074D5ABD902}" },
+							station = 1
+						}, {
+							loadout = { "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}" },
+							station = 1
+						}, {
+							loadout = { "{Mk82SNAKEYE}" },
+							station = 1
+						}, {
+							loadout = { "{Mk82AIR}" },
+							station = 1
+						}, {
+							loadout = { "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}" },
+							station = 1
+						}, {
+							loadout = { "{CBU_99}" },
+							station = 1
+						}, {
+							loadout = { "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}" },
+							station = 1
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 1
+						}, {
+							loadout = { "CATM-9M" },
+							station = 1
+						}, {
+							loadout = { "{BDU-33}" },
+							station = 1
+						}, {
+							loadout = { "{AIM-9M-ON-ADAPTER}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9L-ON-ADAPTER}" },
+							station = 2
+						}, {
+							loadout = { "{LAU_7_AGM_122_SIDEARM}" },
+							station = 2
+						}, {
+							loadout = { "{90321C8E-7ED1-47D4-A160-E074D5ABD902}" },
+							station = 2
+						}, {
+							loadout = { "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}" },
+							station = 2
+						}, {
+							loadout = { "{Mk82SNAKEYE}" },
+							station = 2
+						}, {
+							loadout = { "{Mk82AIR}" },
+							station = 2
+						}, {
+							loadout = { "{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}" },
+							station = 2
+						}, {
+							loadout = { "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}" },
+							station = 2
+						}, {
+							loadout = { "{CBU_99}" },
+							station = 2
+						}, {
+							loadout = { "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}" },
+							station = 2
+						}, {
+							loadout = { "{0D33DDAE-524F-4A4E-B5B8-621754FE3ADE}" },
+							station = 2
+						}, {
+							loadout = { "{GBU-38}" },
+							station = 2
+						}, {
+							loadout = { "{GBU_32_V_2B}" },
+							station = 2
+						}, {
+							loadout = { "{GBU_54_V_1B}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*Mk-82_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*MK-20_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70_2*CBU-99_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42A_2*GBU-12_SIDE_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*Mk-82AIR_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*Mk-82SNAKEYE_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70A_2*GBU-38_SIDE_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70A_2*GBU-54_SIDE_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*Mk-82_RIGHT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*Mk-83_RIGHT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*MK-20_RIGHT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70_2*CBU-99_RIGHT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*Mk-82AIR_RIGHT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*Mk-82SNAKEYE_RIGHT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*GBU-38_RIGHT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70A_2*GBU-54_RIGHT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_3*Mk-81LD}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_3*Mk-82LD}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_3_MK82AIR}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_3*Mk-82SNAKEYE}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42A_3*GBU-12}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70_3*GBU-38}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70A_3*GBU-54}" },
+							station = 2
+						}, {
+							loadout = { "{BDU-33}" },
+							station = 2
+						}, {
+							loadout = { "BRU-42_3*BDU-33" },
+							station = 2
+						}, {
+							loadout = { "{F16A4DE0-116C-4A71-97F0-2CF85B0313EC}" },
+							station = 2
+						}, {
+							loadout = { "LAU_117_AGM_65L" },
+							station = 2
+						}, {
+							loadout = { "LAU_117_AGM_65F" },
+							station = 2
+						}, {
+							loadout = { "{F3EFE0AB-E91A-42D8-9CA2-B63C91ED570A}" },
+							station = 2
+						}, {
+							loadout = { "{174C6E6D-0C3D-42ff-BCB3-0853CB371F5C}" },
+							station = 2
+						}, {
+							loadout = { "{A021F29D-18AB-4d3e-985C-FC9C60E35E9E}" },
+							station = 2
+						}, {
+							loadout = { "{4F977A2A-CD25-44df-90EF-164BFA2AE72F}" },
+							station = 2
+						}, {
+							loadout = { "{1F7136CB-8120-4e77-B97B-945FF01FB67C}" },
+							station = 2
+						}, {
+							loadout = { "{647C5F26-BDD1-41e6-A371-8DE1E4CC0E94}" },
+							station = 2
+						}, {
+							loadout = { "{0877B74B-5A00-4e61-BA8A-A56450BA9E27}" },
+							station = 2
+						}, {
+							loadout = { "{9115A5AF-6D5C-4b6b-BEA9-31D48B5C6001}" },
+							station = 2
+						}, {
+							loadout = { "{LAU-131 - 7 AGR-20A}" },
+							station = 2
+						}, {
+							loadout = { "{LAU-131 - 7 AGR-20 M282}" },
+							station = 2
+						}, {
+							loadout = { "{LAU3_FFAR_WP156}" },
+							station = 2
+						}, {
+							loadout = { "{LAU3_FFAR_MK1HE}" },
+							station = 2
+						}, {
+							loadout = { "{LAU3_FFAR_MK5HEAT}" },
+							station = 2
+						}, {
+							loadout = { "{CAE48299-A294-4bad-8EE6-89EFC5DCDF00}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_LS_3*SUU-25_8*LUU-2}" },
+							station = 2
+						}, {
+							loadout = { "{A111396E-D3E8-4b9c-8AC9-2432489304D5}" },
+							station = 2
+						}, {
+							loadout = { "{AV8BNA_AERO1D}" },
+							station = 2
+						}, {
+							loadout = { "{AV8BNA_AERO1D_EMPTY}" },
+							station = 2
+						}, {
+							station = 3
+						}, {
+							station = 4
+						}, {
+							station = 5
+						}, {
+							station = 6
+						}, {
+							loadout = { "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}" },
+							station = 8
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 8
+						}, {
+							loadout = { "{AGM_122_SIDEARM}" },
+							station = 8
+						}, {
+							loadout = { "{90321C8E-7ED1-47D4-A160-E074D5ABD902}" },
+							station = 8
+						}, {
+							loadout = { "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}" },
+							station = 8
+						}, {
+							loadout = { "{Mk82SNAKEYE}" },
+							station = 8
+						}, {
+							loadout = { "{Mk82AIR}" },
+							station = 8
+						}, {
+							loadout = { "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}" },
+							station = 8
+						}, {
+							loadout = { "{CBU_99}" },
+							station = 8
+						}, {
+							loadout = { "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}" },
+							station = 8
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 8
+						}, {
+							loadout = { "CATM-9M" },
+							station = 8
+						}, {
+							loadout = { "{BDU-33}" },
+							station = 8
+						}, {
+							loadout = { "{BRU-42_2*GBU-12_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_3*GBU-38}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*GBU-38_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70A_2*GBU-54_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*GBU-12_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_3*GBU-38}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*GBU-38_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70A_2*GBU-54_RIGHT}" },
+							station = 7
+						} }
 				}, {
-					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}"
+					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}",
+					arg_value = 0.2,
+					forbidden = <table 17>
 				}, {
-					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}"
+					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}",
+					arg_value = 0.2,
+					forbidden = <table 17>
 				}, {
-					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}"
+					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
+					arg_value = 0.2,
+					forbidden = <table 17>
 				}, {
-					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}"
+					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}",
+					arg_value = 0.2,
+					forbidden = <table 17>
 				}, {
-					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}"
+					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}",
+					arg_value = 0.2,
+					forbidden = <table 17>
 				}, {
-					CLSID = "{AV8BNA_AERO1D}"
+					CLSID = "{AV8BNA_AERO1D}",
+					forbidden = <18>{ {
+							loadout = { "{BRU-42A_3*GBU-12}" },
+							station = 2
+						}, {
+							loadout = { "{90321C8E-7ED1-47D4-A160-E074D5ABD902}" },
+							station = 8
+						}, {
+							loadout = { "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}" },
+							station = 8
+						}, {
+							loadout = { "{Mk82SNAKEYE}" },
+							station = 8
+						}, {
+							loadout = { "{Mk82AIR}" },
+							station = 8
+						}, {
+							loadout = { "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}" },
+							station = 8
+						}, {
+							loadout = { "{CBU_99}" },
+							station = 8
+						}, {
+							loadout = { "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 8
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 8
+						} }
 				}, {
-					CLSID = "{AV8BNA_AERO1D_EMPTY}"
+					CLSID = "{AV8BNA_AERO1D_EMPTY}",
+					forbidden = <table 18>
 				} },
 			Number = 7,
 			Order = 7,
@@ -2046,66 +4507,768 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			DisplayName = "7",
 			Launchers = { {
 					CLSID = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}",
-					attach_point_position = <table 3>
+					attach_point_position = <table 3>,
+					forbidden = <19>{ {
+							loadout = { "{BRU-42_2*Mk-83_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42A_2*GBU-12_SIDE_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70A_3*GBU-38}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70A_2*GBU-38_SIDE_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70A_3*GBU-54}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70A_2*GBU-54_SIDE_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_3*Mk-82LD}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*Mk-82_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*Mk-82AIR_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_3_MK82AIR}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*Mk-82SNAKEYE_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_3*Mk-82SNAKEYE}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*MK-20_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70_2*CBU-99_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_3*Mk-81LD}" },
+							station = 7
+						}, {
+							loadout = { "BRU-42_3*BDU-33" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*GBU-12_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_3*GBU-38}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*GBU-38_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70A_2*GBU-54_RIGHT}" },
+							station = 7
+						} }
+				}, {
+					CLSID = "{AIM-9L}",
+					attach_point_position = <table 3>,
+					forbidden = <table 19>
 				}, {
 					CLSID = "{AGM_122_SIDEARM}",
-					attach_point_position = <table 3>
+					attach_point_position = <table 3>,
+					forbidden = <table 19>
 				}, {
 					CLSID = "{90321C8E-7ED1-47D4-A160-E074D5ABD902}",
 					arg_value = 0.2,
-					attach_point_position = { -0.02, -0.115, 0 }
+					attach_point_position = { -0.02, -0.115, 0 },
+					forbidden = <20>{ {
+							loadout = { "{BRU-42A_3*GBU-12}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42A_3*GBU-12}" },
+							station = 7
+						} }
 				}, {
 					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
 					arg_value = 0.2,
-					attach_point_position = { -0.09, -0.133, 0 }
+					attach_point_position = { -0.09, -0.133, 0 },
+					forbidden = <table 20>
 				}, {
 					CLSID = "{Mk82SNAKEYE}",
 					arg_value = 0.2,
-					attach_point_position = { -0.09, -0.133, 0 }
+					attach_point_position = { -0.09, -0.133, 0 },
+					forbidden = <table 20>
 				}, {
 					CLSID = "{Mk82AIR}",
 					arg_value = 0.2,
-					attach_point_position = { -0.09, -0.133, 0 }
+					attach_point_position = { -0.09, -0.133, 0 },
+					forbidden = <table 20>
 				}, {
 					CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}",
 					arg_value = 0.2,
-					attach_point_position = { -0.1, -0.17, 0 }
+					attach_point_position = { -0.1, -0.17, 0 },
+					forbidden = <table 20>
 				}, {
 					CLSID = "{CBU_99}",
 					arg_value = 0.2,
-					attach_point_position = { -0.1, -0.17, 0 }
+					attach_point_position = { -0.1, -0.17, 0 },
+					forbidden = <table 20>
 				}, {
 					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
 					arg_value = 0.2,
-					attach_point_position = { 0.307, -0.15, 0 }
+					attach_point_position = { 0.307, -0.15, 0 },
+					forbidden = { {
+							loadout = { "{BRU-42A_3*GBU-12}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42A_3*GBU-12}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42A_2*GBU-12_SIDE_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70_3*GBU-38}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70A_2*GBU-38_SIDE_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70A_3*GBU-54}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70A_2*GBU-54_SIDE_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_3*Mk-82LD}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*Mk-82_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*Mk-82AIR_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_3_MK82AIR}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*Mk-82SNAKEYE_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_3*Mk-82SNAKEYE}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*MK-20_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70_2*CBU-99_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_3*Mk-81LD}" },
+							station = 7
+						}, {
+							loadout = { "BRU-42_3*BDU-33" },
+							station = 7
+						}, {
+							loadout = { "{AV8BNA_AERO1D}" },
+							station = 7
+						}, {
+							loadout = { "{AV8BNA_AERO1D_EMPTY}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 1
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 7
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*GBU-12_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70A_3*GBU-38}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*GBU-38_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70A_2*GBU-54_RIGHT}" },
+							station = 7
+						} }
 				}, {
 					CLSID = "{AIS_ASQ_T50}",
-					attach_point_position = { 0.6, 0, 0 }
+					attach_point_position = { 0.6, 0, 0 },
+					forbidden = <table 19>
 				}, {
 					CLSID = "CATM-9M",
-					attach_point_position = { 0.5, 0, 0 }
+					attach_point_position = { 0.5, 0, 0 },
+					forbidden = <table 19>
 				}, {
 					CLSID = "{BDU-33}",
 					arg_value = 0.2,
-					attach_point_position = { 0.18, 0, 0 }
+					attach_point_position = { 0.18, 0, 0 },
+					forbidden = <table 20>
 				}, {
 					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
-					arg_value = 0.2
+					arg_value = 0.2,
+					forbidden = <21>{ {
+							loadout = { "{90321C8E-7ED1-47D4-A160-E074D5ABD902}" },
+							station = 1
+						}, {
+							loadout = { "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}" },
+							station = 1
+						}, {
+							loadout = { "{Mk82SNAKEYE}" },
+							station = 1
+						}, {
+							loadout = { "{Mk82AIR}" },
+							station = 1
+						}, {
+							loadout = { "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}" },
+							station = 1
+						}, {
+							loadout = { "{CBU_99}" },
+							station = 1
+						}, {
+							loadout = { "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}" },
+							station = 1
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 1
+						}, {
+							loadout = { "CATM-9M" },
+							station = 1
+						}, {
+							loadout = { "{BDU-33}" },
+							station = 1
+						}, {
+							loadout = { "{AIM-9M-ON-ADAPTER}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9L-ON-ADAPTER}" },
+							station = 2
+						}, {
+							loadout = { "{LAU_7_AGM_122_SIDEARM}" },
+							station = 2
+						}, {
+							loadout = { "{90321C8E-7ED1-47D4-A160-E074D5ABD902}" },
+							station = 2
+						}, {
+							loadout = { "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}" },
+							station = 2
+						}, {
+							loadout = { "{Mk82SNAKEYE}" },
+							station = 2
+						}, {
+							loadout = { "{Mk82AIR}" },
+							station = 2
+						}, {
+							loadout = { "{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}" },
+							station = 2
+						}, {
+							loadout = { "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}" },
+							station = 2
+						}, {
+							loadout = { "{CBU_99}" },
+							station = 2
+						}, {
+							loadout = { "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}" },
+							station = 2
+						}, {
+							loadout = { "{0D33DDAE-524F-4A4E-B5B8-621754FE3ADE}" },
+							station = 2
+						}, {
+							loadout = { "{GBU-38}" },
+							station = 2
+						}, {
+							loadout = { "{GBU_32_V_2B}" },
+							station = 2
+						}, {
+							loadout = { "{GBU_54_V_1B}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*Mk-82_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*MK-20_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70_2*CBU-99_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42A_2*GBU-12_SIDE_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*Mk-82AIR_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*Mk-82SNAKEYE_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70A_2*GBU-38_SIDE_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70A_2*GBU-54_SIDE_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*Mk-82_RIGHT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*Mk-83_RIGHT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*MK-20_RIGHT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70_2*CBU-99_RIGHT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*Mk-82AIR_RIGHT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*Mk-82SNAKEYE_RIGHT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*GBU-38_RIGHT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70A_2*GBU-54_RIGHT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_3*Mk-81LD}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_3*Mk-82LD}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_3_MK82AIR}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_3*Mk-82SNAKEYE}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42A_3*GBU-12}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70_3*GBU-38}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70A_3*GBU-54}" },
+							station = 2
+						}, {
+							loadout = { "{BDU-33}" },
+							station = 2
+						}, {
+							loadout = { "BRU-42_3*BDU-33" },
+							station = 2
+						}, {
+							loadout = { "{F16A4DE0-116C-4A71-97F0-2CF85B0313EC}" },
+							station = 2
+						}, {
+							loadout = { "LAU_117_AGM_65L" },
+							station = 2
+						}, {
+							loadout = { "LAU_117_AGM_65F" },
+							station = 2
+						}, {
+							loadout = { "{F3EFE0AB-E91A-42D8-9CA2-B63C91ED570A}" },
+							station = 2
+						}, {
+							loadout = { "{174C6E6D-0C3D-42ff-BCB3-0853CB371F5C}" },
+							station = 2
+						}, {
+							loadout = { "{A021F29D-18AB-4d3e-985C-FC9C60E35E9E}" },
+							station = 2
+						}, {
+							loadout = { "{4F977A2A-CD25-44df-90EF-164BFA2AE72F}" },
+							station = 2
+						}, {
+							loadout = { "{1F7136CB-8120-4e77-B97B-945FF01FB67C}" },
+							station = 2
+						}, {
+							loadout = { "{647C5F26-BDD1-41e6-A371-8DE1E4CC0E94}" },
+							station = 2
+						}, {
+							loadout = { "{0877B74B-5A00-4e61-BA8A-A56450BA9E27}" },
+							station = 2
+						}, {
+							loadout = { "{9115A5AF-6D5C-4b6b-BEA9-31D48B5C6001}" },
+							station = 2
+						}, {
+							loadout = { "{LAU-131 - 7 AGR-20A}" },
+							station = 2
+						}, {
+							loadout = { "{LAU-131 - 7 AGR-20 M282}" },
+							station = 2
+						}, {
+							loadout = { "{LAU3_FFAR_WP156}" },
+							station = 2
+						}, {
+							loadout = { "{LAU3_FFAR_MK1HE}" },
+							station = 2
+						}, {
+							loadout = { "{LAU3_FFAR_MK5HEAT}" },
+							station = 2
+						}, {
+							loadout = { "{CAE48299-A294-4bad-8EE6-89EFC5DCDF00}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_LS_3*SUU-25_8*LUU-2}" },
+							station = 2
+						}, {
+							loadout = { "{A111396E-D3E8-4b9c-8AC9-2432489304D5}" },
+							station = 2
+						}, {
+							loadout = { "{AV8BNA_AERO1D}" },
+							station = 2
+						}, {
+							loadout = { "{AV8BNA_AERO1D_EMPTY}" },
+							station = 2
+						}, {
+							station = 3
+						}, {
+							station = 4
+						}, {
+							station = 5
+						}, {
+							station = 6
+						}, {
+							loadout = { "{AIM-9M-ON-ADAPTER}" },
+							station = 7
+						}, {
+							loadout = { "{AIM-9L-ON-ADAPTER}" },
+							station = 7
+						}, {
+							loadout = { "{LAU_7_AGM_122_SIDEARM}" },
+							station = 7
+						}, {
+							loadout = { "{90321C8E-7ED1-47D4-A160-E074D5ABD902}" },
+							station = 7
+						}, {
+							loadout = { "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}" },
+							station = 7
+						}, {
+							loadout = { "{Mk82SNAKEYE}" },
+							station = 7
+						}, {
+							loadout = { "{Mk82AIR}" },
+							station = 7
+						}, {
+							loadout = { "{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}" },
+							station = 7
+						}, {
+							loadout = { "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}" },
+							station = 7
+						}, {
+							loadout = { "{CBU_99}" },
+							station = 7
+						}, {
+							loadout = { "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}" },
+							station = 7
+						}, {
+							loadout = { "{0D33DDAE-524F-4A4E-B5B8-621754FE3ADE}" },
+							station = 7
+						}, {
+							loadout = { "{GBU-38}" },
+							station = 7
+						}, {
+							loadout = { "{GBU_32_V_2B}" },
+							station = 7
+						}, {
+							loadout = { "{GBU_54_V_1B}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*Mk-82_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*MK-20_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70_2*CBU-99_LEFT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42A_2*GBU-12_SIDE_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*Mk-82AIR_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*Mk-82SNAKEYE_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70A_2*GBU-38_SIDE_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70A_2*GBU-54_SIDE_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*Mk-82_LEFT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*Mk-83_LEFT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*MK-20_LEFT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70_2*CBU-99_LEFT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*Mk-82AIR_LEFT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*Mk-82SNAKEYE_LEFT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*GBU-38_LEFT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70A_2*GBU-54_LEFT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_3*Mk-81LD}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_3*Mk-82LD}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_3_MK82AIR}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_3*Mk-82SNAKEYE}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42A_3*GBU-12}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70_3*GBU-38}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70A_3*GBU-54}" },
+							station = 7
+						}, {
+							loadout = { "{BDU-33}" },
+							station = 7
+						}, {
+							loadout = { "BRU-42_3*BDU-33" },
+							station = 7
+						}, {
+							loadout = { "{F16A4DE0-116C-4A71-97F0-2CF85B0313EC}" },
+							station = 7
+						}, {
+							loadout = { "LAU_117_AGM_65L" },
+							station = 7
+						}, {
+							loadout = { "LAU_117_AGM_65F" },
+							station = 7
+						}, {
+							loadout = { "{F3EFE0AB-E91A-42D8-9CA2-B63C91ED570A}" },
+							station = 7
+						}, {
+							loadout = { "{174C6E6D-0C3D-42ff-BCB3-0853CB371F5C}" },
+							station = 7
+						}, {
+							loadout = { "{A021F29D-18AB-4d3e-985C-FC9C60E35E9E}" },
+							station = 7
+						}, {
+							loadout = { "{4F977A2A-CD25-44df-90EF-164BFA2AE72F}" },
+							station = 7
+						}, {
+							loadout = { "{1F7136CB-8120-4e77-B97B-945FF01FB67C}" },
+							station = 7
+						}, {
+							loadout = { "{647C5F26-BDD1-41e6-A371-8DE1E4CC0E94}" },
+							station = 7
+						}, {
+							loadout = { "{0877B74B-5A00-4e61-BA8A-A56450BA9E27}" },
+							station = 7
+						}, {
+							loadout = { "{9115A5AF-6D5C-4b6b-BEA9-31D48B5C6001}" },
+							station = 7
+						}, {
+							loadout = { "{LAU-131 - 7 AGR-20A}" },
+							station = 7
+						}, {
+							loadout = { "{LAU-131 - 7 AGR-20 M282}" },
+							station = 7
+						}, {
+							loadout = { "{LAU3_FFAR_WP156}" },
+							station = 7
+						}, {
+							loadout = { "{LAU3_FFAR_MK1HE}" },
+							station = 7
+						}, {
+							loadout = { "{LAU3_FFAR_MK5HEAT}" },
+							station = 7
+						}, {
+							loadout = { "{CAE48299-A294-4bad-8EE6-89EFC5DCDF00}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_LS_3*SUU-25_8*LUU-2}" },
+							station = 7
+						}, {
+							loadout = { "{A111396E-D3E8-4b9c-8AC9-2432489304D5}" },
+							station = 7
+						}, {
+							loadout = { "{AV8BNA_AERO1D}" },
+							station = 7
+						}, {
+							loadout = { "{AV8BNA_AERO1D_EMPTY}" },
+							station = 7
+						}, {
+							loadout = { "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}" },
+							station = 1
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 1
+						}, {
+							loadout = { "{AGM_122_SIDEARM}" },
+							station = 1
+						}, {
+							loadout = { "{BRU-42_2*GBU-12_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_3*GBU-38}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*GBU-38_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-70A_2*GBU-54_LEFT}" },
+							station = 2
+						}, {
+							loadout = { "{BRU-42_2*GBU-12_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_3*GBU-38}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-42_2*GBU-38_RIGHT}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-70A_2*GBU-54_RIGHT}" },
+							station = 7
+						} }
 				}, {
 					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}",
-					arg_value = 0.2
+					arg_value = 0.2,
+					forbidden = <table 21>
 				}, {
 					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}",
-					arg_value = 0.2
+					arg_value = 0.2,
+					forbidden = <table 21>
 				}, {
 					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
-					arg_value = 0.2
+					arg_value = 0.2,
+					forbidden = <table 21>
 				}, {
 					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}",
-					arg_value = 0.2
+					arg_value = 0.2,
+					forbidden = <table 21>
 				}, {
 					CLSID = "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}",
-					arg_value = 0.2
+					arg_value = 0.2,
+					forbidden = <table 21>
 				} },
 			Number = 8,
 			Order = 8,

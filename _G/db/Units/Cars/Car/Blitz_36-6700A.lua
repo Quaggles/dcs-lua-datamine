@@ -43,6 +43,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	enablePlayerCanDrive = true,
 	mapclasskey = "P0091000212",
+	sensor = {
+		pos = { 1.15, 1.73, -0.42 }
+	},
 	shape_table_data = { {
 			classname = "lLandVehicle",
 			desrt = "Blitz_36-6700A_p_1",

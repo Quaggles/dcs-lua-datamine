@@ -2217,7 +2217,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			DuplicateOf = "Door0"
 		}
 	},
-	net_animation = { 78, 274, 275, 799 },
+	net_animation = { 25, 78, 274, 275, 799 },
 	nose_gear_amortizer_direct_stroke = 0,
 	nose_gear_amortizer_normal_weight_stroke = -0.146,
 	nose_gear_amortizer_reversal_stroke = -0.244,

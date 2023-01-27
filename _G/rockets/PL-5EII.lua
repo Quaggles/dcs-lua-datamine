@@ -22,7 +22,7 @@ _G["rockets"]["#Index"] = {
 	Name = "Redacted",
 	Nr_max = 35,
 	OmViz_max = 0.61,
-	Range_max = 14000,
+	Range_max = 16000,
 	Reflection = 0.0182,
 	SeekerCooled = true,
 	SeekerSensivityDistance = 20000,
@@ -45,9 +45,7 @@ _G["rockets"]["#Index"] = {
 			life = 1,
 			name = "PL-5EII",
 			username = "PL-5EII"
-		},
-		index = "Redacted"
-	},
+		} },
 	sigma = { 3, 3, 3 },
 	supersonic_A_coef_skew = 0.25,
 	t_acc = 6,

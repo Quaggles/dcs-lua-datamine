@@ -1547,7 +1547,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			positioning = "BYNORMAL"
 		} },
 	sound_name = "Aircrafts/Engines/RotorKa50",
-	sounderName = "Aircraft/Helicopters/Ka-50",
 	stores_number = 4,
 	swapped_names = true,
 	tail_fin_area = 1.45,

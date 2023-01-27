@@ -5,6 +5,7 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Tech/sensors.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	air_search = {
+		RCS = 5,
 		centered_scan_volume = {
 			azimuth_sector = 30,
 			elevation_sector = 30
@@ -23,7 +24,7 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 		}
 	},
 	category = 1,
-	max_measuring_distance = 125000,
+	max_measuring_distance = 175000,
 	scan_period = 5,
 	scan_volume = {
 		azimuth = { -60, 60 },

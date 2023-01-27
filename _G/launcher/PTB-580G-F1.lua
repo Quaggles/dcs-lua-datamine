@@ -1,5 +1,6 @@
 _G["launcher"]["PTB-580G-F1"] = {
 	CLSID = "PTB-580G-F1",
+	Capacity = 1734,
 	Cx_pil = 0.001,
 	Elements = { {
 			Position = { 0, 0, 0 },
@@ -7,8 +8,8 @@ _G["launcher"]["PTB-580G-F1"] = {
 			ShapeName = "PTB_580G_F1"
 		} },
 	Picture = "ftm1.png",
-	Weight = 2887.73,
-	Weight_Empty = 251,
+	Weight = 2084,
+	Weight_Empty = 350,
 	_file = "./CoreMods/aircraft/Mirage-F1/Weapons.lua",
 	_origin = "Mirage F1 Assets by Aerges",
 	_unique_resource_name = "weapons.droptanks.PTB_580G_F1",

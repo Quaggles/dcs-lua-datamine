@@ -28,6 +28,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	driverViewPoint = { 3.42, 2.3, -0.765 },
 	enablePlayerCanDrive = true,
 	mapclasskey = "P0091000005",
+	sensor = {
+		pos = { 3.3, 2.3, -0.8 }
+	},
 	shape_table_data = { {
 			classname = "lLandVehicle",
 			desrt = "Zil_135l_p1",

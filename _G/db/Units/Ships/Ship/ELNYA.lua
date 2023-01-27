@@ -46,6 +46,9 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	race_distance = 15927200,
 	race_velocity = 6.17333,
 	riverCraft = true,
+	sensor = {
+		height = 15.5
+	},
 	shipLength = 101.8,
 	snd = {},
 	speedup = 0.0814062,

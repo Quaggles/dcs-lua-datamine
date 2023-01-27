@@ -14,6 +14,7 @@ _G["launcher"]["{British_GP_250LB_Bomb_Mk5}"] = {
 	category = 1,
 	displayName = "250 lb GP Mk.V",
 	settings = { {
+			baseDim = "",
 			control = "comboList",
 			defValue = 1,
 			dimension = "",

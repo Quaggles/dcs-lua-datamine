@@ -43,6 +43,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	enablePlayerCanDrive = false,
 	mapclasskey = "P91000108",
+	sensor = {
+		height = 3
+	},
 	shape_table_data = { {
 			classname = "lLandVehicle",
 			desrt = "es44ah_p_1",

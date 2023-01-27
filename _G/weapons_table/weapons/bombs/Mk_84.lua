@@ -1,6 +1,6 @@
 _G["weapons_table"]["weapons"]["bombs"]["Mk_84"] = {
-	I = 864.446267,
-	L = 2.5,
+	I = 1115.7504,
+	L = 3.84,
 	Reflection = 0.04,
 	_unique_resource_name = "weapons.bombs.Mk_84",
 	caliber = 0.457,
@@ -15,8 +15,8 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_84"] = {
 			velK = 1
 		},
 		fm = {
-			I = 864.446267,
-			L = 2.5,
+			I = 1115.7504,
+			L = 3.84,
 			Ma = 2.746331,
 			Mw = 2.146083,
 			caliber = 0.457,
@@ -25,7 +25,14 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_84"] = {
 			wind_sigma = 220,
 			wind_time = 1000
 		},
-		scheme = "schemes/bombs/bomb-common.sch",
+		fuze = {
+			default_arm_delays = { 2 },
+			tdd_position = { 1.88, 0, 0 },
+			tdd_sigma = 0.9144,
+			tdd_vdiff_max = 426.72,
+			tdd_vdiff_min = 22.86
+		},
+		scheme = "schemes/bombs/bomb_common_v2.sch",
 		warhead = {
 			caliber = 457,
 			concrete_factors = { 1, 1, 1 },
@@ -57,8 +64,8 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_84"] = {
 			velK = 1
 		},
 		fm = {
-			I = 864.446267,
-			L = 2.5,
+			I = 1115.7504,
+			L = 3.84,
 			Ma = 2.746331,
 			Mw = 2.146083,
 			caliber = 0.457,
@@ -67,7 +74,14 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_84"] = {
 			wind_sigma = 220,
 			wind_time = 1000
 		},
-		scheme = "schemes/bombs/bomb-common.sch",
+		fuze = {
+			default_arm_delays = { 2 },
+			tdd_position = { 1.88, 0, 0 },
+			tdd_sigma = 0.9144,
+			tdd_vdiff_max = 426.72,
+			tdd_vdiff_min = 22.86
+		},
+		scheme = "schemes/bombs/bomb_common_v2.sch",
 		warhead = {
 			caliber = 457,
 			concrete_factors = { 1, 1, 1 },

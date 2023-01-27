@@ -1679,7 +1679,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			use_full_connector_position = true
 		}, {
 			DisplayName = "BAY",
-			Launchers = {},
+			Launchers = { {
+					CLSID = "{JU88A4TORP_10xSC50_on_InvCountedAttachmentPoints}"
+				} },
 			Number = 2,
 			Order = 2,
 			Type = 2,

@@ -10,6 +10,7 @@ _G["launcher"]["{AN-M64}"] = {
 	attribute = { 4, 5, 9, "Redacted" },
 	displayName = "AN-M64 - 500lb GP Bomb LD",
 	settings = { {
+			baseDim = "",
 			control = "comboList",
 			defValue = 1,
 			dimension = "",
@@ -63,6 +64,7 @@ _G["launcher"]["{AN-M64}"] = {
 					id = "GUI_fuze_type",
 					value = 5
 				} },
+			baseDim = "s",
 			control = "comboList",
 			defValue = 0,
 			dimension = "s",
@@ -137,6 +139,7 @@ _G["launcher"]["{AN-M64}"] = {
 					id = "GUI_fuze_type",
 					value = 1
 				} },
+			baseDim = "s",
 			control = "comboList",
 			defValue = 0,
 			dimension = "s",
@@ -163,6 +166,7 @@ _G["launcher"]["{AN-M64}"] = {
 					id = "GUI_fuze_type",
 					value = 2
 				} },
+			baseDim = "s",
 			control = "comboList",
 			defValue = 1,
 			dimension = "s",

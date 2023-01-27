@@ -5,7 +5,7 @@ _G["weapons_table"]["weapons"]["missiles"]["SD-10"] = {
 	_unique_resource_name = "weapons.missiles.SD-10",
 	caliber = 0.203,
 	client = {
-		Cx_pil = 2,
+		Cx_pil = 2.2,
 		D_max = 65000,
 		D_min = 1000,
 		Diam = 203,
@@ -173,9 +173,7 @@ _G["weapons_table"]["weapons"]["missiles"]["SD-10"] = {
 				life = 1,
 				name = "SD-10",
 				username = "SD-10"
-			},
-			index = "Redacted"
-		},
+			} },
 		sigma = { 5, 5, 5 },
 		supersonic_A_coef_skew = 0.1,
 		t_acc = 6,
@@ -217,7 +215,7 @@ _G["weapons_table"]["weapons"]["missiles"]["SD-10"] = {
 	model = "pl12",
 	name = "SD-10",
 	server = {
-		Cx_pil = 2,
+		Cx_pil = 2.2,
 		D_max = 65000,
 		D_min = 1000,
 		Diam = 203,
@@ -385,9 +383,7 @@ _G["weapons_table"]["weapons"]["missiles"]["SD-10"] = {
 				life = 1,
 				name = "SD-10",
 				username = "SD-10"
-			},
-			index = "Redacted"
-		},
+			} },
 		sigma = { 5, 5, 5 },
 		supersonic_A_coef_skew = 0.1,
 		t_acc = 6,

@@ -1,7 +1,7 @@
 _G["launcher"]["DIS_LD-10"] = {
 	CLSID = "DIS_LD-10",
 	Count = 1,
-	Cx_pil = 0.000859765625,
+	Cx_pil = 0.00064453124,
 	Elements = { {
 			Position = { 0, 0, 0 },
 			ShapeName = "ld10"

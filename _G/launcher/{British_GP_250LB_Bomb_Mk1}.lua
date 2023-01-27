@@ -14,6 +14,7 @@ _G["launcher"]["{British_GP_250LB_Bomb_Mk1}"] = {
 	category = 1,
 	displayName = "250 lb GP Mk.I",
 	settings = { {
+			baseDim = "",
 			control = "comboList",
 			defValue = 1,
 			dimension = "",
@@ -34,6 +35,7 @@ _G["launcher"]["{British_GP_250LB_Bomb_Mk1}"] = {
 					id = "GUI_fuze_type",
 					value = 1
 				} },
+			baseDim = "s",
 			control = "comboList",
 			defValue = 0,
 			dimension = "s",

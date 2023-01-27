@@ -25,8 +25,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 17, 25, "Redacted", "Trucks", "All", "Ground Units", "Vehicles", "Ground vehicles", "Ground Units Non Airdefence", "NonAndLightArmoredUnits", "NonArmoredUnits", "Unarmed vehicles" },
 	category = "Unarmed",
 	chassis = {},
-	enablePlayerCanDrive = false,
+	driverViewPoint = { 1.67, 2.21, -0.46 },
+	enablePlayerCanDrive = true,
 	mapclasskey = "P0091000212",
+	sensor = {
+		pos = { 1.4, 2.3, -0.6 }
+	},
 	shape_table_data = { {
 			classname = "lLandVehicle",
 			desrt = "atz5_p_1",

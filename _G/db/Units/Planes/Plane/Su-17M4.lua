@@ -463,8 +463,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{4203753F-8198-4E85-9924-6F8FF679F9FF}"
 				}, {
 					CLSID = "{RBK_250_275_AO_1SCH}"
-				}, {
-					CLSID = "{Kh-28}"
 				} },
 			Number = 4,
 			Order = 4,

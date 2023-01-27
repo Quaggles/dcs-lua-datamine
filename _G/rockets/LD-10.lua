@@ -1,5 +1,5 @@
 _G["rockets"]["#Index"] = {
-	Cx_pil = 2,
+	Cx_pil = 2.2,
 	D_max = 80000,
 	D_min = 700,
 	Damage = 100,
@@ -82,6 +82,9 @@ _G["rockets"]["#Index"] = {
 	controller = {
 		boost_start = 0.5,
 		march_start = 6.5
+	},
+	conv = {
+		seeker_add_pitch = -0.34906585039887
 	},
 	display_name = "LD-10",
 	exhaust = { 1, 1, 1, 0.8 },

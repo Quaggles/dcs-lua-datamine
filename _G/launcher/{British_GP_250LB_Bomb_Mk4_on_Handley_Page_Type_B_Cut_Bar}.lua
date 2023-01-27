@@ -18,6 +18,7 @@ _G["launcher"]["{British_GP_250LB_Bomb_Mk4_on_Handley_Page_Type_B_Cut_Bar}"] = {
 	displayName = "250 lb GP Mk.IV",
 	name = "{British_GP_250LB_Bomb_Mk4_on_Handley_Page_Type_B_Cut_Bar}",
 	settings = { {
+			baseDim = "",
 			control = "comboList",
 			defValue = 1,
 			dimension = "",
@@ -41,6 +42,7 @@ _G["launcher"]["{British_GP_250LB_Bomb_Mk4_on_Handley_Page_Type_B_Cut_Bar}"] = {
 					id = "GUI_fuze_type",
 					value = 3
 				} },
+			baseDim = "s",
 			control = "comboList",
 			defValue = 0,
 			dimension = "s",
@@ -67,6 +69,7 @@ _G["launcher"]["{British_GP_250LB_Bomb_Mk4_on_Handley_Page_Type_B_Cut_Bar}"] = {
 					id = "GUI_fuze_type",
 					value = 2
 				} },
+			baseDim = "s",
 			control = "comboList",
 			defValue = 0,
 			dimension = "s",
@@ -93,6 +96,7 @@ _G["launcher"]["{British_GP_250LB_Bomb_Mk4_on_Handley_Page_Type_B_Cut_Bar}"] = {
 					id = "GUI_fuze_type",
 					value = 1
 				} },
+			baseDim = "s",
 			control = "comboList",
 			defValue = 0,
 			dimension = "s",

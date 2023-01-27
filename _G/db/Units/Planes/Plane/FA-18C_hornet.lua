@@ -2734,6 +2734,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						C = { { "Arg", 522, "set", 0.01 }, { "Arg", 520, "set", 0 } }
 					} },
 				Transition = { "Neutral", "GestureSaluteRight" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 522, "to", 1, "speed", 0.33 } }
+					}, {
+						C = { { "Arg", 522, "set", 0 } }
+					} },
+				Transition = { "Any", "GestureSaluteTakeOffFinalize" }
 			} },
 		Door0 = { {
 				Flags = { "Reversible" },

@@ -56,6 +56,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	enablePlayerCanDrive = true,
 	mapclasskey = "P0091000212",
+	sensor = {
+		height = 1.36
+	},
 	shape_table_data = { {
 			classname = "lLandVehicle",
 			desrt = "Kubelwagen_82_p_1",

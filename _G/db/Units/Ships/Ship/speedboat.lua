@@ -3,7 +3,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			name = "Armed Ship"
 		} },
 	DeckLevel = 0.5,
-	DetectionRange = 3000,
+	DetectionRange = 5000,
 	DisplayName = "Boat Armed Hi-speed",
 	DisplayNameShort = "Boat",
 	Gamma_max = 1,
@@ -62,7 +62,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	Width = 2.8,
 	X_nose = 3.5,
 	X_tail = -3.5,
-	airFindDist = 3000,
+	airFindDist = 5000,
 	airWeaponDist = 1000,
 	animation_arguments = {
 		arresting_wires = {},
@@ -89,6 +89,9 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	race_distance = 200000,
 	race_velocity = 24,
 	riverCraft = true,
+	sensor = {
+		height = 1.8
+	},
 	shipLength = 8.26,
 	snd = {
 		engine = "Ships/speedboat",

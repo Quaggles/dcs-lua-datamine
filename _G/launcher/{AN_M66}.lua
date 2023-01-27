@@ -14,6 +14,7 @@ _G["launcher"]["{AN_M66}"] = {
 	category = 1,
 	displayName = "AN-M66 - 2000lb GP Bomb LD",
 	settings = { {
+			baseDim = "",
 			control = "comboList",
 			defValue = 1,
 			dimension = "",
@@ -67,6 +68,7 @@ _G["launcher"]["{AN_M66}"] = {
 					id = "GUI_fuze_type",
 					value = 5
 				} },
+			baseDim = "s",
 			control = "comboList",
 			defValue = 0,
 			dimension = "s",
@@ -141,6 +143,7 @@ _G["launcher"]["{AN_M66}"] = {
 					id = "GUI_fuze_type",
 					value = 1
 				} },
+			baseDim = "s",
 			control = "comboList",
 			defValue = 0,
 			dimension = "s",
@@ -167,6 +170,7 @@ _G["launcher"]["{AN_M66}"] = {
 					id = "GUI_fuze_type",
 					value = 2
 				} },
+			baseDim = "s",
 			control = "comboList",
 			defValue = 1,
 			dimension = "s",

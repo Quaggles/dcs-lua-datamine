@@ -26,8 +26,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	canTow = { "Saddle", "Saddle22" },
 	category = "Unarmed",
 	chassis = {},
-	enablePlayerCanDrive = false,
+	driverViewPoint = { 1.15, 2.285, -0.464 },
+	enablePlayerCanDrive = true,
 	mapclasskey = "P0091000212",
+	sensor = {
+		pos = { 1.1, 2.3, -0.45 }
+	},
 	shape_table_data = { {
 			classname = "lLandVehicle",
 			desrt = "tz_22_truck_p_1",

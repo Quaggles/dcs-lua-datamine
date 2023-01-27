@@ -5,7 +5,7 @@ _G["weapons_table"]["weapons"]["missiles"]["LD-10"] = {
 	_unique_resource_name = "weapons.missiles.LD-10",
 	caliber = 0.203,
 	client = {
-		Cx_pil = 2,
+		Cx_pil = 2.2,
 		D_max = 80000,
 		D_min = 700,
 		Diam = 203,
@@ -86,6 +86,9 @@ _G["weapons_table"]["weapons"]["missiles"]["LD-10"] = {
 		controller = {
 			boost_start = 0.5,
 			march_start = 6.5
+		},
+		conv = {
+			seeker_add_pitch = -0.34906585039887
 		},
 		exhaust = { 1, 1, 1, 0.8 },
 		fm = {
@@ -210,7 +213,7 @@ _G["weapons_table"]["weapons"]["missiles"]["LD-10"] = {
 	model = "ld10",
 	name = "LD-10",
 	server = {
-		Cx_pil = 2,
+		Cx_pil = 2.2,
 		D_max = 80000,
 		D_min = 700,
 		Diam = 203,
@@ -291,6 +294,9 @@ _G["weapons_table"]["weapons"]["missiles"]["LD-10"] = {
 		controller = {
 			boost_start = 0.5,
 			march_start = 6.5
+		},
+		conv = {
+			seeker_add_pitch = -0.34906585039887
 		},
 		exhaust = { 1, 1, 1, 0.8 },
 		fm = {

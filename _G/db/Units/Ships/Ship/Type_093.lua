@@ -127,103 +127,27 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	airFindDist = 10000,
 	airWeaponDist = 30000,
 	animation_arguments = {
-		alarm_state_sequence = { { 3, { {
+		alarm_state_sequence = { { 18, { {
 						endTime = 1,
 						endVal = 0,
 						startTime = 0,
 						startVal = 0
 					}, {
-						endTime = 15,
+						endTime = 4,
 						endVal = 1,
 						startTime = 1,
-						startVal = 0
-					}, {
-						endTime = 20,
-						endVal = 1,
-						startTime = 15,
-						startVal = 1
-					} } }, { 15, { {
-						endTime = 15,
-						endVal = 0,
-						startTime = 0,
-						startVal = 0
-					}, {
-						endTime = 20,
-						endVal = 1,
-						startTime = 15,
-						startVal = 0
-					}, {
-						endTime = 20,
-						endVal = 1,
-						startTime = 20,
-						startVal = 1
-					} } }, { 16, { {
-						endTime = 15,
-						endVal = 0,
-						startTime = 0,
-						startVal = 0
-					}, {
-						endTime = 20,
-						endVal = 1,
-						startTime = 15,
-						startVal = 0
-					}, {
-						endTime = 20,
-						endVal = 1,
-						startTime = 20,
-						startVal = 1
-					} } }, { 14, { {
-						endTime = 1,
-						endVal = 1,
-						startTime = 0,
-						startVal = 1
-					}, {
-						endTime = 5,
-						endVal = 0,
-						startTime = 1,
-						startVal = 1
-					}, {
-						endTime = 20,
-						endVal = 0,
-						startTime = 5,
-						startVal = 0
-					} } }, { 17, { {
-						endTime = 1,
-						endVal = 1,
-						startTime = 0,
-						startVal = 1
-					}, {
-						endTime = 5,
-						endVal = 0,
-						startTime = 1,
-						startVal = 1
-					}, {
-						endTime = 20,
-						endVal = 0,
-						startTime = 5,
-						startVal = 0
-					} } }, { 18, { {
-						endTime = 1,
-						endVal = 0,
-						startTime = 0,
 						startVal = 0
 					}, {
 						endTime = 5,
 						endVal = 1,
-						startTime = 1,
-						startVal = 0
-					}, {
-						endTime = 20,
-						endVal = 1,
-						startTime = 5,
+						startTime = 4,
 						startVal = 1
 					} } },
-			totalDuration = 20
+			totalDuration = 5
 		},
 		flag_animation = -1,
-		locator_rotation = 1,
 		nav_lights = 69,
-		periscope = 32,
+		periscope = 15,
 		radar1_rotation = -1,
 		radar2_rotation = -1,
 		radar3_rotation = -1,
@@ -254,7 +178,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	mass = 5300000,
 	maxPeriscopeDepth = 15,
 	max_velocity = 14.9,
-	minPeriscopeDepth = 12,
+	minPeriscopeDepth = 10,
 	race_distance = 7200000,
 	race_velocity = 14.9,
 	shape_table_data = { {
@@ -274,7 +198,6 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	sternEffectDX = { { 0, 0, 58, 6 }, { 2, 10, 41, 4 }, { 2.5, 14.5, 31, 3 }, { 2.7, 29, 13, 2 }, { 7.5, 29, 13, 2 } },
 	swapped_names = true,
 	tags = { "Submarine" },
-	toggle_alarm_state_interval = 20,
 	type = "Type_093",
 	visual = {
 		shape = "093",

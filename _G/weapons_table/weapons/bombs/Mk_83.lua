@@ -25,7 +25,14 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_83"] = {
 			wind_sigma = 150,
 			wind_time = 1000
 		},
-		scheme = "schemes/bombs/bomb-common.sch",
+		fuze = {
+			default_arm_delays = { 2 },
+			tdd_position = { 1.45, 0, 0 },
+			tdd_sigma = 0.9144,
+			tdd_vdiff_max = 426.72,
+			tdd_vdiff_min = 22.86
+		},
+		scheme = "schemes/bombs/bomb_common_v2.sch",
 		warhead = {
 			caliber = 356,
 			concrete_factors = { 1, 1, 1 },
@@ -67,7 +74,14 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_83"] = {
 			wind_sigma = 150,
 			wind_time = 1000
 		},
-		scheme = "schemes/bombs/bomb-common.sch",
+		fuze = {
+			default_arm_delays = { 2 },
+			tdd_position = { 1.45, 0, 0 },
+			tdd_sigma = 0.9144,
+			tdd_vdiff_max = 426.72,
+			tdd_vdiff_min = 22.86
+		},
+		scheme = "schemes/bombs/bomb_common_v2.sch",
 		warhead = {
 			caliber = 356,
 			concrete_factors = { 1, 1, 1 },

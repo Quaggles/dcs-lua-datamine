@@ -4,6 +4,185 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	CAS_min = 58,
 	CanopyGeometry = { -0.34202014332567, -0.58058609380733, -0.81915204428899, -0.23856595048166, 0.34202014332567 },
 	Countries = { "Russia" },
+	Damage = { {
+			args = { 150 },
+			critical_damage = 5
+		}, {
+			args = { 149 },
+			critical_damage = 5
+		}, {
+			args = { 65 },
+			critical_damage = 20
+		},
+		[0] = {
+			args = { 146 },
+			critical_damage = 5
+		},
+		[8] = {
+			args = { 265 },
+			critical_damage = 2
+		},
+		[9] = {
+			args = { 154 },
+			critical_damage = 3
+		},
+		[10] = {
+			args = { 153 },
+			critical_damage = 3
+		},
+		[11] = {
+			args = { 173 },
+			critical_damage = 1
+		},
+		[12] = {
+			args = { 162 },
+			critical_damage = 1
+		},
+		[13] = {
+			args = { 169, 172 },
+			critical_damage = 2
+		},
+		[14] = {
+			args = { 161, 163 },
+			critical_damage = 2
+		},
+		[15] = {
+			args = { 267 },
+			critical_damage = 2
+		},
+		[16] = {
+			args = { 266 },
+			critical_damage = 2
+		},
+		[21] = {
+			args = { 232 },
+			critical_damage = 3
+		},
+		[22] = {
+			args = { 222 },
+			critical_damage = 3
+		},
+		[23] = {
+			args = { 223 },
+			critical_damage = 5
+		},
+		[24] = {
+			args = { 213 },
+			critical_damage = 5
+		},
+		[29] = {
+			args = { 224 },
+			critical_damage = 6,
+			deps_cells = { 21, 23 }
+		},
+		[30] = {
+			args = { 214 },
+			critical_damage = 6,
+			deps_cells = { 22, 24 }
+		},
+		[33] = {
+			args = { 230, 251 },
+			critical_damage = 3
+		},
+		[34] = {
+			args = { 221, 250 },
+			critical_damage = 3
+		},
+		[35] = {
+			args = { 225 },
+			critical_damage = 6,
+			deps_cells = { 21, 23, 29, 33, 37 }
+		},
+		[36] = {
+			args = { 215 },
+			critical_damage = 6,
+			deps_cells = { 22, 24, 34, 30, 38 }
+		},
+		[37] = {
+			args = { 227 },
+			critical_damage = 2
+		},
+		[38] = {
+			args = { 217 },
+			critical_damage = 2
+		},
+		[39] = {
+			args = { 244 },
+			critical_damage = 2
+		},
+		[40] = {
+			args = { 241 },
+			critical_damage = 2
+		},
+		[41] = {
+			args = { 245 },
+			critical_damage = 2,
+			deps_cells = { 39 }
+		},
+		[42] = {
+			args = { 242 },
+			critical_damage = 2,
+			deps_cells = { 40 }
+		},
+		[43] = {
+			args = { 246 },
+			critical_damage = 2,
+			deps_cells = { 39, 41, 53 }
+		},
+		[44] = {
+			args = { 243 },
+			critical_damage = 2,
+			deps_cells = { 40, 42, 54 }
+		},
+		[47] = {
+			args = { 235 },
+			critical_damage = 2
+		},
+		[48] = {
+			args = { 233 },
+			critical_damage = 2
+		},
+		[51] = {
+			args = { 240 },
+			critical_damage = 2
+		},
+		[52] = {
+			args = { 233 },
+			critical_damage = 2
+		},
+		[53] = {
+			args = { 248 },
+			critical_damage = 2
+		},
+		[54] = {
+			args = { 247 },
+			critical_damage = 2
+		},
+		[55] = {
+			args = { 159 },
+			critical_damage = 6
+		},
+		[56] = {
+			args = { 158 },
+			critical_damage = 6
+		},
+		[57] = {
+			args = { 157 },
+			critical_damage = 6
+		},
+		[58] = {
+			args = { 156 },
+			critical_damage = 6
+		},
+		[59] = {
+			args = { 148 },
+			critical_damage = 2
+		},
+		[82] = {
+			args = { 152 },
+			critical_damage = 2
+		}
+	},
 	DefaultTask = <1>{
 		Name = "Ground Attack",
 		OldID = "Ground Attack",
@@ -1010,7 +1189,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			role = "pilot",
 			role_display_name = "Pilot in command"
 		}, {
-			canopy_arg = 421,
+			canopy_arg = 118,
 			canopy_ejection_dir = { 0, 0.5, 0.5 },
 			canopy_pos = { 0, 0, 0 },
 			drop_canopy_name = 325,
@@ -1036,7 +1215,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			pos = { -6.889, -0.257, 1.193 },
 			smokiness_level = 0.1
 		} },
-	fires_pos = { { -1.594, -0.064, 0 }, { -1.073, 0.319, 2.304 }, { -1.187, 0.338, -4.678 }, { -0.82, 0.265, 2.774 }, { -0.82, 0.265, -2.774 }, { -0.82, 0.255, 4.274 }, { -0.82, 0.255, -4.274 }, { -5.889, -0.257, 1.193 }, { -5.889, -0.257, -1.193 }, { -1.257, 0.283, 3.05 }, { -1.257, 0.283, -3.05 } },
+	fires_pos = { { -1.594, -0.064, 0 }, { -1.073, 0.319, 2.304 }, { -1.187, 0.338, -3.678 }, { -0.82, 0.265, 2.774 }, { -0.82, 0.265, -2.774 }, { -0.82, 0.255, 4.274 }, { -0.82, 0.255, -4.274 }, { -5.889, -0.257, 1.193 }, { -5.889, -0.257, -1.193 }, { -1.257, 0.283, 3.05 }, { -1.257, 0.283, -3.05 } },
 	flaps_maneuver = 1,
 	has_afteburner = true,
 	has_speedbrake = false,

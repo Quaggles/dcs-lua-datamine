@@ -2,7 +2,7 @@ _G["rockets"]["#Index"] = {
 	Cx_pil = 1,
 	D_max = 4500,
 	D_min = 500,
-	Damage = 3.125,
+	Damage = 1,
 	Diam = 72,
 	Escort = 0,
 	Fi_excort = 0.7,
@@ -38,6 +38,6 @@ _G["rockets"]["#Index"] = {
 	t_marsh = 3,
 	v_mid = 570,
 	v_min = 70,
-	warhead = "_G/warheads/Igla_1E.lua",
+	warhead = "_G/warheads/Igla_9N312F.lua",
 	ws_type = { 4, 4, 34, "Redacted" }
 }

@@ -16,6 +16,7 @@ _G["launcher"]["{WGr21}"] = {
 	name = "{WGr21}",
 	pilon_jettison_option = 2,
 	settings = { {
+			baseDim = "",
 			control = "comboList",
 			defValue = 1,
 			dimension = "",

@@ -25,6 +25,7 @@ _G["launcher"]["ER_4_SC50"] = {
 	displayName = "4 x SC 50 - 50kg GP Bomb LD",
 	name = "ER_4_SC50",
 	settings = { {
+			baseDim = "",
 			control = "comboList",
 			defValue = 1,
 			dimension = "",
@@ -42,6 +43,7 @@ _G["launcher"]["ER_4_SC50"] = {
 					id = "GUI_fuze_type",
 					value = 1
 				} },
+			baseDim = "",
 			control = "comboList",
 			defValue = 1,
 			dimension = "",

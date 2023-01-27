@@ -20,7 +20,7 @@ _G["launcher"]["{BRU-70_2*CBU-99_RIGHT}"] = {
 	_origin = "AV-8B N/A AI by RAZBAM Sims",
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
-	displayName = "2 CBU-99",
+	displayName = "2 CBU-99 *\\*",
 	name = "{BRU-70_2*CBU-99_RIGHT}",
 	wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 }

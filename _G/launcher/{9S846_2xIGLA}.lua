@@ -10,8 +10,8 @@ _G["launcher"]["{9S846_2xIGLA}"] = {
 			connector_name = "tube_02"
 		} },
 	Picture = "apu2.png",
-	Weight = 68.4,
-	Weight_Empty = 47.2,
+	Weight = 78.4,
+	Weight_Empty = 57.2,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/AA_Missiles.lua",
 	_origin = "AircraftWeaponPack",
 	adapter_type = <1>{ 4, 4, 32, "Redacted" },

@@ -14,6 +14,7 @@ _G["launcher"]["{SD_500_A}"] = {
 	category = 1,
 	displayName = "SD 500 A - 500kg GP Bomb LD",
 	settings = { {
+			baseDim = "",
 			control = "comboList",
 			defValue = 1,
 			dimension = "",
@@ -31,6 +32,7 @@ _G["launcher"]["{SD_500_A}"] = {
 					id = "GUI_fuze_type",
 					value = 1
 				} },
+			baseDim = "",
 			control = "comboList",
 			defValue = 1,
 			dimension = "",

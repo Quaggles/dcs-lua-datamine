@@ -137,6 +137,9 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	max_velocity = 6.11,
 	race_distance = 200000,
 	race_velocity = 6,
+	sensor = {
+		height = 2
+	},
 	shape_table_data = { {
 			classname = "lLandVehicle",
 			desrt = "",

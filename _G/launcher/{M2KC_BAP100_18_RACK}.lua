@@ -1,8 +1,8 @@
 _G["launcher"]["{M2KC_BAP100_18_RACK}"] = {
 	CLSID = "{M2KC_BAP100_18_RACK}",
 	Count = 18,
-	Cx_item = 0.0006,
-	Cx_pil = 0.0118,
+	Cx_item = 0.0001,
+	Cx_pil = 0.0023,
 	Elements = { "_G/Pylons/M-2000c_BAP_Rack.lua", {
 			DrawArgs = <1>{ { 1, 1 }, { 2, 1 } },
 			ShapeName = "M-2000c_BAP100",

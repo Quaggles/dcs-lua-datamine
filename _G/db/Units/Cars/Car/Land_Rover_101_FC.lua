@@ -77,6 +77,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	enablePlayerCanDrive = true,
 	mapclasskey = "P0091000212",
+	sensor = {
+		pos = { 1.06, 1.9, 0.59 }
+	},
 	shape_table_data = { {
 			classname = "lLandVehicle",
 			desrt = "land_rover_101_fc_p_1",

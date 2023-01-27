@@ -1052,6 +1052,13 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	numParking = 4,
 	race_distance = 74080000,
 	race_velocity = 15.4333,
+	sensor = {
+		max_alt_finding_target = 15000,
+		max_range_finding_target = 50000,
+		min_alt_finding_target = 0,
+		min_range_finding_target = 0,
+		pos = { -44, 42, 30 }
+	},
 	shape_table_data = { {
 			classname = "lLandShip",
 			desrt = "",

@@ -255,7 +255,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			control = "comboList",
 			defValue = 1,
 			id = "INSStartMode",
-			label = "INS always starts with the correct coordinates",
+			label = "INS start position always correct",
 			playerOnly = true,
 			values = { {
 					dispName = "YES",
@@ -263,6 +263,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					dispName = "NO",
 					id = 2
+				} },
+			wCtrl = 75
+		}, {
+			control = "comboList",
+			defValue = 1,
+			id = "RWR_type",
+			label = "RWR type",
+			playerOnly = true,
+			values = { {
+					dispName = "ALR-300",
+					id = "ALR_300",
+					value = 1
+				}, {
+					dispName = "BF",
+					id = "BF",
+					value = 2
 				} },
 			wCtrl = 75
 		} },
@@ -1445,6 +1461,266 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			supply_position = { 0.646, -0.876, 0.205 }
 		} },
 	H_max = 15240,
+	HumanCockpit = true,
+	HumanCockpitPath = "./Mods/aircraft/Mirage-F1/Cockpit/Mirage-F1/Mirage-F1EE/",
+	HumanCockpitPlugins = { {
+			_file = "./Mods/aircraft/NS430/entry.lua",
+			_origin = "NS430",
+			name = "NS430",
+			path = "./Mods/aircraft/NS430/Cockpit/Scripts/",
+			per_unit_data = {
+				["A-10A"] = {
+					enable_options_key_for_unit = "a10a_enabled"
+				},
+				["A-10C"] = <4>{
+					enable_options_key_for_unit = "disabled"
+				},
+				["A-10C_2"] = <table 4>,
+				["AH-64D_BLK_II"] = <table 4>,
+				AJS37 = {
+					enable_options_key_for_unit = "ajs37_enabled"
+				},
+				AV8BNA = {
+					enable_options_key_for_unit = "av8b_enabled"
+				},
+				["Bf-109K-4"] = {
+					enable_options_key_for_unit = "bf109k4_enabled"
+				},
+				["C-101CC"] = {
+					enable_options_key_for_unit = "c101cc_common_enabled"
+				},
+				["C-101EB"] = {
+					enable_options_key_for_unit = "c101eb_common_enabled"
+				},
+				["Christen Eagle II"] = {
+					enable_options_key_for_unit = "CE_II_enabled"
+				},
+				["F-14B"] = {
+					enable_options_key_for_unit = "f14b_enabled"
+				},
+				["F-15C"] = {
+					enable_options_key_for_unit = "f15c_enabled"
+				},
+				["F-16C_50"] = <table 4>,
+				["F-5E-3"] = {
+					enable_options_key_for_unit = "f5e3_enabled"
+				},
+				["F-86F Sabre"] = {
+					enable_options_key_for_unit = "f86f_enabled"
+				},
+				["FA-18C_hornet"] = <table 4>,
+				["FW-190D9"] = {
+					enable_options_key_for_unit = "fw190d9_enabled"
+				},
+				["I-16"] = {
+					enable_options_key_for_unit = "i16_enabled"
+				},
+				["J-11A"] = {
+					enable_options_key_for_unit = "j11a_enabled"
+				},
+				["JF-17"] = {
+					enable_options_key_for_unit = "jf17_enabled"
+				},
+				["Ka-50"] = <table 4>,
+				["Ka-50_3"] = <table 4>,
+				["L-39C"] = {
+					enable_options_key_for_unit = "l39c_common_enabled"
+				},
+				["L-39ZA"] = {
+					enable_options_key_for_unit = "l39za_enabled"
+				},
+				["M-2000C"] = {
+					enable_options_key_for_unit = "miraj_enabled"
+				},
+				["Mi-24P"] = {
+					enable_options_key_for_unit = "mi24p_enabled"
+				},
+				["Mi-8MT"] = {
+					enable_options_key_for_unit = "mi8_common_enabled"
+				},
+				["MiG-15bis"] = {
+					enable_options_key_for_unit = "mig15bis_enabled"
+				},
+				["MiG-21bis"] = {
+					enable_options_key_for_unit = "mig21bis_enabled"
+				},
+				["MiG-29A"] = {
+					enable_options_key_for_unit = "mig29a_enabled"
+				},
+				["MiG-29G"] = {
+					enable_options_key_for_unit = "mig29g_enabled"
+				},
+				["MiG-29S"] = {
+					enable_options_key_for_unit = "mig29s_enabled"
+				},
+				["P-51D"] = {
+					enable_options_key_for_unit = "p51d_enabled"
+				},
+				SA342L = {
+					enable_options_key_for_unit = "sa342_enabled"
+				},
+				SA342M = {
+					enable_options_key_for_unit = "sa342_enabled"
+				},
+				SA342Minigun = {
+					enable_options_key_for_unit = "sa342_enabled"
+				},
+				SA342Mistral = {
+					enable_options_key_for_unit = "sa342_enabled"
+				},
+				SpitfireLFMkIX = {
+					enable_options_key_for_unit = "SpitfireLFMkIX_enabled"
+				},
+				SpitfireLFMkIXCW = {
+					enable_options_key_for_unit = "SpitfireLFMkIXCW_enabled"
+				},
+				["Su-25"] = {
+					enable_options_key_for_unit = "su25_enabled"
+				},
+				["Su-25T"] = {
+					enable_options_key_for_unit = "su25t_enabled"
+				},
+				["Su-27"] = {
+					enable_options_key_for_unit = "su27_enabled"
+				},
+				["Su-33"] = {
+					enable_options_key_for_unit = "su33_enabled"
+				},
+				["TF-51D"] = {
+					enable_options_key_for_unit = "tf51d_enabled"
+				},
+				["UH-1H"] = {
+					enable_options_key_for_unit = "uh1h_enabled"
+				},
+				["Yak-52"] = {
+					enable_options_key_for_unit = "yak52_enabled"
+				}
+			}
+		} },
+	HumanCommPanelPath = "./Mods/aircraft/Mirage-F1/Comm/comm.lua",
+	HumanFM = { "Mirage F1 by Aerges", "MirageF1cmn",
+		center_of_mass = { -1.425, -0.096, 0 },
+		disable_built_in_oxygen_system = true,
+		gyro_effect = true,
+		moment_of_inertia = { 8206, 70591, 65780, 2729 },
+		rigid_body_back_damper_force_factor = 153226.66666667,
+		rigid_body_default_force_damage = 383066.66666667,
+		rigid_body_default_force_max = 766133.33333333,
+		rigid_body_default_spring_force_factor = 1838720,
+		rigid_body_direct_damper_force_factor = 91936,
+		suspension = { {
+				allowable_hard_contact_length = 0.1,
+				amortizer_back_damper_force_factor = 8000,
+				amortizer_basic_length = 0.3,
+				amortizer_direct_damper_force_factor = 10000,
+				amortizer_max_length = 0.3,
+				amortizer_min_length = 0,
+				amortizer_reduce_length = 0.004,
+				amortizer_spring_force_factor = 1350000,
+				amortizer_spring_force_factor_rate = 2.65,
+				amortizer_static_force = 6500,
+				arg_amortizer = 1,
+				arg_post = 0,
+				arg_wheel_damage = 134,
+				arg_wheel_rotation = 101,
+				arg_wheel_yaw = 2,
+				axle_angle = 0,
+				damage_element = 83,
+				damage_omega = 30,
+				damper_coeff = 300,
+				drag_factor = 0,
+				influence_of_pos_z_to_V_l_z = false,
+				mass = 83,
+				moment_limit = 0,
+				noise_k = 0.4,
+				self_attitude = false,
+				track_width = 0.2,
+				wheel_axle_offset = 0.05,
+				wheel_damage_delta_speedX = 28,
+				wheel_damage_force_factor = 250,
+				wheel_damage_speedX = 90,
+				wheel_glide_friction_factor = 0.28,
+				wheel_ground_block_flag = false,
+				wheel_kz_factor = 0,
+				wheel_moment_of_inertia = 0.6,
+				wheel_radius = 0.17,
+				wheel_roll_friction_factor = 0.02,
+				wheel_side_friction_factor = 0.65,
+				wheel_static_friction_factor = 0.9,
+				yaw_limit = 0.78539816339745
+			}, {
+				allowable_hard_contact_length = 0.2,
+				amortizer_back_damper_force_factor = 40000,
+				amortizer_basic_length = 0.21,
+				amortizer_direct_damper_force_factor = 60000,
+				amortizer_max_length = 0.21,
+				amortizer_min_length = 0,
+				amortizer_reduce_length = 0.008,
+				amortizer_spring_force_factor = 1885000,
+				amortizer_spring_force_factor_rate = 1.755,
+				amortizer_static_force = 30000,
+				anti_skid_installed = true,
+				arg_amortizer = 6,
+				arg_post = 5,
+				arg_wheel_damage = 136,
+				arg_wheel_rotation = 103,
+				damage_element = 84,
+				drag_factor = 0,
+				influence_of_pos_z_to_V_l_z = true,
+				mass = 210,
+				noise_k = 0.4,
+				track_width = 0.3,
+				wheel_axle_offset = 0.25,
+				wheel_brake_moment_max = 8500,
+				wheel_damage_delta_speedX = 28,
+				wheel_damage_force_factor = 250,
+				wheel_damage_speedX = 90,
+				wheel_glide_friction_factor = 0.28,
+				wheel_ground_block_flag = true,
+				wheel_kz_factor = 0,
+				wheel_moment_of_inertia = 4.95,
+				wheel_radius = 0.3,
+				wheel_roll_friction_factor = 0.02,
+				wheel_side_friction_factor = 0.65,
+				wheel_static_friction_factor = 0.9
+			}, {
+				allowable_hard_contact_length = 0.2,
+				amortizer_back_damper_force_factor = 40000,
+				amortizer_basic_length = 0.21,
+				amortizer_direct_damper_force_factor = 60000,
+				amortizer_max_length = 0.21,
+				amortizer_min_length = 0,
+				amortizer_reduce_length = 0.008,
+				amortizer_spring_force_factor = 1885000,
+				amortizer_spring_force_factor_rate = 1.755,
+				amortizer_static_force = 30000,
+				anti_skid_installed = true,
+				arg_amortizer = 4,
+				arg_post = 3,
+				arg_wheel_damage = 135,
+				arg_wheel_rotation = 102,
+				damage_element = 85,
+				drag_factor = 0,
+				influence_of_pos_z_to_V_l_z = true,
+				mass = 210,
+				noise_k = 0.4,
+				track_width = 0.3,
+				wheel_axle_offset = 0.25,
+				wheel_brake_moment_max = 8500,
+				wheel_damage_delta_speedX = 28,
+				wheel_damage_force_factor = 250,
+				wheel_damage_speedX = 90,
+				wheel_glide_friction_factor = 0.28,
+				wheel_ground_block_flag = true,
+				wheel_kz_factor = 0,
+				wheel_moment_of_inertia = 4.95,
+				wheel_radius = 0.3,
+				wheel_roll_friction_factor = 0.02,
+				wheel_side_friction_factor = 0.65,
+				wheel_static_friction_factor = 0.9
+			} },
+		zeroize_amortizers_before_collision_check = true
+	},
 	HumanRadio = {
 		editable = true,
 		frequency = 127.5,
@@ -1455,11 +1731,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	IR_emission_coeff = 0.8,
 	IR_emission_coeff_ab = 3,
 	M_empty = 7887,
-	M_fuel_max = 3356,
+	M_fuel_max = 3246,
 	M_max = 16200,
 	M_nominal = 11492,
 	Mach_max = 2.1,
-	MaxFuelWeight = 3356,
+	MaxFuelWeight = 3246,
 	MaxHeight = 15240,
 	MaxSpeed = 1389.6,
 	MaxTakeOffWeight = 16200,
@@ -1997,7 +2273,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{S530F}",
-					arg_value = 0.15,
+					arg_value = 0.25,
+					attach_point_position = { 0, -0.1, 0 },
+					forbidden = { {
+							loadout = { "{R530F_EM}" },
+							station = 4
+						}, {
+							loadout = { "{R530F_IR}" },
+							station = 4
+						} },
 					required = { {
 							loadout = { "{S530F}" },
 							station = 5
@@ -2021,6 +2305,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.15,
 					required = { {
 							loadout = { "PTB-1200-F1" },
+							station = 5
+						} }
+				}, {
+					CLSID = "PTB-1200-F1-EMPTY",
+					arg_value = 0.15,
+					required = { {
+							loadout = { "PTB-1200-F1-EMPTY" },
 							station = 5
 						} }
 				} },
@@ -2103,9 +2394,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 5
 						} }
 				}, {
-					CLSID = "PTB-1200-F1",
-					arg_value = 0.15
-				}, {
 					CLSID = "{CLB4_MK82}",
 					arg_value = 0.35
 				}, {
@@ -2126,6 +2414,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{CLB4_SAMP400HD}",
 					arg_value = 0.35
+				}, {
+					CLSID = "PTB-1200-F1",
+					arg_value = 0.15
+				}, {
+					CLSID = "PTB-1200-F1-EMPTY",
+					arg_value = 0.15
 				} },
 			Number = 4,
 			Order = 4,
@@ -2380,10 +2674,18 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{S530F}",
-					arg_value = 0.15,
+					arg_value = 0.25,
+					attach_point_position = { 0, -0.1, 0 },
+					forbidden = { {
+							loadout = { "{R530F_EM}" },
+							station = 4
+						}, {
+							loadout = { "{R530F_IR}" },
+							station = 4
+						} },
 					required = { {
 							loadout = { "{S530F}" },
-							station = 5
+							station = 3
 						} }
 				}, {
 					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
@@ -2404,6 +2706,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.15,
 					required = { {
 							loadout = { "PTB-1200-F1" },
+							station = 3
+						} }
+				}, {
+					CLSID = "PTB-1200-F1-EMPTY",
+					arg_value = 0.15,
+					required = { {
+							loadout = { "PTB-1200-F1-EMPTY" },
 							station = 3
 						} }
 				} },
@@ -2742,7 +3051,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		RWR = "Abstract RWR"
 	},
 	Shape = "Mirage-F1",
-	SnapViews = { <4>{ <5>{
+	SnapViews = { <5>{ <6>{
 				hAngle = 0,
 				rollAngle = 0,
 				vAngle = -10,
@@ -2782,7 +3091,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				x_trans = 0.199877,
 				y_trans = -0.099924,
 				z_trans = 0
-			}, <table 5>, {
+			}, <table 6>, {
 				hAngle = -38.423161,
 				rollAngle = 0,
 				vAngle = -38.28899,
@@ -2830,7 +3139,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				x_trans = 0,
 				y_trans = 0,
 				z_trans = 0
-			}, <table 5> }, <table 4> },
+			}, <table 6> }, <table 5> },
 	Tasks = { {
 			Name = "Ground Attack",
 			OldID = "Ground Attack",
@@ -2899,8 +3208,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	WingSpan = 8.4,
 	WorldID = 303,
 	_file = "./CoreMods/aircraft/Mirage-F1/Mirage-F1EE.lua",
+	_file_flyable = "./Mods/aircraft/Mirage-F1/entry.lua",
 	_origin = "Mirage F1 Assets by Aerges",
-	air_refuel_receptacle_pos = { 5.74, 0.532, 0.363 },
+	_origin_flyable = "Mirage F1 by Aerges",
+	air_refuel_receptacle_pos = { 5.818, 0.483, 0.311 },
 	attribute = { 1, 1, 1, "Redacted", "Multirole fighters", "Refuelable", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },
 	average_fuel_consumption = 0.5,
 	bank_angle_max = 85,
@@ -3057,7 +3368,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			DuplicateOf = "Door0"
 		}
 	},
-	net_animation = { 11, 12, 13, 14, 15, 16, 18, 28, 35, 36, 37, 38, 69, 75, 83, 86, 90, 115, 116, 117, 120, 123, 126, 127, 128, 129, 149, 182, 184, 190, 191, 201, 209, 282, 283, 284, 285, 308, 309, 310, 311, 312, 313, 314, 338, 339, 340, 341, 427, 705, 750, 751, 752, 753, 754, 755, 780, 781, 782, 802, 803, 844, 845, 905, 911, 924, 925, 926, 970, 971, 972, 973, 974, 975 },
+	net_animation = { 11, 12, 13, 14, 15, 16, 18, 28, 35, 36, 37, 38, 69, 75, 83, 86, 90, 115, 116, 117, 120, 123, 126, 127, 128, 129, 149, 182, 184, 190, 191, 201, 209, 282, 283, 284, 285, 308, 309, 310, 311, 312, 313, 314, 338, 339, 340, 341, 427, 705, 750, 751, 752, 753, 754, 755, 780, 781, 782, 802, 803, 844, 845, 905, 911, 924, 925, 926, 970, 971, 972, 973, 974, 975, 994 },
 	nose_gear_amortizer_direct_stroke = 0.141,
 	nose_gear_amortizer_normal_weight_stroke = -0.00311633945,
 	nose_gear_amortizer_reversal_stroke = -0.162,

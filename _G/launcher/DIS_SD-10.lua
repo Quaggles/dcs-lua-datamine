@@ -1,7 +1,7 @@
 _G["launcher"]["DIS_SD-10"] = {
 	CLSID = "DIS_SD-10",
 	Count = 1,
-	Cx_pil = 0.000859765625,
+	Cx_pil = 0.00064453124,
 	Elements = { {
 			DrawArgs = { { 1, 1 }, { 2, 1 } },
 			Position = { 0, 0, 0 },

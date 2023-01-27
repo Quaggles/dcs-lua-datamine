@@ -1,5 +1,5 @@
 _G["rockets"]["#Index"] = {
-	Cx_pil = 2,
+	Cx_pil = 2.2,
 	D_max = 65000,
 	D_min = 1000,
 	Damage = 102,
@@ -170,9 +170,7 @@ _G["rockets"]["#Index"] = {
 			life = 1,
 			name = "PL-12",
 			username = "PL-12"
-		},
-		index = "Redacted"
-	},
+		} },
 	sigma = { 5, 5, 5 },
 	supersonic_A_coef_skew = 0.1,
 	t_acc = 6,

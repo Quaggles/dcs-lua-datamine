@@ -16,6 +16,7 @@ _G["launcher"]["{Schloss500XIIC1_SC_250_T3_J}"] = {
 	displayName = "SC 250 Type 3 J - 250kg GP Bomb LD",
 	name = "{Schloss500XIIC1_SC_250_T3_J}",
 	settings = { {
+			baseDim = "",
 			control = "comboList",
 			defValue = 1,
 			dimension = "",
@@ -33,6 +34,7 @@ _G["launcher"]["{Schloss500XIIC1_SC_250_T3_J}"] = {
 					id = "GUI_fuze_type",
 					value = 1
 				} },
+			baseDim = "",
 			control = "comboList",
 			defValue = 1,
 			dimension = "",

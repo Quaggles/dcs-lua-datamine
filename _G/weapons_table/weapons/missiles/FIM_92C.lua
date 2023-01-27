@@ -45,9 +45,9 @@ _G["weapons_table"]["weapons"]["missiles"]["FIM_92C"] = {
 			mass = 10.1,
 			maxAoa = 0.3
 		},
-		fuze_proximity = {
-			ignore_inp_armed = 0,
-			radius = 0
+		fuze = {
+			default_self_destruct_delay = 17,
+			fuze_time_sigma = 0.9
 		},
 		march = {
 			boost_factor = 0,
@@ -81,7 +81,7 @@ _G["weapons_table"]["weapons"]["missiles"]["FIM_92C"] = {
 		simple_IR_seeker = {
 			FOV = 0.034906585039887,
 			GimbLim = 0.5235987755983,
-			abs_err_val = 4,
+			abs_err_val = 1,
 			cooled = true,
 			delay = 0,
 			flag_dist = 150,
@@ -95,34 +95,23 @@ _G["weapons_table"]["weapons"]["missiles"]["FIM_92C"] = {
 		},
 		warhead = {
 			caliber = 70,
-			concrete_factors = { 1, 1, 1 },
+			concrete_factors = { 1.21, 1.21, 1 },
 			concrete_obj_factor = 0,
 			cumulative_factor = 0,
 			cumulative_thickness = 0,
-			expl_mass = 3,
+			expl_mass = 1.02,
 			fantom = 1,
+			fuel_dmg_coeff = 0,
 			mass = 3,
-			obj_factors = { 1, 1 },
-			other_factors = { 1, 1, 1 },
-			piercing_mass = 0.6,
-			time_self_destruct = 17
+			obj_factors = { 1.21, 1.21 },
+			other_factors = { 1.21, 1.21, 1.21 },
+			piercing_mass = 0.6
 		},
 		warhead_air = {
-			caliber = 70,
-			concrete_factors = { 1, 1, 1 },
-			concrete_obj_factor = 0,
-			cumulative_factor = 0,
-			cumulative_thickness = 0,
-			expl_mass = 3,
-			fantom = 1,
-			mass = 3,
-			obj_factors = { 1, 1 },
-			other_factors = { 1, 1, 1 },
-			piercing_mass = 0.6,
-			time_self_destruct = 17
+			fantom = 1
 		}
 	},
-	display_name = "FIM-92B",
+	display_name = "FIM-92C Stinger",
 	mass = 10.1,
 	model = "fim-92",
 	name = "FIM_92C",
@@ -169,9 +158,9 @@ _G["weapons_table"]["weapons"]["missiles"]["FIM_92C"] = {
 			mass = 10.1,
 			maxAoa = 0.3
 		},
-		fuze_proximity = {
-			ignore_inp_armed = 0,
-			radius = 0
+		fuze = {
+			default_self_destruct_delay = 17,
+			fuze_time_sigma = 0.9
 		},
 		march = {
 			boost_factor = 0,
@@ -205,7 +194,7 @@ _G["weapons_table"]["weapons"]["missiles"]["FIM_92C"] = {
 		simple_IR_seeker = {
 			FOV = 0.034906585039887,
 			GimbLim = 0.5235987755983,
-			abs_err_val = 4,
+			abs_err_val = 1,
 			cooled = true,
 			delay = 0,
 			flag_dist = 150,
@@ -219,31 +208,20 @@ _G["weapons_table"]["weapons"]["missiles"]["FIM_92C"] = {
 		},
 		warhead = {
 			caliber = 70,
-			concrete_factors = { 1, 1, 1 },
+			concrete_factors = { 1.21, 1.21, 1 },
 			concrete_obj_factor = 0,
 			cumulative_factor = 0,
 			cumulative_thickness = 0,
-			expl_mass = 3,
+			expl_mass = 1.02,
 			fantom = 0,
+			fuel_dmg_coeff = 0,
 			mass = 3,
-			obj_factors = { 1, 1 },
-			other_factors = { 1, 1, 1 },
-			piercing_mass = 0.6,
-			time_self_destruct = 17
+			obj_factors = { 1.21, 1.21 },
+			other_factors = { 1.21, 1.21, 1.21 },
+			piercing_mass = 0.6
 		},
 		warhead_air = {
-			caliber = 70,
-			concrete_factors = { 1, 1, 1 },
-			concrete_obj_factor = 0,
-			cumulative_factor = 0,
-			cumulative_thickness = 0,
-			expl_mass = 3,
-			fantom = 0,
-			mass = 3,
-			obj_factors = { 1, 1 },
-			other_factors = { 1, 1, 1 },
-			piercing_mass = 0.6,
-			time_self_destruct = 17
+			fantom = 0
 		}
 	},
 	sounderName = "Weapons/Missile",

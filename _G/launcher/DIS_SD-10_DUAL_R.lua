@@ -1,7 +1,7 @@
 _G["launcher"]["DIS_SD-10_DUAL_R"] = {
 	CLSID = "DIS_SD-10_DUAL_R",
 	Count = 2,
-	Cx_pil = 0.00112629296875,
+	Cx_pil = 0.00150390623,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "JF-17_PF12_twin"

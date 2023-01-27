@@ -1744,6 +1744,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				CameraViewAngleLimits = { 20, 100 },
 				CockpitLocalPoint = { 0, 0, 0 },
 				CockpitLocalPointAzimuth = 90,
+				ExternalShapeUsed = true,
 				EyePoint = { 0.09, 0, 0 },
 				limits_6DOF = {
 					roll = 45,

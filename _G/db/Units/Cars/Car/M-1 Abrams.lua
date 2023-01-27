@@ -29,6 +29,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				width = 0.02
 			}
 		}, {
+			area_name = "TURRET_TOP_F",
+			armour = {
+				width = 0.02
+			}
+		}, {
 			area_name = "TURRET_BOTTOM",
 			armour = {
 				width = 0.02
@@ -41,7 +46,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		}, {
 			area_name = "BODY_FRONT",
 			armour = {
-				width = 0.8
+				width = 0.5
 			}
 		}, {
 			area_name = "BODY",

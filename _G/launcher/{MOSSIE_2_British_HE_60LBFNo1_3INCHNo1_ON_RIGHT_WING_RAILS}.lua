@@ -21,6 +21,7 @@ _G["launcher"]["{MOSSIE_2_British_HE_60LBFNo1_3INCHNo1_ON_RIGHT_WING_RAILS}"] = 
 	displayName = "2 x RP-3 60lb F No1 Mk.I",
 	pilon_jettison_option = 3,
 	settings = { {
+			baseDim = "",
 			control = "comboList",
 			defValue = 1,
 			dimension = "",

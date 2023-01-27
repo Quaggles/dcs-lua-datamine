@@ -62,7 +62,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	enablePlayerCanDrive = true,
 	mapclasskey = "P0091000004",
 	sensor = {
-		height = 1.7
+		height = 1.6
 	},
 	shape_table_data = { {
 			classname = "lLandVehicle",

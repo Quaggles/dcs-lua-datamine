@@ -142,36 +142,30 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	Gamma_max = 0.35,
 	Height = 53.41,
 	HelicopterSpawnTerminal = { {
-			Points = { { { -93.6, 14.709, 10.5 }, 0 } },
+			Points = { { { 45.8, 14.709, -14.7 }, 0 } },
 			TerminalIdx = 1
 		}, {
-			Points = { { { -65.5, 14.709, 10.9 }, 0 } },
+			Points = { { { 8, 14.709, -14.3 }, 0 } },
 			TerminalIdx = 2
 		}, {
 			Points = { { { -26.3, 14.709, -13.9 }, 0 } },
 			TerminalIdx = 3
 		}, {
-			Points = { { { 8, 14.709, -14.3 }, 0 } },
+			Points = { { { -65.4, 14.709, -13.1 }, 0 } },
 			TerminalIdx = 4
 		}, {
-			Points = { { { 45.8, 14.709, -14.7 }, 0 } },
+			Points = { { { -93.4, 14.709, -12.4 }, 0 } },
 			TerminalIdx = 5
 		}, {
-			Points = { { { -65.4, 14.709, -13.1 }, 0 } },
+			Points = { { { -65.5, 14.709, 10.9 }, 0 } },
 			TerminalIdx = 6
 		}, {
-			Points = { { { -93.4, 14.709, -12.4 }, 0 } },
+			Points = { { { -93.6, 14.709, 10.5 }, 0 } },
 			TerminalIdx = 7
-		}, {
-			Points = { { { -79.4, 14.709, -12.9 }, 0 } },
-			TerminalIdx = 8
-		}, {
-			Points = { { { -79.2, 14.709, 10.9 }, 0 } },
-			TerminalIdx = 9
 		},
-		TerminalNumber = 9
+		TerminalNumber = 7
 	},
-	Helicopter_Num_ = 9,
+	Helicopter_Num_ = 6,
 	Landing_Point = { -97, 14.709, -9.952 },
 	Length = 236,
 	Name = "HMS Invincible (R05)",

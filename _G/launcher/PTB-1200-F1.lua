@@ -1,5 +1,6 @@
 _G["launcher"]["PTB-1200-F1"] = {
 	CLSID = "PTB-1200-F1",
+	Capacity = 898,
 	Cx_pil = 0.001,
 	Elements = { {
 			Position = { 0, 0, 0 },
@@ -7,7 +8,7 @@ _G["launcher"]["PTB-1200-F1"] = {
 			ShapeName = "PTB_1200_F1"
 		} },
 	Picture = "ftm1.png",
-	Weight = 1138,
+	Weight = 1149,
 	Weight_Empty = 251,
 	_file = "./CoreMods/aircraft/Mirage-F1/Weapons.lua",
 	_origin = "Mirage F1 Assets by Aerges",
@@ -22,6 +23,6 @@ _G["launcher"]["PTB-1200-F1"] = {
 			index = "Redacted",
 			life = 1,
 			name = "PTB_1200_F1",
-			username = "Mirage F1 Fuel Tank 1200 gal"
+			username = "Mirage F1 Fuel Tank 1200 l"
 		} }
 }

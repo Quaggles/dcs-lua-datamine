@@ -22,36 +22,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				} },
 			wCtrl = 150
 		}, {
-			arg = 457,
-			control = "checkbox",
-			defValue = true,
-			id = "ExhaustScreen",
-			label = "Exhaust IR suppressors",
-			weight = 160
-		}, {
-			control = "comboList",
-			defValue = 3,
-			id = "IMU alignment type",
-			label = "INS alignment type",
-			playerOnly = true,
-			values = { {
-					dispName = "Fast alignment",
-					id = 1
-				}, {
-					dispName = "Normal alignment",
-					id = 2
-				}, {
-					dispName = "Normal alignment with gyrocompassing",
-					id = 3
-				} },
-			wCtrl = 150
-		}, {
-			control = "checkbox",
-			defValue = true,
-			id = "Realistic INS",
-			label = "Realistic INS",
-			playerOnly = true
-		}, {
 			control = "comboList",
 			defValue = 0,
 			id = "Helmet-mounted device",
@@ -66,6 +36,69 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				}, {
 					dispName = "NVG",
 					id = 2
+				} },
+			wCtrl = 150
+		}, {
+			arg = 457,
+			control = "checkbox",
+			defValue = true,
+			id = "ExhaustScreen",
+			label = "Exhaust IR suppressors",
+			weight = 160
+		}, {
+			control = "label",
+			id = "idPlaceHolder",
+			playerOnly = true
+		}, {
+			control = "label",
+			id = "idLabel",
+			label = "INS ALIGNMENT",
+			playerOnly = true,
+			xLbl = 150
+		}, {
+			control = "comboList",
+			defValue = 1,
+			id = "Realistic INS",
+			label = "Realism",
+			playerOnly = true,
+			values = { {
+					dispName = "No alignment and fixtaking needed",
+					guiAction = {
+						controls = { "IMU alignment type" },
+						onSelect = "disable"
+					},
+					id = 0
+				}, {
+					dispName = "No alignment needed but fixtaking",
+					guiAction = {
+						controls = { "IMU alignment type" },
+						onSelect = "enable"
+					},
+					id = 2
+				}, {
+					dispName = "Fully realistic",
+					guiAction = {
+						controls = { "IMU alignment type" },
+						onSelect = "enable"
+					},
+					id = 1
+				} },
+			wCtrl = 150
+		}, {
+			control = "comboList",
+			defValue = 3,
+			id = "IMU alignment type",
+			label = "At Hot Start",
+			playerOnly = true,
+			values = { {
+					dispName = "Fast",
+					id = 1
+				}, {
+					dispName = "Normal",
+					id = 2
+				}, {
+					dispName = "Normal with Gyro",
+					id = 3
 				} },
 			wCtrl = 150
 		} },
@@ -934,10 +967,11 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			DisplayName = "AAM L",
 			Launchers = <6>{ {
 					CLSID = "{9S846_2xIGLA}",
-					add_mass = 50,
+					add_mass = 25.8,
 					arg_value = 0
 				}, {
 					CLSID = "<CLEAN>",
+					add_mass = -25,
 					arg_value = 1
 				} },
 			Number = 5,
@@ -949,6 +983,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			arg = 312,
 			arg_value = 0.5,
 			connector = "HardPoint-1",
+			mass = 25,
 			use_full_connector_position = true
 		}, {
 			DisplayName = "AAM R",
@@ -962,6 +997,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			arg = 313,
 			arg_value = 0.5,
 			connector = "HardPoint-6",
+			mass = 25,
 			use_full_connector_position = true
 		} },
 	RCS = 5,
@@ -1687,7 +1723,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			name = "KA-50-OBLOMOK"
 		} },
 	sound_name = "Aircrafts/Engines/RotorKa50",
-	sounderName = "Aircraft/Helicopters/Ka-50",
 	stores_number = 4,
 	swapped_names = true,
 	tail_fin_area = 1.45,

@@ -24,6 +24,7 @@ _G["launcher"]["{British_MC_500LB_Bomb_Mk1_Short_on_Handley_Page_Type_B_Cut_Bar}
 	displayName = "500 lb MC Short tail",
 	name = "{British_MC_500LB_Bomb_Mk1_Short_on_Handley_Page_Type_B_Cut_Bar}",
 	settings = { {
+			baseDim = "",
 			control = "comboList",
 			defValue = 1,
 			dimension = "",
@@ -47,6 +48,7 @@ _G["launcher"]["{British_MC_500LB_Bomb_Mk1_Short_on_Handley_Page_Type_B_Cut_Bar}
 					id = "GUI_fuze_type",
 					value = 3
 				} },
+			baseDim = "s",
 			control = "comboList",
 			defValue = 0,
 			dimension = "s",
@@ -73,6 +75,7 @@ _G["launcher"]["{British_MC_500LB_Bomb_Mk1_Short_on_Handley_Page_Type_B_Cut_Bar}
 					id = "GUI_fuze_type",
 					value = 2
 				} },
+			baseDim = "s",
 			control = "comboList",
 			defValue = 0,
 			dimension = "s",
@@ -99,6 +102,7 @@ _G["launcher"]["{British_MC_500LB_Bomb_Mk1_Short_on_Handley_Page_Type_B_Cut_Bar}
 					id = "GUI_fuze_type",
 					value = 1
 				} },
+			baseDim = "s",
 			control = "comboList",
 			defValue = 0,
 			dimension = "s",

@@ -14,6 +14,7 @@ _G["launcher"]["{British_SAP_250LB_Bomb_Mk5}"] = {
 	category = 1,
 	displayName = "250 lb S.A.P.",
 	settings = { {
+			baseDim = "",
 			control = "comboList",
 			defValue = 1,
 			dimension = "",
@@ -31,6 +32,7 @@ _G["launcher"]["{British_SAP_250LB_Bomb_Mk5}"] = {
 					id = "GUI_fuze_type",
 					value = 1
 				} },
+			baseDim = "s",
 			control = "comboList",
 			defValue = 0,
 			dimension = "s",

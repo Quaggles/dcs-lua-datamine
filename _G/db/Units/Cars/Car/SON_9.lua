@@ -14,6 +14,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	WS = { {
 			LN = { {
 					ECM_K = 0.5,
+					beamWidth = 1.5707963267949,
 					distanceMax = 55000,
 					distanceMin = 100,
 					max_trg_alt = 14000,
@@ -22,7 +23,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					reflection_limit = 0.01,
 					type = 103
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 1.3962634015955 } },
+			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 1.5707963267949 } },
 			drawArgument1 = 0,
 			drawArgument2 = 1,
 			omegaY = 2.5,
@@ -61,7 +62,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						magnification = 24,
 						type = 1
 					},
-					sightMaxTanVel = 200
+					sightMaxTanVel = 220
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 1.3962634015955 } },
 			omegaY = 1,

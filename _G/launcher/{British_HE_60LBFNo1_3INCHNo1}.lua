@@ -15,6 +15,7 @@ _G["launcher"]["{British_HE_60LBFNo1_3INCHNo1}"] = {
 	displayName = "RP-3 60lb F No1 Mk.I",
 	name = "{British_HE_60LBFNo1_3INCHNo1}",
 	settings = { {
+			baseDim = "",
 			control = "comboList",
 			defValue = 1,
 			dimension = "",

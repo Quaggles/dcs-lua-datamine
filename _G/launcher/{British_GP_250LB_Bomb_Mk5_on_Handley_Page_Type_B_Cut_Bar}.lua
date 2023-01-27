@@ -24,6 +24,7 @@ _G["launcher"]["{British_GP_250LB_Bomb_Mk5_on_Handley_Page_Type_B_Cut_Bar}"] = {
 	displayName = "250 lb GP Mk.V",
 	name = "{British_GP_250LB_Bomb_Mk5_on_Handley_Page_Type_B_Cut_Bar}",
 	settings = { {
+			baseDim = "",
 			control = "comboList",
 			defValue = 1,
 			dimension = "",

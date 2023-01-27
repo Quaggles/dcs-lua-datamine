@@ -251,20 +251,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			max = 8,
 			min = 1,
 			playerOnly = true
-		}, {
-			control = "comboList",
-			defValue = 1,
-			id = "INSStartMode",
-			label = "INS always starts with the correct coordinates",
-			playerOnly = true,
-			values = { {
-					dispName = "YES",
-					id = 1
-				}, {
-					dispName = "NO",
-					id = 2
-				} },
-			wCtrl = 75
 		} },
 	AmmoWeight = 153.09,
 	CAS_min = 50,
@@ -1914,7 +1900,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{S530F}",
-					arg_value = 0.15,
+					arg_value = 0.25,
+					attach_point_position = { 0, -0.1, 0 },
+					forbidden = { {
+							loadout = { "{R530F_EM}" },
+							station = 4
+						}, {
+							loadout = { "{R530F_IR}" },
+							station = 4
+						} },
 					required = { {
 							loadout = { "{S530F}" },
 							station = 5
@@ -2254,7 +2248,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{S530F}",
-					arg_value = 0.15,
+					arg_value = 0.25,
+					attach_point_position = { 0, -0.1, 0 },
+					forbidden = { {
+							loadout = { "{R530F_EM}" },
+							station = 4
+						}, {
+							loadout = { "{R530F_IR}" },
+							station = 4
+						} },
 					required = { {
 							loadout = { "{S530F}" },
 							station = 3
@@ -2582,7 +2584,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	WorldID = 307,
 	_file = "./CoreMods/aircraft/Mirage-F1/Mirage-F1EH.lua",
 	_origin = "Mirage F1 Assets by Aerges",
-	air_refuel_receptacle_pos = { 5.74, 0.532, 0.363 },
+	air_refuel_receptacle_pos = { 5.818, 0.483, 0.311 },
 	attribute = { 1, 1, 1, "Redacted", "Multirole fighters", "Refuelable", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },
 	average_fuel_consumption = 0.5,
 	bank_angle_max = 85,
@@ -2739,7 +2741,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			DuplicateOf = "Door0"
 		}
 	},
-	net_animation = { 11, 12, 13, 14, 15, 16, 18, 28, 35, 36, 37, 38, 69, 75, 83, 86, 90, 115, 116, 117, 120, 123, 126, 127, 128, 129, 149, 182, 184, 190, 191, 201, 209, 282, 283, 284, 285, 308, 309, 310, 311, 312, 313, 314, 338, 339, 340, 341, 427, 705, 750, 751, 752, 753, 754, 755, 780, 781, 782, 802, 803, 844, 845, 905, 911, 924, 925, 926, 970, 971, 972, 973, 974, 975 },
+	net_animation = { 11, 12, 13, 14, 15, 16, 18, 28, 35, 36, 37, 38, 69, 75, 83, 86, 90, 115, 116, 117, 120, 123, 126, 127, 128, 129, 149, 182, 184, 190, 191, 201, 209, 282, 283, 284, 285, 308, 309, 310, 311, 312, 313, 314, 338, 339, 340, 341, 427, 705, 750, 751, 752, 753, 754, 755, 780, 781, 782, 802, 803, 844, 845, 905, 911, 924, 925, 926, 970, 971, 972, 973, 974, 975, 994 },
 	nose_gear_amortizer_direct_stroke = 0.141,
 	nose_gear_amortizer_normal_weight_stroke = -0.00311633945,
 	nose_gear_amortizer_reversal_stroke = -0.162,

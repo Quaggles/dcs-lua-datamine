@@ -568,6 +568,13 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	race_distance = 1500000,
 	race_velocity = 18,
 	riverCraft = true,
+	sensor = {
+		max_alt_finding_target = 5000,
+		max_range_finding_target = 10000,
+		min_alt_finding_target = 0,
+		min_range_finding_target = 0,
+		pos = { 9, 4.2, 0 }
+	},
 	shape_table_data = { {
 			classname = "lLandVehicle",
 			desrt = "",

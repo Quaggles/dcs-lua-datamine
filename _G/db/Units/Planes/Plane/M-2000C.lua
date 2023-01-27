@@ -1160,7 +1160,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{SAMP250LD}",
-					Cx_gain = 0.1,
+					Cx_gain = 0.14,
 					arg_value = 0.35,
 					attach_point_position = { -0.28, -0.16, 0 },
 					required = { {
@@ -1169,7 +1169,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{SAMP250HD}",
-					Cx_gain = 0.1,
+					Cx_gain = 0.14,
 					arg_value = 0.35,
 					attach_point_position = { -0.33, -0.16, 0 },
 					required = { {
@@ -1319,7 +1319,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{SAMP250LD}",
-					Cx_gain = 0.1,
+					Cx_gain = 0.14,
 					arg_value = 0.15,
 					attach_point_position = { -0.28, -0.15, 0 },
 					required = { {
@@ -1334,7 +1334,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{SAMP250HD}",
-					Cx_gain = 0.1,
+					Cx_gain = 0.14,
 					arg_value = 0.15,
 					attach_point_position = { -0.33, -0.15, 0 },
 					required = { {
@@ -1417,7 +1417,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{SAMP250LD}",
-					Cx_gain = 0.1,
+					Cx_gain = 0.14,
 					arg_value = 0.15,
 					attach_point_position = { -0.28, -0.16, 0 },
 					required = { {
@@ -1432,7 +1432,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{SAMP250HD}",
-					Cx_gain = 0.1,
+					Cx_gain = 0.14,
 					arg_value = 0.15,
 					attach_point_position = { -0.33, -0.16, 0 },
 					required = { {
@@ -1663,7 +1663,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{SAMP250LD}",
-					Cx_gain = 0.1,
+					Cx_gain = 0.14,
 					arg_value = 0.15,
 					attach_point_position = { -0.28, -0.16, 0 },
 					required = { {
@@ -1678,7 +1678,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{SAMP250HD}",
-					Cx_gain = 0.1,
+					Cx_gain = 0.14,
 					arg_value = 0.15,
 					attach_point_position = { -0.33, -0.16, 0 },
 					required = { {
@@ -1774,7 +1774,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{SAMP250LD}",
-					Cx_gain = 0.1,
+					Cx_gain = 0.14,
 					arg_value = 0.15,
 					attach_point_position = { -0.28, -0.15, 0 },
 					required = { {
@@ -1789,7 +1789,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{SAMP250HD}",
-					Cx_gain = 0.1,
+					Cx_gain = 0.14,
 					arg_value = 0.15,
 					attach_point_position = { -0.33, -0.15, 0 },
 					required = { {
@@ -1871,7 +1871,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{SAMP250LD}",
-					Cx_gain = 0.1,
+					Cx_gain = 0.14,
 					arg_value = 0.35,
 					attach_point_position = { -0.28, -0.16, 0 },
 					required = { {
@@ -1880,7 +1880,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{SAMP250HD}",
-					Cx_gain = 0.1,
+					Cx_gain = 0.14,
 					arg_value = 0.35,
 					attach_point_position = { -0.33, -0.16, 0 },
 					required = { {

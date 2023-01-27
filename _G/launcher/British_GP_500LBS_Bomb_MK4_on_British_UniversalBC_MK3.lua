@@ -18,6 +18,7 @@ _G["launcher"]["British_GP_500LBS_Bomb_MK4_on_British_UniversalBC_MK3"] = {
 	displayName = "500 lb GP Mk.I",
 	name = "British_GP_500LBS_Bomb_MK4_on_British_UniversalBC_MK3",
 	settings = { {
+			baseDim = "",
 			control = "comboList",
 			defValue = 1,
 			dimension = "",
@@ -38,6 +39,7 @@ _G["launcher"]["British_GP_500LBS_Bomb_MK4_on_British_UniversalBC_MK3"] = {
 					id = "GUI_fuze_type",
 					value = 1
 				} },
+			baseDim = "s",
 			control = "comboList",
 			defValue = 0,
 			dimension = "s",

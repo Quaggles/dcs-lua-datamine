@@ -43,6 +43,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	enablePlayerCanDrive = true,
 	mapclasskey = "P0091000212",
+	sensor = {
+		height = 1.68
+	},
 	shape_table_data = { {
 			classname = "lLandVehicle",
 			desrt = "horch_901_typ_40_kfz_21_p_1",

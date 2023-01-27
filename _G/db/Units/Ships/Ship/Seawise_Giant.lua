@@ -168,6 +168,13 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	race_velocity = 7.8,
 	radar1_period = 3,
 	radar2_period = 3,
+	sensor = {
+		max_alt_finding_target = 3000,
+		max_range_finding_target = 15000,
+		min_alt_finding_target = 0,
+		min_range_finding_target = 0,
+		pos = { 58, 17.5, 0 }
+	},
 	shape_table_data = { {
 			classname = "lLandVehicle",
 			desrt = "",

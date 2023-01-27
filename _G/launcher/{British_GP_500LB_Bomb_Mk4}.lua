@@ -14,6 +14,7 @@ _G["launcher"]["{British_GP_500LB_Bomb_Mk4}"] = {
 	category = 1,
 	displayName = "500 lb GP Mk.IV",
 	settings = { {
+			baseDim = "",
 			control = "comboList",
 			defValue = 1,
 			dimension = "",
@@ -37,6 +38,7 @@ _G["launcher"]["{British_GP_500LB_Bomb_Mk4}"] = {
 					id = "GUI_fuze_type",
 					value = 3
 				} },
+			baseDim = "s",
 			control = "comboList",
 			defValue = 0,
 			dimension = "s",
@@ -63,6 +65,7 @@ _G["launcher"]["{British_GP_500LB_Bomb_Mk4}"] = {
 					id = "GUI_fuze_type",
 					value = 2
 				} },
+			baseDim = "s",
 			control = "comboList",
 			defValue = 0,
 			dimension = "s",
@@ -89,6 +92,7 @@ _G["launcher"]["{British_GP_500LB_Bomb_Mk4}"] = {
 					id = "GUI_fuze_type",
 					value = 1
 				} },
+			baseDim = "s",
 			control = "comboList",
 			defValue = 0,
 			dimension = "s",

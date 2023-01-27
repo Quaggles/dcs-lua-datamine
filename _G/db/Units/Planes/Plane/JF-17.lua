@@ -3555,7 +3555,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		} },
 	crew_size = 1,
 	date_of_introduction = 2003.8,
-	detection_range_max = 125,
+	detection_range_max = 180,
 	effects_presets = { {
 			effect = "OVERWING_VAPOR",
 			file = "./CoreMods/aircraft/ChinaAssetPack/Effects/JF-17_overwingVapor.lua",

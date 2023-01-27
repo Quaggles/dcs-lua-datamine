@@ -4,89 +4,30 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	Categories = {},
 	Damage = {
 		[3] = {
-			args = { 65 },
-			critical_damage = 10
-		},
-		[4] = {
-			args = { 150 },
-			critical_damage = 10
-		},
-		[5] = {
-			args = { 149 },
-			critical_damage = 10
-		},
-		[7] = {
-			args = { 249 },
-			critical_damage = 4
-		},
-		[9] = {
-			args = { 154, 298, 299 },
-			critical_damage = 5
+			critical_damage = 7
 		},
 		[10] = {
-			args = { 153, 301, 302 },
-			critical_damage = 5
+			critical_damage = 20
 		},
 		[11] = {
-			args = { 167 },
-			critical_damage = 1
-		},
-		[12] = {
-			args = { 161 },
-			critical_damage = 1
-		},
-		[23] = {
-			args = { 223 },
-			critical_damage = 5
-		},
-		[24] = {
-			args = { 213 },
-			critical_damage = 5
-		},
-		[35] = {
-			args = { 224 },
-			critical_damage = 5,
-			deps_cells = { 23 }
-		},
-		[36] = {
-			args = { 214 },
-			critical_damage = 5,
-			deps_cells = { 24 }
-		},
-		[45] = {
-			args = { 235 },
-			critical_damage = 3
+			critical_damage = 15
 		},
 		[46] = {
-			args = { 233 },
-			critical_damage = 3
+			critical_damage = 7
 		},
 		[55] = {
-			args = { 159 },
-			critical_damage = 4,
-			deps_cells = { 45, 46 }
+			critical_damage = 10
 		},
-		[56] = {
-			args = { 81, 158 },
-			critical_damage = 14,
-			deps_cells = { 55, 45, 46 }
+		[61] = {
+			critical_damage = 10
 		},
-		[57] = {
-			args = { 81, 157 },
-			critical_damage = 14,
-			deps_cells = { 55, 45, 46 }
-		},
-		[59] = {
-			args = { 148 },
-			critical_damage = 5
-		},
-		[60] = {
-			args = { 144 },
-			critical_damage = 1
-		},
-		[82] = {
-			args = { 152 },
-			critical_damage = 3
+		cell_indices = {
+			["CH53-FON_3"] = 3,
+			["CH53-FUZ-GROT_3"] = 11,
+			["CH53-FUZ_3"] = 10,
+			["CH53-KIL_3"] = 55,
+			["CH53-OBTKL_3"] = 61,
+			["CH53-STAB_3"] = 46
 		}
 	},
 	DefaultTask = <1>{

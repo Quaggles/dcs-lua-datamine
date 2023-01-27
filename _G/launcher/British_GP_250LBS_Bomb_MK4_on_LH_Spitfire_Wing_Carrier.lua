@@ -18,6 +18,7 @@ _G["launcher"]["British_GP_250LBS_Bomb_MK4_on_LH_Spitfire_Wing_Carrier"] = {
 	displayName = "250 lb GP Mk.I",
 	name = "British_GP_250LBS_Bomb_MK4_on_LH_Spitfire_Wing_Carrier",
 	settings = { {
+			baseDim = "",
 			control = "comboList",
 			defValue = 1,
 			dimension = "",
@@ -38,6 +39,7 @@ _G["launcher"]["British_GP_250LBS_Bomb_MK4_on_LH_Spitfire_Wing_Carrier"] = {
 					id = "GUI_fuze_type",
 					value = 1
 				} },
+			baseDim = "s",
 			control = "comboList",
 			defValue = 0,
 			dimension = "s",

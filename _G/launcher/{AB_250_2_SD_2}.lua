@@ -14,6 +14,7 @@ _G["launcher"]["{AB_250_2_SD_2}"] = {
 	category = 1,
 	displayName = "AB 250-2 - 144 x SD-2, 250kg CBU with HE submunitions",
 	settings = { {
+			baseDim = "",
 			control = "comboList",
 			defValue = 1,
 			dimension = "",

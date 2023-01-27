@@ -1516,6 +1516,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "HarborTug"
 				}, {
 					Name = "Ship_Tilde_Supply"
+				}, {
+					Name = "BDK-775"
 				} }
 		},
 		WWIIstructures = {
