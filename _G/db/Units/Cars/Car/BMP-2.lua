@@ -59,7 +59,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			omegaZ = 0.69813170079773,
 			pointer = "POINT_SIGHT_1",
 			reference_angle_Y = 0,
-			reference_angle_Z = 0.17453292519943,
 			stabilizer = true
 		}, {
 			LN = { {
@@ -135,9 +134,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "BMP-2",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.0062, 0.00215 },
-				[5] = { 0.3, 0.00016666666666667 }
-			}
+			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.0062, 0.00215 }, { 0.001, 0.17 }, { 0.3, 0.00016666666666667 } }
 		},
 		agony_explosion_size = 3,
 		dirt_pos = { -2.9, 0.5, -1.28 },

@@ -3,6 +3,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			name = "Armed Ship"
 		} },
 	Countries = { "Germany", "Third Reich", "Japan", "Italian Social Republic", "Finland", "Hungary", "Romania", "Bulgaria" },
+	CustomAimPoint = { 2, 3, 0 },
 	DM = { {
 			area_arg = 70,
 			area_life = 100,

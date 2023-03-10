@@ -26,6 +26,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BLG66"] = {
 		control = {
 			open_delay = 1.3
 		},
+		display_name_short = "BLG-66",
 		explMass = 94,
 		fm = {
 			I = 281.84,
@@ -35,6 +36,8 @@ _G["weapons_table"]["weapons"]["bombs"]["BLG66"] = {
 			caliber = 0.36,
 			cx_coeff = { 1, 0.39, 0.6, 0.168, 1.31 },
 			mass = 305,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 15,
 			wind_time = 1000
 		},
@@ -273,6 +276,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BLG66"] = {
 		control = {
 			open_delay = 1.3
 		},
+		display_name_short = "BLG-66",
 		explMass = 94,
 		fm = {
 			I = 281.84,
@@ -282,6 +286,8 @@ _G["weapons_table"]["weapons"]["bombs"]["BLG66"] = {
 			caliber = 0.36,
 			cx_coeff = { 1, 0.39, 0.6, 0.168, 1.31 },
 			mass = 305,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 15,
 			wind_time = 1000
 		},

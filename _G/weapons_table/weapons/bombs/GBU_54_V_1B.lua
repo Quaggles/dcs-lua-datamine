@@ -64,6 +64,8 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_54_V_1B"] = {
 			mass = 253.1,
 			maxAoa = 0.43633231299858,
 			model_roll = -0.78539816339745,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 0,
 			wind_time = 0
 		},
@@ -176,6 +178,8 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_54_V_1B"] = {
 			mass = 253.1,
 			maxAoa = 0.43633231299858,
 			model_roll = -0.78539816339745,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 0,
 			wind_time = 0
 		},

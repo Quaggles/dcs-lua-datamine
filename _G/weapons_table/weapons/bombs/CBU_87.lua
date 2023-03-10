@@ -22,6 +22,8 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_87"] = {
 			caliber = 0.39624,
 			cx_coeff = { 1, 0.55, 0.8, 0.2, 1.5 },
 			mass = 420,
+			release_rnd = 0.15,
+			release_rnd_x = 0.45,
 			wind_sigma = 30,
 			wind_time = 1000
 		},
@@ -241,6 +243,8 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_87"] = {
 			caliber = 0.39624,
 			cx_coeff = { 1, 0.55, 0.8, 0.2, 1.5 },
 			mass = 420,
+			release_rnd = 0.15,
+			release_rnd_x = 0.45,
 			wind_sigma = 30,
 			wind_time = 1000
 		},

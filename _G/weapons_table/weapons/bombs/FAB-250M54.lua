@@ -29,6 +29,8 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB-250M54"] = {
 			cx_coeff = { 0.1, 0.29, 0.51, 0.54, 1.28 },
 			cx_factor = 1,
 			mass = 235,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 40
 		},
 		hMax = 20000,
@@ -94,6 +96,8 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB-250M54"] = {
 			cx_coeff = { 0.1, 0.29, 0.51, 0.54, 1.28 },
 			cx_factor = 1,
 			mass = 235,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 40
 		},
 		hMax = 20000,

@@ -1050,6 +1050,18 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "FPS-117",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "FPS-117 ECS",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "FPS-117 Dome",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Land_Rover_101_FC",
 					in_service = 0,
 					out_of_service = 40000
@@ -1079,18 +1091,6 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "Predator TrojanSpirit",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "FPS-117",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "FPS-117 ECS",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "FPS-117 Dome",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -2395,6 +2395,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "BDK-775",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "LST_Mk2",
 					in_service = 0,
 					out_of_service = 40000
@@ -2424,10 +2428,6 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "CV_1143_5",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "BDK-775",
 					in_service = 0,
 					out_of_service = 40000
 				}, {

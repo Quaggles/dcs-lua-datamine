@@ -22,6 +22,8 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_82"] = {
 			caliber = 0.273,
 			cx_coeff = { 1, 0.29, 0.71, 0.14, 1.28 },
 			mass = 228,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 80,
 			wind_time = 1000
 		},
@@ -71,6 +73,8 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_82"] = {
 			caliber = 0.273,
 			cx_coeff = { 1, 0.29, 0.71, 0.14, 1.28 },
 			mass = 228,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 80,
 			wind_time = 1000
 		},

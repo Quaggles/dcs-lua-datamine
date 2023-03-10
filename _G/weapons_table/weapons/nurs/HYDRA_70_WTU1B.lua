@@ -1,5 +1,6 @@
 _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_WTU1B"] = {
 	_unique_resource_name = "weapons.nurs.HYDRA_70_WTU1B",
+	caliber = 0.07,
 	client = {
 		engine = {
 			boost_factor = 1,
@@ -49,6 +50,7 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_WTU1B"] = {
 	cx_pil = 4.7679923901827e-05,
 	display_name = "HYDRA-70 WTU-1/B",
 	dist_max = 4000,
+	dist_max_ballistic = 8000,
 	dist_min = 500,
 	mass = 9.11,
 	model = "hydra_m156",

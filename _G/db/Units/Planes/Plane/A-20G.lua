@@ -2252,6 +2252,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			role_display_name = "Gunner / Radio Operator"
 		} },
 	date_of_introduction = 1943.5,
+	debrisGeneration = 1,
 	detection_range_max = 0,
 	doors_movement = 1,
 	doors_transmission = "Mechanical",
@@ -2281,8 +2282,157 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	height = 4.83,
 	length = 14.63,
 	lights_data = {
-		lights = {},
-		typename = "collection"
+		lights = {
+			[2] = {
+				lights = { {
+						lights = { {
+								argument = 208,
+								connector = "MAIN_SPOT_PTR",
+								movable = true,
+								proto = <16>{
+									angle_change_rate = 0.039269908169872,
+									angle_max = 0.15707963267949,
+									angle_min = 0.087266462599716,
+									color = { 255, 201, 125, 0.31793876913398 },
+									power_up_t = 1.75,
+									range = 4800
+								},
+								typename = "Spot"
+							}, {
+								angle_change_rate = -0.90757121103705,
+								angle_max = 2.3736477827123,
+								angle_min = 2.0245819323134,
+								connector = "MAIN_SPOT_PTR",
+								movable = true,
+								proto = <table 16>,
+								range = 24,
+								typename = "Spot"
+							}, {
+								connector = "MAIN_SPOT_PTR",
+								movable = true,
+								pos_correction = { 0.2, 0, 0 },
+								proto = <table 16>,
+								range = 6,
+								typename = "Omni"
+							} },
+						typename = "Collection"
+					}, {
+						lights = { {
+								argument = 209,
+								connector = "RESERV_SPOT_PTR",
+								movable = true,
+								proto = <table 16>,
+								typename = "Spot"
+							}, {
+								angle_change_rate = -0.90757121103705,
+								angle_max = 2.3736477827123,
+								angle_min = 2.0245819323134,
+								connector = "RESERV_SPOT_PTR",
+								movable = true,
+								proto = <table 16>,
+								range = 24,
+								typename = "Spot"
+							}, {
+								connector = "RESERV_SPOT_PTR",
+								movable = true,
+								pos_correction = { 0.2, 0, 0 },
+								proto = <table 16>,
+								range = 6,
+								typename = "Omni"
+							} },
+						typename = "Collection"
+					} },
+				typename = "Collection"
+			},
+			[3] = {
+				lights = { {
+						argument = 190,
+						connector = "BANO_2",
+						proto = {
+							angle_max = 2.6179938779915,
+							angle_min = 1.5707963267949,
+							color = { 1, 0.35, 0.15, 0.15 },
+							range = 40
+						},
+						typename = "Spot"
+					}, {
+						argument = 191,
+						connector = "BANO_1",
+						proto = {
+							angle_max = 2.6179938779915,
+							angle_min = 1.5707963267949,
+							color = { 0, 0.894, 0.6, 0.15 },
+							range = 40
+						},
+						typename = "Spot"
+					}, {
+						argument = 192,
+						connector = "BANO_0",
+						proto = {
+							angle_max = 3.1415926535898,
+							color = { 1, 1, 1, 0.155 },
+							range = 30
+						},
+						typename = "Spot"
+					} },
+				typename = "Collection"
+			},
+			[6] = {
+				lights = { {
+						lights = { {
+								argument = 208,
+								connector = "MAIN_SPOT_PTR",
+								movable = true,
+								proto = <table 16>,
+								typename = "Spot"
+							}, {
+								angle_change_rate = -0.90757121103705,
+								angle_max = 2.3736477827123,
+								angle_min = 2.0245819323134,
+								connector = "MAIN_SPOT_PTR",
+								movable = true,
+								proto = <table 16>,
+								range = 24,
+								typename = "Spot"
+							}, {
+								connector = "MAIN_SPOT_PTR",
+								movable = true,
+								pos_correction = { 0.2, 0, 0 },
+								proto = <table 16>,
+								range = 6,
+								typename = "Omni"
+							} },
+						typename = "Collection"
+					}, {
+						lights = { {
+								argument = 209,
+								connector = "RESERV_SPOT_PTR",
+								movable = true,
+								proto = <table 16>,
+								typename = "Spot"
+							}, {
+								angle_change_rate = -0.90757121103705,
+								angle_max = 2.3736477827123,
+								angle_min = 2.0245819323134,
+								connector = "RESERV_SPOT_PTR",
+								movable = true,
+								proto = <table 16>,
+								range = 24,
+								typename = "Spot"
+							}, {
+								connector = "RESERV_SPOT_PTR",
+								movable = true,
+								pos_correction = { 0.2, 0, 0 },
+								proto = <table 16>,
+								range = 6,
+								typename = "Omni"
+							} },
+						typename = "Collection"
+					} },
+				typename = "Collection"
+			}
+		},
+		typename = "Collection"
 	},
 	main_gear_amortizer_direct_stroke = 0,
 	main_gear_amortizer_normal_weight_stroke = -0.1,
@@ -2386,6 +2536,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	nose_gear_amortizer_reversal_stroke = -0.21,
 	nose_gear_pos = { 2.85, -2.285, 0 },
 	nose_gear_wheel_diameter = 0.68,
+	propellorShapeName = "a-20g_blade.fbx",
+	propellorShapeType = "3ARG_PROC_BLUR",
 	radar_can_see_ground = false,
 	range = 800,
 	shape_table_data = { {

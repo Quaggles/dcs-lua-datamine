@@ -1,5 +1,6 @@
 _G["weapons_table"]["weapons"]["nurs"]["HVAR"] = {
 	_unique_resource_name = "weapons.nurs.HVAR",
+	caliber = 0.13,
 	client = {
 		engine = {
 			boost_factor = 1,
@@ -47,6 +48,7 @@ _G["weapons_table"]["weapons"]["nurs"]["HVAR"] = {
 	cx_pil = 7.4539399830034e-05,
 	display_name = "HVAR",
 	dist_max = 1500,
+	dist_max_ballistic = 8000,
 	dist_min = 800,
 	mass = 64,
 	model = "HVAR_rocket",

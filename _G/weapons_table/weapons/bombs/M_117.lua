@@ -22,6 +22,8 @@ _G["weapons_table"]["weapons"]["bombs"]["M_117"] = {
 			caliber = 0.408,
 			cx_coeff = { 1, 0.29, 0.71, 0.13, 1.28 },
 			mass = 408,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 150,
 			wind_time = 1000
 		},
@@ -64,6 +66,8 @@ _G["weapons_table"]["weapons"]["bombs"]["M_117"] = {
 			caliber = 0.408,
 			cx_coeff = { 1, 0.29, 0.71, 0.13, 1.28 },
 			mass = 408,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 150,
 			wind_time = 1000
 		},

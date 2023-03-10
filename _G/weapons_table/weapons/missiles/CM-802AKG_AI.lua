@@ -193,7 +193,7 @@ _G["weapons_table"]["weapons"]["missiles"]["CM-802AKG_AI"] = {
 		t_acc = 0,
 		t_b = 5,
 		t_marsh = 1000,
-		user_name = "CM-802AKG_AI",
+		user_name = "CM802AKG (DIS) for AI",
 		v_mid = 372,
 		v_min = 270,
 		warhead = {
@@ -224,7 +224,7 @@ _G["weapons_table"]["weapons"]["missiles"]["CM-802AKG_AI"] = {
 		},
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
-	display_name = "CM-802AKG_AI",
+	display_name = "CM802AKG (DIS) for AI",
 	mass = 715,
 	model = "cm802akg",
 	name = "CM-802AKG_AI",
@@ -416,7 +416,7 @@ _G["weapons_table"]["weapons"]["missiles"]["CM-802AKG_AI"] = {
 		t_acc = 0,
 		t_b = 5,
 		t_marsh = 1000,
-		user_name = "CM-802AKG_AI",
+		user_name = "CM802AKG (DIS) for AI",
 		v_mid = 372,
 		v_min = 270,
 		warhead = {

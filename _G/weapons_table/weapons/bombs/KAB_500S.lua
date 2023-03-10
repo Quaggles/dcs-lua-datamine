@@ -58,6 +58,8 @@ _G["weapons_table"]["weapons"]["bombs"]["KAB_500S"] = {
 			mass = 500,
 			maxAoa = 0.1221730476396,
 			model_roll = -0.78539816339745,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 0,
 			wind_time = 1000
 		},
@@ -157,6 +159,8 @@ _G["weapons_table"]["weapons"]["bombs"]["KAB_500S"] = {
 			mass = 500,
 			maxAoa = 0.1221730476396,
 			model_roll = -0.78539816339745,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 0,
 			wind_time = 1000
 		},

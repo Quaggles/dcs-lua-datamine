@@ -24,6 +24,8 @@ _G["weapons_table"]["weapons"]["bombs"]["S-8OM_LE"] = {
 			cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
 			cx_factor = 300,
 			mass = 20,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 0
 		},
 		light = {
@@ -65,6 +67,8 @@ _G["weapons_table"]["weapons"]["bombs"]["S-8OM_LE"] = {
 			cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
 			cx_factor = 300,
 			mass = 20,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 0
 		},
 		light = {

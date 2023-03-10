@@ -186,6 +186,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	_origin = "TechWeaponPack",
 	animation_arguments = {
 		alarm_state = -1,
+		locator_elevation = 1,
 		locator_rotation = 0
 	},
 	armour_scheme = {

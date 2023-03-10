@@ -13,7 +13,7 @@ _G["launcher"]["DIS_C-802AK"] = {
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	attribute = { 4, 4, 8, "Redacted" },
 	category = 2,
-	displayName = "C802AK",
+	displayName = "C802AK (DIS)",
 	ejectDirection = { 0, -1, 0 },
 	ejectImpulse = 858
 }

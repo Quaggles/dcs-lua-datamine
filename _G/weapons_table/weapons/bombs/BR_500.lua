@@ -28,6 +28,8 @@ _G["weapons_table"]["weapons"]["bombs"]["BR_500"] = {
 			caliber = 0.356,
 			cx_coeff = { 1, 0.29, 0.71, 0.13, 1.28 },
 			mass = 500,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 150,
 			wind_time = 1000
 		},
@@ -93,6 +95,8 @@ _G["weapons_table"]["weapons"]["bombs"]["BR_500"] = {
 			caliber = 0.356,
 			cx_coeff = { 1, 0.29, 0.71, 0.13, 1.28 },
 			mass = 500,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 150,
 			wind_time = 1000
 		},

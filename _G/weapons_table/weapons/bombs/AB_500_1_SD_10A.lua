@@ -36,6 +36,8 @@ _G["weapons_table"]["weapons"]["bombs"]["AB_500_1_SD_10A"] = {
 			caliber = 0.46,
 			cx_coeff = { 1, 0.39, 0.6, 0.168, 1.31 },
 			mass = 470,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 100,
 			wind_time = 1000
 		},
@@ -261,6 +263,8 @@ _G["weapons_table"]["weapons"]["bombs"]["AB_500_1_SD_10A"] = {
 			caliber = 0.46,
 			cx_coeff = { 1, 0.39, 0.6, 0.168, 1.31 },
 			mass = 470,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 100,
 			wind_time = 1000
 		},

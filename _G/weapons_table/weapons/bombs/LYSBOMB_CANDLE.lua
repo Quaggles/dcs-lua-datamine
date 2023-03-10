@@ -32,6 +32,8 @@ _G["weapons_table"]["weapons"]["bombs"]["LYSBOMB_CANDLE"] = {
 			cx_coeff = { 1, 0.39, 0.6, 0.168, 1.31 },
 			cx_factor = 2100,
 			mass = 25,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 0
 		},
 		hMax = 15000,
@@ -98,6 +100,8 @@ _G["weapons_table"]["weapons"]["bombs"]["LYSBOMB_CANDLE"] = {
 			cx_coeff = { 1, 0.39, 0.6, 0.168, 1.31 },
 			cx_factor = 2100,
 			mass = 25,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 0
 		},
 		hMax = 15000,

@@ -11,6 +11,7 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["automatic_gun_KDA"] = {
 	max_trg_alt = 3000,
 	name = "KDA_35mm",
 	reactionTime = 3,
+	reflection_limit = 0.1,
 	sensor = {},
 	type = 3
 }

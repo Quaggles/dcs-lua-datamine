@@ -26,6 +26,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_500U_BETAB_M"] = {
 		control = {
 			open_delay = 4
 		},
+		display_name_short = "RBK-500U",
 		explMass = 172,
 		fm = {
 			I = 107.827833,
@@ -35,6 +36,8 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_500U_BETAB_M"] = {
 			caliber = 0.4,
 			cx_coeff = { 1, 0.39, 0.6, 0.168, 1.31 },
 			mass = 427,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 100,
 			wind_time = 1000
 		},
@@ -351,6 +354,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_500U_BETAB_M"] = {
 		control = {
 			open_delay = 4
 		},
+		display_name_short = "RBK-500U",
 		explMass = 172,
 		fm = {
 			I = 107.827833,
@@ -360,6 +364,8 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_500U_BETAB_M"] = {
 			caliber = 0.4,
 			cx_coeff = { 1, 0.39, 0.6, 0.168, 1.31 },
 			mass = 427,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 100,
 			wind_time = 1000
 		},

@@ -33,6 +33,8 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_84AIR_TP"] = {
 			cx_coeff = { 1, 0.39, 0.6, 0.168, 1.31 },
 			cx_factor = 300,
 			mass = 911.7,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 4,
 			wind_time = 1000
 		},
@@ -103,6 +105,8 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_84AIR_TP"] = {
 			cx_coeff = { 1, 0.39, 0.6, 0.168, 1.31 },
 			cx_factor = 300,
 			mass = 911.7,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 4,
 			wind_time = 1000
 		},

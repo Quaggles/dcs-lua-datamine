@@ -193,9 +193,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	verticalDeviationCompensationPeriod = 10,
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0.3, 0.017 },
-				[5] = { 0.3, 0.0002 }
-			}
+			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0.3, 0.017 }, { 0.001, 0.17 }, { 0.3, 0.0002 } }
 		},
 		agony_explosion_size = 15,
 		fire_pos = { 2.6, 1.5, 0 },

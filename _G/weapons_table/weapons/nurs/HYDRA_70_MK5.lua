@@ -1,5 +1,6 @@
 _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_MK5"] = {
 	_unique_resource_name = "weapons.nurs.HYDRA_70_MK5",
+	caliber = 0.07,
 	client = {
 		engine = {
 			boost_factor = 1,
@@ -49,6 +50,7 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_MK5"] = {
 	cx_pil = 4.7679923901827e-05,
 	display_name = "HYDRA-70 MK5",
 	dist_max = 4000,
+	dist_max_ballistic = 8000,
 	dist_min = 500,
 	mass = 8.81,
 	model = "hydra_m151he",

@@ -1,5 +1,6 @@
 _G["weapons_table"]["weapons"]["nurs"]["C_8OM"] = {
 	_unique_resource_name = "weapons.nurs.C_8OM",
+	caliber = 0.08,
 	client = {
 		control = {
 			delay = 7.7
@@ -61,6 +62,8 @@ _G["weapons_table"]["weapons"]["nurs"]["C_8OM"] = {
 						cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
 						cx_factor = 300,
 						mass = 20,
+						release_rnd = 0.3,
+						release_rnd_x = 1,
 						wind_sigma = 0
 					},
 					light = {
@@ -102,6 +105,8 @@ _G["weapons_table"]["weapons"]["nurs"]["C_8OM"] = {
 						cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
 						cx_factor = 300,
 						mass = 20,
+						release_rnd = 0.3,
+						release_rnd_x = 1,
 						wind_sigma = 0
 					},
 					light = {
@@ -132,6 +137,7 @@ _G["weapons_table"]["weapons"]["nurs"]["C_8OM"] = {
 	cx_pil = 2.9560311751026e-05,
 	display_name = "S-8OM",
 	dist_max = 4500,
+	dist_max_ballistic = 8000,
 	dist_min = 4000,
 	mass = 12.1,
 	model = "s-8_om",
@@ -197,6 +203,8 @@ _G["weapons_table"]["weapons"]["nurs"]["C_8OM"] = {
 						cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
 						cx_factor = 300,
 						mass = 20,
+						release_rnd = 0.3,
+						release_rnd_x = 1,
 						wind_sigma = 0
 					},
 					light = {
@@ -238,6 +246,8 @@ _G["weapons_table"]["weapons"]["nurs"]["C_8OM"] = {
 						cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
 						cx_factor = 300,
 						mass = 20,
+						release_rnd = 0.3,
+						release_rnd_x = 1,
 						wind_sigma = 0
 					},
 					light = {

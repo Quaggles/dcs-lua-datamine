@@ -30,6 +30,8 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M57"] = {
 			caliber = 0.277,
 			cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
 			mass = 113,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 30
 		},
 		fuze = {
@@ -100,6 +102,8 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M57"] = {
 			caliber = 0.277,
 			cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
 			mass = 113,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 30
 		},
 		fuze = {

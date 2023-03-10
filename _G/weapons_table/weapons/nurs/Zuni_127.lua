@@ -1,5 +1,6 @@
 _G["weapons_table"]["weapons"]["nurs"]["Zuni_127"] = {
 	_unique_resource_name = "weapons.nurs.Zuni_127",
+	caliber = 0.13,
 	client = {
 		engine = {
 			boost_factor = 1,
@@ -47,6 +48,7 @@ _G["weapons_table"]["weapons"]["nurs"]["Zuni_127"] = {
 	cx_pil = 0.00016444708447773,
 	display_name = "Zuni Mk. 71 HE GP",
 	dist_max = 4000,
+	dist_max_ballistic = 8000,
 	dist_min = 1200,
 	mass = 57.8,
 	model = "zuni",

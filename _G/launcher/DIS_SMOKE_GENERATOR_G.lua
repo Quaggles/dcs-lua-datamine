@@ -15,7 +15,7 @@ _G["launcher"]["DIS_SMOKE_GENERATOR_G"] = {
 		r = 50
 	},
 	Weight = 0,
-	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/mils_pl5eii.lua",
+	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/mils_pl5.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	attribute = { 4, 15, 50, "Redacted" },
 	category = 6,

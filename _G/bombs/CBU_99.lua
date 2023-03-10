@@ -6,6 +6,7 @@ _G["bombs"]["#Index"] = {
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/cluster_bombs.lua",
 	_origin = "AircraftWeaponPack",
 	display_name = "CBU-99 - 490lbs, 247 x HEAT Bomblets",
+	display_name_short = "RBK-500U",
 	hMax = 5000,
 	hMin = 90,
 	mass = 222,

@@ -6,6 +6,7 @@ _G["bombs"]["#Index"] = {
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/cluster_bombs.lua",
 	_origin = "AircraftWeaponPack",
 	display_name = "RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag",
+	display_name_short = "RBK-250",
 	hMax = 25000,
 	hMin = 200,
 	mass = 273,

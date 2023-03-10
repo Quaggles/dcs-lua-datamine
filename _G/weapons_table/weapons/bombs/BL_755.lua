@@ -25,6 +25,8 @@ _G["weapons_table"]["weapons"]["bombs"]["BL_755"] = {
 			caliber = 0.41,
 			cx_coeff = { 1, 0.39, 0.6, 0.168, 1.31 },
 			mass = 277,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 100,
 			wind_time = 1000
 		},
@@ -131,6 +133,8 @@ _G["weapons_table"]["weapons"]["bombs"]["BL_755"] = {
 			caliber = 0.41,
 			cx_coeff = { 1, 0.39, 0.6, 0.168, 1.31 },
 			mass = 277,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 100,
 			wind_time = 1000
 		},

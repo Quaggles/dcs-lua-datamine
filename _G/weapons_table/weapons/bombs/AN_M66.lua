@@ -28,6 +28,8 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M66"] = {
 			caliber = 0.585,
 			cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
 			mass = 977,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 30
 		},
 		fuze = {
@@ -97,6 +99,8 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M66"] = {
 			caliber = 0.585,
 			cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
 			mass = 977,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 30
 		},
 		fuze = {

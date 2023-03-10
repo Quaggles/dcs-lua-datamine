@@ -1423,13 +1423,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BRU-42A_2*GBU-12_SIDE_LEFT}" },
 							station = 2
 						}, {
-							loadout = { "{BRU-42A_3*GBU-12}" },
-							station = 2
-						}, {
-							loadout = { "{BRU-42A_3*GBU-12}" },
-							station = 7
-						}, {
-							loadout = { "{BRU-70_3*GBU-38}" },
+							loadout = { "{BRU-70A_3*GBU-38}" },
 							station = 2
 						}, {
 							loadout = { "{BRU-70A_2*GBU-38_SIDE_LEFT}" },
@@ -2257,9 +2251,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
 							station = 8
 						} }
-				}, {
-					CLSID = "{BRU-42_2*Mk-83_LEFT}",
-					forbidden = <table 8>
 				}, {
 					CLSID = "{BRU-42_2*MK-20_LEFT}",
 					forbidden = <table 8>
@@ -3421,6 +3412,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{BRU-42_2*Mk-82_RIGHT}"
 				}, {
+					CLSID = "{BRU-42_2*Mk-83_RIGHT}"
+				}, {
 					CLSID = "{BRU-42_2*MK-20_RIGHT}"
 				}, {
 					CLSID = "{BRU-70_2*CBU-99_RIGHT}"
@@ -3815,9 +3808,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 8
 						} }
 				}, {
-					CLSID = "{BRU-42_2*Mk-83_RIGHT}",
-					forbidden = <table 15>
-				}, {
 					CLSID = "{BRU-42_2*MK-20_RIGHT}",
 					forbidden = <table 15>
 				}, {
@@ -3840,8 +3830,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					forbidden = <table 15>
 				}, {
 					CLSID = "{BRU-42_2*Mk-82_LEFT}"
-				}, {
-					CLSID = "{BRU-42_2*Mk-83_LEFT}"
 				}, {
 					CLSID = "{BRU-42_2*MK-20_LEFT}"
 				}, {
@@ -4672,16 +4660,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.2,
 					attach_point_position = { 0.307, -0.15, 0 },
 					forbidden = { {
-							loadout = { "{BRU-42A_3*GBU-12}" },
-							station = 2
-						}, {
-							loadout = { "{BRU-42A_3*GBU-12}" },
-							station = 7
-						}, {
 							loadout = { "{BRU-42A_2*GBU-12_SIDE_RIGHT}" },
 							station = 7
 						}, {
-							loadout = { "{BRU-70_3*GBU-38}" },
+							loadout = { "{BRU-70A_3*GBU-38}" },
 							station = 7
 						}, {
 							loadout = { "{BRU-70A_2*GBU-38_SIDE_RIGHT}" },

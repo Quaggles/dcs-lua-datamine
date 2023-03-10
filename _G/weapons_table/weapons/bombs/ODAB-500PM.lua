@@ -32,6 +32,8 @@ _G["weapons_table"]["weapons"]["bombs"]["ODAB-500PM"] = {
 			cx_coeff = { 0.1, 0.39, 0.6, 0.768, 1.31 },
 			cx_factor = 100,
 			mass = 520,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 30
 		},
 		hMax = 15000,
@@ -101,6 +103,8 @@ _G["weapons_table"]["weapons"]["bombs"]["ODAB-500PM"] = {
 			cx_coeff = { 0.1, 0.39, 0.6, 0.768, 1.31 },
 			cx_factor = 100,
 			mass = 520,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 30
 		},
 		hMax = 15000,

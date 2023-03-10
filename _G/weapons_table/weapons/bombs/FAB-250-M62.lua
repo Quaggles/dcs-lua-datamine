@@ -27,6 +27,8 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB-250-M62"] = {
 			caliber = 0.3,
 			cx_coeff = { 1, 0.39, 0.8, 0.168, 1.31 },
 			mass = 227,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 30
 		},
 		hMax = 12000,
@@ -88,6 +90,8 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB-250-M62"] = {
 			caliber = 0.3,
 			cx_coeff = { 1, 0.39, 0.8, 0.168, 1.31 },
 			mass = 227,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 30
 		},
 		hMax = 12000,

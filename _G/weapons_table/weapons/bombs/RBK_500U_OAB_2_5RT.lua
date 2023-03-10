@@ -24,6 +24,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_500U_OAB_2_5RT"] = {
 		control = {
 			open_delay = 3.5
 		},
+		display_name_short = "RBK-500U",
 		explMass = 94,
 		fm = {
 			I = 210.116025,
@@ -33,6 +34,8 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_500U_OAB_2_5RT"] = {
 			caliber = 0.4,
 			cx_coeff = { 1, 0.39, 0.6, 0.168, 1.31 },
 			mass = 427,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 100,
 			wind_time = 1000
 		},
@@ -252,6 +255,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_500U_OAB_2_5RT"] = {
 		control = {
 			open_delay = 3.5
 		},
+		display_name_short = "RBK-500U",
 		explMass = 94,
 		fm = {
 			I = 210.116025,
@@ -261,6 +265,8 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_500U_OAB_2_5RT"] = {
 			caliber = 0.4,
 			cx_coeff = { 1, 0.39, 0.6, 0.168, 1.31 },
 			mass = 427,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 100,
 			wind_time = 1000
 		},

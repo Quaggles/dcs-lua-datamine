@@ -15,6 +15,7 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["automatic_gun_M168"] = {
 	max_trg_alt = 1500,
 	name = "M61_Vulcan",
 	reactionTime = 4,
+	reflection_limit = 0.15,
 	sensor = {},
 	type = 3
 }

@@ -29,6 +29,8 @@ _G["weapons_table"]["weapons"]["bombs"]["SC_50"] = {
 			cx_coeff = { 1, 0.39, 0.6, 0.168, 1.31 },
 			cx_factor = 100,
 			mass = 50,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 5
 		},
 		fuze = {
@@ -101,6 +103,8 @@ _G["weapons_table"]["weapons"]["bombs"]["SC_50"] = {
 			cx_coeff = { 1, 0.39, 0.6, 0.168, 1.31 },
 			cx_factor = 100,
 			mass = 50,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 5
 		},
 		fuze = {

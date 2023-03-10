@@ -7,6 +7,7 @@ _G["bombs"]["#Index"] = {
 	VyHold = -100,
 	add_attributes = { "Missiles" },
 	display_name = "AGM-62 Walleye II",
+	display_name_short = "AGM-62",
 	hMax = 12000,
 	hMin = 75,
 	mass = 1061,

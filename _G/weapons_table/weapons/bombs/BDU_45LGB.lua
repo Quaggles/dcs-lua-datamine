@@ -41,6 +41,8 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_45LGB"] = {
 			finsTau = 0.1,
 			mass = 277,
 			maxAoa = 0.1221730476396,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 0,
 			wind_time = 1000
 		},
@@ -124,6 +126,8 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_45LGB"] = {
 			finsTau = 0.1,
 			mass = 277,
 			maxAoa = 0.1221730476396,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 0,
 			wind_time = 1000
 		},

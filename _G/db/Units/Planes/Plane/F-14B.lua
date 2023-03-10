@@ -2030,9 +2030,38 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			DisplayName = "2",
 			Launchers = { {
-					CLSID = "{F14-300gal}"
+					CLSID = "{F14-300gal}",
+					arg = 700,
+					arg_value = 0,
+					forbidden = { {
+							loadout = { "{F14-300gal-empty}" },
+							station = 8
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 8
+						} }
 				}, {
-					CLSID = "{F14-300gal-empty}"
+					CLSID = "{F14-300gal-empty}",
+					arg = 700,
+					arg_value = 0,
+					forbidden = { {
+							loadout = { "{F14-300gal}" },
+							station = 8
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 8
+						} }
+				}, {
+					CLSID = "<CLEAN>",
+					arg = 700,
+					arg_value = 1,
+					forbidden = { {
+							loadout = { "{F14-300gal-empty}" },
+							station = 8
+						}, {
+							loadout = { "{F14-300gal}" },
+							station = 8
+						} }
 				} },
 			Number = 3,
 			Order = 3,
@@ -3842,9 +3871,38 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			DisplayName = "7",
 			Launchers = { {
-					CLSID = "{F14-300gal}"
+					CLSID = "{F14-300gal}",
+					arg = 700,
+					arg_value = 0,
+					forbidden = { {
+							loadout = { "{F14-300gal-empty}" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 3
+						} }
 				}, {
-					CLSID = "{F14-300gal-empty}"
+					CLSID = "{F14-300gal-empty}",
+					arg = 700,
+					arg_value = 0,
+					forbidden = { {
+							loadout = { "{F14-300gal}" },
+							station = 3
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 3
+						} }
+				}, {
+					CLSID = "<CLEAN>",
+					arg = 700,
+					arg_value = 1,
+					forbidden = { {
+							loadout = { "{F14-300gal-empty}" },
+							station = 3
+						}, {
+							loadout = { "{F14-300gal}" },
+							station = 3
+						} }
 				} },
 			Number = 8,
 			Order = 8,
@@ -4502,7 +4560,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				Transition = { "Any", "Retract" }
 			} }
 	},
-	net_animation = { 1609, 1610, 1305, 1611, 1612, 404, 405, 507, 508, 1500, 1501, 434, 433, 28, 29, 23, 1001, 1003, 1004, 1002, 1022, 1021, 450, 406, 21, 182, 184, 1012, 1013, 1011, 1010, 509, 1020, 400, 401, 402, 25, 85, 22, 6000, 6001, 6002, 1614, 1600, 1601, 1603, 626, 627, 600, 605, 606, 607, 608, 3600, 3601, 3602, 3603, 3604, 3605, 3606, 3607, 2500, 2501, 200, 615, 625 },
+	net_animation = { 1609, 1610, 1305, 1611, 1612, 404, 405, 507, 508, 1500, 1501, 434, 433, 28, 29, 23, 1001, 1003, 1004, 1002, 1022, 1021, 450, 406, 21, 182, 184, 1012, 1013, 1011, 1010, 509, 1020, 400, 401, 402, 25, 85, 22, 6000, 6001, 6002, 1614, 1600, 1601, 1603, 626, 627, 600, 605, 606, 607, 608, 700, 3600, 3601, 3602, 3603, 3604, 3605, 3606, 3607, 2500, 2501, 200, 615, 625 },
 	nose_gear_amortizer_direct_stroke = -0.4726,
 	nose_gear_amortizer_normal_weight_stroke = -0.4826,
 	nose_gear_amortizer_reversal_stroke = -0.9023,
@@ -4597,7 +4655,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			}
 		}, {
 			channels = { {
-					connect = true,
 					default = 225,
 					name = "Channel 1"
 				}, {

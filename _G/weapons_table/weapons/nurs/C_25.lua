@@ -1,5 +1,6 @@
 _G["weapons_table"]["weapons"]["nurs"]["C_25"] = {
 	_unique_resource_name = "weapons.nurs.C_25",
+	caliber = 0.34,
 	client = {
 		engine = {
 			boost_factor = 1,
@@ -47,6 +48,7 @@ _G["weapons_table"]["weapons"]["nurs"]["C_25"] = {
 	cx_pil = 0.00048520673702783,
 	display_name = "S-25-OFM",
 	dist_max = 3000,
+	dist_max_ballistic = 8000,
 	dist_min = 2000,
 	mass = 409.99637,
 	model = "c-25",

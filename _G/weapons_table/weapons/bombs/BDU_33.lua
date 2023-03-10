@@ -20,6 +20,8 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_33"] = {
 			caliber = 0.1,
 			cx_coeff = { 1, 0.82, 0.65, 0.142, 2.11 },
 			mass = 11.3,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 80,
 			wind_time = 1000
 		},
@@ -56,6 +58,8 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_33"] = {
 			caliber = 0.1,
 			cx_coeff = { 1, 0.82, 0.65, 0.142, 2.11 },
 			mass = 11.3,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 80,
 			wind_time = 1000
 		},

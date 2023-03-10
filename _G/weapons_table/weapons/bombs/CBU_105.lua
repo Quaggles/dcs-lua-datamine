@@ -46,7 +46,9 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_105"] = {
 			finsTau = 0.1,
 			mass = 420,
 			maxAoa = 0.26,
-			wind_sigma = 5,
+			release_rnd = 0.15,
+			release_rnd_x = 0.45,
+			wind_sigma = 1,
 			wind_time = 1000
 		},
 		launcher = {
@@ -498,7 +500,9 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_105"] = {
 			finsTau = 0.1,
 			mass = 420,
 			maxAoa = 0.26,
-			wind_sigma = 5,
+			release_rnd = 0.15,
+			release_rnd_x = 0.45,
+			wind_sigma = 1,
 			wind_time = 1000
 		},
 		launcher = {

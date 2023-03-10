@@ -1,4 +1,5 @@
 _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
+	CustomAimPoint = { 8, 0, 0 },
 	DeckLevel = 3,
 	DetectionRange = 0,
 	DisplayName = "SSK 641B Tango",

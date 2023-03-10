@@ -94,7 +94,7 @@ _G["rockets"]["#Index"] = {
 		boost_start = 0,
 		march_start = 5
 	},
-	display_name = "C802AK",
+	display_name = "C802AK (DIS)",
 	engine_control = {
 		K = 265,
 		Kd = 0.01,
@@ -220,7 +220,7 @@ _G["rockets"]["#Index"] = {
 		update_pos_from_input = 0,
 		use_horiz_dist = 1
 	},
-	user_name = "C802AK",
+	user_name = "C802AK (DIS)",
 	v_mid = 372,
 	v_min = 170,
 	warhead = <1>{

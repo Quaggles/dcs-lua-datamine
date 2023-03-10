@@ -99,7 +99,7 @@ _G["rockets"]["#Index"] = {
 		no_alg_vel_k = 10,
 		stab_vel = 237.5
 	},
-	display_name = "CM-802AKG_AI",
+	display_name = "CM802AKG (DIS) for AI",
 	final_autopilot = {
 		J_Angle_K = 0.18,
 		J_Angle_W = 0.8,
@@ -189,7 +189,7 @@ _G["rockets"]["#Index"] = {
 	t_acc = 0,
 	t_b = 5,
 	t_marsh = 1000,
-	user_name = "CM-802AKG_AI",
+	user_name = "CM802AKG (DIS) for AI",
 	v_mid = 372,
 	v_min = 270,
 	warhead = {

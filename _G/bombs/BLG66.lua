@@ -6,6 +6,7 @@ _G["bombs"]["#Index"] = {
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/cluster_bombs.lua",
 	_origin = "AircraftWeaponPack",
 	display_name = "BLG-66 Belouga AC",
+	display_name_short = "BLG-66",
 	hMax = 5000,
 	hMin = 60.96,
 	mass = 305,

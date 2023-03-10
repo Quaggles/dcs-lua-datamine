@@ -32,6 +32,8 @@ _G["weapons_table"]["weapons"]["bombs"]["BAT-120"] = {
 			cx_coeff = { 1, 0.82, 0.65, 0.142, 2.11 },
 			cx_factor = 800,
 			mass = 34,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 4,
 			wind_time = 1000
 		},
@@ -100,6 +102,8 @@ _G["weapons_table"]["weapons"]["bombs"]["BAT-120"] = {
 			cx_coeff = { 1, 0.82, 0.65, 0.142, 2.11 },
 			cx_factor = 800,
 			mass = 34,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 4,
 			wind_time = 1000
 		},

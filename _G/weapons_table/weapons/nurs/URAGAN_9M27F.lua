@@ -1,5 +1,6 @@
 _G["weapons_table"]["weapons"]["nurs"]["URAGAN_9M27F"] = {
 	_unique_resource_name = "weapons.nurs.URAGAN_9M27F",
+	caliber = 0.22,
 	client = {
 		engine = {
 			boost_factor = 1,

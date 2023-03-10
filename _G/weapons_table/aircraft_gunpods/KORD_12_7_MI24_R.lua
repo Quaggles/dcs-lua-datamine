@@ -19,7 +19,7 @@ _G["weapons_table"]["aircraft_gunpods"]["KORD_12_7_MI24_R"] = {
 					name = "SmokeEffect"
 				}, {
 					arg_v = 46,
-					full_load = 600,
+					full_load = 400,
 					name = "FeedBeltBox"
 				} },
 			ejector_dir = { 3, 0, 0 },
@@ -42,7 +42,7 @@ _G["weapons_table"]["aircraft_gunpods"]["KORD_12_7_MI24_R"] = {
 			muzzle_pos_connector = "POINT_MGUN",
 			short_name = "KORD_12_7",
 			supply = {
-				count = 600,
+				count = 400,
 				get_mass = <function 1>,
 				get_mass_ = <function 2>,
 				mixes = { { 1, 2 } },

@@ -1267,6 +1267,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			mm = 0,
 			mmint = 1,
 			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "BARAX_fail",
+			label = "BARAX emission fail",
+			mm = 0,
+			mmint = 1,
+			prob = 100
 		} },
 	Guns = { {
 			_file = "./CoreMods/aircraft/Mirage-F1/Mirage-F1CG.lua",
@@ -1458,25 +1466,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Pylons = { {
 			Launchers = { {
 					CLSID = "{AIM-9B}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{AIM-9B}" },
-							station = 7
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{AIM-9J}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{AIM-9J}" },
-							station = 7
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{AIM-9JULI}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{AIM-9JULI}" },
-							station = 7
-						} }
+					arg_value = 0.15
 				} },
 			Number = 1,
 			Order = 1,
@@ -1490,216 +1486,96 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
-					CLSID = "{AIM-9B}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{AIM-9B}" },
-							station = 6
-						} }
-				}, {
-					CLSID = "{AIM-9J}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{AIM-9J}" },
-							station = 6
-						} }
-				}, {
-					CLSID = "{AIM-9JULI}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{AIM-9JULI}" },
-							station = 6
-						} }
-				}, {
 					CLSID = "{SAMP125LD}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{SAMP125LD}" },
-							station = 6
-						} }
+					arg_value = 0.25
 				}, {
 					CLSID = "{SAMP250LD}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{SAMP250LD}" },
-							station = 6
-						} }
+					arg_value = 0.25
 				}, {
 					CLSID = "{SAMP250HD}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{SAMP250HD}" },
-							station = 6
-						} }
+					arg_value = 0.25
 				}, {
 					CLSID = "{SAMP400LD}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{SAMP400LD}" },
-							station = 6
-						} }
+					arg_value = 0.25
 				}, {
 					CLSID = "{SAMP400HD}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{SAMP400HD}" },
-							station = 6
-						} }
+					arg_value = 0.25
 				}, {
 					CLSID = "{BLU107B_DURANDAL}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{BLU107B_DURANDAL}" },
-							station = 6
-						} }
+					arg_value = 0.25
 				}, {
 					CLSID = "{BLG66_BELOUGA}",
 					arg_value = 0.25,
-					attach_point_position = { 0.04, 0, 0 },
-					required = { {
-							loadout = { "{BLG66_BELOUGA}" },
-							station = 6
-						} }
+					attach_point_position = { 0.04, 0, 0 }
 				}, {
 					CLSID = "{MATRA_F1_SNEBT250}",
-					arg_value = 0.35,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT250}" },
-							station = 6
-						} }
+					arg_value = 0.35
 				}, {
 					CLSID = "{MATRA_F1_SNEBT251}",
-					arg_value = 0.35,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT251}" },
-							station = 6
-						} }
+					arg_value = 0.35
 				}, {
 					CLSID = "{MATRA_F1_SNEBT252}",
-					arg_value = 0.35,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT252}" },
-							station = 6
-						} }
+					arg_value = 0.35
 				}, {
 					CLSID = "{MATRA_F1_SNEBT253}",
-					arg_value = 0.35,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT253}" },
-							station = 6
-						} }
+					arg_value = 0.35
 				}, {
 					CLSID = "{MATRA_F1_SNEBT254_RED}",
-					arg_value = 0.35,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT254_RED}" },
-							station = 6
-						} }
+					arg_value = 0.35
 				}, {
 					CLSID = "{MATRA_F1_SNEBT254_YELLOW}",
-					arg_value = 0.35,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT254_YELLOW}" },
-							station = 6
-						} }
+					arg_value = 0.35
 				}, {
 					CLSID = "{MATRA_F1_SNEBT254_GREEN}",
-					arg_value = 0.35,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT254_GREEN}" },
-							station = 6
-						} }
+					arg_value = 0.35
 				}, {
 					CLSID = "{MATRA_F1_SNEBT256}",
-					arg_value = 0.35,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT256}" },
-							station = 6
-						} }
+					arg_value = 0.35
 				}, {
 					CLSID = "{MATRA_F1_SNEBT257}",
-					arg_value = 0.35,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT257}" },
-							station = 6
-						} }
+					arg_value = 0.35
 				}, {
 					CLSID = "{MATRA_F1_SNEBT259E}",
-					arg_value = 0.35,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT259E}" },
-							station = 6
-						} }
+					arg_value = 0.35
 				}, {
 					CLSID = "{MATRA_F4_SNEBT250}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT250}" },
-							station = 6
-						} }
+					arg_value = 0.25
 				}, {
 					CLSID = "{MATRA_F4_SNEBT251}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT251}" },
-							station = 6
-						} }
+					arg_value = 0.25
 				}, {
 					CLSID = "{MATRA_F4_SNEBT252}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT252}" },
-							station = 6
-						} }
+					arg_value = 0.25
 				}, {
 					CLSID = "{MATRA_F4_SNEBT253}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT253}" },
-							station = 6
-						} }
+					arg_value = 0.25
 				}, {
 					CLSID = "{MATRA_F4_SNEBT254_RED}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT254_RED}" },
-							station = 6
-						} }
+					arg_value = 0.25
 				}, {
 					CLSID = "{MATRA_F4_SNEBT254_YELLOW}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT254_YELLOW}" },
-							station = 6
-						} }
+					arg_value = 0.25
 				}, {
 					CLSID = "{MATRA_F4_SNEBT254_GREEN}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT254_GREEN}" },
-							station = 6
-						} }
+					arg_value = 0.25
 				}, {
 					CLSID = "{MATRA_F4_SNEBT256}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT256}" },
-							station = 6
-						} }
+					arg_value = 0.25
 				}, {
 					CLSID = "{MATRA_F4_SNEBT257}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT257}" },
-							station = 6
-						} }
+					arg_value = 0.25
 				}, {
 					CLSID = "{MATRA_F4_SNEBT259E}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT259E}" },
-							station = 6
-						} }
+					arg_value = 0.25
+				}, {
+					CLSID = "{AIM-9B}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AIM-9J}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AIM-9JULI}",
+					arg_value = 0.15
 				} },
 			Number = 2,
 			Order = 2,
@@ -1714,194 +1590,92 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			Launchers = { {
 					CLSID = "{SAMP125LD}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{SAMP125LD}" },
-							station = 5
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{SAMP250LD}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{SAMP250LD}" },
-							station = 5
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{SAMP250HD}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{SAMP250HD}" },
-							station = 5
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{SAMP400LD}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{SAMP400LD}" },
-							station = 5
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{SAMP400HD}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{SAMP400HD}" },
-							station = 5
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{BLU107B_DURANDAL}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{BLU107B_DURANDAL}" },
-							station = 5
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{BLG66_BELOUGA}",
 					arg_value = 0.15,
-					attach_point_position = { 0.04, 0, 0 },
-					required = { {
-							loadout = { "{BLG66_BELOUGA}" },
-							station = 5
-						} }
+					attach_point_position = { 0.04, 0, 0 }
 				}, {
 					CLSID = "{MATRA_F1_SNEBT250}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT250}" },
-							station = 5
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F1_SNEBT251}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT251}" },
-							station = 5
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F1_SNEBT252}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT252}" },
-							station = 5
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F1_SNEBT253}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT253}" },
-							station = 5
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F1_SNEBT254_RED}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT254_RED}" },
-							station = 5
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F1_SNEBT254_YELLOW}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT254_YELLOW}" },
-							station = 5
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F1_SNEBT254_GREEN}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT254_GREEN}" },
-							station = 5
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F1_SNEBT256}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT256}" },
-							station = 5
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F1_SNEBT257}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT257}" },
-							station = 5
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F1_SNEBT259E}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT259E}" },
-							station = 5
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F4_SNEBT250}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT250}" },
-							station = 5
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F4_SNEBT251}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT251}" },
-							station = 5
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F4_SNEBT252}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT252}" },
-							station = 5
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F4_SNEBT253}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT253}" },
-							station = 5
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F4_SNEBT254_RED}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT254_RED}" },
-							station = 5
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F4_SNEBT254_YELLOW}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT254_YELLOW}" },
-							station = 5
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F4_SNEBT254_GREEN}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT254_GREEN}" },
-							station = 5
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F4_SNEBT256}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT256}" },
-							station = 5
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F4_SNEBT257}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT257}" },
-							station = 5
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F4_SNEBT259E}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT259E}" },
-							station = 5
-						} }
+					arg_value = 0.15
+				}, {
+					CLSID = "PTB-1200-F1",
+					arg_value = 0.15
+				}, {
+					CLSID = "PTB-1200-F1-EMPTY",
+					arg_value = 0.15
 				}, {
 					CLSID = "{R530F_EM}",
 					arg_value = 0.25,
@@ -1912,6 +1686,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{R530F_IR}" },
 							station = 4
+						}, {
+							loadout = { "{S530F}" },
+							station = 3
+						}, {
+							loadout = { "{S530F}" },
+							station = 4
+						}, {
+							loadout = { "{S530F}" },
+							station = 5
 						} }
 				}, {
 					CLSID = "{R530F_IR}",
@@ -1923,27 +1706,40 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{R530F_IR}" },
 							station = 4
+						}, {
+							loadout = { "{S530F}" },
+							station = 3
+						}, {
+							loadout = { "{S530F}" },
+							station = 4
+						}, {
+							loadout = { "{S530F}" },
+							station = 5
 						} }
 				}, {
 					CLSID = "{S530F}",
 					arg_value = 0.25,
 					attach_point_position = { 0, -0.1, 0 },
 					forbidden = { {
+							loadout = { "{S530F}" },
+							station = 4
+						}, {
+							loadout = { "{R530F_EM}" },
+							station = 3
+						}, {
 							loadout = { "{R530F_EM}" },
 							station = 4
 						}, {
+							loadout = { "{R530F_EM}" },
+							station = 5
+						}, {
+							loadout = { "{R530F_IR}" },
+							station = 3
+						}, {
 							loadout = { "{R530F_IR}" },
 							station = 4
-						} },
-					required = { {
-							loadout = { "{S530F}" },
-							station = 5
-						} }
-				}, {
-					CLSID = "PTB-1200-F1",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "PTB-1200-F1" },
+						}, {
+							loadout = { "{R530F_IR}" },
 							station = 5
 						} }
 				} },
@@ -1959,21 +1755,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
-					CLSID = "{51F9AAE5-964F-4D21-83FB-502E3BFE5F8A}",
-					arg_value = 0.15
-				}, {
-					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
-					arg_value = 0.15
-				}, {
-					CLSID = "{BLG66_BELOUGA}",
-					arg_value = 0.15
-				}, {
-					CLSID = "BR_250",
-					arg_value = 0.15
-				}, {
-					CLSID = "BR_500",
-					arg_value = 0.15
-				}, {
 					CLSID = "{SAMP250LD}",
 					arg_value = 0.15
 				}, {
@@ -1986,42 +1767,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{SAMP400HD}",
 					arg_value = 0.15
 				}, {
-					CLSID = "{R530F_EM}",
-					arg_value = 0.25,
-					attach_point_position = { -0.068, -0.112, 0 },
-					forbidden = { {
-							loadout = { "{R530F_EM}" },
-							station = 3
-						}, {
-							loadout = { "{R530F_EM}" },
-							station = 5
-						}, {
-							loadout = { "{R530F_IR}" },
-							station = 3
-						}, {
-							loadout = { "{R530F_IR}" },
-							station = 5
-						} }
-				}, {
-					CLSID = "{R530F_IR}",
-					arg_value = 0.25,
-					attach_point_position = { -0.068, -0.112, 0 },
-					forbidden = { {
-							loadout = { "{R530F_EM}" },
-							station = 3
-						}, {
-							loadout = { "{R530F_EM}" },
-							station = 5
-						}, {
-							loadout = { "{R530F_IR}" },
-							station = 3
-						}, {
-							loadout = { "{R530F_IR}" },
-							station = 5
-						} }
-				}, {
-					CLSID = "PTB-1200-F1",
-					arg_value = 0.15
+					CLSID = "{BLG66_BELOUGA}",
+					arg_value = 0.15,
+					attach_point_position = { 0.04, 0, 0 }
 				}, {
 					CLSID = "{CLB4_BLU107}",
 					arg_value = 0.35
@@ -2040,6 +1788,76 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{CLB4_SAMP400HD}",
 					arg_value = 0.35
+				}, {
+					CLSID = "PTB-1200-F1",
+					arg_value = 0.15
+				}, {
+					CLSID = "PTB-1200-F1-EMPTY",
+					arg_value = 0.15
+				}, {
+					CLSID = "BR_250",
+					arg_value = 0.15
+				}, {
+					CLSID = "BR_500",
+					arg_value = 0.15
+				}, {
+					CLSID = "{51F9AAE5-964F-4D21-83FB-502E3BFE5F8A}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{R530F_EM}",
+					arg_value = 0.25,
+					attach_point_position = { -0.068, -0.112, 0 },
+					forbidden = { {
+							loadout = { "{R530F_EM}" },
+							station = 3
+						}, {
+							loadout = { "{R530F_EM}" },
+							station = 5
+						}, {
+							loadout = { "{R530F_IR}" },
+							station = 3
+						}, {
+							loadout = { "{R530F_IR}" },
+							station = 5
+						}, {
+							loadout = { "{S530F}" },
+							station = 3
+						}, {
+							loadout = { "{S530F}" },
+							station = 4
+						}, {
+							loadout = { "{S530F}" },
+							station = 5
+						} }
+				}, {
+					CLSID = "{R530F_IR}",
+					arg_value = 0.25,
+					attach_point_position = { -0.068, -0.112, 0 },
+					forbidden = { {
+							loadout = { "{R530F_EM}" },
+							station = 3
+						}, {
+							loadout = { "{R530F_EM}" },
+							station = 5
+						}, {
+							loadout = { "{R530F_IR}" },
+							station = 3
+						}, {
+							loadout = { "{R530F_IR}" },
+							station = 5
+						}, {
+							loadout = { "{S530F}" },
+							station = 3
+						}, {
+							loadout = { "{S530F}" },
+							station = 4
+						}, {
+							loadout = { "{S530F}" },
+							station = 5
+						} }
 				} },
 			Number = 4,
 			Order = 4,
@@ -2054,194 +1872,92 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			Launchers = { {
 					CLSID = "{SAMP125LD}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{SAMP125LD}" },
-							station = 3
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{SAMP250LD}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{SAMP250LD}" },
-							station = 3
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{SAMP250HD}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{SAMP250HD}" },
-							station = 3
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{SAMP400LD}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{SAMP400LD}" },
-							station = 3
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{SAMP400HD}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{SAMP400HD}" },
-							station = 3
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{BLU107B_DURANDAL}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{BLU107B_DURANDAL}" },
-							station = 3
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{BLG66_BELOUGA}",
 					arg_value = 0.15,
-					attach_point_position = { 0.04, 0, 0 },
-					required = { {
-							loadout = { "{BLG66_BELOUGA}" },
-							station = 3
-						} }
+					attach_point_position = { 0.04, 0, 0 }
 				}, {
 					CLSID = "{MATRA_F1_SNEBT250}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT250}" },
-							station = 3
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F1_SNEBT251}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT251}" },
-							station = 3
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F1_SNEBT252}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT252}" },
-							station = 3
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F1_SNEBT253}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT253}" },
-							station = 3
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F1_SNEBT254_RED}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT254_RED}" },
-							station = 3
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F1_SNEBT254_YELLOW}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT254_YELLOW}" },
-							station = 3
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F1_SNEBT254_GREEN}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT254_GREEN}" },
-							station = 3
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F1_SNEBT256}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT256}" },
-							station = 3
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F1_SNEBT257}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT257}" },
-							station = 3
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F1_SNEBT259E}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT259E}" },
-							station = 3
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F4_SNEBT250}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT250}" },
-							station = 3
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F4_SNEBT251}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT251}" },
-							station = 3
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F4_SNEBT252}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT252}" },
-							station = 3
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F4_SNEBT253}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT253}" },
-							station = 3
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F4_SNEBT254_RED}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT254_RED}" },
-							station = 3
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F4_SNEBT254_YELLOW}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT254_YELLOW}" },
-							station = 3
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F4_SNEBT254_GREEN}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT254_GREEN}" },
-							station = 3
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F4_SNEBT256}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT256}" },
-							station = 3
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F4_SNEBT257}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT257}" },
-							station = 3
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F4_SNEBT259E}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT259E}" },
-							station = 3
-						} }
+					arg_value = 0.15
+				}, {
+					CLSID = "PTB-1200-F1",
+					arg_value = 0.15
+				}, {
+					CLSID = "PTB-1200-F1-EMPTY",
+					arg_value = 0.15
 				}, {
 					CLSID = "{R530F_EM}",
 					arg_value = 0.25,
@@ -2252,6 +1968,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{R530F_IR}" },
 							station = 4
+						}, {
+							loadout = { "{S530F}" },
+							station = 3
+						}, {
+							loadout = { "{S530F}" },
+							station = 4
+						}, {
+							loadout = { "{S530F}" },
+							station = 5
 						} }
 				}, {
 					CLSID = "{R530F_IR}",
@@ -2263,28 +1988,41 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{R530F_IR}" },
 							station = 4
+						}, {
+							loadout = { "{S530F}" },
+							station = 3
+						}, {
+							loadout = { "{S530F}" },
+							station = 4
+						}, {
+							loadout = { "{S530F}" },
+							station = 5
 						} }
 				}, {
 					CLSID = "{S530F}",
 					arg_value = 0.25,
 					attach_point_position = { 0, -0.1, 0 },
 					forbidden = { {
+							loadout = { "{S530F}" },
+							station = 4
+						}, {
+							loadout = { "{R530F_EM}" },
+							station = 3
+						}, {
 							loadout = { "{R530F_EM}" },
 							station = 4
 						}, {
+							loadout = { "{R530F_EM}" },
+							station = 5
+						}, {
+							loadout = { "{R530F_IR}" },
+							station = 3
+						}, {
 							loadout = { "{R530F_IR}" },
 							station = 4
-						} },
-					required = { {
-							loadout = { "{S530F}" },
+						}, {
+							loadout = { "{R530F_IR}" },
 							station = 5
-						} }
-				}, {
-					CLSID = "PTB-1200-F1",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "PTB-1200-F1" },
-							station = 3
 						} }
 				} },
 			Number = 5,
@@ -2299,216 +2037,96 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
-					CLSID = "{AIM-9B}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{AIM-9B}" },
-							station = 2
-						} }
-				}, {
-					CLSID = "{AIM-9J}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{AIM-9J}" },
-							station = 2
-						} }
-				}, {
-					CLSID = "{AIM-9JULI}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{AIM-9JULI}" },
-							station = 2
-						} }
-				}, {
 					CLSID = "{SAMP125LD}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{SAMP125LD}" },
-							station = 2
-						} }
+					arg_value = 0.25
 				}, {
 					CLSID = "{SAMP250LD}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{SAMP250LD}" },
-							station = 2
-						} }
+					arg_value = 0.25
 				}, {
 					CLSID = "{SAMP250HD}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{SAMP250HD}" },
-							station = 2
-						} }
+					arg_value = 0.25
 				}, {
 					CLSID = "{SAMP400LD}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{SAMP400LD}" },
-							station = 2
-						} }
+					arg_value = 0.25
 				}, {
 					CLSID = "{SAMP400HD}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{SAMP400HD}" },
-							station = 2
-						} }
+					arg_value = 0.25
 				}, {
 					CLSID = "{BLU107B_DURANDAL}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{BLU107B_DURANDAL}" },
-							station = 2
-						} }
+					arg_value = 0.25
 				}, {
 					CLSID = "{BLG66_BELOUGA}",
 					arg_value = 0.25,
-					attach_point_position = { 0.04, 0, 0 },
-					required = { {
-							loadout = { "{BLG66_BELOUGA}" },
-							station = 2
-						} }
+					attach_point_position = { 0.04, 0, 0 }
 				}, {
 					CLSID = "{MATRA_F1_SNEBT250}",
-					arg_value = 0.35,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT250}" },
-							station = 2
-						} }
+					arg_value = 0.35
 				}, {
 					CLSID = "{MATRA_F1_SNEBT251}",
-					arg_value = 0.35,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT251}" },
-							station = 2
-						} }
+					arg_value = 0.35
 				}, {
 					CLSID = "{MATRA_F1_SNEBT252}",
-					arg_value = 0.35,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT252}" },
-							station = 2
-						} }
+					arg_value = 0.35
 				}, {
 					CLSID = "{MATRA_F1_SNEBT253}",
-					arg_value = 0.35,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT253}" },
-							station = 2
-						} }
+					arg_value = 0.35
 				}, {
 					CLSID = "{MATRA_F1_SNEBT254_RED}",
-					arg_value = 0.35,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT254_RED}" },
-							station = 2
-						} }
+					arg_value = 0.35
 				}, {
 					CLSID = "{MATRA_F1_SNEBT254_YELLOW}",
-					arg_value = 0.35,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT254_YELLOW}" },
-							station = 2
-						} }
+					arg_value = 0.35
 				}, {
 					CLSID = "{MATRA_F1_SNEBT254_GREEN}",
-					arg_value = 0.35,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT254_GREEN}" },
-							station = 2
-						} }
+					arg_value = 0.35
 				}, {
 					CLSID = "{MATRA_F1_SNEBT256}",
-					arg_value = 0.35,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT256}" },
-							station = 2
-						} }
+					arg_value = 0.35
 				}, {
 					CLSID = "{MATRA_F1_SNEBT257}",
-					arg_value = 0.35,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT257}" },
-							station = 2
-						} }
+					arg_value = 0.35
 				}, {
 					CLSID = "{MATRA_F1_SNEBT259E}",
-					arg_value = 0.35,
-					required = { {
-							loadout = { "{MATRA_F1_SNEBT259E}" },
-							station = 2
-						} }
+					arg_value = 0.35
 				}, {
 					CLSID = "{MATRA_F4_SNEBT250}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT250}" },
-							station = 2
-						} }
+					arg_value = 0.25
 				}, {
 					CLSID = "{MATRA_F4_SNEBT251}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT251}" },
-							station = 2
-						} }
+					arg_value = 0.25
 				}, {
 					CLSID = "{MATRA_F4_SNEBT252}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT252}" },
-							station = 2
-						} }
+					arg_value = 0.25
 				}, {
 					CLSID = "{MATRA_F4_SNEBT253}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT253}" },
-							station = 2
-						} }
+					arg_value = 0.25
 				}, {
 					CLSID = "{MATRA_F4_SNEBT254_RED}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT254_RED}" },
-							station = 2
-						} }
+					arg_value = 0.25
 				}, {
 					CLSID = "{MATRA_F4_SNEBT254_YELLOW}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT254_YELLOW}" },
-							station = 2
-						} }
+					arg_value = 0.25
 				}, {
 					CLSID = "{MATRA_F4_SNEBT254_GREEN}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT254_GREEN}" },
-							station = 2
-						} }
+					arg_value = 0.25
 				}, {
 					CLSID = "{MATRA_F4_SNEBT256}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT256}" },
-							station = 2
-						} }
+					arg_value = 0.25
 				}, {
 					CLSID = "{MATRA_F4_SNEBT257}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT257}" },
-							station = 2
-						} }
+					arg_value = 0.25
 				}, {
 					CLSID = "{MATRA_F4_SNEBT259E}",
-					arg_value = 0.25,
-					required = { {
-							loadout = { "{MATRA_F4_SNEBT259E}" },
-							station = 2
-						} }
+					arg_value = 0.25
+				}, {
+					CLSID = "{AIM-9B}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AIM-9J}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AIM-9JULI}",
+					arg_value = 0.15
 				} },
 			Number = 6,
 			Order = 6,
@@ -2523,25 +2141,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			Launchers = { {
 					CLSID = "{AIM-9B}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{AIM-9B}" },
-							station = 1
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{AIM-9J}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{AIM-9J}" },
-							station = 1
-						} }
+					arg_value = 0.15
 				}, {
 					CLSID = "{AIM-9JULI}",
-					arg_value = 0.15,
-					required = { {
-							loadout = { "{AIM-9JULI}" },
-							station = 1
-						} }
+					arg_value = 0.15
 				} },
 			Number = 7,
 			Order = 7,
@@ -2678,11 +2284,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		} },
 	engines_count = 1,
 	engines_nozzles = { {
-			diameter = 1.029,
+			diameter = 0.9,
 			elevation = 0,
 			exhaust_length_ab = 9,
 			exhaust_length_ab_K = 0.5,
-			pos = { -6.93, -0.111, 0 },
+			pos = { -8, -0.111, 0 },
 			smokiness_level = 0.2
 		} },
 	fires_pos = { { -0.855, 0.593, 0 }, { -2.314, 0.178, 2.065 }, { -2.332, 0.187, -2.02 }, { -2.836, 0.122, 2.775 }, { -2.973, 0.095, -3.034 }, { -3.615, -0.012, 4.086 }, { -3.553, -0.017, -4.077 }, { -5.249, -0.1, 0 } },

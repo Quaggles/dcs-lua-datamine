@@ -41,6 +41,8 @@ _G["weapons_table"]["weapons"]["bombs"]["BetAB_500ShP"] = {
 			cx_coeff = { 1, 0.39, 0.6, 0.168, 1.31 },
 			cx_factor = 150,
 			mass = 372.2,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 20,
 			wind_time = 1000
 		},
@@ -101,6 +103,8 @@ _G["weapons_table"]["weapons"]["bombs"]["BetAB_500ShP"] = {
 			cx_coeff = { 1, 0.39, 0.6, 0.168, 1.31 },
 			cx_factor = 150,
 			mass = 372.2,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 20,
 			wind_time = 1000
 		},

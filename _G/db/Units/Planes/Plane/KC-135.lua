@@ -145,6 +145,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		WorldID = 13
 	},
 	DisplayName = "KC-135",
+	EPLRS = true,
 	EmptyWeight = 44663,
 	H_max = 12000,
 	HumanCockpit = false,
@@ -221,7 +222,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	WorldID = 60,
 	_file = "Scripts/Database/planes\\KC-135.lua",
 	air_refuel_receptacle_pos = { 13.32, 1.16, 0 },
-	attribute = { 1, 1, 5, "Redacted", "Tankers", "Refuelable", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes" },
+	attribute = { 1, 1, 5, "Redacted", "Tankers", "Refuelable", "Datalink", "Link16", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes" },
 	average_fuel_consumption = 0.1893,
 	bank_angle_max = 45,
 	bigParkingRamp = true,

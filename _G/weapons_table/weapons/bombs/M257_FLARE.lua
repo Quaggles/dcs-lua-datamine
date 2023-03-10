@@ -34,6 +34,8 @@ _G["weapons_table"]["weapons"]["bombs"]["M257_FLARE"] = {
 			chute_open_time = 1,
 			cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
 			mass = 5,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 0
 		},
 		lead_chute_draw_arg_anim = {
@@ -88,6 +90,8 @@ _G["weapons_table"]["weapons"]["bombs"]["M257_FLARE"] = {
 			chute_open_time = 1,
 			cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
 			mass = 5,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 0
 		},
 		lead_chute_draw_arg_anim = {

@@ -28,6 +28,8 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP400LD"] = {
 			caliber = 0.403,
 			cx_coeff = { 1, 0.29, 0.71, 0.13, 1.28 },
 			mass = 360,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 30,
 			wind_time = 1000
 		},
@@ -90,6 +92,8 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP400LD"] = {
 			caliber = 0.403,
 			cx_coeff = { 1, 0.29, 0.71, 0.13, 1.28 },
 			mass = 360,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 30,
 			wind_time = 1000
 		},

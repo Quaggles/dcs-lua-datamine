@@ -242,6 +242,18 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "FPS-117",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "FPS-117 ECS",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "FPS-117 Dome",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Electric locomotive"
 				}, {
 					Name = "Locomotive"

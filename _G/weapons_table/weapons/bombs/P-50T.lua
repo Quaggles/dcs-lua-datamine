@@ -31,6 +31,8 @@ _G["weapons_table"]["weapons"]["bombs"]["P-50T"] = {
 			cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
 			cx_factor = 100,
 			mass = 50,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 10
 		},
 		hMax = 12000,
@@ -102,6 +104,8 @@ _G["weapons_table"]["weapons"]["bombs"]["P-50T"] = {
 			cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
 			cx_factor = 100,
 			mass = 50,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 10
 		},
 		hMax = 12000,

@@ -27,6 +27,8 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100"] = {
 			caliber = 0.325,
 			cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
 			mass = 236,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 30
 		},
 		launcher = {
@@ -58,6 +60,8 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100"] = {
 						cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
 						cx_factor = 300,
 						mass = 5.8,
+						release_rnd = 0.3,
+						release_rnd_x = 1,
 						wind_sigma = 0
 					},
 					light = {
@@ -100,6 +104,8 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100"] = {
 						cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
 						cx_factor = 300,
 						mass = 5.8,
+						release_rnd = 0.3,
+						release_rnd_x = 1,
 						wind_sigma = 0
 					},
 					light = {
@@ -155,6 +161,8 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100"] = {
 			caliber = 0.325,
 			cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
 			mass = 236,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 30
 		},
 		launcher = {
@@ -186,6 +194,8 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100"] = {
 						cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
 						cx_factor = 300,
 						mass = 5.8,
+						release_rnd = 0.3,
+						release_rnd_x = 1,
 						wind_sigma = 0
 					},
 					light = {
@@ -228,6 +238,8 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100"] = {
 						cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
 						cx_factor = 300,
 						mass = 5.8,
+						release_rnd = 0.3,
+						release_rnd_x = 1,
 						wind_sigma = 0
 					},
 					light = {

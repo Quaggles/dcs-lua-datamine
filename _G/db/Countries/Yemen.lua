@@ -883,6 +883,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "BDK-775",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "HarborTug"
 				}, {
 					Name = "Ship_Tilde_Supply"

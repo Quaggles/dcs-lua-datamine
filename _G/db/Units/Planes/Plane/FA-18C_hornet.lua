@@ -2722,7 +2722,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					}, {
 						C = { { "Arg", 522, "set", 0.01 }, { "Arg", 521, "set", 0 } }
 					} },
-				Transition = { "Neutral", "GestureSaluteLeft" }
+				Transition = { "Any", "GestureSaluteLeft" }
 			}, {
 				Sequence = { {
 						C = { { "Arg", 39, "to", 0, "speed", 0.5 }, { "Arg", 99, "to", 0, "speed", 0.5 }, { "Arg", 500, "to", 0, "speed", 0.5 }, { "Arg", 501, "to", 0, "speed", 0.5 }, { "Arg", 502, "set", 0 } }
@@ -2733,7 +2733,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					}, {
 						C = { { "Arg", 522, "set", 0.01 }, { "Arg", 520, "set", 0 } }
 					} },
-				Transition = { "Neutral", "GestureSaluteRight" }
+				Transition = { "Any", "GestureSaluteRight" }
 			}, {
 				Sequence = { {
 						C = { { "Arg", 522, "to", 1, "speed", 0.33 } }

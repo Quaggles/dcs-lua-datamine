@@ -27,6 +27,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_99"] = {
 			default_delay = 1.2,
 			default_open_height = 457
 		},
+		display_name_short = "RBK-500U",
 		fm = {
 			I = 101.2986,
 			L = 2.34,
@@ -35,6 +36,8 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_99"] = {
 			caliber = 0.335,
 			cx_coeff = { 1, 0.39, 0.6, 0.168, 1.31 },
 			mass = 222,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 100,
 			wind_time = 1000
 		},
@@ -175,6 +178,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_99"] = {
 			default_delay = 1.2,
 			default_open_height = 457
 		},
+		display_name_short = "RBK-500U",
 		fm = {
 			I = 101.2986,
 			L = 2.34,
@@ -183,6 +187,8 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_99"] = {
 			caliber = 0.335,
 			cx_coeff = { 1, 0.39, 0.6, 0.168, 1.31 },
 			mass = 222,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 100,
 			wind_time = 1000
 		},

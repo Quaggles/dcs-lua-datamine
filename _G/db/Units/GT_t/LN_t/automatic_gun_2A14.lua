@@ -26,6 +26,7 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["automatic_gun_2A14"] = {
 	max_trg_alt = 2000,
 	name = "2A14_2",
 	reactionTime = 3,
+	reflection_limit = 0.2,
 	sensor = {},
 	type = 3
 }

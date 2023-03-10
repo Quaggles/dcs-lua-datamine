@@ -794,9 +794,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Pylons = { {
 			DisplayName = "TT",
 			Launchers = { {
-					CLSID = "<CLEAN>",
-					arg_value = 0
-				}, {
 					CLSID = "{FUEL-TIP-TANK-500-L}",
 					arg_value = 0.6,
 					required = { {
@@ -817,7 +814,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			X = -0.905,
 			Y = -0.201,
 			Z = -5.11,
-			arg = 525,
+			arg = 524,
 			arg_value = 0,
 			connector = "TIP_SX",
 			use_full_connector_position = true
@@ -1639,9 +1636,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			DisplayName = "TT",
 			Launchers = { {
-					CLSID = "<CLEAN>",
-					arg_value = 0
-				}, {
 					CLSID = "{FUEL-TIP-TANK-500-R}",
 					arg_value = 0.6,
 					required = { {
@@ -2059,7 +2053,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				Transition = { "Any", "Bailout" }
 			} }
 	},
-	net_animation = { 38, 190, 191, 192, 203, 202, 201, 208, 200, 477, 1003, 525, 526, 527, 39, 99, 337, 399, 480 },
+	net_animation = { 38, 190, 191, 192, 203, 202, 201, 208, 200, 477, 1003, 525, 526, 527, 39, 99, 337, 399, 480, 524 },
 	nose_gear_amortizer_direct_stroke = 0,
 	nose_gear_amortizer_normal_weight_stroke = -0.153,
 	nose_gear_amortizer_reversal_stroke = -0.189,

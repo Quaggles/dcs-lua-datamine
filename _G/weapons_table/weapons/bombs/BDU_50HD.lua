@@ -24,6 +24,8 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_50HD"] = {
 			cx_coeff = { 1, 0.29, 0.71, 0.14, 1.28 },
 			cx_factor = 100,
 			mass = 232,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 8,
 			wind_time = 1000
 		},
@@ -74,6 +76,8 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_50HD"] = {
 			cx_coeff = { 1, 0.29, 0.71, 0.14, 1.28 },
 			cx_factor = 100,
 			mass = 232,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 8,
 			wind_time = 1000
 		},

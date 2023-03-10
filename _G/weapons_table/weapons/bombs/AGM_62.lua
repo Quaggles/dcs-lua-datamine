@@ -39,6 +39,8 @@ _G["weapons_table"]["weapons"]["bombs"]["AGM_62"] = {
 			finsTau = 0.1,
 			mass = 1061,
 			maxAoa = 0.23,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 0,
 			wind_time = 0
 		},
@@ -113,6 +115,8 @@ _G["weapons_table"]["weapons"]["bombs"]["AGM_62"] = {
 			finsTau = 0.1,
 			mass = 1061,
 			maxAoa = 0.23,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 0,
 			wind_time = 0
 		},

@@ -29,6 +29,8 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB_100SV"] = {
 			cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
 			cx_factor = 100,
 			mass = 100,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 20,
 			wind_time = 100
 		},
@@ -95,6 +97,8 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB_100SV"] = {
 			cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
 			cx_factor = 100,
 			mass = 100,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 20,
 			wind_time = 100
 		},

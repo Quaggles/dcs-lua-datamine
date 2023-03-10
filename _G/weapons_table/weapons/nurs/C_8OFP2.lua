@@ -1,5 +1,6 @@
 _G["weapons_table"]["weapons"]["nurs"]["C_8OFP2"] = {
 	_unique_resource_name = "weapons.nurs.C_8OFP2",
+	caliber = 0.08,
 	client = {
 		engine = {
 			boost_factor = 1,
@@ -49,6 +50,7 @@ _G["weapons_table"]["weapons"]["nurs"]["C_8OFP2"] = {
 	cx_pil = 2.9560311751026e-05,
 	display_name = "S-8OFP2",
 	dist_max = 3000,
+	dist_max_ballistic = 8000,
 	dist_min = 600,
 	mass = 16.7,
 	model = "s-8_ofp2",

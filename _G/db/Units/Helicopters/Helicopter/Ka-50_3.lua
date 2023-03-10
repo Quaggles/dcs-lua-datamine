@@ -507,7 +507,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					name = "ShellsMovement",
 					shells_movement_arg = 349
 				} },
-			ejector_dir = { 0.5, -0.5, 0 },
+			ejector_dir = { 3, 0, 0 },
 			ejector_pos = { -0.5, -0.5, 0 },
 			ejector_pos_connector = "Gun_point001",
 			elevation_initial = 0,

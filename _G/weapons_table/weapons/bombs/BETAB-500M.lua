@@ -29,6 +29,8 @@ _G["weapons_table"]["weapons"]["bombs"]["BETAB-500M"] = {
 			cx_coeff = { 0.1, 0.39, 0.6, 0.668, 1.31 },
 			cx_factor = 1,
 			mass = 479,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 80,
 			wind_time = 1000
 		},
@@ -95,6 +97,8 @@ _G["weapons_table"]["weapons"]["bombs"]["BETAB-500M"] = {
 			cx_coeff = { 0.1, 0.39, 0.6, 0.668, 1.31 },
 			cx_factor = 1,
 			mass = 479,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 80,
 			wind_time = 1000
 		},

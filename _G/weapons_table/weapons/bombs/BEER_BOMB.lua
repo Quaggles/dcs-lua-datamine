@@ -29,6 +29,8 @@ _G["weapons_table"]["weapons"]["bombs"]["BEER_BOMB"] = {
 			cx_coeff = { 1, 0.9, 0.6, 0.6, 1.2 },
 			cx_factor = 300,
 			mass = 100,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 2000
 		},
 		hMax = 12000,
@@ -94,6 +96,8 @@ _G["weapons_table"]["weapons"]["bombs"]["BEER_BOMB"] = {
 			cx_coeff = { 1, 0.9, 0.6, 0.6, 1.2 },
 			cx_factor = 300,
 			mass = 100,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 2000
 		},
 		hMax = 12000,

@@ -19,7 +19,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Mistral"] = {
 		H_min_t = 10,
 		Head_Form = 1,
 		Head_Type = 1,
-		KillDistance = 5,
+		KillDistance = 2,
 		Life_Time = 20,
 		M = 18.7,
 		Mach_max = 2.5,
@@ -35,7 +35,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Mistral"] = {
 		_file = "./CoreMods/aircraft/AircraftWeaponPack/AA_Missiles.lua",
 		_origin = "AircraftWeaponPack",
 		autopilot = {
-			K = 2,
+			K = 5,
 			Kg = 0.1,
 			Ki = 0,
 			delay = 0.5,
@@ -93,7 +93,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Mistral"] = {
 		},
 		fuze_proximity = {
 			ignore_inp_armed = 1,
-			radius = 5
+			radius = 2
 		},
 		march = {
 			boost_factor = 0,
@@ -123,16 +123,16 @@ _G["weapons_table"]["weapons"]["missiles"]["Mistral"] = {
 		sigma = { 10, 10, 10 },
 		simple_IR_seeker = {
 			FOV = 0.069813170079773,
-			GimbLim = 0.5235987755983,
+			GimbLim = 0.66322511575785,
 			cooled = true,
 			delay = 0,
-			flag_dist = 150,
+			flag_dist = 50,
 			opTime = 20,
 			sensitivity = 9500,
 			target_H_min = 0
 		},
 		simple_gyrostab_seeker = {
-			omega_max = 0.69813170079773
+			omega_max = 0.34906585039887
 		},
 		t_acc = 0,
 		t_b = 2,
@@ -152,7 +152,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Mistral"] = {
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
 			piercing_mass = 0.6,
-			time_self_destruct = 15
+			time_self_destruct = 14
 		},
 		warhead_air = {
 			caliber = 93,
@@ -166,7 +166,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Mistral"] = {
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
 			piercing_mass = 0.6,
-			time_self_destruct = 15
+			time_self_destruct = 14
 		},
 		wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 	},
@@ -189,7 +189,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Mistral"] = {
 		H_min_t = 10,
 		Head_Form = 1,
 		Head_Type = 1,
-		KillDistance = 5,
+		KillDistance = 2,
 		Life_Time = 20,
 		M = 18.7,
 		Mach_max = 2.5,
@@ -205,7 +205,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Mistral"] = {
 		_file = "./CoreMods/aircraft/AircraftWeaponPack/AA_Missiles.lua",
 		_origin = "AircraftWeaponPack",
 		autopilot = {
-			K = 2,
+			K = 5,
 			Kg = 0.1,
 			Ki = 0,
 			delay = 0.5,
@@ -263,7 +263,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Mistral"] = {
 		},
 		fuze_proximity = {
 			ignore_inp_armed = 1,
-			radius = 5
+			radius = 2
 		},
 		march = {
 			boost_factor = 0,
@@ -293,16 +293,16 @@ _G["weapons_table"]["weapons"]["missiles"]["Mistral"] = {
 		sigma = { 10, 10, 10 },
 		simple_IR_seeker = {
 			FOV = 0.069813170079773,
-			GimbLim = 0.5235987755983,
+			GimbLim = 0.66322511575785,
 			cooled = true,
 			delay = 0,
-			flag_dist = 150,
+			flag_dist = 50,
 			opTime = 20,
 			sensitivity = 9500,
 			target_H_min = 0
 		},
 		simple_gyrostab_seeker = {
-			omega_max = 0.69813170079773
+			omega_max = 0.34906585039887
 		},
 		t_acc = 0,
 		t_b = 2,
@@ -322,7 +322,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Mistral"] = {
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
 			piercing_mass = 0.6,
-			time_self_destruct = 15
+			time_self_destruct = 14
 		},
 		warhead_air = {
 			caliber = 93,
@@ -336,7 +336,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Mistral"] = {
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
 			piercing_mass = 0.6,
-			time_self_destruct = 15
+			time_self_destruct = 14
 		},
 		wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 	},

@@ -32,6 +32,8 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_10"] = {
 			finsTau = 0.1,
 			mass = 959,
 			maxAoa = 0.1221730476396,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 0
 		},
 		scheme = "schemes/bombs/bomb-paveway-II-afm.sch",
@@ -83,6 +85,8 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_10"] = {
 			finsTau = 0.1,
 			mass = 959,
 			maxAoa = 0.1221730476396,
+			release_rnd = 0.3,
+			release_rnd_x = 1,
 			wind_sigma = 0
 		},
 		scheme = "schemes/bombs/bomb-paveway-II-afm.sch",
