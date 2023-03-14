@@ -1,7 +1,7 @@
 # DCS Lua Datamine
 ![image](https://user-images.githubusercontent.com/8382945/115590264-1a3fe300-a314-11eb-9e74-cf76bd60c4f9.png)
 
-## TL/DR
+# TL/DR
 
 In DCS 2.7 ED has removed most the lua files in the `Scripts/Database` directory which contained the definitions for most of the rockets, missiles, bombs, warheads, aircraft properties used in the game. For many modders and community members this was a shock since it makes it impossible to see what changes are going on under the hood or to use it as a reference for creating their own weapons/modules.
 
@@ -9,8 +9,9 @@ Because of this I created a script that reads through all the lua tables in the 
 
 I'm planning to keep updating this repository as every Open Beta patch releases.
 
-A quick rundown of the most useful folders and what they contain:
+# Common Links
 
+## Categories
 * [_G/warheads](_G/warheads) - Definitions for the warheads used on explosive weapons, sometimes weapon definitions reference files in here (See [#Table-References](https://github.com/Quaggles/dcs-lua-datamine/#table-references))
 * [_G/weapons_table/weapons](_G/weapons_table/weapons) - Contains **NEW Weapon API** definitions (AIM-7, AIM-120), look here first for a weapon, if it's not here look below
 * [_G/rockets](_G/rockets) - Contains **OLD Weapon API** missile definitions (R-27ER, AIM-54)
@@ -18,11 +19,112 @@ A quick rundown of the most useful folders and what they contain:
 * [_G/db/Units](_G/db/Units) - Definitions for every unit in the game such as airplanes, helicopters, ground units, etc. Useful to find things like RCS, Engine IR values, etc
 * [_G/db/Sensors/Sensor](_G/db/Sensors/Sensor) - Definitions for every sensor used by **AI controlled units, repeat, not player aircraft!** (Those values are hidden in the source code for each module on the C++ side)
 
-And here is a link directly to the AIM-120C and the SD-10 incase you want to compare 2 missiles for fun, make sure to read [#Comments](https://github.com/Quaggles/dcs-lua-datamine/#comments) for some explanations of the variables
-* [_G/weapons_table/weapons/missiles/AIM_120C.lua](_G/weapons_table/weapons/missiles/AIM_120C.lua)
-* [_G/weapons_table/weapons/missiles/SD-10.lua](_G/weapons_table/weapons/missiles/SD-10.lua)
+## F-16C - F/A-18C - F-15C *(Eagle Dynamics)*
+|Author|Name|Link|
+|-|--|--|
+|Eagle Dynamics|**AIM-9L**|[_G/rockets/AIM-9L.lua](_G/rockets/AIM-9L.lua)|
+|Eagle Dynamics|**AIM-9P**|[_G/rockets/AIM-9P.lua](_G/rockets/AIM-9P.lua)|
+|Eagle Dynamics|**AIM-9P5**|[_G/rockets/AIM-9P5.lua](_G/rockets/AIM-9P5.lua)|
+|Eagle Dynamics|**AIM-9M**|[_G/rockets/AIM_9.lua](_G/rockets/AIM_9.lua)|
+|Eagle Dynamics|**AIM-9X**|[_G/rockets/AIM_9X.lua](_G/rockets/AIM_9X.lua)|
+|Eagle Dynamics|**AIM-7F**|[_G/weapons_table/weapons/missiles/AIM-7F.lua](_G/weapons_table/weapons/missiles/AIM-7F.lua)|
+|Eagle Dynamics|**AIM-7M**|[_G/weapons_table/weapons/missiles/AIM_7.lua](_G/weapons_table/weapons/missiles/AIM_7.lua)|
+|Eagle Dynamics|**AIM-7MH**|[_G/weapons_table/weapons/missiles/AIM-7MH.lua](_G/weapons_table/weapons/missiles/AIM-7MH.lua)|
+|Eagle Dynamics|**AIM-7P**|[_G/weapons_table/weapons/missiles/AIM-7P.lua](_G/weapons_table/weapons/missiles/AIM-7P.lua)|
+|Eagle Dynamics|**AIM-120B**|[_G/weapons_table/weapons/missiles/AIM_120.lua](_G/weapons_table/weapons/missiles/AIM_120.lua)|
+|Eagle Dynamics|**AIM-120C**|[_G/weapons_table/weapons/missiles/AIM_120C.lua](_G/weapons_table/weapons/missiles/AIM_120C.lua)|
 
-## Installation of the exporter script
+## MiG-29 - Su-27 - Su-33 - J-11 *(Eagle Dynamics)*
+*These filenames are in Cyrillic which is why they don't match the English display names, the Cyrillic character P represents the sound R* which is why R-73 becomes P_73 for example
+|Author|Name|Link|
+|--|--|--|
+|Eagle Dynamics|**R-60M**|[_G/rockets/P_60.lua](_G/rockets/P_60.lua)|
+|Eagle Dynamics|**R-73**|[_G/rockets/P_73.lua](_G/rockets/P_73.lua)|
+|Eagle Dynamics|**R-27R**|[_G/rockets/P_27P.lua](_G/rockets/P_27P.lua)|
+|Eagle Dynamics|**R-27ER**|[_G/rockets/P_27PE.lua](_G/rockets/P_27PE.lua)|
+|Eagle Dynamics|**R-27T**|[_G/rockets/P_27T.lua](_G/rockets/P_27T.lua)|
+|Eagle Dynamics|**R-27ET**|[_G/rockets/P_27TE.lua](_G/rockets/P_27TE.lua)|
+|Eagle Dynamics|**R-77**|[_G/rockets/P_77.lua](_G/rockets/P_77.lua)|
+
+## F-14 *(Heatblur)*
+|Author|Name|Link|
+|--|--|--|
+|Eagle Dynamics|**AIM-9L**|[_G/rockets/AIM-9L.lua](_G/rockets/AIM-9L.lua)|
+|Eagle Dynamics|**AIM-9M**|[_G/rockets/AIM_9.lua](_G/rockets/AIM_9.lua)|
+|Eagle Dynamics|**AIM-7F**|[_G/weapons_table/weapons/missiles/AIM-7F.lua](_G/weapons_table/weapons/missiles/AIM-7F.lua)|
+|Eagle Dynamics|**AIM-7M**|[_G/weapons_table/weapons/missiles/AIM_7.lua](_G/weapons_table/weapons/missiles/AIM_7.lua)|
+|Eagle Dynamics|**AIM-7MH**|[_G/weapons_table/weapons/missiles/AIM-7MH.lua](_G/weapons_table/weapons/missiles/AIM-7MH.lua)|
+|Eagle Dynamics|**AIM-7P**|[_G/weapons_table/weapons/missiles/AIM-7P.lua](_G/weapons_table/weapons/missiles/AIM-7P.lua)|
+|Heatblur|**AIM-54A-Mk47**|[_G/rockets/AIM_54A_Mk47.lua](_G/rockets/AIM_54A_Mk47.lua)|
+|Heatblur|**AIM-54A-Mk60**|[_G/rockets/AIM_54A_Mk60.lua](_G/rockets/AIM_54A_Mk60.lua)|
+|Heatblur|**AIM-54C-Mk47**|[_G/rockets/AIM_54C_Mk47.lua](_G/rockets/AIM_54C_Mk47.lua)|
+|Heatblur|**AIM-54C-Mk60**|[_G/rockets/AIM_54C_Mk60.lua](_G/rockets/AIM_54C_Mk60.lua)|
+
+## JF-17 *(Deka Ironworks)*
+|Author|Name|Link|
+|--|--|--|
+|Deka Ironworks|**PL-5EII**|[_G/rockets/PL-5EII.lua](_G/rockets/PL-5EII.lua)|
+|Deka Ironworks|**SD-10**|[_G/weapons_table/weapons/missiles/SD-10.lua](_G/weapons_table/weapons/missiles/SD-10.lua)|
+
+## Mirage 2000C *(RAZBAM)*
+|Author|Name|Link|Notes|
+|--|--|--|--|
+|RAZBAM|**Matra Magic II**|[_G/rockets/MMagicII.lua](_G/rockets/MMagicII.lua)|Not to be confused with "R_550.lua" by Eagle Dynamics|
+|RAZBAM|**Super 530D**|[_G/weapons_table/weapons/missiles/Matra Super 530D.lua](_G/weapons_table/weapons/missiles/Matra%20Super%20530D.lua)|Not to be confused with "Super_530D.lua" by Eagle Dynamics|
+
+## Mirage F-1 *(Aerges)*
+|Author|Name|Link|Notes|
+|--|--|--|--|
+|Eagle Dynamics|**AIM-9B**|[_G/rockets/GAR-8.lua](_G/rockets/GAR-8.lua)|
+|Eagle Dynamics|**AIM-9J**|[_G/rockets/AIM-9J.lua](_G/rockets/AIM-9J.lua)|
+|Eagle Dynamics|**AIM-9JULI**|[_G/rockets/AIM-9JULI.lua](_G/rockets/AIM-9JULI.lua)|
+|Eagle Dynamics|**AIM-9P**|[_G/rockets/AIM-9P.lua](_G/rockets/AIM-9P.lua)|
+|Eagle Dynamics|**R550 Magic 1**|[_G/rockets/R_550_M1.lua](_G/rockets/R_550_M1.lua)|
+|Eagle Dynamics|**R550 Magic 2**|[_G/rockets/R_550.lua](_G/rockets/R_550.lua)|Not to be confused with "MMagicII.lua" by RAZBAM|
+|Eagle Dynamics|**R530F EM**|[_G/rockets/R_530F_EM.lua](_G/rockets/R_530F_EM.lua)|
+|Eagle Dynamics|**R530F IR**|[_G/rockets/R_530F_IR.lua](_G/rockets/R_530F_IR.lua)|
+|Eagle Dynamics|**S530F**|[_G/rockets/Super_530F.lua](_G/rockets/Super_530F.lua)|
+
+## MiG-19P *(RAZBAM)*
+|Author|Name|Link|
+|--|--|--|
+|Magnitude 3|**K-13A**|[_G/rockets/R-3S.lua](_G/rockets/R-3S.lua)|Same as the MiG-21|
+
+## MiG-21bis *(Magnitude 3)*
+|Author|Name|Link|
+|--|--|--|
+|Magnitude 3|**R-55**|[_G/rockets/R-55.lua](_G/rockets/R-55.lua)|
+|Magnitude 3|**RS2US**|[_G/rockets/RS2US.lua](_G/rockets/RS2US.lua)|
+|Magnitude 3|**R-3S**|[_G/rockets/R-3S.lua](_G/rockets/R-3S.lua)|
+|Magnitude 3|**R-3R**|[_G/rockets/R-3R.lua](_G/rockets/R-3R.lua)|
+|Magnitude 3|**R-13M**|[_G/rockets/R-13M.lua](_G/rockets/R-13M.lua)|
+|Magnitude 3|**R-13M1**|[_G/rockets/R-13M1.lua](_G/rockets/R-13M1.lua)|
+|Magnitude 3|**R-60**|[_G/rockets/R-60.lua](_G/rockets/R-60.lua)|
+|Eagle Dynamics|**R-60M**|[_G/rockets/P_60.lua](_G/rockets/P_60.lua)|
+
+## AJS-37
+|Author|Name|Link|
+|--|--|--|
+|Heatblur|**Rb-24**|[_G/rockets/Rb 24.lua](_G/rockets/Rb%2024.lua)|
+|Heatblur|**Rb-24J**|[_G/rockets/Rb 24J.lua](_G/rockets/Rb%2024J.lua)|
+|Heatblur|**Rb-74**|[_G/rockets/Rb 74.lua](_G/rockets/Rb%2074.lua)|
+
+## Ka-50 Black Shark 3
+|Author|Name|Link|
+|--|--|--|
+|Eagle Dynamics|**9M39 Igla**|[_G/weapons_table/weapons/missiles/Igla_1E.lua](_G/weapons_table/weapons/missiles/Igla_1E.lua)|
+
+## Mi-24P
+|Author|Name|Link|
+|--|--|--|
+|Eagle Dynamics|**R-60M**|[_G/rockets/P_60.lua](_G/rockets/P_60.lua)|
+
+## SA342 Gazelle
+|Author|Name|Link|Notes|
+|--|--|--|--|
+|Polychop|**MBDA Mistral**|[_G/rockets/MBDA_Mistral.lua](_G/rockets/MBDA_Mistral.lua)|Not to be confused with "_G/rockets/Mistral.lua" by *(Eagle Dynamics)*|
+
+# Installation of the exporter script
 
 Copy the two scripts in [/Hooks](Hooks) and put them in your `Saved Games/DCS/Scripts/Hooks` directory, now just launch the game you should see the following output in the `dcs.log` file if it worked, output tables are in `Saved Games/DCS/DCS.Lua.Exporter/*`
 
@@ -33,9 +135,9 @@ Note: The exporter can take around 30 seconds to run and will make the game take
 ![image](https://user-images.githubusercontent.com/8382945/115798272-37aaa500-a419-11eb-8574-6fcaf272c7ad.png)
 
 
-## Notes about output lua files
+# Notes about output lua files
 
-### Indexes
+## Indexes
 Tables that were indexed with a string key will start like this showing the path to that table relative to _G (Global) 
 ```lua
 _G["weapons_table"]["weapons"]["missiles"]["AIM_120C"] = {
@@ -48,7 +150,7 @@ _G["rockets"]["#Index"] = {
 
 The reason for this is that patch to patch the # index will change and will clutter up the git diff so I replace it with that placeholder string instead
 
-### Table References
+## Table References
 
 In the original source files table references were easy to spot, for example in the GBU-24 definition you would see the line:
 ```lua
@@ -87,7 +189,7 @@ warhead = "_G/warheads/Mk_84.lua",
 
 Note, these nice references only work if the tables are exact references in memory, if another weapon definition used a "Deep Copy" of the table (Copied all the values off it and inserted it into a fresh table) there is no way to connect them logically. For example the bombs in the `bombs` table typically reference fine, those in `_G\weapons_table\weapons\bombs` are usually deep copied.
 
-### Redacted Values
+## Redacted Values
 
 In the lua tables some values are very volitile and will change nearly every DCS patch by themselves for various reasons when the code is compiled, they don't have any gameplay impact. To avoid cluttering up the git diff and making them easier to read some values are replaced with the `"Redacted"` string. One example of this is the final number in the `ws_type` table which is a unique ID for the type and will change typically every patch.
 ```lua
@@ -96,10 +198,10 @@ In the lua tables some values are very volitile and will change nearly every DCS
 	ws_type = { 4, 5, 36, "Redacted" }
 ```
 
-## Comments
+# Comments
 Some comments I extracted from the 2.5.6 scripts that explain some of the variables, these were google translated from Russian so good luck
 
-### _G/weapons_table/weapons/missiles
+## _G/weapons_table/weapons/missiles
 ```lua
 local missileTable = {
     autopilot =	--inertial autopilot + horiz correction when seeker is on
@@ -174,7 +276,7 @@ local missileTable = {
 }
 ```
 
-### _G/rockets
+## _G/rockets
 ```lua
 -- // type of seeker seeker:
 -- const int InfraredSeeker = 1; // thermal IR (infrared seeker)
@@ -334,7 +436,7 @@ local modelData = {
         [59] = 0.7, -- Changing the slope coefficients of the curve in the upper and lower hemispheres from the height of the carrier.
 } -- end of ["ModelData"]
 ```
-### _G/warheads
+## _G/warheads
 ```lua
 -- Description of coefficients
 
