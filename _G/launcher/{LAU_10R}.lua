@@ -19,7 +19,8 @@ _G["launcher"]["{LAU_10R}"] = {
 			ShapeName = "zuni"
 		} },
 	Picture = "LAU10.png",
-	Weight = 316.6,
+	Weight = 288.9,
+	Weight_Empty = 61.7,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },

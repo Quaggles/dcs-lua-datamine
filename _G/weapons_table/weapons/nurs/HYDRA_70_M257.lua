@@ -40,7 +40,8 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_M257"] = {
 			mass = 11.2,
 			rail_open = false,
 			shapeName = "Hydra_M257",
-			wind_sigma = 5,
+			wind_sigma = 10,
+			wind_sigma_z_coeff = 1,
 			wind_time = 1.1
 		},
 		launcher = {
@@ -228,7 +229,8 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_M257"] = {
 			mass = 11.2,
 			rail_open = false,
 			shapeName = "Hydra_M257",
-			wind_sigma = 5,
+			wind_sigma = 10,
+			wind_sigma_z_coeff = 1,
 			wind_time = 1.1
 		},
 		launcher = {
@@ -387,7 +389,8 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_M257"] = {
 			mass = 11.2,
 			rail_open = false,
 			shapeName = "Hydra_M257",
-			wind_sigma = 5,
+			wind_sigma = 10,
+			wind_sigma_z_coeff = 1,
 			wind_time = 1.1
 		}
 	},

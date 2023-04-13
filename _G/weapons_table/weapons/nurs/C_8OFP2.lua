@@ -29,7 +29,8 @@ _G["weapons_table"]["weapons"]["nurs"]["C_8OFP2"] = {
 			mass = 16.7,
 			rail_open = false,
 			shapeName = "",
-			wind_sigma = 4,
+			wind_sigma = 10,
+			wind_sigma_z_coeff = 1,
 			wind_time = 1.55
 		},
 		scheme = "schemes/rockets/nurs-standard.sch",
@@ -83,7 +84,8 @@ _G["weapons_table"]["weapons"]["nurs"]["C_8OFP2"] = {
 			mass = 16.7,
 			rail_open = false,
 			shapeName = "",
-			wind_sigma = 4,
+			wind_sigma = 10,
+			wind_sigma_z_coeff = 1,
 			wind_time = 1.55
 		},
 		scheme = "schemes/rockets/nurs-standard.sch",
@@ -120,7 +122,8 @@ _G["weapons_table"]["weapons"]["nurs"]["C_8OFP2"] = {
 			mass = 16.7,
 			rail_open = false,
 			shapeName = "",
-			wind_sigma = 4,
+			wind_sigma = 10,
+			wind_sigma_z_coeff = 1,
 			wind_time = 1.55
 		}
 	},

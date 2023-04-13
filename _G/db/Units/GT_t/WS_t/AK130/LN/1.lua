@@ -7,7 +7,7 @@ _G["db"]["Units"]["GT_t"]["WS_t"]["AK130"]["LN"]["#Index"] = {
 	PL = { {
 			ammo_capacity = 180,
 			shell_name = { "A222_130" },
-			shot_delay = 0.75
+			shot_delay = 2
 		} },
 	distanceMin = 50,
 	max_trg_alt = 5000,

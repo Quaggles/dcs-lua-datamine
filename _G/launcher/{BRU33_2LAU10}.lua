@@ -13,8 +13,8 @@ _G["launcher"]["{BRU33_2*LAU10}"] = {
 			payload_CLSID = "{F3EFE0AB-E91A-42D8-9CA2-B63C91ED570A}"
 		} },
 	Picture = "LAU10.png",
-	Weight = 724.2,
-	Weight_Empty = 223.4,
+	Weight = 668.8,
+	Weight_Empty = 214.4,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },

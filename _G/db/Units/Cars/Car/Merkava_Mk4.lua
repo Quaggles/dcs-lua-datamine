@@ -214,7 +214,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.15707963267949, 0.78539816339745 } },
 			base = 1,
-			cockpit = { "IronSight/IronSight", { -1.2, 0.1, 0 } },
+			cockpit = { "IronSight/IronSight", { -1.2, 0.1, 0 },
+				open = true
+			},
 			drawArgument1 = 25,
 			drawArgument2 = 26,
 			omegaY = 0.87266462599716,

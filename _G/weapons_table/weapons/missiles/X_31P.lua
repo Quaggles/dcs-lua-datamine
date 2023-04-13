@@ -15,7 +15,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_31P"] = {
 			PN_dist_data = { 2000, 1, 500, 1 },
 			add_err_val = 0.025,
 			conv_input = 0,
-			delay = 1,
+			delay = 3.5,
 			fins_limit = 0.61086523819802,
 			fins_q_div = 1,
 			loft_active_by_default = 1,
@@ -37,11 +37,11 @@ _G["weapons_table"]["weapons"]["missiles"]["X_31P"] = {
 			smoke_color = { 0.8, 0.8, 0.8 },
 			smoke_transparency = 0.8,
 			tail_width = 0.9,
-			work_time = 2
+			work_time = 2.2
 		},
 		controller = {
 			boost_start = 0.5,
-			march_start = 2.9
+			march_start = 3
 		},
 		fm = {
 			A = 0.36,
@@ -150,7 +150,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_31P"] = {
 			PN_dist_data = { 2000, 1, 500, 1 },
 			add_err_val = 0.025,
 			conv_input = 0,
-			delay = 1,
+			delay = 3.5,
 			fins_limit = 0.61086523819802,
 			fins_q_div = 1,
 			loft_active_by_default = 1,
@@ -172,11 +172,11 @@ _G["weapons_table"]["weapons"]["missiles"]["X_31P"] = {
 			smoke_color = { 0.8, 0.8, 0.8 },
 			smoke_transparency = 0.8,
 			tail_width = 0.9,
-			work_time = 2
+			work_time = 2.2
 		},
 		controller = {
 			boost_start = 0.5,
-			march_start = 2.9
+			march_start = 3
 		},
 		fm = {
 			A = 0.36,

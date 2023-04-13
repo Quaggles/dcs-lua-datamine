@@ -40,7 +40,8 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE259E_F1B"] = {
 			mass = 9.06,
 			rail_open = false,
 			shapeName = "",
-			wind_sigma = 5,
+			wind_sigma = 10,
+			wind_sigma_z_coeff = 1,
 			wind_time = 1
 		},
 		launcher = {
@@ -204,7 +205,8 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE259E_F1B"] = {
 			mass = 9.06,
 			rail_open = false,
 			shapeName = "",
-			wind_sigma = 5,
+			wind_sigma = 10,
+			wind_sigma_z_coeff = 1,
 			wind_time = 1
 		},
 		launcher = {
@@ -340,7 +342,8 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE259E_F1B"] = {
 			mass = 9.06,
 			rail_open = false,
 			shapeName = "",
-			wind_sigma = 5,
+			wind_sigma = 10,
+			wind_sigma_z_coeff = 1,
 			wind_time = 1
 		}
 	},

@@ -121,6 +121,7 @@ _G["rockets"]["#Index"] = {
 	simple_IR_seeker = {
 		FOV = 0.069813170079773,
 		GimbLim = 0.66322511575785,
+		ccm_k0 = 0.5,
 		cooled = true,
 		delay = 0,
 		flag_dist = 50,

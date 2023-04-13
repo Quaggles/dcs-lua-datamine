@@ -2779,23 +2779,19 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "DIS_LS_6_500",
 					Type = 1,
-					arg_value = 0.5
+					arg_value = 0.6
 				}, {
 					CLSID = "DIS_LS_6_250",
 					Type = 1,
-					arg_value = 0.5
-				}, {
-					CLSID = "DIS_LS_6_100",
-					Type = 1,
-					arg_value = 0.5
+					arg_value = 0.3
 				}, {
 					CLSID = "DIS_LS_6_250_DUAL_L",
 					Type = 1,
-					arg_value = 0.5
+					arg_value = 0.3
 				}, {
 					CLSID = "DIS_LS_6_100_DUAL_L",
 					Type = 1,
-					arg_value = 0.5
+					arg_value = 0.3
 				}, {
 					CLSID = "{Mk82SNAKEYE}",
 					arg_value = 0.3
@@ -2807,16 +2803,16 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.6
 				}, {
 					CLSID = "DIS_MK_20",
-					arg_value = 0.5
+					arg_value = 0.3
 				}, {
 					CLSID = "DIS_GBU_12",
-					arg_value = 0.5
+					arg_value = 0.3
 				}, {
 					CLSID = "DIS_TYPE200",
 					arg_value = 0.5
 				}, {
 					CLSID = "DIS_TYPE200_DUAL_L",
-					arg_value = 0.5
+					arg_value = 0.3
 				}, {
 					CLSID = "DIS_MK_82_DUAL_GDJ_II19_L",
 					arg_value = 0.3
@@ -2831,10 +2827,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.3
 				}, {
 					CLSID = "DIS_BRM1_90",
-					arg_value = 0.5
+					arg_value = 0.3
 				}, {
 					CLSID = "DIS_RKT_90_UG",
-					arg_value = 0.5
+					arg_value = 0.3
 				}, {
 					CLSID = "DIS_LAU68_MK5_DUAL_GDJ_II19_L",
 					arg_value = 0.3
@@ -2907,15 +2903,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "DIS_GB6",
 					Type = 1,
-					arg_value = 0.1
+					arg_value = 0.4
 				}, {
 					CLSID = "DIS_GB6_TSP",
 					Type = 1,
-					arg_value = 0.1
+					arg_value = 0.4
 				}, {
 					CLSID = "DIS_GB6_HE",
 					Type = 1,
-					arg_value = 0.1
+					arg_value = 0.4
 				}, {
 					CLSID = "DIS_TANK800",
 					arg_value = 0.1
@@ -2930,31 +2926,31 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.1
 				}, {
 					CLSID = "{Mk82SNAKEYE}",
-					arg_value = 0.9
+					arg_value = 0.3
 				}, {
 					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
-					arg_value = 0.9
+					arg_value = 0.3
 				}, {
 					CLSID = "{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}",
-					arg_value = 0.9
+					arg_value = 0.2
 				}, {
 					CLSID = "{AB8B8299-F1CC-4359-89B5-2172E0CF4A5A}",
 					arg_value = 0.2
 				}, {
 					CLSID = "DIS_MK_20",
-					arg_value = 0.9
+					arg_value = 0.3
 				}, {
 					CLSID = "DIS_GBU_10",
 					arg_value = 0.2
 				}, {
 					CLSID = "DIS_GBU_16",
-					arg_value = 0.3
+					arg_value = 0.2
 				}, {
 					CLSID = "DIS_GBU_12",
-					arg_value = 0.9
+					arg_value = 0.3
 				}, {
 					CLSID = "DIS_TYPE200",
-					arg_value = 0.3
+					arg_value = 0.5
 				} },
 			Number = 3,
 			Order = 3,
@@ -2981,10 +2977,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.2
 				}, {
 					CLSID = "DIS_GBU_10",
-					arg_value = 0.3
+					arg_value = 0.2
 				}, {
 					CLSID = "DIS_GBU_16",
-					arg_value = 0.3
+					arg_value = 0.2
 				}, {
 					CLSID = "DIS_WMD7",
 					arg_value = 0.4,
@@ -3064,15 +3060,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "DIS_GB6",
 					Type = 1,
-					arg_value = 0.1
+					arg_value = 0.4
 				}, {
 					CLSID = "DIS_GB6_TSP",
 					Type = 1,
-					arg_value = 0.1
+					arg_value = 0.4
 				}, {
 					CLSID = "DIS_GB6_HE",
 					Type = 1,
-					arg_value = 0.1
+					arg_value = 0.4
 				}, {
 					CLSID = "DIS_TANK800",
 					arg_value = 0.1
@@ -3087,31 +3083,31 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.1
 				}, {
 					CLSID = "{Mk82SNAKEYE}",
-					arg_value = 0.9
+					arg_value = 0.3
 				}, {
 					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
-					arg_value = 0.9
+					arg_value = 0.3
 				}, {
 					CLSID = "{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}",
-					arg_value = 0.9
+					arg_value = 0.2
 				}, {
 					CLSID = "{AB8B8299-F1CC-4359-89B5-2172E0CF4A5A}",
 					arg_value = 0.2
 				}, {
 					CLSID = "DIS_MK_20",
-					arg_value = 0.9
+					arg_value = 0.3
 				}, {
 					CLSID = "DIS_GBU_10",
 					arg_value = 0.2
 				}, {
 					CLSID = "DIS_GBU_16",
-					arg_value = 0.3
+					arg_value = 0.2
 				}, {
 					CLSID = "DIS_GBU_12",
-					arg_value = 0.9
+					arg_value = 0.3
 				}, {
 					CLSID = "DIS_TYPE200",
-					arg_value = 0.3
+					arg_value = 0.5
 				} },
 			Number = 5,
 			Order = 5,
@@ -3148,23 +3144,19 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "DIS_LS_6_500",
 					Type = 1,
-					arg_value = 0.5
+					arg_value = 0.6
 				}, {
 					CLSID = "DIS_LS_6_250",
 					Type = 1,
-					arg_value = 0.5
-				}, {
-					CLSID = "DIS_LS_6_100",
-					Type = 1,
-					arg_value = 0.5
+					arg_value = 0.3
 				}, {
 					CLSID = "DIS_LS_6_250_DUAL_R",
 					Type = 1,
-					arg_value = 0.5
+					arg_value = 0.3
 				}, {
 					CLSID = "DIS_LS_6_100_DUAL_R",
 					Type = 1,
-					arg_value = 0.5
+					arg_value = 0.3
 				}, {
 					CLSID = "{Mk82SNAKEYE}",
 					arg_value = 0.3
@@ -3176,16 +3168,16 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.6
 				}, {
 					CLSID = "DIS_MK_20",
-					arg_value = 0.5
+					arg_value = 0.3
 				}, {
 					CLSID = "DIS_GBU_12",
-					arg_value = 0.5
+					arg_value = 0.3
 				}, {
 					CLSID = "DIS_TYPE200",
 					arg_value = 0.5
 				}, {
 					CLSID = "DIS_TYPE200_DUAL_R",
-					arg_value = 0.5
+					arg_value = 0.3
 				}, {
 					CLSID = "DIS_MK_82_DUAL_GDJ_II19_R",
 					arg_value = 0.3
@@ -3200,10 +3192,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.3
 				}, {
 					CLSID = "DIS_BRM1_90",
-					arg_value = 0.5
+					arg_value = 0.3
 				}, {
 					CLSID = "DIS_RKT_90_UG",
-					arg_value = 0.5
+					arg_value = 0.3
 				}, {
 					CLSID = "DIS_LAU68_MK5_DUAL_GDJ_II19_R",
 					arg_value = 0.3
@@ -3563,11 +3555,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		} },
 	engines_count = 1,
 	engines_nozzles = { {
-			diameter = 1.13,
-			elevation = 0,
-			exhaust_length_ab = 9,
+			afterburner_circles_count = 8,
+			afterburner_circles_pos = { 0.15, 0.85 },
+			afterburner_circles_scale = 1,
+			afterburner_effect_texture = "afterburner_JF-17",
+			diameter = 1.1,
+			elevation = 1.7,
+			exhaust_length_ab = 7.8,
 			exhaust_length_ab_K = 0.5,
-			pos = { -7.9, -0.375, 0 },
+			pos = { -5.51404, 0.17546, 0 },
 			smokiness_level = 0.6
 		} },
 	fires_pos = { { -3.484, -0.004, -0.149 }, { -2.518, 0.055, 1.216 }, { -2.518, 0.055, -1.216 }, { -6.25, 0.525, 0 }, { -6.75, 0.525, 0 }, { -2.346, -0.448, 0 }, { 2.346, -0.448, 0 } },

@@ -20,6 +20,20 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			control = "comboList",
 			defValue = 1,
+			id = "MissSimplLock",
+			label = "Simplified Missile Locking",
+			playerOnly = true,
+			values = { {
+					dispName = "NO",
+					id = 1
+				}, {
+					dispName = "YES",
+					id = 2
+				} },
+			wCtrl = 75
+		}, {
+			control = "comboList",
+			defValue = 1,
 			id = "ChaffMultiNumber",
 			label = "Chaff Burst Count",
 			playerOnly = true,
@@ -461,6 +475,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 148 },
 			critical_damage = 5
 		},
+		[60] = {
+			critical_damage = 2
+		},
 		[61] = {
 			args = { 224 },
 			critical_damage = 7
@@ -515,6 +532,18 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[85] = {
 			args = { 136 },
+			critical_damage = 3
+		},
+		[86] = {
+			critical_damage = 3
+		},
+		[87] = {
+			critical_damage = 3
+		},
+		[88] = {
+			critical_damage = 3
+		},
+		[89] = {
 			critical_damage = 3
 		},
 		[90] = {
@@ -1642,6 +1671,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{R530F_IR}" },
 							station = 5
 						} }
+				}, {
+					CLSID = "{51F9AAE5-964F-4D21-83FB-502E3BFE5F8A}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
+					arg_value = 0.15
 				} },
 			Number = 3,
 			Order = 3,
@@ -1693,6 +1728,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.15
 				}, {
 					CLSID = "PTB-1200-F1-EMPTY",
+					arg_value = 0.15
+				}, {
+					CLSID = "{51F9AAE5-964F-4D21-83FB-502E3BFE5F8A}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
 					arg_value = 0.15
 				}, {
 					CLSID = "PTB-580G-F1",
@@ -1826,6 +1867,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{R530F_IR}" },
 							station = 5
 						} }
+				}, {
+					CLSID = "{51F9AAE5-964F-4D21-83FB-502E3BFE5F8A}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
+					arg_value = 0.15
 				} },
 			Number = 5,
 			Order = 5,
@@ -2039,7 +2086,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	average_fuel_consumption = 0.5,
 	bank_angle_max = 85,
 	bigParkingRamp = false,
-	brakeshute_name = 319,
+	brakeshute_name = 321,
 	chaff_flare_dispenser = { {
 			dir = { 0, -1, -1 },
 			pos = { -4.312, -0.648, -0.488 }
@@ -2055,16 +2102,16 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			canopy_args = { 38, 1 },
 			canopy_ejection_dir = { -0.4, 1, 0 },
 			canopy_pos = { 2.312, 0.625, 0 },
-			drop_canopy_name = 317,
+			drop_canopy_name = 319,
 			drop_parachute_name = "Mirage-F1_parachute",
 			ejection_added_speed = { -5, 30, 0 },
 			ejection_order = -1,
 			ejection_play_arg = 149,
-			ejection_seat_name = 316,
+			ejection_seat_name = 318,
 			ejection_through_canopy = true,
 			g_suit = 1,
 			pilot_body_arg = 50,
-			pilot_name = 318,
+			pilot_name = 320,
 			pos = { 3.192, -0.013, -0.02 },
 			role = "pilot",
 			role_display_name = "Pilot"

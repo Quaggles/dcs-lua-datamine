@@ -38,6 +38,7 @@ _G["rockets"]["#Index"] = {
 	loft_factor = 1,
 	name = "P_33E",
 	nozzle_exit_area = 0.025,
+	radar_synced = true,
 	sigma = { 10, 10, 10 },
 	supersonic_A_coef_skew = 0.25,
 	t_acc = 6,

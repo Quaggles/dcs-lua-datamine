@@ -37,7 +37,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			drawArgument1 = 0,
 			drawArgument2 = 1,
 			isoviewOffset = { 0, 6, 0 },
-			mount_before_move = true,
 			omegaY = 0.5235987755983,
 			omegaZ = 0.26179938779915,
 			pidY = {

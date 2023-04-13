@@ -28,7 +28,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						firstSoundTime = 1.7,
 						secondSoundTime = 2.2
 					},
-					sensor = {}
+					sensor = {},
+					sightMaxTanVel = 220
 				}, {
 					BR = { {} },
 					PL = { {
@@ -36,7 +37,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						} },
 					sensor = {}
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.4835298641952 } },
+			angles = { { 3.1415926535898, -3.1415926535898, -0.05235987755983, 1.4835298641952 } },
 			center = "CENTER_TOWER",
 			drawArgument1 = 0,
 			drawArgument2 = 1,

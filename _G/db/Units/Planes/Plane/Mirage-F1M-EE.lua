@@ -20,6 +20,20 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			control = "comboList",
 			defValue = 1,
+			id = "MissSimplLock",
+			label = "Simplified Missile Locking",
+			playerOnly = true,
+			values = { {
+					dispName = "NO",
+					id = 1
+				}, {
+					dispName = "YES",
+					id = 2
+				} },
+			wCtrl = 75
+		}, {
+			control = "comboList",
+			defValue = 1,
 			id = "ChaffMultiNumber",
 			label = "Chaff Burst Count",
 			playerOnly = true,
@@ -461,6 +475,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 148 },
 			critical_damage = 5
 		},
+		[60] = {
+			critical_damage = 2
+		},
 		[61] = {
 			args = { 224 },
 			critical_damage = 7
@@ -515,6 +532,18 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[85] = {
 			args = { 136 },
+			critical_damage = 3
+		},
+		[86] = {
+			critical_damage = 3
+		},
+		[87] = {
+			critical_damage = 3
+		},
+		[88] = {
+			critical_damage = 3
+		},
+		[89] = {
 			critical_damage = 3
 		},
 		[90] = {
@@ -1856,6 +1885,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{CLB4_MK82}",
 					arg_value = 0.35
 				}, {
+					CLSID = "CLB4_BR250",
+					arg_value = 0.15
+				}, {
 					CLSID = "{R530F_EM}",
 					arg_value = 0.25,
 					attach_point_position = { -0.068, -0.112, 0 },
@@ -2287,6 +2319,95 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		RWR = "Abstract RWR"
 	},
 	Shape = "Mirage-F1",
+	SnapViews = { <4>{ <5>{
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = -10,
+				viewAngle = 80,
+				x_trans = -0.02,
+				y_trans = 0.003,
+				z_trans = 0
+			}, {
+				hAngle = 90.382431,
+				rollAngle = 0,
+				vAngle = -52.480587,
+				viewAngle = 69.780899,
+				x_trans = 0.07794,
+				y_trans = -0.099448,
+				z_trans = -0.043705
+			}, {
+				hAngle = 6.741884,
+				rollAngle = 0,
+				vAngle = -40.086639,
+				viewAngle = 72.555,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0.194226
+			}, {
+				hAngle = -74.849602,
+				rollAngle = 0,
+				vAngle = -47.992794,
+				viewAngle = 58.012501,
+				x_trans = 0,
+				y_trans = -0.099955,
+				z_trans = 0.008404
+			}, {
+				hAngle = 28.081524,
+				rollAngle = 0,
+				vAngle = -36.981689,
+				viewAngle = 52.877102,
+				x_trans = 0.199877,
+				y_trans = -0.099924,
+				z_trans = 0
+			}, <table 5>, {
+				hAngle = -38.423161,
+				rollAngle = 0,
+				vAngle = -38.28899,
+				viewAngle = 43.796249,
+				x_trans = 0.199001,
+				y_trans = -0.0981,
+				z_trans = 0
+			}, {
+				hAngle = 131.835434,
+				rollAngle = 0,
+				vAngle = -7.7,
+				viewAngle = 99.106483,
+				x_trans = 0.116748,
+				y_trans = 0.04,
+				z_trans = -0.063734
+			}, {
+				hAngle = -166.5,
+				rollAngle = 0,
+				vAngle = 8.120656,
+				viewAngle = 87,
+				x_trans = 0.2,
+				y_trans = 0.099448,
+				z_trans = 0.3
+			}, {
+				hAngle = -131.835434,
+				rollAngle = 0,
+				vAngle = -7.7,
+				viewAngle = 99.106483,
+				x_trans = 0.116748,
+				y_trans = 0.04,
+				z_trans = 0.063734
+			}, {
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 10,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 10,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, <table 5> }, <table 4> },
 	Tasks = { {
 			Name = "Ground Attack",
 			OldID = "Ground Attack",
@@ -2325,6 +2446,31 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	V_max_sea_level = 360,
 	V_opt = 300,
 	V_take_off = 95,
+	ViewSettings = {
+		Arcade = {
+			AnglesDefault = { 0, -8 },
+			LocalPoint = { -21.5, 5.618, 0 }
+		},
+		Chase = {
+			AnglesDefault = { 0, 0 },
+			LocalPoint = { -5, 1, 3 }
+		},
+		Cockpit = { {
+				Allow360rotation = false,
+				CameraAngleLimits = { 200, -90, 90 },
+				CameraAngleRestriction = { false, 90, 0.5 },
+				CameraViewAngleLimits = { 20, 140 },
+				CockpitLocalPoint = { 3.225, 0.368, 0 },
+				EyePoint = { 0.05, 0.1, 0 },
+				ShoulderSize = 0.25,
+				limits_6DOF = {
+					roll = 90,
+					x = { -0.05, 0.2 },
+					y = { -0.1, 0.1 },
+					z = { -0.22, 0.22 }
+				}
+			} }
+	},
 	Vy_max = 243,
 	Waypoint_Custom_Panel = true,
 	WingSpan = 8.4,
@@ -2336,7 +2482,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	average_fuel_consumption = 0.5,
 	bank_angle_max = 85,
 	bigParkingRamp = false,
-	brakeshute_name = 319,
+	brakeshute_name = 321,
 	chaff_flare_dispenser = { {
 			dir = { 0, -1, -1 },
 			pos = { -4.312, -0.648, -0.488 }
@@ -2352,16 +2498,16 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			canopy_args = { 38, 1 },
 			canopy_ejection_dir = { -0.4, 1, 0 },
 			canopy_pos = { 2.312, 0.625, 0 },
-			drop_canopy_name = 317,
+			drop_canopy_name = 319,
 			drop_parachute_name = "Mirage-F1_parachute",
 			ejection_added_speed = { -5, 30, 0 },
 			ejection_order = -1,
 			ejection_play_arg = 149,
-			ejection_seat_name = 316,
+			ejection_seat_name = 318,
 			ejection_through_canopy = true,
 			g_suit = 1,
 			pilot_body_arg = 50,
-			pilot_name = 318,
+			pilot_name = 320,
 			pos = { 3.192, -0.013, -0.02 },
 			role = "pilot",
 			role_display_name = "Pilot"

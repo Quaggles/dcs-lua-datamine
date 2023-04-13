@@ -32,7 +32,8 @@ _G["weapons_table"]["weapons"]["nurs"]["C_8OM"] = {
 			mass = 12.1,
 			rail_open = false,
 			shapeName = "",
-			wind_sigma = 4,
+			wind_sigma = 10,
+			wind_sigma_z_coeff = 1,
 			wind_time = 1.55
 		},
 		launcher = {
@@ -173,7 +174,8 @@ _G["weapons_table"]["weapons"]["nurs"]["C_8OM"] = {
 			mass = 12.1,
 			rail_open = false,
 			shapeName = "",
-			wind_sigma = 4,
+			wind_sigma = 10,
+			wind_sigma_z_coeff = 1,
 			wind_time = 1.55
 		},
 		launcher = {
@@ -294,7 +296,8 @@ _G["weapons_table"]["weapons"]["nurs"]["C_8OM"] = {
 			mass = 12.1,
 			rail_open = false,
 			shapeName = "",
-			wind_sigma = 4,
+			wind_sigma = 10,
+			wind_sigma_z_coeff = 1,
 			wind_time = 1.55
 		}
 	},

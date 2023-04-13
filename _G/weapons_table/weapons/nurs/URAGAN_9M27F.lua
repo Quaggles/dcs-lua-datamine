@@ -27,7 +27,8 @@ _G["weapons_table"]["weapons"]["nurs"]["URAGAN_9M27F"] = {
 			mass = 280,
 			rail_open = false,
 			shapeName = "",
-			wind_sigma = 2,
+			wind_sigma = 5,
+			wind_sigma_z_coeff = 1,
 			wind_time = 3
 		},
 		scheme = "schemes/rockets/nurs-standard.sch",
@@ -79,7 +80,8 @@ _G["weapons_table"]["weapons"]["nurs"]["URAGAN_9M27F"] = {
 			mass = 280,
 			rail_open = false,
 			shapeName = "",
-			wind_sigma = 2,
+			wind_sigma = 5,
+			wind_sigma_z_coeff = 1,
 			wind_time = 3
 		},
 		scheme = "schemes/rockets/nurs-standard.sch",
@@ -114,7 +116,8 @@ _G["weapons_table"]["weapons"]["nurs"]["URAGAN_9M27F"] = {
 			mass = 280,
 			rail_open = false,
 			shapeName = "",
-			wind_sigma = 2,
+			wind_sigma = 5,
+			wind_sigma_z_coeff = 1,
 			wind_time = 3
 		}
 	},

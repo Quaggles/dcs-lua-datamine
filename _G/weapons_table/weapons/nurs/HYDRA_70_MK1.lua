@@ -28,7 +28,8 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_MK1"] = {
 			mass = 9.11,
 			rail_open = false,
 			shapeName = "HYDRA-70 MK1",
-			wind_sigma = 5,
+			wind_sigma = 10,
+			wind_sigma_z_coeff = 1,
 			wind_time = 1.1
 		},
 		scheme = "schemes/rockets/nurs-standard.sch",
@@ -82,7 +83,8 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_MK1"] = {
 			mass = 9.11,
 			rail_open = false,
 			shapeName = "HYDRA-70 MK1",
-			wind_sigma = 5,
+			wind_sigma = 10,
+			wind_sigma_z_coeff = 1,
 			wind_time = 1.1
 		},
 		scheme = "schemes/rockets/nurs-standard.sch",
@@ -118,7 +120,8 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_MK1"] = {
 			mass = 9.11,
 			rail_open = false,
 			shapeName = "HYDRA-70 MK1",
-			wind_sigma = 5,
+			wind_sigma = 10,
+			wind_sigma_z_coeff = 1,
 			wind_time = 1.1
 		}
 	},

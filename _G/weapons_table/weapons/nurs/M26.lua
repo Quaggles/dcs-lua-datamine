@@ -27,7 +27,8 @@ _G["weapons_table"]["weapons"]["nurs"]["M26"] = {
 			mass = 306,
 			rail_open = false,
 			shapeName = "",
-			wind_sigma = 3,
+			wind_sigma = 5,
+			wind_sigma_z_coeff = 1,
 			wind_time = 2
 		},
 		fuze = {
@@ -144,7 +145,8 @@ _G["weapons_table"]["weapons"]["nurs"]["M26"] = {
 			mass = 306,
 			rail_open = false,
 			shapeName = "",
-			wind_sigma = 3,
+			wind_sigma = 5,
+			wind_sigma_z_coeff = 1,
 			wind_time = 2
 		},
 		fuze = {
@@ -244,7 +246,8 @@ _G["weapons_table"]["weapons"]["nurs"]["M26"] = {
 			mass = 306,
 			rail_open = false,
 			shapeName = "",
-			wind_sigma = 3,
+			wind_sigma = 5,
+			wind_sigma_z_coeff = 1,
 			wind_time = 2
 		}
 	},

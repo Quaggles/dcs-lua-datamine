@@ -30,7 +30,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			control = "checkbox",
 			defValue = true,
 			id = "NS430allow",
-			label = "NS 430 allow"
+			label = "NS 430 allow",
+			playerOnly = true
 		}, {
 			control = "checkbox",
 			defValue = true,
@@ -53,7 +54,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			}
 		}, {
 			control = "label",
-			id = "mul_Label",
+			id = "ai_Label",
 			label = "AI HELPER",
 			xLbl = 150
 		}, {
@@ -94,7 +95,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			control = "checkbox",
 			defValue = false,
 			id = "HideAngleBoxes",
-			label = "Hide boxes in Pilot AI menu"
+			label = "Hide boxes in Pilot AI menu",
+			playerOnly = true
 		}, {
 			control = "checkbox",
 			defValue = true,
@@ -104,6 +106,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			control = "label",
 			id = "mul_Label",
 			label = "MULTIPLAYER",
+			playerOnly = true,
 			xLbl = 150
 		}, {
 			control = "comboList",
@@ -129,7 +132,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			control = "checkbox",
 			defValue = false,
 			id = "HumanOrchestra",
-			label = "Disable Multicrew"
+			label = "Disable Multicrew",
+			playerOnly = true
 		} },
 	AmmoWeight = 207.5,
 	CanopyGeometry = { -0.93969262078591, -0.95280922353749, -0.96592582628907, 0.0094409633615699, 0.98480775301221 },

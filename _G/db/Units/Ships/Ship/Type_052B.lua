@@ -133,11 +133,11 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 				} },
 			angles = { {} },
 			area = "BORT_L",
+			board = 3,
 			center = "POINT_YJ83_1_1",
 			drawArgument1 = 200,
 			drawArgument2 = 201,
-			pointer = "PNT_ASM_SIGHT_L1",
-			reference_angle_Y = 1.5707963267949
+			pointer = "PNT_ASM_SIGHT_L1"
 		}, {
 			LN = { {
 					BR = { {
@@ -177,11 +177,11 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 				} },
 			angles = { {} },
 			area = "BORT_L",
+			board = 3,
 			center = "POINT_YJ83_2_1",
 			drawArgument1 = 202,
 			drawArgument2 = 203,
-			pointer = "PNT_ASM_SIGHT_L2",
-			reference_angle_Y = 1.5707963267949
+			pointer = "PNT_ASM_SIGHT_L2"
 		}, {
 			LN = { {
 					BR = { {
@@ -221,11 +221,11 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 				} },
 			angles = { {} },
 			area = "BORT_R",
+			board = 4,
 			center = "POINT_YJ83_10_1",
 			drawArgument1 = 204,
 			drawArgument2 = 205,
-			pointer = "PNT_ASM_SIGHT_R1",
-			reference_angle_Y = -1.5707963267949
+			pointer = "PNT_ASM_SIGHT_R1"
 		}, {
 			LN = { {
 					BR = { {
@@ -265,11 +265,11 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 				} },
 			angles = { {} },
 			area = "BORT_R",
+			board = 4,
 			center = "POINT_YJ83_9_1",
 			drawArgument1 = 206,
 			drawArgument2 = 207,
-			pointer = "PNT_ASM_SIGHT_R2",
-			reference_angle_Y = -1.5707963267949
+			pointer = "PNT_ASM_SIGHT_R2"
 		}, {
 			LN = { {
 					ECM_K = 0.4,

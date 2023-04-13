@@ -37,7 +37,8 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE254_F1B_GREEN"] = {
 			mass = 3.894,
 			rail_open = false,
 			shapeName = "",
-			wind_sigma = 5,
+			wind_sigma = 10,
+			wind_sigma_z_coeff = 1,
 			wind_time = 1
 		},
 		model = "SA342_SNEB68",
@@ -111,7 +112,8 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE254_F1B_GREEN"] = {
 			mass = 3.894,
 			rail_open = false,
 			shapeName = "",
-			wind_sigma = 5,
+			wind_sigma = 10,
+			wind_sigma_z_coeff = 1,
 			wind_time = 1
 		},
 		model = "SA342_SNEB68",
@@ -160,7 +162,8 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE254_F1B_GREEN"] = {
 			mass = 3.894,
 			rail_open = false,
 			shapeName = "",
-			wind_sigma = 5,
+			wind_sigma = 10,
+			wind_sigma_z_coeff = 1,
 			wind_time = 1
 		}
 	},

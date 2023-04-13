@@ -27,7 +27,8 @@ _G["weapons_table"]["weapons"]["nurs"]["SMERCH_9M55K"] = {
 			mass = 800.9,
 			rail_open = false,
 			shapeName = "",
-			wind_sigma = 2,
+			wind_sigma = 10,
+			wind_sigma_z_coeff = 1,
 			wind_time = 3
 		},
 		fuze = {
@@ -144,7 +145,8 @@ _G["weapons_table"]["weapons"]["nurs"]["SMERCH_9M55K"] = {
 			mass = 800.9,
 			rail_open = false,
 			shapeName = "",
-			wind_sigma = 2,
+			wind_sigma = 10,
+			wind_sigma_z_coeff = 1,
 			wind_time = 3
 		},
 		fuze = {
@@ -244,7 +246,8 @@ _G["weapons_table"]["weapons"]["nurs"]["SMERCH_9M55K"] = {
 			mass = 800.9,
 			rail_open = false,
 			shapeName = "",
-			wind_sigma = 2,
+			wind_sigma = 10,
+			wind_sigma_z_coeff = 1,
 			wind_time = 3
 		}
 	},

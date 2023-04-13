@@ -28,6 +28,7 @@ _G["weapons_table"]["weapons"]["nurs"]["HVAR"] = {
 			rail_open = true,
 			shapeName = "",
 			wind_sigma = 10,
+			wind_sigma_z_coeff = 1,
 			wind_time = 1.3
 		},
 		scheme = "schemes/rockets/nurs-standard.sch",
@@ -80,6 +81,7 @@ _G["weapons_table"]["weapons"]["nurs"]["HVAR"] = {
 			rail_open = true,
 			shapeName = "",
 			wind_sigma = 10,
+			wind_sigma_z_coeff = 1,
 			wind_time = 1.3
 		},
 		scheme = "schemes/rockets/nurs-standard.sch",
@@ -115,6 +117,7 @@ _G["weapons_table"]["weapons"]["nurs"]["HVAR"] = {
 			rail_open = true,
 			shapeName = "",
 			wind_sigma = 10,
+			wind_sigma_z_coeff = 1,
 			wind_time = 1.3
 		}
 	},

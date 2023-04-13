@@ -181,6 +181,7 @@ _G["rockets"]["#Index"] = {
 		max_target_speed = 33,
 		max_target_speed_rnd_coeff = 10,
 		max_w_LOS = 0.06,
+		mid_vel = 237,
 		op_time = 9999,
 		primary_target_filter = 1,
 		sens_far_dist = 65000,

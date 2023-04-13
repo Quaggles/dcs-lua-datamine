@@ -601,6 +601,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	flaps_maneuver = 1,
 	has_afteburner = true,
 	has_speedbrake = true,
+	has_thrustReverser = true,
 	height = 5.7,
 	laserEquipment = {
 		laserDesignator = true,

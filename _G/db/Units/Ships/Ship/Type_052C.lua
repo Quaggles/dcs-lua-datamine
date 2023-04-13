@@ -694,8 +694,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 				} },
 			angles = { {} },
 			area = "BORT_L",
-			center = "POINT_ASM_1_1",
-			reference_angle_Y = 1.5707963267949
+			board = 3,
+			center = "POINT_ASM_1_1"
 		}, {
 			LN = { {
 					BR = { {
@@ -734,8 +734,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 				} },
 			angles = { {} },
 			area = "BORT_R",
-			center = "POINT_ASM_2_1",
-			reference_angle_Y = -1.5707963267949
+			board = 4,
+			center = "POINT_ASM_2_1"
 		},
 		maxTargetDetectionRange = 450000,
 		radar_type = 102,

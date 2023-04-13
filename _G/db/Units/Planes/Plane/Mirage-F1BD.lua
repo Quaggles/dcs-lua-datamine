@@ -20,6 +20,20 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			control = "comboList",
 			defValue = 1,
+			id = "MissSimplLock",
+			label = "Simplified Missile Locking",
+			playerOnly = true,
+			values = { {
+					dispName = "NO",
+					id = 1
+				}, {
+					dispName = "YES",
+					id = 2
+				} },
+			wCtrl = 75
+		}, {
+			control = "comboList",
+			defValue = 1,
 			id = "ChaffMultiNumber",
 			label = "Chaff Burst Count",
 			playerOnly = true,
@@ -468,6 +482,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 148 },
 			critical_damage = 5
 		},
+		[60] = {
+			critical_damage = 2
+		},
 		[61] = {
 			args = { 224 },
 			critical_damage = 7
@@ -528,8 +545,24 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 136 },
 			critical_damage = 3
 		},
+		[86] = {
+			critical_damage = 3
+		},
+		[87] = {
+			critical_damage = 3
+		},
+		[88] = {
+			critical_damage = 3
+		},
+		[89] = {
+			critical_damage = 3
+		},
 		[90] = {
 			args = { 400 },
+			critical_damage = 4
+		},
+		[91] = {
+			args = { 401 },
 			critical_damage = 4
 		}
 	},
@@ -1570,6 +1603,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{R530F_IR}" },
 							station = 5
 						} }
+				}, {
+					CLSID = "{X-29L}",
+					arg_value = 0.15,
+					attach_point_position = { -0.2, 0.029, 0 }
+				}, {
+					CLSID = "{X-29T}",
+					arg_value = 0.15,
+					attach_point_position = { -0.2, 0.029, 0 }
 				} },
 			Number = 3,
 			Order = 3,
@@ -1642,6 +1683,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.15
 				}, {
 					CLSID = "{CLB4_MK82}",
+					arg_value = 0.35
+				}, {
+					CLSID = "PTB-580G-F1",
+					arg_value = 0.35
+				}, {
+					CLSID = "PTB-580G-F1-EMPTY",
 					arg_value = 0.35
 				} },
 			Number = 4,
@@ -1787,6 +1834,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{R530F_IR}" },
 							station = 5
 						} }
+				}, {
+					CLSID = "{X-29L}",
+					arg_value = 0.15,
+					attach_point_position = { -0.2, 0.029, 0 }
+				}, {
+					CLSID = "{X-29T}",
+					arg_value = 0.15,
+					attach_point_position = { -0.2, 0.029, 0 }
 				} },
 			Number = 5,
 			Order = 5,
@@ -2011,7 +2066,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	average_fuel_consumption = 0.5,
 	bank_angle_max = 85,
 	bigParkingRamp = false,
-	brakeshute_name = 319,
+	brakeshute_name = 321,
 	chaff_flare_dispenser = { {
 			dir = { 0, -1, -1 },
 			pos = { -4.312, -0.648, -0.488 }
@@ -2027,16 +2082,16 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			canopy_args = { 38, 1 },
 			canopy_ejection_dir = { -0.4, 1, 0 },
 			canopy_pos = { 2.311, 0.907, 0 },
-			drop_canopy_name = 317,
+			drop_canopy_name = 319,
 			drop_parachute_name = "Mirage-F1_parachute",
 			ejection_added_speed = { -5, 15, 0 },
 			ejection_order = 2,
 			ejection_play_arg = 149,
-			ejection_seat_name = 320,
+			ejection_seat_name = 322,
 			ejection_through_canopy = true,
 			g_suit = 1,
 			pilot_body_arg = 50,
-			pilot_name = 321,
+			pilot_name = 323,
 			pos = { 3.19, 0.003, 0 },
 			role = "pilot",
 			role_display_name = "Pilot"
@@ -2045,15 +2100,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			can_be_playable = true,
 			canopy_arg = 421,
 			canopy_pos = { 0.811, 0.892, 0 },
-			drop_canopy_name = 317,
+			drop_canopy_name = 319,
 			drop_parachute_name = "Mirage-F1_parachute",
 			ejection_added_speed = { -5, 15, 0 },
 			ejection_order = 1,
-			ejection_seat_name = 322,
+			ejection_seat_name = 324,
 			ejection_through_canopy = true,
 			g_suit = 1,
 			pilot_body_arg = 472,
-			pilot_name = 323,
+			pilot_name = 325,
 			pos = { 1.525, 0.221, -0.005 },
 			role = "instructor",
 			role_display_name = "Instructor pilot"

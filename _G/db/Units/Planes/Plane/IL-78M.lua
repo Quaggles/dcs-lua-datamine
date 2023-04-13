@@ -333,6 +333,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	has_afteburner = false,
 	has_differential_stabilizer = false,
 	has_speedbrake = false,
+	has_thrustReverser = true,
 	height = 14.76,
 	is_tanker = 4,
 	length = 46.59,

@@ -36,6 +36,7 @@ _G["rockets"]["#Index"] = {
 	hoj = 1,
 	name = "P_27PE",
 	nozzle_exit_area = 0.032,
+	radar_synced = true,
 	sigma = { 5.6, 5, 5.6 },
 	supersonic_A_coef_skew = 0.25,
 	t_acc = 4,

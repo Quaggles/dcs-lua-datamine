@@ -37,7 +37,8 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_M229"] = {
 			mass = 13.87,
 			rail_open = false,
 			shapeName = "hydra_m229",
-			wind_sigma = 5,
+			wind_sigma = 10,
+			wind_sigma_z_coeff = 1,
 			wind_time = 1.1
 		},
 		model = "hydra_m229",
@@ -112,7 +113,8 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_M229"] = {
 			mass = 13.87,
 			rail_open = false,
 			shapeName = "hydra_m229",
-			wind_sigma = 5,
+			wind_sigma = 10,
+			wind_sigma_z_coeff = 1,
 			wind_time = 1.1
 		},
 		model = "hydra_m229",
@@ -162,7 +164,8 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_M229"] = {
 			mass = 13.87,
 			rail_open = false,
 			shapeName = "hydra_m229",
-			wind_sigma = 5,
+			wind_sigma = 10,
+			wind_sigma_z_coeff = 1,
 			wind_time = 1.1
 		}
 	},
