@@ -126,7 +126,7 @@ I'm planning to keep updating this repository as every Open Beta patch releases.
 
 # Installation of the exporter script
 
-Copy the two scripts in [/Hooks](Hooks) and put them in your `Saved Games/DCS/Scripts/Hooks` directory, now just launch the game you should see the following output in the `dcs.log` file if it worked, output tables are in `Saved Games/DCS/DCS.Lua.Exporter/*`
+Copy the two scripts in [/Hooks](Hooks) and put them in the game directory at `"DCS World/Scripts/Hooks"`, now just launch the game you should see the following output in the `dcs.log` file if it worked, output tables are in `"Saved Games/DCS/DCS.Lua.Exporter/*"`
 
 ![image](https://user-images.githubusercontent.com/8382945/115797957-7e4bcf80-a418-11eb-88d1-cf5ec340ecae.png)
 
