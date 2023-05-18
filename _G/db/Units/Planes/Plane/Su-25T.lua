@@ -655,11 +655,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			FiZ = -3,
 			Launchers = { {
+					CLSID = "{B8M1_S8OM}"
+				}, {
 					CLSID = "B-8M1 - 20 S-8OFP2"
 				}, {
 					CLSID = "{FB3CE165-BF07-4979-887C-92B87F13276B}"
 				}, {
 					CLSID = "{0511E528-EA28-4caf-A212-00D1408DF10A}"
+				}, {
+					CLSID = "{SAB_250_200}"
 				}, {
 					CLSID = "{29A828E2-C6BB-11d8-9897-000476191836}"
 				}, {
@@ -719,11 +723,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			FiZ = -3,
 			Launchers = { {
+					CLSID = "{B8M1_S8OM}"
+				}, {
 					CLSID = "B-8M1 - 20 S-8OFP2"
 				}, {
 					CLSID = "{FB3CE165-BF07-4979-887C-92B87F13276B}"
 				}, {
 					CLSID = "{0511E528-EA28-4caf-A212-00D1408DF10A}"
+				}, {
+					CLSID = "{SAB_250_200}"
 				}, {
 					CLSID = "{29A828E2-C6BB-11d8-9897-000476191836}"
 				}, {
@@ -791,11 +799,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			FiZ = -3,
 			Launchers = { {
+					CLSID = "{B8M1_S8OM}"
+				}, {
 					CLSID = "B-8M1 - 20 S-8OFP2"
 				}, {
 					CLSID = "{FB3CE165-BF07-4979-887C-92B87F13276B}"
 				}, {
 					CLSID = "{0511E528-EA28-4caf-A212-00D1408DF10A}"
+				}, {
+					CLSID = "{SAB_250_200}"
 				}, {
 					CLSID = "{29A828E2-C6BB-11d8-9897-000476191836}"
 				}, {
@@ -866,11 +878,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			FiZ = -3,
 			Launchers = { {
+					CLSID = "{B8M1_S8OM}"
+				}, {
 					CLSID = "B-8M1 - 20 S-8OFP2"
 				}, {
 					CLSID = "{FB3CE165-BF07-4979-887C-92B87F13276B}"
 				}, {
 					CLSID = "{0511E528-EA28-4caf-A212-00D1408DF10A}"
+				}, {
+					CLSID = "{SAB_250_200}"
 				}, {
 					CLSID = "{29A828E2-C6BB-11d8-9897-000476191836}"
 				}, {
@@ -961,11 +977,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			FiZ = -3,
 			Launchers = { {
+					CLSID = "{B8M1_S8OM}"
+				}, {
 					CLSID = "B-8M1 - 20 S-8OFP2"
 				}, {
 					CLSID = "{FB3CE165-BF07-4979-887C-92B87F13276B}"
 				}, {
 					CLSID = "{0511E528-EA28-4caf-A212-00D1408DF10A}"
+				}, {
+					CLSID = "{SAB_250_200}"
 				}, {
 					CLSID = "{29A828E2-C6BB-11d8-9897-000476191836}"
 				}, {
@@ -1040,11 +1060,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			FiZ = -3,
 			Launchers = { {
+					CLSID = "{B8M1_S8OM}"
+				}, {
 					CLSID = "B-8M1 - 20 S-8OFP2"
 				}, {
 					CLSID = "{FB3CE165-BF07-4979-887C-92B87F13276B}"
 				}, {
 					CLSID = "{0511E528-EA28-4caf-A212-00D1408DF10A}"
+				}, {
+					CLSID = "{SAB_250_200}"
 				}, {
 					CLSID = "{29A828E2-C6BB-11d8-9897-000476191836}"
 				}, {
@@ -1115,11 +1139,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			FiZ = -3,
 			Launchers = { {
+					CLSID = "{B8M1_S8OM}"
+				}, {
 					CLSID = "B-8M1 - 20 S-8OFP2"
 				}, {
 					CLSID = "{FB3CE165-BF07-4979-887C-92B87F13276B}"
 				}, {
 					CLSID = "{0511E528-EA28-4caf-A212-00D1408DF10A}"
+				}, {
+					CLSID = "{SAB_250_200}"
 				}, {
 					CLSID = "{29A828E2-C6BB-11d8-9897-000476191836}"
 				}, {
@@ -1187,11 +1215,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			FiZ = -3,
 			Launchers = { {
+					CLSID = "{B8M1_S8OM}"
+				}, {
 					CLSID = "B-8M1 - 20 S-8OFP2"
 				}, {
 					CLSID = "{FB3CE165-BF07-4979-887C-92B87F13276B}"
 				}, {
 					CLSID = "{0511E528-EA28-4caf-A212-00D1408DF10A}"
+				}, {
+					CLSID = "{SAB_250_200}"
 				}, {
 					CLSID = "{29A828E2-C6BB-11d8-9897-000476191836}"
 				}, {

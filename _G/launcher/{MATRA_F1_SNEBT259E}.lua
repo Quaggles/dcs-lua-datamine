@@ -112,13 +112,13 @@ _G["launcher"]["{MATRA_F1_SNEBT259E}"] = {
 			connector_name = "tube_36"
 		} },
 	Picture = "LAU61.png",
-	Weight = 414.16,
+	Weight = 363.76,
 	Weight_Empty = 88,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
-	displayName = "MATRA F1 - 36 x 68 mm SNEB Type 259E F1B IL",
+	displayName = "MATRA F1 - 36 x UnGd Rkts, 68 mm SNEB Type 259E F1B IL",
 	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

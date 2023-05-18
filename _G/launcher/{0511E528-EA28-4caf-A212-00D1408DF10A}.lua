@@ -1,13 +1,16 @@
 _G["launcher"]["{0511E528-EA28-4caf-A212-00D1408DF10A}"] = {
 	CLSID = "{0511E528-EA28-4caf-A212-00D1408DF10A}",
+	Count = 1,
+	Cx_pil = 0.001,
 	Elements = { {
-			Position = { 0, 0, 0 },
-			ShapeName = "SAB-100"
+			ShapeName = "sab-100"
 		} },
 	Picture = "rus_9-A-258.png",
 	PictureBlendColor = "0xffffffff",
-	Weight = 100,
-	_file = "Scripts/Database/db_weapons_data.lua",
+	Weight = 106,
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/illumination_bombs.lua",
+	_origin = "AircraftWeaponPack",
 	attribute = { 4, 5, 49, "Redacted" },
-	displayName = "SAB-100 - 100kg flare/illumination Bomb"
+	category = 1,
+	displayName = "SAB-100MN - 100 kg Illumination Bomb"
 }

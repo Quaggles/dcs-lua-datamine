@@ -8,7 +8,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE251_F1B"] = {
 		_origin = "AircraftWeaponPack",
 		category = 3,
 		class_name = "wAmmunitionNURS",
-		displayName = "68 mm SNEB Type 251 F1B HE",
+		displayName = "SNEB Type 251 F1B HE",
 		engine = {
 			boost_factor = 1,
 			boost_tail = 1,
@@ -39,7 +39,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE251_F1B"] = {
 			shapeName = "",
 			wind_sigma = 10,
 			wind_sigma_z_coeff = 1,
-			wind_time = 1
+			wind_time = 0.8
 		},
 		model = "SA342_SNEB68",
 		name = "SNEB_TYPE251_F1B",
@@ -52,7 +52,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE251_F1B"] = {
 				file = "SA342_SNEB68",
 				index = "Redacted",
 				name = "SNEB_TYPE251_F1B",
-				username = "68 mm SNEB Type 251 F1B HE"
+				username = "SNEB Type 251 F1B HE"
 			} },
 		user_name = "SNEB Type 251 F1B HE",
 		warhead = {
@@ -84,7 +84,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE251_F1B"] = {
 		_origin = "AircraftWeaponPack",
 		category = 3,
 		class_name = "wAmmunitionNURS",
-		displayName = "68 mm SNEB Type 251 F1B HE",
+		displayName = "SNEB Type 251 F1B HE",
 		engine = {
 			boost_factor = 1,
 			boost_tail = 1,
@@ -115,7 +115,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE251_F1B"] = {
 			shapeName = "",
 			wind_sigma = 10,
 			wind_sigma_z_coeff = 1,
-			wind_time = 1
+			wind_time = 0.8
 		},
 		model = "SA342_SNEB68",
 		name = "SNEB_TYPE251_F1B",
@@ -128,7 +128,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE251_F1B"] = {
 				file = "SA342_SNEB68",
 				index = "Redacted",
 				name = "SNEB_TYPE251_F1B",
-				username = "68 mm SNEB Type 251 F1B HE"
+				username = "SNEB Type 251 F1B HE"
 			} },
 		user_name = "SNEB Type 251 F1B HE",
 		warhead = {
@@ -166,7 +166,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE251_F1B"] = {
 			shapeName = "",
 			wind_sigma = 10,
 			wind_sigma_z_coeff = 1,
-			wind_time = 1
+			wind_time = 0.8
 		}
 	},
 	sounderName = "Weapons/Rocket",

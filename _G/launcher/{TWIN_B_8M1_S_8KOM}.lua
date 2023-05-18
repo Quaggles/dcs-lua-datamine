@@ -15,13 +15,15 @@ _G["launcher"]["{TWIN_B_8M1_S_8KOM}"] = {
 			payload_CLSID = "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}"
 		} },
 	JettisonSubmunitionOnly = true,
-	Picture = "B8V20A.png",
-	Weight = 759,
+	Picture = "rus_B-8M1_S-8KOM.png",
+	PictureBlendColor = "0xffffffff",
+	Weight = 738,
+	Weight_Empty = 307,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
-	displayName = "2 x B-8M1 pods - 40 x S-8KOM, 80mm UnGd Rkts, HEAT/AP",
+	displayName = "2 x B-8M1 - 40 x UnGd Rkts, 80 mm S-8KOM HEAT/Frag",
 	name = "{TWIN_B_8M1_S_8KOM}",
-	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
+	wsTypeOfWeapon = "weapons.nurs.S_8KOM"
 }

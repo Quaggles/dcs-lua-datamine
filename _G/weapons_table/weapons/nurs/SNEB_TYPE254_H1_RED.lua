@@ -8,7 +8,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE254_H1_RED"] = {
 		_origin = "AircraftWeaponPack",
 		category = 3,
 		class_name = "wAmmunitionNURS",
-		displayName = "68 mm SNEB Type 254 H1 SM Red",
+		displayName = "SNEB Type 254 H1 SM Red",
 		engine = {
 			boost_factor = 1,
 			boost_tail = 1,
@@ -39,7 +39,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE254_H1_RED"] = {
 			shapeName = "",
 			wind_sigma = 10,
 			wind_sigma_z_coeff = 1,
-			wind_time = 1
+			wind_time = 0.8
 		},
 		model = "SA342_SNEB68",
 		name = "SNEB_TYPE254_H1_RED",
@@ -52,7 +52,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE254_H1_RED"] = {
 				file = "SA342_SNEB68",
 				index = "Redacted",
 				name = "SNEB_TYPE254_H1_RED",
-				username = "68 mm SNEB Type 254 H1 SM Red"
+				username = "SNEB Type 254 H1 SM Red"
 			} },
 		user_name = "SNEB Type 254 H1 SM Red",
 		warhead = {
@@ -83,7 +83,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE254_H1_RED"] = {
 		_origin = "AircraftWeaponPack",
 		category = 3,
 		class_name = "wAmmunitionNURS",
-		displayName = "68 mm SNEB Type 254 H1 SM Red",
+		displayName = "SNEB Type 254 H1 SM Red",
 		engine = {
 			boost_factor = 1,
 			boost_tail = 1,
@@ -114,7 +114,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE254_H1_RED"] = {
 			shapeName = "",
 			wind_sigma = 10,
 			wind_sigma_z_coeff = 1,
-			wind_time = 1
+			wind_time = 0.8
 		},
 		model = "SA342_SNEB68",
 		name = "SNEB_TYPE254_H1_RED",
@@ -127,7 +127,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE254_H1_RED"] = {
 				file = "SA342_SNEB68",
 				index = "Redacted",
 				name = "SNEB_TYPE254_H1_RED",
-				username = "68 mm SNEB Type 254 H1 SM Red"
+				username = "SNEB Type 254 H1 SM Red"
 			} },
 		user_name = "SNEB Type 254 H1 SM Red",
 		warhead = {
@@ -164,7 +164,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE254_H1_RED"] = {
 			shapeName = "",
 			wind_sigma = 10,
 			wind_sigma_z_coeff = 1,
-			wind_time = 1
+			wind_time = 0.8
 		}
 	},
 	sounderName = "Weapons/Rocket",

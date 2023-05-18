@@ -1992,6 +1992,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "container_20ft"
 				}, {
+					Name = "FlagPole"
+				}, {
 					Name = "Concertina wire"
 				}, {
 					Name = "Haystack 1"

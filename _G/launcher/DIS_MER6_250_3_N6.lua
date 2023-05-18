@@ -2,27 +2,24 @@ _G["launcher"]["DIS_MER6_250_3_N6"] = {
 	CLSID = "DIS_MER6_250_3_N6",
 	Count = 6,
 	Cx_pil = 0.001625,
-	Elements = { {
-			IsAdapter = true,
-			ShapeName = "mbd3-u6-68"
+	Elements = { "_G/Pylons/gdj-iv1.lua", {
+			ShapeName = "250-3",
+			connector_name = "Point005"
 		}, {
 			ShapeName = "250-3",
-			connector_name = "fab_100-250_001"
+			connector_name = "Point003"
 		}, {
 			ShapeName = "250-3",
-			connector_name = "fab_100-250_002"
+			connector_name = "Point006"
 		}, {
 			ShapeName = "250-3",
-			connector_name = "fab_100-250_003"
+			connector_name = "Point002"
 		}, {
 			ShapeName = "250-3",
-			connector_name = "fab_100-250_004"
+			connector_name = "Point004"
 		}, {
 			ShapeName = "250-3",
-			connector_name = "fab_100-250_005"
-		}, {
-			ShapeName = "250-3",
-			connector_name = "fab_100-250_006"
+			connector_name = "Point001"
 		} },
 	Picture = "rus_FAB-250n-1.png",
 	Weight = 1550,

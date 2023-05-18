@@ -15,13 +15,15 @@ _G["launcher"]["{TWIN_B_8M1_S_8_OFP2}"] = {
 			payload_CLSID = "B-8M1 - 20 S-8OFP2"
 		} },
 	JettisonSubmunitionOnly = true,
-	Picture = "B8V20A.png",
-	Weight = 975,
+	Picture = "rus_B-8M1_S-8OFP2.png",
+	PictureBlendColor = "0xffffffff",
+	Weight = 976,
+	Weight_Empty = 307,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
-	displayName = "2 x B-8V20A pods - 40 x S-8OFP2, 80mm UnGd Rkts, HE/Frag/AP",
+	displayName = "2 x B-8M1 - 40 x UnGd Rkts, 80 mm S-8OFP2 MPP",
 	name = "{TWIN_B_8M1_S_8_OFP2}",
-	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
+	wsTypeOfWeapon = "weapons.nurs.S_8OFP2"
 }

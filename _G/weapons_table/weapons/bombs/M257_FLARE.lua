@@ -1,9 +1,15 @@
 _G["weapons_table"]["weapons"]["bombs"]["M257_FLARE"] = {
 	I = 0.22816666666667,
 	L = 0.74,
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/illumination_bombs.lua",
+	_origin = "AircraftWeaponPack",
 	_unique_resource_name = "weapons.bombs.M257_FLARE",
 	caliber = 0.07,
 	client = {
+		Ag = -5,
+		VyHold = -50,
+		_file = "./CoreMods/aircraft/AircraftWeaponPack/illumination_bombs.lua",
+		_origin = "AircraftWeaponPack",
 		anim_constraints = {
 			lead_chute_min_arg_val = -1,
 			main_chute_min_arg_val = 0.8
@@ -19,6 +25,8 @@ _G["weapons_table"]["weapons"]["bombs"]["M257_FLARE"] = {
 			enabled = false,
 			velK = 1
 		},
+		category = 1,
+		class_name = "wAmmunition_viHeavyObject",
 		fm = {
 			I = 0.22816666666667,
 			L = 0.74,
@@ -38,6 +46,8 @@ _G["weapons_table"]["weapons"]["bombs"]["M257_FLARE"] = {
 			release_rnd_x = 1,
 			wind_sigma = 0
 		},
+		hMax = 2000,
+		hMin = 25,
 		lead_chute_draw_arg_anim = {
 			K_t = 2
 		},
@@ -52,14 +62,32 @@ _G["weapons_table"]["weapons"]["bombs"]["M257_FLARE"] = {
 			smoke_width = 1,
 			start_time = 3
 		},
-		scheme = "schemes/bombs/bomb-light-2.sch"
+		mass = 5,
+		model = "Hydra_M257_Parashute",
+		name = "M257_FLARE",
+		scheme = "schemes/bombs/bomb-light-2.sch",
+		shape_table_data = { {
+				file = "Hydra_M257_Parashute",
+				index = "Redacted",
+				username = "M257_FLARE"
+			} },
+		targeting_data = {
+			char_time = 20.5
+		},
+		type = 2,
+		user_name = "M257 Flare",
+		wsTypeOfWeapon = { 4, 5, 49, "Redacted" }
 	},
 	cx = { 1, 0.39, 0.38, 0.236, 1.31 },
-	display_name = "M257",
+	display_name = "M257 Flare",
 	mass = 5,
 	model = "Hydra_M257_Parashute",
 	name = "M257_FLARE",
 	server = {
+		Ag = -5,
+		VyHold = -50,
+		_file = "./CoreMods/aircraft/AircraftWeaponPack/illumination_bombs.lua",
+		_origin = "AircraftWeaponPack",
 		anim_constraints = {
 			lead_chute_min_arg_val = -1,
 			main_chute_min_arg_val = 0.8
@@ -75,6 +103,8 @@ _G["weapons_table"]["weapons"]["bombs"]["M257_FLARE"] = {
 			enabled = false,
 			velK = 1
 		},
+		category = 1,
+		class_name = "wAmmunition_viHeavyObject",
 		fm = {
 			I = 0.22816666666667,
 			L = 0.74,
@@ -94,6 +124,8 @@ _G["weapons_table"]["weapons"]["bombs"]["M257_FLARE"] = {
 			release_rnd_x = 1,
 			wind_sigma = 0
 		},
+		hMax = 2000,
+		hMin = 25,
 		lead_chute_draw_arg_anim = {
 			K_t = 2
 		},
@@ -108,7 +140,21 @@ _G["weapons_table"]["weapons"]["bombs"]["M257_FLARE"] = {
 			smoke_width = 1,
 			start_time = 3
 		},
-		scheme = "schemes/bombs/bomb-light-2.sch"
+		mass = 5,
+		model = "Hydra_M257_Parashute",
+		name = "M257_FLARE",
+		scheme = "schemes/bombs/bomb-light-2.sch",
+		shape_table_data = { {
+				file = "Hydra_M257_Parashute",
+				index = "Redacted",
+				username = "M257_FLARE"
+			} },
+		targeting_data = {
+			char_time = 20.5
+		},
+		type = 2,
+		user_name = "M257 Flare",
+		wsTypeOfWeapon = { 4, 5, 49, "Redacted" }
 	},
 	sounderName = "Weapons/Bomb",
 	targeting_data = {

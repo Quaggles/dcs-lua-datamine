@@ -70,7 +70,7 @@ _G["launcher"]["{M261_M259}"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
-	displayName = "M261 - 19 x Hydra 70 M259 SM",
+	displayName = "M261 - 19 x UnGd Rkts, 70 mm Hydra 70 M259 SM",
 	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

@@ -2778,78 +2778,103 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			channels = { {
 					connect = true,
 					default = 305,
-					name = "Channel 1"
+					editableName = true,
+					name = "Channel  1"
 				}, {
 					default = 264,
-					name = "Channel 2"
+					editableName = true,
+					name = "Channel  2"
 				}, {
 					default = 265,
-					name = "Channel 3"
+					editableName = true,
+					name = "Channel  3"
 				}, {
 					default = 256,
-					name = "Channel 4"
+					editableName = true,
+					name = "Channel  4"
 				}, {
 					default = 254,
-					name = "Channel 5"
+					editableName = true,
+					name = "Channel  5"
 				}, {
 					default = 250,
-					name = "Channel 6"
+					editableName = true,
+					name = "Channel  6"
 				}, {
 					default = 270,
-					name = "Channel 7"
+					editableName = true,
+					name = "Channel  7"
 				}, {
 					default = 257,
-					name = "Channel 8"
+					editableName = true,
+					name = "Channel  8"
 				}, {
 					default = 255,
-					name = "Channel 9"
+					editableName = true,
+					name = "Channel  9"
 				}, {
 					default = 262,
+					editableName = true,
 					name = "Channel 10"
 				}, {
 					default = 259,
+					editableName = true,
 					name = "Channel 11"
 				}, {
 					default = 268,
+					editableName = true,
 					name = "Channel 12"
 				}, {
 					default = 269,
+					editableName = true,
 					name = "Channel 13"
 				}, {
 					default = 260,
+					editableName = true,
 					name = "Channel 14"
 				}, {
 					default = 263,
+					editableName = true,
 					name = "Channel 15"
 				}, {
 					default = 261,
+					editableName = true,
 					name = "Channel 16"
 				}, {
 					default = 267,
+					editableName = true,
 					name = "Channel 17"
 				}, {
 					default = 251,
+					editableName = true,
 					name = "Channel 18"
 				}, {
 					default = 253,
+					editableName = true,
 					name = "Channel 19"
 				}, {
 					default = 266,
+					editableName = true,
 					name = "Channel 20"
 				}, {
 					default = 54,
+					editableName = true,
 					name = "Channel 21"
 				}, {
 					default = 32.5,
+					editableName = true,
 					name = "Channel 22"
 				}, {
 					default = 42,
+					editableName = true,
 					name = "Channel 23"
 				}, {
 					default = 37.5,
+					editableName = true,
 					name = "Channel 24"
 				}, {
 					default = 54,
+					editableName = true,
 					name = "Channel 25"
 				} },
 			name = "UHF/VHF: ARC-210",

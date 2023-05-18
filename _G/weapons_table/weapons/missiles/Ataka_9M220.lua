@@ -85,6 +85,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Ataka_9M220"] = {
 		fuze = {
 			default_arm_delays = { 0.8 },
 			default_proximity_radius = 4,
+			is_proxy_tdd_always_enabled = true,
 			tdd_position = { 0.83, 0, 0 }
 		},
 		march = {
@@ -252,6 +253,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Ataka_9M220"] = {
 		fuze = {
 			default_arm_delays = { 0.8 },
 			default_proximity_radius = 4,
+			is_proxy_tdd_always_enabled = true,
 			tdd_position = { 0.83, 0, 0 }
 		},
 		march = {

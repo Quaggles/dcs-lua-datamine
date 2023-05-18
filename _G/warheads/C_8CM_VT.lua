@@ -1,0 +1,1 @@
+_G["warheads"]["C_8CM_VT"] = "_G/warheads/S_8TsM_VIOLET.lua"

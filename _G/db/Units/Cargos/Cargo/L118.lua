@@ -1,6 +1,6 @@
 _G["db"]["Units"]["Cargos"]["Cargo"]["#Index"] = {
 	DisplayName = "L118 Light Artillery Gun",
-	Life = -1,
+	Life = 100,
 	Name = "L118 Light Artillery Gun",
 	Rate = 100,
 	ShapeName = "L118",
@@ -9,7 +9,7 @@ _G["db"]["Units"]["Cargos"]["Cargo"]["#Index"] = {
 	attribute = { "Cargos" },
 	canExplode = false,
 	category = "Cargo",
-	couldCargo = false,
+	couldCargo = true,
 	desrt = "self",
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000352",
@@ -19,9 +19,8 @@ _G["db"]["Units"]["Cargos"]["Cargo"]["#Index"] = {
 	shape_table_data = { {
 			desrt = "self",
 			file = "L118",
-			life = -1,
+			life = 100,
 			name = "L118",
-			positioning = "ONLYHEIGTH",
 			username = "L118"
 		} },
 	swapped_names = true,

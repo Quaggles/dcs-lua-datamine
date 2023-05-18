@@ -25,16 +25,24 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 				size = 0.5
 			},
 			area_life = 200,
-			area_name = "COL-SS"
+			area_name = "COL-STERN"
 		}, {
 			area_arg = 73,
 			area_fire = {
 				pos = { -74.3, 0, 12.5 },
-				size = 0.5
+				size = 0.3
 			},
 			area_life = 200,
 			area_name = "PALUBA-COL",
 			belongsToRunway = true
+		}, {
+			area_arg = 74,
+			area_fire = {
+				pos = { -45, 0, 17.5 },
+				size = 0.3
+			},
+			area_life = 200,
+			area_name = "COL-SS"
 		}, {
 			area_arg = 77,
 			area_fire = {

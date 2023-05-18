@@ -314,28 +314,28 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	crew_members = { {
 			drop_canopy_name = 0,
 			ejection_seat_name = 0,
-			pilot_name = 281,
+			pilot_name = 282,
 			pos = { 7.916, 0.986, 0 },
 			role = "pilot",
 			role_display_name = "Pilot in command"
 		}, {
 			drop_canopy_name = 0,
 			ejection_seat_name = 0,
-			pilot_name = 281,
+			pilot_name = 282,
 			pos = { 3.949, 1.01, 0 },
 			role = "copilot",
 			role_display_name = "Copilot"
 		}, {
 			drop_canopy_name = 0,
 			ejection_seat_name = 0,
-			pilot_name = 281,
+			pilot_name = 282,
 			pos = { 3.949, 1.01, 0 },
 			role = "flight_officer",
 			role_display_name = "Flight officer"
 		}, {
 			drop_canopy_name = 0,
 			ejection_seat_name = 0,
-			pilot_name = 281,
+			pilot_name = 282,
 			pos = { 3.949, 1.01, 0 },
 			role = "flight_officer",
 			role_display_name = "Flight officer"

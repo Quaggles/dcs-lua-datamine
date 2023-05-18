@@ -1,5 +1,5 @@
 _G["warheads"]["BLU_109"] = {
-	caliber = 368,
+	caliber = 457,
 	concrete_factors = { 5, 1, 10 },
 	concrete_obj_factor = 5,
 	cumulative_factor = 0,

@@ -34,7 +34,7 @@ _G["launcher"]["{TELSON8_SNEBT252}"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
-	displayName = "Telson 8 - 8 x 68 mm SNEB Type 252 H1 TP",
+	displayName = "Telson 8 - 8 x UnGd Rkts, 68 mm SNEB Type 252 H1 TP",
 	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

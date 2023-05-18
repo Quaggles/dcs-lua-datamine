@@ -1,7 +1,7 @@
 _G["launcher"]["{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}"] = {
 	CLSID = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}",
 	Count = 20,
-	Cx_pil = 0.00146484375,
+	Cx_pil = 0.00213134765625,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "B-8V20A"
@@ -68,9 +68,13 @@ _G["launcher"]["{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}"] = {
 		} },
 	Picture = "rus_B-8V20A_S-8KOM.png",
 	PictureBlendColor = "0xffffffff",
-	Weight = 349,
-	_file = "Scripts/Database/db_weapons_data.lua",
+	Weight = 348,
+	Weight_Empty = 123,
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
+	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
-	displayName = "B-8V20A pod - 20 x S-8KOM, 80mm UnGd Rkts, HEAT/AP",
+	category = 3,
+	displayName = "B-8V20A - 20 x UnGd Rkts, 80 mm S-8KOM HEAT/Frag",
+	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

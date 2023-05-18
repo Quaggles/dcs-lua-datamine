@@ -203,6 +203,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						} },
 					beamWidth = 0.017453292519943,
 					combatRange = 1200,
+					distanceMaxForFCS = 3500,
 					sensor = {},
 					sightIndicationMode = 1,
 					sightMasterMode = 1

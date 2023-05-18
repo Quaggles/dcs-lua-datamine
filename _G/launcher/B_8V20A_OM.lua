@@ -68,9 +68,13 @@ _G["launcher"]["B_8V20A_OM"] = {
 		} },
 	Picture = "rus_B-8V20A_S-8OM.png",
 	PictureBlendColor = "0xffffffff",
-	Weight = 365,
-	_file = "Scripts/Database/db_weapons_data.lua",
+	Weight = 364,
+	Weight_Empty = 123,
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
+	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
-	displayName = "B-8V20A pod - 20 x S-8OM, 80mm UnGd Rkts, Illum",
+	category = 3,
+	displayName = "B-8V20A - 20 x UnGd Rkts, 80 mm S-8OM IL",
+	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

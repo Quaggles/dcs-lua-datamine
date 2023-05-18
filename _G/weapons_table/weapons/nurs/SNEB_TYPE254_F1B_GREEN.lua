@@ -8,7 +8,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE254_F1B_GREEN"] = {
 		_origin = "AircraftWeaponPack",
 		category = 3,
 		class_name = "wAmmunitionNURS",
-		displayName = "68 mm SNEB Type 254 F1B SM Green",
+		displayName = "SNEB Type 254 F1B SM Green",
 		engine = {
 			boost_factor = 1,
 			boost_tail = 1,
@@ -39,7 +39,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE254_F1B_GREEN"] = {
 			shapeName = "",
 			wind_sigma = 10,
 			wind_sigma_z_coeff = 1,
-			wind_time = 1
+			wind_time = 0.8
 		},
 		model = "SA342_SNEB68",
 		name = "SNEB_TYPE254_F1B_GREEN",
@@ -52,7 +52,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE254_F1B_GREEN"] = {
 				file = "SA342_SNEB68",
 				index = "Redacted",
 				name = "SNEB_TYPE254_F1B_GREEN",
-				username = "68 mm SNEB Type 254 F1B SM Green"
+				username = "SNEB Type 254 F1B SM Green"
 			} },
 		user_name = "SNEB Type 254 F1B SM Green",
 		warhead = {
@@ -83,7 +83,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE254_F1B_GREEN"] = {
 		_origin = "AircraftWeaponPack",
 		category = 3,
 		class_name = "wAmmunitionNURS",
-		displayName = "68 mm SNEB Type 254 F1B SM Green",
+		displayName = "SNEB Type 254 F1B SM Green",
 		engine = {
 			boost_factor = 1,
 			boost_tail = 1,
@@ -114,7 +114,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE254_F1B_GREEN"] = {
 			shapeName = "",
 			wind_sigma = 10,
 			wind_sigma_z_coeff = 1,
-			wind_time = 1
+			wind_time = 0.8
 		},
 		model = "SA342_SNEB68",
 		name = "SNEB_TYPE254_F1B_GREEN",
@@ -127,7 +127,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE254_F1B_GREEN"] = {
 				file = "SA342_SNEB68",
 				index = "Redacted",
 				name = "SNEB_TYPE254_F1B_GREEN",
-				username = "68 mm SNEB Type 254 F1B SM Green"
+				username = "SNEB Type 254 F1B SM Green"
 			} },
 		user_name = "SNEB Type 254 F1B SM Green",
 		warhead = {
@@ -164,7 +164,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE254_F1B_GREEN"] = {
 			shapeName = "",
 			wind_sigma = 10,
 			wind_sigma_z_coeff = 1,
-			wind_time = 1
+			wind_time = 0.8
 		}
 	},
 	sounderName = "Weapons/Rocket",

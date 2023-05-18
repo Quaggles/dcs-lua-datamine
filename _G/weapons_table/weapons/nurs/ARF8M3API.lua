@@ -38,7 +38,8 @@ _G["weapons_table"]["weapons"]["nurs"]["ARF8M3API"] = {
 			rail_open = false,
 			shapeName = "ARF8M3_API",
 			wind_sigma = 4.8,
-			wind_time = 0.575,
+			wind_sigma_z_coeff = 1,
+			wind_time = 1.15,
 			wing_unfold_time = 0.02
 		},
 		model = "ARF8M3_API",
@@ -114,7 +115,8 @@ _G["weapons_table"]["weapons"]["nurs"]["ARF8M3API"] = {
 			rail_open = false,
 			shapeName = "ARF8M3_API",
 			wind_sigma = 4.8,
-			wind_time = 0.575,
+			wind_sigma_z_coeff = 1,
+			wind_time = 1.15,
 			wing_unfold_time = 0.02
 		},
 		model = "ARF8M3_API",
@@ -166,7 +168,8 @@ _G["weapons_table"]["weapons"]["nurs"]["ARF8M3API"] = {
 			rail_open = false,
 			shapeName = "ARF8M3_API",
 			wind_sigma = 4.8,
-			wind_time = 0.575,
+			wind_sigma_z_coeff = 1,
+			wind_time = 1.15,
 			wing_unfold_time = 0.02
 		}
 	},

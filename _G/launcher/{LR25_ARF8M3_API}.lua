@@ -88,7 +88,11 @@ _G["launcher"]["{LR25_ARF8M3_API}"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
-	displayName = "LR-25 - 25 x ARF-8/M3 API",
+	displayName = "LR-25 - 25 x UnGd Rkts, 50 mm ARF-8/M3 API",
 	shape_table_data = {},
+	weapon_container_data = {
+		launched_arg_state = 1,
+		nurs_args = { 4 }
+	},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

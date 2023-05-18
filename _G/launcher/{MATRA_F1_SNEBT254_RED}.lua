@@ -118,7 +118,7 @@ _G["launcher"]["{MATRA_F1_SNEBT254_RED}"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
-	displayName = "MATRA F1 - 36 x 68 mm SNEB Type 254 F1B SM Red",
+	displayName = "MATRA F1 - 36 x UnGd Rkts, 68 mm SNEB Type 254 F1B SM Red",
 	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

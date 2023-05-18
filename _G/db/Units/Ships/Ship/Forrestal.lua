@@ -216,19 +216,23 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		}, {
 			area_arg = 109,
 			area_life = 50,
-			area_name = "LIFT_01"
+			area_name = "LIFT_01",
+			belongsToRunway = true
 		}, {
 			area_arg = 110,
 			area_life = 50,
-			area_name = "LIFT_02"
+			area_name = "LIFT_02",
+			belongsToRunway = true
 		}, {
 			area_arg = 111,
 			area_life = 50,
-			area_name = "LIFT_03"
+			area_name = "LIFT_03",
+			belongsToRunway = true
 		}, {
 			area_arg = 112,
 			area_life = 50,
-			area_name = "LIFT_04"
+			area_name = "LIFT_04",
+			belongsToRunway = true
 		} },
 	DeckLevel = 18.46,
 	DetectionRange = 50000,

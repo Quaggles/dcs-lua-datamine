@@ -376,6 +376,13 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	radar1_period = 1,
 	radar2_period = 9,
 	radar3_period = 6,
+	sensor = {
+		max_alt_finding_target = 30000,
+		max_range_finding_target = 50000,
+		min_alt_finding_target = 0,
+		min_range_finding_target = 0,
+		pos = { -14.1, 16, 0 }
+	},
 	shipLength = 110.15,
 	snd = {},
 	speedup = 0.0814062,

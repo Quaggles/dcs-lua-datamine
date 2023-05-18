@@ -1228,7 +1228,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}
 			},
 			muzzle_pos = { 0, 0, 0 },
-			muzzle_pos_connector = "Gun_point_2",
+			muzzle_pos_connector = "POINT_GUN_2",
 			name = "BrowningM2",
 			short_name = "BrowningM2",
 			supply = {
@@ -1698,7 +1698,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}
 			},
 			muzzle_pos = { 0, 0, 0 },
-			muzzle_pos_connector = "Gun_point_3",
+			muzzle_pos_connector = "POINT_GUN_3",
 			name = "BrowningM2",
 			short_name = "BrowningM2",
 			supply = {
@@ -1748,7 +1748,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}
 			},
 			muzzle_pos = { 0, 0, 0 },
-			muzzle_pos_connector = "Gun_point_4",
+			muzzle_pos_connector = "POINT_GUN_4",
 			name = "BrowningM2",
 			short_name = "BrowningM2",
 			supply = {
@@ -1798,7 +1798,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}
 			},
 			muzzle_pos = { 0, 0, 0 },
-			muzzle_pos_connector = "Gun_point_5",
+			muzzle_pos_connector = "POINT_GUN_5",
 			name = "BrowningM2",
 			short_name = "BrowningM2",
 			supply = {
@@ -1848,7 +1848,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}
 			},
 			muzzle_pos = { 0, 0, 0 },
-			muzzle_pos_connector = "Gun_point_7",
+			muzzle_pos_connector = "POINT_GUN_1",
 			name = "BrowningM2",
 			short_name = "BrowningM2",
 			supply = {
@@ -1898,7 +1898,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}
 			},
 			muzzle_pos = { 0, 0, 0 },
-			muzzle_pos_connector = "Gun_point_6",
+			muzzle_pos_connector = "POINT_GUN_6",
 			name = "BrowningM2",
 			short_name = "BrowningM2",
 			supply = {
@@ -1945,7 +1945,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}
 			},
 			muzzle_pos = { 0, 0, 0 },
-			muzzle_pos_connector = "Gun_point_9",
+			muzzle_pos_connector = "POINT_GUN_7_R",
 			name = "A20_TopTurret_M2_R",
 			short_name = "A20_TopTurret_M2_R",
 			supply = {
@@ -2070,7 +2070,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}
 			},
 			muzzle_pos = { 0, 0, 0 },
-			muzzle_pos_connector = "Gun_point_8",
+			muzzle_pos_connector = "POINT_GUN_7_L",
 			name = "A20_TopTurret_M2_L",
 			short_name = "A20_TopTurret_M2_L",
 			supply = {

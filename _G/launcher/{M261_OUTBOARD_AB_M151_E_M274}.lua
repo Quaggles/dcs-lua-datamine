@@ -70,7 +70,7 @@ _G["launcher"]["{M261_OUTBOARD_AB_M151_E_M274}"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
-	displayName = "M261 - 19 x Hydra 70, Pod Zones: A/B - M151; E - M274",
+	displayName = "M261 - 19 x UnGd Rkts, 70 mm Hydra 70, Pod Zones: A/B - M151; E - M274",
 	shape_table_data = {},
 	wsTypeOfWeapon = "weapons.nurs.HYDRA_70_M151"
 }

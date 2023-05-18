@@ -860,6 +860,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "container_20ft"
 				}, {
+					Name = "FlagPole"
+				}, {
 					Name = "warning_board_a"
 				}, {
 					Name = "warning_board_b"

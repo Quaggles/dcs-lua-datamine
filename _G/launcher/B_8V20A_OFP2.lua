@@ -68,9 +68,13 @@ _G["launcher"]["B_8V20A_OFP2"] = {
 		} },
 	Picture = "rus_B-8V20A_S-8OFP2.png",
 	PictureBlendColor = "0xffffffff",
-	Weight = 457,
-	_file = "Scripts/Database/db_weapons_data.lua",
+	Weight = 467,
+	Weight_Empty = 123,
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
+	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
-	displayName = "B-8V20A pod - 20 x S-8OFP2, 80mm UnGd Rkts, HE/Frag/AP",
+	category = 3,
+	displayName = "B-8V20A - 20 x UnGd Rkts, 80 mm S-8OFP2 MPP",
+	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

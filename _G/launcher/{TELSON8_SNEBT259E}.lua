@@ -28,13 +28,13 @@ _G["launcher"]["{TELSON8_SNEBT259E}"] = {
 			connector_name = "tube_08"
 		} },
 	Picture = "SNEB68.png",
-	Weight = 102.48,
+	Weight = 91.28,
 	Weight_Empty = 30,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
-	displayName = "Telson 8 - 8 x 68 mm SNEB Type 259E H1 IL",
+	displayName = "Telson 8 - 8 x UnGd Rkts, 68 mm SNEB Type 259E H1 IL",
 	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

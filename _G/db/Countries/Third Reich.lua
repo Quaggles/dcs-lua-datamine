@@ -598,6 +598,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "container_20ft"
 				}, {
+					Name = "FlagPole"
+				}, {
 					Name = "Belgian gate"
 				}, {
 					Name = "Concertina wire"
