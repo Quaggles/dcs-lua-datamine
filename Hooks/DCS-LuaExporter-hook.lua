@@ -1,6 +1,18 @@
 local logName = 'DCS.Lua.Exporter'
-local function debugLog(message) log.write(logName, log.INFO, tostring(message)) end
-local function debugLogError(message) log.write(logName, log.ERROR, tostring(message)) end
+local function debugLog(message)
+	if log.write ~= nil then
+		log.write(logName, log.INFO, message)
+	else
+		net.log("["..logName.."] ".."(INFO) "..message)
+	end
+end
+local function debugLogError(message)
+	if log.write ~= nil then
+		log.write(logName, log.ERROR, message)
+	else
+		net.log("["..logName.."] ".."(ERROR) "..message)
+	end
+end
 local originalPackagePath = package.path
 package.path = package.path..";"..lfs.writedir().."Scripts/Hooks/?.lua" -- Saved Games Hooks
 package.path = package.path..";./Scripts/Hooks/?.lua" -- Game Directory Hooks
