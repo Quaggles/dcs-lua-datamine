@@ -18,7 +18,7 @@ _G["launcher"]["{M299_4xAGM_114L}"] = {
 			ShapeName = "AGM-114",
 			connector_name = "Point004"
 		} },
-	Picture = "agm114.png",
+	Picture = "agm114L.png",
 	Weight = 260.9,
 	Weight_Empty = 64.9,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/AS_Missiles.lua",

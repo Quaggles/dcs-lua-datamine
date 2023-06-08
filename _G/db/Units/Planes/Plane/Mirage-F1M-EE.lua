@@ -1276,7 +1276,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			enable = false,
 			hh = 0,
 			id = "gyros_general_BSM_fail",
-			label = "General gyroscopic central fail",
+			label = "Gyroscopic central fail",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "gyros_main_att_fail",
+			label = "Main attitude gyroscope fail",
 			mm = 0,
 			mmint = 1,
 			prob = 100
@@ -1284,7 +1292,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			enable = false,
 			hh = 0,
 			id = "gyros_main_fail",
-			label = "Main gyroscope fail",
+			label = "Main directional gyroscope fail",
 			mm = 0,
 			mmint = 1,
 			prob = 100
@@ -1292,7 +1300,23 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			enable = false,
 			hh = 0,
 			id = "gyros_emergency_fail",
-			label = "Emergency gyroscope fail",
+			label = "Emergency directional gyroscope fail",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "gyros_att_indicator",
+			label = "Spherical indicator fail",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "gyros_temp_drift",
+			label = "Excessive gyro drift until realignment",
 			mm = 0,
 			mmint = 1,
 			prob = 100
@@ -1788,7 +1812,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{S530F}",
 					arg_value = 0.25,
-					attach_point_position = { 0.35, -0.11, 0 },
+					attach_point_position = { 0, -0.1, 0 },
 					forbidden = { {
 							loadout = { "{S530F}" },
 							station = 4
@@ -1885,7 +1909,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{CLB4_MK82}",
 					arg_value = 0.35
 				}, {
-					CLSID = "CLB4_BR250",
+					CLSID = "{CLB4_BR250}",
 					arg_value = 0.15
 				}, {
 					CLSID = "{R530F_EM}",
@@ -2100,7 +2124,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{S530F}",
 					arg_value = 0.25,
-					attach_point_position = { 0.35, -0.11, 0 },
+					attach_point_position = { 0, -0.1, 0 },
 					forbidden = { {
 							loadout = { "{S530F}" },
 							station = 4
@@ -2319,95 +2343,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		RWR = "Abstract RWR"
 	},
 	Shape = "Mirage-F1",
-	SnapViews = { <4>{ <5>{
-				hAngle = 0,
-				rollAngle = 0,
-				vAngle = -10,
-				viewAngle = 80,
-				x_trans = -0.02,
-				y_trans = 0.003,
-				z_trans = 0
-			}, {
-				hAngle = 90.382431,
-				rollAngle = 0,
-				vAngle = -52.480587,
-				viewAngle = 69.780899,
-				x_trans = 0.07794,
-				y_trans = -0.099448,
-				z_trans = -0.043705
-			}, {
-				hAngle = 6.741884,
-				rollAngle = 0,
-				vAngle = -40.086639,
-				viewAngle = 72.555,
-				x_trans = 0,
-				y_trans = 0,
-				z_trans = 0.194226
-			}, {
-				hAngle = -74.849602,
-				rollAngle = 0,
-				vAngle = -47.992794,
-				viewAngle = 58.012501,
-				x_trans = 0,
-				y_trans = -0.099955,
-				z_trans = 0.008404
-			}, {
-				hAngle = 28.081524,
-				rollAngle = 0,
-				vAngle = -36.981689,
-				viewAngle = 52.877102,
-				x_trans = 0.199877,
-				y_trans = -0.099924,
-				z_trans = 0
-			}, <table 5>, {
-				hAngle = -38.423161,
-				rollAngle = 0,
-				vAngle = -38.28899,
-				viewAngle = 43.796249,
-				x_trans = 0.199001,
-				y_trans = -0.0981,
-				z_trans = 0
-			}, {
-				hAngle = 131.835434,
-				rollAngle = 0,
-				vAngle = -7.7,
-				viewAngle = 99.106483,
-				x_trans = 0.116748,
-				y_trans = 0.04,
-				z_trans = -0.063734
-			}, {
-				hAngle = -166.5,
-				rollAngle = 0,
-				vAngle = 8.120656,
-				viewAngle = 87,
-				x_trans = 0.2,
-				y_trans = 0.099448,
-				z_trans = 0.3
-			}, {
-				hAngle = -131.835434,
-				rollAngle = 0,
-				vAngle = -7.7,
-				viewAngle = 99.106483,
-				x_trans = 0.116748,
-				y_trans = 0.04,
-				z_trans = 0.063734
-			}, {
-				hAngle = 0,
-				rollAngle = 0,
-				vAngle = 10,
-				viewAngle = 60,
-				x_trans = 0,
-				y_trans = 0,
-				z_trans = 0
-			}, {
-				hAngle = 0,
-				rollAngle = 0,
-				vAngle = 10,
-				viewAngle = 60,
-				x_trans = 0,
-				y_trans = 0,
-				z_trans = 0
-			}, <table 5> }, <table 4> },
 	Tasks = { {
 			Name = "Ground Attack",
 			OldID = "Ground Attack",
@@ -2446,31 +2381,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	V_max_sea_level = 360,
 	V_opt = 300,
 	V_take_off = 95,
-	ViewSettings = {
-		Arcade = {
-			AnglesDefault = { 0, -8 },
-			LocalPoint = { -21.5, 5.618, 0 }
-		},
-		Chase = {
-			AnglesDefault = { 0, 0 },
-			LocalPoint = { -5, 1, 3 }
-		},
-		Cockpit = { {
-				Allow360rotation = false,
-				CameraAngleLimits = { 200, -90, 90 },
-				CameraAngleRestriction = { false, 90, 0.5 },
-				CameraViewAngleLimits = { 20, 140 },
-				CockpitLocalPoint = { 3.225, 0.368, 0 },
-				EyePoint = { 0.05, 0.1, 0 },
-				ShoulderSize = 0.25,
-				limits_6DOF = {
-					roll = 90,
-					x = { -0.05, 0.2 },
-					y = { -0.1, 0.1 },
-					z = { -0.22, 0.22 }
-				}
-			} }
-	},
 	Vy_max = 243,
 	Waypoint_Custom_Panel = true,
 	WingSpan = 8.4,

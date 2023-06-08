@@ -404,7 +404,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, <table 1> },
 	V_land = 72,
 	V_max_h = 833.33,
-	V_max_sea_level = 300,
+	V_max_sea_level = 416,
 	V_opt = 280,
 	V_take_off = 72,
 	Vy_max = 250,

@@ -1276,7 +1276,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			enable = false,
 			hh = 0,
 			id = "gyros_general_BSM_fail",
-			label = "General gyroscopic central fail",
+			label = "Gyroscopic central fail",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "gyros_main_att_fail",
+			label = "Main attitude gyroscope fail",
 			mm = 0,
 			mmint = 1,
 			prob = 100
@@ -1284,7 +1292,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			enable = false,
 			hh = 0,
 			id = "gyros_main_fail",
-			label = "Main gyroscope fail",
+			label = "Main directional gyroscope fail",
 			mm = 0,
 			mmint = 1,
 			prob = 100
@@ -1292,7 +1300,23 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			enable = false,
 			hh = 0,
 			id = "gyros_emergency_fail",
-			label = "Emergency gyroscope fail",
+			label = "Emergency directional gyroscope fail",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "gyros_att_indicator",
+			label = "Spherical indicator fail",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "gyros_temp_drift",
+			label = "Excessive gyro drift until realignment",
 			mm = 0,
 			mmint = 1,
 			prob = 100
@@ -1545,6 +1569,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{MATRA_F4_SNEBT259E}",
 					arg_value = 0.25
+				}, {
+					CLSID = "BARAX_ECM",
+					arg_value = 0.15,
+					attach_point_position = { -0.4, 0.02, 0 },
+					forbidden = { {
+							loadout = { "BARAX_ECM" },
+							station = 6
+						} }
+				}, {
+					CLSID = "PHIMAT_CM",
+					arg_value = 0.15,
+					attach_point_position = { -0.4, 0.02, 0 },
+					forbidden = { {
+							loadout = { "PHIMAT_CM" },
+							station = 6
+						} }
 				} },
 			Number = 2,
 			Order = 2,
@@ -1921,6 +1961,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{MATRA_F4_SNEBT259E}",
 					arg_value = 0.25
+				}, {
+					CLSID = "BARAX_ECM",
+					arg_value = 0.15,
+					attach_point_position = { -0.4, 0.02, 0 },
+					forbidden = { {
+							loadout = { "BARAX_ECM" },
+							station = 2
+						} }
+				}, {
+					CLSID = "PHIMAT_CM",
+					arg_value = 0.15,
+					attach_point_position = { -0.4, 0.02, 0 },
+					forbidden = { {
+							loadout = { "PHIMAT_CM" },
+							station = 2
+						} }
 				} },
 			Number = 6,
 			Order = 6,

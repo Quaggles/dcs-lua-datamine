@@ -5,6 +5,12 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			id = "NS430allow",
 			label = "NS430 Allow",
 			playerOnly = true
+		}, {
+			control = "checkbox",
+			defValue = false,
+			id = "RemoveTablet",
+			label = "Remove Tablet",
+			playerOnly = true
 		} },
 	AmmoWeight = 0,
 	CanopyGeometry = { -0.76604444311898, -0.81603492345171, -0.86602540378444, 0.059391174613885, 0.98480775301221 },
@@ -165,7 +171,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	},
 	DisplayName = "SA342M",
 	EPLRS = true,
-	EmptyWeight = 1680,
+	EmptyWeight = 1541,
 	Guns = {},
 	H_din_one_eng = 6000,
 	H_din_two_eng = 6000,
@@ -185,21 +191,33 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		}, {
 			Name = "AircraftCarrier"
 		} },
-	M_empty = 1680,
+	M_empty = 1541,
 	M_fuel_max = 416.33,
-	M_max = 2100,
-	M_nominal = 1900,
+	M_max = 2085.33,
+	M_nominal = 1700,
 	MaxFuelWeight = 416.33,
 	MaxHeight = 6000,
 	MaxSpeed = 240,
-	MaxTakeOffWeight = 2100,
+	MaxTakeOffWeight = 2085.33,
 	Name = "SA342M",
 	Ny_max = 3.5,
 	Picture = "SA342M.png",
 	Pylons = { {
 			FiZ = 0,
 			Launchers = { {
-					CLSID = "{HOT3D}"
+					CLSID = "{HOT3_R1_M}",
+					connector = "str_pnt_hot3_r_single",
+					required = { {
+							loadout = { "{HOT3_L1_M}" },
+							station = 2
+						} }
+				}, {
+					CLSID = "{HOT3_R2_M}",
+					connector = "str_pnt_hot3_r",
+					required = { {
+							loadout = { "{HOT3_L2_M}" },
+							station = 2
+						} }
 				} },
 			Number = 1,
 			Order = 1,
@@ -210,7 +228,19 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		}, {
 			FiZ = 0,
 			Launchers = { {
-					CLSID = "{HOT3G}"
+					CLSID = "{HOT3_L1_M}",
+					connector = "str_pnt_hot3_l_single",
+					required = { {
+							loadout = { "{HOT3_R1_M}" },
+							station = 1
+						} }
+				}, {
+					CLSID = "{HOT3_L2_M}",
+					connector = "str_pnt_hot3_l",
+					required = { {
+							loadout = { "{HOT3_R2_M}" },
+							station = 1
+						} }
 				} },
 			Number = 2,
 			Order = 2,
@@ -219,31 +249,34 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			Y = 0.05,
 			Z = -1.55
 		}, {
+			DisplayName = "FAS",
 			FiZ = 0,
 			Launchers = { {
-					CLSID = "{HOT3D}"
+					CLSID = "{FAS}"
 				} },
 			Number = 3,
 			Order = 3,
 			Type = 0,
-			X = -0.007,
-			Y = 0.05,
-			Z = 1.19
+			X = 0,
+			Y = 0,
+			Z = 0
 		}, {
+			DisplayName = "IR",
 			FiZ = 0,
 			Launchers = { {
-					CLSID = "{HOT3G}"
+					CLSID = "{IR_Deflector}"
 				} },
 			Number = 4,
 			Order = 4,
 			Type = 0,
-			X = -0.007,
-			Y = 0.05,
-			Z = -1.19
+			X = 0,
+			Y = 0,
+			Z = 0
 		}, {
+			DisplayName = "ANT",
 			FiZ = 0,
 			Launchers = { {
-					CLSID = "{FAS}"
+					CLSID = "{SA342_Dipole}"
 				} },
 			Number = 5,
 			Order = 5,
@@ -252,27 +285,77 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			Y = 0,
 			Z = 0
 		}, {
-			FiZ = 0,
+			DisplayName = "R SMK",
 			Launchers = { {
-					CLSID = "{IR_Deflector}"
+					CLSID = "{INV-SMOKE-RED}",
+					arg_value = 0.1,
+					connector = "HLP_SMOKE_R"
+				}, {
+					CLSID = "{INV-SMOKE-GREEN}",
+					arg_value = 0.1,
+					connector = "HLP_SMOKE_R"
+				}, {
+					CLSID = "{INV-SMOKE-BLUE}",
+					arg_value = 0.1,
+					connector = "HLP_SMOKE_R"
+				}, {
+					CLSID = "{INV-SMOKE-WHITE}",
+					arg_value = 0.1,
+					connector = "HLP_SMOKE_R"
+				}, {
+					CLSID = "{INV-SMOKE-YELLOW}",
+					arg_value = 0.1,
+					connector = "HLP_SMOKE_R"
+				}, {
+					CLSID = "{INV-SMOKE-ORANGE}",
+					arg_value = 0.1,
+					connector = "HLP_SMOKE_R"
 				} },
 			Number = 6,
 			Order = 6,
-			Type = 0,
-			X = 0,
-			Y = 0,
-			Z = 0
+			Type = 2,
+			X = -0.016,
+			Y = -0.057,
+			Z = 1.395,
+			arg = 1337,
+			arg_value = 0,
+			use_full_connector_position = true
 		}, {
-			FiZ = 0,
+			DisplayName = "L SMK",
 			Launchers = { {
-					CLSID = "{SA342_Dipole}"
+					CLSID = "{INV-SMOKE-RED}",
+					arg_value = 0.1,
+					connector = "HLP_SMOKE_L"
+				}, {
+					CLSID = "{INV-SMOKE-GREEN}",
+					arg_value = 0.1,
+					connector = "HLP_SMOKE_L"
+				}, {
+					CLSID = "{INV-SMOKE-BLUE}",
+					arg_value = 0.1,
+					connector = "HLP_SMOKE_L"
+				}, {
+					CLSID = "{INV-SMOKE-WHITE}",
+					arg_value = 0.1,
+					connector = "HLP_SMOKE_L"
+				}, {
+					CLSID = "{INV-SMOKE-YELLOW}",
+					arg_value = 0.1,
+					connector = "HLP_SMOKE_L"
+				}, {
+					CLSID = "{INV-SMOKE-ORANGE}",
+					arg_value = 0.1,
+					connector = "HLP_SMOKE_L"
 				} },
 			Number = 7,
 			Order = 7,
-			Type = 0,
-			X = 0,
-			Y = 0,
-			Z = 0
+			Type = 2,
+			X = -0.016,
+			Y = -0.057,
+			Z = 1.395,
+			arg = 1336,
+			arg_value = 0,
+			use_full_connector_position = true
 		} },
 	RCS = 3,
 	Rate = 30,
@@ -372,6 +455,10 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	fuselage_Cxa90 = 3,
 	fuselage_area = 1.4,
 	height = 3.192,
+	laserEquipment = {
+		laserDesignator = true,
+		laserRangefinder = true
+	},
 	lead_stock_main = -0.1,
 	lead_stock_support = -0.1,
 	length = 11.97,
@@ -397,6 +484,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					}, {
 						color = { 1, 1, 1 },
 						connector = "MAIN_SPOT_OMNI",
+						intensity_max = 0,
 						pos_correction = { 0, 0, 0 },
 						typename = "omnilight"
 					} },
@@ -459,7 +547,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			DuplicateOf = "Door0"
 		}
 	},
-	net_animation = { 34, 38, 337, 399, 11, 15, 17, 420, 274, 276, 277, 280, 281, 282, 283, 284, 285, 209, 210, 211, 212, 213, 215, 216, 400, 401, 506, 507, 526, 527 },
+	net_animation = { 11, 15, 17, 13, 14, 34, 38, 36, 37, 40, 69, 196, 274, 276, 277, 280, 281, 282, 283, 284, 285, 209, 210, 211, 212, 213, 215, 216, 300, 301, 302, 306, 337, 399, 400, 401, 420, 506, 507, 526, 527, 508, 528, 1338, 1401 },
 	nose_gear_pos = { 0.835, -0.966, 0 },
 	panelRadio = { {
 			channels = { {

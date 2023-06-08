@@ -102,6 +102,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			coeffs = { {}, {}, {}, {} }
 		},
 		fire_pos = {},
+		fire_size = 0,
 		parachute = 11,
 		shape = "soldier_ru_00",
 		shape_dstr = "soldier_ru_00_d"

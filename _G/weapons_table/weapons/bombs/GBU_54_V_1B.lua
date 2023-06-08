@@ -91,13 +91,13 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_54_V_1B"] = {
 				index = "Redacted",
 				life = 1,
 				name = "GBU_54_V_1B",
-				username = "GBU-54B"
+				username = "GBU-54(V)1/B"
 			} },
 		targeting_data = {
 			char_time = 20.5
 		},
 		type = 4,
-		user_name = "GBU-54B",
+		user_name = "GBU-54(V)1/B",
 		warhead = {
 			caliber = 274,
 			concrete_factors = { 1, 1, 1 },
@@ -115,7 +115,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_54_V_1B"] = {
 		wsTypeOfWeapon = { 4, 5, 36, "Redacted" }
 	},
 	cx = { 1, 0.45, 0.8, 0.15, 1.55 },
-	display_name = "GBU-54B",
+	display_name = "GBU-54(V)1/B",
 	mass = 253.1,
 	model = "GBU-54",
 	name = "GBU_54_V_1B",
@@ -205,13 +205,13 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_54_V_1B"] = {
 				index = "Redacted",
 				life = 1,
 				name = "GBU_54_V_1B",
-				username = "GBU-54B"
+				username = "GBU-54(V)1/B"
 			} },
 		targeting_data = {
 			char_time = 20.5
 		},
 		type = 4,
-		user_name = "GBU-54B",
+		user_name = "GBU-54(V)1/B",
 		warhead = {
 			caliber = 274,
 			concrete_factors = { 1, 1, 1 },

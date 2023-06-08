@@ -25,5 +25,5 @@ _G["launcher"]["{TWIN_B_8M1_S_8KOM}"] = {
 	category = 3,
 	displayName = "2 x B-8M1 - 40 x UnGd Rkts, 80 mm S-8KOM HEAT/Frag",
 	name = "{TWIN_B_8M1_S_8KOM}",
-	wsTypeOfWeapon = "weapons.nurs.S_8KOM"
+	wsTypeOfWeapon = "weapons.nurs.C_8"
 }

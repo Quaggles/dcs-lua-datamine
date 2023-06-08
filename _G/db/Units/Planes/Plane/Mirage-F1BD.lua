@@ -1291,7 +1291,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			enable = false,
 			hh = 0,
 			id = "gyros_general_BSM_fail",
-			label = "General gyroscopic central fail",
+			label = "Gyroscopic central fail",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "gyros_main_att_fail",
+			label = "Main attitude gyroscope fail",
 			mm = 0,
 			mmint = 1,
 			prob = 100
@@ -1299,7 +1307,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			enable = false,
 			hh = 0,
 			id = "gyros_main_fail",
-			label = "Main gyroscope fail",
+			label = "Main directional gyroscope fail",
 			mm = 0,
 			mmint = 1,
 			prob = 100
@@ -1307,7 +1315,23 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			enable = false,
 			hh = 0,
 			id = "gyros_emergency_fail",
-			label = "Emergency gyroscope fail",
+			label = "Emergency directional gyroscope fail",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "gyros_att_indicator",
+			label = "Spherical indicator fail",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "gyros_temp_drift",
+			label = "Excessive gyro drift until realignment",
 			mm = 0,
 			mmint = 1,
 			prob = 100
@@ -1459,6 +1483,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "BR_500",
 					arg_value = 0.25
+				}, {
+					CLSID = "PHIMAT_CM",
+					arg_value = 0.15,
+					attach_point_position = { -0.4, 0.02, 0 },
+					forbidden = { {
+							loadout = { "PHIMAT_CM" },
+							station = 6
+						} }
 				} },
 			Number = 2,
 			Order = 2,
@@ -1580,7 +1612,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{S530F}",
 					arg_value = 0.25,
-					attach_point_position = { 0.35, -0.11, 0 },
+					attach_point_position = { 0, -0.1, 0 },
 					forbidden = { {
 							loadout = { "{S530F}" },
 							station = 4
@@ -1811,7 +1843,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{S530F}",
 					arg_value = 0.25,
-					attach_point_position = { 0.35, -0.11, 0 },
+					attach_point_position = { 0, -0.1, 0 },
 					forbidden = { {
 							loadout = { "{S530F}" },
 							station = 4
@@ -1948,6 +1980,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "BR_500",
 					arg_value = 0.25
+				}, {
+					CLSID = "PHIMAT_CM",
+					arg_value = 0.15,
+					attach_point_position = { -0.4, 0.02, 0 },
+					forbidden = { {
+							loadout = { "PHIMAT_CM" },
+							station = 2
+						} }
 				} },
 			Number = 6,
 			Order = 6,
@@ -2134,6 +2174,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	has_differential_stabilizer = false,
 	has_speedbrake = true,
 	height = 4.5,
+	input_profile_entry = "Mirage-F1BD",
 	is_tanker = false,
 	length = 15.3,
 	lights_data = {

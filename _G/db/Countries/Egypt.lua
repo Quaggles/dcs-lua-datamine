@@ -486,6 +486,30 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "Patriot AMG",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Patriot ECS",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Patriot ln",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Patriot EPP",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Patriot cp",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Patriot str",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Electric locomotive"
 				}, {
 					Name = "Locomotive"
@@ -916,6 +940,14 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "Mi-8MT",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Mi-24V",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Ka-50_3"
 				}, {
 					Name = "Mi-24P"
@@ -994,6 +1026,22 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "F-16C bl.50",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "F-16C_50",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "F-16C bl.52d",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "IL-76MD",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "FW-190A8"
 				}, {
 					Name = "Bf-109K-4"
@@ -1027,8 +1075,6 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "JF-17"
 				}, {
 					Name = "Christen Eagle II"
-				}, {
-					Name = "F-16C_50"
 				}, {
 					Name = "F-5E"
 				}, {

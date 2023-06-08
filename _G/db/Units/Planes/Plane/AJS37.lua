@@ -1174,6 +1174,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{AKAN}"
 				}, {
+					CLSID = "{AKAN_NO_TRC}"
+				}, {
 					CLSID = "{ARAKM70BHE}"
 				}, {
 					CLSID = "{ARAKM70BAP}"
@@ -1333,6 +1335,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					Type = 1
 				}, {
 					CLSID = "{AKAN}"
+				}, {
+					CLSID = "{AKAN_NO_TRC}"
 				}, {
 					CLSID = "{ARAKM70BHE}"
 				}, {

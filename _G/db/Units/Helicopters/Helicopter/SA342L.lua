@@ -13,8 +13,14 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			id = "SA342RemoveDoors",
 			label = "Remove Doors",
 			playerOnly = false
+		}, {
+			control = "checkbox",
+			defValue = false,
+			id = "RemoveTablet",
+			label = "Remove Tablet",
+			playerOnly = true
 		} },
-	AmmoWeight = 24,
+	AmmoWeight = 0,
 	CanopyGeometry = { -0.76604444311898, -0.81603492345171, -0.86602540378444, 0.059391174613885, 0.98480775301221 },
 	Categories = {},
 	Damage = { {
@@ -173,399 +179,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	},
 	DisplayName = "SA342L",
 	EPLRS = true,
-	EmptyWeight = 1494.5,
-	Guns = { {
-			_file = "./CoreMods/aircraft/SA342/SA342.lua",
-			_origin = "SA342 AI by Polychop-Simulations",
-			_unique_resource_name = "weapons.gunmounts.GIAT_M621G",
-			aft_gun_mount = false,
-			azimuth_initial = 0,
-			category = 8,
-			display_name = "GIAT_M621G",
-			drop_cartridge = 204,
-			effective_fire_distance = 1200,
-			effects = { {
-					arg = 436,
-					name = "FireEffect"
-				}, {
-					barrel_k = 1.2474,
-					body_k = 6.6066,
-					name = "HeatEffectExt",
-					shot_heat = 7.823
-				}, {
-					name = "SmokeEffect"
-				} },
-			ejector_dir = { 0, -1, 1 },
-			ejector_pos = { -1.707, -0.322, 0.153 },
-			elevation_initial = -2,
-			gun = {
-				barrels_count = 1,
-				impulse_vec_rot = {
-					x = 0,
-					y = 0,
-					z = 0
-				},
-				max_burst_length = 240,
-				rates = { 740 },
-				recoil_coeff = 0.1,
-				trigger = {
-					name = "GunTrigger"
-				}
-			},
-			muzzle_pos = { 2.244, -0.387, 1.029 },
-			muzzle_pos_connector = "Gun_point",
-			name = "GIAT_M621G",
-			short_name = "GIAT_M621G",
-			supply = {
-				count = 240,
-				get_mass = <function 1>,
-				get_mass_ = <function 2>,
-				mixes = { { 3, 3, 3, 3, 2 }, { 1, 1, 1, 1, 4 }, { 1, 1, 1, 1, 2 }, { 3, 3, 3, 3, 4 }, { 5, 5, 5, 5, 4 } },
-				shells = { {
-						AP_cap_caliber = 20,
-						Da0 = 0.0022,
-						Da1 = 0,
-						Dv0 = 0.006,
-						_file = "./CoreMods/aircraft/SA342/SA342_Weapons.lua",
-						_origin = "SA342 AI by Polychop-Simulations",
-						_unique_resource_name = "weapons.shells.20mm_M56_HEI",
-						caliber = 20,
-						cartridge = 204,
-						cartridge_mass = 0.12,
-						category = 7,
-						charTime = 0,
-						cumulative_mass = 0,
-						cumulative_thickness = 0,
-						cx = { 0.5, 1.27, 0.7, 0.2, 2.3 },
-						damage_factor = 639,
-						display_name = "20mm_M56_HEI",
-						explosive = 0.17,
-						full_scale_time = -1,
-						j = 0,
-						k1 = 2e-08,
-						l = 0,
-						life_time = 30,
-						manualWeaponFlag = 21,
-						mass = 0.1,
-						model_name = "tracer_bullet_red",
-						name = "20mm_M56_HEI",
-						payload = 0.031382684142514,
-						payload_type = 0,
-						piercing_mass = 0.02,
-						rebound_concrete = <2>{
-							angle0 = 50,
-							angle100 = 75,
-							cx_factor = 5,
-							deviation_angle = 30,
-							velocity_loss_factor = 0.5
-						},
-						rebound_ground = {
-							angle0 = 55,
-							angle100 = 73,
-							cx_factor = 5,
-							deviation_angle = 30,
-							velocity_loss_factor = 0.5
-						},
-						rebound_object = <table 2>,
-						rebound_water = {
-							angle0 = 65,
-							angle100 = 83,
-							cx_factor = 5,
-							deviation_angle = 30,
-							velocity_loss_factor = 0.5
-						},
-						rotation_freq = 7,
-						round_mass = 0.1,
-						s = 0,
-						scale_tracer = 0,
-						silent_self_destruction = false,
-						smoke_tail_life_time = -1,
-						subcalibre = false,
-						tracer_off = -100,
-						tracer_on = 0,
-						type_name = "shell",
-						user_name = "20mm_M56_HEI",
-						v0 = 1050,
-						visual_effect_correction = 0,
-						visual_effect_correction_rebound = 0.1
-					}, {
-						AP_cap_caliber = 20,
-						Da0 = 0.0022,
-						Da1 = 0,
-						Dv0 = 0.006,
-						_file = "./CoreMods/aircraft/SA342/SA342_Weapons.lua",
-						_origin = "SA342 AI by Polychop-Simulations",
-						_unique_resource_name = "weapons.shells.20MM_M242_HEI-T",
-						caliber = 20,
-						cartridge = 204,
-						cartridge_mass = 0.12,
-						category = 7,
-						charTime = 0,
-						cumulative_mass = 0,
-						cumulative_thickness = 0,
-						cx = { 0.5, 1.27, 0.7, 0.2, 2.3 },
-						damage_factor = 639,
-						display_name = "20MM_M242_HEI-T",
-						explosive = 0.17,
-						full_scale_time = -1,
-						j = 0,
-						k1 = 2e-08,
-						l = 0,
-						life_time = 30,
-						manualWeaponFlag = 21,
-						mass = 0.1,
-						model_name = "tracer_bullet_red",
-						name = "20MM_M242_HEI-T",
-						payload = 0.031382684142514,
-						payload_type = 0,
-						piercing_mass = 0.02,
-						rebound_concrete = <3>{
-							angle0 = 50,
-							angle100 = 75,
-							cx_factor = 5,
-							deviation_angle = 30,
-							velocity_loss_factor = 0.5
-						},
-						rebound_ground = {
-							angle0 = 55,
-							angle100 = 73,
-							cx_factor = 5,
-							deviation_angle = 30,
-							velocity_loss_factor = 0.5
-						},
-						rebound_object = <table 3>,
-						rebound_water = {
-							angle0 = 65,
-							angle100 = 83,
-							cx_factor = 5,
-							deviation_angle = 30,
-							velocity_loss_factor = 0.5
-						},
-						rotation_freq = 7,
-						round_mass = 0.1,
-						s = 0,
-						scale_smoke = 0.4,
-						scale_tracer = 1,
-						silent_self_destruction = false,
-						smoke_opacity = 0.25,
-						smoke_particle = 0.1,
-						smoke_tail_life_time = 1,
-						subcalibre = false,
-						tracer_off = 3,
-						tracer_on = 0.01,
-						type_name = "shell",
-						user_name = "20MM_M242_HEI-T",
-						v0 = 1050,
-						visual_effect_correction = 0,
-						visual_effect_correction_rebound = 0.1
-					}, {
-						AP_cap_caliber = 20,
-						Da0 = 0.0022,
-						Da1 = 0,
-						Dv0 = 0.006,
-						_file = "./CoreMods/aircraft/SA342/SA342_Weapons.lua",
-						_origin = "SA342 AI by Polychop-Simulations",
-						_unique_resource_name = "weapons.shells.20mm_M53_API",
-						caliber = 20,
-						cartridge = 204,
-						cartridge_mass = 0.12,
-						category = 7,
-						charTime = 0,
-						cumulative_mass = 0,
-						cumulative_thickness = 0,
-						cx = { 0.5, 1.27, 0.7, 0.2, 2.3 },
-						damage_factor = 639,
-						display_name = "20mm_M53_API",
-						explosive = 0,
-						full_scale_time = -1,
-						j = 0,
-						k1 = 2e-08,
-						l = 0,
-						life_time = 30,
-						manualWeaponFlag = 21,
-						mass = 0.1,
-						model_name = "tracer_bullet_red",
-						name = "20mm_M53_API",
-						payload = 0,
-						payload_type = 0,
-						piercing_mass = 0.1,
-						rebound_concrete = <4>{
-							angle0 = 50,
-							angle100 = 75,
-							cx_factor = 5,
-							deviation_angle = 30,
-							velocity_loss_factor = 0.5
-						},
-						rebound_ground = {
-							angle0 = 55,
-							angle100 = 73,
-							cx_factor = 5,
-							deviation_angle = 30,
-							velocity_loss_factor = 0.5
-						},
-						rebound_object = <table 4>,
-						rebound_water = {
-							angle0 = 65,
-							angle100 = 83,
-							cx_factor = 5,
-							deviation_angle = 30,
-							velocity_loss_factor = 0.5
-						},
-						rotation_freq = 7,
-						round_mass = 0.26,
-						s = 0,
-						scale_tracer = 0,
-						silent_self_destruction = false,
-						smoke_tail_life_time = -1,
-						subcalibre = false,
-						tracer_off = -100,
-						tracer_on = 0,
-						type_name = "shell",
-						user_name = "20mm_M53_API",
-						v0 = 1050,
-						visual_effect_correction = 0,
-						visual_effect_correction_rebound = 0.1
-					}, {
-						AP_cap_caliber = 20,
-						Da0 = 0.0022,
-						Da1 = 0,
-						Dv0 = 0.006,
-						_file = "./CoreMods/aircraft/SA342/SA342_Weapons.lua",
-						_origin = "SA342 AI by Polychop-Simulations",
-						_unique_resource_name = "weapons.shells.20mm_M220_Tracer",
-						caliber = 20,
-						cartridge = 204,
-						cartridge_mass = 0.12,
-						category = 7,
-						charTime = 0,
-						cumulative_mass = 0,
-						cumulative_thickness = 0,
-						cx = { 0.5, 1.27, 0.7, 0.2, 2.3 },
-						damage_factor = 639,
-						display_name = "20mm_M220_Tracer",
-						explosive = 0,
-						full_scale_time = -1,
-						j = 0,
-						k1 = 2e-08,
-						l = 0,
-						life_time = 30,
-						manualWeaponFlag = 21,
-						mass = 0.1,
-						model_name = "tracer_bullet_red",
-						name = "20mm_M220_Tracer",
-						payload = 0,
-						payload_type = 0,
-						piercing_mass = 0.1,
-						rebound_concrete = <5>{
-							angle0 = 50,
-							angle100 = 75,
-							cx_factor = 5,
-							deviation_angle = 30,
-							velocity_loss_factor = 0.5
-						},
-						rebound_ground = {
-							angle0 = 55,
-							angle100 = 73,
-							cx_factor = 5,
-							deviation_angle = 30,
-							velocity_loss_factor = 0.5
-						},
-						rebound_object = <table 5>,
-						rebound_water = {
-							angle0 = 65,
-							angle100 = 83,
-							cx_factor = 5,
-							deviation_angle = 30,
-							velocity_loss_factor = 0.5
-						},
-						rotation_freq = 7,
-						round_mass = 0.26,
-						s = 0,
-						scale_smoke = 0.4,
-						scale_tracer = 1,
-						silent_self_destruction = false,
-						smoke_opacity = 0.25,
-						smoke_particle = 0.1,
-						smoke_tail_life_time = 1,
-						subcalibre = false,
-						tracer_off = 3,
-						tracer_on = 0.07,
-						type_name = "shell",
-						user_name = "20mm_M220_Tracer",
-						v0 = 1050,
-						visual_effect_correction = 0,
-						visual_effect_correction_rebound = 0.1
-					}, {
-						AP_cap_caliber = 20,
-						Da0 = 0.0015,
-						Da1 = 0,
-						Dv0 = 0.006,
-						_file = "./CoreMods/aircraft/SA342/SA342_Weapons.lua",
-						_origin = "SA342 AI by Polychop-Simulations",
-						_unique_resource_name = "weapons.shells.20mm_M70LD_SAPHEI",
-						caliber = 20,
-						cartridge = 204,
-						cartridge_mass = 0.12,
-						category = 7,
-						charTime = 0,
-						cumulative_mass = 0,
-						cumulative_thickness = 0,
-						cx = { 0.12, 0.7, 0.8, 0.22, 1.9 },
-						damage_factor = 639,
-						display_name = "20mm_M70LD_SAPHEI",
-						explosive = 0.17,
-						full_scale_time = -1,
-						j = 0,
-						k1 = 1.1e-08,
-						l = 0,
-						life_time = 30,
-						manualWeaponFlag = 21,
-						mass = 0.1,
-						model_name = "tracer_bullet_red",
-						name = "20mm_M70LD_SAPHEI",
-						payload = 0.031382684142514,
-						payload_type = 0,
-						piercing_mass = 0.02,
-						rebound_concrete = <6>{
-							angle0 = 50,
-							angle100 = 75,
-							cx_factor = 5,
-							deviation_angle = 30,
-							velocity_loss_factor = 0.5
-						},
-						rebound_ground = {
-							angle0 = 55,
-							angle100 = 73,
-							cx_factor = 5,
-							deviation_angle = 30,
-							velocity_loss_factor = 0.5
-						},
-						rebound_object = <table 6>,
-						rebound_water = {
-							angle0 = 65,
-							angle100 = 83,
-							cx_factor = 5,
-							deviation_angle = 30,
-							velocity_loss_factor = 0.5
-						},
-						rotation_freq = 7,
-						round_mass = 0.26,
-						s = 0,
-						scale_tracer = 0,
-						silent_self_destruction = false,
-						smoke_tail_life_time = -1,
-						subcalibre = false,
-						tracer_off = -100,
-						tracer_on = 0,
-						type_name = "shell",
-						user_name = "20mm_M70LD_SAPHEI",
-						v0 = 1040,
-						visual_effect_correction = 0,
-						visual_effect_correction_rebound = 0.1
-					} }
-			},
-			supply_position = { -1.661, 0.021, -0.045 }
-		} },
+	EmptyWeight = 1177,
+	Guns = {},
 	H_din_one_eng = 6000,
 	H_din_two_eng = 6000,
 	H_max = 6000,
@@ -584,71 +199,398 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		}, {
 			Name = "AircraftCarrier"
 		} },
-	M_empty = 1494.5,
+	M_empty = 1177,
 	M_fuel_max = 416.33,
-	M_max = 2100,
-	M_nominal = 1900,
+	M_max = 1800,
+	M_nominal = 1565,
 	MaxFuelWeight = 416.33,
 	MaxHeight = 6000,
 	MaxSpeed = 240,
-	MaxTakeOffWeight = 2100,
+	MaxTakeOffWeight = 1800,
 	Name = "SA342L",
 	Ny_max = 3.5,
 	Picture = "SA342L.png",
 	Pylons = { {
-			FiZ = -3,
+			DisplayName = "1",
 			Launchers = { {
-					CLSID = "{GIAT_M621G}"
+					CLSID = "{GIAT_M621_APHE}",
+					arg = 1400,
+					arg_value = 0.3,
+					connector = "str_pnt_001",
+					forbidden = <2>{ {
+							loadout = { "{SA342_Mistral_L2}" },
+							station = 2
+						}, {
+							loadout = { "{SA342_Mistral_L1}" },
+							station = 2
+						}, {
+							loadout = { "{HOT3_L1}" },
+							station = 2
+						}, {
+							loadout = { "{HOT3_L2}" },
+							station = 2
+						} }
+				}, {
+					CLSID = "{GIAT_M621_HEAP}",
+					arg = 1400,
+					arg_value = 0.3,
+					connector = "str_pnt_001",
+					forbidden = <table 2>
+				}, {
+					CLSID = "{GIAT_M621_HE}",
+					arg = 1400,
+					arg_value = 0.3,
+					connector = "str_pnt_001",
+					forbidden = <table 2>
+				}, {
+					CLSID = "{GIAT_M621_AP}",
+					arg = 1400,
+					arg_value = 0.3,
+					connector = "str_pnt_001",
+					forbidden = <table 2>
+				}, {
+					CLSID = "{GIAT_M621_SAPHEI}",
+					arg = 1400,
+					arg_value = 0.3,
+					connector = "str_pnt_001",
+					forbidden = <table 2>
+				}, {
+					CLSID = "{TELSON8_SNEBT250}",
+					arg = 1400,
+					arg_value = 0.1,
+					connector = "str_pnt_003",
+					forbidden = <table 2>
+				}, {
+					CLSID = "{TELSON8_SNEBT251}",
+					arg = 1400,
+					arg_value = 0.1,
+					connector = "str_pnt_003",
+					forbidden = <table 2>
+				}, {
+					CLSID = "{TELSON8_SNEBT252}",
+					arg = 1400,
+					arg_value = 0.1,
+					connector = "str_pnt_003",
+					forbidden = <table 2>
+				}, {
+					CLSID = "{TELSON8_SNEBT253}",
+					arg = 1400,
+					arg_value = 0.1,
+					connector = "str_pnt_003",
+					forbidden = <table 2>
+				}, {
+					CLSID = "{TELSON8_SNEBT254_RED}",
+					arg = 1400,
+					arg_value = 0.1,
+					connector = "str_pnt_007",
+					forbidden = <table 2>
+				}, {
+					CLSID = "{TELSON8_SNEBT254_YELLOW}",
+					arg = 1400,
+					arg_value = 0.1,
+					connector = "str_pnt_003",
+					forbidden = <table 2>
+				}, {
+					CLSID = "{TELSON8_SNEBT254_GREEN}",
+					arg = 1400,
+					arg_value = 0.1,
+					connector = "str_pnt_003",
+					forbidden = <table 2>
+				}, {
+					CLSID = "{TELSON8_SNEBT256}",
+					arg = 1400,
+					arg_value = 0.1,
+					connector = "str_pnt_003",
+					forbidden = <table 2>
+				}, {
+					CLSID = "{TELSON8_SNEBT257}",
+					arg = 1400,
+					arg_value = 0.1,
+					connector = "str_pnt_003",
+					forbidden = <table 2>
+				}, {
+					CLSID = "{TELSON8_SNEBT259E}",
+					arg = 1400,
+					arg_value = 0.1,
+					connector = "str_pnt_003",
+					forbidden = <table 2>
+				}, {
+					CLSID = "{FN_HMP400}",
+					arg = 1400,
+					arg_value = 0.1,
+					connector = "str_pnt_003",
+					forbidden = <table 2>
+				}, {
+					CLSID = "{FN_HMP400_200}",
+					arg = 1400,
+					arg_value = 0.1,
+					connector = "str_pnt_003",
+					forbidden = <table 2>
+				}, {
+					CLSID = "{FN_HMP400_100}",
+					arg_value = 0.1,
+					connector = "str_pnt_003",
+					forbidden = <table 2>
+				}, {
+					CLSID = "{SA342_Mistral_R1}",
+					DrawArgs = { { 14, 0.1 } },
+					arg = 1400,
+					arg_value = 0.4,
+					connector = "str_pnt_004",
+					forbidden = <3>{ {
+							loadout = { "{TELSON8_SNEBT250}" },
+							station = 2
+						}, {
+							loadout = { "{TELSON8_SNEBT251}" },
+							station = 2
+						}, {
+							loadout = { "{TELSON8_SNEBT253}" },
+							station = 2
+						}, {
+							loadout = { "{TELSON8_SNEBT254_GREEN}" },
+							station = 2
+						}, {
+							loadout = { "{TELSON8_SNEBT254_YELLOW}" },
+							station = 2
+						}, {
+							loadout = { "{TELSON8_SNEBT254_RED}" },
+							station = 2
+						}, {
+							loadout = { "{TELSON8_SNEBT256}" },
+							station = 2
+						}, {
+							loadout = { "{TELSON8_SNEBT257}" },
+							station = 2
+						}, {
+							loadout = { "{TELSON8_SNEBT259E}" },
+							station = 2
+						}, {
+							loadout = { "{{FN_HMP400}" },
+							station = 2
+						}, {
+							loadout = { "{{FN_HMP400_200}" },
+							station = 2
+						}, {
+							loadout = { "{{FN_HMP400_100}" },
+							station = 2
+						} },
+					required = { {
+							loadout = { "{SA342_Mistral_L1}" },
+							station = 2
+						} }
+				}, {
+					CLSID = "{SA342_Mistral_R2}",
+					DrawArgs = { { 14, 0 } },
+					arg = 1400,
+					arg_value = 0.4,
+					connector = "str_pnt_004",
+					forbidden = <table 3>,
+					required = { {
+							loadout = { "{SA342_Mistral_L2}" },
+							station = 2
+						} }
+				}, {
+					CLSID = "{HOT3_R1}",
+					arg = 1400,
+					arg_value = 0.6,
+					connector = "str_pnt_hot3_r_single",
+					forbidden = <table 3>,
+					required = { {
+							loadout = { "{HOT3_L1}" },
+							station = 2
+						} }
+				}, {
+					CLSID = "{HOT3_R2}",
+					arg = 1400,
+					arg_value = 0.6,
+					connector = "str_pnt_hot3_r",
+					forbidden = <table 3>,
+					required = { {
+							loadout = { "{HOT3_L2}" },
+							station = 2
+						} }
 				} },
 			Number = 1,
 			Order = 1,
 			Type = 0,
-			X = 0.583,
-			Y = -0.366,
-			Z = 0.984
+			X = -0.016,
+			Y = -0.057,
+			Z = 1.395,
+			arg = 1400,
+			arg_value = 0,
+			use_full_connector_position = true
 		}, {
 			DisplayName = "2",
-			FiZ = -3,
 			Launchers = { {
 					CLSID = "{TELSON8_SNEBT250}",
 					arg_value = 0.1,
-					connector = "AttachPoint"
+					connector = "str_pnt_002",
+					forbidden = <4>{ {
+							loadout = { "{SA342_Mistral_R2}" },
+							station = 1
+						}, {
+							loadout = { "{SA342_Mistral_R1}" },
+							station = 1
+						}, {
+							loadout = { "{HOT3_R1}" },
+							station = 1
+						}, {
+							loadout = { "{HOT3_R2}" },
+							station = 1
+						} }
 				}, {
 					CLSID = "{TELSON8_SNEBT251}",
 					arg_value = 0.1,
-					connector = "AttachPoint"
+					connector = "str_pnt_002",
+					forbidden = <table 4>
 				}, {
 					CLSID = "{TELSON8_SNEBT252}",
 					arg_value = 0.1,
-					connector = "AttachPoint"
+					connector = "str_pnt_002",
+					forbidden = <table 4>
 				}, {
 					CLSID = "{TELSON8_SNEBT253}",
 					arg_value = 0.1,
-					connector = "AttachPoint"
+					connector = "str_pnt_002",
+					forbidden = <table 4>
 				}, {
 					CLSID = "{TELSON8_SNEBT254_RED}",
 					arg_value = 0.1,
-					connector = "AttachPoint"
+					connector = "str_pnt_002",
+					forbidden = <table 4>
 				}, {
 					CLSID = "{TELSON8_SNEBT254_YELLOW}",
 					arg_value = 0.1,
-					connector = "AttachPoint"
+					connector = "str_pnt_002",
+					forbidden = <table 4>
 				}, {
 					CLSID = "{TELSON8_SNEBT254_GREEN}",
 					arg_value = 0.1,
-					connector = "AttachPoint"
+					connector = "str_pnt_002",
+					forbidden = <table 4>
 				}, {
 					CLSID = "{TELSON8_SNEBT256}",
 					arg_value = 0.1,
-					connector = "AttachPoint"
+					connector = "str_pnt_002",
+					forbidden = <table 4>
 				}, {
 					CLSID = "{TELSON8_SNEBT257}",
 					arg_value = 0.1,
-					connector = "AttachPoint"
+					connector = "str_pnt_002",
+					forbidden = <table 4>
 				}, {
 					CLSID = "{TELSON8_SNEBT259E}",
 					arg_value = 0.1,
-					connector = "AttachPoint"
+					connector = "str_pnt_002",
+					forbidden = <table 4>
+				}, {
+					CLSID = "{FN_HMP400}",
+					arg_value = 0.1,
+					connector = "str_pnt_002",
+					forbidden = <table 4>
+				}, {
+					CLSID = "{FN_HMP400_200}",
+					arg_value = 0.1,
+					connector = "str_pnt_002",
+					forbidden = <table 4>
+				}, {
+					CLSID = "{FN_HMP400_100}",
+					arg_value = 0.1,
+					connector = "str_pnt_002",
+					forbidden = <table 4>
+				}, {
+					CLSID = "{SA342_Mistral_L2}",
+					DrawArgs = { { 14, 0 } },
+					arg = 1339,
+					arg_value = 0.4,
+					connector = "str_pnt_005",
+					forbidden = <5>{ {
+							loadout = { "{GIAT_M621_APHE}" },
+							station = 1
+						}, {
+							loadout = { "{GIAT_M621_HEAP}" },
+							station = 1
+						}, {
+							loadout = { "{GIAT_M621_HE}" },
+							station = 1
+						}, {
+							loadout = { "{GIAT_M621_AP}" },
+							station = 1
+						}, {
+							loadout = { "{GIAT_M621_SAPHEI}" },
+							station = 1
+						}, {
+							loadout = { "{TELSON8_SNEBT250}" },
+							station = 1
+						}, {
+							loadout = { "{TELSON8_SNEBT251}" },
+							station = 1
+						}, {
+							loadout = { "{TELSON8_SNEBT253}" },
+							station = 1
+						}, {
+							loadout = { "{TELSON8_SNEBT254_GREEN}" },
+							station = 1
+						}, {
+							loadout = { "{TELSON8_SNEBT254_YELLOW}" },
+							station = 1
+						}, {
+							loadout = { "{TELSON8_SNEBT254_RED}" },
+							station = 1
+						}, {
+							loadout = { "{TELSON8_SNEBT256}" },
+							station = 1
+						}, {
+							loadout = { "{TELSON8_SNEBT257}" },
+							station = 1
+						}, {
+							loadout = { "{TELSON8_SNEBT259E}" },
+							station = 1
+						}, {
+							loadout = { "{{FN_HMP400}" },
+							station = 1
+						}, {
+							loadout = { "{{FN_HMP400_200}" },
+							station = 1
+						}, {
+							loadout = { "{{FN_HMP400_100}" },
+							station = 1
+						} },
+					required = { {
+							loadout = { "{SA342_Mistral_R2}" },
+							station = 1
+						} }
+				}, {
+					CLSID = "{SA342_Mistral_L1}",
+					DrawArgs = { { 14, 0.1 } },
+					arg = 1339,
+					arg_value = 0.4,
+					connector = "str_pnt_005",
+					forbidden = <table 5>,
+					required = { {
+							loadout = { "{SA342_Mistral_R1}" },
+							station = 1
+						} }
+				}, {
+					CLSID = "{HOT3_L1}",
+					arg = 1339,
+					arg_value = 0.6,
+					connector = "str_pnt_hot3_l_single",
+					forbidden = <table 5>,
+					required = { {
+							loadout = { "{HOT3_R1}" },
+							station = 1
+						} }
+				}, {
+					CLSID = "{HOT3_L2}",
+					arg = 1339,
+					arg_value = 0.6,
+					connector = "str_pnt_hot3_l",
+					forbidden = <table 5>,
+					required = { {
+							loadout = { "{HOT3_R2}" },
+							station = 1
+						} }
 				} },
 			Number = 2,
 			Order = 2,
@@ -661,27 +603,34 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			connector = "str_pnt_002",
 			use_full_connector_position = true
 		}, {
-			FiZ = 0,
-			Launchers = {},
-			Number = 3,
-			Order = 3,
-			Type = 0,
-			X = -0.007,
-			Y = 0.05,
-			Z = 1.19
-		}, {
-			FiZ = 0,
-			Launchers = {},
-			Number = 4,
-			Order = 4,
-			Type = 0,
-			X = -0.007,
-			Y = 0.05,
-			Z = -1.19
-		}, {
+			DisplayName = "FAS",
 			FiZ = 0,
 			Launchers = { {
 					CLSID = "{FAS}"
+				} },
+			Number = 3,
+			Order = 3,
+			Type = 0,
+			X = 0,
+			Y = 0,
+			Z = 0
+		}, {
+			DisplayName = "IR",
+			FiZ = 0,
+			Launchers = { {
+					CLSID = "{IR_Deflector}"
+				} },
+			Number = 4,
+			Order = 4,
+			Type = 0,
+			X = 0,
+			Y = 0,
+			Z = 0
+		}, {
+			DisplayName = "ANT",
+			FiZ = 0,
+			Launchers = { {
+					CLSID = "{SA342_Dipole}"
 				} },
 			Number = 5,
 			Order = 5,
@@ -690,38 +639,77 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			Y = 0,
 			Z = 0
 		}, {
-			FiZ = 0,
+			DisplayName = "R SMK",
 			Launchers = { {
-					CLSID = "{IR_Deflector}"
+					CLSID = "{INV-SMOKE-RED}",
+					arg_value = 0.1,
+					connector = "HLP_SMOKE_R"
+				}, {
+					CLSID = "{INV-SMOKE-GREEN}",
+					arg_value = 0.1,
+					connector = "HLP_SMOKE_R"
+				}, {
+					CLSID = "{INV-SMOKE-BLUE}",
+					arg_value = 0.1,
+					connector = "HLP_SMOKE_R"
+				}, {
+					CLSID = "{INV-SMOKE-WHITE}",
+					arg_value = 0.1,
+					connector = "HLP_SMOKE_R"
+				}, {
+					CLSID = "{INV-SMOKE-YELLOW}",
+					arg_value = 0.1,
+					connector = "HLP_SMOKE_R"
+				}, {
+					CLSID = "{INV-SMOKE-ORANGE}",
+					arg_value = 0.1,
+					connector = "HLP_SMOKE_R"
 				} },
 			Number = 6,
 			Order = 6,
-			Type = 0,
-			X = 0,
-			Y = 0,
-			Z = 0
+			Type = 2,
+			X = -0.016,
+			Y = -0.057,
+			Z = 1.395,
+			arg = 1337,
+			arg_value = 0,
+			use_full_connector_position = true
 		}, {
-			FiZ = 0,
+			DisplayName = "L SMK",
 			Launchers = { {
-					CLSID = "{SA342_Dipole}"
+					CLSID = "{INV-SMOKE-RED}",
+					arg_value = 0.1,
+					connector = "HLP_SMOKE_L"
+				}, {
+					CLSID = "{INV-SMOKE-GREEN}",
+					arg_value = 0.1,
+					connector = "HLP_SMOKE_L"
+				}, {
+					CLSID = "{INV-SMOKE-BLUE}",
+					arg_value = 0.1,
+					connector = "HLP_SMOKE_L"
+				}, {
+					CLSID = "{INV-SMOKE-WHITE}",
+					arg_value = 0.1,
+					connector = "HLP_SMOKE_L"
+				}, {
+					CLSID = "{INV-SMOKE-YELLOW}",
+					arg_value = 0.1,
+					connector = "HLP_SMOKE_L"
+				}, {
+					CLSID = "{INV-SMOKE-ORANGE}",
+					arg_value = 0.1,
+					connector = "HLP_SMOKE_L"
 				} },
 			Number = 7,
 			Order = 7,
-			Type = 0,
-			X = 0,
-			Y = 0,
-			Z = 0
-		}, {
-			FiZ = 0,
-			Launchers = { {
-					CLSID = "{SA342_Doors}"
-				} },
-			Number = 8,
-			Order = 8,
-			Type = 0,
-			X = 0,
-			Y = 0,
-			Z = 0
+			Type = 2,
+			X = -0.016,
+			Y = -0.057,
+			Z = 1.395,
+			arg = 1336,
+			arg_value = 0,
+			use_full_connector_position = true
 		} },
 	RCS = 3,
 	Rate = 30,
@@ -759,8 +747,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	WorldID = 290,
 	_file = "./CoreMods/aircraft/SA342/SA342.lua",
 	_origin = "SA342 AI by Polychop-Simulations",
-	ammo_type = { "Combat mix 3x HE 1x AP", "HEI - High Explosive Incendiary", "AP Armor Piercing", "SAPHEI High Explosive Armor Piercing PGU" },
-	ammo_type_default = 1,
 	attribute = { 1, 2, 6, "Redacted", "Attack helicopters", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Helicopters" },
 	blade_area = 1.8375,
 	blade_chord = 0.35,
@@ -822,6 +808,10 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	fuselage_Cxa90 = 3,
 	fuselage_area = 1.4,
 	height = 3.192,
+	laserEquipment = {
+		laserDesignator = true,
+		laserRangefinder = true
+	},
 	lead_stock_main = -0.1,
 	lead_stock_support = -0.1,
 	length = 11.97,
@@ -847,6 +837,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					}, {
 						color = { 1, 1, 1 },
 						connector = "MAIN_SPOT_OMNI",
+						intensity_max = 0,
 						pos_correction = { 0, 0, 0 },
 						typename = "omnilight"
 					} },
@@ -909,7 +900,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			DuplicateOf = "Door0"
 		}
 	},
-	net_animation = { 34, 38, 337, 399, 11, 15, 17, 274, 276, 277, 280, 281, 282, 283, 284, 285, 196, 209, 210, 211, 212, 213, 215, 216, 400, 401, 506, 507, 526, 527, 1337, 1338 },
+	net_animation = { 11, 15, 17, 13, 14, 34, 38, 36, 37, 40, 69, 196, 274, 276, 277, 280, 281, 282, 283, 284, 285, 209, 210, 211, 212, 213, 215, 216, 300, 301, 302, 306, 337, 399, 400, 401, 420, 506, 507, 526, 527, 508, 528, 1338, 1401 },
 	nose_gear_pos = { 0.835, -0.966, 0 },
 	panelRadio = { {
 			channels = { {

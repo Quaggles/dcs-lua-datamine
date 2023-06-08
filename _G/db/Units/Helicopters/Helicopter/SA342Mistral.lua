@@ -5,6 +5,12 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			id = "NS430allow",
 			label = "NS430 Allow",
 			playerOnly = true
+		}, {
+			control = "checkbox",
+			defValue = false,
+			id = "RemoveTablet",
+			label = "Remove Tablet",
+			playerOnly = true
 		} },
 	AmmoWeight = 0,
 	CanopyGeometry = { -0.76604444311898, -0.81603492345171, -0.86602540378444, 0.059391174613885, 0.98480775301221 },
@@ -363,6 +369,10 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	fuselage_Cxa90 = 3,
 	fuselage_area = 1.4,
 	height = 3.192,
+	laserEquipment = {
+		laserDesignator = true,
+		laserRangefinder = true
+	},
 	lead_stock_main = -0.1,
 	lead_stock_support = -0.1,
 	length = 11.97,
@@ -388,6 +398,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					}, {
 						color = { 1, 1, 1 },
 						connector = "MAIN_SPOT_OMNI",
+						intensity_max = 0,
 						pos_correction = { 0, 0, 0 },
 						typename = "omnilight"
 					} },
@@ -450,7 +461,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			DuplicateOf = "Door0"
 		}
 	},
-	net_animation = { 34, 38, 337, 399, 11, 15, 17, 274, 276, 277, 280, 281, 282, 283, 284, 285, 196, 209, 210, 211, 212, 213, 215, 216, 400, 401, 506, 507, 526, 527 },
+	net_animation = { 11, 15, 17, 13, 14, 34, 38, 36, 37, 40, 69, 196, 274, 276, 277, 280, 281, 282, 283, 284, 285, 209, 210, 211, 212, 213, 215, 216, 300, 301, 302, 306, 337, 399, 400, 401, 420, 506, 507, 526, 527, 508, 528, 1338, 1401 },
 	nose_gear_pos = { 0.835, -0.966, 0 },
 	panelRadio = { {
 			channels = { {

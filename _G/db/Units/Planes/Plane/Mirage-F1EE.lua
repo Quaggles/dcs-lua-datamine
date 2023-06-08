@@ -1306,7 +1306,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			enable = false,
 			hh = 0,
 			id = "gyros_general_BSM_fail",
-			label = "General gyroscopic central fail",
+			label = "Gyroscopic central fail",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "gyros_main_att_fail",
+			label = "Main attitude gyroscope fail",
 			mm = 0,
 			mmint = 1,
 			prob = 100
@@ -1314,7 +1322,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			enable = false,
 			hh = 0,
 			id = "gyros_main_fail",
-			label = "Main gyroscope fail",
+			label = "Main directional gyroscope fail",
 			mm = 0,
 			mmint = 1,
 			prob = 100
@@ -1322,7 +1330,23 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			enable = false,
 			hh = 0,
 			id = "gyros_emergency_fail",
-			label = "Emergency gyroscope fail",
+			label = "Emergency directional gyroscope fail",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "gyros_att_indicator",
+			label = "Spherical indicator fail",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "gyros_temp_drift",
+			label = "Excessive gyro drift until realignment",
 			mm = 0,
 			mmint = 1,
 			prob = 100
@@ -2078,7 +2102,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{S530F}",
 					arg_value = 0.25,
-					attach_point_position = { 0.35, -0.11, 0 },
+					attach_point_position = { 0, -0.1, 0 },
 					forbidden = { {
 							loadout = { "{S530F}" },
 							station = 4
@@ -2175,7 +2199,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{CLB4_MK82}",
 					arg_value = 0.35
 				}, {
-					CLSID = "CLB4_BR250",
+					CLSID = "{CLB4_BR250}",
 					arg_value = 0.15
 				}, {
 					CLSID = "{R530F_EM}",
@@ -2390,7 +2414,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{S530F}",
 					arg_value = 0.25,
-					attach_point_position = { 0.35, -0.11, 0 },
+					attach_point_position = { 0, -0.1, 0 },
 					forbidden = { {
 							loadout = { "{S530F}" },
 							station = 4
@@ -2609,7 +2633,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		RWR = "Abstract RWR"
 	},
 	Shape = "Mirage-F1",
-	SnapViews = { <5>{ <6>{
+	SnapViews = { { {
 				hAngle = 0,
 				rollAngle = 0,
 				vAngle = -10,
@@ -2649,7 +2673,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				x_trans = 0.199877,
 				y_trans = -0.099924,
 				z_trans = 0
-			}, <table 6>, {
+			}, {
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = -10,
+				viewAngle = 80,
+				x_trans = -0.02,
+				y_trans = 0.003,
+				z_trans = 0
+			}, {
 				hAngle = -38.423161,
 				rollAngle = 0,
 				vAngle = -38.28899,
@@ -2697,7 +2729,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				x_trans = 0,
 				y_trans = 0,
 				z_trans = 0
-			}, <table 6> }, <table 5> },
+			}, {
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = -10,
+				viewAngle = 80,
+				x_trans = -0.02,
+				y_trans = 0.003,
+				z_trans = 0
+			} } },
 	Tasks = { {
 			Name = "Ground Attack",
 			OldID = "Ground Attack",

@@ -73,6 +73,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			coeffs = { {}, {}, { 0.011, 0.01 }, {} }
 		},
 		fire_pos = {},
+		fire_size = 0,
 		shape = "Soldier_RPG",
 		shape_dstr = "Soldier_RPG_D"
 	},

@@ -91,7 +91,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_32_V_2B"] = {
 		targeting_data = {
 			char_time = 20.5
 		},
-		type = 0,
+		type = 6,
 		user_name = "GBU-32(V)2/B",
 		warhead = {
 			caliber = 356,
@@ -200,7 +200,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_32_V_2B"] = {
 		targeting_data = {
 			char_time = 20.5
 		},
-		type = 0,
+		type = 6,
 		user_name = "GBU-32(V)2/B",
 		warhead = {
 			caliber = 356,

@@ -995,13 +995,17 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				}, <11>{
 					CLSID = "{UB-32A-24}"
 				}, <12>{
-					CLSID = "{B919B0F4-7C25-455E-9A02-CEA51DB895E3}"
+					CLSID = "{2x9M114_with_adapter}",
+					arg_value = 0.3
 				}, <13>{
-					CLSID = "{2x9M120_Ataka_V}"
+					CLSID = "{2x9M120_Ataka_V_with_adapter}",
+					arg_value = 0.3
 				}, <14>{
-					CLSID = "{2x9M120F_Ataka_V}"
+					CLSID = "{2x9M120F_Ataka_V_with_adapter}",
+					arg_value = 0.3
 				}, <15>{
-					CLSID = "{2x9M220_Ataka_V}"
+					CLSID = "{2x9M220_Ataka_V_with_adapter}",
+					arg_value = 0.3
 				}, <16>{
 					CLSID = "{FC56DF80-9B09-44C5-8976-DCFAFF219062}"
 				}, <17>{
