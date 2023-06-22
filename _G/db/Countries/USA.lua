@@ -2348,6 +2348,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "JF-17"
 				}, {
+					Name = "F-15ESE"
+				}, {
 					Name = "I-16"
 				}, {
 					Name = "M-2000C"

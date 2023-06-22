@@ -1410,6 +1410,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "Christen Eagle II"
 				}, {
+					Name = "F-15ESE"
+				}, {
 					Name = "F-16C_50"
 				}, {
 					Name = "F-5E"

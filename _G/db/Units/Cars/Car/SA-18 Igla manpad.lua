@@ -70,6 +70,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			coeffs = { {}, {}, {}, {} }
 		},
 		fire_pos = {},
+		fire_size = 0,
 		shape = "SA18_manpad2",
 		shape_dstr = "SA18_manpad2_d"
 	}

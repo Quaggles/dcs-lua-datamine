@@ -65,6 +65,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			coeffs = { { 0.1858, 0.0151 }, { 0, 0 }, { 0.1, 0.008 }, { 0, 0 }, { 0.1, 0.00025 } }
 		},
 		fire_pos = {},
+		fire_size = 0,
 		shape = "Stinger_com2",
 		shape_dstr = "Stinger_com2_d"
 	}

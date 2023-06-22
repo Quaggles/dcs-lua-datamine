@@ -510,6 +510,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "ZSU_57_2",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Electric locomotive"
 				}, {
 					Name = "Locomotive"
@@ -1075,6 +1079,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "JF-17"
 				}, {
 					Name = "Christen Eagle II"
+				}, {
+					Name = "F-15ESE"
 				}, {
 					Name = "F-5E"
 				}, {
