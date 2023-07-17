@@ -122,7 +122,7 @@ I'm planning to keep updating this repository as every Open Beta patch releases.
 ## SA342 Gazelle
 |Author|Name|Link|Notes|
 |--|--|--|--|
-|Polychop|**MBDA Mistral**|[_G/rockets/MBDA_Mistral.lua](_G/rockets/MBDA_Mistral.lua)|Not to be confused with "_G/rockets/Mistral.lua" by *(Eagle Dynamics)*|
+|Eagle Dynamics|**Mistral**|[_G/rockets/Mistral.lua](_G/rockets/Mistral.lua)|Changed in 2.8.6.41066 to use the Eagle Dynamics Mistral, previously was the PolyChop Mistral: [_G/rockets/MBDA_Mistral.lua](https://github.com/Quaggles/dcs-lua-datamine/blob/50d406fc23e255df51306098c6427cd3c993cc66/_G/rockets/MBDA_Mistral.lua)|
 
 # Installation of the exporter script
 
