@@ -1052,9 +1052,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				min = 30,
 				modulation = 1
 			}, {
-				max = 151.975,
+				max = 135.995,
 				min = 108,
 				modulation = 0
+			}, {
+				max = 155.995,
+				min = 136,
+				modulation = 2
 			}, {
 				max = 173.975,
 				min = 156,
@@ -1062,7 +1066,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			}, {
 				max = 399.975,
 				min = 225,
-				modulation = 0
+				modulation = 2
 			} }
 	},
 	IR_emission_coeff = 0.53,
@@ -1123,6 +1127,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{CBU-87}"
 				}, {
 					CLSID = "ALQ_184"
+				}, {
+					CLSID = "ALQ_184_Long"
 				}, {
 					CLSID = "{5335D97A-35A5-4643-9D9B-026C75961E52}"
 				}, {
@@ -2060,6 +2066,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "ALQ_184"
 				}, {
+					CLSID = "ALQ_184_Long"
+				}, {
 					CLSID = "LAU-105_2*CATM-9M"
 				}, {
 					CLSID = "LAU-105_1*CATM-9M_R"
@@ -2889,7 +2897,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					max = 155.995,
 					min = 136,
-					modulation = 1
+					modulation = 2
 				}, {
 					max = 173.975,
 					min = 156,
@@ -2897,7 +2905,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					max = 399.975,
 					min = 225,
-					modulation = 0
+					modulation = 2
 				} }
 		}, {
 			channels = { {

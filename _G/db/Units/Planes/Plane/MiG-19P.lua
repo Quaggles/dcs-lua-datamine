@@ -88,7 +88,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[8] = {
 			args = { 265 },
 			critical_damage = 4,
-			deps_cells = { 136 }
+			deps_cells = { 137 }
 		},
 		[9] = {
 			args = { 154 },
@@ -109,12 +109,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[15] = {
 			args = { 267 },
 			critical_damage = 4,
-			deps_cells = { 137 }
+			deps_cells = { 138 }
 		},
 		[16] = {
 			args = { 266 },
 			critical_damage = 4,
-			deps_cells = { 138 }
+			deps_cells = { 139 }
 		},
 		[17] = {
 			args = { 272 },
@@ -350,15 +350,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 151 },
 			critical_damage = 4
 		},
-		[136] = {
+		[137] = {
 			args = { 253 },
 			critical_damage = 3
 		},
-		[137] = {
+		[138] = {
 			args = { 259 },
 			critical_damage = 3
 		},
-		[138] = {
+		[139] = {
 			args = { 255 },
 			critical_damage = 3
 		},
@@ -403,7 +403,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			FLAP_L = 37,
 			FLAP_R = 38,
 			FRONT_GEAR_BOX = 8,
-			FRONT_WHEEL = 136,
+			FRONT_WHEEL = 137,
 			FUEL_TANK_B = 62,
 			FUEL_TANK_F = 61,
 			FUSELAGE_BOTTOM = 82,
@@ -412,7 +412,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			FUSELAGE_TOP = 99,
 			HOOK = 98,
 			LEFT_GEAR_BOX = 15,
-			LEFT_WHEEL = 137,
+			LEFT_WHEEL = 138,
 			NOSE_BOTTOM = 59,
 			NOSE_CENTER = 0,
 			NOSE_LEFT_SIDE = 1,
@@ -423,7 +423,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			PYLON3 = 88,
 			PYLON4 = 89,
 			RIGHT_GEAR_BOX = 16,
-			RIGHT_WHEEL = 138,
+			RIGHT_WHEEL = 139,
 			RUDDER = 53,
 			TAIL = 55,
 			TAIL_BOTTOM = 58,

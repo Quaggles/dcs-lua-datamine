@@ -24,11 +24,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[6] = {
 			args = { 82 },
 			critical_damage = 200,
-			deps_cells = { 0, 3, 4, 5, 59 }
+			deps_cells = { 0, 3, 4, 5, 8 }
 		},
 		[7] = {
 			args = { 249 },
 			critical_damage = 3
+		},
+		[8] = {
+			args = { 148 },
+			critical_damage = 5
 		},
 		[9] = {
 			args = { 154 },
@@ -164,10 +168,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[58] = {
 			args = { 156 },
 			critical_damage = 7
-		},
-		[59] = {
-			args = { 148 },
-			critical_damage = 5
 		},
 		[61] = {
 			args = { 151 },

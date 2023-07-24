@@ -3,110 +3,195 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	AmmoWeight = 150.28,
 	CAS_min = 62,
 	CanopyGeometry = { -0.17364817766693, -0.49640011097796, -0.81915204428899, -0.45315389351832, -0.087155742747658 },
-	Categories = { {
-			CLSID = "{78EFB7A2-FD52-4b57-A6A6-3BF0E1D6555F}",
-			Name = "Interceptor"
-		} },
+	Categories = { "{78EFB7A2-FD52-4b57-A6A6-3BF0E1D6555F}", "Interceptor" },
 	Countermeasures = {
 		ECM = { "AN/ALQ-165" }
 	},
 	Damage = {
 		[0] = {
-			args = { 82 },
-			critical_damage = 5
+			args = { 146 },
+			critical_damage = 3
 		},
 		[3] = {
 			args = { 65 },
-			critical_damage = 10
-		},
-		[8] = {
-			critical_damage = 10
+			critical_damage = 1
 		},
 		[11] = {
-			critical_damage = 3
+			critical_damage = 2
 		},
 		[12] = {
-			critical_damage = 3
+			critical_damage = 2
 		},
-		[15] = {
-			critical_damage = 10
+		[21] = {
+			args = { 230 },
+			critical_damage = 1.5
 		},
-		[16] = {
-			critical_damage = 10
+		[22] = {
+			args = { 220 },
+			critical_damage = 1.5
 		},
-		[17] = {
-			critical_damage = 3
+		[23] = {
+			args = { 223 },
+			critical_damage = 3,
+			deps_cells = { 21, 25 }
 		},
-		[18] = {
-			critical_damage = 3
+		[24] = {
+			args = { 213 },
+			critical_damage = 3,
+			deps_cells = { 22, 26 }
 		},
 		[25] = {
-			args = { 53 },
-			critical_damage = 5
+			args = { 226 },
+			critical_damage = 1
 		},
 		[26] = {
-			args = { 54 },
-			critical_damage = 5
+			args = { 216 },
+			critical_damage = 1
+		},
+		[29] = {
+			args = { 224 },
+			critical_damage = 4,
+			deps_cells = { 23, 33, 21, 25, 37 }
+		},
+		[30] = {
+			args = { 214 },
+			critical_damage = 4,
+			deps_cells = { 24, 34, 22, 26, 38 }
+		},
+		[33] = {
+			args = { 232 },
+			critical_damage = 1.5
+		},
+		[34] = {
+			args = { 222 },
+			critical_damage = 1.5
 		},
 		[35] = {
-			args = { 67 },
-			critical_damage = 10,
-			deps_cells = { 25, 37 }
+			args = { 225 },
+			critical_damage = 5,
+			deps_cells = { 29, 23, 33, 21, 25, 37 }
 		},
 		[36] = {
-			args = { 68 },
-			critical_damage = 10,
-			deps_cells = { 26, 38 }
+			args = { 215 },
+			critical_damage = 5,
+			deps_cells = { 30, 24, 34, 22, 26, 38 }
 		},
 		[37] = {
-			args = { 55 },
-			critical_damage = 4
+			args = { 228 },
+			critical_damage = 2
 		},
 		[38] = {
-			args = { 56 },
+			args = { 218 },
+			critical_damage = 2
+		},
+		[39] = {
+			args = { 244 },
 			critical_damage = 4
 		},
+		[40] = {
+			args = { 241 },
+			critical_damage = 4
+		},
+		[41] = {
+			args = { 245 },
+			critical_damage = 4,
+			deps_cells = { 53 }
+		},
+		[42] = {
+			args = { 242 },
+			critical_damage = 4,
+			deps_cells = { 54 }
+		},
 		[43] = {
-			args = { 61 },
+			args = { 245 },
 			critical_damage = 4,
 			deps_cells = { 53 }
 		},
 		[44] = {
-			args = { 62 },
+			args = { 242 },
 			critical_damage = 4,
 			deps_cells = { 54 }
 		},
 		[47] = {
-			args = { 63 },
-			critical_damage = 5,
-			deps_cells = { 51 }
-		},
-		[48] = {
-			args = { 64 },
-			critical_damage = 5,
-			deps_cells = { 52 }
-		},
-		[51] = {
-			args = { 59 },
+			args = { 236 },
 			critical_damage = 2
 		},
-		[52] = {
-			args = { 60 },
+		[48] = {
+			args = { 234 },
 			critical_damage = 2
 		},
 		[53] = {
-			args = { 57 },
-			critical_damage = 2
+			args = { 248 },
+			critical_damage = 1
 		},
 		[54] = {
-			args = { 58 },
-			critical_damage = 2
+			args = { 247 },
+			critical_damage = 1
 		},
-		[55] = {
-			args = { 81 },
-			critical_damage = 15
+		[82] = {
+			args = { 152 },
+			critical_damage = 4
+		},
+		[83] = {
+			critical_damage = 3
+		},
+		[84] = {
+			critical_damage = 3
+		},
+		[85] = {
+			critical_damage = 3
+		},
+		[99] = {
+			args = { 151 },
+			critical_damage = 4
+		},
+		[137] = {
+			args = { 147 },
+			critical_damage = 6
+		},
+		[138] = {
+			args = { 155 },
+			critical_damage = 4
+		},
+		cell_indices = {
+			CABIN = 137,
+			COCKPIT = 3,
+			ELERON_L = 25,
+			ELERON_R = 26,
+			ENGINE_L = 11,
+			ENGINE_R = 12,
+			FIN_L_BOTTOM = 43,
+			FIN_L_CENTER = 41,
+			FIN_L_TOP = 39,
+			FIN_R_BOTTOM = 44,
+			FIN_R_CENTER = 42,
+			FIN_R_TOP = 40,
+			FLAP_L_IN = 37,
+			FLAP_R_IN = 38,
+			FUSELAGE_BOTTOM = 82,
+			FUSELAGE_TAIL = 138,
+			FUSELAGE_TOP = 99,
+			NOSE_CENTER = 0,
+			RUDDER_L = 53,
+			RUDDER_R = 54,
+			STABILIZER_L_IN = 47,
+			STABILIZER_R_IN = 48,
+			WHEEL_F = 83,
+			WHEEL_L = 84,
+			WHEEL_R = 85,
+			WING_L_CENTER = 29,
+			WING_L_IN = 35,
+			WING_L_OUT = 23,
+			WING_L_PART_IN = 33,
+			WING_L_PART_OUT = 21,
+			WING_R_CENTER = 30,
+			WING_R_IN = 36,
+			WING_R_OUT = 24,
+			WING_R_PART_IN = 34,
+			WING_R_PART_OUT = 22
 		}
 	},
+	DamageParts = { "F-18C-OBLOMOK-WING-R", "F-18C-OBLOMOK-WING-L" },
 	DefaultTask = <1>{
 		Name = "CAP",
 		OldID = "CAP",
@@ -114,7 +199,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	},
 	DisplayName = "F/A-18C",
 	EPLRS = true,
-	EmptyWeight = "11631",
+	EmptyWeight = 11631,
 	Guns = { {
 			aft_gun_mount = false,
 			azimuth_initial = 0,
@@ -655,19 +740,32 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			supply_position = { 0, 0, 0 }
 		} },
 	H_max = 15240,
-	HumanCockpit = false,
 	HumanRadio = {
 		editable = true,
 		frequency = 305,
 		maxFrequency = 399.975,
-		minFrequency = 118,
+		minFrequency = 30,
 		modulation = 0,
 		rangeFrequency = { {
+				max = 87.995,
+				min = 30,
+				modulation = 1
+			}, {
+				max = 135.995,
+				min = 118,
+				modulation = 0
+			}, {
 				max = 155.995,
-				min = 118
+				min = 136,
+				modulation = 2
+			}, {
+				max = 173.995,
+				min = 156,
+				modulation = 1
 			}, {
 				max = 399.975,
-				min = 225
+				min = 225,
+				modulation = 2
 			} }
 	},
 	IR_emission_coeff = 0.73,
@@ -681,10 +779,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	M_max = 23541,
 	M_nominal = 16651,
 	Mach_max = 1.8,
-	MaxFuelWeight = "4900",
-	MaxHeight = "18200",
-	MaxSpeed = "1920",
-	MaxTakeOffWeight = "23541",
+	MaxFuelWeight = 4900,
+	MaxHeight = 15240,
+	MaxSpeed = 1950.12,
+	MaxTakeOffWeight = 23541,
 	Name = "F/A-18C",
 	Ny_max = 7,
 	Ny_max_e = 7.5,
@@ -1218,14 +1316,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	V_take_off = 69,
 	Vy_max = 254,
 	Waypoint_Custom_Panel = true,
-	WingSpan = "11.43",
+	WingSpan = 11.43,
 	WorldID = 53,
-	_file = "Scripts/Database/planes\\FA-18C.lua",
+	_file = "./CoreMods/aircraft/FA-18C/FA-18C.lua",
+	_origin = "F/A-18C AI",
 	air_refuel_receptacle_pos = { 6.731, 0.825, 0.492 },
 	attribute = { 1, 1, 1, "Redacted", "Multirole fighters", "Refuelable", "Datalink", "Link16", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },
 	average_fuel_consumption = 0.85,
 	bank_angle_max = 60,
-	bigParkingRamp = false,
 	brakeshute_name = 0,
 	chaff_flare_dispenser = { {
 			dir = { 0, -1, 0 },
@@ -1267,18 +1365,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	height = 4.66,
 	length = 17.07,
 	lights_data = {
-		lights = {
-			[2] = {
-				lights = { {
-						argument = 209,
-						color = { 255, 255, 200, 0.333 },
-						connector = "MAIN_SPOT_PTR",
-						position = <10>{ 3.279, -0.599, 0 },
-						typename = "spotlight"
-					} },
+		lights = { {
+				lights = {},
 				typename = "collection"
-			},
-			[3] = {
+			}, {
+				lights = {},
+				typename = "collection"
+			}, {
 				lights = { {
 						argument = 192,
 						color = { 1, 1, 1, 0.333 },
@@ -1302,15 +1395,35 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						typename = "omnilight"
 					} },
 				typename = "collection"
-			},
-			[6] = {
+			}, {
+				lights = {},
+				typename = "collection"
+			}, {
+				lights = {},
+				typename = "collection"
+			}, {
 				lights = { {
 						argument = 209,
 						color = { 255, 255, 200, 0.333 },
 						connector = "MAIN_SPOT_PTR",
-						position = <table 10>,
+						position = { 3.279, -0.599, 0 },
 						typename = "spotlight"
 					} },
+				typename = "collection"
+			}, {
+				lights = {},
+				typename = "collection"
+			},
+			[9] = {
+				lights = {},
+				typename = "collection"
+			},
+			[10] = {
+				lights = {},
+				typename = "collection"
+			},
+			[12] = {
+				lights = {},
 				typename = "collection"
 			}
 		},
@@ -1394,189 +1507,170 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			channels = { {
 					connect = true,
 					default = 305,
-					modulation = "AM/FM",
 					name = "Channel 1"
 				}, {
 					default = 264,
-					modulation = "AM/FM",
 					name = "Channel 2"
 				}, {
 					default = 265,
-					modulation = "AM/FM",
 					name = "Channel 3"
 				}, {
 					default = 256,
-					modulation = "AM/FM",
 					name = "Channel 4"
 				}, {
 					default = 254,
-					modulation = "AM/FM",
 					name = "Channel 5"
 				}, {
 					default = 250,
-					modulation = "AM/FM",
 					name = "Channel 6"
 				}, {
 					default = 270,
-					modulation = "AM/FM",
 					name = "Channel 7"
 				}, {
 					default = 257,
-					modulation = "AM/FM",
 					name = "Channel 8"
 				}, {
 					default = 255,
-					modulation = "AM/FM",
 					name = "Channel 9"
 				}, {
 					default = 262,
-					modulation = "AM/FM",
 					name = "Channel 10"
 				}, {
 					default = 259,
-					modulation = "AM/FM",
 					name = "Channel 11"
 				}, {
 					default = 268,
-					modulation = "AM/FM",
 					name = "Channel 12"
 				}, {
 					default = 269,
-					modulation = "AM/FM",
 					name = "Channel 13"
 				}, {
 					default = 260,
-					modulation = "AM/FM",
 					name = "Channel 14"
 				}, {
 					default = 263,
-					modulation = "AM/FM",
 					name = "Channel 15"
 				}, {
 					default = 261,
-					modulation = "AM/FM",
 					name = "Channel 16"
 				}, {
 					default = 267,
-					modulation = "AM/FM",
 					name = "Channel 17"
 				}, {
 					default = 251,
-					modulation = "AM/FM",
 					name = "Channel 18"
 				}, {
 					default = 253,
-					modulation = "AM/FM",
 					name = "Channel 19"
 				}, {
 					default = 266,
-					modulation = "AM/FM",
 					name = "Channel 20"
 				} },
 			name = "COMM 1: ARC-210",
 			range = { {
 					max = 87.995,
-					min = 30
+					min = 30,
+					modulation = 1
+				}, {
+					max = 135.995,
+					min = 118,
+					modulation = 0
+				}, {
+					max = 155.995,
+					min = 136,
+					modulation = 2
 				}, {
 					max = 173.995,
-					min = 108
+					min = 156,
+					modulation = 1
 				}, {
 					max = 399.975,
-					min = 225
+					min = 225,
+					modulation = 2
 				} }
 		}, {
 			channels = { {
-					connect = true,
 					default = 305,
-					modulation = "AM/FM",
 					name = "Channel 1"
 				}, {
 					default = 264,
-					modulation = "AM/FM",
 					name = "Channel 2"
 				}, {
 					default = 265,
-					modulation = "AM/FM",
 					name = "Channel 3"
 				}, {
 					default = 256,
-					modulation = "AM/FM",
 					name = "Channel 4"
 				}, {
 					default = 254,
-					modulation = "AM/FM",
 					name = "Channel 5"
 				}, {
 					default = 250,
-					modulation = "AM/FM",
 					name = "Channel 6"
 				}, {
 					default = 270,
-					modulation = "AM/FM",
 					name = "Channel 7"
 				}, {
 					default = 257,
-					modulation = "AM/FM",
 					name = "Channel 8"
 				}, {
 					default = 255,
-					modulation = "AM/FM",
 					name = "Channel 9"
 				}, {
 					default = 262,
-					modulation = "AM/FM",
 					name = "Channel 10"
 				}, {
 					default = 259,
-					modulation = "AM/FM",
 					name = "Channel 11"
 				}, {
 					default = 268,
-					modulation = "AM/FM",
 					name = "Channel 12"
 				}, {
 					default = 269,
-					modulation = "AM/FM",
 					name = "Channel 13"
 				}, {
 					default = 260,
-					modulation = "AM/FM",
 					name = "Channel 14"
 				}, {
 					default = 263,
-					modulation = "AM/FM",
 					name = "Channel 15"
 				}, {
 					default = 261,
-					modulation = "AM/FM",
 					name = "Channel 16"
 				}, {
 					default = 267,
-					modulation = "AM/FM",
 					name = "Channel 17"
 				}, {
 					default = 251,
-					modulation = "AM/FM",
 					name = "Channel 18"
 				}, {
 					default = 253,
-					modulation = "AM/FM",
 					name = "Channel 19"
 				}, {
 					default = 266,
-					modulation = "AM/FM",
 					name = "Channel 20"
 				} },
 			name = "COMM 2: ARC-210",
 			range = { {
 					max = 87.995,
-					min = 30
+					min = 30,
+					modulation = 1
+				}, {
+					max = 135.995,
+					min = 118,
+					modulation = 0
+				}, {
+					max = 155.995,
+					min = 136,
+					modulation = 2
 				}, {
 					max = 173.995,
-					min = 108
+					min = 156,
+					modulation = 1
 				}, {
 					max = 399.975,
-					min = 225
+					min = 225,
+					modulation = 2
 				} }
 		} },
 	passivCounterm = {
@@ -1595,6 +1689,24 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	},
 	radar_can_see_ground = true,
 	range = 1520,
+	shape_table_data = { {
+			classname = "lLandPlane",
+			desrt = "f-18c-oblomok",
+			file = "f-18c",
+			fire = { 300, 2 },
+			index = "Redacted",
+			life = 20,
+			name = "f-18c",
+			positioning = "BYNORMAL",
+			username = "f-18c",
+			vis = 3
+		}, {
+			classname = "lLandPlane",
+			file = "f-18c-oblomok",
+			fire = { 0, 1 },
+			name = "f-18c-oblomok",
+			positioning = "BYNORMAL"
+		} },
 	stores_number = 10,
 	swapped_names = true,
 	tand_gear_max = 3.73,

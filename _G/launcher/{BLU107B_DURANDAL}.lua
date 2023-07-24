@@ -12,5 +12,5 @@ _G["launcher"]["{BLU107B_DURANDAL}"] = {
 	attribute = { 4, 5, 37, "Redacted" },
 	category = 1,
 	displayName = "BLU-107/B Durandal - 219kg Concrete Piercing Chute Retarded Bomb w/Booster",
-	ejectImpulse = 5
+	ejectImpulse = 1095
 }

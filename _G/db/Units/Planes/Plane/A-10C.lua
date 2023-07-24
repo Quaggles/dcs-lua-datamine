@@ -1120,6 +1120,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "ALQ_184"
 				}, {
+					CLSID = "ALQ_184_Long"
+				}, {
 					CLSID = "{5335D97A-35A5-4643-9D9B-026C75961E52}"
 				}, {
 					CLSID = "LAU-105_AIS_ASQ_T50_L"
@@ -2000,6 +2002,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "ALQ_184"
 				}, {
+					CLSID = "ALQ_184_Long"
+				}, {
 					CLSID = "LAU-105_2*CATM-9M"
 				}, {
 					CLSID = "LAU-105_1*CATM-9M_R"
@@ -2716,88 +2720,88 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			channels = { {
 					default = 127.5,
 					modulation = "AM",
-					name = "Channel 0"
+					name = "Channel 1"
 				}, {
 					default = 135,
 					modulation = "AM",
-					name = "Channel 1"
+					name = "Channel 2"
 				}, {
 					default = 136,
 					modulation = "AM",
-					name = "Channel 2"
+					name = "Channel 3"
 				}, {
 					default = 127,
 					modulation = "AM",
-					name = "Channel 3"
+					name = "Channel 4"
 				}, {
 					default = 125,
 					modulation = "AM",
-					name = "Channel 4"
+					name = "Channel 5"
 				}, {
 					default = 121,
 					modulation = "AM",
-					name = "Channel 5"
+					name = "Channel 6"
 				}, {
 					default = 141,
 					modulation = "AM",
-					name = "Channel 6"
+					name = "Channel 7"
 				}, {
 					default = 128,
 					modulation = "AM",
-					name = "Channel 7"
+					name = "Channel 8"
 				}, {
 					default = 126,
 					modulation = "AM",
-					name = "Channel 8"
+					name = "Channel 9"
 				}, {
 					default = 133,
 					modulation = "AM",
-					name = "Channel 9"
+					name = "Channel 10"
 				}, {
 					default = 130,
 					modulation = "AM",
-					name = "Channel 10"
+					name = "Channel 11"
 				}, {
 					default = 129,
 					modulation = "AM",
-					name = "Channel 11"
+					name = "Channel 12"
 				}, {
 					default = 123,
 					modulation = "AM",
-					name = "Channel 12"
+					name = "Channel 13"
 				}, {
 					default = 131,
 					modulation = "AM",
-					name = "Channel 13"
+					name = "Channel 14"
 				}, {
 					default = 134,
 					modulation = "AM",
-					name = "Channel 14"
+					name = "Channel 15"
 				}, {
 					default = 132,
 					modulation = "AM",
-					name = "Channel 15"
+					name = "Channel 16"
 				}, {
 					default = 138,
 					modulation = "AM",
-					name = "Channel 16"
+					name = "Channel 17"
 				}, {
 					default = 122,
 					modulation = "AM",
-					name = "Channel 17"
+					name = "Channel 18"
 				}, {
 					default = 124,
 					modulation = "AM",
-					name = "Channel 18"
+					name = "Channel 19"
 				}, {
 					default = 137,
 					modulation = "AM",
-					name = "Channel 19"
+					name = "Channel 20"
 				} },
 			name = "VHF AM: ARC-186",
 			range = {
-				max = 155.995,
-				min = 118
+				max = 151.975,
+				min = 116
 			}
 		}, {
 			channels = { {

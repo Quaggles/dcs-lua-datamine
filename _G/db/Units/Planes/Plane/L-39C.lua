@@ -97,6 +97,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 266 },
 			critical_damage = 3
 		},
+		[17] = {
+			critical_damage = 3
+		},
+		[18] = {
+			critical_damage = 3
+		},
 		[19] = {
 			args = { 185 },
 			critical_damage = 5
@@ -834,7 +840,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			pilot_name = 307,
 			pos = { 1.765, 0.549, 0 },
 			role = "instructor",
-			role_display_name = "Instructor pilot"
+			role_display_name = "Instructor"
 		} },
 	defFuelRatio = 0.84,
 	detection_range_max = 0,

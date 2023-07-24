@@ -68,7 +68,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	ChaffDefault = 0,
 	Damage = { {
 			args = { -1 },
-			children = { 147, 148 },
+			children = { 148, 149 },
 			construction = {
 				durability = 2.54,
 				skin = "Plywood"
@@ -115,7 +115,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				} }
 		}, {
 			args = { -1 },
-			children = { 140, 146, 149 },
+			children = { 141, 147, 150 },
 			construction = {
 				durability = 2.34,
 				skin = "Plywood"
@@ -149,7 +149,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				} }
 		}, {
 			args = { -1 },
-			children = { 141 },
+			children = { 142 },
 			construction = {
 				durability = 0.86,
 				skin = "Glass",
@@ -234,7 +234,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[10] = {
 			args = { -1 },
-			children = { 123, 143 },
+			children = { 123, 144 },
 			construction = {
 				durability = 3.56,
 				skin = "Plywood"
@@ -761,7 +761,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[59] = {
 			args = { -1 },
-			children = { 1, 2, 150, 0, 82 },
+			children = { 1, 2, 151, 0, 82 },
 			construction = {
 				durability = 1.78,
 				skin = "Plywood"
@@ -980,7 +980,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[82] = {
 			args = { -1 },
-			children = { 9, 10, 99, 144, 145, 58 },
+			children = { 9, 10, 99, 145, 146, 58 },
 			construction = {
 				durability = 2.1,
 				skin = "Plywood"
@@ -1058,7 +1058,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[99] = {
 			args = { 147 },
-			children = { 142 },
+			children = { 143 },
 			construction = {
 				durability = 3.56,
 				skin = "Plywood"
@@ -1404,7 +1404,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[113] = {
 			args = { -1, 167, 170, 171 },
-			children = { 114, 103, 136, 137, 15 },
+			children = { 114, 103, 137, 138, 15 },
 			construction = {
 				durability = 2.97,
 				skin = "Plywood",
@@ -1625,7 +1625,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[125] = {
 			args = { -1, 161, 164, 165 },
-			children = { 126, 104, 138, 139, 16 },
+			children = { 126, 104, 139, 140, 16 },
 			construction = {
 				durability = 2.97,
 				skin = "Plywood",
@@ -1784,7 +1784,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.004
 				} }
 		},
-		[136] = {
+		[137] = {
 			args = { -1 },
 			construction = {
 				durability = 0.51,
@@ -1836,17 +1836,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.004
 				} }
 		},
-		[137] = {
-			args = { -1 },
-			construction = {
-				durability = 0.51,
-				skin = "Aluminum",
-				spar = "Truss"
-			},
-			critical_damage = 1,
-			damage_boundary = 0.01,
-			droppable = false
-		},
 		[138] = {
 			args = { -1 },
 			construction = {
@@ -1872,6 +1861,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[140] = {
 			args = { -1 },
 			construction = {
+				durability = 0.51,
+				skin = "Aluminum",
+				spar = "Truss"
+			},
+			critical_damage = 1,
+			damage_boundary = 0.01,
+			droppable = false
+		},
+		[141] = {
+			args = { -1 },
+			construction = {
 				durability = 0.46,
 				skin = "Aluminum",
 				spar = "Truss"
@@ -1891,7 +1891,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.006
 				} }
 		},
-		[141] = {
+		[142] = {
 			args = { 118 },
 			construction = {
 				durability = 0.35,
@@ -1902,7 +1902,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			damage_boundary = 0.01,
 			droppable = true
 		},
-		[142] = {
+		[143] = {
 			args = { -1 },
 			construction = {
 				durability = 0.81,
@@ -1913,7 +1913,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			damage_boundary = 0.01,
 			droppable = true
 		},
-		[143] = {
+		[144] = {
 			args = { -1 },
 			construction = {
 				durability = 1.24,
@@ -1924,7 +1924,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			damage_boundary = 0.01,
 			droppable = true
 		},
-		[144] = {
+		[145] = {
 			args = { -1 },
 			construction = {
 				durability = 1.86,
@@ -1951,7 +1951,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.006
 				} }
 		},
-		[145] = {
+		[146] = {
 			args = { -1 },
 			construction = {
 				durability = 1.86,
@@ -1978,7 +1978,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.006
 				} }
 		},
-		[146] = {
+		[147] = {
 			args = { -1 },
 			construction = {
 				durability = 0.79,
@@ -2005,7 +2005,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.006
 				} }
 		},
-		[147] = {
+		[148] = {
 			args = { -1 },
 			construction = {
 				durability = 0.79,
@@ -2032,7 +2032,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.006
 				} }
 		},
-		[148] = {
+		[149] = {
 			args = { -1 },
 			construction = {
 				durability = 0.35,
@@ -2054,7 +2054,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.006
 				} }
 		},
-		[149] = {
+		[150] = {
 			args = { -1 },
 			construction = {
 				durability = 0.35,
@@ -2076,7 +2076,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.006
 				} }
 		},
-		[150] = {
+		[151] = {
 			args = { -1 },
 			children = { 3 },
 			construction = {
@@ -2133,10 +2133,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			BLADE_6_IN = 79,
 			BLADE_6_OUT = 81,
 			COCKPIT = 3,
-			COWLING_1 = 136,
-			COWLING_2 = 137,
-			COWLING_3 = 138,
-			COWLING_4 = 139,
+			COWLING_1 = 137,
+			COWLING_2 = 138,
+			COWLING_3 = 139,
+			COWLING_4 = 140,
 			ELEVATOR_L_IN = 51,
 			ELEVATOR_L_OUT = 49,
 			ELEVATOR_R_IN = 52,
@@ -2155,21 +2155,21 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			FUSELAGE_TOP = 99,
 			GEAR_L = 15,
 			GEAR_R = 16,
-			HATCH_01 = 140,
-			HATCH_02 = 141,
-			HATCH_03 = 142,
-			HATCH_04 = 143,
-			HATCH_05 = 144,
-			HATCH_06 = 145,
-			HATCH_07 = 146,
-			HATCH_08 = 147,
-			HATCH_09 = 148,
-			HATCH_10 = 149,
+			HATCH_01 = 141,
+			HATCH_02 = 142,
+			HATCH_03 = 143,
+			HATCH_04 = 144,
+			HATCH_05 = 145,
+			HATCH_06 = 146,
+			HATCH_07 = 147,
+			HATCH_08 = 148,
+			HATCH_09 = 149,
+			HATCH_10 = 150,
 			NOSE_BOTTOM = 59,
 			NOSE_CENTER = 0,
 			NOSE_LEFT_SIDE = 1,
 			NOSE_RIGHT_SIDE = 2,
-			NOSE_TOP = 150,
+			NOSE_TOP = 151,
 			RUDDER = 53,
 			RUDDER_R = 54,
 			STABILIZER_L_IN = 47,

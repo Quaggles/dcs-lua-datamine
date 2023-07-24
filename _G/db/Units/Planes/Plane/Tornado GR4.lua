@@ -7,21 +7,45 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Categories = {},
 	Damage = {
 		[0] = {
-			args = { 82 },
-			critical_damage = 5
+			args = { 146 },
+			critical_damage = 2
 		},
 		[3] = {
 			args = { 65 },
 			critical_damage = 10
 		},
+		[4] = {
+			args = { 150 },
+			critical_damage = 3
+		},
+		[5] = {
+			args = { 149 },
+			critical_damage = 3
+		},
 		[8] = {
-			critical_damage = 10
+			critical_damage = 5
+		},
+		[9] = {
+			args = { 154 },
+			critical_damage = 20
+		},
+		[10] = {
+			args = { 153 },
+			critical_damage = 20
 		},
 		[11] = {
+			args = { 169 },
 			critical_damage = 3
 		},
 		[12] = {
+			args = { 163 },
 			critical_damage = 3
+		},
+		[13] = {
+			critical_damage = 4
+		},
+		[14] = {
+			critical_damage = 4
 		},
 		[15] = {
 			critical_damage = 10
@@ -29,77 +53,88 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[16] = {
 			critical_damage = 10
 		},
-		[17] = {
-			critical_damage = 3
+		[23] = {
+			args = { 223 },
+			critical_damage = 8,
+			deps_cells = { 25 }
 		},
-		[18] = {
-			critical_damage = 3
+		[24] = {
+			args = { 213 },
+			critical_damage = 8,
+			deps_cells = { 26 }
 		},
 		[25] = {
-			args = { 53 },
-			critical_damage = 5
+			critical_damage = 2
 		},
 		[26] = {
-			args = { 54 },
-			critical_damage = 5
+			args = { 216 },
+			critical_damage = 2
+		},
+		[29] = {
+			args = { 224 },
+			critical_damage = 8,
+			deps_cells = { 23, 25 }
+		},
+		[30] = {
+			args = { 214 },
+			critical_damage = 8,
+			deps_cells = { 24, 26 }
+		},
+		[31] = {
+			args = { 228 },
+			critical_damage = 4
+		},
+		[32] = {
+			args = { 218 },
+			critical_damage = 4
 		},
 		[35] = {
-			args = { 67 },
+			args = { 225 },
 			critical_damage = 10,
-			deps_cells = { 25, 37 }
+			deps_cells = { 29, 37 }
 		},
 		[36] = {
-			args = { 68 },
+			args = { 215 },
 			critical_damage = 10,
-			deps_cells = { 26, 38 }
+			deps_cells = { 30, 38 }
 		},
 		[37] = {
-			args = { 55 },
-			critical_damage = 4
+			args = { 229 },
+			critical_damage = 3
 		},
 		[38] = {
-			args = { 56 },
+			args = { 219 },
+			critical_damage = 3
+		},
+		[40] = {
+			args = { 242 },
 			critical_damage = 4
 		},
-		[43] = {
-			args = { 61 },
-			critical_damage = 4,
-			deps_cells = { 53 }
+		[42] = {
+			args = { 241 },
+			critical_damage = 3
 		},
-		[44] = {
-			args = { 62 },
-			critical_damage = 4,
-			deps_cells = { 54 }
+		[45] = {
+			args = { 235 },
+			critical_damage = 3
+		},
+		[46] = {
+			args = { 237 },
+			critical_damage = 3
 		},
 		[47] = {
-			args = { 63 },
+			args = { 236 },
 			critical_damage = 5,
-			deps_cells = { 51 }
+			deps_cells = { 45 }
 		},
 		[48] = {
-			args = { 64 },
+			args = { 238 },
 			critical_damage = 5,
-			deps_cells = { 52 }
-		},
-		[51] = {
-			args = { 59 },
-			critical_damage = 2
-		},
-		[52] = {
-			args = { 60 },
-			critical_damage = 2
-		},
-		[53] = {
-			args = { 57 },
-			critical_damage = 2
+			deps_cells = { 46 }
 		},
 		[54] = {
-			args = { 58 },
-			critical_damage = 2
-		},
-		[55] = {
-			args = { 81 },
-			critical_damage = 15
+			args = { 247 },
+			critical_damage = 3
 		}
 	},
 	DamageParts = { "TORNADO-OBLOMOK-WING-R", "TORNADO-OBLOMOK-WING-L" },

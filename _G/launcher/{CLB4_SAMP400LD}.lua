@@ -2,20 +2,21 @@ _G["launcher"]["{CLB4_SAMP400LD}"] = {
 	CLSID = "{CLB4_SAMP400LD}",
 	Count = 4,
 	Cx_pil = 0.00124,
-	Elements = { {
-			IsAdapter = true,
-			ShapeName = "CLB_4"
-		}, {
-			Position = { 1.002, -0.071, -0.275 },
+	Elements = { "_G/Pylons/CLB_4.lua", {
+			Position = { -1.505, -0.054, -0.285 },
+			Rotation = <1>{ 0, 0, -1 },
 			ShapeName = "SAMP_400FB"
 		}, {
-			Position = { -1.391, -0.045, -0.275 },
+			Position = { -1.505, -0.054, 0.285 },
+			Rotation = <table 1>,
 			ShapeName = "SAMP_400FB"
 		}, {
-			Position = { 1.002, -0.071, 0.275 },
+			Position = { 1.065, -0.094, -0.285 },
+			Rotation = <table 1>,
 			ShapeName = "SAMP_400FB"
 		}, {
-			Position = { -1.391, -0.045, 0.275 },
+			Position = { 1.065, -0.094, 0.285 },
+			Rotation = <table 1>,
 			ShapeName = "SAMP_400FB"
 		} },
 	Picture = "mk83.png",
@@ -26,6 +27,7 @@ _G["launcher"]["{CLB4_SAMP400LD}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "CLB 4 - 4 x SAMP-400 - 400 kg GP Bomb LD",
+	name = "{CLB4_SAMP400LD}",
 	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

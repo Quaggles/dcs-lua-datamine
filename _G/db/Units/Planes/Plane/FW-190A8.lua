@@ -865,7 +865,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[82] = {
 			args = { 152 },
-			children = { 11, 12, 7, 136, 137, 138, 139, 140, 141, 142, 143, 4, 5, 3, 35, 36 },
+			children = { 11, 12, 7, 137, 138, 139, 140, 141, 142, 143, 144, 4, 5, 3, 35, 36 },
 			construction = {
 				durability = 3.263,
 				skin = "Aluminum"
@@ -1004,7 +1004,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			damage_boundary = 0.25,
 			droppable = false
 		},
-		[136] = {
+		[137] = {
 			args = { 296 },
 			construction = {
 				durability = 0.544,
@@ -1023,7 +1023,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.004
 				} }
 		},
-		[137] = {
+		[138] = {
 			args = { 297 },
 			construction = {
 				durability = 0.272,
@@ -1039,7 +1039,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.004
 				} }
 		},
-		[138] = {
+		[139] = {
 			args = { 298 },
 			construction = {
 				durability = 0.544,
@@ -1058,7 +1058,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.004
 				} }
 		},
-		[139] = {
+		[140] = {
 			args = { 300 },
 			construction = {
 				durability = 0.544,
@@ -1077,7 +1077,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.004
 				} }
 		},
-		[140] = {
+		[141] = {
 			args = { 302 },
 			construction = {
 				durability = 0.544,
@@ -1096,7 +1096,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.004
 				} }
 		},
-		[141] = {
+		[142] = {
 			args = { 303 },
 			construction = {
 				durability = 0.272,
@@ -1112,7 +1112,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.004
 				} }
 		},
-		[142] = {
+		[143] = {
 			args = { 304 },
 			construction = {
 				durability = 0.544,
@@ -1131,7 +1131,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.004
 				} }
 		},
-		[143] = {
+		[144] = {
 			args = { 273 },
 			children = { 63 },
 			construction = {
@@ -1280,16 +1280,16 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			CABIN_LEFT_SIDE = 4,
 			CABIN_RIGHT_SIDE = 5,
 			COCKPIT = 3,
-			COWLING_1 = 136,
-			COWLING_2 = 137,
-			COWLING_3 = 138,
-			COWLING_4 = 139,
-			COWLING_5 = 140,
-			COWLING_6 = 141,
-			COWLING_7 = 142,
+			COWLING_1 = 137,
+			COWLING_2 = 138,
+			COWLING_3 = 139,
+			COWLING_4 = 140,
+			COWLING_5 = 141,
+			COWLING_6 = 142,
+			COWLING_7 = 143,
 			ELEVATOR_L_OUT = 49,
 			ELEVATOR_R_OUT = 50,
-			ENGINE_CENTER = 143,
+			ENGINE_CENTER = 144,
 			ENGINE_L = 11,
 			ENGINE_R = 12,
 			FIN_L_BOTTOM = 43,

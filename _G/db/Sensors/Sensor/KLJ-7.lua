@@ -6,6 +6,7 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	air_search = {
 		RCS = 5,
+		TWS_max_targets = 10,
 		centered_scan_volume = {
 			azimuth_sector = 30,
 			elevation_sector = 30
@@ -18,6 +19,7 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 			}
 		},
 		lock_on_distance_coeff = 0.85,
+		multiple_targets_tracking = true,
 		velocity_limits = {
 			radial_velocity_min = 27.777777777778,
 			relative_radial_velocity_min = 27.777777777778

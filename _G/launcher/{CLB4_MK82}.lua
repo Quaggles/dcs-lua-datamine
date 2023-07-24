@@ -6,16 +6,20 @@ _G["launcher"]["{CLB4_MK82}"] = {
 			IsAdapter = true,
 			ShapeName = "CLB_4"
 		}, {
-			Position = { 1.242, -0.045, -0.275 },
+			Position = { -1.501, -0.042, -0.285 },
+			Rotation = <1>{ 0, 0, -1 },
 			ShapeName = "MK-82"
 		}, {
-			Position = { -1.471, -0.045, -0.275 },
+			Position = { -1.501, -0.042, 0.285 },
+			Rotation = <table 1>,
 			ShapeName = "MK-82"
 		}, {
-			Position = { 1.242, -0.045, 0.275 },
+			Position = { 1.069, -0.077, -0.285 },
+			Rotation = <table 1>,
 			ShapeName = "MK-82"
 		}, {
-			Position = { -1.471, -0.045, 0.275 },
+			Position = { 1.069, -0.077, 0.285 },
+			Rotation = <table 1>,
 			ShapeName = "MK-82"
 		} },
 	Picture = "mk82.png",
@@ -26,6 +30,7 @@ _G["launcher"]["{CLB4_MK82}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "CLB 4 - 4 x Mk-82 - 500lb GP Bomb LD",
+	name = "{CLB4_MK82}",
 	shape_table_data = {},
 	wsTypeOfWeapon = "weapons.bombs.Mk_82"
 }

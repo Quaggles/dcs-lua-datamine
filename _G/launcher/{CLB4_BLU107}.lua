@@ -6,16 +6,20 @@ _G["launcher"]["{CLB4_BLU107}"] = {
 			IsAdapter = true,
 			ShapeName = "CLB_4"
 		}, {
-			Position = { 1.242, -0.045, -0.275 },
+			Position = { -1.5, -0.045, -0.285 },
+			Rotation = <1>{ 0, 0, -1 },
 			ShapeName = "Durandal"
 		}, {
-			Position = { -1.471, -0.045, -0.275 },
+			Position = { -1.5, -0.045, 0.285 },
+			Rotation = <table 1>,
 			ShapeName = "Durandal"
 		}, {
-			Position = { 1.242, -0.045, 0.275 },
+			Position = { 1.05, -0.075, -0.285 },
+			Rotation = <table 1>,
 			ShapeName = "Durandal"
 		}, {
-			Position = { -1.471, -0.045, 0.275 },
+			Position = { 1.05, -0.075, 0.285 },
+			Rotation = <table 1>,
 			ShapeName = "Durandal"
 		} },
 	Picture = "blu107.png",
@@ -26,6 +30,7 @@ _G["launcher"]["{CLB4_BLU107}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "CLB 4 - 4 x BLU-107/B Durandal - 219kg Concrete Piercing Chute Retarded Bomb w/Booster",
+	name = "{CLB4_BLU107}",
 	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 5, 37, "Redacted" }
 }

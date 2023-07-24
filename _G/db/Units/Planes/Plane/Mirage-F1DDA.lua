@@ -2105,7 +2105,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			pilot_name = 329,
 			pos = { 1.525, 0.221, -0.005 },
 			role = "instructor",
-			role_display_name = "Instructor pilot"
+			role_display_name = "Instructor"
 		} },
 	crew_size = 2,
 	detection_range_max = 70,

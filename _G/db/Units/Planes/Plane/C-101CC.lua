@@ -1351,7 +1351,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			pilot_name = 279,
 			pos = { 1.681, 0.339, 0, 5 },
 			role = "instructor",
-			role_display_name = "Instructor pilot"
+			role_display_name = "Instructor"
 		} },
 	crew_size = 2,
 	defFuelRatio = 0.84,

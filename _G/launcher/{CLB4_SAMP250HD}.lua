@@ -6,16 +6,20 @@ _G["launcher"]["{CLB4_SAMP250HD}"] = {
 			IsAdapter = true,
 			ShapeName = "CLB_4"
 		}, {
-			Position = { 1.002, -0.071, -0.275 },
+			Position = { -1.502, -0.044, -0.285 },
+			Rotation = <1>{ 0, 0, -1 },
 			ShapeName = "SAMP_250R"
 		}, {
-			Position = { -1.391, -0.045, -0.275 },
+			Position = { -1.502, -0.044, 0.285 },
+			Rotation = <table 1>,
 			ShapeName = "SAMP_250R"
 		}, {
-			Position = { 1.002, -0.071, 0.275 },
+			Position = { 1.068, -0.084, -0.285 },
+			Rotation = <table 1>,
 			ShapeName = "SAMP_250R"
 		}, {
-			Position = { -1.391, -0.045, 0.275 },
+			Position = { 1.068, -0.084, 0.285 },
+			Rotation = <table 1>,
 			ShapeName = "SAMP_250R"
 		} },
 	Picture = "mk82AIR.png",
@@ -26,6 +30,7 @@ _G["launcher"]["{CLB4_SAMP250HD}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "CLB 4 - 4 x SAMP-250 - 250 kg GP Chute Retarded Bomb HD",
+	name = "{CLB4_SAMP250HD}",
 	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

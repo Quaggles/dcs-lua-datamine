@@ -82,22 +82,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[29] = {
 			args = { 224 },
 			critical_damage = 4,
-			deps_cells = { 23, 25, 27, 145 }
+			deps_cells = { 23, 25, 27, 146 }
 		},
 		[30] = {
 			args = { 214 },
 			critical_damage = 4,
-			deps_cells = { 24, 26, 28, 149 }
+			deps_cells = { 24, 26, 28, 150 }
 		},
 		[35] = {
 			args = { 225 },
 			critical_damage = 5,
-			deps_cells = { 29, 37, 146 }
+			deps_cells = { 29, 37, 147 }
 		},
 		[36] = {
 			args = { 215 },
 			critical_damage = 5,
-			deps_cells = { 30, 38, 148 }
+			deps_cells = { 30, 38, 149 }
 		},
 		[37] = {
 			args = { 227 },
@@ -158,44 +158,41 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[98] = {
 			critical_damage = 2
 		},
-		[136] = {
+		[137] = {
 			args = { 158 },
 			critical_damage = 3
 		},
-		[137] = {
+		[138] = {
 			args = { 157 },
 			critical_damage = 3
 		},
-		[138] = {
+		[139] = {
 			args = { 267 },
 			critical_damage = 3
 		},
-		[139] = {
+		[140] = {
 			args = { 169 },
 			critical_damage = 3
 		},
-		[140] = {
+		[141] = {
 			args = { 163 },
 			critical_damage = 3
 		},
-		[141] = {
+		[142] = {
 			args = { 168 },
 			critical_damage = 3
 		},
-		[142] = {
+		[143] = {
 			args = { 162 },
 			critical_damage = 3
 		},
-		[143] = {
+		[144] = {
 			args = { 166 },
 			critical_damage = 3
 		},
-		[144] = {
+		[145] = {
 			args = { 160 },
 			critical_damage = 3
-		},
-		[145] = {
-			critical_damage = 2
 		},
 		[146] = {
 			critical_damage = 2
@@ -210,6 +207,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 2
 		},
 		[150] = {
+			critical_damage = 2
+		},
+		[151] = {
 			args = { 266 },
 			critical_damage = 3
 		},
@@ -229,29 +229,29 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			FLAP_R_IN = 38,
 			FRONT_GEAR_BOX = 8,
 			FUSELAGE_BOTTOM = 82,
-			FUSELAGE_BOTTOM_LEFT = 136,
-			FUSELAGE_BOTTOM_RIGHT = 137,
+			FUSELAGE_BOTTOM_LEFT = 137,
+			FUSELAGE_BOTTOM_RIGHT = 138,
 			FUSELAGE_LEFT_SIDE = 9,
 			FUSELAGE_RIGHT_SIDE = 10,
 			HOOK = 98,
-			L_GEAR_BOX = 138,
-			MTG_BOTTOM_LEFT = 139,
-			MTG_BOTTOM_RIGHT = 140,
-			MTG_CENTER_L = 141,
-			MTG_CENTER_R = 142,
-			MTG_LEFT_SIDE = 143,
-			MTG_RIGHT_SIDE = 144,
+			L_GEAR_BOX = 139,
+			MTG_BOTTOM_LEFT = 140,
+			MTG_BOTTOM_RIGHT = 141,
+			MTG_CENTER_L = 142,
+			MTG_CENTER_R = 143,
+			MTG_LEFT_SIDE = 144,
+			MTG_RIGHT_SIDE = 145,
 			NOSE_BOTTOM = 59,
 			NOSE_CENTER = 0,
 			NOSE_LEFT_SIDE = 1,
 			NOSE_RIGHT_SIDE = 2,
-			PYLON_02 = 145,
-			PYLON_03 = 146,
-			PYLON_04 = 147,
-			PYLON_05 = 148,
-			PYLON_06 = 149,
+			PYLON_02 = 146,
+			PYLON_03 = 147,
+			PYLON_04 = 148,
+			PYLON_05 = 149,
+			PYLON_06 = 150,
 			RUDDER = 53,
-			R_GEAR_BOX = 150,
+			R_GEAR_BOX = 151,
 			STABILIZER_L_IN = 47,
 			STABILIZER_R_IN = 48,
 			TAIL = 55,

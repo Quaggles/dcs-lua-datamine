@@ -987,45 +987,54 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		}, {
 			DisplayName = "1",
 			Launchers = { <8>{
-					CLSID = "B_8V20A_CM"
+					CLSID = "B_8V20A_CM",
+					arg_value = 0.1
 				}, <9>{
-					CLSID = "B_8V20A_OFP2"
+					CLSID = "B_8V20A_OFP2",
+					arg_value = 0.1
 				}, <10>{
-					CLSID = "B_8V20A_OM"
+					CLSID = "B_8V20A_OM",
+					arg_value = 0.1
 				}, <11>{
-					CLSID = "{UB-32A-24}"
+					CLSID = "{UB-32A-24}",
+					arg_value = 0.1
 				}, <12>{
-					CLSID = "{2x9M114_with_adapter}",
-					arg_value = 0.3
+					CLSID = "{2x9M114_with_adapter}"
 				}, <13>{
-					CLSID = "{2x9M120_Ataka_V_with_adapter}",
-					arg_value = 0.3
+					CLSID = "{2x9M120_Ataka_V_with_adapter}"
 				}, <14>{
-					CLSID = "{2x9M120F_Ataka_V_with_adapter}",
-					arg_value = 0.3
+					CLSID = "{2x9M120F_Ataka_V_with_adapter}"
 				}, <15>{
-					CLSID = "{2x9M220_Ataka_V_with_adapter}",
-					arg_value = 0.3
+					CLSID = "{2x9M220_Ataka_V_with_adapter}"
 				}, <16>{
-					CLSID = "{FC56DF80-9B09-44C5-8976-DCFAFF219062}"
+					CLSID = "{FC56DF80-9B09-44C5-8976-DCFAFF219062}",
+					arg_value = 0.1
 				}, <17>{
-					CLSID = "{PTB_450}"
+					CLSID = "{PTB_450}",
+					arg_value = 0
 				}, <18>{
-					CLSID = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}"
+					CLSID = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}",
+					arg_value = 0.1
 				}, <19>{
-					CLSID = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}"
+					CLSID = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}",
+					arg_value = 0
 				}, <20>{
-					CLSID = "{FAB_250_M62}"
+					CLSID = "{FAB_250_M62}",
+					arg_value = 0
 				}, <21>{
-					CLSID = "{FB3CE165-BF07-4979-887C-92B87F13276B}"
+					CLSID = "{FB3CE165-BF07-4979-887C-92B87F13276B}",
+					arg_value = 0
 				}, <22>{
-					CLSID = "{4203753F-8198-4E85-9924-6F8FF679F9FF}"
+					CLSID = "{4203753F-8198-4E85-9924-6F8FF679F9FF}",
+					arg_value = 0
 				}, <23>{
-					CLSID = "{RBK_250_275_AO_1SCH}"
+					CLSID = "{RBK_250_275_AO_1SCH}",
+					arg_value = 0
 				}, <24>{
 					CLSID = "{APU_68_S-24}"
 				}, <25>{
-					CLSID = "GUV_VOG"
+					CLSID = "GUV_VOG",
+					arg_value = 0.1
 				}, <26>{
 					CLSID = "{APU-60-1_R_60M}"
 				}, {
@@ -1038,6 +1047,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			Y = -0.191,
 			Z = -2.282,
 			arg = 309,
+			arg_value = 0.3,
 			connector = "hardpoint-2",
 			use_full_connector_position = true
 		}, {
@@ -1045,58 +1055,75 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			FiZ = 0,
 			Launchers = { {
 					CLSID = "B_8V20A_CM",
+					arg_value = 0.1,
 					forbidden = { {
 							loadout = { "KORD_12_7_MI24_L" },
 							station = 7
 						} }
 				}, {
 					CLSID = "B_8V20A_OFP2",
+					arg_value = 0.1,
 					forbidden = { {
 							loadout = { "KORD_12_7_MI24_L" },
 							station = 7
 						} }
 				}, {
 					CLSID = "B_8V20A_OM",
+					arg_value = 0.1,
 					forbidden = { {
 							loadout = { "KORD_12_7_MI24_L" },
 							station = 7
 						} }
 				}, {
 					CLSID = "{UB-32A-24}",
+					arg_value = 0.1,
 					forbidden = { {
 							loadout = { "KORD_12_7_MI24_L" },
 							station = 7
 						} }
 				}, {
 					CLSID = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}",
+					arg_value = 0.1,
 					forbidden = { {
 							loadout = { "KORD_12_7_MI24_L" },
 							station = 7
 						} }
 				}, {
-					CLSID = "{FB3CE165-BF07-4979-887C-92B87F13276B}"
+					CLSID = "{FB3CE165-BF07-4979-887C-92B87F13276B}",
+					arg_value = 0
 				}, {
-					CLSID = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}"
+					CLSID = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}",
+					arg_value = 0
 				}, {
-					CLSID = "{FAB_250_M62}"
+					CLSID = "{FAB_250_M62}",
+					arg_value = 0
 				}, {
-					CLSID = "{37DCC01E-9E02-432F-B61D-10C166CA2798}"
+					CLSID = "{37DCC01E-9E02-432F-B61D-10C166CA2798}",
+					arg_value = 0
 				}, {
-					CLSID = "{4203753F-8198-4E85-9924-6F8FF679F9FF}"
+					CLSID = "{4203753F-8198-4E85-9924-6F8FF679F9FF}",
+					arg_value = 0
 				}, {
-					CLSID = "{RBK_250_275_AO_1SCH}"
+					CLSID = "{RBK_250_275_AO_1SCH}",
+					arg_value = 0
 				}, {
-					CLSID = "{D5435F26-F120-4FA3-9867-34ACE562EF1B}"
+					CLSID = "{D5435F26-F120-4FA3-9867-34ACE562EF1B}",
+					arg_value = 0
 				}, {
-					CLSID = "{7AEC222D-C523-425e-B714-719C0D1EB14D}"
+					CLSID = "{7AEC222D-C523-425e-B714-719C0D1EB14D}",
+					arg_value = 0
 				}, {
-					CLSID = "{RBK_500U_OAB_2_5RT}"
+					CLSID = "{RBK_500U_OAB_2_5RT}",
+					arg_value = 0
 				}, {
-					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74884}"
+					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74884}",
+					arg_value = 0.1
 				}, {
-					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74881}"
+					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74881}",
+					arg_value = 0.1
 				}, {
-					CLSID = "{PTB_450}"
+					CLSID = "{PTB_450}",
+					arg_value = 0
 				}, {
 					CLSID = "{APU_68_S-24}",
 					forbidden = { {
@@ -1105,13 +1132,14 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "GUV_YakB_GSHP",
-					arg_value = 0.2,
+					arg_value = 0.1,
 					forbidden = { {
 							loadout = { "KORD_12_7_MI24_L" },
 							station = 7
 						} }
 				}, {
 					CLSID = "GUV_VOG",
+					arg_value = 0.1,
 					forbidden = { {
 							loadout = { "KORD_12_7_MI24_L" },
 							station = 7
@@ -1124,6 +1152,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			Y = -0.067,
 			Z = -1.689,
 			arg = 310,
+			arg_value = 0.3,
 			connector = "hardpoint-3",
 			use_full_connector_position = true
 		}, {
@@ -1131,58 +1160,75 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			FiZ = 0,
 			Launchers = { {
 					CLSID = "B_8V20A_CM",
+					arg_value = 0.1,
 					forbidden = { {
 							loadout = { "KORD_12_7_MI24_R" },
 							station = 8
 						} }
 				}, {
 					CLSID = "B_8V20A_OFP2",
+					arg_value = 0.1,
 					forbidden = { {
 							loadout = { "KORD_12_7_MI24_R" },
 							station = 8
 						} }
 				}, {
 					CLSID = "B_8V20A_OM",
+					arg_value = 0.1,
 					forbidden = { {
 							loadout = { "KORD_12_7_MI24_R" },
 							station = 8
 						} }
 				}, {
 					CLSID = "{UB-32A-24}",
+					arg_value = 0.1,
 					forbidden = { {
 							loadout = { "KORD_12_7_MI24_R" },
 							station = 8
 						} }
 				}, {
 					CLSID = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}",
+					arg_value = 0.1,
 					forbidden = { {
 							loadout = { "KORD_12_7_MI24_R" },
 							station = 8
 						} }
 				}, {
-					CLSID = "{FB3CE165-BF07-4979-887C-92B87F13276B}"
+					CLSID = "{FB3CE165-BF07-4979-887C-92B87F13276B}",
+					arg_value = 0
 				}, {
-					CLSID = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}"
+					CLSID = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}",
+					arg_value = 0
 				}, {
-					CLSID = "{FAB_250_M62}"
+					CLSID = "{FAB_250_M62}",
+					arg_value = 0
 				}, {
-					CLSID = "{37DCC01E-9E02-432F-B61D-10C166CA2798}"
+					CLSID = "{37DCC01E-9E02-432F-B61D-10C166CA2798}",
+					arg_value = 0
 				}, {
-					CLSID = "{4203753F-8198-4E85-9924-6F8FF679F9FF}"
+					CLSID = "{4203753F-8198-4E85-9924-6F8FF679F9FF}",
+					arg_value = 0
 				}, {
-					CLSID = "{RBK_250_275_AO_1SCH}"
+					CLSID = "{RBK_250_275_AO_1SCH}",
+					arg_value = 0
 				}, {
-					CLSID = "{D5435F26-F120-4FA3-9867-34ACE562EF1B}"
+					CLSID = "{D5435F26-F120-4FA3-9867-34ACE562EF1B}",
+					arg_value = 0
 				}, {
-					CLSID = "{7AEC222D-C523-425e-B714-719C0D1EB14D}"
+					CLSID = "{7AEC222D-C523-425e-B714-719C0D1EB14D}",
+					arg_value = 0
 				}, {
-					CLSID = "{RBK_500U_OAB_2_5RT}"
+					CLSID = "{RBK_500U_OAB_2_5RT}",
+					arg_value = 0
 				}, {
-					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74884}"
+					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74884}",
+					arg_value = 0.1
 				}, {
-					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74881}"
+					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74881}",
+					arg_value = 0.1
 				}, {
-					CLSID = "{PTB_450}"
+					CLSID = "{PTB_450}",
+					arg_value = 0
 				}, {
 					CLSID = "{APU_68_S-24}",
 					forbidden = { {
@@ -1191,13 +1237,14 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "GUV_YakB_GSHP",
-					arg_value = 0.2,
+					arg_value = 0.1,
 					forbidden = { {
 							loadout = { "KORD_12_7_MI24_R" },
 							station = 8
 						} }
 				}, {
 					CLSID = "GUV_VOG",
+					arg_value = 0.1,
 					forbidden = { {
 							loadout = { "KORD_12_7_MI24_R" },
 							station = 8
@@ -1210,6 +1257,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			Y = -0.139,
 			Z = 1.769,
 			arg = 311,
+			arg_value = 0.3,
 			connector = "hardpoint-4",
 			use_full_connector_position = true
 		}, {
@@ -1224,6 +1272,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			Y = -0.272,
 			Z = 2.363,
 			arg = 312,
+			arg_value = 0.3,
 			connector = "hardpoint-5",
 			use_full_connector_position = true
 		}, {

@@ -1229,7 +1229,7 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "L118"
+					Name = "l118"
 				} }
 		},
 		Cars = {
@@ -2454,6 +2454,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Ship_Tilde_Supply"
 				}, {
 					Name = "santafe"
+				}, {
+					Name = "ara_vdm"
 				}, {
 					Name = "Forrestal"
 				} }

@@ -3,105 +3,159 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	AmmoWeight = 150.28,
 	CAS_min = 62,
 	CanopyGeometry = { -0.17364817766693, -0.49640011097796, -0.81915204428899, -0.45315389351832, -0.087155742747658 },
-	Categories = { {
-			CLSID = "{78EFB7A2-FD52-4b57-A6A6-3BF0E1D6555F}",
-			Name = "Interceptor"
-		} },
+	Categories = { "{78EFB7A2-FD52-4b57-A6A6-3BF0E1D6555F}", "Interceptor" },
 	Damage = {
 		[0] = {
-			args = { 82 },
-			critical_damage = 5
+			critical_damage = 3
 		},
 		[3] = {
-			args = { 65 },
-			critical_damage = 10
-		},
-		[8] = {
-			critical_damage = 10
+			critical_damage = 1
 		},
 		[11] = {
-			critical_damage = 3
+			critical_damage = 2
 		},
 		[12] = {
-			critical_damage = 3
+			critical_damage = 2
 		},
-		[15] = {
-			critical_damage = 10
+		[21] = {
+			critical_damage = 1.5
 		},
-		[16] = {
-			critical_damage = 10
+		[22] = {
+			critical_damage = 1.5
 		},
-		[17] = {
-			critical_damage = 3
+		[23] = {
+			critical_damage = 3,
+			deps_cells = { 21, 25 }
 		},
-		[18] = {
-			critical_damage = 3
+		[24] = {
+			critical_damage = 3,
+			deps_cells = { 22, 26 }
 		},
 		[25] = {
-			args = { 53 },
-			critical_damage = 5
+			critical_damage = 1
 		},
 		[26] = {
-			args = { 54 },
-			critical_damage = 5
+			critical_damage = 1
+		},
+		[29] = {
+			critical_damage = 4,
+			deps_cells = { 23, 33, 21, 25, 37 }
+		},
+		[30] = {
+			critical_damage = 4,
+			deps_cells = { 24, 34, 22, 26, 38 }
+		},
+		[33] = {
+			critical_damage = 1.5
+		},
+		[34] = {
+			critical_damage = 1.5
 		},
 		[35] = {
-			args = { 67 },
-			critical_damage = 10,
-			deps_cells = { 25, 37 }
+			critical_damage = 5,
+			deps_cells = { 29, 23, 33, 21, 25, 37 }
 		},
 		[36] = {
-			args = { 68 },
-			critical_damage = 10,
-			deps_cells = { 26, 38 }
+			critical_damage = 5,
+			deps_cells = { 30, 24, 34, 22, 26, 38 }
 		},
 		[37] = {
-			args = { 55 },
-			critical_damage = 4
+			critical_damage = 2
 		},
 		[38] = {
-			args = { 56 },
+			critical_damage = 2
+		},
+		[39] = {
 			critical_damage = 4
 		},
+		[40] = {
+			critical_damage = 4
+		},
+		[41] = {
+			critical_damage = 4,
+			deps_cells = { 53 }
+		},
+		[42] = {
+			critical_damage = 4,
+			deps_cells = { 54 }
+		},
 		[43] = {
-			args = { 61 },
 			critical_damage = 4,
 			deps_cells = { 53 }
 		},
 		[44] = {
-			args = { 62 },
 			critical_damage = 4,
 			deps_cells = { 54 }
 		},
 		[47] = {
-			args = { 63 },
-			critical_damage = 5,
-			deps_cells = { 51 }
-		},
-		[48] = {
-			args = { 64 },
-			critical_damage = 5,
-			deps_cells = { 52 }
-		},
-		[51] = {
-			args = { 59 },
 			critical_damage = 2
 		},
-		[52] = {
-			args = { 60 },
+		[48] = {
 			critical_damage = 2
 		},
 		[53] = {
-			args = { 57 },
-			critical_damage = 2
+			critical_damage = 1
 		},
 		[54] = {
-			args = { 58 },
-			critical_damage = 2
+			critical_damage = 1
 		},
-		[55] = {
-			args = { 81 },
-			critical_damage = 15
+		[82] = {
+			critical_damage = 4
+		},
+		[83] = {
+			critical_damage = 3
+		},
+		[84] = {
+			critical_damage = 3
+		},
+		[85] = {
+			critical_damage = 3
+		},
+		[99] = {
+			critical_damage = 4
+		},
+		[137] = {
+			critical_damage = 6
+		},
+		[138] = {
+			critical_damage = 4
+		},
+		cell_indices = {
+			CABIN = 137,
+			COCKPIT = 3,
+			ELERON_L = 25,
+			ELERON_R = 26,
+			ENGINE_L = 11,
+			ENGINE_R = 12,
+			FIN_L_BOTTOM = 43,
+			FIN_L_CENTER = 41,
+			FIN_L_TOP = 39,
+			FIN_R_BOTTOM = 44,
+			FIN_R_CENTER = 42,
+			FIN_R_TOP = 40,
+			FLAP_L_IN = 37,
+			FLAP_R_IN = 38,
+			FUSELAGE_BOTTOM = 82,
+			FUSELAGE_TAIL = 138,
+			FUSELAGE_TOP = 99,
+			NOSE_CENTER = 0,
+			RUDDER_L = 53,
+			RUDDER_R = 54,
+			STABILIZER_L_IN = 47,
+			STABILIZER_R_IN = 48,
+			WHEEL_F = 83,
+			WHEEL_L = 84,
+			WHEEL_R = 85,
+			WING_L_CENTER = 29,
+			WING_L_IN = 35,
+			WING_L_OUT = 23,
+			WING_L_PART_IN = 33,
+			WING_L_PART_OUT = 21,
+			WING_R_CENTER = 30,
+			WING_R_IN = 36,
+			WING_R_OUT = 24,
+			WING_R_PART_IN = 34,
+			WING_R_PART_OUT = 22
 		}
 	},
 	DamageParts = { "F-18C-OBLOMOK-WING-R", "F-18C-OBLOMOK-WING-L" },
@@ -111,7 +165,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		WorldID = 11
 	},
 	DisplayName = "F/A-18A",
-	EmptyWeight = "10810",
+	EmptyWeight = 10455,
 	Guns = { {
 			aft_gun_mount = false,
 			azimuth_initial = 0,
@@ -652,12 +706,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			supply_position = { 0, 0, 0 }
 		} },
 	H_max = 15240,
-	HumanCockpit = false,
 	HumanRadio = {
 		editable = true,
 		frequency = 251,
 		maxFrequency = 399.975,
-		minFrequency = 100,
+		minFrequency = 225,
 		modulation = 0
 	},
 	IR_emission_coeff = 0.73,
@@ -670,10 +723,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	M_max = 25401,
 	M_nominal = 16651,
 	Mach_max = 1.8,
-	MaxFuelWeight = "6531",
-	MaxHeight = "18200",
-	MaxSpeed = "1920",
-	MaxTakeOffWeight = "25401",
+	MaxFuelWeight = 4930,
+	MaxHeight = 15240,
+	MaxSpeed = 1950.12,
+	MaxTakeOffWeight = 25401,
 	Name = "F/A-18A",
 	Ny_max = 7,
 	Ny_max_e = 7.5,
@@ -978,14 +1031,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	V_take_off = 69,
 	Vy_max = 254,
 	Waypoint_Custom_Panel = true,
-	WingSpan = "11.43",
+	WingSpan = 11.43,
 	WorldID = 14,
-	_file = "Scripts/Database/planes\\FA-18A.lua",
+	_file = "./CoreMods/aircraft/FA-18C/FA-18A.lua",
+	_origin = "F/A-18C AI",
 	air_refuel_receptacle_pos = { 6.574, 0.866, 0.727 },
 	attribute = { 1, 1, 1, "Redacted", "Multirole fighters", "Refuelable", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },
 	average_fuel_consumption = 0.85,
 	bank_angle_max = 60,
-	bigParkingRamp = false,
 	brakeshute_name = 0,
 	chaff_flare_dispenser = { {
 			dir = { 0, -1, 0 },
@@ -1027,18 +1080,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	height = 4.66,
 	length = 17.07,
 	lights_data = {
-		lights = {
-			[2] = {
-				lights = { {
-						argument = 209,
-						color = { 255, 255, 200, 0.333 },
-						connector = "MAIN_SPOT_PTR",
-						position = <10>{ 3.279, -0.599, 0 },
-						typename = "spotlight"
-					} },
+		lights = { {
+				lights = {},
 				typename = "collection"
-			},
-			[3] = {
+			}, {
+				lights = {},
+				typename = "collection"
+			}, {
 				lights = { {
 						argument = 192,
 						color = { 1, 1, 1, 0.333 },
@@ -1062,15 +1110,35 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						typename = "omnilight"
 					} },
 				typename = "collection"
-			},
-			[6] = {
+			}, {
+				lights = {},
+				typename = "collection"
+			}, {
+				lights = {},
+				typename = "collection"
+			}, {
 				lights = { {
 						argument = 209,
 						color = { 255, 255, 200, 0.333 },
 						connector = "MAIN_SPOT_PTR",
-						position = <table 10>,
+						position = { 3.279, -0.599, 0 },
 						typename = "spotlight"
 					} },
+				typename = "collection"
+			}, {
+				lights = {},
+				typename = "collection"
+			},
+			[9] = {
+				lights = {},
+				typename = "collection"
+			},
+			[10] = {
+				lights = {},
+				typename = "collection"
+			},
+			[12] = {
+				lights = {},
 				typename = "collection"
 			}
 		},
@@ -1166,6 +1234,24 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	},
 	radar_can_see_ground = true,
 	range = 1520,
+	shape_table_data = { {
+			classname = "lLandPlane",
+			desrt = "f-18a-oblomok",
+			file = "f-18a",
+			fire = { 300, 2 },
+			index = "Redacted",
+			life = 20,
+			name = "f-18a",
+			positioning = "BYNORMAL",
+			username = "f-18a",
+			vis = 3
+		}, {
+			classname = "lLandPlane",
+			file = "f-18a-oblomok",
+			fire = { 0, 1 },
+			name = "f-18a-oblomok",
+			positioning = "BYNORMAL"
+		} },
 	stores_number = 10,
 	swapped_names = true,
 	tand_gear_max = 3.73,

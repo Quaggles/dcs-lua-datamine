@@ -296,16 +296,12 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		[39] = {
 			args = { 62 },
 			critical_damage = 3,
-			deps_cells = { 137 }
-		},
-		[40] = {
-			args = { 81 },
-			critical_damage = 3
+			deps_cells = { 136 }
 		},
 		[41] = {
 			args = { 61 },
 			critical_damage = 3,
-			deps_cells = { 39, 47, 83, 137 },
+			deps_cells = { 39, 47, 83, 136 },
 			detachable = {
 				shape = "AH-64D_tail"
 			}
@@ -313,7 +309,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		[43] = {
 			args = { 245 },
 			critical_damage = 3,
-			deps_cells = { 41, 40 },
+			deps_cells = { 55 },
 			detachable = {
 				shape = "AH-64D_tail"
 			}
@@ -321,7 +317,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		[44] = {
 			args = { 242 },
 			critical_damage = 3,
-			deps_cells = { 41, 40 },
+			deps_cells = { 55 },
 			detachable = {
 				shape = "AH-64D_tail"
 			}
@@ -332,6 +328,11 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			detachable = {
 				shape = "AH-64D_tail"
 			}
+		},
+		[55] = {
+			args = { 81 },
+			critical_damage = 3,
+			deps_cells = { 41 }
 		},
 		[56] = {
 			args = { 158 },
@@ -351,7 +352,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		},
 		[63] = {
 			critical_damage = 20,
-			deps_cells = { 64, 67, 70, 73, 136 }
+			deps_cells = { 64, 67, 70, 73, 137 }
 		},
 		[64] = {
 			critical_damage = 4,
@@ -443,15 +444,15 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			critical_damage = 5
 		},
 		[136] = {
-			args = { 146 },
-			critical_damage = 2
-		},
-		[137] = {
 			args = { 238 },
 			critical_damage = 5,
 			detachable = {
 				shape = "AH-64D_tail"
 			}
+		},
+		[137] = {
+			args = { 146 },
+			critical_damage = 2
 		},
 		[138] = {
 			critical_damage = 1
@@ -490,20 +491,20 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			KEEL_L = 43,
 			KEEL_OUT = 39,
 			KEEL_R = 44,
-			KEEL_R_OUT = 40,
 			LEFT_GEAR_BOX = 15,
 			NOSE_BOTTOM = 59,
 			NOSE_CENTER = 0,
 			NOSE_LEFT_SIDE = 1,
 			NOSE_RIGHT_SIDE = 2,
-			RADAR = 136,
+			RADAR = 137,
 			RIGHT_GEAR_BOX = 16,
 			ROTOR = 63,
 			STABILIZATOR_L = 47,
+			TAIL = 55,
 			TAIL_BOTTOM = 58,
 			TAIL_LEFT_SIDE = 56,
 			TAIL_RIGHT_SIDE = 57,
-			TAIL_ROTOR = 137,
+			TAIL_ROTOR = 136,
 			TAIL_TOP = 100,
 			WHEEL_F = 83,
 			WHEEL_L = 84,
@@ -1243,6 +1244,15 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "{M299_1xAGM_114L_OUTBOARD_PORT}",
 					arg_value = 0
 				}, {
+					CLSID = "{M299_2xAGM_114K_2xAGM_114L}",
+					arg_value = 0
+				}, {
+					CLSID = "{M299_1xAGM_114K_3xAGM_114L_PRT}",
+					arg_value = 0
+				}, {
+					CLSID = "{M299_3xAGM_114K_1xAGM_114L_PRT}",
+					arg_value = 0
+				}, {
 					CLSID = "{M299_EMPTY}",
 					arg_value = 0
 				}, {
@@ -1383,6 +1393,15 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					arg_value = 0
 				}, {
 					CLSID = "{M299_1xAGM_114L_OUTBOARD_PORT}",
+					arg_value = 0
+				}, {
+					CLSID = "{M299_2xAGM_114K_2xAGM_114L}",
+					arg_value = 0
+				}, {
+					CLSID = "{M299_1xAGM_114K_3xAGM_114L_PRT}",
+					arg_value = 0
+				}, {
+					CLSID = "{M299_3xAGM_114K_1xAGM_114L_PRT}",
 					arg_value = 0
 				}, {
 					CLSID = "{M299_EMPTY}",
@@ -1527,6 +1546,15 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "{M299_1xAGM_114L_OUTBOARD_STARBOARD}",
 					arg_value = 0
 				}, {
+					CLSID = "{M299_2xAGM_114K_2xAGM_114L}",
+					arg_value = 0
+				}, {
+					CLSID = "{M299_1xAGM_114K_3xAGM_114L_STRBRD}",
+					arg_value = 0
+				}, {
+					CLSID = "{M299_3xAGM_114K_1xAGM_114L_STRBRD}",
+					arg_value = 0
+				}, {
 					CLSID = "{M299_EMPTY}",
 					arg_value = 0
 				}, {
@@ -1667,6 +1695,15 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					arg_value = 0
 				}, {
 					CLSID = "{M299_1xAGM_114L_OUTBOARD_STARBOARD}",
+					arg_value = 0
+				}, {
+					CLSID = "{M299_2xAGM_114K_2xAGM_114L}",
+					arg_value = 0
+				}, {
+					CLSID = "{M299_1xAGM_114K_3xAGM_114L_STRBRD}",
+					arg_value = 0
+				}, {
+					CLSID = "{M299_3xAGM_114K_1xAGM_114L_STRBRD}",
 					arg_value = 0
 				}, {
 					CLSID = "{M299_EMPTY}",

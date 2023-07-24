@@ -12,5 +12,5 @@ _G["launcher"]["{FAB_250_M62}"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 5, 9, "Redacted" },
 	category = 1,
-	displayName = "FAB-250-M62 - 250kg GP Bomb LD"
+	displayName = "FAB-250-M62 - 250 kg GP Bomb LD"
 }

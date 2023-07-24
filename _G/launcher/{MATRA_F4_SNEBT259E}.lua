@@ -11,6 +11,7 @@ _G["launcher"]["{MATRA_F4_SNEBT259E}"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "MATRA F4 - 18 x UnGd Rkts, 68 mm SNEB Type 259E F1B IL",
+	name = "{MATRA_F4_SNEBT259E}",
 	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

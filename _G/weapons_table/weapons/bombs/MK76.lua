@@ -20,6 +20,7 @@ _G["weapons_table"]["weapons"]["bombs"]["MK76"] = {
 			velK = 1
 		},
 		category = 1,
+		displayName = "Mk 76 - 25lb Practice Bomb LD",
 		fm = {
 			I = 94.425933,
 			L = 0.575,
@@ -89,6 +90,7 @@ _G["weapons_table"]["weapons"]["bombs"]["MK76"] = {
 			velK = 1
 		},
 		category = 1,
+		displayName = "Mk 76 - 25lb Practice Bomb LD",
 		fm = {
 			I = 94.425933,
 			L = 0.575,

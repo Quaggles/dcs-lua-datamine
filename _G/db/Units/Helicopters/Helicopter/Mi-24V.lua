@@ -6,6 +6,9 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		DISPENSER = "UV-26"
 	},
 	Damage = {
+		[0] = {
+			critical_damage = 10
+		},
 		[3] = {
 			args = { 65 },
 			critical_damage = 10
@@ -79,6 +82,9 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			critical_damage = 14,
 			deps_cells = { 55, 45, 46 }
 		},
+		[58] = {
+			critical_damage = 10
+		},
 		[59] = {
 			args = { 148 },
 			critical_damage = 5
@@ -87,9 +93,53 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			args = { 144 },
 			critical_damage = 1
 		},
+		[64] = {
+			critical_damage = 3
+		},
+		[67] = {
+			critical_damage = 3
+		},
+		[70] = {
+			critical_damage = 3
+		},
+		[73] = {
+			critical_damage = 3
+		},
+		[76] = {
+			critical_damage = 3
+		},
 		[82] = {
 			args = { 152 },
 			critical_damage = 3
+		},
+		[137] = {
+			args = { -1 },
+			construction = {
+				durability = 99999.99999,
+				skin = "Water"
+			},
+			critical_damage = 99999
+		},
+		[138] = {
+			args = { -1 },
+			construction = {
+				durability = 99999.99999,
+				skin = "Water"
+			},
+			critical_damage = 99999
+		},
+		[139] = {
+			args = { -1 },
+			construction = {
+				durability = 99999.99999,
+				skin = "Water"
+			},
+			critical_damage = 99999
+		},
+		cell_indices = {
+			FRONT_WHEEL = 137,
+			LEFT_WHEEL = 138,
+			RIGHT_WHEEL = 139
 		}
 	},
 	DamageParts = { "Mi-24V-WING-R", "Mi-24V-WING-L",

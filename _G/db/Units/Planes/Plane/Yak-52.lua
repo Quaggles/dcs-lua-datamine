@@ -847,7 +847,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			pilot_name = 261,
 			pos = { -1.72, -0.1, 0 },
 			role = "instructor",
-			role_display_name = "Instructor pilot"
+			role_display_name = "Instructor"
 		} },
 	date_of_introduction = 1979,
 	detection_range_max = 0,

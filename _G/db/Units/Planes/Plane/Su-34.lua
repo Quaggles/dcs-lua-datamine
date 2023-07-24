@@ -1,6 +1,6 @@
 _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	AOA_take_off = 0.14,
-	AmmoWeight = 0,
+	AmmoWeight = 147,
 	CAS_min = 58,
 	CanopyGeometry = { -0.34202014332567, -0.58058609380733, -0.81915204428899, -0.23856595048166, 0.34202014332567 },
 	Countries = { "Russia" },
@@ -190,6 +190,110 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	},
 	DisplayName = "Su-34",
 	EmptyWeight = 22300,
+	Guns = { {
+			aft_gun_mount = false,
+			azimuth_initial = 0,
+			display_name = "GSh-30-1",
+			drop_cartridge = 204,
+			effective_fire_distance = 1800,
+			effects = { {
+					arg = 432,
+					attenuation = 2,
+					duration = 0.02,
+					light_pos = { 0.15, 0, 0 },
+					name = "FireEffect"
+				} },
+			ejector_dir = { 0, -5, -5.5 },
+			ejector_pos = { -2.15, -0.5, -0.42 },
+			elevation_initial = 0,
+			gun = {
+				impulse_vec_rot = {
+					x = 0,
+					y = 0,
+					z = 0
+				},
+				max_burst_length = 25,
+				rates = { 1500 },
+				recoil_coeff = 0.91,
+				trigger = {
+					name = "GunTrigger"
+				}
+			},
+			muzzle_pos = { 3.11, -1.2, 0 },
+			muzzle_pos_connector = "Gun_point_00",
+			short_name = "GSh_30_1",
+			supply = {
+				count = 150,
+				get_mass = <function 1>,
+				get_mass_ = <function 2>,
+				shells = { {
+						AP_cap_caliber = 30,
+						Da0 = 0.0005,
+						Da1 = 0,
+						Dv0 = 0.0081,
+						_unique_resource_name = "weapons.shells.GSH301_30_HE",
+						caliber = 30,
+						cartridge = 0,
+						cartridge_mass = 0,
+						charTime = 0,
+						cumulative_mass = 0,
+						cumulative_thickness = 0,
+						cx = { 0.7, 0.7, 0.25, 0.236, 2.31 },
+						damage_factor = 639,
+						display_name = "30mm HE",
+						explosive = 0.39,
+						full_scale_time = -1,
+						j = 0,
+						k1 = 7.6e-09,
+						l = 0,
+						life_time = 6,
+						manualWeaponFlag = 21,
+						mass = 0.39,
+						model_name = "tracer_bullet_yellow",
+						name = "GSH301_30_HE",
+						payload = 0.071995569503415,
+						payload_type = 0,
+						piercing_mass = 0.078,
+						rebound_concrete = <2>{
+							angle0 = 50,
+							angle100 = 75,
+							cx_factor = 5,
+							deviation_angle = 30,
+							velocity_loss_factor = 0.5
+						},
+						rebound_ground = {
+							angle0 = 55,
+							angle100 = 73,
+							cx_factor = 5,
+							deviation_angle = 30,
+							velocity_loss_factor = 0.5
+						},
+						rebound_object = <table 2>,
+						rebound_water = {
+							angle0 = 65,
+							angle100 = 83,
+							cx_factor = 5,
+							deviation_angle = 30,
+							velocity_loss_factor = 0.5
+						},
+						rotation_freq = 7,
+						round_mass = 0.98,
+						s = 0,
+						scale_smoke = 1.8,
+						silent_self_destruction = false,
+						smoke_opacity = 0.18,
+						smoke_tail_life_time = -1,
+						subcalibre = false,
+						tracer_off = 4,
+						tracer_on = 0,
+						type_name = "shell",
+						v0 = 890,
+						visual_effect_correction = 0,
+						visual_effect_correction_rebound = 0.1
+					} }
+			},
+			supply_position = { 4.6, 0.6, 1.14 }
+		} },
 	H_max = 15000,
 	HumanRadio = {
 		editable = true,
@@ -215,7 +319,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Ny_min = -3,
 	Picture = "Su-34.png",
 	Pylons = { {
-			Launchers = { <2>{
+			Launchers = { <3>{
 					CLSID = "{FBC29BFE-3D24-4C64-B81D-941239D12249}"
 				}, {
 					CLSID = "{44EE8698-89F9-48EE-AF36-5FD31896A82F}",
@@ -243,7 +347,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			connector = "Point1_APU73",
 			use_full_connector_position = true
 		}, {
-			Launchers = { <3>{
+			Launchers = { <4>{
 					CLSID = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
 					arg_value = 0.55
 				}, {
@@ -263,47 +367,47 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			connector = "Point2_APU73",
 			use_full_connector_position = true
 		}, {
-			Launchers = { <4>{
+			Launchers = { <5>{
 					CLSID = "{X-29T}",
 					Type = 1,
 					add_mass = 186,
 					arg_value = 0.45
-				}, <5>{
+				}, <6>{
 					CLSID = "{X-29L}",
 					Type = 1,
 					add_mass = 186,
 					arg_value = 0.45
-				}, <6>{
+				}, <7>{
 					CLSID = "{X-31A}",
 					Type = 1,
 					add_mass = 186,
 					arg_value = 0.45
-				}, <7>{
+				}, <8>{
 					CLSID = "{X-31P}",
 					Type = 1,
 					add_mass = 186,
 					arg_value = 0.45
-				}, <8>{
+				}, <9>{
 					CLSID = "{2234F529-1D57-4496-8BB0-0150F9BDBBD2}",
 					Type = 1,
 					add_mass = 186,
 					arg_value = 0.45,
 					attach_point_position = { -0.069, -0.27, 0 }
-				}, <9>{
+				}, <10>{
 					CLSID = "{B5CA9846-776E-4230-B4FD-8BCC9BFB1676}",
 					Type = 1,
 					arg_value = 1,
 					attach_point_position = { 0.43, 0.21, 0 }
-				}, <10>{
+				}, <11>{
 					CLSID = "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}",
 					arg_value = 0.05
-				}, <11>{
+				}, <12>{
 					CLSID = "{FC56DF80-9B09-44C5-8976-DCFAFF219062}",
 					arg_value = 0.05
-				}, <12>{
+				}, <13>{
 					CLSID = "{A0648264-4BC0-4EE8-A543-D119F6BA4257}",
 					arg_value = 0.05
-				}, <13>{
+				}, <14>{
 					CLSID = "{S_25_O}",
 					arg_value = 0.05
 				}, {
@@ -361,7 +465,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74881}",
 					arg_value = 0.05
-				}, <table 3>, {
+				}, <table 4>, {
 					CLSID = "{B4C01D60-A8A3-4237-BD72-CA7655BC0FE9}",
 					Type = 1,
 					arg_value = 0.25,
@@ -398,7 +502,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			connector = "Point3_BD3",
 			use_full_connector_position = true
 		}, {
-			Launchers = { <table 4>, <table 5>, <table 6>, <table 7>, <table 8>, <table 9>, <table 10>, <table 11>, <table 12>, <table 13>, {
+			Launchers = { <table 5>, <table 6>, <table 7>, <table 8>, <table 9>, <table 10>, <table 11>, <table 12>, <table 13>, <table 14>, {
 					CLSID = "{35B698AC-9FEF-4EC4-AD29-484A0085F62B}",
 					arg_value = 0.05
 				}, {
@@ -474,7 +578,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}",
 					arg_value = 0.35,
 					connector = "Point4_APU470"
-				}, <14>{
+				}, <15>{
 					CLSID = "{40AA4ABE-D6EB-4CD6-AEFE-A1A0477B24AB}",
 					arg_value = 0.15
 				}, {
@@ -530,7 +634,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{MBD3_U6_5*FAB-250}",
 					arg_value = 0,
 					connector = "PYLON_5"
-				}, <table 4>, <table 5>, <table 6>, <table 7>, <table 8>, <table 9>, {
+				}, <table 5>, <table 6>, <table 7>, <table 8>, <table 9>, <table 10>, {
 					CLSID = "{35B698AC-9FEF-4EC4-AD29-484A0085F62B}",
 					arg_value = 0.05
 				}, {
@@ -737,7 +841,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{53BE25A4-C86C-4571-9BC0-47D668349595}",
 					arg_value = 0,
 					connector = "PYLON_7"
-				}, <table 14> },
+				}, <table 15> },
 			Number = 7,
 			Order = 7,
 			Type = 1,
@@ -768,7 +872,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{MBD3_U6_5*FAB-250}",
 					arg_value = 0,
 					connector = "PYLON_8"
-				}, <table 4>, <table 5>, <table 6>, <table 7>, <table 8>, <table 9>, {
+				}, <table 5>, <table 6>, <table 7>, <table 8>, <table 9>, <table 10>, {
 					CLSID = "{35B698AC-9FEF-4EC4-AD29-484A0085F62B}",
 					arg_value = 0.05
 				}, {
@@ -829,7 +933,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			connector = "Point8_BD3",
 			use_full_connector_position = true
 		}, {
-			Launchers = { <table 4>, <table 5>, <table 6>, <table 7>, <table 8>, <table 9>, <table 10>, <table 11>, <table 12>, <table 13>, {
+			Launchers = { <table 5>, <table 6>, <table 7>, <table 8>, <table 9>, <table 10>, <table 11>, <table 12>, <table 13>, <table 14>, {
 					CLSID = "{35B698AC-9FEF-4EC4-AD29-484A0085F62B}",
 					arg_value = 0.05
 				}, {
@@ -905,7 +1009,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}",
 					arg_value = 0.35,
 					connector = "Point9_APU470"
-				}, <table 14>, {
+				}, <table 15>, {
 					CLSID = "{MBD3_U6_5*FAB-250}",
 					arg_value = 0,
 					connector = "PYLON_9"
@@ -939,7 +1043,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			connector = "Point9_BD3",
 			use_full_connector_position = true
 		}, {
-			Launchers = { <table 4>, <table 5>, <table 6>, <table 7>, <table 8>, <table 9>, <table 10>, <table 11>, <table 12>, <table 13>, {
+			Launchers = { <table 5>, <table 6>, <table 7>, <table 8>, <table 9>, <table 10>, <table 11>, <table 12>, <table 13>, <table 14>, {
 					CLSID = "{35B698AC-9FEF-4EC4-AD29-484A0085F62B}",
 					arg_value = 0.05
 				}, {
@@ -994,7 +1098,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74881}",
 					arg_value = 0.05
-				}, <table 3>, {
+				}, <table 4>, {
 					CLSID = "{B4C01D60-A8A3-4237-BD72-CA7655BC0FE9}",
 					Type = 1,
 					arg_value = 0.25,
@@ -1031,7 +1135,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			connector = "Point10_BD3",
 			use_full_connector_position = true
 		}, {
-			Launchers = { <table 3>, {
+			Launchers = { <table 4>, {
 					CLSID = "{B4C01D60-A8A3-4237-BD72-CA7655BC0FE9}",
 					Type = 1,
 					arg_value = 0.25,
@@ -1048,7 +1152,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			connector = "Point11_APU73",
 			use_full_connector_position = true
 		}, {
-			Launchers = { <table 2>, {
+			Launchers = { <table 3>, {
 					CLSID = "{44EE8698-89F9-48EE-AF36-5FD31896A82A}",
 					arg_value = 1,
 					required = { {

@@ -888,7 +888,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[103] = {
 			args = { 166 },
-			children = { 136 },
+			children = { 137 },
 			construction = {
 				durability = 3.2,
 				skin = "Aluminum"
@@ -922,7 +922,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[104] = {
 			args = { 171 },
-			children = { 137, 15 },
+			children = { 138, 15 },
 			construction = {
 				durability = 3.2,
 				skin = "Aluminum"
@@ -963,7 +963,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[105] = {
 			args = { 160 },
-			children = { 138, 16 },
+			children = { 139, 16 },
 			construction = {
 				durability = 3.2,
 				skin = "Aluminum"
@@ -1004,7 +1004,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[106] = {
 			args = { 163 },
-			children = { 139 },
+			children = { 140 },
 			construction = {
 				durability = 3.2,
 				skin = "Aluminum"
@@ -1036,7 +1036,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.006
 				} }
 		},
-		[136] = {
+		[137] = {
 			args = { -1 },
 			children = { 64, 66 },
 			construction = {
@@ -1046,7 +1046,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 1,
 			droppable = false
 		},
-		[137] = {
+		[138] = {
 			args = { -1 },
 			children = { 67, 69 },
 			construction = {
@@ -1056,7 +1056,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 1,
 			droppable = false
 		},
-		[138] = {
+		[139] = {
 			args = { -1 },
 			children = { 70, 72 },
 			construction = {
@@ -1066,7 +1066,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 1,
 			droppable = false
 		},
-		[139] = {
+		[140] = {
 			args = { -1 },
 			children = { 73, 75 },
 			construction = {
@@ -1112,10 +1112,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			NOSE_CENTER = 0,
 			NOSE_LEFT_SIDE = 1,
 			NOSE_RIGHT_SIDE = 2,
-			ROTOR_1 = 136,
-			ROTOR_2 = 137,
-			ROTOR_3 = 138,
-			ROTOR_4 = 139,
+			ROTOR_1 = 137,
+			ROTOR_2 = 138,
+			ROTOR_3 = 139,
+			ROTOR_4 = 140,
 			RUDDER_R = 54,
 			STABILIZER_L_IN = 47,
 			STABILIZER_L_OUT = 45,

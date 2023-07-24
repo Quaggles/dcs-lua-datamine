@@ -258,12 +258,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[135] = {
 			critical_damage = 2
 		},
-		[136] = {
+		[137] = {
 			args = { 183 },
 			critical_damage = 1
 		},
 		cell_indices = {
-			AIR_BRAKE = 136,
+			AIR_BRAKE = 137,
 			CABIN_BOTTOM = 6,
 			CABIN_LEFT_SIDE = 4,
 			CABIN_RIGHT_SIDE = 5,
@@ -2568,7 +2568,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Waypoint_Custom_Panel = true,
 	WingSpan = 11.43,
 	WorldID = 280,
-	_file = "./CoreMods/aircraft/FA-18C/FA-18C.lua",
+	_file = "./CoreMods/aircraft/FA-18C/FA-18C_hornet.lua",
 	_file_flyable = "./Mods/aircraft/FA-18C/entry.lua",
 	_origin = "F/A-18C AI",
 	_origin_flyable = "F/A-18C",
@@ -2595,10 +2595,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	crew_members = { {
 			bailout_arg = -1,
 			canopy_pos = { 0, 0, 0 },
-			drop_canopy_name = 301,
-			ejection_seat_name = 300,
-			pilot_name = 302,
-			pos = { 3.5, 0.578, 0 },
+			drop_canopy_name = 302,
+			ejection_seat_name = 17,
+			pos = { 3.755, 0.4, 0 },
 			role = "pilot",
 			role_display_name = "Pilot"
 		} },
@@ -2723,7 +2722,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					}, {
 						C = { { "Arg", 522, "set", 0.01 }, { "Arg", 521, "set", 0 } }
 					} },
-				Transition = { "Any", "GestureSaluteLeft" }
+				Transition = { "Neutral", "GestureSaluteLeft" }
 			}, {
 				Sequence = { {
 						C = { { "Arg", 39, "to", 0, "speed", 0.5 }, { "Arg", 99, "to", 0, "speed", 0.5 }, { "Arg", 500, "to", 0, "speed", 0.5 }, { "Arg", 501, "to", 0, "speed", 0.5 }, { "Arg", 502, "set", 0 } }
@@ -2734,7 +2733,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					}, {
 						C = { { "Arg", 522, "set", 0.01 }, { "Arg", 520, "set", 0 } }
 					} },
-				Transition = { "Any", "GestureSaluteRight" }
+				Transition = { "Neutral", "GestureSaluteRight" }
 			}, {
 				Sequence = { {
 						C = { { "Arg", 522, "to", 1, "speed", 0.33 } }

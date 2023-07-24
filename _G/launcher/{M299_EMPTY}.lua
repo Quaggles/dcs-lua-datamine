@@ -14,9 +14,11 @@ _G["launcher"]["{M299_EMPTY}"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
 	displayName = "M299 - Empty Launcher",
+	name = "{M299_EMPTY}",
 	shape_table_data = { {
 			file = "M299",
 			index = "Redacted",
+			name = "M299",
 			username = "M299"
 		} },
 	wsTypeOfWeapon = "weapons.missiles.AGM_114K"

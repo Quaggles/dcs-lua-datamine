@@ -19,6 +19,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB-250-M62"] = {
 			velK = 1
 		},
 		category = 1,
+		displayName = "FAB-250-M62 - 250 kg GP Bomb LD",
 		fm = {
 			I = 70.03,
 			L = 1.924,
@@ -40,13 +41,13 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB-250-M62"] = {
 		shape_table_data = { {
 				file = "fab-250-m62",
 				index = "Redacted",
-				username = "FAB-250-M62"
+				username = "FAB-250-M62 GP"
 			} },
 		targeting_data = {
 			char_time = 20.36
 		},
 		type = 1,
-		user_name = "FAB-250-M62",
+		user_name = "FAB-250-M62 GP",
 		warhead = {
 			caliber = 300,
 			concrete_factors = { 1, 1, 1 },
@@ -64,7 +65,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB-250-M62"] = {
 		wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 	},
 	cx = { 1, 0.39, 0.8, 0.168, 1.31 },
-	display_name = "FAB-250-M62",
+	display_name = "FAB-250-M62 GP",
 	mass = 227,
 	model = "fab-250-m62",
 	name = "FAB-250-M62",
@@ -82,6 +83,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB-250-M62"] = {
 			velK = 1
 		},
 		category = 1,
+		displayName = "FAB-250-M62 - 250 kg GP Bomb LD",
 		fm = {
 			I = 70.03,
 			L = 1.924,
@@ -103,13 +105,13 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB-250-M62"] = {
 		shape_table_data = { {
 				file = "fab-250-m62",
 				index = "Redacted",
-				username = "FAB-250-M62"
+				username = "FAB-250-M62 GP"
 			} },
 		targeting_data = {
 			char_time = 20.36
 		},
 		type = 1,
-		user_name = "FAB-250-M62",
+		user_name = "FAB-250-M62 GP",
 		warhead = {
 			caliber = 300,
 			concrete_factors = { 1, 1, 1 },
