@@ -810,24 +810,24 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				wheel_damage_delta_speedX = 15.4333,
 				wheel_damage_force_factor = 450,
 				wheel_damage_speedX = 116.779,
-				wheel_glide_friction_factor = 0.55,
+				wheel_glide_friction_factor = 0.3,
 				wheel_kz_factor = 0.3,
 				wheel_radius = 0.28139,
 				wheel_roll_friction_factor = 0.04,
-				wheel_side_friction_factor = 0.8,
-				wheel_static_friction_factor = 0.35,
+				wheel_side_friction_factor = 0.45,
+				wheel_static_friction_factor = 0.65,
 				yaw_limit = 0.78539816339745
 			}, {
-				allowable_hard_contact_length = 0.1,
+				allowable_hard_contact_length = 0.02,
 				amortizer_back_damper_force_factor = 40000,
 				amortizer_basic_length = 0.229362,
 				amortizer_direct_damper_force_factor = 60000,
 				amortizer_max_length = 0.229362,
-				amortizer_reduce_length = 0.01,
-				amortizer_spring_force_factor = 70000000,
-				amortizer_spring_force_factor_rate = 3.75,
-				amortizer_static_force = 35814.9,
-				anti_skid_gain = 800,
+				amortizer_reduce_length = 0.08,
+				amortizer_spring_force_factor = 75000000,
+				amortizer_spring_force_factor_rate = 2.5,
+				amortizer_static_force = 1000,
+				anti_skid_gain = 400,
 				anti_skid_improved = true,
 				anti_skid_installed = true,
 				arg_amortizer = 6,
@@ -837,6 +837,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				collision_shell_name = "LEFT_WHEEL",
 				crossover_locked_wheel_protection = true,
 				crossover_locked_wheel_protection_speed_min = 7.71,
+				crossover_locked_wheel_protection_wheel = 2,
 				damage_element = 84,
 				noise_k = 0.4,
 				wheel_axle_offset = 0,
@@ -844,23 +845,23 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				wheel_damage_delta_speedX = 15.4333,
 				wheel_damage_force_factor = 450,
 				wheel_damage_speedX = 116.779,
-				wheel_glide_friction_factor = 0.45,
+				wheel_glide_friction_factor = 0.3,
 				wheel_kz_factor = 0.52,
 				wheel_radius = 0.444125,
 				wheel_roll_friction_factor = 0.04,
 				wheel_side_friction_factor = 0.4,
-				wheel_static_friction_factor = 0.4
+				wheel_static_friction_factor = 0.7
 			}, {
-				allowable_hard_contact_length = 0.1,
+				allowable_hard_contact_length = 0.02,
 				amortizer_back_damper_force_factor = 40000,
 				amortizer_basic_length = 0.229362,
 				amortizer_direct_damper_force_factor = 60000,
 				amortizer_max_length = 0.229362,
-				amortizer_reduce_length = 0.01,
-				amortizer_spring_force_factor = 70000000,
-				amortizer_spring_force_factor_rate = 3.75,
-				amortizer_static_force = 35814.9,
-				anti_skid_gain = 800,
+				amortizer_reduce_length = 0.08,
+				amortizer_spring_force_factor = 75000000,
+				amortizer_spring_force_factor_rate = 2.5,
+				amortizer_static_force = 1000,
+				anti_skid_gain = 400,
 				anti_skid_improved = true,
 				anti_skid_installed = true,
 				arg_amortizer = 4,
@@ -870,6 +871,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				collision_shell_name = "RIGHT_WHEEL",
 				crossover_locked_wheel_protection = true,
 				crossover_locked_wheel_protection_speed_min = 7.71,
+				crossover_locked_wheel_protection_wheel = 1,
 				damage_element = 85,
 				noise_k = 0.4,
 				wheel_axle_offset = 0,
@@ -877,12 +879,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				wheel_damage_delta_speedX = 15.4333,
 				wheel_damage_force_factor = 450,
 				wheel_damage_speedX = 116.779,
-				wheel_glide_friction_factor = 0.45,
+				wheel_glide_friction_factor = 0.3,
 				wheel_kz_factor = 0.52,
 				wheel_radius = 0.444125,
 				wheel_roll_friction_factor = 0.04,
 				wheel_side_friction_factor = 0.4,
-				wheel_static_friction_factor = 0.4
+				wheel_static_friction_factor = 0.7
 			} }
 	},
 	HumanRadio = {
@@ -1006,7 +1008,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}" },
 							station = 2
 						}, {
-							loadout = { "{GBU_15_V_21B}" },
+							loadout = { "{GBU_15_V_31B}" },
 							station = 2
 						}, {
 							loadout = { "{34759BBC-AF1E-4AEE-A581-498FF7A6EBCE}" },
@@ -1027,7 +1029,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}" },
 							station = 2
 						}, {
-							loadout = { "{GBU_15_V_21B}" },
+							loadout = { "{GBU_15_V_31B}" },
 							station = 2
 						}, {
 							loadout = { "{34759BBC-AF1E-4AEE-A581-498FF7A6EBCE}" },
@@ -1262,7 +1264,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}" },
 							station = 2
 						}, {
-							loadout = { "{GBU_15_V_21B}" },
+							loadout = { "{GBU_15_V_31B}" },
 							station = 2
 						}, {
 							loadout = { "{34759BBC-AF1E-4AEE-A581-498FF7A6EBCE}" },
@@ -1283,7 +1285,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}" },
 							station = 2
 						}, {
-							loadout = { "{GBU_15_V_21B}" },
+							loadout = { "{GBU_15_V_31B}" },
 							station = 2
 						}, {
 							loadout = { "{34759BBC-AF1E-4AEE-A581-498FF7A6EBCE}" },
@@ -2394,7 +2396,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}" },
 							station = 14
 						}, {
-							loadout = { "{GBU_15_V_21B}" },
+							loadout = { "{GBU_15_V_31B}" },
 							station = 14
 						}, {
 							loadout = { "{34759BBC-AF1E-4AEE-A581-498FF7A6EBCE}" },
@@ -2415,7 +2417,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}" },
 							station = 14
 						}, {
-							loadout = { "{GBU_15_V_21B}" },
+							loadout = { "{GBU_15_V_31B}" },
 							station = 14
 						}, {
 							loadout = { "{34759BBC-AF1E-4AEE-A581-498FF7A6EBCE}" },
@@ -2477,6 +2479,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			MaxRUD = 1,
 			MinRUD = 0,
 			Nmg = 71.6,
+			Nominal_Fan_RPM = 10000,
+			Nominal_RPM = 14000,
+			Shutdown_Duration = 35,
+			Startup_Duration = 40,
+			Startup_Prework = 10,
 			cefor = 2.56,
 			cemax = 1.24,
 			dcx_eng = 0.0114,
@@ -2484,7 +2491,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			dpdh_m = 8000,
 			hMaxEng = 19,
 			table_data = { { 0, 141769.2, 190320 }, { 0.2, 133920, 195200 }, { 0.4, 121520, 207400 }, { 0.6, 130200, 220820 }, { 0.7, 136400, 250100 }, { 0.8, 146320, 268400 }, { 0.9, 153760, 313540 }, { 1, 161200, 331840 }, { 1.1, 161200, 340380 }, { 1.2, 155000, 345260 }, { 1.3, 152520, 357460 }, { 1.4, 161200, 368440 }, { 1.6, 163680, 394060 }, { 1.8, 158720, 424560 }, { 2.2, 136400, 451400 }, { 2.5, 101680, 478240 }, { 3.9, 101680, 378200 } },
-			type = "TurboJet"
+			type = "TurboFan"
 		}
 	},
 	Sensors = {
