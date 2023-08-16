@@ -2150,8 +2150,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			role_display_name = "Pilot"
 		}, {
 			bailout_arg = -1,
+			boarding_arg = 421,
 			can_be_playable = true,
 			canopy_arg = 421,
+			canopy_args = { 421, 1 },
+			canopy_ejection_dir = { -0.4, 1, 0 },
 			canopy_pos = { 0.811, 0.892, 0 },
 			drop_canopy_name = 323,
 			drop_parachute_name = "Mirage-F1_parachute",

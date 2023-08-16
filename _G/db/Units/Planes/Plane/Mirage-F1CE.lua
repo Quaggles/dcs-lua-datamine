@@ -2627,13 +2627,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				y_trans = -0.099924,
 				z_trans = 0
 			}, {
-				hAngle = 0,
+				hAngle = -90.637207,
 				rollAngle = 0,
-				vAngle = -10,
-				viewAngle = 80,
-				x_trans = -0.02,
-				y_trans = 0.003,
-				z_trans = 0
+				vAngle = 4.386597,
+				viewAngle = 116.113876,
+				x_trans = -0.676361,
+				y_trans = -0.03726,
+				z_trans = -0.443781
 			}, {
 				hAngle = -38.423161,
 				rollAngle = 0,

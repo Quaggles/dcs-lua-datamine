@@ -1950,11 +1950,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	crew_stations = "HumanOrchestra",
 	detection_range_max = 0,
 	doors_movement = 2,
-	effects_presets = { {
-			effect = "APU_STARTUP_BLAST",
-			preset = "mi8mtv2",
-			ttl = 3
-		} },
+	effects_presets = {},
 	encyclopediaAnimation = {
 		args = {
 			[507] = 1,

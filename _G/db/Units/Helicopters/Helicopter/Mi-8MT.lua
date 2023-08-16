@@ -38,7 +38,9 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			defValue = true,
 			id = "CargoHalfdoor",
 			label = "Cargo halfdoor",
-			onlyEmpty = true,
+			removeWeapons = {
+				PKT_7_62 = false
+			},
 			weight = 130
 		}, {
 			control = "slider",
@@ -50,7 +52,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			min = 10
 		}, {
 			control = "comboList",
-			defValue = 1,
+			defValue = 0,
 			id = "NetCrewControlPriority",
 			label = "Aircraft Control Priority",
 			playerOnly = true,
@@ -58,7 +60,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					dispName = "Pilot",
 					id = 0
 				}, {
-					dispName = "Instructor",
+					dispName = "Copilot",
 					id = 1
 				}, {
 					dispName = "Ask Always",
@@ -70,13 +72,19 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			wCtrl = 150
 		}, {
 			control = "checkbox",
+			defValue = false,
+			id = "HumanOrchestra",
+			label = "Disable Multicrew",
+			playerOnly = true
+		}, {
+			control = "checkbox",
 			defValue = true,
 			id = "NS430allow",
 			label = "NS 430 allow"
 		} },
 	AmmoWeight = 0,
 	Cannon = "yes",
-	CanopyGeometry = { -0.93969262078591, -0.90285901228517, -0.86602540378444, 5.5511151231258e-17, 0.86602540378444 },
+	CanopyGeometry = { -0.93969262078591, -0.95280922353749, -0.96592582628907, -0.98106026219041, -0.99619469809175 },
 	Categories = {},
 	Damage = { {
 			args = { 251 },
@@ -3239,7 +3247,10 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			DisplayName = "R MG",
 			Launchers = { {
 					CLSID = "PKT_7_62",
-					arg_value = -1
+					arg_value = -1,
+					setAddPropAircraftValue = {
+						CargoHalfdoor = true
+					}
 				} },
 			Number = 8,
 			Order = 8,
@@ -3711,6 +3722,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	crew_members = { {
 			bailout_arg = 133,
 			boarding_arg = 38,
+			can_be_playable = true,
+			can_control = true,
 			canopy_arg = 133,
 			canopy_args = { 133, 1, 131, 1, 38, 0.2, 86, 0.1 },
 			drop_canopy_name = 0,
@@ -3721,6 +3734,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		}, {
 			bailout_arg = 131,
 			boarding_arg = 38,
+			can_be_playable = true,
+			can_control = true,
 			canopy_arg = 131,
 			canopy_args = { 133, 1, 131, 1, 38, 0.2, 86, 0.1 },
 			drop_canopy_name = 0,
@@ -3731,6 +3746,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		}, {
 			bailout_arg = 133,
 			boarding_arg = 38,
+			can_be_playable = true,
+			can_control = false,
 			canopy_arg = 133,
 			canopy_args = { 133, 0.95, 131, 0.95, 38, 0.3, 86, 0.11 },
 			drop_canopy_name = 0,
@@ -3740,12 +3757,13 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			role_display_name = "Technician"
 		}, {
 			can_be_playable = true,
+			can_control = false,
 			canopy_arg = 43,
 			pos = { 3.916, -0.11, 0 },
 			role = "gunner",
 			role_display_name = "Left Gunner"
 		} },
-	crew_stations = "HumanOrchestra",
+	crew_stations = "Hybrid",
 	detection_range_max = 0,
 	effects_presets = { {
 			effect = "APU_STARTUP_BLAST",
@@ -4055,6 +4073,32 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		Door0 = { {
 				Flags = { "Reversible" },
 				Sequence = { {
+						C = { { "Arg", 133, "to", 0.64, "in", 1 } }
+					} },
+				Transition = { "Close", "Open" }
+			}, {
+				Flags = { "Reversible", "StepsBackwards" },
+				Sequence = { {
+						C = { { "Arg", 133, "to", 0, "in", 1 } }
+					} },
+				Transition = { "Open", "Close" }
+			} },
+		Door1 = { {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "Arg", 131, "to", 0.64, "in", 2 } }
+					} },
+				Transition = { "Close", "Open" }
+			}, {
+				Flags = { "Reversible", "StepsBackwards" },
+				Sequence = { {
+						C = { { "Arg", 131, "to", 0, "in", 2 } }
+					} },
+				Transition = { "Open", "Close" }
+			} },
+		Door2 = { {
+				Flags = { "Reversible" },
+				Sequence = { {
 						C = { { "Arg", 38, "to", 1, "in", 1 } }
 					} },
 				Transition = { "Close", "Open" }
@@ -4064,45 +4108,19 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						C = { { "Arg", 38, "to", 0, "in", 1 } }
 					} },
 				Transition = { "Open", "Close" }
-			}, {
-				Sequence = { {
-						C = { { "Arg", 133, "to", 1, "in", 1 } }
-					} },
-				Transition = { "Any", "Bailout" }
-			}, {
-				Sequence = { {
-						C = { { "PosType", 10 }, { "ValuePhase", 2, "x", 1, "y", 0.5, "sign", 1 } }
-					}, {
-						C = { { "Arg", 133, "to", 1, "in", 1 } }
-					}, {
-						C = { { "Sleep", "for", 0 } }
-					} },
-				Transition = { "Close", "Taxi" }
-			}, {
-				Sequence = { {
-						C = { { "Arg", 133, "to", 0, "in", 1 } }
-					} },
-				Transition = { "Taxi", "Close" }
 			} },
-		Door1 = { {
+		Door3 = { {
+				Flags = { "Reversible" },
 				Sequence = { {
-						C = { { "Arg", 131, "to", 1, "in", 1 } }
+						C = { { "Arg", 86, "to", 1, "in", 1 } }
 					} },
-				Transition = { "Any", "Bailout" }
+				Transition = { "Close", "Open" }
 			}, {
+				Flags = { "Reversible", "StepsBackwards" },
 				Sequence = { {
-						C = { { "RandomPhase", 2, "x", 0.8 } }
-					}, {
-						C = { { "Arg", 131, "to", 1, "in", 1 } }
-					}, {
-						C = { { "Sleep", "for", 0 } }
+						C = { { "Arg", 86, "to", 0, "in", 1 } }
 					} },
-				Transition = { "Close", "Taxi" }
-			}, {
-				Sequence = { {
-						C = { { "Arg", 131, "to", 0, "in", 1 } }
-					} },
-				Transition = { "Taxi", "Close" }
+				Transition = { "Open", "Close" }
 			} },
 		HeadLights = { {
 				Sequence = { {
@@ -4202,7 +4220,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				Transition = { "Any", "CustomStage2" }
 			} }
 	},
-	net_animation = { 458, 80, 85, 457, 1000, 26, 38, 86, 133, 131, 423, 424, 425, 426, 1, 2, 250 },
+	net_animation = { 458, 80, 85, 457, 1000, 26, 423, 424, 425, 426, 1, 2, 250, 459, 460, 461 },
 	nose_gear_pos = { 3.236, -2.489, 0 },
 	panelRadio = { {
 			channels = { {

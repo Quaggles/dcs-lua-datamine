@@ -757,7 +757,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			}, {
 				max = 155.995,
 				min = 136,
-				modulation = 2
+				modulation = 2,
+				modulationDef = 1
 			}, {
 				max = 173.995,
 				min = 156,
@@ -765,7 +766,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			}, {
 				max = 399.975,
 				min = 225,
-				modulation = 2
+				modulation = 2,
+				modulationDef = 0
 			} }
 	},
 	IR_emission_coeff = 0.73,
@@ -1578,7 +1580,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					max = 155.995,
 					min = 136,
-					modulation = 2
+					modulation = 2,
+					modulationDef = 1
 				}, {
 					max = 173.995,
 					min = 156,
@@ -1586,7 +1589,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					max = 399.975,
 					min = 225,
-					modulation = 2
+					modulation = 2,
+					modulationDef = 0
 				} }
 		}, {
 			channels = { {
@@ -1662,7 +1666,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					max = 155.995,
 					min = 136,
-					modulation = 2
+					modulation = 2,
+					modulationDef = 1
 				}, {
 					max = 173.995,
 					min = 156,
@@ -1670,7 +1675,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					max = 399.975,
 					min = 225,
-					modulation = 2
+					modulation = 2,
+					modulationDef = 0
 				} }
 		} },
 	passivCounterm = {

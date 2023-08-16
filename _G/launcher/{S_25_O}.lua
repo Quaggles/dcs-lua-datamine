@@ -7,7 +7,7 @@ _G["launcher"]["{S_25_O}"] = {
 			ShapeName = "C-25O",
 			connector_name = "tube_1"
 		} },
-	Picture = "S25.png",
+	Picture = "S25_O.png",
 	Weight = 445,
 	Weight_Empty = 65,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",

@@ -147,6 +147,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 527 },
 			critical_damage = 2
 		},
+		[3] = {
+			args = { 65 },
+			critical_damage = 3
+		},
 		[4] = {
 			args = { 516 },
 			critical_damage = 2
@@ -240,12 +244,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 2
 		},
 		[90] = {
-			args = { 528 },
-			critical_damage = 2
+			critical_damage = 1
 		},
 		[91] = {
-			args = { 529 },
-			critical_damage = 2
+			critical_damage = 1
 		},
 		[98] = {
 			args = { 2502 },
@@ -472,6 +474,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			AVX_WALL_RIGHT_REAR = 146,
 			CABIN_LEFT_SIDE = 4,
 			CABIN_RIGHT_SIDE = 5,
+			COCKPIT = 3,
 			COUNTERMEASURES = 147,
 			CREW_1 = 90,
 			CREW_2 = 91,
@@ -10270,6 +10273,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Name = "AFAC",
 			OldID = "AFAC",
 			WorldID = 16
+		}, {
+			Name = "SEAD",
+			OldID = "SEAD",
+			WorldID = 29
 		} },
 	V_land = 70,
 	V_max_h = 700,

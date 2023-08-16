@@ -1,4 +1,4 @@
-_G["db"]["Units"]["Planes"]["Plane"]["#Index"] = { false,
+_G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	AOA_take_off = 0.17,
 	AmmoWeight = 0,
 	CAS_min = 54,

@@ -1094,22 +1094,18 @@ _G["db"]["Countries"]["#Index"] = {
 			nativeName = "Anytime, Baby...!",
 			picture = "USA/troops/F14_anytime.png"
 		}, <231>{
-			name = "FA-18 Hornet",
-			nativeName = "F/A-18 Hornet",
-			picture = "USA/troops/fa18.png"
-		}, <232>{
 			name = "AH-64 Apache Helicopter",
 			nativeName = "AH-64 Apache Helicopter",
 			picture = "USA/troops/AH-64_Apache_Helicopter.png"
-		}, <233>{
+		}, <232>{
 			name = "Army CH-47 Chinook Helicopter",
 			nativeName = "Army CH-47 Chinook Helicopter",
 			picture = "USA/troops/Army_CH-47_Chinook_Helicopter.png"
-		}, <234>{
+		}, <233>{
 			name = "Bell AH-1 Cobra Attack Helicopter",
 			nativeName = "Bell AH-1 Cobra Attack Helicopter",
 			picture = "USA/troops/Bell_AH-1_Cobra_Attack_Helicopter.png"
-		}, <235>{
+		}, <234>{
 			name = "UH-60 Black Hawk Helicopter",
 			nativeName = "UH-60 Black Hawk Helicopter",
 			picture = "USA/troops/UH-60_Black_Hawk_Helicopter.png"
@@ -1117,7 +1113,7 @@ _G["db"]["Countries"]["#Index"] = {
 			name = "UH-1 Huey",
 			nativeName = "UH-1 Huey Flying for Freedom",
 			picture = "USA/troops/UH1_Huey.png"
-		}, <236>{
+		}, <235>{
 			name = "UH-1 Huey",
 			nativeName = "USMC UH-1 Combat Air Crew",
 			picture = "USA/troops/UH1_usmc.png"
@@ -1125,15 +1121,15 @@ _G["db"]["Countries"]["#Index"] = {
 			name = "VF-24",
 			nativeName = "Renegades Last Rage (VF-24)",
 			picture = "USA/troops/VF24_Last_Rage.png"
-		}, <237>{
+		}, <236>{
 			name = "VF-24",
 			nativeName = "F-14 Tomcat (VF-24)",
 			picture = "USA/troops/vf24_F14.png"
-		}, <238>{
+		}, <237>{
 			name = "VF-31",
 			nativeName = "VF-31 Last Cat Standing Baby",
 			picture = "USA/troops/vf31_lastcat.png"
-		}, <239>{
+		}, <238>{
 			name = "VF-1285",
 			nativeName = "F-14 Tomcat (VF-1285)",
 			picture = "USA/troops/vf1285_F14.png"
@@ -2596,9 +2592,9 @@ _G["db"]["Countries"]["#Index"] = {
 		["94th Fighter Squad."] = <table 50>,
 		["95th Fighter Squad."] = <table 51>,
 		["9th Fighter Squad."] = <table 20>,
-		["AH-64 Apache Helicopter"] = <table 232>,
-		["Army CH-47 Chinook Helicopter"] = <table 233>,
-		["Bell AH-1 Cobra Attack Helicopter"] = <table 234>,
+		["AH-64 Apache Helicopter"] = <table 231>,
+		["Army CH-47 Chinook Helicopter"] = <table 232>,
+		["Bell AH-1 Cobra Attack Helicopter"] = <table 233>,
 		["CVW-1"] = <table 211>,
 		["CVW-11"] = <table 218>,
 		["CVW-14"] = <table 219>,
@@ -2612,7 +2608,6 @@ _G["db"]["Countries"]["#Index"] = {
 		["F-14 Tomcat"] = <table 230>,
 		["F-15 Eagle"] = <table 226>,
 		["F-15E Strike Eagle"] = <table 227>,
-		["FA-18 Hornet"] = <table 231>,
 		["HA(L)-3"] = <table 173>,
 		["HA(L)-5"] = <table 174>,
 		["HML-367"] = <table 203>,
@@ -2628,8 +2623,8 @@ _G["db"]["Countries"]["#Index"] = {
 		["HMLA-775"] = <table 209>,
 		["Section Break"] = <table 225>,
 		["Thunderbolt II"] = <table 228>,
-		["UH-1 Huey"] = <table 236>,
-		["UH-60 Black Hawk Helicopter"] = <table 235>,
+		["UH-1 Huey"] = <table 235>,
+		["UH-60 Black Hawk Helicopter"] = <table 234>,
 		["VF-1"] = <table 98>,
 		["VF-101"] = <table 109>,
 		["VF-102"] = <table 110>,
@@ -2638,7 +2633,7 @@ _G["db"]["Countries"]["#Index"] = {
 		["VF-111"] = <table 112>,
 		["VF-114"] = <table 113>,
 		["VF-124"] = <table 114>,
-		["VF-1285"] = <table 239>,
+		["VF-1285"] = <table 238>,
 		["VF-14"] = <table 101>,
 		["VF-142"] = <table 115>,
 		["VF-143"] = <table 116>,
@@ -2651,10 +2646,10 @@ _G["db"]["Countries"]["#Index"] = {
 		["VF-21"] = <table 102>,
 		["VF-211"] = <table 122>,
 		["VF-213"] = <table 123>,
-		["VF-24"] = <table 237>,
+		["VF-24"] = <table 236>,
 		["VF-301"] = <table 124>,
 		["VF-302"] = <table 125>,
-		["VF-31"] = <table 238>,
+		["VF-31"] = <table 237>,
 		["VF-32"] = <table 103>,
 		["VF-33"] = <table 104>,
 		["VF-41"] = <table 105>,
