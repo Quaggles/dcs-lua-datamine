@@ -6,6 +6,7 @@ _G["bombs"]["#Index"] = {
 	_file = "./CoreMods/aircraft/C-101/Weapons.lua",
 	_origin = "C-101 Aviojet by AvioDev",
 	display_name = "BIN-200 - 200kg Napalm Incendiary Bomb",
+	display_name_short = "BIN-200 - 200kg Napalm Incendiary Bomb",
 	hMax = 12000,
 	hMin = 1000,
 	mass = 200,

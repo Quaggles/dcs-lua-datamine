@@ -6,8 +6,13 @@ _G["launcher"]["{44EE8698-89F9-48EE-AF36-5FD31896A82D}"] = {
 		} },
 	Picture = "MPS410.png",
 	Required = { "{44EE8698-89F9-48EE-AF36-5FD31896A82C}" },
+	ShapeName = "MPS-410",
 	Weight = 150,
-	_file = "Scripts/Database/db_weapons_data.lua",
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/pods.lua",
+	_origin = "AircraftWeaponPack",
+	_unique_resource_name = "weapons.containers.MPS-410",
 	attribute = { 4, 15, 45, "Redacted" },
-	displayName = "MPS-410"
+	category = 6,
+	displayName = "MPS-410",
+	name = "MPS-410"
 }

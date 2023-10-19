@@ -54,6 +54,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		maxTargetDetectionRange = 70000,
 		radar_rotation_type = 1,
 		radar_type = 103,
+		searchRadarFrequencies = { { 4000000000, 8000000000 } },
 		searchRadarMaxElevation = 0.5235987755983
 	},
 	Waypoint_Custom_Panel = true,
@@ -80,7 +81,10 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	enablePlayerCanDrive = false,
 	encyclopediaAnimation = {
 		args = {
-			[24] = 1
+			[3] = 1,
+			[11] = -0.776,
+			[24] = 0.18,
+			[25] = 0.153
 		}
 	},
 	mapclasskey = "P0091000083",
@@ -106,7 +110,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "Kub 1S91 str",
 	visual = {
 		IR = {
-			coeffs = { { 0.035, 0.0012 }, { 0.00775, 0.00265 }, { 0, 0 }, { 0.001, 0.17 }, { 0.2, 0.0002 } }
+			coeffs = { { 0.035, 0.0012 }, { 0.00775, 0.00265 }, { 0.205, 0.005, 2 }, { 0.001, 0.17 }, { 0.2, 0.0002 } }
 		},
 		agony_explosion_size = 2,
 		dirt_pos = { -3, 0.41, -1.331 },

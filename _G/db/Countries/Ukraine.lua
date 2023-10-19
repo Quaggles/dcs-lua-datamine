@@ -402,6 +402,14 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "S-300PS 5H63C 30H6_tr",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "S-300PS 40B6MD sr_19J6",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "SA-11 Buk CC 9S470M1",
 					in_service = 0,
 					out_of_service = 40000
@@ -683,6 +691,74 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "HL_ZU-23",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "M978 HEMTT Tanker",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "MLRS",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Soldier stinger",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Stinger comm",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "TPZ",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "NASAMS_Command_Post",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "NASAMS_Radar_MPQ64F1",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "NASAMS_LN_B",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "NASAMS_LN_C",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "M-113",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Hawk sr",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Hawk cwar",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Hawk pcp",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Hawk tr",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Hawk ln",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Gepard",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "M-109",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -1318,11 +1394,13 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "Mirage-F1EE"
 				}, {
+					Name = "Mirage-F1BE"
+				}, {
+					Name = "TF-51D"
+				}, {
 					Name = "Ju-88A4"
 				}, {
 					Name = "C-47"
-				}, {
-					Name = "TF-51D"
 				} }
 		},
 		Ships = {

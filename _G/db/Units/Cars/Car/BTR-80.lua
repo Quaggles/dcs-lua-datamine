@@ -94,7 +94,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	attribute = { 2, 17, 26, "Redacted", "APC", "Infantry carriers", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "NonAndLightArmoredUnits", "LightArmoredUnits" },
 	category = "Armor",
-	chassis = {},
+	chassis = {
+		trace_width = 0.36
+	},
 	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
 	driverViewConnectorName = { "POINT_DRIVER",
 		offset = { 0.05, 0, 0 }

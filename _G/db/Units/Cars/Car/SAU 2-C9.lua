@@ -68,6 +68,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
 	driverViewConnectorName = "DRIVER_POINT",
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = { 0.522,
+			[0] = 0.129,
+			[3] = 1
+		}
+	},
 	mapclasskey = "P0091000006",
 	sensor = {
 		height = 2.3

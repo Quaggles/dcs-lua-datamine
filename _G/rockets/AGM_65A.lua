@@ -39,6 +39,7 @@ _G["rockets"]["#Index"] = {
 	category = 2,
 	class_name = "wAmmunitionSelfHoming",
 	display_name = "AGM-65A",
+	display_name_short = "AGM-65A",
 	exhaust = { 0.7, 0.7, 0.7, 0.1 },
 	fm = {
 		A = 0.36,

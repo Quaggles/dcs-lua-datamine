@@ -1,91 +1,94 @@
 _G["launcher"]["{6C47D097-83FF-4FB2-9496-EAB36DDF0B05}"] = {
 	CLSID = "{6C47D097-83FF-4FB2-9496-EAB36DDF0B05}",
 	Count = 27,
+	DistributeOverCarrierDirectly = true,
 	Elements = { {
-			Position = { 2.5, 1.5, -0.5 },
-			ShapeName = "MK-82"
+			ShapeName = "MK-82",
+			connector_name = "Pylon46"
 		}, {
-			Position = { 2.5, 1.5, 0 },
-			ShapeName = "MK-82"
+			ShapeName = "MK-82",
+			connector_name = "Pylon37"
 		}, {
-			Position = { 2.5, 1.5, 0.5 },
-			ShapeName = "MK-82"
+			ShapeName = "MK-82",
+			connector_name = "Pylon28"
 		}, {
-			Position = { 2.5, 1, -0.5 },
-			ShapeName = "MK-82"
+			ShapeName = "MK-82",
+			connector_name = "Pylon45"
 		}, {
-			Position = { 2.5, 1, 0 },
-			ShapeName = "MK-82"
+			ShapeName = "MK-82",
+			connector_name = "Pylon36"
 		}, {
-			Position = { 2.5, 1, 0.5 },
-			ShapeName = "MK-82"
+			ShapeName = "MK-82",
+			connector_name = "Pylon27"
 		}, {
-			Position = { 2.5, 0.5, -0.5 },
-			ShapeName = "MK-82"
+			ShapeName = "MK-82",
+			connector_name = "Pylon44"
 		}, {
-			Position = { 2.5, 0.5, 0 },
-			ShapeName = "MK-82"
+			ShapeName = "MK-82",
+			connector_name = "Pylon35"
 		}, {
-			Position = { 2.5, 0.5, 0.5 },
-			ShapeName = "MK-82"
+			ShapeName = "MK-82",
+			connector_name = "Pylon26"
 		}, {
-			Position = { 0.2, 1.5, -0.5 },
-			ShapeName = "MK-82"
+			ShapeName = "MK-82",
+			connector_name = "Pylon43"
 		}, {
-			Position = { 0.2, 1.5, 0 },
-			ShapeName = "MK-82"
+			ShapeName = "MK-82",
+			connector_name = "Pylon34"
 		}, {
-			Position = { 0.2, 1.5, 0.5 },
-			ShapeName = "MK-82"
+			ShapeName = "MK-82",
+			connector_name = "Pylon25"
 		}, {
-			Position = { 0.2, 1, -0.5 },
-			ShapeName = "MK-82"
+			ShapeName = "MK-82",
+			connector_name = "Pylon42"
 		}, {
-			Position = { 0.2, 1, 0 },
-			ShapeName = "MK-82"
+			ShapeName = "MK-82",
+			connector_name = "Pylon33"
 		}, {
-			Position = { 0.2, 1, 0.5 },
-			ShapeName = "MK-82"
+			ShapeName = "MK-82",
+			connector_name = "Pylon24"
 		}, {
-			Position = { 0.2, 0.5, -0.5 },
-			ShapeName = "MK-82"
+			ShapeName = "MK-82",
+			connector_name = "Pylon41"
 		}, {
-			Position = { 0.2, 0.5, 0 },
-			ShapeName = "MK-82"
+			ShapeName = "MK-82",
+			connector_name = "Pylon32"
 		}, {
-			Position = { 0.2, 0.5, 0.5 },
-			ShapeName = "MK-82"
+			ShapeName = "MK-82",
+			connector_name = "Pylon23"
 		}, {
-			Position = { -2.1, 1.5, -0.5 },
-			ShapeName = "MK-82"
+			ShapeName = "MK-82",
+			connector_name = "Pylon40"
 		}, {
-			Position = { -2.1, 1.5, 0 },
-			ShapeName = "MK-82"
+			ShapeName = "MK-82",
+			connector_name = "Pylon31"
 		}, {
-			Position = { -2.1, 1.5, 0.5 },
-			ShapeName = "MK-82"
+			ShapeName = "MK-82",
+			connector_name = "Pylon22"
 		}, {
-			Position = { -2.1, 1, -0.5 },
-			ShapeName = "MK-82"
+			ShapeName = "MK-82",
+			connector_name = "Pylon39"
 		}, {
-			Position = { -2.1, 1, 0 },
-			ShapeName = "MK-82"
+			ShapeName = "MK-82",
+			connector_name = "Pylon30"
 		}, {
-			Position = { -2.1, 1, 0.5 },
-			ShapeName = "MK-82"
+			ShapeName = "MK-82",
+			connector_name = "Pylon21"
 		}, {
-			Position = { -2.1, 0.5, -0.5 },
-			ShapeName = "MK-82"
+			ShapeName = "MK-82",
+			connector_name = "Pylon38"
 		}, {
-			Position = { -2.1, 0.5, 0 },
-			ShapeName = "MK-82"
+			ShapeName = "MK-82",
+			connector_name = "Pylon29"
 		}, {
-			Position = { -2.1, 0.5, 0.5 },
-			ShapeName = "MK-82"
+			ShapeName = "MK-82",
+			connector_name = "Pylon20"
 		} },
 	Picture = "mk82.png",
-	Weight = 6507,
-	_file = "Scripts/Database/db_weapons_data.lua",
+	Weight = 6156,
+	_file = "./CoreMods/tech/HeavyMetalCore/Database/Aircraft/B_52H.lua",
+	_origin = "HeavyMetalCore",
 	attribute = { 4, 5, 9, "Redacted" },
+	category = 1,
 	displayName = "27 x Mk-82 - 500lb GP Bombs LD"
 }

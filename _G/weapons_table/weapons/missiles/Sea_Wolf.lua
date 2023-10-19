@@ -61,6 +61,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Sea_Wolf"] = {
 			boost_start = 0,
 			march_start = 0
 		},
+		display_name_short = "GWS-25 Sea Wolf",
 		err = {
 			max_time_interval = 0.2,
 			min_time_interval = 0,
@@ -149,6 +150,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Sea_Wolf"] = {
 		wsTypeOfWeapon = { 4, 4, 34, "Redacted" }
 	},
 	display_name = "GWS-25 Sea Wolf",
+	display_name_short = "GWS-25 Sea Wolf",
 	mass = 68,
 	model = "SeaCat",
 	name = "Sea_Wolf",
@@ -209,6 +211,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Sea_Wolf"] = {
 			boost_start = 0,
 			march_start = 0
 		},
+		display_name_short = "GWS-25 Sea Wolf",
 		err = {
 			max_time_interval = 0.2,
 			min_time_interval = 0,

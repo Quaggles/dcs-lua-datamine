@@ -70,6 +70,7 @@ _G["weapons_table"]["weapons"]["nurs"]["AGR_20_M282_unguided"] = {
 	},
 	cx_pil = 4.7679923901827e-05,
 	display_name = "APKWS M282 unguided",
+	display_name_short = "APKWS M282 unguided",
 	dist_max = 4000,
 	dist_max_ballistic = 8000,
 	dist_min = 500,

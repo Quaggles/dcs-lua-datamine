@@ -6,6 +6,7 @@ _G["bombs"]["#Index"] = {
 	_file = "./CoreMods/aircraft/AJS37/Entry/Weapons.lua",
 	_origin = "AJS37 AI by Heatblur Simulations",
 	display_name = "LYSBOMB Illumination bomb",
+	display_name_short = "LYSBOMB Illumination bomb",
 	hMax = 15000,
 	hMin = 1000,
 	mass = 25,

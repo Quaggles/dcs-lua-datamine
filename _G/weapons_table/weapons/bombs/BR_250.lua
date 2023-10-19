@@ -66,6 +66,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BR_250"] = {
 	},
 	cx = { 1, 0.29, 0.71, 0.14, 1.28 },
 	display_name = "BR-250 - 250kg GP Bomb LD",
+	display_name_short = "BR-250 - 250kg GP Bomb LD",
 	mass = 250,
 	model = "BR-250",
 	name = "BR_250",

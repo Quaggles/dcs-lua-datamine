@@ -6,6 +6,7 @@ _G["bombs"]["#Index"] = {
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
 	_origin = "AircraftWeaponPack",
 	display_name = "BR-500 - 500kg GP Bomb LD",
+	display_name_short = "BR-500 - 500kg GP Bomb LD",
 	hMax = 12000,
 	hMin = 200,
 	mass = 500,

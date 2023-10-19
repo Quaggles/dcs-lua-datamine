@@ -79,6 +79,7 @@ _G["rockets"]["#Index"] = {
 	},
 	displayName = "AIM-7P Sparrow Semi-Active Radar",
 	display_name = "AIM-7P",
+	display_name_short = "AIM-7P",
 	exhaust = { 0.78, 0.78, 0.78, 0.3 },
 	fm = {
 		A1trim = { 10, 10 },

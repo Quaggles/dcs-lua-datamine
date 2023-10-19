@@ -27,6 +27,7 @@ _G["rockets"]["#Index"] = {
 	Y_back = 0,
 	Z_back = 0,
 	display_name = "AT-11 Sniper",
+	display_name_short = "AT-11 Sniper",
 	exhaust = { 0.9, 0.9, 0.9, 0.1 },
 	name = "REFLEX",
 	sigma = { 4, 4, 4 },

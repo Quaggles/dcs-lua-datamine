@@ -70,6 +70,7 @@ _G["weapons_table"]["weapons"]["nurs"]["WGr21"] = {
 	},
 	cx_pil = 0.00019450813801802,
 	display_name = "Werfer-Granate 21",
+	display_name_short = "Werfer-Granate 21",
 	dist_max = 1200,
 	dist_max_ballistic = 8000,
 	dist_min = 600,

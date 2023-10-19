@@ -30,6 +30,7 @@ _G["rockets"]["#Index"] = {
 	Z_back = 0,
 	add_attributes = { "Cruise missiles" },
 	display_name = "AGM-154C",
+	display_name_short = "AGM-154C",
 	encyclopediaAnimation = {
 		args = {
 			[25] = 1

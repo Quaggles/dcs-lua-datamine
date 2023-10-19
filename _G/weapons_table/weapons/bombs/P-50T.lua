@@ -76,6 +76,7 @@ _G["weapons_table"]["weapons"]["bombs"]["P-50T"] = {
 	},
 	cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 	display_name = "P-50T - 50kg Practice Bomb LD",
+	display_name_short = "P-50T - 50kg Practice Bomb LD",
 	mass = 50,
 	model = "p-50t",
 	name = "P-50T",

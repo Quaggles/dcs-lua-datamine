@@ -8,6 +8,7 @@ _G["bombs"]["#Index"] = {
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/paveway.lua",
 	_origin = "AircraftWeaponPack",
 	display_name = "BDU-45LGB",
+	display_name_short = "BDU-45LGB",
 	hMax = 40000,
 	hMin = 1000,
 	mass = 277,

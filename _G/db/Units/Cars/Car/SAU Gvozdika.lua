@@ -73,11 +73,19 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		armour_thickness = 0.022,
 		life = 4
 	},
+	crew_locale = "RUS",
+	crew_members = { "gunner", "loader" },
 	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
 	driverViewConnectorName = { "DRIVER_POINT",
 		offset = { 0.05, 0.03, 0 }
 	},
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = { 0.157,
+			[0] = -0.09,
+			[3] = 1
+		}
+	},
 	mapclasskey = "P0091000006",
 	sensor = {
 		height = 2.373

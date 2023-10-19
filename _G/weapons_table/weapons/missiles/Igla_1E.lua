@@ -64,6 +64,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Igla_1E"] = {
 			march2_start = 1.9,
 			march_start = 0.5
 		},
+		display_name_short = "9M39 Igla",
 		fm = {
 			A = 0.6,
 			I = 2.49312,
@@ -185,6 +186,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Igla_1E"] = {
 		wsTypeOfWeapon = { 4, 4, 34, "Redacted" }
 	},
 	display_name = "9M39 Igla",
+	display_name_short = "9M39 Igla",
 	mass = 10.8,
 	model = "9M39",
 	name = "Igla_1E",
@@ -248,6 +250,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Igla_1E"] = {
 			march2_start = 1.9,
 			march_start = 0.5
 		},
+		display_name_short = "9M39 Igla",
 		fm = {
 			A = 0.6,
 			I = 2.49312,

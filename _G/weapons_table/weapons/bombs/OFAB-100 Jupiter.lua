@@ -75,6 +75,7 @@ _G["weapons_table"]["weapons"]["bombs"]["OFAB-100 Jupiter"] = {
 	},
 	cx = { 1, 0.32, 0.71, 0.15, 1.28 },
 	display_name = "OFAB-100 Jupiter - 100kg GP Bomb HD",
+	display_name_short = "OFAB-100 Jupiter - 100kg GP Bomb HD",
 	mass = 121,
 	model = "ofab-100-110tu",
 	name = "OFAB-100 Jupiter",

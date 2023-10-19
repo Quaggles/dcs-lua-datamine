@@ -1198,7 +1198,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			dir = { 0, 1, 0 },
 			pos = { -3.677, 1.012, 0.859 }
 		} },
-	country_of_origin = "RUS",
+	country_of_origin = "USSR",
 	crew_members = { {
 			canopy_pos = { 0, 0, 0 },
 			drop_canopy_name = 34,

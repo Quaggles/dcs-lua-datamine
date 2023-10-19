@@ -2934,7 +2934,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		typename = "collection"
 	},
-	main_gear_pos = { 1, -2.05, 1.65 },
+	main_gear_pos = { 1, -2.03, 1.65 },
 	main_gear_wheel_diameter = 0.683,
 	mapclasskey = "P0091000024",
 	mechanimations = {

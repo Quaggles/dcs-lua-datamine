@@ -163,7 +163,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		},
 		maxTargetDetectionRange = 160000,
 		radar_rotation_type = 0,
-		radar_type = 103
+		radar_type = 103,
+		searchRadarFrequencies = { { 830000000, 882000000 } }
 	},
 	Waypoint_Custom_Panel = true,
 	animation_arguments = {
@@ -195,7 +196,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "p-19 s-125 sr",
 	visual = {
 		IR = {
-			coeffs = { { 0.035, 0.0012 }, { 0.0069, 0.0036 }, { 0, 0 }, { 0.001, 0.17 }, { 0.25, 0.00027777777777778 } }
+			coeffs = { { 0.035, 0.0012 }, { 0.0069, 0.0036 }, { 0.205, 0.005, 2 }, { 0.001, 0.17 }, { 0.25, 0.00027777777777778 } }
 		},
 		agony_explosion_size = 2,
 		fire_pos = { 0, 0.8, 0 },

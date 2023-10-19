@@ -121,13 +121,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 17, 26, "Redacted", "Artillery", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "Indirect fire", "NonAndLightArmoredUnits", "LightArmoredUnits" },
 	category = "Artillery",
 	chassis = {},
+	crew_locale = "ENG",
+	crew_members = { "commander", "gunner", "loader" },
 	driverCockpit = "DriverCockpit/DriverCockpitWithIRandLLTV",
 	driverViewConnectorName = { "DRIVER_POINT",
 		offset = { 0.05, 0, 0 }
 	},
 	enablePlayerCanDrive = true,
 	encyclopediaAnimation = {
-		args = { 0.2,
+		args = { 0.247,
 			[0] = 0.2,
 			[3] = 1
 		}

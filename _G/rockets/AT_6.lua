@@ -58,6 +58,7 @@ _G["rockets"]["#Index"] = {
 	category = 2,
 	class_name = "wAmmunitionVikhr",
 	display_name = "9M114 Shturm-V (AT-6 Spiral)",
+	display_name_short = "9M114 Shturm-V (AT-6 Spiral)",
 	eng_err = {
 		max_time_interval = 1,
 		min_time_interval = 0.1,

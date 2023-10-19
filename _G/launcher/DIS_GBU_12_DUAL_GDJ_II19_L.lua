@@ -21,7 +21,7 @@ _G["launcher"]["DIS_GBU_12_DUAL_GDJ_II19_L"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "GDJ-II19 - 2 x GBU-12",
-	ejectImpulse = 140,
+	ejectVelocity = 1.8,
 	name = "DIS_GBU_12_DUAL_GDJ_II19_L",
 	wsTypeOfWeapon = { 4, 5, 36, "Redacted" }
 }

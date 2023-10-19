@@ -58,6 +58,7 @@ _G["rockets"]["#Index"] = {
 	category = 2,
 	class_name = "wAmmunitionVikhr",
 	display_name = "9M220O Ataka (AT-9 Spiral-2)",
+	display_name_short = "9M220O Ataka (AT-9 Spiral-2)",
 	eng_err = {
 		max_time_interval = 1,
 		min_time_interval = 0.1,

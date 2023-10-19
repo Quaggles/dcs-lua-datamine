@@ -28,6 +28,7 @@ _G["rockets"]["#Index"] = {
 	Z_back = 0,
 	_unique_resource_name = "weapons.missiles.Sea_Eagle",
 	display_name = "Sea Eagle",
+	display_name_short = "Sea Eagle",
 	name = "Sea_Eagle",
 	sigma = { 10, 10, 10 },
 	t_acc = 6,

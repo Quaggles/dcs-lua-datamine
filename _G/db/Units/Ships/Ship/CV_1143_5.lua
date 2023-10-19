@@ -1209,6 +1209,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		},
 		maxTargetDetectionRange = 550000,
 		radar_type = 104,
+		searchRadarFrequencies = { { 2000000000, 3000000000 }, { 8000000000, 12000000000 } },
 		searchRadarMaxElevation = 0.87266462599716
 	},
 	Waypoint_Custom_Panel = true,
@@ -1272,6 +1273,13 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	numParking = 3,
 	race_distance = 4630000,
 	race_velocity = 15.4333,
+	sensor = {
+		max_alt_finding_target = 15000,
+		max_range_finding_target = 50000,
+		min_alt_finding_target = 0,
+		min_range_finding_target = 0,
+		pos = { 9.5, 52, 20.9 }
+	},
 	shape_table_data = { {
 			classname = "lLandShip",
 			desrt = "",

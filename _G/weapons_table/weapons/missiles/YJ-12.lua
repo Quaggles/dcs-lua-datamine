@@ -96,6 +96,7 @@ _G["weapons_table"]["weapons"]["missiles"]["YJ-12"] = {
 			march_start = 6.5
 		},
 		display_name = "YJ-12",
+		display_name_short = "YJ-12",
 		exhaust1 = { 1, 1, 1, 1 },
 		final_autopilot = {
 			K = 60,
@@ -236,6 +237,7 @@ _G["weapons_table"]["weapons"]["missiles"]["YJ-12"] = {
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	display_name = "YJ-12",
+	display_name_short = "YJ-12",
 	encyclopediaAnimation = {
 		args = { 1 }
 	},
@@ -333,6 +335,7 @@ _G["weapons_table"]["weapons"]["missiles"]["YJ-12"] = {
 			march_start = 6.5
 		},
 		display_name = "YJ-12",
+		display_name_short = "YJ-12",
 		exhaust1 = { 1, 1, 1, 1 },
 		final_autopilot = {
 			K = 60,

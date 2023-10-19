@@ -6,6 +6,7 @@ _G["bombs"]["#Index"] = {
 	_file = "./CoreMods/aircraft/L-39/L-39ZA.lua",
 	_origin = "L-39C/ZA by Eagle Dynamics",
 	display_name = "OFAB-100 Jupiter - 100kg GP Bomb HD",
+	display_name_short = "OFAB-100 Jupiter - 100kg GP Bomb HD",
 	hMax = 12000,
 	hMin = 50,
 	mass = 121,

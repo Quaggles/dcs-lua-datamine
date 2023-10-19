@@ -33,6 +33,10 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		OPTIC = { "JTAC_sensor", "JTAC_sensor_LLTV", "JTAC_sensor_IR" }
 	},
 	ThreatRange = 0,
+	Transportable = {
+		size = 100,
+		valide = true
+	},
 	WS = { {
 			LN = { {} },
 			angles = { {} },
@@ -66,6 +70,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		},
 		fire_pos = {},
 		fire_size = 0,
+		parachute = 19,
 		shape = "Stinger_com2",
 		shape_dstr = "Stinger_com2_d"
 	}

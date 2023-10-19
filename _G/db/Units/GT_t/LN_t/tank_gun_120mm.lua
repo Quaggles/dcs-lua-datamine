@@ -6,12 +6,14 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["tank_gun_120mm"] = {
 			ammo_capacity = 2,
 			automaticLoader = false,
 			shell_name = { "M256_120_AP" },
-			shot_delay = 6
+			shot_delay = 6,
+			virtualStwID = 1
 		}, {
 			ammo_capacity = 14,
 			automaticLoader = false,
 			shell_name = { "M256_120_AP" },
-			shot_delay = 9
+			shot_delay = 9,
+			virtualStwID = 2
 		} },
 	distanceMax = 3500,
 	distanceMin = 10,

@@ -130,14 +130,14 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						} },
 					PL = { {
 							ammo_capacity = 8,
-							reload_time = 120,
+							portion_reload_time = 15,
 							shell_name = { "L23A1_APFSDS" },
 							shot_delay = 6,
 							virtualStwID = 1
 						}, {
 							ammo_capacity = 11,
 							automaticLoader = false,
-							reload_time = 165,
+							portion_reload_time = 15,
 							shell_name = { "L23A1_APFSDS" },
 							shot_delay = 10,
 							virtualStwID = 2
@@ -152,12 +152,10 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					BR = { {} },
 					PL = { {
 							ammo_capacity = 10,
-							reload_time = 150,
 							shell_name = { "L31A7_HESH" },
 							virtualStwID = 1
 						}, {
 							ammo_capacity = 24,
-							reload_time = 360,
 							shell_name = { "L31A7_HESH" },
 							virtualStwID = 2
 						} },
@@ -276,7 +274,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	category = "Armor",
 	chassis = {},
 	crew_locale = "ENG",
-	crew_members = { "commander", "gunner" },
+	crew_members = { "commander", "gunner", "loader" },
 	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
 	driverViewConnectorName = { "DRIVER_POINT",
 		offset = { 0.05, 0, 0 }

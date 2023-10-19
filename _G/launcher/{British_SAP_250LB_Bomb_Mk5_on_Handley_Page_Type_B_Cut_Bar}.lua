@@ -28,18 +28,18 @@ _G["launcher"]["{British_SAP_250LB_Bomb_Mk5_on_Handley_Page_Type_B_Cut_Bar}"] = 
 			control = "comboList",
 			defValue = 1,
 			dimension = "",
-			id = "GUI_fuze_type",
-			label = "Fuze Type",
+			id = "NFP_fuze_type_tail",
+			label = "Tail Fuze Well",
 			stringIndex = 1,
 			values = { {
 					dispName = "Tail Pistol No. 30 Mk III",
 					id = 1
 				} },
-			wCtrl = 355,
-			xCtrl = 170
+			wCtrl = 360,
+			xCtrl = 180
 		}, {
 			VisibilityCondition = { {
-					id = "GUI_fuze_type",
+					id = "NFP_fuze_type_tail",
 					value = 1
 				} },
 			baseDim = "s",
@@ -51,22 +51,27 @@ _G["launcher"]["{British_SAP_250LB_Bomb_Mk5_on_Handley_Page_Type_B_Cut_Bar}"] = 
 			stringIndex = 2,
 			values = { {
 					dispName = 0,
-					id = 0
+					id = 0,
+					units = "s"
 				}, {
 					dispName = 0.12,
-					id = 0.12
+					id = 0.12,
+					units = "s"
 				}, {
 					dispName = 1,
-					id = 1
+					id = 1,
+					units = "s"
 				}, {
 					dispName = 11,
-					id = 11
+					id = 11,
+					units = "s"
 				} },
-			xCtrl = 170,
+			wCtrl = 60,
+			xCtrl = 180,
 			xLbl = 10
 		}, {
 			VisibilityCondition = { {
-					id = "GUI_fuze_type",
+					id = "NFP_fuze_type_tail",
 					value = 1
 				} },
 			baseDim = "rev",
@@ -75,13 +80,15 @@ _G["launcher"]["{British_SAP_250LB_Bomb_Mk5_on_Handley_Page_Type_B_Cut_Bar}"] = 
 			dimension = "rev",
 			id = "vane_rev_threshold_ctrl_TP30MkIII",
 			label = "Arming Vane Revs. Required",
-			max = 3600,
+			max = 1000000000000,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 2,
-			xCtrl = 465,
-			xLbl = 285
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 480,
+			xLbl = 290
 		} },
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

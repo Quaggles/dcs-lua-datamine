@@ -27,7 +27,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_99"] = {
 			default_delay = 1.2,
 			default_open_height = 457
 		},
-		display_name_short = "RBK-500U",
+		display_name_short = "CBU-99",
 		fm = {
 			I = 101.2986,
 			L = 2.34,
@@ -154,6 +154,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_99"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "CBU-99 - 490lbs, 247 x HEAT Bomblets",
+	display_name_short = "CBU-99",
 	mass = 222,
 	model = "CBU_99",
 	name = "CBU_99",
@@ -178,7 +179,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_99"] = {
 			default_delay = 1.2,
 			default_open_height = 457
 		},
-		display_name_short = "RBK-500U",
+		display_name_short = "CBU-99",
 		fm = {
 			I = 101.2986,
 			L = 2.34,

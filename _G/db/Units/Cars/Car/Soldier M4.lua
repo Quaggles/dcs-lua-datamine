@@ -9,7 +9,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Rate = 1,
 	ThreatRange = 500,
 	Transportable = {
-		size = 100
+		valide = true
 	},
 	WS = { {
 			LN = { {

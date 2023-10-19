@@ -431,6 +431,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			k_piston = 3000,
 			k_reg = 0.003,
 			k_vel = 0.017,
+			prop_blades_count = 2,
+			prop_locations = { { 1.56, -0.03, 0 } },
 			table_data = { { 0, 2500 }, { 0.03, 2450 }, { 0.06, 2400 }, { 0.09, 2350 }, { 0.12, 2300 }, { 0.15, 2250 }, { 0.18, 2200 }, { 0.21, 2150 }, { 0.24, 2100 }, { 0.27, 2050 }, { 0.3, 2000 }, { 0.4, 1840 } },
 			typeng = 2
 		}
@@ -495,6 +497,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			role_display_name = "Pilot"
 		} },
 	date_of_introduction = 1977,
+	debrisGeneration = true,
 	defFuelRatio = 0.5493,
 	detection_range_max = 0,
 	engines_count = 1,
@@ -685,6 +688,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					min = 220
 				} }
 		} },
+	propellorShapeName = "CE2_Blade.FBX",
+	propellorShapeType = "3ARG_PROC_BLUR",
 	radar_can_see_ground = false,
 	range = 690,
 	shape_table_data = { {

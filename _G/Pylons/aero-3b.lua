@@ -1,6 +1,5 @@
 _G["Pylons"]["aero-3b"] = {
 	IsAdapter = true,
-	Position = { 0, 0, 0 },
 	ShapeName = "aero-3b",
 	_unique_resource_name = "weapons.adapters.aero-3b",
 	index = "Redacted",

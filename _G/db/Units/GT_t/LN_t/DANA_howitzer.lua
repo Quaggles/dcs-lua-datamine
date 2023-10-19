@@ -4,15 +4,17 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["DANA_howitzer"] = {
 		} },
 	PL = { {
 			ammo_capacity = 36,
-			automaticLoader = true,
-			reload_time = 1008,
+			portion_reload_time = 28,
 			shell_name = { "DANA_152" },
-			shot_delay = 20
+			shot_delay = 20,
+			virtualStwID = 1
 		}, {
 			ammo_capacity = 24,
-			reload_time = 480,
+			automaticLoader = false,
+			portion_reload_time = 20,
 			shell_name = { "DANA_152" },
-			shot_delay = 40
+			shot_delay = 40,
+			virtualStwID = 2
 		} },
 	distanceMax = 18500,
 	distanceMin = 30,

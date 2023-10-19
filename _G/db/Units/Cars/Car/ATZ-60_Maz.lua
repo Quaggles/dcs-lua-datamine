@@ -12,6 +12,31 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "Refueler ATZ-60 Tractor (MAZ-7410)",
 	Rate = 3,
 	ThreatRange = 0,
+	WS = { {
+			LN = { {
+					customViewPoint = { "DriverCockpit/DriverCockpit", { 0.1, 0, 0 } },
+					distanceMax = 0,
+					distanceMin = 0,
+					type = 103
+				} },
+			angles = { { 3.1415926535898, -3.1415926535898, -0.13962634015955, 0.5235987755983 } },
+			omegaY = 1.7453292519943,
+			omegaZ = 1.7453292519943,
+			pidY = {
+				d = 12,
+				i = 0.1,
+				inn = 50,
+				p = 100
+			},
+			pidZ = {
+				d = 12,
+				i = 0.1,
+				inn = 50,
+				p = 100
+			},
+			pos = { 4.7, 3.4, -1.085 },
+			reference_angle_Y = 3.1415926535898
+		} },
 	Waypoint_Custom_Panel = true,
 	_file = "./CoreMods/tech/TechWeaponPack/Database/db_units_cars.lua",
 	_origin = "TechWeaponPack",
@@ -23,7 +48,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_elevation = { {} }
 	},
 	attribute = { 2, 17, 25, "Redacted", "Trucks", "All", "Ground Units", "Vehicles", "Ground vehicles", "Ground Units Non Airdefence", "NonAndLightArmoredUnits", "NonArmoredUnits", "Unarmed vehicles" },
-	canTow = { "Saddle22", "Saddle60" },
+	canTow = { "Saddle60" },
 	category = "Unarmed",
 	chassis = {},
 	driverViewPoint = { 4.7, 2.4, -1.085 },

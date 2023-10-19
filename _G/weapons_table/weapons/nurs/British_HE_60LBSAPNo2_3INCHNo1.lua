@@ -74,6 +74,7 @@ _G["weapons_table"]["weapons"]["nurs"]["British_HE_60LBSAPNo2_3INCHNo1"] = {
 	},
 	cx_pil = 0.0001024398941418,
 	display_name = "RP-3 SAP",
+	display_name_short = "RP-3 SAP",
 	dist_max = 1200,
 	dist_max_ballistic = 8000,
 	dist_min = 500,

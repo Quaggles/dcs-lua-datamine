@@ -61,6 +61,7 @@ _G["rockets"]["#Index"] = {
 		march_start = 0.5
 	},
 	display_name = "9M39 Igla",
+	display_name_short = "9M39 Igla",
 	fm = {
 		A = 0.6,
 		I = 2.49312,

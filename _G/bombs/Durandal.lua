@@ -6,6 +6,7 @@ _G["bombs"]["#Index"] = {
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
 	_origin = "AircraftWeaponPack",
 	display_name = "BLU-107/B Durandal",
+	display_name_short = "BLU-107/B Durandal",
 	hMax = 5000,
 	hMin = 60,
 	mass = 219,

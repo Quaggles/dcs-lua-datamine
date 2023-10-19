@@ -104,8 +104,13 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						}, {
 							shell_name = {}
 						} },
-					depends_on_unit = { { { "SON_9", 4 } }, { { "none" } } },
-					sensor = {}
+					depends_on_unit = { { { "SON_9", 3 } }, { { "none" } } },
+					reloadSound = {
+						onEmptyFeeder = true
+					},
+					sensor = {},
+					sightIndicationMode = 1,
+					sightMasterMode = 1
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.535889741755 } },
 			center = "CENTER_POINT",

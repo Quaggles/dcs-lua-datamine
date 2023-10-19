@@ -6,6 +6,7 @@ _G["bombs"]["#Index"] = {
 	Name = "Redacted",
 	VyHold = -100,
 	display_name = "BDU-50LGB",
+	display_name_short = "BDU-50LGB",
 	hMax = 40000,
 	hMin = 1000,
 	mass = 280,

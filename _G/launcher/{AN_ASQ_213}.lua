@@ -5,7 +5,7 @@ _G["launcher"]["{AN_ASQ_213}"] = {
 	Elements = { {
 			ShapeName = "16c_hts_pod"
 		} },
-	Picture = "lantirn.png",
+	Picture = "HTS.png",
 	Weight = 57.2,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/targeting_pods.lua",
 	_origin = "AircraftWeaponPack",

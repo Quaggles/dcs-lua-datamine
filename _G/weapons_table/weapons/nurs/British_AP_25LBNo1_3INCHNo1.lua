@@ -71,6 +71,7 @@ _G["weapons_table"]["weapons"]["nurs"]["British_AP_25LBNo1_3INCHNo1"] = {
 	},
 	cx_pil = 3.3383947770031e-05,
 	display_name = "RP-3 AP",
+	display_name_short = "RP-3 AP",
 	dist_max = 800,
 	dist_max_ballistic = 8000,
 	dist_min = 300,

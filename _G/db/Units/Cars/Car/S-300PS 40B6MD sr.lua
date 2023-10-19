@@ -1,11 +1,12 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
+	Countries = { "USSR" },
 	CustomAimPoint = { 0, 1.5, 0 },
 	DetectionRange = 60000,
-	DisplayName = "SAM SA-10 S-300PS Low Alt SR 5N66M",
-	DisplayNameShort = "SA-10 SR(L)",
+	DisplayName = 'SAM SA-10 S-300 "Grumble" Clam Shell SR',
+	DisplayNameShort = "SA-10SR(L)",
 	IR_emission_coeff = 0.08,
 	MaxSpeed = 60.00012,
-	Name = "SAM SA-10 S-300PS Low Alt SR 5N66M",
+	Name = 'SAM SA-10 S-300 "Grumble" Clam Shell SR',
 	Rate = 20,
 	Sensors = {
 		RADAR = "S-300PS 40B6MD sr"
@@ -224,9 +225,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		},
 		maxTargetDetectionRange = 60000,
 		radar_rotation_type = 0,
-		radar_type = 103
+		radar_type = 103,
+		searchRadarFrequencies = { { 8000000000, 10000000000 } }
 	},
 	Waypoint_Custom_Panel = true,
+	_file = "./CoreMods/tech/HeavyMetalCore/Database/db_units_cars.lua",
+	_origin = "HeavyMetalCore",
 	animation_arguments = {
 		locator_rotation = 0
 	},
@@ -239,6 +243,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 16, 101, "Redacted", "LR SAM", "SAM SR", "RADAR_BAND1_FOR_ARM", "CustomAimPoint", "All", "Ground Units", "Vehicles", "Ground vehicles", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "SAM related", "SAM elements" },
 	category = "Air Defence",
 	chassis = {},
+	defaultStartAlarmState = 2,
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000083",
 	radar_rotation_period = 3,
@@ -248,6 +253,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		max_range_finding_target = 60000,
 		min_range_finding_target = 2000
 	},
+	shape_table_data = { {
+			classname = "lLandVehicle",
+			desrt = "s-300_40v6md_5n66m_nvo_p_1",
+			file = "s-300_40v6md_5n66m_nvo",
+			life = 5,
+			name = "s-300_40v6md_5n66m_nvo",
+			positioning = "BYNORMAL",
+			username = "S-300PS 40B6MD sr"
+		}, {
+			file = "s-300_40v6md_5n66m_nvo_p_1",
+			name = "s-300_40v6md_5n66m_nvo_p_1"
+		} },
 	snd = {
 		radarRotation = "GndTech/RadarRotation"
 	},
@@ -256,7 +273,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "S-300PS 40B6MD sr",
 	visual = {
 		IR = {
-			coeffs = { { 0.035, 0.0012 }, { 0.0069, 0.0036 }, { 0, 0 }, { 0.001, 0.17 }, { 0.2, 0.0002 } }
+			coeffs = { { 0.035, 0.0012 }, { 0.0069, 0.0036 }, { 0.205, 0.005, 2 }, { 0.001, 0.17 }, { 0.2, 0.0002 } }
 		},
 		agony_explosion_size = 1,
 		fire_pos = {

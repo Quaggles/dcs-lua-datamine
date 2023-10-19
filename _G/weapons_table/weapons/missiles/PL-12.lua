@@ -85,6 +85,7 @@ _G["weapons_table"]["weapons"]["missiles"]["PL-12"] = {
 			boost_start = 0.5,
 			march_start = 6.5
 		},
+		display_name_short = "PL-12",
 		exhaust = { 1, 1, 1, 0.8 },
 		fm = {
 			A1trim = { 27.6, 27.6, 27.6, 27.6, 27.55, 30.38, 31.982, 32.774, 33.234, 33.561, 33.829, 34.07, 34.286, 34.491, 34.687, 34.875, 35.056, 35.232, 35.401, 35.564, 35.721, 35.871, 36.015, 36.151, 36.279, 36.4 },
@@ -208,6 +209,7 @@ _G["weapons_table"]["weapons"]["missiles"]["PL-12"] = {
 		wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 	},
 	display_name = "PL-12",
+	display_name_short = "PL-12",
 	mass = 199,
 	model = "pl12",
 	name = "PL-12",
@@ -292,6 +294,7 @@ _G["weapons_table"]["weapons"]["missiles"]["PL-12"] = {
 			boost_start = 0.5,
 			march_start = 6.5
 		},
+		display_name_short = "PL-12",
 		exhaust = { 1, 1, 1, 0.8 },
 		fm = {
 			A1trim = { 27.6, 27.6, 27.6, 27.6, 27.55, 30.38, 31.982, 32.774, 33.234, 33.561, 33.829, 34.07, 34.286, 34.491, 34.687, 34.875, 35.056, 35.232, 35.401, 35.564, 35.721, 35.871, 36.015, 36.151, 36.279, 36.4 },

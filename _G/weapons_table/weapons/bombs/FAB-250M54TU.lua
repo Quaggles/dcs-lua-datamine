@@ -73,6 +73,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB-250M54TU"] = {
 	},
 	cx = { 0.1, 0.29, 0.61, 0.64, 1.28 },
 	display_name = "FAB-250 M54 TU - 235 kg, bomb, parachute",
+	display_name_short = "FAB-250 M54 TU - 235 kg, bomb, parachute",
 	mass = 235,
 	model = "fab-250-m54tu",
 	name = "FAB-250M54TU",

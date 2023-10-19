@@ -80,6 +80,7 @@ _G["weapons_table"]["weapons"]["bombs"]["British_SAP_500LB_Bomb_Mk5"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "500 lb S.A.P.",
+	display_name_short = "500 lb S.A.P.",
 	mass = 222.26,
 	model = "500_sab",
 	name = "British_SAP_500LB_Bomb_Mk5",

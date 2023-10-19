@@ -62,6 +62,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			drawArgument2 = 1,
 			omegaY = 0.43633231299858,
 			omegaZ = 0.26179938779915,
+			pidY = {
+				d = 4,
+				i = 2,
+				inn = 0.2,
+				p = 10
+			},
+			pidZ = {
+				d = 4,
+				i = 2,
+				inn = 0.2,
+				p = 10
+			},
 			reference_angle_Z = 0.087266462599716
 		},
 		maxTargetDetectionRange = 5000

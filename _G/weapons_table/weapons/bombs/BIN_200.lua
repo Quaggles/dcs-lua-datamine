@@ -70,6 +70,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BIN_200"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "BIN-200 - 200kg Napalm Incendiary Bomb",
+	display_name_short = "BIN-200 - 200kg Napalm Incendiary Bomb",
 	mass = 200,
 	model = "BIN-200",
 	name = "BIN_200",

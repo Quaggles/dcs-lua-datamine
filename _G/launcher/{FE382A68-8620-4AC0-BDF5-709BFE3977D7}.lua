@@ -15,6 +15,7 @@ _G["launcher"]["{FE382A68-8620-4AC0-BDF5-709BFE3977D7}"] = {
 	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 4, 32, "Redacted" },
 	displayName = "Kh-58U (AS-11 Kilter) - 640kg, ARM, IN & Pas Rdr",
-	ejectImpulse = 2000,
+	ejectPitchRate = 0,
+	ejectVelocity = 3,
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

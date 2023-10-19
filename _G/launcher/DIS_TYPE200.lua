@@ -13,5 +13,5 @@ _G["launcher"]["DIS_TYPE200"] = {
 	attribute = { 4, 5, 37, "Redacted" },
 	category = 1,
 	displayName = "TYPE-200A",
-	ejectImpulse = 140
+	ejectVelocity = 1.8
 }

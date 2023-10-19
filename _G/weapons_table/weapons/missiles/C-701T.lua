@@ -67,6 +67,7 @@ _G["weapons_table"]["weapons"]["missiles"]["C-701T"] = {
 			boost_start = 0.01,
 			march_start = 0.1
 		},
+		display_name_short = "C-701T",
 		exhaust = { 1, 1, 1, 1 },
 		fm = {
 			A = 0.36,
@@ -158,6 +159,7 @@ _G["weapons_table"]["weapons"]["missiles"]["C-701T"] = {
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	display_name = "C-701T",
+	display_name_short = "C-701T",
 	mass = 100,
 	model = "c701t",
 	name = "C-701T",
@@ -224,6 +226,7 @@ _G["weapons_table"]["weapons"]["missiles"]["C-701T"] = {
 			boost_start = 0.01,
 			march_start = 0.1
 		},
+		display_name_short = "C-701T",
 		exhaust = { 1, 1, 1, 1 },
 		fm = {
 			A = 0.36,

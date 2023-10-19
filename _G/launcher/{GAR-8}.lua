@@ -1,7 +1,7 @@
 _G["launcher"]["{GAR-8}"] = {
 	CLSID = "{GAR-8}",
 	Count = 1,
-	Cx_pil = 0.00014,
+	Cx_pil = 0.00061015625,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "aero-3b"
@@ -11,8 +11,8 @@ _G["launcher"]["{GAR-8}"] = {
 		} },
 	Picture = "us_AIM-9B.png",
 	PictureBlendColor = "0xffffffff",
-	Weight = 89.39,
-	Weight_Empty = 15,
+	Weight = 115.39,
+	Weight_Empty = 41,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/aim9_family.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },

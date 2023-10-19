@@ -82,6 +82,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Matra Super 530D"] = {
 			boost_start = 0.1,
 			march_start = 2.1
 		},
+		display_name_short = "Super 530D",
 		exhaust1 = { 1, 1, 1, 1 },
 		exhaust2 = { 1, 1, 1, 0.3 },
 		fm = {
@@ -202,6 +203,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Matra Super 530D"] = {
 		wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 	},
 	display_name = "Super 530D",
+	display_name_short = "Super 530D",
 	mass = 270,
 	model = "SUPER-530",
 	name = "Matra Super 530D",
@@ -283,6 +285,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Matra Super 530D"] = {
 			boost_start = 0.1,
 			march_start = 2.1
 		},
+		display_name_short = "Super 530D",
 		exhaust1 = { 1, 1, 1, 1 },
 		exhaust2 = { 1, 1, 1, 0.3 },
 		fm = {

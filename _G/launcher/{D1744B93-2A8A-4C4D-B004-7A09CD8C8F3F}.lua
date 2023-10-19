@@ -5,8 +5,13 @@ _G["launcher"]["{D1744B93-2A8A-4C4D-B004-7A09CD8C8F3F}"] = {
 			ShapeName = "LANTIRN-F14-TARGET"
 		} },
 	Picture = "Lantirn.png",
+	ShapeName = "LANTIRN-F14-TARGET",
 	Weight = 200,
-	_file = "Scripts/Database/db_weapons_data.lua",
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/pods.lua",
+	_origin = "AircraftWeaponPack",
+	_unique_resource_name = "weapons.containers.LANTIRN-F14-TARGET",
 	attribute = { 4, 15, 44, "Redacted" },
-	displayName = "Lantirn Target Pod"
+	category = 6,
+	displayName = "Lantirn Target Pod",
+	name = "LANTIRN-F14-TARGET"
 }

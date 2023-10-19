@@ -286,6 +286,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	radar1_period = 6,
 	radar2_period = 3,
 	sensor = {
+		height = 12.8,
 		max_alt_finding_target = 10000,
 		max_range_finding_target = 64000,
 		min_alt_finding_target = 0,

@@ -35,9 +35,10 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						} },
 					PL = { {
 							ammo_capacity = 50,
-							reload_time = 250,
+							portion_reload_time = 5,
 							shell_name = {},
-							shot_delay = 5
+							shot_delay = 5,
+							virtualStwID = 1
 						} },
 					reactionTime = 2,
 					sensor = {}
@@ -45,7 +46,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					BR = { {} },
 					PL = { {
 							ammo_capacity = 25,
-							reload_time = 125,
 							shell_name = { "Sprgr_34_L48" }
 						} },
 					distanceMax = 6000,

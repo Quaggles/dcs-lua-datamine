@@ -13,6 +13,7 @@ _G["launcher"]["{X-29T}"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
 	displayName = "Kh-29T (AS-14 Kedge) - 670kg, ASM, TV Guided",
-	ejectImpulse = 2000,
+	ejectPitchRate = 0,
+	ejectVelocity = 4,
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

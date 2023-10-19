@@ -40,12 +40,16 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_82Y"] = {
 			wind_sigma = 8,
 			wind_time = 1000
 		},
+		fuze = {
+			default_arm_delays = { 2 },
+			is_vane_anim_required = true
+		},
 		hMax = 10000,
 		hMin = 100,
 		mass = 232,
 		model = "mk-82air",
 		name = "Mk_82Y",
-		scheme = "schemes/bombs/bomb-parashute.sch",
+		scheme = "schemes/bombs/bomb_parachute_v2.sch",
 		shape_table_data = { {
 				file = "mk-82air",
 				fire = { 0, 1 },
@@ -55,8 +59,8 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_82Y"] = {
 				username = "Mk-82Y - 500lb GP Chute Retarded HD"
 			} },
 		targeting_data = {
-			char_time = 20.31,
-			chute_char_time = 33.5,
+			char_time = 20.33,
+			chute_char_time = 33.2,
 			chute_open_time = 0.2
 		},
 		type = 0,
@@ -79,6 +83,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_82Y"] = {
 	},
 	cx = { 1, 0.29, 0.71, 0.14, 1.28 },
 	display_name = "Mk-82Y - 500lb GP Chute Retarded HD",
+	display_name_short = "Mk-82Y - 500lb GP Chute Retarded HD",
 	mass = 232,
 	model = "mk-82air",
 	name = "Mk_82Y",
@@ -116,12 +121,16 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_82Y"] = {
 			wind_sigma = 8,
 			wind_time = 1000
 		},
+		fuze = {
+			default_arm_delays = { 2 },
+			is_vane_anim_required = true
+		},
 		hMax = 10000,
 		hMin = 100,
 		mass = 232,
 		model = "mk-82air",
 		name = "Mk_82Y",
-		scheme = "schemes/bombs/bomb-parashute.sch",
+		scheme = "schemes/bombs/bomb_parachute_v2.sch",
 		shape_table_data = { {
 				file = "mk-82air",
 				fire = { 0, 1 },
@@ -131,8 +140,8 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_82Y"] = {
 				username = "Mk-82Y - 500lb GP Chute Retarded HD"
 			} },
 		targeting_data = {
-			char_time = 20.31,
-			chute_char_time = 33.5,
+			char_time = 20.33,
+			chute_char_time = 33.2,
 			chute_open_time = 0.2
 		},
 		type = 0,
@@ -155,8 +164,8 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_82Y"] = {
 	},
 	sounderName = "Weapons/Bomb",
 	targeting_data = {
-		char_time = 20.31,
-		chute_char_time = 33.5,
+		char_time = 20.33,
+		chute_char_time = 33.2,
 		chute_open_time = 0.2
 	},
 	type_name = "bomb",

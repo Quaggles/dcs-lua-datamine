@@ -318,7 +318,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		},
 		maxTargetDetectionRange = 30000,
 		radar_rotation_type = 1,
-		radar_type = 103
+		radar_type = 103,
+		searchRadarFrequencies = { { 2000000000, 3000000000 } }
 	},
 	Waypoint_Custom_Panel = true,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Tech/hq7_str.lua",

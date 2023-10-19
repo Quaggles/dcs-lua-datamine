@@ -167,7 +167,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		},
 		fire_on_march = false,
 		maxTargetDetectionRange = 60000,
-		radar_type = 103
+		radar_type = 103,
+		searchRadarFrequencies = { { 6000000000, 10000000000 } }
 	},
 	Waypoint_Custom_Panel = true,
 	animation_arguments = {},

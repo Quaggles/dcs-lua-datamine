@@ -73,6 +73,7 @@ _G["weapons_table"]["weapons"]["bombs"]["250-3"] = {
 	},
 	cx = { 1, 0.29, 0.71, 0.14, 1.28 },
 	display_name = "250-3 - 250kg GP Bombs LD",
+	display_name_short = "250-3 - 250kg GP Bombs LD",
 	mass = 250,
 	model = "250-3",
 	name = "250-3",

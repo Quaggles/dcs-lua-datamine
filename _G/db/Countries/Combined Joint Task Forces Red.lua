@@ -522,6 +522,14 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "S-300PS 5H63C 30H6_tr",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "S-300PS 40B6MD sr_19J6",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "SA-11 Buk CC 9S470M1",
 					in_service = 0,
 					out_of_service = 40000
@@ -1290,6 +1298,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "HEMTT_C-RAM_Phalanx",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "soldier_wwii_us",
 					in_service = 0,
 					out_of_service = 40000
@@ -1974,6 +1986,10 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "Mirage-F1EE"
 				}, {
+					Name = "Mirage-F1BE"
+				}, {
+					Name = "TF-51D"
+				}, {
 					Name = "Yak-52"
 				}, {
 					Name = "Ju-88A4"
@@ -2008,6 +2024,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "L-39ZA",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "MiG-23MLD",
 					in_service = 0,
 					out_of_service = 40000
@@ -2033,10 +2053,6 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "P-51D",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "TF-51D",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -2113,10 +2129,6 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "Mirage-F1CH",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Mirage-F1BE",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -2205,10 +2217,6 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "Su-34",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "L-39ZA",
 					in_service = 0,
 					out_of_service = 40000
 				}, {

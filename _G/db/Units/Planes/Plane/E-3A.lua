@@ -1,5 +1,34 @@
 _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	AOA_take_off = 0.14,
+	AddPropAircraft = { {
+			control = "label",
+			id = "datalink_Label",
+			label = "DATALINK",
+			playerOnly = false,
+			xLbl = 150
+		}, {
+			control = "editbox",
+			getDefault = <function 1>,
+			id = "VoiceCallsignLabel",
+			label = "Voice Callsign Label",
+			onChange = <function 2>,
+			playerOnly = false
+		}, {
+			control = "editbox",
+			getDefault = <function 3>,
+			id = "VoiceCallsignNumber",
+			label = "Voice Callsign Number",
+			onChange = <function 4>,
+			playerOnly = false
+		}, {
+			control = "editbox",
+			getDefault = <function 5>,
+			id = "STN_L16",
+			label = "STN",
+			onChange = <function 6>,
+			onFocus = <function 7>,
+			playerOnly = false
+		} },
 	AmmoWeight = 0,
 	CAS_min = 54,
 	CanopyGeometry = { -0.17364817766693, -0.40821789367673, -0.64278760968654, 0.11161889704895, 0.86602540378444 },

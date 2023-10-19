@@ -891,7 +891,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			DuplicateOf = "Door0"
 		}
 	},
-	nose_gear_pos = { 3.875, -1.835, 0 },
+	nose_gear_pos = { 3.875, -1.81, 0 },
 	nose_gear_wheel_diameter = 0.754,
 	passivCounterm = {
 		CMDS_Edit = true,

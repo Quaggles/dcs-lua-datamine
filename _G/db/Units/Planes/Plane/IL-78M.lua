@@ -187,7 +187,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		OldID = "Refueling",
 		WorldID = 13
 	},
-	DisplayName = "IL-78M Tanker",
+	DisplayName = "IL-78M",
 	EmptyWeight = "98000",
 	H_max = 12000,
 	HumanCockpit = false,
@@ -209,7 +209,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	MaxHeight = "12000",
 	MaxSpeed = "850",
 	MaxTakeOffWeight = "210000",
-	Name = "IL-78M Tanker",
+	Name = "IL-78M",
 	Ny_max = 2.5,
 	Ny_max_e = 2,
 	Ny_min = 0.5,

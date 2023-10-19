@@ -5,7 +5,8 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["QF_2_40mm"] = {
 	PL = { {
 			automaticLoader = false,
 			shell_name = { "AP_T_MkI_40mm" },
-			shot_delay = 2.9
+			shot_delay = 2.9,
+			virtualStwID = 1
 		} },
 	distanceMax = 2000,
 	distanceMin = 10,

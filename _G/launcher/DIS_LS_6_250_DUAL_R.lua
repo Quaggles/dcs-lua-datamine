@@ -22,7 +22,7 @@ _G["launcher"]["DIS_LS_6_250_DUAL_R"] = {
 	category = 1,
 	displayName = "LS-6-250 Dual",
 	ejectDirection = { 0, -1, 0 },
-	ejectImpulse = 330,
+	ejectVelocity = 2,
 	name = "DIS_LS_6_250_DUAL_R",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

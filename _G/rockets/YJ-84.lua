@@ -74,6 +74,7 @@ _G["rockets"]["#Index"] = {
 		march_start = 0.01
 	},
 	display_name = "YJ-84",
+	display_name_short = "YJ-84",
 	engine_control = {
 		K = 300,
 		Kd = 0.01,

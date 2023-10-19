@@ -115,11 +115,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							recoilTime = 0.3
 						} },
 					PL = { {
-							shell_name = { "3BM59_125_AP" },
-							virtualStwID = 1
+							shell_name = { "3BM59_125_AP" }
 						}, {
-							shell_name = { "3BM59_125_AP" },
-							virtualStwID = 2
+							shell_name = { "3BM59_125_AP" }
 						} },
 					beamWidth = 0.017453292519943,
 					sensor = {}
@@ -127,15 +125,10 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					BR = { {} },
 					PL = { {
 							ammo_capacity = 7,
-							reload_time = 140,
-							shell_name = { "2A46M_125_HE" },
-							virtualStwID = 1
+							shell_name = { "2A46M_125_HE" }
 						}, {
 							ammo_capacity = 10,
-							reload_time = 150,
-							shell_name = { "2A46M_125_HE" },
-							shot_delay = 30,
-							virtualStwID = 2
+							shell_name = { "2A46M_125_HE" }
 						} },
 					distanceMax = 8000,
 					distanceMin = 20,
@@ -148,11 +141,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							recoilTime = 0.3
 						} },
 					PL = { {
-							type_ammunition = {},
-							virtualStwID = 1
+							type_ammunition = {}
 						}, {
-							type_ammunition = {},
-							virtualStwID = 2
+							type_ammunition = {}
 						} },
 					sensor = {}
 				}, {

@@ -235,6 +235,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_250_275_AO_1SCH"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag",
+	display_name_short = "RBK-250",
 	mass = 273,
 	model = "rbk-250",
 	name = "RBK_250_275_AO_1SCH",

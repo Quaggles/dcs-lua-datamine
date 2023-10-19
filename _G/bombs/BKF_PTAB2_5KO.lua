@@ -6,6 +6,7 @@ _G["bombs"]["#Index"] = {
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/cluster_bombs.lua",
 	_origin = "AircraftWeaponPack",
 	display_name = "BKF - 12 x PTAB-2.5KO",
+	display_name_short = "BKF - 12 x PTAB-2.5KO",
 	hMax = 1000,
 	hMin = 30,
 	mass = 63.2,

@@ -14,6 +14,7 @@ _G["launcher"]["{B4FC81C9-B861-4E87-BBDC-A1158E648EBF}"] = {
 	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 4, 32, "Redacted" },
 	displayName = "Kh-29T (AS-14 Kedge) - 670kg, ASM, TV Guided",
-	ejectImpulse = 2000,
+	ejectPitchRate = 0,
+	ejectVelocity = 4,
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

@@ -45,7 +45,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			reference_angle_Y = 3.1415926535898
 		},
 		maxTargetDetectionRange = 30000,
-		radar_type = 104
+		radar_type = 104,
+		searchRadarFrequencies = { { 10000000000, 20000000000 } }
 	},
 	Waypoint_Custom_Panel = true,
 	_file = "./CoreMods/tech/TechWeaponPack/Database/db_units_cars.lua",
@@ -91,7 +92,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "rapier_fsa_blindfire_radar",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0.003, 0.0031 }, { 0, 0 }, { 0, 0 }, { 0.15, 0.00027272727272727 } }
+			coeffs = { { 0.031, 0.0022 }, { 0.003, 0.0031 }, { 0.205, 0.005, 2 }, { 0.001, 0.17 }, { 0.15, 0.00027272727272727 } }
 		},
 		agony_explosion_size = 0,
 		fire_pos = {},

@@ -12,6 +12,7 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_M257"] = {
 			delay = 10.1
 		},
 		displayName = "Hydra 70 M257 IL",
+		display_name_short = "Hydra 70 M257",
 		engine = {
 			boost_factor = 1,
 			boost_tail = 1,
@@ -127,6 +128,7 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_M257"] = {
 				},
 				cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 				display_name = "M257 Flare",
+				display_name_short = "M257 Flare",
 				mass = 5,
 				model = "Hydra_M257_Parashute",
 				name = "M257_FLARE",
@@ -232,6 +234,7 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_M257"] = {
 	},
 	cx_pil = 4.7679923901827e-05,
 	display_name = "Hydra 70 M257 IL",
+	display_name_short = "Hydra 70 M257",
 	dist_max = 4000,
 	dist_max_ballistic = 8000,
 	dist_min = 1000,
@@ -248,6 +251,7 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_M257"] = {
 			delay = 10.1
 		},
 		displayName = "Hydra 70 M257 IL",
+		display_name_short = "Hydra 70 M257",
 		engine = {
 			boost_factor = 1,
 			boost_tail = 1,
@@ -363,6 +367,7 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_M257"] = {
 				},
 				cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 				display_name = "M257 Flare",
+				display_name_short = "M257 Flare",
 				mass = 5,
 				model = "Hydra_M257_Parashute",
 				name = "M257_FLARE",

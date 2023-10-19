@@ -34,7 +34,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			id = "AARProbe",
 			label = "Remove AAR Probe",
 			playerOnly = true,
-			weight = 20
+			weight = -20
 		} },
 	AmmoWeight = 79.2,
 	CAS_min = 58,

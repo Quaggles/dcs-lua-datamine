@@ -6,6 +6,7 @@ _G["bombs"]["#Index"] = {
 	_file = "./CoreMods/aircraft/M-2000C/WEAPONS/M2KC_BAP100.lua",
 	_origin = "M-2000C AI by RAZBAM Sims",
 	display_name = "BAP-100",
+	display_name_short = "BAP-100",
 	hMax = 3000,
 	hMin = 50,
 	mass = 32.5,

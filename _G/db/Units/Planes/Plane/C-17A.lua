@@ -13,8 +13,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 65 },
 			critical_damage = 10
 		},
-		[8] = {
-			critical_damage = 10
+		[10] = {
+			critical_damage = 20
 		},
 		[11] = {
 			critical_damage = 3
@@ -22,78 +22,37 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[12] = {
 			critical_damage = 3
 		},
-		[15] = {
-			critical_damage = 10
-		},
-		[16] = {
-			critical_damage = 10
-		},
 		[17] = {
 			critical_damage = 3
 		},
 		[18] = {
 			critical_damage = 3
 		},
-		[25] = {
-			args = { 53 },
-			critical_damage = 5
-		},
-		[26] = {
-			args = { 54 },
-			critical_damage = 5
-		},
 		[35] = {
 			args = { 67 },
 			critical_damage = 20,
-			deps_cells = { 25, 37, 11, 17 }
+			deps_cells = { 11, 17 }
 		},
 		[36] = {
 			args = { 68 },
 			critical_damage = 20,
-			deps_cells = { 26, 38, 12, 18 }
-		},
-		[37] = {
-			args = { 55 },
-			critical_damage = 4
-		},
-		[38] = {
-			args = { 56 },
-			critical_damage = 4
+			deps_cells = { 12, 18 }
 		},
 		[43] = {
 			args = { 61 },
 			critical_damage = 10,
-			deps_cells = { 53, 47, 48, 51, 52 }
-		},
-		[44] = {
-			args = { 62 },
-			critical_damage = 4,
-			deps_cells = { 54 }
+			deps_cells = { 53, 47, 48 }
 		},
 		[47] = {
 			args = { 63 },
-			critical_damage = 5,
-			deps_cells = { 51 }
+			critical_damage = 5
 		},
 		[48] = {
 			args = { 64 },
-			critical_damage = 5,
-			deps_cells = { 52 }
-		},
-		[51] = {
-			args = { 59 },
-			critical_damage = 2
-		},
-		[52] = {
-			args = { 60 },
-			critical_damage = 2
+			critical_damage = 5
 		},
 		[53] = {
 			args = { 57 },
-			critical_damage = 2
-		},
-		[54] = {
-			args = { 58 },
 			critical_damage = 2
 		},
 		[55] = {
@@ -124,6 +83,20 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		area = { 15, 5.28, 3.96 },
 		maximalCapacity = 77500,
 		nominalCapacity = 56245,
+		out_door = {
+			rampa_left = {
+				heading = 2.7925268031909,
+				large = false,
+				x = -12,
+				z = -1.5
+			},
+			rampa_right = {
+				heading = -2.7925268031909,
+				large = false,
+				x = -12,
+				z = 1.5
+			}
+		},
 		para_unit_point = 102,
 		unit_block = { 0.59, 1.32 },
 		unit_point = 102

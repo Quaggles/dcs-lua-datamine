@@ -3,7 +3,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	AmmoWeight = 0,
 	CAS_min = 56,
 	CanopyGeometry = { -0.087155742747658, -0.51342418176678, -0.93969262078591, -0.51342418176678, -0.087155742747658 },
-	Countries = { "Russia", "Ukraine", "Germany", "USA", "Italy", "UK", "Turkey", "Canada", "France", "Spain", "Belgium", "The Netherlands", "Norway", "Denmark", "Georgia", "Israel", "Australia", "Abkhazia" },
 	Damage = { {
 			args = { 150 },
 			critical_damage = 5
@@ -1366,9 +1365,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Waypoint_Custom_Panel = true,
 	WingSpan = 9.12,
 	WorldID = 65,
-	_file = "./Mods/aircraft/TF-51D/TF-51D.lua",
+	_file = "./CoreMods/aircraft/TF-51D/TF-51D.lua",
 	_file_flyable = "./Mods/aircraft/TF-51D/entry.lua",
-	_origin = "TF-51D Mustang by Eagle Dynamics",
+	_origin = "TF-51D Mustang AI by Eagle Dynamics",
 	_origin_flyable = "TF-51D Mustang by Eagle Dynamics",
 	attribute = { 1, 1, 1, "Redacted", "Battleplanes", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },
 	average_fuel_consumption = 0.302,
@@ -1377,7 +1376,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	country_of_origin = "USA",
 	crew_members = { {
 			canopy_pos = { 0, 0, 0 },
-			drop_canopy_name = 336,
+			drop_canopy_name = 334,
 			drop_parachute_name = "pilot_p51_parachute",
 			ejection_seat_name = 0,
 			pilot_name = 56,
@@ -1385,7 +1384,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			role = "pilot",
 			role_display_name = "Pilot"
 		} },
-	defFuelRatio = 0.68,
+	date_of_introduction = 1945,
 	detection_range_max = 0,
 	engines_count = 1,
 	engines_nozzles = { {
@@ -1589,46 +1588,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	net_animation = { 278, 279, 420 },
 	nose_gear_pos = { -4.99, -0.82, 0 },
 	nose_gear_wheel_diameter = 0.319,
-	panelRadio = { {
-			ID = "SCR522",
-			channels = { {
-					connect = true,
-					default = 105,
-					modulation = "AM",
-					name = "Channel A"
-				}, {
-					default = 124,
-					modulation = "AM",
-					name = "Channel B"
-				}, {
-					default = 131,
-					modulation = "AM",
-					name = "Channel C"
-				}, {
-					default = 139,
-					modulation = "AM",
-					name = "Channel D"
-				} },
-			displayUnits = "MHz",
-			name = "SCR-522",
-			range = {
-				max = 156,
-				min = 38
-			}
-		}, {
-			ID = "BC1206",
-			channels = { {
-					default = 108.9,
-					modulation = "AM",
-					name = "Initial Frequency"
-				} },
-			displayUnits = "MHz",
-			name = "BC-1206",
-			range = {
-				max = 200,
-				min = 100
-			}
-		} },
 	propellorShapeName = "P-51D_blade.FBX",
 	propellorShapeType = "3ARG_PROC_BLUR",
 	radar_can_see_ground = false,

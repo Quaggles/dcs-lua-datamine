@@ -11,7 +11,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP125LD"] = {
 		_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
 		_origin = "AircraftWeaponPack",
 		arming_delay = {
-			delay_time = 2,
+			delay_time = 0.8,
 			enabled = true
 		},
 		arming_vane = {
@@ -33,12 +33,16 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP125LD"] = {
 			wind_sigma = 30,
 			wind_time = 1000
 		},
+		fuze = {
+			default_arm_delays = { 2 },
+			is_vane_anim_required = true
+		},
 		hMax = 12000,
 		hMin = 50,
 		mass = 120,
 		model = "SAMP_125",
 		name = "SAMP125LD",
-		scheme = "schemes/bombs/bomb-common-anim.sch",
+		scheme = "schemes/bombs/bomb_common_v2.sch",
 		shape_table_data = { {
 				file = "SAMP_125",
 				index = "Redacted",
@@ -66,6 +70,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP125LD"] = {
 	},
 	cx = { 1, 0.32, 0.71, 0.15, 1.28 },
 	display_name = "SAMP-125 LD",
+	display_name_short = "SAMP-125 LD",
 	mass = 120,
 	model = "SAMP_125",
 	name = "SAMP125LD",
@@ -75,7 +80,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP125LD"] = {
 		_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
 		_origin = "AircraftWeaponPack",
 		arming_delay = {
-			delay_time = 2,
+			delay_time = 0.8,
 			enabled = true
 		},
 		arming_vane = {
@@ -97,12 +102,16 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP125LD"] = {
 			wind_sigma = 30,
 			wind_time = 1000
 		},
+		fuze = {
+			default_arm_delays = { 2 },
+			is_vane_anim_required = true
+		},
 		hMax = 12000,
 		hMin = 50,
 		mass = 120,
 		model = "SAMP_125",
 		name = "SAMP125LD",
-		scheme = "schemes/bombs/bomb-common-anim.sch",
+		scheme = "schemes/bombs/bomb_common_v2.sch",
 		shape_table_data = { {
 				file = "SAMP_125",
 				index = "Redacted",

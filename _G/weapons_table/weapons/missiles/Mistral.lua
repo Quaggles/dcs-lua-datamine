@@ -75,6 +75,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Mistral"] = {
 			march2_start = 0,
 			march_start = 0.6
 		},
+		display_name_short = "Mistral",
 		fm = {
 			A = 0.6,
 			I = 5.39121,
@@ -185,6 +186,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Mistral"] = {
 		wsTypeOfWeapon = { 4, 4, 34, "Redacted" }
 	},
 	display_name = "Mistral",
+	display_name_short = "Mistral",
 	mass = 18.7,
 	model = "mistral_missile",
 	name = "Mistral",
@@ -260,6 +262,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Mistral"] = {
 			march2_start = 0,
 			march_start = 0.6
 		},
+		display_name_short = "Mistral",
 		fm = {
 			A = 0.6,
 			I = 5.39121,

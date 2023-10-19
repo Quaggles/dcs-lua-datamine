@@ -16,7 +16,8 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_105"] = {
 			bomblet_chute_char_time = 98,
 			bomblet_chute_cut_time = 9000,
 			bomblet_chute_open_time = 0.3,
-			char_time = 20.39,
+			bomblet_wind_coeff = 1.5,
+			char_time = 20.395,
 			delay = 1,
 			final_dive = 0.78539816339745,
 			fins_limit = 0.6,
@@ -233,14 +234,14 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_105"] = {
 						caliber = 80,
 						concrete_factors = { 1, 1, 1 },
 						concrete_obj_factor = 0,
-						cumulative_factor = 3,
+						cumulative_factor = 4,
 						cumulative_thickness = 0.65,
-						expl_mass = 3,
+						expl_mass = 0.3,
 						fantom = 1,
 						mass = 4.6,
 						obj_factors = { 1, 1 },
 						other_factors = { 1, 1, 1 },
-						piercing_mass = 0.92
+						piercing_mass = 4.6
 					}
 				},
 				display_name = "BLU-108",
@@ -426,14 +427,14 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_105"] = {
 						caliber = 80,
 						concrete_factors = { 1, 1, 1 },
 						concrete_obj_factor = 0,
-						cumulative_factor = 3,
+						cumulative_factor = 4,
 						cumulative_thickness = 0.65,
-						expl_mass = 3,
+						expl_mass = 0.3,
 						fantom = 0,
 						mass = 4.6,
 						obj_factors = { 1, 1 },
 						other_factors = { 1, 1, 1 },
-						piercing_mass = 0.92
+						piercing_mass = 4.6
 					}
 				},
 				sounderName = "Weapons/ClusterBomblets",
@@ -470,7 +471,8 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_105"] = {
 			bomblet_chute_char_time = 98,
 			bomblet_chute_cut_time = 9000,
 			bomblet_chute_open_time = 0.3,
-			char_time = 20.39,
+			bomblet_wind_coeff = 1.5,
+			char_time = 20.395,
 			delay = 1,
 			final_dive = 0.78539816339745,
 			fins_limit = 0.6,
@@ -687,14 +689,14 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_105"] = {
 						caliber = 80,
 						concrete_factors = { 1, 1, 1 },
 						concrete_obj_factor = 0,
-						cumulative_factor = 3,
+						cumulative_factor = 4,
 						cumulative_thickness = 0.65,
-						expl_mass = 3,
+						expl_mass = 0.3,
 						fantom = 1,
 						mass = 4.6,
 						obj_factors = { 1, 1 },
 						other_factors = { 1, 1, 1 },
-						piercing_mass = 0.92
+						piercing_mass = 4.6
 					}
 				},
 				display_name = "BLU-108",
@@ -880,14 +882,14 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_105"] = {
 						caliber = 80,
 						concrete_factors = { 1, 1, 1 },
 						concrete_obj_factor = 0,
-						cumulative_factor = 3,
+						cumulative_factor = 4,
 						cumulative_thickness = 0.65,
-						expl_mass = 3,
+						expl_mass = 0.3,
 						fantom = 0,
 						mass = 4.6,
 						obj_factors = { 1, 1 },
 						other_factors = { 1, 1, 1 },
-						piercing_mass = 0.92
+						piercing_mass = 4.6
 					}
 				},
 				sounderName = "Weapons/ClusterBomblets",
@@ -904,8 +906,9 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_105"] = {
 	},
 	sounderName = "Weapons/Bomb",
 	targeting_data = {
-		bomblet_char_time = 80,
-		char_time = 20.39
+		bomblet_char_time = 72,
+		char_time = 20.395,
+		wind_coeff = 1.5
 	},
 	type_name = "bomb",
 	ws_type = { 4, 5, 38, "Redacted" }

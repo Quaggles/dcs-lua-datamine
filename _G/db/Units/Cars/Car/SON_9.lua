@@ -20,7 +20,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					max_trg_alt = 14000,
 					min_trg_alt = 25,
 					reactionTime = 1,
-					reflection_limit = 0.01,
+					reflection_limit = 0.04,
 					type = 103
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 1.5707963267949 } },
@@ -166,7 +166,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					sensor = {
 						Tau = 0.1,
 						deviation_error_azimuth = 0.0004,
-						deviation_error_distance = 0.01,
+						deviation_error_distance = 0.001,
 						deviation_error_elevation = 0.0004,
 						deviation_error_speed_sensor = 0.005,
 						deviation_error_stability = 0.01,
@@ -181,7 +181,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		},
 		maxTargetDetectionRange = 55000,
 		radar_rotation_type = 2,
-		radar_type = 103
+		radar_type = 103,
+		searchRadarFrequencies = { { 2700000000, 2900000000 } }
 	},
 	Waypoint_Custom_Panel = true,
 	_file = "./CoreMods/tech/TechWeaponPack/Database/db_units_cars.lua",
@@ -232,7 +233,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "SON_9",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0, 0 }, { 0, 0 }, { 0, 0 }, { 0.2, 0.00026666666666667 } }
+			coeffs = { { 0.031, 0.0022 }, { 0, 0 }, { 0.205, 0.005, 2 }, { 0.001, 0.17 }, { 0.2, 0.00026666666666667 } }
 		},
 		agony_explosion_size = 5,
 		fire_pos = { 0, 1.5, 0 },

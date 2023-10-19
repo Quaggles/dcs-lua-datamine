@@ -73,6 +73,7 @@ _G["rockets"]["#Index"] = {
 		march_start = 0.6
 	},
 	display_name = "Mistral",
+	display_name_short = "Mistral",
 	fm = {
 		A = 0.6,
 		I = 5.39121,

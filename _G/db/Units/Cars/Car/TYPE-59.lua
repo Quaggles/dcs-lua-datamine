@@ -24,17 +24,14 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						} },
 					PL = { {
 							ammo_capacity = 6,
-							reload_time = 90,
 							shell_name = { "3UBM11_100mm_AP" },
-							shot_delay = 8.5,
-							virtualStwID = 1
+							shot_delay = 8.5
 						}, {
 							ammo_capacity = 26,
 							automaticLoader = false,
-							reload_time = 390,
+							portion_reload_time = 15,
 							shell_name = { "3UBM11_100mm_AP" },
-							shot_delay = 13.5,
-							virtualStwID = 2
+							shot_delay = 13.5
 						} },
 					sensor = {},
 					sightIndicationMode = 1,
@@ -43,16 +40,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					BR = { {} },
 					PL = { {
 							ammo_capacity = 2,
-							reload_time = 30,
 							shell_name = { "UOF412_100HE" },
-							shot_delay = 8.5,
-							virtualStwID = 1
+							shot_delay = 8.5
 						}, {
 							ammo_capacity = 9,
-							reload_time = 135,
 							shell_name = { "UOF412_100HE" },
-							shot_delay = 13.5,
-							virtualStwID = 2
+							shot_delay = 13.5
 						} },
 					distanceMax = 8000,
 					distanceMin = 20,
@@ -163,7 +156,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	category = "Armor",
 	chassis = {},
 	crew_locale = "CHN",
-	crew_members = { "gunner" },
+	crew_members = { "gunner", "loader" },
 	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
 	driverViewConnectorName = { "PNT_DRIVER",
 		offset = { 0.05, 0, 0 }

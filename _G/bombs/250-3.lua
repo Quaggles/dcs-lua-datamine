@@ -6,6 +6,7 @@ _G["bombs"]["#Index"] = {
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/bomb_misc.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	display_name = "250-3 - 250kg GP Bombs LD",
+	display_name_short = "250-3 - 250kg GP Bombs LD",
 	hMax = 10000,
 	hMin = 100,
 	mass = 250,

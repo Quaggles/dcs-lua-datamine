@@ -15,6 +15,7 @@ _G["launcher"]["{D8F2C90B-887B-4B9E-9FE2-996BC9E9AF0A}"] = {
 	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 4, 32, "Redacted" },
 	displayName = "Kh-31P (AS-17 Krypton) - 600kg, ARM, IN & Pas Rdr",
-	ejectImpulse = 2000,
+	ejectPitchRate = 0,
+	ejectVelocity = 4,
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

@@ -16,7 +16,7 @@ _G["launcher"]["{F4-2-AIM9P5}"] = {
 		} },
 	Picture = "us_AIM-9P-5.png",
 	PictureBlendColor = "0xffffffff",
-	Weight = 201,
+	Weight = 191.4,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/aim9_family.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },

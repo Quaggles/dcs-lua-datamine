@@ -454,7 +454,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					beamWidth = 1.5707963267949,
 					distanceMax = 150000,
 					distanceMin = 1000,
-					frequencyRange = { 500000000, 580000000 },
+					frequencyRange = { 8000000000, 12000000000 },
 					max_number_of_missiles_channels = 2,
 					max_trg_alt = 30000,
 					min_trg_alt = 5,
@@ -1452,7 +1452,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		},
 		maxTargetDetectionRange = 450000,
 		radar_type = 102,
-		searchRadarFrequencies = { { 50000000, 54000000 }, { 2000000000, 2200000000 } },
+		searchRadarFrequencies = { { 3100000, 3500000 }, { 850000000, 942000000 } },
 		searchRadarMaxElevation = 1.0471975511966
 	},
 	Waypoint_Custom_Panel = true,

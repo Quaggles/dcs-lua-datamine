@@ -249,6 +249,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BKF_AO2_5RT"] = {
 	},
 	cx = { 0, 0.9, 0.9, 1, 2 },
 	display_name = "BKF - 12 x AO-2.5RT",
+	display_name_short = "BKF - 12 x AO-2.5RT",
 	mass = 76,
 	model = "ao-2_5rt_block2",
 	name = "BKF_AO2_5RT",

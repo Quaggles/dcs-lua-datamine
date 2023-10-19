@@ -1,22 +1,23 @@
 _G["launcher"]["{R-60 2L}"] = {
 	CLSID = "{R-60 2L}",
 	Count = 2,
-	Cx_pil = 0.0002,
-	Elements = { "_G/Pylons/apu-60-2l.lua", {
-			Position = { 0.58, -0.255, 0 },
-			ShapeName = "r-60a"
+	Cx_pil = 0.0012396484375,
+	Elements = { {
+			ShapeName = "apu-60-2_L"
 		}, {
-			Position = { 0.58, -0.077, -0.13 },
-			Rotation = { 90, 0, 0 },
-			ShapeName = "r-60a"
+			ShapeName = "r-60a",
+			connector_name = "Point Pilon R60"
+		}, {
+			ShapeName = "r-60a",
+			connector_name = "Point Pilon R60_1"
 		} },
 	Picture = "r60.png",
-	Weight = 122,
-	_file = "./CoreMods/aircraft/MiG-21BIS/Entry/Aw",
-	_origin = "MiG-21Bis AI by Magnitude 3 LLC",
+	Weight = 157,
+	Weight_Empty = 71,
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/R_60.lua",
+	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 4,
-	displayName = "R-60 x 2",
-	name = "{R-60 2L}",
+	displayName = "APU-60-2M with 2 x R-60 (AA-8 Aphid) - IR AAM",
 	wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 }

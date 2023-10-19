@@ -259,6 +259,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BKF_PTAB2_5KO"] = {
 	},
 	cx = { 0, 0.9, 0.9, 1, 2 },
 	display_name = "BKF - 12 x PTAB-2.5KO",
+	display_name_short = "BKF - 12 x PTAB-2.5KO",
 	mass = 63.2,
 	model = "ptab-2_5ko_block2",
 	name = "BKF_PTAB2_5KO",

@@ -14,7 +14,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		OldID = "Refueling",
 		WorldID = 13
 	},
-	DisplayName = "KC-135MPRS Tanker",
+	DisplayName = "KC-135MPRS",
 	EPLRS = true,
 	EmptyWeight = 44663,
 	H_max = 12000,
@@ -36,7 +36,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	MaxHeight = 12000,
 	MaxSpeed = 1009.008,
 	MaxTakeOffWeight = 146000,
-	Name = "KC-135MPRS Tanker",
+	Name = "KC-135MPRS",
 	Ny_max = 2.5,
 	Ny_max_e = 2,
 	Ny_min = 0.5,

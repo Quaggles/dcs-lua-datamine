@@ -50,6 +50,7 @@ _G["weapons_table"]["weapons"]["missiles"]["BK90_MJ1"] = {
 		},
 		category = 2,
 		class_name = "wAmmunitionSelfHoming",
+		display_name_short = "BK90 MJ1",
 		fm = {
 			A = 0.13,
 			I = 270,
@@ -243,6 +244,7 @@ _G["weapons_table"]["weapons"]["missiles"]["BK90_MJ1"] = {
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	display_name = "BK90 MJ1",
+	display_name_short = "BK90 MJ1",
 	mass = 605,
 	model = "BK_90",
 	name = "BK90_MJ1",
@@ -292,6 +294,7 @@ _G["weapons_table"]["weapons"]["missiles"]["BK90_MJ1"] = {
 		},
 		category = 2,
 		class_name = "wAmmunitionSelfHoming",
+		display_name_short = "BK90 MJ1",
 		fm = {
 			A = 0.13,
 			I = 270,

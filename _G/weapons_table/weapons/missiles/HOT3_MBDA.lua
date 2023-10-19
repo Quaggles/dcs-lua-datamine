@@ -59,6 +59,7 @@ _G["weapons_table"]["weapons"]["missiles"]["HOT3_MBDA"] = {
 			boost_start = 0,
 			march_start = 0.9
 		},
+		display_name_short = "HOT3",
 		eng_err = {
 			max_time_interval = 0.9,
 			min_time_interval = 0.1,
@@ -147,6 +148,7 @@ _G["weapons_table"]["weapons"]["missiles"]["HOT3_MBDA"] = {
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	display_name = "HOT3",
+	display_name_short = "HOT3",
 	mass = 24.5,
 	model = "hot3",
 	name = "HOT3_MBDA",
@@ -205,6 +207,7 @@ _G["weapons_table"]["weapons"]["missiles"]["HOT3_MBDA"] = {
 			boost_start = 0,
 			march_start = 0.9
 		},
+		display_name_short = "HOT3",
 		eng_err = {
 			max_time_interval = 0.9,
 			min_time_interval = 0.1,

@@ -90,6 +90,7 @@ _G["weapons_table"]["weapons"]["missiles"]["LD-10"] = {
 		conv = {
 			seeker_add_pitch = -0.34906585039887
 		},
+		display_name_short = "LD-10",
 		exhaust = { 1, 1, 1, 0.8 },
 		fm = {
 			A1trim = { 4, 6, 10, 15 },
@@ -209,6 +210,7 @@ _G["weapons_table"]["weapons"]["missiles"]["LD-10"] = {
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	display_name = "LD-10",
+	display_name_short = "LD-10",
 	mass = 199,
 	model = "ld10",
 	name = "LD-10",
@@ -298,6 +300,7 @@ _G["weapons_table"]["weapons"]["missiles"]["LD-10"] = {
 		conv = {
 			seeker_add_pitch = -0.34906585039887
 		},
+		display_name_short = "LD-10",
 		exhaust = { 1, 1, 1, 0.8 },
 		fm = {
 			A1trim = { 4, 6, 10, 15 },

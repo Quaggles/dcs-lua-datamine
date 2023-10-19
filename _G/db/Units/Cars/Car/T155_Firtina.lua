@@ -164,6 +164,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			drawArgument2 = 25,
 			omegaY = 0.87266462599716,
 			omegaZ = 0.87266462599716,
+			pidY = {
+				d = 15,
+				i = 20,
+				inn = 10,
+				p = 100
+			},
+			pidZ = {
+				d = 15,
+				i = 20,
+				inn = 10,
+				p = 100
+			},
 			pointer = "POINT_SIGHT_02"
 		},
 		fire_on_march = false,
@@ -185,6 +197,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
 	driverViewConnectorName = { "DRIVER_POINT" },
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = { 0.267,
+			[0] = 0.067,
+			[3] = 1
+		}
+	},
 	mapclasskey = "P0091000006",
 	sensor = {
 		height = 2.8

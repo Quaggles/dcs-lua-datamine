@@ -1,7 +1,7 @@
 _G["launcher"]["DIS_H6_250_2_N24"] = {
 	CLSID = "DIS_H6_250_2_N24",
 	Count = 24,
-	Cx_pil = 0,
+	Cx_pil = 0.0240759,
 	Elements = { {
 			Position = { 2.2, 0.64, -0.5 },
 			ShapeName = "250-2"
@@ -82,7 +82,7 @@ _G["launcher"]["DIS_H6_250_2_N24"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "24 x 250-2 - 250kg GP Bombs HD",
-	ejectImpulse = 140,
+	ejectVelocity = 1.8,
 	name = "DIS_H6_250_2_N24",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

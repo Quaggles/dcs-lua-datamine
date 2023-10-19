@@ -6,6 +6,7 @@ _G["bombs"]["#Index"] = {
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/KABs.lua",
 	_origin = "AircraftWeaponPack",
 	display_name = "KAB-1500LG-Pr",
+	display_name_short = "KAB-1500LG-Pr",
 	hMax = 10000,
 	hMin = 1000,
 	mass = 1525,

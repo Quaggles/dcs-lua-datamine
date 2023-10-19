@@ -33,6 +33,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							shell_name = {}
 						} },
 					fireAnimationArgument = -1,
+					machineGunBeltArgument = 90,
 					reactionTime = 0.5,
 					sensor = {},
 					sightIndicationMode = 1,

@@ -225,16 +225,14 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						} },
 					PL = { {
 							ammo_capacity = 11,
-							reload_time = 165,
+							portion_reload_time = 15,
 							shell_name = { "M256_120_AP" },
-							shot_delay = 6,
-							virtualStwID = 1
+							shot_delay = 6
 						}, {
 							ammo_capacity = 14,
-							reload_time = 210,
+							portion_reload_time = 15,
 							shell_name = { "M256_120_AP" },
-							shot_delay = 18,
-							virtualStwID = 2
+							shot_delay = 18
 						} },
 					beamWidth = 0.017453292519943,
 					combatRange = 1200,
@@ -246,16 +244,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					BR = { {} },
 					PL = { {
 							ammo_capacity = 7,
-							reload_time = 90,
 							shell_name = { "M256_120_HE" },
-							shot_delay = 6,
-							virtualStwID = 1
+							shot_delay = 6
 						}, {
 							ammo_capacity = 10,
-							reload_time = 150,
 							shell_name = { "M256_120_HE" },
-							shot_delay = 18,
-							virtualStwID = 2
+							shot_delay = 18
 						} },
 					combatRange = 800,
 					distanceMax = 8000,
@@ -335,6 +329,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			drawArgument2 = 26,
 			omegaY = 0.87266462599716,
 			omegaZ = 0.87266462599716,
+			pidY = {
+				d = 15,
+				i = 20,
+				inn = 10,
+				p = 100
+			},
+			pidZ = {
+				d = 15,
+				i = 20,
+				inn = 10,
+				p = 100
+			},
 			pointer = "POINT_SIGHT_CWS"
 		},
 		maxTargetDetectionRange = 6000,
@@ -355,7 +361,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		gearRatios = {}
 	},
 	crew_locale = "ENG",
-	crew_members = { "commander", "gunner" },
+	crew_members = { "commander", "gunner", "loader" },
 	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
 	driverViewConnectorName = { "DRIVER_POINT",
 		offset = { 0.05, 0, 0 }

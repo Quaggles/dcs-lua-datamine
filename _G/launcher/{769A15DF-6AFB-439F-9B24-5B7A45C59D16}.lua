@@ -4,8 +4,12 @@ _G["launcher"]["{769A15DF-6AFB-439F-9B24-5B7A45C59D16}"] = {
 			ShapeName = "AGM-86"
 		} },
 	Picture = "AGM86.png",
-	Weight = 1950,
-	_file = "Scripts/Database/db_weapons_data.lua",
-	attribute = { 4, 4, 8, "Redacted", "Cruise missiles" },
-	displayName = "AGM-86D"
+	Weight = 1450,
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/cruise_missiles.lua",
+	_origin = "AircraftWeaponPack",
+	attribute = { 4, 4, 8, "Redacted" },
+	category = 2,
+	displayName = "AGM-86D",
+	ejectPitchRate = -10,
+	ejectVelocity = 1
 }

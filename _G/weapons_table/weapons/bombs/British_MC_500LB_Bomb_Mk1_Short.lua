@@ -79,6 +79,7 @@ _G["weapons_table"]["weapons"]["bombs"]["British_MC_500LB_Bomb_Mk1_Short"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "500 lb MC Short tail",
+	display_name_short = "500 lb MC Short tail",
 	mass = 226.3,
 	model = "500_lb_mc_short_tailed_type",
 	name = "British_MC_500LB_Bomb_Mk1_Short",

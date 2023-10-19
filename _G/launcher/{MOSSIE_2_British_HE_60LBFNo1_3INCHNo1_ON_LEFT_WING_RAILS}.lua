@@ -14,7 +14,7 @@ _G["launcher"]["{MOSSIE_2_British_HE_60LBFNo1_3INCHNo1_ON_LEFT_WING_RAILS}"] = {
 	PictureBlendColor = "0xffffffff",
 	Weight = 193.2,
 	Weight_Empty = 130,
-	_file = "./CoreMods/WWII Units/MosquitoFBMkVI/MosquitoFBMkVI.lua",
+	_file = "./CoreMods/WWII Units/Weapons/Weapons.lua",
 	_origin = "World War II AI Units by Eagle Dynamics",
 	attribute = <1>{ 4, 7, 33, "Redacted" },
 	category = 3,
@@ -25,18 +25,18 @@ _G["launcher"]["{MOSSIE_2_British_HE_60LBFNo1_3INCHNo1_ON_LEFT_WING_RAILS}"] = {
 			control = "comboList",
 			defValue = 1,
 			dimension = "",
-			id = "GUI_fuze_type",
-			label = "Fuze Type",
+			id = "NFP_fuze_type_nose",
+			label = "Nose Fuze Well",
 			stringIndex = 1,
 			values = { {
 					dispName = "Nose Fuze No. 899 Mk I",
 					id = 1
 				} },
-			wCtrl = 355,
-			xCtrl = 170
+			wCtrl = 360,
+			xCtrl = 180
 		}, {
 			VisibilityCondition = { {
-					id = "GUI_fuze_type",
+					id = "NFP_fuze_type_nose",
 					value = 1
 				} },
 			baseDim = "s",
@@ -45,16 +45,18 @@ _G["launcher"]["{MOSSIE_2_British_HE_60LBFNo1_3INCHNo1_ON_LEFT_WING_RAILS}"] = {
 			dimension = "s",
 			id = "function_delay_ctrl_NFNo899MkI",
 			label = "Function Delay",
-			max = 3600,
+			max = 1000000000000,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 2,
-			xCtrl = 170,
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 180,
 			xLbl = 10
 		}, {
 			VisibilityCondition = { {
-					id = "GUI_fuze_type",
+					id = "NFP_fuze_type_nose",
 					value = 1
 				} },
 			baseDim = "s",
@@ -63,13 +65,15 @@ _G["launcher"]["{MOSSIE_2_British_HE_60LBFNo1_3INCHNo1_ON_LEFT_WING_RAILS}"] = {
 			dimension = "s",
 			id = "arm_delay_ctrl_NFNo899MkI",
 			label = "Arm Delay",
-			max = 3600,
+			max = 1000000000000,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 2,
-			xCtrl = 465,
-			xLbl = 285
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 480,
+			xLbl = 290
 		} },
 	wsTypeOfWeapon = <table 1>
 }

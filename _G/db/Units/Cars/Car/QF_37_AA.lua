@@ -22,7 +22,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							shell_display_name = 'QF 3,7" HE',
 							shell_name = { "QF94_AA_HE" },
 							shot_delay = 6,
-							switch_on_delay = 0.1
+							switch_on_delay = 0.1,
+							virtualStwID = 1
 						} },
 					connectorFire = true,
 					depends_on_unit = { { { "Allies_Director", 2 } }, { { "none" } } },

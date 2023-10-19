@@ -6,6 +6,7 @@ _G["bombs"]["#Index"] = {
 	_file = "./CoreMods/aircraft/I-16/entry.lua",
 	_origin = "I-16 AI by OctopusG",
 	display_name = "FAB-100SV",
+	display_name_short = "FAB-100SV",
 	hMax = 12000,
 	hMin = 1000,
 	mass = 100,

@@ -6,7 +6,8 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["tank_gun_2A28"] = {
 			ammo_capacity = 40,
 			reload_time = 600,
 			shell_name = { "2A28_73" },
-			shot_delay = 7
+			shot_delay = 7,
+			virtualStwID = 1
 		} },
 	distanceMax = 600,
 	distanceMin = 10,

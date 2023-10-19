@@ -137,6 +137,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BELOUGA"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "Belouga",
+	display_name_short = "Belouga",
 	mass = 290,
 	model = "BELOUGA",
 	name = "BELOUGA",

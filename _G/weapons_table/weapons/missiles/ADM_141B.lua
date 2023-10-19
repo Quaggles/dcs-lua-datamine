@@ -64,6 +64,7 @@ _G["weapons_table"]["weapons"]["missiles"]["ADM_141B"] = {
 			turn_max_calc_angle_deg = 90,
 			turn_point_trigger_dist = 100
 		},
+		display_name_short = "ADM-141B",
 		engine_control = {
 			K = 0,
 			Kd = 0,
@@ -148,6 +149,7 @@ _G["weapons_table"]["weapons"]["missiles"]["ADM_141B"] = {
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	display_name = "ADM-141B",
+	display_name_short = "ADM-141B",
 	mass = 180,
 	model = "ADM_141",
 	name = "ADM_141B",
@@ -210,6 +212,7 @@ _G["weapons_table"]["weapons"]["missiles"]["ADM_141B"] = {
 			turn_max_calc_angle_deg = 90,
 			turn_point_trigger_dist = 100
 		},
+		display_name_short = "ADM-141B",
 		engine_control = {
 			K = 0,
 			Kd = 0,

@@ -99,8 +99,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					PL = { {
 							ammo_capacity = 40,
 							reload_time = 420,
-							rocket_name = "weapons.nurs.GRAD_9M22U",
-							shot_delay = 0.01
+							shot_delay = 0.01,
+							type_ammunition = "weapons.nurs.GRAD_9M22U"
 						} },
 					barrels_reload_type = 3,
 					customViewPoint = { "genericMLRS", { -3, 0.3, -0.8 },
@@ -158,6 +158,13 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	chassis = {},
 	driverViewConnectorName = "POINT_DRIVER",
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = { 0.278,
+			[0] = 0.38,
+			[3] = 1,
+			[9] = 1
+		}
+	},
 	mapclasskey = "P0091000208",
 	sensor = {
 		height = 2.85

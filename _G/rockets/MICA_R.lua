@@ -30,6 +30,7 @@ _G["rockets"]["#Index"] = {
 	_unique_resource_name = "weapons.missiles.MICA_R",
 	ccm_k0 = 0.2,
 	display_name = "MICA-RF",
+	display_name_short = "MICA-RF",
 	exhaust = { 1, 1, 1, 1 },
 	hoj = 1,
 	name = "MICA_R",

@@ -1,6 +1,6 @@
 _G["weapons_table"]["weapons"]["shells"]["M825A1_155_SM"] = {
 	AP_cap_caliber = 155,
-	Da0 = 0.001,
+	Da0 = 0.0008,
 	Da1 = 0.00044,
 	Dv0 = 0.003,
 	_unique_resource_name = "weapons.shells.M825A1_155_SM",

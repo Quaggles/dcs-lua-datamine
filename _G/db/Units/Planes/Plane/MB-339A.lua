@@ -1,11 +1,188 @@
 _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	AOA_take_off = 0.16,
 	AddPropAircraft = { {
+			arg = 472,
+			argTbl = {
+				[false] = 0,
+				[true] = 0.99
+			},
 			control = "checkbox",
 			defValue = false,
 			id = "SoloFlight",
 			label = "Solo Flight",
 			weightWhenOn = -85
+		}, {
+			arg = 1998,
+			control = "checkbox",
+			defValue = false,
+			id = "MountBlindHood",
+			label = "Mount Blind Hood",
+			playerOnly = false
+		}, {
+			arg = 550,
+			control = "comboList",
+			id = "PilotEquipment",
+			label = "Pilot Equipment",
+			values = { {
+					dispName = "Livery Default"
+				}, {
+					dispName = "HGU-55P + Secumar",
+					id = 1,
+					value = 0
+				}, {
+					dispName = "HGU-33 + Aerazur",
+					id = 2,
+					value = 0.8
+				} },
+			wCtrl = 150
+		}, {
+			arg = 999,
+			control = "comboList",
+			id = "AircraftVariant",
+			label = "Aircraft Variant",
+			values = { {
+					dispName = "Livery Default"
+				}, {
+					dispName = "Pre-MLU",
+					id = 1,
+					value = 1
+				}, {
+					dispName = "MLU",
+					id = 2,
+					value = 0
+				} },
+			wCtrl = 150
+		}, {
+			control = "label",
+			id = "spacer_Label",
+			label = ""
+		}, {
+			control = "label",
+			id = "ARMAMENT",
+			label = "ARMAMENT",
+			xLbl = 120
+		}, {
+			control = "label",
+			id = "gunsight_Label",
+			label = "Gunsight & Gun Camera"
+		}, {
+			arg = 477,
+			argTbl = {
+				[false] = 1,
+				[true] = 0
+			},
+			control = "checkbox",
+			defValue = true,
+			id = "SAAB_RGS-2_Gunsight",
+			label = "SAAB RGS-2 Gunsight mounted"
+		}, {
+			arg = 954,
+			control = "checkbox",
+			defValue = false,
+			id = "Teledyne_TCS_116-2",
+			label = "Teledyne TCS 116-2 Gun Camera stored",
+			wCtrl = 380,
+			wLbl = 350,
+			xCtrl = 250
+		}, {
+			control = "label",
+			id = "spacer_Label",
+			label = ""
+		}, {
+			control = "label",
+			id = "can_Label",
+			label = "Gunpods",
+			playerOnly = true
+		}, {
+			control = "comboList",
+			defValue = 0.5,
+			id = "DEFA_553_Burst",
+			label = "DEFA 553 Burst",
+			playerOnly = true,
+			values = { {
+					dispName = "0.5 Seconds",
+					id = 0.5
+				}, {
+					dispName = "1.0 Second",
+					id = 1
+				} },
+			wCtrl = 100,
+			xCtrl = 100
+		}, {
+			control = "checkbox",
+			defValue = false,
+			id = "EnableCutOff",
+			label = "Enable Cut Off",
+			playerOnly = true,
+			xCtrl = 100
+		}, {
+			control = "label",
+			id = "spacer_Label",
+			label = ""
+		}, {
+			control = "label",
+			id = "intl_Label",
+			label = "Intervalometers",
+			playerOnly = true
+		}, {
+			control = "comboList",
+			defValue = 62,
+			id = "RocketRippleTiming",
+			label = "Rocket Launchers Timings",
+			playerOnly = true,
+			values = { {
+					dispName = "33ms",
+					id = 33
+				}, {
+					dispName = "40ms",
+					id = 40
+				}, {
+					dispName = "62ms",
+					id = 62
+				}, {
+					dispName = "95ms",
+					id = 95
+				} },
+			wCtrl = 70
+		}, {
+			control = "comboList",
+			defValue = 300,
+			id = "BombsRippleTiming",
+			label = "14-3-M2 Rack Timings",
+			playerOnly = true,
+			values = { {
+					dispName = "300ms",
+					id = 300
+				}, {
+					dispName = "450ms",
+					id = 450
+				}, {
+					dispName = "600ms",
+					id = 600
+				}, {
+					dispName = "750ms",
+					id = 750
+				}, {
+					dispName = "900ms",
+					id = 900
+				}, {
+					dispName = "1.2s",
+					id = 1200
+				}, {
+					dispName = "1.5s",
+					id = 1500
+				} },
+			wCtrl = 70
+		}, {
+			control = "label",
+			id = "spacer_Label",
+			label = ""
+		}, {
+			control = "label",
+			id = "mul_Label",
+			label = "MULTIPLAYER",
+			playerOnly = true,
+			xLbl = 120
 		}, {
 			control = "comboList",
 			defValue = 1,
@@ -26,79 +203,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					id = -2
 				} },
 			wCtrl = 150
-		}, {
-			control = "checkbox",
-			defValue = false,
-			id = "MountBlindHood",
-			label = "Mount Blind Hood",
-			playerOnly = false
-		}, {
-			control = "comboList",
-			defValue = 1,
-			id = "PilotEquipment",
-			label = "Pilot Equipment",
-			playerOnly = false,
-			values = { {
-					dispName = "HGU-33 only",
-					id = 0
-				}, {
-					dispName = "HGU-33 + Aerazur",
-					id = 1
-				}, {
-					dispName = "HGU-55P + Secumar",
-					id = -1
-				}, {
-					dispName = "HGU-2A + Secumar",
-					id = -2
-				} },
-			wCtrl = 150
-		}, {
-			control = "groupbox",
-			defValue = 1,
-			id = "ARMAMENT",
-			label = "ARMAMENT",
-			wCtrl = 150
-		}, {
-			control = "checkbox",
-			defValue = true,
-			id = "SAAB_RGS-2_Gunsight",
-			label = "SAAB RGS-2 Gunsight"
-		}, {
-			control = "comboList",
-			defValue = 0.5,
-			id = "DEFA_553_Burst",
-			label = "DEFA 553 Burst",
-			values = { {
-					dispName = "0.5 Second",
-					id = 0.5
-				}, {
-					dispName = "1.0 Second",
-					id = 1
-				} },
-			wCtrl = 150
-		}, {
-			control = "checkbox",
-			defValue = false,
-			id = "EnableCutOff",
-			label = "Enable Cut Off"
-		}, {
-			control = "slider",
-			defValue = 250,
-			dimension = "ms",
-			id = "RocketRippleTiming",
-			label = "Rocket Ripple Timing",
-			max = 500,
-			min = 100,
-			playerOnly = true
-		}, {
-			control = "slider",
-			defValue = 300,
-			dimension = "ms",
-			id = "BombsRippleTiming",
-			label = "Bombs Ripple Timing",
-			max = 1500,
-			min = 100,
-			playerOnly = true
 		} },
 	AmmoWeight = 0,
 	CAS_min = 56,
@@ -1860,7 +1964,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			ejection_added_speed = { -4.5, 15, 0.4 },
 			ejection_order = 2,
 			ejection_play_arg = 1050,
-			ejection_seat_name = 312,
+			ejection_seat_name = 314,
 			ejection_through_canopy = true,
 			g_suit = 1,
 			pilot_body_arg = 50,
@@ -1878,7 +1982,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			ejection_added_speed = { -4, 14.5, -0.4 },
 			ejection_order = 1,
 			ejection_play_arg = 1472,
-			ejection_seat_name = 313,
+			ejection_seat_name = 315,
 			ejection_through_canopy = true,
 			g_suit = 1,
 			pilot_body_arg = 472,
@@ -2002,9 +2106,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		typename = "collection"
 	},
 	main_gear_amortizer_direct_stroke = 0,
-	main_gear_amortizer_normal_weight_stroke = -0.262,
-	main_gear_amortizer_reversal_stroke = -0.297,
-	main_gear_pos = { -0.652, -1.573, 1.25 },
+	main_gear_amortizer_normal_weight_stroke = -0.08,
+	main_gear_amortizer_reversal_stroke = -0.291,
+	main_gear_pos = { -0.652, -1.593, 1.25 },
 	main_gear_wheel_diameter = 0.54,
 	mapclasskey = "P0091000025",
 	mechanimations = {
@@ -2055,9 +2159,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	},
 	net_animation = { 38, 190, 191, 192, 203, 202, 201, 208, 200, 477, 1003, 525, 526, 527, 39, 99, 337, 399, 480, 524 },
 	nose_gear_amortizer_direct_stroke = 0,
-	nose_gear_amortizer_normal_weight_stroke = -0.153,
-	nose_gear_amortizer_reversal_stroke = -0.189,
-	nose_gear_pos = { 3.675, -1.471, 0 },
+	nose_gear_amortizer_normal_weight_stroke = -0.04,
+	nose_gear_amortizer_reversal_stroke = -0.174,
+	nose_gear_pos = { 3.675, -1.491, 0 },
 	nose_gear_wheel_diameter = 0.395,
 	panelRadio = { {
 			channels = { {

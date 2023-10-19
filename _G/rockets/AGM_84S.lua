@@ -29,6 +29,7 @@ _G["rockets"]["#Index"] = {
 	_unique_resource_name = "weapons.missiles.AGM_84S",
 	add_attributes = { "Cruise missiles" },
 	display_name = "RGM-84D Harpoon",
+	display_name_short = "RGM-84D Harpoon",
 	encyclopediaAnimation = {
 		args = { 1,
 			[25] = 1

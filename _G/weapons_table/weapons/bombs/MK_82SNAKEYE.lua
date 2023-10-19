@@ -34,7 +34,11 @@ _G["weapons_table"]["weapons"]["bombs"]["MK_82SNAKEYE"] = {
 			wind_sigma = 8,
 			wind_time = 1000
 		},
-		scheme = "schemes/bombs/bomb-parashute.sch",
+		fuze = {
+			default_arm_delays = { 2 },
+			is_vane_anim_required = true
+		},
+		scheme = "schemes/bombs/bomb_parachute_v2.sch",
 		warhead = {
 			caliber = 273,
 			concrete_factors = { 1, 1, 1 },
@@ -91,7 +95,11 @@ _G["weapons_table"]["weapons"]["bombs"]["MK_82SNAKEYE"] = {
 			wind_sigma = 8,
 			wind_time = 1000
 		},
-		scheme = "schemes/bombs/bomb-parashute.sch",
+		fuze = {
+			default_arm_delays = { 2 },
+			is_vane_anim_required = true
+		},
+		scheme = "schemes/bombs/bomb_parachute_v2.sch",
 		warhead = {
 			caliber = 273,
 			concrete_factors = { 1, 1, 1 },

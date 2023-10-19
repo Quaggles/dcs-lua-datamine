@@ -1,7 +1,7 @@
 _G["launcher"]["{3C0745ED-8B0B-42eb-B907-5BD5C1717447}"] = {
 	CLSID = "{3C0745ED-8B0B-42eb-B907-5BD5C1717447}",
 	Count = 2,
-	Cx_pil = 0.00014,
+	Cx_pil = 0.0015203125,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "lau-105"
@@ -16,8 +16,8 @@ _G["launcher"]["{3C0745ED-8B0B-42eb-B907-5BD5C1717447}"] = {
 		} },
 	Picture = "us_AIM-9P.png",
 	PictureBlendColor = "0xffffffff",
-	Weight = 201,
-	Weight_Empty = 30,
+	Weight = 355.68,
+	Weight_Empty = 206,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/aim9_family.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },

@@ -49,6 +49,7 @@ _G["rockets"]["#Index"] = {
 		march_start = 0
 	},
 	display_name = "AGM-45A",
+	display_name_short = "AGM-45A",
 	fm = {
 		A = 0.36,
 		I = 137.211875,

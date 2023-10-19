@@ -79,6 +79,7 @@ _G["rockets"]["#Index"] = {
 		march_start = 2.1
 	},
 	display_name = "Super 530D",
+	display_name_short = "Super 530D",
 	exhaust1 = { 1, 1, 1, 1 },
 	exhaust2 = { 1, 1, 1, 0.3 },
 	fm = {

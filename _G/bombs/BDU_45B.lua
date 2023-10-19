@@ -6,6 +6,7 @@ _G["bombs"]["#Index"] = {
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
 	_origin = "AircraftWeaponPack",
 	display_name = "BDU-45B",
+	display_name_short = "BDU-45B",
 	hMax = 10000,
 	hMin = 100,
 	mass = 232,

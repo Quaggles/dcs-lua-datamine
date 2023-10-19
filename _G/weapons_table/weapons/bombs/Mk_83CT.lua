@@ -38,12 +38,16 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_83CT"] = {
 			wind_sigma = 8,
 			wind_time = 1000
 		},
+		fuze = {
+			default_arm_delays = { 2 },
+			is_vane_anim_required = true
+		},
 		hMax = 10000,
 		hMin = 100,
 		mass = 454,
 		model = "mk-82air",
 		name = "Mk_83CT",
-		scheme = "schemes/bombs/bomb-parashute.sch",
+		scheme = "schemes/bombs/bomb_parachute_v2.sch",
 		shape_table_data = { {
 				file = "mk-82air",
 				fire = { 0, 1 },
@@ -77,6 +81,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_83CT"] = {
 	},
 	cx = { 1, 0.29, 0.71, 0.14, 1.28 },
 	display_name = "Mk-83CT",
+	display_name_short = "Mk-83CT",
 	mass = 454,
 	model = "mk-82air",
 	name = "Mk_83CT",
@@ -113,12 +118,16 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_83CT"] = {
 			wind_sigma = 8,
 			wind_time = 1000
 		},
+		fuze = {
+			default_arm_delays = { 2 },
+			is_vane_anim_required = true
+		},
 		hMax = 10000,
 		hMin = 100,
 		mass = 454,
 		model = "mk-82air",
 		name = "Mk_83CT",
-		scheme = "schemes/bombs/bomb-parashute.sch",
+		scheme = "schemes/bombs/bomb_parachute_v2.sch",
 		shape_table_data = { {
 				file = "mk-82air",
 				fire = { 0, 1 },

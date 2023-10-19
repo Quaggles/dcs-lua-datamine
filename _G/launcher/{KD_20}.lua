@@ -1,14 +1,14 @@
-_G["launcher"]["{20_x_AGM_86C}"] = {
-	CLSID = "{20_x_AGM_86C}",
-	Count = 20,
+_G["launcher"]["{KD_20}"] = {
+	CLSID = "{KD_20}",
+	Count = 1,
 	Elements = { {
-			ShapeName = "agm-86"
+			ShapeName = "kd20"
 		} },
-	Picture = "AGM86.png",
-	Weight = 41000,
+	Picture = "kd20.png",
+	Weight = 1700,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/cruise_missiles.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 8, "Redacted" },
 	category = 2,
-	displayName = "20 x AGM-86C"
+	displayName = "KD-20"
 }

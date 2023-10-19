@@ -10,7 +10,8 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["Bofors_40mm"] = {
 			shell_display_name = "Bofors 40mm HE",
 			shell_name = { "Bofors_40mm_HE" },
 			shot_delay = 0.5,
-			switch_on_delay = 1
+			switch_on_delay = 1,
+			virtualStwID = 1
 		} },
 	distanceMax = 4000,
 	max_trg_alt = 3000,

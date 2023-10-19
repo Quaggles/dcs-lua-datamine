@@ -27,6 +27,7 @@ _G["rockets"]["#Index"] = {
 	Y_back = 0,
 	Z_back = 0,
 	display_name = "AT-3 Sagger",
+	display_name_short = "AT-3 Sagger",
 	exhaust = { 0.9, 0.9, 0.9, 0.2 },
 	name = "MALUTKA",
 	sigma = { 5, 5, 5 },

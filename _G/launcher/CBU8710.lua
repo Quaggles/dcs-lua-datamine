@@ -1,30 +1,47 @@
 _G["launcher"]["CBU87*10"] = {
 	CLSID = "CBU87*10",
 	Count = 10,
-	Elements = { {
-			Position = { -0.9, 0.315, -0.45 }
+	Elements = { "_G/Pylons/B_1_B_10-store_Conventional_Bomb_Module.lua", {
+			ShapeName = "CBU-87",
+			connector_name = "AttachPoint010"
 		}, {
-			Position = { 0.9, 0.315, 0 }
+			ShapeName = "CBU-87",
+			connector_name = "AttachPoint005"
 		}, {
-			Position = { -0.9, 0.315, 0.45 }
+			ShapeName = "CBU-87",
+			connector_name = "AttachPoint009"
 		}, {
-			Position = { -0.9, 0, -0.675 }
+			ShapeName = "CBU-87",
+			connector_name = "AttachPoint007"
 		}, {
-			Position = { 0.9, 0, -0.225 }
+			ShapeName = "CBU-87",
+			connector_name = "AttachPoint003"
 		}, {
-			Position = { -0.9, 0, 0.225 }
+			ShapeName = "CBU-87",
+			connector_name = "AttachPoint008"
 		}, {
-			Position = { 0.9, 0, 0.675 }
+			ShapeName = "CBU-87",
+			connector_name = "AttachPoint004"
 		}, {
-			Position = { 0.9, -0.315, -0.45 }
+			ShapeName = "CBU-87",
+			connector_name = "AttachPoint006"
 		}, {
-			Position = { -0.9, -0.315, 0 }
+			ShapeName = "CBU-87",
+			connector_name = "AttachPoint002"
 		}, {
-			Position = { 0.9, -0.315, 0.45 }
+			ShapeName = "CBU-87",
+			connector_name = "AttachPoint001"
 		} },
 	Picture = "CBU.png",
-	Weight = 4300,
-	_file = "Scripts/Database/db_weapons_data.lua",
-	attribute = { 4, 5, 38, "Redacted" },
-	displayName = "10 x CBU-87 - 202 x CEM Cluster Bombs"
+	Weight = 5477.3,
+	Weight_Empty = 1277.3,
+	_file = "./CoreMods/tech/HeavyMetalCore/Database/Aircraft/B_1B.lua",
+	_origin = "HeavyMetalCore",
+	attribute = { 4, 5, 32, "Redacted" },
+	category = 1,
+	displayName = "10 x CBU-87 - 202 x CEM Cluster Bombs",
+	ejectPitchRate = -20,
+	ejectVelocity = 3,
+	name = "CBU87*10",
+	wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 }

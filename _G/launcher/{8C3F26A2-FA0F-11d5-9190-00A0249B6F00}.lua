@@ -5,8 +5,13 @@ _G["launcher"]["{8C3F26A2-FA0F-11d5-9190-00A0249B6F00}"] = {
 			ShapeName = "SKY_SHADOW"
 		} },
 	Picture = "skyshadow.png",
+	ShapeName = "SKY_SHADOW",
 	Weight = 200,
-	_file = "Scripts/Database/db_weapons_data.lua",
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/pods.lua",
+	_origin = "AircraftWeaponPack",
+	_unique_resource_name = "weapons.containers.SKY_SHADOW",
 	attribute = { 4, 15, 45, "Redacted" },
-	displayName = "Sky-Shadow ECM Pod"
+	category = 6,
+	displayName = "Sky-Shadow ECM Pod",
+	name = "SKY_SHADOW"
 }

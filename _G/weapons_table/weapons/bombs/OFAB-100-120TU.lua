@@ -74,6 +74,7 @@ _G["weapons_table"]["weapons"]["bombs"]["OFAB-100-120TU"] = {
 	},
 	cx = { 0.1, 0.39, 0.58, 0.636, 1.31 },
 	display_name = "OFAB 100-120 TU - 123 kg, bomb, parachute",
+	display_name_short = "OFAB 100-120 TU - 123 kg, bomb, parachute",
 	mass = 123,
 	model = "ofab-100-120",
 	name = "OFAB-100-120TU",

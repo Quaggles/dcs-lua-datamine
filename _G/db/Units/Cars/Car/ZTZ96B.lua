@@ -170,11 +170,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							recoilTime = 0.5
 						} },
 					PL = { {
-							shell_name = { "ZTZ_125_AP" },
-							virtualStwID = 1
+							shell_name = { "ZTZ_125_AP" }
 						}, {
-							shell_name = { "ZTZ_125_AP" },
-							virtualStwID = 2
+							shell_name = { "ZTZ_125_AP" }
 						} },
 					beamWidth = 0.017453292519943,
 					combatRange = 1200,
@@ -186,16 +184,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					BR = { {} },
 					PL = { {
 							ammo_capacity = 7,
-							reload_time = 140,
 							shell_name = { "ZTZ_125_HE" },
-							shot_delay = 6,
-							virtualStwID = 1
+							shot_delay = 6
 						}, {
 							ammo_capacity = 10,
-							reload_time = 150,
 							shell_name = { "ZTZ_125_HE" },
-							shot_delay = 30,
-							virtualStwID = 2
+							shot_delay = 30
 						} },
 					combatRange = 800,
 					distanceMax = 4000,
@@ -212,11 +206,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							recoilTime = 0.5
 						} },
 					PL = { {
-							type_ammunition = {},
-							virtualStwID = 1
+							type_ammunition = {}
 						}, {
-							type_ammunition = {},
-							virtualStwID = 2
+							type_ammunition = {}
 						} },
 					sensor = {},
 					sightIndicationMode = 4,
@@ -345,7 +337,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	category = "Armor",
 	chassis = {},
 	crew_locale = "ENG",
-	crew_members = { "commander", "gunner" },
+	crew_members = { "commander", "gunner", "loader" },
 	driverCockpit = "DriverCockpit/DriverCockpitWithIRandLLTV",
 	driverViewConnectorName = { "DRIVER_POINT",
 		offset = { 0.05, 0, 0 }

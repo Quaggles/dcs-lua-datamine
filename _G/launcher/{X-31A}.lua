@@ -14,6 +14,7 @@ _G["launcher"]["{X-31A}"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
 	displayName = "Kh-31A (AS-17 Krypton) - 610kg, AShM, IN & Act Rdr",
-	ejectImpulse = 2000,
+	ejectPitchRate = 0,
+	ejectVelocity = 4,
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

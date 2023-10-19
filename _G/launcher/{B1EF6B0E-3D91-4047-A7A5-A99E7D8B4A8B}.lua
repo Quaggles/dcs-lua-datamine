@@ -5,8 +5,13 @@ _G["launcher"]["{B1EF6B0E-3D91-4047-A7A5-A99E7D8B4A8B}"] = {
 			ShapeName = "KINGAL"
 		} },
 	Picture = "Mercury.png",
+	ShapeName = "KINGAL",
 	Weight = 230,
-	_file = "Scripts/Database/db_weapons_data.lua",
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/pods.lua",
+	_origin = "AircraftWeaponPack",
+	_unique_resource_name = "weapons.containers.KINGAL",
 	attribute = { 4, 15, 44, "Redacted" },
-	displayName = "Mercury LLTV Pod"
+	category = 6,
+	displayName = "Mercury LLTV Pod",
+	name = "KINGAL"
 }

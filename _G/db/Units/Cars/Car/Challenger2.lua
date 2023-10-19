@@ -23,16 +23,14 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						} },
 					PL = { {
 							ammo_capacity = 14,
-							reload_time = 210,
+							portion_reload_time = 15,
 							shell_name = { "L23_120_AP" },
-							shot_delay = 6,
-							virtualStwID = 1
+							shot_delay = 6
 						}, {
 							ammo_capacity = 14,
-							reload_time = 210,
+							portion_reload_time = 15,
 							shell_name = { "L23_120_AP" },
-							shot_delay = 14,
-							virtualStwID = 2
+							shot_delay = 14
 						} },
 					beamWidth = 0.017453292519943,
 					combatRange = 1200,
@@ -43,12 +41,10 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					BR = { {} },
 					PL = { {
 							ammo_capacity = 11,
-							shell_name = { "L31_120mm_HESH" },
-							virtualStwID = 1
+							shell_name = { "L31_120mm_HESH" }
 						}, {
 							ammo_capacity = 10,
-							shell_name = { "L31_120mm_HESH" },
-							virtualStwID = 2
+							shell_name = { "L31_120mm_HESH" }
 						} },
 					combatRange = 800,
 					distanceMax = 8000,
@@ -132,7 +128,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		life = 32
 	},
 	crew_locale = "ENG",
-	crew_members = { "commander", "gunner" },
+	crew_members = { "commander", "gunner", "loader" },
 	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
 	driverViewConnectorName = { "DRIVER_POINT" },
 	enablePlayerCanDrive = true,

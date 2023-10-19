@@ -5,15 +5,17 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["howitzer_2A33"] = {
 	PL = { {
 			ammo_capacity = 12,
 			automaticLoader = false,
-			reload_time = 336,
+			portion_reload_time = 28,
 			shell_name = { "2A33_152" },
-			shot_delay = 18
+			shot_delay = 18,
+			virtualStwID = 1
 		}, {
 			ammo_capacity = 34,
 			automaticLoader = false,
-			reload_time = 850,
+			portion_reload_time = 25,
 			shell_name = { "2A33_152" },
-			shot_delay = 23
+			shot_delay = 23,
+			virtualStwID = 2
 		} },
 	distanceMin = 30,
 	maxShootingSpeed = 0,

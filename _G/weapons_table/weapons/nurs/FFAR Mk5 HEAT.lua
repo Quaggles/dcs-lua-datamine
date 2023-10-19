@@ -70,6 +70,7 @@ _G["weapons_table"]["weapons"]["nurs"]["FFAR Mk5 HEAT"] = {
 	},
 	cx_pil = 1.4920965811477e-05,
 	display_name = '2.75" FFAR, UnGd Rkts Mk5, HEAT',
+	display_name_short = '2.75" FFAR, UnGd Rkts Mk5, HEAT',
 	dist_max = 1200,
 	dist_max_ballistic = 8000,
 	dist_min = 600,

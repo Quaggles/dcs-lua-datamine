@@ -72,6 +72,7 @@ _G["weapons_table"]["weapons"]["bombs"]["MK106"] = {
 	},
 	cx = { 1, 0.82, 0.65, 0.142, 2.11 },
 	display_name = "Mk 106",
+	display_name_short = "Mk 106",
 	mass = 2.27,
 	model = "MK106",
 	name = "MK106",

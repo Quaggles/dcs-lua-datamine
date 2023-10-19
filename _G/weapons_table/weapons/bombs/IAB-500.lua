@@ -69,6 +69,7 @@ _G["weapons_table"]["weapons"]["bombs"]["IAB-500"] = {
 	},
 	cx = { 0.1, 0.39, 0.6, 0.768, 1.31 },
 	display_name = "IAB-500 - 470 kg, bomb, free fall",
+	display_name_short = "IAB-500 - 470 kg, bomb, free fall",
 	mass = 470,
 	model = "IAB-500",
 	name = "IAB-500",

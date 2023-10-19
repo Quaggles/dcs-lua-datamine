@@ -11,7 +11,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_84AIR_TP"] = {
 		_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
 		_origin = "AircraftWeaponPack",
 		arming_delay = {
-			delay_time = 2,
+			delay_time = 0.8,
 			enabled = true
 		},
 		arming_vane = {
@@ -38,12 +38,16 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_84AIR_TP"] = {
 			wind_sigma = 4,
 			wind_time = 1000
 		},
+		fuze = {
+			default_arm_delays = { 2 },
+			is_vane_anim_required = true
+		},
 		hMax = 2000,
 		hMin = 25,
 		mass = 911.7,
 		model = "mk-84air_inert",
 		name = "Mk_84AIR_TP",
-		scheme = "schemes/bombs/bomb-parashute.sch",
+		scheme = "schemes/bombs/bomb_parachute_v2.sch",
 		shape_table_data = { {
 				file = "mk-84air_inert",
 				index = "Redacted",
@@ -74,6 +78,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_84AIR_TP"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "Mk-84 AIR TP HD",
+	display_name_short = "Mk-84 AIR TP HD",
 	mass = 911.7,
 	model = "mk-84air_inert",
 	name = "Mk_84AIR_TP",
@@ -83,7 +88,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_84AIR_TP"] = {
 		_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
 		_origin = "AircraftWeaponPack",
 		arming_delay = {
-			delay_time = 2,
+			delay_time = 0.8,
 			enabled = true
 		},
 		arming_vane = {
@@ -110,12 +115,16 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_84AIR_TP"] = {
 			wind_sigma = 4,
 			wind_time = 1000
 		},
+		fuze = {
+			default_arm_delays = { 2 },
+			is_vane_anim_required = true
+		},
 		hMax = 2000,
 		hMin = 25,
 		mass = 911.7,
 		model = "mk-84air_inert",
 		name = "Mk_84AIR_TP",
-		scheme = "schemes/bombs/bomb-parashute.sch",
+		scheme = "schemes/bombs/bomb_parachute_v2.sch",
 		shape_table_data = { {
 				file = "mk-84air_inert",
 				index = "Redacted",

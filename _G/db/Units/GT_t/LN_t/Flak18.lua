@@ -4,7 +4,8 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["Flak18"] = {
 			automaticLoader = false,
 			portionAmmoCapacity = 200,
 			shell_name = { "Flak18_Sprgr_39" },
-			shot_delay = 4
+			shot_delay = 4,
+			virtualStwID = 1
 		} },
 	distanceMax = 5000,
 	distanceMin = 10,

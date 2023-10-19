@@ -103,6 +103,7 @@ _G["rockets"]["#Index"] = {
 		stab_vel = 250
 	},
 	display_name = "KD-63B",
+	display_name_short = "KD-63B",
 	final_autopilot = {
 		J_Angle_K = 0.18,
 		J_Angle_W = 0.8,

@@ -1168,21 +1168,29 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{R-13M}",
+					Cx_gain_empty = 0.5,
+					Cx_gain_item = 0.001,
 					arg = 309,
 					arg_value = 0.5,
 					connector = "PYLON_L_OUT"
 				}, {
 					CLSID = "{R-13M1}",
+					Cx_gain_empty = 0.5,
+					Cx_gain_item = 0.001,
 					arg = 309,
 					arg_value = 0.5,
 					connector = "PYLON_L_OUT"
 				}, {
 					CLSID = "{R-3R}",
+					Cx_gain_empty = 0.5,
+					Cx_gain_item = 0.001,
 					arg = 309,
 					arg_value = 0.5,
 					connector = "PYLON_L_OUT"
 				}, {
 					CLSID = "{R-3S}",
+					Cx_gain_empty = 0.5,
+					Cx_gain_item = 0.001,
 					arg = 309,
 					arg_value = 0.5,
 					connector = "PYLON_L_OUT"
@@ -1191,16 +1199,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					connector = "PYLON_L_OUT"
 				}, {
 					CLSID = "{R-60}",
+					Cx_gain_empty = 0.5,
+					Cx_gain_item = 0.001,
 					arg = 309,
 					arg_value = 0.5,
 					connector = "PYLON_L_OUT"
 				}, {
 					CLSID = "{R-60M}",
+					Cx_gain_empty = 0.5,
+					Cx_gain_item = 0.001,
 					arg = 309,
 					arg_value = 0.5,
 					connector = "PYLON_L_OUT"
 				}, {
 					CLSID = "{R-60M 2L}",
+					Cx_gain_empty = 0.33,
+					Cx_gain_item = 0.001,
 					arg = 309,
 					arg_value = 0.5,
 					connector = "PYLON_L_OUT",
@@ -1223,6 +1237,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{R-60 2L}",
+					Cx_gain_empty = 0.33,
+					Cx_gain_item = 0.001,
 					arg = 309,
 					arg_value = 0.5,
 					connector = "PYLON_L_OUT",
@@ -1389,21 +1405,29 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{R-13M}",
+					Cx_gain_empty = 0.5,
+					Cx_gain_item = 0.001,
 					arg = 310,
 					arg_value = 0.5,
 					connector = "PYLON_L_IN"
 				}, {
 					CLSID = "{R-13M1}",
+					Cx_gain_empty = 0.5,
+					Cx_gain_item = 0.001,
 					arg = 310,
 					arg_value = 0.5,
 					connector = "PYLON_L_IN"
 				}, {
 					CLSID = "{R-3R}",
+					Cx_gain_empty = 0.5,
+					Cx_gain_item = 0.001,
 					arg = 310,
 					arg_value = 0.5,
 					connector = "PYLON_L_IN"
 				}, {
 					CLSID = "{R-3S}",
+					Cx_gain_empty = 0.5,
+					Cx_gain_item = 0.001,
 					arg = 310,
 					arg_value = 0.5,
 					connector = "PYLON_L_IN"
@@ -1415,16 +1439,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					connector = "PYLON_L_IN"
 				}, {
 					CLSID = "{R-60}",
+					Cx_gain_empty = 0.5,
+					Cx_gain_item = 0.001,
 					arg = 310,
 					arg_value = 0.5,
 					connector = "PYLON_L_IN"
 				}, {
 					CLSID = "{R-60M}",
+					Cx_gain_empty = 0.5,
+					Cx_gain_item = 0.001,
 					arg = 310,
 					arg_value = 0.5,
 					connector = "PYLON_L_IN"
 				}, {
 					CLSID = "{R-60M 2L}",
+					Cx_gain_empty = 0.33,
+					Cx_gain_item = 0.001,
 					arg = 310,
 					arg_value = 0.5,
 					connector = "PYLON_L_IN",
@@ -1447,6 +1477,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{R-60 2L}",
+					Cx_gain_empty = 0.33,
+					Cx_gain_item = 0.001,
 					arg = 310,
 					arg_value = 0.5,
 					connector = "PYLON_L_IN",
@@ -1672,21 +1704,29 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{R-13M}",
+					Cx_gain_empty = 0.5,
+					Cx_gain_item = 0.001,
 					arg = 311,
 					arg_value = 0.5,
 					connector = "PYLON_R_IN"
 				}, {
 					CLSID = "{R-13M1}",
+					Cx_gain_empty = 0.5,
+					Cx_gain_item = 0.001,
 					arg = 311,
 					arg_value = 0.5,
 					connector = "PYLON_R_IN"
 				}, {
 					CLSID = "{R-3R}",
+					Cx_gain_empty = 0.5,
+					Cx_gain_item = 0.001,
 					arg = 311,
 					arg_value = 0.5,
 					connector = "PYLON_R_IN"
 				}, {
 					CLSID = "{R-3S}",
+					Cx_gain_empty = 0.5,
+					Cx_gain_item = 0.001,
 					arg = 311,
 					arg_value = 0.5,
 					connector = "PYLON_R_IN"
@@ -1698,16 +1738,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					connector = "PYLON_R_IN"
 				}, {
 					CLSID = "{R-60}",
+					Cx_gain_empty = 0.5,
+					Cx_gain_item = 0.001,
 					arg = 311,
 					arg_value = 0.5,
 					connector = "PYLON_R_IN"
 				}, {
 					CLSID = "{R-60M}",
+					Cx_gain_empty = 0.5,
+					Cx_gain_item = 0.001,
 					arg = 311,
 					arg_value = 0.5,
 					connector = "PYLON_R_IN"
 				}, {
 					CLSID = "{R-60M 2R}",
+					Cx_gain_empty = 0.33,
+					Cx_gain_item = 0.001,
 					arg = 311,
 					arg_value = 0.5,
 					connector = "PYLON_R_IN",
@@ -1730,6 +1776,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{R-60 2R}",
+					Cx_gain_empty = 0.33,
+					Cx_gain_item = 0.001,
 					arg = 311,
 					arg_value = 0.5,
 					connector = "PYLON_R_IN",
@@ -1833,21 +1881,29 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{R-13M}",
+					Cx_gain_empty = 0.5,
+					Cx_gain_item = 0.001,
 					arg = 312,
 					arg_value = 0.5,
 					connector = "PYLON_R_OUT"
 				}, {
 					CLSID = "{R-13M1}",
+					Cx_gain_empty = 0.5,
+					Cx_gain_item = 0.001,
 					arg = 312,
 					arg_value = 0.5,
 					connector = "PYLON_R_OUT"
 				}, {
 					CLSID = "{R-3R}",
+					Cx_gain_empty = 0.5,
+					Cx_gain_item = 0.001,
 					arg = 312,
 					arg_value = 0.5,
 					connector = "PYLON_R_OUT"
 				}, {
 					CLSID = "{R-3S}",
+					Cx_gain_empty = 0.5,
+					Cx_gain_item = 0.001,
 					arg = 312,
 					arg_value = 0.5,
 					connector = "PYLON_R_OUT"
@@ -1856,16 +1912,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					connector = "PYLON_R_OUT"
 				}, {
 					CLSID = "{R-60}",
+					Cx_gain_empty = 0.5,
+					Cx_gain_item = 0.001,
 					arg = 312,
 					arg_value = 0.5,
 					connector = "PYLON_R_OUT"
 				}, {
 					CLSID = "{R-60M}",
+					Cx_gain_empty = 0.5,
+					Cx_gain_item = 0.001,
 					arg = 312,
 					arg_value = 0.5,
 					connector = "PYLON_R_OUT"
 				}, {
 					CLSID = "{R-60M 2R}",
+					Cx_gain_empty = 0.33,
+					Cx_gain_item = 0.001,
 					arg = 312,
 					arg_value = 0.5,
 					connector = "PYLON_R_OUT",
@@ -1888,6 +1950,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{R-60 2R}",
+					Cx_gain_empty = 0.33,
+					Cx_gain_item = 0.001,
 					arg = 312,
 					arg_value = 0.5,
 					connector = "PYLON_R_OUT",
@@ -2176,9 +2240,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			pos = { -1.714, -0.38, -0.5 }
 		} },
 	crew_members = { {
-			drop_canopy_name = 320,
-			ejection_seat_name = 319,
-			pilot_name = 321,
+			drop_canopy_name = 322,
+			ejection_seat_name = 321,
+			pilot_name = 323,
 			pos = { 2.711, 0.65, 0 },
 			role = "pilot",
 			role_display_name = "Pilot"

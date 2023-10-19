@@ -79,6 +79,7 @@ _G["weapons_table"]["weapons"]["bombs"]["British_GP_250LB_Bomb_Mk5"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "250 lb GP Mk.V",
+	display_name_short = "250 lb GP Mk.V",
 	mass = 104.326,
 	model = "250_lb_gp_mk_V",
 	name = "British_GP_250LB_Bomb_Mk5",

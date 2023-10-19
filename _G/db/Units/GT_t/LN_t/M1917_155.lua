@@ -5,7 +5,7 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["M1917_155"] = {
 	PL = { {
 			ammo_capacity = 50,
 			automaticLoader = false,
-			reloadTime = 1500,
+			portion_reload_time = 30,
 			shell_name = { "M101" },
 			shot_delay = 30
 		} },

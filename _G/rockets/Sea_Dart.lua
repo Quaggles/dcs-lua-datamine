@@ -68,6 +68,7 @@ _G["rockets"]["#Index"] = {
 		march_start = 2.9
 	},
 	display_name = "GWS-30 Sea Dart",
+	display_name_short = "GWS-30 Sea Dart",
 	fm = {
 		A = 0.36,
 		I = 885.72,

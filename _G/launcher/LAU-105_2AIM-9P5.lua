@@ -1,7 +1,7 @@
 _G["launcher"]["LAU-105_2*AIM-9P5"] = {
 	CLSID = "LAU-105_2*AIM-9P5",
 	Count = 2,
-	Cx_pil = 0.00014,
+	Cx_pil = 0.0015203125,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "lau-105"
@@ -16,8 +16,8 @@ _G["launcher"]["LAU-105_2*AIM-9P5"] = {
 		} },
 	Picture = "us_AIM-9P-5.png",
 	PictureBlendColor = "0xffffffff",
-	Weight = 201,
-	Weight_Empty = 30,
+	Weight = 367.4,
+	Weight_Empty = 206,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/aim9_family.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },

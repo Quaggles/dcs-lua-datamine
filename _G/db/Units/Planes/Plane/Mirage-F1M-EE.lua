@@ -64,23 +64,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			label = "Chaff Burst Interval",
 			playerOnly = true,
 			values = { {
-					dispName = "0.05 s",
+					dispName = "0.1 s",
 					id = 1
 				}, {
-					dispName = "0.1 s",
+					dispName = "0.2 s",
 					id = 2
 				}, {
-					dispName = "0.15 s",
+					dispName = "0.3 s",
 					id = 3
 				}, {
-					dispName = "0.2 s",
-					id = 4
-				}, {
-					dispName = "0.3 s",
-					id = 5
-				}, {
 					dispName = "0.4 s",
-					id = 6
+					id = 4
 				} },
 			wCtrl = 75
 		}, {
@@ -1752,6 +1746,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "PTB-1200-F1-EMPTY",
 					arg_value = 0.15
 				}, {
+					CLSID = "{CC420_GUN_POD}",
+					arg_value = 0.15,
+					attach_point_position = { -0.2, 0.029, 0 }
+				}, {
 					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
 					arg_value = 0.15
 				}, {
@@ -1887,6 +1885,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "PTB-1200-F1-EMPTY",
 					arg_value = 0.15
+				}, {
+					CLSID = "{CC420_GUN_POD}",
+					arg_value = 0.15,
+					attach_point_position = { -0.2, 0.029, 0 }
 				}, {
 					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
 					arg_value = 0.15
@@ -2063,6 +2065,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "PTB-1200-F1-EMPTY",
 					arg_value = 0.15
+				}, {
+					CLSID = "{CC420_GUN_POD}",
+					arg_value = 0.15,
+					attach_point_position = { -0.2, 0.029, 0 }
 				}, {
 					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
 					arg_value = 0.15
@@ -2392,7 +2398,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	average_fuel_consumption = 0.5,
 	bank_angle_max = 85,
 	bigParkingRamp = false,
-	brakeshute_name = 325,
+	brakeshute_name = 327,
 	chaff_flare_dispenser = { {
 			dir = { 0, -1, -1 },
 			pos = { -4.312, -0.648, -0.488 }
@@ -2408,16 +2414,16 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			canopy_args = { 38, 1 },
 			canopy_ejection_dir = { -0.4, 1, 0 },
 			canopy_pos = { 2.312, 0.625, 0 },
-			drop_canopy_name = 323,
+			drop_canopy_name = 325,
 			drop_parachute_name = "Mirage-F1_parachute",
 			ejection_added_speed = { -5, 30, 0 },
 			ejection_order = -1,
 			ejection_play_arg = 149,
-			ejection_seat_name = 322,
+			ejection_seat_name = 324,
 			ejection_through_canopy = true,
 			g_suit = 1,
 			pilot_body_arg = 50,
-			pilot_name = 324,
+			pilot_name = 326,
 			pos = { 3.192, -0.013, -0.02 },
 			role = "pilot",
 			role_display_name = "Pilot"

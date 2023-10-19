@@ -65,6 +65,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB68_WP"] = {
 	},
 	cx_pil = 2.9065237361551e-05,
 	display_name = "SNEB68_WP",
+	display_name_short = "SNEB68_WP",
 	dist_max = 4000,
 	dist_max_ballistic = 8000,
 	dist_min = 500,

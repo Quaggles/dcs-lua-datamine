@@ -70,7 +70,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						} },
 					PL = { {
 							ammo_capacity = 7,
-							reload_time = 140,
+							portion_reload_time = 20,
 							type_ammunition = {}
 						} },
 					barrels_reload_type = 3,

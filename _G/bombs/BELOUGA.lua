@@ -6,6 +6,7 @@ _G["bombs"]["#Index"] = {
 	_file = "./CoreMods/aircraft/C-101/Weapons.lua",
 	_origin = "C-101 Aviojet by AvioDev",
 	display_name = "Belouga",
+	display_name_short = "Belouga",
 	hMax = 5000,
 	hMin = 60.96,
 	mass = 290,

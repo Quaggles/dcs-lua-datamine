@@ -27,6 +27,7 @@ _G["rockets"]["#Index"] = {
 	Y_back = 0,
 	Z_back = 0,
 	display_name = "AT-5 Spandrel",
+	display_name_short = "AT-5 Spandrel",
 	exhaust = { 0.9, 0.9, 0.9, 0.1 },
 	name = "KONKURS",
 	sigma = { 4, 4, 4 },

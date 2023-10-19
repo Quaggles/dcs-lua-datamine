@@ -5,8 +5,13 @@ _G["launcher"]["{0519A262-0AB6-11d6-9193-00A0249B6F00}"] = {
 			ShapeName = "TANGAZH"
 		} },
 	Picture = "L005.png",
+	ShapeName = "TANGAZH",
 	Weight = 200,
-	_file = "Scripts/Database/db_weapons_data.lua",
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/pods.lua",
+	_origin = "AircraftWeaponPack",
+	_unique_resource_name = "weapons.containers.TANGAZH",
 	attribute = { 4, 15, 44, "Redacted" },
-	displayName = "Tangazh ELINT pod"
+	category = 6,
+	displayName = "Tangazh ELINT pod",
+	name = "TANGAZH"
 }

@@ -58,6 +58,7 @@ _G["rockets"]["#Index"] = {
 		march_start = 1.001
 	},
 	display_name = "Rapier",
+	display_name_short = "Rapier",
 	err = {
 		max_time_interval = 0.9,
 		min_time_interval = 0.1,

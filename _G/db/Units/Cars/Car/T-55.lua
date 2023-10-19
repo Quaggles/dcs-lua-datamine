@@ -23,14 +23,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						} },
 					PL = { {
 							ammo_capacity = 6,
-							reload_time = 90,
 							shell_name = { "3UBM11_100mm_AP" },
-							shot_delay = 8.5,
-							virtualStwID = 1
+							shot_delay = 8.5
 						}, {
 							ammo_capacity = 26,
 							automaticLoader = false,
-							reload_time = 390,
+							portion_reload_time = 15,
 							shell_name = { "3UBM11_100mm_AP" },
 							shot_delay = 13.5,
 							virtualStwID = 2
@@ -42,16 +40,10 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					BR = { {} },
 					PL = { {
 							ammo_capacity = 2,
-							reload_time = 30,
-							shell_name = { "UOF412_100HE" },
-							shot_delay = 8.5,
-							virtualStwID = 1
+							shell_name = { "UOF412_100HE" }
 						}, {
 							ammo_capacity = 9,
-							reload_time = 135,
-							shell_name = { "UOF412_100HE" },
-							shot_delay = 13.5,
-							virtualStwID = 2
+							shell_name = { "UOF412_100HE" }
 						} },
 					distanceMax = 8000,
 					distanceMin = 20,
@@ -98,6 +90,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			drawArgument2 = 1,
 			omegaY = 0.29670597283904,
 			omegaZ = 0.17453292519943,
+			pidY = {
+				d = 4,
+				i = 2,
+				inn = 0.2,
+				p = 10
+			},
+			pidZ = {
+				d = 4,
+				i = 2,
+				inn = 0.2,
+				p = 10
+			},
 			pointer = "POINT_SIGHT_01",
 			stabilizer = true
 		}, {
@@ -119,14 +123,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						}, {
 							shell_name = {}
 						} },
-					customViewPoint = { "genericAAA", { -2, 0.2, 0 } },
 					fireAnimationArgument = 44,
 					sensor = {},
+					sightIndicationMode = 1,
+					sightMasterMode = 1,
 					type = 10
 				} },
 			angles = { { 3.1415926535898, 1.5009831567151, -0.13962634015955, 0.69813170079773 }, { 1.5009831567151, 1.0297442586767, 0.34906585039887, 0.69813170079773 }, { 1.0297442586767, -3.1415926535898, -0.13962634015955, 0.69813170079773 } },
 			base = 1,
 			center = "CENTER_MGUN",
+			cockpit = { "genericAAA", { -2, 0.2, 0 },
+				open = true
+			},
 			drawArgument1 = 25,
 			drawArgument2 = 26,
 			omegaY = 0.69813170079773,
@@ -160,7 +168,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	category = "Armor",
 	chassis = {},
 	crew_locale = "RUS",
-	crew_members = { "gunner" },
+	crew_members = { "gunner", "loader" },
 	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
 	driverViewConnectorName = { "DRIVER_POINT",
 		offset = { 0.05, 0, 0 }

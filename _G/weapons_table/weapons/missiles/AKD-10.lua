@@ -65,6 +65,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AKD-10"] = {
 			boost_start = 0.001,
 			march_start = 2.001
 		},
+		display_name_short = "AKD-10",
 		exhaust = { 0.9, 0.9, 0.85, 0.1 },
 		fm = {
 			A = 0.6,
@@ -157,6 +158,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AKD-10"] = {
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	display_name = "AKD-10",
+	display_name_short = "AKD-10",
 	mass = 48,
 	model = "akd-10",
 	name = "AKD-10",
@@ -221,6 +223,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AKD-10"] = {
 			boost_start = 0.001,
 			march_start = 2.001
 		},
+		display_name_short = "AKD-10",
 		exhaust = { 0.9, 0.9, 0.85, 0.1 },
 		fm = {
 			A = 0.6,

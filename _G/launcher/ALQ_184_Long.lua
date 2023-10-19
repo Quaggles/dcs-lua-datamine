@@ -5,6 +5,7 @@ _G["launcher"]["ALQ_184_Long"] = {
 			ShapeName = "alq-184long"
 		} },
 	Picture = "ALQ184.png",
+	ShapeName = "alq-184long",
 	Weight = 286,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/pods.lua",
 	_origin = "AircraftWeaponPack",

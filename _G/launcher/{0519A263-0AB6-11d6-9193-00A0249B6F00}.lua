@@ -5,8 +5,13 @@ _G["launcher"]["{0519A263-0AB6-11d6-9193-00A0249B6F00}"] = {
 			ShapeName = "SHPIL"
 		} },
 	Picture = "Shpil.png",
+	ShapeName = "SHPIL",
 	Weight = 200,
-	_file = "Scripts/Database/db_weapons_data.lua",
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/pods.lua",
+	_origin = "AircraftWeaponPack",
+	_unique_resource_name = "weapons.containers.SHPIL",
 	attribute = { 4, 15, 44, "Redacted" },
-	displayName = "Shpil-2 Laser Recon & Intel Pod"
+	category = 6,
+	displayName = "Shpil-2 Laser Recon & Intel Pod",
+	name = "SHPIL"
 }

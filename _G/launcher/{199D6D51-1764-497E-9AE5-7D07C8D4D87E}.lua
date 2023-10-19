@@ -5,8 +5,13 @@ _G["launcher"]["{199D6D51-1764-497E-9AE5-7D07C8D4D87E}"] = {
 			ShapeName = "PAVETACK"
 		} },
 	Picture = "L005.png",
+	ShapeName = "PAVETACK",
 	Weight = 200,
-	_file = "Scripts/Database/db_weapons_data.lua",
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/pods.lua",
+	_origin = "AircraftWeaponPack",
+	_unique_resource_name = "weapons.containers.PAVETACK",
 	attribute = { 4, 15, 44, "Redacted" },
-	displayName = "Pavetack F-111"
+	category = 6,
+	displayName = "Pavetack F-111",
+	name = "PAVETACK"
 }

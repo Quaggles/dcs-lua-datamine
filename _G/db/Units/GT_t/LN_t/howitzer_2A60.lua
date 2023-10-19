@@ -4,9 +4,10 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["howitzer_2A60"] = {
 		} },
 	PL = { {
 			ammo_capacity = 25,
-			reload_time = 500,
+			portion_reload_time = 20,
 			shell_name = { "2A60_120" },
-			shot_delay = 4.3
+			shot_delay = 4.3,
+			virtualStwID = 1
 		} },
 	distanceMin = 30,
 	maxShootingSpeed = 0,

@@ -1144,9 +1144,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Picture = "AJS37.png",
 	Pylons = { {
 			Launchers = { {
-					CLSID = "{Robot24J}"
+					CLSID = "{Robot24J}",
+					Cx_gain_empty = 0.8,
+					Cx_gain_item = 0.24
 				}, {
-					CLSID = "{Robot24}"
+					CLSID = "{Robot24}",
+					Cx_gain_empty = 0.8,
+					Cx_gain_item = 0.24
 				} },
 			Number = 1,
 			Order = 1,
@@ -1157,11 +1161,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
-					CLSID = "{Robot74}"
+					CLSID = "{Robot74}",
+					Cx_gain_empty = 0.8,
+					Cx_gain_item = 0.24
 				}, {
-					CLSID = "{Robot24J}"
+					CLSID = "{Robot24J}",
+					Cx_gain_empty = 0.8,
+					Cx_gain_item = 0.24
 				}, {
-					CLSID = "{Robot24}"
+					CLSID = "{Robot24}",
+					Cx_gain_empty = 0.8,
+					Cx_gain_item = 0.24
 				}, {
 					CLSID = "{BK90}",
 					Type = 1
@@ -1219,11 +1229,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
-					CLSID = "{Robot74}"
+					CLSID = "{Robot74}",
+					Cx_gain_empty = 0.8,
+					Cx_gain_item = 0.24
 				}, {
-					CLSID = "{Robot24J}"
+					CLSID = "{Robot24J}",
+					Cx_gain_empty = 0.8,
+					Cx_gain_item = 0.24
 				}, {
-					CLSID = "{Robot24}"
+					CLSID = "{Robot24}",
+					Cx_gain_empty = 0.8,
+					Cx_gain_item = 0.24
 				}, {
 					CLSID = "{BK90}",
 					Type = 1
@@ -1275,11 +1291,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
-					CLSID = "{Robot74}"
+					CLSID = "{Robot74}",
+					Cx_gain_empty = 0.8,
+					Cx_gain_item = 0.24
 				}, {
-					CLSID = "{Robot24J}"
+					CLSID = "{Robot24J}",
+					Cx_gain_empty = 0.8,
+					Cx_gain_item = 0.24
 				}, {
-					CLSID = "{Robot24}"
+					CLSID = "{Robot24}",
+					Cx_gain_empty = 0.8,
+					Cx_gain_item = 0.24
 				}, {
 					CLSID = "{BK90}",
 					Type = 1
@@ -1319,11 +1341,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
-					CLSID = "{Robot74}"
+					CLSID = "{Robot74}",
+					Cx_gain_empty = 0.8,
+					Cx_gain_item = 0.24
 				}, {
-					CLSID = "{Robot24J}"
+					CLSID = "{Robot24J}",
+					Cx_gain_empty = 0.8,
+					Cx_gain_item = 0.24
 				}, {
-					CLSID = "{Robot24}"
+					CLSID = "{Robot24}",
+					Cx_gain_empty = 0.8,
+					Cx_gain_item = 0.24
 				}, {
 					CLSID = "{BK90}",
 					Type = 1
@@ -1385,9 +1413,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
-					CLSID = "{Robot24J}"
+					CLSID = "{Robot24J}",
+					Cx_gain_empty = 0.8,
+					Cx_gain_item = 0.24
 				}, {
-					CLSID = "{Robot24}"
+					CLSID = "{Robot24}",
+					Cx_gain_empty = 0.8,
+					Cx_gain_item = 0.24
 				} },
 			Number = 7,
 			Order = 7,

@@ -88,6 +88,7 @@ _G["weapons_table"]["weapons"]["bombs"]["KAB_1500LG"] = {
 	},
 	cx = { 1, 0.4, 0.37, 0.288, 1.31 },
 	display_name = "KAB-1500LG-Pr",
+	display_name_short = "KAB-1500LG-Pr",
 	mass = 1525,
 	model = "kab-1500lg",
 	name = "KAB_1500LG",

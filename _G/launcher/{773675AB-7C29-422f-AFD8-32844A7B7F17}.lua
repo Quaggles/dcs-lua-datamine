@@ -16,7 +16,7 @@ _G["launcher"]["{773675AB-7C29-422f-AFD8-32844A7B7F17}"] = {
 		} },
 	Picture = "us_AIM-9P.png",
 	PictureBlendColor = "0xffffffff",
-	Weight = 201,
+	Weight = 179.68,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/aim9_family.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },

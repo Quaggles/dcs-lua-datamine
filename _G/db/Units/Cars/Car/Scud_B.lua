@@ -11,7 +11,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	MaxSpeed = 60.00012,
 	Name = "SSM SS-1C Scud-B",
 	Rate = 20,
-	ThreatRange = 320000,
+	ThreatRange = 285000,
 	ThreatRangeMin = 50000,
 	WS = { {
 			LN = { {
@@ -26,7 +26,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							shot_delay = 10,
 							type_ammunition = { 4, 4, 11, "Redacted" }
 						} },
-					distanceMax = 320000,
+					distanceMax = 285000,
 					distanceMin = 50000,
 					external_tracking_awacs = true,
 					max_number_of_missiles_channels = 1,

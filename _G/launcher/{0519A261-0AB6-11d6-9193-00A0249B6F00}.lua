@@ -5,8 +5,13 @@ _G["launcher"]["{0519A261-0AB6-11d6-9193-00A0249B6F00}"] = {
 			ShapeName = "ETHER"
 		} },
 	Picture = "ether.png",
+	ShapeName = "ETHER",
 	Weight = 200,
-	_file = "Scripts/Database/db_weapons_data.lua",
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/pods.lua",
+	_origin = "AircraftWeaponPack",
+	_unique_resource_name = "weapons.containers.ETHER",
 	attribute = { 4, 15, 44, "Redacted" },
-	displayName = "ETHER"
+	category = 6,
+	displayName = "ETHER",
+	name = "ETHER"
 }

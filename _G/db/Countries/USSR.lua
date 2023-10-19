@@ -346,6 +346,14 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "S-300PS 5H63C 30H6_tr",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "S-300PS 40B6MD sr_19J6",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "SA-11 Buk CC 9S470M1",
 					in_service = 0,
 					out_of_service = 40000
@@ -1124,6 +1132,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "L-39ZA",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "MiG-15bis",
 					in_service = 0,
 					out_of_service = 40000
@@ -1289,6 +1301,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Mirage-F1CE"
 				}, {
 					Name = "Mirage-F1EE"
+				}, {
+					Name = "Mirage-F1BE"
 				}, {
 					Name = "Ju-88A4"
 				} }

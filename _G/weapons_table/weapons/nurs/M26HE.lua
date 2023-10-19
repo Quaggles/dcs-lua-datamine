@@ -1,0 +1,130 @@
+_G["weapons_table"]["weapons"]["nurs"]["M26HE"] = {
+	_unique_resource_name = "weapons.nurs.M26HE",
+	caliber = 0.23,
+	client = {
+		display_name_short = "M26 (270mm DPICM)",
+		engine = {
+			boost_factor = 1,
+			boost_tail = 1,
+			boost_time = 0,
+			fuel_mass = 85,
+			impulse = 270,
+			nozzle_orientationXYZ = { { 0, 0, 0 } },
+			nozzle_position = { { -2.05, 0, 0 } },
+			smoke_color = { 0.9, 0.9, 0.9 },
+			smoke_transparency = 0.5,
+			tail_width = 1,
+			work_tail = 1,
+			work_time = 2
+		},
+		fm = {
+			I = 433.01467,
+			L = 3.56,
+			Ma = 0.192352,
+			Mw = 2.521688,
+			caliber = 0.23,
+			cx_coeff = { 1, 0.66, 0.49, 0.2, 1.53 },
+			freq = 7,
+			mass = 306,
+			rail_open = false,
+			shapeName = "",
+			wind_sigma = 30,
+			wind_sigma_z_coeff = 1,
+			wind_time = 2
+		},
+		scheme = "schemes/rockets/nurs-standard.sch",
+		warhead = {
+			caliber = 230,
+			concrete_factors = { 1, 1, 0.1 },
+			concrete_obj_factor = 0,
+			cumulative_factor = 0,
+			cumulative_thickness = 0,
+			expl_mass = 92.5,
+			fantom = 1,
+			mass = 246,
+			obj_factors = { 0.3, 1 },
+			other_factors = { 1, 1, 1 },
+			piercing_mass = 49.2
+		}
+	},
+	cx_pil = 0.00014707101891584,
+	display_name = "M26HE",
+	display_name_short = "M26 (270mm DPICM)",
+	dist_max = 0,
+	dist_min = 0,
+	mass = 306,
+	max_TOF = 120,
+	model = "M26",
+	name = "M26HE",
+	server = {
+		display_name_short = "M26 (270mm DPICM)",
+		engine = {
+			boost_factor = 1,
+			boost_tail = 1,
+			boost_time = 0,
+			fuel_mass = 85,
+			impulse = 270,
+			nozzle_orientationXYZ = { { 0, 0, 0 } },
+			nozzle_position = { { -2.05, 0, 0 } },
+			smoke_color = { 0.9, 0.9, 0.9 },
+			smoke_transparency = 0.5,
+			tail_width = 1,
+			work_tail = 1,
+			work_time = 2
+		},
+		fm = {
+			I = 433.01467,
+			L = 3.56,
+			Ma = 0.192352,
+			Mw = 2.521688,
+			caliber = 0.23,
+			cx_coeff = { 1, 0.66, 0.49, 0.2, 1.53 },
+			freq = 7,
+			mass = 306,
+			rail_open = false,
+			shapeName = "",
+			wind_sigma = 30,
+			wind_sigma_z_coeff = 1,
+			wind_time = 2
+		},
+		scheme = "schemes/rockets/nurs-standard.sch",
+		warhead = {
+			caliber = 230,
+			concrete_factors = { 1, 1, 0.1 },
+			concrete_obj_factor = 0,
+			cumulative_factor = 0,
+			cumulative_thickness = 0,
+			expl_mass = 92.5,
+			fantom = 0,
+			mass = 246,
+			obj_factors = { 0.3, 1 },
+			other_factors = { 1, 1, 1 },
+			piercing_mass = 49.2
+		}
+	},
+	sight_data = {
+		engine = {
+			fuel_mass = 85,
+			impulse = 270,
+			work_time = 2
+		},
+		fm = {
+			I = 433.01467,
+			L = 3.56,
+			Ma = 0.192352,
+			Mw = 2.521688,
+			caliber = 0.23,
+			cx_coeff = { 1, 0.66, 0.49, 0.2, 1.53 },
+			freq = 7,
+			mass = 306,
+			rail_open = false,
+			shapeName = "",
+			wind_sigma = 30,
+			wind_sigma_z_coeff = 1,
+			wind_time = 2
+		}
+	},
+	sounderName = "Weapons/Rocket",
+	type_name = "rocket",
+	ws_type = { 4, 7, 33, "Redacted" }
+}

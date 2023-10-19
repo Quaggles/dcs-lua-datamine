@@ -36,6 +36,10 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_45B"] = {
 			wind_sigma = 8,
 			wind_time = 1000
 		},
+		fuze = {
+			default_arm_delays = { 2 },
+			is_vane_anim_required = true
+		},
 		hMax = 10000,
 		hMin = 100,
 		mass = 232,
@@ -77,6 +81,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_45B"] = {
 	},
 	cx = { 1, 0.29, 0.71, 0.14, 1.28 },
 	display_name = "BDU-45B",
+	display_name_short = "BDU-45B",
 	mass = 232,
 	model = "BDU_45B",
 	name = "BDU_45B",
@@ -110,6 +115,10 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_45B"] = {
 			release_rnd_x = 1,
 			wind_sigma = 8,
 			wind_time = 1000
+		},
+		fuze = {
+			default_arm_delays = { 2 },
+			is_vane_anim_required = true
 		},
 		hMax = 10000,
 		hMin = 100,

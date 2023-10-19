@@ -3206,7 +3206,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					connector = "PYLON_9_B",
 					forbidden = { {
 							loadout = { "{HVAR}" },
-							station = 5
+							station = 6
 						} }
 				}, {
 					CLSID = "{HVAR}",

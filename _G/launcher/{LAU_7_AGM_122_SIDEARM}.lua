@@ -2,10 +2,7 @@ _G["launcher"]["{LAU_7_AGM_122_SIDEARM}"] = {
 	CLSID = "{LAU_7_AGM_122_SIDEARM}",
 	Count = 1,
 	Cx_pil = 0.001959765625,
-	Elements = { {
-			IsAdapter = true,
-			ShapeName = "aero-3b"
-		}, {
+	Elements = { "_G/Pylons/aero-3b.lua", {
 			ShapeName = "AIM-9B",
 			connector_name = "Point"
 		} },

@@ -68,6 +68,7 @@ _G["weapons_table"]["weapons"]["nurs"]["ARAKM70BAP"] = {
 	},
 	cx_pil = 8.0387366684076e-05,
 	display_name = "ARAKM70BAP",
+	display_name_short = "ARAKM70BAP",
 	dist_max = 7000,
 	dist_max_ballistic = 8000,
 	dist_min = 500,

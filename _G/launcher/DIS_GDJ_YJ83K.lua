@@ -16,7 +16,7 @@ _G["launcher"]["DIS_GDJ_YJ83K"] = {
 	category = 2,
 	displayName = "YJ-83K",
 	ejectDirection = { 0, -1, 0 },
-	ejectImpulse = 858,
+	ejectVelocity = 2,
 	name = "DIS_GDJ_YJ83K",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

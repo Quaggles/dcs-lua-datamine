@@ -27,6 +27,7 @@ _G["rockets"]["#Index"] = {
 	Y_back = 0,
 	Z_back = 0,
 	display_name = "AT-10 Stabber",
+	display_name_short = "AT-10 Stabber",
 	exhaust = { 0.9, 0.9, 0.9, 0.1 },
 	name = "P_9M117",
 	sigma = { 4, 4, 4 },

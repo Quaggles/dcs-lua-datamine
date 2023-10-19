@@ -75,7 +75,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			pos = { 0, 0, 0 }
 		},
 		maxTargetDetectionRange = 90000,
-		radar_type = 103
+		radar_type = 103,
+		searchRadarFrequencies = { { 8000000000, 12000000000 } }
 	},
 	Waypoint_Custom_Panel = true,
 	animation_arguments = {},
@@ -104,7 +105,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "Hawk tr",
 	visual = {
 		IR = {
-			coeffs = { { 0.035, 0.0012 }, { 0.003, 0.0031 }, { 0, 0 }, { 0, 0 }, { 0.2, 0.0004 } }
+			coeffs = { { 0.035, 0.0012 }, { 0.003, 0.0031 }, { 0.41, 0.005, 1.7 }, { 0.001, 0.17 }, { 0.2, 0.0004 } }
 		},
 		agony_explosion_size = 0,
 		fire_pos = {},

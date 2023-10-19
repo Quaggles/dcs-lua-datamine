@@ -14,5 +14,5 @@ _G["launcher"]["DIS_YJ83K"] = {
 	category = 2,
 	displayName = "YJ-83K",
 	ejectDirection = { 0, -1, 0 },
-	ejectImpulse = 858
+	ejectVelocity = 2
 }

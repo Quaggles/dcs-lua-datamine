@@ -912,23 +912,35 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			FiZ = -4,
 			Launchers = { {
-					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}"
+					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
+					required = <6>{ {
+							loadout = { "" },
+							station = 6
+						} }
 				}, {
-					CLSID = "{AB8B8299-F1CC-4359-89B5-2172E0CF4A5A}"
+					CLSID = "{AB8B8299-F1CC-4359-89B5-2172E0CF4A5A}",
+					required = <table 6>
 				}, {
-					CLSID = "{Mk82AIR}"
+					CLSID = "{Mk82AIR}",
+					required = <table 6>
 				}, {
-					CLSID = "{CBU-87}"
+					CLSID = "{CBU-87}",
+					required = <table 6>
 				}, {
-					CLSID = "{BDU-50LD}"
+					CLSID = "{BDU-50LD}",
+					required = <table 6>
 				}, {
-					CLSID = "{BDU-50HD}"
+					CLSID = "{BDU-50HD}",
+					required = <table 6>
 				}, {
-					CLSID = "BRU-42_3*BDU-33"
+					CLSID = "BRU-42_3*BDU-33",
+					required = <table 6>
 				}, {
-					CLSID = "{5335D97A-35A5-4643-9D9B-026C75961E52}"
+					CLSID = "{5335D97A-35A5-4643-9D9B-026C75961E52}",
+					required = <table 6>
 				}, {
-					CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}"
+					CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}",
+					required = <table 6>
 				} },
 			Number = 5,
 			Order = 5,
@@ -939,25 +951,41 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			FiZ = -4,
 			Launchers = { {
-					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}"
+					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
+					required = <7>{ {
+							loadout = { "" },
+							station = 5
+						}, {
+							loadout = { "" },
+							station = 7
+						} }
 				}, {
-					CLSID = "{AB8B8299-F1CC-4359-89B5-2172E0CF4A5A}"
+					CLSID = "{AB8B8299-F1CC-4359-89B5-2172E0CF4A5A}",
+					required = <table 7>
 				}, {
-					CLSID = "{Mk82AIR}"
+					CLSID = "{Mk82AIR}",
+					required = <table 7>
 				}, {
-					CLSID = "{CBU-87}"
+					CLSID = "{CBU-87}",
+					required = <table 7>
 				}, {
-					CLSID = "{BDU-50LD}"
+					CLSID = "{BDU-50LD}",
+					required = <table 7>
 				}, {
-					CLSID = "{BDU-50HD}"
+					CLSID = "{BDU-50HD}",
+					required = <table 7>
 				}, {
-					CLSID = "BRU-42_3*BDU-33"
+					CLSID = "BRU-42_3*BDU-33",
+					required = <table 7>
 				}, {
-					CLSID = "Fuel_Tank_FT600"
+					CLSID = "Fuel_Tank_FT600",
+					required = <table 7>
 				}, {
-					CLSID = "{5335D97A-35A5-4643-9D9B-026C75961E52}"
+					CLSID = "{5335D97A-35A5-4643-9D9B-026C75961E52}",
+					required = <table 7>
 				}, {
-					CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}"
+					CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}",
+					required = <table 7>
 				} },
 			Number = 6,
 			Order = 6,
@@ -968,23 +996,32 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			FiZ = -4,
 			Launchers = { {
-					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}"
+					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
+					required = <table 6>
 				}, {
-					CLSID = "{AB8B8299-F1CC-4359-89B5-2172E0CF4A5A}"
+					CLSID = "{AB8B8299-F1CC-4359-89B5-2172E0CF4A5A}",
+					required = <table 6>
 				}, {
-					CLSID = "{Mk82AIR}"
+					CLSID = "{Mk82AIR}",
+					required = <table 6>
 				}, {
-					CLSID = "{CBU-87}"
+					CLSID = "{CBU-87}",
+					required = <table 6>
 				}, {
-					CLSID = "{BDU-50LD}"
+					CLSID = "{BDU-50LD}",
+					required = <table 6>
 				}, {
-					CLSID = "{BDU-50HD}"
+					CLSID = "{BDU-50HD}",
+					required = <table 6>
 				}, {
-					CLSID = "BRU-42_3*BDU-33"
+					CLSID = "BRU-42_3*BDU-33",
+					required = <table 6>
 				}, {
-					CLSID = "{5335D97A-35A5-4643-9D9B-026C75961E52}"
+					CLSID = "{5335D97A-35A5-4643-9D9B-026C75961E52}",
+					required = <table 6>
 				}, {
-					CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}"
+					CLSID = "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}",
+					required = <table 6>
 				} },
 			Number = 7,
 			Order = 7,
@@ -1387,7 +1424,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 								exposure = { { 223, 0.245, 0.255, 1, 0 } },
 								movable = true,
 								period = 1.2,
-								proto = <6>{
+								proto = <8>{
 									angle_max = 3.1415926535898,
 									angle_min = 0.5235987755983,
 									color = { 0.92, 0.92, 1, 0.20784609690827 },
@@ -1402,7 +1439,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 								exposure = { { 223, 0.245, 0.255, 1, 0 } },
 								movable = true,
 								period = 1.2,
-								proto = <table 6>,
+								proto = <table 8>,
 								range = 18.2,
 								typename = "Omni"
 							} },
@@ -1420,7 +1457,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 								exposure = { { 213, 0.245, 0.255, 1, 0 } },
 								movable = true,
 								period = 1.2,
-								proto = <table 6>,
+								proto = <table 8>,
 								typename = "Spot"
 							}, {
 								connector = "WHITE_BEACON R",
@@ -1428,7 +1465,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 								exposure = { { 213, 0.245, 0.255, 1, 0 } },
 								movable = true,
 								period = 1.2,
-								proto = <table 6>,
+								proto = <table 8>,
 								range = 18.2,
 								typename = "Omni"
 							} },
@@ -1446,7 +1483,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 								exposure = { { 81, 0.245, 0.255, 1, 0 } },
 								movable = true,
 								period = 1.2,
-								proto = <table 6>,
+								proto = <table 8>,
 								typename = "Spot"
 							}, {
 								connector = "BANO_0_BACK",
@@ -1454,7 +1491,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 								exposure = { { 81, 0.245, 0.255, 1, 0 } },
 								movable = true,
 								period = 1.2,
-								proto = <table 6>,
+								proto = <table 8>,
 								range = 18.2,
 								typename = "Omni"
 							} },
@@ -1471,7 +1508,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 								},
 								exposure = { { 0, 0.9, 1 } },
 								movable = true,
-								proto = <7>{
+								proto = <9>{
 									angle_change_rate = 0.047996554429844,
 									angle_max = 0.19198621771938,
 									angle_min = 0.1221730476396,
@@ -1486,7 +1523,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 								connector = "MAIN_SPOT_PTR_02",
 								exposure = { { 0, 0.9, 1 } },
 								movable = true,
-								proto = <table 7>,
+								proto = <table 9>,
 								range = 16,
 								typename = "spotlight"
 							} },
@@ -1500,7 +1537,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 								},
 								exposure = { { 0, 0.9, 1 } },
 								movable = true,
-								proto = <8>{
+								proto = <10>{
 									angle_change_rate = -0.19198621771938,
 									angle_max = 0.7679448708775,
 									angle_min = 0.614355896702,
@@ -1514,7 +1551,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 								exposure = { { 0, 0.9, 1 } },
 								movable = true,
 								pos_correction = { 0.5, 0, 0 },
-								proto = <table 8>,
+								proto = <table 10>,
 								range = 8,
 								typename = "omnilight"
 							} },
@@ -1612,7 +1649,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							elevation = 0.05235987755983
 						},
 						pos_correction = { 0, 0.1, 0 },
-						proto = <9>{
+						proto = <11>{
 							angle_max = 0.48869219055841,
 							color = { 255, 201, 125, 0.12792304845413 },
 							range = 66
@@ -1627,7 +1664,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							elevation = -0.05235987755983
 						},
 						pos_correction = { 0, -0.1, 0 },
-						proto = <table 9>,
+						proto = <table 11>,
 						typename = "spotlight"
 					}, {
 						argument = 200,
@@ -1644,7 +1681,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 									elevation = 0.087266462599716
 								},
 								position = { 0.5, 1.2, 0 },
-								proto = <table 9>,
+								proto = <table 11>,
 								typename = "spotlight"
 							}, {
 								angle_max = 0.48869219055841,
@@ -1653,7 +1690,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 									elevation = 0.087266462599716
 								},
 								position = { 0.5, 1.2, 0 },
-								proto = <table 9>,
+								proto = <table 11>,
 								typename = "spotlight"
 							} },
 						typename = "collection"
@@ -1669,14 +1706,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 								},
 								exposure = { { 0, 0.9, 1 } },
 								movable = true,
-								proto = <table 8>,
+								proto = <table 10>,
 								typename = "spotlight"
 							}, {
 								connector = "MAIN_SPOT_PTR_01",
 								exposure = { { 0, 0.9, 1 } },
 								movable = true,
 								pos_correction = { 0.5, 0, 0 },
-								proto = <table 8>,
+								proto = <table 10>,
 								range = 8,
 								typename = "omnilight"
 							} },
@@ -1714,7 +1751,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							azimuth = 0.78539816339745
 						},
 						position = { 0, -0.3, -5.8 },
-						proto = <table 9>,
+						proto = <table 11>,
 						typename = "spotlight"
 					}, {
 						angle_max = 0.48869219055841,
@@ -1723,7 +1760,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							azimuth = -0.78539816339745
 						},
 						position = { 0, -0.3, 5.8 },
-						proto = <table 9>,
+						proto = <table 11>,
 						typename = "spotlight"
 					} },
 				typename = "collection"

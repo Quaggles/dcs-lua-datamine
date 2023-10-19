@@ -308,7 +308,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		fire_on_march = false,
 		maxTargetDetectionRange = 120000,
 		radar_rotation_type = 1,
-		radar_type = 103
+		radar_type = 103,
+		searchRadarFrequencies = { { 6000000000, 10000000000 } }
 	},
 	Waypoint_Custom_Panel = true,
 	animation_arguments = {
@@ -353,7 +354,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "SA-11 Buk SR 9S18M1",
 	visual = {
 		IR = {
-			coeffs = { { 0.035, 0.0012 }, { 0.00775, 0.00265 }, { 0, 0 }, { 0.001, 0.17 }, { 0.2, 0.0002 } }
+			coeffs = { { 0.035, 0.0012 }, { 0.00775, 0.00265 }, { 0.205, 0.005, 2 }, { 0.001, 0.17 }, { 0.2, 0.0002 } }
 		},
 		agony_explosion_size = 2,
 		fire_pos = { 1.6, 0.85, 0 },

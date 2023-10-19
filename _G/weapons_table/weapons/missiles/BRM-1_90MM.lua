@@ -48,6 +48,7 @@ _G["weapons_table"]["weapons"]["missiles"]["BRM-1_90MM"] = {
 		},
 		category = 2,
 		class_name = "wAmmunitionLaserHoming",
+		display_name_short = "BRM-1_90MM",
 		exhaust = { 0.78, 0.78, 0.78, 0.3 },
 		fm = {
 			A = 0.36,
@@ -138,6 +139,7 @@ _G["weapons_table"]["weapons"]["missiles"]["BRM-1_90MM"] = {
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	display_name = "BRM-1_90MM",
+	display_name_short = "BRM-1_90MM",
 	mass = 20,
 	model = "brm1_90",
 	name = "BRM-1_90MM",
@@ -185,6 +187,7 @@ _G["weapons_table"]["weapons"]["missiles"]["BRM-1_90MM"] = {
 		},
 		category = 2,
 		class_name = "wAmmunitionLaserHoming",
+		display_name_short = "BRM-1_90MM",
 		exhaust = { 0.78, 0.78, 0.78, 0.3 },
 		fm = {
 			A = 0.36,

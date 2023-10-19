@@ -9,7 +9,7 @@ _G["launcher"]["{BRU_42A_x1_ADM_141A}"] = {
 			connector_name = "Point01",
 			payload_CLSID = "{ADM_141A}"
 		} },
-	Picture = "agm154.png",
+	Picture = "ADM-141.png",
 	Weight = 230.8,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/tactical_decoys.lua",
 	_origin = "AircraftWeaponPack",

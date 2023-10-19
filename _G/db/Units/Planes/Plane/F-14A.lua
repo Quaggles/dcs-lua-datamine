@@ -1086,7 +1086,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				Transition = { "Stage", "Extend" }
 			} }
 	},
-	nose_gear_pos = { 6.454, -1.817, 0 },
+	nose_gear_pos = { 6.454, -1.78, 0 },
 	nose_gear_wheel_diameter = 0.754,
 	passivCounterm = {
 		CMDS_Edit = true,

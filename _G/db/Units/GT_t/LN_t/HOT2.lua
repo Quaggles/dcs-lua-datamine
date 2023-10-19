@@ -6,7 +6,7 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["HOT2"] = {
 			ammo_capacity = 12,
 			automaticLoader = true,
 			name_ammunition = "HOT2",
-			reload_time = 180,
+			portion_reload_time = 15,
 			shot_delay = 10,
 			type_ammunition = { 4, 4, 8, "Redacted" }
 		} },

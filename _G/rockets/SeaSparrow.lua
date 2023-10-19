@@ -29,6 +29,7 @@ _G["rockets"]["#Index"] = {
 	Z_back = 0,
 	ccm_k0 = 0.5,
 	display_name = "RIM-7",
+	display_name_short = "RIM-7",
 	exhaust = { 1, 1, 1, 1 },
 	loft = 1,
 	name = "SeaSparrow",

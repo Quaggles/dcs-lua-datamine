@@ -172,7 +172,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					distanceMin = 1000,
 					max_trg_alt = 10000,
 					min_trg_alt = 10,
-					reflection_limit = 0.02,
+					reflection_limit = 0.04,
 					type = 102
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.1170107212764 } },
@@ -235,6 +235,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		},
 		maxTargetDetectionRange = 27000,
 		radar_type = 104,
+		searchRadarFrequencies = { { 2000000000, 3000000000 }, { 8000000000, 12000000000 } },
 		searchRadarMaxElevation = 0.69813170079773
 	},
 	Waypoint_Custom_Panel = true,

@@ -12,5 +12,5 @@ _G["launcher"]["{AGM-154A}"] = {
 	attribute = { 4, 4, 8, "Redacted" },
 	category = 2,
 	displayName = "AGM-154A - JSOW CEB (CBU-type)",
-	ejectImpulse = 140
+	ejectVelocity = 4
 }

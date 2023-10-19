@@ -12,5 +12,5 @@ _G["launcher"]["DIS_BOMB_250_2"] = {
 	attribute = { 4, 5, 9, "Redacted" },
 	category = 1,
 	displayName = "250-2 - 250kg GP Bombs HD",
-	ejectImpulse = 140
+	ejectVelocity = 1.8
 }

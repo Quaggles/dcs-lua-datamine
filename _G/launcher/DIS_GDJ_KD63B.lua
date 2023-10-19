@@ -18,7 +18,7 @@ _G["launcher"]["DIS_GDJ_KD63B"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
 	displayName = "KD-63B",
-	ejectImpulse = 2000,
+	ejectVelocity = 2,
 	name = "DIS_GDJ_KD63B",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

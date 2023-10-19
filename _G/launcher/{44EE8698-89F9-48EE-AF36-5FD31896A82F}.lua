@@ -6,8 +6,13 @@ _G["launcher"]["{44EE8698-89F9-48EE-AF36-5FD31896A82F}"] = {
 		} },
 	Picture = "L005.png",
 	Required = { "{44EE8698-89F9-48EE-AF36-5FD31896A82A}" },
+	ShapeName = "SORBCIJA_L",
 	Weight = 150,
-	_file = "Scripts/Database/db_weapons_data.lua",
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/pods.lua",
+	_origin = "AircraftWeaponPack",
+	_unique_resource_name = "weapons.containers.SORBCIJA_L",
 	attribute = { 4, 15, 45, "Redacted" },
-	displayName = "L005 Sorbtsiya ECM pod (left)"
+	category = 6,
+	displayName = "L005 Sorbtsiya ECM pod (left)",
+	name = "SORBCIJA_L"
 }

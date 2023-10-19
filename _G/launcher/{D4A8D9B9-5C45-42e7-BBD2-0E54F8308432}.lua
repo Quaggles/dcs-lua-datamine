@@ -14,6 +14,7 @@ _G["launcher"]["{D4A8D9B9-5C45-42e7-BBD2-0E54F8308432}"] = {
 	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 4, 32, "Redacted" },
 	displayName = "Kh-29L (AS-14 Kedge) - 657kg, ASM, Semi-Act Laser",
-	ejectImpulse = 2000,
+	ejectPitchRate = 0,
+	ejectVelocity = 4,
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

@@ -253,6 +253,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BLG66"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "BLG-66 Belouga AC",
+	display_name_short = "BLG-66",
 	mass = 305,
 	model = "M2000C_BLG66",
 	name = "BLG66",

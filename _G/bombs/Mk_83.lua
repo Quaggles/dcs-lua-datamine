@@ -4,6 +4,7 @@ _G["bombs"]["#Index"] = {
 	Name = "Redacted",
 	VyHold = -100,
 	display_name = "Mk-83",
+	display_name_short = "Mk-83",
 	hMax = 12000,
 	hMin = 200,
 	mass = 454,

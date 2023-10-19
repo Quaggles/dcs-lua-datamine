@@ -30,7 +30,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			control = "checkbox",
 			defValue = true,
 			id = "NS430allow",
-			label = "NS 430 allow",
+			label = "Allow N430 nav device",
 			playerOnly = true
 		}, {
 			control = "checkbox",
@@ -234,11 +234,13 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		},
 		[39] = {
 			args = { 61 },
-			critical_damage = 5
+			critical_damage = 5,
+			deps_cells = { 40 }
 		},
 		[40] = {
 			args = { 62 },
-			critical_damage = 5
+			critical_damage = 5,
+			deps_cells = { 136 }
 		},
 		[41] = {
 			args = { 245 },
@@ -264,14 +266,10 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			args = { 234 },
 			critical_damage = 5
 		},
-		[54] = {
-			args = { 54 },
-			critical_damage = 5
-		},
 		[55] = {
 			args = { 81 },
 			critical_damage = 8,
-			deps_cells = { 39, 40, 41, 42, 43, 44, 47, 48, 54 }
+			deps_cells = { 39, 41, 42, 43, 44, 47, 48 }
 		},
 		[56] = {
 			args = { 235 },
@@ -443,6 +441,11 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		[100] = {
 			args = { 303 },
 			critical_damage = 5
+		},
+		[136] = {
+			args = { 54 },
+			critical_damage = 5,
+			droppable = true
 		}
 	},
 	DamageParts = { "mi-24p_wing_r", "mi-24p_wing_l",

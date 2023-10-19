@@ -70,6 +70,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Rb 15F (for A.I.)"] = {
 			boost_start = 0.001,
 			march_start = 0.01
 		},
+		display_name_short = "RB-15F (for A.I.)",
 		engine_control = {
 			K = 265,
 			Kd = 0.01,
@@ -165,12 +166,12 @@ _G["weapons_table"]["weapons"]["missiles"]["Rb 15F (for A.I.)"] = {
 			concrete_obj_factor = 5,
 			cumulative_factor = 5,
 			cumulative_thickness = 0,
-			expl_mass = 1400,
+			expl_mass = 450,
 			fantom = 1,
-			mass = 1400,
+			mass = 450,
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
-			piercing_mass = 280
+			piercing_mass = 90
 		},
 		warhead_air = {
 			caliber = 500,
@@ -178,16 +179,17 @@ _G["weapons_table"]["weapons"]["missiles"]["Rb 15F (for A.I.)"] = {
 			concrete_obj_factor = 5,
 			cumulative_factor = 5,
 			cumulative_thickness = 0,
-			expl_mass = 1400,
+			expl_mass = 450,
 			fantom = 1,
-			mass = 1400,
+			mass = 450,
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
-			piercing_mass = 280
+			piercing_mass = 90
 		},
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	display_name = "RB-15F (for A.I.)",
+	display_name_short = "RB-15F (for A.I.)",
 	mass = 560,
 	model = "Rb15FAI",
 	name = "Rb 15F (for A.I.)",
@@ -256,6 +258,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Rb 15F (for A.I.)"] = {
 			boost_start = 0.001,
 			march_start = 0.01
 		},
+		display_name_short = "RB-15F (for A.I.)",
 		engine_control = {
 			K = 265,
 			Kd = 0.01,
@@ -351,12 +354,12 @@ _G["weapons_table"]["weapons"]["missiles"]["Rb 15F (for A.I.)"] = {
 			concrete_obj_factor = 5,
 			cumulative_factor = 5,
 			cumulative_thickness = 0,
-			expl_mass = 1400,
+			expl_mass = 450,
 			fantom = 0,
-			mass = 1400,
+			mass = 450,
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
-			piercing_mass = 280
+			piercing_mass = 90
 		},
 		warhead_air = {
 			caliber = 500,
@@ -364,12 +367,12 @@ _G["weapons_table"]["weapons"]["missiles"]["Rb 15F (for A.I.)"] = {
 			concrete_obj_factor = 5,
 			cumulative_factor = 5,
 			cumulative_thickness = 0,
-			expl_mass = 1400,
+			expl_mass = 450,
 			fantom = 0,
-			mass = 1400,
+			mass = 450,
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
-			piercing_mass = 280
+			piercing_mass = 90
 		},
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},

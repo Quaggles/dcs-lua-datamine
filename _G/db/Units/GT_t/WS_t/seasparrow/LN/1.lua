@@ -14,7 +14,7 @@ _G["db"]["Units"]["GT_t"]["WS_t"]["seasparrow"]["LN"]["#Index"] = {
 	launch_delay = 2,
 	min_launch_angle = 0.26179938779915,
 	reactionTime = 3,
-	reflection_limit = 0.02,
+	reflection_limit = 0.04,
 	sensor = {},
 	type = 4
 }

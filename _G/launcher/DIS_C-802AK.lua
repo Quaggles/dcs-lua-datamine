@@ -15,5 +15,5 @@ _G["launcher"]["DIS_C-802AK"] = {
 	category = 2,
 	displayName = "C802AK (DIS)",
 	ejectDirection = { 0, -1, 0 },
-	ejectImpulse = 858
+	ejectVelocity = 2
 }

@@ -87,6 +87,7 @@ _G["rockets"]["#Index"] = {
 		seeker_add_pitch = -0.34906585039887
 	},
 	display_name = "LD-10",
+	display_name_short = "LD-10",
 	exhaust = { 1, 1, 1, 0.8 },
 	fm = {
 		A1trim = { 4, 6, 10, 15 },

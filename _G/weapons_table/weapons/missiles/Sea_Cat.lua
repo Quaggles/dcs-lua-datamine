@@ -61,6 +61,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Sea_Cat"] = {
 			boost_start = 0,
 			march_start = 0.8
 		},
+		display_name_short = "GWS-20 Mod. 1 Sea Cat",
 		err = {
 			max_time_interval = 0.9,
 			min_time_interval = 0,
@@ -149,6 +150,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Sea_Cat"] = {
 		wsTypeOfWeapon = { 4, 4, 34, "Redacted" }
 	},
 	display_name = "GWS-20 Mod. 1 Sea Cat",
+	display_name_short = "GWS-20 Mod. 1 Sea Cat",
 	mass = 68,
 	model = "SeaCat",
 	name = "Sea_Cat",
@@ -209,6 +211,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Sea_Cat"] = {
 			boost_start = 0,
 			march_start = 0.8
 		},
+		display_name_short = "GWS-20 Mod. 1 Sea Cat",
 		err = {
 			max_time_interval = 0.9,
 			min_time_interval = 0,

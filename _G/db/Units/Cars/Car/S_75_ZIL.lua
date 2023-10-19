@@ -23,7 +23,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_elevation = { {} }
 	},
 	attribute = { 2, 17, 25, "Redacted", "Trucks", "All", "Ground Units", "Vehicles", "Ground vehicles", "Ground Units Non Airdefence", "NonAndLightArmoredUnits", "NonArmoredUnits", "Unarmed vehicles" },
-	canTow = { "Saddle" },
+	canTow = { "Saddle", "Saddle22" },
 	category = "Unarmed",
 	chassis = {},
 	driverViewPoint = { 1.593, 2.151, -0.47 },

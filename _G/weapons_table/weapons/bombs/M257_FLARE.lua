@@ -80,6 +80,7 @@ _G["weapons_table"]["weapons"]["bombs"]["M257_FLARE"] = {
 	},
 	cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 	display_name = "M257 Flare",
+	display_name_short = "M257 Flare",
 	mass = 5,
 	model = "Hydra_M257_Parashute",
 	name = "M257_FLARE",

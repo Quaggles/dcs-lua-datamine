@@ -2,7 +2,6 @@ _G["weapons_table"]["weapons"]["missiles"]["KD-63"] = {
 	Reflection = 0.121,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/mils_kd63.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
-	_unique_resource_name = "weapons.missiles.KD-63",
 	add_attributes = { "Cruise missiles" },
 	caliber = 0.76,
 	client = {
@@ -107,6 +106,7 @@ _G["weapons_table"]["weapons"]["missiles"]["KD-63"] = {
 			no_alg_vel_k = 10,
 			stab_vel = 250
 		},
+		display_name_short = "KD-63",
 		final_autopilot = {
 			J_Angle_K = 0.18,
 			J_Angle_W = 0.8,
@@ -228,6 +228,7 @@ _G["weapons_table"]["weapons"]["missiles"]["KD-63"] = {
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	display_name = "KD-63",
+	display_name_short = "KD-63",
 	mass = 2000,
 	model = "kd63",
 	name = "KD-63",
@@ -333,6 +334,7 @@ _G["weapons_table"]["weapons"]["missiles"]["KD-63"] = {
 			no_alg_vel_k = 10,
 			stab_vel = 250
 		},
+		display_name_short = "KD-63",
 		final_autopilot = {
 			J_Angle_K = 0.18,
 			J_Angle_W = 0.8,

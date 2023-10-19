@@ -29,6 +29,7 @@ _G["rockets"]["#Index"] = {
 	_unique_resource_name = "weapons.missiles.ROLAND_R",
 	ccm_k0 = 0.5,
 	display_name = "XMIM-115 Roland",
+	display_name_short = "XMIM-115 Roland",
 	exhaust = { 1, 1, 1, 1 },
 	name = "ROLAND_R",
 	sigma = { 15, 15, 15 },

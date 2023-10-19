@@ -58,6 +58,7 @@ _G["rockets"]["#Index"] = {
 		march_start = 0
 	},
 	display_name = "GWS-25 Sea Wolf",
+	display_name_short = "GWS-25 Sea Wolf",
 	err = {
 		max_time_interval = 0.2,
 		min_time_interval = 0,

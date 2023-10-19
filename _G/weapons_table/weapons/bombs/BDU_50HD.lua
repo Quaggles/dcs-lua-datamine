@@ -29,7 +29,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_50HD"] = {
 			wind_sigma = 8,
 			wind_time = 1000
 		},
-		scheme = "schemes/bombs/bomb-parashute.sch",
+		scheme = "schemes/bombs/bomb_parachute_v2.sch",
 		warhead = {
 			caliber = 273,
 			concrete_factors = { 1, 1, 1 },
@@ -81,7 +81,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_50HD"] = {
 			wind_sigma = 8,
 			wind_time = 1000
 		},
-		scheme = "schemes/bombs/bomb-parashute.sch",
+		scheme = "schemes/bombs/bomb_parachute_v2.sch",
 		warhead = {
 			caliber = 273,
 			concrete_factors = { 1, 1, 1 },

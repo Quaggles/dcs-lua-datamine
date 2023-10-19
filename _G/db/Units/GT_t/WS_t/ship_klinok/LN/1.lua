@@ -15,7 +15,7 @@ _G["db"]["Units"]["GT_t"]["WS_t"]["ship_klinok"]["LN"]["#Index"] = {
 	launch_delay = 3,
 	max_number_of_missiles_channels = 2,
 	reactionTime = 6,
-	reflection_limit = 0.02,
+	reflection_limit = 0.04,
 	sensor = {},
 	type = 4
 }

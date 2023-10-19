@@ -5,16 +5,18 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["Reflex"] = {
 	PL = { {
 			ammo_capacity = 3,
 			name_ammunition = "9M119",
-			reload_time = 60,
+			portion_reload_time = 20,
 			shot_delay = 8,
-			type_ammunition = { 4, 4, 11, "Redacted" }
+			type_ammunition = { 4, 4, 11, "Redacted" },
+			virtualStwID = 1
 		}, {
 			ammo_capacity = 3,
 			automaticLoader = false,
 			name_ammunition = "9M119",
-			reload_time = 50,
+			portion_reload_time = 15,
 			shot_delay = 30,
-			type_ammunition = { 4, 4, 11, "Redacted" }
+			type_ammunition = { 4, 4, 11, "Redacted" },
+			virtualStwID = 2
 		} },
 	beamWidth = 0.017453292519943,
 	dispertionReductionFactor = 0.985,

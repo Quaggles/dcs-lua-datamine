@@ -95,6 +95,7 @@ _G["rockets"]["#Index"] = {
 		march_start = 5
 	},
 	display_name = "C802AK (DIS)",
+	display_name_short = "C802AK (DIS)",
 	engine_control = {
 		K = 265,
 		Kd = 0.01,

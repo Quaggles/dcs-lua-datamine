@@ -34,9 +34,11 @@ _G["rockets"]["#Index"] = {
 		Kp = 0.078,
 		delay = 0.2,
 		fins_discreet = 0.04,
+		fins_limit = 3,
 		max_ctrl_angle = 1.35,
 		no_ctrl_center_ang = 4e-05,
-		op_time = 24
+		op_time = 24,
+		ray_limit_data = { 2, 0.087266462599716, 12, 0.0087266462599716 }
 	},
 	booster = {
 		custom_smoke_dissipation_factor = 0.8,
@@ -57,6 +59,7 @@ _G["rockets"]["#Index"] = {
 		march_start = 0.5
 	},
 	display_name = "9M127-1 Vikhr-M",
+	display_name_short = "9M127-1 Vikhr-M",
 	eng_err = {
 		max_time_interval = 1,
 		min_time_interval = 0.1,

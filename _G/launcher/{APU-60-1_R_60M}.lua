@@ -1,18 +1,21 @@
 _G["launcher"]["{APU-60-1_R_60M}"] = {
 	CLSID = "{APU-60-1_R_60M}",
 	Count = 1,
+	Cx_pil = 0.00051982421875,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "APU-60-1"
 		}, {
-			ShapeName = "R-60",
+			ShapeName = "r-60",
 			connector_name = "Point Pilon R60"
 		} },
-	NatoName = "(AA-8)",
 	Picture = "r60.png",
-	Weight = 76,
-	_file = "Scripts/Database/db_weapons_data.lua",
+	Weight = 75.5,
+	Weight_Empty = 32,
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/R_60.lua",
+	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },
-	displayName = "APU-60-1M with R-60M (AA-8 Aphid) - Infra Red",
+	category = 4,
+	displayName = "APU-60-1M with R-60M (AA-8 Aphid-B) - IR AAM",
 	wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 }

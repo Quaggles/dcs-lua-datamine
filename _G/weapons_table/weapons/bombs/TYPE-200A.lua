@@ -96,6 +96,7 @@ _G["weapons_table"]["weapons"]["bombs"]["TYPE-200A"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "TYPE-200A",
+	display_name_short = "TYPE-200A",
 	mass = 200,
 	model = "type-200a",
 	name = "TYPE-200A",

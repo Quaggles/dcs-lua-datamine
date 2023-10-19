@@ -196,13 +196,13 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						} },
 					PL = { {
 							ammo_capacity = 22,
-							reload_time = 330,
+							portion_reload_time = 15,
 							shell_name = {},
 							virtualStwID = 1
 						}, {
 							ammo_capacity = 29,
 							automaticLoader = false,
-							reload_time = 435,
+							portion_reload_time = 15,
 							shell_name = { "QF95_206R_fixed" },
 							shot_delay = 20,
 							virtualStwID = 2

@@ -5,7 +5,7 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["RM_15cm_SK_C28"] = {
 	PL = { {
 			ammo_capacity = 200,
 			automaticLoader = false,
-			reloadTime = 4000,
+			portion_reload_time = 20,
 			shell_name = { "RM_15cm_HE" },
 			shot_delay = 8.5714285714286
 		} },

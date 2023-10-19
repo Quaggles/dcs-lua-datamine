@@ -23,6 +23,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						} },
 					customViewPoint = { "genericMissile", { 0.01, 0, 0 } },
 					distanceMax = 18000,
+					frequencyRange = { { 14200000000, 14800000000 } },
 					inclination_correction_bias = 0,
 					inclination_correction_upper_limit = -1.5707963267949,
 					launch_delay = 4,
@@ -57,6 +58,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		maxTargetDetectionRange = 30000,
 		radar_rotation_type = 1,
 		radar_type = 104,
+		searchRadarFrequencies = { { 6000000000, 8000000000 } },
 		searchRadarMaxElevation = 0.78539816339745
 	},
 	Waypoint_Custom_Panel = true,
@@ -78,6 +80,25 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		offset = { -0.1, 0, 0 }
 	},
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = { 0.235,
+			[0] = 0.2,
+			[3] = 1,
+			[4] = 1,
+			[5] = 1,
+			[6] = 1,
+			[7] = 1,
+			[8] = 1,
+			[9] = 1,
+			[11] = -0.722,
+			[18] = 1,
+			[19] = 1,
+			[20] = 0.125,
+			[21] = 0.024,
+			[22] = -1,
+			[50] = 0.408
+		}
+	},
 	mapclasskey = "P0091000084",
 	radar_rotation_period = 1.8181818181818,
 	sensor = {

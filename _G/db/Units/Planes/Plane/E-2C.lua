@@ -1,5 +1,34 @@
 _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	AOA_take_off = 0.14,
+	AddPropAircraft = { {
+			control = "label",
+			id = "datalink_Label",
+			label = "DATALINK",
+			playerOnly = false,
+			xLbl = 150
+		}, {
+			control = "editbox",
+			getDefault = <function 1>,
+			id = "VoiceCallsignLabel",
+			label = "Voice Callsign Label",
+			onChange = <function 2>,
+			playerOnly = false
+		}, {
+			control = "editbox",
+			getDefault = <function 3>,
+			id = "VoiceCallsignNumber",
+			label = "Voice Callsign Number",
+			onChange = <function 4>,
+			playerOnly = false
+		}, {
+			control = "editbox",
+			getDefault = <function 5>,
+			id = "STN_L16",
+			label = "STN",
+			onChange = <function 6>,
+			onFocus = <function 7>,
+			playerOnly = false
+		} },
 	AmmoWeight = 0,
 	CAS_min = 43,
 	CanopyGeometry = { -0.34202014332567, -0.4924038765061, -0.64278760968654, 0.11161889704895, 0.86602540378444 },
@@ -51,6 +80,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[16] = {
 			args = { 266 },
+			critical_damage = 6
+		},
+		[17] = {
+			critical_damage = 6
+		},
+		[18] = {
 			critical_damage = 6
 		},
 		[23] = {
@@ -117,6 +152,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 6,
 			deps_cells = { 54 }
 		},
+		[43] = {
+			critical_damage = 6
+		},
+		[44] = {
+			critical_damage = 6
+		},
 		[47] = {
 			args = { 236 },
 			critical_damage = 12,
@@ -142,11 +183,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[54] = {
 			args = { 247 },
 			critical_damage = 6
-		},
-		[55] = {
-			args = { 159 },
-			critical_damage = 50,
-			deps_cells = { 56, 57, 58, 47, 51, 39, 53, 48, 52, 40, 54 }
 		},
 		[56] = {
 			args = { 158 },
@@ -174,6 +210,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[82] = {
 			args = { 152 },
 			critical_damage = 6
+		},
+		[98] = {
+			critical_damage = 3
 		}
 	},
 	DamageParts = { "E-2C-OBLOMOK-WING-R", "E-2C-OBLOMOK-WING-L" },

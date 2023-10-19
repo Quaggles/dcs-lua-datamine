@@ -5,7 +5,7 @@ _G["launcher"]["{ADM_141A}"] = {
 	Elements = { {
 			ShapeName = "ADM_141"
 		} },
-	Picture = "agm154.png",
+	Picture = "ADM-141.png",
 	Weight = 180,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/tactical_decoys.lua",
 	_origin = "AircraftWeaponPack",

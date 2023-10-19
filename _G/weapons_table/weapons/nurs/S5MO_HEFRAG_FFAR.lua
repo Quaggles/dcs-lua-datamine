@@ -71,6 +71,7 @@ _G["weapons_table"]["weapons"]["nurs"]["S5MO_HEFRAG_FFAR"] = {
 	},
 	cx_pil = 2.0422352116713e-05,
 	display_name = "S-5MO HE-FRAG FFAR",
+	display_name_short = "S-5MO HE-FRAG FFAR",
 	dist_max = 2500,
 	dist_max_ballistic = 8000,
 	dist_min = 600,

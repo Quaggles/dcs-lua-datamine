@@ -1,4 +1,5 @@
 _G["weapons_table"]["weapons"]["torpedoes"]["mk46torp_name"] = {
+	Reflection = 0.5,
 	_file = "./CoreMods/tech/SouthAtlanticAssets/Entries/Weapons.lua",
 	_unique_resource_name = "weapons.torpedoes.mk46torp_name",
 	caliber = 0.533,

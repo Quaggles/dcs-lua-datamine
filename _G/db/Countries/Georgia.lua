@@ -1138,11 +1138,13 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "Mirage-F1EE"
 				}, {
+					Name = "Mirage-F1BE"
+				}, {
+					Name = "TF-51D"
+				}, {
 					Name = "Ju-88A4"
 				}, {
 					Name = "C-47"
-				}, {
-					Name = "TF-51D"
 				} }
 		},
 		Ships = {

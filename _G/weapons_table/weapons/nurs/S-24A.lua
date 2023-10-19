@@ -69,6 +69,7 @@ _G["weapons_table"]["weapons"]["nurs"]["S-24A"] = {
 	},
 	cx_pil = 0.00078250625229522,
 	display_name = "S-24A (21) - 180 kg, cumulative unguided rocket",
+	display_name_short = "S-24A (21) - 180 kg, cumulative unguided rocket",
 	dist_max = 4000,
 	dist_max_ballistic = 8000,
 	dist_min = 2000,

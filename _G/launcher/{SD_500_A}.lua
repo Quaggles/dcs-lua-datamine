@@ -18,25 +18,25 @@ _G["launcher"]["{SD_500_A}"] = {
 			control = "comboList",
 			defValue = 1,
 			dimension = "",
-			id = "GUI_fuze_type",
+			id = "NFP_fuze_type",
 			label = "Fuze Type",
 			stringIndex = 1,
 			values = { {
 					dispName = "Zünder 38",
 					id = 1
 				} },
-			wCtrl = 355,
-			xCtrl = 170
+			wCtrl = 360,
+			xCtrl = 180
 		}, {
 			VisibilityCondition = { {
-					id = "GUI_fuze_type",
+					id = "NFP_fuze_type",
 					value = 1
 				} },
 			baseDim = "",
 			control = "comboList",
 			defValue = 1,
 			dimension = "",
-			id = "GUI_fuze_operation_mode",
+			id = "NFP_fuze_operation_mode",
 			label = "Function Delay Mode",
 			stringIndex = 1,
 			values = { {
@@ -47,15 +47,15 @@ _G["launcher"]["{SD_500_A}"] = {
 					id = 2
 				} },
 			wCtrl = 75,
-			xCtrl = 700,
-			xLbl = 560
+			xCtrl = 715,
+			xLbl = 575
 		}, {
 			VisibilityCondition = { {
-					id = "GUI_fuze_type",
+					id = "NFP_fuze_type",
 					value = 1
 				}, "and", {
 					bNot = false,
-					id = "GUI_fuze_operation_mode",
+					id = "NFP_fuze_operation_mode",
 					value = 1
 				} },
 			baseDim = "s",
@@ -64,20 +64,22 @@ _G["launcher"]["{SD_500_A}"] = {
 			dimension = "ms",
 			id = "function_delay_ctrl_oV_VFD_Z38",
 			label = "oV Mode Function Delay",
-			max = 3600000,
+			max = 1e+15,
 			min = 0,
 			readOnly = true,
 			step = 10,
 			stringIndex = 2,
-			xCtrl = 170,
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 180,
 			xLbl = 10
 		}, {
 			VisibilityCondition = { {
-					id = "GUI_fuze_type",
+					id = "NFP_fuze_type",
 					value = 1
 				}, "and", {
 					bNot = false,
-					id = "GUI_fuze_operation_mode",
+					id = "NFP_fuze_operation_mode",
 					value = 2
 				} },
 			baseDim = "s",
@@ -86,20 +88,22 @@ _G["launcher"]["{SD_500_A}"] = {
 			dimension = "s",
 			id = "function_delay_ctrl_oV_FFD_Z38",
 			label = "oV Mode Function Delay",
-			max = 3600,
+			max = 1000000000000,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 2,
-			xCtrl = 170,
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 180,
 			xLbl = 10
 		}, {
 			VisibilityCondition = { {
-					id = "GUI_fuze_type",
+					id = "NFP_fuze_type",
 					value = 1
 				}, "and", {
 					bNot = false,
-					id = "GUI_fuze_operation_mode",
+					id = "NFP_fuze_operation_mode",
 					value = 2
 				} },
 			baseDim = "s",
@@ -108,20 +112,22 @@ _G["launcher"]["{SD_500_A}"] = {
 			dimension = "s",
 			id = "function_delay_ctrl_mV_FFD_Z38",
 			label = "mV Mode Function Delay",
-			max = 3600,
+			max = 1000000000000,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 2,
-			xCtrl = 465,
-			xLbl = 265
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 480,
+			xLbl = 280
 		}, {
 			VisibilityCondition = { {
-					id = "GUI_fuze_type",
+					id = "NFP_fuze_type",
 					value = 1
 				}, "and", {
 					bNot = false,
-					id = "GUI_fuze_operation_mode",
+					id = "NFP_fuze_operation_mode",
 					value = 1
 				} },
 			baseDim = "s",
@@ -130,20 +136,22 @@ _G["launcher"]["{SD_500_A}"] = {
 			dimension = "s",
 			id = "function_delay_ctrl_mV_VFD_Z38",
 			label = "mV Mode Function Delay",
-			max = 3600,
+			max = 1000000000000,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 2,
-			xCtrl = 465,
-			xLbl = 265
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 480,
+			xLbl = 280
 		}, {
 			VisibilityCondition = { {
-					id = "GUI_fuze_type",
+					id = "NFP_fuze_type",
 					value = 1
 				}, "and", {
 					bNot = false,
-					id = "GUI_fuze_operation_mode",
+					id = "NFP_fuze_operation_mode",
 					value = 2
 				} },
 			baseDim = "s",
@@ -152,20 +160,22 @@ _G["launcher"]["{SD_500_A}"] = {
 			dimension = "s",
 			id = "function_delay_ctrl_Vz_FFD_Z38",
 			label = "Vz Mode Function Delay",
-			max = 3600,
+			max = 1000000000000,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 2,
-			xCtrl = 700,
-			xLbl = 560
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 715,
+			xLbl = 575
 		}, {
 			VisibilityCondition = { {
-					id = "GUI_fuze_type",
+					id = "NFP_fuze_type",
 					value = 1
 				}, "and", {
 					bNot = false,
-					id = "GUI_fuze_operation_mode",
+					id = "NFP_fuze_operation_mode",
 					value = 1
 				} },
 			baseDim = "s",
@@ -174,20 +184,22 @@ _G["launcher"]["{SD_500_A}"] = {
 			dimension = "s",
 			id = "function_delay_ctrl_Vz_VFD_Z38",
 			label = "Vz Mode Function Delay",
-			max = 3600,
+			max = 1000000000000,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 2,
-			xCtrl = 700,
-			xLbl = 560
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 715,
+			xLbl = 575
 		}, {
 			VisibilityCondition = { {
-					id = "GUI_fuze_type",
+					id = "NFP_fuze_type",
 					value = 1
 				}, "and", {
 					bNot = false,
-					id = "GUI_fuze_operation_mode",
+					id = "NFP_fuze_operation_mode",
 					value = 1
 				} },
 			baseDim = "s",
@@ -196,20 +208,22 @@ _G["launcher"]["{SD_500_A}"] = {
 			dimension = "s",
 			id = "arm_delay_ctrl_Strz_VFD_Z38",
 			label = "Sturz Mode Arm Delay",
-			max = 3600,
+			max = 1000000000000,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 3,
-			xCtrl = 170,
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 180,
 			xLbl = 10
 		}, {
 			VisibilityCondition = { {
-					id = "GUI_fuze_type",
+					id = "NFP_fuze_type",
 					value = 1
 				}, "and", {
 					bNot = false,
-					id = "GUI_fuze_operation_mode",
+					id = "NFP_fuze_operation_mode",
 					value = 2
 				} },
 			baseDim = "s",
@@ -218,20 +232,22 @@ _G["launcher"]["{SD_500_A}"] = {
 			dimension = "s",
 			id = "arm_delay_ctrl_Strz_FFD_Z38",
 			label = "Sturz Mode Arm Delay",
-			max = 3600,
+			max = 1000000000000,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 3,
-			xCtrl = 170,
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 180,
 			xLbl = 10
 		}, {
 			VisibilityCondition = { {
-					id = "GUI_fuze_type",
+					id = "NFP_fuze_type",
 					value = 1
 				}, "and", {
 					bNot = false,
-					id = "GUI_fuze_operation_mode",
+					id = "NFP_fuze_operation_mode",
 					value = 2
 				} },
 			baseDim = "s",
@@ -240,20 +256,22 @@ _G["launcher"]["{SD_500_A}"] = {
 			dimension = "s",
 			id = "arm_delay_ctrl_Wgrcht_FFD_Z38",
 			label = "Wagerecht Mode Arm Delay",
-			max = 3600,
+			max = 1000000000000,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 3,
-			xCtrl = 465,
-			xLbl = 265
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 480,
+			xLbl = 280
 		}, {
 			VisibilityCondition = { {
-					id = "GUI_fuze_type",
+					id = "NFP_fuze_type",
 					value = 1
 				}, "and", {
 					bNot = false,
-					id = "GUI_fuze_operation_mode",
+					id = "NFP_fuze_operation_mode",
 					value = 1
 				} },
 			baseDim = "s",
@@ -262,12 +280,14 @@ _G["launcher"]["{SD_500_A}"] = {
 			dimension = "s",
 			id = "arm_delay_ctrl_Wgrcht_VFD_Z38",
 			label = "Wagerecht Mode Arm Delay",
-			max = 3600,
+			max = 1000000000000,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 3,
-			xCtrl = 465,
-			xLbl = 265
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 480,
+			xLbl = 280
 		} }
 }

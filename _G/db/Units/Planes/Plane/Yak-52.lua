@@ -640,14 +640,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			table_data = { { 0, 0.0242, 0.1, 0.0634, 0, 0.15, 20, 1.58 }, { 0.2, 0.0242, 0.1, 0.0634, 0, 1.606, 20, 1.58 }, { 0.342, 0.0245, 0.0787, 0.061, 0.017, 2.353, 18, 1.3 }, { 0.5, 0.0263, 0.077, 0.057, 0.025, 1.145, 16, 0.95 }, { 0.59, 0.0268, 0.0768, 0.0514, 0.026, 0.761, 15, 0.75 }, { 0.67, 0.0331, 0.0784, 0.047, 0.021, 0.384, 14.5, 0.62 }, { 0.74, 0.0465, 0.0848, 0.08, 0.16, 0.206, 10, 0.46 }, { 0.76, 0.0527, 0.0813, 0.1, 0.25, 0.133, 9, 0.42 }, { 0.8, 0.0737, 0.0695, 0.2, 0.36, 0.077, 6, 0.38 }, { 0.83, 0.1006, 0.0993, 0.34, 2.4, 0.063, 4.5, 0.3 }, { 0.9, 0.147, 0.073, 0.56, 3, 0.042, 3, 0.2 } }
 		},
 		engine = {
-			D_prop = 3.28,
+			D_prop = { 2.4, 2.4 },
 			Displ = 27,
 			ForsRUD = 1,
 			Init_Mom = 220,
 			MAX_Manifold_P_1 = 155774,
 			MAX_Manifold_P_2 = 206570,
 			MAX_Manifold_P_3 = 226648,
-			MOI_prop = 65,
+			MOI_prop = { 4.5, 12 },
 			MaksRUD = 1,
 			MaxRUD = 1,
 			MinRUD = 0,
@@ -681,6 +681,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			k_piston = 3000,
 			k_reg = 0.003,
 			k_vel = 0.017,
+			prop_blades_count = { 2, 3 },
+			prop_direction = -1,
+			prop_locations = { { 1.6834, 0, 0 }, { 0, 0, 0 }, { 1.7046, 0, 0 }, { 0, 0, 0 } },
+			prop_pitch_feather = { 0, 0 },
+			prop_pitch_max = { 32, 32 },
+			prop_pitch_min = { 12, 12 },
 			table_data = { { 0, 16620 }, { 0.1, 15600 }, { 0.2, 14340 }, { 0.3, 13320 }, { 0.4, 12230 }, { 0.5, 11300 }, { 0.6, 10600 }, { 0.7, 10050 }, { 0.8, 9820 }, { 0.9, 5902 }, { 1.9, 3469 } },
 			type = "Radial"
 		}
@@ -1075,7 +1081,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	nose_gear_amortizer_direct_stroke = 0,
 	nose_gear_amortizer_normal_weight_stroke = -0.003,
 	nose_gear_amortizer_reversal_stroke = -0.15,
-	nose_gear_pos = { 0.803, -1.526, 0 },
+	nose_gear_pos = { 0.803, -1.506, 0 },
 	nose_gear_wheel_diameter = 0.319,
 	panelRadio = { {
 			ID = "ARK-15M",
@@ -1119,7 +1125,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				min = 0.1
 			}
 		} },
-	propellorShapeType = "3ARG",
+	propellorShapeHubs = { { 0.08, 0.1 }, { 0, 0 } },
+	propellorShapeNames = { "Yak-52_2blade.FBX", "Yak-52_3blade.FBX" },
+	propellorShapeType = "3ARG_PROC_BLUR",
 	radar_can_see_ground = false,
 	range = 465,
 	shape_table_data = { {
@@ -1127,7 +1135,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			desrt = "Bf-109K-4_oblomki",
 			drawonmap = true,
 			file = "Yak-52",
-			fire = { 300, 2 },
+			fire = { 3600, 2 },
 			index = "Redacted",
 			life = 18,
 			name = "Yak-52",
@@ -1136,7 +1144,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			vis = 3
 		}, {
 			file = "Bf-109K-4_oblomki",
-			fire = { 240, 2 },
+			fire = { 3600, 2 },
 			name = "Bf-109K-4_oblomki"
 		} },
 	swapped_names = true,

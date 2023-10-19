@@ -64,23 +64,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			label = "Chaff Burst Interval",
 			playerOnly = true,
 			values = { {
-					dispName = "0.05 s",
+					dispName = "0.1 s",
 					id = 1
 				}, {
-					dispName = "0.1 s",
+					dispName = "0.2 s",
 					id = 2
 				}, {
-					dispName = "0.15 s",
+					dispName = "0.3 s",
 					id = 3
 				}, {
-					dispName = "0.2 s",
-					id = 4
-				}, {
-					dispName = "0.3 s",
-					id = 5
-				}, {
 					dispName = "0.4 s",
-					id = 6
+					id = 4
 				} },
 			wCtrl = 75
 		}, {
@@ -271,6 +265,26 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			id = "SoloFlight",
 			label = "Solo Flight",
 			weight = -80
+		}, {
+			control = "comboList",
+			defValue = 1,
+			id = "NetCrewControlPriority",
+			label = "Aircraft Control Priority",
+			playerOnly = true,
+			values = { {
+					dispName = "Pilot",
+					id = 0
+				}, {
+					dispName = "Instructor",
+					id = 1
+				}, {
+					dispName = "Ask Always",
+					id = -1
+				}, {
+					dispName = "Equally Responsible",
+					id = -2
+				} },
+			wCtrl = 150
 		} },
 	AmmoWeight = 0,
 	CAS_min = 50,
@@ -1572,6 +1586,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "PTB-1200-F1-EMPTY",
 					arg_value = 0.15
 				}, {
+					CLSID = "{CC420_GUN_POD}",
+					arg_value = 0.15,
+					attach_point_position = { -0.2, 0.029, 0 }
+				}, {
 					CLSID = "{R530F_EM}",
 					arg_value = 0.25,
 					attach_point_position = { 0.368, 0.029, 0 },
@@ -1689,6 +1707,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "PTB-1200-F1-EMPTY",
 					arg_value = 0.15
+				}, {
+					CLSID = "{CC420_GUN_POD}",
+					arg_value = 0.15,
+					attach_point_position = { -0.2, 0.029, 0 }
 				}, {
 					CLSID = "{R530F_EM}",
 					arg_value = 0.25,
@@ -1841,6 +1863,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "PTB-1200-F1-EMPTY",
 					arg_value = 0.15
+				}, {
+					CLSID = "{CC420_GUN_POD}",
+					arg_value = 0.15,
+					attach_point_position = { -0.2, 0.029, 0 }
 				}, {
 					CLSID = "{R530F_EM}",
 					arg_value = 0.25,
@@ -2119,7 +2145,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	average_fuel_consumption = 0.5,
 	bank_angle_max = 85,
 	bigParkingRamp = false,
-	brakeshute_name = 325,
+	brakeshute_name = 327,
 	chaff_flare_dispenser = { {
 			dir = { 0, -1, -1 },
 			pos = { -4.312, -0.648, -0.488 }
@@ -2135,16 +2161,16 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			canopy_args = { 38, 1 },
 			canopy_ejection_dir = { -0.4, 1, 0 },
 			canopy_pos = { 2.311, 0.907, 0 },
-			drop_canopy_name = 323,
+			drop_canopy_name = 325,
 			drop_parachute_name = "Mirage-F1_parachute",
 			ejection_added_speed = { -5, 15, 0 },
 			ejection_order = 2,
 			ejection_play_arg = 149,
-			ejection_seat_name = 326,
+			ejection_seat_name = 328,
 			ejection_through_canopy = true,
 			g_suit = 1,
 			pilot_body_arg = 50,
-			pilot_name = 327,
+			pilot_name = 329,
 			pos = { 3.19, 0.003, 0 },
 			role = "pilot",
 			role_display_name = "Pilot"
@@ -2156,15 +2182,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			canopy_args = { 421, 1 },
 			canopy_ejection_dir = { -0.4, 1, 0 },
 			canopy_pos = { 0.811, 0.892, 0 },
-			drop_canopy_name = 323,
+			drop_canopy_name = 325,
 			drop_parachute_name = "Mirage-F1_parachute",
 			ejection_added_speed = { -5, 15, 0 },
 			ejection_order = 1,
-			ejection_seat_name = 328,
+			ejection_seat_name = 330,
 			ejection_through_canopy = true,
 			g_suit = 1,
 			pilot_body_arg = 472,
-			pilot_name = 329,
+			pilot_name = 331,
 			pos = { 1.525, 0.221, -0.005 },
 			role = "instructor",
 			role_display_name = "Instructor"

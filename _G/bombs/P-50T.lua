@@ -6,6 +6,7 @@ _G["bombs"]["#Index"] = {
 	_file = "./CoreMods/aircraft/L-39/L-39C.lua",
 	_origin = "L-39C/ZA by Eagle Dynamics",
 	display_name = "P-50T - 50kg Practice Bomb LD",
+	display_name_short = "P-50T - 50kg Practice Bomb LD",
 	hMax = 12000,
 	hMin = 200,
 	mass = 50,

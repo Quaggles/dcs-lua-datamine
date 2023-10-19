@@ -16,6 +16,6 @@ _G["launcher"]["{2234F529-1D57-4496-8BB0-0150F9BDBBD3}"] = {
 	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 4, 32, "Redacted" },
 	displayName = "Kh-35 (AS-20 Kayak) - 520kg, AShM, IN & Act Rdr",
-	ejectImpulse = 2000,
+	ejectVelocity = 2,
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

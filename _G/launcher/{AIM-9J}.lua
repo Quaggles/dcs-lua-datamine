@@ -1,13 +1,13 @@
 _G["launcher"]["{AIM-9J}"] = {
 	CLSID = "{AIM-9J}",
 	Count = 1,
-	Cx_pil = 0.000458984375,
+	Cx_pil = 0.00041015625,
 	Elements = { {
 			ShapeName = "AIM-9J"
 		} },
 	Picture = "us_AIM-9P.png",
 	PictureBlendColor = "0xffffffff",
-	Weight = 76.9,
+	Weight = 74.84,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/aim9_family.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 7, "Redacted" },

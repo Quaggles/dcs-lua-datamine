@@ -748,7 +748,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		},
 		typename = "collection"
 	},
-	main_gear_pos = { -1.105, -1.8, 1.3 },
+	main_gear_pos = { -1.105, -1.69, 1.3 },
 	mapclasskey = "P0091000021",
 	mechanimations = {
 		Door0 = { {
@@ -785,7 +785,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			} }
 	},
 	net_animation = { 336 },
-	nose_gear_pos = { 3.3, -2.02, 0 },
+	nose_gear_pos = { 3.3, -1.92, 0 },
 	passivCounterm = {
 		CMDS_Edit = true,
 		ChaffNoEdit = true,

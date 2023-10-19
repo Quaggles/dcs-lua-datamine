@@ -24,14 +24,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						} },
 					PL = { {
 							ammo_capacity = 8,
-							reload_time = 120,
 							shell_name = {},
-							shot_delay = 8.5,
-							virtualStwID = 1
+							shot_delay = 8.5
 						}, {
 							ammo_capacity = 24,
 							automaticLoader = false,
-							reload_time = 360,
+							portion_reload_time = 15,
 							shell_name = { "M68_105_AP" },
 							shot_delay = 13.5,
 							virtualStwID = 2
@@ -45,17 +43,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					BR = { {} },
 					PL = { {
 							ammo_capacity = 4,
-							reload_time = 60,
-							shell_name = { "HESH_105" },
-							virtualStwID = 1
+							shell_name = { "HESH_105" }
 						}, {
 							ammo_capacity = 14,
-							reload_time = 210,
-							shell_name = { "HESH_105" },
-							virtualStwID = 2
+							shell_name = { "HESH_105" }
 						} },
 					combatRange = 700,
-					customViewPoint = { "genericTankblueHE", { 0.03, 0, 0 } },
+					customViewPoint = {
+						[2] = {}
+					},
 					distanceMax = 8000,
 					distanceMin = 20,
 					sensor = {},
@@ -105,7 +101,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	category = "Armor",
 	chassis = {},
 	crew_locale = "ENG",
-	crew_members = { "commander", "gunner" },
+	crew_members = { "commander", "gunner", "loader" },
 	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
 	driverViewConnectorName = { "DRIVER_POINT" },
 	enablePlayerCanDrive = true,

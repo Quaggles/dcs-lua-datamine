@@ -68,6 +68,7 @@ _G["weapons_table"]["weapons"]["nurs"]["M8rocket"] = {
 	},
 	cx_pil = 5.8676899395319e-05,
 	display_name = "4.5-Inch M8",
+	display_name_short = "4.5-Inch M8",
 	dist_max = 2000,
 	dist_max_ballistic = 8000,
 	dist_min = 500,

@@ -29,6 +29,7 @@ _G["rockets"]["#Index"] = {
 	_unique_resource_name = "weapons.missiles.SA3M9M",
 	ccm_k0 = 1,
 	display_name = "3M9M Kub (SA-6 Gainful)",
+	display_name_short = "3M9M Kub (SA-6 Gainful)",
 	exhaust = { 1, 1, 1, 1 },
 	name = "SA3M9M",
 	sigma = { 50, 50, 50 },

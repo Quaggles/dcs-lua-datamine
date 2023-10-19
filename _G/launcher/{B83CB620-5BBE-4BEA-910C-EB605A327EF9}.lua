@@ -6,13 +6,13 @@ _G["launcher"]["{B83CB620-5BBE-4BEA-910C-EB605A327EF9}"] = {
 			ShapeName = "BRU-42_LS"
 		}, {
 			ShapeName = "ROCKEYE",
-			connector_name = "Point01"
+			connector_name = "Point03"
 		}, {
 			ShapeName = "ROCKEYE",
 			connector_name = "Point02"
 		}, {
 			ShapeName = "ROCKEYE",
-			connector_name = "Point03"
+			connector_name = "Point01"
 		} },
 	Picture = "Mk20.png",
 	Weight = 722.25,

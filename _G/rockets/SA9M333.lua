@@ -31,6 +31,7 @@ _G["rockets"]["#Index"] = {
 	_unique_resource_name = "weapons.missiles.SA9M333",
 	ccm_k0 = 0.5,
 	display_name = "9M333 Strela-10 (SA-13 Gopher)",
+	display_name_short = "9M333 Strela-10 (SA-13 Gopher)",
 	exhaust = { 1, 1, 1, 1 },
 	name = "SA9M333",
 	sigma = { 5, 5, 5 },

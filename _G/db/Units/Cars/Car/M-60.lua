@@ -119,9 +119,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						} },
 					PL = { {
 							ammo_capacity = 33,
-							reload_time = 495,
-							shell_name = {},
-							virtualStwID = 1
+							shell_name = {}
 						} },
 					beamWidth = 0.017453292519943,
 					sensor = {},
@@ -131,9 +129,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					BR = { {} },
 					PL = { {
 							ammo_capacity = 24,
-							reload_time = 360,
-							shell_name = { "M68_105_HE" },
-							virtualStwID = 1
+							shell_name = { "M68_105_HE" }
 						} },
 					distanceMax = 8000,
 					distanceMin = 20,
@@ -193,7 +189,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	category = "Armor",
 	chassis = {},
 	crew_locale = "ENG",
-	crew_members = { "commander", "gunner" },
+	crew_members = { "commander", "gunner", "loader" },
 	driverCockpit = "DriverCockpit/DriverCockpit",
 	driverViewConnectorName = { "POINT_DRIVER",
 		offset = { 0.02, 0, 0 }

@@ -1,6 +1,6 @@
 _G["weapons_table"]["weapons"]["torpedoes"]["YU-6"] = {
+	Reflection = 0.5,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Tech/weapons.lua",
-	_unique_resource_name = "weapons.torpedoes.YU-6",
 	caliber = 0.533,
 	client = {
 		D_max = 20000,

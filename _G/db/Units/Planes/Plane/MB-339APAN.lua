@@ -1,11 +1,74 @@
 _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	AOA_take_off = 0.16,
 	AddPropAircraft = { {
+			arg = 472,
+			argTbl = {
+				[false] = 0,
+				[true] = 0.99
+			},
 			control = "checkbox",
-			defValue = true,
+			defValue = false,
 			id = "SoloFlight",
 			label = "Solo Flight",
 			weightWhenOn = -85
+		}, {
+			arg = 550,
+			control = "comboList",
+			id = "PilotEquipment",
+			label = "Pilot Equipment",
+			values = { {
+					dispName = "Livery Default"
+				}, {
+					dispName = "HGU-55P + Secumar",
+					id = 1,
+					value = 0
+				}, {
+					dispName = "HGU-33 + Aerazur",
+					id = 2,
+					value = 0.8
+				} },
+			wCtrl = 150
+		}, {
+			arg = 999,
+			control = "comboList",
+			id = "AircraftVariant",
+			label = "Aircraft Variant",
+			values = { {
+					dispName = "Livery Default"
+				}, {
+					dispName = "Pre-MLU",
+					id = 1,
+					value = 1
+				}, {
+					dispName = "MLU",
+					id = 2,
+					value = 0
+				} },
+			wCtrl = 150
+		}, {
+			control = "label",
+			id = "spacer_Label",
+			label = ""
+		}, {
+			control = "label",
+			id = "aero_Label",
+			label = "AEROBATICS",
+			xLbl = 120
+		}, {
+			control = "checkbox",
+			defValue = false,
+			id = "UnlimitedSmoke",
+			label = "Unlimited Smoke"
+		}, {
+			control = "label",
+			id = "spacer_Label",
+			label = ""
+		}, {
+			control = "label",
+			id = "mul_Label",
+			label = "MULTIPLAYER",
+			playerOnly = true,
+			xLbl = 120
 		}, {
 			control = "comboList",
 			defValue = 1,
@@ -26,11 +89,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					id = -2
 				} },
 			wCtrl = 150
-		}, {
-			control = "checkbox",
-			defValue = false,
-			id = "UnlimitedSmoke",
-			label = "Unlimited Smoke"
 		} },
 	AmmoWeight = 0,
 	CAS_min = 56,
@@ -1163,7 +1221,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			ejection_added_speed = { -4.5, 15, 0.4 },
 			ejection_order = 2,
 			ejection_play_arg = 1050,
-			ejection_seat_name = 312,
+			ejection_seat_name = 314,
 			ejection_through_canopy = true,
 			g_suit = 1,
 			pilot_body_arg = 50,
@@ -1181,7 +1239,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			ejection_added_speed = { -4, 14.5, -0.4 },
 			ejection_order = 1,
 			ejection_play_arg = 1472,
-			ejection_seat_name = 313,
+			ejection_seat_name = 315,
 			ejection_through_canopy = true,
 			g_suit = 1,
 			pilot_body_arg = 472,
@@ -1301,9 +1359,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		typename = "collection"
 	},
 	main_gear_amortizer_direct_stroke = 0,
-	main_gear_amortizer_normal_weight_stroke = -0.262,
-	main_gear_amortizer_reversal_stroke = -0.297,
-	main_gear_pos = { -0.652, -1.573, 1.25 },
+	main_gear_amortizer_normal_weight_stroke = -0.08,
+	main_gear_amortizer_reversal_stroke = -0.291,
+	main_gear_pos = { -0.652, -1.593, 1.25 },
 	main_gear_wheel_diameter = 0.54,
 	mapclasskey = "P0091000025",
 	mechanimations = {
@@ -1354,9 +1412,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	},
 	net_animation = { 38, 190, 191, 192, 203, 202, 201, 208, 200, 477, 1003, 525, 526, 527, 39, 99, 337, 399, 480, 524 },
 	nose_gear_amortizer_direct_stroke = 0,
-	nose_gear_amortizer_normal_weight_stroke = -0.153,
-	nose_gear_amortizer_reversal_stroke = -0.189,
-	nose_gear_pos = { 3.675, -1.471, 0 },
+	nose_gear_amortizer_normal_weight_stroke = -0.04,
+	nose_gear_amortizer_reversal_stroke = -0.174,
+	nose_gear_pos = { 3.675, -1.491, 0 },
 	nose_gear_wheel_diameter = 0.395,
 	panelRadio = { {
 			channels = { {

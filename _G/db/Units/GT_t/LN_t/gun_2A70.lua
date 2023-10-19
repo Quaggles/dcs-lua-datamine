@@ -4,13 +4,13 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["gun_2A70"] = {
 		} },
 	PL = { {
 			ammo_capacity = 22,
-			reload_time = 440,
+			portion_reload_time = 20,
 			shell_name = { "UOF_17_100HE" },
 			shot_delay = 6
 		}, {
 			ammo_capacity = 18,
 			automaticLoader = false,
-			reload_time = 270,
+			portion_reload_time = 15,
 			shell_name = { "UOF_17_100HE" },
 			shot_delay = 12
 		} },

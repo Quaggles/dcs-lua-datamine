@@ -802,7 +802,11 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "Mirage-F1EDA"
 				}, {
+					Name = "Mirage-F1BE"
+				}, {
 					Name = "Mirage-F1DDA"
+				}, {
+					Name = "TF-51D"
 				}, {
 					Name = "Yak-52"
 				}, {

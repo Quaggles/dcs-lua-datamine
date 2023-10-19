@@ -18,7 +18,7 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["_9A330"] = {
 	maxShootingSpeed = 0,
 	max_number_of_missiles_channels = 2,
 	reactionTime = 6,
-	reflection_limit = 0.02,
+	reflection_limit = 0.04,
 	sensor = {},
 	type = 4
 }

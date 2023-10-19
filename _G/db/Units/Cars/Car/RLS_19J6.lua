@@ -496,6 +496,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		maxTargetDetectionRange = 150000,
 		radar_rotation_type = 0,
 		radar_type = 102,
+		searchRadarFrequencies = { { 2850000000, 3200000000 } },
 		searchRadarMaxElevation = 0.78539816339745
 	},
 	Waypoint_Custom_Panel = true,
@@ -544,7 +545,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "RLS_19J6",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0, 0 }, { 0.001, 0.17 }, { 0.2, 0.00026666666666667 } }
+			coeffs = { { 0.035, 0.0012, 3, 0 }, { 0.0069, 0.0036 }, { 0.31, 0.0044, 1.425 }, { 0.001, 0.17 }, { 0.2, 0.0002, 1, 0.2 } }
 		},
 		fire_pos = { -3.2, 1.1, 0 },
 		fire_size = 0.4,

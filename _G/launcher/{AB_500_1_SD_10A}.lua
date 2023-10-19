@@ -18,18 +18,18 @@ _G["launcher"]["{AB_500_1_SD_10A}"] = {
 			control = "comboList",
 			defValue = 1,
 			dimension = "",
-			id = "GUI_fuze_type",
+			id = "NFP_fuze_type",
 			label = "Fuze Type",
 			stringIndex = 1,
 			values = { {
 					dispName = "Zünder 69E",
 					id = 1
 				} },
-			wCtrl = 355,
-			xCtrl = 170
+			wCtrl = 360,
+			xCtrl = 180
 		}, {
 			VisibilityCondition = { {
-					id = "GUI_fuze_type",
+					id = "NFP_fuze_type",
 					value = 1
 				} },
 			baseDim = "s",
@@ -38,16 +38,18 @@ _G["launcher"]["{AB_500_1_SD_10A}"] = {
 			dimension = "s",
 			id = "function_delay_ctrl_oV_Z69E",
 			label = "oV Mode Function Delay",
-			max = 3600,
+			max = 1000000000000,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 2,
-			xCtrl = 170,
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 180,
 			xLbl = 10
 		}, {
 			VisibilityCondition = { {
-					id = "GUI_fuze_type",
+					id = "NFP_fuze_type",
 					value = 1
 				} },
 			baseDim = "s",
@@ -56,16 +58,18 @@ _G["launcher"]["{AB_500_1_SD_10A}"] = {
 			dimension = "s",
 			id = "function_delay_ctrl_mV_Z69E",
 			label = "mV Mode Function Delay",
-			max = 3600,
+			max = 1000000000000,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 2,
-			xCtrl = 465,
-			xLbl = 265
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 480,
+			xLbl = 280
 		}, {
 			VisibilityCondition = { {
-					id = "GUI_fuze_type",
+					id = "NFP_fuze_type",
 					value = 1
 				} },
 			baseDim = "s",
@@ -74,16 +78,18 @@ _G["launcher"]["{AB_500_1_SD_10A}"] = {
 			dimension = "s",
 			id = "arm_delay_ctrl_Strz_Z69E",
 			label = "Sturz Mode Arm Delay",
-			max = 3600,
+			max = 1000000000000,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 3,
-			xCtrl = 170,
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 180,
 			xLbl = 10
 		}, {
 			VisibilityCondition = { {
-					id = "GUI_fuze_type",
+					id = "NFP_fuze_type",
 					value = 1
 				} },
 			baseDim = "s",
@@ -92,12 +98,14 @@ _G["launcher"]["{AB_500_1_SD_10A}"] = {
 			dimension = "s",
 			id = "arm_delay_ctrl_Wgrcht_Z69E",
 			label = "Wagerecht Mode Arm Delay",
-			max = 3600,
+			max = 1000000000000,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 3,
-			xCtrl = 465,
-			xLbl = 265
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 480,
+			xLbl = 280
 		} }
 }

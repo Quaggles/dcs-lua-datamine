@@ -19,7 +19,7 @@ _G["launcher"]["{British_HE_60LBSAPNo2_3INCHNo1}"] = {
 			control = "comboList",
 			defValue = 1,
 			dimension = "",
-			id = "GUI_fuze_type",
+			id = "NFP_fuze_type",
 			label = "Fuze Type",
 			stringIndex = 1,
 			values = { {
@@ -29,11 +29,11 @@ _G["launcher"]["{British_HE_60LBSAPNo2_3INCHNo1}"] = {
 					dispName = "Base Fuze No. 865 Mk I",
 					id = 2
 				} },
-			wCtrl = 355,
-			xCtrl = 170
+			wCtrl = 360,
+			xCtrl = 180
 		}, {
 			VisibilityCondition = { {
-					id = "GUI_fuze_type",
+					id = "NFP_fuze_type",
 					value = 1
 				} },
 			baseDim = "s",
@@ -42,16 +42,18 @@ _G["launcher"]["{British_HE_60LBSAPNo2_3INCHNo1}"] = {
 			dimension = "s",
 			id = "function_delay_ctrl_BFNo878MkI",
 			label = "Function Delay",
-			max = 3600,
+			max = 1000000000000,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 2,
-			xCtrl = 170,
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 180,
 			xLbl = 10
 		}, {
 			VisibilityCondition = { {
-					id = "GUI_fuze_type",
+					id = "NFP_fuze_type",
 					value = 2
 				} },
 			baseDim = "s",
@@ -60,16 +62,18 @@ _G["launcher"]["{British_HE_60LBSAPNo2_3INCHNo1}"] = {
 			dimension = "ms",
 			id = "function_delay_ctrl_BFNo865MkI",
 			label = "Function Delay",
-			max = 3600000,
+			max = 1e+15,
 			min = 0,
 			readOnly = true,
 			step = 10,
 			stringIndex = 2,
-			xCtrl = 170,
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 180,
 			xLbl = 10
 		}, {
 			VisibilityCondition = { {
-					id = "GUI_fuze_type",
+					id = "NFP_fuze_type",
 					value = 1
 				} },
 			baseDim = "s",
@@ -78,16 +82,18 @@ _G["launcher"]["{British_HE_60LBSAPNo2_3INCHNo1}"] = {
 			dimension = "s",
 			id = "arm_delay_ctrl_BFNo878MkI",
 			label = "Arm Delay",
-			max = 3600,
+			max = 1000000000000,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 2,
-			xCtrl = 465,
-			xLbl = 285
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 480,
+			xLbl = 290
 		}, {
 			VisibilityCondition = { {
-					id = "GUI_fuze_type",
+					id = "NFP_fuze_type",
 					value = 2
 				} },
 			baseDim = "s",
@@ -96,13 +102,15 @@ _G["launcher"]["{British_HE_60LBSAPNo2_3INCHNo1}"] = {
 			dimension = "s",
 			id = "arm_delay_ctrl_BFNo865MkI",
 			label = "Arm Delay",
-			max = 3600,
+			max = 1000000000000,
 			min = 0,
 			readOnly = true,
 			step = 0.01,
 			stringIndex = 2,
-			xCtrl = 465,
-			xLbl = 285
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 480,
+			xLbl = 290
 		} },
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

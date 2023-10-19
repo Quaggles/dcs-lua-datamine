@@ -64,6 +64,7 @@ _G["rockets"]["#Index"] = {
 		march_start = 0.1
 	},
 	display_name = "C-701IR",
+	display_name_short = "C-701IR",
 	exhaust = { 1, 1, 1, 1 },
 	fm = {
 		A = 0.36,

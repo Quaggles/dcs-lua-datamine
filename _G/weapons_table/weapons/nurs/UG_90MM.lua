@@ -82,6 +82,7 @@ _G["weapons_table"]["weapons"]["nurs"]["UG_90MM"] = {
 	},
 	cx_pil = 3.6031009549136e-05,
 	display_name = "UG_90MM",
+	display_name_short = "UG_90MM",
 	dist_max = 8000,
 	dist_max_ballistic = 8000,
 	dist_min = 600,

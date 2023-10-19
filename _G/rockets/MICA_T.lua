@@ -32,6 +32,7 @@ _G["rockets"]["#Index"] = {
 	_unique_resource_name = "weapons.missiles.MICA_T",
 	ccm_k0 = 0.2,
 	display_name = "MICA-IR",
+	display_name_short = "MICA-IR",
 	exhaust = { 1, 1, 1, 1 },
 	name = "MICA_T",
 	nozzle_exit_area = 0.015,

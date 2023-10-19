@@ -1,5 +1,5 @@
 _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
-	CustomAimPoint = { 10, 3, 0 },
+	CustomAimPoint = { 10, 2, 0 },
 	DeckLevel = 2.45,
 	DetectionRange = 0,
 	DisplayName = "SSK 877V Kilo",
@@ -65,7 +65,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	shipLength = 58.8,
 	snd = {},
 	speedup = 0.203634,
-	sternEffectDX = { { 0, 0, 58, 6 }, { 2, 10, 41, 4 }, { 2.5, 14.5, 31, 3 }, { 2.7, 29, 13, 2 }, { 7.5, 29, 13, 2 } },
+	sternEffectDX = { { 0, 0, 57.9, 6 }, { 10, 10, 20, 1 }, { 15, 10, 0, 0 } },
 	swapped_names = true,
 	tags = { "Submarine" },
 	type = "KILO",

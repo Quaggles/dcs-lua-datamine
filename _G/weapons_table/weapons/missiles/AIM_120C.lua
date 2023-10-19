@@ -87,6 +87,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM_120C"] = {
 			march_start = 0.4
 		},
 		displayName = "AIM-120C AMRAAM - Active Radar AAM",
+		display_name_short = "AIM-120C",
 		exhaust = { 0.8, 0.8, 0.8, 0.05 },
 		fm = {
 			A1trim = { 28, 28, 28, 28, 28, 31.2, 32.74, 33.39, 33.7, 33.89, 34.04, 34.18, 34.31, 34.44, 34.57, 34.7, 34.83, 34.96, 35.09, 35.22, 35.35, 35.48, 35.61, 35.74, 35.87, 36 },
@@ -212,6 +213,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM_120C"] = {
 		wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 	},
 	display_name = "AIM-120C",
+	display_name_short = "AIM-120C",
 	mass = 161.48,
 	model = "aim-120c",
 	name = "AIM_120C",
@@ -298,6 +300,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM_120C"] = {
 			march_start = 0.4
 		},
 		displayName = "AIM-120C AMRAAM - Active Radar AAM",
+		display_name_short = "AIM-120C",
 		exhaust = { 0.8, 0.8, 0.8, 0.05 },
 		fm = {
 			A1trim = { 28, 28, 28, 28, 28, 31.2, 32.74, 33.39, 33.7, 33.89, 34.04, 34.18, 34.31, 34.44, 34.57, 34.7, 34.83, 34.96, 35.09, 35.22, 35.35, 35.48, 35.61, 35.74, 35.87, 36 },

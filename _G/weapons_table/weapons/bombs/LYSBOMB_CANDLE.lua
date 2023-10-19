@@ -70,6 +70,7 @@ _G["weapons_table"]["weapons"]["bombs"]["LYSBOMB_CANDLE"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "LYSBOMB_CANDLE whatever",
+	display_name_short = "LYSBOMB_CANDLE whatever",
 	mass = 25,
 	model = "luu-2",
 	name = "LYSBOMB_CANDLE",

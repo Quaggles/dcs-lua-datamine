@@ -18,6 +18,7 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["TOW"] = {
 	inclination_correction_bias = 0.019198621771938,
 	inclination_correction_upper_limit = 0.78539816339745,
 	launch_delay = 2,
+	launch_delay_human = 1.5,
 	maxShootingSpeed = 0,
 	max_trg_alt = 3000,
 	missileControlInterval = 0.1,

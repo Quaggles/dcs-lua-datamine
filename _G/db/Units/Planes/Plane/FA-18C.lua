@@ -1,5 +1,34 @@
 _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	AOA_take_off = 0.16,
+	AddPropAircraft = { {
+			control = "label",
+			id = "datalink_Label",
+			label = "DATALINK",
+			playerOnly = false,
+			xLbl = 150
+		}, {
+			control = "editbox",
+			getDefault = <function 1>,
+			id = "VoiceCallsignLabel",
+			label = "Voice Callsign Label",
+			onChange = <function 2>,
+			playerOnly = false
+		}, {
+			control = "editbox",
+			getDefault = <function 3>,
+			id = "VoiceCallsignNumber",
+			label = "Voice Callsign Number",
+			onChange = <function 4>,
+			playerOnly = false
+		}, {
+			control = "editbox",
+			getDefault = <function 5>,
+			id = "STN_L16",
+			label = "STN",
+			onChange = <function 6>,
+			onFocus = <function 7>,
+			playerOnly = false
+		} },
 	AmmoWeight = 150.28,
 	CAS_min = 62,
 	CanopyGeometry = { -0.17364817766693, -0.49640011097796, -0.81915204428899, -0.45315389351832, -0.087155742747658 },
@@ -153,6 +182,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 155 },
 			critical_damage = 4
 		},
+		[139] = {
+			critical_damage = 5
+		},
 		cell_indices = {
 			CABIN = 137,
 			COCKPIT = 3,
@@ -186,6 +218,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			WING_L_PART_OUT = 21,
 			WING_R_CENTER = 30,
 			WING_R_IN = 36,
+			WING_R_IN01 = 139,
 			WING_R_OUT = 24,
 			WING_R_PART_IN = 34,
 			WING_R_PART_OUT = 22
@@ -236,8 +269,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			short_name = "M_61",
 			supply = {
 				count = 578,
-				get_mass = <function 1>,
-				get_mass_ = <function 2>,
+				get_mass = <function 8>,
+				get_mass_ = <function 9>,
 				mixes = { { 1 }, { 2 }, { 3 }, { 4, 5 }, { 6 }, { 7, 8 } },
 				shells = { {
 						AP_cap_caliber = 20,
@@ -998,6 +1031,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			X = -2.321,
 			Y = -0.654,
 			Z = -1.044,
+			eject_dir = { 0, -0.9085, -0.4179 },
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
@@ -1038,6 +1072,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			X = -2.321,
 			Y = -0.654,
 			Z = 1.044,
+			eject_dir = { 0, -0.9085, 0.4179 },
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
@@ -1431,7 +1466,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		typename = "collection"
 	},
-	main_gear_pos = { -2.319, -1.846, 1.57 },
+	main_gear_pos = { -2.319, -1.85, 1.57 },
 	main_gear_wheel_diameter = 0.778,
 	mapclasskey = "P0091000024",
 	mechanimations = {
@@ -1503,7 +1538,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				Transition = { "Stage", "Extend" }
 			} }
 	},
-	nose_gear_pos = { 3.02, -1.846, 0 },
+	nose_gear_pos = { 3.02, -1.77, 0 },
 	nose_gear_wheel_diameter = 0.566,
 	panelRadio = { {
 			channels = { {

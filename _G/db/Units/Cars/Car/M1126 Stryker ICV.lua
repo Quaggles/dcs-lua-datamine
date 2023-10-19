@@ -12,7 +12,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		maximalCapacity = 900,
 		nominalCapacity = 900
 	},
-	MaxSpeed = 72,
+	MaxSpeed = 96.84,
 	Name = "IFV M1126 Stryker ICV",
 	Rate = 10,
 	Sensors = {

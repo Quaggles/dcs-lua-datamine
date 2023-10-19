@@ -450,6 +450,14 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "S-300PS 5H63C 30H6_tr",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "S-300PS 40B6MD sr_19J6",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "M2A1_halftrack",
 					in_service = 0,
 					out_of_service = 40000
@@ -1133,6 +1141,10 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Mirage-F1EE"
 				}, {
 					Name = "Mirage-F1CG"
+				}, {
+					Name = "Mirage-F1BE"
+				}, {
+					Name = "TF-51D"
 				}, {
 					Name = "Yak-52"
 				}, {

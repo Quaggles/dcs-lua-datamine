@@ -161,9 +161,24 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	IR_emission_coeff = 0.5,
 	IR_emission_coeff_ab = 0,
 	InternalCargo = {
-		area = { 11.1, 2.25, 1.91 },
+		area = { 11.4, 1.7, 1.91 },
+		far_wall_pos = { 4.8, -1.176, 0 },
 		maximalCapacity = 5500,
 		nominalCapacity = 5500,
+		out_door = {
+			rampa_left = {
+				heading = 2.7925268031909,
+				large = false,
+				x = -10,
+				z = -1
+			},
+			rampa_right = {
+				heading = -2.7925268031909,
+				large = false,
+				x = -10,
+				z = 1
+			}
+		},
 		para_unit_point = 30,
 		unit_block = { 0.73, 1.1 },
 		unit_point = 39
@@ -370,7 +385,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	main_gear_amortizer_direct_stroke = 0,
 	main_gear_amortizer_normal_weight_stroke = -0.1,
 	main_gear_amortizer_reversal_stroke = -0.316,
-	main_gear_pos = { -0.6, -2.816, 3.87 },
+	main_gear_pos = { -0.6, -2.78, 3.87 },
 	main_gear_wheel_diameter = 0.972,
 	mapclasskey = "P0091000029",
 	mechanimations = {
@@ -424,15 +439,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						C = { { "Arg", 86, "to", 0, "time", 15 } }
 					} },
 				Transition = { "Open", "Close" }
-			} }
-	},
-	mechconnectors = {
-		Door11 = { {
-				shift_orient = { 0, 160, 0 },
-				shift_pos = { -10, -1, -1 }
-			}, {
-				shift_orient = { 0, -160, 0 },
-				shift_pos = { -10, -1, 1 }
 			} }
 	},
 	nose_gear_amortizer_direct_stroke = 0,

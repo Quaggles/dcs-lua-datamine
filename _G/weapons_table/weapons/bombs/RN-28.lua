@@ -69,6 +69,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RN-28"] = {
 	},
 	cx = { 0.1, 0.39, 0.6, 0.768, 1.31 },
 	display_name = "RN-28 - 260 kg, nuclear bomb, free fall",
+	display_name_short = "RN-28 - 260 kg, nuclear bomb, free fall",
 	mass = 260,
 	model = "RN-28",
 	name = "RN-28",

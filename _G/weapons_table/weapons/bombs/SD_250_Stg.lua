@@ -79,6 +79,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SD_250_Stg"] = {
 	},
 	cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 	display_name = "SD 250 Stg",
+	display_name_short = "SD 250 Stg",
 	mass = 250,
 	model = "SD-250Stg",
 	name = "SD_250_Stg",

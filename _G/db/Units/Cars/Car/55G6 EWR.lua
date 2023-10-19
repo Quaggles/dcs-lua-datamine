@@ -165,7 +165,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		},
 		maxTargetDetectionRange = 400000,
 		radar_rotation_type = 0,
-		radar_type = 105
+		radar_type = 105,
+		searchRadarFrequencies = { { 30000000, 300000000 } }
 	},
 	Waypoint_Custom_Panel = true,
 	animation_arguments = {
@@ -197,7 +198,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "55G6 EWR",
 	visual = {
 		IR = {
-			coeffs = { { 0.035, 0.0012 }, { 0.0069, 0.0036 }, { 0, 0 }, { 0.001, 0.17 }, { 0.2, 0.0002 } }
+			coeffs = { { 0.035, 0.0012 }, { 0.0069, 0.0036 }, { 0.31, 0.0044, 1.425 }, { 0.001, 0.17 }, { 0.2, 0.0002 } }
 		},
 		agony_explosion_size = 2,
 		fire_pos = { 0.7, 1, 0 },

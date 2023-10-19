@@ -6,6 +6,7 @@ _G["bombs"]["#Index"] = {
 	_file = "./CoreMods/aircraft/MiG-21BIS/Entry/Aw",
 	_origin = "MiG-21Bis AI by Magnitude 3 LLC",
 	display_name = "BETAB-500S - 425 kg, bomb, penetrating",
+	display_name_short = "BETAB-500S - 425 kg, bomb, penetrating",
 	hMax = 3500,
 	hMin = 180,
 	mass = 425,

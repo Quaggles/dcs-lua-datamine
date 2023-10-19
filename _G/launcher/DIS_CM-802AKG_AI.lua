@@ -15,5 +15,5 @@ _G["launcher"]["DIS_CM-802AKG_AI"] = {
 	category = 2,
 	displayName = "CM802AKG (DIS) for AI",
 	ejectDirection = { 0, -1, 0 },
-	ejectImpulse = 858
+	ejectVelocity = 2
 }

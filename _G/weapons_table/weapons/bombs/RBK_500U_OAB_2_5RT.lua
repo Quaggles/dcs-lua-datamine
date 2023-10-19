@@ -233,6 +233,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_500U_OAB_2_5RT"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "RBK-500U - 126 x OAB-2.5RT, 500kg CBU HE/Frag",
+	display_name_short = "RBK-500U",
 	mass = 427,
 	model = "RBK_500U",
 	name = "RBK_500U_OAB_2_5RT",

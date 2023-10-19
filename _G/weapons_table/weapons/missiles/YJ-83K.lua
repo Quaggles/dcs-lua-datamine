@@ -99,6 +99,7 @@ _G["weapons_table"]["weapons"]["missiles"]["YJ-83K"] = {
 			boost_start = 0,
 			march_start = 5
 		},
+		display_name_short = "YJ-83K",
 		engine_control = {
 			K = 265,
 			Kd = 0.01,
@@ -256,6 +257,7 @@ _G["weapons_table"]["weapons"]["missiles"]["YJ-83K"] = {
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	display_name = "YJ-83K",
+	display_name_short = "YJ-83K",
 	mass = 715,
 	model = "yj83k",
 	name = "YJ-83K",
@@ -353,6 +355,7 @@ _G["weapons_table"]["weapons"]["missiles"]["YJ-83K"] = {
 			boost_start = 0,
 			march_start = 5
 		},
+		display_name_short = "YJ-83K",
 		engine_control = {
 			K = 265,
 			Kd = 0.01,

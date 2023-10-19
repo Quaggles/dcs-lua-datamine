@@ -69,6 +69,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BEER_BOMB"] = {
 	},
 	cx = { 1, 0.9, 0.6, 0.6, 1.2 },
 	display_name = '"Beer Bomb"',
+	display_name_short = '"Beer Bomb"',
 	mass = 100,
 	model = "beer_bomb",
 	name = "BEER_BOMB",

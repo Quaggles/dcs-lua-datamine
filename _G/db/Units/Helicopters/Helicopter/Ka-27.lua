@@ -40,36 +40,13 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			args = { 161 },
 			critical_damage = 1
 		},
-		[39] = {
-			args = { 244 },
-			critical_damage = 3
+		[57] = {
+			args = { 158 },
+			critical_damage = 5
 		},
-		[40] = {
-			args = { 241 },
-			critical_damage = 3
-		},
-		[45] = {
-			args = { 235 },
-			critical_damage = 3,
-			deps_cells = { 39 }
-		},
-		[46] = {
-			args = { 233 },
-			critical_damage = 3,
-			deps_cells = { 40 }
-		},
-		[53] = {
-			args = { 248 },
-			critical_damage = 3
-		},
-		[54] = {
-			args = { 247 },
-			critical_damage = 3
-		},
-		[55] = {
-			args = { 159 },
-			critical_damage = 4,
-			deps_cells = { 54 }
+		[58] = {
+			args = { 156 },
+			critical_damage = 5
 		},
 		[59] = {
 			args = { 148 },

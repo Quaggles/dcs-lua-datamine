@@ -58,6 +58,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		maxTargetDetectionRange = 10000,
 		radar_rotation_type = 1,
 		radar_type = 104,
+		searchRadarFrequencies = { { 2000000000, 3000000000 } },
 		searchRadarMaxElevation = 0.78539816339745,
 		smoke = { "SMOKE_04", "SMOKE_05", "SMOKE_03", "SMOKE_06", "SMOKE_02", "SMOKE_07", "SMOKE_01", "SMOKE_08" }
 	},

@@ -18,6 +18,7 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["Fagot"] = {
 	inclination_correction_bias = 0.0069813170079773,
 	inclination_correction_upper_limit = 0.78539816339745,
 	launch_delay = 20,
+	launch_delay_human = 0.4,
 	maxShootingSpeed = 0,
 	max_trg_alt = 3000,
 	missileControlInterval = 0.16,

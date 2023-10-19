@@ -100,6 +100,7 @@ _G["rockets"]["#Index"] = {
 		stab_vel = 237.5
 	},
 	display_name = "CM802AKG (DIS) for AI",
+	display_name_short = "CM802AKG (DIS) for AI",
 	final_autopilot = {
 		J_Angle_K = 0.18,
 		J_Angle_W = 0.8,

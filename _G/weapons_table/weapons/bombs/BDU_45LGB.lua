@@ -87,6 +87,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_45LGB"] = {
 	},
 	cx = { 1.037, 0.74, 0.6, 0.382, 1.34 },
 	display_name = "BDU-45LGB",
+	display_name_short = "BDU-45LGB",
 	mass = 277,
 	model = "BDU-50LGB",
 	name = "BDU_45LGB",

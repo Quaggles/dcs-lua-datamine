@@ -1,5 +1,34 @@
 _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	AOA_take_off = 0.14,
+	AddPropAircraft = { {
+			control = "label",
+			id = "datalink_Label",
+			label = "DATALINK",
+			playerOnly = false,
+			xLbl = 150
+		}, {
+			control = "editbox",
+			getDefault = <function 1>,
+			id = "VoiceCallsignLabel",
+			label = "Voice Callsign Label",
+			onChange = <function 2>,
+			playerOnly = false
+		}, {
+			control = "editbox",
+			getDefault = <function 3>,
+			id = "VoiceCallsignNumber",
+			label = "Voice Callsign Number",
+			onChange = <function 4>,
+			playerOnly = false
+		}, {
+			control = "editbox",
+			getDefault = <function 5>,
+			id = "STN_L16",
+			label = "STN",
+			onChange = <function 6>,
+			onFocus = <function 7>,
+			playerOnly = false
+		} },
 	AmmoWeight = 0,
 	CAS_min = 75,
 	CanopyGeometry = { -0.087155742747658, -0.45315389351832, -0.81915204428899, -0.45315389351832, -0.087155742747658 },
@@ -7,101 +36,353 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Countermeasures = {
 		ECM = "AN/ALQ-161"
 	},
-	Damage = {
-		[0] = {
-			args = { 82 },
-			critical_damage = 5
+	Countries = {},
+	Damage = { {
+			args = { 150 },
+			critical_damage = 4
+		}, {
+			args = { 149 },
+			critical_damage = 4
+		}, {
+			args = { 147 },
+			critical_damage = 3
 		},
-		[3] = {
-			args = { 65 },
-			critical_damage = 10
+		[0] = {
+			args = { 146 },
+			critical_damage = 4
 		},
 		[8] = {
+			args = { -1 },
+			critical_damage = 10
+		},
+		[9] = {
+			args = { 154 },
+			critical_damage = 10
+		},
+		[10] = {
+			args = { 153 },
 			critical_damage = 10
 		},
 		[11] = {
-			critical_damage = 3
+			args = { 166 },
+			critical_damage = 4
 		},
 		[12] = {
-			critical_damage = 3
+			args = { 166 },
+			critical_damage = 4
 		},
 		[15] = {
+			args = { -1 },
 			critical_damage = 10
 		},
 		[16] = {
+			args = { -1 },
 			critical_damage = 10
 		},
 		[17] = {
-			critical_damage = 3
+			args = { 169 },
+			critical_damage = 4
 		},
 		[18] = {
-			critical_damage = 3
+			args = { 169 },
+			critical_damage = 4
+		},
+		[21] = {
+			args = { -1 },
+			critical_damage = 4
+		},
+		[22] = {
+			args = { -1 },
+			critical_damage = 4
+		},
+		[23] = {
+			args = { 223 },
+			critical_damage = 4,
+			deps_cells = { 21 }
+		},
+		[24] = {
+			args = { 213 },
+			critical_damage = 4,
+			deps_cells = { 22 }
 		},
 		[25] = {
-			args = { 53 },
-			critical_damage = 5
+			args = { -1 },
+			critical_damage = 4
 		},
 		[26] = {
-			args = { 54 },
-			critical_damage = 5
+			args = { -1 },
+			critical_damage = 4
+		},
+		[27] = {
+			args = { -1 },
+			critical_damage = 4
+		},
+		[28] = {
+			args = { -1 },
+			critical_damage = 4
+		},
+		[29] = {
+			args = { 224 },
+			critical_damage = 4,
+			deps_cells = { 23, 27, 31, 25, 137 }
+		},
+		[30] = {
+			args = { 214 },
+			critical_damage = 4,
+			deps_cells = { 24, 28, 32, 26, 138 }
+		},
+		[31] = {
+			args = { 228 },
+			critical_damage = 4
+		},
+		[32] = {
+			args = { 218 },
+			critical_damage = 4
+		},
+		[33] = {
+			args = { -1 },
+			critical_damage = 4
+		},
+		[34] = {
+			args = { -1 },
+			critical_damage = 4
 		},
 		[35] = {
-			args = { 67 },
-			critical_damage = 20,
-			deps_cells = { 25, 37, 11, 17 }
+			args = { 225 },
+			critical_damage = 5,
+			deps_cells = { 29, 37, 33 }
 		},
 		[36] = {
-			args = { 68 },
-			critical_damage = 20,
-			deps_cells = { 26, 38, 12, 18 }
+			args = { 215 },
+			critical_damage = 5,
+			deps_cells = { 30, 38, 34 }
 		},
 		[37] = {
-			args = { 55 },
+			args = { 227 },
 			critical_damage = 4
 		},
 		[38] = {
-			args = { 56 },
+			args = { 217 },
 			critical_damage = 4
 		},
-		[43] = {
-			args = { 61 },
-			critical_damage = 4,
-			deps_cells = { 53 }
+		[40] = {
+			args = { 241 },
+			critical_damage = 4
 		},
-		[44] = {
-			args = { 62 },
-			critical_damage = 4,
-			deps_cells = { 54 }
+		[42] = {
+			args = { 242 },
+			critical_damage = 5,
+			deps_cells = { 153 }
+		},
+		[45] = {
+			args = { 239 },
+			critical_damage = 4
+		},
+		[46] = {
+			args = { 237 },
+			critical_damage = 4
 		},
 		[47] = {
-			args = { 63 },
-			critical_damage = 5,
-			deps_cells = { 51 }
+			args = { 240 },
+			critical_damage = 4,
+			deps_cells = { 45 }
 		},
 		[48] = {
-			args = { 64 },
-			critical_damage = 5,
-			deps_cells = { 52 }
-		},
-		[51] = {
-			args = { 59 },
-			critical_damage = 2
-		},
-		[52] = {
-			args = { 60 },
-			critical_damage = 2
-		},
-		[53] = {
-			args = { 57 },
-			critical_damage = 2
-		},
-		[54] = {
-			args = { 58 },
-			critical_damage = 2
+			args = { 238 },
+			critical_damage = 4,
+			deps_cells = { 46 }
 		},
 		[55] = {
-			args = { 81 },
-			critical_damage = 15
+			args = { 159 },
+			critical_damage = 8,
+			deps_cells = { 152, 47, 48, 42 }
+		},
+		[56] = {
+			args = { 158 },
+			critical_damage = 8
+		},
+		[57] = {
+			args = { 157 },
+			critical_damage = 8
+		},
+		[58] = {
+			args = { 156 },
+			critical_damage = 8
+		},
+		[59] = {
+			args = { 148 },
+			critical_damage = 4
+		},
+		[82] = {
+			args = { 152 },
+			critical_damage = 10
+		},
+		[83] = {
+			args = { -1 },
+			critical_damage = 3
+		},
+		[84] = {
+			args = { -1 },
+			critical_damage = 3
+		},
+		[85] = {
+			args = { -1 },
+			critical_damage = 3
+		},
+		[99] = {
+			args = { 151 },
+			critical_damage = 10
+		},
+		[100] = {
+			args = { 155 },
+			critical_damage = 8
+		},
+		[137] = {
+			args = { -1 },
+			critical_damage = 4
+		},
+		[138] = {
+			args = { -1 },
+			critical_damage = 4
+		},
+		[139] = {
+			args = { 267 },
+			critical_damage = 4
+		},
+		[140] = {
+			args = { 266 },
+			critical_damage = 4
+		},
+		[141] = {
+			args = { 167 },
+			critical_damage = 4
+		},
+		[142] = {
+			args = { 167 },
+			critical_damage = 4
+		},
+		[143] = {
+			args = { 148 },
+			critical_damage = 4
+		},
+		[144] = {
+			args = { 148 },
+			critical_damage = 4
+		},
+		[145] = {
+			args = { 148 },
+			critical_damage = 4
+		},
+		[146] = {
+			args = { 0 },
+			critical_damage = 4
+		},
+		[147] = {
+			args = { 147 },
+			critical_damage = 4
+		},
+		[148] = {
+			args = { 147 },
+			critical_damage = 4
+		},
+		[149] = {
+			args = { 152 },
+			critical_damage = 4
+		},
+		[150] = {
+			args = { 152 },
+			critical_damage = 4
+		},
+		[151] = {
+			args = { 147 },
+			critical_damage = 4
+		},
+		[152] = {
+			args = { 247 },
+			critical_damage = 4
+		},
+		[153] = {
+			args = { 247 },
+			critical_damage = 4
+		},
+		[154] = {
+			args = { 150 },
+			critical_damage = 3
+		},
+		[155] = {
+			args = { 149 },
+			critical_damage = 3
+		},
+		cell_indices = {
+			AILERON_L = 25,
+			AILERON_L_OUT = 137,
+			AILERON_R = 26,
+			AILERON_R_OUT = 138,
+			COCKPIT = 3,
+			COWLING_L = 139,
+			COWLING_R = 140,
+			ENGINE_L = 11,
+			ENGINE_L_CENTER = 141,
+			ENGINE_L_IN = 11,
+			ENGINE_L_OUT = 17,
+			ENGINE_R = 12,
+			ENGINE_R_CENTER = 142,
+			ENGINE_R_IN = 12,
+			ENGINE_R_OUT = 18,
+			FLAP_L_IN = 37,
+			FLAP_L_OUT = 31,
+			FLAP_R_IN = 38,
+			FLAP_R_OUT = 32,
+			FUSELAGE_BOTTOM = 82,
+			FUSELAGE_LEFT_SIDE = 9,
+			FUSELAGE_RIGHT_SIDE = 10,
+			FUSELAGE_TOP = 99,
+			GEAR_F = 8,
+			GEAR_L = 15,
+			GEAR_R = 16,
+			HATCH_000 = 143,
+			HATCH_001 = 144,
+			HATCH_002 = 145,
+			HATCH_003 = 146,
+			HATCH_004 = 147,
+			HATCH_005 = 148,
+			HATCH_007 = 149,
+			HATCH_008 = 150,
+			KEEL_R_CENTER = 42,
+			KEEL_R_OUT = 40,
+			NOSE_BOTTOM = 59,
+			NOSE_CENTER = 0,
+			NOSE_LEFT_SIDE = 1,
+			NOSE_RIGHT_SIDE = 2,
+			NOSE_TOP = 151,
+			RUDDER_IN = 152,
+			RUDDER_OUT = 153,
+			STABILIZER_L_IN = 47,
+			STABILIZER_L_OUT = 45,
+			STABILIZER_R_IN = 48,
+			STABILIZER_R_OUT = 46,
+			TAIL = 55,
+			TAIL_BOTTOM = 58,
+			TAIL_LEFT_SIDE = 56,
+			TAIL_RIGHT_SIDE = 57,
+			TAIL_TOP = 100,
+			VANE_L = 154,
+			VANE_R = 155,
+			WHEEL_F = 83,
+			WHEEL_L = 84,
+			WHEEL_R = 85,
+			WING_L_CENTER = 29,
+			WING_L_IN = 35,
+			WING_L_OUT = 23,
+			WING_L_PART_CENTER = 27,
+			WING_L_PART_IN = 33,
+			WING_L_PART_OUT = 21,
+			WING_R_CENTER = 30,
+			WING_R_IN = 36,
+			WING_R_OUT = 24,
+			WING_R_PART_CENTER = 28,
+			WING_R_PART_IN = 34,
+			WING_R_PART_OUT = 22
 		}
 	},
 	DamageParts = { "B-1B-OBLOMOK-WING-R", "B-1B-OBLOMOK-WING-L" },
@@ -112,7 +393,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	},
 	DisplayName = "B-1B",
 	EPLRS = true,
-	EmptyWeight = "87090",
+	EmptyWeight = 82840,
 	H_max = 15240,
 	HumanCockpit = false,
 	HumanRadio = {
@@ -130,10 +411,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	M_max = 213192,
 	M_nominal = 140000,
 	Mach_max = 1.68,
-	MaxFuelWeight = "88450",
-	MaxHeight = "18000",
-	MaxSpeed = "1530",
-	MaxTakeOffWeight = "216360",
+	MaxFuelWeight = 88450,
+	MaxHeight = 15240,
+	MaxSpeed = 1329.84,
+	MaxTakeOffWeight = 213192,
 	Name = "B-1B",
 	Ny_max = 3.5,
 	Ny_max_e = 2,
@@ -164,25 +445,31 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Number = 1,
 			Order = 1,
 			Type = 2,
-			X = 8.843,
-			Y = 0.4,
-			Z = 0
+			X = 9.122,
+			Y = 0.359,
+			Z = 0,
+			connector = "Pylon_1_Rotary",
+			use_full_connector_position = true
 		}, {
 			Launchers = <table 2>,
 			Number = 2,
 			Order = 2,
 			Type = 2,
-			X = 3.977,
-			Y = 0.4,
-			Z = 0
+			X = 4.134,
+			Y = 0.359,
+			Z = 0,
+			connector = "Pylon_2_Rotary",
+			use_full_connector_position = true
 		}, {
 			Launchers = <table 2>,
 			Number = 3,
 			Order = 3,
 			Type = 2,
-			X = -6.25,
-			Y = 0.4,
-			Z = 0
+			X = -6.24,
+			Y = 0.359,
+			Z = 0,
+			connector = "Pylon_3_Rotary",
+			use_full_connector_position = true
 		} },
 	RCS = 5,
 	Rate = "100",
@@ -195,10 +482,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			cx_brk = 0.0275,
 			cx_flap = 0.04,
 			cx_gear = 0.015,
-			cy_flap = 0.8,
+			cy_flap = 0.94,
 			kjx = 2.85,
 			kjz = 0.00125,
-			table_data = { { 0, 0.0215, 0.07, 0.018, 0.025, 0.5, 30, 1.1 }, { 0.2, 0.0215, 0.07, 0.018, 0.025, 1.5, 30, 1.1 }, { 0.4, 0.0215, 0.07, 0.018, 0.025, 2.5, 30, 1.1 }, { 0.6, 0.0215, 0.073, 0.018, 0.025, 3.5, 30, 1.1 }, { 0.7, 0.0225, 0.076, 0.024, 0.05, 3.5, 28.666666666667, 1.0911111111111 }, { 0.8, 0.022, 0.079, 0.3, 0.052, 3.5, 27.333333333333, 1.0822222222222 }, { 0.9, 0.0235, 0.083, 0.324, 0.0536, 3.5, 26, 1.0733333333333 }, { 1, 0.03, 0.085, 0.348, 0.0552, 3.5, 24.666666666667, 1.0644444444444 }, { 1.05, 0.031, 0.0855, 0.36, 0.056, 3.5, 24, 1.06 }, { 1.1, 0.032, 0.086, 0.372, 0.0568, 3.15, 18, 1.04 }, { 1.2, 0.0325, 0.083, 0.396, 0.0584, 2.45, 17, 1.02 }, { 1.3, 0.032, 0.077, 0.42, 0.06, 1.75, 16, 1 }, { 1.5, 0.031, 0.062, 0.488571, 0.06, 1.5, 13, 0.9 }, { 1.7, 0.03, 0.051333333333333, 0.557143, 0.06, 0.9, 12, 0.7 }, { 1.8, 0.0295, 0.046, 0.591429, 0.06, 0.86, 11.4, 0.64 }, { 2, 0.029, 0.039, 0.66, 0.06, 0.78, 10.2, 0.52 }, { 2.2, 0.028, 0.034, 0.227, 3.2, 0.7, 9, 0.4 }, { 2.5, 0.027, 0.033, 0.25, 4.5, 0.7, 9, 0.4 }, { 3.9, 0.027, 0.033, 0.35, 6, 0.7, 9, 0.4 } }
+			table_data = { { 0, 0.0215, 0.082, 0.018, 0.025, 0.5, 30, 1.1 }, { 0.2, 0.0215, 0.082, 0.018, 0.025, 1.5, 30, 1.1 }, { 0.4, 0.0215, 0.081, 0.018, 0.025, 2.5, 30, 1.1 }, { 0.6, 0.0215, 0.079, 0.018, 0.025, 3.5, 30, 1.1 }, { 0.7, 0.0225, 0.079, 0.024, 0.05, 3.5, 28.666666666667, 1.0911111111111 }, { 0.8, 0.022, 0.079, 0.3, 0.052, 3.5, 27.333333333333, 1.0822222222222 }, { 0.9, 0.0235, 0.083, 0.324, 0.0536, 3.5, 26, 1.0733333333333 }, { 1, 0.03, 0.085, 0.348, 0.0552, 3.5, 24.666666666667, 1.0644444444444 }, { 1.05, 0.031, 0.0855, 0.36, 0.056, 3.5, 24, 1.06 }, { 1.1, 0.032, 0.086, 0.372, 0.0568, 3.15, 18, 1.04 }, { 1.2, 0.0325, 0.083, 0.396, 0.0584, 2.45, 17, 1.02 }, { 1.3, 0.032, 0.077, 0.42, 0.06, 1.75, 16, 1 }, { 1.5, 0.031, 0.062, 0.488571, 0.06, 1.5, 13, 0.9 }, { 1.7, 0.03, 0.051333333333333, 0.557143, 0.06, 0.9, 12, 0.7 }, { 1.8, 0.0295, 0.046, 0.591429, 0.06, 0.86, 11.4, 0.64 }, { 2, 0.029, 0.039, 0.66, 0.06, 0.78, 10.2, 0.52 }, { 2.2, 0.028, 0.034, 0.227, 3.2, 0.7, 9, 0.4 }, { 2.5, 0.027, 0.033, 0.25, 4.5, 0.7, 9, 0.4 }, { 3.9, 0.027, 0.033, 0.35, 6, 0.7, 9, 0.4 } }
 		},
 		engine = {
 			ForsRUD = 0.91,
@@ -206,6 +493,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			MaxRUD = 1,
 			MinRUD = 0,
 			Nmg = 60.00001,
+			Shutdown_Duration = 50,
+			Startup_Duration = 50,
+			Startup_Prework = 40,
 			cefor = 0.37,
 			cemax = 0.37,
 			dpdh_f = 16000,
@@ -244,48 +534,89 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	V_take_off = 79,
 	Vy_max = 70,
 	Waypoint_Custom_Panel = true,
-	WingSpan = "41.67",
+	WingSpan = 41.67,
 	WorldID = 19,
-	_file = "Scripts/Database/planes\\B-1B.lua",
+	_file = "./CoreMods/tech/HeavyMetalCore/Database/Aircraft/B_1B.lua",
+	_origin = "HeavyMetalCore",
 	air_refuel_receptacle_pos = { 20.237, 1.079, 0 },
 	attribute = { 1, 1, 2, "Redacted", "Strategic bombers", "Refuelable", "Datalink", "Link16", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes", "Bombers" },
 	average_fuel_consumption = 0.2923,
 	bank_angle_max = 45,
 	bigParkingRamp = true,
 	brakeshute_name = 0,
+	chaff_flare_dispenser = { {
+			dir = { 0, 1, 0 },
+			pos = { 14.1, 3.45, 0.581 }
+		}, {
+			dir = { 0, 1, 0 },
+			pos = { 14.1, 3.45, -0.581 }
+		}, {
+			dir = { 0, 1, 0 },
+			pos = { 13.5, 3.65, 0.574 }
+		}, {
+			dir = { 0, 1, 0 },
+			pos = { 13.5, 3.65, -0.574 }
+		} },
 	country_of_origin = "USA",
 	crew_members = { {
-			bailout_arg = -1,
+			bailout_arg = 118,
+			boarding_arg = 323,
 			drop_canopy_name = 0,
+			ejection_added_speed = { 20, 30, -1.5 },
 			ejection_seat_name = 17,
-			pos = { 17.034, 1.243, 0 },
+			pos = { 17.7, 1.243, -0.58 },
 			role = "pilot",
 			role_display_name = "Pilot in command"
 		}, {
-			bailout_arg = -1,
+			bailout_arg = 118,
+			boarding_arg = 323,
 			drop_canopy_name = 0,
+			ejection_added_speed = { 20, 30, 1.5 },
 			ejection_seat_name = 17,
-			pos = { 17.034, 1.243, 0 },
+			pos = { 17.7, 1.243, 0.58 },
 			role = "copilot",
 			role_display_name = "Copilot"
 		}, {
-			bailout_arg = -1,
+			bailout_arg = 118,
+			boarding_arg = 323,
 			drop_canopy_name = 0,
+			ejection_added_speed = { 0, 30, -10 },
 			ejection_seat_name = 17,
-			pos = { 17.034, 1.243, 0 },
+			pos = { 14.82, 1.243, -0.58 },
 			role = "flight_officer",
-			role_display_name = "Flight officer"
+			role_display_name = "Flight Test Engineer"
 		}, {
-			bailout_arg = -1,
+			bailout_arg = 118,
+			boarding_arg = 323,
 			drop_canopy_name = 0,
+			ejection_added_speed = { 0, 30, 10 },
 			ejection_seat_name = 17,
-			pos = { 17.034, 1.243, 0 },
+			pos = { 14.82, 1.243, 0.58 },
 			role = "flight_officer",
-			role_display_name = "Flight officer"
+			role_display_name = "Observer"
 		} },
 	detection_range_max = 0,
+	effects_presets = { {
+			effect = "OVERWING_VAPOR",
+			file = "./CoreMods/tech/HeavyMetalCore/Effects/B_1b_overwingVapor.lua"
+		} },
+	encyclopediaAnimation = {
+		args = {
+			[7] = 1,
+			[26] = 1,
+			[28] = 0.105,
+			[29] = 0.105,
+			[79] = 1,
+			[89] = 0.566,
+			[90] = 0.566
+		}
+	},
 	engines_count = 4,
 	engines_nozzles = { {
+			afterburner_circles_count = 11,
+			afterburner_circles_pos = { 0.2, 0.8 },
+			afterburner_circles_scale = 1,
+			afterburner_effect_texture = "afterburner_b-1b",
 			diameter = 1.068,
 			elevation = 0,
 			exhaust_length_ab = 10.977,
@@ -293,13 +624,21 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			pos = { -9.75, -1.249, -4.549 },
 			smokiness_level = 0.1
 		}, {
+			afterburner_circles_count = 11,
+			afterburner_circles_pos = { 0.2, 0.8 },
+			afterburner_circles_scale = 1,
+			afterburner_effect_texture = "afterburner_b-1b",
 			diameter = 1.068,
 			elevation = 0,
 			exhaust_length_ab = 10.977,
 			exhaust_length_ab_K = 0.76,
-			pos = { -9.75, -1.249, -2.839 },
+			pos = { -8.956, -1.4, -2.959 },
 			smokiness_level = 0.1
 		}, {
+			afterburner_circles_count = 11,
+			afterburner_circles_pos = { 0.2, 0.8 },
+			afterburner_circles_scale = 1,
+			afterburner_effect_texture = "afterburner_b-1b",
 			diameter = 1.068,
 			elevation = 0,
 			exhaust_length_ab = 10.977,
@@ -307,6 +646,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			pos = { -9.75, -1.249, 2.881 },
 			smokiness_level = 0.1
 		}, {
+			afterburner_circles_count = 11,
+			afterburner_circles_pos = { 0.2, 0.8 },
+			afterburner_circles_scale = 1,
+			afterburner_effect_texture = "afterburner_b-1b",
 			diameter = 1.068,
 			elevation = 0,
 			exhaust_length_ab = 10.977,
@@ -314,22 +657,47 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			pos = { -9.75, -1.249, 4.549 },
 			smokiness_level = 0.1
 		} },
+	engines_startup_sequence = { 1, 3, 0, 2 },
 	fires_pos = { { 0.338, -0.815, 0 }, { -3.491, -0.153, 4.263 }, { -3.491, -0.153, -4.263 }, { -0.82, 0.265, 2.774 }, { -0.82, 0.265, -2.774 }, { -0.82, 0.255, 4.274 }, { -0.82, 0.255, -4.274 }, { -8.938, -1.237, 2.985 }, { -8.938, -1.237, -2.985 }, { -8.938, -1.154, 4.571 }, { -8.938, -1.154, -4.571 } },
 	flaps_maneuver = 1,
 	has_afteburner = true,
-	has_speedbrake = false,
+	has_differential_stabilizer = true,
+	has_speedbrake = true,
 	height = 10.36,
 	length = 44.81,
 	lights_data = {
-		lights = {
-			[2] = {
+		lights = { {
+				lights = { {
+						argument = 194,
+						controller = "Strobe",
+						period = 1,
+						phase_shift = 0,
+						typename = "argnatostrobelight"
+					}, {
+						argument = 195,
+						controller = "Strobe",
+						period = 1,
+						phase_shift = 0.05,
+						typename = "argnatostrobelight"
+					}, {
+						argument = 196,
+						controller = "Strobe",
+						period = 1,
+						phase_shift = 0.5,
+						typename = "argnatostrobelight"
+					} },
+				typename = "collection"
+			}, {
 				lights = { {
 						lights = { {
-								angle_max = 0.20943951023932,
-								argument = 51,
-								exposure = { { 0, 0.8, 1 } },
+								argument = 208,
+								connector = "MAIN_SPOT_PTR",
+								dir_correction = {
+									azimuth = 0.034906585039887,
+									elevation = 0.034906585039887
+								},
+								exposure = { { 5, 0.98, 1 } },
 								movable = true,
-								position = { 16.501, -2.354, 0.015 },
 								proto = <3>{
 									angle_change_rate = 0.05235987755983,
 									angle_max = 0.20943951023932,
@@ -340,89 +708,371 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 								},
 								typename = "Spot"
 							}, {
-								exposure = { { 0, 0.8, 1 } },
+								argument = 209,
+								connector = "MAIN_SPOT_PTR_1",
+								dir_correction = {
+									azimuth = -0.05235987755983,
+									elevation = 0.069813170079773
+								},
+								exposure = { { 5, 0.98, 1 } },
 								movable = true,
-								position = { 18.001, -2.354, 0.015 },
 								proto = <table 3>,
-								range = 8,
-								typename = "Omni"
+								typename = "Spot"
+							} },
+						typename = "collection"
+					} },
+				typename = "collection"
+			}, {
+				lights = { {
+						angle_max = 2.7925268031909,
+						angle_min = 1.5707963267949,
+						argument = 190,
+						connector = "BANO_1",
+						dir_correction = {
+							azimuth = 0,
+							elevation = 0
+						},
+						exposure = { { 7, 0.09, 0.1, 1, 0 } },
+						movable = true,
+						proto = <4>{
+							angle_max = 3.1415926535898,
+							color = { 1, 0.3, 0.1, 0.18 },
+							range = 75
+						},
+						typename = "Spot"
+					}, {
+						angle_max = 2.7925268031909,
+						angle_min = 1.5707963267949,
+						argument = 191,
+						connector = "BANO_2",
+						dir_correction = {
+							azimuth = 0,
+							elevation = 0
+						},
+						exposure = { { 7, 0.09, 0.1, 1, 0 } },
+						movable = true,
+						proto = <5>{
+							angle_max = 3.1415926535898,
+							color = { 0, 0.8, 0.6, 0.18 },
+							range = 75
+						},
+						typename = "Spot"
+					}, {
+						angle_max = 2.7925268031909,
+						angle_min = 1.5707963267949,
+						argument = 193,
+						connector = "RESERV_BANO_1",
+						dir_correction = {
+							azimuth = 0,
+							elevation = 0
+						},
+						exposure = { { 7, 0.09, 0.1, 0, 1 } },
+						movable = true,
+						proto = <table 4>,
+						typename = "Spot"
+					}, {
+						angle_max = 2.7925268031909,
+						angle_min = 1.5707963267949,
+						argument = 193,
+						connector = "RESERV_BANO_2",
+						dir_correction = {
+							azimuth = 0,
+							elevation = 0
+						},
+						exposure = { { 7, 0.09, 0.1, 0, 1 } },
+						movable = true,
+						proto = <table 5>,
+						typename = "Spot"
+					}, {
+						angle_max = 2.7925268031909,
+						angle_min = 1.5707963267949,
+						argument = 192,
+						connector = "BANO_3",
+						dir_correction = {
+							azimuth = 0,
+							elevation = 0
+						},
+						movable = true,
+						proto = {
+							angle_max = 3.1415926535898,
+							color = { 1, 1, 1, 0.155 },
+							range = 30
+						},
+						range = 75,
+						typename = "Spot"
+					} },
+				typename = "collection"
+			},
+			[6] = {
+				lights = { {
+						lights = { {
+								angle_max = 1.0471975511966,
+								angle_min = 0.48869219055841,
+								argument = 210,
+								connector = "MAIN_SPOT_PTR_3",
+								dir_correction = {
+									azimuth = 0,
+									elevation = 0.017453292519943
+								},
+								exposure = { { 5, 0.98, 1 } },
+								movable = true,
+								proto = {
+									angle_change_rate = 0.047996554429844,
+									angle_max = 0.19198621771938,
+									angle_min = 0.1221730476396,
+									color = { 255, 201, 125, 0.27855844122716 },
+									power_up_t = 1,
+									range = 3120
+								},
+								typename = "Spot"
 							} },
 						typename = "collection"
 					} },
 				typename = "collection"
 			},
-			[3] = {
-				argument = 49,
-				typename = "argumentlight"
-			},
-			[6] = {
+			[8] = {
 				lights = { {
-						lights = { {
-								angle_max = 0.41887902047864,
-								argument = 51,
-								position = { 16.501, -2.354, 0.015 },
-								proto = <4>{
-									angle_change_rate = -0.19198621771938,
-									angle_max = 0.7679448708775,
-									angle_min = 0.614355896702,
-									color = { 255, 201, 125, 0.2137366596101 },
-									power_up_t = 1.55,
-									range = 612
-								},
-								typename = "Spot"
-							}, {
-								position = { 18.001, -2.354, 0.015 },
-								proto = <table 4>,
-								range = 8,
-								typename = "Omni"
-							} },
-						typename = "collection"
+						argument = 211,
+						exposure = { { 323, 0.9, 1 } },
+						movable = true,
+						typename = "argumentlight"
+					} },
+				typename = "collection"
+			},
+			[9] = {
+				lights = { {
+						argument = 69,
+						typename = "argumentlight"
+					} },
+				typename = "collection"
+			},
+			[10] = {
+				lights = { {
+						argument = 212,
+						typename = "argumentlight"
+					}, {
+						angle_max = 0.59341194567807,
+						angle_min = 0.47472955654246,
+						argument = 212,
+						direction = {
+							azimuth = -2.4434609527921,
+							elevation = 0.069813170079773
+						},
+						exposure = { { 212, 0.9, 1, 1, 1 } },
+						movable = true,
+						position = { 6.92, 1.179, -1.582 },
+						proto = <6>{
+							angle_change_rate = -0.11780972450962,
+							angle_max = 0.47123889803847,
+							angle_min = 0.37699111843078,
+							color = { 255, 201, 125, 0.18499689437998 },
+							power_up_t = 0.9,
+							range = 300
+						},
+						typename = "Spot"
+					}, {
+						angle_max = 0.59341194567807,
+						angle_min = 0.47472955654246,
+						argument = 212,
+						direction = {
+							azimuth = 2.4434609527921,
+							elevation = 0.069813170079773
+						},
+						exposure = { { 212, 0.9, 1, 1, 1 } },
+						movable = true,
+						position = { 6.92, 1.179, 1.382 },
+						proto = <table 6>,
+						typename = "Spot"
 					} },
 				typename = "collection"
 			}
 		},
 		typename = "collection"
 	},
-	main_gear_pos = { -2.821, -3.615, 2.681 },
-	main_gear_wheel_diameter = 0.972,
+	main_gear_amortizer_direct_stroke = 0,
+	main_gear_amortizer_normal_weight_stroke = -0.207,
+	main_gear_amortizer_reversal_stroke = -0.384,
+	main_gear_pos = { -1.753, -3.926, 2.207 },
+	main_gear_wheel_diameter = 1.13,
 	mapclasskey = "P0091000027",
 	mechanimations = {
-		Door0 = { {
+		CentralStrut = { {
 				Flags = { "Reversible" },
 				Sequence = { {
-						C = { { "Arg", 38, "to", 0.9, "in", 9 } }
+						C = { { "VelType", 0 }, { "Arg", 0, "to", 0.45, "in", 4, "sign", 1 } },
+						Width = { 0, 0.5 }
+					}, {
+						C = { { "VelType", 0 }, { "Arg", 0, "to", 1, "in", 6, "sign", 1 } },
+						Width = { 0.5, 1 }
+					} },
+				Transition = { "Retract", "Extend" }
+			}, {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "Sleep", "for", 2 } },
+						Width = { 0.5, 0.75 }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 0, "to", 0.45, "in", 6, "sign", -1 } },
+						Width = { 0, 0.5 }
+					}, {
+						C = { { "VelType", 2 }, { "Arg", 0, "to", 0, "in", 5, "sign", -1 } },
+						Width = { 0.5, 1 }
+					} },
+				Transition = { "Extend", "Retract" }
+			}, {
+				Sequence = { {
+						C = { { "PosType", 0 }, { "Arg", 0, "to", 0.441, "speed", 2, "sign", -1 } }
+					} },
+				Transition = { "Any", "Collapse" }
+			} },
+		Door0 = { {
+				Sequence = { {
+						C = { { "Sleep", "for", 0 } }
 					} },
 				Transition = { "Close", "Open" }
 			}, {
-				Flags = { "Reversible", "StepsBackwards" },
 				Sequence = { {
-						C = { { "Arg", 38, "to", 0, "in", 6 } }
+						C = { { "Sleep", "for", 0 } }
 					} },
 				Transition = { "Open", "Close" }
 			}, {
 				Sequence = { {
-						C = { { "JettisonCanopy", 0 } }
+						C = { { "Sleep", "for", 50 } }
+					}, {
+						C = { { "Arg", 323, "to", 1, "in", 5 } }
+					} },
+				Transition = { "Open", "Board" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 323, "to", 0, "in", 10 } }
+					} },
+				Transition = { "Board", "Open" }
+			} },
+		Door1 = { {
+				Sequence = { {
+						C = { { "Arg", 118, "to", 1, "in", 0.5 } }
 					} },
 				Transition = { "Any", "Bailout" }
 			} },
-		Door1 = {
-			DuplicateOf = "Door0"
-		}
+		Door2 = {
+			DuplicateOf = "Door1"
+		},
+		Door3 = {
+			DuplicateOf = "Door1"
+		},
+		Door4 = {
+			DuplicateOf = "Door1"
+		},
+		Door5 = {
+			DuplicateOf = "Door1"
+		},
+		LeftStrut = { {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "VelType", 1 }, { "Arg", 5, "to", 0.18, "in", 2, "sign", 1 } },
+						Width = { 0, 0.2 }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 5, "to", 0.82, "in", 6, "sign", 1 } },
+						Width = { 0.2, 0.8 }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 5, "to", 1, "in", 3, "sign", 1 } },
+						Width = { 0.8, 1 }
+					} },
+				Transition = { "Retract", "Extend" }
+			}, {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "VelType", 0 }, { "Arg", 5, "to", 0.82, "in", 2, "sign", -1 } },
+						Width = { 0, 0.2 }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 5, "to", 0.19, "in", 9, "sign", -1 } },
+						Width = { 0.2, 0.6 }
+					}, {
+						C = { { "Sleep", "for", 2 } },
+						Width = { 0.6, 0.8 }
+					}, {
+						C = { { "VelType", 0 }, { "Arg", 5, "to", 0, "in", 3, "sign", -1 } },
+						Width = { 0.8, 1 }
+					} },
+				Transition = { "Extend", "Retract" }
+			}, {
+				Sequence = { {
+						C = { { "PosType", 6 }, { "Arg", 5, "to", 0.5, "speed", 2, "sign", -1 } }
+					} },
+				Transition = { "Any", "Collapse" }
+			} },
+		RightStrut = { {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "VelType", 1 }, { "Arg", 3, "to", 0.18, "in", 2, "sign", 1 } },
+						Width = { 0, 0.2 }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 3, "to", 0.82, "in", 6, "sign", 1 } },
+						Width = { 0.2, 0.8 }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 3, "to", 1, "in", 3, "sign", 1 } },
+						Width = { 0.8, 1 }
+					} },
+				Transition = { "Retract", "Extend" }
+			}, {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "VelType", 0 }, { "Arg", 3, "to", 0.82, "in", 2, "sign", -1 } },
+						Width = { 0, 0.2 }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 3, "to", 0.19, "in", 9, "sign", -1 } },
+						Width = { 0.2, 0.6 }
+					}, {
+						C = { { "Sleep", "for", 2 } },
+						Width = { 0.6, 0.8 }
+					}, {
+						C = { { "VelType", 0 }, { "Arg", 3, "to", 0, "in", 3, "sign", -1 } },
+						Width = { 0.8, 1 }
+					} },
+				Transition = { "Extend", "Retract" }
+			}, {
+				Sequence = { {
+						C = { { "PosType", 7 }, { "Arg", 3, "to", 0.5, "speed", 2, "sign", -1 } }
+					} },
+				Transition = { "Any", "Collapse" }
+			} },
+		ServiceHatches = { {
+				Sequence = { {
+						C = { { "PosType", 3 }, { "Sleep", "for", 30 } }
+					}, {
+						C = { { "Arg", 24, "set", 1 } }
+					}, {
+						C = { { "Arg", 428, "to", 1, "in", 2, "sign", 1 } }
+					} },
+				Transition = { "Close", "Open" }
+			}, {
+				Sequence = { {
+						C = { { "PosType", 6 }, { "Sleep", "for", 5 } }
+					}, {
+						C = { { "Arg", 24, "set", 0 } }
+					}, {
+						C = { { "Arg", 428, "to", 0, "in", 2, "sign", -1 } }
+					} },
+				Transition = { "Open", "Close" }
+			} }
 	},
-	nose_gear_pos = { 16.013, -3.615, 0 },
-	nose_gear_wheel_diameter = 0.754,
+	nose_gear_amortizer_direct_stroke = 0,
+	nose_gear_amortizer_normal_weight_stroke = -0.418,
+	nose_gear_amortizer_reversal_stroke = -0.536,
+	nose_gear_pos = { 16.055, -4.135, 0 },
+	nose_gear_wheel_diameter = 0.932,
 	passivCounterm = {
 		CMDS_Edit = true,
-		SingleChargeTotal = 120,
+		SingleChargeTotal = 960,
 		chaff = {
 			chargeSz = 1,
-			default = 60,
-			increment = 30
+			default = 480,
+			increment = 120
 		},
 		flare = {
-			chargeSz = 2,
-			default = 30,
-			increment = 15
+			chargeSz = 10,
+			default = 48,
+			increment = 12
 		}
 	},
 	radar_can_see_ground = false,
@@ -435,6 +1085,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	thrust_sum_ab = 130000,
 	thrust_sum_max = 80000,
 	type = "B-1B",
+	undercarriage_movement = 2,
+	undercarriage_transmission = "Hydraulic",
 	wing_area = 181,
 	wing_span = 41.67,
 	wing_tip_pos = { -3.3, -1, 21.2 },

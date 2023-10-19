@@ -1,5 +1,34 @@
 _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	AOA_take_off = 0.16,
+	AddPropAircraft = { {
+			control = "label",
+			id = "datalink_Label",
+			label = "DATALINK",
+			playerOnly = false,
+			xLbl = 150
+		}, {
+			control = "editbox",
+			getDefault = <function 1>,
+			id = "VoiceCallsignLabel",
+			label = "Voice Callsign Label",
+			onChange = <function 2>,
+			playerOnly = false
+		}, {
+			control = "editbox",
+			getDefault = <function 3>,
+			id = "VoiceCallsignNumber",
+			label = "Voice Callsign Number",
+			onChange = <function 4>,
+			playerOnly = false
+		}, {
+			control = "editbox",
+			getDefault = <function 5>,
+			id = "STN_L16",
+			label = "STN",
+			onChange = <function 6>,
+			onFocus = <function 7>,
+			playerOnly = false
+		} },
 	AmmoWeight = 244.4,
 	CAS_min = 58,
 	CanopyGeometry = { -0.17364817766693, -0.55667039922642, -0.93969262078591, -0.51342418176678, -0.087155742747658 },
@@ -181,6 +210,18 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[82] = {
 			args = { 152 },
 			critical_damage = 2
+		},
+		[83] = {
+			args = { 134 },
+			critical_damage = 2
+		},
+		[84] = {
+			args = { 136 },
+			critical_damage = 2
+		},
+		[85] = {
+			args = { 135 },
+			critical_damage = 2
 		}
 	},
 	DamageParts = { "F-15-OBLOMOK-WING-R", "F-15-OBLOMOK-WING-L" },
@@ -317,8 +358,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			short_name = "M_61",
 			supply = {
 				count = 940,
-				get_mass = <function 1>,
-				get_mass_ = <function 2>,
+				get_mass = <function 8>,
+				get_mass_ = <function 9>,
 				mixes = { { 1 }, { 2 }, { 3 }, { 4, 5 }, { 6 }, { 7, 8 } },
 				shells = { {
 						AP_cap_caliber = 20,

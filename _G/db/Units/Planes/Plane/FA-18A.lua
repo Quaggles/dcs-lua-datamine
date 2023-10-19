@@ -120,6 +120,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[138] = {
 			critical_damage = 4
 		},
+		[139] = {
+			critical_damage = 5
+		},
 		cell_indices = {
 			CABIN = 137,
 			COCKPIT = 3,
@@ -153,6 +156,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			WING_L_PART_OUT = 21,
 			WING_R_CENTER = 30,
 			WING_R_IN = 36,
+			WING_R_IN01 = 139,
 			WING_R_OUT = 24,
 			WING_R_PART_IN = 34,
 			WING_R_PART_OUT = 22
@@ -817,21 +821,24 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Z = -2.184,
 			use_full_connector_position = true
 		}, {
+			FiX = 52,
 			Launchers = { {
-					CLSID = "{8D399DDA-FF81-4F14-904D-099B34FE7918}"
-				}, {
-					CLSID = "{6C0D552F-570B-42ff-9F6D-F10D9C1D4E1C}"
+					CLSID = "{8D399DDA-FF81-4F14-904D-099B34FE7918}",
+					attach_point_position = { 0.5, -0.065, 0.05 }
 				} },
 			Number = 4,
 			Order = 4,
 			Type = 1,
-			X = -2.766,
-			Y = -0.691,
-			Z = -1.083,
+			X = -2.345,
+			Y = -0.74,
+			Z = -1.11,
+			eject_dir = { 0, -0.9085, -0.4179 },
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
 					CLSID = "{EFEC8200-B922-11d7-9897-000476191836}"
+				}, {
+					CLSID = "{AN_ASQ_228}"
 				} },
 			Number = 5,
 			Order = 5,
@@ -841,17 +848,18 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Z = 0,
 			use_full_connector_position = true
 		}, {
+			FiX = -52,
 			Launchers = { {
-					CLSID = "{8D399DDA-FF81-4F14-904D-099B34FE7918}"
-				}, {
-					CLSID = "{1C2B16EB-8EB0-43de-8788-8EBB2D70B8BC}"
+					CLSID = "{8D399DDA-FF81-4F14-904D-099B34FE7918}",
+					attach_point_position = { 0.5, -0.065, -0.05 }
 				} },
 			Number = 6,
 			Order = 6,
 			Type = 1,
-			X = -2.766,
-			Y = -0.691,
-			Z = 1.083,
+			X = -2.345,
+			Y = -0.74,
+			Z = 1.11,
+			eject_dir = { 0, -0.9085, 0.4179 },
 			use_full_connector_position = true
 		}, {
 			FiZ = -2,
@@ -1144,7 +1152,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		typename = "collection"
 	},
-	main_gear_pos = { -2.319, -1.846, 1.57 },
+	main_gear_pos = { -2.319, -1.85, 1.57 },
 	main_gear_wheel_diameter = 0.778,
 	mapclasskey = "P0091000024",
 	mechanimations = {
@@ -1216,7 +1224,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				Transition = { "Stage", "Extend" }
 			} }
 	},
-	nose_gear_pos = { 3.02, -1.846, 0 },
+	nose_gear_pos = { 3.02, -1.75, 0 },
 	nose_gear_wheel_diameter = 0.566,
 	passivCounterm = {
 		CMDS_Edit = true,

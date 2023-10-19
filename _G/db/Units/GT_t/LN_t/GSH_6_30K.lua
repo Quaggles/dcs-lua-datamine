@@ -36,5 +36,6 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["GSH_6_30K"] = {
 	reactionTime = 3,
 	reflection_limit = 0.05,
 	sensor = {},
-	type = 3
+	type = 3,
+	useTargetAccelInSight = true
 }

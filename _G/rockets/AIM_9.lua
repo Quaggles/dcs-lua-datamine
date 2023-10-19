@@ -1,5 +1,5 @@
 _G["rockets"]["#Index"] = {
-	Cx_pil = 1.88,
+	Cx_pil = 1.68,
 	D_max = 7000,
 	D_min = 300,
 	Damage = 25,
@@ -26,7 +26,7 @@ _G["rockets"]["#Index"] = {
 	Reflection = 0.03,
 	SeekerCooled = true,
 	SeekerSensivityDistance = 20000,
-	X_back = -1.6,
+	X_back = -1.5,
 	Y_back = 0,
 	Z_back = 0,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/aim9_family.lua",

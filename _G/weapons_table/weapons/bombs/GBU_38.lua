@@ -111,6 +111,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_38"] = {
 	},
 	cx = { 1, 0.45, 0.8, 0.15, 1.55 },
 	display_name = "GBU-38(V)1/B",
+	display_name_short = "GBU-38(V)1/B",
 	mass = 253.1,
 	model = "GBU-38",
 	name = "GBU_38",

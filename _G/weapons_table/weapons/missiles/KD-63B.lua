@@ -107,6 +107,7 @@ _G["weapons_table"]["weapons"]["missiles"]["KD-63B"] = {
 			no_alg_vel_k = 10,
 			stab_vel = 250
 		},
+		display_name_short = "KD-63B",
 		final_autopilot = {
 			J_Angle_K = 0.18,
 			J_Angle_W = 0.8,
@@ -228,6 +229,7 @@ _G["weapons_table"]["weapons"]["missiles"]["KD-63B"] = {
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	display_name = "KD-63B",
+	display_name_short = "KD-63B",
 	mass = 2000,
 	model = "kd63b",
 	name = "KD-63B",
@@ -333,6 +335,7 @@ _G["weapons_table"]["weapons"]["missiles"]["KD-63B"] = {
 			no_alg_vel_k = 10,
 			stab_vel = 250
 		},
+		display_name_short = "KD-63B",
 		final_autopilot = {
 			J_Angle_K = 0.18,
 			J_Angle_W = 0.8,

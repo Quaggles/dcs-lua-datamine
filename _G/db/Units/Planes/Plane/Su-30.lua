@@ -876,7 +876,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		typename = "collection"
 	},
-	main_gear_pos = { -0.624, -2.238, 2.256 },
+	main_gear_pos = { -0.624, -2.19, 2.256 },
 	main_gear_wheel_diameter = 0.972,
 	mapclasskey = "P0091000024",
 	mechanimations = {
@@ -903,7 +903,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				Transition = { "Any", "Bailout" }
 			} }
 	},
-	nose_gear_pos = { 5.207, -2.238, 0 },
+	nose_gear_pos = { 5.207, -2.19, 0 },
 	nose_gear_wheel_diameter = 0.754,
 	passivCounterm = {
 		CMDS_Edit = true,

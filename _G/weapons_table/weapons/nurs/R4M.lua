@@ -68,6 +68,7 @@ _G["weapons_table"]["weapons"]["nurs"]["R4M"] = {
 	},
 	cx_pil = 1.3657865548695e-05,
 	display_name = "R4M 3.2kg UnGd air-to-air rocket",
+	display_name_short = "R4M 3.2kg UnGd air-to-air rocket",
 	dist_max = 1200,
 	dist_max_ballistic = 8000,
 	dist_min = 600,

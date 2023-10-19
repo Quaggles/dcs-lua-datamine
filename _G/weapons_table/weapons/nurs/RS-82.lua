@@ -72,6 +72,7 @@ _G["weapons_table"]["weapons"]["nurs"]["RS-82"] = {
 	},
 	cx_pil = 0.00017,
 	display_name = "RS-82",
+	display_name_short = "RS-82",
 	dist_max = 1200,
 	dist_max_ballistic = 8000,
 	dist_min = 600,

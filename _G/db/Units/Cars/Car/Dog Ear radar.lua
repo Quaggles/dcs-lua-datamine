@@ -168,7 +168,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		},
 		maxTargetDetectionRange = 35000,
 		radar_rotation_type = 0,
-		radar_type = 104
+		radar_type = 104,
+		searchRadarFrequencies = { { 3000000000, 6000000000 } }
 	},
 	Waypoint_Custom_Panel = true,
 	animation_arguments = {
@@ -207,7 +208,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "Dog Ear radar",
 	visual = {
 		IR = {
-			coeffs = { { 0.035, 0.0012 }, { 0.0069, 0.0036 }, { 0, 0 }, { 0.001, 0.17 }, { 0.2, 0.0002 } }
+			coeffs = { { 0.035, 0.0012 }, { 0.0069, 0.0036 }, { 0.205, 0.005, 2 }, { 0.001, 0.17 }, { 0.2, 0.0002 } }
 		},
 		agony_explosion_size = 2,
 		dirt_pos = { -2.8, 0.4, -1.128 },

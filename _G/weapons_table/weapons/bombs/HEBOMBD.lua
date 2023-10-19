@@ -75,6 +75,7 @@ _G["weapons_table"]["weapons"]["bombs"]["HEBOMBD"] = {
 	},
 	cx = { 1, 0.29, 0.71, 0.14, 1.28 },
 	display_name = "M/71 HE-Bomb w chute",
+	display_name_short = "M/71 HE-Bomb w chute",
 	mass = 121,
 	model = "SB71HD",
 	name = "HEBOMBD",

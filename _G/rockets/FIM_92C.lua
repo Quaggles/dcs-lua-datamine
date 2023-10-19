@@ -73,6 +73,7 @@ _G["rockets"]["#Index"] = {
 		march_start = 0.4
 	},
 	display_name = "FIM-92C Stinger",
+	display_name_short = "FIM-92C Stinger",
 	fm = {
 		A = 0.6,
 		I = 2.0408533333333,

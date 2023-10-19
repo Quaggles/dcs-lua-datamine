@@ -71,6 +71,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SPRD-99"] = {
 	},
 	cx_pil = 0.0011259690484105,
 	display_name = "SPRD-99 takeoff rocket",
+	display_name_short = "SPRD-99 takeoff rocket",
 	dist_max = 10000,
 	dist_max_ballistic = 8000,
 	dist_min = 1,

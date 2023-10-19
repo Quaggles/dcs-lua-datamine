@@ -5,14 +5,14 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["howitzer_2A18"] = {
 	PL = { {
 			ammo_capacity = 12,
 			automaticLoader = false,
-			reload_time = 240,
+			portion_reload_time = 20,
 			shell_name = { "2A18_122" },
 			shot_delay = 13,
 			virtualStwID = 1
 		}, {
 			ammo_capacity = 28,
 			automaticLoader = false,
-			reload_time = 700,
+			portion_reload_time = 25,
 			shell_name = { "2A18_122" },
 			shot_delay = 20,
 			virtualStwID = 2

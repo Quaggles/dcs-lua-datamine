@@ -62,6 +62,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Rapier"] = {
 			march_start = 1.001
 		},
 		display_name = "Rapier",
+		display_name_short = "Rapier",
 		err = {
 			max_time_interval = 0.9,
 			min_time_interval = 0.1,
@@ -156,6 +157,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Rapier"] = {
 		wsTypeOfWeapon = { 4, 4, 34, "Redacted" }
 	},
 	display_name = "Rapier",
+	display_name_short = "Rapier",
 	mass = 45,
 	model = "rapier_fsa_missile",
 	name = "Rapier",
@@ -217,6 +219,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Rapier"] = {
 			march_start = 1.001
 		},
 		display_name = "Rapier",
+		display_name_short = "Rapier",
 		err = {
 			max_time_interval = 0.9,
 			min_time_interval = 0.1,

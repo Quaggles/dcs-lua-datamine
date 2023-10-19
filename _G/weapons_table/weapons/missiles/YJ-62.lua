@@ -75,6 +75,7 @@ _G["weapons_table"]["weapons"]["missiles"]["YJ-62"] = {
 			march_start = 0.01,
 			suppres_march = 0.01
 		},
+		display_name_short = "YJ-62",
 		engine_control = {
 			K = 235,
 			Kd = 0.01,
@@ -197,6 +198,7 @@ _G["weapons_table"]["weapons"]["missiles"]["YJ-62"] = {
 		wsTypeOfWeapon = { 4, 4, 11, "Redacted" }
 	},
 	display_name = "YJ-62",
+	display_name_short = "YJ-62",
 	encyclopediaAnimation = {
 		args = { 1 }
 	},
@@ -273,6 +275,7 @@ _G["weapons_table"]["weapons"]["missiles"]["YJ-62"] = {
 			march_start = 0.01,
 			suppres_march = 0.01
 		},
+		display_name_short = "YJ-62",
 		engine_control = {
 			K = 235,
 			Kd = 0.01,

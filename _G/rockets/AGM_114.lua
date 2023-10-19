@@ -4,7 +4,7 @@ _G["rockets"]["#Index"] = {
 	D_min = 500,
 	Damage = 42.525,
 	Diam = 178,
-	Escort = 1,
+	Escort = 0,
 	Fi_excort = 0.44,
 	Fi_rak = 3.14152,
 	Fi_search = 99.9,
@@ -72,6 +72,7 @@ _G["rockets"]["#Index"] = {
 		march_start = 0
 	},
 	display_name = "AGM-114L Longbow",
+	display_name_short = "AGM-114L",
 	exhaust = { 0.9, 0.9, 0.85, 0.1 },
 	fm = {
 		A1trim = { 14.1, 14.1, 14.1, 14.1, 14.1, 15.1, 12.6, 10.8, 9.8, 9.1, 8.6, 8.3 },

@@ -5,8 +5,13 @@ _G["launcher"]["{F4920E62-A99A-11d8-9897-000476191836}"] = {
 			ShapeName = "Spear"
 		} },
 	Picture = "kopyo.png",
+	ShapeName = "Spear",
 	Weight = 115,
-	_file = "Scripts/Database/db_weapons_data.lua",
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/pods.lua",
+	_origin = "AircraftWeaponPack",
+	_unique_resource_name = "weapons.containers.Spear",
 	attribute = { 4, 15, 44, "Redacted" },
-	displayName = "Kopyo radar pod"
+	category = 6,
+	displayName = "Kopyo radar pod",
+	name = "Spear"
 }

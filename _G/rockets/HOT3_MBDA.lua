@@ -56,6 +56,7 @@ _G["rockets"]["#Index"] = {
 		march_start = 0.9
 	},
 	display_name = "HOT3",
+	display_name_short = "HOT3",
 	eng_err = {
 		max_time_interval = 0.9,
 		min_time_interval = 0.1,

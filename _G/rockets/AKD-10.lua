@@ -62,6 +62,7 @@ _G["rockets"]["#Index"] = {
 		march_start = 2.001
 	},
 	display_name = "AKD-10",
+	display_name_short = "AKD-10",
 	exhaust = { 0.9, 0.9, 0.85, 0.1 },
 	fm = {
 		A = 0.6,

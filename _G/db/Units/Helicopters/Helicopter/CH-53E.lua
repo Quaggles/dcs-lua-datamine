@@ -165,7 +165,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		},
 		typename = "collection"
 	},
-	main_gear_pos = { -2.271, -2.169, 1.76 },
+	main_gear_pos = { -2.271, -2.3, 1.76 },
 	mapclasskey = "P0091000020",
 	mechanimations = {
 		Door0 = { {
@@ -190,7 +190,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			DuplicateOf = "Door0"
 		}
 	},
-	nose_gear_pos = { 5.217, -2.169, 0 },
+	nose_gear_pos = { 5.217, -2.3, 0 },
 	passivCounterm = {
 		CMDS_Edit = true,
 		SingleChargeTotal = 120,

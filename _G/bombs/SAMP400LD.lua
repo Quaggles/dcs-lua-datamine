@@ -5,6 +5,7 @@ _G["bombs"]["#Index"] = {
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
 	_origin = "AircraftWeaponPack",
 	display_name = "SAMP-400 LD",
+	display_name_short = "SAMP-400 LD",
 	hMax = 12000,
 	hMin = 200,
 	mass = 360,

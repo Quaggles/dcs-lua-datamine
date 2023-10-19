@@ -5,6 +5,7 @@ _G["bombs"]["#Index"] = {
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
 	_origin = "AircraftWeaponPack",
 	display_name = "FAB-250-M62 GP",
+	display_name_short = "FAB-250-M62 GP",
 	hMax = 12000,
 	hMin = 500,
 	mass = 227,

@@ -111,6 +111,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_31_V_4B"] = {
 	},
 	cx = { 1, 0.45, 0.8, 0.15, 1.55 },
 	display_name = "GBU-31(V)4/B",
+	display_name_short = "GBU-31(V)4/B",
 	mass = 970,
 	model = "GBU31_V_3B_BLU109",
 	name = "GBU_31_V_4B",

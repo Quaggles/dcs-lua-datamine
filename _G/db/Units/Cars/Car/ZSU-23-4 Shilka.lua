@@ -36,7 +36,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					name = "2A14_4",
 					reactionTime = 6,
 					reflection_limit = 0.15,
-					sensor = {}
+					sensor = {},
+					useTargetAccelInSight = true
 				} },
 			angles = { { 2.6179938779915, -2.6179938779915, -0.1, 1.48 }, { -2.6179938779915, 2.6179938779915, -0.078539816339745, 1.48 } },
 			center = "CENTER_TOWER",

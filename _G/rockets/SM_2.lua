@@ -29,6 +29,7 @@ _G["rockets"]["#Index"] = {
 	_unique_resource_name = "weapons.missiles.SM_2",
 	ccm_k0 = 0.5,
 	display_name = "SM-2",
+	display_name_short = "SM-2",
 	exhaust = { 1, 1, 1, 1 },
 	name = "SM_2",
 	sigma = { 50, 50, 50 },

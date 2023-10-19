@@ -14,5 +14,5 @@ _G["launcher"]["DIS_LS_6_500"] = {
 	category = 1,
 	displayName = "LS-6-500",
 	ejectDirection = { 0, -1, 0 },
-	ejectImpulse = 630
+	ejectVelocity = 2
 }

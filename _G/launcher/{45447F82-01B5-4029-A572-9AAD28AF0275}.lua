@@ -2,35 +2,35 @@ _G["launcher"]["{45447F82-01B5-4029-A572-9AAD28AF0275}"] = {
 	CLSID = "{45447F82-01B5-4029-A572-9AAD28AF0275}",
 	Count = 6,
 	Cx_pil = 0.000681,
-	Elements = { {
-			ShapeName = "B52-MBD_AGM86"
+	Elements = { "_G/Pylons/b-52_suu67.lua", {
+			ShapeName = "AGM-86",
+			connector_name = "Pylon1"
 		}, {
-			Position = { -2.096, 0.138, 0 },
-			ShapeName = "AGM-86"
+			ShapeName = "AGM-86",
+			connector_name = "Pylon3"
 		}, {
-			Position = { 4.277, 0.138, 0 },
-			ShapeName = "AGM-86"
+			ShapeName = "AGM-86",
+			connector_name = "Pylon4"
 		}, {
-			DrawArgs = { { 3, -1 } },
-			Position = { -2.096, 0.847, 0.838 },
-			ShapeName = "AGM-86"
+			ShapeName = "AGM-86",
+			connector_name = "Pylon6"
 		}, {
-			DrawArgs = { { 3, 1 } },
-			Position = { -2.096, 0.847, -0.838 },
-			ShapeName = "AGM-86"
+			ShapeName = "AGM-86",
+			connector_name = "Pylon2"
 		}, {
-			DrawArgs = { { 3, -1 } },
-			Position = { 4.277, 0.847, 0.838 },
-			ShapeName = "AGM-86"
-		}, {
-			DrawArgs = { { 3, 1 } },
-			Position = { 4.277, 0.847, -0.838 },
-			ShapeName = "AGM-86"
+			ShapeName = "AGM-86",
+			connector_name = "Pylon5"
 		} },
 	Picture = "AGM86.png",
-	Weight = 11760,
-	_file = "Scripts/Database/db_weapons_data.lua",
+	Weight = 10716.7,
+	Weight_Empty = 2016.7,
+	_file = "./CoreMods/tech/HeavyMetalCore/Database/Aircraft/B_52H.lua",
+	_origin = "HeavyMetalCore",
 	attribute = { 4, 4, 32, "Redacted" },
+	category = 2,
 	displayName = "6 x AGM-86D on MER",
+	ejectPitchRate = -10,
+	ejectVelocity = 1,
+	kind_of_shipping = 0,
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

@@ -331,6 +331,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_500U_BETAB_M"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "RBK-500U - 10 x BETAB-M, 500kg Bunker Buster CBU HE/Frag",
+	display_name_short = "RBK-500U",
 	mass = 427,
 	model = "RBK_500U",
 	name = "RBK_500U_BETAB_M",

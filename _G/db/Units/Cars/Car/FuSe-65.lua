@@ -62,7 +62,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		},
 		maxTargetDetectionRange = 60000,
 		radar_rotation_type = 0,
-		radar_type = 105
+		radar_type = 105,
+		searchRadarFrequencies = { { 560000000 } }
 	},
 	Waypoint_Custom_Panel = true,
 	_file = "./Mods/tech/WWII Units/Database/db_units_cars.lua",
@@ -111,7 +112,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "FuSe-65",
 	visual = {
 		IR = {
-			coeffs = { { 0.02, 0.0012 }, { 0, 0 }, { 0, 0 }, { 0, 0 }, { 0.27, 0.00049090909090909 } }
+			coeffs = { { 0.02, 0.0012 }, { 0, 0 }, { 0.205, 0.005, 2 }, { 0.001, 0.17 }, { 0.27, 0.00049090909090909 } }
 		},
 		agony_explosion_size = 0,
 		fire_pos = {},

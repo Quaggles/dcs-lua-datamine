@@ -192,13 +192,13 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						} },
 					PL = { {
 							ammo_capacity = 35,
-							reload_time = 525,
+							portion_reload_time = 15,
 							shell_name = {},
 							virtualStwID = 1
 						}, {
 							ammo_capacity = 25,
 							automaticLoader = false,
-							reload_time = 375,
+							portion_reload_time = 15,
 							shell_name = { "M61" },
 							shot_delay = 12,
 							virtualStwID = 2
@@ -211,14 +211,10 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					BR = { {} },
 					PL = { {
 							ammo_capacity = 14,
-							reload_time = 210,
-							shell_name = { "M46" },
-							virtualStwID = 1
+							shell_name = { "M46" }
 						}, {
 							ammo_capacity = 10,
-							reload_time = 150,
-							shell_name = { "M46" },
-							virtualStwID = 2
+							shell_name = { "M46" }
 						} },
 					distanceMax = 4000,
 					distanceMin = 300,

@@ -920,11 +920,13 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "Mirage-F1EE"
 				}, {
+					Name = "Mirage-F1BE"
+				}, {
+					Name = "TF-51D"
+				}, {
 					Name = "Yak-52"
 				}, {
 					Name = "Ju-88A4"
-				}, {
-					Name = "TF-51D"
 				} }
 		},
 		Ships = {

@@ -271,13 +271,13 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						} },
 					PL = { {
 							ammo_capacity = 18,
-							reload_time = 270,
+							portion_reload_time = 15,
 							shell_name = {},
 							virtualStwID = 1
 						}, {
 							ammo_capacity = 40,
 							automaticLoader = false,
-							reload_time = 600,
+							portion_reload_time = 15,
 							shell_name = { "APCBC" },
 							shot_delay = 18,
 							virtualStwID = 2
@@ -290,11 +290,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					BR = { {} },
 					PL = { {
 							ammo_capacity = 5,
-							reload_time = 75,
 							shell_name = { "QF17_HE" }
 						}, {
 							ammo_capacity = 14,
-							reload_time = 210,
 							shell_name = { "QF17_HE" }
 						} },
 					distanceMax = 4000,

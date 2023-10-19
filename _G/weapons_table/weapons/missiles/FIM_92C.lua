@@ -76,6 +76,7 @@ _G["weapons_table"]["weapons"]["missiles"]["FIM_92C"] = {
 			march2_start = 3.1,
 			march_start = 0.4
 		},
+		display_name_short = "FIM-92C Stinger",
 		fm = {
 			A = 0.6,
 			I = 2.0408533333333,
@@ -189,6 +190,7 @@ _G["weapons_table"]["weapons"]["missiles"]["FIM_92C"] = {
 		wsTypeOfWeapon = { 4, 4, 34, "Redacted" }
 	},
 	display_name = "FIM-92C Stinger",
+	display_name_short = "FIM-92C Stinger",
 	mass = 10.1,
 	model = "fim-92",
 	name = "FIM_92C",
@@ -264,6 +266,7 @@ _G["weapons_table"]["weapons"]["missiles"]["FIM_92C"] = {
 			march2_start = 3.1,
 			march_start = 0.4
 		},
+		display_name_short = "FIM-92C Stinger",
 		fm = {
 			A = 0.6,
 			I = 2.0408533333333,

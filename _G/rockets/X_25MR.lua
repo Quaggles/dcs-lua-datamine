@@ -27,6 +27,7 @@ _G["rockets"]["#Index"] = {
 	Y_back = -0.14,
 	Z_back = 0,
 	display_name = "Kh-25MR",
+	display_name_short = "Kh-25MR",
 	exhaust = { 0.63, 0.67, 0.75, 0.2 },
 	name = "X_25MR",
 	sigma = { 5.6, 6, 5.6 },

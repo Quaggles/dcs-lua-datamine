@@ -31,6 +31,7 @@ _G["rockets"]["#Index"] = {
 	Z_back = 0,
 	ccm_k0 = 0.5,
 	display_name = "MIM-72G",
+	display_name_short = "MIM-72G",
 	exhaust = { 1, 1, 1, 1 },
 	name = "MIM_72G",
 	sigma = { 10, 10, 10 },

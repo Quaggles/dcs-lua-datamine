@@ -55,68 +55,43 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[23] = {
 			args = { 223 },
-			critical_damage = 8,
-			deps_cells = { 25 }
+			critical_damage = 8
 		},
 		[24] = {
 			args = { 213 },
-			critical_damage = 8,
-			deps_cells = { 26 }
-		},
-		[25] = {
-			args = { 226 },
-			critical_damage = 3
-		},
-		[26] = {
-			args = { 216 },
-			critical_damage = 3
+			critical_damage = 8
 		},
 		[29] = {
 			args = { 224 },
 			critical_damage = 9,
-			deps_cells = { 25, 23 }
+			deps_cells = { 23 }
 		},
 		[30] = {
 			args = { 214 },
 			critical_damage = 9,
-			deps_cells = { 26, 24 }
+			deps_cells = { 24 }
 		},
 		[35] = {
 			args = { 225 },
 			critical_damage = 20,
-			deps_cells = { 29, 25, 23, 12, 18 }
+			deps_cells = { 29, 23, 12, 18 }
 		},
 		[36] = {
 			args = { 215 },
 			critical_damage = 20,
-			deps_cells = { 30, 26, 24, 11, 17 }
+			deps_cells = { 30, 24, 11, 17 }
 		},
 		[43] = {
 			args = { 142 },
-			critical_damage = 9,
-			deps_cells = { 53 }
+			critical_damage = 9
 		},
 		[47] = {
 			args = { 236 },
-			critical_damage = 5,
-			deps_cells = { 51 }
+			critical_damage = 5
 		},
 		[48] = {
 			args = { 234 },
-			critical_damage = 5,
-			deps_cells = { 52 }
-		},
-		[51] = {
-			args = { 240 },
-			critical_damage = 3
-		},
-		[52] = {
-			args = { 237 },
-			critical_damage = 3
-		},
-		[53] = {
-			args = { 248 },
-			critical_damage = 3
+			critical_damage = 5
 		},
 		[55] = {
 			args = { 159 },
@@ -129,10 +104,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[57] = {
 			args = { 140 },
 			critical_damage = 5
-		},
-		[61] = {
-			args = { 151 },
-			critical_damage = 6
 		},
 		[82] = {
 			args = { 153 },
@@ -163,6 +134,20 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		far_wall_pos = { 6.1, -1.35, 0 },
 		maximalCapacity = 21770,
 		nominalCapacity = 19350,
+		out_door = {
+			rampa_left = {
+				heading = 2.7925268031909,
+				large = false,
+				x = -11,
+				z = -1
+			},
+			rampa_right = {
+				heading = -2.7925268031909,
+				large = false,
+				x = -11,
+				z = 1
+			}
+		},
 		para_unit_point = 64,
 		unit_block = { 0.76, 0.775 },
 		unit_point = 92
@@ -548,15 +533,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						C = { { "Arg", 86, "to", 0, "in", 15 } }
 					} },
 				Transition = { "Open", "Close" }
-			} }
-	},
-	mechconnectors = {
-		Door11 = { {
-				shift_orient = { 0, 160, 0 },
-				shift_pos = { -11, -0.5, -1 }
-			}, {
-				shift_orient = { 0, -160, 0 },
-				shift_pos = { -11, -0.5, 1 }
 			} }
 	},
 	nose_gear_pos = { 8.133, -2.5, 0 },

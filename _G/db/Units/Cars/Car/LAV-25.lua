@@ -20,7 +20,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	ThreatRange = 2500,
 	Transportable = {
-		size = 14000
+		size = 14000,
+		valide = true
 	},
 	WS = { {
 			LN = { {
@@ -33,12 +34,14 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							feedSlot = 1,
 							portionAmmoCapacity = 60,
 							reload_time = 900,
-							shell_name = {}
+							shell_name = {},
+							virtualStwID = 1
 						}, {
 							ammo_capacity = 60,
 							feedSlot = 2,
 							reload_time = 300,
-							shell_name = {}
+							shell_name = {},
+							virtualStwID = 1
 						} },
 					fireAnimationArgument = 23,
 					sensor = {},

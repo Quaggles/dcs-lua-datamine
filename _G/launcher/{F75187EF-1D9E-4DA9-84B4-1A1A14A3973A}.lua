@@ -5,8 +5,13 @@ _G["launcher"]["{F75187EF-1D9E-4DA9-84B4-1A1A14A3973A}"] = {
 			ShapeName = "SPS-141"
 		} },
 	Picture = "SPS141.png",
+	ShapeName = "SPS-141",
 	Weight = 150,
-	_file = "Scripts/Database/db_weapons_data.lua",
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/pods.lua",
+	_origin = "AircraftWeaponPack",
+	_unique_resource_name = "weapons.containers.SPS-141",
 	attribute = { 4, 15, 45, "Redacted" },
-	displayName = "SPS-141 - ECM Jamming Pod"
+	category = 6,
+	displayName = "SPS-141 - ECM Jamming Pod",
+	name = "SPS-141"
 }

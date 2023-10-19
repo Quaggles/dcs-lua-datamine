@@ -123,11 +123,19 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		life = 4,
 		r_max = 0.44
 	},
+	crew_locale = "RUS",
+	crew_members = { "gunner", "loader" },
 	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
 	driverViewConnectorName = { "DRIVER_POINT",
 		offset = { 0.05, 0, 0 }
 	},
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = { 0.247,
+			[0] = 0.2,
+			[3] = 1
+		}
+	},
 	mapclasskey = "P0091000006",
 	sensor = {
 		height = 2.985

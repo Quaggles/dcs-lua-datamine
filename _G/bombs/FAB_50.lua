@@ -6,6 +6,7 @@ _G["bombs"]["#Index"] = {
 	_file = "./CoreMods/aircraft/MiG-15bis/MiG-15bis.lua",
 	_origin = "MiG-15bis AI by Eagle Dynamics",
 	display_name = "FAB-50 - 50kg GP Bomb LD",
+	display_name_short = "FAB-50 - 50kg GP Bomb LD",
 	hMax = 12000,
 	hMin = 1000,
 	mass = 50,

@@ -13,16 +13,16 @@ _G["weapons_table"]["weapons"]["missiles"]["X_29TE"] = {
 			K = 36,
 			Kg = 6,
 			Ki = 0.0005,
-			delay = 0.8,
+			delay = 0.15,
 			finsLimit = 0.2,
 			useJumpByDefault = 1
 		},
 		boost = {
 			custom_smoke_dissipation_factor = 0.2,
 			fuel_mass = 0,
-			impulse = 148,
+			impulse = 0,
 			nozzle_orientationXYZ = { { 0, 0, 0 } },
-			nozzle_position = { { -1.3, -0.19, 0 } },
+			nozzle_position = { { -2, 0, 0 } },
 			smoke_color = { 1, 1, 1 },
 			smoke_transparency = 0.1,
 			tail_width = 0.4,
@@ -30,7 +30,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_29TE"] = {
 		},
 		controller = {
 			boost_start = 0,
-			march_start = 0.8
+			march_start = 0.2
 		},
 		fm = {
 			A = 0.36,
@@ -53,14 +53,15 @@ _G["weapons_table"]["weapons"]["missiles"]["X_29TE"] = {
 		},
 		march = {
 			custom_smoke_dissipation_factor = 0.2,
-			fuel_mass = 100,
-			impulse = 148,
+			fuel_mass = 110,
+			impulse = 212,
+			nozzle_exit_area = 0.038,
 			nozzle_orientationXYZ = { { 0, 0, 0 } },
-			nozzle_position = { { -1.3, -0.19, 0 } },
+			nozzle_position = { { -2, 0, 0 } },
 			smoke_color = { 1, 1, 1 },
 			smoke_transparency = 0.1,
 			tail_width = 0.4,
-			work_time = 6.2
+			work_time = 4.7
 		},
 		scheme = "schemes/missiles/tv_homing_gyrost_missile.sch",
 		seeker = {
@@ -119,16 +120,16 @@ _G["weapons_table"]["weapons"]["missiles"]["X_29TE"] = {
 			K = 36,
 			Kg = 6,
 			Ki = 0.0005,
-			delay = 0.8,
+			delay = 0.15,
 			finsLimit = 0.2,
 			useJumpByDefault = 1
 		},
 		boost = {
 			custom_smoke_dissipation_factor = 0.2,
 			fuel_mass = 0,
-			impulse = 148,
+			impulse = 0,
 			nozzle_orientationXYZ = { { 0, 0, 0 } },
-			nozzle_position = { { -1.3, -0.19, 0 } },
+			nozzle_position = { { -2, 0, 0 } },
 			smoke_color = { 1, 1, 1 },
 			smoke_transparency = 0.1,
 			tail_width = 0.4,
@@ -136,7 +137,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_29TE"] = {
 		},
 		controller = {
 			boost_start = 0,
-			march_start = 0.8
+			march_start = 0.2
 		},
 		fm = {
 			A = 0.36,
@@ -159,14 +160,15 @@ _G["weapons_table"]["weapons"]["missiles"]["X_29TE"] = {
 		},
 		march = {
 			custom_smoke_dissipation_factor = 0.2,
-			fuel_mass = 100,
-			impulse = 148,
+			fuel_mass = 110,
+			impulse = 212,
+			nozzle_exit_area = 0.038,
 			nozzle_orientationXYZ = { { 0, 0, 0 } },
-			nozzle_position = { { -1.3, -0.19, 0 } },
+			nozzle_position = { { -2, 0, 0 } },
 			smoke_color = { 1, 1, 1 },
 			smoke_transparency = 0.1,
 			tail_width = 0.4,
-			work_time = 6.2
+			work_time = 4.7
 		},
 		scheme = "schemes/missiles/tv_homing_gyrost_missile.sch",
 		seeker = {

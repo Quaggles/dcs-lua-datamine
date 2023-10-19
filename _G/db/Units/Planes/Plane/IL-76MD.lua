@@ -309,9 +309,36 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	IR_emission_coeff = 4,
 	IR_emission_coeff_ab = 0,
 	InternalCargo = {
-		area = { 20, 3.15, 2.7 },
+		area = { 24, 4, 3 },
+		far_wall_pos = { 12, -1.32, 0 },
 		maximalCapacity = 48000,
 		nominalCapacity = 40000,
+		out_door = {
+			main_left = {
+				heading = 1.5707963267949,
+				large = false,
+				x = 11,
+				z = -1.15
+			},
+			main_right = {
+				heading = -1.5707963267949,
+				large = false,
+				x = 11,
+				z = 1.15
+			},
+			rampa_left = {
+				heading = 2.7925268031909,
+				large = false,
+				x = -10,
+				z = -1
+			},
+			rampa_right = {
+				heading = -2.7925268031909,
+				large = false,
+				x = -10,
+				z = 1
+			}
+		},
 		para_unit_point = 126,
 		unit_block = { 0.64, 0.78 },
 		unit_point = 167
@@ -626,15 +653,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						C = { { "Arg", 24, "set", 0 } }
 					} },
 				Transition = { "Open", "Close" }
-			} }
-	},
-	mechconnectors = {
-		Door11 = { {
-				shift_orient = { 0, 160, 0 },
-				shift_pos = { -12, -1.5, -1.5 }
-			}, {
-				shift_orient = { 0, -160, 0 },
-				shift_pos = { -12, -1.5, 1.5 }
 			} }
 	},
 	nose_gear_pos = { 11.146, -4.009, 0 },

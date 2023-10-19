@@ -98,6 +98,7 @@ _G["rockets"]["#Index"] = {
 		stab_vel = 237.5
 	},
 	display_name = "KD-20",
+	display_name_short = "KD-20",
 	final_autopilot = {
 		J_Angle_K = 0.23,
 		J_Angle_W = 0.4,

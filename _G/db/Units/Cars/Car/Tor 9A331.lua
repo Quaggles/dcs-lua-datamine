@@ -75,6 +75,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		maxTargetDetectionRange = 25000,
 		radar_rotation_type = 1,
 		radar_type = 104,
+		searchRadarFrequencies = { { 4000000000, 8000000000 } },
 		searchRadarMaxElevation = 0.78539816339745
 	},
 	Waypoint_Custom_Panel = true,
@@ -95,6 +96,27 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		offset = { 0.1, 0, 0 }
 	},
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = { 0.174,
+			[0] = 0.18,
+			[3] = 1,
+			[4] = 0.268,
+			[5] = 0.539,
+			[6] = 0.615,
+			[7] = 0.615,
+			[11] = -0.823,
+			[14] = 0.464,
+			[18] = 1,
+			[19] = 1,
+			[20] = 0.174,
+			[21] = 0.123,
+			[22] = -0.022,
+			[27] = 1,
+			[28] = -0.098,
+			[49] = 0.186,
+			[50] = 0.565
+		}
+	},
 	mapclasskey = "P0091000087",
 	radar_rotation_period = 1,
 	sensor = {

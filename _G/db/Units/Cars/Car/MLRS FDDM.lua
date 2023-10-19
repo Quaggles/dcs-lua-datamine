@@ -17,8 +17,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					PL = { {
 							ammo_capacity = 1,
 							reload_time = 1,
-							rocket_name = "weapons.nurs.M26",
-							shot_delay = 0.01
+							shot_delay = 0.01,
+							type_ammunition = "weapons.nurs.M26"
 						} },
 					aiming_director = true,
 					distanceMax = 32000,

@@ -45,6 +45,34 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					id = 2
 				} },
 			wCtrl = 150
+		}, {
+			control = "label",
+			id = "datalink_Label",
+			label = "DATALINK",
+			playerOnly = false,
+			xLbl = 150
+		}, {
+			control = "editbox",
+			getDefault = <function 1>,
+			id = "VoiceCallsignLabel",
+			label = "Voice Callsign Label",
+			onChange = <function 2>,
+			playerOnly = false
+		}, {
+			control = "editbox",
+			getDefault = <function 3>,
+			id = "VoiceCallsignNumber",
+			label = "Voice Callsign Number",
+			onChange = <function 4>,
+			playerOnly = false
+		}, {
+			control = "editbox",
+			getDefault = <function 5>,
+			id = "STN_L16",
+			label = "STN",
+			onChange = <function 6>,
+			onFocus = <function 7>,
+			playerOnly = false
 		} },
 	AmmoWeight = 150.28,
 	CAS_min = 62,
@@ -725,8 +753,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			short_name = "M_61",
 			supply = {
 				count = 578,
-				get_mass = <function 1>,
-				get_mass_ = <function 2>,
+				get_mass = <function 8>,
+				get_mass_ = <function 9>,
 				mixes = { { 1 }, { 2 }, { 3 }, { 4, 5 }, { 6 }, { 7, 8 } },
 				shells = { {
 						AP_cap_caliber = 20,
@@ -1369,9 +1397,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	HumanFM = { "F/A-18C", "FA18C",
 		center_of_mass = { -1.681, -0.03348, 0 },
 		config_path = "./Mods/aircraft/FA-18C/FM/config.lua",
-		debugLine = "{M}:%1.3f {KCAS}:%4.1f {KEAS}:%4.1f {KTAS}:%4.1f {IndAS}:%4.1f {IAS}:%4.1f {AoA_U}:%5.1f {AoA}:%5.1f {AoS}:%5.1f {ny}:%5.2f {nxV}:%5.2f {wx}:%6.1f {wy}:%6.1f {wz}:%6.1f {Lstab}:%5.1f {Rud}:%5.1f {mass}:%5.1f {mass_lb}:%5.1f {x}:%2.3f {X}:%2.2f {dPsi}:%.1f",
+		debugLine = "{M}:%1.3f {KCAS}:%4.1f {KEAS}:%4.1f {KTAS}:%4.1f {IndAS}:%4.1f {IAS}:%4.1f {AoA_U}:%5.1f {AoA}:%5.1f {AoS}:%5.1f {ny}:%5.2f {nxV}:%5.2f {wx}:%6.1f {wy}:%6.1f {wz}:%6.1f {Lstab}:%5.1f {Rud}:%5.1f {mass}:%5.1f {mass_lb}:%5.1f {x}:%2.3f {X}:%2.2f  {dPsi}:%.1f",
 		disable_built_in_oxygen_system = true,
 		flaps45WakeLossCoefGround = 1,
+		imgui_permissions = {
+			Mass_and_CoG = false,
+			Selection = false
+		},
 		major_shake_ampl = 0.25,
 		minor_shake_ampl = 0.07,
 		moment_of_inertia = { 31100, 192030, 165930, 3200 },
@@ -2129,6 +2161,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			arg = 311,
 			arg_value = 0,
 			connector = "Pylon4",
+			eject_dir = { 0, -0.9085, -0.4179 },
 			mass = 29.5,
 			use_full_connector_position = true
 		}, {
@@ -2247,6 +2280,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			arg = 313,
 			arg_value = 0,
 			connector = "Pylon6",
+			eject_dir = { 0, -0.9085, 0.4179 },
 			mass = 29.5,
 			use_full_connector_position = true
 		}, {
@@ -2593,17 +2627,26 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			dir = { 0, -1, 0 },
 			pos = { -1.19, -0.71, 0.843 }
 		} },
+	connectDatalinks = { "Link16" },
 	country_of_origin = "USA",
 	crew_members = { {
 			bailout_arg = -1,
 			canopy_pos = { 0, 0, 0 },
-			drop_canopy_name = 302,
-			ejection_seat_name = 17,
-			pos = { 3.755, 0.4, 0 },
+			drop_canopy_name = 303,
+			ejection_seat_connector = "center",
+			ejection_seat_name = 302,
+			pilot_name = 304,
+			pos = { 3.5, 0.578, 0 },
 			role = "pilot",
-			role_display_name = "Pilot"
+			role_display_name = "Pilot",
+			skeleton_crew_class_name = "woCharacterPilot",
+			skeleton_crew_connector = "seat_pilot",
+			skeleton_crew_unit_name = "Crew FA-18C"
 		} },
 	dataCartridge = true,
+	datalinks = {
+		Link16 = "CoreMods\\aircraft\\FA-18C\\Datalinks\\Link16.lua"
+	},
 	detection_range_max = 160,
 	effects_presets = { {
 			effect = "APU_STARTUP_BLAST",
@@ -2624,6 +2667,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			smokiness_level = 0.05
 		}, {
 			afterburner_effect_texture = "afterburner_f-18c",
+			afterburner_light_color = { 1, 1, 1 },
 			diameter = 0.765,
 			elevation = -1.5,
 			exhaust_length_ab = 4,
@@ -2724,7 +2768,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					}, {
 						C = { { "Arg", 522, "set", 0.01 }, { "Arg", 521, "set", 0 } }
 					} },
-				Transition = { "Neutral", "GestureSaluteLeft" }
+				Transition = { "Any", "GestureSaluteLeft" }
 			}, {
 				Sequence = { {
 						C = { { "Arg", 39, "to", 0, "speed", 0.5 }, { "Arg", 99, "to", 0, "speed", 0.5 }, { "Arg", 500, "to", 0, "speed", 0.5 }, { "Arg", 501, "to", 0, "speed", 0.5 }, { "Arg", 502, "set", 0 } }
@@ -2735,7 +2779,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					}, {
 						C = { { "Arg", 522, "set", 0.01 }, { "Arg", 520, "set", 0 } }
 					} },
-				Transition = { "Neutral", "GestureSaluteRight" }
+				Transition = { "Any", "GestureSaluteRight" }
 			}, {
 				Sequence = { {
 						C = { { "Arg", 522, "to", 1, "speed", 0.33 } }

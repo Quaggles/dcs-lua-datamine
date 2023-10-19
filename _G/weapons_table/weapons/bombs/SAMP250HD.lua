@@ -11,7 +11,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP250HD"] = {
 		_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
 		_origin = "AircraftWeaponPack",
 		arming_delay = {
-			delay_time = 3.3,
+			delay_time = 0.8,
 			enabled = true
 		},
 		arming_vane = {
@@ -37,12 +37,16 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP250HD"] = {
 			wind_sigma = 4,
 			wind_time = 1000
 		},
+		fuze = {
+			default_arm_delays = { 3.3 },
+			is_vane_anim_required = true
+		},
 		hMax = 2000,
 		hMin = 50,
 		mass = 269,
 		model = "SAMP_250R",
 		name = "SAMP250HD",
-		scheme = "schemes/bombs/bomb-parashute.sch",
+		scheme = "schemes/bombs/bomb_parachute_v2.sch",
 		shape_table_data = { {
 				file = "SAMP_250R",
 				index = "Redacted",
@@ -72,6 +76,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP250HD"] = {
 	},
 	cx = { 1, 0.29, 0.71, 0.14, 1.28 },
 	display_name = "SAMP-250 HD",
+	display_name_short = "SAMP-250 HD",
 	mass = 269,
 	model = "SAMP_250R",
 	name = "SAMP250HD",
@@ -81,7 +86,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP250HD"] = {
 		_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
 		_origin = "AircraftWeaponPack",
 		arming_delay = {
-			delay_time = 3.3,
+			delay_time = 0.8,
 			enabled = true
 		},
 		arming_vane = {
@@ -107,12 +112,16 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP250HD"] = {
 			wind_sigma = 4,
 			wind_time = 1000
 		},
+		fuze = {
+			default_arm_delays = { 3.3 },
+			is_vane_anim_required = true
+		},
 		hMax = 2000,
 		hMin = 50,
 		mass = 269,
 		model = "SAMP_250R",
 		name = "SAMP250HD",
-		scheme = "schemes/bombs/bomb-parashute.sch",
+		scheme = "schemes/bombs/bomb_parachute_v2.sch",
 		shape_table_data = { {
 				file = "SAMP_250R",
 				index = "Redacted",

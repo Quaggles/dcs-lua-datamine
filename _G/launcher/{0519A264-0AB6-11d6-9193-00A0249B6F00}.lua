@@ -5,8 +5,13 @@ _G["launcher"]["{0519A264-0AB6-11d6-9193-00A0249B6F00}"] = {
 			ShapeName = "Fantasm"
 		} },
 	Picture = "L081.png",
+	ShapeName = "Fantasm",
 	Weight = 300,
-	_file = "Scripts/Database/db_weapons_data.lua",
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/pods.lua",
+	_origin = "AircraftWeaponPack",
+	_unique_resource_name = "weapons.containers.Fantasm",
 	attribute = { 4, 15, 44, "Redacted" },
-	displayName = "L-081 Fantasmagoria ELINT pod"
+	category = 6,
+	displayName = "L-081 Fantasmagoria ELINT pod",
+	name = "Fantasm"
 }

@@ -69,6 +69,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		max_vert_obstacle = 0.5,
 		min_turn_radius = 7.15,
 		r_max = 0.46,
+		trace_width = 0.212,
 		width = 1.83
 	},
 	driverCockpit = "DriverCockpit/DriverCockpit",

@@ -92,6 +92,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Durandal"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "BLU-107/B Durandal",
+	display_name_short = "BLU-107/B Durandal",
 	mass = 219,
 	model = "Durandal",
 	name = "Durandal",

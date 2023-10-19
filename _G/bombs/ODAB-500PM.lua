@@ -6,6 +6,7 @@ _G["bombs"]["#Index"] = {
 	_file = "./CoreMods/aircraft/MiG-21BIS/Entry/Aw",
 	_origin = "MiG-21Bis AI by Magnitude 3 LLC",
 	display_name = "ODAB-500PM - 525 kg, bomb, parachute, simulated aerosol",
+	display_name_short = "ODAB-500PM - 525 kg, bomb, parachute, simulated aerosol",
 	hMax = 15000,
 	hMin = 200,
 	mass = 520,

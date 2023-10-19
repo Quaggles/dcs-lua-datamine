@@ -47,13 +47,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[35] = {
 			args = { 67 },
-			critical_damage = 20,
-			deps_cells = { 25, 37, 11, 17 }
+			critical_damage = 10,
+			deps_cells = { 25, 37 }
 		},
 		[36] = {
 			args = { 68 },
-			critical_damage = 20,
-			deps_cells = { 26, 38, 12, 18 }
+			critical_damage = 10,
+			deps_cells = { 26, 38 }
 		},
 		[37] = {
 			args = { 55 },

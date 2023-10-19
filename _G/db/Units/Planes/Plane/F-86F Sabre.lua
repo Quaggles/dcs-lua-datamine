@@ -17,12 +17,20 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 65, 147 },
 			critical_damage = 1
 		},
+		[0] = {
+			args = { 146 },
+			critical_damage = 3
+		},
 		[9] = {
 			args = { 154 },
 			critical_damage = 3
 		},
 		[10] = {
 			args = { 153 },
+			critical_damage = 3
+		},
+		[11] = {
+			args = { 167 },
 			critical_damage = 3
 		},
 		[19] = {
@@ -64,12 +72,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[35] = {
 			args = { 225 },
 			critical_damage = 7,
-			deps_cells = { 29, 23, 25, 37, 86 }
+			deps_cells = { 29, 23, 25, 37 }
 		},
 		[36] = {
 			args = { 215 },
 			critical_damage = 7,
-			deps_cells = { 30, 24, 26, 38, 87 }
+			deps_cells = { 30, 24, 26, 38 }
 		},
 		[37] = {
 			args = { 227 },
@@ -155,13 +163,73 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 152 },
 			critical_damage = 3
 		},
-		[86] = {
-			args = { 308, 309, 310, 311 },
-			critical_damage = 2
+		[83] = {
+			args = { 134 },
+			critical_damage = 3
 		},
-		[87] = {
-			args = { 312, 313, 314, 315 },
-			critical_damage = 2
+		[84] = {
+			args = { 136 },
+			critical_damage = 3
+		},
+		[85] = {
+			args = { 135 },
+			critical_damage = 3
+		},
+		[137] = {
+			args = { 265, 134 },
+			critical_damage = 1
+		},
+		[138] = {
+			args = { 267, 136 },
+			critical_damage = 1
+		},
+		[139] = {
+			args = { 266, 135 },
+			critical_damage = 1
+		},
+		cell_indices = {
+			AILERON_L = 25,
+			AILERON_R = 26,
+			AIR_BRAKE_L = 19,
+			AIR_BRAKE_R = 20,
+			COCKPIT = 3,
+			ELEVATOR_L_IN = 51,
+			ELEVATOR_L_OUT = 49,
+			ELEVATOR_R_IN = 52,
+			ELEVATOR_R_OUT = 50,
+			ENGINE = 11,
+			FIN_L_BOTTOM = 43,
+			FIN_L_CENTER = 41,
+			FIN_L_TOP = 39,
+			FLAP_L = 37,
+			FLAP_R = 38,
+			FUSELAGE_BOTTOM = 82,
+			FUSELAGE_LEFT_SIDE = 9,
+			FUSELAGE_RIGHT_SIDE = 10,
+			GEAR_DOOR_F = 137,
+			GEAR_DOOR_L = 138,
+			GEAR_DOOR_R = 139,
+			NOSE_BOTTOM = 59,
+			NOSE_CENTER = 0,
+			NOSE_LEFT_SIDE = 1,
+			NOSE_RIGHT_SIDE = 2,
+			RUDDER = 53,
+			STABILIZER_L_IN = 47,
+			STABILIZER_L_OUT = 45,
+			STABILIZER_R_IN = 48,
+			STABILIZER_R_OUT = 46,
+			TAIL_BOTTOM = 58,
+			TAIL_LEFT_SIDE = 56,
+			TAIL_RIGHT_SIDE = 57,
+			WHEEL_F = 83,
+			WHEEL_L = 84,
+			WHEEL_R = 85,
+			WING_L_CENTER = 29,
+			WING_L_IN = 35,
+			WING_L_OUT = 23,
+			WING_R_CENTER = 30,
+			WING_R_IN = 36,
+			WING_R_OUT = 24
 		}
 	},
 	DamageParts = { "F-86F-oblomok-wing-R", "F-86F-oblomok-wing-L",
@@ -173,7 +241,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		WorldID = 11
 	},
 	DisplayName = "F-86F",
-	EmptyWeight = 5046,
+	EmptyWeight = 5355.8,
 	Failures = { {
 			enable = false,
 			hh = 0,
@@ -755,7 +823,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	},
 	IR_emission_coeff = 0.25,
 	IR_emission_coeff_ab = 0.25,
-	M_empty = 5046,
+	M_empty = 5355.8,
 	M_fuel_max = 1282,
 	M_max = 9349,
 	M_nominal = 7113,

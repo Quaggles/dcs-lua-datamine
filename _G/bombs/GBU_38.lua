@@ -12,6 +12,7 @@ _G["bombs"]["#Index"] = {
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/JDAM.lua",
 	_origin = "AircraftWeaponPack",
 	display_name = "GBU-38(V)1/B",
+	display_name_short = "GBU-38(V)1/B",
 	hMax = 15000,
 	hMin = 300,
 	mass = 253.1,

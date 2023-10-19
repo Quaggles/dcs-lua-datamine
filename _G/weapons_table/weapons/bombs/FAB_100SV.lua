@@ -70,6 +70,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB_100SV"] = {
 	},
 	cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 	display_name = "FAB-100SV",
+	display_name_short = "FAB-100SV",
 	mass = 100,
 	model = "i16_FAB-100SV",
 	name = "FAB_100SV",

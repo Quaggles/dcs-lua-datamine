@@ -47,6 +47,7 @@ _G["rockets"]["#Index"] = {
 	category = 2,
 	class_name = "wAmmunitionSelfHoming",
 	display_name = "BK90 MJ2",
+	display_name_short = "BK90 MJ2",
 	fm = {
 		A = 0.13,
 		I = 270,

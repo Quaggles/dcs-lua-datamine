@@ -5,6 +5,7 @@ _G["bombs"]["#Index"] = {
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/illumination_bombs.lua",
 	_origin = "AircraftWeaponPack",
 	display_name = "SAB-100MN",
+	display_name_short = "SAB-100MN",
 	hMax = 7000,
 	hMin = 400,
 	mass = 106,

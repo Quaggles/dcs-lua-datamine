@@ -51,9 +51,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							ammo_capacity = 16,
 							name_ammunition = "9M27F",
 							reload_time = 840,
-							rocket_name = "weapons.nurs.URAGAN_9M27F",
 							shot_delay = 0.1,
-							type_ammunition = { 4, 7, 33, "Redacted" }
+							type_ammunition = "weapons.nurs.URAGAN_9M27F"
 						} },
 					barrels_reload_type = 3,
 					customViewPoint = { "genericMLRS", { -3, 0.3, -2 },
@@ -110,6 +109,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	driverViewPoint = { 3.33, 2.3, -0.74 },
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = { 0.459, 1, 1,
+			[0] = 0.149,
+			[100] = 1
+		}
+	},
 	mapclasskey = "P0091000209",
 	sensor = {
 		height = 3.05

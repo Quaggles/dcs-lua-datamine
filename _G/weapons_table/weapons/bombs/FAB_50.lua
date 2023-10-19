@@ -69,6 +69,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB_50"] = {
 	},
 	cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 	display_name = "FAB-50 - 50kg GP Bomb LD",
+	display_name_short = "FAB-50 - 50kg GP Bomb LD",
 	mass = 50,
 	model = "fab50_40x",
 	name = "FAB_50",

@@ -1,5 +1,70 @@
 _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	Countries = { "USA", "Argentina" },
+	DM = { {
+			area_arg = 70,
+			area_fire = {
+				pos = { 6.76, 0, 2.95 },
+				size = 0.7
+			},
+			area_life = 40,
+			area_name = "DMG-CONNING-TOWER"
+		}, {
+			area_arg = 71,
+			area_fire = {
+				pos = { 23, 0, 2.95 },
+				size = 0.7
+			},
+			area_life = 40,
+			area_name = "PALUBA-FWD"
+		}, {
+			area_arg = 72,
+			area_fire = {
+				pos = { -18, 0, 2.95 },
+				size = 0.7
+			},
+			area_life = 40,
+			area_name = "PALUBA-AFT"
+		}, {
+			area_arg = 73,
+			area_fire = {
+				pos = { 33.9, 0, 0.3 },
+				size = 0.8
+			},
+			area_life = 60,
+			area_name = "DMG-BOW"
+		}, {
+			area_arg = 74,
+			area_fire = {
+				pos = { -3.4, 0, 0.3 },
+				size = 0.8
+			},
+			area_life = 60,
+			area_name = "DMG-HULL-MIDSHIPS"
+		}, {
+			area_arg = 75,
+			area_fire = {
+				pos = { 35.3, 0, 0.3 },
+				size = 0.8
+			},
+			area_life = 60,
+			area_name = "DMG-STERN"
+		}, {
+			area_arg = 76,
+			area_fire = {
+				pos = { -3.4, 0, 0 },
+				size = 1.2
+			},
+			area_life = 60,
+			area_name = "DMG-LOWER-HULL"
+		}, {
+			area_arg = 77,
+			area_fire = {
+				pos = { -3.4, 0, 0.3 },
+				size = 1.2
+			},
+			area_life = 70,
+			area_name = "SantaFe_Destroyed"
+		} },
 	DeckLevel = 3,
 	DisplayName = "ARA Santa Fe S-21",
 	Gamma_max = 0.25,
@@ -184,7 +249,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	economy_distance = 72000000,
 	economy_velocity = 5.15,
 	enablePlayerCanDrive = false,
-	life = 3,
+	life = 100,
 	mapclasskey = "P0091000038",
 	mass = 5300000,
 	maxPeriscopeDepth = 12,

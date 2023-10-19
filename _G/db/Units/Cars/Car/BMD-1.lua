@@ -21,7 +21,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	ThreatRange = 3000,
 	Transportable = {
-		size = 8700
+		size = 8700,
+		valide = true
 	},
 	WS = { {
 			LN = { {

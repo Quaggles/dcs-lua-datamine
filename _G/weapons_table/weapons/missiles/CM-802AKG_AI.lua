@@ -104,6 +104,7 @@ _G["weapons_table"]["weapons"]["missiles"]["CM-802AKG_AI"] = {
 			no_alg_vel_k = 10,
 			stab_vel = 237.5
 		},
+		display_name_short = "CM802AKG (DIS) for AI",
 		final_autopilot = {
 			J_Angle_K = 0.18,
 			J_Angle_W = 0.8,
@@ -225,6 +226,7 @@ _G["weapons_table"]["weapons"]["missiles"]["CM-802AKG_AI"] = {
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	display_name = "CM802AKG (DIS) for AI",
+	display_name_short = "CM802AKG (DIS) for AI",
 	mass = 715,
 	model = "cm802akg",
 	name = "CM-802AKG_AI",
@@ -327,6 +329,7 @@ _G["weapons_table"]["weapons"]["missiles"]["CM-802AKG_AI"] = {
 			no_alg_vel_k = 10,
 			stab_vel = 237.5
 		},
+		display_name_short = "CM802AKG (DIS) for AI",
 		final_autopilot = {
 			J_Angle_K = 0.18,
 			J_Angle_W = 0.8,

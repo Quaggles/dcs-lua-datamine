@@ -78,6 +78,7 @@ _G["weapons_table"]["weapons"]["missiles"]["YJ-84"] = {
 			boost_start = 0.001,
 			march_start = 0.01
 		},
+		display_name_short = "YJ-84",
 		engine_control = {
 			K = 300,
 			Kd = 0.01,
@@ -200,6 +201,7 @@ _G["weapons_table"]["weapons"]["missiles"]["YJ-84"] = {
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	display_name = "YJ-84",
+	display_name_short = "YJ-84",
 	encyclopediaAnimation = {
 		args = { 1 }
 	},
@@ -279,6 +281,7 @@ _G["weapons_table"]["weapons"]["missiles"]["YJ-84"] = {
 			boost_start = 0.001,
 			march_start = 0.01
 		},
+		display_name_short = "YJ-84",
 		engine_control = {
 			K = 300,
 			Kd = 0.01,

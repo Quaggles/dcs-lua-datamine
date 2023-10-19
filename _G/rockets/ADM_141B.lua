@@ -60,6 +60,7 @@ _G["rockets"]["#Index"] = {
 		turn_point_trigger_dist = 100
 	},
 	display_name = "ADM-141B",
+	display_name_short = "ADM-141B",
 	engine_control = {
 		K = 0,
 		Kd = 0,

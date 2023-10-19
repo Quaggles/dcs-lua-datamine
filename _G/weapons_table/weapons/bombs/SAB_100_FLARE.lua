@@ -83,6 +83,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100_FLARE"] = {
 	},
 	cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 	display_name = "SAB-100 Flare",
+	display_name_short = "SAB-100 Flare",
 	mass = 5.21,
 	model = "luu-2",
 	name = "SAB_100_FLARE",

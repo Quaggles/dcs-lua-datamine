@@ -191,13 +191,13 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						} },
 					PL = { {
 							ammo_capacity = 24,
-							reload_time = 360,
+							portion_reload_time = 15,
 							shell_name = {},
 							virtualStwID = 1
 						}, {
 							ammo_capacity = 12,
 							automaticLoader = false,
-							reload_time = 180,
+							portion_reload_time = 15,
 							shell_name = { "M62_APC" },
 							shot_delay = 15,
 							virtualStwID = 2
@@ -210,11 +210,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					BR = { {} },
 					PL = { {
 							ammo_capacity = 6,
-							reload_time = 90,
 							shell_name = { "M42A1_HE" }
 						}, {
 							ammo_capacity = 12,
-							reload_time = 180,
 							shell_name = { "M42A1_HE" }
 						} },
 					distanceMax = 14000,

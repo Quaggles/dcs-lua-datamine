@@ -73,6 +73,7 @@ _G["weapons_table"]["weapons"]["bombs"]["ODAB-500PM"] = {
 	},
 	cx = { 0.1, 0.39, 0.6, 0.768, 1.31 },
 	display_name = "ODAB-500PM - 525 kg, bomb, parachute, simulated aerosol",
+	display_name_short = "ODAB-500PM - 525 kg, bomb, parachute, simulated aerosol",
 	mass = 520,
 	model = "ODAB-500PM",
 	name = "ODAB-500PM",

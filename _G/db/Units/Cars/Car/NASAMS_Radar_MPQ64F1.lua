@@ -265,7 +265,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		},
 		maxTargetDetectionRange = 60000,
 		radar_rotation_type = 0,
-		radar_type = 102
+		radar_type = 102,
+		searchRadarFrequencies = { { 8000000000, 12000000000 } }
 	},
 	Waypoint_Custom_Panel = true,
 	_file = "./CoreMods/tech/TechWeaponPack/Database/db_units_cars.lua",
@@ -285,7 +286,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	chassis = {},
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000083",
-	radar_rotation_period = 4,
+	radar_rotation_period = -2,
 	sensor = {
 		height = 2.7,
 		max_alt_finding_target = 17000,
@@ -312,7 +313,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "NASAMS_Radar_MPQ64F1",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0.003, 0.0031 }, { 0, 0 }, { 0, 0 }, { 0.2, 0.00026666666666667 } }
+			coeffs = { { 0.031, 0.0022 }, { 0.003, 0.0031 }, { 0.205, 0.005, 2 }, { 0.001, 0.17 }, { 0.2, 0.00026666666666667 } }
 		},
 		fire_pos = {},
 		shape = "NASAMS_Radar_MPQ64F1",

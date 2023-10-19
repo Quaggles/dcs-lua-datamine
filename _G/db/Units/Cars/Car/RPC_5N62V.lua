@@ -76,7 +76,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			pos = { 0, 0, 0 }
 		},
 		maxTargetDetectionRange = 400000,
-		radar_type = 103
+		radar_type = 103,
+		searchRadarFrequencies = { { 1550000000, 3900000000 } }
 	},
 	Waypoint_Custom_Panel = true,
 	_file = "./CoreMods/tech/TechWeaponPack/Database/db_units_cars.lua",
@@ -119,7 +120,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "RPC_5N62V",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0, 0 }, { 0, 0 }, { 0, 0 }, { 0.2, 0.00026666666666667 } }
+			coeffs = { { 0.031, 0.0022 }, { 0, 0 }, { 0.49, 0.005, 1.7 }, { 0.001, 0.17 }, { 0.2, 0.00026666666666667 } }
 		},
 		fire_pos = { 0, 0.6, 0 },
 		fire_size = 0.5,

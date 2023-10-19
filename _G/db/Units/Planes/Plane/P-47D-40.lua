@@ -4174,7 +4174,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				Sequence = { {
 						C = { { "PosType", 0 }, { "Arg", 0, "to", 0.441, "speed", 2, "sign", -1 } }
 					} },
-				Transition = { "Extend", "Collapse" }
+				Transition = { "Any", "Collapse" }
 			} },
 		Door0 = { {
 				Flags = { "Reversible" },
@@ -4324,7 +4324,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				Sequence = { {
 						C = { { "VelType", 5 }, { "PosType", 6 }, { "Arg", 5, "to", 0.5, "speed", 2, "sign", -1 } }
 					} },
-				Transition = { "Extend", "Collapse" }
+				Transition = { "Any", "Collapse" }
 			} },
 		RightStrut = { {
 				Flags = { "Reversible" },
@@ -4356,7 +4356,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				Sequence = { {
 						C = { { "VelType", 3 }, { "PosType", 7 }, { "Arg", 3, "to", 0.5, "speed", 2, "sign", -1 } }
 					} },
-				Transition = { "Extend", "Collapse" }
+				Transition = { "Any", "Collapse" }
 			} }
 	},
 	net_animation = { 182, 184, 188, 278, 279 },

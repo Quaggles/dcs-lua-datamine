@@ -1,66 +1,103 @@
 _G["launcher"]["GBU-38*16"] = {
 	CLSID = "GBU-38*16",
-	Count = 16,
+	Count = 28,
 	Elements = { {
-			Position = { -0.9, 0.651, -0.31 }
+			IsAdapter = true,
+			ShapeName = "B_1_B_28-store_Conventional_Bomb_Module"
 		}, {
-			Position = { 0.9, 0.651, 0 }
+			ShapeName = "GBU-38",
+			connector_name = "AttachPoint012"
 		}, {
-			Position = { -0.9, 0.651, 0.31 }
+			ShapeName = "GBU-38",
+			connector_name = "AttachPoint017"
 		}, {
-			Position = { -0.9, 0.434, -0.465 }
+			ShapeName = "GBU-38",
+			connector_name = "AttachPoint011"
 		}, {
-			Position = { 0.9, 0.434, -0.155 }
+			ShapeName = "GBU-38",
+			connector_name = "AttachPoint016"
 		}, {
-			Position = { -0.9, 0.434, 0.155 }
+			ShapeName = "GBU-38",
+			connector_name = "AttachPoint010"
 		}, {
-			Position = { 0.9, 0.434, 0.465 }
+			ShapeName = "GBU-38",
+			connector_name = "AttachPoint015"
 		}, {
-			Position = { -0.9, 0.217, -0.62 }
+			ShapeName = "GBU-38",
+			connector_name = "AttachPoint014"
 		}, {
-			Position = { 0.9, 0.217, -0.31 }
+			ShapeName = "GBU-38",
+			connector_name = "AttachPoint013"
 		}, {
-			Position = { -0.9, 0.217, 0 }
+			ShapeName = "GBU-38",
+			connector_name = "AttachPoint009"
 		}, {
-			Position = { 0.9, 0.217, 0.31 }
+			ShapeName = "GBU-38",
+			connector_name = "AttachPoint025"
 		}, {
-			Position = { -0.9, 0.217, 0.62 }
+			ShapeName = "GBU-38",
+			connector_name = "AttachPoint008"
 		}, {
-			Position = { 0.9, 1.1102230246252e-16, -0.465 }
+			ShapeName = "GBU-38",
+			connector_name = "AttachPoint024"
 		}, {
-			Position = { -0.9, 1.1102230246252e-16, -0.155 }
+			ShapeName = "GBU-38",
+			connector_name = "AttachPoint007"
 		}, {
-			Position = { 0.9, 1.1102230246252e-16, 0.155 }
+			ShapeName = "GBU-38",
+			connector_name = "AttachPoint023"
 		}, {
-			Position = { -0.9, 1.1102230246252e-16, 0.465 }
+			ShapeName = "GBU-38",
+			connector_name = "AttachPoint006"
 		}, {
-			Position = { 0.9, -0.217, -0.62 }
+			ShapeName = "GBU-38",
+			connector_name = "AttachPoint027"
 		}, {
-			Position = { -0.9, -0.217, -0.31 }
+			ShapeName = "GBU-38",
+			connector_name = "AttachPoint005"
 		}, {
-			Position = { 0.9, -0.217, 0 }
+			ShapeName = "GBU-38",
+			connector_name = "AttachPoint026"
 		}, {
-			Position = { -0.9, -0.217, 0.31 }
+			ShapeName = "GBU-38",
+			connector_name = "AttachPoint004"
 		}, {
-			Position = { 0.9, -0.217, 0.62 }
+			ShapeName = "GBU-38",
+			connector_name = "AttachPoint028"
 		}, {
-			Position = { -0.9, -0.434, -0.465 }
+			ShapeName = "GBU-38",
+			connector_name = "AttachPoint003"
 		}, {
-			Position = { 0.9, -0.434, -0.155 }
+			ShapeName = "GBU-38",
+			connector_name = "AttachPoint022"
 		}, {
-			Position = { -0.9, -0.434, 0.155 }
+			ShapeName = "GBU-38",
+			connector_name = "AttachPoint002"
 		}, {
-			Position = { 0.9, -0.434, 0.465 }
+			ShapeName = "GBU-38",
+			connector_name = "AttachPoint021"
 		}, {
-			Position = { 0.9, -0.651, -0.31 }
+			ShapeName = "GBU-38",
+			connector_name = "AttachPoint001"
 		}, {
-			Position = { -0.9, -0.651, 0 }
+			ShapeName = "GBU-38",
+			connector_name = "AttachPoint020"
 		}, {
-			Position = { 0.9, -0.651, 0.31 }
+			ShapeName = "GBU-38",
+			connector_name = "AttachPoint019"
+		}, {
+			ShapeName = "GBU-38",
+			connector_name = "AttachPoint018"
 		} },
+	ForceVisibility = true,
 	Picture = "GBU38.png",
-	Weight = 3856,
-	_file = "Scripts/Database/db_weapons_data.lua",
-	attribute = { 4, 5, 36, "Redacted" },
-	displayName = "16 x GBU-38 - JDAM, 500lb GPS Guided Bombs"
+	Weight = 8522.2,
+	Weight_Empty = 1435.4,
+	_file = "./CoreMods/tech/HeavyMetalCore/Database/Aircraft/B_1B.lua",
+	_origin = "HeavyMetalCore",
+	attribute = { 4, 5, 32, "Redacted" },
+	category = 1,
+	displayName = "28 x GBU-38 - JDAM, 500lb GPS Guided Bombs",
+	name = "GBU-38*16",
+	wsTypeOfWeapon = { 4, 5, 36, "Redacted" }
 }

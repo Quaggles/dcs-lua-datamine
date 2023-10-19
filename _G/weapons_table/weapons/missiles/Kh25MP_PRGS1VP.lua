@@ -66,6 +66,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Kh25MP_PRGS1VP"] = {
 			boost_start = 0,
 			march_start = 2
 		},
+		display_name_short = "Kh-25MP (AS-12 Kegler)",
 		fm = {
 			A = 0.36,
 			I = 353.65833333333,
@@ -169,6 +170,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Kh25MP_PRGS1VP"] = {
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	display_name = "Kh-25MP (AS-12 Kegler)",
+	display_name_short = "Kh-25MP (AS-12 Kegler)",
 	mass = 310,
 	model = "X-25MP",
 	name = "Kh25MP_PRGS1VP",
@@ -234,6 +236,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Kh25MP_PRGS1VP"] = {
 			boost_start = 0,
 			march_start = 2
 		},
+		display_name_short = "Kh-25MP (AS-12 Kegler)",
 		fm = {
 			A = 0.36,
 			I = 353.65833333333,

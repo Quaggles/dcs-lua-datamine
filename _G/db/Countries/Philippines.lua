@@ -732,6 +732,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "Mirage-F1EE"
 				}, {
+					Name = "Mirage-F1BE"
+				}, {
 					Name = "Yak-52"
 				}, {
 					Name = "Ju-88A4"

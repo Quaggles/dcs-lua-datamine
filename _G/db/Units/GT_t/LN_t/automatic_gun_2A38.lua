@@ -20,5 +20,6 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["automatic_gun_2A38"] = {
 	reactionTime = 3,
 	reflection_limit = 0.1,
 	sensor = {},
-	type = 3
+	type = 3,
+	useTargetAccelInSight = true
 }

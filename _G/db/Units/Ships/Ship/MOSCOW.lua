@@ -1016,6 +1016,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		},
 		maxTargetDetectionRange = 500000,
 		radar_type = 102,
+		searchRadarFrequencies = { { 2000000000, 2500000000 }, { 8000000000, 12000000000 } },
 		searchRadarMaxElevation = 0.69813170079773
 	},
 	Waypoint_Custom_Panel = true,

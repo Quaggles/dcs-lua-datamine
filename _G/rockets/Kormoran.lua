@@ -29,6 +29,7 @@ _G["rockets"]["#Index"] = {
 	_unique_resource_name = "weapons.missiles.Kormoran",
 	add_attributes = { "Cruise missiles" },
 	display_name = "AS.34 Kormoran",
+	display_name_short = "AS.34 Kormoran",
 	exhaust = { 1, 1, 1, 1 },
 	name = "Kormoran",
 	sigma = { 10, 10, 10 },

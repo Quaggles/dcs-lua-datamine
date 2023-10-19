@@ -75,6 +75,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M57"] = {
 	},
 	cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 	display_name = "AN-M57",
+	display_name_short = "AN-M57",
 	mass = 113,
 	model = "AN-M57",
 	name = "AN_M57",

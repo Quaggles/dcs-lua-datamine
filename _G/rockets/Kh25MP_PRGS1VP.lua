@@ -63,6 +63,7 @@ _G["rockets"]["#Index"] = {
 		march_start = 2
 	},
 	display_name = "Kh-25MP (AS-12 Kegler)",
+	display_name_short = "Kh-25MP (AS-12 Kegler)",
 	fm = {
 		A = 0.36,
 		I = 353.65833333333,

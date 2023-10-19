@@ -42,9 +42,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					PL = { {
 							ammo_capacity = 12,
 							reload_time = 2160,
-							rocket_name = "weapons.nurs.SMERCH_9M55F",
 							shot_delay = 0.1,
-							type_ammunition = { 4, 7, 33, "Redacted" }
+							type_ammunition = "weapons.nurs.SMERCH_9M55F"
 						} },
 					barrels_reload_type = 3,
 					distanceMax = 70000,
@@ -104,6 +103,13 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	driverCockpit = "DriverCockpit/DriverCockpitWithLLTV",
 	driverViewConnectorName = { "DRIVER_POINT" },
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = { 0.396,
+			[0] = 0.125,
+			[3] = 1,
+			[9] = 0.98
+		}
+	},
 	mapclasskey = "P0091000209",
 	sensor = {
 		height = 3.05

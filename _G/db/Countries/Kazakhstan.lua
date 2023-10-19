@@ -186,6 +186,18 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "S-300PS 54K6 cp",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "S-300PS 5H63C 30H6_tr",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "S-300PS 40B6MD sr_19J6",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "SA-11 Buk SR 9S18M1",
 					in_service = 0,
 					out_of_service = 40000
@@ -331,10 +343,6 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "BTR_D",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "S-300PS 54K6 cp",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -1185,6 +1193,10 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Mirage-F1CE"
 				}, {
 					Name = "Mirage-F1EE"
+				}, {
+					Name = "Mirage-F1BE"
+				}, {
+					Name = "TF-51D"
 				}, {
 					Name = "Yak-52"
 				}, {

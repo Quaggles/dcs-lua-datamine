@@ -18,7 +18,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					depends_on_unit = { { { "Patriot ECS" } } },
 					distanceMax = 160000,
 					distanceMin = 3000,
-					max_number_of_missiles_channels = 3,
+					max_number_of_missiles_channels = 1,
 					max_trg_alt = 160000,
 					min_trg_alt = 60,
 					reactionTime = 6,
@@ -109,6 +109,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		maxTargetDetectionRange = 200000,
 		radar_rotation_type = 0,
 		radar_type = 102,
+		searchRadarFrequencies = { { 4480000000, 5450000000 } },
 		searchRadarMaxElevation = 1.4835298641952
 	},
 	Waypoint_Custom_Panel = true,
@@ -138,7 +139,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "Patriot str",
 	visual = {
 		IR = {
-			coeffs = { { 0.035, 0.0012 }, { 0.0069, 0.0036 }, { 0, 0 }, { 0.001, 0.17 }, { 0.3, 0.0002 } }
+			coeffs = { { 0.035, 0.0012 }, { 0.0069, 0.0036 }, { 0.31, 0.0044, 1.425 }, { 0.001, 0.17 }, { 0.3, 0.0002 } }
 		},
 		agony_explosion_size = 2,
 		fire_pos = { -0.5, 1.8, 0 },

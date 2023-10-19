@@ -22,23 +22,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	WS = { {
 			LN = { {
 					BR = { {
-							connector_name = "POINT_MGUN_01",
-							pos = {}
-						} },
-					PL = { {
-							ammo_capacity = 2000,
-							portionAmmoCapacity = 2000,
-							reload_time = 600,
-							shell_name = {},
-							switch_on_delay = 0.1
-						} },
-					beamWidth = 0.017453292519943,
-					distanceMaxForFCS = 2000,
-					fireAnimationArgument = 45,
-					secondary = true,
-					sensor = {}
-				}, {
-					BR = { {
 							connector_name = "POINT_GUN_01",
 							recoilArgument = 26,
 							recoilTime = 0.1
@@ -55,6 +38,23 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					sensor = {},
 					sightIndicationMode = 1,
 					sightMasterMode = 1
+				}, {
+					BR = { {
+							connector_name = "POINT_MGUN_01",
+							pos = {}
+						} },
+					PL = { {
+							ammo_capacity = 2000,
+							portionAmmoCapacity = 2000,
+							reload_time = 600,
+							shell_name = {},
+							switch_on_delay = 0.1
+						} },
+					beamWidth = 0.017453292519943,
+					distanceMaxForFCS = 2000,
+					fireAnimationArgument = 45,
+					secondary = true,
+					sensor = {}
 				}, {
 					BR = { {
 							connector_name = "POINT_GUN",
@@ -150,7 +150,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		smoke = { "SMOKE_03", "SMOKE_04", "SMOKE_02", "SMOKE_05", "SMOKE_01", "SMOKE_06" }
 	},
 	Waypoint_Custom_Panel = true,
-	airWeaponDist = 2000,
+	airWeaponDist = 1000,
 	animation_arguments = {},
 	armour_scheme = {
 		hull_azimuth = { {}, {}, {} },

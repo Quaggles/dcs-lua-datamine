@@ -1,34 +1,42 @@
 _G["launcher"]["B-1B_Mk-84*8"] = {
 	CLSID = "B-1B_Mk-84*8",
 	Count = 8,
-	Elements = { {
-			Position = { 0, -0.35, 0 },
-			Rotation = { -0, 0, 0 }
+	Elements = { "_G/Pylons/B_1_B_Conventional_Rotary_Launcher.lua", {
+			ShapeName = "MK-84",
+			connector_name = "AttachPoint001"
 		}, {
-			Position = { 0, -0.24748737341529, 0.24748737341529 },
-			Rotation = { -45.003314762674, 0, 0 }
+			ShapeName = "MK-84",
+			connector_name = "AttachPoint008"
 		}, {
-			Position = { 0, -2.1431318985079e-17, 0.35 },
-			Rotation = { -90.006629525348, 0, 0 }
+			ShapeName = "MK-84",
+			connector_name = "AttachPoint007"
 		}, {
-			Position = { 0, 0.24748737341529, 0.24748737341529 },
-			Rotation = { -135.00994428802, 0, 0 }
+			ShapeName = "MK-84",
+			connector_name = "AttachPoint006"
 		}, {
-			Position = { 0, 0.35, 4.2862637970157e-17 },
-			Rotation = { -180.0132590507, 0, 0 }
+			ShapeName = "MK-84",
+			connector_name = "AttachPoint005"
 		}, {
-			Position = { 0, 0.24748737341529, -0.24748737341529 },
-			Rotation = { -225.01657381337, 0, 0 }
+			ShapeName = "MK-84",
+			connector_name = "AttachPoint004"
 		}, {
-			Position = { 0, 6.4293956955236e-17, -0.35 },
-			Rotation = { -270.01988857604, 0, 0 }
+			ShapeName = "MK-84",
+			connector_name = "AttachPoint003"
 		}, {
-			Position = { 0, -0.24748737341529, -0.24748737341529 },
-			Rotation = { -315.02320333872, 0, 0 }
+			ShapeName = "MK-84",
+			connector_name = "AttachPoint002"
 		} },
 	Picture = "mk84.png",
-	Weight = 7152,
-	_file = "Scripts/Database/db_weapons_data.lua",
-	attribute = { 4, 5, 9, "Redacted" },
-	displayName = "8 x Mk-84 - 2000lb GP Bombs LD"
+	Weight = 8024.9,
+	Weight_Empty = 760.9,
+	_file = "./CoreMods/tech/HeavyMetalCore/Database/Aircraft/B_1B.lua",
+	_origin = "HeavyMetalCore",
+	attribute = { 4, 5, 32, "Redacted" },
+	category = 1,
+	displayName = "8 x Mk-84 - 2000lb GP Bombs LD",
+	ejectPitchRate = -20,
+	ejectVelocity = 3,
+	kind_of_shipping = 0,
+	name = "B-1B_Mk-84*8",
+	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

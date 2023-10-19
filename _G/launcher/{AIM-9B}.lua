@@ -1,7 +1,7 @@
 _G["launcher"]["{AIM-9B}"] = {
 	CLSID = "{AIM-9B}",
 	Count = 1,
-	Cx_pil = 0.000458984375,
+	Cx_pil = 0.00041015625,
 	Elements = { {
 			ShapeName = "GAR-8"
 		} },

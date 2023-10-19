@@ -50,6 +50,7 @@ _G["weapons_table"]["weapons"]["missiles"]["DWS39_MJ1_MJ2"] = {
 		},
 		category = 2,
 		class_name = "wAmmunitionSelfHoming",
+		display_name_short = "DWS39 MJ1-MJ2",
 		fm = {
 			A = 0.13,
 			I = 270,
@@ -328,6 +329,7 @@ _G["weapons_table"]["weapons"]["missiles"]["DWS39_MJ1_MJ2"] = {
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	display_name = "DWS39 MJ1-MJ2",
+	display_name_short = "DWS39 MJ1-MJ2",
 	mass = 605,
 	model = "BK_90",
 	name = "DWS39_MJ1_MJ2",
@@ -377,6 +379,7 @@ _G["weapons_table"]["weapons"]["missiles"]["DWS39_MJ1_MJ2"] = {
 		},
 		category = 2,
 		class_name = "wAmmunitionSelfHoming",
+		display_name_short = "DWS39 MJ1-MJ2",
 		fm = {
 			A = 0.13,
 			I = 270,

@@ -396,7 +396,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		typename = "collection"
 	},
-	main_gear_pos = { -0.942, -2.009, 2.449 },
+	main_gear_pos = { -0.942, -1.98, 2.449 },
 	main_gear_wheel_diameter = 0.972,
 	mapclasskey = "P0091000027",
 	mechanimations = {
@@ -422,7 +422,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			DuplicateOf = "Door0"
 		}
 	},
-	nose_gear_pos = { 4.913, -2.009, 0 },
+	nose_gear_pos = { 4.913, -1.99, 0 },
 	nose_gear_wheel_diameter = 0.754,
 	radar_can_see_ground = false,
 	range = 2000,

@@ -206,17 +206,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							recoilTime = 0.4
 						} },
 					PL = { {
-							ammo_capacity = 19,
-							reload_time = 2280,
-							shell_name = {},
-							virtualStwID = 1
+							shell_name = {}
 						}, {
-							ammo_capacity = 19,
-							automaticLoader = false,
-							reload_time = 2280,
-							shell_name = { "I_Gr_33" },
-							shot_delay = 33,
-							virtualStwID = 2
+							shell_name = {}
 						} },
 					sensor = {},
 					sightIndicationMode = 1,

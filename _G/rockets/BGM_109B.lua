@@ -28,6 +28,7 @@ _G["rockets"]["#Index"] = {
 	Z_back = 0,
 	add_attributes = { "Cruise missiles" },
 	display_name = "BGM-109C Tomahawk",
+	display_name_short = "BGM-109C Tomahawk",
 	encyclopediaAnimation = {
 		args = {
 			[25] = 1

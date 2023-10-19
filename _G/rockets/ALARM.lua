@@ -29,6 +29,7 @@ _G["rockets"]["#Index"] = {
 	Y_back = -0.109,
 	Z_back = 0,
 	display_name = "ALARM",
+	display_name_short = "ALARM",
 	exhaust = { 1, 1, 1, 1 },
 	name = "ALARM",
 	sigma = { 10, 10, 10 },

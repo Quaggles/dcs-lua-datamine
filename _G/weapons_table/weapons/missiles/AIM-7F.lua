@@ -81,6 +81,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM-7F"] = {
 			march_start = 3.9
 		},
 		displayName = "AIM-7F Sparrow Semi-Active Radar",
+		display_name_short = "AIM-7F",
 		exhaust = { 0.78, 0.78, 0.78, 0.3 },
 		fm = {
 			A1trim = { 10, 10 },
@@ -201,6 +202,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM-7F"] = {
 		wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 	},
 	display_name = "AIM-7F",
+	display_name_short = "AIM-7F",
 	mass = 231,
 	model = "AIM-7F",
 	name = "AIM-7F",
@@ -281,6 +283,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM-7F"] = {
 			march_start = 3.9
 		},
 		displayName = "AIM-7F Sparrow Semi-Active Radar",
+		display_name_short = "AIM-7F",
 		exhaust = { 0.78, 0.78, 0.78, 0.3 },
 		fm = {
 			A1trim = { 10, 10 },

@@ -23,17 +23,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						} },
 					PL = { {
 							ammo_capacity = 7,
-							reload_time = 105,
+							portion_reload_time = 15,
 							shell_name = { "M322_120_AP" },
-							shot_delay = 6.5,
-							virtualStwID = 1
+							shot_delay = 6.5
 						}, {
 							ammo_capacity = 22,
 							automaticLoader = false,
-							reload_time = 330,
+							portion_reload_time = 15,
 							shell_name = { "M322_120_AP" },
-							shot_delay = 13.5,
-							virtualStwID = 2
+							shot_delay = 13.5
 						} },
 					beamWidth = 0.017453292519943,
 					combatRange = 1200,
@@ -45,14 +43,10 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					BR = { {} },
 					PL = { {
 							ammo_capacity = 3,
-							reload_time = 45,
-							shell_name = { "M339_120mm_HEAT_MP_T" },
-							virtualStwID = 1
+							shell_name = { "M339_120mm_HEAT_MP_T" }
 						}, {
 							ammo_capacity = 16,
-							reload_time = 240,
-							shell_name = { "M339_120mm_HEAT_MP_T" },
-							virtualStwID = 2
+							shell_name = { "M339_120mm_HEAT_MP_T" }
 						} },
 					beamWidth = 0.017453292519943,
 					combatRange = 800,
@@ -60,8 +54,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMaxForFCS = 4999,
 					distanceMin = 20,
 					sensor = {},
-					sightIndicationMode = 1,
-					sightMasterMode = 1,
 					type = 6
 				}, {
 					BR = { {
@@ -245,7 +237,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 17, 26, "Redacted", "Tanks", "Modern Tanks", "Datalink", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "HeavyArmoredUnits" },
 	category = "Armor",
 	chassis = {},
-	crew_locale = "IZR",
+	crew_locale = "ENG",
+	crew_members = { "commander", "gunner", "loader" },
 	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
 	driverViewConnectorName = { "DRIVER_POINT" },
 	enablePlayerCanDrive = true,

@@ -5,7 +5,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	DetectionRange = 8000,
 	DisplayName = "SAM Linebacker - Bradley M6",
-	DisplayNameShort = "Lineback",
+	DisplayNameShort = "Linebacker",
 	EPLRS = true,
 	IR_emission_coeff = 0.095,
 	InternalCargo = {

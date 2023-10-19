@@ -166,7 +166,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		},
 		maxTargetDetectionRange = 400000,
 		radar_rotation_type = 0,
-		radar_type = 105
+		radar_type = 105,
+		searchRadarFrequencies = { { 1215000000, 1400000000 } }
 	},
 	Waypoint_Custom_Panel = true,
 	_file = "./CoreMods/tech/TechWeaponPack/Database/db_units_cars.lua",
@@ -213,7 +214,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "FPS-117 Dome",
 	visual = {
 		IR = {
-			coeffs = { { 0.035, 0.0012 }, { 0, 0 }, { 0, 0 }, { 0, 0 }, { 0.2, 0.00019047619047619 } }
+			coeffs = { { 0.035, 0.0012 }, { 0, 0 }, { 0.31, 0.0044, 1.425 }, { 0.001, 0.17 }, { 0.2, 0.00019047619047619 } }
 		},
 		agony_explosion_size = 0.2,
 		fire_pos = {

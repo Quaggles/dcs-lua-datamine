@@ -67,6 +67,7 @@ _G["weapons_table"]["weapons"]["nurs"]["S-25-O"] = {
 	},
 	cx_pil = 0.00074040197587984,
 	display_name = "S-25-O",
+	display_name_short = "S-25-O",
 	dist_max = 3000,
 	dist_max_ballistic = 8000,
 	dist_min = 1600,

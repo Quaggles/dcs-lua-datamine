@@ -1,22 +1,22 @@
 _G["launcher"]["{Robot24J}"] = {
 	CLSID = "{Robot24J}",
 	Count = 1,
-	Cx_pil = 0.00016,
+	Cx_pil = 0.00061015625,
 	Elements = { {
 			IsAdapter = true,
-			Position = { 0, 0, 0 },
 			ShapeName = "aero-3b"
 		}, {
-			Position = { 0, -0.125, 0 },
-			ShapeName = "aim-9p5"
+			ShapeName = "Rb_24J",
+			connector_name = "Point"
 		} },
-	Picture = "aim9p.png",
-	Weight = 119,
-	Weight_Empty = 37.6,
-	_file = "./CoreMods/aircraft/AJS37/Entry/Weapons.lua",
-	_origin = "AJS37 AI by Heatblur Simulations",
+	Picture = "us_AIM-9P.png",
+	PictureBlendColor = "0xffffffff",
+	Weight = 121.7,
+	Weight_Empty = 41,
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/aim9_family.lua",
+	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 4,
-	displayName = "Rb-24J (AIM-9P) Sidewinder IR AAM",
+	displayName = "LAU-7 with RB-24J (AIM-9P3) Sidewinder IR AAM",
 	wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 }

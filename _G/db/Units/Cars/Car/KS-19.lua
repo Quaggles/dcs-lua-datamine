@@ -21,7 +21,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							reloadDuration = 1.8
 						} },
 					PL = { {
-							shell_name = {}
+							shell_name = {},
+							virtualStwID = 1
 						} },
 					depends_on_unit = { { { "SON_9", 2 } }, { { "none" } } },
 					reloadSound = {
@@ -33,7 +34,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				}, {
 					BR = { {} },
 					PL = { {
-							shell_name = {}
+							shell_name = {},
+							virtualStwID = 1
 						} },
 					sensor = {}
 				} },

@@ -20,6 +20,6 @@ _G["launcher"]["DIS_MK_20_DUAL_GDJ_II19_R"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "GDJ-II19 - 2 x Mk-20",
-	ejectImpulse = 140,
+	ejectVelocity = 1.8,
 	wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 }

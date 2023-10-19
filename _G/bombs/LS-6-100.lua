@@ -12,6 +12,7 @@ _G["bombs"]["#Index"] = {
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/jdam_ls6.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	display_name = "LS-6-100",
+	display_name_short = "LS-6-100",
 	hMax = 15000,
 	hMin = 400,
 	mass = 88,

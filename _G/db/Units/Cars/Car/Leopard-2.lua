@@ -195,13 +195,13 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						} },
 					PL = { {
 							ammo_capacity = 9,
-							reload_time = 135,
+							portion_reload_time = 15,
 							shell_name = { "DM53_120_AP" },
 							shot_delay = 6,
 							virtualStwID = 1
 						}, {
 							ammo_capacity = 16,
-							reload_time = 240,
+							portion_reload_time = 15,
 							shell_name = { "DM53_120_AP" },
 							shot_delay = 10,
 							virtualStwID = 2
@@ -216,16 +216,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					BR = { {} },
 					PL = { {
 							ammo_capacity = 6,
-							reload_time = 90,
 							shell_name = { "DM12_L55_120mm_HEAT_MP_T" },
-							shot_delay = 6,
-							virtualStwID = 1
+							shot_delay = 6
 						}, {
 							ammo_capacity = 11,
-							reload_time = 165,
 							shell_name = { "DM12_L55_120mm_HEAT_MP_T" },
-							shot_delay = 10,
-							virtualStwID = 2
+							shot_delay = 10
 						} },
 					combatRange = 800,
 					distanceMax = 8000,
@@ -331,6 +327,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			drawArgument2 = 25,
 			omegaY = 1.0471975511966,
 			omegaZ = 1.0471975511966,
+			pidY = {
+				d = 15,
+				i = 20,
+				inn = 10,
+				p = 100
+			},
+			pidZ = {
+				d = 15,
+				i = 20,
+				inn = 10,
+				p = 100
+			},
 			pointer = "POINT_SIGHT_02"
 		},
 		maxTargetDetectionRange = 6000,
@@ -353,7 +361,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		gearRatios = {}
 	},
 	crew_locale = "ENG",
-	crew_members = { "commander", "gunner" },
+	crew_members = { "commander", "gunner", "loader" },
 	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
 	driverViewConnectorName = { "DRIVER_POINT",
 		offset = { 0.05, 0, 0 }

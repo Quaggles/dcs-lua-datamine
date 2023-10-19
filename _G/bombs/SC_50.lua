@@ -6,6 +6,7 @@ _G["bombs"]["#Index"] = {
 	_file = "./CoreMods/WWII Units/Weapons/Weapons.lua",
 	_origin = "World War II AI Units by Eagle Dynamics",
 	display_name = "SC 50",
+	display_name_short = "SC 50",
 	hMax = 12000,
 	hMin = 1000,
 	mass = 50,

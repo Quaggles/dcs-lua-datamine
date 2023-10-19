@@ -80,7 +80,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			control = "checkbox",
 			defValue = true,
 			id = "NS430allow",
-			label = "NS 430 allow"
+			label = "Allow N430 nav device"
 		} },
 	AmmoWeight = 0,
 	Cannon = "yes",
@@ -1634,8 +1634,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "<CLEAN>",
-					arg = 1000,
-					arg_value = 2,
 					required = { {
 							loadout = { "<CLEAN>" },
 							station = 2
@@ -1987,8 +1985,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "<CLEAN>",
-					arg = 1000,
-					arg_value = 2,
 					required = { {
 							loadout = { "<CLEAN>" },
 							station = 1
@@ -2549,8 +2545,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "<CLEAN-200.5>",
-					arg = 1000,
-					arg_value = 2,
 					required = { {
 							loadout = { "<CLEAN>" },
 							station = 1
@@ -2902,8 +2896,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "<CLEAN>",
-					arg = 1000,
-					arg_value = 2,
 					required = { {
 							loadout = { "<CLEAN>" },
 							station = 1
@@ -3201,8 +3193,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "<CLEAN>",
-					arg = 1000,
-					arg_value = 2,
 					required = { {
 							loadout = { "<CLEAN>" },
 							station = 1
@@ -4073,7 +4063,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		Door0 = { {
 				Flags = { "Reversible" },
 				Sequence = { {
-						C = { { "Arg", 133, "to", 0.64, "in", 1 } }
+						C = { { "Arg", 133, "to", 1, "in", 1 } }
 					} },
 				Transition = { "Close", "Open" }
 			}, {
@@ -4086,7 +4076,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		Door1 = { {
 				Flags = { "Reversible" },
 				Sequence = { {
-						C = { { "Arg", 131, "to", 0.64, "in", 2 } }
+						C = { { "Arg", 131, "to", 1, "in", 2 } }
 					} },
 				Transition = { "Close", "Open" }
 			}, {
@@ -4382,7 +4372,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	rotor_pos = { 0.206, 2.575, 0 },
 	scheme = 0,
 	sound_name = "Aircrafts/Engines/RotorMi8",
-	sounderName = "Aircraft/Helicopters/Mi-8MT",
 	stores_number = 0,
 	swapped_names = true,
 	tail_fin_area = 1.38,

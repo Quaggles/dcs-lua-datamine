@@ -1,7 +1,7 @@
 _G["launcher"]["LAU-105_1*CATM-9M_R"] = {
 	CLSID = "LAU-105_1*CATM-9M_R",
 	Count = 1,
-	Cx_pil = 0.00014,
+	Cx_pil = 0.00111015625,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "lau-105"
@@ -12,8 +12,8 @@ _G["launcher"]["LAU-105_1*CATM-9M_R"] = {
 		} },
 	Picture = "us_CATM-9.png",
 	PictureBlendColor = "0xffffffff",
-	Weight = 115.73,
-	Weight_Empty = 30,
+	Weight = 291.73,
+	Weight_Empty = 206,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/aim9_family.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },

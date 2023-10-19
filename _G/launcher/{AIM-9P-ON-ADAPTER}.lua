@@ -1,7 +1,7 @@
 _G["launcher"]["{AIM-9P-ON-ADAPTER}"] = {
 	CLSID = "{AIM-9P-ON-ADAPTER}",
 	Count = 1,
-	Cx_pil = 0.00014,
+	Cx_pil = 0.00061015625,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "aero-3b"
@@ -11,8 +11,8 @@ _G["launcher"]["{AIM-9P-ON-ADAPTER}"] = {
 		} },
 	Picture = "us_AIM-9P.png",
 	PictureBlendColor = "0xffffffff",
-	Weight = 100.5,
-	Weight_Empty = 15,
+	Weight = 115.84,
+	Weight_Empty = 41,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/aim9_family.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },

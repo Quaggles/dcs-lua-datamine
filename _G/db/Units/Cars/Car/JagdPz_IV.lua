@@ -162,14 +162,14 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						} },
 					PL = { {
 							ammo_capacity = 14,
-							reload_time = 210,
+							portion_reload_time = 15,
 							shell_name = {},
 							shot_delay = 6.5,
 							virtualStwID = 1
 						}, {
 							ammo_capacity = 42,
 							automaticLoader = false,
-							reload_time = 630,
+							portion_reload_time = 15,
 							shell_name = { "Pzgr_39/40" },
 							shot_delay = 16,
 							virtualStwID = 2
@@ -182,14 +182,10 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					BR = { {} },
 					PL = { {
 							ammo_capacity = 6,
-							reload_time = 90,
-							shell_name = { "Sprgr_34_L48" },
-							virtualStwID = 1
+							shell_name = { "Sprgr_34_L48" }
 						}, {
 							ammo_capacity = 17,
-							reload_time = 255,
-							shell_name = { "Sprgr_34_L48" },
-							virtualStwID = 2
+							shell_name = { "Sprgr_34_L48" }
 						} },
 					distanceMax = 6000,
 					distanceMin = 300,

@@ -468,9 +468,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
-					CLSID = "DIS_H6_250_2_N24"
+					CLSID = "DIS_H6_250_2_N24",
+					Type = 2
 				}, {
-					CLSID = "DIS_H6_250_2_N12"
+					CLSID = "DIS_H6_250_2_N12",
+					Type = 2
 				} },
 			Number = 8,
 			Order = 8,

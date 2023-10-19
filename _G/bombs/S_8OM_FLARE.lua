@@ -5,6 +5,7 @@ _G["bombs"]["#Index"] = {
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/illumination_bombs.lua",
 	_origin = "AircraftWeaponPack",
 	display_name = "S-8OM Flare",
+	display_name_short = "S-8OM Flare",
 	hMax = 2000,
 	hMin = 25,
 	mass = 4.4,

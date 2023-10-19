@@ -92,6 +92,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BAP-100"] = {
 	},
 	cx = { 1, 0.82, 0.65, 0.142, 2.11 },
 	display_name = "BAP-100",
+	display_name_short = "BAP-100",
 	mass = 32.5,
 	model = "BAP-100",
 	name = "BAP-100",

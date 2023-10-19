@@ -167,7 +167,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		},
 		maxTargetDetectionRange = 35000,
 		radar_rotation_type = 0,
-		radar_type = 104
+		radar_type = 104,
+		searchRadarFrequencies = { { 1000000000, 2000000000 } }
 	},
 	Waypoint_Custom_Panel = true,
 	animation_arguments = {
@@ -206,7 +207,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "Roland Radar",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0, 0 }, { 0.001, 0.17 }, { 0.3, 0.00027272727272727 } }
+			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.205, 0.005, 2 }, { 0.001, 0.17 }, { 0.3, 0.00027272727272727 } }
 		},
 		agony_explosion_size = 3,
 		fire_pos = { -0.5, 1, 0 },

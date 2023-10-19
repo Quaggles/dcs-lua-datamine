@@ -70,6 +70,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BETAB-500M"] = {
 	},
 	cx = { 0.1, 0.39, 0.6, 0.668, 1.31 },
 	display_name = "BETAB-500M - 479 kg, bomb, penetrating",
+	display_name_short = "BETAB-500M - 479 kg, bomb, penetrating",
 	mass = 479,
 	model = "BETAB-500M",
 	name = "BETAB-500M",

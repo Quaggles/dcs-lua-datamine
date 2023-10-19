@@ -166,7 +166,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			pos = { 0, 10, 0 }
 		},
 		maxTargetDetectionRange = 160000,
-		radar_type = 105
+		radar_type = 105,
+		searchRadarFrequencies = { { 120000000, 130000000 } }
 	},
 	Waypoint_Custom_Panel = true,
 	_file = "./Mods/tech/WWII Units/Database/db_units_cars.lua",
@@ -215,7 +216,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "FuMG-401",
 	visual = {
 		IR = {
-			coeffs = { { 0.02, 0.0012 }, { 0, 0 }, { 0, 0 }, { 0, 0 }, { 0.27, 0.00049090909090909 } }
+			coeffs = { { 0.02, 0.0012 }, { 0, 0 }, { 0.205, 0.005, 2 }, { 0.001, 0.17 }, { 0.27, 0.00049090909090909 } }
 		},
 		agony_explosion_size = 0,
 		fire_pos = {},
