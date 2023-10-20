@@ -86,28 +86,28 @@ I'm planning to keep updating this repository as every Open Beta patch releases.
 |Eagle Dynamics|**S530F**|[_G/rockets/Super_530F.lua](_G/rockets/Super_530F.lua)|
 
 ## MiG-19P *(RAZBAM)*
-|Author|Name|Link|
-|--|--|--|
-|Magnitude 3|**K-13A**|[_G/rockets/R-3S.lua](_G/rockets/R-3S.lua)|Same as the MiG-21|
+|Author|Name|Link|Notes|
+|--|--|--|--|
+|Eagle Dynamics|**K-13A**|[_G/rockets/R-3S.lua](_G/rockets/R-3S.lua)|Same as the MiG-21, Previously authored by Magnitude 3 until DCS 2.9|
 
 ## MiG-21bis *(Magnitude 3)*
-|Author|Name|Link|
-|--|--|--|
+|Author|Name|Link|Notes|
+|--|--|--|--|
 |Magnitude 3|**R-55**|[_G/rockets/R-55.lua](_G/rockets/R-55.lua)|
 |Magnitude 3|**RS2US**|[_G/rockets/RS2US.lua](_G/rockets/RS2US.lua)|
-|Magnitude 3|**R-3S**|[_G/rockets/R-3S.lua](_G/rockets/R-3S.lua)|
-|Magnitude 3|**R-3R**|[_G/rockets/R-3R.lua](_G/rockets/R-3R.lua)|
-|Magnitude 3|**R-13M**|[_G/rockets/R-13M.lua](_G/rockets/R-13M.lua)|
-|Magnitude 3|**R-13M1**|[_G/rockets/R-13M1.lua](_G/rockets/R-13M1.lua)|
-|Magnitude 3|**R-60**|[_G/rockets/R-60.lua](_G/rockets/R-60.lua)|
+|Eagle Dynamics|**R-3S**|[_G/rockets/R-3S.lua](_G/rockets/R-3S.lua)|Previously authored by Magnitude 3 until DCS 2.9|
+|Eagle Dynamics|**R-3R**|[_G/rockets/R-3R.lua](_G/rockets/R-3R.lua)|Previously authored by Magnitude 3 until DCS 2.9|
+|Eagle Dynamics|**R-13M**|[_G/rockets/R-13M.lua](_G/rockets/R-13M.lua)|Previously authored by Magnitude 3 until DCS 2.9|
+|Eagle Dynamics|**R-13M1**|[_G/rockets/R-13M1.lua](_G/rockets/R-13M1.lua)|Previously authored by Magnitude 3 until DCS 2.9|
+|Eagle Dynamics|**R-60**|[_G/rockets/R-60.lua](_G/rockets/R-60.lua)|Previously authored by Magnitude 3 until DCS 2.9|
 |Eagle Dynamics|**R-60M**|[_G/rockets/P_60.lua](_G/rockets/P_60.lua)|
 
 ## AJS-37
-|Author|Name|Link|
-|--|--|--|
-|Heatblur|**Rb-24**|[_G/rockets/Rb 24.lua](_G/rockets/Rb%2024.lua)|
-|Heatblur|**Rb-24J**|[_G/rockets/Rb 24J.lua](_G/rockets/Rb%2024J.lua)|
-|Heatblur|**Rb-74**|[_G/rockets/Rb 74.lua](_G/rockets/Rb%2074.lua)|
+|Author|Name|Link|Notes|
+|--|--|--|--|
+|Eagle Dynamics|**Rb-24**|[_G/rockets/Rb 24.lua](_G/rockets/Rb%2024.lua)|Previously authored by Heatblur until DCS 2.9|
+|Eagle Dynamics|**Rb-24J**|[_G/rockets/Rb 24J.lua](_G/rockets/Rb%2024J.lua)|Previously authored by Heatblur until DCS 2.9|
+|Eagle Dynamics|**Rb-74**|[_G/rockets/Rb 74.lua](_G/rockets/Rb%2074.lua)|Previously authored by Heatblur until DCS 2.9|
 
 ## Ka-50 Black Shark 3
 |Author|Name|Link|
