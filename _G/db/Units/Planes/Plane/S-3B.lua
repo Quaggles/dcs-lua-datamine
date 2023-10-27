@@ -230,7 +230,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			use_full_connector_position = true
 		} },
 	RCS = 30,
-	Rate = "50",
+	Rate = 50,
 	SFM_Data = {
 		aerodynamics = {
 			Cy0 = 0,
@@ -607,6 +607,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		typename = "collection"
 	},
+	livery_entry = "S-3B",
 	main_gear_amortizer_direct_stroke = 0,
 	main_gear_amortizer_normal_weight_stroke = -0.4021,
 	main_gear_amortizer_reversal_stroke = -0.52,
@@ -807,6 +808,18 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	},
 	radar_can_see_ground = false,
 	range = 3701,
+	shape_table_data = { {
+			classname = "lLandPlane",
+			desrt = "Fighter-1-crush",
+			file = "S-3B",
+			fire = { 300, 2 },
+			index = "Redacted",
+			life = 25,
+			name = "S-3B",
+			positioning = "BYNORMAL",
+			username = "S-3B",
+			vis = 3
+		} },
 	singleInFlight = false,
 	stores_number = 6,
 	swapped_names = true,

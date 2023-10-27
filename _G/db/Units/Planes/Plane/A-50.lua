@@ -26,7 +26,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[6] = {
 			args = { 82 },
-			critical_damage = 200,
+			critical_damage = 20,
 			deps_cells = { 0, 3, 4, 5, 8 }
 		},
 		[7] = {
@@ -131,7 +131,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[43] = {
 			args = { 243 },
 			critical_damage = 20,
-			deps_cells = { 39, 47, 48, 51, 52, 53 }
+			deps_cells = { 55, 39, 47, 48, 51, 52, 53 }
 		},
 		[47] = {
 			args = { 235 },
@@ -157,7 +157,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[55] = {
 			args = { 81 },
-			critical_damage = 200,
+			critical_damage = 20,
 			deps_cells = { 43, 39, 47, 48, 51, 52, 53, 57, 58 }
 		},
 		[56] = {

@@ -1521,6 +1521,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}",
 					arg_value = 0.15
 				}, {
+					CLSID = "{AIM-9P3}",
+					arg_value = 0.15
+				}, {
 					CLSID = "{AIM-9JULI}",
 					arg_value = 0.15
 				}, {
@@ -2271,6 +2274,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.15
 				}, {
 					CLSID = "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AIM-9P3}",
 					arg_value = 0.15
 				}, {
 					CLSID = "{AIM-9JULI}",

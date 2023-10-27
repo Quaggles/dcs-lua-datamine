@@ -2760,31 +2760,31 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			} },
 		Crewman0Gestures = { {
 				Sequence = { {
-						C = { { "Arg", 39, "to", 0, "speed", 0.5 }, { "Arg", 99, "to", 0, "speed", 0.5 }, { "Arg", 500, "to", 0, "speed", 0.5 }, { "Arg", 501, "to", 0, "speed", 0.5 }, { "Arg", 502, "set", 0 } }
+						C = { { "Arg", 39, "to", 0, "speed", 0.5 }, { "Arg", 99, "to", 0, "speed", 0.5 }, { "Arg", 500, "to", 0, "speed", 5 }, { "Arg", 395, "to", 0, "speed", 5 }, { "Arg", 501, "to", 0, "speed", 5 }, { "Arg", 396, "to", 0, "speed", 5 }, { "Arg", 521, "set", 0.01 } }
 					}, {
-						C = { { "Arg", 521, "from", 0, "to", 0.6, "in", 2 } }
+						C = { { "Arg", 521, "from", 0.01, "to", 0.6, "in", 2 } }
 					}, {
 						C = { { "Arg", 521, "from", 0.6, "to", 1, "in", 1.5 } }
 					}, {
-						C = { { "Arg", 522, "set", 0.01 }, { "Arg", 521, "set", 0 } }
+						C = { { "Arg", 522, "set", 0.01 } }
 					} },
 				Transition = { "Any", "GestureSaluteLeft" }
 			}, {
 				Sequence = { {
-						C = { { "Arg", 39, "to", 0, "speed", 0.5 }, { "Arg", 99, "to", 0, "speed", 0.5 }, { "Arg", 500, "to", 0, "speed", 0.5 }, { "Arg", 501, "to", 0, "speed", 0.5 }, { "Arg", 502, "set", 0 } }
+						C = { { "Arg", 39, "to", 0, "speed", 0.5 }, { "Arg", 99, "to", 0, "speed", 0.5 }, { "Arg", 500, "to", 0, "speed", 5 }, { "Arg", 395, "to", 0, "speed", 5 }, { "Arg", 501, "to", 0, "speed", 5 }, { "Arg", 396, "to", 0, "speed", 5 }, { "Arg", 520, "set", 0.01 } }
 					}, {
-						C = { { "Arg", 520, "from", 0, "to", 0.55, "in", 2 } }
+						C = { { "Arg", 520, "from", 0.01, "to", 0.55, "in", 2 } }
 					}, {
 						C = { { "Arg", 520, "from", 0.55, "to", 1, "in", 1.7 } }
 					}, {
-						C = { { "Arg", 522, "set", 0.01 }, { "Arg", 520, "set", 0 } }
+						C = { { "Arg", 522, "set", 0.01 } }
 					} },
 				Transition = { "Any", "GestureSaluteRight" }
 			}, {
 				Sequence = { {
 						C = { { "Arg", 522, "to", 1, "speed", 0.33 } }
 					}, {
-						C = { { "Arg", 522, "set", 0 } }
+						C = { { "Arg", 522, "set", 0 }, { "Arg", 521, "set", 0 }, { "Arg", 520, "set", 0 } }
 					} },
 				Transition = { "Any", "GestureSaluteTakeOffFinalize" }
 			} },
@@ -2884,7 +2884,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				Transition = { "Open", "Close" }
 			} }
 	},
-	net_animation = { 2, 13, 14, 25, 84, 85, 89, 90, 274, 336 },
+	net_animation = { 2, 13, 14, 25, 84, 85, 89, 90, 274, 336, 39, 99, 508, 459, 500, 501, 502, 503, 395, 396, 397, 398, 420, 539, 523, 524, 520, 521, 522 },
 	nose_gear_amortizer_direct_stroke = 0,
 	nose_gear_amortizer_normal_weight_stroke = -0.4,
 	nose_gear_amortizer_reversal_stroke = -0.54,

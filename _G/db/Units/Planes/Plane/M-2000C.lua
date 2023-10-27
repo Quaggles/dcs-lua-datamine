@@ -481,6 +481,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			mm = 0,
 			mmint = 1,
 			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "IFF_FAILURE_MAIN",
+			label = "IFF Responder",
+			mm = 0,
+			mmint = 1,
+			prob = 100
 		} },
 	Guns = { {
 			_file = "./CoreMods/aircraft/M-2000C/M-2000C.lua",
