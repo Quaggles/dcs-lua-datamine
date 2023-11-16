@@ -7,7 +7,7 @@ _G["launcher"]["DIS_WMD7"] = {
 		} },
 	Picture = "wmd7.png",
 	Sensors = {
-		OPTIC = { "WMD7 FLIR" }
+		OPTIC = { "Litening AN/AAQ-28 FLIR", "Litening AN/AAQ-28 CCD TV" }
 	},
 	Weight = 295,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/pod_wmd7.lua",
@@ -15,7 +15,7 @@ _G["launcher"]["DIS_WMD7"] = {
 	_unique_resource_name = "weapons.containers.wmd7",
 	attribute = { 4, 15, 44, "Redacted" },
 	category = 6,
-	displayName = "AVIC WMD7 POD",
+	displayName = "AVIC WMD7 FLIR/LDT POD",
 	laserDesignator = true,
 	laserRanger = true,
 	name = "wmd7",

@@ -5,6 +5,9 @@ _G["launcher"]["{F-15E_AAQ-33_XR_ATP-SE}"] = {
 			ShapeName = "F-15E_AAQ-33_XR_ATP-SE"
 		} },
 	Picture = "AAQ-28.png",
+	Sensors = {
+		OPTIC = { "Sniper XR FLIR", "Sniper XR CCD TV" }
+	},
 	Weight = 205.023584,
 	_file = "./CoreMods/aircraft/F-15E/F-15E.lua",
 	_origin = "F-15E AI by RAZBAM",

@@ -85,6 +85,16 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			wLbl = 350,
 			xCtrl = 250
 		}, {
+			arg = 407,
+			argTbl = {
+				[false] = 1,
+				[true] = 0
+			},
+			control = "checkbox",
+			defValue = false,
+			id = "SAAB_RGS-2_Gunsight_Repeater",
+			label = "SAAB RGS-2 Repeater mounted"
+		}, {
 			control = "label",
 			id = "spacer_Label",
 			label = ""
@@ -218,17 +228,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			deps_cells = { 60 }
 		}, {
 			args = { 65 },
-			critical_damage = 7,
+			critical_damage = 20,
 			deps_cells = { 90, 91 }
 		}, {
 			args = { 299 },
-			critical_damage = 5
+			critical_damage = 10
 		}, {
 			args = { 298 },
-			critical_damage = 5
+			critical_damage = 10
 		}, {
 			args = { 297 },
-			critical_damage = 3
+			critical_damage = 10
 		},
 		[0] = {
 			args = { 146 },
@@ -241,12 +251,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[9] = {
 			args = { 154 },
-			critical_damage = 4,
+			critical_damage = 8,
 			deps_cells = { 11 }
 		},
 		[10] = {
 			args = { 153 },
-			critical_damage = 4,
+			critical_damage = 8,
 			deps_cells = { 11 }
 		},
 		[11] = {
@@ -264,15 +274,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[19] = {
 			args = { 183 },
-			critical_damage = 2
+			critical_damage = 3
 		},
 		[23] = {
 			args = { 223 },
-			critical_damage = 4
+			critical_damage = 3
 		},
 		[24] = {
 			args = { 213 },
-			critical_damage = 4
+			critical_damage = 3
 		},
 		[25] = {
 			args = { 226 },
@@ -288,22 +298,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[29] = {
 			args = { 224 },
-			critical_damage = 8,
+			critical_damage = 5,
 			deps_cells = { 25, 23 }
 		},
 		[30] = {
 			args = { 214 },
-			critical_damage = 8,
+			critical_damage = 5,
 			deps_cells = { 26, 24 }
 		},
 		[35] = {
 			args = { 225 },
-			critical_damage = 12,
+			critical_damage = 10,
 			deps_cells = { 29, 37, 25, 23 }
 		},
 		[36] = {
 			args = { 215 },
-			critical_damage = 12,
+			critical_damage = 10,
 			deps_cells = { 30, 38, 26, 24 }
 		},
 		[37] = {
@@ -320,7 +330,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[39] = {
 			args = { 242 },
-			critical_damage = 5,
+			critical_damage = 7,
 			deps_cells = { 53 }
 		},
 		[43] = {
@@ -340,11 +350,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[49] = {
 			args = { 239 },
-			critical_damage = 1
+			critical_damage = 2
 		},
 		[50] = {
 			args = { 237 },
-			critical_damage = 1
+			critical_damage = 2
 		},
 		[51] = {
 			args = { 240 },
@@ -362,19 +372,19 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[55] = {
 			args = { 159 },
-			critical_damage = 20
+			critical_damage = 10
 		},
 		[56] = {
 			args = { 158 },
-			critical_damage = 4
+			critical_damage = 5
 		},
 		[57] = {
 			args = { 157 },
-			critical_damage = 4
+			critical_damage = 5
 		},
 		[58] = {
 			args = { 156 },
-			critical_damage = 4
+			critical_damage = 7
 		},
 		[59] = {
 			args = { 148 },
@@ -389,7 +399,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[82] = {
 			args = { 152 },
-			critical_damage = 5,
+			critical_damage = 8,
 			deps_cells = { 19 }
 		},
 		[83] = {
@@ -413,11 +423,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 2
 		},
 		[96] = {
-			critical_damage = 5,
+			critical_damage = 15,
 			deps_cells = { 90 }
 		},
 		[97] = {
-			critical_damage = 5,
+			critical_damage = 15,
 			deps_cells = { 91 }
 		},
 		[137] = {},
@@ -2157,7 +2167,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				Transition = { "Any", "Bailout" }
 			} }
 	},
-	net_animation = { 38, 190, 191, 192, 203, 202, 201, 208, 200, 477, 1003, 525, 526, 527, 39, 99, 337, 399, 480, 524 },
+	net_animation = { 38, 190, 191, 192, 203, 202, 201, 208, 200, 477, 525, 526, 527, 39, 99, 337, 399, 480, 524, 560, 757, 1004, 1200, 1201, 447, 954, 1998, 1999, 1990, 1050, 1472, 509, 515, 1994, 1993, 1049, 1099 },
 	nose_gear_amortizer_direct_stroke = 0,
 	nose_gear_amortizer_normal_weight_stroke = -0.04,
 	nose_gear_amortizer_reversal_stroke = -0.174,

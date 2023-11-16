@@ -1,13 +1,6 @@
 _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	AOA_take_off = 0.12,
-	AddPropAircraft = { {
-			arg = 26,
-			control = "checkbox",
-			defValue = false,
-			id = "Belly Bay Door",
-			label = "Open Bay Door",
-			weight = 0
-		} },
+	AddPropAircraft = {},
 	AmmoWeight = 0,
 	CAS_min = 72,
 	CanopyGeometry = {
@@ -553,6 +546,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	attribute = { 1, 1, 2, "Redacted", "Strategic bombers", "Datalink", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes", "Bombers" },
 	average_fuel_consumption = 0.225,
 	bank_angle_max = 45,
+	bomb_bay_movement = 2,
 	brakeshute_name = 287,
 	chaff_flare_dispenser = { {
 			dir = { 0, -1, 1 },
@@ -593,6 +587,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	crew_size = 3,
 	date_of_introduction = 2019.1,
 	detection_range_max = 400000,
+	encyclopediaAnimation = {
+		args = {
+			[26] = 1
+		}
+	},
 	engines_count = 2,
 	engines_nozzles = { {
 			diameter = 1.13,
@@ -734,6 +733,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	main_gear_wheel_diameter = 1.079,
 	mapclasskey = "P0091000027",
 	mechanimations = {
+		BombBay = { {
+				Sequence = { {
+						C = { { "Arg", 26, "to", 1, "in", 2, "sign", 1 } }
+					} },
+				Transition = { "Close", "Open" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 26, "to", 0, "in", 4.5, "sign", -1 } }
+					} },
+				Transition = { "Open", "Close" }
+			} },
 		Door0 = { {
 				Sequence = { {
 						C = { { "Arg", 38, "to", 1, "in", 0.3 } }

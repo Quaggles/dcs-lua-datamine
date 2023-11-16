@@ -86,6 +86,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_58"] = {
 		},
 		scheme = "schemes/missiles/anti_radiation_missile.sch",
 		simple_gyrostab_seeker = {
+			gimbal_lim = 0.87266462599716,
 			omega_max = 0.13962634015955
 		},
 		start_helper = {
@@ -212,6 +213,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_58"] = {
 		},
 		scheme = "schemes/missiles/anti_radiation_missile.sch",
 		simple_gyrostab_seeker = {
+			gimbal_lim = 0.87266462599716,
 			omega_max = 0.13962634015955
 		},
 		start_helper = {

@@ -16,7 +16,6 @@ _G["rockets"]["#Index"] = {
 	Head_Type = 3,
 	IR_seeker = {
 		FOV = 0.034906585039887,
-		GimbLim = 2.2689280275926,
 		ccm_k0 = 0.5,
 		cooled = true,
 		delay = 3,
@@ -123,6 +122,7 @@ _G["rockets"]["#Index"] = {
 		} },
 	sigma = { 10, 10, 10 },
 	simple_gyrostab_seeker = {
+		gimbal_lim = 1.1344640137963,
 		omega_max = 0.13962634015955
 	},
 	t_acc = 5,

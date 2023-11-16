@@ -135,7 +135,6 @@ _G["weapons_table"]["weapons"]["missiles"]["Igla_1E"] = {
 		sigma = { 5, 5, 5 },
 		simple_IR_seeker = {
 			FOV = 0.034906585039887,
-			GimbLim = 0.66322511575785,
 			abs_err_val = 2,
 			ccm_k0 = 0.5,
 			cooled = true,
@@ -147,6 +146,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Igla_1E"] = {
 			target_H_min = 0
 		},
 		simple_gyrostab_seeker = {
+			gimbal_lim = 0.66322511575785,
 			omega_max = 0.13962634015955
 		},
 		t_acc = 3,
@@ -321,7 +321,6 @@ _G["weapons_table"]["weapons"]["missiles"]["Igla_1E"] = {
 		sigma = { 5, 5, 5 },
 		simple_IR_seeker = {
 			FOV = 0.034906585039887,
-			GimbLim = 0.66322511575785,
 			abs_err_val = 2,
 			ccm_k0 = 0.5,
 			cooled = true,
@@ -333,6 +332,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Igla_1E"] = {
 			target_H_min = 0
 		},
 		simple_gyrostab_seeker = {
+			gimbal_lim = 0.66322511575785,
 			omega_max = 0.13962634015955
 		},
 		t_acc = 3,

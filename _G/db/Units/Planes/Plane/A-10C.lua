@@ -25,6 +25,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			getDefault = <function 5>,
 			id = "SADL_TN",
 			label = "TN",
+			maxLength = 4,
 			onChange = <function 6>,
 			onFocus = <function 7>,
 			playerOnly = false

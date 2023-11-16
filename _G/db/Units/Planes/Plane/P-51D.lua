@@ -3567,6 +3567,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	has_differential_stabilizer = false,
 	has_speedbrake = false,
 	height = 4.77,
+	input_profile_entry = "P-51D",
 	length = 12.13,
 	lights_data = {
 		lights = {

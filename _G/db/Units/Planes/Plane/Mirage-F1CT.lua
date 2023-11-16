@@ -2281,24 +2281,31 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		Door0 = { {
 				Flags = { "Reversible" },
 				Sequence = { {
-						C = { { "Arg", 38, "to", 0.9, "in", 9 } }
+						C = { { "VelType", 3 }, { "Arg", 38, "to", 0.9, "in", 2.75 } }
 					} },
 				Transition = { "Close", "Open" }
 			}, {
 				Flags = { "Reversible", "StepsBackwards" },
 				Sequence = { {
-						C = { { "Arg", 38, "to", 0, "in", 6 } }
+						C = { { "VelType", 3 }, { "Arg", 38, "to", 0, "in", 2.75 } }
 					} },
 				Transition = { "Open", "Close" }
 			}, {
 				Sequence = { {
-						C = { { "JettisonCanopy", 0 } }
+						C = { { "TearCanopy", 0 } }
+					} },
+				Transition = { "Open", "Bailout" }
+			}, {
+				Sequence = { {
+						C = { { "Origin", "x", 2.871, "y", 0.677, "z", 0 }, { "Impulse", 1, "tertiary", 0.001 }, { "Arg", 149, "set", 1 } }
 					} },
 				Transition = { "Any", "Bailout" }
-			} },
-		Door1 = {
-			DuplicateOf = "Door0"
-		}
+			}, {
+				Sequence = { {
+						C = { { "TearCanopy", 0 } }
+					} },
+				Transition = { "Any", "TearOff" }
+			} }
 	},
 	net_animation = { 11, 12, 13, 14, 15, 16, 18, 28, 35, 36, 37, 38, 69, 75, 83, 86, 90, 115, 116, 117, 120, 123, 126, 127, 128, 129, 149, 182, 184, 190, 191, 201, 209, 282, 283, 284, 285, 308, 309, 310, 311, 312, 313, 314, 338, 339, 340, 341, 427, 705, 750, 751, 752, 753, 754, 755, 780, 781, 782, 802, 803, 844, 845, 905, 911, 924, 925, 926, 970, 971, 972, 973, 974, 975, 994 },
 	nose_gear_amortizer_direct_stroke = 0.141,

@@ -73,13 +73,13 @@ _G["rockets"]["#Index"] = {
 		turn_point_trigger_dist = 100
 	},
 	control_block2 = {
-		add_y = 90,
+		add_y = 300,
 		can_update_target_pos = 0,
-		delay = 0.5,
+		delay = 0.3,
 		max_no_vert_offset_open_h = 90,
 		use_snake_maneuver = 0,
 		vert_offset_before_end_game_k = 0.8,
-		wind_k = 1
+		wind_k = 0
 	},
 	display_name = "GB-6",
 	display_name_short = "GB-6",
@@ -249,7 +249,7 @@ _G["rockets"]["#Index"] = {
 		chute_bomblet_char_time = 70.1,
 		chute_cut_time = 400,
 		chute_open_time = 2.6,
-		default_add_y = 90,
+		default_add_y = 300,
 		delay = 0.1,
 		out_w_add_y = 0,
 		time_coeff_data = { 25, 0.9, 18, 0.86, 15, 0.8, 11.7, 0.58, 6.8, 0.3, 3, 0.2 },

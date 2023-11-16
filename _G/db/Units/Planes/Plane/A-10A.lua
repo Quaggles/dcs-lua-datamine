@@ -664,6 +664,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "LAU-105_2*AIM-9P5"
 				}, {
+					CLSID = "LAU-105_2*AIM-9P3"
+				}, {
 					CLSID = "{DB434044-F5D0-4F1F-9BA9-B73027E18DD3}"
 				}, {
 					CLSID = "LAU-105_1*AIM-9M_L"
@@ -1238,6 +1240,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "LAU-105_1*AIM-9L_R"
 				}, {
 					CLSID = "LAU-105_2*AIM-9P5"
+				}, {
+					CLSID = "LAU-105_2*AIM-9P3"
 				}, {
 					CLSID = "{DB434044-F5D0-4F1F-9BA9-B73027E18DD3}"
 				}, {

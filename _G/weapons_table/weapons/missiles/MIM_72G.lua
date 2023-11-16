@@ -65,7 +65,6 @@ _G["weapons_table"]["weapons"]["missiles"]["MIM_72G"] = {
 		scheme = "schemes/missiles/IR_seeker_stab_missile.sch",
 		simple_IR_seeker = {
 			FOV = 0.24434609527921,
-			GimbLim = 0.5235987755983,
 			abs_err_val = 2,
 			ccm_k0 = 0.5,
 			cooled = true,
@@ -77,6 +76,7 @@ _G["weapons_table"]["weapons"]["missiles"]["MIM_72G"] = {
 			target_H_min = 0
 		},
 		simple_gyrostab_seeker = {
+			gimbal_lim = 0.5235987755983,
 			omega_max = 0.13962634015955
 		},
 		warhead = {
@@ -175,7 +175,6 @@ _G["weapons_table"]["weapons"]["missiles"]["MIM_72G"] = {
 		scheme = "schemes/missiles/IR_seeker_stab_missile.sch",
 		simple_IR_seeker = {
 			FOV = 0.24434609527921,
-			GimbLim = 0.5235987755983,
 			abs_err_val = 2,
 			ccm_k0 = 0.5,
 			cooled = true,
@@ -187,6 +186,7 @@ _G["weapons_table"]["weapons"]["missiles"]["MIM_72G"] = {
 			target_H_min = 0
 		},
 		simple_gyrostab_seeker = {
+			gimbal_lim = 0.5235987755983,
 			omega_max = 0.13962634015955
 		},
 		warhead = {

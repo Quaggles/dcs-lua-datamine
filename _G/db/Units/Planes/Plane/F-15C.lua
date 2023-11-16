@@ -1129,6 +1129,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}",
 					arg_increment = -0.1
 				}, {
+					CLSID = "{AIM-9P3}",
+					arg_increment = -0.1
+				}, {
 					CLSID = "{AIM-9P5}",
 					arg_increment = -0.1
 				}, {
@@ -1171,6 +1174,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_increment = -0.1
 				}, {
 					CLSID = "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}",
+					arg_increment = -0.1
+				}, {
+					CLSID = "{AIM-9P3}",
 					arg_increment = -0.1
 				}, {
 					CLSID = "{AIM-9P5}",
@@ -1300,6 +1306,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}",
 					arg_increment = -0.1
 				}, {
+					CLSID = "{AIM-9P3}",
+					arg_increment = -0.1
+				}, {
 					CLSID = "{AIM-9P5}",
 					arg_increment = -0.1
 				}, {
@@ -1364,6 +1373,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_increment = -0.1
 				}, {
 					CLSID = "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}",
+					arg_increment = -0.1
+				}, {
+					CLSID = "{AIM-9P3}",
 					arg_increment = -0.1
 				}, {
 					CLSID = "{AIM-9P5}",

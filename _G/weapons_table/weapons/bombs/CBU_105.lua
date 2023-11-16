@@ -236,12 +236,12 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_105"] = {
 						concrete_obj_factor = 0,
 						cumulative_factor = 4,
 						cumulative_thickness = 0.65,
-						expl_mass = 0.3,
+						expl_mass = 0.9,
 						fantom = 1,
 						mass = 4.6,
 						obj_factors = { 1, 1 },
 						other_factors = { 1, 1, 1 },
-						piercing_mass = 4.6
+						piercing_mass = 0.92
 					}
 				},
 				display_name = "BLU-108",
@@ -429,12 +429,12 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_105"] = {
 						concrete_obj_factor = 0,
 						cumulative_factor = 4,
 						cumulative_thickness = 0.65,
-						expl_mass = 0.3,
+						expl_mass = 0.9,
 						fantom = 0,
 						mass = 4.6,
 						obj_factors = { 1, 1 },
 						other_factors = { 1, 1, 1 },
-						piercing_mass = 4.6
+						piercing_mass = 0.92
 					}
 				},
 				sounderName = "Weapons/ClusterBomblets",
@@ -691,12 +691,12 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_105"] = {
 						concrete_obj_factor = 0,
 						cumulative_factor = 4,
 						cumulative_thickness = 0.65,
-						expl_mass = 0.3,
+						expl_mass = 0.9,
 						fantom = 1,
 						mass = 4.6,
 						obj_factors = { 1, 1 },
 						other_factors = { 1, 1, 1 },
-						piercing_mass = 4.6
+						piercing_mass = 0.92
 					}
 				},
 				display_name = "BLU-108",
@@ -884,12 +884,12 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_105"] = {
 						concrete_obj_factor = 0,
 						cumulative_factor = 4,
 						cumulative_thickness = 0.65,
-						expl_mass = 0.3,
+						expl_mass = 0.9,
 						fantom = 0,
 						mass = 4.6,
 						obj_factors = { 1, 1 },
 						other_factors = { 1, 1, 1 },
-						piercing_mass = 4.6
+						piercing_mass = 0.92
 					}
 				},
 				sounderName = "Weapons/ClusterBomblets",

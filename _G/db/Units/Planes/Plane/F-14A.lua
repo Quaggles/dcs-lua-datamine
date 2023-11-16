@@ -692,6 +692,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}"
 				}, {
+					CLSID = "{AIM-9P3}"
+				}, {
 					CLSID = "{AIM-9P5}"
 				}, {
 					CLSID = "{AIM-9L}"
@@ -824,6 +826,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}"
 				}, {
 					CLSID = "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}"
+				}, {
+					CLSID = "{AIM-9P3}"
 				}, {
 					CLSID = "{AIM-9P5}"
 				}, {
@@ -1039,13 +1043,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		FoldableWings = { {
 				Flags = { "Reversible" },
 				Sequence = { {
-						C = { { "Arg", 8, "to", 0, "at", 0.1 } }
+						C = { { "Arg", 7, "to", 0, "at", 0.1 }, { "Arg", 8, "to", 0, "at", 1.5 } }
 					} },
 				Transition = { "Retract", "Extend" }
 			}, {
 				Flags = { "Reversible", "StepsBackwards" },
 				Sequence = { {
-						C = { { "Arg", 8, "to", 0.128, "at", 0.1 } }
+						C = { { "Arg", 7, "to", 0.1, "at", 0.1 }, { "Arg", 8, "to", 1, "at", 1.5 } }
 					} },
 				Transition = { "Extend", "Retract" }
 			} },

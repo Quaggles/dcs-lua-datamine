@@ -831,12 +831,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}",
 					Cx_gain = 0.24
 				}, {
-					CLSID = "{AIM-9P5}",
+					CLSID = "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}",
 					Cx_gain = 0.24
 				}, {
-					CLSID = "{C8E06185-7CD6-4C90-959F-044679E90751}"
+					CLSID = "{AIM-9P3}",
+					Cx_gain = 0.24
 				}, {
-					CLSID = "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+					CLSID = "{AIM-9P5}",
+					Cx_gain = 0.24
 				}, {
 					CLSID = "{AIS_ASQ_T50}",
 					attach_point_position = { 0.25, 0, 0 }
@@ -1239,12 +1241,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}",
 					Cx_gain = 0.24
 				}, {
-					CLSID = "{AIM-9P5}",
+					CLSID = "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}",
 					Cx_gain = 0.24
 				}, {
-					CLSID = "{C8E06185-7CD6-4C90-959F-044679E90751}"
+					CLSID = "{AIM-9P3}",
+					Cx_gain = 0.24
 				}, {
-					CLSID = "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+					CLSID = "{AIM-9P5}",
+					Cx_gain = 0.24
 				}, {
 					CLSID = "{AIS_ASQ_T50}",
 					attach_point_position = { 0.25, 0, 0 }

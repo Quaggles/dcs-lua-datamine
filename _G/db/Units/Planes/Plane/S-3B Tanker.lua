@@ -1,5 +1,34 @@
 _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	AOA_take_off = 0.14,
+	AddPropAircraft = { {
+			control = "label",
+			id = "datalink_Label",
+			label = "DATALINK",
+			playerOnly = false,
+			xLbl = 150
+		}, {
+			control = "editbox",
+			getDefault = <function 1>,
+			id = "VoiceCallsignLabel",
+			label = "Voice Callsign Label",
+			onChange = <function 2>,
+			playerOnly = false
+		}, {
+			control = "editbox",
+			getDefault = <function 3>,
+			id = "VoiceCallsignNumber",
+			label = "Voice Callsign Number",
+			onChange = <function 4>,
+			playerOnly = false
+		}, {
+			control = "editbox",
+			getDefault = <function 5>,
+			id = "STN_L16",
+			label = "STN",
+			onChange = <function 6>,
+			onFocus = <function 7>,
+			playerOnly = false
+		} },
 	AmmoWeight = 0,
 	CAS_min = 54,
 	CanopyGeometry = { -0.34202014332567, -0.64085638205579, -0.93969262078591, -0.036833608500735, 0.86602540378444 },
@@ -112,8 +141,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	},
 	DisplayName = "S-3B Tanker",
 	DisplayNameShort = "S-3B(T)",
+	EPLRS = true,
 	EmptyWeight = 12088,
-	H_max = 7500,
+	H_max = 12200,
 	HumanRadio = {
 		editable = true,
 		frequency = 251,
@@ -133,7 +163,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	M_nominal = 19278,
 	Mach_max = 0.682,
 	MaxFuelWeight = 5500,
-	MaxHeight = 7500,
+	MaxHeight = 12200,
 	MaxSpeed = 834.12,
 	MaxTakeOffWeight = 23831,
 	Name = "S-3B Tanker",
@@ -164,6 +194,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			MaxRUD = 1,
 			MinRUD = 0,
 			Nmg = 60.00001,
+			Shutdown_Duration = 50,
+			Startup_Duration = 50,
+			Startup_Prework = 35,
 			cefor = 0.37,
 			cemax = 0.37,
 			dcx_eng = 0.0085,
@@ -199,7 +232,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	_file = "./CoreMods/tech/HeavyMetalCore/Database/Aircraft/S-3B.lua",
 	_origin = "HeavyMetalCore",
 	air_refuel_receptacle_pos = { 6.18, 1.23, 0 },
-	attribute = { 1, 1, 5, "Redacted", "Aux", "Refuelable", "Tankers", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes" },
+	attribute = { 1, 1, 5, "Redacted", "Aux", "Refuelable", "Tankers", "Datalink", "Link16", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes" },
 	average_fuel_consumption = 0.06,
 	bank_angle_max = 45,
 	brakeshute_name = 0,
@@ -241,7 +274,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			[9] = 0.492,
 			[10] = 0.477,
 			[13] = 0.758,
-			[14] = 0.75
+			[14] = 0.75,
+			[42] = 0.953
 		}
 	},
 	engines_count = 2,

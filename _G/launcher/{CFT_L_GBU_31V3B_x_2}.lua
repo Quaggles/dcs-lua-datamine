@@ -17,8 +17,8 @@ _G["launcher"]["{CFT_L_GBU_31V3B_x_2}"] = {
 	Weight_Empty = 0,
 	_file = "./CoreMods/aircraft/F-15E/F-15E.lua",
 	_origin = "F-15E AI by RAZBAM",
-	attribute = <1>{ 4, 5, 36, "Redacted" },
+	attribute = "weapons.bombs.GBU-31V3B",
 	category = 1,
 	displayName = "GBU-31(V)3/B * 2",
-	wsTypeOfWeapon = <table 1>
+	wsTypeOfWeapon = "weapons.bombs.GBU-31V3B"
 }

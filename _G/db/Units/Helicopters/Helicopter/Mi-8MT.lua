@@ -3679,7 +3679,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				EyePoint = { 0.09, 0, 0 },
 				limits_6DOF = {
 					roll = 45,
-					x = { -1.8, 0.2 },
+					x = { -2.2, 0.2 },
 					y = { -0.6, 0.5 },
 					z = { -1.1, 0.25 }
 				}

@@ -5,6 +5,9 @@ _G["launcher"]["{F-15E_AAQ-28_LITENING}"] = {
 			ShapeName = "F-15E_AAQ-28_LITENING"
 		} },
 	Picture = "AAQ-28.png",
+	Sensors = {
+		OPTIC = { "Litening AN/AAQ-28 FLIR", "Litening AN/AAQ-28 CCD TV" }
+	},
 	Weight = 211.373872,
 	_file = "./CoreMods/aircraft/F-15E/F-15E.lua",
 	_origin = "F-15E AI by RAZBAM",

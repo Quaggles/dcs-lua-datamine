@@ -17,6 +17,8 @@ _G["launcher"]["{BRU42_SUU25}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "SUU-25 * 8 LUU-2",
+	ejectDirection = { -1, 0, 0 },
+	ejectVelocity = 15,
 	name = "{BRU42_SUU25}",
 	wsTypeOfWeapon = { 4, 5, 49, "Redacted" }
 }

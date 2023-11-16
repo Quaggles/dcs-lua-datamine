@@ -5,6 +5,9 @@ _G["launcher"]["{F-15E_AAQ-14_LANTIRN}"] = {
 			ShapeName = "F-15E_AAQ-14_LANTIRN"
 		} },
 	Picture = "AAQ-14.png",
+	Sensors = {
+		OPTIC = { "LANTIRN AAQ-14 FLIR" }
+	},
 	Weight = 281.680632,
 	_file = "./CoreMods/aircraft/F-15E/F-15E.lua",
 	_origin = "F-15E AI by RAZBAM",

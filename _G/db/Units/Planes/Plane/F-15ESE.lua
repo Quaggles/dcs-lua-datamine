@@ -1,6 +1,26 @@
 _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	AOA_take_off = 0.16,
 	AddPropAircraft = { {
+			control = "label",
+			id = "iff_Label",
+			label = "IFF",
+			playerOnly = true,
+			xLbl = 150
+		}, {
+			control = "editbox",
+			getDefault = <function 1>,
+			id = "IFF_M2_CODE",
+			label = "IFF Mode 2 code",
+			onChange = <function 2>,
+			onFocus = <function 3>,
+			playerOnly = true
+		}, {
+			control = "label",
+			id = "misc_Label",
+			label = "MISC.",
+			playerOnly = true,
+			xLbl = 150
+		}, {
 			control = "checkbox",
 			defValue = false,
 			id = "MountNVG",
@@ -401,6 +421,23 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	DisplayName = "F-15E S4+",
 	EPLRS = true,
 	EmptyWeight = 17661,
+	Failures = { {
+			enable = false,
+			hh = 0,
+			id = "AAQ13_TF_RADAR_SENSOR_FAIL",
+			label = "AN/AAQ13 TF radar fail",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "CARA_RADALT_FAIL",
+			label = "CARA Radar Altimeter fail",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		} },
 	Guns = { {
 			_file = "./CoreMods/aircraft/F-15E/F-15E.lua",
 			_origin = "F-15E AI by RAZBAM",
@@ -442,8 +479,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			smoke_dir = { 0, 0, 0 },
 			supply = {
 				count = 510,
-				get_mass = <function 1>,
-				get_mass_ = <function 2>,
+				get_mass = <function 4>,
+				get_mass_ = <function 5>,
 				mixes = { { 3, 3, 3, 3, 1 }, { 2, 2, 2, 2, 1 } },
 				shells = { {
 						AP_cap_caliber = 20,
@@ -897,7 +934,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				max = 87.975,
 				min = 30
 			}, {
-				max = 115.975,
+				max = 117.975,
 				min = 108
 			}, {
 				max = 173.975,
@@ -1014,7 +1051,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{34759BBC-AF1E-4AEE-A581-498FF7A6EBCE}" },
 							station = 2
 						}, {
-							loadout = { "{AGM_130A}" },
+							loadout = { "{AGM_130C_9}" },
 							station = 2
 						}, {
 							loadout = { "<CLEAN>" },
@@ -1035,7 +1072,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{34759BBC-AF1E-4AEE-A581-498FF7A6EBCE}" },
 							station = 2
 						}, {
-							loadout = { "{AGM_130A}" },
+							loadout = { "{AGM_130C_9}" },
 							station = 2
 						}, {
 							loadout = { "<CLEAN>" },
@@ -1137,6 +1174,18 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{34759BBC-AF1E-4AEE-A581-498FF7A6EBCE}",
 					forbidden = <table 8>
+				}, {
+					CLSID = "{GBU-31}",
+					forbidden = <table 6>
+				}, {
+					CLSID = "{GBU-31V3B}",
+					forbidden = <table 6>
+				}, {
+					CLSID = "{GBU-38}",
+					forbidden = <table 6>
+				}, {
+					CLSID = "{GBU_54_V_1B}",
+					forbidden = <table 6>
 				}, {
 					CLSID = "{BDU-50LD}",
 					forbidden = <table 6>
@@ -1270,7 +1319,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{34759BBC-AF1E-4AEE-A581-498FF7A6EBCE}" },
 							station = 2
 						}, {
-							loadout = { "{AGM_130A}" },
+							loadout = { "{AGM_130C_9}" },
 							station = 2
 						}, {
 							loadout = { "<CLEAN>" },
@@ -1291,7 +1340,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{34759BBC-AF1E-4AEE-A581-498FF7A6EBCE}" },
 							station = 2
 						}, {
-							loadout = { "{AGM_130A}" },
+							loadout = { "{AGM_130C_9}" },
 							station = 2
 						}, {
 							loadout = { "<CLEAN>" },
@@ -1396,7 +1445,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_88A_AGM_65Kx3}" },
 							station = 2
 						}, {
-							loadout = { "{AGM_130A}" },
+							loadout = { "{AGM_130C_9}" },
 							station = 2
 						}, {
 							loadout = { "{AGM-154A}" },
@@ -1488,6 +1537,26 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{34759BBC-AF1E-4AEE-A581-498FF7A6EBCE}",
 					connector = "Pylon8",
+					forbidden = <table 9>
+				}, {
+					CLSID = "{GBU-31}",
+					connector = "Pylon8",
+					forbidden = <table 9>
+				}, {
+					CLSID = "{GBU-31V3B}",
+					connector = "Pylon8",
+					forbidden = <table 9>
+				}, {
+					CLSID = "{CFT_L_GBU_31_x_2}",
+					forbidden = <table 9>
+				}, {
+					CLSID = "{CFT_L_GBU_31V3B_x_2}",
+					forbidden = <table 9>
+				}, {
+					CLSID = "{CFT_L_GBU_38_x_3}",
+					forbidden = <table 9>
+				}, {
+					CLSID = "{CFT_L_GBU_54_x_3}",
 					forbidden = <table 9>
 				}, {
 					CLSID = "{BDU-50LD}",
@@ -1691,6 +1760,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}"
 				}, {
 					CLSID = "{34759BBC-AF1E-4AEE-A581-498FF7A6EBCE}"
+				}, {
+					CLSID = "{GBU-31}"
+				}, {
+					CLSID = "{GBU-31V3B}"
+				}, {
+					CLSID = "{GBU-38}"
+				}, {
+					CLSID = "{GBU_54_V_1B}"
 				}, {
 					CLSID = "{BDU-50LD}"
 				}, {
@@ -1920,7 +1997,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_88A_AGM_65Kx3}" },
 							station = 14
 						}, {
-							loadout = { "{AGM_130A}" },
+							loadout = { "{AGM_130C_9}" },
 							station = 14
 						}, {
 							loadout = { "{AGM-154A}" },
@@ -2012,6 +2089,26 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{34759BBC-AF1E-4AEE-A581-498FF7A6EBCE}",
 					connector = "Pylon12",
+					forbidden = <table 11>
+				}, {
+					CLSID = "{GBU-31}",
+					connector = "Pylon12",
+					forbidden = <table 11>
+				}, {
+					CLSID = "{GBU-31V3B}",
+					connector = "Pylon12",
+					forbidden = <table 11>
+				}, {
+					CLSID = "{CFT_R_GBU_31_x_2}",
+					forbidden = <table 11>
+				}, {
+					CLSID = "{CFT_R_GBU_31V3B_x_2}",
+					forbidden = <table 11>
+				}, {
+					CLSID = "{CFT_R_GBU_38_x_3}",
+					forbidden = <table 11>
+				}, {
+					CLSID = "{CFT_R_GBU_54_x_3}",
 					forbidden = <table 11>
 				}, {
 					CLSID = "{BDU-50LD}",
@@ -2270,6 +2367,18 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{34759BBC-AF1E-4AEE-A581-498FF7A6EBCE}",
 					forbidden = <table 15>
 				}, {
+					CLSID = "{GBU-31}",
+					forbidden = <table 13>
+				}, {
+					CLSID = "{GBU-31V3B}",
+					forbidden = <table 13>
+				}, {
+					CLSID = "{GBU-38}",
+					forbidden = <table 13>
+				}, {
+					CLSID = "{GBU_54_V_1B}",
+					forbidden = <table 13>
+				}, {
 					CLSID = "{BDU-50LD}",
 					forbidden = <table 13>
 				}, {
@@ -2402,7 +2511,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{34759BBC-AF1E-4AEE-A581-498FF7A6EBCE}" },
 							station = 14
 						}, {
-							loadout = { "{AGM_130A}" },
+							loadout = { "{AGM_130C_9}" },
 							station = 14
 						}, {
 							loadout = { "<CLEAN>" },
@@ -2423,7 +2532,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{34759BBC-AF1E-4AEE-A581-498FF7A6EBCE}" },
 							station = 14
 						}, {
-							loadout = { "{AGM_130A}" },
+							loadout = { "{AGM_130C_9}" },
 							station = 14
 						}, {
 							loadout = { "<CLEAN>" },
@@ -3013,83 +3122,83 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			channels = { {
 					connect = true,
 					default = 266,
-					modulation = "AM",
+					modulation = "FM",
 					name = "Channel 1"
 				}, {
 					default = 264,
-					modulation = "AM",
+					modulation = "FM",
 					name = "Channel 2"
 				}, {
 					default = 265,
-					modulation = "AM",
+					modulation = "FM",
 					name = "Channel 3"
 				}, {
 					default = 256,
-					modulation = "AM",
+					modulation = "FM",
 					name = "Channel 4"
 				}, {
 					default = 254,
-					modulation = "AM",
+					modulation = "FM",
 					name = "Channel 5"
 				}, {
 					default = 250,
-					modulation = "AM",
+					modulation = "FM",
 					name = "Channel 6"
 				}, {
 					default = 270,
-					modulation = "AM",
+					modulation = "FM",
 					name = "Channel 7"
 				}, {
 					default = 257,
-					modulation = "AM",
+					modulation = "FM",
 					name = "Channel 8"
 				}, {
 					default = 255,
-					modulation = "AM",
+					modulation = "FM",
 					name = "Channel 9"
 				}, {
 					default = 262,
-					modulation = "AM",
+					modulation = "FM",
 					name = "Channel 10"
 				}, {
 					default = 259,
-					modulation = "AM",
+					modulation = "FM",
 					name = "Channel 11"
 				}, {
 					default = 268,
-					modulation = "AM",
+					modulation = "FM",
 					name = "Channel 12"
 				}, {
 					default = 269,
-					modulation = "AM",
+					modulation = "FM",
 					name = "Channel 13"
 				}, {
 					default = 260,
-					modulation = "AM",
+					modulation = "FM",
 					name = "Channel 14"
 				}, {
 					default = 263,
-					modulation = "AM",
+					modulation = "FM",
 					name = "Channel 15"
 				}, {
 					default = 261,
-					modulation = "AM",
+					modulation = "FM",
 					name = "Channel 16"
 				}, {
 					default = 267,
-					modulation = "AM",
+					modulation = "FM",
 					name = "Channel 17"
 				}, {
 					default = 251,
-					modulation = "AM",
+					modulation = "FM",
 					name = "Channel 18"
 				}, {
 					default = 253,
-					modulation = "AM",
+					modulation = "FM",
 					name = "Channel 19"
 				}, {
 					default = 266,
-					modulation = "AM",
+					modulation = "FM",
 					name = "Channel 20"
 				} },
 			name = "UHF Radio 1",
@@ -3104,7 +3213,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					name = "Channel 1"
 				}, {
 					default = 257.8,
-					modulation = "AM",
+					modulation = "FM",
 					name = "Channel 2"
 				}, {
 					default = 122.1,
@@ -3116,11 +3225,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					name = "Channel 4"
 				}, {
 					default = 344,
-					modulation = "AM",
+					modulation = "FM",
 					name = "Channel 5"
 				}, {
 					default = 385,
-					modulation = "AM",
+					modulation = "FM",
 					name = "Channel 6"
 				}, {
 					default = 130,
@@ -3128,7 +3237,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					name = "Channel 7"
 				}, {
 					default = 385.4,
-					modulation = "AM",
+					modulation = "FM",
 					name = "Channel 8"
 				}, {
 					default = 139,
@@ -3264,7 +3373,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					max = 87.975,
 					min = 30
 				}, {
-					max = 115.975,
+					max = 117.975,
 					min = 108
 				}, {
 					max = 173.975,

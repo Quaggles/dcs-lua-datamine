@@ -2779,64 +2779,64 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "DIS_LS_6_500",
 					Type = 1,
-					arg_value = 0.6
+					arg_value = 0.5
 				}, {
 					CLSID = "DIS_LS_6_250",
 					Type = 1,
-					arg_value = 0.3
+					arg_value = 0.5
 				}, {
 					CLSID = "DIS_LS_6_250_DUAL_L",
 					Type = 1,
-					arg_value = 0.3
+					arg_value = 0.5
 				}, {
 					CLSID = "DIS_LS_6_100_DUAL_L",
 					Type = 1,
-					arg_value = 0.3
+					arg_value = 0.5
 				}, {
 					CLSID = "{Mk82SNAKEYE}",
-					arg_value = 0.3
+					arg_value = 0.5
 				}, {
 					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
-					arg_value = 0.3
+					arg_value = 0.5
 				}, {
 					CLSID = "{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}",
 					arg_value = 0.6
 				}, {
 					CLSID = "DIS_MK_20",
-					arg_value = 0.3
+					arg_value = 0.5
 				}, {
 					CLSID = "DIS_GBU_12",
-					arg_value = 0.3
+					arg_value = 0.5
 				}, {
 					CLSID = "DIS_TYPE200",
 					arg_value = 0.5
 				}, {
 					CLSID = "DIS_TYPE200_DUAL_L",
-					arg_value = 0.3
+					arg_value = 0.5
 				}, {
 					CLSID = "DIS_MK_82_DUAL_GDJ_II19_L",
-					arg_value = 0.3
+					arg_value = 0.5
 				}, {
 					CLSID = "DIS_MK_82S_DUAL_GDJ_II19_L",
-					arg_value = 0.3
+					arg_value = 0.5
 				}, {
 					CLSID = "DIS_MK_20_DUAL_GDJ_II19_L",
-					arg_value = 0.3
+					arg_value = 0.5
 				}, {
 					CLSID = "DIS_GBU_12_DUAL_GDJ_II19_L",
-					arg_value = 0.3
+					arg_value = 0.5
 				}, {
 					CLSID = "DIS_BRM1_90",
-					arg_value = 0.3
+					arg_value = 0.5
 				}, {
 					CLSID = "DIS_RKT_90_UG",
-					arg_value = 0.3
+					arg_value = 0.5
 				}, {
 					CLSID = "DIS_LAU68_MK5_DUAL_GDJ_II19_L",
-					arg_value = 0.3
+					arg_value = 0.5
 				}, {
 					CLSID = "DIS_WMD7",
-					arg_value = 0.7,
+					arg_value = 0.5,
 					forbidden = { {
 							loadout = { "DIS_WMD7" },
 							station = 4
@@ -2846,7 +2846,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "DIS_AKG_DLPOD",
-					arg_value = 0.7,
+					arg_value = 0.5,
 					forbidden = { {
 							loadout = { "DIS_AKG_DLPOD" },
 							station = 4
@@ -2903,15 +2903,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "DIS_GB6",
 					Type = 1,
-					arg_value = 0.4
+					arg_value = 0.5
 				}, {
 					CLSID = "DIS_GB6_TSP",
 					Type = 1,
-					arg_value = 0.4
+					arg_value = 0.5
 				}, {
 					CLSID = "DIS_GB6_HE",
 					Type = 1,
-					arg_value = 0.4
+					arg_value = 0.5
 				}, {
 					CLSID = "DIS_TANK800",
 					arg_value = 0.1
@@ -2983,7 +2983,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.2
 				}, {
 					CLSID = "DIS_WMD7",
-					arg_value = 0.4,
+					arg_value = 0.5,
 					forbidden = { {
 							loadout = { "DIS_WMD7" },
 							station = 2
@@ -2993,7 +2993,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "DIS_AKG_DLPOD",
-					arg_value = 0.4,
+					arg_value = 0.5,
 					forbidden = { {
 							loadout = { "DIS_AKG_DLPOD" },
 							station = 2
@@ -3003,7 +3003,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "DIS_SPJ_POD",
-					arg_value = 0.4,
+					arg_value = 0.5,
 					forbidden = { {
 							loadout = { "DIS_SPJ_POD" },
 							station = 2
@@ -3060,15 +3060,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "DIS_GB6",
 					Type = 1,
-					arg_value = 0.4
+					arg_value = 0.5
 				}, {
 					CLSID = "DIS_GB6_TSP",
 					Type = 1,
-					arg_value = 0.4
+					arg_value = 0.5
 				}, {
 					CLSID = "DIS_GB6_HE",
 					Type = 1,
-					arg_value = 0.4
+					arg_value = 0.5
 				}, {
 					CLSID = "DIS_TANK800",
 					arg_value = 0.1
@@ -3144,64 +3144,64 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "DIS_LS_6_500",
 					Type = 1,
-					arg_value = 0.6
+					arg_value = 0.5
 				}, {
 					CLSID = "DIS_LS_6_250",
 					Type = 1,
-					arg_value = 0.3
+					arg_value = 0.5
 				}, {
 					CLSID = "DIS_LS_6_250_DUAL_R",
 					Type = 1,
-					arg_value = 0.3
+					arg_value = 0.5
 				}, {
 					CLSID = "DIS_LS_6_100_DUAL_R",
 					Type = 1,
-					arg_value = 0.3
+					arg_value = 0.5
 				}, {
 					CLSID = "{Mk82SNAKEYE}",
-					arg_value = 0.3
+					arg_value = 0.5
 				}, {
 					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
-					arg_value = 0.3
+					arg_value = 0.5
 				}, {
 					CLSID = "{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}",
 					arg_value = 0.6
 				}, {
 					CLSID = "DIS_MK_20",
-					arg_value = 0.3
+					arg_value = 0.5
 				}, {
 					CLSID = "DIS_GBU_12",
-					arg_value = 0.3
+					arg_value = 0.5
 				}, {
 					CLSID = "DIS_TYPE200",
 					arg_value = 0.5
 				}, {
 					CLSID = "DIS_TYPE200_DUAL_R",
-					arg_value = 0.3
+					arg_value = 0.5
 				}, {
 					CLSID = "DIS_MK_82_DUAL_GDJ_II19_R",
-					arg_value = 0.3
+					arg_value = 0.5
 				}, {
 					CLSID = "DIS_MK_82S_DUAL_GDJ_II19_R",
-					arg_value = 0.3
+					arg_value = 0.5
 				}, {
 					CLSID = "DIS_MK_20_DUAL_GDJ_II19_R",
-					arg_value = 0.3
+					arg_value = 0.5
 				}, {
 					CLSID = "DIS_GBU_12_DUAL_GDJ_II19_R",
-					arg_value = 0.3
+					arg_value = 0.5
 				}, {
 					CLSID = "DIS_BRM1_90",
-					arg_value = 0.3
+					arg_value = 0.5
 				}, {
 					CLSID = "DIS_RKT_90_UG",
-					arg_value = 0.3
+					arg_value = 0.5
 				}, {
 					CLSID = "DIS_LAU68_MK5_DUAL_GDJ_II19_R",
-					arg_value = 0.3
+					arg_value = 0.5
 				}, {
 					CLSID = "DIS_WMD7",
-					arg_value = 0.7,
+					arg_value = 0.5,
 					forbidden = { {
 							loadout = { "DIS_WMD7" },
 							station = 2
@@ -3211,7 +3211,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "DIS_AKG_DLPOD",
-					arg_value = 0.7,
+					arg_value = 0.5,
 					forbidden = { {
 							loadout = { "DIS_AKG_DLPOD" },
 							station = 2
