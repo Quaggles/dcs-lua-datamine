@@ -10,7 +10,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			defValue = false,
 			id = "SoloFlight",
 			label = "Solo Flight",
-			weightWhenOn = -85
+			playerOnly = true
 		}, {
 			control = "comboList",
 			defValue = 1,

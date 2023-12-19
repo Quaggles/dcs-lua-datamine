@@ -46,6 +46,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							type_ammunition = {}
 						} },
 					customViewPoint = { "genericMissile", { 0, 0, 0 } },
+					frequencyRange = { 4000000000, 8000000000 },
 					sensor = {}
 				} },
 			PPI_view = "GenericPPI/GenericPPI",

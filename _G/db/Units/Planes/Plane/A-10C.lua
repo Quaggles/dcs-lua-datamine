@@ -1249,6 +1249,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{60CC734F-0AFA-4E2E-82B8-93B941AB11CF}"
 				}, {
+					CLSID = "{BRU42_2X_MK-82_L}"
+				}, {
+					CLSID = "{BRU42_1X_MK-82}"
+				}, {
 					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}"
 				}, {
 					CLSID = "{BDU-50LD}"
@@ -1339,6 +1343,38 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "LAU_131x3_HYDRA_70_M278"
 				}, {
+					CLSID = "{BRU42LS_2*LAU68_HYDRA_70_MK1_L}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU68_HYDRA_70_MK5_L}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU68_HYDRA_70_MK61_L}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU68_HYDRA_70_M151_L}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU68_HYDRA_70_M156_L}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU68_HYDRA_70_WTU1B_L}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU68_HYDRA_70_M257_L}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU68_HYDRA_70_M274_L}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU131_HYDRA_70_MK1_L}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU131_HYDRA_70_MK5_L}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU131_HYDRA_70_MK61_L}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU131_HYDRA_70_M151_L}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU131_HYDRA_70_M156_L}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU131_HYDRA_70_WTU1B_L}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU131_HYDRA_70_M257_L}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU131_HYDRA_70_M274_L}"
+				}, {
 					CLSID = "MXU-648-TP"
 				}, {
 					CLSID = "BRU-42_LS"
@@ -1365,6 +1401,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "BRU-42_3*GBU-12"
 				}, {
+					CLSID = "{BRU42_2X_GBU-12_L}"
+				}, {
+					CLSID = "{BRU42_1X_GBU-12}"
+				}, {
 					CLSID = "{5335D97A-35A5-4643-9D9B-026C75961E52}"
 				}, {
 					CLSID = "{CBU_105}"
@@ -1377,7 +1417,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{BRU-42_3*Mk-82AIR}"
 				}, {
+					CLSID = "{BRU42_2X_MK-82AIR_L}"
+				}, {
+					CLSID = "{BRU42_1X_MK-82AIR}"
+				}, {
 					CLSID = "{BRU-42_LS_3*SUU-25_8*LUU-2}"
+				}, {
+					CLSID = "{BRU-42_LS_2*SUU-25_8*LUU-2_L}"
+				}, {
+					CLSID = "{BRU-42_LS_1*SUU-25_8*LUU-2}"
 				} },
 			Number = 3,
 			Order = 3,
@@ -1484,6 +1532,38 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "LAU_131x3_HYDRA_70_M278"
 				}, {
+					CLSID = "{BRU42LS_2*LAU68_HYDRA_70_MK1_L}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU68_HYDRA_70_MK5_L}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU68_HYDRA_70_MK61_L}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU68_HYDRA_70_M151_L}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU68_HYDRA_70_M156_L}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU68_HYDRA_70_WTU1B_L}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU68_HYDRA_70_M257_L}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU68_HYDRA_70_M274_L}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU131_HYDRA_70_MK1_L}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU131_HYDRA_70_MK5_L}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU131_HYDRA_70_MK61_L}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU131_HYDRA_70_M151_L}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU131_HYDRA_70_M156_L}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU131_HYDRA_70_WTU1B_L}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU131_HYDRA_70_M257_L}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU131_HYDRA_70_M274_L}"
+				}, {
 					CLSID = "MXU-648-TP"
 				}, {
 					CLSID = "BRU-42_LS"
@@ -1491,6 +1571,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "BRU-42_3*BDU-33"
 				}, {
 					CLSID = "BRU-42_3*GBU-12"
+				}, {
+					CLSID = "{BRU42_2X_GBU-12_L}"
+				}, {
+					CLSID = "{BRU42_1X_GBU-12}"
 				}, {
 					CLSID = "{5335D97A-35A5-4643-9D9B-026C75961E52}"
 				}, {
@@ -1502,7 +1586,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{BRU-42_3*Mk-82AIR}"
 				}, {
+					CLSID = "{BRU42_2X_MK-82AIR_L}"
+				}, {
+					CLSID = "{BRU42_1X_MK-82AIR}"
+				}, {
 					CLSID = "{60CC734F-0AFA-4E2E-82B8-93B941AB11CF}"
+				}, {
+					CLSID = "{BRU42_2X_MK-82_L}"
+				}, {
+					CLSID = "{BRU42_1X_MK-82}"
 				} },
 			Number = 4,
 			Order = 4,
@@ -1573,7 +1665,19 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{60CC734F-0AFA-4E2E-82B8-93B941AB11CF}",
 					required = <table 6>
 				}, {
+					CLSID = "{BRU42_2X_MK-82_L}",
+					required = <table 6>
+				}, {
+					CLSID = "{BRU42_1X_MK-82}",
+					required = <table 6>
+				}, {
 					CLSID = "{BRU-42_3*Mk-82AIR}",
+					required = <table 6>
+				}, {
+					CLSID = "{BRU42_2X_MK-82AIR_L}",
+					required = <table 6>
+				}, {
+					CLSID = "{BRU42_1X_MK-82AIR}",
 					required = <table 6>
 				} },
 			Number = 5,
@@ -1699,7 +1803,19 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{60CC734F-0AFA-4E2E-82B8-93B941AB11CF}",
 					required = <table 6>
 				}, {
+					CLSID = "{BRU42_2X_MK-82_R}",
+					required = <table 6>
+				}, {
+					CLSID = "{BRU42_1X_MK-82}",
+					required = <table 6>
+				}, {
 					CLSID = "{BRU-42_3*Mk-82AIR}",
+					required = <table 6>
+				}, {
+					CLSID = "{BRU42_2X_MK-82AIR_R}",
+					required = <table 6>
+				}, {
+					CLSID = "{BRU42_1X_MK-82AIR}",
 					required = <table 6>
 				} },
 			Number = 7,
@@ -1807,6 +1923,38 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "LAU_131x3_HYDRA_70_M278"
 				}, {
+					CLSID = "{BRU42LS_2*LAU68_HYDRA_70_MK1_R}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU68_HYDRA_70_MK5_R}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU68_HYDRA_70_MK61_R}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU68_HYDRA_70_M151_R}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU68_HYDRA_70_M156_R}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU68_HYDRA_70_WTU1B_R}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU68_HYDRA_70_M257_R}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU68_HYDRA_70_M274_R}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU131_HYDRA_70_MK1_R}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU131_HYDRA_70_MK5_R}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU131_HYDRA_70_MK61_R}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU131_HYDRA_70_M151_R}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU131_HYDRA_70_M156_R}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU131_HYDRA_70_WTU1B_R}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU131_HYDRA_70_M257_R}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU131_HYDRA_70_M274_R}"
+				}, {
 					CLSID = "MXU-648-TP"
 				}, {
 					CLSID = "BRU-42_LS"
@@ -1814,6 +1962,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "BRU-42_3*BDU-33"
 				}, {
 					CLSID = "BRU-42_3*GBU-12"
+				}, {
+					CLSID = "{BRU42_2X_GBU-12_R}"
+				}, {
+					CLSID = "{BRU42_1X_GBU-12}"
 				}, {
 					CLSID = "{5335D97A-35A5-4643-9D9B-026C75961E52}"
 				}, {
@@ -1825,7 +1977,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{BRU-42_3*Mk-82AIR}"
 				}, {
+					CLSID = "{BRU42_2X_MK-82AIR_R}"
+				}, {
+					CLSID = "{BRU42_1X_MK-82AIR}"
+				}, {
 					CLSID = "{60CC734F-0AFA-4E2E-82B8-93B941AB11CF}"
+				}, {
+					CLSID = "{BRU42_2X_MK-82_R}"
+				}, {
+					CLSID = "{BRU42_1X_MK-82}"
 				} },
 			Number = 8,
 			Order = 8,
@@ -1851,6 +2011,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}"
 				}, {
 					CLSID = "{60CC734F-0AFA-4E2E-82B8-93B941AB11CF}"
+				}, {
+					CLSID = "{BRU42_2X_MK-82_R}"
+				}, {
+					CLSID = "{BRU42_1X_MK-82}"
 				}, {
 					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}"
 				}, {
@@ -1942,6 +2106,38 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "LAU_131x3_HYDRA_70_M278"
 				}, {
+					CLSID = "{BRU42LS_2*LAU68_HYDRA_70_MK1_R}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU68_HYDRA_70_MK5_R}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU68_HYDRA_70_MK61_R}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU68_HYDRA_70_M151_R}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU68_HYDRA_70_M156_R}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU68_HYDRA_70_WTU1B_R}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU68_HYDRA_70_M257_R}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU68_HYDRA_70_M274_R}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU131_HYDRA_70_MK1_R}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU131_HYDRA_70_MK5_R}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU131_HYDRA_70_MK61_R}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU131_HYDRA_70_M151_R}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU131_HYDRA_70_M156_R}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU131_HYDRA_70_WTU1B_R}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU131_HYDRA_70_M257_R}"
+				}, {
+					CLSID = "{BRU42LS_2*LAU131_HYDRA_70_M274_R}"
+				}, {
 					CLSID = "MXU-648-TP"
 				}, {
 					CLSID = "BRU-42_LS"
@@ -1968,6 +2164,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "BRU-42_3*GBU-12"
 				}, {
+					CLSID = "{BRU42_2X_GBU-12_R}"
+				}, {
+					CLSID = "{BRU42_1X_GBU-12}"
+				}, {
 					CLSID = "{5335D97A-35A5-4643-9D9B-026C75961E52}"
 				}, {
 					CLSID = "{CBU_105}"
@@ -1980,7 +2180,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{BRU-42_3*Mk-82AIR}"
 				}, {
+					CLSID = "{BRU42_2X_MK-82AIR_R}"
+				}, {
+					CLSID = "{BRU42_1X_MK-82AIR}"
+				}, {
 					CLSID = "{BRU-42_LS_3*SUU-25_8*LUU-2}"
+				}, {
+					CLSID = "{BRU-42_LS_2*SUU-25_8*LUU-2_R}"
+				}, {
+					CLSID = "{BRU-42_LS_1*SUU-25_8*LUU-2}"
 				} },
 			Number = 9,
 			Order = 9,
@@ -2359,6 +2567,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		} },
 	country_of_origin = "USA",
 	crew_members = { {
+			bailout_arg = -1,
 			boarding_arg = 323,
 			drop_canopy_name = 20,
 			ejection_seat_name = 17,

@@ -21,6 +21,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					beamWidth = 1.5707963267949,
 					distanceMax = 70000,
 					distanceMin = 1000,
+					frequencyRange = { 8000000000, 10000000000 },
 					maxShootingSpeed = 0,
 					max_number_of_missiles_channels = 2,
 					max_trg_alt = 14000,

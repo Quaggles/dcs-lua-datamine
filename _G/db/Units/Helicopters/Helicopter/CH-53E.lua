@@ -220,5 +220,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	tail_pos = { -13.65, 2.914, 0 },
 	tail_stab_area = 6.6,
 	thrust_correction = 0.7,
-	type = "CH-53E"
+	type = "CH-53E",
+	undercarriage_movement = 1
 }

@@ -3,6 +3,7 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["KS19"] = {
 			ammo_capacity = 200,
 			automaticLoader = false,
 			portionAmmoCapacity = 200,
+			reload_time = 1200,
 			shell_name = { "KS19_100HE" },
 			shot_delay = 4.2857142857143
 		} },

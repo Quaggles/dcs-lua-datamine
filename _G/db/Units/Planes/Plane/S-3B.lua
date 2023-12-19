@@ -38,100 +38,334 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		} },
 	Countries = {},
 	Damage = {
-		[0] = {
-			args = { 82 },
+		[4] = {
+			args = { 150 },
 			critical_damage = 5
 		},
-		[3] = {
-			args = { 65 },
-			critical_damage = 10
+		[5] = {
+			args = { 149 },
+			critical_damage = 5
 		},
-		[8] = {
-			critical_damage = 10
+		[6] = {
+			args = { 148 },
+			critical_damage = 3,
+			deps_cells = { 138, 139 }
+		},
+		[9] = {
+			args = { 154 },
+			critical_damage = 5,
+			deps_cells = { 141, 145 }
+		},
+		[10] = {
+			args = { 153 },
+			critical_damage = 5,
+			deps_cells = { 140, 144 }
 		},
 		[11] = {
+			args = { 167 },
 			critical_damage = 3
 		},
 		[12] = {
+			args = { 161 },
 			critical_damage = 3
 		},
-		[15] = {
-			critical_damage = 10
-		},
-		[16] = {
-			critical_damage = 10
-		},
 		[17] = {
+			args = { 166 },
 			critical_damage = 3
 		},
 		[18] = {
+			args = { 160 },
 			critical_damage = 3
 		},
+		[21] = {
+			args = { -1 },
+			critical_damage = 2
+		},
+		[22] = {
+			args = { -1 },
+			critical_damage = 2
+		},
+		[23] = {
+			args = { 223 },
+			critical_damage = 5,
+			deps_cells = { 21, 25 }
+		},
+		[24] = {
+			args = { 213 },
+			critical_damage = 5,
+			deps_cells = { 22, 26 }
+		},
 		[25] = {
-			args = { 53 },
-			critical_damage = 5
+			args = { 226 },
+			critical_damage = 3
 		},
 		[26] = {
-			args = { 54 },
-			critical_damage = 5
+			args = { 216 },
+			critical_damage = 3
+		},
+		[29] = {
+			args = { 224 },
+			critical_damage = 5,
+			deps_cells = { 23, 33, 31 }
+		},
+		[30] = {
+			args = { 214 },
+			critical_damage = 5,
+			deps_cells = { 24, 34, 32 }
+		},
+		[31] = {
+			args = { 228 },
+			critical_damage = 2
+		},
+		[32] = {
+			args = { 218 },
+			critical_damage = 2
+		},
+		[33] = {
+			args = { 230 },
+			critical_damage = 2
+		},
+		[34] = {
+			args = { 220 },
+			critical_damage = 2
 		},
 		[35] = {
-			args = { 67 },
-			critical_damage = 20,
-			deps_cells = { 25, 37, 11, 17 }
+			args = { 225 },
+			critical_damage = 7,
+			deps_cells = { 29, 86, 37 }
 		},
 		[36] = {
-			args = { 68 },
-			critical_damage = 20,
-			deps_cells = { 26, 38, 12, 18 }
+			args = { 215 },
+			critical_damage = 7,
+			deps_cells = { 30, 87, 38 }
 		},
 		[37] = {
-			args = { 55 },
-			critical_damage = 4
+			args = { 227 },
+			critical_damage = 2
 		},
 		[38] = {
-			args = { 56 },
-			critical_damage = 4
+			args = { 217 },
+			critical_damage = 2
+		},
+		[39] = {
+			args = { 241 },
+			critical_damage = 3,
+			deps_cells = { 151 }
+		},
+		[41] = {
+			args = { 242 },
+			critical_damage = 4,
+			deps_cells = { 39, 150 }
 		},
 		[43] = {
-			args = { 61 },
-			critical_damage = 4,
-			deps_cells = { 53 }
+			args = { 243 },
+			critical_damage = 5,
+			deps_cells = { 41 }
 		},
-		[44] = {
-			args = { 62 },
-			critical_damage = 4,
-			deps_cells = { 54 }
+		[45] = {
+			args = { 239 },
+			critical_damage = 3,
+			deps_cells = { 49 }
+		},
+		[46] = {
+			args = { 237 },
+			critical_damage = 3,
+			deps_cells = { 50 }
 		},
 		[47] = {
-			args = { 63 },
-			critical_damage = 5,
-			deps_cells = { 51 }
+			args = { 240 },
+			critical_damage = 3,
+			deps_cells = { 45, 51 }
 		},
 		[48] = {
-			args = { 64 },
-			critical_damage = 5,
-			deps_cells = { 52 }
+			args = { 238 },
+			critical_damage = 3,
+			deps_cells = { 46, 52 }
+		},
+		[49] = {
+			args = { -1 },
+			critical_damage = 3
+		},
+		[50] = {
+			args = { -1 },
+			critical_damage = 3
 		},
 		[51] = {
-			args = { 59 },
-			critical_damage = 2
+			args = { -1 },
+			critical_damage = 3
 		},
 		[52] = {
-			args = { 60 },
-			critical_damage = 2
+			args = { -1 },
+			critical_damage = 3
 		},
-		[53] = {
-			args = { 57 },
-			critical_damage = 2
+		[56] = {
+			args = { 158 },
+			critical_damage = 5
 		},
-		[54] = {
-			args = { 58 },
-			critical_damage = 2
+		[57] = {
+			args = { 157 },
+			critical_damage = 5
 		},
-		[55] = {
-			args = { 81 },
-			critical_damage = 15
+		[58] = {
+			args = { 156 },
+			critical_damage = 6
+		},
+		[82] = {
+			args = { 152 },
+			critical_damage = 10,
+			deps_cells = { 142, 143, 146, 147, 148, 149 }
+		},
+		[83] = {
+			args = { -1 },
+			critical_damage = 3
+		},
+		[84] = {
+			args = { -1 },
+			critical_damage = 3
+		},
+		[85] = {
+			args = { -1 },
+			critical_damage = 3
+		},
+		[86] = {
+			args = { -1 },
+			critical_damage = 3
+		},
+		[87] = {
+			args = { -1 },
+			critical_damage = 3
+		},
+		[98] = {
+			args = { -1 },
+			critical_damage = 3
+		},
+		[99] = {
+			args = { 151 },
+			critical_damage = 10
+		},
+		[137] = {
+			args = { -1 },
+			critical_damage = 3
+		},
+		[138] = {
+			args = { -1 },
+			critical_damage = 3
+		},
+		[139] = {
+			args = { -1 },
+			critical_damage = 3
+		},
+		[140] = {
+			args = { -1 },
+			critical_damage = 3
+		},
+		[141] = {
+			args = { -1 },
+			critical_damage = 3
+		},
+		[142] = {
+			args = { -1 },
+			critical_damage = 3
+		},
+		[143] = {
+			args = { -1 },
+			critical_damage = 3
+		},
+		[144] = {
+			args = { -1 },
+			critical_damage = 3
+		},
+		[145] = {
+			args = { -1 },
+			critical_damage = 3
+		},
+		[146] = {
+			args = { -1 },
+			critical_damage = 3
+		},
+		[147] = {
+			args = { -1 },
+			critical_damage = 3
+		},
+		[148] = {
+			args = { -1 },
+			critical_damage = 3
+		},
+		[149] = {
+			args = { -1 },
+			critical_damage = 3
+		},
+		[150] = {
+			args = { 247 },
+			critical_damage = 3
+		},
+		[151] = {
+			args = { -1 },
+			critical_damage = 3
+		},
+		cell_indices = {
+			AILERON_L = 25,
+			AILERON_R = 26,
+			BOOM = 137,
+			CABIN_BOTTOM = 6,
+			CABIN_LEFT_SIDE = 4,
+			CABIN_RIGHT_SIDE = 5,
+			ELEVATOR_L_IN = 51,
+			ELEVATOR_L_OUT = 49,
+			ELEVATOR_R_IN = 52,
+			ELEVATOR_R_OUT = 50,
+			ENGINE_L_IN = 11,
+			ENGINE_L_OUT = 17,
+			ENGINE_R_IN = 12,
+			ENGINE_R_OUT = 18,
+			FLAP_L_IN = 37,
+			FLAP_L_OUT = 31,
+			FLAP_R_IN = 38,
+			FLAP_R_OUT = 32,
+			FUSELAGE_BOTTOM = 82,
+			FUSELAGE_LEFT_SIDE = 9,
+			FUSELAGE_RIGHT_SIDE = 10,
+			FUSELAGE_TOP = 99,
+			HATCH_001 = 138,
+			HATCH_002 = 139,
+			HATCH_003 = 140,
+			HATCH_004 = 141,
+			HATCH_005 = 142,
+			HATCH_006 = 143,
+			HATCH_007 = 144,
+			HATCH_008 = 145,
+			HATCH_009 = 146,
+			HATCH_010 = 147,
+			HATCH_011 = 148,
+			HATCH_012 = 149,
+			HOOK = 98,
+			KEEL_CENTER = 41,
+			KEEL_IN = 43,
+			KEEL_OUT = 39,
+			PYLONL = 86,
+			PYLONR = 87,
+			RUDDER_IN = 150,
+			RUDDER_OUT = 151,
+			STABILIZER_L_IN = 47,
+			STABILIZER_L_OUT = 45,
+			STABILIZER_R_IN = 48,
+			STABILIZER_R_OUT = 46,
+			TAIL_BOTTOM = 58,
+			TAIL_LEFT_SIDE = 56,
+			TAIL_RIGHT_SIDE = 57,
+			WHEEL_F = 83,
+			WHEEL_L = 84,
+			WHEEL_R = 85,
+			WING_L_CENTER = 29,
+			WING_L_IN = 35,
+			WING_L_OUT = 23,
+			WING_L_PART_IN = 33,
+			WING_L_PART_OUT = 21,
+			WING_R_CENTER = 30,
+			WING_R_IN = 36,
+			WING_R_OUT = 24,
+			WING_R_PART_IN = 34,
+			WING_R_PART_OUT = 22
 		}
 	},
 	DefaultTask = <1>{
@@ -157,11 +391,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Name = "AircraftCarrier With Arresting Gear"
 		} },
 	M_empty = 12088,
-	M_fuel_max = 5500,
+	M_fuel_max = 5962,
 	M_max = 23831,
 	M_nominal = 19278,
 	Mach_max = 0.682,
-	MaxFuelWeight = 5500,
+	MaxFuelWeight = 5962,
 	MaxHeight = 12200,
 	MaxSpeed = 834.12,
 	MaxTakeOffWeight = 23831,
@@ -325,37 +559,47 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	WorldID = 42,
 	_file = "./CoreMods/tech/HeavyMetalCore/Database/Aircraft/S-3B.lua",
 	_origin = "HeavyMetalCore",
-	air_refuel_receptacle_pos = { 6.18, 1.23, 0 },
+	air_refuel_receptacle_pos = { 6.25, 1.23, 0 },
 	attribute = { 1, 1, 5, "Redacted", "Aux", "Refuelable", "Datalink", "Link16", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes" },
 	average_fuel_consumption = 0.06,
 	bank_angle_max = 45,
 	brakeshute_name = 0,
+	chaff_flare_dispenser = { {
+			dir = { 0, 0, -2 },
+			pos = { -3.6, -0.48, -1.2 }
+		}, {
+			dir = { 0, 0, 2 },
+			pos = { -3.6, -0.48, 1.2 }
+		} },
 	country_of_origin = "USA",
 	crew_members = { {
-			bailout_arg = -1,
+			bailout_arg = 118,
 			drop_canopy_name = 0,
-			ejection_seat_name = 9,
+			ejection_seat_name = 58,
 			pos = { 3.27, 0.748, -0.521 },
 			role = "pilot",
 			role_display_name = "Pilot in command"
 		}, {
-			bailout_arg = -1,
+			bailout_arg = 118,
 			drop_canopy_name = 0,
-			ejection_seat_name = 9,
+			ejection_seat_name = 58,
+			pilot_body_arg = 472,
 			pos = { 3.27, 0.748, 0.521 },
 			role = "copilot",
 			role_display_name = "Copilot"
 		}, {
-			bailout_arg = -1,
+			bailout_arg = 118,
 			drop_canopy_name = 0,
-			ejection_seat_name = 9,
+			ejection_seat_name = 58,
+			pilot_body_arg = 487,
 			pos = { 1.271, 0.748, -0.521 },
 			role = "flight_officer",
 			role_display_name = "Tactical coordinator"
 		}, {
-			bailout_arg = -1,
+			bailout_arg = 118,
 			drop_canopy_name = 0,
-			ejection_seat_name = 9,
+			ejection_seat_name = 58,
+			pilot_body_arg = 488,
 			pos = { 1.271, 0.748, 0.521 },
 			role = "flight_officer",
 			role_display_name = "Sensor operator"
@@ -702,7 +946,23 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						C = { { "Arg", 38, "to", 0, "in", 6 } }
 					} },
 				Transition = { "Board", "Open" }
+			}, {
+				Sequence = { {
+						C = { { "PosType", 9 }, { "Sleep", "for", 0.5 } }
+					}, {
+						C = { { "Arg", 118, "set", 1 } }
+					} },
+				Transition = { "Any", "Bailout" }
 			} },
+		Door1 = {
+			DuplicateOf = "Door0"
+		},
+		Door2 = {
+			DuplicateOf = "Door0"
+		},
+		Door3 = {
+			DuplicateOf = "Door0"
+		},
 		FoldableWings = { {
 				Flags = { "Reversible" },
 				Sequence = { {

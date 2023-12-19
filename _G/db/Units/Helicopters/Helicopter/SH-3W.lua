@@ -257,5 +257,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	tail_pos = { -14.726, 2.375, 0 },
 	tail_stab_area = 2.94,
 	thrust_correction = 0.8,
-	type = "SH-3W"
+	type = "SH-3W",
+	undercarriage_movement = 1
 }

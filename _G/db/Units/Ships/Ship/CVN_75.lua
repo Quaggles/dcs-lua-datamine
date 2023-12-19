@@ -447,6 +447,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		}
 	},
 	TACAN = true,
+	TACAN_def_channel = 75,
 	TACAN_position = { -55, 55, 29 },
 	Tail_Width = 22,
 	TaxiForTORoutes = { {

@@ -18,6 +18,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					depends_on_unit = { { { "Hawk pcp" } } },
 					distanceMax = 90000,
 					distanceMin = 1500,
+					frequencyRange = { 8000000000, 12000000000 },
 					max_number_of_missiles_channels = 2,
 					max_trg_alt = 20000,
 					min_trg_alt = 25,
@@ -75,8 +76,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			pos = { 0, 0, 0 }
 		},
 		maxTargetDetectionRange = 90000,
-		radar_type = 103,
-		searchRadarFrequencies = { { 8000000000, 12000000000 } }
+		radar_type = 103
 	},
 	Waypoint_Custom_Panel = true,
 	animation_arguments = {},

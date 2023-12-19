@@ -3,6 +3,7 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["Flak18"] = {
 			ammo_capacity = 200,
 			automaticLoader = false,
 			portionAmmoCapacity = 200,
+			reload_time = 3600,
 			shell_name = { "Flak18_Sprgr_39" },
 			shot_delay = 4,
 			virtualStwID = 1

@@ -6,10 +6,10 @@ _G["launcher"]["BRU-42_3*GBU-12"] = {
 			ShapeName = "BRU-42_LS"
 		}, {
 			ShapeName = "GBU-12",
-			connector_name = "Point03"
+			connector_name = "Point02"
 		}, {
 			ShapeName = "GBU-12",
-			connector_name = "Point02"
+			connector_name = "Point03"
 		}, {
 			ShapeName = "GBU-12",
 			connector_name = "Point01"

@@ -45,7 +45,7 @@ _G["rockets"]["#Index"] = {
 		work_time = 0
 	},
 	category = 2,
-	class_name = "wAmmunitionSelfHoming",
+	class_name = "wAmmunitionCruise",
 	control_block = {
 		can_update_target_pos = 0,
 		default_cruise_height = 55,

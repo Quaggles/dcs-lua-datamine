@@ -178,6 +178,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			_unique_resource_name = "weapons.gunmounts.MINIGUN",
 			aft_gun_mount = false,
 			azimuth_initial = 0,
+			barrel_circular_error = 0.005,
 			category = 8,
 			display_name = "MINIGUN",
 			drop_cartridge = 205,

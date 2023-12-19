@@ -430,5 +430,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	tail_pos = { -19.78, 4.233, 0 },
 	tail_stab_area = 6.94,
 	thrust_correction = 0.75,
-	type = "Mi-26"
+	type = "Mi-26",
+	undercarriage_movement = 0
 }

@@ -1273,6 +1273,19 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	main_gear_pos = { -0.414, -1.86, 1.336 },
 	mapclasskey = "P0091000021",
 	mechanimations = {
+		CentralStrut = { {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "VelType", 0 }, { "Arg", 0, "to", 1, "in", 1, "sign", 1 } }
+					} },
+				Transition = { "Retract", "Extend" }
+			}, {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "VelType", 2 }, { "Arg", 0, "to", 0, "in", 1, "sign", -1 } }
+					} },
+				Transition = { "Extend", "Retract" }
+			} },
 		Door0 = { {
 				Flags = { "Reversible" },
 				Sequence = { {
@@ -1308,6 +1321,64 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						C = { { "Arg", 209, "to", 0.73, "speed", 0.14 }, { "Arg", 44, "to", 0, "speed", 0.14 }, { "Arg", 208, "to", 0.73, "speed", 0.14 }, { "Arg", 43, "to", 0, "speed", 0.14 } }
 					} },
 				Transition = { "Any", "High" }
+			} },
+		LeftStrut = { {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "VelType", 1 }, { "Arg", 10, "to", 1, "in", 0.5, "sign", 1 } }
+					}, {
+						C = { { "PosType", 3 }, { "Sleep", "for", 0.3 } }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 5, "to", 1, "in", 1, "sign", 1 } }
+					}, {
+						C = { { "PosType", 3 }, { "Sleep", "for", 0.3 } }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 10, "to", 0, "in", 0.5, "sign", -1 } }
+					} },
+				Transition = { "Retract", "Extend" }
+			}, {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "VelType", 1 }, { "Arg", 10, "to", 1, "in", 0.5, "sign", 1 } }
+					}, {
+						C = { { "PosType", 3 }, { "Sleep", "for", 0.3 } }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 5, "to", 0, "in", 1, "sign", -1 } }
+					}, {
+						C = { { "PosType", 3 }, { "Sleep", "for", 0.3 } }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 10, "to", 0, "in", 0.5, "sign", -1 } }
+					} },
+				Transition = { "Extend", "Retract" }
+			} },
+		RightStrut = { {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "VelType", 1 }, { "Arg", 9, "to", 1, "in", 0.5, "sign", 1 } }
+					}, {
+						C = { { "PosType", 3 }, { "Sleep", "for", 0.3 } }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 3, "to", 1, "in", 1, "sign", 1 } }
+					}, {
+						C = { { "PosType", 3 }, { "Sleep", "for", 0.3 } }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 9, "to", 0, "in", 0.5, "sign", -1 } }
+					} },
+				Transition = { "Retract", "Extend" }
+			}, {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "VelType", 1 }, { "Arg", 9, "to", 1, "in", 0.5, "sign", 1 } }
+					}, {
+						C = { { "PosType", 3 }, { "Sleep", "for", 0.3 } }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 3, "to", 0, "in", 1, "sign", -1 } }
+					}, {
+						C = { { "PosType", 3 }, { "Sleep", "for", 0.3 } }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 9, "to", 0, "in", 0.5, "sign", -1 } }
+					} },
+				Transition = { "Extend", "Retract" }
 			} },
 		ServiceHatches = { {
 				Sequence = { {
@@ -1553,5 +1624,15 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	tail_pos = { -7.245, 0.752, 0 },
 	tail_stab_area = 2.94,
 	thrust_correction = 0.55,
-	type = "Ka-50"
+	turret_data = {
+		H_Max = 9,
+		H_Min = -2.5,
+		H_Vel = 20,
+		V_Max = 3.5,
+		V_Min = -37,
+		V_Vel = 20
+	},
+	type = "Ka-50",
+	undercarriage_movement = 2,
+	undercarriage_transmission = "Hydraulic"
 }

@@ -122,6 +122,7 @@ _G["rockets"]["#Index"] = {
 		} },
 	sigma = { 10, 10, 10 },
 	simple_gyrostab_seeker = {
+		delay = 3,
 		gimbal_lim = 1.1344640137963,
 		omega_max = 0.13962634015955
 	},

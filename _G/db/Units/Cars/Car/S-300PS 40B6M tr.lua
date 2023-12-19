@@ -19,6 +19,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					depends_on_unit = { { { "S-300PS 54K6 cp" } } },
 					distanceMax = 160000,
 					distanceMin = 2000,
+					frequencyRange = { 8000000000, 20000000000 },
 					max_number_of_missiles_channels = 2,
 					max_trg_alt = 27000,
 					min_trg_alt = 25,
@@ -43,7 +44,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			pos = { 0, 27, 0 }
 		}, {
 			LN = { {
-					depends_on_unit = { { {} } }
+					depends_on_unit = { { {} } },
+					frequencyRange = {}
 				} },
 			angles = { { 0.78539816339745, -0.78539816339745, -0.17453292519943, 1.3962634015955 } },
 			base = 1,
@@ -52,7 +54,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			pos = { 0, 0, 0 }
 		}, {
 			LN = { {
-					depends_on_unit = { { {} } }
+					depends_on_unit = { { {} } },
+					frequencyRange = {}
 				} },
 			angles = { { 0.78539816339745, -0.78539816339745, -0.17453292519943, 1.3962634015955 } },
 			base = 1,
@@ -61,7 +64,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			pos = { 0, 0, 0 }
 		}, {
 			LN = { {
-					depends_on_unit = { { {} } }
+					depends_on_unit = { { {} } },
+					frequencyRange = {}
 				} },
 			angles = { { 0.78539816339745, -0.78539816339745, -0.17453292519943, 1.3962634015955 } },
 			base = 1,
@@ -70,7 +74,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			pos = { 0, 0, 0 }
 		}, {
 			LN = { {
-					depends_on_unit = { { {} } }
+					depends_on_unit = { { {} } },
+					frequencyRange = {}
 				} },
 			angles = { { 0.78539816339745, -0.78539816339745, -0.17453292519943, 1.3962634015955 } },
 			base = 1,
@@ -79,7 +84,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			pos = { 0, 0, 0 }
 		}, {
 			LN = { {
-					depends_on_unit = { { {} } }
+					depends_on_unit = { { {} } },
+					frequencyRange = {}
 				} },
 			angles = { { 0.78539816339745, -0.78539816339745, -0.17453292519943, 1.3962634015955 } },
 			base = 1,

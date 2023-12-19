@@ -29,6 +29,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						} },
 					beamWidth = 1.5707963267949,
 					fireAnimationArgument = 23,
+					frequencyRange = { 10000000000, 20000000000 },
 					sensor = {},
 					sightIndicationMode = 1,
 					sightMasterMode = 1
@@ -61,6 +62,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					PL = { {
 							type_ammunition = {}
 						} },
+					beamWidth = 0.087266462599716,
+					frequencyRange = { 10000000000, 20000000000 },
 					inclination_correction_bias = 0.05235987755983,
 					inclination_correction_upper_limit = 0.34906585039887,
 					sensor = {},

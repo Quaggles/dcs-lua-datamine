@@ -517,6 +517,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
 					arg_value = 0.5
+				}, {
+					CLSID = "{R_60}"
 				} },
 			Number = 1,
 			Order = 1,
@@ -1107,6 +1109,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
 					arg_value = 0.5
+				}, {
+					CLSID = "{R_60}"
 				} },
 			Number = 10,
 			Order = 10,

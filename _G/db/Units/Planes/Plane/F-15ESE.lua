@@ -1187,6 +1187,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{GBU_54_V_1B}",
 					forbidden = <table 6>
 				}, {
+					CLSID = "{AGM-154A}",
+					Type = 1,
+					forbidden = <table 7>
+				}, {
 					CLSID = "{BDU-50LD}",
 					forbidden = <table 6>
 				}, {
@@ -1559,6 +1563,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{CFT_L_GBU_54_x_3}",
 					forbidden = <table 9>
 				}, {
+					CLSID = "{AGM-154A}",
+					Type = 1,
+					connector = "Pylon8",
+					forbidden = <table 9>
+				}, {
 					CLSID = "{BDU-50LD}",
 					connector = "Pylon8",
 					forbidden = <table 9>
@@ -1768,6 +1777,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{GBU-38}"
 				}, {
 					CLSID = "{GBU_54_V_1B}"
+				}, {
+					CLSID = "{AGM-154A}",
+					Type = 1
 				}, {
 					CLSID = "{BDU-50LD}"
 				}, {
@@ -2111,6 +2123,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{CFT_R_GBU_54_x_3}",
 					forbidden = <table 11>
 				}, {
+					CLSID = "{AGM-154A}",
+					Type = 1,
+					connector = "Pylon12",
+					forbidden = <table 11>
+				}, {
 					CLSID = "{BDU-50LD}",
 					connector = "Pylon12",
 					forbidden = <table 11>
@@ -2378,6 +2395,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{GBU_54_V_1B}",
 					forbidden = <table 13>
+				}, {
+					CLSID = "{AGM-154A}",
+					Type = 1,
+					forbidden = <table 14>
 				}, {
 					CLSID = "{BDU-50LD}",
 					forbidden = <table 13>

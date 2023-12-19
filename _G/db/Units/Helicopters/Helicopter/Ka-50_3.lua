@@ -1388,6 +1388,19 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	main_gear_pos = { -0.414, -1.77, 1.31 },
 	mapclasskey = "P0091000021",
 	mechanimations = {
+		CentralStrut = { {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "VelType", 0 }, { "Arg", 0, "to", 1, "in", 1, "sign", 1 } }
+					} },
+				Transition = { "Retract", "Extend" }
+			}, {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "VelType", 2 }, { "Arg", 0, "to", 0, "in", 1, "sign", -1 } }
+					} },
+				Transition = { "Extend", "Retract" }
+			} },
 		Crewman0GesturesHMSActions = { {
 				Sequence = { {
 						C = { { "Arg", 509, "set", 0 } }
@@ -1486,6 +1499,64 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						C = { { "Arg", 209, "to", 0.73, "speed", 0.14 }, { "Arg", 44, "to", 0, "speed", 0.14 }, { "Arg", 208, "to", 0.73, "speed", 0.14 }, { "Arg", 43, "to", 0, "speed", 0.14 } }
 					} },
 				Transition = { "Any", "High" }
+			} },
+		LeftStrut = { {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "VelType", 1 }, { "Arg", 10, "to", 1, "in", 0.5, "sign", 1 } }
+					}, {
+						C = { { "PosType", 3 }, { "Sleep", "for", 0.3 } }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 5, "to", 1, "in", 1, "sign", 1 } }
+					}, {
+						C = { { "PosType", 3 }, { "Sleep", "for", 0.3 } }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 10, "to", 0, "in", 0.5, "sign", -1 } }
+					} },
+				Transition = { "Retract", "Extend" }
+			}, {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "VelType", 1 }, { "Arg", 10, "to", 1, "in", 0.5, "sign", 1 } }
+					}, {
+						C = { { "PosType", 3 }, { "Sleep", "for", 0.3 } }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 5, "to", 0, "in", 1, "sign", -1 } }
+					}, {
+						C = { { "PosType", 3 }, { "Sleep", "for", 0.3 } }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 10, "to", 0, "in", 0.5, "sign", -1 } }
+					} },
+				Transition = { "Extend", "Retract" }
+			} },
+		RightStrut = { {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "VelType", 1 }, { "Arg", 9, "to", 1, "in", 0.5, "sign", 1 } }
+					}, {
+						C = { { "PosType", 3 }, { "Sleep", "for", 0.3 } }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 3, "to", 1, "in", 1, "sign", 1 } }
+					}, {
+						C = { { "PosType", 3 }, { "Sleep", "for", 0.3 } }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 9, "to", 0, "in", 0.5, "sign", -1 } }
+					} },
+				Transition = { "Retract", "Extend" }
+			}, {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "VelType", 1 }, { "Arg", 9, "to", 1, "in", 0.5, "sign", 1 } }
+					}, {
+						C = { { "PosType", 3 }, { "Sleep", "for", 0.3 } }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 3, "to", 0, "in", 1, "sign", -1 } }
+					}, {
+						C = { { "PosType", 3 }, { "Sleep", "for", 0.3 } }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 9, "to", 0, "in", 0.5, "sign", -1 } }
+					} },
+				Transition = { "Extend", "Retract" }
 			} },
 		ServiceHatches = { {
 				Sequence = { {
@@ -1702,6 +1773,22 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	range = 450,
 	rotor_MOI = 8200,
 	rotor_RPM = 310,
+	rotor_animation = {
+		rotor_locations = { {}, {} },
+		rotor_models = { {
+				boundBlade_FBX = "/models/Ka-50_3_rotor_blade_1_bound.FBX",
+				boundRotorHub_FBX = "/models/Ka-50_3_rotor_hub_1_bound.FBX",
+				modelBlade_FBX = { "/models/Ka-50_3_rotor_blade_1.FBX", "/models/Ka-50_3_rotor_blade_1_damage_1.FBX", "/models/Ka-50_3_rotor_blade_1_damage_2.FBX" },
+				modelRotorHubLod_FBX = "/models/Ka-50_3_rotor_hub_1_lod.FBX",
+				modelRotorHub_EDM = "Ka-50_3_rotor_hub_1"
+			}, {
+				boundBlade_FBX = "/models/Ka-50_3_rotor_blade_2_bound.FBX",
+				boundRotorHub_FBX = "/models/Ka-50_3_rotor_hub_2_bound.FBX",
+				modelBlade_FBX = { "/models/Ka-50_3_rotor_blade_2.FBX", "/models/Ka-50_3_rotor_blade_2_damage_1.FBX", "/models/Ka-50_3_rotor_blade_2_damage_2.FBX" },
+				modelRotorHubLod_FBX = "/models/Ka-50_3_rotor_hub_2_lod.FBX",
+				modelRotorHub_EDM = "Ka-50_3_rotor_hub_2"
+			} }
+	},
 	rotor_diameter = 14.4,
 	rotor_height = 2.7,
 	rotor_pos = { 0.838, 2.339, 0 },
@@ -1729,7 +1816,17 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	tail_pos = { -7.245, 0.752, 0 },
 	tail_stab_area = 2.94,
 	thrust_correction = 0.55,
+	turret_data = {
+		H_Max = 9,
+		H_Min = -2.5,
+		H_Vel = 20,
+		V_Max = 3.5,
+		V_Min = -37,
+		V_Vel = 20
+	},
 	type = "Ka-50_3",
+	undercarriage_movement = 2,
+	undercarriage_transmission = "Hydraulic",
 	visualIR = {
 		coeffs = { { 0.02, 0.0001, 1, 0 }, { 0.1, 0.01, 1, 0.01 }, { 0.003, 0.05, 1, 0 }, { 0.01, 0.0001, 4, 0.1 } }
 	}

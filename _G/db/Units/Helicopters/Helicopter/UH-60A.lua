@@ -31,14 +31,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			args = { 161 },
 			critical_damage = 1
 		},
-		[23] = {
-			args = { 223 },
-			critical_damage = 3
-		},
-		[24] = {
-			args = { 213 },
-			critical_damage = 3
-		},
 		[45] = {
 			args = { 235 },
 			critical_damage = 3
@@ -58,11 +50,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		},
 		[57] = {
 			args = { 81, 157 },
-			critical_damage = 14,
-			deps_cells = { 55 }
-		},
-		[58] = {
-			args = { 81, 156 },
 			critical_damage = 14,
 			deps_cells = { 55 }
 		},
@@ -445,5 +432,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	tail_pos = { -10.042, 1.76, 0 },
 	tail_stab_area = 2.94,
 	thrust_correction = 0.75,
-	type = "UH-60A"
+	type = "UH-60A",
+	undercarriage_movement = 0
 }

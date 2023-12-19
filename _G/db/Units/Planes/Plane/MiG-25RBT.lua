@@ -136,8 +136,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Picture = "MiG-25RBT.png",
 	Pylons = { {
 			Launchers = { {
-					CLSID = "{APU-60-1_R_60M}"
-				}, {
 					CLSID = "{FB3CE165-BF07-4979-887C-92B87F13276B}"
 				}, {
 					CLSID = "{0511E528-EA28-4caf-A212-00D1408DF10A}"
@@ -159,6 +157,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{35B698AC-9FEF-4EC4-AD29-484A0085F62B}"
 				}, {
 					CLSID = "{BD289E34-DF84-4C5E-9220-4B14C346E79D}"
+				}, {
+					CLSID = "{R-60 2L}"
+				}, {
+					CLSID = "{R-60M 2L}"
 				} },
 			Number = 1,
 			Order = 1,
@@ -228,8 +230,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Z = 3.483
 		}, {
 			Launchers = { {
-					CLSID = "{APU-60-1_R_60M}"
-				}, {
 					CLSID = "{FB3CE165-BF07-4979-887C-92B87F13276B}"
 				}, {
 					CLSID = "{0511E528-EA28-4caf-A212-00D1408DF10A}"
@@ -251,6 +251,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{35B698AC-9FEF-4EC4-AD29-484A0085F62B}"
 				}, {
 					CLSID = "{BD289E34-DF84-4C5E-9220-4B14C346E79D}"
+				}, {
+					CLSID = "{R-60 2R}"
+				}, {
+					CLSID = "{R-60M 2R}"
 				} },
 			Number = 4,
 			Order = 4,

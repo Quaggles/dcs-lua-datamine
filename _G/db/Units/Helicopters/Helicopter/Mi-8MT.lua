@@ -4133,6 +4133,50 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					} },
 				Transition = { "Any", "CustomStage3" }
 			} },
+		Pylon3Azimuth = { {
+				Sequence = { {
+						C = { { "Arg", 424, "from", 1, "to", -1, "speed", 0.44444444444444 } }
+					} },
+				Transition = { "Any", "Right" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 424, "from", -1, "to", 1, "speed", 0.44444444444444 } }
+					} },
+				Transition = { "Any", "Left" }
+			} },
+		Pylon3Elevation = { {
+				Sequence = { {
+						C = { { "Arg", 423, "from", 1, "to", 0, "speed", 0.22222222222222 } }
+					} },
+				Transition = { "Any", "Retract" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 423, "from", 0, "to", 1, "speed", 0.22222222222222 } }
+					} },
+				Transition = { "Any", "Extend" }
+			} },
+		SearchLight0Elevation = { {
+				Sequence = { {
+						C = { { "Arg", 425, "from", 1, "to", 0, "speed", 0.22222222222222 } }
+					} },
+				Transition = { "Any", "Retract" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 425, "from", 0, "to", 1, "speed", 0.22222222222222 } }
+					} },
+				Transition = { "Any", "Extend" }
+			} },
+		SearchLight0Panning = { {
+				Sequence = { {
+						C = { { "Arg", 426, "from", 1, "to", -1, "speed", 0.44444444444444 } }
+					} },
+				Transition = { "Any", "Right" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 426, "from", -1, "to", 1, "speed", 0.44444444444444 } }
+					} },
+				Transition = { "Any", "Left" }
+			} },
 		WindscreenWiper0 = { {
 				Sequence = { {
 						C = { { "Sleep", "for", 0 } }
@@ -4210,7 +4254,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				Transition = { "Any", "CustomStage2" }
 			} }
 	},
-	net_animation = { 458, 80, 85, 457, 1000, 26, 423, 424, 425, 426, 1, 2, 250, 459, 460, 461 },
+	net_animation = { 458, 80, 85, 457, 1000, 26, 1, 2, 250, 459, 460, 461 },
 	nose_gear_pos = { 3.236, -2.489, 0 },
 	panelRadio = { {
 			channels = { {
@@ -4379,5 +4423,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	tail_rotor_RPM = 1124,
 	tail_stab_area = 1.47,
 	thrust_correction = 0.8,
-	type = "Mi-8MT"
+	type = "Mi-8MT",
+	undercarriage_movement = 0
 }

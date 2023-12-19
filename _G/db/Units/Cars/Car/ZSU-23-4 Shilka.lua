@@ -33,6 +33,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						} },
 					beamWidth = 1.5707963267949,
 					display_name = "2A14x4",
+					frequencyRange = { 20000000000, 30000000000 },
 					name = "2A14_4",
 					reactionTime = 6,
 					reflection_limit = 0.15,

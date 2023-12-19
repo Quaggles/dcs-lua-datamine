@@ -18,6 +18,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					depends_on_unit = { { { "Patriot ECS" } } },
 					distanceMax = 160000,
 					distanceMin = 3000,
+					frequencyRange = { 4480000000, 5450000000 },
 					max_number_of_missiles_channels = 1,
 					max_trg_alt = 160000,
 					min_trg_alt = 60,
@@ -43,7 +44,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			pos = { 0, 5, 0 }
 		}, {
 			LN = { {
-					depends_on_unit = { { {} } }
+					depends_on_unit = { { {} } },
+					frequencyRange = {}
 				} },
 			angles = { {} },
 			pidY = {},
@@ -51,7 +53,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			pos = {}
 		}, {
 			LN = { {
-					depends_on_unit = { { {} } }
+					depends_on_unit = { { {} } },
+					frequencyRange = {}
 				} },
 			angles = { {} },
 			pidY = {},
@@ -59,7 +62,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			pos = {}
 		}, {
 			LN = { {
-					depends_on_unit = { { {} } }
+					depends_on_unit = { { {} } },
+					frequencyRange = {}
 				} },
 			angles = { {} },
 			pidY = {},
@@ -67,7 +71,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			pos = {}
 		}, {
 			LN = { {
-					depends_on_unit = { { {} } }
+					depends_on_unit = { { {} } },
+					frequencyRange = {}
 				} },
 			angles = { {} },
 			pidY = {},
@@ -75,7 +80,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			pos = {}
 		}, {
 			LN = { {
-					depends_on_unit = { { {} } }
+					depends_on_unit = { { {} } },
+					frequencyRange = {}
 				} },
 			angles = { {} },
 			pidY = {},
@@ -83,7 +89,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			pos = {}
 		}, {
 			LN = { {
-					depends_on_unit = { { {} } }
+					depends_on_unit = { { {} } },
+					frequencyRange = {}
 				} },
 			angles = { {} },
 			pidY = {},
@@ -91,7 +98,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			pos = {}
 		}, {
 			LN = { {
-					depends_on_unit = { { {} } }
+					depends_on_unit = { { {} } },
+					frequencyRange = {}
 				} },
 			angles = { {} },
 			pidY = {},
@@ -99,7 +107,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			pos = {}
 		}, {
 			LN = { {
-					depends_on_unit = { { {} } }
+					depends_on_unit = { { {} } },
+					frequencyRange = {}
 				} },
 			angles = { {} },
 			pidY = {},

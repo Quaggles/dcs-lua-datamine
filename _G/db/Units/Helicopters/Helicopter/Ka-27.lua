@@ -415,5 +415,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	tail_pos = { -6.1, 2, 0 },
 	tail_stab_area = 2.94,
 	thrust_correction = 0.55,
-	type = "Ka-27"
+	type = "Ka-27",
+	undercarriage_movement = 0
 }

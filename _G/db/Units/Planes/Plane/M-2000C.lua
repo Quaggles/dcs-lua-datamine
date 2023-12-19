@@ -1,61 +1,25 @@
 _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	AOA_take_off = 0.175,
 	AddPropAircraft = { {
-			control = "comboList",
-			defValue = 6,
-			id = "RocketBurst",
-			label = "Rocket Burst Count",
-			values = { {
-					dispName = "1 Rocket",
-					id = 1
-				}, {
-					dispName = "3 Rockets",
-					id = 3
-				}, {
-					dispName = "6 Rockets",
-					id = 6
-				}, {
-					dispName = "18 Rockets",
-					id = 18
-				} },
-			wCtrl = 150
+			control = "label",
+			id = "iff_Label",
+			label = "IFF",
+			playerOnly = true,
+			xLbl = 150
 		}, {
-			control = "comboList",
-			defValue = 1,
-			id = "GunBurst",
-			label = "Gun Burst Length (Seconds)",
-			values = { {
-					dispName = "0.5 Second",
-					id = 1
-				}, {
-					dispName = "1.0 Second",
-					id = 2
-				} },
-			wCtrl = 150
+			control = "editbox",
+			getDefault = <function 1>,
+			id = "IFF_M2_CODE",
+			label = "IFF Mode 2 code",
+			onChange = <function 2>,
+			onFocus = <function 3>,
+			playerOnly = true
 		}, {
-			control = "spinbox",
-			defValue = 6,
-			dimension = " ",
-			id = "LaserCode100",
-			label = "Laser code for GBUs, 1x11",
-			max = 8,
-			min = 1
-		}, {
-			control = "spinbox",
-			defValue = 8,
-			dimension = " ",
-			id = "LaserCode10",
-			label = "Laser code for GBUs, 11x1",
-			max = 8,
-			min = 1
-		}, {
-			control = "spinbox",
-			defValue = 8,
-			dimension = " ",
-			id = "LaserCode1",
-			label = "Laser code for GBUs, 111x",
-			max = 8,
-			min = 1
+			control = "label",
+			id = "misc_Label",
+			label = "MISC.",
+			playerOnly = true,
+			xLbl = 150
 		}, {
 			control = "spinbox",
 			defValue = 0,
@@ -92,11 +56,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			defValue = true,
 			id = "EnableTAF",
 			label = "Enable TAF (GCI link)"
-		}, {
-			control = "checkbox",
-			defValue = false,
-			id = "DisableVTBExport",
-			label = "Disable VTB Export"
 		} },
 	AmmoWeight = 141.75,
 	CAS_min = 30,
@@ -534,8 +493,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			short_name = "DEFA 554",
 			supply = {
 				count = 125,
-				get_mass = <function 1>,
-				get_mass_ = <function 2>,
+				get_mass = <function 4>,
+				get_mass_ = <function 5>,
 				mixes = { { 1 }, { 2 } },
 				shells = { <2>{
 						AP_cap_caliber = 30,
@@ -721,8 +680,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			short_name = "DEFA 554",
 			supply = {
 				count = 125,
-				get_mass = <function 3>,
-				get_mass_ = <function 4>,
+				get_mass = <function 6>,
+				get_mass_ = <function 7>,
 				mixes = { { 1 }, { 2 } },
 				shells = { <table 2>, <table 4> }
 			},

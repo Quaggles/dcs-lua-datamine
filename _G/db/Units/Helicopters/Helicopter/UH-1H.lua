@@ -1483,6 +1483,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	country_of_origin = "USA",
 	crew_members = { {
 			can_be_playable = true,
+			can_control = true,
 			canopy_arg = 45,
 			canopy_args = { 38, 0.8, 43, 5, 44, 5, 45, 1, 459, 10, 460, 1, 457, 0.1, 458, 0.1, 453, 0.5, 454, 0.5, 146, 1 },
 			ejection_seat_name = 0,
@@ -1492,6 +1493,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			role_display_name = "Pilot"
 		}, {
 			can_be_playable = true,
+			can_control = true,
 			canopy_arg = 38,
 			canopy_args = { 38, 1, 43, 5, 44, 5, 45, 0.8, 459, 1, 460, 10, 457, 0.1, 458, 0.1, 453, 0.5, 454, 0.5, 146, 1 },
 			ejection_seat_name = 0,
@@ -1501,6 +1503,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			role_display_name = "Copilot"
 		}, {
 			can_be_playable = true,
+			can_control = false,
 			canopy_arg = 44,
 			canopy_args = { 38, 0.5, 43, 5, 44, 5, 45, 0.5, 459, 10, 460, 1, 457, 0.1, 458, 0.1, 453, 0.5, 454, 0.5, 146, 1 },
 			ejection_seat_name = 0,
@@ -1510,6 +1513,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			role_display_name = "Left Gunner"
 		}, {
 			can_be_playable = true,
+			can_control = false,
 			canopy_arg = 43,
 			canopy_args = { 38, 0.5, 43, 5, 44, 5, 45, 0.5, 459, 1, 460, 10, 457, 0.1, 458, 0.1, 453, 0.5, 454, 0.5, 146, 1 },
 			ejection_seat_name = 0,
@@ -1518,7 +1522,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			role = "gunner",
 			role_display_name = "Right Gunner"
 		} },
-	crew_stations = "CaptainExclusive",
+	crew_stations = "Hybrid",
 	detection_range_max = 11,
 	doors_movement = 2,
 	engine_data = {
@@ -1818,9 +1822,57 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						C = { { "Arg", 516, "from", -1, "to", 1, "speed", 0.44444444444444 } }
 					} },
 				Transition = { "Any", "Left" }
+			} },
+		ServiceHatch10 = { {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "Arg", 473, "to", 1, "in", 1 } }
+					} },
+				Transition = { "Any", "Extend" }
+			}, {
+				Flags = { "Reversible", "StepsBackwards" },
+				Sequence = { {
+						C = { { "Arg", 473, "to", 0, "in", 1 } }
+					} },
+				Transition = { "Extend", "Retract" }
+			} },
+		ServiceHatch11 = { {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "Arg", 474, "to", 1, "in", 1 } }
+					} },
+				Transition = { "Any", "Extend" }
+			}, {
+				Flags = { "Reversible", "StepsBackwards" },
+				Sequence = { {
+						C = { { "Arg", 474, "to", 0, "in", 1 } }
+					} },
+				Transition = { "Extend", "Retract" }
+			} },
+		WindscreenWiper0 = { {
+				Sequence = { {
+						C = { { "Arg", 10, "from", 1, "to", 0, "speed", 1 } }
+					} },
+				Transition = { "Any", "Retract" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 10, "from", 0, "to", 1, "speed", 1 } }
+					} },
+				Transition = { "Any", "Extend" }
+			} },
+		WindscreenWiper1 = { {
+				Sequence = { {
+						C = { { "Arg", 9, "from", 1, "to", 0, "speed", 1 } }
+					} },
+				Transition = { "Any", "Retract" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 9, "from", 0, "to", 1, "speed", 1 } }
+					} },
+				Transition = { "Any", "Extend" }
 			} }
 	},
-	net_animation = { 34, 36, 280, 471, 472, 473, 540, 549, 1000, 1001 },
+	net_animation = { 34, 36, 280, 471, 472, 540, 549, 1000, 1001 },
 	nose_gear_pos = { 1.714, -1.636, 1.33 },
 	panelRadio = { {
 			channels = { {
@@ -1962,5 +2014,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	tail_rotor_RPM = 1798.2,
 	tail_stab_area = 1.7,
 	thrust_correction = 0.75,
-	type = "UH-1H"
+	type = "UH-1H",
+	undercarriage_movement = 0
 }

@@ -1380,6 +1380,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		} },
 	country_of_origin = "USA",
 	crew_members = { {
+			bailout_arg = -1,
 			boarding_arg = 323,
 			drop_canopy_name = 20,
 			ejection_seat_name = 17,

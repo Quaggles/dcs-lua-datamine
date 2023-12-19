@@ -346,6 +346,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			Launchers = { {
 					CLSID = "{APU-60-1_R_60M}"
+				}, {
+					CLSID = "{R-60}"
 				} },
 			Number = 2,
 			Order = 2,
@@ -586,6 +588,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			Launchers = { {
 					CLSID = "{APU-60-1_R_60M}"
+				}, {
+					CLSID = "{R-60}"
 				} },
 			Number = 7,
 			Order = 7,

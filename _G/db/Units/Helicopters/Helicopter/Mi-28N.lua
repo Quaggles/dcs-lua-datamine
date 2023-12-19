@@ -777,5 +777,14 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	tail_pos = { -10.6, 2.285, 0 },
 	tail_stab_area = 2.94,
 	thrust_correction = 0.7,
-	type = "Mi-28N"
+	turret_data = {
+		H_Max = 86,
+		H_Min = -86,
+		H_Vel = 20,
+		V_Max = 11,
+		V_Min = -60,
+		V_Vel = 20
+	},
+	type = "Mi-28N",
+	undercarriage_movement = 0
 }

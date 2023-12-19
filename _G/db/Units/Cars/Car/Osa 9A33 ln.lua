@@ -23,7 +23,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						} },
 					customViewPoint = { "genericMissile", { 0.01, 0, 0 } },
 					distanceMax = 18000,
-					frequencyRange = { { 14200000000, 14800000000 } },
+					frequencyRange = { 14200000000, 14800000000 },
 					inclination_correction_bias = 0,
 					inclination_correction_upper_limit = -1.5707963267949,
 					launch_delay = 4,

@@ -6,10 +6,10 @@ _G["launcher"]["{7B34E0BB-E427-4C2A-A61A-8407CE18B54D}"] = {
 			ShapeName = "BRU-42_LS"
 		}, {
 			ShapeName = "MK-81",
-			connector_name = "Point03"
+			connector_name = "Point02"
 		}, {
 			ShapeName = "MK-81",
-			connector_name = "Point02"
+			connector_name = "Point03"
 		}, {
 			ShapeName = "MK-81",
 			connector_name = "Point01"

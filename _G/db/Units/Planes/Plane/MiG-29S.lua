@@ -602,6 +602,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = { { { -1.36, -0.185, 0 }, { -0.
 					CLSID = "{682A481F-0CB5-4693-A382-D00DD4A156D7}",
 					arg_value = 0.6
 				}, {
+					CLSID = "{R_60}",
+					arg_value = 0.6
+				}, {
 					CLSID = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
 					arg_value = 0
 				}, {
@@ -636,6 +639,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = { { { -1.36, -0.185, 0 }, { -0.
 		}, {
 			Launchers = <6>{ {
 					CLSID = "{682A481F-0CB5-4693-A382-D00DD4A156D7}",
+					arg_value = 0.6
+				}, {
+					CLSID = "{R_60}",
 					arg_value = 0.6
 				}, {
 					CLSID = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
@@ -713,6 +719,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = { { { -1.36, -0.185, 0 }, { -0.
 		}, {
 			Launchers = <22>{ {
 					CLSID = "{682A481F-0CB5-4693-A382-D00DD4A156D7}",
+					arg_value = 0.6
+				}, {
+					CLSID = "{R_60}",
 					arg_value = 0.6
 				}, {
 					CLSID = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",

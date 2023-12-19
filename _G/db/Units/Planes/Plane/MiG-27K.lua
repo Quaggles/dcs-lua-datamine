@@ -301,6 +301,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{B0DBC591-0F52-4F7D-AD7B-51E67725FB81}"
 				}, {
 					CLSID = "{Kh-25MP}"
+				}, {
+					CLSID = "{R-60 2L}"
+				}, {
+					CLSID = "{R-60}"
 				} },
 			Number = 2,
 			Order = 2,
@@ -319,6 +323,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{637334E4-AB5A-47C0-83A6-51B7F1DF3CD5}"
 				}, {
 					CLSID = "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}"
+				}, {
+					CLSID = "{R-60 2L}"
+				}, {
+					CLSID = "{R-60}"
 				} },
 			Number = 3,
 			Order = 3,
@@ -379,6 +387,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{637334E4-AB5A-47C0-83A6-51B7F1DF3CD5}"
 				}, {
 					CLSID = "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}"
+				}, {
+					CLSID = "{R-60 2R}"
+				}, {
+					CLSID = "{R-60}"
 				} },
 			Number = 7,
 			Order = 7,
@@ -432,6 +444,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{275A2855-4A79-4B2D-B082-91EA2ADF4691}"
 				}, {
 					CLSID = "{Kh-25MP}"
+				}, {
+					CLSID = "{R-60 2R}"
+				}, {
+					CLSID = "{R-60}"
 				} },
 			Number = 8,
 			Order = 8,

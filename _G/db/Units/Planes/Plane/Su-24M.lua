@@ -263,10 +263,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Picture = "Su-24M.png",
 	Pylons = { {
 			Launchers = { {
-					CLSID = "{APU-60-1_R_60M}",
-					arg_value = 0,
-					connector = "PylonBD3_1"
-				}, {
 					CLSID = "{F99BEC1A-869D-4AC7-9730-FBA0E3B1F5FC}"
 				}, {
 					CLSID = "{4203753F-8198-4E85-9924-6F8FF679F9FF}",
@@ -326,6 +322,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					connector = "PylonBD3_1"
 				}, {
 					CLSID = "{Kh-25MP}",
+					arg_value = 0,
+					connector = "PylonBD3_1"
+				}, {
+					CLSID = "{R-60 2L}",
+					arg_value = 0,
+					connector = "PylonBD3_1"
+				}, {
+					CLSID = "{R-60}",
+					arg_value = 0,
+					connector = "PylonBD3_1"
+				}, {
+					CLSID = "{R-60M 2L}",
+					arg_value = 0,
+					connector = "PylonBD3_1"
+				}, {
+					CLSID = "{APU-60-1_R_60M}",
 					arg_value = 0,
 					connector = "PylonBD3_1"
 				} },
@@ -874,10 +886,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
-					CLSID = "{APU-60-1_R_60M}",
-					arg_value = 0,
-					connector = "PylonBD3_8"
-				}, {
 					CLSID = "{F99BEC1A-869D-4AC7-9730-FBA0E3B1F5FC}"
 				}, {
 					CLSID = "{4203753F-8198-4E85-9924-6F8FF679F9FF}",
@@ -937,6 +945,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					connector = "PylonBD3_8"
 				}, {
 					CLSID = "{Kh-25MP}",
+					arg_value = 0,
+					connector = "PylonBD3_8"
+				}, {
+					CLSID = "{R-60 2R}",
+					arg_value = 0,
+					connector = "PylonBD3_8"
+				}, {
+					CLSID = "{R-60}",
+					arg_value = 0,
+					connector = "PylonBD3_8"
+				}, {
+					CLSID = "{R-60M 2R}",
+					arg_value = 0,
+					connector = "PylonBD3_8"
+				}, {
+					CLSID = "{APU-60-1_R_60M}",
 					arg_value = 0,
 					connector = "PylonBD3_8"
 				} },

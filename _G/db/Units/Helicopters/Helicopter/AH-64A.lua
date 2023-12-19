@@ -625,5 +625,14 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	tail_pos = { -9, 1.401, 0 },
 	tail_stab_area = 2.94,
 	thrust_correction = 0.75,
-	type = "AH-64A"
+	turret_data = {
+		H_Max = 86,
+		H_Min = -86,
+		H_Vel = 20,
+		V_Max = 11,
+		V_Min = -60,
+		V_Vel = 20
+	},
+	type = "AH-64A",
+	undercarriage_movement = 0
 }

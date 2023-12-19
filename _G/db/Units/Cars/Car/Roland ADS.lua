@@ -28,6 +28,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							type_ammunition = {}
 						} },
 					customViewPoint = { "genericMissile", { 1, 0, 0 } },
+					frequencyRange = { 8000000000, 12000000000 },
 					min_launch_angle = 0.087266462599716,
 					sensor = {}
 				} },

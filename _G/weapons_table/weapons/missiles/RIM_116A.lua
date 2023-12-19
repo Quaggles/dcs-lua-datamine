@@ -125,6 +125,7 @@ _G["weapons_table"]["weapons"]["missiles"]["RIM_116A"] = {
 			} },
 		sigma = { 10, 10, 10 },
 		simple_gyrostab_seeker = {
+			delay = 3,
 			gimbal_lim = 1.1344640137963,
 			omega_max = 0.13962634015955
 		},
@@ -290,6 +291,7 @@ _G["weapons_table"]["weapons"]["missiles"]["RIM_116A"] = {
 			} },
 		sigma = { 10, 10, 10 },
 		simple_gyrostab_seeker = {
+			delay = 3,
 			gimbal_lim = 1.1344640137963,
 			omega_max = 0.13962634015955
 		},

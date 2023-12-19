@@ -818,5 +818,14 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	tail_rotor_RPM = 1124,
 	tail_stab_area = 1.47,
 	thrust_correction = 0.7,
-	type = "Mi-24V"
+	turret_data = {
+		H_Max = 60,
+		H_Min = -60,
+		H_Vel = 20,
+		V_Max = 20,
+		V_Min = -60,
+		V_Vel = 20
+	},
+	type = "Mi-24V",
+	undercarriage_movement = 1
 }

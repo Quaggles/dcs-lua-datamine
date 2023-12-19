@@ -158,6 +158,18 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{B0DBC591-0F52-4F7D-AD7B-51E67725FB81}",
 					arg_value = 0,
 					connector = "PylonBD3_1"
+				}, {
+					CLSID = "{APU-60-1_R_60M}",
+					arg_value = 0,
+					connector = "PylonBD3_1"
+				}, {
+					CLSID = "{R-60 2L}",
+					arg_value = 0,
+					connector = "PylonBD3_1"
+				}, {
+					CLSID = "{R-60}",
+					arg_value = 0,
+					connector = "PylonBD3_1"
 				} },
 			Number = 1,
 			Order = 1,

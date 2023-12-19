@@ -27,6 +27,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						} },
 					beamWidth = 1.5707963267949,
 					fireAnimationArgument = 23,
+					frequencyRange = { 10000000000, 20000000000 },
 					sensor = {},
 					sightIndicationMode = 1,
 					sightMasterMode = 1

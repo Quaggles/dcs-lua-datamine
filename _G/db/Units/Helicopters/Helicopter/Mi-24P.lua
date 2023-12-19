@@ -2306,6 +2306,28 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	range = 500,
 	rotor_MOI = 14300,
 	rotor_RPM = -240,
+	rotor_animation = {
+		rotor_locations = { {
+				pos = { 0.015594, 2.440141, 0.143468 }
+			} },
+		rotor_models = { {
+				boundBlade_FBX = "/models/mi-24p_rotor_blade_bound.fbx",
+				boundRotorHub_FBX = "/models/mi-24p_rotor_hub_bound.FBX",
+				modelBlade_FBX = { "/models/mi-24p_rotor_blade.fbx", "/models/mi-24p_rotor_blade_damage_1.fbx", "/models/mi-24p_rotor_blade_damage_2.fbx", "/models/mi-24p_rotor_blade_damage_3.fbx" },
+				modelRotorHubLod_FBX = "/models/mi-24p_rotor_hub_lod.fbx",
+				modelRotorHub_EDM = "mi-24p_rotor_hub"
+			} },
+		tail_rotor = {
+			blades_count = 3,
+			modelBlade_FBX = "/models/mi-24p_blade.FBX",
+			rotor_direction = -1,
+			rotor_locations = { {
+					pos = { -10.682161, 2.644318, -0.58 },
+					roll = 0.5235987755983,
+					yaw = 1.5707963267949
+				} }
+		}
+	},
 	rotor_diameter = 17.3,
 	rotor_height = 2.43,
 	rotor_pos = { 0.108, 2.44, 0 },
