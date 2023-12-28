@@ -1588,6 +1588,46 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	net_animation = { 278, 279, 420 },
 	nose_gear_pos = { -4.99, -0.82, 0 },
 	nose_gear_wheel_diameter = 0.319,
+	panelRadio = { {
+			ID = "SCR522",
+			channels = { {
+					connect = true,
+					default = 105,
+					modulation = "AM",
+					name = "Channel A"
+				}, {
+					default = 124,
+					modulation = "AM",
+					name = "Channel B"
+				}, {
+					default = 131,
+					modulation = "AM",
+					name = "Channel C"
+				}, {
+					default = 139,
+					modulation = "AM",
+					name = "Channel D"
+				} },
+			displayUnits = "MHz",
+			name = "SCR-522",
+			range = {
+				max = 156,
+				min = 38
+			}
+		}, {
+			ID = "BC1206",
+			channels = { {
+					default = 108.9,
+					modulation = "AM",
+					name = "Initial Frequency"
+				} },
+			displayUnits = "MHz",
+			name = "BC-1206",
+			range = {
+				max = 200,
+				min = 100
+			}
+		} },
 	propellorShapeName = "P-51D_blade.FBX",
 	propellorShapeType = "3ARG_PROC_BLUR",
 	radar_can_see_ground = false,

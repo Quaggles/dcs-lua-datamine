@@ -1400,6 +1400,11 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						C = { { "VelType", 2 }, { "Arg", 0, "to", 0, "in", 1, "sign", -1 } }
 					} },
 				Transition = { "Extend", "Retract" }
+			}, {
+				Sequence = { {
+						C = { { "PosType", 0 }, { "Arg", 0, "to", 0.5, "speed", 2, "sign", -1 } }
+					} },
+				Transition = { "Any", "Collapse" }
 			} },
 		Crewman0GesturesHMSActions = { {
 				Sequence = { {
@@ -1528,6 +1533,13 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						C = { { "VelType", 1 }, { "Arg", 10, "to", 0, "in", 0.5, "sign", -1 } }
 					} },
 				Transition = { "Extend", "Retract" }
+			}, {
+				Sequence = { {
+						C = { { "VelType", 1 }, { "Arg", 10, "to", 1, "in", 0.5, "sign", 1 } }
+					}, {
+						C = { { "VelType", 4 }, { "PosType", 7 }, { "Arg", 5, "to", 0.5, "speed", 2, "sign", -1 } }
+					} },
+				Transition = { "Any", "Collapse" }
 			} },
 		RightStrut = { {
 				Flags = { "Reversible" },
@@ -1557,6 +1569,13 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						C = { { "VelType", 1 }, { "Arg", 9, "to", 0, "in", 0.5, "sign", -1 } }
 					} },
 				Transition = { "Extend", "Retract" }
+			}, {
+				Sequence = { {
+						C = { { "VelType", 1 }, { "Arg", 9, "to", 1, "in", 0.5, "sign", 1 } }
+					}, {
+						C = { { "VelType", 4 }, { "PosType", 7 }, { "Arg", 3, "to", 0.5, "speed", 2, "sign", -1 } }
+					} },
+				Transition = { "Any", "Collapse" }
 			} },
 		ServiceHatches = { {
 				Sequence = { {

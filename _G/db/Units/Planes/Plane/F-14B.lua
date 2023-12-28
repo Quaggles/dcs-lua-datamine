@@ -2342,6 +2342,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 7
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 7
 						} }
@@ -2381,6 +2384,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 7
+						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
 							station = 7
@@ -2422,6 +2428,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 7
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 7
 						} }
@@ -2461,6 +2470,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 7
+						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
 							station = 7
@@ -3114,6 +3126,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 7
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 7
 						} }
@@ -3152,6 +3167,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 7
+						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
 							station = 7
@@ -3192,6 +3210,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 7
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 7
 						} }
@@ -3230,6 +3251,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 7
+						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
 							station = 7
@@ -3270,6 +3294,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 7
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 7
 						} }
@@ -3308,6 +3335,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 7
+						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
 							station = 7
@@ -3348,6 +3378,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 7
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 7
 						} }
@@ -3386,6 +3419,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 7
+						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
 							station = 7
@@ -3426,6 +3462,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 7
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 7
 						} }
@@ -3465,6 +3504,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 7
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 7
 						} }
@@ -3503,6 +3545,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 7
+						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
 							station = 7
@@ -3554,6 +3599,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 7
+						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
 							station = 7
@@ -3642,6 +3690,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{MAK79_MK83 3R}" },
 							station = 7
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 7
 						} }
@@ -3681,6 +3732,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 7
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 7
 						} }
@@ -3719,6 +3773,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 7
+						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
 							station = 7
@@ -3771,6 +3828,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 7
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 7
 						} }
@@ -3821,6 +3881,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 7
+						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
 							station = 7
@@ -3873,6 +3936,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 7
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 7
 						} }
@@ -3924,6 +3990,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 7
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 7
 						} }
@@ -3962,6 +4031,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 7
+						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
 							station = 7
@@ -4014,6 +4086,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 7
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 7
 						} }
@@ -4064,6 +4139,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 7
+						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
 							station = 7
@@ -4152,6 +4230,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 7
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 7
 						} }
@@ -4226,6 +4307,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 7
+						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
 							station = 7
@@ -4305,6 +4389,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 6
 						}, {
 							loadout = { "{BELLY AIM-7P}" },
+							station = 6
+						}, {
+							loadout = { "{F14-TARPS}" },
 							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
@@ -4395,6 +4482,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 6
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 6
 						}, {
@@ -4483,6 +4573,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 6
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 6
 						}, {
@@ -4569,6 +4662,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 6
 						}, {
 							loadout = { "{BELLY AIM-7P}" },
+							station = 6
+						}, {
+							loadout = { "{F14-TARPS}" },
 							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
@@ -4680,6 +4776,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BRU-32 GBU-24}" },
 							station = 6
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 6
 						} }
@@ -4769,6 +4868,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 6
 						}, {
 							loadout = { "{BRU-32 GBU-24}" },
+							station = 6
+						}, {
+							loadout = { "{F14-TARPS}" },
 							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
@@ -4862,6 +4964,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BRU-32 GBU-24}" },
 							station = 6
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 6
 						} }
@@ -4869,8 +4974,101 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "<CLEAN>",
 					arg = 605,
 					arg_value = 1,
-					required = { {
-							loadout = { "<CLEAN>" },
+					forbidden = { {
+							loadout = { "{AIM_54A_Mk47}" },
+							station = 6
+						}, {
+							loadout = { "{AIM_54A_Mk60}" },
+							station = 6
+						}, {
+							loadout = { "{AIM_54C_Mk47}" },
+							station = 6
+						}, {
+							loadout = { "{AIM_54C_Mk60}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7E}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7F}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7M}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7MH}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 6
+						}, {
+							loadout = { "{BRU3242_SUU25}" },
+							station = 6
+						}, {
+							loadout = { "{BRU-32 MK-82}" },
+							station = 6
+						}, {
+							loadout = { "{BRU-32 MK-82AIR}" },
+							station = 6
+						}, {
+							loadout = { "{BRU-32 MK-82SE}" },
+							station = 6
+						}, {
+							loadout = { "{BRU-32 BDU-45}" },
+							station = 6
+						}, {
+							loadout = { "{BRU-32 BDU-45B}" },
+							station = 6
+						}, {
+							loadout = { "{MAK79_MK81 3R}" },
+							station = 6
+						}, {
+							loadout = { "{MAK79_MK82 3R}" },
+							station = 6
+						}, {
+							loadout = { "{MAK79_BDU45 3R}" },
+							station = 6
+						}, {
+							loadout = { "{MAK79_BDU45B 3R}" },
+							station = 6
+						}, {
+							loadout = { "{MAK79_BDU33 3R}" },
+							station = 6
+						}, {
+							loadout = { "{MAK79_MK82AIR 3R}" },
+							station = 6
+						}, {
+							loadout = { "{MAK79_MK82SE 3R}" },
+							station = 6
+						}, {
+							loadout = { "{MAK79_MK83 1R}" },
+							station = 6
+						}, {
+							loadout = { "{MAK79_MK20 1R}" },
+							station = 6
+						}, {
+							loadout = { "{BRU-32 MK-83}" },
+							station = 6
+						}, {
+							loadout = { "{BRU-32 GBU-12}" },
+							station = 6
+						}, {
+							loadout = { "{BRU-32 GBU-16}" },
+							station = 6
+						}, {
+							loadout = { "{BRU-32 MK-20}" },
+							station = 6
+						}, {
+							loadout = { "{BRU3242_ADM141}" },
+							station = 6
+						}, {
+							loadout = { "{BRU-32 MK-84}" },
+							station = 6
+						}, {
+							loadout = { "{BRU3242_3*BDU33}" },
+							station = 6
+						}, {
+							loadout = { "{BRU-32 GBU-24}" },
 							station = 6
 						} }
 				}, {
@@ -4961,6 +5159,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BRU-32 GBU-24}" },
 							station = 6
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 6
 						} }
@@ -4983,6 +5184,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 6
 						}, {
 							loadout = { "{BELLY AIM-7P}" },
+							station = 6
+						}, {
+							loadout = { "{F14-TARPS}" },
 							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
@@ -5009,6 +5213,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 6
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 6
 						} }
@@ -5031,6 +5238,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 6
 						}, {
 							loadout = { "{BELLY AIM-7P}" },
+							station = 6
+						}, {
+							loadout = { "{F14-TARPS}" },
 							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
@@ -5057,6 +5267,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 6
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 6
 						} }
@@ -5079,6 +5292,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 6
 						}, {
 							loadout = { "{BELLY AIM-7P}" },
+							station = 6
+						}, {
+							loadout = { "{F14-TARPS}" },
 							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
@@ -5105,6 +5321,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 6
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 6
 						} }
@@ -5127,6 +5346,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 6
 						}, {
 							loadout = { "{BELLY AIM-7P}" },
+							station = 6
+						}, {
+							loadout = { "{F14-TARPS}" },
 							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
@@ -5159,6 +5381,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 6
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 6
 						} }
@@ -5189,6 +5414,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 6
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 6
 						} }
@@ -5211,6 +5439,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 6
 						}, {
 							loadout = { "{BELLY AIM-7P}" },
+							station = 6
+						}, {
+							loadout = { "{F14-TARPS}" },
 							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
@@ -5240,6 +5471,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 6
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 6
 						} }
@@ -5265,6 +5499,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 6
 						}, {
 							loadout = { "{BELLY AIM-7P}" },
+							station = 6
+						}, {
+							loadout = { "{F14-TARPS}" },
 							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
@@ -5330,6 +5567,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BRU-32 GBU-24}" },
 							station = 6
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 6
 						} }
@@ -5358,6 +5598,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 6
 						}, {
 							loadout = { "{BELLY AIM-7P}" },
+							station = 6
+						}, {
+							loadout = { "{F14-TARPS}" },
 							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
@@ -5390,6 +5633,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 6
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 6
 						} }
@@ -5418,6 +5664,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 6
 						}, {
 							loadout = { "{BELLY AIM-7P}" },
+							station = 6
+						}, {
+							loadout = { "{F14-TARPS}" },
 							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
@@ -5450,6 +5699,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 6
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 6
 						} }
@@ -5475,6 +5727,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 6
 						}, {
 							loadout = { "{BELLY AIM-7P}" },
+							station = 6
+						}, {
+							loadout = { "{F14-TARPS}" },
 							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
@@ -5507,6 +5762,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 6
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 6
 						} }
@@ -5537,6 +5795,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 6
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 6
 						} }
@@ -5559,6 +5820,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 6
 						}, {
 							loadout = { "{BELLY AIM-7P}" },
+							station = 6
+						}, {
+							loadout = { "{F14-TARPS}" },
 							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
@@ -5585,6 +5849,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 6
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 6
 						} }
@@ -5599,6 +5866,196 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			DisplayName = "5",
 			Launchers = { {
+					CLSID = "{F14-TARPS}",
+					arg = 605,
+					arg_value = 1,
+					connector = "WEP_Phoenix_RearPallette_R",
+					forbidden = { {
+							loadout = { "{AIM_54A_Mk47}" },
+							station = 5
+						}, {
+							loadout = { "{AIM_54A_Mk60}" },
+							station = 5
+						}, {
+							loadout = { "{AIM_54C_Mk47}" },
+							station = 5
+						}, {
+							loadout = { "{AIM_54C_Mk60}" },
+							station = 5
+						}, {
+							loadout = { "{AIM_54A_Mk47}" },
+							station = 4
+						}, {
+							loadout = { "{AIM_54A_Mk60}" },
+							station = 4
+						}, {
+							loadout = { "{AIM_54C_Mk47}" },
+							station = 4
+						}, {
+							loadout = { "{AIM_54C_Mk60}" },
+							station = 4
+						}, {
+							loadout = { "{BRU3242_2*LAU10 R}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 MK-82}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 MK-82AIR}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 MK-82SE}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 BDU-45}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 BDU-45B}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_MK81 4}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_MK82 4}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_BDU45 4}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_BDU45B 4}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_BDU33 4}" },
+							station = 4
+						}, {
+							loadout = { "{BRU3242_3*BDU33}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_MK82AIR 4}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_MK82SE 4}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_MK83 3L}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 MK-83}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 GBU-12}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 GBU-16}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 MK-20}" },
+							station = 4
+						}, {
+							loadout = { "{BRU3242_ADM141}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 MK-84}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 GBU-10}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_MK20 2L}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 GBU-24}" },
+							station = 4
+						}, {
+							loadout = { "{AIM_54A_Mk47}" },
+							station = 7
+						}, {
+							loadout = { "{AIM_54A_Mk60}" },
+							station = 7
+						}, {
+							loadout = { "{AIM_54C_Mk47}" },
+							station = 7
+						}, {
+							loadout = { "{AIM_54C_Mk60}" },
+							station = 7
+						}, {
+							loadout = { "{BRU3242_2*LAU10 R}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 MK-82}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 MK-82AIR}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 MK-82SE}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 BDU-45}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 BDU-45B}" },
+							station = 7
+						}, {
+							loadout = { "{MAK79_MK81 4}" },
+							station = 7
+						}, {
+							loadout = { "{MAK79_MK82 4}" },
+							station = 7
+						}, {
+							loadout = { "{MAK79_BDU45 4}" },
+							station = 7
+						}, {
+							loadout = { "{MAK79_BDU45B 4}" },
+							station = 7
+						}, {
+							loadout = { "{MAK79_BDU33 4}" },
+							station = 7
+						}, {
+							loadout = { "{BRU3242_3*BDU33}" },
+							station = 7
+						}, {
+							loadout = { "{MAK79_MK82AIR 4}" },
+							station = 7
+						}, {
+							loadout = { "{MAK79_MK82SE 4}" },
+							station = 7
+						}, {
+							loadout = { "{MAK79_MK83 3L}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 MK-83}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 GBU-12}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 GBU-16}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 MK-20}" },
+							station = 7
+						}, {
+							loadout = { "{BRU3242_ADM141}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 MK-84}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 GBU-10}" },
+							station = 7
+						}, {
+							loadout = { "{MAK79_MK20 2L}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 GBU-24}" },
+							station = 7
+						} },
+					required = { {
+							loadout = { "<CLEAN>" },
+							station = 5
+						} }
+				}, {
 					CLSID = "{AIM_54A_Mk47}",
 					Cx_gain = 0.57,
 					arg = 604,
@@ -7761,6 +8218,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7MH}" },
 							station = 6
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 6
 						} }
@@ -7802,6 +8262,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 6
 						}, {
 							loadout = { "{BELLY AIM-7MH}" },
+							station = 6
+						}, {
+							loadout = { "{F14-TARPS}" },
 							station = 6
 						}, {
 							loadout = { "{BELLY AIM-7P}" },
@@ -7847,6 +8310,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7MH}" },
 							station = 6
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 6
 						} }
@@ -7888,6 +8354,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 6
 						}, {
 							loadout = { "{BELLY AIM-7MH}" },
+							station = 6
+						}, {
+							loadout = { "{F14-TARPS}" },
 							station = 6
 						}, {
 							loadout = { "{BELLY AIM-7P}" },
@@ -8554,6 +9023,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 4
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 4
 						} }
@@ -8592,6 +9064,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 4
+						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
 							station = 4
@@ -8632,6 +9107,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 4
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 4
 						} }
@@ -8671,6 +9149,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 4
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 4
 						} }
@@ -8709,6 +9190,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 4
+						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
 							station = 4
@@ -8752,6 +9236,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 4
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 4
 						} }
@@ -8790,6 +9277,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 4
+						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
 							station = 4
@@ -8833,6 +9323,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BRU3242_2*LAU10 R}" },
 							station = 4
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 4
 						} }
@@ -8875,6 +9368,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BRU3242_2*LAU10 R}" },
 							station = 4
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 4
 						} }
@@ -8914,6 +9410,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 4
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 4
 						} }
@@ -8952,6 +9451,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 4
+						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
 							station = 4
@@ -9007,6 +9509,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 4
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 4
 						} }
@@ -9045,6 +9550,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 4
+						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
 							station = 4
@@ -9087,6 +9595,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{BRU3242_2*LAU10 R}" },
 							station = 4
+						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
 							station = 4
@@ -9145,6 +9656,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BRU3242_2*LAU10 R}" },
 							station = 4
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 4
 						} }
@@ -9201,6 +9715,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{BRU3242_2*LAU10 R}" },
 							station = 4
+						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
 							station = 4
@@ -9259,6 +9776,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BRU3242_2*LAU10 R}" },
 							station = 4
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 4
 						} }
@@ -9316,6 +9836,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BRU3242_2*LAU10 R}" },
 							station = 4
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 4
 						} }
@@ -9369,6 +9892,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{BRU3242_2*LAU10 R}" },
 							station = 4
+						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
 							station = 4
@@ -9427,6 +9953,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BRU3242_2*LAU10 R}" },
 							station = 4
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 4
 						} }
@@ -9483,6 +10012,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{BRU3242_2*LAU10 R}" },
 							station = 4
+						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
 							station = 4
@@ -9550,6 +10082,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BRU3242_2*LAU10 R}" },
 							station = 4
 						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 4
 						} }
@@ -9609,6 +10144,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 4
+						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
 							station = 4
