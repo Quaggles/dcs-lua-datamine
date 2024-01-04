@@ -1,4 +1,5 @@
 local logName = 'DCS.Lua.Exporter'
+local enableNewFileAlert = false
 local function debugLog(message)
 	if log.write ~= nil then
 		log.write(logName, log.INFO, message)
@@ -18,6 +19,7 @@ package.path = package.path..";"..lfs.writedir().."Scripts/Hooks/?.lua" -- Saved
 package.path = package.path..";./Scripts/Hooks/?.lua" -- Game Directory Hooks
 debugLog("Loading")
 local dumpFolder = "DCS.Lua.Exporter\\" --Relative to lfs.writedir, aka "Saved Games\DCS\"
+local dumpFolderAbsolute = lfs.writedir()..tostring(dumpFolder)
 local function Run()
 	local inspect = require 'inspect'
 	local sepChar = "\t"
@@ -235,7 +237,7 @@ local function Run()
 	end
 	local versionPath = "_G/".."__DCS_VERSION__.lua"
 	local function newVersion()
-		local file, error = io.open (lfs.writedir()..tostring(dumpFolder)..versionPath, "r")
+		local file, error = io.open (dumpFolderAbsolute..versionPath, "r")
 		if error then
 			return true
 		else
@@ -369,11 +371,11 @@ local function Run()
 	end
 
 	local function Output(value, directory, filename)
-		local absoluteDirectory = lfs.writedir()..dumpFolder..SanitisePath(directory)
+		local absoluteDirectory = dumpFolderAbsolute..SanitisePath(directory)
 		if not lfs.attributes(absoluteDirectory) then
 			lfs.mkdir(absoluteDirectory)
 		end
-		local filepath = absoluteDirectory.."/".. SanitiseFilename(filename)..".lua"
+		local filepath = absoluteDirectory.."\\".. SanitiseFilename(filename)
 		local file, error = io.open (filepath, "w")
 		if error then
 			debugLogError("Error writing to disk "..ToLuaPath(pathTable, key)..' :'..error)
@@ -381,6 +383,7 @@ local function Run()
 			file:write(tostring(value))
 			file:close()
 		end
+		return filepath
 	end
 
 	-- Ouputs the table to a file
@@ -389,11 +392,11 @@ local function Run()
 	-- <filename> Name of the output file
 	-- <pathTable> Table of keys to locate parent of <table>, e.g. {"_G", "warheads"}
 	local function OutputTable(key, table, filename, pathTable)
-		local absoluteDirectory = lfs.writedir()..dumpFolder..SanitisePath(ToPath(pathTable))
+		local absoluteDirectory = dumpFolderAbsolute..SanitisePath(ToPath(pathTable))
 		if not lfs.attributes(absoluteDirectory) then
 			lfs.mkdir(absoluteDirectory)
 		end
-		local filepath = absoluteDirectory.."/".. SanitiseFilename(filename)..".lua"
+		local filepath = absoluteDirectory.."\\".. SanitiseFilename(filename)
 		-- debugLog("File: "..tostring(filepath))
 		local file, error = io.open (filepath, "w")
 		if error then
@@ -457,7 +460,7 @@ local function Run()
 					if value[property] ~= nil and tableLength(value) > 0 then
 						local filename = value[property]
 						if filename == nil or type(filename) ~= "string" or filename == "" then filename = key end
-						OutputTable(key, value, tostring(filename), pathTable)
+						OutputTable(key, value, tostring(filename..".lua"), pathTable)
 						break
 					else
 						if recurse then
@@ -478,7 +481,7 @@ local function Run()
 		LogTime(1, "Writing \""..tableName.."\"", DumpRecurse, getTableFromPath(tableName), "_G\t"..tableName:gsub("%.", "\t"), tablePropertyFilters, recurse)
 	end
 	local function Export()
-		Output(getDcsVersion(), "_G/", "__DCS_VERSION__")
+		Output(getDcsVersion(), "_G/", "__DCS_VERSION__.lua")
 		for _, v in ipairs(scanList) do
 			Scan(v)
 		end
@@ -498,17 +501,40 @@ local function Run()
 		debugLog("Same dcs version has already been dumped, exiting...")
 		return
 	end
-	local clearFolder = lfs.writedir()..tostring(dumpFolder).."_G\\"
+	local clearFolder = dumpFolderAbsolute.."_G/"
+	local oldExport = {}
+	debugLog("Removing old export files...")
 	for key, value in pairs(recursiveDir(clearFolder)) do
 		-- Don't clear version number
 		if not endsWith(value, versionPath) then
+			table.insert(oldExport, tostring(value))
 			os.remove(tostring(value))
 		end
 	end
+	debugLog("Removed "..tostring(tableLength(oldExport)).." files from old export")
 	for key, value in rpairs(recursiveDir(clearFolder, {}, true)) do
 		lfs.rmdir(tostring(value))
 	end
 	LogTime(0, "Global Export", Export)
+
+	if enableNewFileAlert == true then
+		debugLog("NewFileAlert detecting new file additions...")
+		local newFiles = {}
+		for key, value in pairs(recursiveDir(clearFolder)) do
+			if not tableContainsValue(oldExport, value) then
+				table.insert(newFiles, tostring(value:gsub(dumpFolderAbsolute,"")))
+			end
+		end
+		if not tableEmpty(newFiles) then
+			local outputString = tableLength(newFiles).." new files found for version "..getDcsVersion().."!\n\n"
+			local filepath = Output(outputString..table.concat(newFiles, "\n"), "_G", "additions.txt")
+			local MsgWindow = require('MsgWindow')
+			MsgWindow.info(tableLength(newFiles).." new datamine files found!\nList written to: "..filepath, logName, _("OK")):show()
+			for key, value in pairs(newFiles) do
+				debugLog(tostring(value))
+			end
+		end
+	end
 end
 local status, error = pcall(Run)
 if error then
