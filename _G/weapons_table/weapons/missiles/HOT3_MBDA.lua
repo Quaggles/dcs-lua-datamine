@@ -59,7 +59,7 @@ _G["weapons_table"]["weapons"]["missiles"]["HOT3_MBDA"] = {
 			boost_start = 0,
 			march_start = 0.9
 		},
-		display_name_short = "HOT3",
+		display_name_short = "HOT-3",
 		eng_err = {
 			max_time_interval = 0.9,
 			min_time_interval = 0.1,
@@ -98,15 +98,12 @@ _G["weapons_table"]["weapons"]["missiles"]["HOT3_MBDA"] = {
 			tail_width = 0.025,
 			work_time = 17.5
 		},
-		mass = 24.5,
 		model = "hot3",
 		name = "HOT3_MBDA",
 		scheme = "schemes/missiles/command_guided_spin_missile.sch",
 		shape_table_data = { {
 				file = "hot3",
-				fire = { 0, 1 },
 				index = "Redacted",
-				life = 1,
 				name = "HOT3_MBDA",
 				username = "HOT3_MBDA"
 			} },
@@ -126,7 +123,7 @@ _G["weapons_table"]["weapons"]["missiles"]["HOT3_MBDA"] = {
 		t_acc = 0.9,
 		t_b = 0,
 		t_marsh = 17.5,
-		user_name = "HOT3",
+		user_name = "HOT-3",
 		v_mid = 235,
 		v_min = 0,
 		warhead = {
@@ -147,8 +144,8 @@ _G["weapons_table"]["weapons"]["missiles"]["HOT3_MBDA"] = {
 		},
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
-	display_name = "HOT3",
-	display_name_short = "HOT3",
+	display_name = "HOT-3",
+	display_name_short = "HOT-3",
 	mass = 24.5,
 	model = "hot3",
 	name = "HOT3_MBDA",
@@ -207,7 +204,7 @@ _G["weapons_table"]["weapons"]["missiles"]["HOT3_MBDA"] = {
 			boost_start = 0,
 			march_start = 0.9
 		},
-		display_name_short = "HOT3",
+		display_name_short = "HOT-3",
 		eng_err = {
 			max_time_interval = 0.9,
 			min_time_interval = 0.1,
@@ -246,15 +243,12 @@ _G["weapons_table"]["weapons"]["missiles"]["HOT3_MBDA"] = {
 			tail_width = 0.025,
 			work_time = 17.5
 		},
-		mass = 24.5,
 		model = "hot3",
 		name = "HOT3_MBDA",
 		scheme = "schemes/missiles/command_guided_spin_missile.sch",
 		shape_table_data = { {
 				file = "hot3",
-				fire = { 0, 1 },
 				index = "Redacted",
-				life = 1,
 				name = "HOT3_MBDA",
 				username = "HOT3_MBDA"
 			} },
@@ -274,7 +268,7 @@ _G["weapons_table"]["weapons"]["missiles"]["HOT3_MBDA"] = {
 		t_acc = 0.9,
 		t_b = 0,
 		t_marsh = 17.5,
-		user_name = "HOT3",
+		user_name = "HOT-3",
 		v_mid = 235,
 		v_min = 0,
 		warhead = {

@@ -14,7 +14,7 @@ _G["launcher"]["DIS_PL-12_DUAL_L"] = {
 		} },
 	JettisonSubmunitionOnly = true,
 	Picture = "pl12.png",
-	Weight = 558,
+	Weight = 528,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/mils_sd10.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	attribute = { 4, 4, 32, "Redacted" },

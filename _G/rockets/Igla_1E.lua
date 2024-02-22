@@ -34,9 +34,14 @@ _G["rockets"]["#Index"] = {
 		K = 20,
 		Kg = 3.44,
 		Ki = 77.519,
-		delay = 0.5,
+		defalul_aa_gbias_mlt = 0,
+		delay = 0.35,
 		fin2_coeff = 0.1,
-		finsLimit = 0.26179938779915
+		finsLimit = 0.26179938779915,
+		gbias_Kp = 4.8,
+		gbias_time = 1.2,
+		lim_amp_Kp = 1.5,
+		lim_amp_time = 1.6
 	},
 	booster = {
 		boost_factor = 0,

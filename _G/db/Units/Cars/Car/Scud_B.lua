@@ -140,7 +140,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	chassis = {},
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000208",
-	maxVerticalDeviationAngle = 0.087266462599716,
+	maxDeviationRoll = 0.087266462599716,
 	sensor = {
 		height = 2.617
 	},

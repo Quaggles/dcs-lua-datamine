@@ -1,12 +1,5 @@
 _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	AddPropAircraft = { {
-			arg = 605,
-			control = "checkbox",
-			defValue = true,
-			id = "FCR_RFI_removed",
-			label = "FCR/RFI removed",
-			weightWhenOn = -237.23
-		}, {
 			arg = 509,
 			control = "checkbox",
 			defValue = true,
@@ -547,7 +540,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	},
 	DisplayName = "AH-64D BLK.II",
 	EPLRS = true,
-	EmptyWeight = 6167.7,
+	EmptyWeight = 5930.47,
 	Failures = { {
 			enable = false,
 			hh = 0,
@@ -642,7 +635,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						j = 0,
 						k1 = 2.2e-08,
 						l = 0,
-						life_time = 11,
+						life_time = 30,
 						manualWeaponFlag = 21,
 						mass = 0.234,
 						model_name = "pula",
@@ -704,7 +697,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						j = 0,
 						k1 = 2.2e-08,
 						l = 0,
-						life_time = 11,
+						life_time = 30,
 						manualWeaponFlag = 21,
 						mass = 0.234,
 						model_name = "pula",
@@ -1130,7 +1123,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			Name = "HelicopterCarrier"
 		} },
 	MOI = { 6170, 28982, 33441 },
-	M_empty = 6167.7,
+	M_empty = 5930.47,
 	M_fuel_max = 1140,
 	M_max = 9189.94,
 	M_nominal = 8654.7,
@@ -1757,6 +1750,21 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			Z = 0,
 			arg = 0,
 			arg_value = 0
+		}, {
+			DisplayName = "MMA",
+			Launchers = { {
+					CLSID = "{AN_APG_78}"
+				} },
+			Number = 6,
+			Order = 6,
+			Type = 0,
+			X = 0.350867,
+			Y = 2.526422,
+			Z = 0,
+			arg = 0,
+			arg_value = 0,
+			connector = "Pylon_Radar",
+			use_full_connector_position = true
 		} },
 	RCS = 5,
 	Rate = "50",

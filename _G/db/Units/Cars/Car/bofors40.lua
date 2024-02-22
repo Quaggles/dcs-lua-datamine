@@ -32,8 +32,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			pidY = {},
 			pidZ = {},
 			pointer = "POINT_GUN",
-			reference_angle_Y = 3.1415926535898,
-			reference_angle_Z = 0.17453292519943
+			reference_angle_Y = 3.1415926535898
 		},
 		maxTargetDetectionRange = 10000
 	},
@@ -41,7 +40,30 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	_file = "./CoreMods/tech/TechWeaponPack/Database/db_units_cars.lua",
 	_origin = "TechWeaponPack",
 	animation_arguments = {
-		alarm_state = -1
+		alarm_state = -1,
+		alarm_state_sequence = { { 3, { {
+						endTime = 20,
+						startTime = 0
+					}, {
+						endTime = 25,
+						endVal = 1,
+						startTime = 20,
+						startVal = 1
+					} } }, { 11, { {
+						endTime = 10,
+						startTime = 0
+					}, {
+						endTime = 20,
+						leveling = true,
+						startTime = 10
+					}, {
+						endTime = 25,
+						endVal = 1,
+						startTime = 20,
+						startVal = 1
+					} } },
+			totalDuration = 25
+		}
 	},
 	armour_scheme = {
 		hull_azimuth = { {} },
@@ -54,8 +76,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	chassis = {
 		life = 1.5
 	},
+	defaultStartAlarmState = 2,
 	enablePlayerCanDrive = true,
 	mapclasskey = "P0091000015",
+	maxDeviationPitch = 0.087266462599716,
+	maxDeviationRoll = 0.087266462599716,
 	sensor = {
 		height = 1.736
 	},

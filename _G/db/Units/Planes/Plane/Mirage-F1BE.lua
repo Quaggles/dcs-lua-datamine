@@ -260,6 +260,31 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			min = 1,
 			playerOnly = true
 		}, {
+			control = "editbox",
+			getDefault = <function 1>,
+			id = "IFFMode2Code",
+			label = "IFF Mode 2 Code",
+			onChange = <function 2>,
+			onFocus = <function 3>,
+			playerOnly = true
+		}, {
+			control = "comboList",
+			defValue = 1,
+			id = "IFFMode4Disabled",
+			label = "Force IFF Mode 4 Transponder Installed",
+			playerOnly = true,
+			values = { {
+					dispName = "NO",
+					id = 1
+				}, {
+					dispName = "Force Always Disabled",
+					id = 2
+				}, {
+					dispName = "Force Always Enabled",
+					id = 3
+				} },
+			wCtrl = 75
+		}, {
 			control = "checkbox",
 			defValue = false,
 			id = "SoloFlight",
@@ -1497,6 +1522,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	HumanCommPanelPath = "./Mods/aircraft/Mirage-F1/Comm/comm.lua",
 	HumanFM = { "Mirage F1 by Aerges", "MirageF1cmn",
 		center_of_mass = { -1.425, -0.096, 0 },
+		config_path = "./Mods/aircraft/Mirage-F1/",
 		disable_built_in_oxygen_system = true,
 		gyro_effect = true,
 		moment_of_inertia = { 8206, 70591, 65780, 2729 },
@@ -1616,6 +1642,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				wheel_side_friction_factor = 0.65,
 				wheel_static_friction_factor = 0.9
 			} },
+		user_options = "Mirage-F1",
 		zeroize_amortizers_before_collision_check = false
 	},
 	HumanRadio = {
@@ -2091,6 +2118,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{S530F}" },
 							station = 5
 						} }
+				}, {
+					CLSID = "PTB-580G-F1",
+					arg_value = 0.35
+				}, {
+					CLSID = "PTB-580G-F1-EMPTY",
+					arg_value = 0.35
 				} },
 			Number = 4,
 			Order = 4,
@@ -2711,6 +2744,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Name = "Intercept",
 			OldID = "Intercept",
 			WorldID = 10
+		}, {
+			Name = "Anti-ship Strike",
+			OldID = "Antiship Strike",
+			WorldID = 30
 		} },
 	V_land = 100,
 	V_max_h = 649,

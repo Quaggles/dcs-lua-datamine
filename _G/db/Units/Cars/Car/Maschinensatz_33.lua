@@ -13,7 +13,46 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	_origin = "WWII Armour and Technics",
 	airWeaponDist = 0,
 	animation_arguments = {
-		alarm_state = -1
+		alarm_state_sequence = { { 3, { {
+						endTime = 3,
+						endVal = 0.3,
+						startTime = 0,
+						startVal = 0
+					}, {
+						endTime = 14,
+						endVal = 0.3,
+						startTime = 3,
+						startVal = 0.3
+					} } }, { 49, { {
+						endTime = 11,
+						endVal = 0,
+						startTime = 0,
+						startVal = 0
+					}, {
+						endTime = 13,
+						endVal = 1,
+						startTime = 11,
+						startVal = 0
+					}, {
+						endTime = 14,
+						endVal = 1,
+						startTime = 13,
+						startVal = 1
+					} } }, { 11, { {
+						endTime = 3,
+						startTime = 0
+					}, {
+						endTime = 10,
+						leveling = true,
+						startTime = 4
+					}, {
+						endTime = 14,
+						endVal = 1,
+						startTime = 10,
+						startVal = 1
+					} } },
+			totalDuration = 14
+		}
 	},
 	armour_scheme = {
 		hull_azimuth = { {} },
@@ -26,8 +65,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	chassis = {
 		mass = 2000
 	},
+	defaultStartAlarmState = 2,
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000004",
+	maxDeviationPitch = 0.17453292519943,
+	maxDeviationRoll = 0.17453292519943,
 	shape_table_data = { {
 			classname = "lLandVehicle",
 			desrt = "Maschinensatz_33_p_1",

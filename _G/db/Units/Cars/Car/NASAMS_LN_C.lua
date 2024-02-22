@@ -76,7 +76,45 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	_file = "./CoreMods/tech/TechWeaponPack/Database/db_units_cars.lua",
 	_origin = "TechWeaponPack",
 	animation_arguments = {
-		alarm_state = -1
+		alarm_state = -1,
+		alarm_state_sequence = { { 2, { {
+						endTime = 20,
+						startTime = 0
+					}, {
+						endTime = 50,
+						endVal = 1,
+						startTime = 20,
+						startVal = 1
+					} } }, { 3, { {
+						endTime = 25,
+						endVal = 0,
+						startTime = 0,
+						startVal = 0
+					}, {
+						endTime = 45,
+						endVal = 1,
+						startTime = 25,
+						startVal = 0
+					}, {
+						endTime = 50,
+						endVal = 1,
+						startTime = 45,
+						startVal = 1
+					} } }, { 11, { {
+						endTime = 10,
+						startTime = 0
+					}, {
+						endTime = 20,
+						leveling = true,
+						startTime = 10
+					}, {
+						endTime = 50,
+						endVal = 1,
+						startTime = 20,
+						startVal = 1
+					} } },
+			totalDuration = 50
+		}
 	},
 	armour_scheme = {
 		hull_azimuth = { {} },
@@ -87,8 +125,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 16, 27, "Redacted", "AA_missile", "SAM LL", "Datalink", "All", "Ground Units", "Vehicles", "Ground vehicles", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "SAM related", "SAM elements", "Armed Air Defence" },
 	category = "Air Defence",
 	chassis = {},
+	defaultStartAlarmState = 2,
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000082",
+	maxDeviationPitch = 0.087266462599716,
+	maxDeviationRoll = 0.087266462599716,
 	sensor = {
 		height = 2.707
 	},

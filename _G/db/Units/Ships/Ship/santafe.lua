@@ -1,70 +1,5 @@
 _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	Countries = { "USA", "Argentina" },
-	DM = { {
-			area_arg = 70,
-			area_fire = {
-				pos = { 6.76, 0, 2.95 },
-				size = 0.7
-			},
-			area_life = 40,
-			area_name = "DMG-CONNING-TOWER"
-		}, {
-			area_arg = 71,
-			area_fire = {
-				pos = { 23, 0, 2.95 },
-				size = 0.7
-			},
-			area_life = 40,
-			area_name = "PALUBA-FWD"
-		}, {
-			area_arg = 72,
-			area_fire = {
-				pos = { -18, 0, 2.95 },
-				size = 0.7
-			},
-			area_life = 40,
-			area_name = "PALUBA-AFT"
-		}, {
-			area_arg = 73,
-			area_fire = {
-				pos = { 33.9, 0, 0.3 },
-				size = 0.8
-			},
-			area_life = 60,
-			area_name = "DMG-BOW"
-		}, {
-			area_arg = 74,
-			area_fire = {
-				pos = { -3.4, 0, 0.3 },
-				size = 0.8
-			},
-			area_life = 60,
-			area_name = "DMG-HULL-MIDSHIPS"
-		}, {
-			area_arg = 75,
-			area_fire = {
-				pos = { 35.3, 0, 0.3 },
-				size = 0.8
-			},
-			area_life = 60,
-			area_name = "DMG-STERN"
-		}, {
-			area_arg = 76,
-			area_fire = {
-				pos = { -3.4, 0, 0 },
-				size = 1.2
-			},
-			area_life = 60,
-			area_name = "DMG-LOWER-HULL"
-		}, {
-			area_arg = 77,
-			area_fire = {
-				pos = { -3.4, 0, 0.3 },
-				size = 1.2
-			},
-			area_life = 70,
-			area_name = "SantaFe_Destroyed"
-		} },
 	DeckLevel = 3,
 	DisplayName = "ARA Santa Fe S-21",
 	Gamma_max = 0.25,
@@ -83,42 +18,42 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	WS = { {
 			LN = { {
 					BR = { {
-							connector_name = "TPO_01",
+							pos = { 0, 0, -0.6 },
 							recoilArgument = 177,
 							recoilT0 = -1,
 							recoilT1 = -0.5,
 							recoilT2 = 0.5,
 							recoilTime = 1
 						}, {
-							connector_name = "TPO_02",
-							recoilArgument = 178,
-							recoilT0 = -1,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
-							recoilTime = 1
-						}, {
-							connector_name = "TPO_03",
+							pos = { 0, 0, 0.6 },
 							recoilArgument = 179,
 							recoilT0 = -1,
 							recoilT1 = -0.5,
 							recoilT2 = 0.5,
 							recoilTime = 1
 						}, {
-							connector_name = "TPO_04",
+							pos = { 0, -0.9, -0.6 },
+							recoilArgument = 178,
+							recoilT0 = -1,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 1
+						}, {
+							pos = { 0, -0.9, 0.6 },
 							recoilArgument = 180,
 							recoilT0 = -1,
 							recoilT1 = -0.5,
 							recoilT2 = 0.5,
 							recoilTime = 1
 						}, {
-							connector_name = "TPO_05",
+							pos = { 0, -1.8, -0.6 },
 							recoilArgument = 181,
 							recoilT0 = -1,
 							recoilT1 = -0.5,
 							recoilT2 = 0.5,
 							recoilTime = 1
 						}, {
-							connector_name = "TPO_06",
+							pos = { 0, -1.8, 0.6 },
 							recoilArgument = 182,
 							recoilT0 = -1,
 							recoilT1 = -0.5,
@@ -131,8 +66,9 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { {} },
-			canSetTacticalDir = false,
-			reference_angle_Z = 0.087266462599716
+			canSetTacticalDir = true,
+			pos = { 39, -0.9, 0 },
+			reference_angle_Z = 0
 		},
 		maxTargetDetectionRange = 450000,
 		radar_type = 102,
@@ -145,95 +81,16 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	X_tail = -50,
 	_file = "./CoreMods/tech/SouthAtlanticAssets/Entries/Navy/santafe.lua",
 	_origin = "South_Atlantic_Assets",
-	airFindDist = 10000,
-	airWeaponDist = 30000,
+	airFindDist = 30000,
+	airWeaponDist = 0,
 	animation_arguments = {
-		alarm_state_sequence = { { 3, { {
-						endTime = 1,
-						endVal = 0,
-						startTime = 0,
-						startVal = 0
-					}, {
-						endTime = 15,
-						endVal = 0.75,
-						startTime = 1,
-						startVal = 0
-					}, {
-						endTime = 20,
-						endVal = 0.75,
-						startTime = 15,
-						startVal = 0.75
-					} } }, { 14, { {
-						endTime = 15,
-						endVal = 0,
-						startTime = 0,
-						startVal = 0
-					}, {
-						endTime = 20,
-						endVal = 1,
-						startTime = 15,
-						startVal = 0
-					}, {
-						endTime = 20,
-						endVal = 1,
-						startTime = 20,
-						startVal = 1
-					} } }, { 15, { {
-						endTime = 15,
-						endVal = 0,
-						startTime = 0,
-						startVal = 0
-					}, {
-						endTime = 20,
-						endVal = 1,
-						startTime = 15,
-						startVal = 0
-					}, {
-						endTime = 20,
-						endVal = 1,
-						startTime = 20,
-						startVal = 1
-					} } }, { 16, { {
-						endTime = 1,
-						endVal = 1,
-						startTime = 0,
-						startVal = 0
-					}, {
-						endTime = 5,
-						endVal = 1,
-						startTime = 1,
-						startVal = 0
-					}, {
-						endTime = 20,
-						endVal = 0,
-						startTime = 5,
-						startVal = 0
-					} } }, { 18, { {
-						endTime = 1,
-						endVal = 1,
-						startTime = 0,
-						startVal = 0
-					}, {
-						endTime = 5,
-						endVal = 1,
-						startTime = 1,
-						startVal = 0
-					}, {
-						endTime = 20,
-						endVal = 0,
-						startTime = 5,
-						startVal = 0
-					} } },
-			totalDuration = 20
-		},
+		arresting_wires = {},
+		blast_fences = {},
 		flag_animation = -1,
-		locator_rotation = 1,
-		nav_lights = 69,
-		periscope = 14,
+		periscope = 16,
 		radar1_rotation = -1,
 		radar2_rotation = -1,
-		radar3_rotation = -1,
-		water_propeller = 65
+		radar3_rotation = -1
 	},
 	armour_scheme = {
 		hull_azimuth = { {} },
@@ -249,15 +106,23 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	economy_distance = 72000000,
 	economy_velocity = 5.15,
 	enablePlayerCanDrive = false,
-	life = 100,
+	life = 3,
 	mapclasskey = "P0091000038",
 	mass = 5300000,
 	maxPeriscopeDepth = 12,
 	max_velocity = 14.9,
 	minPeriscopeDepth = 9,
+	periscopeHeight = 14,
 	propeller_omega_max = 120,
 	race_distance = 7200000,
 	race_velocity = 14.9,
+	sensor = {
+		max_alt_finding_target = 15000,
+		max_range_finding_target = 30000,
+		min_alt_finding_target = -200,
+		min_range_finding_target = 100,
+		pos = { 7.2, 9.5, 0 }
+	},
 	shipLength = 93,
 	snd = {},
 	speedup = 0.4,

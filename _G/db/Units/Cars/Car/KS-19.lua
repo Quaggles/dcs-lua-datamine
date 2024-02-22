@@ -57,8 +57,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				inn = 2,
 				p = 30
 			},
-			pointer = "POINT_SIGHT_01",
-			reference_angle_Z = 0.087266462599716
+			pointer = "POINT_SIGHT_01"
 		},
 		fire_on_march = false,
 		maxTargetDetectionRange = 20000
@@ -68,7 +67,30 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	_origin = "TechWeaponPack",
 	airWeaponDist = 20000,
 	animation_arguments = {
-		alarm_state = -1
+		alarm_state = -1,
+		alarm_state_sequence = { { 3, { {
+						endTime = 20,
+						startTime = 0
+					}, {
+						endTime = 25,
+						endVal = 1,
+						startTime = 20,
+						startVal = 1
+					} } }, { 11, { {
+						endTime = 10,
+						startTime = 0
+					}, {
+						endTime = 20,
+						leveling = true,
+						startTime = 10
+					}, {
+						endTime = 25,
+						endVal = 1,
+						startTime = 20,
+						startVal = 1
+					} } },
+			totalDuration = 25
+		}
 	},
 	armour_scheme = {
 		hull_azimuth = { {} },
@@ -82,8 +104,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		life = 4,
 		mass = 9350
 	},
+	defaultStartAlarmState = 2,
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000015",
+	maxDeviationPitch = 0.087266462599716,
+	maxDeviationRoll = 0.087266462599716,
 	sensor = {
 		height = 1.8
 	},
@@ -110,8 +135,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			coeffs = { { 0, 0 }, { 0.00775, 0.00265 }, { 0.002, 0.0015 }, { 0, 0 }, { 0.27, 0.00049090909090909 } }
 		},
 		agony_explosion_size = 1,
-		dirt_pos = { 0, 0, -0 },
-		dust_pos = { 0, 0, -0 },
+		dirt_pos = { 0, 0, -0.1 },
+		dust_pos = { 0, 0, -0.1 },
 		fire_pos = { 0, 0.5, 0 },
 		fire_size = 0.2,
 		fire_time = 0,

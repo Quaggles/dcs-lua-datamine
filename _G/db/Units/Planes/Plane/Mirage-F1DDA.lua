@@ -260,6 +260,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			min = 1,
 			playerOnly = true
 		}, {
+			control = "editbox",
+			getDefault = <function 1>,
+			id = "IFFMode2Code",
+			label = "IFF Mode 2 Code",
+			onChange = <function 2>,
+			onFocus = <function 3>,
+			playerOnly = true
+		}, {
 			control = "checkbox",
 			defValue = false,
 			id = "SoloFlight",
@@ -2070,6 +2078,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Name = "Intercept",
 			OldID = "Intercept",
 			WorldID = 10
+		}, {
+			Name = "Anti-ship Strike",
+			OldID = "Antiship Strike",
+			WorldID = 30
 		} },
 	V_land = 100,
 	V_max_h = 649,

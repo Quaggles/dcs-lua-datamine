@@ -1,4 +1,5 @@
 _G["Pylons"]["BRU_55"] = {
+	DrawArgs = { { 3, 0.1 } },
 	IsAdapter = true,
 	ShapeName = "BRU_55",
 	_unique_resource_name = "weapons.adapters.BRU_55",

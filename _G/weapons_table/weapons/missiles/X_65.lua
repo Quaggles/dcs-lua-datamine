@@ -21,7 +21,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_65"] = {
 			can_update_target_pos = 0,
 			default_cruise_height = 75,
 			obj_sensor = 0,
-			seeker_activation_dist = 15100,
+			seeker_activation_dist = 15500,
 			turn_before_point_reach = 1,
 			turn_hor_N = 0.8,
 			turn_max_calc_angle_deg = 90,
@@ -137,10 +137,11 @@ _G["weapons_table"]["weapons"]["missiles"]["X_65"] = {
 		play_booster_animation = {
 			val = 0
 		},
-		scheme = "schemes/missiles/cruise_missile.sch",
+		scheme = "schemes/missiles/sat_cruise_missile.sch",
 		seeker = {
-			delay = 1,
-			err_dist_factor = 0.01
+			can_update_target_pos = 1,
+			coalition = 1,
+			coalition_rnd_coeff = 5
 		},
 		warhead = {
 			caliber = 514,
@@ -193,7 +194,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_65"] = {
 			can_update_target_pos = 0,
 			default_cruise_height = 75,
 			obj_sensor = 0,
-			seeker_activation_dist = 15100,
+			seeker_activation_dist = 15500,
 			turn_before_point_reach = 1,
 			turn_hor_N = 0.8,
 			turn_max_calc_angle_deg = 90,
@@ -309,10 +310,11 @@ _G["weapons_table"]["weapons"]["missiles"]["X_65"] = {
 		play_booster_animation = {
 			val = 0
 		},
-		scheme = "schemes/missiles/cruise_missile.sch",
+		scheme = "schemes/missiles/sat_cruise_missile.sch",
 		seeker = {
-			delay = 1,
-			err_dist_factor = 0.01
+			can_update_target_pos = 1,
+			coalition = 1,
+			coalition_rnd_coeff = 5
 		},
 		warhead = {
 			caliber = 514,

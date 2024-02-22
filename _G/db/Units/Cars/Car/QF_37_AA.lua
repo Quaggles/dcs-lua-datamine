@@ -55,7 +55,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				i = 20,
 				inn = 2,
 				p = 30
-			}
+			},
+			reference_angle_Y = 3.1415926535898
 		},
 		maxTargetDetectionRange = 10000
 	},
@@ -64,7 +65,42 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	_origin = "WWII Armour and Technics",
 	airWeaponDist = 9000,
 	animation_arguments = {
-		alarm_state = -1
+		alarm_state = -1,
+		alarm_state_sequence = { { 2, { {
+						endTime = 10,
+						endVal = 1,
+						startTime = 0,
+						startVal = 0
+					}, {
+						endTime = 17,
+						endVal = 1,
+						startTime = 10,
+						startVal = 1
+					} } }, { 3, { {
+						endTime = 10,
+						endVal = 0,
+						startTime = 0,
+						startVal = 0
+					}, {
+						endTime = 17,
+						endVal = 1,
+						startTime = 12,
+						startVal = 0
+					} } }, { 11, { {
+						endTime = 0,
+						startTime = 0
+					}, {
+						endTime = 10,
+						leveling = true,
+						startTime = 5
+					}, {
+						endTime = 17,
+						endVal = 1,
+						startTime = 10,
+						startVal = 1
+					} } },
+			totalDuration = 17
+		}
 	},
 	armour_scheme = {
 		hull_azimuth = { {} },
@@ -77,8 +113,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	chassis = {
 		life = 2
 	},
+	defaultStartAlarmState = 2,
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000015",
+	maxDeviationPitch = 0.17453292519943,
+	maxDeviationRoll = 0.17453292519943,
 	sensor = {
 		height = 1.736
 	},

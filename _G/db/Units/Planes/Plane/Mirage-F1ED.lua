@@ -259,6 +259,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			max = 8,
 			min = 1,
 			playerOnly = true
+		}, {
+			control = "editbox",
+			getDefault = <function 1>,
+			id = "IFFMode2Code",
+			label = "IFF Mode 2 Code",
+			onChange = <function 2>,
+			onFocus = <function 3>,
+			playerOnly = true
 		} },
 	AmmoWeight = 153.09,
 	CAS_min = 50,
@@ -1367,8 +1375,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			short_name = "defa_553",
 			supply = {
 				count = 135,
-				get_mass = <function 1>,
-				get_mass_ = <function 2>,
+				get_mass = <function 4>,
+				get_mass_ = <function 5>,
 				mixes = { { 2, 1, 1, 1, 1, 1 } },
 				shells = { <2>{
 						AP_cap_caliber = 30,
@@ -1479,8 +1487,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			short_name = "defa_553",
 			supply = {
 				count = 135,
-				get_mass = <function 3>,
-				get_mass_ = <function 4>,
+				get_mass = <function 6>,
+				get_mass_ = <function 7>,
 				mixes = { { 1, 1, 2, 1, 1, 1 } },
 				shells = { <table 2> }
 			},
@@ -2244,6 +2252,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Name = "Intercept",
 			OldID = "Intercept",
 			WorldID = 10
+		}, {
+			Name = "Anti-ship Strike",
+			OldID = "Antiship Strike",
+			WorldID = 30
 		} },
 	V_land = 95,
 	V_max_h = 386,

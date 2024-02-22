@@ -107,7 +107,30 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	_file = "./Mods/tech/WWII Units/Database/db_units_cars.lua",
 	_origin = "WWII Armour and Technics",
 	animation_arguments = {
-		alarm_state = -1
+		alarm_state = -1,
+		alarm_state_sequence = { { 3, { {
+						endTime = 10,
+						startTime = 0
+					}, {
+						endTime = 15,
+						endVal = 1,
+						startTime = 10,
+						startVal = 1
+					} } }, { 11, { {
+						endTime = 0,
+						startTime = 0
+					}, {
+						endTime = 10,
+						leveling = true,
+						startTime = 0
+					}, {
+						endTime = 15,
+						endVal = 1,
+						startTime = 10,
+						startVal = 1
+					} } },
+			totalDuration = 15
+		}
 	},
 	armour_scheme = {
 		hull_azimuth = { {} },
@@ -120,8 +143,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	chassis = {
 		life = 1.5
 	},
+	defaultStartAlarmState = 2,
 	enablePlayerCanDrive = true,
 	mapclasskey = "P0091000015",
+	maxDeviationPitch = 0.17453292519943,
+	maxDeviationRoll = 0.17453292519943,
 	sensor = {
 		height = 1.736
 	},

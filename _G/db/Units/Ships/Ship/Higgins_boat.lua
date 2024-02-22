@@ -11,6 +11,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	Height = 2,
 	IR_emission_coeff = 0.08,
 	InternalCargo = {
+		area = { 4.2, 3, 2 },
+		far_wall_pos = { 4.2, 0.3, 0 },
 		maximalCapacity = 700,
 		nominalCapacity = 700
 	},

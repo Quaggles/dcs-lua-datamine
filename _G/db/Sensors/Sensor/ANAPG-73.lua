@@ -26,7 +26,7 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 	scan_period = 5,
 	scan_volume = {
 		azimuth = { -60, 60 },
-		elevation = { -30, 10 }
+		elevation = { -30, 30 }
 	},
 	surface_search = {
 		GMTI_detection_distance = 1480000,

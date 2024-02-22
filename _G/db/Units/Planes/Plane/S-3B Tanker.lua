@@ -1020,7 +1020,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	range = 3701,
 	refueling_points = { {
 			clientType = 3,
-			pos = { -16.17, -1.7523, -3.869 }
+			pos = { -16.04, -1.7497, -3.86 }
 		} },
 	shape_table_data = { {
 			classname = "lLandPlane",

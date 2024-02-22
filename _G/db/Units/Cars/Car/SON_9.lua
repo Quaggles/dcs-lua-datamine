@@ -61,8 +61,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						kTau = 0.1,
 						magnification = 24,
 						type = 1
-					},
-					sightMaxTanVel = 220
+					}
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 1.4835298641952 } },
 			omegaY = 1,
@@ -204,6 +203,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		life = 2,
 		mass = 5000
 	},
+	defaultStartAlarmState = 2,
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000083",
 	radar_rotation_period = 2.5,

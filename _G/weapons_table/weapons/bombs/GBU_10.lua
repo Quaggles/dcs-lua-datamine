@@ -15,7 +15,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_10"] = {
 			velK = 1
 		},
 		bang_bang_autopilot = {
-			omegaDumpingK = 0.3
+			omegaDumpingK = 0.7
 		},
 		fm = {
 			A = 0.36,
@@ -68,7 +68,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_10"] = {
 			velK = 1
 		},
 		bang_bang_autopilot = {
-			omegaDumpingK = 0.3
+			omegaDumpingK = 0.7
 		},
 		fm = {
 			A = 0.36,

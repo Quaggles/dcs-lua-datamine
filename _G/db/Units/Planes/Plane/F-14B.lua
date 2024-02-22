@@ -3133,6 +3133,45 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 7
 						} }
 				}, {
+					CLSID = "{F14-ECA}",
+					arg = 601,
+					arg_value = 0,
+					connector = "WEP_Phoenix_FrontPallette_L",
+					forbidden = { {
+							loadout = { "{BELLY AIM-7E}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7F}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7M}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7MH}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7E}" },
+							station = 7
+						}, {
+							loadout = { "{BELLY AIM-7F}" },
+							station = 7
+						}, {
+							loadout = { "{BELLY AIM-7M}" },
+							station = 7
+						}, {
+							loadout = { "{BELLY AIM-7MH}" },
+							station = 7
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 7
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 7
+						} }
+				}, {
 					CLSID = "{BRU-32 MK-82AIR}",
 					arg = 601,
 					arg_value = 0.5,
@@ -9025,6 +9064,45 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{F14-TARPS}" },
 							station = 6
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 4
+						} }
+				}, {
+					CLSID = "{F14-ALQ167}",
+					arg = 602,
+					arg_value = 0,
+					connector = "WEP_Phoenix_FrontPallette_R",
+					forbidden = { {
+							loadout = { "{BELLY AIM-7E}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7F}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7M}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7MH}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7E}" },
+							station = 4
+						}, {
+							loadout = { "{BELLY AIM-7F}" },
+							station = 4
+						}, {
+							loadout = { "{BELLY AIM-7M}" },
+							station = 4
+						}, {
+							loadout = { "{BELLY AIM-7MH}" },
+							station = 4
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 4
 						}, {
 							loadout = { "<CLEAN>" },
 							station = 4

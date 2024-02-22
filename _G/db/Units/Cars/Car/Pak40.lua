@@ -73,9 +73,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				inn = 1.5,
 				p = 20
 			},
-			pointer = "POINT_SIGHT_01",
-			reference_angle_Y = 0,
-			reference_angle_Z = 0.05235987755983
+			pointer = "POINT_SIGHT_01"
 		},
 		fire_on_march = false,
 		maxTargetDetectionRange = 5000
@@ -86,6 +84,23 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	airWeaponDist = 0,
 	animation_arguments = {
 		alarm_state = -1,
+		alarm_state_sequence = { { 11, { {
+						endTime = 3,
+						leveling = true,
+						startTime = 0
+					}, {
+						endTime = 10,
+						endVal = 1,
+						startTime = 3,
+						startVal = 1
+					} } }, { 3, { {
+						endTime = 7,
+						endVal = 1,
+						startTime = 3,
+						startVal = 0
+					} } },
+			totalDuration = 10
+		},
 		wheels_rotation = 8
 	},
 	armour_scheme = {
@@ -97,8 +112,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 17, 26, "Redacted", "Artillery", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "Indirect fire", "NonAndLightArmoredUnits", "LightArmoredUnits" },
 	category = "Artillery",
 	chassis = {},
+	defaultStartAlarmState = 2,
 	enablePlayerCanDrive = false,
 	mapclasskey = "Field_Artillery",
+	maxDeviationPitch = 0.087266462599716,
+	maxDeviationRoll = 0.087266462599716,
 	mobile = true,
 	sensor = {
 		height = 1.8

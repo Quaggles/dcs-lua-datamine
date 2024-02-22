@@ -64,7 +64,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		X_gear_2 = -2.25,
 		Z_gear_1 = 1.2,
 		Z_gear_2 = 1.2,
-		life = 2
+		armour_thickness = 0.003
 	},
 	driverViewConnectorName = { "DRIVER_POINT",
 		offset = { 0, 0, 0 }

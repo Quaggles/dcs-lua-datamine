@@ -811,6 +811,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	h_max_gear_hook = 3.3,
 	height = 3.192,
 	helicopter_hook_pos = { 0, -0.5, 0 },
+	input_profile_entry = "SA342 Pilot",
 	laserEquipment = {
 		laserDesignator = true,
 		laserRangefinder = true

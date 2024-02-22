@@ -6,32 +6,37 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DM = { {
 			area_name = "FRONT_01",
 			armour = {
-				width = 0.02
+				width = 0.025
 			}
 		}, {
 			area_name = "FRONT_02",
 			armour = {
-				width = 0.02
+				width = 0.025
+			}
+		}, {
+			area_name = "BODY_TOP",
+			armour = {
+				width = 0.01
 			}
 		}, {
 			area_name = "BODY_LEFT",
 			armour = {
-				width = 0.022
+				width = 0.018
 			}
 		}, {
 			area_name = "BODY_RIGHT",
 			armour = {
-				width = 0.022
+				width = 0.018
 			}
 		}, {
 			area_name = "BODY_BACK",
 			armour = {
-				width = 0.02
+				width = 0.018
 			}
 		}, {
 			area_name = "BODY_BOTTOM",
 			armour = {
-				width = 0.014
+				width = 0.01
 			}
 		}, {
 			area_name = "GUN",
@@ -41,12 +46,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		}, {
 			area_name = "TURRET",
 			armour = {
-				width = 0.008
+				width = 0.01
 			}
 		}, {
 			area_name = "HATCH",
 			armour = {
-				width = 0.008
+				width = 0.01
 			}
 		}, {
 			area_name = "Tracks_LEFT",

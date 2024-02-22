@@ -80,7 +80,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		}
 	},
 	mapclasskey = "SPAAA_RAD_Truck",
-	maxVerticalDeviationAngle = 0.17453292519943,
+	maxDeviationRoll = 0.17453292519943,
 	sensor = {
 		height = 3.872,
 		max_alt_finding_target = 6000,

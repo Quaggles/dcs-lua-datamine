@@ -20,7 +20,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					min_trg_alt = 25,
 					reactionTime = 0.1,
 					reflection_limit = 0.05,
-					type = 100
+					type = 102
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -1.5707963267949, 1.5707963267949 } },
 			omegaY = 3,
@@ -37,7 +37,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					min_trg_alt = 25,
 					reactionTime = 0.1,
 					reflection_limit = 0.05,
-					type = 100
+					type = 102
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -1.5707963267949, 1.5707963267949 } },
 			omegaY = 3,
@@ -54,7 +54,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					min_trg_alt = 25,
 					reactionTime = 0.1,
 					reflection_limit = 0.05,
-					type = 100
+					type = 102
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -1.5707963267949, 1.5707963267949 } },
 			omegaY = 3,
@@ -71,7 +71,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					min_trg_alt = 25,
 					reactionTime = 0.1,
 					reflection_limit = 0.05,
-					type = 100
+					type = 102
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -1.5707963267949, 1.5707963267949 } },
 			omegaY = 3,
@@ -88,7 +88,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					min_trg_alt = 25,
 					reactionTime = 0.1,
 					reflection_limit = 0.05,
-					type = 100
+					type = 102
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -1.5707963267949, 1.5707963267949 } },
 			omegaY = 3,
@@ -105,7 +105,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					min_trg_alt = 25,
 					reactionTime = 0.1,
 					reflection_limit = 0.05,
-					type = 100
+					type = 102
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -1.5707963267949, 1.5707963267949 } },
 			omegaY = 3,
@@ -122,7 +122,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					min_trg_alt = 25,
 					reactionTime = 0.1,
 					reflection_limit = 0.05,
-					type = 100
+					type = 102
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -1.5707963267949, 1.5707963267949 } },
 			omegaY = 3,
@@ -139,7 +139,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					min_trg_alt = 25,
 					reactionTime = 0.1,
 					reflection_limit = 0.05,
-					type = 100
+					type = 102
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -1.5707963267949, 1.5707963267949 } },
 			omegaY = 3,
@@ -156,7 +156,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					min_trg_alt = 25,
 					reactionTime = 0.1,
 					reflection_limit = 0.05,
-					type = 100
+					type = 102
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -1.5707963267949, 1.5707963267949 } },
 			omegaY = 3,
@@ -173,7 +173,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					min_trg_alt = 25,
 					reactionTime = 0.1,
 					reflection_limit = 0.05,
-					type = 100
+					type = 102
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -1.5707963267949, 1.5707963267949 } },
 			omegaY = 3,
@@ -186,7 +186,30 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	_file = "./CoreMods/tech/TechWeaponPack/Database/db_units_cars.lua",
 	_origin = "TechWeaponPack",
 	animation_arguments = {
-		alarm_state = -1
+		alarm_state = -1,
+		alarm_state_sequence = { { 3, { {
+						endTime = 20,
+						startTime = 0
+					}, {
+						endTime = 25,
+						endVal = 1,
+						startTime = 20,
+						startVal = 1
+					} } }, { 11, { {
+						endTime = 10,
+						startTime = 0
+					}, {
+						endTime = 20,
+						leveling = true,
+						startTime = 10
+					}, {
+						endTime = 25,
+						endVal = 1,
+						startTime = 20,
+						startVal = 1
+					} } },
+			totalDuration = 25
+		}
 	},
 	armour_scheme = {
 		hull_azimuth = { {} },
@@ -197,8 +220,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 16, 25, "Redacted", "Trucks", "SAM CC", "All", "Ground Units", "Vehicles", "Ground vehicles", "Ground Units Non Airdefence", "NonAndLightArmoredUnits", "NonArmoredUnits", "Unarmed vehicles", "Air Defence", "SAM related", "SAM elements" },
 	category = "Air Defence",
 	chassis = {},
+	defaultStartAlarmState = 2,
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000046",
+	maxDeviationPitch = 0.087266462599716,
+	maxDeviationRoll = 0.087266462599716,
 	sensor = {
 		height = 2.7,
 		max_alt_finding_target = 17000,

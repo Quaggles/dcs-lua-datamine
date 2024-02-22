@@ -36,7 +36,30 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	_origin = "WWII Armour and Technics",
 	airWeaponDist = 5000,
 	animation_arguments = {
-		alarm_state = -1
+		alarm_state = -1,
+		alarm_state_sequence = { { 3, { {
+						endTime = 20,
+						startTime = 0
+					}, {
+						endTime = 25,
+						endVal = 1,
+						startTime = 20,
+						startVal = 1
+					} } }, { 11, { {
+						endTime = 10,
+						startTime = 0
+					}, {
+						endTime = 20,
+						leveling = true,
+						startTime = 10
+					}, {
+						endTime = 25,
+						endVal = 1,
+						startTime = 20,
+						startVal = 1
+					} } },
+			totalDuration = 25
+		}
 	},
 	armour_scheme = {
 		hull_azimuth = { {} },
@@ -49,8 +72,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	chassis = {
 		life = 2
 	},
+	defaultStartAlarmState = 2,
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000015",
+	maxDeviationPitch = 0.17453292519943,
+	maxDeviationRoll = 0.17453292519943,
 	sensor = {
 		height = 2
 	},

@@ -71,7 +71,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Sea_Dart"] = {
 			boost_start = 0,
 			march_start = 2.9
 		},
-		display_name_short = "GWS-30 Sea Dart",
+		display_name_short = "Sea Dart",
 		fm = {
 			A = 0.36,
 			I = 885.72,
@@ -180,7 +180,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Sea_Dart"] = {
 		wsTypeOfWeapon = { 4, 4, 34, "Redacted" }
 	},
 	display_name = "GWS-30 Sea Dart",
-	display_name_short = "GWS-30 Sea Dart",
+	display_name_short = "Sea Dart",
 	mass = 549,
 	model = "SeaDart",
 	name = "Sea_Dart",
@@ -251,7 +251,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Sea_Dart"] = {
 			boost_start = 0,
 			march_start = 2.9
 		},
-		display_name_short = "GWS-30 Sea Dart",
+		display_name_short = "Sea Dart",
 		fm = {
 			A = 0.36,
 			I = 885.72,

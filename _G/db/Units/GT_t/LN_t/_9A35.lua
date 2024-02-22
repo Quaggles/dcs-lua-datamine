@@ -12,6 +12,7 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["_9A35"] = {
 	distanceMax = 5000,
 	distanceMin = 800,
 	launch_delay = 1,
+	launch_delay_human = 1.2,
 	reactionTime = 2,
 	reflection_limit = 0.2,
 	sensor = {},

@@ -205,7 +205,6 @@ _G["launcher"]["{AN_M66}"] = {
 					id = "NFP_fuze_type_nose",
 					value = 7
 				}, "and", {
-					bNot = false,
 					id = "function_delay_ctrl_ANM140A1",
 					value = 0
 				} },
@@ -229,7 +228,6 @@ _G["launcher"]["{AN_M66}"] = {
 					id = "NFP_fuze_type_nose",
 					value = 7
 				}, "and", {
-					bNot = false,
 					id = "function_delay_ctrl_ANM140A1",
 					value = 0.025
 				} },
@@ -253,7 +251,6 @@ _G["launcher"]["{AN_M66}"] = {
 					id = "NFP_fuze_type_nose",
 					value = 6
 				}, "and", {
-					bNot = false,
 					id = "function_delay_ctrl_ANM139A1",
 					value = 0
 				} },
@@ -297,7 +294,6 @@ _G["launcher"]["{AN_M66}"] = {
 					id = "NFP_fuze_type_nose",
 					value = 6
 				}, "and", {
-					bNot = false,
 					id = "function_delay_ctrl_ANM139A1",
 					value = 0.01
 				} },
@@ -341,7 +337,6 @@ _G["launcher"]["{AN_M66}"] = {
 					id = "NFP_fuze_type_nose",
 					value = 1
 				}, "and", {
-					bNot = false,
 					id = "function_delay_ctrl_ANM103A1",
 					value = 0.1
 				} },
@@ -405,7 +400,6 @@ _G["launcher"]["{AN_M66}"] = {
 					id = "NFP_fuze_type_nose",
 					value = 1
 				}, "and", {
-					bNot = false,
 					id = "function_delay_ctrl_ANM103A1",
 					value = 0
 				} },

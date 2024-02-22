@@ -27,11 +27,13 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							shot_delay = 30,
 							type_ammunition = {}
 						} },
-					customViewPoint = { "genericMissileAT", { -0.9, 0.15, -0.275 } },
-					sensor = {}
+					sensor = {},
+					sightIndicationMode = 1,
+					sightMasterMode = 1
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 0.34906585039887 } },
 			center = "CENTER_TOWER",
+			cockpit = { "TOW_HHMMV/TOW", { -0.9, 0.15, -0.275 } },
 			drawArgument1 = 0,
 			drawArgument2 = 1,
 			omegaY = 0.87266462599716,

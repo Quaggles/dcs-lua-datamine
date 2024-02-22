@@ -20,5 +20,5 @@ _G["launcher"]["DIS_TYPE200_DUAL_R"] = {
 	displayName = "TYPE-200A Dual",
 	ejectVelocity = 1.8,
 	name = "DIS_TYPE200_DUAL_R",
-	wsTypeOfWeapon = { 4, 5, 37, "Redacted" }
+	wsTypeOfWeapon = "weapons.bombs.Type_200A"
 }

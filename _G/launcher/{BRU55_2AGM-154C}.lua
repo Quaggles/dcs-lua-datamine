@@ -3,6 +3,7 @@ _G["launcher"]["{BRU55_2*AGM-154C}"] = {
 	Count = 2,
 	Cx_pil = 0.00604140625,
 	Elements = { {
+			DrawArgs = { { 3, 0.1 } },
 			IsAdapter = true,
 			ShapeName = "BRU_55"
 		}, {
