@@ -684,7 +684,7 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "HQ-7_LN_SP"
 				}, {
-					Name = "HQ-7_LN_EO"
+					Name = "HQ-7_LN_P"
 				}, {
 					Name = "HQ-7_STR_SP"
 				}, {

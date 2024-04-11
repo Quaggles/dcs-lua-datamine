@@ -5,14 +5,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	Countries = { "China", "Pakistan", "Algeria" },
 	DetectionRange = 8000,
-	DisplayName = "HQ-7 LN Electro-Optics",
-	DisplayNameShort = "HQ7-LNE",
+	DisplayName = "HQ-7 LN (Player)",
+	DisplayNameShort = "HQ7-LN",
 	IR_emission_coeff = 0.08,
 	MaxSpeed = 79.2,
-	Name = "HQ-7 LN Electro-Optics",
-	Rate = 20,
+	Name = "HQ-7 LN (Player)",
+	Rate = 15,
 	Sensors = {
-		OPTIC = { "TKN-3B day", "TKN-3B night", "Tunguska optic sight" }
+		OPTIC = { "generic SAM search visir", "generic SAM IR search visir" },
+		RADAR = "HQ-7 TR"
 	},
 	ThreatRange = 12000,
 	WS = { {
@@ -21,13 +22,16 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					PL = { {
 							type_ammunition = {}
 						} },
-					inclination_correction_bias = 0.10471975511966,
-					inclination_correction_upper_limit = 0.5235987755983,
+					beamWidth = 0.087266462599716,
+					frequencyRange = { 10000000000, 20000000000 },
+					inclination_correction_bias = 0.05235987755983,
+					inclination_correction_upper_limit = 0.34906585039887,
 					sensor = {},
 					sightIndicationMode = 4,
 					sightMasterMode = 1
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 0.78539816339745 } },
+			PPI_view = "GenericPPI/GenericPPI",
+			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 1.0471975511966 } },
 			center = "CENTER_TOWER",
 			cockpit = { "_1A29/_1A29", { 0, 0, 0 } },
 			drawArgument1 = 0,
@@ -48,9 +52,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				p = 80
 			},
 			pointer = "POINT_SIGHT_01",
-			reference_angle_Y = 3.1415926535898,
 			stabilizer = true,
-			type = 4
+			type = 5
 		},
 		fire_on_march = false,
 		maxTargetDetectionRange = 8000,
@@ -72,7 +75,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {}, {} }
 	},
-	attribute = { 2, 16, 102, "Redacted", "AA_missile", "SR SAM" },
+	attribute = { 2, 16, 102, "Redacted", "AA_missile", "SR SAM", "SAM SR", "SAM TR", "SAM LL", "RADAR_BAND1_FOR_ARM", "RADAR_BAND2_FOR_ARM", "All", "Ground Units", "Vehicles", "Ground vehicles", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "SAM related", "SAM elements", "Armed Air Defence" },
 	category = "Air Defence",
 	chassis = {},
 	driverCockpit = "DriverCockpit/DriverCockpitWithIRandLLTV",
@@ -87,7 +90,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			[28] = 1
 		}
 	},
-	mapclasskey = "P0091000014",
+	mapclasskey = "P0091000086",
 	radar_rotation_period = 1,
 	sensor = {
 		height = 3.675,
@@ -103,7 +106,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			life = 2,
 			name = "hq7_ln",
 			positioning = "BYNORMAL",
-			username = "HQ-7_LN_EO"
+			username = "HQ-7_LN_P"
 		}, {
 			file = "hq7_ln_dstr",
 			name = "hq7_ln_dstr"
@@ -117,8 +120,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	swapped_names = true,
 	swing_on_run = true,
-	tags = { "Air Defence", "Launcher" },
-	type = "HQ-7_LN_EO",
+	tags = { "Air Defence", "SAM SHORAD" },
+	type = "HQ-7_LN_P",
 	visual = {
 		IR = {
 			coeffs = { { 0.031, 0.0022 }, { 0.003, 0.0031 }, { 0.032, 0.007 }, { 0.001, 0.17 }, { 0.2, 0.00016666666666667 } }

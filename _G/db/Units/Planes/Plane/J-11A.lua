@@ -768,6 +768,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{0511E528-EA28-4caf-A212-00D1408DF10A}",
 					arg_value = 0.15
+				}, {
+					CLSID = "<CLEAN>",
+					arg_value = 1
 				} },
 			Number = 4,
 			Order = 4,
@@ -776,7 +779,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Y = -1.218,
 			Z = -1.192,
 			arg = 311,
-			arg_value = 1,
+			arg_value = 0,
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
@@ -948,6 +951,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{0511E528-EA28-4caf-A212-00D1408DF10A}",
 					arg_value = 0.15
+				}, {
+					CLSID = "<CLEAN>",
+					arg_value = 1
 				} },
 			Number = 7,
 			Order = 7,
@@ -956,7 +962,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Y = -1.218,
 			Z = 1.192,
 			arg = 314,
-			arg_value = 1,
+			arg_value = 0,
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
@@ -1347,10 +1353,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	brakeshute_name = 4,
 	chaff_flare_dispenser = { {
 			dir = { 0, 1, 0 },
-			pos = { -5.776, 1.4, -0.422 }
+			pos = { -5.776, 0.33, -0.416 }
 		}, {
 			dir = { 0, 1, 0 },
-			pos = { -5.776, 1.4, 0.422 }
+			pos = { -5.776, 0.33, 0.416 }
 		} },
 	country_of_origin = "CHN",
 	crew_members = { {
@@ -1472,7 +1478,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			DuplicateOf = "Door0"
 		}
 	},
-	net_animation = { 0, 3, 5, 9, 10, 11, 12, 15, 16, 17, 38, 115, 116, 117, 190, 191, 192, 198, 199, 208 },
+	net_animation = { 0, 3, 5, 9, 10, 11, 12, 15, 16, 17, 35, 36, 37, 38, 115, 116, 117, 190, 191, 192, 198, 199, 208 },
 	nose_gear_amortizer_direct_stroke = 0.104,
 	nose_gear_amortizer_normal_weight_stroke = -0.00311633945,
 	nose_gear_amortizer_reversal_stroke = -0.193,

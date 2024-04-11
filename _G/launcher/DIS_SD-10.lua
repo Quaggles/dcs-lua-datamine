@@ -13,5 +13,5 @@ _G["launcher"]["DIS_SD-10"] = {
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	attribute = { 4, 4, 7, "Redacted" },
 	category = 4,
-	displayName = "SD-10A"
+	displayName = "SD-10A AAM"
 }

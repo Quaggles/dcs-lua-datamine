@@ -1,5 +1,5 @@
 _G["rockets"]["#Index"] = {
-	Cx_pil = 4,
+	Cx_pil = 1.7,
 	D_max = 18520,
 	D_min = 1000,
 	Damage = 225,
@@ -39,7 +39,7 @@ _G["rockets"]["#Index"] = {
 	category = 2,
 	class_name = "wAmmunitionLaserHoming",
 	display_name = "AGM-65L",
-	display_name_short = "AGM-65L",
+	display_name_short = "AGM-65",
 	exhaust = { 0.75, 0.75, 0.75, 0.1 },
 	fm = {
 		A = 0.36,

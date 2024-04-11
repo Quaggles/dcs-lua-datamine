@@ -75,7 +75,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_114"] = {
 			boost_start = 0,
 			march_start = 0
 		},
-		display_name = "AGM-114L Longbow",
+		display_name = "AGM-114L",
 		display_name_short = "AGM-114L",
 		exhaust = { 0.9, 0.9, 0.85, 0.1 },
 		fm = {
@@ -261,7 +261,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_114"] = {
 			boost_start = 0,
 			march_start = 0
 		},
-		display_name = "AGM-114L Longbow",
+		display_name = "AGM-114L",
 		display_name_short = "AGM-114L",
 		exhaust = { 0.9, 0.9, 0.85, 0.1 },
 		fm = {

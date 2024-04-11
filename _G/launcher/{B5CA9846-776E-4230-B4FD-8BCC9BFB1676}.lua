@@ -16,6 +16,6 @@ _G["launcher"]["{B5CA9846-776E-4230-B4FD-8BCC9BFB1676}"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	displayName = "Kh-58U (AS-11 Kilter) - 640kg, ARM, IN & Pas Rdr",
 	ejectPitchRate = 0,
-	ejectVelocity = 3,
+	ejectVelocity = 4,
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

@@ -53,7 +53,7 @@ _G["rockets"]["#Index"] = {
 		glide_height = 600,
 		glide_height_eq_error = 0.03,
 		hor_err_limit = 0.5,
-		inertial_km_error = 10,
+		inertial_km_error = 6,
 		integr_val_limit = 0.5,
 		max_climb_ang_hdiff = 180,
 		max_climb_angle = 0.17453292519943,
@@ -179,7 +179,7 @@ _G["rockets"]["#Index"] = {
 	},
 	mass = 2000,
 	model = "kd63",
-	name = "KD-63",
+	name = "KD_63",
 	scheme = "AGM-84E",
 	seeker = {
 		FOV = 1.0471975511966,
@@ -195,7 +195,7 @@ _G["rockets"]["#Index"] = {
 			fire = { 0, 1 },
 			index = "Redacted",
 			life = 1,
-			name = "KD-63",
+			name = "KD_63",
 			username = "KD-63"
 		} },
 	sigma = { 8, 8, 8 },

@@ -270,10 +270,10 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	economy_velocity = 7,
 	enablePlayerCanDrive = false,
 	exhaust = { {
-			connector = "SMOKE_PIPE_01",
+			connector = "EXHAUST_01",
 			size = 0.4
 		}, {
-			connector = "SMOKE_PIPE_02",
+			connector = "EXHAUST_02",
 			size = 0.4
 		} },
 	life = 2000,

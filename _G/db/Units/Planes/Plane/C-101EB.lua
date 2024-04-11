@@ -1,11 +1,15 @@
 _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	AOA_take_off = 0.165,
 	AddPropAircraft = { {
+			arg = 472,
+			argTbl = {
+				[false] = 0,
+				[true] = 0.5
+			},
 			control = "checkbox",
 			defValue = false,
 			id = "SoloFlight",
 			label = "Solo Flight",
-			playerOnly = true,
 			weightWhenOn = -80
 		}, {
 			control = "comboList",

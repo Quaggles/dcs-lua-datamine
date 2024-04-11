@@ -4,7 +4,7 @@ _G["db"]["Units"]["GT_t"]["WS_t"]["ship_Sea_Dart"]["LN"]["#Index"] = {
 		} },
 	PL = { {
 			ammo_capacity = 22,
-			reload_time = 100000,
+			reload_time = 5,
 			type_ammunition = { 4, 4, 34, "Redacted" }
 		} },
 	beamWidth = 1.5707963267949,

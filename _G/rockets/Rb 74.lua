@@ -1,5 +1,5 @@
 _G["rockets"]["#Index"] = {
-	Cx_pil = 1.68,
+	Cx_pil = 1.03,
 	D_max = 7000,
 	D_min = 300,
 	Damage = 27.5,
@@ -35,6 +35,7 @@ _G["rockets"]["#Index"] = {
 	category = 4,
 	ccm_k0 = 0.75,
 	display_name = "RB-74",
+	display_name_short = "Rb74",
 	exhaust = { 0.7, 0.7, 0.7, 1 },
 	name = "Rb 74",
 	nozzle_exit_area = 0.0068,

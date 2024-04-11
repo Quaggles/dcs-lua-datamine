@@ -1263,7 +1263,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		}
 	},
 	exhaust = { {
-			pos = { -5, 41, 23 },
+			connector = "EXHAUST_01",
 			size = 0.75
 		} },
 	life = 7000,

@@ -1,7 +1,7 @@
 _G["launcher"]["LAU-127_AIM-9X"] = {
 	CLSID = "LAU-127_AIM-9X",
 	Count = 1,
-	Cx_pil = 0.00014,
+	Cx_pil = 0.00035146484375,
 	Elements = { "_G/Pylons/LAU_127.lua", {
 			connector_name = "Point01",
 			payload_CLSID = "{5CE2FF2A-645A-4197-B48D-8720AC69394F}"

@@ -24,5 +24,5 @@ _G["launcher"]["DIS_LS_6_250_DUAL_L"] = {
 	ejectDirection = { 0, -1, 0 },
 	ejectVelocity = 2,
 	name = "DIS_LS_6_250_DUAL_L",
-	wsTypeOfWeapon = "weapons.missiles.LS-6-250"
+	wsTypeOfWeapon = "weapons.missiles.LS_6"
 }

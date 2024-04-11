@@ -4,8 +4,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 500,
-	DisplayName = "LARC-V",
-	Name = "LARC-V",
+	DisplayName = "Truck LARC-V",
+	Name = "Truck LARC-V",
 	Rate = 5,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,

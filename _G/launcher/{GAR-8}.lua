@@ -1,7 +1,7 @@
 _G["launcher"]["{GAR-8}"] = {
 	CLSID = "{GAR-8}",
 	Count = 1,
-	Cx_pil = 0.00061015625,
+	Cx_pil = 0.00045146484375,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "aero-3b"

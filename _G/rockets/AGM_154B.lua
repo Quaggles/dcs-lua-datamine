@@ -93,7 +93,7 @@ _G["rockets"]["#Index"] = {
 		wind_k = 0
 	},
 	display_name = "AGM-154B",
-	display_name_short = "AGM-154B",
+	display_name_short = "AGM-154",
 	fm = {
 		A = 0.15,
 		I = 1000,

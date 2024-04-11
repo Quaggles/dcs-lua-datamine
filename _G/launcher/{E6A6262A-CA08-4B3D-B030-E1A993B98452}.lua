@@ -1,8 +1,8 @@
 _G["launcher"]["{E6A6262A-CA08-4B3D-B030-E1A993B98452}"] = {
 	CLSID = "{E6A6262A-CA08-4B3D-B030-E1A993B98452}",
 	Count = 2,
-	Cx_item = 0.0009765625,
-	Cx_pil = 0.003840125,
+	Cx_item = 0.0004150390625,
+	Cx_pil = 0.001730078125,
 	Elements = { {
 			ShapeName = "LAU-88"
 		}, {
@@ -16,9 +16,11 @@ _G["launcher"]["{E6A6262A-CA08-4B3D-B030-E1A993B98452}"] = {
 		} },
 	Picture = "agm65.png",
 	Weight = 647,
-	_file = "Scripts/Database/db_weapons_data.lua",
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/agm65_family.lua",
+	_origin = "AircraftWeaponPack",
 	adapter_type = { 4, 15, 47, "Redacted" },
 	attribute = { 4, 4, 32, "Redacted" },
+	category = 2,
 	displayName = "LAU-88 with 2 x AGM-65D - Maverick D (IIR ASM)",
 	kind_of_shipping = 1,
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }

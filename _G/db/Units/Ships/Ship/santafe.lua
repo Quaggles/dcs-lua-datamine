@@ -18,42 +18,42 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	WS = { {
 			LN = { {
 					BR = { {
-							pos = { 0, 0, -0.6 },
+							connector_name = "TPO_01",
 							recoilArgument = 177,
 							recoilT0 = -1,
 							recoilT1 = -0.5,
 							recoilT2 = 0.5,
 							recoilTime = 1
 						}, {
-							pos = { 0, 0, 0.6 },
-							recoilArgument = 179,
-							recoilT0 = -1,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
-							recoilTime = 1
-						}, {
-							pos = { 0, -0.9, -0.6 },
+							connector_name = "TPO_02",
 							recoilArgument = 178,
 							recoilT0 = -1,
 							recoilT1 = -0.5,
 							recoilT2 = 0.5,
 							recoilTime = 1
 						}, {
-							pos = { 0, -0.9, 0.6 },
+							connector_name = "TPO_03",
+							recoilArgument = 179,
+							recoilT0 = -1,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 1
+						}, {
+							connector_name = "TPO_04",
 							recoilArgument = 180,
 							recoilT0 = -1,
 							recoilT1 = -0.5,
 							recoilT2 = 0.5,
 							recoilTime = 1
 						}, {
-							pos = { 0, -1.8, -0.6 },
+							connector_name = "TPO_05",
 							recoilArgument = 181,
 							recoilT0 = -1,
 							recoilT1 = -0.5,
 							recoilT2 = 0.5,
 							recoilTime = 1
 						}, {
-							pos = { 0, -1.8, 0.6 },
+							connector_name = "TPO_06",
 							recoilArgument = 182,
 							recoilT0 = -1,
 							recoilT1 = -0.5,
@@ -66,9 +66,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { {} },
-			canSetTacticalDir = true,
-			pos = { 39, -0.9, 0 },
-			reference_angle_Z = 0
+			canSetTacticalDir = false,
+			reference_angle_Z = 0.087266462599716
 		},
 		maxTargetDetectionRange = 450000,
 		radar_type = 102,
@@ -81,16 +80,95 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	X_tail = -50,
 	_file = "./CoreMods/tech/SouthAtlanticAssets/Entries/Navy/santafe.lua",
 	_origin = "South_Atlantic_Assets",
-	airFindDist = 30000,
-	airWeaponDist = 0,
+	airFindDist = 10000,
+	airWeaponDist = 30000,
 	animation_arguments = {
-		arresting_wires = {},
-		blast_fences = {},
+		alarm_state_sequence = { { 3, { {
+						endTime = 1,
+						endVal = 0,
+						startTime = 0,
+						startVal = 0
+					}, {
+						endTime = 15,
+						endVal = 0.75,
+						startTime = 1,
+						startVal = 0
+					}, {
+						endTime = 20,
+						endVal = 0.75,
+						startTime = 15,
+						startVal = 0.75
+					} } }, { 14, { {
+						endTime = 15,
+						endVal = 0,
+						startTime = 0,
+						startVal = 0
+					}, {
+						endTime = 20,
+						endVal = 1,
+						startTime = 15,
+						startVal = 0
+					}, {
+						endTime = 20,
+						endVal = 1,
+						startTime = 20,
+						startVal = 1
+					} } }, { 15, { {
+						endTime = 15,
+						endVal = 0,
+						startTime = 0,
+						startVal = 0
+					}, {
+						endTime = 20,
+						endVal = 1,
+						startTime = 15,
+						startVal = 0
+					}, {
+						endTime = 20,
+						endVal = 1,
+						startTime = 20,
+						startVal = 1
+					} } }, { 16, { {
+						endTime = 1,
+						endVal = 1,
+						startTime = 0,
+						startVal = 0
+					}, {
+						endTime = 5,
+						endVal = 1,
+						startTime = 1,
+						startVal = 0
+					}, {
+						endTime = 20,
+						endVal = 0,
+						startTime = 5,
+						startVal = 0
+					} } }, { 18, { {
+						endTime = 1,
+						endVal = 1,
+						startTime = 0,
+						startVal = 0
+					}, {
+						endTime = 5,
+						endVal = 1,
+						startTime = 1,
+						startVal = 0
+					}, {
+						endTime = 20,
+						endVal = 0,
+						startTime = 5,
+						startVal = 0
+					} } },
+			totalDuration = 20
+		},
 		flag_animation = -1,
-		periscope = 16,
+		locator_rotation = 1,
+		nav_lights = 69,
+		periscope = 14,
 		radar1_rotation = -1,
 		radar2_rotation = -1,
-		radar3_rotation = -1
+		radar3_rotation = -1,
+		water_propeller = 65
 	},
 	armour_scheme = {
 		hull_azimuth = { {} },
@@ -112,21 +190,13 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	maxPeriscopeDepth = 12,
 	max_velocity = 14.9,
 	minPeriscopeDepth = 9,
-	periscopeHeight = 14,
 	propeller_omega_max = 120,
 	race_distance = 7200000,
 	race_velocity = 14.9,
-	sensor = {
-		max_alt_finding_target = 15000,
-		max_range_finding_target = 30000,
-		min_alt_finding_target = -200,
-		min_range_finding_target = 100,
-		pos = { 7.2, 9.5, 0 }
-	},
 	shipLength = 93,
 	snd = {},
 	speedup = 0.4,
-	sternEffectDX = { { 0, 0, 70, 5 }, { 4.5, 40, 20.5, 1 }, { 7, 40, 10.2, 1 }, { 9, 40, 10, 1 } },
+	sternEffectDX = { { 0, 0, 70, 5 }, { 4.5, 40, 20.5, 1 }, { 7, 40, 10.2, 1 }, { 9, 40, 15, 1 } },
 	swapped_names = true,
 	tags = { "Submarine" },
 	toggle_alarm_state_interval = 20,

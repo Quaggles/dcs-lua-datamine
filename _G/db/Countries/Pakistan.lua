@@ -332,7 +332,7 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "RD_75"
 				}, {
-					Name = "HQ-7_LN_EO"
+					Name = "HQ-7_LN_P"
 				}, {
 					Name = "DR_50Ton_Flat_Wagon"
 				}, {

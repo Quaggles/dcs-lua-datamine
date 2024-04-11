@@ -1,5 +1,5 @@
 _G["rockets"]["#Index"] = {
-	Cx_pil = 1.68,
+	Cx_pil = 1.03,
 	D_max = 7000,
 	D_min = 300,
 	Damage = 25,
@@ -35,6 +35,7 @@ _G["rockets"]["#Index"] = {
 	category = 4,
 	ccm_k0 = 0.5,
 	display_name = "AIM-9M",
+	display_name_short = "AIM-9",
 	exhaust = { 0.7, 0.7, 0.7, 0.08 },
 	name = "AIM_9",
 	nozzle_exit_area = 0.0068,
@@ -47,6 +48,7 @@ _G["rockets"]["#Index"] = {
 			username = "AIM-9M"
 		} },
 	sigma = { 3, 3, 3 },
+	smoke_opacity_type = 1,
 	supersonic_A_coef_skew = 0.25,
 	t_acc = 5,
 	t_b = 0,

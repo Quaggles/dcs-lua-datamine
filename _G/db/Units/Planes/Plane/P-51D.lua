@@ -3536,6 +3536,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			drop_canopy_name = 57,
 			drop_parachute_name = "pilot_p51_parachute",
 			ejection_seat_name = 0,
+			g_suit = 0.45,
 			pilot_name = 56,
 			pos = { -1.46, -0.045, 0 },
 			role = "pilot",

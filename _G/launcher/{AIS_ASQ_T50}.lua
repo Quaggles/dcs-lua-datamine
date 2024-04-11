@@ -1,7 +1,7 @@
 _G["launcher"]["{AIS_ASQ_T50}"] = {
 	CLSID = "{AIS_ASQ_T50}",
 	Count = 1,
-	Cx_pil = 0.00041015625,
+	Cx_pil = 0.00025146484375,
 	Elements = { {
 			ShapeName = "ais-pod-t50"
 		} },

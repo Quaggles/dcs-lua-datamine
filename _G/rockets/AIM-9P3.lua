@@ -1,5 +1,5 @@
 _G["rockets"]["#Index"] = {
-	Cx_pil = 1.68,
+	Cx_pil = 1.03,
 	D_max = 4000,
 	D_min = 300,
 	Damage = 27.5,
@@ -35,6 +35,7 @@ _G["rockets"]["#Index"] = {
 	category = 4,
 	ccm_k0 = 2,
 	display_name = "AIM-9P3",
+	display_name_short = "AIM-9",
 	exhaust = { 0.7, 0.7, 0.7, 0.1 },
 	name = "AIM-9P3",
 	nozzle_exit_area = 0.005,

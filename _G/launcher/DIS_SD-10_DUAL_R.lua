@@ -19,7 +19,7 @@ _G["launcher"]["DIS_SD-10_DUAL_R"] = {
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 4,
-	displayName = "SD-10A x 2",
+	displayName = "SD-10A AAM x 2",
 	name = "DIS_SD-10_DUAL_R",
 	wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 }

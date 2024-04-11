@@ -1,5 +1,5 @@
 _G["rockets"]["#Index"] = {
-	Cx_pil = 1.68,
+	Cx_pil = 1.03,
 	D_max = 7000,
 	D_min = 300,
 	Damage = 25,
@@ -34,6 +34,7 @@ _G["rockets"]["#Index"] = {
 	category = 4,
 	ccm_k0 = 0.5,
 	display_name = "CATM-9M",
+	display_name_short = "CATM-9",
 	exhaust = { 0.7, 0.7, 0.7, 0.08 },
 	name = "CATM_9M",
 	shape_table_data = { {

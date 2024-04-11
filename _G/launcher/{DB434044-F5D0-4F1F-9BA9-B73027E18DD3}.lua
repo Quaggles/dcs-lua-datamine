@@ -1,7 +1,7 @@
 _G["launcher"]["{DB434044-F5D0-4F1F-9BA9-B73027E18DD3}"] = {
 	CLSID = "{DB434044-F5D0-4F1F-9BA9-B73027E18DD3}",
 	Count = 2,
-	Cx_pil = 0.0015203125,
+	Cx_pil = 0.0012029296875,
 	Elements = { "_G/Pylons/lau-105.lua", {
 			Rotation = { 90, 0, 0 },
 			ShapeName = "AIM-9",

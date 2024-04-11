@@ -2671,13 +2671,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	engines_count = 2,
 	engines_nozzles = { {
 			diameter = 0.9,
-			elevation = 0,
+			elevation = 9,
 			exhaust_length_ab = 8.631,
 			exhaust_length_ab_K = 0.76,
 			pos = { -5.2, 0.85, -1.44 }
 		}, {
 			diameter = 0.9,
-			elevation = 0,
+			elevation = 9,
 			exhaust_length_ab = 8.631,
 			exhaust_length_ab_K = 0.76,
 			pos = { -5.2, 0.85, 1.44 }

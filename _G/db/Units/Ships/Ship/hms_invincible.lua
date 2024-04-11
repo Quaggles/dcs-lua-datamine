@@ -219,7 +219,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					type = 102
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.3962634015955 } },
-			center = "CENTER_RADAR_01",
+			center = "PIVOT-SEA-DART-BASE",
+			drawArgument = 50,
 			omegaY = 1,
 			omegaZ = 1,
 			pidY = {
@@ -240,7 +241,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					frequencyRange = {}
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898 } },
-			center = "CENTER_RADAR_02",
+			center = "PIVOT-SEA-DART-BASE",
 			pidY = {},
 			pidZ = {},
 			reference_angle_Y = 1.5707963267949
@@ -322,6 +323,13 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	radar1_period = 5,
 	radar2_period = 7,
 	radar3_period = 1,
+	sensor = {
+		max_alt_finding_target = 30000,
+		max_range_finding_target = 50000,
+		min_alt_finding_target = 0,
+		min_range_finding_target = 0,
+		pos = { -14.113, 16.2, 0 }
+	},
 	shipLength = 209.431,
 	snd = {},
 	speedup = 0.16,

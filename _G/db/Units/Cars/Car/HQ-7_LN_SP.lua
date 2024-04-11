@@ -4,7 +4,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	Countries = { "China", "Pakistan", "Algeria" },
-	DetectionRange = 15000,
+	DetectionRange = 8000,
 	DisplayName = "HQ-7 Self-Propelled LN",
 	DisplayNameShort = "HQ7-LN",
 	IR_emission_coeff = 0.08,
@@ -12,105 +12,48 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "HQ-7 Self-Propelled LN",
 	Rate = 20,
 	Sensors = {
-		OPTIC = { "TKN-3B day", "TKN-3B night", "Tunguska optic sight" },
+		OPTIC = { "generic SAM search visir", "generic SAM IR search visir" },
 		RADAR = "HQ-7 TR"
 	},
-	ThreatRange = 15000,
+	ThreatRange = 12000,
 	WS = { {
-			LN = { {
-					ECM_K = 0.65,
-					beamWidth = 1.5707963267949,
-					depends_on_unit = { { { "self", 3 } }, { { "HQ-7_STR_SP" } } },
-					distanceMax = 15000,
-					distanceMin = 200,
-					maxShootingSpeed = 0,
-					max_number_of_missiles_channels = 1,
-					max_trg_alt = 5500,
-					min_trg_alt = 10,
-					reactionTime = 5,
-					reflection_limit = 0.18,
-					type = 102
-				} },
-			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 0.78539816339745 } },
-			drawArgument1 = 0,
-			mount_before_move = true,
-			omegaY = 0.523599,
-			omegaZ = 0.17453292519943,
-			pidY = {
-				d = 7,
-				i = 0.1,
-				inn = 4,
-				p = 40
-			},
-			pos = { 0, 3.1, 0 },
-			reference_angle_Y = 3.1415926535898
-		}, {
 			LN = { {
 					BR = { {}, {}, {}, {} },
 					PL = { {
 							type_ammunition = {}
 						} },
-					depends_on_unit = { { { "self", 1 } } },
-					inclination_correction_bias = 0.10471975511966,
-					inclination_correction_upper_limit = 0.5235987755983,
+					beamWidth = 0.087266462599716,
+					frequencyRange = { 10000000000, 20000000000 },
+					inclination_correction_bias = 0.05235987755983,
+					inclination_correction_upper_limit = 0.34906585039887,
 					sensor = {}
 				} },
-			angles = { { 0.034906585039887, -0.034906585039887, -0.087266462599716, 0.78539816339745 } },
-			base = 1,
+			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 1.0471975511966 } },
+			center = "CENTER_TOWER",
+			drawArgument1 = 0,
 			drawArgument2 = 1,
-			mount_before_move = true,
-			omegaY = 1,
-			omegaZ = 1,
+			isoviewOffset = { 0, 3.5, 0 },
+			omegaY = 1.3962634015955,
+			omegaZ = 1.3962634015955,
 			pidY = {
-				d = 2,
-				i = 0.1,
-				inn = 1,
-				p = 4
+				d = 10,
+				i = 1,
+				inn = 10,
+				p = 80
 			},
 			pidZ = {
-				d = 2,
-				i = 0.1,
-				inn = 1,
-				p = 4
+				d = 10,
+				i = 1,
+				inn = 10,
+				p = 80
 			},
-			pos = { 0, 0, 0 },
-			reference_angle_Z = 0.034906585039887
-		}, {
-			LN = { {
-					ECM_K = 0.65,
-					beamWidth = 1.5707963267949,
-					distanceMax = 15000,
-					distanceMin = 200,
-					maxShootingSpeed = 0,
-					max_number_of_missiles_channels = 1,
-					max_trg_alt = 5500,
-					min_trg_alt = 10,
-					reactionTime = 5,
-					reflection_limit = 0.18,
-					type = 101
-				} },
-			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 0.78539816339745 } },
-			base = 2,
-			omegaY = 1,
-			omegaZ = 1,
-			pidY = {
-				d = 3,
-				i = 0.1,
-				inn = 3,
-				p = 10
-			},
-			pidZ = {
-				d = 3,
-				i = 0.1,
-				inn = 3,
-				p = 10
-			},
-			pos = { 0, 0, 0 }
+			pointer = "POINT_SIGHT_01",
+			stabilizer = true,
+			type = 5
 		},
 		fire_on_march = false,
-		maxTargetDetectionRange = 15000,
+		maxTargetDetectionRange = 8000,
 		radar_type = 104,
-		searchRadarFrequencies = { { 4000000000, 8000000000 } },
 		searchRadarMaxElevation = 0.78539816339745
 	},
 	Waypoint_Custom_Panel = true,
@@ -141,12 +84,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			[28] = 1
 		}
 	},
-	mapclasskey = "P0091000081",
+	mapclasskey = "P0091000086",
 	radar_rotation_period = 1,
 	sensor = {
 		height = 3.675,
 		max_alt_finding_target = 5500,
-		max_range_finding_target = 15000,
+		max_range_finding_target = 8000,
 		min_alt_finding_target = 10,
 		min_range_finding_target = 200
 	},
@@ -171,7 +114,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	swapped_names = true,
 	swing_on_run = true,
-	tags = { "Air Defence", "Launcher" },
+	tags = { "Air Defence", "SAM SHORAD" },
 	type = "HQ-7_LN_SP",
 	visual = {
 		IR = {

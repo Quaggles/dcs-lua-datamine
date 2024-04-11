@@ -4,19 +4,19 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			control = "comboList",
 			defValue = 1,
 			id = "RadarCoverSettings",
-			label = "Force Radar Cover State At Start",
+			label = "Radar Cover State",
 			playerOnly = true,
 			values = { {
-					dispName = "NO",
+					dispName = "By global option",
 					id = 1
 				}, {
-					dispName = "FORCE ON",
+					dispName = "Force installed",
 					id = 2
 				}, {
-					dispName = "FORCE OFF",
+					dispName = "Force not installed",
 					id = 3
 				} },
-			wCtrl = 75
+			wCtrl = 140
 		}, {
 			control = "comboList",
 			defValue = 1,
@@ -24,10 +24,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			label = "Simplified Missile Locking",
 			playerOnly = true,
 			values = { {
-					dispName = "NO",
+					dispName = "No",
 					id = 1
 				}, {
-					dispName = "YES",
+					dispName = "Yes",
 					id = 2
 				} },
 			wCtrl = 75
@@ -185,7 +185,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					dispName = "Off",
 					id = 0
 				}, {
-					dispName = "BURST",
+					dispName = "Burst",
 					id = 1
 				}, {
 					dispName = "0.5 s",
@@ -240,7 +240,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			label = "Laser code 2nd dgt GBU, 1x11",
 			max = 7,
 			min = 5,
-			playerOnly = true
+			playerOnly = true,
+			wCtrl = 75
 		}, {
 			control = "spinbox",
 			defValue = 8,
@@ -249,7 +250,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			label = "Laser code 3rd dgt GBU, 11x1",
 			max = 8,
 			min = 1,
-			playerOnly = true
+			playerOnly = true,
+			wCtrl = 75
 		}, {
 			control = "spinbox",
 			defValue = 8,
@@ -258,7 +260,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			label = "Laser code 4th dgt GBU, 111x",
 			max = 8,
 			min = 1,
-			playerOnly = true
+			playerOnly = true,
+			wCtrl = 75
 		}, {
 			control = "editbox",
 			getDefault = <function 1>,
@@ -266,24 +269,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			label = "IFF Mode 2 Code",
 			onChange = <function 2>,
 			onFocus = <function 3>,
-			playerOnly = true
+			playerOnly = true,
+			wCtrl = 75
 		}, {
 			control = "comboList",
 			defValue = 1,
 			id = "IFFMode4Disabled",
-			label = "Force IFF Mode 4 Transponder Installed",
+			label = "IFF Mode 4 Transponder Installed",
 			playerOnly = true,
 			values = { {
-					dispName = "NO",
+					dispName = "By global option",
 					id = 1
 				}, {
-					dispName = "Force Always Disabled",
+					dispName = "Force installed",
 					id = 2
 				}, {
-					dispName = "Force Always Enabled",
+					dispName = "Force not installed",
 					id = 3
 				} },
-			wCtrl = 75
+			wCtrl = 140
 		}, {
 			control = "comboList",
 			defValue = 1,
@@ -291,10 +295,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			label = "INS start position always correct",
 			playerOnly = true,
 			values = { {
-					dispName = "YES",
+					dispName = "Yes",
 					id = 1
 				}, {
-					dispName = "NO",
+					dispName = "No",
 					id = 2
 				} },
 			wCtrl = 75

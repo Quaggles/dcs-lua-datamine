@@ -1,5 +1,5 @@
 _G["rockets"]["#Index"] = {
-	Cx_pil = 1.68,
+	Cx_pil = 1.03,
 	D_max = 11000,
 	D_min = 200,
 	Damage = 21.25,
@@ -35,6 +35,7 @@ _G["rockets"]["#Index"] = {
 	category = 4,
 	ccm_k0 = 0.2,
 	display_name = "AIM-9X",
+	display_name_short = "AIM-9",
 	exhaust = { 0.7, 0.7, 0.7, 0.08 },
 	name = "AIM_9X",
 	shape_table_data = { {
@@ -46,6 +47,7 @@ _G["rockets"]["#Index"] = {
 			username = "AIM-9X"
 		} },
 	sigma = { 2, 2, 2 },
+	smoke_opacity_type = 1,
 	t_acc = 5,
 	t_b = 0,
 	t_marsh = 0,

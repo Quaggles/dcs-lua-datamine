@@ -1,8 +1,8 @@
 _G["launcher"]["{907D835F-E650-4154-BAFD-C656882555C0}"] = {
 	CLSID = "{907D835F-E650-4154-BAFD-C656882555C0}",
 	Count = 3,
-	Cx_item = 0.0009765625,
-	Cx_pil = 0.0048166875,
+	Cx_item = 0.0004150390625,
+	Cx_pil = 0.0021451171875,
 	Elements = { {
 			ShapeName = "LAU-88"
 		}, {
@@ -19,10 +19,12 @@ _G["launcher"]["{907D835F-E650-4154-BAFD-C656882555C0}"] = {
 			ShapeName = "AGM-65K"
 		} },
 	Picture = "agm65.png",
-	Weight = 1102,
-	_file = "Scripts/Database/db_weapons_data.lua",
+	Weight = 1105,
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/agm65_family.lua",
+	_origin = "AircraftWeaponPack",
 	adapter_type = { 4, 15, 47, "Redacted" },
 	attribute = { 4, 4, 32, "Redacted" },
+	category = 2,
 	displayName = "LAU-88 with 3 x AGM-65K - Maverick K (CCD Imp ASM)",
 	kind_of_shipping = 1,
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }

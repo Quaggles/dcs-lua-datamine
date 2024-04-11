@@ -11,7 +11,7 @@ _G["launcher"]["{A6FD14D3-6D30-4C85-88A7-8D17BEE120E2}"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
-	displayName = "APU-6 - 6 x 9M127-1 Vikhr-M ATGM, LOSBR, Tandem HEAT/Frag",
+	displayName = "APU-6 - 6 x 9M127 Vikhr - ATGM, LOSBR, Tandem HEAT/Frag",
 	kind_of_shipping = 0,
-	wsTypeOfWeapon = "weapons.missiles.Vikhr_M"
+	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

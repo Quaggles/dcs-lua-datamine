@@ -116,5 +116,6 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	visual = {
 		shape = "Ship_Tilde_Supply",
 		shape_dstr = ""
-	}
+	},
+	warehouse = true
 }

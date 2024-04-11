@@ -123,7 +123,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	economy_velocity = 6.17333,
 	enablePlayerCanDrive = false,
 	exhaust = { {
-			connector = "SMOKE_PIPE_Mailn",
+			connector = "EXHAUST_01",
 			preset = "Bazar/ParticleEffects/effects/SmokeShip.lua",
 			size = 0.5
 		} },

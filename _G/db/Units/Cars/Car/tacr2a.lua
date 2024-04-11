@@ -4,8 +4,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "RAF Rescue",
-	Name = "RAF Rescue",
+	DisplayName = "Firefighter RAF Rescue",
+	Name = "Firefighter RAF Rescue",
 	Rate = 5,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,

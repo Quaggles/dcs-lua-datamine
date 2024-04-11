@@ -1,7 +1,7 @@
 _G["launcher"]["{3C0745ED-8B0B-42eb-B907-5BD5C1717447}"] = {
 	CLSID = "{3C0745ED-8B0B-42eb-B907-5BD5C1717447}",
 	Count = 2,
-	Cx_pil = 0.0015203125,
+	Cx_pil = 0.0012029296875,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "lau-105"

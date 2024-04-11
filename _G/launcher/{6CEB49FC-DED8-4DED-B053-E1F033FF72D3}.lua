@@ -1,7 +1,7 @@
 _G["launcher"]["{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}"] = {
 	CLSID = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}",
 	Count = 1,
-	Cx_pil = 0.00041015625,
+	Cx_pil = 0.00025146484375,
 	Elements = { {
 			ShapeName = "AIM-9"
 		} },

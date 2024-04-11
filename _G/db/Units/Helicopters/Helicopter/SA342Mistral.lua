@@ -328,6 +328,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			ejection_added_speed = { 0, 0, 5 },
 			ejection_order = 1,
 			ejection_seat_name = 0,
+			pilot_body_arg = 508,
 			pos = { 3, 0.7, 0.3 },
 			role = "pilot",
 			role_display_name = "Pilot"
@@ -337,7 +338,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			ejection_added_speed = { 0, 0, -5 },
 			ejection_order = 2,
 			ejection_seat_name = 0,
-			pilot_body_arg = 529,
+			pilot_body_arg = 528,
 			pos = { 3, 0.7, -0.3 },
 			role = "instructor",
 			role_display_name = "Instructor"
@@ -465,7 +466,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			DuplicateOf = "Door0"
 		}
 	},
-	net_animation = { 11, 15, 17, 13, 14, 34, 38, 69, 196, 274, 276, 277, 280, 281, 282, 283, 284, 285, 209, 210, 211, 212, 213, 215, 216, 300, 301, 302, 306, 337, 399, 400, 401, 420, 506, 507, 526, 527, 508, 528 },
+	net_animation = { 11, 15, 17, 13, 14, 34, 38, 69, 196, 274, 276, 277, 280, 281, 282, 283, 284, 285, 209, 210, 211, 212, 213, 215, 216, 300, 301, 302, 306, 337, 399, 400, 401, 420, 506, 507, 526, 527, 508, 528, 1338, 1401 },
 	nose_gear_pos = { 0.835, -0.966, 0 },
 	panelRadio = { {
 			channels = { {

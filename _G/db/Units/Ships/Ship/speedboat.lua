@@ -6,7 +6,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	DetectionRange = 5000,
 	DisplayName = "Boat Armed Hi-speed",
 	DisplayNameShort = "Boat",
-	Gamma_max = 1,
+	Gamma_max = -0.2,
 	Height = 3,
 	IR_emission_coeff = 0.05,
 	Length = 9.7,
@@ -97,7 +97,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		engine = "Ships/speedboat",
 		move = "Ships/speedboatMove"
 	},
-	speedup = 8,
+	speedup = 5,
 	swapped_names = true,
 	tags = { "Fast Attack Craft" },
 	type = "speedboat",

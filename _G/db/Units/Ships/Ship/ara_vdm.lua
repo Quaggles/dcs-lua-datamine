@@ -55,64 +55,112 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		} },
 	DM = { {
 			area_arg = 70,
+			area_fire = {
+				pos = { 30, 14.5, 12.6 },
+				size = 0.5
+			},
 			area_life = 50,
 			area_name = "ISLAND"
 		}, {
 			area_arg = 71,
-			area_life = 150,
+			area_fire = {
+				pos = { 75.5, 11.1, 5.1 },
+				size = 0.5
+			},
+			area_life = 200,
 			area_name = "HULL_FWD_PORT"
 		}, {
 			area_arg = 72,
-			area_life = 150,
+			area_fire = {
+				pos = { 14.5, -12.5, 5.1 },
+				size = 0.5
+			},
+			area_life = 200,
 			area_name = "HULL_MID_PORT"
 		}, {
 			area_arg = 73,
-			area_life = 150,
+			area_fire = {
+				pos = { -58, -11.3, 5.1 },
+				size = 0.5
+			},
+			area_life = 200,
 			area_name = "HULL_AFT_PORT"
 		}, {
 			area_arg = 76,
-			area_life = 150,
+			area_fire = {
+				pos = { 74.5, 11.1, 5.1 },
+				size = 0.5
+			},
+			area_life = 200,
 			area_name = "HULL_FWD_STBD"
 		}, {
 			area_arg = 77,
-			area_life = 150,
+			area_fire = {
+				pos = { 10.5, -12.5, 5.1 },
+				size = 0.5
+			},
+			area_life = 200,
 			area_name = "HULL_MID_STBD"
 		}, {
 			area_arg = 78,
-			area_life = 150,
+			area_fire = {
+				pos = { -52, 11.3, 5.1 },
+				size = 0.5
+			},
+			area_life = 200,
 			area_name = "HULL_AFT_STBD"
 		}, {
 			area_arg = 79,
-			area_life = 150,
-			area_name = "PALUBA_FWD"
+			area_fire = {
+				pos = { 87.5, 0, 10 },
+				size = 0.5
+			},
+			area_life = 200,
+			area_name = "PALUBA_FWD",
+			belongsToRunway = true
 		}, {
 			area_arg = 80,
-			area_life = 150,
-			area_name = "PALUBA_MID-FWD"
-		}, {
-			area_arg = 80,
-			area_life = 150,
-			area_name = "PALUBA_MID-AFT"
+			area_fire = {
+				pos = { 17.2, -3.7, 10 },
+				size = 0.5
+			},
+			area_life = 200,
+			area_name = "PALUBA_MID",
+			belongsToRunway = true
 		}, {
 			area_arg = 81,
-			area_life = 150,
-			area_name = "PALUBA_REAR"
+			area_fire = {
+				pos = { -66.1, 1.9, 10 },
+				size = 0.5
+			},
+			area_life = 200,
+			area_name = "PALUBA_AFT",
+			belongsToRunway = true
 		}, {
-			area_arg = 83,
+			area_arg = 82,
 			area_life = 50,
 			area_name = "ISLAND-FUNNEL"
 		}, {
-			area_arg = 84,
-			area_life = 50,
-			area_name = "PALUBA-LIFT-AFT"
+			area_arg = 83,
+			area_fire = {
+				pos = { -38.2, 0, 10 },
+				size = 0.5
+			},
+			area_life = 100,
+			area_name = "PALUBA-LIFT-AFT",
+			belongsToRunway = true
 		}, {
-			area_arg = 85,
-			area_life = 50,
+			area_arg = 84,
+			area_fire = {
+				pos = { 60.8, 0, 10 },
+				size = 0.5
+			},
+			area_life = 100,
 			area_name = "PALUBA-LIFT-FWD"
 		} },
 	DeckLevel = 11.987,
 	DetectionRange = 18000,
-	DisplayName = "ARA Vienticinco de Mayo",
+	DisplayName = "ARA Veinticinco de Mayo",
 	Gamma_max = 0.35,
 	Height = 35.226,
 	HelicopterSpawnTerminal = { {
@@ -148,7 +196,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	},
 	Landing_Point = { -57.409, 12, 1.046 },
 	Length = 236,
-	Name = "ARA Vienticinco de Mayo",
+	Name = "ARA Veinticinco de Mayo",
 	OLS = {
 		CutLightsArg = 404,
 		DatumAndWaveOffLightsArg = 405,
@@ -182,28 +230,28 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	TACAN_position = { 31.1, 49.32, 12.76 },
 	Tail_Width = 10,
 	TaxiForTORoutes = { {
+			Points = { { { 3.831, 11.987, 11.525 }, 1 }, { { 4.987, 11.987, 5.445 }, 1 }, { { 15.376, 11.987, -12.069 }, 1 }, { { 20.634, 11.987, -11.65 }, 1 } },
+			RunwayIdx = 1
+		}, {
+			Points = { { { -9.576, 11.987, 11.154 }, 1 }, { { -4.992, 11.987, 4.685 }, 1 }, { { 4.987, 11.987, 5.445 }, 1 }, { { 15.376, 11.987, -12.069 }, 1 }, { { 20.634, 11.987, -11.65 }, 1 } },
+			RunwayIdx = 1
+		}, {
 			Points = { { { -2.195, 11.987, -11.932 }, 1 }, { { 0.921, 11.987, -7.89 }, 1 }, { { 7.255, 11.987, -5.437 }, 1 }, { { 10.631, 11.987, -9.772 }, 1 }, { { 15.376, 11.987, -12.069 }, 1 }, { { 20.634, 11.987, -11.65 }, 1 } },
 			RunwayIdx = 1
 		}, {
 			Points = { { { -15.032, 11.987, -10.423 }, 1 }, { { -11.38, 11.987, -5.745 }, 1 }, { { 0.921, 11.987, -7.89 }, 1 }, { { 15.376, 11.987, -12.069 }, 1 }, { { 20.634, 11.987, -11.65 }, 1 } },
 			RunwayIdx = 1
 		}, {
-			Points = { { { -28.628, 11.987, -9.389 }, 1 }, { { -24.105, 11.987, -3.815 }, 1 }, { { 0.921, 11.987, -7.89 }, 1 }, { { 15.376, 11.987, -12.069 }, 1 }, { { 20.634, 11.987, -11.65 }, 1 } },
+			Points = { { { -28.628, 11.987, -9.389 }, 1 }, { { -24.105, 11.987, -3.815 }, 1 }, { { -4.992, 11.987, 4.685 }, 1 }, { { 4.987, 11.987, 5.445 }, 1 }, { { 15.376, 11.987, -12.069 }, 1 }, { { 20.634, 11.987, -11.65 }, 1 } },
 			RunwayIdx = 1
 		}, {
-			Points = { { { 3.831, 11.987, 11.525 }, 1 }, { { 4.987, 11.987, 5.445 }, 1 }, { { 7.331, 11.987, -9.929 }, 1 }, { { 15.376, 11.987, -12.069 }, 1 }, { { 20.634, 11.987, -11.65 }, 1 } },
+			Points = { { { -42.022, 11.987, -8.061 }, 1 }, { { -37.09, 11.987, -1.939 }, 1.5 }, { { -4.992, 11.987, 4.685 }, 1 }, { { 4.987, 11.987, 5.445 }, 1 }, { { 15.376, 11.987, -12.069 }, 1 }, { { 20.634, 11.987, -11.65 }, 1 } },
 			RunwayIdx = 1
 		}, {
-			Points = { { { -42.022, 11.987, -8.061 }, 1 }, { { -37.09, 11.987, -1.939 }, 1.5 }, { { 0.921, 11.987, -7.89 }, 1.5 }, { { 15.376, 11.987, -12.069 }, 1 }, { { 20.634, 11.987, -11.65 }, 1 } },
+			Points = { { { -55.454, 11.987, -6.095 }, 1 }, { { -50.57, 11.987, -0.001 }, 1.5 }, { { 4.987, 11.987, 5.445 }, 1 }, { { 15.376, 11.987, -12.069 }, 1 }, { { 20.634, 11.987, -11.65 }, 1 } },
 			RunwayIdx = 1
 		}, {
-			Points = { { { -9.576, 11.987, 11.154 }, 1 }, { { -4.992, 11.987, 4.685 }, 1 }, { { 7.331, 11.987, -9.929 }, 1 }, { { 15.376, 11.987, -12.069 }, 1 }, { { 20.634, 11.987, -11.65 }, 1 } },
-			RunwayIdx = 1
-		}, {
-			Points = { { { -55.454, 11.987, -6.095 }, 1 }, { { -50.57, 11.987, -0.001 }, 1.5 }, { { 0.921, 11.987, -7.89 }, 1.5 }, { { 15.376, 11.987, -12.069 }, 1 }, { { 20.634, 11.987, -11.65 }, 1 } },
-			RunwayIdx = 1
-		}, {
-			Points = { { { -72.392, 11.987, 5.292 }, 1 }, { { -63.326, 11.987, 4.024 }, 1 }, { { 0.921, 11.987, -7.89 }, 1 }, { { 15.376, 11.987, -12.069 }, 1 }, { { 20.634, 11.987, -11.65 }, 1 } },
+			Points = { { { -72.392, 11.987, 5.292 }, 1 }, { { -63.326, 11.987, 4.024 }, 2 }, { { 4.987, 11.987, 5.445 }, 2 }, { { 15.376, 11.987, -12.069 }, 2 }, { { 20.634, 11.987, -11.65 }, 2 } },
 			RunwayIdx = 1
 		},
 		RoutesForTONumber = 8
@@ -265,16 +313,18 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							shell_name = {}
 						} },
 					sensor = {},
+					sightIndicationMode = 0,
 					sightMasterMode = 1
 				} },
 			angles = { { 0, -2.7925268031909, -0.087266462599716, 1.221730476396 } },
 			area = "HULL_FWD_STBD",
 			center = "CENTER_TOWER_01",
-			cockpit = { "genericAAA", { -3.566, 0.302, -0.595 },
+			cockpit = { "genericAAA", { -3.57, 0.304, 0.596 },
 				open = true
 			},
 			drawArgument1 = 41,
 			drawArgument2 = 51,
+			pointer = "POINT_BOFORS_1_1",
 			reference_angle_Y = -1.5707963267949,
 			reference_angle_Z = 0
 		}, {
@@ -288,16 +338,18 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							shell_name = {}
 						} },
 					sensor = {},
+					sightIndicationMode = 0,
 					sightMasterMode = 1
 				} },
 			angles = { { -0.34906585039887, -2.7925268031909, -0.087266462599716, 1.221730476396 } },
 			area = "HULL_FWD_STBD",
 			center = "CENTER_TOWER_02",
-			cockpit = { "genericAAA", { -3.566, 0.302, -0.595 },
+			cockpit = { "genericAAA", { -3.57, 0.304, 0.596 },
 				open = true
 			},
 			drawArgument1 = 42,
 			drawArgument2 = 52,
+			pointer = "POINT_BOFORS_2_1",
 			reference_angle_Y = -1.5707963267949,
 			reference_angle_Z = 0
 		}, {
@@ -311,16 +363,18 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							shell_name = {}
 						} },
 					sensor = {},
+					sightIndicationMode = 0,
 					sightMasterMode = 1
 				} },
 			angles = { { -0.34906585039887, -2.6179938779915, -0.087266462599716, 1.221730476396 } },
 			area = "HULL_AFT_STBD",
 			center = "CENTER_TOWER_03",
-			cockpit = { "genericAAA", { -3.566, 0.302, -0.595 },
+			cockpit = { "genericAAA", { -3.57, 0.304, 0.596 },
 				open = true
 			},
 			drawArgument1 = 43,
 			drawArgument2 = 53,
+			pointer = "POINT_BOFORS_3_1",
 			reference_angle_Y = -1.5707963267949,
 			reference_angle_Z = 0
 		}, {
@@ -334,16 +388,18 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							shell_name = {}
 						} },
 					sensor = {},
+					sightIndicationMode = 0,
 					sightMasterMode = 1
 				} },
 			angles = { { -0.34906585039887, -2.9670597283904, -0.087266462599716, 1.221730476396 } },
 			area = "HULL_AFT_STBD",
 			center = "CENTER_TOWER_04",
-			cockpit = { "genericAAA", { -3.566, 0.302, -0.595 },
+			cockpit = { "genericAAA", { -3.57, 0.304, 0.596 },
 				open = true
 			},
 			drawArgument1 = 44,
 			drawArgument2 = 54,
+			pointer = "POINT_BOFORS_4_1",
 			reference_angle_Y = -1.5707963267949,
 			reference_angle_Z = 0
 		}, {
@@ -357,16 +413,18 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							shell_name = {}
 						} },
 					sensor = {},
+					sightIndicationMode = 0,
 					sightMasterMode = 1
 				} },
 			angles = { { 2.9670597283904, 0.26179938779915, -0.087266462599716, 1.221730476396 } },
 			area = "HULL_AFT_PORT",
 			center = "CENTER_TOWER_05",
-			cockpit = { "genericAAA", { -3.566, 0.302, -0.595 },
+			cockpit = { "genericAAA", { -3.57, 0.304, 0.596 },
 				open = true
 			},
 			drawArgument1 = 45,
 			drawArgument2 = 55,
+			pointer = "POINT_BOFORS_5_1",
 			reference_angle_Y = 1.5707963267949,
 			reference_angle_Z = 0
 		}, {
@@ -380,16 +438,18 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							shell_name = {}
 						} },
 					sensor = {},
+					sightIndicationMode = 0,
 					sightMasterMode = 1
 				} },
 			angles = { { 2.6179938779915, 0.26179938779915, -0.087266462599716, 1.221730476396 } },
 			area = "HULL_AFT_PORT",
 			center = "CENTER_TOWER_06",
-			cockpit = { "genericAAA", { -3.566, 0.302, -0.595 },
+			cockpit = { "genericAAA", { -3.57, 0.304, 0.596 },
 				open = true
 			},
 			drawArgument1 = 46,
 			drawArgument2 = 56,
+			pointer = "POINT_BOFORS_6_1",
 			reference_angle_Y = 1.5707963267949,
 			reference_angle_Z = 0
 		}, {
@@ -403,16 +463,18 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							shell_name = {}
 						} },
 					sensor = {},
+					sightIndicationMode = 0,
 					sightMasterMode = 1
 				} },
 			angles = { { 1.7453292519943, 0.26179938779915, -0.087266462599716, 1.221730476396 } },
 			area = "HULL_FWD_PORT",
 			center = "CENTER_TOWER_07",
-			cockpit = { "genericAAA", { -3.566, 0.302, -0.595 },
+			cockpit = { "genericAAA", { -3.57, 0.304, 0.596 },
 				open = true
 			},
 			drawArgument1 = 47,
 			drawArgument2 = 57,
+			pointer = "POINT_BOFORS_7_1",
 			reference_angle_Y = 1.5707963267949,
 			reference_angle_Z = 0
 		}, {
@@ -426,21 +488,24 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							shell_name = {}
 						} },
 					sensor = {},
+					sightIndicationMode = 0,
 					sightMasterMode = 1
 				} },
 			angles = { { 1.9198621771938, 0, -0.087266462599716, 1.221730476396 } },
 			area = "HULL_FWD_PORT",
 			center = "CENTER_TOWER_08",
-			cockpit = { "genericAAA", { -3.566, 0.302, -0.595 },
+			cockpit = { "genericAAA", { -3.57, 0.304, 0.596 },
 				open = true
 			},
 			drawArgument1 = 48,
 			drawArgument2 = 58,
+			pointer = "POINT_BOFORS_8_1",
 			reference_angle_Y = 1.5707963267949,
 			reference_angle_Z = 0
 		}, {
 			LN = { {
 					BR = { {
+							connectorFire = true,
 							connector_name = "POINT_BOFORS_9_1",
 							recoilArgument = 129,
 							recoilTime = 0.47
@@ -449,16 +514,18 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							shell_name = {}
 						} },
 					sensor = {},
+					sightIndicationMode = 0,
 					sightMasterMode = 1
 				} },
 			angles = { { -1.5707963267949, 1.5707963267949, -0.087266462599716, 1.221730476396 } },
 			area = "ISLAND",
 			center = "CENTER_TOWER_09",
-			cockpit = { "genericAAA", { -3.566, 0.302, -0.595 },
+			cockpit = { "genericAAA", { -3.57, 0.304, 0.596 },
 				open = true
 			},
 			drawArgument1 = 49,
 			drawArgument2 = 59,
+			pointer = "POINT_BOFORS_9_1",
 			reference_angle_Y = 3.1415926535898,
 			reference_angle_Z = 0
 		},
@@ -535,7 +602,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	mapclasskey = "P0091000065",
 	mass = 19000000,
 	max_velocity = 12.4,
-	numParking = 6,
+	numParking = 8,
 	race_distance = 2778000,
 	race_velocity = 9.25,
 	radar1_period = 5,

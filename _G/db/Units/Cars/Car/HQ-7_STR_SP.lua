@@ -23,28 +23,27 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					maxShootingSpeed = 0,
 					max_trg_alt = 5500,
 					min_trg_alt = 15,
-					reactionTime = 10,
+					reactionTime = 8,
 					reflection_limit = 0.12,
 					type = 101
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.0471975511966 } },
-			drawArgument1 = 0,
+			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.0471975511966 } },
 			mount_before_move = true,
-			omegaY = 0.5235987755983,
-			omegaZ = 0.5235987755983,
+			omegaY = 1,
+			omegaZ = 1,
 			pidY = {
-				d = 8,
-				i = 0.1,
-				inn = 5,
-				p = 40
+				d = 10,
+				i = 0,
+				inn = 10,
+				p = 100
 			},
 			pidZ = {
-				d = 9,
-				i = 0.1,
+				d = 10,
+				i = 0,
 				inn = 10,
-				p = 80
+				p = 100
 			},
-			pos = { 0, 5, 0 }
+			pos = { 0, 3, 0 }
 		}, {
 			LN = { {
 					ECM_K = 0.03,
@@ -53,28 +52,27 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					maxShootingSpeed = 0,
 					max_trg_alt = 5500,
 					min_trg_alt = 15,
-					reactionTime = 10,
+					reactionTime = 8,
 					reflection_limit = 0.12,
 					type = 101
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.0471975511966 } },
-			drawArgument1 = 0,
+			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.0471975511966 } },
 			mount_before_move = true,
-			omegaY = 0.5235987755983,
-			omegaZ = 0.5235987755983,
+			omegaY = 1,
+			omegaZ = 1,
 			pidY = {
-				d = 8,
-				i = 0.1,
-				inn = 5,
-				p = 40
+				d = 10,
+				i = 0,
+				inn = 10,
+				p = 100
 			},
 			pidZ = {
-				d = 9,
-				i = 0.1,
+				d = 10,
+				i = 0,
 				inn = 10,
-				p = 80
+				p = 100
 			},
-			pos = { 0, 5, 0 }
+			pos = { 0, 3, 0 }
 		}, {
 			LN = { {
 					ECM_K = 0.03,
@@ -83,28 +81,27 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					maxShootingSpeed = 0,
 					max_trg_alt = 5500,
 					min_trg_alt = 15,
-					reactionTime = 10,
+					reactionTime = 8,
 					reflection_limit = 0.12,
 					type = 101
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.0471975511966 } },
-			drawArgument1 = 0,
+			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.0471975511966 } },
 			mount_before_move = true,
-			omegaY = 0.5235987755983,
-			omegaZ = 0.5235987755983,
+			omegaY = 1,
+			omegaZ = 1,
 			pidY = {
-				d = 8,
-				i = 0.1,
-				inn = 5,
-				p = 40
+				d = 10,
+				i = 0,
+				inn = 10,
+				p = 100
 			},
 			pidZ = {
-				d = 9,
-				i = 0.1,
+				d = 10,
+				i = 0,
 				inn = 10,
-				p = 80
+				p = 100
 			},
-			pos = { 0, 5, 0 }
+			pos = { 0, 3, 0 }
 		}, {
 			LN = { {
 					ECM_K = 0.03,
@@ -113,28 +110,27 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					maxShootingSpeed = 0,
 					max_trg_alt = 5500,
 					min_trg_alt = 15,
-					reactionTime = 10,
+					reactionTime = 8,
 					reflection_limit = 0.12,
 					type = 101
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.0471975511966 } },
-			drawArgument1 = 0,
+			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.0471975511966 } },
 			mount_before_move = true,
-			omegaY = 0.5235987755983,
-			omegaZ = 0.5235987755983,
+			omegaY = 1,
+			omegaZ = 1,
 			pidY = {
-				d = 8,
-				i = 0.1,
-				inn = 5,
-				p = 40
+				d = 10,
+				i = 0,
+				inn = 10,
+				p = 100
 			},
 			pidZ = {
-				d = 9,
-				i = 0.1,
+				d = 10,
+				i = 0,
 				inn = 10,
-				p = 80
+				p = 100
 			},
-			pos = { 0, 5, 0 }
+			pos = { 0, 3, 0 }
 		}, {
 			LN = { {
 					ECM_K = 0.03,
@@ -143,28 +139,27 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					maxShootingSpeed = 0,
 					max_trg_alt = 5500,
 					min_trg_alt = 15,
-					reactionTime = 10,
+					reactionTime = 8,
 					reflection_limit = 0.12,
 					type = 101
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.0471975511966 } },
-			drawArgument1 = 0,
+			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.0471975511966 } },
 			mount_before_move = true,
-			omegaY = 0.5235987755983,
-			omegaZ = 0.5235987755983,
+			omegaY = 1,
+			omegaZ = 1,
 			pidY = {
-				d = 8,
-				i = 0.1,
-				inn = 5,
-				p = 40
+				d = 10,
+				i = 0,
+				inn = 10,
+				p = 100
 			},
 			pidZ = {
-				d = 9,
-				i = 0.1,
+				d = 10,
+				i = 0,
 				inn = 10,
-				p = 80
+				p = 100
 			},
-			pos = { 0, 5, 0 }
+			pos = { 0, 3, 0 }
 		}, {
 			LN = { {
 					ECM_K = 0.03,
@@ -173,28 +168,27 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					maxShootingSpeed = 0,
 					max_trg_alt = 5500,
 					min_trg_alt = 15,
-					reactionTime = 10,
+					reactionTime = 8,
 					reflection_limit = 0.12,
 					type = 101
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.0471975511966 } },
-			drawArgument1 = 0,
+			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.0471975511966 } },
 			mount_before_move = true,
-			omegaY = 0.5235987755983,
-			omegaZ = 0.5235987755983,
+			omegaY = 1,
+			omegaZ = 1,
 			pidY = {
-				d = 8,
-				i = 0.1,
-				inn = 5,
-				p = 40
+				d = 10,
+				i = 0,
+				inn = 10,
+				p = 100
 			},
 			pidZ = {
-				d = 9,
-				i = 0.1,
+				d = 10,
+				i = 0,
 				inn = 10,
-				p = 80
+				p = 100
 			},
-			pos = { 0, 5, 0 }
+			pos = { 0, 3, 0 }
 		}, {
 			LN = { {
 					ECM_K = 0.03,
@@ -203,28 +197,27 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					maxShootingSpeed = 0,
 					max_trg_alt = 5500,
 					min_trg_alt = 15,
-					reactionTime = 10,
+					reactionTime = 8,
 					reflection_limit = 0.12,
 					type = 101
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.0471975511966 } },
-			drawArgument1 = 0,
+			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.0471975511966 } },
 			mount_before_move = true,
-			omegaY = 0.5235987755983,
-			omegaZ = 0.5235987755983,
+			omegaY = 1,
+			omegaZ = 1,
 			pidY = {
-				d = 8,
-				i = 0.1,
-				inn = 5,
-				p = 40
+				d = 10,
+				i = 0,
+				inn = 10,
+				p = 100
 			},
 			pidZ = {
-				d = 9,
-				i = 0.1,
+				d = 10,
+				i = 0,
 				inn = 10,
-				p = 80
+				p = 100
 			},
-			pos = { 0, 5, 0 }
+			pos = { 0, 3, 0 }
 		}, {
 			LN = { {
 					ECM_K = 0.03,
@@ -233,28 +226,27 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					maxShootingSpeed = 0,
 					max_trg_alt = 5500,
 					min_trg_alt = 15,
-					reactionTime = 10,
+					reactionTime = 8,
 					reflection_limit = 0.12,
 					type = 101
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.0471975511966 } },
-			drawArgument1 = 0,
+			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.0471975511966 } },
 			mount_before_move = true,
-			omegaY = 0.5235987755983,
-			omegaZ = 0.5235987755983,
+			omegaY = 1,
+			omegaZ = 1,
 			pidY = {
-				d = 8,
-				i = 0.1,
-				inn = 5,
-				p = 40
+				d = 10,
+				i = 0,
+				inn = 10,
+				p = 100
 			},
 			pidZ = {
-				d = 9,
-				i = 0.1,
+				d = 10,
+				i = 0,
 				inn = 10,
-				p = 80
+				p = 100
 			},
-			pos = { 0, 5, 0 }
+			pos = { 0, 3, 0 }
 		}, {
 			LN = { {
 					ECM_K = 0.03,
@@ -263,28 +255,27 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					maxShootingSpeed = 0,
 					max_trg_alt = 5500,
 					min_trg_alt = 15,
-					reactionTime = 10,
+					reactionTime = 8,
 					reflection_limit = 0.12,
 					type = 101
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.0471975511966 } },
-			drawArgument1 = 0,
+			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.0471975511966 } },
 			mount_before_move = true,
-			omegaY = 0.5235987755983,
-			omegaZ = 0.5235987755983,
+			omegaY = 1,
+			omegaZ = 1,
 			pidY = {
-				d = 8,
-				i = 0.1,
-				inn = 5,
-				p = 40
+				d = 10,
+				i = 0,
+				inn = 10,
+				p = 100
 			},
 			pidZ = {
-				d = 9,
-				i = 0.1,
+				d = 10,
+				i = 0,
 				inn = 10,
-				p = 80
+				p = 100
 			},
-			pos = { 0, 5, 0 }
+			pos = { 0, 3, 0 }
 		}, {
 			LN = { {
 					ECM_K = 0.03,
@@ -293,33 +284,32 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					maxShootingSpeed = 0,
 					max_trg_alt = 5500,
 					min_trg_alt = 15,
-					reactionTime = 10,
+					reactionTime = 8,
 					reflection_limit = 0.12,
 					type = 101
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.0471975511966 } },
-			drawArgument1 = 0,
+			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.0471975511966 } },
 			mount_before_move = true,
-			omegaY = 0.5235987755983,
-			omegaZ = 0.5235987755983,
+			omegaY = 1,
+			omegaZ = 1,
 			pidY = {
-				d = 8,
-				i = 0.1,
-				inn = 5,
-				p = 40
+				d = 10,
+				i = 0,
+				inn = 10,
+				p = 100
 			},
 			pidZ = {
-				d = 9,
-				i = 0.1,
+				d = 10,
+				i = 0,
 				inn = 10,
-				p = 80
+				p = 100
 			},
-			pos = { 0, 5, 0 }
+			pos = { 0, 3, 0 }
 		},
 		maxTargetDetectionRange = 30000,
 		radar_rotation_type = 1,
-		radar_type = 103,
-		searchRadarFrequencies = { { 2000000000, 3000000000 } }
+		radar_type = 104,
+		searchRadarFrequencies = { { 6000000000, 10000000000 } }
 	},
 	Waypoint_Custom_Panel = true,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Tech/hq7_str.lua",
@@ -336,7 +326,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {}, {} }
 	},
-	attribute = { 2, 16, 101, "Redacted", "SR SAM", "SAM SR", "RADAR_BAND1_FOR_ARM", "All", "Ground Units", "Vehicles", "Ground vehicles", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "SAM related", "SAM elements" },
+	attribute = { 2, 16, 101, "Redacted", "SR SAM", "SAM CC", "SAM SR", "RADAR_BAND1_FOR_ARM", "RADAR_BAND2_FOR_ARM", "All", "Ground Units", "Vehicles", "Ground vehicles", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "SAM related", "SAM elements" },
 	category = "Air Defence",
 	chassis = {},
 	driverCockpit = "DriverCockpit/DriverCockpitWithIRandLLTV",
@@ -379,7 +369,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	swapped_names = true,
 	swing_on_run = true,
-	tags = { "Air Defence", "Search Radar" },
+	tags = { "Air Defence", "Search Radar", "Command & Control" },
 	type = "HQ-7_STR_SP",
 	visual = {
 		IR = {

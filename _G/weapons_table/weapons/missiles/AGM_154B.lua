@@ -96,7 +96,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_154B"] = {
 			vert_offset_before_end_game_k = 0.8,
 			wind_k = 0
 		},
-		display_name_short = "AGM-154B",
+		display_name_short = "AGM-154",
 		fm = {
 			A = 0.15,
 			I = 1000,
@@ -466,7 +466,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_154B"] = {
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	display_name = "AGM-154B",
-	display_name_short = "AGM-154B",
+	display_name_short = "AGM-154",
 	mass = 485,
 	model = "agm-154",
 	name = "AGM_154B",
@@ -562,7 +562,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_154B"] = {
 			vert_offset_before_end_game_k = 0.8,
 			wind_k = 0
 		},
-		display_name_short = "AGM-154B",
+		display_name_short = "AGM-154",
 		fm = {
 			A = 0.15,
 			I = 1000,

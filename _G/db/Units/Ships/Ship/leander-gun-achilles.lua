@@ -277,7 +277,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 						} },
 					sensor = {}
 				} },
-			angles = { { 2.8797932657906, -0.087266462599716, -0.087266462599716, 1.221730476396 } },
+			angles = { { -2.8797932657906, 0.087266462599716, -0.087266462599716, 1.221730476396 } },
 			area = "DMG-BRIDGE",
 			center = "CENTER_TOWER_02",
 			drawArgument1 = 42,
@@ -295,7 +295,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 						} },
 					sensor = {}
 				} },
-			angles = { { 0.087266462599716, -2.8797932657906, -0.087266462599716, 1.221730476396 } },
+			angles = { { -0.087266462599716, 2.8797932657906, -0.087266462599716, 1.221730476396 } },
 			area = "DMG-BRIDGE",
 			center = "CENTER_TOWER_03",
 			drawArgument1 = 43,
@@ -313,21 +313,21 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 						}, {
 							connector_name = "CON-SEACAT-ATTACH-004"
 						} },
-					PL = { {} },
+					PL = { {
+							type_ammunition = {}
+						} },
 					sensor = {}
 				} },
-			angles = { { -0.69813170079773, 0.5235987755983, 0, 1.553343034275 }, { 0.5235987755983, -0.69813170079773, 1.3089969389957, 1.553343034275 } },
+			angles = { { -1.5707963267949, 0.5235987755983, 0, 1.553343034275 }, { -0.69813170079773, 0.5235987755983, 1.3089969389957, 1.553343034275 } },
 			area = "DMG-SS-AFT-SEACAT-HANGAR",
 			center = "CENTER_TOWER_04",
 			drawArgument1 = 44,
 			drawArgument2 = 54,
-			reference_angle_Y = 3.1415926535898,
 			reference_angle_Z = 1.553343034275
 		},
-		maxTargetDetectionRange = 450000,
-		radar_type = 102,
-		searchRadarFrequencies = { { 50000000, 54000000 }, { 2000000000, 2200000000 } },
-		searchRadarMaxElevation = 1.0471975511966
+		maxTargetDetectionRange = 25000,
+		radar_type = 109,
+		searchRadarMaxElevation = 1.221730476396
 	},
 	Waypoint_Custom_Panel = true,
 	Width = 13,

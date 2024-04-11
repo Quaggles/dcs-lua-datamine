@@ -120,76 +120,50 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					type = 102
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -1.5707963267949, 1.3962634015955 } },
-			omegaY = 2,
-			omegaZ = 2,
-			pidY = {
-				d = 12,
-				i = 0.05,
-				inn = 50,
-				p = 100
-			},
-			pidZ = {
-				d = 12,
-				i = 0.05,
-				inn = 50,
-				p = 100
-			},
+			omegaY = 1,
+			omegaZ = 1,
 			pos = { 0, 19, 0 }
 		}, {
 			LN = { {
 					frequencyRange = {}
 				} },
 			angles = { {} },
-			pidY = {},
-			pidZ = {},
 			pos = {}
 		}, {
 			LN = { {
 					frequencyRange = {}
 				} },
 			angles = { {} },
-			pidY = {},
-			pidZ = {},
 			pos = {}
 		}, {
 			LN = { {
 					frequencyRange = {}
 				} },
 			angles = { {} },
-			pidY = {},
-			pidZ = {},
 			pos = {}
 		}, {
 			LN = { {
 					frequencyRange = {}
 				} },
 			angles = { {} },
-			pidY = {},
-			pidZ = {},
 			pos = {}
 		}, {
 			LN = { {
 					frequencyRange = {}
 				} },
 			angles = { {} },
-			pidY = {},
-			pidZ = {},
 			pos = {}
 		}, {
 			LN = { {
 					frequencyRange = {}
 				} },
 			angles = { {} },
-			pidY = {},
-			pidZ = {},
 			pos = {}
 		}, {
 			LN = { {
 					frequencyRange = {}
 				} },
 			angles = { {} },
-			pidY = {},
-			pidZ = {},
 			pos = {}
 		}, {
 			LN = { {
