@@ -3,6 +3,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DisplayName = "Coach Platform",
 	DisplayNameShort = "Platf",
 	IR_emission_coeff = 0,
+	MaxSpeed = 0,
 	Name = "Coach Platform",
 	Rate = 4,
 	ThreatRange = 0,

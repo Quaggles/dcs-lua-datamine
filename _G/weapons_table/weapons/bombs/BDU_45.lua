@@ -25,6 +25,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_45"] = {
 			open_delay = 0.2
 		},
 		displayName = "BDU-45 - 500lb Practice Bomb",
+		display_name_short = "BDU-45",
 		fm = {
 			I = 94.42593,
 			L = 2.21,
@@ -116,6 +117,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_45"] = {
 			open_delay = 0.2
 		},
 		displayName = "BDU-45 - 500lb Practice Bomb",
+		display_name_short = "BDU-45",
 		fm = {
 			I = 94.42593,
 			L = 2.21,

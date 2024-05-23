@@ -162,6 +162,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[85] = {
 			args = { 135 },
 			critical_damage = 3
+		},
+		[86] = {
+			critical_damage = 1
+		},
+		[87] = {
+			critical_damage = 1
 		}
 	},
 	DamageParts = { "MiG_15bis_oblomok__wing_R", "MiG_15bis_oblomok__wing_L" },
@@ -867,11 +873,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	crew_members = { {
 			bailout_arg = 91,
 			canopy_pos = { 1.5, 0.7, 0 },
-			drop_canopy_name = 317,
+			drop_canopy_name = 323,
 			drop_parachute_name = "pilot_mig15_parachute",
-			ejection_seat_name = 316,
+			ejection_seat_name = 322,
 			g_suit = 0.35,
-			pilot_name = 318,
+			pilot_name = 324,
 			pos = { 1.771, 0.856, 0 },
 			role = "pilot",
 			role_display_name = "Pilot"

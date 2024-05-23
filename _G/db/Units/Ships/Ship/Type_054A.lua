@@ -63,6 +63,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	Helicopter_Num_ = 1,
 	Landing_Point = { -54.385, 3.795, 0 },
 	Length = 135,
+	MaxSpeed = 55.55988,
 	Name = "Type 054A Frigate",
 	Om = 0.05,
 	Plane_Num_ = 0,

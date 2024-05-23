@@ -30,6 +30,7 @@ _G["weapons_table"]["weapons"]["missiles"]["TOW2"] = {
 			boost_start = 0,
 			march_start = 0.13
 		},
+		display_name_short = "TOW2",
 		err = {
 			max_time_interval = 0.9,
 			min_time_interval = 0.1,
@@ -110,6 +111,7 @@ _G["weapons_table"]["weapons"]["missiles"]["TOW2"] = {
 		}
 	},
 	display_name = "BGM-71 TOW",
+	display_name_short = "TOW2",
 	mass = 21.5,
 	model = "bgm-71e",
 	name = "TOW2",
@@ -141,6 +143,7 @@ _G["weapons_table"]["weapons"]["missiles"]["TOW2"] = {
 			boost_start = 0,
 			march_start = 0.13
 		},
+		display_name_short = "TOW2",
 		err = {
 			max_time_interval = 0.9,
 			min_time_interval = 0.1,

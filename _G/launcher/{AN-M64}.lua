@@ -40,21 +40,22 @@ _G["launcher"]["{AN-M64}"] = {
 					id = 7
 				}, {
 					dispName = "Plugged",
-					id = "EMPTY"
+					id = "EMPTY_NOSE",
+					secondaryParams = {}
 				} },
 			wCtrl = 360,
-			xCtrl = 180
+			xCtrl = 200
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",
-					value = 3
+					value = 5
 				} },
-			baseDim = "s",
+			baseDim = "rev",
 			control = "spinbox",
-			defValue = 4,
-			dimension = "s",
-			id = "function_delay_ctrl_Mk244Mod1",
-			label = "Function Delay",
+			defValue = 260,
+			dimension = "rev",
+			id = "vane_rev_threshold_ctrl_M136A1",
+			label = "Arming Vane Revs. Required",
 			max = 1000000000000,
 			min = 0,
 			readOnly = true,
@@ -62,139 +63,73 @@ _G["launcher"]["{AN-M64}"] = {
 			stringIndex = 2,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 180,
+			xCtrl = 200,
 			xLbl = 10
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",
 					value = 4
 				} },
-			baseDim = "s",
+			baseDim = "rev",
 			control = "spinbox",
-			defValue = 5,
-			dimension = "s",
-			id = "self_destruct_delay_ctrl_M135A1",
-			label = "Airburst Delay",
-			max = 92,
-			min = 5,
-			readOnly = false,
-			step = 0.1,
+			defValue = 260,
+			dimension = "rev",
+			id = "vane_rev_threshold_ctrl_M135A1",
+			label = "Arming Vane Revs. Required",
+			max = 1000000000000,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
 			stringIndex = 2,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 180,
+			xCtrl = 200,
 			xLbl = 10
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",
 					value = 6
+				}, "and", {
+					id = "function_delay_ctrl_ANM139A1",
+					value = 0
 				} },
-			baseDim = "s",
-			control = "comboList",
-			defValue = 0,
-			dimension = "s",
-			id = "function_delay_ctrl_ANM139A1",
-			label = "Function Delay",
-			stringIndex = 2,
-			values = { {
-					dispName = 0,
-					id = 0,
-					units = "s"
-				}, {
-					dispName = 0.01,
-					id = 0.01,
-					units = "s"
-				} },
-			wCtrl = 60,
-			xCtrl = 180,
-			xLbl = 10
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type_nose",
-					value = 5
-				} },
-			baseDim = "s",
+			baseDim = "rev",
 			control = "spinbox",
-			defValue = 5,
-			dimension = "s",
-			id = "self_destruct_delay_ctrl_M136A1",
-			label = "Airburst Delay",
-			max = 30.6,
-			min = 5,
-			readOnly = false,
-			step = 0.2,
+			defValue = 330,
+			dimension = "rev",
+			id = "vane_rev_threshold_ctrl_FD_0_ANM139A1",
+			label = "Arming Vane Revs. Required",
+			max = 1000000000000,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
 			stringIndex = 2,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 180,
+			xCtrl = 200,
 			xLbl = 10
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",
 					value = 7
+				}, "and", {
+					id = "function_delay_ctrl_ANM140A1",
+					value = 0.025
 				} },
-			baseDim = "s",
-			control = "comboList",
-			defValue = 0,
-			dimension = "s",
-			id = "function_delay_ctrl_ANM140A1",
-			label = "Function Delay",
-			stringIndex = 2,
-			values = { {
-					dispName = 0,
-					id = 0,
-					units = "s"
-				}, {
-					dispName = 0.025,
-					id = 0.025,
-					units = "s"
-				} },
-			wCtrl = 60,
-			xCtrl = 180,
-			xLbl = 10
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type_nose",
-					value = 2
-				} },
-			baseDim = "s",
+			baseDim = "rev",
 			control = "spinbox",
-			defValue = 0.025,
-			dimension = "ms",
-			id = "function_delay_ctrl_Mk243Mod0",
-			label = "Function Delay",
-			max = 1e+15,
+			defValue = 220,
+			dimension = "rev",
+			id = "vane_rev_threshold_ctrl_FD_0.025_ANM140A1",
+			label = "Arming Vane Revs. Required",
+			max = 1000000000000,
 			min = 0,
 			readOnly = true,
-			step = 10,
+			step = 0.01,
 			stringIndex = 2,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 180,
-			xLbl = 10
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type_nose",
-					value = 1
-				} },
-			baseDim = "s",
-			control = "comboList",
-			defValue = 0,
-			dimension = "s",
-			id = "function_delay_ctrl_ANM103A1",
-			label = "Function Delay",
-			stringIndex = 2,
-			values = { {
-					dispName = 0,
-					id = 0,
-					units = "s"
-				}, {
-					dispName = 0.1,
-					id = 0.1,
-					units = "s"
-				} },
-			wCtrl = 60,
-			xCtrl = 180,
+			xCtrl = 200,
 			xLbl = 10
 		}, {
 			VisibilityCondition = { {
@@ -217,21 +152,18 @@ _G["launcher"]["{AN-M64}"] = {
 			stringIndex = 2,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 480,
-			xLbl = 290
+			xCtrl = 200,
+			xLbl = 10
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",
-					value = 7
-				}, "and", {
-					id = "function_delay_ctrl_ANM140A1",
-					value = 0.025
+					value = 3
 				} },
 			baseDim = "rev",
 			control = "spinbox",
-			defValue = 220,
+			defValue = 130,
 			dimension = "rev",
-			id = "vane_rev_threshold_ctrl_FD_0.025_ANM140A1",
+			id = "vane_rev_threshold_ctrl_Mk244Mod1",
 			label = "Arming Vane Revs. Required",
 			max = 1000000000000,
 			min = 0,
@@ -240,51 +172,8 @@ _G["launcher"]["{AN-M64}"] = {
 			stringIndex = 2,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 480,
-			xLbl = 290
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type_nose",
-					value = 6
-				}, "and", {
-					id = "function_delay_ctrl_ANM139A1",
-					value = 0
-				} },
-			baseDim = "rev",
-			control = "spinbox",
-			defValue = 330,
-			dimension = "rev",
-			id = "vane_rev_threshold_ctrl_FD_0_ANM139A1",
-			label = "Arming Vane Revs. Required",
-			max = 1000000000000,
-			min = 0,
-			readOnly = true,
-			step = 0.01,
-			stringIndex = 2,
-			wCtrl = 60,
-			wDim = 30,
-			xCtrl = 480,
-			xLbl = 290
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type_nose",
-					value = 5
-				} },
-			baseDim = "rev",
-			control = "spinbox",
-			defValue = 260,
-			dimension = "rev",
-			id = "vane_rev_threshold_ctrl_M136A1",
-			label = "Arming Vane Revs. Required",
-			max = 1000000000000,
-			min = 0,
-			readOnly = true,
-			step = 0.01,
-			stringIndex = 2,
-			wCtrl = 60,
-			wDim = 30,
-			xCtrl = 480,
-			xLbl = 290
+			xCtrl = 200,
+			xLbl = 10
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",
@@ -306,28 +195,8 @@ _G["launcher"]["{AN-M64}"] = {
 			stringIndex = 2,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 480,
-			xLbl = 290
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type_nose",
-					value = 3
-				} },
-			baseDim = "rev",
-			control = "spinbox",
-			defValue = 130,
-			dimension = "rev",
-			id = "vane_rev_threshold_ctrl_Mk244Mod1",
-			label = "Arming Vane Revs. Required",
-			max = 1000000000000,
-			min = 0,
-			readOnly = true,
-			step = 0.01,
-			stringIndex = 2,
-			wCtrl = 60,
-			wDim = 30,
-			xCtrl = 480,
-			xLbl = 290
+			xCtrl = 200,
+			xLbl = 10
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",
@@ -349,48 +218,8 @@ _G["launcher"]["{AN-M64}"] = {
 			stringIndex = 2,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 480,
-			xLbl = 290
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type_nose",
-					value = 2
-				} },
-			baseDim = "rev",
-			control = "spinbox",
-			defValue = 130,
-			dimension = "rev",
-			id = "vane_rev_threshold_ctrl_Mk243Mod0",
-			label = "Arming Vane Revs. Required",
-			max = 1000000000000,
-			min = 0,
-			readOnly = true,
-			step = 0.01,
-			stringIndex = 2,
-			wCtrl = 60,
-			wDim = 30,
-			xCtrl = 480,
-			xLbl = 290
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type_nose",
-					value = 4
-				} },
-			baseDim = "rev",
-			control = "spinbox",
-			defValue = 260,
-			dimension = "rev",
-			id = "vane_rev_threshold_ctrl_M135A1",
-			label = "Arming Vane Revs. Required",
-			max = 1000000000000,
-			min = 0,
-			readOnly = true,
-			step = 0.01,
-			stringIndex = 2,
-			wCtrl = 60,
-			wDim = 30,
-			xCtrl = 480,
-			xLbl = 290
+			xCtrl = 200,
+			xLbl = 10
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",
@@ -412,8 +241,182 @@ _G["launcher"]["{AN-M64}"] = {
 			stringIndex = 2,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 480,
-			xLbl = 290
+			xCtrl = 200,
+			xLbl = 10
+		}, {
+			VisibilityCondition = { {
+					id = "NFP_fuze_type_nose",
+					value = 2
+				} },
+			baseDim = "rev",
+			control = "spinbox",
+			defValue = 130,
+			dimension = "rev",
+			id = "vane_rev_threshold_ctrl_Mk243Mod0",
+			label = "Arming Vane Revs. Required",
+			max = 1000000000000,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 2,
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 200,
+			xLbl = 10
+		}, {
+			VisibilityCondition = { {
+					id = "NFP_fuze_type_nose",
+					value = 3
+				} },
+			baseDim = "s",
+			control = "spinbox",
+			defValue = 4,
+			dimension = "s",
+			id = "function_delay_ctrl_Mk244Mod1",
+			label = "Function Delay",
+			max = 1000000000000,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 2,
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 500,
+			xLbl = 310
+		}, {
+			VisibilityCondition = { {
+					id = "NFP_fuze_type_nose",
+					value = 7
+				} },
+			baseDim = "s",
+			control = "comboList",
+			defValue = 0,
+			dimension = "s",
+			id = "function_delay_ctrl_ANM140A1",
+			label = "Function Delay",
+			stringIndex = 2,
+			values = { {
+					dispName = 0,
+					id = 0,
+					units = "s"
+				}, {
+					dispName = 0.025,
+					id = 0.025,
+					units = "s"
+				} },
+			wCtrl = 60,
+			xCtrl = 500,
+			xLbl = 310
+		}, {
+			VisibilityCondition = { {
+					id = "NFP_fuze_type_nose",
+					value = 4
+				} },
+			baseDim = "s",
+			control = "spinbox",
+			defValue = 5,
+			dimension = "s",
+			id = "self_destruct_delay_ctrl_M135A1",
+			label = "Airburst Delay",
+			max = 92,
+			min = 5,
+			readOnly = false,
+			step = 0.1,
+			stringIndex = 2,
+			tooltip = "Lower Limit: 5 s\nUpper Limit: 92 s\nIncrement: 0.1 s",
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 500,
+			xLbl = 310
+		}, {
+			VisibilityCondition = { {
+					id = "NFP_fuze_type_nose",
+					value = 6
+				} },
+			baseDim = "s",
+			control = "comboList",
+			defValue = 0,
+			dimension = "s",
+			id = "function_delay_ctrl_ANM139A1",
+			label = "Function Delay",
+			stringIndex = 2,
+			values = { {
+					dispName = 0,
+					id = 0,
+					units = "s"
+				}, {
+					dispName = 0.01,
+					id = 0.01,
+					units = "s"
+				} },
+			wCtrl = 60,
+			xCtrl = 500,
+			xLbl = 310
+		}, {
+			VisibilityCondition = { {
+					id = "NFP_fuze_type_nose",
+					value = 5
+				} },
+			baseDim = "s",
+			control = "spinbox",
+			defValue = 5,
+			dimension = "s",
+			id = "self_destruct_delay_ctrl_M136A1",
+			label = "Airburst Delay",
+			max = 30.6,
+			min = 5,
+			readOnly = false,
+			step = 0.2,
+			stringIndex = 2,
+			tooltip = "Lower Limit: 5 s\nUpper Limit: 30.6 s\nIncrement: 0.2 s",
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 500,
+			xLbl = 310
+		}, {
+			VisibilityCondition = { {
+					id = "NFP_fuze_type_nose",
+					value = 2
+				} },
+			baseDim = "s",
+			control = "spinbox",
+			defValue = 0.025,
+			dimension = "ms",
+			id = "function_delay_ctrl_Mk243Mod0",
+			label = "Function Delay",
+			max = 1e+15,
+			min = 0,
+			readOnly = true,
+			step = 10,
+			stringIndex = 2,
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 500,
+			xLbl = 310
+		}, {
+			VisibilityCondition = { {
+					id = "NFP_fuze_type_nose",
+					value = 1
+				} },
+			baseDim = "s",
+			control = "comboList",
+			defValue = 0,
+			dimension = "s",
+			id = "function_delay_ctrl_ANM103A1",
+			label = "Function Delay",
+			stringIndex = 2,
+			values = { {
+					dispName = 0,
+					id = 0,
+					units = "s"
+				}, {
+					dispName = 0.1,
+					id = 0.1,
+					units = "s"
+				} },
+			wCtrl = 60,
+			xCtrl = 500,
+			xLbl = 310
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -439,42 +442,131 @@ _G["launcher"]["{AN-M64}"] = {
 					id = 5
 				}, {
 					dispName = "Plugged",
-					id = "EMPTY"
+					id = "EMPTY_TAIL",
+					secondaryParams = {}
 				} },
 			wCtrl = 360,
-			xCtrl = 180
+			xCtrl = 200
+		}, {
+			VisibilityCondition = { {
+					id = "NFP_fuze_type_tail",
+					value = 5
+				} },
+			baseDim = "rev",
+			control = "spinbox",
+			defValue = 720,
+			dimension = "rev",
+			id = "vane_rev_threshold_ctrl_M161",
+			label = "Arming Vane Revs. Required",
+			max = 1000000000000,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 4,
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 200,
+			xLbl = 10
+		}, {
+			VisibilityCondition = { {
+					id = "NFP_fuze_type_tail",
+					value = 2
+				} },
+			baseDim = "rev",
+			control = "spinbox",
+			defValue = 160,
+			dimension = "rev",
+			id = "vane_rev_threshold_ctrl_ANM116",
+			label = "Arming Vane Revs. Required",
+			max = 1000000000000,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 4,
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 200,
+			xLbl = 10
+		}, {
+			VisibilityCondition = { {
+					id = "NFP_fuze_type_tail",
+					value = 4
+				} },
+			baseDim = "rev",
+			control = "spinbox",
+			defValue = 72,
+			dimension = "rev",
+			id = "vane_rev_threshold_ctrl_ANM133",
+			label = "Arming Vane Revs. Required",
+			max = 1000000000000,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 4,
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 200,
+			xLbl = 10
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
 					value = 1
 				} },
-			baseDim = "s",
-			control = "comboList",
-			defValue = 0,
-			dimension = "s",
-			id = "function_delay_ctrl_ANM101A2",
-			label = "Function Delay",
+			baseDim = "rev",
+			control = "spinbox",
+			defValue = 160,
+			dimension = "rev",
+			id = "vane_rev_threshold_ctrl_ANM101A2",
+			label = "Arming Vane Revs. Required",
+			max = 1000000000000,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
 			stringIndex = 4,
-			values = { {
-					dispName = 0,
-					id = 0,
-					units = "s"
-				}, {
-					dispName = 0.01,
-					id = 0.01,
-					units = "s"
-				}, {
-					dispName = 0.025,
-					id = 0.025,
-					units = "s"
-				}, {
-					dispName = 0.1,
-					id = 0.1,
-					units = "s"
-				} },
 			wCtrl = 60,
-			xCtrl = 180,
+			wDim = 30,
+			xCtrl = 200,
 			xLbl = 10
+		}, {
+			VisibilityCondition = { {
+					id = "NFP_fuze_type_tail",
+					value = 3
+				} },
+			baseDim = "rev",
+			control = "spinbox",
+			defValue = 6,
+			dimension = "rev",
+			id = "vane_rev_threshold_ctrl_ANM124A1",
+			label = "Arming Vane Revs. Required",
+			max = 1000000000000,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 4,
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 200,
+			xLbl = 10
+		}, {
+			VisibilityCondition = { {
+					id = "NFP_fuze_type_tail",
+					value = 4
+				} },
+			baseDim = "s",
+			control = "spinbox",
+			defValue = 600,
+			dimension = "min",
+			id = "function_delay_ctrl_ANM133",
+			label = "Function Delay",
+			max = 16666666666.667,
+			min = 0,
+			readOnly = true,
+			step = 0.00016666666666667,
+			stringIndex = 4,
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 500,
+			xLbl = 310
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -493,8 +585,8 @@ _G["launcher"]["{AN-M64}"] = {
 			stringIndex = 4,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 180,
-			xLbl = 10
+			xCtrl = 500,
+			xLbl = 310
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -517,28 +609,8 @@ _G["launcher"]["{AN-M64}"] = {
 					units = "s"
 				} },
 			wCtrl = 60,
-			xCtrl = 180,
-			xLbl = 10
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type_tail",
-					value = 4
-				} },
-			baseDim = "s",
-			control = "spinbox",
-			defValue = 600,
-			dimension = "min",
-			id = "function_delay_ctrl_ANM133",
-			label = "Function Delay",
-			max = 16666666666.667,
-			min = 0,
-			readOnly = true,
-			step = 0.00016666666666667,
-			stringIndex = 4,
-			wCtrl = 60,
-			wDim = 30,
-			xCtrl = 180,
-			xLbl = 10
+			xCtrl = 500,
+			xLbl = 310
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -569,107 +641,39 @@ _G["launcher"]["{AN-M64}"] = {
 					units = "s"
 				} },
 			wCtrl = 60,
-			xCtrl = 180,
-			xLbl = 10
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type_tail",
-					value = 4
-				} },
-			baseDim = "rev",
-			control = "spinbox",
-			defValue = 72,
-			dimension = "rev",
-			id = "vane_rev_threshold_ctrl_ANM133",
-			label = "Arming Vane Revs. Required",
-			max = 1000000000000,
-			min = 0,
-			readOnly = true,
-			step = 0.01,
-			stringIndex = 4,
-			wCtrl = 60,
-			wDim = 30,
-			xCtrl = 480,
-			xLbl = 290
+			xCtrl = 500,
+			xLbl = 310
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
 					value = 1
 				} },
-			baseDim = "rev",
-			control = "spinbox",
-			defValue = 160,
-			dimension = "rev",
-			id = "vane_rev_threshold_ctrl_ANM101A2",
-			label = "Arming Vane Revs. Required",
-			max = 1000000000000,
-			min = 0,
-			readOnly = true,
-			step = 0.01,
+			baseDim = "s",
+			control = "comboList",
+			defValue = 0,
+			dimension = "s",
+			id = "function_delay_ctrl_ANM101A2",
+			label = "Function Delay",
 			stringIndex = 4,
-			wCtrl = 60,
-			wDim = 30,
-			xCtrl = 480,
-			xLbl = 290
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type_tail",
-					value = 2
+			values = { {
+					dispName = 0,
+					id = 0,
+					units = "s"
+				}, {
+					dispName = 0.01,
+					id = 0.01,
+					units = "s"
+				}, {
+					dispName = 0.025,
+					id = 0.025,
+					units = "s"
+				}, {
+					dispName = 0.1,
+					id = 0.1,
+					units = "s"
 				} },
-			baseDim = "rev",
-			control = "spinbox",
-			defValue = 160,
-			dimension = "rev",
-			id = "vane_rev_threshold_ctrl_ANM116",
-			label = "Arming Vane Revs. Required",
-			max = 1000000000000,
-			min = 0,
-			readOnly = true,
-			step = 0.01,
-			stringIndex = 4,
 			wCtrl = 60,
-			wDim = 30,
-			xCtrl = 480,
-			xLbl = 290
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type_tail",
-					value = 3
-				} },
-			baseDim = "rev",
-			control = "spinbox",
-			defValue = 6,
-			dimension = "rev",
-			id = "vane_rev_threshold_ctrl_ANM124A1",
-			label = "Arming Vane Revs. Required",
-			max = 1000000000000,
-			min = 0,
-			readOnly = true,
-			step = 0.01,
-			stringIndex = 4,
-			wCtrl = 60,
-			wDim = 30,
-			xCtrl = 480,
-			xLbl = 290
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type_tail",
-					value = 5
-				} },
-			baseDim = "rev",
-			control = "spinbox",
-			defValue = 720,
-			dimension = "rev",
-			id = "vane_rev_threshold_ctrl_M161",
-			label = "Arming Vane Revs. Required",
-			max = 1000000000000,
-			min = 0,
-			readOnly = true,
-			step = 0.01,
-			stringIndex = 4,
-			wCtrl = 60,
-			wDim = 30,
-			xCtrl = 480,
-			xLbl = 290
+			xCtrl = 500,
+			xLbl = 310
 		} }
 }

@@ -34,6 +34,7 @@ _G["rockets"]["#Index"] = {
 	category = 4,
 	ccm_k0 = 1,
 	display_name = "S530F",
+	display_name_short = "530F",
 	exhaust = { 0.7, 0.7, 0.7, 1 },
 	name = "Super_530F",
 	nozzle_exit_area = 0.0227,

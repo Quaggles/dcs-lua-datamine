@@ -17,6 +17,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_250"] = {
 		control = {
 			open_delay = 3.4
 		},
+		display_name_short = "RBK-250",
 		fm = {
 			I = 107.827833,
 			L = 2.3,
@@ -197,6 +198,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_250"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "RBK-250 PTAB-2.5M",
+	display_name_short = "RBK-250",
 	mass = 244.6,
 	model = "RBK_250_PTAB_25M_cassette",
 	name = "RBK_250",
@@ -213,6 +215,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_250"] = {
 		control = {
 			open_delay = 3.4
 		},
+		display_name_short = "RBK-250",
 		fm = {
 			I = 107.827833,
 			L = 2.3,

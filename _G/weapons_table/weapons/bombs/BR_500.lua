@@ -20,6 +20,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BR_500"] = {
 			velK = 0.00834
 		},
 		category = 1,
+		display_name_short = "BR-500",
 		fm = {
 			I = 340.5,
 			L = 3,
@@ -66,7 +67,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BR_500"] = {
 	},
 	cx = { 1, 0.29, 0.71, 0.13, 1.28 },
 	display_name = "BR-500 - 500kg GP Bomb LD",
-	display_name_short = "BR-500 - 500kg GP Bomb LD",
+	display_name_short = "BR-500",
 	mass = 500,
 	model = "BR-500",
 	name = "BR_500",
@@ -85,6 +86,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BR_500"] = {
 			velK = 0.00834
 		},
 		category = 1,
+		display_name_short = "BR-500",
 		fm = {
 			I = 340.5,
 			L = 3,

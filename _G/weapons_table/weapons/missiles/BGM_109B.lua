@@ -78,6 +78,7 @@ _G["weapons_table"]["weapons"]["missiles"]["BGM_109B"] = {
 			no_alg_vel_k = 10,
 			stab_vel = 237.5
 		},
+		display_name_short = "BGM-109",
 		final_autopilot = {
 			J_Angle_K = 0.23,
 			J_Angle_W = 0.4,
@@ -173,6 +174,7 @@ _G["weapons_table"]["weapons"]["missiles"]["BGM_109B"] = {
 		}
 	},
 	display_name = "BGM-109C Tomahawk",
+	display_name_short = "BGM-109",
 	mass = 1440,
 	model = "tomahawk",
 	name = "BGM_109B",
@@ -252,6 +254,7 @@ _G["weapons_table"]["weapons"]["missiles"]["BGM_109B"] = {
 			no_alg_vel_k = 10,
 			stab_vel = 237.5
 		},
+		display_name_short = "BGM-109",
 		final_autopilot = {
 			J_Angle_K = 0.23,
 			J_Angle_W = 0.4,

@@ -28,6 +28,7 @@ _G["weapons_table"]["weapons"]["missiles"]["KONKURS"] = {
 			boost_start = 0,
 			march_start = 0.3
 		},
+		display_name_short = "AT-5",
 		eng_err = {
 			max_time_interval = 0.9,
 			min_time_interval = 0.1,
@@ -95,6 +96,7 @@ _G["weapons_table"]["weapons"]["missiles"]["KONKURS"] = {
 		}
 	},
 	display_name = "AT-5 Spandrel",
+	display_name_short = "AT-5",
 	mass = 14.6,
 	model = "9m113",
 	name = "KONKURS",
@@ -124,6 +126,7 @@ _G["weapons_table"]["weapons"]["missiles"]["KONKURS"] = {
 			boost_start = 0,
 			march_start = 0.3
 		},
+		display_name_short = "AT-5",
 		eng_err = {
 			max_time_interval = 0.9,
 			min_time_interval = 0.1,

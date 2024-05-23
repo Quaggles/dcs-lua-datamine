@@ -357,27 +357,33 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{3468C652-E830-4E73-AFA9-B5F260AB7C3D}",
 					Type = 1,
-					attach_point_position = { 0.4, 0, 0 }
+					arg_value = 1,
+					attach_point_position = { 0, -0.09, 0 }
 				}, {
 					CLSID = "{B4FC81C9-B861-4E87-BBDC-A1158E648EBF}",
 					Type = 1,
-					attach_point_position = { 0.4, 0, 0 }
+					arg_value = 1,
+					attach_point_position = { 0, -0.09, 0 }
 				}, {
 					CLSID = "{4D13E282-DF46-4B23-864A-A9423DFDE504}",
 					Type = 1,
-					attach_point_position = { 0.4, 0, 0 }
+					arg_value = 1,
+					attach_point_position = { 0, -0.09, 0 }
 				}, {
 					CLSID = "{D8F2C90B-887B-4B9E-9FE2-996BC9E9AF03}",
 					Type = 1,
-					attach_point_position = { 0.4, 0, 0 }
+					arg_value = 1,
+					attach_point_position = { 0, -0.09, 0 }
 				}, {
 					CLSID = "{FE382A68-8620-4AC0-BDF5-709BFE3977D7}",
 					Type = 1,
-					attach_point_position = { 0.4, 0, 0 }
+					arg_value = 1,
+					attach_point_position = { 0, -0.09, 0 }
 				}, {
 					CLSID = "{40AB87E8-BEFB-4D85-90D9-B2753ACF9514}",
 					Type = 1,
-					attach_point_position = { 0.4, 0, 0 }
+					arg_value = 1,
+					attach_point_position = { 0, -0.09, 0 }
 				}, {
 					CLSID = "{6DADF342-D4BA-4D8A-B081-BA928C4AF86D}",
 					arg_value = 0,
@@ -732,27 +738,33 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{3468C652-E830-4E73-AFA9-B5F260AB7C3D}",
 					Type = 1,
-					attach_point_position = { 0.4, 0, 0 }
+					arg_value = 1,
+					attach_point_position = { 0, -0.09, 0 }
 				}, {
 					CLSID = "{B4FC81C9-B861-4E87-BBDC-A1158E648EBF}",
 					Type = 1,
-					attach_point_position = { 0.4, 0, 0 }
+					arg_value = 1,
+					attach_point_position = { 0, -0.09, 0 }
 				}, {
 					CLSID = "{4D13E282-DF46-4B23-864A-A9423DFDE504}",
 					Type = 1,
-					attach_point_position = { 0.4, 0, 0 }
+					arg_value = 1,
+					attach_point_position = { 0, -0.09, 0 }
 				}, {
 					CLSID = "{D8F2C90B-887B-4B9E-9FE2-996BC9E9AF03}",
 					Type = 1,
-					attach_point_position = { 0.4, 0, 0 }
+					arg_value = 1,
+					attach_point_position = { 0, -0.09, 0 }
 				}, {
 					CLSID = "{FE382A68-8620-4AC0-BDF5-709BFE3977D7}",
 					Type = 1,
-					attach_point_position = { 0.4, 0, 0 }
+					arg_value = 1,
+					attach_point_position = { 0, -0.09, 0 }
 				}, {
 					CLSID = "{40AB87E8-BEFB-4D85-90D9-B2753ACF9514}",
 					Type = 1,
-					attach_point_position = { 0.4, 0, 0 }
+					arg_value = 1,
+					attach_point_position = { 0, -0.09, 0 }
 				}, {
 					CLSID = "{6DADF342-D4BA-4D8A-B081-BA928C4AF86D}",
 					arg_value = 0,

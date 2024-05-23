@@ -90,7 +90,7 @@ _G["rockets"]["#Index"] = {
 		vv_integ_limits = 100
 	},
 	display_name = "AGM-130C-9",
-	display_name_short = "AGM-130C-9",
+	display_name_short = "AGM-130",
 	engine = {
 		boost_factor = 1,
 		boost_tail = 1,

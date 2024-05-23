@@ -30,10 +30,31 @@ _G["launcher"]["British_GP_250LBS_Bomb_MK4_on_RH_Spitfire_Wing_Carrier"] = {
 					id = 1
 				}, {
 					dispName = "Plugged",
-					id = "EMPTY"
+					id = "EMPTY_NOSE",
+					secondaryParams = {}
 				} },
 			wCtrl = 360,
-			xCtrl = 180
+			xCtrl = 200
+		}, {
+			VisibilityCondition = { {
+					id = "NFP_fuze_type_nose",
+					value = 1
+				} },
+			baseDim = "rev",
+			control = "spinbox",
+			defValue = 6,
+			dimension = "rev",
+			id = "vane_rev_threshold_ctrl_NP19",
+			label = "Arming Vane Revs. Required",
+			max = 1000000000000,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 2,
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 200,
+			xLbl = 10
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",
@@ -68,28 +89,8 @@ _G["launcher"]["British_GP_250LBS_Bomb_MK4_on_RH_Spitfire_Wing_Carrier"] = {
 					units = "s"
 				} },
 			wCtrl = 60,
-			xCtrl = 180,
-			xLbl = 10
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type_nose",
-					value = 1
-				} },
-			baseDim = "rev",
-			control = "spinbox",
-			defValue = 6,
-			dimension = "rev",
-			id = "vane_rev_threshold_ctrl_NP19",
-			label = "Arming Vane Revs. Required",
-			max = 1000000000000,
-			min = 0,
-			readOnly = true,
-			step = 0.01,
-			stringIndex = 2,
-			wCtrl = 60,
-			wDim = 30,
-			xCtrl = 480,
-			xLbl = 290
+			xCtrl = 500,
+			xLbl = 310
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -103,30 +104,11 @@ _G["launcher"]["British_GP_250LBS_Bomb_MK4_on_RH_Spitfire_Wing_Carrier"] = {
 					id = 1
 				}, {
 					dispName = "Plugged",
-					id = "EMPTY"
+					id = "EMPTY_TAIL",
+					secondaryParams = {}
 				} },
 			wCtrl = 360,
-			xCtrl = 180
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type_tail",
-					value = 1
-				} },
-			baseDim = "s",
-			control = "spinbox",
-			defValue = 1800,
-			dimension = "h",
-			id = "function_delay_ctrl_TP17MkI",
-			label = "Function Delay",
-			max = 277777777.77778,
-			min = 0,
-			readOnly = true,
-			step = 2.7777777777778e-06,
-			stringIndex = 4,
-			wCtrl = 60,
-			wDim = 30,
-			xCtrl = 180,
-			xLbl = 10
+			xCtrl = 200
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -145,8 +127,28 @@ _G["launcher"]["British_GP_250LBS_Bomb_MK4_on_RH_Spitfire_Wing_Carrier"] = {
 			stringIndex = 4,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 480,
-			xLbl = 290
+			xCtrl = 200,
+			xLbl = 10
+		}, {
+			VisibilityCondition = { {
+					id = "NFP_fuze_type_tail",
+					value = 1
+				} },
+			baseDim = "s",
+			control = "spinbox",
+			defValue = 1800,
+			dimension = "h",
+			id = "function_delay_ctrl_TP17MkI",
+			label = "Function Delay",
+			max = 277777777.77778,
+			min = 0,
+			readOnly = true,
+			step = 2.7777777777778e-06,
+			stringIndex = 4,
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 500,
+			xLbl = 310
 		} },
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

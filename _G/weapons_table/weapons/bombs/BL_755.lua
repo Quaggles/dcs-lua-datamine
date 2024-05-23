@@ -17,6 +17,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BL_755"] = {
 		control = {
 			open_delay = 4
 		},
+		display_name_short = "BL755",
 		fm = {
 			I = 138.557708,
 			L = 2.45,
@@ -109,6 +110,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BL_755"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "BL755",
+	display_name_short = "BL755",
 	mass = 277,
 	model = "t-bl-755",
 	name = "BL_755",
@@ -125,6 +127,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BL_755"] = {
 		control = {
 			open_delay = 4
 		},
+		display_name_short = "BL755",
 		fm = {
 			I = 138.557708,
 			L = 2.45,

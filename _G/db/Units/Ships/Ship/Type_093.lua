@@ -28,6 +28,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	Height = 10.4,
 	IR_emission_coeff = 0.2,
 	Length = 103,
+	MaxSpeed = 53.64,
 	Name = "Type 093 Attack Submarine",
 	Om = 0.02,
 	RCS = 4000,

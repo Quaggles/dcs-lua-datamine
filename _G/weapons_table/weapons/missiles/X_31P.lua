@@ -43,6 +43,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_31P"] = {
 			boost_start = 0.5,
 			march_start = 3
 		},
+		display_name_short = "Kh-31",
 		fm = {
 			A = 0.36,
 			I = 1104.5,
@@ -134,6 +135,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_31P"] = {
 		}
 	},
 	display_name = "Kh-31P",
+	display_name_short = "Kh-31",
 	mass = 600,
 	model = "X-31",
 	name = "X_31P",
@@ -178,6 +180,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_31P"] = {
 			boost_start = 0.5,
 			march_start = 3
 		},
+		display_name_short = "Kh-31",
 		fm = {
 			A = 0.36,
 			I = 1104.5,

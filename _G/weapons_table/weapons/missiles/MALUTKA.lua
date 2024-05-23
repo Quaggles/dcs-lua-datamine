@@ -28,6 +28,7 @@ _G["weapons_table"]["weapons"]["missiles"]["MALUTKA"] = {
 			boost_start = 0,
 			march_start = 0.1
 		},
+		display_name_short = "AT-3",
 		eng_err = {
 			max_time_interval = 0.36,
 			min_time_interval = 0.1,
@@ -95,6 +96,7 @@ _G["weapons_table"]["weapons"]["missiles"]["MALUTKA"] = {
 		}
 	},
 	display_name = "AT-3 Sagger",
+	display_name_short = "AT-3",
 	mass = 11,
 	model = "malutka",
 	name = "MALUTKA",
@@ -124,6 +126,7 @@ _G["weapons_table"]["weapons"]["missiles"]["MALUTKA"] = {
 			boost_start = 0,
 			march_start = 0.1
 		},
+		display_name_short = "AT-3",
 		eng_err = {
 			max_time_interval = 0.36,
 			min_time_interval = 0.1,

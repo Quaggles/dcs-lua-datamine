@@ -45,6 +45,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_24"] = {
 		},
 		category = 1,
 		class_name = "wAmmunitionLaserHoming",
+		display_name_short = "GBU-24",
 		fm = {
 			A = 0.6,
 			I = 1485.015168,
@@ -111,7 +112,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_24"] = {
 	},
 	cx = { 1.037, 0.91, 0.9, 0.382, 1.34 },
 	display_name = "GBU-24A/B Paveway III",
-	display_name_short = "GBU-24A/B Paveway III",
+	display_name_short = "GBU-24",
 	mass = 1087,
 	model = "GBU-24",
 	name = "GBU_24",
@@ -155,6 +156,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_24"] = {
 		},
 		category = 1,
 		class_name = "wAmmunitionLaserHoming",
+		display_name_short = "GBU-24",
 		fm = {
 			A = 0.6,
 			I = 1485.015168,

@@ -34,6 +34,7 @@ _G["weapons_table"]["weapons"]["missiles"]["ALARM"] = {
 			boost_start = 0,
 			march_start = 1
 		},
+		display_name_short = "ALARM",
 		fm = {
 			A = 0.36,
 			I = 408.32083333333,
@@ -127,6 +128,7 @@ _G["weapons_table"]["weapons"]["missiles"]["ALARM"] = {
 		}
 	},
 	display_name = "ALARM",
+	display_name_short = "ALARM",
 	mass = 265,
 	model = "t-alarm",
 	name = "ALARM",
@@ -162,6 +164,7 @@ _G["weapons_table"]["weapons"]["missiles"]["ALARM"] = {
 			boost_start = 0,
 			march_start = 1
 		},
+		display_name_short = "ALARM",
 		fm = {
 			A = 0.36,
 			I = 408.32083333333,

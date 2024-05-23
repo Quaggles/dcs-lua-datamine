@@ -14,6 +14,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_81"] = {
 			enabled = false,
 			velK = 1
 		},
+		display_name_short = "Mk-81",
 		fm = {
 			I = 33.282267,
 			L = 1.88,
@@ -28,7 +29,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_81"] = {
 			wind_time = 1000
 		},
 		fuze = {
-			default_arm_delays = { 2 },
+			default_arm_delays = { 4 },
 			tdd_position = { 0.83, 0, 0 },
 			tdd_sigma = 0.9144,
 			tdd_vdiff_max = 426.72,
@@ -52,6 +53,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_81"] = {
 	},
 	cx = { 1, 0.32, 0.71, 0.15, 1.28 },
 	display_name = "Mk-81",
+	display_name_short = "Mk-81",
 	mass = 113.4,
 	model = "mk-81",
 	name = "Mk_81",
@@ -65,6 +67,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_81"] = {
 			enabled = false,
 			velK = 1
 		},
+		display_name_short = "Mk-81",
 		fm = {
 			I = 33.282267,
 			L = 1.88,
@@ -79,7 +82,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_81"] = {
 			wind_time = 1000
 		},
 		fuze = {
-			default_arm_delays = { 2 },
+			default_arm_delays = { 4 },
 			tdd_position = { 0.83, 0, 0 },
 			tdd_sigma = 0.9144,
 			tdd_vdiff_max = 426.72,

@@ -26,6 +26,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Durandal"] = {
 			delay_par = 1.1
 		},
 		displayName = "BLU-107/B Durandal - 219kg Concrete Piercing Chute Retarded Bomb w/Booster",
+		display_name_short = "BLU-107",
 		engine = {
 			boost_factor = 1,
 			boost_tail = 1,
@@ -94,7 +95,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Durandal"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "BLU-107/B Durandal",
-	display_name_short = "BLU-107/B Durandal",
+	display_name_short = "BLU-107",
 	mass = 219,
 	model = "Durandal",
 	name = "Durandal",
@@ -119,6 +120,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Durandal"] = {
 			delay_par = 1.1
 		},
 		displayName = "BLU-107/B Durandal - 219kg Concrete Piercing Chute Retarded Bomb w/Booster",
+		display_name_short = "BLU-107",
 		engine = {
 			boost_factor = 1,
 			boost_tail = 1,

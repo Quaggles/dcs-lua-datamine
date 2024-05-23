@@ -24,6 +24,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_84AIR_GP"] = {
 			open_delay = 0.2
 		},
 		displayName = "Mk-84 AIR (BSU-50) - 2000 lb GP Chute Retarded Bomb HD",
+		display_name_short = "Mk-84",
 		fm = {
 			I = 918.501965775,
 			L = 3.477,
@@ -39,8 +40,11 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_84AIR_GP"] = {
 			wind_time = 1000
 		},
 		fuze = {
-			default_arm_delays = { 2 },
-			is_vane_anim_required = true
+			default_arm_delays = { 4 },
+			tdd_position = { 1.6, 0, 0 },
+			tdd_sigma = 0.9144,
+			tdd_vdiff_max = 426.72,
+			tdd_vdiff_min = 22.86
 		},
 		hMax = 2000,
 		hMin = 25,
@@ -78,7 +82,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_84AIR_GP"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "Mk-84 AIR GP HD",
-	display_name_short = "Mk-84 AIR GP HD",
+	display_name_short = "Mk-84",
 	mass = 911.7,
 	model = "mk-84air",
 	name = "Mk_84AIR_GP",
@@ -101,6 +105,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_84AIR_GP"] = {
 			open_delay = 0.2
 		},
 		displayName = "Mk-84 AIR (BSU-50) - 2000 lb GP Chute Retarded Bomb HD",
+		display_name_short = "Mk-84",
 		fm = {
 			I = 918.501965775,
 			L = 3.477,
@@ -116,8 +121,11 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_84AIR_GP"] = {
 			wind_time = 1000
 		},
 		fuze = {
-			default_arm_delays = { 2 },
-			is_vane_anim_required = true
+			default_arm_delays = { 4 },
+			tdd_position = { 1.6, 0, 0 },
+			tdd_sigma = 0.9144,
+			tdd_vdiff_max = 426.72,
+			tdd_vdiff_min = 22.86
 		},
 		hMax = 2000,
 		hMin = 25,

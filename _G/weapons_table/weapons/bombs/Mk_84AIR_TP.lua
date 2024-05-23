@@ -24,6 +24,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_84AIR_TP"] = {
 			open_delay = 0.2
 		},
 		displayName = "Mk-84 AIR (BSU-50) - 2000 lb TP Chute Retarded Bomb HD",
+		display_name_short = "Mk-84",
 		fm = {
 			I = 918.501965775,
 			L = 3.477,
@@ -78,7 +79,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_84AIR_TP"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "Mk-84 AIR TP HD",
-	display_name_short = "Mk-84 AIR TP HD",
+	display_name_short = "Mk-84",
 	mass = 911.7,
 	model = "mk-84air_inert",
 	name = "Mk_84AIR_TP",
@@ -101,6 +102,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_84AIR_TP"] = {
 			open_delay = 0.2
 		},
 		displayName = "Mk-84 AIR (BSU-50) - 2000 lb TP Chute Retarded Bomb HD",
+		display_name_short = "Mk-84",
 		fm = {
 			I = 918.501965775,
 			L = 3.477,

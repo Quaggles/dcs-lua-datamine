@@ -36,27 +36,7 @@ _G["launcher"]["{British_GP_250LB_Bomb_Mk5_on_Handley_Page_Type_B_Cut_Bar}"] = {
 					id = 1
 				} },
 			wCtrl = 360,
-			xCtrl = 180
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type_tail",
-					value = 1
-				} },
-			baseDim = "s",
-			control = "spinbox",
-			defValue = 1800,
-			dimension = "h",
-			id = "function_delay_ctrl_TP17MkI",
-			label = "Function Delay",
-			max = 277777777.77778,
-			min = 0,
-			readOnly = true,
-			step = 2.7777777777778e-06,
-			stringIndex = 2,
-			wCtrl = 60,
-			wDim = 30,
-			xCtrl = 180,
-			xLbl = 10
+			xCtrl = 200
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -75,8 +55,28 @@ _G["launcher"]["{British_GP_250LB_Bomb_Mk5_on_Handley_Page_Type_B_Cut_Bar}"] = {
 			stringIndex = 2,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 480,
-			xLbl = 290
+			xCtrl = 200,
+			xLbl = 10
+		}, {
+			VisibilityCondition = { {
+					id = "NFP_fuze_type_tail",
+					value = 1
+				} },
+			baseDim = "s",
+			control = "spinbox",
+			defValue = 1800,
+			dimension = "h",
+			id = "function_delay_ctrl_TP17MkI",
+			label = "Function Delay",
+			max = 277777777.77778,
+			min = 0,
+			readOnly = true,
+			step = 2.7777777777778e-06,
+			stringIndex = 2,
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 500,
+			xLbl = 310
 		} },
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

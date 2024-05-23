@@ -17,5 +17,16 @@ _G["launcher"]["{TER_9A_2L*BDU-50LGB}"] = {
 	category = 1,
 	displayName = "TER-9A with 2 x BDU-50LGB - 500lb Laser Guided Inert Practice Bomb LD",
 	name = "{TER_9A_2L*BDU-50LGB}",
+	settings = { {
+			control = "laserCode",
+			defValue = 1688,
+			id = "laser_code",
+			label = "Laser Seeker Code",
+			maxV = "1788",
+			minV = "1511",
+			stringIndex = 1,
+			tooltip = "Lower Limit: 1511\nUpper Limit: 1788",
+			xCtrl = 200
+		} },
 	wsTypeOfWeapon = { 4, 5, 36, "Redacted" }
 }

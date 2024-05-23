@@ -26,6 +26,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_250_200"] = {
 			open_delay = 4,
 			open_interval = 1
 		},
+		display_name_short = "illum.",
 		fm = {
 			I = 36.6892,
 			L = 1.48,
@@ -72,6 +73,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_250_200"] = {
 					},
 					category = 1,
 					class_name = "wAmmunition_viHeavyObject",
+					display_name_short = "illum.",
 					fm = {
 						I = 0.79316304,
 						L = 0.984,
@@ -126,7 +128,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_250_200"] = {
 				},
 				cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 				display_name = "SAB-250 Flare",
-				display_name_short = "SAB-250 Flare",
+				display_name_short = "illum.",
 				mass = 9.83,
 				model = "luu-2",
 				name = "SAB_250_FLARE",
@@ -153,6 +155,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_250_200"] = {
 					},
 					category = 1,
 					class_name = "wAmmunition_viHeavyObject",
+					display_name_short = "illum.",
 					fm = {
 						I = 0.79316304,
 						L = 0.984,
@@ -233,7 +236,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_250_200"] = {
 	},
 	cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 	display_name = "SAB-250-200",
-	display_name_short = "SAB-250-200",
+	display_name_short = "illum.",
 	mass = 201,
 	model = "sab-100",
 	name = "SAB_250_200",
@@ -257,6 +260,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_250_200"] = {
 			open_delay = 4,
 			open_interval = 1
 		},
+		display_name_short = "illum.",
 		fm = {
 			I = 36.6892,
 			L = 1.48,
@@ -303,6 +307,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_250_200"] = {
 					},
 					category = 1,
 					class_name = "wAmmunition_viHeavyObject",
+					display_name_short = "illum.",
 					fm = {
 						I = 0.79316304,
 						L = 0.984,
@@ -357,7 +362,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_250_200"] = {
 				},
 				cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 				display_name = "SAB-250 Flare",
-				display_name_short = "SAB-250 Flare",
+				display_name_short = "illum.",
 				mass = 9.83,
 				model = "luu-2",
 				name = "SAB_250_FLARE",
@@ -384,6 +389,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_250_200"] = {
 					},
 					category = 1,
 					class_name = "wAmmunition_viHeavyObject",
+					display_name_short = "illum.",
 					fm = {
 						I = 0.79316304,
 						L = 0.984,

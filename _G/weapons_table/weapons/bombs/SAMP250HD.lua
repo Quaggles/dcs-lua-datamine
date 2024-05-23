@@ -23,6 +23,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP250HD"] = {
 			open_delay = 0.3
 		},
 		displayName = "SAMP-250 - 250 kg GP Chute Retarded Bomb HD",
+		display_name_short = "SAMP-250",
 		fm = {
 			I = 100.84453575,
 			L = 2.121,
@@ -76,7 +77,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP250HD"] = {
 	},
 	cx = { 1, 0.29, 0.71, 0.14, 1.28 },
 	display_name = "SAMP-250 HD",
-	display_name_short = "SAMP-250 HD",
+	display_name_short = "SAMP-250",
 	mass = 269,
 	model = "SAMP_250R",
 	name = "SAMP250HD",
@@ -98,6 +99,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP250HD"] = {
 			open_delay = 0.3
 		},
 		displayName = "SAMP-250 - 250 kg GP Chute Retarded Bomb HD",
+		display_name_short = "SAMP-250",
 		fm = {
 			I = 100.84453575,
 			L = 2.121,

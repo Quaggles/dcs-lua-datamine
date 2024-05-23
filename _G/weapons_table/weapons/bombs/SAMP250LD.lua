@@ -20,6 +20,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP250LD"] = {
 		},
 		category = 1,
 		displayName = "SAMP-250 - 250 kg GP Bomb LD",
+		display_name_short = "SAMP-250",
 		fm = {
 			I = 91.84725375,
 			L = 2.121,
@@ -70,7 +71,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP250LD"] = {
 	},
 	cx = { 1, 0.29, 0.71, 0.14, 1.28 },
 	display_name = "SAMP-250 LD",
-	display_name_short = "SAMP-250 LD",
+	display_name_short = "SAMP-250",
 	mass = 245,
 	model = "SAMP_250FB",
 	name = "SAMP250LD",
@@ -89,6 +90,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP250LD"] = {
 		},
 		category = 1,
 		displayName = "SAMP-250 - 250 kg GP Bomb LD",
+		display_name_short = "SAMP-250",
 		fm = {
 			I = 91.84725375,
 			L = 2.121,

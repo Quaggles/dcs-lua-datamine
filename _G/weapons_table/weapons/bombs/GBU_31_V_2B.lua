@@ -45,6 +45,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_31_V_2B"] = {
 		},
 		category = 1,
 		class_name = "wAmmunitionChangeableTrajectory",
+		display_name_short = "GBU-31",
 		fm = {
 			A = 0.6,
 			I = 515.2,
@@ -68,6 +69,13 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_31_V_2B"] = {
 			release_rnd_x = 1,
 			wind_sigma = 0,
 			wind_time = 0
+		},
+		fuze = {
+			default_arm_delays = { 4 },
+			tdd_position = { 1.86, 0, 0 },
+			tdd_sigma = 0.9144,
+			tdd_vdiff_max = 426.72,
+			tdd_vdiff_min = 22.86
 		},
 		hMax = 15000,
 		hMin = 400,
@@ -111,7 +119,12 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_31_V_2B"] = {
 	},
 	cx = { 1, 0.45, 0.8, 0.15, 1.55 },
 	display_name = "GBU-31(V)2/B",
-	display_name_short = "GBU-31(V)2/B",
+	display_name_short = "GBU-31",
+	encyclopediaAnimation = {
+		args = {
+			[57] = 1
+		}
+	},
 	mass = 934,
 	model = "GBU-31",
 	name = "GBU_31_V_2B",
@@ -155,6 +168,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_31_V_2B"] = {
 		},
 		category = 1,
 		class_name = "wAmmunitionChangeableTrajectory",
+		display_name_short = "GBU-31",
 		fm = {
 			A = 0.6,
 			I = 515.2,
@@ -178,6 +192,13 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_31_V_2B"] = {
 			release_rnd_x = 1,
 			wind_sigma = 0,
 			wind_time = 0
+		},
+		fuze = {
+			default_arm_delays = { 4 },
+			tdd_position = { 1.86, 0, 0 },
+			tdd_sigma = 0.9144,
+			tdd_vdiff_max = 426.72,
+			tdd_vdiff_min = 22.86
 		},
 		hMax = 15000,
 		hMin = 400,

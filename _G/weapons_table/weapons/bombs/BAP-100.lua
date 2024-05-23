@@ -25,6 +25,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BAP-100"] = {
 			delay_par = 0.5
 		},
 		displayName = "BAP-100 - 32kg Concrete Piercing Chute Retarded Bomb w/Booster",
+		display_name_short = "BAP-100",
 		engine = {
 			boost_factor = 1,
 			boost_tail = 1,
@@ -116,6 +117,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BAP-100"] = {
 			delay_par = 0.5
 		},
 		displayName = "BAP-100 - 32kg Concrete Piercing Chute Retarded Bomb w/Booster",
+		display_name_short = "BAP-100",
 		engine = {
 			boost_factor = 1,
 			boost_tail = 1,

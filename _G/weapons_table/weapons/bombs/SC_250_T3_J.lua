@@ -22,6 +22,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SC_250_T3_J"] = {
 			velK = 1
 		},
 		category = 1,
+		display_name_short = "SC250",
 		fm = {
 			I = 43.077867,
 			L = 1.64,
@@ -78,7 +79,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SC_250_T3_J"] = {
 	},
 	cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 	display_name = "SC 250 Type 3 J",
-	display_name_short = "SC 250 Type 3 J",
+	display_name_short = "SC250",
 	mass = 250,
 	model = "SC-250",
 	name = "SC_250_T3_J",
@@ -98,6 +99,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SC_250_T3_J"] = {
 			velK = 1
 		},
 		category = 1,
+		display_name_short = "SC250",
 		fm = {
 			I = 43.077867,
 			L = 1.64,

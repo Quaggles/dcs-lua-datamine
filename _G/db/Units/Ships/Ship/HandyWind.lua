@@ -88,6 +88,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	IR_emission_coeff = 0.35,
 	Landing_Point = { 9.2, 6.64, 0 },
 	Length = 180,
+	MaxSpeed = 25.927992,
 	Name = "Bulker Handy Wind",
 	Om = 0.02,
 	RCS = 100000,

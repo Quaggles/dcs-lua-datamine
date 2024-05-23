@@ -101,7 +101,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_84H"] = {
 			no_alg_vel_k = 10,
 			stab_vel = 237.5
 		},
-		display_name_short = "AGM-84H",
+		display_name_short = "AGM-84",
 		final_autopilot = {
 			J_Angle_K = 0.22,
 			J_Angle_W = 0.6,
@@ -225,7 +225,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_84H"] = {
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	display_name = "AGM-84H",
-	display_name_short = "AGM-84H",
+	display_name_short = "AGM-84",
 	encyclopediaAnimation = {
 		args = {
 			[25] = 1
@@ -330,7 +330,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_84H"] = {
 			no_alg_vel_k = 10,
 			stab_vel = 237.5
 		},
-		display_name_short = "AGM-84H",
+		display_name_short = "AGM-84",
 		final_autopilot = {
 			J_Angle_K = 0.22,
 			J_Angle_W = 0.6,

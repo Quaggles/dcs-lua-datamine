@@ -26,6 +26,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Type_200A"] = {
 			delay_eng = 10.8,
 			delay_par = 1
 		},
+		display_name_short = "T200",
 		engine = {
 			boost_factor = 1,
 			boost_tail = 1,
@@ -95,7 +96,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Type_200A"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "TYPE-200A",
-	display_name_short = "TYPE-200A",
+	display_name_short = "T200",
 	mass = 200,
 	model = "type-200a",
 	name = "Type_200A",
@@ -119,6 +120,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Type_200A"] = {
 			delay_eng = 10.8,
 			delay_par = 1
 		},
+		display_name_short = "T200",
 		engine = {
 			boost_factor = 1,
 			boost_tail = 1,

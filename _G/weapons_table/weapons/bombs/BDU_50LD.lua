@@ -12,6 +12,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_50LD"] = {
 			enabled = false,
 			velK = 1
 		},
+		display_name_short = "BDU-500",
 		fm = {
 			I = 94.425933,
 			L = 2.21,
@@ -43,6 +44,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_50LD"] = {
 	},
 	cx = { 1, 0.29, 0.71, 0.14, 1.28 },
 	display_name = "BDU-50LD",
+	display_name_short = "BDU-500",
 	mass = 232,
 	model = "BDU-50LD",
 	name = "BDU_50LD",
@@ -55,6 +57,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_50LD"] = {
 			enabled = false,
 			velK = 1
 		},
+		display_name_short = "BDU-500",
 		fm = {
 			I = 94.425933,
 			L = 2.21,

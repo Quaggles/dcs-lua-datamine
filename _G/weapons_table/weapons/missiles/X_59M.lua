@@ -99,7 +99,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_59M"] = {
 			boost_start = 0.5,
 			march_start = 1.5
 		},
-		display_name_short = "Kh-59M (AS-18 Kazoo)",
+		display_name_short = "Kh-59",
 		engine_control = {
 			K = 240,
 			Kd = 1,
@@ -256,7 +256,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_59M"] = {
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	display_name = "Kh-59M (AS-18 Kazoo)",
-	display_name_short = "Kh-59M (AS-18 Kazoo)",
+	display_name_short = "Kh-59",
 	mass = 930,
 	model = "X-59M",
 	name = "X_59M",
@@ -354,7 +354,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_59M"] = {
 			boost_start = 0.5,
 			march_start = 1.5
 		},
-		display_name_short = "Kh-59M (AS-18 Kazoo)",
+		display_name_short = "Kh-59",
 		engine_control = {
 			K = 240,
 			Kd = 1,

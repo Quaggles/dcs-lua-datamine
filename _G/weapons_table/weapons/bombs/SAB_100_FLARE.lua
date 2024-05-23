@@ -29,6 +29,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100_FLARE"] = {
 		},
 		category = 1,
 		class_name = "wAmmunition_viHeavyObject",
+		display_name_short = "illum.",
 		fm = {
 			I = 0.16959635416667,
 			L = 0.625,
@@ -83,7 +84,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100_FLARE"] = {
 	},
 	cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 	display_name = "SAB-100 Flare",
-	display_name_short = "SAB-100 Flare",
+	display_name_short = "illum.",
 	mass = 5.21,
 	model = "luu-2",
 	name = "SAB_100_FLARE",
@@ -110,6 +111,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100_FLARE"] = {
 		},
 		category = 1,
 		class_name = "wAmmunition_viHeavyObject",
+		display_name_short = "illum.",
 		fm = {
 			I = 0.16959635416667,
 			L = 0.625,

@@ -21,6 +21,7 @@ _G["weapons_table"]["weapons"]["bombs"]["MK76"] = {
 		},
 		category = 1,
 		displayName = "Mk 76 - 25lb Practice Bomb LD",
+		display_name_short = "Mk76",
 		fm = {
 			I = 94.425933,
 			L = 0.575,
@@ -72,7 +73,7 @@ _G["weapons_table"]["weapons"]["bombs"]["MK76"] = {
 	},
 	cx = { 1, 0.82, 0.65, 0.142, 2.11 },
 	display_name = "Mk 76",
-	display_name_short = "Mk 76",
+	display_name_short = "Mk76",
 	mass = 11.3,
 	model = "MK76",
 	name = "MK76",
@@ -92,6 +93,7 @@ _G["weapons_table"]["weapons"]["bombs"]["MK76"] = {
 		},
 		category = 1,
 		displayName = "Mk 76 - 25lb Practice Bomb LD",
+		display_name_short = "Mk76",
 		fm = {
 			I = 94.425933,
 			L = 0.575,

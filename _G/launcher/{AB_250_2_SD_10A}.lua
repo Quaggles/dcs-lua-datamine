@@ -38,27 +38,7 @@ _G["launcher"]["{AB_250_2_SD_10A}"] = {
 					id = 5
 				} },
 			wCtrl = 360,
-			xCtrl = 180
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type",
-					value = 5
-				} },
-			baseDim = "s",
-			control = "spinbox",
-			defValue = 4,
-			dimension = "s",
-			id = "function_delay_ctrl_Z89B",
-			label = "Function Delay",
-			max = 60,
-			min = 3,
-			readOnly = false,
-			step = 0.1,
-			stringIndex = 2,
-			wCtrl = 60,
-			wDim = 30,
-			xCtrl = 180,
-			xLbl = 10
+			xCtrl = 200
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type",
@@ -77,7 +57,7 @@ _G["launcher"]["{AB_250_2_SD_10A}"] = {
 			stringIndex = 2,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 180,
+			xCtrl = 200,
 			xLbl = 10
 		}, {
 			VisibilityCondition = { {
@@ -97,7 +77,7 @@ _G["launcher"]["{AB_250_2_SD_10A}"] = {
 			stringIndex = 2,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 180,
+			xCtrl = 200,
 			xLbl = 10
 		}, {
 			VisibilityCondition = { {
@@ -117,7 +97,27 @@ _G["launcher"]["{AB_250_2_SD_10A}"] = {
 			stringIndex = 2,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 180,
+			xCtrl = 200,
+			xLbl = 10
+		}, {
+			VisibilityCondition = { {
+					id = "NFP_fuze_type",
+					value = 5
+				} },
+			baseDim = "s",
+			control = "spinbox",
+			defValue = 0,
+			dimension = "s",
+			id = "arm_delay_ctrl_Z89B",
+			label = "Arm Delay",
+			max = 1000000000000,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 2,
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 200,
 			xLbl = 10
 		}, {
 			VisibilityCondition = { {
@@ -137,68 +137,8 @@ _G["launcher"]["{AB_250_2_SD_10A}"] = {
 			stringIndex = 2,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 180,
+			xCtrl = 200,
 			xLbl = 10
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type",
-					value = 1
-				} },
-			baseDim = "s",
-			control = "spinbox",
-			defValue = 1.2,
-			dimension = "s",
-			id = "function_delay_ctrl_mV_Z69D",
-			label = "mV Mode Function Delay",
-			max = 1000000000000,
-			min = 0,
-			readOnly = true,
-			step = 0.01,
-			stringIndex = 2,
-			wCtrl = 60,
-			wDim = 30,
-			xCtrl = 480,
-			xLbl = 280
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type",
-					value = 3
-				} },
-			baseDim = "s",
-			control = "spinbox",
-			defValue = 30,
-			dimension = "s",
-			id = "function_delay_ctrl_mV_Z79",
-			label = "mV Mode Function Delay",
-			max = 1000000000000,
-			min = 0,
-			readOnly = true,
-			step = 0.01,
-			stringIndex = 2,
-			wCtrl = 60,
-			wDim = 30,
-			xCtrl = 480,
-			xLbl = 280
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type",
-					value = 4
-				} },
-			baseDim = "s",
-			control = "spinbox",
-			defValue = 10,
-			dimension = "s",
-			id = "function_delay_ctrl_mV_Z79A",
-			label = "mV Mode Function Delay",
-			max = 1000000000000,
-			min = 0,
-			readOnly = true,
-			step = 0.01,
-			stringIndex = 2,
-			wCtrl = 60,
-			wDim = 30,
-			xCtrl = 480,
-			xLbl = 280
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type",
@@ -217,8 +157,8 @@ _G["launcher"]["{AB_250_2_SD_10A}"] = {
 			stringIndex = 2,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 480,
-			xLbl = 280
+			xCtrl = 500,
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type",
@@ -226,10 +166,31 @@ _G["launcher"]["{AB_250_2_SD_10A}"] = {
 				} },
 			baseDim = "s",
 			control = "spinbox",
-			defValue = 0,
+			defValue = 4,
 			dimension = "s",
-			id = "arm_delay_ctrl_Z89B",
-			label = "Arm Delay",
+			id = "function_delay_ctrl_Z89B",
+			label = "Function Delay",
+			max = 60,
+			min = 3,
+			readOnly = false,
+			step = 0.1,
+			stringIndex = 2,
+			tooltip = "Lower Limit: 3 s\nUpper Limit: 60 s\nIncrement: 0.1 s",
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 500,
+			xLbl = 310
+		}, {
+			VisibilityCondition = { {
+					id = "NFP_fuze_type",
+					value = 1
+				} },
+			baseDim = "s",
+			control = "spinbox",
+			defValue = 1.2,
+			dimension = "s",
+			id = "function_delay_ctrl_mV_Z69D",
+			label = "mV Mode Function Delay",
 			max = 1000000000000,
 			min = 0,
 			readOnly = true,
@@ -237,8 +198,48 @@ _G["launcher"]["{AB_250_2_SD_10A}"] = {
 			stringIndex = 2,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 480,
-			xLbl = 290
+			xCtrl = 500,
+			xLbl = 300
+		}, {
+			VisibilityCondition = { {
+					id = "NFP_fuze_type",
+					value = 4
+				} },
+			baseDim = "s",
+			control = "spinbox",
+			defValue = 10,
+			dimension = "s",
+			id = "function_delay_ctrl_mV_Z79A",
+			label = "mV Mode Function Delay",
+			max = 1000000000000,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 2,
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 500,
+			xLbl = 300
+		}, {
+			VisibilityCondition = { {
+					id = "NFP_fuze_type",
+					value = 3
+				} },
+			baseDim = "s",
+			control = "spinbox",
+			defValue = 30,
+			dimension = "s",
+			id = "function_delay_ctrl_mV_Z79",
+			label = "mV Mode Function Delay",
+			max = 1000000000000,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 2,
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 500,
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type",
@@ -257,7 +258,7 @@ _G["launcher"]["{AB_250_2_SD_10A}"] = {
 			stringIndex = 3,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 180,
+			xCtrl = 200,
 			xLbl = 10
 		}, {
 			VisibilityCondition = { {
@@ -277,7 +278,7 @@ _G["launcher"]["{AB_250_2_SD_10A}"] = {
 			stringIndex = 3,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 180,
+			xCtrl = 200,
 			xLbl = 10
 		}, {
 			VisibilityCondition = { {
@@ -297,7 +298,7 @@ _G["launcher"]["{AB_250_2_SD_10A}"] = {
 			stringIndex = 3,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 180,
+			xCtrl = 200,
 			xLbl = 10
 		}, {
 			VisibilityCondition = { {
@@ -317,7 +318,7 @@ _G["launcher"]["{AB_250_2_SD_10A}"] = {
 			stringIndex = 3,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 180,
+			xCtrl = 200,
 			xLbl = 10
 		}, {
 			VisibilityCondition = { {
@@ -337,8 +338,8 @@ _G["launcher"]["{AB_250_2_SD_10A}"] = {
 			stringIndex = 3,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 480,
-			xLbl = 280
+			xCtrl = 500,
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type",
@@ -357,8 +358,8 @@ _G["launcher"]["{AB_250_2_SD_10A}"] = {
 			stringIndex = 3,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 480,
-			xLbl = 280
+			xCtrl = 500,
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type",
@@ -377,8 +378,8 @@ _G["launcher"]["{AB_250_2_SD_10A}"] = {
 			stringIndex = 3,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 480,
-			xLbl = 280
+			xCtrl = 500,
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type",
@@ -397,7 +398,7 @@ _G["launcher"]["{AB_250_2_SD_10A}"] = {
 			stringIndex = 3,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 480,
-			xLbl = 280
+			xCtrl = 500,
+			xLbl = 300
 		} }
 }

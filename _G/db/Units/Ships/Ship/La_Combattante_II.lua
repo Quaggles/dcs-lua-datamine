@@ -100,6 +100,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	Height = 13,
 	IR_emission_coeff = 0.35,
 	Length = 47,
+	MaxSpeed = 66.996,
 	Name = "FAC La Combattante IIa",
 	Om = 0.03,
 	RCS = 18000,

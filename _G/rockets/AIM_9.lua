@@ -2,7 +2,7 @@ _G["rockets"]["#Index"] = {
 	Cx_pil = 1.03,
 	D_max = 7000,
 	D_min = 300,
-	Damage = 25,
+	Damage = 23.6,
 	Diam = 127,
 	Escort = 0,
 	Fi_excort = 0.79,
@@ -48,7 +48,6 @@ _G["rockets"]["#Index"] = {
 			username = "AIM-9M"
 		} },
 	sigma = { 3, 3, 3 },
-	smoke_opacity_type = 1,
 	supersonic_A_coef_skew = 0.25,
 	t_acc = 5,
 	t_b = 0,

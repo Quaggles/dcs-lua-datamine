@@ -80,6 +80,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	Height = 23,
 	IR_emission_coeff = 0.4,
 	Length = 150,
+	MaxSpeed = 33.12,
 	Name = "LS Samuel Chase",
 	Om = 0.05,
 	RCS = 60000,

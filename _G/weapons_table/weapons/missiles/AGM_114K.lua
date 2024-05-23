@@ -79,7 +79,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_114K"] = {
 			march_start = 0
 		},
 		display_name = "AGM-114K Hellfire",
-		display_name_short = "AGM-114K",
+		display_name_short = "AGM-114",
 		exhaust = { 0.9, 0.9, 0.85, 0.1 },
 		fm = {
 			A1trim = { 14.1, 14.1, 14.1, 14.1, 14.1, 15.1, 12.6, 10.8, 9.8, 9.1, 8.6, 8.3 },
@@ -187,7 +187,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_114K"] = {
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	display_name = "AGM-114K",
-	display_name_short = "AGM-114K",
+	display_name_short = "AGM-114",
 	mass = 45.3,
 	model = "agm-114K",
 	name = "AGM_114K",
@@ -266,7 +266,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_114K"] = {
 			march_start = 0
 		},
 		display_name = "AGM-114K Hellfire",
-		display_name_short = "AGM-114K",
+		display_name_short = "AGM-114",
 		exhaust = { 0.9, 0.9, 0.85, 0.1 },
 		fm = {
 			A1trim = { 14.1, 14.1, 14.1, 14.1, 14.1, 15.1, 12.6, 10.8, 9.8, 9.1, 8.6, 8.3 },

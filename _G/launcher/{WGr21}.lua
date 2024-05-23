@@ -31,47 +31,7 @@ _G["launcher"]["{WGr21}"] = {
 					id = 2
 				} },
 			wCtrl = 360,
-			xCtrl = 180
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type",
-					value = 1
-				} },
-			baseDim = "s",
-			control = "spinbox",
-			defValue = 5.5,
-			dimension = "s",
-			id = "self_destruct_delay_ctrl_ZTZS30",
-			label = "Airburst Delay",
-			max = 1000000000000,
-			min = 0,
-			readOnly = true,
-			step = 0.01,
-			stringIndex = 2,
-			wCtrl = 60,
-			wDim = 30,
-			xCtrl = 180,
-			xLbl = 10
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type",
-					value = 2
-				} },
-			baseDim = "s",
-			control = "spinbox",
-			defValue = 0,
-			dimension = "s",
-			id = "function_delay_ctrl_HBGRZ35D",
-			label = "Function Delay",
-			max = 1000000000000,
-			min = 0,
-			readOnly = true,
-			step = 0.01,
-			stringIndex = 2,
-			wCtrl = 60,
-			wDim = 30,
-			xCtrl = 180,
-			xLbl = 10
+			xCtrl = 200
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type",
@@ -90,8 +50,8 @@ _G["launcher"]["{WGr21}"] = {
 			stringIndex = 2,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 480,
-			xLbl = 290
+			xCtrl = 200,
+			xLbl = 10
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type",
@@ -110,8 +70,48 @@ _G["launcher"]["{WGr21}"] = {
 			stringIndex = 2,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 480,
-			xLbl = 290
+			xCtrl = 200,
+			xLbl = 10
+		}, {
+			VisibilityCondition = { {
+					id = "NFP_fuze_type",
+					value = 1
+				} },
+			baseDim = "s",
+			control = "spinbox",
+			defValue = 5.5,
+			dimension = "s",
+			id = "self_destruct_delay_ctrl_ZTZS30",
+			label = "Airburst Delay",
+			max = 1000000000000,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 2,
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 500,
+			xLbl = 310
+		}, {
+			VisibilityCondition = { {
+					id = "NFP_fuze_type",
+					value = 2
+				} },
+			baseDim = "s",
+			control = "spinbox",
+			defValue = 0,
+			dimension = "s",
+			id = "function_delay_ctrl_HBGRZ35D",
+			label = "Function Delay",
+			max = 1000000000000,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 2,
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 500,
+			xLbl = 310
 		} },
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

@@ -840,6 +840,16 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	range = 735,
 	rotor_MOI = 4100,
 	rotor_RPM = 387,
+	rotor_animation = {
+		rotor_locations = { {} },
+		rotor_models = { {
+				boundBlade_FBX = "/models/sa342_blade.fbx",
+				boundRotorHub_FBX = "/models/sa342_rotor_hub_bound.fbx",
+				modelBlade_FBX = { "/models/sa342_blade.fbx", "/models/sa342_blade_d1.fbx", "/models/sa342_blade_d2.fbx", "/models/sa342_blade_d3.fbx" },
+				modelRotorHubLod_FBX = "/models/sa342_rotor_hub_lod.fbx",
+				modelRotorHub_EDM = "sa342_rotorhead"
+			} }
+	},
 	rotor_diameter = 10.5,
 	rotor_height = 2.7,
 	rotor_pos = { 0, 1.4, 0 },

@@ -728,6 +728,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{AIM-9B}",
 					Cx_gain = 0.302
 				}, {
+					CLSID = "{AIM-9J}",
+					Cx_gain = 0.302
+				}, {
 					CLSID = "{AIM-9P5}",
 					Cx_gain = 0.302
 				}, {

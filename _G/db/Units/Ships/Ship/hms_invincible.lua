@@ -168,6 +168,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	Helicopter_Num_ = 6,
 	Landing_Point = { -97, 14.709, -9.952 },
 	Length = 236,
+	MaxSpeed = 51.84,
 	Name = "HMS Invincible (R05)",
 	Om = 0.05,
 	Plane_Num_ = 7,

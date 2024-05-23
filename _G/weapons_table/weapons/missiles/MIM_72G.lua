@@ -28,6 +28,7 @@ _G["weapons_table"]["weapons"]["missiles"]["MIM_72G"] = {
 			boost_start = 0,
 			march_start = 0
 		},
+		display_name_short = "MIM-72",
 		fm = {
 			A = 0.6,
 			I = 60.271666666667,
@@ -109,6 +110,7 @@ _G["weapons_table"]["weapons"]["missiles"]["MIM_72G"] = {
 		}
 	},
 	display_name = "MIM-72G",
+	display_name_short = "MIM-72",
 	mass = 86,
 	model = "mim-72",
 	name = "MIM_72G",
@@ -138,6 +140,7 @@ _G["weapons_table"]["weapons"]["missiles"]["MIM_72G"] = {
 			boost_start = 0,
 			march_start = 0
 		},
+		display_name_short = "MIM-72",
 		fm = {
 			A = 0.6,
 			I = 60.271666666667,

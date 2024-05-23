@@ -3,10 +3,11 @@ _G["launcher"]["{40AB87E8-BEFB-4D85-90D9-B2753ACF9514}"] = {
 	Count = 1,
 	Cx_pil = 0.0018,
 	Elements = { {
+			IsAdapter = true,
 			ShapeName = "AKU-58"
 		}, {
-			Position = { -0.428, -0.234, 0 },
-			ShapeName = "X-59M"
+			ShapeName = "X-59M",
+			connector_name = "Point01"
 		} },
 	NatoName = "(AS-18)",
 	Picture = "kh59m.png",

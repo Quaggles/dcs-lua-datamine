@@ -17,6 +17,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_500U"] = {
 		control = {
 			open_delay = 3.5
 		},
+		display_name_short = "RBK-500",
 		fm = {
 			I = 210.116025,
 			L = 2.43,
@@ -199,6 +200,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_500U"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "RBK-500 PTAB-1M",
+	display_name_short = "RBK-500",
 	mass = 427,
 	model = "RBK_500_PTAB_1M_cassette",
 	name = "RBK_500U",
@@ -215,6 +217,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_500U"] = {
 		control = {
 			open_delay = 3.5
 		},
+		display_name_short = "RBK-500",
 		fm = {
 			I = 210.116025,
 			L = 2.43,

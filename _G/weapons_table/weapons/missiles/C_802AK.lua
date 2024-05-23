@@ -96,7 +96,7 @@ _G["weapons_table"]["weapons"]["missiles"]["C_802AK"] = {
 			boost_start = 0,
 			march_start = 0
 		},
-		display_name_short = "C-802AK",
+		display_name_short = "C-802",
 		engine_control = {
 			K = 350,
 			Kd = 1,
@@ -255,7 +255,7 @@ _G["weapons_table"]["weapons"]["missiles"]["C_802AK"] = {
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	display_name = "C-802AK",
-	display_name_short = "C-802AK",
+	display_name_short = "C-802",
 	mass = 600,
 	model = "c802ak",
 	name = "C_802AK",
@@ -350,7 +350,7 @@ _G["weapons_table"]["weapons"]["missiles"]["C_802AK"] = {
 			boost_start = 0,
 			march_start = 0
 		},
-		display_name_short = "C-802AK",
+		display_name_short = "C-802",
 		engine_control = {
 			K = 350,
 			Kd = 1,

@@ -13,6 +13,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	Helicopter_Num_ = 2,
 	Landing_Point = { -29, 3.15, 0 },
 	Length = 74,
+	MaxSpeed = 48.15,
 	Name = "Castle Class",
 	Om = 0.05,
 	Plane_Num_ = 0,

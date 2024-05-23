@@ -24,37 +24,42 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			wCtrl = 150
 		}, {
 			arg = 203,
-			argTbl = { 0.25, 0.35, 0.45, 0.55, 0.65, 0.75, 0.05,
-				[0] = 0.15
-			},
 			control = "comboList",
 			defValue = 0.15,
 			id = "ResinLights",
 			label = "Resin Lights Colour Filter",
 			values = { {
 					dispName = "Red",
-					id = 0.15
+					id = 0.15,
+					value = 0.15
 				}, {
 					dispName = "Orange",
-					id = 0.25
+					id = 0.25,
+					value = 0.25
 				}, {
 					dispName = "Yellow",
-					id = 0.35
+					id = 0.35,
+					value = 0.35
 				}, {
 					dispName = "Green",
-					id = 0.45
+					id = 0.45,
+					value = 0.45
 				}, {
 					dispName = "Sky",
-					id = 0.55
+					id = 0.55,
+					value = 0.55
 				}, {
 					dispName = "Blue",
-					id = 0.65
+					id = 0.65,
+					value = 0.65
 				}, {
 					dispName = "Violet",
-					id = 0.75
+					id = 0.75,
+					value = 0.75
 				}, {
 					dispName = "White",
-					id = 0.05
+					id = 0.05,
+					value = 0.05
 				} },
 			wCtrl = 150
 		} },

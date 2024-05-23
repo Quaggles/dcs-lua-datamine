@@ -69,6 +69,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_65"] = {
 			stab_vel = 220,
 			stab_vel_abs_error = 16
 		},
+		display_name_short = "Kh-65",
 		final_autopilot = {
 			J_Angle_K = 0.18,
 			J_Angle_W = 0.8,
@@ -173,6 +174,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_65"] = {
 		}
 	},
 	display_name = "Kh-65",
+	display_name_short = "Kh-65",
 	mass = 1400,
 	model = "x-65",
 	name = "X_65",
@@ -242,6 +244,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_65"] = {
 			stab_vel = 220,
 			stab_vel_abs_error = 16
 		},
+		display_name_short = "Kh-65",
 		final_autopilot = {
 			J_Angle_K = 0.18,
 			J_Angle_W = 0.8,

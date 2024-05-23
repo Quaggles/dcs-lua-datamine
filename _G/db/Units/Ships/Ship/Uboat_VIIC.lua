@@ -77,6 +77,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	Height = 7,
 	IR_emission_coeff = 0.25,
 	Length = 67.1,
+	MaxSpeed = 32.796,
 	Name = "U-boat VIIC U-flak",
 	Om = 0.02,
 	RCS = 5000,

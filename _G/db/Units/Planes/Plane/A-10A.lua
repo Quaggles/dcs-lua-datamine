@@ -1423,9 +1423,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 								argument = 195,
 								connector = "WHITE_BEACON L",
 								controller = "Strobe",
-								dir_correction = {
-									azimuth = -0.95993108859688
-								},
 								exposure = { { 223, 0.245, 0.255, 1, 0 } },
 								movable = true,
 								period = 1.2,
@@ -1456,9 +1453,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 								argument = 196,
 								connector = "WHITE_BEACON R",
 								controller = "Strobe",
-								dir_correction = {
-									azimuth = -2.1816615649929
-								},
 								exposure = { { 213, 0.245, 0.255, 1, 0 } },
 								movable = true,
 								period = 1.2,
@@ -1482,9 +1476,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 								argument = 203,
 								connector = "BANO_0_BACK",
 								controller = "Strobe",
-								dir_correction = {
-									azimuth = -1.5707963267949
-								},
 								exposure = { { 81, 0.245, 0.255, 1, 0 } },
 								movable = true,
 								period = 1.2,
@@ -1613,9 +1604,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						connector = "BANO_0_BACK",
 						controller = "Strobe",
 						cool_down_t = 0.6,
-						dir_correction = {
-							azimuth = -1.5707963267949
-						},
 						exposure = { { 81, 0.245, 0.255, 1, 0 } },
 						mode = 0,
 						movable = true,

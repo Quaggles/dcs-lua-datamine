@@ -233,36 +233,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				} },
 			wCtrl = 75
 		}, {
-			control = "spinbox",
-			defValue = 6,
-			dimension = " ",
-			id = "LaserCode100",
-			label = "Laser code 2nd dgt GBU, 1x11",
-			max = 7,
-			min = 5,
-			playerOnly = true,
-			wCtrl = 75
-		}, {
-			control = "spinbox",
-			defValue = 8,
-			dimension = " ",
-			id = "LaserCode10",
-			label = "Laser code 3rd dgt GBU, 11x1",
-			max = 8,
-			min = 1,
-			playerOnly = true,
-			wCtrl = 75
-		}, {
-			control = "spinbox",
-			defValue = 8,
-			dimension = " ",
-			id = "LaserCode1",
-			label = "Laser code 4th dgt GBU, 111x",
-			max = 8,
-			min = 1,
-			playerOnly = true,
-			wCtrl = 75
-		}, {
 			control = "editbox",
 			getDefault = <function 1>,
 			id = "IFFMode2Code",
@@ -2276,7 +2246,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	average_fuel_consumption = 0.5,
 	bank_angle_max = 85,
 	bigParkingRamp = false,
-	brakeshute_name = 327,
+	brakeshute_name = 333,
 	chaff_flare_dispenser = { {
 			dir = { 0, -1, -1 },
 			pos = { -4.312, -0.648, -0.488 }
@@ -2292,16 +2262,16 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			canopy_args = { 38, 1 },
 			canopy_ejection_dir = { -0.4, 1, 0 },
 			canopy_pos = { 2.312, 0.625, 0 },
-			drop_canopy_name = 325,
+			drop_canopy_name = 331,
 			drop_parachute_name = "Mirage-F1_parachute",
 			ejection_added_speed = { -5, 30, 0 },
 			ejection_order = -1,
 			ejection_play_arg = 149,
-			ejection_seat_name = 324,
+			ejection_seat_name = 330,
 			ejection_through_canopy = true,
 			g_suit = 1,
 			pilot_body_arg = 50,
-			pilot_name = 326,
+			pilot_name = 332,
 			pos = { 3.192, -0.013, -0.02 },
 			role = "pilot",
 			role_display_name = "Pilot"
@@ -2353,16 +2323,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				lights = { {
 						argument = 209,
 						typename = "spotlight"
-					},
-					[3] = {
+					}, {
 						argument = 427,
 						speed = 3,
 						typename = "argumentlight"
-					}
-				},
+					} },
 				typename = "collection"
-			},
-			[4] = {
+			}, {
 				lights = { {
 						argument = 190,
 						typename = "argumentlight"
@@ -2371,8 +2338,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						typename = "argumentlight"
 					} },
 				typename = "collection"
-			},
-			[5] = {
+			}, {
 				lights = { {
 						argument = 200,
 						typename = "argumentlight"
@@ -2384,12 +2350,23 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			},
 			[6] = {
 				lights = { {
+						argument = 209,
+						typename = "spotlight"
+					}, {
+						argument = 427,
+						speed = 3,
+						typename = "argumentlight"
+					} },
+				typename = "collection"
+			},
+			[10] = {
+				lights = { {
 						argument = 903,
 						typename = "argumentlight"
 					} },
 				typename = "collection"
 			},
-			[7] = {
+			[11] = {
 				lights = { {
 						argument = 905,
 						typename = "argumentlight"

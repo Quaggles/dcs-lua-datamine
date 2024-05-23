@@ -17,9 +17,25 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_122"] = {
 			finsLimit = 0.22,
 			useJumpByDefault = 0
 		},
+		boost = {
+			boost_factor = 0,
+			boost_time = 0,
+			custom_smoke_dissipation_factor = 0.2,
+			fuel_mass = 0,
+			impulse = 0,
+			nozzle_exit_area = 1e-06,
+			nozzle_orientationXYZ = { { 0, 0, 0 } },
+			nozzle_position = { { 0, 0, 0 } },
+			smoke_color = { 1, 1, 1 },
+			smoke_transparency = 0.9,
+			tail_width = 0,
+			work_time = 0
+		},
 		controller = {
+			boost_start = 0,
 			march_start = 0.1
 		},
+		display_name_short = "AGM-122",
 		fm = {
 			A = 0.36,
 			I = 96.524233333333,
@@ -38,10 +54,10 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_122"] = {
 			wind_sigma = 0,
 			wind_time = 0
 		},
-		fuze_proximity = {
-			arm_delay = 2,
-			ignore_inp_armed = 1,
-			radius = 4
+		fuze = {
+			default_arm_delays = { 2 },
+			default_proximity_radius = 4,
+			is_proxy_tdd_always_enabled = true
 		},
 		march = {
 			boost_factor = 0,
@@ -72,7 +88,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_122"] = {
 			sens_far_dist = 20000,
 			sens_near_dist = 200
 		},
-		scheme = "schemes/missiles/anti_radiation_missile2.sch",
+		scheme = "schemes/missiles/arm_v3.sch",
 		simple_gyrostab_seeker = {
 			omega_max = 0.13962634015955
 		},
@@ -115,6 +131,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_122"] = {
 		}
 	},
 	display_name = "AGM-122",
+	display_name_short = "AGM-122",
 	mass = 88,
 	model = "agm-122",
 	name = "AGM_122",
@@ -133,9 +150,25 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_122"] = {
 			finsLimit = 0.22,
 			useJumpByDefault = 0
 		},
+		boost = {
+			boost_factor = 0,
+			boost_time = 0,
+			custom_smoke_dissipation_factor = 0.2,
+			fuel_mass = 0,
+			impulse = 0,
+			nozzle_exit_area = 1e-06,
+			nozzle_orientationXYZ = { { 0, 0, 0 } },
+			nozzle_position = { { 0, 0, 0 } },
+			smoke_color = { 1, 1, 1 },
+			smoke_transparency = 0.9,
+			tail_width = 0,
+			work_time = 0
+		},
 		controller = {
+			boost_start = 0,
 			march_start = 0.1
 		},
+		display_name_short = "AGM-122",
 		fm = {
 			A = 0.36,
 			I = 96.524233333333,
@@ -154,10 +187,10 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_122"] = {
 			wind_sigma = 0,
 			wind_time = 0
 		},
-		fuze_proximity = {
-			arm_delay = 2,
-			ignore_inp_armed = 1,
-			radius = 4
+		fuze = {
+			default_arm_delays = { 2 },
+			default_proximity_radius = 4,
+			is_proxy_tdd_always_enabled = true
 		},
 		march = {
 			boost_factor = 0,
@@ -188,7 +221,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_122"] = {
 			sens_far_dist = 20000,
 			sens_near_dist = 200
 		},
-		scheme = "schemes/missiles/anti_radiation_missile2.sch",
+		scheme = "schemes/missiles/arm_v3.sch",
 		simple_gyrostab_seeker = {
 			omega_max = 0.13962634015955
 		},

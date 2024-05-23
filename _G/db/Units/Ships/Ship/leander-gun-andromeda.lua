@@ -190,6 +190,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	Helicopter_Num_ = 1,
 	Landing_Point = { -33.57, 4.511, 0 },
 	Length = 113.64,
+	MaxSpeed = 51.84,
 	Name = "HMS Andromeda (F57)",
 	Om = 0.05,
 	R_min = 208.4,

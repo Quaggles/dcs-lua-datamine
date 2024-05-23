@@ -196,6 +196,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	},
 	Landing_Point = { -57.409, 12, 1.046 },
 	Length = 236,
+	MaxSpeed = 44.64,
 	Name = "ARA Veinticinco de Mayo",
 	OLS = {
 		CutLightsArg = 404,

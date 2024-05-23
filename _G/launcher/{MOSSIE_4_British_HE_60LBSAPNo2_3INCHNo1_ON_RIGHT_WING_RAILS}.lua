@@ -42,47 +42,7 @@ _G["launcher"]["{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_RIGHT_WING_RAILS}"] 
 					id = 2
 				} },
 			wCtrl = 360,
-			xCtrl = 180
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type",
-					value = 1
-				} },
-			baseDim = "s",
-			control = "spinbox",
-			defValue = 0,
-			dimension = "s",
-			id = "function_delay_ctrl_BFNo878MkI",
-			label = "Function Delay",
-			max = 1000000000000,
-			min = 0,
-			readOnly = true,
-			step = 0.01,
-			stringIndex = 2,
-			wCtrl = 60,
-			wDim = 30,
-			xCtrl = 180,
-			xLbl = 10
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type",
-					value = 2
-				} },
-			baseDim = "s",
-			control = "spinbox",
-			defValue = 0.005,
-			dimension = "ms",
-			id = "function_delay_ctrl_BFNo865MkI",
-			label = "Function Delay",
-			max = 1e+15,
-			min = 0,
-			readOnly = true,
-			step = 10,
-			stringIndex = 2,
-			wCtrl = 60,
-			wDim = 30,
-			xCtrl = 180,
-			xLbl = 10
+			xCtrl = 200
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type",
@@ -101,8 +61,8 @@ _G["launcher"]["{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_RIGHT_WING_RAILS}"] 
 			stringIndex = 2,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 480,
-			xLbl = 290
+			xCtrl = 200,
+			xLbl = 10
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type",
@@ -121,8 +81,48 @@ _G["launcher"]["{MOSSIE_4_British_HE_60LBSAPNo2_3INCHNo1_ON_RIGHT_WING_RAILS}"] 
 			stringIndex = 2,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 480,
-			xLbl = 290
+			xCtrl = 200,
+			xLbl = 10
+		}, {
+			VisibilityCondition = { {
+					id = "NFP_fuze_type",
+					value = 1
+				} },
+			baseDim = "s",
+			control = "spinbox",
+			defValue = 0,
+			dimension = "s",
+			id = "function_delay_ctrl_BFNo878MkI",
+			label = "Function Delay",
+			max = 1000000000000,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 2,
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 500,
+			xLbl = 310
+		}, {
+			VisibilityCondition = { {
+					id = "NFP_fuze_type",
+					value = 2
+				} },
+			baseDim = "s",
+			control = "spinbox",
+			defValue = 0.005,
+			dimension = "ms",
+			id = "function_delay_ctrl_BFNo865MkI",
+			label = "Function Delay",
+			max = 1e+15,
+			min = 0,
+			readOnly = true,
+			step = 10,
+			stringIndex = 2,
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 500,
+			xLbl = 310
 		} },
 	wsTypeOfWeapon = <table 1>
 }

@@ -11,7 +11,7 @@ _G["launcher"]["{B919B0F4-7C25-455E-9A02-CEA51DB895E3}"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
-	displayName = "2 x 9M114 Shturm-V (AT-6 Spiral) - ATGM, SACLOS, HEAT",
+	displayName = "2 x 9M114 Kokon (AT-6 Spiral) - ATGM, SACLOS, HEAT",
 	kind_of_shipping = 0,
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

@@ -14,6 +14,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BetAB_500"] = {
 			enabled = false,
 			velK = 1
 		},
+		display_name_short = "BetAB-500",
 		fm = {
 			I = 220.833333,
 			L = 2.2,
@@ -45,6 +46,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BetAB_500"] = {
 	},
 	cx = { 1, 0.42, 0.37, 0.306, 1.27 },
 	display_name = "BetAB-500",
+	display_name_short = "BetAB-500",
 	mass = 478,
 	model = "betab-500",
 	name = "BetAB_500",
@@ -58,6 +60,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BetAB_500"] = {
 			enabled = false,
 			velK = 1
 		},
+		display_name_short = "BetAB-500",
 		fm = {
 			I = 220.833333,
 			L = 2.2,

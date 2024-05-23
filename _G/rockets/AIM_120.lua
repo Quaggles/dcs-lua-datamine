@@ -84,7 +84,7 @@ _G["rockets"]["#Index"] = {
 	},
 	displayName = "AIM-120B AMRAAM - Active Radar AAM",
 	display_name = "AIM-120B",
-	display_name_short = "AIM-120B",
+	display_name_short = "AIM-120",
 	exhaust = { 0.8, 0.8, 0.8, 0.05 },
 	fm = {
 		A1trim = { 24, 24, 24, 24, 23.5, 23, 25.16, 27.23, 29.04, 30.6, 31.93, 33.08, 34.07, 34.95, 35.74, 36.45, 37.09, 37.68, 38.2, 38.66, 39.06, 39.39, 39.66, 39.85, 39.96, 40 },

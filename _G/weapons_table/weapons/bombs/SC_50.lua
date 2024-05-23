@@ -20,6 +20,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SC_50"] = {
 			velK = 1
 		},
 		category = 1,
+		display_name_short = "SC50",
 		fm = {
 			I = 443.4929,
 			L = 3.365,
@@ -76,7 +77,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SC_50"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "SC 50",
-	display_name_short = "SC 50",
+	display_name_short = "SC50",
 	mass = 50,
 	model = "SC50",
 	name = "SC_50",
@@ -95,6 +96,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SC_50"] = {
 			velK = 1
 		},
 		category = 1,
+		display_name_short = "SC50",
 		fm = {
 			I = 443.4929,
 			L = 3.365,

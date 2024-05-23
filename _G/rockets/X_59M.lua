@@ -95,7 +95,7 @@ _G["rockets"]["#Index"] = {
 		march_start = 1.5
 	},
 	display_name = "Kh-59M (AS-18 Kazoo)",
-	display_name_short = "Kh-59M (AS-18 Kazoo)",
+	display_name_short = "Kh-59",
 	engine_control = {
 		K = 240,
 		Kd = 1,

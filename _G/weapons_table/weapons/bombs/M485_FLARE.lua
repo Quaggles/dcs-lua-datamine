@@ -22,6 +22,7 @@ _G["weapons_table"]["weapons"]["bombs"]["M485_FLARE"] = {
 		control = {
 			delay_par = 8
 		},
+		display_name_short = "illum.",
 		fm = {
 			I = 0.014981333333333,
 			L = 0.212,
@@ -56,6 +57,7 @@ _G["weapons_table"]["weapons"]["bombs"]["M485_FLARE"] = {
 	},
 	cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 	display_name = "M485 IL",
+	display_name_short = "illum.",
 	mass = 4,
 	model = "luu-2",
 	name = "M485_FLARE",
@@ -78,6 +80,7 @@ _G["weapons_table"]["weapons"]["bombs"]["M485_FLARE"] = {
 		control = {
 			delay_par = 8
 		},
+		display_name_short = "illum.",
 		fm = {
 			I = 0.014981333333333,
 			L = 0.212,

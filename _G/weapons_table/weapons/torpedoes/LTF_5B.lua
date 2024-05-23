@@ -58,6 +58,7 @@ _G["weapons_table"]["weapons"]["torpedoes"]["LTF_5B"] = {
 		},
 		category = 11,
 		class_name = "wAmmunition",
+		display_name_short = "LTF5",
 		engine = {
 			thrust = 7900
 		},
@@ -190,6 +191,7 @@ _G["weapons_table"]["weapons"]["torpedoes"]["LTF_5B"] = {
 		},
 		category = 11,
 		class_name = "wAmmunition",
+		display_name_short = "LTF5",
 		engine = {
 			thrust = 7900
 		},

@@ -27,7 +27,7 @@ _G["rockets"]["#Index"] = {
 	X_back = 0,
 	Y_back = 0,
 	Z_back = 0,
-	_file = "./CoreMods/aircraft/AircraftWeaponPack/anti-radiation missiles.lua",
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/kh25_29_family.lua",
 	_origin = "AircraftWeaponPack",
 	autopilot = {
 		J_Angle_K = 0.20943951023932,
@@ -63,7 +63,7 @@ _G["rockets"]["#Index"] = {
 		march_start = 2
 	},
 	display_name = "Kh-25MP (AS-12 Kegler)",
-	display_name_short = "Kh-25MP (AS-12 Kegler)",
+	display_name_short = "Kh-25",
 	fm = {
 		A = 0.36,
 		I = 353.65833333333,

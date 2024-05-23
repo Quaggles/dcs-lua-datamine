@@ -47,6 +47,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_54_V_1B"] = {
 		},
 		category = 1,
 		class_name = "wAmmunitionLaserHoming",
+		display_name_short = "GBU-54",
 		fm = {
 			A = 0.6,
 			I = 65.1,
@@ -118,7 +119,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_54_V_1B"] = {
 	},
 	cx = { 1, 0.45, 0.8, 0.15, 1.55 },
 	display_name = "GBU-54(V)1/B",
-	display_name_short = "GBU-54(V)1/B",
+	display_name_short = "GBU-54",
 	mass = 253.1,
 	model = "GBU-54",
 	name = "GBU_54_V_1B",
@@ -163,6 +164,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_54_V_1B"] = {
 		},
 		category = 1,
 		class_name = "wAmmunitionLaserHoming",
+		display_name_short = "GBU-54",
 		fm = {
 			A = 0.6,
 			I = 65.1,

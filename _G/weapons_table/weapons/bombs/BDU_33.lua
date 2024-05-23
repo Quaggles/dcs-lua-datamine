@@ -12,6 +12,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_33"] = {
 			enabled = false,
 			velK = 1
 		},
+		display_name_short = "BDU-33",
 		fm = {
 			I = 94.425933,
 			L = 0.575,
@@ -38,6 +39,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_33"] = {
 	},
 	cx = { 1, 0.82, 0.65, 0.142, 2.11 },
 	display_name = "BDU-33",
+	display_name_short = "BDU-33",
 	mass = 11.3,
 	model = "BDU-33",
 	name = "BDU_33",
@@ -50,6 +52,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_33"] = {
 			enabled = false,
 			velK = 1
 		},
+		display_name_short = "BDU-33",
 		fm = {
 			I = 94.425933,
 			L = 0.575,

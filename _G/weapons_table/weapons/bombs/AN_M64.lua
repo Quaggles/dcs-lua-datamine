@@ -14,6 +14,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M64"] = {
 			enabled = false,
 			velK = 1
 		},
+		display_name_short = "AN-M64",
 		fm = {
 			I = 94.425933,
 			L = 1.4478,
@@ -49,6 +50,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M64"] = {
 	},
 	cx = { 1, 0.29, 0.71, 0.14, 1.28 },
 	display_name = "AN-M64",
+	display_name_short = "AN-M64",
 	mass = 227,
 	model = "AN-M64",
 	name = "AN_M64",
@@ -62,6 +64,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M64"] = {
 			enabled = false,
 			velK = 1
 		},
+		display_name_short = "AN-M64",
 		fm = {
 			I = 94.425933,
 			L = 1.4478,

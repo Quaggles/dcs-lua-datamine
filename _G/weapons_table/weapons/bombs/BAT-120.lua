@@ -24,6 +24,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BAT-120"] = {
 			open_delay = 0.5
 		},
 		displayName = "BAT-120 ABL - 34kg HE/Frag Chute Retarded Bomb HD",
+		display_name_short = "BAT-120",
 		fm = {
 			I = 6.38,
 			L = 1.5,
@@ -74,7 +75,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BAT-120"] = {
 	},
 	cx = { 1, 0.82, 0.65, 0.142, 2.11 },
 	display_name = "BAT-120 ABL",
-	display_name_short = "BAT-120 ABL",
+	display_name_short = "BAT-120",
 	mass = 34,
 	model = "BAT-120",
 	name = "BAT-120",
@@ -97,6 +98,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BAT-120"] = {
 			open_delay = 0.5
 		},
 		displayName = "BAT-120 ABL - 34kg HE/Frag Chute Retarded Bomb HD",
+		display_name_short = "BAT-120",
 		fm = {
 			I = 6.38,
 			L = 1.5,

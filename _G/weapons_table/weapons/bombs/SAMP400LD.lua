@@ -20,6 +20,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP400LD"] = {
 		},
 		category = 1,
 		displayName = "SAMP-400 - 400 kg GP Bomb LD",
+		display_name_short = "SAMP-400",
 		fm = {
 			I = 144.40908,
 			L = 2.194,
@@ -70,7 +71,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP400LD"] = {
 	},
 	cx = { 1, 0.29, 0.71, 0.13, 1.28 },
 	display_name = "SAMP-400 LD",
-	display_name_short = "SAMP-400 LD",
+	display_name_short = "SAMP-400",
 	mass = 360,
 	model = "SAMP_400FB",
 	name = "SAMP400LD",
@@ -89,6 +90,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP400LD"] = {
 		},
 		category = 1,
 		displayName = "SAMP-400 - 400 kg GP Bomb LD",
+		display_name_short = "SAMP-400",
 		fm = {
 			I = 144.40908,
 			L = 2.194,

@@ -14,6 +14,7 @@ _G["weapons_table"]["weapons"]["bombs"]["M_117"] = {
 			enabled = false,
 			velK = 1
 		},
+		display_name_short = "M117",
 		fm = {
 			I = 144.2824,
 			L = 2.06,
@@ -45,6 +46,7 @@ _G["weapons_table"]["weapons"]["bombs"]["M_117"] = {
 	},
 	cx = { 1, 0.29, 0.71, 0.13, 1.28 },
 	display_name = "M117",
+	display_name_short = "M117",
 	mass = 408,
 	model = "m117",
 	name = "M_117",
@@ -58,6 +60,7 @@ _G["weapons_table"]["weapons"]["bombs"]["M_117"] = {
 			enabled = false,
 			velK = 1
 		},
+		display_name_short = "M117",
 		fm = {
 			I = 144.2824,
 			L = 2.06,

@@ -15,6 +15,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_50LGB"] = {
 		bang_bang_autopilot = {
 			omegaDumpingK = 0.36
 		},
+		display_name_short = "BDU-50",
 		fm = {
 			A = 0.36,
 			I = 324.648324,
@@ -53,6 +54,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_50LGB"] = {
 	},
 	cx = { 1.037, 0.74, 0.6, 0.382, 1.34 },
 	display_name = "BDU-50LGB",
+	display_name_short = "BDU-50",
 	mass = 363,
 	model = "BDU-50LGB",
 	name = "BDU_50LGB",
@@ -68,6 +70,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_50LGB"] = {
 		bang_bang_autopilot = {
 			omegaDumpingK = 0.36
 		},
+		display_name_short = "BDU-50",
 		fm = {
 			A = 0.36,
 			I = 324.648324,

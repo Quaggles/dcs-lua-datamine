@@ -209,7 +209,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 						}, {
 							shell_name = {}
 						} },
-					depends_on_unit = <1>{ { { "self", 1 } }, { { "self", 2 } }, { { "self", 3 } } },
+					depends_on_unit = <1>{ { { "self", 1 } }, { { "self", 2 } }, { { "self", 3 } }, { { "none" } } },
 					fireAnimationArgument = 119,
 					reactionTime = 1,
 					sensor = {}

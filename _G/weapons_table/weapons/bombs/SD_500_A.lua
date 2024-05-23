@@ -22,6 +22,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SD_500_A"] = {
 			velK = 1
 		},
 		category = 1,
+		display_name_short = "SD500",
 		fm = {
 			I = 246.0375,
 			L = 2.01,
@@ -79,7 +80,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SD_500_A"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "SD 500 A",
-	display_name_short = "SD 500 A",
+	display_name_short = "SD500",
 	mass = 500,
 	model = "SD-500A",
 	name = "SD_500_A",
@@ -99,6 +100,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SD_500_A"] = {
 			velK = 1
 		},
 		category = 1,
+		display_name_short = "SD500",
 		fm = {
 			I = 246.0375,
 			L = 2.01,

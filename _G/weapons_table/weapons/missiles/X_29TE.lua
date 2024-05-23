@@ -1,8 +1,37 @@
 _G["weapons_table"]["weapons"]["missiles"]["X_29TE"] = {
 	Reflection = 0.1729,
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/kh25_29_family.lua",
+	_origin = "AircraftWeaponPack",
 	_unique_resource_name = "weapons.missiles.X_29TE",
 	caliber = 0.38,
 	client = {
+		Cx_pil = 16.37,
+		D_max = 20000,
+		D_min = 1000,
+		Diam = 380,
+		Escort = 0,
+		Fi_excort = 1.05,
+		Fi_rak = 3.14152,
+		Fi_search = 99.9,
+		Fi_start = 0.5,
+		H_max = 10000,
+		H_min = -1,
+		H_min_t = 0,
+		Head_Form = 0,
+		Head_Type = 5,
+		KillDistance = 0,
+		Life_Time = 1800,
+		M = 678,
+		Mach_max = 2.5,
+		Nr_max = 2,
+		OmViz_max = 99.9,
+		Range_max = 30000,
+		Reflection = 0.1729,
+		X_back = -1.446,
+		Y_back = -0.202,
+		Z_back = 0,
+		_file = "./CoreMods/aircraft/AircraftWeaponPack/kh25_29_family.lua",
+		_origin = "AircraftWeaponPack",
 		autopilot = {
 			J_Angle_K = 0.24434609527921,
 			J_Angle_W = 4.5,
@@ -28,10 +57,15 @@ _G["weapons_table"]["weapons"]["missiles"]["X_29TE"] = {
 			tail_width = 0.4,
 			work_time = 0
 		},
+		category = 2,
+		class_name = "wAmmunitionSelfHoming",
 		controller = {
 			boost_start = 0,
 			march_start = 0.2
 		},
+		display_name = "Kh-29TE (AS-14 Kedge)",
+		display_name_short = "Kh-29",
+		exhaust = { 0.63, 0.71, 0.78, 0.5 },
 		fm = {
 			A = 0.36,
 			I = 848.3828125,
@@ -63,6 +97,8 @@ _G["weapons_table"]["weapons"]["missiles"]["X_29TE"] = {
 			tail_width = 0.4,
 			work_time = 4.7
 		},
+		model = "X-29T",
+		name = "X_29TE",
 		scheme = "schemes/missiles/tv_homing_gyrost_missile.sch",
 		seeker = {
 			FOV = 1.0471975511966,
@@ -73,9 +109,16 @@ _G["weapons_table"]["weapons"]["missiles"]["X_29TE"] = {
 			op_time = 40,
 			send_off_data = 0
 		},
+		sigma = { 8, 8, 8 },
 		simple_gyrostab_seeker = {
 			omega_max = 0.13962634015955
 		},
+		t_acc = 16,
+		t_b = 0.8,
+		t_marsh = 150,
+		user_name = "Kh-29TE",
+		v_mid = 250,
+		v_min = 170,
 		warhead = {
 			caliber = 380,
 			concrete_factors = { 5, 1, 10 },
@@ -103,13 +146,42 @@ _G["weapons_table"]["weapons"]["missiles"]["X_29TE"] = {
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
 			piercing_mass = 25.36
-		}
+		},
+		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	display_name = "Kh-29TE",
+	display_name_short = "Kh-29",
 	mass = 678,
 	model = "X-29T",
 	name = "X_29TE",
 	server = {
+		Cx_pil = 16.37,
+		D_max = 20000,
+		D_min = 1000,
+		Diam = 380,
+		Escort = 0,
+		Fi_excort = 1.05,
+		Fi_rak = 3.14152,
+		Fi_search = 99.9,
+		Fi_start = 0.5,
+		H_max = 10000,
+		H_min = -1,
+		H_min_t = 0,
+		Head_Form = 0,
+		Head_Type = 5,
+		KillDistance = 0,
+		Life_Time = 1800,
+		M = 678,
+		Mach_max = 2.5,
+		Nr_max = 2,
+		OmViz_max = 99.9,
+		Range_max = 30000,
+		Reflection = 0.1729,
+		X_back = -1.446,
+		Y_back = -0.202,
+		Z_back = 0,
+		_file = "./CoreMods/aircraft/AircraftWeaponPack/kh25_29_family.lua",
+		_origin = "AircraftWeaponPack",
 		autopilot = {
 			J_Angle_K = 0.24434609527921,
 			J_Angle_W = 4.5,
@@ -135,10 +207,15 @@ _G["weapons_table"]["weapons"]["missiles"]["X_29TE"] = {
 			tail_width = 0.4,
 			work_time = 0
 		},
+		category = 2,
+		class_name = "wAmmunitionSelfHoming",
 		controller = {
 			boost_start = 0,
 			march_start = 0.2
 		},
+		display_name = "Kh-29TE (AS-14 Kedge)",
+		display_name_short = "Kh-29",
+		exhaust = { 0.63, 0.71, 0.78, 0.5 },
 		fm = {
 			A = 0.36,
 			I = 848.3828125,
@@ -170,6 +247,8 @@ _G["weapons_table"]["weapons"]["missiles"]["X_29TE"] = {
 			tail_width = 0.4,
 			work_time = 4.7
 		},
+		model = "X-29T",
+		name = "X_29TE",
 		scheme = "schemes/missiles/tv_homing_gyrost_missile.sch",
 		seeker = {
 			FOV = 1.0471975511966,
@@ -180,9 +259,16 @@ _G["weapons_table"]["weapons"]["missiles"]["X_29TE"] = {
 			op_time = 40,
 			send_off_data = 0
 		},
+		sigma = { 8, 8, 8 },
 		simple_gyrostab_seeker = {
 			omega_max = 0.13962634015955
 		},
+		t_acc = 16,
+		t_b = 0.8,
+		t_marsh = 150,
+		user_name = "Kh-29TE",
+		v_mid = 250,
+		v_min = 170,
 		warhead = {
 			caliber = 380,
 			concrete_factors = { 5, 1, 10 },
@@ -210,7 +296,8 @@ _G["weapons_table"]["weapons"]["missiles"]["X_29TE"] = {
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
 			piercing_mass = 25.36
-		}
+		},
+		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	sounderName = "Weapons/Missile",
 	type_name = "missile",

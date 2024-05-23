@@ -346,6 +346,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	},
 	Landing_Point = { -104, 19.6, -33 },
 	Length = 332.9,
+	MaxSpeed = 55.55988,
 	Name = "CVN-75 Harry S. Truman",
 	OLS = {
 		CutLightsArg = 404,

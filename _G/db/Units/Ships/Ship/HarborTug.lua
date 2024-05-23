@@ -5,6 +5,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	Gamma_max = 0.35,
 	Height = 30,
 	Length = 20,
+	MaxSpeed = 48.15,
 	Name = "Harbor Tug",
 	Om = 0.05,
 	R_min = 247,

@@ -229,6 +229,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	},
 	Landing_Point = { -71, 19.9, -8 },
 	Length = 250,
+	MaxSpeed = 55.55988,
 	Name = "LHA-1 Tarawa",
 	OLS = {
 		CutLightsArg = 404,

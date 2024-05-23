@@ -5,6 +5,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	Gamma_max = 0.25,
 	Height = 15,
 	Length = 94,
+	MaxSpeed = 53.64,
 	Name = "ARA Santa Fe S-21",
 	Om = 0.01,
 	R_min = 345.6,
@@ -85,14 +86,14 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	animation_arguments = {
 		alarm_state_sequence = { { 3, { {
 						endTime = 1,
-						endVal = 0,
+						endVal = 0.75,
 						startTime = 0,
 						startVal = 0
 					}, {
 						endTime = 15,
 						endVal = 0.75,
 						startTime = 1,
-						startVal = 0
+						startVal = 0.75
 					}, {
 						endTime = 20,
 						endVal = 0.75,

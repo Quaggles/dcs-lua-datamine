@@ -37,7 +37,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			control = "checkbox",
 			defValue = true,
 			id = "ReadyALCM",
-			label = "Aircraft is ALCM ready"
+			label = "Cold start is ALCM ready"
+		}, {
+			control = "checkbox",
+			defValue = false,
+			id = "ReadyQRA",
+			label = "Hot start in QRA mode"
 		}, {
 			control = "checkbox",
 			defValue = false,
@@ -331,7 +336,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			enable = false,
 			hh = 0,
-			id = "BATT_FAIL",
+			id = "ELEC_BATT_FAIL",
 			label = "Battery Fail",
 			mm = 0,
 			mmint = 1,
@@ -339,48 +344,48 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			enable = false,
 			hh = 0,
-			id = "TRN_FAIL",
-			label = "Main Transformer Fail",
+			id = "ELEC_TRN_FAIL",
+			label = "Main DC Converter (TRN) Fail",
 			mm = 0,
 			mmint = 1,
 			prob = 100
 		}, {
 			enable = false,
 			hh = 0,
-			id = "TRN_FAIL_AUX",
-			label = "Aux Transformer Fail",
+			id = "ELEC_TRS_FAIL",
+			label = "Emer DC Converter (TRS) Fail",
 			mm = 0,
 			mmint = 1,
 			prob = 100
 		}, {
 			enable = false,
 			hh = 0,
-			id = "ENG_ALT_1_FAIL",
-			label = "Engine Alternator 1 Fail",
+			id = "ELEC_ALT_1_TOTAL_FAIL",
+			label = "AC Alternator 1 Total Fail",
 			mm = 0,
 			mmint = 1,
 			prob = 100
 		}, {
 			enable = false,
 			hh = 0,
-			id = "ENG_ALT_2_FAIL",
-			label = "Engine Alternator 2 Fail",
+			id = "ELEC_ALT_1_PART_FAIL",
+			label = "AC Alternator 1 Partial Fail",
 			mm = 0,
 			mmint = 1,
 			prob = 100
 		}, {
 			enable = false,
 			hh = 0,
-			id = "HYD_ALT_1_FAIL",
-			label = "Hydraulic Alternator 1 Fail",
+			id = "ELEC_ALT_2_TOTAL_FAIL",
+			label = "AC Alternator 2 Total Fail",
 			mm = 0,
 			mmint = 1,
 			prob = 100
 		}, {
 			enable = false,
 			hh = 0,
-			id = "HYD_ALT_2_FAIL",
-			label = "Hydraulic Alternator 1 Fail",
+			id = "ELEC_ALT_2_PART_FAIL",
+			label = "AC Alternator 2 Partial Fail",
 			mm = 0,
 			mmint = 1,
 			prob = 100
@@ -443,8 +448,80 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			enable = false,
 			hh = 0,
-			id = "IFF_FAILURE_MAIN",
-			label = "IFF Responder",
+			id = "RS_FAIL",
+			label = "RadAlt Failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "CDVE_CH1_FAIL",
+			label = "FBW Channel 1 Failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "CDVE_CH2_FAIL",
+			label = "FBW Channel 2 Failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "CDVE_CH3_FAIL",
+			label = "FBW Channel 3 Failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "CDVE_CH4_FAIL",
+			label = "FBW Channel 4 Failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "TP_SENSOR_FAIL",
+			label = "Total pressure sensors lost",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "LAOA_SENSOR_FAIL",
+			label = "Left AoA sensors fail",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "RAOA_SENSOR_FAIL",
+			label = "Right AoA sensors fail",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "PITOT_DEICE_FAIL",
+			label = "Pitot de-icing failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "AOA_DEICE_FAIL",
+			label = "AoA de-icing failure",
 			mm = 0,
 			mmint = 1,
 			prob = 100
@@ -2350,11 +2427,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		} },
 	crew_members = { {
 			bailout_arg = -1,
-			drop_canopy_name = 312,
+			drop_canopy_name = 318,
 			drop_parachute_name = "M-2000C_parachute",
-			ejection_seat_name = 311,
+			ejection_seat_name = 317,
 			g_suit = 5,
-			pilot_name = 313,
+			pilot_name = 319,
 			pos = { 2.679, 0.512, 0 },
 			role = "pilot",
 			role_display_name = "Pilot"

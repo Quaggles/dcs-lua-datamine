@@ -23,6 +23,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AGM_62"] = {
 			enabled = false,
 			velK = 1
 		},
+		display_name_short = "AGM-62",
 		fm = {
 			A = 0.36,
 			I = 1443.1014666667,
@@ -77,6 +78,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AGM_62"] = {
 	},
 	cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 	display_name = "AGM-62 Walleye II",
+	display_name_short = "AGM-62",
 	mass = 1061,
 	model = "agm-62",
 	name = "AGM_62",
@@ -99,6 +101,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AGM_62"] = {
 			enabled = false,
 			velK = 1
 		},
+		display_name_short = "AGM-62",
 		fm = {
 			A = 0.36,
 			I = 1443.1014666667,

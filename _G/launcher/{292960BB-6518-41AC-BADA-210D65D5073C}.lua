@@ -1,8 +1,9 @@
 _G["launcher"]["{292960BB-6518-41AC-BADA-210D65D5073C}"] = {
 	CLSID = "{292960BB-6518-41AC-BADA-210D65D5073C}",
 	Count = 1,
-	Cx_pil = 0.001,
+	Cx_pil = 0.00209228515625,
 	Elements = { {
+			IsAdapter = true,
 			ShapeName = "APU-68"
 		}, {
 			ShapeName = "X-25MR",
@@ -11,8 +12,10 @@ _G["launcher"]["{292960BB-6518-41AC-BADA-210D65D5073C}"] = {
 	NatoName = "(AS-12)",
 	Picture = "kh25mr.png",
 	Weight = 360,
-	_file = "Scripts/Database/db_weapons_data.lua",
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/kh25_29_family.lua",
+	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },
+	category = 2,
 	displayName = "Kh-25MR (AS-10 Karen) - 300kg, ASM, 10km, RC Guided",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

@@ -28,6 +28,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AB_500_1_SD_10A"] = {
 			is_multidelay = true,
 			trigger_after_arming = true
 		},
+		display_name_short = "AB500",
 		fm = {
 			I = 150,
 			L = 2.03,
@@ -230,7 +231,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AB_500_1_SD_10A"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "AB 500-1 SD-10A",
-	display_name_short = "AB 500-1 SD-10A",
+	display_name_short = "AB500",
 	mass = 470,
 	model = "AB-500-1_dropping",
 	name = "AB_500_1_SD_10A",
@@ -256,6 +257,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AB_500_1_SD_10A"] = {
 			is_multidelay = true,
 			trigger_after_arming = true
 		},
+		display_name_short = "AB500",
 		fm = {
 			I = 150,
 			L = 2.03,

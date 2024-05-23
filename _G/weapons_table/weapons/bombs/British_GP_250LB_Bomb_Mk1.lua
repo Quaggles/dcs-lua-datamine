@@ -22,6 +22,7 @@ _G["weapons_table"]["weapons"]["bombs"]["British_GP_250LB_Bomb_Mk1"] = {
 			velK = 1
 		},
 		category = 1,
+		display_name_short = "GP250",
 		fm = {
 			I = 246.0375,
 			L = 0.66,
@@ -79,7 +80,7 @@ _G["weapons_table"]["weapons"]["bombs"]["British_GP_250LB_Bomb_Mk1"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "250 lb GP Mk.I",
-	display_name_short = "250 lb GP Mk.I",
+	display_name_short = "GP250",
 	mass = 104.326,
 	model = "LB_250",
 	name = "British_GP_250LB_Bomb_Mk1",
@@ -99,6 +100,7 @@ _G["weapons_table"]["weapons"]["bombs"]["British_GP_250LB_Bomb_Mk1"] = {
 			velK = 1
 		},
 		category = 1,
+		display_name_short = "GP250",
 		fm = {
 			I = 246.0375,
 			L = 0.66,

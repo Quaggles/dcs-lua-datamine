@@ -140,6 +140,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	IR_emission_coeff = 0.4,
 	Landing_Point = { -60.3, 3.7, 0 },
 	Length = 155.5,
+	MaxSpeed = 55.98,
 	Name = "DDG Arleigh Burke IIa",
 	Om = 0.02,
 	PlayerInteractionLocked = false,

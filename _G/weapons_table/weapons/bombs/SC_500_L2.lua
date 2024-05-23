@@ -22,6 +22,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SC_500_L2"] = {
 			velK = 1
 		},
 		category = 1,
+		display_name_short = "SC500",
 		fm = {
 			I = 246.0375,
 			L = 2.01,
@@ -79,7 +80,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SC_500_L2"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "SC 500 L2",
-	display_name_short = "SC 500 L2",
+	display_name_short = "SC500",
 	mass = 500,
 	model = "SC-500L2",
 	name = "SC_500_L2",
@@ -99,6 +100,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SC_500_L2"] = {
 			velK = 1
 		},
 		category = 1,
+		display_name_short = "SC500",
 		fm = {
 			I = 246.0375,
 			L = 2.01,

@@ -58,6 +58,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_31A"] = {
 			boost_start = 0.5,
 			march_start = 3
 		},
+		display_name_short = "Kh-31",
 		final_autopilot = {
 			K = 35,
 			K_loft_err = 0,
@@ -181,6 +182,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_31A"] = {
 		}
 	},
 	display_name = "Kh-31A",
+	display_name_short = "Kh-31",
 	mass = 600,
 	model = "X-31",
 	name = "X_31A",
@@ -240,6 +242,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_31A"] = {
 			boost_start = 0.5,
 			march_start = 3
 		},
+		display_name_short = "Kh-31",
 		final_autopilot = {
 			K = 35,
 			K_loft_err = 0,

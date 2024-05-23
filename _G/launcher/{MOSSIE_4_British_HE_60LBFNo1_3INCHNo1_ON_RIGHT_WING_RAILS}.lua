@@ -39,27 +39,7 @@ _G["launcher"]["{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_RIGHT_WING_RAILS}"] = 
 					id = 1
 				} },
 			wCtrl = 360,
-			xCtrl = 180
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type_nose",
-					value = 1
-				} },
-			baseDim = "s",
-			control = "spinbox",
-			defValue = 0,
-			dimension = "s",
-			id = "function_delay_ctrl_NFNo899MkI",
-			label = "Function Delay",
-			max = 1000000000000,
-			min = 0,
-			readOnly = true,
-			step = 0.01,
-			stringIndex = 2,
-			wCtrl = 60,
-			wDim = 30,
-			xCtrl = 180,
-			xLbl = 10
+			xCtrl = 200
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",
@@ -78,8 +58,28 @@ _G["launcher"]["{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_RIGHT_WING_RAILS}"] = 
 			stringIndex = 2,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 480,
-			xLbl = 290
+			xCtrl = 200,
+			xLbl = 10
+		}, {
+			VisibilityCondition = { {
+					id = "NFP_fuze_type_nose",
+					value = 1
+				} },
+			baseDim = "s",
+			control = "spinbox",
+			defValue = 0,
+			dimension = "s",
+			id = "function_delay_ctrl_NFNo899MkI",
+			label = "Function Delay",
+			max = 1000000000000,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 2,
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 500,
+			xLbl = 310
 		} },
 	wsTypeOfWeapon = <table 1>
 }

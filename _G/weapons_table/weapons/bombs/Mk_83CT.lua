@@ -24,6 +24,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_83CT"] = {
 		control = {
 			open_delay = 0.2
 		},
+		display_name_short = "Mk-83",
 		fm = {
 			I = 340.5,
 			L = 3,
@@ -81,7 +82,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_83CT"] = {
 	},
 	cx = { 1, 0.29, 0.71, 0.14, 1.28 },
 	display_name = "Mk-83CT",
-	display_name_short = "Mk-83CT",
+	display_name_short = "Mk-83",
 	mass = 454,
 	model = "mk-82air",
 	name = "Mk_83CT",
@@ -104,6 +105,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_83CT"] = {
 		control = {
 			open_delay = 0.2
 		},
+		display_name_short = "Mk-83",
 		fm = {
 			I = 340.5,
 			L = 3,

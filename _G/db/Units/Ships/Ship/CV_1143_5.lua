@@ -264,6 +264,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	},
 	Landing_Point = { 71, 16.26, -30 },
 	Length = 304.5,
+	MaxSpeed = 59.26392,
 	Name = "CV 1143.5 Admiral Kuznetsov(2017)",
 	OLS = {
 		MeatBallArg = 151,

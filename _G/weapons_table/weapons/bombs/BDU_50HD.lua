@@ -15,6 +15,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_50HD"] = {
 		control = {
 			open_delay = 0.2
 		},
+		display_name_short = "BDU-500",
 		fm = {
 			I = 94.42593,
 			L = 2.21,
@@ -47,6 +48,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_50HD"] = {
 	},
 	cx = { 1, 0.29, 0.71, 0.14, 1.28 },
 	display_name = "BDU-50HD",
+	display_name_short = "BDU-500",
 	encyclopediaAnimation = {
 		args = {
 			[0] = 1
@@ -67,6 +69,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_50HD"] = {
 		control = {
 			open_delay = 0.2
 		},
+		display_name_short = "BDU-500",
 		fm = {
 			I = 94.42593,
 			L = 2.21,

@@ -23,6 +23,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_28"] = {
 		controller = {
 			march_start = 2
 		},
+		display_name_short = "Kh-28",
 		fm = {
 			A = 0.36,
 			I = 2173.6953333333,
@@ -119,6 +120,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_28"] = {
 		}
 	},
 	display_name = "Kh-28",
+	display_name_short = "Kh-28",
 	mass = 715,
 	model = "X-28",
 	name = "X_28",
@@ -143,6 +145,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_28"] = {
 		controller = {
 			march_start = 2
 		},
+		display_name_short = "Kh-28",
 		fm = {
 			A = 0.36,
 			I = 2173.6953333333,

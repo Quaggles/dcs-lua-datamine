@@ -51,6 +51,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_154"] = {
 			turn_max_calc_angle_deg = 90,
 			turn_point_trigger_dist = 100
 		},
+		display_name_short = "AGM-154",
 		fm = {
 			A = 0.15,
 			I = 1000,
@@ -113,6 +114,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_154"] = {
 		}
 	},
 	display_name = "AGM-154C",
+	display_name_short = "AGM-154",
 	mass = 485,
 	model = "agm-154C",
 	name = "AGM_154",
@@ -165,6 +167,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_154"] = {
 			turn_max_calc_angle_deg = 90,
 			turn_point_trigger_dist = 100
 		},
+		display_name_short = "AGM-154",
 		fm = {
 			A = 0.15,
 			I = 1000,

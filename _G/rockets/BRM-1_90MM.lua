@@ -40,7 +40,7 @@ _G["rockets"]["#Index"] = {
 		fins_limit = 0.34906585039887,
 		fins_limit_x = 0.17453292519943,
 		gload_limit = 10,
-		op_time = 45
+		op_time = 90
 	},
 	category = 2,
 	class_name = "wAmmunitionLaserHoming",

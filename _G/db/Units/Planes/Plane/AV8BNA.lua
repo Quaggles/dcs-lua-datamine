@@ -144,7 +144,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			defValue = 6,
 			dimension = " ",
 			id = "GBULaserCode100",
-			label = "Laser code 2nd dgt GBU, 1x11",
+			label = "Laser code for GBUs, 1x11",
 			max = 8,
 			min = 5
 		}, {
@@ -152,7 +152,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			defValue = 8,
 			dimension = " ",
 			id = "GBULaserCode10",
-			label = "Laser code 3rd dgt GBU, 11x1",
+			label = "Laser code for GBUs, 11x1",
 			max = 8,
 			min = 1
 		}, {
@@ -160,7 +160,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			defValue = 8,
 			dimension = " ",
 			id = "GBULaserCode1",
-			label = "Laser code 4th dgt GBU, 111x",
+			label = "Laser code for GBUs, 111x",
 			max = 8,
 			min = 1
 		}, {

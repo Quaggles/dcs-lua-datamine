@@ -36,6 +36,7 @@ _G["rockets"]["#Index"] = {
 	category = 4,
 	ccm_k0 = 5,
 	display_name = "R-3S",
+	display_name_short = "R-3S",
 	exhaust = { 1, 1, 1, 1 },
 	name = "R-3S",
 	nozzle_exit_area = 0.005,

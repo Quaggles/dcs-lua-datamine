@@ -58,6 +58,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_88"] = {
 		conv = {
 			seeker_add_pitch = -0.34906585039887
 		},
+		display_name_short = "AGM-88",
 		fm = {
 			A1trim = { 10, 10 },
 			A2trim = { 10, 10 },
@@ -158,6 +159,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_88"] = {
 		}
 	},
 	display_name = "AGM-88C",
+	display_name_short = "AGM-88",
 	mass = 361,
 	model = "AGM-88",
 	name = "AGM_88",
@@ -217,6 +219,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_88"] = {
 		conv = {
 			seeker_add_pitch = -0.34906585039887
 		},
+		display_name_short = "AGM-88",
 		fm = {
 			A1trim = { 10, 10 },
 			A2trim = { 10, 10 },

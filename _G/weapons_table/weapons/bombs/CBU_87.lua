@@ -14,6 +14,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_87"] = {
 			enabled = false,
 			velK = 1
 		},
+		display_name_short = "CBU-87",
 		fm = {
 			I = 194.1438464,
 			L = 2.3552,
@@ -217,6 +218,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_87"] = {
 	},
 	cx = { 1, 0.55, 0.8, 0.2, 1.5 },
 	display_name = "CBU-87",
+	display_name_short = "CBU-87",
 	encyclopediaAnimation = {
 		args = {
 			[0] = 1
@@ -235,6 +237,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_87"] = {
 			enabled = false,
 			velK = 1
 		},
+		display_name_short = "CBU-87",
 		fm = {
 			I = 194.1438464,
 			L = 2.3552,

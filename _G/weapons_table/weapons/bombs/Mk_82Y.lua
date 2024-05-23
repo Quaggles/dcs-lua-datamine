@@ -26,6 +26,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_82Y"] = {
 		control = {
 			open_delay = 0.2
 		},
+		display_name_short = "Mk-82",
 		fm = {
 			I = 94.42593,
 			L = 2.21,
@@ -83,7 +84,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_82Y"] = {
 	},
 	cx = { 1, 0.29, 0.71, 0.14, 1.28 },
 	display_name = "Mk-82Y - 500lb GP Chute Retarded HD",
-	display_name_short = "Mk-82Y - 500lb GP Chute Retarded HD",
+	display_name_short = "Mk-82",
 	mass = 232,
 	model = "mk-82air",
 	name = "Mk_82Y",
@@ -107,6 +108,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_82Y"] = {
 		control = {
 			open_delay = 0.2
 		},
+		display_name_short = "Mk-82",
 		fm = {
 			I = 94.42593,
 			L = 2.21,

@@ -57,6 +57,7 @@ _G["torpedoes"]["#Index"] = {
 	category = 11,
 	class_name = "wAmmunition",
 	display_name = "LTF 5b",
+	display_name_short = "LTF5",
 	engine = {
 		thrust = 7900
 	},

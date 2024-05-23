@@ -64,7 +64,7 @@ _G["weapons_table"]["weapons"]["missiles"]["ADM_141A"] = {
 			turn_max_calc_angle_deg = 90,
 			turn_point_trigger_dist = 100
 		},
-		display_name_short = "ADM-141A",
+		display_name_short = "ADM-141",
 		engine_control = {
 			K = 0,
 			Kd = 0,
@@ -149,7 +149,7 @@ _G["weapons_table"]["weapons"]["missiles"]["ADM_141A"] = {
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	display_name = "ADM-141A",
-	display_name_short = "ADM-141A",
+	display_name_short = "ADM-141",
 	encyclopediaAnimation = {
 		args = {
 			[25] = 1
@@ -217,7 +217,7 @@ _G["weapons_table"]["weapons"]["missiles"]["ADM_141A"] = {
 			turn_max_calc_angle_deg = 90,
 			turn_point_trigger_dist = 100
 		},
-		display_name_short = "ADM-141A",
+		display_name_short = "ADM-141",
 		engine_control = {
 			K = 0,
 			Kd = 0,

@@ -27,6 +27,7 @@ _G["weapons_table"]["weapons"]["bombs"]["M257_FLARE"] = {
 		},
 		category = 1,
 		class_name = "wAmmunition_viHeavyObject",
+		display_name_short = "illum.",
 		fm = {
 			I = 0.22816666666667,
 			L = 0.74,
@@ -80,7 +81,7 @@ _G["weapons_table"]["weapons"]["bombs"]["M257_FLARE"] = {
 	},
 	cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 	display_name = "M257 Flare",
-	display_name_short = "M257 Flare",
+	display_name_short = "illum.",
 	mass = 5,
 	model = "Hydra_M257_Parashute",
 	name = "M257_FLARE",
@@ -106,6 +107,7 @@ _G["weapons_table"]["weapons"]["bombs"]["M257_FLARE"] = {
 		},
 		category = 1,
 		class_name = "wAmmunition_viHeavyObject",
+		display_name_short = "illum.",
 		fm = {
 			I = 0.22816666666667,
 			L = 0.74,

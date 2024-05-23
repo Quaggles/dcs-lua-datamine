@@ -45,6 +45,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_31_V_4B"] = {
 		},
 		category = 1,
 		class_name = "wAmmunitionChangeableTrajectory",
+		display_name_short = "GBU-31",
 		fm = {
 			A = 0.6,
 			I = 592.5,
@@ -111,7 +112,12 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_31_V_4B"] = {
 	},
 	cx = { 1, 0.45, 0.8, 0.15, 1.55 },
 	display_name = "GBU-31(V)4/B",
-	display_name_short = "GBU-31(V)4/B",
+	display_name_short = "GBU-31",
+	encyclopediaAnimation = {
+		args = {
+			[57] = 1
+		}
+	},
 	mass = 970,
 	model = "GBU31_V_3B_BLU109",
 	name = "GBU_31_V_4B",
@@ -155,6 +161,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_31_V_4B"] = {
 		},
 		category = 1,
 		class_name = "wAmmunitionChangeableTrajectory",
+		display_name_short = "GBU-31",
 		fm = {
 			A = 0.6,
 			I = 592.5,

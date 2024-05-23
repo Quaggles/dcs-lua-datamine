@@ -18,6 +18,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BetAB_500ShP"] = {
 			delay_eng = 10,
 			delay_par = 1.5
 		},
+		display_name_short = "BetAB-500",
 		engine = {
 			boost_factor = 1,
 			boost_tail = 1,
@@ -63,6 +64,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BetAB_500ShP"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "BetAB-500ShP",
+	display_name_short = "BetAB-500",
 	mass = 372.2,
 	model = "betab-500sp",
 	name = "BetAB_500ShP",
@@ -80,6 +82,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BetAB_500ShP"] = {
 			delay_eng = 10,
 			delay_par = 1.5
 		},
+		display_name_short = "BetAB-500",
 		engine = {
 			boost_factor = 1,
 			boost_tail = 1,

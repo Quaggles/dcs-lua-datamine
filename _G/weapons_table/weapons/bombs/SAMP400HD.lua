@@ -23,6 +23,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP400HD"] = {
 			open_delay = 0.3
 		},
 		displayName = "SAMP-400 - 400 kg GP Chute Retarded Bomb HD",
+		display_name_short = "SAMP-400",
 		fm = {
 			I = 158.44885166667,
 			L = 2.194,
@@ -76,7 +77,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP400HD"] = {
 	},
 	cx = { 1, 0.29, 0.71, 0.14, 1.28 },
 	display_name = "SAMP-400 HD",
-	display_name_short = "SAMP-400 HD",
+	display_name_short = "SAMP-400",
 	mass = 395,
 	model = "SAMP_400R",
 	name = "SAMP400HD",
@@ -98,6 +99,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP400HD"] = {
 			open_delay = 0.3
 		},
 		displayName = "SAMP-400 - 400 kg GP Chute Retarded Bomb HD",
+		display_name_short = "SAMP-400",
 		fm = {
 			I = 158.44885166667,
 			L = 2.194,

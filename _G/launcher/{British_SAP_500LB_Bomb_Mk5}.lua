@@ -26,7 +26,27 @@ _G["launcher"]["{British_SAP_500LB_Bomb_Mk5}"] = {
 					id = 1
 				} },
 			wCtrl = 360,
-			xCtrl = 180
+			xCtrl = 200
+		}, {
+			VisibilityCondition = { {
+					id = "NFP_fuze_type_tail",
+					value = 1
+				} },
+			baseDim = "rev",
+			control = "spinbox",
+			defValue = 13,
+			dimension = "rev",
+			id = "vane_rev_threshold_ctrl_TP30MkIII",
+			label = "Arming Vane Revs. Required",
+			max = 1000000000000,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 2,
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 200,
+			xLbl = 10
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -57,27 +77,7 @@ _G["launcher"]["{British_SAP_500LB_Bomb_Mk5}"] = {
 					units = "s"
 				} },
 			wCtrl = 60,
-			xCtrl = 180,
-			xLbl = 10
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type_tail",
-					value = 1
-				} },
-			baseDim = "rev",
-			control = "spinbox",
-			defValue = 13,
-			dimension = "rev",
-			id = "vane_rev_threshold_ctrl_TP30MkIII",
-			label = "Arming Vane Revs. Required",
-			max = 1000000000000,
-			min = 0,
-			readOnly = true,
-			step = 0.01,
-			stringIndex = 2,
-			wCtrl = 60,
-			wDim = 30,
-			xCtrl = 480,
-			xLbl = 290
+			xCtrl = 500,
+			xLbl = 310
 		} }
 }

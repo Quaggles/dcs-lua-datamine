@@ -94,6 +94,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	},
 	Landing_Point = { -76, 11, 3.5 },
 	Length = 210,
+	MaxSpeed = 45.99972,
 	Name = "Type 071 Amphibious Transport Dock",
 	OLS = {
 		MeatBallArg = -1,

@@ -310,6 +310,16 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "TugHarlan_drivable"
+				}, {
+					Name = "B600_drivable"
+				}, {
+					Name = "MJ-1_drivable"
+				}, {
+					Name = "P20_drivable"
+				}, {
+					Name = "r11_volvo_drivable"
+				}, {
 					Name = "Electric locomotive"
 				}, {
 					Name = "Locomotive"
@@ -325,6 +335,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Coach a passenger"
 				}, {
 					Name = "Coach a platform"
+				}, {
+					Name = "L118_Unit"
 				}, {
 					Name = "tacr2a"
 				}, {
@@ -654,6 +666,210 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "Beer Bomb"
 				}, {
+					Name = "AM32a-60_01"
+				}, {
+					Name = "AM32a-60_02"
+				}, {
+					Name = "APFC fuel"
+				}, {
+					Name = "B600"
+				}, {
+					Name = "Barrier A"
+				}, {
+					Name = "Barrier B"
+				}, {
+					Name = "Barrier C"
+				}, {
+					Name = "Barrier D"
+				}, {
+					Name = "BoomBarrier_open"
+				}, {
+					Name = "BoomBarrier_closed"
+				}, {
+					Name = "Building01_PBR"
+				}, {
+					Name = "Building02_PBR"
+				}, {
+					Name = "Building03_PBR"
+				}, {
+					Name = "Building04_PBR"
+				}, {
+					Name = "Building05_PBR"
+				}, {
+					Name = "Building06_PBR"
+				}, {
+					Name = "Building07_PBR"
+				}, {
+					Name = "Building08_PBR"
+				}, {
+					Name = "Cargo01"
+				}, {
+					Name = "Cargo02"
+				}, {
+					Name = "Cargo03"
+				}, {
+					Name = "Cargo04"
+				}, {
+					Name = "Cargo05"
+				}, {
+					Name = "Cargo06"
+				}, {
+					Name = "Camouflage01"
+				}, {
+					Name = "Camouflage02"
+				}, {
+					Name = "Camouflage03"
+				}, {
+					Name = "Camouflage04"
+				}, {
+					Name = "Camouflage05"
+				}, {
+					Name = "Camouflage06"
+				}, {
+					Name = "Camouflage07"
+				}, {
+					Name = "Cone01"
+				}, {
+					Name = "Cone02"
+				}, {
+					Name = "Container_10ft"
+				}, {
+					Name = "Container_20ft"
+				}, {
+					Name = "Container_40ft"
+				}, {
+					Name = "Container_watchtower"
+				}, {
+					Name = "Container_watchtower_lights"
+				}, {
+					Name = "Container_office"
+				}, {
+					Name = "Container_generator"
+				}, {
+					Name = "ElevatedPlatform_down"
+				}, {
+					Name = "ElevatedPlatform_up"
+				}, {
+					Name = "FireExtinguisher01"
+				}, {
+					Name = "FireExtinguisher02"
+				}, {
+					Name = "FireExtinguisher03"
+				}, {
+					Name = "HESCO_generator"
+				}, {
+					Name = "HESCO_post_1"
+				}, {
+					Name = "HESCO_wallperimeter_1"
+				}, {
+					Name = "HESCO_wallperimeter_2"
+				}, {
+					Name = "HESCO_wallperimeter_3"
+				}, {
+					Name = "HESCO_wallperimeter_4"
+				}, {
+					Name = "HESCO_wallperimeter_5"
+				}, {
+					Name = "HESCO_watchtower_1"
+				}, {
+					Name = "HESCO_watchtower_2"
+				}, {
+					Name = "HESCO_watchtower_3"
+				}, {
+					Name = "Jerrycan"
+				}, {
+					Name = "Ladder"
+				}, {
+					Name = "LHD_LHA"
+				}, {
+					Name = "M32-10C_01"
+				}, {
+					Name = "M32-10C_02"
+				}, {
+					Name = "M32-10C_03"
+				}, {
+					Name = "M32-10C_04"
+				}, {
+					Name = "MJ-1_01"
+				}, {
+					Name = "MJ-1_02"
+				}, {
+					Name = "NF-2_LightOn"
+				}, {
+					Name = "NF-2_LightOff01"
+				}, {
+					Name = "NF-2_LightOff02"
+				}, {
+					Name = "Oil Barrel"
+				}, {
+					Name = "Pile of Woods"
+				}, {
+					Name = "P20_01"
+				}, {
+					Name = "Revetment_x4"
+				}, {
+					Name = "Revetment_x8"
+				}, {
+					Name = "r11_volvo"
+				}, {
+					Name = "Sandbag_01"
+				}, {
+					Name = "Sandbag_02"
+				}, {
+					Name = "Sandbag_03"
+				}, {
+					Name = "Sandbag_04"
+				}, {
+					Name = "Sandbag_05"
+				}, {
+					Name = "Sandbag_06"
+				}, {
+					Name = "Sandbag_07"
+				}, {
+					Name = "Sandbag_08"
+				}, {
+					Name = "Sandbag_09"
+				}, {
+					Name = "Sandbag_10"
+				}, {
+					Name = "Sandbag_11"
+				}, {
+					Name = "Sandbag_12"
+				}, {
+					Name = "Sandbag_13"
+				}, {
+					Name = "Sandbag_15"
+				}, {
+					Name = "Sandbag_16"
+				}, {
+					Name = "Sandbag_17"
+				}, {
+					Name = "Shelter01"
+				}, {
+					Name = "Shelter02"
+				}, {
+					Name = "TugHarlan"
+				}, {
+					Name = "Tent05"
+				}, {
+					Name = "Tent04"
+				}, {
+					Name = "Tent03"
+				}, {
+					Name = "Tent02"
+				}, {
+					Name = "Tent01"
+				}, {
+					Name = "Toolbox01"
+				}, {
+					Name = "Toolbox02"
+				}, {
+					Name = "Twall_x1"
+				}, {
+					Name = "Twall_x6"
+				}, {
+					Name = "Twall_x6_3mts"
+				}, {
 					Name = "Orca"
 				}, {
 					Name = "WindTurbine"
@@ -675,6 +891,14 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "offshore WindTurbine"
 				}, {
 					Name = "offshore WindTurbine2"
+				}, {
+					Name = "FarpHide_small"
+				}, {
+					Name = "FarpHide_Med"
+				}, {
+					Name = "FarpHide_Dsmall"
+				}, {
+					Name = "FarpHide_Dmed"
 				}, {
 					Name = "container_40ft"
 				}, {
@@ -839,6 +1063,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Christen Eagle II"
 				}, {
 					Name = "F-15ESE"
+				}, {
+					Name = "F-4E-45MC"
 				}, {
 					Name = "F-5E"
 				}, {

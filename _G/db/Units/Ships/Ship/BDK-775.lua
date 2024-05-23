@@ -148,6 +148,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	Height = 26,
 	IR_emission_coeff = 0.35,
 	Length = 112.5,
+	MaxSpeed = 32.976,
 	Name = "LS Ropucha",
 	Om = 0.03,
 	RCS = 51000,

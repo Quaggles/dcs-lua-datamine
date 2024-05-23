@@ -15,33 +15,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				} },
 			wCtrl = 150
 		}, {
-			control = "spinbox",
-			defValue = 6,
-			dimension = " ",
-			id = "LaserCode100",
-			label = "Laser code 2nd dgt GBU, 1x11",
-			max = 7,
-			min = 5,
-			playerOnly = true
-		}, {
-			control = "spinbox",
-			defValue = 8,
-			dimension = " ",
-			id = "LaserCode10",
-			label = "Laser code 3rd dgt GBU, 11x1",
-			max = 8,
-			min = 1,
-			playerOnly = true
-		}, {
-			control = "spinbox",
-			defValue = 8,
-			dimension = " ",
-			id = "LaserCode1",
-			label = "Laser code 4th dgt GBU, 111x",
-			max = 8,
-			min = 1,
-			playerOnly = true
-		}, {
+			arg = 509,
 			control = "comboList",
 			defValue = 1,
 			id = "HelmetMountedDevice",
@@ -49,13 +23,16 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			playerOnly = true,
 			values = { {
 					dispName = "Not installed",
-					id = 0
+					id = 0,
+					value = 0.5
 				}, {
 					dispName = "JHMCS",
-					id = 1
+					id = 1,
+					value = 0
 				}, {
 					dispName = "NVG",
-					id = 2
+					id = 2,
+					value = 1
 				} },
 			wCtrl = 150
 		}, {
@@ -971,18 +948,18 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				damper_coeff = 300,
 				filter_yaw = false,
 				moment_limit = 750,
-				noise_k = 1,
+				noise_k = 0.2,
 				self_attitude = false,
 				wheel_axle_offset = 0,
 				wheel_damage_delta_speedX = 11.5,
 				wheel_damage_force_factor = 450,
 				wheel_damage_speedX = 115,
-				wheel_glide_friction_factor = 0.3,
+				wheel_glide_friction_factor = 0.45,
 				wheel_kz_factor = 0.3,
 				wheel_radius = 0.2286,
 				wheel_roll_friction_factor = 0.05,
-				wheel_side_friction_factor = 0.45,
-				wheel_static_friction_factor = 0.65,
+				wheel_side_friction_factor = 0.55,
+				wheel_static_friction_factor = 0.75,
 				yaw_limit = 0.55850536063819
 			}, {
 				allowable_hard_contact_length = 0.1,
@@ -1006,16 +983,16 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				crossover_locked_wheel_protection_wheel = 2,
 				damage_element = 84,
 				noise_k = 0.4,
-				wheel_brake_moment_max = 9500,
+				wheel_brake_moment_max = 8500,
 				wheel_damage_delta_speedX = 11.5,
 				wheel_damage_force_factor = 450,
 				wheel_damage_speedX = 115,
-				wheel_glide_friction_factor = 0.3,
-				wheel_kz_factor = 0.52,
+				wheel_glide_friction_factor = 0.55,
+				wheel_kz_factor = 0.3,
 				wheel_radius = 0.352425,
 				wheel_roll_friction_factor = 0.04,
-				wheel_side_friction_factor = 0.43,
-				wheel_static_friction_factor = 0.7
+				wheel_side_friction_factor = 0.7,
+				wheel_static_friction_factor = 0.85
 			}, {
 				allowable_hard_contact_length = 0.1,
 				amortizer_back_damper_force_factor = 20000,
@@ -1038,16 +1015,16 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				crossover_locked_wheel_protection_wheel = 1,
 				damage_element = 85,
 				noise_k = 0.4,
-				wheel_brake_moment_max = 9500,
+				wheel_brake_moment_max = 8500,
 				wheel_damage_delta_speedX = 11.5,
 				wheel_damage_force_factor = 450,
 				wheel_damage_speedX = 115,
-				wheel_glide_friction_factor = 0.3,
-				wheel_kz_factor = 0.52,
+				wheel_glide_friction_factor = 0.55,
+				wheel_kz_factor = 0.3,
 				wheel_radius = 0.352425,
 				wheel_roll_friction_factor = 0.04,
-				wheel_side_friction_factor = 0.43,
-				wheel_static_friction_factor = 0.7
+				wheel_side_friction_factor = 0.7,
+				wheel_static_friction_factor = 0.85
 			} },
 		user_options = "F-16C_50"
 	},
@@ -2378,7 +2355,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			DuplicateOf = "Door0"
 		}
 	},
-	net_animation = { 25, 78, 274, 275, 799 },
+	net_animation = { 25, 78, 274, 275, 799, 39, 99, 533, 459, 500, 501, 502, 503, 504, 505, 395, 396, 420, 506, 507, 508, 509, 530, 531, 532, 534, 535, 536 },
 	nose_gear_amortizer_direct_stroke = 0,
 	nose_gear_amortizer_normal_weight_stroke = -0.146,
 	nose_gear_amortizer_reversal_stroke = -0.244,

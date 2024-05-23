@@ -101,7 +101,7 @@ _G["weapons_table"]["weapons"]["missiles"]["KD_63B"] = {
 			boost_start = 0,
 			march_start = 0
 		},
-		display_name_short = "KD-63B",
+		display_name_short = "KD-63",
 		engine_control = {
 			K = 240,
 			Kd = 1,
@@ -254,7 +254,7 @@ _G["weapons_table"]["weapons"]["missiles"]["KD_63B"] = {
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	display_name = "KD-63B",
-	display_name_short = "KD-63B",
+	display_name_short = "KD-63",
 	mass = 2000,
 	model = "kd63b",
 	name = "KD_63B",
@@ -354,7 +354,7 @@ _G["weapons_table"]["weapons"]["missiles"]["KD_63B"] = {
 			boost_start = 0,
 			march_start = 0
 		},
-		display_name_short = "KD-63B",
+		display_name_short = "KD-63",
 		engine_control = {
 			K = 240,
 			Kd = 1,

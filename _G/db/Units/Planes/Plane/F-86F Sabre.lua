@@ -401,8 +401,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg = 434,
 					name = "FireEffect"
 				}, {
-					barrel_k = 1.2474,
-					body_k = 6.6066,
+					barrel_k = 2.772,
+					body_k = 14.784,
 					name = "HeatEffectExt",
 					shot_heat = 7.823
 				}, {
@@ -576,8 +576,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg = 435,
 					name = "FireEffect"
 				}, {
-					barrel_k = 1.2474,
-					body_k = 6.6066,
+					barrel_k = 2.772,
+					body_k = 14.784,
 					name = "HeatEffectExt",
 					shot_heat = 7.823
 				}, {
@@ -626,8 +626,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg = 436,
 					name = "FireEffect"
 				}, {
-					barrel_k = 1.2474,
-					body_k = 6.6066,
+					barrel_k = 2.772,
+					body_k = 14.784,
 					name = "HeatEffectExt",
 					shot_heat = 7.823
 				}, {
@@ -676,8 +676,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg = 433,
 					name = "FireEffect"
 				}, {
-					barrel_k = 1.2474,
-					body_k = 6.6066,
+					barrel_k = 2.772,
+					body_k = 14.784,
 					name = "HeatEffectExt",
 					shot_heat = 7.823
 				}, {
@@ -726,8 +726,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg = 432,
 					name = "FireEffect"
 				}, {
-					barrel_k = 1.2474,
-					body_k = 6.6066,
+					barrel_k = 2.772,
+					body_k = 14.784,
 					name = "HeatEffectExt",
 					shot_heat = 7.823
 				}, {
@@ -776,8 +776,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg = 350,
 					name = "FireEffect"
 				}, {
-					barrel_k = 1.2474,
-					body_k = 6.6066,
+					barrel_k = 2.772,
+					body_k = 14.784,
 					name = "HeatEffectExt",
 					shot_heat = 7.823
 				}, {
@@ -1170,11 +1170,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	crew_members = { {
 			canopy_ejection_dir = { -1, 0.2, 0 },
 			canopy_pos = { 1.607, 1.181, 0 },
-			drop_canopy_name = 298,
+			drop_canopy_name = 304,
 			drop_parachute_name = "pilot_f86_parachute",
-			ejection_seat_name = 297,
+			ejection_seat_name = 303,
 			g_suit = 0.7,
-			pilot_name = 299,
+			pilot_name = 305,
 			pos = { 1.7, 0.5, 0 },
 			role = "pilot",
 			role_display_name = "Pilot"

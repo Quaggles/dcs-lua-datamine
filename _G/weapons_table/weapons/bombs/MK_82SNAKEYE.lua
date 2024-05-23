@@ -20,6 +20,7 @@ _G["weapons_table"]["weapons"]["bombs"]["MK_82SNAKEYE"] = {
 		control = {
 			open_delay = 0.2
 		},
+		display_name_short = "MK-82",
 		fm = {
 			I = 94.42593,
 			L = 2.21,
@@ -56,6 +57,7 @@ _G["weapons_table"]["weapons"]["bombs"]["MK_82SNAKEYE"] = {
 	},
 	cx = { 1, 0.29, 0.71, 0.14, 1.28 },
 	display_name = "Mk-82 Snakeye",
+	display_name_short = "MK-82",
 	encyclopediaAnimation = {
 		args = {
 			[0] = 1,
@@ -81,6 +83,7 @@ _G["weapons_table"]["weapons"]["bombs"]["MK_82SNAKEYE"] = {
 		control = {
 			open_delay = 0.2
 		},
+		display_name_short = "MK-82",
 		fm = {
 			I = 94.42593,
 			L = 2.21,

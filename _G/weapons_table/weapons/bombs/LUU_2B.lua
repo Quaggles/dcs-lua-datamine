@@ -27,6 +27,7 @@ _G["weapons_table"]["weapons"]["bombs"]["LUU_2B"] = {
 		},
 		category = 1,
 		class_name = "wAmmunition_viHeavyObject",
+		display_name_short = "illum.",
 		fm = {
 			I = 0.93851333333333,
 			L = 0.91,
@@ -80,7 +81,7 @@ _G["weapons_table"]["weapons"]["bombs"]["LUU_2B"] = {
 	},
 	cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 	display_name = "LUU-2B Flare",
-	display_name_short = "LUU-2B Flare",
+	display_name_short = "illum.",
 	mass = 13.6,
 	model = "luu-2",
 	name = "LUU_2B",
@@ -106,6 +107,7 @@ _G["weapons_table"]["weapons"]["bombs"]["LUU_2B"] = {
 		},
 		category = 1,
 		class_name = "wAmmunition_viHeavyObject",
+		display_name_short = "illum.",
 		fm = {
 			I = 0.93851333333333,
 			L = 0.91,

@@ -41,6 +41,7 @@ _G["weapons_table"]["weapons"]["bombs"]["KAB_500S"] = {
 		},
 		category = 1,
 		class_name = "wAmmunitionChangeableTrajectory",
+		display_name_short = "KAB-500",
 		fm = {
 			A = 0.6,
 			I = 375,
@@ -104,7 +105,7 @@ _G["weapons_table"]["weapons"]["bombs"]["KAB_500S"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "KAB-500S",
-	display_name_short = "KAB-500S",
+	display_name_short = "KAB-500",
 	mass = 500,
 	model = "kab-500s",
 	name = "KAB_500S",
@@ -143,6 +144,7 @@ _G["weapons_table"]["weapons"]["bombs"]["KAB_500S"] = {
 		},
 		category = 1,
 		class_name = "wAmmunitionChangeableTrajectory",
+		display_name_short = "KAB-500",
 		fm = {
 			A = 0.6,
 			I = 375,

@@ -45,6 +45,7 @@ _G["weapons_table"]["weapons"]["missiles"]["SCUD_RAKETA"] = {
 			boost_start = 0,
 			march_start = 2.98
 		},
+		display_name_short = "Scud R-17",
 		fm = {
 			A = 0.08,
 			Cx0 = { 0.32, 0.32, 0.32, 0.32, 0.34, 0.42, 0.6, 0.8, 0.9, 0.86, 0.78, 0.76, 0.73, 0.7, 0.67, 0.65, 0.62, 0.6, 0.58, 0.56, 0.55 },
@@ -109,6 +110,7 @@ _G["weapons_table"]["weapons"]["missiles"]["SCUD_RAKETA"] = {
 		}
 	},
 	display_name = "Scud R-17",
+	display_name_short = "Scud R-17",
 	mass = 5862,
 	model = "R-17",
 	name = "SCUD_RAKETA",
@@ -155,6 +157,7 @@ _G["weapons_table"]["weapons"]["missiles"]["SCUD_RAKETA"] = {
 			boost_start = 0,
 			march_start = 2.98
 		},
+		display_name_short = "Scud R-17",
 		fm = {
 			A = 0.08,
 			Cx0 = { 0.32, 0.32, 0.32, 0.32, 0.34, 0.42, 0.6, 0.8, 0.9, 0.86, 0.78, 0.76, 0.73, 0.7, 0.67, 0.65, 0.62, 0.6, 0.58, 0.56, 0.55 },

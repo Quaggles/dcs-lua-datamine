@@ -34,6 +34,7 @@ _G["weapons_table"]["weapons"]["bombs"]["KAB_1500LG"] = {
 		},
 		category = 1,
 		class_name = "wAmmunitionLaserHoming",
+		display_name_short = "KAB-1500",
 		fm = {
 			A = 0.6,
 			I = 2327.9633333333,
@@ -93,7 +94,7 @@ _G["weapons_table"]["weapons"]["bombs"]["KAB_1500LG"] = {
 	},
 	cx = { 1, 0.4, 0.37, 0.288, 1.31 },
 	display_name = "KAB-1500LG-Pr",
-	display_name_short = "KAB-1500LG-Pr",
+	display_name_short = "KAB-1500",
 	mass = 1525,
 	model = "kab-1500lg",
 	name = "KAB_1500LG",
@@ -125,6 +126,7 @@ _G["weapons_table"]["weapons"]["bombs"]["KAB_1500LG"] = {
 		},
 		category = 1,
 		class_name = "wAmmunitionLaserHoming",
+		display_name_short = "KAB-1500",
 		fm = {
 			A = 0.6,
 			I = 2327.9633333333,

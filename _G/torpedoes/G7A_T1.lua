@@ -78,7 +78,7 @@ _G["torpedoes"]["#Index"] = {
 			username = "G7A_T1"
 		} },
 	user_name = "G7A_T1",
-	v_mid = 19.27,
+	v_mid = 20.59,
 	warhead = "_G/warheads/G7_A.lua",
 	warhead_water = "_G/warheads/G7_A.lua",
 	wsTypeOfWeapon = <1>{ 4, 8, 11, "Redacted" },

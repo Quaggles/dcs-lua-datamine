@@ -5,6 +5,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	DetectionRange = 0,
 	DisplayName = "Firefighter RAF Rescue",
+	MaxSpeed = 113.00004,
 	Name = "Firefighter RAF Rescue",
 	Rate = 5,
 	ThreatRange = 0,

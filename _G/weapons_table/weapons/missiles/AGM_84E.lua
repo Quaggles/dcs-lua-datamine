@@ -61,6 +61,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_84E"] = {
 			boost_start = 0,
 			march_start = 0
 		},
+		display_name_short = "AGM-84",
 		engine_control = {
 			K = 240,
 			Kd = 1,
@@ -195,6 +196,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_84E"] = {
 		}
 	},
 	display_name = "AGM-84E",
+	display_name_short = "AGM-84",
 	mass = 629.5,
 	model = "agm-84e",
 	name = "AGM_84E",
@@ -256,6 +258,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_84E"] = {
 			boost_start = 0,
 			march_start = 0
 		},
+		display_name_short = "AGM-84",
 		engine_control = {
 			K = 240,
 			Kd = 1,

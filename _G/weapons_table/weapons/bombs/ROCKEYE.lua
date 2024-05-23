@@ -14,10 +14,22 @@ _G["weapons_table"]["weapons"]["bombs"]["ROCKEYE"] = {
 			enabled = false,
 			velK = 1
 		},
+		container_fuze = {
+			default_arm_delays = { 1.1 },
+			default_delay_sorting_mode = 0,
+			default_func_delay_mode = 0,
+			is_impact_fuze_disabled = true,
+			is_multidelay = true,
+			is_vane_anim_required = true,
+			tdd_position = { 1.005, 0, 0 },
+			tdd_sigma = 10,
+			use_single_arm_delay = true
+		},
 		control = {
 			default_delay = 1.2,
 			default_open_height = 457
 		},
+		display_name_short = "Mk-20",
 		fm = {
 			I = 101.2986,
 			L = 2.34,
@@ -106,10 +118,11 @@ _G["weapons_table"]["weapons"]["bombs"]["ROCKEYE"] = {
 			},
 			server = 0
 		},
-		scheme = "schemes/bombs/bomb-cassette-2.sch"
+		scheme = "schemes/bombs/bomb_cassette_v3.sch"
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "Mk-20 Rockeye",
+	display_name_short = "Mk-20",
 	mass = 222,
 	model = "rockeye",
 	name = "ROCKEYE",
@@ -123,10 +136,22 @@ _G["weapons_table"]["weapons"]["bombs"]["ROCKEYE"] = {
 			enabled = false,
 			velK = 1
 		},
+		container_fuze = {
+			default_arm_delays = { 1.1 },
+			default_delay_sorting_mode = 0,
+			default_func_delay_mode = 0,
+			is_impact_fuze_disabled = true,
+			is_multidelay = true,
+			is_vane_anim_required = true,
+			tdd_position = { 1.005, 0, 0 },
+			tdd_sigma = 10,
+			use_single_arm_delay = true
+		},
 		control = {
 			default_delay = 1.2,
 			default_open_height = 457
 		},
+		display_name_short = "Mk-20",
 		fm = {
 			I = 101.2986,
 			L = 2.34,
@@ -215,7 +240,7 @@ _G["weapons_table"]["weapons"]["bombs"]["ROCKEYE"] = {
 			},
 			server = 1
 		},
-		scheme = "schemes/bombs/bomb-cassette-2.sch"
+		scheme = "schemes/bombs/bomb_cassette_v3.sch"
 	},
 	sounderName = "Weapons/Bomb",
 	targeting_data = {

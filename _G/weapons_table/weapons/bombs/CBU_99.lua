@@ -23,11 +23,21 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_99"] = {
 		},
 		category = 1,
 		class_name = "wAmmunition",
+		container_fuze = {
+			default_arm_delays = { 1.1 },
+			default_delay_sorting_mode = 0,
+			default_func_delay_mode = 0,
+			is_impact_fuze_disabled = true,
+			is_multidelay = true,
+			is_vane_anim_required = true,
+			tdd_position = { 1.005, 0, 0 },
+			tdd_sigma = 10,
+			use_single_arm_delay = true
+		},
 		control = {
 			default_delay = 1.2,
 			default_open_height = 457
 		},
-		display_name_short = "CBU-99",
 		fm = {
 			I = 101.2986,
 			L = 2.34,
@@ -121,7 +131,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_99"] = {
 		mass = 222,
 		model = "CBU_99",
 		name = "CBU_99",
-		scheme = "schemes/bombs/bomb-cassette-2.sch",
+		scheme = "schemes/bombs/bomb_cassette_v3.sch",
 		shape_table_data = { {
 				file = "CBU_99",
 				fire = { 0, 1 },
@@ -154,7 +164,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_99"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "CBU-99 - 490lbs, 247 x HEAT Bomblets",
-	display_name_short = "CBU-99",
+	display_name_short = "CBU-99 - 490lbs, 247 x HEAT Bomblets",
 	mass = 222,
 	model = "CBU_99",
 	name = "CBU_99",
@@ -175,11 +185,21 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_99"] = {
 		},
 		category = 1,
 		class_name = "wAmmunition",
+		container_fuze = {
+			default_arm_delays = { 1.1 },
+			default_delay_sorting_mode = 0,
+			default_func_delay_mode = 0,
+			is_impact_fuze_disabled = true,
+			is_multidelay = true,
+			is_vane_anim_required = true,
+			tdd_position = { 1.005, 0, 0 },
+			tdd_sigma = 10,
+			use_single_arm_delay = true
+		},
 		control = {
 			default_delay = 1.2,
 			default_open_height = 457
 		},
-		display_name_short = "CBU-99",
 		fm = {
 			I = 101.2986,
 			L = 2.34,
@@ -273,7 +293,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_99"] = {
 		mass = 222,
 		model = "CBU_99",
 		name = "CBU_99",
-		scheme = "schemes/bombs/bomb-cassette-2.sch",
+		scheme = "schemes/bombs/bomb_cassette_v3.sch",
 		shape_table_data = { {
 				file = "CBU_99",
 				fire = { 0, 1 },

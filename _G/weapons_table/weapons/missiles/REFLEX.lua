@@ -28,6 +28,7 @@ _G["weapons_table"]["weapons"]["missiles"]["REFLEX"] = {
 			boost_start = 0,
 			march_start = 0.2
 		},
+		display_name_short = "AT-11",
 		eng_err = {
 			max_time_interval = 1,
 			min_time_interval = 0.1,
@@ -94,6 +95,7 @@ _G["weapons_table"]["weapons"]["missiles"]["REFLEX"] = {
 		}
 	},
 	display_name = "AT-11 Sniper",
+	display_name_short = "AT-11",
 	mass = 17.2,
 	model = "9m119m",
 	name = "REFLEX",
@@ -123,6 +125,7 @@ _G["weapons_table"]["weapons"]["missiles"]["REFLEX"] = {
 			boost_start = 0,
 			march_start = 0.2
 		},
+		display_name_short = "AT-11",
 		eng_err = {
 			max_time_interval = 1,
 			min_time_interval = 0.1,

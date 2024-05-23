@@ -98,7 +98,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_84D"] = {
 			boost_start = 0,
 			march_start = 0
 		},
-		display_name_short = "AGM-84D",
+		display_name_short = "AGM-84",
 		engine_control = {
 			K = 350,
 			Kd = 1,
@@ -256,7 +256,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_84D"] = {
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	display_name = "AGM-84D",
-	display_name_short = "AGM-84D",
+	display_name_short = "AGM-84",
 	mass = 540,
 	model = "agm-84d",
 	name = "AGM_84D",
@@ -353,7 +353,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_84D"] = {
 			boost_start = 0,
 			march_start = 0
 		},
-		display_name_short = "AGM-84D",
+		display_name_short = "AGM-84",
 		engine_control = {
 			K = 350,
 			Kd = 1,

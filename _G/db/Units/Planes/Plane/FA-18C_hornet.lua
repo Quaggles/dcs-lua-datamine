@@ -1589,19 +1589,19 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Pylons = { {
 			Launchers = <11>{ {
 					CLSID = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}",
-					Cx_gain = 0.33
+					Cx_gain = 0.6
 				}, {
 					CLSID = "CATM-9M",
-					Cx_gain = 0.33
+					Cx_gain = 0.6
 				}, {
 					CLSID = "{AIM-9L}",
-					Cx_gain = 0.33
+					Cx_gain = 0.6
 				}, {
 					CLSID = "{5CE2FF2A-645A-4197-B48D-8720AC69394F}",
-					Cx_gain = 0.33
+					Cx_gain = 0.6
 				}, {
 					CLSID = "{AIS_ASQ_T50}",
-					Cx_gain = 0.33,
+					Cx_gain = 0.6,
 					attach_point_position = { 0.25, 0, 0 }
 				} },
 			Number = 1,
@@ -1616,19 +1616,19 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Launchers = { <12>{
 					CLSID = "LAU-115_2*LAU-127_AIM-9M",
 					Cx_gain_empty = 0.786,
-					Cx_gain_item = 0.863
+					Cx_gain_item = 1.576
 				}, <13>{
 					CLSID = "LAU-115_2*LAU-127_CATM-9M",
 					Cx_gain_empty = 0.786,
-					Cx_gain_item = 0.863
+					Cx_gain_item = 1.576
 				}, <14>{
 					CLSID = "LAU-115_2*LAU-127_AIM-9L",
 					Cx_gain_empty = 0.786,
-					Cx_gain_item = 0.863
+					Cx_gain_item = 1.576
 				}, <15>{
 					CLSID = "LAU-115_2*LAU-127_AIM-9X",
 					Cx_gain_empty = 0.786,
-					Cx_gain_item = 0.863
+					Cx_gain_item = 1.576
 				}, <16>{
 					CLSID = "{LAU-115 - AIM-7M}",
 					Cx_gain_empty = 0.7435,
@@ -1656,11 +1656,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, <22>{
 					CLSID = "{F16A4DE0-116C-4A71-97F0-2CF85B0313EC}",
 					Cx_gain_empty = 0.794,
-					Cx_gain_item = 0.677
+					Cx_gain_item = 1.593
 				}, <23>{
 					CLSID = "LAU_117_AGM_65F",
 					Cx_gain_empty = 0.794,
-					Cx_gain_item = 0.677
+					Cx_gain_item = 1.593
 				}, <24>{
 					CLSID = "{B06DD79A-F21E-4EB9-BD9D-AB3844618C93}",
 					Cx_gain_empty = 1.987,
@@ -1855,19 +1855,19 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "LAU-115_LAU-127_AIM-9X",
 					Cx_gain_empty = 0.786,
-					Cx_gain_item = 0.863
+					Cx_gain_item = 1.576
 				}, {
 					CLSID = "LAU-115_LAU-127_AIM-9L",
 					Cx_gain_empty = 0.786,
-					Cx_gain_item = 0.863
+					Cx_gain_item = 1.576
 				}, {
 					CLSID = "LAU-115_LAU-127_AIM-9M",
 					Cx_gain_empty = 0.786,
-					Cx_gain_item = 0.863
+					Cx_gain_item = 1.576
 				}, {
 					CLSID = "LAU-115_LAU-127_CATM-9M",
 					Cx_gain_empty = 0.786,
-					Cx_gain_item = 0.863
+					Cx_gain_item = 1.576
 				}, {
 					CLSID = "{LAU-115 - AIM-120B}",
 					Cx_gain_empty = 0.786,
@@ -1916,11 +1916,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, <84>{
 					CLSID = "{F16A4DE0-116C-4A71-97F0-2CF85B0313EC}",
 					Cx_gain_empty = 0.794,
-					Cx_gain_item = 0.677
+					Cx_gain_item = 1.593
 				}, <85>{
 					CLSID = "LAU_117_AGM_65F",
 					Cx_gain_empty = 0.794,
-					Cx_gain_item = 0.677
+					Cx_gain_item = 1.593
 				}, <86>{
 					CLSID = "{B06DD79A-F21E-4EB9-BD9D-AB3844618C93}",
 					Cx_gain_empty = 1.987,
@@ -2323,19 +2323,19 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Launchers = { <table 12>, <table 13>, <table 14>, <table 15>, <table 16>, <table 17>, <table 18>, <table 19>, <table 20>, <table 21>, <table 22>, <table 23>, <table 24>, <table 25>, <table 26>, <table 27>, <table 28>, <table 29>, <table 30>, <table 31>, <table 32>, <table 33>, <table 34>, <table 35>, <table 36>, <table 37>, <table 38>, <table 39>, <table 40>, <table 41>, <table 42>, <table 43>, <table 44>, <table 45>, <table 46>, <table 47>, <table 48>, <table 49>, <table 50>, <table 51>, <table 52>, <table 53>, <table 54>, <table 55>, <table 56>, <table 57>, <table 58>, <table 59>, <table 60>, <table 61>, <table 62>, <table 63>, <table 64>, <table 65>, <table 66>, <table 67>, <table 68>, <table 69>, <table 70>, <table 71>, <table 72>, <table 73>, <table 74>, <table 75>, <table 76>, <table 77>, {
 					CLSID = "LAU-115_LAU-127_AIM-9X_R",
 					Cx_gain_empty = 0.786,
-					Cx_gain_item = 0.863
+					Cx_gain_item = 1.576
 				}, {
 					CLSID = "LAU-115_LAU-127_AIM-9L_R",
 					Cx_gain_empty = 0.786,
-					Cx_gain_item = 0.863
+					Cx_gain_item = 1.576
 				}, {
 					CLSID = "LAU-115_LAU-127_AIM-9M_R",
 					Cx_gain_empty = 0.786,
-					Cx_gain_item = 0.863
+					Cx_gain_item = 1.576
 				}, {
 					CLSID = "LAU-115_LAU-127_CATM-9M_R",
 					Cx_gain_empty = 0.786,
-					Cx_gain_item = 0.863
+					Cx_gain_item = 1.576
 				}, {
 					CLSID = "{LAU-115 - AIM-120B_R}",
 					Cx_gain_empty = 0.786,
@@ -2647,10 +2647,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	crew_members = { {
 			bailout_arg = -1,
 			canopy_pos = { 0, 0, 0 },
-			drop_canopy_name = 303,
+			drop_canopy_name = 309,
 			ejection_seat_connector = "center",
-			ejection_seat_name = 302,
-			pilot_name = 304,
+			ejection_seat_name = 308,
+			pilot_name = 310,
 			pos = { 3.5, 0.578, 0 },
 			role = "pilot",
 			role_display_name = "Pilot",
@@ -2802,6 +2802,20 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						C = { { "Arg", 522, "set", 0 }, { "Arg", 521, "set", 0 }, { "Arg", 520, "set", 0 } }
 					} },
 				Transition = { "Any", "GestureSaluteTakeOffFinalize" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 99, "to", 0, "speed", 0.5 }, { "Arg", 500, "to", 0, "speed", 5 }, { "Arg", 395, "to", 0, "speed", 5 }, { "Arg", 501, "to", 0, "speed", 5 }, { "Arg", 396, "to", 0, "speed", 5 }, { "Arg", 530, "to", 0, "speed", 5 }, { "Arg", 531, "to", 0, "speed", 5 }, { "Arg", 520, "set", 0.01 } }
+					}, {
+						C = { { "Arg", 520, "from", 0.01, "to", 0.55, "in", 2 } }
+					}, {
+						C = { { "Arg", 520, "from", 0.55, "to", 0, "in", 2 } }
+					} },
+				Transition = { "Any", "GestureSaluteTaxi" }
+			}, {
+				Sequence = { {
+						C = { { "Sleep", "for", 0 } }
+					} },
+				Transition = { "Any", "GestureSaluteReset" }
 			} },
 		Door0 = { {
 				Flags = { "Reversible" },
@@ -2899,7 +2913,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				Transition = { "Open", "Close" }
 			} }
 	},
-	net_animation = { 2, 13, 14, 25, 84, 85, 89, 90, 274, 336, 39, 99, 506, 507, 508, 509, 459, 500, 501, 502, 503, 395, 396, 397, 398, 420, 539, 523, 524, 520, 521, 522 },
+	net_animation = { 2, 13, 14, 25, 84, 85, 89, 90, 274, 336, 39, 99, 506, 507, 508, 509, 459, 500, 501, 502, 503, 395, 396, 397, 398, 420, 539, 520, 521, 522, 530, 531, 532, 533 },
 	nose_gear_amortizer_direct_stroke = 0,
 	nose_gear_amortizer_normal_weight_stroke = -0.4,
 	nose_gear_amortizer_reversal_stroke = -0.54,

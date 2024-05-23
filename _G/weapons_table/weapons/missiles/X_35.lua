@@ -60,6 +60,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_35"] = {
 			boost_start = 0,
 			march_start = 0
 		},
+		display_name_short = "Kh-35",
 		engine_control = {
 			K = 265,
 			Kd = 0.01,
@@ -189,6 +190,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_35"] = {
 		}
 	},
 	display_name = "Kh-35 (AS-20 Kayak)",
+	display_name_short = "Kh-35",
 	mass = 520,
 	model = "x-35",
 	name = "X_35",
@@ -249,6 +251,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_35"] = {
 			boost_start = 0,
 			march_start = 0
 		},
+		display_name_short = "Kh-35",
 		engine_control = {
 			K = 265,
 			Kd = 0.01,

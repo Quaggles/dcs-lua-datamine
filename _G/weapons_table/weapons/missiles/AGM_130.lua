@@ -94,7 +94,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_130"] = {
 			vv_integ_limits = 100
 		},
 		display_name = "AGM-130C-9",
-		display_name_short = "AGM-130C-9",
+		display_name_short = "AGM-130",
 		engine = {
 			boost_factor = 1,
 			boost_tail = 1,
@@ -188,7 +188,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_130"] = {
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	display_name = "AGM-130C-9",
-	display_name_short = "AGM-130C-9",
+	display_name_short = "AGM-130",
 	encyclopediaAnimation = {
 		args = { 0.01,
 			[4] = 0.01
@@ -287,7 +287,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_130"] = {
 			vv_integ_limits = 100
 		},
 		display_name = "AGM-130C-9",
-		display_name_short = "AGM-130C-9",
+		display_name_short = "AGM-130",
 		engine = {
 			boost_factor = 1,
 			boost_tail = 1,

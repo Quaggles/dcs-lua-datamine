@@ -343,6 +343,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	},
 	Landing_Point = { -104, 19.6, -33 },
 	Length = 332.9,
+	MaxSpeed = 55.55988,
 	Name = "CVN-71 Theodore Roosevelt",
 	OLS = {
 		CutLightsArg = 404,

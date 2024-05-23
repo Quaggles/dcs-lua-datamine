@@ -97,7 +97,7 @@ _G["rockets"]["#Index"] = {
 		stab_vel = 237.5
 	},
 	display_name = "AGM-84H",
-	display_name_short = "AGM-84H",
+	display_name_short = "AGM-84",
 	final_autopilot = {
 		J_Angle_K = 0.22,
 		J_Angle_W = 0.6,

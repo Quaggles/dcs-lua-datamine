@@ -102,7 +102,7 @@ _G["weapons_table"]["weapons"]["missiles"]["CM_802AKG"] = {
 			march_start = 0
 		},
 		display_name = "AGM-84E",
-		display_name_short = "CM-802AKG",
+		display_name_short = "CM-802",
 		engine_control = {
 			K = 240,
 			Kd = 1,
@@ -254,7 +254,7 @@ _G["weapons_table"]["weapons"]["missiles"]["CM_802AKG"] = {
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	display_name = "CM-802AKG",
-	display_name_short = "CM-802AKG",
+	display_name_short = "CM-802",
 	mass = 670,
 	model = "cm802akg",
 	name = "CM_802AKG",
@@ -355,7 +355,7 @@ _G["weapons_table"]["weapons"]["missiles"]["CM_802AKG"] = {
 			march_start = 0
 		},
 		display_name = "AGM-84E",
-		display_name_short = "CM-802AKG",
+		display_name_short = "CM-802",
 		engine_control = {
 			K = 240,
 			Kd = 1,

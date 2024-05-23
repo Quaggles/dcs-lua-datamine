@@ -52,6 +52,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_15_V_31_B"] = {
 			separation_t = 1.75,
 			transition_platform_pitch = -0.419
 		},
+		display_name_short = "GBU-15",
 		fm = {
 			A = 0.15,
 			I = 1433.259375,
@@ -122,7 +123,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_15_V_31_B"] = {
 	},
 	cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 	display_name = "GBU-15(V)31/B",
-	display_name_short = "GBU-15(V)31/B",
+	display_name_short = "GBU-15",
 	mass = 1125,
 	model = "agm-130",
 	name = "GBU_15_V_31_B",
@@ -173,6 +174,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_15_V_31_B"] = {
 			separation_t = 1.75,
 			transition_platform_pitch = -0.419
 		},
+		display_name_short = "GBU-15",
 		fm = {
 			A = 0.15,
 			I = 1433.259375,

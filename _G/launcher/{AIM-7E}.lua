@@ -3,7 +3,7 @@ _G["launcher"]["{AIM-7E}"] = {
 	Elements = { {
 			DrawArgs = { { 1, 1 }, { 2, 1 }, { 3, 1 } },
 			Position = { 0, 0, 0 },
-			ShapeName = "aim-7"
+			ShapeName = "HB_F-4E_AIM7E"
 		} },
 	Picture = "us_AIM-7.png",
 	PictureBlendColor = "0xffffffff",
@@ -12,5 +12,5 @@ _G["launcher"]["{AIM-7E}"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 7, "Redacted" },
 	category = 4,
-	displayName = "AIM-7E-2 Sparrow Semi-Active Radar"
+	displayName = "AIM-7E Sparrow Semi-Active Radar"
 }

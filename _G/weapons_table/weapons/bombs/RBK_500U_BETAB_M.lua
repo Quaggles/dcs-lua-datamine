@@ -26,7 +26,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_500U_BETAB_M"] = {
 		control = {
 			open_delay = 4
 		},
-		display_name_short = "RBK-500U",
+		display_name_short = "RBK-500",
 		explMass = 172,
 		fm = {
 			I = 107.827833,
@@ -331,7 +331,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_500U_BETAB_M"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "RBK-500U - 10 x BETAB-M, 500kg Bunker Buster CBU HE/Frag",
-	display_name_short = "RBK-500U",
+	display_name_short = "RBK-500",
 	mass = 427,
 	model = "RBK_500U",
 	name = "RBK_500U_BETAB_M",
@@ -355,7 +355,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_500U_BETAB_M"] = {
 		control = {
 			open_delay = 4
 		},
-		display_name_short = "RBK-500U",
+		display_name_short = "RBK-500",
 		explMass = 172,
 		fm = {
 			I = 107.827833,

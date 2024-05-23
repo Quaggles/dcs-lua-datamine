@@ -255,6 +255,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	},
 	Shape = "kj2000",
 	SingleChargeTotal = 384,
+	TACAN_AA = true,
 	Tasks = { <table 1> },
 	V_land = 61,
 	V_max_h = 236.11,

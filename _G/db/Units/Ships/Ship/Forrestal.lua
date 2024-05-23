@@ -305,6 +305,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	},
 	Landing_Point = { -104, 19.6, -33 },
 	Length = 332.9,
+	MaxSpeed = 66.35988,
 	Name = "CV-59 Forrestal",
 	OLS = {
 		CutLightsArg = 404,

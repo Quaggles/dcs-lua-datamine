@@ -3,6 +3,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DisplayName = "Passenger Car",
 	DisplayNameShort = "Pass",
 	IR_emission_coeff = 0.05,
+	MaxSpeed = 0,
 	Name = "Passenger Car",
 	Rate = 4,
 	ThreatRange = 0,

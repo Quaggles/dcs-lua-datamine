@@ -28,6 +28,7 @@ _G["weapons_table"]["weapons"]["missiles"]["P_9M117"] = {
 			boost_start = 0,
 			march_start = 0.2
 		},
+		display_name_short = "AT-10",
 		eng_err = {
 			max_time_interval = 0.8,
 			min_time_interval = 0.1,
@@ -94,6 +95,7 @@ _G["weapons_table"]["weapons"]["missiles"]["P_9M117"] = {
 		}
 	},
 	display_name = "AT-10 Stabber",
+	display_name_short = "AT-10",
 	mass = 17.6,
 	model = "9m117",
 	name = "P_9M117",
@@ -123,6 +125,7 @@ _G["weapons_table"]["weapons"]["missiles"]["P_9M117"] = {
 			boost_start = 0,
 			march_start = 0.2
 		},
+		display_name_short = "AT-10",
 		eng_err = {
 			max_time_interval = 0.8,
 			min_time_interval = 0.1,

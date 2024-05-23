@@ -7,7 +7,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	DetectionRange = 3000,
 	DisplayName = "Boat LCVP Higgins",
 	DisplayNameShort = "Higgins",
-	Gamma_max = 1,
+	Gamma_max = -0.1,
 	Height = 2,
 	IR_emission_coeff = 0.08,
 	InternalCargo = {
@@ -17,6 +17,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		nominalCapacity = 700
 	},
 	Length = 11.05,
+	MaxSpeed = 21.996,
 	Name = "Boat LCVP Higgins",
 	Om = 1,
 	RCS = 50,

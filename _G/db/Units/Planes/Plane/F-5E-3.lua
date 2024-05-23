@@ -35,33 +35,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				} },
 			wCtrl = 150
 		}, {
-			control = "spinbox",
-			defValue = 6,
-			dimension = " ",
-			id = "LaserCode100",
-			label = "Laser code 2nd dgt GBU, 1x11",
-			max = 7,
-			min = 5,
-			playerOnly = true
-		}, {
-			control = "spinbox",
-			defValue = 8,
-			dimension = " ",
-			id = "LaserCode10",
-			label = "Laser code 3rd dgt GBU, 11x1",
-			max = 8,
-			min = 1,
-			playerOnly = true
-		}, {
-			control = "spinbox",
-			defValue = 8,
-			dimension = " ",
-			id = "LaserCode1",
-			label = "Laser code 4th dgt GBU, 111x",
-			max = 8,
-			min = 1,
-			playerOnly = true
-		}, {
 			control = "comboList",
 			defValue = 0,
 			id = "ChaffBurst",
@@ -1372,6 +1345,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Pylons = { {
 			Launchers = <11>{ {
 					CLSID = "{AIM-9B}",
+					Cx_gain = 0.302
+				}, {
+					CLSID = "{AIM-9J}",
 					Cx_gain = 0.302
 				}, {
 					CLSID = "{AIM-9P5}",

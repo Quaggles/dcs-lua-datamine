@@ -29,6 +29,7 @@ _G["weapons_table"]["weapons"]["bombs"]["KAB_1500T"] = {
 		},
 		category = 1,
 		class_name = "wAmmunitionSelfHoming",
+		display_name_short = "KAB-1500",
 		fm = {
 			A = 0.6,
 			I = 2724.2727083333,
@@ -84,7 +85,7 @@ _G["weapons_table"]["weapons"]["bombs"]["KAB_1500T"] = {
 	},
 	cx = { 1, 0.4, 0.37, 0.288, 1.31 },
 	display_name = "KAB-1500Kr",
-	display_name_short = "KAB-1500Kr",
+	display_name_short = "KAB-1500",
 	mass = 1525,
 	model = "kab-1500t",
 	name = "KAB_1500T",
@@ -111,6 +112,7 @@ _G["weapons_table"]["weapons"]["bombs"]["KAB_1500T"] = {
 		},
 		category = 1,
 		class_name = "wAmmunitionSelfHoming",
+		display_name_short = "KAB-1500",
 		fm = {
 			A = 0.6,
 			I = 2724.2727083333,

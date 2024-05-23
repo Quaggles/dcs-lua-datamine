@@ -37,7 +37,7 @@ _G["launcher"]["ER_4_SC50"] = {
 					id = 1
 				} },
 			wCtrl = 360,
-			xCtrl = 180
+			xCtrl = 200
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type",
@@ -58,8 +58,8 @@ _G["launcher"]["ER_4_SC50"] = {
 					id = 2
 				} },
 			wCtrl = 75,
-			xCtrl = 715,
-			xLbl = 575
+			xCtrl = 735,
+			xLbl = 595
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type",
@@ -82,7 +82,7 @@ _G["launcher"]["ER_4_SC50"] = {
 			stringIndex = 2,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 180,
+			xCtrl = 200,
 			xLbl = 10
 		}, {
 			VisibilityCondition = { {
@@ -106,7 +106,7 @@ _G["launcher"]["ER_4_SC50"] = {
 			stringIndex = 2,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 180,
+			xCtrl = 200,
 			xLbl = 10
 		}, {
 			VisibilityCondition = { {
@@ -130,8 +130,8 @@ _G["launcher"]["ER_4_SC50"] = {
 			stringIndex = 2,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 480,
-			xLbl = 280
+			xCtrl = 500,
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type",
@@ -154,8 +154,8 @@ _G["launcher"]["ER_4_SC50"] = {
 			stringIndex = 2,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 480,
-			xLbl = 280
+			xCtrl = 500,
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type",
@@ -178,8 +178,8 @@ _G["launcher"]["ER_4_SC50"] = {
 			stringIndex = 2,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 715,
-			xLbl = 575
+			xCtrl = 735,
+			xLbl = 595
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type",
@@ -202,8 +202,8 @@ _G["launcher"]["ER_4_SC50"] = {
 			stringIndex = 2,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 715,
-			xLbl = 575
+			xCtrl = 735,
+			xLbl = 595
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type",
@@ -226,7 +226,7 @@ _G["launcher"]["ER_4_SC50"] = {
 			stringIndex = 3,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 180,
+			xCtrl = 200,
 			xLbl = 10
 		}, {
 			VisibilityCondition = { {
@@ -250,7 +250,7 @@ _G["launcher"]["ER_4_SC50"] = {
 			stringIndex = 3,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 180,
+			xCtrl = 200,
 			xLbl = 10
 		}, {
 			VisibilityCondition = { {
@@ -274,8 +274,8 @@ _G["launcher"]["ER_4_SC50"] = {
 			stringIndex = 3,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 480,
-			xLbl = 280
+			xCtrl = 500,
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type",
@@ -298,8 +298,8 @@ _G["launcher"]["ER_4_SC50"] = {
 			stringIndex = 3,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 480,
-			xLbl = 280
+			xCtrl = 500,
+			xLbl = 300
 		} },
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

@@ -21,6 +21,7 @@ _G["weapons_table"]["weapons"]["bombs"]["MK106"] = {
 		},
 		category = 1,
 		displayName = "Mk 106 - 5lb Practice Bomb LD",
+		display_name_short = "Mk106",
 		fm = {
 			I = 94.425933,
 			L = 0.575,
@@ -72,7 +73,7 @@ _G["weapons_table"]["weapons"]["bombs"]["MK106"] = {
 	},
 	cx = { 1, 0.82, 0.65, 0.142, 2.11 },
 	display_name = "Mk 106",
-	display_name_short = "Mk 106",
+	display_name_short = "Mk106",
 	mass = 2.27,
 	model = "MK106",
 	name = "MK106",
@@ -92,6 +93,7 @@ _G["weapons_table"]["weapons"]["bombs"]["MK106"] = {
 		},
 		category = 1,
 		displayName = "Mk 106 - 5lb Practice Bomb LD",
+		display_name_short = "Mk106",
 		fm = {
 			I = 94.425933,
 			L = 0.575,

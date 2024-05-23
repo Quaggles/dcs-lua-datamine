@@ -12,7 +12,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE259E_H1"] = {
 			delay = 10.1
 		},
 		displayName = "SNEB Type 259E H1 IL",
-		display_name_short = "SNEB Type 259E",
+		display_name_short = "SNEB259",
 		engine = {
 			boost_factor = 1,
 			boost_tail = 1,
@@ -75,6 +75,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE259E_H1"] = {
 					},
 					category = 1,
 					class_name = "wAmmunition_viHeavyObject",
+					display_name_short = "illum.",
 					fm = {
 						I = 0.0205953,
 						L = 0.237,
@@ -127,7 +128,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE259E_H1"] = {
 				},
 				cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 				display_name = "S-8OM Flare",
-				display_name_short = "S-8OM Flare",
+				display_name_short = "illum.",
 				mass = 4.4,
 				model = "s-8_om_parashut",
 				name = "S_8OM_FLARE",
@@ -153,6 +154,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE259E_H1"] = {
 					},
 					category = 1,
 					class_name = "wAmmunition_viHeavyObject",
+					display_name_short = "illum.",
 					fm = {
 						I = 0.0205953,
 						L = 0.237,
@@ -231,7 +233,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE259E_H1"] = {
 	},
 	cx_pil = 1.414105917984e-05,
 	display_name = "SNEB Type 259E H1 IL",
-	display_name_short = "SNEB Type 259E",
+	display_name_short = "SNEB259",
 	dist_max = 4000,
 	dist_max_ballistic = 8000,
 	dist_min = 500,
@@ -247,7 +249,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE259E_H1"] = {
 			delay = 10.1
 		},
 		displayName = "SNEB Type 259E H1 IL",
-		display_name_short = "SNEB Type 259E",
+		display_name_short = "SNEB259",
 		engine = {
 			boost_factor = 1,
 			boost_tail = 1,
@@ -310,6 +312,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE259E_H1"] = {
 					},
 					category = 1,
 					class_name = "wAmmunition_viHeavyObject",
+					display_name_short = "illum.",
 					fm = {
 						I = 0.0205953,
 						L = 0.237,
@@ -362,7 +365,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE259E_H1"] = {
 				},
 				cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 				display_name = "S-8OM Flare",
-				display_name_short = "S-8OM Flare",
+				display_name_short = "illum.",
 				mass = 4.4,
 				model = "s-8_om_parashut",
 				name = "S_8OM_FLARE",
@@ -388,6 +391,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE259E_H1"] = {
 					},
 					category = 1,
 					class_name = "wAmmunition_viHeavyObject",
+					display_name_short = "illum.",
 					fm = {
 						I = 0.0205953,
 						L = 0.237,

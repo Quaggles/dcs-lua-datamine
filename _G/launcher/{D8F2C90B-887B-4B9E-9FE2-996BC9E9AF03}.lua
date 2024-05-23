@@ -5,8 +5,8 @@ _G["launcher"]["{D8F2C90B-887B-4B9E-9FE2-996BC9E9AF03}"] = {
 	Elements = { {
 			ShapeName = "AKU-58"
 		}, {
-			Position = { 0.245, -0.237, 0 },
-			ShapeName = "X-31"
+			ShapeName = "X-31",
+			connector_name = "Point01"
 		} },
 	NatoName = "(AS-17)",
 	Picture = "kh31p.png",

@@ -44,6 +44,7 @@ _G["weapons_table"]["weapons"]["missiles"]["SeaSparrow"] = {
 			boost_start = 0,
 			march_start = 3.7
 		},
+		display_name_short = "RIM-7",
 		fm = {
 			A1trim = { 10, 10 },
 			A2trim = { 10, 10 },
@@ -144,6 +145,7 @@ _G["weapons_table"]["weapons"]["missiles"]["SeaSparrow"] = {
 		}
 	},
 	display_name = "RIM-7",
+	display_name_short = "RIM-7",
 	mass = 230,
 	model = "aim-7",
 	name = "SeaSparrow",
@@ -189,6 +191,7 @@ _G["weapons_table"]["weapons"]["missiles"]["SeaSparrow"] = {
 			boost_start = 0,
 			march_start = 3.7
 		},
+		display_name_short = "RIM-7",
 		fm = {
 			A1trim = { 10, 10 },
 			A2trim = { 10, 10 },

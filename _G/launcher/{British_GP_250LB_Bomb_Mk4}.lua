@@ -26,10 +26,31 @@ _G["launcher"]["{British_GP_250LB_Bomb_Mk4}"] = {
 					id = 1
 				}, {
 					dispName = "Plugged",
-					id = "EMPTY"
+					id = "EMPTY_NOSE",
+					secondaryParams = {}
 				} },
 			wCtrl = 360,
-			xCtrl = 180
+			xCtrl = 200
+		}, {
+			VisibilityCondition = { {
+					id = "NFP_fuze_type_nose",
+					value = 1
+				} },
+			baseDim = "rev",
+			control = "spinbox",
+			defValue = 7,
+			dimension = "rev",
+			id = "vane_rev_threshold_ctrl_NP27MkII",
+			label = "Arming Vane Revs. Required",
+			max = 1000000000000,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 2,
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 200,
+			xLbl = 10
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",
@@ -60,28 +81,8 @@ _G["launcher"]["{British_GP_250LB_Bomb_Mk4}"] = {
 					units = "s"
 				} },
 			wCtrl = 60,
-			xCtrl = 180,
-			xLbl = 10
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type_nose",
-					value = 1
-				} },
-			baseDim = "rev",
-			control = "spinbox",
-			defValue = 7,
-			dimension = "rev",
-			id = "vane_rev_threshold_ctrl_NP27MkII",
-			label = "Arming Vane Revs. Required",
-			max = 1000000000000,
-			min = 0,
-			readOnly = true,
-			step = 0.01,
-			stringIndex = 2,
-			wCtrl = 60,
-			wDim = 30,
-			xCtrl = 480,
-			xLbl = 290
+			xCtrl = 500,
+			xLbl = 310
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -95,10 +96,31 @@ _G["launcher"]["{British_GP_250LB_Bomb_Mk4}"] = {
 					id = 1
 				}, {
 					dispName = "Plugged",
-					id = "EMPTY"
+					id = "EMPTY_TAIL",
+					secondaryParams = {}
 				} },
 			wCtrl = 360,
-			xCtrl = 180
+			xCtrl = 200
+		}, {
+			VisibilityCondition = { {
+					id = "NFP_fuze_type_tail",
+					value = 1
+				} },
+			baseDim = "rev",
+			control = "spinbox",
+			defValue = 13,
+			dimension = "rev",
+			id = "vane_rev_threshold_ctrl_TP30MkIII",
+			label = "Arming Vane Revs. Required",
+			max = 1000000000000,
+			min = 0,
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 4,
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 200,
+			xLbl = 10
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -129,27 +151,7 @@ _G["launcher"]["{British_GP_250LB_Bomb_Mk4}"] = {
 					units = "s"
 				} },
 			wCtrl = 60,
-			xCtrl = 180,
-			xLbl = 10
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type_tail",
-					value = 1
-				} },
-			baseDim = "rev",
-			control = "spinbox",
-			defValue = 13,
-			dimension = "rev",
-			id = "vane_rev_threshold_ctrl_TP30MkIII",
-			label = "Arming Vane Revs. Required",
-			max = 1000000000000,
-			min = 0,
-			readOnly = true,
-			step = 0.01,
-			stringIndex = 4,
-			wCtrl = 60,
-			wDim = 30,
-			xCtrl = 480,
-			xLbl = 290
+			xCtrl = 500,
+			xLbl = 310
 		} }
 }

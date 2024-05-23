@@ -17,6 +17,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_16"] = {
 		bang_bang_autopilot = {
 			omegaDumpingK = 0.36
 		},
+		display_name_short = "GBU-16",
 		fm = {
 			A = 0.36,
 			I = 701.206875,
@@ -55,6 +56,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_16"] = {
 	},
 	cx = { 1, 0.29, 0.71, 0.13, 1.28 },
 	display_name = "GBU-16",
+	display_name_short = "GBU-16",
 	mass = 513,
 	model = "GBU-16",
 	name = "GBU_16",
@@ -71,6 +73,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_16"] = {
 		bang_bang_autopilot = {
 			omegaDumpingK = 0.36
 		},
+		display_name_short = "GBU-16",
 		fm = {
 			A = 0.36,
 			I = 701.206875,

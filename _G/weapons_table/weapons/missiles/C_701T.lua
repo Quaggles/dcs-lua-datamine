@@ -55,7 +55,7 @@ _G["weapons_table"]["weapons"]["missiles"]["C_701T"] = {
 		},
 		category = 2,
 		class_name = "wAmmunitionSelfHoming",
-		display_name_short = "C-701T",
+		display_name_short = "C-701",
 		exhaust = { 0.75, 0.75, 0.75, 0.1 },
 		fm = {
 			A = 0.36,
@@ -146,7 +146,7 @@ _G["weapons_table"]["weapons"]["missiles"]["C_701T"] = {
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	display_name = "C-701T",
-	display_name_short = "C-701T",
+	display_name_short = "C-701",
 	mass = 100,
 	model = "c701t",
 	name = "C_701T",
@@ -201,7 +201,7 @@ _G["weapons_table"]["weapons"]["missiles"]["C_701T"] = {
 		},
 		category = 2,
 		class_name = "wAmmunitionSelfHoming",
-		display_name_short = "C-701T",
+		display_name_short = "C-701",
 		exhaust = { 0.75, 0.75, 0.75, 0.1 },
 		fm = {
 			A = 0.36,

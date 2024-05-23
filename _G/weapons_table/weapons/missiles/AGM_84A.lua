@@ -63,6 +63,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_84A"] = {
 			boost_start = 0,
 			march_start = 0
 		},
+		display_name_short = "AGM-84",
 		engine_control = {
 			K = 265,
 			Kd = 0.01,
@@ -193,6 +194,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_84A"] = {
 		}
 	},
 	display_name = "AGM-84A Harpoon",
+	display_name_short = "AGM-84",
 	mass = 555,
 	model = "agm-84",
 	name = "AGM_84A",
@@ -256,6 +258,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_84A"] = {
 			boost_start = 0,
 			march_start = 0
 		},
+		display_name_short = "AGM-84",
 		engine_control = {
 			K = 265,
 			Kd = 0.01,

@@ -304,6 +304,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		OPTIC = { "Winglong-1 CAM", "Winglong-1 FLIR" }
 	},
 	Shape = "wingloong-1",
+	TACAN_AA = true,
 	Tasks = { <table 1>, {
 			Name = "Ground Attack",
 			OldID = "Ground Attack",

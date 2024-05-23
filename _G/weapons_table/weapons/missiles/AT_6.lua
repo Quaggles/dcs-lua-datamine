@@ -61,7 +61,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AT_6"] = {
 		},
 		category = 2,
 		class_name = "wAmmunitionVikhr",
-		display_name_short = "9M114 Shturm-V (AT-6 Spiral)",
+		display_name_short = "9M114",
 		eng_err = {
 			max_time_interval = 1,
 			min_time_interval = 0.1,
@@ -144,7 +144,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AT_6"] = {
 		t_acc = 5,
 		t_b = 0,
 		t_marsh = 0,
-		user_name = "9M114 Shturm-V (AT-6 Spiral)",
+		user_name = "9M114 Kokon (AT-6 Spiral)",
 		v_mid = 300,
 		v_min = 170,
 		warhead = {
@@ -166,8 +166,8 @@ _G["weapons_table"]["weapons"]["missiles"]["AT_6"] = {
 		},
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
-	display_name = "9M114 Shturm-V (AT-6 Spiral)",
-	display_name_short = "9M114 Shturm-V (AT-6 Spiral)",
+	display_name = "9M114 Kokon (AT-6 Spiral)",
+	display_name_short = "9M114",
 	mass = 35.4,
 	model = "9M114",
 	name = "AT_6",
@@ -228,7 +228,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AT_6"] = {
 		},
 		category = 2,
 		class_name = "wAmmunitionVikhr",
-		display_name_short = "9M114 Shturm-V (AT-6 Spiral)",
+		display_name_short = "9M114",
 		eng_err = {
 			max_time_interval = 1,
 			min_time_interval = 0.1,
@@ -311,7 +311,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AT_6"] = {
 		t_acc = 5,
 		t_b = 0,
 		t_marsh = 0,
-		user_name = "9M114 Shturm-V (AT-6 Spiral)",
+		user_name = "9M114 Kokon (AT-6 Spiral)",
 		v_mid = 300,
 		v_min = 170,
 		warhead = {

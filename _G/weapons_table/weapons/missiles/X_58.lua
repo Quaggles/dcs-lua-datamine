@@ -34,6 +34,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_58"] = {
 			boost_start = 0.3,
 			march_start = 3.9
 		},
+		display_name_short = "Kh-58",
 		fm = {
 			A = 0.36,
 			I = 1248,
@@ -126,6 +127,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_58"] = {
 		}
 	},
 	display_name = "Kh-58U",
+	display_name_short = "Kh-58",
 	mass = 650,
 	model = "X-58",
 	name = "X_58",
@@ -161,6 +163,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_58"] = {
 			boost_start = 0.3,
 			march_start = 3.9
 		},
+		display_name_short = "Kh-58",
 		fm = {
 			A = 0.36,
 			I = 1248,

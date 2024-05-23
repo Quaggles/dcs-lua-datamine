@@ -22,6 +22,7 @@ _G["weapons_table"]["weapons"]["bombs"]["British_SAP_250LB_Bomb_Mk5"] = {
 			velK = 1
 		},
 		category = 1,
+		display_name_short = "SAP250",
 		fm = {
 			I = 5.9269333333333,
 			L = 0.8,
@@ -80,7 +81,7 @@ _G["weapons_table"]["weapons"]["bombs"]["British_SAP_250LB_Bomb_Mk5"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "250 lb S.A.P.",
-	display_name_short = "250 lb S.A.P.",
+	display_name_short = "SAP250",
 	mass = 111.13,
 	model = "250_sab",
 	name = "British_SAP_250LB_Bomb_Mk5",
@@ -100,6 +101,7 @@ _G["weapons_table"]["weapons"]["bombs"]["British_SAP_250LB_Bomb_Mk5"] = {
 			velK = 1
 		},
 		category = 1,
+		display_name_short = "SAP250",
 		fm = {
 			I = 5.9269333333333,
 			L = 0.8,

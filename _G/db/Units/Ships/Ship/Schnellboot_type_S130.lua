@@ -92,6 +92,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	Height = 5.5,
 	IR_emission_coeff = 0.3,
 	Length = 32.76,
+	MaxSpeed = 81.072,
 	Name = "Boat Schnellboot type S130",
 	Om = 0.6,
 	RCS = 3000,

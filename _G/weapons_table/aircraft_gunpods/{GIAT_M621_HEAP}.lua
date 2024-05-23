@@ -21,6 +21,11 @@ _G["weapons_table"]["aircraft_gunpods"]["{GIAT_M621_HEAP}"] = {
 					name = "HeatEffectExt",
 					shot_heat = 7.823
 				}, {
+					name = "TurretRecoil",
+					recoil_arg = 350,
+					recoil_coeff = 0.5,
+					spring_coeff = 0.3
+				}, {
 					name = "SmokeEffect"
 				} },
 			ejector_dir = { 0, -1, 1 },

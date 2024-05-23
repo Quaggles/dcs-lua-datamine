@@ -20,6 +20,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M66"] = {
 			velK = 1
 		},
 		category = 1,
+		display_name_short = "M66",
 		fm = {
 			I = 442.00294166667,
 			L = 2.33,
@@ -73,7 +74,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M66"] = {
 	},
 	cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 	display_name = "AN-M66",
-	display_name_short = "AN-M66",
+	display_name_short = "M66",
 	mass = 977,
 	model = "AN-M66",
 	name = "AN_M66",
@@ -92,6 +93,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M66"] = {
 			velK = 1
 		},
 		category = 1,
+		display_name_short = "M66",
 		fm = {
 			I = 442.00294166667,
 			L = 2.33,

@@ -111,6 +111,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	IR_emission_coeff = 0.4,
 	Landing_Point = { -137.86, 8.525, -16.85 },
 	Length = 458.45,
+	MaxSpeed = 30.6,
 	Name = "Tanker Seawise Giant",
 	Om = 0.02,
 	RCS = 1400000,

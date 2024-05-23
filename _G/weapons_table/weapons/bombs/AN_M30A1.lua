@@ -22,6 +22,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M30A1"] = {
 			velK = 1
 		},
 		category = 1,
+		display_name_short = "M30",
 		fm = {
 			I = 3.6356650666667,
 			L = 0.976,
@@ -75,7 +76,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M30A1"] = {
 	},
 	cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 	display_name = "AN-M30A1",
-	display_name_short = "AN-M30A1",
+	display_name_short = "M30",
 	mass = 45.8,
 	model = "AN-M30A1",
 	name = "AN_M30A1",
@@ -95,6 +96,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M30A1"] = {
 			velK = 1
 		},
 		category = 1,
+		display_name_short = "M30",
 		fm = {
 			I = 3.6356650666667,
 			L = 0.976,

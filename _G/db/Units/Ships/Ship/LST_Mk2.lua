@@ -92,6 +92,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	Height = 31.5,
 	IR_emission_coeff = 0.3,
 	Length = 99.91,
+	MaxSpeed = 21.6,
 	Name = "LST Mk.II",
 	Om = 0.05,
 	RCS = 50000,

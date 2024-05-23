@@ -5,6 +5,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	DetectionRange = 500,
 	DisplayName = "Truck LARC-V",
+	MaxSpeed = 50.4,
 	Name = "Truck LARC-V",
 	Rate = 5,
 	ThreatRange = 0,

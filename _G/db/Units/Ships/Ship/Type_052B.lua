@@ -63,6 +63,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	Helicopter_Num_ = 1,
 	Landing_Point = { -53.81, 4.1, 0 },
 	Length = 154,
+	MaxSpeed = 55.55988,
 	Name = "Type 052B Destroyer",
 	Om = 0.05,
 	Plane_Num_ = 0,

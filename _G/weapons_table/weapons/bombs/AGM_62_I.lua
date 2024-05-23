@@ -36,7 +36,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AGM_62_I"] = {
 		},
 		category = 1,
 		class_name = "wAmmunitionSelfHoming",
-		display_name_short = "AGM-62 I",
+		display_name_short = "AGM-62",
 		fm = {
 			A = 0.36,
 			I = 506.848125,
@@ -110,7 +110,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AGM_62_I"] = {
 	},
 	cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 	display_name = "AGM-62 Walleye I",
-	display_name_short = "AGM-62 I",
+	display_name_short = "AGM-62",
 	mass = 510,
 	model = "HB_F-4E_EXT_AGM62",
 	name = "AGM_62_I",
@@ -143,7 +143,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AGM_62_I"] = {
 		},
 		category = 1,
 		class_name = "wAmmunitionSelfHoming",
-		display_name_short = "AGM-62 I",
+		display_name_short = "AGM-62",
 		fm = {
 			A = 0.36,
 			I = 506.848125,

@@ -78,7 +78,7 @@ _G["rockets"]["#Index"] = {
 	},
 	displayName = "AIM-7F Sparrow Semi-Active Radar",
 	display_name = "AIM-7F",
-	display_name_short = "AIM-7F",
+	display_name_short = "AIM-7",
 	exhaust = { 0.78, 0.78, 0.78, 0.3 },
 	fm = {
 		A1trim = { 10, 10 },
@@ -144,7 +144,7 @@ _G["rockets"]["#Index"] = {
 		FOV = 1.9198621771938,
 		aim_sigma = 5.5,
 		ccm_k0 = 1,
-		delay = 1.5,
+		delay = 0.6,
 		height_error_k = 110,
 		height_error_max_h = 450,
 		height_error_max_vel = 150,

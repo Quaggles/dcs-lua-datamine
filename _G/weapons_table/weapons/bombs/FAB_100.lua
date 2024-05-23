@@ -14,6 +14,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB_100"] = {
 			enabled = false,
 			velK = 1
 		},
+		display_name_short = "FAB-100",
 		fm = {
 			I = 6.75,
 			L = 0.9,
@@ -44,6 +45,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB_100"] = {
 	},
 	cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 	display_name = "FAB-100",
+	display_name_short = "FAB-100",
 	mass = 100,
 	model = "fab-100",
 	name = "FAB_100",
@@ -57,6 +59,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB_100"] = {
 			enabled = false,
 			velK = 1
 		},
+		display_name_short = "FAB-100",
 		fm = {
 			I = 6.75,
 			L = 0.9,

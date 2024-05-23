@@ -17,6 +17,7 @@ _G["weapons_table"]["weapons"]["bombs"]["KAB_500"] = {
 		bang_bang_autopilot = {
 			omegaDumpingK = 0.5
 		},
+		display_name_short = "KAB-500",
 		fm = {
 			A = 0.36,
 			I = 387.60416666667,
@@ -54,6 +55,7 @@ _G["weapons_table"]["weapons"]["bombs"]["KAB_500"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "KAB-500",
+	display_name_short = "KAB-500",
 	mass = 500,
 	model = "kab-500",
 	name = "KAB_500",
@@ -70,6 +72,7 @@ _G["weapons_table"]["weapons"]["bombs"]["KAB_500"] = {
 		bang_bang_autopilot = {
 			omegaDumpingK = 0.5
 		},
+		display_name_short = "KAB-500",
 		fm = {
 			A = 0.36,
 			I = 387.60416666667,

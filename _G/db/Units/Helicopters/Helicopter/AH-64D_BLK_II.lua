@@ -2344,6 +2344,21 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					} },
 				Transition = { "Any", "Left" }
 			} },
+		ServiceHatches = { {
+				Sequence = { {
+						C = { { "PosType", 3 }, { "Sleep", "for", 1200 } }
+					}, {
+						C = { { "Arg", 428, "to", 1, "speed", 0.6 } }
+					} },
+				Transition = { "Close", "Open" }
+			}, {
+				Sequence = { {
+						C = { { "PosType", 3 }, { "Sleep", "for", 1200 } }
+					}, {
+						C = { { "Arg", 428, "to", 0, "speed", 0.6 } }
+					} },
+				Transition = { "Open", "Close" }
+			} },
 		WindscreenWiper0 = { {
 				Sequence = { {
 						C = { { "Sleep", "for", 0 } }
@@ -2403,7 +2418,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				Transition = { "Any", "CustomStage1" }
 			} }
 	},
-	net_animation = { 449, 450, 530, 531, 600, 605, 2, 11, 12, 15, 16, 306, 307, 509, 519, 552, 553, 506, 507, 508, 516, 517, 518, 459, 460, 529, 549, 546, 547, 548, 550, 551, 39, 99, 337, 399, 523, 540, 524, 541, 50, 472 },
+	net_animation = { 449, 450, 530, 531, 600, 605, 2, 11, 12, 15, 16, 306, 307, 509, 519, 552, 553, 506, 507, 508, 516, 517, 518, 459, 460, 529, 549, 546, 547, 548, 550, 551, 39, 99, 337, 399, 50, 472 },
 	nose_gear_pos = { -9.203, -0.96, 0 },
 	panelRadio = { {
 			channels = { {

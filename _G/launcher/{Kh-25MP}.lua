@@ -1,7 +1,7 @@
 _G["launcher"]["{Kh-25MP}"] = {
 	CLSID = "{Kh-25MP}",
 	Count = 1,
-	Cx_pil = 0.001,
+	Cx_pil = 0.00209228515625,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "APU-68"
@@ -11,7 +11,7 @@ _G["launcher"]["{Kh-25MP}"] = {
 		} },
 	Picture = "kh25mpu.png",
 	Weight = 355,
-	_file = "./CoreMods/aircraft/AircraftWeaponPack/anti-radiation missiles.lua",
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/kh25_29_family.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,

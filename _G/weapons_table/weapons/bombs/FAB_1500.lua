@@ -14,6 +14,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB_1500"] = {
 			enabled = false,
 			velK = 1
 		},
+		display_name_short = "FAB-1500",
 		fm = {
 			I = 880.04,
 			L = 2.8,
@@ -44,6 +45,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB_1500"] = {
 	},
 	cx = { 1, 0.4, 0.37, 0.288, 1.31 },
 	display_name = "FAB-1500 M-54",
+	display_name_short = "FAB-1500",
 	mass = 1347,
 	model = "fab-1500",
 	name = "FAB_1500",
@@ -57,6 +59,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB_1500"] = {
 			enabled = false,
 			velK = 1
 		},
+		display_name_short = "FAB-1500",
 		fm = {
 			I = 880.04,
 			L = 2.8,

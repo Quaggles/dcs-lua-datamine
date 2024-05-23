@@ -28,6 +28,7 @@ _G["weapons_table"]["weapons"]["missiles"]["P_9M133"] = {
 			boost_start = 0,
 			march_start = 0.2
 		},
+		display_name_short = "AT-14",
 		eng_err = {
 			max_time_interval = 1.1,
 			min_time_interval = 0.2,
@@ -94,6 +95,7 @@ _G["weapons_table"]["weapons"]["missiles"]["P_9M133"] = {
 		}
 	},
 	display_name = "AT-14 Spriggan",
+	display_name_short = "AT-14",
 	mass = 26,
 	model = "9M133",
 	name = "P_9M133",
@@ -123,6 +125,7 @@ _G["weapons_table"]["weapons"]["missiles"]["P_9M133"] = {
 			boost_start = 0,
 			march_start = 0.2
 		},
+		display_name_short = "AT-14",
 		eng_err = {
 			max_time_interval = 1.1,
 			min_time_interval = 0.2,

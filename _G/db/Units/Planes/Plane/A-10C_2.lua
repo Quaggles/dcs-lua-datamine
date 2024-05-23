@@ -55,14 +55,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 249 },
 			critical_damage = 4
 		},
-		[9] = {
-			args = { 154 },
-			critical_damage = 3
-		},
-		[10] = {
-			args = { 153 },
-			critical_damage = 3
-		},
 		[11] = {
 			args = { 167 },
 			critical_damage = 3
@@ -118,12 +110,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[35] = {
 			args = { 225 },
 			critical_damage = 10,
-			deps_cells = { 29, 31, 25, 23 }
+			deps_cells = { 29 }
 		},
 		[36] = {
 			args = { 215 },
 			critical_damage = 10,
-			deps_cells = { 30, 32, 26, 24, 60 }
+			deps_cells = { 30 }
 		},
 		[37] = {
 			args = { 227 },
@@ -172,15 +164,28 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[55] = {
 			args = { 81 },
 			critical_damage = 20,
-			deps_cells = { 39, 40, 45, 46, 51, 52, 53, 54 }
+			deps_cells = { 45, 46 }
+		},
+		[58] = {
+			critical_damage = 5
 		},
 		[59] = {
-			args = { 148 },
 			critical_damage = 5
 		},
 		[60] = {
 			args = { 144 },
 			critical_damage = 1
+		},
+		[61] = {
+			args = { 153 },
+			critical_damage = 10
+		},
+		[62] = {
+			args = { 154 },
+			critical_damage = 10
+		},
+		[82] = {
+			critical_damage = 5
 		},
 		[83] = {
 			args = { 134 },
@@ -193,6 +198,63 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[85] = {
 			args = { 135 },
 			critical_damage = 3
+		},
+		[137] = {
+			critical_damage = 5
+		},
+		[138] = {
+			critical_damage = 3
+		},
+		[139] = {
+			critical_damage = 5
+		},
+		[140] = {
+			critical_damage = 3
+		},
+		cell_indices = {
+			AILERON_L = 25,
+			AILERON_R = 26,
+			AirRefRec = 137,
+			CABIN_LEFT_SIDE = 4,
+			CABIN_RIGHT_SIDE = 5,
+			COCKPIT = 3,
+			ELEVATOR_L_IN = 51,
+			ELEVATOR_R_IN = 52,
+			ENGINE_L = 11,
+			ENGINE_R = 12,
+			FIN_L_TOP = 39,
+			FIN_R_TOP = 40,
+			FLAP_L = 37,
+			FLAP_L_OUT = 31,
+			FLAP_R = 38,
+			FLAP_R_OUT = 32,
+			FRONT_WHEEL = 138,
+			FUEL_TANK_B = 62,
+			FUEL_TANK_F = 61,
+			FUSELAGE_BOTTOM = 82,
+			GUN = 7,
+			LEFT_GEAR_BOX = 15,
+			LEFT_WHEEL = 139,
+			NOSE_BOTTOM = 59,
+			NOSE_CENTER = 0,
+			PWD = 60,
+			RIGHT_GEAR_BOX = 16,
+			RIGHT_WHEEL = 140,
+			RUDDER_L = 53,
+			RUDDER_R = 54,
+			STABILIZER_L_OUT = 45,
+			STABILIZER_R_OUT = 46,
+			TAIL = 55,
+			TAIL_BOTTOM = 58,
+			WHEEL_F = 83,
+			WHEEL_L = 84,
+			WHEEL_R = 85,
+			WING_L_CENTER = 29,
+			WING_L_IN = 35,
+			WING_L_OUT = 23,
+			WING_R_CENTER = 30,
+			WING_R_IN = 36,
+			WING_R_OUT = 24
 		}
 	},
 	DamageParts = { "A-10-OBLOMOK-WING-R", "A-10-OBLOMOK-WING-L" },
@@ -2699,9 +2761,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 								argument = 195,
 								connector = "WHITE_BEACON L",
 								controller = "Strobe",
-								dir_correction = {
-									azimuth = -0.95993108859688
-								},
 								exposure = { { 223, 0.245, 0.255, 1, 0 } },
 								movable = true,
 								period = 1.2,
@@ -2732,9 +2791,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 								argument = 196,
 								connector = "WHITE_BEACON R",
 								controller = "Strobe",
-								dir_correction = {
-									azimuth = -2.1816615649929
-								},
 								exposure = { { 213, 0.245, 0.255, 1, 0 } },
 								movable = true,
 								period = 1.2,
@@ -2758,9 +2814,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 								argument = 203,
 								connector = "BANO_0_BACK",
 								controller = "Strobe",
-								dir_correction = {
-									azimuth = -1.5707963267949
-								},
 								exposure = { { 81, 0.245, 0.255, 1, 0 } },
 								movable = true,
 								period = 1.2,
@@ -2889,9 +2942,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						connector = "BANO_0_BACK",
 						controller = "Strobe",
 						cool_down_t = 0.6,
-						dir_correction = {
-							azimuth = -1.5707963267949
-						},
 						exposure = { { 81, 0.245, 0.255, 1, 0 } },
 						mode = 0,
 						movable = true,

@@ -14,6 +14,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB_500"] = {
 			enabled = false,
 			velK = 1
 		},
+		display_name_short = "FAB-500",
 		fm = {
 			I = 246.0375,
 			L = 2.43,
@@ -44,6 +45,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB_500"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "FAB-500 M-62",
+	display_name_short = "FAB-500",
 	mass = 500,
 	model = "fab-500-n3",
 	name = "FAB_500",
@@ -57,6 +59,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB_500"] = {
 			enabled = false,
 			velK = 1
 		},
+		display_name_short = "FAB-500",
 		fm = {
 			I = 246.0375,
 			L = 2.43,

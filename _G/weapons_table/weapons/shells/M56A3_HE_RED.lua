@@ -5,7 +5,6 @@ _G["weapons_table"]["weapons"]["shells"]["M56A3_HE_RED"] = {
 	Dv0 = 0.015060240963855,
 	_file = "./CoreMods/aircraft/F14/Entry/F-14B.lua",
 	_origin = "F-14B AI by Heatblur Simulations",
-	_unique_resource_name = "weapons.shells.M56A3_HE_RED",
 	caliber = 20,
 	cartridge = 0,
 	cartridge_mass = 0,

@@ -79,7 +79,7 @@ _G["weapons_table"]["weapons"]["torpedoes"]["G7A_T1"] = {
 				username = "G7A_T1"
 			} },
 		user_name = "G7A_T1",
-		v_mid = 19.27,
+		v_mid = 20.59,
 		warhead = {
 			caliber = 533,
 			concrete_factors = { 1, 1, 1 },
@@ -192,7 +192,7 @@ _G["weapons_table"]["weapons"]["torpedoes"]["G7A_T1"] = {
 				username = "G7A_T1"
 			} },
 		user_name = "G7A_T1",
-		v_mid = 19.27,
+		v_mid = 20.59,
 		warhead = {
 			caliber = 533,
 			concrete_factors = { 1, 1, 1 },

@@ -20,6 +20,7 @@ _G["weapons_table"]["weapons"]["bombs"]["KAB_500Kr"] = {
 			delay = 2,
 			finsLimit = 0.25
 		},
+		display_name_short = "KAB-500",
 		fm = {
 			A = 0.6,
 			I = 387.60416666667,
@@ -55,6 +56,7 @@ _G["weapons_table"]["weapons"]["bombs"]["KAB_500Kr"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "KAB-500Kr",
+	display_name_short = "KAB-500",
 	mass = 500,
 	model = "kab-500t",
 	name = "KAB_500Kr",
@@ -74,6 +76,7 @@ _G["weapons_table"]["weapons"]["bombs"]["KAB_500Kr"] = {
 			delay = 2,
 			finsLimit = 0.25
 		},
+		display_name_short = "KAB-500",
 		fm = {
 			A = 0.6,
 			I = 387.60416666667,

@@ -47,7 +47,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGR_20A"] = {
 		},
 		category = 2,
 		class_name = "wAmmunitionLaserHoming",
-		display_name_short = "HYDRA-70 HE APKWS",
+		display_name_short = "APKWS",
 		exhaust = { 0.78, 0.78, 0.78, 0.3 },
 		fm = {
 			A = 0.36,
@@ -129,7 +129,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGR_20A"] = {
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	display_name = "HYDRA-70 HE APKWS",
-	display_name_short = "HYDRA-70 HE APKWS",
+	display_name_short = "APKWS",
 	mass = 15,
 	model = "AGR_20",
 	name = "AGR_20A",
@@ -176,7 +176,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGR_20A"] = {
 		},
 		category = 2,
 		class_name = "wAmmunitionLaserHoming",
-		display_name_short = "HYDRA-70 HE APKWS",
+		display_name_short = "APKWS",
 		exhaust = { 0.78, 0.78, 0.78, 0.3 },
 		fm = {
 			A = 0.36,

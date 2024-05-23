@@ -17,6 +17,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_52B"] = {
 		control = {
 			open_delay = 4
 		},
+		display_name_short = "CBU-52",
 		fm = {
 			I = 107.827833,
 			L = 2.3,
@@ -109,6 +110,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_52B"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "CBU-52B",
+	display_name_short = "CBU-52",
 	mass = 244.6,
 	model = "cbu-24b",
 	name = "CBU_52B",
@@ -125,6 +127,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_52B"] = {
 		control = {
 			open_delay = 4
 		},
+		display_name_short = "CBU-52",
 		fm = {
 			I = 107.827833,
 			L = 2.3,

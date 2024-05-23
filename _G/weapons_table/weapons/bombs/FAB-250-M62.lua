@@ -20,6 +20,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB-250-M62"] = {
 		},
 		category = 1,
 		displayName = "FAB-250-M62 - 250 kg GP Bomb LD",
+		display_name_short = "FAB-250",
 		fm = {
 			I = 70.03,
 			L = 1.924,
@@ -66,7 +67,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB-250-M62"] = {
 	},
 	cx = { 1, 0.39, 0.8, 0.168, 1.31 },
 	display_name = "FAB-250-M62 GP",
-	display_name_short = "FAB-250-M62 GP",
+	display_name_short = "FAB-250",
 	mass = 227,
 	model = "fab-250-m62",
 	name = "FAB-250-M62",
@@ -85,6 +86,7 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB-250-M62"] = {
 		},
 		category = 1,
 		displayName = "FAB-250-M62 - 250 kg GP Bomb LD",
+		display_name_short = "FAB-250",
 		fm = {
 			I = 70.03,
 			L = 1.924,
