@@ -199,7 +199,7 @@ In the lua tables some values are very volitile and will change nearly every DCS
 ```
 
 # Comments
-Some comments I extracted from the 2.5.6 scripts that explain some of the variables, these were google translated from Russian so good luck
+Some comments I extracted from the 2.5.6 scripts that explain some of the variables, these might be out of data and were google translated from Russian so good luck
 
 ## _G/weapons_table/weapons/missiles
 ```lua
@@ -494,4 +494,60 @@ In order not to write large tables for each warhead, there is the simple_warhead
 
 
 --]]
+```
+
+## Scripts/Database/Weapons/missiles_prb_coeff.lua
+```lua
+-- setting up the calculation of the probability of changing an air target for missiles in relation to DO and LTC decoys
+
+prbCoeff =
+{
+	-------------------------------------------------- ---------------------------------------------
+	-- parameters for calculating the probability based on the radial speed of the target (for radar seekers)
+
+	-- probability under the best conditions for a missile (collision courses, high target speed)
+	-- that is, the case when the missile perfectly selects decoys and other slow targets
+	k3 = 0.00001, -- decrease to improve grip stability on frontal courses
+
+	-- probability under the worst conditions for the missile (perpendicular to the target)
+	-- that is, the case when the target has near-zero radial speed and it is difficult for the missile to track the target
+	k4 = 0.02, -- increase to quickly derail the rocket at 3 and 9 o'clock
+
+	-- radial speed of the target (m/s), above which the probability of changing the target = k3
+	k5 = 100, -- decrease to increase stability of missile capture on oncoming courses
+
+	-- radial target speed (m/s), below which the probability of target change = k4
+	-- the lower this speed, the slower you need to fly and the more strictly you must maintain 3 and 9 hours to the rocket in order to disrupt
+	k6 = 30, -- increase if it is very difficult to disrupt the rocket at 3 and 9 o'clock
+
+	-------------------------------------------------- ---------------------------------------------
+	-- influence of the target angle on the IR signature of the target for the seeker of thermal missiles
+	k7 = 0.5, -- decrease if you need to increase the difference between the rear and the front (front = k7, side = 1, rear = 2 - k7)
+
+	-------------------------------------------------- ---------------------------------------------
+	-- target shielding, when two objects merge into one - the far one is covered by the near one
+	-- multiply the probability of a distant object by this kt (that is, the probability of a near object is divided by this kt)
+	-- we reduce it if we need to increase the efficiency of the screen, but we remember about k3 for radar missiles, which comes into play
+	-- valid during screen time: maybe k3 is too low
+	k8 = 0.02, -- PPP for missiles with radar seekers
+	k9 = 0.01, -- PPP for missiles with thermal seekers
+	k10 = 0.02, -- ZPS for missiles with radar seekers
+	k11 = 0.01, -- ZPS for missiles with thermal seekers
+
+
+	----------------------------- Below you have some stock! -----------------------
+
+	k0 = 0,
+	k1 = 0,
+	k2 = 0,
+
+	k12 = 0,
+	k13 = 0,
+	k14 = 0,
+	k15 = 0,
+	k16 = 0,
+	k17 = 0,
+	k18 = 0,
+	k19 = 0
+}
 ```
