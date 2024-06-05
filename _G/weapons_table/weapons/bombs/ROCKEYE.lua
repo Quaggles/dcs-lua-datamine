@@ -244,8 +244,8 @@ _G["weapons_table"]["weapons"]["bombs"]["ROCKEYE"] = {
 	},
 	sounderName = "Weapons/Bomb",
 	targeting_data = {
-		bomblet_char_time = 23.8,
-		char_time = 20.43
+		bomblet_char_time = 25.45,
+		char_time = 20.21
 	},
 	type_name = "bomb",
 	ws_type = { 4, 5, 38, "Redacted" }

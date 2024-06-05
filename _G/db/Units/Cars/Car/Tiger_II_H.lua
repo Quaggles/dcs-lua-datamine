@@ -194,6 +194,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "Tk Tiger II",
 	Rate = 20,
 	Sensors = {
+		Mount_WS_ID = 1,
 		OPTIC = { "TRP-2A day" }
 	},
 	ThreatRange = 6000,

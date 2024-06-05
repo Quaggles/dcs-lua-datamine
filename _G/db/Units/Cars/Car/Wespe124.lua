@@ -163,6 +163,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "SPH Sd.Kfz.124 Wespe 105mm",
 	Rate = 15,
 	Sensors = {
+		Mount_WS_ID = 1,
 		OPTIC = { "TRP-2A day" }
 	},
 	ThreatRange = 10500,

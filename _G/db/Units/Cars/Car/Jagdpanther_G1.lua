@@ -109,6 +109,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "SPG Jagdpanther TD",
 	Rate = 20,
 	Sensors = {
+		Mount_WS_ID = 1,
 		OPTIC = { "TRP-2A day", "TRP-2A night" }
 	},
 	ThreatRange = 5000,

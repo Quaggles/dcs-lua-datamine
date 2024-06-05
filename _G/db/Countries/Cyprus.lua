@@ -945,6 +945,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "AH-64D_BLK_II"
 				}, {
 					Name = "Ka-50_3"
+				}, {
+					Name = "OH58D"
 				} }
 		},
 		Heliports = {

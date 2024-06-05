@@ -29,9 +29,9 @@ _G["launcher"]["{5335D97A-35A5-4643-9D9B-026C75961E52}"] = {
 				} },
 			baseDim = "s",
 			control = "comboList",
-			defValue = 0.63,
+			defValue = 2.23,
 			dimension = "s",
-			id = "function_delay_ctrl_FZU39_SUU65",
+			id = "function_delay_ctrl_FZU39_SUU65_SFW",
 			label = "Airburst Delay",
 			stringIndex = 2,
 			values = { {
@@ -93,24 +93,12 @@ _G["launcher"]["{5335D97A-35A5-4643-9D9B-026C75961E52}"] = {
 				} },
 			baseDim = "ft",
 			control = "comboList",
-			defValue = 300,
+			defValue = 1500,
 			dimension = "ft",
-			id = "function_altitude_ctrl_FZU39_SUU65",
+			id = "function_altitude_ctrl_FZU39_SUU65_SFW",
 			label = "Airburst Altitude",
 			stringIndex = 2,
 			values = { {
-					dispName = 300,
-					id = 300,
-					units = "ft"
-				}, {
-					dispName = 500,
-					id = 500,
-					units = "ft"
-				}, {
-					dispName = 700,
-					id = 700,
-					units = "ft"
-				}, {
 					dispName = 900,
 					id = 900,
 					units = "ft"

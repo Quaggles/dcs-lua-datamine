@@ -163,6 +163,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "SPH M12 GMC 155mm",
 	Rate = 15,
 	Sensors = {
+		Mount_WS_ID = 1,
 		OPTIC = { "TRP-2A day", "TRP-2A night" }
 	},
 	ThreatRange = 18300,

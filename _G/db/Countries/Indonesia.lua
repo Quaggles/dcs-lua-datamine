@@ -1005,6 +1005,8 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "Ka-50_3"
+				}, {
+					Name = "OH58D"
 				} }
 		},
 		Heliports = {

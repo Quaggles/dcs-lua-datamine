@@ -173,6 +173,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "SPG StuG III G AG",
 	Rate = 15,
 	Sensors = {
+		Mount_WS_ID = 1,
 		OPTIC = { "TRP-2A day", "TRP-2A night" }
 	},
 	ThreatRange = 3000,

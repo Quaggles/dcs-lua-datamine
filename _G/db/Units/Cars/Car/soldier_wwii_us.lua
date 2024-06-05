@@ -1,6 +1,5 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Countries = { "USA" },
-	CustomAimPoint = { 0, 1, 0 },
 	DetectionRange = 0,
 	DisplayName = "Infantry M1 Garand",
 	DisplayNameShort = "Inf.M1",
@@ -100,7 +99,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 2, 17, 26, "Redacted", "Infantry", "CustomAimPoint", "New infantry", "Skeleton_type_A", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "NonAndLightArmoredUnits", "NonArmoredUnits" },
+	attribute = { 2, 17, 26, "Redacted", "Infantry", "New infantry", "Skeleton_type_A", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "NonAndLightArmoredUnits", "NonArmoredUnits" },
 	category = "Infantry",
 	chassis = {
 		life = 1.02

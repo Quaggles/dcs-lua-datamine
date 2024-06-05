@@ -1,6 +1,5 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Countries = { "Germany", "Third Reich", "Japan", "Italian Social Republic", "Finland", "Hungary", "Romania", "Bulgaria" },
-	CustomAimPoint = { 0, 1, 0 },
 	DetectionRange = 0,
 	DisplayName = "Infantry Mauser 98",
 	DisplayNameShort = "Inf.Kar98",
@@ -101,7 +100,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 2, 17, 26, "Redacted", "Infantry", "CustomAimPoint", "New infantry", "Skeleton_type_A", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "NonAndLightArmoredUnits", "NonArmoredUnits" },
+	attribute = { 2, 17, 26, "Redacted", "Infantry", "New infantry", "Skeleton_type_A", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "NonAndLightArmoredUnits", "NonArmoredUnits" },
 	category = "Infantry",
 	chassis = {
 		life = 1.02
