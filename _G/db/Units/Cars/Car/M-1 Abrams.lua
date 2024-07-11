@@ -3,205 +3,131 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	Countries = { "USA" },
 	DM = { {
-			area_name = "GUN_MASK",
+			area_name = "Bashnya_BORT_Lev",
 			armour = {
-				width = 0.4
+				width = 0.22
 			}
 		}, {
-			area_name = "TURRET_FRONT",
+			area_name = "Bashnya_BORT_Prav",
+			armour = {
+				width = 0.22
+			}
+		}, {
+			area_name = "Bashnya_LOB",
 			armour = {
 				width = 0.75
 			}
 		}, {
-			area_name = "TURRET_LEFT",
-			armour = {
-				width = 0.22
-			}
-		}, {
-			area_name = "TURRET_RIGHT",
-			armour = {
-				width = 0.22
-			}
-		}, {
-			area_name = "TURRET_TOP",
+			area_name = "Bashnya_VERH",
 			armour = {
 				width = 0.02
 			}
 		}, {
-			area_name = "TURRET_TOP_F",
+			area_name = "Bashnya_NIZ",
 			armour = {
 				width = 0.02
 			}
 		}, {
-			area_name = "TURRET_BOTTOM",
-			armour = {
-				width = 0.02
-			}
-		}, {
-			area_name = "TURRET_BACK",
+			area_name = "Bashnya_ZAD",
 			armour = {
 				width = 0.04
 			}
 		}, {
-			area_name = "BODY_FRONT",
+			area_name = "Falshbort_Lev",
 			armour = {
-				width = 0.5
+				width = 0.01
 			}
 		}, {
-			area_name = "BODY",
+			area_name = "Falshbort_Prav",
+			armour = {
+				width = 0.01
+			}
+		}, {
+			area_name = "Guslya_Lev",
+			armour = {
+				width = 1000
+			}
+		}, {
+			area_name = "Guslya_Prav",
+			armour = {
+				width = 1000
+			}
+		}, {
+			area_name = "Orudie_Maska",
+			armour = {
+				width = 0.4
+			}
+		}, {
+			area_name = "Orudie",
+			armour = {
+				width = 0.4
+			}
+		}, {
+			area_name = "Datchik_vetra",
+			armour = {
+				width = 0.001
+			}
+		}, {
+			area_name = "Luk_Kom",
 			armour = {
 				width = 0.06
 			}
 		}, {
-			area_name = "HATCH",
+			area_name = "Pricel_1",
 			armour = {
-				width = 0.06
+				width = 0.01
 			}
 		}, {
-			area_name = "BODY_LEFT_FRONT",
+			area_name = "Pricel_2",
 			armour = {
-				width = 0.26
+				width = 0.01
 			}
 		}, {
-			area_name = "BODY_LEFT_CENTER",
-			armour = {
-				width = 0.15
-			}
-		}, {
-			area_name = "BODY_LEFT_BACK",
-			armour = {
-				width = 0.055
-			}
-		}, {
-			area_name = "BODY_RIGHT_FRONT",
+			area_name = "Telo_BORT_Lev",
 			armour = {
 				width = 0.26
 			}
 		}, {
-			area_name = "BODY_RIGHT_CENTER",
+			area_name = "Telo_BORT_Prav",
 			armour = {
-				width = 0.15
+				width = 0.26
 			}
 		}, {
-			area_name = "BODY_RIGHT_BACK",
-			armour = {
-				width = 0.055
-			}
-		}, {
-			area_name = "BODY_BACK",
-			armour = {
-				width = 0.04
-			}
-		}, {
-			area_name = "ENGINE",
+			area_name = "Telo_MTO",
 			armour = {
 				width = 0.02
 			}
 		}, {
-			area_name = "UNDERTURRET_RING",
+			area_name = "Telo_NIZ",
 			armour = {
-				width = 0.2
+				width = 0.04
 			}
 		}, {
-			area_name = "MUDGUARD_L",
+			area_name = "Telo_NLD",
 			armour = {
-				width = 1000
+				width = 0.04
 			}
 		}, {
-			area_name = "MUDGUARD_R",
+			area_name = "Telo_VERH",
 			armour = {
-				width = 1000
+				width = 0.04
 			}
 		}, {
-			area_name = "WHEEL_L_1",
+			area_name = "Telo_VLD",
 			armour = {
-				width = 1000
+				width = 0.04
 			}
 		}, {
-			area_name = "WHEEL_L_2",
+			area_name = "Telo_ZAD",
 			armour = {
-				width = 1000
+				width = 0.04
 			}
 		}, {
-			area_name = "WHEEL_L_3",
+			area_name = "Turel",
 			armour = {
-				width = 1000
-			}
-		}, {
-			area_name = "WHEEL_L_4",
-			armour = {
-				width = 1000
-			}
-		}, {
-			area_name = "WHEEL_L_5",
-			armour = {
-				width = 1000
-			}
-		}, {
-			area_name = "WHEEL_L_6",
-			armour = {
-				width = 1000
-			}
-		}, {
-			area_name = "WHEEL_L_7",
-			armour = {
-				width = 1000
-			}
-		}, {
-			area_name = "WHEEL_L_8",
-			armour = {
-				width = 1000
-			}
-		}, {
-			area_name = "WHEEL_L_9",
-			armour = {
-				width = 1000
-			}
-		}, {
-			area_name = "WHEEL_R_1",
-			armour = {
-				width = 1000
-			}
-		}, {
-			area_name = "WHEEL_R_2",
-			armour = {
-				width = 1000
-			}
-		}, {
-			area_name = "WHEEL_R_3",
-			armour = {
-				width = 1000
-			}
-		}, {
-			area_name = "WHEEL_R_4",
-			armour = {
-				width = 1000
-			}
-		}, {
-			area_name = "WHEEL_R_5",
-			armour = {
-				width = 1000
-			}
-		}, {
-			area_name = "WHEEL_R_6",
-			armour = {
-				width = 1000
-			}
-		}, {
-			area_name = "WHEEL_R_7",
-			armour = {
-				width = 1000
-			}
-		}, {
-			area_name = "WHEEL_R_8",
-			armour = {
-				width = 1000
-			}
-		}, {
-			area_name = "WHEEL_R_9",
-			armour = {
-				width = 1000
+				width = 0.02
 			}
 		} },
 	DetectionRange = 0,
@@ -219,7 +145,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	WS = { {
 			LN = { {
 					BR = { {
-							connector_name = "POINT_GUN",
+							connector_name = "POINT_GUN_01",
 							recoilArgument = 23,
 							recoilTime = 0.5
 						} },
@@ -261,7 +187,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					type = 6
 				}, {
 					BR = { {
-							connector_name = "POINT_MGUN_01",
+							connector_name = "POINT_M2_01",
 							pos = {}
 						} },
 					PL = { {
@@ -296,12 +222,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				inn = 10,
 				p = 100
 			},
-			pointer = "POINT_SIGHT",
+			pointer = "POINT_SIGHT_01",
 			stabilizer = true
 		}, {
 			LN = { {
 					BR = { {
-							connector_name = "POINT_MGUN",
+							connector_name = "POINT_M2_02",
 							pos = {}
 						} },
 					PL = { {
@@ -315,18 +241,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						}, {
 							shell_name = {}
 						} },
-					fireAnimationArgument = 44,
+					machineGunBeltArgument = 90,
 					sensor = {},
 					sightIndicationMode = 1,
 					sightMasterMode = 1,
 					type = 10
 				} },
-			angles = { { 3.1415926535898, 1.1344640137963, -0.13962634015955, 0.5235987755983 }, { 1.1344640137963, 0.78539816339745, 0.38397243543875, 0.5235987755983 }, { 0.78539816339745, -0.061086523819802, -0.13962634015955, 0.5235987755983 }, { -0.061086523819802, -0.78539816339745, 0, 0.5235987755983 }, { -0.78539816339745, -3.1415926535898, -0.13962634015955, 0.5235987755983 } },
+			angles = { { 3.1415926535898, 2.0943951023932, 0, 0.5235987755983 }, { 2.0943951023932, 1.1344640137963, 0.33161255787892, 0.5235987755983 }, { 1.1344640137963, 0.78539816339745, 0.20943951023932, 0.5235987755983 }, { 0.78539816339745, -0.78539816339745, -0.13962634015955, 0.5235987755983 }, { -0.78539816339745, -3.1415926535898, 0, 0.5235987755983 } },
 			base = 1,
-			center = "CENTER_MGUN",
+			center = "CENTER_M2_02",
 			cockpit = { "CWS/CWS", { 0.1, 0, 0 } },
-			drawArgument1 = 25,
-			drawArgument2 = 26,
+			drawArgument1 = 24,
+			drawArgument2 = 25,
 			omegaY = 0.87266462599716,
 			omegaZ = 0.87266462599716,
 			pidY = {
@@ -341,19 +267,22 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				inn = 10,
 				p = 100
 			},
-			pointer = "POINT_SIGHT_CWS"
+			pointer = "POINT_SIGHT_02"
 		},
-		maxTargetDetectionRange = 6000,
-		smoke = { "SMOKE_01", "SMOKE_02", "SMOKE_03", "SMOKE_04", "SMOKE_01", "SMOKE_02", "SMOKE_03", "SMOKE_04", "SMOKE_01", "SMOKE_02", "SMOKE_03", "SMOKE_04" }
+		maxTargetDetectionRange = 6000
 	},
 	Waypoint_Custom_Panel = true,
+	_file = "./CoreMods/tech/HeavyMetalCore/Database/db_units_cars.lua",
+	_origin = "HeavyMetalCore",
 	airWeaponDist = 1200,
-	animation_arguments = {},
+	animation_arguments = {
+		alarm_state = 4
+	},
 	armour_scheme = {
-		hull_azimuth = { { 0, 35, 5.2 }, { 35, 80, 1.3 }, { 80, 120, 1 }, { 120, 180, 0.7 } },
-		hull_elevation = { { -90, -45, 0.005 }, { -45, 14, 1.3 }, { 14, 25, 1 }, { 25, 90, 0.5 } },
-		turret_azimuth = { { 0, 56, 5.2 }, { 56, 150, 3.6 }, { 150, 180, 0.8 } },
-		turret_elevation = { { -90, 45, 1 }, { 45, 90, 0.2 } }
+		hull_azimuth = { {}, {}, {}, {} },
+		hull_elevation = { {}, {}, {}, {}, {} },
+		turret_azimuth = { {}, {}, {}, {} },
+		turret_elevation = { {}, {} }
 	},
 	attribute = { 2, 17, 26, "Redacted", "Tanks", "Modern Tanks", "Datalink", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "HeavyArmoredUnits" },
 	category = "Armor",
@@ -367,10 +296,27 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		offset = { 0.05, 0, 0 }
 	},
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = {
+			[3] = 1
+		}
+	},
 	mapclasskey = "P0091000001",
 	sensor = {
 		height = 2.713
 	},
+	shape_table_data = { {
+			classname = "lLandVehicle",
+			desrt = "M1A2_p_1",
+			file = "M1A2",
+			life = 5,
+			name = "M1A2",
+			positioning = "BYNORMAL",
+			username = "M-1 Abrams"
+		}, {
+			file = "M1A2_p_1",
+			name = "M1A2_p_1"
+		} },
 	snd = {
 		engine_pitch = { {}, {}, {} },
 		engine_vol_a = { {}, {}, {} },
@@ -384,7 +330,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "M-1 Abrams",
 	visual = {
 		IR = {
-			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0019, 0.0013 }, { 0.001, 0.17 }, { 0.35, 0.00019444444444444 } }
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0024, 0.002 }, { 0.001, 0.17 }, { 0.35, 0.00019444444444444 } }
 		},
 		agony_explosion_size = 2,
 		dirt_pos = { -3.8, 0.7, -1.429 },
@@ -394,7 +340,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		fire_time = 620,
 		max_time_agony = 100,
 		min_time_agony = 10,
-		shape = "m-1",
-		shape_dstr = "M-1_p_1"
+		shape = "M1A2",
+		shape_dstr = "M1A2_p_1"
 	}
 }

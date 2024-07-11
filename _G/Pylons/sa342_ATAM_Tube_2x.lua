@@ -1,5 +1,4 @@
 _G["Pylons"]["sa342_ATAM_Tube_2x"] = {
-	DrawArgs = { { 14, 0.9 }, { 2, 1 } },
 	IsAdapter = true,
 	ShapeName = "sa342_ATAM_Tube_2x",
 	_unique_resource_name = "weapons.adapters.sa342_ATAM_Tube_2x",

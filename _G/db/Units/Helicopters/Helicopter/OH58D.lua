@@ -572,7 +572,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						Dv0 = 0.0082,
 						_unique_resource_name = "weapons.shells.5_56x45",
 						caliber = 5.56,
-						cartridge = 0,
+						cartridge = 205,
 						cartridge_mass = 0,
 						charTime = 0,
 						cumulative_mass = 0,
@@ -634,7 +634,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						Dv0 = 0.0082,
 						_unique_resource_name = "weapons.shells.5_56x45_NOtr",
 						caliber = 5.56,
-						cartridge = 0,
+						cartridge = 205,
 						cartridge_mass = 0,
 						charTime = 0,
 						cumulative_mass = 0,
@@ -1595,7 +1595,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	Vy_land_max = 12.8,
 	Vy_max = 8.2,
 	Waypoint_Custom_Panel = true,
-	WorldID = 329,
+	WorldID = 332,
 	_file = "./CoreMods/aircraft/OH-58D/OH58D.lua",
 	_file_flyable = "./Mods/aircraft/OH-58D/entry.lua",
 	_origin = "OH58D AI by Polychop-Simulations",
@@ -1632,6 +1632,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		} },
 	crew_size = 2,
 	crew_stations = "HumanOrchestra",
+	date_of_introduction = 1983,
 	detection_range_max = 0,
 	engine_data = {
 		SFC_k = { 0, -0.0003171, 0.512 },
@@ -1859,7 +1860,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			}
 		}, {
 			channels = { {
-					connect = true,
 					default = 131,
 					modulation = "AM",
 					name = "Channel 1"
@@ -1947,7 +1947,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			}
 		}, {
 			channels = { {
-					connect = true,
 					default = 30,
 					modulation = "FM",
 					name = "Channel 1"

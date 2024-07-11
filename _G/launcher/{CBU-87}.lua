@@ -18,7 +18,10 @@ _G["launcher"]["{CBU-87}"] = {
 			stringIndex = 1,
 			values = { {
 					dispName = "Integral Fuze + FZU-39",
-					id = "FZU39"
+					id = "FZU39",
+					secondaryParams = {
+						tooltip = ""
+					}
 				} },
 			wCtrl = 360,
 			xCtrl = 200

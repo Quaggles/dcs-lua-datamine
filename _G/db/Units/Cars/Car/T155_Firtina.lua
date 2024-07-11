@@ -194,6 +194,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 17, 26, "Redacted", "Artillery", "Datalink", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "Indirect fire", "NonAndLightArmoredUnits", "LightArmoredUnits" },
 	category = "Artillery",
 	chassis = {},
+	crew_locale = "ENG",
+	crew_members = { "commander", "gunner", "loader" },
 	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
 	driverViewConnectorName = { "DRIVER_POINT" },
 	enablePlayerCanDrive = true,
@@ -233,7 +235,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "T155_Firtina",
 	visual = {
 		IR = {
-			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.00045, 0.003 }, { 0.001, 0.17 }, { 0.3, 0.00018181818181818 } }
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.00049, 0.003 }, { 0.001, 0.17 }, { 0.3, 0.00018181818181818 } }
 		},
 		agony_explosion_size = 5,
 		dirt_pos = { -3.5, 0.6, -1.42 },

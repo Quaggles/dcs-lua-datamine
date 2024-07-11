@@ -115,6 +115,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			pidZ = {},
 			pos = {}
 		},
+		isDetector = true,
 		maxTargetDetectionRange = 200000,
 		radar_rotation_type = 0,
 		radar_type = 102,

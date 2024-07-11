@@ -12,7 +12,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "SPG Stryker MGS",
 	Rate = 15,
 	Sensors = {
-		OPTIC = { "MGS sight day", "MGS sight night" }
+		Mount_WS_ID = 1,
+		OPTIC = { "CUPOLA_TRIPLEXES", "MGS sight day", "MGS sight night" }
 	},
 	ThreatRange = 4000,
 	WS = { {
@@ -153,7 +154,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "M1128 Stryker MGS",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0.002, 0.0015 }, { 0.001, 0.17 }, { 0.3, 0.00025 } }
+			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0.0038, 0.0015 }, { 0.001, 0.17 }, { 0.3, 0.00025 } }
 		},
 		agony_explosion_size = 3,
 		fire_pos = { 0.5, 1, 0 },

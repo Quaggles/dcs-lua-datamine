@@ -38,9 +38,21 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					sensor = {}
 				}, {
 					BR = { {
+							case_extraction_connector = "EJECTOR_1",
 							connector_name = "POINT_GUN_01",
+							extractionDir = {
+								x = 4,
+								y = 1,
+								z = -0.7
+							},
 							recoilArgument = 23,
-							recoilTime = 0.1
+							recoilTime = 0.1,
+							shellCaseID = 0,
+							shellCaseOrientation = {
+								x = 0,
+								y = 0,
+								z = 0
+							}
 						} },
 					PL = { {
 							ammo_capacity = 180,
@@ -120,7 +132,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "BTR-82A",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0.0062, 0.00215 }, { 0.001, 0.17 }, { 0.3, 0.00016666666666667 } }
+			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0.0036, 0.0039 }, { 0.001, 0.17 }, { 0.3, 0.00016666666666667 } }
 		},
 		agony_explosion_size = 5,
 		fire_pos = { -1.2, 1.13, 0 },
@@ -130,5 +142,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		min_time_agony = 15,
 		shape = "BTR-82A",
 		shape_dstr = "BTR-82A_p_1"
-	}
+	},
+	windscreen_wiper = 40
 }

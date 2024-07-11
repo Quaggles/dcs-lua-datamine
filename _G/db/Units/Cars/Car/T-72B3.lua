@@ -110,7 +110,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	WS = { {
 			LN = { {
 					BR = { {
+							case_extraction_connector = "EJECTOR_1",
 							connector_name = "POINT_GUN",
+							projectileTrayEjectorArgument = 70,
 							recoilArgument = 23,
 							recoilTime = 0.3
 						} },
@@ -120,7 +122,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							shell_name = { "3BM59_125_AP" }
 						} },
 					beamWidth = 0.017453292519943,
-					sensor = {}
+					sensor = {},
+					sightIndicationMode = 1,
+					sightMasterMode = 1
 				}, {
 					BR = { {} },
 					PL = { {
@@ -133,6 +137,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMax = 8000,
 					distanceMin = 20,
 					sensor = {},
+					sightIndicationMode = 2,
+					sightMasterMode = 1,
 					type = 6
 				}, {
 					BR = { {
@@ -145,7 +151,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						}, {
 							type_ammunition = {}
 						} },
-					sensor = {}
+					sensor = {},
+					sightIndicationMode = 3,
+					sightMasterMode = 1
 				}, {
 					BR = { {
 							connector_name = "POINT_MGUN_01",
@@ -174,6 +182,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				} },
 			angles = { { 2.5307274153918, -2.5307274153918, -0.069813170079773, 0.24434609527921 }, { -2.5307274153918, 2.5307274153918, 0.061086523819802, 0.24434609527921 } },
 			center = "CENTER_TOWER",
+			cockpit = { "SOSNA-U/SOSNA", { 0, 0, 0 } },
 			drawArgument1 = 0,
 			drawArgument2 = 1,
 			laser = true,
@@ -191,6 +200,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				inn = 0.4,
 				p = 60
 			},
+			pointer = "POINT_SIGHT_01",
+			secondarySightConnector = "POINT_SIGHT_02",
 			stabilizer = true
 		}, {
 			LN = { {
@@ -211,10 +222,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						}, {
 							shell_name = {}
 						} },
+					customViewPoint = { "K10-T/K10-T_Sight", { -1.6, 0.19, 0.06 } },
 					sensor = {},
 					type = 10
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, -0.13962634015955, 1.0995574287564 } },
+			angles = { { 3.1415926535898, 2.2340214425527, -0.13962634015955, 1.0995574287564 }, { 2.2340214425527, 2.0507618710933, 0.57595865315813, 1.0995574287564 }, { 2.0507618710933, 1.3962634015955, -0.13962634015955, 1.0995574287564 }, { 1.3962634015955, 1.1780972450962, -0.017453292519943, 1.0995574287564 }, { 1.1693705988362, -3.1415926535898, -0.13962634015955, 1.0995574287564 } },
 			base = 1,
 			center = "CENTER_MGUN",
 			drawArgument1 = 24,
@@ -249,12 +261,14 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_azimuth = { {}, {}, {}, {} },
 		turret_elevation = { {}, {} }
 	},
-	attribute = { 2, 17, 26, "Redacted", "Tanks", "Modern Tanks", "CustomAimPoint", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "HeavyArmoredUnits" },
+	attribute = { 2, 17, 26, "Redacted", "Tanks", "Modern Tanks", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "HeavyArmoredUnits" },
 	category = "Armor",
 	chassis = {},
 	crew_locale = "RUS",
-	crew_members = { "gunner" },
-	enablePlayerCanDrive = false,
+	crew_members = { "gunner", "loader" },
+	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
+	driverViewConnectorName = { "POINT_DRIVER" },
+	enablePlayerCanDrive = true,
 	mapclasskey = "P0091000001",
 	sensor = {
 		height = 2.723
@@ -284,7 +298,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "T-72B3",
 	visual = {
 		IR = {
-			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0019, 0.0013 }, { 0.001, 0.17 }, { 0.3, 0.00017142857142857 } }
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0024, 0.002 }, { 0.001, 0.17 }, { 0.3, 0.00017142857142857 } }
 		},
 		agony_explosion_size = 5,
 		dirt_pos = { -3.1, 0.55, -1.346 },

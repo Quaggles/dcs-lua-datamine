@@ -11,6 +11,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = 'SAM SA-15 Tor "Gauntlet"',
 	Rate = 25,
 	Sensors = {
+		Mount_WS_ID = 1,
 		OPTIC = { "generic SAM search visir" },
 		RADAR = "Tor 9A331"
 	},

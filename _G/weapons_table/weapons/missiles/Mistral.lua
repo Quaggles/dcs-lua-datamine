@@ -166,8 +166,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Mistral"] = {
 			mass = 3,
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
-			piercing_mass = 0.6,
-			time_self_destruct = 14
+			piercing_mass = 0.6
 		},
 		warhead_air = {
 			caliber = 93,
@@ -180,8 +179,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Mistral"] = {
 			mass = 3,
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
-			piercing_mass = 0.6,
-			time_self_destruct = 14
+			piercing_mass = 0.6
 		},
 		wsTypeOfWeapon = { 4, 4, 34, "Redacted" }
 	},
@@ -353,8 +351,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Mistral"] = {
 			mass = 3,
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
-			piercing_mass = 0.6,
-			time_self_destruct = 14
+			piercing_mass = 0.6
 		},
 		warhead_air = {
 			caliber = 93,
@@ -367,12 +364,14 @@ _G["weapons_table"]["weapons"]["missiles"]["Mistral"] = {
 			mass = 3,
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
-			piercing_mass = 0.6,
-			time_self_destruct = 14
+			piercing_mass = 0.6
 		},
 		wsTypeOfWeapon = { 4, 4, 34, "Redacted" }
 	},
 	sounderName = "Weapons/Missile",
+	targeting_data = {
+		fm_type = -1
+	},
 	type_name = "missile",
 	ws_type = { 4, 4, 34, "Redacted" }
 }

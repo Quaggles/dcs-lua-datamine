@@ -47,7 +47,7 @@ _G["weapons_table"]["weapons"]["nurs"]["URAGAN_9M27F"] = {
 			piercing_mass = 19.8
 		}
 	},
-	cx_pil = 1.3456025171128e-05,
+	cx_pil = 1.3456056637168e-05,
 	display_name = "9M27F (220mm HE)",
 	display_name_short = "9M27",
 	dist_max = 0,

@@ -34,7 +34,10 @@ _G["launcher"]["ER_4_SC50"] = {
 			stringIndex = 1,
 			values = { {
 					dispName = "Zünder 25C",
-					id = 1
+					id = 1,
+					secondaryParams = {
+						tooltip = "Electronic, impact\nHas multiple operation modes, one of which can be selected in-flight"
+					}
 				} },
 			wCtrl = 360,
 			xCtrl = 200

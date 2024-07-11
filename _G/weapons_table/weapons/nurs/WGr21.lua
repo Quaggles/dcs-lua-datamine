@@ -69,7 +69,7 @@ _G["weapons_table"]["weapons"]["nurs"]["WGr21"] = {
 		},
 		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 	},
-	cx_pil = 0.00019450813801802,
+	cx_pil = 0.00019450859286265,
 	display_name = "Werfer-Granate 21",
 	display_name_short = "WGr21",
 	dist_max = 1200,

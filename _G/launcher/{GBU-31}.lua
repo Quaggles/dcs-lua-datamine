@@ -15,28 +15,20 @@ _G["launcher"]["{GBU-31}"] = {
 	settings = { {
 			baseDim = "",
 			control = "comboList",
-			defValue = "M904E4",
+			defValue = "EMPTY_NOSE",
 			dimension = "",
 			id = "NFP_fuze_type_nose",
 			label = "Nose Fuze Well",
 			stringIndex = 1,
 			values = { {
-					dispName = "M904E4",
-					id = "M904E4",
-					secondaryParams = {
-						addDef = {
-							ID = "NFP_VIS_DrawArgNo_56",
-							val = 0
-						}
-					}
-				}, {
 					dispName = "DSU-33",
 					id = "DSU33",
 					secondaryParams = {
 						addDef = {
 							ID = "NFP_VIS_DrawArgNo_56",
 							val = 0.3
-						}
+						},
+						tooltip = "Electronic, proximity\nDoppler radar altimeter\nProvides a firing signal to the bomb's fuze upon detecting an altitude of 20 ft (ca. 6 m) AGL"
 					}
 				}, {
 					dispName = "Plugged",
@@ -57,7 +49,7 @@ _G["launcher"]["{GBU-31}"] = {
 				} },
 			baseDim = "",
 			control = "comboList",
-			defValue = 0.1,
+			defValue = 0.5,
 			dimension = "",
 			id = "NFP_VIS_DrawArgNo_56",
 			label = "Plug",
@@ -96,91 +88,22 @@ _G["launcher"]["{GBU-31}"] = {
 			xCtrl = 200,
 			xLbl = 10
 		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type_nose",
-					value = "M904E4"
-				} },
-			baseDim = "s",
-			control = "spinbox",
-			defValue = 2,
-			dimension = "s",
-			id = "arm_delay_ctrl_M904E4",
-			label = "Arm Delay",
-			max = 18,
-			min = 2,
-			readOnly = false,
-			step = 2,
-			stringIndex = 2,
-			tooltip = "Lower Limit: 2 s\nUpper Limit: 18 s\nIncrement: 2 s",
-			wCtrl = 60,
-			wDim = 30,
-			xCtrl = 200,
-			xLbl = 10
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type_nose",
-					value = "M904E4"
-				} },
-			baseDim = "s",
-			control = "comboList",
-			defValue = 0,
-			dimension = "s",
-			id = "function_delay_ctrl_M904E4",
-			label = "Function Delay",
-			stringIndex = 2,
-			values = { {
-					dispName = 0,
-					id = 0,
-					units = "s"
-				}, {
-					dispName = 0.01,
-					id = 0.01,
-					units = "s"
-				}, {
-					dispName = 0.025,
-					id = 0.025,
-					units = "s"
-				}, {
-					dispName = 0.05,
-					id = 0.05,
-					units = "s"
-				}, {
-					dispName = 0.1,
-					id = 0.1,
-					units = "s"
-				}, {
-					dispName = 0.25,
-					id = 0.25,
-					units = "s"
-				} },
-			wCtrl = 60,
-			xCtrl = 500,
-			xLbl = 310
-		}, {
 			baseDim = "",
 			control = "comboList",
-			defValue = "M905",
+			defValue = "FMU139CB_LD",
 			dimension = "",
 			id = "NFP_fuze_type_tail",
 			label = "Tail Fuze Well",
 			stringIndex = 3,
 			values = { {
-					dispName = "M905",
-					id = "M905",
-					secondaryParams = {
-						addDef = {
-							ID = "NFP_VIS_DrawArgNo_55",
-							val = 0
-						}
-					}
-				}, {
 					dispName = "FMU-139",
 					id = "FMU139CB_LD",
 					secondaryParams = {
 						addDef = {
 							ID = "NFP_VIS_DrawArgNo_55",
 							val = 0.1
-						}
+						},
+						tooltip = "Electronic, impact"
 					}
 				}, {
 					dispName = "FMU-143",
@@ -189,7 +112,8 @@ _G["launcher"]["{GBU-31}"] = {
 						addDef = {
 							ID = "NFP_VIS_DrawArgNo_55",
 							val = 0.1
-						}
+						},
+						tooltip = "Electronic, impact"
 					}
 				}, {
 					dispName = "FMU-152",
@@ -198,7 +122,8 @@ _G["launcher"]["{GBU-31}"] = {
 						addDef = {
 							ID = "NFP_VIS_DrawArgNo_55",
 							val = 0.1
-						}
+						},
+						tooltip = "Electronic, impact\nFuze parameters are adjustable in-flight"
 					}
 				}, {
 					dispName = "Plugged",
@@ -243,46 +168,6 @@ _G["launcher"]["{GBU-31}"] = {
 				}, {
 					dispName = 14,
 					id = 14,
-					units = "s"
-				}, {
-					dispName = 20,
-					id = 20,
-					units = "s"
-				} },
-			wCtrl = 60,
-			xCtrl = 200,
-			xLbl = 10
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type_tail",
-					value = "M905"
-				} },
-			baseDim = "s",
-			control = "comboList",
-			defValue = 4,
-			dimension = "s",
-			id = "arm_delay_ctrl_M905",
-			label = "Arm Delay",
-			stringIndex = 4,
-			values = { {
-					dispName = 4,
-					id = 4,
-					units = "s"
-				}, {
-					dispName = 6,
-					id = 6,
-					units = "s"
-				}, {
-					dispName = 8,
-					id = 8,
-					units = "s"
-				}, {
-					dispName = 12,
-					id = 12,
-					units = "s"
-				}, {
-					dispName = 16,
-					id = 16,
 					units = "s"
 				}, {
 					dispName = 20,
@@ -411,74 +296,6 @@ _G["launcher"]["{GBU-31}"] = {
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
-					value = "FMU143"
-				} },
-			baseDim = "s",
-			control = "comboList",
-			defValue = 0.03,
-			dimension = "s",
-			id = "function_delay_ctrl_FMU143",
-			label = "Function Delay",
-			stringIndex = 4,
-			values = { {
-					dispName = 0.03,
-					id = 0.03,
-					units = "s"
-				}, {
-					dispName = 0.06,
-					id = 0.06,
-					units = "s"
-				}, {
-					dispName = 0.12,
-					id = 0.12,
-					units = "s"
-				} },
-			wCtrl = 60,
-			xCtrl = 500,
-			xLbl = 310
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type_tail",
-					value = "M905"
-				} },
-			baseDim = "s",
-			control = "comboList",
-			defValue = 0,
-			dimension = "s",
-			id = "function_delay_ctrl_M905",
-			label = "Function Delay",
-			stringIndex = 4,
-			values = { {
-					dispName = 0,
-					id = 0,
-					units = "s"
-				}, {
-					dispName = 0.01,
-					id = 0.01,
-					units = "s"
-				}, {
-					dispName = 0.025,
-					id = 0.025,
-					units = "s"
-				}, {
-					dispName = 0.05,
-					id = 0.05,
-					units = "s"
-				}, {
-					dispName = 0.1,
-					id = 0.1,
-					units = "s"
-				}, {
-					dispName = 0.25,
-					id = 0.25,
-					units = "s"
-				} },
-			wCtrl = 60,
-			xCtrl = 500,
-			xLbl = 310
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type_tail",
 					value = "FMU139CB_LD"
 				} },
 			baseDim = "s",
@@ -503,6 +320,34 @@ _G["launcher"]["{GBU-31}"] = {
 				}, {
 					dispName = 0.06,
 					id = 0.06,
+					units = "s"
+				} },
+			wCtrl = 60,
+			xCtrl = 500,
+			xLbl = 310
+		}, {
+			VisibilityCondition = { {
+					id = "NFP_fuze_type_tail",
+					value = "FMU143"
+				} },
+			baseDim = "s",
+			control = "comboList",
+			defValue = 0.03,
+			dimension = "s",
+			id = "function_delay_ctrl_FMU143",
+			label = "Function Delay",
+			stringIndex = 4,
+			values = { {
+					dispName = 0.03,
+					id = 0.03,
+					units = "s"
+				}, {
+					dispName = 0.06,
+					id = 0.06,
+					units = "s"
+				}, {
+					dispName = 0.12,
+					id = 0.12,
 					units = "s"
 				} },
 			wCtrl = 60,

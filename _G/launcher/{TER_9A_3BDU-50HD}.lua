@@ -13,7 +13,7 @@ _G["launcher"]["{TER_9A_3*BDU-50HD}"] = {
 			connector_name = "Point03"
 		} },
 	Picture = "BDU-50HD.png",
-	Weight = 749,
+	Weight = 743.6,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 5, 32, "Redacted" },
@@ -35,7 +35,8 @@ _G["launcher"]["{TER_9A_3*BDU-50HD}"] = {
 						addDef = {
 							ID = "NFP_VIS_DrawArgNo_56",
 							val = 0
-						}
+						},
+						tooltip = "Mechanical, impact\nArmed by vane rotation"
 					}
 				}, {
 					dispName = "DSU-33",
@@ -44,7 +45,8 @@ _G["launcher"]["{TER_9A_3*BDU-50HD}"] = {
 						addDef = {
 							ID = "NFP_VIS_DrawArgNo_56",
 							val = 0.3
-						}
+						},
+						tooltip = "Electronic, proximity\nDoppler radar altimeter\nProvides a firing signal to the bomb's fuze upon detecting an altitude of 20 ft (ca. 6 m) AGL"
 					}
 				}, {
 					dispName = "Plugged",
@@ -65,7 +67,7 @@ _G["launcher"]["{TER_9A_3*BDU-50HD}"] = {
 				} },
 			baseDim = "",
 			control = "comboList",
-			defValue = 0.1,
+			defValue = 0.5,
 			dimension = "",
 			id = "NFP_VIS_DrawArgNo_56",
 			label = "Plug",
@@ -179,7 +181,8 @@ _G["launcher"]["{TER_9A_3*BDU-50HD}"] = {
 						addDef = {
 							ID = "NFP_VIS_DrawArgNo_55",
 							val = 0
-						}
+						},
+						tooltip = "Mechanical, impact\nArmed by vane rotation"
 					}
 				}, {
 					dispName = "FMU-139",
@@ -188,7 +191,8 @@ _G["launcher"]["{TER_9A_3*BDU-50HD}"] = {
 						addDef = {
 							ID = "NFP_VIS_DrawArgNo_55",
 							val = 0.1
-						}
+						},
+						tooltip = "Electronic, impact\nAvailable arming parameters depend on selected function delay"
 					}
 				}, {
 					dispName = "FMU-152",
@@ -197,7 +201,8 @@ _G["launcher"]["{TER_9A_3*BDU-50HD}"] = {
 						addDef = {
 							ID = "NFP_VIS_DrawArgNo_55",
 							val = 0.1
-						}
+						},
+						tooltip = "Electronic, impact\nAvailable arming parameters depend on selected function delay\nFuze parameters are adjustable in-flight"
 					}
 				}, {
 					dispName = "Plugged",

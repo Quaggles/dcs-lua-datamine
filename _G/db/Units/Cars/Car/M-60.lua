@@ -107,6 +107,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "MBT M60A3 Patton",
 	Rate = 15,
 	Sensors = {
+		Mount_WS_ID = 1,
 		OPTIC = { "AN/VSG-2 day", "AN/VSG-2 night" }
 	},
 	ThreatRange = 8000,
@@ -212,7 +213,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "M-60",
 	visual = {
 		IR = {
-			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.002, 0.0015 }, { 0.001, 0.17 }, { 0.3, 0.0002 } }
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0038, 0.0015 }, { 0.001, 0.17 }, { 0.3, 0.0002 } }
 		},
 		agony_explosion_size = 2,
 		dirt_pos = { -3.3, 0.7, -1.436 },

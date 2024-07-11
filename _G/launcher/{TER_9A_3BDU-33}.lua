@@ -16,7 +16,7 @@ _G["launcher"]["{TER_9A_3*BDU-33}"] = {
 			connector_name = "Point03"
 		} },
 	Picture = "bdu-33.png",
-	Weight = 86.9,
+	Weight = 81.5,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 5, 32, "Redacted" },

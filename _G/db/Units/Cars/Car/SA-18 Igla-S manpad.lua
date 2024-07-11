@@ -68,7 +68,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "SA-18 Igla-S manpad",
 	visual = {
 		IR = {
-			coeffs = { {}, {}, {}, {} }
+			coeffs = { {}, {}, {}, {}, {} }
 		},
 		fire_pos = {},
 		fire_size = 0,

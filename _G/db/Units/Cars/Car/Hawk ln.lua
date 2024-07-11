@@ -1,5 +1,6 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Aliases = { "Hawk M192 LN" },
+	Crew = 0,
 	DetectionRange = 0,
 	DisplayName = "SAM Hawk LN M192",
 	DisplayNameShort = "Hawk-LN",

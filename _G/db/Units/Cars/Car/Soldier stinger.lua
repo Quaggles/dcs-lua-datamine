@@ -26,7 +26,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					sightMasterMode = 1
 				} },
 			angles = { {} },
-			cockpit = { "StingerSight/StingerSight", { 0.1, 0, -0.23 },
+			cockpit = { "StingerSight/StingerSight", { 0.1, 0, 0 },
 				open = true
 			},
 			pidY = {},
@@ -69,7 +69,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "Soldier stinger",
 	visual = {
 		IR = {
-			coeffs = { {}, {}, {}, {} }
+			coeffs = { {}, {}, {}, {}, {} }
 		},
 		fire_pos = {},
 		fire_size = 0,

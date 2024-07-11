@@ -131,6 +131,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_114K"] = {
 			nozzle_orientationXYZ = { { 0, 0, 0 } },
 			nozzle_position = { { -0.88, 0, 0 } },
 			smoke_color = { 0.8, 0.8, 0.8 },
+			smoke_opacity_type = 2,
 			smoke_transparency = 0.1,
 			tail_width = 0.4,
 			work_time = 2.5
@@ -318,6 +319,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_114K"] = {
 			nozzle_orientationXYZ = { { 0, 0, 0 } },
 			nozzle_position = { { -0.88, 0, 0 } },
 			smoke_color = { 0.8, 0.8, 0.8 },
+			smoke_opacity_type = 2,
 			smoke_transparency = 0.1,
 			tail_width = 0.4,
 			work_time = 2.5
@@ -374,6 +376,9 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_114K"] = {
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	sounderName = "Weapons/Missile",
+	targeting_data = {
+		fm_type = -1
+	},
 	type_name = "missile",
 	ws_type = { 4, 4, 8, "Redacted" }
 }

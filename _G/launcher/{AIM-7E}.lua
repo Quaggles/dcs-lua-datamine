@@ -7,7 +7,7 @@ _G["launcher"]["{AIM-7E}"] = {
 		} },
 	Picture = "us_AIM-7.png",
 	PictureBlendColor = "0xffffffff",
-	Weight = 230,
+	Weight = 206.4,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/aim7_family.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 7, "Redacted" },

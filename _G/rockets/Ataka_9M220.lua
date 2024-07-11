@@ -26,7 +26,7 @@ _G["rockets"]["#Index"] = {
 	X_back = -0.922,
 	Y_back = 0,
 	Z_back = 0,
-	_file = "./CoreMods/aircraft/AircraftWeaponPack/AA_Missiles.lua",
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/AS_Missiles.lua",
 	_origin = "AircraftWeaponPack",
 	autopilot = {
 		Kd = 0.036,
@@ -149,6 +149,6 @@ _G["rockets"]["#Index"] = {
 	v_min = 170,
 	warhead = "_G/warheads/9M220.lua",
 	warhead_air = {},
-	wsTypeOfWeapon = <1>{ 4, 4, 7, "Redacted" },
+	wsTypeOfWeapon = <1>{ 4, 4, 8, "Redacted" },
 	ws_type = <table 1>
 }

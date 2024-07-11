@@ -1,7 +1,7 @@
 _G["weapons_table"]["weapons"]["missiles"]["X_35"] = {
 	Reflection = 0.13,
 	_unique_resource_name = "weapons.missiles.X_35",
-	add_attributes = { "Cruise missiles" },
+	add_attributes = { "Cruise missiles", "Anti-Ship missiles" },
 	caliber = 0.42,
 	client = {
 		autopilot = {
@@ -381,6 +381,9 @@ _G["weapons_table"]["weapons"]["missiles"]["X_35"] = {
 		}
 	},
 	sounderName = "Weapons/Missile",
+	targeting_data = {
+		fm_type = -1
+	},
 	type_name = "missile",
 	ws_type = { 4, 4, 8, "Redacted" }
 }

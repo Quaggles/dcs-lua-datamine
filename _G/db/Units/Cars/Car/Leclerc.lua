@@ -11,6 +11,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "MBT Leclerc",
 	Rate = 20,
 	Sensors = {
+		Mount_WS_ID = 1,
 		OPTIC = { "HL-70 day", "HL-70 night" }
 	},
 	ThreatRange = 3500,
@@ -121,7 +122,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "Leclerc",
 	visual = {
 		IR = {
-			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0019, 0.0013 }, { 0.001, 0.17 }, { 0.33, 0.00017368421052632 } }
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0024, 0.002 }, { 0.001, 0.17 }, { 0.33, 0.00017368421052632 } }
 		},
 		agony_explosion_size = 5,
 		dirt_pos = { -3, 0.6, -1.4 },

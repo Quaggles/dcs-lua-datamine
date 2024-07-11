@@ -3,11 +3,12 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 	Name = "1G42",
 	SensorType = 0,
 	category = 0,
+	linkedAxis = 2,
 	magnifications = { 3.9, 9 },
-	resolution = 0.3,
+	resolution = 0.6,
 	scan_volume = {
-		azimuth = { -180, 180 },
-		elevation = { -5, 30 }
+		azimuth = { -4.2, 4.2 },
+		elevation = { -4.2, 4.2 }
 	},
 	type = 0,
 	view_volume_max = {

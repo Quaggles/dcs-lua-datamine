@@ -11,6 +11,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = 'SAM SA-11 Buk "Gadfly" Fire Dome TEL',
 	Rate = 70,
 	Sensors = {
+		Mount_WS_ID = 1,
 		OPTIC = { "Karat visir" },
 		RADAR = { "SA-11 Buk TR" }
 	},
@@ -186,6 +187,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 16, 102, "Redacted", "AA_missile", "MR SAM", "SAM TR", "SAM LL", "RADAR_BAND1_FOR_ARM", "RADAR_BAND2_FOR_ARM", "All", "Ground Units", "Vehicles", "Ground vehicles", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "SAM related", "SAM elements", "Armed Air Defence" },
 	category = "Air Defence",
 	chassis = {},
+	defaultStartAlarmState = 2,
 	enablePlayerCanDrive = false,
 	encyclopediaAnimation = {
 		args = {
@@ -208,7 +210,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_vol = { {}, {}, {} }
 	},
 	swapped_names = true,
-	swing_on_run = true,
+	swing_on_run = false,
 	tags = { "Air Defence", "SAM TEL" },
 	toggle_alarm_state_interval = 15,
 	type = "SA-11 Buk LN 9A310M1",

@@ -46,7 +46,8 @@ _G["launcher"]["{CLB4_MK82}"] = {
 						addDef = {
 							ID = "NFP_VIS_DrawArgNo_56",
 							val = 0
-						}
+						},
+						tooltip = "Mechanical, impact\nArmed by vane rotation"
 					}
 				}, {
 					dispName = "DSU-33",
@@ -55,7 +56,8 @@ _G["launcher"]["{CLB4_MK82}"] = {
 						addDef = {
 							ID = "NFP_VIS_DrawArgNo_56",
 							val = 0.3
-						}
+						},
+						tooltip = "Electronic, proximity\nDoppler radar altimeter\nProvides a firing signal to the bomb's fuze upon detecting an altitude of 20 ft (ca. 6 m) AGL"
 					}
 				}, {
 					dispName = "Plugged",
@@ -76,7 +78,7 @@ _G["launcher"]["{CLB4_MK82}"] = {
 				} },
 			baseDim = "",
 			control = "comboList",
-			defValue = 0.1,
+			defValue = 0.5,
 			dimension = "",
 			id = "NFP_VIS_DrawArgNo_56",
 			label = "Plug",
@@ -190,7 +192,8 @@ _G["launcher"]["{CLB4_MK82}"] = {
 						addDef = {
 							ID = "NFP_VIS_DrawArgNo_55",
 							val = 0
-						}
+						},
+						tooltip = "Mechanical, impact\nArmed by vane rotation"
 					}
 				}, {
 					dispName = "FMU-139",
@@ -199,7 +202,8 @@ _G["launcher"]["{CLB4_MK82}"] = {
 						addDef = {
 							ID = "NFP_VIS_DrawArgNo_55",
 							val = 0.1
-						}
+						},
+						tooltip = "Electronic, impact"
 					}
 				}, {
 					dispName = "FMU-152",
@@ -208,7 +212,8 @@ _G["launcher"]["{CLB4_MK82}"] = {
 						addDef = {
 							ID = "NFP_VIS_DrawArgNo_55",
 							val = 0.1
-						}
+						},
+						tooltip = "Electronic, impact\nFuze parameters are adjustable in-flight"
 					}
 				}, {
 					dispName = "Plugged",

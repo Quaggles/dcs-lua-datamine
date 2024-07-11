@@ -15,6 +15,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "IFV Warrior ",
 	Rate = 15,
 	Sensors = {
+		Mount_WS_ID = 1,
 		OPTIC = { "Raven day", "Raven night" }
 	},
 	ThreatRange = 2500,
@@ -262,7 +263,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "MCV-80",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.0062, 0.00215 }, { 0.001, 0.17 }, { 0.3, 0.0001875 } }
+			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.0036, 0.0039 }, { 0.001, 0.17 }, { 0.3, 0.0001875 } }
 		},
 		agony_explosion_size = 3,
 		dirt_pos = { -2.9, 0.6, -1.259 },

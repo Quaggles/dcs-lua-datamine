@@ -8,11 +8,12 @@ _G["launcher"]["{APU_68_S-24}"] = {
 		} },
 	Picture = "RBK250.png",
 	Weight = 273.5,
+	Weight_Empty = 38.5,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
-	displayName = "APU-68 - S-24B",
+	displayName = "APU-68UM3 - S-24B - 240mm UnGd Rkt, 235kg, HE/Frag, (Low Smk)",
 	name = "{APU_68_S-24}",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

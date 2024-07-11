@@ -17,6 +17,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "IFV BMD-1",
 	Rate = 8,
 	Sensors = {
+		Mount_WS_ID = 1,
 		OPTIC = { "TKN-3B day", "TKN-3B night" }
 	},
 	ThreatRange = 3000,
@@ -138,7 +139,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {}, {} }
 	},
-	attribute = { 2, 17, 104, "Redacted", "IFV", "ATGM", "CustomAimPoint", "Infantry carriers", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "NonAndLightArmoredUnits", "LightArmoredUnits" },
+	attribute = { 2, 17, 104, "Redacted", "IFV", "ATGM", "Infantry carriers", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "NonAndLightArmoredUnits", "LightArmoredUnits" },
 	category = "Armor",
 	chassis = {},
 	driverCockpit = "DriverCockpit/DriverCockpitWithIR",

@@ -166,21 +166,61 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		maximalCapacity = 5500,
 		nominalCapacity = 5500,
 		out_door = {
-			rampa_left = {
-				heading = 2.7925268031909,
-				large = false,
+			cargo_generic = {
+				heading = 3.1415926535898,
+				large = true,
+				mechanicals = {
+					board = { "CargoBayGates", "Open" },
+					boardable = { {
+							mechanism = "CargoBayGates",
+							states = { "Open" }
+						} },
+					close = { "CargoBayGates", "Close" }
+				},
 				x = -10,
-				z = -1
+				z = 0
 			},
-			rampa_right = {
+			rampa_left = {
 				heading = -2.7925268031909,
 				large = false,
+				mechanicals = {
+					board = { "CargoBayGates", "Open" },
+					boardable = { {
+							mechanism = "CargoBayGates",
+							states = { "Open" }
+						} },
+					close = { "CargoBayGates", "Close" },
+					deploy = { "CargoBayGates", "Open" },
+					deployable = { {
+							mechanism = "CargoBayGates",
+							states = { "Open" }
+						} }
+				},
 				x = -10,
-				z = 1
+				z = -0.6
+			},
+			rampa_right = {
+				heading = 2.7925268031909,
+				large = false,
+				mechanicals = {
+					board = { "CargoBayGates", "Open" },
+					boardable = { {
+							mechanism = "CargoBayGates",
+							states = { "Open" }
+						} },
+					close = { "CargoBayGates", "Close" },
+					deploy = { "CargoBayGates", "Open" },
+					deployable = { {
+							mechanism = "CargoBayGates",
+							states = { "Open" }
+						} }
+				},
+				x = -10,
+				z = 0.6
 			}
 		},
 		para_unit_point = 30,
-		unit_block = { 0.73, 1.1 },
+		unit_block = { 0.73, 0.84 },
 		unit_point = 39
 	},
 	M_empty = 15850,
@@ -426,20 +466,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			} },
 		Door1 = {
 			DuplicateOf = "Door0"
-		},
-		Door11 = { {
-				Flags = { "Reversible" },
-				Sequence = { {
-						C = { { "Arg", 86, "to", 1, "time", 15 } }
-					} },
-				Transition = { "Close", "Open" }
-			}, {
-				Flags = { "Reversible", "StepsBackwards" },
-				Sequence = { {
-						C = { { "Arg", 86, "to", 0, "time", 15 } }
-					} },
-				Transition = { "Open", "Close" }
-			} }
+		}
 	},
 	nose_gear_amortizer_direct_stroke = 0,
 	nose_gear_amortizer_normal_weight_stroke = -0.01,

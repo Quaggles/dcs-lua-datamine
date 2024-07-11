@@ -11,6 +11,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "SPAAA Gepard",
 	Rate = 10,
 	Sensors = {
+		Mount_WS_ID = 1,
 		OPTIC = { "Karat visir" },
 		RADAR = "Gepard"
 	},
@@ -110,7 +111,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "Gepard",
 	visual = {
 		IR = {
-			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0062, 0.00215 }, { 0.001, 0.17 }, { 0.3, 0.00017142857142857 } }
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0028, 0.0042 }, { 0.001, 0.17 }, { 0.3, 0.00017142857142857 } }
 		},
 		agony_explosion_size = 2,
 		dirt_pos = { -3.1, 0.6, -1.347 },

@@ -1,7 +1,13 @@
 _G["weapons_table"]["weapons"]["nurs"]["C_24"] = {
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
+	_origin = "AircraftWeaponPack",
 	_unique_resource_name = "weapons.nurs.C_24",
 	caliber = 0.24,
 	client = {
+		_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
+		_origin = "AircraftWeaponPack",
+		category = 3,
+		class_name = "wAmmunitionNURS",
 		display_name_short = "S-24",
 		engine = {
 			boost_factor = 1,
@@ -32,7 +38,20 @@ _G["weapons_table"]["weapons"]["nurs"]["C_24"] = {
 			wind_sigma_z_coeff = 1,
 			wind_time = 1.3
 		},
+		model = "c-24",
+		name = "C_24",
+		properties = {
+			dist_max = 3000,
+			dist_min = 2000
+		},
 		scheme = "schemes/rockets/nurs-standard.sch",
+		shape_table_data = { {
+				file = "C-24",
+				index = "Redacted",
+				name = "S-24",
+				username = "S-24B"
+			} },
+		user_name = "S-24B",
 		warhead = {
 			caliber = 240,
 			concrete_factors = { 1, 1, 0.1 },
@@ -45,9 +64,10 @@ _G["weapons_table"]["weapons"]["nurs"]["C_24"] = {
 			obj_factors = { 0.2, 1 },
 			other_factors = { 1, 1, 1 },
 			piercing_mass = 24.6
-		}
+		},
+		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 	},
-	cx_pil = 0.00025405144557455,
+	cx_pil = 0.00025405203965735,
 	display_name = "S-24B",
 	display_name_short = "S-24",
 	dist_max = 3000,
@@ -57,6 +77,10 @@ _G["weapons_table"]["weapons"]["nurs"]["C_24"] = {
 	model = "c-24",
 	name = "C_24",
 	server = {
+		_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
+		_origin = "AircraftWeaponPack",
+		category = 3,
+		class_name = "wAmmunitionNURS",
 		display_name_short = "S-24",
 		engine = {
 			boost_factor = 1,
@@ -87,7 +111,20 @@ _G["weapons_table"]["weapons"]["nurs"]["C_24"] = {
 			wind_sigma_z_coeff = 1,
 			wind_time = 1.3
 		},
+		model = "c-24",
+		name = "C_24",
+		properties = {
+			dist_max = 3000,
+			dist_min = 2000
+		},
 		scheme = "schemes/rockets/nurs-standard.sch",
+		shape_table_data = { {
+				file = "C-24",
+				index = "Redacted",
+				name = "S-24",
+				username = "S-24B"
+			} },
+		user_name = "S-24B",
 		warhead = {
 			caliber = 240,
 			concrete_factors = { 1, 1, 0.1 },
@@ -100,7 +137,8 @@ _G["weapons_table"]["weapons"]["nurs"]["C_24"] = {
 			obj_factors = { 0.2, 1 },
 			other_factors = { 1, 1, 1 },
 			piercing_mass = 24.6
-		}
+		},
+		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 	},
 	sight_data = {
 		engine = {

@@ -4,6 +4,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	Countries = { "USSR" },
+	Crew = 0,
 	DetectionRange = 0,
 	DisplayName = 'SAM SA-10 S-300 "Grumble" TEL D',
 	DisplayNameShort = "SA-10LN",
@@ -119,7 +120,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		}
 	},
 	mapclasskey = "P0091000079",
-	maxDeviationPitch = 0.087266462599716,
 	maxDeviationRoll = 0.087266462599716,
 	sensor = {
 		height = 8.225

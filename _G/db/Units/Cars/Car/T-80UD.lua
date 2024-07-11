@@ -11,6 +11,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "MBT T-80U",
 	Rate = 20,
 	Sensors = {
+		Mount_WS_ID = 1,
 		OPTIC = { "TKN-3B day", "TKN-3B night" }
 	},
 	ThreatRange = 5000,
@@ -180,7 +181,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "T-80UD",
 	visual = {
 		IR = {
-			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0019, 0.0013 }, { 0.001, 0.17 }, { 0.34, 0.0002 } }
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0024, 0.002 }, { 0.001, 0.17 }, { 0.34, 0.0002 } }
 		},
 		agony_explosion_size = 5,
 		dirt_pos = { -2.9, 0.5, -1.477 },

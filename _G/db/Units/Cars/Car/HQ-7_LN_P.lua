@@ -12,6 +12,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "HQ-7 LN (Player)",
 	Rate = 15,
 	Sensors = {
+		Mount_WS_ID = 1,
 		OPTIC = { "generic SAM search visir", "generic SAM IR search visir" },
 		RADAR = "HQ-7 TR"
 	},
@@ -22,8 +23,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					PL = { {
 							type_ammunition = {}
 						} },
-					beamWidth = 0.087266462599716,
-					frequencyRange = { 10000000000, 20000000000 },
 					inclination_correction_bias = 0.05235987755983,
 					inclination_correction_upper_limit = 0.34906585039887,
 					sensor = {},
@@ -67,6 +66,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		headlights = 38,
 		locator_rotation = 11,
 		markerlights = 39,
+		pitch_k = 0.4,
+		roll_k = 0.4,
 		stoplights = 37
 	},
 	armour_scheme = {

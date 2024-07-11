@@ -11,6 +11,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = 'SPAAA ZSU-23-4 Shilka "Gun Dish"',
 	Rate = 10,
 	Sensors = {
+		Mount_WS_ID = 1,
+		OPTIC = { "TKN-3B day" },
 		RADAR = "ZSU-23-4 Shilka"
 	},
 	ThreatRange = 2500,
@@ -38,7 +40,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					reactionTime = 6,
 					reflection_limit = 0.15,
 					sensor = {},
-					useTargetAccelInSight = true
+					useTargetAccelInSight = false
 				} },
 			angles = { { 2.6179938779915, -2.6179938779915, -0.1, 1.48 }, { -2.6179938779915, 2.6179938779915, -0.078539816339745, 1.48 } },
 			center = "CENTER_TOWER",
@@ -107,7 +109,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "ZSU-23-4 Shilka",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.0062, 0.00215 }, { 0.001, 0.17 }, { 0.3, 0.00016666666666667 } }
+			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.0029, 0.004 }, { 0.001, 0.17 }, { 0.3, 0.00016666666666667 } }
 		},
 		agony_explosion_size = 2,
 		dirt_pos = { -2.9, 0.5, -1.283 },

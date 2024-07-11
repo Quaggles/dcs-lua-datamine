@@ -59,7 +59,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 2, 17, 26, "Redacted", "Infantry", "Prone", "CustomAimPoint", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "NonAndLightArmoredUnits", "NonArmoredUnits" },
+	attribute = { 2, 17, 26, "Redacted", "Infantry", "Prone", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "NonAndLightArmoredUnits", "NonArmoredUnits" },
 	category = "Infantry",
 	chassis = {},
 	enablePlayerCanDrive = false,
@@ -76,7 +76,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "Soldier M249",
 	visual = {
 		IR = {
-			coeffs = { {}, {}, {}, {} }
+			coeffs = { {}, {}, {}, {}, {} }
 		},
 		fire_pos = {},
 		fire_size = 0,

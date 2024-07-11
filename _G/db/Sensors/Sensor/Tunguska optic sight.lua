@@ -3,11 +3,12 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 	Name = "Tunguska optic sight",
 	SensorType = 0,
 	category = 0,
+	linkedAxis = 2,
 	magnifications = { 8 },
-	resolution = 0.3,
+	resolution = 0.8,
 	scan_volume = {
-		azimuth = { -180, 180 },
-		elevation = { -5, 80 }
+		azimuth = { -4, 4 },
+		elevation = { -4, 4 }
 	},
 	type = 0,
 	view_volume_max = {

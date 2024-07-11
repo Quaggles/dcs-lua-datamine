@@ -17,7 +17,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "ZBD-04A",
 	Rate = 15,
 	Sensors = {
-		OPTIC = { "TKN-3B day", "TKN-3B night" }
+		Mount_WS_ID = 1,
+		OPTIC = { "TKN-3B day", "TKN-3B night", "1PZ-3" }
 	},
 	ThreatRange = 4800,
 	WS = { {
@@ -189,7 +190,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "ZBD04A",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.0062, 0.00215 }, { 0.001, 0.17 }, { 0.3, 0.00016666666666667 } }
+			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.0036, 0.0039 }, { 0.001, 0.17 }, { 0.3, 0.00016666666666667 } }
 		},
 		agony_explosion_size = 3,
 		dirt_pos = { -3.5, 0.8, -1.48 },

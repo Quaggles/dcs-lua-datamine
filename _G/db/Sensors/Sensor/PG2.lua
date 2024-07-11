@@ -3,6 +3,7 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 	Name = "PG2",
 	SensorType = 0,
 	category = 0,
+	linkedAxis = 1,
 	magnifications = { 3.7 },
 	resolution = 0.3,
 	scan_volume = {
@@ -11,7 +12,7 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 	},
 	type = 0,
 	view_volume_max = {
-		azimuth_sector = 10,
-		elevation_sector = 10
+		azimuth_sector = 5,
+		elevation_sector = 5
 	}
 }

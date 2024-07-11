@@ -139,6 +139,7 @@ _G["rockets"]["#Index"] = {
 		nozzle_orientationXYZ = { { 0, 0, 0 } },
 		nozzle_position = { { -1.9, 0, 0 } },
 		smoke_color = { 0.8, 0.8, 0.8 },
+		smoke_opacity_type = 1,
 		smoke_transparency = 0.03,
 		tail_width = 0.4,
 		work_time = 6.5

@@ -249,9 +249,9 @@ _G["weapons_table"]["weapons"]["bombs"]["BKF_PTAB2_5KO"] = {
 				username = "BKF - 12 x PTAB-2.5KO"
 			} },
 		targeting_data = {
-			bomblet_char_time = 25.8,
-			char_time = 25.8,
-			v0 = 200
+			bomblet_char_time = 24.2,
+			char_time = 24.2,
+			eject_velocity = 12
 		},
 		type = 5,
 		user_name = "BKF - 12 x PTAB-2.5KO",
@@ -507,9 +507,9 @@ _G["weapons_table"]["weapons"]["bombs"]["BKF_PTAB2_5KO"] = {
 				username = "BKF - 12 x PTAB-2.5KO"
 			} },
 		targeting_data = {
-			bomblet_char_time = 25.8,
-			char_time = 25.8,
-			v0 = 200
+			bomblet_char_time = 24.2,
+			char_time = 24.2,
+			eject_velocity = 12
 		},
 		type = 5,
 		user_name = "BKF - 12 x PTAB-2.5KO",
@@ -517,9 +517,9 @@ _G["weapons_table"]["weapons"]["bombs"]["BKF_PTAB2_5KO"] = {
 	},
 	sounderName = "Weapons/Bomb",
 	targeting_data = {
-		bomblet_char_time = 25.8,
-		char_time = 25.8,
-		v0 = 200
+		bomblet_char_time = 24.2,
+		char_time = 24.2,
+		eject_velocity = 12
 	},
 	type_name = "bomb",
 	ws_type = { 4, 5, 38, "Redacted" }

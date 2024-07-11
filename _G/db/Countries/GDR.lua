@@ -230,6 +230,14 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "outpost_road_l",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "outpost_road_r",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "outpost",
 					in_service = 0,
 					out_of_service = 40000
@@ -1166,6 +1174,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "MiG-15bis_FC",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "MiG-21Bis",
 					in_service = 0,
 					out_of_service = 40000
@@ -1230,7 +1242,11 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "F-5E-3"
 				}, {
+					Name = "F-5E-3_FC"
+				}, {
 					Name = "F-86F Sabre"
+				}, {
+					Name = "F-86F_FC"
 				}, {
 					Name = "F/A-18A"
 				}, {
@@ -1320,7 +1336,6 @@ _G["db"]["Countries"]["#Index"] = {
 	},
 	flag = "FUI/Common/Flags/GDR.png",
 	flag_small = "MissionEditor/data/images/flags/GDR.png",
-	hide = false,
 	rank_by_name = {
 		Captain = <table 11>,
 		Colonel = <table 14>,

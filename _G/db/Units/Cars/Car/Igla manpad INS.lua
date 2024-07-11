@@ -68,7 +68,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "Igla manpad INS",
 	visual = {
 		IR = {
-			coeffs = { {}, {}, {}, {} }
+			coeffs = { {}, {}, {}, {}, {} }
 		},
 		fire_pos = {},
 		fire_size = 0,

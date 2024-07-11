@@ -16,8 +16,20 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	WS = { {
 			LN = { {
 					BR = { {
+							case_extraction_connector = "EJECTOR_1",
 							connector_name = "POINT_GUN_01",
-							pos = {}
+							extractionDir = {
+								x = 0.1,
+								y = 0,
+								z = 7
+							},
+							pos = {},
+							shellCaseID = 0,
+							shellCaseOrientation = {
+								x = 0,
+								y = 1,
+								z = 1
+							}
 						} },
 					PL = { {
 							shell_name = {}
@@ -66,8 +78,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 17, 26, "Redacted", "APC", "Infantry carriers", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "NonAndLightArmoredUnits", "LightArmoredUnits" },
 	category = "Armor",
 	chassis = {
+		COM_pos = {},
 		gearRatios = {},
-		mass = 2155
+		mass = 2155,
+		wheelPosts = { {
+				pos = {}
+			}, {
+				pos = {}
+			}, {
+				pos = {}
+			}, {
+				pos = {}
+			} }
 	},
 	driverCockpit = "DriverCockpit/DriverCockpit",
 	driverViewConnectorName = "POINT_DRIVER",
@@ -111,5 +133,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		min_time_agony = 10,
 		shape = "tt70-dshk",
 		shape_dstr = "tt70_p_1"
-	}
+	},
+	windscreen_wiper = 40
 }

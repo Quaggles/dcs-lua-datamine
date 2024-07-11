@@ -89,6 +89,11 @@ _G["weapons_table"]["weapons"]["missiles"]["BRM-1_90MM"] = {
 		mass = 20,
 		model = "brm1_90",
 		name = "BRM-1_90MM",
+		properties = {
+			targeting_data = {
+				fm_type = 2
+			}
+		},
 		scheme = "schemes/missiles/APKWS.sch",
 		seeker = {
 			FOV = 0.69813170079773,
@@ -228,6 +233,11 @@ _G["weapons_table"]["weapons"]["missiles"]["BRM-1_90MM"] = {
 		mass = 20,
 		model = "brm1_90",
 		name = "BRM-1_90MM",
+		properties = {
+			targeting_data = {
+				fm_type = 2
+			}
+		},
 		scheme = "schemes/missiles/APKWS.sch",
 		seeker = {
 			FOV = 0.69813170079773,
@@ -278,6 +288,41 @@ _G["weapons_table"]["weapons"]["missiles"]["BRM-1_90MM"] = {
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	sounderName = "Weapons/Missile",
+	targeting_data = {
+		A = 0.36,
+		I = 6.6666666666667,
+		I_x = 1.01,
+		L = 2,
+		Ma = 0.84,
+		Ma_x = 1.8,
+		Mw = 3.5,
+		Mw_x = 1.12,
+		Mx0 = 0.2,
+		Sw = 0.04,
+		boost_factor = 1,
+		boost_tail = 1,
+		boost_time = 0,
+		caliber = 0.09,
+		custom_smoke_dissipation_factor = 0.2,
+		cx_coeff = { 1, 0.9, 0.6, 0.32, 2.1 },
+		dCydA = { 0.11, 0.11 },
+		finsTau = 0.1,
+		fm_type = 2,
+		fuel_mass = 5.65,
+		impulse = 190,
+		mass = 20,
+		maxAoa = 0.13962634015955,
+		nozzle_orientationXYZ = { { 0, 0, 0 } },
+		nozzle_position = { { -0.65, 0, 0 } },
+		shapeName = "brm1_90",
+		smoke_color = { 0.9, 0.9, 0.9 },
+		smoke_transparency = 0.5,
+		tail_width = 0.052,
+		wind_sigma = 5,
+		wind_time = 1.5,
+		work_tail = 1,
+		work_time = 1.5
+	},
 	type_name = "missile",
 	ws_type = { 4, 4, 8, "Redacted" }
 }

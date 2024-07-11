@@ -536,6 +536,20 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						} }
 				}, {
+					CLSID = "{UB16_S5KP}",
+					arg_value = 0.1,
+					required = { {
+							loadout = { "{UB16_S5KP}" },
+							station = 3
+						} }
+				}, {
+					CLSID = "{UB16_S5M}",
+					arg_value = 0.1,
+					required = { {
+							loadout = { "{UB16_S5M}" },
+							station = 3
+						} }
+				}, {
 					CLSID = "{P-50T}",
 					arg_value = 0.2,
 					required = { {
@@ -658,6 +672,20 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.1,
 					required = { {
 							loadout = { "{UB-16-57UMP}" },
+							station = 1
+						} }
+				}, {
+					CLSID = "{UB16_S5KP}",
+					arg_value = 0.1,
+					required = { {
+							loadout = { "{UB16_S5KP}" },
+							station = 1
+						} }
+				}, {
+					CLSID = "{UB16_S5M}",
+					arg_value = 0.1,
+					required = { {
+							loadout = { "{UB16_S5M}" },
 							station = 1
 						} }
 				}, {
@@ -818,12 +846,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			can_be_playable = true,
 			canopy_arg = 38,
 			canopy_pos = { 2.916, 0.798, 0 },
-			drop_canopy_name = 314,
+			drop_canopy_name = 316,
 			drop_parachute_name = "pilot_l39_parachute",
 			ejection_added_speed = { -5, 15, 0 },
 			ejection_order = 1,
-			ejection_seat_name = 313,
-			pilot_name = 315,
+			ejection_seat_name = 315,
+			pilot_name = 317,
 			pos = { 3.266, 0.329, 0 },
 			role = "pilot",
 			role_display_name = "Pilot"
@@ -831,13 +859,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			can_be_playable = true,
 			canopy_arg = 421,
 			canopy_pos = { 1.563, 0.895, 0 },
-			drop_canopy_name = 316,
+			drop_canopy_name = 318,
 			drop_parachute_name = "pilot_l39_parachute",
 			ejection_added_speed = { -5, 15, 0 },
 			ejection_order = 2,
-			ejection_seat_name = 313,
+			ejection_seat_name = 315,
 			pilot_body_arg = 472,
-			pilot_name = 315,
+			pilot_name = 317,
 			pos = { 1.765, 0.549, 0 },
 			role = "instructor",
 			role_display_name = "Instructor"

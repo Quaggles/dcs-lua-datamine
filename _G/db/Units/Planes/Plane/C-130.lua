@@ -135,17 +135,57 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		maximalCapacity = 21770,
 		nominalCapacity = 19350,
 		out_door = {
-			rampa_left = {
-				heading = 2.7925268031909,
-				large = false,
-				x = -11,
-				z = -1
+			cargo_generic = {
+				heading = 3.1415926535898,
+				large = true,
+				mechanicals = {
+					board = { "CargoBayGate0", "Open" },
+					boardable = { {
+							mechanism = "CargoBayGate0",
+							states = { "Open" }
+						} },
+					close = { "CargoBayGate0", "Close" }
+				},
+				x = -7.7,
+				z = 0
 			},
-			rampa_right = {
+			rampa_left = {
 				heading = -2.7925268031909,
 				large = false,
-				x = -11,
-				z = 1
+				mechanicals = {
+					board = { "CargoBayGate0", "Open" },
+					boardable = { {
+							mechanism = "CargoBayGate0",
+							states = { "Open" }
+						} },
+					close = { "CargoBayGate0", "Close" },
+					deploy = { "CargoBayGate0", "Stage" },
+					deployable = { {
+							mechanism = "CargoBayGate0",
+							states = { "Open", "Stage" }
+						} }
+				},
+				x = -7.7,
+				z = -0.8
+			},
+			rampa_right = {
+				heading = 2.7925268031909,
+				large = false,
+				mechanicals = {
+					board = { "CargoBayGate0", "Open" },
+					boardable = { {
+							mechanism = "CargoBayGate0",
+							states = { "Open" }
+						} },
+					close = { "CargoBayGate0", "Close" },
+					deploy = { "CargoBayGate0", "Stage" },
+					deployable = { {
+							mechanism = "CargoBayGate0",
+							states = { "Open", "Stage" }
+						} }
+				},
+				x = -7.7,
+				z = 0.8
 			}
 		},
 		para_unit_point = 64,
@@ -520,19 +560,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						C = { { "Arg", 38, "to", 0, "in", 4.7 } }
 					} },
 				Transition = { "Board", "Open" }
-			} },
-		Door11 = { {
-				Flags = { "Reversible" },
-				Sequence = { {
-						C = { { "Arg", 86, "to", 0.6, "in", 10 } }
-					} },
-				Transition = { "Close", "Open" }
-			}, {
-				Flags = { "Reversible", "StepsBackwards" },
-				Sequence = { {
-						C = { { "Arg", 86, "to", 0, "in", 15 } }
-					} },
-				Transition = { "Open", "Close" }
 			} }
 	},
 	nose_gear_pos = { 8.133, -2.5, 0 },

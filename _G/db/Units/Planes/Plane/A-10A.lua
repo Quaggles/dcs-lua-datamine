@@ -495,7 +495,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		} },
 	H_max = 10000,
 	HumanCockpit = true,
-	HumanCockpitPath = "./Mods/aircraft/Flaming Cliffs/Cockpit/A10A/",
+	HumanCockpitPath = "./Mods/aircraft/A-10A/Cockpit/KneeboardLeft/",
 	HumanCockpitPlugins = { {
 			_file = "./Mods/aircraft/NS430/entry.lua",
 			_origin = "NS430",
@@ -630,8 +630,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}
 			}
 		} },
-	HumanCommPanelPath = "./Mods/aircraft/Flaming Cliffs/Comm/A-10A.lua",
-	HumanFM = { "Flaming Cliffs by Eagle Dynamics", "A10A",
+	HumanCommPanelPath = "./Mods/aircraft/A-10A/Comm/A-10A.lua",
+	HumanFM = { "A-10A by Eagle Dynamics", "A10A",
 		old = true
 	},
 	HumanRadio = {
@@ -1355,10 +1355,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Waypoint_Custom_Panel = true,
 	WingSpan = 17.53,
 	WorldID = 17,
+	_MAC_compatible = true,
 	_file = "./CoreMods/aircraft/A-10/A-10A.lua",
-	_file_flyable = "./Mods/aircraft/Flaming Cliffs/entry.lua",
+	_file_flyable = "./Mods/aircraft/A-10A/entry.lua",
 	_origin = "A-10 Warthog",
-	_origin_flyable = "Flaming Cliffs by Eagle Dynamics",
+	_origin_flyable = "A-10A by Eagle Dynamics",
 	air_refuel_receptacle_pos = { 6.317, 0.65, 0 },
 	ammo_type = { "CM - Combat Mix", "HEI - High Explosive Incendiary", "TP - Target Practice" },
 	attribute = { 1, 1, 6, "Redacted", "Battleplanes", "Refuelable", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },

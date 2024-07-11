@@ -1,7 +1,7 @@
-_G["launcher"]["{LYSBOMB}"] = {
-	CLSID = "{LYSBOMB}",
+_G["launcher"]["{LYSBOMB_S7H}"] = {
+	CLSID = "{LYSBOMB_S7H}",
 	Count = 2,
-	Cx_pil = 0.002,
+	Cx_pil = 0.0008834,
 	Elements = { {
 			Position = { 0, 0, 0 },
 			ShapeName = "PylonM71"
@@ -17,11 +17,11 @@ _G["launcher"]["{LYSBOMB}"] = {
 			ShapeName = "LYSB71"
 		} },
 	Picture = "Lysb71.png",
-	Weight = 220,
+	Weight = 285,
 	_file = "./CoreMods/aircraft/AJS37/Entry/Weapons.lua",
 	_origin = "AJS37 AI by Heatblur Simulations",
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
-	displayName = "2x 80kg LYSB-71 Illumination Bomb",
+	displayName = "2x 80kg LYSB-71 Illumination Bomb - S7H",
 	wsTypeOfWeapon = { 4, 5, 49, "Redacted" }
 }

@@ -1,5 +1,5 @@
 _G["rockets"]["#Index"] = {
-	Cx_pil = 0.0001,
+	Cx_pil = 3.49294592,
 	D_max = 31000,
 	D_min = 5000,
 	Damage = 5625,
@@ -40,7 +40,7 @@ _G["rockets"]["#Index"] = {
 	exhaust = { 0.95, 0.95, 0.95, 0.3 },
 	name = "Rb 04E",
 	shape_table_data = { {
-			file = "Rb04",
+			file = "Rb04AI",
 			fire = { 0, 1 },
 			index = "Redacted",
 			life = 1,

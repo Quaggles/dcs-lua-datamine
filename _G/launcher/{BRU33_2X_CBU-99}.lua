@@ -35,7 +35,8 @@ _G["launcher"]["{BRU33_2X_CBU-99}"] = {
 						addDef = {
 							ID = "NFP_VIS_DrawArgNo_56",
 							val = 0
-						}
+						},
+						tooltip = "Mechanical, time\nArmed by vane rotation\nHas two pre-flight adjustable function delays, either of which can be selected in flight"
 					}
 				}, {
 					dispName = "FMU-140",
@@ -44,7 +45,8 @@ _G["launcher"]["{BRU33_2X_CBU-99}"] = {
 						addDef = {
 							ID = "NFP_VIS_DrawArgNo_56",
 							val = 0.5
-						}
+						},
+						tooltip = "Electronic, proximity\nDoppler radar altimeter\nArmed by dynamic air pressure\nHas an optional Arm and Fire time-based function that leads to airburst 1.22 s after release"
 					}
 				} },
 			wCtrl = 360,
@@ -112,7 +114,7 @@ _G["launcher"]["{BRU33_2X_CBU-99}"] = {
 				} },
 			baseDim = "ft",
 			control = "comboList",
-			defValue = 300,
+			defValue = 1500,
 			dimension = "ft",
 			id = "function_altitude_ctrl_FMU140",
 			label = "Airburst Altitude",

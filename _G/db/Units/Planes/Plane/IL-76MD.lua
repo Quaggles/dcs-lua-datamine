@@ -128,7 +128,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[43] = {
 			args = { 243 },
 			critical_damage = 20,
-			deps_cells = { 55, 39, 47, 48, 51, 52, 53 }
+			deps_cells = { 39, 47, 48, 51, 52, 53 }
 		},
 		[47] = {
 			args = { 235 },
@@ -314,27 +314,79 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		maximalCapacity = 48000,
 		nominalCapacity = 40000,
 		out_door = {
-			main_left = {
-				heading = 1.5707963267949,
-				large = false,
-				x = 11,
-				z = -1.15
+			cargo_generic = {
+				heading = 3.1415926535898,
+				large = true,
+				mechanicals = {
+					board = { "CargoBayGates", "Open" },
+					boardable = { {
+							mechanism = "CargoBayGates",
+							states = { "Open" }
+						} },
+					close = { "CargoBayGates", "Close" }
+				},
+				x = -10,
+				z = 0
 			},
-			main_right = {
+			main_left = {
 				heading = -1.5707963267949,
 				large = false,
-				x = 11,
-				z = 1.15
+				mechanicals = {
+					deployable = { {
+							mechanism = "CargoBayGates",
+							states = { "Open", "Stage" }
+						} }
+				},
+				x = 11.4,
+				z = -2.7
+			},
+			main_right = {
+				heading = 1.5707963267949,
+				large = false,
+				mechanicals = {
+					deployable = { {
+							mechanism = "CargoBayGates",
+							states = { "Open", "Stage" }
+						} }
+				},
+				x = 11.4,
+				z = 2.7
 			},
 			rampa_left = {
-				heading = 2.7925268031909,
+				heading = -2.7925268031909,
 				large = false,
+				mechanicals = {
+					board = { "CargoBayGates", "Open" },
+					boardable = { {
+							mechanism = "CargoBayGates",
+							states = { "Open" }
+						} },
+					close = { "CargoBayGates", "Close" },
+					deploy = { "CargoBayGates", "Stage" },
+					deployable = { {
+							mechanism = "CargoBayGates",
+							states = { "Open", "Stage" }
+						} }
+				},
 				x = -10,
 				z = -1
 			},
 			rampa_right = {
-				heading = -2.7925268031909,
+				heading = 2.7925268031909,
 				large = false,
+				mechanicals = {
+					board = { "CargoBayGates", "Open" },
+					boardable = { {
+							mechanism = "CargoBayGates",
+							states = { "Open" }
+						} },
+					close = { "CargoBayGates", "Close" },
+					deploy = { "CargoBayGates", "Stage" },
+					deployable = { {
+							mechanism = "CargoBayGates",
+							states = { "Open", "Stage" }
+						} }
+				},
 				x = -10,
 				z = 1
 			}
@@ -625,19 +677,18 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						C = { { "Arg", 86, "to", 0, "in", 15 } }
 					} },
 				Transition = { "Open", "Close" }
-			} },
-		Door11 = { {
+			}, {
 				Flags = { "Reversible" },
 				Sequence = { {
 						C = { { "Arg", 86, "to", 0.8, "in", 15 } }
 					} },
-				Transition = { "Close", "Open" }
+				Transition = { "Close", "Stage" }
 			}, {
 				Flags = { "Reversible", "StepsBackwards" },
 				Sequence = { {
 						C = { { "Arg", 86, "to", 0, "in", 15 } }
 					} },
-				Transition = { "Open", "Close" }
+				Transition = { "Stage", "Close" }
 			} },
 		ServiceHatches = { {
 				Sequence = { {

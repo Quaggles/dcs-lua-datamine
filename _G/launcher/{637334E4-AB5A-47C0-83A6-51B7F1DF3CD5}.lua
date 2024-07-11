@@ -104,9 +104,13 @@ _G["launcher"]["{637334E4-AB5A-47C0-83A6-51B7F1DF3CD5}"] = {
 		} },
 	Picture = "rus_UB-32_S-5KO.png",
 	PictureBlendColor = "0xffffffff",
-	Weight = 275,
-	_file = "Scripts/Database/db_weapons_data.lua",
+	Weight = 248.72,
+	Weight_Empty = 106,
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
+	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
-	displayName = "UB-32A pod - 32 x S-5KO, 57mm UnGd Rkts, HEAT/Frag",
+	category = 3,
+	displayName = "UB-32A - 32 x UnGd Rkts, 57 mm S-5KO HEAT/Frag",
+	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

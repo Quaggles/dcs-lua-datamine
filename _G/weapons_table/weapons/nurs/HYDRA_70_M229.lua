@@ -72,7 +72,7 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_M229"] = {
 		},
 		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 	},
-	cx_pil = 4.7679923901827e-05,
+	cx_pil = 4.768003539823e-05,
 	display_name = "Hydra 70 M229 HE",
 	display_name_short = "M229",
 	dist_max = 4000,

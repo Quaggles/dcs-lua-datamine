@@ -112,7 +112,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SMERCH_9M55K"] = {
 		},
 		scheme = "schemes/rockets/nurs-ground-cluster.sch"
 	},
-	cx_pil = 2.5021534409122e-05,
+	cx_pil = 2.5021592920354e-05,
 	display_name = "9M55K (300mm CM-AP)",
 	display_name_short = "9M55",
 	dist_max = 0,

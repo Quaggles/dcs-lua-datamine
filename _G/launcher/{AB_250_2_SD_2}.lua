@@ -23,19 +23,34 @@ _G["launcher"]["{AB_250_2_SD_2}"] = {
 			stringIndex = 1,
 			values = { {
 					dispName = "Zünder 69D",
-					id = 1
+					id = 1,
+					secondaryParams = {
+						tooltip = "Electronic, time\nHas multiple operation modes, one of which can be selected in-flight"
+					}
 				}, {
 					dispName = "Zünder 69E",
-					id = 2
+					id = 2,
+					secondaryParams = {
+						tooltip = "Electronic, time\nHas multiple operation modes, one of which can be selected in-flight"
+					}
 				}, {
 					dispName = "Zünder 79",
-					id = 3
+					id = 3,
+					secondaryParams = {
+						tooltip = "Electronic, time\nHas multiple operation modes, one of which can be selected in-flight"
+					}
 				}, {
 					dispName = "Zünder 79A",
-					id = 4
+					id = 4,
+					secondaryParams = {
+						tooltip = "Electronic, time\nHas multiple operation modes, one of which can be selected in-flight"
+					}
 				}, {
 					dispName = "Zünder 89B",
-					id = 5
+					id = 5,
+					secondaryParams = {
+						tooltip = "Electronic, time"
+					}
 				} },
 			wCtrl = 360,
 			xCtrl = 200

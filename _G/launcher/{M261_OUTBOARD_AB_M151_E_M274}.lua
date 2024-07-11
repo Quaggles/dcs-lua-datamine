@@ -64,8 +64,8 @@ _G["launcher"]["{M261_OUTBOARD_AB_M151_E_M274}"] = {
 			payload_CLSID = "{M151_HYDRA}"
 		} },
 	Picture = "LAU61.png",
-	Weight = 237,
-	Weight_Empty = 39.4,
+	Weight = 233.9,
+	Weight_Empty = 36.3,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },

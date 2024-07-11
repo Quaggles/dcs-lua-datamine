@@ -1065,6 +1065,34 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		far_wall_pos = { 4, -0.6, 0 },
 		maximalCapacity = 2300,
 		nominalCapacity = 2000,
+		out_door = {
+			cargo_generic = {
+				heading = -1.5707963267949,
+				large = true,
+				mechanicals = {
+					board = { "CargoBayGates", "Open" },
+					boardable = { {
+							mechanism = "CargoBayGates",
+							states = { "Open" }
+						} },
+					close = { "CargoBayGates", "Close" }
+				},
+				x = -3.943,
+				z = -1.068
+			},
+			main_left = {
+				heading = -1.5707963267949,
+				large = false,
+				mechanicals = {
+					deployable = { {
+							mechanism = "CargoBayGates",
+							states = { "Open" }
+						} }
+				},
+				x = -3.367,
+				z = -1.104
+			}
+		},
 		para_unit_point = 28,
 		unit_block = { 0.64, 0.78 },
 		unit_point = 40
@@ -1497,19 +1525,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		Door1 = {
 			DuplicateOf = "Door0"
 		},
-		Door11 = { {
-				Flags = { "Reversible" },
-				Sequence = { {
-						C = { { "Arg", 38, "to", 1, "in", 10 } }
-					} },
-				Transition = { "Close", "Open" }
-			}, {
-				Flags = { "Reversible", "StepsBackwards" },
-				Sequence = { {
-						C = { { "Arg", 38, "to", 0, "in", 15 } }
-					} },
-				Transition = { "Open", "Close" }
-			} },
 		LeftStrut = { {
 				Flags = { "Reversible" },
 				Sequence = { {
@@ -1545,12 +1560,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						C = { { "VelType", 3 }, { "PosType", 7 }, { "Arg", 3, "to", 0.5, "in", 2 }, { "Arg", 115, "to", 0.5, "in", 2 } }
 					} },
 				Transition = { "Any", "Collapse" }
-			} }
-	},
-	mechconnectors = {
-		Door11 = { {
-				shift_orient = { 0, 0, 0 },
-				shift_pos = { -4.5, -1, -1.5 }
 			} }
 	},
 	net_animation = {},

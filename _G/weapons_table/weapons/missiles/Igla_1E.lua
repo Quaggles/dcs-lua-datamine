@@ -175,18 +175,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Igla_1E"] = {
 			piercing_mass = 0.254
 		},
 		warhead_air = {
-			caliber = 72,
-			concrete_factors = { 1.325, 1.325, 1 },
-			concrete_obj_factor = 0,
-			cumulative_factor = 0,
-			cumulative_thickness = 0,
-			expl_mass = 0.4,
-			fantom = 1,
-			fuel_dmg_coeff = 0.48,
-			mass = 1.27,
-			obj_factors = { 1.325, 1.325 },
-			other_factors = { 1.325, 1.325, 1.325 },
-			piercing_mass = 0.254
+			fantom = 1
 		},
 		wsTypeOfWeapon = { 4, 4, 34, "Redacted" }
 	},
@@ -366,22 +355,14 @@ _G["weapons_table"]["weapons"]["missiles"]["Igla_1E"] = {
 			piercing_mass = 0.254
 		},
 		warhead_air = {
-			caliber = 72,
-			concrete_factors = { 1.325, 1.325, 1 },
-			concrete_obj_factor = 0,
-			cumulative_factor = 0,
-			cumulative_thickness = 0,
-			expl_mass = 0.4,
-			fantom = 0,
-			fuel_dmg_coeff = 0.48,
-			mass = 1.27,
-			obj_factors = { 1.325, 1.325 },
-			other_factors = { 1.325, 1.325, 1.325 },
-			piercing_mass = 0.254
+			fantom = 0
 		},
 		wsTypeOfWeapon = { 4, 4, 34, "Redacted" }
 	},
 	sounderName = "Weapons/Missile",
+	targeting_data = {
+		fm_type = -1
+	},
 	type_name = "missile",
 	ws_type = { 4, 4, 34, "Redacted" }
 }

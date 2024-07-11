@@ -30,6 +30,7 @@ _G["rockets"]["#Index"] = {
 	Z_back = 0,
 	Z_back_acc = 0,
 	_unique_resource_name = "weapons.missiles.P_700",
+	add_attributes = { "Anti-Ship missiles" },
 	display_name = "P-700 (SS-N-19 Shipwreck)",
 	display_name_short = "P-700",
 	exhaust1 = { 1, 1, 1, 1 },

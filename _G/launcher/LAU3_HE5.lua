@@ -6,68 +6,75 @@ _G["launcher"]["LAU3_HE5"] = {
 			IsAdapter = true,
 			ShapeName = "LAU-3"
 		}, {
-			ShapeName = "Hydra_Mk5",
+			ShapeName = "hydra_m151he",
 			connector_name = "tube_1"
 		}, {
-			ShapeName = "Hydra_Mk5",
+			ShapeName = "hydra_m151he",
 			connector_name = "tube_2"
 		}, {
-			ShapeName = "Hydra_Mk5",
+			ShapeName = "hydra_m151he",
 			connector_name = "tube_3"
 		}, {
-			ShapeName = "Hydra_Mk5",
+			ShapeName = "hydra_m151he",
 			connector_name = "tube_4"
 		}, {
-			ShapeName = "Hydra_Mk5",
+			ShapeName = "hydra_m151he",
 			connector_name = "tube_5"
 		}, {
-			ShapeName = "Hydra_Mk5",
+			ShapeName = "hydra_m151he",
 			connector_name = "tube_6"
 		}, {
-			ShapeName = "Hydra_Mk5",
+			ShapeName = "hydra_m151he",
 			connector_name = "tube_7"
 		}, {
-			ShapeName = "Hydra_Mk5",
+			ShapeName = "hydra_m151he",
 			connector_name = "tube_8"
 		}, {
-			ShapeName = "Hydra_Mk5",
+			ShapeName = "hydra_m151he",
 			connector_name = "tube_9"
 		}, {
-			ShapeName = "Hydra_Mk5",
+			ShapeName = "hydra_m151he",
 			connector_name = "tube_10"
 		}, {
-			ShapeName = "Hydra_Mk5",
+			ShapeName = "hydra_m151he",
 			connector_name = "tube_11"
 		}, {
-			ShapeName = "Hydra_Mk5",
+			ShapeName = "hydra_m151he",
 			connector_name = "tube_12"
 		}, {
-			ShapeName = "Hydra_Mk5",
+			ShapeName = "hydra_m151he",
 			connector_name = "tube_13"
 		}, {
-			ShapeName = "Hydra_Mk5",
+			ShapeName = "hydra_m151he",
 			connector_name = "tube_14"
 		}, {
-			ShapeName = "Hydra_Mk5",
+			ShapeName = "hydra_m151he",
 			connector_name = "tube_15"
 		}, {
-			ShapeName = "Hydra_Mk5",
+			ShapeName = "hydra_m151he",
 			connector_name = "tube_16"
 		}, {
-			ShapeName = "Hydra_Mk5",
+			ShapeName = "hydra_m151he",
 			connector_name = "tube_17"
 		}, {
-			ShapeName = "Hydra_Mk5",
+			ShapeName = "hydra_m151he",
 			connector_name = "tube_18"
 		}, {
-			ShapeName = "Hydra_Mk5",
+			ShapeName = "hydra_m151he",
 			connector_name = "tube_19"
 		} },
 	Picture = "LAU61.png",
-	Weight = 201.89,
-	Weight_Empty = 34.5,
-	_file = "Scripts/Database/db_weapons_data.lua",
+	Weight = 208.4,
+	Weight_Empty = 33.6,
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
+	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
-	displayName = 'LAU-3 pod - 19 x 2.75" Hydra, UnGd Rkts Mk5, HEAT',
+	category = 3,
+	displayName = "LAU-3 - 19 x UnGd Rkts, 70 mm Hydra 70 Mk 5 HEAT",
+	shape_table_data = {},
+	weapon_container_data = {
+		launched_arg_state = 1,
+		nurs_args = { 4, 5 }
+	},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

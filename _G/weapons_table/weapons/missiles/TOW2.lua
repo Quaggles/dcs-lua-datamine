@@ -31,6 +31,17 @@ _G["weapons_table"]["weapons"]["missiles"]["TOW2"] = {
 			march_start = 0.13
 		},
 		display_name_short = "TOW2",
+		effect = {
+			color = { 1, 0.6, 0.6 },
+			custom_smoke_dissipation_factor = 0,
+			delay = 0.01,
+			intensity = 40,
+			op_time = 23,
+			orientationXYZ = { { 0, 0, 0 } },
+			position = { { -0.75, 0, 0 } },
+			size = 6,
+			transparency = 0.5
+		},
 		err = {
 			max_time_interval = 0.9,
 			min_time_interval = 0.1,
@@ -144,6 +155,17 @@ _G["weapons_table"]["weapons"]["missiles"]["TOW2"] = {
 			march_start = 0.13
 		},
 		display_name_short = "TOW2",
+		effect = {
+			color = { 1, 0.6, 0.6 },
+			custom_smoke_dissipation_factor = 0,
+			delay = 0.01,
+			intensity = 40,
+			op_time = 23,
+			orientationXYZ = { { 0, 0, 0 } },
+			position = { { -0.75, 0, 0 } },
+			size = 6,
+			transparency = 0.5
+		},
 		err = {
 			max_time_interval = 0.9,
 			min_time_interval = 0.1,
@@ -224,6 +246,9 @@ _G["weapons_table"]["weapons"]["missiles"]["TOW2"] = {
 		}
 	},
 	sounderName = "Weapons/Missile",
+	targeting_data = {
+		fm_type = -1
+	},
 	type_name = "missile",
 	ws_type = { 4, 4, 11, "Redacted" }
 }

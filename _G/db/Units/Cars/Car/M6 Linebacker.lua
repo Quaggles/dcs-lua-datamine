@@ -16,6 +16,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "SAM Linebacker - Bradley M6",
 	Rate = 15,
 	Sensors = {
+		Mount_WS_ID = 1,
 		OPTIC = { "Linebacker day", "Linebacker IR" }
 	},
 	ThreatRange = 4500,
@@ -131,7 +132,10 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "M6 Linebacker",
 	visual = {
 		IR = {
-			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0062, 0.00215 }, { 0.001, 0.17 }, { 0.3, 0.00016666666666667 } }
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 },
+				[4] = { 0.001, 0.17 },
+				[5] = { 0.3, 0.00016666666666667 }
+			}
 		},
 		agony_explosion_size = 3,
 		dirt_pos = { -2.7, 0.5, -1.248 },

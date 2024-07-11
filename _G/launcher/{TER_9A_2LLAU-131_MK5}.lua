@@ -7,21 +7,21 @@ _G["launcher"]["{TER_9A_2L*LAU-131_MK5}"] = {
 			IsAdapter = true,
 			ShapeName = "TER-9A"
 		}, {
-			ShapeName = "LAU-131_MK5",
 			connector_name = "Point01",
 			payload_CLSID = "{319293F2-392C-4617-8315-7C88C22AF7C4}"
 		}, {
-			ShapeName = "LAU-131_MK5",
 			connector_name = "Point02",
 			payload_CLSID = "{319293F2-392C-4617-8315-7C88C22AF7C4}"
 		} },
 	Picture = "LAU131.png",
 	Weight = 235.4,
+	Weight_Empty = 106.6,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
-	displayName = 'TER-9A with 2 x LAU-131 pod - 7 x 2.75" Hydra, UnGd Rkts Mk5, HEAT',
+	displayName = "TER-9A: 2 x LAU-131 - 7 x UnGd Rkts, 70 mm Hydra 70 Mk 5 HEAT",
 	name = "{TER_9A_2L*LAU-131_MK5}",
+	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

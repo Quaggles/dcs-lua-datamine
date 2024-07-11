@@ -314,6 +314,9 @@ _G["weapons_table"]["weapons"]["missiles"]["Rapier"] = {
 		wsTypeOfWeapon = { 4, 4, 34, "Redacted" }
 	},
 	sounderName = "Weapons/Missile",
+	targeting_data = {
+		fm_type = -1
+	},
 	type_name = "missile",
 	ws_type = { 4, 4, 34, "Redacted" }
 }

@@ -47,7 +47,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SMERCH_9M55F"] = {
 			piercing_mass = 49.2
 		}
 	},
-	cx_pil = 2.5021534409122e-05,
+	cx_pil = 2.5021592920354e-05,
 	display_name = "9M55F (300mm HE)",
 	display_name_short = "9M55",
 	dist_max = 0,

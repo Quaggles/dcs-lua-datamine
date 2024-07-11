@@ -467,7 +467,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		} },
 	H_max = 18500,
 	HumanCockpit = true,
-	HumanCockpitPath = "./Mods/aircraft/Flaming Cliffs/Cockpit/KneeboardLeft/",
+	HumanCockpitPath = "./Mods/aircraft/Su-33/Cockpit/KneeboardLeft/",
 	HumanCockpitPlugins = { {
 			_file = "./Mods/aircraft/NS430/entry.lua",
 			_origin = "NS430",
@@ -602,8 +602,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}
 			}
 		} },
-	HumanCommPanelPath = "./Mods/aircraft/Flaming Cliffs/Comm/Su-33.lua",
-	HumanFM = { "Flaming Cliffs by Eagle Dynamics", "Su33",
+	HumanCommPanelPath = "./Mods/aircraft/Su-33/Comm/Su-33.lua",
+	HumanFM = { "Su-33 Flanker by Eagle Dynamics", "Su33",
 		old = true
 	},
 	HumanRadio = {
@@ -1489,9 +1489,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Waypoint_Custom_Panel = true,
 	WingSpan = "14.7",
 	WorldID = 4,
+	_MAC_compatible = true,
 	_file = "Scripts/Database/planes\\Su-33.lua",
-	_file_flyable = "./Mods/aircraft/Flaming Cliffs/entry.lua",
-	_origin_flyable = "Flaming Cliffs by Eagle Dynamics",
+	_file_flyable = "./Mods/aircraft/Su-33/entry.lua",
+	_origin_flyable = "Su-33 Flanker by Eagle Dynamics",
 	air_refuel_receptacle_pos = { 9.898, 1.24, -1.082 },
 	attribute = { 1, 1, 1, "Redacted", "Fighters", "Refuelable", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },
 	average_fuel_consumption = 0.2606,

@@ -6,13 +6,16 @@ _G["launcher"]["{3858707D-F5D5-4bbb-BDD8-ABB0530EBC7C}"] = {
 			IsAdapter = true,
 			ShapeName = "APU-68"
 		}, {
-			ShapeName = "C-24",
+			ShapeName = "c-24",
 			connector_name = "Point01"
 		} },
 	Picture = "RBK250.png",
 	Weight = 295,
-	_file = "Scripts/Database/db_weapons_data.lua",
-	attribute = { 4, 4, 32, "Redacted" },
-	displayName = "S-24B - 240mm UnGd Rkt, 235kg, HE/Frag, (Low Smk)",
+	Weight_Empty = 60,
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
+	_origin = "AircraftWeaponPack",
+	attribute = { 4, 7, 32, "Redacted" },
+	category = 3,
+	displayName = "APU-68 - S-24B - 240mm UnGd Rkt, 235kg, HE/Frag, (Low Smk)",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

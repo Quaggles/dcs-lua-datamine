@@ -17,6 +17,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "IFV M2A2 Bradley",
 	Rate = 15,
 	Sensors = {
+		Mount_WS_ID = 1,
 		OPTIC = { "M2 sight day", "M2 sight night" }
 	},
 	ThreatRange = 3800,
@@ -95,6 +96,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		smoke = { "SMOKE_02", "SMOKE_05", "SMOKE_04", "SMOKE_07", "SMOKE_01", "SMOKE_06", "SMOKE_03", "SMOKE_08" }
 	},
 	Waypoint_Custom_Panel = true,
+	ZOffsetChangeTime = 5,
+	ZOffsetMax = 2,
+	ZOffsetTimeRange = { 10, 20 },
 	airWeaponDist = 2500,
 	animation_arguments = {},
 	armour_scheme = {
@@ -129,7 +133,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "M-2 Bradley",
 	visual = {
 		IR = {
-			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0062, 0.00215 }, { 0.001, 0.17 }, { 0.3, 0.00016666666666667 } }
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0045, 0.0044 }, { 0.001, 0.17 }, { 0.3, 0.00016666666666667 } }
 		},
 		agony_explosion_size = 3,
 		dirt_pos = { -2.8, 0.5, -1.248 },

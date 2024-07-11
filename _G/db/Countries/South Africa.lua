@@ -304,6 +304,14 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "outpost_road_l",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "outpost_road_r",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "outpost",
 					in_service = 0,
 					out_of_service = 40000
@@ -1066,6 +1074,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "F-86F_FC",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Hawk",
 					in_service = 0,
 					out_of_service = 40000
@@ -1124,6 +1136,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "F-5E-3"
 				}, {
+					Name = "F-5E-3_FC"
+				}, {
 					Name = "F/A-18A"
 				}, {
 					Name = "F/A-18C"
@@ -1141,6 +1155,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "MB-339APAN"
 				}, {
 					Name = "MiG-15bis"
+				}, {
+					Name = "MiG-15bis_FC"
 				}, {
 					Name = "MiG-19P"
 				}, {

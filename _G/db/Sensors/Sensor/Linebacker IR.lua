@@ -3,15 +3,16 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 	Name = "Linebacker IR",
 	SensorType = 0,
 	category = 0,
+	linkedAxis = 1,
 	magnifications = { 4, 10 },
-	resolution = 0.06,
+	resolution = 0.03,
 	scan_volume = {
 		azimuth = { -180, 180 },
 		elevation = { -5, 60 }
 	},
 	type = 2,
 	view_volume_max = {
-		azimuth_sector = 9,
-		elevation_sector = 9
+		azimuth_sector = 6,
+		elevation_sector = 6
 	}
 }

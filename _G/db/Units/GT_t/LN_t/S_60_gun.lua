@@ -101,6 +101,7 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["S_60_gun"] = {
 	distanceMin = 0,
 	max_trg_alt = 4000,
 	reactionTime = 3,
+	reflection_limit = 0.5,
 	sensor = {},
 	type = 3
 }

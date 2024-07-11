@@ -4,6 +4,7 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 	SensorType = 0,
 	category = 0,
 	laserRanger = true,
+	linkedAxis = 1,
 	magnifications = { 7 },
 	resolution = 0.8,
 	scan_volume = {

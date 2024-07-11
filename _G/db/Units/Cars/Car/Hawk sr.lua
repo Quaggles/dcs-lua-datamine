@@ -263,6 +263,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			},
 			pos = { 0, 3, 0 }
 		},
+		isDetector = true,
 		maxTargetDetectionRange = 90000,
 		radar_rotation_type = 0,
 		radar_type = 103,

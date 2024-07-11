@@ -166,6 +166,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			pos = { 0, 10, 0 }
 		},
 		maxTargetDetectionRange = 160000,
+		radar_rotation_type = 0,
 		radar_type = 105,
 		searchRadarFrequencies = { { 120000000, 130000000 } }
 	},

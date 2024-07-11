@@ -39,6 +39,7 @@ _G["rockets"]["#Index"] = {
 	display_name_short = "AIM-9",
 	exhaust = { 0.7, 0.7, 0.7, 0.08 },
 	name = "AIM_9X",
+	nozzle_exit_area = 0.0068,
 	shape_table_data = { {
 			file = "aim-9x",
 			fire = { 0, 1 },
@@ -48,6 +49,8 @@ _G["rockets"]["#Index"] = {
 			username = "AIM-9X"
 		} },
 	sigma = { 2, 2, 2 },
+	smoke_opacity_type = 1,
+	supersonic_A_coef_skew = 0.3,
 	t_acc = 5,
 	t_b = 0,
 	t_marsh = 0,

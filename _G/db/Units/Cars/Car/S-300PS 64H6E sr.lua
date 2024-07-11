@@ -1,5 +1,6 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Countries = { "USSR" },
+	Crew = 0,
 	CustomAimPoint = { 0, 1.5, 0 },
 	DetectionRange = 160000,
 	DisplayName = 'SAM SA-10 S-300 "Grumble" Big Bird SR',
@@ -239,6 +240,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			pos = { 0, 5, 0 }
 		},
 		fire_on_march = false,
+		isDetector = true,
 		maxTargetDetectionRange = 160000,
 		radar_rotation_type = 1,
 		radar_type = 102,
@@ -294,7 +296,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 2, 16, 101, "Redacted", "LR SAM", "SAM SR", "RADAR_BAND1_FOR_ARM", "CustomAimPoint", "All", "Ground Units", "Vehicles", "Ground vehicles", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "SAM related", "SAM elements" },
+	attribute = { 2, 16, 101, "Redacted", "LR SAM", "SAM SR", "RADAR_BAND1_FOR_ARM", "All", "Ground Units", "Vehicles", "Ground vehicles", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "SAM related", "SAM elements" },
 	category = "Air Defence",
 	chassis = {},
 	defaultStartAlarmState = 2,

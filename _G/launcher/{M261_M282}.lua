@@ -64,8 +64,8 @@ _G["launcher"]["{M261_M282}"] = {
 			connector_name = "tube_19"
 		} },
 	Picture = "LAU61.png",
-	Weight = 275,
-	Weight_Empty = 39.4,
+	Weight = 271.9,
+	Weight_Empty = 36.3,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },

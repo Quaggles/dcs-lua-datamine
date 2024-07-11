@@ -27,6 +27,7 @@ _G["rockets"]["#Index"] = {
 	Y_back = -0.199,
 	Z_back = 0,
 	_unique_resource_name = "weapons.missiles.Sea_Eagle",
+	add_attributes = { "Cruise missiles", "Anti-Ship missiles" },
 	display_name = "Sea Eagle",
 	display_name_short = "Sea E",
 	name = "Sea_Eagle",

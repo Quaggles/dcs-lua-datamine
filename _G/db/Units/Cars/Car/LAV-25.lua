@@ -3,6 +3,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	CustomAimPoint = { -0.33, 1.57, 0 },
 	DetectionRange = 0,
 	DisplayName = "IFV LAV-25",
 	DisplayNameShort = "LAV25",
@@ -16,7 +17,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "IFV LAV-25",
 	Rate = 8,
 	Sensors = {
-		OPTIC = { "ITSS_HIRE_III day", "ITSS_HIRE_III night" }
+		Mount_WS_ID = 1,
+		OPTIC = { "CUPOLA_TRIPLEXES", "ITSS_HIRE_III day", "ITSS_HIRE_III night" }
 	},
 	ThreatRange = 2500,
 	Transportable = {
@@ -101,7 +103,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			angles = { { 1.7453292519943, -1.7453292519943, -0.13962634015955, 0.43633231299858 } },
 			base = 1,
 			center = "CENTER_MGUN",
-			cockpit = { "IronSight/IronSight", { -1.1, 0.18, 0 } },
+			cockpit = { "IronSight/IronSight", { -1.1, 0.18, 0 },
+				open = true
+			},
 			drawArgument1 = 25,
 			drawArgument2 = 26,
 			omegaY = 2.0943951023932,
@@ -155,7 +159,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "LAV-25",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0.0062, 0.00215 }, { 0.001, 0.17 }, { 0.3, 0.00016666666666667 } }
+			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0.0045, 0.0044 }, { 0.001, 0.17 }, { 0.3, 0.00016666666666667 } }
 		},
 		agony_explosion_size = 3,
 		fire_pos = { 0.25, 1, 0 },

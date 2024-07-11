@@ -1,6 +1,6 @@
 _G["launcher"]["{F4_SARGENT_TANK_370_GAL_EMPTY}"] = {
 	CLSID = "{F4_SARGENT_TANK_370_GAL_EMPTY}",
-	Capacity = 1120.36,
+	Capacity = 1093.35,
 	Cx_pil = 0.00124,
 	Elements = { {
 			ShapeName = "HB_F-4E_EXT_WingTank_EMPTY"

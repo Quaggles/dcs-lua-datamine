@@ -152,7 +152,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 2, 16, 101, "Redacted", "LR SAM", "RADAR_BAND1_FOR_ARM", "SAM TR", "CustomAimPoint", "All", "Ground Units", "Vehicles", "Ground vehicles", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "SAM related", "SAM elements" },
+	attribute = { 2, 16, 101, "Redacted", "LR SAM", "SAM TR", "RADAR_BAND1_FOR_ARM", "All", "Ground Units", "Vehicles", "Ground vehicles", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "SAM related", "SAM elements" },
 	category = "Air Defence",
 	chassis = {},
 	defaultStartAlarmState = 2,
@@ -165,7 +165,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		}
 	},
 	mapclasskey = "P0091000083",
-	maxDeviationPitch = 0.087266462599716,
 	maxDeviationRoll = 0.087266462599716,
 	sensor = {
 		height = 2,
@@ -196,7 +195,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	swapped_names = true,
 	swing_on_run = false,
 	tags = { "Air Defence", "Tracking Radar" },
-	toggle_alarm_state_interval = 60,
 	type = "S-300PS 5H63C 30H6_tr",
 	verticalDeviationCompensationPeriod = 10,
 	visual = {

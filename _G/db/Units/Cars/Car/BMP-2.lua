@@ -15,7 +15,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "IFV BMP-2",
 	Rate = 10,
 	Sensors = {
-		OPTIC = { "TKN-3B day", "TKN-3B night" }
+		Mount_WS_ID = 1,
+		OPTIC = { "TKN-3B day", "TKN-3B night", "1PZ-3" }
 	},
 	ThreatRange = 3000,
 	WS = { {
@@ -134,7 +135,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "BMP-2",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.0062, 0.00215 }, { 0.001, 0.17 }, { 0.3, 0.00016666666666667 } }
+			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.004, 0.0043 }, { 0.001, 0.17 }, { 0.3, 0.00016666666666667 } }
 		},
 		agony_explosion_size = 3,
 		dirt_pos = { -2.9, 0.5, -1.28 },

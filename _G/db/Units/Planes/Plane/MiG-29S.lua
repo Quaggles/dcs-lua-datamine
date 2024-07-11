@@ -438,7 +438,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		} },
 	H_max = 18000,
 	HumanCockpit = true,
-	HumanCockpitPath = "./Mods/aircraft/Flaming Cliffs/Cockpit/KneeboardLeft/",
+	HumanCockpitPath = "./Mods/aircraft/MiG-29/Cockpit/KneeboardLeft/",
 	HumanCockpitPlugins = { {
 			_file = "./Mods/aircraft/NS430/entry.lua",
 			_origin = "NS430",
@@ -573,8 +573,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}
 			}
 		} },
-	HumanCommPanelPath = "./Mods/aircraft/Flaming Cliffs/Comm/MiG-29S.lua",
-	HumanFM = { "Flaming Cliffs by Eagle Dynamics", "MiG29",
+	HumanCommPanelPath = "./Mods/aircraft/MiG-29/Comm/MiG-29S.lua",
+	HumanFM = { "MiG-29 Fulcrum by Eagle Dynamics", "MiG29",
 		old = true
 	},
 	HumanRadio = {
@@ -898,9 +898,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Waypoint_Custom_Panel = true,
 	WingSpan = "11.36",
 	WorldID = 50,
+	_MAC_compatible = true,
 	_file = "Scripts/Database/planes\\MiG-29S.lua",
-	_file_flyable = "./Mods/aircraft/Flaming Cliffs/entry.lua",
-	_origin_flyable = "Flaming Cliffs by Eagle Dynamics",
+	_file_flyable = "./Mods/aircraft/MiG-29/entry.lua",
+	_origin_flyable = "MiG-29 Fulcrum by Eagle Dynamics",
 	attribute = { 1, 1, 1, "Redacted", "Fighters", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },
 	average_fuel_consumption = 0.2743,
 	bank_angle_max = 60,

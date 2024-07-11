@@ -6,23 +6,26 @@ _G["launcher"]["{F3EFE0AB-E91A-42D8-9CA2-B63C91ED570A}"] = {
 			IsAdapter = true,
 			ShapeName = "LAU-10"
 		}, {
-			Position = { 0.1, 0.049, 0.072 },
-			ShapeName = "zuni"
+			ShapeName = "zuni",
+			connector_name = "tube_01"
 		}, {
-			Position = { 0.1, 0.049, -0.073 },
-			ShapeName = "zuni"
+			ShapeName = "zuni",
+			connector_name = "tube_02"
 		}, {
-			Position = { 0.1, -0.095, 0.072 },
-			ShapeName = "zuni"
+			ShapeName = "zuni",
+			connector_name = "tube_03"
 		}, {
-			Position = { 0.1, -0.095, -0.073 },
-			ShapeName = "zuni"
+			ShapeName = "zuni",
+			connector_name = "tube_04"
 		} },
 	Picture = "LAU10.png",
-	Weight = 288.9,
+	Weight = 289.02,
 	Weight_Empty = 61.7,
-	_file = "Scripts/Database/db_weapons_data.lua",
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
+	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
-	displayName = "LAU-10 pod - 4 x 127mm ZUNI, UnGd Rkts Mk71, HE/FRAG",
+	category = 3,
+	displayName = "LAU-10 - 4 x UnGd Rkts, 127 mm Zuni Mk. 24 Mod. 1 HE",
+	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

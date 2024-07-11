@@ -3,10 +3,11 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 	Name = "TKN-4S day",
 	SensorType = 0,
 	category = 0,
+	linkedAxis = 1,
 	magnifications = { 8 },
-	resolution = 0.3,
+	resolution = 0.8,
 	scan_volume = {
-		azimuth = { -135, 135 },
+		azimuth = { -180, 180 },
 		elevation = { -5, 25 }
 	},
 	type = 0,

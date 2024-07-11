@@ -67,6 +67,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 16, 27, "Redacted", "AA_missile", "SAM LL", "All", "Ground Units", "Vehicles", "Ground vehicles", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "SAM related", "SAM elements", "Armed Air Defence" },
 	category = "Air Defence",
 	chassis = {},
+	defaultStartAlarmState = 2,
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000080",
 	sensor = {
@@ -80,7 +81,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_vol = { {}, {}, {} }
 	},
 	swapped_names = true,
-	swing_on_run = true,
+	swing_on_run = false,
 	tags = { "Air Defence", "Launcher" },
 	type = "Kub 2P25 ln",
 	visual = {

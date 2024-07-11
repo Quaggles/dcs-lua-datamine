@@ -57,7 +57,7 @@ _G["rockets"]["#Index"] = {
 	},
 	category = 2,
 	class_name = "wAmmunitionVikhr",
-	display_name = "9M114 Kokon (AT-6 Spiral)",
+	display_name = "9M114 Shturm (AT-6 Spiral)",
 	display_name_short = "9M114",
 	eng_err = {
 		max_time_interval = 1,
@@ -141,7 +141,7 @@ _G["rockets"]["#Index"] = {
 	t_acc = 5,
 	t_b = 0,
 	t_marsh = 0,
-	user_name = "9M114 Kokon (AT-6 Spiral)",
+	user_name = "9M114 Shturm (AT-6 Spiral)",
 	v_mid = 300,
 	v_min = 170,
 	warhead = "_G/warheads/AT_6.lua",

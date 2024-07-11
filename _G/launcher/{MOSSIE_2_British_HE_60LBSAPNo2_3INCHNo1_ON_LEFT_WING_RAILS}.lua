@@ -30,10 +30,16 @@ _G["launcher"]["{MOSSIE_2_British_HE_60LBSAPNo2_3INCHNo1_ON_LEFT_WING_RAILS}"] =
 			stringIndex = 1,
 			values = { {
 					dispName = "Base Fuze No. 878 Mk I",
-					id = 1
+					id = 1,
+					secondaryParams = {
+						tooltip = "Mechanical, impact\nArmed by gas pressure"
+					}
 				}, {
 					dispName = "Base Fuze No. 865 Mk I",
-					id = 2
+					id = 2,
+					secondaryParams = {
+						tooltip = "Mechanical, impact\nArmed by gas pressure"
+					}
 				} },
 			wCtrl = 360,
 			xCtrl = 200

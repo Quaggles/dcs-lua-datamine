@@ -47,7 +47,7 @@ _G["weapons_table"]["weapons"]["nurs"]["HVAR"] = {
 			piercing_mass = 4
 		}
 	},
-	cx_pil = 7.4539399830034e-05,
+	cx_pil = 7.4539574135575e-05,
 	display_name = "HVAR",
 	display_name_short = "HVAR",
 	dist_max = 1500,

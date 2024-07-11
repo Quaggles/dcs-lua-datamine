@@ -28,9 +28,13 @@ _G["launcher"]["{174C6E6D-0C3D-42ff-BCB3-0853CB371F5C}"] = {
 			connector_name = "tube_07"
 		} },
 	Picture = "LAU68.png",
-	Weight = 102.07,
-	_file = "Scripts/Database/db_weapons_data.lua",
+	Weight = 106.1,
+	Weight_Empty = 41.7,
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
+	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
-	displayName = 'LAU-68 pod - 7 x 2.75" Hydra, UnGd Rkts Mk5, HEAT',
+	category = 3,
+	displayName = "LAU-68 - 7 x UnGd Rkts, 70 mm Hydra 70 Mk 5 HEAT",
+	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

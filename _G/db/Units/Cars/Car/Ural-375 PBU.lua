@@ -4,11 +4,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	DetectionRange = 0,
-	DisplayName = "Truck Ural-375 Mobile C2",
+	DisplayName = "Truck Ural-4320 MCC",
 	DisplayNameShort = "Ural-MCC",
 	IR_emission_coeff = 0.08,
 	MaxSpeed = 74.99988,
-	Name = "Truck Ural-375 Mobile C2",
+	Name = "Truck Ural-4320 MCC",
 	Rate = 5,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,

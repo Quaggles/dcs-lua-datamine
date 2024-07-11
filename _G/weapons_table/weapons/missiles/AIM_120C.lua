@@ -142,6 +142,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM_120C"] = {
 			nozzle_orientationXYZ = { { 0, 0, 0 } },
 			nozzle_position = { { -1.9, 0, 0 } },
 			smoke_color = { 0.8, 0.8, 0.8 },
+			smoke_opacity_type = 1,
 			smoke_transparency = 0.03,
 			tail_width = 0.4,
 			work_time = 6.5
@@ -355,6 +356,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM_120C"] = {
 			nozzle_orientationXYZ = { { 0, 0, 0 } },
 			nozzle_position = { { -1.9, 0, 0 } },
 			smoke_color = { 0.8, 0.8, 0.8 },
+			smoke_opacity_type = 1,
 			smoke_transparency = 0.03,
 			tail_width = 0.4,
 			work_time = 6.5
@@ -426,6 +428,9 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM_120C"] = {
 		wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 	},
 	sounderName = "Weapons/Missile",
+	targeting_data = {
+		fm_type = -1
+	},
 	type_name = "missile",
 	ws_type = { 4, 4, 7, "Redacted" }
 }

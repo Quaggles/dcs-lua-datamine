@@ -103,5 +103,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		min_time_agony = 10,
 		shape = "land_rover_109_s3",
 		shape_dstr = "land_rover_109_s3_p_1"
-	}
+	},
+	windscreen_wiper = 40
 }

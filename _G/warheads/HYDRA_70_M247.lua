@@ -1,5 +1,5 @@
 _G["warheads"]["HYDRA_70_M247"] = {
-	caliber = 69.85,
+	caliber = 70,
 	concrete_factors = { 1.33, 1.33, 0.1 },
 	concrete_obj_factor = 0.2,
 	cumulative_factor = 3,

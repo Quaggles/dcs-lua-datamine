@@ -15,7 +15,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "IFV Marder",
 	Rate = 12,
 	Sensors = {
-		OPTIC = { "PERI-Z11 day" }
+		Mount_WS_ID = 1,
+		OPTIC = { "CUPOLA_TRIPLEXES", "PERI-Z11 day" }
 	},
 	ThreatRange = 1500,
 	WS = { {
@@ -125,7 +126,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "Marder",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.0062, 0.00215 }, { 0.001, 0.17 }, { 0.3, 0.0001875 } }
+			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.0059, 0.0041 }, { 0.001, 0.17 }, { 0.3, 0.0001875 } }
 		},
 		agony_explosion_size = 3,
 		dirt_pos = { -3.1, 0.5, -1.319 },

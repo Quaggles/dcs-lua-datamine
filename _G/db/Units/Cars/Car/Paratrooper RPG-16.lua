@@ -1,5 +1,4 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
-	CustomAimPoint = { 0, 1, 0 },
 	DetectionRange = 0,
 	DisplayName = "Paratrooper RPG-16",
 	DisplayNameShort = "RPG16",
@@ -16,16 +15,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	WS = { {
 			LN = { {
 					BR = { {
-							connector_name = "POINT_GUN_01",
 							muzzleBrakeType = 2,
+							pos = { 0.5, 0, 0 },
 							recoilArgument = 23,
 							recoliTime = 0.3
 						} },
-					PL = { {
-							shell_name = {}
-						} },
+					PL = { {} },
 					maxShootingSpeed = 0,
-					sensor = {}
+					sensor = {},
+					show_external_missile = true
 				} },
 			angles = { {} },
 			canSetTacticalDir = true,
@@ -55,7 +53,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 2, 17, 26, "Redacted", "Infantry", "CustomAimPoint", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "NonAndLightArmoredUnits", "NonArmoredUnits" },
+	attribute = { 2, 17, 26, "Redacted", "Infantry", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "NonAndLightArmoredUnits", "NonArmoredUnits" },
 	category = "Infantry",
 	chassis = {},
 	enablePlayerCanDrive = false,
@@ -72,7 +70,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "Paratrooper RPG-16",
 	visual = {
 		IR = {
-			coeffs = { {}, {}, { 0.011, 0.01 }, {} }
+			coeffs = { {}, {}, { 0.011, 0.01 }, {}, {} }
 		},
 		fire_pos = {},
 		fire_size = 0,

@@ -109,7 +109,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM-7MH"] = {
 			draw_fins_conv = { 1.5707963267949, 1, 1 },
 			fins_part_val = 0,
 			fins_stall = 1,
-			mass = 231,
+			mass = 194,
 			model_roll = 0.78539816339745,
 			rotated_fins_inp = 0,
 			table_degree_values = 1,
@@ -309,7 +309,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM-7MH"] = {
 			draw_fins_conv = { 1.5707963267949, 1, 1 },
 			fins_part_val = 0,
 			fins_stall = 1,
-			mass = 231,
+			mass = 194,
 			model_roll = 0.78539816339745,
 			rotated_fins_inp = 0,
 			table_degree_values = 1,
@@ -400,6 +400,9 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM-7MH"] = {
 		wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 	},
 	sounderName = "Weapons/Missile",
+	targeting_data = {
+		fm_type = -1
+	},
 	type_name = "missile",
 	ws_type = { 4, 4, 7, "Redacted" }
 }

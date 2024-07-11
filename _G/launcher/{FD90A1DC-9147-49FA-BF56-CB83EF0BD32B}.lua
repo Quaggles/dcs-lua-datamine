@@ -64,9 +64,13 @@ _G["launcher"]["{FD90A1DC-9147-49FA-BF56-CB83EF0BD32B}"] = {
 			connector_name = "tube_19"
 		} },
 	Picture = "LAU61.png",
-	Weight = 273.4,
-	_file = "Scripts/Database/db_weapons_data.lua",
+	Weight = 290.6,
+	Weight_Empty = 93,
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
+	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
-	displayName = 'LAU-61 pod - 19 x 2.75" Hydra, UnGd Rkts M151, HE',
+	category = 3,
+	displayName = "LAU-61 - 19 x UnGd Rkts, 70 mm Hydra 70 M151 HE",
+	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

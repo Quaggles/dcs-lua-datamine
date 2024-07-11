@@ -493,6 +493,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			omegaY = 3,
 			omegaZ = 3
 		},
+		isDetector = true,
 		maxTargetDetectionRange = 150000,
 		radar_rotation_type = 0,
 		radar_type = 103,
@@ -511,7 +512,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 2, 16, 101, "Redacted", "LR SAM", "SAM SR", "RADAR_BAND1_FOR_ARM", "CustomAimPoint", "All", "Ground Units", "Vehicles", "Ground vehicles", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "SAM related", "SAM elements" },
+	attribute = { 2, 16, 101, "Redacted", "LR SAM", "SAM SR", "RADAR_BAND1_FOR_ARM", "All", "Ground Units", "Vehicles", "Ground vehicles", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "SAM related", "SAM elements" },
 	category = "Air Defence",
 	chassis = {},
 	defaultStartAlarmState = 2,

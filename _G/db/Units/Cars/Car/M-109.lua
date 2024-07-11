@@ -13,6 +13,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "SPH M109 Paladin 155mm",
 	Rate = 15,
 	Sensors = {
+		Mount_WS_ID = 1,
 		OPTIC = { "MP7" }
 	},
 	ThreatRange = 22000,
@@ -21,6 +22,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_GUN",
+							muzzleBrakeType = 2,
 							recoilArgument = 23,
 							recoilTime = 0.7
 						} },
@@ -98,7 +100,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "M-109",
 	visual = {
 		IR = {
-			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.00045, 0.003 }, { 0.001, 0.17 }, { 0.3, 0.00016666666666667 } }
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.00049, 0.003 }, { 0.001, 0.17 }, { 0.3, 0.00016666666666667 } }
 		},
 		agony_explosion_size = 5,
 		dirt_pos = { -2.8, 0.6, -1.357 },

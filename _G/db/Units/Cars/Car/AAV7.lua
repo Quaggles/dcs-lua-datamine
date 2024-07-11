@@ -7,11 +7,16 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DisplayName = "APC AAV-7 Amphibious",
 	DisplayNameShort = "AAV-7A1",
 	IR_emission_coeff = 0.09,
+	InternalCargo = {
+		maximalCapacity = 2100,
+		nominalCapacity = 2100
+	},
 	MaxSpeed = 72,
 	Name = "APC AAV-7 Amphibious",
 	Rate = 8,
 	Sensors = {
-		OPTIC = { "AAV day" }
+		Mount_WS_ID = 1,
+		OPTIC = { "CUPOLA_TRIPLEXES", "AAV day" }
 	},
 	ThreatRange = 1200,
 	WS = { {

@@ -1,7 +1,7 @@
 _G["launcher"]["M260_HYDRA"] = {
 	CLSID = "M260_HYDRA",
 	Count = 7,
-	Cx_pil = 0.00146484375,
+	Cx_pil = 0.001708984375,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "M260"
@@ -27,10 +27,14 @@ _G["launcher"]["M260_HYDRA"] = {
 			ShapeName = "hydra_m151he",
 			connector_name = "tube_7"
 		} },
-	Picture = "lau68.png",
-	Weight = 112,
-	_file = "Scripts/Database/db_weapons_data.lua",
+	Picture = "LAU68.png",
+	Weight = 80.3,
+	Weight_Empty = 15.9,
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
+	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
-	displayName = 'M260 pod - 7 x 2.75" Hydra, UnGd Rkts Mk5, HEAT',
+	category = 3,
+	displayName = "M260 - 7 x UnGd Rkts, 70 mm Hydra 70 Mk 5 HEAT",
+	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

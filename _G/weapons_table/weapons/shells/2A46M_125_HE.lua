@@ -5,9 +5,8 @@ _G["weapons_table"]["weapons"]["shells"]["2A46M_125_HE"] = {
 	Dv0 = 0.002,
 	_unique_resource_name = "weapons.shells.2A46M_125_HE",
 	animationParams = {
-		animStartTime = 0.05,
 		argNumber = 2,
-		argRateOpening = -5,
+		argRateOpening = -25,
 		finalArgState = 0,
 		initialArgState = 1
 	},
@@ -55,7 +54,7 @@ _G["weapons_table"]["weapons"]["shells"]["2A46M_125_HE"] = {
 		deviation_angle = 30,
 		velocity_loss_factor = 0.5
 	},
-	rotation_freq = 0,
+	rotation_freq = 4.66,
 	round_mass = 23,
 	s = 0,
 	silent_self_destruction = false,

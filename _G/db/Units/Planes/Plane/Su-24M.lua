@@ -281,6 +281,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0,
 					connector = "PylonBD3_1"
 				}, {
+					CLSID = "{UB32A_S5KP}",
+					arg_value = 0,
+					connector = "PylonBD3_1"
+				}, {
+					CLSID = "{UB32A_S5M}",
+					arg_value = 0,
+					connector = "PylonBD3_1"
+				}, {
 					CLSID = "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}",
 					arg_value = 0,
 					connector = "PylonBD3_1"
@@ -458,6 +466,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					connector = "PylonBD3_2"
 				}, {
 					CLSID = "{637334E4-AB5A-47C0-83A6-51B7F1DF3CD5}",
+					arg_value = 0,
+					connector = "PylonBD3_2"
+				}, {
+					CLSID = "{UB32A_S5KP}",
+					arg_value = 0,
+					connector = "PylonBD3_2"
+				}, {
+					CLSID = "{UB32A_S5M}",
 					arg_value = 0,
 					connector = "PylonBD3_2"
 				}, {
@@ -842,6 +858,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0,
 					connector = "PylonBD3_7"
 				}, {
+					CLSID = "{UB32A_S5KP}",
+					arg_value = 0,
+					connector = "PylonBD3_7"
+				}, {
+					CLSID = "{UB32A_S5M}",
+					arg_value = 0,
+					connector = "PylonBD3_7"
+				}, {
 					CLSID = "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}",
 					arg_value = 0,
 					connector = "PylonBD3_7"
@@ -913,6 +937,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					connector = "PylonBD3_8"
 				}, {
 					CLSID = "{637334E4-AB5A-47C0-83A6-51B7F1DF3CD5}",
+					arg_value = 0,
+					connector = "PylonBD3_8"
+				}, {
+					CLSID = "{UB32A_S5KP}",
+					arg_value = 0,
+					connector = "PylonBD3_8"
+				}, {
+					CLSID = "{UB32A_S5M}",
 					arg_value = 0,
 					connector = "PylonBD3_8"
 				}, {

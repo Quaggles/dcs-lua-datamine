@@ -1,5 +1,5 @@
 _G["rockets"]["#Index"] = {
-	Cx_pil = 0.0001,
+	Cx_pil = 4.73063424,
 	D_max = 70000,
 	D_min = 2000,
 	Damage = 3750,
@@ -46,7 +46,7 @@ _G["rockets"]["#Index"] = {
 			username = "Rb15"
 		} },
 	sigma = { 3, 3, 3 },
-	t_acc = 10,
+	t_acc = -1,
 	t_b = 2,
 	t_marsh = 240,
 	user_name = "RB-15F",

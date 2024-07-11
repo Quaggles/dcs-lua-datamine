@@ -1,7 +1,7 @@
-_G["launcher"]["{Rb15}"] = {
-	CLSID = "{Rb15}",
+_G["launcher"]["{Rb15_HB}"] = {
+	CLSID = "{Rb15_HB}",
 	Count = 1,
-	Cx_pil = 0.0001,
+	Cx_pil = 0.00126271,
 	Elements = { "_G/Pylons/RB15pylon.lua", {
 			Position = { 0.087, -0.437, 0 },
 			ShapeName = "RB15"

@@ -23,10 +23,16 @@ _G["launcher"]["SC_501_SC500"] = {
 			stringIndex = 1,
 			values = { {
 					dispName = "Zünder 38",
-					id = 1
+					id = 1,
+					secondaryParams = {
+						tooltip = "Electronic, impact\nHas multiple operation modes, one of which can be selected in-flight"
+					}
 				}, {
 					dispName = "Zünder 17",
-					id = 2
+					id = 2,
+					secondaryParams = {
+						tooltip = "Electronic, impact"
+					}
 				} },
 			wCtrl = 360,
 			xCtrl = 200

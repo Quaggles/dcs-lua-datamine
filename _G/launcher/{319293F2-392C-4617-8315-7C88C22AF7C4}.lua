@@ -28,9 +28,13 @@ _G["launcher"]["{319293F2-392C-4617-8315-7C88C22AF7C4}"] = {
 			connector_name = "tube_07"
 		} },
 	Picture = "LAU131.png",
-	Weight = 91.17,
-	_file = "Scripts/Database/db_weapons_data.lua",
+	Weight = 93.9,
+	Weight_Empty = 29.5,
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
+	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
-	displayName = 'LAU-131 pod - 7 x 2.75" Hydra, UnGd Rkts Mk5, HEAT',
+	category = 3,
+	displayName = "LAU-131 - 7 x UnGd Rkts, 70 mm Hydra 70 Mk 5 HEAT",
+	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

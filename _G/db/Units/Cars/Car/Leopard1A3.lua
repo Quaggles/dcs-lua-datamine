@@ -12,6 +12,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "MBT Leopard 1A3",
 	Rate = 10,
 	Sensors = {
+		Mount_WS_ID = 1,
 		OPTIC = { "TRP-2A day", "TRP-2A night" }
 	},
 	ThreatRange = 2500,
@@ -122,7 +123,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "Leopard1A3",
 	visual = {
 		IR = {
-			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.002, 0.0015 }, { 0.001, 0.17 }, { 0.3, 0.0002 } }
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0038, 0.0015 }, { 0.001, 0.17 }, { 0.3, 0.0002 } }
 		},
 		agony_explosion_size = 2,
 		dirt_pos = { -3.2, 0.6, -1.347 },

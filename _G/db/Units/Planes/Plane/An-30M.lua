@@ -164,6 +164,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		area = { 11.1, 2.25, 1.91 },
 		maximalCapacity = 1040,
 		nominalCapacity = 1040,
+		out_door = {
+			cargo_generic = {
+				heading = 1.5707963267949,
+				large = true,
+				mechanicals = {
+					board = { "CargoBayGates", "Open" },
+					boardable = { {
+							mechanism = "CargoBayGates",
+							states = { "Open" }
+						} },
+					close = { "CargoBayGates", "Close" }
+				},
+				x = 4.961,
+				z = 1.382
+			}
+		},
 		para_unit_point = 0,
 		unit_block = { 0.73, 1.1 },
 		unit_point = 20

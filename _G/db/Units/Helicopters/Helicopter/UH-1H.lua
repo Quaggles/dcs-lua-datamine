@@ -1774,6 +1774,17 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					} },
 				Transition = { "Open", "Close" }
 			} },
+		ExternalCargoEquipment = { {
+				Sequence = { {
+						C = { { "Arg", 540, "set", 1 } }
+					} },
+				Transition = { "Dismantle", "Erect" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 540, "set", 0 } }
+					} },
+				Transition = { "Erect", "Dismantle" }
+			} },
 		HeadLight0 = { {
 				Sequence = { {
 						C = { { "Arg", 515, "from", 1, "to", 0, "speed", 0.22222222222222 } }

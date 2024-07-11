@@ -1,6 +1,7 @@
 _G["weapons_table"]["weapons"]["missiles"]["BGM_109B"] = {
 	Reflection = 0.16,
 	_unique_resource_name = "weapons.missiles.BGM_109B",
+	add_attributes = { "Cruise missiles", "Anti-Ship missiles" },
 	caliber = 0.52,
 	client = {
 		boost = {
@@ -350,6 +351,9 @@ _G["weapons_table"]["weapons"]["missiles"]["BGM_109B"] = {
 		}
 	},
 	sounderName = "Weapons/Missile",
+	targeting_data = {
+		fm_type = -1
+	},
 	type_name = "missile",
 	ws_type = { 4, 4, 11, "Redacted" }
 }

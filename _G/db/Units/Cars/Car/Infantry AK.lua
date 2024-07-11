@@ -1,5 +1,4 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
-	CustomAimPoint = { 0, 1, 0 },
 	DetectionRange = 0,
 	DisplayName = "Infantry AK-74 Rus ver1",
 	DisplayNameShort = "AK",
@@ -83,7 +82,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 2, 17, 26, "Redacted", "Infantry", "CustomAimPoint", "New infantry", "Skeleton_type_A", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "NonAndLightArmoredUnits", "NonArmoredUnits" },
+	attribute = { 2, 17, 26, "Redacted", "Infantry", "New infantry", "Skeleton_type_A", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "NonAndLightArmoredUnits", "NonArmoredUnits" },
 	category = "Infantry",
 	chassis = {},
 	enablePlayerCanDrive = false,
@@ -100,7 +99,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "Infantry AK",
 	visual = {
 		IR = {
-			coeffs = { {}, {}, {}, {} }
+			coeffs = { {}, {}, {}, {}, {} }
 		},
 		fire_pos = {},
 		fire_size = 0,

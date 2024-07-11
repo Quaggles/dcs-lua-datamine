@@ -23,7 +23,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_MGUN_01",
-							pos = {}
+							pos = {},
+							recoilArgument = 23,
+							recoilTime = 0.1
 						} },
 					PL = { {
 							shell_name = {}
@@ -141,5 +143,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		min_time_agony = 5,
 		shape = "BTR-80",
 		shape_dstr = "BTR-80_p_1"
-	}
+	},
+	windscreen_wiper = 40
 }

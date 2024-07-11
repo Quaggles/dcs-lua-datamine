@@ -2,26 +2,29 @@ _G["launcher"]["{M260_M229}"] = {
 	CLSID = "{M260_M229}",
 	Count = 7,
 	Cx_pil = 0.001708984375,
-	Elements = { "_G/Pylons/OH58D_M260.lua", {
-			ShapeName = "hydra_m151he",
+	Elements = { {
+			IsAdapter = true,
+			ShapeName = "OH58D_M260"
+		}, {
+			ShapeName = "hydra_m229",
 			connector_name = "tube_01"
 		}, {
-			ShapeName = "hydra_m151he",
+			ShapeName = "hydra_m229",
 			connector_name = "tube_02"
 		}, {
-			ShapeName = "hydra_m151he",
+			ShapeName = "hydra_m229",
 			connector_name = "tube_03"
 		}, {
-			ShapeName = "hydra_m151he",
+			ShapeName = "hydra_m229",
 			connector_name = "tube_04"
 		}, {
-			ShapeName = "hydra_m151he",
+			ShapeName = "hydra_m229",
 			connector_name = "tube_05"
 		}, {
-			ShapeName = "hydra_m151he",
+			ShapeName = "hydra_m229",
 			connector_name = "tube_06"
 		}, {
-			ShapeName = "hydra_m151he",
+			ShapeName = "hydra_m229",
 			connector_name = "tube_07"
 		} },
 	Picture = "LAU68.png",

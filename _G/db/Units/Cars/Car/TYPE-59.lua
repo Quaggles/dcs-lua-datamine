@@ -12,6 +12,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "MT Type 59",
 	Rate = 10,
 	Sensors = {
+		Mount_WS_ID = 1,
 		OPTIC = { "TPKU-2B", "TPN1" }
 	},
 	ThreatRange = 2500,
@@ -192,7 +193,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "TYPE-59",
 	visual = {
 		IR = {
-			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.002, 0.0015 }, { 0.001, 0.17 }, { 0.29, 0.00020714285714286 } }
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0038, 0.0015 }, { 0.001, 0.17 }, { 0.29, 0.00020714285714286 } }
 		},
 		agony_explosion_size = 5,
 		dirt_pos = { -2.8, 0.5, -1.3 },

@@ -844,6 +844,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					connector = "Pylon1_Fuel_Tank",
 					forbidden = { {
 							station = 2
+						} },
+					required = { {
+							loadout = { "{PTB_200_F86F35}" },
+							station = 10
 						} }
 				}, {
 					CLSID = "{PTB_120_F86F35}",
@@ -851,15 +855,27 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					connector = "Pylon1_Fuel_Tank",
 					forbidden = { {
 							station = 2
+						} },
+					required = { {
+							loadout = { "{PTB_120_F86F35}" },
+							station = 10
 						} }
 				}, {
 					CLSID = "{HVARx2}",
 					arg_value = 0.1,
-					connector = "Pylon1"
+					connector = "Pylon1",
+					required = { {
+							loadout = { "{HVARx2}" },
+							station = 10
+						} }
 				}, {
 					CLSID = "{HVAR_SMOKE_2}",
 					arg_value = 0.1,
-					connector = "Pylon1"
+					connector = "Pylon1",
+					required = { {
+							loadout = { "{HVAR_SMOKE_2}" },
+							station = 10
+						} }
 				} },
 			Number = 1,
 			Order = 1,
@@ -874,10 +890,20 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			Launchers = { {
 					CLSID = "{HVARx2}",
-					arg_value = 0.1
+					arg_value = 0.1,
+					connector = "Pylon2",
+					required = { {
+							loadout = { "{HVARx2}" },
+							station = 9
+						} }
 				}, {
 					CLSID = "{HVAR_SMOKE_2}",
-					arg_value = 0.1
+					arg_value = 0.1,
+					connector = "Pylon2",
+					required = { {
+							loadout = { "{HVAR_SMOKE_2}" },
+							station = 9
+						} }
 				} },
 			Number = 2,
 			Order = 2,
@@ -892,10 +918,20 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			Launchers = { {
 					CLSID = "{HVARx2}",
-					arg_value = 0.1
+					arg_value = 0.1,
+					connector = "Pylon3",
+					required = { {
+							loadout = { "{HVARx2}" },
+							station = 8
+						} }
 				}, {
 					CLSID = "{HVAR_SMOKE_2}",
-					arg_value = 0.1
+					arg_value = 0.1,
+					connector = "Pylon3",
+					required = { {
+							loadout = { "{HVAR_SMOKE_2}" },
+							station = 8
+						} }
 				} },
 			Number = 3,
 			Order = 3,
@@ -914,27 +950,49 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					connector = "Pylon4_Fuel_Tank",
 					forbidden = { {
 							station = 3
+						} },
+					required = { {
+							loadout = { "{PTB_120_F86F35}" },
+							station = 7
 						} }
 				}, {
 					CLSID = "{F86ANM64}",
 					arg_value = 0.5,
+					connector = "Pylon4_B",
 					forbidden = { {
 							station = 3
+						} },
+					required = { {
+							loadout = { "{F86ANM64}" },
+							station = 7
 						} }
-				}, {
-					CLSID = "{HVARx2}",
-					arg_value = 0.1,
-					connector = "Pylon4"
-				}, {
-					CLSID = "{HVAR_SMOKE_2}",
-					arg_value = 0.1,
-					connector = "Pylon4"
 				}, {
 					CLSID = "{00F5DAC4-0466-4122-998F-B1A298E34113}",
 					arg_value = 0.5,
 					attach_point_position = { -0.09, 0.02, 0 },
+					connector = "Pylon4_B",
 					forbidden = { {
 							station = 3
+						} },
+					required = { {
+							loadout = { "{00F5DAC4-0466-4122-998F-B1A298E34113}" },
+							station = 7
+						} }
+				}, {
+					CLSID = "{HVARx2}",
+					arg_value = 0.1,
+					connector = "Pylon4",
+					required = { {
+							loadout = { "{HVARx2}" },
+							station = 7
+						} }
+				}, {
+					CLSID = "{HVAR_SMOKE_2}",
+					arg_value = 0.1,
+					connector = "Pylon4",
+					required = { {
+							loadout = { "{HVAR_SMOKE_2}" },
+							station = 7
 						} }
 				} },
 			Number = 4,
@@ -950,7 +1008,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			Launchers = { {
 					CLSID = "{GAR-8}",
-					arg_value = 0.1
+					arg_value = 0.1,
+					connector = "Pylon9",
+					required = { {
+							loadout = { "{GAR-8}" },
+							station = 6
+						} }
 				} },
 			Number = 5,
 			Order = 5,
@@ -965,7 +1028,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			Launchers = { {
 					CLSID = "{GAR-8}",
-					arg_value = 0.1
+					arg_value = 0.1,
+					connector = "Pylon10",
+					required = { {
+							loadout = { "{GAR-8}" },
+							station = 5
+						} }
 				} },
 			Number = 6,
 			Order = 6,
@@ -984,27 +1052,55 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					connector = "Pylon5_Fuel_Tank",
 					forbidden = { {
 							station = 8
+						}, {
+							station = 3
+						} },
+					required = { {
+							loadout = { "{PTB_120_F86F35}" },
+							station = 4
 						} }
 				}, {
 					CLSID = "{F86ANM64}",
 					arg_value = 0.5,
+					connector = "Pylon5_B",
 					forbidden = { {
 							station = 8
+						}, {
+							station = 3
+						} },
+					required = { {
+							loadout = { "{F86ANM64}" },
+							station = 4
 						} }
-				}, {
-					CLSID = "{HVARx2}",
-					arg_value = 0.1,
-					connector = "Pylon5"
-				}, {
-					CLSID = "{HVAR_SMOKE_2}",
-					arg_value = 0.1,
-					connector = "Pylon5"
 				}, {
 					CLSID = "{00F5DAC4-0466-4122-998F-B1A298E34113}",
 					arg_value = 0.5,
 					attach_point_position = { -0.09, 0.02, 0 },
+					connector = "Pylon5_B",
 					forbidden = { {
 							station = 8
+						}, {
+							station = 3
+						} },
+					required = { {
+							loadout = { "{00F5DAC4-0466-4122-998F-B1A298E34113}" },
+							station = 4
+						} }
+				}, {
+					CLSID = "{HVARx2}",
+					arg_value = 0.1,
+					connector = "Pylon5",
+					required = { {
+							loadout = { "{HVARx2}" },
+							station = 4
+						} }
+				}, {
+					CLSID = "{HVAR_SMOKE_2}",
+					arg_value = 0.1,
+					connector = "Pylon5",
+					required = { {
+							loadout = { "{HVAR_SMOKE_2}" },
+							station = 4
 						} }
 				} },
 			Number = 7,
@@ -1020,10 +1116,20 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			Launchers = { {
 					CLSID = "{HVARx2}",
-					arg_value = 0.1
+					arg_value = 0.1,
+					connector = "Pylon6",
+					required = { {
+							loadout = { "{HVARx2}" },
+							station = 3
+						} }
 				}, {
 					CLSID = "{HVAR_SMOKE_2}",
-					arg_value = 0.1
+					arg_value = 0.1,
+					connector = "Pylon6",
+					required = { {
+							loadout = { "{HVAR_SMOKE_2}" },
+							station = 3
+						} }
 				} },
 			Number = 8,
 			Order = 8,
@@ -1038,10 +1144,20 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			Launchers = { {
 					CLSID = "{HVARx2}",
-					arg_value = 0.1
+					arg_value = 0.1,
+					connector = "Pylon7",
+					required = { {
+							loadout = { "{HVARx2}" },
+							station = 2
+						} }
 				}, {
 					CLSID = "{HVAR_SMOKE_2}",
-					arg_value = 0.1
+					arg_value = 0.1,
+					connector = "Pylon7",
+					required = { {
+							loadout = { "{HVAR_SMOKE_2}" },
+							station = 2
+						} }
 				} },
 			Number = 9,
 			Order = 9,
@@ -1060,6 +1176,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					connector = "Pylon8_Fuel_Tank",
 					forbidden = { {
 							station = 9
+						}, {
+							station = 2
+						} },
+					required = { {
+							loadout = { "{PTB_200_F86F35}" },
+							station = 1
 						} }
 				}, {
 					CLSID = "{PTB_120_F86F35}",
@@ -1067,15 +1189,29 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					connector = "Pylon8_Fuel_Tank",
 					forbidden = { {
 							station = 9
+						}, {
+							station = 2
+						} },
+					required = { {
+							loadout = { "{PTB_120_F86F35}" },
+							station = 1
 						} }
 				}, {
 					CLSID = "{HVARx2}",
 					arg_value = 0.1,
-					connector = "Pylon8"
+					connector = "Pylon8",
+					required = { {
+							loadout = { "{HVARx2}" },
+							station = 1
+						} }
 				}, {
 					CLSID = "{HVAR_SMOKE_2}",
 					arg_value = 0.1,
-					connector = "Pylon8"
+					connector = "Pylon8",
+					required = { {
+							loadout = { "{HVAR_SMOKE_2}" },
+							station = 1
+						} }
 				} },
 			Number = 10,
 			Order = 10,
@@ -1170,11 +1306,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	crew_members = { {
 			canopy_ejection_dir = { -1, 0.2, 0 },
 			canopy_pos = { 1.607, 1.181, 0 },
-			drop_canopy_name = 304,
+			drop_canopy_name = 306,
 			drop_parachute_name = "pilot_f86_parachute",
-			ejection_seat_name = 303,
+			ejection_seat_name = 305,
 			g_suit = 0.7,
-			pilot_name = 305,
+			pilot_name = 307,
 			pos = { 1.7, 0.5, 0 },
 			role = "pilot",
 			role_display_name = "Pilot"
@@ -1566,7 +1702,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			life = 15,
 			name = "f-86f",
 			positioning = "BYNORMAL",
-			username = "F-86F",
+			username = "F-86F Sabre",
 			vis = 3
 		} },
 	swapped_names = true,

@@ -28,9 +28,13 @@ _G["launcher"]["{0877B74B-5A00-4e61-BA8A-A56450BA9E27}"] = {
 			connector_name = "tube_07"
 		} },
 	Picture = "LAU68.png",
-	Weight = 113.2,
-	_file = "Scripts/Database/db_weapons_data.lua",
+	Weight = 114.5,
+	Weight_Empty = 41.7,
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
+	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
-	displayName = 'LAU-68 pod - 7 x 2.75" Hydra, UnGd Rkts M274, Practice Smk',
+	category = 3,
+	displayName = "LAU-68 - 7 x UnGd Rkts, 70 mm Hydra 70 M274 TP-SM",
+	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

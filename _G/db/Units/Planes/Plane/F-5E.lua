@@ -1238,6 +1238,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Name = "Anti-ship Strike",
 			OldID = "Antiship Strike",
 			WorldID = 30
+		}, {
+			Name = "Runway Attack",
+			OldID = "Runway Attack",
+			WorldID = 34
+		}, {
+			Name = "Reconnaissance",
+			OldID = "Reconnaissance",
+			WorldID = 17
 		} },
 	V_land = 68,
 	V_max_h = 484,
@@ -1615,6 +1623,53 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	main_gear_wheel_diameter = 0.6,
 	mapclasskey = "P0091000024",
 	mechanimations = {
+		CentralStrut = { {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "Arg", 474, "set", 0 }, { "VelType", 1 }, { "Arg", 117, "to", 1, "speed", 0.5, "sign", 1 } },
+						Width = { 0, 0.25 }
+					}, {
+						C = { { "Sleep", "for", 0.5 } },
+						Width = { 0.25, 0.5 }
+					}, {
+						C = { { "VelType", 3 }, { "Arg", 0, "to", 1, "speed", 0.4, "sign", 1 } },
+						Width = { 0.5, 1 }
+					}, {
+						C = { { "Sleep", "for", 0.1 } },
+						Width = { 0.25, 0.5 }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 117, "to", 0, "speed", 1.5, "sign", -1 } },
+						Width = { 0, 0.25 }
+					} },
+				Transition = { "Retract", "Extend" }
+			}, {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "VelType", 1 }, { "Arg", 117, "to", 1, "speed", 1.5, "sign", 1 } },
+						Width = { 0, 0.25 }
+					}, {
+						C = { { "VelType", 5 }, { "Arg", 474, "to", 0, "speed", 0.13333333333333, "sign", -1 } },
+						Width = { 0, 0.5 }
+					}, {
+						C = { { "Sleep", "for", 0.5 } },
+						Width = { 0.5, 0.75 }
+					}, {
+						C = { { "VelType", 5 }, { "Arg", 0, "to", 0, "speed", 0.4, "sign", -1 } },
+						Width = { 0, 0.5 }
+					}, {
+						C = { { "Sleep", "for", 0.1 } },
+						Width = { 0.5, 0.75 }
+					}, {
+						C = { { "Arg", 0, "set", 0 }, { "Arg", 474, "set", 0 }, { "VelType", 4 }, { "Arg", 117, "to", 0, "speed", 1.5, "sign", -1 } },
+						Width = { 0.75, 1 }
+					} },
+				Transition = { "Extend", "Retract" }
+			}, {
+				Sequence = { {
+						C = { { "PosType", 0 }, { "Arg", 0, "to", 0.441, "speed", 2, "sign", -1 } }
+					} },
+				Transition = { "Any", "Collapse" }
+			} },
 		Door0 = { {
 				Flags = { "Reversible" },
 				Sequence = { {
@@ -1651,6 +1706,96 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						C = { { "Arg", 51, "to", 1, "speed", 0.25 } }
 					} },
 				Transition = { "Any", "High" }
+			} },
+		LeftStrut = { {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "VelType", 1 }, { "Arg", 116, "to", 1, "speed", 0.5, "sign", 1 } },
+						Width = { 0, 0.25 }
+					}, {
+						C = { { "Sleep", "for", 0.5 } },
+						Width = { 0.25, 0.5 }
+					}, {
+						C = { { "VelType", 5 }, { "Arg", 5, "to", 1, "speed", 0.4, "sign", 1 } },
+						Width = { 0.5, 1 }
+					}, {
+						C = { { "Sleep", "for", 0.1 } },
+						Width = { 0.25, 0.5 }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 116, "to", 0, "speed", 1.5, "sign", -1 } },
+						Width = { 0, 0.25 }
+					} },
+				Transition = { "Retract", "Extend" }
+			}, {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "VelType", 1 }, { "Arg", 116, "to", 1, "speed", 1.5, "sign", 1 } },
+						Width = { 0, 0.25 }
+					}, {
+						C = { { "VelType", 5 }, { "Arg", 5, "to", 0, "speed", 0.4, "sign", -1 } },
+						Width = { 0, 0.5 }
+					}, {
+						C = { { "Sleep", "for", 3 } }
+					}, {
+						C = { { "ArgumentPhase", 6, "x", 0, "to", 0.1, "sign", -1 } }
+					}, {
+						C = { { "Sleep", "for", 0.5 } }
+					}, {
+						C = { { "ValuePhase", 3 } }
+					}, {
+						C = { { "Arg", 5, "set", 0 }, { "VelType", 4 }, { "Arg", 116, "to", 0, "speed", 1.5, "sign", -1 } }
+					} },
+				Transition = { "Extend", "Retract" }
+			}, {
+				Sequence = { {
+						C = { { "VelType", 5 }, { "PosType", 6 }, { "Arg", 5, "to", 0.5, "speed", 2, "sign", -1 } }
+					} },
+				Transition = { "Any", "Collapse" }
+			} },
+		RightStrut = { {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "VelType", 1 }, { "Arg", 115, "to", 1, "speed", 0.5, "sign", 1 } },
+						Width = { 0, 0.25 }
+					}, {
+						C = { { "Sleep", "for", 0.5 } },
+						Width = { 0.25, 0.5 }
+					}, {
+						C = { { "VelType", 3 }, { "Arg", 3, "to", 1, "speed", 0.4, "sign", 1 } },
+						Width = { 0.5, 1 }
+					}, {
+						C = { { "Sleep", "for", 0.1 } },
+						Width = { 0.25, 0.5 }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 115, "to", 0, "speed", 1.5, "sign", -1 } },
+						Width = { 0, 0.25 }
+					} },
+				Transition = { "Retract", "Extend" }
+			}, {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "VelType", 1 }, { "Arg", 115, "to", 1, "speed", 1.5, "sign", 1 } },
+						Width = { 0, 0.25 }
+					}, {
+						C = { { "VelType", 5 }, { "Arg", 3, "to", 0, "speed", 0.4, "sign", -1 } },
+						Width = { 0, 0.5 }
+					}, {
+						C = { { "Sleep", "for", 3 } }
+					}, {
+						C = { { "ArgumentPhase", 6, "x", 0, "to", 0.1, "sign", -1 } }
+					}, {
+						C = { { "Sleep", "for", 0.5 } }
+					}, {
+						C = { { "ValuePhase", 3 } }
+					}, {
+						C = { { "Arg", 3, "set", 0 }, { "VelType", 4 }, { "Arg", 115, "to", 0, "speed", 1.5, "sign", -1 } }
+					} },
+				Transition = { "Extend", "Retract" }
+			}, {
+				Sequence = { {
+						C = { { "VelType", 3 }, { "PosType", 7 }, { "Arg", 3, "to", 0.5, "speed", 2, "sign", -1 } }
+					} },
+				Transition = { "Any", "Collapse" }
 			} }
 	},
 	net_animation = { 13, 14, 23, 25, 35, 36, 37, 274, 275, 327, 328, 329, 330, 474, 475 },
@@ -1700,6 +1845,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	thrust_sum_ab = 7500,
 	thrust_sum_max = 4534,
 	type = "F-5E",
+	undercarriage_movement = 2,
 	undercarriage_transmission = "Hydraulic",
 	wing_area = 17.3,
 	wing_span = 8.53,

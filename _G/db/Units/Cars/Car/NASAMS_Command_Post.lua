@@ -248,6 +248,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	swing_on_run = false,
 	tags = { "Air Defence", "Command & Control" },
 	type = "NASAMS_Command_Post",
+	verticalDeviationCompensationPeriod = 10,
 	visual = {
 		IR = {
 			coeffs = { { 0.031, 0.0022 }, { 0.003, 0.0031 }, { 0, 0 }, { 0.001, 0.17 }, { 0.15, 0.00027272727272727 } }

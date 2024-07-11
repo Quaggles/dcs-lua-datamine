@@ -28,12 +28,14 @@ _G["launcher"]["{LAU68_FFAR_MK5HEAT}"] = {
 			connector_name = "tube_07"
 		} },
 	Picture = "LAU68.png",
-	Weight = 110.3131104,
+	Weight = 97.7,
+	Weight_Empty = 41.7,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/FFAR.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
-	displayName = 'LAU-68 pod - 7 x 2.75" FFAR, UnGd Rkts Mk5, HEAT',
+	displayName = "LAU-68 - 7 x UnGd Rkts, 70 mm Mk 4 FFAR Mk 5 HEAT",
 	name = "{LAU68_FFAR_MK5HEAT}",
+	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

@@ -38,6 +38,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_99"] = {
 			default_delay = 1.2,
 			default_open_height = 457
 		},
+		display_name_short = "CBU-99",
 		fm = {
 			I = 101.2986,
 			L = 2.34,
@@ -141,8 +142,8 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_99"] = {
 				username = "CBU-99"
 			} },
 		targeting_data = {
-			bomblet_char_time = 23.8,
-			char_time = 20.43
+			bomblet_char_time = 25.45,
+			char_time = 20.21
 		},
 		type = 5,
 		user_name = "CBU-99 - 490lbs, 247 x HEAT Bomblets",
@@ -164,7 +165,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_99"] = {
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "CBU-99 - 490lbs, 247 x HEAT Bomblets",
-	display_name_short = "CBU-99 - 490lbs, 247 x HEAT Bomblets",
+	display_name_short = "CBU-99",
 	mass = 222,
 	model = "CBU_99",
 	name = "CBU_99",
@@ -200,6 +201,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_99"] = {
 			default_delay = 1.2,
 			default_open_height = 457
 		},
+		display_name_short = "CBU-99",
 		fm = {
 			I = 101.2986,
 			L = 2.34,
@@ -303,8 +305,8 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_99"] = {
 				username = "CBU-99"
 			} },
 		targeting_data = {
-			bomblet_char_time = 23.8,
-			char_time = 20.43
+			bomblet_char_time = 25.45,
+			char_time = 20.21
 		},
 		type = 5,
 		user_name = "CBU-99 - 490lbs, 247 x HEAT Bomblets",
@@ -326,8 +328,8 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_99"] = {
 	},
 	sounderName = "Weapons/Bomb",
 	targeting_data = {
-		bomblet_char_time = 23.8,
-		char_time = 20.43
+		bomblet_char_time = 25.45,
+		char_time = 20.21
 	},
 	type_name = "bomb",
 	ws_type = { 4, 5, 38, "Redacted" }

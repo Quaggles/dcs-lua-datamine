@@ -27,7 +27,10 @@ _G["launcher"]["British_GP_250LBS_Bomb_MK4_on_RH_Spitfire_Wing_Carrier"] = {
 			stringIndex = 1,
 			values = { {
 					dispName = "Nose Pistol No. 19",
-					id = 1
+					id = 1,
+					secondaryParams = {
+						tooltip = "Mechanical, impact\nArmed by vane rotation"
+					}
 				}, {
 					dispName = "Plugged",
 					id = "EMPTY_NOSE",
@@ -101,7 +104,10 @@ _G["launcher"]["British_GP_250LBS_Bomb_MK4_on_RH_Spitfire_Wing_Carrier"] = {
 			stringIndex = 3,
 			values = { {
 					dispName = "Tail Pistol No. 17 Mk I",
-					id = 1
+					id = 1,
+					secondaryParams = {
+						tooltip = "Mechanical, impact\nArmed by vane rotation\nHas a chemical long-delay element"
+					}
 				}, {
 					dispName = "Plugged",
 					id = "EMPTY_TAIL",

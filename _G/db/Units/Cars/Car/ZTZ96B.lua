@@ -159,6 +159,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "ZTZ-96B",
 	Rate = 17,
 	Sensors = {
+		Mount_WS_ID = 1,
 		OPTIC = { "CITV day", "CITV night" }
 	},
 	ThreatRange = 5000,
@@ -394,7 +395,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "ZTZ96B",
 	visual = {
 		IR = {
-			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0019, 0.0013 }, { 0.001, 0.17 }, { 0.29, 0.00017058823529412 } }
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0024, 0.002 }, { 0.001, 0.17 }, { 0.29, 0.00017058823529412 } }
 		},
 		agony_explosion_size = 5,
 		dirt_pos = { -2.39, 0.6, -1.57 },

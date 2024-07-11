@@ -24,7 +24,7 @@ _G["launcher"]["{M71BOMBD}"] = {
 			ShapeName = "SB71HD"
 		} },
 	Picture = "SB71HD.png",
-	Weight = 609,
+	Weight = 619,
 	_file = "./CoreMods/aircraft/AJS37/Entry/Weapons.lua",
 	_origin = "AJS37 AI by Heatblur Simulations",
 	attribute = { 4, 5, 32, "Redacted" },

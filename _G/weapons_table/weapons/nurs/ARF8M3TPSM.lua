@@ -72,7 +72,7 @@ _G["weapons_table"]["weapons"]["nurs"]["ARF8M3TPSM"] = {
 		},
 		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 	},
-	cx_pil = 1.1027073619215e-05,
+	cx_pil = 1.102709940531e-05,
 	display_name = "ARF-8/M3 TP-SM",
 	display_name_short = "ARF-8",
 	dist_max = 4500,

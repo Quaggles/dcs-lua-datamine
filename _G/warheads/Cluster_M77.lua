@@ -1,5 +1,5 @@
 _G["warheads"]["Cluster_M77"] = {
-	caliber = 68,
+	caliber = 81,
 	concrete_factors = { 1, 1, 1 },
 	concrete_obj_factor = 0,
 	cumulative_factor = 3,

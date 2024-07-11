@@ -20,7 +20,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			id = "BINO_3",
 			label = "Moskito TI"
 		} },
-	CustomAimPoint = { 0, 1, 0 },
 	DetectionRange = 0,
 	DisplayName = "JTAC",
 	DisplayNameShort = "JTAC",
@@ -30,7 +29,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "JTAC",
 	Rate = 5,
 	Sensors = {
-		OPTIC = { "JTAC_sensor", "JTAC_sensor_LLTV", "JTAC_sensor_IR" }
+		OPTIC = { "JTAC_sensor", "JTAC_sensor_LLTV", "JTAC_sensor_IR" },
+		noVisualDetectorInAlarmedState = false
 	},
 	ThreatRange = 0,
 	Transportable = {
@@ -53,7 +53,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 2, 16, 27, "Redacted", "CustomAimPoint", "Infantry", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "NonAndLightArmoredUnits", "NonArmoredUnits" },
+	attribute = { 2, 16, 27, "Redacted", "Infantry", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "NonAndLightArmoredUnits", "NonArmoredUnits" },
 	category = "Infantry",
 	chassis = {},
 	enablePlayerCanDrive = false,
@@ -66,7 +66,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "JTAC",
 	visual = {
 		IR = {
-			coeffs = { {}, {}, {}, {} }
+			coeffs = { {}, {}, {}, {}, {} }
 		},
 		fire_pos = {},
 		fire_size = 0,

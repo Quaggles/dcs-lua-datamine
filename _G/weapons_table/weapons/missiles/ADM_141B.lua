@@ -130,7 +130,7 @@ _G["weapons_table"]["weapons"]["missiles"]["ADM_141B"] = {
 		v_mid = 200,
 		v_min = 80,
 		warhead = {
-			caliber = 70,
+			caliber = 279,
 			concrete_factors = { 1, 1, 1 },
 			concrete_obj_factor = 0,
 			cumulative_factor = 0,
@@ -138,10 +138,11 @@ _G["weapons_table"]["weapons"]["missiles"]["ADM_141B"] = {
 			default_fuze_delay = 0,
 			expl_mass = 4e-05,
 			fantom = 1,
-			mass = 4e-05,
+			length = 0.412,
+			mass = 4.2,
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
-			piercing_mass = 8e-06
+			piercing_mass = 4.2
 		},
 		warhead_air = {
 			fantom = 1
@@ -278,7 +279,7 @@ _G["weapons_table"]["weapons"]["missiles"]["ADM_141B"] = {
 		v_mid = 200,
 		v_min = 80,
 		warhead = {
-			caliber = 70,
+			caliber = 279,
 			concrete_factors = { 1, 1, 1 },
 			concrete_obj_factor = 0,
 			cumulative_factor = 0,
@@ -286,10 +287,11 @@ _G["weapons_table"]["weapons"]["missiles"]["ADM_141B"] = {
 			default_fuze_delay = 0,
 			expl_mass = 4e-05,
 			fantom = 0,
-			mass = 4e-05,
+			length = 0.412,
+			mass = 4.2,
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
-			piercing_mass = 8e-06
+			piercing_mass = 4.2
 		},
 		warhead_air = {
 			fantom = 0
@@ -297,6 +299,9 @@ _G["weapons_table"]["weapons"]["missiles"]["ADM_141B"] = {
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	sounderName = "Weapons/Missile",
+	targeting_data = {
+		fm_type = -1
+	},
 	type_name = "missile",
 	ws_type = { 4, 4, 8, "Redacted" }
 }

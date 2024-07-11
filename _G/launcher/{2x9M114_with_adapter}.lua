@@ -11,7 +11,7 @@ _G["launcher"]["{2x9M114_with_adapter}"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
-	displayName = "2 x 9M114 Kokon (AT-6 Spiral) - ATGM, SACLOS, HEAT",
+	displayName = "2 x 9M114 Shturm (AT-6 Spiral) - ATGM, SACLOS, HEAT",
 	kind_of_shipping = 0,
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

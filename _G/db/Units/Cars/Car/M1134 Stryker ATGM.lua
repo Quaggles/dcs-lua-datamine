@@ -12,6 +12,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "ATGM Stryker",
 	Rate = 15,
 	Sensors = {
+		Mount_WS_ID = 1,
 		OPTIC = { "TAS4 TOW day", "TAS4 TOW night" }
 	},
 	ThreatRange = 3800,

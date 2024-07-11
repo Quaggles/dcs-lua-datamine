@@ -74,7 +74,7 @@ _G["weapons_table"]["weapons"]["nurs"]["British_HE_60LBFNo1_3INCHNo1"] = {
 		},
 		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 	},
-	cx_pil = 5.7320357407759e-05,
+	cx_pil = 5.7320491447688e-05,
 	display_name = "RP-3 HE",
 	display_name_short = "RP-3",
 	dist_max = 1600,

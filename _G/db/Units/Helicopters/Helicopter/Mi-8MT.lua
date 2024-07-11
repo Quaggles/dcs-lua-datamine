@@ -4112,6 +4112,17 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					} },
 				Transition = { "Open", "Close" }
 			} },
+		ExternalCargoEquipment = { {
+				Sequence = { {
+						C = { { "Arg", 87, "set", 1 } }
+					} },
+				Transition = { "Dismantle", "Erect" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 87, "set", 0 } }
+					} },
+				Transition = { "Erect", "Dismantle" }
+			} },
 		HeadLights = { {
 				Sequence = { {
 						C = { { "Arg", 425, "to", 0, "speed", 0.5 }, { "Arg", 426, "to", 0, "speed", 0.5 }, { "Arg", 423, "to", 0, "speed", 0.5 }, { "Arg", 424, "to", 0, "speed", 0.5 } }
@@ -4133,28 +4144,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					} },
 				Transition = { "Any", "CustomStage3" }
 			} },
-		Pylon3Azimuth = { {
-				Sequence = { {
-						C = { { "Arg", 424, "from", 1, "to", -1, "speed", 0.44444444444444 } }
-					} },
-				Transition = { "Any", "Right" }
-			}, {
-				Sequence = { {
-						C = { { "Arg", 424, "from", -1, "to", 1, "speed", 0.44444444444444 } }
-					} },
-				Transition = { "Any", "Left" }
-			} },
-		Pylon3Elevation = { {
-				Sequence = { {
-						C = { { "Arg", 423, "from", 1, "to", 0, "speed", 0.22222222222222 } }
-					} },
-				Transition = { "Any", "Retract" }
-			}, {
-				Sequence = { {
-						C = { { "Arg", 423, "from", 0, "to", 1, "speed", 0.22222222222222 } }
-					} },
-				Transition = { "Any", "Extend" }
-			} },
 		SearchLight0Elevation = { {
 				Sequence = { {
 						C = { { "Arg", 425, "from", 1, "to", 0, "speed", 0.22222222222222 } }
@@ -4174,6 +4163,28 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			}, {
 				Sequence = { {
 						C = { { "Arg", 426, "from", -1, "to", 1, "speed", 0.44444444444444 } }
+					} },
+				Transition = { "Any", "Left" }
+			} },
+		SearchLight1Elevation = { {
+				Sequence = { {
+						C = { { "Arg", 423, "from", 1, "to", 0, "speed", 0.22222222222222 } }
+					} },
+				Transition = { "Any", "Retract" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 423, "from", 0, "to", 1, "speed", 0.22222222222222 } }
+					} },
+				Transition = { "Any", "Extend" }
+			} },
+		SearchLight1Panning = { {
+				Sequence = { {
+						C = { { "Arg", 424, "from", 1, "to", -1, "speed", 0.44444444444444 } }
+					} },
+				Transition = { "Any", "Right" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 424, "from", -1, "to", 1, "speed", 0.44444444444444 } }
 					} },
 				Transition = { "Any", "Left" }
 			} },

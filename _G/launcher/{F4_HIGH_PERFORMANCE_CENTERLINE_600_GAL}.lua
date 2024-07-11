@@ -1,12 +1,12 @@
 _G["launcher"]["{F4_HIGH_PERFORMANCE_CENTERLINE_600_GAL}"] = {
 	CLSID = "{F4_HIGH_PERFORMANCE_CENTERLINE_600_GAL}",
-	Capacity = 1816.8,
+	Capacity = 1773,
 	Cx_pil = 0.00187,
 	Elements = { {
 			ShapeName = "HB_HIGH_PERFORMANCE_CENTERLINE_600_GAL"
 		} },
 	Picture = "AKANM55.png",
-	Weight = 1970.1,
+	Weight = 1926.3,
 	Weight_Empty = 153.3,
 	_file = "./CoreMods/aircraft/F-4E/Entry/Weapons.lua",
 	_origin = "F-4E AI by Heatblur Simulations",

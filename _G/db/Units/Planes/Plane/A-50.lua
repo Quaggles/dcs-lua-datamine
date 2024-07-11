@@ -131,7 +131,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[43] = {
 			args = { 243 },
 			critical_damage = 20,
-			deps_cells = { 55, 39, 47, 48, 51, 52, 53 }
+			deps_cells = { 39, 47, 48, 51, 52, 53 }
 		},
 		[47] = {
 			args = { 235 },

@@ -67,7 +67,7 @@ _G["weapons_table"]["weapons"]["nurs"]["S-24B"] = {
 		},
 		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 	},
-	cx_pil = 0.00079051314330613,
+	cx_pil = 0.00079051499186973,
 	display_name = "S-24B (21) - 180 kg, fragmented unguided rocket",
 	display_name_short = "S-24B (21) - 180 kg, fragmented unguided rocket",
 	dist_max = 4000,

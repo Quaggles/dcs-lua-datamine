@@ -401,7 +401,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		} },
 	H_max = 18500,
 	HumanCockpit = true,
-	HumanCockpitPath = "./Mods/aircraft/Flaming Cliffs/Cockpit/KneeboardLeft/",
+	HumanCockpitPath = "./Mods/aircraft/Su-27/Cockpit/KneeboardLeft/",
 	HumanCockpitPlugins = { {
 			_file = "./Mods/aircraft/NS430/entry.lua",
 			_origin = "NS430",
@@ -536,8 +536,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}
 			}
 		} },
-	HumanCommPanelPath = "./Mods/aircraft/Flaming Cliffs/Comm/Su-27.lua",
-	HumanFM = { "Flaming Cliffs by Eagle Dynamics", "Su27",
+	HumanCommPanelPath = "./Mods/aircraft/Su-27/Comm/Su-27.lua",
+	HumanFM = { "Su-27 Flanker by Eagle Dynamics", "Su27",
 		old = 3
 	},
 	HumanRadio = {
@@ -1342,10 +1342,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Waypoint_Custom_Panel = true,
 	WingSpan = 14.7,
 	WorldID = 66,
+	_MAC_compatible = true,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Aircrafts/J-11A.lua",
-	_file_flyable = "./Mods/aircraft/Flaming Cliffs/entry.lua",
+	_file_flyable = "./Mods/aircraft/Su-27/entry.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
-	_origin_flyable = "Flaming Cliffs by Eagle Dynamics",
+	_origin_flyable = "Su-27 Flanker by Eagle Dynamics",
 	air_refuel_receptacle_pos = { 0, 0, 0 },
 	attribute = { 1, 1, 1, "Redacted", "Fighters", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },
 	average_fuel_consumption = 0.268,

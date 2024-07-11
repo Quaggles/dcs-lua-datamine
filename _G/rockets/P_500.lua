@@ -27,6 +27,7 @@ _G["rockets"]["#Index"] = {
 	Y_back = 0.3,
 	Z_back = 0,
 	_unique_resource_name = "weapons.missiles.P_500",
+	add_attributes = { "Anti-Ship missiles" },
 	display_name = "P-500 (SS-N-12 Sandbox)",
 	display_name_short = "P-500",
 	exhaust1 = { 1, 1, 1, 1 },

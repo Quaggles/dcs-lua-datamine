@@ -47,7 +47,7 @@ _G["weapons_table"]["weapons"]["nurs"]["GRAD_9M22U"] = {
 			piercing_mass = 3.68
 		}
 	},
-	cx_pil = 4.1380057571708e-05,
+	cx_pil = 4.1380154336283e-05,
 	display_name = "9M22U (122mm HE)",
 	display_name_short = "9M22",
 	dist_max = 0,

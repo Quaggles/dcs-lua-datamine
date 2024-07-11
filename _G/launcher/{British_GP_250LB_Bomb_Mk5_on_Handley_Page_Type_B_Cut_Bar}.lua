@@ -33,7 +33,10 @@ _G["launcher"]["{British_GP_250LB_Bomb_Mk5_on_Handley_Page_Type_B_Cut_Bar}"] = {
 			stringIndex = 1,
 			values = { {
 					dispName = "Tail Pistol No. 17 Mk I",
-					id = 1
+					id = 1,
+					secondaryParams = {
+						tooltip = "Mechanical, impact\nArmed by vane rotation\nHas a chemical long-delay element"
+					}
 				} },
 			wCtrl = 360,
 			xCtrl = 200

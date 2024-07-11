@@ -11,6 +11,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "SPM 2S9 Nona 120mm M",
 	Rate = 12,
 	Sensors = {
+		Mount_WS_ID = 1,
 		OPTIC = { "TKN-3B day", "TKN-3B night" }
 	},
 	ThreatRange = 7000,

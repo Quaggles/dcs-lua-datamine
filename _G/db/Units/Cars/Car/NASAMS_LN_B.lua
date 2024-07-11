@@ -1,5 +1,6 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Countries = { "USA" },
+	Crew = 0,
 	DetectionRange = 0,
 	DisplayName = "SAM NASAMS LN AIM-120B",
 	DisplayNameShort = "NASAMS LN-B",

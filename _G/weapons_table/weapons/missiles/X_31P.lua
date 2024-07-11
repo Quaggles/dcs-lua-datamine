@@ -272,6 +272,9 @@ _G["weapons_table"]["weapons"]["missiles"]["X_31P"] = {
 		}
 	},
 	sounderName = "Weapons/Missile",
+	targeting_data = {
+		fm_type = -1
+	},
 	type_name = "missile",
 	ws_type = { 4, 4, 8, "Redacted" }
 }

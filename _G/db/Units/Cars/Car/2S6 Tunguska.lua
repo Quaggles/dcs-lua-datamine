@@ -12,6 +12,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = 'SAM SA-19 Tunguska "Grison" ',
 	Rate = 20,
 	Sensors = {
+		Mount_WS_ID = 1,
 		OPTIC = { "TKN-3B day", "TKN-3B night", "Tunguska optic sight" },
 		RADAR = "2S6 Tunguska"
 	},
@@ -62,8 +63,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					PL = { {
 							type_ammunition = {}
 						} },
-					beamWidth = 0.087266462599716,
-					frequencyRange = { 10000000000, 20000000000 },
 					inclination_correction_bias = 0.05235987755983,
 					inclination_correction_upper_limit = 0.34906585039887,
 					sensor = {},
@@ -154,7 +153,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "2S6 Tunguska",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.0062, 0.00215 }, { 0.001, 0.17 }, { 0.3, 0.00023076923076923 } }
+			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.00132, 0.0049 }, { 0.001, 0.17 }, { 0.3, 0.00023076923076923 } }
 		},
 		agony_explosion_size = 2,
 		dirt_pos = { -3.3, 0.5, -1.311 },

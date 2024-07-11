@@ -161,6 +161,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			omegaZ = 3,
 			pos = { 0, 3, 0 }
 		},
+		isDetector = true,
 		maxTargetDetectionRange = 160000,
 		radar_rotation_type = 0,
 		radar_type = 103,

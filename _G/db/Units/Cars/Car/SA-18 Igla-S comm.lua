@@ -1,5 +1,4 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
-	CustomAimPoint = { 0, 1, 0 },
 	DetectionRange = 5000,
 	DisplayName = 'MANPADS SA-18 Igla-S "Grouse" C2',
 	DisplayNameShort = "SA-18Sc",
@@ -23,7 +22,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 2, 16, 27, "Redacted", "MANPADS AUX", "CustomAimPoint", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "NonAndLightArmoredUnits", "NonArmoredUnits", "Infantry", "Rocket Attack Valid AirDefence", "Vehicles", "Ground vehicles", "Air Defence", "SAM related", "SAM elements", "SAM AUX" },
+	attribute = { 2, 16, 27, "Redacted", "MANPADS AUX", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "NonAndLightArmoredUnits", "NonArmoredUnits", "Infantry", "Rocket Attack Valid AirDefence", "Vehicles", "Ground vehicles", "Air Defence", "SAM related", "SAM elements", "SAM AUX" },
 	category = "Air Defence",
 	chassis = {},
 	enablePlayerCanDrive = false,
@@ -36,7 +35,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "SA-18 Igla-S comm",
 	visual = {
 		IR = {
-			coeffs = { {}, {}, {}, {} }
+			coeffs = { {}, {}, {}, {}, {} }
 		},
 		fire_pos = {},
 		fire_size = 0,

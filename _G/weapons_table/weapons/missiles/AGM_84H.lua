@@ -3,7 +3,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_84H"] = {
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/cruise_missiles.lua",
 	_origin = "AircraftWeaponPack",
 	_unique_resource_name = "weapons.missiles.AGM_84H",
-	add_attributes = { "Cruise missiles" },
+	add_attributes = { "Cruise missiles", "Anti-Ship missiles" },
 	caliber = 0.343,
 	client = {
 		Cx_pil = 8,
@@ -33,7 +33,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_84H"] = {
 		Z_back = 0,
 		_file = "./CoreMods/aircraft/AircraftWeaponPack/cruise_missiles.lua",
 		_origin = "AircraftWeaponPack",
-		add_attributes = { "Cruise missiles" },
+		add_attributes = { "Cruise missiles", "Anti-Ship missiles" },
 		boost = {
 			boost_factor = 0,
 			boost_time = 0,
@@ -262,7 +262,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_84H"] = {
 		Z_back = 0,
 		_file = "./CoreMods/aircraft/AircraftWeaponPack/cruise_missiles.lua",
 		_origin = "AircraftWeaponPack",
-		add_attributes = { "Cruise missiles" },
+		add_attributes = { "Cruise missiles", "Anti-Ship missiles" },
 		boost = {
 			boost_factor = 0,
 			boost_time = 0,
@@ -454,6 +454,9 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_84H"] = {
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	sounderName = "Weapons/Missile",
+	targeting_data = {
+		fm_type = -1
+	},
 	type_name = "missile",
 	ws_type = { 4, 4, 8, "Redacted" }
 }

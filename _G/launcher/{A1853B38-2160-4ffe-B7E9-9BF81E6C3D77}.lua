@@ -1,78 +1,28 @@
 _G["launcher"]["{A1853B38-2160-4ffe-B7E9-9BF81E6C3D77}"] = {
 	CLSID = "{A1853B38-2160-4ffe-B7E9-9BF81E6C3D77}",
 	Count = 21,
-	Cx_pil = 0.00244140625,
+	Cx_pil = 0.00489453125,
 	Elements = { {
 			IsAdapter = true,
-			ShapeName = "BRU-42_LS_(LAU-68)"
+			ShapeName = "BRU-42_LS"
 		}, {
-			ShapeName = "hydra_m151he",
-			connector_name = "tube_01"
+			connector_name = "Point01",
+			payload_CLSID = "{1F7136CB-8120-4e77-B97B-945FF01FB67C}"
 		}, {
-			ShapeName = "hydra_m151he",
-			connector_name = "tube_02"
+			connector_name = "Point02",
+			payload_CLSID = "{1F7136CB-8120-4e77-B97B-945FF01FB67C}"
 		}, {
-			ShapeName = "hydra_m151he",
-			connector_name = "tube_03"
-		}, {
-			ShapeName = "hydra_m151he",
-			connector_name = "tube_04"
-		}, {
-			ShapeName = "hydra_m151he",
-			connector_name = "tube_05"
-		}, {
-			ShapeName = "hydra_m151he",
-			connector_name = "tube_06"
-		}, {
-			ShapeName = "hydra_m151he",
-			connector_name = "tube_07"
-		}, {
-			ShapeName = "hydra_m151he",
-			connector_name = "tube_08"
-		}, {
-			ShapeName = "hydra_m151he",
-			connector_name = "tube_09"
-		}, {
-			ShapeName = "hydra_m151he",
-			connector_name = "tube_10"
-		}, {
-			ShapeName = "hydra_m151he",
-			connector_name = "tube_11"
-		}, {
-			ShapeName = "hydra_m151he",
-			connector_name = "tube_12"
-		}, {
-			ShapeName = "hydra_m151he",
-			connector_name = "tube_13"
-		}, {
-			ShapeName = "hydra_m151he",
-			connector_name = "tube_14"
-		}, {
-			ShapeName = "hydra_m151he",
-			connector_name = "tube_15"
-		}, {
-			ShapeName = "hydra_m151he",
-			connector_name = "tube_16"
-		}, {
-			ShapeName = "hydra_m151he",
-			connector_name = "tube_17"
-		}, {
-			ShapeName = "hydra_m151he",
-			connector_name = "tube_18"
-		}, {
-			ShapeName = "hydra_m151he",
-			connector_name = "tube_19"
-		}, {
-			ShapeName = "hydra_m151he",
-			connector_name = "tube_20"
-		}, {
-			ShapeName = "hydra_m151he",
-			connector_name = "tube_21"
+			connector_name = "Point03",
+			payload_CLSID = "{1F7136CB-8120-4e77-B97B-945FF01FB67C}"
 		} },
 	Picture = "LAU68.png",
-	Weight = 395.85,
-	_file = "Scripts/Database/db_weapons_data.lua",
+	Weight = 394.3,
+	Weight_Empty = 175.9,
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
+	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
-	displayName = 'BRU-42 with 3 x LAU-68 pods - 21 x 2.75" Hydra, UnGd Rkts WTU-1/B, Practice',
+	category = 3,
+	displayName = "BRU-42: 3 x LAU-68 - 7 x UnGd Rkts, 70 mm Hydra 70 WTU-1/B TP",
+	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

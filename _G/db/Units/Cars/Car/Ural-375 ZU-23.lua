@@ -5,11 +5,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	Crew = 2,
 	DetectionRange = 5000,
-	DisplayName = "SPAAA ZU-23-2 Mounted Ural 375",
+	DisplayName = "AAA ZU-23 on Ural-4320",
 	DisplayNameShort = "ZU23 U",
 	IR_emission_coeff = 0.08,
 	MaxSpeed = 74.99988,
-	Name = "SPAAA ZU-23-2 Mounted Ural 375",
+	Name = "AAA ZU-23 on Ural-4320",
 	Rate = 6,
 	ThreatRange = 2500,
 	WS = { {
@@ -72,7 +72,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "Ural-375 ZU-23",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0.0062, 0.00215 }, { 0.001, 0.17 }, { 0.23, 0.0002875 } },
+			coeffs = { { 0.031, 0.0022 }, { 0.0069, 0.0036 }, { 0.004, 0.0043 }, { 0.001, 0.17 }, { 0.23, 0.0002875 } },
 			sources = { { { 3.8, 1.4, 0 }, 1.3, 0.6, 0.2 }, { { 3.32, 0.57, 1 }, 0.7, 0.4, 0 }, { { -0.23, 0.57, 1 }, 0.7, 0.4, 0 }, { { -1.64, 0.57, 1 }, 0.7, 0.4, 0 }, { { 3.32, 0.57, -1.07 }, 0.7, 0.4, 0 }, { { -0.23, 0.57, -1.07 }, 0.7, 0.4, 0 }, { { -1.64, 0.57, -1.07 }, 0.7, 0.4, 0 } }
 		},
 		agony_explosion_size = 2,

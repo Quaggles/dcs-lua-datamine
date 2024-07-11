@@ -106,8 +106,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 17, 27, "Redacted", "</WSTYPE>", "MLRS", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "Indirect fire", "NonAndLightArmoredUnits", "LightArmoredUnits", "Artillery" },
 	category = "Artillery",
 	chassis = {
+		COM_pos = {},
 		gearRatios = {},
-		mass = 2545
+		mass = 2545,
+		wheelPosts = { {
+				pos = {}
+			}, {
+				pos = {}
+			}, {
+				pos = {}
+			}, {
+				pos = {}
+			} }
 	},
 	driverCockpit = "DriverCockpit/DriverCockpit",
 	driverViewConnectorName = "POINT_DRIVER",
@@ -175,5 +185,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		min_time_agony = 10,
 		shape = "tt70-B8M1",
 		shape_dstr = "tt70_p_1"
-	}
+	},
+	windscreen_wiper = 40
 }

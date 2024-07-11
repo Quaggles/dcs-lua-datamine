@@ -18,7 +18,10 @@ _G["launcher"]["{5335D97A-35A5-4643-9D9B-026C75961E52}"] = {
 			stringIndex = 1,
 			values = { {
 					dispName = "Integral Fuze + FZU-39",
-					id = "FZU39"
+					id = "FZU39",
+					secondaryParams = {
+						tooltip = ""
+					}
 				} },
 			wCtrl = 360,
 			xCtrl = 200

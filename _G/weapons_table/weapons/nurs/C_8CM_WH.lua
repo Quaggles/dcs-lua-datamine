@@ -28,6 +28,7 @@ _G["weapons_table"]["weapons"]["nurs"]["C_8CM_WH"] = {
 			work_time = 1.55
 		},
 		fm = {
+			Cx0 = { 0.49, 0.49, 0.49, 0.49, 0.52, 0.85, 0.94, 0.89, 0.83, 0.765, 0.72, 0.685, 0.66, 0.63, 0.6, 0.58 },
 			I = 1.6937532666667,
 			Ix = 6,
 			L = 1.388,
@@ -41,6 +42,7 @@ _G["weapons_table"]["weapons"]["nurs"]["C_8CM_WH"] = {
 			preLaunchAdditivesMass = 0.5,
 			rail_open = false,
 			shapeName = "s-8_sm",
+			table_scale = 0.2,
 			wind_sigma = 10,
 			wind_sigma_z_coeff = 1,
 			wind_time = 1.55
@@ -74,7 +76,7 @@ _G["weapons_table"]["weapons"]["nurs"]["C_8CM_WH"] = {
 		},
 		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 	},
-	cx_pil = 2.9560311751026e-05,
+	cx_pil = 4.3593175221239e-05,
 	display_name = "S-8TsM SM White",
 	display_name_short = "S-8",
 	dist_max = 3000,
@@ -108,6 +110,7 @@ _G["weapons_table"]["weapons"]["nurs"]["C_8CM_WH"] = {
 			work_time = 1.55
 		},
 		fm = {
+			Cx0 = { 0.49, 0.49, 0.49, 0.49, 0.52, 0.85, 0.94, 0.89, 0.83, 0.765, 0.72, 0.685, 0.66, 0.63, 0.6, 0.58 },
 			I = 1.6937532666667,
 			Ix = 6,
 			L = 1.388,
@@ -121,6 +124,7 @@ _G["weapons_table"]["weapons"]["nurs"]["C_8CM_WH"] = {
 			preLaunchAdditivesMass = 0.5,
 			rail_open = false,
 			shapeName = "s-8_sm",
+			table_scale = 0.2,
 			wind_sigma = 10,
 			wind_sigma_z_coeff = 1,
 			wind_time = 1.55
@@ -161,6 +165,7 @@ _G["weapons_table"]["weapons"]["nurs"]["C_8CM_WH"] = {
 			work_time = 1.55
 		},
 		fm = {
+			Cx0 = { 0.49, 0.49, 0.49, 0.49, 0.52, 0.85, 0.94, 0.89, 0.83, 0.765, 0.72, 0.685, 0.66, 0.63, 0.6, 0.58 },
 			I = 1.6937532666667,
 			Ix = 6,
 			L = 1.388,
@@ -174,6 +179,7 @@ _G["weapons_table"]["weapons"]["nurs"]["C_8CM_WH"] = {
 			preLaunchAdditivesMass = 0.5,
 			rail_open = false,
 			shapeName = "s-8_sm",
+			table_scale = 0.2,
 			wind_sigma = 10,
 			wind_sigma_z_coeff = 1,
 			wind_time = 1.55

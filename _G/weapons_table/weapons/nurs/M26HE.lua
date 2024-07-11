@@ -47,7 +47,7 @@ _G["weapons_table"]["weapons"]["nurs"]["M26HE"] = {
 			piercing_mass = 49.2
 		}
 	},
-	cx_pil = 0.00014707101891584,
+	cx_pil = 0.00014707136283186,
 	display_name = "M26HE",
 	display_name_short = "M26",
 	dist_max = 0,

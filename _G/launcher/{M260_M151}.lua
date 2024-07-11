@@ -2,7 +2,10 @@ _G["launcher"]["{M260_M151}"] = {
 	CLSID = "{M260_M151}",
 	Count = 7,
 	Cx_pil = 0.001708984375,
-	Elements = { "_G/Pylons/OH58D_M260.lua", {
+	Elements = { {
+			IsAdapter = true,
+			ShapeName = "OH58D_M260"
+		}, {
 			ShapeName = "hydra_m151he",
 			connector_name = "tube_01"
 		}, {

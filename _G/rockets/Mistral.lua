@@ -163,8 +163,7 @@ _G["rockets"]["#Index"] = {
 		mass = 3,
 		obj_factors = { 1, 1 },
 		other_factors = { 1, 1, 1 },
-		piercing_mass = 0.6,
-		time_self_destruct = 14
+		piercing_mass = 0.6
 	},
 	warhead_air = <table 1>,
 	wsTypeOfWeapon = <2>{ 4, 4, 34, "Redacted" },

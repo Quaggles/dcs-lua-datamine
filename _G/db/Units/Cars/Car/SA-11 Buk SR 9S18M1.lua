@@ -306,6 +306,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			pos = { 0, 3, 0 }
 		},
 		fire_on_march = false,
+		isDetector = true,
 		maxTargetDetectionRange = 120000,
 		radar_rotation_type = 1,
 		radar_type = 103,
@@ -324,6 +325,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 16, 101, "Redacted", "MR SAM", "SAM SR", "RADAR_BAND1_FOR_ARM", "All", "Ground Units", "Vehicles", "Ground vehicles", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "SAM related", "SAM elements" },
 	category = "Air Defence",
 	chassis = {},
+	defaultStartAlarmState = 2,
 	enablePlayerCanDrive = false,
 	encyclopediaAnimation = {
 		args = {

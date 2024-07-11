@@ -35,7 +35,8 @@ _G["launcher"]["{BRU33_2X_ROCKEYE}"] = {
 						addDef = {
 							ID = "NFP_VIS_DrawArgNo_56",
 							val = 0
-						}
+						},
+						tooltip = "Mechanical, time\nArmed by vane rotation\nHas two pre-flight adjustable function delays, either of which can be selected in flight"
 					}
 				} },
 			wCtrl = 360,

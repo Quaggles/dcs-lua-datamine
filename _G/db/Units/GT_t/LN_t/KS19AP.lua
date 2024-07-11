@@ -11,6 +11,7 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["KS19AP"] = {
 	distanceMin = 20,
 	max_trg_alt = 300,
 	reactionTime = 10,
+	reflection_limit = 0.5,
 	sensor = {},
 	type = 2
 }

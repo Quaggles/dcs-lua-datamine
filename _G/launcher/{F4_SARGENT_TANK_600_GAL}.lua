@@ -1,12 +1,12 @@
 _G["launcher"]["{F4_SARGENT_TANK_600_GAL}"] = {
 	CLSID = "{F4_SARGENT_TANK_600_GAL}",
-	Capacity = 1816.8,
+	Capacity = 1773,
 	Cx_pil = 0.00187,
 	Elements = { {
 			ShapeName = "HB_F-4E_EXT_Center_Fuel_Tank"
 		} },
 	Picture = "Picto_600GalTank.png",
-	Weight = 1929.7,
+	Weight = 1885.9,
 	Weight_Empty = 112.9,
 	_file = "./CoreMods/aircraft/F-4E/Entry/Weapons.lua",
 	_origin = "F-4E AI by Heatblur Simulations",

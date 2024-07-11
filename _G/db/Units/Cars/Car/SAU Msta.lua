@@ -12,6 +12,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "SPH 2S19 Msta 152mm",
 	Rate = 15,
 	Sensors = {
+		Mount_WS_ID = 1,
 		OPTIC = { "TKN-3B day", "TKN-3B night" }
 	},
 	ThreatRange = 23500,
@@ -20,6 +21,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_GUN",
+							muzzleBrakeType = 2,
 							recoilArgument = 23,
 							recoilTime = 0.5
 						} },
@@ -154,7 +156,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "SAU Msta",
 	visual = {
 		IR = {
-			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.00045, 0.003 }, { 0.001, 0.17 }, { 0.3, 0.00016666666666667 } }
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.00049, 0.003 }, { 0.001, 0.17 }, { 0.3, 0.00016666666666667 } }
 		},
 		agony_explosion_size = 5,
 		dirt_pos = { -2.9, 0.5, -1.346 },

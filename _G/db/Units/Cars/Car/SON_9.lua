@@ -1,5 +1,7 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
+	AuthoritySector = { 0.34906585039887, -0.34906585039887 },
 	Countries = { "Russia", "USSR", "Syria" },
+	Crew = 0,
 	DetectionRange = 55000,
 	DisplayName = "AAA Fire Can SON-9",
 	DisplayNameShort = "SON-9",
@@ -20,7 +22,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					max_trg_alt = 14000,
 					min_trg_alt = 25,
 					reactionTime = 1,
-					reflection_limit = 0.04,
+					reflection_limit = 0.5,
 					type = 103
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 1.5707963267949 } },
@@ -197,7 +199,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 2, 16, 101, "Redacted", "SAM TR", "AAA", "All", "Ground Units", "Vehicles", "Ground vehicles", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "SAM related", "SAM elements", "Armed Air Defence", "Rocket Attack Valid AirDefence" },
+	attribute = { 2, 16, 101, "Redacted", "SAM SR", "SAM TR", "AAA", "RADAR_BAND1_FOR_ARM", "RADAR_BAND2_FOR_ARM", "All", "Ground Units", "Vehicles", "Ground vehicles", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "SAM related", "SAM elements", "Armed Air Defence", "Rocket Attack Valid AirDefence" },
 	category = "Air Defence",
 	chassis = {
 		life = 2,
@@ -206,6 +208,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	defaultStartAlarmState = 2,
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000083",
+	maxDeviationPitch = 0.087266462599716,
+	maxDeviationRoll = 0.087266462599716,
 	radar_rotation_period = 2.5,
 	sensor = {
 		height = 4.5,

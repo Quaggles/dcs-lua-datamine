@@ -86,6 +86,11 @@ _G["rockets"]["#Index"] = {
 	mass = 20,
 	model = "brm1_90",
 	name = "BRM-1_90MM",
+	properties = {
+		targeting_data = {
+			fm_type = 2
+		}
+	},
 	scheme = "APKWS",
 	seeker = {
 		FOV = 0.69813170079773,

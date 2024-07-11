@@ -15,28 +15,20 @@ _G["launcher"]["{GBU_31_V_4B}"] = {
 	settings = { {
 			baseDim = "",
 			control = "comboList",
-			defValue = "M905",
+			defValue = "FMU139CB_LD",
 			dimension = "",
 			id = "NFP_fuze_type_tail",
 			label = "Tail Fuze Well",
 			stringIndex = 1,
 			values = { {
-					dispName = "M905",
-					id = "M905",
-					secondaryParams = {
-						addDef = {
-							ID = "NFP_VIS_DrawArgNo_55",
-							val = 0
-						}
-					}
-				}, {
 					dispName = "FMU-139",
 					id = "FMU139CB_LD",
 					secondaryParams = {
 						addDef = {
 							ID = "NFP_VIS_DrawArgNo_55",
 							val = 0.1
-						}
+						},
+						tooltip = "Electronic, impact"
 					}
 				}, {
 					dispName = "FMU-143",
@@ -45,7 +37,8 @@ _G["launcher"]["{GBU_31_V_4B}"] = {
 						addDef = {
 							ID = "NFP_VIS_DrawArgNo_55",
 							val = 0.1
-						}
+						},
+						tooltip = "Electronic, impact"
 					}
 				}, {
 					dispName = "FMU-152",
@@ -54,7 +47,8 @@ _G["launcher"]["{GBU_31_V_4B}"] = {
 						addDef = {
 							ID = "NFP_VIS_DrawArgNo_55",
 							val = 0.1
-						}
+						},
+						tooltip = "Electronic, impact\nFuze parameters are adjustable in-flight"
 					}
 				} },
 			wCtrl = 360,
@@ -90,46 +84,6 @@ _G["launcher"]["{GBU_31_V_4B}"] = {
 				}, {
 					dispName = 14,
 					id = 14,
-					units = "s"
-				}, {
-					dispName = 20,
-					id = 20,
-					units = "s"
-				} },
-			wCtrl = 60,
-			xCtrl = 200,
-			xLbl = 10
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type_tail",
-					value = "M905"
-				} },
-			baseDim = "s",
-			control = "comboList",
-			defValue = 4,
-			dimension = "s",
-			id = "arm_delay_ctrl_M905",
-			label = "Arm Delay",
-			stringIndex = 2,
-			values = { {
-					dispName = 4,
-					id = 4,
-					units = "s"
-				}, {
-					dispName = 6,
-					id = 6,
-					units = "s"
-				}, {
-					dispName = 8,
-					id = 8,
-					units = "s"
-				}, {
-					dispName = 12,
-					id = 12,
-					units = "s"
-				}, {
-					dispName = 16,
-					id = 16,
 					units = "s"
 				}, {
 					dispName = 20,
@@ -279,46 +233,6 @@ _G["launcher"]["{GBU_31_V_4B}"] = {
 				}, {
 					dispName = "24 h",
 					id = 86400
-				} },
-			wCtrl = 60,
-			xCtrl = 500,
-			xLbl = 310
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type_tail",
-					value = "M905"
-				} },
-			baseDim = "s",
-			control = "comboList",
-			defValue = 0,
-			dimension = "s",
-			id = "function_delay_ctrl_M905",
-			label = "Function Delay",
-			stringIndex = 2,
-			values = { {
-					dispName = 0,
-					id = 0,
-					units = "s"
-				}, {
-					dispName = 0.01,
-					id = 0.01,
-					units = "s"
-				}, {
-					dispName = 0.025,
-					id = 0.025,
-					units = "s"
-				}, {
-					dispName = 0.05,
-					id = 0.05,
-					units = "s"
-				}, {
-					dispName = 0.1,
-					id = 0.1,
-					units = "s"
-				}, {
-					dispName = 0.25,
-					id = 0.25,
-					units = "s"
 				} },
 			wCtrl = 60,
 			xCtrl = 500,

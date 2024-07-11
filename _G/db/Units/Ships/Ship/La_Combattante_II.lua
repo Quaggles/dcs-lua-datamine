@@ -252,6 +252,15 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			[16] = 0.15
 		}
 	},
+	exhaust = { {
+			connector = "EXHAUST_01",
+			preset = "Bazar/ParticleEffects/effects/SmokeShip.lua",
+			size = 0.3
+		}, {
+			connector = "EXHAUST_03",
+			preset = "Bazar/ParticleEffects/effects/SmokeShip.lua",
+			size = 0.3
+		} },
 	life = 750,
 	mapclasskey = "P0091000070",
 	mass = 265000,

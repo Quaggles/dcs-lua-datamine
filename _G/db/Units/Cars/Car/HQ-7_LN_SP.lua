@@ -63,6 +63,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		headlights = 38,
 		locator_rotation = 11,
 		markerlights = 39,
+		pitch_k = 0.4,
+		roll_k = 0.4,
 		stoplights = 37
 	},
 	armour_scheme = {

@@ -51,14 +51,16 @@ _G["launcher"]["{UB-16-57UMP}"] = {
 			ShapeName = "S-5KO",
 			connector_name = "tube_16"
 		} },
-	Picture = "ub16.png",
-	Weight = 138,
+	Picture = "rus_UB-16_S-5KO.png",
+	PictureBlendColor = "0xffffffff",
+	Weight = 128.36,
 	Weight_Empty = 57,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
-	displayName = "UB-16UM pod - 16 x S-5KO, 57mm UnGd Rkts, HEAT/Frag",
+	displayName = "UB-16-57UMP - 16 x UnGd Rkts, 57 mm S-5KO HEAT/Frag",
 	name = "{UB-16-57UMP}",
+	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

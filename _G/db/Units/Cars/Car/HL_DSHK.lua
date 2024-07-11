@@ -16,8 +16,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	WS = { {
 			LN = { {
 					BR = { {
+							case_extraction_connector = "EJECTOR_1",
 							connector_name = "POINT_GUN_01",
-							pos = {}
+							extractionDir = {
+								x = 0.1,
+								y = 0,
+								z = 7
+							},
+							pos = {},
+							shellCaseID = 0
 						} },
 					PL = { {
 							shell_name = {}
@@ -56,7 +63,10 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	_origin = "TechWeaponPack",
 	agony_fire_pos_y = 1.725,
 	agony_fire_pos_z = 0.315,
-	animation_arguments = {},
+	animation_arguments = {
+		pitch_k = 1.5,
+		roll_k = 1.5
+	},
 	armour_scheme = {
 		hull_azimuth = { {} },
 		hull_elevation = { {} },
@@ -66,7 +76,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 17, 26, "Redacted", "APC", "Infantry carriers", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "NonAndLightArmoredUnits", "LightArmoredUnits" },
 	category = "Armor",
 	chassis = {
-		mass = 1740
+		COM_pos = {},
+		mass = 1740,
+		wheelPosts = { {
+				pos = {}
+			}, {
+				pos = {}
+			}, {
+				pos = {}
+			}, {
+				pos = {}
+			} }
 	},
 	driverCockpit = "DriverCockpit/DriverCockpit",
 	driverViewConnectorName = "POINT_DRIVER",
@@ -110,5 +130,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		min_time_agony = 10,
 		shape = "ttHL-dshk",
 		shape_dstr = "ttHL_p_1"
-	}
+	},
+	windscreen_wiper = 40
 }

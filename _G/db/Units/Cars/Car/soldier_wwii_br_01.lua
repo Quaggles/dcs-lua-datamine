@@ -132,7 +132,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "soldier_wwii_br_01",
 	visual = {
 		IR = {
-			coeffs = { {}, {}, {}, {} }
+			coeffs = { {}, {}, {}, {}, {} }
 		},
 		fire_pos = {},
 		fire_size = 0,

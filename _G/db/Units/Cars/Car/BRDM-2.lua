@@ -11,7 +11,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "Scout BRDM-2",
 	Rate = 8,
 	Sensors = {
-		OPTIC = { "TPKU-2B", "TKN-1S" }
+		Mount_WS_ID = 1,
+		OPTIC = { "TPKU-2B", "TKN-1S", "1PZ-3" }
 	},
 	ThreatRange = 1600,
 	WS = { {

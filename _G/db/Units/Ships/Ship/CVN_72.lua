@@ -371,13 +371,16 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		BOSS = {
 			HQ_model = "AirBoss_71-72-CPT",
 			cameraLimitsLocal = { {
-					box = { -0.89, 0.4, -2, 3, 2, 2 },
+					box = { -0.89, 0.4, -2.5, 3, 2, 2 },
+					boxPosLocal = { 0, 0, 0, 0 }
+				}, {
+					box = { -0.89, 1.4, -2.8, 3.3, 2, 2 },
 					boxPosLocal = { 0, 0, 0, 0 }
 				}, {
 					box = { -1, 0.4, -2, 1, 2, 2 },
 					boxPosLocal = { -1, 0, -0.3, -37 }
 				} },
-			cameraPosLocal = { 2, 1.75, 1, 0 },
+			cameraPosLocal = { 1, 1.75, -0.5, 30 },
 			dockConnector = "AirBoss_Connector_72",
 			hide_argument = 67
 		},
@@ -427,7 +430,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					box = { -127, 8.8, -16, -65, 15.2, -12 },
 					boxPosLocal = { 0, 0, 0, 0 }
 				} },
-			cameraPosLocal = { -113, 10.45, -10, 10 },
+			cameraPosLocal = { -113, 10.55, -10, 10 },
 			dockPos = { 0, 0, 0 },
 			indoor = true
 		},
@@ -930,6 +933,225 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	_origin_interaction_unlock = "Supercarrier",
 	airFindDist = 50000,
 	airWeaponDist = 25000,
+	airbossLightControl = { { { {
+					argParam = 791,
+					value = 0
+				}, {
+					argParam = 791,
+					value = -2
+				},
+				[0] = {
+					argParam = 791,
+					value = 1
+				}
+			}, { {
+					argParam = 792,
+					value = 0
+				}, {
+					argParam = 792,
+					value = -2
+				},
+				[0] = {
+					argParam = 792,
+					value = 1
+				}
+			}, { {
+					argParam = 793,
+					value = 0
+				}, {
+					argParam = 793,
+					value = -2
+				},
+				[0] = {
+					argParam = 793,
+					value = 1
+				}
+			}, { {
+					argParam = 794,
+					value = 0
+				}, {
+					argParam = 794,
+					value = -2
+				},
+				[0] = {
+					argParam = 794,
+					value = 1
+				}
+			}, { {
+					argParam = 795,
+					value = 0
+				}, {
+					argParam = 795,
+					value = -2
+				},
+				[0] = {
+					argParam = 795,
+					value = 1
+				}
+			}, { {
+					argParam = 796,
+					value = 0
+				}, {
+					argParam = 796,
+					value = -2
+				},
+				[0] = {
+					argParam = 796,
+					value = 1
+				}
+			}, { {
+					argParam = 799,
+					value = 0
+				}, {
+					argParam = 799,
+					value = -2
+				},
+				[0] = {
+					argParam = 799,
+					value = 1
+				}
+			}, { {
+					argParam = 801,
+					value = 0
+				}, {
+					argParam = 801,
+					value = -2
+				},
+				[0] = {
+					argParam = 801,
+					value = 1
+				}
+			},
+			[0] = { {
+					argParam = 790,
+					value = 0
+				}, {
+					argParam = 790,
+					value = -2
+				},
+				[0] = {
+					argParam = 790,
+					value = 1
+				}
+			}
+		}, { { {
+					argParam = 308,
+					value = 0.3
+				}, {
+					argParam = 308,
+					value = 0
+				}, {
+					argParam = 308,
+					value = -2
+				},
+				[0] = {
+					argParam = 308,
+					value = 1
+				}
+			}, { {
+					argParam = 309,
+					value = 0.3
+				}, {
+					argParam = 309,
+					value = 0
+				}, {
+					argParam = 309,
+					value = -2
+				},
+				[0] = {
+					argParam = 309,
+					value = 1
+				}
+			}, { {
+					argParam = 310,
+					value = 0.3
+				}, {
+					argParam = 310,
+					value = 0
+				}, {
+					argParam = 310,
+					value = -2
+				},
+				[0] = {
+					argParam = 310,
+					value = 1
+				}
+			},
+			[0] = { {
+					argParam = 307,
+					value = 0.3
+				}, {
+					argParam = 307,
+					value = 0
+				}, {
+					argParam = 307,
+					value = -2
+				},
+				[0] = {
+					argParam = 307,
+					value = 1
+				}
+			}
+		}, { { {
+					argParam = 797,
+					value = 0
+				}, {
+					argParam = 797,
+					value = -2
+				},
+				[0] = {
+					argParam = 797,
+					value = 1
+				}
+			}, { {
+					argParam = 150,
+					value = 0
+				}, {
+					argParam = 150,
+					value = -2
+				},
+				[0] = {
+					argParam = 150,
+					value = 1
+				}
+			},
+			[0] = { {
+					argParam = 69,
+					value = 0
+				}, {
+					argParam = 69,
+					value = -2
+				},
+				[0] = {
+					argParam = 69,
+					value = 1
+				}
+			}
+		},
+		[0] = {
+			[0] = { {
+					argParam = 149,
+					value = 0.6
+				}, {
+					argParam = 149,
+					value = 0.3
+				}, {
+					argParam = 149,
+					value = 0.1
+				}, {
+					argParam = 149,
+					value = 0
+				}, {
+					argParam = 149,
+					value = -2
+				},
+				[0] = {
+					argParam = 149,
+					value = 1
+				}
+			}
+		}
+	},
 	animation_arguments = {
 		arresting_wires = { 141, 142, 143, 144 },
 		blast_fences = {},

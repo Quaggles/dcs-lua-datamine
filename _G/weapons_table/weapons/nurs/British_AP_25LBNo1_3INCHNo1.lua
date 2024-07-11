@@ -70,7 +70,7 @@ _G["weapons_table"]["weapons"]["nurs"]["British_AP_25LBNo1_3INCHNo1"] = {
 		},
 		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 	},
-	cx_pil = 3.3383947770031e-05,
+	cx_pil = 3.3384025836223e-05,
 	display_name = "RP-3 AP",
 	display_name_short = "RP-3",
 	dist_max = 800,

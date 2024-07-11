@@ -84,15 +84,55 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		maximalCapacity = 77500,
 		nominalCapacity = 56245,
 		out_door = {
+			cargo_generic = {
+				heading = 3.1415926535898,
+				large = true,
+				mechanicals = {
+					board = { "CargoBayGates", "Open" },
+					boardable = { {
+							mechanism = "CargoBayGates",
+							states = { "Open" }
+						} },
+					close = { "CargoBayGates", "Close" }
+				},
+				x = -12,
+				z = 0
+			},
 			rampa_left = {
-				heading = 2.7925268031909,
+				heading = -2.7925268031909,
 				large = false,
+				mechanicals = {
+					board = { "CargoBayGates", "Open" },
+					boardable = { {
+							mechanism = "CargoBayGates",
+							states = { "Open" }
+						} },
+					close = { "CargoBayGates", "Close" },
+					deploy = { "CargoBayGates", "Open" },
+					deployable = { {
+							mechanism = "CargoBayGates",
+							states = { "Open" }
+						} }
+				},
 				x = -12,
 				z = -1.5
 			},
 			rampa_right = {
-				heading = -2.7925268031909,
+				heading = 2.7925268031909,
 				large = false,
+				mechanicals = {
+					board = { "CargoBayGates", "Open" },
+					boardable = { {
+							mechanism = "CargoBayGates",
+							states = { "Open" }
+						} },
+					close = { "CargoBayGates", "Close" },
+					deploy = { "CargoBayGates", "Open" },
+					deployable = { {
+							mechanism = "CargoBayGates",
+							states = { "Open" }
+						} }
+				},
 				x = -12,
 				z = 1.5
 			}

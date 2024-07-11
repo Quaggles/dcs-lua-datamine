@@ -4,14 +4,15 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["RPG"] = {
 		} },
 	PL = { {
 			ammo_capacity = 3,
-			reload_time = 60,
-			shell_name = { "2A28_73" },
-			shot_delay = 12
+			reload_time = 30,
+			shot_delay = 9,
+			type_ammunition = "weapons.nurs.PG_16V"
 		} },
 	distanceMax = 800,
 	distanceMin = 10,
+	launch_delay = 12,
 	max_trg_alt = 300,
-	reactionTime = 1,
+	reactionTime = 3,
 	sensor = {},
-	type = 2
+	type = 35
 }

@@ -11,7 +11,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = 'SAM SA-8 Osa "Gecko" TEL',
 	Rate = 15,
 	Sensors = {
-		OPTIC = { "TKN-3B day", "TKN-3B night", "Karat visir" },
+		Mount_WS_ID = 1,
+		OPTIC = { "Karat visir" },
 		RADAR = "Osa 9A33 ln"
 	},
 	ThreatRange = 10300,
@@ -55,7 +56,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			pointer = "POINT_View",
 			reference_angle_Y = 3.1415926535898
 		},
-		maxTargetDetectionRange = 30000,
+		maxTargetDetectionRange = 35000,
 		radar_rotation_type = 1,
 		radar_type = 104,
 		searchRadarFrequencies = { { 6000000000, 8000000000 } },
@@ -64,7 +65,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Waypoint_Custom_Panel = true,
 	airWeaponDist = 10300,
 	animation_arguments = {
-		locator_rotation = 11
+		locator_rotation = 11,
+		pitch_k = 0.4,
+		roll_k = 0.4
 	},
 	armour_scheme = {
 		hull_azimuth = { {} },
@@ -74,7 +77,23 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	attribute = { 2, 16, 102, "Redacted", "AA_missile", "SR SAM", "SAM SR", "SAM TR", "RADAR_BAND2_FOR_ARM", "All", "Ground Units", "Vehicles", "Ground vehicles", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "SAM related", "SAM elements" },
 	category = "Air Defence",
-	chassis = {},
+	chassis = {
+		COM_pos = {},
+		MOId = {},
+		wheelPosts = { {
+				pos = {}
+			}, {
+				pos = {}
+			}, {
+				pos = {}
+			}, {
+				pos = {}
+			}, {
+				pos = {}
+			}, {
+				pos = {}
+			} }
+	},
 	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
 	driverViewConnectorName = { "DRIVER_POINT",
 		offset = { -0.1, 0, 0 }
@@ -118,7 +137,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		radarRotation = "GndTech/RadarRotation"
 	},
 	swapped_names = true,
-	swing_on_run = false,
+	swing_on_run = true,
 	tags = { "Air Defence", "SAM SHORAD" },
 	toggle_alarm_state_interval = 5,
 	type = "Osa 9A33 ln",

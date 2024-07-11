@@ -8,7 +8,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 5000,
 	DisplayName = "SPAAA HL with ZU-23",
 	DisplayNameShort = "HL ZU-23",
-	IR_emission_coeff = 0.08,
+	IR_emission_coeff = 0.04,
 	MaxSpeed = 133.2,
 	Name = "SPAAA HL with ZU-23",
 	Rate = 6,
@@ -53,7 +53,10 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	_origin = "TechWeaponPack",
 	agony_fire_pos_y = 1.725,
 	agony_fire_pos_z = 0.315,
-	animation_arguments = {},
+	animation_arguments = {
+		pitch_k = 1.5,
+		roll_k = 1.5
+	},
 	armour_scheme = {
 		hull_azimuth = { {} },
 		hull_elevation = { {} },
@@ -63,7 +66,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 16, 26, "Redacted", "AA_flak", "Mobile AAA", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "Armed Air Defence", "Rocket Attack Valid AirDefence", "AAA", "All", "Ground Units", "Vehicles", "Ground vehicles" },
 	category = "Air Defence",
 	chassis = {
-		mass = 2610
+		COM_pos = {},
+		chassisDeepening = 0.03,
+		mass = 2610,
+		wheelPosts = { {
+				pos = {}
+			}, {
+				pos = {}
+			}, {
+				pos = {}
+			}, {
+				pos = {}
+			} }
 	},
 	driverCockpit = "DriverCockpit/DriverCockpit",
 	driverViewConnectorName = "POINT_DRIVER",
@@ -100,7 +114,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "HL_ZU-23",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0.003, 0.0031 }, { 0.0062, 0.00215 }, { 0.001, 0.17 }, { 0.25, 0.00023809523809524 } }
+			coeffs = { { 0.031, 0.0022 }, { 0.003, 0.0031 }, { 0.004, 0.0043 }, { 0.001, 0.17 }, { 0.25, 0.00023809523809524 } }
 		},
 		agony_explosion_size = 2,
 		fire_pos = { 0.2, 0.8, 0 },
@@ -110,5 +124,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		min_time_agony = 10,
 		shape = "ttHL-zu23",
 		shape_dstr = "ttHL_p_1"
-	}
+	},
+	windscreen_wiper = 40
 }

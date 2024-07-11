@@ -2158,10 +2158,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	country_of_origin = "USA",
 	crew_members = { {
 			canopy_pos = { 0, 0, 0 },
-			drop_canopy_name = 296,
-			ejection_seat_name = 17,
+			drop_canopy_name = 297,
+			ejection_seat_name = 296,
 			g_suit = 1.02,
-			pos = { 3.9, 1.4, 0 },
+			pilot_name = 298,
+			pos = { 3.32, 0.27, 0 },
 			role = "pilot",
 			role_display_name = "Pilot"
 		} },

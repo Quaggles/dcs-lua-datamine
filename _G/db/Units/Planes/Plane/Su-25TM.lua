@@ -478,6 +478,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{637334E4-AB5A-47C0-83A6-51B7F1DF3CD5}"
 				}, {
+					CLSID = "{UB32A_S5KP}"
+				}, {
+					CLSID = "{UB32A_S5M}"
+				}, {
 					CLSID = "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}"
 				}, {
 					CLSID = "{FC56DF80-9B09-44C5-8976-DCFAFF219062}"
@@ -549,6 +553,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{0180F983-C14A-11d8-9897-000476191836}"
 				}, {
 					CLSID = "{637334E4-AB5A-47C0-83A6-51B7F1DF3CD5}"
+				}, {
+					CLSID = "{UB32A_S5KP}"
+				}, {
+					CLSID = "{UB32A_S5M}"
 				}, {
 					CLSID = "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}"
 				}, {
@@ -624,6 +632,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{0180F983-C14A-11d8-9897-000476191836}"
 				}, {
 					CLSID = "{637334E4-AB5A-47C0-83A6-51B7F1DF3CD5}"
+				}, {
+					CLSID = "{UB32A_S5KP}"
+				}, {
+					CLSID = "{UB32A_S5M}"
 				}, {
 					CLSID = "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}"
 				}, {
@@ -716,6 +728,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					connector = "hardpoint_AKU_58-5"
 				}, {
 					CLSID = "{637334E4-AB5A-47C0-83A6-51B7F1DF3CD5}"
+				}, {
+					CLSID = "{UB32A_S5KP}"
+				}, {
+					CLSID = "{UB32A_S5M}"
 				}, {
 					CLSID = "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}"
 				}, {
@@ -827,6 +843,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{637334E4-AB5A-47C0-83A6-51B7F1DF3CD5}"
 				}, {
+					CLSID = "{UB32A_S5KP}"
+				}, {
+					CLSID = "{UB32A_S5M}"
+				}, {
 					CLSID = "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}"
 				}, {
 					CLSID = "{FC56DF80-9B09-44C5-8976-DCFAFF219062}"
@@ -900,6 +920,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{637334E4-AB5A-47C0-83A6-51B7F1DF3CD5}"
 				}, {
+					CLSID = "{UB32A_S5KP}"
+				}, {
+					CLSID = "{UB32A_S5M}"
+				}, {
 					CLSID = "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}"
 				}, {
 					CLSID = "{FC56DF80-9B09-44C5-8976-DCFAFF219062}"
@@ -972,6 +996,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{637334E4-AB5A-47C0-83A6-51B7F1DF3CD5}"
 				}, {
+					CLSID = "{UB32A_S5KP}"
+				}, {
+					CLSID = "{UB32A_S5M}"
+				}, {
 					CLSID = "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}"
 				}, {
 					CLSID = "{FC56DF80-9B09-44C5-8976-DCFAFF219062}"
@@ -1035,6 +1063,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.5
 				}, {
 					CLSID = "{637334E4-AB5A-47C0-83A6-51B7F1DF3CD5}"
+				}, {
+					CLSID = "{UB32A_S5KP}"
+				}, {
+					CLSID = "{UB32A_S5M}"
 				}, {
 					CLSID = "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}"
 				}, {

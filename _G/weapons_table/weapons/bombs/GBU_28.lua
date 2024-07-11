@@ -29,6 +29,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_28"] = {
 			null_roll = 0.78539816339745,
 			op_time = 120
 		},
+		display_name_short = "GBU-28",
 		fm = {
 			A = 0.6,
 			I = 5787.22775,
@@ -76,6 +77,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_28"] = {
 	},
 	cx = { 1.037, 0.91, 0.9, 0.382, 1.34 },
 	display_name = "GBU-28",
+	display_name_short = "GBU-28",
 	mass = 2130,
 	model = "gbu-28",
 	name = "GBU_28",
@@ -104,6 +106,7 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_28"] = {
 			null_roll = 0.78539816339745,
 			op_time = 120
 		},
+		display_name_short = "GBU-28",
 		fm = {
 			A = 0.6,
 			I = 5787.22775,

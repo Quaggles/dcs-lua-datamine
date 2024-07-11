@@ -22,7 +22,7 @@ _G["launcher"]["{AGM_78A}"] = {
 			label = "RF Guidance Unit",
 			stringIndex = 1,
 			values = { {
-					dispName = "Mk 24 Mod 5 (narrow E-F bands) - P-35 (Bar Lock), SNR-75 (Fan Song)",
+					dispName = "Mk 24 Mod 5 (narrow E-F bands) - SON-9 (Fire Can), ST-68U (Tin Shield)",
 					id = 1
 				} },
 			wCtrl = 360,

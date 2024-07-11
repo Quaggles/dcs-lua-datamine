@@ -11,7 +11,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "MBT Challenger II",
 	Rate = 20,
 	Sensors = {
-		OPTIC = { "Challenger2 sight day", "TOGS2 night", "VS580-10 day" }
+		Mount_WS_ID = 1,
+		OPTIC = { "VS580-10 day", "TOGS2 night" }
 	},
 	ThreatRange = 3500,
 	WS = { {
@@ -150,7 +151,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "Challenger2",
 	visual = {
 		IR = {
-			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0019, 0.0013 }, { 0.001, 0.17 }, { 0.33, 0.00017368421052632 } }
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0024, 0.002 }, { 0.001, 0.17 }, { 0.33, 0.00017368421052632 } }
 		},
 		agony_explosion_size = 5,
 		dirt_pos = { -3.5, 0.8, -1.4 },

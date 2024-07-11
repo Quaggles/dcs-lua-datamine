@@ -24,7 +24,8 @@ _G["launcher"]["{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}"] = {
 						addDef = {
 							ID = "NFP_VIS_DrawArgNo_56",
 							val = 0
-						}
+						},
+						tooltip = "Mechanical, time\nArmed by vane rotation\nHas two pre-flight adjustable function delays, either of which can be selected in flight"
 					}
 				} },
 			wCtrl = 360,

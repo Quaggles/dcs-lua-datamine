@@ -12,6 +12,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "MBT T-72B",
 	Rate = 17,
 	Sensors = {
+		Mount_WS_ID = 1,
 		OPTIC = { "TKN-3B day", "TKN-3B night" }
 	},
 	ThreatRange = 4000,
@@ -173,7 +174,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_azimuth = { {}, {}, {}, {} },
 		turret_elevation = { {}, {} }
 	},
-	attribute = { 2, 17, 26, "Redacted", "Tanks", "Modern Tanks", "CustomAimPoint", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "HeavyArmoredUnits" },
+	attribute = { 2, 17, 26, "Redacted", "Tanks", "Modern Tanks", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "HeavyArmoredUnits" },
 	category = "Armor",
 	chassis = {
 		gearRatios = {}
@@ -200,7 +201,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "T-72B",
 	visual = {
 		IR = {
-			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0019, 0.0013 }, { 0.001, 0.17 }, { 0.29, 0.00017058823529412 } }
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0024, 0.002 }, { 0.001, 0.17 }, { 0.29, 0.00017058823529412 } }
 		},
 		agony_explosion_size = 5,
 		dirt_pos = { -3.1, 0.55, -1.346 },

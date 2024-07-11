@@ -23,7 +23,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 2, 17, "Redacted", "Ground Units", "Cars", "human_vehicle", "All", "Vehicles", "Ground vehicles", "Ground Units Non Airdefence", "NonAndLightArmoredUnits", "NonArmoredUnits", "Unarmed vehicles" },
+	attribute = { 2, 17, 25, "Redacted", "Trucks", "All", "Ground Units", "Vehicles", "Ground vehicles", "Ground Units Non Airdefence", "NonAndLightArmoredUnits", "NonArmoredUnits", "Unarmed vehicles" },
 	category = "Unarmed",
 	chassis = {
 		X_gear_1 = 7.51,
@@ -54,7 +54,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	driverViewConnectorName = "DRIVER_POINT.003",
 	enablePlayerCanDrive = true,
-	mapclasskey = "P0091000005",
+	mapclasskey = "P0091000212",
 	snd = {
 		engine_pitch = { {}, {}, {} },
 		engine_vol_a = { {}, {}, {} },

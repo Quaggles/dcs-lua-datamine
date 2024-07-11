@@ -16,6 +16,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "IFV M1126 Stryker ICV",
 	Rate = 10,
 	Sensors = {
+		Mount_WS_ID = 1,
 		OPTIC = { "M151 Protector RWS day", "M151 Protector RWS IR" }
 	},
 	ThreatRange = 1200,

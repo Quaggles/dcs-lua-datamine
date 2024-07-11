@@ -67,7 +67,7 @@ _G["weapons_table"]["weapons"]["nurs"]["M8rocket"] = {
 		},
 		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 	},
-	cx_pil = 5.8676899395319e-05,
+	cx_pil = 5.8677036607434e-05,
 	display_name = "4.5-Inch M8",
 	display_name_short = "M8",
 	dist_max = 2000,

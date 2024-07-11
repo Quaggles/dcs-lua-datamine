@@ -12,7 +12,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE259E_F1B"] = {
 			delay = 10.1
 		},
 		displayName = "SNEB Type 259E F1B IL",
-		display_name_short = "SNEB259",
+		display_name_short = "SNEB-68",
 		engine = {
 			boost_factor = 1,
 			boost_tail = 1,
@@ -231,9 +231,9 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE259E_F1B"] = {
 		user_name = "SNEB Type 259E F1B IL",
 		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 	},
-	cx_pil = 1.414105917984e-05,
+	cx_pil = 1.4141092247788e-05,
 	display_name = "SNEB Type 259E F1B IL",
-	display_name_short = "SNEB259",
+	display_name_short = "SNEB-68",
 	dist_max = 4000,
 	dist_max_ballistic = 8000,
 	dist_min = 500,
@@ -249,7 +249,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE259E_F1B"] = {
 			delay = 10.1
 		},
 		displayName = "SNEB Type 259E F1B IL",
-		display_name_short = "SNEB259",
+		display_name_short = "SNEB-68",
 		engine = {
 			boost_factor = 1,
 			boost_tail = 1,

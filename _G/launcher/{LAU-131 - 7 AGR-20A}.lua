@@ -29,11 +29,13 @@ _G["launcher"]["{LAU-131 - 7 AGR-20A}"] = {
 		} },
 	Picture = "LAU131.png",
 	Weight = 134.5,
+	Weight_Empty = 29.5,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/AS_Missiles.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 3,
-	displayName = 'LAU-131 pod - 7 x 2.75" Hydra, Laser Guided Rkts M151, HE APKWS',
+	displayName = "LAU-131 - 7 x Laser Guided Rkts, 70 mm Hydra 70 M151 HE APKWS",
 	name = "{LAU-131 - 7 AGR-20A}",
+	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

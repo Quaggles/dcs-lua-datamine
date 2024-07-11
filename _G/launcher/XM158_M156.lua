@@ -5,11 +5,36 @@ _G["launcher"]["XM158_M156"] = {
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "XM158"
+		}, {
+			ShapeName = "hydra_m151he",
+			connector_name = "tube_01"
+		}, {
+			ShapeName = "hydra_m151he",
+			connector_name = "tube_02"
+		}, {
+			ShapeName = "hydra_m151he",
+			connector_name = "tube_03"
+		}, {
+			ShapeName = "hydra_m151he",
+			connector_name = "tube_04"
+		}, {
+			ShapeName = "hydra_m151he",
+			connector_name = "tube_05"
+		}, {
+			ShapeName = "hydra_m151he",
+			connector_name = "tube_06"
+		}, {
+			ShapeName = "hydra_m151he",
+			connector_name = "tube_07"
 		} },
-	Picture = "lau68.png",
-	Weight = 112,
-	_file = "Scripts/Database/db_weapons_data.lua",
+	Picture = "LAU68.png",
+	Weight = 91.76,
+	Weight_Empty = 17.7,
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
+	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
-	displayName = 'XM158 pod - 7 x 2.75" Hydra, UnGd Rkts M156, Wht Phos',
+	category = 3,
+	displayName = "XM158 - 7 x UnGd Rkts, 70 mm Hydra 70 M156 SM",
+	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

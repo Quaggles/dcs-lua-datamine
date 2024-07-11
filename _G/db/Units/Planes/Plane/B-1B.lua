@@ -195,7 +195,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[55] = {
 			args = { 159 },
 			critical_damage = 8,
-			deps_cells = { 152, 47, 48, 42 }
+			deps_cells = { 152, 47, 48, 42 },
+			detachable = {
+				shape = "B-1B_oblomok_tail"
+			}
 		},
 		[56] = {
 			args = { 158 },
@@ -385,7 +388,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			WING_R_PART_OUT = 22
 		}
 	},
-	DamageParts = { "B-1B-OBLOMOK-WING-R", "B-1B-OBLOMOK-WING-L" },
+	DamageParts = { "B-1B_oblomok_wing_R", "B-1B_oblomok_wing_L" },
 	DefaultTask = <1>{
 		Name = "Ground Attack",
 		OldID = "Ground Attack",

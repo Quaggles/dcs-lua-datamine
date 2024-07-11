@@ -11,6 +11,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "MBT Merkava IV",
 	Rate = 10,
 	Sensors = {
+		Mount_WS_ID = 1,
 		OPTIC = { "TRP-2A day", "TRP-2A night" }
 	},
 	ThreatRange = 3500,
@@ -259,7 +260,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "Merkava_Mk4",
 	visual = {
 		IR = {
-			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0019, 0.0013 }, { 0.001, 0.17 }, { 0.33, 0.00017368421052632 } }
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0024, 0.002 }, { 0.001, 0.17 }, { 0.33, 0.00017368421052632 } }
 		},
 		agony_explosion_size = 3,
 		dirt_pos = { -3.1, 0.4, -1.5 },

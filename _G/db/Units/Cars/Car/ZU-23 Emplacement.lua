@@ -43,7 +43,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 2, 16, 26, "Redacted", "AA_flak", "Static AAA", "CustomAimPoint", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "Armed Air Defence", "Rocket Attack Valid AirDefence", "AAA", "All", "Ground Units", "Vehicles", "Ground vehicles" },
+	attribute = { 2, 16, 26, "Redacted", "AA_flak", "Static AAA", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "Armed Air Defence", "Rocket Attack Valid AirDefence", "AAA", "All", "Ground Units", "Vehicles", "Ground vehicles" },
 	category = "Air Defence",
 	chassis = {
 		life = 1.2
@@ -59,7 +59,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "ZU-23 Emplacement",
 	visual = {
 		IR = {
-			coeffs = { { 0, 0 }, { 0, 0 }, { 0.0062, 0.00215 }, { 0, 0 }, { 0.15, 0.00083333333333333 } }
+			coeffs = { { 0, 0 }, { 0, 0 }, { 0.004, 0.0043 }, { 0, 0 }, { 0.15, 0.00083333333333333 } }
 		},
 		agony_explosion_size = 0.1,
 		fire_pos = {},

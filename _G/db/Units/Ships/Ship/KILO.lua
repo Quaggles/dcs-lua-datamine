@@ -1,5 +1,5 @@
 _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
-	CustomAimPoint = { 10, 2, 0 },
+	CustomAimPoint = { 10, 2.7, 0 },
 	DeckLevel = 2.45,
 	DetectionRange = 0,
 	DisplayName = "SSK 877V Kilo",
@@ -46,6 +46,15 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	draft = 8.5,
 	economy_distance = 11112000,
 	economy_velocity = 3.60111,
+	exhaust = { {
+			connector = "EXHAUST_01",
+			preset = "Bazar/ParticleEffects/effects/SmokeShip.lua",
+			size = 0.3
+		}, {
+			connector = "EXHAUST_02",
+			preset = "Bazar/ParticleEffects/effects/SmokeShip.lua",
+			size = 0.3
+		} },
 	life = 300,
 	mapclasskey = "P0091000038",
 	mass = 3076000,

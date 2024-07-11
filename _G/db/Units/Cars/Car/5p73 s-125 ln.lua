@@ -1,4 +1,5 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
+	Crew = 0,
 	DetectionRange = 0,
 	DisplayName = 'SAM SA-3 S-125 "Goa" LN',
 	DisplayNameShort = "SA-3",

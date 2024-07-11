@@ -23,7 +23,10 @@ _G["launcher"]["{AB_500_1_SD_10A}"] = {
 			stringIndex = 1,
 			values = { {
 					dispName = "Zünder 69E",
-					id = 1
+					id = 1,
+					secondaryParams = {
+						tooltip = "Electronic, time\nHas multiple operation modes, one of which can be selected in-flight"
+					}
 				} },
 			wCtrl = 360,
 			xCtrl = 200

@@ -1,5 +1,4 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
-	CustomAimPoint = { 0, 1, 0 },
 	DetectionRange = 0,
 	DisplayName = "Infantry M4 Georgia",
 	DisplayNameShort = "Inf.Ge.M4",
@@ -79,7 +78,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 2, 17, 26, "Redacted", "Infantry", "CustomAimPoint", "New infantry", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "NonAndLightArmoredUnits", "NonArmoredUnits" },
+	attribute = { 2, 17, 26, "Redacted", "Infantry", "New infantry", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "NonAndLightArmoredUnits", "NonArmoredUnits" },
 	category = "Infantry",
 	chassis = {},
 	enablePlayerCanDrive = false,
@@ -96,7 +95,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "Soldier M4 GRG",
 	visual = {
 		IR = {
-			coeffs = { {}, {}, {}, {} }
+			coeffs = { {}, {}, {}, {}, {} }
 		},
 		fire_pos = {},
 		fire_size = 0,

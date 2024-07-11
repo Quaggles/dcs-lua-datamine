@@ -83,7 +83,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		move_vol = { {}, {}, {} }
 	},
 	swapped_names = true,
-	swing_on_run = true,
+	swing_on_run = false,
 	tags = { "Air Defence", "SAM SHORAD" },
 	type = "M48 Chaparral",
 	visual = {

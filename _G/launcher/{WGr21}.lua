@@ -25,10 +25,16 @@ _G["launcher"]["{WGr21}"] = {
 			stringIndex = 1,
 			values = { {
 					dispName = "Zt. Zünder S/30",
-					id = 1
+					id = 1,
+					secondaryParams = {
+						tooltip = "Mechanical, time\nArmed by centrifugal force"
+					}
 				}, {
 					dispName = "Hbgr. Zünder 35 D",
-					id = 2
+					id = 2,
+					secondaryParams = {
+						tooltip = "Mechanical, impact\nArmed by centrifugal force"
+					}
 				} },
 			wCtrl = 360,
 			xCtrl = 200

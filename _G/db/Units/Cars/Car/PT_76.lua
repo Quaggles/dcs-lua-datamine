@@ -89,7 +89,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_azimuth = { { 0, 150, 1.5 }, { 150, 180, 1 } },
 		turret_elevation = { {}, {} }
 	},
-	attribute = { 2, 17, 26, "Redacted", "Tanks", "CustomAimPoint", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "HeavyArmoredUnits" },
+	attribute = { 2, 17, 26, "Redacted", "Tanks", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "HeavyArmoredUnits" },
 	category = "Armor",
 	chassis = {},
 	enablePlayerCanDrive = false,
@@ -122,7 +122,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "PT_76",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.002, 0.0015 }, { 0.001, 0.17 }, { 0.23, 0.000184 } }
+			coeffs = { { 0.031, 0.0022 }, { 0.00775, 0.00265 }, { 0.0038, 0.0015 }, { 0.001, 0.17 }, { 0.23, 0.000184 } }
 		},
 		dirt_pos = { -2.7, 0.5, -1.37 },
 		dust_pos = { 1.8, 0, -1.37 },

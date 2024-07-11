@@ -1,7 +1,7 @@
 _G["launcher"]["{BK90}"] = {
 	CLSID = "{BK90}",
 	Count = 1,
-	Cx_pil = 0.0024,
+	Cx_pil = 0.00107163,
 	Elements = { {
 			ShapeName = "BK_90"
 		} },

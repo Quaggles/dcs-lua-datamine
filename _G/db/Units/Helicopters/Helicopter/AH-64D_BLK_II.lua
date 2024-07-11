@@ -1960,6 +1960,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	crew_members = { {
 			can_be_playable = true,
 			canopy_arg = 38,
+			dismount_play = { 1, 0.496, 0.5, 0.6 },
 			drop_canopy_name = 0,
 			ejection_seat_name = 0,
 			pilot_body_arg = 50,
@@ -1970,6 +1971,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		}, {
 			can_be_playable = true,
 			canopy_arg = 421,
+			dismount_play = { 0, 0.497, 0.501, 0.6 },
 			drop_canopy_name = 0,
 			ejection_seat_name = 0,
 			pilot_body_arg = 472,

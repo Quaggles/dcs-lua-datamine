@@ -43,7 +43,7 @@ _G["rockets"]["#Index"] = {
 	},
 	category = 2,
 	class_name = "wAmmunitionLaserHoming",
-	display_name = "HYDRA-70 MPP APKWS",
+	display_name = "Hydra 70 M282 MPP APKWS",
 	display_name_short = "APKWS",
 	exhaust = { 0.78, 0.78, 0.78, 0.3 },
 	fm = {
@@ -85,6 +85,11 @@ _G["rockets"]["#Index"] = {
 	mass = 17,
 	model = "AGR_20",
 	name = "AGR_20_M282",
+	properties = {
+		targeting_data = {
+			fm_type = 2
+		}
+	},
 	scheme = "APKWS",
 	seeker = {
 		FOV = 0.69813170079773,
@@ -103,7 +108,7 @@ _G["rockets"]["#Index"] = {
 	t_acc = 0,
 	t_b = 0,
 	t_marsh = 1.1,
-	user_name = "HYDRA-70 MPP APKWS",
+	user_name = "Hydra 70 M282 MPP APKWS",
 	v_mid = 350,
 	v_min = 140,
 	warhead = "_G/warheads/HYDRA_70_M282.lua",

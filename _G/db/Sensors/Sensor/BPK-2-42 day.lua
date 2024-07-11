@@ -3,11 +3,12 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 	Name = "BPK-2-42 day",
 	SensorType = 0,
 	category = 0,
+	linkedAxis = 2,
 	magnifications = { 6 },
-	resolution = 0.3,
+	resolution = 0.8,
 	scan_volume = {
-		azimuth = { -180, 180 },
-		elevation = { -3, 70 }
+		azimuth = { -5, 5 },
+		elevation = { -5, 5 }
 	},
 	type = 0,
 	view_volume_max = {

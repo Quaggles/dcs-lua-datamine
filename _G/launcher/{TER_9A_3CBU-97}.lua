@@ -13,7 +13,7 @@ _G["launcher"]["{TER_9A_3*CBU-97}"] = {
 			connector_name = "Point03"
 		} },
 	Picture = "CBU.png",
-	Weight = 1304,
+	Weight = 1298.6,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/cluster_bombs.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 5, 32, "Redacted" },
@@ -30,7 +30,10 @@ _G["launcher"]["{TER_9A_3*CBU-97}"] = {
 			stringIndex = 1,
 			values = { {
 					dispName = "Integral Fuze + FZU-39",
-					id = "FZU39"
+					id = "FZU39",
+					secondaryParams = {
+						tooltip = ""
+					}
 				} },
 			wCtrl = 360,
 			xCtrl = 200

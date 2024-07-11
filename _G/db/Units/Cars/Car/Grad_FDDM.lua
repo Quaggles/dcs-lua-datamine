@@ -12,6 +12,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "Grad MRL FDDM (FC)",
 	Rate = 8,
 	Sensors = {
+		Mount_WS_ID = 1,
 		OPTIC = { "NNDV day", "NNDV night" }
 	},
 	ThreatRange = 1000,

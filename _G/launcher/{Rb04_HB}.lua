@@ -1,10 +1,10 @@
-_G["launcher"]["{Rb04}"] = {
-	CLSID = "{Rb04}",
+_G["launcher"]["{Rb04_HB}"] = {
+	CLSID = "{Rb04_HB}",
 	Count = 1,
-	Cx_pil = 0.001,
+	Cx_pil = 0.00108213,
 	Elements = { "_G/Pylons/rb04pylon.lua", {
 			Position = { 0.58, -0.375, 0 },
-			ShapeName = "Rb04"
+			ShapeName = "Rb04AI"
 		} },
 	Picture = "Rb04.png",
 	Weight = 661,

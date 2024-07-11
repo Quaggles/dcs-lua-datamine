@@ -1190,10 +1190,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{ARAKM70BAP}"
 				}, {
-					CLSID = "{Rb04}",
+					CLSID = "{ARAKM70BAPPX}"
+				}, {
+					CLSID = "{Rb04_HB}",
 					Type = 1
 				}, {
-					CLSID = "{Rb15}",
+					CLSID = "{Rb15_HB}",
 					Type = 1
 				}, {
 					CLSID = "{Rb04AI}",
@@ -1206,7 +1208,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{KB}"
 				}, {
-					CLSID = "{LYSBOMB}"
+					CLSID = "{LYSBOMB_V7V}"
 				}, {
 					CLSID = "{M71BOMB}"
 				}, {
@@ -1254,9 +1256,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{ARAKM70BAP}"
 				}, {
+					CLSID = "{ARAKM70BAPPX}"
+				}, {
 					CLSID = "{Robot05}"
 				}, {
-					CLSID = "{LYSBOMB}"
+					CLSID = "{LYSBOMB_S7V}"
 				}, {
 					CLSID = "{M71BOMB}"
 				}, {
@@ -1316,9 +1320,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{ARAKM70BAP}"
 				}, {
+					CLSID = "{ARAKM70BAPPX}"
+				}, {
 					CLSID = "{Robot05}"
 				}, {
-					CLSID = "{LYSBOMB}"
+					CLSID = "{LYSBOMB_S7H}"
 				}, {
 					CLSID = "{M71BOMB}"
 				}, {
@@ -1370,10 +1376,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{ARAKM70BAP}"
 				}, {
-					CLSID = "{Rb04}",
+					CLSID = "{ARAKM70BAPPX}"
+				}, {
+					CLSID = "{Rb04_HB}",
 					Type = 1
 				}, {
-					CLSID = "{Rb15}",
+					CLSID = "{Rb15_HB}",
 					Type = 1
 				}, {
 					CLSID = "{Rb04AI}",
@@ -1390,7 +1398,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{U22A}"
 				}, {
-					CLSID = "{LYSBOMB}"
+					CLSID = "{LYSBOMB_V7H}"
 				}, {
 					CLSID = "{M71BOMB}"
 				}, {
@@ -1457,7 +1465,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			dpdh_f = 4200,
 			dpdh_m = 2000,
 			hMaxEng = 20,
-			table_data = { { 0, 65600, 115600 }, { 0.2, 65600, 115000 }, { 0.4, 79000, 150000 }, { 0.6, 82000, 165000 }, { 0.7, 90000, 177000 }, { 0.8, 94000, 193000 }, { 0.9, 96000, 200000 }, { 1, 100000, 205000 }, { 1.1, 100000, 214000 }, { 1.2, 98000, 222000 }, { 1.3, 100000, 235000 }, { 1.5, 98000, 258000 }, { 1.8, 94000, 276000 }, { 2, 88000, 283000 }, { 2.2, 82000, 285000 }, { 2.5, 80000, 287000 }, { 3.9, 50000, 200000 } },
+			table_data = { { 0, 65600, 115600 }, { 0.2, 65600, 115000 }, { 0.4, 79000, 150000 }, { 0.6, 82000, 165000 }, { 0.7, 90000, 177000 }, { 0.8, 94000, 193000 }, { 0.9, 96000, 200000 }, { 1, 100000, 205000 }, { 1.1, 100000, 214000 }, { 1.2, 98000, 222000 }, { 1.3, 98000, 235000 }, { 1.5, 98000, 258000 }, { 1.8, 94000, 276000 }, { 2, 88000, 283000 }, { 2.2, 82000, 285000 }, { 2.5, 80000, 287000 }, { 3.9, 50000, 200000 } },
 			typeng = 1
 		}
 	},
@@ -1661,11 +1669,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	bank_angle_max = 85,
 	brakeshute_name = 0,
 	chaff_flare_dispenser = { {
-			dir = { 0, 0, 0 },
-			pos = { -3, -1, -2.5 }
+			dir = { 0, 0, -0.05 },
+			pos = { -2.5, -1, -2.5 }
 		}, {
-			dir = { 0, 0, 0 },
-			pos = { -3, -1, 2.5 }
+			dir = { 0, 0, 0.05 },
+			pos = { -2.5, -1, 2.5 }
 		} },
 	crew_members = { {
 			canopy_pos = { 4.7, 0, 0 },
@@ -2002,17 +2010,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				} }
 		} },
 	passivCounterm = {
-		CMDS_Edit = true,
-		SingleChargeTotal = 280,
+		CMDS_Edit = false,
+		SingleChargeTotal = 1152,
 		chaff = {
 			chargeSz = 1,
-			default = 210,
-			increment = 4
+			default = 1080,
+			increment = 1080
 		},
 		flare = {
 			chargeSz = 1,
 			default = 72,
-			increment = 4
+			increment = 72
 		}
 	},
 	radar_can_see_ground = true,

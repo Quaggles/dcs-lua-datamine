@@ -36,5 +36,6 @@ _G["launcher"]["{M260_APKWS_M151}"] = {
 	category = 3,
 	displayName = "M260 - 7 x Laser Guided Rkts, 70 mm Hydra 70 M151 HE APKWS",
 	name = "{M260_APKWS_M151}",
+	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

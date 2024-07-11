@@ -12,7 +12,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "SAM Avenger (Stinger)",
 	Rate = 10,
 	Sensors = {
-		OPTIC = { "generic SAM search visir", "generic SAM IR search visir" }
+		Mount_WS_ID = 1,
+		OPTIC = { "generic SAM search visir", "generic SAM IR search visir" },
+		noVisualDetectorInAlarmedState = false
 	},
 	ThreatRange = 4500,
 	WS = { {
@@ -106,7 +108,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		armour_thickness = 0.002,
 		gearRatios = {}
 	},
-	driverViewPoint = { 0.3, 1.5, -0.7 },
+	driverViewPoint = { 0.5, 1.5, -0.7 },
 	enablePlayerCanDrive = true,
 	mapclasskey = "P0091000213",
 	radar_rotation_period = 1,

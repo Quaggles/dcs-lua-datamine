@@ -15,6 +15,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "IFV BMP-1",
 	Rate = 10,
 	Sensors = {
+		Mount_WS_ID = 1,
 		OPTIC = { "TKN-3B day", "TKN-3B night" }
 	},
 	ThreatRange = 3000,

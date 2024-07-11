@@ -67,7 +67,7 @@ _G["weapons_table"]["weapons"]["nurs"]["S-5M"] = {
 		},
 		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 	},
-	cx_pil = 4.3004286920946e-05,
+	cx_pil = 4.3004387483675e-05,
 	display_name = "S-5M - unguided rocket 57mm",
 	display_name_short = "S-5M - unguided rocket 57mm",
 	dist_max = 4000,

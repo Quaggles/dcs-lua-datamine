@@ -30,13 +30,13 @@ _G["launcher"]["{LAU118_AGM_45A}"] = {
 					dispName = "Mk 22 (band G) - SNR-75 (Fan Song)",
 					id = 1
 				}, {
-					dispName = "Mk 23 (complete E-F bands) - SON-9 (Fire Can), SNR-75 (Fan Song)",
+					dispName = "Mk 23 (complete E-F bands) - SON-9 (Fire Can), ST-68U (Tin Shield)",
 					id = 2
 				}, {
-					dispName = "Mk 24 Mod 5 (narrow E-F bands) - P-35 (Bar Lock), SNR-75 (Fan Song)",
+					dispName = "Mk 24 Mod 5 (narrow E-F bands) - SON-9 (Fire Can), ST-68U (Tin Shield)",
 					id = 3
 				}, {
-					dispName = "Mk 24 Mod 34 (broad E-F bands) - P-35 (Bar Lock), SNR-75 (Fan Song)",
+					dispName = "Mk 24 Mod 34 (broad E-F bands) - SON-9 (Fire Can), ST-68U (Tin Shield)",
 					id = 4
 				}, {
 					dispName = "Mk 25 (band G) - SNR-75 (Fan Song)",

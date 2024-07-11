@@ -80,7 +80,7 @@ _G["weapons_table"]["weapons"]["nurs"]["BRM1_90MM_UG"] = {
 		},
 		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 	},
-	cx_pil = 3.3779071452315e-05,
+	cx_pil = 3.3779150442478e-05,
 	display_name = "BRM1_90MM_UG",
 	display_name_short = "BRM1_90MM_UG",
 	dist_max = 8000,

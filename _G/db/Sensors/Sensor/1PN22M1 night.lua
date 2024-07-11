@@ -3,11 +3,13 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 	Name = "1PN22M1 night",
 	SensorType = 0,
 	category = 0,
+	lightness_limit = 0.03,
+	linkedAxis = 2,
 	magnifications = { 6.7 },
-	resolution = 0.04,
+	resolution = 0.03,
 	scan_volume = {
-		azimuth = { -180, 180 },
-		elevation = { -4, 15 }
+		azimuth = { -3, 3 },
+		elevation = { -3, 3 }
 	},
 	type = 1,
 	view_volume_max = {

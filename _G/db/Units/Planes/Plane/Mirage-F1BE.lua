@@ -16,7 +16,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					dispName = "Force not installed",
 					id = 3
 				} },
-			wCtrl = 140
+			wCtrl = 130,
+			wLbl = 220,
+			xCtrl = 240
 		}, {
 			control = "comboList",
 			defValue = 1,
@@ -30,7 +32,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					dispName = "Yes",
 					id = 2
 				} },
-			wCtrl = 75
+			wCtrl = 75,
+			wLbl = 220,
+			xCtrl = 240
 		}, {
 			control = "comboList",
 			defValue = 1,
@@ -56,7 +60,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					dispName = "8",
 					id = 6
 				} },
-			wCtrl = 75
+			wCtrl = 75,
+			wLbl = 220,
+			xCtrl = 240
 		}, {
 			control = "comboList",
 			defValue = 1,
@@ -76,7 +82,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					dispName = "0.4 s",
 					id = 4
 				} },
-			wCtrl = 75
+			wCtrl = 75,
+			wLbl = 220,
+			xCtrl = 240
 		}, {
 			control = "comboList",
 			defValue = 1,
@@ -99,7 +107,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					dispName = "Continuous",
 					id = 5
 				} },
-			wCtrl = 75
+			wCtrl = 75,
+			wLbl = 220,
+			xCtrl = 240
 		}, {
 			control = "comboList",
 			defValue = 1,
@@ -128,7 +138,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					dispName = "Random",
 					id = 7
 				} },
-			wCtrl = 75
+			wCtrl = 75,
+			wLbl = 220,
+			xCtrl = 240
 		}, {
 			control = "comboList",
 			defValue = 1,
@@ -151,7 +163,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					dispName = "Continuous",
 					id = 5
 				} },
-			wCtrl = 75
+			wCtrl = 75,
+			wLbl = 220,
+			xCtrl = 240
 		}, {
 			control = "comboList",
 			defValue = 1,
@@ -174,7 +188,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					dispName = "10.0 s",
 					id = 5
 				} },
-			wCtrl = 75
+			wCtrl = 75,
+			wLbl = 220,
+			xCtrl = 240
 		}, {
 			control = "comboList",
 			defValue = 1,
@@ -194,7 +210,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					dispName = "1 s",
 					id = 3
 				} },
-			wCtrl = 75
+			wCtrl = 75,
+			wLbl = 220,
+			xCtrl = 240
 		}, {
 			control = "comboList",
 			defValue = 1,
@@ -211,12 +229,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					dispName = "18",
 					id = 3
 				} },
-			wCtrl = 75
+			wCtrl = 75,
+			wLbl = 220,
+			xCtrl = 240
 		}, {
 			control = "comboList",
 			defValue = 1,
 			id = "RocketSalvoF4",
-			label = "F4 Rocket Launcher Salvo Count",
+			label = "F4/JL100 Rocket Launchers Salvo Count",
 			playerOnly = true,
 			values = { {
 					dispName = "1",
@@ -231,7 +251,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					dispName = "18",
 					id = 4
 				} },
-			wCtrl = 75
+			wCtrl = 75,
+			wLbl = 220,
+			xCtrl = 240
 		}, {
 			control = "editbox",
 			getDefault = <function 1>,
@@ -240,7 +262,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			onChange = <function 2>,
 			onFocus = <function 3>,
 			playerOnly = true,
-			wCtrl = 75
+			wCtrl = 75,
+			wLbl = 220,
+			xCtrl = 240
 		}, {
 			control = "comboList",
 			defValue = 1,
@@ -257,7 +281,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					dispName = "Force not installed",
 					id = 3
 				} },
-			wCtrl = 140
+			wCtrl = 130,
+			wLbl = 220,
+			xCtrl = 240
 		}, {
 			arg = 472,
 			argTbl = {
@@ -288,7 +314,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					dispName = "Equally Responsible",
 					id = -2
 				} },
-			wCtrl = 140
+			wCtrl = 130,
+			wLbl = 220,
+			xCtrl = 240
 		} },
 	AmmoWeight = 0,
 	CAS_min = 50,
@@ -1552,15 +1580,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				yaw_limit = 0.78539816339745
 			}, {
 				allowable_hard_contact_length = 0.2,
-				amortizer_back_damper_force_factor = 40000,
+				amortizer_back_damper_force_factor = 5000,
 				amortizer_basic_length = 0.21,
-				amortizer_direct_damper_force_factor = 60000,
+				amortizer_direct_damper_force_factor = 50000,
 				amortizer_max_length = 0.21,
 				amortizer_min_length = 0,
 				amortizer_reduce_length = 0.008,
-				amortizer_spring_force_factor = 1885000,
-				amortizer_spring_force_factor_rate = 1.755,
-				amortizer_static_force = 30000,
+				amortizer_spring_force_factor = 15000000,
+				amortizer_spring_force_factor_rate = 2.5,
+				amortizer_static_force = 50000,
 				anti_skid_installed = true,
 				arg_amortizer = 6,
 				arg_post = 5,
@@ -1570,7 +1598,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				drag_factor = 0,
 				influence_of_pos_z_to_V_l_z = true,
 				mass = 210,
-				noise_k = 0.4,
+				noise_k = 0.1,
 				track_width = 0.3,
 				wheel_axle_offset = 0.25,
 				wheel_brake_moment_max = 8500,
@@ -1587,15 +1615,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				wheel_static_friction_factor = 0.9
 			}, {
 				allowable_hard_contact_length = 0.2,
-				amortizer_back_damper_force_factor = 40000,
+				amortizer_back_damper_force_factor = 5000,
 				amortizer_basic_length = 0.21,
-				amortizer_direct_damper_force_factor = 60000,
+				amortizer_direct_damper_force_factor = 50000,
 				amortizer_max_length = 0.21,
 				amortizer_min_length = 0,
 				amortizer_reduce_length = 0.008,
-				amortizer_spring_force_factor = 1885000,
-				amortizer_spring_force_factor_rate = 1.755,
-				amortizer_static_force = 30000,
+				amortizer_spring_force_factor = 15000000,
+				amortizer_spring_force_factor_rate = 2.5,
+				amortizer_static_force = 50000,
 				anti_skid_installed = true,
 				arg_amortizer = 4,
 				arg_post = 3,
@@ -1605,7 +1633,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				drag_factor = 0,
 				influence_of_pos_z_to_V_l_z = true,
 				mass = 210,
-				noise_k = 0.4,
+				noise_k = 0.1,
 				track_width = 0.3,
 				wheel_axle_offset = 0.25,
 				wheel_brake_moment_max = 8500,
@@ -1763,7 +1791,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{MATRA_F4_SNEBT257}",
 					arg_value = 0.25
 				}, {
-					CLSID = "{MATRA_F4_SNEBT259E}",
 					arg_value = 0.25
 				}, {
 					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
@@ -1811,6 +1838,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{BLG66_BELOUGA}",
 					arg_value = 0.15,
 					attach_point_position = { 0.04, 0, 0 }
+				}, {
+					CLSID = "{AUF2_BLU107}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AUF2_SAMP125LD}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AUF2_SAMP250LD}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AUF2_SAMP250HD}",
+					arg_value = 0.15
+				}, {
+					arg_value = 0.15
+				}, {
+					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F1_SNEBT250}",
 					arg_value = 0.15
@@ -1869,7 +1912,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{MATRA_F4_SNEBT257}",
 					arg_value = 0.15
 				}, {
-					CLSID = "{MATRA_F4_SNEBT259E}",
 					arg_value = 0.15
 				}, {
 					CLSID = "PTB-1200-F1",
@@ -1898,6 +1940,18 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.15
 				}, {
 					CLSID = "{0D33DDAE-524F-4A4E-B5B8-621754FE3ADE}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AUF2_BR250}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AUF2_BRP250}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AUF2_MK82}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AUF2_GBU12}",
 					arg_value = 0.15
 				}, {
 					CLSID = "{R530F_EM}",
@@ -2006,11 +2060,21 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{CLB4_SAMP250HD}",
 					arg_value = 0.35
 				}, {
-					CLSID = "{CLB4_SAMP400LD}",
-					arg_value = 0.35
+					CLSID = "{AUF2_BLU107}",
+					arg_value = 0.15
 				}, {
-					CLSID = "{CLB4_SAMP400HD}",
-					arg_value = 0.35
+					CLSID = "{AUF2_SAMP125LD}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AUF2_SAMP250LD}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AUF2_SAMP250HD}",
+					arg_value = 0.15
+				}, {
+					arg_value = 0.15
+				}, {
+					arg_value = 0.15
 				}, {
 					CLSID = "PTB-1200-F1",
 					arg_value = 0.15
@@ -2044,6 +2108,18 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.35
 				}, {
 					CLSID = "{CLB4_BR250}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AUF2_BR250}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AUF2_BRP250}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AUF2_MK82}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AUF2_GBU12}",
 					arg_value = 0.15
 				}, {
 					CLSID = "{R530F_EM}",
@@ -2138,6 +2214,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.15,
 					attach_point_position = { 0.04, 0, 0 }
 				}, {
+					CLSID = "{AUF2_BLU107}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AUF2_SAMP125LD}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AUF2_SAMP250LD}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AUF2_SAMP250HD}",
+					arg_value = 0.15
+				}, {
+					arg_value = 0.15
+				}, {
+					arg_value = 0.15
+				}, {
 					CLSID = "{MATRA_F1_SNEBT250}",
 					arg_value = 0.15
 				}, {
@@ -2195,7 +2287,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{MATRA_F4_SNEBT257}",
 					arg_value = 0.15
 				}, {
-					CLSID = "{MATRA_F4_SNEBT259E}",
 					arg_value = 0.15
 				}, {
 					CLSID = "PTB-1200-F1",
@@ -2224,6 +2315,18 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.15
 				}, {
 					CLSID = "{0D33DDAE-524F-4A4E-B5B8-621754FE3ADE}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AUF2_BR250}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AUF2_BRP250}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AUF2_MK82}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AUF2_GBU12}",
 					arg_value = 0.15
 				}, {
 					CLSID = "{R530F_EM}",
@@ -2383,7 +2486,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{MATRA_F4_SNEBT257}",
 					arg_value = 0.25
 				}, {
-					CLSID = "{MATRA_F4_SNEBT259E}",
 					arg_value = 0.25
 				}, {
 					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
@@ -2784,7 +2886,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	average_fuel_consumption = 0.5,
 	bank_angle_max = 85,
 	bigParkingRamp = false,
-	brakeshute_name = 333,
+	brakeshute_name = 335,
 	chaff_flare_dispenser = { {
 			dir = { 0, -1, -1 },
 			pos = { -4.312, -0.648, -0.488 }
@@ -2800,16 +2902,16 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			canopy_args = { 38, 1 },
 			canopy_ejection_dir = { -0.4, 1, 0 },
 			canopy_pos = { 2.311, 0.907, 0 },
-			drop_canopy_name = 331,
+			drop_canopy_name = 333,
 			drop_parachute_name = "Mirage-F1_parachute",
 			ejection_added_speed = { -5, 15, 0 },
 			ejection_order = 2,
 			ejection_play_arg = 149,
-			ejection_seat_name = 334,
+			ejection_seat_name = 336,
 			ejection_through_canopy = true,
 			g_suit = 1,
 			pilot_body_arg = 50,
-			pilot_name = 335,
+			pilot_name = 337,
 			pos = { 3.19, 0.003, 0 },
 			role = "pilot",
 			role_display_name = "Pilot"
@@ -2821,16 +2923,16 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			canopy_args = { 421, 1 },
 			canopy_ejection_dir = { -0.4, 1, 0 },
 			canopy_pos = { 0.811, 0.892, 0 },
-			drop_canopy_name = 331,
+			drop_canopy_name = 333,
 			drop_parachute_name = "Mirage-F1_parachute",
 			ejection_added_speed = { -5, 15, 0 },
 			ejection_order = 1,
 			ejection_play_arg = 473,
-			ejection_seat_name = 336,
+			ejection_seat_name = 338,
 			ejection_through_canopy = true,
 			g_suit = 1,
 			pilot_body_arg = 472,
-			pilot_name = 337,
+			pilot_name = 339,
 			pos = { 1.525, 0.221, -0.005 },
 			role = "instructor",
 			role_display_name = "Instructor"
@@ -2880,12 +2982,19 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				typename = "collection"
 			}, {
 				lights = { {
-						argument = 209,
-						typename = "spotlight"
-					}, {
-						argument = 427,
-						speed = 3,
-						typename = "argumentlight"
+						lights = <3>{ {
+								angle_change_rate = 0.13962634015955,
+								angle_max = 0.55850536063819,
+								angle_min = 0.19198621771938,
+								argument = 209,
+								color = { 255, 216, 160, 0.4 },
+								connector = "MAIN_SPOT_PTR",
+								movable = true,
+								power_up_t = 1,
+								range = 1500,
+								typename = "spotlight"
+							} },
+						typename = "collection"
 					} },
 				typename = "collection"
 			}, {
@@ -2909,12 +3018,102 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			},
 			[6] = {
 				lights = { {
-						argument = 209,
-						typename = "spotlight"
+						lights = <table 3>,
+						typename = "collection"
+					} },
+				typename = "collection"
+			},
+			[9] = {
+				lights = { {
+						lights = { {
+								lights = { {
+										argument = 975,
+										typename = "argumentlight"
+									} },
+								typename = "collection"
+							}, {
+								lights = { {
+										argument = 69,
+										typename = "argumentlight"
+									} },
+								typename = "collection"
+							}, {
+								lights = { {
+										argument = 974,
+										typename = "argumentlight"
+									} },
+								typename = "collection"
+							}, {
+								lights = { {
+										argument = 970,
+										typename = "argumentlight"
+									} },
+								typename = "collection"
+							}, {
+								lights = { {
+										argument = 973,
+										typename = "argumentlight"
+									} },
+								typename = "collection"
+							}, {
+								lights = { {
+										argument = 971,
+										typename = "argumentlight"
+									} },
+								typename = "collection"
+							}, {
+								lights = { {
+										argument = 972,
+										typename = "argumentlight"
+									} },
+								typename = "collection"
+							} },
+						typename = "collection"
 					}, {
-						argument = 427,
-						speed = 3,
-						typename = "argumentlight"
+						lights = { {
+								lights = { {
+										argument = 980,
+										typename = "argumentlight"
+									} },
+								typename = "collection"
+							}, {
+								lights = { {
+										argument = 976,
+										typename = "argumentlight"
+									} },
+								typename = "collection"
+							}, {
+								lights = { {
+										argument = 981,
+										typename = "argumentlight"
+									} },
+								typename = "collection"
+							}, {
+								lights = { {
+										argument = 977,
+										typename = "argumentlight"
+									} },
+								typename = "collection"
+							}, {
+								lights = { {
+										argument = 982,
+										typename = "argumentlight"
+									} },
+								typename = "collection"
+							}, {
+								lights = { {
+										argument = 978,
+										typename = "argumentlight"
+									} },
+								typename = "collection"
+							}, {
+								lights = { {
+										argument = 979,
+										typename = "argumentlight"
+									} },
+								typename = "collection"
+							} },
+						typename = "collection"
 					} },
 				typename = "collection"
 			},
@@ -2985,12 +3184,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				Sequence = { {
 						C = { { "Sleep", "for", 0 } }
 					}, {
-						C = { { "VelType", 4 }, { "Arg",
-								[3] = "to",
-								[4] = 0,
-								[5] = "in",
-								[6] = 2.75
-							} }
+						C = { { "VelType", 4 }, { "Arg", 421, "to", 0, "in", 2.75 } }
 					}, {
 						C = { { "PosType", 9 }, { "Sleep", "for", 2 } }
 					} },
@@ -3010,9 +3204,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						C = { { "TearCanopy", 1 } }
 					} },
 				Transition = { "Any", "TearOff" }
+			} },
+		HeadLights = { {
+				Sequence = { {
+						C = { { "Arg", 427, "to", 0, "speed", 0.33333333333333, "sign", -1 } }
+					} },
+				Transition = { "Any", "Retract" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 427, "to", 1, "speed", 0.33333333333333, "sign", 1 } }
+					} },
+				Transition = { "Any", "Taxi" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 427, "to", 0.86, "speed", 0.33333333333333, "sign", 1 } }
+					} },
+				Transition = { "Any", "High" }
 			} }
 	},
-	net_animation = { 11, 12, 13, 14, 15, 16, 18, 28, 35, 36, 37, 38, 69, 75, 83, 86, 90, 115, 116, 117, 120, 123, 126, 127, 128, 129, 149, 182, 184, 190, 191, 201, 209, 282, 283, 284, 285, 308, 309, 310, 311, 312, 313, 314, 338, 339, 340, 341, 427, 705, 750, 751, 752, 753, 754, 755, 780, 781, 782, 802, 803, 844, 845, 905, 911, 924, 925, 926, 970, 971, 972, 973, 974, 975, 994 },
+	net_animation = { 11, 12, 13, 14, 15, 16, 18, 28, 35, 36, 37, 38, 69, 75, 83, 86, 90, 115, 116, 117, 120, 123, 126, 127, 128, 129, 149, 182, 184, 190, 191, 201, 209, 282, 283, 284, 285, 308, 309, 310, 311, 312, 313, 314, 338, 339, 340, 341, 427, 705, 750, 751, 752, 753, 754, 755, 780, 781, 782, 802, 803, 844, 845, 905, 911, 924, 925, 926, 970, 971, 972, 973, 974, 975, 994, 976, 977, 978, 979, 980, 981, 982 },
 	nose_gear_amortizer_direct_stroke = 0.151,
 	nose_gear_amortizer_normal_weight_stroke = -0.00311633945,
 	nose_gear_amortizer_reversal_stroke = -0.152,

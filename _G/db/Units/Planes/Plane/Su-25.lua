@@ -338,7 +338,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		} },
 	H_max = 10000,
 	HumanCockpit = true,
-	HumanCockpitPath = "./Mods/aircraft/Flaming Cliffs/Cockpit/KneeboardRight/",
+	HumanCockpitPath = "./Mods/aircraft/Su-25A/Cockpit/KneeboardRight/",
 	HumanCockpitPlugins = { {
 			_file = "./Mods/aircraft/NS430/entry.lua",
 			_origin = "NS430",
@@ -473,7 +473,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}
 			}
 		} },
-	HumanCommPanelPath = "./Mods/aircraft/Flaming Cliffs/Comm/Su-25.lua",
+	HumanCommPanelPath = "./Mods/aircraft/Su-25A/Comm/Su-25.lua",
 	HumanRadio = {
 		frequency = 124,
 		modulation = 0
@@ -570,6 +570,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{637334E4-AB5A-47C0-83A6-51B7F1DF3CD5}"
 				}, {
+					CLSID = "{UB32A_S5KP}"
+				}, {
+					CLSID = "{UB32A_S5M}"
+				}, {
 					CLSID = "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}"
 				}, {
 					CLSID = "{FC56DF80-9B09-44C5-8976-DCFAFF219062}"
@@ -639,6 +643,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{0180F983-C14A-11d8-9897-000476191836}"
 				}, {
 					CLSID = "{637334E4-AB5A-47C0-83A6-51B7F1DF3CD5}"
+				}, {
+					CLSID = "{UB32A_S5KP}"
+				}, {
+					CLSID = "{UB32A_S5M}"
 				}, {
 					CLSID = "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}"
 				}, {
@@ -710,6 +718,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{637334E4-AB5A-47C0-83A6-51B7F1DF3CD5}"
 				}, {
+					CLSID = "{UB32A_S5KP}"
+				}, {
+					CLSID = "{UB32A_S5M}"
+				}, {
 					CLSID = "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}"
 				}, {
 					CLSID = "{FC56DF80-9B09-44C5-8976-DCFAFF219062}"
@@ -780,6 +792,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{0180F983-C14A-11d8-9897-000476191836}"
 				}, {
 					CLSID = "{637334E4-AB5A-47C0-83A6-51B7F1DF3CD5}"
+				}, {
+					CLSID = "{UB32A_S5KP}"
+				}, {
+					CLSID = "{UB32A_S5M}"
 				}, {
 					CLSID = "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}"
 				}, {
@@ -854,6 +870,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{637334E4-AB5A-47C0-83A6-51B7F1DF3CD5}"
 				}, {
+					CLSID = "{UB32A_S5KP}"
+				}, {
+					CLSID = "{UB32A_S5M}"
+				}, {
 					CLSID = "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}"
 				}, {
 					CLSID = "{FC56DF80-9B09-44C5-8976-DCFAFF219062}"
@@ -926,6 +946,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{637334E4-AB5A-47C0-83A6-51B7F1DF3CD5}"
 				}, {
+					CLSID = "{UB32A_S5KP}"
+				}, {
+					CLSID = "{UB32A_S5M}"
+				}, {
 					CLSID = "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}"
 				}, {
 					CLSID = "{FC56DF80-9B09-44C5-8976-DCFAFF219062}"
@@ -996,6 +1020,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{637334E4-AB5A-47C0-83A6-51B7F1DF3CD5}"
 				}, {
+					CLSID = "{UB32A_S5KP}"
+				}, {
+					CLSID = "{UB32A_S5M}"
+				}, {
 					CLSID = "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}"
 				}, {
 					CLSID = "{FC56DF80-9B09-44C5-8976-DCFAFF219062}"
@@ -1063,6 +1091,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.5
 				}, {
 					CLSID = "{637334E4-AB5A-47C0-83A6-51B7F1DF3CD5}"
+				}, {
+					CLSID = "{UB32A_S5KP}"
+				}, {
+					CLSID = "{UB32A_S5M}"
 				}, {
 					CLSID = "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}"
 				}, {
@@ -1187,9 +1219,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Waypoint_Custom_Panel = true,
 	WingSpan = "14.35",
 	WorldID = 16,
+	_MAC_compatible = true,
 	_file = "Scripts/Database/planes\\Su-25.lua",
-	_file_flyable = "./Mods/aircraft/Flaming Cliffs/entry.lua",
-	_origin_flyable = "Flaming Cliffs by Eagle Dynamics",
+	_file_flyable = "./Mods/aircraft/Su-25A/entry.lua",
+	_origin_flyable = "Su-25A by Eagle Dynamics",
 	attribute = { 1, 1, 6, "Redacted", "Battleplanes", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },
 	average_fuel_consumption = 0.4895,
 	bank_angle_max = 60,

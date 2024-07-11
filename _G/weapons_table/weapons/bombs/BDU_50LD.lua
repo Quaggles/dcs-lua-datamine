@@ -36,10 +36,11 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_50LD"] = {
 			default_fuze_delay = 0,
 			expl_mass = 4e-05,
 			fantom = 1,
-			mass = 4e-05,
+			length = 0.412,
+			mass = 4.2,
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
-			piercing_mass = 8e-06
+			piercing_mass = 4.2
 		}
 	},
 	cx = { 1, 0.29, 0.71, 0.14, 1.28 },
@@ -81,10 +82,11 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_50LD"] = {
 			default_fuze_delay = 0,
 			expl_mass = 4e-05,
 			fantom = 0,
-			mass = 4e-05,
+			length = 0.412,
+			mass = 4.2,
 			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
-			piercing_mass = 8e-06
+			piercing_mass = 4.2
 		}
 	},
 	sounderName = "Weapons/Bomb",

@@ -371,7 +371,11 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				}, {
 					CLSID = "B_8V20A_OM"
 				}, {
-					CLSID = "{637334E4-AB5A-47C0-83A6-51B7F1DF3CD5}"
+					CLSID = "{UB-32A-24}"
+				}, {
+					CLSID = "{UB32A24_S5KP}"
+				}, {
+					CLSID = "{UB32A24_S5M}"
 				}, {
 					CLSID = "{B919B0F4-7C25-455E-9A02-CEA51DB895E3}"
 				}, {
@@ -401,7 +405,11 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				}, {
 					CLSID = "B_8V20A_OM"
 				}, {
-					CLSID = "{637334E4-AB5A-47C0-83A6-51B7F1DF3CD5}"
+					CLSID = "{UB-32A-24}"
+				}, {
+					CLSID = "{UB32A24_S5KP}"
+				}, {
+					CLSID = "{UB32A24_S5M}"
 				}, {
 					CLSID = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}"
 				}, {
@@ -439,7 +447,11 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				}, {
 					CLSID = "B_8V20A_OM"
 				}, {
-					CLSID = "{637334E4-AB5A-47C0-83A6-51B7F1DF3CD5}"
+					CLSID = "{UB-32A-24}"
+				}, {
+					CLSID = "{UB32A24_S5KP}"
+				}, {
+					CLSID = "{UB32A24_S5M}"
 				}, {
 					CLSID = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}"
 				}, {
@@ -477,7 +489,11 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				}, {
 					CLSID = "B_8V20A_OM"
 				}, {
-					CLSID = "{637334E4-AB5A-47C0-83A6-51B7F1DF3CD5}"
+					CLSID = "{UB-32A-24}"
+				}, {
+					CLSID = "{UB32A24_S5KP}"
+				}, {
+					CLSID = "{UB32A24_S5M}"
 				}, {
 					CLSID = "{B919B0F4-7C25-455E-9A02-CEA51DB895E3}"
 				}, {
@@ -810,7 +826,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	rotor_pos = { 0.108, 2.44, 0 },
 	scheme = 0,
 	sound_name = "Aircrafts/Engines/RotorMi24",
-	sounderName = "Aircraft/Helicopters/Mi-24",
 	stores_number = 6,
 	swapped_names = true,
 	tail_fin_area = 3.15,

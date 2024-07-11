@@ -69,7 +69,7 @@ _G["weapons_table"]["weapons"]["nurs"]["AGR_20_M282_unguided"] = {
 		},
 		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 	},
-	cx_pil = 4.7679923901827e-05,
+	cx_pil = 4.768003539823e-05,
 	display_name = "APKWS M282 unguided",
 	display_name_short = "M-282",
 	dist_max = 4000,

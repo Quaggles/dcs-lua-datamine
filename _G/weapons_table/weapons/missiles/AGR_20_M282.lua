@@ -88,6 +88,11 @@ _G["weapons_table"]["weapons"]["missiles"]["AGR_20_M282"] = {
 		mass = 17,
 		model = "AGR_20",
 		name = "AGR_20_M282",
+		properties = {
+			targeting_data = {
+				fm_type = 2
+			}
+		},
 		scheme = "schemes/missiles/APKWS.sch",
 		seeker = {
 			FOV = 0.69813170079773,
@@ -106,7 +111,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGR_20_M282"] = {
 		t_acc = 0,
 		t_b = 0,
 		t_marsh = 1.1,
-		user_name = "HYDRA-70 MPP APKWS",
+		user_name = "Hydra 70 M282 MPP APKWS",
 		v_mid = 350,
 		v_min = 140,
 		warhead = {
@@ -128,7 +133,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGR_20_M282"] = {
 		},
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
-	display_name = "HYDRA-70 MPP APKWS",
+	display_name = "Hydra 70 M282 MPP APKWS",
 	display_name_short = "APKWS",
 	mass = 17,
 	model = "AGR_20",
@@ -217,6 +222,11 @@ _G["weapons_table"]["weapons"]["missiles"]["AGR_20_M282"] = {
 		mass = 17,
 		model = "AGR_20",
 		name = "AGR_20_M282",
+		properties = {
+			targeting_data = {
+				fm_type = 2
+			}
+		},
 		scheme = "schemes/missiles/APKWS.sch",
 		seeker = {
 			FOV = 0.69813170079773,
@@ -235,7 +245,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGR_20_M282"] = {
 		t_acc = 0,
 		t_b = 0,
 		t_marsh = 1.1,
-		user_name = "HYDRA-70 MPP APKWS",
+		user_name = "Hydra 70 M282 MPP APKWS",
 		v_mid = 350,
 		v_min = 140,
 		warhead = {
@@ -258,6 +268,41 @@ _G["weapons_table"]["weapons"]["missiles"]["AGR_20_M282"] = {
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	sounderName = "Weapons/Missile",
+	targeting_data = {
+		A = 0.36,
+		I = 4.095125,
+		I_x = 1.01,
+		L = 1.81,
+		Ma = 0.84,
+		Ma_x = 1.8,
+		Mw = 3.5,
+		Mw_x = 1.12,
+		Mx0 = 0.2,
+		Sw = 0.04,
+		boost_factor = 1,
+		boost_tail = 1,
+		boost_time = 0,
+		caliber = 0.07,
+		custom_smoke_dissipation_factor = 0.2,
+		cx_coeff = { 1, 1.5, 0.68, 0.7, 1.75 },
+		dCydA = { 0.11, 0.11 },
+		finsTau = 0.1,
+		fm_type = 2,
+		fuel_mass = 3.175,
+		impulse = 210,
+		mass = 17,
+		maxAoa = 0.13962634015955,
+		nozzle_orientationXYZ = { { 0, 0, 0 } },
+		nozzle_position = { { -0.95, 0, 0 } },
+		shapeName = "AGR_20",
+		smoke_color = { 0.5, 0.474, 0.443 },
+		smoke_transparency = 0.5,
+		tail_width = 0.052,
+		wind_sigma = 5,
+		wind_time = 1.1,
+		work_tail = 1,
+		work_time = 1.1
+	},
 	type_name = "missile",
 	ws_type = { 4, 4, 8, "Redacted" }
 }

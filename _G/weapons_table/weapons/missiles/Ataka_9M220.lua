@@ -1,6 +1,6 @@
 _G["weapons_table"]["weapons"]["missiles"]["Ataka_9M220"] = {
 	Reflection = 0.03,
-	_file = "./CoreMods/aircraft/AircraftWeaponPack/AA_Missiles.lua",
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/AS_Missiles.lua",
 	_origin = "AircraftWeaponPack",
 	_unique_resource_name = "weapons.missiles.Ataka_9M220",
 	caliber = 0.13,
@@ -30,7 +30,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Ataka_9M220"] = {
 		X_back = -0.922,
 		Y_back = 0,
 		Z_back = 0,
-		_file = "./CoreMods/aircraft/AircraftWeaponPack/AA_Missiles.lua",
+		_file = "./CoreMods/aircraft/AircraftWeaponPack/AS_Missiles.lua",
 		_origin = "AircraftWeaponPack",
 		autopilot = {
 			Kd = 0.036,
@@ -167,7 +167,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Ataka_9M220"] = {
 		warhead_air = {
 			fantom = 1
 		},
-		wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
+		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	display_name = "9M220O Ataka (AT-9 Spiral-2)",
 	display_name_short = "9M220",
@@ -200,7 +200,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Ataka_9M220"] = {
 		X_back = -0.922,
 		Y_back = 0,
 		Z_back = 0,
-		_file = "./CoreMods/aircraft/AircraftWeaponPack/AA_Missiles.lua",
+		_file = "./CoreMods/aircraft/AircraftWeaponPack/AS_Missiles.lua",
 		_origin = "AircraftWeaponPack",
 		autopilot = {
 			Kd = 0.036,
@@ -337,9 +337,12 @@ _G["weapons_table"]["weapons"]["missiles"]["Ataka_9M220"] = {
 		warhead_air = {
 			fantom = 0
 		},
-		wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
+		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
 	sounderName = "Weapons/Missile",
+	targeting_data = {
+		fm_type = -1
+	},
 	type_name = "missile",
-	ws_type = { 4, 4, 7, "Redacted" }
+	ws_type = { 4, 4, 8, "Redacted" }
 }

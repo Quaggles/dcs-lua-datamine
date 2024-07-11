@@ -1,5 +1,6 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Countries = { "USA" },
+	Crew = 0,
 	DetectionRange = 50000,
 	DisplayName = "SAM NASAMS SR MPQ64F1",
 	DisplayNameShort = "NASAMS SR",
@@ -263,6 +264,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			},
 			pos = { 0, 3, 0 }
 		},
+		isDetector = true,
 		maxTargetDetectionRange = 60000,
 		radar_rotation_type = 1,
 		radar_type = 102,
@@ -325,6 +327,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	defaultStartAlarmState = 2,
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000083",
+	maxDeviationPitch = 0.05235987755983,
+	maxDeviationRoll = 0.087266462599716,
 	radar_rotation_period = -2,
 	sensor = {
 		height = 2.7,
@@ -350,6 +354,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	swapped_names = true,
 	tags = { "Air Defence", "Search Radar" },
 	type = "NASAMS_Radar_MPQ64F1",
+	verticalDeviationCompensationPeriod = 10,
 	visual = {
 		IR = {
 			coeffs = { { 0.031, 0.0022 }, { 0.003, 0.0031 }, { 0.205, 0.005, 2 }, { 0.001, 0.17 }, { 0.2, 0.00026666666666667 } }

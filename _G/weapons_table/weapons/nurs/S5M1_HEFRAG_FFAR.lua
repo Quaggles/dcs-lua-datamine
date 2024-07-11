@@ -69,7 +69,7 @@ _G["weapons_table"]["weapons"]["nurs"]["S5M1_HEFRAG_FFAR"] = {
 		},
 		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 	},
-	cx_pil = 2.0422352116713e-05,
+	cx_pil = 2.0422399873056e-05,
 	display_name = "S-5M1 HE-FRAG FFAR",
 	display_name_short = "S-5M1 HE-FRAG FFAR",
 	dist_max = 2500,

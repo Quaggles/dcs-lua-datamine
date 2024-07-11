@@ -3,11 +3,12 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 	Name = "PERI-Z11 day",
 	SensorType = 0,
 	category = 0,
+	linkedAxis = 2,
 	magnifications = { 2, 6 },
-	resolution = 0.3,
+	resolution = 0.8,
 	scan_volume = {
-		azimuth = { -180, 180 },
-		elevation = { -35, 35 }
+		azimuth = { -8, 8 },
+		elevation = { -8, 8 }
 	},
 	type = 0,
 	view_volume_max = {

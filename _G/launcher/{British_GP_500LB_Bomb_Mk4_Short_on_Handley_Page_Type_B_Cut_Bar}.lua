@@ -33,7 +33,10 @@ _G["launcher"]["{British_GP_500LB_Bomb_Mk4_Short_on_Handley_Page_Type_B_Cut_Bar}
 			stringIndex = 1,
 			values = { {
 					dispName = "Nose Pistol No. 27 Mk II",
-					id = 1
+					id = 1,
+					secondaryParams = {
+						tooltip = "Mechanical, impact\nArmed by vane rotation"
+					}
 				}, {
 					dispName = "Plugged",
 					id = "EMPTY_NOSE",
@@ -103,7 +106,10 @@ _G["launcher"]["{British_GP_500LB_Bomb_Mk4_Short_on_Handley_Page_Type_B_Cut_Bar}
 			stringIndex = 3,
 			values = { {
 					dispName = "Tail Pistol No. 30 Mk III",
-					id = 1
+					id = 1,
+					secondaryParams = {
+						tooltip = "Mechanical, impact\nArmed by vane rotation"
+					}
 				}, {
 					dispName = "Plugged",
 					id = "EMPTY_TAIL",

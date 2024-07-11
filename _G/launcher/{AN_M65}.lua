@@ -23,25 +23,46 @@ _G["launcher"]["{AN_M65}"] = {
 			stringIndex = 1,
 			values = { {
 					dispName = "AN-M103A1",
-					id = 1
+					id = 1,
+					secondaryParams = {
+						tooltip = "Mechanical, impact\nArmed by vane rotation\nAvailable arming parameters depend on selected function delay"
+					}
 				}, {
 					dispName = "Mk 243 Mod 0",
-					id = 2
+					id = 2,
+					secondaryParams = {
+						tooltip = "Mechanical, impact\nArmed by vane rotation"
+					}
 				}, {
 					dispName = "Mk 244 Mod 1",
-					id = 3
+					id = 3,
+					secondaryParams = {
+						tooltip = "Mechanical, impact\nArmed by vane rotation"
+					}
 				}, {
 					dispName = "M135A1",
-					id = 4
+					id = 4,
+					secondaryParams = {
+						tooltip = "Mechanical, time\nArmed by vane rotation"
+					}
 				}, {
 					dispName = "M136A1",
-					id = 5
+					id = 5,
+					secondaryParams = {
+						tooltip = "Mechanical, time\nArmed by vane rotation"
+					}
 				}, {
 					dispName = "AN-M139A1",
-					id = 6
+					id = 6,
+					secondaryParams = {
+						tooltip = "Mechanical, impact\nArmed by vane rotation\nAvailable arming parameters depend on selected function delay"
+					}
 				}, {
 					dispName = "AN-M140A1",
-					id = 7
+					id = 7,
+					secondaryParams = {
+						tooltip = "Mechanical, impact\nArmed by vane rotation\nAvailable arming parameters depend on selected function delay"
+					}
 				}, {
 					dispName = "Plugged",
 					id = "EMPTY_NOSE",
@@ -431,19 +452,34 @@ _G["launcher"]["{AN_M65}"] = {
 			stringIndex = 3,
 			values = { {
 					dispName = "AN-M102A2",
-					id = 1
+					id = 1,
+					secondaryParams = {
+						tooltip = "Mechanical, impact\nArmed by vane rotation"
+					}
 				}, {
 					dispName = "AN-M117",
-					id = 2
+					id = 2,
+					secondaryParams = {
+						tooltip = "Mechanical, impact\nArmed by vane rotation"
+					}
 				}, {
 					dispName = "AN-M125A1",
-					id = 3
+					id = 3,
+					secondaryParams = {
+						tooltip = "Mechanical, impact\nArmed by vane rotation\nHas a chemical long-delay element"
+					}
 				}, {
 					dispName = "AN-M134",
-					id = 4
+					id = 4,
+					secondaryParams = {
+						tooltip = "Mechanical, impact\nArmed by vane rotation\nHas a chemical long-delay element"
+					}
 				}, {
 					dispName = "M162",
-					id = 5
+					id = 5,
+					secondaryParams = {
+						tooltip = "Mechanical, impact\nArmed by vane rotation"
+					}
 				}, {
 					dispName = "Plugged",
 					id = "EMPTY_TAIL",

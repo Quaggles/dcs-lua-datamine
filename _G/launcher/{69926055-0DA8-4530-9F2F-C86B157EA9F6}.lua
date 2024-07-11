@@ -29,8 +29,12 @@ _G["launcher"]["{69926055-0DA8-4530-9F2F-C86B157EA9F6}"] = {
 		} },
 	Picture = "LAU131.png",
 	Weight = 102.3,
-	_file = "Scripts/Database/db_weapons_data.lua",
+	Weight_Empty = 29.5,
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
+	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
-	displayName = 'LAU-131 pod - 7 x 2.75" Hydra, UnGd Rkts M151, HE',
+	category = 3,
+	displayName = "LAU-131 - 7 x UnGd Rkts, 70 mm Hydra 70 M151 HE",
+	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

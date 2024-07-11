@@ -101,12 +101,14 @@ _G["launcher"]["{UB-32A-24}"] = {
 		} },
 	Picture = "rus_UB-32_S-5KO.png",
 	PictureBlendColor = "0xffffffff",
-	Weight = 275,
+	Weight = 248.72,
+	Weight_Empty = 106,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/rockets.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
-	displayName = "UB-32A-24 pod - 32 x S-5KO",
+	displayName = "UB-32A-24 - 32 x UnGd Rkts, 57 mm S-5KO HEAT/Frag",
 	name = "{UB-32A-24}",
+	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

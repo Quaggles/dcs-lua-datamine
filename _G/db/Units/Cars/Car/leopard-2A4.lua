@@ -178,7 +178,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "MBT Leopard-2A4",
 	Rate = 20,
 	Sensors = {
-		OPTIC = { "EMES 15 day", "EMES 15 night" }
+		Mount_WS_ID = 1,
+		OPTIC = { "PERI-R17A2 day", "PERI-R17A2 night" }
 	},
 	ThreatRange = 3500,
 	WS = { {
@@ -391,7 +392,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "leopard-2A4",
 	visual = {
 		IR = {
-			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0019, 0.0013 }, { 0.001, 0.17 }, { 0.3, 0.00017142857142857 } }
+			coeffs = { { 0.02, 0.0012 }, { 0.008, 0.002 }, { 0.0024, 0.002 }, { 0.001, 0.17 }, { 0.3, 0.00017142857142857 } }
 		},
 		dirt_pos = { -3.4, 0.8, -1.4 },
 		dust_pos = { 3.6, 0.2, -1.4 },
