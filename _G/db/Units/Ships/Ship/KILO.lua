@@ -1,5 +1,5 @@
 _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
-	CustomAimPoint = { 10, 2.7, 0 },
+	CustomAimPoint = { 10, 1.4, 0 },
 	DeckLevel = 2.45,
 	DetectionRange = 0,
 	DisplayName = "SSK 877V Kilo",

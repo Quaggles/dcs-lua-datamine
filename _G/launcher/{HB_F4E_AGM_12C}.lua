@@ -12,7 +12,7 @@ _G["launcher"]["{HB_F4E_AGM_12C}"] = {
 			connector_name = "AGM45_ATTACH"
 		} },
 	JettisonSubmunitionOnly = true,
-	Picture = "GBU31.png",
+	Picture = "Picto_AGM12.png",
 	_file = "./CoreMods/aircraft/F-4E/Entry/Weapons.lua",
 	_origin = "F-4E AI by Heatblur Simulations",
 	attribute = { 4, 7, 32, "Redacted" },

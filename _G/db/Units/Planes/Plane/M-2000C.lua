@@ -906,6 +906,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		center_of_mass = { -1.35, 0.25, 0 },
 		config_path = "./Mods/aircraft/M-2000C/FM/config.lua",
 		disable_built_in_oxygen_system = false,
+		mach_condensation = {
+			altitude_factor = 2,
+			intensity = 0.3,
+			mach_begin = 1,
+			mach_end = 1.03,
+			mach_transition = 0.02,
+			position = -4,
+			radius = 2.5
+		},
 		moment_of_inertia = { 15288, 80000, 70000, 0 },
 		suspension = { {
 				allowable_hard_contact_length = 0.1,

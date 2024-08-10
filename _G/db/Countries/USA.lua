@@ -1606,11 +1606,17 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "HEMTT_C-RAM_Phalanx"
+					Name = "MaxxPro_MRAP",
+					in_service = 0,
+					out_of_service = 40000
 				}, {
-					Name = "M1A2C_SEP_V3"
+					Name = "HEMTT_C-RAM_Phalanx",
+					in_service = 0,
+					out_of_service = 40000
 				}, {
-					Name = "MaxxPro_MRAP"
+					Name = "M1A2C_SEP_V3",
+					in_service = 0,
+					out_of_service = 40000
 				}, {
 					Name = "TugHarlan_drivable"
 				}, {
@@ -2295,6 +2301,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "AH-64D_BLK_II",
 					in_service = 0,
 					out_of_service = 40000
+				}, {
+					Name = "CH-47Fbl1"
 				}, {
 					Name = "Ka-50_3"
 				}, {

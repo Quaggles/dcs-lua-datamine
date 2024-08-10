@@ -374,12 +374,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[23] = {
 			args = { 223 },
 			critical_damage = 3,
-			deps_cells = { 27 }
+			deps_cells = { 21 }
 		},
 		[24] = {
 			args = { 213 },
 			critical_damage = 3,
-			deps_cells = { 28 }
+			deps_cells = { 22 }
 		},
 		[25] = {
 			args = { 226 },
@@ -431,7 +431,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[36] = {
 			args = { 215 },
 			critical_damage = 7,
-			deps_cells = { 26, 22, 34, 38, 32, 25 }
+			deps_cells = { 26, 22, 34, 38, 32, 28 }
 		},
 		[37] = {
 			args = { 227 },
@@ -497,20 +497,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 2
 		},
 		[61] = {
-			args = { 224 },
-			critical_damage = 7
-		},
-		[62] = {
-			args = { 214 },
+			args = { 155 },
 			critical_damage = 7
 		},
 		[64] = {
 			args = { 181 },
 			critical_damage = 10
-		},
-		[65] = {
-			args = { 155 },
-			critical_damage = 7
 		},
 		[66] = {
 			args = { 180 },
@@ -1650,7 +1642,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	HumanCommPanelPath = "./Mods/aircraft/Mirage-F1/Comm/comm.lua",
 	HumanFM = { "Mirage F1 by Aerges", "MirageF1cmn",
 		center_of_mass = { -1.425, -0.096, 0 },
-		config_path = "./Mods/aircraft/Mirage-F1/",
+		config_path = "./Mods/aircraft/Mirage-F1/config.lua",
 		disable_built_in_oxygen_system = true,
 		gyro_effect = true,
 		moment_of_inertia = { 8206, 70591, 65780, 2729 },
@@ -1925,6 +1917,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "BR_500",
 					arg_value = 0.25
+				}, {
+					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
+					arg_value = 0.25
 				} },
 			Number = 2,
 			Order = 2,
@@ -2181,6 +2176,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{CLB4_SAMP250HD}",
 					arg_value = 0.35
 				}, {
+					CLSID = "{CLB4_SAMP400LD}",
+					arg_value = 0.35
+				}, {
+					CLSID = "{CLB4_SAMP400HD}",
+					arg_value = 0.35
+				}, {
 					CLSID = "{AUF2_BLU107}",
 					arg_value = 0.15
 				}, {
@@ -2223,6 +2224,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.15
 				}, {
 					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{0D33DDAE-524F-4A4E-B5B8-621754FE3ADE}",
 					arg_value = 0.15
 				}, {
 					CLSID = "{CLB4_MK82}",
@@ -2619,6 +2623,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.25
 				}, {
 					CLSID = "BR_500",
+					arg_value = 0.25
+				}, {
+					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
 					arg_value = 0.25
 				} },
 			Number = 6,
@@ -3051,13 +3058,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 								typename = "collection"
 							} },
 						typename = "collection"
-					} },
-				typename = "collection"
-			},
-			[10] = {
-				lights = { {
-						argument = 903,
-						typename = "argumentlight"
 					} },
 				typename = "collection"
 			},

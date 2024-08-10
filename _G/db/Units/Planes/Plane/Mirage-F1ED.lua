@@ -356,12 +356,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[23] = {
 			args = { 223 },
 			critical_damage = 3,
-			deps_cells = { 27 }
+			deps_cells = { 21 }
 		},
 		[24] = {
 			args = { 213 },
 			critical_damage = 3,
-			deps_cells = { 28 }
+			deps_cells = { 22 }
 		},
 		[25] = {
 			args = { 226 },
@@ -413,7 +413,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[36] = {
 			args = { 215 },
 			critical_damage = 7,
-			deps_cells = { 26, 22, 34, 38, 32, 25 }
+			deps_cells = { 26, 22, 34, 38, 32, 28 }
 		},
 		[37] = {
 			args = { 227 },
@@ -479,20 +479,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 2
 		},
 		[61] = {
-			args = { 224 },
-			critical_damage = 7
-		},
-		[62] = {
-			args = { 214 },
+			args = { 155 },
 			critical_damage = 7
 		},
 		[64] = {
 			args = { 181 },
 			critical_damage = 10
-		},
-		[65] = {
-			args = { 155 },
-			critical_damage = 7
 		},
 		[66] = {
 			args = { 180 },
@@ -1850,6 +1842,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{CLB4_SAMP250HD}",
 					arg_value = 0.35
 				}, {
+					CLSID = "{CLB4_SAMP400LD}",
+					arg_value = 0.35
+				}, {
+					CLSID = "{CLB4_SAMP400HD}",
+					arg_value = 0.35
+				}, {
 					CLSID = "{AUF2_BLU107}",
 					arg_value = 0.15
 				}, {
@@ -2470,13 +2468,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 								typename = "collection"
 							} },
 						typename = "collection"
-					} },
-				typename = "collection"
-			},
-			[10] = {
-				lights = { {
-						argument = 903,
-						typename = "argumentlight"
 					} },
 				typename = "collection"
 			},

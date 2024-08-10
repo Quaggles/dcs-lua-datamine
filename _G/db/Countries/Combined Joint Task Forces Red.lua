@@ -922,11 +922,23 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "GAZ-3308",
+					Name = "MaxxPro_MRAP",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Soldier stinger",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
 					Name = "Infantry AK Ins",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Soldier RPG",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "GAZ-3308",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -935,10 +947,6 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "Soldier AK",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Soldier RPG",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -1047,10 +1055,6 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "Roland Radar",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Soldier stinger",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -1210,6 +1214,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "HEMTT_C-RAM_Phalanx",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Gepard",
 					in_service = 0,
 					out_of_service = 40000
@@ -1318,15 +1326,7 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "HEMTT_C-RAM_Phalanx",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
 					Name = "M1A2C_SEP_V3",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "MaxxPro_MRAP",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -2008,6 +2008,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "AH-64D_BLK_II"
 				}, {
+					Name = "CH-47Fbl1"
+				}, {
 					Name = "Ka-50_3"
 				}, {
 					Name = "Mi-24P"
@@ -2042,11 +2044,11 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "CH-47D",
+					Name = "UH-60A",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "UH-60A",
+					Name = "CH-47D",
 					in_service = 0,
 					out_of_service = 40000
 				}, {

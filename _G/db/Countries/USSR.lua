@@ -1284,6 +1284,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "AH-64D_BLK_II"
 				}, {
+					Name = "CH-47Fbl1"
+				}, {
 					Name = "Ka-50_3"
 				}, {
 					Name = "OH58D"

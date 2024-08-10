@@ -10,6 +10,12 @@ _G["weapons_table"]["aircraft_gunpods"]["{CH47_STBD_M60D}"] = {
 			drop_cartridge = 205,
 			effective_fire_distance = 1500,
 			effects = { {
+					arg = 46,
+					attenuation = 2,
+					duration = 0.05,
+					light_pos = { 0.5, 0, 0 },
+					name = "FireEffect"
+				}, {
 					name = "SmokeEffect"
 				}, {
 					arg_main = 19,

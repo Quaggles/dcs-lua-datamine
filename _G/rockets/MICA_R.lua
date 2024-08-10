@@ -25,6 +25,7 @@ _G["rockets"]["#Index"] = {
 	PN_gain = 4,
 	Range_max = 45000,
 	Reflection = 0.07,
+	SeekerGen = 3,
 	X_back = -1.072,
 	Y_back = -0.1,
 	Z_back = 0,

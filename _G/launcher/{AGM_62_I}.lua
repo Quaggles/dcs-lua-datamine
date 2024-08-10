@@ -11,5 +11,7 @@ _G["launcher"]["{AGM_62_I}"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 5, 36, "Redacted" },
 	category = 1,
-	displayName = "AGM-62 Walleye I - Guided Weapon Mk 1 (TV Guided)"
+	displayName = "AGM-62 Walleye I - Guided Weapon Mk 1 (TV Guided)",
+	ejectPitchRate = 0,
+	ejectVelocity = 2
 }

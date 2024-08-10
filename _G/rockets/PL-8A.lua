@@ -25,6 +25,7 @@ _G["rockets"]["#Index"] = {
 	Range_max = 20000,
 	Reflection = 0.0329,
 	SeekerCooled = true,
+	SeekerGen = 3,
 	SeekerSensivityDistance = 20000,
 	X_back = -1.61,
 	Y_back = 0,

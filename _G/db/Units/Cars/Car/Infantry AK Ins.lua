@@ -1,10 +1,10 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 0,
-	DisplayName = "Insurgent AK-74",
-	DisplayNameShort = "AK74 Ins",
+	DisplayName = "Insurgent AKM",
+	DisplayNameShort = "AKM Ins",
 	IR_emission_coeff = 0.004,
 	MaxSpeed = 14.4,
-	Name = "Insurgent AK-74",
+	Name = "Insurgent AKM",
 	Rate = 1,
 	ThreatRange = 500,
 	Transportable = {

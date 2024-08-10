@@ -660,6 +660,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "MaxxPro_MRAP",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "TugHarlan_drivable"
 				}, {
 					Name = "B600_drivable"
@@ -1325,6 +1329,8 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "AH-64D_BLK_II"
+				}, {
+					Name = "CH-47Fbl1"
 				}, {
 					Name = "Mi-24P"
 				}, {

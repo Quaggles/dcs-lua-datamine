@@ -77,7 +77,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 17, 26, "Redacted", "APC", "Datalink", "Infantry carriers", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "NonAndLightArmoredUnits", "LightArmoredUnits" },
 	category = "Armor",
 	chassis = {
-		gearRatios = {}
+		COM_pos = {},
+		gearRatios = {},
+		wheelPosts = { {
+				pos = {}
+			}, {
+				pos = {}
+			}, {
+				pos = {}
+			}, {
+				pos = {}
+			} }
 	},
 	driverCockpit = "DriverCockpit/DriverCockpit",
 	driverViewConnectorName = "POINT_DRIVER",

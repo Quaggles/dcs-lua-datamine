@@ -402,6 +402,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "HEMTT_C-RAM_Phalanx",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "TugHarlan_drivable"
 				}, {
 					Name = "B600_drivable"
@@ -1089,6 +1093,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "AH-64D_BLK_II",
 					in_service = 0,
 					out_of_service = 40000
+				}, {
+					Name = "CH-47Fbl1"
 				}, {
 					Name = "Ka-50_3"
 				}, {

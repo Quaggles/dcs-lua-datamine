@@ -23,6 +23,7 @@ _G["rockets"]["#Index"] = {
 	OmViz_max = 99.9,
 	Range_max = 45000,
 	Reflection = 0.1676,
+	SeekerGen = 2,
 	X_back = -2.68,
 	Y_back = 0,
 	Z_back = 0,
