@@ -7,25 +7,25 @@ _G["launcher"]["XM158_M156"] = {
 			ShapeName = "XM158"
 		}, {
 			ShapeName = "hydra_m151he",
-			connector_name = "tube_01"
+			connector_name = "tube_1"
 		}, {
 			ShapeName = "hydra_m151he",
-			connector_name = "tube_02"
+			connector_name = "tube_2"
 		}, {
 			ShapeName = "hydra_m151he",
-			connector_name = "tube_03"
+			connector_name = "tube_3"
 		}, {
 			ShapeName = "hydra_m151he",
-			connector_name = "tube_04"
+			connector_name = "tube_4"
 		}, {
 			ShapeName = "hydra_m151he",
-			connector_name = "tube_05"
+			connector_name = "tube_5"
 		}, {
 			ShapeName = "hydra_m151he",
-			connector_name = "tube_06"
+			connector_name = "tube_6"
 		}, {
 			ShapeName = "hydra_m151he",
-			connector_name = "tube_07"
+			connector_name = "tube_7"
 		} },
 	Picture = "LAU68.png",
 	Weight = 91.76,
