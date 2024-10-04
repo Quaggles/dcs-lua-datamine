@@ -930,6 +930,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			role_display_name = "Copilot"
 		} },
 	detection_range_max = 350,
+	encyclopedia_hidden = true,
 	engines_count = 2,
 	engines_nozzles = { {
 			diameter = 1.072,

@@ -96,6 +96,17 @@ _G["rockets"]["#Index"] = {
 		delay = 1.1,
 		max_seeker_range = 13000
 	},
+	settings = { {
+			control = "laserCode",
+			defValue = 1688,
+			id = "laser_code",
+			label = "Laser Seeker Code",
+			maxV = "4888",
+			minV = "1111",
+			stringIndex = 1,
+			tooltip = "Lower Limit: 1111\nUpper Limit: 4888",
+			xCtrl = 200
+		} },
 	shape_table_data = { {
 			file = "AGR_20",
 			fire = { 0, 1 },

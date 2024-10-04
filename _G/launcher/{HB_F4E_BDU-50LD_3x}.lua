@@ -118,7 +118,7 @@ _G["launcher"]["{HB_F4E_BDU-50LD_3x}"] = {
 				} },
 			baseDim = "s",
 			control = "spinbox",
-			defValue = 2,
+			defValue = 4,
 			dimension = "s",
 			id = "NFP_arm_delay_ctrl_M904E4",
 			label = "Arm Delay",

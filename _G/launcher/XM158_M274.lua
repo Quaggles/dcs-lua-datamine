@@ -6,25 +6,25 @@ _G["launcher"]["XM158_M274"] = {
 			IsAdapter = true,
 			ShapeName = "XM158"
 		}, {
-			ShapeName = "hydra_m151he",
+			ShapeName = "hydra_m156",
 			connector_name = "tube_1"
 		}, {
-			ShapeName = "hydra_m151he",
+			ShapeName = "hydra_m156",
 			connector_name = "tube_2"
 		}, {
-			ShapeName = "hydra_m151he",
+			ShapeName = "hydra_m156",
 			connector_name = "tube_3"
 		}, {
-			ShapeName = "hydra_m151he",
+			ShapeName = "hydra_m156",
 			connector_name = "tube_4"
 		}, {
-			ShapeName = "hydra_m151he",
+			ShapeName = "hydra_m156",
 			connector_name = "tube_5"
 		}, {
-			ShapeName = "hydra_m151he",
+			ShapeName = "hydra_m156",
 			connector_name = "tube_6"
 		}, {
-			ShapeName = "hydra_m151he",
+			ShapeName = "hydra_m156",
 			connector_name = "tube_7"
 		} },
 	Picture = "LAU68.png",

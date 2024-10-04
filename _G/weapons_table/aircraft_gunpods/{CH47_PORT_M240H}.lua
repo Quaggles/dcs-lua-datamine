@@ -10,27 +10,22 @@ _G["weapons_table"]["aircraft_gunpods"]["{CH47_PORT_M240H}"] = {
 			drop_cartridge = 205,
 			effective_fire_distance = 1100,
 			effects = { {
-					arg = 444,
-					barrel_k = 7.392,
-					body_k = 0,
-					name = "VisualHeatEffect",
-					shot_heat = 7.823
-				}, {
 					arg = 46,
+					attenuation = 2,
 					duration = 0.05,
 					light_pos = { 0.5, 0, 0 },
 					name = "FireEffect"
 				}, {
 					name = "SmokeEffect"
 				}, {
-					arg_main = 552,
-					arg_tail = 553,
+					arg_main = 19,
+					arg_tail = 0,
 					full_load = 200,
 					name = "FeedBelt",
-					tail_load = 70
+					tail_load = 1
 				} },
-			ejector_dir = { 3, 0, 0 },
-			ejector_pos = { -0.7, -0.1, 0 },
+			ejector_dir = { -2, -5, 0 },
+			ejector_pos = { -0.5, -0.5, 0 },
 			elevation_initial = 0,
 			gun = {
 				impulse_vec_rot = {
@@ -52,7 +47,7 @@ _G["weapons_table"]["aircraft_gunpods"]["{CH47_PORT_M240H}"] = {
 				count = 400,
 				get_mass = <function 1>,
 				get_mass_ = <function 2>,
-				reload_arg = 500,
+				reload_arg = 0,
 				reload_every = 200,
 				reload_time = 7,
 				shells = { {
@@ -122,9 +117,9 @@ _G["weapons_table"]["aircraft_gunpods"]["{CH47_PORT_M240H}"] = {
 			},
 			supply_position = { 0, 0, 0 },
 			turret = {
-				H_Arg = 423,
+				H_Arg = 12,
 				H_Vel = 60,
-				V_Arg = 424,
+				V_Arg = 11,
 				V_Vel = 60,
 				crewMemberInCommandIdx = 4,
 				name = "CH47_PORT_M240H"

@@ -137,7 +137,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		}, {
 			area_name = "GUN",
 			armour = {
-				width = 1000
+				width = 0.27
 			}
 		} },
 	DetectionRange = 0,

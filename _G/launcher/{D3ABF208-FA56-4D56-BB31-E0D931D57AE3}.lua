@@ -100,7 +100,7 @@ _G["launcher"]["{D3ABF208-FA56-4D56-BB31-E0D931D57AE3}"] = {
 				} },
 			baseDim = "s",
 			control = "spinbox",
-			defValue = 2,
+			defValue = 4,
 			dimension = "s",
 			id = "arm_delay_ctrl_M904E4",
 			label = "Arm Delay",

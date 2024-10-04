@@ -72,22 +72,22 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		}, {
 			area_name = "Bashnya_Dop_BORT_Lev",
 			armour = {
-				width = 0.5
+				width = 0.2
 			}
 		}, {
 			area_name = "Bashnya_Dop_BORT_Prav",
 			armour = {
-				width = 0.5
+				width = 0.2
 			}
 		}, {
 			area_name = "Bashnya_BORT_Lev",
 			armour = {
-				width = 0.3
+				width = 0.5
 			}
 		}, {
 			area_name = "Bashnya_BORT_Prav",
 			armour = {
-				width = 0.3
+				width = 0.5
 			}
 		}, {
 			area_name = "Bashnya_ZAD",
@@ -147,7 +147,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		}, {
 			area_name = "Guslya_Lev_Front",
 			armour = {
-				width = 1.5
+				width = 0.25
 			}
 		}, {
 			area_name = "Guslya_Prav",
@@ -157,12 +157,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		}, {
 			area_name = "Guslya_Prav_Front",
 			armour = {
-				width = 1.5
+				width = 0.25
 			}
 		}, {
 			area_name = "Orudie_Maska",
 			armour = {
-				width = 0.5
+				width = 0.4
 			}
 		}, {
 			area_name = "Orudie",

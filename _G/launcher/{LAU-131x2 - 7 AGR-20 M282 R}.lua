@@ -21,6 +21,17 @@ _G["launcher"]["{LAU-131x2 - 7 AGR-20 M282 R}"] = {
 	category = 3,
 	displayName = "BRU-42: 2 x LAU-131 - 7 x Laser Guided Rkts, 70 mm Hydra 70 M282 MPP APKWS",
 	name = "{LAU-131x2 - 7 AGR-20 M282 R}",
+	settings = { {
+			control = "laserCode",
+			defValue = 1688,
+			id = "laser_code",
+			label = "Laser Seeker Code",
+			maxV = "4888",
+			minV = "1111",
+			stringIndex = 1,
+			tooltip = "Lower Limit: 1111\nUpper Limit: 4888",
+			xCtrl = 200
+		} },
 	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

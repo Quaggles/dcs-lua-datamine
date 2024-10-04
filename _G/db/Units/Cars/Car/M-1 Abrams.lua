@@ -37,22 +37,22 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		}, {
 			area_name = "Falshbort_Lev",
 			armour = {
-				width = 0.01
+				width = 0.09
 			}
 		}, {
 			area_name = "Falshbort_Prav",
 			armour = {
-				width = 0.01
+				width = 0.09
 			}
 		}, {
 			area_name = "Guslya_Lev",
 			armour = {
-				width = 1000
+				width = 0.25
 			}
 		}, {
 			area_name = "Guslya_Prav",
 			armour = {
-				width = 1000
+				width = 0.25
 			}
 		}, {
 			area_name = "Orudie_Maska",
@@ -65,11 +65,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				width = 0.4
 			}
 		}, {
-			area_name = "Datchik_vetra",
-			armour = {
-				width = 0.001
-			}
-		}, {
 			area_name = "Luk_Kom",
 			armour = {
 				width = 0.06
@@ -77,22 +72,22 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		}, {
 			area_name = "Pricel_1",
 			armour = {
-				width = 0.01
+				width = 0.11
 			}
 		}, {
 			area_name = "Pricel_2",
 			armour = {
-				width = 0.01
+				width = 0.11
 			}
 		}, {
 			area_name = "Telo_BORT_Lev",
 			armour = {
-				width = 0.26
+				width = 0.1
 			}
 		}, {
 			area_name = "Telo_BORT_Prav",
 			armour = {
-				width = 0.26
+				width = 0.1
 			}
 		}, {
 			area_name = "Telo_MTO",
@@ -102,12 +97,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		}, {
 			area_name = "Telo_NIZ",
 			armour = {
-				width = 0.04
+				width = 0.05
 			}
 		}, {
 			area_name = "Telo_NLD",
 			armour = {
-				width = 0.04
+				width = 0.3
 			}
 		}, {
 			area_name = "Telo_VERH",
@@ -117,17 +112,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		}, {
 			area_name = "Telo_VLD",
 			armour = {
-				width = 0.04
+				width = 0.3
 			}
 		}, {
 			area_name = "Telo_ZAD",
 			armour = {
 				width = 0.04
-			}
-		}, {
-			area_name = "Turel",
-			armour = {
-				width = 0.02
 			}
 		} },
 	DetectionRange = 0,

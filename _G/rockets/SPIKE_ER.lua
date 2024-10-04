@@ -30,6 +30,7 @@ _G["rockets"]["#Index"] = {
 	Z_back = 0,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/AS_Missiles.lua",
 	_origin = "AircraftWeaponPack",
+	add_attributes = { "encyclopedia_hidden" },
 	ap = {
 		Kd = 0.5,
 		Kdr = 0.1,

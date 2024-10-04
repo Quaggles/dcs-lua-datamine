@@ -1296,6 +1296,10 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "FlagPole"
 				}, {
+					Name = "ip_tower"
+				}, {
+					Name = "af_hq"
+				}, {
 					Name = "Belgian gate"
 				}, {
 					Name = "Concertina wire"
@@ -1517,6 +1521,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "C-101CC"
 				}, {
 					Name = "JF-17"
+				}, {
+					Name = "Falcon_Gyrocopter"
 				}, {
 					Name = "Christen Eagle II"
 				}, {

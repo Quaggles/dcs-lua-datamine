@@ -141,6 +141,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	defaultStartAlarmState = 2,
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000208",
+	maxDeviationPitch = 0.087266462599716,
 	maxDeviationRoll = 0.087266462599716,
 	sensor = {
 		height = 2.617

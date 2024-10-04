@@ -35,6 +35,13 @@ _G["rockets"]["#Index"] = {
 	display_name_short = "5v55",
 	exhaust = { 1, 1, 1, 1 },
 	exhaust_effect_type = 1,
+	fin_launch_anim = {
+		animStartTime = 0.3,
+		argNumber = 2,
+		argRateOpening = -20,
+		finalArgState = 0,
+		initialArgState = 1
+	},
 	name = "SA5B55",
 	nozzle_exit_area = 0.148,
 	sigma = { 50, 50, 50 },

@@ -80,6 +80,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		}
 	},
 	mapclasskey = "SPAAA_RAD_Truck",
+	maxDeviationPitch = 0.087266462599716,
 	maxDeviationRoll = 0.17453292519943,
 	sensor = {
 		height = 3.872,

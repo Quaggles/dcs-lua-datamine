@@ -1782,7 +1782,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{S530F}",
 					arg_value = 0.25,
-					attach_point_position = { 0, -0.1, 0 },
+					attach_point_position = { 0.33, -0.1, 0 },
 					forbidden = { {
 							loadout = { "{S530F}" },
 							station = 4
@@ -2103,7 +2103,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{S530F}",
 					arg_value = 0.25,
-					attach_point_position = { 0, -0.1, 0 },
+					attach_point_position = { 0.33, -0.1, 0 },
 					forbidden = { {
 							loadout = { "{S530F}" },
 							station = 4
@@ -2518,18 +2518,26 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			},
 			[11] = {
 				lights = { {
+						angle_change_rate = 0.13962634015955,
+						angle_max = 0.55850536063819,
+						angle_min = 0.19198621771938,
 						argument = 905,
-						typename = "argumentlight"
+						color = { 255, 216, 160, 0.4 },
+						connector = "PILOT_LIGHT",
+						movable = true,
+						power_up_t = 1,
+						range = 1500,
+						typename = "spotlight"
 					} },
 				typename = "collection"
 			}
 		},
 		typename = "collection"
 	},
-	main_gear_amortizer_direct_stroke = 0.073,
-	main_gear_amortizer_normal_weight_stroke = 0,
-	main_gear_amortizer_reversal_stroke = -0.139,
-	main_gear_pos = { -2.07, -1.999, -1.221 },
+	main_gear_amortizer_direct_stroke = 0,
+	main_gear_amortizer_normal_weight_stroke = -0.005123,
+	main_gear_amortizer_reversal_stroke = -0.218,
+	main_gear_pos = { -2.072, -2.083, 1.221 },
 	main_gear_wheel_diameter = 0.608,
 	mapclasskey = "P0091000024",
 	mechanimations = {
@@ -2578,11 +2586,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				Transition = { "Any", "High" }
 			} }
 	},
-	net_animation = { 11, 12, 13, 14, 15, 16, 18, 28, 35, 36, 37, 38, 69, 75, 83, 86, 90, 115, 116, 117, 120, 123, 126, 127, 128, 129, 149, 182, 184, 190, 191, 201, 209, 282, 283, 284, 285, 308, 309, 310, 311, 312, 313, 314, 338, 339, 340, 341, 427, 705, 750, 751, 752, 753, 754, 755, 780, 781, 782, 802, 803, 844, 845, 905, 911, 924, 925, 926, 970, 971, 972, 973, 974, 975, 994 },
-	nose_gear_amortizer_direct_stroke = 0.141,
-	nose_gear_amortizer_normal_weight_stroke = -0.00311633945,
-	nose_gear_amortizer_reversal_stroke = -0.162,
-	nose_gear_pos = { 2.871, -2.14, 0 },
+	net_animation = { 11, 12, 13, 14, 15, 16, 18, 23, 28, 35, 36, 37, 38, 75, 86, 90, 115, 116, 117, 120, 123, 126, 127, 128, 129, 149, 182, 184, 282, 283, 284, 285, 308, 309, 310, 311, 312, 313, 314, 338, 339, 340, 341, 427, 705, 750, 751, 752, 753, 754, 755, 780, 781, 782, 845, 905, 911, 920, 924, 925, 926 },
+	nose_gear_amortizer_direct_stroke = 0,
+	nose_gear_amortizer_normal_weight_stroke = -0.162225,
+	nose_gear_amortizer_reversal_stroke = -0.309,
+	nose_gear_pos = { 2.871, -2.287, 0 },
 	nose_gear_wheel_diameter = 0.346,
 	panelRadio = { {
 			channels = { {

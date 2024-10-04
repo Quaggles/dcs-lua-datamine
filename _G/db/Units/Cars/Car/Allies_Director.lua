@@ -29,7 +29,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "Allies Rangefinder (DRT)",
 	Rate = 3,
 	Sensors = {
-		OPTIC = { "long-range air defence optics" }
+		OPTIC = { "long-range air defence optics" },
+		noVisualDetectorInAlarmedState = false
 	},
 	ThreatRange = 0,
 	WS = { {

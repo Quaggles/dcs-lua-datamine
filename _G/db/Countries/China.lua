@@ -1106,6 +1106,10 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "warning_board_b"
 				}, {
+					Name = "ip_tower"
+				}, {
+					Name = "af_hq"
+				}, {
 					Name = "Concertina wire"
 				}, {
 					Name = "Haystack 1"
@@ -1295,6 +1299,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "WingLoong-I"
 				}, {
 					Name = "H-6J"
+				}, {
+					Name = "Falcon_Gyrocopter"
 				}, {
 					Name = "Christen Eagle II"
 				}, {

@@ -1679,10 +1679,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		typename = "collection"
 	},
-	main_gear_amortizer_direct_stroke = 0.014,
-	main_gear_amortizer_normal_weight_stroke = -0.04,
-	main_gear_amortizer_reversal_stroke = -0.252,
-	main_gear_pos = { -0.162, -1.9, 1.367 },
+	main_gear_amortizer_direct_stroke = 0.015423,
+	main_gear_amortizer_normal_weight_stroke = -0.042777,
+	main_gear_amortizer_reversal_stroke = -0.275577,
+	main_gear_pos = { -0.162, -1.896577, 1.369 },
 	main_gear_wheel_diameter = 0.637,
 	mapclasskey = "P0091000024",
 	mechanimations = {
@@ -1794,11 +1794,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				Transition = { "Any", "High" }
 			} }
 	},
-	net_animation = { 2, 23, 39, 75, 99, 148, 287, 337, 399, 420, 530, 780, 781, 818, 819, 843, 844, 845, 846, 848, 920, 921, 923, 924, 925, 926, 1000, 1005, 1006, 1007 },
-	nose_gear_amortizer_direct_stroke = 0.016,
-	nose_gear_amortizer_normal_weight_stroke = -0.00311633945,
-	nose_gear_amortizer_reversal_stroke = -0.127,
-	nose_gear_pos = { 4.619, -1.746, 0 },
+	net_animation = { 2, 23, 39, 75, 99, 148, 287, 337, 399, 420, 530, 780, 781, 818, 819, 845, 846, 848, 920, 921, 923, 924, 925, 926, 1000, 1005, 1006, 1007 },
+	nose_gear_amortizer_direct_stroke = 0.01859,
+	nose_gear_amortizer_normal_weight_stroke = -0.0040560000000001,
+	nose_gear_amortizer_reversal_stroke = -0.15041,
+	nose_gear_pos = { 4.622, -1.74541, 0 },
 	nose_gear_wheel_diameter = 0.462,
 	panelRadio = { {
 			channels = { {

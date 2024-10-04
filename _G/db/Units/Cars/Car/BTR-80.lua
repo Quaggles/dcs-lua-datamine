@@ -87,7 +87,21 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Waypoint_Custom_Panel = true,
 	_file = "./CoreMods/tech/TechWeaponPack/Database/db_units_cars.lua",
 	_origin = "TechWeaponPack",
-	animation_arguments = {},
+	animation_arguments = {
+		swim_helpers_sequence = { { 97, { {
+						endTime = 4,
+						endVal = 1,
+						startTime = 0,
+						startVal = 0
+					} } }, { 3, { {
+						endTime = 4,
+						endVal = 1,
+						startTime = 0,
+						startVal = 0
+					} } },
+			totalDuration = 4
+		}
+	},
 	armour_scheme = {
 		hull_azimuth = { {}, {}, {} },
 		hull_elevation = { {}, {} },

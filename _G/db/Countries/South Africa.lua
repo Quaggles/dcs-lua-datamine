@@ -976,6 +976,10 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "FlagPole"
 				}, {
+					Name = "ip_tower"
+				}, {
+					Name = "af_hq"
+				}, {
 					Name = "Concertina wire"
 				}, {
 					Name = "Haystack 1"
@@ -1126,6 +1130,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "JF-17"
 				}, {
+					Name = "Falcon_Gyrocopter"
+				}, {
 					Name = "Christen Eagle II"
 				}, {
 					Name = "F-15ESE"
@@ -1169,6 +1175,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Mirage-F1EE"
 				}, {
 					Name = "Mirage-F1CZ"
+				}, {
+					Name = "Mirage-F1AZ"
 				}, {
 					Name = "Mirage-F1BE"
 				}, {

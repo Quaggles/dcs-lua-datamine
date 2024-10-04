@@ -36,6 +36,17 @@ _G["launcher"]["{M260_APKWS_M151}"] = {
 	category = 3,
 	displayName = "M260 - 7 x Laser Guided Rkts, 70 mm Hydra 70 M151 HE APKWS",
 	name = "{M260_APKWS_M151}",
+	settings = { {
+			control = "laserCode",
+			defValue = 1688,
+			id = "laser_code",
+			label = "Laser Seeker Code",
+			maxV = "4888",
+			minV = "1111",
+			stringIndex = 1,
+			tooltip = "Lower Limit: 1111\nUpper Limit: 4888",
+			xCtrl = 200
+		} },
 	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

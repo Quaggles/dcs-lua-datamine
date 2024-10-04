@@ -28,12 +28,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		}, {
 			area_name = "TURRET_TOP",
 			armour = {
-				width = 0.04
+				width = 0.08
 			}
 		}, {
 			area_name = "COMMANDER",
 			armour = {
-				width = 0.04
+				width = 0.08
 			}
 		}, {
 			area_name = "COMMANDER_SCUTE",
@@ -83,17 +83,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		}, {
 			area_name = "CHASSIS_R",
 			armour = {
-				width = 0.16
+				width = 0.25
 			}
 		}, {
 			area_name = "CHASSIS_L",
 			armour = {
-				width = 0.16
+				width = 0.25
 			}
 		}, {
 			area_name = "GUN",
 			armour = {
-				width = 0.5
+				width = 0.4
 			}
 		} },
 	DetectionRange = 0,

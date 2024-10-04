@@ -1030,7 +1030,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					board = { "CargoBayGates", "Open" },
 					boardable = { {
 							mechanism = "CargoBayGates",
-							states = { "Open" }
+							states = { "Open", "CustomStage3", "Board" }
 						}, {
 							mechanism = "CargoBayGate0",
 							states = { "Open", "Board" }
@@ -1058,7 +1058,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					board = { "CargoBayGates", "Open" },
 					boardable = { {
 							mechanism = "CargoBayGates",
-							states = { "Open" }
+							states = { "Open", "CustomStage3", "Board" }
 						}, {
 							mechanism = "CargoBayGate0",
 							states = { "Open", "Board" }
@@ -1107,6 +1107,10 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "{CH47_PORT_M60D}",
 					arg_value = 1,
 					connector = "GUNNER_POINT_2"
+				}, {
+					CLSID = "{CH47_PORT_M240H}",
+					arg_value = 1,
+					connector = "GUNNER_POINT_2"
 				} },
 			Number = 1,
 			Order = 100,
@@ -1124,6 +1128,10 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					CLSID = "{CH47_STBD_M60D}",
 					arg_value = 1,
 					connector = "GUNNER_POINT_1"
+				}, {
+					CLSID = "{CH47_STBD_M240H}",
+					arg_value = 1,
+					connector = "GUNNER_POINT_1"
 				} },
 			Number = 2,
 			Order = 300,
@@ -1134,6 +1142,27 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			arg = 349,
 			arg_value = 0,
 			connector = "GUNNER_POINT_1",
+			use_full_connector_position = true
+		}, {
+			DisplayName = "Aft MG",
+			Launchers = { {
+					CLSID = "{CH47_AFT_M60D}",
+					arg_value = 1,
+					connector = "GUNNER_POINT_3"
+				}, {
+					CLSID = "{CH47_AFT_M240H}",
+					arg_value = 1,
+					connector = "GUNNER_POINT_3"
+				} },
+			Number = 3,
+			Order = 200,
+			Type = 0,
+			X = 0,
+			Y = 0,
+			Z = 0,
+			arg = 348,
+			arg_value = 0,
+			connector = "GUNNER_POINT_3",
 			use_full_connector_position = true
 		} },
 	RCS = 12.5,
@@ -1871,8 +1900,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				y_trans = 0,
 				z_trans = 0
 			}, {
-				hAngle = -176.69043,
-				hAngleSeat = 0,
+				hAngle = 0,
+				hAngleSeat = -180,
 				rollAngle = 0,
 				vAngle = 0,
 				vAngleSeat = 0,
@@ -1881,8 +1910,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				y_trans = 0,
 				z_trans = 0
 			}, {
-				hAngle = -176.69043,
-				hAngleSeat = 0,
+				hAngle = 0,
+				hAngleSeat = -180,
 				rollAngle = 0,
 				vAngle = 0,
 				vAngleSeat = 0,
@@ -1927,7 +1956,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				CameraAngleLimits = { 200, -90, 90 },
 				CameraAngleRestriction = { false, 90, 0.5 },
 				CameraViewAngleLimits = { 20, 140 },
-				CockpitLocalPoint = { 6.121, 0.078, 0.588 },
+				CockpitLocalPoint = { 6.121, 0.078, 0.55 },
 				EyePoint = { 0.05, 0.1, 0 },
 				ShoulderSize = 0.25,
 				limits_6DOF = {
@@ -1941,7 +1970,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				CameraAngleLimits = { 200, -90, 90 },
 				CameraAngleRestriction = { false, 90, 0.5 },
 				CameraViewAngleLimits = { 20, 140 },
-				CockpitLocalPoint = { 6.121, 0.078, -0.588 },
+				CockpitLocalPoint = { 6.121, 0.078, -0.55 },
 				EyePoint = { 0.05, 0.1, 0 },
 				ShoulderSize = 0.25,
 				limits_6DOF = {
@@ -1993,7 +2022,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					z = { -1.077, 1.077 }
 				}
 			}, {
-				Allow360rotation = true,
+				Allow360rotation = false,
 				CameraAngleLimits = { 200, -90, 90 },
 				CameraAngleRestriction = { false, 90, 0.5 },
 				CameraViewAngleLimits = { 20, 140 },
@@ -2002,8 +2031,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				ShoulderSize = 0,
 				limits_6DOF = {
 					roll = 90,
-					x = { -1.077, 1.077 },
-					y = { -1.077, 1.077 },
+					x = { -3.5, 1.077 },
+					y = { -3.5, 1.077 },
 					z = { -1.077, 1.077 }
 				}
 			},
@@ -2608,6 +2637,70 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						C = { { "Arg", 86, "to", 0, "speed", 0.186 } }
 					} },
 				Transition = { "Hang", "Close" }
+			}, {
+				Sequence = { {
+						C = { { "PosType", 6 }, { "Sleep", "for", 1 } }
+					}, {
+						C = { { "Arg", 86, "to", 0.07, "speed", 0.186 } }
+					}, {
+						C = { { "Sleep", "for", 1.5 } }
+					}, {
+						C = { { "Arg", 38, "to", 1, "speed", 0.25 } }
+					}, {
+						C = { { "Sleep", "for", 1 } }
+					}, {
+						C = { { "Arg", 86, "to", 0.55, "speed", 0.186 } }
+					} },
+				Transition = { "Close", "CustomStage3" }
+			}, {
+				Sequence = { {
+						C = { { "PosType", 6 }, { "Sleep", "for", 2 } }
+					}, {
+						C = { { "Arg", 86, "to", 0.07, "speed", 0.186 } }
+					}, {
+						C = { { "Arg", 38, "to", 0, "speed", 0.25 } }
+					}, {
+						C = { { "Sleep", "for", 2 } }
+					}, {
+						C = { { "Arg", 86, "to", 0, "speed", 0.186 } }
+					} },
+				Transition = { "CustomStage3", "Close" }
+			}, {
+				Sequence = { {
+						C = { { "PosType", 6 }, { "Sleep", "for", 6 } }
+					}, {
+						C = { { "Arg", 86, "to", 0.07, "speed", 0.186 } }
+					}, {
+						C = { { "Sleep", "for", 1.5 } }
+					}, {
+						C = { { "Arg", 38, "to", 1, "speed", 0.25 } }
+					}, {
+						C = { { "Sleep", "for", 2 } }
+					}, {
+						C = { { "Arg", 86, "to", 0.91, "speed", 0.186 } }
+					}, {
+						C = { { "PosType", 6 }, { "Sleep", "for", 8 } }
+					}, {
+						C = { { "VelType", 0 }, { "Arg", 85, "to", 1, "speed", 3.5 } }
+					} },
+				Transition = { "Close", "Board" }
+			}, {
+				Sequence = { {
+						C = { { "PosType", 6 }, { "Sleep", "for", 4 } }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 85, "to", 0, "speed", 0.5 } }
+					}, {
+						C = { { "PosType", 6 }, { "Sleep", "for", 6 } }
+					}, {
+						C = { { "Arg", 86, "to", 0.07, "speed", 0.186 } }
+					}, {
+						C = { { "Arg", 38, "to", 0, "speed", 0.25 } }
+					}, {
+						C = { { "Sleep", "for", 2 } }
+					}, {
+						C = { { "Arg", 86, "to", 0, "speed", 0.186 } }
+					} },
+				Transition = { "Board", "Close" }
 			} },
 		ExternalCargoEquipment = { {
 				Sequence = { {
@@ -2745,7 +2838,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			} }
 	},
 	moment_of_inertia = { 46000, 259000, 274000 },
-	net_animation = { 28, 29, 30, 600, 620, 621, 622, 623, 624, 625, 626, 627 },
+	net_animation = { 28, 29, 30, 600, 620, 621, 622, 623, 624, 625, 626, 627, 395, 396, 397, 398, 39, 99, 533, 337, 399, 537, 506, 508, 509, 516, 518, 519, 459, 460, 500, 501, 502, 503, 510, 511, 512, 513, 530, 531, 532, 534, 535, 536 },
 	nose_gear_amortizer_direct_stroke = 0,
 	nose_gear_amortizer_normal_weight_stroke = -0.003,
 	nose_gear_amortizer_reversal_stroke = -0.15,

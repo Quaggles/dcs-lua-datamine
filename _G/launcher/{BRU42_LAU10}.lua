@@ -10,7 +10,7 @@ _G["launcher"]["{BRU42_LAU10}"] = {
 			payload_CLSID = "{F3EFE0AB-E91A-42D8-9CA2-B63C91ED570A}"
 		} },
 	Picture = "LAU10.png",
-	Weight = 568,
+	Weight = 416.9,
 	_file = "./CoreMods/aircraft/F14/Entry/Weapons.lua",
 	_origin = "F-14B AI by Heatblur Simulations",
 	attribute = { 4, 7, 32, "Redacted" },

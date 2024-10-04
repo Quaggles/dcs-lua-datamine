@@ -804,7 +804,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			X = -0.905,
 			Y = -0.201,
 			Z = -5.11,
-			arg = 524,
+			arg = 525,
 			arg_value = 0,
 			connector = "TIP_SX",
 			use_full_connector_position = true
@@ -1410,7 +1410,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				Transition = { "Any", "Bailout" }
 			} }
 	},
-	net_animation = { 38, 190, 191, 192, 203, 202, 201, 208, 200, 477, 525, 526, 527, 39, 99, 337, 399, 480, 524, 560, 757, 1004, 1200, 1201, 447, 954, 1998, 1999, 1990, 1050, 1472, 509, 515, 1994, 1993, 1049, 1099 },
+	net_animation = { 38, 190, 191, 192, 203, 202, 201, 208, 200, 477, 525, 526, 527, 39, 99, 337, 399, 480, 525, 560, 757, 1004, 1200, 1201, 447, 954, 1998, 1999, 1990, 1050, 1472, 509, 515, 1994, 1993, 1049, 1099 },
 	nose_gear_amortizer_direct_stroke = 0,
 	nose_gear_amortizer_normal_weight_stroke = -0.04,
 	nose_gear_amortizer_reversal_stroke = -0.174,

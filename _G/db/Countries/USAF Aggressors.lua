@@ -2986,6 +2986,10 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "FlagPole"
 				}, {
+					Name = "ip_tower"
+				}, {
+					Name = "af_hq"
+				}, {
 					Name = "Concertina wire"
 				}, {
 					Name = "Haystack 1"
@@ -3283,6 +3287,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "J-11A"
 				}, {
 					Name = "JF-17"
+				}, {
+					Name = "Falcon_Gyrocopter"
 				}, {
 					Name = "Christen Eagle II"
 				}, {
@@ -3606,6 +3612,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "Mirage-F1AD",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Mirage-F1BD",
 					in_service = 0,
 					out_of_service = 40000
@@ -3622,6 +3632,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "Mirage-F1AZ",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Mirage-F1CJ",
 					in_service = 0,
 					out_of_service = 40000
@@ -3635,10 +3649,6 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "F-117A",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "F-14A",
 					in_service = 0,
 					out_of_service = 40000
 				}, {

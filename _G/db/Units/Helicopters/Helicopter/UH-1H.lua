@@ -804,8 +804,46 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	},
 	IR_emission_coeff = 0.2,
 	InternalCargo = {
+		area = { 1.35, 1.3, 2.2 },
+		far_wall_pos = { 1.9, -0.7, 0 },
 		maximalCapacity = 1400,
-		nominalCapacity = 1400
+		nominalCapacity = 1400,
+		out_door = {
+			main_left = {
+				heading = -1.5707963267949,
+				large = true,
+				mechanicals = {
+					board = { "Door2", "Open" },
+					boardable = { {
+							mechanism = "Door2",
+							states = { "Open" }
+						}, {
+							mechanism = "CargoBayGates",
+							states = { "Open", "CustomStage3", "Board" }
+						} },
+					close = { "Door2", "Close" }
+				},
+				x = 0,
+				z = -1.4
+			},
+			main_right = {
+				heading = 1.5707963267949,
+				large = true,
+				mechanicals = {
+					board = { "Door3", "Open" },
+					boardable = { {
+							mechanism = "Door3",
+							states = { "Open" }
+						}, {
+							mechanism = "CargoBayGates",
+							states = { "Open", "CustomStage3", "Board" }
+						} },
+					close = { "Door3", "Close" }
+				},
+				x = 0,
+				z = 1.4
+			}
+		}
 	},
 	LandRWCategories = { {
 			Name = "AircraftCarrier"
@@ -1464,7 +1502,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	_file = "Scripts/Database/helicopters\\AB-212ASW.lua",
 	_file_flyable = "./Mods/aircraft/Uh-1H/entry.lua",
 	_origin_flyable = "UH-1H Huey by Belsimtek",
-	attribute = { 1, 2, 6, "Redacted", "Attack helicopters", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Helicopters" },
+	attribute = { 1, 2, 6, "Redacted", "Attack helicopters", "Transports", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Helicopters", "Planes" },
 	bigParkingRamp = false,
 	blade_area = 6.2,
 	blade_chord = 0.534,
@@ -1722,6 +1760,71 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	main_gear_pos = { -0.458, -1.577, 1.332 },
 	mapclasskey = "P0091000021",
 	mechanimations = {
+		CargoBayGates = { {
+				Sequence = { {
+						C = { { "PosType", 6 }, { "Sleep", "for", 2 } }
+					}, {
+						C = { { "Arg", 44, "to", 1, "speed", 0.5 } }
+					}, {
+						C = { { "Sleep", "for", 1.5 } }
+					}, {
+						C = { { "Arg", 43, "to", 1, "speed", 0.5 } }
+					} },
+				Transition = { "Close", "Open" }
+			}, {
+				Sequence = { {
+						C = { { "PosType", 6 }, { "Sleep", "for", 2 } }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 43, "to", 0, "speed", 0.4 } }
+					}, {
+						C = { { "PosType", 6 }, { "Sleep", "for", 2 } }
+					}, {
+						C = { { "Arg", 44, "to", 0, "speed", 0.5 } }
+					} },
+				Transition = { "Open", "Close" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 44, "to", 1, "speed", 0.5 } }
+					}, {
+						C = { { "Sleep", "for", 1.5 } }
+					}, {
+						C = { { "Arg", 43, "to", 1, "speed", 0.5 } }
+					} },
+				Transition = { "Close", "CustomStage3" }
+			}, {
+				Sequence = { {
+						C = { { "Sleep", "for", 6.5 } }
+					}, {
+						C = { { "Arg", 44, "to", 0, "speed", 0.5 } }
+					}, {
+						C = { { "Sleep", "for", 1.5 } }
+					}, {
+						C = { { "Arg", 43, "to", 0, "speed", 0.75 } }
+					} },
+				Transition = { "CustomStage3", "Close" }
+			}, {
+				Sequence = { {
+						C = { { "PosType", 6 }, { "Sleep", "for", 2 } }
+					}, {
+						C = { { "Arg", 44, "to", 1, "speed", 0.5 } }
+					}, {
+						C = { { "Sleep", "for", 1.5 } }
+					}, {
+						C = { { "Arg", 43, "to", 1, "speed", 0.2 } }
+					} },
+				Transition = { "Close", "Board" }
+			}, {
+				Sequence = { {
+						C = { { "PosType", 6 }, { "Sleep", "for", 2 } }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 43, "to", 0, "speed", 0.2 } }
+					}, {
+						C = { { "PosType", 6 }, { "Sleep", "for", 2 } }
+					}, {
+						C = { { "Arg", 44, "to", 0, "speed", 0.5 } }
+					} },
+				Transition = { "Board", "Close" }
+			} },
 		Door0 = { {
 				Flags = { "Reversible" },
 				Sequence = { {

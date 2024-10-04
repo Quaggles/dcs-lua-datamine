@@ -5,9 +5,9 @@ _G["warheads"]["AGM_84S"] = {
 	cumulative_factor = 2,
 	cumulative_thickness = 0.1,
 	default_fuze_delay = 0,
-	expl_mass = 90,
-	mass = 90,
+	expl_mass = 88.4,
+	mass = 88.4,
 	obj_factors = { 2.5, 1 },
 	other_factors = { 1, 1, 1 },
-	piercing_mass = 18
+	piercing_mass = 17.68
 }

@@ -119,8 +119,26 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	},
 	IR_emission_coeff = 1,
 	InternalCargo = {
+		area = { 12, 3.1, 3.2 },
+		far_wall_pos = { 6.3, -3.23, 0 },
 		maximalCapacity = 8500,
-		nominalCapacity = 7000
+		nominalCapacity = 7000,
+		out_door = {
+			cargo_generic = {
+				heading = -3.1415926535898,
+				large = true,
+				mechanicals = {
+					board = { "CargoBayGates", "Open" },
+					boardable = { {
+							mechanism = "CargoBayGates",
+							states = { "Open", "CustomStage3", "Board" }
+						} },
+					close = { "CargoBayGates", "Close" }
+				},
+				x = -4.7,
+				z = 0
+			}
+		}
 	},
 	MOI = { 205578, 1056873, 1120926 },
 	M_empty = 28890,
@@ -146,7 +164,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	Waypoint_Custom_Panel = true,
 	WorldID = 153,
 	_file = "Scripts/Database/helicopters\\Mi-26.lua",
-	attribute = { 1, 2, 25, "Redacted", "Transport helicopters", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Helicopters" },
+	attribute = { 1, 2, 25, "Redacted", "Transport helicopters", "Transports", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Helicopters", "Planes" },
 	bigParkingRamp = true,
 	blade_area = 15.24,
 	blade_chord = 0.835,
@@ -374,6 +392,67 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	main_gear_pos = { -1.319, -4.97, 2.5 },
 	mapclasskey = "P0091000020",
 	mechanimations = {
+		CargoBayGates = { {
+				Sequence = { {
+						C = { { "PosType", 6 }, { "Sleep", "for", 2 } }
+					}, {
+						C = { { "Arg", 38, "to", 1, "speed", 0.25 } }
+					}, {
+						C = { { "Sleep", "for", 1.5 } }
+					}, {
+						C = { { "Arg", 34, "to", 1, "speed", 0.2 } }
+					} },
+				Transition = { "Close", "Open" }
+			}, {
+				Sequence = { {
+						C = { { "PosType", 6 }, { "Sleep", "for", 2 } }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 34, "to", 0, "in", 6 } }
+					}, {
+						C = { { "PosType", 6 }, { "Sleep", "for", 2 } }
+					}, {
+						C = { { "Arg", 38, "to", 0, "speed", 0.2 } }
+					} },
+				Transition = { "Open", "Close" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 38, "to", 1, "speed", 0.25 } }
+					}, {
+						C = { { "Sleep", "for", 1.5 } }
+					} },
+				Transition = { "Close", "CustomStage3" }
+			}, {
+				Sequence = { {
+						C = { { "Sleep", "for", 6.5 } }
+					}, {
+						C = { { "Arg", 38, "to", 0, "speed", 0.2 } }
+					}, {
+						C = { { "Sleep", "for", 1.5 } }
+					} },
+				Transition = { "CustomStage3", "Close" }
+			}, {
+				Sequence = { {
+						C = { { "PosType", 6 }, { "Sleep", "for", 2 } }
+					}, {
+						C = { { "Arg", 38, "to", 1, "speed", 0.25 } }
+					}, {
+						C = { { "Sleep", "for", 1.5 } }
+					}, {
+						C = { { "Arg", 34, "to", 1, "speed", 0.2 } }
+					} },
+				Transition = { "Close", "Board" }
+			}, {
+				Sequence = { {
+						C = { { "PosType", 6 }, { "Sleep", "for", 2 } }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 34, "to", 0, "in", 6 } }
+					}, {
+						C = { { "PosType", 6 }, { "Sleep", "for", 2 } }
+					}, {
+						C = { { "Arg", 38, "to", 0, "speed", 0.2 } }
+					} },
+				Transition = { "Board", "Close" }
+			} },
 		Door0 = { {
 				Flags = { "Reversible" },
 				Sequence = { {
@@ -386,6 +465,12 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						C = { { "Arg", 38, "to", 0, "in", 6 } }
 					} },
 				Transition = { "Open", "Close" }
+			}, {
+				Flags = { "Reversible", "StepsBackwards" },
+				Sequence = { {
+						C = { { "Arg", 38, "to", 0, "in", 6 } }
+					} },
+				Transition = { "Any", "Taxi" }
 			} },
 		Door1 = {
 			DuplicateOf = "Door0"
@@ -393,9 +478,25 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		Door2 = {
 			DuplicateOf = "Door0"
 		},
-		Door3 = {
-			DuplicateOf = "Door0"
-		}
+		Door3 = { {
+				Flags = { "Reversible" },
+				Sequence = { {
+						C = { { "Arg", 34, "to", 1, "in", 5 } }
+					} },
+				Transition = { "Close", "Open" }
+			}, {
+				Flags = { "Reversible", "StepsBackwards" },
+				Sequence = { {
+						C = { { "Arg", 34, "to", 0, "in", 6 } }
+					} },
+				Transition = { "Open", "Close" }
+			}, {
+				Flags = { "Reversible", "StepsBackwards" },
+				Sequence = { {
+						C = { { "Arg", 38, "to", 0, "in", 6 } }
+					} },
+				Transition = { "Any", "Taxi" }
+			} }
 	},
 	net_animation = { 34 },
 	nose_gear_pos = { 7.255, -5.08, 0 },

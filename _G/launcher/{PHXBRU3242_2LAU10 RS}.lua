@@ -11,7 +11,7 @@ _G["launcher"]["{PHXBRU3242_2*LAU10 RS}"] = {
 		} },
 	JettisonSubmunitionOnly = true,
 	Picture = "LAU10.png",
-	Weight = 1065.38,
+	Weight = 763.18,
 	_file = "./CoreMods/aircraft/F14/Entry/Weapons.lua",
 	_origin = "F-14B AI by Heatblur Simulations",
 	attribute = { 4, 7, 32, "Redacted" },

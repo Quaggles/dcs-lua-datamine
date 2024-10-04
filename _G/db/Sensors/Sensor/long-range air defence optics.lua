@@ -12,7 +12,7 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 	},
 	type = 0,
 	view_volume_max = {
-		azimuth_sector = 4,
-		elevation_sector = 4
+		azimuth_sector = 20,
+		elevation_sector = 20
 	}
 }

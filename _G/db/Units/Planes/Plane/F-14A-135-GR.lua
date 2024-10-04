@@ -98,42 +98,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			max = 255,
 			min = 1,
 			playerOnly = true
-		}, {
-			control = "spinbox",
-			defValue = 1,
-			dimension = " ",
-			id = "LGB1000",
-			label = "Laser Code 1st Digit",
-			max = 1,
-			min = 1,
-			playerOnly = true
-		}, {
-			control = "spinbox",
-			defValue = 6,
-			dimension = " ",
-			id = "LGB100",
-			label = "Laser Code 2nd Digit",
-			max = 7,
-			min = 5,
-			playerOnly = true
-		}, {
-			control = "spinbox",
-			defValue = 8,
-			dimension = " ",
-			id = "LGB10",
-			label = "Laser Code 3rd Digit",
-			max = 8,
-			min = 1,
-			playerOnly = true
-		}, {
-			control = "spinbox",
-			defValue = 8,
-			dimension = " ",
-			id = "LGB1",
-			label = "Laser Code 4th Digit",
-			max = 8,
-			min = 1,
-			playerOnly = true
 		} },
 	AmmoWeight = 235.924,
 	CAS_min = 60,
@@ -3121,9 +3085,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 7
 						}, {
-							loadout = { "{F14-TARPS}" },
-							station = 6
-						}, {
 							loadout = { "<CLEAN>" },
 							station = 7
 						} }
@@ -3412,9 +3373,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 7
 						}, {
-							loadout = { "{F14-TARPS}" },
-							station = 6
-						}, {
 							loadout = { "<CLEAN>" },
 							station = 7
 						} }
@@ -3454,9 +3412,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 7
 						}, {
-							loadout = { "{F14-TARPS}" },
-							station = 6
-						}, {
 							loadout = { "<CLEAN>" },
 							station = 7
 						} }
@@ -3495,9 +3450,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 7
-						}, {
-							loadout = { "{F14-TARPS}" },
-							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
 							station = 7
@@ -5220,9 +5172,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 6
 						}, {
-							loadout = { "{F14-TARPS}" },
-							station = 6
-						}, {
 							loadout = { "<CLEAN>" },
 							station = 6
 						} }
@@ -5382,9 +5331,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 6
 						}, {
-							loadout = { "{F14-TARPS}" },
-							station = 6
-						}, {
 							loadout = { "<CLEAN>" },
 							station = 6
 						} }
@@ -5415,9 +5361,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 6
 						}, {
-							loadout = { "{F14-TARPS}" },
-							station = 6
-						}, {
 							loadout = { "<CLEAN>" },
 							station = 6
 						} }
@@ -5446,9 +5389,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 6
 						}, {
 							loadout = { "{BELLY AIM-7P}" },
-							station = 6
-						}, {
-							loadout = { "{F14-TARPS}" },
 							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
@@ -9057,9 +8997,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 4
 						}, {
-							loadout = { "{F14-TARPS}" },
-							station = 6
-						}, {
 							loadout = { "<CLEAN>" },
 							station = 4
 						} }
@@ -9351,9 +9288,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BELLY AIM-7P}" },
 							station = 4
 						}, {
-							loadout = { "{F14-TARPS}" },
-							station = 6
-						}, {
 							loadout = { "<CLEAN>" },
 							station = 4
 						} }
@@ -9396,9 +9330,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BRU3242_2*LAU10 R}" },
 							station = 4
 						}, {
-							loadout = { "{F14-TARPS}" },
-							station = 6
-						}, {
 							loadout = { "<CLEAN>" },
 							station = 4
 						} }
@@ -9440,9 +9371,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{BRU3242_2*LAU10 R}" },
 							station = 4
-						}, {
-							loadout = { "{F14-TARPS}" },
-							station = 6
 						}, {
 							loadout = { "<CLEAN>" },
 							station = 4

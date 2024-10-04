@@ -114,7 +114,7 @@ _G["launcher"]["{HB_F4E_MK-83_2x_Right}"] = {
 				} },
 			baseDim = "s",
 			control = "spinbox",
-			defValue = 2,
+			defValue = 4,
 			dimension = "s",
 			id = "arm_delay_ctrl_M904E4",
 			label = "Arm Delay",

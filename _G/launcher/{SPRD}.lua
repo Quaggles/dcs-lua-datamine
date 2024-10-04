@@ -1,26 +1,22 @@
 _G["launcher"]["{SPRD}"] = {
 	CLSID = "{SPRD}",
-	Count = 2,
-	Cx_pil = 0.001,
-	Elements = { "_G/Pylons/SPRD.lua", {
-			Position = { 0, 0.017, 0.63 },
-			Rotation = { 0, 0, 0 },
-			ShapeName = "sprd_dummy"
-		}, {
-			Position = { 0, 0.017, -0.63 },
-			Rotation = { 0, 0, 0 },
-			ShapeName = "sprd_dummy"
+	Count = 1,
+	Cx_pil = 0.004,
+	Elements = { {
+			ShapeName = "SPRD-99"
 		} },
 	Picture = "sprd99.png",
-	Weight = 500,
-	_file = "./CoreMods/aircraft/MiG-21BIS/Entry/Aw",
-	_origin = "MiG-21Bis AI by Magnitude 3 LLC",
-	_unique_resource_name = "weapons.containers.SPRD",
-	adapter_type = <1>{ 4, 7, 32, "Redacted" },
-	attribute = <table 1>,
+	Weight = 442,
+	Weight_Empty = 180,
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/JATOConts.lua",
+	_origin = "AircraftWeaponPack",
+	_unique_resource_name = "weapons.containers.SPRD-99",
+	attribute = <1>{ 4, 15, 51, "Redacted" },
 	category = 6,
-	displayName = "SPRD-99 takeoff rocket",
-	kind_of_shipping = 1,
-	name = "SPRD",
-	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
+	displayName = "SPRD-99",
+	ejectDirection = { 0, -1, 0 },
+	ejectPitchRate = -45,
+	ejectVelocity = 5,
+	name = "SPRD-99",
+	wsTypeOfWeapon = <table 1>
 }

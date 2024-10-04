@@ -8,7 +8,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "AAA Kdo.G.40",
 	Rate = 3,
 	Sensors = {
-		OPTIC = { "long-range air defence optics" }
+		OPTIC = { "long-range air defence optics" },
+		noVisualDetectorInAlarmedState = false
 	},
 	ThreatRange = 0,
 	WS = { {

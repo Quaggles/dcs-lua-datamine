@@ -138,37 +138,37 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		}, {
 			area_name = "WHEEL_01_L",
 			armour = {
-				width = 100
+				width = 0.15
 			}
 		}, {
 			area_name = "WHEEL_02_L",
 			armour = {
-				width = 100
+				width = 0.15
 			}
 		}, {
 			area_name = "WHEEL_03_L",
 			armour = {
-				width = 100
+				width = 0.15
 			}
 		}, {
 			area_name = "WHEEL_01_R",
 			armour = {
-				width = 100
+				width = 0.15
 			}
 		}, {
 			area_name = "WHEEL_02_R",
 			armour = {
-				width = 100
+				width = 0.15
 			}
 		}, {
 			area_name = "WHEEL_03_R",
 			armour = {
-				width = 100
+				width = 0.15
 			}
 		}, {
 			area_name = "GUN",
 			armour = {
-				width = 1000
+				width = 0.3
 			}
 		} },
 	DetectionRange = 0,

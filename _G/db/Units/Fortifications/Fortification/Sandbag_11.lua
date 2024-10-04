@@ -1,6 +1,6 @@
 _G["db"]["Units"]["Fortifications"]["Fortification"]["#Index"] = {
 	DisplayName = "M92 Sandbag 11",
-	Life = 2,
+	Life = 100,
 	Name = "M92 Sandbag 11",
 	Rate = 1,
 	SeaObject = false,
@@ -17,7 +17,7 @@ _G["db"]["Units"]["Fortifications"]["Fortification"]["#Index"] = {
 			classname = "lLandVehicle",
 			desrt = "M92_Sandbag_11_dst",
 			file = "M92_Sandbag_11",
-			life = 2,
+			life = 100,
 			name = "M92_Sandbag_11",
 			positioning = "ADD_HEIGTH",
 			username = "Sandbag_11"

@@ -48,6 +48,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		max_time_agony = 80,
 		min_time_agony = 10,
 		shape = "ural-apa",
-		shape_dstr = "ural_acp6_p1"
+		shape_dstr = "ural-apa_p1"
 	}
 }

@@ -2234,6 +2234,10 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "FlagPole"
 				}, {
+					Name = "ip_tower"
+				}, {
+					Name = "af_hq"
+				}, {
 					Name = "Concertina wire"
 				}, {
 					Name = "Haystack 1"
@@ -2401,10 +2405,6 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "F-117A",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "F-14A",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -2591,6 +2591,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "C-101CC"
 				}, {
 					Name = "JF-17"
+				}, {
+					Name = "Falcon_Gyrocopter"
 				}, {
 					Name = "F-15ESE"
 				}, {

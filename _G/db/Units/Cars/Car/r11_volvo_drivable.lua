@@ -52,7 +52,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		swing_on_run = false,
 		width = 2.35
 	},
-	driverViewConnectorName = "DRIVER_POINT.003",
+	driverViewConnectorName = "DRIVER_POINT",
 	enablePlayerCanDrive = true,
 	mapclasskey = "P0091000212",
 	snd = {
