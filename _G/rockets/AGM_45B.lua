@@ -97,6 +97,7 @@ _G["rockets"]["#Index"] = {
 	fuze = {
 		default_arm_delays = { 10 },
 		default_proximity_radius = 10,
+		is_neg_cls_rate_req = true,
 		is_proxy_tdd_always_enabled = true
 	},
 	gyro = {

@@ -19,6 +19,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[8] = {
 			critical_damage = 10
 		},
+		[10] = {
+			critical_damage = 15
+		},
 		[11] = {
 			critical_damage = 3
 		},
@@ -37,67 +40,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[18] = {
 			critical_damage = 3
 		},
-		[25] = {
-			args = { 53 },
-			critical_damage = 5
-		},
-		[26] = {
-			args = { 54 },
-			critical_damage = 5
-		},
 		[35] = {
 			args = { 67 },
-			critical_damage = 20,
-			deps_cells = { 25, 37, 11, 17 }
+			critical_damage = 10
 		},
 		[36] = {
 			args = { 68 },
-			critical_damage = 20,
-			deps_cells = { 26, 38, 12, 18 }
-		},
-		[37] = {
-			args = { 55 },
-			critical_damage = 4
-		},
-		[38] = {
-			args = { 56 },
-			critical_damage = 4
+			critical_damage = 10
 		},
 		[43] = {
 			args = { 61 },
-			critical_damage = 4,
-			deps_cells = { 53 }
-		},
-		[44] = {
-			args = { 62 },
-			critical_damage = 4,
-			deps_cells = { 54 }
+			critical_damage = 4
 		},
 		[47] = {
 			args = { 63 },
-			critical_damage = 5,
-			deps_cells = { 51 }
+			critical_damage = 5
 		},
 		[48] = {
 			args = { 64 },
-			critical_damage = 5,
-			deps_cells = { 52 }
-		},
-		[51] = {
-			args = { 59 },
-			critical_damage = 2
-		},
-		[52] = {
-			args = { 60 },
-			critical_damage = 2
-		},
-		[53] = {
-			args = { 57 },
-			critical_damage = 2
-		},
-		[54] = {
-			args = { 58 },
-			critical_damage = 2
+			critical_damage = 5
 		},
 		[55] = {
 			args = { 81 },

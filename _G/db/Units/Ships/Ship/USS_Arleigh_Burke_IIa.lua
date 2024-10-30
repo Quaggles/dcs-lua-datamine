@@ -375,7 +375,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			pos = {}
 		}, {
 			LN = { {
-					BR = { {
+					BR = <1>{ {
 							connector_name = "POINT_MK_41_01",
 							recoilArgument = 177,
 							recoilT0 = -2,
@@ -433,670 +433,732 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_09",
-							recoilArgument = 185,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_10",
-							recoilArgument = 186,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_11",
-							recoilArgument = 187,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_12",
-							recoilArgument = 188,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_13",
-							recoilArgument = 189,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_14",
-							recoilArgument = 190,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_15",
-							recoilArgument = 191,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_16",
-							recoilArgument = 192,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
-						} },
-					PL = { {
-							ammo_capacity = 16,
-							type_ammunition = {}
-						} },
-					max_number_of_missiles_channels = 16,
-					sensor = {}
-				} },
-			angles = { {} },
-			area = "Nose_Col_Top",
-			center = "POINT_MK_41_08"
-		}, {
-			LN = { {
-					BR = { {
+						}, {
 							connector_name = "POINT_MK_41_17",
-							recoilArgument = 193,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_18",
-							recoilArgument = 194,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_19",
-							recoilArgument = 195,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_20",
-							recoilArgument = 196,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_21",
-							recoilArgument = 197,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_22",
-							recoilArgument = 198,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_23",
-							recoilArgument = 199,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_24",
-							recoilArgument = 200,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_25",
-							recoilArgument = 201,
+							recoilArgument = 181,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_26",
-							recoilArgument = 202,
+							recoilArgument = 182,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_27",
-							recoilArgument = 203,
+							recoilArgument = 183,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_28",
-							recoilArgument = 204,
+							recoilArgument = 184,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_29",
-							recoilArgument = 205,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_30",
-							recoilArgument = 206,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_31",
-							recoilArgument = 207,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_32",
-							recoilArgument = 208,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						} },
 					PL = { {
-							ammo_capacity = 16,
-							type_ammunition = {}
+							ammo_capacity = 12,
+							name_ammunition = "BGM_109B",
+							reload_time = 1000000,
+							shot_delay = 1,
+							type_ammunition = "weapons.missiles.BGM_109B",
+							virtualStwID = 1
 						} },
-					depends_on_unit = <1>{ { { "self", 6 } }, { { "self", 7 } }, { { "self", 8 } }, { { "self", 9 } }, { { "self", 10 } }, { { "self", 11 } }, { { "self", 12 } }, { { "self", 13 } }, { { "self", 14 } } },
-					sensor = {}
+					barrels_reload_type = 3,
+					external_tracking_awacs = true,
+					launch_delay = 2,
+					max_number_of_missiles_channels = 16,
+					reactionTime = 2,
+					sensor = {},
+					type = 8
+				}, {
+					BR = <table 1>,
+					PL = { {
+							ammo_capacity = 10,
+							name_ammunition = "SM 2MR RIM 66M",
+							reload_time = 1000000,
+							type_ammunition = "weapons.missiles.SM_2",
+							virtualStwID = 1
+						} },
+					barrels_reload_type = 3,
+					depends_on_unit = <2>{ { { "self", 6 } }, { { "self", 7 } }, { { "self", 8 } }, { { "self", 9 } }, { { "self", 10 } }, { { "self", 11 } }, { { "self", 12 } }, { { "self", 13 } }, { { "self", 14 } } },
+					distanceMax = 100000,
+					distanceMin = 4000,
+					launch_delay = 2,
+					reactionTime = 1,
+					reflection_limit = 0.05,
+					sensor = {},
+					type = 4
+				}, {
+					BR = <table 1>,
+					PL = { {
+							ammo_capacity = 10,
+							name_ammunition = "SM 2ER RIM 156",
+							reload_time = 1000000,
+							type_ammunition = "weapons.missiles.SM_2ER",
+							virtualStwID = 1
+						} },
+					barrels_reload_type = 3,
+					depends_on_unit = <table 2>,
+					launch_delay = 2,
+					reactionTime = 1,
+					reflection_limit = 0.05,
+					sensor = {},
+					type = 4
 				} },
 			angles = { {} },
 			area = "Nose_Col_Top",
-			center = "POINT_MK_41_24"
+			center = "POINT_MK_41_08",
+			sharesBarrelsBetweenLaunchers = true
 		}, {
 			LN = { {
-					BR = { {
+					BR = <3>{ {
 							connector_name = "POINT_MK_41_33",
-							recoilArgument = 209,
+							recoilArgument = 180,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_34",
-							recoilArgument = 210,
+							recoilArgument = 180,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_35",
-							recoilArgument = 211,
+							recoilArgument = 181,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_36",
-							recoilArgument = 212,
+							recoilArgument = 182,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_37",
-							recoilArgument = 213,
+							recoilArgument = 183,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_38",
-							recoilArgument = 214,
+							recoilArgument = 184,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_39",
-							recoilArgument = 215,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_40",
-							recoilArgument = 216,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_41",
-							recoilArgument = 217,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_42",
-							recoilArgument = 218,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_43",
-							recoilArgument = 219,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_44",
-							recoilArgument = 220,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_45",
-							recoilArgument = 221,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_46",
-							recoilArgument = 222,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_47",
-							recoilArgument = 223,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_48",
-							recoilArgument = 224,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
-						} },
-					PL = { {
-							ammo_capacity = 16,
-							type_ammunition = {}
-						} },
-					max_number_of_missiles_channels = 16,
-					sensor = {}
-				} },
-			angles = { {} },
-			area = "Bort_Col_Top",
-			center = "POINT_MK_41_40"
-		}, {
-			LN = { {
-					BR = { {
+						}, {
 							connector_name = "POINT_MK_41_49",
-							recoilArgument = 225,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_50",
-							recoilArgument = 226,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_51",
-							recoilArgument = 227,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_52",
-							recoilArgument = 228,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_53",
-							recoilArgument = 229,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_54",
-							recoilArgument = 230,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_55",
-							recoilArgument = 231,
+							recoilArgument = 181,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_56",
-							recoilArgument = 232,
+							recoilArgument = 182,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_57",
-							recoilArgument = 233,
+							recoilArgument = 183,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_58",
-							recoilArgument = 234,
+							recoilArgument = 184,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_59",
-							recoilArgument = 235,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_60",
-							recoilArgument = 236,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_61",
-							recoilArgument = 237,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_62",
-							recoilArgument = 238,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_63",
-							recoilArgument = 239,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_64",
-							recoilArgument = 240,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_65",
-							recoilArgument = 241,
+							recoilArgument = 181,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_66",
-							recoilArgument = 242,
+							recoilArgument = 182,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_67",
-							recoilArgument = 243,
+							recoilArgument = 183,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_68",
-							recoilArgument = 244,
+							recoilArgument = 184,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_69",
-							recoilArgument = 245,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_70",
-							recoilArgument = 246,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_71",
-							recoilArgument = 247,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_72",
-							recoilArgument = 248,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_73",
-							recoilArgument = 249,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_74",
-							recoilArgument = 250,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_75",
-							recoilArgument = 251,
+							recoilArgument = 181,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_76",
-							recoilArgument = 252,
+							recoilArgument = 182,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_77",
-							recoilArgument = 253,
+							recoilArgument = 183,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_78",
-							recoilArgument = 254,
+							recoilArgument = 184,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_79",
-							recoilArgument = 255,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_80",
-							recoilArgument = 256,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_81",
-							recoilArgument = 257,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_82",
-							recoilArgument = 258,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_83",
-							recoilArgument = 259,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_84",
-							recoilArgument = 260,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_85",
-							recoilArgument = 261,
+							recoilArgument = 181,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_86",
-							recoilArgument = 262,
+							recoilArgument = 182,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_87",
-							recoilArgument = 263,
+							recoilArgument = 183,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_88",
-							recoilArgument = 264,
+							recoilArgument = 184,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_89",
-							recoilArgument = 265,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_90",
-							recoilArgument = 266,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_91",
-							recoilArgument = 267,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_92",
-							recoilArgument = 268,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_93",
-							recoilArgument = 269,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_94",
-							recoilArgument = 270,
+							recoilArgument = 177,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_95",
-							recoilArgument = 271,
+							recoilArgument = 181,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_MK_41_96",
-							recoilArgument = 272,
+							recoilArgument = 182,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						} },
 					PL = { {
-							ammo_capacity = 48,
-							type_ammunition = {}
+							ammo_capacity = 10,
+							name_ammunition = "BGM_109B",
+							reload_time = 1000000,
+							shot_delay = 1,
+							type_ammunition = "weapons.missiles.BGM_109B",
+							virtualStwID = 2
 						} },
-					depends_on_unit = <table 1>,
-					sensor = {}
+					barrels_reload_type = 3,
+					external_tracking_awacs = true,
+					launch_delay = 2,
+					max_number_of_missiles_channels = 16,
+					reactionTime = 2,
+					sensor = {},
+					type = 8
+				}, {
+					BR = <table 3>,
+					PL = { {
+							ammo_capacity = 27,
+							name_ammunition = "SM 2MR RIM 66M",
+							reload_time = 1000000,
+							type_ammunition = "weapons.missiles.SM_2",
+							virtualStwID = 2
+						} },
+					barrels_reload_type = 3,
+					depends_on_unit = <table 2>,
+					distanceMax = 100000,
+					distanceMin = 4000,
+					launch_delay = 2,
+					reactionTime = 1,
+					reflection_limit = 0.05,
+					sensor = {},
+					type = 4
+				}, {
+					BR = <table 3>,
+					PL = { {
+							ammo_capacity = 27,
+							name_ammunition = "SM 2ER RIM 156",
+							reload_time = 1000000,
+							type_ammunition = "weapons.missiles.SM_2ER",
+							virtualStwID = 2
+						} },
+					barrels_reload_type = 3,
+					depends_on_unit = <table 2>,
+					launch_delay = 2,
+					reactionTime = 1,
+					reflection_limit = 0.05,
+					sensor = {},
+					type = 4
 				} },
 			angles = { {} },
 			area = "Bort_Col_Top",
-			center = "POINT_MK_41_56"
+			center = "POINT_MK_41_40",
+			sharesBarrelsBetweenLaunchers = true
 		},
 		maxTargetDetectionRange = 450000,
 		radar_type = 102,

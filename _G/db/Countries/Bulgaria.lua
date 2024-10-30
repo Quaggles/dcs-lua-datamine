@@ -1317,6 +1317,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "ara_vdm"
 				}, {
+					Name = "atconveyor"
+				}, {
 					Name = "Uboat_VIIC"
 				}, {
 					Name = "Schnellboot_type_S130"

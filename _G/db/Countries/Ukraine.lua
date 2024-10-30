@@ -1704,6 +1704,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Ship_Tilde_Supply"
 				}, {
 					Name = "ara_vdm"
+				}, {
+					Name = "atconveyor"
 				} }
 		},
 		WWIIstructures = {

@@ -1168,6 +1168,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "santafe"
 				}, {
 					Name = "ara_vdm"
+				}, {
+					Name = "atconveyor"
 				} }
 		},
 		WWIIstructures = {

@@ -341,15 +341,22 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 						} },
 					PL = { {
 							ammo_capacity = 24,
+							name_ammunition = "(SM-1) RIM-66B",
+							reload_time = 1000000,
 							shot_delay = 12,
-							type_ammunition = {}
+							type_ammunition = "weapons.missiles.SM_1"
 						} },
 					barrels_reload_type = 1,
 					depends_on_unit = { { { "self", 8 } }, { { "self", 9 } } },
+					distanceMax = 100000,
+					distanceMin = 4000,
+					launch_delay = 2,
 					min_launch_angle = 0.34906585039887,
-					reactionTime = 10,
+					reactionTime = 1,
+					reflection_limit = 0.05,
 					sensor = {},
-					show_external_missile = true
+					show_external_missile = true,
+					type = 4
 				}, {
 					BR = { {
 							connector_name = "POINT_PU"

@@ -7,10 +7,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			args = { 146 },
 			critical_damage = 4
 		},
-		[3] = {
-			args = { 146 },
-			critical_damage = 10
-		},
 		[9] = {
 			args = { 154 },
 			critical_damage = 12
@@ -19,22 +15,13 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			args = { 153 },
 			critical_damage = 12
 		},
-		[11] = {
+		[12] = {
 			args = { 161 },
 			critical_damage = 2
 		},
-		[12] = {
-			args = { 161 },
-			critical_damage = 2,
-			deps_cells = { 11 }
-		},
-		[55] = {
-			critical_damage = 3
-		},
 		[56] = {
 			args = { 81 },
-			critical_damage = 8,
-			deps_cells = { 55 }
+			critical_damage = 8
 		},
 		[82] = {
 			args = { 152 },

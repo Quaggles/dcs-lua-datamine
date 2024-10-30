@@ -41,7 +41,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_88"] = {
 		},
 		boost = {
 			custom_smoke_dissipation_factor = 0.3,
-			fuel_mass = 25.5,
+			fuel_mass = 70,
 			impulse = 235,
 			nozzle_exit_area = 0.01368,
 			nozzle_orientationXYZ = { { 0, 0, 0 } },
@@ -49,11 +49,11 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_88"] = {
 			smoke_color = { 0.9, 0.9, 0.9 },
 			smoke_transparency = 0.1,
 			tail_width = 0.4,
-			work_time = 1
+			work_time = 3.4
 		},
 		controller = {
 			boost_start = 0,
-			march_start = 1
+			march_start = 3.4
 		},
 		conv = {
 			seeker_add_pitch = -0.34906585039887
@@ -95,15 +95,15 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_88"] = {
 		},
 		march = {
 			custom_smoke_dissipation_factor = 0.3,
-			fuel_mass = 101.5,
-			impulse = 226,
+			fuel_mass = 57,
+			impulse = 206,
 			nozzle_exit_area = 0.01368,
 			nozzle_orientationXYZ = { { 0, 0, 0 } },
 			nozzle_position = { { -2.1, 0, 0 } },
 			smoke_color = { 0.8, 0.8, 0.8 },
 			smoke_transparency = 0.1,
 			tail_width = 0.3,
-			work_time = 20.4
+			work_time = 12.5
 		},
 		proximity_fuze = {
 			arm_delay = 1.6,
@@ -202,7 +202,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_88"] = {
 		},
 		boost = {
 			custom_smoke_dissipation_factor = 0.3,
-			fuel_mass = 25.5,
+			fuel_mass = 70,
 			impulse = 235,
 			nozzle_exit_area = 0.01368,
 			nozzle_orientationXYZ = { { 0, 0, 0 } },
@@ -210,11 +210,11 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_88"] = {
 			smoke_color = { 0.9, 0.9, 0.9 },
 			smoke_transparency = 0.1,
 			tail_width = 0.4,
-			work_time = 1
+			work_time = 3.4
 		},
 		controller = {
 			boost_start = 0,
-			march_start = 1
+			march_start = 3.4
 		},
 		conv = {
 			seeker_add_pitch = -0.34906585039887
@@ -256,15 +256,15 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_88"] = {
 		},
 		march = {
 			custom_smoke_dissipation_factor = 0.3,
-			fuel_mass = 101.5,
-			impulse = 226,
+			fuel_mass = 57,
+			impulse = 206,
 			nozzle_exit_area = 0.01368,
 			nozzle_orientationXYZ = { { 0, 0, 0 } },
 			nozzle_position = { { -2.1, 0, 0 } },
 			smoke_color = { 0.8, 0.8, 0.8 },
 			smoke_transparency = 0.1,
 			tail_width = 0.3,
-			work_time = 20.4
+			work_time = 12.5
 		},
 		proximity_fuze = {
 			arm_delay = 1.6,

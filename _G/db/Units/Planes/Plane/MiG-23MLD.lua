@@ -16,6 +16,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 65 },
 			critical_damage = 10
 		},
+		[8] = {
+			critical_damage = 10
+		},
 		[10] = {
 			critical_damage = 20
 		},

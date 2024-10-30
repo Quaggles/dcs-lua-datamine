@@ -100,7 +100,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	animation_arguments = {},
 	attribute = { 2, 17, 26, "Redacted", "Tanks", "Old Tanks", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "HeavyArmoredUnits" },
 	category = "Armor",
-	chassis = {},
+	chassis = {
+		gearRatios = {}
+	},
 	crew_locale = "ENG",
 	crew_members = { "commander", "gunner", "loader" },
 	driverCockpit = "DriverCockpit/DriverCockpitWithIR",

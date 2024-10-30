@@ -77,15 +77,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	_origin = "TechWeaponPack",
 	animation_arguments = {
 		alarm_state = -1,
-		alarm_state_sequence = { { 2, { {
-						endTime = 20,
-						startTime = 0
-					}, {
-						endTime = 50,
-						endVal = 1,
-						startTime = 20,
-						startVal = 1
-					} } }, { 3, { {
+		alarm_state_sequence = { { 3, { {
 						endTime = 25,
 						endVal = 0,
 						startTime = 0,

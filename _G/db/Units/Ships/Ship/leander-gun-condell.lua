@@ -185,14 +185,14 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	DeckLevel = 4.511,
 	DetectionRange = 150000,
 	DisplayName = "CNS Almirante Condell (PFG-06)",
-	Gamma_max = 0.35,
+	Gamma_max = 1.35,
 	Height = 29.5,
 	Helicopter_Num_ = 1,
 	Landing_Point = { -45.1, 4.511, 0 },
 	Length = 113.64,
 	MaxSpeed = 51.84,
 	Name = "CNS Almirante Condell (PFG-06)",
-	Om = 0.05,
+	Om = 0.8,
 	R_min = 208.4,
 	Rate = 4000,
 	Sensors = {
@@ -429,16 +429,18 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	},
 	attribute = { 3, 12, 14, "Redacted", "Frigates", "RADAR_BAND1_FOR_ARM", "DetectionByAWACS", "Armed Ship", "HelicopterCarrier", "Naval", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
 	chassis = {},
-	distFindObstacles = 250,
+	distFindObstacles = 1000,
 	draft = 7,
 	economy_distance = 4200000,
 	economy_velocity = 7.2,
 	enablePlayerCanDrive = false,
 	exhaust = { {
 			pos = { -3.435, 15.04, 0.5 },
+			preset = "Bazar/ParticleEffects/effects/SmokeShip.lua",
 			size = 0.2
 		}, {
 			pos = { -3.435, 15.04, -0.5 },
+			preset = "Bazar/ParticleEffects/effects/SmokeShip.lua",
 			size = 0.2
 		} },
 	life = 1000,

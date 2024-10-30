@@ -12,5 +12,5 @@ _G["launcher"]["DIS_C-701IR"] = {
 	attribute = "weapons.missiles.C-701IR",
 	category = 2,
 	displayName = "C-701IR",
-	ejectVelocity = 2
+	ejectVelocity = 0
 }

@@ -2208,6 +2208,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{PHXBRU3242_2*MK20 LS}",
 					connector = "WEP_PhoenixWingPylon_L"
 				}, {
+					CLSID = "{PHXBRU3242_2*CBU99 LS}",
+					connector = "WEP_PhoenixWingPylon_L"
+				}, {
 					CLSID = "{PHXBRU3242_MK83 LS}",
 					connector = "WEP_PhoenixWingPylon_L"
 				}, {
@@ -2524,6 +2527,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{MAK79_MK20 2R}" },
 							station = 7
 						}, {
+							loadout = { "{MAK79_CBU99 2R}" },
+							station = 7
+						}, {
 							loadout = { "{BRU-32 MK-83}" },
 							station = 7
 						}, {
@@ -2534,6 +2540,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 7
 						}, {
 							loadout = { "{BRU-32 MK-20}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 CBU-99}" },
 							station = 7
 						}, {
 							loadout = { "{BRU3242_ADM141}" },
@@ -2663,6 +2672,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{MAK79_MK20 2R}" },
 							station = 7
 						}, {
+							loadout = { "{MAK79_CBU99 2R}" },
+							station = 7
+						}, {
 							loadout = { "{BRU-32 MK-83}" },
 							station = 7
 						}, {
@@ -2673,6 +2685,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 7
 						}, {
 							loadout = { "{BRU-32 MK-20}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 CBU-99}" },
 							station = 7
 						}, {
 							loadout = { "{BRU3242_ADM141}" },
@@ -2802,6 +2817,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{MAK79_MK20 2R}" },
 							station = 7
 						}, {
+							loadout = { "{MAK79_CBU99 2R}" },
+							station = 7
+						}, {
 							loadout = { "{BRU-32 MK-83}" },
 							station = 7
 						}, {
@@ -2812,6 +2830,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 7
 						}, {
 							loadout = { "{BRU-32 MK-20}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 CBU-99}" },
 							station = 7
 						}, {
 							loadout = { "{BRU3242_ADM141}" },
@@ -2998,6 +3019,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{MAK79_MK20 2R}" },
 							station = 7
 						}, {
+							loadout = { "{MAK79_CBU99 2R}" },
+							station = 7
+						}, {
 							loadout = { "{BRU-32 MK-83}" },
 							station = 7
 						}, {
@@ -3008,6 +3032,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 7
 						}, {
 							loadout = { "{BRU-32 MK-20}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 CBU-99}" },
 							station = 7
 						}, {
 							loadout = { "{BRU3242_ADM141}" },
@@ -3456,6 +3483,48 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{BRU-32 MK-20}",
+					arg = 601,
+					arg_value = 0.5,
+					connector = "WEP_BRU-34_F_L",
+					forbidden = { {
+							loadout = { "{BELLY AIM-7E}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7F}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7M}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7MH}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7E}" },
+							station = 7
+						}, {
+							loadout = { "{BELLY AIM-7F}" },
+							station = 7
+						}, {
+							loadout = { "{BELLY AIM-7M}" },
+							station = 7
+						}, {
+							loadout = { "{BELLY AIM-7MH}" },
+							station = 7
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 7
+						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 7
+						} }
+				}, {
+					CLSID = "{BRU-32 CBU-99}",
 					arg = 601,
 					arg_value = 0.5,
 					connector = "WEP_BRU-34_F_L",
@@ -4300,6 +4369,84 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "<CLEAN>" },
 							station = 7
 						} }
+				}, {
+					CLSID = "{MAK79_CBU99 2L}",
+					arg = 601,
+					arg_value = 0,
+					connector = "MAK-79_Root_F_L",
+					forbidden = { {
+							loadout = { "{AIM_54A_Mk47}" },
+							station = 5
+						}, {
+							loadout = { "{AIM_54A_Mk60}" },
+							station = 5
+						}, {
+							loadout = { "{AIM_54C_Mk47}" },
+							station = 5
+						}, {
+							loadout = { "{AIM_54C_Mk60}" },
+							station = 5
+						}, {
+							loadout = { "{BRU-32 GBU-12}" },
+							station = 5
+						}, {
+							loadout = { "{BRU-32 GBU-16}" },
+							station = 5
+						}, {
+							loadout = { "{MAK79_MK81 3L}" },
+							station = 5
+						}, {
+							loadout = { "{MAK79_MK82 3L}" },
+							station = 5
+						}, {
+							loadout = { "{MAK79_BDU45 3L}" },
+							station = 5
+						}, {
+							loadout = { "{MAK79_BDU45B 3L}" },
+							station = 5
+						}, {
+							loadout = { "{MAK79_MK82AIR 3L}" },
+							station = 5
+						}, {
+							loadout = { "{MAK79_MK82SE 3L}" },
+							station = 5
+						}, {
+							loadout = { "{BELLY AIM-7E}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7F}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7M}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7MH}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7E}" },
+							station = 7
+						}, {
+							loadout = { "{BELLY AIM-7F}" },
+							station = 7
+						}, {
+							loadout = { "{BELLY AIM-7M}" },
+							station = 7
+						}, {
+							loadout = { "{BELLY AIM-7MH}" },
+							station = 7
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 7
+						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 7
+						} }
 				} },
 			Number = 4,
 			Order = 4,
@@ -4357,6 +4504,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 4
 						}, {
 							loadout = { "{MAK79_MK20 2L}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_CBU99 2L}" },
 							station = 4
 						}, {
 							loadout = { "<CLEAN>" },
@@ -4450,6 +4600,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{MAK79_MK20 2L}" },
 							station = 4
 						}, {
+							loadout = { "{MAK79_CBU99 2L}" },
+							station = 4
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 4
 						}, {
@@ -4541,6 +4694,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{MAK79_MK20 2L}" },
 							station = 4
 						}, {
+							loadout = { "{MAK79_CBU99 2L}" },
+							station = 4
+						}, {
 							loadout = { "<CLEAN>" },
 							station = 4
 						}, {
@@ -4630,6 +4786,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 4
 						}, {
 							loadout = { "{MAK79_MK20 2L}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_CBU99 2L}" },
 							station = 4
 						}, {
 							loadout = { "<CLEAN>" },
@@ -4738,6 +4897,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{MAK79_MK20 1R}" },
 							station = 6
 						}, {
+							loadout = { "{MAK79_CBU99 1R}" },
+							station = 6
+						}, {
 							loadout = { "{BRU-32 MK-83}" },
 							station = 6
 						}, {
@@ -4748,6 +4910,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 6
 						}, {
 							loadout = { "{BRU-32 MK-20}" },
+							station = 6
+						}, {
+							loadout = { "{BRU-32 CBU-99}" },
 							station = 6
 						}, {
 							loadout = { "{BRU3242_ADM141}" },
@@ -4832,6 +4997,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{MAK79_MK20 1R}" },
 							station = 6
 						}, {
+							loadout = { "{MAK79_CBU99 1R}" },
+							station = 6
+						}, {
 							loadout = { "{BRU-32 MK-83}" },
 							station = 6
 						}, {
@@ -4842,6 +5010,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 6
 						}, {
 							loadout = { "{BRU-32 MK-20}" },
+							station = 6
+						}, {
+							loadout = { "{BRU-32 CBU-99}" },
 							station = 6
 						}, {
 							loadout = { "{BRU3242_ADM141}" },
@@ -4926,6 +5097,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{MAK79_MK20 1R}" },
 							station = 6
 						}, {
+							loadout = { "{MAK79_CBU99 1R}" },
+							station = 6
+						}, {
 							loadout = { "{BRU-32 MK-83}" },
 							station = 6
 						}, {
@@ -4936,6 +5110,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 6
 						}, {
 							loadout = { "{BRU-32 MK-20}" },
+							station = 6
+						}, {
+							loadout = { "{BRU-32 CBU-99}" },
 							station = 6
 						}, {
 							loadout = { "{BRU3242_ADM141}" },
@@ -5033,6 +5210,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{MAK79_MK20 1R}" },
 							station = 6
 						}, {
+							loadout = { "{MAK79_CBU99 1R}" },
+							station = 6
+						}, {
 							loadout = { "{BRU-32 MK-83}" },
 							station = 6
 						}, {
@@ -5043,6 +5223,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 6
 						}, {
 							loadout = { "{BRU-32 MK-20}" },
+							station = 6
+						}, {
+							loadout = { "{BRU-32 CBU-99}" },
 							station = 6
 						}, {
 							loadout = { "{BRU3242_ADM141}" },
@@ -5121,6 +5304,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{MAK79_MK20 1R}" },
 							station = 6
 						}, {
+							loadout = { "{MAK79_CBU99 1R}" },
+							station = 6
+						}, {
 							loadout = { "{BRU-32 MK-83}" },
 							station = 6
 						}, {
@@ -5131,6 +5317,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 6
 						}, {
 							loadout = { "{BRU-32 MK-20}" },
+							station = 6
+						}, {
+							loadout = { "{BRU-32 CBU-99}" },
 							station = 6
 						}, {
 							loadout = { "{BRU3242_ADM141}" },
@@ -5346,6 +5535,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{MAK79_MK20 2L}" },
 							station = 4
 						}, {
+							loadout = { "{MAK79_CBU99 2L}" },
+							station = 4
+						}, {
 							loadout = { "{BELLY AIM-7E}" },
 							station = 6
 						}, {
@@ -5376,6 +5568,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{MAK79_MK20 2L}" },
 							station = 4
 						}, {
+							loadout = { "{MAK79_CBU99 2L}" },
+							station = 4
+						}, {
 							loadout = { "{BELLY AIM-7E}" },
 							station = 6
 						}, {
@@ -5396,6 +5591,33 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{BRU-32 MK-20}",
+					arg = 603,
+					arg_value = 0.5,
+					connector = "WEP_BRU-34_R_L",
+					forbidden = { {
+							loadout = { "{BELLY AIM-7E}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7F}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7M}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7MH}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 6
+						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
+					CLSID = "{BRU-32 CBU-99}",
 					arg = 603,
 					arg_value = 0.5,
 					connector = "WEP_BRU-34_R_L",
@@ -5559,6 +5781,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{MAK79_MK20 2L}" },
 							station = 4
 						}, {
+							loadout = { "{MAK79_CBU99 2L}" },
+							station = 4
+						}, {
 							loadout = { "{BELLY AIM-7E}" },
 							station = 6
 						}, {
@@ -5590,6 +5815,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 4
 						}, {
 							loadout = { "{MAK79_MK20 2L}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_CBU99 2L}" },
 							station = 4
 						}, {
 							loadout = { "{BELLY AIM-7E}" },
@@ -5625,6 +5853,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{MAK79_MK20 2L}" },
 							station = 4
 						}, {
+							loadout = { "{MAK79_CBU99 2L}" },
+							station = 4
+						}, {
 							loadout = { "{BELLY AIM-7E}" },
 							station = 6
 						}, {
@@ -5656,6 +5887,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 4
 						}, {
 							loadout = { "{MAK79_MK20 2L}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_CBU99 2L}" },
 							station = 4
 						}, {
 							loadout = { "{BELLY AIM-7E}" },
@@ -5721,6 +5955,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{MAK79_MK20 2L}" },
 							station = 4
 						}, {
+							loadout = { "{MAK79_CBU99 2L}" },
+							station = 4
+						}, {
 							loadout = { "{BELLY AIM-7E}" },
 							station = 6
 						}, {
@@ -5752,6 +5989,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 4
 						}, {
 							loadout = { "{MAK79_MK20 2L}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_CBU99 2L}" },
 							station = 4
 						}, {
 							loadout = { "{BELLY AIM-7E}" },
@@ -5829,6 +6069,33 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "<CLEAN>" },
 							station = 6
 						} }
+				}, {
+					CLSID = "{MAK79_CBU99 1L}",
+					arg = 603,
+					arg_value = 0,
+					connector = "MAK-79_Root_R_L",
+					forbidden = { {
+							loadout = { "{BELLY AIM-7E}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7F}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7M}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7MH}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 6
+						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
 				} },
 			Number = 5,
 			Order = 5,
@@ -5872,9 +6139,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BRU3242_2*LAU10 R}" },
 							station = 4
 						}, {
-							loadout = { "{BRU-32 MK-82}" },
-							station = 4
-						}, {
 							loadout = { "{BRU-32 MK-82AIR}" },
 							station = 4
 						}, {
@@ -5914,16 +6178,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{MAK79_MK83 3L}" },
 							station = 4
 						}, {
-							loadout = { "{BRU-32 MK-83}" },
-							station = 4
-						}, {
-							loadout = { "{BRU-32 GBU-12}" },
-							station = 4
-						}, {
-							loadout = { "{BRU-32 GBU-16}" },
-							station = 4
-						}, {
 							loadout = { "{BRU-32 MK-20}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 CBU-99}" },
 							station = 4
 						}, {
 							loadout = { "{BRU3242_ADM141}" },
@@ -5936,6 +6194,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 4
 						}, {
 							loadout = { "{MAK79_MK20 2L}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_CBU99 2L}" },
 							station = 4
 						}, {
 							loadout = { "{BRU-32 GBU-24}" },
@@ -5956,9 +6217,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BRU3242_2*LAU10 R}" },
 							station = 7
 						}, {
-							loadout = { "{BRU-32 MK-82}" },
-							station = 7
-						}, {
 							loadout = { "{BRU-32 MK-82AIR}" },
 							station = 7
 						}, {
@@ -5998,16 +6256,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{MAK79_MK83 3L}" },
 							station = 7
 						}, {
-							loadout = { "{BRU-32 MK-83}" },
-							station = 7
-						}, {
-							loadout = { "{BRU-32 GBU-12}" },
-							station = 7
-						}, {
-							loadout = { "{BRU-32 GBU-16}" },
-							station = 7
-						}, {
 							loadout = { "{BRU-32 MK-20}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 CBU-99}" },
 							station = 7
 						}, {
 							loadout = { "{BRU3242_ADM141}" },
@@ -6020,6 +6272,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 7
 						}, {
 							loadout = { "{MAK79_MK20 2L}" },
+							station = 7
+						}, {
+							loadout = { "{MAK79_CBU99 2L}" },
 							station = 7
 						}, {
 							loadout = { "{BRU-32 GBU-24}" },
@@ -6114,6 +6369,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{MAK79_MK20 2R}" },
 							station = 7
 						}, {
+							loadout = { "{MAK79_CBU99 2R}" },
+							station = 7
+						}, {
 							loadout = { "{BRU-32 MK-84}" },
 							station = 7
 						}, {
@@ -6203,6 +6461,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 7
 						}, {
 							loadout = { "{MAK79_MK20 2R}" },
+							station = 7
+						}, {
+							loadout = { "{MAK79_CBU99 2R}" },
 							station = 7
 						}, {
 							loadout = { "{BRU-32 MK-84}" },
@@ -6296,6 +6557,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{MAK79_MK20 2R}" },
 							station = 7
 						}, {
+							loadout = { "{MAK79_CBU99 2R}" },
+							station = 7
+						}, {
 							loadout = { "{BRU-32 MK-84}" },
 							station = 7
 						}, {
@@ -6387,6 +6651,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{MAK79_MK20 2R}" },
 							station = 7
 						}, {
+							loadout = { "{MAK79_CBU99 2R}" },
+							station = 7
+						}, {
 							loadout = { "{BRU-32 MK-84}" },
 							station = 7
 						}, {
@@ -6469,6 +6736,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BRU-32 MK-20}" },
 							station = 4
 						}, {
+							loadout = { "{BRU-32 CBU-99}" },
+							station = 4
+						}, {
 							loadout = { "{BRU3242_ADM141}" },
 							station = 4
 						}, {
@@ -6479,6 +6749,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 4
 						}, {
 							loadout = { "{MAK79_MK20 2L}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_CBU99 2L}" },
 							station = 4
 						}, {
 							loadout = { "{BRU-32 GBU-24}" },
@@ -6553,6 +6826,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BRU-32 MK-20}" },
 							station = 5
 						}, {
+							loadout = { "{BRU-32 CBU-99}" },
+							station = 5
+						}, {
 							loadout = { "{BRU3242_ADM141}" },
 							station = 5
 						}, {
@@ -6560,6 +6836,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 5
 						}, {
 							loadout = { "{MAK79_MK20 1L}" },
+							station = 5
+						}, {
+							loadout = { "{MAK79_CBU99 1L}" },
 							station = 5
 						}, {
 							loadout = { "<CLEAN>" },
@@ -6622,6 +6901,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{MAK79_MK20 2R}" },
 							station = 7
 						}, {
+							loadout = { "{MAK79_CBU99 2R}" },
+							station = 7
+						}, {
 							loadout = { "{BRU-32 MK-83}" },
 							station = 7
 						}, {
@@ -6632,6 +6914,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 7
 						}, {
 							loadout = { "{BRU-32 MK-20}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 CBU-99}" },
 							station = 7
 						}, {
 							loadout = { "{BRU3242_ADM141}" },
@@ -6746,6 +7031,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BRU-32 MK-20}" },
 							station = 4
 						}, {
+							loadout = { "{BRU-32 CBU-99}" },
+							station = 4
+						}, {
 							loadout = { "{BRU3242_ADM141}" },
 							station = 4
 						}, {
@@ -6756,6 +7044,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 4
 						}, {
 							loadout = { "{MAK79_MK20 2L}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_CBU99 2L}" },
 							station = 4
 						}, {
 							loadout = { "{BRU-32 GBU-24}" },
@@ -6830,6 +7121,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BRU-32 MK-20}" },
 							station = 5
 						}, {
+							loadout = { "{BRU-32 CBU-99}" },
+							station = 5
+						}, {
 							loadout = { "{BRU3242_ADM141}" },
 							station = 5
 						}, {
@@ -6837,6 +7131,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 5
 						}, {
 							loadout = { "{MAK79_MK20 1L}" },
+							station = 5
+						}, {
+							loadout = { "{MAK79_CBU99 1L}" },
 							station = 5
 						}, {
 							loadout = { "<CLEAN>" },
@@ -6899,6 +7196,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{MAK79_MK20 2R}" },
 							station = 7
 						}, {
+							loadout = { "{MAK79_CBU99 2R}" },
+							station = 7
+						}, {
 							loadout = { "{BRU-32 MK-83}" },
 							station = 7
 						}, {
@@ -6909,6 +7209,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 7
 						}, {
 							loadout = { "{BRU-32 MK-20}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 CBU-99}" },
 							station = 7
 						}, {
 							loadout = { "{BRU3242_ADM141}" },
@@ -7023,6 +7326,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BRU-32 MK-20}" },
 							station = 4
 						}, {
+							loadout = { "{BRU-32 CBU-99}" },
+							station = 4
+						}, {
 							loadout = { "{BRU3242_ADM141}" },
 							station = 4
 						}, {
@@ -7033,6 +7339,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 4
 						}, {
 							loadout = { "{MAK79_MK20 2L}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_CBU99 2L}" },
 							station = 4
 						}, {
 							loadout = { "{BRU-32 GBU-24}" },
@@ -7107,6 +7416,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BRU-32 MK-20}" },
 							station = 5
 						}, {
+							loadout = { "{BRU-32 CBU-99}" },
+							station = 5
+						}, {
 							loadout = { "{BRU3242_ADM141}" },
 							station = 5
 						}, {
@@ -7114,6 +7426,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 5
 						}, {
 							loadout = { "{MAK79_MK20 1L}" },
+							station = 5
+						}, {
+							loadout = { "{MAK79_CBU99 1L}" },
 							station = 5
 						}, {
 							loadout = { "<CLEAN>" },
@@ -7176,6 +7491,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{MAK79_MK20 2R}" },
 							station = 7
 						}, {
+							loadout = { "{MAK79_CBU99 2R}" },
+							station = 7
+						}, {
 							loadout = { "{BRU-32 MK-83}" },
 							station = 7
 						}, {
@@ -7186,6 +7504,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 7
 						}, {
 							loadout = { "{BRU-32 MK-20}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 CBU-99}" },
 							station = 7
 						}, {
 							loadout = { "{BRU3242_ADM141}" },
@@ -7308,6 +7629,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BRU-32 MK-20}" },
 							station = 4
 						}, {
+							loadout = { "{BRU-32 CBU-99}" },
+							station = 4
+						}, {
 							loadout = { "{BRU3242_ADM141}" },
 							station = 4
 						}, {
@@ -7318,6 +7642,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 4
 						}, {
 							loadout = { "{MAK79_MK20 2L}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_CBU99 2L}" },
 							station = 4
 						}, {
 							loadout = { "{BRU-32 GBU-24}" },
@@ -7392,6 +7719,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BRU-32 MK-20}" },
 							station = 5
 						}, {
+							loadout = { "{BRU-32 CBU-99}" },
+							station = 5
+						}, {
 							loadout = { "{BRU3242_ADM141}" },
 							station = 5
 						}, {
@@ -7399,6 +7729,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 5
 						}, {
 							loadout = { "{MAK79_MK20 1L}" },
+							station = 5
+						}, {
+							loadout = { "{MAK79_CBU99 1L}" },
 							station = 5
 						}, {
 							loadout = { "<CLEAN>" },
@@ -7461,6 +7794,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{MAK79_MK20 2R}" },
 							station = 7
 						}, {
+							loadout = { "{MAK79_CBU99 2R}" },
+							station = 7
+						}, {
 							loadout = { "{BRU-32 MK-83}" },
 							station = 7
 						}, {
@@ -7471,6 +7807,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 7
 						}, {
 							loadout = { "{BRU-32 MK-20}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 CBU-99}" },
 							station = 7
 						}, {
 							loadout = { "{BRU3242_ADM141}" },
@@ -7706,6 +8045,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{MAK79_MK20 2R}" },
 							station = 7
+						}, {
+							loadout = { "{MAK79_CBU99 2R}" },
+							station = 7
 						} }
 				}, {
 					CLSID = "{BRU-32 GBU-16}",
@@ -7736,9 +8078,36 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{MAK79_MK20 2R}" },
 							station = 7
+						}, {
+							loadout = { "{MAK79_CBU99 2R}" },
+							station = 7
 						} }
 				}, {
 					CLSID = "{BRU-32 MK-20}",
+					arg = 604,
+					arg_value = 0.5,
+					connector = "WEP_BRU-34_R_R",
+					forbidden = { {
+							loadout = { "{BELLY AIM-7E}" },
+							station = 5
+						}, {
+							loadout = { "{BELLY AIM-7F}" },
+							station = 5
+						}, {
+							loadout = { "{BELLY AIM-7M}" },
+							station = 5
+						}, {
+							loadout = { "{BELLY AIM-7MH}" },
+							station = 5
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 5
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						} }
+				}, {
+					CLSID = "{BRU-32 CBU-99}",
 					arg = 604,
 					arg_value = 0.5,
 					connector = "WEP_BRU-34_R_R",
@@ -7898,6 +8267,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{MAK79_MK20 2R}" },
 							station = 7
+						}, {
+							loadout = { "{MAK79_CBU99 2R}" },
+							station = 7
 						} }
 				}, {
 					CLSID = "{MAK79_MK82 3R}",
@@ -7930,6 +8302,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 7
 						}, {
 							loadout = { "{MAK79_MK20 2R}" },
+							station = 7
+						}, {
+							loadout = { "{MAK79_CBU99 2R}" },
 							station = 7
 						} }
 				}, {
@@ -7964,6 +8339,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{MAK79_MK20 2R}" },
 							station = 7
+						}, {
+							loadout = { "{MAK79_CBU99 2R}" },
+							station = 7
 						} }
 				}, {
 					CLSID = "{MAK79_BDU45B 3R}",
@@ -7996,6 +8374,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 7
 						}, {
 							loadout = { "{MAK79_MK20 2R}" },
+							station = 7
+						}, {
+							loadout = { "{MAK79_CBU99 2R}" },
 							station = 7
 						} }
 				}, {
@@ -8060,6 +8441,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{MAK79_MK20 2R}" },
 							station = 7
+						}, {
+							loadout = { "{MAK79_CBU99 2R}" },
+							station = 7
 						} }
 				}, {
 					CLSID = "{MAK79_MK82SE 3R}",
@@ -8093,6 +8477,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						}, {
 							loadout = { "{MAK79_MK20 2R}" },
 							station = 7
+						}, {
+							loadout = { "{MAK79_CBU99 2R}" },
+							station = 7
 						} }
 				}, {
 					CLSID = "{MAK79_MK83 1R}",
@@ -8120,6 +8507,30 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{MAK79_MK20 1R}",
+					arg = 604,
+					arg_value = 0,
+					connector = "MAK-79_Root_R_R",
+					forbidden = { {
+							loadout = { "{BELLY AIM-7E}" },
+							station = 5
+						}, {
+							loadout = { "{BELLY AIM-7F}" },
+							station = 5
+						}, {
+							loadout = { "{BELLY AIM-7M}" },
+							station = 5
+						}, {
+							loadout = { "{BELLY AIM-7MH}" },
+							station = 5
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 5
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						} }
+				}, {
+					CLSID = "{MAK79_CBU99 1R}",
 					arg = 604,
 					arg_value = 0,
 					connector = "MAK-79_Root_R_R",
@@ -8412,6 +8823,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BRU-32 MK-20}" },
 							station = 4
 						}, {
+							loadout = { "{BRU-32 CBU-99}" },
+							station = 4
+						}, {
 							loadout = { "{BRU3242_ADM141}" },
 							station = 4
 						}, {
@@ -8422,6 +8836,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 4
 						}, {
 							loadout = { "{MAK79_MK20 2L}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_CBU99 2L}" },
 							station = 4
 						}, {
 							loadout = { "{BRU-32 GBU-24}" },
@@ -8554,6 +8971,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BRU-32 MK-20}" },
 							station = 4
 						}, {
+							loadout = { "{BRU-32 CBU-99}" },
+							station = 4
+						}, {
 							loadout = { "{BRU3242_ADM141}" },
 							station = 4
 						}, {
@@ -8564,6 +8984,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 4
 						}, {
 							loadout = { "{MAK79_MK20 2L}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_CBU99 2L}" },
 							station = 4
 						}, {
 							loadout = { "{BRU-32 GBU-24}" },
@@ -8696,6 +9119,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BRU-32 MK-20}" },
 							station = 4
 						}, {
+							loadout = { "{BRU-32 CBU-99}" },
+							station = 4
+						}, {
 							loadout = { "{BRU3242_ADM141}" },
 							station = 4
 						}, {
@@ -8706,6 +9132,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 4
 						}, {
 							loadout = { "{MAK79_MK20 2L}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_CBU99 2L}" },
 							station = 4
 						}, {
 							loadout = { "{BRU-32 GBU-24}" },
@@ -8895,6 +9324,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{BRU-32 MK-20}" },
 							station = 4
 						}, {
+							loadout = { "{BRU-32 CBU-99}" },
+							station = 4
+						}, {
 							loadout = { "{BRU3242_ADM141}" },
 							station = 4
 						}, {
@@ -8905,6 +9337,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 4
 						}, {
 							loadout = { "{MAK79_MK20 2L}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_CBU99 2L}" },
 							station = 4
 						}, {
 							loadout = { "{BRU-32 GBU-24}" },
@@ -9003,8 +9438,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{F14-ALQ167}",
 					arg = 602,
-					arg_value = 0,
-					connector = "WEP_Phoenix_FrontPallette_R",
+					arg_value = 0.5,
+					connector = "WEP_BRU-34_F_R",
 					forbidden = { {
 							loadout = { "{BELLY AIM-7E}" },
 							station = 6
@@ -9377,6 +9812,48 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{BRU-32 MK-20}",
+					arg = 602,
+					arg_value = 0.5,
+					connector = "WEP_BRU-34_F_R",
+					forbidden = { {
+							loadout = { "{BELLY AIM-7E}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7F}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7M}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7MH}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7E}" },
+							station = 4
+						}, {
+							loadout = { "{BELLY AIM-7F}" },
+							station = 4
+						}, {
+							loadout = { "{BELLY AIM-7M}" },
+							station = 4
+						}, {
+							loadout = { "{BELLY AIM-7MH}" },
+							station = 4
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 4
+						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 4
+						} }
+				}, {
+					CLSID = "{BRU-32 CBU-99}",
 					arg = 602,
 					arg_value = 0.5,
 					connector = "WEP_BRU-34_F_R",
@@ -10152,6 +10629,69 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "<CLEAN>" },
 							station = 4
 						} }
+				}, {
+					CLSID = "{MAK79_CBU99 2R}",
+					arg = 602,
+					arg_value = 0,
+					connector = "MAK-79_Root_F_R",
+					forbidden = { {
+							loadout = { "{AIM_54A_Mk47}" },
+							station = 6
+						}, {
+							loadout = { "{AIM_54A_Mk60}" },
+							station = 6
+						}, {
+							loadout = { "{AIM_54C_Mk47}" },
+							station = 6
+						}, {
+							loadout = { "{AIM_54C_Mk60}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7E}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7F}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7M}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7MH}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 6
+						}, {
+							loadout = { "{BRU-32 GBU-24}" },
+							station = 6
+						}, {
+							loadout = { "{BRU-32 GBU-12}" },
+							station = 6
+						}, {
+							loadout = { "{BRU-32 GBU-16}" },
+							station = 6
+						}, {
+							loadout = { "{BELLY AIM-7E}" },
+							station = 4
+						}, {
+							loadout = { "{BELLY AIM-7F}" },
+							station = 4
+						}, {
+							loadout = { "{BELLY AIM-7M}" },
+							station = 4
+						}, {
+							loadout = { "{BELLY AIM-7MH}" },
+							station = 4
+						}, {
+							loadout = { "{BELLY AIM-7P}" },
+							station = 4
+						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 4
+						} }
 				} },
 			Number = 7,
 			Order = 7,
@@ -10465,6 +11005,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					connector = "WEP_PhoenixWingPylon_R"
 				}, {
 					CLSID = "{PHXBRU3242_2*MK20 RS}",
+					connector = "WEP_PhoenixWingPylon_R"
+				}, {
+					CLSID = "{PHXBRU3242_2*CBU99 RS}",
 					connector = "WEP_PhoenixWingPylon_R"
 				}, {
 					CLSID = "{PHXBRU3242_MK83 RS}",
@@ -10887,6 +11430,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			dir = { -1, 0, 0 },
 			pos = { -0.47967, 0.2638, 3.4626 }
+		}, {
+			dir = { 0, -1, 0 },
+			pos = { 2.749, -0.662, -0.52 }
 		} },
 	crew_members = { {
 			can_be_playable = true,

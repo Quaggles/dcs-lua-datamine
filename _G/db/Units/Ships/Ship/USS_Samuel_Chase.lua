@@ -123,15 +123,11 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							shell_name = {}
 						} },
 					fireAnimationArgument = 123,
-					sensor = {},
-					sightMasterMode = 1
+					sensor = {}
 				} },
 			angles = { { -1.221730476396, -1.3962634015955, 0, 1.4835298641952 }, { -1.3962634015955, 2.8448866807508, -0.069813170079773, 1.4835298641952 } },
 			area = "KORMA_TOP",
 			center = "CENTER_TOWER_12",
-			cockpit = { "IronSight/IronSight", { -1.2, 0.1, 0 },
-				open = true
-			},
 			drawArgument1 = 25,
 			drawArgument2 = 26,
 			pidY = {},
@@ -168,15 +164,11 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							shell_name = {}
 						} },
 					fireAnimationArgument = 124,
-					sensor = {},
-					sightMasterMode = 1
+					sensor = {}
 				} },
 			angles = { { -2.9670597283904, 1.3962634015955, -0.069813170079773, 1.4835298641952 }, { 1.3962634015955, 1.221730476396, 0, 1.4835298641952 } },
 			area = "KORMA_TOP",
 			center = "CENTER_TOWER_13",
-			cockpit = { "IronSight/IronSight", { -1.2, 0.1, 0 },
-				open = true
-			},
 			drawArgument1 = 27,
 			drawArgument2 = 28,
 			pidY = {},
@@ -213,15 +205,11 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							shell_name = {}
 						} },
 					fireAnimationArgument = 128,
-					sensor = {},
-					sightMasterMode = 1
+					sensor = {}
 				} },
 			angles = { { 0, -3.1415926535898, -0.017453292519943, 1.4835298641952 } },
 			area = "KORMA_TOP",
 			center = "CENTER_TOWER_05",
-			cockpit = { "IronSight/IronSight", { -1.2, 0.1, 0 },
-				open = true
-			},
 			drawArgument1 = 35,
 			drawArgument2 = 36,
 			pidY = {},
@@ -258,16 +246,12 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							shell_name = {}
 						} },
 					fireAnimationArgument = 129,
-					sensor = {},
-					sightMasterMode = 1
+					sensor = {}
 				} },
 			angles = { { 0, -0.78539816339745, -0.017453292519943, 1.4835298641952 }, { -2.0943951023932, -3.1415926535898, -0.017453292519943, 1.4835298641952 } },
 			angles_mech = { { 0, -3.1415926535898, -0.017453292519943, 1.4835298641952 } },
 			area = "KORMA_TOP",
 			center = "CENTER_TOWER_06",
-			cockpit = { "IronSight/IronSight", { -1.2, 0.1, 0 },
-				open = true
-			},
 			drawArgument1 = 37,
 			drawArgument2 = 38,
 			pidY = {},
@@ -304,15 +288,11 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							shell_name = {}
 						} },
 					fireAnimationArgument = 130,
-					sensor = {},
-					sightMasterMode = 1
+					sensor = {}
 				} },
 			angles = { { 3.1415926535898, 0, -0.017453292519943, 1.4835298641952 } },
 			area = "KORMA_TOP",
 			center = "CENTER_TOWER_09",
-			cockpit = { "IronSight/IronSight", { -1.2, 0.1, 0 },
-				open = true
-			},
 			drawArgument1 = 39,
 			drawArgument2 = 40,
 			pidY = {},
@@ -349,16 +329,12 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							shell_name = {}
 						} },
 					fireAnimationArgument = 131,
-					sensor = {},
-					sightMasterMode = 1
+					sensor = {}
 				} },
 			angles = { { 0.78539816339745, 0, -0.017453292519943, 1.4835298641952 }, { 3.1415926535898, 2.0943951023932, -0.017453292519943, 1.4835298641952 } },
 			angles_mech = { { 3.1415926535898, 0, -0.017453292519943, 1.4835298641952 } },
 			area = "KORMA_TOP",
 			center = "CENTER_TOWER_08",
-			cockpit = { "IronSight/IronSight", { -1.2, 0.1, 0 },
-				open = true
-			},
 			drawArgument1 = 41,
 			drawArgument2 = 42,
 			pidY = {},
@@ -395,15 +371,11 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							shell_name = {}
 						} },
 					fireAnimationArgument = 132,
-					sensor = {},
-					sightMasterMode = 1
+					sensor = {}
 				} },
 			angles = { { 2.0943951023932, 0.26179938779915, -0.17453292519943, 1.4835298641952 }, { 0.26179938779915, 0, 0.069813170079773, 1.4835298641952 } },
 			area = "RUBKA_L",
 			center = "CENTER_TOWER_10",
-			cockpit = { "IronSight/IronSight", { -1.2, 0.1, 0 },
-				open = true
-			},
 			drawArgument1 = 43,
 			drawArgument2 = 44,
 			pidY = {},
@@ -440,15 +412,11 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							shell_name = {}
 						} },
 					fireAnimationArgument = 133,
-					sensor = {},
-					sightMasterMode = 1
+					sensor = {}
 				} },
 			angles = { { 3.1415926535898, 1.221730476396, -0.17453292519943, 1.4835298641952 } },
 			area = "RUBKA_L",
 			center = "CENTER_TOWER_11",
-			cockpit = { "IronSight/IronSight", { -1.2, 0.1, 0 },
-				open = true
-			},
 			drawArgument1 = 45,
 			drawArgument2 = 46,
 			pidY = {},
@@ -475,15 +443,11 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							shell_name = {}
 						} },
 					fireAnimationArgument = 125,
-					sensor = {},
-					sightMasterMode = 1
+					sensor = {}
 				} },
 			angles = { { -2.0245819323134, 2.146754979953, -0.17453292519943, 1.3962634015955 } },
 			area = "KORMA_TOP",
 			center = "CENTER_TOWER_14",
-			cockpit = { "IronSight/IronSight", { -2, 0.1, -0.1 },
-				open = true
-			},
 			drawArgument1 = 29,
 			drawArgument2 = 30,
 			pidY = {},
@@ -510,15 +474,11 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							shell_name = {}
 						} },
 					fireAnimationArgument = 126,
-					sensor = {},
-					sightMasterMode = 1
+					sensor = {}
 				} },
 			angles = { { -2.146754979953, 2.0245819323134, -0.17453292519943, 1.3962634015955 } },
 			area = "KORMA_TOP",
 			center = "CENTER_TOWER_15",
-			cockpit = { "IronSight/IronSight", { -2, 0.1, -0.1 },
-				open = true
-			},
 			drawArgument1 = 31,
 			drawArgument2 = 32,
 			pidY = {},
@@ -545,15 +505,11 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							shell_name = {}
 						} },
 					fireAnimationArgument = 127,
-					sensor = {},
-					sightMasterMode = 1
+					sensor = {}
 				} },
 			angles = { { 0.56862827029975, -0.56862827029975, -0.22689280275926, 1.3962634015955 } },
 			area = "NOSE_TOP",
 			center = "CENTER_TOWER_04",
-			cockpit = { "IronSight/IronSight", { -2, 0.1, -0.1 },
-				open = true
-			},
 			drawArgument1 = 33,
 			drawArgument2 = 34,
 			pidY = {},
@@ -573,15 +529,11 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					PL = { {
 							shell_name = {}
 						} },
-					sensor = {},
-					sightMasterMode = 1
+					sensor = {}
 				} },
 			angles = { { 2.0943951023932, -2.0943951023932, -0.17453292519943, 1.4835298641952 } },
 			area = "NOSE_TOP",
 			center = "CENTER_TOWER_03",
-			cockpit = { "IronSight/IronSight", { -2.5, 0.1, -1.1 },
-				open = true
-			},
 			drawArgument1 = 15,
 			drawArgument2 = 16,
 			pidY = {},
@@ -598,16 +550,12 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					PL = { {
 							shell_name = {}
 						} },
-					sensor = {},
-					sightMasterMode = 1
+					sensor = {}
 				} },
 			angles = { { 2.0071286397935, 1.221730476396, 0.29670597283904, 1.4835298641952 }, { 1.221730476396, 0.57595865315813, 0, 1.4835298641952 }, { 0.57595865315813, -2.8274333882308, -0.15707963267949, 1.4835298641952 } },
 			angles_mech = { { 3.1415926535898, -3.1415926535898, -0.15707963267949, 1.4835298641952 } },
 			area = "NOSE_TOP",
 			center = "CENTER_TOWER_01",
-			cockpit = { "IronSight/IronSight", { -2.2, 0.3, 0 },
-				open = true
-			},
 			drawArgument1 = 17,
 			drawArgument2 = 18,
 			omegaY = 0.34906585039887,
@@ -636,16 +584,12 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					PL = { {
 							shell_name = {}
 						} },
-					sensor = {},
-					sightMasterMode = 1
+					sensor = {}
 				} },
 			angles = { { 2.8274333882308, -0.57595865315813, -0.15707963267949, 1.4835298641952 }, { -0.57595865315813, -1.221730476396, 0, 1.4835298641952 }, { -1.221730476396, -2.0071286397935, 0.29670597283904, 1.4835298641952 } },
 			angles_mech = { { 3.1415926535898, -3.1415926535898, -0.15707963267949, 1.4835298641952 } },
 			area = "NOSE_TOP",
 			center = "CENTER_TOWER_02",
-			cockpit = { "IronSight/IronSight", { -2.2, 0.3, 0 },
-				open = true
-			},
 			drawArgument1 = 19,
 			drawArgument2 = 20,
 			omegaY = 0.34906585039887,
@@ -664,16 +608,12 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					PL = { {
 							shell_name = {}
 						} },
-					sensor = {},
-					sightMasterMode = 1
+					sensor = {}
 				} },
 			angles = { { -0.17453292519943, 2.6005405854716, -0.061086523819802, 1.4835298641952 }, { 2.6005405854716, 1.7715091907742, 0.1221730476396, 1.4835298641952 }, { 1.7715091907742, 0.80285145591739, 0.87266462599716, 1.4835298641952 } },
 			angles_mech = { { 3.1415926535898, -3.1415926535898, -0.15707963267949, 1.4835298641952 } },
 			area = "KORMA_TOP",
 			center = "CENTER_TOWER_16",
-			cockpit = { "IronSight/IronSight", { -2.2, 0.3, 0 },
-				open = true
-			},
 			drawArgument1 = 21,
 			drawArgument2 = 22,
 			omegaY = 0.34906585039887,
@@ -692,16 +632,12 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					PL = { {
 							shell_name = {}
 						} },
-					sensor = {},
-					sightMasterMode = 1
+					sensor = {}
 				} },
 			angles = { { -0.80285145591739, -1.7715091907742, 0.87266462599716, 1.4835298641952 }, { -1.7715091907742, -2.6005405854716, 0.1221730476396, 1.4835298641952 }, { -2.6005405854716, 0.17453292519943, -0.061086523819802, 1.4835298641952 } },
 			angles_mech = { { 3.1415926535898, -3.1415926535898, -0.15707963267949, 1.4835298641952 } },
 			area = "KORMA_TOP",
 			center = "CENTER_TOWER_17",
-			cockpit = { "IronSight/IronSight", { -2.2, 0.3, 0 },
-				open = true
-			},
 			drawArgument1 = 23,
 			drawArgument2 = 24,
 			omegaY = 0.34906585039887,
@@ -720,16 +656,12 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					PL = { {
 							shell_name = {}
 						} },
-					sensor = {},
-					sightMasterMode = 1
+					sensor = {}
 				} },
 			angles = { { -0.69813170079773, 0.69813170079773, -0.05235987755983, 1.4835298641952 } },
 			angles_mech = { { 3.1415926535898, -3.1415926535898, -0.15707963267949, 1.4835298641952 } },
 			area = "KORMA_TOP",
 			center = "CENTER_TOWER_18",
-			cockpit = { "IronSight/IronSight", { -2.2, 0.3, 0 },
-				open = true
-			},
 			drawArgument1 = 13,
 			drawArgument2 = 14,
 			omegaY = 0.17453292519943,
@@ -764,7 +696,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	draft = 8.5,
 	economy_distance = 8334000,
 	economy_velocity = 6,
-	enablePlayerCanDrive = true,
+	enablePlayerCanDrive = false,
 	encyclopediaAnimation = {
 		args = {
 			[13] = 1,

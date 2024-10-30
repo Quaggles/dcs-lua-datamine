@@ -2,7 +2,11 @@ _G["launcher"]["{BRU55_2*AGM-154A}"] = {
 	CLSID = "{BRU55_2*AGM-154A}",
 	Count = 2,
 	Cx_pil = 0.00604140625,
-	Elements = { "_G/Pylons/BRU_55.lua", {
+	Elements = { {
+			DrawArgs = { { 3, 0.1 } },
+			IsAdapter = true,
+			ShapeName = "BRU_55"
+		}, {
 			connector_name = "Point02",
 			payload_CLSID = "{AGM-154A}"
 		}, {

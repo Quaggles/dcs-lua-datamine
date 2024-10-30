@@ -366,6 +366,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "soldier_wwii_br_01",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "TugHarlan_drivable"
 				}, {
 					Name = "B600_drivable"
@@ -1244,6 +1248,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Ship_Tilde_Supply"
 				}, {
 					Name = "ara_vdm"
+				}, {
+					Name = "atconveyor"
 				}, {
 					Name = "USS_Samuel_Chase"
 				}, {

@@ -100,6 +100,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_45B"] = {
 		fuze = {
 			default_arm_delays = { 10 },
 			default_proximity_radius = 10,
+			is_neg_cls_rate_req = true,
 			is_proxy_tdd_always_enabled = true
 		},
 		gyro = {
@@ -273,6 +274,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_45B"] = {
 		fuze = {
 			default_arm_delays = { 10 },
 			default_proximity_radius = 10,
+			is_neg_cls_rate_req = true,
 			is_proxy_tdd_always_enabled = true
 		},
 		gyro = {

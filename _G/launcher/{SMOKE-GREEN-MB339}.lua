@@ -13,11 +13,11 @@ _G["launcher"]["{SMOKE-GREEN-MB339}"] = {
 	PictureBlendColor = "0x228b22ff",
 	Smoke = {
 		alpha = 220,
-		b = 60,
+		b = 5,
 		dx = -1.455,
 		dy = -0.062,
-		g = 165,
-		r = 13
+		g = 118,
+		r = 61
 	},
 	Weight = 1,
 	_file = "./CoreMods/aircraft/MB-339/Weapons/TanksAndSmokes.lua",

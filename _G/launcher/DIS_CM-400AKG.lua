@@ -1,7 +1,7 @@
 _G["launcher"]["DIS_CM-400AKG"] = {
 	CLSID = "DIS_CM-400AKG",
 	Count = 1,
-	Cx_pil = 0.0023,
+	Cx_pil = 0.0016,
 	Elements = { {
 			Position = { 0, 0, 0 },
 			ShapeName = "cm400akg"
@@ -13,5 +13,6 @@ _G["launcher"]["DIS_CM-400AKG"] = {
 	attribute = "weapons.missiles.CM-400AKG",
 	category = 2,
 	displayName = "CM-400AKG",
-	ejectImpulse = 140
+	ejectDirection = { 0, -1, 0 },
+	ejectVelocity = 4
 }

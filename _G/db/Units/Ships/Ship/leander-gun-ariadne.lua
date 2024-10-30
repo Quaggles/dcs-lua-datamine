@@ -185,14 +185,14 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	DeckLevel = 4.511,
 	DetectionRange = 150000,
 	DisplayName = "HMS Ariadne (F72)",
-	Gamma_max = 0.35,
+	Gamma_max = 1.35,
 	Height = 29.5,
 	Helicopter_Num_ = 1,
 	Landing_Point = { -33.57, 4.511, 0 },
 	Length = 113.64,
 	MaxSpeed = 51.84,
 	Name = "HMS Ariadne (F72)",
-	Om = 0.05,
+	Om = 0.8,
 	R_min = 208.4,
 	Rate = 4000,
 	Sensors = {
@@ -319,12 +319,13 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 						} },
 					sensor = {}
 				} },
-			angles = { { 3.1415926535898, 0.34906585039887, 0, 1.5707963267949 }, { 0.34906585039887, -0.34906585039887, 1.221730476396, 1.5707963267949 }, { -0.34906585039887, -3.1415926535898, 0, 1.5707963267949 } },
+			angles = { { -0.69813170079773, -1.5707963267949, 0.78539816339745, 1.553343034275 }, { -1.5707963267949, 1.0995574287564, 0, 1.553343034275 }, { 1.0995574287564, -0.69813170079773, 1.3962634015955, 1.553343034275 } },
+			angles_mech = { { 3.1415926535898, -3.1415926535898, 0, 1.553343034275 } },
 			area = "DMG-SS-AFT-SEACAT-HANGAR",
 			center = "CENTER_TOWER_04",
 			drawArgument1 = 44,
 			drawArgument2 = 54,
-			reference_angle_Z = 1.5707963267949
+			reference_angle_Z = 1.553343034275
 		},
 		maxTargetDetectionRange = 25000,
 		radar_type = 109,
@@ -355,16 +356,18 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	},
 	attribute = { 3, 12, 14, "Redacted", "Frigates", "RADAR_BAND1_FOR_ARM", "DetectionByAWACS", "Armed Ship", "HelicopterCarrier", "Naval", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
 	chassis = {},
-	distFindObstacles = 250,
+	distFindObstacles = 1000,
 	draft = 7,
 	economy_distance = 4200000,
 	economy_velocity = 7.2,
 	enablePlayerCanDrive = false,
 	exhaust = { {
 			pos = { -3.435, 15.04, 0.5 },
+			preset = "Bazar/ParticleEffects/effects/SmokeShip.lua",
 			size = 0.2
 		}, {
 			pos = { -3.435, 15.04, -0.5 },
+			preset = "Bazar/ParticleEffects/effects/SmokeShip.lua",
 			size = 0.2
 		} },
 	life = 1000,

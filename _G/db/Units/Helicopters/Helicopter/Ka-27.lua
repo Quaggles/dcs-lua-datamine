@@ -2,34 +2,24 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	AmmoWeight = 0,
 	CanopyGeometry = { -0.93969262078591, -0.95280922353749, -0.96592582628907, -0.049950211252315, 0.86602540378444 },
 	Categories = {},
-	Damage = { {
+	Damage = {
+		[4] = {
 			args = { 296 },
-			critical_damage = 5
-		}, {
-			args = { 297 },
-			critical_damage = 5
-		}, {
-			args = { 65 },
-			critical_damage = 10
-		}, {
-			args = { 147, 150, 298 },
-			critical_damage = 20,
-			deps_cells = { 3 }
-		}, {
-			args = { 147, 149, 301, 302 },
-			critical_damage = 20,
-			deps_cells = { 3 }
+			critical_damage = 20
 		},
-		[0] = {
-			args = { 146 },
-			critical_damage = 4
+		[5] = {
+			args = { 297 },
+			critical_damage = 20
+		},
+		[8] = {
+			critical_damage = 5
 		},
 		[9] = {
-			args = { 154, 299 },
+			args = { 154 },
 			critical_damage = 5
 		},
 		[10] = {
-			args = { 153, 302, 303 },
+			args = { 153 },
 			critical_damage = 5
 		},
 		[11] = {
@@ -40,8 +30,20 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			args = { 161 },
 			critical_damage = 1
 		},
-		[57] = {
+		[45] = {
+			args = { 235 },
+			critical_damage = 3
+		},
+		[46] = {
+			args = { 233 },
+			critical_damage = 3
+		},
+		[56] = {
 			args = { 158 },
+			critical_damage = 5
+		},
+		[57] = {
+			args = { 157 },
 			critical_damage = 5
 		},
 		[58] = {
@@ -49,12 +51,13 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			critical_damage = 5
 		},
 		[59] = {
-			args = { 148 },
 			critical_damage = 5
 		},
-		[82] = {
-			args = { 152 },
+		[63] = {
 			critical_damage = 3
+		},
+		[82] = {
+			critical_damage = 20
 		}
 	},
 	DamageParts = {

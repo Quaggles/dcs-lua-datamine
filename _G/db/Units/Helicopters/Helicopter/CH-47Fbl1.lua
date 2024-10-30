@@ -980,23 +980,17 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				min = 30,
 				modulation = 1
 			}, {
-				max = 135.995,
+				max = 115.975,
 				min = 108,
 				modulation = 0
 			}, {
-				max = 155.995,
-				min = 136,
-				modulation = 2,
-				modulationDef = 1
-			}, {
-				max = 173.975,
-				min = 156,
-				modulation = 1
+				max = 151.975,
+				min = 116,
+				modulation = 0
 			}, {
 				max = 399.975,
 				min = 225,
-				modulation = 2,
-				modulationDef = 0
+				modulation = 0
 			} }
 	},
 	IR_emission_coeff = 0.1,
@@ -2838,7 +2832,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			} }
 	},
 	moment_of_inertia = { 46000, 259000, 274000 },
-	net_animation = { 28, 29, 30, 600, 620, 621, 622, 623, 624, 625, 626, 627, 395, 396, 397, 398, 39, 99, 533, 337, 399, 537, 506, 508, 509, 516, 518, 519, 459, 460, 500, 501, 502, 503, 510, 511, 512, 513, 530, 531, 532, 534, 535, 536 },
+	net_animation = { 28, 29, 30, 600, 620, 621, 622, 623, 624, 625, 626, 627, 395, 396, 397, 398, 39, 99, 533, 337, 399, 537, 506, 508, 509, 516, 518, 519, 459, 460, 500, 501, 502, 503, 504, 505, 510, 511, 512, 513, 514, 515, 530, 531, 532, 534, 535, 536, 550, 551, 546, 547 },
 	nose_gear_amortizer_direct_stroke = 0,
 	nose_gear_amortizer_normal_weight_stroke = -0.003,
 	nose_gear_amortizer_reversal_stroke = -0.15,
@@ -2848,89 +2842,184 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	panelRadio = { {
 			channels = { {
 					default = 31.5,
-					modulation = "FM",
 					name = "Channel 1"
 				}, {
 					default = 45.7,
-					modulation = "FM",
 					name = "Channel 2"
 				}, {
 					default = 57,
-					modulation = "FM",
 					name = "Channel 3"
 				}, {
 					default = 38,
-					modulation = "FM",
 					name = "Channel 4"
 				}, {
 					default = 30,
-					modulation = "FM",
 					name = "Channel 5"
 				}, {
 					default = 32,
-					modulation = "FM",
 					name = "Channel 6"
 				}, {
 					default = 40,
-					modulation = "FM",
 					name = "Channel 7"
 				}, {
 					default = 50,
-					modulation = "FM",
 					name = "Channel 8"
 				}, {
 					default = 55.5,
-					modulation = "FM",
 					name = "Channel 9"
 				}, {
 					default = 39.9,
-					modulation = "FM",
 					name = "Channel 10"
 				}, {
 					default = 41.5,
-					modulation = "FM",
 					name = "Channel 11"
 				}, {
 					default = 75.7,
-					modulation = "FM",
 					name = "Channel 12"
 				}, {
 					default = 33,
-					modulation = "FM",
 					name = "Channel 13"
 				}, {
 					default = 38,
-					modulation = "FM",
 					name = "Channel 14"
 				}, {
 					default = 42,
-					modulation = "FM",
 					name = "Channel 15"
 				}, {
 					default = 51.5,
-					modulation = "FM",
 					name = "Channel 16"
 				}, {
 					default = 50,
-					modulation = "FM",
 					name = "Channel 17"
 				}, {
 					default = 79,
-					modulation = "FM",
 					name = "Channel 18"
 				}, {
 					default = 51.5,
-					modulation = "FM",
 					name = "Channel 19"
 				}, {
 					default = 34.9,
-					modulation = "FM",
 					name = "Channel 20"
 				} },
 			name = "VHF FM: ARC-186",
+			range = { {
+					max = 87.975,
+					min = 30,
+					modulation = 1
+				}, {
+					max = 115.975,
+					min = 108,
+					modulation = 0
+				}, {
+					max = 151.975,
+					min = 116,
+					modulation = 0
+				} }
+		}, {
+			channels = { {
+					connect = true,
+					default = 305,
+					name = "Channel 1"
+				}, {
+					default = 264,
+					name = "Channel 2"
+				}, {
+					default = 265,
+					name = "Channel 3"
+				}, {
+					default = 256,
+					name = "Channel 4"
+				}, {
+					default = 254,
+					name = "Channel 5"
+				}, {
+					default = 250,
+					name = "Channel 6"
+				}, {
+					default = 270,
+					name = "Channel 7"
+				}, {
+					default = 257,
+					name = "Channel 8"
+				}, {
+					default = 255,
+					name = "Channel 9"
+				}, {
+					default = 262,
+					name = "Channel 10"
+				}, {
+					default = 259,
+					name = "Channel 11"
+				}, {
+					default = 268,
+					name = "Channel 12"
+				}, {
+					default = 269,
+					name = "Channel 13"
+				}, {
+					default = 260,
+					name = "Channel 14"
+				}, {
+					default = 263,
+					name = "Channel 15"
+				}, {
+					default = 261,
+					name = "Channel 16"
+				}, {
+					default = 267,
+					name = "Channel 17"
+				}, {
+					default = 251,
+					name = "Channel 18"
+				}, {
+					default = 253,
+					name = "Channel 19"
+				}, {
+					default = 266,
+					name = "Channel 20"
+				} },
+			name = "UHF AM: ARC-164",
 			range = {
-				max = 87.995,
-				min = 30
+				max = 399.975,
+				min = 225
+			}
+		}, {
+			channels = { {
+					default = 30,
+					name = "Channel 1"
+				}, {
+					default = 30.01,
+					name = "Channel 2"
+				}, {
+					default = 30.015,
+					name = "Channel 3"
+				}, {
+					default = 30.02,
+					name = "Channel 4"
+				}, {
+					default = 30.025,
+					name = "Channel 5"
+				}, {
+					default = 30.03,
+					name = "Channel 6"
+				}, {
+					default = 30.035,
+					name = "Channel 7"
+				}, {
+					default = 30.04,
+					name = "Channel 8"
+				}, {
+					default = 30.045,
+					name = "Channel 9"
+				}, {
+					default = 30.05,
+					name = "Channel 10"
+				} },
+			name = "VHF FM: ARC-201D",
+			range = {
+				max = 87.975,
+				min = 30,
+				modulation = 1
 			}
 		} },
 	passivCounterm = {

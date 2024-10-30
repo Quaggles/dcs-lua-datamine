@@ -938,6 +938,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "SH-60B",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "AH-64D_BLK_II"
 				}, {
 					Name = "CH-47Fbl1"
@@ -1126,6 +1130,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Ship_Tilde_Supply"
 				}, {
 					Name = "ara_vdm"
+				}, {
+					Name = "atconveyor"
 				} }
 		},
 		WWIIstructures = {

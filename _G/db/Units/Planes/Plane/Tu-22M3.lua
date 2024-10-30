@@ -7,19 +7,26 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Countermeasures = {
 		ECM = "Lutik SPS-151"
 	},
-	Damage = { {
-			args = { 150 },
-			critical_damage = 5
-		}, {
-			args = { 147 },
-			critical_damage = 5
-		}, {
-			args = { 65 },
-			critical_damage = 10
-		},
+	Damage = {
 		[0] = {
 			args = { 146 },
 			critical_damage = 5
+		},
+		[3] = {
+			args = { 65 },
+			critical_damage = 10
+		},
+		[4] = {
+			args = { 150 },
+			critical_damage = 5
+		},
+		[5] = {
+			args = { 147 },
+			critical_damage = 5
+		},
+		[6] = {
+			args = { 148 },
+			critical_damage = 3
 		},
 		[9] = {
 			args = { 154 },
@@ -37,6 +44,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 161 },
 			critical_damage = 3
 		},
+		[13] = {
+			critical_damage = 5
+		},
+		[14] = {
+			critical_damage = 5
+		},
 		[15] = {
 			args = { 267 },
 			critical_damage = 6
@@ -48,12 +61,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[23] = {
 			args = { 223 },
 			critical_damage = 3,
-			deps_cells = { 27, 31, 37, 138 }
+			deps_cells = { 27, 31, 37, 137 }
 		},
 		[24] = {
 			args = { 213 },
 			critical_damage = 3,
-			deps_cells = { 28, 32, 38, 139 }
+			deps_cells = { 28, 32, 38, 138 }
 		},
 		[27] = {
 			args = { 221 },
@@ -87,6 +100,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 217 },
 			critical_damage = 6
 		},
+		[43] = {
+			critical_damage = 5,
+			deps_cells = { 53 }
+		},
 		[47] = {
 			args = { 235 },
 			critical_damage = 7
@@ -99,54 +116,56 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 247 },
 			critical_damage = 3
 		},
+		[56] = {
+			critical_damage = 5
+		},
+		[57] = {
+			critical_damage = 5
+		},
 		[58] = {
 			args = { 297 },
 			critical_damage = 5
-		},
-		[59] = {
-			args = { 148 },
-			critical_damage = 3
 		},
 		[82] = {
 			args = { 152 },
 			critical_damage = 4
 		},
 		[137] = {
-			args = { 244 },
-			critical_damage = 4
-		},
-		[138] = {
 			args = { 228 },
 			critical_damage = 6
 		},
-		[139] = {
+		[138] = {
 			args = { 218 },
 			critical_damage = 6
 		},
 		cell_indices = {
+			CABIN_BOTTOM = 6,
+			CABIN_LEFT_SIDE = 4,
+			CABIN_RIGHT_SIDE = 5,
 			COCKPIT = 3,
 			ENGINE_L = 11,
 			ENGINE_R = 12,
-			FIN_TOP = 137,
-			["FLAP_L_ CENTER"] = 138,
+			["FLAP_L_ CENTER"] = 137,
 			FLAP_L_IN = 37,
 			FLAP_L_OUT = 31,
-			["FLAP_R_ CENTER"] = 139,
+			["FLAP_R_ CENTER"] = 138,
 			FLAP_R_IN = 38,
 			FLAP_R_OUT = 32,
 			FUSELAGE_BOTTOM = 82,
 			FUSELAGE_LEFT_SIDE = 9,
 			FUSELAGE_RIGHT_SIDE = 10,
-			LEFT_GEAR_BOX = 15,
-			NOSE_BOTTOM = 59,
+			GEAR_L = 15,
+			GEAR_R = 16,
+			KEEL = 43,
+			MTG_L_BOTTOM = 13,
+			MTG_R_BOTTOM = 14,
 			NOSE_CENTER = 0,
-			NOSE_LEFT_SIDE = 1,
-			NOSE_RIGHT_SIDE = 2,
-			RIGHT_GEAR_BOX = 16,
 			RUDDER = 53,
 			STABILIZER_L_IN = 47,
 			STABILIZER_R_IN = 48,
 			TAIL_BOTTOM = 58,
+			TAIL_LEFT_SIDE = 56,
+			TAIL_RIGHT_SIDE = 57,
 			WING_L_IN = 35,
 			WING_L_OUT = 23,
 			WING_L_PART_CENTER = 27,

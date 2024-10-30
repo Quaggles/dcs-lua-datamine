@@ -1238,6 +1238,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "soldier_wwii_br_01",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Soldier M4 GRG",
 					in_service = 0,
 					out_of_service = 40000
@@ -1270,6 +1274,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "M1126 Stryker ICV",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "T155_Firtina",
 					in_service = 0,
 					out_of_service = 40000
@@ -1279,10 +1287,6 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "Challenger2",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "M1126 Stryker ICV",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -1335,10 +1339,6 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "MCV-80",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "soldier_wwii_br_01",
 					in_service = 0,
 					out_of_service = 40000
 				} }
@@ -2538,6 +2538,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "F-16C",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Mirage-F1CZ",
 					in_service = 0,
 					out_of_service = 40000
@@ -2606,6 +2610,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Ship_Tilde_Supply"
 				}, {
 					Name = "ara_vdm"
+				}, {
+					Name = "atconveyor"
 				}, {
 					Name = "Uboat_VIIC",
 					in_service = 0,

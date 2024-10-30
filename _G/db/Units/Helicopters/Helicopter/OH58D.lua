@@ -36,6 +36,14 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			label = "Install Pilot Display Unit",
 			weightWhenOn = 5
 		}, {
+			arg = 0,
+			boolean_inverted = false,
+			control = "checkbox",
+			defValue = true,
+			id = "AllowHidePDU",
+			label = "Allow Hiding Pilot Display Unit",
+			playerOnly = true
+		}, {
 			arg = 1001,
 			boolean_inverted = false,
 			control = "checkbox",
@@ -110,7 +118,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		},
 		[0] = {
 			args = { 170 },
-			critical_damage = 10
+			critical_damage = 2
 		},
 		[8] = {
 			args = { -1 },
@@ -123,7 +131,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				skin = "Aluminum",
 				spar = "Truss"
 			},
-			critical_damage = 4,
+			critical_damage = 2,
 			droppable = false
 		},
 		[10] = {
@@ -133,7 +141,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				skin = "Aluminum",
 				spar = "Truss"
 			},
-			critical_damage = 4,
+			critical_damage = 2,
 			droppable = false
 		},
 		[11] = {
@@ -146,7 +154,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				durability = 0.53,
 				skin = "Aluminum"
 			},
-			critical_damage = 4
+			critical_damage = 2
 		},
 		[14] = {
 			args = { 151 },
@@ -154,7 +162,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				durability = 0.53,
 				skin = "Aluminum"
 			},
-			critical_damage = 4
+			critical_damage = 2
 		},
 		[15] = {
 			args = { 50 },
@@ -182,11 +190,11 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		},
 		[33] = {
 			args = { 147, 50 },
-			critical_damage = 4
+			critical_damage = 2
 		},
 		[34] = {
 			args = { 148, 50 },
-			critical_damage = 4
+			critical_damage = 2
 		},
 		[35] = {
 			args = { -1 },
@@ -275,12 +283,128 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				skin = "Aluminum",
 				spar = "Truss"
 			},
-			critical_damage = 8,
+			critical_damage = 4,
 			droppable = false
 		},
 		[100] = {
 			args = { -1 },
 			critical_damage = 2
+		},
+		[103] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[104] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[105] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[106] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[107] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[108] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[109] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[110] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[111] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[112] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[113] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[114] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[115] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[116] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[117] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[118] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[119] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[120] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[121] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[122] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[123] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[124] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[125] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[126] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[127] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[128] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[129] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[130] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[131] = {
+			args = { -1 },
+			critical_damage = 1
 		},
 		[137] = {
 			args = { -1 },
@@ -364,6 +488,14 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			CYCLIC_L = 139,
 			CYCLIC_R = 140,
 			DC_GEN = 141,
+			ENGINE_1 = 103,
+			ENGINE_2 = 104,
+			ENGINE_3 = 105,
+			ENGINE_4 = 106,
+			ENGINE_5 = 107,
+			ENGINE_6 = 108,
+			ENGINE_7 = 109,
+			ENGINE_8 = 110,
 			ENGINE_ECU = 142,
 			ENGINE_L = 11,
 			ENG_OIL = 143,
@@ -398,9 +530,30 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			TAIL = 55,
 			TAIL_BOTTOM = 58,
 			TAIL_TOP = 100,
+			WING_L_00 = 111,
+			WING_L_01 = 112,
+			WING_L_02 = 113,
+			WING_L_03 = 114,
+			WING_L_04 = 115,
+			WING_L_05 = 116,
+			WING_L_06 = 117,
+			WING_L_07 = 118,
+			WING_L_08 = 119,
+			WING_L_09 = 120,
+			WING_L_10 = 121,
+			WING_L_11 = 122,
 			WING_L_IN = 35,
 			WING_L_OUT = 23,
 			WING_L_PART_IN = 33,
+			WING_R_00 = 123,
+			WING_R_01 = 124,
+			WING_R_02 = 125,
+			WING_R_03 = 126,
+			WING_R_04 = 127,
+			WING_R_05 = 128,
+			WING_R_06 = 129,
+			WING_R_07 = 130,
+			WING_R_08 = 131,
 			WING_R_IN = 36,
 			WING_R_OUT = 24,
 			WING_R_PART_IN = 34,
@@ -1612,6 +1765,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		} },
 	crew_members = { {
 			can_be_playable = true,
+			canopy_arg = 35,
 			drop_canopy_name = 0,
 			ejection_added_speed = { 0, 0, 5 },
 			ejection_order = 1,
@@ -1621,6 +1775,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			role_display_name = "Pilot"
 		}, {
 			can_be_playable = true,
+			canopy_arg = 421,
 			drop_canopy_name = 0,
 			ejection_added_speed = { 0, 0, -5 },
 			ejection_order = 2,
@@ -1634,6 +1789,9 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	crew_stations = "HumanOrchestra",
 	date_of_introduction = 1983,
 	detection_range_max = 0,
+	encyclopediaAnimation = {
+		args = {}
+	},
 	engine_data = {
 		SFC_k = { 0, -0.0003171, 0.512 },
 		power_RPM_k = { -0.08639, 0.24277, 0.84175 },
@@ -1744,7 +1902,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		typename = "collection"
 	},
 	main_gear_pos = { -0.277, -0.89, 0.957 },
-	mapclasskey = "P0091000026",
+	mapclasskey = "P0091000096",
 	mechanimations = {
 		Door0 = { {
 				Flags = { "Reversible" },
@@ -1768,90 +1926,90 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			DuplicateOf = "Door0"
 		}
 	},
-	net_animation = { 11, 12, 15, 17, 34, 35, 38, 46, 60, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 510, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 523, 524, 525, 526, 527, 528, 880, 881, 882, 910, 911, 912, 913, 914, 930, 931, 2000 },
+	net_animation = { 11, 12, 15, 17, 34, 35, 38, 46, 60, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 510, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 523, 524, 525, 526, 527, 528, 836, 880, 881, 882, 910, 911, 912, 913, 914, 930, 931, 2000 },
 	nose_gear_pos = { 1.161, -0.88, 0.957 },
 	panelRadio = { {
 			channels = { {
 					connect = true,
 					default = 260,
 					modulation = "AM",
-					name = "Channel 1"
+					name = "Channel M"
 				}, {
 					default = 225,
 					modulation = "AM",
-					name = "Channel 2"
+					name = "Channel 1"
 				}, {
 					default = 230,
 					modulation = "AM",
-					name = "Channel 3"
+					name = "Channel 2"
 				}, {
 					default = 240,
 					modulation = "AM",
-					name = "Channel 4"
+					name = "Channel 3"
 				}, {
 					default = 250,
 					modulation = "AM",
-					name = "Channel 5"
+					name = "Channel 4"
 				}, {
 					default = 260,
 					modulation = "AM",
-					name = "Channel 6"
+					name = "Channel 5"
 				}, {
 					default = 270,
 					modulation = "AM",
-					name = "Channel 7"
+					name = "Channel 6"
 				}, {
 					default = 280,
 					modulation = "AM",
-					name = "Channel 8"
+					name = "Channel 7"
 				}, {
 					default = 290,
 					modulation = "AM",
-					name = "Channel 9"
+					name = "Channel 8"
 				}, {
 					default = 300,
 					modulation = "AM",
-					name = "Channel 10"
+					name = "Channel 9"
 				}, {
 					default = 310,
 					modulation = "AM",
-					name = "Channel 11"
+					name = "Channel 10"
 				}, {
 					default = 320,
 					modulation = "AM",
-					name = "Channel 12"
+					name = "Channel 11"
 				}, {
 					default = 330,
 					modulation = "AM",
-					name = "Channel 13"
+					name = "Channel 12"
 				}, {
 					default = 340,
 					modulation = "AM",
-					name = "Channel 14"
+					name = "Channel 13"
 				}, {
 					default = 350,
 					modulation = "AM",
-					name = "Channel 15"
+					name = "Channel 14"
 				}, {
 					default = 360,
 					modulation = "AM",
-					name = "Channel 16"
+					name = "Channel 15"
 				}, {
 					default = 370,
 					modulation = "AM",
-					name = "Channel 17"
+					name = "Channel 16"
 				}, {
 					default = 380,
 					modulation = "AM",
-					name = "Channel 18"
+					name = "Channel 17"
 				}, {
 					default = 390,
 					modulation = "AM",
-					name = "Channel 19"
+					name = "Channel 18"
 				}, {
 					default = 395,
 					modulation = "AM",
-					name = "Channel 20"
+					name = "Channel 19"
 				} },
 			name = "UHF AM",
 			range = {
@@ -1862,83 +2020,83 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			channels = { {
 					default = 131,
 					modulation = "AM",
-					name = "Channel 1"
+					name = "Channel M"
 				}, {
 					default = 116,
 					modulation = "AM",
-					name = "Channel 2"
+					name = "Channel 1"
 				}, {
 					default = 118,
 					modulation = "AM",
-					name = "Channel 3"
+					name = "Channel 2"
 				}, {
 					default = 120,
 					modulation = "AM",
-					name = "Channel 4"
+					name = "Channel 3"
 				}, {
 					default = 122,
 					modulation = "AM",
-					name = "Channel 5"
+					name = "Channel 4"
 				}, {
 					default = 124,
 					modulation = "AM",
-					name = "Channel 6"
+					name = "Channel 5"
 				}, {
 					default = 126,
 					modulation = "AM",
-					name = "Channel 7"
+					name = "Channel 6"
 				}, {
 					default = 128,
 					modulation = "AM",
-					name = "Channel 8"
+					name = "Channel 7"
 				}, {
 					default = 130,
 					modulation = "AM",
-					name = "Channel 9"
+					name = "Channel 8"
 				}, {
 					default = 132,
 					modulation = "AM",
-					name = "Channel 10"
+					name = "Channel 9"
 				}, {
 					default = 134,
 					modulation = "AM",
-					name = "Channel 11"
+					name = "Channel 10"
 				}, {
 					default = 136,
 					modulation = "AM",
-					name = "Channel 12"
+					name = "Channel 11"
 				}, {
 					default = 138,
 					modulation = "AM",
-					name = "Channel 13"
+					name = "Channel 12"
 				}, {
 					default = 140,
 					modulation = "AM",
-					name = "Channel 14"
+					name = "Channel 13"
 				}, {
 					default = 142,
 					modulation = "AM",
-					name = "Channel 15"
+					name = "Channel 14"
 				}, {
 					default = 144,
 					modulation = "AM",
-					name = "Channel 16"
+					name = "Channel 15"
 				}, {
 					default = 146,
 					modulation = "AM",
-					name = "Channel 17"
+					name = "Channel 16"
 				}, {
 					default = 148,
 					modulation = "AM",
-					name = "Channel 18"
+					name = "Channel 17"
 				}, {
 					default = 150,
 					modulation = "AM",
-					name = "Channel 19"
+					name = "Channel 18"
 				}, {
 					default = 151,
 					modulation = "AM",
-					name = "Channel 20"
+					name = "Channel 19"
 				} },
 			name = "VHF AM",
 			range = {
@@ -1949,87 +2107,87 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			channels = { {
 					default = 30,
 					modulation = "FM",
-					name = "Channel 1"
+					name = "Channel C"
 				}, {
 					default = 40.4,
 					modulation = "FM",
-					name = "Channel 2"
+					name = "Channel M"
 				}, {
 					default = 30,
 					modulation = "FM",
-					name = "Channel 3"
+					name = "Channel 1"
 				}, {
 					default = 32,
 					modulation = "FM",
-					name = "Channel 4"
+					name = "Channel 2"
 				}, {
 					default = 36,
 					modulation = "FM",
-					name = "Channel 5"
+					name = "Channel 3"
 				}, {
 					default = 38,
 					modulation = "FM",
-					name = "Channel 6"
+					name = "Channel 4"
 				}, {
 					default = 42,
 					modulation = "FM",
-					name = "Channel 7"
+					name = "Channel 5"
 				}, {
 					default = 44,
 					modulation = "FM",
-					name = "Channel 8"
+					name = "Channel 6"
 				}, {
 					default = 48,
 					modulation = "FM",
-					name = "Channel 9"
+					name = "Channel 7"
 				}, {
 					default = 50,
 					modulation = "FM",
-					name = "Channel 10"
+					name = "Channel 8"
 				}, {
 					default = 54,
 					modulation = "FM",
-					name = "Channel 11"
+					name = "Channel 9"
 				}, {
 					default = 56,
 					modulation = "FM",
-					name = "Channel 12"
+					name = "Channel 10"
 				}, {
 					default = 60,
 					modulation = "FM",
-					name = "Channel 13"
+					name = "Channel 11"
 				}, {
 					default = 62,
 					modulation = "FM",
-					name = "Channel 14"
+					name = "Channel 12"
 				}, {
 					default = 66,
 					modulation = "FM",
-					name = "Channel 15"
+					name = "Channel 13"
 				}, {
 					default = 68,
 					modulation = "FM",
-					name = "Channel 16"
+					name = "Channel 14"
 				}, {
 					default = 72,
 					modulation = "FM",
-					name = "Channel 17"
+					name = "Channel 15"
 				}, {
 					default = 74,
 					modulation = "FM",
-					name = "Channel 18"
+					name = "Channel 16"
 				}, {
 					default = 78,
 					modulation = "FM",
-					name = "Channel 19"
+					name = "Channel 17"
 				}, {
 					default = 80,
 					modulation = "FM",
-					name = "Channel 20"
+					name = "Channel 18"
 				}, {
 					default = 84,
 					modulation = "FM",
-					name = "Channel 21"
+					name = "Channel 19"
 				} },
 			name = "VHF FM1",
 			range = {
@@ -2040,87 +2198,87 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			channels = { {
 					default = 30,
 					modulation = "FM",
-					name = "Channel 1"
+					name = "Channel C"
 				}, {
 					default = 40.4,
 					modulation = "FM",
-					name = "Channel 2"
+					name = "Channel M"
 				}, {
 					default = 30,
 					modulation = "FM",
-					name = "Channel 3"
+					name = "Channel 1"
 				}, {
 					default = 32,
 					modulation = "FM",
-					name = "Channel 4"
+					name = "Channel 2"
 				}, {
 					default = 36,
 					modulation = "FM",
-					name = "Channel 5"
+					name = "Channel 3"
 				}, {
 					default = 38,
 					modulation = "FM",
-					name = "Channel 6"
+					name = "Channel 4"
 				}, {
 					default = 42,
 					modulation = "FM",
-					name = "Channel 7"
+					name = "Channel 5"
 				}, {
 					default = 44,
 					modulation = "FM",
-					name = "Channel 8"
+					name = "Channel 6"
 				}, {
 					default = 48,
 					modulation = "FM",
-					name = "Channel 9"
+					name = "Channel 7"
 				}, {
 					default = 50,
 					modulation = "FM",
-					name = "Channel 10"
+					name = "Channel 8"
 				}, {
 					default = 54,
 					modulation = "FM",
-					name = "Channel 11"
+					name = "Channel 9"
 				}, {
 					default = 56,
 					modulation = "FM",
-					name = "Channel 12"
+					name = "Channel 10"
 				}, {
 					default = 60,
 					modulation = "FM",
-					name = "Channel 13"
+					name = "Channel 11"
 				}, {
 					default = 62,
 					modulation = "FM",
-					name = "Channel 14"
+					name = "Channel 12"
 				}, {
 					default = 66,
 					modulation = "FM",
-					name = "Channel 15"
+					name = "Channel 13"
 				}, {
 					default = 68,
 					modulation = "FM",
-					name = "Channel 16"
+					name = "Channel 14"
 				}, {
 					default = 72,
 					modulation = "FM",
-					name = "Channel 17"
+					name = "Channel 15"
 				}, {
 					default = 74,
 					modulation = "FM",
-					name = "Channel 18"
+					name = "Channel 16"
 				}, {
 					default = 78,
 					modulation = "FM",
-					name = "Channel 19"
+					name = "Channel 17"
 				}, {
 					default = 80,
 					modulation = "FM",
-					name = "Channel 20"
+					name = "Channel 18"
 				}, {
 					default = 84,
 					modulation = "FM",
-					name = "Channel 21"
+					name = "Channel 19"
 				} },
 			name = "VHF FM2",
 			range = {
@@ -2171,7 +2329,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			file = "OH58D",
 			fire = { 300, 2 },
 			index = "Redacted",
-			life = 18,
+			life = 10,
 			name = "OH58D",
 			positioning = "BYNORMAL",
 			vis = 3

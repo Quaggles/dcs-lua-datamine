@@ -80,6 +80,9 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_15_V_31_B"] = {
 		mass = 1125,
 		model = "agm-130",
 		name = "GBU_15_V_31_B",
+		omega_rot = {
+			rotate_x = 0
+		},
 		scheme = "schemes/bombs/GBU-15.sch",
 		seeker = {
 			FOV = 1.0471975511966,
@@ -202,6 +205,9 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_15_V_31_B"] = {
 		mass = 1125,
 		model = "agm-130",
 		name = "GBU_15_V_31_B",
+		omega_rot = {
+			rotate_x = 0
+		},
 		scheme = "schemes/bombs/GBU-15.sch",
 		seeker = {
 			FOV = 1.0471975511966,

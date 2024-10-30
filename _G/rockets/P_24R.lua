@@ -41,5 +41,6 @@ _G["rockets"]["#Index"] = {
 	v_mid = 500,
 	v_min = 140,
 	warhead = "_G/warheads/P_24R.lua",
-	ws_type = { 4, 4, 7, "Redacted" }
+	ws_type = { 4, 4, 7, "Redacted" },
+	x_wing_anim = -1
 }

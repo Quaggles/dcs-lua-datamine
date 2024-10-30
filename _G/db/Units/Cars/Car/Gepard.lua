@@ -77,7 +77,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 16, 105, "Redacted", "AA_flak", "Mobile AAA", "SAM SR", "SAM TR", "RADAR_BAND1_FOR_ARM", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "Armed Air Defence", "Rocket Attack Valid AirDefence", "AAA", "All", "Ground Units", "Vehicles", "Ground vehicles", "SAM related", "SAM elements" },
 	category = "Air Defence",
 	chassis = {
-		armour_thickness = 0.04
+		armour_thickness = 0.04,
+		gearRatios = {}
 	},
 	driverViewPoint = { 2.3, 1.5, 0.62 },
 	enablePlayerCanDrive = true,

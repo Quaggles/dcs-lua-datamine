@@ -260,10 +260,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "AGM114x2_OH_58",
 					arg_value = 0.5,
 					connector = "Pylon1_m272"
-				}, {
-					CLSID = "{88D18A5E-99C8-4B04-B40B-1C02F2018B6E}",
-					arg_value = 0.5,
-					connector = "Pylon1_m299"
 				} },
 			Number = 1,
 			Order = 1,
@@ -333,10 +329,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "AGM114x2_OH_58",
 					arg_value = 0.5,
 					connector = "Pylon4_m272"
-				}, {
-					CLSID = "{88D18A5E-99C8-4B04-B40B-1C02F2018B6E}",
-					arg_value = 0.5,
-					connector = "Pylon4_m299"
 				} },
 			Number = 4,
 			Order = 4,
@@ -463,20 +455,58 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	},
 	length = 11,
 	lights_data = {
-		lights = {
+		lights = { {
+				lights = { {
+						lights = { {
+								argument = 193,
+								connector = "BANO_3",
+								pos_correction = { 0, 0.2, 0 },
+								proto = <2>{
+									angle_max = 3.1415926535898,
+									angle_min = 0.5235987755983,
+									color = { 0.92, 0.92, 1, 0.20784609690827 },
+									controller = "Strobe",
+									period = 1,
+									range = 48
+								},
+								typename = "Strobe"
+							}, {
+								argument = 194,
+								connector = "BANO_4",
+								pos_correction = { 0, -0.2, 0 },
+								proto = <table 2>,
+								typename = "Strobe"
+							} },
+						typename = "Collection"
+					} },
+				typename = "collection"
+			},
 			[3] = {
 				lights = { {
 						argument = 190,
 						color = { 0.99, 0.11, 0.3 },
 						connector = "BANO_1",
-						pos_correction = { 0, 0, -0.2 },
-						typename = "omnilight"
+						pos_correction = { 0.147, 0.147, 0 },
+						typename = "Omni"
 					}, {
 						argument = 191,
 						color = { 0, 0.894, 0.6 },
 						connector = "BANO_2",
-						pos_correction = { 0, 0, 0.2 },
-						typename = "omnilight"
+						pos_correction = { 0.147, -0.147, 0 },
+						typename = "Omni"
+					} },
+				typename = "collection"
+			},
+			[4] = {
+				lights = { {
+						lights = { {
+								argument = 195,
+								typename = "Argument"
+							}, {
+								argument = 196,
+								typename = "Argument"
+							} },
+						typename = "Collection"
 					} },
 				typename = "collection"
 			}

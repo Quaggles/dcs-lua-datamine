@@ -117,9 +117,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						startTime = 10,
 						startVal = 1
 					} } }, { 11, { {
-						endTime = 0,
-						startTime = 0
-					}, {
 						endTime = 10,
 						leveling = true,
 						startTime = 0

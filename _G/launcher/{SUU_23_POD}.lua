@@ -37,7 +37,7 @@ _G["launcher"]["{SUU_23_POD}"] = {
 				} },
 			ejector_dir = { 0, 0, 0 },
 			ejector_pos = { 0, 0, 0 },
-			ejector_pos_connector = "Gun_point",
+			ejector_pos_connector = "pnt_shell_pod",
 			elevation_initial = 0,
 			gun = {
 				barrels_count = 1,
@@ -59,7 +59,7 @@ _G["launcher"]["{SUU_23_POD}"] = {
 			short_name = "M-61A1",
 			smoke_dir = { 0, -1, -0.2 },
 			supply = {
-				count = 639,
+				count = 1234,
 				get_mass = <function 1>,
 				get_mass_ = <function 2>,
 				mixes = { { 1, 1, 1, 1, 4 }, { 2, 2, 2, 2, 4 }, { 1, 2, 1, 2, 4 }, { 3, 3, 3, 3, 4 } },
@@ -354,5 +354,5 @@ _G["launcher"]["{SUU_23_POD}"] = {
 			name = "HB_ORD_SUU-23",
 			username = "SUU-23"
 		} },
-	wsTypeOfWeapon = { 4, 6, 6, "</WSTYPE>" }
+	wsTypeOfWeapon = { 4, 6, 10, "</WSTYPE>" }
 }

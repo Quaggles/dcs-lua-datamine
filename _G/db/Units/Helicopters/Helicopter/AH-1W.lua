@@ -66,6 +66,9 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			critical_damage = 3,
 			droppable = false
 		},
+		[54] = {
+			critical_damage = 3
+		},
 		[55] = {
 			args = { 159 },
 			critical_damage = 3,
@@ -80,6 +83,12 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			args = { 81, 157 },
 			critical_damage = 12,
 			deps_cells = { 55 }
+		},
+		[64] = {
+			critical_damage = 3
+		},
+		[67] = {
+			critical_damage = 3
 		}
 	},
 	DamageParts = { "AH-1W-WING-R", "AH-1W-WING-L",

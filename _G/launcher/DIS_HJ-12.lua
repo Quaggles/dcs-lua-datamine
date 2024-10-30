@@ -14,8 +14,7 @@ _G["launcher"]["DIS_HJ-12"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 2,
 	displayName = "HJ-12",
-	ejectDirection = { 0, -1, 0 },
-	ejectVelocity = 2,
+	ejectVelocity = 0,
 	name = "DIS_HJ-12",
 	wsTypeOfWeapon = "weapons.missiles.HJ-12"
 }

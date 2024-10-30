@@ -1225,7 +1225,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			ejection_through_canopy = true,
 			g_suit = 1,
 			pilot_body_arg = 50,
-			pilot_name = 276,
+			pilot_name = 277,
 			pos = { 2.25, 0.25, 0 },
 			role = "pilot",
 			role_display_name = "Pilot"
@@ -1243,7 +1243,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			ejection_through_canopy = true,
 			g_suit = 1,
 			pilot_body_arg = 472,
-			pilot_name = 279,
+			pilot_name = 280,
 			pos = { 0.75, 0.5, 0 },
 			role = "instructor",
 			role_display_name = "Instructor"
@@ -1410,7 +1410,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				Transition = { "Any", "Bailout" }
 			} }
 	},
-	net_animation = { 38, 190, 191, 192, 203, 202, 201, 208, 200, 477, 525, 526, 527, 39, 99, 337, 399, 480, 525, 560, 757, 1004, 1200, 1201, 447, 954, 1998, 1999, 1990, 1050, 1472, 509, 515, 1994, 1993, 1049, 1099 },
+	net_animation = { 38, 190, 191, 192, 203, 202, 201, 208, 200, 477, 525, 526, 527, 39, 99, 337, 399, 480, 525, 560, 757, 1004, 1200, 1201, 447, 954, 1998, 1999, 1050, 1472, 509, 515, 1994, 1993, 1049, 1099 },
 	nose_gear_amortizer_direct_stroke = 0,
 	nose_gear_amortizer_normal_weight_stroke = -0.04,
 	nose_gear_amortizer_reversal_stroke = -0.174,

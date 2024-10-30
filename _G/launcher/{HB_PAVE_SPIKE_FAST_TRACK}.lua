@@ -4,7 +4,7 @@ _G["launcher"]["{HB_PAVE_SPIKE_FAST_TRACK}"] = {
 	Elements = { {
 			ShapeName = "HB_ORD_Pave_Spike_Fast"
 		} },
-	Picture = "Picto_PaveSpike_FAST_TRACK.png",
+	Picture = "Picto_PaveSpike.png",
 	Sensors = {
 		OPTIC = { "AN/AVQ-23 Pave Spike - Sensor" }
 	},
@@ -15,6 +15,8 @@ _G["launcher"]["{HB_PAVE_SPIKE_FAST_TRACK}"] = {
 	attribute = { 4, 15, 44, "Redacted" },
 	category = 6,
 	displayName = "AN/AVQ-23 Pave Spike (Fast/Smart Track) - Targeting Pod",
+	laserDesignator = true,
+	laserRanger = true,
 	name = "HB_ORD_Pave_Spike_Fast",
 	shape_table_data = { {
 			file = "",

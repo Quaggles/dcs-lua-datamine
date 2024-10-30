@@ -14,15 +14,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[3] = {
 			args = { 65 },
-			critical_damage = 10
+			critical_damage = 5
 		},
 		[8] = {
 			critical_damage = 3
 		},
-		[11] = {
-			critical_damage = 3
+		[10] = {
+			critical_damage = 10
 		},
-		[12] = {
+		[11] = {
 			critical_damage = 3
 		},
 		[15] = {
@@ -31,29 +31,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[16] = {
 			critical_damage = 5
 		},
-		[17] = {
-			critical_damage = 3
-		},
-		[18] = {
-			critical_damage = 3
-		},
-		[25] = {
-			args = { 53 },
-			critical_damage = 3
-		},
-		[26] = {
-			args = { 54 },
-			critical_damage = 3
-		},
 		[35] = {
 			args = { 67 },
-			critical_damage = 5,
-			deps_cells = { 25, 37 }
+			critical_damage = 5
 		},
 		[36] = {
 			args = { 68 },
-			critical_damage = 5,
-			deps_cells = { 26, 38 }
+			critical_damage = 5
 		},
 		[37] = {
 			args = { 55 },
@@ -68,40 +52,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 2,
 			deps_cells = { 53 }
 		},
-		[44] = {
-			args = { 62 },
-			critical_damage = 2,
-			deps_cells = { 54 }
-		},
 		[47] = {
 			args = { 63 },
-			critical_damage = 3,
-			deps_cells = { 51 }
+			critical_damage = 3
 		},
 		[48] = {
 			args = { 64 },
-			critical_damage = 3,
-			deps_cells = { 52 }
-		},
-		[51] = {
-			args = { 59 },
-			critical_damage = 2
-		},
-		[52] = {
-			args = { 60 },
-			critical_damage = 2
+			critical_damage = 3
 		},
 		[53] = {
 			args = { 57 },
 			critical_damage = 2
-		},
-		[54] = {
-			args = { 58 },
-			critical_damage = 2
-		},
-		[55] = {
-			args = { 81 },
-			critical_damage = 10
 		}
 	},
 	DamageParts = { "F-16-OBLOMOK-WING-R", "F-16-OBLOMOK-WING-L" },
