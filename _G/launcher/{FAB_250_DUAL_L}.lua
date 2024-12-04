@@ -19,6 +19,7 @@ _G["launcher"]["{FAB_250_DUAL_L}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "2 x FAB-250",
+	ejectDirection = { 0, -1, 0 },
 	ejectVelocity = 1.8,
 	name = "{FAB_250_DUAL_L}",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }

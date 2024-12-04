@@ -14,6 +14,7 @@ _G["launcher"]["DIS_MK_20"] = {
 	attribute = { 4, 5, 38, "Redacted" },
 	category = 1,
 	displayName = "Mk-20",
+	ejectDirection = { 0, -1, 0 },
 	ejectVelocity = 1.8,
 	settings = { {
 			baseDim = "",

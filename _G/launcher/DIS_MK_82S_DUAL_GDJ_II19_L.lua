@@ -20,6 +20,7 @@ _G["launcher"]["DIS_MK_82S_DUAL_GDJ_II19_L"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "GDJ-II19 - 2 x Mk-82 SnakeEye",
+	ejectDirection = { 0, -1, 0 },
 	ejectVelocity = 1.8,
 	name = "DIS_MK_82S_DUAL_GDJ_II19_L",
 	settings = { {

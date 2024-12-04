@@ -2237,7 +2237,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{BDU_45LG}",
 					arg_value = 0.5
 				}, {
-					CLSID = "{HB_F4E_GBU_8}",
+					CLSID = "{GBU_8_B}",
 					arg_value = 0.5
 				}, {
 					CLSID = "{AGM_62_I}",
@@ -2413,7 +2413,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 3
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 3
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -2641,7 +2641,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 3
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 3
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -2869,7 +2869,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 3
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 3
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -3097,7 +3097,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 3
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 3
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -3325,7 +3325,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 3
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 3
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -3553,7 +3553,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 3
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 3
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -3781,7 +3781,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 3
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 3
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -4009,7 +4009,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 3
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 3
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -4237,7 +4237,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 3
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 3
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -4465,7 +4465,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 3
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 3
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -4693,7 +4693,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 3
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 3
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -4921,7 +4921,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 3
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 3
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -5149,7 +5149,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 3
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 3
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -5377,7 +5377,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 3
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 3
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -5605,7 +5605,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 3
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 3
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -5833,7 +5833,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 3
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 3
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -9937,7 +9937,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 4
 						} }
 				}, {
-					CLSID = "{HB_F4E_GBU_8}",
+					CLSID = "{GBU_8_B}",
 					arg_value = 0,
 					forbidden = { {
 							loadout = { "{AIM-9B}" },
@@ -13890,7 +13890,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 3
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 3
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -14118,7 +14118,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 3
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 3
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -14346,7 +14346,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 3
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 3
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -14574,7 +14574,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 3
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 3
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -14802,7 +14802,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 3
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 3
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -15030,7 +15030,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 3
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 3
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -15258,7 +15258,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 3
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 3
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -15486,7 +15486,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 3
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 3
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -15714,7 +15714,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 3
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 3
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -15942,7 +15942,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 3
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 3
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -16170,7 +16170,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 3
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 3
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -16398,7 +16398,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 3
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 3
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -16626,7 +16626,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 3
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 3
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -16854,7 +16854,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 3
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 3
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -17082,7 +17082,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 3
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 3
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -17310,7 +17310,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 3
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 3
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -17765,7 +17765,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 11
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 11
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -17993,7 +17993,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 11
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 11
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -18221,7 +18221,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 11
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 11
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -18449,7 +18449,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 11
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 11
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -18677,7 +18677,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 11
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 11
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -18905,7 +18905,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 11
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 11
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -19133,7 +19133,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 11
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 11
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -19361,7 +19361,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 11
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 11
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -19589,7 +19589,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 11
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 11
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -19817,7 +19817,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 11
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 11
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -20045,7 +20045,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 11
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 11
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -20273,7 +20273,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 11
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 11
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -20501,7 +20501,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 11
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 11
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -20729,7 +20729,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 11
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 11
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -20957,7 +20957,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 11
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 11
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -21185,7 +21185,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 11
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 11
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -25289,7 +25289,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 12
 						} }
 				}, {
-					CLSID = "{HB_F4E_GBU_8}",
+					CLSID = "{GBU_8_B}",
 					arg_value = 0,
 					forbidden = { {
 							loadout = { "{AIM-9B}" },
@@ -29242,7 +29242,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 11
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 11
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -29470,7 +29470,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 11
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 11
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -29698,7 +29698,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 11
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 11
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -29926,7 +29926,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 11
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 11
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -30154,7 +30154,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 11
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 11
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -30382,7 +30382,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 11
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 11
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -30610,7 +30610,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 11
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 11
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -30838,7 +30838,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 11
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 11
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -31066,7 +31066,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 11
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 11
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -31294,7 +31294,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 11
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 11
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -31522,7 +31522,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 11
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 11
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -31750,7 +31750,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 11
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 11
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -31978,7 +31978,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 11
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 11
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -32206,7 +32206,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 11
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 11
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -32434,7 +32434,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 11
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 11
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -32662,7 +32662,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{AGM_62_I}" },
 							station = 11
 						}, {
-							loadout = { "{HB_F4E_GBU_8}" },
+							loadout = { "{GBU_8_B}" },
 							station = 11
 						}, {
 							loadout = { "{AGM_12A}" },
@@ -32895,7 +32895,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{BDU_45LG}",
 					arg_value = 0.5
 				}, {
-					CLSID = "{HB_F4E_GBU_8}",
+					CLSID = "{GBU_8_B}",
 					arg_value = 0.5
 				}, {
 					CLSID = "{AGM_62_I}",

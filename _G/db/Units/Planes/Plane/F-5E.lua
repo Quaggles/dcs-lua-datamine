@@ -82,22 +82,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[29] = {
 			args = { 224 },
 			critical_damage = 4,
-			deps_cells = { 23, 25, 27, 147 }
+			deps_cells = { 23, 25, 27, 146 }
 		},
 		[30] = {
 			args = { 214 },
 			critical_damage = 4,
-			deps_cells = { 24, 26, 28, 151 }
+			deps_cells = { 24, 26, 28, 150 }
 		},
 		[35] = {
 			args = { 225 },
 			critical_damage = 5,
-			deps_cells = { 29, 37, 148 }
+			deps_cells = { 29, 37, 147 }
 		},
 		[36] = {
 			args = { 215 },
 			critical_damage = 5,
-			deps_cells = { 30, 38, 150 }
+			deps_cells = { 30, 38, 149 }
 		},
 		[37] = {
 			args = { 227 },
@@ -164,43 +164,43 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 2
 		},
 		[137] = {
-			critical_damage = 2
-		},
-		[138] = {
 			args = { 158 },
 			critical_damage = 3
 		},
-		[139] = {
+		[138] = {
 			args = { 157 },
 			critical_damage = 3
 		},
-		[140] = {
+		[139] = {
 			args = { 267 },
 			critical_damage = 3
 		},
-		[141] = {
+		[140] = {
 			args = { 169 },
 			critical_damage = 3
 		},
-		[142] = {
+		[141] = {
 			args = { 163 },
 			critical_damage = 3
 		},
-		[143] = {
+		[142] = {
 			args = { 168 },
 			critical_damage = 3
 		},
-		[144] = {
+		[143] = {
 			args = { 162 },
 			critical_damage = 3
 		},
-		[145] = {
+		[144] = {
 			args = { 166 },
 			critical_damage = 3
 		},
-		[146] = {
+		[145] = {
 			args = { 160 },
 			critical_damage = 3
+		},
+		[146] = {
+			critical_damage = 2
 		},
 		[147] = {
 			critical_damage = 2
@@ -215,16 +215,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 2
 		},
 		[151] = {
-			critical_damage = 2
-		},
-		[152] = {
 			args = { 266 },
 			critical_damage = 3
 		},
 		cell_indices = {
 			AIR_BRAKE_L = 19,
 			AIR_BRAKE_R = 20,
-			Box807 = 137,
 			CABIN_BOTTOM = 6,
 			CABIN_LEFT_SIDE = 4,
 			CABIN_RIGHT_SIDE = 5,
@@ -239,29 +235,29 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			FLAP_R_IN = 38,
 			FRONT_GEAR_BOX = 8,
 			FUSELAGE_BOTTOM = 82,
-			FUSELAGE_BOTTOM_LEFT = 138,
-			FUSELAGE_BOTTOM_RIGHT = 139,
+			FUSELAGE_BOTTOM_LEFT = 137,
+			FUSELAGE_BOTTOM_RIGHT = 138,
 			FUSELAGE_LEFT_SIDE = 9,
 			FUSELAGE_RIGHT_SIDE = 10,
 			HOOK = 98,
-			L_GEAR_BOX = 140,
-			MTG_BOTTOM_LEFT = 141,
-			MTG_BOTTOM_RIGHT = 142,
-			MTG_CENTER_L = 143,
-			MTG_CENTER_R = 144,
-			MTG_LEFT_SIDE = 145,
-			MTG_RIGHT_SIDE = 146,
+			L_GEAR_BOX = 139,
+			MTG_BOTTOM_LEFT = 140,
+			MTG_BOTTOM_RIGHT = 141,
+			MTG_CENTER_L = 142,
+			MTG_CENTER_R = 143,
+			MTG_LEFT_SIDE = 144,
+			MTG_RIGHT_SIDE = 145,
 			NOSE_BOTTOM = 59,
 			NOSE_CENTER = 0,
 			NOSE_LEFT_SIDE = 1,
 			NOSE_RIGHT_SIDE = 2,
-			PYLON_02 = 147,
-			PYLON_03 = 148,
-			PYLON_04 = 149,
-			PYLON_05 = 150,
-			PYLON_06 = 151,
+			PYLON_02 = 146,
+			PYLON_03 = 147,
+			PYLON_04 = 148,
+			PYLON_05 = 149,
+			PYLON_06 = 150,
 			RUDDER = 53,
-			R_GEAR_BOX = 152,
+			R_GEAR_BOX = 151,
 			STABILIZER_L_IN = 47,
 			STABILIZER_R_IN = 48,
 			TAIL = 55,
@@ -280,7 +276,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			WING_R_PART_CENTER = 28
 		}
 	},
-	DamageParts = { "f-5e_oblomok_wing_l", "f-5e_oblomok_wing_r" },
+	DamageParts = { "f-5e_oblomok_wing_r", "f-5e_oblomok_wing_l" },
 	DefaultTask = <1>{
 		Name = "CAP",
 		OldID = "CAP",
@@ -301,7 +297,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					light_pos = { 0.5, 0, 0 },
 					name = "FireEffect"
 				}, {
-					add_speed = { 0, -3, 10 },
+					add_speed = { 0, -3, 3 },
 					gas_deflector_arg = 327,
 					name = "SmokeEffect"
 				} },
@@ -385,7 +381,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						s = 0,
 						scale_smoke = 1,
 						silent_self_destruction = false,
-						smoke_opacity = 0.3,
+						smoke_opacity = 0.6,
 						smoke_tail_life_time = -1,
 						subcalibre = false,
 						tracer_off = -100,
@@ -449,7 +445,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						s = 0,
 						scale_smoke = 1,
 						silent_self_destruction = false,
-						smoke_opacity = 0.3,
+						smoke_opacity = 0.6,
 						smoke_tail_life_time = -1,
 						subcalibre = false,
 						tracer_off = 3,
@@ -513,7 +509,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						s = 0,
 						scale_smoke = 1,
 						silent_self_destruction = false,
-						smoke_opacity = 0.3,
+						smoke_opacity = 0.6,
 						smoke_tail_life_time = -1,
 						subcalibre = false,
 						tracer_off = -100,
@@ -577,7 +573,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						s = 0,
 						scale_smoke = 1,
 						silent_self_destruction = false,
-						smoke_opacity = 0.3,
+						smoke_opacity = 0.6,
 						smoke_tail_life_time = -1,
 						subcalibre = false,
 						tracer_off = -100,
@@ -641,7 +637,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						s = 0,
 						scale_smoke = 1,
 						silent_self_destruction = false,
-						smoke_opacity = 0.3,
+						smoke_opacity = 0.6,
 						smoke_tail_life_time = -1,
 						subcalibre = false,
 						tracer_off = 3,
@@ -666,7 +662,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					light_pos = { 0.5, 0, 0 },
 					name = "FireEffect"
 				}, {
-					add_speed = { 0, 3, 10 },
+					add_speed = { 0, 3, 3 },
 					gas_deflector_arg = 328,
 					name = "SmokeEffect"
 				} },
@@ -934,6 +930,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					add_mass = 55.3,
 					arg_value = 0
 				}, {
+					CLSID = "{0D33DDAE-524F-4A4E-B5B8-621754FE3ADE}",
+					add_mass = 55.3,
+					arg_value = 0
+				}, {
 					CLSID = "{CBU-52B}",
 					add_mass = 55.3,
 					arg_value = 0
@@ -1085,6 +1085,18 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{00F5DAC4-0466-4122-998F-B1A298E34113}",
 					add_mass = 77.1,
 					arg_value = 0
+				}, {
+					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
+					add_mass = 77.1,
+					arg_value = 0
+				}, {
+					CLSID = "{0D33DDAE-524F-4A4E-B5B8-621754FE3ADE}",
+					add_mass = 77.1,
+					arg_value = 0
+				}, {
+					CLSID = "{51F9AAE5-964F-4D21-83FB-502E3BFE5F8A}",
+					add_mass = 77.1,
+					arg_value = 0.5
 				}, {
 					CLSID = "{MER-5E_MK82x5}",
 					add_mass = 77.1,
@@ -1295,7 +1307,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			pos = { -6.922, -0.084, 0.226 },
 			smokiness_level = 0.15
 		} },
-	fires_pos = { { -1.801, -0.633, 0 }, { -0.961, -0.311, 1.9 }, { -0.961, -0.311, -1.9 }, { -1.42, -0.311, 2.75 }, { -1.42, -0.311, -2.75 },
+	fires_pos = { { -1.801, -0.633, 0 },
 		[8] = { -5.922, -0.084, 0.226 },
 		[9] = { -5.922, -0.084, -0.226 },
 		[10] = { -0.088, 0.55, 0 },
@@ -1391,17 +1403,21 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						lights = { {
 								argument = 193,
 								controller = "Strobe",
-								flash_time = 0.77,
+								cool_down_t = 0.33,
+								flash_time = 0.522,
 								mode = 0,
-								period = 1.03,
+								period = 0.744,
+								power_up_t = 0.33,
 								typename = "argumentlight"
 							}, {
 								connector = "BANO_4",
 								controller = "Strobe",
-								flash_time = 0.77,
+								cool_down_t = 0.222,
+								flash_time = 0.522,
 								mode = 0,
-								period = 1.03,
+								period = 0.744,
 								pos_correction = { 0, 0.1, 0 },
+								power_up_t = 0.33,
 								proto = <15>{
 									angle_max = 3.1415926535898,
 									color = { 1, 1, 1, 0.155 },
@@ -1414,21 +1430,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 								angle_min = 1.5707963267949,
 								connector = "BANO_4",
 								controller = "Strobe",
+								cool_down_t = 0.222,
 								dir_correction = {
 									elevation = -2.3561944901923
 								},
-								flash_time = 0.77,
+								flash_time = 0.522,
 								mode = 0,
-								period = 1.03,
+								period = 0.744,
+								power_up_t = 0.33,
 								proto = <table 15>,
 								typename = "Spot"
 							}, {
 								connector = "BANO_020",
 								controller = "Strobe",
-								flash_time = 0.77,
+								cool_down_t = 0.222,
+								flash_time = 0.522,
 								mode = 0,
-								period = 1.03,
+								period = 0.744,
 								pos_correction = { 0, -0.1, 0 },
+								power_up_t = 0.33,
 								proto = <table 15>,
 								range = 2,
 								typename = "Omni"
@@ -1437,12 +1457,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 								angle_min = 1.5707963267949,
 								connector = "BANO_020",
 								controller = "Strobe",
+								cool_down_t = 0.222,
 								dir_correction = {
 									elevation = 2.3561944901923
 								},
-								flash_time = 0.77,
+								flash_time = 0.522,
 								mode = 0,
-								period = 1.03,
+								period = 0.744,
+								power_up_t = 0.33,
 								proto = <table 15>,
 								typename = "Spot"
 							} },
@@ -1451,21 +1473,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						lights = { {
 								argument = 194,
 								controller = "Strobe",
-								flash_time = 0.77,
+								cool_down_t = 0.342,
+								flash_time = 0.52,
 								mode = 0,
-								period = 1.03,
+								period = 0.744,
+								power_up_t = 0.33,
 								typename = "argumentlight"
 							}, {
 								angle_max = 2.6179938779915,
 								angle_min = 1.5707963267949,
 								connector = "BANO_016",
 								controller = "Strobe",
+								cool_down_t = 0.228,
 								dir_correction = {
 									elevation = -1.0471975511966
 								},
-								flash_time = 0.77,
+								flash_time = 0.52,
 								mode = 0,
-								period = 1.03,
+								period = 0.744,
+								power_up_t = 0.33,
 								proto = <table 13>,
 								typename = "Spot"
 							}, {
@@ -1473,12 +1499,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 								angle_min = 1.5707963267949,
 								connector = "BANO_019",
 								controller = "Strobe",
+								cool_down_t = 0.228,
 								dir_correction = {
 									elevation = -1.0471975511966
 								},
-								flash_time = 0.77,
+								flash_time = 0.52,
 								mode = 0,
-								period = 1.03,
+								period = 0.744,
+								power_up_t = 0.33,
 								proto = <table 14>,
 								typename = "Spot"
 							} },
@@ -1617,9 +1645,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		typename = "collection"
 	},
 	main_gear_amortizer_direct_stroke = 0,
-	main_gear_amortizer_normal_weight_stroke = -0.165,
-	main_gear_amortizer_reversal_stroke = -0.215084,
-	main_gear_pos = { -0.8546, -1.702458, 1.914661 },
+	main_gear_amortizer_normal_weight_stroke = -0.223,
+	main_gear_amortizer_reversal_stroke = -0.291,
+	main_gear_pos = { -0.758, -1.712, 1.873 },
 	main_gear_wheel_diameter = 0.6,
 	mapclasskey = "P0091000024",
 	mechanimations = {
@@ -1800,10 +1828,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	},
 	net_animation = { 13, 14, 23, 25, 35, 36, 37, 274, 275, 327, 328, 329, 330, 474, 475 },
 	nose_gear_amortizer_direct_stroke = 0,
-	nose_gear_amortizer_normal_weight_stroke = -0.375,
-	nose_gear_amortizer_reversal_stroke = -0.502,
-	nose_gear_hiking = 0.325,
-	nose_gear_pos = { 4.406, -1.898, 0 },
+	nose_gear_amortizer_normal_weight_stroke = -0.356,
+	nose_gear_amortizer_reversal_stroke = -0.529,
+	nose_gear_hiking = 0.306,
+	nose_gear_pos = { 4.465, -1.92, 0 },
 	nose_gear_wheel_diameter = 0.46,
 	passivCounterm = {
 		CMDS_Edit = false,

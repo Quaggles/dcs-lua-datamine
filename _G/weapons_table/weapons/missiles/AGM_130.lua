@@ -151,7 +151,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_130"] = {
 			op_time = 7200
 		},
 		shape_table_data = { {
-				file = "agm_130",
+				file = "agm-130",
 				fire = { 0, 1 },
 				index = "Redacted",
 				life = 1,
@@ -344,7 +344,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_130"] = {
 			op_time = 7200
 		},
 		shape_table_data = { {
-				file = "agm_130",
+				file = "agm-130",
 				fire = { 0, 1 },
 				index = "Redacted",
 				life = 1,

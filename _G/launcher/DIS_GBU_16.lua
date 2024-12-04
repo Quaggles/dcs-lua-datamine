@@ -15,6 +15,7 @@ _G["launcher"]["DIS_GBU_16"] = {
 	attribute = { 4, 5, 36, "Redacted" },
 	category = 1,
 	displayName = "GBU-16",
+	ejectDirection = { 0, -1, 0 },
 	ejectVelocity = 1.8,
 	settings = { {
 			baseDim = "",

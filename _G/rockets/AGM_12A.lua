@@ -121,7 +121,7 @@ _G["rockets"]["#Index"] = {
 		init_roll = 0.78539816339745
 	},
 	manualWeaponFlag = 3,
-	model = "HB_F-4E_EXT_AGM12A",
+	model = "HB_F-4E_EXT_AGM12B",
 	name = "AGM_12A",
 	scheme = "AGM-12_v2",
 	shape_table_data = { {

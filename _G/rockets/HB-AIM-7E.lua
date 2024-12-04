@@ -125,7 +125,7 @@ _G["rockets"]["#Index"] = {
 		work_time = 2.8
 	},
 	mass = 230,
-	model = "aim-7",
+	model = "HB_F-4E_AIM7E",
 	name = "HB-AIM-7E",
 	proximity_fuze = {
 		arm_delay = 4,

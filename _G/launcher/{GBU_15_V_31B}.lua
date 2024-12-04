@@ -3,7 +3,7 @@ _G["launcher"]["{GBU_15_V_31B}"] = {
 	Count = 1,
 	Cx_pil = 0.00264,
 	Elements = { {
-			ShapeName = "agm_130"
+			ShapeName = "agm-130"
 		} },
 	Picture = "GBU31.png",
 	Weight = 1125,

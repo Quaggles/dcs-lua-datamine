@@ -8,7 +8,7 @@ _G["launcher"]["{AGM_12A_SWA}"] = {
 			ShapeName = "HB_F-4E_LAU-34"
 		}, {
 			Position = { 0, 0, 0 },
-			ShapeName = "HB_F-4E_EXT_AGM12A",
+			ShapeName = "HB_F-4E_EXT_AGM12B",
 			connector_name = "AGM45_ATTACH"
 		} },
 	JettisonSubmunitionOnly = true,

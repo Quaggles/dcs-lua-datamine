@@ -356,7 +356,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	},
 	attribute = { 3, 12, 14, "Redacted", "Frigates", "RADAR_BAND1_FOR_ARM", "DetectionByAWACS", "Armed Ship", "HelicopterCarrier", "Naval", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
 	chassis = {},
-	distFindObstacles = 250,
+	distFindObstacles = 1000,
 	draft = 7,
 	economy_distance = 4200000,
 	economy_velocity = 7.2,

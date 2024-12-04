@@ -124,7 +124,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_12A"] = {
 			init_roll = 0.78539816339745
 		},
 		manualWeaponFlag = 3,
-		model = "HB_F-4E_EXT_AGM12A",
+		model = "HB_F-4E_EXT_AGM12B",
 		name = "AGM_12A",
 		scheme = "schemes/missiles/AGM-12_v2.sch",
 		shape_table_data = { {
@@ -192,7 +192,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_12A"] = {
 	display_name = "AGM-12A",
 	display_name_short = "AGM-12A",
 	mass = 257,
-	model = "HB_F-4E_EXT_AGM12A",
+	model = "HB_F-4E_EXT_AGM12B",
 	name = "AGM_12A",
 	server = {
 		Cx_pil = 3.3,
@@ -314,7 +314,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_12A"] = {
 			init_roll = 0.78539816339745
 		},
 		manualWeaponFlag = 3,
-		model = "HB_F-4E_EXT_AGM12A",
+		model = "HB_F-4E_EXT_AGM12B",
 		name = "AGM_12A",
 		scheme = "schemes/missiles/AGM-12_v2.sch",
 		shape_table_data = { {

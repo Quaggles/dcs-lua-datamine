@@ -2,7 +2,7 @@ _G["launcher"]["{AGM_130C_9}"] = {
 	CLSID = "{AGM_130C_9}",
 	Count = 1,
 	Elements = { {
-			ShapeName = "agm_130"
+			ShapeName = "agm-130"
 		} },
 	Picture = "GBU31.png",
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/GBU_15.lua",

@@ -4093,7 +4093,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		},
 		typename = "collection"
 	},
-	main_gear_pos = { -1.322, -2.32, 2.118 },
+	main_gear_pos = { -1.322, -2.37, 2.118 },
 	mapclasskey = "P0091000020",
 	mechanimations = {
 		CargoBayGates = { {
@@ -4367,7 +4367,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			} }
 	},
 	net_animation = { 458, 80, 85, 457, 1000, 26, 1, 2, 250, 459, 460, 461 },
-	nose_gear_pos = { 3.236, -2.489, 0 },
+	nose_gear_pos = { 3.236, -2.55, 0 },
 	panelRadio = { {
 			channels = { {
 					connect = true,

@@ -125,7 +125,7 @@ _G["rockets"]["#Index"] = {
 		work_time = 2.8
 	},
 	mass = 230,
-	model = "aim-7",
+	model = "HB_F-4E_EXT_AIM-7E2",
 	name = "HB-AIM-7E-2",
 	proximity_fuze = {
 		arm_delay = 2.9,
@@ -148,7 +148,7 @@ _G["rockets"]["#Index"] = {
 		sens_near_dist = 100
 	},
 	shape_table_data = { {
-			file = "HB_F-4E_AIM7E",
+			file = "HB_F-4E_EXT_AIM-7E2",
 			fire = { 0, 1 },
 			index = "Redacted",
 			life = 1,

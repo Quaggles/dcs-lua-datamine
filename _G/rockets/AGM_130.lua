@@ -147,7 +147,7 @@ _G["rockets"]["#Index"] = {
 		op_time = 7200
 	},
 	shape_table_data = { {
-			file = "agm_130",
+			file = "agm-130",
 			fire = { 0, 1 },
 			index = "Redacted",
 			life = 1,

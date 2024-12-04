@@ -23,6 +23,7 @@ _G["launcher"]["{RBK_500_PTAB105_DUAL_L}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "2 x RBK-500-255 PTAB-10-5",
+	ejectDirection = { 0, -1, 0 },
 	ejectVelocity = 1.8,
 	name = "{RBK_500_PTAB105_DUAL_L}",
 	wsTypeOfWeapon = { 4, 5, 38, "Redacted" }

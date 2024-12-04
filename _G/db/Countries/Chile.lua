@@ -1098,14 +1098,6 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "C-101EB",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "C-101CC",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
 					Name = "FW-190A8"
 				}, {
 					Name = "Bf-109K-4"
@@ -1133,6 +1125,10 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "AV8BNA"
 				}, {
 					Name = "KC130"
+				}, {
+					Name = "C-101EB"
+				}, {
+					Name = "C-101CC"
 				}, {
 					Name = "JF-17"
 				}, {

@@ -20,6 +20,7 @@ _G["launcher"]["DIS_MK_82_DUAL_GDJ_II19_R"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "GDJ-II19 - 2 x Mk-82",
+	ejectDirection = { 0, -1, 0 },
 	ejectVelocity = 1.8,
 	settings = { {
 			baseDim = "",
