@@ -4,6 +4,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	CustomAimPoint = { 0, 1.82, 0 },
 	DetectionRange = 18000,
 	DisplayName = 'SAM SA-19 Tunguska "Grison" ',
 	DisplayNameShort = "SA-19",

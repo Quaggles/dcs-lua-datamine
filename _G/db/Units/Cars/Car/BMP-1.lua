@@ -3,6 +3,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	CustomAimPoint = { 0, 1.15, 0 },
 	DetectionRange = 0,
 	DisplayName = "IFV BMP-1",
 	DisplayNameShort = "BMP1",

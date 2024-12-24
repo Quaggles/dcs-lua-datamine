@@ -4,6 +4,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	CustomAimPoint = { 0, 1.5, 0 },
 	DetectionRange = 0,
 	DisplayName = "SPH M109 Paladin 155mm",
 	DisplayNameShort = "M109",

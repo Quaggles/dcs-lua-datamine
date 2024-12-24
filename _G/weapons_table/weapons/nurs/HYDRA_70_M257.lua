@@ -118,7 +118,7 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_M257"] = {
 					shape_table_data = { {
 							file = "Hydra_M257_Parashute",
 							index = "Redacted",
-							username = "M257_FLARE"
+							username = "M257 Flare"
 						} },
 					targeting_data = {
 						char_time = 20.5
@@ -198,7 +198,7 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_M257"] = {
 					shape_table_data = { {
 							file = "Hydra_M257_Parashute",
 							index = "Redacted",
-							username = "M257_FLARE"
+							username = "M257 Flare"
 						} },
 					targeting_data = {
 						char_time = 20.5
@@ -359,7 +359,7 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_M257"] = {
 					shape_table_data = { {
 							file = "Hydra_M257_Parashute",
 							index = "Redacted",
-							username = "M257_FLARE"
+							username = "M257 Flare"
 						} },
 					targeting_data = {
 						char_time = 20.5
@@ -439,7 +439,7 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_M257"] = {
 					shape_table_data = { {
 							file = "Hydra_M257_Parashute",
 							index = "Redacted",
-							username = "M257_FLARE"
+							username = "M257 Flare"
 						} },
 					targeting_data = {
 						char_time = 20.5

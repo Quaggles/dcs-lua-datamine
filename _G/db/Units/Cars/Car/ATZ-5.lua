@@ -4,6 +4,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	Countries = { "Russia", "USSR" },
+	CustomAimPoint = { 0, 1.35, 0 },
 	DetectionRange = 0,
 	DisplayName = "Refueler ATZ-5",
 	DisplayNameShort = "ATZ-5",

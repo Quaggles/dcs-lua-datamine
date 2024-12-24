@@ -4,6 +4,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	CustomAimPoint = { 0, 1.45, 0 },
 	DetectionRange = 0,
 	DisplayName = "GPU APA-80 on ZIL-131",
 	DisplayNameShort = "APA-80",

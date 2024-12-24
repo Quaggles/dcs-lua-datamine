@@ -3,6 +3,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	CustomAimPoint = { 0, 1.22, 0 },
 	DM = { {
 			area_name = "FRONT_01",
 			armour = {

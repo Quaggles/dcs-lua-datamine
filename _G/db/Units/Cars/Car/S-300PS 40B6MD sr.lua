@@ -242,7 +242,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		maxTargetDetectionRange = 60000,
 		radar_rotation_type = 0,
 		radar_type = 103,
-		searchRadarFrequencies = { { 8000000000, 10000000000 } }
+		searchRadarFrequencies = { { 2900000000, 3300000000 } }
 	},
 	Waypoint_Custom_Panel = true,
 	_file = "./CoreMods/tech/HeavyMetalCore/Database/db_units_cars.lua",

@@ -275,7 +275,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			defValue = false,
 			id = "SoloFlight",
 			label = "Solo Flight",
-			weight = -80
+			wCtrl = 75,
+			wLbl = 220,
+			weight = -80,
+			xCtrl = 240
 		}, {
 			control = "comboList",
 			defValue = 1,
@@ -1427,9 +1430,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{BLU107B_DURANDAL}",
 					arg_value = 0.25
 				}, {
-					CLSID = "{BLG66_BELOUGA}",
-					arg_value = 0.25,
-					attach_point_position = { 0.04, 0, 0 }
+					CLSID = "{BLG66_AC}",
+					arg_value = 0.25
 				}, {
 					CLSID = "{MATRA_F1_SNEBT250}",
 					arg_value = 0.35
@@ -1520,9 +1522,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{BLU107B_DURANDAL}",
 					arg_value = 0.15
 				}, {
-					CLSID = "{BLG66_BELOUGA}",
-					arg_value = 0.15,
-					attach_point_position = { 0.04, 0, 0 }
+					CLSID = "{BLG66_AC}",
+					arg_value = 0.15
 				}, {
 					CLSID = "{AUF2_BLU107}",
 					arg_value = 0.15
@@ -1536,8 +1537,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{AUF2_SAMP250HD}",
 					arg_value = 0.15
 				}, {
-					arg_value = 0.15
-				}, {
+					CLSID = "{AUF2_BLG66}",
 					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F1_SNEBT250}",
@@ -1699,9 +1699,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{SAMP400HD}",
 					arg_value = 0.15
 				}, {
-					CLSID = "{BLG66_BELOUGA}",
-					arg_value = 0.15,
-					attach_point_position = { 0.04, 0, 0 }
+					CLSID = "{BLG66_AC}",
+					arg_value = 0.15
 				}, {
 					CLSID = "{CLB4_BLU107}",
 					arg_value = 0.35
@@ -1733,8 +1732,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{AUF2_SAMP250HD}",
 					arg_value = 0.15
 				}, {
-					arg_value = 0.15
-				}, {
+					CLSID = "{AUF2_BLG66}",
 					arg_value = 0.15
 				}, {
 					CLSID = "PTB-1200-F1",
@@ -1829,9 +1827,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{BLU107B_DURANDAL}",
 					arg_value = 0.15
 				}, {
-					CLSID = "{BLG66_BELOUGA}",
-					arg_value = 0.15,
-					attach_point_position = { 0.04, 0, 0 }
+					CLSID = "{BLG66_AC}",
+					arg_value = 0.15
 				}, {
 					CLSID = "{AUF2_BLU107}",
 					arg_value = 0.15
@@ -1845,8 +1842,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{AUF2_SAMP250HD}",
 					arg_value = 0.15
 				}, {
-					arg_value = 0.15
-				}, {
+					CLSID = "{AUF2_BLG66}",
 					arg_value = 0.15
 				}, {
 					CLSID = "{MATRA_F1_SNEBT250}",
@@ -2014,9 +2010,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{BLU107B_DURANDAL}",
 					arg_value = 0.25
 				}, {
-					CLSID = "{BLG66_BELOUGA}",
-					arg_value = 0.25,
-					attach_point_position = { 0.04, 0, 0 }
+					CLSID = "{BLG66_AC}",
+					arg_value = 0.25
 				}, {
 					CLSID = "{MATRA_F1_SNEBT250}",
 					arg_value = 0.35
@@ -2274,56 +2269,68 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	is_tanker = false,
 	length = 15.3,
 	lights_data = {
-		lights = { {
-				lights = { {
-						argument = 83,
-						period = 1.333,
-						phase_shift = 0,
-						typename = "argnatostrobelight"
-					}, {
-						argument = 802,
-						period = 1.4,
-						phase_shift = 0,
-						typename = "argnatostrobelight"
-					}, {
-						argument = 803,
-						period = 1.4,
-						phase_shift = 0,
-						typename = "argnatostrobelight"
-					} },
-				typename = "collection"
-			}, {
+		lights = {
+			[2] = {
 				lights = { {
 						lights = <5>{ {
 								angle_change_rate = 0.13962634015955,
-								angle_max = 0.55850536063819,
-								angle_min = 0.19198621771938,
+								angle_max = 0.5235987755983,
+								angle_min = 0.17453292519943,
 								argument = 209,
-								color = { 255, 216, 160, 0.4 },
+								color = <6>{ 255, 194, 97, 0.4 },
 								connector = "MAIN_SPOT_PTR",
 								movable = true,
 								power_up_t = 1,
 								range = 1500,
 								typename = "spotlight"
+							}, {
+								angle_change_rate = -0.90757121103705,
+								angle_max = 2.8797932657906,
+								angle_min = 2.5307274153918,
+								color = <table 6>,
+								connector = "MAIN_SPOT_PTR",
+								movable = true,
+								power_up_t = 1,
+								range = 40,
+								typename = "spotlight"
 							} },
 						typename = "collection"
 					} },
 				typename = "collection"
-			}, {
+			},
+			[3] = {
 				lights = { {
 						argument = 190,
+						exposure = <7>{ { 929, 0, 1, 0, 1 } },
+						power_up_t = 0.052,
 						typename = "argumentlight"
 					}, {
 						argument = 191,
+						exposure = <table 7>,
+						power_up_t = 0.052,
+						typename = "argumentlight"
+					}, {
+						argument = 83,
+						exposure = <table 7>,
+						flash_time = 0.3333,
+						period = 1.3333,
+						typename = "argnatostrobelight"
+					}, {
+						argument = 802,
+						exposure = <table 7>,
+						power_up_t = 0.052,
 						typename = "argumentlight"
 					} },
 				typename = "collection"
-			}, {
+			},
+			[4] = {
 				lights = { {
 						argument = 200,
+						exposure = <8>{ { 928, 0, 1, 0, 1 } },
 						typename = "argumentlight"
 					}, {
 						argument = 201,
+						exposure = <table 8>,
 						typename = "argumentlight"
 					} },
 				typename = "collection"
@@ -2435,7 +2442,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						angle_max = 0.55850536063819,
 						angle_min = 0.19198621771938,
 						argument = 905,
-						color = { 255, 216, 160, 0.4 },
+						color = <table 6>,
 						connector = "PILOT_LIGHT",
 						movable = true,
 						power_up_t = 1,
@@ -2535,7 +2542,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				Transition = { "Any", "High" }
 			} }
 	},
-	net_animation = { 11, 12, 13, 14, 15, 16, 18, 23, 28, 35, 36, 37, 38, 75, 86, 90, 115, 116, 117, 120, 123, 126, 127, 128, 129, 149, 182, 184, 282, 283, 284, 285, 308, 309, 310, 311, 312, 313, 314, 338, 339, 340, 341, 427, 705, 750, 751, 752, 753, 754, 755, 780, 781, 782, 845, 905, 911, 920, 924, 925, 926 },
+	net_animation = { 11, 12, 13, 14, 15, 16, 18, 23, 28, 35, 36, 37, 38, 75, 86, 90, 115, 116, 117, 120, 123, 126, 127, 128, 129, 149, 182, 184, 282, 283, 284, 285, 308, 309, 310, 311, 312, 313, 314, 338, 339, 340, 341, 427, 705, 750, 751, 752, 753, 754, 755, 780, 781, 782, 803, 845, 905, 911, 920, 924, 925, 926, 928, 929 },
 	nose_gear_amortizer_direct_stroke = 0,
 	nose_gear_amortizer_normal_weight_stroke = -0.162225,
 	nose_gear_amortizer_reversal_stroke = -0.309,

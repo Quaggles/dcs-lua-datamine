@@ -4,6 +4,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	Countries = { "Australia", "Belgium", "Canada", "Czech Republic", "France", "Italia", "Poland", "The Netherlands", "UK", "USA", "USSR", "Yugoslavia" },
+	CustomAimPoint = { 0, 1.35, 0 },
 	DetectionRange = 0,
 	DisplayName = "Tractor M4 High Speed",
 	DisplayNameShort = "M4",

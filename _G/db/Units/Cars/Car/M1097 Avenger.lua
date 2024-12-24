@@ -3,6 +3,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	CustomAimPoint = { 0, 1.3, 0 },
 	DetectionRange = 5200,
 	DisplayName = "SAM Avenger (Stinger)",
 	DisplayNameShort = "Avenger",

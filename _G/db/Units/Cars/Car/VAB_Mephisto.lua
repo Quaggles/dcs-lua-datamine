@@ -4,6 +4,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	Countries = { "France", "Lebanon" },
+	CustomAimPoint = { 0, 1.45, 0 },
 	DetectionRange = 0,
 	DisplayName = "ATGM VAB Mephisto",
 	DisplayNameShort = "Meph",

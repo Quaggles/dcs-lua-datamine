@@ -4,6 +4,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	Countries = { "USA" },
+	CustomAimPoint = { 0, 1.35, 0 },
 	DM = { {
 			area_name = "Bashnya_BORT_Lev",
 			armour = {
@@ -232,9 +233,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							shell_name = {}
 						} },
 					machineGunBeltArgument = 90,
-					sensor = {},
+					sensor = {
+						Tau = 3.5,
+						deviation_error_distance_air = 0.03,
+						deviation_error_speed_sensor_air = 0.3,
+						deviation_error_stability_air = 0.05
+					},
 					sightIndicationMode = 1,
 					sightMasterMode = 1,
+					sightMaxTanVel = 55.555555555556,
 					type = 10
 				} },
 			angles = { { 3.1415926535898, 2.0943951023932, 0, 0.5235987755983 }, { 2.0943951023932, 1.1344640137963, 0.33161255787892, 0.5235987755983 }, { 1.1344640137963, 0.78539816339745, 0.20943951023932, 0.5235987755983 }, { 0.78539816339745, -0.78539816339745, -0.13962634015955, 0.5235987755983 }, { -0.78539816339745, -3.1415926535898, 0, 0.5235987755983 } },
@@ -282,7 +289,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	crew_locale = "ENG",
 	crew_members = { "commander", "gunner", "loader" },
 	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
-	driverViewConnectorName = { "DRIVER_POINT",
+	driverViewConnectorName = { "POINT_DRIVER",
 		offset = { 0.05, 0, 0 }
 	},
 	enablePlayerCanDrive = true,

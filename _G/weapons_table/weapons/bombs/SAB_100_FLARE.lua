@@ -73,7 +73,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100_FLARE"] = {
 		shape_table_data = { {
 				file = "luu-2",
 				index = "Redacted",
-				username = "SAB_100_FLARE"
+				username = "SAB-100 Flare"
 			} },
 		targeting_data = {
 			char_time = 20.5
@@ -155,7 +155,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100_FLARE"] = {
 		shape_table_data = { {
 				file = "luu-2",
 				index = "Redacted",
-				username = "SAB_100_FLARE"
+				username = "SAB-100 Flare"
 			} },
 		targeting_data = {
 			char_time = 20.5

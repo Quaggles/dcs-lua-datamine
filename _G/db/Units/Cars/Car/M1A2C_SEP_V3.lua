@@ -4,6 +4,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	Countries = { "USA" },
+	CustomAimPoint = { 0, 1.35, 0 },
 	DM = { {
 			area_name = "Bashnya_BORT_Lev",
 			armour = {
@@ -239,9 +240,13 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					createMuzzleFlashEffect = true,
 					fireAnimationArgument = 44,
 					machineGunBeltArgument = 90,
-					sensor = {},
+					sensor = {
+						deviation_error_distance_air = 0.008,
+						deviation_error_speed_sensor_air = 0.4
+					},
 					sightIndicationMode = 1,
 					sightMasterMode = 1,
+					sightMaxTanVel = 83.333333333333,
 					type = 10
 				} },
 			angles = { { 3.1415926535898, 2.3561944901923, 0, 0.5235987755983 }, { 2.3561944901923, 1.1344640137963, 0.087266462599716, 0.5235987755983 }, { 1.1344640137963, -2.7925268031909, -0.13962634015955, 0.5235987755983 }, { -2.7925268031909, -3.1415926535898, -0.034906585039887, 0.5235987755983 } },

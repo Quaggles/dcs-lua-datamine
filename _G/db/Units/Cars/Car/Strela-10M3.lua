@@ -4,6 +4,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	CustomAimPoint = { 0, 1.1, 0 },
 	DetectionRange = 8000,
 	DisplayName = 'SAM SA-13 Strela 10M3 "Gopher" TEL',
 	DisplayNameShort = "SA-13",

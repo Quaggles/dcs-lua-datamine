@@ -28,6 +28,7 @@ _G["weapons_table"]["weapons"]["nurs"]["S_5KP"] = {
 			work_time = 0.78
 		},
 		fm = {
+			Cx0 = { 0.55, 0.55, 0.55, 0.55, 0.584, 0.95, 1.06, 1, 0.93, 0.86, 0.81, 0.77, 0.74, 0.71, 0.68, 0.65 },
 			I = 0.47636860916667,
 			Ix = 0.0017991,
 			L = 1.079,
@@ -39,6 +40,7 @@ _G["weapons_table"]["weapons"]["nurs"]["S_5KP"] = {
 			mass = 4.91,
 			rail_open = false,
 			shapeName = "c-5",
+			table_scale = 0.2,
 			wind_sigma = 10,
 			wind_sigma_z_coeff = 1,
 			wind_time = 0.78,
@@ -74,7 +76,7 @@ _G["weapons_table"]["weapons"]["nurs"]["S_5KP"] = {
 		},
 		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 	},
-	cx_pil = 2.0422399873056e-05,
+	cx_pil = 2.4840186371681e-05,
 	display_name = "S-5KP HEAT/Frag",
 	display_name_short = "S-5",
 	dist_max = 2500,
@@ -108,6 +110,7 @@ _G["weapons_table"]["weapons"]["nurs"]["S_5KP"] = {
 			work_time = 0.78
 		},
 		fm = {
+			Cx0 = { 0.55, 0.55, 0.55, 0.55, 0.584, 0.95, 1.06, 1, 0.93, 0.86, 0.81, 0.77, 0.74, 0.71, 0.68, 0.65 },
 			I = 0.47636860916667,
 			Ix = 0.0017991,
 			L = 1.079,
@@ -119,6 +122,7 @@ _G["weapons_table"]["weapons"]["nurs"]["S_5KP"] = {
 			mass = 4.91,
 			rail_open = false,
 			shapeName = "c-5",
+			table_scale = 0.2,
 			wind_sigma = 10,
 			wind_sigma_z_coeff = 1,
 			wind_time = 0.78,
@@ -161,6 +165,7 @@ _G["weapons_table"]["weapons"]["nurs"]["S_5KP"] = {
 			work_time = 0.78
 		},
 		fm = {
+			Cx0 = { 0.55, 0.55, 0.55, 0.55, 0.584, 0.95, 1.06, 1, 0.93, 0.86, 0.81, 0.77, 0.74, 0.71, 0.68, 0.65 },
 			I = 0.47636860916667,
 			Ix = 0.0017991,
 			L = 1.079,
@@ -172,6 +177,7 @@ _G["weapons_table"]["weapons"]["nurs"]["S_5KP"] = {
 			mass = 4.91,
 			rail_open = false,
 			shapeName = "c-5",
+			table_scale = 0.2,
 			wind_sigma = 10,
 			wind_sigma_z_coeff = 1,
 			wind_time = 0.78,

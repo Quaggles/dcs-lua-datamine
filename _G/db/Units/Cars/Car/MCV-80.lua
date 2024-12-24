@@ -3,6 +3,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	CustomAimPoint = { 0, 1.2, 0 },
 	DetectionRange = 0,
 	DisplayName = "IFV Warrior ",
 	DisplayNameShort = "MCV80",

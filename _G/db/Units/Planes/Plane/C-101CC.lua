@@ -826,10 +826,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 6
 						} }
 				}, {
-					CLSID = "{BLG66_BELOUGA}",
+					CLSID = "{BLG66_AC}",
 					arg_value = 0.1,
 					required = { {
-							loadout = { "{BLG66_BELOUGA}" },
+							loadout = { "{BLG66_AC}" },
 							station = 6
 						} }
 				}, {
@@ -915,10 +915,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 5
 						} }
 				}, {
-					CLSID = "{BLG66_BELOUGA}",
+					CLSID = "{BLG66_AC}",
 					arg_value = 0.1,
 					required = { {
-							loadout = { "{BLG66_BELOUGA}" },
+							loadout = { "{BLG66_AC}" },
 							station = 5
 						} }
 				}, {
@@ -1037,10 +1037,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						} }
 				}, {
-					CLSID = "{BLG66_BELOUGA}",
+					CLSID = "{BLG66_AC}",
 					arg_value = 0.1,
 					required = { {
-							loadout = { "{BLG66_BELOUGA}" },
+							loadout = { "{BLG66_AC}" },
 							station = 3
 						} }
 				}, {
@@ -1155,10 +1155,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 2
 						} }
 				}, {
-					CLSID = "{BLG66_BELOUGA}",
+					CLSID = "{BLG66_AC}",
 					arg_value = 0.1,
 					required = { {
-							loadout = { "{BLG66_BELOUGA}" },
+							loadout = { "{BLG66_AC}" },
 							station = 2
 						} }
 				}, {

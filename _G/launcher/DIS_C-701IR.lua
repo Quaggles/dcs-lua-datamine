@@ -9,8 +9,8 @@ _G["launcher"]["DIS_C-701IR"] = {
 	Weight = 170,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/mils_c701.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
-	attribute = "weapons.missiles.C-701IR",
+	attribute = "weapons.missiles.C_701T",
 	category = 2,
 	displayName = "C-701IR",
-	ejectVelocity = 0
+	ejectVelocity = 2
 }

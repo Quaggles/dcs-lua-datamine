@@ -4,6 +4,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	CustomAimPoint = { 0, 1.65, 0 },
 	DetectionRange = 0,
 	DisplayName = "Truck SKP-11 Mobile ATC",
 	DisplayNameShort = "SKP-11",

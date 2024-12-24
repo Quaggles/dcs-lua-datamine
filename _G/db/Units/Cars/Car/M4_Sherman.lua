@@ -12,6 +12,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	Countries = { "Australia", "Belgium", "Canada", "Czech Republic", "France", "Italia", "Poland", "The Netherlands", "UK", "USA", "USSR", "Yugoslavia" },
+	CustomAimPoint = { 0, 1.4, 0 },
 	DM = { {
 			area_name = "GUN_MASK",
 			armour = {

@@ -122,7 +122,7 @@ _G["weapons_table"]["weapons"]["nurs"]["C_8OM"] = {
 					shape_table_data = { {
 							file = "s-8_om_parashut",
 							index = "Redacted",
-							username = "S_8OM_FLARE"
+							username = "S-8OM Flare"
 						} },
 					targeting_data = {
 						char_time = 20.5
@@ -201,7 +201,7 @@ _G["weapons_table"]["weapons"]["nurs"]["C_8OM"] = {
 					shape_table_data = { {
 							file = "s-8_om_parashut",
 							index = "Redacted",
-							username = "S_8OM_FLARE"
+							username = "S-8OM Flare"
 						} },
 					targeting_data = {
 						char_time = 20.5
@@ -366,7 +366,7 @@ _G["weapons_table"]["weapons"]["nurs"]["C_8OM"] = {
 					shape_table_data = { {
 							file = "s-8_om_parashut",
 							index = "Redacted",
-							username = "S_8OM_FLARE"
+							username = "S-8OM Flare"
 						} },
 					targeting_data = {
 						char_time = 20.5
@@ -445,7 +445,7 @@ _G["weapons_table"]["weapons"]["nurs"]["C_8OM"] = {
 					shape_table_data = { {
 							file = "s-8_om_parashut",
 							index = "Redacted",
-							username = "S_8OM_FLARE"
+							username = "S-8OM Flare"
 						} },
 					targeting_data = {
 						char_time = 20.5

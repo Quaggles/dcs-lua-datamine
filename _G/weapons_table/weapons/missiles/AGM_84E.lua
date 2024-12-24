@@ -1,7 +1,7 @@
 _G["weapons_table"]["weapons"]["missiles"]["AGM_84E"] = {
 	Reflection = 0.1,
 	_unique_resource_name = "weapons.missiles.AGM_84E",
-	add_attributes = { "Cruise missiles", "Anti-Ship missiles" },
+	add_attributes = { "Cruise missiles", "Anti-Ship missiles", "Air" },
 	caliber = 0.343,
 	client = {
 		autopilot = {

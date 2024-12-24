@@ -3,6 +3,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	CustomAimPoint = { 0, 1.16, 0 },
 	DetectionRange = 0,
 	DisplayName = "ATGM HMMWV",
 	DisplayNameShort = "M1045",

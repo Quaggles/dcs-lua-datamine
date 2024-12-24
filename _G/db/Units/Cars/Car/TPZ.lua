@@ -3,6 +3,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	CustomAimPoint = { 0, 1.4, 0 },
 	DetectionRange = 0,
 	DisplayName = "APC TPz Fuchs ",
 	DisplayNameShort = "Fuchs",

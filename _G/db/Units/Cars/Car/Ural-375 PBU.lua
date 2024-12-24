@@ -3,6 +3,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	CustomAimPoint = { 0, 1.55, 0 },
 	DetectionRange = 0,
 	DisplayName = "Truck Ural-4320 MCC",
 	DisplayNameShort = "Ural-MCC",

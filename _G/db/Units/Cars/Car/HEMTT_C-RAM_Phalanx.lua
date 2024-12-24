@@ -4,6 +4,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	Countries = { "USA" },
+	CustomAimPoint = { 0, 1.65, 0 },
 	DetectionRange = 10000,
 	DisplayName = "LPWS C-RAM",
 	DisplayNameShort = "C-RAM",
@@ -44,7 +45,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		fire_on_march = false,
 		maxTargetDetectionRange = 10000,
 		radar_type = 104,
-		searchRadarFrequencies = { { 12000000000, 18000000000 } }
+		searchRadarFrequencies = { { 12000000000, 18000000000 } },
+		searchRadarMaxElevation = 1.3962634015955
 	},
 	Waypoint_Custom_Panel = true,
 	_file = "./CoreMods/tech/HeavyMetalCore/Database/db_units_cars.lua",
@@ -82,6 +84,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	mapclasskey = "SPAAA_RAD_Truck",
 	maxDeviationPitch = 0.087266462599716,
 	maxDeviationRoll = 0.17453292519943,
+	radar_rotation_period = 1,
 	sensor = {
 		height = 3.872,
 		max_alt_finding_target = 6000,

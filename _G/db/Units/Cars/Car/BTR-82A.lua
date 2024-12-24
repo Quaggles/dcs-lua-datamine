@@ -4,6 +4,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	Countries = { "Kazakhstan", "Russia", "Syria" },
+	CustomAimPoint = { 0, 1.45, 0 },
 	DetectionRange = 0,
 	DisplayName = "IFV BTR-82A",
 	DisplayNameShort = "BTR82A",

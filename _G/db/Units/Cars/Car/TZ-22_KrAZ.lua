@@ -4,6 +4,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	Countries = { "Russia", "USSR" },
+	CustomAimPoint = { 0, 1.3, 0 },
 	DetectionRange = 0,
 	DisplayName = "Refueler TZ-22 Tractor (KrAZ-258B1)",
 	DisplayNameShort = "KrAZ",

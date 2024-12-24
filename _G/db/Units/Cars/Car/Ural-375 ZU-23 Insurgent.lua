@@ -3,6 +3,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	CustomAimPoint = { 0, 1.45, 0 },
 	DetectionRange = 5000,
 	DisplayName = "AAA ZU-23 on Ural-4320 Insurgent",
 	DisplayNameShort = "ZU23 U",

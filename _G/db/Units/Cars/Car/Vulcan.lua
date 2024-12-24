@@ -4,6 +4,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	CustomAimPoint = { 0, 1.32, 0 },
 	DetectionRange = 5000,
 	DisplayName = "SPAAA Vulcan M163",
 	DisplayNameShort = "Vulcan",

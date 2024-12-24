@@ -3,7 +3,7 @@ _G["launcher"]["{AABA1A14-78A1-4E85-94DD-463CF75BD9E4}"] = {
 	Count = 4,
 	Elements = { {
 			IsAdapter = true,
-			ShapeName = "B_1_B_Conventional_Rotary_Launcher"
+			ShapeName = "B-1B_Conventional_Rotary_Launcher"
 		}, {
 			ShapeName = "agm-154",
 			connector_name = "AttachPoint001"

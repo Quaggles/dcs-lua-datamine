@@ -170,7 +170,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	Rate = 4000,
 	Sensors = {
 		OPTIC = { "long-range naval optics", "long-range naval LLTV", "long-range naval FLIR" },
-		RADAR = { "Patriot str", "ticonderoga search radar" }
+		RADAR = { "AEGIS_search_radar", "ticonderoga search radar" }
 	},
 	Singleton = "no",
 	Tail_Width = 15,
@@ -425,7 +425,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			angles = { { 3.1415926535898, 0, -1.5707963267949, 1.5707963267949 } },
 			area = "KORMA_TOP",
 			canSetTacticalDir = true,
-			pos = { -83.594, 7.002, -4.54 }
+			pos = { -83.594, 7.002, -4.54 },
+			reference_angle_Y = 1.5707963267949
 		}, {
 			LN = { {
 					BR = { {
@@ -447,7 +448,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { { 0, -3.1415926535898, -1.5707963267949, 1.5707963267949 } },
-			pos = {}
+			pos = {},
+			reference_angle_Y = -1.5707963267949
 		}, {
 			LN = { {
 					ECM_K = 0.5,

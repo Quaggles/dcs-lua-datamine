@@ -3,6 +3,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	CustomAimPoint = { 0, 1.75, 0 },
 	DetectionRange = 0,
 	DisplayName = "APC AAV-7 Amphibious",
 	DisplayNameShort = "AAV-7A1",

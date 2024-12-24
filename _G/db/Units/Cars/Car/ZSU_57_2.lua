@@ -13,6 +13,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	Countries = { "Russia", "USSR", "Syria" },
 	Crew = 5,
+	CustomAimPoint = { 0, 1.4, 0 },
 	DetectionRange = 5000,
 	DisplayName = "SPAAA ZSU-57-2",
 	DisplayNameShort = "ZSU57",

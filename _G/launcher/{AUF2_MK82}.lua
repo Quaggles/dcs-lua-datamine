@@ -1,21 +1,22 @@
 _G["launcher"]["{AUF2_MK82}"] = {
 	CLSID = "{AUF2_MK82}",
 	Count = 2,
-	Cx_pil = 0.001,
+	Cx_pil = 0.00196,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "AUF2_RACK"
 		}, {
-			ShapeName = "MK-82",
+			ShapeName = "Mk-82",
 			connector_name = "AUF2_1"
 		}, {
-			ShapeName = "MK-82",
+			ShapeName = "Mk-82",
 			connector_name = "AUF2_2"
 		} },
 	Picture = "mk82.png",
-	Weight = 531,
-	_file = "./CoreMods/aircraft/Mirage-F1/Weapons.lua",
-	_origin = "Mirage F1 Assets by Aerges",
+	Weight = 536,
+	Weight_Empty = 80,
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
+	_origin = "AircraftWeaponPack",
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "AUF 2 - 2 x Mk-82 - 500lb GP Bomb LD",
@@ -479,5 +480,6 @@ _G["launcher"]["{AUF2_MK82}"] = {
 			xCtrl = 200,
 			xLbl = 10
 		} },
-	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
+	shape_table_data = {},
+	wsTypeOfWeapon = "weapons.bombs.Mk_82"
 }

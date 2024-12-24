@@ -1,7 +1,7 @@
 _G["launcher"]["B-1B_Mk-84*8"] = {
 	CLSID = "B-1B_Mk-84*8",
 	Count = 8,
-	Elements = { "_G/Pylons/B_1_B_Conventional_Rotary_Launcher.lua", {
+	Elements = { "_G/Pylons/B-1B_Conventional_Rotary_Launcher.lua", {
 			ShapeName = "MK-84",
 			connector_name = "AttachPoint001"
 		}, {

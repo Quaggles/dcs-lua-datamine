@@ -3,6 +3,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	CustomAimPoint = { 0, 2.1, 0 },
 	DetectionRange = 25000,
 	DisplayName = 'SAM SA-15 Tor "Gauntlet"',
 	DisplayNameShort = "SA-15",
@@ -77,7 +78,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		maxTargetDetectionRange = 25000,
 		radar_rotation_type = 1,
 		radar_type = 104,
-		searchRadarFrequencies = { { 4000000000, 8000000000 } },
+		searchRadarFrequencies = { { 3000000000, 4000000000 } },
 		searchRadarMaxElevation = 0.78539816339745
 	},
 	Waypoint_Custom_Panel = true,

@@ -4,6 +4,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	Countries = { "USA" },
+	CustomAimPoint = { 0, 1.75, 0 },
 	DetectionRange = 0,
 	DisplayName = "APC MRAP MaxxPro",
 	DisplayNameShort = "MRAP",
@@ -35,9 +36,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							shell_name = {}
 						} },
 					machineGunBeltArgument = 90,
-					sensor = {},
+					sensor = {
+						Tau = 3.5,
+						deviation_error_distance_air = 0.03,
+						deviation_error_speed_sensor_air = 0.3,
+						deviation_error_stability_air = 0.05
+					},
 					sightIndicationMode = 1,
-					sightMasterMode = 1
+					sightMasterMode = 1,
+					sightMaxTanVel = 55.555555555556
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.26179938779915, 0.43633231299858 } },
 			center = "CENTER_TOWER",

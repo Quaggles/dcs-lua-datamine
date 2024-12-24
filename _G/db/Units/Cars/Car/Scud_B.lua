@@ -4,6 +4,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	Countries = { "Egypt", "Iran", "Kazakhstan", "North Korea", "Libya", "Oman", "Syria", "Vietnam", "Yemen", "Belarus", "Bulgaria", "Czech Republic", "Hungary", "Iraq", "Poland", "Romania", "Yemen", "Ukraine", "United Arab Emirates", "Yugoslavia", "USSR" },
+	CustomAimPoint = { 0, 1.5, 0 },
 	DetectionRange = 0,
 	DisplayName = "SSM SS-1C Scud-B",
 	DisplayNameShort = "Scud R-17",

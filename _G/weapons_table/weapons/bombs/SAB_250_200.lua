@@ -117,7 +117,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_250_200"] = {
 					shape_table_data = { {
 							file = "luu-2",
 							index = "Redacted",
-							username = "SAB_250_FLARE"
+							username = "SAB-250 Flare"
 						} },
 					targeting_data = {
 						char_time = 20.5
@@ -199,7 +199,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_250_200"] = {
 					shape_table_data = { {
 							file = "luu-2",
 							index = "Redacted",
-							username = "SAB_250_FLARE"
+							username = "SAB-250 Flare"
 						} },
 					targeting_data = {
 						char_time = 20.5
@@ -225,7 +225,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_250_200"] = {
 		shape_table_data = { {
 				file = "sab-100",
 				index = "Redacted",
-				username = "SAB_250_200"
+				username = "SAB-250-200"
 			} },
 		targeting_data = {
 			char_time = 24
@@ -351,7 +351,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_250_200"] = {
 					shape_table_data = { {
 							file = "luu-2",
 							index = "Redacted",
-							username = "SAB_250_FLARE"
+							username = "SAB-250 Flare"
 						} },
 					targeting_data = {
 						char_time = 20.5
@@ -433,7 +433,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_250_200"] = {
 					shape_table_data = { {
 							file = "luu-2",
 							index = "Redacted",
-							username = "SAB_250_FLARE"
+							username = "SAB-250 Flare"
 						} },
 					targeting_data = {
 						char_time = 20.5
@@ -459,7 +459,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_250_200"] = {
 		shape_table_data = { {
 				file = "sab-100",
 				index = "Redacted",
-				username = "SAB_250_200"
+				username = "SAB-250-200"
 			} },
 		targeting_data = {
 			char_time = 24

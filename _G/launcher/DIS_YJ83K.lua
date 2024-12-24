@@ -10,9 +10,9 @@ _G["launcher"]["DIS_YJ83K"] = {
 	Weight = 715,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/mils_c802ak.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
-	attribute = { 4, 4, 8, "Redacted" },
+	attribute = "weapons.missiles.YJ-83",
 	category = 2,
-	displayName = "YJ-83K",
+	displayName = "YJ83K",
 	ejectDirection = { 0, -1, 0 },
 	ejectVelocity = 2
 }

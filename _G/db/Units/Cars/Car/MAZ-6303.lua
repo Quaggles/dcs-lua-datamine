@@ -3,6 +3,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	CustomAimPoint = { 0, 1.95, 0 },
 	DetectionRange = 0,
 	DisplayName = "Truck MAZ-6303",
 	DisplayNameShort = "MAZ",

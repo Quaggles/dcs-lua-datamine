@@ -2080,7 +2080,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	country_of_origin = "USA",
 	crew_members = { {
 			can_be_playable = true,
-			canopy_arg = 38,
+			canopy_arg = 8,
 			drop_canopy_name = 0,
 			drop_parachute_name = "pilot_raf_parachute",
 			ejection_added_speed = { 0, 0, 1 },
@@ -2092,7 +2092,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			role_display_name = "Pilot"
 		}, {
 			can_be_playable = true,
-			canopy_arg = 421,
+			canopy_arg = 8,
 			drop_canopy_name = 0,
 			drop_parachute_name = "pilot_raf_parachute",
 			ejection_added_speed = { 0, 0, -1 },
@@ -2105,7 +2105,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			role_display_name = "Co-Pilot"
 		}, {
 			can_be_playable = true,
-			canopy_arg = 421,
+			canopy_arg = 8,
 			drop_canopy_name = 0,
 			drop_parachute_name = "pilot_raf_parachute",
 			ejection_added_speed = { 0, 0, -1 },
@@ -2118,7 +2118,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			role_display_name = "Engineer"
 		}, {
 			can_be_playable = true,
-			canopy_arg = 421,
+			canopy_arg = 8,
 			drop_canopy_name = 0,
 			drop_parachute_name = "pilot_raf_parachute",
 			ejection_added_speed = { 0, 0, -1 },
@@ -2131,7 +2131,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			role_display_name = "Port Gunner"
 		}, {
 			can_be_playable = true,
-			canopy_arg = 421,
+			canopy_arg = 8,
 			drop_canopy_name = 0,
 			drop_parachute_name = "pilot_raf_parachute",
 			ejection_added_speed = { 0, 0, -1 },
@@ -2144,7 +2144,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			role_display_name = "Stbd. Gunner"
 		}, {
 			can_be_playable = true,
-			canopy_arg = 421,
+			canopy_arg = 8,
 			drop_canopy_name = 0,
 			drop_parachute_name = "pilot_raf_parachute",
 			ejection_added_speed = { 0, 0, -1 },
@@ -2198,6 +2198,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			pos = { -5.555, 1.2, 1.205 },
 			smokiness_level = 0
 		} },
+	fires_pos = { { -5.958, 1.843, 0 }, { -4.883, 1.221, -1.222 }, { -4.883, 1.221, 1.222 }, { -5.958, 1.843, 0 }, { -0.277, -0.995, -1.612 }, { -0.277, -0.995, 1.612 } },
 	flight_time_maximum = 189,
 	flight_time_typical = 142,
 	fuselage_Cxa0 = 0.6,
@@ -2829,6 +2830,44 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						C = { { "PokeSound", 12005 } }
 					} },
 				Transition = { "Any", "CustomStage1" }
+			} },
+		WindscreenWiper0 = { {
+				Sequence = { {
+						C = { { "Sleep", "for", 0 } }
+					} },
+				Transition = { "Any", "Hang" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 628, "to", 0, "speed", 1, "sign", -1 } }
+					} },
+				Transition = { "Any", "Retract" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 628, "to", 1, "speed", 1, "sign", 1 } }
+					}, {
+						C = { { "Arg", 628, "to", 0, "speed", 1, "sign", -1 } }
+					}, {
+						C = { { "ValuePhase", 0 } }
+					} },
+				Transition = { "Any", "CustomStage0" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 628, "to", 1, "speed", 2, "sign", 1 } }
+					}, {
+						C = { { "Arg", 628, "to", 0, "speed", 2, "sign", -1 } }
+					}, {
+						C = { { "ValuePhase", 0 } }
+					} },
+				Transition = { "Any", "CustomStage1" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 628, "to", 1, "speed", 3, "sign", 1 } }
+					}, {
+						C = { { "Arg", 628, "to", 0, "speed", 3, "sign", -1 } }
+					}, {
+						C = { { "ValuePhase", 0 } }
+					} },
+				Transition = { "Any", "CustomStage2" }
 			} }
 	},
 	moment_of_inertia = { 46000, 259000, 274000 },

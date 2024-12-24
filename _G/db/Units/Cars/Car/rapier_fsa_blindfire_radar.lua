@@ -46,7 +46,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		},
 		maxTargetDetectionRange = 30000,
 		radar_type = 104,
-		searchRadarFrequencies = { { 10000000000, 20000000000 } }
+		searchRadarFrequencies = { { 3000000000, 4000000000 } }
 	},
 	Waypoint_Custom_Panel = true,
 	_file = "./CoreMods/tech/TechWeaponPack/Database/db_units_cars.lua",

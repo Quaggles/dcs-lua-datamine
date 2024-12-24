@@ -5,6 +5,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	Countries = { "USSR" },
 	Crew = 0,
+	CustomAimPoint = { 0, 1.95, 0 },
 	DetectionRange = 0,
 	DisplayName = 'SAM SA-10 S-300 "Grumble" TEL C',
 	DisplayNameShort = "SA-10LN",

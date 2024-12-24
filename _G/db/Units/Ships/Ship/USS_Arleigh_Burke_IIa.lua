@@ -149,7 +149,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	Rate = 3000,
 	Sensors = {
 		OPTIC = { "long-range naval optics", "long-range naval LLTV", "long-range naval FLIR" },
-		RADAR = { "Patriot str", "ticonderoga search radar" }
+		RADAR = { "AEGIS_search_radar", "ticonderoga search radar" }
 	},
 	Singleton = "no",
 	Tail_Width = 15,

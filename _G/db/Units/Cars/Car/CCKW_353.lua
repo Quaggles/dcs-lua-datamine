@@ -12,6 +12,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	Countries = { "Australia", "Belgium", "Canada", "Czech Republic", "France", "Italia", "Poland", "The Netherlands", "UK", "USA", "USSR", "Yugoslavia" },
+	CustomAimPoint = { 0, 1.3, 0 },
 	DetectionRange = 0,
 	DisplayName = 'Truck GMC "Jimmy" 6x6',
 	DisplayNameShort = "CCKW335",

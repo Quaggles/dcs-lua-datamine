@@ -1,5 +1,6 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Countries = { "Russia", "USSR" },
+	CustomAimPoint = { 0, 2, 0 },
 	DetectionRange = 0,
 	DisplayName = "Diesel Power Station 5I57A",
 	DisplayNameShort = "DPS",

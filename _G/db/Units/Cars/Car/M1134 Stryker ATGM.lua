@@ -3,6 +3,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	CustomAimPoint = { 0, 1.35, 0 },
 	DetectionRange = 0,
 	DisplayName = "ATGM Stryker",
 	DisplayNameShort = "M1134",

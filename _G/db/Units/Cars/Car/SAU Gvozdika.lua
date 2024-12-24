@@ -3,6 +3,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	CustomAimPoint = { 0, 1.1, 0 },
 	DetectionRange = 0,
 	DisplayName = "SPH 2S1 Gvozdika 122mm",
 	DisplayNameShort = "2S1",

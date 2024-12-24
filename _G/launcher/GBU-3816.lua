@@ -3,7 +3,7 @@ _G["launcher"]["GBU-38*16"] = {
 	Count = 28,
 	Elements = { {
 			IsAdapter = true,
-			ShapeName = "B_1_B_28-store_Conventional_Bomb_Module"
+			ShapeName = "B-1B_28-store_Conventional_Bomb_Module"
 		}, {
 			ShapeName = "GBU-38",
 			connector_name = "AttachPoint012"

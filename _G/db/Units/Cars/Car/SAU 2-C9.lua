@@ -3,6 +3,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	CustomAimPoint = { 0, 1.17, 0 },
 	DetectionRange = 0,
 	DisplayName = "SPM 2S9 Nona 120mm M",
 	DisplayNameShort = "2S9",

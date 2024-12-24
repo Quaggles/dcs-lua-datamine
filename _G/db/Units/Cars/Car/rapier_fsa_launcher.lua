@@ -93,6 +93,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		maxTargetDetectionRange = 30000,
 		radar_rotation_type = 0,
 		radar_type = 104,
+		searchRadarFrequencies = { { 1000000000, 4000000000 } },
 		searchRadarMaxElevation = 0.34906585039887
 	},
 	Waypoint_Custom_Panel = true,

@@ -1,7 +1,8 @@
 _G["weapons_table"]["weapons"]["missiles"]["Mistral"] = {
 	Reflection = 0.0182,
-	_file = "./CoreMods/aircraft/SA342/SA342_Weapons.lua",
-	_origin = "SA342 AI by Polychop-Simulations",
+	_file = "./CoreMods/tech/TechWeaponPack/Database/Weapons/manpads_missiles.lua",
+	_origin = "TechWeaponPack",
+	_unique_resource_name = "weapons.missiles.Mistral",
 	caliber = 0.09,
 	client = {
 		Cx_pil = 1,
@@ -31,8 +32,8 @@ _G["weapons_table"]["weapons"]["missiles"]["Mistral"] = {
 		X_back = 0,
 		Y_back = 0,
 		Z_back = 0,
-		_file = "./CoreMods/aircraft/SA342/SA342_Weapons.lua",
-		_origin = "SA342 AI by Polychop-Simulations",
+		_file = "./CoreMods/tech/TechWeaponPack/Database/Weapons/manpads_missiles.lua",
+		_origin = "TechWeaponPack",
 		autopilot = {
 			K = 5,
 			Kg = 0.1,
@@ -91,9 +92,11 @@ _G["weapons_table"]["weapons"]["missiles"]["Mistral"] = {
 			mass = 18.7,
 			maxAoa = 0.27925268031909
 		},
-		fuze_proximity = {
-			ignore_inp_armed = 1,
-			radius = 2
+		fuze = {
+			default_arm_delays = { 0.8 },
+			default_proximity_radius = 2,
+			default_self_destruct_delay = 14,
+			is_proxy_tdd_always_enabled = true
 		},
 		march = {
 			boost_factor = 0,
@@ -137,7 +140,6 @@ _G["weapons_table"]["weapons"]["missiles"]["Mistral"] = {
 		sigma = { 10, 10, 10 },
 		simple_IR_seeker = {
 			FOV = 0.069813170079773,
-			GimbLim = 0.66322511575785,
 			ccm_k0 = 0.5,
 			cooled = true,
 			delay = 0,
@@ -147,6 +149,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Mistral"] = {
 			target_H_min = 0
 		},
 		simple_gyrostab_seeker = {
+			gimbal_lim = 0.66322511575785,
 			omega_max = 0.34906585039887
 		},
 		t_acc = 0,
@@ -169,17 +172,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Mistral"] = {
 			piercing_mass = 0.6
 		},
 		warhead_air = {
-			caliber = 93,
-			concrete_factors = { 1, 1, 1 },
-			concrete_obj_factor = 0,
-			cumulative_factor = 0,
-			cumulative_thickness = 0,
-			expl_mass = 3,
-			fantom = 1,
-			mass = 3,
-			obj_factors = { 1, 1 },
-			other_factors = { 1, 1, 1 },
-			piercing_mass = 0.6
+			fantom = 1
 		},
 		wsTypeOfWeapon = { 4, 4, 34, "Redacted" }
 	},
@@ -216,8 +209,8 @@ _G["weapons_table"]["weapons"]["missiles"]["Mistral"] = {
 		X_back = 0,
 		Y_back = 0,
 		Z_back = 0,
-		_file = "./CoreMods/aircraft/SA342/SA342_Weapons.lua",
-		_origin = "SA342 AI by Polychop-Simulations",
+		_file = "./CoreMods/tech/TechWeaponPack/Database/Weapons/manpads_missiles.lua",
+		_origin = "TechWeaponPack",
 		autopilot = {
 			K = 5,
 			Kg = 0.1,
@@ -276,9 +269,11 @@ _G["weapons_table"]["weapons"]["missiles"]["Mistral"] = {
 			mass = 18.7,
 			maxAoa = 0.27925268031909
 		},
-		fuze_proximity = {
-			ignore_inp_armed = 1,
-			radius = 2
+		fuze = {
+			default_arm_delays = { 0.8 },
+			default_proximity_radius = 2,
+			default_self_destruct_delay = 14,
+			is_proxy_tdd_always_enabled = true
 		},
 		march = {
 			boost_factor = 0,
@@ -322,7 +317,6 @@ _G["weapons_table"]["weapons"]["missiles"]["Mistral"] = {
 		sigma = { 10, 10, 10 },
 		simple_IR_seeker = {
 			FOV = 0.069813170079773,
-			GimbLim = 0.66322511575785,
 			ccm_k0 = 0.5,
 			cooled = true,
 			delay = 0,
@@ -332,6 +326,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Mistral"] = {
 			target_H_min = 0
 		},
 		simple_gyrostab_seeker = {
+			gimbal_lim = 0.66322511575785,
 			omega_max = 0.34906585039887
 		},
 		t_acc = 0,
@@ -354,17 +349,7 @@ _G["weapons_table"]["weapons"]["missiles"]["Mistral"] = {
 			piercing_mass = 0.6
 		},
 		warhead_air = {
-			caliber = 93,
-			concrete_factors = { 1, 1, 1 },
-			concrete_obj_factor = 0,
-			cumulative_factor = 0,
-			cumulative_thickness = 0,
-			expl_mass = 3,
-			fantom = 0,
-			mass = 3,
-			obj_factors = { 1, 1 },
-			other_factors = { 1, 1, 1 },
-			piercing_mass = 0.6
+			fantom = 0
 		},
 		wsTypeOfWeapon = { 4, 4, 34, "Redacted" }
 	},

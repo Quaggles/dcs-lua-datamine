@@ -1,11 +1,8 @@
 _G["launcher"]["{AUF2_GBU12}"] = {
 	CLSID = "{AUF2_GBU12}",
 	Count = 2,
-	Cx_pil = 0.001,
-	Elements = { {
-			IsAdapter = true,
-			ShapeName = "AUF2_RACK"
-		}, {
+	Cx_pil = 0.00123,
+	Elements = { "_G/Pylons/AUF2_RACK.lua", {
 			ShapeName = "GBU-12",
 			connector_name = "AUF2_1"
 		}, {
@@ -13,9 +10,10 @@ _G["launcher"]["{AUF2_GBU12}"] = {
 			connector_name = "AUF2_2"
 		} },
 	Picture = "GBU12.png",
-	Weight = 629,
-	_file = "./CoreMods/aircraft/Mirage-F1/Weapons.lua",
-	_origin = "Mirage F1 Assets by Aerges",
+	Weight = 634,
+	Weight_Empty = 80,
+	_file = "./CoreMods/aircraft/AircraftWeaponPack/paveway.lua",
+	_origin = "AircraftWeaponPack",
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "AUF 2 - 2 x GBU-12 - 500lb Laser Guided Bomb",
@@ -309,5 +307,6 @@ _G["launcher"]["{AUF2_GBU12}"] = {
 			xCtrl = 200,
 			xLbl = 10
 		} },
-	wsTypeOfWeapon = { 4, 5, 36, "Redacted" }
+	shape_table_data = {},
+	wsTypeOfWeapon = "weapons.bombs.GBU_12"
 }

@@ -4,6 +4,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	Countries = { "Turkey" },
+	CustomAimPoint = { 0, 1.45, 0 },
 	DM = { {
 			area_name = "FRONT_01",
 			armour = {

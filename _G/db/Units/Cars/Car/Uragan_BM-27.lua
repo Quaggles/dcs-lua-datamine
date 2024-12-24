@@ -3,6 +3,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	CustomAimPoint = { 0, 1.5, 0 },
 	DetectionRange = 0,
 	DisplayName = "MLRS 9K57 Uragan BM-27 220mm",
 	DisplayNameShort = "BM-27",

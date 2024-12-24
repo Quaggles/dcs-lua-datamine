@@ -725,39 +725,39 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			[2] = {
 				lights = { {
 						lights = { {
-								angle_max = 0.69813170079773,
-								angle_min = 0.31415926535898,
-								argument = 208,
-								connector = "RESERV_SPOT_PTR_1",
+								angle_max = 0.62831853071796,
+								angle_min = 0.36651914291881,
+								argument = 211,
+								connector = "MAIN_SPOT_PTR_1",
 								dir_correction = {
-									azimuth = 0.13962634015955,
-									elevation = -0.38397243543875
+									azimuth = 0,
+									elevation = 0.05235987755983
 								},
 								exposure = { { 0, 0.9, 1 } },
 								movable = true,
 								proto = <2>{
-									angle_change_rate = 0.05235987755983,
-									angle_max = 0.20943951023932,
-									angle_min = 0.13962634015955,
-									color = { 255, 201, 125, 0.40347331922021 },
-									power_up_t = 3.22,
-									range = 6480
+									angle_change_rate = 0.043633231299858,
+									angle_max = 0.17453292519943,
+									angle_min = 0.10471975511966,
+									color = { 255, 201, 125, 0.19370562748477 },
+									power_up_t = 0.6,
+									range = 2400
 								},
-								range = 4000,
+								range = 5000,
 								typename = "Spot"
 							}, {
-								angle_max = 0.78539816339745,
-								angle_min = 0.20943951023932,
-								argument = 209,
-								connector = "RESERV_SPOT_PTR_2",
+								angle_max = 0.62831853071796,
+								angle_min = 0.36651914291881,
+								argument = 211,
+								connector = "MAIN_SPOT_PTR_4",
 								dir_correction = {
-									azimuth = -0.1221730476396,
-									elevation = -0.24434609527921
+									azimuth = 0,
+									elevation = 0.034906585039887
 								},
 								exposure = { { 0, 0.9, 1 } },
 								movable = true,
 								proto = <table 2>,
-								range = 2500,
+								range = 5000,
 								typename = "Spot"
 							} },
 						typename = "Collection"
@@ -840,65 +840,67 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			[6] = {
 				lights = { {
 						lights = { {
-								angle_max = 0.62831853071796,
-								angle_min = 0.36651914291881,
-								argument = 211,
-								connector = "MAIN_SPOT_PTR_1",
+								angle_max = 0.69813170079773,
+								angle_min = 0.31415926535898,
+								argument = 208,
+								connector = "RESERV_SPOT_PTR_1",
 								dir_correction = {
-									azimuth = 0,
-									elevation = 0.069813170079773
+									azimuth = 0.05235987755983,
+									elevation = -0.10471975511966
 								},
 								exposure = { { 0, 0.9, 1 } },
 								movable = true,
 								proto = <4>{
-									angle_change_rate = 0.043633231299858,
-									angle_max = 0.17453292519943,
-									angle_min = 0.10471975511966,
-									color = { 255, 201, 125, 0.19370562748477 },
-									power_up_t = 0.6,
-									range = 2400
+									angle_change_rate = 0.05235987755983,
+									angle_max = 0.20943951023932,
+									angle_min = 0.13962634015955,
+									color = { 255, 201, 125, 0.40347331922021 },
+									power_up_t = 3.22,
+									range = 6480
 								},
+								range = 900,
+								typename = "Spot"
+							}, {
+								angle_max = 0.78539816339745,
+								angle_min = 0.20943951023932,
+								argument = 209,
+								connector = "RESERV_SPOT_PTR_2",
+								dir_correction = {
+									azimuth = -0.05235987755983,
+									elevation = -0.1221730476396
+								},
+								exposure = { { 0, 0.9, 1 } },
+								movable = true,
+								proto = <table 4>,
+								range = 900,
 								typename = "Spot"
 							}, {
 								angle_max = 1.4311699866354,
 								angle_min = 0.75049157835756,
-								argument = 211,
+								argument = 208,
 								connector = "MAIN_SPOT_PTR_2",
 								dir_correction = {
 									azimuth = 0,
-									elevation = 0
+									elevation = -0.43633231299858
 								},
 								exposure = { { 0, 0.9, 1 } },
 								movable = true,
-								proto = <table 4>,
-								range = 200,
+								proto = <table 2>,
+								range = 1200,
 								typename = "Spot"
 							}, {
 								angle_max = 2.0943951023932,
 								angle_min = 1.3962634015955,
-								argument = 211,
+								argument = 208,
 								connector = "MAIN_SPOT_PTR_3",
 								dir_correction = {
 									azimuth = 0,
-									elevation = 0
+									elevation = -0.48869219055841
 								},
 								exposure = { { 0, 0.9, 1 } },
 								movable = true,
-								proto = <table 4>,
-								range = 100,
-								typename = "Spot"
-							}, {
-								angle_max = 0.62831853071796,
-								angle_min = 0.36651914291881,
-								argument = 211,
-								connector = "MAIN_SPOT_PTR_4",
-								dir_correction = {
-									azimuth = 0,
-									elevation = 0.034906585039887
-								},
-								exposure = { { 0, 0.9, 1 } },
-								movable = true,
-								proto = <table 4>,
+								proto = <table 2>,
+								range = 1500,
 								typename = "Spot"
 							} },
 						typename = "Collection"

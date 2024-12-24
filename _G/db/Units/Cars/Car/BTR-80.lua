@@ -4,6 +4,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	Countries = { "USSR" },
+	CustomAimPoint = { 0, 1.38, 0 },
 	DetectionRange = 0,
 	DisplayName = "APC BTR-80",
 	DisplayNameShort = "BTR80",
