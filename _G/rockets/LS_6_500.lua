@@ -112,7 +112,7 @@ _G["rockets"]["#Index"] = {
 		wingsDeplProcTime = 5
 	},
 	mass = 525,
-	model = "ls-6-250",
+	model = "ls-6",
 	name = "LS_6_500",
 	scheme = "JSOW_C",
 	seeker = {

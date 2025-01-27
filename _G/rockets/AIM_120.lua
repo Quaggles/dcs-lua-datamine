@@ -151,7 +151,7 @@ _G["rockets"]["#Index"] = {
 	nozzle_exit_area = 0.011,
 	proximity_fuze = {
 		arm_delay = 1.6,
-		radius = 9
+		radius = 15
 	},
 	scheme = "aa_missile_amraam2",
 	sensor = {

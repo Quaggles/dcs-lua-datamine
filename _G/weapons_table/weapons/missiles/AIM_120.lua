@@ -154,7 +154,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM_120"] = {
 		nozzle_exit_area = 0.011,
 		proximity_fuze = {
 			arm_delay = 1.6,
-			radius = 9
+			radius = 15
 		},
 		scheme = "schemes/missiles/aa_missile_amraam2.sch",
 		sensor = {
@@ -370,7 +370,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM_120"] = {
 		nozzle_exit_area = 0.011,
 		proximity_fuze = {
 			arm_delay = 1.6,
-			radius = 9
+			radius = 15
 		},
 		scheme = "schemes/missiles/aa_missile_amraam2.sch",
 		sensor = {

@@ -15,7 +15,7 @@ _G["db"]["Formations"]["plane"]["list"]["#Index"] = {
 					z = 30
 				}, {
 					x = -30,
-					y = -20,
+					y = -10,
 					z = 30
 				} }
 		}, {
@@ -30,7 +30,7 @@ _G["db"]["Formations"]["plane"]["list"]["#Index"] = {
 					z = 60
 				}, {
 					x = -60,
-					y = -20,
+					y = -10,
 					z = 60
 				} }
 		} },

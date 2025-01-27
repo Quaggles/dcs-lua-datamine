@@ -105,15 +105,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	shape_table_data = { {
 			classname = "lLandVehicle",
-			desrt = "MaxxProMRAP_p_1",
-			file = "MaxxPro MRAP",
+			desrt = "MaxxPro_MRAP_p_1",
+			file = "MaxxPro_MRAP",
 			life = 5,
-			name = "MaxxPro MRAP",
+			name = "MaxxPro_MRAP",
 			positioning = "BYNORMAL",
 			username = "MaxxPro_MRAP"
 		}, {
-			file = "MaxxProMRAP_p_1",
-			name = "MaxxProMRAP_p_1"
+			file = "MaxxPro_MRAP_p_1",
+			name = "MaxxPro_MRAP_p_1"
 		} },
 	snd = {
 		engine_pitch = { {}, {}, {} },
@@ -136,8 +136,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		fire_time = 300,
 		max_time_agony = 80,
 		min_time_agony = 10,
-		shape = "MaxxPro MRAP",
-		shape_dstr = "MaxxProMRAP_p_1"
+		shape = "MaxxPro_MRAP",
+		shape_dstr = "MaxxPro_MRAP_p_1"
 	},
 	windscreen_wiper = 40
 }

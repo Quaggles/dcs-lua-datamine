@@ -1070,6 +1070,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "Mi-8MT",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "AH-64D_BLK_II"
 				}, {
 					Name = "CH-47Fbl1"

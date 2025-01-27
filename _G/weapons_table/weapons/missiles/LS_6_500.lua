@@ -115,7 +115,7 @@ _G["weapons_table"]["weapons"]["missiles"]["LS_6_500"] = {
 			wingsDeplProcTime = 5
 		},
 		mass = 525,
-		model = "ls-6-250",
+		model = "ls-6",
 		name = "LS_6_500",
 		scheme = "schemes/missiles/JSOW_C.sch",
 		seeker = {
@@ -171,7 +171,7 @@ _G["weapons_table"]["weapons"]["missiles"]["LS_6_500"] = {
 	display_name = "LS-6-500",
 	display_name_short = "LS-500",
 	mass = 525,
-	model = "ls-6-250",
+	model = "ls-6",
 	name = "LS_6_500",
 	server = {
 		Cx_pil = 8,
@@ -284,7 +284,7 @@ _G["weapons_table"]["weapons"]["missiles"]["LS_6_500"] = {
 			wingsDeplProcTime = 5
 		},
 		mass = 525,
-		model = "ls-6-250",
+		model = "ls-6",
 		name = "LS_6_500",
 		scheme = "schemes/missiles/JSOW_C.sch",
 		seeker = {
