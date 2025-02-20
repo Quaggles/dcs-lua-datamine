@@ -39,7 +39,7 @@ _G["rockets"]["#Index"] = {
 	display_name = "5V28 (SA-5 Gammon)",
 	effect_max_length = 1300,
 	exhaust1 = { 0.9, 0.9, 0.9, 1 },
-	exhaust2 = { 0.9, 0.9, 0.9, 0.2 },
+	exhaust2 = { 0.63, 0.67, 0.75, 0.3 },
 	hasDetachableAccelerator_ = 1,
 	name = "SA5V28",
 	shape_table_data = { {
@@ -51,6 +51,7 @@ _G["rockets"]["#Index"] = {
 			username = "SA5V28"
 		} },
 	sigma = { 10.81, 10.81, 10.81 },
+	smoke_opacity_type = 1,
 	t_acc = -1,
 	t_b = 0,
 	t_marsh = -1,

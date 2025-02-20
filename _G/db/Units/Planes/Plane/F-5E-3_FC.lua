@@ -12,7 +12,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 3
 		}, {
 			args = { 65 },
-			critical_damage = 1
+			critical_damage = 6
 		}, {
 			args = { 298 },
 			critical_damage = 3
@@ -65,19 +65,19 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[25] = {
 			args = { 226 },
-			critical_damage = 1
+			critical_damage = 2
 		},
 		[26] = {
 			args = { 216 },
-			critical_damage = 1
+			critical_damage = 2
 		},
 		[27] = {
 			args = { 230 },
-			critical_damage = 1.5
+			critical_damage = 2
 		},
 		[28] = {
 			args = { 220 },
-			critical_damage = 1.5
+			critical_damage = 2
 		},
 		[29] = {
 			args = { 224 },
@@ -553,7 +553,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				mixes = <3>{ { 1, 1, 1, 2 }, { 2, 1, 1, 3 }, { 3 }, { 4, 5 } },
 				shells = <4>{ {
 						AP_cap_caliber = 20,
-						Da0 = 0.0022,
+						Da0 = 0.0016,
 						Da1 = 0,
 						Dv0 = 0.006,
 						_unique_resource_name = "weapons.shells.M39_20_HEI",
@@ -617,7 +617,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						visual_effect_correction_rebound = 0.1
 					}, {
 						AP_cap_caliber = 20,
-						Da0 = 0.0022,
+						Da0 = 0.0016,
 						Da1 = 0,
 						Dv0 = 0.006,
 						_unique_resource_name = "weapons.shells.M39_20_HEI_T",
@@ -681,7 +681,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						visual_effect_correction_rebound = 0.1
 					}, {
 						AP_cap_caliber = 20,
-						Da0 = 0.0022,
+						Da0 = 0.0016,
 						Da1 = 0,
 						Dv0 = 0.006,
 						_unique_resource_name = "weapons.shells.M39_20_API",
@@ -745,7 +745,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						visual_effect_correction_rebound = 0.1
 					}, {
 						AP_cap_caliber = 20,
-						Da0 = 0.0022,
+						Da0 = 0.0016,
 						Da1 = 0,
 						Dv0 = 0.006,
 						_unique_resource_name = "weapons.shells.M39_20_TP",
@@ -809,7 +809,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						visual_effect_correction_rebound = 0.1
 					}, {
 						AP_cap_caliber = 20,
-						Da0 = 0.0022,
+						Da0 = 0.0016,
 						Da1 = 0,
 						Dv0 = 0.006,
 						_unique_resource_name = "weapons.shells.M39_20_TP_T",

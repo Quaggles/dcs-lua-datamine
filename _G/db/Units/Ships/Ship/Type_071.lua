@@ -153,21 +153,35 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			LN = { {
 					BR = { {
 							connector_name = "PNT_AK176",
-							pos = {},
 							recoilArgument = 116,
 							recoilTime = 0.4
 						} },
 					PL = { {
 							shell_name = {}
 						} },
+					sensor = {},
+					sightMaxTanVel = 300
+				}, {
+					BR = { {
+							connector_name = "PNT_AK176",
+							recoilArgument = 116,
+							recoilTime = 0.4
+						} },
+					PL = { {
+							shell_name = {}
+						} },
+					customViewPoint = { "genericHowitzer", { -0.5, 0.4, 0 } },
 					sensor = {}
 				} },
-			angles = { {} },
+			angles = { { 2.7925268031909, -2.7925268031909, -0.087266462599716, 1.3962634015955 } },
+			area = "CENTER_L",
 			center = "CENTER_AK176",
 			drawArgument1 = 13,
 			drawArgument2 = 14,
-			pidY = {},
-			pidZ = {}
+			omegaY = 0.61086523819802,
+			omegaZ = 0.5235987755983,
+			reference_angle_Y = 0,
+			reference_angle_Z = 0
 		}, {
 			LN = { {
 					BR = { {

@@ -1,7 +1,8 @@
 _G["launcher"]["{HOT3_L2_M}"] = {
 	CLSID = "{HOT3_L2_M}",
 	Count = 2,
-	Cx_pil = 0.001,
+	Cx_item = 0,
+	Cx_pil = 0.002,
 	Elements = { "_G/Pylons/SA342_LAU_HOT3_2x.lua", {
 			ShapeName = "hot3",
 			connector_name = "tube_1"

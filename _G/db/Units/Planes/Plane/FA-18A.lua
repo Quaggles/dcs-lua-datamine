@@ -18,10 +18,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 2
 		},
 		[21] = {
-			critical_damage = 1.5
+			critical_damage = 2
 		},
 		[22] = {
-			critical_damage = 1.5
+			critical_damage = 2
 		},
 		[23] = {
 			critical_damage = 3,
@@ -32,10 +32,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			deps_cells = { 22, 26 }
 		},
 		[25] = {
-			critical_damage = 1
+			critical_damage = 2
 		},
 		[26] = {
-			critical_damage = 1
+			critical_damage = 2
 		},
 		[29] = {
 			critical_damage = 4,
@@ -46,10 +46,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			deps_cells = { 24, 34, 22, 26, 38 }
 		},
 		[33] = {
-			critical_damage = 1.5
+			critical_damage = 2
 		},
 		[34] = {
-			critical_damage = 1.5
+			critical_damage = 2
 		},
 		[35] = {
 			critical_damage = 5,
@@ -115,7 +115,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 4
 		},
 		[137] = {
-			critical_damage = 6
+			critical_damage = 4
 		},
 		[138] = {
 			critical_damage = 4

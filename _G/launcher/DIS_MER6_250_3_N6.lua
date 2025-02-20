@@ -1,6 +1,7 @@
 _G["launcher"]["DIS_MER6_250_3_N6"] = {
 	CLSID = "DIS_MER6_250_3_N6",
 	Count = 6,
+	Cx_item = 0.00025,
 	Cx_pil = 0.001625,
 	Elements = { "_G/Pylons/gdj-iv1.lua", {
 			ShapeName = "250-3",

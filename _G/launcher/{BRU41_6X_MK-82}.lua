@@ -1,7 +1,8 @@
 _G["launcher"]["{BRU41_6X_MK-82}"] = {
 	CLSID = "{BRU41_6X_MK-82}",
 	Count = 6,
-	Cx_pil = 0.00025,
+	Cx_item = 0.000125,
+	Cx_pil = 0.00275,
 	Elements = { "_G/Pylons/BRU_41A.lua", {
 			ShapeName = "MK-82",
 			connector_name = "Point02"

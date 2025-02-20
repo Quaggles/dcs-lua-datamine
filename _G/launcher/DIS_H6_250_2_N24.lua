@@ -1,7 +1,8 @@
 _G["launcher"]["DIS_H6_250_2_N24"] = {
 	CLSID = "DIS_H6_250_2_N24",
 	Count = 24,
-	Cx_pil = 0.0240759,
+	Cx_item = 0,
+	Cx_pil = 0,
 	Elements = { {
 			Position = { 2.2, 0.64, -0.5 },
 			ShapeName = "250-2"

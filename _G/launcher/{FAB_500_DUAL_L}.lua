@@ -1,7 +1,8 @@
 _G["launcher"]["{FAB_500_DUAL_L}"] = {
 	CLSID = "{FAB_500_DUAL_L}",
 	Count = 2,
-	Cx_pil = 0.0004,
+	Cx_item = 0.00133,
+	Cx_pil = 0.004,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "J-11A_twinpylon_l"

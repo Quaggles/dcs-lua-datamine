@@ -38,7 +38,7 @@ _G["rockets"]["#Index"] = {
 	t_b = 0,
 	t_marsh = 600,
 	v_mid = 300,
-	v_min = 170,
+	v_min = 120,
 	warhead = "_G/warheads/X_35.lua",
 	ws_type = { 4, 4, 8, "Redacted" }
 }

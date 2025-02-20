@@ -53,6 +53,18 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			},
 			area_life = 800,
 			area_name = "KORMA_L"
+		}, {
+			area_arg = -1,
+			area_life = 40,
+			area_name = "MAIN_GUN"
+		}, {
+			area_arg = -1,
+			area_life = 40,
+			area_name = "CIWS_F"
+		}, {
+			area_arg = -1,
+			area_life = 40,
+			area_name = "CIWS_B"
 		} },
 	DeckLevel = 3.795,
 	DetectionRange = 160000,
@@ -72,7 +84,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	Rate = 4000,
 	Sensors = {
 		OPTIC = { "long-range naval optics", "long-range naval LLTV", "long-range naval FLIR" },
-		RADAR = { "PLAN Search Radar B", "052B SAM TR" }
+		RADAR = { "PLAN Search Radar B", "052B SAM SR", "052B SAM TR" }
 	},
 	Singleton = "no",
 	Tail_Width = 11,
@@ -80,27 +92,39 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	WS = { {
 			LN = { {
 					BR = { {
-							connector_name = "POINT_AK76_1_1",
-							pos = {},
-							recoilTime = 0.667
+							connector_name = "POINT_AK76_1_1"
 						} },
 					PL = { {
 							shell_name = {}
 						} },
+					sensor = {},
+					sightMaxTanVel = 300
+				}, {
+					BR = { {
+							connector_name = "POINT_AK76_1_1"
+						} },
+					PL = { {
+							shell_name = {}
+						} },
+					customViewPoint = { "genericHowitzer", { -0.5, 0.4, 0 } },
 					sensor = {}
 				} },
-			angles = { {} },
-			area = "NOSE_R",
+			angles = { { 2.7925268031909, -2.7925268031909, -0.087266462599716, 1.3962634015955 } },
+			area = "MAIN_GUN",
 			center = "TARGET_AK76_1",
 			drawArgument1 = 13,
-			drawArgument2 = 14
+			drawArgument2 = 14,
+			omegaY = 0.61086523819802,
+			omegaZ = 0.5235987755983,
+			reference_angle_Y = 0,
+			reference_angle_Z = 0
 		}, {
 			LN = { {
 					ECM_K = 0.45,
 					beamWidth = 1.5707963267949,
 					distanceMax = 160000,
 					distanceMin = 1000,
-					max_number_of_missiles_channels = 2,
+					max_number_of_missiles_channels = 1,
 					max_trg_alt = 30000,
 					min_trg_alt = 5,
 					reactionTime = 2,
@@ -737,83 +761,102 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_CIWS_L",
-							pos = {}
+							recoilArgument = 120,
+							recoilTime = 0.1
 						} },
 					PL = { {
 							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
 						} },
+					createMuzzleFlashEffect = false,
+					customViewPoint = { "genericAAA", { 0.5, 0.5, 0 } },
 					sensor = {}
 				} },
-			angles = { { 2.6179938779915, 0.5235987755983, -0.43633231299858, 1.5184364492351 } },
-			angles_mech = { {} },
-			area = "BORT_L",
+			angles = { { 2.6179938779915, 0.5235987755983, -0.43633231299858, 1.4835298641952 } },
+			area = "CIWS_F",
 			center = "CENTER_CIWS_L001",
 			drawArgument1 = 19,
 			drawArgument2 = 20,
-			pidY = {},
-			pidZ = {},
-			reference_angle_Y = 1.5707963267949
+			omegaY = 2.2689280275926,
+			omegaZ = 2.6179938779915,
+			pidY = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pidZ = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			reference_angle_Y = 1.5707963267949,
+			reference_angle_Z = 0
 		}, {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_CIWS_R",
-							pos = {}
+							recoilArgument = 119,
+							recoilTime = 0.1
 						} },
 					PL = { {
 							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
 						} },
+					createMuzzleFlashEffect = true,
+					customViewPoint = { "genericAAA", { 0.5, 0.5, 0 } },
 					sensor = {}
 				} },
-			angles = { { -0.5235987755983, -2.6179938779915, -0.43633231299858, 1.5184364492351 } },
-			angles_mech = { {} },
-			area = "BORT_R",
+			angles = { { -0.5235987755983, -2.6179938779915, -0.43633231299858, 1.4835298641952 } },
+			area = "CIWS_B",
 			center = "CENTER_CIWS_R001",
 			drawArgument1 = 17,
 			drawArgument2 = 18,
-			pidY = {},
-			pidZ = {},
-			reference_angle_Y = -1.5707963267949
+			omegaY = 2.2689280275926,
+			omegaZ = 2.6179938779915,
+			pidY = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pidZ = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			reference_angle_Y = -1.5707963267949,
+			reference_angle_Z = 0
 		}, {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_YJ83_1_1",
-							pos = {}
+							recoilArgument = 181,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
+						}, {
+							connector_name = "POINT_YJ83_1_2",
+							recoilArgument = 182,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
+						}, {
+							connector_name = "POINT_YJ83_1_3",
+							recoilArgument = 183,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
+						}, {
+							connector_name = "POINT_YJ83_1_4",
+							recoilArgument = 184,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
 						} },
 					PL = { {
 							type_ammunition = {}
@@ -821,125 +864,40 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { {} },
-			animation_alarm_state = {
-				arg = 181,
-				time = 1.5
-			},
 			area = "BORT_L",
+			board = 3,
+			canSetTacticalDir = true,
 			center = "POINT_YJ83_1_1"
 		}, {
 			LN = { {
 					BR = { {
-							connector_name = "POINT_YJ83_1_2",
-							pos = {}
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					sensor = {}
-				} },
-			angles = { {} },
-			animation_alarm_state = {
-				arg = 182,
-				time = 1.5
-			},
-			area = "BORT_L",
-			center = "POINT_YJ83_1_2"
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "POINT_YJ83_1_3",
-							pos = {}
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					sensor = {}
-				} },
-			angles = { {} },
-			animation_alarm_state = {
-				arg = 183,
-				time = 1.5
-			},
-			area = "BORT_L",
-			center = "POINT_YJ83_1_3"
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "POINT_YJ83_1_4",
-							pos = {}
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					sensor = {}
-				} },
-			angles = { {} },
-			animation_alarm_state = {
-				arg = 184,
-				time = 1.5
-			},
-			area = "BORT_L",
-			center = "POINT_YJ83_1_4"
-		}, {
-			LN = { {
-					BR = { {
 							connector_name = "POINT_YJ83_2_1",
-							pos = {}
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					sensor = {}
-				} },
-			angles = { {} },
-			animation_alarm_state = {
-				arg = 177,
-				time = 1.5
-			},
-			area = "BORT_R",
-			center = "POINT_YJ83_2_1"
-		}, {
-			LN = { {
-					BR = { {
+							recoilArgument = 177,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
+						}, {
 							connector_name = "POINT_YJ83_2_2",
-							pos = {}
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					sensor = {}
-				} },
-			angles = { {} },
-			animation_alarm_state = {
-				arg = 178,
-				time = 1.5
-			},
-			area = "BORT_R",
-			center = "POINT_YJ83_2_2"
-		}, {
-			LN = { {
-					BR = { {
+							recoilArgument = 178,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
+						}, {
 							connector_name = "POINT_YJ83_2_3",
-							pos = {}
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					sensor = {}
-				} },
-			angles = { {} },
-			animation_alarm_state = {
-				arg = 179,
-				time = 1.5
-			},
-			area = "BORT_R",
-			center = "POINT_YJ83_2_3"
-		}, {
-			LN = { {
-					BR = { {
+							recoilArgument = 179,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
+						}, {
 							connector_name = "POINT_YJ83_2_4",
-							pos = {}
+							recoilArgument = 180,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
 						} },
 					PL = { {
 							type_ammunition = {}
@@ -947,12 +905,10 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { {} },
-			animation_alarm_state = {
-				arg = 180,
-				time = 1.5
-			},
 			area = "BORT_R",
-			center = "POINT_YJ83_2_4"
+			board = 4,
+			canSetTacticalDir = true,
+			center = "POINT_YJ83_2_1"
 		},
 		maxTargetDetectionRange = 450000,
 		radar_type = 102,
@@ -983,13 +939,13 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 3, 12, 13, "Redacted", "Frigates", "RADAR_BAND1_FOR_ARM", "RADAR_BAND2_FOR_ARM", "DetectionByAWACS", "Armed Ship", "HelicopterCarrier", "Naval", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
+	attribute = { 3, 12, 14, "Redacted", "Frigates", "RADAR_BAND1_FOR_ARM", "RADAR_BAND2_FOR_ARM", "DetectionByAWACS", "Straight_in_approach_type", "Armed Ship", "HelicopterCarrier", "Naval", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
 	chassis = {},
 	distFindObstacles = 568.4,
 	draft = 15,
 	economy_distance = 6437000,
 	economy_velocity = 9.62,
-	enablePlayerCanDrive = false,
+	enablePlayerCanDrive = true,
 	encyclopediaAnimation = {
 		args = {
 			[14] = 0.1,
@@ -1022,7 +978,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	snd = {},
 	speedup = 0.229734,
 	swapped_names = true,
-	tags = { "Destroyer" },
+	tags = { "Frigate" },
 	type = "Type_054A",
 	visual = {
 		shape = "054a",

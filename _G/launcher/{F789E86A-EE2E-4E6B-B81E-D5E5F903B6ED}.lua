@@ -1,6 +1,7 @@
 _G["launcher"]["{F789E86A-EE2E-4E6B-B81E-D5E5F903B6ED}"] = {
 	CLSID = "{F789E86A-EE2E-4E6B-B81E-D5E5F903B6ED}",
 	Count = 8,
+	Cx_item = 0,
 	Cx_pil = 0.001,
 	Elements = { {
 			ShapeName = "9M120"

@@ -36,6 +36,7 @@ _G["rockets"]["#Index"] = {
 	add_attributes = { "Cruise missiles", "Anti-Ship missiles", "Air" },
 	display_name = "AGM-84E",
 	display_name_short = "AGM-84",
+	manualWeaponFlag = 7,
 	name = "AGM_84E",
 	sigma = { 8, 8, 8 },
 	t_acc = 5,

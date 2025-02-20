@@ -1,6 +1,8 @@
 _G["launcher"]["{AABA1A14-78A1-4E85-94DD-463CF75BD9E4}"] = {
 	CLSID = "{AABA1A14-78A1-4E85-94DD-463CF75BD9E4}",
 	Count = 4,
+	Cx_item = 0,
+	Cx_pil = 0,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "B-1B_Conventional_Rotary_Launcher"

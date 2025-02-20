@@ -1,6 +1,7 @@
 _G["launcher"]["DIS_RKT_90_UG"] = {
 	CLSID = "DIS_RKT_90_UG",
 	Count = 16,
+	Cx_item = 0,
 	Cx_pil = 0.002,
 	Elements = { {
 			IsAdapter = true,

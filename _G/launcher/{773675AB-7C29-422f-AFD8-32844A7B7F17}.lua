@@ -1,7 +1,8 @@
 _G["launcher"]["{773675AB-7C29-422f-AFD8-32844A7B7F17}"] = {
 	CLSID = "{773675AB-7C29-422f-AFD8-32844A7B7F17}",
 	Count = 2,
-	Cx_pil = 0.00014,
+	Cx_item = 0.00025146484375,
+	Cx_pil = 0.0007029296875,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "F4-PILON"

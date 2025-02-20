@@ -4,35 +4,87 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	Countries = { "China", "Pakistan", "Algeria" },
-	DetectionRange = 8000,
-	DisplayName = "HQ-7 Self-Propelled LN",
-	DisplayNameShort = "HQ7-LN",
+	DetectionRange = 20000,
+	DisplayName = "HQ-7B SHORAD TELAR",
+	DisplayNameShort = "HQ-7B TELAR",
 	IR_emission_coeff = 0.08,
 	MaxSpeed = 79.2,
-	Name = "HQ-7 Self-Propelled LN",
+	Name = "HQ-7B SHORAD TELAR",
 	Rate = 20,
 	Sensors = {
-		OPTIC = { "generic SAM search visir", "generic SAM IR search visir" },
+		OPTIC = { "HQ-7B Optic Sight", "HQ-7B search visir" },
 		RADAR = "HQ-7 TR"
 	},
-	ThreatRange = 12000,
+	ThreatRange = 15000,
 	WS = { {
 			LN = { {
-					BR = { {}, {}, {}, {} },
+					ECM_K = 0.3,
+					beamWidth = 1.5707963267949,
+					distanceMax = 20000,
+					distanceMin = 200,
+					max_number_of_missiles_channels = 1,
+					max_trg_alt = 5500,
+					min_trg_alt = 10,
+					reactionTime = 3,
+					reflection_limit = 0.04,
+					type = 102
+				} },
+			angles = { { 3.1415926535898, -3.1415926535898, -0.5235987755983, 1.4835298641952 } },
+			drawArgument1 = 0,
+			mount_before_move = true,
+			omegaY = 1.3962634015955,
+			omegaZ = 1.3962634015955,
+			pidY = {
+				d = 10,
+				i = 1,
+				inn = 10,
+				p = 80
+			},
+			pos = { 0, 0, 0 },
+			reference_angle_Y = 3.1415926535898
+		}, {
+			LN = { {
+					ECM_K = 0.3,
+					beamWidth = 1.5707963267949,
+					distanceMax = 20000,
+					distanceMin = 200,
+					max_number_of_missiles_channels = 1,
+					max_trg_alt = 5500,
+					min_trg_alt = 10,
+					reactionTime = 3,
+					reflection_limit = 0.04,
+					type = 102
+				} },
+			angles = { { 0.087266462599716, -0.087266462599716, -0.087266462599716, 0.087266462599716 } },
+			base = 1,
+			omegaY = 1.3962634015955,
+			omegaZ = 1.3962634015955,
+			pos = { 0, 0, 0 }
+		}, {
+			LN = { {
+					BR = { {
+							connector_name = "POINT_SAM_01",
+							drawArgument = 18
+						}, {
+							connector_name = "POINT_SAM_02",
+							drawArgument = 19
+						}, {
+							connector_name = "POINT_SAM_03",
+							drawArgument = 27
+						}, {
+							connector_name = "POINT_SAM_04",
+							drawArgument = 28
+						} },
 					PL = { {
 							type_ammunition = {}
 						} },
-					beamWidth = 0.087266462599716,
-					frequencyRange = { 10000000000, 20000000000 },
-					inclination_correction_bias = 0.05235987755983,
-					inclination_correction_upper_limit = 0.34906585039887,
+					depends_on_unit = { { { "self", 1 } }, { { "self", 2 } }, { { "HQ-7_STR_SP" } } },
+					min_launch_angle = 0.087266462599716,
 					sensor = {}
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 1.0471975511966 } },
-			center = "CENTER_TOWER",
-			drawArgument1 = 0,
+			angles = { { 3.1415926535898, -3.1415926535898, -0.26179938779915, 1.221730476396 } },
 			drawArgument2 = 1,
-			isoviewOffset = { 0, 3.5, 0 },
+			mount_before_move = true,
 			omegaY = 1.3962634015955,
 			omegaZ = 1.3962634015955,
 			pidY = {
@@ -47,14 +99,14 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				inn = 10,
 				p = 80
 			},
-			pointer = "POINT_SIGHT_01",
-			stabilizer = true,
-			type = 5
+			pos = { 0, 0, 0 },
+			reference_angle_Z = 0
 		},
 		fire_on_march = false,
-		maxTargetDetectionRange = 8000,
-		radar_type = 104,
-		searchRadarMaxElevation = 0.78539816339745
+		maxTargetDetectionRange = 20000,
+		radar_type = 103,
+		searchRadarFrequencies = { { 50000000, 54000000 }, { 2000000000, 2200000000 } },
+		searchRadarMaxElevation = 1.4835298641952
 	},
 	Waypoint_Custom_Panel = true,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Tech/hq7_ln.lua",
@@ -76,7 +128,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 16, 102, "Redacted", "AA_missile", "SR SAM", "SAM TR", "SAM LL", "RADAR_BAND1_FOR_ARM", "RADAR_BAND2_FOR_ARM", "All", "Ground Units", "Vehicles", "Ground vehicles", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air Defence", "SAM related", "SAM elements", "Armed Air Defence" },
 	category = "Air Defence",
 	chassis = {},
-	enablePlayerCanDrive = false,
+	driverCockpit = "DriverCockpit/DriverCockpitWithIRandLLTV",
+	driverViewConnectorName = { "DRIVER_POINT",
+		offset = { 0, 0, 0 }
+	},
+	enablePlayerCanDrive = true,
 	encyclopediaAnimation = {
 		args = { 0.3,
 			[3] = 1,
@@ -91,7 +147,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	sensor = {
 		height = 3.675,
 		max_alt_finding_target = 5500,
-		max_range_finding_target = 8000,
+		max_range_finding_target = 20000,
 		min_alt_finding_target = 10,
 		min_range_finding_target = 200
 	},
@@ -116,7 +172,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	swapped_names = true,
 	swing_on_run = true,
-	tags = { "Air Defence", "SAM SHORAD" },
+	tags = { "Air Defence", "SAM TELAR" },
 	type = "HQ-7_LN_SP",
 	visual = {
 		IR = {

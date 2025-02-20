@@ -1,6 +1,7 @@
 _G["launcher"]["DIS_MK_20_DUAL_GDJ_II19_R"] = {
 	CLSID = "DIS_MK_20_DUAL_GDJ_II19_R",
 	Count = 2,
+	Cx_item = 0.000413,
 	Cx_pil = 0.002046,
 	Elements = { {
 			IsAdapter = true,
@@ -22,6 +23,7 @@ _G["launcher"]["DIS_MK_20_DUAL_GDJ_II19_R"] = {
 	displayName = "GDJ-II19 - 2 x Mk-20",
 	ejectDirection = { 0, -1, 0 },
 	ejectVelocity = 1.8,
+	name = "DIS_MK_20_DUAL_GDJ_II19_R",
 	settings = { {
 			baseDim = "",
 			control = "comboList",

@@ -1,7 +1,7 @@
 _G["launcher"]["{3858707D-F5D5-4bbb-BDD8-ABB0530EBC7C}"] = {
 	CLSID = "{3858707D-F5D5-4bbb-BDD8-ABB0530EBC7C}",
 	Count = 1,
-	Cx_pil = 0.001,
+	Cx_pil = 0.0015,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "APU-68"

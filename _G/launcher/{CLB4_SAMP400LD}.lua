@@ -1,7 +1,8 @@
 _G["launcher"]["{CLB4_SAMP400LD}"] = {
 	CLSID = "{CLB4_SAMP400LD}",
 	Count = 4,
-	Cx_pil = 0.00124,
+	Cx_item = 0.00062,
+	Cx_pil = 0.00292,
 	Elements = { "_G/Pylons/CLB_4.lua", {
 			Position = { -1.505, -0.054, -0.285 },
 			Rotation = <1>{ 0, 0, -1 },

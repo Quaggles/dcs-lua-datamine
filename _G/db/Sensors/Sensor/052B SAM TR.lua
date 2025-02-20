@@ -5,15 +5,15 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/sensors.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	category = 1,
-	detection_distance = { { 60000,
-			[0] = 60000
+	detection_distance = { { 74000,
+			[0] = 74000
 		},
-		[0] = { 60000,
-			[0] = 60000
+		[0] = { 74000,
+			[0] = 74000
 		}
 	},
 	lock_on_distance_coeff = 0.6,
-	max_measuring_distance = 60000,
+	max_measuring_distance = 74000,
 	scan_period = 1,
 	scan_volume = {
 		azimuth = { -180, 180 },

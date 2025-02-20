@@ -1,7 +1,7 @@
 _G["launcher"]["{BKF_PTAB2_5KO}"] = {
 	CLSID = "{BKF_PTAB2_5KO}",
 	Count = 1,
-	Cx_pil = 0,
+	Cx_pil = 0.000413,
 	Elements = { "_G/Pylons/ptab-2_5ko_block1.lua", {
 			ShapeName = "ptab-2_5ko_block2",
 			connector_name = "AttachPoint"

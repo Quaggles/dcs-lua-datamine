@@ -30,13 +30,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[11] = {
 			args = { 167 },
-			critical_damage = 10,
-			droppable = false
+			critical_damage = 10
 		},
 		[12] = {
 			args = { 169 },
-			critical_damage = 10,
-			droppable = false
+			critical_damage = 10
 		},
 		[25] = {
 			args = { 226 },

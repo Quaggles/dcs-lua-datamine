@@ -1,6 +1,7 @@
 _G["launcher"]["{A6FD14D3-6D30-4C85-88A7-8D17BEE120E2}"] = {
 	CLSID = "{A6FD14D3-6D30-4C85-88A7-8D17BEE120E2}",
 	Count = 6,
+	Cx_item = 0,
 	Cx_pil = 0.001,
 	Elements = { "_G/Pylons/9k121.lua" },
 	NatoName = "(AT-16)",

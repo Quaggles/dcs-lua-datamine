@@ -1,6 +1,7 @@
 _G["launcher"]["{AUF2_GBU12}"] = {
 	CLSID = "{AUF2_GBU12}",
 	Count = 2,
+	Cx_item = 0.000365,
 	Cx_pil = 0.00123,
 	Elements = { "_G/Pylons/AUF2_RACK.lua", {
 			ShapeName = "GBU-12",

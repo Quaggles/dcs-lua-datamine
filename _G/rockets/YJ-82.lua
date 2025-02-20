@@ -1,7 +1,7 @@
 _G["rockets"]["#Index"] = {
 	Cx_pil = 8,
-	D_max = 230000,
-	D_min = 15000,
+	D_max = 42000,
+	D_min = 5000,
 	Damage = 825,
 	Diam = 360,
 	Engine_Type = 6,
@@ -23,7 +23,7 @@ _G["rockets"]["#Index"] = {
 	Name = "Redacted",
 	Nr_max = 18,
 	OmViz_max = 99.9,
-	Range_max = 230000,
+	Range_max = 42000,
 	Reflection = 0.121,
 	Stage = 2,
 	Stage_ = 2,
@@ -109,8 +109,8 @@ _G["rockets"]["#Index"] = {
 		boost_start = 0,
 		march_start = 6
 	},
-	display_name = "YJ-84",
-	display_name_short = "YJ-84",
+	display_name = "YJ-82",
+	display_name_short = "YJ-82",
 	engine_control = {
 		K = 350,
 		Kd = 1,
@@ -188,7 +188,7 @@ _G["rockets"]["#Index"] = {
 	},
 	mass = 850,
 	model = "yj83",
-	name = "YJ-84",
+	name = "YJ-82",
 	scheme = "Harpoon",
 	seeker = {
 		FOV = 1.0471975511966,
@@ -215,8 +215,8 @@ _G["rockets"]["#Index"] = {
 			fire = { 0, 1 },
 			index = "Redacted",
 			life = 1.5,
-			name = "YJ-84",
-			username = "YJ-84"
+			name = "YJ-82",
+			username = "YJ-82"
 		} },
 	sigma = { 10, 10, 10 },
 	t_acc = 5,
@@ -235,10 +235,10 @@ _G["rockets"]["#Index"] = {
 		update_pos_from_input = 0,
 		use_horiz_dist = 1
 	},
-	user_name = "YJ-84",
+	user_name = "YJ-82",
 	v_mid = 272,
 	v_min = 150,
-	warhead = {
+	warhead = <1>{
 		caliber = 360,
 		concrete_factors = { 3, 1, 1 },
 		concrete_obj_factor = 2,
@@ -250,18 +250,7 @@ _G["rockets"]["#Index"] = {
 		other_factors = { 1, 1, 1 },
 		piercing_mass = 0
 	},
-	warhead_air = {
-		caliber = 360,
-		concrete_factors = { 3, 1, 1 },
-		concrete_obj_factor = 2,
-		cumulative_factor = 2,
-		cumulative_thickness = 0,
-		expl_mass = 165,
-		mass = 165,
-		obj_factors = { 3, 1 },
-		other_factors = { 1, 1, 1 },
-		piercing_mass = 0
-	},
-	wsTypeOfWeapon = <1>{ 4, 4, 8, "Redacted" },
-	ws_type = <table 1>
+	warhead_air = <table 1>,
+	wsTypeOfWeapon = <2>{ 4, 4, 11, "Redacted" },
+	ws_type = <table 2>
 }

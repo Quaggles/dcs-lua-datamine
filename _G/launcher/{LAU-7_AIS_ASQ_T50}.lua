@@ -1,7 +1,8 @@
 _G["launcher"]["{LAU-7_AIS_ASQ_T50}"] = {
 	CLSID = "{LAU-7_AIS_ASQ_T50}",
 	Count = 1,
-	Cx_pil = 0.00014,
+	Cx_item = 0.00025146484375,
+	Cx_pil = 0.00045146484375,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "F4-PILON"

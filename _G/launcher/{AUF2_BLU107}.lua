@@ -1,6 +1,7 @@
 _G["launcher"]["{AUF2_BLU107}"] = {
 	CLSID = "{AUF2_BLU107}",
 	Count = 2,
+	Cx_item = 0.0003,
 	Cx_pil = 0.00164,
 	Elements = { {
 			IsAdapter = true,

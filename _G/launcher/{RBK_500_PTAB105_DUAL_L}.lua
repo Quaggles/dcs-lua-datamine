@@ -1,7 +1,8 @@
 _G["launcher"]["{RBK_500_PTAB105_DUAL_L}"] = {
 	CLSID = "{RBK_500_PTAB105_DUAL_L}",
 	Count = 2,
-	Cx_pil = 0.0004,
+	Cx_item = 0,
+	Cx_pil = 0.003,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "J-11A_twinpylon_l"

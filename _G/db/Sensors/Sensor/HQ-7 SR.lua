@@ -15,10 +15,11 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 	},
 	lock_on_distance_coeff = 0.9,
 	max_measuring_distance = 30000,
+	multiple_targets_tracking = true,
 	scan_period = 1,
 	scan_volume = {
 		azimuth = { -180, 180 },
-		elevation = { -15, 60 }
+		elevation = { -15, 70 }
 	},
 	type = 0,
 	velocity_limits = {

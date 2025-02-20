@@ -1,7 +1,8 @@
 _G["launcher"]["{FE382A68-8620-4AC0-BDF5-709BFE3977D7}"] = {
 	CLSID = "{FE382A68-8620-4AC0-BDF5-709BFE3977D7}",
 	Count = 1,
-	Cx_pil = 0.001,
+	Cx_item = 0.004794921875,
+	Cx_pil = 0.005794921875,
 	Elements = { {
 			ShapeName = "AKU-58"
 		}, {

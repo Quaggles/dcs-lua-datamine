@@ -288,7 +288,12 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			LN = { {
 					BR = { {
 							connector_name = "Point_ROCKET_01",
-							drawArgument = 302
+							drawArgument = 302,
+							recoilArgument = 177,
+							recoilT0 = -3.5,
+							recoilT1 = -2,
+							recoilT2 = 2,
+							recoilTime = 3.5
 						} },
 					PL = { {
 							type_ammunition = {}
@@ -296,17 +301,18 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { {} },
-			animation_alarm_state = {
-				arg = 177,
-				time = 1.5
-			},
 			area = "TPK_01_R",
 			pos = { -2.33, 7.023, -4.656 }
 		}, {
 			LN = { {
 					BR = { {
 							connector_name = "Point_ROCKET_02",
-							drawArgument = 303
+							drawArgument = 303,
+							recoilArgument = 178,
+							recoilT0 = -3.5,
+							recoilT1 = -2,
+							recoilT2 = 2,
+							recoilTime = 3.5
 						} },
 					PL = { {
 							type_ammunition = {}
@@ -314,17 +320,18 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { {} },
-			animation_alarm_state = {
-				arg = 178,
-				time = 1.5
-			},
 			area = "TPK_02_L",
 			pos = { -2.33, 7.023, -4.656 }
 		}, {
 			LN = { {
 					BR = { {
 							connector_name = "Point_ROCKET_03",
-							drawArgument = 304
+							drawArgument = 304,
+							recoilArgument = 179,
+							recoilT0 = -3.5,
+							recoilT1 = -2,
+							recoilT2 = 2,
+							recoilTime = 3.5
 						} },
 					PL = { {
 							type_ammunition = {}
@@ -332,17 +339,18 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { {} },
-			animation_alarm_state = {
-				arg = 179,
-				time = 1.5
-			},
 			area = "TPK_01_R",
 			pos = { -2.33, 7.023, 4.656 }
 		}, {
 			LN = { {
 					BR = { {
 							connector_name = "Point_ROCKET_04",
-							drawArgument = 305
+							drawArgument = 305,
+							recoilArgument = 180,
+							recoilT0 = -3.5,
+							recoilT1 = -2,
+							recoilT2 = 2,
+							recoilTime = 3.5
 						} },
 					PL = { {
 							type_ammunition = {}
@@ -350,10 +358,6 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					sensor = {}
 				} },
 			angles = { {} },
-			animation_alarm_state = {
-				arg = 180,
-				time = 1.5
-			},
 			area = "TPK_02_L",
 			pos = { -2.33, 7.023, 4.656 }
 		},

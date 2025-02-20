@@ -1,6 +1,7 @@
 _G["launcher"]["DIS_LD-10_DUAL_L"] = {
 	CLSID = "DIS_LD-10_DUAL_L",
 	Count = 2,
+	Cx_item = 0.00064453124,
 	Cx_pil = 0.00150390623,
 	Elements = { "_G/Pylons/JF-17_PF12_twin.lua", {
 			ShapeName = "ld10",

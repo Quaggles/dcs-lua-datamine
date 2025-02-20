@@ -1,6 +1,7 @@
 _G["launcher"]["{96A7F676-F956-404A-AD04-F33FB2C74884}"] = {
 	CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74884}",
 	Count = 8,
+	Cx_item = 0,
 	Cx_pil = 0.00167,
 	Elements = { "_G/Pylons/kmgu-2.lua", {
 			connector_name = "Point1",

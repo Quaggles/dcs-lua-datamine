@@ -21,7 +21,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			area_name = "BODY_TOP"
 		} },
 	DeckLevel = 3,
-	DetectionRange = 40000,
+	DetectionRange = 42000,
 	DisplayName = "Type 093 Attack Submarine",
 	DisplayNameShort = "093",
 	Gamma_max = 0,
@@ -40,23 +40,21 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	},
 	Singleton = "no",
 	Tail_Width = 7.3,
-	ThreatRange = 40000,
+	ThreatRange = 42000,
 	WS = { {
 			LN = { {
 					BR = { {}, {}, {}, {}, {}, {} },
 					PL = { {
 							type_ammunition = {}
 						} },
-					barrels_reload_type = 2,
 					sensor = {},
 					show_external_missile = false,
 					sightIndicationMode = 1,
 					sightMasterMode = 1
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.5707963267949 } },
-			angles_mech = { { 1.0471975511966, -1.0471975511966, -0.087266462599716, 0.087266462599716 } },
 			center = "CENTER_SCOPE_01",
-			cockpit = { "genericAAA", { 0, 0, 0 } },
+			cockpit = { "CWS/CWS", { 0, 0, 0 } },
 			drawArgument1 = 902,
 			drawArgument2 = 903,
 			moveable = true,
@@ -74,55 +72,33 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 				inn = 50,
 				p = 100
 			},
-			pointer = "PNT_SCOPE_01",
-			reference_angle_X = 0,
-			reference_angle_Y = 0,
-			reference_angle_Z = 0
+			pointer = "PNT_SCOPE_01"
 		}, {
 			LN = { {
-					BR = { {}, {}, {}, {} },
+					BR = { {
+							connector_name = "MSL_01"
+						}, {
+							connector_name = "MSL_02"
+						}, {
+							connector_name = "MSL_03"
+						}, {
+							connector_name = "MSL_04"
+						} },
 					PL = { {
 							type_ammunition = {}
 						} },
-					barrels_reload_type = 2,
-					sensor = {},
-					show_external_missile = false,
-					sightIndicationMode = 1,
-					sightMasterMode = 1
+					sensor = {}
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.5707963267949 } },
-			angles_mech = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 0.087266462599716 } },
-			center = "CENTER_SCOPE",
-			cockpit = { "genericMissile", { 0, 0, 0 } },
-			drawArgument1 = 900,
-			drawArgument2 = 901,
-			moveable = true,
-			omegaY = 1.3962634015955,
-			omegaZ = 1.0471975511966,
-			pidY = {
-				d = 12,
-				i = 0.1,
-				inn = 50,
-				p = 100
-			},
-			pidZ = {
-				d = 12,
-				i = 0.1,
-				inn = 50,
-				p = 100
-			},
-			pointer = "PNT_SCOPE",
-			reference_angle_X = 0,
-			reference_angle_Y = 0,
-			reference_angle_Z = 0
+			angles = { {} },
+			center = "MSL_01"
 		},
-		maxTargetDetectionRange = 40000,
+		maxTargetDetectionRange = 42000,
 		radar_type = 102,
 		searchRadarMaxElevation = 1.3962634015955
 	},
 	Waypoint_Custom_Panel = true,
 	Width = 10.5,
-	X_nose = 22,
+	X_nose = 21,
 	X_tail = -45,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Tech/093.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
@@ -130,9 +106,72 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	airWeaponDist = 0,
 	animation_arguments = {
 		alarm_state = 18,
+		alarm_state_sequence = { { 3, { {
+						endTime = 5,
+						endVal = 0.75,
+						startTime = 0,
+						startVal = 0
+					}, {
+						endTime = 15,
+						endVal = 1,
+						startTime = 5,
+						startVal = 0.75
+					} } }, { 14, { {
+						endTime = 5,
+						endVal = 0,
+						startTime = 0,
+						startVal = 0
+					}, {
+						endTime = 15,
+						endVal = 0.75,
+						startTime = 5,
+						startVal = 0
+					} } }, { 15, { {
+						endTime = 5,
+						endVal = 0,
+						startTime = 0,
+						startVal = 0
+					}, {
+						endTime = 15,
+						endVal = 1,
+						startTime = 5,
+						startVal = 0
+					} } }, { 16, { {
+						endTime = 5,
+						endVal = 0,
+						startTime = 0,
+						startVal = 0
+					}, {
+						endTime = 15,
+						endVal = 1,
+						startTime = 5,
+						startVal = 0
+					} } }, { 17, { {
+						endTime = 5,
+						endVal = 0,
+						startTime = 0,
+						startVal = 0
+					}, {
+						endTime = 15,
+						endVal = 1,
+						startTime = 5,
+						startVal = 0
+					} } }, { 18, { {
+						endTime = 5,
+						endVal = 0,
+						startTime = 0,
+						startVal = 0
+					}, {
+						endTime = 15,
+						endVal = 1,
+						startTime = 5,
+						startVal = 0
+					} } },
+			totalDuration = 15
+		},
 		flag_animation = -1,
 		nav_lights = 69,
-		periscope = 15,
+		periscope = 16,
 		radar1_rotation = -1,
 		radar2_rotation = -1,
 		radar3_rotation = -1,
@@ -168,13 +207,6 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	periscopeHeight = 16,
 	race_distance = 7200000,
 	race_velocity = 14.9,
-	sensor = {
-		max_alt_finding_target = 5000,
-		max_range_finding_target = 25000,
-		min_alt_finding_target = 0,
-		min_range_finding_target = 0,
-		pos = { 10.2, 17, 0 }
-	},
 	shape_table_data = { {
 			classname = "lLandShip",
 			desrt = "",
@@ -189,9 +221,10 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	shipLength = 103,
 	snd = {},
 	speedup = 0.4,
-	sternEffectDX = { { 0, 0, 58, 6 }, { 2, 10, 41, 4 }, { 2.5, 14.5, 31, 3 }, { 2.7, 29, 13, 2 }, { 7.5, 29, 13, 2 } },
+	sternEffectDX = { { 2.5, 0, 65.5, 1 }, { 6, 27, 10.2, 1 } },
 	swapped_names = true,
 	tags = { "Submarine" },
+	toggle_alarm_state_interval = 15,
 	type = "Type_093",
 	visual = {
 		shape = "093",

@@ -88,24 +88,36 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	},
 	Singleton = "no",
 	Tail_Width = 11,
-	ThreatRange = 100000,
+	ThreatRange = 150000,
 	WS = { {
 			LN = { {
 					BR = { {
-							connector_name = "POINT_AK100_1_1",
-							pos = {},
-							recoilTime = 0.667
+							connector_name = "POINT_AK100_1_1"
 						} },
 					PL = { {
 							shell_name = {}
 						} },
+					sensor = {},
+					sightMaxTanVel = 300
+				}, {
+					BR = { {
+							connector_name = "POINT_AK100_1_1"
+						} },
+					PL = { {
+							shell_name = {}
+						} },
+					customViewPoint = { "genericHowitzer", { -3.5, 0.8, 0 } },
 					sensor = {}
 				} },
-			angles = { {} },
+			angles = { { 2.7925268031909, -2.7925268031909, -0.087266462599716, 1.3962634015955 } },
 			area = "MAIN_GUN",
 			center = "CENTER_AK100_1_1",
 			drawArgument1 = 13,
-			drawArgument2 = 14
+			drawArgument2 = 14,
+			omegaY = 0.87266462599716,
+			omegaZ = 0.61086523819802,
+			reference_angle_Y = 0,
+			reference_angle_Z = 0
 		}, {
 			LN = { {
 					ECM_K = 0.5,
@@ -123,48 +135,74 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			angles = { { 3.1415926535898, -3.1415926535898, -1.5707963267949, 1.3962634015955 } },
 			omegaY = 1,
 			omegaZ = 1,
+			pidY = {
+				d = 12,
+				i = 0.05,
+				inn = 50,
+				p = 100
+			},
+			pidZ = {
+				d = 12,
+				i = 0.05,
+				inn = 50,
+				p = 100
+			},
 			pos = { 0, 19, 0 }
 		}, {
 			LN = { {
 					frequencyRange = {}
 				} },
 			angles = { {} },
+			pidY = {},
+			pidZ = {},
 			pos = {}
 		}, {
 			LN = { {
 					frequencyRange = {}
 				} },
 			angles = { {} },
+			pidY = {},
+			pidZ = {},
 			pos = {}
 		}, {
 			LN = { {
 					frequencyRange = {}
 				} },
 			angles = { {} },
+			pidY = {},
+			pidZ = {},
 			pos = {}
 		}, {
 			LN = { {
 					frequencyRange = {}
 				} },
 			angles = { {} },
+			pidY = {},
+			pidZ = {},
 			pos = {}
 		}, {
 			LN = { {
 					frequencyRange = {}
 				} },
 			angles = { {} },
+			pidY = {},
+			pidZ = {},
 			pos = {}
 		}, {
 			LN = { {
 					frequencyRange = {}
 				} },
 			angles = { {} },
+			pidY = {},
+			pidZ = {},
 			pos = {}
 		}, {
 			LN = { {
 					frequencyRange = {}
 				} },
 			angles = { {} },
+			pidY = {},
+			pidZ = {},
 			pos = {}
 		}, {
 			LN = { {
@@ -252,20 +290,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							recoilT1 = -0.5,
 							recoilT2 = 0.5,
 							recoilTime = 2
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					depends_on_unit = <1>{ { { "self", 2 } }, { { "self", 3 } }, { { "self", 4 } }, { { "self", 5 } }, { { "self", 6 } }, { { "self", 7 } }, { { "self", 8 } }, { { "self", 9 } } },
-					max_number_of_missiles_channels = 2,
-					sensor = {}
-				} },
-			angles = { {} },
-			area = "NOSE_L",
-			center = "POINT_HHQ9_1_9"
-		}, {
-			LN = { {
-					BR = { {
+						}, {
 							connector_name = "POINT_HHQ9_2_1",
 							recoilArgument = 177,
 							recoilT0 = -2,
@@ -349,20 +374,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							recoilT1 = -0.5,
 							recoilT2 = 0.5,
 							recoilTime = 2
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					depends_on_unit = <table 1>,
-					max_number_of_missiles_channels = 2,
-					sensor = {}
-				} },
-			angles = { {} },
-			area = "NOSE_R",
-			center = "POINT_HHQ9_2_9"
-		}, {
-			LN = { {
-					BR = { {
+						}, {
 							connector_name = "POINT_HHQ9_1_13",
 							recoilArgument = 207,
 							recoilT0 = -2,
@@ -450,13 +462,13 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					PL = { {
 							type_ammunition = {}
 						} },
-					depends_on_unit = <table 1>,
+					depends_on_unit = <1>{ { { "self", 2 } }, { { "self", 3 } }, { { "self", 4 } }, { { "self", 5 } }, { { "self", 6 } }, { { "self", 7 } }, { { "self", 8 } }, { { "self", 9 } } },
 					max_number_of_missiles_channels = 2,
 					sensor = {}
 				} },
 			angles = { {} },
-			area = "NOSE_R",
-			center = "POINT_HHQ9_2_9"
+			area = "NOSE_L",
+			center = "POINT_HHQ9_1_9"
 		}, {
 			LN = { {
 					BR = { {
@@ -557,80 +569,74 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_CIWS_1_1",
-							pos = {}
+							recoilArgument = 119,
+							recoilTime = 0.1
 						} },
 					PL = { {
 							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
 						} },
-					fireAnimationArgument = 119,
+					createMuzzleFlashEffect = true,
+					customViewPoint = { "genericAAA", { 0, 0, 0 } },
 					sensor = {}
 				} },
-			angles = { { 2.0943951023932, -2.0943951023932, -0.43633231299858, 1.5184364492351 } },
-			angles_mech = { { 2.0943951023932, -2.0943951023932, -0.43633231299858, 1.5184364492351 } },
+			angles = { { 2.0943951023932, -2.0943951023932, -0.43633231299858, 1.4835298641952 } },
 			area = "CIWS_F",
 			center = "CENTER_CIWS_1_1",
 			drawArgument1 = 17,
 			drawArgument2 = 18,
-			pidY = {},
-			pidZ = {},
-			reference_angle_Y = 0
+			omegaY = 2.2689280275926,
+			omegaZ = 2.6179938779915,
+			pidY = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pidZ = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pointer = "PNT_CIWS_SIGHT_F",
+			reference_angle_Y = 0,
+			reference_angle_Z = 0
 		}, {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_CIWS_2_1",
-							pos = {}
+							recoilArgument = 120,
+							recoilTime = 0.1
 						} },
 					PL = { {
 							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
 						} },
-					fireAnimationArgument = 120,
+					createMuzzleFlashEffect = true,
+					customViewPoint = { "genericAAA", { 0, 0, 0 } },
 					sensor = {}
 				} },
-			angles = { { -0.5235987755983, 0.5235987755983, -0.43633231299858, 1.5184364492351 } },
-			angles_mech = { { -0.5235987755983, 0.5235987755983, -0.43633231299858, 1.5184364492351 } },
+			angles = { { -0.5235987755983, 0.5235987755983, -0.43633231299858, 1.4835298641952 } },
 			area = "CIWS_B",
 			center = "CENTER_CIWS_2_1",
 			drawArgument1 = 19,
 			drawArgument2 = 20,
-			pidY = {},
-			pidZ = {},
-			reference_angle_Y = -3.1415926535898
+			omegaY = 2.2689280275926,
+			omegaZ = 2.6179938779915,
+			pidY = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pidZ = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pointer = "PNT_CIWS_SIGHT_B",
+			reference_angle_Y = -3.1415926535898,
+			reference_angle_Z = 0
 		}, {
 			LN = { {
 					BR = { {
@@ -670,6 +676,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			angles = { {} },
 			area = "BORT_L",
 			board = 3,
+			canSetTacticalDir = true,
 			center = "POINT_ASM_1_1"
 		}, {
 			LN = { {
@@ -710,6 +717,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			angles = { {} },
 			area = "BORT_R",
 			board = 4,
+			canSetTacticalDir = true,
 			center = "POINT_ASM_2_1"
 		},
 		maxTargetDetectionRange = 450000,
@@ -724,7 +732,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Tech/052C.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	airFindDist = 260000,
-	airWeaponDist = 100000,
+	airWeaponDist = 150000,
 	animation_arguments = {
 		arresting_wires = {},
 		blast_fences = {},
@@ -741,13 +749,13 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 3, 12, 13, "Redacted", "Cruisers", "RADAR_BAND1_FOR_ARM", "RADAR_BAND2_FOR_ARM", "DetectionByAWACS", "Armed Ship", "HelicopterCarrier", "Naval", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
+	attribute = { 3, 12, 14, "Redacted", "Cruisers", "RADAR_BAND1_FOR_ARM", "RADAR_BAND2_FOR_ARM", "DetectionByAWACS", "Straight_in_approach_type", "Armed Ship", "HelicopterCarrier", "Naval", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
 	chassis = {},
 	distFindObstacles = 568.4,
 	draft = 15,
 	economy_distance = 8337000,
 	economy_velocity = 7.71667,
-	enablePlayerCanDrive = false,
+	enablePlayerCanDrive = true,
 	encyclopediaAnimation = {
 		args = {
 			[19] = 1

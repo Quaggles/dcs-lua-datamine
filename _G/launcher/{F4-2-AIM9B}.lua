@@ -1,7 +1,8 @@
 _G["launcher"]["{F4-2-AIM9B}"] = {
 	CLSID = "{F4-2-AIM9B}",
 	Count = 2,
-	Cx_pil = 0.00014,
+	Cx_item = 0.00025146484375,
+	Cx_pil = 0.0007029296875,
 	Elements = { "_G/Pylons/F4-PILON.lua", {
 			Position = { 0.465, 0, -0.28 },
 			Rotation = { 90, 0, 0 },

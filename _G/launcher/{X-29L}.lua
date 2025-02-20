@@ -1,6 +1,7 @@
 _G["launcher"]["{X-29L}"] = {
 	CLSID = "{X-29L}",
 	Count = 1,
+	Cx_item = 0.00399658203125,
 	Cx_pil = 0.00399658203125,
 	Elements = { {
 			Position = { -0.482, 0, 0 },

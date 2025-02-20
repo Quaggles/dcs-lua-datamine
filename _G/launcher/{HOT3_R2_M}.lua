@@ -1,7 +1,8 @@
 _G["launcher"]["{HOT3_R2_M}"] = {
 	CLSID = "{HOT3_R2_M}",
 	Count = 2,
-	Cx_pil = 0.001,
+	Cx_item = 0,
+	Cx_pil = 0.002,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "SA342_LAU_HOT3_2x"

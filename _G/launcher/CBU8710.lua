@@ -1,6 +1,8 @@
 _G["launcher"]["CBU87*10"] = {
 	CLSID = "CBU87*10",
 	Count = 10,
+	Cx_item = 0,
+	Cx_pil = 0,
 	Elements = { "_G/Pylons/B-1B_10-store_Conventional_Bomb_Module.lua", {
 			ShapeName = "CBU-87",
 			connector_name = "AttachPoint010"

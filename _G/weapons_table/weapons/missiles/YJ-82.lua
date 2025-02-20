@@ -1,14 +1,14 @@
-_G["weapons_table"]["weapons"]["missiles"]["YJ-84"] = {
+_G["weapons_table"]["weapons"]["missiles"]["YJ-82"] = {
 	Reflection = 0.121,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Tech/weapons.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
-	_unique_resource_name = "weapons.missiles.YJ-84",
+	_unique_resource_name = "weapons.missiles.YJ-82",
 	add_attributes = { "Cruise missiles", "Anti-Ship missiles" },
 	caliber = 0.36,
 	client = {
 		Cx_pil = 8,
-		D_max = 230000,
-		D_min = 15000,
+		D_max = 42000,
+		D_min = 5000,
 		Diam = 360,
 		Engine_Type = 6,
 		Engine_Type_ = 6,
@@ -28,7 +28,7 @@ _G["weapons_table"]["weapons"]["missiles"]["YJ-84"] = {
 		Mach_max = 0.9,
 		Nr_max = 18,
 		OmViz_max = 99.9,
-		Range_max = 230000,
+		Range_max = 42000,
 		Reflection = 0.121,
 		Stage = 2,
 		Stage_ = 2,
@@ -114,7 +114,7 @@ _G["weapons_table"]["weapons"]["missiles"]["YJ-84"] = {
 			boost_start = 0,
 			march_start = 6
 		},
-		display_name_short = "YJ-84",
+		display_name_short = "YJ-82",
 		engine_control = {
 			K = 350,
 			Kd = 1,
@@ -192,7 +192,7 @@ _G["weapons_table"]["weapons"]["missiles"]["YJ-84"] = {
 		},
 		mass = 850,
 		model = "yj83",
-		name = "YJ-84",
+		name = "YJ-82",
 		scheme = "schemes/missiles/Harpoon.sch",
 		seeker = {
 			FOV = 1.0471975511966,
@@ -219,8 +219,8 @@ _G["weapons_table"]["weapons"]["missiles"]["YJ-84"] = {
 				fire = { 0, 1 },
 				index = "Redacted",
 				life = 1.5,
-				name = "YJ-84",
-				username = "YJ-84"
+				name = "YJ-82",
+				username = "YJ-82"
 			} },
 		sigma = { 10, 10, 10 },
 		t_acc = 5,
@@ -239,7 +239,7 @@ _G["weapons_table"]["weapons"]["missiles"]["YJ-84"] = {
 			update_pos_from_input = 0,
 			use_horiz_dist = 1
 		},
-		user_name = "YJ-84",
+		user_name = "YJ-82",
 		v_mid = 272,
 		v_min = 150,
 		warhead = {
@@ -268,20 +268,20 @@ _G["weapons_table"]["weapons"]["missiles"]["YJ-84"] = {
 			other_factors = { 1, 1, 1 },
 			piercing_mass = 0
 		},
-		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
+		wsTypeOfWeapon = { 4, 4, 11, "Redacted" }
 	},
-	display_name = "YJ-84",
-	display_name_short = "YJ-84",
+	display_name = "YJ-82",
+	display_name_short = "YJ-82",
 	encyclopediaAnimation = {
 		args = { 1 }
 	},
 	mass = 850,
 	model = "yj83",
-	name = "YJ-84",
+	name = "YJ-82",
 	server = {
 		Cx_pil = 8,
-		D_max = 230000,
-		D_min = 15000,
+		D_max = 42000,
+		D_min = 5000,
 		Diam = 360,
 		Engine_Type = 6,
 		Engine_Type_ = 6,
@@ -301,7 +301,7 @@ _G["weapons_table"]["weapons"]["missiles"]["YJ-84"] = {
 		Mach_max = 0.9,
 		Nr_max = 18,
 		OmViz_max = 99.9,
-		Range_max = 230000,
+		Range_max = 42000,
 		Reflection = 0.121,
 		Stage = 2,
 		Stage_ = 2,
@@ -387,7 +387,7 @@ _G["weapons_table"]["weapons"]["missiles"]["YJ-84"] = {
 			boost_start = 0,
 			march_start = 6
 		},
-		display_name_short = "YJ-84",
+		display_name_short = "YJ-82",
 		engine_control = {
 			K = 350,
 			Kd = 1,
@@ -465,7 +465,7 @@ _G["weapons_table"]["weapons"]["missiles"]["YJ-84"] = {
 		},
 		mass = 850,
 		model = "yj83",
-		name = "YJ-84",
+		name = "YJ-82",
 		scheme = "schemes/missiles/Harpoon.sch",
 		seeker = {
 			FOV = 1.0471975511966,
@@ -492,8 +492,8 @@ _G["weapons_table"]["weapons"]["missiles"]["YJ-84"] = {
 				fire = { 0, 1 },
 				index = "Redacted",
 				life = 1.5,
-				name = "YJ-84",
-				username = "YJ-84"
+				name = "YJ-82",
+				username = "YJ-82"
 			} },
 		sigma = { 10, 10, 10 },
 		t_acc = 5,
@@ -512,7 +512,7 @@ _G["weapons_table"]["weapons"]["missiles"]["YJ-84"] = {
 			update_pos_from_input = 0,
 			use_horiz_dist = 1
 		},
-		user_name = "YJ-84",
+		user_name = "YJ-82",
 		v_mid = 272,
 		v_min = 150,
 		warhead = {
@@ -541,12 +541,12 @@ _G["weapons_table"]["weapons"]["missiles"]["YJ-84"] = {
 			other_factors = { 1, 1, 1 },
 			piercing_mass = 0
 		},
-		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
+		wsTypeOfWeapon = { 4, 4, 11, "Redacted" }
 	},
 	sounderName = "Weapons/Missile",
 	targeting_data = {
 		fm_type = -1
 	},
 	type_name = "missile",
-	ws_type = { 4, 4, 8, "Redacted" }
+	ws_type = { 4, 4, 11, "Redacted" }
 }

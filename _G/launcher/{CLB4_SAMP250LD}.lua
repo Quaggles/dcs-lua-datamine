@@ -1,7 +1,8 @@
 _G["launcher"]["{CLB4_SAMP250LD}"] = {
 	CLSID = "{CLB4_SAMP250LD}",
 	Count = 4,
-	Cx_pil = 0.00092,
+	Cx_item = 0.00046,
+	Cx_pil = 0.00228,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "CLB_4"

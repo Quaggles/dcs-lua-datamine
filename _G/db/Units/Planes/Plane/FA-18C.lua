@@ -43,7 +43,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[3] = {
 			args = { 65 },
-			critical_damage = 1
+			critical_damage = 8
 		},
 		[11] = {
 			critical_damage = 2
@@ -53,11 +53,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[21] = {
 			args = { 230 },
-			critical_damage = 1.5
+			critical_damage = 2
 		},
 		[22] = {
 			args = { 220 },
-			critical_damage = 1.5
+			critical_damage = 2
 		},
 		[23] = {
 			args = { 223 },
@@ -71,11 +71,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[25] = {
 			args = { 226 },
-			critical_damage = 1
+			critical_damage = 2
 		},
 		[26] = {
 			args = { 216 },
-			critical_damage = 1
+			critical_damage = 2
 		},
 		[29] = {
 			args = { 224 },
@@ -89,11 +89,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[33] = {
 			args = { 232 },
-			critical_damage = 1.5
+			critical_damage = 2
 		},
 		[34] = {
 			args = { 222 },
-			critical_damage = 1.5
+			critical_damage = 2
 		},
 		[35] = {
 			args = { 225 },
@@ -176,7 +176,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[137] = {
 			args = { 147 },
-			critical_damage = 6
+			critical_damage = 4
 		},
 		[138] = {
 			args = { 155 },

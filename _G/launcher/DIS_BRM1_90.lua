@@ -1,6 +1,7 @@
 _G["launcher"]["DIS_BRM1_90"] = {
 	CLSID = "DIS_BRM1_90",
 	Count = 16,
+	Cx_item = 0,
 	Cx_pil = 0.002,
 	Elements = { "_G/Pylons/brm1_pod.lua", {
 			DrawArgs = { { 2, 1 } },
@@ -77,5 +78,16 @@ _G["launcher"]["DIS_BRM1_90"] = {
 	category = 3,
 	displayName = "BRM-1_90MM",
 	name = "DIS_BRM1_90",
+	settings = { {
+			control = "laserCode",
+			defValue = 1688,
+			id = "laser_code",
+			label = "Laser Seeker Code",
+			maxV = "4888",
+			minV = "1111",
+			stringIndex = 1,
+			tooltip = "Lower Limit: 1111\nUpper Limit: 4888",
+			xCtrl = 200
+		} },
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

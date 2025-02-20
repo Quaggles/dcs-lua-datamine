@@ -1,7 +1,8 @@
 _G["launcher"]["{BRU41_6X_BDU-33}"] = {
 	CLSID = "{BRU41_6X_BDU-33}",
 	Count = 6,
-	Cx_pil = 0.00025,
+	Cx_item = 0.000125,
+	Cx_pil = 0.00275,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "BRU_41A"

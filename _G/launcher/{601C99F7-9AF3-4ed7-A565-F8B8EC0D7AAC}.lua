@@ -1,7 +1,8 @@
 _G["launcher"]["{601C99F7-9AF3-4ed7-A565-F8B8EC0D7AAC}"] = {
 	CLSID = "{601C99F7-9AF3-4ed7-A565-F8B8EC0D7AAC}",
 	Count = 1,
-	Cx_pil = 0.00399658203125,
+	Cx_item = 0.00399658203125,
+	Cx_pil = 0.00499658203125,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "AKU-58"

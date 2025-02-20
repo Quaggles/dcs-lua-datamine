@@ -1,6 +1,6 @@
 _G["weapons_table"]["weapons"]["shells"]["M39_20_TP"] = {
 	AP_cap_caliber = 20,
-	Da0 = 0.0022,
+	Da0 = 0.0016,
 	Da1 = 0,
 	Dv0 = 0.006,
 	_unique_resource_name = "weapons.shells.M39_20_TP",

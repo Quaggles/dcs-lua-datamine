@@ -1,7 +1,8 @@
 _G["launcher"]["{FAB_250_DUAL_L}"] = {
 	CLSID = "{FAB_250_DUAL_L}",
 	Count = 2,
-	Cx_pil = 0.0004,
+	Cx_item = 0.000999,
+	Cx_pil = 0.004,
 	Elements = { "_G/Pylons/J-11A_twinpylon_l.lua", {
 			DrawArgs = { { 1, 1 }, { 2, 1 } },
 			connector_name = "Pylon_out",

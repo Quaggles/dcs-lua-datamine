@@ -6,7 +6,7 @@ _G["db"]["Units"]["GT_t"]["WS_t"]["ship_MOSKIT"]["LN"]["#Index"] = {
 			ammo_capacity = 1,
 			reload_time = 1000000,
 			shot_delay = 2,
-			type_ammunition = { 4, 4, 11, "Redacted" }
+			type_ammunition = { 4, 4, 8, "Redacted" }
 		} },
 	distanceMax = 120000,
 	distanceMin = 10000,

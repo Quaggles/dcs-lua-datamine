@@ -1,6 +1,7 @@
 _G["launcher"]["DIS_GDJ_YJ83K"] = {
 	CLSID = "DIS_GDJ_YJ83K",
 	Count = 1,
+	Cx_item = 0.0018,
 	Cx_pil = 0.0023,
 	Elements = { "_G/Pylons/adapter_gdj_yj83k.lua", {
 			DrawArgs = { { 1, 1 } },

@@ -1,6 +1,8 @@
 _G["launcher"]["GBU-31V3B*8"] = {
 	CLSID = "GBU-31V3B*8",
 	Count = 8,
+	Cx_item = 0,
+	Cx_pil = 0,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "B-1B_Conventional_Rotary_Launcher"

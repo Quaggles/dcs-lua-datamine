@@ -106,11 +106,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			deps_cells = { 22 }
 		},
 		[25] = {
-			args = { -1 },
+			args = { 224 },
 			critical_damage = 4
 		},
 		[26] = {
-			args = { -1 },
+			args = { 214 },
 			critical_damage = 4
 		},
 		[27] = {
@@ -124,12 +124,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[29] = {
 			args = { 224 },
 			critical_damage = 4,
-			deps_cells = { 23, 27, 31, 25, 137 }
+			deps_cells = { 23, 27, 31, 25 }
 		},
 		[30] = {
 			args = { 214 },
 			critical_damage = 4,
-			deps_cells = { 24, 28, 32, 26, 138 }
+			deps_cells = { 24, 28, 32, 26 }
 		},
 		[31] = {
 			args = { 228 },
@@ -172,7 +172,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[42] = {
 			args = { 242 },
 			critical_damage = 5,
-			deps_cells = { 153 }
+			deps_cells = { 141 }
 		},
 		[45] = {
 			args = { 239 },
@@ -195,7 +195,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[55] = {
 			args = { 159 },
 			critical_damage = 8,
-			deps_cells = { 152, 47, 48, 42 },
+			deps_cells = { 140, 47, 48, 42 },
 			detachable = {
 				shape = "B-1B_oblomok_tail"
 			}
@@ -241,95 +241,35 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 8
 		},
 		[137] = {
-			args = { -1 },
+			args = { 167 },
 			critical_damage = 4
 		},
 		[138] = {
-			args = { -1 },
+			args = { 167 },
 			critical_damage = 4
 		},
 		[139] = {
-			args = { 267 },
+			args = { 147 },
 			critical_damage = 4
 		},
 		[140] = {
-			args = { 266 },
+			args = { 248 },
 			critical_damage = 4
 		},
 		[141] = {
-			args = { 167 },
-			critical_damage = 4
-		},
-		[142] = {
-			args = { 167 },
-			critical_damage = 4
-		},
-		[143] = {
-			args = { 148 },
-			critical_damage = 4
-		},
-		[144] = {
-			args = { 148 },
-			critical_damage = 4
-		},
-		[145] = {
-			args = { 148 },
-			critical_damage = 4
-		},
-		[146] = {
-			args = { 0 },
-			critical_damage = 4
-		},
-		[147] = {
-			args = { 147 },
-			critical_damage = 4
-		},
-		[148] = {
-			args = { 147 },
-			critical_damage = 4
-		},
-		[149] = {
-			args = { 152 },
-			critical_damage = 4
-		},
-		[150] = {
-			args = { 152 },
-			critical_damage = 4
-		},
-		[151] = {
-			args = { 147 },
-			critical_damage = 4
-		},
-		[152] = {
 			args = { 247 },
 			critical_damage = 4
-		},
-		[153] = {
-			args = { 247 },
-			critical_damage = 4
-		},
-		[154] = {
-			args = { 150 },
-			critical_damage = 3
-		},
-		[155] = {
-			args = { 149 },
-			critical_damage = 3
 		},
 		cell_indices = {
 			AILERON_L = 25,
-			AILERON_L_OUT = 137,
 			AILERON_R = 26,
-			AILERON_R_OUT = 138,
 			COCKPIT = 3,
-			COWLING_L = 139,
-			COWLING_R = 140,
 			ENGINE_L = 11,
-			ENGINE_L_CENTER = 141,
+			ENGINE_L_CENTER = 137,
 			ENGINE_L_IN = 11,
 			ENGINE_L_OUT = 17,
 			ENGINE_R = 12,
-			ENGINE_R_CENTER = 142,
+			ENGINE_R_CENTER = 138,
 			ENGINE_R_IN = 12,
 			ENGINE_R_OUT = 18,
 			FLAP_L_IN = 37,
@@ -343,23 +283,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			GEAR_F = 8,
 			GEAR_L = 15,
 			GEAR_R = 16,
-			HATCH_000 = 143,
-			HATCH_001 = 144,
-			HATCH_002 = 145,
-			HATCH_003 = 146,
-			HATCH_004 = 147,
-			HATCH_005 = 148,
-			HATCH_007 = 149,
-			HATCH_008 = 150,
 			KEEL_R_CENTER = 42,
 			KEEL_R_OUT = 40,
 			NOSE_BOTTOM = 59,
 			NOSE_CENTER = 0,
 			NOSE_LEFT_SIDE = 1,
 			NOSE_RIGHT_SIDE = 2,
-			NOSE_TOP = 151,
-			RUDDER_IN = 152,
-			RUDDER_OUT = 153,
+			NOSE_TOP = 139,
+			RUDDER_IN = 140,
+			RUDDER_OUT = 141,
 			STABILIZER_L_IN = 47,
 			STABILIZER_L_OUT = 45,
 			STABILIZER_R_IN = 48,
@@ -369,8 +301,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			TAIL_LEFT_SIDE = 56,
 			TAIL_RIGHT_SIDE = 57,
 			TAIL_TOP = 100,
-			VANE_L = 154,
-			VANE_R = 155,
 			WHEEL_F = 83,
 			WHEEL_L = 84,
 			WHEEL_R = 85,
@@ -895,7 +825,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	main_gear_amortizer_direct_stroke = 0,
 	main_gear_amortizer_normal_weight_stroke = -0.207,
 	main_gear_amortizer_reversal_stroke = -0.384,
-	main_gear_pos = { -1.753, -3.926, 2.207 },
+	main_gear_pos = { -1.753, -3.86, 2.207 },
 	main_gear_wheel_diameter = 1.13,
 	mapclasskey = "P0091000027",
 	mechanimations = {
@@ -1062,7 +992,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	nose_gear_amortizer_direct_stroke = 0,
 	nose_gear_amortizer_normal_weight_stroke = -0.418,
 	nose_gear_amortizer_reversal_stroke = -0.536,
-	nose_gear_pos = { 16.055, -4.135, 0 },
+	nose_gear_pos = { 16.055, -4.08, 0 },
 	nose_gear_wheel_diameter = 0.932,
 	passivCounterm = {
 		CMDS_Edit = true,

@@ -1,7 +1,8 @@
 _G["launcher"]["{E1AAE713-5FC3-4CAA-9FF5-3FDCFB899E33}"] = {
 	CLSID = "{E1AAE713-5FC3-4CAA-9FF5-3FDCFB899E33}",
 	Count = 9,
-	Cx_pil = 0.00766,
+	Cx_item = 0.000999,
+	Cx_pil = 0.016651,
 	Elements = { {
 			ShapeName = "TU-22M3-MBD"
 		}, {

@@ -49,6 +49,7 @@ _G["rockets"]["#Index"] = {
 			username = "AIM-9JULI"
 		} },
 	sigma = { 3, 3, 3 },
+	smoke_opacity_type = 1,
 	supersonic_A_coef_skew = 0.25,
 	t_acc = 5,
 	t_b = 0,

@@ -1,6 +1,7 @@
 _G["launcher"]["DIS_TYPE200_DUAL_L"] = {
 	CLSID = "DIS_TYPE200_DUAL_L",
 	Count = 2,
+	Cx_item = 0.00018,
 	Cx_pil = 0.00158,
 	Elements = { "_G/Pylons/JF-17_GDJ-II19L.lua", {
 			DrawArgs = { { 1, 1 } },

@@ -6,6 +6,7 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	air_search = {
 		RCS = 6,
+		TWS_max_targets = 60,
 		detection_distance = { { 420000,
 				[0] = 420000
 			},
@@ -13,6 +14,7 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 				[0] = 420000
 			}
 		},
+		multiple_targets_tracking = true,
 		velocity_limits = {
 			radial_velocity_min = 18.518518518519,
 			relative_radial_velocity_min = 18.518518518519

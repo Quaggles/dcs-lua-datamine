@@ -53,6 +53,18 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			},
 			area_life = 700,
 			area_name = "KORMA_L"
+		}, {
+			area_arg = -1,
+			area_life = 40,
+			area_name = "MAIN_GUN"
+		}, {
+			area_arg = -1,
+			area_life = 40,
+			area_name = "CIWS_F"
+		}, {
+			area_arg = -1,
+			area_life = 40,
+			area_name = "CIWS_B"
 		} },
 	DeckLevel = 4.1,
 	DetectionRange = 100000,
@@ -80,9 +92,16 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	WS = { {
 			LN = { {
 					BR = { {
-							connector_name = "POINT_AK130_1_1",
-							pos = {},
-							recoilTime = 0.667
+							connector_name = "POINT_AK130_1_1"
+						} },
+					PL = { {
+							shell_name = {}
+						} },
+					sensor = {},
+					sightMaxTanVel = 300
+				}, {
+					BR = { {
+							connector_name = "POINT_AK130_1_1"
 						} },
 					PL = { {
 							shell_name = {}
@@ -90,11 +109,299 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					customViewPoint = { "genericHowitzer", { -0.5, 0.4, 0 } },
 					sensor = {}
 				} },
-			angles = { {} },
-			area = "NOSE_R",
+			angles = { { 2.7925268031909, -2.7925268031909, -0.087266462599716, 1.3962634015955 } },
+			area = "MAIN_GUN",
 			center = "TARGET_AK130_1",
 			drawArgument1 = 13,
-			drawArgument2 = 14
+			drawArgument2 = 14,
+			omegaY = 0.87266462599716,
+			omegaZ = 0.61086523819802,
+			reference_angle_Y = 0,
+			reference_angle_Z = 0
+		}, {
+			LN = { {
+					ECM_K = 0.3,
+					beamWidth = 1.5707963267949,
+					distanceMax = 74000,
+					distanceMin = 100,
+					max_number_of_missiles_channels = 1,
+					max_trg_alt = 30000,
+					min_trg_alt = 5,
+					reactionTime = 2,
+					reflection_limit = 0.04,
+					type = 102
+				} },
+			angles = { { 2.3561944901923, -2.3561944901923, -1.5707963267949, 1.5707963267949 } },
+			omegaY = 1.3962634015955,
+			omegaZ = 1.3962634015955,
+			pidY = {
+				d = 10,
+				i = 1,
+				inn = 10,
+				p = 80
+			},
+			pos = { 0, 0, 0 },
+			reference_angle_Y = 0
+		}, {
+			LN = { {
+					ECM_K = 0.3,
+					beamWidth = 1.5707963267949,
+					distanceMax = 74000,
+					distanceMin = 100,
+					max_number_of_missiles_channels = 1,
+					max_trg_alt = 30000,
+					min_trg_alt = 5,
+					reactionTime = 2,
+					reflection_limit = 0.04,
+					type = 102
+				} },
+			angles = { { 0.61086523819802, -0.61086523819802, -0.61086523819802, 0.61086523819802 } },
+			base = 2,
+			omegaY = 1.3962634015955,
+			omegaZ = 1.3962634015955,
+			pos = { 0, 0, 0 }
+		}, {
+			LN = { {
+					ECM_K = 0.3,
+					beamWidth = 1.5707963267949,
+					distanceMax = 74000,
+					distanceMin = 100,
+					max_number_of_missiles_channels = 1,
+					max_trg_alt = 30000,
+					min_trg_alt = 5,
+					reactionTime = 2,
+					reflection_limit = 0.04,
+					type = 102
+				} },
+			angles = { { 2.3561944901923, -2.3561944901923, -1.5707963267949, 1.5707963267949 } },
+			omegaY = 1.3962634015955,
+			omegaZ = 1.3962634015955,
+			pidY = {
+				d = 10,
+				i = 1,
+				inn = 10,
+				p = 80
+			},
+			pos = { 0, 0, 0 },
+			reference_angle_Y = 0
+		}, {
+			LN = { {
+					ECM_K = 0.3,
+					beamWidth = 1.5707963267949,
+					distanceMax = 74000,
+					distanceMin = 100,
+					max_number_of_missiles_channels = 1,
+					max_trg_alt = 30000,
+					min_trg_alt = 5,
+					reactionTime = 2,
+					reflection_limit = 0.04,
+					type = 102
+				} },
+			angles = { { 0.61086523819802, -0.61086523819802, -0.61086523819802, 0.61086523819802 } },
+			base = 4,
+			omegaY = 1.3962634015955,
+			omegaZ = 1.3962634015955,
+			pos = { 0, 0, 0 }
+		}, {
+			LN = { {
+					ECM_K = 0.3,
+					beamWidth = 1.5707963267949,
+					distanceMax = 74000,
+					distanceMin = 100,
+					max_number_of_missiles_channels = 1,
+					max_trg_alt = 30000,
+					min_trg_alt = 5,
+					reactionTime = 2,
+					reflection_limit = 0.04,
+					type = 102
+				} },
+			angles = { { -0.78539816339745, 0.78539816339745, -1.5707963267949, 1.5707963267949 } },
+			omegaY = 1.3962634015955,
+			omegaZ = 1.3962634015955,
+			pidY = {
+				d = 10,
+				i = 1,
+				inn = 10,
+				p = 80
+			},
+			pos = { 0, 0, 0 },
+			reference_angle_Y = 0
+		}, {
+			LN = { {
+					ECM_K = 0.3,
+					beamWidth = 1.5707963267949,
+					distanceMax = 74000,
+					distanceMin = 100,
+					max_number_of_missiles_channels = 1,
+					max_trg_alt = 30000,
+					min_trg_alt = 5,
+					reactionTime = 2,
+					reflection_limit = 0.04,
+					type = 102
+				} },
+			angles = { { 0.61086523819802, -0.61086523819802, -0.61086523819802, 0.61086523819802 } },
+			base = 6,
+			omegaY = 1.3962634015955,
+			omegaZ = 1.3962634015955,
+			pos = { 0, 0, 0 }
+		}, {
+			LN = { {
+					ECM_K = 0.3,
+					beamWidth = 1.5707963267949,
+					distanceMax = 74000,
+					distanceMin = 100,
+					max_number_of_missiles_channels = 1,
+					max_trg_alt = 30000,
+					min_trg_alt = 5,
+					reactionTime = 2,
+					reflection_limit = 0.04,
+					type = 102
+				} },
+			angles = { { -0.78539816339745, 0.78539816339745, -1.5707963267949, 1.5707963267949 } },
+			omegaY = 1.3962634015955,
+			omegaZ = 1.3962634015955,
+			pidY = {
+				d = 10,
+				i = 1,
+				inn = 10,
+				p = 80
+			},
+			pos = { 0, 0, 0 },
+			reference_angle_Y = 0
+		}, {
+			LN = { {
+					ECM_K = 0.3,
+					beamWidth = 1.5707963267949,
+					distanceMax = 74000,
+					distanceMin = 100,
+					max_number_of_missiles_channels = 1,
+					max_trg_alt = 30000,
+					min_trg_alt = 5,
+					reactionTime = 2,
+					reflection_limit = 0.04,
+					type = 102
+				} },
+			angles = { { 0.61086523819802, -0.61086523819802, -0.61086523819802, 0.61086523819802 } },
+			base = 8,
+			omegaY = 1.3962634015955,
+			omegaZ = 1.3962634015955,
+			pos = { 0, 0, 0 }
+		}, {
+			LN = { {
+					BR = { {
+							connector_name = "POINT_9M317_1_1",
+							pos = {}
+						} },
+					PL = { {
+							type_ammunition = {}
+						} },
+					depends_on_unit = { { { "self", 2 } }, { { "self", 3 } }, { { "self", 4 } }, { { "self", 5 } } },
+					sensor = {}
+				} },
+			angles = { { 2.3561944901923, -2.3561944901923, -0.17453292519943, 1.5707963267949 } },
+			angles_mech = { {} },
+			area = "NOSE_L",
+			board = 1,
+			center = "TARGET_9M317_1",
+			drawArgument1 = 49,
+			drawArgument2 = 50,
+			pointer = "POINT_9M317_1_1",
+			reference_angle_Y = 0,
+			reloadAngleY = 0
+		}, {
+			LN = { {
+					BR = { {
+							connector_name = "POINT_9M317_2_1",
+							pos = {}
+						} },
+					PL = { {
+							type_ammunition = {}
+						} },
+					depends_on_unit = { { { "self", 6 } }, { { "self", 7 } }, { { "self", 8 } }, { { "self", 9 } } },
+					sensor = {}
+				} },
+			angles = { { -0.78539816339745, 0.78539816339745, -0.17453292519943, 1.5707963267949 } },
+			angles_mech = { {} },
+			area = "KORMA_R",
+			board = 1,
+			center = "TARGET_9M317_2",
+			drawArgument1 = 51,
+			drawArgument2 = 52,
+			pointer = "POINT_9M317_2_1",
+			reference_angle_Y = 3.1415926535898,
+			reloadAngleY = 3.1415926535898
+		}, {
+			LN = { {
+					BR = { {
+							connector_name = "POINT_AK530_1_1",
+							recoilArgument = 120,
+							recoilTime = 0.1
+						} },
+					PL = { {
+							shell_name = {}
+						} },
+					createMuzzleFlashEffect = true,
+					customViewPoint = { "genericAAA", { 0, 0, 0 } },
+					sensor = {}
+				} },
+			angles = { { 3.1415926535898, 0.17453292519943, -0.43633231299858, 1.4835298641952 } },
+			area = "CIWS_F",
+			center = "TARGET_AK530_1_1",
+			drawArgument1 = 19,
+			drawArgument2 = 20,
+			omegaY = 2.2689280275926,
+			omegaZ = 2.6179938779915,
+			pidY = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pidZ = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pointer = "PNT_CIWS_SIGHT_L",
+			reference_angle_Y = 1.5707963267949,
+			reference_angle_Z = 0
+		}, {
+			LN = { {
+					BR = { {
+							connector_name = "POINT_AK530_2_1",
+							recoilArgument = 119,
+							recoilTime = 0.1
+						} },
+					PL = { {
+							shell_name = {}
+						} },
+					createMuzzleFlashEffect = true,
+					customViewPoint = { "genericAAA", { 0, 0, 0 } },
+					sensor = {}
+				} },
+			angles = { { -0.17453292519943, -3.1415926535898, -0.43633231299858, 1.4835298641952 } },
+			area = "CIWS_B",
+			center = "TARGET_AK530_2_1",
+			drawArgument1 = 17,
+			drawArgument2 = 18,
+			omegaY = 2.2689280275926,
+			omegaZ = 2.6179938779915,
+			pidY = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pidZ = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pointer = "PNT_CIWS_SIGHT_R",
+			reference_angle_Y = -1.5707963267949,
+			reference_angle_Z = 0
 		}, {
 			LN = { {
 					BR = { {
@@ -129,16 +436,13 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					PL = { {
 							type_ammunition = {}
 						} },
-					customViewPoint = { "genericMissile", { 0, 0, 0 } },
 					sensor = {}
 				} },
 			angles = { {} },
 			area = "BORT_L",
 			board = 3,
-			center = "POINT_YJ83_1_1",
-			drawArgument1 = 200,
-			drawArgument2 = 201,
-			pointer = "PNT_ASM_SIGHT_L1"
+			canSetTacticalDir = true,
+			center = "POINT_YJ83_1_1"
 		}, {
 			LN = { {
 					BR = { {
@@ -173,16 +477,12 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					PL = { {
 							type_ammunition = {}
 						} },
-					customViewPoint = { "genericMissile", { 0, 0, 0 } },
 					sensor = {}
 				} },
 			angles = { {} },
 			area = "BORT_L",
 			board = 3,
-			center = "POINT_YJ83_2_1",
-			drawArgument1 = 202,
-			drawArgument2 = 203,
-			pointer = "PNT_ASM_SIGHT_L2"
+			center = "POINT_YJ83_2_1"
 		}, {
 			LN = { {
 					BR = { {
@@ -217,16 +517,13 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					PL = { {
 							type_ammunition = {}
 						} },
-					customViewPoint = { "genericMissile", { 0, 0, 0 } },
 					sensor = {}
 				} },
 			angles = { {} },
 			area = "BORT_R",
 			board = 4,
-			center = "POINT_YJ83_10_1",
-			drawArgument1 = 204,
-			drawArgument2 = 205,
-			pointer = "PNT_ASM_SIGHT_R1"
+			canSetTacticalDir = true,
+			center = "POINT_YJ83_10_1"
 		}, {
 			LN = { {
 					BR = { {
@@ -261,218 +558,12 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					PL = { {
 							type_ammunition = {}
 						} },
-					customViewPoint = { "genericMissile", { 0, 0, 0 } },
 					sensor = {}
 				} },
 			angles = { {} },
 			area = "BORT_R",
 			board = 4,
-			center = "POINT_YJ83_9_1",
-			drawArgument1 = 206,
-			drawArgument2 = 207,
-			pointer = "PNT_ASM_SIGHT_R2"
-		}, {
-			LN = { {
-					ECM_K = 0.4,
-					beamWidth = 1.5707963267949,
-					distanceMax = 220000,
-					distanceMin = 1000,
-					max_number_of_missiles_channels = 1,
-					max_trg_alt = 30000,
-					min_trg_alt = 5,
-					reactionTime = 2,
-					reflection_limit = 0.07,
-					type = 102
-				} },
-			angles = { { 2.3561944901923, -2.3561944901923, -0.17453292519943, 1.5707963267949 } },
-			omegaY = 2,
-			omegaZ = 2,
-			pidY = {
-				d = 12,
-				i = 0.05,
-				inn = 50,
-				p = 100
-			},
-			pidZ = {
-				d = 12,
-				i = 0.05,
-				inn = 50,
-				p = 100
-			},
-			pos = { 0, 19, 0 },
-			reference_angle_Y = 0
-		}, {
-			LN = { {} },
-			angles = { {} },
-			pidY = {},
-			pidZ = {},
-			pos = {}
-		}, {
-			LN = { {
-					ECM_K = 0.4,
-					beamWidth = 1.5707963267949,
-					distanceMax = 220000,
-					distanceMin = 1000,
-					max_number_of_missiles_channels = 1,
-					max_trg_alt = 30000,
-					min_trg_alt = 5,
-					reactionTime = 2,
-					reflection_limit = 0.07,
-					type = 102
-				} },
-			angles = { { -0.78539816339745, 0.78539816339745, -0.17453292519943, 1.5707963267949 } },
-			omegaY = 2,
-			omegaZ = 2,
-			pidY = {
-				d = 12,
-				i = 0.05,
-				inn = 50,
-				p = 100
-			},
-			pidZ = {
-				d = 12,
-				i = 0.05,
-				inn = 50,
-				p = 100
-			},
-			pos = { 0, 19, 0 },
-			reference_angle_Y = 3.1415926535898
-		}, {
-			LN = { {} },
-			angles = { {} },
-			pidY = {},
-			pidZ = {},
-			pos = {}
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "POINT_9M317_1_1"
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					customViewPoint = { "genericMissile", { 0, 3, 0 } },
-					depends_on_unit = { { { "self", 6 } }, { { "self", 7 } } },
-					sensor = {}
-				} },
-			PPI_view = "GenericPPI/GenericPPI",
-			angles = { { 2.3561944901923, -2.3561944901923, -0.17453292519943, 1.5707963267949 } },
-			angles_mech = { {} },
-			area = "NOSE_L",
-			board = 1,
-			center = "TARGET_9M317_1",
-			drawArgument1 = 49,
-			drawArgument2 = 50,
-			isoviewOffset = { 0, 6, 0 },
-			pointer = "POINT_9M317_1_1",
-			reference_angle_Y = 0,
-			reloadAngleY = 0
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "POINT_9M317_2_1"
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					customViewPoint = { "genericMissile", { 0, 3, 0 } },
-					depends_on_unit = { { { "self", 8 } }, { { "self", 9 } } },
-					sensor = {}
-				} },
-			PPI_view = "GenericPPI/GenericPPI",
-			angles = { { -1.5707963267949, 1.5707963267949, -0.17453292519943, 1.5707963267949 } },
-			angles_mech = { {} },
-			area = "KORMA_R",
-			board = 1,
-			center = "TARGET_9M317_2",
-			drawArgument1 = 51,
-			drawArgument2 = 52,
-			isoviewOffset = { 0, 6, 0 },
-			pointer = "POINT_9M317_2_1",
-			reference_angle_Y = 3.1415926535898,
-			reloadAngleY = 3.1415926535898
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "POINT_AK530_1_1",
-							pos = {}
-						} },
-					PL = { {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						} },
-					customViewPoint = { "IronSight/IronSight", { 0, 0, 0 } },
-					fireAnimationArgument = 120,
-					sensor = {}
-				} },
-			angles = { { 3.1415926535898, 0.17453292519943, -0.43633231299858, 1.5184364492351 } },
-			angles_mech = { { 3.1415926535898, 0.17453292519943, -0.43633231299858, 1.5184364492351 } },
-			area = "BORT_L",
-			center = "TARGET_AK530_1_1",
-			drawArgument1 = 19,
-			drawArgument2 = 20,
-			pidY = {},
-			pidZ = {},
-			pointer = "PNT_CIWS_SIGHT_L",
-			reference_angle_Y = 1.5707963267949
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "POINT_AK530_2_1",
-							pos = {}
-						} },
-					PL = { {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						} },
-					customViewPoint = { "IronSight/IronSight", { 0, 0, 0 } },
-					fireAnimationArgument = 119,
-					sensor = {}
-				} },
-			angles = { { -0.17453292519943, -3.1415926535898, -0.43633231299858, 1.5184364492351 } },
-			angles_mech = { { -0.17453292519943, -3.1415926535898, -0.43633231299858, 1.5184364492351 } },
-			area = "BORT_R",
-			center = "TARGET_AK530_2_1",
-			drawArgument1 = 17,
-			drawArgument2 = 18,
-			pidY = {},
-			pidZ = {},
-			pointer = "PNT_CIWS_SIGHT_R",
-			reference_angle_Y = -1.5707963267949
+			center = "POINT_YJ83_9_1"
 		},
 		maxTargetDetectionRange = 450000,
 		radar_type = 102,
@@ -503,7 +594,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 3, 12, 13, "Redacted", "Destroyers", "RADAR_BAND1_FOR_ARM", "RADAR_BAND2_FOR_ARM", "DetectionByAWACS", "Armed Ship", "HelicopterCarrier", "Naval", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
+	attribute = { 3, 12, 14, "Redacted", "Destroyers", "RADAR_BAND1_FOR_ARM", "RADAR_BAND2_FOR_ARM", "DetectionByAWACS", "Straight_in_approach_type", "Armed Ship", "HelicopterCarrier", "Naval", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
 	chassis = {},
 	distFindObstacles = 568.4,
 	draft = 15,

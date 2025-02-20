@@ -1,7 +1,8 @@
 _G["launcher"]["{X-25MR}"] = {
 	CLSID = "{X-25MR}",
 	Count = 1,
-	Cx_pil = 0.00209228515625,
+	Cx_item = 0.00209228515625,
+	Cx_pil = 0.00309228515625,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "APU-68"

@@ -1,6 +1,7 @@
 _G["launcher"]["DIS_MK_82S_DUAL_GDJ_II19_L"] = {
 	CLSID = "DIS_MK_82S_DUAL_GDJ_II19_L",
 	Count = 2,
+	Cx_item = 0.00035,
 	Cx_pil = 0.00192,
 	Elements = { {
 			IsAdapter = true,
