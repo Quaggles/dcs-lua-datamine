@@ -1229,10 +1229,6 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "Ship_Tilde_Supply"
 				}, {
-					Name = "ara_vdm"
-				}, {
-					Name = "atconveyor"
-				}, {
 					Name = "LST_Mk2"
 				}, {
 					Name = "USS_Samuel_Chase"

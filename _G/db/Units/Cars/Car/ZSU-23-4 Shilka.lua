@@ -3,6 +3,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	CustomAimPoint = { 0, 1.7, 0 },
 	DetectionRange = 5000,
 	DisplayName = 'SPAAA ZSU-23-4 Shilka "Gun Dish"',
 	DisplayNameShort = "ZSU-23",

@@ -1205,11 +1205,11 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "HarborTug"
 				}, {
+					Name = "leander-gun-condell"
+				}, {
+					Name = "leander-gun-lynch"
+				}, {
 					Name = "Ship_Tilde_Supply"
-				}, {
-					Name = "ara_vdm"
-				}, {
-					Name = "atconveyor"
 				} }
 		},
 		WWIIstructures = {

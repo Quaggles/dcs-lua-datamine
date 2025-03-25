@@ -86,48 +86,6 @@ _G["launcher"]["{LAU_34_AGM_45A_SWA}"] = {
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_rfgu_type",
-					value = 6
-				} },
-			baseDim = "Hz",
-			control = "spinbox",
-			defValue = 7900000000,
-			dimension = "GHz",
-			id = "rf_lower_limit_ctrl_Mk36",
-			label = "Lower RF Limit",
-			max = 1000000000000,
-			min = 0,
-			nLocDim = "GHz",
-			readOnly = true,
-			step = 0.01,
-			stringIndex = 3,
-			wCtrl = 60,
-			wDim = 30,
-			xCtrl = 200,
-			xLbl = 10
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_rfgu_type",
-					value = 5
-				} },
-			baseDim = "Hz",
-			control = "spinbox",
-			defValue = 4000000000,
-			dimension = "GHz",
-			id = "rf_lower_limit_ctrl_Mk25",
-			label = "Lower RF Limit",
-			max = 1000000000000,
-			min = 0,
-			nLocDim = "GHz",
-			readOnly = true,
-			step = 0.01,
-			stringIndex = 3,
-			wCtrl = 60,
-			wDim = 30,
-			xCtrl = 200,
-			xLbl = 10
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_rfgu_type",
 					value = 7
 				} },
 			baseDim = "Hz",
@@ -149,13 +107,13 @@ _G["launcher"]["{LAU_34_AGM_45A_SWA}"] = {
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_rfgu_type",
-					value = 1
+					value = 5
 				} },
 			baseDim = "Hz",
 			control = "spinbox",
-			defValue = 4800000000,
+			defValue = 4000000000,
 			dimension = "GHz",
-			id = "rf_lower_limit_ctrl_Mk22Mod2",
+			id = "rf_lower_limit_ctrl_Mk25",
 			label = "Lower RF Limit",
 			max = 1000000000000,
 			min = 0,
@@ -191,13 +149,13 @@ _G["launcher"]["{LAU_34_AGM_45A_SWA}"] = {
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_rfgu_type",
-					value = 4
+					value = 10
 				} },
 			baseDim = "Hz",
 			control = "spinbox",
-			defValue = 2500000000,
+			defValue = 2000000000,
 			dimension = "GHz",
-			id = "rf_lower_limit_ctrl_Mk24Mod34",
+			id = "rf_lower_limit_ctrl_Mk50",
 			label = "Lower RF Limit",
 			max = 1000000000000,
 			min = 0,
@@ -233,13 +191,34 @@ _G["launcher"]["{LAU_34_AGM_45A_SWA}"] = {
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_rfgu_type",
-					value = 3
+					value = 4
 				} },
 			baseDim = "Hz",
 			control = "spinbox",
-			defValue = 2650000000,
+			defValue = 2500000000,
 			dimension = "GHz",
-			id = "rf_lower_limit_ctrl_Mk24Mod5",
+			id = "rf_lower_limit_ctrl_Mk24Mod34",
+			label = "Lower RF Limit",
+			max = 1000000000000,
+			min = 0,
+			nLocDim = "GHz",
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 3,
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 200,
+			xLbl = 10
+		}, {
+			VisibilityCondition = { {
+					id = "NFP_rfgu_type",
+					value = 6
+				} },
+			baseDim = "Hz",
+			control = "spinbox",
+			defValue = 7900000000,
+			dimension = "GHz",
+			id = "rf_lower_limit_ctrl_Mk36",
 			label = "Lower RF Limit",
 			max = 1000000000000,
 			min = 0,
@@ -275,13 +254,13 @@ _G["launcher"]["{LAU_34_AGM_45A_SWA}"] = {
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_rfgu_type",
-					value = 10
+					value = 3
 				} },
 			baseDim = "Hz",
 			control = "spinbox",
-			defValue = 2000000000,
+			defValue = 2650000000,
 			dimension = "GHz",
-			id = "rf_lower_limit_ctrl_Mk50",
+			id = "rf_lower_limit_ctrl_Mk24Mod5",
 			label = "Lower RF Limit",
 			max = 1000000000000,
 			min = 0,
@@ -296,14 +275,14 @@ _G["launcher"]["{LAU_34_AGM_45A_SWA}"] = {
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_rfgu_type",
-					value = 8
+					value = 1
 				} },
 			baseDim = "Hz",
 			control = "spinbox",
-			defValue = 10000000000,
+			defValue = 4800000000,
 			dimension = "GHz",
-			id = "rf_upper_limit_ctrl_Mk49Mod0",
-			label = "Upper RF Limit",
+			id = "rf_lower_limit_ctrl_Mk22Mod2",
+			label = "Lower RF Limit",
 			max = 1000000000000,
 			min = 0,
 			nLocDim = "GHz",
@@ -312,50 +291,8 @@ _G["launcher"]["{LAU_34_AGM_45A_SWA}"] = {
 			stringIndex = 3,
 			wCtrl = 60,
 			wDim = 30,
-			xCtrl = 500,
-			xLbl = 400
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_rfgu_type",
-					value = 9
-				} },
-			baseDim = "Hz",
-			control = "spinbox",
-			defValue = 10000000000,
-			dimension = "GHz",
-			id = "rf_upper_limit_ctrl_Mk49Mod1",
-			label = "Upper RF Limit",
-			max = 1000000000000,
-			min = 0,
-			nLocDim = "GHz",
-			readOnly = true,
-			step = 0.01,
-			stringIndex = 3,
-			wCtrl = 60,
-			wDim = 30,
-			xCtrl = 500,
-			xLbl = 400
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_rfgu_type",
-					value = 7
-				} },
-			baseDim = "Hz",
-			control = "spinbox",
-			defValue = 1000000000,
-			dimension = "GHz",
-			id = "rf_upper_limit_ctrl_Mk37",
-			label = "Upper RF Limit",
-			max = 1000000000000,
-			min = 0,
-			nLocDim = "GHz",
-			readOnly = true,
-			step = 0.01,
-			stringIndex = 3,
-			wCtrl = 60,
-			wDim = 30,
-			xCtrl = 500,
-			xLbl = 400
+			xCtrl = 200,
+			xLbl = 10
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_rfgu_type",
@@ -401,13 +338,13 @@ _G["launcher"]["{LAU_34_AGM_45A_SWA}"] = {
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_rfgu_type",
-					value = 2
+					value = 9
 				} },
 			baseDim = "Hz",
 			control = "spinbox",
-			defValue = 4000000000,
+			defValue = 10000000000,
 			dimension = "GHz",
-			id = "rf_upper_limit_ctrl_Mk23",
+			id = "rf_upper_limit_ctrl_Mk49Mod1",
 			label = "Upper RF Limit",
 			max = 1000000000000,
 			min = 0,
@@ -422,13 +359,13 @@ _G["launcher"]["{LAU_34_AGM_45A_SWA}"] = {
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_rfgu_type",
-					value = 6
+					value = 8
 				} },
 			baseDim = "Hz",
 			control = "spinbox",
-			defValue = 9600000000,
+			defValue = 10000000000,
 			dimension = "GHz",
-			id = "rf_upper_limit_ctrl_Mk36",
+			id = "rf_upper_limit_ctrl_Mk49Mod0",
 			label = "Upper RF Limit",
 			max = 1000000000000,
 			min = 0,
@@ -464,13 +401,13 @@ _G["launcher"]["{LAU_34_AGM_45A_SWA}"] = {
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_rfgu_type",
-					value = 4
+					value = 7
 				} },
 			baseDim = "Hz",
 			control = "spinbox",
-			defValue = 3500000000,
+			defValue = 1000000000,
 			dimension = "GHz",
-			id = "rf_upper_limit_ctrl_Mk24Mod34",
+			id = "rf_upper_limit_ctrl_Mk37",
 			label = "Upper RF Limit",
 			max = 1000000000000,
 			min = 0,
@@ -503,6 +440,86 @@ _G["launcher"]["{LAU_34_AGM_45A_SWA}"] = {
 			wDim = 30,
 			xCtrl = 500,
 			xLbl = 400
+		}, {
+			VisibilityCondition = { {
+					id = "NFP_rfgu_type",
+					value = 4
+				} },
+			baseDim = "Hz",
+			control = "spinbox",
+			defValue = 3500000000,
+			dimension = "GHz",
+			id = "rf_upper_limit_ctrl_Mk24Mod34",
+			label = "Upper RF Limit",
+			max = 1000000000000,
+			min = 0,
+			nLocDim = "GHz",
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 3,
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 500,
+			xLbl = 400
+		}, {
+			VisibilityCondition = { {
+					id = "NFP_rfgu_type",
+					value = 6
+				} },
+			baseDim = "Hz",
+			control = "spinbox",
+			defValue = 9600000000,
+			dimension = "GHz",
+			id = "rf_upper_limit_ctrl_Mk36",
+			label = "Upper RF Limit",
+			max = 1000000000000,
+			min = 0,
+			nLocDim = "GHz",
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 3,
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 500,
+			xLbl = 400
+		}, {
+			VisibilityCondition = { {
+					id = "NFP_rfgu_type",
+					value = 2
+				} },
+			baseDim = "Hz",
+			control = "spinbox",
+			defValue = 4000000000,
+			dimension = "GHz",
+			id = "rf_upper_limit_ctrl_Mk23",
+			label = "Upper RF Limit",
+			max = 1000000000000,
+			min = 0,
+			nLocDim = "GHz",
+			readOnly = true,
+			step = 0.01,
+			stringIndex = 3,
+			wCtrl = 60,
+			wDim = 30,
+			xCtrl = 500,
+			xLbl = 400
+		}, {
+			baseDim = "",
+			control = "comboList",
+			defValue = 0,
+			id = "smoke_marker",
+			label = "WP Marker Charge",
+			stringIndex = 4,
+			values = { {
+					dispName = "Not Installed",
+					id = 0
+				}, {
+					dispName = "Installed",
+					id = 1
+				} },
+			wCtrl = 360,
+			xCtrl = 200,
+			xLbl = 10
 		} },
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

@@ -23,7 +23,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	},
 	DisplayName = "F-117A",
 	EmptyWeight = "13380",
-	H_max = 10000,
+	H_max = 13700,
 	HumanCockpit = false,
 	HumanRadio = {
 		editable = true,

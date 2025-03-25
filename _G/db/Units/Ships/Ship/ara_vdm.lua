@@ -53,6 +53,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		}, {
 			name = "AircraftCarrier With Arresting Gear"
 		} },
+	Countries = { "UK", "Argentina" },
 	DM = { {
 			area_arg = 70,
 			area_fire = {

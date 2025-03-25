@@ -4,6 +4,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		}, {
 			name = "Armed Ship"
 		} },
+	Countries = { "UK" },
 	DM = { {
 			area_arg = 70,
 			area_fire = {
@@ -147,7 +148,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	},
 	Sensors = {
 		OPTIC = { "long-range naval optics", "long-range naval LLTV", "long-range naval FLIR" },
-		RADAR = { "Osa 9A33 ln", "rezki search radar", "carrier search radar" }
+		RADAR = { "carrier search radar" }
 	},
 	Singleton = "yes",
 	TACAN = false,

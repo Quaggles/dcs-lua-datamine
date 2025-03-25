@@ -1,25 +1,4 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
-	AddPropVehicle = { {
-			control = "checkbox",
-			defValue = true,
-			id = "BINO_0",
-			label = "Generic LD"
-		}, {
-			control = "checkbox",
-			defValue = true,
-			id = "BINO_1",
-			label = "Steiner 7x50"
-		}, {
-			control = "checkbox",
-			defValue = true,
-			id = "BINO_2",
-			label = "Moskito"
-		}, {
-			control = "checkbox",
-			defValue = true,
-			id = "BINO_3",
-			label = "Moskito TI"
-		} },
 	DetectionRange = 0,
 	DisplayName = "JTAC",
 	DisplayNameShort = "JTAC",

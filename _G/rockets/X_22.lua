@@ -33,6 +33,7 @@ _G["rockets"]["#Index"] = {
 	exhaust = { 0.9, 0.9, 0.9, 0.05 },
 	name = "X_22",
 	sigma = { 15, 15, 15 },
+	smoke_opacity_type = 1,
 	t_acc = 10,
 	t_b = 0,
 	t_marsh = 50,

@@ -1132,10 +1132,6 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "HarborTug"
 				}, {
 					Name = "Ship_Tilde_Supply"
-				}, {
-					Name = "ara_vdm"
-				}, {
-					Name = "atconveyor"
 				} }
 		},
 		WWIIstructures = {

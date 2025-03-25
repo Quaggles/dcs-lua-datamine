@@ -265,7 +265,7 @@ _G["rockets"]["#Index"] = {
 		out_w_add_y = 0,
 		time_coeff_data = { 25, 0.9, 18, 0.86, 15, 0.8, 11.7, 0.58, 6.8, 0.3, 3, 0.2 },
 		trigger_add_time = 1,
-		wind_correction_coeff = 1
+		wind_correction_coeff = 0.72
 	},
 	scheme = "JSOW_AB",
 	seeker = {

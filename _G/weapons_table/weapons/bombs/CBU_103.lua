@@ -6,7 +6,15 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_103"] = {
 	caliber = 0.39624,
 	client = {
 		Reflection = 0.04,
-		WCMD_guidence = {
+		arming_delay = {
+			delay_time = 0.8,
+			enabled = true
+		},
+		arming_vane = {
+			enabled = false,
+			velK = 1
+		},
+		autopilot = {
 			Kdx = 0.01,
 			Kx = 0.12,
 			PID_differ = 3,
@@ -18,14 +26,6 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_103"] = {
 			fins_limit = 0.6,
 			fins_limit_x = 0.04,
 			signal_limit = 0.16
-		},
-		arming_delay = {
-			delay_time = 0.8,
-			enabled = true
-		},
-		arming_vane = {
-			enabled = false,
-			velK = 1
 		},
 		fm = {
 			A = 0.36,
@@ -247,7 +247,15 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_103"] = {
 	name = "CBU_103",
 	server = {
 		Reflection = 0.04,
-		WCMD_guidence = {
+		arming_delay = {
+			delay_time = 0.8,
+			enabled = true
+		},
+		arming_vane = {
+			enabled = false,
+			velK = 1
+		},
+		autopilot = {
 			Kdx = 0.01,
 			Kx = 0.12,
 			PID_differ = 3,
@@ -259,14 +267,6 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_103"] = {
 			fins_limit = 0.6,
 			fins_limit_x = 0.04,
 			signal_limit = 0.16
-		},
-		arming_delay = {
-			delay_time = 0.8,
-			enabled = true
-		},
-		arming_vane = {
-			enabled = false,
-			velK = 1
 		},
 		fm = {
 			A = 0.36,

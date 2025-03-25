@@ -38,6 +38,10 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			args = { 233 },
 			critical_damage = 3
 		},
+		[55] = {
+			args = { 81 },
+			critical_damage = 5
+		},
 		[56] = {
 			args = { 158 },
 			critical_damage = 5

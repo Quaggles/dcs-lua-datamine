@@ -482,6 +482,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "ZSU_57_2",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "TugHarlan_drivable"
 				}, {
 					Name = "B600_drivable"
@@ -1380,10 +1384,6 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "HarborTug"
 				}, {
 					Name = "Ship_Tilde_Supply"
-				}, {
-					Name = "ara_vdm"
-				}, {
-					Name = "atconveyor"
 				}, {
 					Name = "LST_Mk2"
 				}, {

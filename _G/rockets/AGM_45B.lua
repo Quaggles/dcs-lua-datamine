@@ -31,10 +31,20 @@ _G["rockets"]["#Index"] = {
 	Z_back = 0,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/anti-radiation missiles.lua",
 	_origin = "AircraftWeaponPack",
+	actuator = {
+		D = 500,
+		T1 = 0,
+		T2 = 0.005,
+		Tf = 0,
+		fin_stall = 0,
+		max_delta = 0.1221730476396,
+		max_omega = 3.6651914291881,
+		sim_count = 4
+	},
 	ap = {
 		EAS_Cp = { 0.30033732, 0.94117171, 17.82526047, -0.02109645, -0.03571429, 0.35952381, -1.15797619, 1.20857143 },
 		deadzone = 0,
-		deflection = 0.10471975511966
+		deflection = 0.1221730476396
 	},
 	boost = {
 		boost_factor = 0,
@@ -80,7 +90,7 @@ _G["rockets"]["#Index"] = {
 		Mzw = { -1, -1 },
 		S = 0.0324,
 		caliber = 0.2,
-		delta_max = 0.10471975511966,
+		delta_max = 0.1221730476396,
 		draw_fins_conv = { 1.5707963267949, 1, 1 },
 		fins_part_val = 0,
 		fins_stall = 0,
@@ -145,6 +155,13 @@ _G["rockets"]["#Index"] = {
 			username = "AGM-45B"
 		} },
 	sigma = { 0, 0, 0 },
+	smoke = {
+		color = { 1, 1, 1 },
+		duration = 60,
+		flare = true,
+		intensity = 3,
+		transparency = 0.8
+	},
 	t_acc = 5,
 	t_b = 0,
 	t_marsh = 15,

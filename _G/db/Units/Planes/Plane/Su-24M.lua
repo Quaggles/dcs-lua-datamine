@@ -323,7 +323,30 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{E86C5AA5-6D49-4F00-AD2E-79A62D6DDE26}",
 					arg_value = 0,
-					connector = "PylonBD3_1"
+					connector = "PylonBD3_1",
+					forbidden = <3>{ {
+							loadout = { "{40AB87E8-BEFB-4D85-90D9-B2753ACF9514}" },
+							station = 2
+						}, {
+							loadout = { "{APK_9}" },
+							station = 2
+						}, {
+							loadout = { "{40AB87E8-BEFB-4D85-90D9-B2753ACF9514}" },
+							station = 4
+						}, {
+							loadout = { "{APK_9}" },
+							station = 4
+						}, {
+							loadout = { "{40AB87E8-BEFB-4D85-90D9-B2753ACF9514}" },
+							station = 7
+						}, {
+							loadout = { "{APK_9}" },
+							station = 7
+						} },
+					required = <4>{ {
+							loadout = { "{0519A264-0AB6-11d6-9193-00A0249B6F00}" },
+							station = 5
+						} }
 				}, {
 					CLSID = "{292960BB-6518-41AC-BADA-210D65D5073C}",
 					arg_value = 0,
@@ -331,7 +354,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{Kh-25MP}",
 					arg_value = 0,
-					connector = "PylonBD3_1"
+					connector = "PylonBD3_1",
+					forbidden = <table 3>,
+					required = <table 4>
 				}, {
 					CLSID = "{R-60 2L}",
 					arg_value = 0,
@@ -381,17 +406,116 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{D8F2C90B-887B-4B9E-9FE2-996BC9E9AF03}",
 					Type = 1,
 					arg_value = 1,
-					attach_point_position = { 0, -0.09, 0 }
+					attach_point_position = { 0, -0.09, 0 },
+					forbidden = <table 3>,
+					required = <table 4>
 				}, {
 					CLSID = "{FE382A68-8620-4AC0-BDF5-709BFE3977D7}",
 					Type = 1,
 					arg_value = 1,
-					attach_point_position = { 0, -0.09, 0 }
+					attach_point_position = { 0, -0.09, 0 },
+					forbidden = <table 3>,
+					required = <table 4>
 				}, {
 					CLSID = "{40AB87E8-BEFB-4D85-90D9-B2753ACF9514}",
 					Type = 1,
 					arg_value = 1,
-					attach_point_position = { 0, -0.09, 0 }
+					attach_point_position = { 0, -0.09, 0 },
+					forbidden = <5>{ {
+							loadout = { "{0519A264-0AB6-11d6-9193-00A0249B6F00}" },
+							station = 1
+						}, {
+							loadout = { "{16602053-4A12-40A2-B214-AB60D481B20E}" },
+							station = 1
+						}, {
+							loadout = { "{D8F2C90B-887B-4B9E-9FE2-996BC9E9AF03}" },
+							station = 1
+						}, {
+							loadout = { "{E86C5AA5-6D49-4F00-AD2E-79A62D6DDE26}" },
+							station = 1
+						}, {
+							loadout = { "{FE382A68-8620-4AC0-BDF5-709BFE3977D7}" },
+							station = 1
+						}, {
+							loadout = { "{Kh-25MP}" },
+							station = 1
+						}, {
+							loadout = { "{0519A264-0AB6-11d6-9193-00A0249B6F00}" },
+							station = 2
+						}, {
+							loadout = { "{16602053-4A12-40A2-B214-AB60D481B20E}" },
+							station = 2
+						}, {
+							loadout = { "{D8F2C90B-887B-4B9E-9FE2-996BC9E9AF03}" },
+							station = 2
+						}, {
+							loadout = { "{E86C5AA5-6D49-4F00-AD2E-79A62D6DDE26}" },
+							station = 2
+						}, {
+							loadout = { "{FE382A68-8620-4AC0-BDF5-709BFE3977D7}" },
+							station = 2
+						}, {
+							loadout = { "{Kh-25MP}" },
+							station = 2
+						}, {
+							loadout = { "{0519A264-0AB6-11d6-9193-00A0249B6F00}" },
+							station = 5
+						}, {
+							loadout = { "{16602053-4A12-40A2-B214-AB60D481B20E}" },
+							station = 5
+						}, {
+							loadout = { "{D8F2C90B-887B-4B9E-9FE2-996BC9E9AF03}" },
+							station = 5
+						}, {
+							loadout = { "{E86C5AA5-6D49-4F00-AD2E-79A62D6DDE26}" },
+							station = 5
+						}, {
+							loadout = { "{FE382A68-8620-4AC0-BDF5-709BFE3977D7}" },
+							station = 5
+						}, {
+							loadout = { "{Kh-25MP}" },
+							station = 5
+						}, {
+							loadout = { "{0519A264-0AB6-11d6-9193-00A0249B6F00}" },
+							station = 7
+						}, {
+							loadout = { "{16602053-4A12-40A2-B214-AB60D481B20E}" },
+							station = 7
+						}, {
+							loadout = { "{D8F2C90B-887B-4B9E-9FE2-996BC9E9AF03}" },
+							station = 7
+						}, {
+							loadout = { "{E86C5AA5-6D49-4F00-AD2E-79A62D6DDE26}" },
+							station = 7
+						}, {
+							loadout = { "{FE382A68-8620-4AC0-BDF5-709BFE3977D7}" },
+							station = 7
+						}, {
+							loadout = { "{Kh-25MP}" },
+							station = 7
+						}, {
+							loadout = { "{0519A264-0AB6-11d6-9193-00A0249B6F00}" },
+							station = 8
+						}, {
+							loadout = { "{16602053-4A12-40A2-B214-AB60D481B20E}" },
+							station = 8
+						}, {
+							loadout = { "{D8F2C90B-887B-4B9E-9FE2-996BC9E9AF03}" },
+							station = 8
+						}, {
+							loadout = { "{E86C5AA5-6D49-4F00-AD2E-79A62D6DDE26}" },
+							station = 8
+						}, {
+							loadout = { "{FE382A68-8620-4AC0-BDF5-709BFE3977D7}" },
+							station = 8
+						}, {
+							loadout = { "{Kh-25MP}" },
+							station = 8
+						} },
+					required = <6>{ {
+							loadout = { "{APK_9}" },
+							station = 4
+						} }
 				}, {
 					CLSID = "{6DADF342-D4BA-4D8A-B081-BA928C4AF86D}",
 					arg_value = 0,
@@ -399,7 +523,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{E86C5AA5-6D49-4F00-AD2E-79A62D6DDE26}",
 					arg_value = 0,
-					connector = "PylonBD3_2"
+					connector = "PylonBD3_2",
+					forbidden = <table 3>,
+					required = <table 4>
 				}, {
 					CLSID = "{292960BB-6518-41AC-BADA-210D65D5073C}",
 					arg_value = 0,
@@ -519,7 +645,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{Kh-25MP}",
 					arg_value = 0,
-					connector = "PylonBD3_2"
+					connector = "PylonBD3_2",
+					forbidden = <table 3>,
+					required = <table 4>
 				} },
 			Number = 2,
 			Order = 2,
@@ -599,6 +727,18 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
+					CLSID = "{APK_9}",
+					attach_point_position = { 0.74, -0.302, 0 },
+					forbidden = { {
+							station = 5
+						}, {
+							loadout = { "{F99BEC1A-869D-4AC7-9730-FBA0E3B1F5FC}" },
+							station = 3
+						}, {
+							loadout = { "{F99BEC1A-869D-4AC7-9730-FBA0E3B1F5FC}" },
+							station = 6
+						} }
+				}, {
 					CLSID = "{4203753F-8198-4E85-9924-6F8FF679F9FF}",
 					arg_value = 0,
 					connector = "PylonBD3_4"
@@ -654,7 +794,20 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 4
 						} }
 				}, {
-					CLSID = "{0519A264-0AB6-11d6-9193-00A0249B6F00}"
+					CLSID = "{0519A264-0AB6-11d6-9193-00A0249B6F00}",
+					forbidden = { {
+							loadout = { "{39821727-F6E2-45B3-B1F0-490CC8921D1E}" },
+							station = 4
+						}, {
+							loadout = { "{KAB_1500LG_LOADOUT}" },
+							station = 4
+						}, {
+							loadout = { "{KAB_1500Kr_LOADOUT}" },
+							station = 4
+						}, {
+							loadout = { "{APK_9}" },
+							station = 4
+						} }
 				}, {
 					CLSID = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}",
 					arg_value = 0,
@@ -770,17 +923,23 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{D8F2C90B-887B-4B9E-9FE2-996BC9E9AF03}",
 					Type = 1,
 					arg_value = 1,
-					attach_point_position = { 0, -0.09, 0 }
+					attach_point_position = { 0, -0.09, 0 },
+					forbidden = <table 3>,
+					required = <table 4>
 				}, {
 					CLSID = "{FE382A68-8620-4AC0-BDF5-709BFE3977D7}",
 					Type = 1,
 					arg_value = 1,
-					attach_point_position = { 0, -0.09, 0 }
+					attach_point_position = { 0, -0.09, 0 },
+					forbidden = <table 3>,
+					required = <table 4>
 				}, {
 					CLSID = "{40AB87E8-BEFB-4D85-90D9-B2753ACF9514}",
 					Type = 1,
 					arg_value = 1,
-					attach_point_position = { 0, -0.09, 0 }
+					attach_point_position = { 0, -0.09, 0 },
+					forbidden = <table 5>,
+					required = <table 6>
 				}, {
 					CLSID = "{6DADF342-D4BA-4D8A-B081-BA928C4AF86D}",
 					arg_value = 0,
@@ -788,7 +947,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{E86C5AA5-6D49-4F00-AD2E-79A62D6DDE26}",
 					arg_value = 0,
-					connector = "PylonBD3_7"
+					connector = "PylonBD3_7",
+					forbidden = <table 3>,
+					required = <table 4>
 				}, {
 					CLSID = "{292960BB-6518-41AC-BADA-210D65D5073C}",
 					arg_value = 0,
@@ -908,7 +1069,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{Kh-25MP}",
 					arg_value = 0,
-					connector = "PylonBD3_7"
+					connector = "PylonBD3_7",
+					forbidden = <table 3>,
+					required = <table 4>
 				} },
 			Number = 7,
 			Order = 7,
@@ -982,7 +1145,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{E86C5AA5-6D49-4F00-AD2E-79A62D6DDE26}",
 					arg_value = 0,
-					connector = "PylonBD3_8"
+					connector = "PylonBD3_8",
+					forbidden = <table 3>,
+					required = <table 4>
 				}, {
 					CLSID = "{292960BB-6518-41AC-BADA-210D65D5073C}",
 					arg_value = 0,
@@ -990,7 +1155,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{Kh-25MP}",
 					arg_value = 0,
-					connector = "PylonBD3_8"
+					connector = "PylonBD3_8",
+					forbidden = <table 3>,
+					required = <table 4>
 				}, {
 					CLSID = "{R-60 2R}",
 					arg_value = 0,

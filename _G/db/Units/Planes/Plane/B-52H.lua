@@ -528,7 +528,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}
 	},
 	Sensors = {
-		OPTIC = { "Litening AN/AAQ-28 FLIR", "Litening AN/AAQ-28 CCD TV" },
+		OPTIC = { "ASQ-151" },
 		RADAR = "B-52H SS radar",
 		RWR = "Abstract RWR"
 	},

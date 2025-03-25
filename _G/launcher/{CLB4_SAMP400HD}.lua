@@ -23,7 +23,7 @@ _G["launcher"]["{CLB4_SAMP400HD}"] = {
 			Rotation = <table 1>,
 			ShapeName = "SAMP_400R"
 		} },
-	Picture = "mk82AIR.png",
+	Picture = "mk83.png",
 	Weight = 1763,
 	Weight_Empty = 183,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",

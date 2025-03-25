@@ -24,7 +24,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_GUN_01",
-							recoilArgument = 26,
+							recoilArgument = 23,
 							recoilTime = 0.1
 						} },
 					PL = { {
@@ -59,7 +59,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				}, {
 					BR = { {
 							connector_name = "POINT_GUN",
-							recoilArgument = 23,
+							muzzleBrakeType = 3,
 							recoilTime = 0.3
 						} },
 					PL = { {
@@ -75,7 +75,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				}, {
 					BR = { {
 							connector_name = "POINT_GUN",
-							recoilArgument = 23,
 							recoilTime = 0.3
 						} },
 					PL = { {

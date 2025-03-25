@@ -173,6 +173,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							ammo_capacity = 2,
 							type_ammunition = {}
 						} },
+					rail_length = 3,
 					sensor = {},
 					show_external_missile = true
 				} },
@@ -203,6 +204,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							ammo_capacity = 2,
 							type_ammunition = {}
 						} },
+					rail_length = 3,
 					sensor = {},
 					show_external_missile = true
 				} },

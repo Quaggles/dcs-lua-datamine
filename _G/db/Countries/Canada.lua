@@ -1247,10 +1247,6 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "Ship_Tilde_Supply"
 				}, {
-					Name = "ara_vdm"
-				}, {
-					Name = "atconveyor"
-				}, {
 					Name = "USS_Samuel_Chase"
 				}, {
 					Name = "Higgins_boat"

@@ -366,7 +366,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							type_ammunition = {}
 						} },
 					min_launch_angle = 0.5235987755983,
-					sensor = {}
+					sensor = {},
+					show_external_missile = true
 				} },
 			angles = { { 2.3561944901923, -2.3561944901923, -0.17453292519943, 1.5707963267949 } },
 			angles_mech = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.5707963267949 } },

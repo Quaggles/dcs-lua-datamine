@@ -1282,6 +1282,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		} },
 	defFuelRatio = 0.5947,
 	detection_range_max = 250,
+	effects_presets = { {
+			effect = "OVERWING_VAPOR",
+			preset = "SU27"
+		} },
 	engines_count = 2,
 	engines_nozzles = { {
 			diameter = 1.137,

@@ -4,7 +4,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		}, {
 			name = "HelicopterCarrier"
 		} },
-	Countries = { "UK", "France", "ARG", "CHL" },
+	Countries = { "UK", "France", "Chile" },
 	DM = { {
 			area_arg = 72,
 			area_fire = {

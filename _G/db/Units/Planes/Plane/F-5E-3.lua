@@ -1241,8 +1241,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		disable_built_in_oxygen_system = true,
 		ffbPitchK = 0.65,
 		ffbRollK = 0.65,
-		major_shake_ampl = 0.25,
-		minor_shake_ampl = 0.07,
 		moment_of_inertia = { 4610, 48882, 52678, 0 },
 		new_rods = true,
 		suspension = { {
@@ -1328,7 +1326,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				wheel_static_friction_factor = 0.7
 			} },
 		throttle_anim_range = { -1, 1 },
-		user_options = "F-5E"
+		user_options = "F-5E",
+		wing_buffet_ampl = 0.3
 	},
 	HumanRadio = {
 		editable = true,
@@ -4392,14 +4391,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			},
 			[7] = {
 				lights = { {
-						angle_max = 0.78539816339745,
-						angular_velocity = 6.6322511575785,
 						argument = 192,
-						argument_threshold = 0.47,
-						cups = 1,
-						position = { -4.088, 1.97, 0 },
-						proto = <table 25>,
-						typename = "RotatingBeacon"
+						period = 0.95,
+						typename = "argnatostrobelight"
 					} },
 				typename = "collection"
 			},

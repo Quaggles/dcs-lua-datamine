@@ -669,6 +669,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			dcx_eng = 0.015,
 			dpdh_f = 1800,
 			dpdh_m = 1800,
+			exhaust_muffler_factor = 0.1,
 			hMaxEng = 12.5,
 			k_Eps = 6,
 			k_adiab_1 = 0.037923,

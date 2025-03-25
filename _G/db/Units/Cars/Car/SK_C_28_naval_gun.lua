@@ -1,5 +1,16 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Countries = { "Germany", "Third Reich", "Japan", "Italian Social Republic", "Finland", "Hungary", "Romania", "Bulgaria" },
+	DM = { {
+			area_name = "TARGET_CHASSIS",
+			armour = {
+				width = 0.65
+			}
+		}, {
+			area_name = "TARGET_TURRET",
+			armour = {
+				width = 0.02
+			}
+		} },
 	DetectionRange = 0,
 	DisplayName = "Gun 15cm SK C/28 Naval in Bunker",
 	DisplayNameShort = "Gun150",
@@ -59,8 +70,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 17, 26, "Redacted", "Artillery", "Fortifications", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "Indirect fire", "NonAndLightArmoredUnits", "LightArmoredUnits", "AntiAir Armed Vehicles", "HeavyArmoredUnits" },
 	category = "Fortification",
 	chassis = {
-		armour_thickness = 0.02,
-		life = 160
+		armour_thickness = 0.3,
+		life = 260
 	},
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000076",

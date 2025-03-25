@@ -5,7 +5,7 @@ _G["db"]["Units"]["GT_t"]["WS_t"]["L118"]["LN"]["#Index"] = {
 	PL = { {
 			ammo_capacity = 150,
 			reload_time = 600,
-			shell_name = { "UOF412_100HE" },
+			shell_name = { "2A18_122" },
 			shot_delay = 4
 		} },
 	automaticLoader = false,

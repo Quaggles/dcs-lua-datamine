@@ -24,7 +24,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 								z = 2.1
 							},
 							pos = {},
-							shellCaseID = 0,
+							shellCaseID = 7,
 							shellCaseOrientation = {
 								x = 0,
 								y = 0,

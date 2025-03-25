@@ -2609,10 +2609,6 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "Ship_Tilde_Supply"
 				}, {
-					Name = "ara_vdm"
-				}, {
-					Name = "atconveyor"
-				}, {
 					Name = "Uboat_VIIC",
 					in_service = 0,
 					out_of_service = 40000
@@ -2709,6 +2705,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "ara_vdm",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "La_Combattante_II",
 					in_service = 0,
 					out_of_service = 40000
@@ -2794,6 +2794,10 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "leander-gun-ariadne",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "atconveyor",
 					in_service = 0,
 					out_of_service = 40000
 				} }

@@ -1763,8 +1763,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					Cx_gain = 0.846
 				}, <54>{
 					CLSID = "{BRU41_6X_BDU-33}",
-					Cx_gain_empty = 6.024,
-					Cx_gain_item = 3.636
+					Cx_gain_empty = 0.5,
+					Cx_gain_item = 0.581
 				}, <55>{
 					CLSID = "{AGM-154A}",
 					Cx_gain = 0.277,
@@ -2027,8 +2027,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					Cx_gain = 0.846
 				}, <117>{
 					CLSID = "{BRU41_6X_BDU-33}",
-					Cx_gain_empty = 6.024,
-					Cx_gain_item = 3.636
+					Cx_gain_empty = 0.5,
+					Cx_gain_item = 0.581
 				}, <118>{
 					CLSID = "{AGM-154A}",
 					Cx_gain = 0.277,

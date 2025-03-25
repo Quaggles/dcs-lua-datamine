@@ -179,7 +179,7 @@ _G["rockets"]["#Index"] = {
 	v_mid = 400,
 	v_min = 170,
 	warhead = <1>{
-		caliber = 90,
+		caliber = 203,
 		concrete_factors = { 1, 1, 1 },
 		concrete_obj_factor = 1,
 		cumulative_factor = 2,
@@ -188,7 +188,7 @@ _G["rockets"]["#Index"] = {
 		mass = 20,
 		obj_factors = { 2, 1 },
 		other_factors = { 1, 1, 1 },
-		piercing_mass = 0
+		piercing_mass = 8
 	},
 	warhead_air = <table 1>,
 	wsTypeOfWeapon = <2>{ 4, 4, 8, "Redacted" },

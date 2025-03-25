@@ -1139,10 +1139,6 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "Ship_Tilde_Supply"
 				}, {
-					Name = "ara_vdm"
-				}, {
-					Name = "atconveyor"
-				}, {
 					Name = "La_Combattante_II"
 				} }
 		},

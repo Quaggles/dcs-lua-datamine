@@ -361,17 +361,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	nose_gear_pos = { 4.594, -2.056, 0 },
 	nose_gear_wheel_diameter = 0.754,
 	passivCounterm = {
-		CMDS_Edit = true,
-		SingleChargeTotal = 128,
+		CMDS_Edit = false,
+		SingleChargeTotal = 0,
 		chaff = {
-			chargeSz = 1,
-			default = 64,
-			increment = 32
+			chargeSz = 0,
+			default = 0,
+			increment = 0
 		},
 		flare = {
-			chargeSz = 1,
-			default = 64,
-			increment = 32
+			chargeSz = 0,
+			default = 0,
+			increment = 0
 		}
 	},
 	radar_can_see_ground = false,

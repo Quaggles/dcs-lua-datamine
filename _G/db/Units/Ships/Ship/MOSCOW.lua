@@ -561,7 +561,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					PL = { {
 							type_ammunition = {}
 						} },
-					sensor = {}
+					sensor = {},
+					show_external_missile = true
 				} },
 			angles = { {} },
 			area = "TPK_01_R",
@@ -579,7 +580,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					PL = { {
 							type_ammunition = {}
 						} },
-					sensor = {}
+					sensor = {},
+					show_external_missile = true
 				} },
 			angles = { {} },
 			area = "TPK_01_L",
@@ -597,7 +599,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					PL = { {
 							type_ammunition = {}
 						} },
-					sensor = {}
+					sensor = {},
+					show_external_missile = true
 				} },
 			angles = { {} },
 			area = "TPK_01_R",
@@ -615,7 +618,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					PL = { {
 							type_ammunition = {}
 						} },
-					sensor = {}
+					sensor = {},
+					show_external_missile = true
 				} },
 			angles = { {} },
 			area = "TPK_01_L",
@@ -633,7 +637,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					PL = { {
 							type_ammunition = {}
 						} },
-					sensor = {}
+					sensor = {},
+					show_external_missile = true
 				} },
 			angles = { {} },
 			area = "TPK_02_R",
@@ -651,7 +656,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					PL = { {
 							type_ammunition = {}
 						} },
-					sensor = {}
+					sensor = {},
+					show_external_missile = true
 				} },
 			angles = { {} },
 			area = "TPK_02_L",
@@ -669,7 +675,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					PL = { {
 							type_ammunition = {}
 						} },
-					sensor = {}
+					sensor = {},
+					show_external_missile = true
 				} },
 			angles = { {} },
 			area = "TPK_02_R",
@@ -687,7 +694,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					PL = { {
 							type_ammunition = {}
 						} },
-					sensor = {}
+					sensor = {},
+					show_external_missile = true
 				} },
 			angles = { {} },
 			area = "TPK_02_L",
@@ -705,7 +713,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					PL = { {
 							type_ammunition = {}
 						} },
-					sensor = {}
+					sensor = {},
+					show_external_missile = true
 				} },
 			angles = { {} },
 			area = "TPK_03_R",
@@ -723,7 +732,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					PL = { {
 							type_ammunition = {}
 						} },
-					sensor = {}
+					sensor = {},
+					show_external_missile = true
 				} },
 			angles = { {} },
 			area = "TPK_03_L",
@@ -741,7 +751,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					PL = { {
 							type_ammunition = {}
 						} },
-					sensor = {}
+					sensor = {},
+					show_external_missile = true
 				} },
 			angles = { {} },
 			area = "TPK_03_R",
@@ -759,7 +770,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					PL = { {
 							type_ammunition = {}
 						} },
-					sensor = {}
+					sensor = {},
+					show_external_missile = true
 				} },
 			angles = { {} },
 			area = "TPK_03_L",
@@ -777,7 +789,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					PL = { {
 							type_ammunition = {}
 						} },
-					sensor = {}
+					sensor = {},
+					show_external_missile = true
 				} },
 			angles = { {} },
 			area = "TPK_04_R",
@@ -795,7 +808,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					PL = { {
 							type_ammunition = {}
 						} },
-					sensor = {}
+					sensor = {},
+					show_external_missile = true
 				} },
 			angles = { {} },
 			area = "TPK_04_L",
@@ -813,7 +827,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					PL = { {
 							type_ammunition = {}
 						} },
-					sensor = {}
+					sensor = {},
+					show_external_missile = true
 				} },
 			angles = { {} },
 			area = "TPK_04_R",
@@ -831,7 +846,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					PL = { {
 							type_ammunition = {}
 						} },
-					sensor = {}
+					sensor = {},
+					show_external_missile = true
 				} },
 			angles = { {} },
 			area = "TPK_04_L",

@@ -1510,6 +1510,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Picture = "Mirage-F1.png",
 	Pylons = { {
 			Launchers = { {
+					CLSID = "<CLEAN>",
+					arg_value = 0
+				}, {
 					CLSID = "{R550_Magic_1}",
 					arg_value = 0.15,
 					attach_point_position = { -0.1, -0.09, 0 }
@@ -1525,11 +1528,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Y = -0.035,
 			Z = -4.329,
 			arg = 308,
-			arg_value = 0,
+			arg_value = 0.15,
 			connector = "Pylon1",
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
+					CLSID = "<CLEAN>",
+					arg_value = 0
+				}, {
 					CLSID = "{SAMP125LD}",
 					arg_value = 0.25
 				}, {
@@ -1617,11 +1623,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Y = -0.207,
 			Z = -2.867,
 			arg = 309,
-			arg_value = 0,
+			arg_value = 0.15,
 			connector = "Pylon2",
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
+					CLSID = "<CLEAN>",
+					arg_value = 0
+				}, {
 					CLSID = "{SAMP125LD}",
 					arg_value = 0.15
 				}, {
@@ -1734,11 +1743,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Y = -0.328,
 			Z = -2.048,
 			arg = 310,
-			arg_value = 0,
+			arg_value = 0.15,
 			connector = "Pylon3",
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
+					CLSID = "<CLEAN>",
+					arg_value = 0
+				}, {
 					CLSID = "{SAMP250LD}",
 					arg_value = 0.15
 				}, {
@@ -1804,11 +1816,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Y = -1.283,
 			Z = 0,
 			arg = 311,
-			arg_value = 0,
+			arg_value = 0.15,
 			connector = "Pylon4",
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
+					CLSID = "<CLEAN>",
+					arg_value = 0
+				}, {
 					CLSID = "{SAMP125LD}",
 					arg_value = 0.15
 				}, {
@@ -1921,11 +1936,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Y = -0.328,
 			Z = 2.048,
 			arg = 312,
-			arg_value = 0,
+			arg_value = 0.15,
 			connector = "Pylon5",
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
+					CLSID = "<CLEAN>",
+					arg_value = 0
+				}, {
 					CLSID = "{SAMP125LD}",
 					arg_value = 0.25
 				}, {
@@ -2013,11 +2031,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Y = -0.207,
 			Z = 2.867,
 			arg = 313,
-			arg_value = 0,
+			arg_value = 0.15,
 			connector = "Pylon6",
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
+					CLSID = "<CLEAN>",
+					arg_value = 0
+				}, {
 					CLSID = "{R550_Magic_1}",
 					arg_value = 0.15,
 					attach_point_position = { -0.1, -0.09, 0 }
@@ -2033,7 +2054,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Y = -0.035,
 			Z = 4.329,
 			arg = 314,
-			arg_value = 0,
+			arg_value = 0.15,
 			connector = "Pylon7",
 			use_full_connector_position = true
 		} },
