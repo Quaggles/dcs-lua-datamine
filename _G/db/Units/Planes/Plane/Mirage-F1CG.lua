@@ -216,8 +216,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			control = "comboList",
 			defValue = 1,
-			id = "RocketSalvoF1",
-			label = "F1 Rocket Launcher Salvo Count",
+			id = "RocketBurstF1",
+			label = "F1 Rocket Launcher Burst Count",
 			playerOnly = true,
 			values = { {
 					dispName = "6",
@@ -235,8 +235,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			control = "comboList",
 			defValue = 1,
-			id = "RocketSalvoF4",
-			label = "F4/JL100 Rocket Launchers Salvo Count",
+			id = "RocketBurstF4",
+			label = "F4/JL100 Rocket Launchers Burst Count",
 			playerOnly = true,
 			values = { {
 					dispName = "1",

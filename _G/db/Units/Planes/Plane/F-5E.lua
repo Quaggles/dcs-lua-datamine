@@ -1289,6 +1289,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	defFuelRatio = 1,
 	desrt = "f-5e_oblomok",
 	detection_range_max = 60,
+	encyclopedia_hidden = true,
 	engines_count = 2,
 	engines_nozzles = { {
 			azimuth = -2.08,
@@ -1625,7 +1626,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 								proto = <16>{
 									angle_max = 0.48869219055841,
 									color = { 255, 201, 125, 0.12792304845413 },
-									range = 66
+									range = 250
 								},
 								typename = "Spot"
 							}, {

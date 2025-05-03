@@ -31,6 +31,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			control = "checkbox",
 			defValue = true,
+			id = "IsModifiedJesterAllowed",
+			label = "Allow Jester Modifications",
+			playerOnly = true
+		}, {
+			control = "checkbox",
+			defValue = true,
 			id = "IsNvgAllowed",
 			label = "Allow Night Vision Goggles",
 			playerOnly = true
@@ -753,7 +759,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			enable = false,
 			hh = 0,
-			id = "/F-4E-45-MC/TACAN Info:Total Damage",
+			id = "/F-4E-45-MC/TACAN/Tacan Transmitter-Receiver:Total Damage",
 			label = "TACAN: Total",
 			mm = 0,
 			mmint = 1,
@@ -761,7 +767,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			enable = false,
 			hh = 0,
-			id = "/F-4E-45-MC/TACAN Info:Pilot Module Damage",
+			id = "/F-4E-45-MC/Pilot Cockpit/Pilot Right Console/TACAN Panel:Panel failed",
 			label = "TACAN: Pilot Module",
 			mm = 0,
 			mmint = 1,
@@ -769,7 +775,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			enable = false,
 			hh = 0,
-			id = "/F-4E-45-MC/TACAN Info:WSO Module Damage",
+			id = "/F-4E-45-MC/WSO Cockpit/WSO Left Console/TACAN Panel:Panel failed",
 			label = "TACAN: WSO Module",
 			mm = 0,
 			mmint = 1,
@@ -777,7 +783,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			enable = false,
 			hh = 0,
-			id = "/F-4E-45-MC/TACAN Info:Transmitter Damage",
+			id = "/F-4E-45-MC/TACAN/Tacan Transmitter-Receiver:Transmitter Damage",
 			label = "TACAN: Transmitter",
 			mm = 0,
 			mmint = 1,
@@ -785,7 +791,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			enable = false,
 			hh = 0,
-			id = "/F-4E-45-MC/TACAN Info:Receiver Damage",
+			id = "/F-4E-45-MC/TACAN/Tacan Transmitter-Receiver:Receiver Damage",
 			label = "TACAN: Receiver",
 			mm = 0,
 			mmint = 1,
@@ -2159,6 +2165,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{HB_F4E_SAMP250LD_TER_1x_SingleLeft}",
 					arg_value = 0.5
 				}, {
+					CLSID = "{HB_F4E_SAMP250HD_TER_3x}",
+					arg_value = 0.5
+				}, {
+					CLSID = "{HB_F4E_SAMP250HD_TER_2x_Left}",
+					arg_value = 0.5
+				}, {
+					CLSID = "{HB_F4E_SAMP250HD_TER_1x_SingleLeft}",
+					arg_value = 0.5
+				}, {
 					CLSID = "{HB_F4E_CBU-1A_MER_2x_Left}",
 					arg_value = 0.5
 				}, {
@@ -2378,6 +2393,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
 							station = 3
 						}, {
 							loadout = { "{Mk_84AIR_GP}" },
@@ -2608,6 +2632,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
+							station = 3
+						}, {
 							loadout = { "{Mk_84AIR_GP}" },
 							station = 3
 						}, {
@@ -2834,6 +2867,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
 							station = 3
 						}, {
 							loadout = { "{Mk_84AIR_GP}" },
@@ -3064,6 +3106,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
+							station = 3
+						}, {
 							loadout = { "{Mk_84AIR_GP}" },
 							station = 3
 						}, {
@@ -3290,6 +3341,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
 							station = 3
 						}, {
 							loadout = { "{Mk_84AIR_GP}" },
@@ -3520,6 +3580,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
+							station = 3
+						}, {
 							loadout = { "{Mk_84AIR_GP}" },
 							station = 3
 						}, {
@@ -3746,6 +3815,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
 							station = 3
 						}, {
 							loadout = { "{Mk_84AIR_GP}" },
@@ -3976,6 +4054,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
+							station = 3
+						}, {
 							loadout = { "{Mk_84AIR_GP}" },
 							station = 3
 						}, {
@@ -4202,6 +4289,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
 							station = 3
 						}, {
 							loadout = { "{Mk_84AIR_GP}" },
@@ -4432,6 +4528,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
+							station = 3
+						}, {
 							loadout = { "{Mk_84AIR_GP}" },
 							station = 3
 						}, {
@@ -4658,6 +4763,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
 							station = 3
 						}, {
 							loadout = { "{Mk_84AIR_GP}" },
@@ -4888,6 +5002,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
+							station = 3
+						}, {
 							loadout = { "{Mk_84AIR_GP}" },
 							station = 3
 						}, {
@@ -5114,6 +5237,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
 							station = 3
 						}, {
 							loadout = { "{Mk_84AIR_GP}" },
@@ -5344,6 +5476,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
+							station = 3
+						}, {
 							loadout = { "{Mk_84AIR_GP}" },
 							station = 3
 						}, {
@@ -5572,6 +5713,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
+							station = 3
+						}, {
 							loadout = { "{Mk_84AIR_GP}" },
 							station = 3
 						}, {
@@ -5798,6 +5948,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
 							station = 3
 						}, {
 							loadout = { "{Mk_84AIR_GP}" },
@@ -8645,6 +8804,306 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{HB_F4E_SAMP250LD_TER_1x_SingleRight}",
+					arg_value = 0,
+					forbidden = { {
+							loadout = { "{AIM-9B}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9J}" },
+							station = 2
+						}, {
+							loadout = { "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9JULI}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9M}" },
+							station = 2
+						}, {
+							loadout = { "CATM-9M" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9P5}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9P3}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 2
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9B}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9J}" },
+							station = 4
+						}, {
+							loadout = { "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9JULI}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9M}" },
+							station = 4
+						}, {
+							loadout = { "CATM-9M" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9P5}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9P3}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 4
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 4
+						} }
+				}, {
+					CLSID = "{HB_F4E_SAMP250HD_TER_3x}",
+					arg_value = 0,
+					forbidden = { {
+							loadout = { "{AIM-9B}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9J}" },
+							station = 2
+						}, {
+							loadout = { "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9JULI}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9M}" },
+							station = 2
+						}, {
+							loadout = { "CATM-9M" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9P5}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9P3}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 2
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9B}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9J}" },
+							station = 4
+						}, {
+							loadout = { "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9JULI}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9M}" },
+							station = 4
+						}, {
+							loadout = { "CATM-9M" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9P5}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9P3}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 4
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 4
+						} }
+				}, {
+					CLSID = "{HB_F4E_SAMP250HD_TER_2x_opposed}",
+					arg_value = 0,
+					forbidden = { {
+							loadout = { "{AIM-9B}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9J}" },
+							station = 2
+						}, {
+							loadout = { "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9JULI}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9M}" },
+							station = 2
+						}, {
+							loadout = { "CATM-9M" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9P5}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9P3}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 2
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9B}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9J}" },
+							station = 4
+						}, {
+							loadout = { "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9JULI}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9M}" },
+							station = 4
+						}, {
+							loadout = { "CATM-9M" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9P5}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9P3}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 4
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 4
+						} }
+				}, {
+					CLSID = "{HB_F4E_SAMP250HD_TER_1x_SingleRight}",
 					arg_value = 0,
 					forbidden = { {
 							loadout = { "{AIM-9B}" },
@@ -13857,6 +14316,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
+							station = 3
+						}, {
 							loadout = { "{Mk_84AIR_GP}" },
 							station = 3
 						}, {
@@ -14083,6 +14551,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
 							station = 3
 						}, {
 							loadout = { "{Mk_84AIR_GP}" },
@@ -14313,6 +14790,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
+							station = 3
+						}, {
 							loadout = { "{Mk_84AIR_GP}" },
 							station = 3
 						}, {
@@ -14539,6 +15025,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
 							station = 3
 						}, {
 							loadout = { "{Mk_84AIR_GP}" },
@@ -14769,6 +15264,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
+							station = 3
+						}, {
 							loadout = { "{Mk_84AIR_GP}" },
 							station = 3
 						}, {
@@ -14995,6 +15499,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
 							station = 3
 						}, {
 							loadout = { "{Mk_84AIR_GP}" },
@@ -15225,6 +15738,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
+							station = 3
+						}, {
 							loadout = { "{Mk_84AIR_GP}" },
 							station = 3
 						}, {
@@ -15451,6 +15973,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
 							station = 3
 						}, {
 							loadout = { "{Mk_84AIR_GP}" },
@@ -15681,6 +16212,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
+							station = 3
+						}, {
 							loadout = { "{Mk_84AIR_GP}" },
 							station = 3
 						}, {
@@ -15907,6 +16447,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
 							station = 3
 						}, {
 							loadout = { "{Mk_84AIR_GP}" },
@@ -16137,6 +16686,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
+							station = 3
+						}, {
 							loadout = { "{Mk_84AIR_GP}" },
 							station = 3
 						}, {
@@ -16363,6 +16921,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
 							station = 3
 						}, {
 							loadout = { "{Mk_84AIR_GP}" },
@@ -16593,6 +17160,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
+							station = 3
+						}, {
 							loadout = { "{Mk_84AIR_GP}" },
 							station = 3
 						}, {
@@ -16819,6 +17395,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
 							station = 3
 						}, {
 							loadout = { "{Mk_84AIR_GP}" },
@@ -17049,6 +17634,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
+							station = 3
+						}, {
 							loadout = { "{Mk_84AIR_GP}" },
 							station = 3
 						}, {
@@ -17275,6 +17869,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
 							station = 3
 						}, {
 							loadout = { "{Mk_84AIR_GP}" },
@@ -17564,6 +18167,18 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					add_mass = 32.2,
 					arg_value = 0.3
 				}, {
+					CLSID = "{HB_F4E_SAMP250HD_TER_3x}",
+					add_mass = 32.2,
+					arg_value = 0.3
+				}, {
+					CLSID = "{HB_F4E_SAMP250HD_TER_2x_opposed}",
+					add_mass = 32.2,
+					arg_value = 0.3
+				}, {
+					CLSID = "{HB_F4E_SAMP250HD_TER_1x_SingleRight}",
+					add_mass = 32.2,
+					arg_value = 0.3
+				}, {
 					CLSID = "{AB8B8299-F1CC-4359-89B5-2172E0CF4A5A}",
 					add_mass = 32.2,
 					arg_value = 0.3
@@ -17730,6 +18345,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
 							station = 11
 						}, {
 							loadout = { "{Mk_84AIR_GP}" },
@@ -17960,6 +18584,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
+							station = 11
+						}, {
 							loadout = { "{Mk_84AIR_GP}" },
 							station = 11
 						}, {
@@ -18186,6 +18819,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
 							station = 11
 						}, {
 							loadout = { "{Mk_84AIR_GP}" },
@@ -18416,6 +19058,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
+							station = 11
+						}, {
 							loadout = { "{Mk_84AIR_GP}" },
 							station = 11
 						}, {
@@ -18642,6 +19293,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
 							station = 11
 						}, {
 							loadout = { "{Mk_84AIR_GP}" },
@@ -18872,6 +19532,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
+							station = 11
+						}, {
 							loadout = { "{Mk_84AIR_GP}" },
 							station = 11
 						}, {
@@ -19098,6 +19767,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
 							station = 11
 						}, {
 							loadout = { "{Mk_84AIR_GP}" },
@@ -19328,6 +20006,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
+							station = 11
+						}, {
 							loadout = { "{Mk_84AIR_GP}" },
 							station = 11
 						}, {
@@ -19554,6 +20241,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
 							station = 11
 						}, {
 							loadout = { "{Mk_84AIR_GP}" },
@@ -19784,6 +20480,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
+							station = 11
+						}, {
 							loadout = { "{Mk_84AIR_GP}" },
 							station = 11
 						}, {
@@ -20010,6 +20715,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
 							station = 11
 						}, {
 							loadout = { "{Mk_84AIR_GP}" },
@@ -20240,6 +20954,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
+							station = 11
+						}, {
 							loadout = { "{Mk_84AIR_GP}" },
 							station = 11
 						}, {
@@ -20466,6 +21189,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
 							station = 11
 						}, {
 							loadout = { "{Mk_84AIR_GP}" },
@@ -20696,6 +21428,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
+							station = 11
+						}, {
 							loadout = { "{Mk_84AIR_GP}" },
 							station = 11
 						}, {
@@ -20924,6 +21665,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
+							station = 11
+						}, {
 							loadout = { "{Mk_84AIR_GP}" },
 							station = 11
 						}, {
@@ -21150,6 +21900,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
 							station = 11
 						}, {
 							loadout = { "{Mk_84AIR_GP}" },
@@ -23997,6 +24756,306 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{HB_F4E_SAMP250LD_TER_1x_SingleRight}",
+					arg_value = 0,
+					forbidden = { {
+							loadout = { "{AIM-9B}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9J}" },
+							station = 12
+						}, {
+							loadout = { "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9JULI}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9M}" },
+							station = 12
+						}, {
+							loadout = { "CATM-9M" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9P5}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9P3}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 12
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9B}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9J}" },
+							station = 10
+						}, {
+							loadout = { "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9JULI}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9M}" },
+							station = 10
+						}, {
+							loadout = { "CATM-9M" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9P5}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9P3}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 10
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 10
+						} }
+				}, {
+					CLSID = "{HB_F4E_SAMP250HD_TER_3x}",
+					arg_value = 0,
+					forbidden = { {
+							loadout = { "{AIM-9B}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9J}" },
+							station = 12
+						}, {
+							loadout = { "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9JULI}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9M}" },
+							station = 12
+						}, {
+							loadout = { "CATM-9M" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9P5}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9P3}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 12
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9B}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9J}" },
+							station = 10
+						}, {
+							loadout = { "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9JULI}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9M}" },
+							station = 10
+						}, {
+							loadout = { "CATM-9M" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9P5}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9P3}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 10
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 10
+						} }
+				}, {
+					CLSID = "{HB_F4E_SAMP250HD_TER_2x_opposed}",
+					arg_value = 0,
+					forbidden = { {
+							loadout = { "{AIM-9B}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9J}" },
+							station = 12
+						}, {
+							loadout = { "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9JULI}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9M}" },
+							station = 12
+						}, {
+							loadout = { "CATM-9M" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9P5}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9P3}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 12
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9B}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9J}" },
+							station = 10
+						}, {
+							loadout = { "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9JULI}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9M}" },
+							station = 10
+						}, {
+							loadout = { "CATM-9M" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9P5}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9P3}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 10
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 10
+						} }
+				}, {
+					CLSID = "{HB_F4E_SAMP250HD_TER_1x_SingleRight}",
 					arg_value = 0,
 					forbidden = { {
 							loadout = { "{AIM-9B}" },
@@ -29209,6 +30268,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
+							station = 11
+						}, {
 							loadout = { "{Mk_84AIR_GP}" },
 							station = 11
 						}, {
@@ -29435,6 +30503,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
 							station = 11
 						}, {
 							loadout = { "{Mk_84AIR_GP}" },
@@ -29665,6 +30742,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
+							station = 11
+						}, {
 							loadout = { "{Mk_84AIR_GP}" },
 							station = 11
 						}, {
@@ -29891,6 +30977,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
 							station = 11
 						}, {
 							loadout = { "{Mk_84AIR_GP}" },
@@ -30121,6 +31216,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
+							station = 11
+						}, {
 							loadout = { "{Mk_84AIR_GP}" },
 							station = 11
 						}, {
@@ -30347,6 +31451,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
 							station = 11
 						}, {
 							loadout = { "{Mk_84AIR_GP}" },
@@ -30577,6 +31690,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
+							station = 11
+						}, {
 							loadout = { "{Mk_84AIR_GP}" },
 							station = 11
 						}, {
@@ -30803,6 +31925,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
 							station = 11
 						}, {
 							loadout = { "{Mk_84AIR_GP}" },
@@ -31033,6 +32164,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
+							station = 11
+						}, {
 							loadout = { "{Mk_84AIR_GP}" },
 							station = 11
 						}, {
@@ -31259,6 +32399,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
 							station = 11
 						}, {
 							loadout = { "{Mk_84AIR_GP}" },
@@ -31489,6 +32638,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
+							station = 11
+						}, {
 							loadout = { "{Mk_84AIR_GP}" },
 							station = 11
 						}, {
@@ -31715,6 +32873,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
 							station = 11
 						}, {
 							loadout = { "{Mk_84AIR_GP}" },
@@ -31945,6 +33112,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
+							station = 11
+						}, {
 							loadout = { "{Mk_84AIR_GP}" },
 							station = 11
 						}, {
@@ -32171,6 +33347,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
 							station = 11
 						}, {
 							loadout = { "{Mk_84AIR_GP}" },
@@ -32401,6 +33586,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
+							station = 11
+						}, {
 							loadout = { "{Mk_84AIR_GP}" },
 							station = 11
 						}, {
@@ -32629,6 +33823,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_SAMP250LD_TER_1x_SingleRight}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_2x_opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_SAMP250HD_TER_1x_SingleRight}" },
+							station = 11
+						}, {
 							loadout = { "{Mk_84AIR_GP}" },
 							station = 11
 						}, {
@@ -32815,6 +34018,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.5
 				}, {
 					CLSID = "{HB_F4E_SAMP250LD_TER_1x_SingleRight}",
+					arg_value = 0.5
+				}, {
+					CLSID = "{HB_F4E_SAMP250HD_TER_3x}",
+					arg_value = 0.5
+				}, {
+					CLSID = "{HB_F4E_SAMP250HD_TER_2x_Right}",
+					arg_value = 0.5
+				}, {
+					CLSID = "{HB_F4E_SAMP250HD_TER_1x_SingleRight}",
 					arg_value = 0.5
 				}, {
 					CLSID = "{HB_F4E_CBU-1A_MER_2x_Right}",

@@ -3842,6 +3842,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		lights = {
 			[3] = {
 				lights = { {
+						argument = 195,
 						connector = "BANO_0",
 						dir_correction = {
 							azimuth = 3.1415926535898
@@ -3854,60 +3855,57 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						},
 						typename = "spotlight"
 					}, {
-						lights = { {
-								argument = 191,
-								power_up_t = 1e-06,
-								typename = "argumentlight"
-							}, {
-								connector = "BANO_1",
-								dir_correction = {
-									azimuth = -1.5707963267949,
-									elevation = -0.78539816339745
-								},
-								exposure = { { 1000, 0, 1, 1, 0 } },
-								power_up_t = 1e-06,
-								proto = <3>{
-									angle_max = 3.1415926535898,
-									color = { 1, 0.35, 0.15, 0.12 },
-									range = 22.2
-								},
-								typename = "spotlight"
-							}, {
-								connector = "BANO_003",
-								dir_correction = {
-									azimuth = -1.5707963267949,
-									elevation = -0.78539816339745
-								},
-								exposure = { { 80, 0, 1, 1, 0 } },
-								power_up_t = 1e-06,
-								proto = <table 3>,
-								typename = "spotlight"
-							}, {
-								connector = "BANO_2",
-								dir_correction = {
-									azimuth = -1.5707963267949,
-									elevation = 0.78539816339745
-								},
-								exposure = { { 1000, 0, 1, 1, 0 } },
-								power_up_t = 1e-06,
-								proto = <4>{
-									angle_max = 3.1415926535898,
-									color = { 0, 0.894, 0.6, 0.12 },
-									range = 22.2
-								},
-								typename = "spotlight"
-							}, {
-								connector = "BANO_004",
-								dir_correction = {
-									azimuth = -1.5707963267949,
-									elevation = 0.78539816339745
-								},
-								exposure = { { 80, 0, 1, 1, 0 } },
-								power_up_t = 1e-06,
-								proto = <table 4>,
-								typename = "spotlight"
-							} },
-						typename = "collection"
+						argument = 190,
+						connector = "BANO_1",
+						dir_correction = {
+							azimuth = -1.5707963267949,
+							elevation = -0.78539816339745
+						},
+						exposure = { { 1000, 0, 1, 1, 0 } },
+						power_up_t = 1e-06,
+						proto = <3>{
+							angle_max = 3.1415926535898,
+							color = { 1, 0.35, 0.15, 0.12 },
+							range = 22.2
+						},
+						typename = "spotlight"
+					}, {
+						argument = 192,
+						connector = "BANO_3",
+						dir_correction = {
+							azimuth = -1.5707963267949,
+							elevation = -0.78539816339745
+						},
+						exposure = { { 80, 0, 1, 1, 0 } },
+						power_up_t = 1e-06,
+						proto = <table 3>,
+						typename = "spotlight"
+					}, {
+						argument = 191,
+						connector = "BANO_2",
+						dir_correction = {
+							azimuth = -1.5707963267949,
+							elevation = 0.78539816339745
+						},
+						exposure = { { 1000, 0, 1, 1, 0 } },
+						power_up_t = 1e-06,
+						proto = <4>{
+							angle_max = 3.1415926535898,
+							color = { 0, 0.894, 0.6, 0.12 },
+							range = 22.2
+						},
+						typename = "spotlight"
+					}, {
+						argument = 194,
+						connector = "BANO_4",
+						dir_correction = {
+							azimuth = -1.5707963267949,
+							elevation = 0.78539816339745
+						},
+						exposure = { { 80, 0, 1, 1, 0 } },
+						power_up_t = 1e-06,
+						proto = <table 4>,
+						typename = "spotlight"
 					} },
 				typename = "collection"
 			},
@@ -3927,8 +3925,55 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			},
 			[6] = {
 				lights = { {
-						argument = 210,
-						typename = "argumentlight"
+						lights = { {
+								argument = 210,
+								typename = "argumentlight"
+							}, {
+								connector = "MAIN_SPOT_PTR",
+								dir_correction = {
+									azimuth = 0,
+									elevation = 0.069813170079773
+								},
+								proto = <5>{
+									angle_max = 0.48869219055841,
+									color = { 255, 201, 125, 0.12792304845413 },
+									range = 250
+								},
+								typename = "spotlight"
+							}, {
+								connector = "MAIN_SPOT_PTR",
+								dir_correction = {
+									azimuth = 0.19198621771938,
+									elevation = 0.069813170079773
+								},
+								proto = <table 5>,
+								typename = "spotlight"
+							}, {
+								connector = "MAIN_SPOT_PTR",
+								dir_correction = {
+									azimuth = 0.38397243543875,
+									elevation = 0.069813170079773
+								},
+								proto = <table 5>,
+								typename = "spotlight"
+							}, {
+								connector = "MAIN_SPOT_PTR",
+								dir_correction = {
+									azimuth = -0.19198621771938,
+									elevation = 0.069813170079773
+								},
+								proto = <table 5>,
+								typename = "spotlight"
+							}, {
+								connector = "MAIN_SPOT_PTR",
+								dir_correction = {
+									azimuth = -0.38397243543875,
+									elevation = 0.069813170079773
+								},
+								proto = <table 5>,
+								typename = "spotlight"
+							} },
+						typename = "collection"
 					} },
 				typename = "collection"
 			},
@@ -4066,7 +4111,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 								argument = 209,
 								connector = "RESERV_SPOT_PTR",
 								movable = true,
-								proto = <5>{
+								proto = <6>{
 									angle_change_rate = 0.10471975511966,
 									angle_max = 0.22689280275926,
 									angle_min = 0.19198621771938,
@@ -4076,6 +4121,19 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 									range = 3600
 								},
 								typename = "spotlight"
+							}, {
+								connector = "RESERV_SPOT_PTR",
+								movable = true,
+								proto = <7>{
+									angle_change_rate = 0.20943951023932,
+									angle_max = 0.83775804095728,
+									angle_min = 0,
+									color = { 255, 201, 125, 0.15545341380124 },
+									cool_down_t = 1.12,
+									power_up_t = 1.12,
+									range = 360
+								},
+								typename = "spotlight"
 							} },
 						typename = "collection"
 					}, {
@@ -4083,7 +4141,12 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 								argument = 208,
 								connector = "RESERV_SPOT_PTR_2",
 								movable = true,
-								proto = <table 5>,
+								proto = <table 6>,
+								typename = "spotlight"
+							}, {
+								connector = "RESERV_SPOT_PTR_2",
+								movable = true,
+								proto = <table 7>,
 								typename = "spotlight"
 							} },
 						typename = "collection"

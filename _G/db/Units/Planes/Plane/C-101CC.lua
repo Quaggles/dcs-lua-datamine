@@ -1483,7 +1483,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 								proto = <3>{
 									angle_max = 0.48869219055841,
 									color = { 255, 201, 125, 0.12792304845413 },
-									range = 66
+									range = 250
 								},
 								typename = "Spot"
 							} },

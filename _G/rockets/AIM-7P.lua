@@ -131,7 +131,7 @@ _G["rockets"]["#Index"] = {
 		work_time = 10.8
 	},
 	mass = 231,
-	model = "aim-7",
+	model = "aim-7p",
 	name = "AIM-7P",
 	nozzle_exit_area = 0.007238,
 	proximity_fuze = {
@@ -155,7 +155,7 @@ _G["rockets"]["#Index"] = {
 		sens_near_dist = 100
 	},
 	shape_table_data = { {
-			file = "aim-7",
+			file = "aim-7p",
 			fire = { 0, 1 },
 			index = "Redacted",
 			life = 1,

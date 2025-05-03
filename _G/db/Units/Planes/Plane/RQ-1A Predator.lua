@@ -90,7 +90,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		engine = {
 			D_prop = 3.28,
-			Displ = 27,
+			Displ = 6,
 			ForsRUD = 1,
 			Init_Mom = 220,
 			MAX_Manifold_P_1 = 155774,

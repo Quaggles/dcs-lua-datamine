@@ -134,7 +134,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM-7P"] = {
 			work_time = 10.8
 		},
 		mass = 231,
-		model = "aim-7",
+		model = "aim-7p",
 		name = "AIM-7P",
 		nozzle_exit_area = 0.007238,
 		proximity_fuze = {
@@ -158,7 +158,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM-7P"] = {
 			sens_near_dist = 100
 		},
 		shape_table_data = { {
-				file = "aim-7",
+				file = "aim-7p",
 				fire = { 0, 1 },
 				index = "Redacted",
 				life = 1,
@@ -204,7 +204,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM-7P"] = {
 	display_name = "AIM-7P",
 	display_name_short = "AIM-7",
 	mass = 231,
-	model = "aim-7",
+	model = "aim-7p",
 	name = "AIM-7P",
 	server = {
 		Cx_pil = 2.21,
@@ -336,7 +336,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM-7P"] = {
 			work_time = 10.8
 		},
 		mass = 231,
-		model = "aim-7",
+		model = "aim-7p",
 		name = "AIM-7P",
 		nozzle_exit_area = 0.007238,
 		proximity_fuze = {
@@ -360,7 +360,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM-7P"] = {
 			sens_near_dist = 100
 		},
 		shape_table_data = { {
-				file = "aim-7",
+				file = "aim-7p",
 				fire = { 0, 1 },
 				index = "Redacted",
 				life = 1,

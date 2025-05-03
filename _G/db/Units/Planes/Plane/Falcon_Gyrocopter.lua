@@ -102,7 +102,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				min = 225
 			} }
 	},
-	IR_emission_coeff = 0.01,
+	IR_emission_coeff = 0.05,
 	IR_emission_coeff_ab = 0,
 	InternalCargo = {
 		maximalCapacity = 100,
@@ -287,7 +287,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			connector = "Pylon04",
 			use_full_connector_position = true
 		} },
-	RCS = 0.1,
+	RCS = 0.4,
 	Rate = 20,
 	SFM_Data = {
 		aerodynamics = {
@@ -511,7 +511,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	nose_gear_amortizer_reversal_stroke = -0.046,
 	nose_gear_pos = { 0.77, -1.34, 0 },
 	nose_gear_wheel_diameter = 0.482,
-	radar_can_see_ground = false,
+	radar_can_see_ground = true,
 	range = 600,
 	shape_table_data = { {
 			classname = "lLandPlane",

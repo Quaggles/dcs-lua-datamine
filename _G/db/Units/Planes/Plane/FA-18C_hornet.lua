@@ -95,6 +95,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Countermeasures = {
 		ECM = { "AN/ALQ-165" }
 	},
+	DTC = true,
 	Damage = { {
 			args = { 150 },
 			critical_damage = 3
@@ -2666,7 +2667,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			skeleton_crew_connector = "seat_pilot",
 			skeleton_crew_unit_name = "Crew FA-18C"
 		} },
-	dataCartridge = true,
 	datalinks = {
 		Link16 = "CoreMods\\aircraft\\FA-18C\\Datalinks\\Link16.lua"
 	},

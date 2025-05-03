@@ -68,6 +68,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	CAS_min = 60,
 	CanopyGeometry = { -0.17364817766693, -0.49640011097796, -0.81915204428899, -0.45315389351832, -0.087155742747658 },
 	Categories = { "{78EFB7A2-FD52-4b57-A6A6-3BF0E1D6555F}", "Interceptor" },
+	DTC = true,
 	Damage = {
 		[0] = {
 			args = { 146 },

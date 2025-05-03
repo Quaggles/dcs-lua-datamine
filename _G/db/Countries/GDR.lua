@@ -490,6 +490,26 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "PT_76",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "S-60_Type59_Artillery",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "BTR-60",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "BTR-70",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "T-34-85",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "TugHarlan_drivable"
 				}, {
 					Name = "B600_drivable"
@@ -1122,6 +1142,14 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "Mi-24V",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Mi-8MT",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "AH-64D_BLK_II"
 				}, {
 					Name = "CH-47Fbl1"
@@ -1197,6 +1225,14 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "Yak-40",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Su-25",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "MiG-23MLD",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
