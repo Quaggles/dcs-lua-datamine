@@ -134,7 +134,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		TerminalNumber = 2
 	},
 	Helicopter_Num_ = 1,
-	Landing_Point = { 59.072, 14.19, 0 },
+	Landing_Point = { 59.072, 12.37, 0 },
 	Length = 211.316,
 	MaxSpeed = 42.588,
 	Name = "SS Atlantic Conveyor",

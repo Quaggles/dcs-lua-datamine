@@ -54,7 +54,6 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.5707963267949 } },
 			center = "CENTER_SCOPE_01",
-			cockpit = { "CWS/CWS", { 0, 0, 0 } },
 			drawArgument1 = 902,
 			drawArgument2 = 903,
 			moveable = true,
@@ -189,7 +188,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	draft = 8,
 	economy_distance = 72000000,
 	economy_velocity = 5.15,
-	enablePlayerCanDrive = true,
+	enablePlayerCanDrive = false,
 	encyclopediaAnimation = {
 		args = {
 			[14] = 1,

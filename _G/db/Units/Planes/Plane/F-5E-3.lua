@@ -4396,6 +4396,32 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						argument = 192,
 						period = 0.95,
 						typename = "argnatostrobelight"
+					}, {
+						angle_max = 1.9198621771938,
+						angle_min = 1.3962634015955,
+						argument = 192,
+						color = { 0.8, 0, 0, 0.4 },
+						connector = "BANO_021",
+						controller = "Strobe",
+						dir_correction = {
+							azimuth = -1.5707963267949
+						},
+						period = 0.95,
+						range = 64,
+						typename = "Spot"
+					}, {
+						angle_max = 1.9198621771938,
+						angle_min = 1.3962634015955,
+						argument = 192,
+						color = { 0.8, 0, 0, 0.4 },
+						connector = "BANO_022",
+						controller = "Strobe",
+						dir_correction = {
+							azimuth = 1.5707963267949
+						},
+						period = 0.95,
+						range = 64,
+						typename = "Spot"
 					} },
 				typename = "collection"
 			},

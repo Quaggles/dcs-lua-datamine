@@ -85,14 +85,14 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	airWeaponDist = 30000,
 	animation_arguments = {
 		alarm_state_sequence = { { 3, { {
-						endTime = 1,
+						endTime = 15,
 						endVal = 0.75,
 						startTime = 0,
 						startVal = 0
 					}, {
-						endTime = 15,
+						endTime = 20,
 						endVal = 0.75,
-						startTime = 1,
+						startTime = 15,
 						startVal = 0.75
 					}, {
 						endTime = 20,
@@ -100,20 +100,25 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 						startTime = 15,
 						startVal = 0.75
 					} } }, { 14, { {
-						endTime = 15,
+						endTime = 1,
 						endVal = 0,
 						startTime = 0,
 						startVal = 0
 					}, {
-						endTime = 20,
+						endTime = 15,
 						endVal = 1,
-						startTime = 15,
+						startTime = 1,
 						startVal = 0
 					}, {
 						endTime = 20,
-						endVal = 1,
-						startTime = 20,
+						endVal = 0,
+						startTime = 15,
 						startVal = 1
+					}, {
+						endTime = 20,
+						endVal = 0,
+						startTime = 20,
+						startVal = 0
 					} } }, { 15, { {
 						endTime = 15,
 						endVal = 0,
@@ -146,18 +151,23 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 						startVal = 0
 					} } }, { 18, { {
 						endTime = 1,
-						endVal = 1,
+						endVal = 0,
 						startTime = 0,
 						startVal = 0
 					}, {
-						endTime = 5,
+						endTime = 15,
 						endVal = 1,
 						startTime = 1,
 						startVal = 0
 					}, {
 						endTime = 20,
 						endVal = 0,
-						startTime = 5,
+						startTime = 15,
+						startVal = 1
+					}, {
+						endTime = 20,
+						endVal = 0,
+						startTime = 20,
 						startVal = 0
 					} } },
 			totalDuration = 20
@@ -194,6 +204,13 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	propeller_omega_max = 120,
 	race_distance = 7200000,
 	race_velocity = 14.9,
+	sensor = {
+		max_alt_finding_target = 30000,
+		max_range_finding_target = 50000,
+		min_alt_finding_target = 0,
+		min_range_finding_target = 0,
+		pos = { -14.1, 16, 0 }
+	},
 	shipLength = 93,
 	snd = {},
 	speedup = 0.4,

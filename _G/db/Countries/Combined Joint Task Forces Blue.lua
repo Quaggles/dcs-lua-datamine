@@ -1274,6 +1274,22 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "GD-20",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "SD10 Loadout",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "PL5EII Loadout",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "PL8 Loadout",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "M1126 Stryker ICV",
 					in_service = 0,
 					out_of_service = 40000

@@ -15,9 +15,9 @@ _G["launcher"]["DIS_GDJ_YJ83K"] = {
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
-	displayName = "YJ83K",
+	displayName = "YJ-83K",
 	ejectDirection = { 0, -1, 0 },
 	ejectVelocity = 2,
 	name = "DIS_GDJ_YJ83K",
-	wsTypeOfWeapon = "weapons.missiles.YJ-83"
+	wsTypeOfWeapon = "weapons.missiles.YJ-83K"
 }

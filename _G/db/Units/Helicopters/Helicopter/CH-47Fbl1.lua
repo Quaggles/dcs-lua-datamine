@@ -831,144 +831,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	H_din_two_eng = 3100,
 	H_stat_max = 1675,
 	H_stat_max_L = 2675,
-	HumanCockpit = true,
-	HumanCockpitPath = "./Mods/aircraft/CH-47F/Cockpit/Scripts/",
-	HumanCockpitPlugins = { {
-			_file = "./Mods/aircraft/NS430/entry.lua",
-			_origin = "NS430",
-			name = "NS430",
-			path = "./Mods/aircraft/NS430/Cockpit/Scripts/",
-			per_unit_data = {
-				["A-10A"] = {
-					enable_options_key_for_unit = "a10a_enabled"
-				},
-				["A-10C"] = <2>{
-					enable_options_key_for_unit = "disabled"
-				},
-				["A-10C_2"] = <table 2>,
-				["AH-64D_BLK_II"] = <table 2>,
-				AJS37 = {
-					enable_options_key_for_unit = "ajs37_enabled"
-				},
-				AV8BNA = {
-					enable_options_key_for_unit = "av8b_enabled"
-				},
-				["Bf-109K-4"] = {
-					enable_options_key_for_unit = "bf109k4_enabled"
-				},
-				["C-101CC"] = {
-					enable_options_key_for_unit = "c101cc_common_enabled"
-				},
-				["C-101EB"] = {
-					enable_options_key_for_unit = "c101eb_common_enabled"
-				},
-				["Christen Eagle II"] = {
-					enable_options_key_for_unit = "CE_II_enabled"
-				},
-				["F-14B"] = {
-					enable_options_key_for_unit = "f14b_enabled"
-				},
-				["F-15C"] = {
-					enable_options_key_for_unit = "f15c_enabled"
-				},
-				["F-16C_50"] = <table 2>,
-				["F-5E-3"] = {
-					enable_options_key_for_unit = "f5e3_enabled"
-				},
-				["F-86F Sabre"] = {
-					enable_options_key_for_unit = "f86f_enabled"
-				},
-				["FA-18C_hornet"] = <table 2>,
-				["FW-190D9"] = {
-					enable_options_key_for_unit = "fw190d9_enabled"
-				},
-				["I-16"] = {
-					enable_options_key_for_unit = "i16_enabled"
-				},
-				["J-11A"] = {
-					enable_options_key_for_unit = "j11a_enabled"
-				},
-				["JF-17"] = {
-					enable_options_key_for_unit = "jf17_enabled"
-				},
-				["Ka-50"] = <table 2>,
-				["Ka-50_3"] = <table 2>,
-				["L-39C"] = {
-					enable_options_key_for_unit = "l39c_common_enabled"
-				},
-				["L-39ZA"] = {
-					enable_options_key_for_unit = "l39za_enabled"
-				},
-				["M-2000C"] = {
-					enable_options_key_for_unit = "miraj_enabled"
-				},
-				["Mi-24P"] = {
-					enable_options_key_for_unit = "mi24p_enabled"
-				},
-				["Mi-8MT"] = {
-					enable_options_key_for_unit = "mi8_common_enabled"
-				},
-				["MiG-15bis"] = {
-					enable_options_key_for_unit = "mig15bis_enabled"
-				},
-				["MiG-21bis"] = {
-					enable_options_key_for_unit = "mig21bis_enabled"
-				},
-				["MiG-29A"] = {
-					enable_options_key_for_unit = "mig29a_enabled"
-				},
-				["MiG-29G"] = {
-					enable_options_key_for_unit = "mig29g_enabled"
-				},
-				["MiG-29S"] = {
-					enable_options_key_for_unit = "mig29s_enabled"
-				},
-				["P-51D"] = {
-					enable_options_key_for_unit = "p51d_enabled"
-				},
-				SA342L = {
-					enable_options_key_for_unit = "sa342_enabled"
-				},
-				SA342M = {
-					enable_options_key_for_unit = "sa342_enabled"
-				},
-				SA342Minigun = {
-					enable_options_key_for_unit = "sa342_enabled"
-				},
-				SA342Mistral = {
-					enable_options_key_for_unit = "sa342_enabled"
-				},
-				SpitfireLFMkIX = {
-					enable_options_key_for_unit = "SpitfireLFMkIX_enabled"
-				},
-				SpitfireLFMkIXCW = {
-					enable_options_key_for_unit = "SpitfireLFMkIXCW_enabled"
-				},
-				["Su-25"] = {
-					enable_options_key_for_unit = "su25_enabled"
-				},
-				["Su-25T"] = {
-					enable_options_key_for_unit = "su25t_enabled"
-				},
-				["Su-27"] = {
-					enable_options_key_for_unit = "su27_enabled"
-				},
-				["Su-33"] = {
-					enable_options_key_for_unit = "su33_enabled"
-				},
-				["TF-51D"] = {
-					enable_options_key_for_unit = "tf51d_enabled"
-				},
-				["UH-1H"] = {
-					enable_options_key_for_unit = "uh1h_enabled"
-				},
-				["Yak-52"] = {
-					enable_options_key_for_unit = "yak52_enabled"
-				}
-			}
-		} },
-	HumanCommPanelPath = "./Mods/aircraft/CH-47F/comm.lua",
-	HumanFM = { "CH-47F", "CH47F" },
 	HumanRadio = {
 		editable = true,
 		frequency = 251,
@@ -2038,9 +1900,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	Waypoint_Custom_Panel = true,
 	WorldID = 329,
 	_file = "./CoreMods/aircraft/CH-47F/CH-47F_bl1.lua",
-	_file_flyable = "./Mods/aircraft/CH-47F/entry.lua",
 	_origin = "CH-47F bl.1 AI",
-	_origin_flyable = "CH-47F",
 	attribute = { 1, 2, 5, "Redacted", "Transport helicopters", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Helicopters" },
 	bigParkingRamp = false,
 	blade_area = 7.43,
@@ -2320,7 +2180,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						lights = { {
 								connector = "LIGHT_IR_L",
 								movable = true,
-								proto = <3>{
+								proto = <2>{
 									color = { 255, 0, 0, 0.28 },
 									cool_down_t = 0.05,
 									flir_amount = 0.28,
@@ -2331,7 +2191,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 							}, {
 								connector = "LIGHT_IR_L",
 								movable = true,
-								proto = <4>{
+								proto = <3>{
 									angle_max = 0.48869219055841,
 									angle_min = 0.34906585039887,
 									color = { 2, 0, 0, 0.17 },
@@ -2347,12 +2207,12 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						lights = { {
 								connector = "LIGHT_IR_R",
 								movable = true,
-								proto = <table 3>,
+								proto = <table 2>,
 								typename = "Omni"
 							}, {
 								connector = "LIGHT_IR_R",
 								movable = true,
-								proto = <table 4>,
+								proto = <table 3>,
 								typename = "Spot"
 							} },
 						typename = "Collection"
@@ -2371,7 +2231,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						typename = "Argument"
 					}, {
 						connector = "BEACON_IR_T",
-						proto = <5>{
+						proto = <4>{
 							color = { 2, 0, 0, 0.12 },
 							controller = "VariablePatternStrobe",
 							flir_amount = 1,
@@ -2382,7 +2242,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						typename = "Omni"
 					}, {
 						connector = "BEACON_IR_B",
-						proto = <table 5>,
+						proto = <table 4>,
 						typename = "Omni"
 					}, {
 						argument = 601,
@@ -2420,7 +2280,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			[13] = {
 				lights = { {
 						argument = 193,
-						proto = <6>{
+						proto = <5>{
 							color = { 2, 0, 0, 0.12 },
 							controller = "Strobe",
 							cool_down_t = 0.05,
@@ -2434,35 +2294,35 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						typename = "Argument"
 					}, {
 						connector = "SIDE_LIGHT_IR_1",
-						proto = <table 6>,
+						proto = <table 5>,
 						typename = "Omni"
 					}, {
 						connector = "SIDE_LIGHT_IR_2",
-						proto = <table 6>,
+						proto = <table 5>,
 						typename = "Omni"
 					}, {
 						connector = "SIDE_LIGHT_IR_3",
-						proto = <table 6>,
+						proto = <table 5>,
 						typename = "Omni"
 					}, {
 						connector = "SIDE_LIGHT_IR_4",
-						proto = <table 6>,
+						proto = <table 5>,
 						typename = "Omni"
 					}, {
 						connector = "SIDE_LIGHT_IR_5",
-						proto = <table 6>,
+						proto = <table 5>,
 						typename = "Omni"
 					}, {
 						connector = "SIDE_LIGHT_IR_6",
-						proto = <table 6>,
+						proto = <table 5>,
 						typename = "Omni"
 					}, {
 						connector = "SIDE_LIGHT_IR_7",
-						proto = <table 6>,
+						proto = <table 5>,
 						typename = "Omni"
 					}, {
 						connector = "SIDE_LIGHT_IR_8",
-						proto = <table 6>,
+						proto = <table 5>,
 						typename = "Omni"
 					} },
 				typename = "Collection"

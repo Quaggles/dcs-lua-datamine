@@ -170,7 +170,6 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					PL = { {
 							shell_name = {}
 						} },
-					customViewPoint = { "genericHowitzer", { -0.5, 0.4, 0 } },
 					sensor = {}
 				} },
 			angles = { { 2.7925268031909, -2.7925268031909, -0.087266462599716, 1.3962634015955 } },
@@ -209,6 +208,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 						}, {
 							shell_name = {}
 						} },
+					createMuzzleFlashEffect = true,
 					fireAnimationArgument = 117,
 					sensor = {}
 				} },
@@ -217,8 +217,20 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			center = "CENTER_AK630_01",
 			drawArgument1 = 17,
 			drawArgument2 = 18,
-			pidY = {},
-			pidZ = {},
+			omegaY = 2.2689280275926,
+			omegaZ = 2.6179938779915,
+			pidY = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pidZ = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
 			reference_angle_Y = 1.5707963267949
 		}, {
 			LN = { {
@@ -247,6 +259,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 						}, {
 							shell_name = {}
 						} },
+					createMuzzleFlashEffect = true,
 					fireAnimationArgument = 118,
 					sensor = {}
 				} },
@@ -255,8 +268,20 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			center = "CENTER_AK630_02",
 			drawArgument1 = 19,
 			drawArgument2 = 20,
-			pidY = {},
-			pidZ = {},
+			omegaY = 2.2689280275926,
+			omegaZ = 2.6179938779915,
+			pidY = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pidZ = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
 			reference_angle_Y = 1.5707963267949
 		}, {
 			LN = { {
@@ -285,6 +310,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 						}, {
 							shell_name = {}
 						} },
+					createMuzzleFlashEffect = true,
 					fireAnimationArgument = 119,
 					sensor = {}
 				} },
@@ -293,8 +319,20 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			center = "CENTER_AK630_03",
 			drawArgument1 = 21,
 			drawArgument2 = 22,
-			pidY = {},
-			pidZ = {},
+			omegaY = 2.2689280275926,
+			omegaZ = 2.6179938779915,
+			pidY = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pidZ = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
 			reference_angle_Y = -1.5707963267949
 		}, {
 			LN = { {
@@ -323,6 +361,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 						}, {
 							shell_name = {}
 						} },
+					createMuzzleFlashEffect = true,
 					fireAnimationArgument = 120,
 					sensor = {}
 				} },
@@ -331,15 +370,26 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			center = "CENTER_AK630_04",
 			drawArgument1 = 23,
 			drawArgument2 = 24,
-			pidY = {},
-			pidZ = {},
+			omegaY = 2.2689280275926,
+			omegaZ = 2.6179938779915,
+			pidY = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pidZ = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
 			reference_angle_Y = -1.5707963267949
 		}, {
 			LN = { {
 					BR = { {
 							connector_name = "DOCK_VIEW"
 						} },
-					customViewPoint = { "DriverCockpit/DriverCockpitWithIRandLLTV", { 0.1, 0, 0 } },
 					display_name = "Dock View",
 					distanceMax = 0,
 					distanceMaxForFCS = 5000,
@@ -412,7 +462,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	draft = 5,
 	economy_distance = 19000000,
 	economy_velocity = 9.16667,
-	enablePlayerCanDrive = true,
+	enablePlayerCanDrive = false,
 	encyclopediaAnimation = {
 		args = {
 			[17] = 0.5,

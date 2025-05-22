@@ -542,6 +542,14 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "TYPE-59"
 				}, {
+					Name = "GD-20"
+				}, {
+					Name = "SD10 Loadout"
+				}, {
+					Name = "PL5EII Loadout"
+				}, {
+					Name = "PL8 Loadout"
+				}, {
 					Name = "DR_50Ton_Flat_Wagon"
 				}, {
 					Name = "DRG_Class_86"

@@ -11312,6 +11312,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				y_trans = -0.04,
 				z_trans = 0
 			} } },
+	TACAN_AA = true,
 	TakeOffRWCategories = { {
 			Name = "AircraftCarrier With Catapult"
 		} },

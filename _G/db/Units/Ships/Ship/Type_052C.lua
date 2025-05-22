@@ -106,7 +106,6 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					PL = { {
 							shell_name = {}
 						} },
-					customViewPoint = { "genericHowitzer", { -3.5, 0.8, 0 } },
 					sensor = {}
 				} },
 			angles = { { 2.7925268031909, -2.7925268031909, -0.087266462599716, 1.3962634015955 } },
@@ -466,9 +465,26 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					max_number_of_missiles_channels = 2,
 					sensor = {}
 				} },
-			angles = { {} },
+			angles = { { 3.1415926535898, -3.1415926535898, -0.069813170079773, 1.4835298641952 } },
 			area = "NOSE_L",
-			center = "POINT_HHQ9_1_9"
+			center = "POINT_HHQ9_1_9",
+			drawArgument1 = 404,
+			drawArgument2 = 405,
+			omegaY = 2.2689280275926,
+			omegaZ = 2.6179938779915,
+			pidY = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pidZ = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pointer = "PNT_SAM_SIGHT_F"
 		}, {
 			LN = { {
 					BR = { {
@@ -562,9 +578,27 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					depends_on_unit = <table 1>,
 					sensor = {}
 				} },
-			angles = { {} },
+			angles = { { 3.1415926535898, -3.1415926535898, -0.069813170079773, 1.4835298641952 } },
 			area = "NOSE_R",
-			center = "POINT_HHQ9_3_3"
+			center = "POINT_HHQ9_3_3",
+			drawArgument1 = 406,
+			drawArgument2 = 407,
+			omegaY = 2.2689280275926,
+			omegaZ = 2.6179938779915,
+			pidY = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pidZ = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pointer = "PNT_SAM_SIGHT_B",
+			reference_angle_Y = 3.1415926535898
 		}, {
 			LN = { {
 					BR = { {
@@ -576,7 +610,6 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							shell_name = {}
 						} },
 					createMuzzleFlashEffect = true,
-					customViewPoint = { "genericAAA", { 0, 0, 0 } },
 					sensor = {}
 				} },
 			angles = { { 2.0943951023932, -2.0943951023932, -0.43633231299858, 1.4835298641952 } },
@@ -612,7 +645,6 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							shell_name = {}
 						} },
 					createMuzzleFlashEffect = true,
-					customViewPoint = { "genericAAA", { 0, 0, 0 } },
 					sensor = {}
 				} },
 			angles = { { -0.5235987755983, 0.5235987755983, -0.43633231299858, 1.4835298641952 } },
@@ -677,7 +709,24 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			area = "BORT_L",
 			board = 3,
 			canSetTacticalDir = true,
-			center = "POINT_ASM_1_1"
+			center = "POINT_ASM_1_1",
+			drawArgument1 = 400,
+			drawArgument2 = 401,
+			omegaY = 2.2689280275926,
+			omegaZ = 2.6179938779915,
+			pidY = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pidZ = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pointer = "PNT_ASM_SIGHT_L"
 		}, {
 			LN = { {
 					BR = { {
@@ -718,7 +767,24 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			area = "BORT_R",
 			board = 4,
 			canSetTacticalDir = true,
-			center = "POINT_ASM_2_1"
+			center = "POINT_ASM_2_1",
+			drawArgument1 = 402,
+			drawArgument2 = 403,
+			omegaY = 2.2689280275926,
+			omegaZ = 2.6179938779915,
+			pidY = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pidZ = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pointer = "PNT_ASM_SIGHT_R"
 		},
 		maxTargetDetectionRange = 450000,
 		radar_type = 102,
@@ -749,13 +815,13 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 3, 12, 14, "Redacted", "Cruisers", "RADAR_BAND1_FOR_ARM", "RADAR_BAND2_FOR_ARM", "DetectionByAWACS", "Straight_in_approach_type", "Armed Ship", "HelicopterCarrier", "Naval", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
+	attribute = { 3, 12, 14, "Redacted", "Cruisers", "RADAR_BAND1_FOR_ARM", "RADAR_BAND2_FOR_ARM", "DetectionByAWACS", "Straight_in_approach_type", "NO_SAM", "Armed Ship", "HelicopterCarrier", "Naval", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
 	chassis = {},
 	distFindObstacles = 568.4,
 	draft = 15,
 	economy_distance = 8337000,
 	economy_velocity = 7.71667,
-	enablePlayerCanDrive = true,
+	enablePlayerCanDrive = false,
 	encyclopediaAnimation = {
 		args = {
 			[19] = 1

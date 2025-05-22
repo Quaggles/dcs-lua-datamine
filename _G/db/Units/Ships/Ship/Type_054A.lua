@@ -106,7 +106,6 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					PL = { {
 							shell_name = {}
 						} },
-					customViewPoint = { "genericHowitzer", { -0.5, 0.4, 0 } },
 					sensor = {}
 				} },
 			angles = { { 2.7925268031909, -2.7925268031909, -0.087266462599716, 1.3962634015955 } },
@@ -184,579 +183,343 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		}, {
 			LN = { {
 					BR = { {
-							connector_name = "POINT_HHQ16_1_1"
+							connector_name = "POINT_HHQ16_1_1",
+							recoilArgument = 185,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
+						}, {
+							connector_name = "POINT_HHQ16_1_2",
+							recoilArgument = 186,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
+						}, {
+							connector_name = "POINT_HHQ16_1_3",
+							recoilArgument = 187,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
+						}, {
+							connector_name = "POINT_HHQ16_1_4",
+							recoilArgument = 188,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
+						}, {
+							connector_name = "POINT_HHQ16_1_5",
+							recoilArgument = 189,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
+						}, {
+							connector_name = "POINT_HHQ16_1_6",
+							recoilArgument = 190,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
+						}, {
+							connector_name = "POINT_HHQ16_1_7",
+							recoilArgument = 191,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
+						}, {
+							connector_name = "POINT_HHQ16_1_8",
+							recoilArgument = 192,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
 						} },
 					PL = { {
 							type_ammunition = {}
 						} },
-					depends_on_unit = <1>{ { { "self", 2 } } },
+					depends_on_unit = { { { "self", 2 } } },
 					sensor = {}
 				} },
 			angles = { {} },
-			animation_alarm_state = {
-				arg = 185,
-				time = 1.5
-			},
 			area = "NOSE_L",
-			center = "POINT_HHQ16_1_1"
+			center = "POINT_HHQ16_1_8",
+			drawArgument1 = 410,
+			drawArgument2 = 411,
+			omegaY = 2.2689280275926,
+			omegaZ = 2.6179938779915,
+			pidY = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pidZ = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pointer = "PNT_SAM_SIGHT_1"
 		}, {
 			LN = { {
 					BR = { {
-							connector_name = "POINT_HHQ16_1_2"
+							connector_name = "POINT_HHQ16_1_9",
+							recoilArgument = 193,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
+						}, {
+							connector_name = "POINT_HHQ16_1_10",
+							recoilArgument = 194,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
+						}, {
+							connector_name = "POINT_HHQ16_1_11",
+							recoilArgument = 195,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
+						}, {
+							connector_name = "POINT_HHQ16_1_12",
+							recoilArgument = 196,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
+						}, {
+							connector_name = "POINT_HHQ16_1_13",
+							recoilArgument = 197,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
+						}, {
+							connector_name = "POINT_HHQ16_1_14",
+							recoilArgument = 198,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
+						}, {
+							connector_name = "POINT_HHQ16_1_15",
+							recoilArgument = 199,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
+						}, {
+							connector_name = "POINT_HHQ16_1_16",
+							recoilArgument = 200,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
 						} },
 					PL = { {
 							type_ammunition = {}
 						} },
-					depends_on_unit = <table 1>,
+					depends_on_unit = { { { "self", 3 } } },
 					sensor = {}
 				} },
 			angles = { {} },
-			animation_alarm_state = {
-				arg = 186,
-				time = 1.5
-			},
 			area = "NOSE_L",
-			center = "POINT_HHQ16_1_2"
+			center = "POINT_HHQ16_1_16",
+			drawArgument1 = 412,
+			drawArgument2 = 413,
+			omegaY = 2.2689280275926,
+			omegaZ = 2.6179938779915,
+			pidY = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pidZ = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pointer = "PNT_SAM_SIGHT_2"
 		}, {
 			LN = { {
 					BR = { {
-							connector_name = "POINT_HHQ16_1_3"
+							connector_name = "POINT_HHQ16_1_17",
+							recoilArgument = 201,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
+						}, {
+							connector_name = "POINT_HHQ16_1_18",
+							recoilArgument = 202,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
+						}, {
+							connector_name = "POINT_HHQ16_1_19",
+							recoilArgument = 203,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
+						}, {
+							connector_name = "POINT_HHQ16_1_20",
+							recoilArgument = 204,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
+						}, {
+							connector_name = "POINT_HHQ16_1_21",
+							recoilArgument = 205,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
+						}, {
+							connector_name = "POINT_HHQ16_1_22",
+							recoilArgument = 206,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
+						}, {
+							connector_name = "POINT_HHQ16_1_23",
+							recoilArgument = 207,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
+						}, {
+							connector_name = "POINT_HHQ16_1_24",
+							recoilArgument = 208,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
 						} },
 					PL = { {
 							type_ammunition = {}
 						} },
-					depends_on_unit = <table 1>,
+					depends_on_unit = { { { "self", 4 } } },
 					sensor = {}
 				} },
 			angles = { {} },
-			animation_alarm_state = {
-				arg = 187,
-				time = 1.5
-			},
-			area = "NOSE_L",
-			center = "POINT_HHQ16_1_3"
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "POINT_HHQ16_1_4"
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					depends_on_unit = <table 1>,
-					sensor = {}
-				} },
-			angles = { {} },
-			animation_alarm_state = {
-				arg = 188,
-				time = 1.5
-			},
-			area = "NOSE_L",
-			center = "POINT_HHQ16_1_4"
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "POINT_HHQ16_1_5"
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					depends_on_unit = <table 1>,
-					sensor = {}
-				} },
-			angles = { {} },
-			animation_alarm_state = {
-				arg = 189,
-				time = 1.5
-			},
-			area = "NOSE_L",
-			center = "POINT_HHQ16_1_5"
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "POINT_HHQ16_1_6"
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					depends_on_unit = <table 1>,
-					sensor = {}
-				} },
-			angles = { {} },
-			animation_alarm_state = {
-				arg = 190,
-				time = 1.5
-			},
-			area = "NOSE_L",
-			center = "POINT_HHQ16_1_6"
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "POINT_HHQ16_1_7"
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					depends_on_unit = <table 1>,
-					sensor = {}
-				} },
-			angles = { {} },
-			animation_alarm_state = {
-				arg = 191,
-				time = 1.5
-			},
-			area = "NOSE_L",
-			center = "POINT_HHQ16_1_7"
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "POINT_HHQ16_1_8"
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					depends_on_unit = <table 1>,
-					sensor = {}
-				} },
-			angles = { {} },
-			animation_alarm_state = {
-				arg = 192,
-				time = 1.5
-			},
-			area = "NOSE_L",
-			center = "POINT_HHQ16_1_8"
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "POINT_HHQ16_1_9"
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					depends_on_unit = <2>{ { { "self", 3 } } },
-					sensor = {}
-				} },
-			angles = { {} },
-			animation_alarm_state = {
-				arg = 193,
-				time = 1.5
-			},
-			area = "NOSE_L",
-			center = "POINT_HHQ16_1_9"
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "POINT_HHQ16_1_10"
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					depends_on_unit = <table 2>,
-					sensor = {}
-				} },
-			angles = { {} },
-			animation_alarm_state = {
-				arg = 194,
-				time = 1.5
-			},
-			area = "NOSE_L",
-			center = "POINT_HHQ16_1_10"
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "POINT_HHQ16_1_11"
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					depends_on_unit = <table 2>,
-					sensor = {}
-				} },
-			angles = { {} },
-			animation_alarm_state = {
-				arg = 195,
-				time = 1.5
-			},
-			area = "NOSE_L",
-			center = "POINT_HHQ16_1_11"
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "POINT_HHQ16_1_12"
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					depends_on_unit = <table 2>,
-					sensor = {}
-				} },
-			angles = { {} },
-			animation_alarm_state = {
-				arg = 196,
-				time = 1.5
-			},
-			area = "NOSE_L",
-			center = "POINT_HHQ16_1_12"
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "POINT_HHQ16_1_13"
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					depends_on_unit = <table 2>,
-					sensor = {}
-				} },
-			angles = { {} },
-			animation_alarm_state = {
-				arg = 197,
-				time = 1.5
-			},
-			area = "NOSE_L",
-			center = "POINT_HHQ16_1_13"
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "POINT_HHQ16_1_14"
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					depends_on_unit = <table 2>,
-					sensor = {}
-				} },
-			angles = { {} },
-			animation_alarm_state = {
-				arg = 198,
-				time = 1.5
-			},
-			area = "NOSE_L",
-			center = "POINT_HHQ16_1_14"
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "POINT_HHQ16_1_15"
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					depends_on_unit = <table 2>,
-					sensor = {}
-				} },
-			angles = { {} },
-			animation_alarm_state = {
-				arg = 199,
-				time = 1.5
-			},
-			area = "NOSE_L",
-			center = "POINT_HHQ16_1_15"
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "POINT_HHQ16_1_16"
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					depends_on_unit = <table 2>,
-					sensor = {}
-				} },
-			angles = { {} },
-			animation_alarm_state = {
-				arg = 200,
-				time = 1.5
-			},
-			area = "NOSE_L",
-			center = "POINT_HHQ16_1_16"
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "POINT_HHQ16_1_17"
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					depends_on_unit = <3>{ { { "self", 4 } } },
-					sensor = {}
-				} },
-			angles = { {} },
-			animation_alarm_state = {
-				arg = 201,
-				time = 1.5
-			},
 			area = "NOSE_R",
-			center = "POINT_HHQ16_1_17"
+			center = "POINT_HHQ16_1_24",
+			drawArgument1 = 414,
+			drawArgument2 = 415,
+			omegaY = 2.2689280275926,
+			omegaZ = 2.6179938779915,
+			pidY = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pidZ = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pointer = "PNT_SAM_SIGHT_3"
 		}, {
 			LN = { {
 					BR = { {
-							connector_name = "POINT_HHQ16_1_18"
+							connector_name = "POINT_HHQ16_1_25",
+							recoilArgument = 209,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
+						}, {
+							connector_name = "POINT_HHQ16_1_26",
+							recoilArgument = 210,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
+						}, {
+							connector_name = "POINT_HHQ16_1_27",
+							recoilArgument = 211,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
+						}, {
+							connector_name = "POINT_HHQ16_1_28",
+							recoilArgument = 212,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
+						}, {
+							connector_name = "POINT_HHQ16_1_29",
+							recoilArgument = 213,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
+						}, {
+							connector_name = "POINT_HHQ16_1_30",
+							recoilArgument = 214,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
+						}, {
+							connector_name = "POINT_HHQ16_1_31",
+							recoilArgument = 215,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
+						}, {
+							connector_name = "POINT_HHQ16_1_32",
+							recoilArgument = 216,
+							recoilT0 = -2,
+							recoilT1 = -0.5,
+							recoilT2 = 0.5,
+							recoilTime = 2
 						} },
 					PL = { {
 							type_ammunition = {}
 						} },
-					depends_on_unit = <table 3>,
+					depends_on_unit = { { { "self", 5 } } },
 					sensor = {}
 				} },
 			angles = { {} },
-			animation_alarm_state = {
-				arg = 202,
-				time = 1.5
-			},
 			area = "NOSE_R",
-			center = "POINT_HHQ16_1_18"
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "POINT_HHQ16_1_19"
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					depends_on_unit = <table 3>,
-					sensor = {}
-				} },
-			angles = { {} },
-			animation_alarm_state = {
-				arg = 203,
-				time = 1.5
+			center = "POINT_HHQ16_1_32",
+			drawArgument1 = 416,
+			drawArgument2 = 417,
+			omegaY = 2.2689280275926,
+			omegaZ = 2.6179938779915,
+			pidY = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
 			},
-			area = "NOSE_R",
-			center = "POINT_HHQ16_1_19"
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "POINT_HHQ16_1_20"
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					depends_on_unit = <table 3>,
-					sensor = {}
-				} },
-			angles = { {} },
-			animation_alarm_state = {
-				arg = 204,
-				time = 1.5
+			pidZ = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
 			},
-			area = "NOSE_R",
-			center = "POINT_HHQ16_1_20"
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "POINT_HHQ16_1_21"
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					depends_on_unit = <table 3>,
-					sensor = {}
-				} },
-			angles = { {} },
-			animation_alarm_state = {
-				arg = 205,
-				time = 1.5
-			},
-			area = "NOSE_R",
-			center = "POINT_HHQ16_1_21"
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "POINT_HHQ16_1_22"
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					depends_on_unit = <table 3>,
-					sensor = {}
-				} },
-			angles = { {} },
-			animation_alarm_state = {
-				arg = 206,
-				time = 1.5
-			},
-			area = "NOSE_R",
-			center = "POINT_HHQ16_1_22"
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "POINT_HHQ16_1_23"
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					depends_on_unit = <table 3>,
-					sensor = {}
-				} },
-			angles = { {} },
-			animation_alarm_state = {
-				arg = 207,
-				time = 1.5
-			},
-			area = "NOSE_R",
-			center = "POINT_HHQ16_1_23"
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "POINT_HHQ16_1_24"
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					depends_on_unit = <table 3>,
-					sensor = {}
-				} },
-			angles = { {} },
-			animation_alarm_state = {
-				arg = 208,
-				time = 1.5
-			},
-			area = "NOSE_R",
-			center = "POINT_HHQ16_1_24"
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "POINT_HHQ16_1_25"
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					depends_on_unit = <4>{ { { "self", 5 } } },
-					sensor = {}
-				} },
-			angles = { {} },
-			animation_alarm_state = {
-				arg = 209,
-				time = 1.5
-			},
-			area = "NOSE_R",
-			center = "POINT_HHQ16_1_25"
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "POINT_HHQ16_1_26"
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					depends_on_unit = <table 4>,
-					sensor = {}
-				} },
-			angles = { {} },
-			animation_alarm_state = {
-				arg = 210,
-				time = 1.5
-			},
-			area = "NOSE_R",
-			center = "POINT_HHQ16_1_26"
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "POINT_HHQ16_1_27"
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					depends_on_unit = <table 4>,
-					sensor = {}
-				} },
-			angles = { {} },
-			animation_alarm_state = {
-				arg = 211,
-				time = 1.5
-			},
-			area = "NOSE_R",
-			center = "POINT_HHQ16_1_27"
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "POINT_HHQ16_1_28"
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					depends_on_unit = <table 4>,
-					sensor = {}
-				} },
-			angles = { {} },
-			animation_alarm_state = {
-				arg = 212,
-				time = 1.5
-			},
-			area = "NOSE_R",
-			center = "POINT_HHQ16_1_28"
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "POINT_HHQ16_1_29"
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					depends_on_unit = <table 4>,
-					sensor = {}
-				} },
-			angles = { {} },
-			animation_alarm_state = {
-				arg = 213,
-				time = 1.5
-			},
-			area = "NOSE_R",
-			center = "POINT_HHQ16_1_29"
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "POINT_HHQ16_1_30"
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					depends_on_unit = <table 4>,
-					sensor = {}
-				} },
-			angles = { {} },
-			animation_alarm_state = {
-				arg = 214,
-				time = 1.5
-			},
-			area = "NOSE_R",
-			center = "POINT_HHQ16_1_30"
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "POINT_HHQ16_1_31"
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					depends_on_unit = <table 4>,
-					sensor = {}
-				} },
-			angles = { {} },
-			animation_alarm_state = {
-				arg = 215,
-				time = 1.5
-			},
-			area = "NOSE_R",
-			center = "POINT_HHQ16_1_31"
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "POINT_HHQ16_1_32"
-						} },
-					PL = { {
-							type_ammunition = {}
-						} },
-					depends_on_unit = <table 4>,
-					sensor = {}
-				} },
-			angles = { {} },
-			animation_alarm_state = {
-				arg = 216,
-				time = 1.5
-			},
-			area = "NOSE_R",
-			center = "POINT_HHQ16_1_32"
+			pointer = "PNT_SAM_SIGHT_4"
 		}, {
 			LN = { {
 					BR = { {
@@ -767,8 +530,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					PL = { {
 							shell_name = {}
 						} },
-					createMuzzleFlashEffect = false,
-					customViewPoint = { "genericAAA", { 0.5, 0.5, 0 } },
+					createMuzzleFlashEffect = true,
 					sensor = {}
 				} },
 			angles = { { 2.6179938779915, 0.5235987755983, -0.43633231299858, 1.4835298641952 } },
@@ -803,7 +565,6 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							shell_name = {}
 						} },
 					createMuzzleFlashEffect = true,
-					customViewPoint = { "genericAAA", { 0.5, 0.5, 0 } },
 					sensor = {}
 				} },
 			angles = { { -0.5235987755983, -2.6179938779915, -0.43633231299858, 1.4835298641952 } },
@@ -867,7 +628,24 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			area = "BORT_L",
 			board = 3,
 			canSetTacticalDir = true,
-			center = "POINT_YJ83_1_1"
+			center = "POINT_YJ83_1_1",
+			drawArgument1 = 402,
+			drawArgument2 = 403,
+			omegaY = 2.2689280275926,
+			omegaZ = 2.6179938779915,
+			pidY = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pidZ = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pointer = "PNT_ASM_SIGHT_L"
 		}, {
 			LN = { {
 					BR = { {
@@ -908,7 +686,24 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			area = "BORT_R",
 			board = 4,
 			canSetTacticalDir = true,
-			center = "POINT_YJ83_2_1"
+			center = "POINT_YJ83_2_1",
+			drawArgument1 = 404,
+			drawArgument2 = 405,
+			omegaY = 2.2689280275926,
+			omegaZ = 2.6179938779915,
+			pidY = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pidZ = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pointer = "PNT_ASM_SIGHT_R"
 		},
 		maxTargetDetectionRange = 450000,
 		radar_type = 102,
@@ -939,13 +734,13 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 3, 12, 14, "Redacted", "Frigates", "RADAR_BAND1_FOR_ARM", "RADAR_BAND2_FOR_ARM", "DetectionByAWACS", "Straight_in_approach_type", "Armed Ship", "HelicopterCarrier", "Naval", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
+	attribute = { 3, 12, 14, "Redacted", "Frigates", "RADAR_BAND1_FOR_ARM", "RADAR_BAND2_FOR_ARM", "DetectionByAWACS", "Straight_in_approach_type", "NO_SAM", "Armed Ship", "HelicopterCarrier", "Naval", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
 	chassis = {},
 	distFindObstacles = 568.4,
 	draft = 15,
 	economy_distance = 6437000,
 	economy_velocity = 9.62,
-	enablePlayerCanDrive = true,
+	enablePlayerCanDrive = false,
 	encyclopediaAnimation = {
 		args = {
 			[14] = 0.1,

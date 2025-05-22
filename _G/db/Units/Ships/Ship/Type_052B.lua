@@ -106,7 +106,6 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					PL = { {
 							shell_name = {}
 						} },
-					customViewPoint = { "genericHowitzer", { -0.5, 0.4, 0 } },
 					sensor = {}
 				} },
 			angles = { { 2.7925268031909, -2.7925268031909, -0.087266462599716, 1.3962634015955 } },
@@ -341,7 +340,6 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							shell_name = {}
 						} },
 					createMuzzleFlashEffect = true,
-					customViewPoint = { "genericAAA", { 0, 0, 0 } },
 					sensor = {}
 				} },
 			angles = { { 3.1415926535898, 0.17453292519943, -0.43633231299858, 1.4835298641952 } },
@@ -377,7 +375,6 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							shell_name = {}
 						} },
 					createMuzzleFlashEffect = true,
-					customViewPoint = { "genericAAA", { 0, 0, 0 } },
 					sensor = {}
 				} },
 			angles = { { -0.17453292519943, -3.1415926535898, -0.43633231299858, 1.4835298641952 } },
@@ -419,15 +416,15 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							recoilT2 = 0.5,
 							recoilTime = 2
 						}, {
-							connector_name = "POINT_YJ83_6_1",
-							recoilArgument = 190,
+							connector_name = "POINT_YJ83_2_1",
+							recoilArgument = 188,
 							recoilT0 = -2,
 							recoilT1 = -0.5,
 							recoilT2 = 0.5,
 							recoilTime = 2
 						}, {
-							connector_name = "POINT_YJ83_7_1",
-							recoilArgument = 189,
+							connector_name = "POINT_YJ83_4_1",
+							recoilArgument = 187,
 							recoilT0 = -2,
 							recoilT1 = -0.5,
 							recoilT2 = 0.5,
@@ -442,19 +439,36 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			area = "BORT_L",
 			board = 3,
 			canSetTacticalDir = true,
-			center = "POINT_YJ83_1_1"
+			center = "POINT_YJ83_1_1",
+			drawArgument1 = 200,
+			drawArgument2 = 201,
+			omegaY = 2.2689280275926,
+			omegaZ = 2.6179938779915,
+			pidY = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pidZ = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pointer = "PNT_ASM_SIGHT_L1"
 		}, {
 			LN = { {
 					BR = { {
-							connector_name = "POINT_YJ83_2_1",
-							recoilArgument = 188,
+							connector_name = "POINT_YJ83_6_1",
+							recoilArgument = 190,
 							recoilT0 = -2,
 							recoilT1 = -0.5,
 							recoilT2 = 0.5,
 							recoilTime = 2
 						}, {
-							connector_name = "POINT_YJ83_4_1",
-							recoilArgument = 187,
+							connector_name = "POINT_YJ83_7_1",
+							recoilArgument = 189,
 							recoilT0 = -2,
 							recoilT1 = -0.5,
 							recoilT2 = 0.5,
@@ -482,7 +496,24 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			angles = { {} },
 			area = "BORT_L",
 			board = 3,
-			center = "POINT_YJ83_2_1"
+			center = "POINT_YJ83_2_1",
+			drawArgument1 = 202,
+			drawArgument2 = 203,
+			omegaY = 2.2689280275926,
+			omegaZ = 2.6179938779915,
+			pidY = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pidZ = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pointer = "PNT_ASM_SIGHT_L2"
 		}, {
 			LN = { {
 					BR = { {
@@ -500,15 +531,15 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							recoilT2 = 0.5,
 							recoilTime = 2
 						}, {
-							connector_name = "POINT_YJ83_14_1",
-							recoilArgument = 182,
+							connector_name = "POINT_YJ83_9_1",
+							recoilArgument = 180,
 							recoilT0 = -2,
 							recoilT1 = -0.5,
 							recoilT2 = 0.5,
 							recoilTime = 2
 						}, {
-							connector_name = "POINT_YJ83_16_1",
-							recoilArgument = 181,
+							connector_name = "POINT_YJ83_11_1",
+							recoilArgument = 179,
 							recoilT0 = -2,
 							recoilT1 = -0.5,
 							recoilT2 = 0.5,
@@ -523,19 +554,36 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			area = "BORT_R",
 			board = 4,
 			canSetTacticalDir = true,
-			center = "POINT_YJ83_10_1"
+			center = "POINT_YJ83_10_1",
+			drawArgument1 = 204,
+			drawArgument2 = 205,
+			omegaY = 2.2689280275926,
+			omegaZ = 2.6179938779915,
+			pidY = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pidZ = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pointer = "PNT_ASM_SIGHT_R1"
 		}, {
 			LN = { {
 					BR = { {
-							connector_name = "POINT_YJ83_9_1",
-							recoilArgument = 180,
+							connector_name = "POINT_YJ83_14_1",
+							recoilArgument = 182,
 							recoilT0 = -2,
 							recoilT1 = -0.5,
 							recoilT2 = 0.5,
 							recoilTime = 2
 						}, {
-							connector_name = "POINT_YJ83_11_1",
-							recoilArgument = 179,
+							connector_name = "POINT_YJ83_16_1",
+							recoilArgument = 181,
 							recoilT0 = -2,
 							recoilT1 = -0.5,
 							recoilT2 = 0.5,
@@ -563,7 +611,24 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			angles = { {} },
 			area = "BORT_R",
 			board = 4,
-			center = "POINT_YJ83_9_1"
+			center = "POINT_YJ83_9_1",
+			drawArgument1 = 206,
+			drawArgument2 = 207,
+			omegaY = 2.2689280275926,
+			omegaZ = 2.6179938779915,
+			pidY = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pidZ = {
+				d = 10,
+				i = 0.05,
+				inn = 1000,
+				p = 300
+			},
+			pointer = "PNT_ASM_SIGHT_R2"
 		},
 		maxTargetDetectionRange = 450000,
 		radar_type = 102,
@@ -594,17 +659,13 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 3, 12, 14, "Redacted", "Destroyers", "RADAR_BAND1_FOR_ARM", "RADAR_BAND2_FOR_ARM", "DetectionByAWACS", "Straight_in_approach_type", "Armed Ship", "HelicopterCarrier", "Naval", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
+	attribute = { 3, 12, 14, "Redacted", "Destroyers", "RADAR_BAND1_FOR_ARM", "RADAR_BAND2_FOR_ARM", "DetectionByAWACS", "Straight_in_approach_type", "NO_SAM", "Armed Ship", "HelicopterCarrier", "Naval", "All", "Ships", "Armed ships", "Armed Air Defence", "HeavyArmoredUnits", "Heavy armed ships" },
 	chassis = {},
 	distFindObstacles = 568.4,
 	draft = 15,
-	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
-	driverViewConnectorName = { "POINT_MUSICRADAR",
-		offset = { 3, 0, 0 }
-	},
 	economy_distance = 8334000,
 	economy_velocity = 7.716,
-	enablePlayerCanDrive = true,
+	enablePlayerCanDrive = false,
 	encyclopediaAnimation = {
 		args = {
 			[17] = -0.15,

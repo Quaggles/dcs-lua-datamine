@@ -25,6 +25,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		gearRatios = {}
 	},
 	enablePlayerCanDrive = false,
+	life = 4,
 	mapclasskey = "P0091000005",
 	snd = {
 		engine_pitch = { {}, {}, {} },
@@ -41,6 +42,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		fire_pos = { 0, 0, 0 },
 		fire_size = 0.7,
 		fire_time = 900,
-		shape = "tacr2a"
+		shape = "tacr2a",
+		shape_dstr = "land_rover_109_s3_p_1"
 	}
 }
