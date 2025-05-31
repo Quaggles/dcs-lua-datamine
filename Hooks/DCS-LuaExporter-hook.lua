@@ -1,5 +1,6 @@
 local logName = 'DCS.Lua.Exporter'
 local enableNewFileAlert = false
+local enableRedacted = true
 local function debugLog(message)
 	if log.write ~= nil then
 		log.write(logName, log.INFO, message)
@@ -318,14 +319,16 @@ local function Run()
 	local inspectProcess = function(item, path)
 		local pathTable = currentPathTable
 		-- Redactions
-		if path[#path] == inspect.METATABLE then return nil
-			elseif path[#path] == "ws_type" then return removeWsType(item, pathTable..sepChar..ToTSV(path))
-			elseif path[#path] == "attribute" then return removeAttribute(item, pathTable..sepChar..ToTSV(path))
-			elseif path[#path] == "wsTypeOfWeapon" then return removeWsType(item, pathTable..sepChar..ToTSV(path))
-			elseif path[#path] == "type_ammunition" then return removeWsType(item, pathTable..sepChar..ToTSV(path))
-			elseif path[#path] == "adapter_type" then return removeWsType(item, pathTable..sepChar..ToTSV(path))
-			elseif path[#path] == "index" then return redactedMessage
-			elseif path[#path] == "Name" and item ~= nil and type(item) == "number" then return redactedMessage
+		if enableRedacted then
+			if path[#path] == inspect.METATABLE then return nil
+				elseif path[#path] == "ws_type" then return removeWsType(item, pathTable..sepChar..ToTSV(path))
+				elseif path[#path] == "attribute" then return removeAttribute(item, pathTable..sepChar..ToTSV(path))
+				elseif path[#path] == "wsTypeOfWeapon" then return removeWsType(item, pathTable..sepChar..ToTSV(path))
+				elseif path[#path] == "type_ammunition" then return removeWsType(item, pathTable..sepChar..ToTSV(path))
+				elseif path[#path] == "adapter_type" then return removeWsType(item, pathTable..sepChar..ToTSV(path))
+				elseif path[#path] == "index" then return redactedMessage
+				elseif path[#path] == "Name" and item ~= nil and type(item) == "number" then return redactedMessage
+			end
 		end
 		if type(item) ~= "table" then return item end
 		local seen, depth = findLeastDepthKey(seenTables, item)
