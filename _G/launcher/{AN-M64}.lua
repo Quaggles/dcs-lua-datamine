@@ -5,7 +5,7 @@ _G["launcher"]["{AN-M64}"] = {
 		} },
 	Picture = "us_AN-M64.png",
 	PictureBlendColor = "0xffffffff",
-	Weight = 227,
+	Weight = 254.5,
 	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 5, 9, "Redacted" },
 	displayName = "AN-M64 - 500lb GP Bomb LD",

@@ -2598,6 +2598,10 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "F-4E-45MC"
 				}, {
+					Name = "F4U-1D"
+				}, {
+					Name = "F4U-1D_CW"
+				}, {
 					Name = "I-16"
 				}, {
 					Name = "M-2000C"
@@ -2698,6 +2702,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Seawise_Giant",
 					in_service = 0,
 					out_of_service = 40000
+				}, {
+					Name = "Essex"
 				}, {
 					Name = "HarborTug"
 				}, {

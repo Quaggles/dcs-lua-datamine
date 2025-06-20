@@ -16,14 +16,20 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 65 },
 			critical_damage = 10
 		},
-		[10] = {
-			critical_damage = 15
+		[8] = {
+			critical_damage = 10
 		},
 		[11] = {
 			critical_damage = 3
 		},
 		[12] = {
 			critical_damage = 3
+		},
+		[15] = {
+			critical_damage = 10
+		},
+		[16] = {
+			critical_damage = 10
 		},
 		[17] = {
 			critical_damage = 3
@@ -57,29 +63,47 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 56 },
 			critical_damage = 4
 		},
-		[41] = {
-			args = -1,
-			critical_damage = 4,
-			deps_cells = { 43 }
-		},
 		[43] = {
 			args = { 61 },
-			critical_damage = 4
+			critical_damage = 4,
+			deps_cells = { 53 }
+		},
+		[44] = {
+			args = { 62 },
+			critical_damage = 4,
+			deps_cells = { 54 }
 		},
 		[47] = {
 			args = { 63 },
-			critical_damage = 5
+			critical_damage = 5,
+			deps_cells = { 51 }
 		},
 		[48] = {
 			args = { 64 },
-			critical_damage = 5
+			critical_damage = 5,
+			deps_cells = { 52 }
+		},
+		[51] = {
+			args = { 59 },
+			critical_damage = 2
+		},
+		[52] = {
+			args = { 60 },
+			critical_damage = 2
+		},
+		[53] = {
+			args = { 57 },
+			critical_damage = 2
+		},
+		[54] = {
+			args = { 58 },
+			critical_damage = 2
 		},
 		[55] = {
 			args = { 81 },
 			critical_damage = 15
 		}
 	},
-	DamageParts = { "TU-160-OBLOMOK-WING-R", "TU-160-OBLOMOK-WING-L" },
 	DefaultTask = <1>{
 		Name = "Pinpoint Strike",
 		OldID = "Pinpoint Strike",
@@ -250,141 +274,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	has_speedbrake = false,
 	height = 13.25,
 	length = 54.1,
-	lights_data = {
-		lights = {
-			[2] = {
-				lights = { {
-						lights = { {
-								argument = 51,
-								direction = {
-									azimuth = 0.17453292519943,
-									elevation = 0.10471975511966
-								},
-								exposure = { { 0, 0.89, 0.91 } },
-								movable = true,
-								position = { 16.173, -0.975, 0.395 },
-								proto = <2>{
-									angle_change_rate = 0.05235987755983,
-									angle_max = 0.20943951023932,
-									angle_min = 0.13962634015955,
-									color = { 255, 201, 125, 0.40347331922021 },
-									power_up_t = 3.22,
-									range = 6480
-								},
-								typename = "Spot"
-							}, {
-								direction = {
-									azimuth = -0.17453292519943,
-									elevation = 0.10471975511966
-								},
-								exposure = { { 0, 0.89, 0.91 } },
-								movable = true,
-								position = { 16.173, -0.975, -0.395 },
-								proto = <table 2>,
-								typename = "Spot"
-							}, {
-								exposure = { { 0, 0.89, 0.91 } },
-								movable = true,
-								position = { 17.173, -0.975, 0 },
-								proto = <table 2>,
-								range = 8,
-								typename = "Omni"
-							}, {
-								direction = {
-									azimuth = 0.017453292519943,
-									elevation = 0.034906585039887
-								},
-								exposure = { { 0, 0.89, 0.91 } },
-								movable = true,
-								position = { 23.62, -0.849, 0.33 },
-								proto = <table 2>,
-								typename = "Spot"
-							}, {
-								direction = {
-									azimuth = -0.017453292519943,
-									elevation = 0.034906585039887
-								},
-								exposure = { { 0, 0.89, 0.91 } },
-								movable = true,
-								position = { 23.62, -0.849, -0.33 },
-								proto = <table 2>,
-								typename = "Spot"
-							}, {
-								exposure = { { 0, 0.89, 0.91 } },
-								movable = true,
-								position = { 24.62, -0.849, 0 },
-								proto = <table 2>,
-								range = 8,
-								typename = "Omni"
-							} },
-						typename = "Collection"
-					} },
-				typename = "collection"
-			},
-			[3] = {
-				argument = 49,
-				typename = "argumentlight"
-			},
-			[6] = {
-				lights = { {
-						lights = { {
-								argument = 51,
-								direction = {
-									azimuth = 0.17453292519943,
-									elevation = 0.10471975511966
-								},
-								position = { 16.173, -0.975, 0.395 },
-								proto = <3>{
-									angle_change_rate = -0.19198621771938,
-									angle_max = 0.7679448708775,
-									angle_min = 0.614355896702,
-									color = { 255, 201, 125, 0.27855844122716 },
-									power_up_t = 2.42,
-									range = 960
-								},
-								typename = "Spot"
-							}, {
-								direction = {
-									azimuth = -0.17453292519943,
-									elevation = 0.10471975511966
-								},
-								position = { 16.173, -0.975, -0.395 },
-								proto = <table 3>,
-								typename = "Spot"
-							}, {
-								position = { 17.173, -0.975, 0 },
-								proto = <table 3>,
-								range = 8,
-								typename = "Omni"
-							}, {
-								direction = {
-									azimuth = 0.017453292519943,
-									elevation = 0.034906585039887
-								},
-								position = { 23.62, -0.849, 0.33 },
-								proto = <table 3>,
-								typename = "Spot"
-							}, {
-								direction = {
-									azimuth = -0.017453292519943,
-									elevation = 0.034906585039887
-								},
-								position = { 23.62, -0.849, -0.33 },
-								proto = <table 3>,
-								typename = "Spot"
-							}, {
-								position = { 24.62, -0.849, 0 },
-								proto = <table 3>,
-								range = 8,
-								typename = "Omni"
-							} },
-						typename = "Collection"
-					} },
-				typename = "collection"
-			}
-		},
-		typename = "collection"
-	},
 	main_gear_pos = { -4.142, -3.693, 3.66 },
 	main_gear_wheel_diameter = 0.972,
 	mapclasskey = "P0091000027",

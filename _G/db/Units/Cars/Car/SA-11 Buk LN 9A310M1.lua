@@ -16,58 +16,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		OPTIC = { "Karat visir" },
 		RADAR = { "SA-11 Buk TR" }
 	},
-	ThreatRange = 35000,
+	ThreatRange = 50000,
 	WS = { {
-			LN = { {
-					ECM_K = 0.65,
-					beamWidth = 1.5707963267949,
-					depends_on_unit = { { { "self", 4 } }, { { "self", 5 } }, { { "SA-11 Buk CC 9S470M1" } } },
-					distanceMax = 50000,
-					distanceMin = 3000,
-					frequencyRange = { 6000000000, 9000000000 },
-					maxShootingSpeed = 0,
-					max_number_of_missiles_channels = 2,
-					max_trg_alt = 22000,
-					min_trg_alt = 20,
-					reactionTime = 4,
-					reflection_limit = 0.18,
-					type = 102
-				} },
-			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 1.2217 } },
-			drawArgument1 = 0,
-			mount_before_move = true,
-			omegaY = 0.523599,
-			omegaZ = 0.17453292519943,
-			pidY = {
-				d = 7,
-				i = 0.1,
-				inn = 4,
-				p = 40
-			},
-			pos = { 0, 3.1, 0 },
-			reference_angle_Y = 3.1415926535898
-		}, {
-			LN = { {
-					ECM_K = 0.65,
-					beamWidth = 1.5707963267949,
-					depends_on_unit = { { { "self", 4 } }, { { "self", 5 } }, { { "SA-11 Buk CC 9S470M1" } } },
-					distanceMax = 50000,
-					distanceMin = 3000,
-					frequencyRange = { 6000000000, 9000000000 },
-					maxShootingSpeed = 0,
-					max_number_of_missiles_channels = 2,
-					max_trg_alt = 22000,
-					min_trg_alt = 20,
-					reactionTime = 4,
-					reflection_limit = 0.18,
-					type = 102
-				} },
-			angles = { { 0.26179938779915, -0.26179938779915, -0.087266462599716, 1.2217 } },
-			base = 1,
-			omegaY = 1,
-			omegaZ = 1,
-			pos = { 0, 0, 0 }
-		}, {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_ROCKET_01"
@@ -81,23 +31,23 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					PL = { {
 							type_ammunition = {}
 						} },
-					depends_on_unit = { { { "self", 1 } }, { { "self", 2 } } },
+					depends_on_unit = { { { "SA-11 Buk CC 9S470M1" } }, { { "self", 2 } }, { { "self", 3 } } },
 					frequencyRange = { 6000000000, 9000000000 },
 					launch_delay = 5,
 					min_launch_angle = 0.34906585039887,
 					sensor = {}
 				} },
-			angles = { { 0.034906585039887, -0.034906585039887, -0.087266462599716, 1.2217 } },
-			base = 1,
+			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 1.2217 } },
+			drawArgument1 = 0,
 			drawArgument2 = 1,
 			mount_before_move = true,
-			omegaY = 1,
+			omegaY = 0.523599,
 			omegaZ = 1,
 			pidY = {
-				d = 2,
+				d = 7,
 				i = 0.1,
-				inn = 1,
-				p = 4
+				inn = 4,
+				p = 40
 			},
 			pidZ = {
 				d = 2,
@@ -105,7 +55,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				inn = 1,
 				p = 4
 			},
-			pos = { 0, 0, 0 },
+			pos = { 0, 3.1, 0 },
+			reference_angle_Y = 3.1415926535898,
 			reference_angle_Z = 0.034906585039887
 		}, {
 			LN = { {
@@ -115,7 +66,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					distanceMin = 3000,
 					frequencyRange = { 6000000000, 9000000000 },
 					maxShootingSpeed = 0,
-					max_number_of_missiles_channels = 2,
 					max_trg_alt = 22000,
 					min_trg_alt = 20,
 					reactionTime = 20,
@@ -123,7 +73,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					type = 101
 				} },
 			angles = { { 1.0471975511966, -1.0471975511966, -0.087266462599716, 1.2217 } },
-			base = 3,
+			base = 1,
 			omegaY = 1,
 			omegaZ = 1,
 			pidY = {
@@ -138,39 +88,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				inn = 3,
 				p = 10
 			},
-			pos = { 0, 0, 0 }
+			pos = { 3, 0, 0 }
 		}, {
 			LN = { {
-					ECM_K = 0.65,
-					beamWidth = 1.5707963267949,
-					distanceMax = 50000,
-					distanceMin = 3000,
-					frequencyRange = { 6000000000, 9000000000 },
-					maxShootingSpeed = 0,
-					max_number_of_missiles_channels = 2,
-					max_trg_alt = 22000,
-					min_trg_alt = 20,
-					reactionTime = 20,
-					reflection_limit = 0.18,
-					type = 101
+					frequencyRange = {}
 				} },
-			angles = { { 1.0471975511966, -1.0471975511966, -0.087266462599716, 1.2217 } },
-			base = 3,
-			omegaY = 1,
-			omegaZ = 1,
-			pidY = {
-				d = 3,
-				i = 0.1,
-				inn = 3,
-				p = 10
-			},
-			pidZ = {
-				d = 3,
-				i = 0.1,
-				inn = 3,
-				p = 10
-			},
-			pos = { 0, 0, 0 }
+			angles = { {} },
+			pidY = {},
+			pidZ = {},
+			pos = {}
 		},
 		fire_on_march = false,
 		maxTargetDetectionRange = 60000,

@@ -337,6 +337,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	flaps_maneuver = 0.5,
 	has_afteburner = false,
 	has_differential_stabilizer = false,
+	has_interceptors = true,
 	has_speedbrake = false,
 	has_thrustReverser = true,
 	height = 14.76,

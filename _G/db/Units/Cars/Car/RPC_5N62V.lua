@@ -49,6 +49,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					beamWidth = 1.5707963267949,
 					distanceMax = 400000,
 					distanceMin = 17000,
+					frequencyRange = { 6400000000, 6800000000 },
 					maxShootingSpeed = 0,
 					max_number_of_missiles_channels = 1,
 					max_trg_alt = 40000,
@@ -77,8 +78,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			pos = { 0, 0, 0 }
 		},
 		maxTargetDetectionRange = 400000,
-		radar_type = 103,
-		searchRadarFrequencies = { { 1550000000, 3900000000 } }
+		radar_type = 103
 	},
 	Waypoint_Custom_Panel = true,
 	_file = "./CoreMods/tech/TechWeaponPack/Database/db_units_cars.lua",

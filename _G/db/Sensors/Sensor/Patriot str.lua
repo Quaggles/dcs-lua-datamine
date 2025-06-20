@@ -19,6 +19,6 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 	},
 	type = 0,
 	velocity_limits = {
-		radial_velocity_min = 15
+		radial_velocity_min = 0
 	}
 }

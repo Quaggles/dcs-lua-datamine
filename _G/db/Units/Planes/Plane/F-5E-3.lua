@@ -1819,6 +1819,36 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Z = 4.099,
 			connector = "Pylon7",
 			use_full_connector_position = true
+		}, {
+			DisplayName = "SMK",
+			Launchers = { {
+					CLSID = "{INV-SMOKE-RED}",
+					arg_value = 0
+				}, {
+					CLSID = "{INV-SMOKE-GREEN}",
+					arg_value = 0
+				}, {
+					CLSID = "{INV-SMOKE-BLUE}",
+					arg_value = 0
+				}, {
+					CLSID = "{INV-SMOKE-WHITE}",
+					arg_value = 0
+				}, {
+					CLSID = "{INV-SMOKE-YELLOW}",
+					arg_value = 0
+				}, {
+					CLSID = "{INV-SMOKE-ORANGE}",
+					arg_value = 0
+				} },
+			Number = 8,
+			Order = 8,
+			Type = 2,
+			X = -6.088,
+			Y = 0.328,
+			Z = -0.27,
+			arg = 315,
+			arg_value = 1,
+			connector = "Pylon8"
 		} },
 	RCS = 3,
 	Rate = 30,
@@ -4074,7 +4104,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	average_fuel_consumption = 0.06,
 	bank_angle_max = 60,
 	bigParkingRamp = false,
-	brakeshute_name = 349,
+	brakeshute_name = 351,
 	chaff_flare_dispenser = { {
 			dir = { 0, -1, 0 },
 			pos = { -1.3, -0.506, -0.496 }
@@ -4083,8 +4113,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	crew_members = { {
 			canopy_pos = { 1.17, 0, 0 },
 			drop_canopy_name = 43,
-			ejection_seat_name = 347,
-			pilot_name = 348,
+			ejection_seat_name = 349,
+			pilot_name = 350,
 			pos = { 2.94, 0.28, 0 },
 			role = "pilot",
 			role_display_name = "Pilot"

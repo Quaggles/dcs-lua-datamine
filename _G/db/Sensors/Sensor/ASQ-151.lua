@@ -6,8 +6,8 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 	magnifications = { 28, 100 },
 	resolution = 0.025,
 	scan_volume = {
-		azimuth = { -35, 35 },
-		elevation = { -85, 15 }
+		azimuth = { -45, 45 },
+		elevation = { -45, 15 }
 	},
 	type = 0,
 	view_volume_max = {

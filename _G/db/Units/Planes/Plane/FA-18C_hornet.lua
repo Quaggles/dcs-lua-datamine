@@ -104,7 +104,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 3
 		}, {
 			args = { 65 },
-			critical_damage = 1
+			critical_damage = 8
 		}, {
 			args = { 298 },
 			critical_damage = 3
@@ -2656,10 +2656,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	crew_members = { {
 			bailout_arg = -1,
 			canopy_pos = { 0, 0, 0 },
-			drop_canopy_name = 311,
+			drop_canopy_name = 313,
 			ejection_seat_connector = "center",
-			ejection_seat_name = 310,
-			pilot_name = 312,
+			ejection_seat_name = 312,
+			pilot_name = 314,
 			pos = { 3.5, 0.578, 0 },
 			role = "pilot",
 			role_display_name = "Pilot",

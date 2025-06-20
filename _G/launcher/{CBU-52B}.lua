@@ -1,7 +1,7 @@
 _G["launcher"]["{CBU-52B}"] = {
 	CLSID = "{CBU-52B}",
 	Elements = { {
-			ShapeName = "SUU-30H"
+			ShapeName = "CBU-52B"
 		} },
 	Picture = "CBU.png",
 	Weight = 356,

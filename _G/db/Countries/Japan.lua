@@ -326,6 +326,22 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "Type_3_80mm_AA"
+				}, {
+					Name = "Type_88_75mm_AA"
+				}, {
+					Name = "Type_94_Truck"
+				}, {
+					Name = "Type_96_25mm_AA"
+				}, {
+					Name = "Type_94_25mm_AA_Truck"
+				}, {
+					Name = "Type_98_Ke_Ni"
+				}, {
+					Name = "Type_98_So_Da"
+				}, {
+					Name = "Type_89_I_Go"
+				}, {
 					Name = "TugHarlan_drivable"
 				}, {
 					Name = "B600_drivable"
@@ -1187,6 +1203,10 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "F-5E-3"
 				}, {
 					Name = "F-5E-3_FC"
+				}, {
+					Name = "F4U-1D"
+				}, {
+					Name = "F4U-1D_CW"
 				}, {
 					Name = "F/A-18A"
 				}, {

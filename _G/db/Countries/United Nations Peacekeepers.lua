@@ -1318,6 +1318,38 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "Type_3_80mm_AA",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Type_88_75mm_AA",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Type_94_Truck",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Type_96_25mm_AA",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Type_94_25mm_AA_Truck",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Type_98_Ke_Ni",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Type_98_So_Da",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Type_89_I_Go",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "M1128 Stryker MGS",
 					in_service = 0,
 					out_of_service = 40000
@@ -2242,6 +2274,10 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "F-86F_FC"
 				}, {
+					Name = "F4U-1D"
+				}, {
+					Name = "F4U-1D_CW"
+				}, {
 					Name = "F/A-18A"
 				}, {
 					Name = "F/A-18C"
@@ -2798,6 +2834,10 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "CVN_75",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Essex",
 					in_service = 0,
 					out_of_service = 40000
 				}, {

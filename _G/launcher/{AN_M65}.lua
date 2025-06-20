@@ -7,7 +7,7 @@ _G["launcher"]["{AN_M65}"] = {
 		} },
 	Picture = "us_AN-M44.png",
 	PictureBlendColor = "0xffffffff",
-	Weight = 475,
+	Weight = 500.8,
 	_file = "./CoreMods/WWII Units/Weapons/Weapons.lua",
 	_origin = "World War II AI Units by Eagle Dynamics",
 	attribute = { 4, 5, 9, "Redacted" },

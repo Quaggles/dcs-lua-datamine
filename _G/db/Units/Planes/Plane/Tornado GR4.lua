@@ -649,72 +649,96 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		lights = {
 			[2] = {
 				lights = { {
-						argument = 209,
-						color = { 255, 255, 200, 0.333 },
-						connector = "MAIN_SPOT_PTR",
-						position = <8>{ 4.02, -1.291, 0 },
-						typename = "spotlight"
+						direction = {
+							azimuth = -0.034906585039887,
+							elevation = 0.15707963267949
+						},
+						exposure = { { 3, 0.7, 1 } },
+						movable = true,
+						position = { 0.45, -0.76, 1.7 },
+						proto = <8>{
+							angle_change_rate = 0.05235987755983,
+							angle_max = 0.20943951023932,
+							angle_min = 0.13962634015955,
+							color = { 255, 201, 125, 0.40347331922021 },
+							power_up_t = 3.22,
+							range = 6480
+						},
+						typename = "Spot"
 					}, {
-						argument = 208,
-						color = { 255, 255, 200, 0.333 },
-						connector = "RESERV_SPOT_PTR",
-						position = <9>{ 0.409, -0.708, 0.864 },
-						typename = "spotlight"
+						exposure = { { 3, 0.7, 1 } },
+						movable = true,
+						position = { 0.7, -0.76, 1.7 },
+						proto = <table 8>,
+						range = 4,
+						typename = "Omni"
 					}, {
-						argument = 208,
-						color = { 255, 255, 200, 0.333 },
-						connector = "FARA_3",
-						position = <10>{ 0.409, -0.708, -0.864 },
-						typename = "spotlight"
+						direction = {
+							azimuth = 0.034906585039887,
+							elevation = 0.17453292519943
+						},
+						exposure = { { 5, 0.7, 1 } },
+						movable = true,
+						position = { 0.45, -0.76, -1.7 },
+						proto = <table 8>,
+						typename = "Spot"
+					}, {
+						exposure = { { 5, 0.7, 1 } },
+						movable = true,
+						position = { 0.7, -0.76, -1.7 },
+						proto = <table 8>,
+						range = 4,
+						typename = "Omni"
 					} },
 				typename = "collection"
 			},
 			[3] = {
-				lights = { {
-						argument = 192,
-						color = { 1, 1, 1, 0.333 },
-						connector = "BANO_0",
-						movable = false,
-						position = { -6.079, 2.896, 0 },
-						typename = "omnilight"
-					}, {
-						argument = 190,
-						color = { 0.99, 0.11, 0.3, 0.333 },
-						connector = "BANO_1",
-						movable = false,
-						position = { -1.516, -0.026, -7.249 },
-						typename = "omnilight"
-					}, {
-						argument = 191,
-						color = { 0, 0.894, 0.6, 0.333 },
-						connector = "BANO_2",
-						movable = false,
-						position = { -1.516, -0.026, 7.249 },
-						typename = "omnilight"
-					} },
-				typename = "collection"
+				argument = 49,
+				typename = "argumentlight"
 			},
 			[6] = {
 				lights = { {
-						argument = 209,
-						color = { 255, 255, 200, 0.333 },
-						connector = "MAIN_SPOT_PTR",
-						position = <table 8>,
-						typename = "spotlight"
+						direction = {
+							elevation = 0.1221730476396
+						},
+						exposure = { { 0, 0.98, 1 } },
+						movable = true,
+						position = { 4.235, -1.26, 0.047 },
+						proto = <9>{
+							angle_change_rate = -0.19198621771938,
+							angle_max = 0.7679448708775,
+							angle_min = 0.614355896702,
+							color = { 255, 201, 125, 0.27855844122716 },
+							power_up_t = 2.42,
+							range = 960
+						},
+						typename = "Spot"
 					}, {
-						argument = 208,
-						color = { 255, 255, 200, 0.333 },
-						connector = "RESERV_SPOT_PTR",
-						position = <table 9>,
-						typename = "spotlight"
-					}, {
-						argument = 208,
-						color = { 255, 255, 200, 0.333 },
-						connector = "FARA_3",
-						position = <table 10>,
-						typename = "spotlight"
+						exposure = { { 0, 0.98, 1 } },
+						movable = true,
+						position = { 4.435, -1.26, 0.047 },
+						proto = <table 9>,
+						range = 3,
+						typename = "Omni"
 					} },
 				typename = "collection"
+			},
+			[9] = {
+				lights = { {
+						lights = { {
+								color = { 0, 1, 0, 0.3 },
+								position = { 4.5, 0.95, 0 },
+								range = 2,
+								typename = "Omni"
+							}, {
+								color = { 0, 1, 0, 0.2 },
+								position = { 2.85, 0.96, 0 },
+								range = 2,
+								typename = "Omni"
+							} },
+						typename = "collection"
+					} },
+				typename = "Collection"
 			}
 		},
 		typename = "collection"

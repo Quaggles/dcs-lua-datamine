@@ -18,6 +18,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					depends_on_unit = { { { "self", 2 } }, { { "p-19 s-125 sr" } } },
 					distanceMax = 100000,
 					distanceMin = 1500,
+					frequencyRange = { 4910000000, 5090000000 },
 					max_number_of_missiles_channels = 2,
 					max_trg_alt = 20000,
 					min_trg_alt = 25,

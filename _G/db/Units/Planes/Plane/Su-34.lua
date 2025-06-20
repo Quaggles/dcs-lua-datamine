@@ -183,6 +183,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 2
 		}
 	},
+	DamageParts = { "su-34-oblomok-wing-r", "su-34-oblomok-wing-l" },
 	DefaultTask = <1>{
 		Name = "Ground Attack",
 		OldID = "Ground Attack",
@@ -1466,7 +1467,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	crew_members = { {
 			canopy_ejection_dir = { 0, 0.5, -0.5 },
 			canopy_pos = { 0, 0, 0 },
-			drop_canopy_name = 340,
+			drop_canopy_name = 342,
 			ejection_seat_name = 9,
 			pos = { 7.99, 0.7, -0.367 },
 			role = "pilot",
@@ -1475,7 +1476,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			canopy_arg = 118,
 			canopy_ejection_dir = { 0, 0.5, 0.5 },
 			canopy_pos = { 0, 0, 0 },
-			drop_canopy_name = 341,
+			drop_canopy_name = 343,
 			ejection_seat_name = 9,
 			pos = { 7.99, 0.7, 0.392 },
 			role = "copilot",

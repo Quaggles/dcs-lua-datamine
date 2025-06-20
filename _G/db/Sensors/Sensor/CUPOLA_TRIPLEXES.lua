@@ -8,11 +8,11 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 	resolution = 0.8,
 	scan_volume = {
 		azimuth = { -180, 180 },
-		elevation = { -15, 10 }
+		elevation = { -15, 15 }
 	},
 	type = 0,
 	view_volume_max = {
-		azimuth_sector = 30,
-		elevation_sector = 10
+		azimuth_sector = 45,
+		elevation_sector = 20
 	}
 }

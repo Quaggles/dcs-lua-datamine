@@ -137,6 +137,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			drop_canopy_name = 0,
 			ejection_added_speed = { 0, 0, -5 },
 			ejection_seat_name = 0,
+			pilot_name = 11,
 			pos = { 3.2, -0.2, -1.1 },
 			role = "pilot",
 			role_display_name = "Pilot in command"
@@ -145,7 +146,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			drop_canopy_name = 0,
 			ejection_added_speed = { 0, 0, -6 },
 			ejection_seat_name = 0,
-			pos = { 3.2, -0.2, -1.2 },
+			pilot_name = 11,
+			pos = { 3.2, -0.2, -2.2 },
 			role = "copilot",
 			role_display_name = "Copilot"
 		}, {
@@ -153,7 +155,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			drop_canopy_name = 0,
 			ejection_added_speed = { 0, 0, -7 },
 			ejection_seat_name = 0,
-			pos = { 3.2, -0.2, -1.3 },
+			pilot_name = 11,
+			pos = { 3.2, -0.2, -3.3 },
 			role = "flight_officer",
 			role_display_name = "Flight officer"
 		} },

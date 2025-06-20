@@ -62,6 +62,9 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			args = { 235 },
 			critical_damage = 4
 		},
+		[54] = {
+			critical_damage = 3
+		},
 		[55] = {
 			args = { 159 },
 			critical_damage = 3
@@ -75,6 +78,28 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			args = { 81, 157 },
 			critical_damage = 14,
 			deps_cells = { 55 }
+		},
+		[63] = {
+			args = { -1 },
+			critical_damage = 4
+		},
+		[64] = {
+			critical_damage = 2
+		},
+		[67] = {
+			critical_damage = 2
+		},
+		[70] = {
+			critical_damage = 2
+		},
+		[73] = {
+			critical_damage = 2
+		},
+		[76] = {
+			critical_damage = 2
+		},
+		[136] = {
+			critical_damage = 4
 		}
 	},
 	DamageParts = { "Mi-28-WING-R", "Mi-28-WING-L",

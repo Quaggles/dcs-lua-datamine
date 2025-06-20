@@ -426,12 +426,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			},
 			[6] = {
 				lights = { {
-						direction = {
-							elevation = 0.34906585039887
-						},
+						connector = "RESERV_SPOT_PTR",
 						exposure = { { 208, 0.5, 1 } },
 						movable = true,
-						position = { -2, 0.373, 2.129 },
 						proto = <3>{
 							angle_change_rate = -0.11780972450962,
 							angle_max = 0.47123889803847,
@@ -442,12 +439,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						},
 						typename = "Spot"
 					}, {
-						direction = {
-							elevation = 0.34906585039887
-						},
+						connector = "RESERV_SPOT_PTR001",
 						exposure = { { 208, 0.5, 1 } },
 						movable = true,
-						position = { -2, 0.373, -2.129 },
 						proto = <table 3>,
 						typename = "Spot"
 					} },
@@ -496,7 +490,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				Transition = { "Any", "Off" }
 			}, {
 				Sequence = { {
-						C = { { "Arg", 51, "to", 0, "in", 5 }, { "Arg", 208, "to", 1, "in", 2 } }
+						C = { { "Arg", 51, "to", 1, "in", 5 }, { "Arg", 208, "to", 1, "in", 5 } }
 					} },
 				Transition = { "Any", "Taxi" }
 			}, {

@@ -871,11 +871,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	crew_members = { {
 			bailout_arg = -1,
 			canopy_pos = { 1.5, 0.7, 0 },
-			drop_canopy_name = 325,
+			drop_canopy_name = 327,
 			drop_parachute_name = "pilot_mig15_parachute",
-			ejection_seat_name = 324,
+			ejection_seat_name = 326,
 			g_suit = 0.35,
-			pilot_name = 326,
+			pilot_name = 328,
 			pos = { 1.771, 0.856, 0 },
 			role = "pilot",
 			role_display_name = "Pilot"
@@ -921,6 +921,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						typename = "argumentlight"
 					}, {
 						argument = 192,
+						typename = "argumentlight"
+					} },
+				typename = "collection"
+			},
+			[6] = {
+				lights = { {
+						argument = 51,
 						typename = "argumentlight"
 					} },
 				typename = "collection"

@@ -4,7 +4,7 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 	SensorType = 0,
 	category = 0,
 	linkedAxis = 1,
-	magnifications = { 1, 5, 10, 20, 30 },
+	magnifications = { 5, 10, 20, 30 },
 	resolution = 0.8,
 	scan_volume = {
 		azimuth = { -180, 180 },
@@ -12,7 +12,7 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 	},
 	type = 0,
 	view_volume_max = {
-		azimuth_sector = 45,
-		elevation_sector = 45
+		azimuth_sector = 15,
+		elevation_sector = 15
 	}
 }

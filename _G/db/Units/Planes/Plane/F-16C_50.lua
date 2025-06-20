@@ -2249,11 +2249,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						movable = true,
 						typename = "argumentlight"
 					}, {
-						argument = 209,
-						exposure = { { 117, 0.9, 1 } },
-						movable = true,
-						typename = "argumentlight"
-					}, {
 						argument = 210,
 						exposure = { { 117, 0.9, 1 } },
 						movable = true,

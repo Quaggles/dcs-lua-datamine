@@ -26,7 +26,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 17, 26, "Redacted", "Missile", "NonArmoredUnits", "NonAndLightArmoredUnits" },
 	canBeTowedBy = { "Saddle22" },
 	category = "MissilesSS",
-	chassis = {},
+	chassis = {
+		length = 4,
+		mass = 199,
+		width = 0.203
+	},
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000035",
 	sensor = {

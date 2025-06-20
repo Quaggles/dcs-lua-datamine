@@ -7,12 +7,12 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 	magnifications = { 1.2, 4 },
 	resolution = 0.8,
 	scan_volume = {
-		azimuth = { -7, 7 },
-		elevation = { -7, 7 }
+		azimuth = { -20, 20 },
+		elevation = { -20, 20 }
 	},
 	type = 0,
 	view_volume_max = {
-		azimuth_sector = 14,
-		elevation_sector = 14
+		azimuth_sector = 40,
+		elevation_sector = 40
 	}
 }

@@ -1110,6 +1110,10 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "F-4E-45MC"
 				}, {
+					Name = "F4U-1D"
+				}, {
+					Name = "F4U-1D_CW"
+				}, {
 					Name = "F/A-18A"
 				}, {
 					Name = "F/A-18C"

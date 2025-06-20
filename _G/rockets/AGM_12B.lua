@@ -120,7 +120,7 @@ _G["rockets"]["#Index"] = {
 	gyro = {
 		init_roll = 0.78539816339745
 	},
-	manualWeaponFlag = 3,
+	manualWeaponFlag = 6,
 	model = "HB_F-4E_EXT_AGM12B",
 	name = "AGM_12B",
 	scheme = "AGM-12_v2",

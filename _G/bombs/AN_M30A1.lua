@@ -9,21 +9,9 @@ _G["bombs"]["#Index"] = {
 	display_name_short = "M30",
 	hMax = 12000,
 	hMin = 300,
-	mass = 45.8,
+	mass = 56.5,
 	name = "AN_M30A1",
 	type = 0,
-	warhead = {
-		caliber = 207,
-		concrete_factors = { 1, 1, 1 },
-		concrete_obj_factor = 0,
-		cumulative_factor = 0,
-		cumulative_thickness = 0,
-		default_fuze_delay = 0,
-		expl_mass = 18,
-		mass = 18,
-		obj_factors = { 1, 1 },
-		other_factors = { 1, 1, 1 },
-		piercing_mass = 3.6
-	},
+	warhead = "_G/warheads/AN_M30A1.lua",
 	ws_type = { 4, 5, 9, "Redacted" }
 }

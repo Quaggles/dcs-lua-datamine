@@ -1406,13 +1406,29 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	height = 4.66,
 	length = 17.07,
 	lights_data = {
-		lights = { {
-				lights = {},
+		lights = {
+			[2] = {
+				lights = { {
+						argument = 51,
+						direction = {
+							elevation = 0.10471975511966
+						},
+						exposure = { { 0, 0.95, 1 } },
+						movable = true,
+						position = { 3.279, -0.599, 0 },
+						proto = {
+							angle_change_rate = 0.039269908169872,
+							angle_max = 0.15707963267949,
+							angle_min = 0.087266462599716,
+							color = { 255, 201, 125, 0.31793876913398 },
+							power_up_t = 1.75,
+							range = 4800
+						},
+						typename = "spotlight"
+					} },
 				typename = "collection"
-			}, {
-				lights = {},
-				typename = "collection"
-			}, {
+			},
+			[3] = {
 				lights = { {
 						argument = 192,
 						color = { 1, 1, 1, 0.333 },
@@ -1436,35 +1452,23 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						typename = "omnilight"
 					} },
 				typename = "collection"
-			}, {
-				lights = {},
-				typename = "collection"
-			}, {
-				lights = {},
-				typename = "collection"
-			}, {
+			},
+			[6] = {
 				lights = { {
-						argument = 209,
-						color = { 255, 255, 200, 0.333 },
-						connector = "MAIN_SPOT_PTR",
+						argument = 51,
+						exposure = { 0, 0.95, 1 },
+						movable = true,
 						position = { 3.279, -0.599, 0 },
-						typename = "spotlight"
+						proto = {
+							angle_change_rate = -0.11780972450962,
+							angle_max = 0.47123889803847,
+							angle_min = 0.37699111843078,
+							color = { 255, 201, 125, 0.18499689437998 },
+							power_up_t = 0.9,
+							range = 300
+						},
+						typename = "Spot"
 					} },
-				typename = "collection"
-			}, {
-				lights = {},
-				typename = "collection"
-			},
-			[9] = {
-				lights = {},
-				typename = "collection"
-			},
-			[10] = {
-				lights = {},
-				typename = "collection"
-			},
-			[12] = {
-				lights = {},
 				typename = "collection"
 			}
 		},

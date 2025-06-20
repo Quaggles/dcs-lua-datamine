@@ -21,7 +21,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			wCtrl = 150
 		} },
 	AmmoWeight = 0,
-	CanopyGeometry = { -0.76604444311898, -0.86598513470402, -0.96592582628907, -0.049950211252315, 0.86602540378444 },
+	CanopyGeometry = { -0.99984769515639, -0.99984769515639, -0.99984769515639, -0.99984769515639, -0.99984769515639 },
 	Categories = {},
 	Damage = { {
 			args = { 296 },
@@ -826,6 +826,13 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		}, {
 			id = "DEBRIS_FOR_EVERYONE",
 			label = "DEBUG Initiate DEBRIS annunciators"
+		}, {
+			hidden = true,
+			id = "EXTE_CUSTOM_FAILURE_1",
+			label = "Hydro acc. low air pressure"
+		}, {
+			id = "EXTE_CUSTOM_FAILURE_2",
+			label = "Failure.CH47.HYDR_FCS1_PRES_SWITCH_DISCO"
 		} },
 	H_din_one_eng = 1600,
 	H_din_two_eng = 3100,
@@ -857,87 +864,46 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	},
 	IR_emission_coeff = 0.1,
 	InternalCargo = {
-		area = { 8, 1.5, 2 },
+		area = { 9.2, 1.6, 2 },
+		deck_connector = "CARGO_VOLUME",
 		far_wall_pos = { 4, -1.25, 0 },
 		maximalCapacity = 10886,
 		nominalCapacity = 2400,
 		out_door = {
 			cargo_generic = {
+				door_connector_name = "AIRDROP_RIGHT",
 				heading = -3.1415926535898,
 				large = true,
 				mechanicals = {
 					board = { "CargoBayGates", "Open" },
 					boardable = { {
 							mechanism = "CargoBayGates",
-							states = { "Open" }
+							states = { "Open", "CustomStage3", "Board" }
 						}, {
 							mechanism = "CargoBayGate0",
-							states = { "Open" }
+							states = { "Open", "Board" }
 						} },
-					close = { "CargoBayGates", "Close" }
+					close = { "CargoBayGates", "Close" },
+					deploy = { "CargoBayGates", "Hang" },
+					deployable = { {
+							mechanism = "CargoBayGates",
+							states = { "Open", "Hang" }
+						}, {
+							mechanism = "CargoBayGate0",
+							states = { "Open", "Hang", "Board" }
+						}, {
+							mechanism = "CargoBayGate3",
+							states = { "On" }
+						} }
 				},
-				x = -10,
+				x = -6.7,
 				z = 0
-			},
-			rampa_left = {
-				heading = -2.7925268031909,
-				large = false,
-				mechanicals = {
-					board = { "CargoBayGates", "Open" },
-					boardable = { {
-							mechanism = "CargoBayGates",
-							states = { "Open", "CustomStage3", "Board" }
-						}, {
-							mechanism = "CargoBayGate0",
-							states = { "Open", "Board" }
-						} },
-					close = { "CargoBayGates", "Close" },
-					deploy = { "CargoBayGates", "Hang" },
-					deployable = { {
-							mechanism = "CargoBayGates",
-							states = { "Open", "Hang" }
-						}, {
-							mechanism = "CargoBayGate0",
-							states = { "Open", "Hang", "Board" }
-						}, {
-							mechanism = "CargoBayGate3",
-							states = { "On" }
-						} }
-				},
-				x = -10,
-				z = -0.7
-			},
-			rampa_right = {
-				heading = 2.7925268031909,
-				large = false,
-				mechanicals = {
-					board = { "CargoBayGates", "Open" },
-					boardable = { {
-							mechanism = "CargoBayGates",
-							states = { "Open", "CustomStage3", "Board" }
-						}, {
-							mechanism = "CargoBayGate0",
-							states = { "Open", "Board" }
-						} },
-					close = { "CargoBayGates", "Close" },
-					deploy = { "CargoBayGates", "Hang" },
-					deployable = { {
-							mechanism = "CargoBayGates",
-							states = { "Open", "Hang" }
-						}, {
-							mechanism = "CargoBayGate0",
-							states = { "Open", "Hang", "Board" }
-						}, {
-							mechanism = "CargoBayGate3",
-							states = { "On" }
-						} }
-				},
-				x = -10,
-				z = 0.7
 			}
 		},
-		para_unit_point = 55,
-		unit_block = { 0.76, 0.775 },
+		para_unit_point = 26,
+		ramp_connector = "RAMPA_PLATFORM",
+		seat_connector = "SIT_POINT",
+		unit_block = { 0.706, 0.74 },
 		unit_point = 55
 	},
 	LandRWCategories = { {
@@ -2429,6 +2395,16 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						C = { { "Arg", 86, "to", 0, "speed", 0.186 } }
 					} },
 				Transition = { "Ventilate", "Close" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 86, "set", 0.91 }, { "Arg", 38, "set", 1 }, { "Arg", 85, "set", 1 } }
+					} },
+				Transition = { "Any", "Open" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 85, "set", 0 }, { "Arg", 38, "set", 0 }, { "Arg", 86, "set", 0 } }
+					} },
+				Transition = { "Any", "Close" }
 			} },
 		CargoBayGates = { {
 				Sequence = { {

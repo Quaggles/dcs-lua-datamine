@@ -118,6 +118,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "MBT Chieftain Mk.3",
 	Rate = 13,
 	Sensors = {
+		Mount_WS_ID = 1,
 		OPTIC = { "TRP-2A day", "TRP-2A night" }
 	},
 	ThreatRange = 3500,

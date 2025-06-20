@@ -123,7 +123,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_12B"] = {
 		gyro = {
 			init_roll = 0.78539816339745
 		},
-		manualWeaponFlag = 3,
+		manualWeaponFlag = 6,
 		model = "HB_F-4E_EXT_AGM12B",
 		name = "AGM_12B",
 		scheme = "schemes/missiles/AGM-12_v2.sch",
@@ -313,7 +313,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_12B"] = {
 		gyro = {
 			init_roll = 0.78539816339745
 		},
-		manualWeaponFlag = 3,
+		manualWeaponFlag = 6,
 		model = "HB_F-4E_EXT_AGM12B",
 		name = "AGM_12B",
 		scheme = "schemes/missiles/AGM-12_v2.sch",

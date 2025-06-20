@@ -336,6 +336,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 								angle_min = 0.47123889803847,
 								argument = 208,
 								connector = "MAIN_SPOT_PTR",
+								exposure = { { 0, 0.8, 1 } },
+								movable = true,
 								proto = <2>{
 									angle_change_rate = 0.043633231299858,
 									angle_max = 0.17453292519943,
@@ -350,6 +352,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 								angle_max = 0.57595865315813,
 								angle_min = 0.47123889803847,
 								connector = "RESERV_SPOT_PTR",
+								exposure = { { 0, 0.8, 1 } },
+								movable = true,
 								proto = <table 2>,
 								typename = "Spot"
 							}, {
