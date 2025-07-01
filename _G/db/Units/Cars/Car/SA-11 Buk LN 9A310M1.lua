@@ -62,13 +62,48 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			LN = { {
 					ECM_K = 0.65,
 					beamWidth = 1.5707963267949,
+					depends_on_unit = { { { "self", 4 } }, { { "self", 5 } }, { { "SA-11 Buk CC 9S470M1" } } },
+					distanceMax = 50000,
+					distanceMin = 3000,
+					frequencyRange = { 6000000000, 9000000000 },
+					maxShootingSpeed = 0,
+					max_number_of_missiles_channels = 2,
+					max_trg_alt = 22000,
+					min_trg_alt = 20,
+					reactionTime = 4,
+					reflection_limit = 0.18,
+					type = 102
+				} },
+			angles = { { 1.0471975511966, -1.0471975511966, -0.087266462599716, 1.2217 } },
+			base = 1,
+			omegaY = 1,
+			omegaZ = 1,
+			pidY = {
+				d = 7,
+				i = 0.1,
+				inn = 4,
+				p = 40
+			},
+			pos = { 3, 0, 0 }
+		}, {
+			LN = { {
+					depends_on_unit = { { {} }, { {} }, { {} } },
+					frequencyRange = {}
+				} },
+			angles = { {} },
+			pidY = {},
+			pos = {}
+		}, {
+			LN = { {
+					ECM_K = 0.65,
+					beamWidth = 1.5707963267949,
 					distanceMax = 50000,
 					distanceMin = 3000,
 					frequencyRange = { 6000000000, 9000000000 },
 					maxShootingSpeed = 0,
 					max_trg_alt = 22000,
 					min_trg_alt = 20,
-					reactionTime = 20,
+					reactionTime = 10,
 					reflection_limit = 0.18,
 					type = 101
 				} },

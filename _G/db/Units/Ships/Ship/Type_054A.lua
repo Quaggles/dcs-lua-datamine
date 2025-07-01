@@ -123,6 +123,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					beamWidth = 1.5707963267949,
 					distanceMax = 160000,
 					distanceMin = 1000,
+					frequencyRange = { 6000000000, 9000000000 },
 					max_number_of_missiles_channels = 1,
 					max_trg_alt = 30000,
 					min_trg_alt = 5,
@@ -151,7 +152,9 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			},
 			pos = { 0, 19, 0 }
 		}, {
-			LN = { {} },
+			LN = { {
+					frequencyRange = {}
+				} },
 			angles = { {} },
 			animation_alarm_state = {
 				arg = 218,
@@ -161,7 +164,9 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			pidZ = {},
 			pos = {}
 		}, {
-			LN = { {} },
+			LN = { {
+					frequencyRange = {}
+				} },
 			angles = { {} },
 			animation_alarm_state = {
 				arg = 219,
@@ -171,7 +176,9 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			pidZ = {},
 			pos = {}
 		}, {
-			LN = { {} },
+			LN = { {
+					frequencyRange = {}
+				} },
 			angles = { {} },
 			animation_alarm_state = {
 				arg = 220,
@@ -245,11 +252,13 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					depends_on_unit = { { { "self", 2 } } },
 					sensor = {}
 				} },
+			PPI_view = "GenericPPI/GenericPPI",
 			angles = { {} },
 			area = "NOSE_L",
 			center = "POINT_HHQ16_1_8",
 			drawArgument1 = 410,
 			drawArgument2 = 411,
+			isoviewOffset = { 0, 6, 0 },
 			omegaY = 2.2689280275926,
 			omegaZ = 2.6179938779915,
 			pidY = {
@@ -330,11 +339,13 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					depends_on_unit = { { { "self", 3 } } },
 					sensor = {}
 				} },
+			PPI_view = "GenericPPI/GenericPPI",
 			angles = { {} },
 			area = "NOSE_L",
 			center = "POINT_HHQ16_1_16",
 			drawArgument1 = 412,
 			drawArgument2 = 413,
+			isoviewOffset = { 0, 6, 0 },
 			omegaY = 2.2689280275926,
 			omegaZ = 2.6179938779915,
 			pidY = {
@@ -415,11 +426,13 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					depends_on_unit = { { { "self", 4 } } },
 					sensor = {}
 				} },
+			PPI_view = "GenericPPI/GenericPPI",
 			angles = { {} },
 			area = "NOSE_R",
 			center = "POINT_HHQ16_1_24",
 			drawArgument1 = 414,
 			drawArgument2 = 415,
+			isoviewOffset = { 0, 6, 0 },
 			omegaY = 2.2689280275926,
 			omegaZ = 2.6179938779915,
 			pidY = {
@@ -500,11 +513,13 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					depends_on_unit = { { { "self", 5 } } },
 					sensor = {}
 				} },
+			PPI_view = "GenericPPI/GenericPPI",
 			angles = { {} },
 			area = "NOSE_R",
 			center = "POINT_HHQ16_1_32",
 			drawArgument1 = 416,
 			drawArgument2 = 417,
+			isoviewOffset = { 0, 6, 0 },
 			omegaY = 2.2689280275926,
 			omegaZ = 2.6179938779915,
 			pidY = {
@@ -707,7 +722,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		},
 		maxTargetDetectionRange = 450000,
 		radar_type = 102,
-		searchRadarFrequencies = { { 2000000000, 2500000000 }, { 8000000000, 12000000000 } },
+		searchRadarFrequencies = { { 3000000000, 4000000000 } },
 		searchRadarMaxElevation = 1.3962634015955
 	},
 	Waypoint_Custom_Panel = true,

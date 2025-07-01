@@ -172,8 +172,8 @@ _G["rockets"]["#Index"] = {
 			fire = { 0, 1 },
 			index = "Redacted",
 			life = 1,
-			name = "SD-10",
-			username = "SD-10"
+			name = "SD-10A AAM",
+			username = "SD-10A AAM"
 		} },
 	sigma = { 5, 5, 5 },
 	supersonic_A_coef_skew = 0.1,

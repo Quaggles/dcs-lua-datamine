@@ -1783,7 +1783,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			pos = { 0.8, -0.4, -0.4 },
 			smokiness_level = 0.03
 		} },
-	fires_pos = { { -0.4, 0.6, 0 }, { 0, 0, 1.3 }, { 0, 0, -1.3 }, { 0, 0, 2.5 }, { 0, 0, -2.5 }, { 0, 0, 4 }, { 0, 0, -4 }, { -4, 0, 0 }, { -4, 0, 0 }, { -4, 0, 0 }, { -4, 0, 0 } },
+	fires_pos = { { -0.4, 0.6, 0 }, { 0, 0, 1.3 }, { 0, 0, -1.3 }, { 0, 0, 2.5 }, { 0, 0, -2.5 }, { -1, -0.4, 1 }, { -1, -0.4, -1 }, { -4, 0, 0 }, { -4, 0, 0 }, { -4, 0, 0 }, { -4, 0, 0 } },
 	flaps_maneuver = 0.4,
 	has_afteburner = false,
 	has_differential_stabilizer = false,
@@ -1999,7 +1999,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				Transition = { "Any", "Collapse" }
 			} }
 	},
-	net_animation = { 8, 25, 38, 277, 278, 279, 353, 354, 355, 357, 407, 413, 475, 115, 116, 135, 139, 140, 136, 141, 142 },
+	net_animation = { 0, 1, 2, 3, 4, 5, 6, 8, 25, 38, 277, 278, 279, 353, 354, 355, 357, 407, 413, 475, 115, 116, 135, 139, 140, 136, 141, 142 },
 	nose_gear_amortizer_direct_stroke = 0.2,
 	nose_gear_amortizer_normal_weight_stroke = 0.1,
 	nose_gear_amortizer_reversal_stroke = -0.2,

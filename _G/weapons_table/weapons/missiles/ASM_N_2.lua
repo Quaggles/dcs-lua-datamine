@@ -76,6 +76,7 @@ _G["weapons_table"]["weapons"]["missiles"]["ASM_N_2"] = {
 			wind_sigma = 0,
 			wind_time = 0
 		},
+		manualWeaponFlag = 4,
 		model = "ASM_N_2_Bat_0",
 		name = "ASM_N_2",
 		scheme = "schemes/missiles/ASM-N-2.sch",
@@ -203,6 +204,7 @@ _G["weapons_table"]["weapons"]["missiles"]["ASM_N_2"] = {
 			wind_sigma = 0,
 			wind_time = 0
 		},
+		manualWeaponFlag = 4,
 		model = "ASM_N_2_Bat_0",
 		name = "ASM_N_2",
 		scheme = "schemes/missiles/ASM-N-2.sch",

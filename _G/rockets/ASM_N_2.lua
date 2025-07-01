@@ -72,6 +72,7 @@ _G["rockets"]["#Index"] = {
 		wind_sigma = 0,
 		wind_time = 0
 	},
+	manualWeaponFlag = 4,
 	model = "ASM_N_2_Bat_0",
 	name = "ASM_N_2",
 	scheme = "ASM-N-2",

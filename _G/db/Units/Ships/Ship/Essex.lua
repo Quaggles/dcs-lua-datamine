@@ -243,16 +243,16 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			area_name = "ISLAND_P5"
 		}, {
 			area_arg = 225,
-			area_life = 50,
-			area_name = "ELEVATOR_BOW"
+			area_life = 150,
+			area_name = "ELEVATOR_01"
 		}, {
 			area_arg = 267,
-			area_life = 50,
-			area_name = "ELEVATOR_PORT"
+			area_life = 150,
+			area_name = "ELEVATOR_02"
 		}, {
 			area_arg = 226,
-			area_life = 50,
-			area_name = "ELEVATOR_STERN"
+			area_life = 150,
+			area_name = "ELEVATOR_03"
 		}, {
 			area_arg = 261,
 			area_fire = {
