@@ -1,37 +1,37 @@
 _G["launcher"]["{696CFFC4-0BDE-42A8-BE4B-0BE3D9DD723C}"] = {
 	CLSID = "{696CFFC4-0BDE-42A8-BE4B-0BE3D9DD723C}",
 	Count = 6,
-	Cx_pil = 0.005,
+	Cx_pil = 0.007142,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "b-52_HSAB"
 		}, {
-			ShapeName = "MK-84",
-			connector_name = "Pylon1"
-		}, {
-			ShapeName = "MK-84",
-			connector_name = "Pylon3"
-		}, {
-			ShapeName = "MK-84",
+			ShapeName = "Mk-84",
 			connector_name = "Pylon7"
 		}, {
-			ShapeName = "MK-84",
+			ShapeName = "Mk-84",
 			connector_name = "Pylon9"
 		}, {
-			ShapeName = "MK-84",
-			connector_name = "Pylon2"
+			ShapeName = "Mk-84",
+			connector_name = "Pylon1"
 		}, {
-			ShapeName = "MK-84",
+			ShapeName = "Mk-84",
+			connector_name = "Pylon3"
+		}, {
+			ShapeName = "Mk-84",
 			connector_name = "Pylon8"
+		}, {
+			ShapeName = "Mk-84",
+			connector_name = "Pylon2"
 		} },
-	Picture = "FAB250.png",
+	Picture = "Mk84.png",
 	Weight = 6536.6,
 	Weight_Empty = 1088.6,
 	_file = "./CoreMods/tech/HeavyMetalCore/Database/Aircraft/B_52H.lua",
 	_origin = "HeavyMetalCore",
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
-	displayName = "HSAB with 6 x Mk-84 - 2000lb GP Bombs LD",
+	displayName = "HSAB - 6 x Mk-84 - 2000lb GP Bomb LD",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -231,13 +231,13 @@ _G["launcher"]["{696CFFC4-0BDE-42A8-BE4B-0BE3D9DD723C}"] = {
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
-					value = "FMU152AB_LD"
+					value = "M905"
 				} },
 			baseDim = "s",
 			control = "comboList",
 			defValue = 4,
 			dimension = "s",
-			id = "arm_delay_ctrl_FMU152AB_LD",
+			id = "arm_delay_ctrl_M905",
 			label = "Arm Delay",
 			nLocDim = "s",
 			stringIndex = 4,
@@ -246,32 +246,24 @@ _G["launcher"]["{696CFFC4-0BDE-42A8-BE4B-0BE3D9DD723C}"] = {
 					id = 4,
 					units = "s"
 				}, {
-					dispName = 5,
-					id = 5,
-					units = "s"
-				}, {
 					dispName = 6,
 					id = 6,
-					units = "s"
-				}, {
-					dispName = 7,
-					id = 7,
 					units = "s"
 				}, {
 					dispName = 8,
 					id = 8,
 					units = "s"
 				}, {
-					dispName = 10,
-					id = 10,
+					dispName = 12,
+					id = 12,
 					units = "s"
 				}, {
-					dispName = 14,
-					id = 14,
+					dispName = 16,
+					id = 16,
 					units = "s"
 				}, {
-					dispName = 21,
-					id = 21,
+					dispName = 20,
+					id = 20,
 					units = "s"
 				} },
 			wCtrl = 60,
@@ -321,13 +313,13 @@ _G["launcher"]["{696CFFC4-0BDE-42A8-BE4B-0BE3D9DD723C}"] = {
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
-					value = "M905"
+					value = "FMU152AB_LD"
 				} },
 			baseDim = "s",
 			control = "comboList",
 			defValue = 4,
 			dimension = "s",
-			id = "arm_delay_ctrl_M905",
+			id = "arm_delay_ctrl_FMU152AB_LD",
 			label = "Arm Delay",
 			nLocDim = "s",
 			stringIndex = 4,
@@ -336,24 +328,32 @@ _G["launcher"]["{696CFFC4-0BDE-42A8-BE4B-0BE3D9DD723C}"] = {
 					id = 4,
 					units = "s"
 				}, {
+					dispName = 5,
+					id = 5,
+					units = "s"
+				}, {
 					dispName = 6,
 					id = 6,
+					units = "s"
+				}, {
+					dispName = 7,
+					id = 7,
 					units = "s"
 				}, {
 					dispName = 8,
 					id = 8,
 					units = "s"
 				}, {
-					dispName = 12,
-					id = 12,
+					dispName = 10,
+					id = 10,
 					units = "s"
 				}, {
-					dispName = 16,
-					id = 16,
+					dispName = 14,
+					id = 14,
 					units = "s"
 				}, {
-					dispName = 20,
-					id = 20,
+					dispName = 21,
+					id = 21,
 					units = "s"
 				} },
 			wCtrl = 60,
@@ -403,39 +403,6 @@ _G["launcher"]["{696CFFC4-0BDE-42A8-BE4B-0BE3D9DD723C}"] = {
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
-					value = "FMU139CB_LD"
-				} },
-			baseDim = "s",
-			control = "comboList",
-			defValue = 0,
-			dimension = "s",
-			id = "function_delay_ctrl_FMU139CB_LD",
-			label = "Function Delay",
-			nLocDim = "s",
-			stringIndex = 4,
-			values = { {
-					dispName = 0,
-					id = 0,
-					units = "s"
-				}, {
-					dispName = 0.01,
-					id = 0.01,
-					units = "s"
-				}, {
-					dispName = 0.025,
-					id = 0.025,
-					units = "s"
-				}, {
-					dispName = 0.06,
-					id = 0.06,
-					units = "s"
-				} },
-			wCtrl = 60,
-			xCtrl = 500,
-			xLbl = 310
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type_tail",
 					value = "FMU152AB_LD"
 				} },
 			baseDim = "",
@@ -473,6 +440,56 @@ _G["launcher"]["{696CFFC4-0BDE-42A8-BE4B-0BE3D9DD723C}"] = {
 			wCtrl = 60,
 			xCtrl = 500,
 			xLbl = 310
+		}, {
+			VisibilityCondition = { {
+					id = "NFP_fuze_type_tail",
+					value = "FMU139CB_LD"
+				} },
+			baseDim = "s",
+			control = "comboList",
+			defValue = 0,
+			dimension = "s",
+			id = "function_delay_ctrl_FMU139CB_LD",
+			label = "Function Delay",
+			nLocDim = "s",
+			stringIndex = 4,
+			values = { {
+					dispName = 0,
+					id = 0,
+					units = "s"
+				}, {
+					dispName = 0.01,
+					id = 0.01,
+					units = "s"
+				}, {
+					dispName = 0.025,
+					id = 0.025,
+					units = "s"
+				}, {
+					dispName = 0.06,
+					id = 0.06,
+					units = "s"
+				} },
+			wCtrl = 60,
+			xCtrl = 500,
+			xLbl = 310
+		}, {
+			baseDim = "",
+			control = "comboList",
+			defValue = 0,
+			id = "NFP_VIS_DrawArgNo_57",
+			label = "Appearance",
+			stringIndex = 5,
+			values = { {
+					dispName = "USAF",
+					id = 0
+				}, {
+					dispName = "USN",
+					id = 1
+				} },
+			wCtrl = 80,
+			xCtrl = 200,
+			xLbl = 10
 		} },
-	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
+	wsTypeOfWeapon = "weapons.bombs.Mk_84"
 }

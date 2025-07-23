@@ -105,7 +105,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	IR_emission_coeff = 0.72,
 	InternalCargo = {
 		maximalCapacity = 5500,
-		nominalCapacity = 3300
+		nominalCapacity = 3300,
+		unit_point = 55
 	},
 	LandRWCategories = { {
 			Name = "AircraftCarrier"

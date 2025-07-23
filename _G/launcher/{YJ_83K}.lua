@@ -6,7 +6,7 @@ _G["launcher"]["{YJ_83K}"] = {
 			ShapeName = "yj83k"
 		} },
 	Picture = "yj83.png",
-	Weight = 715,
+	Weight = 560,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/cruise_missiles.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 8, "Redacted" },

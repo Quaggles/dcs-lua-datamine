@@ -75,5 +75,6 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["Flak38_2_cm"] = {
 	name = "Flak38_2_cm",
 	reactionTime = 0.5,
 	sensor = {},
+	sightMaxTanVel = 138.88888888889,
 	type = 3
 }

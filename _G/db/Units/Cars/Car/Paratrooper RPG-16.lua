@@ -23,7 +23,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					PL = { {} },
 					maxShootingSpeed = 0,
 					sensor = {},
-					show_external_missile = true
+					show_external_missile = false
 				} },
 			angles = { {} },
 			canSetTacticalDir = true,

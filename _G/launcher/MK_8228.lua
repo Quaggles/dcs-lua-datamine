@@ -96,7 +96,7 @@ _G["launcher"]["MK_82*28"] = {
 	_origin = "HeavyMetalCore",
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
-	displayName = "28 x Mk-82 - 500lb GP Bombs LD",
+	displayName = "CBM - 28 x Mk-82 - 500lb GP Bomb LD",
 	name = "MK_82*28",
 	settings = { {
 			baseDim = "",
@@ -540,5 +540,14 @@ _G["launcher"]["MK_82*28"] = {
 			xCtrl = 500,
 			xLbl = 310
 		} },
-	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
+	weapon_container_data = {
+		anim_pause_time = 3,
+		anim_start_delay = 2.5,
+		launched_arg_state = 1,
+		opening_pause_values = { 0.5 },
+		pre_launch_arg_state = 0,
+		tube_arg_rate_open = 1,
+		tube_args = { 4 }
+	},
+	wsTypeOfWeapon = "weapons.bombs.Mk_82"
 }

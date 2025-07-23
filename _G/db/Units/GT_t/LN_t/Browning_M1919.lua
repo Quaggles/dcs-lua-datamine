@@ -11,8 +11,8 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["Browning_M1919"] = {
 			shot_delay = 0.12,
 			switch_on_delay = 15
 		} },
-	distanceMax = 1100,
-	max_trg_alt = 600,
+	distanceMax = 1500,
+	max_trg_alt = 1000,
 	name = "Browning .30 cal",
 	primaryWeapon = false,
 	sensor = {}

@@ -8,7 +8,7 @@ _G["launcher"]["DIS_HJ-12"] = {
 			connector_name = "pnt_msl"
 		} },
 	Picture = "c701t.png",
-	Weight = 22,
+	Weight = 20.5,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/mils_hj12.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	attribute = { 4, 5, 32, "Redacted" },

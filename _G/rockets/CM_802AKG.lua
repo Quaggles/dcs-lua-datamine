@@ -96,7 +96,7 @@ _G["rockets"]["#Index"] = {
 		boost_start = 0,
 		march_start = 0
 	},
-	display_name = "AGM-84E",
+	display_name = "CM-802AKG",
 	display_name_short = "CM-802",
 	engine_control = {
 		K = 240,

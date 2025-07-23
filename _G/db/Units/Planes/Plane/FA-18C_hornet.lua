@@ -2399,7 +2399,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			connector = "disable"
 		} },
 	RCS = 5,
-	Rate = 50,
+	Rate = "50",
 	SFM_Data = {
 		aerodynamics = {
 			Cy0 = 0,
@@ -2437,6 +2437,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		RADAR = "AN/APG-73",
 		RWR = "Abstract RWR"
 	},
+	Shape = "fa-18c",
 	SnapViews = { { {
 				hAngle = 0,
 				rollAngle = 0,

@@ -48,9 +48,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							type_ammunition = {}
 						} },
 					sensor = {},
-					show_external_missile = false,
-					sightIndicationMode = 1,
-					sightMasterMode = 1
+					show_external_missile = false
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.5707963267949 } },
 			center = "CENTER_SCOPE_01",

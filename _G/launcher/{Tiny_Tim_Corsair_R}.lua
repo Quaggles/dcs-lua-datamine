@@ -1,7 +1,7 @@
 _G["launcher"]["{Tiny_Tim_Corsair_R}"] = {
 	CLSID = "{Tiny_Tim_Corsair_R}",
 	Count = 1,
-	Cx_pil = 0.001,
+	Cx_pil = 7.28e-07,
 	Elements = { {
 			DrawArgs = { { 19, 0 }, { 57, 0.1 }, { 3, 0.1 } },
 			ShapeName = "Tiny_Tim_USN"

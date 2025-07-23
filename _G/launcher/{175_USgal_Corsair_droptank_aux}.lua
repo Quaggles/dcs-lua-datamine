@@ -1,6 +1,6 @@
 _G["launcher"]["{175_USgal_Corsair_droptank_aux}"] = {
 	CLSID = "{175_USgal_Corsair_droptank_aux}",
-	Cx_pil = 0.001,
+	Cx_pil = 7.28e-07,
 	Elements = { {
 			DrawArgs = { { 1, 1 }, { 2, 1 } },
 			Position = { 0, 0, 0 },

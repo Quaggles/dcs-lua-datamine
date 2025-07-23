@@ -404,11 +404,19 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Picture = "B-52H.png",
 	Pylons = { {
 			Launchers = { {
-					CLSID = "{585D626E-7F42-4073-AB70-41E728C333E2}",
-					DrawArgs = { { 18, 0 }, { 3, 0.5 } },
+					CLSID = "{4CD2BB0F-5493-44EF-A927-9760350F7BA1}",
+					DrawArgs = { { 18, 0.1 }, { 3, 0.5 } },
 					arg_value = 0.1
 				}, {
-					CLSID = "{4CD2BB0F-5493-44EF-A927-9760350F7BA1}",
+					CLSID = "{HSAB_CBU87}",
+					DrawArgs = { { 18, 0.1 }, { 3, 0.5 } },
+					arg_value = 0.1
+				}, {
+					CLSID = "{585D626E-7F42-4073-AB70-41E728C333E2}",
+					DrawArgs = { { 18, 0.1 }, { 3, 0.5 } },
+					arg_value = 0.1
+				}, {
+					CLSID = "{HSAB_M117}",
 					DrawArgs = { { 18, 0.1 }, { 3, 0.5 } },
 					arg_value = 0.1
 				}, {
@@ -416,7 +424,55 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					DrawArgs = { { 18, 0.2 }, { 3, 0.5 } },
 					arg_value = 0.1
 				}, {
-					CLSID = "{HSAB-6xAGM-84}",
+					CLSID = "{HSAB_Mk82AIR}",
+					DrawArgs = { { 18, 0.1 }, { 3, 0.5 } },
+					arg_value = 0.1
+				}, {
+					CLSID = "{HSAB_6x_GBU31V1_L}",
+					DrawArgs = { { 18, 0.2 }, { 3, 0.5 } },
+					arg_value = 0.1
+				}, {
+					CLSID = "{HSAB_6x_GBU31V3_L}",
+					DrawArgs = { { 18, 0.2 }, { 3, 0.5 } },
+					arg_value = 0.1
+				}, {
+					CLSID = "{HSAB_6x_GBU38V1_L}",
+					DrawArgs = { { 18, 0.1 }, { 3, 0.5 } },
+					arg_value = 0.1
+				}, {
+					CLSID = "{HSAB_8x_GBU38V1_L}",
+					DrawArgs = { { 18, 0.1 }, { 3, 0.5 } },
+					arg_value = 0.1
+				}, {
+					CLSID = "{HSAB_8x_GBU54V1_L}",
+					DrawArgs = { { 18, 0.1 }, { 3, 0.5 } },
+					arg_value = 0.1
+				}, {
+					CLSID = "{HSAB_6x_AGM154A_L}",
+					DrawArgs = { { 18, 0.3 }, { 3, 0.5 } },
+					arg_value = 0.1
+				}, {
+					CLSID = "{HSAB_8x_CBU103_L}",
+					DrawArgs = { { 18, 0.1 }, { 3, 0.5 } },
+					arg_value = 0.1
+				}, {
+					CLSID = "{HSAB_8x_CBU105_L}",
+					DrawArgs = { { 18, 0.1 }, { 3, 0.5 } },
+					arg_value = 0.1
+				}, {
+					CLSID = "{HSAB_4x_AGM84D_L}",
+					DrawArgs = { { 18, 0.1 }, { 3, 0.5 } },
+					arg_value = 0.1
+				}, {
+					CLSID = "{HSAB_5x_GBU10}",
+					DrawArgs = { { 18, 0.2 }, { 3, 0.5 } },
+					arg_value = 0.1
+				}, {
+					CLSID = "{HSAB_5x_GBU12}",
+					DrawArgs = { { 18, 0.1 }, { 3, 0.5 } },
+					arg_value = 0.1
+				}, {
+					CLSID = "{HSAB_2x_GBU28}",
 					DrawArgs = { { 18, 0.1 }, { 3, 0.5 } },
 					arg_value = 0.1
 				}, {
@@ -445,7 +501,40 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.1,
 					connector = "Pylon20_R"
 				}, {
+					CLSID = "{CSRL_GBU12}",
+					Type = 8,
+					arg_value = 0.1,
+					connector = "Pylon20_R"
+				}, {
+					CLSID = "{CSRL_GBU31V1}",
+					Type = 8,
+					arg_value = 0.1,
+					connector = "Pylon20_R"
+				}, {
+					CLSID = "{CSRL_GBU31V3}",
+					Type = 8,
+					arg_value = 0.1,
+					connector = "Pylon20_R"
+				}, {
+					CLSID = "{CSRL_GBU38V1}",
+					Type = 8,
+					arg_value = 0.1,
+					connector = "Pylon20_R"
+				}, {
+					CLSID = "{CSRL_GBU54V1}",
+					Type = 8,
+					arg_value = 0.1,
+					connector = "Pylon20_R"
+				}, {
 					CLSID = "{6C47D097-83FF-4FB2-9496-EAB36DDF0B05}"
+				}, {
+					CLSID = "{B52H_BAY_3x_GBU12}"
+				}, {
+					CLSID = "{B52H_BAY_6x_CBU87}"
+				}, {
+					CLSID = "{B52H_BAY_M117}"
+				}, {
+					CLSID = "{B52H_BAY_Mk82AIR}"
 				}, {
 					CLSID = "{46ACDCF8-5451-4E26-BDDB-E78D5830E93C}",
 					obsolete = true
@@ -462,11 +551,19 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
-					CLSID = "{585D626E-7F42-4073-AB70-41E728C333E2}",
-					DrawArgs = { { 18, 0 }, { 3, 0 } },
+					CLSID = "{4CD2BB0F-5493-44EF-A927-9760350F7BA1}",
+					DrawArgs = { { 18, 0.1 }, { 3, 0 } },
 					arg_value = 0.1
 				}, {
-					CLSID = "{4CD2BB0F-5493-44EF-A927-9760350F7BA1}",
+					CLSID = "{HSAB_CBU87}",
+					DrawArgs = { { 18, 0.1 }, { 3, 0 } },
+					arg_value = 0.1
+				}, {
+					CLSID = "{585D626E-7F42-4073-AB70-41E728C333E2}",
+					DrawArgs = { { 18, 0.1 }, { 3, 0 } },
+					arg_value = 0.1
+				}, {
+					CLSID = "{HSAB_M117}",
 					DrawArgs = { { 18, 0.1 }, { 3, 0 } },
 					arg_value = 0.1
 				}, {
@@ -474,7 +571,55 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					DrawArgs = { { 18, 0.2 }, { 3, 0 } },
 					arg_value = 0.1
 				}, {
-					CLSID = "{HSAB-6xAGM-84}",
+					CLSID = "{HSAB_Mk82AIR}",
+					DrawArgs = { { 18, 0.1 }, { 3, 0 } },
+					arg_value = 0.1
+				}, {
+					CLSID = "{HSAB_6x_GBU31V1_R}",
+					DrawArgs = { { 18, 0.2 }, { 3, 0 } },
+					arg_value = 0.1
+				}, {
+					CLSID = "{HSAB_6x_GBU31V3_R}",
+					DrawArgs = { { 18, 0.2 }, { 3, 0 } },
+					arg_value = 0.1
+				}, {
+					CLSID = "{HSAB_6x_GBU38V1_R}",
+					DrawArgs = { { 18, 0.1 }, { 3, 0 } },
+					arg_value = 0.1
+				}, {
+					CLSID = "{HSAB_8x_GBU38V1_R}",
+					DrawArgs = { { 18, 0.1 }, { 3, 0 } },
+					arg_value = 0.1
+				}, {
+					CLSID = "{HSAB_8x_GBU54V1_R}",
+					DrawArgs = { { 18, 0.1 }, { 3, 0 } },
+					arg_value = 0.1
+				}, {
+					CLSID = "{HSAB_6x_AGM154A_R}",
+					DrawArgs = { { 18, 0.3 }, { 3, 0 } },
+					arg_value = 0.1
+				}, {
+					CLSID = "{HSAB_8x_CBU103_R}",
+					DrawArgs = { { 18, 0.1 }, { 3, 0 } },
+					arg_value = 0.1
+				}, {
+					CLSID = "{HSAB_8x_CBU105_R}",
+					DrawArgs = { { 18, 0.1 }, { 3, 0 } },
+					arg_value = 0.1
+				}, {
+					CLSID = "{HSAB_4x_AGM84D_R}",
+					DrawArgs = { { 18, 0.1 }, { 3, 0 } },
+					arg_value = 0.1
+				}, {
+					CLSID = "{HSAB_5x_GBU10}",
+					DrawArgs = { { 18, 0.2 }, { 3, 0 } },
+					arg_value = 0.1
+				}, {
+					CLSID = "{HSAB_5x_GBU12}",
+					DrawArgs = { { 18, 0.1 }, { 3, 0 } },
+					arg_value = 0.1
+				}, {
+					CLSID = "{HSAB_2x_GBU28}",
 					DrawArgs = { { 18, 0.1 }, { 3, 0 } },
 					arg_value = 0.1
 				}, {
@@ -490,6 +635,19 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			arg = 310,
 			arg_value = 0,
 			connector = "Pylon2",
+			use_full_connector_position = true
+		}, {
+			DisplayName = "TGP",
+			Launchers = { {
+					CLSID = "{A111396E-D3E8-4b9c-8AC9-2432489304D5}"
+				} },
+			Number = 4,
+			Order = 4,
+			Type = 1,
+			X = 0,
+			Y = 0,
+			Z = 0,
+			connector = "Pylon19_S",
 			use_full_connector_position = true
 		} },
 	RCS = 100,

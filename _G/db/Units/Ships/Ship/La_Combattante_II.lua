@@ -108,12 +108,45 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	Rate = 1100,
 	Sensors = {
 		OPTIC = { "long-range naval optics", "long-range naval LLTV" },
-		RADAR = { "molniya search radar" }
+		RADAR = { "Triton_G" }
 	},
 	Singleton = "no",
 	Tail_Width = 5,
 	ThreatRange = 4000,
 	WS = { {
+			LN = { {
+					ECM_K = 0.5,
+					beamWidth = 1.5707963267949,
+					distanceMax = 16000,
+					distanceMin = 200,
+					frequencyRange = { 8000000000, 12000000000 },
+					max_trg_alt = 8000,
+					min_trg_alt = -1,
+					reactionTime = 1.5,
+					reflection_limit = 0.1,
+					type = 103
+				} },
+			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.4835298641952 } },
+			area = "RUBKA_TOP",
+			center = "CENTER_RADAR_03",
+			drawArgument1 = 4,
+			drawArgument2 = 5,
+			omegaY = 2,
+			omegaZ = 2,
+			pidY = {
+				d = 12,
+				i = 0.05,
+				inn = 50,
+				p = 100
+			},
+			pidZ = {
+				d = 12,
+				i = 0.05,
+				inn = 50,
+				p = 100
+			},
+			radar_type = 104
+		}, {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_GUN_01",
@@ -141,6 +174,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					PL = { {
 							shell_name = {}
 						} },
+					depends_on_unit = { { { "self", 1 } } },
 					sensor = {}
 				} },
 			angles = { { -0.69813170079773, 0.69813170079773, -0.087266462599716, 1.4835298641952 } },
@@ -215,7 +249,10 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			reference_angle_Y = 0.78539816339745,
 			reference_angle_Z = 0.15707963267949
 		},
-		maxTargetDetectionRange = 45000
+		maxTargetDetectionRange = 45000,
+		radar_type = 104,
+		searchRadarFrequencies = { { 5200000000, 6000000000 } },
+		searchRadarMaxElevation = 0.36651914291881
 	},
 	Waypoint_Custom_Panel = true,
 	Width = 7,
@@ -270,7 +307,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	propeller_omega_max = 5000,
 	race_distance = 1500000,
 	race_velocity = 16,
-	radar1_period = 6,
+	radar1_period = 1.5,
 	radar2_period = 3,
 	sensor = {
 		max_alt_finding_target = 8000,

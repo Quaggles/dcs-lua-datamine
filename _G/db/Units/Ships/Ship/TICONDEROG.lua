@@ -1527,6 +1527,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	swapped_names = true,
 	tags = { "Cruiser" },
 	type = "TICONDEROG",
+	virtualStwID_names = { "Front", "Back" },
 	visual = {
 		shape = "ticonderoga",
 		shape_dstr = ""

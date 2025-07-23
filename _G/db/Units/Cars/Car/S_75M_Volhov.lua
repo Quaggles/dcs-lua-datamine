@@ -18,9 +18,10 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					ECM_K = -1,
 					PL = { {
 							ammo_capacity = 1,
+							name_ammunition = "SA2V755",
 							reload_time = 2700,
 							shot_delay = 0.1,
-							type_ammunition = { 4, 4, 34, "Redacted" }
+							type_ammunition = "weapons.missiles.SA2V755"
 						} },
 					barrels_reload_type = 3,
 					depends_on_unit = { { { "SNR_75V", 1 } } },

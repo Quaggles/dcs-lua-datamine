@@ -355,13 +355,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Picture = "B-1B.png",
 	Pylons = { {
 			Launchers = <2>{ {
-					CLSID = "MK_82*28"
+					CLSID = "{CBM_Mk82AIR}"
+				}, {
+					CLSID = "{SECBM_CBU103}"
+				}, {
+					CLSID = "{SECBM_CBU105}"
 				}, {
 					CLSID = "CBU87*10"
 				}, {
 					CLSID = "CBU97*10"
 				}, {
+					CLSID = "MK_82*28"
+				}, {
 					CLSID = "B-1B_Mk-84*8",
+					Type = 8
+				}, {
+					CLSID = "{MPRL_Mk84AIR}",
 					Type = 8
 				}, {
 					CLSID = "GBU-31*8",
@@ -370,10 +379,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "GBU-31V3B*8",
 					Type = 8
 				}, {
+					CLSID = "{MPRL_4x_AGM154A}",
+					Type = 4
+				}, {
 					CLSID = "{AABA1A14-78A1-4E85-94DD-463CF75BD9E4}",
 					Type = 4
 				}, {
-					CLSID = "GBU-38*16"
+					CLSID = "{SECBM_6x_GBU38V1}"
+				}, {
+					CLSID = "{SECBM_6x_GBU54V1}"
 				} },
 			Number = 1,
 			Order = 1,
@@ -394,7 +408,41 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			connector = "Pylon_2_Rotary",
 			use_full_connector_position = true
 		}, {
-			Launchers = <table 2>,
+			Launchers = { {
+					CLSID = "{CBM_Mk82AIR}"
+				}, {
+					CLSID = "{SECBM_CBU103}"
+				}, {
+					CLSID = "{SECBM_CBU105}"
+				}, {
+					CLSID = "CBU87*10"
+				}, {
+					CLSID = "CBU97*10"
+				}, {
+					CLSID = "MK_82*28"
+				}, {
+					CLSID = "B-1B_Mk-84*8",
+					Type = 8
+				}, {
+					CLSID = "{MPRL_Mk84AIR}",
+					Type = 8
+				}, {
+					CLSID = "GBU-31*8",
+					Type = 8
+				}, {
+					CLSID = "GBU-31V3B*8",
+					Type = 8
+				}, {
+					CLSID = "{MPRL_4x_AGM154A}",
+					Type = 4
+				}, {
+					CLSID = "{AABA1A14-78A1-4E85-94DD-463CF75BD9E4}",
+					Type = 4
+				}, {
+					CLSID = "{SECBM_3x_GBU38V1}"
+				}, {
+					CLSID = "{SECBM_3x_GBU54V1}"
+				} },
 			Number = 3,
 			Order = 3,
 			Type = 2,

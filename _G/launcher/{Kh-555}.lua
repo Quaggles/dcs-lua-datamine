@@ -1,15 +1,15 @@
-_G["launcher"]["{YJ_83}"] = {
-	CLSID = "{YJ_83}",
+_G["launcher"]["{Kh-555}"] = {
+	CLSID = "{Kh-555}",
 	Count = 1,
 	Cx_pil = 0.0018,
 	Elements = { {
-			ShapeName = "yj83"
+			ShapeName = "CHAP_Kh555"
 		} },
-	Picture = "yj83.png",
-	Weight = 715,
+	Picture = "CHAP_Kh555.png",
+	Weight = 1280,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/cruise_missiles.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 8, "Redacted" },
 	category = 2,
-	displayName = "YJ-83"
+	displayName = "Kh-555"
 }

@@ -19,5 +19,6 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["Bofors_40mm"] = {
 	reactionTime = 2,
 	reflection_limit = 1.1,
 	sensor = {},
+	sightMaxTanVel = 138.88888888889,
 	type = 3
 }

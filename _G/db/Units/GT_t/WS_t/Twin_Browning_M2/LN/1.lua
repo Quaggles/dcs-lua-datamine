@@ -17,5 +17,6 @@ _G["db"]["Units"]["GT_t"]["WS_t"]["Twin_Browning_M2"]["LN"]["#Index"] = {
 		}, {
 			shell_name = {}
 		} },
-	sensor = {}
+	sensor = {},
+	sightMaxTanVel = 138.88888888889
 }

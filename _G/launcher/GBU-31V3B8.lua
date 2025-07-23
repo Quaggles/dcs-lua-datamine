@@ -38,10 +38,19 @@ _G["launcher"]["GBU-31V3B*8"] = {
 	_origin = "HeavyMetalCore",
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
-	displayName = "8 x GBU-31(V)3/B - JDAM, 2000lb GPS Guided Penetrator Bombs",
+	displayName = "MPRL - 8 x GBU-31(V)3/B - JDAM, 2000lb GPS Guided Penetrator Bomb",
 	ejectPitchRate = -20,
 	ejectVelocity = 3,
 	kind_of_shipping = 0,
 	name = "GBU-31V3B*8",
-	wsTypeOfWeapon = { 4, 5, 36, "Redacted" }
+	weapon_container_data = {
+		endpoint_hold_time = 1,
+		init_state = true,
+		launched_arg_state = 0.15,
+		pre_launch_arg_state = 0,
+		tube_arg_rate_close = 0.25,
+		tube_arg_rate_open = 1.25,
+		tube_args = { 4, 5, 6, 7, 8, 9, 10, 11 }
+	},
+	wsTypeOfWeapon = "weapons.bombs.GBU_31_V_3B"
 }

@@ -1,6 +1,8 @@
 _G["launcher"]["{8_x_AGM_86C}"] = {
 	CLSID = "{8_x_AGM_86C}",
 	Count = 8,
+	Cx_item = 0,
+	Cx_pil = 0,
 	Elements = { "_G/Pylons/b-52_CSRL_ALCM.lua", {
 			ShapeName = "agm-86",
 			connector_name = "Pylon1"

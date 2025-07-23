@@ -5,7 +5,7 @@ _G["launcher"]["DIS_RKT_90_UG"] = {
 	Cx_pil = 0.002,
 	Elements = { {
 			IsAdapter = true,
-			ShapeName = "brm1_pod"
+			ShapeName = "hf20_pod"
 		}, {
 			DrawArgs = { { 2, 1 } },
 			ShapeName = "90-1",
@@ -72,13 +72,13 @@ _G["launcher"]["DIS_RKT_90_UG"] = {
 			connector_name = "tube_16"
 		} },
 	JettisonSubmunitionOnly = false,
-	Picture = "brm1_pod.png",
-	Weight = 462.5,
-	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/rkt_brm1.lua",
+	Picture = "hf20_pod.png",
+	Weight = 376.1,
+	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/rkt_90mm.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
-	displayName = "UG_90MM",
+	displayName = "HF20 - 16 x 90-1 90mm Rocket (HE)",
 	name = "DIS_RKT_90_UG",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

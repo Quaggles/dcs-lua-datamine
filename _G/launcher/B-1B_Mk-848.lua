@@ -35,7 +35,7 @@ _G["launcher"]["B-1B_Mk-84*8"] = {
 	_origin = "HeavyMetalCore",
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
-	displayName = "8 x Mk-84 - 2000lb GP Bombs LD",
+	displayName = "MPRL - 8 x Mk-84 - 2000lb GP Bomb LD",
 	ejectPitchRate = -20,
 	ejectVelocity = 3,
 	kind_of_shipping = 0,
@@ -482,5 +482,14 @@ _G["launcher"]["B-1B_Mk-84*8"] = {
 			xCtrl = 500,
 			xLbl = 310
 		} },
-	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
+	weapon_container_data = {
+		endpoint_hold_time = 1,
+		init_state = true,
+		launched_arg_state = 0.15,
+		pre_launch_arg_state = 0,
+		tube_arg_rate_close = 0.25,
+		tube_arg_rate_open = 1.25,
+		tube_args = { 4, 5, 6, 7, 8, 9, 10, 11 }
+	},
+	wsTypeOfWeapon = "weapons.bombs.Mk_84"
 }

@@ -1242,6 +1242,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	swapped_names = true,
 	tags = { "Destroyer" },
 	type = "USS_Arleigh_Burke_IIa",
+	virtualStwID_names = { "Front", "Back" },
 	visual = {
 		shape = "Arleigh_Burke_IIa",
 		shape_dstr = ""

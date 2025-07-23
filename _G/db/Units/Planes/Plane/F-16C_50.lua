@@ -1860,6 +1860,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{A111396E-D3E8-4b9c-8AC9-2432489304D5}",
 					Cx_gain = 4.872,
 					arg_value = 0
+				}, {
+					CLSID = "{AN_AAQ_33}",
+					Cx_gain = 1.5,
+					DrawArgs = { { 3, 0.4 } },
+					arg_value = 0
 				} },
 			Number = 11,
 			Order = 7,

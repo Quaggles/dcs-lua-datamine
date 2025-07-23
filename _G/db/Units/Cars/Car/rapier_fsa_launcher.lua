@@ -53,10 +53,10 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					PL = { {
 							ammo_capacity = 4,
 							automaticLoader = false,
-							name_ammunition = "Rapier",
+							name_ammunition = "Rapier missile",
 							reload_time = 150,
 							shot_delay = 0.1,
-							type_ammunition = { 4, 4, 34, "Redacted" }
+							type_ammunition = "weapons.missiles.Rapier"
 						} },
 					barrels_reload_type = 3,
 					beamWidth = 1.5707963267949,

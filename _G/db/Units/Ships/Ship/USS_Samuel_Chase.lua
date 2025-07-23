@@ -91,7 +91,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	},
 	Singleton = "no",
 	Tail_Width = 12,
-	ThreatRange = 7000,
+	ThreatRange = 15000,
 	WS = { {
 			LN = { {
 					BR = { {
@@ -531,7 +531,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 						} },
 					sensor = {}
 				} },
-			angles = { { 2.0943951023932, -2.0943951023932, -0.17453292519943, 1.4835298641952 } },
+			angles = { { 2.4434609527921, -2.4434609527921, -0.17453292519943, 1.4835298641952 } },
 			area = "NOSE_TOP",
 			center = "CENTER_TOWER_03",
 			drawArgument1 = 15,
@@ -668,7 +668,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			omegaZ = 0.34906585039887,
 			reference_angle_Y = -3.1415926535898
 		},
-		maxTargetDetectionRange = 12000
+		maxTargetDetectionRange = 15000
 	},
 	Waypoint_Custom_Panel = true,
 	Width = 21.18,
@@ -677,7 +677,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	_file = "./Mods/tech/WWII Units/Database/db_units_ships.lua",
 	_origin = "WWII Armour and Technics",
 	airFindDist = 15000,
-	airWeaponDist = 7000,
+	airWeaponDist = 15000,
 	animation_arguments = {
 		flag_animation = 314,
 		nav_lights = 69,
@@ -723,8 +723,8 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	race_velocity = 7,
 	radar1_period = 1,
 	sensor = {
-		max_alt_finding_target = 5000,
-		max_range_finding_target = 12000,
+		max_alt_finding_target = 9500,
+		max_range_finding_target = 15000,
 		min_alt_finding_target = 0,
 		min_range_finding_target = 0,
 		pos = { 10, 29, 0 }

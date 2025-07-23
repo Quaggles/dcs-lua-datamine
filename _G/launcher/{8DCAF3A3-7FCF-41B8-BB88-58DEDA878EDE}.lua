@@ -1,6 +1,8 @@
 _G["launcher"]["{8DCAF3A3-7FCF-41B8-BB88-58DEDA878EDE}"] = {
 	CLSID = "{8DCAF3A3-7FCF-41B8-BB88-58DEDA878EDE}",
 	Count = 8,
+	Cx_item = 0,
+	Cx_pil = 0,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "b-52_CSRL_ALCM"

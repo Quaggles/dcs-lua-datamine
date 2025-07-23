@@ -2116,6 +2116,30 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{AUF2_GBU12}",
 					arg_value = 0.15
 				}, {
+					CLSID = "{14_3_M2_6xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{14_3_M2_9xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_12xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_18xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{14_3_M2_6xBAT120}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{14_3_M2_9xBAT120}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_12xBAT120}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_18xBAT120}",
+					arg_value = 0.15
+				}, {
 					CLSID = "{R530F_EM}",
 					arg_value = 0.25,
 					attach_point_position = { 0.368, 0.029, 0 },
@@ -2292,6 +2316,30 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.15
 				}, {
 					CLSID = "{AUF2_GBU12}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{14_3_M2_6xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{14_3_M2_9xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_12xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_18xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{14_3_M2_6xBAT120}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{14_3_M2_9xBAT120}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_12xBAT120}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_18xBAT120}",
 					arg_value = 0.15
 				}, {
 					CLSID = "{R530F_EM}",
@@ -2500,6 +2548,30 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.15
 				}, {
 					CLSID = "{AUF2_GBU12}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{14_3_M2_6xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{14_3_M2_9xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_12xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_18xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{14_3_M2_6xBAT120}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{14_3_M2_9xBAT120}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_12xBAT120}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_18xBAT120}",
 					arg_value = 0.15
 				}, {
 					CLSID = "{R530F_EM}",

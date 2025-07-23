@@ -83,14 +83,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	CanopyGeometry = { -0.17364817766693, -0.49640011097796, -0.81915204428899, -0.45315389351832, -0.087155742747658 },
 	Countermeasures = {},
 	Damage = {
+		[0] = {
+			args = { 146 },
+			critical_damage = 5
+		},
 		[8] = {
 			args = { 138 },
 			critical_damage = 6,
 			deps_cells = { 80, 98 }
-		},
-		[10] = {
-			args = { 147 },
-			critical_damage = 10
 		},
 		[11] = {
 			critical_damage = 5
@@ -112,22 +112,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 140 },
 			critical_damage = 6,
 			deps_cells = { 81, 20 }
-		},
-		[17] = {
-			args = { 240 },
-			critical_damage = 10,
-			deps_cells = { 23 },
-			detachable = {
-				shape = "F4U-1D_Damage_Wing_L"
-			}
-		},
-		[18] = {
-			args = { 241 },
-			critical_damage = 10,
-			deps_cells = { 24 },
-			detachable = {
-				shape = "F4U-1D_Damage_Wing_R"
-			}
 		},
 		[19] = {
 			args = { 185 },
@@ -159,11 +143,19 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[29] = {
 			args = { 67 },
-			critical_damage = 11
+			critical_damage = 11,
+			deps_cells = { 23 },
+			detachable = {
+				shape = "F4U-1D_Damage_Wing_L"
+			}
 		},
 		[30] = {
 			args = { 68 },
-			critical_damage = 11
+			critical_damage = 11,
+			deps_cells = { 24 },
+			detachable = {
+				shape = "F4U-1D_Damage_Wing_R"
+			}
 		},
 		[31] = {
 			args = { 229 },
@@ -205,10 +197,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 217 },
 			critical_damage = 4
 		},
-		[44] = {
-			args = { 253 },
-			critical_damage = 2
-		},
 		[47] = {
 			args = { 236 },
 			critical_damage = 5,
@@ -232,12 +220,16 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[53] = {
 			args = { 237 },
 			critical_damage = 5,
-			deps_cells = { 44 }
+			deps_cells = { 58 }
 		},
 		[55] = {
 			args = { 155 },
 			critical_damage = 12,
 			deps_cells = { 47, 48, 100 }
+		},
+		[58] = {
+			args = { 253 },
+			critical_damage = 2
 		},
 		[60] = {
 			args = { 144 },
@@ -368,6 +360,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 143 },
 			critical_damage = 10
 		},
+		[99] = {
+			args = { 147 },
+			critical_damage = 10
+		},
 		[100] = {
 			args = { 244 },
 			critical_damage = 5,
@@ -399,84 +395,19 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[110] = {
 			critical_damage = 5
 		},
-		[137] = {
-			args = { 146 },
-			critical_damage = 5
+		[111] = {
+			args = { 240 },
+			critical_damage = 10,
+			detachable = {
+				shape = "F4U-1D_Damage_Wing_L"
+			}
 		},
-		cell_indices = {
-			AILERON_L = 25,
-			AILERON_R = 26,
-			AIR_BRAKE_L = 19,
-			AIR_BRAKE_R = 20,
-			ARMOR_PLATE_LEFT = 96,
-			ARMOR_PLATE_RIGHT = 97,
-			BLADE_1_CENTER = 65,
-			BLADE_1_IN = 64,
-			BLADE_1_OUT = 66,
-			BLADE_2_CENTER = 68,
-			BLADE_2_IN = 67,
-			BLADE_2_OUT = 69,
-			BLADE_3_CENTER = 71,
-			BLADE_3_IN = 70,
-			BLADE_4_CENTER = 74,
-			BLADE_4_IN = 73,
-			BLADE_4_OUT = 75,
-			BLADE_5_CENTER = 77,
-			BLADE_5_IN = 76,
-			BLADE_5_OUT = 78,
-			BLADE_6_CENTER = 80,
-			BLADE_6_IN = 79,
-			BLADE_6_OUT = 81,
-			CREW_1 = 90,
-			CREW_2 = 91,
-			CREW_3 = 92,
-			ELEVATOR_L_IN = 51,
-			ELEVATOR_R_IN = 52,
-			ENGINE = 11,
-			ENGINE_1 = 103,
-			ENGINE_2 = 104,
-			ENGINE_3 = 105,
-			ENGINE_4 = 106,
-			ENGINE_7 = 109,
-			ENGINE_8 = 110,
-			FIN_R_BOTTOM = 44,
-			FLAP_L_CENTER = 101,
-			FLAP_L_IN = 37,
-			FLAP_L_OUT = 31,
-			FLAP_R_CENTER = 102,
-			FLAP_R_IN = 38,
-			FLAP_R_OUT = 32,
-			GEAR_F = 8,
-			GEAR_L = 15,
-			GEAR_R = 16,
-			HOOK = 98,
-			MAIN = 10,
-			MTG_L = 17,
-			MTG_L_BOTTOM = 13,
-			MTG_R = 18,
-			MTG_R_BOTTOM = 14,
-			NOSE = 137,
-			PITOT = 60,
-			PYLON3 = 88,
-			PYLONL = 86,
-			PYLONR = 87,
-			ROTOR = 63,
-			RUDDER = 53,
-			STABILIZER_L_IN = 47,
-			STABILIZER_R_IN = 48,
-			TAIL = 55,
-			TAIL_TOP = 100,
-			WHEEL_F = 83,
-			WHEEL_L = 84,
-			WHEEL_R = 85,
-			WING_L_CENTER = 29,
-			WING_L_IN = 35,
-			WING_L_OUT = 23,
-			WING_L_PART_IN = 33,
-			WING_R_CENTER = 30,
-			WING_R_IN = 36,
-			WING_R_OUT = 24,
-			WING_R_PART_IN = 34
+		[123] = {
+			args = { 241 },
+			critical_damage = 10,
+			detachable = {
+				shape = "F4U-1D_Damage_Wing_R"
+			}
 		}
 	},
 	DamageParts = { "F4U-1D_Damage_Wing_R", "F4U-1D_Damage_Wing_L", "F4U-1D_Damage_Tail" },
@@ -1177,7 +1108,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	M_fuel_max = 662,
 	M_max = 6804,
 	M_nominal = 5313,
-	Mach_max = 0.6,
+	Mach_max = 0.7,
 	MaxFuelWeight = 662,
 	MaxHeight = 11803,
 	MaxSpeed = 662.4,
@@ -1642,7 +1573,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			cy_flap = 0.65,
 			kjx = 2.25,
 			kjz = 0.00125,
-			table_data = { { 0, 0.0155, 0.0726, 0.1157, -0.0448, 0.15, 16.7, 1.3 }, { 0.2, 0.0157, 0.0726, 0.1172, -0.0447, 0.72, 16.7, 1.3 }, { 0.3, 0.0159, 0.0726, 0.1174, -0.0405, 1.12, 16, 1.25 }, { 0.5, 0.0169, 0.0726, 0.1211, -0.0316, 1.8, 14.5, 1.14 }, { 0.59, 0.0178, 0.0726, 0.1244, -0.0262, 1.9, 13.7, 1.08 }, { 0.67, 0.0188, 0.0726, 0.1291, -0.0206, 1.8, 13.5, 1.06 }, { 0.8, 0.0215, 0.0726, 0.1416, -0.0029, 1.2, 13, 1 }, { 0.9, 0.0261, 0.0726, 0.166, 0.0161, 0.5, 12, 0.95 } }
+			table_data = { { 0, 0.0155, 0.0817, 0.085, 0.012, 0.1571, 16.7, 1.3 }, { 0.2, 0.0155, 0.0833, 0.087, 0.012, 0.6981, 16.7, 1.3 }, { 0.3, 0.0155, 0.0852, 0.09, 0.012, 1.1169, 16, 1.25 }, { 0.5, 0.0155, 0.0881, 0.09, 0.0135, 1.1518, 14.5, 1.14 }, { 0.59, 0.016, 0.0875, 0.1, 0.0145, 1.0471, 13.7, 1.08 }, { 0.67, 0.017, 0.0864, 0.12, 0.0155, 0.9424, 13.5, 1.06 }, { 0.8, 0.018, 0.0769, 0.3, 0.022, 0.6981, 13, 1 }, { 0.9, 0.0261, 0.0633, 0.6, 0.04, 0.349, 12, 0.95 } }
 		},
 		engine = {
 			D_prop = 4,
@@ -1665,6 +1596,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Nu_1 = 0.9,
 			Nu_2 = 0.001,
 			P_oil = 495438,
+			Shutdown_Duration = 13,
+			Startup_Ignition_Time = 9,
+			Startup_Prework = 15,
+			Startup_RPMs = { { 0, 0 }, { 1, 60 }, { 5, 60 }, { 7, 400 }, { 9, 880 }, { 11, 550 } },
 			Stroke = 0.1524,
 			V_pist_0 = 12,
 			cefor = 0.37,
@@ -1687,8 +1622,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			k_vel = 0.017,
 			prop_blades_count = 3,
 			prop_locations = { { 2.51107, 0.22399, 0.00043 } },
-			table_data = { { 0, 21000 }, { 0.1, 21000 }, { 0.2, 17000 }, { 0.3, 12500 }, { 0.4, 9500 }, { 0.5, 7500 }, { 0.6, 6000 }, { 0.7, 5000 }, { 0.8, 4200 }, { 0.9, 3500 }, { 1, 3000 } },
-			typeng = 2
+			table_data = { { 0, 16620 }, { 0.1, 15600 }, { 0.2, 14340 }, { 0.3, 13320 }, { 0.4, 12230 }, { 0.5, 11300 }, { 0.6, 10600 }, { 0.7, 10050 }, { 0.8, 9820 }, { 0.9, 5902 }, { 1.9, 3469 } },
+			type = "Radial"
 		}
 	},
 	Sensors = {},
@@ -1733,10 +1668,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	V_max_sea_level = 153,
 	V_opt = 102,
 	V_take_off = 47,
-	Vy_max = 22,
+	Vy_max = 12.7,
 	Waypoint_Custom_Panel = true,
 	WingSpan = 12.49,
-	WorldID = 337,
+	WorldID = 339,
 	_file = "./CoreMods/aircraft/F4U-1D/F4U-1D.lua",
 	_origin = "F4U-1D AI by Magnitude 3 LLC",
 	air_refuel_receptacle_pos = { 0, 0, 0 },
@@ -2104,8 +2039,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		} },
 	swapped_names = true,
 	tanker_type = 0,
-	thrust_sum_ab = 2500,
-	thrust_sum_max = 2500,
+	thrust_sum_ab = 9000,
+	thrust_sum_max = 9000,
 	type = "F4U-1D",
 	undercarriage_movement = 2,
 	undercarriage_transmission = "Hydraulic",
