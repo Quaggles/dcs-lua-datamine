@@ -34,10 +34,10 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					depends_on_unit = { { { "SA-11 Buk CC 9S470M1" } }, { { "self", 2 } }, { { "self", 3 } } },
 					frequencyRange = { 6000000000, 9000000000 },
 					launch_delay = 5,
-					min_launch_angle = 0.34906585039887,
+					min_launch_angle = 0.17453292519943,
 					sensor = {}
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 1.2217 } },
+			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 1.0471975511966 } },
 			drawArgument1 = 0,
 			drawArgument2 = 1,
 			mount_before_move = true,
@@ -178,7 +178,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "SA-11 Buk LN 9A310M1",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0.008, 0.002 }, { 0.04, 0.007 }, { 0.001, 0.17 }, { 0.2, 0.00016666666666667 } }
+			coeffs = { { 0.031, 0.0022, 3 }, { 0.008, 0.002, 2.7 }, { 0.04, 0.007 }, { 0.01, 0.0017 }, { 0.2, 0.00016666666666667 } }
 		},
 		agony_explosion_size = 2,
 		fire_pos = { -0.6, 0.85, 0 },

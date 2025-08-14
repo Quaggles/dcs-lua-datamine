@@ -63,7 +63,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_45"] = {
 			chute_char_time = 34.5,
 			chute_open_time = 0.2
 		},
-		type = 0,
+		type = 2,
 		user_name = "BDU-45",
 		warhead = {
 			caliber = 273,
@@ -155,7 +155,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_45"] = {
 			chute_char_time = 34.5,
 			chute_open_time = 0.2
 		},
-		type = 0,
+		type = 2,
 		user_name = "BDU-45",
 		warhead = {
 			caliber = 273,

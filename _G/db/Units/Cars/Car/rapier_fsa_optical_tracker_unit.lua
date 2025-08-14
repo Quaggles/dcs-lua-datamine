@@ -84,7 +84,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "rapier_fsa_optical_tracker_unit",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0.003, 0.0031 }, { 0, 0 }, { 0, 0 }, { 0.15, 0.00027272727272727 } }
+			coeffs = { { 0.031, 0.0022, 3 }, { 0.003, 0.0031, 4.8 }, { 0, 0 }, { 0, 0 }, { 0.15, 0.00027272727272727 } }
 		},
 		agony_explosion_size = 0,
 		fire_pos = {},

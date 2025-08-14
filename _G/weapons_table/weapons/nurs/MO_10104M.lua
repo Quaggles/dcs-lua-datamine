@@ -1,0 +1,172 @@
+_G["weapons_table"]["weapons"]["nurs"]["MO_10104M"] = {
+	_file = "./CoreMods/tech/Currenthill Assets Pack/Database/Weapons/CHAP_ammunition_rockets.lua",
+	_origin = "Currenthill Assets Pack",
+	_unique_resource_name = "weapons.nurs.MO_10104M",
+	caliber = 0.22,
+	client = {
+		_file = "./CoreMods/tech/Currenthill Assets Pack/Database/Weapons/CHAP_ammunition_rockets.lua",
+		_origin = "Currenthill Assets Pack",
+		category = 3,
+		class_name = "wAmmunitionNURS",
+		display_name_short = "MO.1.01.04M",
+		engine = {
+			boost_factor = 1,
+			boost_tail = 1,
+			boost_time = 0,
+			custom_smoke_dissipation_factor = 5,
+			fuel_mass = 30.5,
+			impulse = 190,
+			induced_RPS = 0.25,
+			nozzle_orientationXYZ = { { 0, 0, 0 } },
+			nozzle_position = { { -1.74, 0, 0 } },
+			smoke_color = { 0.5, 0.5, 0.5 },
+			smoke_transparency = 0.9,
+			tail_width = 0.44,
+			work_tail = 1,
+			work_time = 0.9
+		},
+		fm = {
+			I = 250.64818275,
+			L = 3.723,
+			Ma = 0.192352,
+			Mw = 2.521688,
+			caliber = 0.22,
+			cx_coeff = { 1, 1.2668931, 0.67, 0.4521834, 2.08 },
+			freq = 7,
+			mass = 217,
+			rail_open = false,
+			shapeName = "CHAP_M010104M",
+			wind_sigma = 500,
+			wind_sigma_z_coeff = 1,
+			wind_time = 10
+		},
+		model = "CHAP_M010104M",
+		name = "MO_10104M",
+		properties = {
+			dist_max = 6000,
+			dist_min = 600
+		},
+		scheme = "schemes/rockets/nurs-standard.sch",
+		shape_table_data = { {
+				file = "CHAP_M010104M",
+				index = "Redacted",
+				name = "MO_10104M",
+				username = "MO.1.01.04M"
+			} },
+		user_name = "MO.1.01.04M HE",
+		warhead = {
+			caliber = 220,
+			concrete_factors = { 6, 1.2, 0.12 },
+			concrete_obj_factor = 1.2,
+			cumulative_factor = 0,
+			cumulative_thickness = 0,
+			expl_mass = 90,
+			fantom = 1,
+			mass = 186.5,
+			obj_factors = { 6, 1.2 },
+			other_factors = { 6, 1.2, 1.2 },
+			piercing_mass = 37.3
+		},
+		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
+	},
+	cx_pil = 0.00030423027203936,
+	display_name = "MO.1.01.04M HE",
+	display_name_short = "MO.1.01.04M",
+	dist_max = 6000,
+	dist_max_ballistic = 8000,
+	dist_min = 600,
+	mass = 217,
+	model = "CHAP_M010104M",
+	name = "MO_10104M",
+	server = {
+		_file = "./CoreMods/tech/Currenthill Assets Pack/Database/Weapons/CHAP_ammunition_rockets.lua",
+		_origin = "Currenthill Assets Pack",
+		category = 3,
+		class_name = "wAmmunitionNURS",
+		display_name_short = "MO.1.01.04M",
+		engine = {
+			boost_factor = 1,
+			boost_tail = 1,
+			boost_time = 0,
+			custom_smoke_dissipation_factor = 5,
+			fuel_mass = 30.5,
+			impulse = 190,
+			induced_RPS = 0.25,
+			nozzle_orientationXYZ = { { 0, 0, 0 } },
+			nozzle_position = { { -1.74, 0, 0 } },
+			smoke_color = { 0.5, 0.5, 0.5 },
+			smoke_transparency = 0.9,
+			tail_width = 0.44,
+			work_tail = 1,
+			work_time = 0.9
+		},
+		fm = {
+			I = 250.64818275,
+			L = 3.723,
+			Ma = 0.192352,
+			Mw = 2.521688,
+			caliber = 0.22,
+			cx_coeff = { 1, 1.2668931, 0.67, 0.4521834, 2.08 },
+			freq = 7,
+			mass = 217,
+			rail_open = false,
+			shapeName = "CHAP_M010104M",
+			wind_sigma = 500,
+			wind_sigma_z_coeff = 1,
+			wind_time = 10
+		},
+		model = "CHAP_M010104M",
+		name = "MO_10104M",
+		properties = {
+			dist_max = 6000,
+			dist_min = 600
+		},
+		scheme = "schemes/rockets/nurs-standard.sch",
+		shape_table_data = { {
+				file = "CHAP_M010104M",
+				index = "Redacted",
+				name = "MO_10104M",
+				username = "MO.1.01.04M"
+			} },
+		user_name = "MO.1.01.04M HE",
+		warhead = {
+			caliber = 220,
+			concrete_factors = { 6, 1.2, 0.12 },
+			concrete_obj_factor = 1.2,
+			cumulative_factor = 0,
+			cumulative_thickness = 0,
+			expl_mass = 90,
+			fantom = 0,
+			mass = 186.5,
+			obj_factors = { 6, 1.2 },
+			other_factors = { 6, 1.2, 1.2 },
+			piercing_mass = 37.3
+		},
+		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
+	},
+	sight_data = {
+		engine = {
+			fuel_mass = 30.5,
+			impulse = 190,
+			work_time = 0.9
+		},
+		fm = {
+			I = 250.64818275,
+			L = 3.723,
+			Ma = 0.192352,
+			Mw = 2.521688,
+			caliber = 0.22,
+			cx_coeff = { 1, 1.2668931, 0.67, 0.4521834, 2.08 },
+			freq = 7,
+			mass = 217,
+			rail_open = false,
+			shapeName = "CHAP_M010104M",
+			wind_sigma = 500,
+			wind_sigma_z_coeff = 1,
+			wind_time = 10
+		}
+	},
+	sounderName = "Weapons/Rocket",
+	type_name = "rocket",
+	ws_type = { 4, 7, 33, "Redacted" }
+}

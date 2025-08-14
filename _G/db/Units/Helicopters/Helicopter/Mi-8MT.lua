@@ -1343,6 +1343,10 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	IR_emission_coeff = 0.6,
 	InternalCargo = {
 		area = { 4.9, 1.4, 1.4 },
+		distrubPilons = { {
+				id = 7,
+				size = { 0.7, 0, 0 }
+			} },
 		far_wall_pos = { 2.9, -1.3, 0 },
 		maximalCapacity = 2400,
 		nominalCapacity = 2400,

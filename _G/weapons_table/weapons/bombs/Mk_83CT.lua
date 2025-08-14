@@ -62,7 +62,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_83CT"] = {
 			chute_char_time = 32.5,
 			chute_open_time = 0.2
 		},
-		type = 0,
+		type = 2,
 		user_name = "Mk-83CT",
 		warhead = {
 			caliber = 356,
@@ -143,7 +143,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_83CT"] = {
 			chute_char_time = 32.5,
 			chute_open_time = 0.2
 		},
-		type = 0,
+		type = 2,
 		user_name = "Mk-83CT",
 		warhead = {
 			caliber = 356,

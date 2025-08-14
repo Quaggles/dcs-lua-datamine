@@ -949,7 +949,14 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	IR_emission_coeff = 0.5,
 	InternalCargo = {
 		area = { 1.4, 1.5, 1.4 },
-		far_wall_pos = { 1.9, -0.75, 0 },
+		distrubPilons = { {
+				id = 7,
+				size = { 0.7, 0, 0 }
+			}, {
+				id = 8,
+				size = { 0.7, 0, 0 }
+			} },
+		far_wall_pos = { 1.8, -0.75, 0 },
 		maximalCapacity = 800,
 		nominalCapacity = 800,
 		out_door = {

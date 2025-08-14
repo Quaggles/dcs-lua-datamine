@@ -634,6 +634,12 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "CHAP_IRISTSLM_STR"
+				}, {
+					Name = "CHAP_IRISTSLM_LN"
+				}, {
+					Name = "CHAP_IRISTSLM_CP"
+				}, {
 					Name = "TugHarlan_drivable"
 				}, {
 					Name = "B600_drivable"

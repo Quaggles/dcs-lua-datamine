@@ -1,7 +1,7 @@
 _G["launcher"]["{OFAB-100-120-TU}"] = {
 	CLSID = "{OFAB-100-120-TU}",
 	Count = 4,
-	Cx_pil = 0.0022,
+	Cx_pil = 0.001,
 	Elements = { "_G/Pylons/MBD-2-67.lua", {
 			Position = { 0.598, -0.095, -0.125 },
 			Rotation = { 20, 0, 0 },

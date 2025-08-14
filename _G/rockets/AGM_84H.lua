@@ -23,6 +23,12 @@ _G["rockets"]["#Index"] = {
 	OmViz_max = 99.9,
 	Range_max = 270000,
 	Reflection = 0.1,
+	RouteDistData = {
+		accel_dist_k = 20,
+		deg_turn_dist_k = 50,
+		m_climb_dist_k = 10,
+		min_cruise_vel = 150
+	},
 	X_back = -3.392,
 	Y_back = 0.064,
 	Z_back = 0,

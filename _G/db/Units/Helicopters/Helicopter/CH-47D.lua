@@ -106,7 +106,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	InternalCargo = {
 		maximalCapacity = 5500,
 		nominalCapacity = 3300,
-		unit_point = 55
+		unit_point = 44
 	},
 	LandRWCategories = { {
 			Name = "AircraftCarrier"

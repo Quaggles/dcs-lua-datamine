@@ -64,7 +64,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_82Y"] = {
 			chute_char_time = 33.2,
 			chute_open_time = 0.2
 		},
-		type = 0,
+		type = 2,
 		user_name = "Mk-82Y - 500lb GP Chute Retarded HD",
 		warhead = {
 			caliber = 273,
@@ -146,7 +146,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_82Y"] = {
 			chute_char_time = 33.2,
 			chute_open_time = 0.2
 		},
-		type = 0,
+		type = 2,
 		user_name = "Mk-82Y - 500lb GP Chute Retarded HD",
 		warhead = {
 			caliber = 273,

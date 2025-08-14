@@ -15,15 +15,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							type_ammunition = {}
 						} },
 					depends_on_unit = { { { "snr s-125 tr", 1 } } },
-					min_launch_angle = 0.15707963267949,
+					inclination_correction_bias = 0.13962634015955,
+					inclination_correction_upper_limit = 1.5707963267949,
+					min_launch_angle = 0.078539816339745,
 					sensor = {}
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, 0, 0.97738438111682 } },
+			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.1344640137963 } },
 			center = "CENTER_TOWER",
 			drawArgument1 = 0,
 			drawArgument2 = 1,
-			omegaY = 0.323599,
-			omegaZ = 0.174533,
+			omegaY = 0.17453292519943,
+			omegaZ = 0.069813170079773,
 			pidY = {
 				d = 2,
 				i = 0,
@@ -62,7 +64,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "5p73 s-125 ln",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0, 0 }, { 0.04, 0.007 }, { 0, 0 }, { 0.2, 0.0011111111111111 } }
+			coeffs = { { 0.031, 0.0022, 3 }, { 0, 0 }, { 0.04, 0.007 }, { 0, 0 }, { 0.2, 0.0011111111111111 } }
 		},
 		agony_explosion_size = 0.1,
 		fire_pos = {},

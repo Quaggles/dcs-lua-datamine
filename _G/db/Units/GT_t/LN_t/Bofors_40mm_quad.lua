@@ -30,7 +30,7 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["Bofors_40mm_quad"] = {
 	distanceMax = 5000,
 	max_trg_alt = 4000,
 	name = "Bofors_40mm_quad",
-	reactionTime = 5,
+	reactionTime = 2,
 	sensor = {},
 	type = 3
 }

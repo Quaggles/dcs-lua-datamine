@@ -29,7 +29,7 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["Oerlikon_20mm_single"] = {
 	distanceMin = 10,
 	max_trg_alt = 2000,
 	name = "Oerlikon_20mm_single",
-	reactionTime = 3,
+	reactionTime = 2,
 	sensor = {},
 	type = 3
 }

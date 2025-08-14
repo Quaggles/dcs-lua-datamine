@@ -133,7 +133,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	type = "Allies_Director",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022 }, { 0, 0 }, { 0, 0 }, { 0, 0 }, { 0.27, 0.00049090909090909 } }
+			coeffs = { { 0.031, 0.0022, 3 }, { 0, 0 }, { 0, 0 }, { 0, 0 }, { 0.27, 0.00049090909090909 } }
 		},
 		agony_explosion_size = 0,
 		fire_pos = {},

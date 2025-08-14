@@ -668,6 +668,16 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "CHAP_TOS1A"
+				}, {
+					Name = "CHAP_PantsirS1"
+				}, {
+					Name = "CHAP_9K720_HE"
+				}, {
+					Name = "CHAP_9K720_Cluster"
+				}, {
+					Name = "CHAP_BMPT"
+				}, {
 					Name = "TugHarlan_drivable"
 				}, {
 					Name = "B600_drivable"

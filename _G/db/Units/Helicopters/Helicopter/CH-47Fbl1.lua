@@ -904,7 +904,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		ramp_connector = "RAMPA_PLATFORM",
 		seat_connector = "SIT_POINT",
 		unit_block = { 0.706, 0.74 },
-		unit_point = 55
+		unit_point = 44
 	},
 	LandRWCategories = { {
 			Name = "AircraftCarrier"

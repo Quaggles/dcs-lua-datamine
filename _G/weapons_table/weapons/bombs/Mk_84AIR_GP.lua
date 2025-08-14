@@ -62,7 +62,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_84AIR_GP"] = {
 			chute_char_time = 55.7,
 			chute_open_time = 0.2
 		},
-		type = 1,
+		type = 2,
 		user_name = "Mk-84 AIR GP HD",
 		warhead = {
 			caliber = 457.2,
@@ -143,7 +143,7 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_84AIR_GP"] = {
 			chute_char_time = 55.7,
 			chute_open_time = 0.2
 		},
-		type = 1,
+		type = 2,
 		user_name = "Mk-84 AIR GP HD",
 		warhead = {
 			caliber = 457.2,

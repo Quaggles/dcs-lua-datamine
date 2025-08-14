@@ -926,6 +926,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "CHAP_MATV",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Soldier stinger",
 					in_service = 0,
 					out_of_service = 40000
@@ -1094,6 +1098,18 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "CHAP_M1083",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "CHAP_TOS1A",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "CHAP_PantsirS1",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Land_Rover_101_FC",
 					in_service = 0,
 					out_of_service = 40000
@@ -1178,6 +1194,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "CHAP_FV101",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Technician",
 					in_service = 0,
 					out_of_service = 40000
@@ -1191,6 +1211,26 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "BTR-82A",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "CHAP_T90M",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "CHAP_TorM2",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "CHAP_9K720_HE",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "CHAP_9K720_Cluster",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "CHAP_BMPT",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -1227,6 +1267,18 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "Marder",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "CHAP_IRISTSLM_STR",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "CHAP_IRISTSLM_LN",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "CHAP_IRISTSLM_CP",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -1287,6 +1339,10 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "PL8 Loadout",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "CHAP_FV107",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -1394,7 +1450,35 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "CHAP_M1130",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "CHAP_M142_GMLRS_M30",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "CHAP_M142_GMLRS_M31",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "CHAP_M142_ATACMS_M39A1",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "CHAP_M142_ATACMS_M48",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "soldier_wwii_us",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "CHAP_T84OplotM",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "CHAP_T64BV",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -2758,6 +2842,14 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "PIOTR",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "CHAP_Project22160",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "CHAP_Project22160_TorM2KM",
 					in_service = 0,
 					out_of_service = 40000
 				}, {

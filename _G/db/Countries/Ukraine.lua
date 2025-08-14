@@ -778,6 +778,38 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "CHAP_FV107"
+				}, {
+					Name = "CHAP_T90M"
+				}, {
+					Name = "CHAP_M1083"
+				}, {
+					Name = "CHAP_MATV"
+				}, {
+					Name = "CHAP_TOS1A"
+				}, {
+					Name = "CHAP_PantsirS1"
+				}, {
+					Name = "CHAP_T84OplotM"
+				}, {
+					Name = "CHAP_T64BV"
+				}, {
+					Name = "T-90"
+				}, {
+					Name = "CHAP_IRISTSLM_STR"
+				}, {
+					Name = "CHAP_IRISTSLM_LN"
+				}, {
+					Name = "CHAP_IRISTSLM_CP"
+				}, {
+					Name = "CHAP_M142_GMLRS_M30"
+				}, {
+					Name = "CHAP_M142_GMLRS_M31"
+				}, {
+					Name = "CHAP_M142_ATACMS_M39A1"
+				}, {
+					Name = "CHAP_M142_ATACMS_M48"
+				}, {
 					Name = "TugHarlan_drivable"
 				}, {
 					Name = "B600_drivable"

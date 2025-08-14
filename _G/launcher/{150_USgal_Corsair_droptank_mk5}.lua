@@ -7,7 +7,7 @@ _G["launcher"]["{150_USgal_Corsair_droptank_mk5}"] = {
 		},
 		DrawArgs = { { 19, 0 } }
 	},
-	Picture = "tank_150_US_GAL.png",
+	Picture = "tank_175_US_GAL.png",
 	PictureBlendColor = "0xffffffff",
 	Weight = 469,
 	Weight_Empty = 44,
@@ -16,7 +16,7 @@ _G["launcher"]["{150_USgal_Corsair_droptank_mk5}"] = {
 	_unique_resource_name = "weapons.droptanks.F4U-1D_Drop_Tank_Mk5",
 	attribute = { 1, 3, 43, "Redacted" },
 	category = 5,
-	displayName = "Mk5 Universal Drop Tank 150 Corsair",
+	displayName = "Mk.5 Universal Drop Tank 150 U.S. Gal",
 	name = "F4U-1D_Drop_Tank_Mk5",
 	shape_table_data = { {
 			file = "F4U-1D_Drop_Tank_Mk5",
