@@ -7,6 +7,10 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP400HD"] = {
 	caliber = 0.403,
 	client = {
 		Ag = -5,
+		SAD = {
+			default_delays = { 3.3 },
+			is_vane_anim_required = true
+		},
 		VyHold = -50,
 		_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
 		_origin = "AircraftWeaponPack",
@@ -37,10 +41,6 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP400HD"] = {
 			release_rnd_x = 1,
 			wind_sigma = 4,
 			wind_time = 1000
-		},
-		fuze = {
-			default_arm_delays = { 3.3 },
-			is_vane_anim_required = true
 		},
 		hMax = 2000,
 		hMin = 50,
@@ -83,6 +83,10 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP400HD"] = {
 	name = "SAMP400HD",
 	server = {
 		Ag = -5,
+		SAD = {
+			default_delays = { 3.3 },
+			is_vane_anim_required = true
+		},
 		VyHold = -50,
 		_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
 		_origin = "AircraftWeaponPack",
@@ -113,10 +117,6 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP400HD"] = {
 			release_rnd_x = 1,
 			wind_sigma = 4,
 			wind_time = 1000
-		},
-		fuze = {
-			default_arm_delays = { 3.3 },
-			is_vane_anim_required = true
 		},
 		hMax = 2000,
 		hMin = 50,

@@ -71,7 +71,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		radar_type = 104
 	},
 	Waypoint_Custom_Panel = true,
-	animation_arguments = {},
+	animation_arguments = {
+		transportaionStateArgsAndVals = { {}, {} }
+	},
 	armour_scheme = {
 		hull_azimuth = { {}, {}, {} },
 		hull_elevation = { {}, {} },

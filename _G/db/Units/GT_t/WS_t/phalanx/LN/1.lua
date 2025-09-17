@@ -31,6 +31,7 @@ _G["db"]["Units"]["GT_t"]["WS_t"]["phalanx"]["LN"]["#Index"] = {
 	beamWidth = 1.5707963267949,
 	distanceMax = 2000,
 	distanceMin = 0,
+	frequencyRange = { 12000000000, 18000000000 },
 	max_trg_alt = 2000,
 	reactionTime = 0.3,
 	reflection_limit = 0.049,

@@ -805,7 +805,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						visual_effect_correction_rebound = 0.1
 					} }
 			},
-			supply_position = { -1.2, 0, 0 }
+			supply_position = { -0.4, 0, 0 }
 		}, {
 			_file = "./CoreMods/aircraft/F4U-1D/F4U-1D.lua",
 			_origin = "F4U-1D AI by Magnitude 3 LLC",
@@ -860,7 +860,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				mixes = { { 2, 1, 4, 3, 2 }, { 3, 3, 3, 3, 4 }, { 2, 2, 4, 2, 2 }, { 3, 2, 2, 1, 1 } },
 				shells = { <table 2>, <table 4>, <table 6>, <table 8> }
 			},
-			supply_position = { -1.2, 0, 0 }
+			supply_position = { -0.4, 0, 0 }
 		}, {
 			_file = "./CoreMods/aircraft/F4U-1D/F4U-1D.lua",
 			_origin = "F4U-1D AI by Magnitude 3 LLC",
@@ -915,7 +915,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				mixes = { { 2, 2, 1, 4, 3 }, { 3, 3, 3, 3, 4 }, { 2, 2, 2, 4, 2 }, { 2, 2, 1, 2, 3 } },
 				shells = { <table 2>, <table 4>, <table 6>, <table 8> }
 			},
-			supply_position = { -1.2, 0, 0 }
+			supply_position = { -0.4, 0, 0 }
 		}, {
 			_file = "./CoreMods/aircraft/F4U-1D/F4U-1D.lua",
 			_origin = "F4U-1D AI by Magnitude 3 LLC",
@@ -970,7 +970,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				mixes = { { 4, 3, 2, 2, 1 }, { 3, 3, 3, 3, 4 }, { 4, 2, 2, 2, 2 }, { 1, 1, 2, 2, 3 } },
 				shells = { <table 2>, <table 4>, <table 6>, <table 8> }
 			},
-			supply_position = { -1.2, 0, 0 }
+			supply_position = { -0.4, 0, 0 }
 		}, {
 			_file = "./CoreMods/aircraft/F4U-1D/F4U-1D.lua",
 			_origin = "F4U-1D AI by Magnitude 3 LLC",
@@ -1025,7 +1025,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				mixes = { { 3, 2, 2, 1, 4 }, { 3, 3, 3, 3, 4 }, { 2, 2, 2, 2, 4 }, { 1, 3, 2, 2, 1 } },
 				shells = { <table 2>, <table 4>, <table 6>, <table 8> }
 			},
-			supply_position = { -1.2, 0, 0 }
+			supply_position = { -0.4, 0, 0 }
 		}, {
 			_file = "./CoreMods/aircraft/F4U-1D/F4U-1D.lua",
 			_origin = "F4U-1D AI by Magnitude 3 LLC",
@@ -1080,7 +1080,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				mixes = { { 1, 4, 3, 2, 2 }, { 3, 3, 3, 3, 4 }, { 1, 4, 2, 2, 2 }, { 3, 2, 2, 1, 1 } },
 				shells = { <table 2>, <table 4>, <table 6>, <table 8> }
 			},
-			supply_position = { -1.2, 0, 0 }
+			supply_position = { -0.4, 0, 0 }
 		} },
 	H_max = 11803,
 	HumanRadio = {

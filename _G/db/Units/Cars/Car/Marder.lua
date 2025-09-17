@@ -97,7 +97,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		smoke = { "SMOKE_01", "SMOKE_04", "SMOKE_02", "SMOKE_05", "SMOKE_03", "SMOKE_06" }
 	},
 	Waypoint_Custom_Panel = true,
-	animation_arguments = {},
+	animation_arguments = {
+		transportaionStateArgsAndVals = { {}, {} }
+	},
 	armour_scheme = {
 		hull_azimuth = { {}, {}, {} },
 		hull_elevation = { {}, {} },

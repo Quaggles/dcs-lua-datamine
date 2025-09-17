@@ -865,6 +865,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				["MiG-21bis"] = {
 					enable_options_key_for_unit = "mig21bis_enabled"
 				},
+				["MiG-29 Fulcrum"] = {
+					enable_options_key_for_unit = "mig29fulcrum_common_enabled"
+				},
 				["MiG-29A"] = {
 					enable_options_key_for_unit = "mig29a_enabled"
 				},
@@ -2141,7 +2144,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	_origin = "F-16C bl.50 AI",
 	_origin_flyable = "F-16C bl.50",
 	air_refuel_receptacle_pos = { -0.051, 0.911, 0 },
-	ammo_type = { "HEI-T High Explosive Incendiary-Tracer", "HEI - High Explosive Incendiary", "AP Armor Piercing", "TP - Target Practice-Tracer", "SAPHEI High Explosive Armor Piercing PGU", "TP - Target Practice-Tracer PGU" },
+	ammo_type = { "HEI-T (High Explosive Incendiary-Tracer)", "HEI - High Explosive Incendiary", "AP (Armor Piercing)", "TP (Target Practice-Tracer)", "SAPHEI (Semi-Armor Piercing, HE, Incendiary)", "TP (Target Practice-Tracer PGU)" },
 	ammo_type_default = 5,
 	attribute = { 1, 1, 1, "Redacted", "Multirole fighters", "Refuelable", "Datalink", "Link16", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },
 	average_fuel_consumption = 0.245,

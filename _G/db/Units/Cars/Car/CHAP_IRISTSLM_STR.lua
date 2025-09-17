@@ -29,7 +29,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					min_trg_alt = 0,
 					reactionTime = 1.5,
 					reflection_limit = 0.01,
-					type = 103
+					type = 101
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.221730476396 } },
 			mount_before_move = true,
@@ -279,7 +279,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		fire_on_march = false,
 		maxTargetDetectionRange = 250000,
 		radar_rotation_type = 1,
-		radar_type = 103,
+		radar_type = 102,
 		requiredUnits = { { "CHAP_IRISTSLM_CP", 1000, 2 } },
 		searchRadarFrequencies = { { 4000000000, 6000000000 } },
 		searchRadarMaxElevation = 1.221730476396
@@ -288,7 +288,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	_file = "./CoreMods/tech/Currenthill Assets Pack/Database/db_units_cars.lua",
 	_origin = "Currenthill Assets Pack",
 	animation_arguments = {
-		locator_rotation = 11
+		locator_rotation = 11,
+		transportaionStateArgsAndVals = { {}, {} }
 	},
 	armour_scheme = {
 		hull_azimuth = { {}, {}, {} },
@@ -313,7 +314,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		}
 	},
 	mapclasskey = "P0091000083",
-	radar_rotation_period = 10,
+	radar_rotation_period = 2,
 	sensor = {
 		height = 7.5,
 		max_alt_finding_target = 40000,
@@ -350,8 +351,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			coeffs = { { 0.031, 0.0022, 3 }, { 0.0069, 0.0036, 4.8 }, { 0.49, 0.005, 1.7 }, { 0.01, 0.0017 }, { 0.24, 0.00012631578947368 } }
 		},
 		agony_explosion_size = 5,
-		dirt_pos = { -3, 0.8, -1.25 },
-		dust_pos = { 3, 0.2, -1.25 },
+		dirt_pos = { -3.5, 0.8, -1.2 },
+		dust_pos = { 2.85, 0.2, -1.2 },
 		fire_pos = { 0, 2.5, 0 },
 		fire_size = 0.9,
 		fire_time = 420,

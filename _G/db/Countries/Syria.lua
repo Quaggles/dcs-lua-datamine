@@ -500,6 +500,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "RD_75"
 				}, {
+					Name = "GPS_Spoofer_Red"
+				}, {
 					Name = "ES44AH"
 				}, {
 					Name = "Boxcartrinity"
@@ -1293,6 +1295,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "MB-339APAN"
 				}, {
 					Name = "MiG-19P"
+				}, {
+					Name = "MiG-29 Fulcrum"
 				}, {
 					Name = "Mirage-F1CE"
 				}, {

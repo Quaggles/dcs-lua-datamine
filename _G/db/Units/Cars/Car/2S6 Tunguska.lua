@@ -103,7 +103,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	Waypoint_Custom_Panel = true,
 	animation_arguments = {
-		locator_rotation = 11
+		locator_rotation = 11,
+		transportaionStateArgsAndVals = { {}, {} }
 	},
 	armour_scheme = {
 		hull_azimuth = { {}, {}, {} },

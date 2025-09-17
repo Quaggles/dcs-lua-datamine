@@ -171,7 +171,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					secondary = true,
 					sensor = {}
 				} },
-			angles = { { 3.1415926535898, 2.4434609527921, 0.23561944901923, 0.24434609527921 }, { 2.4434609527921, -2.4434609527921, -0.087266462599716, 0.24434609527921 }, { -2.4434609527921, -3.1415926535898, 0.23561944901923, 0.24434609527921 } },
+			angles = { { 2.6179938779915, -2.6179938779915, -0.069813170079773, 0.24434609527921 }, { -2.6179938779915, 2.6179938779915, 0.23561944901923, 0.24434609527921 } },
+			canSetTacticalDir = true,
 			center = "CENTER_TOWER_01",
 			cockpit = { "_1G46/_1G46", { 0, 0, 0 } },
 			drawArgument1 = 0,
@@ -261,7 +262,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	_file = "./CoreMods/tech/Currenthill Assets Pack/Database/db_units_cars.lua",
 	_origin = "Currenthill Assets Pack",
 	airWeaponDist = 4000,
-	animation_arguments = {},
+	animation_arguments = {
+		transportaionStateArgsAndVals = { {}, {} }
+	},
 	armour_scheme = {
 		hull_azimuth = { {}, {}, {}, {} },
 		hull_elevation = { {}, {}, {}, {}, {} },
@@ -313,8 +316,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		IR = {
 			coeffs = { { 0.02, 0.0012, 3 }, { 0.008, 0.002, 2.7 }, { 0.0024, 0.002 }, { 0.01, 0.0017 }, { 0.3, 0.00016666666666667 } }
 		},
-		dirt_pos = { -1.71, 0.6, -1.3 },
-		dust_pos = { 1.71, 0, -1.3 },
+		dirt_pos = { -2.05, 0.6, -1.35 },
+		dust_pos = { 1.98, 0, -1.35 },
 		fire_pos = { -0.5, 0.8, 0 },
 		fire_size = 0.7,
 		fire_time = 900,

@@ -119,6 +119,25 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					sightMasterMode = 1
 				}, {
 					BR = { {
+							connector_name = "POINT_GUN_01",
+							recoilArgument = 2,
+							recoilTime = 0.5
+						} },
+					PL = { {
+							ammo_capacity = 20,
+							reload_time = 9999,
+							shell_name = { "CHAP_76_HE_T" },
+							shot_delay = 6
+						} },
+					beamWidth = 0.017453292519943,
+					distanceMax = 5000,
+					distanceMin = 50,
+					sensor = {},
+					sightIndicationMode = 1,
+					sightMasterMode = 1,
+					type = 6
+				}, {
+					BR = { {
 							connector_name = "POINT_GUN_02"
 						} },
 					PL = { {
@@ -180,7 +199,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	_file = "./CoreMods/tech/Currenthill Assets Pack/Database/db_units_cars.lua",
 	_origin = "Currenthill Assets Pack",
 	airWeaponDist = 1200,
-	animation_arguments = {},
+	animation_arguments = {
+		transportaionStateArgsAndVals = { {}, {} }
+	},
 	armour_scheme = {
 		hull_azimuth = { {}, {}, {} },
 		hull_elevation = { {}, {} },
@@ -233,8 +254,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			coeffs = { { 0.031, 0.0022, 3 }, { 0.00775, 0.00265, 2.4 }, { 0.00095, 0.0019 }, { 0.01, 0.0017 }, { 0.3, 0.00016666666666667 } }
 		},
 		agony_explosion_size = 5,
-		dirt_pos = { -1.35, 0.6, -0.85 },
-		dust_pos = { 1.35, 0.1, -0.85 },
+		dirt_pos = { -1.32, 0.6, -1 },
+		dust_pos = { 1.68, 0.1, -1 },
 		fire_pos = { -1, 0.6, 0 },
 		fire_size = 0.45,
 		fire_time = 600,

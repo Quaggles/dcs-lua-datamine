@@ -28,6 +28,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						} },
 					createMuzzleFlashEffect = true,
 					fireAnimationArgument = 23,
+					frequencyRange = {},
 					reflection_limit = 0.01,
 					sensor = {},
 					useTargetAccelInSight = true
@@ -62,7 +63,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						startVal = 1
 					} } },
 			totalDuration = 25
-		}
+		},
+		transportaionStateArgsAndVals = { {}, {} }
 	},
 	armour_scheme = {
 		hull_azimuth = { {} },

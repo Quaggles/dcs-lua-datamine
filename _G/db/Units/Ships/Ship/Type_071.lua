@@ -120,7 +120,9 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	},
 	ThreatRange = 150000,
 	WS = { {
-			LN = { {} },
+			LN = { {
+					frequencyRange = {}
+				} },
 			angles = { { 2.9670597283904, 0.17453292519943 } },
 			center = "CENTER_AK630_RADAR_01",
 			drawArgument1 = 8,
@@ -128,14 +130,18 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			pidZ = {},
 			reference_angle_Y = 1.5707963267949
 		}, {
-			LN = { {} },
+			LN = { {
+					frequencyRange = {}
+				} },
 			angles = { {} },
 			base = 1,
 			pidY = {},
 			pidZ = {},
 			pos = {}
 		}, {
-			LN = { {} },
+			LN = { {
+					frequencyRange = {}
+				} },
 			angles = { { -0.17453292519943, -2.9670597283904 } },
 			center = "CENTER_AK630_RADAR_02",
 			drawArgument1 = 7,
@@ -143,7 +149,9 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			pidZ = {},
 			reference_angle_Y = -1.5707963267949
 		}, {
-			LN = { {} },
+			LN = { {
+					frequencyRange = {}
+				} },
 			angles = { {} },
 			base = 3,
 			pidY = {},

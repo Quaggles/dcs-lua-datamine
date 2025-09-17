@@ -55,7 +55,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		maxTargetDetectionRange = 70000,
 		radar_rotation_type = 1,
 		radar_type = 103,
-		searchRadarFrequencies = { { 500000000, 1000000000 } },
+		searchRadarFrequencies = { { 8000000000, 9000000000 } },
 		searchRadarMaxElevation = 0.5235987755983
 	},
 	Waypoint_Custom_Panel = true,
@@ -68,7 +68,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			[62] = 1.8,
 			[63] = 1.7,
 			[64] = 1.7
-		}
+		},
+		transportaionStateArgsAndVals = { {}, {} }
 	},
 	armour_scheme = {
 		hull_azimuth = { {} },

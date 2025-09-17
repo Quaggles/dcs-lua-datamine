@@ -6,6 +6,16 @@ _G["weapons_table"]["weapons"]["bombs"]["MK_82AIR"] = {
 	caliber = 0.273,
 	client = {
 		Reflection = 0.035,
+		SAD = {
+			default_delays = { 4 },
+			is_vane_anim_required = true
+		},
+		TDD = {
+			altimeter_sigma = 0.9144,
+			tdd_position = { 1.04, 0, 0 },
+			tdd_vdiff_max = 426.72,
+			tdd_vdiff_min = 22.86
+		},
 		arming_delay = {
 			delay_time = 0.8,
 			enabled = true
@@ -35,10 +45,7 @@ _G["weapons_table"]["weapons"]["bombs"]["MK_82AIR"] = {
 			wind_sigma = 8,
 			wind_time = 1000
 		},
-		fuze = {
-			default_arm_delays = { 2 },
-			is_vane_anim_required = true
-		},
+		fuzePresetName = "Mk8x",
 		scheme = "schemes/bombs/bomb_parachute_v2.sch",
 		warhead = {
 			caliber = 273,
@@ -69,6 +76,16 @@ _G["weapons_table"]["weapons"]["bombs"]["MK_82AIR"] = {
 	name = "MK_82AIR",
 	server = {
 		Reflection = 0.035,
+		SAD = {
+			default_delays = { 4 },
+			is_vane_anim_required = true
+		},
+		TDD = {
+			altimeter_sigma = 0.9144,
+			tdd_position = { 1.04, 0, 0 },
+			tdd_vdiff_max = 426.72,
+			tdd_vdiff_min = 22.86
+		},
 		arming_delay = {
 			delay_time = 0.8,
 			enabled = true
@@ -98,10 +115,7 @@ _G["weapons_table"]["weapons"]["bombs"]["MK_82AIR"] = {
 			wind_sigma = 8,
 			wind_time = 1000
 		},
-		fuze = {
-			default_arm_delays = { 2 },
-			is_vane_anim_required = true
-		},
+		fuzePresetName = "Mk8x",
 		scheme = "schemes/bombs/bomb_parachute_v2.sch",
 		warhead = {
 			caliber = 273,

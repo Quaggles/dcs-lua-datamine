@@ -5,7 +5,15 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_500AO"] = {
 	_unique_resource_name = "weapons.bombs.RBK_500AO",
 	caliber = 0.4,
 	client = {
+		ED = {
+			default_delays = { 4 },
+			is_impact_function_disabled = true,
+			trigger_after_arming = true
+		},
 		Reflection = 0.03,
+		SAD = {
+			default_delays = { 2 }
+		},
 		arming_delay = {
 			delay_time = 0.8,
 			enabled = true
@@ -13,9 +21,6 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_500AO"] = {
 		arming_vane = {
 			enabled = false,
 			velK = 1
-		},
-		control = {
-			open_delay = 3.5
 		},
 		display_name_short = "RBK-500",
 		fm = {
@@ -31,6 +36,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_500AO"] = {
 			wind_sigma = 100,
 			wind_time = 1000
 		},
+		fuzePresetName = "RBK",
 		launcher = {
 			cluster = {
 				char_time = 0,
@@ -196,7 +202,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_500AO"] = {
 			},
 			server = 0
 		},
-		scheme = "schemes/bombs/bomb-cassette.sch"
+		scheme = "schemes/bombs/bomb_cassette_v3.sch"
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "RBK-500-255 PTAB-10-5",
@@ -205,7 +211,15 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_500AO"] = {
 	model = "RBK_500_255_PTAB_10_5_cassette",
 	name = "RBK_500AO",
 	server = {
+		ED = {
+			default_delays = { 4 },
+			is_impact_function_disabled = true,
+			trigger_after_arming = true
+		},
 		Reflection = 0.03,
+		SAD = {
+			default_delays = { 2 }
+		},
 		arming_delay = {
 			delay_time = 0.8,
 			enabled = true
@@ -213,9 +227,6 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_500AO"] = {
 		arming_vane = {
 			enabled = false,
 			velK = 1
-		},
-		control = {
-			open_delay = 3.5
 		},
 		display_name_short = "RBK-500",
 		fm = {
@@ -231,6 +242,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_500AO"] = {
 			wind_sigma = 100,
 			wind_time = 1000
 		},
+		fuzePresetName = "RBK",
 		launcher = {
 			cluster = {
 				char_time = 0,
@@ -396,12 +408,12 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_500AO"] = {
 			},
 			server = 1
 		},
-		scheme = "schemes/bombs/bomb-cassette.sch"
+		scheme = "schemes/bombs/bomb_cassette_v3.sch"
 	},
 	sounderName = "Weapons/Bomb",
 	targeting_data = {
-		data = { { 1, 20.2, 0 }, { 10, 20.443164, 1e-06 }, { 20, 20.467441, -0.00017 }, { 30, 20.475234, -0.000199 }, { 40, 20.476446, -0.000209 }, { 50, 20.479972, -0.000252 }, { 60, 20.480324, -0.000249 }, { 70, 20.482148, -0.000257 }, { 80, 20.481281, -0.000241 }, { 90, 20.48272, -0.000259 }, { 100, 20.483667, -0.000247 }, { 200, 20.529902, -0.000179 }, { 300, 20.585581, -0.000106 }, { 400, 20.633787, -4.5e-05 }, { 500, 20.67418, 0 }, { 600, 20.708441, 3.6e-05 }, { 700, 20.737702, 6.5e-05 }, { 800, 20.763255, 8.7e-05 }, { 900, 20.785809, 0.000106 }, { 1000, 20.805897, 0.000121 }, { 1100, 20.824022, 0.000133 }, { 1200, 20.840452, 0.000143 }, { 1300, 20.855518, 0.000151 }, { 1400, 20.869384, 0.000158 }, { 1500, 20.882217, 0.000163 }, { 1600, 20.894175, 0.000167 }, { 1700, 20.905367, 0.00017 }, { 1800, 20.915877, 0.000172 }, { 1900, 20.925774, 0.000174 }, { 2000, 20.935142, 0.000174 }, { 3000, 21.008637, 0.000156 }, { 4000, 21.060971, 0.000112 }, { 5000, 21.102148, 5.8e-05 }, { 6000, 21.136144, 0 }, { 7000, 21.164866, -6e-05 }, { 8000, 21.189321, -0.00012 }, { 9000, 21.210072, -0.000178 }, { 10000, 21.22743, -0.000236 } },
-		v0 = 200
+		bomblet_char_time = 21.17,
+		char_time = 20.51
 	},
 	type_name = "bomb",
 	ws_type = { 4, 5, 38, "Redacted" }

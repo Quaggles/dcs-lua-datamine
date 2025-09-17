@@ -48,7 +48,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		maxTargetDetectionRange = 10000
 	},
 	Waypoint_Custom_Panel = true,
-	animation_arguments = {},
+	animation_arguments = {
+		transportaionStateArgsAndVals = { {}, {} }
+	},
 	armour_scheme = {
 		hull_azimuth = { {} },
 		hull_elevation = { {} },

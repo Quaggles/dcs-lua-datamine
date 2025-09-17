@@ -55,7 +55,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	agony_fire_pos_z = 0.315,
 	animation_arguments = {
 		pitch_k = 1.5,
-		roll_k = 1.5
+		roll_k = 1.5,
+		transportaionStateArgsAndVals = { {}, {} }
 	},
 	armour_scheme = {
 		hull_azimuth = { {} },

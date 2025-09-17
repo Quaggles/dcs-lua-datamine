@@ -5,7 +5,13 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_28"] = {
 	_unique_resource_name = "weapons.bombs.GBU_28",
 	caliber = 0.457,
 	client = {
+		ED = {
+			first_dev_index = 1
+		},
 		Reflection = 0.7,
+		SAD = {
+			first_dev_index = 1
+		},
 		arming_delay = {
 			delay_time = 0.8,
 			enabled = true
@@ -82,7 +88,13 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_28"] = {
 	model = "gbu-28",
 	name = "GBU_28",
 	server = {
+		ED = {
+			first_dev_index = 1
+		},
 		Reflection = 0.7,
+		SAD = {
+			first_dev_index = 1
+		},
 		arming_delay = {
 			delay_time = 0.8,
 			enabled = true

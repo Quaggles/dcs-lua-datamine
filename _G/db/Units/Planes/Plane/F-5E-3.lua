@@ -1180,6 +1180,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				["MiG-21bis"] = {
 					enable_options_key_for_unit = "mig21bis_enabled"
 				},
+				["MiG-29 Fulcrum"] = {
+					enable_options_key_for_unit = "mig29fulcrum_common_enabled"
+				},
 				["MiG-29A"] = {
 					enable_options_key_for_unit = "mig29a_enabled"
 				},
@@ -3395,7 +3398,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			WorldID = 276,
 			_file = "./CoreMods/aircraft/F-5E/F-5E-3.lua",
 			_origin = "F-5E/E-3 by Belsimtek",
-			ammo_type = { "HEI - High Explosive Incendiary", "CM - Combat Mix", "AP Armor Piercing", "TP - Target Practice" },
+			ammo_type = { "HEI - High Explosive Incendiary", "CM - Combat Mix", "AP (Armor Piercing)", "TP - Target Practice" },
 			ammo_type_default = 2,
 			attribute = { 1, 1, 1, "Redacted", "Fighters", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },
 			average_fuel_consumption = 0.06,
@@ -4098,13 +4101,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			wing_tip_pos = { -2.784, -0.393, 4.037 }
 		}
 	},
-	ammo_type = { "HEI - High Explosive Incendiary", "CM - Combat Mix", "AP Armor Piercing", "TP - Target Practice" },
+	ammo_type = { "HEI - High Explosive Incendiary", "CM - Combat Mix", "AP (Armor Piercing)", "TP - Target Practice" },
 	ammo_type_default = 2,
 	attribute = { 1, 1, 1, "Redacted", "Fighters", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },
 	average_fuel_consumption = 0.06,
 	bank_angle_max = 60,
 	bigParkingRamp = false,
-	brakeshute_name = 352,
+	brakeshute_name = 355,
 	chaff_flare_dispenser = { {
 			dir = { 0, -1, 0 },
 			pos = { -1.3, -0.506, -0.496 }
@@ -4113,8 +4116,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	crew_members = { {
 			canopy_pos = { 1.17, 0, 0 },
 			drop_canopy_name = 43,
-			ejection_seat_name = 350,
-			pilot_name = 351,
+			ejection_seat_name = 353,
+			pilot_name = 354,
 			pos = { 2.94, 0.28, 0 },
 			role = "pilot",
 			role_display_name = "Pilot"

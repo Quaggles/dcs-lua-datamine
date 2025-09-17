@@ -110,50 +110,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					type = 102
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 1.1344640137963 } },
-			angles_mech = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 1.3089969389957 } },
-			animation_alarm_state = {
-				arg = 100,
-				time = 0.5
-			},
-			drawArgument1 = 0,
-			drawArgument2 = 1,
-			mount_before_move = false,
-			omegaY = 0.78539816339745,
-			omegaZ = 0.69813170079773,
-			pidY = {
-				d = 10,
-				i = 1,
-				inn = 10,
-				p = 80
-			},
-			pidZ = {
-				d = 10,
-				i = 1,
-				inn = 10,
-				p = 80
-			},
-			pointer = "POINT_SIGHT_01",
-			pos = { 0, 0, 0 },
-			reference_angle_Y = -3.1415926535898,
-			reference_angle_Z = 1.3089969389957
-		}, {
-			LN = { {
-					ECM_K = 0.4,
-					beamWidth = 0.034906585039887,
-					distanceMax = 20000,
-					distanceMin = 500,
-					frequencyRange = { 18000000000, 27000000000 },
-					max_number_of_missiles_channels = 1,
-					max_trg_alt = 15000,
-					min_trg_alt = 5,
-					reactionTime = 1.5,
-					reflection_limit = 0.02,
-					type = 102
-				} },
-			angles = { { 0.5235987755983, -0.5235987755983, -0.087266462599716, 1.1344640137963 } },
-			base = 1,
-			omegaY = 0.78539816339745,
-			omegaZ = 0.69813170079773,
 			pos = { 0, 0, 0 }
 		}, {
 			LN = { {
@@ -171,8 +127,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				} },
 			angles = { { 0.5235987755983, -0.5235987755983, -0.087266462599716, 1.1344640137963 } },
 			base = 1,
-			omegaY = 0.78539816339745,
-			omegaZ = 0.69813170079773,
 			pos = { 0, 0, 0 }
 		}, {
 			LN = { {
@@ -190,8 +144,23 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				} },
 			angles = { { 0.5235987755983, -0.5235987755983, -0.087266462599716, 1.1344640137963 } },
 			base = 1,
-			omegaY = 0.78539816339745,
-			omegaZ = 0.69813170079773,
+			pos = { 0, 0, 0 }
+		}, {
+			LN = { {
+					ECM_K = 0.4,
+					beamWidth = 0.034906585039887,
+					distanceMax = 20000,
+					distanceMin = 500,
+					frequencyRange = { 18000000000, 27000000000 },
+					max_number_of_missiles_channels = 1,
+					max_trg_alt = 15000,
+					min_trg_alt = 5,
+					reactionTime = 1.5,
+					reflection_limit = 0.02,
+					type = 102
+				} },
+			angles = { { 0.5235987755983, -0.5235987755983, -0.087266462599716, 1.1344640137963 } },
+			base = 1,
 			pos = { 0, 0, 0 }
 		}, {
 			LN = { {
@@ -230,10 +199,39 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						} },
 					PL = { {} },
 					depends_on_unit = { { { "self", 1 } }, { { "self", 2 } }, { { "self", 3 } }, { { "self", 4 } } },
-					sensor = {}
+					sensor = {},
+					sightIndicationMode = 1,
+					sightMasterMode = 1
 				} },
-			angles = { {} },
-			center = "CENTER_TOWER_01"
+			PPI_view = "GenericPPI/GenericPPI",
+			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 1.1344640137963 } },
+			angles_mech = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 1.3089969389957 } },
+			animation_alarm_state = {
+				arg = 100,
+				time = 0.5
+			},
+			canSetTacticalDir = true,
+			center = "CENTER_TOWER_01",
+			cockpit = { "genericMissile", { 0, 0, 0 } },
+			drawArgument1 = 0,
+			drawArgument2 = 1,
+			mount_before_move = false,
+			omegaY = 0.78539816339745,
+			omegaZ = 0.69813170079773,
+			pidY = {
+				d = 10,
+				i = 1,
+				inn = 10,
+				p = 80
+			},
+			pidZ = {
+				d = 10,
+				i = 1,
+				inn = 10,
+				p = 80
+			},
+			pointer = "POINT_SIGHT_01",
+			reference_angle_Y = -3.1415926535898
 		},
 		fire_on_march = true,
 		maxTargetDetectionRange = 32000,
@@ -247,7 +245,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	_origin = "Currenthill Assets Pack",
 	airWeaponDist = 16000,
 	animation_arguments = {
-		locator_rotation = 11
+		locator_rotation = 11,
+		transportaionStateArgsAndVals = { {}, {} }
 	},
 	armour_scheme = {
 		hull_azimuth = { {}, {}, {} },
@@ -312,8 +311,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			coeffs = { { 0.031, 0.0022, 3 }, { 0.00775, 0.00265, 2.4 }, { 0.49, 0.005, 1.7 }, { 0.01, 0.0017 }, { 0.15, 0.00021428571428571 } }
 		},
 		agony_explosion_size = 5,
-		dirt_pos = { -2.5, 0.8, -1.4 },
-		dust_pos = { 2.5, 0.2, -1.4 },
+		dirt_pos = { -2.72, 0.8, -1.5 },
+		dust_pos = { 2.8, 0.2, -1.5 },
 		fire_pos = { 0, 1.5, 0 },
 		fire_size = 0.5,
 		fire_time = 1000,

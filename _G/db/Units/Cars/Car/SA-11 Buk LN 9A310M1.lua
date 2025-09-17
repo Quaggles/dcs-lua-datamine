@@ -139,7 +139,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		searchRadarFrequencies = { { 6000000000, 10000000000 } }
 	},
 	Waypoint_Custom_Panel = true,
-	animation_arguments = {},
+	animation_arguments = {
+		transportaionStateArgsAndVals = { {}, {} }
+	},
 	armour_scheme = {
 		hull_azimuth = { {} },
 		hull_elevation = { {} },

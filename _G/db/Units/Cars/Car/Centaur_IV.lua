@@ -274,7 +274,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	_file = "./Mods/tech/WWII Units/Database/db_units_cars.lua",
 	_origin = "WWII Armour and Technics",
 	airWeaponDist = 0,
-	animation_arguments = {},
+	animation_arguments = {
+		transportaionStateArgsAndVals = { {}, {} }
+	},
 	armour_scheme = {
 		hull_azimuth = { { 0, 30, 2 }, { 30, 180, 1.09 } },
 		hull_elevation = { { -90, -45, 0.5 }, { -45, 30, 1 }, { 30, 90, 0.4 } },

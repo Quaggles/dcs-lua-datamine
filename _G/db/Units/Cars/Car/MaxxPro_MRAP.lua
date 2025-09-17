@@ -73,7 +73,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	_file = "./CoreMods/tech/HeavyMetalCore/Database/db_units_cars.lua",
 	_origin = "HeavyMetalCore",
 	animation_arguments = {
-		crew_presence = 50
+		crew_presence = 50,
+		transportaionStateArgsAndVals = { {}, {} }
 	},
 	armour_scheme = {
 		hull_azimuth = { {}, {}, {} },

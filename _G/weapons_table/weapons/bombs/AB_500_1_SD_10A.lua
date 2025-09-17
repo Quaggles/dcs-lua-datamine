@@ -9,6 +9,11 @@ _G["weapons_table"]["weapons"]["bombs"]["AB_500_1_SD_10A"] = {
 	client = {
 		Ag = -1.23,
 		Cx = 0.000413,
+		ED = {
+			default_delays = { 4, 5.5 },
+			is_multidelay = true,
+			trigger_after_arming = true
+		},
 		Reflection = 0.035,
 		VyHold = -100,
 		_file = "./CoreMods/WWII Units/Weapons/Weapons.lua",
@@ -23,11 +28,6 @@ _G["weapons_table"]["weapons"]["bombs"]["AB_500_1_SD_10A"] = {
 		},
 		category = 1,
 		class_name = "wAmmunition",
-		container_fuze = {
-			default_function_delays = { 4, 5.5 },
-			is_multidelay = true,
-			trigger_after_arming = true
-		},
 		display_name_short = "AB500",
 		fm = {
 			I = 150,
@@ -238,6 +238,11 @@ _G["weapons_table"]["weapons"]["bombs"]["AB_500_1_SD_10A"] = {
 	server = {
 		Ag = -1.23,
 		Cx = 0.000413,
+		ED = {
+			default_delays = { 4, 5.5 },
+			is_multidelay = true,
+			trigger_after_arming = true
+		},
 		Reflection = 0.035,
 		VyHold = -100,
 		_file = "./CoreMods/WWII Units/Weapons/Weapons.lua",
@@ -252,11 +257,6 @@ _G["weapons_table"]["weapons"]["bombs"]["AB_500_1_SD_10A"] = {
 		},
 		category = 1,
 		class_name = "wAmmunition",
-		container_fuze = {
-			default_function_delays = { 4, 5.5 },
-			is_multidelay = true,
-			trigger_after_arming = true
-		},
 		display_name_short = "AB500",
 		fm = {
 			I = 150,

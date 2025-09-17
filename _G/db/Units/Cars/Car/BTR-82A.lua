@@ -99,7 +99,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						startVal = 0
 					} } },
 			totalDuration = 4
-		}
+		},
+		transportaionStateArgsAndVals = { {}, {} }
 	},
 	armour_scheme = {
 		hull_azimuth = { {}, {}, {} },

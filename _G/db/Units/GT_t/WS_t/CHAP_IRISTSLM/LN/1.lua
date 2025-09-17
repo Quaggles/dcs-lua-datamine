@@ -11,7 +11,7 @@ _G["db"]["Units"]["GT_t"]["WS_t"]["CHAP_IRISTSLM"]["LN"]["#Index"] = {
 		} },
 	distanceMax = 40000,
 	distanceMin = 1200,
-	external_tracking_awacs = true,
+	external_tracking_awacs = false,
 	launch_delay = 0.5,
 	maxShootingSpeed = 0,
 	max_number_of_missiles_channels = 1,

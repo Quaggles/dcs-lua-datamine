@@ -112,7 +112,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	animation_arguments = {
 		headlights = 31,
-		stoplights = 30
+		stoplights = 30,
+		transportaionStateArgsAndVals = { {}, {} }
 	},
 	armour_scheme = {
 		hull_azimuth = { { 0, 15, 1.5 }, { 15, 160, 1 }, { 160, 180, 0.7 } },

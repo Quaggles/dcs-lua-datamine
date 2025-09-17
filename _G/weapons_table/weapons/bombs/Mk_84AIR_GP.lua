@@ -7,6 +7,16 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_84AIR_GP"] = {
 	caliber = 0.4572,
 	client = {
 		Ag = -5,
+		SAD = {
+			default_delays = { 4 },
+			is_vane_anim_required = true
+		},
+		TDD = {
+			altimeter_sigma = 0.9144,
+			tdd_position = { 1.6, 0, 0 },
+			tdd_vdiff_max = 426.72,
+			tdd_vdiff_min = 22.86
+		},
 		VyHold = -50,
 		_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
 		_origin = "AircraftWeaponPack",
@@ -38,13 +48,6 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_84AIR_GP"] = {
 			release_rnd_x = 1,
 			wind_sigma = 4,
 			wind_time = 1000
-		},
-		fuze = {
-			default_arm_delays = { 4 },
-			tdd_position = { 1.6, 0, 0 },
-			tdd_sigma = 0.9144,
-			tdd_vdiff_max = 426.72,
-			tdd_vdiff_min = 22.86
 		},
 		hMax = 2000,
 		hMin = 25,
@@ -88,6 +91,16 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_84AIR_GP"] = {
 	name = "Mk_84AIR_GP",
 	server = {
 		Ag = -5,
+		SAD = {
+			default_delays = { 4 },
+			is_vane_anim_required = true
+		},
+		TDD = {
+			altimeter_sigma = 0.9144,
+			tdd_position = { 1.6, 0, 0 },
+			tdd_vdiff_max = 426.72,
+			tdd_vdiff_min = 22.86
+		},
 		VyHold = -50,
 		_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
 		_origin = "AircraftWeaponPack",
@@ -119,13 +132,6 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_84AIR_GP"] = {
 			release_rnd_x = 1,
 			wind_sigma = 4,
 			wind_time = 1000
-		},
-		fuze = {
-			default_arm_delays = { 4 },
-			tdd_position = { 1.6, 0, 0 },
-			tdd_sigma = 0.9144,
-			tdd_vdiff_max = 426.72,
-			tdd_vdiff_min = 22.86
 		},
 		hMax = 2000,
 		hMin = 25,

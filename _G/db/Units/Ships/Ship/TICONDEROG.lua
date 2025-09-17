@@ -314,6 +314,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							shell_name = {}
 						} },
 					fireAnimationArgument = 119,
+					frequencyRange = {},
 					sensor = {}
 				} },
 			angles = { { 3.08923277603, 0.05235987755983 } },
@@ -352,6 +353,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							shell_name = {}
 						} },
 					fireAnimationArgument = 118,
+					frequencyRange = {},
 					sensor = {}
 				} },
 			angles = { { -0.05235987755983, -2.9670597283904 } },
@@ -1454,7 +1456,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		},
 		maxTargetDetectionRange = 450000,
 		radar_type = 102,
-		searchRadarFrequencies = { { 3100000, 3500000 }, { 850000000, 942000000 } },
+		searchRadarFrequencies = { { 3100000000, 3500000000 }, { 850000000, 942000000 }, { 8000000000, 10000000000 } },
 		searchRadarMaxElevation = 1.0471975511966
 	},
 	Waypoint_Custom_Panel = true,

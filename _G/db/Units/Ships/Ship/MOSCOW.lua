@@ -184,21 +184,27 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	Tail_Width = 14.5,
 	ThreatRange = 75000,
 	WS = { {
-			LN = { {} },
+			LN = { {
+					frequencyRange = {}
+				} },
 			angles = { { 2.4434609527921, -2.4434609527921 } },
 			center = "CENTER_RADAR_04",
 			drawArgument1 = 6,
 			pidY = {},
 			pidZ = {}
 		}, {
-			LN = { {} },
+			LN = { {
+					frequencyRange = {}
+				} },
 			angles = { {} },
 			base = 1,
 			pidY = {},
 			pidZ = {},
 			pos = {}
 		}, {
-			LN = { {} },
+			LN = { {
+					frequencyRange = {}
+				} },
 			angles = { { -0.17453292519943, -2.9670597283904 } },
 			center = "CENTER_RADAR_05",
 			drawArgument1 = 7,
@@ -206,14 +212,18 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			pidZ = {},
 			reference_angle_Y = -1.5707963267949
 		}, {
-			LN = { {} },
+			LN = { {
+					frequencyRange = {}
+				} },
 			angles = { {} },
 			base = 3,
 			pidY = {},
 			pidZ = {},
 			pos = {}
 		}, {
-			LN = { {} },
+			LN = { {
+					frequencyRange = {}
+				} },
 			angles = { { 2.9670597283904, 0.17453292519943 } },
 			center = "CENTER_RADAR_06",
 			drawArgument1 = 8,
@@ -221,7 +231,9 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			pidZ = {},
 			reference_angle_Y = 1.5707963267949
 		}, {
-			LN = { {} },
+			LN = { {
+					frequencyRange = {}
+				} },
 			angles = { {} },
 			base = 5,
 			pidY = {},
@@ -481,7 +493,9 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			drawArgument1 = 13,
 			drawArgument2 = 14
 		}, {
-			LN = { {} },
+			LN = { {
+					frequencyRange = {}
+				} },
 			angles = { { -0.17453292519943, 2.9670597283904 } },
 			animation_alarm_state = {
 				arg = 55,
@@ -495,7 +509,9 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			pidZ = {},
 			reference_angle_Y = -1.5707963267949
 		}, {
-			LN = { {} },
+			LN = { {
+					frequencyRange = {}
+				} },
 			angles = { { -2.9670597283904, 0.17453292519943 } },
 			animation_alarm_state = {
 				arg = 323,
@@ -879,6 +895,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							type_ammunition = {}
 						} },
 					beamWidth = 1.5707963267949,
+					frequencyRange = { 8000000000, 12050000000 },
 					sensor = {}
 				} },
 			angles = { { 0.5235987755983, -0.5235987755983 } },
@@ -899,6 +916,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							type_ammunition = {}
 						} },
 					beamWidth = 1.5707963267949,
+					frequencyRange = { 8000000000, 12050000000 },
 					sensor = {}
 				} },
 			angles = { { 0.5235987755983, -0.5235987755983 } },
@@ -919,6 +937,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							type_ammunition = {}
 						} },
 					beamWidth = 1.5707963267949,
+					frequencyRange = { 8000000000, 12050000000 },
 					sensor = {}
 				} },
 			angles = { { 0.5235987755983, -0.5235987755983 } },
@@ -939,6 +958,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							type_ammunition = {}
 						} },
 					beamWidth = 1.5707963267949,
+					frequencyRange = { 8000000000, 12050000000 },
 					sensor = {}
 				} },
 			angles = { { 0.5235987755983, -0.5235987755983 } },
@@ -959,6 +979,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							type_ammunition = {}
 						} },
 					beamWidth = 1.5707963267949,
+					frequencyRange = { 8000000000, 12050000000 },
 					sensor = {}
 				} },
 			angles = { { 0.5235987755983, -0.5235987755983 } },
@@ -979,6 +1000,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							type_ammunition = {}
 						} },
 					beamWidth = 1.5707963267949,
+					frequencyRange = { 8000000000, 12050000000 },
 					sensor = {}
 				} },
 			angles = { { 0.5235987755983, -0.5235987755983 } },
@@ -999,6 +1021,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							type_ammunition = {}
 						} },
 					beamWidth = 1.5707963267949,
+					frequencyRange = { 8000000000, 12050000000 },
 					sensor = {}
 				} },
 			angles = { { 0.5235987755983, -0.5235987755983 } },
@@ -1019,6 +1042,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							type_ammunition = {}
 						} },
 					beamWidth = 1.5707963267949,
+					frequencyRange = { 8000000000, 12050000000 },
 					sensor = {}
 				} },
 			angles = { { 0.5235987755983, -0.5235987755983 } },
@@ -1032,7 +1056,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		},
 		maxTargetDetectionRange = 500000,
 		radar_type = 102,
-		searchRadarFrequencies = { { 2000000000, 2500000000 }, { 8000000000, 12000000000 } },
+		searchRadarFrequencies = { { 800000000, 875000000 }, { 1000000000, 1200000000 }, { 2000000000, 2250000000 }, { 2250000000, 2500000000 }, { 8500000000, 11500000000 }, { 9400000000, 9460000000 }, { 6000000000, 8000000000 } },
 		searchRadarMaxElevation = 0.69813170079773
 	},
 	Waypoint_Custom_Panel = true,

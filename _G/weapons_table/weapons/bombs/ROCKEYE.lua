@@ -5,7 +5,22 @@ _G["weapons_table"]["weapons"]["bombs"]["ROCKEYE"] = {
 	_unique_resource_name = "weapons.bombs.ROCKEYE",
 	caliber = 0.335,
 	client = {
+		ED = {
+			default_delay_mode = 0,
+			default_delay_sorting_mode = 0,
+			default_delays = { 6 },
+			is_impact_function_disabled = true,
+			is_multidelay = true,
+			trigger_after_arming = true
+		},
 		Reflection = 0.04,
+		SAD = {
+			is_vane_anim_required = true
+		},
+		TDD = {
+			altimeter_sigma = 10,
+			tdd_position = { 1.005, 0, 0 }
+		},
 		arming_delay = {
 			delay_time = 0.8,
 			enabled = true
@@ -13,21 +28,6 @@ _G["weapons_table"]["weapons"]["bombs"]["ROCKEYE"] = {
 		arming_vane = {
 			enabled = false,
 			velK = 1
-		},
-		container_fuze = {
-			default_arm_delays = { 1.1 },
-			default_delay_sorting_mode = 0,
-			default_func_delay_mode = 0,
-			is_impact_fuze_disabled = true,
-			is_multidelay = true,
-			is_vane_anim_required = true,
-			tdd_position = { 1.005, 0, 0 },
-			tdd_sigma = 10,
-			use_single_arm_delay = true
-		},
-		control = {
-			default_delay = 1.2,
-			default_open_height = 457
 		},
 		display_name_short = "Mk-20",
 		fm = {
@@ -43,6 +43,7 @@ _G["weapons_table"]["weapons"]["bombs"]["ROCKEYE"] = {
 			wind_sigma = 100,
 			wind_time = 1000
 		},
+		fuzePresetName = "Mk339Mod1",
 		launcher = {
 			cluster = {
 				char_time = 0,
@@ -127,7 +128,22 @@ _G["weapons_table"]["weapons"]["bombs"]["ROCKEYE"] = {
 	model = "rockeye",
 	name = "ROCKEYE",
 	server = {
+		ED = {
+			default_delay_mode = 0,
+			default_delay_sorting_mode = 0,
+			default_delays = { 6 },
+			is_impact_function_disabled = true,
+			is_multidelay = true,
+			trigger_after_arming = true
+		},
 		Reflection = 0.04,
+		SAD = {
+			is_vane_anim_required = true
+		},
+		TDD = {
+			altimeter_sigma = 10,
+			tdd_position = { 1.005, 0, 0 }
+		},
 		arming_delay = {
 			delay_time = 0.8,
 			enabled = true
@@ -135,21 +151,6 @@ _G["weapons_table"]["weapons"]["bombs"]["ROCKEYE"] = {
 		arming_vane = {
 			enabled = false,
 			velK = 1
-		},
-		container_fuze = {
-			default_arm_delays = { 1.1 },
-			default_delay_sorting_mode = 0,
-			default_func_delay_mode = 0,
-			is_impact_fuze_disabled = true,
-			is_multidelay = true,
-			is_vane_anim_required = true,
-			tdd_position = { 1.005, 0, 0 },
-			tdd_sigma = 10,
-			use_single_arm_delay = true
-		},
-		control = {
-			default_delay = 1.2,
-			default_open_height = 457
 		},
 		display_name_short = "Mk-20",
 		fm = {
@@ -165,6 +166,7 @@ _G["weapons_table"]["weapons"]["bombs"]["ROCKEYE"] = {
 			wind_sigma = 100,
 			wind_time = 1000
 		},
+		fuzePresetName = "Mk339Mod1",
 		launcher = {
 			cluster = {
 				char_time = 0,
@@ -244,8 +246,8 @@ _G["weapons_table"]["weapons"]["bombs"]["ROCKEYE"] = {
 	},
 	sounderName = "Weapons/Bomb",
 	targeting_data = {
-		bomblet_char_time = 25.45,
-		char_time = 20.21
+		bomblet_char_time = 23.7,
+		char_time = 20.45
 	},
 	type_name = "bomb",
 	ws_type = { 4, 5, 38, "Redacted" }

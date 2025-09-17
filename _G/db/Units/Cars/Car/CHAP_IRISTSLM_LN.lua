@@ -17,61 +17,53 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	WS = { {
 			LN = { {
 					BR = { {
+							alternativeRecoil = true,
 							connector_name = "POINT_MISSILE_101",
 							recoilArgument = 101,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
+							recoilTime = 1,
+							stopRecoilOnFinish = true
 						}, {
+							alternativeRecoil = true,
 							connector_name = "POINT_MISSILE_102",
 							recoilArgument = 102,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
+							recoilTime = 1,
+							stopRecoilOnFinish = true
 						}, {
+							alternativeRecoil = true,
 							connector_name = "POINT_MISSILE_103",
 							recoilArgument = 103,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
+							recoilTime = 1,
+							stopRecoilOnFinish = true
 						}, {
+							alternativeRecoil = true,
 							connector_name = "POINT_MISSILE_104",
 							recoilArgument = 104,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
+							recoilTime = 1,
+							stopRecoilOnFinish = true
 						}, {
+							alternativeRecoil = true,
 							connector_name = "POINT_MISSILE_105",
 							recoilArgument = 105,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
+							recoilTime = 1,
+							stopRecoilOnFinish = true
 						}, {
+							alternativeRecoil = true,
 							connector_name = "POINT_MISSILE_106",
 							recoilArgument = 106,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
+							recoilTime = 1,
+							stopRecoilOnFinish = true
 						}, {
+							alternativeRecoil = true,
 							connector_name = "POINT_MISSILE_107",
 							recoilArgument = 107,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
+							recoilTime = 1,
+							stopRecoilOnFinish = true
 						}, {
+							alternativeRecoil = true,
 							connector_name = "POINT_MISSILE_108",
 							recoilArgument = 108,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
+							recoilTime = 1,
+							stopRecoilOnFinish = true
 						} },
 					PL = { {} },
 					depends_on_unit = { { { "CHAP_IRISTSLM_STR" } } },
@@ -88,7 +80,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Waypoint_Custom_Panel = true,
 	_file = "./CoreMods/tech/Currenthill Assets Pack/Database/db_units_cars.lua",
 	_origin = "Currenthill Assets Pack",
-	animation_arguments = {},
+	animation_arguments = {
+		transportaionStateArgsAndVals = { {}, {} }
+	},
 	armour_scheme = {
 		hull_azimuth = { {}, {}, {} },
 		hull_elevation = { {}, {} },
@@ -143,8 +137,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			coeffs = { { 0.031, 0.0022, 3 }, { 0.0069, 0.0036, 4.8 }, { 0.032, 0.007 }, { 0.01, 0.0017 }, { 0.22, 0.00011578947368421 } }
 		},
 		agony_explosion_size = 10,
-		dirt_pos = { -3, 0.8, -1.25 },
-		dust_pos = { 3, 0.2, -1.25 },
+		dirt_pos = { -3.5, 0.8, -1.2 },
+		dust_pos = { 2.85, 0.2, -1.2 },
 		fire_pos = { 0, 2, 0 },
 		fire_size = 1.2,
 		fire_time = 480,

@@ -107,7 +107,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	Waypoint_Custom_Panel = true,
 	animation_arguments = {
-		alarm_state = -1
+		alarm_state = -1,
+		transportaionStateArgsAndVals = { {}, {} }
 	},
 	armour_scheme = {
 		hull_azimuth = { {} },

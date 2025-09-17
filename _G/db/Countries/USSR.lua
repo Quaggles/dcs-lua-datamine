@@ -650,6 +650,14 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "AA8"
 				}, {
+					Name = "GPS_Spoofer_Red"
+				}, {
+					Name = "rsbn_beacon"
+				}, {
+					Name = "prmg_gp_beacon"
+				}, {
+					Name = "prmg_loc_beacon"
+				}, {
 					Name = "Bedford_MWD"
 				}, {
 					Name = "ES44AH"
@@ -1553,6 +1561,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "MB-339A"
 				}, {
 					Name = "MB-339APAN"
+				}, {
+					Name = "MiG-29 Fulcrum"
 				}, {
 					Name = "Mirage-F1CE"
 				}, {

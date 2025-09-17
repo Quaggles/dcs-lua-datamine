@@ -9,7 +9,16 @@ _G["weapons_table"]["weapons"]["bombs"]["British_GP_250LB_Bomb_Mk5"] = {
 	client = {
 		Ag = -1.23,
 		Cx = 0.00133,
+		ED = {
+			default_delays = { 1800 },
+			first_dev_index = 1
+		},
 		Reflection = 0.02,
+		SAD = {
+			first_dev_index = 1,
+			vane_rev_threshold = { 8 },
+			vane_span = { 0.11684 }
+		},
 		VyHold = -100,
 		_file = "./CoreMods/WWII Units/Weapons/Weapons.lua",
 		_origin = "World War II AI Units by Eagle Dynamics",
@@ -36,12 +45,6 @@ _G["weapons_table"]["weapons"]["bombs"]["British_GP_250LB_Bomb_Mk5"] = {
 			release_rnd_x = 1,
 			wind_sigma = 50,
 			wind_time = 1
-		},
-		fuze = {
-			default_function_delays = { 1800 },
-			is_vane_sim_required = true,
-			vane_rev_threshold = 8,
-			vane_span = 0.11684
 		},
 		hMax = 12000,
 		hMin = 300,
@@ -87,7 +90,16 @@ _G["weapons_table"]["weapons"]["bombs"]["British_GP_250LB_Bomb_Mk5"] = {
 	server = {
 		Ag = -1.23,
 		Cx = 0.00133,
+		ED = {
+			default_delays = { 1800 },
+			first_dev_index = 1
+		},
 		Reflection = 0.02,
+		SAD = {
+			first_dev_index = 1,
+			vane_rev_threshold = { 8 },
+			vane_span = { 0.11684 }
+		},
 		VyHold = -100,
 		_file = "./CoreMods/WWII Units/Weapons/Weapons.lua",
 		_origin = "World War II AI Units by Eagle Dynamics",
@@ -114,12 +126,6 @@ _G["weapons_table"]["weapons"]["bombs"]["British_GP_250LB_Bomb_Mk5"] = {
 			release_rnd_x = 1,
 			wind_sigma = 50,
 			wind_time = 1
-		},
-		fuze = {
-			default_function_delays = { 1800 },
-			is_vane_sim_required = true,
-			vane_rev_threshold = 8,
-			vane_span = 0.11684
 		},
 		hMax = 12000,
 		hMin = 300,

@@ -171,24 +171,25 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					secondary = true,
 					sensor = {}
 				} },
-			angles = { { 2.2689280275926, -2.2689280275926, -0.10471975511966, 0.24434609527921 }, { -2.2689280275926, 2.2689280275926, 0.087266462599716, 0.24434609527921 } },
+			angles = { { 3.1415926535898, 2.8797932657906, 0.10471975511966, 0.24434609527921 }, { 2.8797932657906, 2.3561944901923, -0.034906585039887, 0.24434609527921 }, { 2.3561944901923, -2.3561944901923, -0.069813170079773, 0.24434609527921 }, { -2.3561944901923, -2.8797932657906, -0.034906585039887, 0.24434609527921 }, { -2.8797932657906, -3.1415926535898, 0.10471975511966, 0.24434609527921 } },
+			canSetTacticalDir = true,
 			center = "CENTER_TOWER_01",
 			cockpit = { "_1G46/_1G46", { 0, 0, 0 } },
 			drawArgument1 = 0,
 			drawArgument2 = 1,
 			laser = true,
-			omegaY = 0.45378560551853,
-			omegaZ = 0.26179938779915,
+			omegaY = 0.41887902047864,
+			omegaZ = 0.20943951023932,
 			pidY = {
-				d = 10,
-				i = 0.8,
-				inn = 8,
-				p = 70
+				d = 22,
+				i = 10,
+				inn = 0.4,
+				p = 60
 			},
 			pidZ = {
-				d = 8,
-				i = 0.6,
-				inn = 6,
+				d = 22,
+				i = 10,
+				inn = 0.4,
 				p = 60
 			},
 			pointer = "POINT_SIGHT_01",
@@ -412,7 +413,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				smoke = { "SMOKE_02", "SMOKE_05", "SMOKE_04", "SMOKE_07", "SMOKE_01", "SMOKE_06", "SMOKE_03", "SMOKE_08", "SMOKE_09", "SMOKE_10", "SMOKE_11", "SMOKE_12" }
 			},
 			airWeaponDist = 3500,
-			animation_arguments = {},
+			animation_arguments = {
+				transportaionStateArgsAndVals = { {}, {} }
+			},
 			armour_scheme = {
 				hull_azimuth = { {}, {}, {}, {} },
 				hull_elevation = { {}, {}, {}, {}, {} },
@@ -465,7 +468,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		}
 	},
 	airWeaponDist = 5000,
-	animation_arguments = {},
+	animation_arguments = {
+		transportaionStateArgsAndVals = { {}, {} }
+	},
 	armour_scheme = {
 		hull_azimuth = { {}, {}, {}, {} },
 		hull_elevation = { {}, {}, {}, {}, {} },
@@ -484,6 +489,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		offset = { 0, 0, 0 }
 	},
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = {
+			[3] = 1
+		}
+	},
 	mapclasskey = "P0091000001",
 	sensor = {
 		height = 2.8

@@ -8,6 +8,15 @@ _G["weapons_table"]["weapons"]["bombs"]["SC_50"] = {
 	client = {
 		Ag = -1.23,
 		Cx = 0.00014,
+		ED = {
+			default_delays = { 0, 0.08, 8.5 },
+			is_multidelay = true,
+			use_safety_in_delay_mode = true
+		},
+		SAD = {
+			default_delays = { 0.08, 0.08 },
+			is_multidelay = true
+		},
 		VyHold = -100,
 		_file = "./CoreMods/WWII Units/Weapons/Weapons.lua",
 		_origin = "World War II AI Units by Eagle Dynamics",
@@ -33,12 +42,6 @@ _G["weapons_table"]["weapons"]["bombs"]["SC_50"] = {
 			release_rnd = 0.3,
 			release_rnd_x = 1,
 			wind_sigma = 5
-		},
-		fuze = {
-			default_arm_delays = { 0.08, 0.08 },
-			default_function_delays = { 0, 0.08, 8.5 },
-			is_multidelay = true,
-			use_safety_in_delay_mode = true
 		},
 		hMax = 12000,
 		hMin = 1000,
@@ -84,6 +87,15 @@ _G["weapons_table"]["weapons"]["bombs"]["SC_50"] = {
 	server = {
 		Ag = -1.23,
 		Cx = 0.00014,
+		ED = {
+			default_delays = { 0, 0.08, 8.5 },
+			is_multidelay = true,
+			use_safety_in_delay_mode = true
+		},
+		SAD = {
+			default_delays = { 0.08, 0.08 },
+			is_multidelay = true
+		},
 		VyHold = -100,
 		_file = "./CoreMods/WWII Units/Weapons/Weapons.lua",
 		_origin = "World War II AI Units by Eagle Dynamics",
@@ -109,12 +121,6 @@ _G["weapons_table"]["weapons"]["bombs"]["SC_50"] = {
 			release_rnd = 0.3,
 			release_rnd_x = 1,
 			wind_sigma = 5
-		},
-		fuze = {
-			default_arm_delays = { 0.08, 0.08 },
-			default_function_delays = { 0, 0.08, 8.5 },
-			is_multidelay = true,
-			use_safety_in_delay_mode = true
 		},
 		hMax = 12000,
 		hMin = 1000,

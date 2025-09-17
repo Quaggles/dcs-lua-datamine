@@ -103,7 +103,7 @@ _G["launcher"]["{HSAB_8x_GBU38V1_R}"] = {
 			control = "spinbox",
 			defValue = 6.096,
 			dimension = "ft",
-			id = "function_altitude_ctrl_DSU33",
+			id = "00_prfx_function_altitude_ctrl_DSU33",
 			label = "Airburst Altitude",
 			max = 1000000000000,
 			min = 0,
@@ -125,16 +125,6 @@ _G["launcher"]["{HSAB_8x_GBU38V1_R}"] = {
 			values = { {
 					dispName = "FMU-139",
 					id = "FMU139CB_LD",
-					secondaryParams = {
-						addDef = {
-							ID = "NFP_VIS_DrawArgNo_55",
-							val = 0.1
-						},
-						tooltip = "Electronic, impact"
-					}
-				}, {
-					dispName = "FMU-143",
-					id = "FMU143",
 					secondaryParams = {
 						addDef = {
 							ID = "NFP_VIS_DrawArgNo_55",
@@ -167,54 +157,13 @@ _G["launcher"]["{HSAB_8x_GBU38V1_R}"] = {
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
-					value = "FMU139CB_LD"
-				} },
-			baseDim = "s",
-			control = "comboList",
-			defValue = 4,
-			dimension = "s",
-			id = "arm_delay_ctrl_FMU139CB_LD",
-			label = "Arm Delay",
-			nLocDim = "s",
-			stringIndex = 4,
-			values = { {
-					dispName = 4,
-					id = 4,
-					units = "s"
-				}, {
-					dispName = 6,
-					id = 6,
-					units = "s"
-				}, {
-					dispName = 7,
-					id = 7,
-					units = "s"
-				}, {
-					dispName = 10,
-					id = 10,
-					units = "s"
-				}, {
-					dispName = 14,
-					id = 14,
-					units = "s"
-				}, {
-					dispName = 20,
-					id = 20,
-					units = "s"
-				} },
-			wCtrl = 60,
-			xCtrl = 200,
-			xLbl = 10
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type_tail",
 					value = "FMU152AB_LD"
 				} },
 			baseDim = "s",
 			control = "comboList",
 			defValue = 4,
 			dimension = "s",
-			id = "arm_delay_ctrl_FMU152AB_LD",
+			id = "01_prfx_arm_delay_ctrl_FMU152AB_LD",
 			label = "Arm Delay",
 			nLocDim = "s",
 			stringIndex = 4,
@@ -257,72 +206,44 @@ _G["launcher"]["{HSAB_8x_GBU38V1_R}"] = {
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
-					value = "FMU143"
+					value = "FMU139CB_LD"
 				} },
 			baseDim = "s",
 			control = "comboList",
-			defValue = 5.5,
+			defValue = 4,
 			dimension = "s",
-			id = "arm_delay_ctrl_FMU143",
+			id = "01_prfx_arm_delay_ctrl_FMU139CB_LD",
 			label = "Arm Delay",
 			nLocDim = "s",
 			stringIndex = 4,
 			values = { {
-					dispName = 5.5,
-					id = 5.5,
+					dispName = 4,
+					id = 4,
 					units = "s"
 				}, {
-					dispName = 12,
-					id = 12,
+					dispName = 6,
+					id = 6,
 					units = "s"
 				}, {
-					dispName = 21,
-					id = 21,
+					dispName = 7,
+					id = 7,
+					units = "s"
+				}, {
+					dispName = 10,
+					id = 10,
+					units = "s"
+				}, {
+					dispName = 14,
+					id = 14,
+					units = "s"
+				}, {
+					dispName = 20,
+					id = 20,
 					units = "s"
 				} },
 			wCtrl = 60,
 			xCtrl = 200,
 			xLbl = 10
-		}, {
-			VisibilityCondition = { {
-					id = "NFP_fuze_type_tail",
-					value = "FMU152AB_LD"
-				} },
-			baseDim = "",
-			control = "comboList",
-			defValue = 0,
-			dimension = "",
-			id = "function_delay_ctrl_FMU152AB_LD",
-			label = "Function Delay",
-			stringIndex = 4,
-			values = { {
-					dispName = "0 s",
-					id = 0
-				}, {
-					dispName = "5 ms",
-					id = 0.005
-				}, {
-					dispName = "25 ms",
-					id = 0.025
-				}, {
-					dispName = "60 ms",
-					id = 0.06
-				}, {
-					dispName = "0.18 s",
-					id = 0.18
-				}, {
-					dispName = "0.25 h",
-					id = 900
-				}, {
-					dispName = "4 h",
-					id = 14400
-				}, {
-					dispName = "24 h",
-					id = 86400
-				} },
-			wCtrl = 60,
-			xCtrl = 500,
-			xLbl = 310
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -332,7 +253,7 @@ _G["launcher"]["{HSAB_8x_GBU38V1_R}"] = {
 			control = "comboList",
 			defValue = 0,
 			dimension = "s",
-			id = "function_delay_ctrl_FMU139CB_LD",
+			id = "01_prfx_function_delay_ctrl_FMU139CB_LD",
 			label = "Function Delay",
 			nLocDim = "s",
 			stringIndex = 4,
@@ -359,28 +280,39 @@ _G["launcher"]["{HSAB_8x_GBU38V1_R}"] = {
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
-					value = "FMU143"
+					value = "FMU152AB_LD"
 				} },
-			baseDim = "s",
+			baseDim = "",
 			control = "comboList",
-			defValue = 0.03,
-			dimension = "ms",
-			id = "function_delay_ctrl_FMU143",
+			defValue = 0,
+			dimension = "",
+			id = "01_prfx_function_delay_ctrl_FMU152AB_LD",
 			label = "Function Delay",
-			nLocDim = "ms",
 			stringIndex = 4,
 			values = { {
-					dispName = 0.03,
-					id = 0.03,
-					units = "s"
+					dispName = "0 s",
+					id = 0
 				}, {
-					dispName = 0.06,
-					id = 0.06,
-					units = "s"
+					dispName = "5 ms",
+					id = 0.005
 				}, {
-					dispName = 0.12,
-					id = 0.12,
-					units = "s"
+					dispName = "25 ms",
+					id = 0.025
+				}, {
+					dispName = "60 ms",
+					id = 0.06
+				}, {
+					dispName = "180 ms",
+					id = 0.18
+				}, {
+					dispName = "15 min",
+					id = 900
+				}, {
+					dispName = "4 h",
+					id = 14400
+				}, {
+					dispName = "24 h",
+					id = 86400
 				} },
 			wCtrl = 60,
 			xCtrl = 500,

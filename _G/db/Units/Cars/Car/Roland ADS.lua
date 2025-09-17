@@ -63,7 +63,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		headlights = 31,
 		locator_rotation = 11,
 		markerlights = 32,
-		stoplights = 30
+		stoplights = 30,
+		transportaionStateArgsAndVals = { {}, {} }
 	},
 	armour_scheme = {
 		hull_azimuth = { {}, {}, {} },

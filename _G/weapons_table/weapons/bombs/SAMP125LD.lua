@@ -9,6 +9,10 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP125LD"] = {
 	client = {
 		Ag = -5,
 		Reflection = 0.015,
+		SAD = {
+			default_delays = { 2 },
+			is_vane_anim_required = true
+		},
 		VyHold = -50,
 		_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
 		_origin = "AircraftWeaponPack",
@@ -35,10 +39,6 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP125LD"] = {
 			release_rnd_x = 1,
 			wind_sigma = 30,
 			wind_time = 1000
-		},
-		fuze = {
-			default_arm_delays = { 2 },
-			is_vane_anim_required = true
 		},
 		hMax = 12000,
 		hMin = 50,
@@ -80,6 +80,10 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP125LD"] = {
 	server = {
 		Ag = -5,
 		Reflection = 0.015,
+		SAD = {
+			default_delays = { 2 },
+			is_vane_anim_required = true
+		},
 		VyHold = -50,
 		_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
 		_origin = "AircraftWeaponPack",
@@ -106,10 +110,6 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP125LD"] = {
 			release_rnd_x = 1,
 			wind_sigma = 30,
 			wind_time = 1000
-		},
-		fuze = {
-			default_arm_delays = { 2 },
-			is_vane_anim_required = true
 		},
 		hMax = 12000,
 		hMin = 50,

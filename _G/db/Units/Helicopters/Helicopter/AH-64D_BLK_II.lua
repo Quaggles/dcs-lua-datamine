@@ -830,6 +830,9 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				["MiG-21bis"] = {
 					enable_options_key_for_unit = "mig21bis_enabled"
 				},
+				["MiG-29 Fulcrum"] = {
+					enable_options_key_for_unit = "mig29fulcrum_common_enabled"
+				},
 				["MiG-29A"] = {
 					enable_options_key_for_unit = "mig29a_enabled"
 				},
@@ -888,7 +891,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		Kwx2 = 170,
 		Kwx2_hold = 150,
 		Kwy2 = 400,
-		Kwy2_hold = 6,
+		Kwy2_hold = 6.5,
 		Kwz2 = 150,
 		Kwz2_hold = 200,
 		MainRotorPos = { 0.3, 2.1, 0 },
@@ -929,9 +932,9 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		ffbRollK = 0.65,
 		filterPeriod_pitch = 10,
 		filterPeriod_roll = 10,
-		headingHold_K_int = 0.5,
-		headingHold_K_wy = 0.07,
-		headingHold_K_yaw = 0.42,
+		headingHold_K_int = 0.7,
+		headingHold_K_wy = 0.02,
+		headingHold_K_yaw = 0.35,
 		holdSwitchPeriod = 2,
 		imgui_permissions = {},
 		kDamp_Mx_d1 = -4,

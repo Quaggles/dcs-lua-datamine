@@ -178,6 +178,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			[63] = 2.3,
 			[64] = 2.3
 		},
+		transportaionStateArgsAndVals = { {}, {} },
 		wheels_turn_angle = 9
 	},
 	armour_scheme = {

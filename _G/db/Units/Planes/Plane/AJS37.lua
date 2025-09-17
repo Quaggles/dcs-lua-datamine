@@ -880,6 +880,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			mm = 0,
 			mmint = 1,
 			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "ACDCRECTIFIERS",
+			label = "AC-DC rectifiers",
+			mm = 0,
+			mmint = 1,
+			prob = 100
 		} },
 	H_max = 21000,
 	HumanCockpit = true,
@@ -964,6 +972,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				},
 				["MiG-21bis"] = {
 					enable_options_key_for_unit = "mig21bis_enabled"
+				},
+				["MiG-29 Fulcrum"] = {
+					enable_options_key_for_unit = "mig29fulcrum_common_enabled"
 				},
 				["MiG-29A"] = {
 					enable_options_key_for_unit = "mig29a_enabled"

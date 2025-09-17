@@ -185,7 +185,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Waypoint_Custom_Panel = true,
 	_file = "./CoreMods/tech/TechWeaponPack/Database/db_units_cars.lua",
 	_origin = "TechWeaponPack",
-	animation_arguments = {},
+	animation_arguments = {
+		transportaionStateArgsAndVals = { {}, {} }
+	},
 	armour_scheme = {
 		hull_azimuth = { { 0, 160, 1 }, { 160, 180, 0.5 } },
 		hull_elevation = { { -90, 11, 0.8 }, { 11, 40, 1 }, { 40, 90, 0.5 } },

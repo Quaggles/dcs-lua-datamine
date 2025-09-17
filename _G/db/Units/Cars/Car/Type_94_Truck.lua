@@ -42,7 +42,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	_file = "./CoreMods/tech/M3 WWII PTO units/Database/Japan ground units/Type_94_Truck.lua",
 	_origin = "World War II PTO Units by Magnitude 3 LLC",
 	animation_arguments = {
-		alarm_state = -1
+		alarm_state = -1,
+		transportaionStateArgsAndVals = { {}, {} }
 	},
 	armour_scheme = {
 		hull_azimuth = { {} },

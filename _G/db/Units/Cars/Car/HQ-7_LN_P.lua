@@ -81,7 +81,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		markerlights = 39,
 		pitch_k = 0.4,
 		roll_k = 0.4,
-		stoplights = 37
+		stoplights = 37,
+		transportaionStateArgsAndVals = { {}, {} }
 	},
 	armour_scheme = {
 		hull_azimuth = { {}, {}, {} },

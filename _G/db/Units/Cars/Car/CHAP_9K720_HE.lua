@@ -71,7 +71,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						startVal = 1
 					} } },
 			totalDuration = 50
-		}
+		},
+		transportaionStateArgsAndVals = { {}, {} }
 	},
 	armour_scheme = {
 		hull_azimuth = { {}, {}, {} },
@@ -123,8 +124,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		IR = {
 			coeffs = { { 0.031, 0.0022, 3 }, { 0.0069, 0.0036, 4.8 }, { 0.065, 0.007 }, { 0.01, 0.0017 }, { 0.26, 0.00013684210526316 } }
 		},
-		dirt_pos = { -3.25, 0.8, -1.15 },
-		dust_pos = { 3.25, 0.2, -1.15 },
+		dirt_pos = { -4.9, 0.8, -1.23 },
+		dust_pos = { 3.5, 0.2, -1.23 },
 		fire_pos = { 0, 2, 0 },
 		fire_size = 1.8,
 		fire_time = 600,

@@ -20,7 +20,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
 	animation_arguments = {
-		crew_presence = 50
+		crew_presence = 50,
+		transportaionStateArgsAndVals = { {}, {} }
 	},
 	armour_scheme = {
 		hull_azimuth = { {} },

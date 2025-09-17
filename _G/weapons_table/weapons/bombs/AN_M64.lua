@@ -6,6 +6,9 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M64"] = {
 	caliber = 0.36,
 	client = {
 		Reflection = 0.03,
+		SAD = {
+			vane_rev_threshold = { 160, 160 }
+		},
 		arming_delay = {
 			delay_time = 0.8,
 			enabled = true
@@ -27,10 +30,6 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M64"] = {
 			release_rnd_x = 1,
 			wind_sigma = 30,
 			wind_time = 1000
-		},
-		fuze = {
-			is_vane_sim_required = true,
-			vane_rev_threshold = 160
 		},
 		scheme = "schemes/bombs/bomb_common_v2.sch",
 		warhead = {
@@ -56,6 +55,9 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M64"] = {
 	name = "AN_M64",
 	server = {
 		Reflection = 0.03,
+		SAD = {
+			vane_rev_threshold = { 160, 160 }
+		},
 		arming_delay = {
 			delay_time = 0.8,
 			enabled = true
@@ -77,10 +79,6 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M64"] = {
 			release_rnd_x = 1,
 			wind_sigma = 30,
 			wind_time = 1000
-		},
-		fuze = {
-			is_vane_sim_required = true,
-			vane_rev_threshold = 160
 		},
 		scheme = "schemes/bombs/bomb_common_v2.sch",
 		warhead = {

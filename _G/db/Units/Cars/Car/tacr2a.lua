@@ -12,7 +12,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Waypoint_Custom_Panel = true,
 	_file = "./CoreMods/tech/SouthAtlanticAssets/Entries/Vehicles/tacr2a.lua",
 	_origin = "South_Atlantic_Assets",
-	animation_arguments = {},
+	animation_arguments = {
+		transportaionStateArgsAndVals = { {}, {} }
+	},
 	armour_scheme = {
 		hull_azimuth = { {} },
 		hull_elevation = { {} },

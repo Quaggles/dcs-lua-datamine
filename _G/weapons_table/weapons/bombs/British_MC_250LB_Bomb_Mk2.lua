@@ -10,6 +10,12 @@ _G["weapons_table"]["weapons"]["bombs"]["British_MC_250LB_Bomb_Mk2"] = {
 		Ag = -1.23,
 		Cx = 0.00133,
 		Reflection = 0.02,
+		SAD = {
+			vane_air_Ek_usage_ratio = { 0.001, 1e-05 },
+			vane_mass = { 0.75, 0.05 },
+			vane_rev_threshold = { 7, 13 },
+			vane_span = { 0.1016, 0.0508 }
+		},
 		VyHold = -100,
 		_file = "./CoreMods/WWII Units/Weapons/Weapons.lua",
 		_origin = "World War II AI Units by Eagle Dynamics",
@@ -36,12 +42,6 @@ _G["weapons_table"]["weapons"]["bombs"]["British_MC_250LB_Bomb_Mk2"] = {
 			release_rnd_x = 1,
 			wind_sigma = 500,
 			wind_time = 1
-		},
-		fuze = {
-			is_vane_sim_required = true,
-			vane_air_Ek_usage_ratio = 0.001,
-			vane_rev_threshold = 7,
-			vane_span = 0.1016
 		},
 		hMax = 12000,
 		hMin = 300,
@@ -88,6 +88,12 @@ _G["weapons_table"]["weapons"]["bombs"]["British_MC_250LB_Bomb_Mk2"] = {
 		Ag = -1.23,
 		Cx = 0.00133,
 		Reflection = 0.02,
+		SAD = {
+			vane_air_Ek_usage_ratio = { 0.001, 1e-05 },
+			vane_mass = { 0.75, 0.05 },
+			vane_rev_threshold = { 7, 13 },
+			vane_span = { 0.1016, 0.0508 }
+		},
 		VyHold = -100,
 		_file = "./CoreMods/WWII Units/Weapons/Weapons.lua",
 		_origin = "World War II AI Units by Eagle Dynamics",
@@ -114,12 +120,6 @@ _G["weapons_table"]["weapons"]["bombs"]["British_MC_250LB_Bomb_Mk2"] = {
 			release_rnd_x = 1,
 			wind_sigma = 500,
 			wind_time = 1
-		},
-		fuze = {
-			is_vane_sim_required = true,
-			vane_air_Ek_usage_ratio = 0.001,
-			vane_rev_threshold = 7,
-			vane_span = 0.1016
 		},
 		hMax = 12000,
 		hMin = 300,

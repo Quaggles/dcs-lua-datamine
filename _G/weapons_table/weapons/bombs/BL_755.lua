@@ -5,7 +5,15 @@ _G["weapons_table"]["weapons"]["bombs"]["BL_755"] = {
 	_unique_resource_name = "weapons.bombs.BL_755",
 	caliber = 0.41,
 	client = {
+		ED = {
+			default_delays = { 1.13 },
+			is_impact_function_disabled = true,
+			trigger_after_arming = true
+		},
 		Reflection = 0.03,
+		SAD = {
+			is_vane_anim_required = true
+		},
 		arming_delay = {
 			delay_time = 0.8,
 			enabled = true
@@ -13,9 +21,6 @@ _G["weapons_table"]["weapons"]["bombs"]["BL_755"] = {
 		arming_vane = {
 			enabled = false,
 			velK = 1
-		},
-		control = {
-			open_delay = 4
 		},
 		display_name_short = "BL755",
 		fm = {
@@ -106,7 +111,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BL_755"] = {
 			},
 			server = 0
 		},
-		scheme = "schemes/bombs/bomb-cassette.sch"
+		scheme = "schemes/bombs/bomb_cassette_v3.sch"
 	},
 	cx = { 1, 0.39, 0.6, 0.168, 1.31 },
 	display_name = "BL755",
@@ -115,7 +120,15 @@ _G["weapons_table"]["weapons"]["bombs"]["BL_755"] = {
 	model = "t-bl-755",
 	name = "BL_755",
 	server = {
+		ED = {
+			default_delays = { 1.13 },
+			is_impact_function_disabled = true,
+			trigger_after_arming = true
+		},
 		Reflection = 0.03,
+		SAD = {
+			is_vane_anim_required = true
+		},
 		arming_delay = {
 			delay_time = 0.8,
 			enabled = true
@@ -123,9 +136,6 @@ _G["weapons_table"]["weapons"]["bombs"]["BL_755"] = {
 		arming_vane = {
 			enabled = false,
 			velK = 1
-		},
-		control = {
-			open_delay = 4
 		},
 		display_name_short = "BL755",
 		fm = {
@@ -216,12 +226,12 @@ _G["weapons_table"]["weapons"]["bombs"]["BL_755"] = {
 			},
 			server = 1
 		},
-		scheme = "schemes/bombs/bomb-cassette.sch"
+		scheme = "schemes/bombs/bomb_cassette_v3.sch"
 	},
 	sounderName = "Weapons/Bomb",
 	targeting_data = {
-		data = { { 1, 20.2, 0 }, { 10, 20.431997, 1.1e-05 }, { 20, 20.456066, -0.00016 }, { 30, 20.463633, -0.000188 }, { 40, 20.464823, -0.000198 }, { 50, 20.468404, -0.00024 }, { 60, 20.468708, -0.000237 }, { 70, 20.470523, -0.000244 }, { 80, 20.46956, -0.000229 }, { 90, 20.472084, -0.000244 }, { 100, 20.47674, -0.000225 }, { 200, 20.667933, -9.8e-05 }, { 300, 20.899296, -8.7e-05 }, { 400, 21.096938, -0.000138 }, { 500, 21.260492, -0.000207 }, { 600, 21.39756, -0.000275 }, { 700, 21.514264, -0.000336 }, { 800, 21.615084, -0.000393 }, { 900, 21.703399, -0.000442 }, { 1000, 21.781666, -0.000487 }, { 1100, 21.851669, -0.000527 }, { 1200, 21.914853, -0.000563 }, { 1300, 21.972351, -0.000595 }, { 1400, 22.024987, -0.000624 }, { 1500, 22.073439, -0.00065 }, { 1600, 22.118278, -0.000673 }, { 1700, 22.159983, -0.000693 }, { 1800, 22.198933, -0.000712 }, { 1900, 22.235428, -0.000728 }, { 2000, 22.269748, -0.000742 }, { 3000, 22.53187, -0.000809 }, { 4000, 22.711249, -0.000819 }, { 5000, 22.850385, -0.00083 }, { 6000, 22.966924, -0.000859 }, { 7000, 23.069585, -0.00091 }, { 8000, 23.163086, -0.000982 }, { 9000, 23.250093, -0.001067 }, { 10000, 23.332063, -0.001168 } },
-		v0 = 200
+		bomblet_char_time = 23.75,
+		char_time = 20.48
 	},
 	type_name = "bomb",
 	ws_type = { 4, 5, 38, "Redacted" }

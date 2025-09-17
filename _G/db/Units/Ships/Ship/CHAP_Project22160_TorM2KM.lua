@@ -311,33 +311,9 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					type = 102
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 1.1344640137963 } },
-			angles_mech = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 1.3089969389957 } },
-			animation_alarm_state = {
-				arg = 100,
-				time = 0.5
-			},
 			area = "TorM2KM",
-			center = "CENTER_RADAR_01",
-			drawArgument1 = 50,
-			drawArgument2 = 51,
-			omegaY = 0.78539816339745,
-			omegaZ = 0.69813170079773,
-			pidY = {
-				d = 10,
-				i = 1,
-				inn = 10,
-				p = 80
-			},
-			pidZ = {
-				d = 10,
-				i = 1,
-				inn = 10,
-				p = 80
-			},
-			pointer = "POINT_SIGHT_02",
-			pos = { 0, 3.5, 0 },
-			reference_angle_Y = -3.1415926535898,
-			reference_angle_Z = 1.3089969389957
+			center = "CENTER_TOWER_08",
+			pos = { 0, 3.5, 0 }
 		}, {
 			LN = { {
 					ECM_K = 0.4,
@@ -354,8 +330,6 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 				} },
 			angles = { { 0.5235987755983, -0.5235987755983, -0.087266462599716, 1.1344640137963 } },
 			base = 5,
-			omegaY = 0.78539816339745,
-			omegaZ = 0.69813170079773,
 			pos = { 0, 0, 0 }
 		}, {
 			LN = { {
@@ -373,8 +347,6 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 				} },
 			angles = { { 0.5235987755983, -0.5235987755983, -0.087266462599716, 1.1344640137963 } },
 			base = 5,
-			omegaY = 0.78539816339745,
-			omegaZ = 0.69813170079773,
 			pos = { 0, 0, 0 }
 		}, {
 			LN = { {
@@ -392,8 +364,6 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 				} },
 			angles = { { 0.5235987755983, -0.5235987755983, -0.087266462599716, 1.1344640137963 } },
 			base = 5,
-			omegaY = 0.78539816339745,
-			omegaZ = 0.69813170079773,
 			pos = { 0, 0, 0 }
 		}, {
 			LN = { {
@@ -431,13 +401,38 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							connector_name = "POINT_MISSILE_116"
 						} },
 					PL = { {} },
+					customViewPoint = { "genericMissile", { 0, 5, 0 } },
 					depends_on_unit = { { { "self", 5 } }, { { "self", 6 } }, { { "self", 7 } }, { { "self", 8 } } },
 					maxShootingSpeed = 16,
 					sensor = {}
 				} },
-			angles = { {} },
+			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 1.1344640137963 } },
+			angles_mech = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 1.3089969389957 } },
+			animation_alarm_state = {
+				arg = 100,
+				time = 0.5
+			},
 			area = "TorM2KM",
-			center = "CENTER_TOWER_06"
+			center = "CENTER_TOWER_06",
+			drawArgument1 = 50,
+			drawArgument2 = 51,
+			omegaY = 0.78539816339745,
+			omegaZ = 0.69813170079773,
+			pidY = {
+				d = 10,
+				i = 1,
+				inn = 10,
+				p = 80
+			},
+			pidZ = {
+				d = 10,
+				i = 1,
+				inn = 10,
+				p = 80
+			},
+			pointer = "POINT_SIGHT_02",
+			reference_angle_Y = -3.1415926535898,
+			reference_angle_Z = 1.3089969389957
 		}, {
 			LN = { {
 					beamWidth = 0,
@@ -524,7 +519,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		luna_lights = -1,
 		radar1_rotation = 12,
 		radar2_rotation = 250,
-		radar3_rotation = 60,
+		radar3_rotation = 101,
 		water_propeller = 40
 	},
 	armour_scheme = {

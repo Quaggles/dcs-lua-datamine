@@ -123,6 +123,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 						}, {
 							shell_name = {}
 						} },
+					frequencyRange = {},
 					sensor = {}
 				} },
 			angles = { { 1.221730476396, -1.6580627893946 }, { 1.6580627893946, 1.221730476396, 0.17453292519943, 1.4835298641952 } },
@@ -157,6 +158,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 						}, {
 							shell_name = {}
 						} },
+					frequencyRange = {},
 					sensor = {}
 				} },
 			angles = { { 1.4835298641952, -0.78539816339745 }, { -0.78539816339745, -1.221730476396, 0.17453292519943, 1.4835298641952 } },
@@ -191,6 +193,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 						}, {
 							shell_name = {}
 						} },
+					frequencyRange = {},
 					sensor = {}
 				} },
 			angles = { { 1.7453292519943, -1.7453292519943 } },
@@ -224,6 +227,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 						}, {
 							shell_name = {}
 						} },
+					frequencyRange = {},
 					sensor = {}
 				} },
 			angles = { { 1.6580627893946, -1.221730476396 } },

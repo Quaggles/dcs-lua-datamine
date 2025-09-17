@@ -9,7 +9,22 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_99"] = {
 	client = {
 		Ag = -1.23,
 		Cx = 0.000413,
+		ED = {
+			default_delay_mode = 0,
+			default_delay_sorting_mode = 0,
+			default_delays = { 6 },
+			is_impact_function_disabled = true,
+			is_multidelay = true,
+			trigger_after_arming = true
+		},
 		Reflection = 0.04,
+		SAD = {
+			is_vane_anim_required = true
+		},
+		TDD = {
+			altimeter_sigma = 10,
+			tdd_position = { 1.005, 0, 0 }
+		},
 		VyHold = -100,
 		_file = "./CoreMods/aircraft/AircraftWeaponPack/cluster_bombs.lua",
 		_origin = "AircraftWeaponPack",
@@ -23,21 +38,6 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_99"] = {
 		},
 		category = 1,
 		class_name = "wAmmunition",
-		container_fuze = {
-			default_arm_delays = { 1.1 },
-			default_delay_sorting_mode = 0,
-			default_func_delay_mode = 0,
-			is_impact_fuze_disabled = true,
-			is_multidelay = true,
-			is_vane_anim_required = true,
-			tdd_position = { 1.005, 0, 0 },
-			tdd_sigma = 10,
-			use_single_arm_delay = true
-		},
-		control = {
-			default_delay = 1.2,
-			default_open_height = 457
-		},
 		display_name_short = "CBU-99",
 		fm = {
 			I = 101.2986,
@@ -142,8 +142,8 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_99"] = {
 				username = "CBU-99"
 			} },
 		targeting_data = {
-			bomblet_char_time = 25.45,
-			char_time = 20.21
+			bomblet_char_time = 23.7,
+			char_time = 20.45
 		},
 		type = 5,
 		user_name = "CBU-99 - 490lbs, 247 x HEAT Bomblets",
@@ -172,7 +172,22 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_99"] = {
 	server = {
 		Ag = -1.23,
 		Cx = 0.000413,
+		ED = {
+			default_delay_mode = 0,
+			default_delay_sorting_mode = 0,
+			default_delays = { 6 },
+			is_impact_function_disabled = true,
+			is_multidelay = true,
+			trigger_after_arming = true
+		},
 		Reflection = 0.04,
+		SAD = {
+			is_vane_anim_required = true
+		},
+		TDD = {
+			altimeter_sigma = 10,
+			tdd_position = { 1.005, 0, 0 }
+		},
 		VyHold = -100,
 		_file = "./CoreMods/aircraft/AircraftWeaponPack/cluster_bombs.lua",
 		_origin = "AircraftWeaponPack",
@@ -186,21 +201,6 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_99"] = {
 		},
 		category = 1,
 		class_name = "wAmmunition",
-		container_fuze = {
-			default_arm_delays = { 1.1 },
-			default_delay_sorting_mode = 0,
-			default_func_delay_mode = 0,
-			is_impact_fuze_disabled = true,
-			is_multidelay = true,
-			is_vane_anim_required = true,
-			tdd_position = { 1.005, 0, 0 },
-			tdd_sigma = 10,
-			use_single_arm_delay = true
-		},
-		control = {
-			default_delay = 1.2,
-			default_open_height = 457
-		},
 		display_name_short = "CBU-99",
 		fm = {
 			I = 101.2986,
@@ -305,8 +305,8 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_99"] = {
 				username = "CBU-99"
 			} },
 		targeting_data = {
-			bomblet_char_time = 25.45,
-			char_time = 20.21
+			bomblet_char_time = 23.7,
+			char_time = 20.45
 		},
 		type = 5,
 		user_name = "CBU-99 - 490lbs, 247 x HEAT Bomblets",
@@ -328,8 +328,8 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_99"] = {
 	},
 	sounderName = "Weapons/Bomb",
 	targeting_data = {
-		bomblet_char_time = 25.45,
-		char_time = 20.21
+		bomblet_char_time = 23.7,
+		char_time = 20.45
 	},
 	type_name = "bomb",
 	ws_type = { 4, 5, 38, "Redacted" }

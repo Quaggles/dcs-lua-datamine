@@ -16,7 +16,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Waypoint_Custom_Panel = true,
 	_file = "./CoreMods/tech/Currenthill Assets Pack/Database/db_units_cars.lua",
 	_origin = "Currenthill Assets Pack",
-	animation_arguments = {},
+	animation_arguments = {
+		transportaionStateArgsAndVals = { {}, {} }
+	},
 	armour_scheme = {
 		hull_azimuth = { {}, {}, {} },
 		hull_elevation = { {}, {} },
@@ -71,8 +73,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			coeffs = { { 0.031, 0.0022, 3 }, { 0.0069, 0.0036, 4.8 }, { 0, 0 }, { 0.01, 0.0017 }, { 0.1, 0.0001 } }
 		},
 		agony_explosion_size = 5,
-		dirt_pos = { -3, 0.8, 1.25 },
-		dust_pos = { 3, 0.2, -1.25 },
+		dirt_pos = { -3.5, 0.8, -1.2 },
+		dust_pos = { 2.85, 0.2, -1.2 },
 		fire_pos = { 0, 2, 0 },
 		fire_size = 1.2,
 		fire_time = 600,

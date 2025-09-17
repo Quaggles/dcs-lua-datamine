@@ -249,7 +249,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	_origin = "WWII Armour and Technics",
 	airWeaponDist = 0,
 	animation_arguments = {
-		exterior_randomization = 60
+		exterior_randomization = 60,
+		transportaionStateArgsAndVals = { {}, {} }
 	},
 	armour_scheme = {
 		hull_azimuth = { { 0, 33.6, 1.8 }, { 33.6, 180, 0.5 } },

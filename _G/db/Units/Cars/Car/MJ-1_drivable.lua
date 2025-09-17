@@ -13,7 +13,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	_file = "./CoreMods/tech/Massun92-Asset Pack/Database/db_M92_MJ_1_drivable.lua",
 	_origin = "Massun92-Assetpack",
 	animation_arguments = {
-		headlights = 31
+		headlights = 31,
+		transportaionStateArgsAndVals = { {}, {} }
 	},
 	armour_scheme = {
 		hull_azimuth = { {} },

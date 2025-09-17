@@ -538,6 +538,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 						} },
 					createMuzzleFlashEffect = true,
 					fireAnimationArgument = 119,
+					frequencyRange = {},
 					sensor = {}
 				} },
 			angles = { { 0.17453292519943, 0, 0.1221730476396, 1.4835298641952 }, { 0, -2.6179938779915, -0.087266462599716, 1.4835298641952 }, { -2.6179938779915, 0.17453292519943, 0.33161255787892, 1.4835298641952 } },
@@ -577,6 +578,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 						} },
 					createMuzzleFlashEffect = true,
 					fireAnimationArgument = 121,
+					frequencyRange = {},
 					sensor = {}
 				} },
 			angles = { { -2.3561944901923, -2.4434609527921, -0.087266462599716, 0.78539816339745 }, { -2.4434609527921, 0.78539816339745, -0.087266462599716, 1.4835298641952 } },
@@ -593,7 +595,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 					beamWidth = 1.5707963267949,
 					distanceMax = 50000,
 					distanceMin = 400,
-					frequencyRange = { 500000000, 580000000 },
+					frequencyRange = { 8000000000, 12000000000 },
 					max_number_of_missiles_channels = 1,
 					max_trg_alt = 25000,
 					min_trg_alt = 5,
@@ -882,7 +884,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		},
 		maxTargetDetectionRange = 60000,
 		radar_type = 104,
-		searchRadarFrequencies = { { 2000000000, 4000000000 }, { 850000000, 942000000 } },
+		searchRadarFrequencies = { { 850000000, 942000000 }, { 2900000000, 3100000000 }, { 3500000000, 3700000000 }, { 8000000000, 10000000000 } },
 		searchRadarMaxElevation = 0.87266462599716
 	},
 	Waypoint_Custom_Panel = true,

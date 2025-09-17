@@ -85,7 +85,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			arg = 1013,
 			control = "comboList",
-			defValue = 9,
+			defValue = 6,
 			id = "F4U_CW_number_1",
 			label = "1st number",
 			values = { {
@@ -132,7 +132,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			arg = 1012,
 			control = "comboList",
-			defValue = 8,
+			defValue = 5,
 			id = "F4U_CW_number_2",
 			label = "2nd number",
 			values = { {
@@ -179,7 +179,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			arg = 1011,
 			control = "comboList",
-			defValue = 3,
+			defValue = 2,
 			id = "F4U_CW_number_3",
 			label = "3rd number",
 			values = { {
@@ -951,7 +951,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						visual_effect_correction_rebound = 0.1
 					} }
 			},
-			supply_position = { -1.2, 0, 0 }
+			supply_position = { -0.4, 0, 0 }
 		}, {
 			_file = "./CoreMods/aircraft/F4U-1D/F4U-1D.lua",
 			_origin = "F4U-1D AI by Magnitude 3 LLC",
@@ -1006,7 +1006,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				mixes = { { 2, 1, 4, 3, 2 }, { 3, 3, 3, 3, 4 }, { 2, 2, 4, 2, 2 }, { 3, 2, 2, 1, 1 } },
 				shells = { <table 2>, <table 4>, <table 6>, <table 8> }
 			},
-			supply_position = { -1.2, 0, 0 }
+			supply_position = { -0.4, 0, 0 }
 		}, {
 			_file = "./CoreMods/aircraft/F4U-1D/F4U-1D.lua",
 			_origin = "F4U-1D AI by Magnitude 3 LLC",
@@ -1061,7 +1061,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				mixes = { { 2, 2, 1, 4, 3 }, { 3, 3, 3, 3, 4 }, { 2, 2, 2, 4, 2 }, { 2, 2, 1, 2, 3 } },
 				shells = { <table 2>, <table 4>, <table 6>, <table 8> }
 			},
-			supply_position = { -1.2, 0, 0 }
+			supply_position = { -0.4, 0, 0 }
 		}, {
 			_file = "./CoreMods/aircraft/F4U-1D/F4U-1D.lua",
 			_origin = "F4U-1D AI by Magnitude 3 LLC",
@@ -1116,7 +1116,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				mixes = { { 4, 3, 2, 2, 1 }, { 3, 3, 3, 3, 4 }, { 4, 2, 2, 2, 2 }, { 1, 1, 2, 2, 3 } },
 				shells = { <table 2>, <table 4>, <table 6>, <table 8> }
 			},
-			supply_position = { -1.2, 0, 0 }
+			supply_position = { -0.4, 0, 0 }
 		}, {
 			_file = "./CoreMods/aircraft/F4U-1D/F4U-1D.lua",
 			_origin = "F4U-1D AI by Magnitude 3 LLC",
@@ -1171,7 +1171,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				mixes = { { 3, 2, 2, 1, 4 }, { 3, 3, 3, 3, 4 }, { 2, 2, 2, 2, 4 }, { 1, 3, 2, 2, 1 } },
 				shells = { <table 2>, <table 4>, <table 6>, <table 8> }
 			},
-			supply_position = { -1.2, 0, 0 }
+			supply_position = { -0.4, 0, 0 }
 		}, {
 			_file = "./CoreMods/aircraft/F4U-1D/F4U-1D.lua",
 			_origin = "F4U-1D AI by Magnitude 3 LLC",
@@ -1226,7 +1226,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				mixes = { { 1, 4, 3, 2, 2 }, { 3, 3, 3, 3, 4 }, { 1, 4, 2, 2, 2 }, { 3, 2, 2, 1, 1 } },
 				shells = { <table 2>, <table 4>, <table 6>, <table 8> }
 			},
-			supply_position = { -1.2, 0, 0 }
+			supply_position = { -0.4, 0, 0 }
 		} },
 	H_max = 11803,
 	HumanRadio = {

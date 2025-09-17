@@ -169,25 +169,26 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					secondary = true,
 					sensor = {}
 				} },
-			angles = { { 2.2689280275926, -2.2689280275926, -0.10471975511966, 0.24434609527921 }, { -2.2689280275926, 2.2689280275926, 0.087266462599716, 0.24434609527921 } },
+			angles = { { 3.1415926535898, 2.8797932657906, 0.10471975511966, 0.24434609527921 }, { 2.8797932657906, 2.3561944901923, -0.034906585039887, 0.24434609527921 }, { 2.3561944901923, -2.3561944901923, -0.069813170079773, 0.24434609527921 }, { -2.3561944901923, -2.8797932657906, -0.034906585039887, 0.24434609527921 }, { -2.8797932657906, -3.1415926535898, 0.10471975511966, 0.24434609527921 } },
+			canSetTacticalDir = true,
 			center = "CENTER_TOWER_01",
 			cockpit = { "SOSNA-U/SOSNA", { 0, 0, 0 } },
 			drawArgument1 = 0,
 			drawArgument2 = 1,
 			laser = true,
-			omegaY = 0.34906585039887,
+			omegaY = 0.69813170079773,
 			omegaZ = 0.20943951023932,
 			pidY = {
-				d = 15,
-				i = 1.5,
-				inn = 12,
-				p = 100
+				d = 22,
+				i = 10,
+				inn = 0.4,
+				p = 60
 			},
 			pidZ = {
-				d = 12,
-				i = 1.2,
-				inn = 10,
-				p = 90
+				d = 22,
+				i = 10,
+				inn = 0.4,
+				p = 60
 			},
 			pointer = "POINT_SIGHT_01",
 			stabilizer = true
@@ -242,30 +243,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			pointer = "POINT_SIGHT_02",
 			reference_angle_Z = 0.17453292519943,
 			stabilizer = true
-		}, {
-			LN = { {
-					distanceMax = 10000,
-					distanceMin = 0,
-					max_trg_alt = 5000,
-					min_trg_alt = 0,
-					reactionTime = 1
-				} },
-			angles = { { 3.1415926535898, -3.1415926535898, -0.26179938779915, 1.4835298641952 } },
-			base = 1,
-			center = "CENTER_TOWER_03",
-			drawArgument1 = 54,
-			drawArgument2 = 55,
-			pidY = {},
-			pidZ = {},
-			reference_angle_Y = 0,
-			reference_angle_Z = 0
-		}, {
-			LN = { {} },
-			angles = { {} },
-			base = 3,
-			pidY = {},
-			pidZ = {},
-			pos = {}
 		},
 		maxTargetDetectionRange = 8000,
 		smoke = { "POINT_SMOKE_01", "POINT_SMOKE_02", "POINT_SMOKE_03", "POINT_SMOKE_04", "POINT_SMOKE_05", "POINT_SMOKE_06", "POINT_SMOKE_07", "POINT_SMOKE_08", "POINT_SMOKE_09", "POINT_SMOKE_10", "POINT_SMOKE_11", "POINT_SMOKE_12" }
@@ -274,7 +251,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	_file = "./CoreMods/tech/Currenthill Assets Pack/Database/db_units_cars.lua",
 	_origin = "Currenthill Assets Pack",
 	airWeaponDist = 5000,
-	animation_arguments = {},
+	animation_arguments = {
+		transportaionStateArgsAndVals = { {}, {} }
+	},
 	armour_scheme = {
 		hull_azimuth = { {}, {}, {}, {} },
 		hull_elevation = { {}, {}, {}, {}, {} },
@@ -327,8 +306,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			coeffs = { { 0.02, 0.0012, 3 }, { 0.008, 0.002, 2.7 }, { 0.0024, 0.002 }, { 0.01, 0.0017 }, { 0.29, 0.00017058823529412 } }
 		},
 		agony_explosion_size = 5,
-		dirt_pos = { -2.5, 0.8, -1.41 },
-		dust_pos = { 2.6, 0.2, -1.41 },
+		dirt_pos = { -1.83, 0.8, -1.55 },
+		dust_pos = { 2.8, 0.2, -1.55 },
 		fire_pos = { 0, 1, 0 },
 		fire_size = 0.8,
 		fire_time = 720,

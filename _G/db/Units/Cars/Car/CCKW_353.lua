@@ -28,7 +28,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Waypoint_Custom_Panel = true,
 	_file = "./Mods/tech/WWII Units/Database/db_units_cars.lua",
 	_origin = "WWII Armour and Technics",
-	animation_arguments = {},
+	animation_arguments = {
+		transportaionStateArgsAndVals = { {}, {} }
+	},
 	armour_scheme = {
 		hull_azimuth = { {} },
 		hull_elevation = { {} },

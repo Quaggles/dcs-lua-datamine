@@ -10,6 +10,16 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_82Y"] = {
 		Ag = -1.23,
 		Cx = 0.00035,
 		Reflection = 0.035,
+		SAD = {
+			default_delays = { 4 },
+			is_vane_anim_required = true
+		},
+		TDD = {
+			altimeter_sigma = 0.9144,
+			tdd_position = { 1.04, 0, 0 },
+			tdd_vdiff_max = 426.72,
+			tdd_vdiff_min = 22.86
+		},
 		VyHold = -100,
 		_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
 		_origin = "AircraftWeaponPack",
@@ -92,6 +102,16 @@ _G["weapons_table"]["weapons"]["bombs"]["Mk_82Y"] = {
 		Ag = -1.23,
 		Cx = 0.00035,
 		Reflection = 0.035,
+		SAD = {
+			default_delays = { 4 },
+			is_vane_anim_required = true
+		},
+		TDD = {
+			altimeter_sigma = 0.9144,
+			tdd_position = { 1.04, 0, 0 },
+			tdd_vdiff_max = 426.72,
+			tdd_vdiff_min = 22.86
+		},
 		VyHold = -100,
 		_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",
 		_origin = "AircraftWeaponPack",

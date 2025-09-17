@@ -625,6 +625,9 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				["MiG-21bis"] = {
 					enable_options_key_for_unit = "mig21bis_enabled"
 				},
+				["MiG-29 Fulcrum"] = {
+					enable_options_key_for_unit = "mig29fulcrum_common_enabled"
+				},
 				["MiG-29A"] = {
 					enable_options_key_for_unit = "mig29a_enabled"
 				},

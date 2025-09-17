@@ -56,7 +56,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	airWeaponDist = 0,
 	animation_arguments = {
 		pitch_k = 0.7,
-		roll_k = 0.7
+		roll_k = 0.7,
+		transportaionStateArgsAndVals = { {}, {} }
 	},
 	armour_scheme = {
 		hull_azimuth = { {} },

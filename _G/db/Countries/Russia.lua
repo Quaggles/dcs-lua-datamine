@@ -832,6 +832,14 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "ZSU_57_2"
 				}, {
+					Name = "GPS_Spoofer_Red"
+				}, {
+					Name = "rsbn_beacon"
+				}, {
+					Name = "prmg_gp_beacon"
+				}, {
+					Name = "prmg_loc_beacon"
+				}, {
 					Name = "ES44AH"
 				}, {
 					Name = "Boxcartrinity"
@@ -1721,6 +1729,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "MiG-19P"
 				}, {
 					Name = "MiG-21Bis"
+				}, {
+					Name = "MiG-29 Fulcrum"
 				}, {
 					Name = "Mirage-F1CE"
 				}, {

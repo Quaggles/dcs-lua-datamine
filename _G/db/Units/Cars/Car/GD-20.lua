@@ -53,7 +53,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Waypoint_Custom_Panel = true,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Tech/gd20.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
-	animation_arguments = {},
+	animation_arguments = {
+		transportaionStateArgsAndVals = { {}, {} }
+	},
 	armour_scheme = {
 		hull_azimuth = { {} },
 		hull_elevation = { {} },

@@ -1046,7 +1046,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			wing_tip_pos = { -12, -1, 25.02 }
 		}
 	},
-	air_refuel_receptacle_pos = { 20.14, 1.73, 0 },
+	air_refuel_receptacle_pos = { 20.28, 1.04, 0 },
 	attribute = { 1, 1, 2, "Redacted", "Strategic bombers", "Datalink", "Refuelable", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes", "Bombers" },
 	average_fuel_consumption = 0.2,
 	bank_angle_max = 45,

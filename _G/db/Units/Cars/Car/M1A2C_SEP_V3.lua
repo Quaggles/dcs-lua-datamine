@@ -279,7 +279,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	_origin = "HeavyMetalCore",
 	airWeaponDist = 1200,
 	animation_arguments = {
-		alarm_state = 4
+		alarm_state = 4,
+		transportaionStateArgsAndVals = { {}, {} }
 	},
 	armour_scheme = {
 		hull_azimuth = { {}, {}, {}, {} },

@@ -438,6 +438,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "LARC-V"
 				}, {
+					Name = "GPS_Spoofer_Blue"
+				}, {
 					Name = "Land_Rover_101_FC"
 				}, {
 					Name = "Land_Rover_109_S3"
@@ -1245,6 +1247,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "MiG-19P"
 				}, {
 					Name = "MiG-21Bis"
+				}, {
+					Name = "MiG-29 Fulcrum"
 				}, {
 					Name = "Mirage-F1CE"
 				}, {

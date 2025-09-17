@@ -137,6 +137,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	ThreatRange = 2000,
 	WS = { {
 			LN = { {
+					frequencyRange = {},
 					min_trg_alt = 4
 				} },
 			angles = { {} },
@@ -147,6 +148,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			pos = { 0, 13.5, 0 }
 		}, {
 			LN = { {
+					frequencyRange = {},
 					min_trg_alt = 4
 				} },
 			angles = { {} },
@@ -363,7 +365,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		},
 		maxTargetDetectionRange = 120000,
 		radar_type = 104,
-		searchRadarFrequencies = { { 2000000000, 3000000000 }, { 8000000000, 12000000000 } },
+		searchRadarFrequencies = { { 8000000000, 12000000000 }, { 8500000000, 11500000000 }, { 9400000000, 9460000000 } },
 		searchRadarMaxElevation = 0.69813170079773
 	},
 	Waypoint_Custom_Panel = true,

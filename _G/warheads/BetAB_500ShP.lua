@@ -1,12 +1,12 @@
 _G["warheads"]["BetAB_500ShP"] = {
 	caliber = 325,
-	concrete_factors = { 8, 1, 5 },
-	concrete_obj_factor = 10,
+	concrete_factors = { 12, 1.5, 7.5 },
+	concrete_obj_factor = 15,
 	cumulative_factor = 0,
 	cumulative_thickness = 0,
-	expl_mass = 200,
-	mass = 200,
-	obj_factors = { 1, 1, 1 },
-	other_factors = { 0.5, 0.5, 1 },
-	piercing_mass = 40
+	expl_mass = 77,
+	mass = 244.4,
+	obj_factors = { 1.5, 1.5 },
+	other_factors = { 1.5, 1.5, 1.5 },
+	piercing_mass = 48.88
 }

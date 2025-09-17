@@ -101,7 +101,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	ZOffsetMax = 2,
 	ZOffsetTimeRange = { 10, 20 },
 	airWeaponDist = 2500,
-	animation_arguments = {},
+	animation_arguments = {
+		transportaionStateArgsAndVals = { {}, {} }
+	},
 	armour_scheme = {
 		hull_azimuth = { { 0, 30, 1.1 }, { 30, 150, 1 }, { 150, 180, 1 } },
 		hull_elevation = { { -90, 45, 1 }, { 45, 90, 0.6 } },

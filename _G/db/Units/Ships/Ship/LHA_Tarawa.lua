@@ -350,6 +350,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 						} },
 					createMuzzleFlashEffect = true,
 					fireAnimationArgument = 119,
+					frequencyRange = {},
 					sensor = {}
 				} },
 			angles = { { 1.5707963267949, -2.7925268031909, -0.087266462599716, 1.3962634015955 } },
@@ -388,6 +389,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 						} },
 					createMuzzleFlashEffect = true,
 					fireAnimationArgument = 120,
+					frequencyRange = {},
 					sensor = {}
 				} },
 			angles = { { -2.3561944901923, 0.78539816339745, -0.087266462599716, 1.3962634015955 } },

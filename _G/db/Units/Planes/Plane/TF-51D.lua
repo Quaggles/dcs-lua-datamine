@@ -1072,6 +1072,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				["MiG-21bis"] = {
 					enable_options_key_for_unit = "mig21bis_enabled"
 				},
+				["MiG-29 Fulcrum"] = {
+					enable_options_key_for_unit = "mig29fulcrum_common_enabled"
+				},
 				["MiG-29A"] = {
 					enable_options_key_for_unit = "mig29a_enabled"
 				},
@@ -1376,7 +1379,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	country_of_origin = "USA",
 	crew_members = { {
 			canopy_pos = { 0, 0, 0 },
-			drop_canopy_name = 345,
+			drop_canopy_name = 348,
 			drop_parachute_name = "pilot_p51_parachute",
 			ejection_seat_name = 0,
 			pilot_name = 56,

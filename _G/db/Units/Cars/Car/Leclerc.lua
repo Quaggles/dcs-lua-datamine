@@ -86,7 +86,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	Waypoint_Custom_Panel = true,
 	airWeaponDist = 1500,
-	animation_arguments = {},
+	animation_arguments = {
+		transportaionStateArgsAndVals = { {}, {} }
+	},
 	armour_scheme = {
 		hull_azimuth = { {}, {}, {}, {} },
 		hull_elevation = { {}, {}, {}, {}, {} },

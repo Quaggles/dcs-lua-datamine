@@ -2,10 +2,10 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["CHAP_57E6"] = {
 	BR = { {
 			pos = { 0, 0, 0 }
 		} },
-	ECM_K = 0.5,
+	ECM_K = 0.4,
 	PL = { {
-			ammo_capacity = 6,
-			portionAmmoCapacity = 6,
+			ammo_capacity = 12,
+			portionAmmoCapacity = 12,
 			reload_time = 900,
 			switch_on_delay = 900,
 			type_ammunition = "weapons.missiles.SA57E6"

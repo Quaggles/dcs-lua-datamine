@@ -82,7 +82,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		}, {
 			area_name = "GUN",
 			armour = {
-				width = 0.1
+				width = 0.01
 			}
 		} },
 	DetectionRange = 0,
@@ -203,7 +203,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Waypoint_Custom_Panel = true,
 	_file = "./CoreMods/tech/Currenthill Assets Pack/Database/db_units_cars.lua",
 	_origin = "Currenthill Assets Pack",
-	animation_arguments = {},
+	animation_arguments = {
+		transportaionStateArgsAndVals = { {}, {} }
+	},
 	armour_scheme = {
 		hull_azimuth = { {}, {}, {}, {} },
 		hull_elevation = { {}, {}, {}, {}, {} },
@@ -222,6 +224,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		offset = { 0, 0, 0 }
 	},
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = { 0.25 }
+	},
 	mapclasskey = "P0091000208",
 	sensor = {
 		height = 3.4
@@ -256,8 +261,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			coeffs = { { 0.02, 0.0012, 3 }, { 0.008, 0.002, 2.7 }, { 0.07, 0.002 }, { 0.01, 0.0017 }, { 0.3, 0.00015 } }
 		},
 		agony_explosion_size = 5,
-		dirt_pos = { -1.8, 0.6, -1.4 },
-		dust_pos = { 1.8, 0, -1.4 },
+		dirt_pos = { -2, 0.6, -1.6 },
+		dust_pos = { 2.48, 0, -1.6 },
 		fire_pos = { 0.5, 1.5, 0 },
 		fire_size = 1.5,
 		fire_time = 1200,

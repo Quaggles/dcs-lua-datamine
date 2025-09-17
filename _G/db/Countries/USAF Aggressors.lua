@@ -1906,6 +1906,22 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "GPS_Spoofer_Red",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "rsbn_beacon",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "prmg_gp_beacon",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "prmg_loc_beacon",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Bedford_MWD",
 					in_service = 0,
 					out_of_service = 40000
@@ -2459,6 +2475,10 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "leopard-2A4_trs",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "GPS_Spoofer_Blue",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -3481,6 +3501,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "MiG-19P"
 				}, {
 					Name = "MiG-21Bis"
+				}, {
+					Name = "MiG-29 Fulcrum"
 				}, {
 					Name = "Mirage-F1CE"
 				}, {

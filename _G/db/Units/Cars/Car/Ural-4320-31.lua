@@ -17,7 +17,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Rate = 7,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,
-	animation_arguments = {},
+	animation_arguments = {
+		transportaionStateArgsAndVals = { {}, {} }
+	},
 	armour_scheme = {
 		hull_azimuth = { { 0, 45, 1 }, { 45, 180, 0 } },
 		hull_elevation = { { -90, 60, 1 }, { 60, 90, 0 } },

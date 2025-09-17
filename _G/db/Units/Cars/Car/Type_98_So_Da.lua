@@ -82,7 +82,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			[62] = 1,
 			[63] = 2,
 			[64] = 2
-		}
+		},
+		transportaionStateArgsAndVals = { {}, {} }
 	},
 	armour_scheme = {
 		hull_azimuth = { {}, {}, {} },

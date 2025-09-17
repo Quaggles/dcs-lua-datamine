@@ -141,7 +141,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	animation_arguments = {
 		headlights = 31,
 		markerlights = 32,
-		stoplights = 30
+		stoplights = 30,
+		transportaionStateArgsAndVals = { {}, {} }
 	},
 	armour_scheme = {
 		hull_azimuth = { {}, {}, {} },

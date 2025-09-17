@@ -121,7 +121,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Waypoint_Custom_Panel = true,
 	airWeaponDist = 1000,
 	animation_arguments = {
-		crew_presence = 50
+		crew_presence = 50,
+		transportaionStateArgsAndVals = { {}, {} }
 	},
 	armour_scheme = {
 		hull_azimuth = { {}, {}, {} },

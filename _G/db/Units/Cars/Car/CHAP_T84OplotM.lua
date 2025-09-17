@@ -252,7 +252,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	_file = "./CoreMods/tech/Currenthill Assets Pack/Database/db_units_cars.lua",
 	_origin = "Currenthill Assets Pack",
 	airWeaponDist = 5000,
-	animation_arguments = {},
+	animation_arguments = {
+		transportaionStateArgsAndVals = { {}, {} }
+	},
 	armour_scheme = {
 		hull_azimuth = { {}, {}, {}, {} },
 		hull_elevation = { {}, {}, {}, {}, {} },
@@ -304,8 +306,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		IR = {
 			coeffs = { { 0.02, 0.0012, 3 }, { 0.008, 0.002, 2.7 }, { 0.0024, 0.002 }, { 0.01, 0.0017 }, { 0.25, 0.00013888888888889 } }
 		},
-		dirt_pos = { -1.885, 0.6, -1.5 },
-		dust_pos = { 1.885, 0, -1.5 },
+		dirt_pos = { -1.8, 0.6, -1.73 },
+		dust_pos = { 2.57, 0, -1.73 },
 		fire_pos = { 0, 0.9, 0 },
 		fire_size = 0.75,
 		fire_time = 600,

@@ -309,6 +309,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							shell_name = {}
 						} },
 					fireAnimationArgument = 119,
+					frequencyRange = {},
 					sensor = {}
 				} },
 			angles = { { -0.34906585039887, 0.34906585039887 } },
@@ -320,14 +321,18 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			pidZ = {},
 			reference_angle_Y = -3.1415926535898
 		}, {
-			LN = { {} },
+			LN = { {
+					frequencyRange = { 8000000000, 10000000000 }
+				} },
 			angles = { {} },
 			area = "KABINA",
 			pidY = {},
 			pidZ = {},
 			pos = { 24, 20, 0 }
 		}, {
-			LN = { {} },
+			LN = { {
+					frequencyRange = { 8100000000, 10100000000 }
+				} },
 			angles = { {} },
 			area = "KABINA",
 			base = 8,
@@ -410,7 +415,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		},
 		maxTargetDetectionRange = 120000,
 		radar_type = 102,
-		searchRadarFrequencies = { { 850000000, 942000000 }, { 10250000000, 10500000000 } },
+		searchRadarFrequencies = { { 850000000, 942000000 }, { 9050000000, 10000000000 }, { 8000000000, 10000000000 } },
 		searchRadarMaxElevation = 0.69813170079773
 	},
 	Waypoint_Custom_Panel = true,
@@ -455,8 +460,9 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	numParking = 1,
 	race_distance = 2778000,
 	race_velocity = 14.9189,
-	radar1_period = 3,
-	radar2_period = 1,
+	radar1_period = 5,
+	radar2_period = 2,
+	radar3_period = 3.75,
 	sensor = {
 		max_alt_finding_target = 15000,
 		max_range_finding_target = 150000,

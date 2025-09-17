@@ -1044,6 +1044,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							type_ammunition = {}
 						} },
 					connectorFire = false,
+					frequencyRange = { 4000000000, 8000000000 },
 					reactionTime = 3,
 					sensor = {}
 				} },
@@ -1063,6 +1064,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							type_ammunition = {}
 						} },
 					connectorFire = false,
+					frequencyRange = { 4000000000, 8000000000 },
 					reactionTime = 3,
 					sensor = {}
 				} },
@@ -1082,6 +1084,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							type_ammunition = {}
 						} },
 					connectorFire = false,
+					frequencyRange = { 4000000000, 8000000000 },
 					reactionTime = 3,
 					sensor = {}
 				} },
@@ -1102,6 +1105,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							type_ammunition = {}
 						} },
 					connectorFire = false,
+					frequencyRange = { 4000000000, 8000000000 },
 					reactionTime = 3,
 					sensor = {}
 				} },
@@ -1210,7 +1214,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		},
 		maxTargetDetectionRange = 550000,
 		radar_type = 104,
-		searchRadarFrequencies = { { 2000000000, 3000000000 }, { 8000000000, 12000000000 } },
+		searchRadarFrequencies = { { 1000000000, 2000000000 }, { 2000000000, 3000000000 }, { 8000000000, 12000000000 }, { 3000000000, 4000000000 }, { 9400000000, 9460000000 }, { 3825000000, 3980000000 } },
 		searchRadarMaxElevation = 0.87266462599716
 	},
 	Waypoint_Custom_Panel = true,

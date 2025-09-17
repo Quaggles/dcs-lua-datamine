@@ -10,6 +10,9 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M30A1"] = {
 		Ag = -1.23,
 		Cx = 0.00025,
 		Reflection = 0.01,
+		SAD = {
+			vane_rev_threshold = { 160, 160 }
+		},
 		VyHold = -100,
 		_file = "./CoreMods/WWII Units/Weapons/Weapons.lua",
 		_origin = "World War II AI Units by Eagle Dynamics",
@@ -34,10 +37,6 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M30A1"] = {
 			release_rnd = 0.3,
 			release_rnd_x = 1,
 			wind_sigma = 30
-		},
-		fuze = {
-			is_vane_sim_required = true,
-			vane_rev_threshold = 160
 		},
 		hMax = 12000,
 		hMin = 300,
@@ -84,6 +83,9 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M30A1"] = {
 		Ag = -1.23,
 		Cx = 0.00025,
 		Reflection = 0.01,
+		SAD = {
+			vane_rev_threshold = { 160, 160 }
+		},
 		VyHold = -100,
 		_file = "./CoreMods/WWII Units/Weapons/Weapons.lua",
 		_origin = "World War II AI Units by Eagle Dynamics",
@@ -108,10 +110,6 @@ _G["weapons_table"]["weapons"]["bombs"]["AN_M30A1"] = {
 			release_rnd = 0.3,
 			release_rnd_x = 1,
 			wind_sigma = 30
-		},
-		fuze = {
-			is_vane_sim_required = true,
-			vane_rev_threshold = 160
 		},
 		hMax = 12000,
 		hMin = 300,

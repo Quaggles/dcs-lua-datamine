@@ -1232,6 +1232,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "MiG-21Bis"
 				}, {
+					Name = "MiG-29 Fulcrum"
+				}, {
 					Name = "Mirage-F1CE"
 				}, {
 					Name = "Mirage-F1EE"
