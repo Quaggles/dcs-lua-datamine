@@ -2726,7 +2726,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			role_display_name = "Pilot"
 		} },
 	datalinks = {
-		SADL = "CoreMods\\aircraft\\A-10\\Datalinks\\SADL.lua"
+		SADL = "Datalinks\\SADL.lua"
 	},
 	detection_range_max = 0,
 	effects_presets = { {

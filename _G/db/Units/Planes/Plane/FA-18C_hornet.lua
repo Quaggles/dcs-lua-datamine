@@ -2689,7 +2689,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			skeleton_crew_unit_name = "Crew FA-18C"
 		} },
 	datalinks = {
-		Link16 = "CoreMods\\aircraft\\FA-18C\\Datalinks\\Link16.lua"
+		Link16 = "Datalinks\\Link16.lua"
 	},
 	detection_range_max = 160,
 	effects_presets = { {

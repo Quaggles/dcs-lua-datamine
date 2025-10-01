@@ -2176,7 +2176,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			role_display_name = "Pilot"
 		} },
 	datalinks = {
-		Link16 = "CoreMods\\aircraft\\F-16C\\Datalinks\\Link16.lua"
+		Link16 = "Datalinks\\Link16.lua"
 	},
 	detection_range_max = 160,
 	effects_presets = { {

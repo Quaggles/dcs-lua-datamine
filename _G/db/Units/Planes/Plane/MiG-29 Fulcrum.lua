@@ -55,7 +55,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			arg = 649,
 			control = "checkbox",
-			defValue = false,
+			defValue = true,
 			id = "NS430allow",
 			label = "Allow NS 430"
 		}, {
@@ -231,13 +231,23 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 2,
 			deps_cells = { 40, 54 }
 		},
+		[49] = {
+			args = { 239 },
+			critical_damage = 2
+		},
+		[50] = {
+			args = { 237 },
+			critical_damage = 2
+		},
 		[51] = {
 			args = { 240 },
-			critical_damage = 2
+			critical_damage = 2,
+			deps_cells = { 49 }
 		},
 		[52] = {
 			args = { 238 },
-			critical_damage = 2
+			critical_damage = 2,
+			deps_cells = { 50 }
 		},
 		[53] = {
 			args = { 248 },

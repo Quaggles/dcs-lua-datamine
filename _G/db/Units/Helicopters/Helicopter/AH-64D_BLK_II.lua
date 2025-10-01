@@ -2009,7 +2009,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	crew_size = 2,
 	crew_stations = "HumanOrchestra",
 	datalinks = {
-		IDM = "CoreMods\\aircraft\\AH-64D\\Datalinks\\IDM.lua"
+		IDM = "Datalinks\\IDM.lua"
 	},
 	detection_range_max = 0,
 	doors_movement = 2,

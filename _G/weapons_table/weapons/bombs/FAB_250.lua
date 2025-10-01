@@ -6,14 +6,14 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB_250"] = {
 	caliber = 0.325,
 	client = {
 		ED = {
-			default_delays = { 0.075 },
+			default_delays = { 0 },
 			is_time_sigma_relative = true,
 			safety_availability_delay = 1.45,
 			time_sigma = 0.066666666666667
 		},
 		Reflection = 0.02,
 		SAD = {
-			default_delays = { 11.5 },
+			default_delays = { 4.5 },
 			is_time_sigma_relative = true,
 			time_sigma = 0.073333333333333
 		},
@@ -66,14 +66,14 @@ _G["weapons_table"]["weapons"]["bombs"]["FAB_250"] = {
 	name = "FAB_250",
 	server = {
 		ED = {
-			default_delays = { 0.075 },
+			default_delays = { 0 },
 			is_time_sigma_relative = true,
 			safety_availability_delay = 1.45,
 			time_sigma = 0.066666666666667
 		},
 		Reflection = 0.02,
 		SAD = {
-			default_delays = { 11.5 },
+			default_delays = { 4.5 },
 			is_time_sigma_relative = true,
 			time_sigma = 0.073333333333333
 		},
