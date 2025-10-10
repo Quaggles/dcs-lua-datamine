@@ -1,0 +1,23 @@
+_G["db"]["Units"]["GT_t"]["CH_t"]["STRYKER"] = {
+	X_gear_1 = 2.147,
+	X_gear_2 = -2.185,
+	Y_gear_1 = 0,
+	Y_gear_2 = 0,
+	Z_gear_1 = 1.092,
+	Z_gear_2 = 1.092,
+	armour_thickness = 0.044,
+	engine_power = 350,
+	fordingDepth = 1.2,
+	gear_type = 1,
+	length = 7,
+	life = 4,
+	mass = 17237,
+	max_acceleration = 4,
+	max_road_velocity = 26.9,
+	max_slope = 0.47,
+	max_vert_obstacle = 0.5,
+	min_turn_radius = 7,
+	r_max = 0.58,
+	trace_width = 0.25,
+	width = 2.6
+}

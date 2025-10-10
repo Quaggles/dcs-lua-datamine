@@ -1,0 +1,23 @@
+_G["db"]["Units"]["GT_t"]["CH_t"]["ZIL131"] = {
+	X_gear_1 = 2.411,
+	X_gear_2 = -2.549,
+	Y_gear_1 = 0,
+	Y_gear_2 = 0,
+	Z_gear_1 = 1.04,
+	Z_gear_2 = 1.04,
+	armour_thickness = 0.001,
+	engine_power = 150,
+	fordingDepth = 0.9,
+	gear_type = 1,
+	length = 7.6,
+	life = 2,
+	mass = 15000,
+	max_acceleration = 0.925926,
+	max_road_velocity = 20.8333,
+	max_slope = 0.47,
+	max_vert_obstacle = 0.6,
+	min_turn_radius = 10.5,
+	r_max = 0.52,
+	trace_width = 0.242,
+	width = 2.5
+}

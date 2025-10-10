@@ -1,0 +1,23 @@
+_G["db"]["Units"]["GT_t"]["CH_t"]["CCKW_353"] = {
+	X_gear_1 = 2.5,
+	X_gear_2 = -1.6,
+	Y_gear_1 = 0,
+	Y_gear_2 = 0,
+	Z_gear_1 = 0.72,
+	Z_gear_2 = 0.83,
+	armour_thickness = 0,
+	engine_power = 68,
+	fordingDepth = 0.5,
+	gear_type = 1,
+	length = 6.5,
+	life = 3,
+	mass = 5100,
+	max_acceleration = 0.925926,
+	max_road_velocity = 20,
+	max_slope = 0.47,
+	max_vert_obstacle = 0.4,
+	min_turn_radius = 10,
+	r_max = 0.46,
+	trace_width = 0.175,
+	width = 2.18
+}

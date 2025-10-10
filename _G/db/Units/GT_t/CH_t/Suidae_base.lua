@@ -1,0 +1,22 @@
+_G["db"]["Units"]["GT_t"]["CH_t"]["Suidae_base"] = {
+	X_gear_1 = 0.086,
+	X_gear_2 = -0.608,
+	Y_gear_1 = 0,
+	Y_gear_2 = 0,
+	Z_gear_1 = 0.8,
+	Z_gear_2 = 0.8,
+	armour_thickness = 0.0005,
+	engine_power = 64,
+	fordingDepth = 0.2,
+	gear_type = 1,
+	length = 1,
+	life = 1.2,
+	mass = 100,
+	max_acceleration = 10,
+	max_road_velocity = 5,
+	max_slope = 0.8,
+	max_vert_obstacle = 1,
+	min_turn_radius = 1,
+	r_max = 0.46,
+	width = 0.5
+}

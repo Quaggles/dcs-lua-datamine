@@ -1,0 +1,23 @@
+_G["db"]["Units"]["GT_t"]["CH_t"]["FIELD_ARTILLERY"] = {
+	X_gear_1 = 0.2,
+	X_gear_2 = -0.2,
+	Y_gear_1 = 0,
+	Y_gear_2 = 0,
+	Z_gear_1 = 1,
+	Z_gear_2 = 1,
+	armour_thickness = 0.001,
+	engine_power = 1,
+	gear_type = 1,
+	length = 5,
+	life = 2,
+	mass = 5000,
+	max_acceleration = 0,
+	max_road_velocity = 1,
+	max_slope = 0,
+	max_vert_obstacle = 0.1,
+	min_turn_radius = 0,
+	r_max = 0.4,
+	r_track = 0,
+	rotation_speed = 0.26,
+	width = 3
+}

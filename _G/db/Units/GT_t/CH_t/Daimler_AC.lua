@@ -1,0 +1,23 @@
+_G["db"]["Units"]["GT_t"]["CH_t"]["Daimler_AC"] = {
+	X_gear_1 = 1.2,
+	X_gear_2 = -1.31,
+	Y_gear_1 = 0,
+	Y_gear_2 = 0,
+	Z_gear_1 = 1,
+	Z_gear_2 = 1,
+	armour_thickness = 0.008,
+	engine_power = 71,
+	fordingDepth = 1,
+	gear_type = 1,
+	length = 4,
+	life = 4,
+	mass = 7600,
+	max_acceleration = 1.6,
+	max_road_velocity = 22.22,
+	max_slope = 0.47,
+	max_vert_obstacle = 0.4,
+	min_turn_radius = 7.2,
+	r_max = 0.5,
+	trace_width = 0.28,
+	width = 2.2
+}

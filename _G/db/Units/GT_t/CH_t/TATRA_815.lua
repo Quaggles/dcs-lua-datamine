@@ -1,0 +1,23 @@
+_G["db"]["Units"]["GT_t"]["CH_t"]["TATRA_815"] = {
+	X_gear_1 = 2.7,
+	X_gear_2 = -3.2,
+	Y_gear_1 = 0,
+	Y_gear_2 = 0,
+	Z_gear_1 = 1.04,
+	Z_gear_2 = 1.04,
+	armour_thickness = 0.005,
+	engine_power = 253.7,
+	fordingDepth = 1.2,
+	gear_type = 1,
+	length = 10.156,
+	life = 3,
+	mass = 29250,
+	max_acceleration = 0.925926,
+	max_road_velocity = 22.22,
+	max_slope = 0.2,
+	max_vert_obstacle = 0.4,
+	min_turn_radius = 23,
+	r_max = 0.72,
+	trace_width = 0.357,
+	width = 3
+}

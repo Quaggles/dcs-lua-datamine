@@ -1,0 +1,23 @@
+_G["db"]["Units"]["GT_t"]["CH_t"]["KrAZ_258B1"] = {
+	X_gear_1 = 2.7,
+	X_gear_2 = -2.78,
+	Y_gear_1 = 0,
+	Y_gear_2 = 0,
+	Z_gear_1 = 1.28,
+	Z_gear_2 = 1.28,
+	armour_thickness = 0.001,
+	engine_power = 179,
+	fordingDepth = 0.8,
+	gear_type = 1,
+	length = 8.19,
+	life = 3,
+	mass = 9000,
+	max_acceleration = 1,
+	max_road_velocity = 16.66,
+	max_slope = 0.314,
+	max_vert_obstacle = 0.3,
+	min_turn_radius = 13,
+	r_max = 0.51,
+	trace_width = 0.27,
+	width = 2.64
+}

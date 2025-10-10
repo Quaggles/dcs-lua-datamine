@@ -1,0 +1,23 @@
+_G["db"]["Units"]["GT_t"]["CH_t"]["COBRA"] = {
+	X_gear_1 = 1.9,
+	X_gear_2 = -1.65,
+	Y_gear_1 = 0,
+	Y_gear_2 = 0,
+	Z_gear_1 = 0.9,
+	Z_gear_2 = 0.9,
+	armour_thickness = 0.01,
+	engine_power = 190,
+	fordingDepth = 1.9,
+	gear_type = 1,
+	length = 5.23,
+	life = 2.8,
+	mass = 6200,
+	max_acceleration = 1.1,
+	max_road_velocity = 32,
+	max_slope = 0.47,
+	max_vert_obstacle = 0.32,
+	min_turn_radius = 8.5,
+	r_max = 0.5,
+	trace_width = 0.262,
+	width = 2.22
+}

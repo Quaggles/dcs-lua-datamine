@@ -41,22 +41,27 @@ local function Run()
 	-- Key = _G key to a lua table
 	-- Value = the property to be found on the tables within <Key>
 	local writeRecursive = {
-		["rockets"] = {"name"},
-		["bombs"] = {"name"},
-		["weapons_table"] = {"name"},
-		["warheads"] = {"expl_mass"},
-		["torpedoes"] = {"name"},
-		["U"] = {"name"},
-		["launcher"] = {"CLSID"},
-		["Pylons"] = {"name"},
-		["db.Pods"] = "DisplayName",
-		["db.Sensors"] = "Name",
-		["db.Countries"] = "Name",
-		["db.Units"] = "type",
-		["db.Formations"] = "Name",
-		["db.Seasons"] = "Name",
+		["rockets"] = { keysForFileName = "name"},
+		["bombs"] = { keysForFileName = "name"},
+		["weapons_table"] = { keysForFileName = "name"},
+		["warheads"] = { keysForFileName = "expl_mass"},
+		["torpedoes"] = { keysForFileName = "name"},
+		["U"] = { keysForFileName = "name"},
+		["launcher"] = { keysForFileName = "CLSID"},
+		["Pylons"] = { keysForFileName = "name"},
+		["db.Pods"] = { keysForFileName = "DisplayName"},
+		["db.Sensors"] = { keysForFileName = "Name"},
+		["db.Countries"] = { keysForFileName = "Name"},
+		["db.Formations"] = { keysForFileName = "Name"},
+		["db.Seasons"] = { keysForFileName = "Name"},
+		["db.Units"] = { keysForFileName = "type", excludeKeys = "GT_t" },
 	}
 	local writeShallow = {
+		["db.Units.GT_t.CH_t"] = { },
+		["db.Units.GT_t.LN_t"] = { },
+		["db.Units.GT_t.SS_t"] = { },
+		["db.Units.GT_t.WSN_t"] = { },
+		["db.Units.GT_t.WS_t"] = { },
 	}
 
 	-- These keys will not be traversed
@@ -128,8 +133,15 @@ local function Run()
 		return false
 	end
 
-	local function tableContainsValue(table, value)
+	local function tablePairsContainsValue(table, value)
 		for k, v in pairs(table) do
+			if v == value then return true end
+		end
+		return false
+	end
+
+	local function tableiPairsContainsValue(table, value)
+		for i, v in ipairs(table) do
 			if v == value then return true end
 		end
 		return false
@@ -176,7 +188,7 @@ local function Run()
 	local function ToLuaPath(pathTable, key)
 		local pathTableCopy = FromTSV(pathTable)
 		for k, v in pairs(pathTableCopy) do
-			if tableContainsValue(ignoreKeys, v) then
+			if tablePairsContainsValue(ignoreKeys, v) then
 				pathTableCopy[k] = tostring(v)
 			else
 				pathTableCopy[k] = "[\""..tostring(v).."\"]"
@@ -444,8 +456,8 @@ local function Run()
 	-- 		if the <tablePropertyFilters> field is a string use that as the filename, otherwise use the key of the parent table as the filename
 	-- <depthLimit> How deep to recurse though the table
 	-- <depth> Current depth
-	local function DumpRecurse(table, pathTable, tablePropertyFilters, recurse, depthLimit, depth)
-		if not recurse then recurse = true end
+	local function DumpRecurse(table, pathTable, tablePropertyFilters, excludeKeys, recurse, depthLimit, depth)
+		if recurse == nil then recurse = true end
 		if not forceKeyAsFilename then forceKeyAsFilename = false end
 		if not depthLimit then depthLimit = math.huge end
 		if not depth then depth = 0 end
@@ -453,21 +465,27 @@ local function Run()
 		if not table then return end
 		if not pathTable then pathTable = "_G" end
 		if type(tablePropertyFilters) ~= "table" then tablePropertyFilters = {tablePropertyFilters} end
+		if type(excludeKeys) ~= "table" then excludeKeys = {excludeKeys} end
 
 		for key, value in pairs(table) do
-			-- Only continue if value is a table
-			if type(value) == "table" and not tableContainsValue(ignoreKeys, key) then
-				-- Loop through the <tablePropertyFilters> in order, break once the first valid one is found
-				for _, property in pairs(tablePropertyFilters) do
-					-- If the <tablePropertyFilters> is there then output
-					if value[property] ~= nil and tableLength(value) > 0 then
-						local filename = value[property]
-						if filename == nil or type(filename) ~= "string" or filename == "" then filename = key end
-						OutputTable(key, value, tostring(filename..".lua"), pathTable)
-						break
-					else
-						if recurse then
-							DumpRecurse(value, pathTable..sepChar..tostring(key), tablePropertyFilters, recurse, depthLimit, depth + 1);
+			if recurse == false then
+				OutputTable(key, value, tostring(key..".lua"), pathTable)
+			else
+				-- Only continue if value is a table
+				if type(value) == "table" and not tableiPairsContainsValue(ignoreKeys, key) then
+					-- Only continue if this key wasn't ignored
+					if depth > 0 or excludeKeys == nil or not tablePairsContainsValue(excludeKeys, key) then
+						-- Loop through the <tablePropertyFilters> in order, break once the first valid one is found
+						for _, property in pairs(tablePropertyFilters) do
+							-- If the <tablePropertyFilters> is there then output
+							if value[property] ~= nil and tableLength(value) > 0 then
+								local filename = value[property]
+								if filename == nil or type(filename) ~= "string" or filename == "" then filename = key end
+								OutputTable(key, value, tostring(filename..".lua"), pathTable)
+								break
+							else
+								DumpRecurse(value, pathTable..sepChar..tostring(key), tablePropertyFilters, excludeKeys, recurse, depthLimit, depth + 1);
+							end
 						end
 					end
 				end
@@ -480,8 +498,8 @@ local function Run()
 	local function ScanAll(depthLimit)
 		LogTime(1, "Scanning \"_G\" depthLimit: "..tostring(depthLimit), ScanRecurse, _G,  "_G", depthLimit)
 	end
-	local function Dump(tableName, tablePropertyFilters, recurse)
-		LogTime(1, "Writing \""..tableName.."\"", DumpRecurse, getTableFromPath(tableName), "_G\t"..tableName:gsub("%.", "\t"), tablePropertyFilters, recurse)
+	local function Dump(tableName, tablePropertyFilters, excludeKeys, recurse)
+		LogTime(1, "Writing \""..tableName.."\"", DumpRecurse, getTableFromPath(tableName), "_G\t"..tableName:gsub("%.", "\t"), tablePropertyFilters, excludeKeys, recurse)
 	end
 	local function Export()
 		Output(getDcsVersion(), "_G/", "__DCS_VERSION__.lua")
@@ -491,10 +509,10 @@ local function Run()
 		ScanAll(globalScanDepth)
 		debugLog("Scanned Table Count: "..tableLength(seenTables))
 		for k, v in pairs(writeRecursive) do
-			Dump(k, v, true)
+			Dump(k, v.keysForFileName, v.excludeKeys, true)
 		end
 		for k, v in pairs(writeShallow) do
-			Dump(k, v, false)
+			Dump(k, v.keysForFileName, v.excludeKeys, false)
 		end
 	end
 	debugLog("Loaded")
@@ -524,7 +542,7 @@ local function Run()
 		debugLog("NewFileAlert detecting new file additions...")
 		local newFiles = {}
 		for key, value in pairs(recursiveDir(clearFolder)) do
-			if not tableContainsValue(oldExport, value) then
+			if not tablePairsContainsValue(oldExport, value) then
 				table.insert(newFiles, tostring(value:gsub(dumpFolderAbsolute,"")))
 			end
 		end

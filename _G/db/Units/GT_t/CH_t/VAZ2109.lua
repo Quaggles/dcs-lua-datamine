@@ -1,0 +1,23 @@
+_G["db"]["Units"]["GT_t"]["CH_t"]["VAZ2109"] = {
+	X_gear_1 = 2.086,
+	X_gear_2 = -2.608,
+	Y_gear_1 = 0,
+	Y_gear_2 = 0,
+	Z_gear_1 = 0.8,
+	Z_gear_2 = 0.8,
+	armour_thickness = 0.0005,
+	engine_power = 64,
+	fordingDepth = 0.2,
+	gear_type = 1,
+	length = 4.656,
+	life = 1.2,
+	mass = 945,
+	max_acceleration = 2.136,
+	max_road_velocity = 19.4444,
+	max_slope = 0.27,
+	max_vert_obstacle = 1,
+	min_turn_radius = 3,
+	r_max = 0.46,
+	trace_width = 0.17,
+	width = 1.689
+}

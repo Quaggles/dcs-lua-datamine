@@ -1,0 +1,23 @@
+_G["db"]["Units"]["GT_t"]["CH_t"]["MAZ543M"] = {
+	X_gear_1 = 3,
+	X_gear_2 = -3.5,
+	Y_gear_1 = 0,
+	Y_gear_2 = 0,
+	Z_gear_1 = 1.477,
+	Z_gear_2 = 1.477,
+	armour_thickness = 0.003,
+	engine_power = 330,
+	fordingDepth = 1.1,
+	gear_type = 1,
+	length = 13.11,
+	life = 4,
+	mass = 42150,
+	max_acceleration = 1.30719,
+	max_road_velocity = 16.6667,
+	max_slope = 0.27,
+	max_vert_obstacle = 1,
+	min_turn_radius = 12.5,
+	r_max = 0.708,
+	trace_width = 0.573,
+	width = 3.15
+}

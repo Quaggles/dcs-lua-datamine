@@ -1,0 +1,23 @@
+_G["db"]["Units"]["GT_t"]["CH_t"]["M8_Greyhound"] = {
+	X_gear_1 = 1.55,
+	X_gear_2 = -1.28,
+	Y_gear_1 = 0,
+	Y_gear_2 = 0,
+	Z_gear_1 = 0.96,
+	Z_gear_2 = 0.96,
+	armour_thickness = 0.0125,
+	engine_power = 82,
+	fordingDepth = 1,
+	gear_type = 1,
+	length = 5,
+	life = 4,
+	mass = 7890,
+	max_acceleration = 1.6,
+	max_road_velocity = 24.7,
+	max_slope = 0.47,
+	max_vert_obstacle = 0.4,
+	min_turn_radius = 7.2,
+	r_max = 0.5,
+	trace_width = 0.19,
+	width = 2.54
+}

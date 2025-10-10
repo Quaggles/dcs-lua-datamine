@@ -1,0 +1,23 @@
+_G["db"]["Units"]["GT_t"]["CH_t"]["KUBELWAGEN_82"] = {
+	X_gear_1 = 1.2,
+	X_gear_2 = -0.823,
+	Y_gear_1 = 0,
+	Y_gear_2 = 0,
+	Z_gear_1 = 0.615,
+	Z_gear_2 = 0.615,
+	armour_thickness = 0,
+	engine_power = 19,
+	fordingDepth = 0.5,
+	gear_type = 1,
+	length = 3.74,
+	life = 2,
+	mass = 1160,
+	max_acceleration = 0.925926,
+	max_road_velocity = 22.22,
+	max_slope = 0.47,
+	max_vert_obstacle = 0.3,
+	min_turn_radius = 5.2,
+	r_max = 0.34,
+	trace_width = 0.125,
+	width = 1.6
+}

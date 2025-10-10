@@ -1,0 +1,23 @@
+_G["db"]["Units"]["GT_t"]["CH_t"]["LAZ695"] = {
+	X_gear_1 = 2.158,
+	X_gear_2 = -2.022,
+	Y_gear_1 = 0,
+	Y_gear_2 = 0,
+	Z_gear_1 = 1.072,
+	Z_gear_2 = 1.072,
+	armour_thickness = 0.001,
+	engine_power = 150,
+	fordingDepth = 0.2,
+	gear_type = 1,
+	length = 9.1,
+	life = 2,
+	mass = 15000,
+	max_acceleration = 0.925926,
+	max_road_velocity = 27.7778,
+	max_slope = 0.27,
+	max_vert_obstacle = 0.3,
+	min_turn_radius = 10.5,
+	r_max = 0.57,
+	trace_width = 0.236,
+	width = 2.5
+}

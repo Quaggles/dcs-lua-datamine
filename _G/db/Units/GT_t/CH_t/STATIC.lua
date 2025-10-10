@@ -1,0 +1,22 @@
+_G["db"]["Units"]["GT_t"]["CH_t"]["STATIC"] = {
+	X_gear_1 = 0.1,
+	X_gear_2 = -0.1,
+	Y_gear_1 = 0,
+	Y_gear_2 = 0,
+	Z_gear_1 = 0.1,
+	Z_gear_2 = 0.1,
+	armour_thickness = 0.001,
+	engine_power = 0,
+	gear_type = 4,
+	length = 5,
+	life = 2,
+	mass = 5000,
+	max_acceleration = 0,
+	max_road_velocity = 0,
+	max_slope = 0,
+	max_vert_obstacle = 0,
+	min_turn_radius = 0,
+	r_max = 0,
+	r_track = 0,
+	width = 5
+}

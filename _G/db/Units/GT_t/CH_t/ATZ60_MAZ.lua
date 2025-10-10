@@ -1,0 +1,23 @@
+_G["db"]["Units"]["GT_t"]["CH_t"]["ATZ60_MAZ"] = {
+	X_gear_1 = 3.05,
+	X_gear_2 = -3.65,
+	Y_gear_1 = 0,
+	Y_gear_2 = 0,
+	Z_gear_1 = 1.2,
+	Z_gear_2 = 1.2,
+	armour_thickness = 0.001,
+	engine_power = 485,
+	fordingDepth = 1.5,
+	gear_type = 1,
+	length = 10.16,
+	life = 5,
+	mass = 9000,
+	max_acceleration = 1,
+	max_road_velocity = 15,
+	max_slope = 0.5,
+	max_vert_obstacle = 0.3,
+	min_turn_radius = 15,
+	r_max = 0.74,
+	trace_width = 0.555,
+	width = 2.92
+}

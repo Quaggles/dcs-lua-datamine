@@ -1,0 +1,23 @@
+_G["db"]["Units"]["GT_t"]["CH_t"]["UAZ469"] = {
+	X_gear_1 = 1.175,
+	X_gear_2 = -1.215,
+	Y_gear_1 = 0,
+	Y_gear_2 = 0,
+	Z_gear_1 = 0.769,
+	Z_gear_2 = 0.769,
+	armour_thickness = 0.001,
+	engine_power = 80,
+	fordingDepth = 0.7,
+	gear_type = 1,
+	length = 4.025,
+	life = 1.8,
+	mass = 2290,
+	max_acceleration = 2.925926,
+	max_road_velocity = 27.7778,
+	max_slope = 0.27,
+	max_vert_obstacle = 0.45,
+	min_turn_radius = 6.5,
+	r_max = 0.42,
+	trace_width = 0.185,
+	width = 1.785
+}

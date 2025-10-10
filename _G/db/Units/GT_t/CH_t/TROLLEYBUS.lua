@@ -1,0 +1,23 @@
+_G["db"]["Units"]["GT_t"]["CH_t"]["TROLLEYBUS"] = {
+	X_gear_1 = 2.086,
+	X_gear_2 = -2.608,
+	Y_gear_1 = 0,
+	Y_gear_2 = 0,
+	Z_gear_1 = 1.477,
+	Z_gear_2 = 1.477,
+	armour_thickness = 0.001,
+	engine_power = 140,
+	fordingDepth = 0.2,
+	gear_type = 1,
+	length = 9.656,
+	life = 2,
+	mass = 10100,
+	max_acceleration = 4.08497,
+	max_road_velocity = 19.4444,
+	max_slope = 0.27,
+	max_vert_obstacle = 1,
+	min_turn_radius = 3,
+	r_max = 0.51,
+	trace_width = 0.4,
+	width = 3.589
+}

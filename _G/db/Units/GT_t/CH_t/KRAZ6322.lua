@@ -1,0 +1,23 @@
+_G["db"]["Units"]["GT_t"]["CH_t"]["KRAZ6322"] = {
+	X_gear_1 = 3,
+	X_gear_2 = -2.549,
+	Y_gear_1 = 0,
+	Y_gear_2 = 0,
+	Z_gear_1 = 1.2,
+	Z_gear_2 = 1.2,
+	armour_thickness = 0.001,
+	engine_power = 243,
+	fordingDepth = 1.5,
+	gear_type = 1,
+	length = 8.98,
+	life = 2,
+	mass = 12700,
+	max_acceleration = 0.925926,
+	max_road_velocity = 20.8333,
+	max_slope = 0.47,
+	max_vert_obstacle = 0.6,
+	min_turn_radius = 10.5,
+	r_max = 0.61,
+	trace_width = 0.517,
+	width = 2.95
+}

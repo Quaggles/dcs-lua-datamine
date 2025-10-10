@@ -1,0 +1,23 @@
+_G["db"]["Units"]["GT_t"]["CH_t"]["BEDFORD"] = {
+	X_gear_1 = 1.4,
+	X_gear_2 = -1.09,
+	Y_gear_1 = 0,
+	Y_gear_2 = 0,
+	Z_gear_1 = 0.85,
+	Z_gear_2 = 0.85,
+	armour_thickness = 0,
+	engine_power = 53.7,
+	fordingDepth = 0.5,
+	gear_type = 1,
+	length = 4.38,
+	life = 3,
+	mass = 2100,
+	max_acceleration = 0.925926,
+	max_road_velocity = 22.2,
+	max_slope = 0.47,
+	max_vert_obstacle = 0.4,
+	min_turn_radius = 5.2,
+	r_max = 0.44,
+	trace_width = 0.205,
+	width = 1.99
+}
