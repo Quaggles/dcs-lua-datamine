@@ -365,6 +365,9 @@ local function Run()
 		indent="\t",
 		process = inspectProcess
 	}
+	local inspectOptionsNoProcess = {
+		indent="\t"
+	}
 	local function SerializeTable(pathTable, key, item, file)
 		-- Uses a global table since we can't pass extra arguments into inspect()
 		currentPathTable = pathTable..sepChar..tostring(key)
@@ -503,6 +506,7 @@ local function Run()
 	end
 	local function Export()
 		Output(getDcsVersion(), "_G/", "__DCS_VERSION__.lua")
+		Output(inspect(_G.prbCoeff, inspectOptionsNoProcess), "_G/", "prbCoeff.lua")
 		for _, v in ipairs(scanList) do
 			Scan(v)
 		end
