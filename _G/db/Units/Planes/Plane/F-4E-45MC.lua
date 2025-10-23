@@ -17,16 +17,33 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			min = 0,
 			playerOnly = true
 		}, {
-			control = "checkbox",
-			defValue = false,
+			control = "comboList",
+			defValue = 0,
 			id = "UseReferenceAircraft",
-			label = "Reference Aircraft",
-			playerOnly = true
+			label = "Aircraft Type On Spawn",
+			playerOnly = true,
+			values = { {
+					dispName = "Random",
+					id = 0
+				}, {
+					dispName = "Reference",
+					id = 1
+				}, {
+					dispName = "Persistent",
+					id = 2
+				} }
 		}, {
 			control = "checkbox",
 			defValue = true,
 			id = "INSAlignmentStored",
 			label = "INS Reference Alignment Stored",
+			playerOnly = true
+		}, {
+			control = "editbox",
+			defValue = "",
+			id = "PersistentAircraftKey",
+			label = "Persistent Aircraft Key",
+			maxLength = 128,
 			playerOnly = true
 		}, {
 			control = "checkbox",
@@ -40,6 +57,28 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			id = "IsNvgAllowed",
 			label = "Allow Night Vision Goggles",
 			playerOnly = true
+		}, {
+			control = "checkbox",
+			defValue = true,
+			id = "IsEfbAllowed",
+			label = "Allow use of EFB",
+			playerOnly = true
+		}, {
+			control = "comboList",
+			defValue = 2,
+			id = "CombatTreeSpoofable",
+			label = "Combat-Tree Spoofable",
+			playerOnly = true,
+			values = { {
+					dispName = "All",
+					id = 0
+				}, {
+					dispName = "Historical",
+					id = 1
+				}, {
+					dispName = "None",
+					id = 2
+				} }
 		}, {
 			control = "spinbox",
 			defValue = 0,
@@ -2279,6 +2318,18 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{HB_F4E_LAU-3_MK5_MER_3x}",
 					arg_value = 0.75
 				}, {
+					CLSID = "{F3EFE0AB-E91A-42D8-9CA2-B63C91ED570A}",
+					arg_value = 0.5
+				}, {
+					CLSID = "{HB_F4E_LAU-10_ZUNI_MER_3x}",
+					arg_value = 0.75
+				}, {
+					CLSID = "{HB_F4E_LAU-10_ZUNI_MER_2x}",
+					arg_value = 0.75
+				}, {
+					CLSID = "{HB_F4E_LAU-10_ZUNI_MER_1x}",
+					arg_value = 0.75
+				}, {
 					CLSID = "{CAE48299-A294-4bad-8EE6-89EFC5DCDF00}",
 					arg_value = 0.5
 				}, {
@@ -2339,6 +2390,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Left}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Left}" },
 							station = 3
 						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Left}" },
@@ -2486,6 +2540,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 3
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -2578,6 +2641,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Left}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Left}" },
+							station = 3
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Left}" },
 							station = 3
 						}, {
@@ -2723,6 +2789,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 3
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -2815,6 +2890,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Left}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Left}" },
+							station = 3
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Left}" },
 							station = 3
 						}, {
@@ -2960,6 +3038,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 3
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -3052,6 +3139,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Left}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Left}" },
+							station = 3
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Left}" },
 							station = 3
 						}, {
@@ -3197,6 +3287,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 3
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -3289,6 +3388,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Left}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Left}" },
+							station = 3
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Left}" },
 							station = 3
 						}, {
@@ -3434,6 +3536,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 3
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -3526,6 +3637,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Left}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Left}" },
+							station = 3
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Left}" },
 							station = 3
 						}, {
@@ -3671,6 +3785,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 3
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -3763,6 +3886,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Left}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Left}" },
+							station = 3
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Left}" },
 							station = 3
 						}, {
@@ -3908,6 +4034,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 3
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -4000,6 +4135,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Left}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Left}" },
+							station = 3
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Left}" },
 							station = 3
 						}, {
@@ -4145,6 +4283,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 3
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -4237,6 +4384,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Left}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Left}" },
+							station = 3
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Left}" },
 							station = 3
 						}, {
@@ -4382,6 +4532,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 3
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -4474,6 +4633,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Left}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Left}" },
+							station = 3
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Left}" },
 							station = 3
 						}, {
@@ -4619,6 +4781,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 3
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -4711,6 +4882,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Left}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Left}" },
+							station = 3
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Left}" },
 							station = 3
 						}, {
@@ -4856,6 +5030,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 3
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -4948,6 +5131,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Left}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Left}" },
+							station = 3
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Left}" },
 							station = 3
 						}, {
@@ -5093,6 +5279,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 3
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -5185,6 +5380,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Left}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Left}" },
+							station = 3
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Left}" },
 							station = 3
 						}, {
@@ -5330,6 +5528,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 3
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -5422,6 +5629,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Left}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Left}" },
+							station = 3
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Left}" },
 							station = 3
 						}, {
@@ -5567,6 +5777,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 3
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -5659,6 +5878,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Left}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Left}" },
+							station = 3
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Left}" },
 							station = 3
 						}, {
@@ -5804,6 +6026,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 3
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -5896,6 +6127,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Left}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Left}" },
+							station = 3
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Left}" },
 							station = 3
 						}, {
@@ -6041,6 +6275,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 3
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -6821,6 +7064,106 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{HB_F4E_LAU-3_WP156_2x_Left}",
+					arg_value = 0,
+					forbidden = { {
+							loadout = { "{AIM-9B}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9J}" },
+							station = 2
+						}, {
+							loadout = { "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9JULI}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9M}" },
+							station = 2
+						}, {
+							loadout = { "CATM-9M" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9P5}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9P3}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 2
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9B}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9J}" },
+							station = 4
+						}, {
+							loadout = { "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9JULI}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9M}" },
+							station = 4
+						}, {
+							loadout = { "CATM-9M" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9P5}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9P3}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 4
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 4
+						} }
+				}, {
+					CLSID = "{HB_F4E_LAU-10_ZUNI_2x_Left}",
 					arg_value = 0,
 					forbidden = { {
 							loadout = { "{AIM-9B}" },
@@ -12036,6 +12379,309 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 4
 						} }
 				}, {
+					CLSID = "{HB_F4E_LAU-10_ZUNI_3x}",
+					arg_value = 0,
+					forbidden = { {
+							loadout = { "{AIM-9B}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9J}" },
+							station = 2
+						}, {
+							loadout = { "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9JULI}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9M}" },
+							station = 2
+						}, {
+							loadout = { "CATM-9M" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9P5}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9P3}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 2
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9B}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9J}" },
+							station = 4
+						}, {
+							loadout = { "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9JULI}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9M}" },
+							station = 4
+						}, {
+							loadout = { "CATM-9M" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9P5}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9P3}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 4
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 4
+						} }
+				}, {
+					CLSID = "{HB_F4E_LAU-10_ZUNI_2x_Opposed}",
+					arg_value = 0,
+					forbidden = { {
+							loadout = { "{AIM-9B}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9J}" },
+							station = 2
+						}, {
+							loadout = { "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9JULI}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9M}" },
+							station = 2
+						}, {
+							loadout = { "CATM-9M" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9P5}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9P3}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 2
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9B}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9J}" },
+							station = 4
+						}, {
+							loadout = { "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9JULI}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9M}" },
+							station = 4
+						}, {
+							loadout = { "CATM-9M" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9P5}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9P3}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 4
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 4
+						} }
+				}, {
+					CLSID = "{HB_F4E_LAU-10_ZUNI_1x}",
+					arg_value = 0,
+					forbidden = { {
+							loadout = { "{AIM-9B}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9J}" },
+							station = 2
+						}, {
+							loadout = { "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9JULI}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9M}" },
+							station = 2
+						}, {
+							loadout = { "CATM-9M" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9P5}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9P3}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 2
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9B}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9J}" },
+							station = 4
+						}, {
+							loadout = { "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9JULI}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9M}" },
+							station = 4
+						}, {
+							loadout = { "CATM-9M" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9P5}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9P3}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 4
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 4
+						} }
+				}, {
+					CLSID = "{F3EFE0AB-E91A-42D8-9CA2-B63C91ED570A}",
+					arg_value = 0
+				}, {
 					CLSID = "{LAU3_FFAR_WP156}",
 					arg_value = 0
 				}, {
@@ -14262,6 +14908,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Left}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Left}" },
+							station = 3
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Left}" },
 							station = 3
 						}, {
@@ -14407,6 +15056,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 3
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -14499,6 +15157,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Left}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Left}" },
+							station = 3
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Left}" },
 							station = 3
 						}, {
@@ -14644,6 +15305,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 3
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -14736,6 +15406,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Left}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Left}" },
+							station = 3
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Left}" },
 							station = 3
 						}, {
@@ -14881,6 +15554,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 3
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -14973,6 +15655,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Left}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Left}" },
+							station = 3
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Left}" },
 							station = 3
 						}, {
@@ -15118,6 +15803,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 3
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -15210,6 +15904,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Left}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Left}" },
+							station = 3
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Left}" },
 							station = 3
 						}, {
@@ -15355,6 +16052,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 3
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -15447,6 +16153,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Left}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Left}" },
+							station = 3
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Left}" },
 							station = 3
 						}, {
@@ -15592,6 +16301,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 3
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -15684,6 +16402,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Left}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Left}" },
+							station = 3
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Left}" },
 							station = 3
 						}, {
@@ -15829,6 +16550,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 3
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -15921,6 +16651,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Left}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Left}" },
+							station = 3
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Left}" },
 							station = 3
 						}, {
@@ -16066,6 +16799,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 3
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -16158,6 +16900,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Left}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Left}" },
+							station = 3
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Left}" },
 							station = 3
 						}, {
@@ -16303,6 +17048,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 3
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -16395,6 +17149,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Left}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Left}" },
+							station = 3
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Left}" },
 							station = 3
 						}, {
@@ -16540,6 +17297,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 3
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -16632,6 +17398,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Left}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Left}" },
+							station = 3
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Left}" },
 							station = 3
 						}, {
@@ -16777,6 +17546,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 3
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -16869,6 +17647,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Left}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Left}" },
+							station = 3
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Left}" },
 							station = 3
 						}, {
@@ -17014,6 +17795,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 3
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -17106,6 +17896,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Left}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Left}" },
+							station = 3
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Left}" },
 							station = 3
 						}, {
@@ -17251,6 +18044,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 3
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -17343,6 +18145,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Left}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Left}" },
+							station = 3
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Left}" },
 							station = 3
 						}, {
@@ -17488,6 +18293,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 3
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -17580,6 +18394,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Left}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Left}" },
+							station = 3
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Left}" },
 							station = 3
 						}, {
@@ -17725,6 +18542,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 3
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -17817,6 +18643,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Left}" },
 							station = 3
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Left}" },
+							station = 3
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Left}" },
 							station = 3
 						}, {
@@ -17962,6 +18791,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 3
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 3
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -18293,6 +19131,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Right}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Right}" },
+							station = 11
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Right}" },
 							station = 11
 						}, {
@@ -18438,6 +19279,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 11
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -18530,6 +19380,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Right}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Right}" },
+							station = 11
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Right}" },
 							station = 11
 						}, {
@@ -18675,6 +19528,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 11
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -18767,6 +19629,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Right}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Right}" },
+							station = 11
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Right}" },
 							station = 11
 						}, {
@@ -18912,6 +19777,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 11
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -19004,6 +19878,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Right}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Right}" },
+							station = 11
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Right}" },
 							station = 11
 						}, {
@@ -19149,6 +20026,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 11
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -19241,6 +20127,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Right}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Right}" },
+							station = 11
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Right}" },
 							station = 11
 						}, {
@@ -19386,6 +20275,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 11
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -19478,6 +20376,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Right}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Right}" },
+							station = 11
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Right}" },
 							station = 11
 						}, {
@@ -19623,6 +20524,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 11
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -19715,6 +20625,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Right}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Right}" },
+							station = 11
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Right}" },
 							station = 11
 						}, {
@@ -19860,6 +20773,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 11
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -19952,6 +20874,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Right}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Right}" },
+							station = 11
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Right}" },
 							station = 11
 						}, {
@@ -20097,6 +21022,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 11
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -20189,6 +21123,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Right}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Right}" },
+							station = 11
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Right}" },
 							station = 11
 						}, {
@@ -20334,6 +21271,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 11
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -20426,6 +21372,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Right}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Right}" },
+							station = 11
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Right}" },
 							station = 11
 						}, {
@@ -20571,6 +21520,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 11
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -20663,6 +21621,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Right}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Right}" },
+							station = 11
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Right}" },
 							station = 11
 						}, {
@@ -20808,6 +21769,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 11
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -20900,6 +21870,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Right}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Right}" },
+							station = 11
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Right}" },
 							station = 11
 						}, {
@@ -21045,6 +22018,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 11
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -21137,6 +22119,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Right}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Right}" },
+							station = 11
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Right}" },
 							station = 11
 						}, {
@@ -21282,6 +22267,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 11
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -21374,6 +22368,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Right}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Right}" },
+							station = 11
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Right}" },
 							station = 11
 						}, {
@@ -21519,6 +22516,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 11
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -21611,6 +22617,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Right}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Right}" },
+							station = 11
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Right}" },
 							station = 11
 						}, {
@@ -21756,6 +22765,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 11
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -21848,6 +22866,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Right}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Right}" },
+							station = 11
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Right}" },
 							station = 11
 						}, {
@@ -21993,6 +23014,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 11
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -22773,6 +23803,106 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{HB_F4E_LAU-3_WP156_2x_Right}",
+					arg_value = 0,
+					forbidden = { {
+							loadout = { "{AIM-9B}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9J}" },
+							station = 12
+						}, {
+							loadout = { "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9JULI}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9M}" },
+							station = 12
+						}, {
+							loadout = { "CATM-9M" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9P5}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9P3}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 12
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9B}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9J}" },
+							station = 10
+						}, {
+							loadout = { "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9JULI}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9M}" },
+							station = 10
+						}, {
+							loadout = { "CATM-9M" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9P5}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9P3}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 10
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 10
+						} }
+				}, {
+					CLSID = "{HB_F4E_LAU-10_ZUNI_2x_Right}",
 					arg_value = 0,
 					forbidden = { {
 							loadout = { "{AIM-9B}" },
@@ -27988,6 +29118,309 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 10
 						} }
 				}, {
+					CLSID = "{HB_F4E_LAU-10_ZUNI_3x}",
+					arg_value = 0,
+					forbidden = { {
+							loadout = { "{AIM-9B}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9J}" },
+							station = 12
+						}, {
+							loadout = { "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9JULI}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9M}" },
+							station = 12
+						}, {
+							loadout = { "CATM-9M" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9P5}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9P3}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 12
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9B}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9J}" },
+							station = 10
+						}, {
+							loadout = { "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9JULI}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9M}" },
+							station = 10
+						}, {
+							loadout = { "CATM-9M" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9P5}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9P3}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 10
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 10
+						} }
+				}, {
+					CLSID = "{HB_F4E_LAU-10_ZUNI_2x_Opposed}",
+					arg_value = 0,
+					forbidden = { {
+							loadout = { "{AIM-9B}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9J}" },
+							station = 12
+						}, {
+							loadout = { "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9JULI}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9M}" },
+							station = 12
+						}, {
+							loadout = { "CATM-9M" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9P5}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9P3}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 12
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9B}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9J}" },
+							station = 10
+						}, {
+							loadout = { "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9JULI}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9M}" },
+							station = 10
+						}, {
+							loadout = { "CATM-9M" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9P5}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9P3}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 10
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 10
+						} }
+				}, {
+					CLSID = "{HB_F4E_LAU-10_ZUNI_1x}",
+					arg_value = 0,
+					forbidden = { {
+							loadout = { "{AIM-9B}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9J}" },
+							station = 12
+						}, {
+							loadout = { "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9JULI}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9M}" },
+							station = 12
+						}, {
+							loadout = { "CATM-9M" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9P5}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9P3}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 12
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9B}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9J}" },
+							station = 10
+						}, {
+							loadout = { "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9JULI}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9M}" },
+							station = 10
+						}, {
+							loadout = { "CATM-9M" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9P5}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9P3}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 10
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 10
+						} }
+				}, {
+					CLSID = "{F3EFE0AB-E91A-42D8-9CA2-B63C91ED570A}",
+					arg_value = 0
+				}, {
 					CLSID = "{LAU3_FFAR_WP156}",
 					arg_value = 0
 				}, {
@@ -30214,6 +31647,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Right}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Right}" },
+							station = 11
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Right}" },
 							station = 11
 						}, {
@@ -30359,6 +31795,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 11
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -30451,6 +31896,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Right}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Right}" },
+							station = 11
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Right}" },
 							station = 11
 						}, {
@@ -30596,6 +32044,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 11
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -30688,6 +32145,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Right}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Right}" },
+							station = 11
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Right}" },
 							station = 11
 						}, {
@@ -30833,6 +32293,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 11
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -30925,6 +32394,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Right}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Right}" },
+							station = 11
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Right}" },
 							station = 11
 						}, {
@@ -31070,6 +32542,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 11
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -31162,6 +32643,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Right}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Right}" },
+							station = 11
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Right}" },
 							station = 11
 						}, {
@@ -31307,6 +32791,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 11
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -31399,6 +32892,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Right}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Right}" },
+							station = 11
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Right}" },
 							station = 11
 						}, {
@@ -31544,6 +33040,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 11
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -31636,6 +33141,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Right}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Right}" },
+							station = 11
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Right}" },
 							station = 11
 						}, {
@@ -31781,6 +33289,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 11
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -31873,6 +33390,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Right}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Right}" },
+							station = 11
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Right}" },
 							station = 11
 						}, {
@@ -32018,6 +33538,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 11
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -32110,6 +33639,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Right}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Right}" },
+							station = 11
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Right}" },
 							station = 11
 						}, {
@@ -32255,6 +33787,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 11
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -32347,6 +33888,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Right}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Right}" },
+							station = 11
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Right}" },
 							station = 11
 						}, {
@@ -32492,6 +34036,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 11
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -32584,6 +34137,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Right}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Right}" },
+							station = 11
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Right}" },
 							station = 11
 						}, {
@@ -32729,6 +34285,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 11
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -32821,6 +34386,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Right}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Right}" },
+							station = 11
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Right}" },
 							station = 11
 						}, {
@@ -32966,6 +34534,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 11
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -33058,6 +34635,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Right}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Right}" },
+							station = 11
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Right}" },
 							station = 11
 						}, {
@@ -33203,6 +34783,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 11
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -33295,6 +34884,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Right}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Right}" },
+							station = 11
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Right}" },
 							station = 11
 						}, {
@@ -33440,6 +35032,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 11
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -33532,6 +35133,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Right}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Right}" },
+							station = 11
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Right}" },
 							station = 11
 						}, {
@@ -33677,6 +35281,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 11
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -33769,6 +35382,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{HB_F4E_LAU-3_WP156_2x_Right}" },
 							station = 11
 						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Right}" },
+							station = 11
+						}, {
 							loadout = { "{HB_F4EAGM-65A_LAU88_3x_Right}" },
 							station = 11
 						}, {
@@ -33914,6 +35530,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{HB_F4E_LAU-3_MK5_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_3x}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_2x_Opposed}" },
+							station = 11
+						}, {
+							loadout = { "{HB_F4E_LAU-10_ZUNI_1x}" },
 							station = 11
 						}, {
 							loadout = { "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}" },
@@ -34132,6 +35757,18 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.75
 				}, {
 					CLSID = "{HB_F4E_LAU-3_MK5_MER_3x}",
+					arg_value = 0.75
+				}, {
+					CLSID = "{F3EFE0AB-E91A-42D8-9CA2-B63C91ED570A}",
+					arg_value = 0.5
+				}, {
+					CLSID = "{HB_F4E_LAU-10_ZUNI_MER_3x}",
+					arg_value = 0.75
+				}, {
+					CLSID = "{HB_F4E_LAU-10_ZUNI_MER_2x}",
+					arg_value = 0.75
+				}, {
+					CLSID = "{HB_F4E_LAU-10_ZUNI_MER_1x}",
 					arg_value = 0.75
 				}, {
 					CLSID = "{CAE48299-A294-4bad-8EE6-89EFC5DCDF00}",

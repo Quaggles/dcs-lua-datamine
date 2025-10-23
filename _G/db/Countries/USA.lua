@@ -1225,6 +1225,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "gbu_43b_airdrop",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "l118"
 				} }
 		},
@@ -2613,6 +2617,10 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "F-15ESE"
 				}, {
 					Name = "F-4E-45MC"
+				}, {
+					Name = "QF-4E"
+				}, {
+					Name = "F-14A-135-GR-Early"
 				}, {
 					Name = "F4U-1D"
 				}, {

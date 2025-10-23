@@ -3,7 +3,6 @@ _G["db"]["Units"]["Cargos"]["Cargo"]["#Index"] = {
 	Name = "Fueltank",
 	Rate = 100,
 	ShapeName = "fueltank_cargo",
-	ShapeNameDstr = "fueltank_cargo_dam",
 	attribute = { "Cargos" },
 	canExplode = true,
 	category = "Cargo",

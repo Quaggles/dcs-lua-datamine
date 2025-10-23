@@ -610,6 +610,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B5}"
 				}, {
 					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}"
+				}, {
+					CLSID = "<CLEAN>",
+					add_mass = -25,
+					arg_value = 1
 				} },
 			Number = 2,
 			Order = 2,
@@ -725,6 +729,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{TWIN_B_8M1_S_8_OFP2}",
 					arg_value = 1
+				}, {
+					CLSID = "<CLEAN>",
+					add_mass = -25,
+					arg_value = 1
 				} },
 			Number = 3,
 			Order = 3,
@@ -797,6 +805,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B5}"
 				}, {
 					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}"
+				}, {
+					CLSID = "<CLEAN>",
+					add_mass = -25,
+					arg_value = 1
 				} },
 			Number = 4,
 			Order = 4,
@@ -863,6 +875,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B5}"
 				}, {
 					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}"
+				}, {
+					CLSID = "<CLEAN>",
+					add_mass = -25,
+					arg_value = 1
 				} },
 			Number = 5,
 			Order = 5,
@@ -923,6 +939,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{53BE25A4-C86C-4571-9BC0-47D668349595}",
 					arg_value = 0.25
+				}, {
+					CLSID = "<CLEAN>",
+					add_mass = -25,
+					arg_value = 1
 				} },
 			Number = 6,
 			Order = 6,
@@ -995,6 +1015,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B5}"
 				}, {
 					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}"
+				}, {
+					CLSID = "<CLEAN>",
+					add_mass = -25,
+					arg_value = 1
 				} },
 			Number = 7,
 			Order = 7,
@@ -1110,6 +1134,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{TWIN_B_8M1_S_8_OFP2}",
 					arg_value = 1
+				}, {
+					CLSID = "<CLEAN>",
+					add_mass = -25,
+					arg_value = 1
 				} },
 			Number = 8,
 			Order = 8,
@@ -1135,6 +1163,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B5}"
 				}, {
 					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}"
+				}, {
+					CLSID = "<CLEAN>",
+					add_mass = -25,
+					arg_value = 1
 				} },
 			Number = 9,
 			Order = 9,

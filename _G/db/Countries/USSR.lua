@@ -668,6 +668,18 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "Wellcarnsc"
 				}, {
+					Name = "kamaz_tent_civil"
+				}, {
+					Name = "ural_atz5_civil"
+				}, {
+					Name = "ural_4230_civil_b"
+				}, {
+					Name = "ural_4230_civil_t"
+				}, {
+					Name = "zil-131_civil"
+				}, {
+					Name = "gaz-66_civil"
+				}, {
 					Name = "M4A4_Sherman_FF"
 				}, {
 					Name = "Churchill_VII"
@@ -1533,6 +1545,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "F-16C_50"
 				}, {
 					Name = "F-4E-45MC"
+				}, {
+					Name = "QF-4E"
 				}, {
 					Name = "F-5E"
 				}, {

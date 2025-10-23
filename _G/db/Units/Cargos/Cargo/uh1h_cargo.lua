@@ -1,11 +1,10 @@
 _G["db"]["Units"]["Cargos"]["Cargo"]["#Index"] = {
+	AttachPoint = "Dummy003",
 	DisplayName = "UH-1H cargo",
 	Name = "UH-1H cargo",
 	Rate = 100,
 	ShapeName = "ab-212_cargo",
-	ShapeNameDstr = "ab-212_cargo_dam",
 	attribute = { "Cargos" },
-	canExplode = false,
 	category = "Cargo",
 	couldCargo = true,
 	life = 5,

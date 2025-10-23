@@ -1,6 +1,6 @@
 _G["warheads"]["BetAB_500ShP"] = {
 	caliber = 325,
-	concrete_factors = { 12, 1.5, 7.5 },
+	concrete_factors = { 1.5, 1.5, 7.5 },
 	concrete_obj_factor = 15,
 	cumulative_factor = 0,
 	cumulative_thickness = 0,

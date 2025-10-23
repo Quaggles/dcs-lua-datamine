@@ -14,7 +14,7 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["Type_96_25mm_AA"] = {
 		}, {
 			shell_name = {}
 		} },
-	distanceMax = 7500,
+	distanceMax = 6000,
 	max_trg_alt = 3000,
 	reactionTime = 5,
 	sensor = {}

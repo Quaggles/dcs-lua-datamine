@@ -1242,6 +1242,10 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "l118"
+				}, {
+					Name = "gbu_43b_airdrop",
+					in_service = 0,
+					out_of_service = 40000
 				} }
 		},
 		Cars = {
@@ -1923,6 +1927,30 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "Bedford_MWD",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "kamaz_tent_civil",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "ural_atz5_civil",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "ural_4230_civil_b",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "ural_4230_civil_t",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "zil-131_civil",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "gaz-66_civil",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -3462,6 +3490,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "F-4E-45MC"
 				}, {
+					Name = "QF-4E"
+				}, {
 					Name = "F-5E"
 				}, {
 					Name = "F-5E-3"
@@ -3843,6 +3873,10 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "F-14A-95-GR",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "F-14A-135-GR-Early",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
