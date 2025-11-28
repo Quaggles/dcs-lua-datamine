@@ -5,6 +5,7 @@ _G["warheads"]["HYDRA_70_M282"] = {
 	cumulative_factor = 1.5,
 	cumulative_thickness = 0.25,
 	expl_mass = 0.44,
+	is_htp = true,
 	length = 0.412,
 	mass = 6.2,
 	obj_factors = { 1.17, 1.17 },

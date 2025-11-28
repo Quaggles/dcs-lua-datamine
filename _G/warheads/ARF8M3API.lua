@@ -5,6 +5,7 @@ _G["warheads"]["ARF8M3API"] = {
 	cumulative_factor = 3,
 	cumulative_thickness = 0.2,
 	expl_mass = 0.08,
+	is_htp = true,
 	length = 0.237,
 	mass = 1.2,
 	obj_factors = { 1, 1 },

@@ -1,0 +1,143 @@
+_G["launcher"]["{C130-M18-Sidearm}"] = {
+	CLSID = "{C130-M18-Sidearm}",
+	Cx_pil = 1e-06,
+	Elements = { {
+			Position = { 0, 0, 0 },
+			ShapeName = "C130_M18"
+		} },
+	Picture = "M16.png",
+	Weight = 4.3,
+	Weight_Empty = 3.3,
+	_file = "./CoreMods/aircraft/C130J/loadout.lua",
+	_origin = "C-130J AI",
+	attribute = { 4, 15, 46, "Redacted" },
+	category = 6,
+	displayName = "M18-Sidearm",
+	gun_mounts = { {
+			_file = "./CoreMods/aircraft/C130J/loadout.lua",
+			_origin = "C-130J AI",
+			_unique_resource_name = "weapons.gunmounts.C130_M18_Sidearm",
+			aft_gun_mount = false,
+			azimuth_initial = 0,
+			barrel_circular_error = 0.002,
+			category = 8,
+			display_name = "C130_M18_Sidearm",
+			drop_cartridge = 205,
+			effect_arg_number = 350,
+			effective_fire_distance = 1000,
+			effects = { {
+					arg = 350,
+					attenuation = 1,
+					duration = 0.5,
+					light_pos = { 0.01, 0, 0 },
+					name = "FireEffect"
+				} },
+			ejector_dir = { 0, 0, 1 },
+			ejector_pos = { 0, 0, 0 },
+			ejector_pos_connector = "eject",
+			elevation_initial = 0,
+			gun = {
+				barrels_count = 1,
+				impulse_vec_rot = {
+					x = 0,
+					y = 0,
+					z = 0
+				},
+				max_burst_length = 1,
+				rates = { 100 },
+				recoil_coeff = 0.001,
+				trigger = {
+					name = "GunTrigger"
+				}
+			},
+			muzzle_pos = { 0, 0, 0 },
+			muzzle_pos_connector = "MZL_POS",
+			name = "C130_M18_Sidearm",
+			short_name = "C130_M18_Sidearm",
+			supply = {
+				count = 100,
+				get_mass = <function 1>,
+				get_mass_ = <function 2>,
+				mixes = { { 1 } },
+				shells = { {
+						AP_cap_caliber = 9,
+						Da0 = 0.001,
+						Da1 = 0,
+						Dv0 = 0.0082,
+						_file = "./CoreMods/aircraft/C130J/loadout.lua",
+						_origin = "C-130J AI",
+						_unique_resource_name = "weapons.shells.9x19_m882",
+						caliber = 9,
+						cartridge = 203,
+						cartridge_mass = 0,
+						category = 7,
+						charTime = 0,
+						cumulative_mass = 0,
+						cumulative_thickness = 0,
+						cx = { 1, 0.62, 0.65, 0.175, 1.8 },
+						damage_factor = 639,
+						display_name = "9x19_m882",
+						explosive = 0,
+						full_scale_time = -1,
+						j = 0,
+						k1 = 3.5e-08,
+						l = 0,
+						life_time = 3,
+						manualWeaponFlag = 21,
+						mass = 0.00804,
+						model_name = "m882_shell",
+						name = "9x19_m882",
+						payload = 0,
+						payload_type = 0,
+						piercing_mass = 0.00804,
+						rebound_concrete = <1>{
+							angle0 = 50,
+							angle100 = 75,
+							cx_factor = 5,
+							deviation_angle = 30,
+							velocity_loss_factor = 0.5
+						},
+						rebound_ground = {
+							angle0 = 55,
+							angle100 = 73,
+							cx_factor = 5,
+							deviation_angle = 30,
+							velocity_loss_factor = 0.5
+						},
+						rebound_object = <table 1>,
+						rebound_water = {
+							angle0 = 65,
+							angle100 = 83,
+							cx_factor = 5,
+							deviation_angle = 30,
+							velocity_loss_factor = 0.5
+						},
+						rotation_freq = 7,
+						round_mass = 0.00804,
+						s = 0,
+						silent_self_destruction = false,
+						smoke_tail_life_time = -1,
+						subcalibre = false,
+						tracer_off = -100,
+						tracer_on = 0,
+						type_name = "shell",
+						user_name = "9x19_m882",
+						v0 = 396,
+						visual_effect_correction = 0,
+						visual_effect_correction_rebound = 0.1
+					} }
+			},
+			supply_position = { -0.108, 0.096, 0 }
+		} },
+	kind_of_shipping = 2,
+	name = "{C130-M18-Sidearm}",
+	shape_table_data = { {
+			file = "C130_M18",
+			fire = { 0, 1 },
+			index = "Redacted",
+			life = 1,
+			name = "C130_M18",
+			username = "C130_M18"
+		} },
+	wsTypeOfWeapon = { 4, 6, 10, "Redacted" }
+}

@@ -17,18 +17,6 @@ _G["bombs"]["#Index"] = {
 	mass = 9840,
 	name = "GBU_43",
 	type = 6,
-	warhead = {
-		caliber = 1029,
-		concrete_factors = { 1, 1, 1 },
-		concrete_obj_factor = 0,
-		cumulative_factor = 0,
-		cumulative_thickness = 0,
-		default_fuze_delay = 0,
-		expl_mass = 3200,
-		mass = 3200,
-		obj_factors = { 1, 1 },
-		other_factors = { 1, 1, 1 },
-		piercing_mass = 640
-	},
+	warhead = "_G/warheads/GBU_43.lua",
 	ws_type = { 4, 5, 36, "Redacted" }
 }

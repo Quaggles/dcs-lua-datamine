@@ -821,18 +821,108 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			id = "EXTE_AFT_MECHANICAL_FAILURE",
 			label = "Failure.CH47.EXTE_AFT_MECHANICAL_FAILURE"
 		}, {
+			id = "CDU_1_FAILURE",
+			label = "Failure.CH47.CDU_1_FAILURE"
+		}, {
+			id = "CDU_2_FAILURE",
+			label = "Failure.CH47.CDU_2_FAILURE"
+		}, {
+			id = "MFD_1_FAILURE",
+			label = "Failure.CH47.MFD_1_FAILURE"
+		}, {
+			id = "MFD_2_FAILURE",
+			label = "Failure.CH47.MFD_2_FAILURE"
+		}, {
+			id = "MFD_3_FAILURE",
+			label = "Failure.CH47.MFD_3_FAILURE"
+		}, {
+			id = "MFD_4_FAILURE",
+			label = "Failure.CH47.MFD_4_FAILURE"
+		}, {
+			id = "MFD_5_FAILURE",
+			label = "Failure.CH47.MFD_5_FAILURE"
+		}, {
+			id = "EGI_1_FAILURE",
+			label = "Failure.CH47.EGI_1_FAILURE"
+		}, {
+			id = "EGI_2_FAILURE",
+			label = "Failure.CH47.EGI_2_FAILURE"
+		}, {
+			id = "RALT_HOLD_FAILURE",
+			label = "Failure.CH47.RALT_HOLD_FAILURE"
+		}, {
+			id = "ADF_TOTAL_FAILURE",
+			label = "Failure.CH47.ADF_TOTAL_FAILURE"
+		}, {
+			id = "ADF_DAMAGE",
+			label = "Failure.CH47.ADF_DAMAGE"
+		}, {
+			id = "ADF_ANT_DAMAGE",
+			label = "Failure.CH47.ADF_ANTENNA_DAMAGE"
+		}, {
+			id = "VOR_ILS_TOTAL_FAILURE",
+			label = "Failure.CH47.VOR_ILS_TOTAL_FAILURE"
+		}, {
+			id = "VOR_ILS_ANT_DAMAGE",
+			label = "Failure.CH47.VOR_ILS_ANTENNA_DAMAGE"
+		}, {
+			id = "TCN_TOTAL_FAILURE",
+			label = "Failure.CH47.TACAN_TOTAL_FAILURE"
+		}, {
+			id = "TCN_TRANSMITTER_FAILURE",
+			label = "Failure.CH47.TACAN_TRANSMITTER_FAILURE"
+		}, {
+			id = "TCN_RECEIVER_FAILURE",
+			label = "Failure.CH47.TACAN_RECEIVER_FAILURE"
+		}, {
 			id = "CHIPS_FOR_EVERYONE",
 			label = "DEBUG Initiate CHIPS annunciators"
 		}, {
 			id = "DEBRIS_FOR_EVERYONE",
 			label = "DEBUG Initiate DEBRIS annunciators"
 		}, {
-			hidden = true,
+			den = true,
 			id = "EXTE_CUSTOM_FAILURE_1",
 			label = "Hydro acc. low air pressure"
 		}, {
 			id = "EXTE_CUSTOM_FAILURE_2",
 			label = "Failure.CH47.HYDR_FCS1_PRES_SWITCH_DISCO"
+		}, {
+			id = "ARC_201_FAILURE_TRANSIVER",
+			label = "Failure.CH47.ARC_201_FAILURE_TRANSIVER"
+		}, {
+			id = "ARC_201_FAILURE_ANTENNA",
+			label = "Failure.CH47.ARC_201_FAILURE_ANTENNA"
+		}, {
+			id = "ARC_201_DEGRADED",
+			label = "Failure.CH47.ARC_201_DEGRADED"
+		}, {
+			id = "ARC_164_FAILURE_TRANSIVER",
+			label = "Failure.CH47.ARC_164_FAILURE_TRANSIVER"
+		}, {
+			id = "ARC_164_FAILURE_ANTENNA",
+			label = "Failure.CH47.ARC_164_FAILURE_ANTENNA"
+		}, {
+			id = "ARC_164_DEGRADED",
+			label = "Failure.CH47.ARC_164_DEGRADED"
+		}, {
+			id = "ARC_186_FAILURE_TRANSIVER",
+			label = "Failure.CH47.ARC_186_FAILURE_TRANSIVER"
+		}, {
+			id = "ARC_186_FAILURE_ANTENNA",
+			label = "Failure.CH47.ARC_186_FAILURE_ANTENNA"
+		}, {
+			id = "ARC_186_DEGRADED",
+			label = "Failure.CH47.ARC_186_DEGRADED"
+		}, {
+			id = "ARC_220_FAILURE_TRANSIVER",
+			label = "Failure.CH47.ARC_220_FAILURE_TRANSIVER"
+		}, {
+			id = "ARC_220_FAILURE_ANTENNA",
+			label = "Failure.CH47.ARC_220_FAILURE_ANTENNA"
+		}, {
+			id = "ARC_220_DEGRADED",
+			label = "Failure.CH47.ARC_220_DEGRADED"
 		} },
 	H_din_one_eng = 1600,
 	H_din_two_eng = 3100,

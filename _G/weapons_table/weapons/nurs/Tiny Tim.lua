@@ -7,6 +7,7 @@ _G["weapons_table"]["weapons"]["nurs"]["Tiny Tim"] = {
 		_file = "./CoreMods/aircraft/F4U-1D/F4U-1D_Weapons.lua",
 		_origin = "F4U-1D AI by Magnitude 3 LLC",
 		category = 3,
+		class_name = "wAmmunitionNURS",
 		eng_delay = {
 			delay_time = 0.3,
 			enabled = true
@@ -37,6 +38,7 @@ _G["weapons_table"]["weapons"]["nurs"]["Tiny Tim"] = {
 			rail_open = true,
 			shapeName = "",
 			wind_sigma = 7,
+			wind_sigma_z_coeff = 1,
 			wind_time = 1.3
 		},
 		model = "Tiny_Tim_USN",
@@ -82,6 +84,7 @@ _G["weapons_table"]["weapons"]["nurs"]["Tiny Tim"] = {
 		_file = "./CoreMods/aircraft/F4U-1D/F4U-1D_Weapons.lua",
 		_origin = "F4U-1D AI by Magnitude 3 LLC",
 		category = 3,
+		class_name = "wAmmunitionNURS",
 		eng_delay = {
 			delay_time = 0.3,
 			enabled = true
@@ -112,6 +115,7 @@ _G["weapons_table"]["weapons"]["nurs"]["Tiny Tim"] = {
 			rail_open = true,
 			shapeName = "",
 			wind_sigma = 7,
+			wind_sigma_z_coeff = 1,
 			wind_time = 1.3
 		},
 		model = "Tiny_Tim_USN",
@@ -162,6 +166,7 @@ _G["weapons_table"]["weapons"]["nurs"]["Tiny Tim"] = {
 			rail_open = true,
 			shapeName = "",
 			wind_sigma = 7,
+			wind_sigma_z_coeff = 1,
 			wind_time = 1.3
 		}
 	},

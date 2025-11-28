@@ -2,6 +2,57 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	AOA_take_off = 0.1919,
 	AddPropAircraft = { {
 			control = "comboList",
+			defValue = 0,
+			id = "HUDLanguage",
+			label = "HUD/HDD Language",
+			playerOnly = true,
+			values = { {
+					dispName = "User",
+					id = 0
+				}, {
+					dispName = "Russian (Native)",
+					id = 1
+				}, {
+					dispName = "English",
+					id = 2
+				} },
+			wCtrl = 150
+		}, {
+			control = "comboList",
+			defValue = 0,
+			id = "AvionicsLanguage",
+			label = "Avionics Language",
+			playerOnly = true,
+			values = { {
+					dispName = "User",
+					id = 0
+				}, {
+					dispName = "Russian (Native)",
+					id = 1
+				}, {
+					dispName = "English",
+					id = 2
+				} },
+			wCtrl = 150
+		}, {
+			control = "comboList",
+			defValue = 0,
+			id = "AvionicsUnits",
+			label = "Avionics Units",
+			playerOnly = true,
+			values = { {
+					dispName = "User",
+					id = 0
+				}, {
+					dispName = "Metric (Native)",
+					id = 1
+				}, {
+					dispName = "Imperial",
+					id = 2
+				} },
+			wCtrl = 150
+		}, {
+			control = "comboList",
 			defValue = 1,
 			id = "Realistic INS",
 			label = "INS realism",
@@ -298,6 +349,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	},
 	DisplayName = "MiG-29A Fulcrum",
 	EmptyWeight = 10922,
+	Failures = {},
 	Guns = { {
 			aft_gun_mount = false,
 			azimuth_initial = 0,
@@ -1473,6 +1525,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		RADAR = "N-019",
 		RWR = "Abstract RWR"
 	},
+	Shape = "mig-29-fulcrum",
 	Tasks = { <table 1>, {
 			Name = "Escort",
 			OldID = "Escort",
@@ -1522,7 +1575,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	attribute = { 1, 1, 1, "Redacted", "Fighters", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },
 	average_fuel_consumption = 0.2743,
 	bank_angle_max = 60,
-	brakeshute_name = 337,
+	brakeshute_name = 341,
 	center_of_mass = { -0.1, -0.1, 0 },
 	chaff_flare_dispenser = { {
 			dir = { 0.64, 0.77, 0.13 },
@@ -1534,8 +1587,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	country_of_origin = "RUS",
 	crew_members = { {
 			drop_canopy_name = 28,
-			ejection_seat_name = 335,
-			pilot_name = 336,
+			ejection_seat_name = 339,
+			pilot_name = 340,
 			pos = { 4.68, 0.74, 0 },
 			role = "pilot",
 			role_display_name = "Pilot"

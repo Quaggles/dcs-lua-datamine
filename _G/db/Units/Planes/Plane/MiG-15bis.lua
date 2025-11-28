@@ -405,7 +405,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						type_name = "shell",
 						user_name = "37mm HEI T",
 						v0 = 690,
-						visual_effect_correction = 3,
+						visual_effect_correction = 0,
 						visual_effect_correction_rebound = 0.1
 					}, {
 						AP_cap_caliber = 37,
@@ -472,7 +472,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						type_name = "shell",
 						user_name = "37mm API T ",
 						v0 = 675,
-						visual_effect_correction = 3,
+						visual_effect_correction = 0,
 						visual_effect_correction_rebound = 0.1
 					} }
 			},
@@ -873,11 +873,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	crew_members = { {
 			bailout_arg = 91,
 			canopy_pos = { 1.5, 0.7, 0 },
-			drop_canopy_name = 328,
+			drop_canopy_name = 332,
 			drop_parachute_name = "pilot_mig15_parachute",
-			ejection_seat_name = 327,
+			ejection_seat_name = 331,
 			g_suit = 0.35,
-			pilot_name = 329,
+			pilot_name = 333,
 			pos = { 1.771, 0.856, 0 },
 			role = "pilot",
 			role_display_name = "Pilot"

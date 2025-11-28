@@ -1,7 +1,7 @@
 _G["launcher"]["{HVAR_USN_Mk28_Mod4_Corsair}"] = {
 	CLSID = "{HVAR_USN_Mk28_Mod4_Corsair}",
 	Count = 1,
-	Cx_pil = 7.28e-05,
+	Cx_pil = 9.28e-05,
 	Elements = { {
 			Position = { 0, 0, 0 },
 			ShapeName = "HVAR_USN_Mk28_Mod4"

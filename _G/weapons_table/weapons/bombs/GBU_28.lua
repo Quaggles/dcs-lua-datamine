@@ -68,17 +68,16 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_28"] = {
 		},
 		warhead = {
 			caliber = 457,
-			concrete_factors = { 5, 1, 10 },
-			concrete_obj_factor = 5,
+			concrete_factors = { 5.9, 1.18, 11.8 },
+			concrete_obj_factor = 5.9,
 			cumulative_factor = 0,
 			cumulative_thickness = 0,
-			default_fuze_delay = 0,
-			expl_mass = 349.6,
+			expl_mass = 250,
 			fantom = 1,
-			mass = 349.6,
-			obj_factors = { 1, 1 },
-			other_factors = { 1, 1, 1 },
-			piercing_mass = 69.92
+			mass = 910,
+			obj_factors = { 1.18, 1.18 },
+			other_factors = { 1.18, 1.18, 1.18 },
+			piercing_mass = 182
 		}
 	},
 	cx = { 1.037, 0.91, 0.9, 0.382, 1.34 },
@@ -151,17 +150,16 @@ _G["weapons_table"]["weapons"]["bombs"]["GBU_28"] = {
 		},
 		warhead = {
 			caliber = 457,
-			concrete_factors = { 5, 1, 10 },
-			concrete_obj_factor = 5,
+			concrete_factors = { 5.9, 1.18, 11.8 },
+			concrete_obj_factor = 5.9,
 			cumulative_factor = 0,
 			cumulative_thickness = 0,
-			default_fuze_delay = 0,
-			expl_mass = 349.6,
+			expl_mass = 250,
 			fantom = 0,
-			mass = 349.6,
-			obj_factors = { 1, 1 },
-			other_factors = { 1, 1, 1 },
-			piercing_mass = 69.92
+			mass = 910,
+			obj_factors = { 1.18, 1.18 },
+			other_factors = { 1.18, 1.18, 1.18 },
+			piercing_mass = 182
 		}
 	},
 	sounderName = "Weapons/Bomb",

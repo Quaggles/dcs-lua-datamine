@@ -5,6 +5,7 @@ _G["warheads"]["BetAB_500ShP"] = {
 	cumulative_factor = 0,
 	cumulative_thickness = 0,
 	expl_mass = 77,
+	is_htp = true,
 	mass = 244.4,
 	obj_factors = { 1.5, 1.5 },
 	other_factors = { 1.5, 1.5, 1.5 },

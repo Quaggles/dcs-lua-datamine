@@ -1020,6 +1020,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				["C-101EB"] = {
 					enable_options_key_for_unit = "c101eb_common_enabled"
 				},
+				["CH-47Fbl1"] = <table 2>,
 				["Christen Eagle II"] = {
 					enable_options_key_for_unit = "CE_II_enabled"
 				},
@@ -1379,7 +1380,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	country_of_origin = "USA",
 	crew_members = { {
 			canopy_pos = { 0, 0, 0 },
-			drop_canopy_name = 348,
+			drop_canopy_name = 352,
 			drop_parachute_name = "pilot_p51_parachute",
 			ejection_seat_name = 0,
 			pilot_name = 56,

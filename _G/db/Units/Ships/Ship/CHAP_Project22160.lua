@@ -8,23 +8,23 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	DM = { {
 			area_arg = 70,
 			area_fire = {
-				pos = { 29, 4, -4.5 },
-				size = 0.8
+				pos = { 35, 7, -4.5 },
+				size = 0.9
 			},
 			area_life = 60,
 			area_name = "NOSE_L"
 		}, {
 			area_arg = 71,
 			area_fire = {
-				pos = { 23, 4, 4.5 },
-				size = 0.8
+				pos = { 23, 7, 4 },
+				size = 0.6
 			},
 			area_life = 60,
 			area_name = "NOSE_R"
 		}, {
 			area_arg = 72,
 			area_fire = {
-				pos = { -10, 3, -3.5 },
+				pos = { -8, 7, -4.5 },
 				size = 0.8
 			},
 			area_life = 60,
@@ -32,24 +32,24 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		}, {
 			area_arg = 73,
 			area_fire = {
-				pos = { -5, 3, 3.5 },
-				size = 0.8
+				pos = { -5, 12, 1.5 },
+				size = 0.7
 			},
 			area_life = 60,
 			area_name = "BORT_R"
 		}, {
 			area_arg = 74,
 			area_fire = {
-				pos = { -33, 3, -2.5 },
-				size = 0.8
+				pos = { -30, 5, -3.5 },
+				size = 1
 			},
 			area_life = 60,
 			area_name = "KORMA_L"
 		}, {
 			area_arg = 75,
 			area_fire = {
-				pos = { -38, 3, 2.5 },
-				size = 0.8
+				pos = { -34, 5, 2.5 },
+				size = 0.9
 			},
 			area_life = 60,
 			area_name = "KORMA_R"
@@ -72,15 +72,15 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		} },
 	DeckLevel = 6,
 	DetectionRange = 80000,
-	DisplayName = "Project 22160 Patrol Ship [CH]",
-	DisplayNameShort = "22160 Ship",
+	DisplayName = "Patrol Ship 22160 Vasily Bykov [CH]",
+	DisplayNameShort = "Vasily Bykov",
 	Gamma_max = 0.52,
 	Height = 34.5,
 	Helicopter_Num_ = 1,
 	Landing_Point = { -40, 5.44, 0 },
 	Length = 94,
 	MaxSpeed = 55.548,
-	Name = "Project 22160 Patrol Ship [CH]",
+	Name = "Patrol Ship 22160 Vasily Bykov [CH]",
 	Om = 0.045,
 	Plane_Num_ = 0,
 	RCS = 8000,
@@ -137,7 +137,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							recoilTime = 0.24
 						} },
 					PL = { {
-							ammo_capacity = 76,
+							ammo_capacity = 152,
 							automaticLoader = false,
 							shell_name = { "CHAP_76_PFHE" },
 							shot_delay = 0.5
@@ -156,7 +156,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							recoilTime = 0.24
 						} },
 					PL = { {
-							ammo_capacity = 76,
+							ammo_capacity = 152,
 							automaticLoader = false,
 							shell_name = { "AK176_76" },
 							shot_delay = 0.5

@@ -497,6 +497,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				["C-101EB"] = {
 					enable_options_key_for_unit = "c101eb_common_enabled"
 				},
+				["CH-47Fbl1"] = <table 3>,
 				["Christen Eagle II"] = {
 					enable_options_key_for_unit = "CE_II_enabled"
 				},

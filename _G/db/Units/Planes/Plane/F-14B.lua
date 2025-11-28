@@ -1252,6 +1252,54 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			enable = false,
 			hh = 0,
+			id = "W_MF_L",
+			label = "Wings: Left Main Flap Failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "W_MF_R",
+			label = "Wings: Right Main Flap Failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "W_AF_L",
+			label = "Wings: Left Aux Flap Failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "W_AF_R",
+			label = "Wings: Right Aux Flap Failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "W_SL_L",
+			label = "Wings: Left Slat Failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "W_SL_R",
+			label = "Wings: Right Slat Failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
 			id = "HYD_Combined",
 			label = "Hydraulics: Left Engine Pump",
 			mm = 0,
@@ -1642,6 +1690,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				["C-101EB"] = {
 					enable_options_key_for_unit = "c101eb_common_enabled"
 				},
+				["CH-47Fbl1"] = <table 6>,
 				["Christen Eagle II"] = {
 					enable_options_key_for_unit = "CE_II_enabled"
 				},
@@ -11442,10 +11491,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			can_be_playable = true,
 			canopy_arg = 38,
 			canopy_pos = { 3.916, 0.798, 0 },
-			drop_canopy_name = 310,
+			drop_canopy_name = 314,
 			ejection_added_speed = { -3, 15, -3 },
 			ejection_order = 2,
-			ejection_seat_name = 309,
+			ejection_seat_name = 313,
 			g_suit = 2,
 			pos = { 4, 0.65, 0 },
 			role = "pilot",
@@ -11454,10 +11503,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			can_be_playable = true,
 			canopy_arg = 38,
 			canopy_pos = { 3.916, 0.798, 0 },
-			drop_canopy_name = 310,
+			drop_canopy_name = 314,
 			ejection_added_speed = { -3, 15, 3 },
 			ejection_order = 1,
-			ejection_seat_name = 309,
+			ejection_seat_name = 313,
 			g_suit = 2,
 			pilot_body_arg = 472,
 			pos = { 2.5, 0.65, 0 },

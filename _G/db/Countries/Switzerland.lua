@@ -319,6 +319,20 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "cds_crate"
+				}, {
+					Name = "cds_barrels"
+				}, {
+					Name = "463_Pallet"
+				}, {
+					Name = "M92_Concrete_Barrier_Cargo"
+				}, {
+					Name = "M92_MRE_Pallet"
+				}, {
+					Name = "M92_Ammo_Pallet"
+				}, {
+					Name = "M92_10Ft_Container"
+				}, {
 					Name = "l118"
 				} }
 		},
@@ -803,6 +817,16 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "Beer Bomb"
+				}, {
+					Name = "Drop Zone Marker A"
+				}, {
+					Name = "Drop Zone Marker B"
+				}, {
+					Name = "Drop Zone Marker C"
+				}, {
+					Name = "Drop Zone Marker D"
+				}, {
+					Name = "Drop Zone Marker E"
 				}, {
 					Name = "AM32a-60_01"
 				}, {

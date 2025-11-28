@@ -5,6 +5,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	DetectionRange = 0,
 	DisplayName = "M92 B600 drivable",
+	IR_emission_coeff = 0.08,
 	MaxSpeed = 24.012,
 	Name = "M92 B600 drivable",
 	Rate = 3,
@@ -63,6 +64,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	tags = { "Unarmed", "Support & Logistics" },
 	type = "B600_drivable",
 	visual = {
+		IR = {
+			coeffs = { { 0.031, 0.0022, 3 }, { 0.003, 0.0031, 4.8 }, { 0.0036, 0.0039 }, { 0.01, 0.0017 }, { 0.3, 0.00016666666666667 } }
+		},
 		fire_pos = { 0, 0, 0 },
 		fire_size = 0.4,
 		fire_time = 500,

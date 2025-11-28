@@ -5,6 +5,7 @@ _G["warheads"]["C_8OFP2"] = {
 	cumulative_factor = 0,
 	cumulative_thickness = 0,
 	expl_mass = 2.8,
+	is_htp = true,
 	length = 0.696,
 	mass = 9.2,
 	obj_factors = { 1, 1 },

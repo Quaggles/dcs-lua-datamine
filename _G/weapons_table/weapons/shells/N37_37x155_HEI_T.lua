@@ -63,6 +63,6 @@ _G["weapons_table"]["weapons"]["shells"]["N37_37x155_HEI_T"] = {
 	type_name = "shell",
 	user_name = "37mm HEI T",
 	v0 = 690,
-	visual_effect_correction = 3,
+	visual_effect_correction = 0,
 	visual_effect_correction_rebound = 0.1
 }

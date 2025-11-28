@@ -431,6 +431,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				["C-101EB"] = {
 					enable_options_key_for_unit = "c101eb_common_enabled"
 				},
+				["CH-47Fbl1"] = <table 3>,
 				["Christen Eagle II"] = {
 					enable_options_key_for_unit = "CE_II_enabled"
 				},
@@ -1366,9 +1367,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	crew_members = { {
 			can_be_playable = true,
 			canopy_arg = 38,
-			drop_canopy_name = 283,
-			ejection_seat_name = 282,
-			pilot_name = 284,
+			drop_canopy_name = 287,
+			ejection_seat_name = 286,
+			pilot_name = 288,
 			pos = { 7.916, 0.986, 0 },
 			role = "pilot",
 			role_display_name = "Pilot"

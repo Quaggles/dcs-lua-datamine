@@ -1226,6 +1226,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				["C-101EB"] = {
 					enable_options_key_for_unit = "c101eb_common_enabled"
 				},
+				["CH-47Fbl1"] = <table 2>,
 				["Christen Eagle II"] = {
 					enable_options_key_for_unit = "CE_II_enabled"
 				},
@@ -3798,6 +3799,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		} },
 	crew_stations = "Hybrid",
 	detection_range_max = 0,
+	doors_movement = 2,
 	effects_presets = { {
 			effect = "APU_STARTUP_BLAST",
 			preset = "mi8mtv2",

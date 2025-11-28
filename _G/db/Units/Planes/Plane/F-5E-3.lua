@@ -1128,6 +1128,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				["C-101EB"] = {
 					enable_options_key_for_unit = "c101eb_common_enabled"
 				},
+				["CH-47Fbl1"] = <table 10>,
 				["Christen Eagle II"] = {
 					enable_options_key_for_unit = "CE_II_enabled"
 				},
@@ -4107,7 +4108,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	average_fuel_consumption = 0.06,
 	bank_angle_max = 60,
 	bigParkingRamp = false,
-	brakeshute_name = 355,
+	brakeshute_name = 359,
 	chaff_flare_dispenser = { {
 			dir = { 0, -1, 0 },
 			pos = { -1.3, -0.506, -0.496 }
@@ -4116,8 +4117,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	crew_members = { {
 			canopy_pos = { 1.17, 0, 0 },
 			drop_canopy_name = 43,
-			ejection_seat_name = 353,
-			pilot_name = 354,
+			ejection_seat_name = 357,
+			pilot_name = 358,
 			pos = { 2.94, 0.28, 0 },
 			role = "pilot",
 			role_display_name = "Pilot"

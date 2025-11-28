@@ -23,7 +23,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			label = "Aircraft Type On Spawn",
 			playerOnly = true,
 			values = { {
-					dispName = "Random",
+					dispName = "Default",
 					id = 0
 				}, {
 					dispName = "Reference",
@@ -1547,6 +1547,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			mm = 0,
 			mmint = 1,
 			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "/F-4E-45-MC/Left Wing/Wing Inner/Flap/Actuator/Actuator:Mechanical Failure",
+			label = "Left Flap Actuator",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "/F-4E-45-MC/Right Wing/Wing Inner/Flap/Actuator/Actuator:Mechanical Failure",
+			label = "Right Flap Actuator",
+			mm = 0,
+			mmint = 1,
+			prob = 100
 		} },
 	Guns = { {
 			_file = "./CoreMods/aircraft/F-4E/Entry/F-4E.lua",
@@ -2313,7 +2329,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Vy_max = 210,
 	Waypoint_Custom_Panel = true,
 	WingSpan = 11.7,
-	WorldID = 344,
+	WorldID = 345,
 	_file = "./CoreMods/aircraft/F-4E/Entry/F-4E.lua",
 	_origin = "F-4E AI by Heatblur Simulations",
 	air_refuel_receptacle_pos = "AIR_REFUELING_RECEPTACLE",
