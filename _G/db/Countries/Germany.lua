@@ -1550,6 +1550,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "C-101CC"
 				}, {
+					Name = "C-130J-30"
+				}, {
 					Name = "JF-17"
 				}, {
 					Name = "Falcon_Gyrocopter"

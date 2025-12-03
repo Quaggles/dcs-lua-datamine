@@ -143,7 +143,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		ECM = "AN/ALQ-165",
 		IRCM = "AN/ALQ-157"
 	},
-	Countries = { "Algeria", "Australia", "Austria", "Argentina", "Belgium", "Brazil", "Bulgaria", "Canada", "Chile", "China", "Denmark", "Egypt", "France", "Georgia", "Greece", "Honduras", "India", "Indonesia", "Insurgents", "Iran", "Iraq", "Israel", "Italy", "Japan", "Jordan", "Kuwait", "Libya", "Malaysia", "Mexico", "Morocco", "The Netherlands", "Norway", "Oman", "Pakistan", "Philippines", "Poland", "Portugal", "Romania", "Russia", "Saudi Arabia", "South Africa", "South Korea", "Spain", "Sudan", "Sweden", "Thailand", "Tunisia", "Turkey", "United Arab Emirates", "UK", "USA", "Venezuela", "Yemen", "USAF Aggressors", "Combined Joint Task Forces Red", "Combined Joint Task Forces Blue", "United Nations Peacekeepers" },
+	Countries = { "Algeria", "Australia", "Austria", "Argentina", "Belgium", "Brazil", "Bulgaria", "Canada", "Chile", "China", "Denmark", "Egypt", "Germany", "France", "Georgia", "Greece", "Honduras", "India", "Indonesia", "Insurgents", "Iran", "Iraq", "Israel", "Italy", "Japan", "Jordan", "Kuwait", "Libya", "Malaysia", "Mexico", "Morocco", "The Netherlands", "Norway", "Oman", "Pakistan", "Philippines", "Poland", "Portugal", "Romania", "Russia", "Saudi Arabia", "South Africa", "South Korea", "Spain", "Sudan", "Sweden", "Thailand", "Tunisia", "Turkey", "United Arab Emirates", "UK", "USA", "Venezuela", "Yemen", "USAF Aggressors", "Combined Joint Task Forces Red", "Combined Joint Task Forces Blue", "United Nations Peacekeepers" },
 	Damage = { {
 			args = { 150 },
 			construction = {
@@ -168,7 +168,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				durability = 1.78,
 				skin = "Glass"
 			},
-			critical_damage = 2,
+			critical_damage = 5,
 			damage_boundary = 0.22,
 			droppable = false
 		},
@@ -178,7 +178,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				durability = 4.15,
 				skin = "Aluminum"
 			},
-			critical_damage = 3.5,
+			critical_damage = 5.5,
 			damage_boundary = 0.1,
 			droppable = false
 		},
@@ -188,7 +188,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				durability = 4.15,
 				skin = "Aluminum"
 			},
-			critical_damage = 3.5,
+			critical_damage = 5.5,
 			damage_boundary = 0.1,
 			droppable = false
 		},
@@ -244,60 +244,60 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[23] = {
 			args = { 223 },
-			critical_damage = 7,
+			critical_damage = 9,
 			deps_cells = { 25 },
 			droppable = true,
 			droppable_shape = "C130J_WING_L_OUT_obl"
 		},
 		[24] = {
 			args = { 213 },
-			critical_damage = 7,
+			critical_damage = 9,
 			deps_cells = { 62, 26 },
 			droppable = true,
 			droppable_shape = "C130J_WING_R_OUT_obl"
 		},
 		[25] = {
 			args = { 226 },
-			critical_damage = 5,
+			critical_damage = 7,
 			droppable = true,
 			droppable_shape = "C130J_ail_l_obl"
 		},
 		[26] = {
 			args = { 216 },
-			critical_damage = 5,
+			critical_damage = 7,
 			droppable = true,
 			droppable_shape = "C130J_ail_r_obl"
 		},
 		[27] = {
 			args = { -1 },
-			critical_damage = 5,
+			critical_damage = 7,
 			droppable = false
 		},
 		[28] = {
 			args = { -1 },
-			critical_damage = 5,
+			critical_damage = 7,
 			droppable = false
 		},
 		[33] = {
 			args = { -1 },
-			critical_damage = 5,
+			critical_damage = 7,
 			droppable = false
 		},
 		[34] = {
 			args = { -1 },
-			critical_damage = 5,
+			critical_damage = 7,
 			droppable = false
 		},
 		[35] = {
 			args = { 224 },
-			critical_damage = 7,
+			critical_damage = 11,
 			deps_cells = { 23, 61, 103 },
 			droppable = true,
 			droppable_shape = "C130J_WING_L_OUT_obl"
 		},
 		[36] = {
 			args = { 214 },
-			critical_damage = 7,
+			critical_damage = 11,
 			deps_cells = { 34, 24, 62, 106 },
 			droppable = true,
 			droppable_shape = "C130J_WING_R_OUT_obl"
@@ -308,42 +308,42 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			droppable = false
 		},
 		[45] = {
-			args = { 240 },
-			critical_damage = 7,
+			args = { 241 },
+			critical_damage = 9,
 			deps_cells = {},
 			droppable = true,
 			droppable_shape = "C130J_STABILIZER_OUT_obl"
 		},
 		[47] = {
 			args = { 243, 242 },
-			critical_damage = 7,
+			critical_damage = 11,
 			deps_cells = { 45, 53 },
 			droppable = true,
 			droppable_shape = "C130J_STABILIZER_IN_obl"
 		},
 		[49] = {
 			args = { 236 },
-			critical_damage = 5,
+			critical_damage = 7,
 			droppable = false
 		},
 		[50] = {
 			args = { 238 },
-			critical_damage = 5,
+			critical_damage = 7,
 			droppable = false
 		},
 		[51] = {
 			args = { 239 },
-			critical_damage = 3,
+			critical_damage = 7,
 			droppable = false
 		},
 		[52] = {
 			args = { 237 },
-			critical_damage = 3,
+			critical_damage = 7,
 			droppable = false
 		},
 		[53] = {
 			args = { 247 },
-			critical_damage = 7,
+			critical_damage = 8,
 			droppable = true,
 			droppable_shape = "C130J_rudder_obl"
 		},
@@ -840,146 +840,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		} },
 	Guns = {},
 	H_max = 24384,
-	HumanCockpit = true,
-	HumanCockpitPath = "./Mods/aircraft/C130J/Cockpit/Scripts/",
-	HumanCockpitPlugins = { {
-			_file = "./Mods/aircraft/NS430/entry.lua",
-			_origin = "NS430",
-			name = "NS430",
-			path = "./Mods/aircraft/NS430/Cockpit/Scripts/",
-			per_unit_data = {
-				["A-10A"] = {
-					enable_options_key_for_unit = "a10a_enabled"
-				},
-				["A-10C"] = <2>{
-					enable_options_key_for_unit = "disabled"
-				},
-				["A-10C_2"] = <table 2>,
-				["AH-64D_BLK_II"] = <table 2>,
-				AJS37 = {
-					enable_options_key_for_unit = "ajs37_enabled"
-				},
-				AV8BNA = {
-					enable_options_key_for_unit = "av8b_enabled"
-				},
-				["Bf-109K-4"] = {
-					enable_options_key_for_unit = "bf109k4_enabled"
-				},
-				["C-101CC"] = {
-					enable_options_key_for_unit = "c101cc_common_enabled"
-				},
-				["C-101EB"] = {
-					enable_options_key_for_unit = "c101eb_common_enabled"
-				},
-				["CH-47Fbl1"] = <table 2>,
-				["Christen Eagle II"] = {
-					enable_options_key_for_unit = "CE_II_enabled"
-				},
-				["F-14B"] = {
-					enable_options_key_for_unit = "f14b_enabled"
-				},
-				["F-15C"] = {
-					enable_options_key_for_unit = "f15c_enabled"
-				},
-				["F-16C_50"] = <table 2>,
-				["F-5E-3"] = {
-					enable_options_key_for_unit = "f5e3_enabled"
-				},
-				["F-86F Sabre"] = {
-					enable_options_key_for_unit = "f86f_enabled"
-				},
-				["FA-18C_hornet"] = <table 2>,
-				["FW-190D9"] = {
-					enable_options_key_for_unit = "fw190d9_enabled"
-				},
-				["I-16"] = {
-					enable_options_key_for_unit = "i16_enabled"
-				},
-				["J-11A"] = {
-					enable_options_key_for_unit = "j11a_enabled"
-				},
-				["JF-17"] = {
-					enable_options_key_for_unit = "jf17_enabled"
-				},
-				["Ka-50"] = <table 2>,
-				["Ka-50_3"] = <table 2>,
-				["L-39C"] = {
-					enable_options_key_for_unit = "l39c_common_enabled"
-				},
-				["L-39ZA"] = {
-					enable_options_key_for_unit = "l39za_enabled"
-				},
-				["M-2000C"] = {
-					enable_options_key_for_unit = "miraj_enabled"
-				},
-				["Mi-24P"] = {
-					enable_options_key_for_unit = "mi24p_enabled"
-				},
-				["Mi-8MT"] = {
-					enable_options_key_for_unit = "mi8_common_enabled"
-				},
-				["MiG-15bis"] = {
-					enable_options_key_for_unit = "mig15bis_enabled"
-				},
-				["MiG-21bis"] = {
-					enable_options_key_for_unit = "mig21bis_enabled"
-				},
-				["MiG-29 Fulcrum"] = {
-					enable_options_key_for_unit = "mig29fulcrum_common_enabled"
-				},
-				["MiG-29A"] = {
-					enable_options_key_for_unit = "mig29a_enabled"
-				},
-				["MiG-29G"] = {
-					enable_options_key_for_unit = "mig29g_enabled"
-				},
-				["MiG-29S"] = {
-					enable_options_key_for_unit = "mig29s_enabled"
-				},
-				["P-51D"] = {
-					enable_options_key_for_unit = "p51d_enabled"
-				},
-				SA342L = {
-					enable_options_key_for_unit = "sa342_enabled"
-				},
-				SA342M = {
-					enable_options_key_for_unit = "sa342_enabled"
-				},
-				SA342Minigun = {
-					enable_options_key_for_unit = "sa342_enabled"
-				},
-				SA342Mistral = {
-					enable_options_key_for_unit = "sa342_enabled"
-				},
-				SpitfireLFMkIX = {
-					enable_options_key_for_unit = "SpitfireLFMkIX_enabled"
-				},
-				SpitfireLFMkIXCW = {
-					enable_options_key_for_unit = "SpitfireLFMkIXCW_enabled"
-				},
-				["Su-25"] = {
-					enable_options_key_for_unit = "su25_enabled"
-				},
-				["Su-25T"] = {
-					enable_options_key_for_unit = "su25t_enabled"
-				},
-				["Su-27"] = {
-					enable_options_key_for_unit = "su27_enabled"
-				},
-				["Su-33"] = {
-					enable_options_key_for_unit = "su33_enabled"
-				},
-				["TF-51D"] = {
-					enable_options_key_for_unit = "tf51d_enabled"
-				},
-				["UH-1H"] = {
-					enable_options_key_for_unit = "uh1h_enabled"
-				},
-				["Yak-52"] = {
-					enable_options_key_for_unit = "yak52_enabled"
-				}
-			}
-		} },
 	HumanRadio = {
 		editable = true,
 		frequency = 305,
@@ -1101,7 +961,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	M_fuel_max = 19692,
 	M_max = 79379,
 	M_nominal = 45874.4,
-	Mach_max = 0.53,
+	Mach_max = 0.63,
 	MaxFuelWeight = 19692,
 	MaxHeight = 24384,
 	MaxSpeed = 630,
@@ -1168,37 +1028,38 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		aerodynamics = {
 			Cy0 = 0,
 			Czbe = -0.012,
-			Mzalfa = 6.6,
-			Mzalfadt = 1,
+			Mzalfa = 4.8,
+			Mzalfadt = 0.8,
 			cx_brk = 0.06,
 			cx_flap = 0.08,
 			cx_gear = 0.015,
 			cy_flap = 1,
 			kjx = 2.85,
-			kjz = 0.00125,
-			table_data = { { 0, 0.024, 0.1, 0.0384, 1e-06, 0.5, 11, 1.2 }, { 0.2, 0.024, 0.1, 0.0384, 1e-06, 0.8, 12, 1.2 }, { 0.4, 0.024, 0.1, 0.0384, 1e-06, 1, 13, 1.2 }, { 0.5, 0.024, 0.1, 0.0384, 1e-06, 1.1, 14, 1.2 }, { 0.6, 0.027, 0.1, 0, 0.3, 1.2, 15, 1.2 }, { 0.7, 0.031, 0.1, 0.045, 0.9, 1.3, 16, 1 }, { 0.8, 0.036, 0.1, 0.107, 1, 1.3, 15, 0.8 }, { 0.9, 0.045, 0.1, 0.148, 0.058, 1.35, 10, 0.6 }, { 1, 0.054, 0.1, 0.199, 0.1, 1.4, 7, 0.53333333333333 }, { 1.5, 0.054, 0.1, 0.199, 0.1, 1.5, 3, 0.2 } }
+			kjz = 0.0085,
+			table_data = { { 0, 0.0245, 0.095, 0.04, 1e-05, 0.5, 15, 1.35 }, { 0.2, 0.0245, 0.095, 0.04, 1e-05, 0.7, 15, 1.35 }, { 0.3, 0.0245, 0.095, 0.04, 1e-05, 0.8, 15, 1.32 }, { 0.4, 0.0248, 0.095, 0.041, 1e-05, 0.9, 14, 1.28 }, { 0.5, 0.0255, 0.094, 0.042, 2e-05, 1, 13, 1.22 }, { 0.55, 0.0265, 0.093, 0.044, 3e-05, 1, 12, 1.18 }, { 0.6, 0.028, 0.091, 0.046, 5e-05, 0.95, 11, 1.12 }, { 0.65, 0.031, 0.088, 0.05, 0.0001, 0.85, 10, 1.05 }, { 0.7, 0.036, 0.084, 0.056, 0.0003, 0.75, 9, 0.95 }, { 0.75, 0.045, 0.078, 0.065, 0.0008, 0.65, 8, 0.85 }, { 0.8, 0.058, 0.07, 0.08, 0.002, 0.55, 7, 0.75 } }
 		},
 		engine = {
 			ForsRUD = 1,
 			MaksRUD = 1,
 			MaxRUD = 1,
 			MinRUD = 0,
-			Nmg = 67.5,
+			Nmg = 73.5,
 			Nominal_Fan_RPM = 1025,
 			Nominal_RPM = 100,
+			Startup_Prework = 15,
 			cefor = 0.37,
 			cemax = 1.24,
 			dcx_eng = 0.0144,
 			dpdh_f = 13200,
 			dpdh_m = 6600,
 			engines_count = 4,
-			hMaxEng = 19.5,
+			hMaxEng = 12,
 			prop_blades_count = 6,
 			prop_direction = 2,
 			prop_pitch_feather = 92.5,
 			prop_pitch_max = 82,
 			prop_pitch_min = -6,
-			table_data = { { 0, 150792 }, { 0.1, 148288 }, { 0.2, 523532 }, { 0.3, 503802 }, { 0.4, 387547 }, { 0.5, 371709 }, { 0.6, 358459 }, { 0.7, 348624 }, { 0.8, 341439 }, { 0.9, 333000 } },
+			table_data = { { 0, 152000 }, { 0.1, 158000 }, { 0.15, 162000 }, { 0.2, 163000 }, { 0.25, 161000 }, { 0.3, 156000 }, { 0.35, 148000 }, { 0.4, 138000 }, { 0.45, 126000 }, { 0.5, 113000 }, { 0.55, 98000 }, { 0.6, 82000 }, { 0.65, 65000 }, { 0.7, 48000 } },
 			type = "TurboProp"
 		}
 	},
