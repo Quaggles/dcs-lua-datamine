@@ -49,7 +49,19 @@ _G["rockets"]["#Index"] = {
 	user_name = "TGM-65D",
 	v_mid = 290,
 	v_min = 50,
-	warhead = "_G/warheads/TGM_65D.lua",
+	warhead = {
+		caliber = 0.305,
+		concrete_factors = { 1, 1, 1 },
+		concrete_obj_factor = 0,
+		cumulative_factor = 0,
+		cumulative_thickness = 0,
+		default_fuze_delay = 0,
+		expl_mass = 0,
+		mass = 0,
+		obj_factors = { 1, 1 },
+		other_factors = { 1, 1, 1 },
+		piercing_mass = 0
+	},
 	wsTypeOfWeapon = <1>{ 4, 4, 101, "Redacted" },
 	ws_type = <table 1>
 }

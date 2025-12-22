@@ -17,16 +17,36 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			LN = { {
 					BR = { {
 							connector_name = "POINT_ROCKET_01",
-							drawArgument = 4
+							drawArgument = 4,
+							recoilArgument = 8,
+							recoilT0 = -1,
+							recoilT1 = -0.3,
+							recoilT2 = 1,
+							recoilTime = 2
 						}, {
 							connector_name = "POINT_ROCKET_04",
-							drawArgument = 7
+							drawArgument = 7,
+							recoilArgument = 9,
+							recoilT0 = -1,
+							recoilT1 = -0.3,
+							recoilT2 = 1,
+							recoilTime = 2
 						}, {
 							connector_name = "POINT_ROCKET_02",
-							drawArgument = 5
+							drawArgument = 5,
+							recoilArgument = 10,
+							recoilT0 = -1,
+							recoilT1 = -0.3,
+							recoilT2 = 1,
+							recoilTime = 2
 						}, {
 							connector_name = "POINT_ROCKET_03",
-							drawArgument = 6
+							drawArgument = 6,
+							recoilArgument = 11,
+							recoilT0 = -1,
+							recoilT1 = -0.3,
+							recoilT2 = 1,
+							recoilTime = 2
 						} },
 					PL = { {
 							type_ammunition = {}

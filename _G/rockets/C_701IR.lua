@@ -114,8 +114,19 @@ _G["rockets"]["#Index"] = {
 	user_name = "C-701IR",
 	v_mid = 290,
 	v_min = 50,
-	warhead = "_G/warheads/C701.lua",
-	warhead_air = "_G/warheads/C701.lua",
-	wsTypeOfWeapon = <1>{ 4, 4, 8, "Redacted" },
-	ws_type = <table 1>
+	warhead = <1>{
+		caliber = 180,
+		concrete_factors = { 2, 1, 1 },
+		concrete_obj_factor = 2,
+		cumulative_factor = 2,
+		cumulative_thickness = 0,
+		expl_mass = 15,
+		mass = 29,
+		obj_factors = { 2, 1 },
+		other_factors = { 1, 1, 1 },
+		piercing_mass = 5.8
+	},
+	warhead_air = <table 1>,
+	wsTypeOfWeapon = <2>{ 4, 4, 8, "Redacted" },
+	ws_type = <table 2>
 }

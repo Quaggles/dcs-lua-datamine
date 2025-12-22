@@ -11,6 +11,17 @@ _G["bombs"]["#Index"] = {
 	mass = 269,
 	name = "SAMP250HD",
 	type = 1,
-	warhead = "_G/warheads/SAMP250.lua",
+	warhead = {
+		caliber = 324,
+		concrete_factors = { 1, 1, 0.5 },
+		concrete_obj_factor = 1,
+		cumulative_factor = 0,
+		cumulative_thickness = 0,
+		expl_mass = 100,
+		mass = 220,
+		obj_factors = { 1, 1, 1 },
+		other_factors = { 1, 1, 1 },
+		piercing_mass = 44
+	},
 	ws_type = { 4, 5, 9, "Redacted" }
 }

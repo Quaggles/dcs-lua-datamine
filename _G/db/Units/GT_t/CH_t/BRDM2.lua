@@ -7,6 +7,7 @@ _G["db"]["Units"]["GT_t"]["CH_t"]["BRDM2"] = {
 	Z_gear_2 = 0.9,
 	armour_thickness = 0.011,
 	canSwim = true,
+	chassisDeepening = 0.05,
 	engine_power = 140,
 	gear_type = 1,
 	length = 5.75,
@@ -20,5 +21,16 @@ _G["db"]["Units"]["GT_t"]["CH_t"]["BRDM2"] = {
 	r_max = 0.5,
 	trace_width = 0.28,
 	waterline_level = 1.4,
+	wheelPosts = { {
+			pos = {}
+		}, {
+			pos = {}
+		}, {
+			pos = {},
+			steering = false
+		}, {
+			pos = {},
+			steering = false
+		} },
 	width = 2.35
 }

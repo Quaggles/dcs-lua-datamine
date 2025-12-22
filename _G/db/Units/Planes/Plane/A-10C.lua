@@ -2636,8 +2636,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			bailout_arg = -1,
 			boarding_arg = 323,
 			drop_canopy_name = 20,
-			ejection_seat_name = 17,
-			pos = { 3.949, 1.01, 0 },
+			ejection_seat_name = 270,
+			pilot_name = 271,
+			pos = { 4.32, 0.67, 0 },
 			role = "pilot",
 			role_display_name = "Pilot"
 		} },

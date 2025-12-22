@@ -336,6 +336,8 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "Strela-1 9P31"
+				}, {
 					Name = "TugHarlan_drivable"
 				}, {
 					Name = "B600_drivable"
@@ -1096,6 +1098,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "A-10C_2"
 				}, {
+					Name = "A6E"
+				}, {
 					Name = "AJS37"
 				}, {
 					Name = "AV8BNA"
@@ -1192,6 +1196,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "HarborTug"
 				}, {
 					Name = "Ship_Tilde_Supply"
+				}, {
+					Name = "Type_021_1"
 				} }
 		},
 		WWIIstructures = {

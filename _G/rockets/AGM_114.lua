@@ -154,8 +154,19 @@ _G["rockets"]["#Index"] = {
 	user_name = "AGM-114L",
 	v_mid = 250,
 	v_min = 0,
-	warhead = "_G/warheads/AGM_114K.lua",
-	warhead_air = "_G/warheads/AGM_114K.lua",
-	wsTypeOfWeapon = <1>{ 4, 4, 8, "Redacted" },
-	ws_type = <table 1>
+	warhead = <1>{
+		caliber = 178,
+		concrete_factors = { 1, 1, 1 },
+		concrete_obj_factor = 0,
+		cumulative_factor = 3,
+		cumulative_thickness = 1.2,
+		expl_mass = 5.67,
+		mass = 9.98,
+		obj_factors = { 1, 1 },
+		other_factors = { 1, 1, 1 },
+		piercing_mass = 1.996
+	},
+	warhead_air = <table 1>,
+	wsTypeOfWeapon = <2>{ 4, 4, 8, "Redacted" },
+	ws_type = <table 2>
 }

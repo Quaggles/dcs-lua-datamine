@@ -170,8 +170,19 @@ _G["rockets"]["#Index"] = {
 	user_name = "AIM-7P",
 	v_mid = 500,
 	v_min = 140,
-	warhead = "_G/warheads/AIM_7.lua",
-	warhead_air = "_G/warheads/AIM_7.lua",
-	wsTypeOfWeapon = <1>{ 4, 4, 7, "Redacted" },
-	ws_type = <table 1>
+	warhead = <1>{
+		caliber = 203,
+		concrete_factors = { 1, 1, 1 },
+		concrete_obj_factor = 0,
+		cumulative_factor = 0,
+		cumulative_thickness = 0,
+		expl_mass = 39,
+		mass = 39,
+		obj_factors = { 1, 1 },
+		other_factors = { 1, 1, 1 },
+		piercing_mass = 7.8
+	},
+	warhead_air = <table 1>,
+	wsTypeOfWeapon = <2>{ 4, 4, 7, "Redacted" },
+	ws_type = <table 2>
 }

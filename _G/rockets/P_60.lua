@@ -57,7 +57,18 @@ _G["rockets"]["#Index"] = {
 	user_name = "R-60M (AA-8 Aphid-B)",
 	v_mid = 400,
 	v_min = 140,
-	warhead = "_G/warheads/P_60.lua",
+	warhead = {
+		caliber = 120,
+		concrete_factors = { 1, 1, 1 },
+		concrete_obj_factor = 0,
+		cumulative_factor = 0,
+		cumulative_thickness = 0,
+		expl_mass = 3.5,
+		mass = 3.5,
+		obj_factors = { 1, 1 },
+		other_factors = { 1, 1, 1 },
+		piercing_mass = 0.7
+	},
 	wsTypeOfWeapon = <1>{ 4, 4, 7, "Redacted" },
 	ws_type = <table 1>
 }

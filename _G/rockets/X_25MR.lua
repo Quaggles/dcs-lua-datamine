@@ -110,7 +110,7 @@ _G["rockets"]["#Index"] = {
 		tail_width = 0.1,
 		work_time = 7
 	},
-	model = "X-25MP",
+	model = "x-25mr",
 	name = "X_25MR",
 	scheme = "KH-25MR",
 	sigma = { 5.6, 6, 5.6 },
@@ -132,8 +132,20 @@ _G["rockets"]["#Index"] = {
 	user_name = "Kh-25MR",
 	v_mid = 300,
 	v_min = 170,
-	warhead = "_G/warheads/X_25MR.lua",
-	warhead_air = "_G/warheads/X_25MR.lua",
-	wsTypeOfWeapon = <1>{ 4, 4, 8, "Redacted" },
-	ws_type = <table 1>
+	warhead = <1>{
+		caliber = 275,
+		concrete_factors = { 1, 1, 1 },
+		concrete_obj_factor = 0,
+		cumulative_factor = 0,
+		cumulative_thickness = 0,
+		default_fuze_delay = 0,
+		expl_mass = 56,
+		mass = 56,
+		obj_factors = { 1, 1 },
+		other_factors = { 1, 1, 1 },
+		piercing_mass = 11.2
+	},
+	warhead_air = <table 1>,
+	wsTypeOfWeapon = <2>{ 4, 4, 8, "Redacted" },
+	ws_type = <table 2>
 }

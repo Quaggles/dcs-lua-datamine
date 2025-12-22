@@ -114,7 +114,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_25MR"] = {
 			tail_width = 0.1,
 			work_time = 7
 		},
-		model = "X-25MP",
+		model = "x-25mr",
 		name = "X_25MR",
 		scheme = "schemes/missiles/KH-25MR.sch",
 		sigma = { 5.6, 6, 5.6 },
@@ -169,7 +169,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_25MR"] = {
 	display_name = "Kh-25MR",
 	display_name_short = "Kh-25",
 	mass = 297,
-	model = "X-25MP",
+	model = "x-25mr",
 	name = "X_25MR",
 	server = {
 		Cx_pil = 8.57,
@@ -281,7 +281,7 @@ _G["weapons_table"]["weapons"]["missiles"]["X_25MR"] = {
 			tail_width = 0.1,
 			work_time = 7
 		},
-		model = "X-25MP",
+		model = "x-25mr",
 		name = "X_25MR",
 		scheme = "schemes/missiles/KH-25MR.sch",
 		sigma = { 5.6, 6, 5.6 },

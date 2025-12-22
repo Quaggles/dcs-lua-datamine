@@ -11,6 +11,18 @@ _G["bombs"]["#Index"] = {
 	mass = 476.3,
 	name = "Mk_83AIR",
 	type = 1,
-	warhead = "_G/warheads/Mk_83.lua",
+	warhead = {
+		caliber = 356,
+		concrete_factors = { 1.35, 1.35, 0.135 },
+		concrete_obj_factor = 1.35,
+		cumulative_factor = 0,
+		cumulative_thickness = 0,
+		expl_mass = 201.9,
+		length = 1.956,
+		mass = 446.8,
+		obj_factors = { 1.35, 1.35 },
+		other_factors = { 1.35, 1.35, 1.35 },
+		piercing_mass = 89.36
+	},
 	ws_type = { 4, 5, 9, "Redacted" }
 }

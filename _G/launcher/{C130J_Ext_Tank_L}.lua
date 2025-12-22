@@ -4,7 +4,7 @@ _G["launcher"]["{C130J_Ext_Tank_L}"] = {
 	Elements = { {
 			ShapeName = "C130J_Ext_Tank_L"
 		} },
-	Picture = "Herc_Bomb.png",
+	Picture = "Herc_ExtFuelTank.png",
 	Weight = 4145.83088,
 	Weight_Empty = 108.86208,
 	_file = "./CoreMods/aircraft/C130J/loadout.lua",

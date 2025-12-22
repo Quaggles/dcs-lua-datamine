@@ -2,7 +2,11 @@ _G["launcher"]["{HB_F4E_MK-81_3x}"] = {
 	CLSID = "{HB_F4E_MK-81_3x}",
 	Count = 3,
 	Cx_pil = 0.00283,
-	Elements = { "_G/Pylons/HB_F-4E_BRU-42.lua", {
+	Elements = { {
+			IsAdapter = true,
+			Position = { 0, 0, 0 },
+			ShapeName = "HB_F-4E_BRU-42"
+		}, {
 			DrawArgs = { { 1, 1 }, { 2, 1 } },
 			ShapeName = "MK-81",
 			connector_name = "BRU-42_RIGHT"

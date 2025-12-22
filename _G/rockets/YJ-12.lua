@@ -213,8 +213,20 @@ _G["rockets"]["#Index"] = {
 	user_name = "YJ-12",
 	v_mid = 850,
 	v_min = 170,
-	warhead = "_G/warheads/YJ_12.lua",
-	warhead_air = "_G/warheads/YJ_12.lua",
-	wsTypeOfWeapon = <1>{ 4, 4, 8, "Redacted" },
-	ws_type = <table 1>
+	warhead = <1>{
+		caliber = 756,
+		concrete_factors = { 1, 1, 1 },
+		concrete_obj_factor = 2,
+		cumulative_factor = 2,
+		cumulative_thickness = 0.1,
+		default_fuze_delay = 0,
+		expl_mass = 80,
+		mass = 80,
+		obj_factors = { 2.5, 1 },
+		other_factors = { 1, 1, 1 },
+		piercing_mass = 16
+	},
+	warhead_air = <table 1>,
+	wsTypeOfWeapon = <2>{ 4, 4, 8, "Redacted" },
+	ws_type = <table 2>
 }

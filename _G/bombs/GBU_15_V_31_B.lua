@@ -14,6 +14,17 @@ _G["bombs"]["#Index"] = {
 	mass = 1125,
 	name = "GBU_15_V_31_B",
 	type = 3,
-	warhead = "_G/warheads/BLU_109.lua",
+	warhead = {
+		caliber = 457,
+		concrete_factors = { 5.9, 1.18, 11.8 },
+		concrete_obj_factor = 5.9,
+		cumulative_factor = 0,
+		cumulative_thickness = 0,
+		expl_mass = 250,
+		mass = 910,
+		obj_factors = { 1.18, 1.18 },
+		other_factors = { 1.18, 1.18, 1.18 },
+		piercing_mass = 182
+	},
 	ws_type = { 4, 5, 36, "Redacted" }
 }

@@ -12,6 +12,18 @@ _G["bombs"]["#Index"] = {
 	mass = 1525,
 	name = "KAB_1500T",
 	type = 3,
-	warhead = "_G/warheads/KAB_1500F.lua",
+	warhead = {
+		caliber = 580,
+		concrete_factors = { 1, 1, 1 },
+		concrete_obj_factor = 0,
+		cumulative_factor = 0,
+		cumulative_thickness = 0,
+		default_fuze_delay = 0,
+		expl_mass = 468,
+		mass = 468,
+		obj_factors = { 1, 1 },
+		other_factors = { 1, 1, 1 },
+		piercing_mass = 93.6
+	},
 	ws_type = { 4, 5, 36, "Redacted" }
 }

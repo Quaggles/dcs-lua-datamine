@@ -500,6 +500,14 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "T-34-85"
+				}, {
+					Name = "BTR-60"
+				}, {
+					Name = "BTR-70"
+				}, {
+					Name = "P14_SR"
+				}, {
 					Name = "CHAP_MATV"
 				}, {
 					Name = "TugHarlan_drivable"
@@ -1321,6 +1329,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "A-10A"
 				}, {
 					Name = "A-10C_2"
+				}, {
+					Name = "A6E"
 				}, {
 					Name = "AJS37"
 				}, {

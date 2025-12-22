@@ -158,13 +158,25 @@ _G["rockets"]["#Index"] = {
 	user_name = "Kh-29TE",
 	v_mid = 250,
 	v_min = 170,
-	warhead = "_G/warheads/X_29TE.lua",
-	warhead_air = "_G/warheads/X_29TE.lua",
+	warhead = <1>{
+		caliber = 380,
+		concrete_factors = { 5, 1, 10 },
+		concrete_obj_factor = 5,
+		cumulative_factor = 0,
+		cumulative_thickness = 0,
+		default_fuze_delay = 0,
+		expl_mass = 126.8,
+		mass = 126.8,
+		obj_factors = { 1, 1 },
+		other_factors = { 1, 1, 1 },
+		piercing_mass = 25.36
+	},
+	warhead_air = <table 1>,
 	wcs_emulator = {
 		K_loft = 2.5e-05,
 		delay = 0.005,
 		los_roll = -0.78539816339745
 	},
-	wsTypeOfWeapon = <1>{ 4, 4, 8, "Redacted" },
-	ws_type = <table 1>
+	wsTypeOfWeapon = <2>{ 4, 4, 8, "Redacted" },
+	ws_type = <table 2>
 }

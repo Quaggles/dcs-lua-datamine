@@ -53,7 +53,18 @@ _G["rockets"]["#Index"] = {
 	user_name = "CATM-9M",
 	v_mid = 350,
 	v_min = 140,
-	warhead = "_G/warheads/AIM_9.lua",
+	warhead = {
+		caliber = 127,
+		concrete_factors = { 1, 1, 1 },
+		concrete_obj_factor = 0,
+		cumulative_factor = 0,
+		cumulative_thickness = 0,
+		expl_mass = 9.44,
+		mass = 9.44,
+		obj_factors = { 1, 1 },
+		other_factors = { 1, 1, 1 },
+		piercing_mass = 1.888
+	},
 	wsTypeOfWeapon = <1>{ 4, 4, 100, "Redacted" },
 	ws_type = <table 1>
 }

@@ -1,6 +1,27 @@
 _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	AOA_take_off = 0.19,
 	AddPropAircraft = { {
+			arg = 509,
+			control = "comboList",
+			defValue = 1,
+			id = "HelmetMountedDevice",
+			label = "Helmet Mounted Device",
+			playerOnly = true,
+			values = { {
+					dispName = "Not installed",
+					id = 0,
+					value = 0.5
+				}, {
+					dispName = "HMCS",
+					id = 1,
+					value = 0
+				}, {
+					dispName = "HMCS + NVG",
+					id = 2,
+					value = 1
+				} },
+			wCtrl = 150
+		}, {
 			control = "label",
 			id = "datalink_Label",
 			label = "DATALINK",
@@ -2721,8 +2742,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			bailout_arg = -1,
 			boarding_arg = 323,
 			drop_canopy_name = 20,
-			ejection_seat_name = 17,
-			pos = { 3.949, 1.01, 0 },
+			ejection_seat_name = 270,
+			pilot_name = 271,
+			pos = { 4.32, 0.67, 0 },
 			role = "pilot",
 			role_display_name = "Pilot"
 		} },

@@ -34,6 +34,7 @@ _G["rockets"]["#Index"] = {
 		Kp = 0.016,
 		delay = 0.5,
 		fins_discreet = 0.01,
+		fins_limit = 0.26,
 		max_ctrl_angle = 1.1,
 		no_ctrl_center_ang = 2e-05,
 		op_time = 20

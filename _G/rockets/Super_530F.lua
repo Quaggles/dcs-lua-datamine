@@ -54,7 +54,18 @@ _G["rockets"]["#Index"] = {
 	user_name = "S530F",
 	v_mid = 1000,
 	v_min = 140,
-	warhead = "_G/warheads/Super_530D.lua",
+	warhead = {
+		caliber = 263,
+		concrete_factors = { 1, 1, 1 },
+		concrete_obj_factor = 0,
+		cumulative_factor = 0,
+		cumulative_thickness = 0,
+		expl_mass = 27,
+		mass = 27,
+		obj_factors = { 1, 1 },
+		other_factors = { 1, 1, 1 },
+		piercing_mass = 5.4
+	},
 	wsTypeOfWeapon = <1>{ 4, 4, 7, "Redacted" },
 	ws_type = <table 1>
 }

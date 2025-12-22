@@ -212,6 +212,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "BRDM-2"
+				}, {
+					Name = "Strela-1 9P31"
+				}, {
 					Name = "TugHarlan_drivable"
 				}, {
 					Name = "B600_drivable"
@@ -448,10 +452,6 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "BRDM-2",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
 					Name = "BTR_D",
 					in_service = 0,
 					out_of_service = 40000
@@ -625,10 +625,6 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "SNR_75V",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "Strela-1 9P31",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -813,6 +809,34 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "SON_9",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "T-34-85",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "BTR-60",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "BTR-70",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "T62M",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "T-80B",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "BRDM-2_malyutka",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "P14_SR",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -1405,18 +1429,6 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "M1126 Stryker ICV",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "BTR-60",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "BTR-70",
-					in_service = 0,
-					out_of_service = 40000
-				}, {
-					Name = "T-34-85",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -2396,6 +2408,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "A-10C_2"
 				}, {
+					Name = "A6E"
+				}, {
 					Name = "AJS37"
 				}, {
 					Name = "AV8BNA"
@@ -2910,6 +2924,10 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "Higgins_boat",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Type_021_1",
 					in_service = 0,
 					out_of_service = 40000
 				}, {

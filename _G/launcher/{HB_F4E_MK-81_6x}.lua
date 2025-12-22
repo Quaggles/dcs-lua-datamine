@@ -2,7 +2,12 @@ _G["launcher"]["{HB_F4E_MK-81_6x}"] = {
 	CLSID = "{HB_F4E_MK-81_6x}",
 	Count = 6,
 	Cx_pil = 0.00318,
-	Elements = { "_G/Pylons/HB_ORD_MER.lua", {
+	Elements = { {
+			DrawArgs = { { 1, 0 } },
+			IsAdapter = true,
+			Position = { 0, 0, 0 },
+			ShapeName = "HB_ORD_MER"
+		}, {
 			DrawArgs = { { 1, 1 }, { 2, 1 } },
 			ShapeName = "MK-81",
 			connector_name = "POINT_PYLON_03"

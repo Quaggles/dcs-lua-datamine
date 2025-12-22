@@ -620,6 +620,16 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "BTR-60"
+				}, {
+					Name = "BTR-70"
+				}, {
+					Name = "T62M"
+				}, {
+					Name = "T-80B"
+				}, {
+					Name = "P14_SR"
+				}, {
 					Name = "CHAP_TorM2"
 				}, {
 					Name = "CHAP_9K720_HE"
@@ -1393,6 +1403,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "A-10A"
 				}, {
 					Name = "A-10C_2"
+				}, {
+					Name = "A6E"
 				}, {
 					Name = "AJS37"
 				}, {

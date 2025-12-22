@@ -1636,6 +1636,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "BRDM-2"
+				}, {
+					Name = "Strela-1 9P31"
+				}, {
 					Name = "CHAP_M1083"
 				}, {
 					Name = "CHAP_MATV"
@@ -2627,6 +2631,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Bf-109K-4"
 				}, {
 					Name = "A-20G"
+				}, {
+					Name = "A6E"
 				}, {
 					Name = "AJS37"
 				}, {

@@ -1689,8 +1689,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		} },
 	crew_members = { {
 			canopy_pos = { 4.7, 0, 0 },
-			drop_canopy_name = 272,
-			ejection_seat_name = 271,
+			drop_canopy_name = 275,
+			ejection_seat_name = 274,
 			pos = { 4.8, 0.6, 0 },
 			role = "pilot",
 			role_display_name = "Pilot"
@@ -2049,11 +2049,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			username = "AJS37",
 			vis = 3
 		}, {
-			classname = "lLandPlane",
 			file = "su-25-oblomok",
 			fire = { 240, 2 },
-			name = "su-25-oblomok",
-			positioning = "BYNORMAL"
+			name = "su-25-oblomok"
 		} },
 	swapped_names = true,
 	tand_gear_max = 0.4,
