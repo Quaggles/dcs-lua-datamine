@@ -20,6 +20,6 @@ _G["launcher"]["{HB_F4E_LAU-68_MK1_1x}"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = '1x LAU-68 pod - 7 x 2.75" FFAR, UnGd Rkts Mk1, HE (TER)',
-	name = "{HB_F4E_LAU-68_MK1_1x}",
+	name = "HB_F-4E_BRU-42",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

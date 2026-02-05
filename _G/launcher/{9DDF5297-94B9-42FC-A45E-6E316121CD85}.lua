@@ -23,6 +23,7 @@ _G["launcher"]["{9DDF5297-94B9-42FC-A45E-6E316121CD85}"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 4,
 	displayName = "LAU-7 with 2 x AIM-9M Sidewinder IR AAM",
+	name = "F4-PILON",
 	settings = { {
 			baseDim = "",
 			control = "comboList",

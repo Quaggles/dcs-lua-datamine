@@ -27,6 +27,6 @@ _G["launcher"]["{HB_F4E_CBU-52B_MER_3x_Right}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "3x CBU-52B - 220 x HE/Frag bomblets (MER)",
-	name = "{HB_F4E_CBU-52B_MER_3x_Right}",
+	name = "HB_ORD_MER",
 	wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 }

@@ -29,6 +29,6 @@ _G["launcher"]["{HB_F4EAGM-65D_LAU88_3x_Left}"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
 	displayName = "3x AGM-65D - Maverick D (IIR ASM) (LAU-88)",
-	name = "{HB_F4EAGM-65D_LAU88_3x_Left}",
+	name = "HB_ORD_LAU-88",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

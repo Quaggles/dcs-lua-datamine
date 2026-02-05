@@ -16,6 +16,6 @@ _G["launcher"]["{HB_F4E_AGM-65D_LAU117_SWA}"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
 	displayName = "(Special Weapons Adapter) AGM-65D - Maverick D (IIR ASM) (LAU-117)(Special Weapons Adapter) ",
-	name = "{HB_F4E_AGM-65D_LAU117_SWA}",
+	name = "HB_F4E_LAU117",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

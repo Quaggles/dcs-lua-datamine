@@ -82,6 +82,6 @@ _G["launcher"]["{British_SAP_250LB_Bomb_Mk5}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		} }
 }

@@ -21,7 +21,7 @@ _G["launcher"]["{TER_9A_2L*LAU-131_WTU-1/B}"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "TER-9A: 2 x LAU-131 - 7 x UnGd Rkts, 70 mm Hydra 70 WTU-1/B TP",
-	name = "{TER_9A_2L*LAU-131_WTU-1/B}",
+	name = "TER-9A",
 	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

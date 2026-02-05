@@ -32,5 +32,6 @@ _G["launcher"]["{F789E86A-EE2E-4E6B-B81E-D5E5F903B6ED}"] = {
 	category = 2,
 	displayName = "APU-8 - 8 x 9M127 Vikhr - ATGM, LOSBR, Tandem HEAT/Frag",
 	kind_of_shipping = 0,
+	name = "9M120",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

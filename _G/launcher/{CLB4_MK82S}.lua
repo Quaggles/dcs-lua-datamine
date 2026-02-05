@@ -31,7 +31,7 @@ _G["launcher"]["{CLB4_MK82S}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "CLB 4 - 4 x Mk-82 Snakeye - 500lb GP Bomb HD",
-	name = "{CLB4_MK82S}",
+	name = "CLB_4",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -178,7 +178,7 @@ _G["launcher"]["{CLB4_MK82S}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -450,7 +450,7 @@ _G["launcher"]["{CLB4_MK82S}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -491,7 +491,7 @@ _G["launcher"]["{CLB4_MK82S}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -531,7 +531,7 @@ _G["launcher"]["{CLB4_MK82S}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",

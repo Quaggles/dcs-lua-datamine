@@ -144,7 +144,7 @@ _G["launcher"]["{GBU_31_V_4B}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -184,7 +184,7 @@ _G["launcher"]["{GBU_31_V_4B}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",

@@ -22,5 +22,6 @@ _G["launcher"]["CBLS-200"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "4*BDU-33 - AF/B37K Rack with 4*25lb Practice Bomb LD",
+	name = "CBLS-200",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

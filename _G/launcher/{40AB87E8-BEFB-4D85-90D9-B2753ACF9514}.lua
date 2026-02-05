@@ -19,5 +19,6 @@ _G["launcher"]["{40AB87E8-BEFB-4D85-90D9-B2753ACF9514}"] = {
 	attribute = { 4, 4, 32, "Redacted", "Cruise missiles" },
 	category = 2,
 	displayName = "Kh-59M (AS-18 Kazoo) - 930kg, ASM, IN",
+	name = "AKU-58",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

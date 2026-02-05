@@ -83,6 +83,6 @@ _G["launcher"]["{M2KC_BAP100_18_RACK}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "BAP-100 x 18",
-	name = "{M2KC_BAP100_18_RACK}",
+	name = "M-2000c_BAP_Rack",
 	wsTypeOfWeapon = { 4, 5, 37, "Redacted" }
 }

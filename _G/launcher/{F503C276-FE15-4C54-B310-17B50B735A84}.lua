@@ -47,19 +47,19 @@ _G["launcher"]["{F503C276-FE15-4C54-B310-17B50B735A84}"] = {
 					dispName = "ATM-E",
 					id = 1,
 					secondaryParams = {
-						tooltip = "Electronic, time"
+						tooltip = "Mechanical, time\nArmed by vane rotation"
 					}
 				}, {
 					dispName = "AT-E",
 					id = 2,
 					secondaryParams = {
-						tooltip = "Electronic, time"
+						tooltip = "Mechanical, time\nArmed by vane rotation"
 					}
 				}, {
 					dispName = "ATK-10E",
 					id = 3,
 					secondaryParams = {
-						tooltip = "Electronic, time"
+						tooltip = "Mechanical, time\nArmed by vane rotation"
 					}
 				}, {
 					dispName = "TM-24 + MDV-4",
@@ -175,7 +175,7 @@ _G["launcher"]["{F503C276-FE15-4C54-B310-17B50B735A84}"] = {
 			wCtrl = 60,
 			wDim = 30,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",
@@ -197,7 +197,7 @@ _G["launcher"]["{F503C276-FE15-4C54-B310-17B50B735A84}"] = {
 			wCtrl = 60,
 			wDim = 30,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",
@@ -219,7 +219,7 @@ _G["launcher"]["{F503C276-FE15-4C54-B310-17B50B735A84}"] = {
 			wCtrl = 60,
 			wDim = 30,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",
@@ -241,7 +241,7 @@ _G["launcher"]["{F503C276-FE15-4C54-B310-17B50B735A84}"] = {
 			wCtrl = 60,
 			wDim = 30,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		} },
 	wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 }

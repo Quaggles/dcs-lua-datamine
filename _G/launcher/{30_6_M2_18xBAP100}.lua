@@ -72,6 +72,6 @@ _G["launcher"]["{30_6_M2_18xBAP100}"] = {
 	displayName = "30-6-M2 - 18 x BAP-100 - 32kg Concrete Piercing Chute Retarded Bomb w/Booster",
 	ejectVelocity = 14,
 	kind_of_shipping = 1,
-	name = "{30_6_M2_18xBAP100}",
+	name = "30-6-M2",
 	wsTypeOfWeapon = { 4, 5, 37, "Redacted" }
 }

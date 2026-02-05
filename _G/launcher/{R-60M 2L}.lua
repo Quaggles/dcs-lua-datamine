@@ -19,5 +19,6 @@ _G["launcher"]["{R-60M 2L}"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 4,
 	displayName = "APU-60-2M with 2 x R-60M (AA-8 Aphid-B) - IR AAM",
+	name = "apu-60-2_L",
 	wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 }

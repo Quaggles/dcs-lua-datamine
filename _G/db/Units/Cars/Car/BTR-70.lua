@@ -87,7 +87,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					},
 					sightMaxTanVel = 22.222222222222
 				} },
-			angles = { { 2.7925268031909, -2.7925268031909, -0.10471975511966, 1.0471975511966 }, { -2.7925268031909, 2.7925268031909, -0.034906585039887, 1.0471975511966 } },
+			angles = { { 2.7925268031909, -2.7925268031909, -0.10471975511966, 0.5235987755983 }, { -2.7925268031909, 2.7925268031909, -0.034906585039887, 0.5235987755983 } },
 			center = "CENTER_TOWER_01",
 			cockpit = {
 				[2] = {}
@@ -128,7 +128,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		trace_width = 0.36
 	},
 	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
-	driverViewConnectorName = { "POINT_DRIVER",
+	driverViewConnectorName = { "DRIVER_POINT",
 		offset = { 0.05, 0, 0 }
 	},
 	enablePlayerCanDrive = true,

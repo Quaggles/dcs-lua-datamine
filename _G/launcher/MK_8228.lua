@@ -97,7 +97,8 @@ _G["launcher"]["MK_82*28"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "CBM - 28 x Mk-82 - 500lb GP Bomb LD",
-	name = "MK_82*28",
+	ejectVelocity = 5,
+	name = "B-1B_28-store_Conventional_Bomb_Module",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -244,7 +245,7 @@ _G["launcher"]["MK_82*28"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -465,7 +466,7 @@ _G["launcher"]["MK_82*28"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -498,7 +499,7 @@ _G["launcher"]["MK_82*28"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -538,7 +539,7 @@ _G["launcher"]["MK_82*28"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		} },
 	weapon_container_data = {
 		anim_pause_time = 3,

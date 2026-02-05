@@ -22,6 +22,6 @@ _G["launcher"]["{TER_9A_3*BDU-33}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "TER-9A with 3 x BDU-33 - 25lb Practice Bomb LD",
-	name = "{TER_9A_3*BDU-33}",
+	name = "TER-9A",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

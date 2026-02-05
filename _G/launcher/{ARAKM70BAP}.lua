@@ -45,5 +45,6 @@ _G["launcher"]["{ARAKM70BAP}"] = {
 	category = 3,
 	displayName = "ARAK M/70B AP 6x 135mm UnGd Rkts, Pshu70 HEAT",
 	kind_of_shipping = 1,
+	name = "ARAKM70B",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

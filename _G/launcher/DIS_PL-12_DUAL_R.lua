@@ -20,6 +20,6 @@ _G["launcher"]["DIS_PL-12_DUAL_R"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 4,
 	displayName = "PL-12 AAM x 2",
-	name = "DIS_PL-12_DUAL_R",
+	name = "JF-17_PF12_twin",
 	wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 }

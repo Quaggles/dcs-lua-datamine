@@ -71,6 +71,7 @@ _G["launcher"]["LAU3_WP61"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "LAU-3 - 19 x UnGd Rkts, 70 mm Hydra 70 Mk 61 TP",
+	name = "LAU-3",
 	shape_table_data = {},
 	weapon_container_data = {
 		launched_arg_state = 1,

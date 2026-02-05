@@ -40,6 +40,6 @@ _G["launcher"]["{CHAP_8x9M120F_Ataka_V}"] = {
 	category = 2,
 	displayName = "8 x Ataka 9M120F - AGM, SACLOS, HE",
 	kind_of_shipping = 0,
-	name = "{CHAP_8x9M120F_Ataka_V}",
+	name = "CHAP_Mi28N_ataka",
 	wsTypeOfWeapon = "weapons.missiles.Ataka_9M120F"
 }

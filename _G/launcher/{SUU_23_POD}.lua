@@ -8,6 +8,7 @@ _G["launcher"]["{SUU_23_POD}"] = {
 	Weight = 612.35,
 	_file = "./CoreMods/aircraft/F-4E/Entry/Weapons.lua",
 	_origin = "F-4E AI by Heatblur Simulations",
+	_unique_resource_name = "weapons.containers.{SUU_23_POD}",
 	attribute = { 4, 15, 46, "Redacted" },
 	category = 6,
 	displayName = "SUU-23",

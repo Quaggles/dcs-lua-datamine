@@ -26,7 +26,7 @@ _G["launcher"]["{HB_F4E_MK-82_3x}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "3x Mk-82 - 500lb GP Bomb LD (TER)",
-	name = "{HB_F4E_MK-82_3x}",
+	name = "HB_F-4E_BRU-42",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -173,7 +173,7 @@ _G["launcher"]["{HB_F4E_MK-82_3x}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -394,7 +394,7 @@ _G["launcher"]["{HB_F4E_MK-82_3x}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -434,7 +434,7 @@ _G["launcher"]["{HB_F4E_MK-82_3x}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -467,7 +467,7 @@ _G["launcher"]["{HB_F4E_MK-82_3x}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",

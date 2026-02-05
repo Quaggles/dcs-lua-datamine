@@ -38,6 +38,7 @@ _G["launcher"]["{4CD2BB0F-5493-44EF-A927-9760350F7BA1}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "HSAB - 9 x Mk-20 Rockeye - 490lbs CBU, 247 x HEAT Bomblets",
+	name = "b-52_HSAB",
 	settings = { {
 			baseDim = "",
 			control = "comboList",

@@ -13,6 +13,6 @@ _G["launcher"]["{British_AP_25LBNo1_3INCHNo1}"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "RP-3 25lb AP Mk.I",
-	name = "{British_AP_25LBNo1_3INCHNo1}",
+	name = "shot_25lb_ap_mkI",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

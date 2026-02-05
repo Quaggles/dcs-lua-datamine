@@ -20,19 +20,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			args = { 188 },
 			critical_damage = 3,
-			deps_cells = { 6 }
+			deps_cells = { 4 }
 		}, {
 			args = { 189 },
 			critical_damage = 3,
 			deps_cells = { 5 }
 		}, {
 			args = { 190 },
-			critical_damage = 3,
-			deps_cells = { 4 }
+			critical_damage = 3
 		}, {
 			args = { 191 },
-			critical_damage = 3,
-			deps_cells = { 3 }
+			critical_damage = 3
 		},
 		[9] = {
 			args = { 192 },
@@ -306,8 +304,20 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Picture = "Hawk.png",
 	Pylons = { {
 			Launchers = { {
-					CLSID = "{AIM-9M-ON-ADAPTER}",
-					arg = 315,
+					CLSID = "{FD90A1DC-9147-49FA-BF56-CB83EF0BD32B}",
+					arg = 314,
+					arg_value = 0.5
+				}, {
+					CLSID = "{CBU-87}",
+					arg = 314,
+					arg_value = 0.5
+				}, {
+					CLSID = "BRU-42_3*BDU-33",
+					arg = 314,
+					arg_value = 0.5
+				}, {
+					CLSID = "{60CC734F-0AFA-4E2E-82B8-93B941AB11CF}",
+					arg = 314,
 					arg_value = 0.5
 				} },
 			Number = 1,
@@ -322,20 +332,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
-					CLSID = "{Matra155RocketPod}",
-					arg = 314,
-					arg_value = 0.5
-				}, {
-					CLSID = "{CBU-87}",
-					arg = 314,
-					arg_value = 0.5
-				}, {
-					CLSID = "BRU-42_3*BDU-33",
-					arg = 314,
-					arg_value = 0.5
-				}, {
-					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
-					arg = 314,
+					CLSID = "{AIM-9M-ON-ADAPTER}",
+					arg = 315,
 					arg_value = 0.5
 				} },
 			Number = 2,
@@ -364,20 +362,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
-					CLSID = "{Matra155RocketPod}",
-					arg = 318,
-					arg_value = 0.5
-				}, {
-					CLSID = "{CBU-87}",
-					arg = 318,
-					arg_value = 0.5
-				}, {
-					CLSID = "BRU-42_3*BDU-33",
-					arg = 318,
-					arg_value = 0.5
-				}, {
-					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
-					arg = 314,
+					CLSID = "{AIM-9M-ON-ADAPTER}",
+					arg = 317,
 					arg_value = 0.5
 				} },
 			Number = 4,
@@ -392,8 +378,20 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
-					CLSID = "{AIM-9M-ON-ADAPTER}",
-					arg = 317,
+					CLSID = "{FD90A1DC-9147-49FA-BF56-CB83EF0BD32B}",
+					arg = 318,
+					arg_value = 0.5
+				}, {
+					CLSID = "{CBU-87}",
+					arg = 318,
+					arg_value = 0.5
+				}, {
+					CLSID = "BRU-42_3*BDU-33",
+					arg = 318,
+					arg_value = 0.5
+				}, {
+					CLSID = "{60CC734F-0AFA-4E2E-82B8-93B941AB11CF}",
+					arg = 318,
 					arg_value = 0.5
 				} },
 			Number = 5,

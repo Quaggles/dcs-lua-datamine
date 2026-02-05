@@ -14,6 +14,6 @@ _G["launcher"]["OH58D_AGM_114_L1"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
 	displayName = "1xAGM-114K",
-	name = "OH58D_AGM_114_L1",
+	name = "OH58D_HRACK_L",
 	wsTypeOfWeapon = "weapons.missiles.AGM_114K"
 }

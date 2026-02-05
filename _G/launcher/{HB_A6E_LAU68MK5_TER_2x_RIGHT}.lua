@@ -25,6 +25,6 @@ _G["launcher"]["{HB_A6E_LAU68MK5_TER_2x_RIGHT}"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = '2x LAU-68 pod - 7 x 2.75" FFAR, UnGd Rkts Mk5, HEAT (TER)',
-	name = "{HB_A6E_LAU68MK5_TER_2x_RIGHT}",
+	name = "HB_F-4E_BRU-42",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

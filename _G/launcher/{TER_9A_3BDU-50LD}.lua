@@ -19,7 +19,7 @@ _G["launcher"]["{TER_9A_3*BDU-50LD}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "TER-9A with 3 x BDU-50LD - 500lb Inert Practice Bomb LD",
-	name = "{TER_9A_3*BDU-50LD}",
+	name = "TER-9A",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -166,7 +166,7 @@ _G["launcher"]["{TER_9A_3*BDU-50LD}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -387,7 +387,7 @@ _G["launcher"]["{TER_9A_3*BDU-50LD}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -420,7 +420,7 @@ _G["launcher"]["{TER_9A_3*BDU-50LD}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -460,7 +460,7 @@ _G["launcher"]["{TER_9A_3*BDU-50LD}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		} },
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

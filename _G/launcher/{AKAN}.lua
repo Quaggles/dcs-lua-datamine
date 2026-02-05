@@ -8,6 +8,7 @@ _G["launcher"]["{AKAN}"] = {
 	Weight = 276,
 	_file = "./CoreMods/aircraft/AJS37/Entry/Weapons.lua",
 	_origin = "AJS37 AI by Heatblur Simulations",
+	_unique_resource_name = "weapons.containers.{AKAN}",
 	attribute = { 4, 15, 46, "Redacted" },
 	category = 6,
 	displayName = "AKAN M/55 Gunpod, 150 rnds MINGR55-HE",

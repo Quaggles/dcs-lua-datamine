@@ -16,7 +16,7 @@ _G["launcher"]["{BRU42_1X_GBU-12}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "BRU-42 with 1 x GBU-12 - 500lb Laser Guided Bomb",
-	name = "{BRU42_1X_GBU-12}",
+	name = "BRU-42_LS",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -176,7 +176,7 @@ _G["launcher"]["{BRU42_1X_GBU-12}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -209,7 +209,7 @@ _G["launcher"]["{BRU42_1X_GBU-12}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			control = "laserCode",
 			defValue = 1688,

@@ -18,7 +18,7 @@ _G["launcher"]["{AUF2_GBU12}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "AUF 2 - 2 x GBU-12 - 500lb Laser Guided Bomb",
-	name = "{AUF2_GBU12}",
+	name = "AUF2_RACK",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -178,7 +178,7 @@ _G["launcher"]["{AUF2_GBU12}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -211,7 +211,7 @@ _G["launcher"]["{AUF2_GBU12}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			control = "laserCode",
 			defValue = 1688,

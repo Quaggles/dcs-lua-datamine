@@ -16,6 +16,6 @@ _G["launcher"]["{HB_F4E_AGM-65B_LAU117}"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
 	displayName = "AGM-65B - Maverick B (TV Guided) (LAU-117)",
-	name = "{HB_F4E_AGM-65B_LAU117}",
+	name = "HB_F4E_LAU117",
 	wsTypeOfWeapon = "weapons.missiles.AGM_65B"
 }

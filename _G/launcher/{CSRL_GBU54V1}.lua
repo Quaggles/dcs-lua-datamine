@@ -41,7 +41,7 @@ _G["launcher"]["{CSRL_GBU54V1}"] = {
 	displayName = "CSRL - 8 x GBU-54(V)1/B - LJDAM, 500lb Laser & GPS Guided Bomb LD",
 	ejectPitchRate = -10,
 	ejectVelocity = 2,
-	name = "{CSRL_GBU54V1}",
+	name = "b-52_CRL_mod1",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -201,7 +201,7 @@ _G["launcher"]["{CSRL_GBU54V1}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -234,7 +234,7 @@ _G["launcher"]["{CSRL_GBU54V1}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			control = "laserCode",
 			defValue = 1688,

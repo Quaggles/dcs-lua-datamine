@@ -15,6 +15,6 @@ _G["launcher"]["DIS_HJ-12"] = {
 	category = 2,
 	displayName = "HJ-12",
 	ejectVelocity = 0,
-	name = "DIS_HJ-12",
+	name = "hj12-launcher-tube",
 	wsTypeOfWeapon = "weapons.missiles.HJ-12"
 }

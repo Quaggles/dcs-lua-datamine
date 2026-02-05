@@ -8,6 +8,7 @@ _G["launcher"]["{CC420_GUN_POD}"] = {
 	Weight = 205,
 	_file = "./CoreMods/aircraft/Mirage-F1/Weapons.lua",
 	_origin = "Mirage F1 Assets by Aerges",
+	_unique_resource_name = "weapons.containers.{CC420_GUN_POD}",
 	attribute = { 4, 15, 46, "Redacted" },
 	category = 6,
 	displayName = "CC420 DEFA-550 gun pod - 30mm Revolver Cannon",

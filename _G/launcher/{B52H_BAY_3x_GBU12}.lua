@@ -181,7 +181,7 @@ _G["launcher"]["{B52H_BAY_3x_GBU12}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -214,7 +214,7 @@ _G["launcher"]["{B52H_BAY_3x_GBU12}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			control = "laserCode",
 			defValue = 1688,

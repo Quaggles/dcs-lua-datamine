@@ -19,7 +19,7 @@ _G["launcher"]["{BRU33_2X_CBU-99}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "BRU-33 with 2 x CBU-99 - 490lbs, 247 x HEAT Bomblets",
-	name = "{BRU33_2X_CBU-99}",
+	name = "BRU_33A",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -165,7 +165,7 @@ _G["launcher"]["{BRU33_2X_CBU-99}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",

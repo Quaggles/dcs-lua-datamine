@@ -8,6 +8,7 @@ _G["launcher"]["{AN-M3}"] = {
 	Weight = 218,
 	_file = "./CoreMods/aircraft/C-101/Weapons.lua",
 	_origin = "C-101 Aviojet by AvioDev",
+	_unique_resource_name = "weapons.containers.{AN-M3}",
 	attribute = { 4, 15, 46, "Redacted" },
 	category = 6,
 	displayName = "AN-M3 - 2*Browning Machine Guns 12.7mm",

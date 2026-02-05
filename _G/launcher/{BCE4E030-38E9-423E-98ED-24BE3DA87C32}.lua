@@ -154,7 +154,7 @@ _G["launcher"]["{BCE4E030-38E9-423E-98ED-24BE3DA87C32}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -375,7 +375,7 @@ _G["launcher"]["{BCE4E030-38E9-423E-98ED-24BE3DA87C32}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -415,7 +415,7 @@ _G["launcher"]["{BCE4E030-38E9-423E-98ED-24BE3DA87C32}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -448,7 +448,7 @@ _G["launcher"]["{BCE4E030-38E9-423E-98ED-24BE3DA87C32}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",

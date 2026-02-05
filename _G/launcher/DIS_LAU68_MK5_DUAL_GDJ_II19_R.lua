@@ -21,5 +21,6 @@ _G["launcher"]["DIS_LAU68_MK5_DUAL_GDJ_II19_R"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "GDJ-II19 - 2 x LAU68 MK5",
+	name = "JF-17_GDJ-II19R",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

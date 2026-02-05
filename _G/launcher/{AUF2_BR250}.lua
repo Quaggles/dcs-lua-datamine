@@ -21,7 +21,7 @@ _G["launcher"]["{AUF2_BR250}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "AUF 2 - 2 x BR-250 - 250kg GP Bomb LD",
-	name = "{AUF2_BR250}",
+	name = "AUF2_RACK",
 	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

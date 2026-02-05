@@ -17,7 +17,7 @@ _G["launcher"]["{MAK79_MK83 1R}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "MAK79 Mk-83",
-	name = "{MAK79_MK83 1R}",
+	name = "MAK-79_VAR_2",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -164,7 +164,7 @@ _G["launcher"]["{MAK79_MK83 1R}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -385,7 +385,7 @@ _G["launcher"]["{MAK79_MK83 1R}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -425,7 +425,7 @@ _G["launcher"]["{MAK79_MK83 1R}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -458,7 +458,7 @@ _G["launcher"]["{MAK79_MK83 1R}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",

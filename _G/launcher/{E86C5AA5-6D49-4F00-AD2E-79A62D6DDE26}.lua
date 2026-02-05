@@ -17,5 +17,6 @@ _G["launcher"]["{E86C5AA5-6D49-4F00-AD2E-79A62D6DDE26}"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
 	displayName = "Kh-25MPU (Updated AS-12 Kegler) - 320kg, ARM, IN & Pas Rdr",
+	name = "APU-68",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

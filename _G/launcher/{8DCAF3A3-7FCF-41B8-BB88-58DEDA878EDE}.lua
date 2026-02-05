@@ -42,6 +42,6 @@ _G["launcher"]["{8DCAF3A3-7FCF-41B8-BB88-58DEDA878EDE}"] = {
 	ejectPitchRate = -10,
 	ejectVelocity = 1,
 	kind_of_shipping = 0,
-	name = "{8DCAF3A3-7FCF-41B8-BB88-58DEDA878EDE}",
+	name = "b-52_CSRL_ALCM",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

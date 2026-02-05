@@ -8,6 +8,7 @@ _G["launcher"]["{C-101-DEFA553}"] = {
 	Weight = 218,
 	_file = "./CoreMods/aircraft/C-101/Weapons.lua",
 	_origin = "C-101 Aviojet by AvioDev",
+	_unique_resource_name = "weapons.containers.{C-101-DEFA553}",
 	attribute = { 4, 15, 46, "Redacted" },
 	category = 6,
 	displayName = "DEFA-553 - 30mm Revolver Cannon",

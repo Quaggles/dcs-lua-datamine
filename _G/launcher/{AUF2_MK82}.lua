@@ -21,7 +21,7 @@ _G["launcher"]["{AUF2_MK82}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "AUF 2 - 2 x Mk-82 - 500lb GP Bomb LD",
-	name = "{AUF2_MK82}",
+	name = "AUF2_RACK",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -168,7 +168,7 @@ _G["launcher"]["{AUF2_MK82}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -389,7 +389,7 @@ _G["launcher"]["{AUF2_MK82}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -429,7 +429,7 @@ _G["launcher"]["{AUF2_MK82}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -462,7 +462,7 @@ _G["launcher"]["{AUF2_MK82}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",

@@ -16,6 +16,6 @@ _G["launcher"]["OH58D_FIM_92_L"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 4,
 	displayName = "2xFIM-92",
-	name = "OH58D_FIM_92_L",
+	name = "OH58D_SRACK_L",
 	wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 }

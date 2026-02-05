@@ -83,7 +83,7 @@ _G["launcher"]["{MOSSIE_4_British_HE_60LBFNo1_3INCHNo1_ON_RIGHT_WING_RAILS}"] = 
 			wCtrl = 60,
 			wDim = 30,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		} },
 	wsTypeOfWeapon = <table 1>
 }

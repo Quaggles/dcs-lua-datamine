@@ -22,6 +22,6 @@ _G["launcher"]["{HB_F4E_SAMP250LD_TER_2x_opposed}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "2x SAMP-250 - 250KG GP Bomb LD (TER)",
-	name = "{HB_F4E_SAMP250LD_TER_2x_opposed}",
+	name = "HB_F-4E_BRU-42",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

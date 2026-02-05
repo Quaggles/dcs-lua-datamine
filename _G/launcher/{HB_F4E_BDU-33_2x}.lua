@@ -22,6 +22,6 @@ _G["launcher"]["{HB_F4E_BDU-33_2x}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "2x BDU-33 - 25lb Practice Bomb LD (TER)",
-	name = "{HB_F4E_BDU-33_2x}",
+	name = "HB_F-4E_BRU-42",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

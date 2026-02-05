@@ -16,6 +16,8 @@ _G["launcher"]["{A4BCC903-06C8-47bb-9937-A30FEDB4E741}"] = {
 	},
 	Weight = 92.1,
 	_file = "Scripts/Database/db_weapons_data.lua",
+	_unique_resource_name = "weapons.containers.AIM-9S",
 	attribute = { 4, 15, 50, "Redacted" },
-	displayName = "Smokewinder - red"
+	displayName = "Smokewinder - red",
+	name = "AIM-9S"
 }

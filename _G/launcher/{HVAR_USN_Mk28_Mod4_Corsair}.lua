@@ -15,6 +15,6 @@ _G["launcher"]["{HVAR_USN_Mk28_Mod4_Corsair}"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "HVAR USN Mk28 Mod4 (Corsair) - 64 kg, unguided rocket",
-	name = "{HVAR_USN_Mk28_Mod4_Corsair}",
+	name = "HVAR_USN_Mk28_Mod4",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

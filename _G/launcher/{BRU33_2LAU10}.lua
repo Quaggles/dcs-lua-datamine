@@ -20,7 +20,7 @@ _G["launcher"]["{BRU33_2*LAU10}"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "BRU-33: 2 x LAU-10 - 4 x UnGd Rkts, 127 mm Zuni Mk. 24 Mod. 1 HE",
-	name = "{BRU33_2*LAU10}",
+	name = "BRU_33A",
 	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

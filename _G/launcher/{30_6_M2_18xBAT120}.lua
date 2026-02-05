@@ -72,6 +72,6 @@ _G["launcher"]["{30_6_M2_18xBAT120}"] = {
 	displayName = "30-6-M2 - 18 x BAT-120 ABL - 34kg HE/Frag Chute Retarded Bomb HD",
 	ejectVelocity = 14,
 	kind_of_shipping = 1,
-	name = "{30_6_M2_18xBAT120}",
+	name = "30-6-M2",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

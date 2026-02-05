@@ -26,6 +26,6 @@ _G["launcher"]["{HB_F4E_M117_3x}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "3x M117 - 750lb GP Bomb LD (TER)",
-	name = "{HB_F4E_M117_3x}",
+	name = "HB_F-4E_BRU-42",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

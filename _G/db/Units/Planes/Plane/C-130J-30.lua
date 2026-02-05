@@ -40,6 +40,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			id = "allow_air_load",
 			label = "Allow Cargo Loading In Flight"
 		}, {
+			control = "checkbox",
+			defValue = true,
+			id = "allow_moab",
+			label = "Allow MOAB Cargo"
+		}, {
 			control = "editbox",
 			getDefault = <function 1>,
 			id = "cargo_1",
@@ -1208,33 +1213,33 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		} },
 	engines_count = 4,
 	engines_nozzles = { {
-			diameter = 0.523,
+			diameter = 1.023,
 			elevation = 0,
-			exhaust_length_ab = 0,
-			exhaust_length_ab_K = 0,
+			exhaust_length_ab = 3.794,
+			exhaust_length_ab_K = 0.75,
 			pos = { 0.424, -0.716, -10.479 },
-			smokiness_level = 0
+			smokiness_level = 0.001
 		}, {
-			diameter = 0.523,
+			diameter = 1.023,
 			elevation = 0,
-			exhaust_length_ab = 0,
-			exhaust_length_ab_K = 0,
+			exhaust_length_ab = 3.794,
+			exhaust_length_ab_K = 0.75,
 			pos = { 0.424, -0.987, -5.162 },
-			smokiness_level = 0
+			smokiness_level = 0.001
 		}, {
-			diameter = 0.523,
+			diameter = 1.023,
 			elevation = 0,
-			exhaust_length_ab = 0,
-			exhaust_length_ab_K = 0,
+			exhaust_length_ab = 3.794,
+			exhaust_length_ab_K = 0.75,
 			pos = { 0.424, -0.987, 5.162 },
-			smokiness_level = 0
+			smokiness_level = 0.001
 		}, {
-			diameter = 0.523,
+			diameter = 1.023,
 			elevation = 0,
-			exhaust_length_ab = 0,
-			exhaust_length_ab_K = 0,
+			exhaust_length_ab = 3.794,
+			exhaust_length_ab_K = 0.75,
 			pos = { 0.424, -0.716, 10.479 },
-			smokiness_level = 0
+			smokiness_level = 0.001
 		} },
 	engines_startup_sequence = { 2, 3, 0, 1 },
 	fires_pos = {

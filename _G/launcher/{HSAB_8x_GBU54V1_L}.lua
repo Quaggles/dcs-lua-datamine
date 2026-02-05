@@ -40,7 +40,7 @@ _G["launcher"]["{HSAB_8x_GBU54V1_L}"] = {
 	displayName = "HSAB - 8 x GBU-54(V)1/B - LJDAM, 500lb Laser & GPS Guided Bomb LD",
 	ejectPitchRate = -10,
 	ejectVelocity = 2,
-	name = "{HSAB_8x_GBU54V1_L}",
+	name = "b-52_HSAB",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -200,7 +200,7 @@ _G["launcher"]["{HSAB_8x_GBU54V1_L}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -233,7 +233,7 @@ _G["launcher"]["{HSAB_8x_GBU54V1_L}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			control = "laserCode",
 			defValue = 1688,

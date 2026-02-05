@@ -8,6 +8,8 @@ _G["launcher"]["{F376DBEE-4CAE-41BA-ADD9-B2910AC95DEC}"] = {
 	Weight = 1338.1101068,
 	Weight_Empty = 215.5,
 	_file = "Scripts/Database/db_weapons_data.lua",
+	_unique_resource_name = "weapons.droptanks.fuel_tank_370gal",
 	attribute = { 1, 3, 43, "Redacted" },
-	displayName = "Fuel tank 370 gal"
+	displayName = "Fuel tank 370 gal",
+	name = "fuel_tank_370gal"
 }

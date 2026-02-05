@@ -13,6 +13,6 @@ _G["launcher"]["{ASM_N_2}"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 1,
 	displayName = "ASM-N-2 Bat - 1000lb Radar Guided Glide Bomb",
-	name = "{ASM_N_2}",
+	name = "ASM_N_2_Bat_0",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

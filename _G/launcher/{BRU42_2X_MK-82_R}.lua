@@ -19,7 +19,7 @@ _G["launcher"]["{BRU42_2X_MK-82_R}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "BRU-42 with 2 x Mk-82 - 500lb GP Bomb LD",
-	name = "{BRU42_2X_MK-82_R}",
+	name = "BRU-42_LS",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -166,7 +166,7 @@ _G["launcher"]["{BRU42_2X_MK-82_R}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -387,7 +387,7 @@ _G["launcher"]["{BRU42_2X_MK-82_R}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -427,7 +427,7 @@ _G["launcher"]["{BRU42_2X_MK-82_R}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -460,7 +460,7 @@ _G["launcher"]["{BRU42_2X_MK-82_R}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",

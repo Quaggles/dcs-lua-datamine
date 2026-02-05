@@ -11,6 +11,7 @@ _G["launcher"]["{CH47_STBD_M134D}"] = {
 	Weight_Empty = 175.68,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/gunpods.lua",
 	_origin = "AircraftWeaponPack",
+	_unique_resource_name = "weapons.containers.{CH47_STBD_M134D}",
 	attribute = { 4, 15, 46, "Redacted" },
 	category = 6,
 	control_container_data = {

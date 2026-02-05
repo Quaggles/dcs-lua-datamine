@@ -24,9 +24,9 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100MN"] = {
 		control = {
 			items_count = 7,
 			open_delay = 4,
-			open_interval = 1
+			open_interval = 0
 		},
-		display_name_short = "illum.",
+		display_name_short = "SAB-100",
 		fm = {
 			I = 10.0189875,
 			L = 1.065,
@@ -37,11 +37,13 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100MN"] = {
 			mass = 106,
 			release_rnd = 0.3,
 			release_rnd_x = 1,
-			wind_sigma = 30
+			wind_sigma = 30,
+			wind_time = 1000
 		},
 		hMax = 7000,
 		hMin = 400,
 		launcher = {
+			add_vel = { { -5, 0, 0 } },
 			ammunition = {
 				I = 0.16959635416667,
 				L = 0.625,
@@ -58,10 +60,10 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100MN"] = {
 					_origin = "AircraftWeaponPack",
 					anim_constraints = {
 						lead_chute_min_arg_val = 0,
-						main_chute_min_arg_val = 0.4
+						main_chute_min_arg_val = 1
 					},
 					anim_constraints_check_delay = {
-						delay_par = 10
+						delay_par = 5
 					},
 					arming_delay = {
 						delay_time = 0.8,
@@ -80,13 +82,17 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100MN"] = {
 						Ma = 0.68,
 						Mw = 5.6,
 						caliber = 0.08,
-						chute_Cx = 2.4,
+						chute_Cx = 1.51,
 						chute_Kmx = 1,
-						chute_Ma = 1,
-						chute_Mw = 5,
-						chute_diam = 1.5,
-						chute_open_time = 3,
+						chute_Ma = 0.5,
+						chute_Mw = 1,
+						chute_diam = 2.1,
+						chute_open_time = 5,
 						cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
+						lead_chute_Cx = 0.05,
+						lead_chute_cut_time = 5,
+						lead_chute_diam = 0.553,
+						lead_chute_open_time = 0,
 						mass = 5.21,
 						release_rnd = 0.3,
 						release_rnd_x = 1,
@@ -94,8 +100,13 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100MN"] = {
 					},
 					hMax = 2000,
 					hMin = 25,
+					lead_chute_draw_arg_anim = {
+						K_t = 2,
+						start_val = 0,
+						use_start_val = true
+					},
 					light = {
-						duration = 360,
+						duration = 450,
 						light_attenuation = 900,
 						light_color = { 0.25, 0.25, 0.2 },
 						light_position = { 0.45, -0.07, 0 },
@@ -103,10 +114,10 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100MN"] = {
 						smoke_position = { 0.45, -0.07, 0 },
 						smoke_transparency = 0.7843137254902,
 						smoke_width = 1,
-						start_time = 2
+						start_time = 0
 					},
 					main_chute_draw_arg_anim = {
-						K_t = 0.5,
+						K_t = 0.2,
 						start_val = 0,
 						use_start_val = true
 					},
@@ -117,17 +128,17 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100MN"] = {
 					shape_table_data = { {
 							file = "luu-2",
 							index = "Redacted",
-							username = "SAB-100 Flare"
+							username = "SAB-100MN Flare"
 						} },
 					targeting_data = {
 						char_time = 20.5
 					},
 					type = 2,
-					user_name = "SAB-100 Flare",
+					user_name = "SAB-100MN Flare",
 					wsTypeOfWeapon = { 4, 5, 49, "Redacted" }
 				},
 				cx = { 1, 0.39, 0.38, 0.236, 1.31 },
-				display_name = "SAB-100 Flare",
+				display_name = "SAB-100MN Flare",
 				display_name_short = "illum.",
 				mass = 5.21,
 				model = "luu-2",
@@ -140,10 +151,10 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100MN"] = {
 					_origin = "AircraftWeaponPack",
 					anim_constraints = {
 						lead_chute_min_arg_val = 0,
-						main_chute_min_arg_val = 0.4
+						main_chute_min_arg_val = 1
 					},
 					anim_constraints_check_delay = {
-						delay_par = 10
+						delay_par = 5
 					},
 					arming_delay = {
 						delay_time = 0.8,
@@ -162,13 +173,17 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100MN"] = {
 						Ma = 0.68,
 						Mw = 5.6,
 						caliber = 0.08,
-						chute_Cx = 2.4,
+						chute_Cx = 1.51,
 						chute_Kmx = 1,
-						chute_Ma = 1,
-						chute_Mw = 5,
-						chute_diam = 1.5,
-						chute_open_time = 3,
+						chute_Ma = 0.5,
+						chute_Mw = 1,
+						chute_diam = 2.1,
+						chute_open_time = 5,
 						cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
+						lead_chute_Cx = 0.05,
+						lead_chute_cut_time = 5,
+						lead_chute_diam = 0.553,
+						lead_chute_open_time = 0,
 						mass = 5.21,
 						release_rnd = 0.3,
 						release_rnd_x = 1,
@@ -176,8 +191,13 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100MN"] = {
 					},
 					hMax = 2000,
 					hMin = 25,
+					lead_chute_draw_arg_anim = {
+						K_t = 2,
+						start_val = 0,
+						use_start_val = true
+					},
 					light = {
-						duration = 360,
+						duration = 450,
 						light_attenuation = 900,
 						light_color = { 0.25, 0.25, 0.2 },
 						light_position = { 0.45, -0.07, 0 },
@@ -185,10 +205,10 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100MN"] = {
 						smoke_position = { 0.45, -0.07, 0 },
 						smoke_transparency = 0.7843137254902,
 						smoke_width = 1,
-						start_time = 2
+						start_time = 0
 					},
 					main_chute_draw_arg_anim = {
-						K_t = 0.5,
+						K_t = 0.2,
 						start_val = 0,
 						use_start_val = true
 					},
@@ -199,13 +219,13 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100MN"] = {
 					shape_table_data = { {
 							file = "luu-2",
 							index = "Redacted",
-							username = "SAB-100 Flare"
+							username = "SAB-100MN Flare"
 						} },
 					targeting_data = {
 						char_time = 20.5
 					},
 					type = 2,
-					user_name = "SAB-100 Flare",
+					user_name = "SAB-100MN Flare",
 					wsTypeOfWeapon = { 4, 5, 49, "Redacted" }
 				},
 				sounderName = "Weapons/Bomb",
@@ -216,19 +236,24 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100MN"] = {
 				ws_type = { 4, 5, 49, "Redacted" }
 			},
 			ammunition_name = "SAB_100_FLARE",
-			server = 0
+			conn_name_pattern = "Point_bombleta%03d",
+			conn_num = 7,
+			coord_donor_model = "SAB-100",
+			post_launch_model = "SAB-100",
+			server = 0,
+			subm_lead_chute_diam = { 0.553, 0.529, 0.505, 0.479, 0.451, 0.422, 0.391 }
 		},
 		mass = 106,
-		model = "sab-100",
+		model = "SAB-100",
 		name = "SAB_100MN",
-		scheme = "schemes/bombs/bomb-sab.sch",
+		scheme = "schemes/bombs/bomb_sab_v2.sch",
 		shape_table_data = { {
-				file = "sab-100",
+				file = "SAB-100",
 				index = "Redacted",
 				username = "SAB-100MN"
 			} },
 		targeting_data = {
-			char_time = 24.3
+			char_time = 20.77
 		},
 		type = 0,
 		user_name = "SAB-100MN",
@@ -236,9 +261,9 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100MN"] = {
 	},
 	cx = { 1, 0.39, 0.38, 0.236, 1.31 },
 	display_name = "SAB-100MN",
-	display_name_short = "illum.",
+	display_name_short = "SAB-100",
 	mass = 106,
-	model = "sab-100",
+	model = "SAB-100",
 	name = "SAB_100MN",
 	server = {
 		Ag = -1.23,
@@ -258,9 +283,9 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100MN"] = {
 		control = {
 			items_count = 7,
 			open_delay = 4,
-			open_interval = 1
+			open_interval = 0
 		},
-		display_name_short = "illum.",
+		display_name_short = "SAB-100",
 		fm = {
 			I = 10.0189875,
 			L = 1.065,
@@ -271,11 +296,13 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100MN"] = {
 			mass = 106,
 			release_rnd = 0.3,
 			release_rnd_x = 1,
-			wind_sigma = 30
+			wind_sigma = 30,
+			wind_time = 1000
 		},
 		hMax = 7000,
 		hMin = 400,
 		launcher = {
+			add_vel = { { -5, 0, 0 } },
 			ammunition = {
 				I = 0.16959635416667,
 				L = 0.625,
@@ -292,10 +319,10 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100MN"] = {
 					_origin = "AircraftWeaponPack",
 					anim_constraints = {
 						lead_chute_min_arg_val = 0,
-						main_chute_min_arg_val = 0.4
+						main_chute_min_arg_val = 1
 					},
 					anim_constraints_check_delay = {
-						delay_par = 10
+						delay_par = 5
 					},
 					arming_delay = {
 						delay_time = 0.8,
@@ -314,13 +341,17 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100MN"] = {
 						Ma = 0.68,
 						Mw = 5.6,
 						caliber = 0.08,
-						chute_Cx = 2.4,
+						chute_Cx = 1.51,
 						chute_Kmx = 1,
-						chute_Ma = 1,
-						chute_Mw = 5,
-						chute_diam = 1.5,
-						chute_open_time = 3,
+						chute_Ma = 0.5,
+						chute_Mw = 1,
+						chute_diam = 2.1,
+						chute_open_time = 5,
 						cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
+						lead_chute_Cx = 0.05,
+						lead_chute_cut_time = 5,
+						lead_chute_diam = 0.553,
+						lead_chute_open_time = 0,
 						mass = 5.21,
 						release_rnd = 0.3,
 						release_rnd_x = 1,
@@ -328,8 +359,13 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100MN"] = {
 					},
 					hMax = 2000,
 					hMin = 25,
+					lead_chute_draw_arg_anim = {
+						K_t = 2,
+						start_val = 0,
+						use_start_val = true
+					},
 					light = {
-						duration = 360,
+						duration = 450,
 						light_attenuation = 900,
 						light_color = { 0.25, 0.25, 0.2 },
 						light_position = { 0.45, -0.07, 0 },
@@ -337,10 +373,10 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100MN"] = {
 						smoke_position = { 0.45, -0.07, 0 },
 						smoke_transparency = 0.7843137254902,
 						smoke_width = 1,
-						start_time = 2
+						start_time = 0
 					},
 					main_chute_draw_arg_anim = {
-						K_t = 0.5,
+						K_t = 0.2,
 						start_val = 0,
 						use_start_val = true
 					},
@@ -351,17 +387,17 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100MN"] = {
 					shape_table_data = { {
 							file = "luu-2",
 							index = "Redacted",
-							username = "SAB-100 Flare"
+							username = "SAB-100MN Flare"
 						} },
 					targeting_data = {
 						char_time = 20.5
 					},
 					type = 2,
-					user_name = "SAB-100 Flare",
+					user_name = "SAB-100MN Flare",
 					wsTypeOfWeapon = { 4, 5, 49, "Redacted" }
 				},
 				cx = { 1, 0.39, 0.38, 0.236, 1.31 },
-				display_name = "SAB-100 Flare",
+				display_name = "SAB-100MN Flare",
 				display_name_short = "illum.",
 				mass = 5.21,
 				model = "luu-2",
@@ -374,10 +410,10 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100MN"] = {
 					_origin = "AircraftWeaponPack",
 					anim_constraints = {
 						lead_chute_min_arg_val = 0,
-						main_chute_min_arg_val = 0.4
+						main_chute_min_arg_val = 1
 					},
 					anim_constraints_check_delay = {
-						delay_par = 10
+						delay_par = 5
 					},
 					arming_delay = {
 						delay_time = 0.8,
@@ -396,13 +432,17 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100MN"] = {
 						Ma = 0.68,
 						Mw = 5.6,
 						caliber = 0.08,
-						chute_Cx = 2.4,
+						chute_Cx = 1.51,
 						chute_Kmx = 1,
-						chute_Ma = 1,
-						chute_Mw = 5,
-						chute_diam = 1.5,
-						chute_open_time = 3,
+						chute_Ma = 0.5,
+						chute_Mw = 1,
+						chute_diam = 2.1,
+						chute_open_time = 5,
 						cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
+						lead_chute_Cx = 0.05,
+						lead_chute_cut_time = 5,
+						lead_chute_diam = 0.553,
+						lead_chute_open_time = 0,
 						mass = 5.21,
 						release_rnd = 0.3,
 						release_rnd_x = 1,
@@ -410,8 +450,13 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100MN"] = {
 					},
 					hMax = 2000,
 					hMin = 25,
+					lead_chute_draw_arg_anim = {
+						K_t = 2,
+						start_val = 0,
+						use_start_val = true
+					},
 					light = {
-						duration = 360,
+						duration = 450,
 						light_attenuation = 900,
 						light_color = { 0.25, 0.25, 0.2 },
 						light_position = { 0.45, -0.07, 0 },
@@ -419,10 +464,10 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100MN"] = {
 						smoke_position = { 0.45, -0.07, 0 },
 						smoke_transparency = 0.7843137254902,
 						smoke_width = 1,
-						start_time = 2
+						start_time = 0
 					},
 					main_chute_draw_arg_anim = {
-						K_t = 0.5,
+						K_t = 0.2,
 						start_val = 0,
 						use_start_val = true
 					},
@@ -433,13 +478,13 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100MN"] = {
 					shape_table_data = { {
 							file = "luu-2",
 							index = "Redacted",
-							username = "SAB-100 Flare"
+							username = "SAB-100MN Flare"
 						} },
 					targeting_data = {
 						char_time = 20.5
 					},
 					type = 2,
-					user_name = "SAB-100 Flare",
+					user_name = "SAB-100MN Flare",
 					wsTypeOfWeapon = { 4, 5, 49, "Redacted" }
 				},
 				sounderName = "Weapons/Bomb",
@@ -450,19 +495,24 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100MN"] = {
 				ws_type = { 4, 5, 49, "Redacted" }
 			},
 			ammunition_name = "SAB_100_FLARE",
-			server = 1
+			conn_name_pattern = "Point_bombleta%03d",
+			conn_num = 7,
+			coord_donor_model = "SAB-100",
+			post_launch_model = "SAB-100",
+			server = 1,
+			subm_lead_chute_diam = { 0.553, 0.529, 0.505, 0.479, 0.451, 0.422, 0.391 }
 		},
 		mass = 106,
-		model = "sab-100",
+		model = "SAB-100",
 		name = "SAB_100MN",
-		scheme = "schemes/bombs/bomb-sab.sch",
+		scheme = "schemes/bombs/bomb_sab_v2.sch",
 		shape_table_data = { {
-				file = "sab-100",
+				file = "SAB-100",
 				index = "Redacted",
 				username = "SAB-100MN"
 			} },
 		targeting_data = {
-			char_time = 24.3
+			char_time = 20.77
 		},
 		type = 0,
 		user_name = "SAB-100MN",
@@ -470,7 +520,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_100MN"] = {
 	},
 	sounderName = "Weapons/Bomb",
 	targeting_data = {
-		char_time = 24.3
+		char_time = 20.77
 	},
 	type_name = "bomb",
 	ws_type = { 4, 5, 49, "Redacted" }

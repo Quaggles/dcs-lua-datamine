@@ -26,6 +26,6 @@ _G["launcher"]["{HB_F4E_BLU-107B_3x}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "3x BLU-107/B Durandal - 219kg Concrete Piercing Chute Retarded Bomb w/Booster (TER)",
-	name = "{HB_F4E_BLU-107B_3x}",
+	name = "HB_F-4E_BRU-42",
 	wsTypeOfWeapon = "weapons.bombs.Durandal"
 }

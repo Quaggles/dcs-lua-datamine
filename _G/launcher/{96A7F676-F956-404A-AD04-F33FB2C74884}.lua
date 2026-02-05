@@ -37,5 +37,6 @@ _G["launcher"]["{96A7F676-F956-404A-AD04-F33FB2C74884}"] = {
 	category = 1,
 	displayName = "KMGU-2 - 96 x AO-2.5RT Dispenser (CBU) HE/Frag",
 	kind_of_shipping = 2,
+	name = "kmgu-2",
 	wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 }

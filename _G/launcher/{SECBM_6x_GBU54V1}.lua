@@ -34,8 +34,8 @@ _G["launcher"]["{SECBM_6x_GBU54V1}"] = {
 	category = 1,
 	displayName = "SECBM - 6 x GBU-54(V)1/B - LJDAM, 500lb Laser & GPS Guided Bomb LD",
 	ejectPitchRate = -20,
-	ejectVelocity = 3,
-	name = "{SECBM_6x_GBU54V1}",
+	ejectVelocity = 5,
+	name = "B-1B_10-store_Conventional_Bomb_Module",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -195,7 +195,7 @@ _G["launcher"]["{SECBM_6x_GBU54V1}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -228,7 +228,7 @@ _G["launcher"]["{SECBM_6x_GBU54V1}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			control = "laserCode",
 			defValue = 1688,

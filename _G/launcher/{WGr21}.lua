@@ -13,7 +13,7 @@ _G["launcher"]["{WGr21}"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "Werfer-Granate 21 - 21 cm UnGd air-to-air rocket",
-	name = "{WGr21}",
+	name = "BR21-Gerat",
 	pilon_jettison_option = 2,
 	settings = { {
 			baseDim = "",
@@ -99,7 +99,7 @@ _G["launcher"]["{WGr21}"] = {
 			wCtrl = 60,
 			wDim = 30,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type",
@@ -120,7 +120,7 @@ _G["launcher"]["{WGr21}"] = {
 			wCtrl = 60,
 			wDim = 30,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		} },
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

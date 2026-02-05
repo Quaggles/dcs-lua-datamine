@@ -22,6 +22,6 @@ _G["launcher"]["{HB_F4E_CBU-52B_2x_SWA}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "(Special Weapons Adapter) 2x CBU-52B - 220 x HE/Frag bomblets (TER)",
-	name = "{HB_F4E_CBU-52B_2x_SWA}",
+	name = "HB_F-4E_BRU-42",
 	wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 }

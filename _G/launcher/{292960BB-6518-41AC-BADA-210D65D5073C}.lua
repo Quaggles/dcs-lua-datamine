@@ -18,5 +18,6 @@ _G["launcher"]["{292960BB-6518-41AC-BADA-210D65D5073C}"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
 	displayName = "Kh-25MR (AS-10 Karen) - 300kg, ASM, 10km, RC Guided",
+	name = "APU-68",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

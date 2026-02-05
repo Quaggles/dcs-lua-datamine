@@ -30,6 +30,7 @@ _G["launcher"]["{FC56DF80-9B09-44C5-8976-DCFAFF219062}"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "B-13L - 5 x UnGd Rkts, 122 mm S-13OF Blast/Fragmentation",
+	name = "UB-13",
 	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

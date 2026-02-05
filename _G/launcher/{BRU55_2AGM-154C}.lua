@@ -20,6 +20,6 @@ _G["launcher"]["{BRU55_2*AGM-154C}"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
 	displayName = "BRU-55 with 2 x AGM-154C - JSOW Unitary BROACH",
-	name = "{BRU55_2*AGM-154C}",
+	name = "BRU_55",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

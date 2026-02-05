@@ -22,7 +22,7 @@ _G["launcher"]["{British_MC_250LB_Bomb_Mk1_on_Handley_Page_Type_B_Cut_Bar}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "250 lb MC Mk.I",
-	name = "{British_MC_250LB_Bomb_Mk1_on_Handley_Page_Type_B_Cut_Bar}",
+	name = "Carrier_N-1_EM_EF",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -96,7 +96,7 @@ _G["launcher"]["{British_MC_250LB_Bomb_Mk1_on_Handley_Page_Type_B_Cut_Bar}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -170,7 +170,7 @@ _G["launcher"]["{British_MC_250LB_Bomb_Mk1_on_Handley_Page_Type_B_Cut_Bar}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		} },
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

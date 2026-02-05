@@ -41,7 +41,7 @@ _G["launcher"]["{CSRL_GBU38V1}"] = {
 	displayName = "CSRL - 8 x GBU-38(V)1/B - JDAM, 500lb GPS Guided Bomb",
 	ejectPitchRate = -10,
 	ejectVelocity = 2,
-	name = "{CSRL_GBU38V1}",
+	name = "b-52_CRL_mod1",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -277,7 +277,7 @@ _G["launcher"]["{CSRL_GBU38V1}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -317,7 +317,7 @@ _G["launcher"]["{CSRL_GBU38V1}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		} },
 	wsTypeOfWeapon = "weapons.bombs.GBU_38"
 }

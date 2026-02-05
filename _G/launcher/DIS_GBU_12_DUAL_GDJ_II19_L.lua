@@ -24,7 +24,7 @@ _G["launcher"]["DIS_GBU_12_DUAL_GDJ_II19_L"] = {
 	displayName = "GDJ-II19 - 2 x GBU-12",
 	ejectDirection = { 0, -1, 0 },
 	ejectVelocity = 1.8,
-	name = "DIS_GBU_12_DUAL_GDJ_II19_L",
+	name = "JF-17_GDJ-II19L",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -184,7 +184,7 @@ _G["launcher"]["DIS_GBU_12_DUAL_GDJ_II19_L"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -217,7 +217,7 @@ _G["launcher"]["DIS_GBU_12_DUAL_GDJ_II19_L"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			control = "laserCode",
 			defValue = 1688,

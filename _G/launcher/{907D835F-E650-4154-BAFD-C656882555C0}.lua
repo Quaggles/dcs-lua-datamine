@@ -27,5 +27,6 @@ _G["launcher"]["{907D835F-E650-4154-BAFD-C656882555C0}"] = {
 	category = 2,
 	displayName = "LAU-88 with 3 x AGM-65K - Maverick K (CCD Imp ASM)",
 	kind_of_shipping = 1,
+	name = "LAU-88",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

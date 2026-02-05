@@ -7,7 +7,9 @@ _G["launcher"]["oh-58-brauning"] = {
 	Picture = "oh58brau.png",
 	Weight = 290,
 	_file = "Scripts/Database/db_weapons_data.lua",
+	_unique_resource_name = "weapons.containers.oh-58-brauning",
 	attribute = { 4, 15, 46, "Redacted" },
 	displayName = "OH-58D Brauning",
-	kind_of_shipping = 2
+	kind_of_shipping = 2,
+	name = "oh-58-brauning"
 }

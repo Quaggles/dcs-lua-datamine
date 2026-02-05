@@ -22,6 +22,7 @@ _G["launcher"]["{FAB_250_DUAL_R}"] = {
 	displayName = "2 x FAB-250",
 	ejectDirection = { 0, -1, 0 },
 	ejectVelocity = 1.8,
+	name = "J-11A_twinpylon_r",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -257,7 +258,7 @@ _G["launcher"]["{FAB_250_DUAL_R}"] = {
 			wCtrl = 60,
 			wDim = 30,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",
@@ -278,7 +279,7 @@ _G["launcher"]["{FAB_250_DUAL_R}"] = {
 			wCtrl = 60,
 			wDim = 30,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",
@@ -299,7 +300,7 @@ _G["launcher"]["{FAB_250_DUAL_R}"] = {
 			wCtrl = 60,
 			wDim = 30,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",
@@ -327,7 +328,7 @@ _G["launcher"]["{FAB_250_DUAL_R}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",
@@ -352,7 +353,7 @@ _G["launcher"]["{FAB_250_DUAL_R}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",
@@ -383,7 +384,7 @@ _G["launcher"]["{FAB_250_DUAL_R}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",
@@ -408,7 +409,7 @@ _G["launcher"]["{FAB_250_DUAL_R}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -596,7 +597,7 @@ _G["launcher"]["{FAB_250_DUAL_R}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -624,7 +625,7 @@ _G["launcher"]["{FAB_250_DUAL_R}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -649,7 +650,7 @@ _G["launcher"]["{FAB_250_DUAL_R}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -678,7 +679,7 @@ _G["launcher"]["{FAB_250_DUAL_R}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -703,7 +704,7 @@ _G["launcher"]["{FAB_250_DUAL_R}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		} },
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

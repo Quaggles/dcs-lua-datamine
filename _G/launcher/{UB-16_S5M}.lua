@@ -92,6 +92,6 @@ _G["launcher"]["{UB-16_S5M}"] = {
 	category = 3,
 	displayName = "UB-16UM - 16 S-5M",
 	kind_of_shipping = 1,
-	name = "{UB-16_S5M}",
+	name = "UB-16",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

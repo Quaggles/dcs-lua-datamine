@@ -37,7 +37,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			pidZ = {},
 			pos = {}
 		},
-		maxTargetDetectionRange = 16000
+		maxTargetDetectionRange = 12000
 	},
 	Waypoint_Custom_Panel = true,
 	_file = "./Mods/tech/WWII Units/Database/db_units_cars.lua",

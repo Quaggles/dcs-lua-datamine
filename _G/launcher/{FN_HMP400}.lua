@@ -10,6 +10,7 @@ _G["launcher"]["{FN_HMP400}"] = {
 	Weight_Empty = 89,
 	_file = "./CoreMods/aircraft/SA342/SA342_Weapons.lua",
 	_origin = "SA342 AI by Polychop-Simulations",
+	_unique_resource_name = "weapons.containers.{FN_HMP400}",
 	attribute = { 4, 15, 46, "Redacted" },
 	category = 6,
 	displayName = "FN HMP400 (400rnds)",

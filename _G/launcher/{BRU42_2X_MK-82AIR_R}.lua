@@ -19,7 +19,7 @@ _G["launcher"]["{BRU42_2X_MK-82AIR_R}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "BRU-42 with 2 x Mk-82 AIR Ballute - 500lb GP Bomb HD",
-	name = "{BRU42_2X_MK-82AIR_R}",
+	name = "BRU-42_LS",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -166,7 +166,7 @@ _G["launcher"]["{BRU42_2X_MK-82AIR_R}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -438,7 +438,7 @@ _G["launcher"]["{BRU42_2X_MK-82AIR_R}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -479,7 +479,7 @@ _G["launcher"]["{BRU42_2X_MK-82AIR_R}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -519,7 +519,7 @@ _G["launcher"]["{BRU42_2X_MK-82AIR_R}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",

@@ -41,7 +41,7 @@ _G["launcher"]["{HSAB_Mk82AIR}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "HSAB - 9 x Mk-82 AIR Ballute - 500lb GP Bomb HD",
-	name = "{HSAB_Mk82AIR}",
+	name = "b-52_HSAB",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -188,7 +188,7 @@ _G["launcher"]["{HSAB_Mk82AIR}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -460,7 +460,7 @@ _G["launcher"]["{HSAB_Mk82AIR}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -501,7 +501,7 @@ _G["launcher"]["{HSAB_Mk82AIR}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -541,7 +541,7 @@ _G["launcher"]["{HSAB_Mk82AIR}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",

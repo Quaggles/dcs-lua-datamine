@@ -13,6 +13,6 @@ _G["launcher"]["{S-24A}"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "S-24A (21) - 180 kg, cumulative unguided rocket",
-	name = "{S-24A}",
+	name = "APU-12-40",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

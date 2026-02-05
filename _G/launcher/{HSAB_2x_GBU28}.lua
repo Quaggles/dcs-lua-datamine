@@ -22,7 +22,7 @@ _G["launcher"]["{HSAB_2x_GBU28}"] = {
 	displayName = "HSAB - 2 x GBU-28 - 5000lb Laser Guided Penetrator Bomb",
 	ejectPitchRate = -10,
 	ejectVelocity = 2,
-	name = "{HSAB_2x_GBU28}",
+	name = "b-52_HSAB",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -155,7 +155,7 @@ _G["launcher"]["{HSAB_2x_GBU28}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -195,7 +195,7 @@ _G["launcher"]["{HSAB_2x_GBU28}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			control = "laserCode",
 			defValue = 1688,

@@ -253,7 +253,7 @@ _G["launcher"]["{E659C4BE-2CD8-4472-8C08-3F28ACB61A8A}"] = {
 			wCtrl = 60,
 			wDim = 30,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",
@@ -274,7 +274,7 @@ _G["launcher"]["{E659C4BE-2CD8-4472-8C08-3F28ACB61A8A}"] = {
 			wCtrl = 60,
 			wDim = 30,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",
@@ -295,7 +295,7 @@ _G["launcher"]["{E659C4BE-2CD8-4472-8C08-3F28ACB61A8A}"] = {
 			wCtrl = 60,
 			wDim = 30,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",
@@ -323,7 +323,7 @@ _G["launcher"]["{E659C4BE-2CD8-4472-8C08-3F28ACB61A8A}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",
@@ -348,7 +348,7 @@ _G["launcher"]["{E659C4BE-2CD8-4472-8C08-3F28ACB61A8A}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",
@@ -379,7 +379,7 @@ _G["launcher"]["{E659C4BE-2CD8-4472-8C08-3F28ACB61A8A}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",
@@ -404,7 +404,7 @@ _G["launcher"]["{E659C4BE-2CD8-4472-8C08-3F28ACB61A8A}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -592,7 +592,7 @@ _G["launcher"]["{E659C4BE-2CD8-4472-8C08-3F28ACB61A8A}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -620,7 +620,7 @@ _G["launcher"]["{E659C4BE-2CD8-4472-8C08-3F28ACB61A8A}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -645,7 +645,7 @@ _G["launcher"]["{E659C4BE-2CD8-4472-8C08-3F28ACB61A8A}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -674,7 +674,7 @@ _G["launcher"]["{E659C4BE-2CD8-4472-8C08-3F28ACB61A8A}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -699,7 +699,7 @@ _G["launcher"]["{E659C4BE-2CD8-4472-8C08-3F28ACB61A8A}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		} },
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

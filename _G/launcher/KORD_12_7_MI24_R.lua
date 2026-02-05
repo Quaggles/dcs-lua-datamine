@@ -10,6 +10,7 @@ _G["launcher"]["KORD_12_7_MI24_R"] = {
 	Weight = 95,
 	_file = "./CoreMods/aircraft/Mi-24P/Mi-24P.lua",
 	_origin = "Mi-24P AI by Eagle Dynamics",
+	_unique_resource_name = "weapons.containers.KORD_12_7_MI24_R",
 	attribute = { 4, 15, 46, "Redacted" },
 	category = 6,
 	control_container_data = {

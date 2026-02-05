@@ -13,8 +13,8 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["Bofors_40mm"] = {
 			switch_on_delay = 1,
 			virtualStwID = 1
 		} },
-	distanceMax = 4000,
-	max_trg_alt = 3000,
+	distanceMax = 2000,
+	max_trg_alt = 2000,
 	name = "Bofors 40mm gun",
 	reactionTime = 2,
 	reflection_limit = 1.1,

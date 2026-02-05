@@ -16,5 +16,6 @@ _G["launcher"]["{57232979-8B0F-4db7-8D9A-55197E06B0F5}"] = {
 	category = 2,
 	displayName = "8 x 9M114 Shturm (AT-6 Spiral) - ATGM, SACLOS, HEAT",
 	kind_of_shipping = 0,
+	name = "9K114_Shturm",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

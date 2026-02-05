@@ -14,6 +14,6 @@ _G["launcher"]["OH58D_White_Smoke_Grenade"] = {
 	category = 1,
 	displayName = "1xWhite Smoke Grenade",
 	kind_of_shipping = 1,
-	name = "OH58D_White_Smoke_Grenade",
+	name = "oh58d_SMwhite",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

@@ -32,19 +32,19 @@ _G["launcher"]["{RBK_250_PTAB25M_DUAL_R}"] = {
 					dispName = "ATM-E",
 					id = 1,
 					secondaryParams = {
-						tooltip = "Electronic, time"
+						tooltip = "Mechanical, time\nArmed by vane rotation"
 					}
 				}, {
 					dispName = "AT-E",
 					id = 2,
 					secondaryParams = {
-						tooltip = "Electronic, time"
+						tooltip = "Mechanical, time\nArmed by vane rotation"
 					}
 				}, {
 					dispName = "ATK-10E",
 					id = 3,
 					secondaryParams = {
-						tooltip = "Electronic, time"
+						tooltip = "Mechanical, time\nArmed by vane rotation"
 					}
 				}, {
 					dispName = "TM-24 + MDV-4",
@@ -160,7 +160,7 @@ _G["launcher"]["{RBK_250_PTAB25M_DUAL_R}"] = {
 			wCtrl = 60,
 			wDim = 30,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",
@@ -182,7 +182,7 @@ _G["launcher"]["{RBK_250_PTAB25M_DUAL_R}"] = {
 			wCtrl = 60,
 			wDim = 30,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",
@@ -204,7 +204,7 @@ _G["launcher"]["{RBK_250_PTAB25M_DUAL_R}"] = {
 			wCtrl = 60,
 			wDim = 30,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",
@@ -226,12 +226,13 @@ _G["launcher"]["{RBK_250_PTAB25M_DUAL_R}"] = {
 			wCtrl = 60,
 			wDim = 30,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		} },
 	category = 1,
 	displayName = "2 x RBK-250 PTAB-2.5M",
 	ejectDirection = { 0, -1, 0 },
 	ejectVelocity = 1.8,
+	name = "J-11A_twinpylon_r",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -243,19 +244,19 @@ _G["launcher"]["{RBK_250_PTAB25M_DUAL_R}"] = {
 					dispName = "ATM-E",
 					id = 1,
 					secondaryParams = {
-						tooltip = "Electronic, time"
+						tooltip = "Mechanical, time\nArmed by vane rotation"
 					}
 				}, {
 					dispName = "AT-E",
 					id = 2,
 					secondaryParams = {
-						tooltip = "Electronic, time"
+						tooltip = "Mechanical, time\nArmed by vane rotation"
 					}
 				}, {
 					dispName = "ATK-10E",
 					id = 3,
 					secondaryParams = {
-						tooltip = "Electronic, time"
+						tooltip = "Mechanical, time\nArmed by vane rotation"
 					}
 				}, {
 					dispName = "TM-24 + MDV-4",
@@ -371,7 +372,7 @@ _G["launcher"]["{RBK_250_PTAB25M_DUAL_R}"] = {
 			wCtrl = 60,
 			wDim = 30,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",
@@ -393,7 +394,7 @@ _G["launcher"]["{RBK_250_PTAB25M_DUAL_R}"] = {
 			wCtrl = 60,
 			wDim = 30,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",
@@ -415,7 +416,7 @@ _G["launcher"]["{RBK_250_PTAB25M_DUAL_R}"] = {
 			wCtrl = 60,
 			wDim = 30,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",
@@ -437,7 +438,7 @@ _G["launcher"]["{RBK_250_PTAB25M_DUAL_R}"] = {
 			wCtrl = 60,
 			wDim = 30,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		} },
 	wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 }

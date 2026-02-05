@@ -72,6 +72,7 @@ _G["launcher"]["{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "B-8M1 - 20 x UnGd Rkts, 80 mm S-8KOM HEAT/Frag",
+	name = "B-20",
 	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

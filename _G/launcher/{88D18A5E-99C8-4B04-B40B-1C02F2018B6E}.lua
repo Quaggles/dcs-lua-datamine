@@ -23,7 +23,7 @@ _G["launcher"]["{88D18A5E-99C8-4B04-B40B-1C02F2018B6E}"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
 	displayName = "M299 - 4 x AGM-114K Hellfire",
-	name = "{88D18A5E-99C8-4B04-B40B-1C02F2018B6E}",
+	name = "M299",
 	shape_table_data = {},
 	wsTypeOfWeapon = "weapons.missiles.AGM_114K"
 }

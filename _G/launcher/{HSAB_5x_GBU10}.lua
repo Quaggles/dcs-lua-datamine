@@ -31,7 +31,7 @@ _G["launcher"]["{HSAB_5x_GBU10}"] = {
 	displayName = "HSAB - 5 x GBU-10 - 2000lb Laser Guided Bomb",
 	ejectPitchRate = -10,
 	ejectVelocity = 2,
-	name = "{HSAB_5x_GBU10}",
+	name = "b-52_HSAB",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -191,7 +191,7 @@ _G["launcher"]["{HSAB_5x_GBU10}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -224,7 +224,7 @@ _G["launcher"]["{HSAB_5x_GBU10}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			control = "laserCode",
 			defValue = 1688,

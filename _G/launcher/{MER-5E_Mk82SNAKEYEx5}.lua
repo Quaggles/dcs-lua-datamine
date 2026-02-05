@@ -172,7 +172,7 @@ _G["launcher"]["{MER-5E_Mk82SNAKEYEx5}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -444,7 +444,7 @@ _G["launcher"]["{MER-5E_Mk82SNAKEYEx5}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -485,7 +485,7 @@ _G["launcher"]["{MER-5E_Mk82SNAKEYEx5}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -525,7 +525,7 @@ _G["launcher"]["{MER-5E_Mk82SNAKEYEx5}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",

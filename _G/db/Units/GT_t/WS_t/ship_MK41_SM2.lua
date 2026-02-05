@@ -5,8 +5,9 @@ _G["db"]["Units"]["GT_t"]["WS_t"]["ship_MK41_SM2"] = {
 				} },
 			PL = { {
 					ammo_capacity = 15,
+					name_ammunition = "SM 2MR RIM 66M",
 					reload_time = 1000000,
-					type_ammunition = { 4, 4, 34, "Redacted" }
+					type_ammunition = "weapons.missiles.SM_2"
 				} },
 			barrels_reload_type = 3,
 			distanceMax = 100000,

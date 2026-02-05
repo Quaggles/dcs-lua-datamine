@@ -24,6 +24,6 @@ _G["launcher"]["DIS_LS_6_250_DUAL_L"] = {
 	displayName = "LS-6-250 Dual",
 	ejectDirection = { 0, -1, 0 },
 	ejectVelocity = 2,
-	name = "DIS_LS_6_250_DUAL_L",
+	name = "JF-17_GDJ-II19L",
 	wsTypeOfWeapon = "weapons.missiles.LS_6"
 }

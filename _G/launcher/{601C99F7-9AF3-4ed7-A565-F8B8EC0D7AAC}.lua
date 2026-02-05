@@ -20,5 +20,6 @@ _G["launcher"]["{601C99F7-9AF3-4ed7-A565-F8B8EC0D7AAC}"] = {
 	displayName = "Kh-29T (AS-14 Kedge) - 670kg, ASM, TV Guided",
 	ejectPitchRate = 0,
 	ejectVelocity = 4,
+	name = "AKU-58",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

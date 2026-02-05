@@ -37,6 +37,6 @@ _G["launcher"]["{ORO57K_S5MO_HEFRAG}"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "ORO-57K - S-5MO HE-FRAG FFAR x 8",
-	name = "{ORO57K_S5MO_HEFRAG}",
+	name = "oro-57k.edm",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

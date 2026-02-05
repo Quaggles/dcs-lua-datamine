@@ -40,5 +40,6 @@ _G["launcher"]["{96A7F676-F956-404A-AD04-F33FB2C74881}"] = {
 	category = 1,
 	displayName = "KMGU-2 - 96 x PTAB-2.5KO Dispenser (CBU) HEAT/AP",
 	kind_of_shipping = 2,
+	name = "kmgu-2",
 	wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 }

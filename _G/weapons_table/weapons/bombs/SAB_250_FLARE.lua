@@ -14,10 +14,10 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_250_FLARE"] = {
 		_origin = "AircraftWeaponPack",
 		anim_constraints = {
 			lead_chute_min_arg_val = 0,
-			main_chute_min_arg_val = 0.4
+			main_chute_min_arg_val = 1
 		},
 		anim_constraints_check_delay = {
-			delay_par = 10
+			delay_par = 5
 		},
 		arming_delay = {
 			delay_time = 0.8,
@@ -36,13 +36,17 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_250_FLARE"] = {
 			Ma = 0.68,
 			Mw = 5.6,
 			caliber = 0.09,
-			chute_Cx = 0.75,
+			chute_Cx = 0.94,
 			chute_Kmx = 1,
 			chute_Ma = 1,
-			chute_Mw = 5,
-			chute_diam = 3.657,
-			chute_open_time = 3,
+			chute_Mw = 1.5,
+			chute_diam = 3.656,
+			chute_open_time = 5,
 			cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
+			lead_chute_Cx = 0.25,
+			lead_chute_cut_time = 5,
+			lead_chute_diam = 0.648,
+			lead_chute_open_time = 0,
 			mass = 9.83,
 			release_rnd = 0.3,
 			release_rnd_x = 1,
@@ -50,8 +54,13 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_250_FLARE"] = {
 		},
 		hMax = 2000,
 		hMin = 25,
+		lead_chute_draw_arg_anim = {
+			K_t = 2,
+			start_val = 0,
+			use_start_val = true
+		},
 		light = {
-			duration = 450,
+			duration = 360,
 			light_attenuation = 2000,
 			light_color = { 0.25, 0.25, 0.2 },
 			light_position = { 0.45, -0.07, 0 },
@@ -59,10 +68,10 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_250_FLARE"] = {
 			smoke_position = { 0.45, -0.07, 0 },
 			smoke_transparency = 0.7843137254902,
 			smoke_width = 1,
-			start_time = 2
+			start_time = 0
 		},
 		main_chute_draw_arg_anim = {
-			K_t = 0.5,
+			K_t = 0.2,
 			start_val = 0,
 			use_start_val = true
 		},
@@ -96,10 +105,10 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_250_FLARE"] = {
 		_origin = "AircraftWeaponPack",
 		anim_constraints = {
 			lead_chute_min_arg_val = 0,
-			main_chute_min_arg_val = 0.4
+			main_chute_min_arg_val = 1
 		},
 		anim_constraints_check_delay = {
-			delay_par = 10
+			delay_par = 5
 		},
 		arming_delay = {
 			delay_time = 0.8,
@@ -118,13 +127,17 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_250_FLARE"] = {
 			Ma = 0.68,
 			Mw = 5.6,
 			caliber = 0.09,
-			chute_Cx = 0.75,
+			chute_Cx = 0.94,
 			chute_Kmx = 1,
 			chute_Ma = 1,
-			chute_Mw = 5,
-			chute_diam = 3.657,
-			chute_open_time = 3,
+			chute_Mw = 1.5,
+			chute_diam = 3.656,
+			chute_open_time = 5,
 			cx_coeff = { 1, 0.39, 0.38, 0.236, 1.31 },
+			lead_chute_Cx = 0.25,
+			lead_chute_cut_time = 5,
+			lead_chute_diam = 0.648,
+			lead_chute_open_time = 0,
 			mass = 9.83,
 			release_rnd = 0.3,
 			release_rnd_x = 1,
@@ -132,8 +145,13 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_250_FLARE"] = {
 		},
 		hMax = 2000,
 		hMin = 25,
+		lead_chute_draw_arg_anim = {
+			K_t = 2,
+			start_val = 0,
+			use_start_val = true
+		},
 		light = {
-			duration = 450,
+			duration = 360,
 			light_attenuation = 2000,
 			light_color = { 0.25, 0.25, 0.2 },
 			light_position = { 0.45, -0.07, 0 },
@@ -141,10 +159,10 @@ _G["weapons_table"]["weapons"]["bombs"]["SAB_250_FLARE"] = {
 			smoke_position = { 0.45, -0.07, 0 },
 			smoke_transparency = 0.7843137254902,
 			smoke_width = 1,
-			start_time = 2
+			start_time = 0
 		},
 		main_chute_draw_arg_anim = {
-			K_t = 0.5,
+			K_t = 0.2,
 			start_val = 0,
 			use_start_val = true
 		},

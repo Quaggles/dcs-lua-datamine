@@ -20,5 +20,6 @@ _G["launcher"]["{D4A8D9B9-5C45-42e7-BBD2-0E54F8308432}"] = {
 	displayName = "Kh-29L (AS-14 Kedge) - 657kg, ASM, Semi-Act Laser",
 	ejectPitchRate = 0,
 	ejectVelocity = 4,
+	name = "AKU-58",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

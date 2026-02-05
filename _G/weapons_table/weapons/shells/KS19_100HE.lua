@@ -69,5 +69,6 @@ _G["weapons_table"]["weapons"]["shells"]["KS19_100HE"] = {
 	user_name = "UOF412 (100mm HE)",
 	v0 = 880,
 	visual_effect_correction = 0,
-	visual_effect_correction_rebound = 0.1
+	visual_effect_correction_rebound = 0.1,
+	visual_explicit_effect_power = 6.5
 }

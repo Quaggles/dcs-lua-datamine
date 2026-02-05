@@ -18,6 +18,6 @@ _G["launcher"]["{R-3R}"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 4,
 	displayName = "APU-13U-2 with R-3R (AA-2 Atoll-C) - Semi Active AAM",
-	name = "{R-3R}",
+	name = "apu-13u-2",
 	wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 }

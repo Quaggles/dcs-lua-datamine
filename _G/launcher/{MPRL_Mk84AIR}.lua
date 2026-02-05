@@ -40,9 +40,9 @@ _G["launcher"]["{MPRL_Mk84AIR}"] = {
 	category = 1,
 	displayName = "MPRL - 8 x Mk-84 AIR (BSU-50) - 2000 lb GP Chute Retarded Bomb HD",
 	ejectPitchRate = -20,
-	ejectVelocity = 3,
+	ejectVelocity = 5,
 	kind_of_shipping = 0,
-	name = "{MPRL_Mk84AIR}",
+	name = "B-1B_Conventional_Rotary_Launcher",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -189,7 +189,7 @@ _G["launcher"]["{MPRL_Mk84AIR}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -461,7 +461,7 @@ _G["launcher"]["{MPRL_Mk84AIR}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -502,7 +502,7 @@ _G["launcher"]["{MPRL_Mk84AIR}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -542,7 +542,7 @@ _G["launcher"]["{MPRL_Mk84AIR}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",

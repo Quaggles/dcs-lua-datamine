@@ -25,6 +25,6 @@ _G["launcher"]["{HB_F4E_LAU-10_ZUNI_2x_Opposed}"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = '2x LAU-10 pod - 4 x 5" Zuni, UnGd Rkts Mk71, HE/FRAG (TER) Opposed',
-	name = "{HB_F4E_LAU-10_ZUNI_2x_Opposed}",
+	name = "HB_F-4E_BRU-42",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

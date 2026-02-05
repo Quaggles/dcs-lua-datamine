@@ -72,6 +72,7 @@ _G["launcher"]["{3DFB7320-AB0E-11d7-9897-000476191836}"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "B-8M1 - 20 x UnGd Rkts, 80 mm S-8TsM SM Orange",
+	name = "B-20",
 	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

@@ -91,6 +91,6 @@ _G["launcher"]["{HB_F4E_CBU-2B/A}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "HB_F4E_CBU-2B/A pod - 19 x tubes of Bomblets BLU-3B x 22, HE",
-	name = "{HB_F4E_CBU-2B/A}",
+	name = "HB_ORD_SUU_7",
 	wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 }

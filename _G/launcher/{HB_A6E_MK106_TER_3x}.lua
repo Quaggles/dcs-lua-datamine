@@ -26,6 +26,6 @@ _G["launcher"]["{HB_A6E_MK106_TER_3x}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "3x Mk 106 - 5lb Practice Bomb LD (TER)",
-	name = "{HB_A6E_MK106_TER_3x}",
+	name = "HB_F-4E_BRU-42",
 	wsTypeOfWeapon = "weapons.bombs.MK106"
 }

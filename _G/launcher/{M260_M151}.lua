@@ -35,7 +35,7 @@ _G["launcher"]["{M260_M151}"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "M260 - 7 x UnGd Rkts, 70 mm Hydra 70 M151 HE",
-	name = "{M260_M151}",
+	name = "OH58D_M260",
 	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

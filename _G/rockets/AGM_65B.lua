@@ -71,10 +71,10 @@ _G["rockets"]["#Index"] = {
 	seeker = {
 		FOV = 0.87266462599716,
 		delay = 0,
-		max_target_speed = 33,
-		max_target_speed_rnd_coeff = 10,
-		max_w_LOS = 0.055,
-		max_w_LOS_surf = 0.0275,
+		max_target_speed = 27.8,
+		max_target_speed_rnd_coeff = 5,
+		max_w_LOS = 0.013962634015955,
+		max_w_LOS_surf = 0.0069813170079773,
 		op_time = 105
 	},
 	shape_table_data = { {

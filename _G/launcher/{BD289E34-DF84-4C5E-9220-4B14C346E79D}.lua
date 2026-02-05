@@ -65,6 +65,6 @@ _G["launcher"]["{BD289E34-DF84-4C5E-9220-4B14C346E79D}"] = {
 			wCtrl = 60,
 			wDim = 30,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		} }
 }

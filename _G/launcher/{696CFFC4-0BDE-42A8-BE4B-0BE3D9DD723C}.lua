@@ -32,6 +32,7 @@ _G["launcher"]["{696CFFC4-0BDE-42A8-BE4B-0BE3D9DD723C}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "HSAB - 6 x Mk-84 - 2000lb GP Bomb LD",
+	name = "b-52_HSAB",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -178,7 +179,7 @@ _G["launcher"]["{696CFFC4-0BDE-42A8-BE4B-0BE3D9DD723C}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -399,7 +400,7 @@ _G["launcher"]["{696CFFC4-0BDE-42A8-BE4B-0BE3D9DD723C}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -439,7 +440,7 @@ _G["launcher"]["{696CFFC4-0BDE-42A8-BE4B-0BE3D9DD723C}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -472,7 +473,7 @@ _G["launcher"]["{696CFFC4-0BDE-42A8-BE4B-0BE3D9DD723C}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",

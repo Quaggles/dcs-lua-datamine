@@ -23,6 +23,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	AmmoWeight = 0,
 	CanopyGeometry = { -0.99984769515639, -0.99984769515639, -0.99984769515639, -0.99984769515639, -0.99984769515639 },
 	Categories = {},
+	DTC = false,
 	Damage = { {
 			args = { 296 },
 			construction = {

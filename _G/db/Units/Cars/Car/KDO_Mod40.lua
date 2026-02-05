@@ -50,6 +50,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					aiming_director = true,
 					depends_on_unit = { { { "self", 1 } } },
 					distanceMax = 11000,
+					max_trg_alt = 11000,
 					reactionTime = 15,
 					sensor = <1>{
 						Tau = 0.2,

@@ -19,7 +19,7 @@ _G["launcher"]["{BRU33_2X_BDU-45}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "BRU-33 with 2 x BDU-45 - 500lb Practice Bomb",
-	name = "{BRU33_2X_BDU-45}",
+	name = "BRU_33A",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -166,7 +166,7 @@ _G["launcher"]["{BRU33_2X_BDU-45}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -445,7 +445,7 @@ _G["launcher"]["{BRU33_2X_BDU-45}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -486,7 +486,7 @@ _G["launcher"]["{BRU33_2X_BDU-45}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -519,7 +519,7 @@ _G["launcher"]["{BRU33_2X_BDU-45}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		} },
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

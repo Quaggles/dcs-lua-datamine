@@ -16,7 +16,7 @@ _G["launcher"]["{BRU-32 MK-84}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "Mk-84",
-	name = "{BRU-32 MK-84}",
+	name = "HB_F14_EXT_BRU34",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -163,7 +163,7 @@ _G["launcher"]["{BRU-32 MK-84}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -384,7 +384,7 @@ _G["launcher"]["{BRU-32 MK-84}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -424,7 +424,7 @@ _G["launcher"]["{BRU-32 MK-84}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -457,7 +457,7 @@ _G["launcher"]["{BRU-32 MK-84}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",

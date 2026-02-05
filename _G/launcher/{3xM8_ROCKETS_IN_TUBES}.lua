@@ -21,7 +21,7 @@ _G["launcher"]["{3xM8_ROCKETS_IN_TUBES}"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "3 x 4.5 inch M8 UnGd Rocket",
-	name = "{3xM8_ROCKETS_IN_TUBES}",
+	name = "Rocket_Launcher_4_5inch",
 	pilon_jettison_option = 3,
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

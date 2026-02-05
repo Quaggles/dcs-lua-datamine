@@ -22,7 +22,7 @@ _G["launcher"]["{TWIN_B13L_5OF}"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "2 x B-13L - 5 x UnGd Rkts, 122 mm S-13OF Blast/Fragmentation",
-	name = "{TWIN_B13L_5OF}",
+	name = "su-27-twinpylon",
 	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

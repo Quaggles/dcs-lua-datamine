@@ -17,5 +17,6 @@ _G["launcher"]["LAU_117_CATM_65K"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
 	displayName = "LAU-117 with CATM-65K - Captive Trg Round for Mav K (CCD)",
+	name = "LAU-117",
 	wsTypeOfWeapon = { 4, 4, 101, "Redacted" }
 }

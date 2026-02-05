@@ -8,14 +8,20 @@ _G["db"]["Units"]["GT_t"]["WS_t"]["Twin_Bofors_40mm"] = {
 					recoilTime = 0.2
 				} },
 			PL = { {
-					ammo_capacity = 400,
-					portionAmmoCapacity = 400,
-					shell_name = {}
+					ammo_capacity = 2000,
+					portionAmmoCapacity = 2000,
+					reload_time = 3600,
+					shell_name = {},
+					shot_delay = 0.4,
+					switch_on_delay = 1
 				} },
+			display_name = "Bofors 40mm twin",
+			name = "Bofors_40mm_twin",
+			reactionTime = 5,
 			sensor = {}
 		} },
-	omegaY = 1.4835298641952,
-	omegaZ = 1.4835298641952,
+	omegaY = 1.1344640137963,
+	omegaZ = 1.1344640137963,
 	pidY = {
 		d = 10,
 		i = 20,

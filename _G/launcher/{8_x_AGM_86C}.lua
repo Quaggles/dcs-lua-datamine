@@ -39,6 +39,6 @@ _G["launcher"]["{8_x_AGM_86C}"] = {
 	ejectPitchRate = -10,
 	ejectVelocity = 1,
 	kind_of_shipping = 0,
-	name = "{8_x_AGM_86C}",
+	name = "b-52_CSRL_ALCM",
 	wsTypeOfWeapon = "weapons.missiles.AGM_86C"
 }

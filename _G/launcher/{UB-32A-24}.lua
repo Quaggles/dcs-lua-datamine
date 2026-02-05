@@ -108,7 +108,7 @@ _G["launcher"]["{UB-32A-24}"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "UB-32A-24 - 32 x UnGd Rkts, 57 mm S-5KO HEAT/Frag",
-	name = "{UB-32A-24}",
+	name = "UB_32A_24",
 	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

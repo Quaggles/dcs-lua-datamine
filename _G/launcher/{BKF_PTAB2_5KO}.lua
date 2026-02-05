@@ -13,6 +13,6 @@ _G["launcher"]["{BKF_PTAB2_5KO}"] = {
 	category = 1,
 	displayName = "BKF - 12 x PTAB-2.5KO",
 	kind_of_shipping = 2,
-	name = "{BKF_PTAB2_5KO}",
+	name = "ptab-2_5ko_block1",
 	wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 }

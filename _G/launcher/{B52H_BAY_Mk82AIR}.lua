@@ -240,7 +240,7 @@ _G["launcher"]["{B52H_BAY_Mk82AIR}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -519,7 +519,7 @@ _G["launcher"]["{B52H_BAY_Mk82AIR}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -560,7 +560,7 @@ _G["launcher"]["{B52H_BAY_Mk82AIR}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -593,6 +593,6 @@ _G["launcher"]["{B52H_BAY_Mk82AIR}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		} }
 }

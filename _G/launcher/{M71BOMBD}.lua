@@ -30,6 +30,7 @@ _G["launcher"]["{M71BOMBD}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "4x SB M/71 120kg GP Bomb High-drag",
+	name = "PylonM71",
 	shape_table_data = { {
 			file = "LavettM71",
 			fire = { 0, 1 },

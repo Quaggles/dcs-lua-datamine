@@ -2833,7 +2833,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "DIS_BRM1_90",
 					arg_value = 0.5
 				}, {
-					CLSID = "DIS_RKT_90_UG",
+					CLSID = "DIS_HF20_90_1_HE",
 					arg_value = 0.5
 				}, {
 					CLSID = "DIS_LAU68_MK5_DUAL_GDJ_II19_L",
@@ -3198,7 +3198,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "DIS_BRM1_90",
 					arg_value = 0.5
 				}, {
-					CLSID = "DIS_RKT_90_UG",
+					CLSID = "DIS_HF20_90_1_HE",
 					arg_value = 0.5
 				}, {
 					CLSID = "DIS_LAU68_MK5_DUAL_GDJ_II19_R",
@@ -3321,115 +3321,115 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	SnapViews = { { {
 				hAngle = 0,
 				rollAngle = 0,
-				vAngle = 0,
-				viewAngle = 85,
+				vAngle = -10.6,
+				viewAngle = 72,
 				x_trans = 0,
-				y_trans = 0,
+				y_trans = 0.002,
 				z_trans = 0
 			}, {
-				hAngle = 45,
+				hAngle = 48.871532,
 				rollAngle = 0,
-				vAngle = -45,
-				viewAngle = 48,
-				x_trans = 0.12,
-				y_trans = 0.02,
-				z_trans = 0
+				vAngle = -27.210711,
+				viewAngle = 47.292435,
+				x_trans = 0.249971,
+				y_trans = -0.08429,
+				z_trans = 0.07393
+			}, {
+				hAngle = 16.238178,
+				rollAngle = 0,
+				vAngle = -30.736124,
+				viewAngle = 55.221584,
+				x_trans = -0.05,
+				y_trans = 0.02357,
+				z_trans = 0.169352
+			}, {
+				hAngle = -56.69043,
+				rollAngle = 0,
+				vAngle = -28.339693,
+				viewAngle = 42.162884,
+				x_trans = 0.198301,
+				y_trans = -0.113795,
+				z_trans = -0.169444
+			}, {
+				hAngle = 112.844025,
+				rollAngle = 0,
+				vAngle = -38.512653,
+				viewAngle = 64.821587,
+				x_trans = 0.192144,
+				y_trans = -0.149974,
+				z_trans = 0.148975
 			}, {
 				hAngle = 0,
 				rollAngle = 0,
-				vAngle = -75,
-				viewAngle = 48,
-				x_trans = 0.12,
-				y_trans = 0.02,
+				vAngle = -10.6,
+				viewAngle = 72,
+				x_trans = 0,
+				y_trans = 0.002,
 				z_trans = 0
 			}, {
-				hAngle = -45,
+				hAngle = -135.255219,
 				rollAngle = 0,
-				vAngle = -45,
-				viewAngle = 48,
-				x_trans = 0.12,
-				y_trans = 0.02,
-				z_trans = 0
+				vAngle = -34.517639,
+				viewAngle = 55.734432,
+				x_trans = 0,
+				y_trans = -0.149154,
+				z_trans = -0.04
 			}, {
-				hAngle = 157.332764,
+				hAngle = 131.835434,
 				rollAngle = 0,
-				vAngle = -28.359503,
-				viewAngle = 91.040001,
-				x_trans = 0.063872,
-				y_trans = 0.082888,
-				z_trans = -0.116148
+				vAngle = -7.7,
+				viewAngle = 99.106483,
+				x_trans = 0.116748,
+				y_trans = 0.04,
+				z_trans = -0.063734
+			}, {
+				hAngle = -67.158295,
+				rollAngle = 0,
+				vAngle = -34.34164,
+				viewAngle = 45.847183,
+				x_trans = -0.047527,
+				y_trans = -0.149968,
+				z_trans = -0.169835
 			}, {
 				hAngle = 0,
 				rollAngle = 0,
-				vAngle = -16.752295,
-				viewAngle = 114.593102,
-				x_trans = -0.044937,
-				y_trans = 0.04287,
-				z_trans = -0.003428
-			}, {
-				hAngle = -143,
-				rollAngle = 0,
-				vAngle = 0,
-				viewAngle = 80,
-				x_trans = 0.35,
-				y_trans = 0.02,
-				z_trans = 0.1
-			}, {
-				hAngle = 45,
-				rollAngle = 0,
-				vAngle = -5,
-				viewAngle = 80,
-				x_trans = 0.12,
-				y_trans = 0.02,
+				vAngle = -10.6,
+				viewAngle = 72,
+				x_trans = 0,
+				y_trans = 0.002,
 				z_trans = 0
 			}, {
 				hAngle = 0,
 				rollAngle = 0,
 				vAngle = 10,
-				viewAngle = 80,
-				x_trans = 0.12,
-				y_trans = 0.02,
-				z_trans = 0
-			}, {
-				hAngle = -45,
-				rollAngle = 0,
-				vAngle = -5,
-				viewAngle = 80,
-				x_trans = 0.12,
-				y_trans = 0.02,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0.002,
 				z_trans = 0
 			}, {
 				hAngle = 0,
 				rollAngle = 0,
 				vAngle = 10,
-				viewAngle = 80,
-				x_trans = 0.12,
-				y_trans = 0.02,
-				z_trans = 0
-			}, {
-				hAngle = -20,
-				rollAngle = 0,
-				vAngle = 8,
-				viewAngle = 80,
-				x_trans = 0.12,
-				y_trans = 0.02,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0.002,
 				z_trans = 0
 			}, {
 				hAngle = 0,
 				rollAngle = 0,
-				vAngle = -12.609416,
-				viewAngle = 90,
+				vAngle = -10.6,
+				viewAngle = 72,
 				x_trans = 0,
-				y_trans = 0.017641,
+				y_trans = 0.002,
 				z_trans = 0
 			}, {
 				hAngle = 0,
 				rollAngle = 0,
-				vAngle = -9.363433,
-				viewAngle = 90,
+				vAngle = -10.6,
+				viewAngle = 72,
 				x_trans = 0,
-				y_trans = 0.015877,
-				z_trans = -0.003428
+				y_trans = 0.002,
+				z_trans = 0
 			} } },
 	TACAN_AA = true,
 	Tasks = { {
@@ -3496,13 +3496,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				CameraAngleLimits = { 200, -90, 90 },
 				CameraAngleRestriction = { false, 90, 0.5 },
 				CameraViewAngleLimits = { 20, 140 },
-				CockpitLocalPoint = { -0.06, 0, 0 },
+				CockpitLocalPoint = { 4.62, 0.67, 0 },
 				EyePoint = { 0.06, 0.12, 0 },
 				ShoulderSize = 0.25,
 				limits_6DOF = {
 					roll = 90,
-					x = { -0.2, 0.3 },
-					y = { -0.2, 0.2 },
+					x = { -0.2, 0.5 },
+					y = { -0.3, 0.2 },
 					z = { -0.3, 0.3 }
 				}
 			} }

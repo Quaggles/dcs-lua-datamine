@@ -16,6 +16,6 @@ _G["launcher"]["DIS_GDJ_KD63"] = {
 	category = 2,
 	displayName = "KD-63",
 	ejectVelocity = 2,
-	name = "DIS_GDJ_KD63",
+	name = "adapter_gdj_kd63",
 	wsTypeOfWeapon = "weapons.missiles.KD_63"
 }

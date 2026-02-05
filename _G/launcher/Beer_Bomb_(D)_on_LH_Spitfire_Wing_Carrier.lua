@@ -21,6 +21,6 @@ _G["launcher"]["Beer_Bomb_(D)_on_LH_Spitfire_Wing_Carrier"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = '"Beer Bomb" (Bitter Ale)',
-	name = "Beer_Bomb_(D)_on_LH_Spitfire_Wing_Carrier",
+	name = "Spitfire_pilon2L",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

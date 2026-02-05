@@ -23,7 +23,7 @@ _G["launcher"]["DIS_MK_82_DUAL_GDJ_II19_R"] = {
 	displayName = "GDJ-II19 - 2 x Mk-82",
 	ejectDirection = { 0, -1, 0 },
 	ejectVelocity = 1.8,
-	name = "DIS_MK_82_DUAL_GDJ_II19_R",
+	name = "JF-17_GDJ-II19R",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -170,7 +170,7 @@ _G["launcher"]["DIS_MK_82_DUAL_GDJ_II19_R"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -391,7 +391,7 @@ _G["launcher"]["DIS_MK_82_DUAL_GDJ_II19_R"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -431,7 +431,7 @@ _G["launcher"]["DIS_MK_82_DUAL_GDJ_II19_R"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -464,7 +464,7 @@ _G["launcher"]["DIS_MK_82_DUAL_GDJ_II19_R"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",

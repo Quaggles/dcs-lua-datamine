@@ -19,7 +19,7 @@ _G["launcher"]["{TER_9A_3*MK-82AIR}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "TER-9A with 3 x Mk-82 AIR Ballute - 500lb GP Bomb HD",
-	name = "{TER_9A_3*MK-82AIR}",
+	name = "TER-9A",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -166,7 +166,7 @@ _G["launcher"]["{TER_9A_3*MK-82AIR}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -438,7 +438,7 @@ _G["launcher"]["{TER_9A_3*MK-82AIR}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -479,7 +479,7 @@ _G["launcher"]["{TER_9A_3*MK-82AIR}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -519,7 +519,7 @@ _G["launcher"]["{TER_9A_3*MK-82AIR}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",

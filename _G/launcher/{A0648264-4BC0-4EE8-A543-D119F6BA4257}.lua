@@ -18,6 +18,7 @@ _G["launcher"]["{A0648264-4BC0-4EE8-A543-D119F6BA4257}"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "O-25 - 1 x UnGd Rkts, 340 mm S-25-OFM Hardened Target Penetrator",
+	name = "C-25PU",
 	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

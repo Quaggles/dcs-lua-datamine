@@ -18,7 +18,7 @@ _G["launcher"]["{BRU-32 GBU-16}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "GBU-16",
-	name = "{BRU-32 GBU-16}",
+	name = "HB_F14_EXT_BRU34",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -178,7 +178,7 @@ _G["launcher"]["{BRU-32 GBU-16}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -211,7 +211,7 @@ _G["launcher"]["{BRU-32 GBU-16}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			control = "laserCode",
 			defValue = 1688,

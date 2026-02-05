@@ -17,7 +17,7 @@ _G["launcher"]["{MAK79_CBU99 1R}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "MAK79 CBU-99",
-	name = "{MAK79_CBU99 1R}",
+	name = "MAK-79_VAR_2",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -163,7 +163,7 @@ _G["launcher"]["{MAK79_CBU99 1R}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",

@@ -10,6 +10,7 @@ _G["launcher"]["{C130-Cargo-Bay-M4}"] = {
 	Weight_Empty = 0,
 	_file = "./CoreMods/aircraft/C130J/loadout.lua",
 	_origin = "C-130J AI",
+	_unique_resource_name = "weapons.containers.{C130-Cargo-Bay-M4}",
 	attribute = { 4, 15, 46, "Redacted" },
 	category = 6,
 	displayName = "Cargo-Bay-M4",

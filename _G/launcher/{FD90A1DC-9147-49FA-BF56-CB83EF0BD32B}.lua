@@ -71,6 +71,7 @@ _G["launcher"]["{FD90A1DC-9147-49FA-BF56-CB83EF0BD32B}"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "LAU-61 - 19 x UnGd Rkts, 70 mm Hydra 70 M151 HE",
+	name = "LAU-61",
 	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

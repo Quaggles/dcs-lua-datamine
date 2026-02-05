@@ -21,6 +21,7 @@ _G["launcher"]["{TWIN_S25}"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "2 x O-25 - 1 x UnGd Rkts, 340 mm S-25-OFM Hardened Target Penetrator",
+	name = "su-27-twinpylon",
 	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

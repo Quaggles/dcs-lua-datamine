@@ -9,8 +9,10 @@ _G["launcher"]["GUV_YakB_GSHP"] = {
 	Weight = 452,
 	Weight_Empty = 140,
 	_file = "Scripts/Database/db_weapons_data.lua",
+	_unique_resource_name = "weapons.containers.GUV_YakB_GSHP",
 	attribute = { 4, 15, 46, "Redacted" },
 	displayName = "GUV-8700 w 1x12.7 mm & 2x7.62 mm Rotary HMG",
 	kind_of_shipping = 2,
+	name = "GUV_YakB_GSHP",
 	wsTypeOfWeapon = { 4, 6, 10, "Redacted" }
 }

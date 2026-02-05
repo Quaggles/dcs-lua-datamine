@@ -25,6 +25,6 @@ _G["launcher"]["{CHAP_Mi28N_4xIGLA}"] = {
 	category = 4,
 	displayName = "4 x 9M39 Igla",
 	kind_of_shipping = 1,
-	name = "{CHAP_Mi28N_4xIGLA}",
+	name = "CHAP_Mi28N_igla",
 	wsTypeOfWeapon = "weapons.missiles.Igla_1E"
 }

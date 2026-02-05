@@ -16,7 +16,7 @@ _G["launcher"]["British_GP_250LBS_Bomb_MK4_on_RH_Spitfire_Wing_Carrier"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "250 lb GP Mk.I",
-	name = "British_GP_250LBS_Bomb_MK4_on_RH_Spitfire_Wing_Carrier",
+	name = "Spitfire_pilon2R",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -94,7 +94,7 @@ _G["launcher"]["British_GP_250LBS_Bomb_MK4_on_RH_Spitfire_Wing_Carrier"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -156,7 +156,7 @@ _G["launcher"]["British_GP_250LBS_Bomb_MK4_on_RH_Spitfire_Wing_Carrier"] = {
 			wCtrl = 60,
 			wDim = 30,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		} },
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

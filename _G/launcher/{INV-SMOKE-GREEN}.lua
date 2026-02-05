@@ -14,6 +14,8 @@ _G["launcher"]["{INV-SMOKE-GREEN}"] = {
 	Weight = 0,
 	Weight_Empty = 0,
 	_file = "Scripts/Database/db_weapons_data.lua",
+	_unique_resource_name = "weapons.containers.{INV-SMOKE-GREEN}",
 	attribute = { 4, 15, 50, "Redacted" },
-	displayName = "Smoke Generator - green"
+	displayName = "Smoke Generator - green",
+	name = "{INV-SMOKE-GREEN}"
 }

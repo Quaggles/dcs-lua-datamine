@@ -18,6 +18,7 @@ _G["launcher"]["{AIM-9X-ON-ADAPTER}"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 4,
 	displayName = "LAU-7 with AIM-9X Sidewinder IR AAM",
+	name = "aero-3b",
 	settings = { {
 			baseDim = "",
 			control = "comboList",

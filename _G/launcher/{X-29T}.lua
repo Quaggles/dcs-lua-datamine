@@ -16,5 +16,6 @@ _G["launcher"]["{X-29T}"] = {
 	displayName = "Kh-29T (AS-14 Kedge) - 670kg, ASM, TV Guided",
 	ejectPitchRate = 0,
 	ejectVelocity = 4,
+	name = "X-29T",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

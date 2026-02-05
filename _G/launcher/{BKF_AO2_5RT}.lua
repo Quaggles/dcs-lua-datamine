@@ -13,6 +13,6 @@ _G["launcher"]["{BKF_AO2_5RT}"] = {
 	category = 1,
 	displayName = "BKF - 12 x AO-2.5RT",
 	kind_of_shipping = 2,
-	name = "{BKF_AO2_5RT}",
+	name = "ao-2_5rt_block1",
 	wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 }

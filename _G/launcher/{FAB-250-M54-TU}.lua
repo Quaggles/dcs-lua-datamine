@@ -12,6 +12,6 @@ _G["launcher"]["{FAB-250-M54-TU}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "FAB-250 M54 TU - 235 kg, bomb, parachute",
-	name = "{FAB-250-M54-TU}",
+	name = "fab-250-m54tu",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

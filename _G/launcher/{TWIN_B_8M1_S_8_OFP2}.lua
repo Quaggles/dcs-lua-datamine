@@ -19,7 +19,7 @@ _G["launcher"]["{TWIN_B_8M1_S_8_OFP2}"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "2 x B-8M1 - 20 x UnGd Rkts, 80 mm S-8OFP2 MPP",
-	name = "{TWIN_B_8M1_S_8_OFP2}",
+	name = "su-27-twinpylon",
 	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

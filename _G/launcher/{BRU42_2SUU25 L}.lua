@@ -23,6 +23,6 @@ _G["launcher"]["{BRU42_2*SUU25 L}"] = {
 	displayName = "2 SUU-25 * 8 LUU-2",
 	ejectDirection = { -1, 0, 0 },
 	ejectVelocity = 15,
-	name = "{BRU42_2*SUU25 L}",
+	name = "HB_F14_EXT_BRU42",
 	wsTypeOfWeapon = { 4, 5, 49, "Redacted" }
 }

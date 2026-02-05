@@ -20,7 +20,7 @@ _G["launcher"]["{BRU42LS_2*LAU68_HYDRA_70_M257_L}"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "BRU-42: 2 x LAU-68 - 7 x UnGd Rkts, 70 mm Hydra 70 M257 IL",
-	name = "{BRU42LS_2*LAU68_HYDRA_70_M257_L}",
+	name = "BRU-42_LS",
 	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

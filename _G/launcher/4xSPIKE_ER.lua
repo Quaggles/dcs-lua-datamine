@@ -28,6 +28,6 @@ _G["launcher"]["4xSPIKE_ER"] = {
 	category = 2,
 	displayName = "4 x SPIKE-ER",
 	kind_of_shipping = 0,
-	name = "4xSPIKE_ER",
+	name = "M299",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

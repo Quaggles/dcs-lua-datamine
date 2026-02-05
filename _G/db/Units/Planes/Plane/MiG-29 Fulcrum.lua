@@ -349,7 +349,103 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	},
 	DisplayName = "MiG-29A Fulcrum",
 	EmptyWeight = 10922,
-	Failures = {},
+	Failures = { {
+			enable = false,
+			hh = 0,
+			id = "L006LM_FAILURE_204_RECEIVER_FRONT_LEFT",
+			label = "SPO-15 front left receiver failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "L006LM_FAILURE_204_RECEIVER_FRONT_RIGHT",
+			label = "SPO-15 front right receiver failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "L006LM_FAILURE_202_RECEIVER_AFT_RIGHT_TOP",
+			label = "SPO-15 rear right and top receiver failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "L006LM_FAILURE_202_RECEIVER_AFT_LEFT_BOTTOM",
+			label = "SPO-15 rear left and bottom receiver failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "L006LM_FAILURE_3_CART_5X",
+			label = "SPO-15 processing failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "L006LM_FAILURE_31_AMPLIFIER_LEFT",
+			label = "SPO-15 left hemisphere amplifier failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "L006LM_FAILURE_31_AMPLIFIER_RIGHT",
+			label = "SPO-15 right hemisphere amplifier failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "L006LM_FAILURE_32_AMPLIFIER_ELEVATION",
+			label = "SPO-15 elevation amplifier failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "L006LM_FAILURE_33_POWER_LEVEL_ESTIMATOR_PULSED",
+			label = "SPO-15 power level estimator failure (pulsed)",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "L006LM_FAILURE_34_POWER_LEVEL_ESTIMATOR_CW",
+			label = "SPO-15 power level estimator failure (CW)",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "L006LM_FAILURE_512_BLOCKING_SYSTEM",
+			label = "SPO-15 blocking system failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "L006LM_FAILURE_12_POWER_SUPPLY",
+			label = "SPO-15 power supply failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		} },
 	Guns = { {
 			aft_gun_mount = false,
 			azimuth_initial = 0,

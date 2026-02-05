@@ -16,7 +16,7 @@ _G["launcher"]["{TER_9A_2L*GBU-12}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "TER-9A with 2 x GBU-12 - 500lb Laser Guided Bomb",
-	name = "{TER_9A_2L*GBU-12}",
+	name = "TER-9A",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -176,7 +176,7 @@ _G["launcher"]["{TER_9A_2L*GBU-12}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -209,7 +209,7 @@ _G["launcher"]["{TER_9A_2L*GBU-12}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			control = "laserCode",
 			defValue = 1688,

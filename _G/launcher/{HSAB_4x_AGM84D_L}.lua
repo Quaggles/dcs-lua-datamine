@@ -28,6 +28,6 @@ _G["launcher"]["{HSAB_4x_AGM84D_L}"] = {
 	displayName = "HSAB - 4 x AGM-84D Harpoon AShM",
 	ejectPitchRate = -10,
 	ejectVelocity = 2,
-	name = "{HSAB_4x_AGM84D_L}",
+	name = "b-52_HSAB",
 	wsTypeOfWeapon = "weapons.missiles.AGM_84D"
 }

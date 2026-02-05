@@ -8,8 +8,10 @@ _G["launcher"]["KORD_12_7"] = {
 	PictureBlendColor = "0xffffffff",
 	Weight = 95,
 	_file = "Scripts/Database/db_weapons_data.lua",
+	_unique_resource_name = "weapons.containers.KORD_12_7",
 	attribute = { 4, 15, 46, "Redacted" },
 	displayName = "Kord 12.7mm HMG",
 	kind_of_shipping = 2,
+	name = "KORD_12_7",
 	wsTypeOfWeapon = { 4, 6, 10, "Redacted" }
 }

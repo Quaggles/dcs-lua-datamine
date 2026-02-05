@@ -16,6 +16,6 @@ _G["launcher"]["{2x9M120F_Ataka_V_with_adapter}"] = {
 	category = 2,
 	displayName = "2 x 9M120F Ataka (AT-9 Spiral-2) - AGM, SACLOS, HE",
 	kind_of_shipping = 0,
-	name = "{2x9M120F_Ataka_V_with_adapter}",
+	name = "9M120_pylon2",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

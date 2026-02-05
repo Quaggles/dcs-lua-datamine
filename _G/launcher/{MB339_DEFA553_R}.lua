@@ -8,6 +8,7 @@ _G["launcher"]["{MB339_DEFA553_R}"] = {
 	Weight = 190,
 	_file = "./CoreMods/aircraft/MB-339/Weapons/Gunpods.lua",
 	_origin = "MB-339A/PAN AI by IndiaFoxtEcho",
+	_unique_resource_name = "weapons.containers.{MB339_DEFA553_R}",
 	attribute = { 4, 15, 46, "Redacted" },
 	category = 6,
 	displayName = "DEFA553 Gunpod Right",

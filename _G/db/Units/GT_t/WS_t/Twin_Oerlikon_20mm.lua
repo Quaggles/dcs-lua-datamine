@@ -12,8 +12,10 @@ _G["db"]["Units"]["GT_t"]["WS_t"]["Twin_Oerlikon_20mm"] = {
 					shell_display_name = "Oerlikon 20mm HE",
 					shell_name = { "Oerlikon_20mm_HE" },
 					shot_delay = 0.13333333333333,
-					switch_on_delay = 2
+					switch_on_delay = 8
 				} },
+			display_name = "Oerlikon 20mm twin",
+			name = "Oerlikon 20mm twin",
 			sensor = {}
 		} },
 	omegaY = 1.4835298641952,

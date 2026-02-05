@@ -18,6 +18,7 @@ _G["launcher"]["LAU-115_2*LAU-127_AIM-9M"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 4,
 	displayName = "LAU-115 with 2 x LAU-127 AIM-9M Sidewinder IR AAM",
+	name = "LAU-115C+2_LAU127",
 	settings = { {
 			baseDim = "",
 			control = "comboList",

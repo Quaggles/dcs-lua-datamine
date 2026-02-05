@@ -34,6 +34,6 @@ _G["launcher"]["{HSAB_6x_AGM154A_R}"] = {
 	displayName = "HSAB - 6 x AGM-154A - JSOW CEB (CBU-type)",
 	ejectPitchRate = -10,
 	ejectVelocity = 2,
-	name = "{HSAB_6x_AGM154A_R}",
+	name = "b-52_HSAB",
 	wsTypeOfWeapon = "weapons.missiles.AGM_154A"
 }

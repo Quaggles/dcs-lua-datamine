@@ -22,7 +22,7 @@ _G["launcher"]["{HB_F4E_BDU-50HD_2x_SWA}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "(Special Weapons Adapter) 2x BDU-50HD - 500lb Practice Bomb HD (TER)",
-	name = "{HB_F4E_BDU-50HD_2x_SWA}",
+	name = "HB_F-4E_BRU-42",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -169,7 +169,7 @@ _G["launcher"]["{HB_F4E_BDU-50HD_2x_SWA}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -390,7 +390,7 @@ _G["launcher"]["{HB_F4E_BDU-50HD_2x_SWA}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -423,7 +423,7 @@ _G["launcher"]["{HB_F4E_BDU-50HD_2x_SWA}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -463,7 +463,7 @@ _G["launcher"]["{HB_F4E_BDU-50HD_2x_SWA}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		} },
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

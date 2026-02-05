@@ -17,7 +17,7 @@ _G["launcher"]["{BRU3242_2*CBU99 LS}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "2 CBU-99",
-	name = "{BRU3242_2*CBU99 LS}",
+	name = "HB_F14_EXT_BRU34",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -163,7 +163,7 @@ _G["launcher"]["{BRU3242_2*CBU99 LS}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",

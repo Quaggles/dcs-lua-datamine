@@ -90,7 +90,7 @@ _G["launcher"]["{British_GP_250LB_Bomb_Mk1}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -152,6 +152,6 @@ _G["launcher"]["{British_GP_250LB_Bomb_Mk1}"] = {
 			wCtrl = 60,
 			wDim = 30,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		} }
 }

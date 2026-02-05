@@ -13,5 +13,6 @@ _G["launcher"]["{2x9M114_with_adapter}"] = {
 	category = 2,
 	displayName = "2 x 9M114 Shturm (AT-6 Spiral) - ATGM, SACLOS, HEAT",
 	kind_of_shipping = 0,
+	name = "9m114_pylon2",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

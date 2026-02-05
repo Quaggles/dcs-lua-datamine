@@ -19,7 +19,7 @@ _G["launcher"]["{BRU42_2*BDU45B LS}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "2 BDU-45B",
-	name = "{BRU42_2*BDU45B LS}",
+	name = "HB_F14_EXT_BRU42",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -166,7 +166,7 @@ _G["launcher"]["{BRU42_2*BDU45B LS}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -387,7 +387,7 @@ _G["launcher"]["{BRU42_2*BDU45B LS}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -420,7 +420,7 @@ _G["launcher"]["{BRU42_2*BDU45B LS}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -460,7 +460,7 @@ _G["launcher"]["{BRU42_2*BDU45B LS}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		} },
 	wsTypeOfWeapon = "weapons.bombs.BDU_45B"
 }

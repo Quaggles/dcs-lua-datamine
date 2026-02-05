@@ -17,7 +17,7 @@ _G["launcher"]["{PHXBRU3242_2*MK82SE LS}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "2 Mk-82 SnakeEye",
-	name = "{PHXBRU3242_2*MK82SE LS}",
+	name = "HB_F14_EXT_SHOULDER_PHX_L",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -164,7 +164,7 @@ _G["launcher"]["{PHXBRU3242_2*MK82SE LS}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -436,7 +436,7 @@ _G["launcher"]["{PHXBRU3242_2*MK82SE LS}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -477,7 +477,7 @@ _G["launcher"]["{PHXBRU3242_2*MK82SE LS}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -517,7 +517,7 @@ _G["launcher"]["{PHXBRU3242_2*MK82SE LS}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",

@@ -100,7 +100,8 @@ _G["launcher"]["{CBM_Mk82AIR}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "CBM - 28 x Mk-82 AIR Ballute - 500lb GP Bomb HD",
-	name = "{CBM_Mk82AIR}",
+	ejectVelocity = 5,
+	name = "B-1B_28-store_Conventional_Bomb_Module",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -247,7 +248,7 @@ _G["launcher"]["{CBM_Mk82AIR}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -519,7 +520,7 @@ _G["launcher"]["{CBM_Mk82AIR}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -560,7 +561,7 @@ _G["launcher"]["{CBM_Mk82AIR}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -600,7 +601,7 @@ _G["launcher"]["{CBM_Mk82AIR}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",

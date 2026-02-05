@@ -41,6 +41,7 @@ _G["launcher"]["{585D626E-7F42-4073-AB70-41E728C333E2}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "HSAB - 9 x Mk-82 - 500lb GP Bomb LD",
+	name = "b-52_HSAB",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -187,7 +188,7 @@ _G["launcher"]["{585D626E-7F42-4073-AB70-41E728C333E2}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -408,7 +409,7 @@ _G["launcher"]["{585D626E-7F42-4073-AB70-41E728C333E2}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -448,7 +449,7 @@ _G["launcher"]["{585D626E-7F42-4073-AB70-41E728C333E2}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -481,7 +482,7 @@ _G["launcher"]["{585D626E-7F42-4073-AB70-41E728C333E2}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",

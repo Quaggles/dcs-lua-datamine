@@ -1,5 +1,5 @@
-_G["launcher"]["DIS_RKT_90_UG"] = {
-	CLSID = "DIS_RKT_90_UG",
+_G["launcher"]["DIS_HF20_90_1_HE"] = {
+	CLSID = "DIS_HF20_90_1_HE",
 	Count = 16,
 	Cx_item = 0,
 	Cx_pil = 0.002,
@@ -73,12 +73,12 @@ _G["launcher"]["DIS_RKT_90_UG"] = {
 		} },
 	JettisonSubmunitionOnly = false,
 	Picture = "hf20_pod.png",
-	Weight = 376.1,
+	Weight = 366.6,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/rkt_90mm.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "HF20 - 16 x 90-1 90mm Rocket (HE)",
-	name = "DIS_RKT_90_UG",
+	name = "hf20_pod",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

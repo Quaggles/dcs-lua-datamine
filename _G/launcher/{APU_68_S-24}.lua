@@ -14,6 +14,6 @@ _G["launcher"]["{APU_68_S-24}"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "APU-68UM3 - S-24B - 240mm UnGd Rkt, 235kg, HE/Frag, (Low Smk)",
-	name = "{APU_68_S-24}",
+	name = "apu-68um3",
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

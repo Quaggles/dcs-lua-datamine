@@ -10,6 +10,7 @@ _G["launcher"]["{C130-M18-Sidearm}"] = {
 	Weight_Empty = 3.3,
 	_file = "./CoreMods/aircraft/C130J/loadout.lua",
 	_origin = "C-130J AI",
+	_unique_resource_name = "weapons.containers.{C130-M18-Sidearm}",
 	attribute = { 4, 15, 46, "Redacted" },
 	category = 6,
 	displayName = "M18-Sidearm",

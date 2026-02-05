@@ -23,7 +23,7 @@ _G["launcher"]["{M299_3xAGM_114K_OUTBOARD_PORT}"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
 	displayName = "M299 - 3 x AGM-114K Hellfire, Port",
-	name = "{M299_3xAGM_114K_OUTBOARD_PORT}",
+	name = "M299",
 	shape_table_data = {},
 	wsTypeOfWeapon = "weapons.missiles.AGM_114K"
 }

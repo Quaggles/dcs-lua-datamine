@@ -17,6 +17,6 @@ _G["launcher"]["{SA342_Mistral_L1}"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 4,
 	displayName = "ATAM - 1 x Mistral",
-	name = "{SA342_Mistral_L1}",
+	name = "sa342_ATAM_Tube_2x",
 	wsTypeOfWeapon = { 4, 4, 34, "Redacted" }
 }

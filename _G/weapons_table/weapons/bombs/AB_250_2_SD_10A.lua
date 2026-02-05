@@ -15,6 +15,9 @@ _G["weapons_table"]["weapons"]["bombs"]["AB_250_2_SD_10A"] = {
 			trigger_after_arming = true
 		},
 		Reflection = 0.03,
+		SAD = {
+			is_multidelay = true
+		},
 		VyHold = -100,
 		_file = "./CoreMods/WWII Units/Weapons/Weapons.lua",
 		_origin = "World War II AI Units by Eagle Dynamics",
@@ -42,6 +45,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AB_250_2_SD_10A"] = {
 			wind_sigma = 100,
 			wind_time = 1000
 		},
+		fuzePresetName = "Z69E",
 		hMax = 5000,
 		hMin = 90,
 		launcher = {
@@ -51,6 +55,13 @@ _G["weapons_table"]["weapons"]["bombs"]["AB_250_2_SD_10A"] = {
 				_origin = "World War II AI Units by Eagle Dynamics",
 				char_time = 0,
 				client = {
+					MPED = {
+						time_sigma = 0.5
+					},
+					SAD = {
+						default_delays = { 2.5 },
+						time_sigma = 0.1
+					},
 					bomblets = {
 						I = 0.25025333333333,
 						L = 0.548,
@@ -123,6 +134,13 @@ _G["weapons_table"]["weapons"]["bombs"]["AB_250_2_SD_10A"] = {
 				model = "",
 				name = "SD-10A",
 				server = {
+					MPED = {
+						time_sigma = 0.5
+					},
+					SAD = {
+						default_delays = { 2.5 },
+						time_sigma = 0.1
+					},
 					bomblets = {
 						I = 0.25025333333333,
 						L = 0.548,
@@ -194,7 +212,8 @@ _G["weapons_table"]["weapons"]["bombs"]["AB_250_2_SD_10A"] = {
 				type_name = "cluster",
 				ws_type = { 4, 5, 38, "Redacted" }
 			},
-			server = 0
+			server = 0,
+			subm_prm_ports = { "subm_arm_delay", "subm_func_delay" }
 		},
 		mass = 220,
 		model = "AB-250_dropping",
@@ -244,6 +263,9 @@ _G["weapons_table"]["weapons"]["bombs"]["AB_250_2_SD_10A"] = {
 			trigger_after_arming = true
 		},
 		Reflection = 0.03,
+		SAD = {
+			is_multidelay = true
+		},
 		VyHold = -100,
 		_file = "./CoreMods/WWII Units/Weapons/Weapons.lua",
 		_origin = "World War II AI Units by Eagle Dynamics",
@@ -271,6 +293,7 @@ _G["weapons_table"]["weapons"]["bombs"]["AB_250_2_SD_10A"] = {
 			wind_sigma = 100,
 			wind_time = 1000
 		},
+		fuzePresetName = "Z69E",
 		hMax = 5000,
 		hMin = 90,
 		launcher = {
@@ -280,6 +303,13 @@ _G["weapons_table"]["weapons"]["bombs"]["AB_250_2_SD_10A"] = {
 				_origin = "World War II AI Units by Eagle Dynamics",
 				char_time = 0,
 				client = {
+					MPED = {
+						time_sigma = 0.5
+					},
+					SAD = {
+						default_delays = { 2.5 },
+						time_sigma = 0.1
+					},
 					bomblets = {
 						I = 0.25025333333333,
 						L = 0.548,
@@ -352,6 +382,13 @@ _G["weapons_table"]["weapons"]["bombs"]["AB_250_2_SD_10A"] = {
 				model = "",
 				name = "SD-10A",
 				server = {
+					MPED = {
+						time_sigma = 0.5
+					},
+					SAD = {
+						default_delays = { 2.5 },
+						time_sigma = 0.1
+					},
 					bomblets = {
 						I = 0.25025333333333,
 						L = 0.548,
@@ -423,7 +460,8 @@ _G["weapons_table"]["weapons"]["bombs"]["AB_250_2_SD_10A"] = {
 				type_name = "cluster",
 				ws_type = { 4, 5, 38, "Redacted" }
 			},
-			server = 1
+			server = 1,
+			subm_prm_ports = { "subm_arm_delay", "subm_func_delay" }
 		},
 		mass = 220,
 		model = "AB-250_dropping",

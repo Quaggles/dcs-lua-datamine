@@ -22,7 +22,7 @@ _G["launcher"]["{HB_F4E_GBU-12_2x_SWA}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "(Special Weapons Adapter) 2x GBU-12 - 500lb Laser Guided Bomb (TER)",
-	name = "{HB_F4E_GBU-12_2x_SWA}",
+	name = "HB_F-4E_BRU-42",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -182,7 +182,7 @@ _G["launcher"]["{HB_F4E_GBU-12_2x_SWA}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -215,7 +215,7 @@ _G["launcher"]["{HB_F4E_GBU-12_2x_SWA}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			control = "laserCode",
 			defValue = 1688,

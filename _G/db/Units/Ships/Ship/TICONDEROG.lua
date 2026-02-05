@@ -379,7 +379,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 				} },
 			angles = { { 2.7227136331112, -2.7227136331112 } },
 			area = "TOWER_NOSE",
-			center = "CENTER_TOWER_12",
+			center = "CENTER_TOWER_01",
 			drawArgument1 = 0,
 			drawArgument2 = 1
 		}, {
@@ -405,16 +405,16 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		}, {
 			LN = { {
 					BR = { {
-							connector_name = "Rocket_Point_123",
+							connector_name = "ROCKET_POINT_123",
 							drawArgument = 153
 						}, {
-							connector_name = "Rocket_Point_124",
+							connector_name = "ROCKET_POINT_124",
 							drawArgument = 154
 						}, {
-							connector_name = "Rocket_Point_125",
+							connector_name = "ROCKET_POINT_125",
 							drawArgument = 155
 						}, {
-							connector_name = "Rocket_Point_126",
+							connector_name = "ROCKET_POINT_126",
 							drawArgument = 156
 						} },
 					PL = { {
@@ -432,16 +432,16 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		}, {
 			LN = { {
 					BR = { {
-							connector_name = "Rocket_Point_127",
+							connector_name = "ROCKET_POINT_127",
 							drawArgument = 157
 						}, {
-							connector_name = "Rocket_Point_128",
+							connector_name = "ROCKET_POINT_128",
 							drawArgument = 158
 						}, {
-							connector_name = "Rocket_Point_129",
+							connector_name = "ROCKET_POINT_129",
 							drawArgument = 159
 						}, {
-							connector_name = "Rocket_Point_130",
+							connector_name = "ROCKET_POINT_130",
 							drawArgument = 160
 						} },
 					PL = { {
@@ -454,34 +454,12 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			reference_angle_Y = -1.5707963267949
 		}, {
 			LN = { {
-					ECM_K = 0.5,
-					beamWidth = 1.5707963267949,
-					distanceMax = 150000,
-					distanceMin = 1000,
-					frequencyRange = { 8000000000, 12000000000 },
-					max_number_of_missiles_channels = 2,
-					max_trg_alt = 30000,
-					min_trg_alt = 5,
-					reactionTime = 2,
-					reflection_limit = 0.05,
-					type = 102
+					frequencyRange = {}
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, -1.5707963267949, 1.3962634015955 } },
+			angles = { {} },
 			area = "KABINA",
-			omegaY = 2,
-			omegaZ = 2,
-			pidY = {
-				d = 12,
-				i = 0.05,
-				inn = 50,
-				p = 100
-			},
-			pidZ = {
-				d = 12,
-				i = 0.05,
-				inn = 50,
-				p = 100
-			},
+			pidY = {},
+			pidZ = {},
 			pos = { 23, 19, 0 }
 		}, {
 			LN = { {
@@ -549,769 +527,428 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			pos = {}
 		}, {
 			LN = { {
-					BR = { {
-							connector_name = "Rocket_Point_01",
+					BR = <1>{ {
+							connector_name = "ROCKET_POINT_01",
 							recoilArgument = 188,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_02",
+							connector_name = "ROCKET_POINT_02",
 							recoilArgument = 189,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_03",
+							connector_name = "ROCKET_POINT_03",
 							recoilArgument = 190,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_04",
+							connector_name = "ROCKET_POINT_04",
 							recoilArgument = 191,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_05",
+							connector_name = "ROCKET_POINT_05",
 							recoilArgument = 192,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_06",
+							connector_name = "ROCKET_POINT_06",
 							recoilArgument = 193,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_07",
+							connector_name = "ROCKET_POINT_07",
 							recoilArgument = 194,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_08",
+							connector_name = "ROCKET_POINT_08",
 							recoilArgument = 195,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_09",
+							connector_name = "ROCKET_POINT_09",
 							recoilArgument = 196,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_10",
+							connector_name = "ROCKET_POINT_10",
 							recoilArgument = 197,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_11",
+							connector_name = "ROCKET_POINT_11",
 							recoilArgument = 198,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_12",
+							connector_name = "ROCKET_POINT_12",
 							recoilArgument = 199,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_13",
+							connector_name = "ROCKET_POINT_13",
 							recoilArgument = 200,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_14",
+							connector_name = "ROCKET_POINT_14",
 							recoilArgument = 201,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_15",
+							connector_name = "ROCKET_POINT_15",
 							recoilArgument = 202,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_16",
+							connector_name = "ROCKET_POINT_16",
 							recoilArgument = 203,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_17",
+							connector_name = "ROCKET_POINT_17",
 							recoilArgument = 204,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_18",
+							connector_name = "ROCKET_POINT_18",
 							recoilArgument = 205,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_19",
+							connector_name = "ROCKET_POINT_19",
 							recoilArgument = 206,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_20",
+							connector_name = "ROCKET_POINT_20",
 							recoilArgument = 207,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_21",
+							connector_name = "ROCKET_POINT_21",
 							recoilArgument = 208,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_22",
+							connector_name = "ROCKET_POINT_22",
 							recoilArgument = 209,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_23",
+							connector_name = "ROCKET_POINT_23",
 							recoilArgument = 210,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_24",
+							connector_name = "ROCKET_POINT_24",
 							recoilArgument = 211,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_25",
+							connector_name = "ROCKET_POINT_25",
 							recoilArgument = 212,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_26",
+							connector_name = "ROCKET_POINT_26",
 							recoilArgument = 213,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_27",
+							connector_name = "ROCKET_POINT_27",
 							recoilArgument = 214,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_28",
+							connector_name = "ROCKET_POINT_28",
 							recoilArgument = 215,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_29",
+							connector_name = "ROCKET_POINT_29",
 							recoilArgument = 216,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_30",
+							connector_name = "ROCKET_POINT_30",
 							recoilArgument = 217,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_31",
+							connector_name = "ROCKET_POINT_31",
 							recoilArgument = 218,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_32",
+							connector_name = "ROCKET_POINT_32",
 							recoilArgument = 219,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_33",
+							connector_name = "ROCKET_POINT_33",
 							recoilArgument = 220,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_34",
+							connector_name = "ROCKET_POINT_34",
 							recoilArgument = 221,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_35",
+							connector_name = "ROCKET_POINT_35",
 							recoilArgument = 222,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_36",
+							connector_name = "ROCKET_POINT_36",
 							recoilArgument = 223,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_37",
+							connector_name = "ROCKET_POINT_37",
 							recoilArgument = 224,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_38",
+							connector_name = "ROCKET_POINT_38",
 							recoilArgument = 225,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_39",
+							connector_name = "ROCKET_POINT_39",
 							recoilArgument = 226,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_40",
+							connector_name = "ROCKET_POINT_40",
 							recoilArgument = 227,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_41",
+							connector_name = "ROCKET_POINT_41",
 							recoilArgument = 228,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_42",
+							connector_name = "ROCKET_POINT_42",
 							recoilArgument = 229,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_43",
+							connector_name = "ROCKET_POINT_43",
 							recoilArgument = 230,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_44",
+							connector_name = "ROCKET_POINT_44",
 							recoilArgument = 231,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_45",
+							connector_name = "ROCKET_POINT_45",
 							recoilArgument = 232,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
-						} },
-					PL = { {
-							ammo_capacity = 45,
-							type_ammunition = {}
-						} },
-					depends_on_unit = <1>{ { { "self", 12 } }, { { "self", 13 } }, { { "self", 14 } }, { { "self", 15 } }, { { "self", 16 } }, { { "self", 17 } }, { { "self", 18 } }, { { "self", 19 } }, { { "self", 20 } } },
-					sensor = {}
-				} },
-			angles = { {} },
-			area = "NOSE_TOP",
-			center = "Rocket_Point_36"
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "Rocket_Point_78",
-							recoilArgument = 265,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_79",
-							recoilArgument = 266,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_80",
-							recoilArgument = 267,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_81",
-							recoilArgument = 268,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_82",
-							recoilArgument = 269,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_83",
-							recoilArgument = 270,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_84",
-							recoilArgument = 271,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_85",
-							recoilArgument = 272,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_86",
-							recoilArgument = 273,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_87",
-							recoilArgument = 274,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_88",
-							recoilArgument = 275,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_89",
-							recoilArgument = 276,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_90",
-							recoilArgument = 277,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_91",
-							recoilArgument = 278,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_92",
-							recoilArgument = 279,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_93",
-							recoilArgument = 280,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_94",
-							recoilArgument = 281,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_95",
-							recoilArgument = 282,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_96",
-							recoilArgument = 283,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_97",
-							recoilArgument = 284,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_98",
-							recoilArgument = 285,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_99",
-							recoilArgument = 286,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_100",
-							recoilArgument = 287,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_101",
-							recoilArgument = 288,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_102",
-							recoilArgument = 289,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_103",
-							recoilArgument = 290,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_104",
-							recoilArgument = 291,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_105",
-							recoilArgument = 292,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_106",
-							recoilArgument = 293,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_107",
-							recoilArgument = 294,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_108",
-							recoilArgument = 295,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_109",
-							recoilArgument = 296,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_110",
-							recoilArgument = 297,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_111",
-							recoilArgument = 298,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_112",
-							recoilArgument = 299,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_113",
-							recoilArgument = 300,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_114",
-							recoilArgument = 301,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_115",
-							recoilArgument = 302,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_116",
-							recoilArgument = 303,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_117",
-							recoilArgument = 304,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_118",
-							recoilArgument = 305,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_119",
-							recoilArgument = 306,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_120",
-							recoilArgument = 307,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_121",
-							recoilArgument = 308,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						}, {
-							connector_name = "Rocket_Point_122",
-							recoilArgument = 309,
-							recoilT0 = -2,
-							recoilT1 = -1,
-							recoilT2 = 1,
-							recoilTime = 2
-						} },
-					PL = { {
-							ammo_capacity = 45,
-							type_ammunition = {}
-						} },
-					depends_on_unit = <table 1>,
-					sensor = {}
-				} },
-			angles = { {} },
-			area = "BORT_TOP_Back",
-			center = "Rocket_Point_115"
-		}, {
-			LN = { {
-					BR = { {
-							connector_name = "Rocket_Point_46",
+							connector_name = "ROCKET_POINT_46",
 							recoilArgument = 233,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_47",
+							connector_name = "ROCKET_POINT_47",
 							recoilArgument = 234,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_48",
+							connector_name = "ROCKET_POINT_48",
 							recoilArgument = 235,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_49",
+							connector_name = "ROCKET_POINT_49",
 							recoilArgument = 236,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_50",
+							connector_name = "ROCKET_POINT_50",
 							recoilArgument = 237,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_51",
+							connector_name = "ROCKET_POINT_51",
 							recoilArgument = 238,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_52",
+							connector_name = "ROCKET_POINT_52",
 							recoilArgument = 239,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_53",
+							connector_name = "ROCKET_POINT_53",
 							recoilArgument = 240,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_54",
+							connector_name = "ROCKET_POINT_54",
 							recoilArgument = 241,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_55",
+							connector_name = "ROCKET_POINT_55",
 							recoilArgument = 242,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_56",
+							connector_name = "ROCKET_POINT_56",
 							recoilArgument = 243,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_57",
+							connector_name = "ROCKET_POINT_57",
 							recoilArgument = 244,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_58",
+							connector_name = "ROCKET_POINT_58",
 							recoilArgument = 245,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_59",
+							connector_name = "ROCKET_POINT_59",
 							recoilArgument = 246,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_60",
+							connector_name = "ROCKET_POINT_60",
 							recoilArgument = 247,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_61",
+							connector_name = "ROCKET_POINT_61",
 							recoilArgument = 248,
 							recoilT0 = -2,
 							recoilT1 = -1,
@@ -1319,140 +956,488 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							recoilTime = 2
 						} },
 					PL = { {
-							ammo_capacity = 16,
-							type_ammunition = {}
+							ammo_capacity = 37,
+							virtualStwID = 1
 						} },
-					max_number_of_missiles_channels = 16,
+					depends_on_unit = { { { "self", 12 } }, { { "self", 13 } }, { { "self", 14 } }, { { "self", 15 } }, { { "self", 16 } }, { { "self", 17 } }, { { "self", 18 } }, { { "self", 19 } }, { { "self", 20 } } },
+					sensor = {}
+				}, {
+					BR = { {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} },
+					PL = { {
+							ammo_capacity = 11,
+							name_ammunition = "SM 2ER RIM 156",
+							type_ammunition = "weapons.missiles.SM_2ER",
+							virtualStwID = 1
+						} },
+					depends_on_unit = { { {} }, { {} }, { {} }, { {} }, { {} }, { {} }, { {} }, { {} }, { {} } },
+					distanceMax = 180000,
+					sensor = {}
+				}, {
+					BR = <table 1>,
+					PL = { {
+							ammo_capacity = 13,
+							type_ammunition = {},
+							virtualStwID = 1
+						} },
 					sensor = {}
 				} },
 			angles = { {} },
 			area = "NOSE_TOP",
-			center = "Rocket_Point_54"
+			center = "ROCKET_POINT_36",
+			sharesBarrelsBetweenLaunchers = true
 		}, {
 			LN = { {
-					BR = { {
-							connector_name = "Rocket_Point_62",
+					BR = <2>{ {
+							connector_name = "ROCKET_POINT_62",
 							recoilArgument = 249,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_63",
+							connector_name = "ROCKET_POINT_63",
 							recoilArgument = 250,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_64",
+							connector_name = "ROCKET_POINT_64",
 							recoilArgument = 251,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_65",
+							connector_name = "ROCKET_POINT_65",
 							recoilArgument = 252,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_66",
+							connector_name = "ROCKET_POINT_66",
 							recoilArgument = 253,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_67",
+							connector_name = "ROCKET_POINT_67",
 							recoilArgument = 254,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_68",
+							connector_name = "ROCKET_POINT_68",
 							recoilArgument = 255,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_69",
+							connector_name = "ROCKET_POINT_69",
 							recoilArgument = 256,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_70",
+							connector_name = "ROCKET_POINT_70",
 							recoilArgument = 257,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_71",
+							connector_name = "ROCKET_POINT_71",
 							recoilArgument = 258,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_72",
+							connector_name = "ROCKET_POINT_72",
 							recoilArgument = 259,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_73",
+							connector_name = "ROCKET_POINT_73",
 							recoilArgument = 260,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_74",
+							connector_name = "ROCKET_POINT_74",
 							recoilArgument = 261,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_75",
+							connector_name = "ROCKET_POINT_75",
 							recoilArgument = 262,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_76",
+							connector_name = "ROCKET_POINT_76",
 							recoilArgument = 263,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						}, {
-							connector_name = "Rocket_Point_77",
+							connector_name = "ROCKET_POINT_77",
 							recoilArgument = 264,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_78",
+							recoilArgument = 265,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_79",
+							recoilArgument = 266,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_80",
+							recoilArgument = 267,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_81",
+							recoilArgument = 268,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_82",
+							recoilArgument = 269,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_83",
+							recoilArgument = 270,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_84",
+							recoilArgument = 271,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_85",
+							recoilArgument = 272,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_86",
+							recoilArgument = 273,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_87",
+							recoilArgument = 274,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_88",
+							recoilArgument = 275,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_89",
+							recoilArgument = 276,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_90",
+							recoilArgument = 277,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_91",
+							recoilArgument = 278,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_92",
+							recoilArgument = 279,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_93",
+							recoilArgument = 280,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_94",
+							recoilArgument = 281,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_95",
+							recoilArgument = 282,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_96",
+							recoilArgument = 283,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_97",
+							recoilArgument = 284,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_98",
+							recoilArgument = 285,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_99",
+							recoilArgument = 286,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_100",
+							recoilArgument = 287,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_101",
+							recoilArgument = 288,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_102",
+							recoilArgument = 289,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_103",
+							recoilArgument = 290,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_104",
+							recoilArgument = 291,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_105",
+							recoilArgument = 292,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_106",
+							recoilArgument = 293,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_107",
+							recoilArgument = 294,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_108",
+							recoilArgument = 295,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_109",
+							recoilArgument = 296,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_110",
+							recoilArgument = 297,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_111",
+							recoilArgument = 298,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_112",
+							recoilArgument = 299,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_113",
+							recoilArgument = 300,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_114",
+							recoilArgument = 301,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_115",
+							recoilArgument = 302,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_116",
+							recoilArgument = 303,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_117",
+							recoilArgument = 304,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_118",
+							recoilArgument = 305,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_119",
+							recoilArgument = 306,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_120",
+							recoilArgument = 307,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_121",
+							recoilArgument = 308,
+							recoilT0 = -2,
+							recoilT1 = -1,
+							recoilT2 = 1,
+							recoilTime = 2
+						}, {
+							connector_name = "ROCKET_POINT_122",
+							recoilArgument = 309,
 							recoilT0 = -2,
 							recoilT1 = -1,
 							recoilT2 = 1,
 							recoilTime = 2
 						} },
 					PL = { {
-							ammo_capacity = 16,
-							type_ammunition = {}
+							virtualStwID = 2
 						} },
-					max_number_of_missiles_channels = 16,
+					depends_on_unit = { { {} }, { {} }, { {} }, { {} }, { {} }, { {} }, { {} }, { {} }, { {} } },
+					sensor = {}
+				}, {
+					BR = <table 2>,
+					PL = { {
+							virtualStwID = 2
+						} },
+					depends_on_unit = { { {} }, { {} }, { {} }, { {} }, { {} }, { {} }, { {} }, { {} }, { {} } },
+					sensor = {}
+				}, {
+					BR = <table 2>,
+					PL = { {
+							type_ammunition = {},
+							virtualStwID = 2
+						} },
 					sensor = {}
 				} },
 			angles = { {} },
 			area = "BORT_TOP_Back",
-			center = "Rocket_Point_86"
+			center = "ROCKET_POINT_115"
 		},
 		maxTargetDetectionRange = 450000,
 		radar_type = 102,
@@ -1468,6 +1453,7 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 	animation_arguments = {
 		arresting_wires = {},
 		blast_fences = {},
+		flag_speed_k = 0.5,
 		flight_deck_fences = 312,
 		radar1_rotation = 11,
 		radar2_rotation = -1,

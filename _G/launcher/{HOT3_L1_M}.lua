@@ -18,7 +18,7 @@ _G["launcher"]["{HOT3_L1_M}"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
 	displayName = "1 x HOT-3 - ATGM, SACLOS, HEAT",
-	name = "{HOT3_L1_M}",
+	name = "SA342_LAU_HOT3_1x",
 	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

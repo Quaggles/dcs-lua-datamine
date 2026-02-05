@@ -30,5 +30,6 @@ _G["launcher"]["{CAE48299-A294-4bad-8EE6-89EFC5DCDF00}"] = {
 	displayName = "SUU-25 x 8 LUU-2 - Target Marker Flares",
 	ejectDirection = { -1, 0, 0 },
 	ejectVelocity = 15,
+	name = "SUU-25",
 	wsTypeOfWeapon = { 4, 5, 49, "Redacted" }
 }

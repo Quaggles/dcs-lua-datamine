@@ -150,8 +150,11 @@ _G["weapons_table"]["weapons"]["missiles"]["X_29L"] = {
 		scheme = "schemes/missiles/KH-29L.sch",
 		seeker = {
 			FOV = 0.034906585039887,
+			K_target_vel_err = 0.05,
+			aim_sigma = 3,
 			delay = 0,
-			max_seeker_range = 12000
+			max_seeker_range = 12000,
+			op_time = 100
 		},
 		sigma = { 8, 8, 8 },
 		t_acc = 6,
@@ -346,8 +349,11 @@ _G["weapons_table"]["weapons"]["missiles"]["X_29L"] = {
 		scheme = "schemes/missiles/KH-29L.sch",
 		seeker = {
 			FOV = 0.034906585039887,
+			K_target_vel_err = 0.05,
+			aim_sigma = 3,
 			delay = 0,
-			max_seeker_range = 12000
+			max_seeker_range = 12000,
+			op_time = 100
 		},
 		sigma = { 8, 8, 8 },
 		t_acc = 6,

@@ -18,6 +18,6 @@ _G["launcher"]["{M2KC_RAFAUT_GBU12}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "AUF2 GBU-12 x 2",
-	name = "{M2KC_RAFAUT_GBU12}",
+	name = "M-2000C_AUF2",
 	wsTypeOfWeapon = { 4, 5, 36, "Redacted" }
 }

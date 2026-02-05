@@ -28,6 +28,6 @@ _G["launcher"]["{CHAP_Kh555x6}"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
 	displayName = "6 x Kh-555 ALCM",
-	name = "{CHAP_Kh555x6}",
+	name = "CHAP_Tu95MS_rotary_launcher",
 	wsTypeOfWeapon = "weapons.missiles.X_555"
 }

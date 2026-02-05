@@ -18,6 +18,6 @@ _G["launcher"]["{HB_F4E_SAMP250HD_TER_1x_SingleRight}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "1x SAMP-250 - 250KG GP Chute Retarded Bomb HD (TER)",
-	name = "{HB_F4E_SAMP250HD_TER_1x_SingleRight}",
+	name = "HB_F-4E_BRU-42",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

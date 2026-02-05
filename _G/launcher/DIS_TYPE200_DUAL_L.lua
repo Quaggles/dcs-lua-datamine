@@ -20,6 +20,6 @@ _G["launcher"]["DIS_TYPE200_DUAL_L"] = {
 	category = 1,
 	displayName = "TYPE-200A Dual",
 	ejectVelocity = 1.8,
-	name = "DIS_TYPE200_DUAL_L",
+	name = "JF-17_GDJ-II19L",
 	wsTypeOfWeapon = "weapons.bombs.Type_200A"
 }

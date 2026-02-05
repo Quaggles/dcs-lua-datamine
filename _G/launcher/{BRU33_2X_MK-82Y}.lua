@@ -19,7 +19,7 @@ _G["launcher"]["{BRU33_2X_MK-82Y}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "BRU-33 with 2 x Mk-82Y - 500lb GP Chute Retarded HD",
-	name = "{BRU33_2X_MK-82Y}",
+	name = "BRU_33A",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -166,7 +166,7 @@ _G["launcher"]["{BRU33_2X_MK-82Y}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -438,7 +438,7 @@ _G["launcher"]["{BRU33_2X_MK-82Y}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -479,7 +479,7 @@ _G["launcher"]["{BRU33_2X_MK-82Y}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -519,7 +519,7 @@ _G["launcher"]["{BRU33_2X_MK-82Y}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",

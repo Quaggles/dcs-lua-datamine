@@ -27,5 +27,6 @@ _G["launcher"]["{DAC53A2F-79CA-42FF-A77A-F5649B601308}"] = {
 	category = 2,
 	displayName = "LAU-88 with 3 x AGM-65D - Maverick D (IIR ASM)",
 	kind_of_shipping = 1,
+	name = "LAU-88",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

@@ -18,7 +18,7 @@ _G["launcher"]["{HB_A6E_GBU12_TER_1x}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "1x GBU-12 - 500lb Laser Guided Bomb (TER)",
-	name = "{HB_A6E_GBU12_TER_1x}",
+	name = "HB_F-4E_BRU-42",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -178,7 +178,7 @@ _G["launcher"]["{HB_A6E_GBU12_TER_1x}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -211,7 +211,7 @@ _G["launcher"]["{HB_A6E_GBU12_TER_1x}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			control = "laserCode",
 			defValue = 1688,

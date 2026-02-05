@@ -8,6 +8,7 @@ _G["launcher"]["{ADEN_GUNPOD}"] = {
 	Weight = 87,
 	_file = "./CoreMods/aircraft/Hawk/Hawk.lua",
 	_origin = "Hawk T.1A AI by VEAO Simulations",
+	_unique_resource_name = "weapons.containers.{ADEN_GUNPOD}",
 	attribute = { 4, 15, 46, "Redacted" },
 	category = 6,
 	displayName = "ADEN GUNPOD",
@@ -119,6 +120,7 @@ _G["launcher"]["{ADEN_GUNPOD}"] = {
 		} },
 	kind_of_shipping = 2,
 	name = "{ADEN_GUNPOD}",
+	pilon_jettison_option = 3,
 	shape_table_data = { {
 			file = "ADEN_GUNPOD",
 			index = "Redacted",

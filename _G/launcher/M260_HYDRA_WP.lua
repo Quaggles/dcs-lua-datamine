@@ -32,6 +32,7 @@ _G["launcher"]["M260_HYDRA_WP"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "M260 - 7 x UnGd Rkts, 70 mm Hydra 70 M156 SM",
+	name = "M260",
 	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

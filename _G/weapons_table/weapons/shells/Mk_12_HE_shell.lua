@@ -3,19 +3,10 @@ _G["weapons_table"]["weapons"]["shells"]["Mk_12_HE_shell"] = {
 	Da0 = 0.0003,
 	Da1 = 0.0005,
 	Dv0 = 0.004,
-	_file = "./Mods/tech/WWII Units/Database/Weapons/ammunition.lua",
-	_origin = "WWII Armour and Technics",
 	_unique_resource_name = "weapons.shells.Mk_12_HE_shell",
-	aiming_table = { {
-			init_vel = 875
-		},
-		precalculateAimingTable = true,
-		precalculateAirDefenceAimingTable = true
-	},
 	caliber = 127,
 	cartridge = 0,
 	cartridge_mass = 0,
-	category = 7,
 	charTime = 0,
 	cumulative_mass = 0,
 	cumulative_thickness = 0,
@@ -66,7 +57,6 @@ _G["weapons_table"]["weapons"]["shells"]["Mk_12_HE_shell"] = {
 	tracer_off = 30,
 	tracer_on = 0,
 	type_name = "shell",
-	user_name = "Mk 12 HE",
 	v0 = 875,
 	visual_effect_correction = 0,
 	visual_effect_correction_rebound = 0.1

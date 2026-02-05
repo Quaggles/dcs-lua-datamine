@@ -19,8 +19,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	WS = { {
 			LN = { {
 					BR = { {
-							connector_name = "POINT_MGUN_01",
-							pos = {}
+							connector_name = "POINT_MGUN_01"
 						} },
 					PL = { {
 							ammo_capacity = 100,
@@ -28,8 +27,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							reload_time = 20,
 							shell_name = {},
 							switch_on_delay = 15
-						}, {
-							shell_name = {}
 						}, {
 							shell_name = {}
 						}, {

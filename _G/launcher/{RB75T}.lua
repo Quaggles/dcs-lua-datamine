@@ -18,5 +18,6 @@ _G["launcher"]["{RB75T}"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
 	displayName = "Rb-75T (AGM-65A Maverick) (TV ASM Lg HE Whd)",
+	name = "lau-117",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

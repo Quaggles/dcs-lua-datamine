@@ -22,6 +22,6 @@ _G["launcher"]["{HB_A6E_SUU25_MER_2x_RIGHT}"] = {
 	displayName = "2x SUU-25 x 8 LUU-2 - Target Marker Flares (MER)",
 	ejectDirection = { -1, 0, 0 },
 	ejectVelocity = 15,
-	name = "{HB_A6E_SUU25_MER_2x_RIGHT}",
+	name = "HB_ORD_MER",
 	wsTypeOfWeapon = { 4, 5, 49, "Redacted" }
 }

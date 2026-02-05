@@ -13,7 +13,7 @@ _G["launcher"]["{British_HE_60LBSAPNo2_3INCHNo1}"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "RP-3 60lb SAP No2 Mk.I",
-	name = "{British_HE_60LBSAPNo2_3INCHNo1}",
+	name = "he_60lb_sap_no2mkI",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -98,7 +98,7 @@ _G["launcher"]["{British_HE_60LBSAPNo2_3INCHNo1}"] = {
 			wCtrl = 60,
 			wDim = 30,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type",
@@ -119,7 +119,7 @@ _G["launcher"]["{British_HE_60LBSAPNo2_3INCHNo1}"] = {
 			wCtrl = 60,
 			wDim = 30,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		} },
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

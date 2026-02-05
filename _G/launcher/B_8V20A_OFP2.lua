@@ -75,6 +75,7 @@ _G["launcher"]["B_8V20A_OFP2"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "B-8V20A - 20 x UnGd Rkts, 80 mm S-8OFP2 MPP",
+	name = "B-8V20A",
 	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

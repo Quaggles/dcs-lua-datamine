@@ -21,6 +21,6 @@ _G["launcher"]["{BRU-42_LS_2*SUU-25_8*LUU-2_L}"] = {
 	displayName = "BRU-42 with 2 x SUU-25 x 8 LUU-2 - Target Marker Flares",
 	ejectDirection = { -1, 0, 0 },
 	ejectVelocity = 15,
-	name = "{BRU-42_LS_2*SUU-25_8*LUU-2_L}",
+	name = "BRU-42_LS",
 	wsTypeOfWeapon = { 4, 5, 49, "Redacted" }
 }

@@ -16,5 +16,6 @@ _G["launcher"]["{X-31P}"] = {
 	displayName = "Kh-31P (AS-17 Krypton) - 600kg, ARM, IN & Pas Rdr",
 	ejectPitchRate = 0,
 	ejectVelocity = 4,
+	name = "X-31",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

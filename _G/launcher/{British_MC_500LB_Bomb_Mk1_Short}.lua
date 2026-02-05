@@ -86,7 +86,7 @@ _G["launcher"]["{British_MC_500LB_Bomb_Mk1_Short}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -160,6 +160,6 @@ _G["launcher"]["{British_MC_500LB_Bomb_Mk1_Short}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		} }
 }

@@ -22,6 +22,6 @@ _G["launcher"]["{AGM_12A}"] = {
 	displayName = "AGM-12A Bullpup MCLOS ASM (LAU-34)",
 	ejectPitchRate = 0,
 	ejectVelocity = 0,
-	name = "{AGM_12A}",
+	name = "HB_F-4E_LAU-34",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

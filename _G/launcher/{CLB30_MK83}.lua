@@ -14,7 +14,7 @@ _G["launcher"]["{CLB30_MK83}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "CLB 30 - Mk-83 - 1000lb GP Bomb LD",
-	name = "{CLB30_MK83}",
+	name = "CLB_30",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -161,7 +161,7 @@ _G["launcher"]["{CLB30_MK83}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -382,7 +382,7 @@ _G["launcher"]["{CLB30_MK83}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -422,7 +422,7 @@ _G["launcher"]["{CLB30_MK83}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -455,7 +455,7 @@ _G["launcher"]["{CLB30_MK83}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",

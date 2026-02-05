@@ -18,6 +18,6 @@ _G["launcher"]["DIS_GDJ_YJ83K"] = {
 	displayName = "YJ-83K",
 	ejectDirection = { 0, -1, 0 },
 	ejectVelocity = 2,
-	name = "DIS_GDJ_YJ83K",
+	name = "adapter_gdj_yj83k",
 	wsTypeOfWeapon = "weapons.missiles.YJ-83K"
 }

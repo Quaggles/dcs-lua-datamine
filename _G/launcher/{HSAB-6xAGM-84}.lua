@@ -35,6 +35,6 @@ _G["launcher"]["{HSAB-6xAGM-84}"] = {
 	displayName = "HSAB with 6 x AGM-84",
 	ejectPitchRate = -10,
 	ejectVelocity = 2,
-	name = "{HSAB-6xAGM-84}",
+	name = "b-52_HSAB",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

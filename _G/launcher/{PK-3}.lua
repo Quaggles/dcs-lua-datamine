@@ -8,6 +8,7 @@ _G["launcher"]["{PK-3}"] = {
 	Weight = 218,
 	_file = "./CoreMods/aircraft/L-39/L-39ZA.lua",
 	_origin = "L-39C/ZA by Eagle Dynamics",
+	_unique_resource_name = "weapons.containers.{PK-3}",
 	attribute = { 4, 15, 46, "Redacted" },
 	category = 6,
 	displayName = "PK-3 - 7.62mm GPMG",

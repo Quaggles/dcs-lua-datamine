@@ -16,7 +16,7 @@ _G["launcher"]["{BRU55_2*GBU-32}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "BRU-55 with 2 x GBU-32(V)2/B - JDAM, 1000lb GPS Guided Bomb",
-	name = "{BRU55_2*GBU-32}",
+	name = "BRU_55",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -252,7 +252,7 @@ _G["launcher"]["{BRU55_2*GBU-32}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -292,7 +292,7 @@ _G["launcher"]["{BRU55_2*GBU-32}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",

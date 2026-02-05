@@ -31,7 +31,7 @@ _G["launcher"]["{CLB4_BLU107}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "CLB 4 - 4 x BLU-107/B Durandal - 219kg Concrete Piercing Chute Retarded Bomb w/Booster",
-	name = "{CLB4_BLU107}",
+	name = "CLB_4",
 	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 5, 37, "Redacted" }
 }

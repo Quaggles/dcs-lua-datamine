@@ -18,5 +18,6 @@ _G["launcher"]["{Robot24J}"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 4,
 	displayName = "LAU-7 with RB-24J (AIM-9P3) Sidewinder IR AAM",
+	name = "aero-3b",
 	wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 }

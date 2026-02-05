@@ -21,7 +21,7 @@ _G["launcher"]["{AUF2_BLG66_EG}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "AUF 2 - 2 x BLG-66 Belouga EG - CBU, 151 x HE/Frag Bomblets",
-	name = "{AUF2_BLG66_EG}",
+	name = "AUF2_RACK",
 	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 }

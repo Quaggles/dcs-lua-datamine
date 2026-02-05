@@ -203,7 +203,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					sightIndicationMode = 1,
 					sightMasterMode = 1
 				} },
-			PPI_view = "GenericPPI/GenericPPI",
 			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 1.1344640137963 } },
 			angles_mech = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 1.3089969389957 } },
 			animation_alarm_state = {

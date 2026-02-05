@@ -75,6 +75,6 @@ _G["launcher"]["{35B698AC-9FEF-4EC4-AD29-484A0085F62B}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		} }
 }

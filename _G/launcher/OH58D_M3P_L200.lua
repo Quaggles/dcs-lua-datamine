@@ -10,6 +10,7 @@ _G["launcher"]["OH58D_M3P_L200"] = {
 	Weight_Empty = 72.55,
 	_file = "./CoreMods/aircraft/OH-58D/OH58D_Weapons.lua",
 	_origin = "OH58D AI by Polychop-Simulations",
+	_unique_resource_name = "weapons.containers.OH58D_M3P_L200",
 	attribute = { 4, 15, 46, "Redacted" },
 	category = 6,
 	displayName = "M3P200",

@@ -10,5 +10,5 @@ _G["launcher"]["{9M114 Shturm-V-2 Rack}"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
 	displayName = "Missile Launcher Rack (Empty)",
-	name = "{9M114 Shturm-V-2 Rack}"
+	name = "9M114-PYLON_EMPTY"
 }

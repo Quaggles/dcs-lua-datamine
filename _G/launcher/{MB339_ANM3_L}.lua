@@ -8,6 +8,7 @@ _G["launcher"]["{MB339_ANM3_L}"] = {
 	Weight = 75,
 	_file = "./CoreMods/aircraft/MB-339/Weapons/Gunpods.lua",
 	_origin = "MB-339A/PAN AI by IndiaFoxtEcho",
+	_unique_resource_name = "weapons.containers.{MB339_ANM3_L}",
 	attribute = { 4, 15, 46, "Redacted" },
 	category = 6,
 	displayName = "AN/M3 Gunpod Left",

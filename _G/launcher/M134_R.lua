@@ -8,8 +8,10 @@ _G["launcher"]["M134_R"] = {
 	Weight = 146.4,
 	Weight_Empty = 51.68,
 	_file = "Scripts/Database/db_weapons_data.lua",
+	_unique_resource_name = "weapons.containers.M134_R",
 	attribute = { 4, 15, 46, "Redacted" },
 	displayName = "M134 - 6 x 7.62mm MiniGun right",
 	kind_of_shipping = 2,
+	name = "M134_R",
 	wsTypeOfWeapon = { 4, 6, 10 }
 }

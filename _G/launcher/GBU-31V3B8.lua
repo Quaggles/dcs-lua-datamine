@@ -40,9 +40,9 @@ _G["launcher"]["GBU-31V3B*8"] = {
 	category = 1,
 	displayName = "MPRL - 8 x GBU-31(V)3/B - JDAM, 2000lb GPS Guided Penetrator Bomb",
 	ejectPitchRate = -20,
-	ejectVelocity = 3,
+	ejectVelocity = 5,
 	kind_of_shipping = 0,
-	name = "GBU-31V3B*8",
+	name = "B-1B_Conventional_Rotary_Launcher",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -175,7 +175,7 @@ _G["launcher"]["GBU-31V3B*8"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -215,7 +215,7 @@ _G["launcher"]["GBU-31V3B*8"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		} },
 	weapon_container_data = {
 		endpoint_hold_time = 1,

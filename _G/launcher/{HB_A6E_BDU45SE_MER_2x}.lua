@@ -23,7 +23,7 @@ _G["launcher"]["{HB_A6E_BDU45SE_MER_2x}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "2x BDU-45 - 500lb Practice Bomb (MER)",
-	name = "{HB_A6E_BDU45SE_MER_2x}",
+	name = "HB_ORD_MER",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -170,7 +170,7 @@ _G["launcher"]["{HB_A6E_BDU45SE_MER_2x}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -449,7 +449,7 @@ _G["launcher"]["{HB_A6E_BDU45SE_MER_2x}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -490,7 +490,7 @@ _G["launcher"]["{HB_A6E_BDU45SE_MER_2x}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -523,7 +523,7 @@ _G["launcher"]["{HB_A6E_BDU45SE_MER_2x}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		} },
 	wsTypeOfWeapon = "weapons.bombs.BDU_45"
 }

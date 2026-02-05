@@ -35,7 +35,7 @@ _G["launcher"]["{LAU68_FFAR_MK1HE}"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "LAU-68 - 7 x UnGd Rkts, 70 mm Mk 4 FFAR Mk 1 HE",
-	name = "{LAU68_FFAR_MK1HE}",
+	name = "LAU-68",
 	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

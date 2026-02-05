@@ -10,6 +10,7 @@ _G["launcher"]["{GIAT_M621_APHE}"] = {
 	Weight_Empty = 45.5,
 	_file = "./CoreMods/aircraft/SA342/SA342_Weapons.lua",
 	_origin = "SA342 AI by Polychop-Simulations",
+	_unique_resource_name = "weapons.containers.{GIAT_M621_APHE}",
 	attribute = { 4, 15, 46, "Redacted" },
 	category = 6,
 	displayName = "GIAT M621 (240x Combat mix 4x AP 1x HE)",

@@ -16,6 +16,6 @@ _G["launcher"]["{HB_F4E_AGM-65A_LAU117_SWA}"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
 	displayName = "(Special Weapons Adapter) AGM-65A - Maverick A (TV Guided) (LAU-117)(Special Weapons Adapter) ",
-	name = "{HB_F4E_AGM-65A_LAU117_SWA}",
+	name = "HB_F4E_LAU117",
 	wsTypeOfWeapon = "weapons.missiles.AGM_65A"
 }

@@ -31,7 +31,7 @@ _G["launcher"]["{HB_A6E_MK82SE_MER_4x_LEFT}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "4x Mk-82 Snakeye - 500lb GP Bomb HD (MER)",
-	name = "{HB_A6E_MK82SE_MER_4x_LEFT}",
+	name = "HB_ORD_MER",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -178,7 +178,7 @@ _G["launcher"]["{HB_A6E_MK82SE_MER_4x_LEFT}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -450,7 +450,7 @@ _G["launcher"]["{HB_A6E_MK82SE_MER_4x_LEFT}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -491,7 +491,7 @@ _G["launcher"]["{HB_A6E_MK82SE_MER_4x_LEFT}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -531,7 +531,7 @@ _G["launcher"]["{HB_A6E_MK82SE_MER_4x_LEFT}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",

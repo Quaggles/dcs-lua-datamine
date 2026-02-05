@@ -28,7 +28,7 @@ _G["launcher"]["{CLB4_SAMP400LD}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "CLB 4 - 4 x SAMP-400 - 400 kg GP Bomb LD",
-	name = "{CLB4_SAMP400LD}",
+	name = "CLB_4",
 	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

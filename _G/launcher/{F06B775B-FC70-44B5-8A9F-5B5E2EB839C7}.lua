@@ -140,7 +140,7 @@ _G["launcher"]["{F06B775B-FC70-44B5-8A9F-5B5E2EB839C7}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -180,7 +180,7 @@ _G["launcher"]["{F06B775B-FC70-44B5-8A9F-5B5E2EB839C7}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			control = "laserCode",
 			defValue = 1688,

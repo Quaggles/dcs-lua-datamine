@@ -16,7 +16,6 @@ _G["launcher"]["LAU-105_AIS_ASQ_T50_L"] = {
 	Weight_Empty = 206,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/aim9_family.lua",
 	_origin = "AircraftWeaponPack",
-	_unique_resource_name = "weapons.containers.lau-105",
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 6,
 	displayName = "LAU-105 with 1 x AN/ASQ-T50 TCTS Pod - ACMI Pod",

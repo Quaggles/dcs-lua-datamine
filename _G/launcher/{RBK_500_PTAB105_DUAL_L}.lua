@@ -26,7 +26,7 @@ _G["launcher"]["{RBK_500_PTAB105_DUAL_L}"] = {
 	displayName = "2 x RBK-500-255 PTAB-10-5",
 	ejectDirection = { 0, -1, 0 },
 	ejectVelocity = 1.8,
-	name = "{RBK_500_PTAB105_DUAL_L}",
+	name = "J-11A_twinpylon_l",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -38,19 +38,19 @@ _G["launcher"]["{RBK_500_PTAB105_DUAL_L}"] = {
 					dispName = "ATM-E",
 					id = 1,
 					secondaryParams = {
-						tooltip = "Electronic, time"
+						tooltip = "Mechanical, time\nArmed by vane rotation"
 					}
 				}, {
 					dispName = "AT-E",
 					id = 2,
 					secondaryParams = {
-						tooltip = "Electronic, time"
+						tooltip = "Mechanical, time\nArmed by vane rotation"
 					}
 				}, {
 					dispName = "ATK-10E",
 					id = 3,
 					secondaryParams = {
-						tooltip = "Electronic, time"
+						tooltip = "Mechanical, time\nArmed by vane rotation"
 					}
 				}, {
 					dispName = "TM-24 + MDV-4",
@@ -166,7 +166,7 @@ _G["launcher"]["{RBK_500_PTAB105_DUAL_L}"] = {
 			wCtrl = 60,
 			wDim = 30,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",
@@ -188,7 +188,7 @@ _G["launcher"]["{RBK_500_PTAB105_DUAL_L}"] = {
 			wCtrl = 60,
 			wDim = 30,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",
@@ -210,7 +210,7 @@ _G["launcher"]["{RBK_500_PTAB105_DUAL_L}"] = {
 			wCtrl = 60,
 			wDim = 30,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_nose",
@@ -232,7 +232,7 @@ _G["launcher"]["{RBK_500_PTAB105_DUAL_L}"] = {
 			wCtrl = 60,
 			wDim = 30,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		} },
 	wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 }

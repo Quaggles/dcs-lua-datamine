@@ -10,6 +10,7 @@ _G["launcher"]["{GAU_12_Equalizer_AP}"] = {
 	Weight_Empty = 136,
 	_file = "./CoreMods/aircraft/AV8BNA/WEAPONS/AV8BNA_Weapons.lua",
 	_origin = "AV-8B N/A AI by RAZBAM Sims",
+	_unique_resource_name = "weapons.containers.{GAU_12_Equalizer_AP}",
 	attribute = { 4, 15, 46, "Redacted" },
 	category = 6,
 	displayName = "GAU 12 Gunpod w/AP M79",

@@ -14,6 +14,6 @@ _G["launcher"]["{LAU-115 - AIM-7E}"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 4,
 	displayName = "LAU-115C with AIM-7E Sparrow Semi-Active Radar",
-	name = "{LAU-115 - AIM-7E}",
+	name = "LAU-115C",
 	wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 }

@@ -32,5 +32,6 @@ _G["launcher"]["{45447F82-01B5-4029-A572-9AAD28AF0275}"] = {
 	ejectPitchRate = -10,
 	ejectVelocity = 1,
 	kind_of_shipping = 0,
+	name = "b-52_suu67",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

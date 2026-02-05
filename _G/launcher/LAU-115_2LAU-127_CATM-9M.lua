@@ -21,5 +21,6 @@ _G["launcher"]["LAU-115_2*LAU-127_CATM-9M"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 4,
 	displayName = "LAU-115 with 2 x LAU-127 Captive AIM-9M for ACM",
+	name = "LAU-115C+2_LAU127",
 	wsTypeOfWeapon = { 4, 4, 100, "Redacted" }
 }

@@ -17,5 +17,6 @@ _G["launcher"]["LAU_117_TGM_65H"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
 	displayName = "LAU-117 with TGM-65H - Trg Round for Mav H (CCD)",
+	name = "LAU-117",
 	wsTypeOfWeapon = { 4, 4, 101, "Redacted" }
 }

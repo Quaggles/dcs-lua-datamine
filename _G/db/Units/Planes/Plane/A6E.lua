@@ -4657,6 +4657,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	has_afteburner = false,
 	has_speedbrake = true,
 	height = 4.93,
+	input_profile_entry = "A-6E Pilot",
 	is_tanker = 2,
 	laserEquipment = {
 		laserDesignator = true,
@@ -4748,8 +4749,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		typename = "collection"
 	},
 	main_gear_amortizer_direct_stroke = 0,
-	main_gear_amortizer_normal_weight_stroke = -0.13,
-	main_gear_amortizer_reversal_stroke = -0.26,
+	main_gear_amortizer_normal_weight_stroke = -0.27,
+	main_gear_amortizer_reversal_stroke = -0.27,
 	main_gear_door_close_after_retract = false,
 	main_gear_pos = { -1.429, -2.66, 1.655 },
 	main_gear_wheel_diameter = 0.83,
@@ -4830,7 +4831,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	},
 	net_animation = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 11, 12, 15, 16, 17, 25, 38, 42, 43, 44, 700, 85, 88, 91, 126, 127, 128, 129, 130, 131, 132, 133, 182, 184, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 306, 307, 715, 730, 731, 732, 733, 734, 735, 736, 737 },
 	nose_gear_amortizer_direct_stroke = 0,
-	nose_gear_amortizer_normal_weight_stroke = -0.1,
+	nose_gear_amortizer_normal_weight_stroke = 0,
 	nose_gear_amortizer_reversal_stroke = -0.2,
 	nose_gear_door_close_after_retract = false,
 	nose_gear_pos = { 3.817, -2.77, 0 },

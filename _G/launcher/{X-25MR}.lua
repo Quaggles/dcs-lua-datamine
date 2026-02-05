@@ -17,5 +17,6 @@ _G["launcher"]["{X-25MR}"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
 	displayName = "Kh-25MR (AS-10 Karen) - 300kg, ASM, RC Guided",
+	name = "APU-68",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

@@ -19,7 +19,7 @@ _G["launcher"]["{BRU42_2*MK82 RS}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "2 Mk-82",
-	name = "{BRU42_2*MK82 RS}",
+	name = "HB_F14_EXT_BRU42",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -166,7 +166,7 @@ _G["launcher"]["{BRU42_2*MK82 RS}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",
@@ -387,7 +387,7 @@ _G["launcher"]["{BRU42_2*MK82 RS}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -427,7 +427,7 @@ _G["launcher"]["{BRU42_2*MK82 RS}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -460,7 +460,7 @@ _G["launcher"]["{BRU42_2*MK82 RS}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			baseDim = "",
 			control = "comboList",

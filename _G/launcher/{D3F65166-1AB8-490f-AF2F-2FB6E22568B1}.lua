@@ -16,6 +16,8 @@ _G["launcher"]["{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}"] = {
 	},
 	Weight = 220,
 	_file = "Scripts/Database/db_weapons_data.lua",
+	_unique_resource_name = "weapons.containers.R-73U",
 	attribute = { 4, 15, 50, "Redacted" },
-	displayName = "Smoke Generator - red"
+	displayName = "Smoke Generator - red",
+	name = "R-73U"
 }

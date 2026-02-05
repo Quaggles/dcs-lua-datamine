@@ -17,5 +17,6 @@ _G["launcher"]["{6DADF342-D4BA-4D8A-B081-BA928C4AF86D}"] = {
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
 	displayName = "Kh-25ML (AS-10 Karen) - 300kg, ASM, Semi-Act Laser",
+	name = "APU-68",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

@@ -11,6 +11,7 @@ _G["launcher"]["{SA342_M134_SIDE_R}"] = {
 	Weight_Empty = 175.68,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/gunpods.lua",
 	_origin = "AircraftWeaponPack",
+	_unique_resource_name = "weapons.containers.{SA342_M134_SIDE_R}",
 	attribute = { 4, 15, 46, "Redacted" },
 	category = 6,
 	displayName = "M134 - 6 x 7.62mm MiniGun right door",

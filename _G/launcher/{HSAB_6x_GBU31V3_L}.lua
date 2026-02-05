@@ -34,7 +34,7 @@ _G["launcher"]["{HSAB_6x_GBU31V3_L}"] = {
 	displayName = "HSAB - 6 x GBU-31(V)3/B - JDAM, 2000lb GPS Guided Penetrator Bomb",
 	ejectPitchRate = -10,
 	ejectVelocity = 2,
-	name = "{HSAB_6x_GBU31V3_L}",
+	name = "b-52_HSAB",
 	settings = { {
 			baseDim = "",
 			control = "comboList",
@@ -167,7 +167,7 @@ _G["launcher"]["{HSAB_6x_GBU31V3_L}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
@@ -207,7 +207,7 @@ _G["launcher"]["{HSAB_6x_GBU31V3_L}"] = {
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		} },
 	wsTypeOfWeapon = "weapons.bombs.GBU_31_V_3B"
 }

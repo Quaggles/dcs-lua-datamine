@@ -21,7 +21,7 @@ _G["launcher"]["{AUF2_BLU107}"] = {
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
 	displayName = "AUF 2 - 2 x BLU-107/B Durandal - 219kg Concrete Piercing Chute Retarded Bomb w/Booster",
-	name = "{AUF2_BLU107}",
+	name = "AUF2_RACK",
 	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 5, 37, "Redacted" }
 }

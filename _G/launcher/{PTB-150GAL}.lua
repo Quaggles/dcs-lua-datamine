@@ -8,6 +8,8 @@ _G["launcher"]["{PTB-150GAL}"] = {
 	Weight = 509,
 	Weight_Empty = 67,
 	_file = "Scripts/Database/db_weapons_data.lua",
+	_unique_resource_name = "weapons.droptanks.PTB-150",
 	attribute = { 1, 3, 43, "Redacted" },
-	displayName = "F-5 150Gal Fuel tank"
+	displayName = "F-5 150Gal Fuel tank",
+	name = "PTB-150"
 }

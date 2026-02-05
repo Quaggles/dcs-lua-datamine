@@ -10,9 +10,11 @@ _G["launcher"]["{UPK-23-250 MiG-21}"] = {
 	Weight = 218,
 	_file = "./CoreMods/aircraft/MiG-21BIS/Entry/Aw",
 	_origin = "MiG-21Bis AI by Magnitude 3 LLC",
+	_unique_resource_name = "weapons.containers.{UPK-23-250 MiG-21}",
 	attribute = { 4, 15, 46, "Redacted" },
 	category = 6,
 	displayName = "UPK-23-250 - gun pod",
 	kind_of_shipping = 2,
+	name = "{UPK-23-250 MiG-21}",
 	wsTypeOfWeapon = { 4, 6, 10, "Redacted" }
 }

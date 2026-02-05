@@ -70,6 +70,6 @@ _G["launcher"]["{British_GP_500LB_Bomb_Mk5}"] = {
 			wCtrl = 60,
 			wDim = 30,
 			xCtrl = 500,
-			xLbl = 310
+			xLbl = 300
 		} }
 }
