@@ -1406,6 +1406,8 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "CHAP_TigerUHT"
+				}, {
 					Name = "AH-64D_BLK_II"
 				}, {
 					Name = "CH-47Fbl1"
@@ -1593,6 +1595,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "I-16"
 				}, {
 					Name = "L-39C"
+				}, {
+					Name = "La-7"
 				}, {
 					Name = "M-2000C"
 				}, {

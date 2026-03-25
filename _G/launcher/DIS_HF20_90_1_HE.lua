@@ -73,7 +73,7 @@ _G["launcher"]["DIS_HF20_90_1_HE"] = {
 		} },
 	JettisonSubmunitionOnly = false,
 	Picture = "hf20_pod.png",
-	Weight = 366.6,
+	Weight = 326.6,
 	_file = "./CoreMods/aircraft/ChinaAssetPack/Entries/Loadouts/rkt_90mm.lua",
 	_origin = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 	attribute = { 4, 7, 32, "Redacted" },

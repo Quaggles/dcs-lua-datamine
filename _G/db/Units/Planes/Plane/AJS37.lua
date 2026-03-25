@@ -1689,8 +1689,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		} },
 	crew_members = { {
 			canopy_pos = { 4.7, 0, 0 },
-			drop_canopy_name = 275,
-			ejection_seat_name = 274,
+			drop_canopy_name = 276,
+			ejection_seat_name = 275,
 			pos = { 4.8, 0.6, 0 },
 			role = "pilot",
 			role_display_name = "Pilot"

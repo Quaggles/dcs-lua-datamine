@@ -111,7 +111,56 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			[0] = 0.125,
 			[3] = 1,
 			[9] = 0.98
-		}
+		},
+		children = { {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_01",
+				model = "9M55"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_02",
+				model = "9M55"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_03",
+				model = "9M55"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_04",
+				model = "9M55"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_05",
+				model = "9M55"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_06",
+				model = "9M55"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_07",
+				model = "9M55"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_08",
+				model = "9M55"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_09",
+				model = "9M55"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_10",
+				model = "9M55"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_11",
+				model = "9M55"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_12",
+				model = "9M55"
+			} }
 	},
 	mapclasskey = "P0091000209",
 	sensor = {

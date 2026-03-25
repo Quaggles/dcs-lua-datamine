@@ -69,6 +69,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	category = "Air Defence",
 	chassis = {},
 	enablePlayerCanDrive = false,
+	encyclopediaAnimation = {
+		args = { 0.4,
+			[0] = 0.255,
+			[4] = 1
+		},
+		children = { {
+				args = { 1 },
+				connector = "S200_Point_Missile",
+				model = "s-200_5b21_missile"
+			} }
+	},
 	mapclasskey = "P0091000082",
 	sensor = {
 		height = 2.617

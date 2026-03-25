@@ -1,10 +1,10 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 0,
-	DisplayName = "Well Car",
+	DisplayName = "Rwy. Well Car",
 	DisplayNameShort = "WellCar",
 	IR_emission_coeff = 0,
 	MaxSpeed = 0,
-	Name = "Well Car",
+	Name = "Rwy. Well Car",
 	Rate = 4,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,

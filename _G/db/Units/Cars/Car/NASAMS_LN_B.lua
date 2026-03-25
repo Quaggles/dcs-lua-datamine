@@ -119,6 +119,50 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	chassis = {},
 	defaultStartAlarmState = 2,
 	enablePlayerCanDrive = false,
+	encyclopediaAnimation = {
+		args = {
+			[0] = 0.255,
+			[2] = 0.2,
+			[3] = 1,
+			[4] = 1,
+			[5] = 1,
+			[6] = 1,
+			[7] = 1,
+			[18] = 1,
+			[19] = 1
+		},
+		children = { {
+				args = { 1, 1 },
+				attach_point = "AttachPoint",
+				connector = "POINT_ROCKET_01",
+				model = "AIM-120B"
+			}, {
+				args = { 1, 1 },
+				attach_point = "AttachPoint",
+				connector = "POINT_ROCKET_02",
+				model = "AIM-120B"
+			}, {
+				args = { 1, 1 },
+				attach_point = "AttachPoint",
+				connector = "POINT_ROCKET_03",
+				model = "AIM-120B"
+			}, {
+				args = { 1, 1 },
+				attach_point = "AttachPoint",
+				connector = "POINT_ROCKET_04",
+				model = "AIM-120B"
+			}, {
+				args = { 1, 1 },
+				attach_point = "AttachPoint",
+				connector = "POINT_ROCKET_05",
+				model = "AIM-120B"
+			}, {
+				args = { 1, 1 },
+				attach_point = "AttachPoint",
+				connector = "POINT_ROCKET_06",
+				model = "AIM-120B"
+			} }
+	},
 	mapclasskey = "P0091000082",
 	maxDeviationPitch = 0.087266462599716,
 	maxDeviationRoll = 0.087266462599716,

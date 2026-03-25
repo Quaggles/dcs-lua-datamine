@@ -1,10 +1,10 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 0,
-	DisplayName = "Loco VL80 Electric",
+	DisplayName = "Rwy. Loco VL80 Electric",
 	DisplayNameShort = "Loco80",
 	IR_emission_coeff = 0.1,
 	MaxSpeed = 109.98,
-	Name = "Loco VL80 Electric",
+	Name = "Rwy. Loco VL80 Electric",
 	Rate = 10,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,

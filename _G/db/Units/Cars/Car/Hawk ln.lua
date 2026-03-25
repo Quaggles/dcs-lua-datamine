@@ -50,6 +50,27 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	category = "Air Defence",
 	chassis = {},
 	enablePlayerCanDrive = false,
+	encyclopediaAnimation = {
+		args = { 0.225,
+			[0] = 0.255,
+			[4] = 1,
+			[5] = 1,
+			[6] = 1
+		},
+		children = { {
+				args = { 1, 1 },
+				connector = "POINT_HAWK_1_1",
+				model = "hawk-r"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_HAWK_1_2",
+				model = "hawk-r"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_HAWK_1_3",
+				model = "hawk-r"
+			} }
+	},
 	mapclasskey = "P0091000082",
 	sensor = {
 		height = 2.707

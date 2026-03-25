@@ -1,5 +1,5 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
-	CustomAimPoint = { -4, 1.5, 19 },
+	CustomAimPoint = { 0, 1, 0 },
 	DetectionRange = 0,
 	DisplayName = "Road outpost-R",
 	DisplayNameShort = "RoadBlockR",
@@ -217,7 +217,10 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 17, 26, "Redacted", "Fortifications", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "AntiAir Armed Vehicles", "HeavyArmoredUnits" },
 	category = "Fortification",
 	chassis = {
-		life = 50
+		length = 39,
+		life = 50,
+		mass = 350000,
+		width = 23
 	},
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000076",

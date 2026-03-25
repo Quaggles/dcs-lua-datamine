@@ -8,6 +8,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 5000,
 	DisplayName = "Scout HL with KORD 12.7mm",
 	DisplayNameShort = "HL KORD",
+	DoNotTurnToTarget = true,
 	IR_emission_coeff = 0.08,
 	MaxSpeed = 133.2,
 	Name = "Scout HL with KORD 12.7mm",
@@ -97,6 +98,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	driverCockpit = "DriverCockpit/DriverCockpit",
 	driverViewConnectorName = "POINT_DRIVER",
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = { 0.155,
+			[0] = 0.3
+		}
+	},
 	mapclasskey = "P0091000004",
 	sensor = {
 		height = 2.826

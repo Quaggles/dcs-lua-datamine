@@ -1170,6 +1170,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "I-16"
 				}, {
+					Name = "La-7"
+				}, {
 					Name = "M-2000C"
 				}, {
 					Name = "MB-339A"

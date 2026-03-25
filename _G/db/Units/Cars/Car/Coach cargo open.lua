@@ -1,10 +1,10 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 0,
-	DisplayName = "Open Wagon",
+	DisplayName = "Rwy. Open Wagon",
 	DisplayNameShort = "Wagon",
 	IR_emission_coeff = 0,
 	MaxSpeed = 0,
-	Name = "Open Wagon",
+	Name = "Rwy. Open Wagon",
 	Rate = 4,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,

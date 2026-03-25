@@ -1,4 +1,4 @@
-_G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
+_G["db"]["Units"]["Cars"]["Car"]["#Index"] = <1>{
 	CanopyGeometry = {
 		azimuth = {},
 		elevation = {}
@@ -62,8 +62,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		maxTargetDetectionRange = 10000
 	},
 	Waypoint_Custom_Panel = true,
-	_file = "./CoreMods/tech/M3 WWII PTO units/Database/Japan ground units/Type_94_25mm_AA_Truck.lua",
+	_file = "./CoreMods/tech/M3 WWII PTO units/Database/Japan ground units/db_units_cars.lua",
 	_origin = "World War II PTO Units by Magnitude 3 LLC",
+	_replace_origin_ = {
+		["World War II PTO Units by Magnitude 3 LLC"] = <table 1>
+	},
 	animation_arguments = {
 		alarm_state = -1,
 		transportaionStateArgsAndVals = { {}, {} }
@@ -103,6 +106,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	sensor = {
 		height = 2.3
 	},
+	shape_table_data = { {
+			classname = "lLandVehicle",
+			desrt = "Type_94_Truck_AA_Destroyed",
+			file = "Type_94_Truck_AA",
+			life = 6,
+			name = "Type_94_Truck_AA",
+			positioning = "BYNORMAL",
+			username = "Type_94_25mm_AA_Truck"
+		}, {
+			file = "Type_94_Truck_AA_Destroyed",
+			name = "Type_94_Truck_AA_Destroyed"
+		} },
 	snd = {
 		engine_pitch = { {}, {}, {} },
 		engine_vol_a = { {}, {}, {} },

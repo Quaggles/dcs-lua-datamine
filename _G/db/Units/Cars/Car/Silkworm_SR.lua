@@ -219,6 +219,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	defaultStartAlarmState = 2,
 	enablePlayerCanDrive = false,
+	encyclopediaAnimation = {
+		args = {
+			[0] = 0.255,
+			[3] = 1
+		}
+	},
 	mapclasskey = "P0091000083",
 	radar_rotation_period = 10,
 	sensor = {

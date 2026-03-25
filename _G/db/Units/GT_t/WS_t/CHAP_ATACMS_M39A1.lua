@@ -10,6 +10,7 @@ _G["db"]["Units"]["GT_t"]["WS_t"]["CHAP_ATACMS_M39A1"] = {
 					switch_on_delay = 300,
 					type_ammunition = "weapons.missiles.M39A1"
 				} },
+			barrels_reload_type = 2,
 			distanceMax = 300000,
 			distanceMin = 50000,
 			external_tracking_awacs = false,

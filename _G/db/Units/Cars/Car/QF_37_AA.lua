@@ -115,6 +115,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	defaultStartAlarmState = 2,
 	enablePlayerCanDrive = false,
+	encyclopediaAnimation = {
+		args = { 0.255, 1, 1,
+			[0] = 0.255,
+			[99] = -0.176
+		}
+	},
 	mapclasskey = "P0091000015",
 	maxDeviationPitch = 0.17453292519943,
 	maxDeviationRoll = 0.17453292519943,

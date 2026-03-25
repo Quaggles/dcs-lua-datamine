@@ -98,6 +98,16 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		offset = { 0.25, 0, 0 }
 	},
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = { 0.15,
+			[9] = 0.8
+		},
+		children = { {
+				args = { 0, 0 },
+				connector = "master_coupler_point",
+				model = "gd-load-sd10"
+			} }
+	},
 	mapclasskey = "P0091000005",
 	sensor = {
 		pos = { -1.67, 1.636, -0.536 }

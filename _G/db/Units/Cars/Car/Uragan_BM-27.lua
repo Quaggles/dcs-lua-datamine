@@ -116,7 +116,72 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		args = { 0.459, 1, 1,
 			[0] = 0.149,
 			[100] = 1
-		}
+		},
+		children = { {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_01",
+				model = "9M27F"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_02",
+				model = "9M27F"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_03",
+				model = "9M27F"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_04",
+				model = "9M27F"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_05",
+				model = "9M27F"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_06",
+				model = "9M27F"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_07",
+				model = "9M27F"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_08",
+				model = "9M27F"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_09",
+				model = "9M27F"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_10",
+				model = "9M27F"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_11",
+				model = "9M27F"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_12",
+				model = "9M27F"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_13",
+				model = "9M27F"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_14",
+				model = "9M27F"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_15",
+				model = "9M27F"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_16",
+				model = "9M27F"
+			} }
 	},
 	mapclasskey = "P0091000209",
 	sensor = {

@@ -138,6 +138,29 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	defaultStartAlarmState = 2,
 	enablePlayerCanDrive = false,
+	encyclopediaAnimation = {
+		args = { 0.4,
+			[0] = 0.255,
+			[3] = 1
+		},
+		children = { {
+				args = { 1, 1 },
+				connector = "missile_point_1",
+				model = "rapier_fsa_missile"
+			}, {
+				args = { 1, 1 },
+				connector = "missile_point_2",
+				model = "rapier_fsa_missile"
+			}, {
+				args = { 1, 1 },
+				connector = "missile_point_3",
+				model = "rapier_fsa_missile"
+			}, {
+				args = { 1, 1 },
+				connector = "missile_point_4",
+				model = "rapier_fsa_missile"
+			} }
+	},
 	mapclasskey = "P0091000082",
 	maxDeviationPitch = 0.087266462599716,
 	maxDeviationRoll = 0.087266462599716,

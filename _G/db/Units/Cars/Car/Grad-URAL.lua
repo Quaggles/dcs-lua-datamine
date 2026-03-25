@@ -165,7 +165,168 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			[0] = 0.38,
 			[3] = 1,
 			[9] = 1
-		}
+		},
+		children = { {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_01",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_02",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_03",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_04",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_05",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_06",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_07",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_08",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_09",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_10",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_11",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_12",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_13",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_14",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_15",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_16",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_17",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_18",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_19",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_20",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_21",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_22",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_23",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_24",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_25",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_26",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_27",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_28",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_29",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_30",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_31",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_32",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_33",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_34",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_35",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_36",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_37",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_38",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_39",
+				model = "9M22U"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_40",
+				model = "9M22U"
+			} }
 	},
 	mapclasskey = "P0091000208",
 	sensor = {

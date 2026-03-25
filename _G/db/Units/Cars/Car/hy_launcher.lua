@@ -81,6 +81,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	defaultStartAlarmState = 2,
 	enablePlayerCanDrive = false,
+	encyclopediaAnimation = {
+		args = {
+			[0] = 0.155,
+			[3] = 1
+		},
+		children = { {
+				args = { 1 },
+				connector = "POINT_ROCKET",
+				model = "HY2_Missile"
+			} }
+	},
 	mapclasskey = "P0091000079",
 	sensor = {
 		height = 3

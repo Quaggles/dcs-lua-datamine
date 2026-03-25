@@ -1,10 +1,10 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 0,
-	DisplayName = "Wagon G10 (Germany)",
+	DisplayName = "Rwy. Wagon G10 (Germany, WWII)",
 	DisplayNameShort = "WgnG10",
 	IR_emission_coeff = 0.01,
 	MaxSpeed = 79.92,
-	Name = "Wagon G10 (Germany)",
+	Name = "Rwy. Wagon G10 (Germany, WWII)",
 	Rate = 10,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,

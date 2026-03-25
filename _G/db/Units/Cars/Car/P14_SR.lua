@@ -486,6 +486,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		life = 4
 	},
 	enablePlayerCanDrive = false,
+	encyclopediaAnimation = {
+		args = {
+			[11] = 0.2
+		}
+	},
 	mapclasskey = "P0091000083",
 	radar_rotation_period = 15,
 	sensor = {

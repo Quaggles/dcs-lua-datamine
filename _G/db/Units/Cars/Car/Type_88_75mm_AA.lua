@@ -1,4 +1,4 @@
-_G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
+_G["db"]["Units"]["Cars"]["Car"]["#Index"] = <1>{
 	Countries = { "Japan" },
 	DetectionRange = 10000,
 	DisplayName = "AAA 75mm Type 88 Flak",
@@ -52,8 +52,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		maxTargetDetectionRange = 10000
 	},
 	Waypoint_Custom_Panel = true,
-	_file = "./CoreMods/tech/M3 WWII PTO units/Database/Japan ground units/Type_88_75mm_AA.lua",
+	_file = "./CoreMods/tech/M3 WWII PTO units/Database/Japan ground units/db_units_cars.lua",
 	_origin = "World War II PTO Units by Magnitude 3 LLC",
+	_replace_origin_ = {
+		["World War II PTO Units by Magnitude 3 LLC"] = <table 1>
+	},
 	animation_arguments = {
 		alarm_state = -1
 	},
@@ -73,6 +76,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	sensor = {
 		height = 2.5
 	},
+	shape_table_data = { {
+			classname = "lLandVehicle",
+			desrt = "Type_88_75mm_AA_Destroyed",
+			file = "Type_88_75mm_AA",
+			life = 6,
+			name = "Type_88_75mm_AA",
+			positioning = "BYNORMAL",
+			username = "Type_88_75mm_AA"
+		}, {
+			file = "Type_88_75mm_AA_Destroyed",
+			name = "Type_88_75mm_AA_Destroyed"
+		} },
 	snd = {},
 	swapped_names = true,
 	tags = { "Air Defence", "AAA" },

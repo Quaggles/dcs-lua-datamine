@@ -1,10 +1,10 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 0,
-	DisplayName = "Coach Platform",
+	DisplayName = "Rwy. Coach Platform",
 	DisplayNameShort = "Platf",
 	IR_emission_coeff = 0,
 	MaxSpeed = 0,
-	Name = "Coach Platform",
+	Name = "Rwy. Coach Platform",
 	Rate = 4,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,

@@ -188,6 +188,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		life = 30
 	},
 	enablePlayerCanDrive = false,
+	encyclopediaAnimation = {
+		args = {
+			[0] = 0.255
+		}
+	},
 	mapclasskey = "P0091000036",
 	positioning = "ONLYHEIGTH",
 	radar_rotation_period = 18,

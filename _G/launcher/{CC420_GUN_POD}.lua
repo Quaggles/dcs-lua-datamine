@@ -257,6 +257,7 @@ _G["launcher"]["{CC420_GUN_POD}"] = {
 		} },
 	kind_of_shipping = 2,
 	name = "{CC420_GUN_POD}",
+	pilon_jettison_option = 3,
 	shape_table_data = { {
 			file = "CC420-GUN-POD",
 			index = "Redacted",

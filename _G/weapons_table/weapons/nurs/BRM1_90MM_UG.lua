@@ -19,7 +19,7 @@ _G["weapons_table"]["weapons"]["nurs"]["BRM1_90MM_UG"] = {
 			smoke_color = { 0.9, 0.9, 0.9 },
 			smoke_transparency = 0.5,
 			tail_width = 0.052,
-			total_mass = 10.5,
+			total_mass = 9.85,
 			work_tail = 1,
 			work_time = 1
 		},
@@ -64,10 +64,10 @@ _G["weapons_table"]["weapons"]["nurs"]["BRM1_90MM_UG"] = {
 			cumulative_thickness = 0.25,
 			expl_mass = 1.3,
 			fantom = 1,
-			mass = 4.8,
+			mass = 6.8,
 			obj_factors = { 1, 1 },
 			other_factors = { 0.5, 0.5, 0.5 },
-			piercing_mass = 2.8
+			piercing_mass = 3.5
 		},
 		warhead_air = {
 			caliber = 90,
@@ -76,10 +76,10 @@ _G["weapons_table"]["weapons"]["nurs"]["BRM1_90MM_UG"] = {
 			cumulative_factor = 1.5,
 			cumulative_thickness = 0.25,
 			expl_mass = 1.3,
-			mass = 4.8,
+			mass = 6.8,
 			obj_factors = { 1, 1 },
 			other_factors = { 0.5, 0.5, 0.5 },
-			piercing_mass = 2.8
+			piercing_mass = 3.5
 		},
 		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 	},
@@ -108,7 +108,7 @@ _G["weapons_table"]["weapons"]["nurs"]["BRM1_90MM_UG"] = {
 			smoke_color = { 0.9, 0.9, 0.9 },
 			smoke_transparency = 0.5,
 			tail_width = 0.052,
-			total_mass = 10.5,
+			total_mass = 9.85,
 			work_tail = 1,
 			work_time = 1
 		},
@@ -153,10 +153,10 @@ _G["weapons_table"]["weapons"]["nurs"]["BRM1_90MM_UG"] = {
 			cumulative_thickness = 0.25,
 			expl_mass = 1.3,
 			fantom = 0,
-			mass = 4.8,
+			mass = 6.8,
 			obj_factors = { 1, 1 },
 			other_factors = { 0.5, 0.5, 0.5 },
-			piercing_mass = 2.8
+			piercing_mass = 3.5
 		},
 		warhead_air = {
 			caliber = 90,
@@ -165,10 +165,10 @@ _G["weapons_table"]["weapons"]["nurs"]["BRM1_90MM_UG"] = {
 			cumulative_factor = 1.5,
 			cumulative_thickness = 0.25,
 			expl_mass = 1.3,
-			mass = 4.8,
+			mass = 6.8,
 			obj_factors = { 1, 1 },
 			other_factors = { 0.5, 0.5, 0.5 },
-			piercing_mass = 2.8
+			piercing_mass = 3.5
 		},
 		wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 	},

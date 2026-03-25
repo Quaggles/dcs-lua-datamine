@@ -1,10 +1,10 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 0,
-	DisplayName = "Loco DRG Class 86",
+	DisplayName = "Rwy. Loco DRG Class 86 (Germany, WWII)",
 	DisplayNameShort = "Loco86",
 	IR_emission_coeff = 0.1,
 	MaxSpeed = 79.92,
-	Name = "Loco DRG Class 86",
+	Name = "Rwy. Loco DRG Class 86 (Germany, WWII)",
 	Rate = 10,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,

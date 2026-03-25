@@ -15,5 +15,23 @@ _G["launcher"]["{LAU-7 - AIM-9M}"] = {
 	category = 4,
 	displayName = "LAU-7 AIM-9M",
 	name = "HB_F14_EXT_LAU-7",
+	settings = { {
+			baseDim = "",
+			control = "comboList",
+			defValue = 0.1,
+			id = "NFP_VIS_DrawArgNo_57",
+			label = "Body Color",
+			stringIndex = 1,
+			values = { {
+					dispName = "White",
+					id = 0
+				}, {
+					dispName = "Grey",
+					id = 0.1
+				} },
+			wCtrl = 80,
+			xCtrl = 200,
+			xLbl = 10
+		} },
 	wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 }

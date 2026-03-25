@@ -154,9 +154,27 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	defaultStartAlarmState = 2,
 	enablePlayerCanDrive = false,
 	encyclopediaAnimation = {
-		args = {
-			[0] = 1
-		}
+		args = { 0.255,
+			[0] = 0.255,
+			[3] = 0.917
+		},
+		children = { {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_01",
+				model = "9M38M1"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_02",
+				model = "9M38M1"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_03",
+				model = "9M38M1"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET_04",
+				model = "9M38M1"
+			} }
 	},
 	mapclasskey = "P0091000081",
 	sensor = {

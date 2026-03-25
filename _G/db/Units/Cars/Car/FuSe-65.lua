@@ -84,7 +84,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	enablePlayerCanDrive = false,
 	encyclopediaAnimation = {
-		args = { 0.15 }
+		args = { 0.15,
+			[0] = 0.255
+		}
 	},
 	mapclasskey = "P0091000036",
 	positioning = "ONLYHEIGTH",

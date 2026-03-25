@@ -55,6 +55,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		life = 4
 	},
 	enablePlayerCanDrive = false,
+	encyclopediaAnimation = {
+		children = { {
+				args = { 1 },
+				connector = "V1_point",
+				model = "Fau-1"
+			}, {
+				args = { 1 },
+				connector = "Generator_point",
+				model = "v1_steam_generator"
+			} }
+	},
 	mapclasskey = "P0091000079",
 	sensor = {
 		height = 3

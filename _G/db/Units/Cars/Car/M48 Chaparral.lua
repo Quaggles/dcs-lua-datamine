@@ -73,6 +73,29 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		offset = { 0, 0, 0 }
 	},
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = { 0.255,
+			[0] = 0.4,
+			[3] = 1
+		},
+		children = { {
+				args = { 1, 1 },
+				connector = "POINT_M48_1_1",
+				model = "MIM-72"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_M48_1_2",
+				model = "MIM-72"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_M48_1_3",
+				model = "MIM-72"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_M48_1_4",
+				model = "MIM-72"
+			} }
+	},
 	mapclasskey = "P0091000215",
 	sensor = {
 		height = 2.52,

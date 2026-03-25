@@ -71,6 +71,25 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	chassis = {},
 	defaultStartAlarmState = 2,
 	enablePlayerCanDrive = false,
+	encyclopediaAnimation = {
+		args = { 0.255,
+			[0] = 0.255,
+			[3] = 0.4
+		},
+		children = { {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET1",
+				model = "3M9M"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET2",
+				model = "3M9M"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_ROCKET3",
+				model = "3M9M"
+			} }
+	},
 	mapclasskey = "P0091000080",
 	sensor = {
 		height = 3.18

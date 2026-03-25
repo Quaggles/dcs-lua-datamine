@@ -16,10 +16,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 2, 17, 26, "Redacted", "Fortifications", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "AntiAir Armed Vehicles", "HeavyArmoredUnits" },
+	attribute = { 2, 9, 25, "Redacted", "Fortifications", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "AntiAir Armed Vehicles", "HeavyArmoredUnits" },
 	category = "Fortification",
 	chassis = {
-		mass = 50
+		length = 5,
+		mass = 50,
+		width = 2.5
 	},
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000076",

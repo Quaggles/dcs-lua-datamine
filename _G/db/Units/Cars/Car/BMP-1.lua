@@ -79,6 +79,16 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		offset = { 0.02, -0.05, 0 }
 	},
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = { 0,
+			[0] = 0
+		},
+		children = { {
+				args = { 1 },
+				connector = "POINT_MISSILE",
+				model = "malutka"
+			} }
+	},
 	mapclasskey = "P0091000002",
 	sensor = {
 		height = 2.15

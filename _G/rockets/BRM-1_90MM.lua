@@ -130,10 +130,10 @@ _G["rockets"]["#Index"] = {
 		cumulative_factor = 1.5,
 		cumulative_thickness = 0.25,
 		expl_mass = 1.3,
-		mass = 4.8,
+		mass = 6.8,
 		obj_factors = { 1, 1 },
 		other_factors = { 0.5, 0.5, 0.5 },
-		piercing_mass = 2.8
+		piercing_mass = 3.5
 	},
 	warhead_air = <table 1>,
 	wsTypeOfWeapon = <2>{ 4, 4, 8, "Redacted" },

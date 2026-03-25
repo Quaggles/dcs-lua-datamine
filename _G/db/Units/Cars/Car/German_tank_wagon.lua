@@ -1,10 +1,10 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 0,
-	DisplayName = "Tank Car (Germany)",
+	DisplayName = "Rwy. Tank Car (Germany, WWII)",
 	DisplayNameShort = "TankCar",
 	IR_emission_coeff = 0.01,
 	MaxSpeed = 79.92,
-	Name = "Tank Car (Germany)",
+	Name = "Rwy. Tank Car (Germany, WWII)",
 	Rate = 10,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,

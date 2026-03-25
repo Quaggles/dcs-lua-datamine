@@ -170,7 +170,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 17, 26, "Redacted", "Fortifications", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "AntiAir Armed Vehicles", "HeavyArmoredUnits" },
 	category = "Fortification",
 	chassis = {
-		life = 10
+		life = 10,
+		mass = 3000
 	},
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000076",

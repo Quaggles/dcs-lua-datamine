@@ -134,10 +134,10 @@ _G["weapons_table"]["weapons"]["missiles"]["BRM-1_90MM"] = {
 			cumulative_thickness = 0.25,
 			expl_mass = 1.3,
 			fantom = 1,
-			mass = 4.8,
+			mass = 6.8,
 			obj_factors = { 1, 1 },
 			other_factors = { 0.5, 0.5, 0.5 },
-			piercing_mass = 2.8
+			piercing_mass = 3.5
 		},
 		warhead_air = {
 			caliber = 90,
@@ -147,10 +147,10 @@ _G["weapons_table"]["weapons"]["missiles"]["BRM-1_90MM"] = {
 			cumulative_thickness = 0.25,
 			expl_mass = 1.3,
 			fantom = 1,
-			mass = 4.8,
+			mass = 6.8,
 			obj_factors = { 1, 1 },
 			other_factors = { 0.5, 0.5, 0.5 },
-			piercing_mass = 2.8
+			piercing_mass = 3.5
 		},
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},
@@ -289,10 +289,10 @@ _G["weapons_table"]["weapons"]["missiles"]["BRM-1_90MM"] = {
 			cumulative_thickness = 0.25,
 			expl_mass = 1.3,
 			fantom = 0,
-			mass = 4.8,
+			mass = 6.8,
 			obj_factors = { 1, 1 },
 			other_factors = { 0.5, 0.5, 0.5 },
-			piercing_mass = 2.8
+			piercing_mass = 3.5
 		},
 		warhead_air = {
 			caliber = 90,
@@ -302,10 +302,10 @@ _G["weapons_table"]["weapons"]["missiles"]["BRM-1_90MM"] = {
 			cumulative_thickness = 0.25,
 			expl_mass = 1.3,
 			fantom = 0,
-			mass = 4.8,
+			mass = 6.8,
 			obj_factors = { 1, 1 },
 			other_factors = { 0.5, 0.5, 0.5 },
-			piercing_mass = 2.8
+			piercing_mass = 3.5
 		},
 		wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 	},

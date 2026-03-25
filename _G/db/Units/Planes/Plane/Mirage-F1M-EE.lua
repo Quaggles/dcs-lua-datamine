@@ -1513,6 +1513,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "<CLEAN>",
 					arg_value = 0
 				}, {
+					CLSID = "{AIM-9B}",
+					arg_value = 0.15
+				}, {
 					CLSID = "{AIM-9J}",
 					arg_value = 0.15
 				}, {
@@ -1627,26 +1630,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.25
 				}, {
 					arg_value = 0.25
-				}, {
-					CLSID = "{AIM-9J}",
-					arg_value = 0.15
-				}, {
-					CLSID = "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}",
-					arg_value = 0.15
-				}, {
-					CLSID = "{AIM-9P3}",
-					arg_value = 0.15
-				}, {
-					CLSID = "{AIM-9JULI}",
-					arg_value = 0.15
-				}, {
-					CLSID = "{R550_Magic_1}",
-					arg_value = 0.15,
-					attach_point_position = { -0.1, -0.09, 0 }
-				}, {
-					CLSID = "{FC23864E-3B80-48E3-9C03-4DA8B1D7497B}",
-					arg_value = 0.15,
-					attach_point_position = { -0.1, -0.09, 0 }
 				}, {
 					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
 					arg_value = 0.25
@@ -1821,6 +1804,46 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{AUF2_GBU12}",
 					arg_value = 0.15
 				}, {
+					CLSID = "{R530F_EM}",
+					arg_value = 0.25,
+					attach_point_position = { 0.368, 0.029, 0 },
+					forbidden = { {
+							loadout = { "{R530F_EM}" },
+							station = 4
+						}, {
+							loadout = { "{R530F_IR}" },
+							station = 4
+						}, {
+							loadout = { "{S530F}" },
+							station = 3
+						}, {
+							loadout = { "{S530F}" },
+							station = 4
+						}, {
+							loadout = { "{S530F}" },
+							station = 5
+						} }
+				}, {
+					CLSID = "{R530F_IR}",
+					arg_value = 0.25,
+					attach_point_position = { 0.368, 0.029, 0 },
+					forbidden = { {
+							loadout = { "{R530F_EM}" },
+							station = 4
+						}, {
+							loadout = { "{R530F_IR}" },
+							station = 4
+						}, {
+							loadout = { "{S530F}" },
+							station = 3
+						}, {
+							loadout = { "{S530F}" },
+							station = 4
+						}, {
+							loadout = { "{S530F}" },
+							station = 5
+						} }
+				}, {
 					CLSID = "{S530F}",
 					arg_value = 0.25,
 					attach_point_position = { 0.33, -0.1, 0 },
@@ -1959,15 +1982,70 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{AUF2_GBU12}",
 					arg_value = 0.15
 				}, {
+					CLSID = "{R530F_EM}",
+					arg_value = 0.25,
+					attach_point_position = { -0.068, -0.112, 0 },
+					forbidden = { {
+							loadout = { "{R530F_EM}" },
+							station = 3
+						}, {
+							loadout = { "{R530F_EM}" },
+							station = 5
+						}, {
+							loadout = { "{R530F_IR}" },
+							station = 3
+						}, {
+							loadout = { "{R530F_IR}" },
+							station = 5
+						}, {
+							loadout = { "{S530F}" },
+							station = 3
+						}, {
+							loadout = { "{S530F}" },
+							station = 4
+						}, {
+							loadout = { "{S530F}" },
+							station = 5
+						} }
+				}, {
+					CLSID = "{R530F_IR}",
+					arg_value = 0.25,
+					attach_point_position = { -0.068, -0.112, 0 },
+					forbidden = { {
+							loadout = { "{R530F_EM}" },
+							station = 3
+						}, {
+							loadout = { "{R530F_EM}" },
+							station = 5
+						}, {
+							loadout = { "{R530F_IR}" },
+							station = 3
+						}, {
+							loadout = { "{R530F_IR}" },
+							station = 5
+						}, {
+							loadout = { "{S530F}" },
+							station = 3
+						}, {
+							loadout = { "{S530F}" },
+							station = 4
+						}, {
+							loadout = { "{S530F}" },
+							station = 5
+						} }
+				}, {
 					CLSID = "PTB-580G-F1",
 					arg_value = 0.35
 				}, {
 					CLSID = "PTB-580G-F1-EMPTY",
 					arg_value = 0.35
+				}, {
+					CLSID = "{AM39_exocet}",
+					arg_value = 0.3
 				} },
 			Number = 4,
 			Order = 4,
-			Type = 0,
+			Type = 1,
 			X = -1.06,
 			Y = -1.283,
 			Z = 0,
@@ -2115,6 +2193,46 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{AUF2_GBU12}",
 					arg_value = 0.15
 				}, {
+					CLSID = "{R530F_EM}",
+					arg_value = 0.25,
+					attach_point_position = { 0.368, 0.029, 0 },
+					forbidden = { {
+							loadout = { "{R530F_EM}" },
+							station = 4
+						}, {
+							loadout = { "{R530F_IR}" },
+							station = 4
+						}, {
+							loadout = { "{S530F}" },
+							station = 3
+						}, {
+							loadout = { "{S530F}" },
+							station = 4
+						}, {
+							loadout = { "{S530F}" },
+							station = 5
+						} }
+				}, {
+					CLSID = "{R530F_IR}",
+					arg_value = 0.25,
+					attach_point_position = { 0.368, 0.029, 0 },
+					forbidden = { {
+							loadout = { "{R530F_EM}" },
+							station = 4
+						}, {
+							loadout = { "{R530F_IR}" },
+							station = 4
+						}, {
+							loadout = { "{S530F}" },
+							station = 3
+						}, {
+							loadout = { "{S530F}" },
+							station = 4
+						}, {
+							loadout = { "{S530F}" },
+							station = 5
+						} }
+				}, {
 					CLSID = "{S530F}",
 					arg_value = 0.25,
 					attach_point_position = { 0.33, -0.1, 0 },
@@ -2236,26 +2354,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					arg_value = 0.25
 				}, {
-					CLSID = "{AIM-9J}",
-					arg_value = 0.15
-				}, {
-					CLSID = "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}",
-					arg_value = 0.15
-				}, {
-					CLSID = "{AIM-9P3}",
-					arg_value = 0.15
-				}, {
-					CLSID = "{AIM-9JULI}",
-					arg_value = 0.15
-				}, {
-					CLSID = "{R550_Magic_1}",
-					arg_value = 0.15,
-					attach_point_position = { -0.1, -0.09, 0 }
-				}, {
-					CLSID = "{FC23864E-3B80-48E3-9C03-4DA8B1D7497B}",
-					arg_value = 0.15,
-					attach_point_position = { -0.1, -0.09, 0 }
-				}, {
 					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
 					arg_value = 0.25
 				}, {
@@ -2293,6 +2391,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Launchers = { {
 					CLSID = "<CLEAN>",
 					arg_value = 0
+				}, {
+					CLSID = "{AIM-9B}",
+					arg_value = 0.15
 				}, {
 					CLSID = "{AIM-9J}",
 					arg_value = 0.15
@@ -2416,7 +2517,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	average_fuel_consumption = 0.5,
 	bank_angle_max = 85,
 	bigParkingRamp = false,
-	brakeshute_name = 348,
+	brakeshute_name = 351,
 	chaff_flare_dispenser = { {
 			dir = { 0, -1, -1 },
 			pos = { -4.312, -0.648, -0.488 }
@@ -2432,16 +2533,16 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			canopy_args = { 38, 1 },
 			canopy_ejection_dir = { -0.4, 1, 0 },
 			canopy_pos = { 2.312, 0.625, 0 },
-			drop_canopy_name = 346,
+			drop_canopy_name = 349,
 			drop_parachute_name = "Mirage-F1_parachute",
 			ejection_added_speed = { -5, 30, 0 },
 			ejection_order = -1,
 			ejection_play_arg = 149,
-			ejection_seat_name = 345,
+			ejection_seat_name = 348,
 			ejection_through_canopy = true,
 			g_suit = 1,
 			pilot_body_arg = 50,
-			pilot_name = 347,
+			pilot_name = 350,
 			pos = { 3.192, -0.013, -0.02 },
 			role = "pilot",
 			role_display_name = "Pilot"

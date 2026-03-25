@@ -105,6 +105,38 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		offset = { 0.1, 0, 0 }
 	},
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = { 0.06,
+			[0] = 0.15,
+			[3] = 1,
+			[9] = 1
+		},
+		children = { {
+				args = { 1, 1 },
+				connector = "POINT_MISSLE_01",
+				model = "malutka"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_MISSLE_02",
+				model = "malutka"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_MISSLE_03",
+				model = "malutka"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_MISSLE_04",
+				model = "malutka"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_MISSLE_05",
+				model = "malutka"
+			}, {
+				args = { 1, 1 },
+				connector = "POINT_MISSLE_06",
+				model = "malutka"
+			} }
+	},
 	mapclasskey = "P0091000204",
 	sensor = {
 		height = 3.277

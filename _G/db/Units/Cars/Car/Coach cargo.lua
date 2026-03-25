@@ -1,10 +1,10 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 0,
-	DisplayName = "Freight Van",
+	DisplayName = "Rwy. Freight Van",
 	DisplayNameShort = "Van",
 	IR_emission_coeff = 0,
 	MaxSpeed = 0,
-	Name = "Freight Van",
+	Name = "Rwy. Freight Van",
 	Rate = 4,
 	ThreatRange = 0,
 	Waypoint_Custom_Panel = true,

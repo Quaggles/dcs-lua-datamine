@@ -84,7 +84,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	driverViewConnectorName = "POINT_DRIVER",
 	enablePlayerCanDrive = true,
 	encyclopediaAnimation = {
-		args = { 0.111 }
+		args = { 0.155,
+			[0] = 0.4
+		}
 	},
 	mapclasskey = "P0091000205",
 	sensor = {

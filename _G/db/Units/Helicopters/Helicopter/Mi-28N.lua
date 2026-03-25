@@ -249,7 +249,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				}, {
 					name = "SmokeEffect"
 				} },
-			ejector_dir = { 3, 0, 0 },
+			ejector_dir = { 0, -1, 0 },
 			ejector_pos = { -0.5, -0.5, 0 },
 			ejector_pos_connector = "Ejector_1",
 			elevation_initial = 0,

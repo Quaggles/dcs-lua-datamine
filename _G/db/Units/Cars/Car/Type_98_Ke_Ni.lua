@@ -1,4 +1,4 @@
-_G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
+_G["db"]["Units"]["Cars"]["Car"]["#Index"] = <1>{
 	CanopyGeometry = {
 		azimuth = {},
 		elevation = {}
@@ -162,8 +162,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		maxTargetDetectionRange = 5000
 	},
 	Waypoint_Custom_Panel = true,
-	_file = "./CoreMods/tech/M3 WWII PTO units/Database/Japan ground units/Type_98_Ke_Ni.lua",
+	_file = "./CoreMods/tech/M3 WWII PTO units/Database/Japan ground units/db_units_cars.lua",
 	_origin = "World War II PTO Units by Magnitude 3 LLC",
+	_replace_origin_ = {
+		["World War II PTO Units by Magnitude 3 LLC"] = <table 1>
+	},
 	animation_arguments = {
 		alarm_state = -1,
 		rollers_rotation = {
@@ -215,6 +218,18 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	sensor = {
 		height = 1.8
 	},
+	shape_table_data = { {
+			classname = "lLandVehicle",
+			desrt = "Type_98_Ke_Ni_Destroyed",
+			file = "Type_98_Ke_Ni",
+			life = 6,
+			name = "Type_98_Ke_Ni",
+			positioning = "BYNORMAL",
+			username = "Type_98_Ke_Ni"
+		}, {
+			file = "Type_98_Ke_Ni_Destroyed",
+			name = "Type_98_Ke_Ni_Destroyed"
+		} },
 	snd = {
 		engine_pitch = { {}, {}, {} },
 		engine_vol_a = { {}, {}, {} },

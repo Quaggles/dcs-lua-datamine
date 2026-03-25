@@ -142,6 +142,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	chassis = {},
 	defaultStartAlarmState = 2,
 	enablePlayerCanDrive = false,
+	encyclopediaAnimation = {
+		args = {
+			[2] = 1,
+			[4] = 1
+		},
+		children = { {
+				args = { 1 },
+				connector = "POINT_ROCKET",
+				model = "R-17"
+			} }
+	},
 	mapclasskey = "P0091000208",
 	maxDeviationPitch = 0.087266462599716,
 	maxDeviationRoll = 0.087266462599716,
