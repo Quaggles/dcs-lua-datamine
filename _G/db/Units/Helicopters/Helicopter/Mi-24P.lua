@@ -2506,7 +2506,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			positioning = "BYNORMAL"
 		} },
 	sound_name = "Aircrafts/Engines/RotorMi24",
-	sounderName = "Aircraft/Helicopters/Mi-24",
 	stores_number = 6,
 	swapped_names = true,
 	tail_fin_area = 3.15,

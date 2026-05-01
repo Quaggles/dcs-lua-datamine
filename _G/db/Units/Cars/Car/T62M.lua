@@ -4,6 +4,22 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	Countries = { "USSR", "Russia", "Afghanistan", "Belarus", "GDR", "Ukraine", "Uzbekistan", "Syria", "Kazakhstan" },
+	DM = { {
+			area_name = "TARGET_GUN",
+			armour = {
+				width = 0.4
+			}
+		}, {
+			area_name = "TARGET_SHASSIS",
+			armour = {
+				width = 0.15
+			}
+		}, {
+			area_name = "TARGET_TURRET",
+			armour = {
+				width = 0.25
+			}
+		} },
 	DetectionRange = 0,
 	DisplayName = "MBT T-62M",
 	DisplayNameShort = "T62",

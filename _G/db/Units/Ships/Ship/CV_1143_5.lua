@@ -1036,6 +1036,67 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 		}, {
 			LN = { {
 					BR = { {
+							pos = {}
+						} },
+					PL = {},
+					distanceMax = 16000,
+					frequencyRange = { 4000000000, 8000000000 },
+					max_trg_alt = 8000,
+					min_trg_alt = 5,
+					reactionTime = 3,
+					sensor = {},
+					type = 102
+				} },
+			angles = { { 2.9670597283904, -0.69813170079773, -0.20943951023932, 1.535889741755 } },
+			area = "Collision_92",
+			center = "CENTER_RADAR_08",
+			drawArgument1 = 11,
+			moveable = true,
+			reference_angle_Z = 0.5235987755983
+		}, {
+			LN = { {
+					BR = { {
+							pos = {}
+						} },
+					PL = {},
+					frequencyRange = {},
+					sensor = {}
+				} },
+			angles = { { 0.69813170079773, -2.9670597283904, -0.20943951023932, 1.535889741755 } },
+			area = "Collision_91",
+			center = "CENTER_RADAR_07",
+			drawArgument1 = 10
+		}, {
+			LN = { {
+					BR = { {
+							pos = {}
+						} },
+					PL = {},
+					frequencyRange = {},
+					sensor = {}
+				} },
+			angles = { { -2.8797932657906, 0.087266462599716, -0.20943951023932, 1.535889741755 } },
+			area = "Collision_94",
+			center = "CENTER_RADAR_10",
+			drawArgument1 = 13,
+			reference_angle_Y = 3.1415926535898
+		}, {
+			LN = { {
+					BR = { {
+							pos = {}
+						} },
+					PL = {},
+					frequencyRange = {},
+					sensor = {}
+				} },
+			angles = { { -0.087266462599716, 2.9670597283904, -0.20943951023932, 1.535889741755 } },
+			area = "Collision_93",
+			center = "CENTER_RADAR_09",
+			drawArgument1 = 12,
+			reference_angle_Y = -3.1415926535898
+		}, {
+			LN = { {
+					BR = { {
 							connector_name = "POINT_KINJAL_15",
 							pos = {}
 						} },
@@ -1043,16 +1104,15 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							ammo_capacity = 48,
 							type_ammunition = {}
 						} },
-					connectorFire = false,
-					frequencyRange = { 4000000000, 8000000000 },
+					beamWidth = 0,
+					connectorFire = true,
+					depends_on_unit = { { { "self", 15 } } },
 					reactionTime = 3,
 					sensor = {}
 				} },
-			angles = { { 2.9670597283904, -0.69813170079773, -0.20943951023932, 1.535889741755 } },
-			area = "Collision_92",
-			center = "CENTER_RADAR_08",
-			drawArgument1 = 11,
-			moveable = true
+			angles = { {} },
+			center = "CENTER_TOWER_KINJAL_15",
+			moveable = false
 		}, {
 			LN = { {
 					BR = { {
@@ -1060,19 +1120,13 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							pos = {}
 						} },
 					PL = { {
-							ammo_capacity = 48,
 							type_ammunition = {}
 						} },
-					connectorFire = false,
-					frequencyRange = { 4000000000, 8000000000 },
-					reactionTime = 3,
+					depends_on_unit = { { { "self", 16 } } },
 					sensor = {}
 				} },
-			angles = { { 0.69813170079773, -2.9670597283904, -0.20943951023932, 1.535889741755 } },
-			area = "Collision_91",
-			center = "CENTER_RADAR_07",
-			drawArgument1 = 10,
-			moveable = true
+			angles = { {} },
+			center = "CENTER_TOWER_KINJAL_03"
 		}, {
 			LN = { {
 					BR = { {
@@ -1080,20 +1134,13 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							pos = {}
 						} },
 					PL = { {
-							ammo_capacity = 48,
 							type_ammunition = {}
 						} },
-					connectorFire = false,
-					frequencyRange = { 4000000000, 8000000000 },
-					reactionTime = 3,
+					depends_on_unit = { { { "self", 17 } } },
 					sensor = {}
 				} },
-			angles = { { -2.9670597283904, 0.087266462599716, -0.20943951023932, 1.535889741755 } },
-			area = "Collision_94",
-			center = "CENTER_RADAR_10",
-			drawArgument1 = 13,
-			moveable = true,
-			reference_angle_Y = 3.1415926535898
+			angles = { {} },
+			center = "CENTER_TOWER_KINJAL_22"
 		}, {
 			LN = { {
 					BR = { {
@@ -1101,20 +1148,13 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							pos = {}
 						} },
 					PL = { {
-							ammo_capacity = 48,
 							type_ammunition = {}
 						} },
-					connectorFire = false,
-					frequencyRange = { 4000000000, 8000000000 },
-					reactionTime = 3,
+					depends_on_unit = { { { "self", 18 } } },
 					sensor = {}
 				} },
-			angles = { { -0.087266462599716, 2.9670597283904, -0.20943951023932, 1.535889741755 } },
-			area = "Collision_93",
-			center = "CENTER_RADAR_09",
-			drawArgument1 = 12,
-			moveable = true,
-			reference_angle_Y = 3.1415926535898
+			angles = { {} },
+			center = "CENTER_TOWER_KINJAL_10"
 		}, {
 			LN = { {
 					BR = { {

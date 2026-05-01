@@ -54,11 +54,11 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			area_life = 60,
 			area_name = "KORMA_R"
 		}, {
-			area_arg = -1,
+			area_arg = 76,
 			area_life = 20,
 			area_name = "MAIN_GUN"
 		}, {
-			area_arg = -1,
+			area_arg = 77,
 			area_life = 20,
 			area_name = "FCR"
 		}, {

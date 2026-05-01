@@ -1243,7 +1243,9 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 			name = ""
 		} },
 	shipLength = 332.9,
-	snd = {},
+	snd = {
+		speakers = { { -40.67, 25.28, 25 }, { -60.67, 25.28, 25 } }
+	},
 	speedup = 0.119249,
 	swapped_names = true,
 	tags = { "Carrier" },

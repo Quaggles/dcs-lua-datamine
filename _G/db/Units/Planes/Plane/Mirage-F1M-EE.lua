@@ -1535,6 +1535,26 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{FC23864E-3B80-48E3-9C03-4DA8B1D7497B}",
 					arg_value = 0.15,
 					attach_point_position = { -0.1, -0.09, 0 }
+				}, {
+					CLSID = "{AIM-9J}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AIM-9P3}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AIM-9JULI}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{R550_Magic_1}",
+					arg_value = 0.15,
+					attach_point_position = { -0.1, -0.09, 0 }
+				}, {
+					CLSID = "{FC23864E-3B80-48E3-9C03-4DA8B1D7497B}",
+					arg_value = 0.15,
+					attach_point_position = { -0.1, -0.09, 0 }
 				} },
 			Number = 1,
 			Order = 1,
@@ -1653,6 +1673,41 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "BARAX_ECM" },
 							station = 6
 						} }
+				}, {
+					CLSID = "{AIM-9J}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AIM-9P3}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AIM-9JULI}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{R550_Magic_1}",
+					arg_value = 0.15,
+					attach_point_position = { -0.1, -0.09, 0 }
+				}, {
+					CLSID = "{FC23864E-3B80-48E3-9C03-4DA8B1D7497B}",
+					arg_value = 0.15,
+					attach_point_position = { -0.1, -0.09, 0 }
+				}, {
+					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
+					arg_value = 0.25
+				}, {
+					CLSID = "{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}",
+					arg_value = 0.25
+				}, {
+					CLSID = "BR_250",
+					arg_value = 0.25
+				}, {
+					CLSID = "BR_500",
+					arg_value = 0.25
+				}, {
+					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
+					arg_value = 0.25
 				} },
 			Number = 2,
 			Order = 2,
@@ -1869,6 +1924,86 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{R530F_IR}" },
 							station = 5
 						} }
+				}, {
+					CLSID = "{14_3_M2_6xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{14_3_M2_9xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_12xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_18xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{14_3_M2_6xBAT120}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{14_3_M2_9xBAT120}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_12xBAT120}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_18xBAT120}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}",
+					arg_value = 0.15
+				}, {
+					CLSID = "BR_250",
+					arg_value = 0.15
+				}, {
+					CLSID = "BR_500",
+					arg_value = 0.15
+				}, {
+					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{0D33DDAE-524F-4A4E-B5B8-621754FE3ADE}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AUF2_BR250}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AUF2_BRP250}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AUF2_MK82}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AUF2_GBU12}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{S530F}",
+					arg_value = 0.25,
+					attach_point_position = { 0.33, -0.1, 0 },
+					forbidden = { {
+							loadout = { "{S530F}" },
+							station = 4
+						}, {
+							loadout = { "{R530F_EM}" },
+							station = 3
+						}, {
+							loadout = { "{R530F_EM}" },
+							station = 4
+						}, {
+							loadout = { "{R530F_EM}" },
+							station = 5
+						}, {
+							loadout = { "{R530F_IR}" },
+							station = 3
+						}, {
+							loadout = { "{R530F_IR}" },
+							station = 4
+						}, {
+							loadout = { "{R530F_IR}" },
+							station = 5
+						} }
 				} },
 			Number = 3,
 			Order = 3,
@@ -2040,8 +2175,77 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "PTB-580G-F1-EMPTY",
 					arg_value = 0.35
 				}, {
+					CLSID = "{14_3_M2_6xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{14_3_M2_9xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_12xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_18xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{14_3_M2_6xBAT120}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{14_3_M2_9xBAT120}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_12xBAT120}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_18xBAT120}",
+					arg_value = 0.15
+				}, {
 					CLSID = "{AM39_exocet}",
 					arg_value = 0.3
+				}, {
+					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}",
+					arg_value = 0.15
+				}, {
+					CLSID = "BR_250",
+					arg_value = 0.15
+				}, {
+					CLSID = "BR_500",
+					arg_value = 0.15
+				}, {
+					CLSID = "{51F9AAE5-964F-4D21-83FB-502E3BFE5F8A}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{0D33DDAE-524F-4A4E-B5B8-621754FE3ADE}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{CLB4_MK82}",
+					arg_value = 0.35
+				}, {
+					CLSID = "{CLB4_BR250}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AUF2_BR250}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AUF2_BRP250}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AUF2_MK82}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AUF2_GBU12}",
+					arg_value = 0.15
+				}, {
+					CLSID = "PTB-580G-F1",
+					arg_value = 0.35
+				}, {
+					CLSID = "PTB-580G-F1-EMPTY",
+					arg_value = 0.35
 				} },
 			Number = 4,
 			Order = 4,
@@ -2258,6 +2462,86 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{R530F_IR}" },
 							station = 5
 						} }
+				}, {
+					CLSID = "{14_3_M2_6xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{14_3_M2_9xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_12xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_18xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{14_3_M2_6xBAT120}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{14_3_M2_9xBAT120}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_12xBAT120}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_18xBAT120}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}",
+					arg_value = 0.15
+				}, {
+					CLSID = "BR_250",
+					arg_value = 0.15
+				}, {
+					CLSID = "BR_500",
+					arg_value = 0.15
+				}, {
+					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{0D33DDAE-524F-4A4E-B5B8-621754FE3ADE}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AUF2_BR250}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AUF2_BRP250}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AUF2_MK82}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AUF2_GBU12}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{S530F}",
+					arg_value = 0.25,
+					attach_point_position = { 0.33, -0.1, 0 },
+					forbidden = { {
+							loadout = { "{S530F}" },
+							station = 4
+						}, {
+							loadout = { "{R530F_EM}" },
+							station = 3
+						}, {
+							loadout = { "{R530F_EM}" },
+							station = 4
+						}, {
+							loadout = { "{R530F_EM}" },
+							station = 5
+						}, {
+							loadout = { "{R530F_IR}" },
+							station = 3
+						}, {
+							loadout = { "{R530F_IR}" },
+							station = 4
+						}, {
+							loadout = { "{R530F_IR}" },
+							station = 5
+						} }
 				} },
 			Number = 5,
 			Order = 5,
@@ -2376,6 +2660,41 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "BARAX_ECM" },
 							station = 2
 						} }
+				}, {
+					CLSID = "{AIM-9J}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AIM-9P3}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AIM-9JULI}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{R550_Magic_1}",
+					arg_value = 0.15,
+					attach_point_position = { -0.1, -0.09, 0 }
+				}, {
+					CLSID = "{FC23864E-3B80-48E3-9C03-4DA8B1D7497B}",
+					arg_value = 0.15,
+					attach_point_position = { -0.1, -0.09, 0 }
+				}, {
+					CLSID = "{BCE4E030-38E9-423E-98ED-24BE3DA87C32}",
+					arg_value = 0.25
+				}, {
+					CLSID = "{7A44FF09-527C-4B7E-B42B-3F111CFE50FB}",
+					arg_value = 0.25
+				}, {
+					CLSID = "BR_250",
+					arg_value = 0.25
+				}, {
+					CLSID = "BR_500",
+					arg_value = 0.25
+				}, {
+					CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
+					arg_value = 0.25
 				} },
 			Number = 6,
 			Order = 6,
@@ -2394,6 +2713,26 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{AIM-9B}",
 					arg_value = 0.15
+				}, {
+					CLSID = "{AIM-9J}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AIM-9P3}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{AIM-9JULI}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{R550_Magic_1}",
+					arg_value = 0.15,
+					attach_point_position = { -0.1, -0.09, 0 }
+				}, {
+					CLSID = "{FC23864E-3B80-48E3-9C03-4DA8B1D7497B}",
+					arg_value = 0.15,
+					attach_point_position = { -0.1, -0.09, 0 }
 				}, {
 					CLSID = "{AIM-9J}",
 					arg_value = 0.15

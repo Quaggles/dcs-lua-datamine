@@ -1861,6 +1861,30 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{R530F_IR}" },
 							station = 5
 						} }
+				}, {
+					CLSID = "{14_3_M2_6xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{14_3_M2_9xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_12xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_18xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{14_3_M2_6xBAT120}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{14_3_M2_9xBAT120}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_12xBAT120}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_18xBAT120}",
+					arg_value = 0.15
 				} },
 			Number = 3,
 			Order = 3,
@@ -2031,6 +2055,30 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "PTB-580G-F1-EMPTY",
 					arg_value = 0.35
+				}, {
+					CLSID = "{14_3_M2_6xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{14_3_M2_9xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_12xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_18xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{14_3_M2_6xBAT120}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{14_3_M2_9xBAT120}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_12xBAT120}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_18xBAT120}",
+					arg_value = 0.15
 				} },
 			Number = 4,
 			Order = 4,
@@ -2247,6 +2295,30 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{R530F_IR}" },
 							station = 5
 						} }
+				}, {
+					CLSID = "{14_3_M2_6xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{14_3_M2_9xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_12xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_18xBAP100}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{14_3_M2_6xBAT120}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{14_3_M2_9xBAT120}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_12xBAT120}",
+					arg_value = 0.15
+				}, {
+					CLSID = "{30_6_M2_18xBAT120}",
+					arg_value = 0.15
 				} },
 			Number = 5,
 			Order = 5,

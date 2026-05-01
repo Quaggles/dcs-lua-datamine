@@ -85,7 +85,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			arg = 1013,
 			control = "comboList",
-			defValue = 1,
+			defValue = 2,
 			id = "F4U_CW_number_1",
 			label = "1st number",
 			values = { {
@@ -132,7 +132,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			arg = 1012,
 			control = "comboList",
-			defValue = 4,
+			defValue = 9,
 			id = "F4U_CW_number_2",
 			label = "2nd number",
 			values = { {
@@ -179,7 +179,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			arg = 1011,
 			control = "comboList",
-			defValue = 1,
+			defValue = 2,
 			id = "F4U_CW_number_3",
 			label = "3rd number",
 			values = { {

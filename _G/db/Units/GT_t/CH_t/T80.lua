@@ -23,8 +23,8 @@ _G["db"]["Units"]["GT_t"]["CH_t"]["T80"] = {
 	max_slope = 0.61,
 	max_vert_obstacle = 1,
 	min_turn_radius = 3,
-	r_max = 0.335,
-	r_track = 0.08,
+	r_max = 0.3,
+	r_track = 0.6,
 	trace_width = 0.539,
 	width = 3.589
 }

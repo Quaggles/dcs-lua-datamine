@@ -96,12 +96,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Categories = { "{78EFB7A2-FD52-4b57-A6A6-3BF0E1D6555F}", "Interceptor" },
 	Damage = { {
 			args = { 150 },
-			critical_damage = 3,
-			deps_cells = { 60 }
+			critical_damage = 3
 		}, {
 			args = { 149 },
-			critical_damage = 3,
-			deps_cells = { 60 }
+			critical_damage = 3
 		}, {
 			args = { 65 },
 			critical_damage = 20,

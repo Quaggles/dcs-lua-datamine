@@ -651,18 +651,21 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				lights = { {
 						argument = 194,
 						controller = "Strobe",
+						flash_time = 0.1,
 						period = 1,
 						phase_shift = 0,
 						typename = "argnatostrobelight"
 					}, {
 						argument = 195,
 						controller = "Strobe",
+						flash_time = 0.1,
 						period = 1,
 						phase_shift = 0.05,
 						typename = "argnatostrobelight"
 					}, {
 						argument = 196,
 						controller = "Strobe",
+						flash_time = 0.5,
 						period = 1,
 						phase_shift = 0.5,
 						typename = "argnatostrobelight"
@@ -902,7 +905,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				Transition = { "Extend", "Retract" }
 			}, {
 				Sequence = { {
-						C = { { "PosType", 0 }, { "Arg", 0, "to", 0.441, "speed", 2, "sign", -1 } }
+						C = { { "PosType", 0 }, { "Arg", 0, "to", 0.01, "speed", 2, "sign", -1 } }
 					} },
 				Transition = { "Any", "Collapse" }
 			} },
@@ -978,7 +981,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				Transition = { "Extend", "Retract" }
 			}, {
 				Sequence = { {
-						C = { { "PosType", 6 }, { "Arg", 5, "to", 0.5, "speed", 2, "sign", -1 } }
+						C = { { "PosType", 6 }, { "Arg", 5, "to", 0.01, "speed", 2, "sign", -1 } }
 					} },
 				Transition = { "Any", "Collapse" }
 			} },
@@ -1013,7 +1016,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				Transition = { "Extend", "Retract" }
 			}, {
 				Sequence = { {
-						C = { { "PosType", 7 }, { "Arg", 3, "to", 0.5, "speed", 2, "sign", -1 } }
+						C = { { "PosType", 7 }, { "Arg", 3, "to", 0.01, "speed", 2, "sign", -1 } }
 					} },
 				Transition = { "Any", "Collapse" }
 			} },

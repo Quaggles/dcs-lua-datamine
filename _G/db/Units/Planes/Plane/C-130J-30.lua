@@ -845,6 +845,321 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		} },
 	Guns = {},
 	H_max = 24384,
+	HumanCockpit = true,
+	HumanCockpitPath = "./Mods/aircraft/C130J/Cockpit/Scripts/",
+	HumanCockpitPlugins = { {
+			_file = "./Mods/aircraft/NS430/entry.lua",
+			_origin = "NS430",
+			name = "NS430",
+			path = "./Mods/aircraft/NS430/Cockpit/Scripts/",
+			per_unit_data = {
+				["A-10A"] = {
+					enable_options_key_for_unit = "a10a_enabled"
+				},
+				["A-10C"] = <2>{
+					enable_options_key_for_unit = "disabled"
+				},
+				["A-10C_2"] = <table 2>,
+				["AH-64D_BLK_II"] = <table 2>,
+				AJS37 = {
+					enable_options_key_for_unit = "ajs37_enabled"
+				},
+				AV8BNA = {
+					enable_options_key_for_unit = "av8b_enabled"
+				},
+				["Bf-109K-4"] = {
+					enable_options_key_for_unit = "bf109k4_enabled"
+				},
+				["C-101CC"] = {
+					enable_options_key_for_unit = "c101cc_common_enabled"
+				},
+				["C-101EB"] = {
+					enable_options_key_for_unit = "c101eb_common_enabled"
+				},
+				["CH-47Fbl1"] = <table 2>,
+				["Christen Eagle II"] = {
+					enable_options_key_for_unit = "CE_II_enabled"
+				},
+				["F-14B"] = {
+					enable_options_key_for_unit = "f14b_enabled"
+				},
+				["F-15C"] = {
+					enable_options_key_for_unit = "f15c_enabled"
+				},
+				["F-16C_50"] = <table 2>,
+				["F-5E-3"] = {
+					enable_options_key_for_unit = "f5e3_enabled"
+				},
+				["F-86F Sabre"] = {
+					enable_options_key_for_unit = "f86f_enabled"
+				},
+				["FA-18C_hornet"] = <table 2>,
+				["FW-190D9"] = {
+					enable_options_key_for_unit = "fw190d9_enabled"
+				},
+				["I-16"] = {
+					enable_options_key_for_unit = "i16_enabled"
+				},
+				["J-11A"] = {
+					enable_options_key_for_unit = "j11a_enabled"
+				},
+				["JF-17"] = {
+					enable_options_key_for_unit = "jf17_enabled"
+				},
+				["Ka-50"] = <table 2>,
+				["Ka-50_3"] = <table 2>,
+				["L-39C"] = {
+					enable_options_key_for_unit = "l39c_common_enabled"
+				},
+				["L-39ZA"] = {
+					enable_options_key_for_unit = "l39za_enabled"
+				},
+				["M-2000C"] = {
+					enable_options_key_for_unit = "miraj_enabled"
+				},
+				["Mi-24P"] = {
+					enable_options_key_for_unit = "mi24p_enabled"
+				},
+				["Mi-8MT"] = {
+					enable_options_key_for_unit = "mi8_common_enabled"
+				},
+				["MiG-15bis"] = {
+					enable_options_key_for_unit = "mig15bis_enabled"
+				},
+				["MiG-21bis"] = {
+					enable_options_key_for_unit = "mig21bis_enabled"
+				},
+				["MiG-29 Fulcrum"] = {
+					enable_options_key_for_unit = "mig29fulcrum_common_enabled"
+				},
+				["MiG-29A"] = {
+					enable_options_key_for_unit = "mig29a_enabled"
+				},
+				["MiG-29G"] = {
+					enable_options_key_for_unit = "mig29g_enabled"
+				},
+				["MiG-29S"] = {
+					enable_options_key_for_unit = "mig29s_enabled"
+				},
+				["P-51D"] = {
+					enable_options_key_for_unit = "p51d_enabled"
+				},
+				SA342L = {
+					enable_options_key_for_unit = "sa342_enabled"
+				},
+				SA342M = {
+					enable_options_key_for_unit = "sa342_enabled"
+				},
+				SA342Minigun = {
+					enable_options_key_for_unit = "sa342_enabled"
+				},
+				SA342Mistral = {
+					enable_options_key_for_unit = "sa342_enabled"
+				},
+				SpitfireLFMkIX = {
+					enable_options_key_for_unit = "SpitfireLFMkIX_enabled"
+				},
+				SpitfireLFMkIXCW = {
+					enable_options_key_for_unit = "SpitfireLFMkIXCW_enabled"
+				},
+				["Su-25"] = {
+					enable_options_key_for_unit = "su25_enabled"
+				},
+				["Su-25T"] = {
+					enable_options_key_for_unit = "su25t_enabled"
+				},
+				["Su-27"] = {
+					enable_options_key_for_unit = "su27_enabled"
+				},
+				["Su-33"] = {
+					enable_options_key_for_unit = "su33_enabled"
+				},
+				["TF-51D"] = {
+					enable_options_key_for_unit = "tf51d_enabled"
+				},
+				["UH-1H"] = {
+					enable_options_key_for_unit = "uh1h_enabled"
+				},
+				["Yak-52"] = {
+					enable_options_key_for_unit = "yak52_enabled"
+				}
+			}
+		} },
+	HumanCommPanelPath = "./Mods/aircraft/C130J/comm.lua",
+	HumanFM = { "C-130J", "C130J",
+		Type = 0,
+		brake_debug = false,
+		center_of_mass = { 0.9, 0, 0 },
+		config_path = "./Mods/aircraft/C130J",
+		disable_built_in_oxygen_system = false,
+		moment_of_inertia = { 2467589, 4877639, 4877639 },
+		suspension = { {
+				allowable_hard_contact_length = 0.01,
+				amortizer_back_damper_force_factor = 100000,
+				amortizer_basic_length = 0.5220605,
+				amortizer_direct_damper_force_factor = 205000,
+				amortizer_max_length = 0.5220605,
+				amortizer_min_length = 0.01,
+				amortizer_reduce_length = 0.01220605,
+				amortizer_spring_force_factor = 4120000,
+				amortizer_spring_force_factor_rate = 2.6,
+				amortizer_static_force = 20000,
+				arg_amortizer = 1,
+				arg_post = 0,
+				arg_wheel_damage = 135,
+				arg_wheel_rotation = 101,
+				arg_wheel_yaw = 2,
+				collision_shell_name = "WHEEL_F",
+				damage_element = 83,
+				damper_coeff = 300,
+				filter_yaw = false,
+				moment_limit = 5750,
+				noise_k = 0.4,
+				rigid_body_default_force_max = 4877639,
+				self_attitude = false,
+				wheel_axle_offset = 0,
+				wheel_brake_moment_max = 0,
+				wheel_damage_delta_speedX = 15.4333,
+				wheel_damage_force_factor = 850,
+				wheel_damage_speedX = 116,
+				wheel_glide_friction_factor = 0.7,
+				wheel_kz_factor = 0.05,
+				wheel_moment_of_inertia = 4,
+				wheel_radius = 0.5185,
+				wheel_roll_friction_factor = 0.02,
+				wheel_side_friction_factor = 1.1,
+				wheel_static_friction_factor = 0.25,
+				yaw_limit = 1.0471975511966
+			}, {
+				allowable_hard_contact_length = 1.1,
+				amortizer_back_damper_force_factor = 125000,
+				amortizer_basic_length = 0.1961929,
+				amortizer_direct_damper_force_factor = 400000,
+				amortizer_max_length = 0.1961929,
+				amortizer_min_length = 0.03,
+				amortizer_reduce_length = 0.05,
+				amortizer_spring_force_factor = 12375000,
+				amortizer_spring_force_factor_rate = 2.2,
+				amortizer_static_force = 50786,
+				anti_skid_gain = 1000,
+				anti_skid_improved = true,
+				anti_skid_installed = true,
+				arg_amortizer = 6,
+				arg_post = 5,
+				arg_wheel_rotation = 104,
+				collision_shell_name = "WHEEL_L",
+				crossover_locked_wheel_protection_speed_min = 7.7166,
+				crossover_locked_wheel_protection_wheel = 2,
+				noise_k = 0.4,
+				wheel_brake_moment_max = 78000,
+				wheel_damage_delta_speedX = 15.4332,
+				wheel_damage_force_factor = 850,
+				wheel_damage_speedX = 116.77788,
+				wheel_glide_friction_factor = 0.4,
+				wheel_kz_factor = 0.02,
+				wheel_mass = 50,
+				wheel_moment_of_inertia = 9,
+				wheel_radius = 0.7071,
+				wheel_roll_friction_factor = 0.02,
+				wheel_side_friction_factor = 0.6,
+				wheel_static_friction_factor = 0.9
+			}, {
+				allowable_hard_contact_length = 1.1,
+				amortizer_back_damper_force_factor = 125000,
+				amortizer_basic_length = 0.1961929,
+				amortizer_direct_damper_force_factor = 400000,
+				amortizer_max_length = 0.1961929,
+				amortizer_min_length = 0.03,
+				amortizer_reduce_length = 0.05,
+				amortizer_spring_force_factor = 12375000,
+				amortizer_spring_force_factor_rate = 2.2,
+				amortizer_static_force = 50786,
+				anti_skid_gain = 1000,
+				anti_skid_improved = true,
+				anti_skid_installed = true,
+				arg_amortizer = 4,
+				arg_post = 3,
+				arg_wheel_rotation = 105,
+				collision_shell_name = "WHEEL_R",
+				crossover_locked_wheel_protection_speed_min = 7.7166,
+				crossover_locked_wheel_protection_wheel = 1,
+				noise_k = 0.4,
+				wheel_brake_moment_max = 78000,
+				wheel_damage_delta_speedX = 15.4332,
+				wheel_damage_force_factor = 850,
+				wheel_damage_speedX = 116.77788,
+				wheel_glide_friction_factor = 0.4,
+				wheel_kz_factor = 0.02,
+				wheel_mass = 50,
+				wheel_moment_of_inertia = 9,
+				wheel_radius = 0.7071,
+				wheel_roll_friction_factor = 0.02,
+				wheel_side_friction_factor = 0.6,
+				wheel_static_friction_factor = 0.9
+			}, {
+				allowable_hard_contact_length = 1.1,
+				amortizer_back_damper_force_factor = 125000,
+				amortizer_basic_length = 0.1961929,
+				amortizer_direct_damper_force_factor = 400000,
+				amortizer_max_length = 0.1961929,
+				amortizer_min_length = 0.03,
+				amortizer_reduce_length = 0.05,
+				amortizer_spring_force_factor = 12375000,
+				amortizer_spring_force_factor_rate = 2.2,
+				amortizer_static_force = 50786,
+				anti_skid_gain = 1000,
+				anti_skid_improved = true,
+				anti_skid_installed = true,
+				arg_amortizer = 8,
+				arg_wheel_rotation = 103,
+				collision_shell_name = "WHEEL_FRONT",
+				crossover_locked_wheel_protection_speed_min = 7.7166,
+				noise_k = 0.4,
+				wheel_brake_moment_max = 78000,
+				wheel_damage_delta_speedX = 15.4332,
+				wheel_damage_force_factor = 850,
+				wheel_damage_speedX = 116.77788,
+				wheel_glide_friction_factor = 0.4,
+				wheel_kz_factor = 0.02,
+				wheel_mass = 50,
+				wheel_moment_of_inertia = 9,
+				wheel_radius = 0.7071,
+				wheel_roll_friction_factor = 0.02,
+				wheel_side_friction_factor = 0.6,
+				wheel_static_friction_factor = 0.9
+			}, {
+				allowable_hard_contact_length = 1.1,
+				amortizer_back_damper_force_factor = 125000,
+				amortizer_basic_length = 0.1961929,
+				amortizer_direct_damper_force_factor = 400000,
+				amortizer_max_length = 0.1961929,
+				amortizer_min_length = 0.03,
+				amortizer_reduce_length = 0.05,
+				amortizer_spring_force_factor = 12375000,
+				amortizer_spring_force_factor_rate = 2.2,
+				amortizer_static_force = 50786,
+				anti_skid_gain = 1000,
+				anti_skid_improved = true,
+				anti_skid_installed = true,
+				arg_amortizer = 7,
+				arg_wheel_rotation = 102,
+				collision_shell_name = "WHEEL_REAR",
+				crossover_locked_wheel_protection_speed_min = 7.7166,
+				noise_k = 0.4,
+				wheel_brake_moment_max = 78000,
+				wheel_damage_delta_speedX = 15.4332,
+				wheel_damage_force_factor = 850,
+				wheel_damage_speedX = 116.77788,
+				wheel_glide_friction_factor = 0.4,
+				wheel_kz_factor = 0.02,
+				wheel_mass = 50,
+				wheel_moment_of_inertia = 9,
+				wheel_radius = 0.7071,
+				wheel_roll_friction_factor = 0.02,
+				wheel_side_friction_factor = 0.6,
+				wheel_static_friction_factor = 0.9
+			} }
+	},
 	HumanRadio = {
 		editable = true,
 		frequency = 305,
@@ -1074,6 +1389,637 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		RWR = "Abstract RWR"
 	},
 	Shape = "C130J_30",
+	SnapViews = { { {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 80,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = -70.350998,
+				viewAngle = 74,
+				x_trans = 0.35,
+				y_trans = -0.29,
+				z_trans = -0.11
+			}, {
+				cockpit_version = 1,
+				hAngle = -180,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 95,
+				x_trans = -15.47,
+				y_trans = -2,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 270,
+				rollAngle = 0,
+				vAngle = -7.5,
+				viewAngle = 75,
+				x_trans = 1.1,
+				y_trans = -0.030008,
+				z_trans = -0.519247
+			}, {
+				cockpit_version = 1,
+				hAngle = 39.678204,
+				rollAngle = 0,
+				vAngle = -19.342207,
+				viewAngle = 75,
+				x_trans = -3.938016,
+				y_trans = -1.410066,
+				z_trans = -0.478767
+			}, {
+				cockpit_version = 1,
+				hAngle = 192.5,
+				rollAngle = 0,
+				vAngle = -12.571758,
+				viewAngle = 75,
+				x_trans = -18.639912,
+				y_trans = -1.128595,
+				z_trans = -1.5
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = -7.5,
+				viewAngle = 75,
+				x_trans = 0.19548,
+				y_trans = -0.032002,
+				z_trans = -0.530563
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 85,
+				x_trans = 0.19548,
+				y_trans = -0.032002,
+				z_trans = -0.530563
+			} }, { {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 80,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = -70.351,
+				viewAngle = 74,
+				x_trans = 0.4,
+				y_trans = -0.29,
+				z_trans = -0.179
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 90.23658,
+				rollAngle = 0,
+				vAngle = -9.834731,
+				viewAngle = 42.661049,
+				x_trans = -17.07909,
+				y_trans = -1.089753,
+				z_trans = -1.499472
+			}, {
+				cockpit_version = 1,
+				hAngle = 39.678204,
+				rollAngle = 0,
+				vAngle = -19.342207,
+				viewAngle = 75,
+				x_trans = -3.938016,
+				y_trans = -1.410066,
+				z_trans = -0.478767
+			}, {
+				cockpit_version = 1,
+				hAngle = 192.5,
+				rollAngle = 0,
+				vAngle = -12.571758,
+				viewAngle = 75,
+				x_trans = -18.639912,
+				y_trans = -1.128595,
+				z_trans = -1.5
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = -7.5,
+				viewAngle = 75,
+				x_trans = 0.19548,
+				y_trans = -0.032002,
+				z_trans = 0.530563
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 75,
+				x_trans = 0.19548,
+				y_trans = -0.032002,
+				z_trans = 0.530563
+			} }, { {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 80,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = -70.351,
+				viewAngle = 74,
+				x_trans = 0.4,
+				y_trans = -0.29,
+				z_trans = -0.179
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 90.23658,
+				rollAngle = 0,
+				vAngle = -9.834731,
+				viewAngle = 42.661049,
+				x_trans = -17.07909,
+				y_trans = -1.089753,
+				z_trans = -1.499472
+			}, {
+				cockpit_version = 1,
+				hAngle = 39.678204,
+				rollAngle = 0,
+				vAngle = -19.342207,
+				viewAngle = 75,
+				x_trans = -3.938016,
+				y_trans = -1.410066,
+				z_trans = -0.478767
+			}, {
+				cockpit_version = 1,
+				hAngle = 192.5,
+				rollAngle = 0,
+				vAngle = -12.571758,
+				viewAngle = 75,
+				x_trans = -18.639912,
+				y_trans = -1.128595,
+				z_trans = -1.5
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 75,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 75,
+				x_trans = 0.23548,
+				y_trans = -0.010008,
+				z_trans = 0
+			} }, { {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 80,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = -70.351,
+				viewAngle = 74,
+				x_trans = 0.4,
+				y_trans = -0.29,
+				z_trans = -0.179
+			}, {
+				cockpit_version = 1,
+				hAngle = -180,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 95,
+				x_trans = -15.47,
+				y_trans = -2,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 270,
+				rollAngle = 0,
+				vAngle = -7.5,
+				viewAngle = 75,
+				x_trans = 1.1,
+				y_trans = -0.010008,
+				z_trans = -0.519247
+			}, {
+				cockpit_version = 1,
+				hAngle = 39.678204,
+				rollAngle = 0,
+				vAngle = -19.342207,
+				viewAngle = 75,
+				x_trans = -3.938016,
+				y_trans = -1.410066,
+				z_trans = -0.478767
+			}, {
+				cockpit_version = 1,
+				hAngle = 192.5,
+				rollAngle = 0,
+				vAngle = -12.571758,
+				viewAngle = 75,
+				x_trans = -18.639912,
+				y_trans = -1.128595,
+				z_trans = -1.5
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 75,
+				x_trans = -1.19548,
+				y_trans = -0.010008,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 85,
+				x_trans = -1.19548,
+				y_trans = -0.018775,
+				z_trans = 0
+			} }, { {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 80,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = -70.351,
+				viewAngle = 74,
+				x_trans = 0.4,
+				y_trans = -0.29,
+				z_trans = -0.179
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 0,
+				viewAngle = 60,
+				x_trans = 0,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 90.23658,
+				rollAngle = 0,
+				vAngle = -9.834731,
+				viewAngle = 42.661049,
+				x_trans = -17.07909,
+				y_trans = -1.089753,
+				z_trans = -1.499472
+			}, {
+				cockpit_version = 1,
+				hAngle = 39.678204,
+				rollAngle = 0,
+				vAngle = -19.342207,
+				viewAngle = 75,
+				x_trans = -3.938016,
+				y_trans = -1.410066,
+				z_trans = -0.478767
+			}, {
+				cockpit_version = 1,
+				hAngle = 192.5,
+				rollAngle = 0,
+				vAngle = -12.571758,
+				viewAngle = 75,
+				x_trans = -18.639912,
+				y_trans = -1.128595,
+				z_trans = -1.5
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = -25,
+				viewAngle = 85,
+				x_trans = -2.2712,
+				y_trans = -1.1021,
+				z_trans = -1.4093
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = -25,
+				viewAngle = 85,
+				x_trans = -2.2712,
+				y_trans = -1.17021,
+				z_trans = -1.4093
+			} } },
 	TACAN = true,
 	TACAN_AA = true,
 	Tasks = { <table 1>, {
@@ -1090,12 +2036,97 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	V_max_sea_level = 150,
 	V_opt = 155,
 	V_take_off = 61.728,
+	ViewSettings = {
+		Arcade = {
+			AnglesDefault = { 0, -8 },
+			LocalPoint = { 41, 10, 0 }
+		},
+		Chase = {
+			AnglesDefault = { 0, -8 },
+			LocalPoint = { -41, 10, 0 }
+		},
+		Cockpit = { {
+				Allow360rotation = false,
+				CameraAngleLimits = { 180, -65, 90 },
+				CameraAngleRestriction = { false, 90, 0.5 },
+				CameraViewAngleLimits = { 30, 140 },
+				CockpitLocalPoint = <3>{ 13.26, -0.61, 0 },
+				EyePoint = { 0.01, 0, 0 },
+				ShoulderSize = 0.15,
+				limits_6DOF = {
+					roll = 90,
+					x = { -0.5, 0.6 },
+					y = { -1.3, 1.3 },
+					z = { -1.2, 1.2 }
+				}
+			}, {
+				Allow360rotation = true,
+				CameraAngleLimits = { 180, -65, 90 },
+				CameraAngleRestriction = { false, 90, 0.5 },
+				CameraViewAngleLimits = { 30, 140 },
+				CockpitLocalPoint = <table 3>,
+				EyePoint = { 0.01, 0, 0 },
+				ShoulderSize = 0.1,
+				limits_6DOF = {
+					roll = 90,
+					x = { -0.5, 0.6 },
+					y = { -1.3, 1.3 },
+					z = { -1.2, 1.2 }
+				}
+			}, {
+				Allow360rotation = true,
+				CameraAngleLimits = { 360, -60, 90 },
+				CameraAngleRestriction = { false, 0, 0 },
+				CameraViewAngleLimits = { 50, 150 },
+				CockpitLocalPoint = { 0, -1.6, 0 },
+				CockpitLocalPointAzimuth = -180,
+				ExternalShapeUsed = false,
+				EyePoint = { 0.1, 0, 0 },
+				ShoulderSize = 0,
+				limits_6DOF = {
+					x = { -40.5, 25.6 },
+					y = { -5.5, 4.5 },
+					z = { -20.5, 20.5 }
+				}
+			}, {
+				Allow360rotation = true,
+				CameraAngleLimits = { 360, -75, 75 },
+				CameraAngleRestriction = { true, 270, 0.4 },
+				CameraViewAngleLimits = { 10, 150 },
+				CockpitLocalPoint = <table 3>,
+				EyePoint = { 0.01, 0, 0 },
+				ShoulderSize = 0.05,
+				limits_6DOF = {
+					roll = 90,
+					x = { -1.5, 0.5 },
+					y = { -0.5, 0.5 },
+					z = { -0.5, 0.5 }
+				}
+			}, {
+				Allow360rotation = true,
+				CameraAngleLimits = { 360, -75, 75 },
+				CameraAngleRestriction = { true, 270, 0.4 },
+				CameraViewAngleLimits = { 10, 150 },
+				CockpitLocalPoint = <table 3>,
+				CockpitLocalPointAzimuth = -90,
+				ExternalShapeUsed = false,
+				EyePoint = { 0.01, 0, 0 },
+				ShoulderSize = 0.05,
+				limits_6DOF = {
+					x = { -2.2812, -1.75 },
+					y = { -1.7021, -1.021 },
+					z = { -1.5093, -1.3093 }
+				}
+			} }
+	},
 	Vy_max = 2.25,
 	Waypoint_Custom_Panel = true,
 	WingSpan = 40.41,
 	WorldID = 346,
 	_file = "./CoreMods/aircraft/C130J/entry.lua",
+	_file_flyable = "./Mods/aircraft/C130J/entry.lua",
 	_origin = "C-130J AI",
+	_origin_flyable = "C-130J",
 	attribute = { 1, 1, 5, "Redacted", "Transports", "Refuelable", "Aux", "Datalink", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes" },
 	average_fuel_consumption = 0.385,
 	bank_angle_max = 45,
