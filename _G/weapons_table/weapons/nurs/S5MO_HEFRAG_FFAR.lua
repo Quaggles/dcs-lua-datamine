@@ -148,6 +148,7 @@ _G["weapons_table"]["weapons"]["nurs"]["S5MO_HEFRAG_FFAR"] = {
 		engine = {
 			fuel_mass = 3,
 			impulse = 180,
+			start_time = 0,
 			work_time = 0.675
 		},
 		fm = {

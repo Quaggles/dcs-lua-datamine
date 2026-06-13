@@ -4,6 +4,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	Countries = { "USSR" },
 	CustomAimPoint = { 0, 1.35, 0 },
 	DetectionRange = 5000,
 	DisplayName = 'SAM SA-9 Strela 1 "Gaskin" TEL',

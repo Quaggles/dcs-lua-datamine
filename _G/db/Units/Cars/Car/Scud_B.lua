@@ -127,7 +127,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						startTime = 427,
 						startVal = 1
 					} } },
-			totalDuration = 447
+			totalDurations = { { 447,
+					conditions = { <table 1> }
+				}, { 243,
+					conditions = { { 30, 0 } }
+				} }
 		},
 		transportaionStateArgsAndVals = { {}, {} }
 	},

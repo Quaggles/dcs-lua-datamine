@@ -6,7 +6,7 @@ _G["warheads"]["SAMP250"] = {
 	cumulative_thickness = 0,
 	expl_mass = 100,
 	mass = 220,
-	obj_factors = { 1, 1, 1 },
+	obj_factors = { 1, 1 },
 	other_factors = { 1, 1, 1 },
 	piercing_mass = 44
 }

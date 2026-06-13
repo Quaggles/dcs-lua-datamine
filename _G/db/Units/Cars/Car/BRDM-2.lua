@@ -3,6 +3,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	Countries = { "USSR", "Russia" },
 	CustomAimPoint = { 0, 1.4, 0 },
 	DetectionRange = 0,
 	DisplayName = "Scout BRDM-2",

@@ -1,5 +1,12 @@
 _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	AddPropAircraft = { {
+			arg = 456,
+			control = "checkbox",
+			defValue = false,
+			id = "DustProtectionDevices",
+			label = "EAPS",
+			weight = 107
+		}, {
 			control = "comboList",
 			defValue = 0,
 			id = "NetCrewControlPriority",
@@ -1897,7 +1904,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				CameraAngleLimits = { 200, -90, 90 },
 				CameraAngleRestriction = { false, 90, 0.5 },
 				CameraViewAngleLimits = { 20, 140 },
-				CockpitLocalPoint = { 5.4, 0.4, 0.1 },
+				CockpitLocalPoint = { 6.121, 0.078, 0.55 },
 				EyePoint = { 0.05, 0.1, 0 },
 				ShoulderSize = 0.25,
 				limits_6DOF = {
@@ -2497,6 +2504,39 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					} },
 				Transition = { "Any", "Close" }
 			} },
+		CargoBayGate1 = { {
+				Sequence = { {
+						C = { { "Arg", 86, "to", 1, "speed", 0.186, "sign", 1 } }
+					} },
+				Transition = { "Close", "Open" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 86, "to", 0, "speed", 0.186, "sign", -1 } }
+					} },
+				Transition = { "Open", "Close" }
+			} },
+		CargoBayGate2 = { {
+				Sequence = { {
+						C = { { "Arg", 38, "to", 1, "speed", 0.25, "sign", 1 } }
+					} },
+				Transition = { "Close", "Open" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 38, "to", 0, "speed", 0.25, "sign", -1 } }
+					} },
+				Transition = { "Open", "Close" }
+			} },
+		CargoBayGate3 = { {
+				Sequence = { {
+						C = { { "VelType", 0 }, { "Arg", 85, "to", 1, "speed", 3.5 } }
+					} },
+				Transition = { "Close", "Open" }
+			}, {
+				Sequence = { {
+						C = { { "VelType", 1 }, { "Arg", 85, "to", 0, "speed", 0.5 } }
+					} },
+				Transition = { "Open", "Close" }
+			} },
 		CargoBayGates = { {
 				Sequence = { {
 						C = { { "PosType", 6 }, { "Sleep", "for", 6 } }
@@ -2624,6 +2664,116 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					} },
 				Transition = { "Board", "Close" }
 			} },
+		CustomMechanism0 = { {
+				Sequence = { {
+						C = { { "PokeSound", 12006 } }
+					} },
+				Transition = { "Any", "CustomStage0" }
+			}, {
+				Sequence = { {
+						C = { { "PokeSound", 12007 } }
+					} },
+				Transition = { "Any", "CustomStage1" }
+			} },
+		CustomMechanism1 = { {
+				Sequence = { {
+						C = { { "PokeSound", 12004 } }
+					} },
+				Transition = { "Any", "CustomStage0" }
+			}, {
+				Sequence = { {
+						C = { { "PokeSound", 12005 } }
+					} },
+				Transition = { "Any", "CustomStage1" }
+			} },
+		CustomMechanism2 = { {
+				Sequence = { {
+						C = { { "PokeSound", 12000 } }
+					} },
+				Transition = { "Any", "CustomStage0" }
+			}, {
+				Sequence = { {
+						C = { { "PokeSound", 12001 } }
+					} },
+				Transition = { "Any", "CustomStage1" }
+			} },
+		CustomMechanism3 = { {
+				Sequence = { {
+						C = { { "PokeSound", 12002 } }
+					} },
+				Transition = { "Any", "CustomStage0" }
+			}, {
+				Sequence = { {
+						C = { { "PokeSound", 12003 } }
+					} },
+				Transition = { "Any", "CustomStage1" }
+			} },
+		CustomMechanism4 = { {
+				Sequence = { {
+						C = { { "Arg", 629, "to", 1, "speed", 0.3, "sign", 1 } }
+					} },
+				Transition = { "Any", "Extend" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 629, "to", 0, "speed", 0.3, "sign", -1 } }
+					} },
+				Transition = { "Any", "Retract" }
+			} },
+		CustomMechanism5 = { {
+				Sequence = { {
+						C = { { "Arg", 630, "to", 1, "speed", 0.3, "sign", 1 } }
+					} },
+				Transition = { "Any", "Extend" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 630, "to", 0, "speed", 0.3, "sign", -1 } }
+					} },
+				Transition = { "Any", "Retract" }
+			} },
+		CustomMechanism6 = { {
+				Sequence = { {
+						C = { { "PokeSound", 12008 } }
+					} },
+				Transition = { "Any", "On" }
+			}, {
+				Sequence = { {
+						C = { { "PokeSound", 12009 } }
+					} },
+				Transition = { "Any", "Off" }
+			} },
+		CustomMechanism7 = { {
+				Sequence = { {
+						C = { { "PokeSound", 12010 } }
+					} },
+				Transition = { "Any", "On" }
+			}, {
+				Sequence = { {
+						C = { { "PokeSound", 12011 } }
+					} },
+				Transition = { "Any", "Off" }
+			} },
+		CustomMechanism8 = { {
+				Sequence = { {
+						C = { { "PokeSound", 12012 } }
+					} },
+				Transition = { "Any", "On" }
+			}, {
+				Sequence = { {
+						C = { { "PokeSound", 12013 } }
+					} },
+				Transition = { "Any", "Off" }
+			} },
+		CustomMechanism9 = { {
+				Sequence = { {
+						C = { { "PokeSound", 12014 } }
+					} },
+				Transition = { "Any", "On" }
+			}, {
+				Sequence = { {
+						C = { { "PokeSound", 12015 } }
+					} },
+				Transition = { "Any", "Off" }
+			} },
 		ExternalCargoEquipment = { {
 				Sequence = { {
 						C = { { "Arg", 26, "to", 1, "speed", 1, "sign", 1 } }
@@ -2703,39 +2853,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					} },
 				Transition = { "Any", "Left" }
 			} },
-		ServiceHatch10 = { {
-				Sequence = { {
-						C = { { "PokeSound", 12000 } }
-					} },
-				Transition = { "Any", "CustomStage0" }
-			}, {
-				Sequence = { {
-						C = { { "PokeSound", 12001 } }
-					} },
-				Transition = { "Any", "CustomStage1" }
-			} },
-		ServiceHatch11 = { {
-				Sequence = { {
-						C = { { "PokeSound", 12002 } }
-					} },
-				Transition = { "Any", "CustomStage0" }
-			}, {
-				Sequence = { {
-						C = { { "PokeSound", 12003 } }
-					} },
-				Transition = { "Any", "CustomStage1" }
-			} },
-		ServiceHatch7 = { {
-				Sequence = { {
-						C = { { "PokeSound", 12006 } }
-					} },
-				Transition = { "Any", "CustomStage0" }
-			}, {
-				Sequence = { {
-						C = { { "PokeSound", 12007 } }
-					} },
-				Transition = { "Any", "CustomStage1" }
-			} },
 		ServiceHatch8 = { {
 				Sequence = { {
 						C = { { "Arg", 25, "to", 1, "speed", 1, "sign", 1 } }
@@ -2746,17 +2863,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						C = { { "Arg", 25, "to", 0, "speed", 1, "sign", -1 } }
 					} },
 				Transition = { "Open", "Close" }
-			} },
-		ServiceHatch9 = { {
-				Sequence = { {
-						C = { { "PokeSound", 12004 } }
-					} },
-				Transition = { "Any", "CustomStage0" }
-			}, {
-				Sequence = { {
-						C = { { "PokeSound", 12005 } }
-					} },
-				Transition = { "Any", "CustomStage1" }
 			} },
 		WindscreenWiper0 = { {
 				Sequence = { {
@@ -2779,18 +2885,18 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				Transition = { "Any", "CustomStage0" }
 			}, {
 				Sequence = { {
-						C = { { "Arg", 628, "to", 1, "speed", 2, "sign", 1 } }
+						C = { { "Arg", 628, "to", 1, "speed", 3, "sign", 1 } }
 					}, {
-						C = { { "Arg", 628, "to", 0, "speed", 2, "sign", -1 } }
+						C = { { "Arg", 628, "to", 0, "speed", 3, "sign", -1 } }
 					}, {
 						C = { { "ValuePhase", 0 } }
 					} },
 				Transition = { "Any", "CustomStage1" }
 			}, {
 				Sequence = { {
-						C = { { "Arg", 628, "to", 1, "speed", 3, "sign", 1 } }
+						C = { { "Arg", 628, "to", 1, "speed", 5, "sign", 1 } }
 					}, {
-						C = { { "Arg", 628, "to", 0, "speed", 3, "sign", -1 } }
+						C = { { "Arg", 628, "to", 0, "speed", 5, "sign", -1 } }
 					}, {
 						C = { { "ValuePhase", 0 } }
 					} },
@@ -2989,7 +3095,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			}
 		} },
 	passivCounterm = {
-		CMDS_Edit = false,
+		CMDS_Edit = true,
 		SingleChargeTotal = 240,
 		chaff = {
 			chargeSz = 1,

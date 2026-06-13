@@ -3,7 +3,7 @@ _G["launcher"]["{AIM-7E-2}"] = {
 	Elements = { {
 			DrawArgs = { { 1, 1 }, { 2, 1 }, { 3, 1 } },
 			Position = { 0, 0, 0 },
-			ShapeName = "HB_F-4E_AIM7E"
+			ShapeName = "HB_F-4E_EXT_AIM-7E2"
 		} },
 	Picture = "us_AIM-7.png",
 	PictureBlendColor = "0xffffffff",

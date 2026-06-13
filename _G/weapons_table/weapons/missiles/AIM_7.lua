@@ -168,7 +168,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM_7"] = {
 			radius = 12
 		},
 		rad_correction = 0,
-		scheme = "schemes/missiles/aa_missile_semi_active.sch",
+		scheme = "schemes/missiles/AIM-7MH.sch",
 		seeker = {
 			FOV = 2.0943951023932,
 			aim_sigma = 5.5,
@@ -409,7 +409,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM_7"] = {
 			radius = 12
 		},
 		rad_correction = 0,
-		scheme = "schemes/missiles/aa_missile_semi_active.sch",
+		scheme = "schemes/missiles/AIM-7MH.sch",
 		seeker = {
 			FOV = 2.0943951023932,
 			aim_sigma = 5.5,

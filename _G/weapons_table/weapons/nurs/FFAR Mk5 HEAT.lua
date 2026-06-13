@@ -154,6 +154,7 @@ _G["weapons_table"]["weapons"]["nurs"]["FFAR Mk5 HEAT"] = {
 		engine = {
 			fuel_mass = 2.7,
 			impulse = 200,
+			start_time = 0,
 			work_time = 1.62
 		},
 		fm = {

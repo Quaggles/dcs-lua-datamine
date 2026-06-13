@@ -165,7 +165,7 @@ _G["rockets"]["#Index"] = {
 		radius = 12
 	},
 	rad_correction = 0,
-	scheme = "aa_missile_semi_active",
+	scheme = "AIM-7MH",
 	seeker = {
 		FOV = 2.0943951023932,
 		aim_sigma = 5.5,

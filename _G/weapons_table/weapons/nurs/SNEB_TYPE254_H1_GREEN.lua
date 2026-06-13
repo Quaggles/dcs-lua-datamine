@@ -152,6 +152,7 @@ _G["weapons_table"]["weapons"]["nurs"]["SNEB_TYPE254_H1_GREEN"] = {
 		engine = {
 			fuel_mass = 1.485,
 			impulse = 230,
+			start_time = 0,
 			work_time = 0.8
 		},
 		fm = {

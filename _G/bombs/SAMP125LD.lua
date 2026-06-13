@@ -19,7 +19,7 @@ _G["bombs"]["#Index"] = {
 		cumulative_thickness = 0,
 		expl_mass = 45,
 		mass = 100,
-		obj_factors = { 1, 1, 1 },
+		obj_factors = { 1, 1 },
 		other_factors = { 1, 1, 1 },
 		piercing_mass = 20
 	},

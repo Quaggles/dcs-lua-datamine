@@ -1284,6 +1284,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Gas platform"
 				}, {
 					Name = "Invisible FARP"
+				}, {
+					Name = "Zell"
 				} }
 		},
 		LTAvehicles = {
@@ -1377,6 +1379,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Falcon_Gyrocopter"
 				}, {
 					Name = "Christen Eagle II"
+				}, {
+					Name = "F-100D"
 				}, {
 					Name = "F-15ESE"
 				}, {

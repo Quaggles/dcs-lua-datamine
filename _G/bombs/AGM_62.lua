@@ -16,16 +16,15 @@ _G["bombs"]["#Index"] = {
 	type = 3,
 	warhead = {
 		caliber = 457,
-		concrete_factors = { 1, 1, 1 },
-		concrete_obj_factor = 0,
-		cumulative_factor = 3,
-		cumulative_thickness = 0.2,
-		default_fuze_delay = 0,
-		expl_mass = 365.6,
-		mass = 365.6,
-		obj_factors = { 1, 1 },
-		other_factors = { 1, 1, 1 },
-		piercing_mass = 73.12
+		concrete_factors = { 3.375, 1.35, 0.135 },
+		concrete_obj_factor = 3.375,
+		cumulative_factor = 0,
+		cumulative_thickness = 0,
+		expl_mass = 472.3,
+		mass = 472.3,
+		obj_factors = { 3.375, 1.35 },
+		other_factors = { 3.375, 1.35, 1.35 },
+		piercing_mass = 94.46
 	},
 	ws_type = { 4, 5, 36, "Redacted" }
 }

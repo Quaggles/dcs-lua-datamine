@@ -158,6 +158,7 @@ _G["weapons_table"]["weapons"]["nurs"]["ARF8M3API"] = {
 		engine = {
 			fuel_mass = 1.1,
 			impulse = 180,
+			start_time = 0,
 			work_time = 1.15
 		},
 		fm = {

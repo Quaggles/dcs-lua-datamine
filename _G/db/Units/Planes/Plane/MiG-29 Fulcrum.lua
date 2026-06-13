@@ -347,7 +347,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		OldID = "CAP",
 		WorldID = 11
 	},
-	DisplayName = "MiG-29A Fulcrum",
+	DisplayName = "MiG-29A  Fulcrum",
 	EmptyWeight = 10922,
 	Failures = { {
 			enable = false,
@@ -555,6 +555,150 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			supply_position = { 0.4, 0.55, 0 }
 		} },
 	H_max = 18000,
+	HumanCockpit = true,
+	HumanCockpitPath = "./Mods/aircraft/MiG-29-Fulcrum/Cockpit/Scripts/",
+	HumanCockpitPlugins = { {
+			_file = "./Mods/aircraft/NS430/entry.lua",
+			_origin = "NS430",
+			name = "NS430",
+			path = "./Mods/aircraft/NS430/Cockpit/Scripts/",
+			per_unit_data = {
+				["A-10A"] = {
+					enable_options_key_for_unit = "a10a_enabled"
+				},
+				["A-10C"] = <3>{
+					enable_options_key_for_unit = "disabled"
+				},
+				["A-10C_2"] = <table 3>,
+				["AH-64D_BLK_II"] = <table 3>,
+				AJS37 = {
+					enable_options_key_for_unit = "ajs37_enabled"
+				},
+				AV8BNA = {
+					enable_options_key_for_unit = "av8b_enabled"
+				},
+				["Bf-109K-4"] = {
+					enable_options_key_for_unit = "bf109k4_enabled"
+				},
+				["C-101CC"] = {
+					enable_options_key_for_unit = "c101cc_common_enabled"
+				},
+				["C-101EB"] = {
+					enable_options_key_for_unit = "c101eb_common_enabled"
+				},
+				["CH-47Fbl1"] = <table 3>,
+				["Christen Eagle II"] = {
+					enable_options_key_for_unit = "CE_II_enabled"
+				},
+				["F-14B"] = {
+					enable_options_key_for_unit = "f14b_enabled"
+				},
+				["F-15C"] = {
+					enable_options_key_for_unit = "f15c_enabled"
+				},
+				["F-16C_50"] = <table 3>,
+				["F-5E-3"] = {
+					enable_options_key_for_unit = "f5e3_enabled"
+				},
+				["F-86F Sabre"] = {
+					enable_options_key_for_unit = "f86f_enabled"
+				},
+				["FA-18C_hornet"] = <table 3>,
+				["FW-190D9"] = {
+					enable_options_key_for_unit = "fw190d9_enabled"
+				},
+				["I-16"] = {
+					enable_options_key_for_unit = "i16_enabled"
+				},
+				["J-11A"] = {
+					enable_options_key_for_unit = "j11a_enabled"
+				},
+				["JF-17"] = {
+					enable_options_key_for_unit = "jf17_enabled"
+				},
+				["Ka-50"] = <table 3>,
+				["Ka-50_3"] = <table 3>,
+				["L-39C"] = {
+					enable_options_key_for_unit = "l39c_common_enabled"
+				},
+				["L-39ZA"] = {
+					enable_options_key_for_unit = "l39za_enabled"
+				},
+				["M-2000C"] = {
+					enable_options_key_for_unit = "miraj_enabled"
+				},
+				["Mi-24P"] = {
+					enable_options_key_for_unit = "mi24p_enabled"
+				},
+				["Mi-8MT"] = {
+					enable_options_key_for_unit = "mi8_common_enabled"
+				},
+				["MiG-15bis"] = {
+					enable_options_key_for_unit = "mig15bis_enabled"
+				},
+				["MiG-21bis"] = {
+					enable_options_key_for_unit = "mig21bis_enabled"
+				},
+				["MiG-29 Fulcrum"] = {
+					enable_options_key_for_unit = "mig29fulcrum_common_enabled"
+				},
+				["MiG-29A"] = {
+					enable_options_key_for_unit = "mig29a_enabled"
+				},
+				["MiG-29G"] = {
+					enable_options_key_for_unit = "mig29g_enabled"
+				},
+				["MiG-29S"] = {
+					enable_options_key_for_unit = "mig29s_enabled"
+				},
+				["P-51D"] = {
+					enable_options_key_for_unit = "p51d_enabled"
+				},
+				SA342L = {
+					enable_options_key_for_unit = "sa342_enabled"
+				},
+				SA342M = {
+					enable_options_key_for_unit = "sa342_enabled"
+				},
+				SA342Minigun = {
+					enable_options_key_for_unit = "sa342_enabled"
+				},
+				SA342Mistral = {
+					enable_options_key_for_unit = "sa342_enabled"
+				},
+				SpitfireLFMkIX = {
+					enable_options_key_for_unit = "SpitfireLFMkIX_enabled"
+				},
+				SpitfireLFMkIXCW = {
+					enable_options_key_for_unit = "SpitfireLFMkIXCW_enabled"
+				},
+				["Su-25"] = {
+					enable_options_key_for_unit = "su25_enabled"
+				},
+				["Su-25T"] = {
+					enable_options_key_for_unit = "su25t_enabled"
+				},
+				["Su-27"] = {
+					enable_options_key_for_unit = "su27_enabled"
+				},
+				["Su-33"] = {
+					enable_options_key_for_unit = "su33_enabled"
+				},
+				["TF-51D"] = {
+					enable_options_key_for_unit = "tf51d_enabled"
+				},
+				["UH-1H"] = {
+					enable_options_key_for_unit = "uh1h_enabled"
+				},
+				["Yak-52"] = {
+					enable_options_key_for_unit = "yak52_enabled"
+				}
+			}
+		} },
+	HumanCommPanelPath = "./Mods/aircraft/MiG-29-Fulcrum/comm.lua",
+	HumanFM = { "MiG-29A by Eagle Dynamics", "MiG29A",
+		old = false
+	},
 	HumanRadio = {
 		editable = true,
 		frequency = 124,
@@ -584,7 +728,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	MaxHeight = 18000,
 	MaxSpeed = 2450.16,
 	MaxTakeOffWeight = 19700,
-	Name = "MiG-29A Fulcrum",
+	Name = "MiG-29A  Fulcrum",
 	Ny_max = 8,
 	Ny_max_e = 8,
 	Ny_min = -3,
@@ -592,66 +736,69 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Pylons = { {
 			DisplayName = "5",
 			Launchers = { {
-					CLSID = "{R_60}",
-					arg_value = 0.6,
-					required = { {
-							loadout = { "{R_60}" },
-							station = 7
-						} }
-				}, {
-					CLSID = "{682A481F-0CB5-4693-A382-D00DD4A156D7}",
-					arg_value = 0.6,
-					required = { {
-							loadout = { "{682A481F-0CB5-4693-A382-D00DD4A156D7}" },
-							station = 7
-						} }
-				}, {
-					CLSID = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
+					CLSID = "{MISSILE_R-60_APU-60}",
+					DrawArgs = <4>{ { 18, 0.1 }, { 19, 0 } },
 					arg_value = 0,
 					required = { {
-							loadout = { "{FBC29BFE-3D24-4C64-B81D-941239D12249}" },
+							loadout = { "{MISSILE_R-60_APU-60}" },
 							station = 7
 						} }
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B3}",
+					CLSID = "{MISSILE_R-60M_APU-60}",
+					DrawArgs = <5>{ { 18, 0.1 }, { 19, 0 } },
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B3}" },
+							loadout = { "{MISSILE_R-60M_APU-60}" },
 							station = 7
 						} }
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B2}",
+					CLSID = "{MISSILE_R-73_APU-73}",
+					DrawArgs = <6>{ { 18, 0.1 }, { 19, 0 } },
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B2}" },
+							loadout = { "{MISSILE_R-73_APU-73}" },
 							station = 7
 						} }
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+					CLSID = "{SmokeGenerator_R73-Red_APU-73}",
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}" },
+							loadout = { "{SmokeGenerator_R73-Red_APU-73}" },
 							station = 7
 						} }
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
+					CLSID = "{SmokeGenerator_R73-Green_APU-73}",
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}" },
+							loadout = { "{SmokeGenerator_R73-Green_APU-73}" },
 							station = 7
 						} }
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B4}",
+					CLSID = "{SmokeGenerator_R73-Blue_APU-73}",
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B4}" },
+							loadout = { "{SmokeGenerator_R73-Blue_APU-73}" },
 							station = 7
 						} }
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B5}",
+					CLSID = "{SmokeGenerator_R73-White_APU-73}",
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B5}" },
+							loadout = { "{SmokeGenerator_R73-White_APU-73}" },
+							station = 7
+						} }
+				}, {
+					CLSID = "{SmokeGenerator_R73-Yellow_APU-73}",
+					arg_value = 0,
+					required = { {
+							loadout = { "{SmokeGenerator_R73-Yellow_APU-73}" },
+							station = 7
+						} }
+				}, {
+					CLSID = "{SmokeGenerator_R73-Orange_APU-73}",
+					arg_value = 0,
+					required = { {
+							loadout = { "{SmokeGenerator_R73-Orange_APU-73}" },
 							station = 7
 						} }
 				}, {
@@ -659,6 +806,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 1,
 					required = { {
 							loadout = { "<CLEAN>" },
+							station = 7
+						} }
+				}, {
+					CLSID = "{MIG-29A_EMPTY_APU-73}",
+					DrawArgs = <7>{ { 19, 0 } },
+					arg_value = 0,
+					required = { {
+							loadout = { "{MIG-29A_EMPTY_APU-73}" },
 							station = 7
 						} }
 				} },
@@ -669,71 +824,105 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Y = -0.121,
 			Z = -3.927,
 			arg = 308,
-			arg_value = 0,
+			arg_value = 1,
+			connector = "Adapter1",
+			replace_deprecated_loadout_with = <8>{
+				["B-8M1 - 20 S-8OFP2"] = "{ROCKETS_S8-OFP2_BDZ-UMK2-B}",
+				["{35B698AC-9FEF-4EC4-AD29-484A0085F62B}"] = "{AB_BETAB-500_BDZ-UMK2-B}",
+				["{37DCC01E-9E02-432F-B61D-10C166CA2798}"] = "{AB_FAB-500_BDZ-UMK2-B}",
+				["{3858707D-F5D5-4bbb-BDD8-ABB0530EBC7C}"] = "{ROCKETS_S24B_BDZ-UMK2-B}",
+				["{3C612111-C7AD-476E-8A8E-2485812F4E5C}"] = "{AB_FAB-250_BDZ-UMK2-B}",
+				["{3DFB7320-AB0E-11d7-9897-000476191836}"] = "{ROCKETS_S8-TSM_BDZ-UMK2-B}",
+				["{4203753F-8198-4E85-9924-6F8FF679F9FF}"] = "{AB_RBK-250_BDZ-UMK2-B}",
+				["{682A481F-0CB5-4693-A382-D00DD4A156D7}"] = "{MISSILE_R-60M_APU-60}",
+				["{7AEC222D-C523-425e-B714-719C0D1EB14D}"] = "{AB_RBK-500-PTAB-1M_BDZ-UMK2-B}",
+				["{88DAC840-9F75-4531-8689-B46E64E42E53}"] = "{MISSILE_R-27T_APU-470}",
+				["{96A7F676-F956-404A-AD04-F33FB2C74881}"] = "{AB_KMGU2-PTAB_BDZ-UMK2-B}",
+				["{96A7F676-F956-404A-AD04-F33FB2C74884}"] = "{AB_KMGU2-AO_BDZ-UMK2-B}",
+				["{9B25D316-0434-4954-868F-D51DB1A38DF0}"] = "{MISSILE_R-27R_APU-470}",
+				["{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}"] = "{MISSILE_R-27ET_APU-470}",
+				["{BD289E34-DF84-4C5E-9220-4B14C346E79D}"] = "{AB_BETAB-500SHP_BDZ-UMK2-B}",
+				["{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}"] = "{SmokeGenerator_R73-Red_APU-73}",
+				["{D3F65166-1AB8-490f-AF2F-2FB6E22568B2}"] = "{SmokeGenerator_R73-Green_APU-73}",
+				["{D3F65166-1AB8-490f-AF2F-2FB6E22568B3}"] = "{SmokeGenerator_R73-Blue_APU-73}",
+				["{D3F65166-1AB8-490f-AF2F-2FB6E22568B4}"] = "{SmokeGenerator_R73-White_APU-73}",
+				["{D3F65166-1AB8-490f-AF2F-2FB6E22568B5}"] = "{SmokeGenerator_R73-Yellow_APU-73}",
+				["{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}"] = "{SmokeGenerator_R73-Orange_APU-73}",
+				["{D5435F26-F120-4FA3-9867-34ACE562EF1B}"] = "{AB_RBK-500-255-PTAB-10-5_BDZ-UMK2-B}",
+				["{E8069896-8435-4B90-95C0-01A03AE6E400}"] = "{MISSILE_R-27ER_APU-470}",
+				["{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}"] = "{ROCKETS_S8-KOM_BDZ-UMK2-B}",
+				["{FAB_250_M62}"] = "{AB_FAB-250-M62_BDZ-UMK2-B}",
+				["{FBC29BFE-3D24-4C64-B81D-941239D12249}"] = "{MISSILE_R-73_APU-73}",
+				["{RBK_250_275_AO_1SCH}"] = "{AB_RBK-250-275_BDZ-UMK2-B}",
+				["{R_60}"] = "{MISSILE_R-60_APU-60}"
+			},
 			use_full_connector_position = true
 		}, {
 			DisplayName = "3",
 			Launchers = { {
-					CLSID = "{R_60}",
-					arg_value = 0.6,
-					required = { {
-							loadout = { "{R_60}" },
-							station = 6
-						} }
-				}, {
-					CLSID = "{682A481F-0CB5-4693-A382-D00DD4A156D7}",
-					arg_value = 0.6,
-					required = { {
-							loadout = { "{682A481F-0CB5-4693-A382-D00DD4A156D7}" },
-							station = 6
-						} }
-				}, {
-					CLSID = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
+					CLSID = "{MISSILE_R-60_APU-60}",
+					DrawArgs = <9>{ { 18, 0.1 }, { 19, 0 } },
 					arg_value = 0,
 					required = { {
-							loadout = { "{FBC29BFE-3D24-4C64-B81D-941239D12249}" },
+							loadout = { "{MISSILE_R-60_APU-60}" },
 							station = 6
 						} }
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B3}",
+					CLSID = "{MISSILE_R-60M_APU-60}",
+					DrawArgs = <10>{ { 18, 0.1 }, { 19, 0 } },
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B3}" },
+							loadout = { "{MISSILE_R-60M_APU-60}" },
 							station = 6
 						} }
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B2}",
+					CLSID = "{MISSILE_R-73_APU-73}",
+					DrawArgs = <11>{ { 18, 0.1 }, { 19, 0 } },
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B2}" },
+							loadout = { "{MISSILE_R-73_APU-73}" },
 							station = 6
 						} }
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+					CLSID = "{SmokeGenerator_R73-Red_APU-73}",
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}" },
+							loadout = { "{SmokeGenerator_R73-Red_APU-73}" },
 							station = 6
 						} }
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
+					CLSID = "{SmokeGenerator_R73-Green_APU-73}",
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}" },
+							loadout = { "{SmokeGenerator_R73-Green_APU-73}" },
 							station = 6
 						} }
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B4}",
+					CLSID = "{SmokeGenerator_R73-Blue_APU-73}",
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B4}" },
+							loadout = { "{SmokeGenerator_R73-Blue_APU-73}" },
 							station = 6
 						} }
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B5}",
+					CLSID = "{SmokeGenerator_R73-White_APU-73}",
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B5}" },
+							loadout = { "{SmokeGenerator_R73-White_APU-73}" },
+							station = 6
+						} }
+				}, {
+					CLSID = "{SmokeGenerator_R73-Yellow_APU-73}",
+					arg_value = 0,
+					required = { {
+							loadout = { "{SmokeGenerator_R73-Yellow_APU-73}" },
+							station = 6
+						} }
+				}, {
+					CLSID = "{SmokeGenerator_R73-Orange_APU-73}",
+					arg_value = 0,
+					required = { {
+							loadout = { "{SmokeGenerator_R73-Orange_APU-73}" },
 							station = 6
 						} }
 				}, {
@@ -744,108 +933,131 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 6
 						} }
 				}, {
-					CLSID = "{35B698AC-9FEF-4EC4-AD29-484A0085F62B}",
-					arg_value = 0.35,
+					CLSID = "{AB_BETAB-500_BDZ-UMK2-B}",
+					DrawArgs = <12>{ { 18, 0.08 } },
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{35B698AC-9FEF-4EC4-AD29-484A0085F62B}" },
+							loadout = { "{AB_BETAB-500_BDZ-UMK2-B}" },
 							station = 6
 						} }
 				}, {
-					CLSID = "{BD289E34-DF84-4C5E-9220-4B14C346E79D}",
-					arg_value = 0.35,
+					CLSID = "{AB_BETAB-500SHP_BDZ-UMK2-B}",
+					DrawArgs = <13>{ { 18, 0.09 } },
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{BD289E34-DF84-4C5E-9220-4B14C346E79D}" },
+							loadout = { "{AB_BETAB-500SHP_BDZ-UMK2-B}" },
 							station = 6
 						} }
 				}, {
-					CLSID = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}",
-					arg_value = 0.35,
+					CLSID = "{AB_FAB-250_BDZ-UMK2-B}",
+					DrawArgs = <14>{ { 18, 0.04 } },
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{3C612111-C7AD-476E-8A8E-2485812F4E5C}" },
+							loadout = { "{AB_FAB-250_BDZ-UMK2-B}" },
 							station = 6
 						} }
 				}, {
-					CLSID = "{FAB_250_M62}",
-					arg_value = 0.35,
+					CLSID = "{AB_FAB-250-M62_BDZ-UMK2-B}",
+					DrawArgs = <15>{ { 18, 0.03 } },
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{FAB_250_M62}" },
+							loadout = { "{AB_FAB-250-M62_BDZ-UMK2-B}" },
 							station = 6
 						} }
 				}, {
-					CLSID = "{37DCC01E-9E02-432F-B61D-10C166CA2798}",
-					arg_value = 0.35,
+					CLSID = "{AB_FAB-500_BDZ-UMK2-B}",
+					DrawArgs = <16>{ { 18, 0.06 } },
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{37DCC01E-9E02-432F-B61D-10C166CA2798}" },
+							loadout = { "{AB_FAB-500_BDZ-UMK2-B}" },
 							station = 6
 						} }
 				}, {
-					CLSID = "{4203753F-8198-4E85-9924-6F8FF679F9FF}",
-					arg_value = 0.35,
+					CLSID = "{AB_RBK-250_BDZ-UMK2-B}",
+					DrawArgs = <17>{ { 18, 0.05 } },
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{4203753F-8198-4E85-9924-6F8FF679F9FF}" },
+							loadout = { "{AB_RBK-250_BDZ-UMK2-B}" },
 							station = 6
 						} }
 				}, {
-					CLSID = "{RBK_250_275_AO_1SCH}",
-					arg_value = 0.35,
+					CLSID = "{AB_RBK-250-275_BDZ-UMK2-B}",
+					DrawArgs = <18>{ { 18, 0.05 } },
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{RBK_250_275_AO_1SCH}" },
+							loadout = { "{AB_RBK-250-275_BDZ-UMK2-B}" },
 							station = 6
 						} }
 				}, {
-					CLSID = "{D5435F26-F120-4FA3-9867-34ACE562EF1B}",
-					arg_value = 0.35,
+					CLSID = "{AB_RBK-500-PTAB-1M_BDZ-UMK2-B}",
+					DrawArgs = <19>{ { 18, 0.07 } },
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{D5435F26-F120-4FA3-9867-34ACE562EF1B}" },
+							loadout = { "{AB_RBK-500-PTAB-1M_BDZ-UMK2-B}" },
 							station = 6
 						} }
 				}, {
-					CLSID = "{7AEC222D-C523-425e-B714-719C0D1EB14D}",
-					arg_value = 0.35,
+					CLSID = "{AB_RBK-500-255-PTAB-10-5_BDZ-UMK2-B}",
+					DrawArgs = <20>{ { 18, 0.07 } },
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{7AEC222D-C523-425e-B714-719C0D1EB14D}" },
+							loadout = { "{AB_RBK-500-255-PTAB-10-5_BDZ-UMK2-B}" },
 							station = 6
 						} }
 				}, {
-					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74884}",
-					arg_value = 0.35,
+					CLSID = "{AB_KMGU2-AO_BDZ-UMK2-B}",
+					DrawArgs = <21>{ { 18, 0.17 } },
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{96A7F676-F956-404A-AD04-F33FB2C74884}" },
+							loadout = { "{AB_KMGU2-AO_BDZ-UMK2-B}" },
 							station = 6
 						} }
 				}, {
-					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74881}",
-					arg_value = 0.35,
+					CLSID = "{AB_KMGU2-PTAB_BDZ-UMK2-B}",
+					DrawArgs = <22>{ { 18, 0.17 } },
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{96A7F676-F956-404A-AD04-F33FB2C74881}" },
+							loadout = { "{AB_KMGU2-PTAB_BDZ-UMK2-B}" },
 							station = 6
 						} }
 				}, {
-					CLSID = "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}",
-					arg_value = 0.35,
+					CLSID = "{ROCKETS_S8-KOM_BDZ-UMK2-B}",
+					DrawArgs = <23>{ { 18, 0.14 } },
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}" },
+							loadout = { "{ROCKETS_S8-KOM_BDZ-UMK2-B}" },
 							station = 6
 						} }
 				}, {
-					CLSID = "B-8M1 - 20 S-8OFP2",
-					arg_value = 0.35,
+					CLSID = "{ROCKETS_S8-OFP2_BDZ-UMK2-B}",
+					DrawArgs = <24>{ { 18, 0.14 } },
+					arg_value = 0.6,
 					required = { {
-							loadout = { "B-8M1 - 20 S-8OFP2" },
+							loadout = { "{ROCKETS_S8-OFP2_BDZ-UMK2-B}" },
 							station = 6
 						} }
 				}, {
-					CLSID = "{3DFB7320-AB0E-11d7-9897-000476191836}",
-					arg_value = 0.35,
+					CLSID = "{ROCKETS_S8-TSM_BDZ-UMK2-B}",
+					DrawArgs = <25>{ { 18, 0.14 } },
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{3DFB7320-AB0E-11d7-9897-000476191836}" },
+							loadout = { "{ROCKETS_S8-TSM_BDZ-UMK2-B}" },
 							station = 6
 						} }
 				}, {
-					CLSID = "{3858707D-F5D5-4bbb-BDD8-ABB0530EBC7C}",
-					arg_value = 0.35,
+					CLSID = "{ROCKETS_S24B_BDZ-UMK2-B}",
+					DrawArgs = <26>{ { 18, 0.18 } },
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{3858707D-F5D5-4bbb-BDD8-ABB0530EBC7C}" },
+							loadout = { "{ROCKETS_S24B_BDZ-UMK2-B}" },
+							station = 6
+						} }
+				}, {
+					CLSID = "{MIG-29A_EMPTY_APU-73}",
+					DrawArgs = <27>{ { 19, 0 } },
+					arg_value = 0,
+					required = { {
+							loadout = { "{MIG-29A_EMPTY_APU-73}" },
 							station = 6
 						} }
 				} },
@@ -856,71 +1068,76 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Y = -0.097,
 			Z = -3.245,
 			arg = 309,
-			arg_value = 0,
+			arg_value = 1,
+			connector = "Adapter2",
+			replace_deprecated_loadout_with = <table 8>,
 			use_full_connector_position = true
 		}, {
 			DisplayName = "1",
 			Launchers = { {
-					CLSID = "{R_60}",
-					arg_value = 0.6,
-					required = { {
-							loadout = { "{R_60}" },
-							station = 5
-						} }
-				}, {
-					CLSID = "{682A481F-0CB5-4693-A382-D00DD4A156D7}",
-					arg_value = 0.6,
-					required = { {
-							loadout = { "{682A481F-0CB5-4693-A382-D00DD4A156D7}" },
-							station = 5
-						} }
-				}, {
-					CLSID = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
-					arg_value = 0.71,
-					required = { {
-							loadout = { "{FBC29BFE-3D24-4C64-B81D-941239D12249}" },
-							station = 5
-						} }
-				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B3}",
+					CLSID = "{MISSILE_R-60_APU-60}",
+					DrawArgs = <28>{ { 18, 0.1 }, { 19, 0 } },
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B3}" },
+							loadout = { "{MISSILE_R-60_APU-60}" },
 							station = 5
 						} }
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B2}",
+					CLSID = "{MISSILE_R-60M_APU-60}",
+					DrawArgs = <29>{ { 18, 0.1 }, { 19, 0 } },
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B2}" },
+							loadout = { "{MISSILE_R-60M_APU-60}" },
 							station = 5
 						} }
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+					CLSID = "{MISSILE_R-73_APU-73}",
+					DrawArgs = <30>{ { 18, 0.1 }, { 19, 0 } },
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}" },
+							loadout = { "{MISSILE_R-73_APU-73}" },
 							station = 5
 						} }
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
+					CLSID = "{SmokeGenerator_R73-Red_APU-73}",
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}" },
+							loadout = { "{SmokeGenerator_R73-Red_APU-73}" },
 							station = 5
 						} }
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B4}",
+					CLSID = "{SmokeGenerator_R73-Green_APU-73}",
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B4}" },
+							loadout = { "{SmokeGenerator_R73-Green_APU-73}" },
 							station = 5
 						} }
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B5}",
+					CLSID = "{SmokeGenerator_R73-Blue_APU-73}",
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B5}" },
+							loadout = { "{SmokeGenerator_R73-Blue_APU-73}" },
+							station = 5
+						} }
+				}, {
+					CLSID = "{SmokeGenerator_R73-White_APU-73}",
+					arg_value = 0,
+					required = { {
+							loadout = { "{SmokeGenerator_R73-White_APU-73}" },
+							station = 5
+						} }
+				}, {
+					CLSID = "{SmokeGenerator_R73-Yellow_APU-73}",
+					arg_value = 0,
+					required = { {
+							loadout = { "{SmokeGenerator_R73-Yellow_APU-73}" },
+							station = 5
+						} }
+				}, {
+					CLSID = "{SmokeGenerator_R73-Orange_APU-73}",
+					arg_value = 0,
+					required = { {
+							loadout = { "{SmokeGenerator_R73-Orange_APU-73}" },
 							station = 5
 						} }
 				}, {
@@ -931,136 +1148,195 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 5
 						} }
 				}, {
-					CLSID = "{35B698AC-9FEF-4EC4-AD29-484A0085F62B}",
-					arg_value = 0.35,
+					CLSID = "{AB_BETAB-500_BDZ-UMK2-B}",
+					DrawArgs = <table 12>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{35B698AC-9FEF-4EC4-AD29-484A0085F62B}" },
+							loadout = { "{AB_BETAB-500_BDZ-UMK2-B}" },
 							station = 5
 						} }
 				}, {
-					CLSID = "{BD289E34-DF84-4C5E-9220-4B14C346E79D}",
-					arg_value = 0.35,
+					CLSID = "{AB_BETAB-500SHP_BDZ-UMK2-B}",
+					DrawArgs = <table 13>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{BD289E34-DF84-4C5E-9220-4B14C346E79D}" },
+							loadout = { "{AB_BETAB-500SHP_BDZ-UMK2-B}" },
 							station = 5
 						} }
 				}, {
-					CLSID = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}",
-					arg_value = 0.35,
+					CLSID = "{AB_FAB-250_BDZ-UMK2-B}",
+					DrawArgs = <table 14>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{3C612111-C7AD-476E-8A8E-2485812F4E5C}" },
+							loadout = { "{AB_FAB-250_BDZ-UMK2-B}" },
 							station = 5
 						} }
 				}, {
-					CLSID = "{FAB_250_M62}",
-					arg_value = 0.35,
+					CLSID = "{AB_FAB-250-M62_BDZ-UMK2-B}",
+					DrawArgs = <table 15>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{FAB_250_M62}" },
+							loadout = { "{AB_FAB-250-M62_BDZ-UMK2-B}" },
 							station = 5
 						} }
 				}, {
-					CLSID = "{37DCC01E-9E02-432F-B61D-10C166CA2798}",
-					arg_value = 0.35,
+					CLSID = "{AB_FAB-500_BDZ-UMK2-B}",
+					DrawArgs = <table 16>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{37DCC01E-9E02-432F-B61D-10C166CA2798}" },
+							loadout = { "{AB_FAB-500_BDZ-UMK2-B}" },
 							station = 5
 						} }
 				}, {
-					CLSID = "{4203753F-8198-4E85-9924-6F8FF679F9FF}",
-					arg_value = 0.35,
+					CLSID = "{AB_RBK-250_BDZ-UMK2-B}",
+					DrawArgs = <table 17>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{4203753F-8198-4E85-9924-6F8FF679F9FF}" },
+							loadout = { "{AB_RBK-250_BDZ-UMK2-B}" },
 							station = 5
 						} }
 				}, {
-					CLSID = "{RBK_250_275_AO_1SCH}",
-					arg_value = 0.35,
+					CLSID = "{AB_RBK-250-275_BDZ-UMK2-B}",
+					DrawArgs = <table 18>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{RBK_250_275_AO_1SCH}" },
+							loadout = { "{AB_RBK-250-275_BDZ-UMK2-B}" },
 							station = 5
 						} }
 				}, {
-					CLSID = "{D5435F26-F120-4FA3-9867-34ACE562EF1B}",
-					arg_value = 0.35,
+					CLSID = "{AB_RBK-500-PTAB-1M_BDZ-UMK2-B}",
+					DrawArgs = <table 19>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{D5435F26-F120-4FA3-9867-34ACE562EF1B}" },
+							loadout = { "{AB_RBK-500-PTAB-1M_BDZ-UMK2-B}" },
 							station = 5
 						} }
 				}, {
-					CLSID = "{7AEC222D-C523-425e-B714-719C0D1EB14D}",
-					arg_value = 0.35,
+					CLSID = "{AB_RBK-500-255-PTAB-10-5_BDZ-UMK2-B}",
+					DrawArgs = <table 20>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{7AEC222D-C523-425e-B714-719C0D1EB14D}" },
+							loadout = { "{AB_RBK-500-255-PTAB-10-5_BDZ-UMK2-B}" },
 							station = 5
 						} }
 				}, {
-					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74884}",
-					arg_value = 0.35,
+					CLSID = "{AB_KMGU2-AO_BDZ-UMK2-B}",
+					DrawArgs = <table 21>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{96A7F676-F956-404A-AD04-F33FB2C74884}" },
+							loadout = { "{AB_KMGU2-AO_BDZ-UMK2-B}" },
 							station = 5
 						} }
 				}, {
-					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74881}",
-					arg_value = 0.35,
+					CLSID = "{AB_KMGU2-PTAB_BDZ-UMK2-B}",
+					DrawArgs = <table 22>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{96A7F676-F956-404A-AD04-F33FB2C74881}" },
+							loadout = { "{AB_KMGU2-PTAB_BDZ-UMK2-B}" },
 							station = 5
 						} }
 				}, {
-					CLSID = "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}",
-					arg_value = 0.35,
+					CLSID = "{ROCKETS_S8-KOM_BDZ-UMK2-B}",
+					DrawArgs = <table 23>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}" },
+							loadout = { "{ROCKETS_S8-KOM_BDZ-UMK2-B}" },
 							station = 5
 						} }
 				}, {
-					CLSID = "B-8M1 - 20 S-8OFP2",
-					arg_value = 0.35,
+					CLSID = "{ROCKETS_S8-OFP2_BDZ-UMK2-B}",
+					DrawArgs = <table 24>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "B-8M1 - 20 S-8OFP2" },
+							loadout = { "{ROCKETS_S8-OFP2_BDZ-UMK2-B}" },
 							station = 5
 						} }
 				}, {
-					CLSID = "{3DFB7320-AB0E-11d7-9897-000476191836}",
-					arg_value = 0.35,
+					CLSID = "{ROCKETS_S8-TSM_BDZ-UMK2-B}",
+					DrawArgs = <table 25>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{3DFB7320-AB0E-11d7-9897-000476191836}" },
+							loadout = { "{ROCKETS_S8-TSM_BDZ-UMK2-B}" },
 							station = 5
 						} }
 				}, {
-					CLSID = "{3858707D-F5D5-4bbb-BDD8-ABB0530EBC7C}",
-					arg_value = 0.35,
+					CLSID = "{ROCKETS_S24B_BDZ-UMK2-B}",
+					DrawArgs = <table 26>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{3858707D-F5D5-4bbb-BDD8-ABB0530EBC7C}" },
+							loadout = { "{ROCKETS_S24B_BDZ-UMK2-B}" },
 							station = 5
 						} }
 				}, {
-					CLSID = "{9B25D316-0434-4954-868F-D51DB1A38DF0}",
+					CLSID = "{MISSILE_R-27R_APU-470}",
+					DrawArgs = <31>{ { 18, 0.05 }, { 19, 0 } },
 					arg_value = 0,
 					required = { {
-							loadout = { "{9B25D316-0434-4954-868F-D51DB1A38DF0}" },
+							loadout = { "{MISSILE_R-27R_APU-470}" },
 							station = 5
 						} }
 				}, {
-					CLSID = "{88DAC840-9F75-4531-8689-B46E64E42E53}",
+					CLSID = "{MISSILE_R-27T_APU-470}",
+					DrawArgs = <32>{ { 18, 0.05 }, { 19, 0 } },
 					arg_value = 0,
 					required = { {
-							loadout = { "{88DAC840-9F75-4531-8689-B46E64E42E53}" },
+							loadout = { "{MISSILE_R-27T_APU-470}" },
 							station = 5
 						} }
 				}, {
-					CLSID = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
+					CLSID = "{MISSILE_R-27ER_APU-470}",
+					DrawArgs = <33>{ { 18, 0.1 }, { 19, 0 } },
 					arg_value = 0,
 					required = { {
-							loadout = { "{E8069896-8435-4B90-95C0-01A03AE6E400}" },
+							loadout = { "{MISSILE_R-27ER_APU-470}" },
 							station = 5
 						} }
 				}, {
-					CLSID = "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}",
+					CLSID = "{MISSILE_R-27ET_APU-470}",
+					DrawArgs = <34>{ { 18, 0.1 }, { 19, 0 } },
 					arg_value = 0,
 					required = { {
-							loadout = { "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}" },
+							loadout = { "{MISSILE_R-27ET_APU-470}" },
+							station = 5
+						} }
+				}, {
+					CLSID = "{AB_2xFAB-500_MBD3-U2T}",
+					DrawArgs = <35>{ { 18, 0.06 } },
+					arg_value = 0.6,
+					required = { {
+							loadout = { "{AB_2xFAB-500_MBD3-U2T}" },
+							station = 5
+						} }
+				}, {
+					CLSID = "{AB_2xFAB-250_MBD3-U2T}",
+					DrawArgs = <36>{ { 18, 0.04 } },
+					arg_value = 0.6,
+					required = { {
+							loadout = { "{AB_2xFAB-250_MBD3-U2T}" },
+							station = 5
+						} }
+				}, {
+					CLSID = "{AB_2xFAB-250-M62_MBD3-U2T}",
+					DrawArgs = <37>{ { 18, 0.03 } },
+					arg_value = 0.6,
+					required = { {
+							loadout = { "{AB_2xFAB-250-M62_MBD3-U2T}" },
+							station = 5
+						} }
+				}, {
+					CLSID = "{AB_2xBETAB-500_MBD3-U2T}",
+					DrawArgs = <38>{ { 18, 0.06 } },
+					arg_value = 0.6,
+					required = { {
+							loadout = { "{AB_2xBETAB-500_MBD3-U2T}" },
+							station = 5
+						} }
+				}, {
+					CLSID = "{MIG-29A_EMPTY_APU-470}",
+					DrawArgs = <39>{ { 19, 0 } },
+					arg_value = 0,
+					required = { {
+							loadout = { "{MIG-29A_EMPTY_APU-470}" },
 							station = 5
 						} }
 				} },
@@ -1071,24 +1347,32 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Y = -0.122,
 			Z = -2.44,
 			arg = 310,
-			arg_value = 0,
+			arg_value = 1,
+			connector = "Adapter3",
+			replace_deprecated_loadout_with = <table 8>,
 			use_full_connector_position = true
 		}, {
 			DisplayName = "7",
 			Launchers = { {
 					CLSID = "{PTB_1500_MIG29A}"
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B3}"
+					CLSID = "{SmokeGenerator_R73-Red_APU-73}",
+					arg_value = 0
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B2}"
+					CLSID = "{SmokeGenerator_R73-Green_APU-73}",
+					arg_value = 0
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}"
+					CLSID = "{SmokeGenerator_R73-Blue_APU-73}",
+					arg_value = 0
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}"
+					CLSID = "{SmokeGenerator_R73-White_APU-73}",
+					arg_value = 0
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B4}"
+					CLSID = "{SmokeGenerator_R73-Yellow_APU-73}",
+					arg_value = 0
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B5}"
+					CLSID = "{SmokeGenerator_R73-Orange_APU-73}",
+					arg_value = 0
 				} },
 			Number = 4,
 			Order = 4,
@@ -1099,66 +1383,69 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			DisplayName = "2",
 			Launchers = { {
-					CLSID = "{R_60}",
-					arg_value = 0.6,
-					required = { {
-							loadout = { "{R_60}" },
-							station = 3
-						} }
-				}, {
-					CLSID = "{682A481F-0CB5-4693-A382-D00DD4A156D7}",
-					arg_value = 0.6,
-					required = { {
-							loadout = { "{682A481F-0CB5-4693-A382-D00DD4A156D7}" },
-							station = 3
-						} }
-				}, {
-					CLSID = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
-					arg_value = 0.71,
-					required = { {
-							loadout = { "{FBC29BFE-3D24-4C64-B81D-941239D12249}" },
-							station = 3
-						} }
-				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B3}",
+					CLSID = "{MISSILE_R-60_APU-60}",
+					DrawArgs = <table 28>,
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B3}" },
+							loadout = { "{MISSILE_R-60_APU-60}" },
 							station = 3
 						} }
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B2}",
+					CLSID = "{MISSILE_R-60M_APU-60}",
+					DrawArgs = <table 29>,
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B2}" },
+							loadout = { "{MISSILE_R-60M_APU-60}" },
 							station = 3
 						} }
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+					CLSID = "{MISSILE_R-73_APU-73}",
+					DrawArgs = <table 30>,
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}" },
+							loadout = { "{MISSILE_R-73_APU-73}" },
 							station = 3
 						} }
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
+					CLSID = "{SmokeGenerator_R73-Red_APU-73}",
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}" },
+							loadout = { "{SmokeGenerator_R73-Red_APU-73}" },
 							station = 3
 						} }
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B4}",
+					CLSID = "{SmokeGenerator_R73-Green_APU-73}",
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B4}" },
+							loadout = { "{SmokeGenerator_R73-Green_APU-73}" },
 							station = 3
 						} }
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B5}",
+					CLSID = "{SmokeGenerator_R73-Blue_APU-73}",
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B5}" },
+							loadout = { "{SmokeGenerator_R73-Blue_APU-73}" },
+							station = 3
+						} }
+				}, {
+					CLSID = "{SmokeGenerator_R73-White_APU-73}",
+					arg_value = 0,
+					required = { {
+							loadout = { "{SmokeGenerator_R73-White_APU-73}" },
+							station = 3
+						} }
+				}, {
+					CLSID = "{SmokeGenerator_R73-Yellow_APU-73}",
+					arg_value = 0,
+					required = { {
+							loadout = { "{SmokeGenerator_R73-Yellow_APU-73}" },
+							station = 3
+						} }
+				}, {
+					CLSID = "{SmokeGenerator_R73-Orange_APU-73}",
+					arg_value = 0,
+					required = { {
+							loadout = { "{SmokeGenerator_R73-Orange_APU-73}" },
 							station = 3
 						} }
 				}, {
@@ -1169,136 +1456,195 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						} }
 				}, {
-					CLSID = "{35B698AC-9FEF-4EC4-AD29-484A0085F62B}",
-					arg_value = 0.35,
+					CLSID = "{AB_BETAB-500_BDZ-UMK2-B}",
+					DrawArgs = <table 12>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{35B698AC-9FEF-4EC4-AD29-484A0085F62B}" },
+							loadout = { "{AB_BETAB-500_BDZ-UMK2-B}" },
 							station = 3
 						} }
 				}, {
-					CLSID = "{BD289E34-DF84-4C5E-9220-4B14C346E79D}",
-					arg_value = 0.35,
+					CLSID = "{AB_BETAB-500SHP_BDZ-UMK2-B}",
+					DrawArgs = <table 13>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{BD289E34-DF84-4C5E-9220-4B14C346E79D}" },
+							loadout = { "{AB_BETAB-500SHP_BDZ-UMK2-B}" },
 							station = 3
 						} }
 				}, {
-					CLSID = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}",
-					arg_value = 0.35,
+					CLSID = "{AB_FAB-250_BDZ-UMK2-B}",
+					DrawArgs = <table 14>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{3C612111-C7AD-476E-8A8E-2485812F4E5C}" },
+							loadout = { "{AB_FAB-250_BDZ-UMK2-B}" },
 							station = 3
 						} }
 				}, {
-					CLSID = "{FAB_250_M62}",
-					arg_value = 0.35,
+					CLSID = "{AB_FAB-250-M62_BDZ-UMK2-B}",
+					DrawArgs = <table 15>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{FAB_250_M62}" },
+							loadout = { "{AB_FAB-250-M62_BDZ-UMK2-B}" },
 							station = 3
 						} }
 				}, {
-					CLSID = "{37DCC01E-9E02-432F-B61D-10C166CA2798}",
-					arg_value = 0.35,
+					CLSID = "{AB_FAB-500_BDZ-UMK2-B}",
+					DrawArgs = <table 16>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{37DCC01E-9E02-432F-B61D-10C166CA2798}" },
+							loadout = { "{AB_FAB-500_BDZ-UMK2-B}" },
 							station = 3
 						} }
 				}, {
-					CLSID = "{4203753F-8198-4E85-9924-6F8FF679F9FF}",
-					arg_value = 0.35,
+					CLSID = "{AB_RBK-250_BDZ-UMK2-B}",
+					DrawArgs = <table 17>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{4203753F-8198-4E85-9924-6F8FF679F9FF}" },
+							loadout = { "{AB_RBK-250_BDZ-UMK2-B}" },
 							station = 3
 						} }
 				}, {
-					CLSID = "{RBK_250_275_AO_1SCH}",
-					arg_value = 0.35,
+					CLSID = "{AB_RBK-250-275_BDZ-UMK2-B}",
+					DrawArgs = <table 18>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{RBK_250_275_AO_1SCH}" },
+							loadout = { "{AB_RBK-250-275_BDZ-UMK2-B}" },
 							station = 3
 						} }
 				}, {
-					CLSID = "{D5435F26-F120-4FA3-9867-34ACE562EF1B}",
-					arg_value = 0.35,
+					CLSID = "{AB_RBK-500-PTAB-1M_BDZ-UMK2-B}",
+					DrawArgs = <table 19>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{D5435F26-F120-4FA3-9867-34ACE562EF1B}" },
+							loadout = { "{AB_RBK-500-PTAB-1M_BDZ-UMK2-B}" },
 							station = 3
 						} }
 				}, {
-					CLSID = "{7AEC222D-C523-425e-B714-719C0D1EB14D}",
-					arg_value = 0.35,
+					CLSID = "{AB_RBK-500-255-PTAB-10-5_BDZ-UMK2-B}",
+					DrawArgs = <table 20>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{7AEC222D-C523-425e-B714-719C0D1EB14D}" },
+							loadout = { "{AB_RBK-500-255-PTAB-10-5_BDZ-UMK2-B}" },
 							station = 3
 						} }
 				}, {
-					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74884}",
-					arg_value = 0.35,
+					CLSID = "{AB_KMGU2-AO_BDZ-UMK2-B}",
+					DrawArgs = <table 21>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{96A7F676-F956-404A-AD04-F33FB2C74884}" },
+							loadout = { "{AB_KMGU2-AO_BDZ-UMK2-B}" },
 							station = 3
 						} }
 				}, {
-					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74881}",
-					arg_value = 0.35,
+					CLSID = "{AB_KMGU2-PTAB_BDZ-UMK2-B}",
+					DrawArgs = <table 22>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{96A7F676-F956-404A-AD04-F33FB2C74881}" },
+							loadout = { "{AB_KMGU2-PTAB_BDZ-UMK2-B}" },
 							station = 3
 						} }
 				}, {
-					CLSID = "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}",
-					arg_value = 0.35,
+					CLSID = "{ROCKETS_S8-KOM_BDZ-UMK2-B}",
+					DrawArgs = <table 23>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}" },
+							loadout = { "{ROCKETS_S8-KOM_BDZ-UMK2-B}" },
 							station = 3
 						} }
 				}, {
-					CLSID = "B-8M1 - 20 S-8OFP2",
-					arg_value = 0.35,
+					CLSID = "{ROCKETS_S8-OFP2_BDZ-UMK2-B}",
+					DrawArgs = <table 24>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "B-8M1 - 20 S-8OFP2" },
+							loadout = { "{ROCKETS_S8-OFP2_BDZ-UMK2-B}" },
 							station = 3
 						} }
 				}, {
-					CLSID = "{3DFB7320-AB0E-11d7-9897-000476191836}",
-					arg_value = 0.35,
+					CLSID = "{ROCKETS_S8-TSM_BDZ-UMK2-B}",
+					DrawArgs = <table 25>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{3DFB7320-AB0E-11d7-9897-000476191836}" },
+							loadout = { "{ROCKETS_S8-TSM_BDZ-UMK2-B}" },
 							station = 3
 						} }
 				}, {
-					CLSID = "{3858707D-F5D5-4bbb-BDD8-ABB0530EBC7C}",
-					arg_value = 0.35,
+					CLSID = "{ROCKETS_S24B_BDZ-UMK2-B}",
+					DrawArgs = <table 26>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{3858707D-F5D5-4bbb-BDD8-ABB0530EBC7C}" },
+							loadout = { "{ROCKETS_S24B_BDZ-UMK2-B}" },
 							station = 3
 						} }
 				}, {
-					CLSID = "{9B25D316-0434-4954-868F-D51DB1A38DF0}",
+					CLSID = "{MISSILE_R-27R_APU-470}",
+					DrawArgs = <table 31>,
 					arg_value = 0,
 					required = { {
-							loadout = { "{9B25D316-0434-4954-868F-D51DB1A38DF0}" },
+							loadout = { "{MISSILE_R-27R_APU-470}" },
 							station = 3
 						} }
 				}, {
-					CLSID = "{88DAC840-9F75-4531-8689-B46E64E42E53}",
+					CLSID = "{MISSILE_R-27T_APU-470}",
+					DrawArgs = <table 32>,
 					arg_value = 0,
 					required = { {
-							loadout = { "{88DAC840-9F75-4531-8689-B46E64E42E53}" },
+							loadout = { "{MISSILE_R-27T_APU-470}" },
 							station = 3
 						} }
 				}, {
-					CLSID = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
+					CLSID = "{MISSILE_R-27ER_APU-470}",
+					DrawArgs = <table 33>,
 					arg_value = 0,
 					required = { {
-							loadout = { "{E8069896-8435-4B90-95C0-01A03AE6E400}" },
+							loadout = { "{MISSILE_R-27ER_APU-470}" },
 							station = 3
 						} }
 				}, {
-					CLSID = "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}",
+					CLSID = "{MISSILE_R-27ET_APU-470}",
+					DrawArgs = <table 34>,
 					arg_value = 0,
 					required = { {
-							loadout = { "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}" },
+							loadout = { "{MISSILE_R-27ET_APU-470}" },
+							station = 3
+						} }
+				}, {
+					CLSID = "{AB_2xFAB-500_MBD3-U2T}",
+					DrawArgs = <table 35>,
+					arg_value = 0.6,
+					required = { {
+							loadout = { "{AB_2xFAB-500_MBD3-U2T}" },
+							station = 3
+						} }
+				}, {
+					CLSID = "{AB_2xFAB-250_MBD3-U2T}",
+					DrawArgs = <table 36>,
+					arg_value = 0.6,
+					required = { {
+							loadout = { "{AB_2xFAB-250_MBD3-U2T}" },
+							station = 3
+						} }
+				}, {
+					CLSID = "{AB_2xFAB-250-M62_MBD3-U2T}",
+					DrawArgs = <table 37>,
+					arg_value = 0.6,
+					required = { {
+							loadout = { "{AB_2xFAB-250-M62_MBD3-U2T}" },
+							station = 3
+						} }
+				}, {
+					CLSID = "{AB_2xBETAB-500_MBD3-U2T}",
+					DrawArgs = <table 38>,
+					arg_value = 0.6,
+					required = { {
+							loadout = { "{AB_2xBETAB-500_MBD3-U2T}" },
+							station = 3
+						} }
+				}, {
+					CLSID = "{MIG-29A_EMPTY_APU-470}",
+					DrawArgs = <table 39>,
+					arg_value = 0,
+					required = { {
+							loadout = { "{MIG-29A_EMPTY_APU-470}" },
 							station = 3
 						} }
 				} },
@@ -1309,71 +1655,76 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Y = -0.122,
 			Z = 2.44,
 			arg = 312,
-			arg_value = 0,
+			arg_value = 1,
+			connector = "Adapter5",
+			replace_deprecated_loadout_with = <table 8>,
 			use_full_connector_position = true
 		}, {
 			DisplayName = "4",
 			Launchers = { {
-					CLSID = "{R_60}",
-					arg_value = 0.6,
-					required = { {
-							loadout = { "{R_60}" },
-							station = 2
-						} }
-				}, {
-					CLSID = "{682A481F-0CB5-4693-A382-D00DD4A156D7}",
-					arg_value = 0.6,
-					required = { {
-							loadout = { "{682A481F-0CB5-4693-A382-D00DD4A156D7}" },
-							station = 2
-						} }
-				}, {
-					CLSID = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
+					CLSID = "{MISSILE_R-60_APU-60}",
+					DrawArgs = <table 9>,
 					arg_value = 0,
 					required = { {
-							loadout = { "{FBC29BFE-3D24-4C64-B81D-941239D12249}" },
+							loadout = { "{MISSILE_R-60_APU-60}" },
 							station = 2
 						} }
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B3}",
+					CLSID = "{MISSILE_R-60M_APU-60}",
+					DrawArgs = <table 10>,
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B3}" },
+							loadout = { "{MISSILE_R-60M_APU-60}" },
 							station = 2
 						} }
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B2}",
+					CLSID = "{MISSILE_R-73_APU-73}",
+					DrawArgs = <table 11>,
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B2}" },
+							loadout = { "{MISSILE_R-73_APU-73}" },
 							station = 2
 						} }
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+					CLSID = "{SmokeGenerator_R73-Red_APU-73}",
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}" },
+							loadout = { "{SmokeGenerator_R73-Red_APU-73}" },
 							station = 2
 						} }
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
+					CLSID = "{SmokeGenerator_R73-Green_APU-73}",
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}" },
+							loadout = { "{SmokeGenerator_R73-Green_APU-73}" },
 							station = 2
 						} }
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B4}",
+					CLSID = "{SmokeGenerator_R73-Blue_APU-73}",
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B4}" },
+							loadout = { "{SmokeGenerator_R73-Blue_APU-73}" },
 							station = 2
 						} }
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B5}",
+					CLSID = "{SmokeGenerator_R73-White_APU-73}",
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B5}" },
+							loadout = { "{SmokeGenerator_R73-White_APU-73}" },
+							station = 2
+						} }
+				}, {
+					CLSID = "{SmokeGenerator_R73-Yellow_APU-73}",
+					arg_value = 0,
+					required = { {
+							loadout = { "{SmokeGenerator_R73-Yellow_APU-73}" },
+							station = 2
+						} }
+				}, {
+					CLSID = "{SmokeGenerator_R73-Orange_APU-73}",
+					arg_value = 0,
+					required = { {
+							loadout = { "{SmokeGenerator_R73-Orange_APU-73}" },
 							station = 2
 						} }
 				}, {
@@ -1384,108 +1735,131 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 2
 						} }
 				}, {
-					CLSID = "{35B698AC-9FEF-4EC4-AD29-484A0085F62B}",
-					arg_value = 0.35,
+					CLSID = "{AB_BETAB-500_BDZ-UMK2-B}",
+					DrawArgs = <table 12>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{35B698AC-9FEF-4EC4-AD29-484A0085F62B}" },
+							loadout = { "{AB_BETAB-500_BDZ-UMK2-B}" },
 							station = 2
 						} }
 				}, {
-					CLSID = "{BD289E34-DF84-4C5E-9220-4B14C346E79D}",
-					arg_value = 0.35,
+					CLSID = "{AB_BETAB-500SHP_BDZ-UMK2-B}",
+					DrawArgs = <table 13>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{BD289E34-DF84-4C5E-9220-4B14C346E79D}" },
+							loadout = { "{AB_BETAB-500SHP_BDZ-UMK2-B}" },
 							station = 2
 						} }
 				}, {
-					CLSID = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}",
-					arg_value = 0.35,
+					CLSID = "{AB_FAB-250_BDZ-UMK2-B}",
+					DrawArgs = <table 14>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{3C612111-C7AD-476E-8A8E-2485812F4E5C}" },
+							loadout = { "{AB_FAB-250_BDZ-UMK2-B}" },
 							station = 2
 						} }
 				}, {
-					CLSID = "{FAB_250_M62}",
-					arg_value = 0.35,
+					CLSID = "{AB_FAB-250-M62_BDZ-UMK2-B}",
+					DrawArgs = <table 15>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{FAB_250_M62}" },
+							loadout = { "{AB_FAB-250-M62_BDZ-UMK2-B}" },
 							station = 2
 						} }
 				}, {
-					CLSID = "{37DCC01E-9E02-432F-B61D-10C166CA2798}",
-					arg_value = 0.35,
+					CLSID = "{AB_FAB-500_BDZ-UMK2-B}",
+					DrawArgs = <table 16>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{37DCC01E-9E02-432F-B61D-10C166CA2798}" },
+							loadout = { "{AB_FAB-500_BDZ-UMK2-B}" },
 							station = 2
 						} }
 				}, {
-					CLSID = "{4203753F-8198-4E85-9924-6F8FF679F9FF}",
-					arg_value = 0.35,
+					CLSID = "{AB_RBK-250_BDZ-UMK2-B}",
+					DrawArgs = <table 17>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{4203753F-8198-4E85-9924-6F8FF679F9FF}" },
+							loadout = { "{AB_RBK-250_BDZ-UMK2-B}" },
 							station = 2
 						} }
 				}, {
-					CLSID = "{RBK_250_275_AO_1SCH}",
-					arg_value = 0.35,
+					CLSID = "{AB_RBK-250-275_BDZ-UMK2-B}",
+					DrawArgs = <table 18>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{RBK_250_275_AO_1SCH}" },
+							loadout = { "{AB_RBK-250-275_BDZ-UMK2-B}" },
 							station = 2
 						} }
 				}, {
-					CLSID = "{D5435F26-F120-4FA3-9867-34ACE562EF1B}",
-					arg_value = 0.35,
+					CLSID = "{AB_RBK-500-PTAB-1M_BDZ-UMK2-B}",
+					DrawArgs = <table 19>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{D5435F26-F120-4FA3-9867-34ACE562EF1B}" },
+							loadout = { "{AB_RBK-500-PTAB-1M_BDZ-UMK2-B}" },
 							station = 2
 						} }
 				}, {
-					CLSID = "{7AEC222D-C523-425e-B714-719C0D1EB14D}",
-					arg_value = 0.35,
+					CLSID = "{AB_RBK-500-255-PTAB-10-5_BDZ-UMK2-B}",
+					DrawArgs = <table 20>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{7AEC222D-C523-425e-B714-719C0D1EB14D}" },
+							loadout = { "{AB_RBK-500-255-PTAB-10-5_BDZ-UMK2-B}" },
 							station = 2
 						} }
 				}, {
-					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74884}",
-					arg_value = 0.35,
+					CLSID = "{AB_KMGU2-AO_BDZ-UMK2-B}",
+					DrawArgs = <table 21>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{96A7F676-F956-404A-AD04-F33FB2C74884}" },
+							loadout = { "{AB_KMGU2-AO_BDZ-UMK2-B}" },
 							station = 2
 						} }
 				}, {
-					CLSID = "{96A7F676-F956-404A-AD04-F33FB2C74881}",
-					arg_value = 0.35,
+					CLSID = "{AB_KMGU2-PTAB_BDZ-UMK2-B}",
+					DrawArgs = <table 22>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{96A7F676-F956-404A-AD04-F33FB2C74881}" },
+							loadout = { "{AB_KMGU2-PTAB_BDZ-UMK2-B}" },
 							station = 2
 						} }
 				}, {
-					CLSID = "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}",
-					arg_value = 0.35,
+					CLSID = "{ROCKETS_S8-KOM_BDZ-UMK2-B}",
+					DrawArgs = <table 23>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}" },
+							loadout = { "{ROCKETS_S8-KOM_BDZ-UMK2-B}" },
 							station = 2
 						} }
 				}, {
-					CLSID = "B-8M1 - 20 S-8OFP2",
-					arg_value = 0.35,
+					CLSID = "{ROCKETS_S8-OFP2_BDZ-UMK2-B}",
+					DrawArgs = <table 24>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "B-8M1 - 20 S-8OFP2" },
+							loadout = { "{ROCKETS_S8-OFP2_BDZ-UMK2-B}" },
 							station = 2
 						} }
 				}, {
-					CLSID = "{3DFB7320-AB0E-11d7-9897-000476191836}",
-					arg_value = 0.35,
+					CLSID = "{ROCKETS_S8-TSM_BDZ-UMK2-B}",
+					DrawArgs = <table 25>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{3DFB7320-AB0E-11d7-9897-000476191836}" },
+							loadout = { "{ROCKETS_S8-TSM_BDZ-UMK2-B}" },
 							station = 2
 						} }
 				}, {
-					CLSID = "{3858707D-F5D5-4bbb-BDD8-ABB0530EBC7C}",
-					arg_value = 0.35,
+					CLSID = "{ROCKETS_S24B_BDZ-UMK2-B}",
+					DrawArgs = <table 26>,
+					arg_value = 0.6,
 					required = { {
-							loadout = { "{3858707D-F5D5-4bbb-BDD8-ABB0530EBC7C}" },
+							loadout = { "{ROCKETS_S24B_BDZ-UMK2-B}" },
+							station = 2
+						} }
+				}, {
+					CLSID = "{MIG-29A_EMPTY_APU-73}",
+					DrawArgs = <table 27>,
+					arg_value = 0,
+					required = { {
+							loadout = { "{MIG-29A_EMPTY_APU-73}" },
 							station = 2
 						} }
 				} },
@@ -1496,71 +1870,76 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Y = -0.097,
 			Z = 3.245,
 			arg = 313,
-			arg_value = 0,
+			arg_value = 1,
+			connector = "Adapter6",
+			replace_deprecated_loadout_with = <table 8>,
 			use_full_connector_position = true
 		}, {
 			DisplayName = "6",
 			Launchers = { {
-					CLSID = "{R_60}",
-					arg_value = 0.6,
-					required = { {
-							loadout = { "{R_60}" },
-							station = 1
-						} }
-				}, {
-					CLSID = "{682A481F-0CB5-4693-A382-D00DD4A156D7}",
-					arg_value = 0.6,
-					required = { {
-							loadout = { "{682A481F-0CB5-4693-A382-D00DD4A156D7}" },
-							station = 1
-						} }
-				}, {
-					CLSID = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
+					CLSID = "{MISSILE_R-60_APU-60}",
+					DrawArgs = <table 4>,
 					arg_value = 0,
 					required = { {
-							loadout = { "{FBC29BFE-3D24-4C64-B81D-941239D12249}" },
+							loadout = { "{MISSILE_R-60_APU-60}" },
 							station = 1
 						} }
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B3}",
+					CLSID = "{MISSILE_R-60M_APU-60}",
+					DrawArgs = <table 5>,
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B3}" },
+							loadout = { "{MISSILE_R-60M_APU-60}" },
 							station = 1
 						} }
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B2}",
+					CLSID = "{MISSILE_R-73_APU-73}",
+					DrawArgs = <table 6>,
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B2}" },
+							loadout = { "{MISSILE_R-73_APU-73}" },
 							station = 1
 						} }
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+					CLSID = "{SmokeGenerator_R73-Red_APU-73}",
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}" },
+							loadout = { "{SmokeGenerator_R73-Red_APU-73}" },
 							station = 1
 						} }
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
+					CLSID = "{SmokeGenerator_R73-Green_APU-73}",
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}" },
+							loadout = { "{SmokeGenerator_R73-Green_APU-73}" },
 							station = 1
 						} }
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B4}",
+					CLSID = "{SmokeGenerator_R73-Blue_APU-73}",
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B4}" },
+							loadout = { "{SmokeGenerator_R73-Blue_APU-73}" },
 							station = 1
 						} }
 				}, {
-					CLSID = "{D3F65166-1AB8-490f-AF2F-2FB6E22568B5}",
+					CLSID = "{SmokeGenerator_R73-White_APU-73}",
 					arg_value = 0,
 					required = { {
-							loadout = { "{D3F65166-1AB8-490f-AF2F-2FB6E22568B5}" },
+							loadout = { "{SmokeGenerator_R73-White_APU-73}" },
+							station = 1
+						} }
+				}, {
+					CLSID = "{SmokeGenerator_R73-Yellow_APU-73}",
+					arg_value = 0,
+					required = { {
+							loadout = { "{SmokeGenerator_R73-Yellow_APU-73}" },
+							station = 1
+						} }
+				}, {
+					CLSID = "{SmokeGenerator_R73-Orange_APU-73}",
+					arg_value = 0,
+					required = { {
+							loadout = { "{SmokeGenerator_R73-Orange_APU-73}" },
 							station = 1
 						} }
 				}, {
@@ -1568,6 +1947,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 1,
 					required = { {
 							loadout = { "<CLEAN>" },
+							station = 1
+						} }
+				}, {
+					CLSID = "{MIG-29A_EMPTY_APU-73}",
+					DrawArgs = <table 7>,
+					arg_value = 0,
+					required = { {
+							loadout = { "{MIG-29A_EMPTY_APU-73}" },
 							station = 1
 						} }
 				} },
@@ -1578,7 +1965,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Y = -0.121,
 			Z = 3.927,
 			arg = 314,
-			arg_value = 0,
+			arg_value = 1,
+			connector = "Adapter7",
+			replace_deprecated_loadout_with = <table 8>,
 			use_full_connector_position = true
 		} },
 	RCS = 5,
@@ -1622,6 +2011,118 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		RWR = "Abstract RWR"
 	},
 	Shape = "mig-29-fulcrum",
+	SnapViews = { { {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = -33,
+				viewAngle = 80,
+				x_trans = 0.079,
+				y_trans = 0.008,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 26,
+				rollAngle = 0,
+				vAngle = -32.8,
+				viewAngle = 43,
+				x_trans = 0.079,
+				y_trans = 0.008,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = -3,
+				rollAngle = 0,
+				vAngle = -43,
+				viewAngle = 25,
+				x_trans = 0.079,
+				y_trans = 0.008,
+				z_trans = -0.205
+			}, {
+				cockpit_version = 1,
+				hAngle = -26,
+				rollAngle = 0,
+				vAngle = -35.3,
+				viewAngle = 49,
+				x_trans = 0.079,
+				y_trans = 0.008,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 132,
+				rollAngle = 0,
+				vAngle = 12.5,
+				viewAngle = 88.5,
+				x_trans = 0.25,
+				y_trans = 0.008,
+				z_trans = -0.065
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = -1.884,
+				viewAngle = 46.9,
+				x_trans = 0.079,
+				y_trans = 0,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = -132,
+				rollAngle = 0,
+				vAngle = 12.5,
+				viewAngle = 88.5,
+				x_trans = 0.25,
+				y_trans = 0.008,
+				z_trans = 0.065
+			}, {
+				cockpit_version = 1,
+				hAngle = 63,
+				rollAngle = 0,
+				vAngle = 9,
+				viewAngle = 88.5,
+				x_trans = 0.079,
+				y_trans = 0.008,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = 40,
+				viewAngle = 100,
+				x_trans = 0.079,
+				y_trans = 0.008,
+				z_trans = 0
+			}, {
+				cockpit_version = 1,
+				hAngle = -63,
+				rollAngle = 0,
+				vAngle = 9,
+				viewAngle = 88.5,
+				x_trans = 0.079,
+				y_trans = 0.008,
+				z_trans = 0
+			},
+			[13] = {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = -9.729,
+				viewAngle = 100,
+				x_trans = 0.079,
+				y_trans = 0.008,
+				z_trans = 0
+			},
+			[14] = {
+				cockpit_version = 1,
+				hAngle = 0,
+				rollAngle = 0,
+				vAngle = -9.729,
+				viewAngle = 100,
+				x_trans = 0.079,
+				y_trans = 0.008,
+				z_trans = 0
+			}
+		} },
 	Tasks = { <table 1>, {
 			Name = "Escort",
 			OldID = "Escort",
@@ -1660,18 +2161,45 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	V_max_sea_level = 416.7,
 	V_opt = 222,
 	V_take_off = 67,
+	ViewSettings = {
+		Arcade = {
+			AnglesDefault = { 0, -12 },
+			LocalPoint = { -27, 12, 0 }
+		},
+		Chase = {
+			AnglesDefault = { 180, -8 },
+			LocalPoint = { 0.6, 3.682, 0 }
+		},
+		Cockpit = { {
+				Allow360rotation = false,
+				CameraAngleLimits = { 200, -90, 90 },
+				CameraAngleRestriction = { false, 90, 0.5 },
+				CameraViewAngleLimits = { 20, 140 },
+				CockpitLocalPoint = { 4.73, 1.274, 0 },
+				EyePoint = { 0.05, 0.1, 0 },
+				ShoulderSize = 0.25,
+				limits_6DOF = {
+					roll = 90,
+					x = { -0.05, 0.6 },
+					y = { -0.3, 0.1 },
+					z = { -0.25, 0.25 }
+				}
+			} }
+	},
 	Vy_max = 330,
 	Waypoint_Custom_Panel = true,
 	WingSpan = 11.36,
 	WorldID = 343,
 	_file = "./CoreMods/aircraft/MiG-29-Fulcrum/MiG-29-Fulcrum.lua",
+	_file_flyable = "./Mods/aircraft/MiG-29-Fulcrum/entry.lua",
 	_origin = "MiG-29 Fulcrum AI",
+	_origin_flyable = "MiG-29A by Eagle Dynamics",
 	ammo_type = { "HEI-T (High Explosive Incendiary-Tracer)", "HEI - High Explosive Incendiary", "AP (Armor Piercing)", "TP (Target Practice-Tracer)", "SAPHEI (Semi-Armor Piercing, HE, Incendiary)", "TP (Target Practice-Tracer PGU)" },
 	ammo_type_default = 5,
 	attribute = { 1, 1, 1, "Redacted", "Fighters", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },
 	average_fuel_consumption = 0.2743,
 	bank_angle_max = 60,
-	brakeshute_name = 347,
+	brakeshute_name = 350,
 	center_of_mass = { -0.1, -0.1, 0 },
 	chaff_flare_dispenser = { {
 			dir = { 0.64, 0.77, 0.13 },
@@ -1682,10 +2210,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		} },
 	country_of_origin = "RUS",
 	crew_members = { {
-			drop_canopy_name = 28,
-			ejection_seat_name = 345,
-			pilot_name = 346,
-			pos = { 4.68, 0.74, 0 },
+			canopy_pos = { 4.338, 1.188, 0 },
+			drop_canopy_name = 348,
+			ejection_seat_name = 347,
+			pilot_name = 349,
+			pos = { 4.64, 0.76, 0.01 },
 			role = "pilot",
 			role_display_name = "Pilot"
 		} },

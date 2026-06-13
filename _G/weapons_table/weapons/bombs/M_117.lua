@@ -6,6 +6,15 @@ _G["weapons_table"]["weapons"]["bombs"]["M_117"] = {
 	caliber = 0.408,
 	client = {
 		Reflection = 0.025,
+		SAD = {
+			default_delays = { 4 },
+			is_vane_anim_required = true
+		},
+		TDD = {
+			altimeter_sigma = 0.9144,
+			tdd_vdiff_max = 426.72,
+			tdd_vdiff_min = 22.86
+		},
 		arming_delay = {
 			delay_time = 0.8,
 			enabled = true
@@ -28,7 +37,8 @@ _G["weapons_table"]["weapons"]["bombs"]["M_117"] = {
 			wind_sigma = 150,
 			wind_time = 1000
 		},
-		scheme = "schemes/bombs/bomb-common.sch",
+		fuzePresetName = "Mk8x",
+		scheme = "schemes/bombs/bomb_common_v2.sch",
 		warhead = {
 			caliber = 408,
 			concrete_factors = { 1.35, 1.35, 0.135 },
@@ -52,6 +62,15 @@ _G["weapons_table"]["weapons"]["bombs"]["M_117"] = {
 	name = "M_117",
 	server = {
 		Reflection = 0.025,
+		SAD = {
+			default_delays = { 4 },
+			is_vane_anim_required = true
+		},
+		TDD = {
+			altimeter_sigma = 0.9144,
+			tdd_vdiff_max = 426.72,
+			tdd_vdiff_min = 22.86
+		},
 		arming_delay = {
 			delay_time = 0.8,
 			enabled = true
@@ -74,7 +93,8 @@ _G["weapons_table"]["weapons"]["bombs"]["M_117"] = {
 			wind_sigma = 150,
 			wind_time = 1000
 		},
-		scheme = "schemes/bombs/bomb-common.sch",
+		fuzePresetName = "Mk8x",
+		scheme = "schemes/bombs/bomb_common_v2.sch",
 		warhead = {
 			caliber = 408,
 			concrete_factors = { 1.35, 1.35, 0.135 },

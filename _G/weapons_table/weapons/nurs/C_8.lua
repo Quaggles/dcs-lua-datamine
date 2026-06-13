@@ -164,6 +164,7 @@ _G["weapons_table"]["weapons"]["nurs"]["C_8"] = {
 		engine = {
 			fuel_mass = 3.6,
 			impulse = 180,
+			start_time = 0,
 			work_time = 1.55
 		},
 		fm = {

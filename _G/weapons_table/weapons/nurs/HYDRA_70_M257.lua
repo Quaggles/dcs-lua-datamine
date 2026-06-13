@@ -529,6 +529,7 @@ _G["weapons_table"]["weapons"]["nurs"]["HYDRA_70_M257"] = {
 		engine = {
 			fuel_mass = 3.175,
 			impulse = 210,
+			start_time = 0,
 			work_time = 1.1
 		},
 		fm = {

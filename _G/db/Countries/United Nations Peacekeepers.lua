@@ -212,10 +212,6 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "BRDM-2"
-				}, {
-					Name = "Strela-1 9P31"
-				}, {
 					Name = "TugHarlan_drivable"
 				}, {
 					Name = "B600_drivable"
@@ -452,6 +448,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "BRDM-2",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "BTR_D",
 					in_service = 0,
 					out_of_service = 40000
@@ -625,6 +625,10 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "SNR_75V",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "Strela-1 9P31",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -2334,6 +2338,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Gas platform"
 				}, {
 					Name = "Invisible FARP"
+				}, {
+					Name = "Zell"
 				} }
 		},
 		LTAvehicles = {
@@ -2431,6 +2437,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Falcon_Gyrocopter"
 				}, {
 					Name = "Christen Eagle II"
+				}, {
+					Name = "F-100D"
 				}, {
 					Name = "F-15ESE"
 				}, {

@@ -9,9 +9,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Name = "EWR AN/FPS-117 ECS",
 	Rate = 20,
 	ThreatRange = 0,
-	WS = {
-		maxTargetDetectionRange = 200000
-	},
 	Waypoint_Custom_Panel = true,
 	_file = "./CoreMods/tech/TechWeaponPack/Database/db_units_cars.lua",
 	_origin = "TechWeaponPack",
@@ -27,12 +24,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	chassis = {},
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000046",
-	sensor = {
-		height = 5.895,
-		max_alt_finding_target = 160000,
-		max_range_finding_target = 160000,
-		min_range_finding_target = 3000
-	},
 	shape_table_data = { {
 			classname = "lLandVehicle",
 			desrt = "ewr_fps117radar_shelter_p_1",

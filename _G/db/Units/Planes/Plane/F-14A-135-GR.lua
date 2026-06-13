@@ -98,6 +98,29 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			max = 255,
 			min = 1,
 			playerOnly = true
+		}, {
+			control = "comboList",
+			defValue = 0,
+			id = "TCS",
+			label = "TCS",
+			playerOnly = true,
+			values = { {
+					dispName = "Historic (based on livery)",
+					id = 0
+				}, {
+					dispName = "On",
+					id = 1
+				}, {
+					dispName = "Off (Historic Variant)",
+					id = 2
+				}, {
+					dispName = "Off (Bulletcover Variant)",
+					id = 3
+				}, {
+					dispName = "Off (Chinpod Variant)",
+					id = 4
+				} },
+			wCtrl = 170
 		} },
 	AmmoWeight = 235.924,
 	CAS_min = 60,
@@ -1268,6 +1291,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			enable = false,
 			hh = 0,
+			id = "W_MF_L_J",
+			label = "Wings: Left Main Flap Failure (Jammed)",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "W_MF_R_J",
+			label = "Wings: Right Main Flap Failure (Jammed)",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
 			id = "W_AF_L",
 			label = "Wings: Left Aux Flap Failure",
 			mm = 0,
@@ -1278,6 +1317,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			hh = 0,
 			id = "W_AF_R",
 			label = "Wings: Right Aux Flap Failure",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "W_AF_L_J",
+			label = "Wings: Left Aux Flap Failure (Jammed)",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "W_AF_R_J",
+			label = "Wings: Right Aux Flap Failure (Jammed)",
 			mm = 0,
 			mmint = 1,
 			prob = 100
@@ -2219,6 +2274,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 7
 						} }
 				}, {
+					CLSID = "{SHOULDER AIM-7E}",
+					connector = "WEP_Shoulder_Sparrow_L"
+				}, {
 					CLSID = "{SHOULDER AIM-7M}",
 					connector = "WEP_Shoulder_Sparrow_L"
 				}, {
@@ -2226,6 +2284,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					connector = "WEP_Shoulder_Sparrow_L"
 				}, {
 					CLSID = "{SHOULDER AIM-7MH}",
+					connector = "WEP_Shoulder_Sparrow_L"
+				}, {
+					CLSID = "{SHOULDER AIM-7P}",
 					connector = "WEP_Shoulder_Sparrow_L"
 				}, {
 					CLSID = "{LAU-7 - AIM-9M}",
@@ -2238,9 +2299,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{LAU-7 - TCTS}",
 					connector = "WEP_Sidewinder_Extra_L"
-				}, {
-					CLSID = "{SHOULDER AIM-7P}",
-					connector = "WEP_Shoulder_Sparrow_L"
 				}, {
 					CLSID = "{PHXBRU3242_2*LAU10 LS}",
 					connector = "WEP_PhoenixWingPylon_L"
@@ -2783,6 +2841,151 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{BELLY AIM-7MH}",
+					Cx_gain = 0.125,
+					arg = 600,
+					arg_value = 1,
+					connector = "WEP_Sparrow_Indent_F_L",
+					forbidden = { {
+							loadout = { "{AIM_54A_Mk47}" },
+							station = 5
+						}, {
+							loadout = { "{AIM_54A_Mk60}" },
+							station = 5
+						}, {
+							loadout = { "{AIM_54C_Mk47}" },
+							station = 5
+						}, {
+							loadout = { "{AIM_54C_Mk60}" },
+							station = 5
+						}, {
+							loadout = { "{AIM_54A_Mk47}" },
+							station = 6
+						}, {
+							loadout = { "{AIM_54A_Mk60}" },
+							station = 6
+						}, {
+							loadout = { "{AIM_54C_Mk47}" },
+							station = 6
+						}, {
+							loadout = { "{AIM_54C_Mk60}" },
+							station = 6
+						}, {
+							loadout = { "{AIM_54A_Mk47}" },
+							station = 7
+						}, {
+							loadout = { "{AIM_54A_Mk60}" },
+							station = 7
+						}, {
+							loadout = { "{AIM_54C_Mk47}" },
+							station = 7
+						}, {
+							loadout = { "{AIM_54C_Mk60}" },
+							station = 7
+						}, {
+							loadout = { "{BRU3242_LAU10}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 MK-82}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 MK-82AIR}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 MK-82SE}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 BDU-45}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 BDU-45B}" },
+							station = 7
+						}, {
+							loadout = { "{MAK79_MK81 4}" },
+							station = 7
+						}, {
+							loadout = { "{MAK79_MK82 4}" },
+							station = 7
+						}, {
+							loadout = { "{MAK79_BDU45 4}" },
+							station = 7
+						}, {
+							loadout = { "{MAK79_BDU45B 4}" },
+							station = 7
+						}, {
+							loadout = { "{MAK79_BDU33 4}" },
+							station = 7
+						}, {
+							loadout = { "{MAK79_MK82AIR 4}" },
+							station = 7
+						}, {
+							loadout = { "{MAK79_MK82SE 4}" },
+							station = 7
+						}, {
+							loadout = { "{MAK79_MK83 3R}" },
+							station = 7
+						}, {
+							loadout = { "{MAK79_MK20 2R}" },
+							station = 7
+						}, {
+							loadout = { "{MAK79_CBU99 2R}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 MK-83}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 GBU-12}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 GBU-16}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 MK-20}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 CBU-99}" },
+							station = 7
+						}, {
+							loadout = { "{BRU3242_ADM141}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 MK-84}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 GBU-10}" },
+							station = 7
+						}, {
+							loadout = { "{BRU3242_3*BDU33}" },
+							station = 7
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 7
+						}, {
+							loadout = { "{SHOULDER AIM_54A_Mk47 L}" },
+							station = 2
+						}, {
+							loadout = { "{SHOULDER AIM_54A_Mk60 L}" },
+							station = 2
+						}, {
+							loadout = { "{SHOULDER AIM_54C_Mk47 L}" },
+							station = 2
+						}, {
+							loadout = { "{SHOULDER AIM_54C_Mk60 L}" },
+							station = 2
+						}, {
+							loadout = { "{SHOULDER AIM_54A_Mk47 R}" },
+							station = 9
+						}, {
+							loadout = { "{SHOULDER AIM_54A_Mk60 R}" },
+							station = 9
+						}, {
+							loadout = { "{SHOULDER AIM_54C_Mk47 R}" },
+							station = 9
+						}, {
+							loadout = { "{SHOULDER AIM_54C_Mk60 R}" },
+							station = 9
+						} }
+				}, {
+					CLSID = "{BELLY AIM-7E}",
 					Cx_gain = 0.125,
 					arg = 600,
 					arg_value = 1,
@@ -5087,6 +5290,106 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{BELLY AIM-7MH}",
+					Cx_gain = 0.125,
+					arg = 605,
+					arg_value = 1,
+					connector = "WEP_Sparrow_Rear",
+					forbidden = { {
+							loadout = { "{AIM_54A_Mk47}" },
+							station = 6
+						}, {
+							loadout = { "{AIM_54A_Mk60}" },
+							station = 6
+						}, {
+							loadout = { "{AIM_54C_Mk47}" },
+							station = 6
+						}, {
+							loadout = { "{AIM_54C_Mk60}" },
+							station = 6
+						}, {
+							loadout = { "{BRU3242_SUU25}" },
+							station = 6
+						}, {
+							loadout = { "{BRU-32 MK-82}" },
+							station = 6
+						}, {
+							loadout = { "{BRU-32 MK-82AIR}" },
+							station = 6
+						}, {
+							loadout = { "{BRU-32 MK-82SE}" },
+							station = 6
+						}, {
+							loadout = { "{BRU-32 BDU-45}" },
+							station = 6
+						}, {
+							loadout = { "{BRU-32 BDU-45B}" },
+							station = 6
+						}, {
+							loadout = { "{MAK79_MK81 3R}" },
+							station = 6
+						}, {
+							loadout = { "{MAK79_MK82 3R}" },
+							station = 6
+						}, {
+							loadout = { "{MAK79_BDU45 3R}" },
+							station = 6
+						}, {
+							loadout = { "{MAK79_BDU45B 3R}" },
+							station = 6
+						}, {
+							loadout = { "{MAK79_BDU33 3R}" },
+							station = 6
+						}, {
+							loadout = { "{MAK79_MK82AIR 3R}" },
+							station = 6
+						}, {
+							loadout = { "{MAK79_MK82SE 3R}" },
+							station = 6
+						}, {
+							loadout = { "{MAK79_MK83 1R}" },
+							station = 6
+						}, {
+							loadout = { "{MAK79_MK20 1R}" },
+							station = 6
+						}, {
+							loadout = { "{MAK79_CBU99 1R}" },
+							station = 6
+						}, {
+							loadout = { "{BRU-32 MK-83}" },
+							station = 6
+						}, {
+							loadout = { "{BRU-32 GBU-12}" },
+							station = 6
+						}, {
+							loadout = { "{BRU-32 GBU-16}" },
+							station = 6
+						}, {
+							loadout = { "{BRU-32 MK-20}" },
+							station = 6
+						}, {
+							loadout = { "{BRU-32 CBU-99}" },
+							station = 6
+						}, {
+							loadout = { "{BRU3242_ADM141}" },
+							station = 6
+						}, {
+							loadout = { "{BRU-32 MK-84}" },
+							station = 6
+						}, {
+							loadout = { "{BRU3242_3*BDU33}" },
+							station = 6
+						}, {
+							loadout = { "{BRU-32 GBU-24}" },
+							station = 6
+						}, {
+							loadout = { "{F14-TARPS}" },
+							station = 6
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 6
+						} }
+				}, {
+					CLSID = "{BELLY AIM-7E}",
 					Cx_gain = 0.125,
 					arg = 605,
 					arg_value = 1,
@@ -7598,6 +7901,301 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 9
 						} }
 				}, {
+					CLSID = "{BELLY AIM-7E}",
+					Cx_gain = 0.125,
+					arg = 600,
+					arg_value = 1,
+					connector = "WEP_Sparrow_Centr",
+					forbidden = { {
+							loadout = { "{AIM_54A_Mk47}" },
+							station = 4
+						}, {
+							loadout = { "{AIM_54A_Mk60}" },
+							station = 4
+						}, {
+							loadout = { "{AIM_54C_Mk47}" },
+							station = 4
+						}, {
+							loadout = { "{AIM_54C_Mk60}" },
+							station = 4
+						}, {
+							loadout = { "{BRU3242_2*LAU10 R}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 MK-82}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 MK-82AIR}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 MK-82SE}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 BDU-45}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 BDU-45B}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_MK81 4}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_MK82 4}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_BDU45 4}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_BDU45B 4}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_BDU33 4}" },
+							station = 4
+						}, {
+							loadout = { "{BRU3242_3*BDU33}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_MK82AIR 4}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_MK82SE 4}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_MK83 3L}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 MK-83}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 GBU-12}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 GBU-16}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 MK-20}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 CBU-99}" },
+							station = 4
+						}, {
+							loadout = { "{BRU3242_ADM141}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 MK-84}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 GBU-10}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_MK20 2L}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_CBU99 2L}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 GBU-24}" },
+							station = 4
+						}, {
+							loadout = { "{AIM_54A_Mk47}" },
+							station = 5
+						}, {
+							loadout = { "{AIM_54A_Mk60}" },
+							station = 5
+						}, {
+							loadout = { "{AIM_54C_Mk47}" },
+							station = 5
+						}, {
+							loadout = { "{AIM_54C_Mk60}" },
+							station = 5
+						}, {
+							loadout = { "{BRU3242_2*SUU25 R}" },
+							station = 5
+						}, {
+							loadout = { "{BRU-32 MK-82}" },
+							station = 5
+						}, {
+							loadout = { "{BRU-32 MK-82AIR}" },
+							station = 5
+						}, {
+							loadout = { "{BRU-32 MK-82SE}" },
+							station = 5
+						}, {
+							loadout = { "{BRU-32 BDU-45}" },
+							station = 5
+						}, {
+							loadout = { "{BRU-32 BDU-45B}" },
+							station = 5
+						}, {
+							loadout = { "{MAK79_MK81 3L}" },
+							station = 5
+						}, {
+							loadout = { "{MAK79_MK82 3L}" },
+							station = 5
+						}, {
+							loadout = { "{MAK79_BDU45 3L}" },
+							station = 5
+						}, {
+							loadout = { "{MAK79_BDU45B 3L}" },
+							station = 5
+						}, {
+							loadout = { "{MAK79_BDU33 3L}" },
+							station = 5
+						}, {
+							loadout = { "{BRU3242_3*BDU33}" },
+							station = 5
+						}, {
+							loadout = { "{MAK79_MK82AIR 3L}" },
+							station = 5
+						}, {
+							loadout = { "{MAK79_MK82SE 3L}" },
+							station = 5
+						}, {
+							loadout = { "{MAK79_MK83 1L}" },
+							station = 5
+						}, {
+							loadout = { "{BRU-32 MK-83}" },
+							station = 5
+						}, {
+							loadout = { "{BRU-32 GBU-12}" },
+							station = 5
+						}, {
+							loadout = { "{BRU-32 GBU-16}" },
+							station = 5
+						}, {
+							loadout = { "{BRU-32 MK-20}" },
+							station = 5
+						}, {
+							loadout = { "{BRU-32 CBU-99}" },
+							station = 5
+						}, {
+							loadout = { "{BRU3242_ADM141}" },
+							station = 5
+						}, {
+							loadout = { "{BRU-32 MK-84}" },
+							station = 5
+						}, {
+							loadout = { "{MAK79_MK20 1L}" },
+							station = 5
+						}, {
+							loadout = { "{MAK79_CBU99 1L}" },
+							station = 5
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 5
+						}, {
+							loadout = { "{AIM_54A_Mk47}" },
+							station = 7
+						}, {
+							loadout = { "{AIM_54A_Mk60}" },
+							station = 7
+						}, {
+							loadout = { "{AIM_54C_Mk47}" },
+							station = 7
+						}, {
+							loadout = { "{AIM_54C_Mk60}" },
+							station = 7
+						}, {
+							loadout = { "{BRU3242_LAU10}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 MK-82}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 MK-82AIR}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 MK-82SE}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 BDU-45}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 BDU-45B}" },
+							station = 7
+						}, {
+							loadout = { "{MAK79_MK81 4}" },
+							station = 7
+						}, {
+							loadout = { "{MAK79_MK82 4}" },
+							station = 7
+						}, {
+							loadout = { "{MAK79_BDU45 4}" },
+							station = 7
+						}, {
+							loadout = { "{MAK79_BDU45B 4}" },
+							station = 7
+						}, {
+							loadout = { "{MAK79_BDU33 4}" },
+							station = 7
+						}, {
+							loadout = { "{MAK79_MK82AIR 4}" },
+							station = 7
+						}, {
+							loadout = { "{MAK79_MK82SE 4}" },
+							station = 7
+						}, {
+							loadout = { "{MAK79_MK83 3R}" },
+							station = 7
+						}, {
+							loadout = { "{MAK79_MK20 2R}" },
+							station = 7
+						}, {
+							loadout = { "{MAK79_CBU99 2R}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 MK-83}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 GBU-12}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 GBU-16}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 MK-20}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 CBU-99}" },
+							station = 7
+						}, {
+							loadout = { "{BRU3242_ADM141}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 MK-84}" },
+							station = 7
+						}, {
+							loadout = { "{BRU-32 GBU-10}" },
+							station = 7
+						}, {
+							loadout = { "{BRU3242_3*BDU33}" },
+							station = 7
+						}, {
+							loadout = { "{SHOULDER AIM_54A_Mk47 L}" },
+							station = 2
+						}, {
+							loadout = { "{SHOULDER AIM_54A_Mk60 L}" },
+							station = 2
+						}, {
+							loadout = { "{SHOULDER AIM_54C_Mk47 L}" },
+							station = 2
+						}, {
+							loadout = { "{SHOULDER AIM_54C_Mk60 L}" },
+							station = 2
+						}, {
+							loadout = { "{SHOULDER AIM_54A_Mk47 R}" },
+							station = 9
+						}, {
+							loadout = { "{SHOULDER AIM_54A_Mk60 R}" },
+							station = 9
+						}, {
+							loadout = { "{SHOULDER AIM_54C_Mk47 R}" },
+							station = 9
+						}, {
+							loadout = { "{SHOULDER AIM_54C_Mk60 R}" },
+							station = 9
+						} }
+				}, {
 					CLSID = "<CLEAN>",
 					arg = 605,
 					arg_value = 1,
@@ -9097,6 +9695,154 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						} }
 				}, {
 					CLSID = "{BELLY AIM-7MH}",
+					Cx_gain = 0.125,
+					arg = 600,
+					arg_value = 1,
+					connector = "WEP_Sparrow_Indent_F_R",
+					forbidden = { {
+							loadout = { "{AIM_54A_Mk47}" },
+							station = 4
+						}, {
+							loadout = { "{AIM_54A_Mk60}" },
+							station = 4
+						}, {
+							loadout = { "{AIM_54C_Mk47}" },
+							station = 4
+						}, {
+							loadout = { "{AIM_54C_Mk60}" },
+							station = 4
+						}, {
+							loadout = { "{BRU3242_2*LAU10 R}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 MK-82}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 MK-82AIR}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 MK-82SE}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 BDU-45}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 BDU-45B}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_MK81 4}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_MK82 4}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_BDU45 4}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_BDU45B 4}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_BDU33 4}" },
+							station = 4
+						}, {
+							loadout = { "{BRU3242_3*BDU33}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_MK82AIR 4}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_MK82SE 4}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_MK83 3L}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 MK-83}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 GBU-12}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 GBU-16}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 MK-20}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 CBU-99}" },
+							station = 4
+						}, {
+							loadout = { "{BRU3242_ADM141}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 MK-84}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 GBU-10}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_MK20 2L}" },
+							station = 4
+						}, {
+							loadout = { "{MAK79_CBU99 2L}" },
+							station = 4
+						}, {
+							loadout = { "{BRU-32 GBU-24}" },
+							station = 4
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 4
+						}, {
+							loadout = { "{AIM_54A_Mk47}" },
+							station = 5
+						}, {
+							loadout = { "{AIM_54A_Mk60}" },
+							station = 5
+						}, {
+							loadout = { "{AIM_54C_Mk47}" },
+							station = 5
+						}, {
+							loadout = { "{AIM_54C_Mk60}" },
+							station = 5
+						}, {
+							loadout = { "{AIM_54A_Mk47}" },
+							station = 6
+						}, {
+							loadout = { "{AIM_54A_Mk60}" },
+							station = 6
+						}, {
+							loadout = { "{AIM_54C_Mk47}" },
+							station = 6
+						}, {
+							loadout = { "{AIM_54C_Mk60}" },
+							station = 6
+						}, {
+							loadout = { "{SHOULDER AIM_54A_Mk47 L}" },
+							station = 2
+						}, {
+							loadout = { "{SHOULDER AIM_54A_Mk60 L}" },
+							station = 2
+						}, {
+							loadout = { "{SHOULDER AIM_54C_Mk47 L}" },
+							station = 2
+						}, {
+							loadout = { "{SHOULDER AIM_54C_Mk60 L}" },
+							station = 2
+						}, {
+							loadout = { "{SHOULDER AIM_54A_Mk47 R}" },
+							station = 9
+						}, {
+							loadout = { "{SHOULDER AIM_54A_Mk60 R}" },
+							station = 9
+						}, {
+							loadout = { "{SHOULDER AIM_54C_Mk47 R}" },
+							station = 9
+						}, {
+							loadout = { "{SHOULDER AIM_54C_Mk60 R}" },
+							station = 9
+						} }
+				}, {
+					CLSID = "{BELLY AIM-7E}",
 					Cx_gain = 0.125,
 					arg = 600,
 					arg_value = 1,
@@ -11018,6 +11764,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 7
 						} }
 				}, {
+					CLSID = "{SHOULDER AIM-7E}",
+					connector = "WEP_Shoulder_Sparrow_R"
+				}, {
 					CLSID = "{SHOULDER AIM-7M}",
 					connector = "WEP_Shoulder_Sparrow_R"
 				}, {
@@ -11025,6 +11774,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					connector = "WEP_Shoulder_Sparrow_R"
 				}, {
 					CLSID = "{SHOULDER AIM-7MH}",
+					connector = "WEP_Shoulder_Sparrow_R"
+				}, {
+					CLSID = "{SHOULDER AIM-7P}",
 					connector = "WEP_Shoulder_Sparrow_R"
 				}, {
 					CLSID = "{LAU-7 - AIM-9M}",
@@ -11037,9 +11789,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{LAU-7 - TCTS}",
 					connector = "WEP_Sidewinder_Extra_R"
-				}, {
-					CLSID = "{SHOULDER AIM-7P}",
-					connector = "WEP_Shoulder_Sparrow_R"
 				}, {
 					CLSID = "{PHXBRU3242_2*LAU10 RS}",
 					connector = "WEP_PhoenixWingPylon_R"
@@ -11491,10 +12240,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			can_be_playable = true,
 			canopy_arg = 38,
 			canopy_pos = { 3.916, 0.798, 0 },
-			drop_canopy_name = 318,
+			drop_canopy_name = 320,
 			ejection_added_speed = { -3, 15, -3 },
 			ejection_order = 2,
-			ejection_seat_name = 317,
+			ejection_seat_name = 319,
 			g_suit = 2,
 			pos = { 4, 0.65, 0 },
 			role = "pilot",
@@ -11503,10 +12252,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			can_be_playable = true,
 			canopy_arg = 38,
 			canopy_pos = { 3.916, 0.798, 0 },
-			drop_canopy_name = 318,
+			drop_canopy_name = 320,
 			ejection_added_speed = { -3, 15, 3 },
 			ejection_order = 1,
-			ejection_seat_name = 317,
+			ejection_seat_name = 319,
 			g_suit = 2,
 			pilot_body_arg = 472,
 			pos = { 2.5, 0.65, 0 },

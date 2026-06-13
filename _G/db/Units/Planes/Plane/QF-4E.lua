@@ -65,7 +65,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			playerOnly = true
 		}, {
 			control = "comboList",
-			defValue = 2,
+			defValue = 0,
 			id = "CombatTreeSpoofable",
 			label = "Combat-Tree Spoofable",
 			playerOnly = true,
@@ -2329,7 +2329,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Vy_max = 210,
 	Waypoint_Custom_Panel = true,
 	WingSpan = 11.7,
-	WorldID = 347,
+	WorldID = 348,
 	_file = "./CoreMods/aircraft/F-4E/Entry/F-4E.lua",
 	_origin = "F-4E AI by Heatblur Simulations",
 	air_refuel_receptacle_pos = { 0.73, 1.21, 0 },

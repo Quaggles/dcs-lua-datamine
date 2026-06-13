@@ -1,0 +1,1 @@
+_G["warheads"]["Mk48Mod0"] = "_G/warheads/AGM_122.lua"

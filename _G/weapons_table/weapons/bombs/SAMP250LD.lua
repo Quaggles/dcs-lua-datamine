@@ -65,7 +65,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP250LD"] = {
 			expl_mass = 100,
 			fantom = 1,
 			mass = 220,
-			obj_factors = { 1, 1, 1 },
+			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
 			piercing_mass = 44
 		},
@@ -136,7 +136,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP250LD"] = {
 			expl_mass = 100,
 			fantom = 0,
 			mass = 220,
-			obj_factors = { 1, 1, 1 },
+			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
 			piercing_mass = 44
 		},

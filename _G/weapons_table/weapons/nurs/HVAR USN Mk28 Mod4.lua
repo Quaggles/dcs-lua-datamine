@@ -140,6 +140,7 @@ _G["weapons_table"]["weapons"]["nurs"]["HVAR USN Mk28 Mod4"] = {
 		engine = {
 			fuel_mass = 19.4897,
 			impulse = 130,
+			start_time = 0,
 			work_time = 2.1
 		},
 		fm = {

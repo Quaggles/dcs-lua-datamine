@@ -1,0 +1,30 @@
+_G["db"]["Units"]["Heliports"]["Heliport"]["#Index"] = {
+	DisplayName = "F-100D ZELL",
+	Life = 100,
+	Name = "F-100D ZELL",
+	Rate = 50,
+	SeaObject = false,
+	ShapeName = "ZELL",
+	_file = "./CoreMods/aircraft/F-100D/Entry/Zell.lua",
+	_origin = "F-100D AI by GrinnelliDesigns",
+	attribute = { 5, 9 },
+	category = "Heliport",
+	classname = "lZELL",
+	enablePlayerCanDrive = false,
+	isPutToWater = false,
+	mapclasskey = "ZEL",
+	numParking = 1,
+	positioning = "BYNORMAL",
+	shape_table_data = { {
+			classname = "lZELL",
+			desrt = "self",
+			file = "ZELL",
+			life = 100,
+			name = "ZELL",
+			positioning = "BYNORMAL",
+			username = "Zell"
+		} },
+	subCategory = "PointTakeOff",
+	swapped_names = true,
+	type = "Zell"
+}

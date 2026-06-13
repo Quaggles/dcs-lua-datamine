@@ -332,8 +332,6 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "BTR-70"
 				}, {
-					Name = "Strela-1 9P31"
-				}, {
 					Name = "P14_SR"
 				}, {
 					Name = "TugHarlan_drivable"
@@ -1066,6 +1064,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Gas platform"
 				}, {
 					Name = "Invisible FARP"
+				}, {
+					Name = "Zell"
 				} }
 		},
 		LTAvehicles = {
@@ -1151,6 +1151,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Falcon_Gyrocopter"
 				}, {
 					Name = "Christen Eagle II"
+				}, {
+					Name = "F-100D"
 				}, {
 					Name = "F-15ESE"
 				}, {

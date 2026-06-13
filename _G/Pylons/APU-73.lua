@@ -1,7 +1,16 @@
-_G["Pylons"]["APU-73"] = {
-	ShapeName = "APU-73",
-	_unique_resource_name = "weapons.adapters.APU-73",
+_G["Pylons"]["apu-73"] = {
+	IsAdapter = true,
+	ShapeName = "apu-73",
+	_unique_resource_name = "weapons.adapters.apu-73",
 	index = "Redacted",
-	name = "APU-73",
+	name = "apu-73",
+	shape_table_data = { {
+			file = "apu-73",
+			fire = { 0, 1 },
+			index = "Redacted",
+			life = 60,
+			name = "apu-73",
+			username = "apu-73"
+		} },
 	ws_type = { 4, 15, 47, "Redacted" }
 }

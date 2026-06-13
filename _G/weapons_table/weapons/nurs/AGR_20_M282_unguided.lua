@@ -150,6 +150,7 @@ _G["weapons_table"]["weapons"]["nurs"]["AGR_20_M282_unguided"] = {
 		engine = {
 			fuel_mass = 7.5,
 			impulse = 210,
+			start_time = 0,
 			work_time = 1.8
 		},
 		fm = {

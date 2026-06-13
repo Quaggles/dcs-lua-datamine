@@ -8,7 +8,7 @@ _G["launcher"]["{LAU-7 - AIM-9M}"] = {
 		} },
 	JettisonSubmunitionOnly = true,
 	Picture = "us_AIM-9L.png",
-	Weight = 101.64,
+	Weight = 100.73,
 	_file = "./CoreMods/aircraft/F14/Entry/Weapons.lua",
 	_origin = "F-14B AI by Heatblur Simulations",
 	attribute = { 4, 4, 32, "Redacted" },

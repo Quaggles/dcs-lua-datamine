@@ -2,7 +2,11 @@ _G["launcher"]["{HB_F4E_CBU-1/A}"] = {
 	CLSID = "{HB_F4E_CBU-1/A}",
 	Count = 19,
 	Cx_pil = 0.001887,
-	Elements = { "_G/Pylons/HB_ORD_SUU_7.lua", {
+	Elements = { {
+			IsAdapter = true,
+			Position = { 0, 0, 0 },
+			ShapeName = "HB_ORD_SUU_7"
+		}, {
 			DrawArgs = { { 0, 1 } },
 			ShapeName = "HB_F-4E_EXT_BLU4B_unarmed",
 			connector_name = "tube_10"

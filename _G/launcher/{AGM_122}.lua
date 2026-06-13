@@ -1,7 +1,7 @@
 _G["launcher"]["{AGM_122}"] = {
 	CLSID = "{AGM_122}",
 	Count = 1,
-	Cx_pil = 1,
+	Cx_pil = 0.00025146484375,
 	Elements = { {
 			ShapeName = "agm-122"
 		} },
@@ -11,5 +11,5 @@ _G["launcher"]["{AGM_122}"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 8, "Redacted" },
 	category = 2,
-	displayName = "AGM-122 Sidearm - light ARM"
+	displayName = "AGM-122A Sidearm - Light ARM"
 }

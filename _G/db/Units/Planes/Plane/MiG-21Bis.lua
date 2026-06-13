@@ -1401,6 +1401,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 4
 						} }
 				}, {
+					CLSID = "{OFAB-100-120-TU}",
+					arg = 318,
+					arg_value = 0.5,
+					connector = "PYLON_L_IN",
+					required = { {
+							loadout = { "{OFAB-100-120-TU}" },
+							station = 4
+						} }
+				}, {
 					CLSID = "{Kh-66_Grom}",
 					connector = "PYLON_L_IN",
 					required = { {
@@ -1697,6 +1706,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					connector = "PYLON_R_IN_2",
 					required = { {
 							loadout = { "{0511E528-EA28-4caf-A212-00D1408DF10A}" },
+							station = 2
+						} }
+				}, {
+					CLSID = "{OFAB-100-120-TU}",
+					arg = 319,
+					arg_value = 0.5,
+					connector = "PYLON_R_IN",
+					required = { {
+							loadout = { "{OFAB-100-120-TU}" },
 							station = 2
 						} }
 				}, {
@@ -2227,7 +2245,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	air_refuel_receptacle_pos = { 0, 0, 0 },
 	ammo_type = { "General gun shells mix", "A-G gun shells mix", "A-A gun shells mix" },
 	attribute = { 1, 1, 1, "Redacted", "Fighters", "All", "NonAndLightArmoredUnits", "NonArmoredUnits", "Air", "Planes", "Battle airplanes" },
-	average_fuel_consumption = 0.01,
+	average_fuel_consumption = 0.48,
 	bank_angle_max = 76,
 	brakeshute_name = 3,
 	chaff_flare_dispenser = { {
@@ -2244,9 +2262,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			pos = { -1.714, -0.38, -0.5 }
 		} },
 	crew_members = { {
-			drop_canopy_name = 343,
-			ejection_seat_name = 342,
-			pilot_name = 344,
+			drop_canopy_name = 345,
+			ejection_seat_name = 344,
+			pilot_name = 346,
 			pos = { 2.711, 0.65, 0 },
 			role = "pilot",
 			role_display_name = "Pilot"

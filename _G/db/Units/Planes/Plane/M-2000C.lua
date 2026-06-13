@@ -2440,11 +2440,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		} },
 	crew_members = { {
 			bailout_arg = -1,
-			drop_canopy_name = 333,
+			drop_canopy_name = 335,
 			drop_parachute_name = "M-2000C_parachute",
-			ejection_seat_name = 332,
+			ejection_seat_name = 334,
 			g_suit = 5,
-			pilot_name = 334,
+			pilot_name = 336,
 			pos = { 2.679, 0.512, 0 },
 			role = "pilot",
 			role_display_name = "Pilot"

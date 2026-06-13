@@ -129,7 +129,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM-7E-2"] = {
 			work_time = 2.8
 		},
 		mass = 194,
-		model = "HB_F-4E_AIM7E",
+		model = "HB_F-4E_EXT_AIM-7E2",
 		name = "AIM-7E-2",
 		proximity_fuze = {
 			arm_delay = 2.5,
@@ -197,7 +197,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM-7E-2"] = {
 	display_name = "AIM-7E-2",
 	display_name_short = "AIM-7",
 	mass = 194,
-	model = "HB_F-4E_AIM7E",
+	model = "HB_F-4E_EXT_AIM-7E2",
 	name = "AIM-7E-2",
 	server = {
 		Cx_pil = 2.21,
@@ -324,7 +324,7 @@ _G["weapons_table"]["weapons"]["missiles"]["AIM-7E-2"] = {
 			work_time = 2.8
 		},
 		mass = 194,
-		model = "HB_F-4E_AIM7E",
+		model = "HB_F-4E_EXT_AIM-7E2",
 		name = "AIM-7E-2",
 		proximity_fuze = {
 			arm_delay = 2.5,

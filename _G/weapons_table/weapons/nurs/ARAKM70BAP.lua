@@ -142,6 +142,7 @@ _G["weapons_table"]["weapons"]["nurs"]["ARAKM70BAP"] = {
 		engine = {
 			fuel_mass = 12.5,
 			impulse = 180,
+			start_time = 0,
 			work_time = 2.2
 		},
 		fm = {

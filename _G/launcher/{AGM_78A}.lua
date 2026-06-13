@@ -28,23 +28,6 @@ _G["launcher"]["{AGM_78A}"] = {
 			xCtrl = 200,
 			xLbl = 10
 		}, {
-			baseDim = "",
-			control = "comboList",
-			defValue = 1,
-			id = "EAS_bypass_ctrl",
-			label = "Attack Profile",
-			stringIndex = 2,
-			values = { {
-					dispName = "Loft Attack",
-					id = 0
-				}, {
-					dispName = "Direct Attack",
-					id = 1
-				} },
-			wCtrl = 360,
-			xCtrl = 200,
-			xLbl = 10
-		}, {
 			VisibilityCondition = { {
 					id = "NFP_rfgu_type",
 					value = 1
@@ -60,7 +43,7 @@ _G["launcher"]["{AGM_78A}"] = {
 			nLocDim = "GHz",
 			readOnly = true,
 			step = 0.01,
-			stringIndex = 3,
+			stringIndex = 2,
 			wCtrl = 60,
 			wDim = 30,
 			xCtrl = 200,
@@ -81,7 +64,7 @@ _G["launcher"]["{AGM_78A}"] = {
 			nLocDim = "GHz",
 			readOnly = true,
 			step = 0.01,
-			stringIndex = 3,
+			stringIndex = 2,
 			wCtrl = 60,
 			wDim = 30,
 			xCtrl = 500,

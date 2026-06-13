@@ -69,7 +69,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP400HD"] = {
 			expl_mass = 165,
 			fantom = 1,
 			mass = 335,
-			obj_factors = { 1, 1, 1 },
+			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
 			piercing_mass = 67
 		},
@@ -145,7 +145,7 @@ _G["weapons_table"]["weapons"]["bombs"]["SAMP400HD"] = {
 			expl_mass = 165,
 			fantom = 0,
 			mass = 335,
-			obj_factors = { 1, 1, 1 },
+			obj_factors = { 1, 1 },
 			other_factors = { 1, 1, 1 },
 			piercing_mass = 67
 		},

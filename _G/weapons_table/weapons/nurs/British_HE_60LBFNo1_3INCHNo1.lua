@@ -158,6 +158,7 @@ _G["weapons_table"]["weapons"]["nurs"]["British_HE_60LBFNo1_3INCHNo1"] = {
 		engine = {
 			fuel_mass = 5.2,
 			impulse = 190,
+			start_time = 0,
 			work_time = 1.6
 		},
 		fm = {

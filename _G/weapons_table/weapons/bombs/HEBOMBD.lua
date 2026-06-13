@@ -8,6 +8,11 @@ _G["weapons_table"]["weapons"]["bombs"]["HEBOMBD"] = {
 	client = {
 		Ag = -1.23,
 		Cx = 0.00018,
+		SAD = {
+			default_delays = { 4.6 },
+			is_multidelay = 0,
+			time_sigma = 0.3
+		},
 		VyHold = -100,
 		_file = "./CoreMods/aircraft/AJS37/Entry/Weapons.lua",
 		_origin = "AJS37 AI by Heatblur Simulations",
@@ -21,7 +26,6 @@ _G["weapons_table"]["weapons"]["bombs"]["HEBOMBD"] = {
 		},
 		category = 1,
 		control = {
-			delay_par = 1,
 			open_delay = 1
 		},
 		fm = {
@@ -37,11 +41,6 @@ _G["weapons_table"]["weapons"]["bombs"]["HEBOMBD"] = {
 			release_rnd_x = 1,
 			wind_sigma = 80,
 			wind_time = 1000
-		},
-		fuze = {
-			default_arm_delays = { 4.6 },
-			is_multidelay = 0,
-			tdd_position = { 1.1, 0, 0 }
 		},
 		hMax = 15000,
 		hMin = 100,
@@ -87,6 +86,11 @@ _G["weapons_table"]["weapons"]["bombs"]["HEBOMBD"] = {
 	server = {
 		Ag = -1.23,
 		Cx = 0.00018,
+		SAD = {
+			default_delays = { 4.6 },
+			is_multidelay = 0,
+			time_sigma = 0.3
+		},
 		VyHold = -100,
 		_file = "./CoreMods/aircraft/AJS37/Entry/Weapons.lua",
 		_origin = "AJS37 AI by Heatblur Simulations",
@@ -100,7 +104,6 @@ _G["weapons_table"]["weapons"]["bombs"]["HEBOMBD"] = {
 		},
 		category = 1,
 		control = {
-			delay_par = 1,
 			open_delay = 1
 		},
 		fm = {
@@ -116,11 +119,6 @@ _G["weapons_table"]["weapons"]["bombs"]["HEBOMBD"] = {
 			release_rnd_x = 1,
 			wind_sigma = 80,
 			wind_time = 1000
-		},
-		fuze = {
-			default_arm_delays = { 4.6 },
-			is_multidelay = 0,
-			tdd_position = { 1.1, 0, 0 }
 		},
 		hMax = 15000,
 		hMin = 100,

@@ -1636,10 +1636,6 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "BRDM-2"
-				}, {
-					Name = "Strela-1 9P31"
-				}, {
 					Name = "CHAP_M1083"
 				}, {
 					Name = "CHAP_MATV"
@@ -2388,6 +2384,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "Gas platform"
 				}, {
 					Name = "Invisible FARP"
+				}, {
+					Name = "Zell"
 				} }
 		},
 		LTAvehicles = {
@@ -2645,6 +2643,8 @@ _G["db"]["Countries"]["#Index"] = {
 					Name = "JF-17"
 				}, {
 					Name = "Falcon_Gyrocopter"
+				}, {
+					Name = "F-100D"
 				}, {
 					Name = "F-15ESE"
 				}, {
