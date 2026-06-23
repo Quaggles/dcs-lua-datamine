@@ -136,12 +136,13 @@ _G["rockets"]["#Index"] = {
 		wind_time = 0
 	},
 	gimbal = {
+		az_max = 1.0471975511966,
 		delay = 0,
+		el_max = 1.0471975511966,
+		max_stabilization_rate = 1.3962634015955,
 		max_tracking_rate = 0.34906585039887,
 		op_time = 75,
-		pitch_max = 0.95993108859688,
-		tracking_gain = 10,
-		yaw_max = 0.95993108859688
+		rate_mode = 1
 	},
 	hoj = 1,
 	loft = 1,

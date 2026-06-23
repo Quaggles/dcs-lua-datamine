@@ -858,6 +858,8 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_97"] = {
 	targeting_data = {
 		bomblet_char_time = 72,
 		char_time = 20.395,
+		fwd_sensor = 1,
+		release_delay = 3,
 		wind_coeff = 1.5
 	},
 	type_name = "bomb",

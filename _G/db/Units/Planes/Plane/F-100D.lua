@@ -113,13 +113,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[130] = 1,
 		[131] = 1,
 		[132] = 1,
-		[133] = 1,
-		[308] = 1,
-		[309] = 1,
-		[310] = 1,
-		[312] = 1,
-		[313] = 1,
-		[314] = 1
+		[133] = 1
 	},
 	Damage = { {
 			args = { 150 },
@@ -2268,7 +2262,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{GD_F100_200_GAL_TANK_EMPTY}"
 				}, {
 					CLSID = "<CLEAN>",
-					add_mass = -131.1,
+					add_mass = -63.6,
 					arg_value = 1
 				} },
 			Number = 1,
@@ -2319,7 +2313,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{GD_F100_CBU-38/A}"
 				}, {
 					CLSID = "<CLEAN>",
-					add_mass = -131.1,
+					add_mass = -63.6,
 					arg_value = 1
 				}, {
 					CLSID = "{GD_F100_275_GAL_TANK_L}",
@@ -2417,7 +2411,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.75
 				}, {
 					CLSID = "<CLEAN>",
-					add_mass = -131.1,
+					add_mass = -63.6,
 					arg_value = 1
 				}, {
 					CLSID = "{GD_F100_AIM-9B_x2}",
@@ -2564,7 +2558,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.75
 				}, {
 					CLSID = "<CLEAN>",
-					add_mass = -131.1,
+					add_mass = -63.6,
 					arg_value = 1
 				}, {
 					CLSID = "{GD_F100_AIM-9B_x2}",
@@ -2663,7 +2657,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{GD_F100_CBU-38/A}"
 				}, {
 					CLSID = "<CLEAN>",
-					add_mass = -131.1,
+					add_mass = -63.6,
 					arg_value = 1
 				}, {
 					CLSID = "{GD_F100_275_GAL_TANK_R}",
@@ -2738,7 +2732,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{GD_F100_200_GAL_TANK_EMPTY}"
 				}, {
 					CLSID = "<CLEAN>",
-					add_mass = -131.1,
+					add_mass = -63.6,
 					arg_value = 1
 				} },
 			Number = 7,
