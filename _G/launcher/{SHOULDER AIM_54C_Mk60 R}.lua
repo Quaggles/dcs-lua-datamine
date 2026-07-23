@@ -1,6 +1,7 @@
 _G["launcher"]["{SHOULDER AIM_54C_Mk60 R}"] = {
 	CLSID = "{SHOULDER AIM_54C_Mk60 R}",
 	Count = 1,
+	Cx_item = 0.001220703125,
 	Cx_pil = 0.00152587890625,
 	Elements = { "_G/Pylons/HB_F14_EXT_SHOULDER_PHX_R.lua", {
 			connector_name = "WEP_Phoenix_Connector",

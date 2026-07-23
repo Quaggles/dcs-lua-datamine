@@ -55,6 +55,7 @@ _G["rockets"]["#Index"] = {
 	t_acc = 11.2,
 	t_b = 0.9,
 	t_marsh = 0,
+	tilt_eff_x_pos = 5.25,
 	user_name = "HHQ-9",
 	v_mid = 1000,
 	v_min = 170,

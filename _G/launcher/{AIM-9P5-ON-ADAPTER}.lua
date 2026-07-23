@@ -17,7 +17,7 @@ _G["launcher"]["{AIM-9P5-ON-ADAPTER}"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 4,
-	displayName = "LAU-7 with AIM-9P5 Sidewinder IR AAM",
+	displayName = "LAU-7 - AIM-9P5 Sidewinder IR AAM",
 	name = "aero-3b",
 	wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 }

@@ -2196,8 +2196,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		minFrequency = 225,
 		modulation = 0
 	},
-	IR_emission_coeff = 0.2,
-	IR_emission_coeff_ab = 1,
+	IR_emission_coeff = 0.8,
+	IR_emission_coeff_ab = 2.6,
 	M_empty = 9361.2393,
 	M_fuel_max = 3505.4,
 	M_max = 17258.282,
@@ -2226,6 +2226,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{LAU68_FFAR_MK1HE}"
 				}, {
 					CLSID = "{LAU68_FFAR_MK5HEAT}"
+				}, {
+					CLSID = "{F3EFE0AB-E91A-42D8-9CA2-B63C91ED570A}"
 				}, {
 					CLSID = "{90321C8E-7ED1-47D4-A160-E074D5ABD902}"
 				}, {
@@ -2278,6 +2280,18 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
+					CLSID = "{LAU3_FFAR_WP156}"
+				}, {
+					CLSID = "{LAU3_FFAR_MK1HE}"
+				}, {
+					CLSID = "{LAU3_FFAR_MK5HEAT}"
+				}, {
+					CLSID = "{LAU68_FFAR_WP156}"
+				}, {
+					CLSID = "{LAU68_FFAR_MK1HE}"
+				}, {
+					CLSID = "{LAU68_FFAR_MK5HEAT}"
+				}, {
 					CLSID = "{90321C8E-7ED1-47D4-A160-E074D5ABD902}"
 				}, {
 					CLSID = "{Mk82SNAKEYE}"
@@ -2622,6 +2636,18 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			use_full_connector_position = true
 		}, {
 			Launchers = { {
+					CLSID = "{LAU3_FFAR_WP156}"
+				}, {
+					CLSID = "{LAU3_FFAR_MK1HE}"
+				}, {
+					CLSID = "{LAU3_FFAR_MK5HEAT}"
+				}, {
+					CLSID = "{LAU68_FFAR_WP156}"
+				}, {
+					CLSID = "{LAU68_FFAR_MK1HE}"
+				}, {
+					CLSID = "{LAU68_FFAR_MK5HEAT}"
+				}, {
 					CLSID = "{90321C8E-7ED1-47D4-A160-E074D5ABD902}"
 				}, {
 					CLSID = "{Mk82SNAKEYE}"
@@ -2696,6 +2722,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{LAU68_FFAR_MK1HE}"
 				}, {
 					CLSID = "{LAU68_FFAR_MK5HEAT}"
+				}, {
+					CLSID = "{F3EFE0AB-E91A-42D8-9CA2-B63C91ED570A}"
 				}, {
 					CLSID = "{90321C8E-7ED1-47D4-A160-E074D5ABD902}"
 				}, {

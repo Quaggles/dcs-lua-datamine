@@ -24,7 +24,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_50HD"] = {
 			caliber = 0.273,
 			cx_coeff = { 1, 0.29, 0.71, 0.14, 1.28 },
 			cx_factor = 100,
-			mass = 232,
+			mass = 242,
 			release_rnd = 0.3,
 			release_rnd_x = 1,
 			wind_sigma = 8,
@@ -55,7 +55,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_50HD"] = {
 			[0] = 1
 		}
 	},
-	mass = 232,
+	mass = 242,
 	model = "BDU-50HD",
 	name = "BDU_50HD",
 	server = {
@@ -79,7 +79,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_50HD"] = {
 			caliber = 0.273,
 			cx_coeff = { 1, 0.29, 0.71, 0.14, 1.28 },
 			cx_factor = 100,
-			mass = 232,
+			mass = 242,
 			release_rnd = 0.3,
 			release_rnd_x = 1,
 			wind_sigma = 8,
@@ -104,8 +104,8 @@ _G["weapons_table"]["weapons"]["bombs"]["BDU_50HD"] = {
 	},
 	sounderName = "Weapons/Bomb",
 	targeting_data = {
-		char_time = 20.33,
-		chute_char_time = 34.35,
+		char_time = 20.32,
+		chute_char_time = 33.4,
 		chute_open_time = 0.2
 	},
 	type_name = "bomb",

@@ -5,7 +5,8 @@ _G["launcher"]["{GPU_5_POD}"] = {
 			ShapeName = "HB_F-4E_EXT_GPU5"
 		} },
 	Picture = "Picto_GPU5.png",
-	Weight = 845.9498,
+	Weight = 845.94908,
+	Weight_Empty = 631.853656,
 	_file = "./CoreMods/aircraft/F-4E/Entry/Weapons.lua",
 	_origin = "F-4E AI by Heatblur Simulations",
 	_unique_resource_name = "weapons.containers.{GPU_5_POD}",
@@ -55,8 +56,8 @@ _G["launcher"]["{GPU_5_POD}"] = {
 					name = "GunTrigger"
 				}
 			},
-			muzzle_pos = { 2.2, -0.355, 0 },
-			muzzle_pos_connector = "Gun_point",
+			muzzle_pos = { 0, 0, 0 },
+			muzzle_pos_connector = "PNT_MUZZLE",
 			name = "GAU-13",
 			short_name = "GAU-13",
 			smoke_dir = { 0, -1, -0.2 },

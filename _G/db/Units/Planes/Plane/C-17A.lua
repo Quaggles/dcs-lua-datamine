@@ -224,6 +224,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		} },
 	defFuelRatio = 0.5,
 	detection_range_max = 0,
+	encyclopedia_hidden = true,
 	engines_count = 4,
 	engines_nozzles = { {
 			diameter = 1.085,

@@ -1310,9 +1310,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		} },
 	country_of_origin = "RUS",
 	crew_members = { {
+			canopy_pos = { 7.95, 1.09, 0 },
 			drop_canopy_name = 35,
 			ejection_seat_name = 9,
-			pos = { 7.916, 0.986, 0 },
+			pos = { 7.86, 0.87, 0 },
 			role = "pilot",
 			role_display_name = "Pilot"
 		} },

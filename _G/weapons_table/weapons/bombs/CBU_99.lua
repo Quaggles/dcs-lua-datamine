@@ -142,7 +142,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_99"] = {
 				username = "CBU-99"
 			} },
 		targeting_data = {
-			bomblet_char_time = 23.7,
+			bomblet_char_time = 23.95,
 			char_time = 20.45
 		},
 		type = 5,
@@ -305,7 +305,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_99"] = {
 				username = "CBU-99"
 			} },
 		targeting_data = {
-			bomblet_char_time = 23.7,
+			bomblet_char_time = 23.95,
 			char_time = 20.45
 		},
 		type = 5,
@@ -328,7 +328,7 @@ _G["weapons_table"]["weapons"]["bombs"]["CBU_99"] = {
 	},
 	sounderName = "Weapons/Bomb",
 	targeting_data = {
-		bomblet_char_time = 23.7,
+		bomblet_char_time = 23.95,
 		char_time = 20.45
 	},
 	type_name = "bomb",

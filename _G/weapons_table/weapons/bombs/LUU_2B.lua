@@ -29,6 +29,7 @@ _G["weapons_table"]["weapons"]["bombs"]["LUU_2B"] = {
 		},
 		category = 1,
 		class_name = "wAmmunition_viHeavyObject",
+		displayName = "LUU-2B - Illumination Flare",
 		display_name_short = "illum.",
 		fm = {
 			I = 0.93851333333333,
@@ -110,6 +111,7 @@ _G["weapons_table"]["weapons"]["bombs"]["LUU_2B"] = {
 		},
 		category = 1,
 		class_name = "wAmmunition_viHeavyObject",
+		displayName = "LUU-2B - Illumination Flare",
 		display_name_short = "illum.",
 		fm = {
 			I = 0.93851333333333,

@@ -96,6 +96,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		}
 	},
 	mapclasskey = "P0091000083",
+	maxDeviationPitch = 0.034906585039887,
+	maxDeviationRoll = 0.034906585039887,
 	sensor = {
 		height = 3,
 		max_alt_finding_target = 20000,

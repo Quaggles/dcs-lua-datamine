@@ -24,6 +24,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BKF_AO2_5RT"] = {
 		control = {
 			open_delay = 0
 		},
+		encyclopedia_hidden = true,
 		fm = {
 			I = 0.88115033333333,
 			L = 0.373,
@@ -272,6 +273,7 @@ _G["weapons_table"]["weapons"]["bombs"]["BKF_AO2_5RT"] = {
 		control = {
 			open_delay = 0
 		},
+		encyclopedia_hidden = true,
 		fm = {
 			I = 0.88115033333333,
 			L = 0.373,

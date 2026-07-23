@@ -6,7 +6,7 @@ _G["launcher"]["{HB_F4E_AIM-7E}"] = {
 			ShapeName = "HB_F14_EXT_AIM-7"
 		} },
 	Picture = "aim7m.png",
-	Weight = 230,
+	Weight = 206.4,
 	Weight_Empty = 0,
 	_file = "./CoreMods/aircraft/F-4E/Entry/Weapons.lua",
 	_origin = "F-4E AI by Heatblur Simulations",

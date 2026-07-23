@@ -135,7 +135,7 @@ _G["weapons_table"]["weapons"]["bombs"]["MK_82SNAKEYE"] = {
 	sounderName = "Weapons/Bomb",
 	targeting_data = {
 		char_time = 20.32,
-		chute_char_time = 32.3,
+		chute_char_time = 33.4,
 		chute_open_time = 0.2
 	},
 	type_name = "bomb",

@@ -876,6 +876,41 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 9
 						} }
 				}, {
+					CLSID = "{MB339_MagicI}",
+					arg_value = 0,
+					required = { {
+							loadout = { "{MB339_MagicI}" },
+							station = 9
+						} }
+				}, {
+					CLSID = "{MB339_MagicII}",
+					arg_value = 0,
+					required = { {
+							loadout = { "{MB339_MagicII}" },
+							station = 9
+						} }
+				}, {
+					CLSID = "{MB339_AIM-9L}",
+					arg_value = 0,
+					required = { {
+							loadout = { "{MB339_AIM-9L}" },
+							station = 9
+						} }
+				}, {
+					CLSID = "{MB339_AIM-9P}",
+					arg_value = 0,
+					required = { {
+							loadout = { "{MB339_AIM-9P}" },
+							station = 9
+						} }
+				}, {
+					CLSID = "{MB339_AIM-9J}",
+					arg_value = 0,
+					required = { {
+							loadout = { "{MB339_AIM-9J}" },
+							station = 9
+						} }
+				}, {
 					CLSID = "{LR25_ARF8M3_API}",
 					arg_value = 0.3,
 					required = { {
@@ -1566,6 +1601,41 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 2
 						} }
 				}, {
+					CLSID = "{MB339_MagicI}",
+					arg_value = 0,
+					required = { {
+							loadout = { "{MB339_MagicI}" },
+							station = 2
+						} }
+				}, {
+					CLSID = "{MB339_MagicII}",
+					arg_value = 0,
+					required = { {
+							loadout = { "{MB339_MagicII}" },
+							station = 2
+						} }
+				}, {
+					CLSID = "{MB339_AIM-9L}",
+					arg_value = 0,
+					required = { {
+							loadout = { "{MB339_AIM-9L}" },
+							station = 2
+						} }
+				}, {
+					CLSID = "{MB339_AIM-9P}",
+					arg_value = 0,
+					required = { {
+							loadout = { "{MB339_AIM-9P}" },
+							station = 2
+						} }
+				}, {
+					CLSID = "{MB339_AIM-9J}",
+					arg_value = 0,
+					required = { {
+							loadout = { "{MB339_AIM-9J}" },
+							station = 2
+						} }
+				}, {
 					CLSID = "{LR25_ARF8M3_API}",
 					arg_value = 0.3,
 					required = { {
@@ -1735,7 +1805,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			typeng = 0
 		}
 	},
-	Sensors = {},
+	Sensors = {
+		IRST = "OLS-27"
+	},
 	Shape = "MB-339A",
 	SnapViews = { { {
 				hAngle = 0,

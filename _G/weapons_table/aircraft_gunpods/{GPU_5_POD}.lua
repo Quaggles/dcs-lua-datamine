@@ -45,8 +45,8 @@ _G["weapons_table"]["aircraft_gunpods"]["{GPU_5_POD}"] = {
 					name = "GunTrigger"
 				}
 			},
-			muzzle_pos = { 2.2, -0.355, 0 },
-			muzzle_pos_connector = "Gun_point",
+			muzzle_pos = { 0, 0, 0 },
+			muzzle_pos_connector = "PNT_MUZZLE",
 			name = "GAU-13",
 			short_name = "GAU-13",
 			smoke_dir = { 0, -1, -0.2 },

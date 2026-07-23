@@ -164,6 +164,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			role_display_name = "Copilot"
 		} },
 	detection_range_max = 0,
+	encyclopedia_hidden = true,
 	engine_data = {
 		SFC_k = { 0, -0.000326, 0.63 },
 		power_RPM_k = { -0.08639, 0.24277, 0.84175 },

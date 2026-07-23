@@ -83,14 +83,14 @@ _G["launcher"]["{HB_F4E_CBU-2/A}"] = {
 			ShapeName = "HB_F-4E_EXT_BLU3B_unarmed",
 			connector_name = "tube_2"
 		} },
-	Picture = "suu-1a.png",
+	Picture = "Picto_CBU-1-2.png",
 	Weight = 338.16644376,
 	Weight_Empty = 54.884632,
 	_file = "./CoreMods/aircraft/F-4E/Entry/Weapons.lua",
 	_origin = "F-4E AI by Heatblur Simulations",
 	attribute = { 4, 5, 32, "Redacted" },
 	category = 1,
-	displayName = "HB_F4E_CBU-2/A pod - 19 x tubes of Bomblets BLU-3B x 19, HE",
+	displayName = "CBU-2/A pod - 19 x tubes of Bomblets BLU-3B x 19, HE",
 	name = "HB_ORD_SUU_7",
 	wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
 }

@@ -16,7 +16,7 @@ _G["launcher"]["LAU_117_TGM_65D"] = {
 	adapter_type = { 4, 15, 47, "Redacted" },
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
-	displayName = "LAU-117 with TGM-65D - Trg Round for Mav D (IIR)",
+	displayName = "LAU-117 - TGM-65D - Trg Round for Mav D (IIR)",
 	name = "LAU-117",
 	wsTypeOfWeapon = { 4, 4, 101, "Redacted" }
 }

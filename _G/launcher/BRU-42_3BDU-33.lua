@@ -18,6 +18,6 @@ _G["launcher"]["BRU-42_3*BDU-33"] = {
 	Weight = 90.15,
 	_file = "Scripts/Database/db_weapons_data.lua",
 	attribute = { 4, 5, 32, "Redacted" },
-	displayName = "BRU-42 with 3 x BDU-33 - 25lb Practice Bombs LD",
+	displayName = "BRU-42 - 3 x BDU-33 - 25lb Practice Bomb LD",
 	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
 }

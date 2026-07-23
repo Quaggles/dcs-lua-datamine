@@ -126,6 +126,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		offset = { 0.02, 0, 0 }
 	},
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = {
+			[0] = 0.255
+		}
+	},
 	mapclasskey = "P0091000004",
 	sensor = {
 		height = 2.3

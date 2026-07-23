@@ -73,8 +73,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	driverViewConnectorName = "DRIVER_POINT",
 	enablePlayerCanDrive = true,
 	encyclopediaAnimation = {
-		args = { 0.522,
-			[0] = 0.129,
+		args = { 0.4,
+			[0] = 0.225,
 			[3] = 1
 		}
 	},

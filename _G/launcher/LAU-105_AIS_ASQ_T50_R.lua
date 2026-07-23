@@ -18,7 +18,7 @@ _G["launcher"]["LAU-105_AIS_ASQ_T50_R"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 6,
-	displayName = "LAU-105 with 1 x AN/ASQ-T50 TCTS Pod - ACMI Pod",
+	displayName = "LAU-105 - 1 x AN/ASQ-T50 TCTS Pod - ACMI Pod",
 	name = "lau-105",
 	wsTypeOfWeapon = { 4, 15, 47, "Redacted" }
 }

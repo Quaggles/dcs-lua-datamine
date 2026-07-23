@@ -1,0 +1,33 @@
+_G["launcher"]["{LAU-7 wtip - AIM-9L}"] = {
+	CLSID = "{LAU-7 wtip - AIM-9L}",
+	Count = 1,
+	Cx_pil = 0.0006298828125,
+	Elements = { {
+			ShapeName = "AIM-9L"
+		} },
+	Picture = "us_AIM-9L.png",
+	Weight = 85.73,
+	_file = "./CoreMods/aircraft/F14/Entry/Weapons.lua",
+	_origin = "F-14B AI by Heatblur Simulations",
+	attribute = "weapons.missiles.AIM-9L",
+	category = 4,
+	displayName = "LAU-7 AIM-9L",
+	settings = { {
+			baseDim = "",
+			control = "comboList",
+			defValue = 0.1,
+			id = "NFP_VIS_DrawArgNo_57",
+			label = "Body Color",
+			stringIndex = 1,
+			values = { {
+					dispName = "White",
+					id = 0
+				}, {
+					dispName = "Grey",
+					id = 0.1
+				} },
+			wCtrl = 80,
+			xCtrl = 200,
+			xLbl = 10
+		} }
+}

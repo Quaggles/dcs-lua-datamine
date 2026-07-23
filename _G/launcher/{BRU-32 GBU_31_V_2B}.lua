@@ -1,14 +1,14 @@
 _G["launcher"]["{BRU-32 GBU_31_V_2B}"] = {
 	CLSID = "{BRU-32 GBU_31_V_2B}",
 	Count = 1,
-	Cx_item = 0.00264,
-	Cx_pil = 2e-05,
+	Cx_item = 0.0010172526041667,
+	Cx_pil = 0.001220703125,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "HB_F14_EXT_BRU34"
 		}, {
 			ShapeName = "GBU-31",
-			connector_name = "WEP_BRU-34_MK82"
+			connector_name = "WEP_BRU-34_MK84"
 		} },
 	Picture = "GBU31.png",
 	Weight = 991.38,
@@ -310,5 +310,5 @@ _G["launcher"]["{BRU-32 GBU_31_V_2B}"] = {
 			xCtrl = 200,
 			xLbl = 10
 		} },
-	wsTypeOfWeapon = { 4, 5, 36, "Redacted" }
+	wsTypeOfWeapon = "weapons.bombs.GBU_31_V_2B"
 }

@@ -1,14 +1,14 @@
 _G["launcher"]["{BRU-32 GBU_31_V_4B}"] = {
 	CLSID = "{BRU-32 GBU_31_V_4B}",
 	Count = 1,
-	Cx_item = 0.00264,
-	Cx_pil = 2e-05,
+	Cx_item = 0.0010172526041667,
+	Cx_pil = 0.001220703125,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "HB_F14_EXT_BRU34"
 		}, {
 			ShapeName = "GBU31_V_3B_BLU109",
-			connector_name = "WEP_BRU-34_MK82"
+			connector_name = "WEP_BRU-34_MK84"
 		} },
 	Picture = "GBU-31V3B.png",
 	Weight = 1027.38,
@@ -22,13 +22,13 @@ _G["launcher"]["{BRU-32 GBU_31_V_4B}"] = {
 	settings = { {
 			baseDim = "",
 			control = "comboList",
-			defValue = "FMU139CB_LD",
+			defValue = "FMU143",
 			id = "NFP_fuze_type_tail",
 			label = "Tail Fuze Well",
 			stringIndex = 1,
 			values = { {
-					dispName = "FMU-139",
-					id = "FMU139CB_LD",
+					dispName = "FMU-143",
+					id = "FMU143",
 					secondaryParams = {
 						addDef = {
 							ID = "NFP_VIS_DrawArgNo_55",
@@ -52,39 +52,27 @@ _G["launcher"]["{BRU-32 GBU_31_V_4B}"] = {
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
-					value = "FMU139CB_LD"
+					value = "FMU143"
 				} },
 			baseDim = "s",
 			control = "comboList",
-			defValue = 4,
+			defValue = 5.5,
 			dimension = "s",
-			id = "01_prfx_arm_delay_ctrl_FMU139CB_LD",
+			id = "01_prfx_arm_delay_ctrl_FMU143",
 			label = "Arm Delay",
 			nLocDim = "s",
 			stringIndex = 2,
 			values = { {
-					dispName = 4,
-					id = 4,
+					dispName = 5.5,
+					id = 5.5,
 					units = "s"
 				}, {
-					dispName = 6,
-					id = 6,
+					dispName = 12,
+					id = 12,
 					units = "s"
 				}, {
-					dispName = 7,
-					id = 7,
-					units = "s"
-				}, {
-					dispName = 10,
-					id = 10,
-					units = "s"
-				}, {
-					dispName = 14,
-					id = 14,
-					units = "s"
-				}, {
-					dispName = 20,
-					id = 20,
+					dispName = 21,
+					id = 21,
 					units = "s"
 				} },
 			wCtrl = 60,
@@ -142,32 +130,24 @@ _G["launcher"]["{BRU-32 GBU_31_V_4B}"] = {
 		}, {
 			VisibilityCondition = { {
 					id = "NFP_fuze_type_tail",
-					value = "FMU139CB_LD"
+					value = "FMU143"
 				} },
-			baseDim = "s",
+			baseDim = "",
 			control = "comboList",
-			defValue = 0,
-			dimension = "s",
-			id = "01_prfx_function_delay_ctrl_FMU139CB_LD",
+			defValue = 0.03,
+			dimension = "",
+			id = "01_prfx_function_delay_ctrl_FMU143",
 			label = "Function Delay",
-			nLocDim = "s",
 			stringIndex = 2,
 			values = { {
-					dispName = 0,
-					id = 0,
-					units = "s"
+					dispName = "30 ms",
+					id = 0.03
 				}, {
-					dispName = 0.01,
-					id = 0.01,
-					units = "s"
+					dispName = "60 ms",
+					id = 0.06
 				}, {
-					dispName = 0.025,
-					id = 0.025,
-					units = "s"
-				}, {
-					dispName = 0.06,
-					id = 0.06,
-					units = "s"
+					dispName = "120 ms",
+					id = 0.12
 				} },
 			wCtrl = 60,
 			xCtrl = 500,
@@ -227,5 +207,5 @@ _G["launcher"]["{BRU-32 GBU_31_V_4B}"] = {
 			xCtrl = 200,
 			xLbl = 10
 		} },
-	wsTypeOfWeapon = { 4, 5, 36, "Redacted" }
+	wsTypeOfWeapon = "weapons.bombs.GBU_31_V_4B"
 }

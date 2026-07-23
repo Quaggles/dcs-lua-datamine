@@ -1549,7 +1549,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			canopy_args = { 38, 0.5, 43, 5, 44, 5, 45, 0.5, 459, 10, 460, 1, 457, 0.1, 458, 0.1, 453, 0.5, 454, 0.5, 146, 1 },
 			ejection_seat_name = 0,
 			pilot_body_arg = 0,
-			pos = { -0.121463, 0.19, -1.39 },
+			pos = { 0.51, 0, -0.898 },
 			role = "gunner",
 			role_display_name = "Left Gunner"
 		}, {
@@ -1559,7 +1559,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			canopy_args = { 38, 0.5, 43, 5, 44, 5, 45, 0.5, 459, 1, 460, 10, 457, 0.1, 458, 0.1, 453, 0.5, 454, 0.5, 146, 1 },
 			ejection_seat_name = 0,
 			pilot_body_arg = 0,
-			pos = { -0.121463, 0.19, 1.39 },
+			pos = { 0.51, 0, 0.898 },
 			role = "gunner",
 			role_display_name = "Right Gunner"
 		} },

@@ -132,9 +132,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	enablePlayerCanDrive = true,
 	encyclopediaAnimation = {
 		args = {
+			[0] = 0.225,
 			[3] = 1,
 			[4] = 1,
-			[5] = 1
+			[5] = 1,
+			[9] = 1
 		}
 	},
 	mapclasskey = "P0091000204",

@@ -1,8 +1,8 @@
 _G["launcher"]["{BRU-32 MK-84}"] = {
 	CLSID = "{BRU-32 MK-84}",
 	Count = 1,
-	Cx_item = 0.00056,
-	Cx_pil = 2e-05,
+	Cx_item = 0.00081380208333333,
+	Cx_pil = 0.0010172526041667,
 	Elements = { "_G/Pylons/HB_F14_EXT_BRU34.lua", {
 			DrawArgs = { { 19, 0 }, { 56, 0 }, { 57, 1 } },
 			ShapeName = "MK-84",

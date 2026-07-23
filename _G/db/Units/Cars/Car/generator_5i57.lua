@@ -29,6 +29,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000004",
+	maxDeviationPitch = 0.05235987755983,
+	maxDeviationRoll = 0.05235987755983,
 	shape_table_data = { {
 			classname = "lLandVehicle",
 			desrt = "generator_5i57_p_1",

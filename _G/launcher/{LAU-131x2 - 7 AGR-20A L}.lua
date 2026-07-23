@@ -1,10 +1,10 @@
 _G["launcher"]["{LAU-131x2 - 7 AGR-20A L}"] = {
 	CLSID = "{LAU-131x2 - 7 AGR-20A L}",
 	Count = 14,
-	Cx_pil = 0.0034296875,
+	Cx_pil = 0.00537109375,
 	Elements = { {
 			IsAdapter = true,
-			ShapeName = "BRU-42_LS"
+			ShapeName = "BRU_42A"
 		}, {
 			connector_name = "Point01",
 			payload_CLSID = "{LAU-131 - 7 AGR-20A}"
@@ -20,7 +20,7 @@ _G["launcher"]["{LAU-131x2 - 7 AGR-20A L}"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "BRU-42: 2 x LAU-131 - 7 x Laser Guided Rkts, 70 mm Hydra 70 M151 HE APKWS",
-	name = "BRU-42_LS",
+	name = "BRU_42A",
 	settings = { {
 			control = "laserCode",
 			defValue = 1688,

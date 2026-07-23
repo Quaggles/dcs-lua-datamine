@@ -151,6 +151,11 @@ _G["weapons_table"]["weapons"]["missiles"]["ADM_141B"] = {
 	},
 	display_name = "ADM-141B",
 	display_name_short = "ADM-141",
+	encyclopediaAnimation = {
+		args = {
+			[25] = 1
+		}
+	},
 	mass = 180,
 	model = "ADM_141",
 	name = "ADM_141B",

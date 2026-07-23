@@ -1,6 +1,7 @@
 _G["launcher"]["{SHOULDER AIM_54A_Mk47 R}"] = {
 	CLSID = "{SHOULDER AIM_54A_Mk47 R}",
 	Count = 1,
+	Cx_item = 0.001220703125,
 	Cx_pil = 0.00152587890625,
 	Elements = { {
 			IsAdapter = true,

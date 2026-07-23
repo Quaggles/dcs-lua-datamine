@@ -2210,6 +2210,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		} },
 	country_of_origin = "RUS",
 	crew_members = { {
+			bailout_arg = -1,
 			canopy_pos = { 4.338, 1.188, 0 },
 			drop_canopy_name = 348,
 			ejection_seat_name = 347,
@@ -2367,7 +2368,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			} }
 	},
 	moment_of_inertia = { 31500, 165000, 130870 },
-	net_animation = { 39, 99, 533, 459, 500, 501, 502, 503, 504, 505, 395, 396, 420, 507, 508, 509, 530, 531, 532, 534, 535, 536, 306, 307 },
+	net_animation = { 39, 99, 533, 459, 500, 501, 502, 503, 504, 505, 395, 396, 420, 507, 508, 509, 530, 531, 532, 534, 535, 536, 306, 307, 620, 621 },
 	nose_gear_amortizer_direct_stroke = 0,
 	nose_gear_amortizer_normal_weight_stroke = -0.07,
 	nose_gear_amortizer_reversal_stroke = -0.35,

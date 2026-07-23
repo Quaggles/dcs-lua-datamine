@@ -19,7 +19,7 @@ _G["launcher"]["{LAU-7_AIM-9M_Right}"] = {
 	_origin = "F-4E AI by Heatblur Simulations",
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 4,
-	displayName = "2x AIM-9M",
+	displayName = "2x AIM-9M Sidewinder IR AAM",
 	name = "F4E_dual_LAU7",
 	wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 }

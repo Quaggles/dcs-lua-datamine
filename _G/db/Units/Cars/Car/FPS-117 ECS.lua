@@ -24,13 +24,16 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	chassis = {},
 	enablePlayerCanDrive = false,
 	mapclasskey = "P0091000046",
+	maxDeviationPitch = 0.087266462599716,
+	maxDeviationRoll = 0.087266462599716,
+	positioning = "ONLYHEIGTH",
 	shape_table_data = { {
 			classname = "lLandVehicle",
 			desrt = "ewr_fps117radar_shelter_p_1",
 			file = "ewr_fps117radar_shelter",
 			life = 6,
 			name = "ewr_fps117radar_shelter",
-			positioning = "BYNORMAL",
+			positioning = "ONLYHEIGTH",
 			username = "FPS-117 ECS"
 		}, {
 			file = "ewr_fps117radar_shelter_p_1",

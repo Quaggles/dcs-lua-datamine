@@ -7,6 +7,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DetectionRange = 0,
 	DisplayName = "ATGM HMMWV",
 	DisplayNameShort = "M1045",
+	DoNotTurnToTarget = true,
 	EPLRS = true,
 	IR_emission_coeff = 0.75,
 	MaxSpeed = 113.00004,
@@ -75,6 +76,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	driverCockpit = "DriverCockpit/DriverCockpitWithLLTV",
 	driverViewConnectorName = "DRIVER_POINT",
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = {
+			[4] = 1
+		}
+	},
 	mapclasskey = "P0091000204",
 	sensor = {
 		height = 2

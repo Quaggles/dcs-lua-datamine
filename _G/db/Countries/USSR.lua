@@ -676,6 +676,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "ZSU_57_2"
 				}, {
+					Name = "GCI_station_MiG29"
+				}, {
 					Name = "AA8"
 				}, {
 					Name = "GPS_Spoofer_Red"

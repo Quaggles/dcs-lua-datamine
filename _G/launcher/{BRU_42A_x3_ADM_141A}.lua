@@ -2,7 +2,10 @@ _G["launcher"]["{BRU_42A_x3_ADM_141A}"] = {
 	CLSID = "{BRU_42A_x3_ADM_141A}",
 	Count = 3,
 	Cx_pil = 0.00830078125,
-	Elements = { "_G/Pylons/BRU_42A.lua", {
+	Elements = { {
+			IsAdapter = true,
+			ShapeName = "BRU_42A"
+		}, {
 			connector_name = "Point01",
 			payload_CLSID = "{ADM_141A}"
 		}, {
@@ -18,7 +21,7 @@ _G["launcher"]["{BRU_42A_x3_ADM_141A}"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 2,
-	displayName = "BRU-42 with 3 x ADM-141A TALD",
+	displayName = "BRU-42 - 3 x ADM-141A TALD",
 	name = "BRU_42A",
 	wsTypeOfWeapon = { 4, 4, 8, "Redacted" }
 }

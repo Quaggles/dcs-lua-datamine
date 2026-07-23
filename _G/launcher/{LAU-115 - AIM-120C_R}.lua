@@ -17,7 +17,7 @@ _G["launcher"]["{LAU-115 - AIM-120C_R}"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 4,
-	displayName = "LAU-115 with 1 x LAU-127 AIM-120C AMRAAM - Active Radar AAM",
+	displayName = "LAU-115: 2 x LAU-127 - 1 x AIM-120C AMRAAM - Active Radar AAM",
 	name = "LAU-115C+2_LAU127",
 	wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 }

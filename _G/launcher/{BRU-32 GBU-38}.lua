@@ -1,8 +1,8 @@
 _G["launcher"]["{BRU-32 GBU-38}"] = {
 	CLSID = "{BRU-32 GBU-38}",
 	Count = 1,
-	Cx_item = 0.000569,
-	Cx_pil = 2e-05,
+	Cx_item = 0.00050862630208333,
+	Cx_pil = 0.00071207682291667,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "HB_F14_EXT_BRU34"
@@ -298,11 +298,14 @@ _G["launcher"]["{BRU-32 GBU-38}"] = {
 		}, {
 			baseDim = "",
 			control = "comboList",
-			defValue = 1,
+			defValue = 0,
 			id = "NFP_VIS_DrawArgNo_57",
 			label = "Appearance",
 			stringIndex = 5,
 			values = { {
+					dispName = "USAF",
+					id = 0
+				}, {
 					dispName = "USN",
 					id = 1
 				} },

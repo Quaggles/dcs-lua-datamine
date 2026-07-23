@@ -48,7 +48,13 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							shell_name = {}
 						} },
 					beamWidth = 0.017453292519943,
-					sensor = {},
+					sensor = {
+						Tau = 3.8,
+						deviation_error_distance = 0.002,
+						deviation_error_distance_air = 0.008,
+						deviation_error_speed_sensor_air = 0.4,
+						deviation_error_stability_air = 0.04
+					},
 					sightIndicationMode = 1,
 					sightMasterMode = 1
 				}, {
@@ -61,7 +67,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						} },
 					beamWidth = 0.017453292519943,
 					fireAnimationArgument = 45,
-					sensor = {},
+					sensor = {
+						deviation_error_distance_air = 0.008,
+						deviation_error_speed_sensor_air = 0.4,
+						deviation_error_stability_air = 0.04
+					},
 					sightIndicationMode = 3,
 					sightMasterMode = 1
 				}, {
@@ -118,6 +128,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		offset = { 0.04, 0.02, 0 }
 	},
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = { 0,
+			[0] = 0,
+			[3] = 0
+		}
+	},
 	mapclasskey = "P0091000002",
 	sensor = {
 		height = 2.58

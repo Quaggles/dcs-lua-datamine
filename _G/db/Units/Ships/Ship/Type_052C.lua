@@ -209,253 +209,253 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							connector_name = "POINT_HHQ9_1_1",
 							recoilArgument = 183,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_1_2",
 							recoilArgument = 188,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_1_3",
 							recoilArgument = 187,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_1_4",
 							recoilArgument = 186,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_1_5",
 							recoilArgument = 185,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_1_6",
 							recoilArgument = 184,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_1_7",
 							recoilArgument = 195,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_1_8",
 							recoilArgument = 200,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_1_9",
 							recoilArgument = 199,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_1_10",
 							recoilArgument = 198,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_1_11",
 							recoilArgument = 197,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_1_12",
 							recoilArgument = 196,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_2_1",
 							recoilArgument = 177,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_2_2",
 							recoilArgument = 182,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_2_3",
 							recoilArgument = 181,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_2_4",
 							recoilArgument = 180,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_2_5",
 							recoilArgument = 179,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_2_6",
 							recoilArgument = 178,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_2_7",
 							recoilArgument = 189,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_2_8",
 							recoilArgument = 194,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_2_9",
 							recoilArgument = 193,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_2_10",
 							recoilArgument = 192,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_2_11",
 							recoilArgument = 191,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_2_12",
 							recoilArgument = 190,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_1_13",
 							recoilArgument = 207,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_1_14",
 							recoilArgument = 212,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_1_15",
 							recoilArgument = 211,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_1_16",
 							recoilArgument = 210,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_1_17",
 							recoilArgument = 209,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_1_18",
 							recoilArgument = 208,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_2_13",
 							recoilArgument = 201,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_2_14",
 							recoilArgument = 206,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_2_15",
 							recoilArgument = 205,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_2_16",
 							recoilArgument = 204,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_2_17",
 							recoilArgument = 203,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_2_18",
 							recoilArgument = 202,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						} },
 					PL = { {
@@ -491,85 +491,85 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							connector_name = "POINT_HHQ9_3_1",
 							recoilArgument = 213,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_3_2",
 							recoilArgument = 218,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_3_3",
 							recoilArgument = 217,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_3_4",
 							recoilArgument = 216,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_3_5",
 							recoilArgument = 215,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_3_6",
 							recoilArgument = 214,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_4_1",
 							recoilArgument = 219,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_4_2",
 							recoilArgument = 224,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_4_3",
 							recoilArgument = 223,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_4_4",
 							recoilArgument = 222,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_4_5",
 							recoilArgument = 221,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_HHQ9_4_6",
 							recoilArgument = 220,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						} },
 					PL = { {
@@ -675,29 +675,29 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							connector_name = "POINT_ASM_1_1",
 							recoilArgument = 225,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_ASM_1_2",
 							recoilArgument = 226,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_ASM_1_3",
 							recoilArgument = 227,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_ASM_1_4",
 							recoilArgument = 228,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						} },
 					PL = { {
@@ -733,29 +733,29 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							connector_name = "POINT_ASM_2_1",
 							recoilArgument = 229,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_ASM_2_2",
 							recoilArgument = 230,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_ASM_2_3",
 							recoilArgument = 231,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						}, {
 							connector_name = "POINT_ASM_2_4",
 							recoilArgument = 232,
 							recoilT0 = -2,
-							recoilT1 = -0.5,
-							recoilT2 = 0.5,
+							recoilT1 = -1,
+							recoilT2 = 1,
 							recoilTime = 2
 						} },
 					PL = { {

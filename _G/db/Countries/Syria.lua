@@ -518,8 +518,6 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "RD_75"
 				}, {
-					Name = "GPS_Spoofer_Red"
-				}, {
 					Name = "ES44AH"
 				}, {
 					Name = "Boxcartrinity"

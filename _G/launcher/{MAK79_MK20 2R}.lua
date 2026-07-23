@@ -1,7 +1,7 @@
 _G["launcher"]["{MAK79_MK20 2R}"] = {
 	CLSID = "{MAK79_MK20 2R}",
 	Count = 2,
-	Cx_pil = 5e-05,
+	Cx_pil = 0.000836,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "MAK-79_VAR_4"

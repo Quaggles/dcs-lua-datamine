@@ -289,6 +289,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		}
 	},
 	mapclasskey = "P0091000083",
+	maxDeviationPitch = 0.034906585039887,
+	maxDeviationRoll = 0.034906585039887,
 	radar_rotation_period = 3,
 	sensor = {
 		height = 5.841,

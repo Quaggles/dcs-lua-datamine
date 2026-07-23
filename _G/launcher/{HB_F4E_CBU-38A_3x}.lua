@@ -1,0 +1,37 @@
+_G["launcher"]["{HB_F4E_CBU-38A_3x}"] = {
+	CLSID = "{HB_F4E_CBU-38A_3x}",
+	Count = 3,
+	Cx_pil = 0.00484,
+	Elements = { {
+			IsAdapter = true,
+			Position = { 0, 0, 0 },
+			ShapeName = "HB_F-4E_BRU-42"
+		}, {
+			DrawArgs = { { 1, 1 }, { 2, 1 } },
+			ShapeName = "CBU-38A",
+			connector_name = "BRU-42_RIGHT",
+			payload_CLSID = "{GD_F100_CBU-38/A}"
+		}, {
+			DrawArgs = { { 1, 1 }, { 2, 1 } },
+			ShapeName = "CBU-38A",
+			connector_name = "BRU-42_LEFT",
+			payload_CLSID = "{GD_F100_CBU-38/A}"
+		}, {
+			DrawArgs = { { 1, 1 }, { 2, 1 } },
+			ShapeName = "CBU-38A",
+			connector_name = "BRU-42_LOWER",
+			payload_CLSID = "{GD_F100_CBU-38/A}"
+		} },
+	Picture = "L005.png",
+	Weight = 1136.335016,
+	Weight_Empty = 352.52804,
+	_file = "./CoreMods/aircraft/F-4E/Entry/Weapons.lua",
+	_origin = "F-4E AI by Heatblur Simulations",
+	attribute = { 4, 5, 32, "Redacted" },
+	category = 6,
+	displayName = "3x CBU-38/A x 1x40 (40) BLU-49/B Bomblets, HE (TER)",
+	ejectDirection = { 0, -1, 0 },
+	ejectVelocity = 10,
+	name = "HB_F-4E_BRU-42",
+	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
+}

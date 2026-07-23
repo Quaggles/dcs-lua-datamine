@@ -81,6 +81,11 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	driverCockpit = "DriverCockpit/DriverCockpitWithLLTV",
 	driverViewPoint = { 2.22, 2.135, -0.3 },
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = {
+			[9] = 1
+		}
+	},
 	mapclasskey = "P0091000004",
 	sensor = {},
 	snd = {

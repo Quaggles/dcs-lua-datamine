@@ -6,11 +6,11 @@ _G["launcher"]["{HB_F4E_AIM-7M}"] = {
 			ShapeName = "HB_F14_EXT_AIM-7"
 		} },
 	Picture = "aim7m.png",
-	Weight = 230,
+	Weight = 231,
 	Weight_Empty = 0,
 	_file = "./CoreMods/aircraft/F-4E/Entry/Weapons.lua",
 	_origin = "F-4E AI by Heatblur Simulations",
 	attribute = { 4, 4, 7, "Redacted" },
 	category = 4,
-	displayName = "AIM-7M"
+	displayName = "AIM-7M Sparrow Semi-Active Radar"
 }

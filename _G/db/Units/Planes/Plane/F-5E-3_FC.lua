@@ -544,7 +544,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}
 			},
 			muzzle_pos = { 4.904, 0.239, -0.248 },
-			muzzle_pos_connector = "Gun_point_00",
+			muzzle_pos_connector = "LEFT_GUN_SHOT",
 			short_name = "M_39",
 			supply = {
 				count = 280,
@@ -909,7 +909,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}
 			},
 			muzzle_pos = { 4.904, 0.239, 0.242 },
-			muzzle_pos_connector = "Gun_point_01",
+			muzzle_pos_connector = "RIGHT_GUN_SHOT",
 			short_name = "M_39",
 			supply = {
 				count = 280,

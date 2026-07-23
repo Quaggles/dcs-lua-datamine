@@ -9,9 +9,8 @@ _G["launcher"]["{LAU-138 wtip - TCTS R}"] = {
 	Weight = 62.6,
 	_file = "./CoreMods/aircraft/F14/Entry/Weapons.lua",
 	_origin = "F-14B AI by Heatblur Simulations",
-	_unique_resource_name = "weapons.containers.ais-pod-t50_r",
 	attribute = { 4, 15, 47, "Redacted" },
 	category = 6,
-	displayName = "AN/ASQ-T50 TCTS Pod - ACMI Pod",
+	displayName = "LAU-138 AN/ASQ-T50 TCTS Pod - ACMI Pod",
 	name = "ais-pod-t50_r"
 }

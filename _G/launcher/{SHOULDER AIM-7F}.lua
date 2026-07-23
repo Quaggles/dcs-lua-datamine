@@ -12,7 +12,7 @@ _G["launcher"]["{SHOULDER AIM-7F}"] = {
 		} },
 	JettisonSubmunitionOnly = true,
 	Picture = "aim7_r.png",
-	Weight = 284.4,
+	Weight = 285.4,
 	_file = "./CoreMods/aircraft/F14/Entry/Weapons.lua",
 	_origin = "F-14B AI by Heatblur Simulations",
 	attribute = { 4, 4, 32, "Redacted" },

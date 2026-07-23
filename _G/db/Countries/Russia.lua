@@ -860,6 +860,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "ZSU_57_2"
 				}, {
+					Name = "GCI_station_MiG29"
+				}, {
 					Name = "GPS_Spoofer_Red"
 				}, {
 					Name = "rsbn_beacon"

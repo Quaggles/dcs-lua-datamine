@@ -80,8 +80,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	},
 	enablePlayerCanDrive = true,
 	encyclopediaAnimation = {
-		args = { 0.317,
-			[0] = 0.333,
+		args = { 0.32,
+			[0] = 0.33,
 			[3] = 1
 		}
 	},

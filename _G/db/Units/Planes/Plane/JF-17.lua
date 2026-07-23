@@ -35,6 +35,160 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			label = "Remove AAR Probe",
 			playerOnly = true,
 			weight = -20
+		}, {
+			control = "comboList",
+			defValue = 1,
+			id = "EW_Database_Target1",
+			label = "EW Target I",
+			values = <1>{ {
+					dispName = "Unselect",
+					id = 1
+				}, {
+					dispName = "SAM SA-10 30N6 - Flap Lid",
+					id = 2
+				}, {
+					dispName = "SAM SA-10 30N6E - Flap Lid",
+					id = 3
+				}, {
+					dispName = "SAM SA-10 64N6E - Big Bird",
+					id = 4
+				}, {
+					dispName = "SAM SA-10 5N66M - Clam Shell",
+					id = 5
+				}, {
+					dispName = "SAM SA-10 19J6 - Tin Shield",
+					id = 6
+				}, {
+					dispName = "SAM SA-11 'Gadfly' - Fire Dome",
+					id = 7
+				}, {
+					dispName = "SAM SA-11 'Gadfly' - Snow Drift",
+					id = 8
+				}, {
+					dispName = "SAM SA-15 M1",
+					id = 9
+				}, {
+					dispName = "SAM SA-15 M2",
+					id = 10
+				}, {
+					dispName = "SAM SA-22 'Greyhound'",
+					id = 11
+				}, {
+					dispName = "SAM SA-19 'Grison'",
+					id = 12
+				}, {
+					dispName = "SAM SA-6 'Gainful'",
+					id = 13
+				}, {
+					dispName = "SAM SA-8 9A33",
+					id = 14
+				}, {
+					dispName = "SAM Patriot - MPQ-53",
+					id = 15
+				}, {
+					dispName = "SAM SA-2 'Guideline' - Fan Song",
+					id = 16
+				}, {
+					dispName = "SAM SA-2 'Guideline' - RD-75",
+					id = 17
+				}, {
+					dispName = "SAM SA-3 'Goa' - Low Blow",
+					id = 18
+				}, {
+					dispName = "SAM SA-2/3/5 - Flat Face",
+					id = 19
+				}, {
+					dispName = "SAM Hawk - MPQ-46",
+					id = 20
+				}, {
+					dispName = "SAM Hawk - MPQ-50",
+					id = 21
+				}, {
+					dispName = "SAM Hawk - MPQ-55",
+					id = 22
+				}, {
+					dispName = "SAM SA-13 'Gopher'",
+					id = 23
+				}, {
+					dispName = "SAM SA-5 'Gammon' - Square Pair",
+					id = 24
+				}, {
+					dispName = "SAM SA-5 - Tin Shield",
+					id = 25
+				}, {
+					dispName = "SAM HQ-7",
+					id = 26
+				}, {
+					dispName = "SAM HQ-7 - ACU",
+					id = 27
+				}, {
+					dispName = "SAM NASAMS - MPQ-64",
+					id = 28
+				}, {
+					dispName = "SAM IRIS-T - TRML-4D",
+					id = 29
+				}, {
+					dispName = "MCC Sborka - Dog Ear",
+					id = 30
+				}, {
+					dispName = "EWR 1L13",
+					id = 31
+				}, {
+					dispName = "EWR 55G6",
+					id = 32
+				}, {
+					dispName = "EWR AN/FPS-117",
+					id = 33
+				}, {
+					dispName = "SAM Rapier - Blindfire",
+					id = 34
+				}, {
+					dispName = "SAM Rapier",
+					id = 35
+				}, {
+					dispName = "SAM Roland - EWR",
+					id = 36
+				}, {
+					dispName = "SAM Roland ADS",
+					id = 37
+				}, {
+					dispName = "LPWS C-RAM",
+					id = 38
+				}, {
+					dispName = "SPAAA Gepard",
+					id = 39
+				}, {
+					dispName = "SPAAA ZSU-23-4 - Gun Dish",
+					id = 40
+				}, {
+					dispName = "SPAAA Vulcan",
+					id = 41
+				}, {
+					dispName = "AAA SON-9 - Fire Can",
+					id = 42
+				} },
+			wCtrl = 150
+		}, {
+			control = "comboList",
+			defValue = 1,
+			id = "EW_Database_Target2",
+			label = "EW Target II",
+			values = <table 1>,
+			wCtrl = 150
+		}, {
+			control = "comboList",
+			defValue = 1,
+			id = "EW_Database_Target3",
+			label = "EW Target III",
+			values = <table 1>,
+			wCtrl = 150
+		}, {
+			control = "comboList",
+			defValue = 1,
+			id = "EW_Database_Target4",
+			label = "EW Target IV",
+			values = <table 1>,
+			wCtrl = 150
 		} },
 	AmmoWeight = 79.2,
 	CAS_min = 58,
@@ -352,7 +506,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}
 	},
 	DamageParts = { "JF-17-oblomok-wing-L", "JF-17-oblomok-wing-R", "JF-17-oblomok-L-part", "JF-17-oblomok-R-part" },
-	DefaultTask = <1>{
+	DefaultTask = <2>{
 		Name = "CAP",
 		OldID = "CAP",
 		WorldID = 11
@@ -2413,7 +2567,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						payload = 0.032305704264353,
 						payload_type = 0,
 						piercing_mass = 0.035,
-						rebound_concrete = <2>{
+						rebound_concrete = <3>{
 							angle0 = 50,
 							angle100 = 75,
 							cx_factor = 5,
@@ -2427,7 +2581,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							deviation_angle = 30,
 							velocity_loss_factor = 0.5
 						},
-						rebound_object = <table 2>,
+						rebound_object = <table 3>,
 						rebound_water = {
 							angle0 = 65,
 							angle100 = 83,
@@ -2463,11 +2617,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				["A-10A"] = {
 					enable_options_key_for_unit = "a10a_enabled"
 				},
-				["A-10C"] = <3>{
+				["A-10C"] = <4>{
 					enable_options_key_for_unit = "disabled"
 				},
-				["A-10C_2"] = <table 3>,
-				["AH-64D_BLK_II"] = <table 3>,
+				["A-10C_2"] = <table 4>,
+				["AH-64D_BLK_II"] = <table 4>,
 				AJS37 = {
 					enable_options_key_for_unit = "ajs37_enabled"
 				},
@@ -2483,7 +2637,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				["C-101EB"] = {
 					enable_options_key_for_unit = "c101eb_common_enabled"
 				},
-				["CH-47Fbl1"] = <table 3>,
+				["CH-47Fbl1"] = <table 4>,
 				["Christen Eagle II"] = {
 					enable_options_key_for_unit = "CE_II_enabled"
 				},
@@ -2493,14 +2647,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				["F-15C"] = {
 					enable_options_key_for_unit = "f15c_enabled"
 				},
-				["F-16C_50"] = <table 3>,
+				["F-16C_50"] = <table 4>,
 				["F-5E-3"] = {
 					enable_options_key_for_unit = "f5e3_enabled"
 				},
 				["F-86F Sabre"] = {
 					enable_options_key_for_unit = "f86f_enabled"
 				},
-				["FA-18C_hornet"] = <table 3>,
+				["FA-18C_hornet"] = <table 4>,
 				["FW-190D9"] = {
 					enable_options_key_for_unit = "fw190d9_enabled"
 				},
@@ -2513,8 +2667,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				["JF-17"] = {
 					enable_options_key_for_unit = "jf17_enabled"
 				},
-				["Ka-50"] = <table 3>,
-				["Ka-50_3"] = <table 3>,
+				["Ka-50"] = <table 4>,
+				["Ka-50_3"] = <table 4>,
 				["L-39C"] = {
 					enable_options_key_for_unit = "l39c_common_enabled"
 				},
@@ -3428,7 +3582,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			Name = "Intercept",
 			OldID = "Intercept",
 			WorldID = 10
-		}, <table 1>, {
+		}, <table 2>, {
 			Name = "AFAC",
 			OldID = "AFAC",
 			WorldID = 16

@@ -194,6 +194,11 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_12B"] = {
 	},
 	display_name = "AGM-12B",
 	display_name_short = "AGM-12B",
+	encyclopediaAnimation = {
+		args = {
+			[2] = 1
+		}
+	},
 	mass = 263,
 	model = "HB_F-4E_EXT_AGM12B",
 	name = "AGM_12B",

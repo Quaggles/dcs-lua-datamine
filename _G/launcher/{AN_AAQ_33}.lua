@@ -9,7 +9,7 @@ _G["launcher"]["{AN_AAQ_33}"] = {
 	Sensors = {
 		OPTIC = { "Sniper XR FLIR", "Sniper XR CCD TV" }
 	},
-	Weight = 290,
+	Weight = 194.13753436,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/targeting_pods.lua",
 	_origin = "AircraftWeaponPack",
 	_unique_resource_name = "weapons.containers.AN_AAQ_33",

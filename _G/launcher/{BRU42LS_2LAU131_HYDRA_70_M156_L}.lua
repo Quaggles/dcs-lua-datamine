@@ -1,15 +1,15 @@
 _G["launcher"]["{BRU42LS_2*LAU131_HYDRA_70_M156_L}"] = {
 	CLSID = "{BRU42LS_2*LAU131_HYDRA_70_M156_L}",
 	Count = 14,
-	Cx_pil = 0.0034296875,
+	Cx_pil = 0.00537109375,
 	Elements = { {
 			IsAdapter = true,
-			ShapeName = "BRU-42_LS"
+			ShapeName = "BRU_42A"
 		}, {
 			connector_name = "Point01",
 			payload_CLSID = "{2AF2EC3F-9065-4de5-93E1-1739C9A71EF7}"
 		}, {
-			connector_name = "Point03",
+			connector_name = "Point02",
 			payload_CLSID = "{2AF2EC3F-9065-4de5-93E1-1739C9A71EF7}"
 		} },
 	Picture = "LAU131.png",
@@ -20,7 +20,7 @@ _G["launcher"]["{BRU42LS_2*LAU131_HYDRA_70_M156_L}"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "BRU-42: 2 x LAU-131 - 7 x UnGd Rkts, 70 mm Hydra 70 M156 SM",
-	name = "BRU-42_LS",
+	name = "BRU_42A",
 	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

@@ -753,148 +753,480 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	DisplayName = "CH-47F",
 	EmptyWeight = 11400,
 	Failures = { {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "CTRL_ACS_FAILURE",
+			label = "Failure.CH47.CTRL_DUAL_FCC_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "ELEC_FADEC1_PRI_CIRCUIT_FAILURE",
+			label = "Failure.CH47.ELEC_FADEC1_PRI_CIRCUIT_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "ELEC_FADEC1_REV_CIRCUIT_FAILURE",
+			label = "Failure.CH47.ELEC_FADEC1_REV_CIRCUIT_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "ELEC_FADEC2_PRI_CIRCUIT_FAILURE",
+			label = "Failure.CH47.ELEC_FADEC2_PRI_CIRCUIT_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "ELEC_FADEC2_REV_CIRCUIT_FAILURE",
+			label = "Failure.CH47.ELEC_FADEC2_REV_CIRCUIT_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "FUEL_LEVEL_SENDER_0_FAILURE",
-			label = "Failure.CH47.FUEL_SENDER0_(LH_FORE_AUX)_FAILURE"
+			label = "Fuel level sender (LH Forward Auxiliary) failure",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "FUEL_LEVEL_SENDER_1_FAILURE",
-			label = "Failure.CH47.FUEL_SENDER1_(LH_MAIN_1)_FAILURE"
+			label = "Fuel level sender (LH Main 1) failure",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "FUEL_LEVEL_SENDER_2_FAILURE",
-			label = "Failure.CH47.FUEL_SENDER2_(LH_MAIN_2)_FAILURE"
+			label = "Fuel level sender (LH Main 2) failure",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "FUEL_LEVEL_SENDER_3_FAILURE",
-			label = "Failure.CH47.FUEL_SENDER3_(LH_MAIN_3)_FAILURE"
+			label = "Fuel level sender (LH Main 3) failure",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "FUEL_LEVEL_SENDER_4_FAILURE",
-			label = "Failure.CH47.FUEL_SENDER4_(LH_AFT_AUX)_FAILURE"
+			label = "Fuel level sender (LH Aft Auxiliary) failure",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "FUEL_LEVEL_SENDER_5_FAILURE",
-			label = "Failure.CH47.FUEL_SENDER5_(RH_FORE_AUX)_FAILURE"
+			label = "Fuel level sender (RH Forward Auxiliary) failure",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "FUEL_LEVEL_SENDER_6_FAILURE",
-			label = "Failure.CH47.FUEL_SENDER6_(RH_MAIN_1)_FAILURE"
+			label = "Fuel level sender (RH Main 1) failure",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "FUEL_LEVEL_SENDER_7_FAILURE",
-			label = "Failure.CH47.FUEL_SENDER7_(RH_MAIN_2)_FAILURE"
+			label = "Fuel level sender (RH Main 2) failure",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "FUEL_LEVEL_SENDER_8_FAILURE",
-			label = "Failure.CH47.FUEL_SENDER8_(RH_MAIN_3)_FAILURE"
+			label = "Fuel level sender (RH Main 3) failure",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "FUEL_LEVEL_SENDER_9_FAILURE",
-			label = "Failure.CH47.FUEL_SENDER9_(RH_AFT_AUX)_FAILURE"
+			label = "Fuel level sender (RH Aft Auxiliary) failure",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "FUEL_LH_LOW_LEVEL_SENSOR_FAILURE",
-			label = "Failure.CH47.FUEL_LH_LOW_LEVEL_SENSOR_FAILURE"
+			label = "LH main fuel tank low level sensor failure",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "FUEL_RH_LOW_LEVEL_SENSOR_FAILURE",
-			label = "Failure.CH47.FUEL_RH_LOW_LEVEL_SENSOR_FAILURE"
+			label = "RH main fuel tank low level sensor failure",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
 			hidden = true,
 			id = "HYDR_ACCUMULATOR_LOW_AIR_PRESSURE",
-			label = "Hydro acc. low air pressure"
+			label = "Hydro acc. low air pressure",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "HYDR_FCS1_PRES_SWITCH_DISCO",
-			label = "Failure.CH47.HYDR_FCS1_PRES_SWITCH_DISCO"
+			label = "FCS No. 1 pressure switch disconnected",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "HYDR_FCS1_PRES_SWITCH_LOOSE",
-			label = "Failure.CH47.HYDR_FCS1_PRES_SWITCH_LOOSE"
+			label = "FCS No. 1 pressure switch connector loose",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "HYDR_FCS1_PRES_SWITCH_SHORT",
-			label = "Failure.CH47.HYDR_FCS1_PRES_SWITCH_SHORT"
+			label = "FCS No. 1 pressure switch loom short circuit",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "HYDR_FCS2_PRES_SWITCH_DISCO",
-			label = "Failure.CH47.HYDR_FCS2_PRES_SWITCH_DISCO"
+			label = "FCS No. 2 pressure switch disconnected",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "HYDR_FCS2_PRES_SWITCH_LOOSE",
-			label = "Failure.CH47.HYDR_FCS2_PRES_SWITCH_LOOSE"
+			label = "FCS No. 2 pressure switch connector loose",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "HYDR_FCS2_PRES_SWITCH_SHORT",
-			label = "Failure.CH47.HYDR_FCS2_PRES_SWITCH_SHORT"
+			label = "FCS No. 2 pressure switch loom short circuit",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "HYDR_UTIL_PRES_SWITCH_DISCO",
-			label = "Failure.CH47.HYDR_UTIL_PRES_SWITCH_DISCO"
+			label = "Hydraulic utility system pressure switch disconnected",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "HYDR_UTIL_PRES_SWITCH_LOOSE",
-			label = "Failure.CH47.HYDR_UTIL_PRES_SWITCH_LOOSE"
+			label = "Hydraulic utility system pressure switch connector loose",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "HYDR_UTIL_PRES_SWITCH_SHORT",
-			label = "Failure.CH47.HYDR_UTIL_PRES_SWITCH_SHORT"
+			label = "Hydraulic utility system pressure switch loom shorted",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "ENG0_DAMAGED_BEYOND_REPAIR",
+			label = "Engine No. 1 damaged beyond repair",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "ENG1_DAMAGED_BEYOND_REPAIR",
+			label = "Engine No. 2 damaged beyond repair",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "EXTE_FWD_MECHANICAL_FAILURE",
-			label = "Failure.CH47.EXTE_FWD_MECHANICAL_FAILURE"
+			label = "Forward exterior cargo hook mechanical failure",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "EXTE_CTR_MECHANICAL_FAILURE",
-			label = "Failure.CH47.EXTE_CTR_MECHANICAL_FAILURE"
+			label = "Centre exterior cargo hook mechanical failure",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "EXTE_AFT_MECHANICAL_FAILURE",
-			label = "Failure.CH47.EXTE_AFT_MECHANICAL_FAILURE"
+			label = "Aft exterior cargo hook mechanical failure",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "CDU_1_FAILURE",
-			label = "Failure.CH47.CDU_1_FAILURE"
+			label = "Failure.CH47.CDU_1_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "CDU_2_FAILURE",
-			label = "Failure.CH47.CDU_2_FAILURE"
+			label = "Failure.CH47.CDU_2_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "MFD_1_FAILURE",
-			label = "Failure.CH47.MFD_1_FAILURE"
+			label = "Failure.CH47.MFD_1_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "MFD_2_FAILURE",
-			label = "Failure.CH47.MFD_2_FAILURE"
+			label = "Failure.CH47.MFD_2_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "MFD_3_FAILURE",
-			label = "Failure.CH47.MFD_3_FAILURE"
+			label = "Failure.CH47.MFD_3_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "MFD_4_FAILURE",
-			label = "Failure.CH47.MFD_4_FAILURE"
+			label = "Failure.CH47.MFD_4_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "MFD_5_FAILURE",
-			label = "Failure.CH47.MFD_5_FAILURE"
+			label = "Failure.CH47.MFD_5_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "EGI_1_FAILURE",
-			label = "Failure.CH47.EGI_1_FAILURE"
+			label = "Failure.CH47.EGI_1_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "EGI_2_FAILURE",
-			label = "Failure.CH47.EGI_2_FAILURE"
+			label = "Failure.CH47.EGI_2_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "RALT_HOLD_FAILURE",
-			label = "Failure.CH47.RALT_HOLD_FAILURE"
+			label = "Failure.CH47.RALT_HOLD_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "ADF_TOTAL_FAILURE",
-			label = "Failure.CH47.ADF_TOTAL_FAILURE"
+			label = "Failure.CH47.ADF_TOTAL_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "ADF_DAMAGE",
-			label = "Failure.CH47.ADF_DAMAGE"
+			label = "Failure.CH47.ADF_DAMAGE",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "ADF_ANT_DAMAGE",
-			label = "Failure.CH47.ADF_ANTENNA_DAMAGE"
+			label = "Failure.CH47.ADF_ANTENNA_DAMAGE",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "VOR_ILS_TOTAL_FAILURE",
-			label = "Failure.CH47.VOR_ILS_TOTAL_FAILURE"
+			label = "Failure.CH47.VOR_ILS_TOTAL_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "VOR_ILS_ANT_DAMAGE",
-			label = "Failure.CH47.VOR_ILS_ANTENNA_DAMAGE"
+			label = "Failure.CH47.VOR_ILS_ANTENNA_DAMAGE",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "TCN_TOTAL_FAILURE",
-			label = "Failure.CH47.TACAN_TOTAL_FAILURE"
+			label = "Failure.CH47.TACAN_TOTAL_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "TCN_TRANSMITTER_FAILURE",
-			label = "Failure.CH47.TACAN_TRANSMITTER_FAILURE"
+			label = "Failure.CH47.TACAN_TRANSMITTER_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "TCN_RECEIVER_FAILURE",
-			label = "Failure.CH47.TACAN_RECEIVER_FAILURE"
+			label = "Failure.CH47.TACAN_RECEIVER_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "CHIPS_FOR_EVERYONE",
-			label = "DEBUG Initiate CHIPS annunciators"
+			label = "DEBUG Initiate CHIPS annunciators",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
 			id = "DEBRIS_FOR_EVERYONE",
-			label = "DEBUG Initiate DEBRIS annunciators"
+			label = "DEBUG Initiate DEBRIS annunciators",
+			mint = 1,
+			mm = 0,
+			prob = 100
 		}, {
 			den = true,
 			id = "EXTE_CUSTOM_FAILURE_1",
 			label = "Hydro acc. low air pressure"
 		}, {
 			id = "EXTE_CUSTOM_FAILURE_2",
-			label = "Failure.CH47.HYDR_FCS1_PRES_SWITCH_DISCO"
+			label = "FCS No. 1 pressure switch disconnected"
 		}, {
 			id = "ARC_201_FAILURE_TRANSIVER",
 			label = "Failure.CH47.ARC_201_FAILURE_TRANSIVER"
@@ -979,7 +1311,10 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 							states = { "Open", "CustomStage3", "Board" }
 						}, {
 							mechanism = "CargoBayGate0",
-							states = { "Open", "Board" }
+							states = { "Open" }
+						}, {
+							mechanism = "CargoBayGate3",
+							states = { "Open" }
 						} },
 					close = { "CargoBayGates", "Close" },
 					deploy = { "CargoBayGates", "Hang" },
@@ -991,7 +1326,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 							states = { "Open", "Hang", "Board" }
 						}, {
 							mechanism = "CargoBayGate3",
-							states = { "On" }
+							states = { "Open" }
 						} }
 				},
 				x = -6.7,

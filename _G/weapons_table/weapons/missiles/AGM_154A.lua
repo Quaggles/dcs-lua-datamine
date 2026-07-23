@@ -313,6 +313,11 @@ _G["weapons_table"]["weapons"]["missiles"]["AGM_154A"] = {
 	},
 	display_name = "AGM-154A",
 	display_name_short = "AGM-154",
+	encyclopediaAnimation = {
+		args = {
+			[25] = 1
+		}
+	},
 	mass = 485,
 	model = "agm-154",
 	name = "AGM_154A",

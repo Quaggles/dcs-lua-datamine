@@ -87,7 +87,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	defaultStartAlarmState = 2,
 	enablePlayerCanDrive = false,
 	encyclopediaAnimation = {
-		args = { 0.2,
+		args = { 0,
 			[0] = 0,
 			[3] = 1
 		}

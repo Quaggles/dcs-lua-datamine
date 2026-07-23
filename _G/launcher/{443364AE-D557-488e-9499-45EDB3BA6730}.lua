@@ -1,10 +1,10 @@
 _G["launcher"]["{443364AE-D557-488e-9499-45EDB3BA6730}"] = {
 	CLSID = "{443364AE-D557-488e-9499-45EDB3BA6730}",
 	Count = 21,
-	Cx_pil = 0.00489453125,
+	Cx_pil = 0.0068359375,
 	Elements = { {
 			IsAdapter = true,
-			ShapeName = "BRU-42_LS"
+			ShapeName = "BRU_42A"
 		}, {
 			connector_name = "Point01",
 			payload_CLSID = "{FC85D2ED-501A-48ce-9863-49D468DDD5FC}"
@@ -23,7 +23,7 @@ _G["launcher"]["{443364AE-D557-488e-9499-45EDB3BA6730}"] = {
 	attribute = { 4, 7, 32, "Redacted" },
 	category = 3,
 	displayName = "BRU-42: 3 x LAU-68 - 7 x UnGd Rkts, 70 mm Hydra 70 Mk 1 HE",
-	name = "BRU-42_LS",
+	name = "BRU_42A",
 	shape_table_data = {},
 	wsTypeOfWeapon = { 4, 7, 33, "Redacted" }
 }

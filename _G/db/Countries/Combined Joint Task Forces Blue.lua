@@ -856,6 +856,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "GCI_station_MiG29",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "AA8",
 					in_service = 0,
 					out_of_service = 40000
@@ -2843,6 +2847,10 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "F-14A-135-GR-Early",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "F-14BU",
 					in_service = 0,
 					out_of_service = 40000
 				}, {

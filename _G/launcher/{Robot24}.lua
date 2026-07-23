@@ -17,7 +17,7 @@ _G["launcher"]["{Robot24}"] = {
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 4, 32, "Redacted" },
 	category = 4,
-	displayName = "LAU-7 with RB-24 (AIM-9B) Sidewinder IR AAM",
+	displayName = "LAU-7 - RB-24 (AIM-9B) Sidewinder IR AAM",
 	name = "aero-3b",
 	wsTypeOfWeapon = { 4, 4, 7, "Redacted" }
 }

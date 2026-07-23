@@ -31,6 +31,11 @@ _G["rockets"]["#Index"] = {
 	add_attributes = { "Cruise missiles", "Anti-Ship missiles", "Air" },
 	display_name = "Kh-65",
 	display_name_short = "Kh-65",
+	encyclopediaAnimation = {
+		args = {
+			[25] = 1
+		}
+	},
 	name = "X_65",
 	sigma = { 20, 20, 20 },
 	t_acc = 6,

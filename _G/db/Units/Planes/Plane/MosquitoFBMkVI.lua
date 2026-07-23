@@ -5986,6 +5986,84 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						C = { { "PokeSound", 12005 }, { "Arg", 473, "to", 0, "in", 0.8 } }
 					} },
 				Transition = { "Any", "Extend" }
+			} },
+		WindscreenWiper0 = { {
+				Sequence = { {
+						C = { { "Sleep", "for", 0 } }
+					} },
+				Transition = { "Any", "Off" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 600, "to", 1, "at", 0.2, "sign", 1 } }
+					}, {
+						C = { { "Arg", 600, "to", 0, "at", 0.2, "sign", -1 } }
+					}, {
+						C = { { "ValuePhase", 0 } }
+					} },
+				Transition = { "Any", "Low" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 600, "to", 1, "at", 0.4, "sign", 1 } }
+					}, {
+						C = { { "Arg", 600, "to", 0, "at", 0.4, "sign", -1 } }
+					}, {
+						C = { { "ValuePhase", 0 } }
+					} },
+				Transition = { "Any", "CustomStage0" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 600, "to", 1, "at", 0.6, "sign", 1 } }
+					}, {
+						C = { { "Arg", 600, "to", 0, "at", 0.6, "sign", -1 } }
+					}, {
+						C = { { "ValuePhase", 0 } }
+					} },
+				Transition = { "Any", "CustomStage1" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 600, "to", 1, "at", 0.8, "sign", 1 } }
+					}, {
+						C = { { "Arg", 600, "to", 0, "at", 0.8, "sign", -1 } }
+					}, {
+						C = { { "ValuePhase", 0 } }
+					} },
+				Transition = { "Any", "Medium" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 600, "to", 1, "at", 1, "sign", 1 } }
+					}, {
+						C = { { "Arg", 600, "to", 0, "at", 1, "sign", -1 } }
+					}, {
+						C = { { "ValuePhase", 0 } }
+					} },
+				Transition = { "Any", "CustomStage2" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 600, "to", 1, "at", 1.3, "sign", 1 } }
+					}, {
+						C = { { "Arg", 600, "to", 0, "at", 1.3, "sign", -1 } }
+					}, {
+						C = { { "ValuePhase", 0 } }
+					} },
+				Transition = { "Any", "CustomStage3" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 600, "to", 1, "at", 1.6, "sign", 1 } }
+					}, {
+						C = { { "Arg", 600, "to", 0, "at", 1.6, "sign", -1 } }
+					}, {
+						C = { { "ValuePhase", 0 } }
+					} },
+				Transition = { "Any", "CustomStage4" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 600, "to", 1, "at", 2, "sign", 1 } }
+					}, {
+						C = { { "Arg", 600, "to", 0, "at", 2, "sign", -1 } }
+					}, {
+						C = { { "ValuePhase", 0 } }
+					} },
+				Transition = { "Any", "High" }
 			} }
 	},
 	net_animation = { 278, 279, 203 },
