@@ -1,7 +1,7 @@
 _G["launcher"]["{AB_2xBETAB-500_MBD3-U2T}"] = {
 	CLSID = "{AB_2xBETAB-500_MBD3-U2T}",
 	Count = 2,
-	Cx_pil = 0.00074,
+	Cx_pil = 0.00336,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "mbdz_u2t"
@@ -14,8 +14,8 @@ _G["launcher"]["{AB_2xBETAB-500_MBD3-U2T}"] = {
 		} },
 	JettisonSubmunitionOnly = true,
 	Picture = "betab500.png",
-	Weight = 1007,
-	Weight_Empty = 55,
+	Weight = 1092,
+	Weight_Empty = 140,
 	_file = "./CoreMods/aircraft/MiG-29-Fulcrum/MiG-29-Fulcrum.lua",
 	_origin = "MiG-29 Fulcrum AI",
 	attribute = { 4, 5, 32, "Redacted" },

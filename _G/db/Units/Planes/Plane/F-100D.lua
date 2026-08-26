@@ -2424,6 +2424,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{AGM_45A}",
 					arg_value = 0.75
 				}, {
+					CLSID = "{AGM_45B}",
+					arg_value = 0.75,
+					attach_point_position = { 0.415, -0.125, 0 }
+				}, {
 					CLSID = "<CLEAN>",
 					add_mass = -63.6,
 					arg_value = 1
@@ -2570,6 +2574,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					CLSID = "{AGM_45A}",
 					arg_value = 0.75
+				}, {
+					CLSID = "{AGM_45B}",
+					arg_value = 0.75,
+					attach_point_position = { 0.415, -0.125, 0 }
 				}, {
 					CLSID = "<CLEAN>",
 					add_mass = -63.6,

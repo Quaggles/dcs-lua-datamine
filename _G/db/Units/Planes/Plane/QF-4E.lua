@@ -1957,6 +1957,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			arg = 308,
 			arg_value = 0.5,
 			connector = "PNT_PYLON_1B",
+			replace_deprecated_loadout_with = {
+				["{SUU_23_POD}"] = "{SUU_23_POD_Wing}"
+			},
 			use_full_connector_position = true
 		}, {
 			DisplayName = "2L",
@@ -2061,6 +2064,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			arg = 312,
 			arg_value = 0,
 			connector = "PNT_PYLON_5B",
+			replace_deprecated_loadout_with = {
+				["{SUU_23_POD}"] = "{SUU_23_POD_Centerline}"
+			},
 			use_full_connector_position = true
 		}, {
 			DisplayName = "6",
@@ -2171,6 +2177,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			arg = 316,
 			arg_value = 0.5,
 			connector = "PNT_PYLON_9B",
+			replace_deprecated_loadout_with = {
+				["{SUU_23_POD}"] = "{SUU_23_POD_Wing}"
+			},
 			use_full_connector_position = true
 		}, {
 			DisplayName = "CMS",

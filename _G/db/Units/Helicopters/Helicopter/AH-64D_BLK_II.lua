@@ -18,7 +18,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			xLbl = 150
 		}, {
 			control = "comboList",
-			defValue = 0,
+			defValue = 1,
 			id = "FlareBurstCount",
 			label = "Flare Burst Count",
 			playerOnly = true,
@@ -116,7 +116,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			wCtrl = 150
 		}, {
 			control = "comboList",
-			defValue = 0,
+			defValue = 3,
 			id = "FlareProgramDelay",
 			label = "Flare Delay btw. Programs, [sec]",
 			playerOnly = true,
@@ -223,6 +223,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	AmmoWeight = 411.6,
 	CanopyGeometry = { -0.93969262078591, -0.95280922353749, -0.96592582628907, -0.049950211252315, 0.86602540378444 },
 	Categories = {},
+	DTC = true,
 	Damage = { {
 			args = { 150 },
 			critical_damage = 3

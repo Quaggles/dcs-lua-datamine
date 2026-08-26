@@ -1,22 +1,28 @@
 _G["db"]["Units"]["GT_t"]["LN_t"]["_9A33"] = {
 	BR = { {
 			connector_name = "POINT_ROCKET_01",
-			drawArgument = 4
+			drawArgument = 4,
+			pos = { -1.6, 0, 0 }
 		}, {
 			connector_name = "POINT_ROCKET_06",
-			drawArgument = 19
+			drawArgument = 19,
+			pos = { -1.6, 0, 0 }
 		}, {
 			connector_name = "POINT_ROCKET_02",
-			drawArgument = 5
+			drawArgument = 5,
+			pos = { -1.6, 0, 0 }
 		}, {
 			connector_name = "POINT_ROCKET_05",
-			drawArgument = 18
+			drawArgument = 18,
+			pos = { -1.6, 0, 0 }
 		}, {
 			connector_name = "POINT_ROCKET_03",
-			drawArgument = 6
+			drawArgument = 6,
+			pos = { -1.6, 0, 0 }
 		}, {
 			connector_name = "POINT_ROCKET_04",
-			drawArgument = 7
+			drawArgument = 7,
+			pos = { -1.6, 0, 0 }
 		} },
 	ECM_K = 0.8,
 	PL = { {

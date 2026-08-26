@@ -1,15 +1,15 @@
 _G["launcher"]["{MIG-29A_EMPTY_APU-73}"] = {
 	CLSID = "{MIG-29A_EMPTY_APU-73}",
 	Count = 0,
-	Cx_pil = 0.00074,
+	Cx_pil = 0.00017,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "apu-73"
 		} },
 	JettisonSubmunitionOnly = true,
 	Picture = "Weaponx.png",
-	Weight = 51,
-	Weight_Empty = 51,
+	Weight = 61,
+	Weight_Empty = 61,
 	_file = "./CoreMods/aircraft/MiG-29-Fulcrum/MiG-29-Fulcrum.lua",
 	_origin = "MiG-29 Fulcrum AI",
 	attribute = { 4, 4, 32, "Redacted" },

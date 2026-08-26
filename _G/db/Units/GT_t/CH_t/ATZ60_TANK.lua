@@ -1,0 +1,22 @@
+_G["db"]["Units"]["GT_t"]["CH_t"]["ATZ60_TANK"] = {
+	X_gear_1 = -1.5,
+	X_gear_2 = -4.5,
+	Y_gear_1 = 0,
+	Y_gear_2 = 0,
+	Z_gear_1 = 1.3,
+	Z_gear_2 = 1.3,
+	armour_thickness = 0.001,
+	engine_power = 0,
+	fordingDepth = 1.5,
+	gear_type = 1,
+	length = 19.8,
+	life = 2,
+	mass = 81000,
+	max_acceleration = 0,
+	max_road_velocity = 15,
+	max_slope = 0.2,
+	max_vert_obstacle = 0.3,
+	min_turn_radius = 15,
+	r_max = 0.61,
+	width = 3.2
+}

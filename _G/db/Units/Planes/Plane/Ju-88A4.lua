@@ -832,7 +832,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			WING_R_OUT = 24
 		}
 	},
-	DamageParts = {},
+	DamageParts = { "Ju-88_oblomok_wing_R", "Ju-88_oblomok_wing_L",
+		[4] = "Ju-88_oblomok_tail"
+	},
 	DefaultTask = <1>{
 		Name = "Ground Attack",
 		OldID = "Ground Attack",

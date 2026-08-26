@@ -28,7 +28,22 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 17, 25, "Redacted", "Trucks", "All", "Ground Units", "Vehicles", "Ground vehicles", "Ground Units Non Airdefence", "NonAndLightArmoredUnits", "NonArmoredUnits", "Unarmed vehicles" },
 	canTow = { "Saddle", "Saddle22" },
 	category = "Unarmed",
-	chassis = {},
+	chassis = {
+		collisionCage = { {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} },
+		wheelPosts = { {
+				pos = {}
+			}, {
+				pos = {}
+			}, {
+				pos = {}
+			}, {
+				pos = {}
+			}, {
+				pos = {}
+			}, {
+				pos = {}
+			} }
+	},
 	driverViewPoint = { 1.593, 2.151, -0.47 },
 	enablePlayerCanDrive = true,
 	mapclasskey = "P0091000005",

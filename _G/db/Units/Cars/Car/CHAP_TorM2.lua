@@ -199,9 +199,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						} },
 					PL = { {} },
 					depends_on_unit = { { { "self", 1 } }, { { "self", 2 } }, { { "self", 3 } }, { { "self", 4 } } },
-					sensor = {},
-					sightIndicationMode = 1,
-					sightMasterMode = 1
+					sensor = {}
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 1.1344640137963 } },
 			angles_mech = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 1.3089969389957 } },
@@ -211,7 +209,6 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 			},
 			canSetTacticalDir = true,
 			center = "CENTER_TOWER_01",
-			cockpit = { "genericMissile", { 0, 0, 0 } },
 			drawArgument1 = 0,
 			drawArgument2 = 1,
 			mount_before_move = false,

@@ -27,7 +27,7 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 	scan_period = 5,
 	scan_volume = {
 		azimuth = { -70, 70 },
-		elevation = { -50, 50 }
+		elevation = { -45, 45 }
 	},
 	surface_search = {
 		GMTI_detection_distance = 250000,
@@ -35,6 +35,10 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 		RBM_detection_distance = 200000,
 		RCS = 100,
 		vehicles_detection = true
+	},
+	track_volume = {
+		azimuth = { -70, 70 },
+		elevation = { -45, 45 }
 	},
 	type = 2
 }

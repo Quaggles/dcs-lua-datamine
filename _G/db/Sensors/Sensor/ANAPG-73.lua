@@ -35,5 +35,9 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 		RCS = 100,
 		vehicles_detection = true
 	},
+	track_volume = {
+		azimuth = { -70, 70 },
+		elevation = { -60, 60 }
+	},
 	type = 2
 }

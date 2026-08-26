@@ -19,7 +19,19 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	ThreatRange = 10300,
 	WS = { {
 			LN = { {
-					BR = { {}, {}, {}, {}, {}, {} },
+					BR = { {
+							pos = {}
+						}, {
+							pos = {}
+						}, {
+							pos = {}
+						}, {
+							pos = {}
+						}, {
+							pos = {}
+						}, {
+							pos = {}
+						} },
 					PL = { {
 							type_ammunition = {}
 						} },

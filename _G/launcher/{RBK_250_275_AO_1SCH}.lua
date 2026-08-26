@@ -6,7 +6,7 @@ _G["launcher"]["{RBK_250_275_AO_1SCH}"] = {
 			ShapeName = "rbk-250"
 		} },
 	Picture = "RBK250.png",
-	Weight = 244.6,
+	Weight = 273,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/cluster_bombs.lua",
 	_origin = "AircraftWeaponPack",
 	attribute = { 4, 5, 38, "Redacted" },

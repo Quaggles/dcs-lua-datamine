@@ -1,5 +1,6 @@
 _G["bombs"]["#Index"] = {
 	Ag = -5,
+	Cx = 0.00075,
 	Name = "Redacted",
 	VyHold = -50,
 	_file = "./CoreMods/aircraft/AircraftWeaponPack/common_bombs.lua",

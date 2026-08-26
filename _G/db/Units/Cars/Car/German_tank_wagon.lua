@@ -17,7 +17,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 2, 8, "Redacted", "RailwayUnits", "RailwayCarriage", "GroundUnits", "Ground Units Non Airdefence", "NonAndLightArmoredUnits", "NonArmoredUnits", "RailwayCivilUnits" },
+	attribute = { 2, 8, "Redacted", "Ground Units", "RailwayCarriage", "All", "RailwayUnits", "Ground Units Non Airdefence", "NonAndLightArmoredUnits", "NonArmoredUnits", "RailwayCivilUnits" },
 	category = "Carriage",
 	chassis = {
 		life = 2

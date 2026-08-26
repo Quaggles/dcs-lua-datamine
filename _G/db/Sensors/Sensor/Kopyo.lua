@@ -31,5 +31,9 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 		RBM_detection_distance = 150000,
 		RCS = 100
 	},
+	track_volume = {
+		azimuth = { -40, 40 },
+		elevation = { -40, 40 }
+	},
 	type = 2
 }

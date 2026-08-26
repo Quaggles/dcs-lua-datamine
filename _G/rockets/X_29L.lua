@@ -59,10 +59,12 @@ _G["rockets"]["#Index"] = {
 		delay_roll = 0.4,
 		fins_limit = 0.31415926535898,
 		fins_limit_x = 0.43633231299858,
+		loft_trigger_time = 9,
 		n_limit = 10,
 		n_req = 0.6,
 		null_roll = 0.78539816339745,
-		op_time = 40
+		op_time = 40,
+		simple_loft = 1
 	},
 	boost = {
 		custom_smoke_dissipation_factor = 0.2,
@@ -123,9 +125,9 @@ _G["rockets"]["#Index"] = {
 		lock_time = 0,
 		max_tracking_rate = 0.1221730476396,
 		op_time = 40,
-		pitch_max = 0.5235987755983,
+		pitch_max = 0.69813170079773,
 		tracking_gain = 10,
-		yaw_max = 0.5235987755983
+		yaw_max = 0.69813170079773
 	},
 	march = {
 		boost_factor = 0,

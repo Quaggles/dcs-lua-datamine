@@ -477,7 +477,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			ejection_seat_name = 0,
 			pilot_body_arg = 50,
 			pilot_name = 299,
-			pos = { -1, -0.08, 0 },
+			pos = { -1.17, -0.15, 0 },
 			role = "instructor",
 			role_display_name = "Instructor Pilot"
 		}, {
@@ -492,7 +492,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			ejection_seat_name = 0,
 			pilot_body_arg = 472,
 			pilot_name = 300,
-			pos = { -0.37, -0.1, 0 },
+			pos = { -0.36, -0.15, 0 },
 			role = "pilot",
 			role_display_name = "Pilot"
 		} },

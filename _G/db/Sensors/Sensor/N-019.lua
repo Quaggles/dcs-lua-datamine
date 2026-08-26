@@ -22,6 +22,10 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 		azimuth = { -60, 60 },
 		elevation = { -30, 30 }
 	},
+	track_volume = {
+		azimuth = { -67, 67 },
+		elevation = { -45, 50 }
+	},
 	type = 0,
 	velocity_limits = {
 		radial_velocity_min = 41.666666666667,

@@ -401,7 +401,6 @@ _G["db"]["Units"]["Ships"]["Ship"]["#Index"] = {
 							connector_name = "POINT_MISSILE_116"
 						} },
 					PL = { {} },
-					customViewPoint = { "genericMissile", { 0, 5, 0 } },
 					depends_on_unit = { { { "self", 5 } }, { { "self", 6 } }, { { "self", 7 } }, { { "self", 8 } } },
 					maxShootingSpeed = 16,
 					sensor = {}

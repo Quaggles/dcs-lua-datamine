@@ -219,7 +219,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_250_275_AO_1SCH"] = {
 			},
 			server = 0
 		},
-		mass = 244.6,
+		mass = 273,
 		model = "rbk-250",
 		name = "RBK_250_275_AO_1SCH",
 		scheme = "schemes/bombs/bomb_cassette_v3.sch",
@@ -458,7 +458,7 @@ _G["weapons_table"]["weapons"]["bombs"]["RBK_250_275_AO_1SCH"] = {
 			},
 			server = 1
 		},
-		mass = 244.6,
+		mass = 273,
 		model = "rbk-250",
 		name = "RBK_250_275_AO_1SCH",
 		scheme = "schemes/bombs/bomb_cassette_v3.sch",

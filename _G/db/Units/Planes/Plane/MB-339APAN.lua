@@ -1524,6 +1524,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					max = 155.975,
 					min = 137
 				}, {
+					max = 173.975,
+					min = 156
+				}, {
 					max = 399.975,
 					min = 225
 				} }

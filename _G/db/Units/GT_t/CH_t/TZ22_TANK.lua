@@ -1,0 +1,22 @@
+_G["db"]["Units"]["GT_t"]["CH_t"]["TZ22_TANK"] = {
+	X_gear_1 = -6.85,
+	X_gear_2 = -2,
+	Y_gear_1 = 0,
+	Y_gear_2 = 0,
+	Z_gear_1 = 1,
+	Z_gear_2 = 1.4,
+	armour_thickness = 0.001,
+	engine_power = 0,
+	fordingDepth = 0.2,
+	gear_type = 1,
+	length = 10.7,
+	life = 2,
+	mass = 22000,
+	max_acceleration = 0,
+	max_road_velocity = 16.66,
+	max_slope = 0.314,
+	max_vert_obstacle = 0.3,
+	min_turn_radius = 15,
+	r_max = 0.51,
+	width = 2.9
+}

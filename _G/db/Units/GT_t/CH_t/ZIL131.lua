@@ -6,6 +6,7 @@ _G["db"]["Units"]["GT_t"]["CH_t"]["ZIL131"] = {
 	Z_gear_1 = 1.04,
 	Z_gear_2 = 1.04,
 	armour_thickness = 0.001,
+	collisionCage = { { 3.85, 0.761, -1.3 }, { 2.1751, 2.7913, -1.1 }, { 0.5, 2.8913, -1.1 }, { 0.5, 1.311, -1.3 }, { -3, 1.311, -1.3 }, { -3, 0.711, -1.3 }, { 3.8501, 0.761, 1.3 }, { 2.1751, 2.7913, 1.1 }, { 0.5, 2.8913, 1.1 }, { 0.5, 1.311, 1.3 }, { -3, 1.311, 1.3 }, { -3, 0.711, 1.3 } },
 	engine_power = 150,
 	fordingDepth = 0.9,
 	gear_type = 1,
@@ -19,5 +20,26 @@ _G["db"]["Units"]["GT_t"]["CH_t"]["ZIL131"] = {
 	min_turn_radius = 10.5,
 	r_max = 0.52,
 	trace_width = 0.242,
+	wheelPosts = { {
+			TrailerLoadCoef = 0.15,
+			pos = {},
+			steering = true
+		}, {
+			TrailerLoadCoef = 0.15,
+			pos = {},
+			steering = true
+		}, {
+			TrailerLoadCoef = 0.175,
+			pos = {}
+		}, {
+			TrailerLoadCoef = 0.175,
+			pos = {}
+		}, {
+			TrailerLoadCoef = 0.175,
+			pos = {}
+		}, {
+			TrailerLoadCoef = 0.175,
+			pos = {}
+		} },
 	width = 2.5
 }

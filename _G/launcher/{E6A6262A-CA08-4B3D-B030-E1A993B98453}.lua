@@ -6,11 +6,11 @@ _G["launcher"]["{E6A6262A-CA08-4B3D-B030-E1A993B98453}"] = {
 	Elements = { {
 			ShapeName = "LAU-88"
 		}, {
-			Position = { 0.29, -0.31, 0 },
+			Position = { 0.252, -0.146, 0 },
 			Rotation = { 0, 0, 0 },
 			ShapeName = "AGM-65D"
 		}, {
-			Position = { 0.29, -0.085, 0.275 },
+			Position = { 0.252, 0.085, 0.259 },
 			Rotation = { -90, 0, 0 },
 			ShapeName = "AGM-65D"
 		} },

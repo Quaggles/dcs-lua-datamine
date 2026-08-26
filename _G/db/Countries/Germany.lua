@@ -654,6 +654,14 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "CHAP_IRISTSLM_CP"
 				}, {
+					Name = "CHAP_HX77"
+				}, {
+					Name = "CHAP_SLT50_Tractor"
+				}, {
+					Name = "CHAP_SLT50_Trailer"
+				}, {
+					Name = "CHAP_HX81_Tractor"
+				}, {
 					Name = "TugHarlan_drivable"
 				}, {
 					Name = "B600_drivable"

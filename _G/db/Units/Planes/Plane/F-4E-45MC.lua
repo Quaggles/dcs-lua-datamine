@@ -2377,6 +2377,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{LAU_34_AGM_45A}",
 					arg_value = 0.5
 				}, {
+					CLSID = "{LAU_34_AGM_45B}",
+					arg_value = 0.5
+				}, {
 					CLSID = "{AGM_12A}",
 					arg_value = 0.5
 				}, {
@@ -2399,6 +2402,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			arg = 308,
 			arg_value = 0.5,
 			connector = "PNT_PYLON_1B",
+			replace_deprecated_loadout_with = {
+				["{SUU_23_POD}"] = "{SUU_23_POD_Wing}"
+			},
 			use_full_connector_position = true
 		}, {
 			DisplayName = "2L",
@@ -2551,6 +2557,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{LAU_34_AGM_45A}" },
+							station = 3
+						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
 							station = 3
 						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
@@ -2838,6 +2847,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_34_AGM_45A}" },
 							station = 3
 						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
+							station = 3
+						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
 							station = 3
 						}, {
@@ -3121,6 +3133,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{LAU_34_AGM_45A}" },
+							station = 3
+						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
 							station = 3
 						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
@@ -3408,6 +3423,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_34_AGM_45A}" },
 							station = 3
 						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
+							station = 3
+						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
 							station = 3
 						}, {
@@ -3691,6 +3709,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{LAU_34_AGM_45A}" },
+							station = 3
+						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
 							station = 3
 						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
@@ -3978,6 +3999,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_34_AGM_45A}" },
 							station = 3
 						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
+							station = 3
+						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
 							station = 3
 						}, {
@@ -4261,6 +4285,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{LAU_34_AGM_45A}" },
+							station = 3
+						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
 							station = 3
 						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
@@ -4548,6 +4575,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_34_AGM_45A}" },
 							station = 3
 						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
+							station = 3
+						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
 							station = 3
 						}, {
@@ -4831,6 +4861,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{LAU_34_AGM_45A}" },
+							station = 3
+						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
 							station = 3
 						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
@@ -5118,6 +5151,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_34_AGM_45A}" },
 							station = 3
 						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
+							station = 3
+						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
 							station = 3
 						}, {
@@ -5401,6 +5437,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{LAU_34_AGM_45A}" },
+							station = 3
+						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
 							station = 3
 						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
@@ -5688,6 +5727,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_34_AGM_45A}" },
 							station = 3
 						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
+							station = 3
+						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
 							station = 3
 						}, {
@@ -5971,6 +6013,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{LAU_34_AGM_45A}" },
+							station = 3
+						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
 							station = 3
 						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
@@ -6258,6 +6303,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_34_AGM_45A}" },
 							station = 3
 						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
+							station = 3
+						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
 							station = 3
 						}, {
@@ -6541,6 +6589,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{LAU_34_AGM_45A}" },
+							station = 3
+						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
 							station = 3
 						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
@@ -6828,6 +6879,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_34_AGM_45A}" },
 							station = 3
 						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
+							station = 3
+						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
 							station = 3
 						}, {
@@ -7111,6 +7165,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{LAU_34_AGM_45A}" },
+							station = 3
+						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
 							station = 3
 						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
@@ -12518,6 +12575,125 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					connector = "PNT_PYLON_2_SWA_L",
 					use_alternate_connector = true
 				}, {
+					CLSID = "{LAU_34_AGM_45B}",
+					arg_value = 0,
+					forbidden = { {
+							loadout = { "{AIM-9B}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9E}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9J}" },
+							station = 2
+						}, {
+							loadout = { "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9JULI}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9M}" },
+							station = 2
+						}, {
+							loadout = { "CATM-9M" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9P5}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9P3}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 2
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 2
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 2
+						}, {
+							loadout = { "{AIM-9B}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9E}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9J}" },
+							station = 4
+						}, {
+							loadout = { "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9JULI}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9M}" },
+							station = 4
+						}, {
+							loadout = { "CATM-9M" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9P5}" },
+							station = 4
+						}, {
+							loadout = { "{AIM-9P3}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 4
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 4
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 4
+						} },
+					required = { {
+							loadout = { "<CLEAN>" },
+							station = 2
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 4
+						} }
+				}, {
+					CLSID = "{LAU_34_AGM_45B_SWA}",
+					add_mass = 29.9,
+					arg_value = 0.5,
+					connector = "PNT_PYLON_2_SWA_L",
+					use_alternate_connector = true
+				}, {
 					CLSID = "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}",
 					arg_value = 0,
 					forbidden = { {
@@ -17688,6 +17864,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_34_AGM_45A}" },
 							station = 3
 						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
+							station = 3
+						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
 							station = 3
 						}, {
@@ -17971,6 +18150,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{LAU_34_AGM_45A}" },
+							station = 3
+						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
 							station = 3
 						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
@@ -18258,6 +18440,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_34_AGM_45A}" },
 							station = 3
 						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
+							station = 3
+						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
 							station = 3
 						}, {
@@ -18541,6 +18726,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{LAU_34_AGM_45A}" },
+							station = 3
+						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
 							station = 3
 						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
@@ -18828,6 +19016,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_34_AGM_45A}" },
 							station = 3
 						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
+							station = 3
+						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
 							station = 3
 						}, {
@@ -19111,6 +19302,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{LAU_34_AGM_45A}" },
+							station = 3
+						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
 							station = 3
 						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
@@ -19398,6 +19592,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_34_AGM_45A}" },
 							station = 3
 						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
+							station = 3
+						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
 							station = 3
 						}, {
@@ -19681,6 +19878,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{LAU_34_AGM_45A}" },
+							station = 3
+						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
 							station = 3
 						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
@@ -19968,6 +20168,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_34_AGM_45A}" },
 							station = 3
 						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
+							station = 3
+						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
 							station = 3
 						}, {
@@ -20251,6 +20454,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{LAU_34_AGM_45A}" },
+							station = 3
+						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
 							station = 3
 						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
@@ -20538,6 +20744,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_34_AGM_45A}" },
 							station = 3
 						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
+							station = 3
+						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
 							station = 3
 						}, {
@@ -20821,6 +21030,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{LAU_34_AGM_45A}" },
+							station = 3
+						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
 							station = 3
 						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
@@ -21108,6 +21320,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_34_AGM_45A}" },
 							station = 3
 						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
+							station = 3
+						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
 							station = 3
 						}, {
@@ -21391,6 +21606,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{LAU_34_AGM_45A}" },
+							station = 3
+						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
 							station = 3
 						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
@@ -21678,6 +21896,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_34_AGM_45A}" },
 							station = 3
 						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
+							station = 3
+						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
 							station = 3
 						}, {
@@ -21963,6 +22184,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_34_AGM_45A}" },
 							station = 3
 						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
+							station = 3
+						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
 							station = 3
 						}, {
@@ -22246,6 +22470,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 3
 						}, {
 							loadout = { "{LAU_34_AGM_45A}" },
+							station = 3
+						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
 							station = 3
 						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
@@ -22640,6 +22867,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			arg = 312,
 			arg_value = 0,
 			connector = "PNT_PYLON_5B",
+			replace_deprecated_loadout_with = {
+				["{SUU_23_POD}"] = "{SUU_23_POD_Centerline}"
+			},
 			use_full_connector_position = true
 		}, {
 			DisplayName = "6",
@@ -22814,6 +23044,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{LAU_34_AGM_45A}" },
+							station = 11
+						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
 							station = 11
 						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
@@ -23101,6 +23334,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_34_AGM_45A}" },
 							station = 11
 						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
+							station = 11
+						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
 							station = 11
 						}, {
@@ -23384,6 +23620,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{LAU_34_AGM_45A}" },
+							station = 11
+						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
 							station = 11
 						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
@@ -23671,6 +23910,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_34_AGM_45A}" },
 							station = 11
 						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
+							station = 11
+						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
 							station = 11
 						}, {
@@ -23954,6 +24196,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{LAU_34_AGM_45A}" },
+							station = 11
+						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
 							station = 11
 						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
@@ -24241,6 +24486,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_34_AGM_45A}" },
 							station = 11
 						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
+							station = 11
+						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
 							station = 11
 						}, {
@@ -24524,6 +24772,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{LAU_34_AGM_45A}" },
+							station = 11
+						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
 							station = 11
 						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
@@ -24811,6 +25062,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_34_AGM_45A}" },
 							station = 11
 						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
+							station = 11
+						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
 							station = 11
 						}, {
@@ -25094,6 +25348,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{LAU_34_AGM_45A}" },
+							station = 11
+						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
 							station = 11
 						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
@@ -25381,6 +25638,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_34_AGM_45A}" },
 							station = 11
 						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
+							station = 11
+						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
 							station = 11
 						}, {
@@ -25664,6 +25924,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{LAU_34_AGM_45A}" },
+							station = 11
+						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
 							station = 11
 						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
@@ -25951,6 +26214,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_34_AGM_45A}" },
 							station = 11
 						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
+							station = 11
+						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
 							station = 11
 						}, {
@@ -26234,6 +26500,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{LAU_34_AGM_45A}" },
+							station = 11
+						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
 							station = 11
 						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
@@ -26521,6 +26790,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_34_AGM_45A}" },
 							station = 11
 						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
+							station = 11
+						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
 							station = 11
 						}, {
@@ -26804,6 +27076,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{LAU_34_AGM_45A}" },
+							station = 11
+						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
 							station = 11
 						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
@@ -27091,6 +27366,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_34_AGM_45A}" },
 							station = 11
 						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
+							station = 11
+						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
 							station = 11
 						}, {
@@ -27374,6 +27652,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{LAU_34_AGM_45A}" },
+							station = 11
+						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
 							station = 11
 						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
@@ -32781,6 +33062,125 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					connector = "PNT_PYLON_2_SWA_R",
 					use_alternate_connector = true
 				}, {
+					CLSID = "{LAU_34_AGM_45B}",
+					arg_value = 0,
+					forbidden = { {
+							loadout = { "{AIM-9B}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9E}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9J}" },
+							station = 12
+						}, {
+							loadout = { "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9JULI}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9M}" },
+							station = 12
+						}, {
+							loadout = { "CATM-9M" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9P5}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9P3}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 12
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 12
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 12
+						}, {
+							loadout = { "{AIM-9B}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9E}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9J}" },
+							station = 10
+						}, {
+							loadout = { "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9L}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9JULI}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9M}" },
+							station = 10
+						}, {
+							loadout = { "CATM-9M" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9P5}" },
+							station = 10
+						}, {
+							loadout = { "{AIM-9P3}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E742}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E743}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E745}" },
+							station = 10
+						}, {
+							loadout = { "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}" },
+							station = 10
+						}, {
+							loadout = { "{AIS_ASQ_T50}" },
+							station = 10
+						} },
+					required = { {
+							loadout = { "<CLEAN>" },
+							station = 10
+						}, {
+							loadout = { "<CLEAN>" },
+							station = 12
+						} }
+				}, {
+					CLSID = "{LAU_34_AGM_45B_SWA}",
+					add_mass = 29.9,
+					arg_value = 0.5,
+					connector = "PNT_PYLON_2_SWA_R",
+					use_alternate_connector = true
+				}, {
 					CLSID = "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}",
 					arg_value = 0,
 					forbidden = { {
@@ -37951,6 +38351,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_34_AGM_45A}" },
 							station = 11
 						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
+							station = 11
+						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
 							station = 11
 						}, {
@@ -38234,6 +38637,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{LAU_34_AGM_45A}" },
+							station = 11
+						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
 							station = 11
 						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
@@ -38521,6 +38927,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_34_AGM_45A}" },
 							station = 11
 						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
+							station = 11
+						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
 							station = 11
 						}, {
@@ -38804,6 +39213,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{LAU_34_AGM_45A}" },
+							station = 11
+						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
 							station = 11
 						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
@@ -39091,6 +39503,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_34_AGM_45A}" },
 							station = 11
 						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
+							station = 11
+						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
 							station = 11
 						}, {
@@ -39374,6 +39789,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{LAU_34_AGM_45A}" },
+							station = 11
+						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
 							station = 11
 						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
@@ -39661,6 +40079,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_34_AGM_45A}" },
 							station = 11
 						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
+							station = 11
+						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
 							station = 11
 						}, {
@@ -39944,6 +40365,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{LAU_34_AGM_45A}" },
+							station = 11
+						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
 							station = 11
 						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
@@ -40231,6 +40655,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_34_AGM_45A}" },
 							station = 11
 						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
+							station = 11
+						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
 							station = 11
 						}, {
@@ -40514,6 +40941,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{LAU_34_AGM_45A}" },
+							station = 11
+						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
 							station = 11
 						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
@@ -40801,6 +41231,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_34_AGM_45A}" },
 							station = 11
 						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
+							station = 11
+						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
 							station = 11
 						}, {
@@ -41084,6 +41517,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{LAU_34_AGM_45A}" },
+							station = 11
+						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
 							station = 11
 						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
@@ -41371,6 +41807,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_34_AGM_45A}" },
 							station = 11
 						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
+							station = 11
+						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
 							station = 11
 						}, {
@@ -41654,6 +42093,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{LAU_34_AGM_45A}" },
+							station = 11
+						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
 							station = 11
 						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
@@ -41941,6 +42383,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_34_AGM_45A}" },
 							station = 11
 						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
+							station = 11
+						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
 							station = 11
 						}, {
@@ -42226,6 +42671,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							loadout = { "{LAU_34_AGM_45A}" },
 							station = 11
 						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
+							station = 11
+						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
 							station = 11
 						}, {
@@ -42509,6 +42957,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 11
 						}, {
 							loadout = { "{LAU_34_AGM_45A}" },
+							station = 11
+						}, {
+							loadout = { "{LAU_34_AGM_45B}" },
 							station = 11
 						}, {
 							loadout = { "{C40A1E3A-DD05-40D9-85A4-217729E37FAE}" },
@@ -42846,6 +43297,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					CLSID = "{LAU_34_AGM_45A}",
 					arg_value = 0.5
 				}, {
+					CLSID = "{LAU_34_AGM_45B}",
+					arg_value = 0.5
+				}, {
 					CLSID = "{AGM_12A}",
 					arg_value = 0.5
 				}, {
@@ -42868,6 +43322,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			arg = 316,
 			arg_value = 0.5,
 			connector = "PNT_PYLON_9B",
+			replace_deprecated_loadout_with = {
+				["{SUU_23_POD}"] = "{SUU_23_POD_Wing}"
+			},
 			use_full_connector_position = true
 		}, {
 			DisplayName = "CMS",

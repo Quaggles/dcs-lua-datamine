@@ -698,6 +698,10 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "CHAP_BMPT"
 				}, {
+					Name = "BMP-3"
+				}, {
+					Name = "CHAP_BMP3_ERA"
+				}, {
 					Name = "TugHarlan_drivable"
 				}, {
 					Name = "B600_drivable"

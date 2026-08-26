@@ -1,7 +1,7 @@
 _G["launcher"]["{AB_RBK-500-PTAB-1M_BDZ-UMK2-B}"] = {
 	CLSID = "{AB_RBK-500-PTAB-1M_BDZ-UMK2-B}",
 	Count = 1,
-	Cx_pil = 0.00074,
+	Cx_pil = 0.002138,
 	Elements = { {
 			IsAdapter = true,
 			ShapeName = "bdz_umk2b"
@@ -11,8 +11,8 @@ _G["launcher"]["{AB_RBK-500-PTAB-1M_BDZ-UMK2-B}"] = {
 		} },
 	JettisonSubmunitionOnly = true,
 	Picture = "RBK_500_SPBE_D_cassette.png",
-	Weight = 482,
-	Weight_Empty = 55,
+	Weight = 487,
+	Weight_Empty = 60,
 	_file = "./CoreMods/aircraft/MiG-29-Fulcrum/MiG-29-Fulcrum.lua",
 	_origin = "MiG-29 Fulcrum AI",
 	attribute = { 4, 5, 32, "Redacted" },

@@ -29,9 +29,9 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					min_trg_alt = 0,
 					reactionTime = 1.5,
 					reflection_limit = 0.01,
-					type = 101
+					type = 102
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.221730476396 } },
+			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.221730476396 } },
 			mount_before_move = true,
 			moveable = false,
 			pos = { 0, 6, 0 }
@@ -48,7 +48,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					min_trg_alt = 0,
 					reactionTime = 1.5,
 					reflection_limit = 0.01,
-					type = 103
+					type = 102
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.221730476396 } },
 			base = 1,
@@ -68,7 +68,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					min_trg_alt = 0,
 					reactionTime = 1.5,
 					reflection_limit = 0.01,
-					type = 103
+					type = 102
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.221730476396 } },
 			base = 1,
@@ -88,7 +88,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					min_trg_alt = 0,
 					reactionTime = 1.5,
 					reflection_limit = 0.01,
-					type = 103
+					type = 102
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.221730476396 } },
 			base = 1,
@@ -108,7 +108,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					min_trg_alt = 0,
 					reactionTime = 1.5,
 					reflection_limit = 0.01,
-					type = 103
+					type = 102
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.221730476396 } },
 			base = 1,
@@ -128,7 +128,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					min_trg_alt = 0,
 					reactionTime = 1.5,
 					reflection_limit = 0.01,
-					type = 103
+					type = 102
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.221730476396 } },
 			base = 1,
@@ -148,7 +148,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					min_trg_alt = 0,
 					reactionTime = 1.5,
 					reflection_limit = 0.01,
-					type = 103
+					type = 102
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.221730476396 } },
 			base = 1,
@@ -168,7 +168,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					min_trg_alt = 0,
 					reactionTime = 1.5,
 					reflection_limit = 0.01,
-					type = 103
+					type = 102
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.221730476396 } },
 			base = 1,
@@ -188,7 +188,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					min_trg_alt = 0,
 					reactionTime = 1.5,
 					reflection_limit = 0.01,
-					type = 103
+					type = 102
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.221730476396 } },
 			base = 1,
@@ -208,7 +208,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					min_trg_alt = 0,
 					reactionTime = 1.5,
 					reflection_limit = 0.01,
-					type = 103
+					type = 102
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.221730476396 } },
 			base = 1,
@@ -228,7 +228,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					min_trg_alt = 0,
 					reactionTime = 1.5,
 					reflection_limit = 0.01,
-					type = 103
+					type = 102
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.221730476396 } },
 			base = 1,
@@ -248,7 +248,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					min_trg_alt = 0,
 					reactionTime = 1.5,
 					reflection_limit = 0.01,
-					type = 103
+					type = 102
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.221730476396 } },
 			base = 1,
@@ -268,7 +268,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					min_trg_alt = 0,
 					reactionTime = 1.5,
 					reflection_limit = 0.01,
-					type = 103
+					type = 102
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.221730476396 } },
 			base = 1,

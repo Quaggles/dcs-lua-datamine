@@ -834,6 +834,10 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "CHAP_M142_ATACMS_M48"
 				}, {
+					Name = "CHAP_HX77"
+				}, {
+					Name = "CHAP_BMP3_ERA"
+				}, {
 					Name = "TugHarlan_drivable"
 				}, {
 					Name = "B600_drivable"

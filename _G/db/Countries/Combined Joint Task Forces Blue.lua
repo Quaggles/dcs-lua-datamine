@@ -1200,6 +1200,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "CHAP_BMP3_ERA",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "Land_Rover_101_FC",
 					in_service = 0,
 					out_of_service = 40000
@@ -1324,6 +1328,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "CHAP_Titan",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "M-2 Bradley",
 					in_service = 0,
 					out_of_service = 40000
@@ -1369,6 +1377,22 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "CHAP_IRISTSLM_CP",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "CHAP_HX77",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "CHAP_SLT50_Tractor",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "CHAP_SLT50_Trailer",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "CHAP_HX81_Tractor",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -1549,6 +1573,10 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "CHAP_M142_ATACMS_M48",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "CHAP_M1296",
 					in_service = 0,
 					out_of_service = 40000
 				}, {

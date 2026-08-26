@@ -1,15 +1,15 @@
 _G["launcher"]["{AB_BETAB-500_BDZ-UMK2-B}"] = {
 	CLSID = "{AB_BETAB-500_BDZ-UMK2-B}",
 	Count = 1,
-	Cx_pil = 0.00074,
+	Cx_pil = 0.00203,
 	Elements = { "_G/Pylons/bdz_umk2b.lua", {
 			ShapeName = "BETAB-500",
 			connector_name = "Point Pilon"
 		} },
 	JettisonSubmunitionOnly = true,
 	Picture = "betab500.png",
-	Weight = 531,
-	Weight_Empty = 55,
+	Weight = 536,
+	Weight_Empty = 60,
 	_file = "./CoreMods/aircraft/MiG-29-Fulcrum/MiG-29-Fulcrum.lua",
 	_origin = "MiG-29 Fulcrum AI",
 	attribute = { 4, 5, 32, "Redacted" },

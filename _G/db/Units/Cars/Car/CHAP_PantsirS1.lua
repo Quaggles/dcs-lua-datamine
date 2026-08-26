@@ -209,9 +209,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					depends_on_unit = { { { "self", 1 } }, { { "self", 2 } }, { { "self", 3 } }, { { "self", 4 } } },
 					inclination_correction_bias = 0.05235987755983,
 					inclination_correction_upper_limit = 0.34906585039887,
-					sensor = {},
-					sightIndicationMode = 4,
-					sightMasterMode = 1
+					sensor = {}
 				} },
 			angles = { { 3.1415926535898, -3.1415926535898, -0.017453292519943, 1.4835298641952 } },
 			angles_mech = { { 1.3962634015955, -1.3962634015955, 0.069813170079773, 1.4835298641952 }, { -1.3962634015955, 1.3962634015955, -0.017453292519943, 1.4835298641952 } },

@@ -1819,22 +1819,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.15
 				}, {
 					CLSID = "{CLB4_BLU107}",
-					arg_value = 0.35
+					arg_value = 0.5
 				}, {
 					CLSID = "{CLB4_SAMP125LD}",
-					arg_value = 0.35
+					arg_value = 0.5
 				}, {
 					CLSID = "{CLB4_SAMP250LD}",
-					arg_value = 0.35
+					arg_value = 0.5
 				}, {
 					CLSID = "{CLB4_SAMP250HD}",
-					arg_value = 0.35
+					arg_value = 0.5
 				}, {
 					CLSID = "{CLB4_SAMP400LD}",
-					arg_value = 0.35
+					arg_value = 0.5
 				}, {
 					CLSID = "{CLB4_SAMP400HD}",
-					arg_value = 0.35
+					arg_value = 0.5
 				}, {
 					CLSID = "{AUF2_BLU107}",
 					arg_value = 0.15
@@ -1880,7 +1880,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.15
 				}, {
 					CLSID = "{CLB4_MK82}",
-					arg_value = 0.35
+					arg_value = 0.5
 				} },
 			Number = 4,
 			Order = 4,

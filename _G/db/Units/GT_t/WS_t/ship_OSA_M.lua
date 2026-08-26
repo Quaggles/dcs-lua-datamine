@@ -1,6 +1,18 @@
 _G["db"]["Units"]["GT_t"]["WS_t"]["ship_OSA_M"] = {
 	LN = { {
-			BR = { {}, {}, {}, {}, {}, {} },
+			BR = { {
+					pos = {}
+				}, {
+					pos = {}
+				}, {
+					pos = {}
+				}, {
+					pos = {}
+				}, {
+					pos = {}
+				}, {
+					pos = {}
+				} },
 			ECM_K = -1,
 			PL = { {
 					ammo_capacity = 22,

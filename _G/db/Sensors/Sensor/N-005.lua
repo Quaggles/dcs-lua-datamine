@@ -14,8 +14,12 @@ _G["db"]["Sensors"]["Sensor"]["#Index"] = {
 	max_measuring_distance = 150000,
 	scan_period = 3.5,
 	scan_volume = {
-		azimuth = { -56, 56 },
+		azimuth = { -30, 30 },
 		elevation = { -15, 10 }
+	},
+	track_volume = {
+		azimuth = { -56, 56 },
+		elevation = { -42, 56 }
 	},
 	type = 0,
 	velocity_limits = {

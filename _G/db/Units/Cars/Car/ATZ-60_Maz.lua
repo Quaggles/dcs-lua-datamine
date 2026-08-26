@@ -9,7 +9,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	DisplayName = "Refueler ATZ-60 Tractor (MAZ-7410)",
 	DisplayNameShort = "MAZ",
 	IR_emission_coeff = 0.1,
-	MaxSpeed = 54,
+	MaxSpeed = 64.8,
 	Name = "Refueler ATZ-60 Tractor (MAZ-7410)",
 	Rate = 3,
 	ThreatRange = 0,
@@ -53,7 +53,27 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	attribute = { 2, 17, 25, "Redacted", "Trucks", "All", "Ground Units", "Vehicles", "Ground vehicles", "Ground Units Non Airdefence", "NonAndLightArmoredUnits", "NonArmoredUnits", "Unarmed vehicles" },
 	canTow = { "Saddle60" },
 	category = "Unarmed",
-	chassis = {},
+	chassis = {
+		collisionCage = { {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} },
+		gearRatios = {},
+		wheelPosts = { {
+				pos = {}
+			}, {
+				pos = {}
+			}, {
+				pos = {}
+			}, {
+				pos = {}
+			}, {
+				pos = {}
+			}, {
+				pos = {}
+			}, {
+				pos = {}
+			}, {
+				pos = {}
+			} }
+	},
 	driverViewPoint = { 4.7, 2.4, -1.085 },
 	enablePlayerCanDrive = true,
 	mapclasskey = "P0091000212",

@@ -876,6 +876,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 							station = 9
 						} }
 				}, {
+					CLSID = "{MB339_AIM-9B}",
+					arg_value = 0,
+					required = { {
+							loadout = { "{MB339_AIM-9B}" },
+							station = 9
+						} }
+				}, {
 					CLSID = "{MB339_MagicI}",
 					arg_value = 0,
 					required = { {
@@ -1598,6 +1605,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					arg_value = 0.3,
 					required = { {
 							loadout = { "{LR25_ARF8M3_HEI}" },
+							station = 2
+						} }
+				}, {
+					CLSID = "{MB339_AIM-9B}",
+					arg_value = 0,
+					required = { {
+							loadout = { "{MB339_AIM-9B}" },
 							station = 2
 						} }
 				}, {
@@ -2352,6 +2366,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				}, {
 					max = 155.975,
 					min = 137
+				}, {
+					max = 173.975,
+					min = 156
 				}, {
 					max = 399.975,
 					min = 225

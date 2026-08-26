@@ -1,19 +1,114 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
+	AddPropVehicle = { {
+			arg = 60,
+			boolean_inverted = false,
+			control = "checkbox",
+			defValue = false,
+			id = "Slat armor",
+			label = "Slat armor"
+		} },
 	CanopyGeometry = {
 		azimuth = {},
 		elevation = {}
 	},
-	CustomAimPoint = { 0, 1.25, 0 },
+	Countries = { "Russia", "Ukraine", "Kuwait", "Iraq", "Algeria" },
+	DM = { {
+			area_name = "TURRET_FRONT",
+			armour = {
+				width = 0.035
+			}
+		}, {
+			area_name = "TURRET_L",
+			armour = {
+				width = 0.018
+			}
+		}, {
+			area_name = "TURRET_R",
+			armour = {
+				width = 0.018
+			}
+		}, {
+			area_name = "TURRET_BACK",
+			armour = {
+				width = 0.015
+			}
+		}, {
+			area_name = "TURRET_TOP",
+			armour = {
+				width = 0.01
+			}
+		}, {
+			area_name = "COMMANDER",
+			armour = {
+				width = 0.015
+			}
+		}, {
+			area_name = "HULL_FRONT_01",
+			armour = {
+				width = 0.04
+			}
+		}, {
+			area_name = "HULL_FRONT_02",
+			armour = {
+				width = 0.035
+			}
+		}, {
+			area_name = "HULL_TOP",
+			armour = {
+				width = 0.01
+			}
+		}, {
+			area_name = "HULL_BOTTOM",
+			armour = {
+				width = 0.01
+			}
+		}, {
+			area_name = "HULL_BACK",
+			armour = {
+				width = 0.015
+			}
+		}, {
+			area_name = "ENGINE",
+			armour = {
+				width = 0.015
+			}
+		}, {
+			area_name = "BULWARK_R",
+			armour = {
+				width = 0.005
+			}
+		}, {
+			area_name = "BULWARK_L",
+			armour = {
+				width = 0.005
+			}
+		}, {
+			area_name = "CHASSIS_R",
+			armour = {
+				width = 0.018
+			}
+		}, {
+			area_name = "CHASSIS_L",
+			armour = {
+				width = 0.018
+			}
+		}, {
+			area_name = "GUN",
+			armour = {
+				width = 0.02
+			}
+		} },
 	DetectionRange = 0,
-	DisplayName = "IFV BMP-3",
-	DisplayNameShort = "BMP3",
-	IR_emission_coeff = 0.095,
+	DisplayName = "IFV BMP-3 [CH]",
+	DisplayNameShort = "BMP-3",
+	EPLRS = false,
+	IR_emission_coeff = 0.09,
 	InternalCargo = {
 		maximalCapacity = 700,
 		nominalCapacity = 700
 	},
-	MaxSpeed = 69.99984,
-	Name = "IFV BMP-3",
+	MaxSpeed = 72,
+	Name = "IFV BMP-3 [CH]",
 	Rate = 15,
 	Sensors = {
 		Mount_WS_ID = 1,
@@ -23,9 +118,21 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	WS = { {
 			LN = { {
 					BR = { {
-							connector_name = "POINT_GUN_01",
-							recoilArgument = 23,
-							recoilTime = 0.1
+							case_extraction_connector = "EJECTOR_1",
+							connector_name = "POINT_GUN_02",
+							extractionDir = {
+								x = 10,
+								y = 0.5,
+								z = 0
+							},
+							recoilArgument = 26,
+							recoilTime = 0.088235294117647,
+							shellCaseID = 0,
+							shellCaseOrientation = {
+								x = 0,
+								y = 0,
+								z = 0
+							}
 						} },
 					PL = { {
 							feedSlot = 1,
@@ -35,14 +142,33 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							shell_name = {}
 						} },
 					beamWidth = 0.017453292519943,
+					createMuzzleFlashEffect = true,
 					distanceMaxForFCS = 4000,
 					sensor = {},
 					sightIndicationMode = 1,
 					sightMasterMode = 1
 				}, {
 					BR = { {
-							connector_name = "POINT_MGUN_01",
-							pos = {}
+							case_extraction_connector = "EJECTOR_2",
+							connector_name = "POINT_GUN_01",
+							projectileTrayEjectorArgument = 70,
+							recoilArgument = 23,
+							recoilTime = 0.3
+						} },
+					PL = { {
+							shell_name = {}
+						}, {
+							shell_name = {}
+						} },
+					beamWidth = 0.017453292519943,
+					createMuzzleFlashEffect = true,
+					distanceMaxForFCS = 4800,
+					sensor = {},
+					sightIndicationMode = 3,
+					sightMasterMode = 1
+				}, {
+					BR = { {
+							connector_name = "POINT_GUN_03"
 						} },
 					PL = { {
 							ammo_capacity = 2000,
@@ -53,28 +179,12 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 						} },
 					beamWidth = 0.017453292519943,
 					distanceMaxForFCS = 2000,
-					fireAnimationArgument = 45,
 					secondary = true,
 					sensor = {}
 				}, {
 					BR = { {
-							connector_name = "POINT_GUN",
-							muzzleBrakeType = 3,
-							recoilTime = 0.3
-						} },
-					PL = { {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						} },
-					beamWidth = 0.017453292519943,
-					distanceMaxForFCS = 4800,
-					sensor = {},
-					sightIndicationMode = 3,
-					sightMasterMode = 1
-				}, {
-					BR = { {
-							connector_name = "POINT_GUN",
+							connector_name = "POINT_GUN_01",
+							recoilArgument = 23,
 							recoilTime = 0.3
 						} },
 					PL = { {
@@ -84,120 +194,363 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					sightIndicationMode = 4,
 					sightMasterMode = 1
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, -0.034906585039887, 1.0471975511966 } },
-			center = "CENTER_TOWER",
+			angles = { { 3.1415926535898, -3.1415926535898, -0.10471975511966, 1.0471975511966 } },
+			center = "CENTER_TOWER_01",
 			cockpit = { "BMP-3/BMP-3_gunner", { 0, 0, 0 } },
 			drawArgument1 = 0,
 			drawArgument2 = 1,
 			laser = true,
-			omegaY = 0.69813170079773,
-			omegaZ = 0.87266462599716,
+			mount_before_move = false,
+			omegaY = 0.5235987755983,
+			omegaZ = 0.5235987755983,
+			pidY = {
+				d = 12,
+				i = 1,
+				inn = 10,
+				p = 100
+			},
+			pidZ = {
+				d = 10,
+				i = 0.8,
+				inn = 8,
+				p = 90
+			},
 			pointer = "POINT_SIGHT_01",
+			reference_angle_Z = 0.05235987755983,
 			stabilizer = true
 		}, {
 			LN = { {
 					BR = { {
-							connector_name = "POINT_MGUN_R",
-							pos = {}
+							connector_name = "POINT_GUN_04"
 						} },
 					PL = { {
-							ammo_capacity = 250,
-							portionAmmoCapacity = 250,
-							reload_time = 15,
+							ammo_capacity = 2000,
+							portionAmmoCapacity = 2000,
+							reload_time = 600,
 							shell_name = {},
-							switch_on_delay = 15
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
+							switch_on_delay = 0.1
 						} },
-					fireAnimationArgument = 46,
-					primaryWeapon = false,
-					sensor = {}
+					beamWidth = 0.017453292519943,
+					distanceMaxForFCS = 2000,
+					sensor = {},
+					sightIndicationMode = 1,
+					sightMasterMode = 1
 				} },
-			angles = { { 0.087266462599716, -0.5235987755983, -0.087266462599716, 0.26179938779915 } },
-			center = "CENTER_MGUN_R",
-			drawArgument1 = 37,
-			drawArgument2 = 36,
+			angles = { { 0.5235987755983, -0.087266462599716, -0.087266462599716, 0.26179938779915 } },
+			center = "CENTER_TOWER_02",
+			cockpit = { "BMP-3/BMP-3_gunner", { 0, 0, 0 } },
+			drawArgument1 = 80,
+			drawArgument2 = 82,
+			laser = false,
 			omegaY = 0.34906585039887,
-			omegaZ = 0.17453292519943
+			omegaZ = 0.17453292519943,
+			pointer = "POINT_SIGHT_02",
+			stabilizer = false
 		}, {
 			LN = { {
 					BR = { {
-							connector_name = "POINT_MGUN_L",
-							pos = {}
+							connector_name = "POINT_GUN_05"
 						} },
 					PL = { {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
-						}, {
-							shell_name = {}
+							ammo_capacity = 2000,
+							portionAmmoCapacity = 2000,
+							reload_time = 600,
+							shell_name = {},
+							switch_on_delay = 0.1
 						} },
-					fireAnimationArgument = 47,
-					sensor = {}
+					beamWidth = 0.017453292519943,
+					distanceMaxForFCS = 2000,
+					sensor = {},
+					sightIndicationMode = 1,
+					sightMasterMode = 1
 				} },
-			angles = { { 0.5235987755983, -0.087266462599716, -0.087266462599716, 0.26179938779915 } },
-			center = "CENTER_MGUN_L",
-			drawArgument1 = 39,
-			drawArgument2 = 38
+			angles = { { 0.087266462599716, -0.5235987755983, -0.087266462599716, 0.26179938779915 } },
+			center = "CENTER_TOWER_03",
+			cockpit = { "BMP-3/BMP-3_gunner", { 0, 0, 0 } },
+			drawArgument1 = 83,
+			drawArgument2 = 85,
+			laser = false,
+			omegaY = 0.34906585039887,
+			omegaZ = 0.17453292519943,
+			pointer = "POINT_SIGHT_03",
+			stabilizer = false
 		},
+		fire_on_march = true,
 		maxTargetDetectionRange = 10000,
-		smoke = { "SMOKE_03", "SMOKE_04", "SMOKE_02", "SMOKE_05", "SMOKE_01", "SMOKE_06" }
+		smoke = { "SMOKE_001", "SMOKE_002", "SMOKE_003", "SMOKE_004", "SMOKE_005", "SMOKE_006" }
 	},
 	Waypoint_Custom_Panel = true,
-	airWeaponDist = 1000,
+	_file = "./CoreMods/tech/Currenthill Assets Pack/Database/db_units_cars.lua",
+	_origin = "Currenthill Assets Pack",
+	_replace_origin_ = {
+		_core_ = {
+			CanopyGeometry = {
+				azimuth = {},
+				elevation = {}
+			},
+			CustomAimPoint = { 0, 1.25, 0 },
+			DetectionRange = 0,
+			DisplayName = "IFV BMP-3",
+			DisplayNameShort = "BMP3",
+			IR_emission_coeff = 0.095,
+			InternalCargo = {
+				maximalCapacity = 700,
+				nominalCapacity = 700
+			},
+			MaxSpeed = 69.99984,
+			Name = "BMP-3",
+			Rate = 15,
+			Sensors = {
+				Mount_WS_ID = 1,
+				OPTIC = { "TKN-3B day", "TKN-3B night", "1PZ-3" }
+			},
+			ThreatRange = 4000,
+			WS = { {
+					LN = { {
+							BR = { {
+									connector_name = "POINT_GUN_01",
+									recoilArgument = 23,
+									recoilTime = 0.1
+								} },
+							PL = { {
+									feedSlot = 1,
+									shell_name = {}
+								}, {
+									feedSlot = 2,
+									shell_name = {}
+								} },
+							beamWidth = 0.017453292519943,
+							distanceMaxForFCS = 4000,
+							sensor = {},
+							sightIndicationMode = 1,
+							sightMasterMode = 1
+						}, {
+							BR = { {
+									connector_name = "POINT_MGUN_01",
+									pos = {}
+								} },
+							PL = { {
+									ammo_capacity = 2000,
+									portionAmmoCapacity = 2000,
+									reload_time = 600,
+									shell_name = {},
+									switch_on_delay = 0.1
+								} },
+							beamWidth = 0.017453292519943,
+							distanceMaxForFCS = 2000,
+							fireAnimationArgument = 45,
+							secondary = true,
+							sensor = {}
+						}, {
+							BR = { {
+									connector_name = "POINT_GUN",
+									muzzleBrakeType = 3,
+									recoilTime = 0.3
+								} },
+							PL = { {
+									shell_name = {}
+								}, {
+									shell_name = {}
+								} },
+							beamWidth = 0.017453292519943,
+							distanceMaxForFCS = 4800,
+							sensor = {},
+							sightIndicationMode = 3,
+							sightMasterMode = 1
+						}, {
+							BR = { {
+									connector_name = "POINT_GUN",
+									recoilTime = 0.3
+								} },
+							PL = { {
+									type_ammunition = {}
+								} },
+							sensor = {},
+							sightIndicationMode = 4,
+							sightMasterMode = 1
+						} },
+					angles = { { 3.1415926535898, -3.1415926535898, -0.034906585039887, 1.0471975511966 } },
+					center = "CENTER_TOWER",
+					cockpit = { "BMP-3/BMP-3_gunner", { 0, 0, 0 } },
+					drawArgument1 = 0,
+					drawArgument2 = 1,
+					laser = true,
+					omegaY = 0.69813170079773,
+					omegaZ = 0.87266462599716,
+					pointer = "POINT_SIGHT_01",
+					stabilizer = true
+				}, {
+					LN = { {
+							BR = { {
+									connector_name = "POINT_MGUN_R",
+									pos = {}
+								} },
+							PL = { {
+									ammo_capacity = 250,
+									portionAmmoCapacity = 250,
+									reload_time = 15,
+									shell_name = {},
+									switch_on_delay = 15
+								}, {
+									shell_name = {}
+								}, {
+									shell_name = {}
+								}, {
+									shell_name = {}
+								} },
+							fireAnimationArgument = 46,
+							primaryWeapon = false,
+							sensor = {}
+						} },
+					angles = { { 0.087266462599716, -0.5235987755983, -0.087266462599716, 0.26179938779915 } },
+					center = "CENTER_MGUN_R",
+					drawArgument1 = 37,
+					drawArgument2 = 36,
+					omegaY = 0.34906585039887,
+					omegaZ = 0.17453292519943
+				}, {
+					LN = { {
+							BR = { {
+									connector_name = "POINT_MGUN_L",
+									pos = {}
+								} },
+							PL = { {
+									shell_name = {}
+								}, {
+									shell_name = {}
+								}, {
+									shell_name = {}
+								}, {
+									shell_name = {}
+								} },
+							fireAnimationArgument = 47,
+							sensor = {}
+						} },
+					angles = { { 0.5235987755983, -0.087266462599716, -0.087266462599716, 0.26179938779915 } },
+					center = "CENTER_MGUN_L",
+					drawArgument1 = 39,
+					drawArgument2 = 38
+				},
+				maxTargetDetectionRange = 10000,
+				smoke = { "SMOKE_03", "SMOKE_04", "SMOKE_02", "SMOKE_05", "SMOKE_01", "SMOKE_06" }
+			},
+			airWeaponDist = 1000,
+			animation_arguments = {
+				transportaionStateArgsAndVals = { {}, {} }
+			},
+			armour_scheme = {
+				hull_azimuth = { {}, {}, {} },
+				hull_elevation = { {}, {} },
+				turret_azimuth = { {} },
+				turret_elevation = { {}, {} }
+			},
+			attribute = { 2, 17, 104, "Redacted", "IFV", "ATGM", "Infantry carriers", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "NonAndLightArmoredUnits", "LightArmoredUnits" },
+			category = "Armor",
+			chassis = {
+				wheelPosts = { {
+						pos = {}
+					}, {
+						pos = {}
+					}, {
+						pos = {}
+					}, {
+						pos = {}
+					}, {
+						pos = {}
+					}, {
+						pos = {}
+					}, {
+						pos = {}
+					}, {
+						pos = {}
+					}, {
+						pos = {}
+					}, {
+						pos = {}
+					}, {
+						pos = {}
+					}, {
+						pos = {}
+					} }
+			},
+			driverCockpit = "DriverCockpit/DriverCockpitWithIR",
+			driverViewConnectorName = { "DRIVER_POINT",
+				offset = { 0.05, -0.04, 0 }
+			},
+			enablePlayerCanDrive = true,
+			mapclasskey = "P0091000002",
+			sensor = {
+				height = 2.45
+			},
+			snd = {
+				engine_pitch = { {}, {}, {} },
+				engine_vol_a = { {}, {}, {} },
+				engine_vol_v = { {}, {}, {} },
+				move_pitch = { {}, {} },
+				move_vol = { {}, {}, {} }
+			},
+			swing_on_run = false,
+			tags = { "Armor", "IFV" },
+			visual = {
+				IR = {
+					coeffs = { <1>{ 0.031, 0.0022, 3 }, <2>{ 0.00775, 0.00265, 2.4 }, { 0.0036, 0.0039 }, <3>{ 0.01, 0.0017 }, { 0.3, 0.00016666666666667 } }
+				},
+				agony_explosion_size = 3,
+				dirt_pos = { -3.5, 0.8, -1.337 },
+				dust_pos = { 3, 0.1, -1.337 },
+				fire_pos = { -0.6, 0.95, 0 },
+				fire_size = 1,
+				fire_time = 450,
+				max_time_agony = 100,
+				min_time_agony = 3,
+				shape = "BMP-3",
+				shape_dstr = "BMP-3_P_1"
+			}
+		}
+	},
+	airWeaponDist = 2000,
 	animation_arguments = {
 		transportaionStateArgsAndVals = { {}, {} }
 	},
 	armour_scheme = {
-		hull_azimuth = { {}, {}, {} },
-		hull_elevation = { {}, {} },
-		turret_azimuth = { {} },
+		hull_azimuth = { {}, {}, {}, {} },
+		hull_elevation = { {}, {}, {}, {}, {} },
+		turret_azimuth = { {}, {}, {}, {} },
 		turret_elevation = { {}, {} }
 	},
-	attribute = { 2, 17, 104, "Redacted", "IFV", "ATGM", "Infantry carriers", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "NonAndLightArmoredUnits", "LightArmoredUnits" },
+	attribute = { 2, 17, 26, "Redacted", "IFV", "ATGM", "Infantry carriers", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "NonAndLightArmoredUnits", "LightArmoredUnits" },
 	category = "Armor",
 	chassis = {
-		wheelPosts = { {
-				pos = {}
-			}, {
-				pos = {}
-			}, {
-				pos = {}
-			}, {
-				pos = {}
-			}, {
-				pos = {}
-			}, {
-				pos = {}
-			}, {
-				pos = {}
-			}, {
-				pos = {}
-			}, {
-				pos = {}
-			}, {
-				pos = {}
-			}, {
-				pos = {}
-			}, {
-				pos = {}
-			} }
+		gearRatios = {}
 	},
-	driverCockpit = "DriverCockpit/DriverCockpitWithIR",
+	crew_locale = "RUS",
+	crew_members = { "commander", "gunner" },
+	driverCockpit = "DriverCockpit/DriverCockpitWithIRandLLTV",
 	driverViewConnectorName = { "DRIVER_POINT",
-		offset = { 0.05, -0.04, 0 }
+		offset = { 0, 0, 0 }
 	},
 	enablePlayerCanDrive = true,
+	encyclopediaAnimation = {
+		args = {
+			[3] = 1
+		}
+	},
 	mapclasskey = "P0091000002",
 	sensor = {
-		height = 2.45
+		height = 2.6
 	},
+	shape_table_data = { {
+			classname = "lLandVehicle",
+			desrt = "CHAP_BMP3_dest",
+			file = "CHAP_BMP3",
+			life = 6,
+			name = "CHAP_BMP3",
+			positioning = "BYNORMAL",
+			username = "BMP-3"
+		}, {
+			file = "CHAP_BMP3_dest",
+			name = "CHAP_BMP3_dest"
+		} },
 	snd = {
 		engine_pitch = { {}, {}, {} },
 		engine_vol_a = { {}, {}, {} },
@@ -208,20 +561,22 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	swapped_names = true,
 	swing_on_run = false,
 	tags = { "Armor", "IFV" },
+	toggle_alarm_state_interval = 3,
+	turbine = false,
 	type = "BMP-3",
 	visual = {
 		IR = {
-			coeffs = { { 0.031, 0.0022, 3 }, { 0.00775, 0.00265, 2.4 }, { 0.0036, 0.0039 }, { 0.01, 0.0017 }, { 0.3, 0.00016666666666667 } }
+			coeffs = { <table 1>, <table 2>, { 0.0038, 0.0015 }, <table 3>, { 0.3, 0.00016666666666667 } }
 		},
-		agony_explosion_size = 3,
-		dirt_pos = { -3.5, 0.8, -1.337 },
-		dust_pos = { 3, 0.1, -1.337 },
-		fire_pos = { -0.6, 0.95, 0 },
-		fire_size = 1,
-		fire_time = 450,
-		max_time_agony = 100,
-		min_time_agony = 3,
-		shape = "BMP-3",
-		shape_dstr = "BMP-3_P_1"
+		agony_explosion_size = 5,
+		dirt_pos = { -2.5, 0.8, -1.5 },
+		dust_pos = { 1.7, 0.2, -1.5 },
+		fire_pos = { 0, 1.9, 0 },
+		fire_size = 0.7,
+		fire_time = 900,
+		max_time_agony = 120,
+		min_time_agony = 5,
+		shape = "CHAP_BMP3",
+		shape_dstr = "CHAP_BMP3_dest"
 	}
 }

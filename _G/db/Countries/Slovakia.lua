@@ -368,6 +368,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "BTR-70"
 				}, {
+					Name = "CHAP_HX77"
+				}, {
 					Name = "TugHarlan_drivable"
 				}, {
 					Name = "B600_drivable"

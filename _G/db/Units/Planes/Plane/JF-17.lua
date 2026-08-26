@@ -39,7 +39,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			control = "comboList",
 			defValue = 1,
 			id = "EW_Database_Target1",
-			label = "EW Target I",
+			label = "EW Target I (PP1)",
 			values = <1>{ {
 					dispName = "Unselect",
 					id = 1
@@ -172,21 +172,21 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			control = "comboList",
 			defValue = 1,
 			id = "EW_Database_Target2",
-			label = "EW Target II",
+			label = "EW Target II (PP2)",
 			values = <table 1>,
 			wCtrl = 150
 		}, {
 			control = "comboList",
 			defValue = 1,
 			id = "EW_Database_Target3",
-			label = "EW Target III",
+			label = "EW Target III (PP3)",
 			values = <table 1>,
 			wCtrl = 150
 		}, {
 			control = "comboList",
 			defValue = 1,
 			id = "EW_Database_Target4",
-			label = "EW Target IV",
+			label = "EW Target IV (PP4)",
 			values = <table 1>,
 			wCtrl = 150
 		} },

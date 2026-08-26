@@ -1,6 +1,6 @@
 _G["weapons_table"]["weapons"]["missiles"]["RIM_116A"] = {
 	Reflection = 0.0182,
-	_file = "./CoreMods/tech/TechWeaponPack/Database/Weapons/ammunition_missiles.lua",
+	_file = "./CoreMods/tech/TechWeaponPack/Database/Weapons/misc_sams.lua",
 	_origin = "TechWeaponPack",
 	_unique_resource_name = "weapons.missiles.RIM_116A",
 	caliber = 0.127,
@@ -40,7 +40,7 @@ _G["weapons_table"]["weapons"]["missiles"]["RIM_116A"] = {
 		X_back = 0,
 		Y_back = 0,
 		Z_back = 0,
-		_file = "./CoreMods/tech/TechWeaponPack/Database/Weapons/ammunition_missiles.lua",
+		_file = "./CoreMods/tech/TechWeaponPack/Database/Weapons/misc_sams.lua",
 		_origin = "TechWeaponPack",
 		autopilot = {
 			K = 64,
@@ -100,7 +100,7 @@ _G["weapons_table"]["weapons"]["missiles"]["RIM_116A"] = {
 			smoke_color = { 1, 1, 1 },
 			smoke_transparency = 0.9,
 			tail_width = 0.2,
-			work_time = 5
+			work_time = 9
 		},
 		mass = 73.6,
 		model = "rim-116",
@@ -108,10 +108,10 @@ _G["weapons_table"]["weapons"]["missiles"]["RIM_116A"] = {
 		scheme = "schemes/missiles/passive_plus_IR_homing_missile.sch",
 		seeker = {
 			FOV = 0.78539816339745,
-			aim_sigma = 40,
+			aim_sigma = 24,
 			delay = 0,
 			max_w_LOS = 999,
-			op_time = 5,
+			op_time = 24,
 			send_off_data = 1,
 			turn_off_dist = 1000
 		},
@@ -125,7 +125,7 @@ _G["weapons_table"]["weapons"]["missiles"]["RIM_116A"] = {
 			} },
 		sigma = { 10, 10, 10 },
 		simple_gyrostab_seeker = {
-			delay = 3,
+			delay = 0.5,
 			gimbal_lim = 1.1344640137963,
 			omega_max = 0.13962634015955
 		},
@@ -206,7 +206,7 @@ _G["weapons_table"]["weapons"]["missiles"]["RIM_116A"] = {
 		X_back = 0,
 		Y_back = 0,
 		Z_back = 0,
-		_file = "./CoreMods/tech/TechWeaponPack/Database/Weapons/ammunition_missiles.lua",
+		_file = "./CoreMods/tech/TechWeaponPack/Database/Weapons/misc_sams.lua",
 		_origin = "TechWeaponPack",
 		autopilot = {
 			K = 64,
@@ -266,7 +266,7 @@ _G["weapons_table"]["weapons"]["missiles"]["RIM_116A"] = {
 			smoke_color = { 1, 1, 1 },
 			smoke_transparency = 0.9,
 			tail_width = 0.2,
-			work_time = 5
+			work_time = 9
 		},
 		mass = 73.6,
 		model = "rim-116",
@@ -274,10 +274,10 @@ _G["weapons_table"]["weapons"]["missiles"]["RIM_116A"] = {
 		scheme = "schemes/missiles/passive_plus_IR_homing_missile.sch",
 		seeker = {
 			FOV = 0.78539816339745,
-			aim_sigma = 40,
+			aim_sigma = 24,
 			delay = 0,
 			max_w_LOS = 999,
-			op_time = 5,
+			op_time = 24,
 			send_off_data = 1,
 			turn_off_dist = 1000
 		},
@@ -291,7 +291,7 @@ _G["weapons_table"]["weapons"]["missiles"]["RIM_116A"] = {
 			} },
 		sigma = { 10, 10, 10 },
 		simple_gyrostab_seeker = {
-			delay = 3,
+			delay = 0.5,
 			gimbal_lim = 1.1344640137963,
 			omega_max = 0.13962634015955
 		},
