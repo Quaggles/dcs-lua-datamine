@@ -32,7 +32,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					show_external_missile = true,
 					type = 4
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, 0, 0.87266462599716 } },
+			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 0.87266462599716 } },
 			drawArgument1 = 0,
 			drawArgument2 = 1,
 			omegaY = 0.08918632477691,

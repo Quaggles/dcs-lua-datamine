@@ -17,6 +17,7 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["_9A330"] = {
 	launch_delay = 4,
 	maxShootingSpeed = 0,
 	max_number_of_missiles_channels = 2,
+	min_launch_angle = -0.087266462599716,
 	reactionTime = 6,
 	reflection_limit = 0.04,
 	sensor = {},

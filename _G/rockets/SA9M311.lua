@@ -57,6 +57,6 @@ _G["rockets"]["#Index"] = {
 	v_mid = 600,
 	v_min = 300,
 	warhead = "_G/warheads/SA9M311.lua",
-	wsTypeOfWeapon = <1>{ 4, 4, 34, "Redacted" },
+	wsTypeOfWeapon = <1>{ 4, 4, 11, "Redacted" },
 	ws_type = <table 1>
 }

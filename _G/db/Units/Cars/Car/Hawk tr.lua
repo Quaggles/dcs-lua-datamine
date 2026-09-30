@@ -26,7 +26,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					reflection_limit = 0.22,
 					type = 102
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.553343034275 } },
+			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 1.553343034275 } },
 			center = "CENTER_TOWER",
 			drawArgument1 = 0,
 			drawArgument2 = 1,

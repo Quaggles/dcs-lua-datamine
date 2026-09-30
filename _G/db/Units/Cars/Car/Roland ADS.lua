@@ -33,7 +33,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					sensor = {}
 				} },
 			PPI_view = "GenericPPI/GenericPPI",
-			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.0471975511966 } },
+			angles = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.0471975511966 } },
 			center = "CENTER_TOWER",
 			drawArgument1 = 0,
 			drawArgument2 = 1,

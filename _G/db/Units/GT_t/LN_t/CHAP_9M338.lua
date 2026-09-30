@@ -5,11 +5,10 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["CHAP_9M338"] = {
 	ECM_K = 0.4,
 	PL = { {
 			ammo_capacity = 16,
-			portionAmmoCapacity = 16,
-			reload_time = 900,
-			switch_on_delay = 900,
+			reload_time = 56.25,
 			type_ammunition = "weapons.missiles.SA9M338K"
 		} },
+	barrels_reload_type = 3,
 	display_name = "9M338",
 	distanceMax = 16000,
 	distanceMin = 1500,

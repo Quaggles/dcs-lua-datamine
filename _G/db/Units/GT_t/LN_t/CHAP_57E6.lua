@@ -5,11 +5,10 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["CHAP_57E6"] = {
 	ECM_K = 0.4,
 	PL = { {
 			ammo_capacity = 12,
-			portionAmmoCapacity = 12,
-			reload_time = 900,
-			switch_on_delay = 900,
+			reload_time = 75,
 			type_ammunition = "weapons.missiles.SA57E6"
 		} },
+	barrels_reload_type = 3,
 	display_name = "57E6",
 	distanceMax = 20000,
 	distanceMin = 1200,

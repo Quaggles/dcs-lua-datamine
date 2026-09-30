@@ -6,6 +6,7 @@ _G["warheads"]["AGM_84E"] = {
 	cumulative_thickness = 0.1,
 	default_fuze_delay = 0,
 	expl_mass = 88.8,
+	is_htp = true,
 	mass = 88.8,
 	obj_factors = { 2.5, 1 },
 	other_factors = { 1, 1, 1 },

@@ -5,6 +5,7 @@ _G["warheads"]["P_35"] = {
 	cumulative_thickness = 0.1,
 	default_fuze_delay = 0,
 	expl_mass = 372,
+	is_htp = true,
 	mass = 372,
 	obj_factors = { 2.5, 1 },
 	other_factors = { 1, 1, 1 },

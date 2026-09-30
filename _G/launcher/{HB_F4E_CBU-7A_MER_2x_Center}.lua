@@ -23,5 +23,5 @@ _G["launcher"]["{HB_F4E_CBU-7A_MER_2x_Center}"] = {
 	ejectDirection = { 0, -1, 0 },
 	ejectVelocity = 6,
 	name = "HB_ORD_MER",
-	wsTypeOfWeapon = { 4, 5, 38, "Redacted" }
+	wsTypeOfWeapon = "weapons.bombs.BLU-18/B_GROUP"
 }

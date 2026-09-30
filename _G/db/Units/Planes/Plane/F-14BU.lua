@@ -13955,7 +13955,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			role_display_name = "Radar Intercept Officer"
 		} },
 	crew_stations = "HumanOrchestra",
-	detection_range_max = 150,
+	detection_range_max = 200,
 	engines_count = 2,
 	engines_nozzles = { {
 			afterburner_circles_count = 12,

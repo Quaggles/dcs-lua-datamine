@@ -8,6 +8,208 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		DISPENSER = "AN/ALE-47",
 		IRCM = "AN/ALQ-157"
 	},
+	Damage = {
+		[0] = {
+			args = { 146 },
+			critical_damage = 5,
+			droppable = false
+		},
+		[3] = {
+			args = { 65 },
+			critical_damage = 20,
+			droppable = false
+		},
+		[4] = {
+			args = { 150 },
+			critical_damage = 4,
+			droppable = false
+		},
+		[5] = {
+			args = { 147 },
+			critical_damage = 4,
+			droppable = false
+		},
+		[6] = {
+			critical_damage = 4,
+			droppable = false
+		},
+		[9] = {
+			args = { 148 },
+			critical_damage = 6,
+			droppable = false
+		},
+		[10] = {
+			args = { 149 },
+			critical_damage = 6,
+			droppable = false
+		},
+		[11] = {
+			args = { 167 },
+			critical_damage = 3,
+			droppable = false
+		},
+		[12] = {
+			args = { 161 },
+			critical_damage = 3,
+			droppable = false
+		},
+		[17] = {
+			args = { 162 },
+			critical_damage = 3,
+			droppable = false
+		},
+		[18] = {
+			args = { 163 },
+			critical_damage = 3,
+			droppable = false
+		},
+		[23] = {
+			args = { 223 },
+			critical_damage = 8,
+			deps_cells = { 25, 17 },
+			droppable = false
+		},
+		[24] = {
+			args = { 213 },
+			critical_damage = 8,
+			deps_cells = { 26, 18 },
+			droppable = false
+		},
+		[25] = {
+			args = { 226 },
+			critical_damage = 3,
+			droppable = true
+		},
+		[26] = {
+			args = { 216 },
+			critical_damage = 3,
+			droppable = true
+		},
+		[29] = {
+			args = { 224 },
+			critical_damage = 9,
+			deps_cells = { 23, 11 },
+			droppable = false
+		},
+		[30] = {
+			args = { 214 },
+			critical_damage = 9,
+			deps_cells = { 24, 12 },
+			droppable = false
+		},
+		[35] = {
+			args = { 225 },
+			critical_damage = 20,
+			deps_cells = { 29 },
+			droppable = true
+		},
+		[36] = {
+			args = { 215 },
+			critical_damage = 20,
+			deps_cells = { 30 },
+			droppable = true
+		},
+		[43] = {
+			args = { 142 },
+			critical_damage = 9,
+			deps_cells = { 53 },
+			droppable = false
+		},
+		[47] = {
+			args = { 236 },
+			critical_damage = 5,
+			deps_cells = { 51 },
+			droppable = false
+		},
+		[48] = {
+			args = { 234 },
+			critical_damage = 5,
+			deps_cells = { 52 },
+			droppable = false
+		},
+		[51] = {
+			args = { 240 },
+			critical_damage = 2,
+			droppable = true
+		},
+		[52] = {
+			args = { 237 },
+			critical_damage = 2,
+			droppable = true
+		},
+		[53] = {
+			args = { 248 },
+			critical_damage = 6,
+			droppable = true
+		},
+		[56] = {
+			args = { 141 },
+			critical_damage = 5,
+			droppable = false
+		},
+		[57] = {
+			args = { 140 },
+			critical_damage = 5,
+			droppable = false
+		},
+		[58] = {
+			args = { 143 },
+			critical_damage = 5,
+			droppable = false
+		},
+		[61] = {
+			args = { 151 },
+			critical_damage = 7,
+			droppable = false
+		},
+		[82] = {
+			args = { 153 },
+			critical_damage = 7,
+			droppable = false
+		},
+		[137] = {
+			critical_damage = 1,
+			droppable = false
+		},
+		[138] = {
+			critical_damage = 2,
+			droppable = false
+		},
+		cell_indices = {
+			AirRefBoom = 137,
+			CABIN_BOTTOM = 6,
+			CABIN_LEFT_SIDE = 4,
+			CABIN_RIGHT_SIDE = 5,
+			COCKPIT = 3,
+			ELERON_L = 25,
+			ELERON_R = 26,
+			ELEVATOR_L_IN = 51,
+			ELEVATOR_R_IN = 52,
+			ENGINE_L_VNESHN = 17,
+			ENGINE_L_VNUTR = 11,
+			ENGINE_R_VNESHN = 18,
+			ENGINE_R_VNUTR = 12,
+			FIN_L_BOTTOM = 43,
+			FUEL_TANK_F = 61,
+			FUSELAGE_BOTTOM = 82,
+			FUSELAGE_LEFT_SIDE = 9,
+			FUSELAGE_RIGHT_SIDE = 10,
+			NOSE_CENTER = 0,
+			Object09 = 138,
+			RUDDER_L = 53,
+			STABILIZER_L_IN = 47,
+			STABILIZER_R_IN = 48,
+			TAIL_BOTTOM = 58,
+			TAIL_LEFT_SIDE = 56,
+			TAIL_RIGHT_SIDE = 57,
+			WING_L_CENTER = 29,
+			WING_L_IN = 35,
+			WING_L_OUT = 23,
+			WING_R_CENTER = 30,
+			WING_R_IN = 36,
+			WING_R_OUT = 24
+		}
+	},
 	DamageParts = { "KC-135MPRS-oblomok-wing-r", "KC-135MPRS-oblomok-wing-l" },
 	DefaultTask = <1>{
 		Name = "Refueling",

@@ -4,6 +4,17 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		azimuth = {},
 		elevation = {}
 	},
+	DM = { {
+			area_name = "Target_chassis",
+			armour = {
+				width = 0.005
+			}
+		}, {
+			area_name = "Target_turret",
+			armour = {
+				width = 0.001
+			}
+		} },
 	DetectionRange = 70000,
 	DisplayName = 'SAM SA-6 Kub "Straight Flush" STR',
 	DisplayNameShort = "SA-6 STR",
@@ -30,7 +41,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					reflection_limit = 0.18,
 					type = 102
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, 0, 0.78539816339745 } },
+			angles = { { 3.1415926535898, -3.1415926535898, -0.069813170079773, 0.78539816339745 } },
 			center = "CENTER_RADAR_01",
 			drawArgument1 = 24,
 			drawArgument2 = 25,

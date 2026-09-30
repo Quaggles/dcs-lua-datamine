@@ -25,6 +25,7 @@ _G["bombs"]["#Index"] = {
 		cumulative_factor = 0,
 		cumulative_thickness = 0,
 		expl_mass = 250,
+		is_htp = true,
 		mass = 910,
 		obj_factors = { 1.18, 1.18 },
 		other_factors = { 1.18, 1.18, 1.18 },

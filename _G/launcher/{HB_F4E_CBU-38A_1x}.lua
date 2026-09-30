@@ -13,7 +13,7 @@ _G["launcher"]["{HB_F4E_CBU-38A_1x}"] = {
 			payload_CLSID = "{GD_F100_CBU-38/A}"
 		} },
 	Picture = "L005.png",
-	Weight = 464.111672,
+	Weight = 438.71052,
 	Weight_Empty = 202.84268,
 	_file = "./CoreMods/aircraft/F-4E/Entry/Weapons.lua",
 	_origin = "F-4E AI by Heatblur Simulations",
@@ -23,5 +23,5 @@ _G["launcher"]["{HB_F4E_CBU-38A_1x}"] = {
 	ejectDirection = { 0, -1, 0 },
 	ejectVelocity = 10,
 	name = "HB_F-4E_BRU-42",
-	wsTypeOfWeapon = { 4, 5, 9, "Redacted" }
+	wsTypeOfWeapon = "weapons.bombs.BLU-49/B"
 }

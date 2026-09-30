@@ -4,20 +4,27 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["CHAP_XM813"] = {
 		} },
 	PL = { {
 			ammo_capacity = 78,
-			automaticLoader = false,
 			feedSlot = 1,
-			reload_time = 600,
+			portionAmmoCapacity = 78,
+			reload_time = 50,
 			shell_name = { "CHAP_30_MK266_HEI_T" },
 			shot_delay = 0.3,
-			virtualStwID = 1
+			switch_on_delay = 50
 		}, {
-			ammo_capacity = 78,
-			automaticLoader = false,
+			shell_name = {}
+		}, {
+			ammo_capacity = 54,
+			shell_name = {}
+		}, {
 			feedSlot = 2,
-			reload_time = 600,
-			shell_name = { "CHAP_30_MK258_APFSDS_T" },
-			shot_delay = 0.3,
-			virtualStwID = 1
+			shell_name = { "CHAP_30_MK258_APFSDS_T" }
+		}, {
+			feedSlot = 2,
+			shell_name = { "CHAP_30_MK258_APFSDS_T" }
+		}, {
+			ammo_capacity = 54,
+			feedSlot = 2,
+			shell_name = { "CHAP_30_MK258_APFSDS_T" }
 		} },
 	display_name = "XM813",
 	distanceMax = 3000,

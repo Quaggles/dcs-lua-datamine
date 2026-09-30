@@ -6,6 +6,7 @@ _G["warheads"]["BLU_107B"] = {
 	cumulative_thickness = 0,
 	default_fuze_delay = 0.5,
 	expl_mass = 115,
+	is_htp = true,
 	mass = 165,
 	obj_factors = { 1, 1, 1 },
 	other_factors = { 0.5, 0.5, 1 },

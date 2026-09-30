@@ -1,5 +1,4 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
-	AuthoritySector = { -0.5235987755983, 0.5235987755983 },
 	CanopyGeometry = {
 		azimuth = {},
 		elevation = {}
@@ -41,6 +40,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 				} },
 			angles = { {} },
 			angles_mech = { {} },
+			canSetTacticalDir = true,
 			center = "CENTER_TOWER_01",
 			isoviewOffset = {},
 			pidY = {},

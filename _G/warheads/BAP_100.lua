@@ -5,6 +5,7 @@ _G["warheads"]["BAP_100"] = {
 	cumulative_thickness = 0,
 	default_fuze_delay = 0.5,
 	expl_mass = 3.5,
+	is_htp = true,
 	mass = 18,
 	obj_factors = { 0.1, 0.1, 0.1 },
 	other_factors = { 0.5, 0.5, 1 },

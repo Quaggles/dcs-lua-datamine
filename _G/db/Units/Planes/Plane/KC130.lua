@@ -8,6 +8,108 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		DISPENSER = "AN/ALE-47",
 		IRCM = "AN/ALQ-157"
 	},
+	Damage = {
+		[0] = {
+			args = { 146 },
+			critical_damage = 5
+		},
+		[3] = {
+			args = { 65 },
+			critical_damage = 20
+		},
+		[4] = {
+			args = { 150 },
+			critical_damage = 4
+		},
+		[5] = {
+			args = { 147 },
+			critical_damage = 4
+		},
+		[6] = {
+			args = { 152 },
+			critical_damage = 5
+		},
+		[9] = {
+			args = { 148 },
+			critical_damage = 6
+		},
+		[10] = {
+			args = { 149 },
+			critical_damage = 6
+		},
+		[11] = {
+			args = { 167 },
+			critical_damage = 3
+		},
+		[12] = {
+			args = { 161 },
+			critical_damage = 3
+		},
+		[17] = {
+			args = { 162 },
+			critical_damage = 3
+		},
+		[18] = {
+			args = { 163 },
+			critical_damage = 3
+		},
+		[23] = {
+			args = { 223 },
+			critical_damage = 8
+		},
+		[24] = {
+			args = { 213 },
+			critical_damage = 8
+		},
+		[29] = {
+			args = { 224 },
+			critical_damage = 9,
+			deps_cells = { 23, 17 }
+		},
+		[30] = {
+			args = { 214 },
+			critical_damage = 9,
+			deps_cells = { 24, 18 }
+		},
+		[35] = {
+			args = { 225 },
+			critical_damage = 20,
+			deps_cells = { 29, 11 }
+		},
+		[36] = {
+			args = { 215 },
+			critical_damage = 20,
+			deps_cells = { 30, 12 }
+		},
+		[43] = {
+			args = { 142 },
+			critical_damage = 9
+		},
+		[47] = {
+			args = { 236 },
+			critical_damage = 5
+		},
+		[48] = {
+			args = { 234 },
+			critical_damage = 5
+		},
+		[55] = {
+			args = { 159 },
+			critical_damage = 5
+		},
+		[56] = {
+			args = { 141 },
+			critical_damage = 5
+		},
+		[57] = {
+			args = { 140 },
+			critical_damage = 5
+		},
+		[82] = {
+			args = { 143 },
+			critical_damage = 7
+		}
+	},
 	DamageParts = { "kc-130-OBLOMOK-WING-R", "kc-130-OBLOMOK-WING-L" },
 	DefaultTask = <1>{
 		Name = "Refueling",

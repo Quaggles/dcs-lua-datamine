@@ -63,10 +63,10 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		transportaionStateArgsAndVals = { {}, {} }
 	},
 	armour_scheme = {
-		hull_azimuth = { {}, {}, {} },
-		hull_elevation = { {}, {} },
+		hull_azimuth = { {} },
+		hull_elevation = { {} },
 		turret_azimuth = { {} },
-		turret_elevation = { {}, {} }
+		turret_elevation = { {} }
 	},
 	attribute = { 2, 17, 104, "Redacted", "APC", "ATGM", "Datalink", "Infantry carriers", "Armored vehicles", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "AntiAir Armed Vehicles", "NonAndLightArmoredUnits", "LightArmoredUnits" },
 	category = "Armor",

@@ -20,7 +20,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					min_launch_angle = 0.078539816339745,
 					sensor = {}
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.1344640137963 } },
+			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 1.1344640137963 } },
 			center = "CENTER_TOWER",
 			drawArgument1 = 0,
 			drawArgument2 = 1,

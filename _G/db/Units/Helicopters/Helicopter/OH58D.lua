@@ -120,10 +120,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			args = { 170 },
 			critical_damage = 2
 		},
-		[8] = {
-			args = { -1 },
-			critical_damage = 2
-		},
 		[9] = {
 			args = { 150, 50 },
 			construction = {
@@ -285,10 +281,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			},
 			critical_damage = 4,
 			droppable = false
-		},
-		[100] = {
-			args = { -1 },
-			critical_damage = 2
 		},
 		[103] = {
 			args = { -1 },
@@ -500,7 +492,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			ENGINE_L = 11,
 			ENG_OIL = 143,
 			FRONT = 0,
-			FRONT_GEAR_BOX = 8,
 			FUEL_TANK_B = 62,
 			FUSELAGE_BOTTOM = 82,
 			FUSELAGE_LEFT_SIDE = 9,
@@ -529,7 +520,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			STABILIZATOR_L = 47,
 			TAIL = 55,
 			TAIL_BOTTOM = 58,
-			TAIL_TOP = 100,
 			WING_L_00 = 111,
 			WING_L_01 = 112,
 			WING_L_02 = 113,
@@ -2344,6 +2334,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			name = "OH58D-oblomok",
 			positioning = "BYNORMAL"
 		} },
+	sound_launcher_z_threshold = 3.5,
 	sound_name = "Aircrafts/Engines/OH58DRotor",
 	swapped_names = true,
 	tail_fin_area = 0.96,

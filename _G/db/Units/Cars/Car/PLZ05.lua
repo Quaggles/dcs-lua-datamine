@@ -1,4 +1,5 @@
 _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
+	Aliases = { "PLZ05" },
 	CanopyGeometry = {
 		azimuth = {},
 		elevation = {}
@@ -6,6 +7,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 	Countries = { "China" },
 	DetectionRange = 0,
 	DisplayName = "PLZ-05",
+	DisplayNameShort = "PLZ05",
 	EPLRS = true,
 	IR_emission_coeff = 0.1,
 	MaxSpeed = 55.98,
@@ -121,7 +123,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_azimuth = { { 0, 180, 1 } },
 		turret_elevation = { { -90, 40, 1 }, { 40, 90, 0.7 } }
 	},
-	attribute = { 2, 17, 26, "Redacted", "Artillery", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "Indirect fire", "NonAndLightArmoredUnits", "LightArmoredUnits" },
+	attribute = { 2, 17, 26, "Redacted", "Artillery", "Datalink", "All", "Ground Units", "Ground Units Non Airdefence", "Armed ground units", "Vehicles", "Ground vehicles", "Armed vehicles", "Indirect fire", "NonAndLightArmoredUnits", "LightArmoredUnits" },
 	category = "Artillery",
 	chassis = {},
 	crew_locale = "ENG",

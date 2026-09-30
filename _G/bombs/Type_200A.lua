@@ -20,6 +20,7 @@ _G["bombs"]["#Index"] = {
 		cumulative_thickness = 0,
 		default_fuze_delay = 0.5,
 		expl_mass = 90,
+		is_htp = true,
 		mass = 130,
 		obj_factors = { 1, 1, 1 },
 		other_factors = { 0.5, 0.5, 1 },

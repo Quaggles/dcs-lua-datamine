@@ -151,7 +151,7 @@ _G["rockets"]["#Index"] = {
 	},
 	scheme = "aa_missile_amraam2",
 	sensor = {
-		FOV = 1.0471975511966,
+		FOV = 0.31415926535898,
 		aim_sigma = 3.5,
 		ccm_k0 = 0.11,
 		delay = 1.5,
@@ -159,7 +159,7 @@ _G["rockets"]["#Index"] = {
 		height_error_max_h = 300,
 		height_error_max_vel = 50,
 		hoj = 1,
-		max_w_LOS = 0.5235987755983,
+		max_w_LOS = 0.62831853071796,
 		op_time = 100,
 		sens_far_dist = 30000,
 		sens_near_dist = 100

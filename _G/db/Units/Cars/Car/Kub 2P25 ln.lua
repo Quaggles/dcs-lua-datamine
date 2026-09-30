@@ -5,6 +5,22 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		elevation = {}
 	},
 	CustomAimPoint = { 0, 1.4, 0 },
+	DM = { {
+			area_name = "Target_cannon",
+			armour = {
+				width = 0.001
+			}
+		}, {
+			area_name = "Target_chassis",
+			armour = {
+				width = 0.005
+			}
+		}, {
+			area_name = "Target_turret",
+			armour = {
+				width = 0.001
+			}
+		} },
 	DetectionRange = 0,
 	DisplayName = 'SAM SA-6 Kub "Gainful" TEL',
 	DisplayNameShort = "SA-6",
@@ -23,7 +39,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 					min_launch_angle = 0.34906585039887,
 					sensor = {}
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.223 } },
+			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 1.223 } },
 			drawArgument1 = 0,
 			drawArgument2 = 1,
 			mount_before_move = true,

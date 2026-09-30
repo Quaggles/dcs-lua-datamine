@@ -45,7 +45,7 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		turret_azimuth = { {} },
 		turret_elevation = { {} }
 	},
-	attribute = { 2, 17, 25, "Redacted", "Trucks", "All", "Ground Units", "Vehicles", "Ground vehicles", "Ground Units Non Airdefence", "NonAndLightArmoredUnits", "NonArmoredUnits", "Unarmed vehicles" },
+	attribute = { 2, 17, 25, "Redacted", "Trailers", "All", "Ground Units", "Vehicles", "Ground vehicles" },
 	canBeTowedBy = { "CHAP_SaddleSLT50" },
 	category = "Unarmed",
 	chassis = {

@@ -2998,6 +2998,19 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						C = { { "Arg", 86, "to", 0, "speed", 0.186 } }
 					} },
 				Transition = { "Board", "Close" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 38, "to", 1, "speed", 0.25 } }
+					}, {
+						C = { { "Sleep", "for", 2 } }
+					}, {
+						C = { { "Arg", 86, "to", 0.91, "speed", 0.186 } }
+					}, {
+						C = { { "PosType", 6 }, { "Sleep", "for", 8 } }
+					}, {
+						C = { { "VelType", 0 }, { "Arg", 85, "to", 1, "speed", 3.5 } }
+					} },
+				Transition = { "Board", "Open" }
 			} },
 		CustomMechanism0 = { {
 				Sequence = { {

@@ -52,13 +52,15 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 							type_ammunition = {}
 						} },
 					beamWidth = 1.5707963267949,
+					inclination_correction_bias = 0.034906585039887,
+					inclination_correction_upper_limit = 0.26179938779915,
 					max_number_of_missiles_channels = 2,
-					min_launch_angle = 0.087266462599716,
+					min_launch_angle = -0.05235987755983,
 					sensor = {},
 					sightIndicationMode = 1,
 					sightMasterMode = 1
 				} },
-			angles = { { 3.1415926535898, -3.1415926535898, 0, 1.221730476396 } },
+			angles = { { 3.1415926535898, -3.1415926535898, -0.087266462599716, 1.221730476396 } },
 			angles_mech = { { 3.1415926535898, -3.1415926535898, -0.17453292519943, 1.221730476396 } },
 			center = "CENTER_TOWER",
 			cockpit = { "9SH127/9SH127", { 0, 0, 0 } },

@@ -43789,7 +43789,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	crew_size = 2,
 	crew_stations = "HumanOrchestra",
 	detection_range_max = 60,
-	effects_presets = {},
 	engines_count = 2,
 	engines_nozzles = { {
 			afterburner_circles_count = 8,

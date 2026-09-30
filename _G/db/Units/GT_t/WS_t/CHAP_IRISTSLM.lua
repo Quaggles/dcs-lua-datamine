@@ -6,10 +6,10 @@ _G["db"]["Units"]["GT_t"]["WS_t"]["CHAP_IRISTSLM"] = {
 			ECM_K = 0.2,
 			PL = { {
 					ammo_capacity = 8,
-					reload_time = 1800,
-					switch_on_delay = 3,
+					reload_time = 225,
 					type_ammunition = "weapons.missiles.SA_IRIS_T_SL"
 				} },
+			barrels_reload_type = 3,
 			distanceMax = 40000,
 			distanceMin = 1200,
 			external_tracking_awacs = false,

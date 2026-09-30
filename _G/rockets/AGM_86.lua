@@ -196,6 +196,7 @@ _G["rockets"]["#Index"] = {
 		cumulative_thickness = 0,
 		default_fuze_delay = 0,
 		expl_mass = 180,
+		is_htp = true,
 		mass = 180,
 		obj_factors = { 1, 1 },
 		other_factors = { 1, 1, 1 },

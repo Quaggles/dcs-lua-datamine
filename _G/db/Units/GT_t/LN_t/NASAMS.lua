@@ -15,6 +15,7 @@ _G["db"]["Units"]["GT_t"]["LN_t"]["NASAMS"] = {
 	launch_delay = 1,
 	maxShootingSpeed = 0,
 	max_number_of_missiles_channels = 1,
+	min_launch_angle = -0.17453292519943,
 	reactionTime = 0.2,
 	reflection_limit = 0.05,
 	sensor = {},
