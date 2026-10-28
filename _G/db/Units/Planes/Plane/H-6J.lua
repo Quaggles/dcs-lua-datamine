@@ -129,11 +129,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 152 },
 			critical_damage = 4
 		},
-		[137] = {
+		[175] = {
 			args = { 154 },
 			critical_damage = 4
 		},
-		[138] = {
+		[176] = {
 			args = { 153 },
 			critical_damage = 4
 		},
@@ -149,8 +149,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			FLAP_L_OUT = 31,
 			FLAP_R_OUT = 32,
 			FUSELAGE_BOTTOM = 82,
-			FUSELAGE_CENTR_L = 137,
-			FUSELAGE_CENTR_R = 138,
+			FUSELAGE_CENTR_L = 175,
+			FUSELAGE_CENTR_R = 176,
 			FUSELAGE_LEFT_SIDE = 9,
 			FUSELAGE_RIGHT_SIDE = 10,
 			LEFT_GEAR_BOX = 15,

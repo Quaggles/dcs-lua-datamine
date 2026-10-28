@@ -28,6 +28,16 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 5,
 			droppable = false
 		},
+		[9] = {
+			args = { 154, 299 },
+			critical_damage = 5,
+			droppable = false
+		},
+		[10] = {
+			args = { 153, 303 },
+			critical_damage = 5,
+			droppable = false
+		},
 		[11] = {
 			args = { 167 },
 			critical_damage = 10
@@ -129,45 +139,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 3,
 			droppable = false
 		},
-		[137] = {
-			args = { 154, 299 },
-			critical_damage = 5,
-			droppable = false
-		},
-		[138] = {
-			args = { 153, 303 },
-			critical_damage = 5,
-			droppable = false
-		},
 		cell_indices = {
-			CABIN_LEFT_SIDE = 4,
-			CABIN_RIGHT_SIDE = 5,
-			COCKPIT = 3,
-			ELERON_L = 25,
-			ELERON_R = 26,
-			ELEVATOR_L_IN = 51,
-			ELEVATOR_R_IN = 52,
-			ENGINE_L = 11,
-			ENGINE_R = 12,
-			FIN_L_TOP = 39,
-			FIN_R_TOP = 40,
-			FLAP_L_IN = 37,
-			FLAP_R_IN = 38,
-			FUSELAGE_L = 137,
-			FUSELAGE_R = 138,
-			NOSE_BOTTOM = 59,
-			NOSE_CENTER = 0,
-			PWD = 60,
-			RUDDER_L = 53,
-			RUDDER_R = 54,
-			TAIL = 55,
-			WHEEL_F = 83,
-			WHEEL_L = 84,
-			WHEEL_R = 85,
-			WING_L_CENTER = 29,
-			WING_L_IN = 35,
-			WING_R_CENTER = 30,
-			WING_R_IN = 36
+			RUDDER_L001 = 53,
+			RUDDER_R001 = 54
 		}
 	},
 	DamageParts = { "MIG-31-OBLOMOK-WING-R", "MIG-31-OBLOMOK-WING-L" },

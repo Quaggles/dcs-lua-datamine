@@ -65,7 +65,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 5,
 			damage_boundary = 0.1,
 			droppable = false,
-			failures = { { "ELEC_CABIN_LIGHTS_FAILURE", 0.05, "Exclusive" }, { "ELEC_OIL_GAUGE_FAILURE", 0.05 }, { "ELEC_C5_LAMP_POOR_CONTACT", 1 }, { "ELEC_UC_LAMP_FAILURE", 0.07 } }
+			failures = { { "ELEC_CABIN_LIGHTS_FAILURE", 0.05, "Single" }, { "ELEC_OIL_GAUGE_FAILURE", 0.05 }, { "ELEC_C5_LAMP_POOR_CONTACT", 1 }, { "ELEC_UC_LAMP_FAILURE", 0.07 } }
 		}, {
 			args = { 153 },
 			construction = {
@@ -75,10 +75,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 5,
 			damage_boundary = 0.1,
 			droppable = false,
-			failures = { { "ELEC_SIGNAL_LIGHTS_FAILURE", 0.01 }, { "ELEC_SIGNAL_LIGHTS_MALFUNCTION", 0.05 }, { "ELEC_CABIN_LIGHTS_FAILURE", 0.05, "Exclusive" }, { "ELEC_OIL_GAUGE_FAILURE", 0.05 }, { "ELEC_C5_LAMP_1_POOR_CONTACT", 1 } }
+			failures = { { "ELEC_SIGNAL_LIGHTS_FAILURE", 0.01 }, { "ELEC_SIGNAL_LIGHTS_MALFUNCTION", 0.05 }, { "ELEC_CABIN_LIGHTS_FAILURE", 0.05, "Single" }, { "ELEC_OIL_GAUGE_FAILURE", 0.05 }, { "ELEC_C5_LAMP_1_POOR_CONTACT", 1 } }
 		}, {
 			args = { 152 },
-			children = { 82, 59, 4, 5, 137 },
+			children = { 82, 59, 4, 5, 171 },
 			construction = {
 				durability = 3.13,
 				skin = "Aluminum"
@@ -129,7 +129,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					skin = "Aluminum",
 					wall = 0.003
 				}, {
-					failures = { { "ELEC_MSB_CB_BUSTED", 0.1, "Exclusive" }, { "ELEC_MSB_CONTROLS_FAILURE", 0.5 }, { "ELEC_MSB_DAMAGED", 0.22 } },
+					failures = { { "ELEC_MSB_CB_BUSTED", 0.1, "Single" }, { "ELEC_MSB_CONTROLS_FAILURE", 0.5 }, { "ELEC_MSB_DAMAGED", 0.22 } },
 					id = "XElecElement3",
 					skin = "Aluminum",
 					wall = 0.003
@@ -864,7 +864,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[59] = {
 			args = { 148 },
-			children = { 1, 2, 140, 35, 36, 103 },
+			children = { 1, 2, 170, 35, 36, 103 },
 			construction = {
 				durability = 2.52,
 				skin = "Aluminum"
@@ -1049,7 +1049,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.006
 				}, {
 					durability = 0.05,
-					failures = { { "VHF_CRYSTAL", 0.5, "Exclusive" }, { "VHF_SHORTED_CTL_BOX", 0.2, "Exclusive" }, { "VHF_VT_BURNED_OUT", 0.1, "Exclusive" }, { "VHF_VT207_DEFECTIVE", 0.01, "Exclusive" }, { "VHF_SQUELCH_RELAY", 0.8, "Exclusive" } },
+					failures = { { "VHF_CRYSTAL", 0.5, "Exclusive" }, { "VHF_SHORTED_CTL_BOX", 0.2, "Exclusive" }, { "VHF_VT_BURNED_OUT", 0.1, "Exclusive" }, { "VHF_VT207_DEFECTIVE", 0.01, "Single" }, { "VHF_SQUELCH_RELAY", 0.8, "Single" } },
 					id = "XElecRadio",
 					plenum = 0.75,
 					skin = "Plastic",
@@ -1147,7 +1147,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[103] = {
 			args = { 146 },
-			children = { 12, 138, 11, 139, 63 },
+			children = { 12, 175, 11, 176, 63 },
 			construction = {
 				durability = 0.64,
 				skin = "Aluminum",
@@ -1346,7 +1346,18 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.006
 				} }
 		},
-		[137] = {
+		[170] = {
+			args = { 147 },
+			construction = {
+				durability = 2,
+				skin = "Aluminum"
+			},
+			critical_damage = 3,
+			damage_boundary = 0.1,
+			droppable = false,
+			failures = { { "INST_VARIOMETER_DEPRESSURIZATION", 0.01 }, { "INST_VARIOMETER_CLOGGED", 0.01 }, { "INST_SPEEDOMETER_DEPRESSURIZATION", 0.01 }, { "INST_DI_EXCESSIVE_DRIFT", 0.01 }, { "INST_DI_MECHANICAL_FAILURE", 0.01 }, { "INST_TACH0_LOOM_SEVERED", 0.01 }, { "INST_TACH0_POOR_CONNECTION", 0.01 }, { "INST_TACH0_RESISTANCE_MISMATCH", 0.01 }, { "HORIZON_BAR_NOT_SETTLE", 0.01 }, { "TURNIND_POINTER_FAILS_NO_VACUUM", 0.01 }, { "TURNIND_POINTER_FAILS_DEFECTIVE", 0.01 }, { "TURNIND_INCORRECT_SENS_DEFECTIVE", 0.01 }, { "TURNIND_INCORRECT_SENS_VAC_HIGH", 0.01 }, { "TURNIND_INCORRECT_SENS_VAC_LOW", 0.01 }, { "TURNIND_POINTER_NOT_SET_ZERO", 0.01 }, { "TURNIND_POINTER_VIBRATES", 0.01 }, { "SUCTION_PUMP_FAILURE", 0.01 } }
+		},
+		[171] = {
 			args = { 151 },
 			children = { 3 },
 			construction = {
@@ -1358,7 +1369,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			droppable = false,
 			failures = { { "INST_VARIOMETER_DEPRESSURIZATION", 0.01 }, { "INST_VARIOMETER_CLOGGED", 0.01 }, { "INST_SPEEDOMETER_DEPRESSURIZATION", 0.01 }, { "INST_DI_EXCESSIVE_DRIFT", 0.01 }, { "INST_DI_MECHANICAL_FAILURE", 0.01 }, { "INST_TACH0_LOOM_SEVERED", 0.01 }, { "INST_TACH0_POOR_CONNECTION", 0.01 }, { "INST_TACH0_RESISTANCE_MISMATCH", 0.01 }, { "INST_TACH1_LOOM_SEVERED", 0.01 }, { "INST_TACH1_POOR_CONNECTION", 0.01 }, { "INST_TACH1_RESISTANCE_MISMATCH", 0.01 }, { "INST_HUD_FAILURE", 0.01 }, { "INST_COMPASS_MALFUNCTION", 0.01 }, { "INST_CLOCK_MALFUNCTION", 0.01 }, { "HORIZON_BAR_NOT_SETTLE", 0.01 }, { "TURNIND_POINTER_FAILS_NO_VACUUM", 0.01 }, { "TURNIND_POINTER_FAILS_DEFECTIVE", 0.01 }, { "TURNIND_INCORRECT_SENS_DEFECTIVE", 0.01 }, { "TURNIND_INCORRECT_SENS_VAC_HIGH", 0.01 }, { "TURNIND_INCORRECT_SENS_VAC_LOW", 0.01 }, { "TURNIND_POINTER_NOT_SET_ZERO", 0.01 }, { "TURNIND_POINTER_VIBRATES", 0.01 }, { "ELEC_RETICLE_BULB_FAILURE", 0.01 }, { "K14_NO_POWER_SUPPLY", 0.01 }, { "K14_FIXED_LAMP_DEFECTIVE", 0.01 }, { "K14_MOV_LAMP_DEFECTIVE", 0.01 }, { "K14_MOTOR_DEFECTIVE", 0.01 } }
 		},
-		[138] = {
+		[175] = {
 			args = { 296 },
 			construction = {
 				durability = 0.84,
@@ -1382,7 +1393,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.006
 				} }
 		},
-		[139] = {
+		[176] = {
 			args = { 298 },
 			construction = {
 				durability = 1.95,
@@ -1406,17 +1417,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.006
 				} }
 		},
-		[140] = {
-			args = { 147 },
-			construction = {
-				durability = 2,
-				skin = "Aluminum"
-			},
-			critical_damage = 3,
-			damage_boundary = 0.1,
-			droppable = false,
-			failures = { { "INST_VARIOMETER_DEPRESSURIZATION", 0.01 }, { "INST_VARIOMETER_CLOGGED", 0.01 }, { "INST_SPEEDOMETER_DEPRESSURIZATION", 0.01 }, { "INST_DI_EXCESSIVE_DRIFT", 0.01 }, { "INST_DI_MECHANICAL_FAILURE", 0.01 }, { "INST_TACH0_LOOM_SEVERED", 0.01 }, { "INST_TACH0_POOR_CONNECTION", 0.01 }, { "INST_TACH0_RESISTANCE_MISMATCH", 0.01 }, { "HORIZON_BAR_NOT_SETTLE", 0.01 }, { "TURNIND_POINTER_FAILS_NO_VACUUM", 0.01 }, { "TURNIND_POINTER_FAILS_DEFECTIVE", 0.01 }, { "TURNIND_INCORRECT_SENS_DEFECTIVE", 0.01 }, { "TURNIND_INCORRECT_SENS_VAC_HIGH", 0.01 }, { "TURNIND_INCORRECT_SENS_VAC_LOW", 0.01 }, { "TURNIND_POINTER_NOT_SET_ZERO", 0.01 }, { "TURNIND_POINTER_VIBRATES", 0.01 }, { "SUCTION_PUMP_FAILURE", 0.01 } }
-		},
 		cell_indices = {
 			BLADE_1_IN = 64,
 			BLADE_1_OUT = 66,
@@ -1429,10 +1429,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			CABIN_BOTTOM = 6,
 			CABIN_LEFT_SIDE = 4,
 			CABIN_RIGHT_SIDE = 5,
-			CABIN_TOP = 137,
+			CABIN_TOP = 171,
 			COCKPIT = 3,
-			COWLING_2 = 138,
-			COWLING_4 = 139,
+			COWLING_2 = 175,
+			COWLING_4 = 176,
 			ELERON_L = 25,
 			ELERON_R = 26,
 			ELEVATOR_L_OUT = 49,
@@ -1454,7 +1454,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			NOSE_BOTTOM = 59,
 			NOSE_LEFT_SIDE = 1,
 			NOSE_RIGHT_SIDE = 2,
-			NOSE_TOP = 140,
+			NOSE_TOP = 170,
 			PYLONL = 86,
 			PYLONR = 87,
 			ROTOR = 63,

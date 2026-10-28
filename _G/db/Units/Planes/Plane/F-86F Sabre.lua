@@ -175,15 +175,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 135 },
 			critical_damage = 3
 		},
-		[137] = {
+		[175] = {
 			args = { 265, 134 },
 			critical_damage = 1
 		},
-		[138] = {
+		[176] = {
 			args = { 267, 136 },
 			critical_damage = 1
 		},
-		[139] = {
+		[177] = {
 			args = { 266, 135 },
 			critical_damage = 1
 		},
@@ -206,9 +206,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			FUSELAGE_BOTTOM = 82,
 			FUSELAGE_LEFT_SIDE = 9,
 			FUSELAGE_RIGHT_SIDE = 10,
-			GEAR_DOOR_F = 137,
-			GEAR_DOOR_L = 138,
-			GEAR_DOOR_R = 139,
+			GEAR_DOOR_F = 175,
+			GEAR_DOOR_L = 176,
+			GEAR_DOOR_R = 177,
 			NOSE_BOTTOM = 59,
 			NOSE_CENTER = 0,
 			NOSE_LEFT_SIDE = 1,

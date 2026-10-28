@@ -844,6 +844,10 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "CHAP_BMD2",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "M4_Sherman",
 					in_service = 0,
 					out_of_service = 40000
@@ -1332,6 +1336,26 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
+					Name = "CHAP_Ural4320_ZU232",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "CHAP_ZIL131",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "CHAP_ZIL131_Kung",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "CHAP_Atlet",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "CHAP_UralTyphoon",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
 					Name = "M-2 Bradley",
 					in_service = 0,
 					out_of_service = 40000
@@ -1429,6 +1453,14 @@ _G["db"]["Countries"]["#Index"] = {
 					out_of_service = 40000
 				}, {
 					Name = "PLZ05",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "CHAP_PGZ09",
+					in_service = 0,
+					out_of_service = 40000
+				}, {
+					Name = "CHAP_ZTQ15",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
@@ -2874,11 +2906,11 @@ _G["db"]["Countries"]["#Index"] = {
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "F-14A-135-GR-Early",
+					Name = "F-14BU",
 					in_service = 0,
 					out_of_service = 40000
 				}, {
-					Name = "F-14BU",
+					Name = "F-14A-135-GR-Early",
 					in_service = 0,
 					out_of_service = 40000
 				}, {

@@ -88,7 +88,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[8] = {
 			args = { 265 },
 			critical_damage = 4,
-			deps_cells = { 137 }
+			deps_cells = { 83 }
 		},
 		[9] = {
 			args = { 154 },
@@ -109,12 +109,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[15] = {
 			args = { 267 },
 			critical_damage = 4,
-			deps_cells = { 138 }
+			deps_cells = { 84 }
 		},
 		[16] = {
 			args = { 266 },
 			critical_damage = 4,
-			deps_cells = { 139 }
+			deps_cells = { 85 }
 		},
 		[17] = {
 			args = { 272 },
@@ -321,6 +321,18 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 4,
 			deps_cells = { 98 }
 		},
+		[83] = {
+			args = { 253 },
+			critical_damage = 3
+		},
+		[84] = {
+			args = { 259 },
+			critical_damage = 3
+		},
+		[85] = {
+			args = { 255 },
+			critical_damage = 3
+		},
 		[86] = {
 			critical_damage = 2
 		},
@@ -349,92 +361,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[99] = {
 			args = { 151 },
 			critical_damage = 4
-		},
-		[137] = {
-			args = { 253 },
-			critical_damage = 3
-		},
-		[138] = {
-			args = { 259 },
-			critical_damage = 3
-		},
-		[139] = {
-			args = { 255 },
-			critical_damage = 3
-		},
-		cell_indices = {
-			AILERON_L = 25,
-			AILERON_R = 26,
-			AIR_BRAKE_L = 19,
-			AIR_BRAKE_R = 20,
-			ARMOR_PLATE_LEFT = 96,
-			BLADE_1_CENTER = 65,
-			BLADE_1_IN = 64,
-			BLADE_1_OUT = 66,
-			BLADE_2_CENTER = 68,
-			BLADE_2_IN = 67,
-			BLADE_2_OUT = 69,
-			BLADE_3_CENTER = 71,
-			BLADE_3_IN = 70,
-			BLADE_3_OUT = 72,
-			BLADE_4_CENTER = 74,
-			BLADE_4_IN = 73,
-			BLADE_4_OUT = 75,
-			BLADE_5_CENTER = 77,
-			BLADE_5_IN = 76,
-			BLADE_5_OUT = 78,
-			BLADE_6_CENTER = 80,
-			BLADE_6_IN = 79,
-			BLADE_6_OUT = 81,
-			CABIN_BOTTOM = 6,
-			CABIN_LEFT_SIDE = 4,
-			CABIN_RIGHT_SIDE = 5,
-			COCKPIT = 3,
-			CREW_1 = 90,
-			ELEVATOR_L = 51,
-			ELEVATOR_R = 52,
-			ENGINE_L = 11,
-			ENGINE_L_OUT = 17,
-			ENGINE_R = 12,
-			ENGINE_R_OUT = 18,
-			FIN_L_BOTTOM = 43,
-			FIN_L_CENTER = 41,
-			FIN_L_TOP = 39,
-			FLAP_L = 37,
-			FLAP_R = 38,
-			FRONT_GEAR_BOX = 8,
-			FRONT_WHEEL = 137,
-			FUEL_TANK_B = 62,
-			FUEL_TANK_F = 61,
-			FUSELAGE_BOTTOM = 82,
-			FUSELAGE_LEFT_SIDE = 9,
-			FUSELAGE_RIGHT_SIDE = 10,
-			FUSELAGE_TOP = 99,
-			HOOK = 98,
-			LEFT_GEAR_BOX = 15,
-			LEFT_WHEEL = 138,
-			NOSE_BOTTOM = 59,
-			NOSE_CENTER = 0,
-			NOSE_LEFT_SIDE = 1,
-			NOSE_RIGHT_SIDE = 2,
-			PITOT = 60,
-			PYLON1 = 86,
-			PYLON2 = 87,
-			PYLON3 = 88,
-			PYLON4 = 89,
-			RIGHT_GEAR_BOX = 16,
-			RIGHT_WHEEL = 139,
-			RUDDER = 53,
-			TAIL = 55,
-			TAIL_BOTTOM = 58,
-			TAIL_LEFT_SIDE = 56,
-			TAIL_RIGHT_SIDE = 57,
-			WING_L_CENTER = 29,
-			WING_L_IN = 35,
-			WING_L_OUT = 23,
-			WING_R_CENTER = 30,
-			WING_R_IN = 36,
-			WING_R_OUT = 24
 		}
 	},
 	DamageParts = { "MIG_19P_OBLOMOK_WING_L", "MIG_19P_OBLOMOK_WING_R",

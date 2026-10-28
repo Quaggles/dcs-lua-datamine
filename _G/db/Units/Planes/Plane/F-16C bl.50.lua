@@ -62,11 +62,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[35] = {
 			args = { 67 },
-			critical_damage = 5
+			critical_damage = 5,
+			deps_cells = { 37 }
 		},
 		[36] = {
 			args = { 68 },
-			critical_damage = 5
+			critical_damage = 5,
+			deps_cells = { 38 }
 		},
 		[37] = {
 			args = { 55 },
@@ -92,6 +94,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[53] = {
 			args = { 57 },
 			critical_damage = 2
+		},
+		cell_indices = {
+			Line_KIL_L = 43,
+			Line_MAIN = 10,
+			Line_STABIL_L = 47,
+			Line_STABIL_R = 48,
+			Line_WING_L = 35,
+			Line_WING_R = 36
 		}
 	},
 	DamageParts = { "F-16-OBLOMOK-WING-R", "F-16-OBLOMOK-WING-L" },
@@ -165,7 +175,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						life_time = 30,
 						manualWeaponFlag = 21,
 						mass = 0.1,
-						model_name = "tracer_bullet_yellow",
+						model_name = "tracer_bullet_red",
 						name = "M61_20_HE",
 						payload = 0.02030644268045,
 						payload_type = 0,
@@ -351,7 +361,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						life_time = 31,
 						manualWeaponFlag = 21,
 						mass = 0.1,
-						model_name = "tracer_bullet_yellow",
+						model_name = "tracer_bullet_red",
 						name = "M61_20_TP",
 						payload = 0,
 						payload_type = 0,
@@ -413,7 +423,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						life_time = 31,
 						manualWeaponFlag = 21,
 						mass = 0.11,
-						model_name = "tracer_bullet_yellow",
+						model_name = "tracer_bullet_red",
 						name = "M61_20_TP_T",
 						payload = 0,
 						payload_type = 0,
@@ -537,7 +547,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						life_time = 31,
 						manualWeaponFlag = 21,
 						mass = 0.097,
-						model_name = "tracer_bullet_yellow",
+						model_name = "tracer_bullet_red",
 						name = "M61_20_PGU27",
 						payload = 0,
 						payload_type = 0,

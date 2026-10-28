@@ -717,7 +717,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					deps_cells = { 55 }
 				},
 				[63] = {
-					args = { -1 },
 					critical_damage = 4
 				},
 				[64] = {

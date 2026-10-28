@@ -474,6 +474,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				spar = "FlangeBeam"
 			},
 			critical_damage = 4,
+			damage_boundary = 0.013,
 			detachable = {
 				shape = "p51-oblomok_tail"
 			},
@@ -485,17 +486,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.005
 				} }
 		},
-		[41] = {
-			args = { 242 },
+		[43] = {
+			args = { 243 },
 			children = { 39 },
 			construction = {
-				durability = 0.234,
+				durability = 0.678,
 				refractory = true,
 				skin = "Aluminum",
 				spar = "FlangeBeam"
 			},
-			critical_damage = 4,
-			damage_boundary = 0.013,
+			critical_damage = 6,
+			damage_boundary = 0.015,
 			detachable = {
 				shape = "p51-oblomok_tail"
 			},
@@ -506,21 +507,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					skin = "Aluminum",
 					wall = 0.005
 				} }
-		},
-		[43] = {
-			args = { 243 },
-			children = { 41 },
-			construction = {
-				durability = 0.444,
-				refractory = true,
-				skin = "Aluminum",
-				spar = "FlangeBeam"
-			},
-			critical_damage = 6,
-			damage_boundary = 0.015,
-			detachable = {
-				shape = "p51-oblomok_tail"
-			}
 		},
 		[45] = {
 			args = { 235 },

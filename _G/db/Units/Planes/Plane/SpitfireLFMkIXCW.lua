@@ -174,6 +174,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				} }
 		},
 		[8] = {
+			args = { 253 },
 			children = { 83 },
 			construction = {
 				durability = 10,
@@ -256,6 +257,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				} }
 		},
 		[15] = {
+			args = { 259 },
 			children = { 84 },
 			construction = {
 				durability = 10,
@@ -279,6 +281,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				} }
 		},
 		[16] = {
+			args = { 255 },
 			children = { 85 },
 			construction = {
 				durability = 10,

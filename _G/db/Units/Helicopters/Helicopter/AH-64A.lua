@@ -27,6 +27,9 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			args = { 249 },
 			critical_damage = 4
 		},
+		[8] = {
+			critical_damage = 3
+		},
 		[9] = {
 			args = { 154, 299 },
 			critical_damage = 13
@@ -42,6 +45,18 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		[12] = {
 			args = { 161 },
 			critical_damage = 2
+		},
+		[15] = {
+			critical_damage = 5
+		},
+		[16] = {
+			critical_damage = 5
+		},
+		[17] = {
+			critical_damage = 1
+		},
+		[18] = {
+			critical_damage = 1
 		},
 		[29] = {
 			args = { 224 },
@@ -67,23 +82,25 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			args = { 233 },
 			critical_damage = 4
 		},
+		[54] = {
+			critical_damage = 3,
+			deps_cells = { 55 }
+		},
 		[55] = {
 			args = { 159 },
 			critical_damage = 3
 		},
 		[56] = {
-			args = { 81, 158 },
+			args = { 158, -1, -1, -1, -1, 81 },
 			critical_damage = 13,
-			deps_cells = { 55 }
-		},
-		[57] = {
-			args = { 81, 157 },
-			critical_damage = 13,
-			deps_cells = { 55 }
+			deps_cells = { 54 }
 		},
 		[59] = {
 			args = { 148 },
 			critical_damage = 4
+		},
+		[60] = {
+			critical_damage = 1
 		},
 		[61] = {
 			args = { 147 },
@@ -97,9 +114,33 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			args = { 53 },
 			critical_damage = 10
 		},
+		[64] = {
+			critical_damage = 3
+		},
+		[67] = {
+			critical_damage = 3
+		},
+		[70] = {
+			critical_damage = 3
+		},
+		[73] = {
+			critical_damage = 3
+		},
 		[82] = {
 			args = { 152 },
 			critical_damage = 14
+		},
+		[83] = {
+			critical_damage = 1
+		},
+		[84] = {
+			critical_damage = 1
+		},
+		[85] = {
+			critical_damage = 1
+		},
+		cell_indices = {
+			Line17 = 60
 		}
 	},
 	DamageParts = { "AH-64A-WING-R", "AH-64A-WING-L",

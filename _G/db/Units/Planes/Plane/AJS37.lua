@@ -99,6 +99,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 65 },
 			critical_damage = 4
 		},
+		[8] = {
+			critical_damage = 999
+		},
 		[9] = {
 			args = { 154 },
 			critical_damage = 3
@@ -112,10 +115,16 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 7,
 			deps_cells = { 55 }
 		},
+		[15] = {
+			critical_damage = 999
+		},
+		[16] = {
+			critical_damage = 999
+		},
 		[23] = {
 			args = { 223 },
 			critical_damage = 5,
-			deps_cells = { 137, 25 }
+			deps_cells = { 25 }
 		},
 		[24] = {
 			args = { 700 },
@@ -133,7 +142,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[35] = {
 			args = { 225 },
 			critical_damage = 5,
-			deps_cells = { 23, 51, 139, 138, 25 }
+			deps_cells = { 23, 51 }
 		},
 		[36] = {
 			args = { 701 },
@@ -155,6 +164,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[43] = {
 			args = { 246 },
 			critical_damage = 3
+		},
+		[44] = {
+			critical_damage = 1,
+			droppable = false
 		},
 		[47] = {
 			args = { 226 },
@@ -194,47 +207,18 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 135 },
 			critical_damage = 4
 		},
-		[137] = {
-			critical_damage = 2
-		},
-		[138] = {
-			critical_damage = 2
-		},
-		[139] = {
-			critical_damage = 2
-		},
-		[140] = {
-			critical_damage = 2
+		[171] = {
+			critical_damage = 1
 		},
 		cell_indices = {
-			AILERON_L = 25,
-			AILERON_R = 26,
-			COCKPIT = 3,
-			ELEVATOR_L_IN = 51,
-			ELEVATOR_R_IN = 52,
-			ENGINE = 11,
-			FIN_L_BOTTOM = 43,
-			FIN_L_TOP = 39,
-			FLAP_L = 37,
-			FLAP_R = 38,
-			FRONT = 0,
-			FUSELAGE_LEFT_SIDE = 9,
-			FUSELAGE_RIGHT_SIDE = 10,
-			PYLON_01 = 137,
-			PYLON_02 = 138,
-			PYLON_03 = 139,
-			PYLON_04 = 140,
-			RUDDER = 53,
-			STABILIZATOR_L = 47,
-			STABILIZATOR_R = 48,
-			TAIL = 55,
-			WHEEL_F = 83,
-			WHEEL_L = 84,
-			WHEEL_R = 85,
-			WING_L_IN = 35,
-			WING_L_OUT = 23,
-			WING_R_IN = 36,
-			WING_R_OUT = 24
+			Box002 = 8,
+			Box003 = 15,
+			Box005 = 16,
+			Canopy = 171,
+			FRONT_WHEEL = 83,
+			LEFT_WHEEL = 84,
+			NOSE_CENTR = 0,
+			RIGHT_WHEEL = 85
 		}
 	},
 	DamageParts = {
@@ -885,6 +869,38 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			hh = 0,
 			id = "ACDCRECTIFIERS",
 			label = "AC-DC rectifiers",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "FuelDistributer",
+			label = "Fuel distributer",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "FuelBoostPump_GG",
+			label = "Fuel boost pump GG",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "FuelBoostPump_AB",
+			label = "Fuel boost pump AB",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "FuelAirsystem",
+			label = "Fuel system's air system",
 			mm = 0,
 			mmint = 1,
 			prob = 100

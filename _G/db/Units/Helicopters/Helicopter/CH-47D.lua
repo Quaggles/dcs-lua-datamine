@@ -82,6 +82,18 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		[82] = {
 			args = { 152 },
 			critical_damage = 17
+		},
+		[84] = {
+			critical_damage = 2
+		},
+		[85] = {
+			critical_damage = 2
+		},
+		[173] = {
+			critical_damage = 2
+		},
+		[174] = {
+			critical_damage = 2
 		}
 	},
 	DefaultTask = <1>{

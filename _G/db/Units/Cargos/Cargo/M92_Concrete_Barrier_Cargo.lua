@@ -2,6 +2,7 @@ _G["db"]["Units"]["Cargos"]["Cargo"]["#Index"] = {
 	DisplayName = "Concrete Barrier",
 	Life = 50,
 	Name = "Concrete Barrier",
+	ProceduralRopes = true,
 	Rate = 1,
 	ShapeName = "M92_barrierb",
 	ShapeNameDstr = "M92_barrierb",

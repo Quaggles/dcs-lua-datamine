@@ -5,7 +5,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	Damage = {
 		[3] = {
 			args = { 65 },
-			critical_damage = 20
+			critical_damage = 10
 		},
 		[4] = {
 			args = { 146, 296 },

@@ -73,7 +73,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	ChaffDefault = 0,
 	Damage = { {
 			args = { -1 },
-			children = { 148, 149 },
+			children = { 186, 187 },
 			construction = {
 				durability = 2.54,
 				skin = "Plywood"
@@ -120,7 +120,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				} }
 		}, {
 			args = { -1 },
-			children = { 141, 147, 150 },
+			children = { 179, 185, 188 },
 			construction = {
 				durability = 2.34,
 				skin = "Plywood"
@@ -154,7 +154,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				} }
 		}, {
 			args = { -1 },
-			children = { 142 },
+			children = { 180 },
 			construction = {
 				durability = 0.86,
 				skin = "Glass",
@@ -225,7 +225,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.012
 				}, {
 					durability = 0.05,
-					failures = { { "VHF_CRYSTAL", 0.5, "Exclusive" }, { "VHF_SHORTED_CTL_BOX", 0.2, "Exclusive" }, { "VHF_VT_BURNED_OUT", 0.1, "Exclusive" }, { "VHF_VT207_DEFECTIVE", 0.01, "Exclusive" }, { "VHF_SQUELCH_RELAY", 0.8, "Exclusive" } },
+					failures = { { "VHF_CRYSTAL", 0.5, "Exclusive" }, { "VHF_SHORTED_CTL_BOX", 0.2, "Exclusive" }, { "VHF_VT_BURNED_OUT", 0.1, "Exclusive" }, { "VHF_VT207_DEFECTIVE", 0.01, "Single" }, { "VHF_SQUELCH_RELAY", 0.8, "Exclusive" } },
 					id = "XElecRadio",
 					plenum = 0.75,
 					skin = "Plastic",
@@ -239,7 +239,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[10] = {
 			args = { -1 },
-			children = { 123, 144 },
+			children = { 123, 182 },
 			construction = {
 				durability = 3.56,
 				skin = "Plywood"
@@ -752,7 +752,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					skin = "Steel",
 					wall = 0.004
 				}, {
-					failures = { { "UNCR_C_STRUT_HOSE_PIERCED", 1, "Exclusive" }, { "HYDR_EXTERNAL_LEAKAGE", 0.25 } },
+					failures = { { "UNCR_C_STRUT_HOSE_PIERCED", 1, "Single" }, { "HYDR_EXTERNAL_LEAKAGE", 0.25 } },
 					id = "XHydroHose7",
 					plenum = 0.003,
 					skin = "Rubber",
@@ -766,7 +766,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[59] = {
 			args = { -1 },
-			children = { 1, 2, 151, 0, 82 },
+			children = { 1, 2, 170, 0, 82 },
 			construction = {
 				durability = 1.78,
 				skin = "Plywood"
@@ -839,7 +839,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					skin = "Aluminum",
 					wall = 0.002
 				}, {
-					failures = { { "UNCR_DN_HOSES_CLOGGED", 0.5 }, { "UNCR_UP_HOSES_CLOGGED", 0.5 }, { "HYDR_INTERNAL_LEAKAGE", 0.1, "Exclusive" }, { "UNCR_LH_STRUT_HOSE_PIERCED", 0.01 }, { "UNCR_RH_STRUT_HOSE_PIERCED", 0.01 } },
+					failures = { { "UNCR_DN_HOSES_CLOGGED", 0.5 }, { "UNCR_UP_HOSES_CLOGGED", 0.5 }, { "HYDR_INTERNAL_LEAKAGE", 0.1, "Single" }, { "UNCR_LH_STRUT_HOSE_PIERCED", 0.01 }, { "UNCR_RH_STRUT_HOSE_PIERCED", 0.01 } },
 					id = "XHydroHose0",
 					plenum = 0.0002,
 					skin = "Rubber",
@@ -985,7 +985,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[82] = {
 			args = { -1 },
-			children = { 9, 10, 99, 145, 146, 58 },
+			children = { 9, 10, 99, 183, 184, 58 },
 			construction = {
 				durability = 2.1,
 				skin = "Plywood"
@@ -1063,7 +1063,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[99] = {
 			args = { 147 },
-			children = { 143 },
+			children = { 181 },
 			construction = {
 				durability = 3.56,
 				skin = "Plywood"
@@ -1409,7 +1409,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[113] = {
 			args = { -1, 167, 170, 171 },
-			children = { 114, 103, 137, 138, 15 },
+			children = { 114, 103, 175, 176, 15 },
 			construction = {
 				durability = 2.97,
 				skin = "Plywood",
@@ -1630,7 +1630,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[125] = {
 			args = { -1, 161, 164, 165 },
-			children = { 126, 104, 139, 140, 16 },
+			children = { 126, 104, 177, 178, 16 },
 			construction = {
 				durability = 2.97,
 				skin = "Plywood",
@@ -1789,7 +1789,48 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.004
 				} }
 		},
-		[137] = {
+		[170] = {
+			args = { -1 },
+			children = { 3 },
+			construction = {
+				durability = 2,
+				skin = "Plywood"
+			},
+			critical_damage = 3,
+			damage_boundary = 0.01,
+			droppable = false,
+			innards = { {
+					failures = {},
+					id = "XCockpitElement2",
+					skin = "Aluminum",
+					wall = 0.003
+				}, {
+					failures = {},
+					id = "XCockpitElement3",
+					skin = "Aluminum",
+					wall = 0.003
+				}, {
+					failures = {},
+					id = "XCockpitElement4",
+					skin = "Aluminum",
+					wall = 0.003
+				}, {
+					failures = {},
+					id = "XCockpitElement5",
+					skin = "Aluminum",
+					wall = 0.003
+				}, {
+					id = "XHydroQuadrant",
+					skin = "Steel",
+					spar = "HeavySprocket",
+					wall = 0.002
+				}, {
+					id = "XArmor4",
+					skin = "Steel",
+					wall = 0.022
+				} }
+		},
+		[175] = {
 			args = { -1 },
 			construction = {
 				durability = 0.51,
@@ -1841,7 +1882,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.004
 				} }
 		},
-		[138] = {
+		[176] = {
 			args = { -1 },
 			construction = {
 				durability = 0.51,
@@ -1852,7 +1893,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			damage_boundary = 0.01,
 			droppable = false
 		},
-		[139] = {
+		[177] = {
 			args = { -1 },
 			construction = {
 				durability = 0.51,
@@ -1863,7 +1904,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			damage_boundary = 0.01,
 			droppable = false
 		},
-		[140] = {
+		[178] = {
 			args = { -1 },
 			construction = {
 				durability = 0.51,
@@ -1874,7 +1915,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			damage_boundary = 0.01,
 			droppable = false
 		},
-		[141] = {
+		[179] = {
 			args = { -1 },
 			construction = {
 				durability = 0.46,
@@ -1896,7 +1937,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.006
 				} }
 		},
-		[142] = {
+		[180] = {
 			args = { 118 },
 			construction = {
 				durability = 0.35,
@@ -1907,7 +1948,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			damage_boundary = 0.01,
 			droppable = true
 		},
-		[143] = {
+		[181] = {
 			args = { -1 },
 			construction = {
 				durability = 0.81,
@@ -1918,7 +1959,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			damage_boundary = 0.01,
 			droppable = true
 		},
-		[144] = {
+		[182] = {
 			args = { -1 },
 			construction = {
 				durability = 1.24,
@@ -1929,7 +1970,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			damage_boundary = 0.01,
 			droppable = true
 		},
-		[145] = {
+		[183] = {
 			args = { -1 },
 			construction = {
 				durability = 1.86,
@@ -1956,7 +1997,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.006
 				} }
 		},
-		[146] = {
+		[184] = {
 			args = { -1 },
 			construction = {
 				durability = 1.86,
@@ -1983,7 +2024,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.006
 				} }
 		},
-		[147] = {
+		[185] = {
 			args = { -1 },
 			construction = {
 				durability = 0.79,
@@ -2010,7 +2051,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.006
 				} }
 		},
-		[148] = {
+		[186] = {
 			args = { -1 },
 			construction = {
 				durability = 0.79,
@@ -2037,7 +2078,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.006
 				} }
 		},
-		[149] = {
+		[187] = {
 			args = { -1 },
 			construction = {
 				durability = 0.35,
@@ -2059,7 +2100,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.006
 				} }
 		},
-		[150] = {
+		[188] = {
 			args = { -1 },
 			construction = {
 				durability = 0.35,
@@ -2081,47 +2122,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.006
 				} }
 		},
-		[151] = {
-			args = { -1 },
-			children = { 3 },
-			construction = {
-				durability = 2,
-				skin = "Plywood"
-			},
-			critical_damage = 3,
-			damage_boundary = 0.01,
-			droppable = false,
-			innards = { {
-					failures = {},
-					id = "XCockpitElement2",
-					skin = "Aluminum",
-					wall = 0.003
-				}, {
-					failures = {},
-					id = "XCockpitElement3",
-					skin = "Aluminum",
-					wall = 0.003
-				}, {
-					failures = {},
-					id = "XCockpitElement4",
-					skin = "Aluminum",
-					wall = 0.003
-				}, {
-					failures = {},
-					id = "XCockpitElement5",
-					skin = "Aluminum",
-					wall = 0.003
-				}, {
-					id = "XHydroQuadrant",
-					skin = "Steel",
-					spar = "HeavySprocket",
-					wall = 0.002
-				}, {
-					id = "XArmor4",
-					skin = "Steel",
-					wall = 0.022
-				} }
-		},
 		cell_indices = {
 			AILERON_L = 25,
 			AILERON_R = 26,
@@ -2138,10 +2138,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			BLADE_6_IN = 79,
 			BLADE_6_OUT = 81,
 			COCKPIT = 3,
-			COWLING_1 = 137,
-			COWLING_2 = 138,
-			COWLING_3 = 139,
-			COWLING_4 = 140,
+			COWLING_1 = 175,
+			COWLING_2 = 176,
+			COWLING_3 = 177,
+			COWLING_4 = 178,
 			ELEVATOR_L_IN = 51,
 			ELEVATOR_L_OUT = 49,
 			ELEVATOR_R_IN = 52,
@@ -2160,21 +2160,21 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			FUSELAGE_TOP = 99,
 			GEAR_L = 15,
 			GEAR_R = 16,
-			HATCH_01 = 141,
-			HATCH_02 = 142,
-			HATCH_03 = 143,
-			HATCH_04 = 144,
-			HATCH_05 = 145,
-			HATCH_06 = 146,
-			HATCH_07 = 147,
-			HATCH_08 = 148,
-			HATCH_09 = 149,
-			HATCH_10 = 150,
+			HATCH_01 = 179,
+			HATCH_02 = 180,
+			HATCH_03 = 181,
+			HATCH_04 = 182,
+			HATCH_05 = 183,
+			HATCH_06 = 184,
+			HATCH_07 = 185,
+			HATCH_08 = 186,
+			HATCH_09 = 187,
+			HATCH_10 = 188,
 			NOSE_BOTTOM = 59,
 			NOSE_CENTER = 0,
 			NOSE_LEFT_SIDE = 1,
 			NOSE_RIGHT_SIDE = 2,
-			NOSE_TOP = 151,
+			NOSE_TOP = 170,
 			RUDDER = 53,
 			RUDDER_R = 54,
 			STABILIZER_L_IN = 47,
@@ -5994,72 +5994,72 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				Transition = { "Any", "Off" }
 			}, {
 				Sequence = { {
-						C = { { "Arg", 600, "to", 1, "at", 0.2, "sign", 1 } }
+						C = { { "Arg", 13, "to", 1, "at", 0.2, "sign", 1 } }
 					}, {
-						C = { { "Arg", 600, "to", 0, "at", 0.2, "sign", -1 } }
+						C = { { "Arg", 13, "to", 0, "at", 0.2, "sign", -1 } }
 					}, {
 						C = { { "ValuePhase", 0 } }
 					} },
 				Transition = { "Any", "Low" }
 			}, {
 				Sequence = { {
-						C = { { "Arg", 600, "to", 1, "at", 0.4, "sign", 1 } }
+						C = { { "Arg", 13, "to", 1, "at", 0.4, "sign", 1 } }
 					}, {
-						C = { { "Arg", 600, "to", 0, "at", 0.4, "sign", -1 } }
+						C = { { "Arg", 13, "to", 0, "at", 0.4, "sign", -1 } }
 					}, {
 						C = { { "ValuePhase", 0 } }
 					} },
 				Transition = { "Any", "CustomStage0" }
 			}, {
 				Sequence = { {
-						C = { { "Arg", 600, "to", 1, "at", 0.6, "sign", 1 } }
+						C = { { "Arg", 13, "to", 1, "at", 0.6, "sign", 1 } }
 					}, {
-						C = { { "Arg", 600, "to", 0, "at", 0.6, "sign", -1 } }
+						C = { { "Arg", 13, "to", 0, "at", 0.6, "sign", -1 } }
 					}, {
 						C = { { "ValuePhase", 0 } }
 					} },
 				Transition = { "Any", "CustomStage1" }
 			}, {
 				Sequence = { {
-						C = { { "Arg", 600, "to", 1, "at", 0.8, "sign", 1 } }
+						C = { { "Arg", 13, "to", 1, "at", 0.8, "sign", 1 } }
 					}, {
-						C = { { "Arg", 600, "to", 0, "at", 0.8, "sign", -1 } }
+						C = { { "Arg", 13, "to", 0, "at", 0.8, "sign", -1 } }
 					}, {
 						C = { { "ValuePhase", 0 } }
 					} },
 				Transition = { "Any", "Medium" }
 			}, {
 				Sequence = { {
-						C = { { "Arg", 600, "to", 1, "at", 1, "sign", 1 } }
+						C = { { "Arg", 13, "to", 1, "at", 1, "sign", 1 } }
 					}, {
-						C = { { "Arg", 600, "to", 0, "at", 1, "sign", -1 } }
+						C = { { "Arg", 13, "to", 0, "at", 1, "sign", -1 } }
 					}, {
 						C = { { "ValuePhase", 0 } }
 					} },
 				Transition = { "Any", "CustomStage2" }
 			}, {
 				Sequence = { {
-						C = { { "Arg", 600, "to", 1, "at", 1.3, "sign", 1 } }
+						C = { { "Arg", 13, "to", 1, "at", 1.3, "sign", 1 } }
 					}, {
-						C = { { "Arg", 600, "to", 0, "at", 1.3, "sign", -1 } }
+						C = { { "Arg", 13, "to", 0, "at", 1.3, "sign", -1 } }
 					}, {
 						C = { { "ValuePhase", 0 } }
 					} },
 				Transition = { "Any", "CustomStage3" }
 			}, {
 				Sequence = { {
-						C = { { "Arg", 600, "to", 1, "at", 1.6, "sign", 1 } }
+						C = { { "Arg", 13, "to", 1, "at", 1.6, "sign", 1 } }
 					}, {
-						C = { { "Arg", 600, "to", 0, "at", 1.6, "sign", -1 } }
+						C = { { "Arg", 13, "to", 0, "at", 1.6, "sign", -1 } }
 					}, {
 						C = { { "ValuePhase", 0 } }
 					} },
 				Transition = { "Any", "CustomStage4" }
 			}, {
 				Sequence = { {
-						C = { { "Arg", 600, "to", 1, "at", 2, "sign", 1 } }
+						C = { { "Arg", 13, "to", 1, "at", 2, "sign", 1 } }
 					}, {
-						C = { { "Arg", 600, "to", 0, "at", 2, "sign", -1 } }
+						C = { { "Arg", 13, "to", 0, "at", 2, "sign", -1 } }
 					}, {
 						C = { { "ValuePhase", 0 } }
 					} },

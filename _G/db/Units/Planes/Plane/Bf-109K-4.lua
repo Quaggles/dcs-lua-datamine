@@ -2910,6 +2910,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				min = 38
 			}
 		} },
+	propellorShapeBlurX = 1,
 	propellorShapeName = "BF109K4_blade.FBX",
 	propellorShapeType = "3ARG_PROC_BLUR",
 	radar_can_see_ground = false,

@@ -220,22 +220,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 135 },
 			critical_damage = 3
 		},
-		[137] = {
+		[175] = {
 			critical_damage = 5
-		},
-		[138] = {
-			critical_damage = 3
-		},
-		[139] = {
-			critical_damage = 5
-		},
-		[140] = {
-			critical_damage = 3
 		},
 		cell_indices = {
 			AILERON_L = 25,
 			AILERON_R = 26,
-			AirRefRec = 137,
+			AirRefRec = 175,
 			CABIN_LEFT_SIDE = 4,
 			CABIN_RIGHT_SIDE = 5,
 			COCKPIT = 3,
@@ -249,18 +240,16 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			FLAP_L_OUT = 31,
 			FLAP_R = 38,
 			FLAP_R_OUT = 32,
-			FRONT_WHEEL = 138,
 			FUEL_TANK_B = 62,
 			FUEL_TANK_F = 61,
 			FUSELAGE_BOTTOM = 82,
 			GUN = 7,
 			LEFT_GEAR_BOX = 15,
-			LEFT_WHEEL = 139,
+			LEFT_WHEEL = 84,
 			NOSE_BOTTOM = 59,
 			NOSE_CENTER = 0,
 			PWD = 60,
 			RIGHT_GEAR_BOX = 16,
-			RIGHT_WHEEL = 140,
 			RUDDER_L = 53,
 			RUDDER_R = 54,
 			STABILIZER_L_OUT = 45,

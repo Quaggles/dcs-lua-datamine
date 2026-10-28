@@ -1,9 +1,11 @@
 _G["db"]["Units"]["Cargos"]["Cargo"]["#Index"] = {
-	AttachPoint = "Dummy003",
+	AttachPoint = { 0, 2, 0 },
+	AttachPointAirdrop = { 0, 2, 0 },
 	DisplayName = "UH-1H cargo",
 	Name = "UH-1H cargo",
 	Rate = 100,
 	ShapeName = "ab-212_cargo",
+	UseRopeArgs = false,
 	attribute = { "Cargos" },
 	category = "Cargo",
 	couldCargo = true,

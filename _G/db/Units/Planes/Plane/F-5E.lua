@@ -47,6 +47,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 270 },
 			critical_damage = 2
 		},
+		[13] = {
+			args = { 169 },
+			critical_damage = 3
+		},
+		[14] = {
+			args = { 163 },
+			critical_damage = 3
+		},
+		[17] = {
+			args = { 168 },
+			critical_damage = 3
+		},
+		[18] = {
+			args = { 162 },
+			critical_damage = 3
+		},
 		[19] = {
 			args = { 185 },
 			critical_damage = 1
@@ -82,22 +98,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[29] = {
 			args = { 224 },
 			critical_damage = 4,
-			deps_cells = { 23, 25, 27, 146 }
+			deps_cells = { 23, 25, 27, 180 }
 		},
 		[30] = {
 			args = { 214 },
 			critical_damage = 4,
-			deps_cells = { 24, 26, 28, 150 }
+			deps_cells = { 24, 26, 28, 184 }
 		},
 		[35] = {
 			args = { 225 },
 			critical_damage = 5,
-			deps_cells = { 29, 37, 147 }
+			deps_cells = { 29, 37, 181 }
 		},
 		[36] = {
 			args = { 215 },
 			critical_damage = 5,
-			deps_cells = { 30, 38, 149 }
+			deps_cells = { 30, 38, 183 }
 		},
 		[37] = {
 			args = { 227 },
@@ -163,58 +179,42 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[98] = {
 			critical_damage = 2
 		},
-		[137] = {
+		[175] = {
 			args = { 158 },
 			critical_damage = 3
 		},
-		[138] = {
+		[176] = {
 			args = { 157 },
 			critical_damage = 3
 		},
-		[139] = {
+		[177] = {
 			args = { 267 },
 			critical_damage = 3
 		},
-		[140] = {
-			args = { 169 },
-			critical_damage = 3
-		},
-		[141] = {
-			args = { 163 },
-			critical_damage = 3
-		},
-		[142] = {
-			args = { 168 },
-			critical_damage = 3
-		},
-		[143] = {
-			args = { 162 },
-			critical_damage = 3
-		},
-		[144] = {
+		[178] = {
 			args = { 166 },
 			critical_damage = 3
 		},
-		[145] = {
+		[179] = {
 			args = { 160 },
 			critical_damage = 3
 		},
-		[146] = {
+		[180] = {
 			critical_damage = 2
 		},
-		[147] = {
+		[181] = {
 			critical_damage = 2
 		},
-		[148] = {
+		[182] = {
 			critical_damage = 2
 		},
-		[149] = {
+		[183] = {
 			critical_damage = 2
 		},
-		[150] = {
+		[184] = {
 			critical_damage = 2
 		},
-		[151] = {
+		[185] = {
 			args = { 266 },
 			critical_damage = 3
 		},
@@ -235,29 +235,29 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			FLAP_R_IN = 38,
 			FRONT_GEAR_BOX = 8,
 			FUSELAGE_BOTTOM = 82,
-			FUSELAGE_BOTTOM_LEFT = 137,
-			FUSELAGE_BOTTOM_RIGHT = 138,
+			FUSELAGE_BOTTOM_LEFT = 175,
+			FUSELAGE_BOTTOM_RIGHT = 176,
 			FUSELAGE_LEFT_SIDE = 9,
 			FUSELAGE_RIGHT_SIDE = 10,
 			HOOK = 98,
-			L_GEAR_BOX = 139,
-			MTG_BOTTOM_LEFT = 140,
-			MTG_BOTTOM_RIGHT = 141,
-			MTG_CENTER_L = 142,
-			MTG_CENTER_R = 143,
-			MTG_LEFT_SIDE = 144,
-			MTG_RIGHT_SIDE = 145,
+			L_GEAR_BOX = 177,
+			MTG_BOTTOM_LEFT = 13,
+			MTG_BOTTOM_RIGHT = 14,
+			MTG_CENTER_L = 17,
+			MTG_CENTER_R = 18,
+			MTG_LEFT_SIDE = 178,
+			MTG_RIGHT_SIDE = 179,
 			NOSE_BOTTOM = 59,
 			NOSE_CENTER = 0,
 			NOSE_LEFT_SIDE = 1,
 			NOSE_RIGHT_SIDE = 2,
-			PYLON_02 = 146,
-			PYLON_03 = 147,
-			PYLON_04 = 148,
-			PYLON_05 = 149,
-			PYLON_06 = 150,
+			PYLON_02 = 180,
+			PYLON_03 = 181,
+			PYLON_04 = 182,
+			PYLON_05 = 183,
+			PYLON_06 = 184,
 			RUDDER = 53,
-			R_GEAR_BOX = 151,
+			R_GEAR_BOX = 185,
 			STABILIZER_L_IN = 47,
 			STABILIZER_R_IN = 48,
 			TAIL = 55,
@@ -349,7 +349,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						life_time = 31,
 						manualWeaponFlag = 21,
 						mass = 0.1,
-						model_name = "tracer_bullet_yellow",
+						model_name = "tracer_bullet_red",
 						name = "M39_20_HEI",
 						payload = 0.02030644268045,
 						payload_type = 0,
@@ -413,7 +413,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						life_time = 31,
 						manualWeaponFlag = 21,
 						mass = 0.1,
-						model_name = "tracer_bullet_yellow",
+						model_name = "tracer_bullet_red",
 						name = "M39_20_HEI_T",
 						payload = 0.02030644268045,
 						payload_type = 0,
@@ -477,7 +477,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						life_time = 31,
 						manualWeaponFlag = 21,
 						mass = 0.1,
-						model_name = "tracer_bullet_yellow",
+						model_name = "tracer_bullet_red",
 						name = "M39_20_API",
 						payload = 0,
 						payload_type = 0,
@@ -541,7 +541,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						life_time = 31,
 						manualWeaponFlag = 21,
 						mass = 0.1,
-						model_name = "tracer_bullet_yellow",
+						model_name = "tracer_bullet_red",
 						name = "M39_20_TP",
 						payload = 0,
 						payload_type = 0,
@@ -605,7 +605,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						life_time = 31,
 						manualWeaponFlag = 21,
 						mass = 0.1,
-						model_name = "tracer_bullet_yellow",
+						model_name = "tracer_bullet_red",
 						name = "M39_20_TP_T",
 						payload = 0,
 						payload_type = 0,

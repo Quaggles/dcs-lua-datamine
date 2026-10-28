@@ -3,29 +3,41 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	CanopyGeometry = { -0.93969262078591, -0.95280922353749, -0.96592582628907, -0.049950211252315, 0.86602540378444 },
 	Categories = {},
 	Damage = {
-		[0] = {
-			args = { 146 },
-			critical_damage = 4
-		},
-		[9] = {
-			args = { 154 },
-			critical_damage = 12
+		[3] = {
+			critical_damage = 1
 		},
 		[10] = {
-			args = { 153 },
-			critical_damage = 12
+			critical_damage = 5
 		},
-		[12] = {
-			args = { 161 },
-			critical_damage = 2
+		[17] = {
+			critical_damage = 4
 		},
-		[56] = {
-			args = { 81 },
-			critical_damage = 8
+		[18] = {
+			critical_damage = 3
 		},
-		[82] = {
-			args = { 152 },
-			critical_damage = 12
+		[55] = {
+			critical_damage = 3
+		},
+		[99] = {
+			critical_damage = 3
+		},
+		[103] = {
+			critical_damage = 3
+		},
+		[104] = {
+			critical_damage = 3
+		},
+		cell_indices = {
+			["SH60-FUSELAGE_3"] = 10,
+			["SH60-INTAKE-L_3"] = 103,
+			["SH60-INTAKE-R_3"] = 104,
+			["SH60-KRYSHA_3"] = 99,
+			["SH60-KYL_3"] = 55,
+			["SH60-MOTOGONDOL-L_3"] = 17,
+			["SH60-MOTOGONDOL-R_3"] = 18,
+			["SH60-OKNO-FRONT_3"] = 3,
+			["SH60-OUTTAKE-L_3"] = 103,
+			["SH60-OUTTAKE-R_3"] = 104
 		}
 	},
 	DefaultTask = <1>{

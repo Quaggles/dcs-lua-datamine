@@ -76,6 +76,16 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[54] = {
 			critical_damage = 2
+		},
+		cell_indices = {
+			Line_KIL_L = 43,
+			Line_KIL_R = 44,
+			Line_MAIN = 10,
+			Line_NOSE = 0,
+			Line_STABIL_L = 47,
+			Line_STABIL_R = 48,
+			Line_WING_L = 35,
+			Line_WING_R = 36
 		}
 	},
 	DamageParts = { "SU-30-OBLOMOK-WING-R", "SU-30-OBLOMOK-WING-L" },

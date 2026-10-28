@@ -167,16 +167,16 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 7,
 			droppable = false
 		},
-		[137] = {
+		[175] = {
 			critical_damage = 1,
 			droppable = false
 		},
-		[138] = {
+		[176] = {
 			critical_damage = 2,
 			droppable = false
 		},
 		cell_indices = {
-			AirRefBoom = 137,
+			AirRefBoom = 175,
 			CABIN_BOTTOM = 6,
 			CABIN_LEFT_SIDE = 4,
 			CABIN_RIGHT_SIDE = 5,
@@ -194,8 +194,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			FUSELAGE_BOTTOM = 82,
 			FUSELAGE_LEFT_SIDE = 9,
 			FUSELAGE_RIGHT_SIDE = 10,
+			Line_KIL_L = 43,
+			Line_NOSE = 0,
+			Line_STABIL_L = 47,
+			Line_STABIL_R = 48,
+			Line_WING_L = 35,
+			Line_WING_R = 36,
 			NOSE_CENTER = 0,
-			Object09 = 138,
+			Object09 = 176,
 			RUDDER_L = 53,
 			STABILIZER_L_IN = 47,
 			STABILIZER_R_IN = 48,

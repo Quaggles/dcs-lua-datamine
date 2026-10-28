@@ -55,185 +55,265 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	Categories = {},
 	Damage = { {
 			args = { 146 },
-			critical_damage = 1
+			critical_damage = 1,
+			deps_cells = { 27 },
+			droppable = false
 		}, {
 			args = { 297 },
-			critical_damage = 1
+			critical_damage = 1,
+			deps_cells = { 28 },
+			droppable = false
+		}, {}, {
+			args = { 454 },
+			construction = {
+				durability = 1.08,
+				skin = "Glass",
+				spar = "Truss"
+			},
+			critical_damage = 1,
+			deps_cells = { 3 },
+			droppable = false
+		}, {
+			args = { 453 },
+			construction = {
+				durability = 1.08,
+				skin = "Glass",
+				spar = "Truss"
+			},
+			critical_damage = 1,
+			droppable = false
+		}, {
+			args = { 298 },
+			critical_damage = 1,
+			deps_cells = { 0, 19, 20, 91, 90 },
+			droppable = false
 		},
 		[0] = {
 			args = { 142 },
-			critical_damage = 3
-		},
-		[4] = {
-			args = { 454 },
-			critical_damage = 1
-		},
-		[5] = {
-			args = { 453 },
-			critical_damage = 1
-		},
-		[6] = {
-			args = { 298 },
-			critical_damage = 1
+			critical_damage = 3,
+			deps_cells = { 4, 5 },
+			droppable = false
 		},
 		[8] = {
 			args = { 265 },
-			critical_damage = 3
+			critical_damage = 3,
+			droppable = true
 		},
 		[9] = {
 			args = { 154 },
-			critical_damage = 2
+			critical_damage = 2,
+			deps_cells = { 25 },
+			droppable = false
 		},
 		[10] = {
 			args = { 153 },
-			critical_damage = 2
+			critical_damage = 2,
+			deps_cells = { 26, 82, 14, 56, 57 },
+			droppable = false
 		},
 		[11] = {
 			args = { 167 },
-			critical_damage = 2
+			critical_damage = 2,
+			droppable = false
 		},
 		[13] = {
 			args = { 169 },
-			critical_damage = 5
+			critical_damage = 5,
+			deps_cells = { 11, 63, 31, 32 },
+			droppable = false
 		},
 		[14] = {
 			args = { 163 },
-			critical_damage = 5
+			critical_damage = 5,
+			droppable = true,
+			failures = { { "XMSN_TAIL_SHAFT_SEVERED", -1, -1, 0 } }
 		},
 		[15] = {
 			args = { 258 },
-			critical_damage = 50
+			critical_damage = 50,
+			droppable = true
 		},
 		[16] = {
 			args = { 256 },
-			critical_damage = 50
+			critical_damage = 50,
+			droppable = true
 		},
 		[19] = {
 			args = { 257 },
-			critical_damage = 50
+			critical_damage = 50,
+			droppable = true
 		},
 		[20] = {
 			args = { 255 },
-			critical_damage = 50
-		},
-		[21] = {
-			args = { 899 },
-			critical_damage = 1
-		},
-		[22] = {
-			args = { 898 },
-			critical_damage = 1
-		},
-		[23] = {
-			args = { 465 },
-			critical_damage = 1
-		},
-		[24] = {
-			args = { 466 },
-			critical_damage = 1
+			critical_damage = 50,
+			droppable = true
 		},
 		[25] = {
 			args = { 459 },
-			critical_damage = 2
+			critical_damage = 2,
+			droppable = false
 		},
 		[26] = {
 			args = { 460 },
-			critical_damage = 2
+			critical_damage = 2,
+			droppable = false
 		},
 		[27] = {
 			args = { 455 },
-			critical_damage = 1
+			construction = {
+				durability = 0.43,
+				skin = "Glass"
+			},
+			critical_damage = 1,
+			droppable = true
 		},
 		[28] = {
 			args = { 456 },
-			critical_damage = 1
+			construction = {
+				durability = 0.43,
+				skin = "Glass"
+			},
+			critical_damage = 1,
+			droppable = true
 		},
 		[29] = {
 			args = { 457 },
-			critical_damage = 1
+			construction = {
+				durability = 0.72,
+				skin = "Glass",
+				spar = "Truss"
+			},
+			critical_damage = 1,
+			droppable = false
 		},
 		[30] = {
 			args = { 458 },
-			critical_damage = 1
+			construction = {
+				durability = 0.72,
+				skin = "Glass",
+				spar = "Truss"
+			},
+			critical_damage = 1,
+			droppable = false
 		},
 		[31] = {
 			args = { 461 },
-			critical_damage = 2
+			critical_damage = 2,
+			deps_cells = { 29, 1, 9 },
+			droppable = false
 		},
 		[32] = {
 			args = { 462 },
-			critical_damage = 2
+			critical_damage = 2,
+			deps_cells = { 30, 2, 10 },
+			droppable = false
 		},
+		[33] = {},
 		[45] = {
 			args = { 235 },
-			critical_damage = 3
+			critical_damage = 3,
+			droppable = true
 		},
 		[46] = {
 			args = { 233 },
-			critical_damage = 3
-		},
-		[53] = {
-			args = { 81 },
-			critical_damage = 5
+			critical_damage = 3,
+			droppable = true
 		},
 		[55] = {
-			args = { 159, 244 },
-			critical_damage = 3
+			args = { 244, -1, -1, -1, -1, 159 },
+			critical_damage = 3,
+			deps_cells = { 8, 137, 138 },
+			droppable = true
 		},
 		[56] = {
 			args = { 158 },
 			critical_damage = 3,
-			deps_cells = { 55, 53 }
+			deps_cells = { 45, 55 },
+			droppable = false
 		},
 		[57] = {
-			args = { 157 },
+			args = { 157, -1, -1, -1, -1, 81 },
 			critical_damage = 3,
-			deps_cells = { 55, 53 }
+			deps_cells = { 46, 56 },
+			droppable = false
 		},
 		[63] = {
 			args = { 530 },
 			critical_damage = 10,
-			deps_cells = { 64, 65, 66, 67, 68, 69 }
+			deps_cells = { 64, 67 },
+			droppable = true
 		},
 		[64] = {
 			args = { 429 },
 			critical_damage = 5,
-			deps_cells = { 65, 66 }
+			deps_cells = { 65 },
+			droppable = true
 		},
 		[65] = {
 			args = { 430 },
 			critical_damage = 5,
-			deps_cells = { 66 }
+			deps_cells = { 66 },
+			droppable = true
 		},
 		[66] = {
 			args = { 431 },
-			critical_damage = 5
+			critical_damage = 5,
+			droppable = true
 		},
 		[67] = {
 			args = { 432 },
 			critical_damage = 5,
-			deps_cells = { 68, 69 }
+			deps_cells = { 68 },
+			droppable = true
 		},
 		[68] = {
 			args = { 433 },
 			critical_damage = 5,
-			deps_cells = { 69 }
+			deps_cells = { 69 },
+			droppable = true
 		},
 		[69] = {
 			args = { 434 },
-			critical_damage = 5
-		},
-		[71] = {
-			args = { 435 },
-			critical_damage = 2
-		},
-		[74] = {
-			args = { 436 },
-			critical_damage = 2
+			critical_damage = 5,
+			droppable = true
 		},
 		[82] = {
 			args = { 152 },
-			critical_damage = 8
+			critical_damage = 8,
+			deps_cells = { 6, 15, 16, 33, 93, 92 },
+			droppable = false
+		},
+		[90] = {
+			args = { 898 },
+			critical_damage = 0.5,
+			failures = { { "PILOT_KILLED_FAILURE", -1, -1, 0.1 } }
+		},
+		[91] = {
+			args = { 899 },
+			critical_damage = 0.5,
+			failures = { { "COPILOT_KILLED_FAILURE", -1, -1, 0.1 } }
+		},
+		[92] = {
+			args = { 466 },
+			critical_damage = 0.5,
+			failures = { { "RIGHT_GUNNER_KILLED_FAILURE", -1, -1, 0.1 } }
+		},
+		[93] = {
+			args = { 465 },
+			critical_damage = 0.5,
+			failures = { { "LEFT_GUNNER_KILLED_FAILURE", -1, -1, 0.1 } }
+		},
+		[137] = {
+			args = { 435 },
+			critical_damage = 2
+		},
+		[138] = {
+			args = { 436 },
+			critical_damage = 2
+		},
+		cell_indices = {
+			Line_NOSE = 0,
+			Shape003 = 55
 		}
 	},
 	DamageParts = {
@@ -1596,6 +1676,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	helicopter_hook_pos = { 0, -0.84, 0 },
 	lead_stock_main = -0.1,
 	lead_stock_support = -0.1,
+	legacyDetachFX = false,
+	legacyGenericDamageFX = false,
 	length = 17.62,
 	lights_data = {
 		lights = {

@@ -261,22 +261,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[29] = {
 			args = { 224 },
 			critical_damage = 4,
-			deps_cells = { 23, 27, 147 }
+			deps_cells = { 23, 27, 185 }
 		},
 		[30] = {
 			args = { 214 },
 			critical_damage = 4,
-			deps_cells = { 24, 28, 151 }
+			deps_cells = { 24, 28, 189 }
 		},
 		[35] = {
 			args = { 225 },
 			critical_damage = 5,
-			deps_cells = { 29, 25, 37, 148 }
+			deps_cells = { 29, 25, 37, 186 }
 		},
 		[36] = {
 			args = { 215 },
 			critical_damage = 5,
-			deps_cells = { 30, 26, 38, 150 }
+			deps_cells = { 30, 26, 38, 188 }
 		},
 		[37] = {
 			args = { 227 },
@@ -342,65 +342,65 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[98] = {
 			critical_damage = 2
 		},
-		[137] = {
+		[175] = {
 			critical_damage = 1
 		},
-		[138] = {
+		[176] = {
 			args = { 158 },
 			critical_damage = 3
 		},
-		[139] = {
+		[177] = {
 			args = { 157 },
 			critical_damage = 3
 		},
-		[140] = {
+		[178] = {
 			args = { 267 },
 			critical_damage = 3
 		},
-		[141] = {
+		[179] = {
 			args = { 169 },
 			critical_damage = 3
 		},
-		[142] = {
+		[180] = {
 			args = { 163 },
 			critical_damage = 3
 		},
-		[143] = {
+		[181] = {
 			args = { 168 },
 			critical_damage = 3
 		},
-		[144] = {
+		[182] = {
 			args = { 162 },
 			critical_damage = 3
 		},
-		[145] = {
+		[183] = {
 			args = { 166 },
 			critical_damage = 3
 		},
-		[146] = {
+		[184] = {
 			args = { 160 },
 			critical_damage = 3
 		},
-		[147] = {
+		[185] = {
 			critical_damage = 2
 		},
-		[148] = {
+		[186] = {
 			critical_damage = 2
 		},
-		[149] = {
+		[187] = {
 			critical_damage = 2
 		},
-		[150] = {
+		[188] = {
 			critical_damage = 2
 		},
-		[151] = {
+		[189] = {
 			critical_damage = 2
 		},
-		[152] = {
+		[190] = {
 			args = { 266 },
 			critical_damage = 3
 		},
-		[153] = {
+		[191] = {
 			args = { 151 },
 			critical_damage = 1
 		},
@@ -410,7 +410,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			CABIN_BOTTOM = 6,
 			CABIN_LEFT_SIDE = 4,
 			CABIN_RIGHT_SIDE = 5,
-			CM_CONTAINER = 137,
+			CM_CONTAINER = 175,
 			COCKPIT = 3,
 			ELERON_L = 25,
 			ELERON_R = 26,
@@ -422,35 +422,35 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			FLAP_R_IN = 38,
 			FRONT_GEAR_BOX = 8,
 			FUSELAGE_BOTTOM = 82,
-			FUSELAGE_BOTTOM_LEFT = 138,
-			FUSELAGE_BOTTOM_RIGHT = 139,
+			FUSELAGE_BOTTOM_LEFT = 176,
+			FUSELAGE_BOTTOM_RIGHT = 177,
 			FUSELAGE_LEFT_SIDE = 9,
 			FUSELAGE_RIGHT_SIDE = 10,
 			HOOK = 98,
-			L_GEAR_BOX = 140,
-			MTG_BOTTOM_LEFT = 141,
-			MTG_BOTTOM_RIGHT = 142,
-			MTG_CENTER_L = 143,
-			MTG_CENTER_R = 144,
-			MTG_LEFT_SIDE = 145,
-			MTG_RIGHT_SIDE = 146,
+			L_GEAR_BOX = 178,
+			MTG_BOTTOM_LEFT = 179,
+			MTG_BOTTOM_RIGHT = 180,
+			MTG_CENTER_L = 181,
+			MTG_CENTER_R = 182,
+			MTG_LEFT_SIDE = 183,
+			MTG_RIGHT_SIDE = 184,
 			NOSE_BOTTOM = 59,
 			NOSE_CENTER = 0,
 			NOSE_LEFT_SIDE = 1,
 			NOSE_RIGHT_SIDE = 2,
-			PYLON_02 = 147,
-			PYLON_03 = 148,
-			PYLON_04 = 149,
-			PYLON_05 = 150,
-			PYLON_06 = 151,
+			PYLON_02 = 185,
+			PYLON_03 = 186,
+			PYLON_04 = 187,
+			PYLON_05 = 188,
+			PYLON_06 = 189,
 			RUDDER = 53,
-			R_GEAR_BOX = 152,
+			R_GEAR_BOX = 190,
 			STABILIZER_L_IN = 47,
 			STABILIZER_R_IN = 48,
 			TAIL = 55,
 			TAIL_LEFT_SIDE = 56,
 			TAIL_RIGHT_SIDE = 57,
-			VHF_ANTENNA = 153,
+			VHF_ANTENNA = 191,
 			WHEEL_F = 83,
 			WHEEL_L = 84,
 			WHEEL_R = 85,
@@ -756,7 +756,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						life_time = 31,
 						manualWeaponFlag = 21,
 						mass = 0.1,
-						model_name = "tracer_bullet_yellow",
+						model_name = "tracer_bullet_red",
 						name = "M39_20_HEI",
 						payload = 0.02030644268045,
 						payload_type = 0,
@@ -820,7 +820,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						life_time = 31,
 						manualWeaponFlag = 21,
 						mass = 0.1,
-						model_name = "tracer_bullet_yellow",
+						model_name = "tracer_bullet_red",
 						name = "M39_20_HEI_T",
 						payload = 0.02030644268045,
 						payload_type = 0,
@@ -884,7 +884,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						life_time = 31,
 						manualWeaponFlag = 21,
 						mass = 0.1,
-						model_name = "tracer_bullet_yellow",
+						model_name = "tracer_bullet_red",
 						name = "M39_20_API",
 						payload = 0,
 						payload_type = 0,
@@ -948,7 +948,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						life_time = 31,
 						manualWeaponFlag = 21,
 						mass = 0.1,
-						model_name = "tracer_bullet_yellow",
+						model_name = "tracer_bullet_red",
 						name = "M39_20_TP",
 						payload = 0,
 						payload_type = 0,
@@ -1012,7 +1012,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						life_time = 31,
 						manualWeaponFlag = 21,
 						mass = 0.1,
-						model_name = "tracer_bullet_yellow",
+						model_name = "tracer_bullet_red",
 						name = "M39_20_TP_T",
 						payload = 0,
 						payload_type = 0,
@@ -2307,6 +2307,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					args = { 270 },
 					critical_damage = 2
 				},
+				[13] = {
+					args = { 169 },
+					critical_damage = 3
+				},
+				[14] = {
+					args = { 163 },
+					critical_damage = 3
+				},
+				[17] = {
+					args = { 168 },
+					critical_damage = 3
+				},
+				[18] = {
+					args = { 162 },
+					critical_damage = 3
+				},
 				[19] = {
 					args = { 185 },
 					critical_damage = 1
@@ -2342,22 +2358,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				[29] = {
 					args = { 224 },
 					critical_damage = 4,
-					deps_cells = { 23, 25, 27, 146 }
+					deps_cells = { 23, 25, 27, 180 }
 				},
 				[30] = {
 					args = { 214 },
 					critical_damage = 4,
-					deps_cells = { 24, 26, 28, 150 }
+					deps_cells = { 24, 26, 28, 184 }
 				},
 				[35] = {
 					args = { 225 },
 					critical_damage = 5,
-					deps_cells = { 29, 37, 147 }
+					deps_cells = { 29, 37, 181 }
 				},
 				[36] = {
 					args = { 215 },
 					critical_damage = 5,
-					deps_cells = { 30, 38, 149 }
+					deps_cells = { 30, 38, 183 }
 				},
 				[37] = {
 					args = { 227 },
@@ -2423,58 +2439,42 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				[98] = {
 					critical_damage = 2
 				},
-				[137] = {
+				[175] = {
 					args = { 158 },
 					critical_damage = 3
 				},
-				[138] = {
+				[176] = {
 					args = { 157 },
 					critical_damage = 3
 				},
-				[139] = {
+				[177] = {
 					args = { 267 },
 					critical_damage = 3
 				},
-				[140] = {
-					args = { 169 },
-					critical_damage = 3
-				},
-				[141] = {
-					args = { 163 },
-					critical_damage = 3
-				},
-				[142] = {
-					args = { 168 },
-					critical_damage = 3
-				},
-				[143] = {
-					args = { 162 },
-					critical_damage = 3
-				},
-				[144] = {
+				[178] = {
 					args = { 166 },
 					critical_damage = 3
 				},
-				[145] = {
+				[179] = {
 					args = { 160 },
 					critical_damage = 3
 				},
-				[146] = {
+				[180] = {
 					critical_damage = 2
 				},
-				[147] = {
+				[181] = {
 					critical_damage = 2
 				},
-				[148] = {
+				[182] = {
 					critical_damage = 2
 				},
-				[149] = {
+				[183] = {
 					critical_damage = 2
 				},
-				[150] = {
+				[184] = {
 					critical_damage = 2
 				},
-				[151] = {
+				[185] = {
 					args = { 266 },
 					critical_damage = 3
 				},
@@ -2495,29 +2495,29 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					FLAP_R_IN = 38,
 					FRONT_GEAR_BOX = 8,
 					FUSELAGE_BOTTOM = 82,
-					FUSELAGE_BOTTOM_LEFT = 137,
-					FUSELAGE_BOTTOM_RIGHT = 138,
+					FUSELAGE_BOTTOM_LEFT = 175,
+					FUSELAGE_BOTTOM_RIGHT = 176,
 					FUSELAGE_LEFT_SIDE = 9,
 					FUSELAGE_RIGHT_SIDE = 10,
 					HOOK = 98,
-					L_GEAR_BOX = 139,
-					MTG_BOTTOM_LEFT = 140,
-					MTG_BOTTOM_RIGHT = 141,
-					MTG_CENTER_L = 142,
-					MTG_CENTER_R = 143,
-					MTG_LEFT_SIDE = 144,
-					MTG_RIGHT_SIDE = 145,
+					L_GEAR_BOX = 177,
+					MTG_BOTTOM_LEFT = 13,
+					MTG_BOTTOM_RIGHT = 14,
+					MTG_CENTER_L = 17,
+					MTG_CENTER_R = 18,
+					MTG_LEFT_SIDE = 178,
+					MTG_RIGHT_SIDE = 179,
 					NOSE_BOTTOM = 59,
 					NOSE_CENTER = 0,
 					NOSE_LEFT_SIDE = 1,
 					NOSE_RIGHT_SIDE = 2,
-					PYLON_02 = 146,
-					PYLON_03 = 147,
-					PYLON_04 = 148,
-					PYLON_05 = 149,
-					PYLON_06 = 150,
+					PYLON_02 = 180,
+					PYLON_03 = 181,
+					PYLON_04 = 182,
+					PYLON_05 = 183,
+					PYLON_06 = 184,
 					RUDDER = 53,
-					R_GEAR_BOX = 151,
+					R_GEAR_BOX = 185,
 					STABILIZER_L_IN = 47,
 					STABILIZER_R_IN = 48,
 					TAIL = 55,

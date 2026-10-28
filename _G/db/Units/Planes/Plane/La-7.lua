@@ -526,9 +526,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	HumanCockpitPath = false,
 	HumanRadio = {
 		editable = true,
-		frequency = 124,
-		maxFrequency = 156,
-		minFrequency = 100,
+		frequency = 3.7,
+		maxFrequency = 6.06,
+		minFrequency = 3.7,
 		modulation = 0
 	},
 	IR_emission_coeff = 0.1,
@@ -764,7 +764,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	main_gear_pos = { 0.64, -1.86, 1.43 },
 	main_gear_wheel_diameter = 0.66,
 	mapclasskey = "P0091000024",
-	mech_timing = { {}, {}, { 0, 0.027027027027027 }, { 0, 0.029411764705882 } },
 	mechanimations = {
 		Door0 = { {
 				Flags = { "Reversible" },
@@ -797,31 +796,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	nose_gear_amortizer_reversal_stroke = -0.067,
 	nose_gear_pos = { -4.49, -0.5, 0 },
 	nose_gear_wheel_diameter = 0.25,
-	panelRadio = { {
-			channels = { {
-					connect = true,
-					default = 105,
-					modulation = "AM",
-					name = "ButtonA"
-				}, {
-					default = 124,
-					modulation = "AM",
-					name = "ButtonB"
-				}, {
-					default = 131,
-					modulation = "AM",
-					name = "ButtonC"
-				}, {
-					default = 139,
-					modulation = "AM",
-					name = "ButtonD"
-				} },
-			name = "SCR522",
-			range = {
-				max = 156,
-				min = 100
-			}
-		} },
 	propellorShapeName = "la-7_blade.FBX",
 	propellorShapeType = "3ARG_PROC_BLUR",
 	radar_can_see_ground = false,

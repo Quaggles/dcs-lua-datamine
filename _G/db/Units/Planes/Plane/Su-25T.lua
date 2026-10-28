@@ -8,195 +8,262 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		IRCM = "Sukhogruz"
 	},
 	Damage = { {
-			args = { 146, 296, 297 },
-			critical_damage = 10
+			args = { 600, 296, 297 },
+			critical_damage = 10,
+			droppable = false
 		}, {
-			args = { 146, 298, 299 },
-			critical_damage = 10
+			args = { 600, 298, 299 },
+			critical_damage = 10,
+			droppable = false
 		}, {
 			args = { 65 },
-			critical_damage = 15
+			critical_damage = 15,
+			droppable = false
 		}, {
-			args = { 147, 150 },
+			args = { 150 },
 			critical_damage = 14,
-			deps_cells = { 0, 1, 2, 3 }
+			droppable = false
 		}, {
-			args = { 147, 149 },
+			args = { 149, -1, -1, -1, -1, 147 },
 			critical_damage = 14,
-			deps_cells = { 0, 1, 2, 3 }
+			deps_cells = { 4, 6, 0, 3 },
+			droppable = true
 		}, {
-			args = { 147 },
 			critical_damage = 14,
-			deps_cells = { 0, 1, 2, 3, 4, 5 }
+			deps_cells = { 7, 8 },
+			droppable = false
 		}, {
 			critical_damage = 4
 		}, {
-			args = { 265, 134 },
-			critical_damage = 5
+			args = { 265 },
+			critical_damage = 5,
+			deps_cells = { 83 },
+			droppable = false
 		}, {
-			args = { 154, 299 },
-			critical_damage = 8
+			args = { 154, 301 },
+			critical_damage = 8,
+			deps_cells = { 17 },
+			droppable = false
 		}, {
 			args = { 153, 303 },
-			critical_damage = 8
+			critical_damage = 8,
+			deps_cells = { 18 },
+			droppable = false
 		}, {
 			args = { 167 },
-			critical_damage = 3
+			critical_damage = 3,
+			droppable = true
 		}, {
 			args = { 161 },
-			critical_damage = 3
+			critical_damage = 3,
+			droppable = true
 		}, {
 			args = { 169 },
-			critical_damage = 3
+			critical_damage = 3,
+			droppable = false
 		}, {
 			args = { 163 },
-			critical_damage = 3
+			critical_damage = 3,
+			droppable = false
 		}, {
-			args = { 266, 135 },
-			critical_damage = 5
+			args = { 267 },
+			critical_damage = 5,
+			deps_cells = { 84 },
+			droppable = false
 		}, {
-			args = { 267, 136 },
-			critical_damage = 5
+			args = { 266 },
+			critical_damage = 5,
+			deps_cells = { 85 },
+			droppable = false
 		}, {
 			args = { 168 },
-			critical_damage = 5
+			critical_damage = 5,
+			deps_cells = { 13, 11, 35, 15 },
+			droppable = false
 		}, {
 			args = { 162 },
-			critical_damage = 5
+			critical_damage = 5,
+			deps_cells = { 14, 12, 36, 16 },
+			droppable = false
 		}, {
 			args = { 187 },
-			critical_damage = 4
+			critical_damage = 4,
+			droppable = true
 		}, {
 			args = { 183 },
-			critical_damage = 4
+			critical_damage = 4,
+			droppable = true
 		}, {
-			args = { 230 },
-			critical_damage = 3
+			critical_damage = 2
 		}, {
-			args = { 220 },
-			critical_damage = 3
+			critical_damage = 2
 		}, {
 			args = { 223 },
-			critical_damage = 8,
-			deps_cells = { 19, 21, 25 }
+			critical_damage = 6,
+			deps_cells = { 19, 21, 25 },
+			droppable = true
 		}, {
 			args = { 213 },
-			critical_damage = 8,
-			deps_cells = { 20, 22, 26 }
+			critical_damage = 6,
+			deps_cells = { 20, 22, 26 },
+			droppable = true
 		}, {
 			args = { 226 },
-			critical_damage = 3
+			critical_damage = 3,
+			droppable = true
 		}, {
 			args = { 216 },
-			critical_damage = 3
+			critical_damage = 3,
+			droppable = true
 		}, {
-			args = { 231 },
-			critical_damage = 4
+			critical_damage = 2
 		}, {
-			args = { 221 },
-			critical_damage = 4
+			critical_damage = 2
 		}, {
 			args = { 224 },
-			critical_damage = 9,
-			deps_cells = { 19, 21, 23, 25, 27, 31 }
+			critical_damage = 8,
+			deps_cells = { 23, 27, 31 },
+			droppable = true
 		}, {
 			args = { 214 },
-			critical_damage = 9,
-			deps_cells = { 20, 22, 24, 26, 28, 32 }
+			critical_damage = 8,
+			deps_cells = { 24, 28, 32 },
+			droppable = true
 		}, {
-			args = { 227 },
-			critical_damage = 4
+			args = { 229 },
+			critical_damage = 2,
+			droppable = false
 		}, {
-			args = { 217 },
-			critical_damage = 4
+			args = { 219 },
+			critical_damage = 2,
+			droppable = false
 		}, {
-			args = { 232 },
-			critical_damage = 4
+			critical_damage = 2
 		}, {
-			args = { 222 },
-			critical_damage = 4
+			critical_damage = 2
 		}, {
 			args = { 225 },
 			critical_damage = 10,
-			deps_cells = { 19, 21, 23, 25, 27, 29, 31, 37, 33 }
+			deps_cells = { 29, 33, 37 },
+			droppable = true
 		}, {
 			args = { 215 },
 			critical_damage = 10,
-			deps_cells = { 20, 22, 24, 26, 28, 30, 32, 38, 34 }
+			deps_cells = { 30, 34, 38 },
+			droppable = true
 		}, {
 			args = { 228 },
-			critical_damage = 3
+			critical_damage = 2,
+			droppable = false
 		}, {
 			args = { 218 },
-			critical_damage = 3
+			critical_damage = 2,
+			droppable = false
 		},
 		[0] = {
-			args = { 146 },
+			args = { 600, -1, -1, -1, -1, 146 },
 			critical_damage = 10,
-			deps_cells = { 1, 2 }
+			deps_cells = { 1, 2 },
+			droppable = true
 		},
 		[40] = {
 			args = { 241 },
-			critical_damage = 3
+			critical_damage = 3,
+			droppable = true
 		},
 		[42] = {
 			args = { 242 },
 			critical_damage = 3,
-			deps_cells = { 40, 53 }
+			deps_cells = { 40, 53 },
+			droppable = true
 		},
 		[44] = {
 			args = { 243 },
 			critical_damage = 4,
-			deps_cells = { 40, 42, 53, 54 }
+			deps_cells = { 42, 54 },
+			droppable = true
 		},
 		[45] = {
 			args = { 235 },
 			critical_damage = 4,
-			deps_cells = { 49 }
+			deps_cells = { 51 },
+			droppable = true
 		},
 		[46] = {
 			args = { 233 },
 			critical_damage = 4,
-			deps_cells = { 50 }
+			deps_cells = { 52 },
+			droppable = true
 		},
 		[47] = {
 			args = { 236 },
 			critical_damage = 3,
-			deps_cells = { 45, 51, 49 }
+			deps_cells = { 45 },
+			droppable = false
 		},
 		[48] = {
 			args = { 234 },
 			critical_damage = 3,
-			deps_cells = { 46, 50, 52 }
+			deps_cells = { 46 },
+			droppable = false
 		},
 		[49] = {
 			args = { 239 },
-			critical_damage = 2
+			critical_damage = 2,
+			droppable = true
 		},
 		[50] = {
 			args = { 237 },
-			critical_damage = 2
+			critical_damage = 2,
+			droppable = true
 		},
 		[51] = {
 			args = { 240 },
-			critical_damage = 2
+			critical_damage = 2,
+			deps_cells = { 49 },
+			droppable = true
 		},
 		[52] = {
 			args = { 238 },
-			critical_damage = 2
+			critical_damage = 2,
+			deps_cells = { 50 },
+			droppable = true
 		},
 		[53] = {
 			args = { 248 },
-			critical_damage = 2
+			critical_damage = 2,
+			droppable = true
 		},
 		[54] = {
 			args = { 247 },
-			critical_damage = 2
+			critical_damage = 2,
+			droppable = true
 		},
 		[55] = {
 			args = { 81 },
 			critical_damage = 10,
-			deps_cells = { 45, 51, 49, 46, 50, 52, 44, 40, 42, 53, 54, 47, 48 }
+			deps_cells = { 44, 47, 48 },
+			droppable = true
+		},
+		[83] = {
+			args = { 134 },
+			critical_damage = 1,
+			droppable = false
+		},
+		[84] = {
+			args = { 136 },
+			critical_damage = 1,
+			droppable = false
+		},
+		[85] = {
+			args = { 135 },
+			critical_damage = 1,
+			droppable = false
+		},
+		cell_indices = {
+			FRONT_WHEEL = 83,
+			LEFT_WHEEL = 84,
+			RIGHT_WHEEL = 85
 		}
 	},
 	DamageParts = { "SU-25T-WING-R", "SU-25T-WING-L", "SU-25T-NOSE", "SU-25T-TAIL" },

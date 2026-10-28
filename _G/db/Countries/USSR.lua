@@ -654,6 +654,8 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "P14_SR"
 				}, {
+					Name = "CHAP_BMD2"
+				}, {
 					Name = "TugHarlan_drivable"
 				}, {
 					Name = "B600_drivable"

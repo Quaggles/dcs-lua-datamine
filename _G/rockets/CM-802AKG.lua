@@ -1,5 +1,5 @@
 _G["rockets"]["#Index"] = {
-	Cx_pil = 1,
+	Cx_pil = 8,
 	D_max = 230000,
 	D_min = 15000,
 	Damage = 380,
@@ -19,7 +19,7 @@ _G["rockets"]["#Index"] = {
 	M = 675,
 	Mach_max = 0.98,
 	Name = "Redacted",
-	Nr_max = 9,
+	Nr_max = 6,
 	OmViz_max = 99.9,
 	Range_max = 230000,
 	Reflection = 0.09,
@@ -192,7 +192,7 @@ _G["rockets"]["#Index"] = {
 			name = "CM-802AKG",
 			username = "CM-802AKG"
 		} },
-	sigma = { 3, 3, 3 },
+	sigma = { 20, 20, 20 },
 	t_acc = 0,
 	t_b = 5,
 	t_marsh = 10000,

@@ -138,7 +138,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		},
 		[61] = {
 			args = { 147 },
-			critical_damage = 5,
+			critical_damage = 17,
 			droppable = false
 		},
 		[62] = {

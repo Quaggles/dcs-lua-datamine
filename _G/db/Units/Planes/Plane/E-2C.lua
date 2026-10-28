@@ -152,12 +152,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 6,
 			deps_cells = { 54 }
 		},
-		[43] = {
-			critical_damage = 6
-		},
-		[44] = {
-			critical_damage = 6
-		},
 		[47] = {
 			args = { 236 },
 			critical_damage = 12,
@@ -213,6 +207,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[98] = {
 			critical_damage = 3
+		},
+		cell_indices = {
+			Line_KIL_L = 39,
+			Line_KIL_R = 40,
+			Line_NOSE = 0,
+			Line_STABIL_R = 48,
+			Line_WING_L = 29,
+			Line_WING_R = 30
 		}
 	},
 	DamageParts = { "E-2C-OBLOMOK-WING-R", "E-2C-OBLOMOK-WING-L" },

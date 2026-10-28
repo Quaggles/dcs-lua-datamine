@@ -142,14 +142,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 233 },
 			critical_damage = 2
 		},
-		[51] = {
-			args = { 240 },
-			critical_damage = 2
-		},
-		[52] = {
-			args = { 233 },
-			critical_damage = 2
-		},
 		[53] = {
 			args = { 248 },
 			critical_damage = 2

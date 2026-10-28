@@ -49,17 +49,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[6] = {
 			args = { 148 },
 			critical_damage = 3,
-			deps_cells = { 138, 139 }
+			deps_cells = { 175, 176 }
 		},
 		[9] = {
 			args = { 154 },
 			critical_damage = 5,
-			deps_cells = { 141, 145 }
+			deps_cells = { 178, 182 }
 		},
 		[10] = {
 			args = { 153 },
 			critical_damage = 5,
-			deps_cells = { 140, 144 }
+			deps_cells = { 177, 181 }
 		},
 		[11] = {
 			args = { 167 },
@@ -150,12 +150,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[39] = {
 			args = { 241 },
 			critical_damage = 3,
-			deps_cells = { 151 }
+			deps_cells = { 188 }
 		},
 		[41] = {
 			args = { 242 },
 			critical_damage = 4,
-			deps_cells = { 39, 150 }
+			deps_cells = { 39, 187 }
 		},
 		[43] = {
 			args = { 243 },
@@ -221,7 +221,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[82] = {
 			args = { 152 },
 			critical_damage = 10,
-			deps_cells = { 142, 143, 146, 147, 148, 149 }
+			deps_cells = { 179, 180, 183, 184, 185, 186 }
 		},
 		[83] = {
 			args = { -1 },
@@ -251,70 +251,65 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 151 },
 			critical_damage = 10
 		},
-		[137] = {
+		[175] = {
 			args = { -1 },
 			critical_damage = 3
 		},
-		[138] = {
+		[176] = {
 			args = { -1 },
 			critical_damage = 3
 		},
-		[139] = {
+		[177] = {
 			args = { -1 },
 			critical_damage = 3
 		},
-		[140] = {
+		[178] = {
 			args = { -1 },
 			critical_damage = 3
 		},
-		[141] = {
+		[179] = {
 			args = { -1 },
 			critical_damage = 3
 		},
-		[142] = {
+		[180] = {
 			args = { -1 },
 			critical_damage = 3
 		},
-		[143] = {
+		[181] = {
 			args = { -1 },
 			critical_damage = 3
 		},
-		[144] = {
+		[182] = {
 			args = { -1 },
 			critical_damage = 3
 		},
-		[145] = {
+		[183] = {
 			args = { -1 },
 			critical_damage = 3
 		},
-		[146] = {
+		[184] = {
 			args = { -1 },
 			critical_damage = 3
 		},
-		[147] = {
+		[185] = {
 			args = { -1 },
 			critical_damage = 3
 		},
-		[148] = {
+		[186] = {
 			args = { -1 },
 			critical_damage = 3
 		},
-		[149] = {
-			args = { -1 },
-			critical_damage = 3
-		},
-		[150] = {
+		[187] = {
 			args = { 247 },
 			critical_damage = 3
 		},
-		[151] = {
+		[188] = {
 			args = { -1 },
 			critical_damage = 3
 		},
 		cell_indices = {
 			AILERON_L = 25,
 			AILERON_R = 26,
-			BOOM = 137,
 			CABIN_BOTTOM = 6,
 			CABIN_LEFT_SIDE = 4,
 			CABIN_RIGHT_SIDE = 5,
@@ -336,26 +331,26 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			FUSELAGE_LEFT_SIDE = 9,
 			FUSELAGE_RIGHT_SIDE = 10,
 			FUSELAGE_TOP = 99,
-			HATCH_001 = 138,
-			HATCH_002 = 139,
-			HATCH_003 = 140,
-			HATCH_004 = 141,
-			HATCH_005 = 142,
-			HATCH_006 = 143,
-			HATCH_007 = 144,
-			HATCH_008 = 145,
-			HATCH_009 = 146,
-			HATCH_010 = 147,
-			HATCH_011 = 148,
-			HATCH_012 = 149,
+			HATCH_001 = 175,
+			HATCH_002 = 176,
+			HATCH_003 = 177,
+			HATCH_004 = 178,
+			HATCH_005 = 179,
+			HATCH_006 = 180,
+			HATCH_007 = 181,
+			HATCH_008 = 182,
+			HATCH_009 = 183,
+			HATCH_010 = 184,
+			HATCH_011 = 185,
+			HATCH_012 = 186,
 			HOOK = 98,
 			KEEL_CENTER = 41,
 			KEEL_IN = 43,
 			KEEL_OUT = 39,
 			PYLONL = 86,
 			PYLONR = 87,
-			RUDDER_IN = 150,
-			RUDDER_OUT = 151,
+			RUDDER_IN = 187,
+			RUDDER_OUT = 188,
 			STABILIZER_L_IN = 47,
 			STABILIZER_L_OUT = 45,
 			STABILIZER_R_IN = 48,

@@ -522,6 +522,10 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "CHAP_TorM2"
 				}, {
+					Name = "CHAP_PGZ09"
+				}, {
+					Name = "CHAP_ZTQ15"
+				}, {
 					Name = "TugHarlan_drivable"
 				}, {
 					Name = "B600_drivable"

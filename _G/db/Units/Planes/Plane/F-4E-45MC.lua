@@ -273,7 +273,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[0] = {
 			args = { 3204 },
 			critical_damage = 3,
-			deps_cells = { 177 }
+			deps_cells = { 215 }
 		},
 		[3] = {
 			args = { 65 },
@@ -301,22 +301,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[23] = {
 			args = { 3206 },
 			critical_damage = 4,
-			deps_cells = { 187 }
+			deps_cells = { 225 }
 		},
 		[24] = {
 			args = { 3209 },
 			critical_damage = 4,
-			deps_cells = { 189 }
+			deps_cells = { 227 }
 		},
 		[35] = {
 			args = { 3207 },
 			critical_damage = 7,
-			deps_cells = { 23, 37, 61, 159, 160, 186, 137, 178, 179 }
+			deps_cells = { 23, 37, 61, 197, 198, 224, 175, 216, 217 }
 		},
 		[36] = {
 			args = { 3208 },
 			critical_damage = 7,
-			deps_cells = { 24, 38, 62, 161, 162, 188, 138, 180, 181 }
+			deps_cells = { 24, 38, 62, 199, 200, 226, 176, 218, 219 }
 		},
 		[37] = {
 			critical_damage = 2
@@ -335,7 +335,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[53] = {
 			args = { 3201 },
 			critical_damage = 6,
-			deps_cells = { 182, 184 }
+			deps_cells = { 220, 222 }
 		},
 		[55] = {
 			args = { 3200 },
@@ -357,11 +357,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 3
 		},
 		[84] = {
-			args = { 136 },
+			args = { 135 },
 			critical_damage = 3
 		},
 		[85] = {
-			args = { 135 },
+			args = { 136 },
 			critical_damage = 3
 		},
 		[90] = {
@@ -374,153 +374,35 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 3217 },
 			critical_damage = 5
 		},
-		[137] = {
-			critical_damage = 2
-		},
-		[138] = {
-			critical_damage = 2
-		},
-		[139] = {
-			critical_damage = 1
-		},
-		[140] = {
-			critical_damage = 3
-		},
-		[141] = {
-			critical_damage = 3
-		},
-		[142] = {
-			critical_damage = 3
-		},
-		[143] = {
-			critical_damage = 3
-		},
-		[144] = {
-			critical_damage = 5
-		},
-		[145] = {
-			critical_damage = 5
-		},
-		[146] = {
-			critical_damage = 3
-		},
-		[147] = {
-			critical_damage = 3
-		},
-		[148] = {
-			critical_damage = 3
-		},
-		[149] = {
-			critical_damage = 3
-		},
-		[150] = {
-			critical_damage = 3
-		},
-		[151] = {
-			critical_damage = 3
-		},
-		[152] = {
-			critical_damage = 3
-		},
-		[153] = {
-			critical_damage = 3
-		},
-		[154] = {
-			critical_damage = 3
-		},
-		[155] = {
-			critical_damage = 3
-		},
-		[156] = {
-			critical_damage = 3
-		},
-		[157] = {
-			critical_damage = 3
-		},
-		[158] = {
-			critical_damage = 2
-		},
-		[159] = {
-			critical_damage = 3
-		},
-		[160] = {
-			critical_damage = 3
-		},
-		[161] = {
-			critical_damage = 3
-		},
-		[162] = {
-			critical_damage = 3
-		},
-		[163] = {
-			critical_damage = 2
-		},
-		[164] = {
-			critical_damage = 2
-		},
-		[165] = {
-			critical_damage = 2
-		},
-		[166] = {
-			critical_damage = 2
-		},
-		[167] = {
-			critical_damage = 2
-		},
-		[168] = {
-			critical_damage = 2
-		},
-		[169] = {
-			args = { 3220 },
-			critical_damage = 6
-		},
-		[170] = {
-			critical_damage = 3
-		},
-		[171] = {
-			critical_damage = 3
-		},
-		[172] = {
-			critical_damage = 3
-		},
-		[173] = {
-			args = { 617 },
-			critical_damage = 2
-		},
-		[174] = {
-			args = { 615 },
-			critical_damage = 2
-		},
 		[175] = {
 			critical_damage = 2
 		},
 		[176] = {
-			args = { 616 },
 			critical_damage = 2
 		},
 		[177] = {
-			critical_damage = 2
+			critical_damage = 1
 		},
 		[178] = {
-			critical_damage = 2
-		},
-		[179] = {
-			critical_damage = 2
-		},
-		[180] = {
-			critical_damage = 2
-		},
-		[181] = {
-			critical_damage = 2
-		},
-		[182] = {
-			critical_damage = 2
-		},
-		[183] = {
 			critical_damage = 3
 		},
+		[179] = {
+			critical_damage = 3
+		},
+		[180] = {
+			critical_damage = 3
+		},
+		[181] = {
+			critical_damage = 3
+		},
+		[182] = {
+			critical_damage = 5
+		},
+		[183] = {
+			critical_damage = 5
+		},
 		[184] = {
-			critical_damage = 2
+			critical_damage = 3
 		},
 		[185] = {
 			critical_damage = 3
@@ -537,86 +419,204 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[189] = {
 			critical_damage = 3
 		},
+		[190] = {
+			critical_damage = 3
+		},
+		[191] = {
+			critical_damage = 3
+		},
+		[192] = {
+			critical_damage = 3
+		},
+		[193] = {
+			critical_damage = 3
+		},
+		[194] = {
+			critical_damage = 3
+		},
+		[195] = {
+			critical_damage = 3
+		},
+		[196] = {
+			critical_damage = 2
+		},
+		[197] = {
+			critical_damage = 3
+		},
+		[198] = {
+			critical_damage = 3
+		},
+		[199] = {
+			critical_damage = 3
+		},
+		[200] = {
+			critical_damage = 3
+		},
+		[201] = {
+			critical_damage = 2
+		},
+		[202] = {
+			critical_damage = 2
+		},
+		[203] = {
+			critical_damage = 2
+		},
+		[204] = {
+			critical_damage = 2
+		},
+		[205] = {
+			critical_damage = 2
+		},
+		[206] = {
+			critical_damage = 2
+		},
+		[207] = {
+			args = { 3220 },
+			critical_damage = 6
+		},
+		[208] = {
+			critical_damage = 3
+		},
+		[209] = {
+			critical_damage = 3
+		},
+		[210] = {
+			critical_damage = 3
+		},
+		[211] = {
+			args = { 617 },
+			critical_damage = 2
+		},
+		[212] = {
+			args = { 615 },
+			critical_damage = 2
+		},
+		[213] = {
+			critical_damage = 2
+		},
+		[214] = {
+			args = { 616 },
+			critical_damage = 2
+		},
+		[215] = {
+			critical_damage = 2
+		},
+		[216] = {
+			critical_damage = 2
+		},
+		[217] = {
+			critical_damage = 2
+		},
+		[218] = {
+			critical_damage = 2
+		},
+		[219] = {
+			critical_damage = 2
+		},
+		[220] = {
+			critical_damage = 2
+		},
+		[221] = {
+			critical_damage = 3
+		},
+		[222] = {
+			critical_damage = 2
+		},
+		[223] = {
+			critical_damage = 3
+		},
+		[224] = {
+			critical_damage = 3
+		},
+		[225] = {
+			critical_damage = 3
+		},
+		[226] = {
+			critical_damage = 3
+		},
+		[227] = {
+			critical_damage = 3
+		},
 		cell_indices = {
-			AOA_Probe = 139,
-			Airbrake_L = 137,
-			Airbrake_R = 138,
+			AOA_Probe = 177,
+			Airbrake_L = 175,
+			Airbrake_R = 176,
 			COCKPIT = 3,
-			COCKPIT_SIDEWALL_L = 140,
-			COCKPIT_SIDEWALL_R = 141,
+			COCKPIT_SIDEWALL_L = 178,
+			COCKPIT_SIDEWALL_R = 179,
 			CREW_1 = 90,
 			CREW_2 = 91,
-			DASHBOARD_PILOT = 142,
-			DASHBOARD_WSO = 143,
-			EJECTION_SEAT_PILOT = 144,
-			EJECTION_SEAT_WSO = 145,
+			DASHBOARD_PILOT = 180,
+			DASHBOARD_WSO = 181,
+			EJECTION_SEAT_PILOT = 182,
+			EJECTION_SEAT_WSO = 183,
 			ENGINE_L = 11,
-			ENGINE_L_AB = 146,
-			ENGINE_L_Main = 147,
+			ENGINE_L_AB = 184,
+			ENGINE_L_Main = 185,
 			ENGINE_R = 12,
-			ENGINE_R_AB = 148,
-			ENGINE_R_Main = 149,
-			EQUIPMENT_BAY_1 = 158,
-			Engine_L_Compressor = 150,
-			Engine_L_Equipment = 151,
-			Engine_L_Gen = 152,
-			Engine_L_Pump = 153,
-			Engine_R_Compressor = 154,
-			Engine_R_Equipment = 155,
-			Engine_R_Gen = 156,
-			Engine_R_Pump = 157,
-			FLAPERON_L_01 = 159,
-			FLAPERON_L_02 = 160,
-			FLAPERON_R_01 = 161,
-			FLAPERON_R_02 = 162,
+			ENGINE_R_AB = 186,
+			ENGINE_R_Main = 187,
+			EQUIPMENT_BAY_1 = 196,
+			Engine_L_Compressor = 188,
+			Engine_L_Equipment = 189,
+			Engine_L_Gen = 190,
+			Engine_L_Pump = 191,
+			Engine_R_Compressor = 192,
+			Engine_R_Equipment = 193,
+			Engine_R_Gen = 194,
+			Engine_R_Pump = 195,
+			FLAPERON_L_01 = 197,
+			FLAPERON_L_02 = 198,
+			FLAPERON_R_01 = 199,
+			FLAPERON_R_02 = 200,
 			FLAP_L = 37,
 			FLAP_R = 38,
 			FRONT = 0,
-			FUEL_TANK_01 = 163,
-			FUEL_TANK_03 = 164,
-			FUEL_TANK_04 = 165,
-			FUEL_TANK_05 = 166,
-			FUEL_TANK_06 = 167,
-			FUEL_TANK_07 = 168,
+			FUEL_TANK_01 = 201,
+			FUEL_TANK_03 = 202,
+			FUEL_TANK_04 = 203,
+			FUEL_TANK_05 = 204,
+			FUEL_TANK_06 = 205,
+			FUEL_TANK_07 = 206,
 			FUEL_TANK_LEFT_SIDE = 61,
 			FUEL_TANK_RIGHT_SIDE = 62,
 			FUSELAGE_BOTTOM = 82,
 			FUSELAGE_LEFT_SIDE = 9,
-			FUSELAGE_REAR_TOP = 169,
+			FUSELAGE_REAR_TOP = 207,
 			FUSELAGE_RIGHT_SIDE = 10,
 			FUSELAGE_TOP = 99,
 			GUN = 7,
-			Internal_Belly_01 = 170,
-			Internal_Belly_02 = 171,
-			Internal_Belly_03 = 172,
-			PILOT_PROBE = 177,
-			PYLON_01 = 178,
-			PYLON_02 = 179,
-			PYLON_03 = 180,
-			PYLON_04 = 181,
-			PaveSpike_Body = 173,
-			PaveSpike_Head = 174,
-			PaveSpike_Main = 175,
-			PaveSpike_Tail = 176,
+			Internal_Belly_01 = 208,
+			Internal_Belly_02 = 209,
+			Internal_Belly_03 = 210,
+			PILOT_PROBE = 215,
+			PYLON_01 = 216,
+			PYLON_02 = 217,
+			PYLON_03 = 218,
+			PYLON_04 = 219,
+			PaveSpike_Body = 211,
+			PaveSpike_Head = 212,
+			PaveSpike_Main = 213,
+			PaveSpike_Tail = 214,
 			RUDDER = 53,
-			RUDDER_01 = 182,
+			RUDDER_01 = 220,
 			STABILIZATOR_L = 47,
 			STABILIZATOR_R = 48,
-			STAB_CONTROLS = 183,
-			Stab_feel_probe = 184,
+			STAB_CONTROLS = 221,
+			Stab_feel_probe = 222,
 			TAIL = 55,
-			TAILHOOK = 185,
+			TAILHOOK = 223,
 			WHEEL_F = 83,
 			WHEEL_L = 84,
 			WHEEL_R = 85,
 			WING_L_IN = 35,
-			WING_L_IN_SLAT = 186,
+			WING_L_IN_SLAT = 224,
 			WING_L_OUT = 23,
-			WING_L_OUT_SLAT = 187,
+			WING_L_OUT_SLAT = 225,
 			WING_R_IN = 36,
-			WING_R_IN_SLAT = 188,
+			WING_R_IN_SLAT = 226,
 			WING_R_OUT = 24,
-			WING_R_OUT_SLAT = 189
+			WING_R_OUT_SLAT = 227
 		}
 	},
 	DamageParts = {
@@ -1142,6 +1142,30 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			enable = false,
 			hh = 0,
+			id = "/F-4E-45-MC/Landing Gear/Left Main Landing Gear/Tire:Flat",
+			label = "Left Main Flat Tire",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "/F-4E-45-MC/Landing Gear/Right Main Landing Gear/Tire:Flat",
+			label = "Right Main Flat Tire",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "/F-4E-45-MC/Landing Gear/Nose Landing Gear/Tire:Flat",
+			label = "Nose Flat Tire",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
 			id = "/F-4E-45-MC/Pilot Seat:Seat Motor Overheated",
 			label = "Seat Motor: Pilot",
 			mm = 0,
@@ -1510,6 +1534,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		}, {
 			enable = false,
 			hh = 0,
+			id = "/F-4E-45-MC/Left Engine/Gas Generator:Combustion Flameout",
+			label = "Left Engine Flameout (recoverable)",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
 			id = "/F-4E-45-MC/Right Engine/Fire Detection:Engine Fire",
 			label = "Right Engine Fire",
 			mm = 0,
@@ -1544,6 +1576,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			hh = 0,
 			id = "/F-4E-45-MC/Right Engine/Gas Generator:Compressor Stall",
 			label = "Right Engine Compressor Stall",
+			mm = 0,
+			mmint = 1,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			id = "/F-4E-45-MC/Right Engine/Gas Generator:Combustion Flameout",
+			label = "Right Engine Flameout (recoverable)",
 			mm = 0,
 			mmint = 1,
 			prob = 100
@@ -2066,6 +2106,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				anti_skid_installed = false,
 				arg_amortizer = 1,
 				arg_post = 0,
+				arg_wheel_damage = 134,
 				arg_wheel_rotation = 101,
 				arg_wheel_yaw = 2,
 				collision_shell_name = "WHEEL_F",
@@ -2102,6 +2143,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				anti_skid_installed = true,
 				arg_amortizer = 6,
 				arg_post = 5,
+				arg_wheel_damage = 135,
 				arg_wheel_rotation = 103,
 				arg_wheel_yaw = -1,
 				collision_shell_name = "WHEEL_L",
@@ -2141,6 +2183,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				anti_skid_installed = true,
 				arg_amortizer = 4,
 				arg_post = 3,
+				arg_wheel_damage = 136,
 				arg_wheel_rotation = 102,
 				arg_wheel_yaw = -1,
 				collision_shell_name = "WHEEL_R",

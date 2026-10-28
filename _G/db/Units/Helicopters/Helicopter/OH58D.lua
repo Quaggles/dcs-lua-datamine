@@ -398,72 +398,72 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			args = { -1 },
 			critical_damage = 1
 		},
-		[137] = {
-			args = { -1 },
-			critical_damage = 1
-		},
-		[138] = {
-			args = { -1 },
-			critical_damage = 1
-		},
-		[139] = {
-			args = { -1 },
-			critical_damage = 1
-		},
-		[140] = {
-			args = { -1 },
-			critical_damage = 1
-		},
-		[141] = {
-			args = { -1 },
-			critical_damage = 1
-		},
-		[142] = {
-			args = { -1 },
-			critical_damage = 1
-		},
-		[143] = {
-			args = { -1 },
-			critical_damage = 3
-		},
-		[144] = {
-			args = { -1 },
-			critical_damage = 1
-		},
-		[145] = {
-			args = { -1 },
-			critical_damage = 1
-		},
-		[146] = {
-			args = { -1 },
-			critical_damage = 1
-		},
-		[147] = {
-			args = { -1 },
-			critical_damage = 1
-		},
-		[148] = {
-			args = { -1 },
-			critical_damage = 1
-		},
-		[149] = {
+		[161] = {
 			args = { 169 },
 			critical_damage = 2
 		},
-		[150] = {
+		[175] = {
 			args = { -1 },
 			critical_damage = 1
 		},
-		[151] = {
+		[176] = {
 			args = { -1 },
 			critical_damage = 1
 		},
-		[152] = {
+		[177] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[178] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[179] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[180] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[181] = {
+			args = { -1 },
+			critical_damage = 3
+		},
+		[182] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[183] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[184] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[185] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[186] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[187] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[188] = {
+			args = { -1 },
+			critical_damage = 1
+		},
+		[189] = {
 			args = { -1 },
 			critical_damage = 1
 		},
 		cell_indices = {
-			AC_GEN = 137,
+			AC_GEN = 175,
 			AIR_BRAKE_L = 19,
 			AIR_BRAKE_R = 20,
 			BLADE_1_IN = 64,
@@ -476,10 +476,10 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			COCKPIT = 3,
 			CREW_1 = 90,
 			CREW_2 = 91,
-			CYCLIC_C = 138,
-			CYCLIC_L = 139,
-			CYCLIC_R = 140,
-			DC_GEN = 141,
+			CYCLIC_C = 176,
+			CYCLIC_L = 177,
+			CYCLIC_R = 178,
+			DC_GEN = 179,
 			ENGINE_1 = 103,
 			ENGINE_2 = 104,
 			ENGINE_3 = 105,
@@ -488,34 +488,34 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			ENGINE_6 = 108,
 			ENGINE_7 = 109,
 			ENGINE_8 = 110,
-			ENGINE_ECU = 142,
+			ENGINE_ECU = 180,
 			ENGINE_L = 11,
-			ENG_OIL = 143,
+			ENG_OIL = 181,
 			FRONT = 0,
 			FUEL_TANK_B = 62,
 			FUSELAGE_BOTTOM = 82,
 			FUSELAGE_LEFT_SIDE = 9,
 			FUSELAGE_RIGHT_SIDE = 10,
 			FUSELAGE_TOP = 99,
-			HYD_RES = 144,
-			INVERTER = 145,
+			HYD_RES = 182,
+			INVERTER = 183,
 			KEEL_CENTER = 41,
 			KEEL_L = 43,
 			KEEL_OUT = 39,
 			KEEL_R = 44,
 			LEFT_GEAR_BOX = 15,
-			LMFD_CPU = 146,
-			MMS_CPS = 147,
-			MMS_SP = 148,
+			LMFD_CPU = 184,
+			MMS_CPS = 185,
+			MMS_SP = 186,
 			MTG_L_BOTTOM = 13,
 			MTG_R_BOTTOM = 14,
 			NOSE_CENTER = 0,
 			NOSE_LEFT_SIDE = 1,
 			NOSE_RIGHT_SIDE = 2,
-			RADAR = 149,
-			RECT_UNIT = 150,
+			RADAR = 161,
+			RECT_UNIT = 187,
 			RIGHT_GEAR_BOX = 16,
-			RMFD_CPU = 151,
+			RMFD_CPU = 188,
 			ROTOR = 63,
 			STABILIZATOR_L = 47,
 			TAIL = 55,
@@ -547,7 +547,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			WING_R_IN = 36,
 			WING_R_OUT = 24,
 			WING_R_PART_IN = 34,
-			XMSN = 152
+			XMSN = 189
 		}
 	},
 	DamageParts = {

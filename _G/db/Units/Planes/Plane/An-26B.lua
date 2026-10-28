@@ -12,7 +12,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 5
 		}, {
 			args = { 65 },
-			critical_damage = 15
+			critical_damage = 1
 		},
 		[0] = {
 			args = { 146 },
@@ -54,31 +54,31 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[25] = {
 			args = { 226 },
-			critical_damage = 6
+			critical_damage = 3
 		},
 		[26] = {
 			args = { 216 },
-			critical_damage = 6
+			critical_damage = 3
 		},
 		[29] = {
 			args = { 224 },
 			critical_damage = 8,
-			deps_cells = { 23, 25 }
+			deps_cells = { 23 }
 		},
 		[30] = {
 			args = { 214 },
 			critical_damage = 8,
-			deps_cells = { 24, 26 }
+			deps_cells = { 24 }
 		},
 		[35] = {
 			args = { 225 },
 			critical_damage = 20,
-			deps_cells = { 11, 29, 23, 25 }
+			deps_cells = { 11, 29 }
 		},
 		[36] = {
 			args = { 215 },
 			critical_damage = 20,
-			deps_cells = { 12, 30, 24, 26 }
+			deps_cells = { 12, 30 }
 		},
 		[43] = {
 			args = { 244 },
@@ -87,8 +87,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[44] = {
 			args = { 241 },
-			critical_damage = 6,
-			deps_cells = { 54 }
+			critical_damage = 6
 		},
 		[47] = {
 			args = { 236 },
@@ -115,22 +114,19 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[55] = {
 			args = { 159 },
 			critical_damage = 50,
-			deps_cells = { 56, 57, 58, 43, 44, 54, 48, 52, 47, 51 }
+			deps_cells = { 56, 57, 58, 43, 44, 47, 48 }
 		},
 		[56] = {
 			args = { 158 },
-			critical_damage = 50,
-			deps_cells = { 43, 44, 54, 48, 52, 47, 51 }
+			critical_damage = 50
 		},
 		[57] = {
 			args = { 157 },
-			critical_damage = 50,
-			deps_cells = { 43, 44, 54, 48, 52, 47, 51 }
+			critical_damage = 50
 		},
 		[58] = {
 			args = { 156 },
-			critical_damage = 50,
-			deps_cells = { 43, 44, 54, 48, 52, 47, 51 }
+			critical_damage = 50
 		},
 		[61] = {
 			args = { 147 },
@@ -139,6 +135,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[82] = {
 			args = { 152 },
 			critical_damage = 6
+		},
+		cell_indices = {
+			Line_KIL_R = 44,
+			Line_NOSE = 0,
+			Line_STABIL_L = 47,
+			Line_STABIL_R = 48,
+			Line_WING_L = 35,
+			Line_WING_R = 36
 		}
 	},
 	DamageParts = { "AN-26B-OBLOMOK-WING-R", "AN-26B-OBLOMOK-WING-L" },

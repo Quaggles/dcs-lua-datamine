@@ -306,39 +306,39 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 134 },
 			critical_damage = 3
 		},
-		[137] = {
+		[175] = {
 			args = { 998 },
 			critical_damage = 2
 		},
-		[138] = {
+		[176] = {
 			args = { 999 },
 			critical_damage = 2
 		},
-		[139] = {
+		[177] = {
 			args = { 268 },
 			critical_damage = 2
 		},
-		[140] = {
+		[178] = {
 			args = { 267 },
 			critical_damage = 2
 		},
-		[141] = {
+		[179] = {
 			args = { 266 },
 			critical_damage = 2
 		},
-		[142] = {
+		[180] = {
 			args = { 605 },
 			critical_damage = 2
 		},
-		[143] = {
+		[181] = {
 			args = { 601 },
 			critical_damage = 2
 		},
-		[144] = {
+		[182] = {
 			args = { 602 },
 			critical_damage = 2
 		},
-		[145] = {
+		[183] = {
 			args = { 603 },
 			critical_damage = 2
 		},
@@ -349,8 +349,8 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			CABIN_BOTTOM = 6,
 			CABIN_LEFT_SIDE = 4,
 			CABIN_RIGHT_SIDE = 5,
-			CANOPY_L = 137,
-			CANOPY_R = 138,
+			CANOPY_L = 175,
+			CANOPY_R = 176,
 			COCKPIT = 3,
 			ELEVATOR_L_OUT = 49,
 			ELEVATOR_R_OUT = 50,
@@ -361,9 +361,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			FUSELAGE_BOTTOM = 82,
 			FUSELAGE_LEFT_SIDE = 9,
 			FUSELAGE_RIGHT_SIDE = 10,
-			GEAR_DOOR_F = 139,
-			GEAR_DOOR_L = 140,
-			GEAR_DOOR_R = 141,
+			GEAR_DOOR_F = 177,
+			GEAR_DOOR_L = 178,
+			GEAR_DOOR_R = 179,
 			GEAR_F = 8,
 			GEAR_L = 15,
 			GEAR_R = 16,
@@ -372,7 +372,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			NOSE_LEFT_SIDE = 1,
 			NOSE_RIGHT_SIDE = 2,
 			PITOT = 60,
-			PROBE = 142,
+			PROBE = 180,
 			RUDDER = 53,
 			TAIL = 55,
 			TAIL_BOTTOM = 58,
@@ -381,9 +381,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			WHEEL_F = 83,
 			WHEEL_L = 84,
 			WHEEL_R = 85,
-			WINDSHIELD_F = 143,
-			WINDSHIELD_L = 144,
-			WINDSHIELD_R = 145,
+			WINDSHIELD_F = 181,
+			WINDSHIELD_L = 182,
+			WINDSHIELD_R = 183,
 			WING_L_CENTER = 29,
 			WING_L_IN = 35,
 			WING_L_OUT = 23,

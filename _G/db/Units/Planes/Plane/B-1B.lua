@@ -172,7 +172,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[42] = {
 			args = { 242 },
 			critical_damage = 5,
-			deps_cells = { 141 }
+			deps_cells = { 54 }
 		},
 		[45] = {
 			args = { 239 },
@@ -192,10 +192,18 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 4,
 			deps_cells = { 46 }
 		},
+		[53] = {
+			args = { 248 },
+			critical_damage = 4
+		},
+		[54] = {
+			args = { 247 },
+			critical_damage = 4
+		},
 		[55] = {
 			args = { 159 },
 			critical_damage = 8,
-			deps_cells = { 140, 47, 48, 42 },
+			deps_cells = { 53, 47, 48, 42 },
 			detachable = {
 				shape = "B-1B_oblomok_tail"
 			}
@@ -240,24 +248,16 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 155 },
 			critical_damage = 8
 		},
-		[137] = {
-			args = { 167 },
-			critical_damage = 4
-		},
-		[138] = {
-			args = { 167 },
-			critical_damage = 4
-		},
-		[139] = {
+		[170] = {
 			args = { 147 },
 			critical_damage = 4
 		},
-		[140] = {
-			args = { 248 },
+		[175] = {
+			args = { 167 },
 			critical_damage = 4
 		},
-		[141] = {
-			args = { 247 },
+		[176] = {
+			args = { 167 },
 			critical_damage = 4
 		},
 		cell_indices = {
@@ -265,11 +265,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			AILERON_R = 26,
 			COCKPIT = 3,
 			ENGINE_L = 11,
-			ENGINE_L_CENTER = 137,
+			ENGINE_L_CENTER = 175,
 			ENGINE_L_IN = 11,
 			ENGINE_L_OUT = 17,
 			ENGINE_R = 12,
-			ENGINE_R_CENTER = 138,
+			ENGINE_R_CENTER = 176,
 			ENGINE_R_IN = 12,
 			ENGINE_R_OUT = 18,
 			FLAP_L_IN = 37,
@@ -289,9 +289,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			NOSE_CENTER = 0,
 			NOSE_LEFT_SIDE = 1,
 			NOSE_RIGHT_SIDE = 2,
-			NOSE_TOP = 139,
-			RUDDER_IN = 140,
-			RUDDER_OUT = 141,
+			NOSE_TOP = 170,
+			RUDDER_IN = 53,
+			RUDDER_OUT = 54,
 			STABILIZER_L_IN = 47,
 			STABILIZER_L_OUT = 45,
 			STABILIZER_R_IN = 48,

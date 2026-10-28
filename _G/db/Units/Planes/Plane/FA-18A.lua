@@ -99,6 +99,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[54] = {
 			critical_damage = 1
 		},
+		[55] = {
+			critical_damage = 4
+		},
 		[82] = {
 			critical_damage = 4
 		},
@@ -114,17 +117,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[99] = {
 			critical_damage = 4
 		},
-		[137] = {
-			critical_damage = 4
-		},
-		[138] = {
-			critical_damage = 4
-		},
-		[139] = {
+		[175] = {
 			critical_damage = 5
 		},
 		cell_indices = {
-			CABIN = 137,
+			CABIN = 3,
 			COCKPIT = 3,
 			ELERON_L = 25,
 			ELERON_R = 26,
@@ -139,7 +136,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			FLAP_L_IN = 37,
 			FLAP_R_IN = 38,
 			FUSELAGE_BOTTOM = 82,
-			FUSELAGE_TAIL = 138,
+			FUSELAGE_TAIL = 55,
 			FUSELAGE_TOP = 99,
 			NOSE_CENTER = 0,
 			RUDDER_L = 53,
@@ -156,7 +153,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			WING_L_PART_OUT = 21,
 			WING_R_CENTER = 30,
 			WING_R_IN = 36,
-			WING_R_IN01 = 139,
+			WING_R_IN01 = 175,
 			WING_R_OUT = 24,
 			WING_R_PART_IN = 34,
 			WING_R_PART_OUT = 22
@@ -232,7 +229,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						life_time = 30,
 						manualWeaponFlag = 21,
 						mass = 0.1,
-						model_name = "tracer_bullet_yellow",
+						model_name = "tracer_bullet_red",
 						name = "M61_20_HE",
 						payload = 0.02030644268045,
 						payload_type = 0,
@@ -418,7 +415,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						life_time = 31,
 						manualWeaponFlag = 21,
 						mass = 0.1,
-						model_name = "tracer_bullet_yellow",
+						model_name = "tracer_bullet_red",
 						name = "M61_20_TP",
 						payload = 0,
 						payload_type = 0,
@@ -480,7 +477,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						life_time = 31,
 						manualWeaponFlag = 21,
 						mass = 0.11,
-						model_name = "tracer_bullet_yellow",
+						model_name = "tracer_bullet_red",
 						name = "M61_20_TP_T",
 						payload = 0,
 						payload_type = 0,
@@ -604,7 +601,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 						life_time = 31,
 						manualWeaponFlag = 21,
 						mass = 0.097,
-						model_name = "tracer_bullet_yellow",
+						model_name = "tracer_bullet_red",
 						name = "M61_20_PGU27",
 						payload = 0,
 						payload_type = 0,
@@ -1252,6 +1249,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			increment = 15
 		}
 	},
+	pylon_RCS = 0.05,
 	radar_can_see_ground = true,
 	range = 1520,
 	shape_table_data = { {

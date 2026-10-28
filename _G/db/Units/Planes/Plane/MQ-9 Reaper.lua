@@ -22,12 +22,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[23] = {
 			args = { 213 },
 			critical_damage = 5,
-			deps_cells = { 139, 29 }
+			deps_cells = { 31, 29 }
 		},
 		[24] = {
 			args = { 213 },
 			critical_damage = 5,
-			deps_cells = { 142, 30 }
+			deps_cells = { 32, 30 }
 		},
 		[25] = {
 			args = { 229 },
@@ -42,12 +42,22 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[29] = {
 			args = { 214 },
 			critical_damage = 5,
-			deps_cells = { 137, 138, 35 }
+			deps_cells = { 101, 37, 35 }
 		},
 		[30] = {
 			args = { 214 },
 			critical_damage = 5,
-			deps_cells = { 140, 141, 36 }
+			deps_cells = { 102, 38, 36 }
+		},
+		[31] = {
+			args = { 226 },
+			critical_damage = 2,
+			droppable = false
+		},
+		[32] = {
+			args = { 216 },
+			critical_damage = 2,
+			droppable = false
 		},
 		[35] = {
 			args = { 223 },
@@ -60,6 +70,26 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 5,
 			deps_cells = { 26 },
 			droppable = false
+		},
+		[37] = {
+			args = { 228 },
+			critical_damage = 2,
+			droppable = false
+		},
+		[38] = {
+			args = { 218 },
+			critical_damage = 2,
+			droppable = false
+		},
+		[47] = {
+			args = { 246 },
+			critical_damage = 5,
+			deps_cells = { 51, 49 }
+		},
+		[48] = {
+			args = { 243 },
+			critical_damage = 5,
+			deps_cells = { 52, 50 }
 		},
 		[49] = {
 			args = { 240 },
@@ -95,6 +125,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 5
 		},
 		[59] = {
+			args = { 147 },
 			critical_damage = 2
 		},
 		[63] = {
@@ -126,92 +157,30 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 115 },
 			critical_damage = 5
 		},
-		[137] = {
+		[101] = {
 			args = { 227 },
 			critical_damage = 2,
 			droppable = false
 		},
-		[138] = {
-			args = { 228 },
-			critical_damage = 2,
-			droppable = false
-		},
-		[139] = {
-			args = { 226 },
-			critical_damage = 2,
-			droppable = false
-		},
-		[140] = {
+		[102] = {
 			args = { 217 },
 			critical_damage = 2,
 			droppable = false
 		},
-		[141] = {
-			args = { 218 },
-			critical_damage = 2,
-			droppable = false
-		},
-		[142] = {
-			args = { 216 },
-			critical_damage = 2,
-			droppable = false
-		},
-		[143] = {
+		[170] = {
 			args = { 147 },
 			critical_damage = 2
-		},
-		[144] = {
-			args = { 147 },
-			critical_damage = 2
-		},
-		[145] = {
-			args = { 246 },
-			critical_damage = 5,
-			deps_cells = { 51, 49 }
-		},
-		[146] = {
-			args = { 243 },
-			critical_damage = 5,
-			deps_cells = { 52, 50 }
 		},
 		cell_indices = {
-			AILERON_L = 25,
-			AILERON_R = 26,
-			BLADE_1_OUT = 66,
-			BLADE_2_OUT = 69,
-			BLADE_3_OUT = 72,
-			ELEVATOR_L_IN = 51,
-			ELEVATOR_L_OUT = 49,
-			ELEVATOR_R_IN = 52,
-			ELEVATOR_R_OUT = 50,
-			FLAPS_L_CENTER = 137,
-			FLAPS_L_IN = 138,
-			FLAPS_L_OUT = 139,
-			FLAPS_R_CENTER = 140,
-			FLAPS_R_IN = 141,
-			FLAPS_R_OUT = 142,
-			FRONT_GEAR_BOX = 8,
-			FUSELAGE_BOTTOM = 82,
-			FUSELAGE_TOP = 99,
-			LEFT_GEAR_BOX = 15,
-			NOSE_BOTTOM = 59,
-			NOSE_Bottom = 143,
-			NOSE_CENTER = 0,
-			NOSE_TOP = 144,
-			RIGHT_GEAR_BOX = 16,
-			ROTOR = 63,
-			RUDDER = 53,
-			RUDDER_R = 54,
-			STABILIZATOR_L_IN = 145,
-			STABILIZATOR_R_IN = 146,
-			TAIL_BOTTOM = 58,
-			TAIL_TOP = 100,
-			WING_L_CENTER = 29,
-			WING_L_IN = 35,
-			WING_L_OUT = 23,
-			WING_R_CENTER = 30,
-			WING_R_IN = 36,
-			WING_R_OUT = 24
+			FLAPS_L_CENTER = 101,
+			FLAPS_L_IN = 37,
+			FLAPS_L_OUT = 31,
+			FLAPS_R_CENTER = 102,
+			FLAPS_R_IN = 38,
+			FLAPS_R_OUT = 32,
+			NOSE_Bottom = 59,
+			STABILIZATOR_L_IN = 47,
+			STABILIZATOR_R_IN = 48
 		}
 	},
 	DamageParts = { "mq-9_reaper_oblomok_R", "mq-9_reaper_oblomok_L" },

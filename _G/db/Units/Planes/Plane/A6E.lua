@@ -234,37 +234,37 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[135] = {
 			critical_damage = 3
 		},
-		[137] = {
+		[175] = {
 			critical_damage = 3
 		},
-		[138] = {
+		[176] = {
 			critical_damage = 3
 		},
-		[139] = {
+		[177] = {
 			critical_damage = 3
 		},
-		[140] = {
+		[178] = {
 			critical_damage = 3
 		},
-		[141] = {
+		[179] = {
 			critical_damage = 3
 		},
-		[142] = {
+		[180] = {
 			critical_damage = 3
 		},
-		[143] = {
+		[181] = {
 			critical_damage = 3
 		},
-		[144] = {
+		[182] = {
 			critical_damage = 3
 		},
-		[145] = {
+		[183] = {
 			critical_damage = 2
 		},
-		[146] = {
+		[184] = {
 			critical_damage = 2
 		},
-		[147] = {
+		[185] = {
 			critical_damage = 2
 		},
 		cell_indices = {
@@ -283,25 +283,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			ENGINE_1 = 103,
 			ENGINE_2 = 104,
 			ENGINE_L = 11,
-			ENGINE_L_COMPRESSOR = 137,
-			ENGINE_L_EQUIPMENT = 138,
+			ENGINE_L_COMPRESSOR = 175,
+			ENGINE_L_EQUIPMENT = 176,
 			ENGINE_L_OUT = 17,
-			ENGINE_L_PUMP = 139,
-			ENGINE_L_TURBINE = 140,
+			ENGINE_L_PUMP = 177,
+			ENGINE_L_TURBINE = 178,
 			ENGINE_R = 12,
-			ENGINE_R_COMPRESSOR = 141,
-			ENGINE_R_EQUIPMENT = 142,
+			ENGINE_R_COMPRESSOR = 179,
+			ENGINE_R_EQUIPMENT = 180,
 			ENGINE_R_OUT = 18,
-			ENGINE_R_PUMP = 143,
-			ENGINE_R_TURBINE = 144,
+			ENGINE_R_PUMP = 181,
+			ENGINE_R_TURBINE = 182,
 			FLAP_L_CENTER = 101,
 			FLAP_L_OUT = 31,
 			FLAP_R_CENTER = 102,
 			FLAP_R_OUT = 32,
 			FRONT = 0,
-			FUEL_TANK_AFT = 145,
-			FUEL_TANK_CENTER = 146,
-			FUEL_TANK_FORWARD = 147,
+			FUEL_TANK_AFT = 183,
+			FUEL_TANK_CENTER = 184,
+			FUEL_TANK_FORWARD = 185,
 			FUEL_TANK_LEFT_SIDE = 61,
 			FUEL_TANK_RIGHT_SIDE = 62,
 			FUSELAGE_BOTTOM = 82,

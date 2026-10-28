@@ -126,6 +126,19 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			},
 			critical_damage = 1.5,
 			droppable = true
+		}, {
+			args = { 148 },
+			construction = {
+				durability = 4.17,
+				skin = "Aluminum"
+			},
+			critical_damage = 6
+		}, {
+			construction = {
+				durability = 0.05,
+				skin = "Fabric"
+			},
+			critical_damage = 0.5
 		},
 		[0] = {
 			args = { 137 },
@@ -135,14 +148,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			},
 			critical_damage = 2,
 			droppable = true
-		},
-		[7] = {
-			args = { -1 },
-			construction = {
-				durability = 0.05,
-				skin = "Fabric"
-			},
-			critical_damage = 0.5
 		},
 		[9] = {
 			args = { 154 },
@@ -225,7 +230,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			critical_damage = 10
 		},
 		[29] = {
-			args = { -1 },
 			construction = {
 				durability = 1,
 				skin = "Steel"
@@ -233,7 +237,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			critical_damage = 10
 		},
 		[30] = {
-			args = { -1 },
 			construction = {
 				durability = 1,
 				skin = "Steel"
@@ -272,24 +275,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			},
 			critical_damage = 3.4
 		},
-		[52] = {
-			args = { 81 },
-			critical_damage = 10,
-			deps_cells = { 45, 46, 54, 55 }
-		},
-		[53] = {
-			args = { 1100 },
-			critical_damage = 10,
-			deps_cells = { 55, 54 }
-		},
-		[54] = {
-			args = { 247 },
-			construction = {
-				durability = 1,
-				skin = "Aluminum"
-			},
-			critical_damage = 3
-		},
 		[55] = {
 			args = { 243 },
 			construction = {
@@ -297,23 +282,28 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				skin = "Aluminum"
 			},
 			critical_damage = 5.2,
-			deps_cells = { 54 }
+			deps_cells = { 136 },
+			droppable = true
 		},
 		[56] = {
-			args = { 156 },
+			args = { 156, -1, -1, -1, -1, 81 },
 			construction = {
 				durability = 3.98,
 				skin = "Aluminum"
 			},
-			critical_damage = 3
+			critical_damage = 3,
+			deps_cells = { 57, 45 },
+			droppable = true
 		},
 		[57] = {
-			args = { 155 },
+			args = { 155, -1, -1, -1, -1, 1100 },
 			construction = {
 				durability = 3.98,
 				skin = "Aluminum"
 			},
-			critical_damage = 3
+			critical_damage = 3,
+			deps_cells = { 55, 46 },
+			droppable = true
 		},
 		[58] = {
 			args = { 297 },
@@ -523,7 +513,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			droppable = false
 		},
 		[86] = {
-			args = { -1 },
 			construction = {
 				durability = 1,
 				skin = "Aluminum"
@@ -531,7 +520,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			critical_damage = 3
 		},
 		[87] = {
-			args = { -1 },
 			construction = {
 				durability = 1,
 				skin = "Aluminum"
@@ -539,7 +527,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			critical_damage = 3
 		},
 		[88] = {
-			args = { -1 },
 			construction = {
 				durability = 1,
 				skin = "Aluminum"
@@ -547,7 +534,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			critical_damage = 3
 		},
 		[89] = {
-			args = { -1 },
 			construction = {
 				durability = 1,
 				skin = "Aluminum"
@@ -592,7 +578,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				} }
 		},
 		[94] = {
-			args = { -1 },
 			construction = {
 				durability = 0.53,
 				skin = "Steel"
@@ -600,7 +585,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			critical_damage = 10
 		},
 		[95] = {
-			args = { -1 },
 			construction = {
 				durability = 0.53,
 				skin = "Steel"
@@ -608,7 +592,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			critical_damage = 10
 		},
 		[96] = {
-			args = { -1 },
 			construction = {
 				durability = 0.55,
 				skin = "Steel"
@@ -616,160 +599,47 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			critical_damage = 10
 		},
 		[97] = {
-			args = { -1 },
 			construction = {
 				durability = 0.55,
 				skin = "Steel"
 			},
 			critical_damage = 10
 		},
-		[137] = {
-			args = { 147 },
+		[136] = {
 			construction = {
-				durability = 5.24,
+				durability = 350,
+				skin = "Steel"
+			},
+			critical_damage = 3
+		},
+		[162] = {
+			construction = {
+				durability = 1,
 				skin = "Aluminum"
 			},
-			critical_damage = 4
+			critical_damage = 3
 		},
-		[138] = {
-			args = { 252 },
+		[163] = {
 			construction = {
-				durability = 5.24,
+				durability = 1,
 				skin = "Aluminum"
 			},
-			critical_damage = 4
+			critical_damage = 3
 		},
-		[139] = {
-			args = { 148 },
-			construction = {
-				durability = 4.17,
-				skin = "Aluminum"
-			},
-			critical_damage = 6
-		},
-		[140] = {
-			args = { -1 },
+		[166] = {
 			construction = {
 				durability = 2,
 				skin = "Fabric"
 			},
 			critical_damage = 1
 		},
-		[141] = {
-			args = { -1 },
-			construction = {
-				durability = 99999.99999,
-				skin = "Water"
-			},
-			critical_damage = 99999
-		},
-		[142] = {
-			args = { -1 },
-			construction = {
-				durability = 99999.99999,
-				skin = "Water"
-			},
-			critical_damage = 99999
-		},
-		[143] = {
-			args = { -1 },
-			construction = {
-				durability = 1,
-				skin = "Aluminum"
-			},
-			critical_damage = 3
-		},
-		[144] = {
-			args = { -1 },
-			construction = {
-				durability = 1,
-				skin = "Aluminum"
-			},
-			critical_damage = 3
-		},
-		[145] = {
-			args = { -1 },
-			construction = {
-				durability = 99999.99999,
-				skin = "Water"
-			},
-			critical_damage = 99999
-		},
 		cell_indices = {
-			[" FUEL_TANK_LEFT_SIDE"] = 137,
-			[" FUEL_TANK_RIGHT_SIDE"] = 138,
-			ARMOR_NOSE_PLATE_LEFT = 94,
-			ARMOR_NOSE_PLATE_RIGHT = 95,
-			ARMOR_PLATE_LEFT = 96,
-			ARMOR_PLATE_RIGHT = 97,
-			BLADE_1_CENTER = 65,
-			BLADE_1_IN = 64,
-			BLADE_1_OUT = 66,
-			BLADE_2_CENTER = 68,
-			BLADE_2_IN = 67,
-			BLADE_2_OUT = 69,
-			BLADE_3_CENTER = 71,
-			BLADE_3_IN = 70,
-			BLADE_3_OUT = 72,
-			BLADE_4_CENTER = 74,
-			BLADE_4_IN = 73,
-			BLADE_4_OUT = 75,
-			BLADE_5_CENTER = 77,
-			BLADE_5_IN = 76,
-			BLADE_5_OUT = 78,
-			CABINE_BOTTOM = 139,
-			CABIN_LEFT_SIDE = 4,
-			CABIN_RIGHT_SIDE = 5,
-			COCKPIT = 3,
-			CREW_1 = 90,
-			CREW_2 = 91,
-			CREW_3 = 92,
-			CREW_4 = 93,
-			CREW_5 = 140,
-			ENGINE_L = 11,
-			ENGINE_R = 12,
-			EWU_L = 17,
-			EWU_R = 18,
-			FRONT_WHEEL = 141,
-			FUEL_TANK_LEFT_SIDE = 61,
-			FUEL_TANK_RIGHT_SIDE = 62,
-			FUSELAGE_BOTTOM = 82,
-			FUSELAGE_LEFT_SIDE = 9,
-			FUSELAGE_RIGHT_SIDE = 10,
-			GUN = 7,
-			LEFT_WHEEL = 142,
-			MTG_L_BOTTOM = 13,
-			MTG_R_BOTTOM = 14,
-			NOSE_BOTTOM = 59,
-			NOSE_CENTER = 0,
-			NOSE_LEFT_SIDE = 1,
-			NOSE_RIGHT_SIDE = 2,
-			PYLON1 = 86,
-			PYLON2 = 87,
-			PYLON3 = 88,
-			PYLON4 = 89,
-			PYLON5 = 143,
-			PYLON6 = 144,
-			RIGHT_WHEEL = 145,
-			RN_L = 53,
-			ROTOR = 63,
-			RUDDER_R = 54,
-			RV_R = 52,
-			STABILIZER_L_OUT = 45,
-			STABILIZER_R_OUT = 46,
-			TAIL = 55,
-			TAIL_BOTTOM = 58,
-			TAIL_LEFT_SIDE = 56,
-			TAIL_RIGHT_SIDE = 57,
-			WHEEL_F = 83,
-			WHEEL_L = 84,
-			WHEEL_R = 85,
-			WING_L_CENTER = 29,
-			WING_L_IN = 35,
-			WING_L_OUT = 23,
-			WING_R_CENTER = 30,
-			WING_R_IN = 36,
-			WING_R_OUT = 24
+			[" FUEL_TANK_LEFT_SIDE"] = 61,
+			[" FUEL_TANK_RIGHT_SIDE"] = 62,
+			CABINE_BOTTOM = 6,
+			FRONT_WHEEL = 83,
+			LEFT_WHEEL = 84,
+			RIGHT_WHEEL = 85
 		}
 	},
 	DamageParts = { "MI-8MT_wing_r", "MI-8MT_wing_l",

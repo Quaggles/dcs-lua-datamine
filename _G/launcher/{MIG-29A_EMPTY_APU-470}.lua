@@ -8,6 +8,7 @@ _G["launcher"]["{MIG-29A_EMPTY_APU-470}"] = {
 		} },
 	JettisonSubmunitionOnly = true,
 	Picture = "Weaponx.png",
+	RCS = 0.15,
 	Weight = 75,
 	Weight_Empty = 75,
 	_file = "./CoreMods/aircraft/MiG-29-Fulcrum/MiG-29-Fulcrum.lua",

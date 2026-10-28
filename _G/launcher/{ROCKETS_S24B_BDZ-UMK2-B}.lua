@@ -12,6 +12,8 @@ _G["launcher"]["{ROCKETS_S24B_BDZ-UMK2-B}"] = {
 		} },
 	JettisonSubmunitionOnly = true,
 	Picture = "RBK250.png",
+	RCS = 0.4,
+	RCS_jettisoned = 0.15,
 	Weight = 355,
 	Weight_Empty = 120,
 	_file = "./CoreMods/aircraft/MiG-29-Fulcrum/MiG-29-Fulcrum.lua",

@@ -17,8 +17,8 @@ _G["db"]["Units"]["Cars"]["Car"]["#Index"] = {
 		Mount_WS_ID = 1,
 		OPTIC = { "TKN-3B day", "TKN-3B night" }
 	},
-	ThreatRange = 23500,
-	ThreatRangeMin = 60,
+	ThreatRange = 40000,
+	ThreatRangeMin = 3000,
 	WS = { {
 			LN = { {
 					BR = { {

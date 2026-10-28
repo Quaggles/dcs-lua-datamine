@@ -26,14 +26,6 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 249 },
 			critical_damage = 4
 		},
-		[9] = {
-			args = { 154 },
-			critical_damage = 3
-		},
-		[10] = {
-			args = { 153 },
-			critical_damage = 3
-		},
 		[11] = {
 			args = { 167 },
 			critical_damage = 3
@@ -145,6 +137,10 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			critical_damage = 20,
 			deps_cells = { 39, 40, 45, 46, 51, 52, 53, 54 }
 		},
+		[58] = {
+			args = { -1 },
+			critical_damage = 2
+		},
 		[59] = {
 			args = { 148 },
 			critical_damage = 5
@@ -153,17 +149,32 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 144 },
 			critical_damage = 1
 		},
+		[61] = {
+			args = { 153 },
+			critical_damage = 3
+		},
+		[62] = {
+			args = { 153, 154 },
+			critical_damage = 3
+		},
+		[82] = {
+			args = { 153 },
+			critical_damage = 3
+		},
 		[83] = {
 			args = { 134 },
-			critical_damage = 3
+			critical_damage = 1
 		},
 		[84] = {
 			args = { 136 },
-			critical_damage = 3
+			critical_damage = 1
 		},
 		[85] = {
 			args = { 135 },
-			critical_damage = 3
+			critical_damage = 1
+		},
+		cell_indices = {
+			LEFT_WHEEL = 84
 		}
 	},
 	DamageParts = { "A-10-OBLOMOK-WING-R", "A-10-OBLOMOK-WING-L" },

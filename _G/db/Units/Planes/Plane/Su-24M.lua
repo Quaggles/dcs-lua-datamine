@@ -7,117 +7,123 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 	Countermeasures = {
 		ECM = "Geran SPS-161"
 	},
-	Damage = { {
-			args = { 150 },
-			critical_damage = 3
-		}, {
-			args = { 147 },
-			critical_damage = 3
-		}, {
-			args = { 65 },
-			critical_damage = 2
-		},
+	Damage = {
 		[0] = {
 			args = { 146 },
-			critical_damage = 3
+			critical_damage = 1,
+			droppable = false
+		},
+		[3] = {
+			args = { 65, 147 },
+			critical_damage = 2,
+			droppable = false
+		},
+		[4] = {
+			args = { 150 },
+			critical_damage = 2,
+			droppable = false
+		},
+		[5] = {
+			args = { 149 },
+			critical_damage = 2,
+			droppable = false
+		},
+		[6] = {
+			args = { 148 },
+			critical_damage = 2,
+			droppable = false
+		},
+		[9] = {
+			args = { 154 },
+			critical_damage = 4,
+			droppable = false
+		},
+		[10] = {
+			args = { 153 },
+			critical_damage = 4,
+			droppable = false
 		},
 		[11] = {
 			args = { 167 },
-			critical_damage = 3
+			critical_damage = 3,
+			droppable = false
 		},
 		[12] = {
 			args = { 161 },
-			critical_damage = 3
+			critical_damage = 3,
+			droppable = false
 		},
 		[21] = {
-			args = { 221 },
-			critical_damage = 3
+			args = { 231 },
+			critical_damage = 1,
+			droppable = false
 		},
 		[22] = {
-			args = { 231 },
-			critical_damage = 3
+			args = { 221 },
+			critical_damage = 1,
+			droppable = false
 		},
 		[23] = {
 			args = { 223 },
-			critical_damage = 10,
-			deps_cells = { 37, 21 }
+			critical_damage = 4,
+			deps_cells = { 37, 21 },
+			droppable = true
 		},
 		[24] = {
 			args = { 213 },
-			critical_damage = 10,
-			deps_cells = { 38, 22 }
+			critical_damage = 4,
+			deps_cells = { 38, 22 },
+			droppable = true
+		},
+		[35] = {
+			args = { 225 },
+			critical_damage = 3,
+			droppable = false
+		},
+		[36] = {
+			args = { 215 },
+			critical_damage = 3,
+			droppable = false
 		},
 		[37] = {
 			args = { 227 },
-			critical_damage = 4
+			critical_damage = 2,
+			droppable = false
 		},
 		[38] = {
 			args = { 217 },
-			critical_damage = 4
+			critical_damage = 2,
+			droppable = false
+		},
+		[43] = {
+			args = { 243 },
+			critical_damage = 3,
+			droppable = false
 		},
 		[47] = {
 			args = { 235 },
-			critical_damage = 3
+			critical_damage = 3,
+			droppable = false
 		},
 		[48] = {
 			args = { 233 },
-			critical_damage = 3
+			critical_damage = 3,
+			droppable = false
 		},
 		[53] = {
 			args = { 247 },
-			critical_damage = 2
-		},
-		[59] = {
-			args = { 148 },
-			critical_damage = 3
+			critical_damage = 2,
+			droppable = false
 		},
 		[82] = {
 			args = { 152 },
-			critical_damage = 4
+			critical_damage = 4,
+			droppable = false
 		},
-		[137] = {
-			args = { 244 },
-			critical_damage = 4
-		},
-		[138] = {
-			args = { 154 },
-			critical_damage = 4
-		},
-		[139] = {
-			args = { 153 },
-			critical_damage = 4
-		},
-		[140] = {
+		[99] = {
 			args = { 151 },
-			critical_damage = 4
-		},
-		[141] = {
-			args = { 147 },
-			critical_damage = 3
-		},
-		cell_indices = {
-			COCKPIT = 3,
-			ENGINE_L = 11,
-			ENGINE_R = 12,
-			FIN_TOP = 137,
-			FLAP_L_IN = 37,
-			FLAP_R_IN = 38,
-			FUSELAGE_BOTTOM = 82,
-			FUSELAGE_CENTR_L = 138,
-			FUSELAGE_CENTR_R = 139,
-			FUSELAGE_CENTR_TOP = 140,
-			NOSE_BOTTOM = 59,
-			NOSE_CENTER = 0,
-			NOSE_LEFT_SIDE = 1,
-			NOSE_RIGHT_SIDE = 2,
-			NOSE_TOP_SIDE = 141,
-			RUDDER = 53,
-			STABILIZER_L_IN = 47,
-			STABILIZER_R_IN = 48,
-			WING_L_OUT = 23,
-			WING_L_PART_OUT = 21,
-			WING_R_OUT = 24,
-			WING_R_PART_OUT = 22
+			critical_damage = 4,
+			droppable = false
 		}
 	},
 	DamageParts = { "SU-24-OBLOMOK-WING-R", "SU-24-OBLOMOK-WING-L" },

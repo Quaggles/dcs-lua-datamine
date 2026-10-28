@@ -29,7 +29,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 				} }
 		}, {
 			args = { 148 },
-			children = { 3, 1, 137 },
+			children = { 3, 1, 175 },
 			construction = {
 				durability = 8.7,
 				skin = "Aluminum"
@@ -80,7 +80,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[17] = {
 			args = { 166 },
-			children = { 138, 84 },
+			children = { 176, 84 },
 			construction = {
 				durability = 2.9,
 				skin = "Aluminum"
@@ -116,7 +116,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[18] = {
 			args = { 160 },
-			children = { 139, 85 },
+			children = { 177, 85 },
 			construction = {
 				durability = 2.9,
 				skin = "Aluminum"
@@ -964,7 +964,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 					wall = 0.012
 				} }
 		},
-		[137] = {
+		[175] = {
 			args = { 146 },
 			construction = {
 				durability = 2.2,
@@ -974,13 +974,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			damage_boundary = 0.1,
 			droppable = false
 		},
-		[138] = {
+		[176] = {
 			args = { -1 },
 			children = { 64, 67, 70 },
 			critical_damage = 1,
 			droppable = false
 		},
-		[139] = {
+		[177] = {
 			args = { -1 },
 			children = { 73, 76, 79 },
 			critical_damage = 1,
@@ -1014,11 +1014,11 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			FUSELAGE_RIGHT_SIDE = 10,
 			MTG_L = 17,
 			MTG_R = 18,
-			NOSE = 137,
+			NOSE = 175,
 			NOSE_LEFT_SIDE = 1,
 			NOSE_RIGHT_SIDE = 2,
-			ROTOR_1 = 138,
-			ROTOR_2 = 139,
+			ROTOR_1 = 176,
+			ROTOR_2 = 177,
 			RUDDER_R = 54,
 			STABILIZER_L_IN = 47,
 			STABILIZER_L_OUT = 45,

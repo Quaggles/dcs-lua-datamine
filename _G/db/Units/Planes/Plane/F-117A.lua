@@ -13,6 +13,9 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		},
 		[11] = {
 			critical_damage = 3
+		},
+		cell_indices = {
+			ENGINE001 = 11
 		}
 	},
 	DamageParts = { "F-117-OBLOMOK-WING-R", "F-117-OBLOMOK-WING-L" },

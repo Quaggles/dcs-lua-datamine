@@ -682,6 +682,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			k_piston = 3000,
 			k_reg = 0.003,
 			k_vel = 0.017,
+			prop_blades_cells = { { { "BLADE_1_IN", "BLADE_2_IN" } }, { { "BLADE_1_IN", "BLADE_2_IN", "BLADE_3_IN" } } },
 			prop_blades_count = { 2, 3 },
 			prop_direction = -1,
 			prop_locations = { { 1.6834, 0, 0 }, { 0, 0, 0 }, { 1.7046, 0, 0 }, { 0, 0, 0 } },

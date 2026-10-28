@@ -8,6 +8,10 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			args = { 146 },
 			critical_damage = 4
 		},
+		[3] = {
+			args = { 146 },
+			critical_damage = 1
+		},
 		[9] = {
 			args = { 154 },
 			critical_damage = 12
@@ -18,7 +22,8 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		},
 		[12] = {
 			args = { 161 },
-			critical_damage = 2
+			critical_damage = 2,
+			failures = { { "ENG0_FIRE", -1, -1, 0.2 } }
 		},
 		[56] = {
 			args = { 81 },

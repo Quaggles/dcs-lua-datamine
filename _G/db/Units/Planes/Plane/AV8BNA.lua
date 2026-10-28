@@ -217,12 +217,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[0] = {
 			args = { 147 },
 			critical_damage = 8,
-			deps_cells = { 150, 65, 68 }
+			deps_cells = { 186, 65, 68 }
 		},
 		[8] = {
 			args = { 265 },
 			critical_damage = 5,
-			deps_cells = { 141 }
+			deps_cells = { 83 }
 		},
 		[9] = {
 			args = { 177 },
@@ -249,12 +249,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[15] = {
 			args = { 267 },
 			critical_damage = 5,
-			deps_cells = { 148 }
+			deps_cells = { 84 }
 		},
 		[16] = {
 			args = { 266 },
 			critical_damage = 5,
-			deps_cells = { 154 }
+			deps_cells = { 85 }
 		},
 		[17] = {
 			args = { 273 },
@@ -503,87 +503,72 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[98] = {
 			args = { 268 },
 			critical_damage = 5,
-			deps_cells = { 137 }
+			deps_cells = { 175 }
 		},
 		[99] = {
 			args = { 151 },
 			critical_damage = 8
 		},
-		[137] = {
+		[175] = {
 			args = { 263 },
 			critical_damage = 3,
-			deps_cells = { 156 }
+			deps_cells = { 191 }
 		},
-		[138] = {
+		[176] = {
 			args = { 305 },
 			critical_damage = 3
 		},
-		[139] = {
+		[177] = {
 			critical_damage = 2
 		},
-		[140] = {
+		[178] = {
 			critical_damage = 2
 		},
-		[141] = {
-			args = { 253 },
-			critical_damage = 3,
-			deps_cells = { 83 }
-		},
-		[142] = {
+		[179] = {
 			critical_damage = 2
 		},
-		[143] = {
+		[180] = {
 			critical_damage = 2
 		},
-		[144] = {
+		[181] = {
 			critical_damage = 2
 		},
-		[145] = {
+		[182] = {
 			critical_damage = 2
 		},
-		[146] = {
+		[183] = {
 			critical_damage = 2
 		},
-		[147] = {
+		[184] = {
 			critical_damage = 2
 		},
-		[148] = {
-			args = { 259 },
-			critical_damage = 3,
-			deps_cells = { 84 }
-		},
-		[149] = {
+		[185] = {
 			args = { 303 },
 			critical_damage = 2
 		},
-		[150] = {
+		[186] = {
 			args = { 144 },
 			critical_damage = 8
 		},
-		[151] = {
+		[187] = {
 			critical_damage = 2
 		},
-		[152] = {
+		[188] = {
 			critical_damage = 2
 		},
-		[153] = {
+		[189] = {
 			critical_damage = 2
 		},
-		[154] = {
-			args = { 255 },
-			critical_damage = 3,
-			deps_cells = { 85 }
-		},
-		[155] = {
+		[190] = {
 			args = { 304 },
 			critical_damage = 2
 		},
-		[156] = {
+		[191] = {
 			args = { 135 },
 			critical_damage = 3
 		},
 		cell_indices = {
-			AFT_WHEEL = 137,
+			AFT_WHEEL = 175,
 			AILERON_L = 25,
 			AILERON_R = 26,
 			AIR_BRAKE_L = 19,
@@ -604,14 +589,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			BLADE_6_CENTER = 80,
 			BLADE_6_IN = 79,
 			BLADE_6_OUT = 81,
-			BOTTOM_CM = 138,
+			BOTTOM_CM = 176,
 			CABIN_BOTTOM = 6,
 			CABIN_LEFT_SIDE = 4,
 			CABIN_RIGHT_SIDE = 5,
 			COCKPIT = 3,
 			CREW_1 = 90,
-			DECU1 = 139,
-			DECU2 = 140,
+			DECU1 = 177,
+			DECU2 = 178,
 			ELEVATOR_L_IN = 51,
 			ELEVATOR_R_IN = 52,
 			ENGINE = 11,
@@ -625,23 +610,23 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			FLAP_R_IN = 38,
 			FLAP_R_OUT = 32,
 			FRONT_GEAR_BOX = 8,
-			FRONT_WHEEL = 141,
+			FRONT_WHEEL = 83,
 			FUEL_TANK_LEFT_SIDE = 61,
 			FUEL_TANK_RIGHT_SIDE = 62,
 			FUSELAGE_BOTTOM = 82,
 			FUSELAGE_LEFT_SIDE = 9,
 			FUSELAGE_RIGHT_SIDE = 10,
 			FUSELAGE_TOP = 99,
-			GENERATOR = 142,
+			GENERATOR = 179,
 			HOOK = 98,
-			HYD1_PUMP = 143,
-			HYD2_PUMP = 144,
-			HYD_RES_1 = 145,
-			HYD_RES_2 = 146,
-			IGV = 147,
+			HYD1_PUMP = 180,
+			HYD2_PUMP = 181,
+			HYD_RES_1 = 182,
+			HYD_RES_2 = 183,
+			IGV = 184,
 			LEFT_GEAR_BOX = 15,
-			LEFT_WHEEL = 148,
-			L_TOP_CM = 149,
+			LEFT_WHEEL = 84,
+			L_TOP_CM = 185,
 			MTG_L = 17,
 			MTG_L_BOTTOM = 13,
 			MTG_R = 18,
@@ -650,25 +635,25 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			NOSE_CENTER = 0,
 			NOSE_LEFT_SIDE = 1,
 			NOSE_RIGHT_SIDE = 2,
-			NOSE_SENSOR = 150,
-			OIL_COOLER = 151,
-			OIL_PUMP = 152,
-			OIL_TANK = 153,
+			NOSE_SENSOR = 186,
+			OIL_COOLER = 187,
+			OIL_PUMP = 188,
+			OIL_TANK = 189,
 			PWD = 60,
 			PYLON1 = 86,
 			PYLON2 = 87,
 			PYLON3 = 88,
 			PYLON4 = 89,
 			RIGHT_GEAR_BOX = 16,
-			RIGHT_WHEEL = 154,
+			RIGHT_WHEEL = 85,
 			ROTOR = 63,
 			RUDDER = 53,
-			R_TOP_CM = 155,
+			R_TOP_CM = 190,
 			TAIL = 55,
 			TAIL_BOTTOM = 58,
 			TAIL_LEFT_SIDE = 56,
 			TAIL_RIGHT_SIDE = 57,
-			WHEEL_A = 156,
+			WHEEL_A = 191,
 			WHEEL_F = 83,
 			WHEEL_L = 84,
 			WHEEL_R = 85,

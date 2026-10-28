@@ -21,13 +21,39 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 		[61] = {
 			critical_damage = 10
 		},
+		[64] = {
+			critical_damage = 3
+		},
+		[67] = {
+			critical_damage = 3
+		},
+		[70] = {
+			critical_damage = 3
+		},
+		[137] = {
+			critical_damage = 3
+		},
+		[138] = {
+			critical_damage = 3
+		},
 		cell_indices = {
 			["CH53-FON_3"] = 3,
 			["CH53-FUZ-GROT_3"] = 11,
 			["CH53-FUZ_3"] = 10,
 			["CH53-KIL_3"] = 55,
 			["CH53-OBTKL_3"] = 61,
-			["CH53-STAB_3"] = 46
+			["CH53-STAB_3"] = 46,
+			Node701 = 64,
+			Node702 = 67,
+			Node703 = 70,
+			Node704 = 137,
+			Node705 = 138,
+			Node706 = 10,
+			Node707 = 55,
+			Node708 = 55,
+			Node709 = 10,
+			Node710 = 61,
+			Node711 = 61
 		}
 	},
 	DefaultTask = <1>{

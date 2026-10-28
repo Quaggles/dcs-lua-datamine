@@ -5,7 +5,14 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			defValue = false,
 			id = "DustProtectionDevices",
 			label = "EAPS",
-			weight = 107
+			weight = 100.24
+		}, {
+			arg = 457,
+			control = "checkbox",
+			defValue = false,
+			id = "ExhaustScreen",
+			label = "IRSS",
+			weight = 112.49
 		}, {
 			control = "comboList",
 			defValue = 0,
@@ -655,7 +662,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			critical_damage = 20,
 			droppable = false
 		},
-		[137] = {
+		[173] = {
 			args = { 137 },
 			construction = {
 				durability = 10,
@@ -665,7 +672,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			critical_damage = 5,
 			droppable = false
 		},
-		[138] = {
+		[174] = {
 			args = { 136 },
 			construction = {
 				durability = 10,
@@ -674,74 +681,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			},
 			critical_damage = 5,
 			droppable = false
-		},
-		cell_indices = {
-			AIR_BRAKE_L = 19,
-			AIR_BRAKE_R = 20,
-			ARMOR_NOSE_PLATE_LEFT = 94,
-			ARMOR_NOSE_PLATE_RIGHT = 95,
-			ARMOR_PLATE_LEFT = 96,
-			ARMOR_PLATE_RIGHT = 97,
-			BLADE_1_CENTER = 65,
-			BLADE_1_IN = 64,
-			BLADE_1_OUT = 66,
-			BLADE_2_CENTER = 68,
-			BLADE_2_IN = 67,
-			BLADE_2_OUT = 69,
-			BLADE_3_CENTER = 71,
-			BLADE_3_IN = 70,
-			BLADE_3_OUT = 72,
-			BLADE_4_CENTER = 74,
-			BLADE_4_IN = 73,
-			BLADE_4_OUT = 75,
-			BLADE_5_CENTER = 77,
-			BLADE_5_IN = 76,
-			BLADE_5_OUT = 78,
-			BLADE_6_CENTER = 80,
-			BLADE_6_IN = 79,
-			BLADE_6_OUT = 81,
-			CABIN_BOTTOM = 6,
-			CABIN_LEFT_SIDE = 4,
-			CABIN_RIGHT_SIDE = 5,
-			COCKPIT = 3,
-			ENGINE_L = 11,
-			ENGINE_R = 12,
-			FUEL_TANK_LEFT_SIDE = 61,
-			FUEL_TANK_RIGHT_SIDE = 62,
-			FUSELAGE_BOTTOM = 82,
-			FUSELAGE_LEFT_SIDE = 9,
-			FUSELAGE_RIGHT_SIDE = 10,
-			FUSELAGE_TOP = 99,
-			GUN = 7,
-			LEFT_GEAR_BOX = 15,
-			MTG_L = 17,
-			MTG_L_BOTTOM = 13,
-			MTG_R = 18,
-			MTG_R_BOTTOM = 14,
-			NOSE_BOTTOM = 59,
-			NOSE_CENTER = 0,
-			NOSE_LEFT_SIDE = 1,
-			NOSE_RIGHT_SIDE = 2,
-			PITOT = 60,
-			PYLON3 = 88,
-			PYLON4 = 89,
-			RIGHT_GEAR_BOX = 16,
-			ROTOR = 63,
-			TAIL_BOTTOM = 58,
-			TAIL_LEFT_SIDE = 56,
-			TAIL_RIGHT_SIDE = 57,
-			TAIL_ROTOR = 136,
-			TAIL_TOP = 100,
-			WHEEL_FL = 137,
-			WHEEL_FR = 138,
-			WHEEL_L = 84,
-			WHEEL_R = 85,
-			WING_L_PART_CENTER = 27,
-			WING_L_PART_IN = 33,
-			WING_L_PART_OUT = 21,
-			WING_R_PART_CENTER = 28,
-			WING_R_PART_IN = 34,
-			WING_R_PART_OUT = 22
 		}
 	},
 	DamageParts = {},
@@ -758,6 +697,150 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			hidden = false,
 			id = "CTRL_ACS_FAILURE",
 			label = "DUAL FCC / hard DAFCS failure",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "ELEC_BOOSTER_FUEL_PUMP_0_FAILURE",
+			label = "Failure.CH47.FUEL_PUMP0_(LH_FORE_AUX)_MOTOR_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "ELEC_BOOSTER_FUEL_PUMP_0_COIL_FAILURE",
+			label = "Failure.CH47.FUEL_PUMP0_(LH_FORE_AUX)_MOTOR_SHORTENED",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "ELEC_BOOSTER_FUEL_PUMP_1_FAILURE",
+			label = "Failure.CH47.FUEL_PUMP1_(LH_MAIN_1)_MOTOR_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "ELEC_BOOSTER_FUEL_PUMP_1_COIL_FAILURE",
+			label = "Failure.CH47.FUEL_PUMP1_(LH_MAIN_1)_MOTOR_SHORTENED",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "ELEC_BOOSTER_FUEL_PUMP_2_FAILURE",
+			label = "Failure.CH47.FUEL_PUMP2_(LH_MAIN_2)_MOTOR_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "ELEC_BOOSTER_FUEL_PUMP_2_COIL_FAILURE",
+			label = "Failure.CH47.FUEL_PUMP2_(LH_MAIN_2)_MOTOR_SHORTENED",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "ELEC_BOOSTER_FUEL_PUMP_3_FAILURE",
+			label = "Failure.CH47.FUEL_PUMP3_(LH_AFT_AUX)_MOTOR_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "ELEC_BOOSTER_FUEL_PUMP_3_COIL_FAILURE",
+			label = "Failure.CH47.FUEL_PUMP3_(LH_AFT_AUX)_MOTOR_SHORTENED",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "ELEC_BOOSTER_FUEL_PUMP_4_FAILURE",
+			label = "Failure.CH47.FUEL_PUMP4_(RH_FORE_AUX)_MOTOR_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "ELEC_BOOSTER_FUEL_PUMP_4_COIL_FAILURE",
+			label = "Failure.CH47.FUEL_PUMP4_(RH_FORE_AUX)_MOTOR_SHORTENED",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "ELEC_BOOSTER_FUEL_PUMP_5_FAILURE",
+			label = "Failure.CH47.FUEL_PUMP5_(RH_MAIN_1)_MOTOR_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "ELEC_BOOSTER_FUEL_PUMP_5_COIL_FAILURE",
+			label = "Failure.CH47.FUEL_PUMP5_(RH_MAIN_1)_MOTOR_SHORTENED",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "ELEC_BOOSTER_FUEL_PUMP_6_FAILURE",
+			label = "Failure.CH47.FUEL_PUMP6_(RH_MAIN_2)_MOTOR_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "ELEC_BOOSTER_FUEL_PUMP_6_COIL_FAILURE",
+			label = "Failure.CH47.FUEL_PUMP6_(RH_MAIN_2)_MOTOR_SHORTENED",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "ELEC_BOOSTER_FUEL_PUMP_7_FAILURE",
+			label = "Failure.CH47.FUEL_PUMP7_(RH_AFT_AUX)_MOTOR_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "ELEC_BOOSTER_FUEL_PUMP_7_COIL_FAILURE",
+			label = "Failure.CH47.FUEL_PUMP7_(RH_AFT_AUX)_MOTOR_SHORTENED",
 			mint = 1,
 			mm = 0,
 			prob = 100
@@ -794,6 +877,150 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			hidden = false,
 			id = "ELEC_FADEC2_REV_CIRCUIT_FAILURE",
 			label = "FADEC 2 reversionary circuitry hard failure",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "FUEL_BOOSTER_FUEL_PUMP_0_FAILURE",
+			label = "Failure.CH47.FUEL_PUMP0_(LH_FORE_AUX)_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "FUEL_BOOSTER_FUEL_PUMP_0_DEGRADED",
+			label = "Failure.CH47.FUEL_PUMP0_(LH_FORE_AUX)_MALFUNCTION",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "FUEL_BOOSTER_FUEL_PUMP_1_FAILURE",
+			label = "Failure.CH47.FUEL_PUMP1_(LH_MAIN_1)_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "FUEL_BOOSTER_FUEL_PUMP_1_DEGRADED",
+			label = "Failure.CH47.FUEL_PUMP1_(LH_MAIN_1)_MALFUNCTION",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "FUEL_BOOSTER_FUEL_PUMP_2_FAILURE",
+			label = "Failure.CH47.FUEL_PUMP2_(LH_MAIN_2)_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "FUEL_BOOSTER_FUEL_PUMP_2_DEGRADED",
+			label = "Failure.CH47.FUEL_PUMP2_(LH_MAIN_2)_MALFUNCTION",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "FUEL_BOOSTER_FUEL_PUMP_3_FAILURE",
+			label = "Failure.CH47.FUEL_PUMP3_(LH_AFT_AUX)_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "FUEL_BOOSTER_FUEL_PUMP_3_DEGRADED",
+			label = "Failure.CH47.FUEL_PUMP3_(LH_AFT_AUX)_MALFUNCTION",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "FUEL_BOOSTER_FUEL_PUMP_4_FAILURE",
+			label = "Failure.CH47.FUEL_PUMP4_(RH_FORE_AUX)_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "FUEL_BOOSTER_FUEL_PUMP_4_DEGRADED",
+			label = "Failure.CH47.FUEL_PUMP4_(RH_FORE_AUX)_MALFUNCTION",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "FUEL_BOOSTER_FUEL_PUMP_5_FAILURE",
+			label = "Failure.CH47.FUEL_PUMP5_(RH_MAIN_1)_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "FUEL_BOOSTER_FUEL_PUMP_5_DEGRADED",
+			label = "Failure.CH47.FUEL_PUMP5_(RH_MAIN_1)_MALFUNCTION",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "FUEL_BOOSTER_FUEL_PUMP_6_FAILURE",
+			label = "Failure.CH47.FUEL_PUMP6_(RH_MAIN_2)_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "FUEL_BOOSTER_FUEL_PUMP_6_DEGRADED",
+			label = "Failure.CH47.FUEL_PUMP6_(RH_MAIN_2)_MALFUNCTION",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "FUEL_BOOSTER_FUEL_PUMP_7_FAILURE",
+			label = "Failure.CH47.FUEL_PUMP7_(RH_AFT_AUX)_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "FUEL_BOOSTER_FUEL_PUMP_7_DEGRADED",
+			label = "Failure.CH47.FUEL_PUMP7_(RH_AFT_AUX)_MALFUNCTION",
 			mint = 1,
 			mm = 0,
 			prob = 100
@@ -902,6 +1129,24 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			hidden = false,
 			id = "FUEL_RH_LOW_LEVEL_SENSOR_FAILURE",
 			label = "RH main fuel tank low level sensor failure",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "FUEL_LH_SCU_FAILURE",
+			label = "Failure.CH47.FUEL_LH_SCU_FAILURE",
+			mint = 1,
+			mm = 0,
+			prob = 100
+		}, {
+			enable = false,
+			hh = 0,
+			hidden = false,
+			id = "FUEL_RH_SCU_FAILURE",
+			label = "Failure.CH47.FUEL_RH_SCU_FAILURE",
 			mint = 1,
 			mm = 0,
 			prob = 100
@@ -1294,7 +1539,11 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	},
 	IR_emission_coeff = 0.1,
 	InternalCargo = {
-		area = { 9.2, 1.6, 2 },
+		area = {
+			height = 2,
+			length = 9.2,
+			width = 2
+		},
 		deck_connector = "CARGO_VOLUME",
 		far_wall_pos = { 4, -1.25, 0 },
 		maximalCapacity = 10886,
@@ -2568,18 +2817,128 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			},
 			[11] = {
 				lights = { {
-						argument = 208,
-						movable = true,
-						typename = "Argument"
+						lights = { {
+								argument = 208,
+								cool_down_t = 0.5,
+								movable = true,
+								power_up_t = 1.5,
+								typename = "Argument"
+							}, {
+								connector = "LIGHT_IR_L",
+								movable = true,
+								pos_correction = { 0.6, 0.062, 0 },
+								proto = <2>{
+									color = { 255, 201, 125, 0.63587753826796 },
+									cool_down_t = 0.5,
+									flir_amount = 0.28,
+									power_up_t = 1.5,
+									range = 6.5
+								},
+								typename = "Omni"
+							}, {
+								connector = "LIGHT_IR_L",
+								movable = true,
+								pos_correction = { 0.6, 0.062, -1.2 },
+								proto = <table 2>,
+								typename = "Omni"
+							}, {
+								connector = "LIGHT_IR_L",
+								movable = true,
+								pos_correction = { 0.6, 0.062, 1.2 },
+								proto = <table 2>,
+								typename = "Omni"
+							}, {
+								connector = "LIGHT_IR_L",
+								movable = true,
+								pos_correction = { 0, 0.062, 0 },
+								proto = <3>{
+									angle_max = 0.15707963267949,
+									angle_min = 0,
+									color = { 255, 201, 125, 0.31793876913398 },
+									cool_down_t = 0.5,
+									flir_amount = 0.094,
+									power_up_t = 1.5,
+									range = 4800
+								},
+								typename = "Spot"
+							}, {
+								connector = "LIGHT_IR_L",
+								movable = true,
+								pos_correction = { 0.1, 0.062, 0 },
+								proto = <4>{
+									angle_max = 1.5707963267949,
+									angle_min = 1.535889741755,
+									color = { 255, 201, 125, 0.31793876913398 },
+									cool_down_t = 0.5,
+									power_up_t = 1.5,
+									range = 55
+								},
+								typename = "Spot"
+							}, {
+								connector = "LIGHT_IR_L",
+								movable = true,
+								pos_correction = { 0.2, 0.062, 0 },
+								proto = <5>{
+									angle_max = 2.2689280275926,
+									angle_min = 1.5707963267949,
+									color = { 255, 201, 125, 0.63587753826796 },
+									cool_down_t = 0.5,
+									power_up_t = 1.5,
+									range = 25
+								},
+								typename = "Spot"
+							} },
+						typename = "Collection"
 					}, {
-						argument = 209,
-						movable = true,
-						typename = "Argument"
+						lights = { {
+								argument = 209,
+								cool_down_t = 0.5,
+								movable = true,
+								power_up_t = 1.5,
+								typename = "Argument"
+							}, {
+								connector = "LIGHT_IR_R",
+								movable = true,
+								pos_correction = { 0.6, 0.062, 0 },
+								proto = <table 2>,
+								typename = "Omni"
+							}, {
+								connector = "LIGHT_IR_R",
+								movable = true,
+								pos_correction = { 0.6, 0.062, -1.2 },
+								proto = <table 2>,
+								typename = "Omni"
+							}, {
+								connector = "LIGHT_IR_R",
+								movable = true,
+								pos_correction = { 0.6, 0.062, 1.2 },
+								proto = <table 2>,
+								typename = "Omni"
+							}, {
+								connector = "LIGHT_IR_R",
+								movable = true,
+								pos_correction = { 0, 0.062, 0 },
+								proto = <table 3>,
+								typename = "Spot"
+							}, {
+								connector = "LIGHT_IR_R",
+								movable = true,
+								pos_correction = { 0.1, 0.062, 0 },
+								proto = <table 4>,
+								typename = "Spot"
+							}, {
+								connector = "LIGHT_IR_R",
+								movable = true,
+								pos_correction = { 0.2, 0.062, 0 },
+								proto = <table 5>,
+								typename = "Spot"
+							} },
+						typename = "Collection"
 					}, {
 						lights = { {
 								connector = "LIGHT_IR_L",
 								movable = true,
-								proto = <2>{
+								proto = <6>{
 									color = { 255, 0, 0, 0.28 },
 									cool_down_t = 0.05,
 									flir_amount = 0.28,
@@ -2590,7 +2949,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 							}, {
 								connector = "LIGHT_IR_L",
 								movable = true,
-								proto = <3>{
+								proto = <7>{
 									angle_max = 0.48869219055841,
 									angle_min = 0.34906585039887,
 									color = { 2, 0, 0, 0.17 },
@@ -2606,12 +2965,12 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						lights = { {
 								connector = "LIGHT_IR_R",
 								movable = true,
-								proto = <table 2>,
+								proto = <table 6>,
 								typename = "Omni"
 							}, {
 								connector = "LIGHT_IR_R",
 								movable = true,
-								proto = <table 3>,
+								proto = <table 7>,
 								typename = "Spot"
 							} },
 						typename = "Collection"
@@ -2630,7 +2989,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						typename = "Argument"
 					}, {
 						connector = "BEACON_IR_T",
-						proto = <4>{
+						proto = <8>{
 							color = { 2, 0, 0, 0.12 },
 							controller = "VariablePatternStrobe",
 							flir_amount = 1,
@@ -2641,7 +3000,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						typename = "Omni"
 					}, {
 						connector = "BEACON_IR_B",
-						proto = <table 4>,
+						proto = <table 8>,
 						typename = "Omni"
 					}, {
 						argument = 601,
@@ -2679,7 +3038,7 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			[13] = {
 				lights = { {
 						argument = 193,
-						proto = <5>{
+						proto = <9>{
 							color = { 2, 0, 0, 0.12 },
 							controller = "Strobe",
 							cool_down_t = 0.05,
@@ -2693,35 +3052,35 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 						typename = "Argument"
 					}, {
 						connector = "SIDE_LIGHT_IR_1",
-						proto = <table 5>,
+						proto = <table 9>,
 						typename = "Omni"
 					}, {
 						connector = "SIDE_LIGHT_IR_2",
-						proto = <table 5>,
+						proto = <table 9>,
 						typename = "Omni"
 					}, {
 						connector = "SIDE_LIGHT_IR_3",
-						proto = <table 5>,
+						proto = <table 9>,
 						typename = "Omni"
 					}, {
 						connector = "SIDE_LIGHT_IR_4",
-						proto = <table 5>,
+						proto = <table 9>,
 						typename = "Omni"
 					}, {
 						connector = "SIDE_LIGHT_IR_5",
-						proto = <table 5>,
+						proto = <table 9>,
 						typename = "Omni"
 					}, {
 						connector = "SIDE_LIGHT_IR_6",
-						proto = <table 5>,
+						proto = <table 9>,
 						typename = "Omni"
 					}, {
 						connector = "SIDE_LIGHT_IR_7",
-						proto = <table 5>,
+						proto = <table 9>,
 						typename = "Omni"
 					}, {
 						connector = "SIDE_LIGHT_IR_8",
-						proto = <table 5>,
+						proto = <table 9>,
 						typename = "Omni"
 					} },
 				typename = "Collection"
@@ -2748,36 +3107,6 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				Sequence = { {
 						C = { { "Arg", 86, "to", 0.07, "speed", 0.186 } }
 					}, {
-						C = { { "Arg", 38, "to", 1, "speed", 0.25 } }
-					}, {
-						C = { { "Sleep", "for", 2 } }
-					}, {
-						C = { { "Arg", 86, "to", 0.91, "speed", 0.186 } }
-					}, {
-						C = { { "PosType", 6 }, { "Sleep", "for", 4 } }
-					}, {
-						C = { { "VelType", 0 }, { "Arg", 85, "to", 1, "speed", 3.5 } }
-					} },
-				Transition = { "Close", "Open" }
-			}, {
-				Sequence = { {
-						C = { { "VelType", 1 }, { "Arg", 85, "to", 0, "speed", 0.5 } }
-					}, {
-						C = { { "PosType", 6 }, { "Sleep", "for", 4 } }
-					}, {
-						C = { { "Arg", 86, "to", 0.07, "speed", 0.186 } }
-					}, {
-						C = { { "Arg", 38, "to", 0, "speed", 0.25 } }
-					}, {
-						C = { { "Sleep", "for", 2 } }
-					}, {
-						C = { { "Arg", 86, "to", 0, "speed", 0.186 } }
-					} },
-				Transition = { "Open", "Close" }
-			}, {
-				Sequence = { {
-						C = { { "Arg", 86, "to", 0.07, "speed", 0.186 } }
-					}, {
 						C = { { "Sleep", "for", 1.5 } }
 					}, {
 						C = { { "Arg", 38, "to", 1, "speed", 0.25 } }
@@ -2799,14 +3128,74 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				Sequence = { {
 						C = { { "PosType", -1 }, { "Sleep", "for", 2 } }
 					}, {
-						C = { { "VelType", 0 }, { "Arg", 85, "to", 1, "speed", 3.5 } }
+						C = { { "VelType", 0 }, { "Arg", 85, "to", 0.023, "speed", 0.04, "sign", 2 } }
+					}, {
+						C = { { "VelType", 0 }, { "Arg", 85, "to", 0.044, "speed", 0.02, "sign", 2 } }
+					}, {
+						C = { { "VelType", 0 }, { "Arg", 85, "to", 0.036, "speed", 0.02, "sign", -1 } }
+					}, {
+						C = { { "PosType", -1 }, { "Sleep", "for", 0.75 } }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 85, "to", 0.423, "speed", 0.38, "sign", 2 } }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 85, "to", 0.462, "speed", 0.11, "sign", 1 } }
+					}, {
+						C = { { "PosType", -1 }, { "Sleep", "for", 0.09 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.6, "speed", 0.4, "sign", 2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.6, "speed", 0.6, "sign", 2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.7, "speed", 0.8, "sign", 2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.7, "speed", 1, "sign", 2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.8, "speed", 1.2, "sign", 2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.8, "speed", 1.4, "sign", 2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.9, "speed", 1.6, "sign", 2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.9, "speed", 1.8, "sign", 2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 1, "speed", 2, "sign", 2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.971, "speed", 1.5, "sign", -2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 1, "speed", 1.5, "sign", 1 } }
 					} },
 				Transition = { "Board", "Open" }
 			}, {
 				Sequence = { {
-						C = { { "VelType", 1 }, { "Arg", 85, "to", 0, "speed", 0.5 } }
-					}, {
 						C = { { "PosType", -1 }, { "Sleep", "for", 2 } }
+					}, {
+						C = { { "VelType", 0 }, { "Arg", 85, "to", 0.972, "speed", 0.02, "sign", -2 } }
+					}, {
+						C = { { "PosType", 6 }, { "Sleep", "for", 0.75 } }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 85, "to", 0.488, "speed", 0.38, "sign", -2 } }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 85, "to", 0.416, "speed", 0.11, "sign", -1 } }
+					}, {
+						C = { { "PosType", -1 }, { "Sleep", "for", 0.09 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.35, "speed", 0.4, "sign", -2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.3, "speed", 0.6, "sign", -2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.25, "speed", 0.8, "sign", -2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.2, "speed", 1, "sign", -2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.15, "speed", 1.2, "sign", -2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.1, "speed", 1.4, "sign", -2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0, "speed", 1.6, "sign", -2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.011, "speed", 1.5, "sign", 2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0, "speed", 1.5, "sign", -1 } }
 					} },
 				Transition = { "Open", "Board" }
 			}, {
@@ -2830,14 +3219,19 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 				Transition = { "Ventilate", "Close" }
 			}, {
 				Sequence = { {
+						C = { { "Sleep", "for", 0 } }
+					} },
+				Transition = { "Any", "Dismantle" }
+			}, {
+				Sequence = { {
 						C = { { "Arg", 86, "set", 0.91 }, { "Arg", 38, "set", 1 }, { "Arg", 85, "set", 1 } }
 					} },
-				Transition = { "Any", "Open" }
+				Transition = { "Dismantle", "Open" }
 			}, {
 				Sequence = { {
 						C = { { "Arg", 85, "set", 0 }, { "Arg", 38, "set", 0 }, { "Arg", 86, "set", 0 } }
 					} },
-				Transition = { "Any", "Close" }
+				Transition = { "Dismantle", "Close" }
 			} },
 		CargoBayGate1 = { {
 				Sequence = { {
@@ -2863,78 +3257,76 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			} },
 		CargoBayGate3 = { {
 				Sequence = { {
-						C = { { "VelType", 0 }, { "Arg", 85, "to", 1, "speed", 3.5 } }
+						C = { { "VelType", 0 }, { "Arg", 85, "to", 0.023, "speed", 0.04, "sign", 2 } }
+					}, {
+						C = { { "VelType", 0 }, { "Arg", 85, "to", 0.044, "speed", 0.02, "sign", 2 } }
+					}, {
+						C = { { "VelType", 0 }, { "Arg", 85, "to", 0.036, "speed", 0.02, "sign", -1 } }
+					}, {
+						C = { { "PosType", -1 }, { "Sleep", "for", 0.75 } }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 85, "to", 0.423, "speed", 0.38, "sign", 2 } }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 85, "to", 0.462, "speed", 0.11, "sign", 1 } }
+					}, {
+						C = { { "PosType", -1 }, { "Sleep", "for", 0.09 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.6, "speed", 0.4, "sign", 2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.6, "speed", 0.6, "sign", 2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.7, "speed", 0.8, "sign", 2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.7, "speed", 1, "sign", 2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.8, "speed", 1.2, "sign", 2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.8, "speed", 1.4, "sign", 2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.9, "speed", 1.6, "sign", 2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.9, "speed", 1.8, "sign", 2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 1, "speed", 2, "sign", 2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.971, "speed", 1.5, "sign", -2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 1, "speed", 1.5, "sign", 1 } }
 					} },
 				Transition = { "Close", "Open" }
 			}, {
 				Sequence = { {
-						C = { { "VelType", 1 }, { "Arg", 85, "to", 0, "speed", 0.5 } }
+						C = { { "VelType", 0 }, { "Arg", 85, "to", 0.972, "speed", 0.02, "sign", -2 } }
+					}, {
+						C = { { "PosType", 6 }, { "Sleep", "for", 0.75 } }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 85, "to", 0.488, "speed", 0.38, "sign", -2 } }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 85, "to", 0.416, "speed", 0.11, "sign", -1 } }
+					}, {
+						C = { { "PosType", -1 }, { "Sleep", "for", 0.09 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.35, "speed", 0.4, "sign", -2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.3, "speed", 0.6, "sign", -2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.25, "speed", 0.8, "sign", -2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.2, "speed", 1, "sign", -2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.15, "speed", 1.2, "sign", -2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.1, "speed", 1.4, "sign", -2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0, "speed", 1.6, "sign", -2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.011, "speed", 1.5, "sign", 2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0, "speed", 1.5, "sign", -1 } }
 					} },
 				Transition = { "Open", "Close" }
 			} },
 		CargoBayGates = { {
-				Sequence = { {
-						C = { { "PosType", 6 }, { "Sleep", "for", 6 } }
-					}, {
-						C = { { "Arg", 86, "to", 0.07, "speed", 0.186 } }
-					}, {
-						C = { { "Sleep", "for", 1.5 } }
-					}, {
-						C = { { "Arg", 38, "to", 1, "speed", 0.25 } }
-					}, {
-						C = { { "Sleep", "for", 2 } }
-					}, {
-						C = { { "Arg", 86, "to", 0.91, "speed", 0.186 } }
-					}, {
-						C = { { "PosType", 6 }, { "Sleep", "for", 8 } }
-					}, {
-						C = { { "VelType", 0 }, { "Arg", 85, "to", 1, "speed", 3.5 } }
-					} },
-				Transition = { "Close", "Open" }
-			}, {
-				Sequence = { {
-						C = { { "PosType", 6 }, { "Sleep", "for", 4 } }
-					}, {
-						C = { { "VelType", 1 }, { "Arg", 85, "to", 0, "speed", 0.5 } }
-					}, {
-						C = { { "PosType", 6 }, { "Sleep", "for", 6 } }
-					}, {
-						C = { { "Arg", 86, "to", 0.07, "speed", 0.186 } }
-					}, {
-						C = { { "Arg", 38, "to", 0, "speed", 0.25 } }
-					}, {
-						C = { { "Sleep", "for", 2 } }
-					}, {
-						C = { { "Arg", 86, "to", 0, "speed", 0.186 } }
-					} },
-				Transition = { "Open", "Close" }
-			}, {
-				Sequence = { {
-						C = { { "PosType", 6 }, { "Sleep", "for", 6 } }
-					}, {
-						C = { { "Arg", 86, "to", 0.07, "speed", 0.186 } }
-					}, {
-						C = { { "Sleep", "for", 1.5 } }
-					}, {
-						C = { { "Arg", 38, "to", 1, "speed", 0.25 } }
-					}, {
-						C = { { "Sleep", "for", 2 } }
-					}, {
-						C = { { "Arg", 86, "to", 0.604, "speed", 0.186 } }
-					} },
-				Transition = { "Close", "Hang" }
-			}, {
-				Sequence = { {
-						C = { { "Arg", 86, "to", 0.07, "speed", 0.186 } }
-					}, {
-						C = { { "Arg", 38, "to", 0, "speed", 0.25 } }
-					}, {
-						C = { { "Sleep", "for", 2 } }
-					}, {
-						C = { { "Arg", 86, "to", 0, "speed", 0.186 } }
-					} },
-				Transition = { "Hang", "Close" }
-			}, {
 				Sequence = { {
 						C = { { "PosType", 6 }, { "Sleep", "for", 1 } }
 					}, {
@@ -2974,21 +3366,11 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					}, {
 						C = { { "Sleep", "for", 2 } }
 					}, {
-						C = { { "Arg", 86, "to", 0.91, "speed", 0.186 } }
-					}, {
-						C = { { "PosType", 6 }, { "Sleep", "for", 8 } }
-					}, {
-						C = { { "VelType", 0 }, { "Arg", 85, "to", 1, "speed", 3.5 } }
+						C = { { "Arg", 86, "to", 0.604, "speed", 0.186 } }
 					} },
-				Transition = { "Close", "Board" }
+				Transition = { "Close", "Hang" }
 			}, {
 				Sequence = { {
-						C = { { "PosType", 6 }, { "Sleep", "for", 4 } }
-					}, {
-						C = { { "VelType", 1 }, { "Arg", 85, "to", 0, "speed", 0.5 } }
-					}, {
-						C = { { "PosType", 6 }, { "Sleep", "for", 6 } }
-					}, {
 						C = { { "Arg", 86, "to", 0.07, "speed", 0.186 } }
 					}, {
 						C = { { "Arg", 38, "to", 0, "speed", 0.25 } }
@@ -2997,20 +3379,91 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 					}, {
 						C = { { "Arg", 86, "to", 0, "speed", 0.186 } }
 					} },
-				Transition = { "Board", "Close" }
+				Transition = { "Hang", "Close" }
 			}, {
 				Sequence = { {
-						C = { { "Arg", 38, "to", 1, "speed", 0.25 } }
-					}, {
-						C = { { "Sleep", "for", 2 } }
-					}, {
 						C = { { "Arg", 86, "to", 0.91, "speed", 0.186 } }
-					}, {
+					} },
+				Transition = { "Hang", "Board" }
+			}, {
+				Sequence = { {
+						C = { { "Arg", 86, "to", 0.604, "speed", 0.186 } }
+					} },
+				Transition = { "Board", "Hang" }
+			}, {
+				Sequence = { {
 						C = { { "PosType", 6 }, { "Sleep", "for", 8 } }
 					}, {
-						C = { { "VelType", 0 }, { "Arg", 85, "to", 1, "speed", 3.5 } }
+						C = { { "VelType", 0 }, { "Arg", 85, "to", 0.023, "speed", 0.04, "sign", 2 } }
+					}, {
+						C = { { "VelType", 0 }, { "Arg", 85, "to", 0.044, "speed", 0.02, "sign", 2 } }
+					}, {
+						C = { { "VelType", 0 }, { "Arg", 85, "to", 0.036, "speed", 0.02, "sign", -1 } }
+					}, {
+						C = { { "PosType", -1 }, { "Sleep", "for", 0.75 } }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 85, "to", 0.423, "speed", 0.38, "sign", 2 } }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 85, "to", 0.462, "speed", 0.11, "sign", 1 } }
+					}, {
+						C = { { "PosType", -1 }, { "Sleep", "for", 0.09 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.6, "speed", 0.4, "sign", 2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.6, "speed", 0.6, "sign", 2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.7, "speed", 0.8, "sign", 2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.7, "speed", 1, "sign", 2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.8, "speed", 1.2, "sign", 2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.8, "speed", 1.4, "sign", 2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.9, "speed", 1.6, "sign", 2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.9, "speed", 1.8, "sign", 2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 1, "speed", 2, "sign", 2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.971, "speed", 1.5, "sign", -2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 1, "speed", 1.5, "sign", 1 } }
 					} },
 				Transition = { "Board", "Open" }
+			}, {
+				Sequence = { {
+						C = { { "PosType", 6 }, { "Sleep", "for", 4 } }
+					}, {
+						C = { { "VelType", 0 }, { "Arg", 85, "to", 0.972, "speed", 0.02, "sign", -2 } }
+					}, {
+						C = { { "PosType", 6 }, { "Sleep", "for", 0.75 } }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 85, "to", 0.488, "speed", 0.38, "sign", -2 } }
+					}, {
+						C = { { "VelType", 1 }, { "Arg", 85, "to", 0.416, "speed", 0.11, "sign", -1 } }
+					}, {
+						C = { { "PosType", -1 }, { "Sleep", "for", 0.09 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.35, "speed", 0.4, "sign", -2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.3, "speed", 0.6, "sign", -2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.25, "speed", 0.8, "sign", -2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.2, "speed", 1, "sign", -2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.15, "speed", 1.2, "sign", -2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.1, "speed", 1.4, "sign", -2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0, "speed", 1.6, "sign", -2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0.011, "speed", 1.5, "sign", 2 } }
+					}, {
+						C = { { "VelType", -1 }, { "Arg", 85, "to", 0, "speed", 1.5, "sign", -1 } }
+					} },
+				Transition = { "Open", "Board" }
 			} },
 		CustomMechanism0 = { {
 				Sequence = { {

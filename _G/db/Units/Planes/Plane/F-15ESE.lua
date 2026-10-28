@@ -165,7 +165,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[8] = {
 			args = { 265 },
 			critical_damage = 4,
-			deps_cells = { 139 }
+			deps_cells = { 83 }
 		},
 		[9] = {
 			args = { 154 },
@@ -186,12 +186,12 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[15] = {
 			args = { 267 },
 			critical_damage = 4,
-			deps_cells = { 140 }
+			deps_cells = { 84 }
 		},
 		[16] = {
 			args = { 266 },
 			critical_damage = 4,
-			deps_cells = { 141 }
+			deps_cells = { 85 }
 		},
 		[20] = {
 			args = { 183 },
@@ -325,41 +325,26 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 268 },
 			critical_damage = 2
 		},
-		[137] = {
+		[175] = {
 			args = { 169 },
 			critical_damage = 3
 		},
-		[138] = {
+		[176] = {
 			args = { 163 },
 			critical_damage = 3
 		},
-		[139] = {
-			args = { 253 },
-			critical_damage = 3,
-			deps_cells = { 83 }
-		},
-		[140] = {
-			args = { 259 },
-			critical_damage = 3,
-			deps_cells = { 84 }
-		},
-		[141] = {
-			args = { 255 },
-			critical_damage = 3,
-			deps_cells = { 85 }
-		},
-		[142] = {
+		[177] = {
 			args = { 168 },
 			critical_damage = 3
 		},
-		[143] = {
+		[178] = {
 			args = { 162 },
 			critical_damage = 3
 		},
 		cell_indices = {
 			AIR_BRAKE_R = 20,
-			BOTTOM_LEFT_ENGINE = 137,
-			BOTTOM_RIGHT_ENGINE = 138,
+			BOTTOM_LEFT_ENGINE = 175,
+			BOTTOM_RIGHT_ENGINE = 176,
 			CABIN_LEFT_SIDE = 4,
 			CABIN_RIGHT_SIDE = 5,
 			COCKPIT = 3,
@@ -378,7 +363,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			FLAP_L_IN = 37,
 			FLAP_R_IN = 38,
 			FRONT_GEAR_BOX = 8,
-			FRONT_WHEEL = 139,
+			FRONT_WHEEL = 83,
 			FUEL_TANK_F = 61,
 			FUSELAGE_BOTTOM = 82,
 			FUSELAGE_LEFT_SIDE = 9,
@@ -386,7 +371,7 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			GUN = 7,
 			HOOK = 98,
 			LEFT_GEAR_BOX = 15,
-			LEFT_WHEEL = 140,
+			LEFT_WHEEL = 84,
 			NOSE_BOTTOM = 59,
 			NOSE_CENTER = 0,
 			NOSE_LEFT_SIDE = 1,
@@ -394,13 +379,13 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			PYLON1 = 86,
 			PYLON2 = 87,
 			RIGHT_GEAR_BOX = 16,
-			RIGHT_WHEEL = 141,
+			RIGHT_WHEEL = 85,
 			RUDDER_L = 53,
 			RUDDER_R = 54,
 			TAIL_LEFT_SIDE = 56,
 			TAIL_RIGHT_SIDE = 57,
-			TOP_CENTER_LEFT_ENGINE = 142,
-			TOP_CENTER_RIGHT_ENGINE = 143,
+			TOP_CENTER_LEFT_ENGINE = 177,
+			TOP_CENTER_RIGHT_ENGINE = 178,
 			WHEEL_F = 83,
 			WHEEL_L = 84,
 			WHEEL_R = 85,

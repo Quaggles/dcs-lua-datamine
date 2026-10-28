@@ -31,17 +31,17 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[35] = {
 			args = { 67 },
 			critical_damage = 20,
-			deps_cells = { 11, 17 }
+			deps_cells = { 17, 11 }
 		},
 		[36] = {
 			args = { 68 },
 			critical_damage = 20,
-			deps_cells = { 12, 18 }
+			deps_cells = { 18, 12 }
 		},
 		[43] = {
 			args = { 61 },
 			critical_damage = 10,
-			deps_cells = { 53, 47, 48 }
+			deps_cells = { 47, 48, 53 }
 		},
 		[47] = {
 			args = { 63 },
@@ -58,6 +58,14 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 		[55] = {
 			args = { 81 },
 			critical_damage = 15
+		},
+		cell_indices = {
+			Line_KIL_L = 43,
+			Line_MAIN = 10,
+			Line_STABIL_L = 47,
+			Line_STABIL_R = 48,
+			Line_WING_L = 35,
+			Line_WING_R = 36
 		}
 	},
 	DamageParts = { "C-17-OBLOMOK-WING-R", "C-17-OBLOMOK-WING-L" },

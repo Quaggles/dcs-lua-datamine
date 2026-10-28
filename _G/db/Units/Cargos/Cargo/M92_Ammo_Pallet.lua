@@ -2,6 +2,7 @@ _G["db"]["Units"]["Cargos"]["Cargo"]["#Index"] = {
 	DisplayName = "Ammo Pallet",
 	Life = 50,
 	Name = "Ammo Pallet",
+	ProceduralRopes = true,
 	Rate = 1,
 	ShapeName = "M92_Cargo03",
 	ShapeNameDstr = "M92_Cargo03",

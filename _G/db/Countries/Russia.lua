@@ -844,6 +844,18 @@ _G["db"]["Countries"]["#Index"] = {
 				}, {
 					Name = "CHAP_Titan"
 				}, {
+					Name = "CHAP_Ural4320_ZU232"
+				}, {
+					Name = "CHAP_ZIL131"
+				}, {
+					Name = "CHAP_ZIL131_Kung"
+				}, {
+					Name = "CHAP_Atlet"
+				}, {
+					Name = "CHAP_BMD2"
+				}, {
+					Name = "CHAP_UralTyphoon"
+				}, {
 					Name = "TugHarlan_drivable"
 				}, {
 					Name = "B600_drivable"

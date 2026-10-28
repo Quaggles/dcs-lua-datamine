@@ -5,6 +5,8 @@ _G["launcher"]["{PTB_1500_MIG29A}"] = {
 			ShapeName = "PTB_1500_MIG29A"
 		} },
 	Picture = "PTB.png",
+	RCS = 0.5,
+	RCS_empty = 0,
 	Weight = 1278.5,
 	Weight_Empty = 116,
 	_file = "./CoreMods/aircraft/MiG-29-Fulcrum/MiG-29-Fulcrum.lua",

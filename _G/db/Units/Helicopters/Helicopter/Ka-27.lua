@@ -3,6 +3,9 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 	CanopyGeometry = { -0.93969262078591, -0.95280922353749, -0.96592582628907, -0.049950211252315, 0.86602540378444 },
 	Categories = {},
 	Damage = {
+		[3] = {
+			critical_damage = 1
+		},
 		[4] = {
 			args = { 296 },
 			critical_damage = 20

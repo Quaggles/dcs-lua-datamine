@@ -112,34 +112,19 @@ _G["db"]["Units"]["Helicopters"]["Helicopter"]["#Index"] = {
 			args = { 152 },
 			critical_damage = 3
 		},
-		[137] = {
-			args = { -1 },
-			construction = {
-				durability = 99999.99999,
-				skin = "Water"
-			},
-			critical_damage = 99999
+		[83] = {
+			critical_damage = 3
 		},
-		[138] = {
-			args = { -1 },
-			construction = {
-				durability = 99999.99999,
-				skin = "Water"
-			},
-			critical_damage = 99999
+		[84] = {
+			critical_damage = 3
 		},
-		[139] = {
-			args = { -1 },
-			construction = {
-				durability = 99999.99999,
-				skin = "Water"
-			},
-			critical_damage = 99999
+		[85] = {
+			critical_damage = 3
 		},
 		cell_indices = {
-			FRONT_WHEEL = 137,
-			LEFT_WHEEL = 138,
-			RIGHT_WHEEL = 139
+			FRONT_WHEEL = 83,
+			LEFT_WHEEL = 84,
+			RIGHT_WHEEL = 85
 		}
 	},
 	DamageParts = { "Mi-24V-WING-R", "Mi-24V-WING-L",

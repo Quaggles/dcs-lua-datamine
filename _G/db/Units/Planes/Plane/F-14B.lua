@@ -140,15 +140,16 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 525 },
 			critical_damage = 3
 		},
+		[23] = {},
 		[35] = {
 			args = { 510 },
 			critical_damage = 6,
-			deps_cells = { 37, 186 }
+			deps_cells = { 37, 214 }
 		},
 		[36] = {
 			args = { 571 },
 			critical_damage = 6,
-			deps_cells = { 38, 186 }
+			deps_cells = { 38, 214 }
 		},
 		[37] = {
 			args = { 513 },
@@ -200,6 +201,15 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 576 },
 			critical_damage = 2
 		},
+		[83] = {
+			critical_damage = 2
+		},
+		[84] = {
+			critical_damage = 2
+		},
+		[85] = {
+			critical_damage = 2
+		},
 		[86] = {
 			args = { 588 },
 			critical_damage = 2
@@ -222,290 +232,247 @@ _G["db"]["Units"]["Planes"]["Plane"]["#Index"] = {
 			args = { 520 },
 			critical_damage = 3
 		},
-		[137] = {
+		[175] = {
 			args = { 536 },
 			critical_damage = 2
 		},
-		[138] = {
+		[176] = {
 			args = { 537 },
 			critical_damage = 2
 		},
-		[139] = {
+		[177] = {
 			args = { 538 },
 			critical_damage = 2
 		},
-		[140] = {
+		[178] = {
 			args = { 539 },
 			critical_damage = 2
 		},
-		[141] = {
+		[179] = {
 			args = { 541 },
 			critical_damage = 2
 		},
-		[142] = {
+		[180] = {
 			args = { 540 },
 			critical_damage = 2
 		},
-		[143] = {
+		[181] = {
 			args = { 590 },
 			critical_damage = 2
 		},
-		[144] = {
+		[182] = {
 			args = { 591 },
 			critical_damage = 2
 		},
-		[145] = {
+		[183] = {
 			args = { 592 },
 			critical_damage = 2
 		},
-		[146] = {
+		[184] = {
 			args = { 593 },
 			critical_damage = 2
 		},
-		[147] = {
-			args = { 565 },
-			critical_damage = 1
+		[185] = {
+			critical_damage = 4
 		},
-		[148] = {
+		[186] = {
 			args = { 594 },
 			critical_damage = 2
 		},
-		[149] = {
+		[187] = {
 			args = { 595 },
 			critical_damage = 2
 		},
-		[150] = {
-			args = { 566 },
-			critical_damage = 1
-		},
-		[151] = {
+		[188] = {
 			args = { 596 },
 			critical_damage = 6
 		},
-		[152] = {
+		[189] = {
 			args = { 597 },
 			critical_damage = 6
 		},
-		[153] = {
+		[190] = {
 			args = { 522 },
 			critical_damage = 3
 		},
-		[154] = {
+		[191] = {
 			args = { 523 },
 			critical_damage = 3
 		},
-		[155] = {
+		[192] = {
 			args = { 521 },
 			critical_damage = 3
 		},
-		[156] = {
+		[193] = {
 			args = { 524 },
 			critical_damage = 3
 		},
-		[157] = {
+		[194] = {
 			args = { 557 },
 			critical_damage = 4
 		},
-		[158] = {
+		[195] = {
 			args = { 561 },
 			critical_damage = 4
 		},
-		[159] = {
+		[196] = {
 			args = { 558 },
 			critical_damage = 4
 		},
-		[160] = {
+		[197] = {
 			args = { 562 },
 			critical_damage = 4
 		},
-		[161] = {
+		[198] = {
 			args = { 559 },
 			critical_damage = 4
 		},
-		[162] = {
+		[199] = {
 			args = { 563 },
 			critical_damage = 4
 		},
-		[163] = {
+		[200] = {
 			args = { 555 },
 			critical_damage = 2
 		},
-		[164] = {
-			args = { 546 },
-			critical_damage = 2
-		},
-		[165] = {
+		[201] = {
 			args = { 545 },
 			critical_damage = 2
 		},
-		[166] = {
-			args = { 547 },
-			critical_damage = 2
-		},
-		[167] = {
+		[202] = {
 			args = { 554 },
 			critical_damage = 3
 		},
-		[168] = {
+		[203] = {
 			args = { 553 },
 			critical_damage = 3
 		},
-		[169] = {
-			args = { 551 },
-			critical_damage = 3
-		},
-		[170] = {
-			args = { 550 },
-			critical_damage = 3
-		},
-		[171] = {
+		[204] = {
 			args = { 560 },
 			critical_damage = 4
 		},
-		[172] = {
+		[205] = {
 			args = { 564 },
 			critical_damage = 4
 		},
-		[173] = {
+		[206] = {
 			args = { 556 },
 			critical_damage = 2
 		},
-		[174] = {
+		[207] = {
 			args = { 569 },
 			critical_damage = 1
 		},
-		[175] = {
+		[208] = {
 			args = { 570 },
 			critical_damage = 1
 		},
-		[176] = {
+		[209] = {
 			args = { 577 },
 			critical_damage = 1
 		},
-		[177] = {
+		[210] = {
 			args = { 578 },
 			critical_damage = 1
 		},
-		[178] = {
-			args = { 542 },
-			critical_damage = 2
-		},
-		[179] = {
-			args = { 543 },
-			critical_damage = 2
-		},
-		[180] = {
-			args = { 544 },
-			critical_damage = 2
-		},
-		[181] = {
+		[211] = {
 			args = { 567 },
 			critical_damage = 1
 		},
-		[182] = {
+		[212] = {
 			args = { 552 },
 			critical_damage = 1
 		},
-		[183] = {
+		[213] = {
 			args = { 568 },
 			critical_damage = 1
 		},
-		[184] = {
-			args = { 514 },
-			critical_damage = 15
-		},
-		[185] = {
-			args = { 515 },
-			critical_damage = 15
-		},
-		[186] = {
+		[214] = {
 			args = { 548 },
 			critical_damage = 3
 		},
-		[187] = {
+		[215] = {
 			args = { 549 },
 			critical_damage = 3
 		},
 		cell_indices = {
-			AVX_001 = 137,
-			AVX_002 = 138,
-			AVX_003 = 139,
-			AVX_004 = 140,
-			AVX_ECS = 141,
-			AVX_GTS = 142,
-			AVX_WALL_LEFT_FRONT = 143,
-			AVX_WALL_LEFT_REAR = 144,
-			AVX_WALL_RIGHT_FRONT = 145,
-			AVX_WALL_RIGHT_REAR = 146,
+			AVX_001 = 175,
+			AVX_002 = 176,
+			AVX_003 = 177,
+			AVX_004 = 178,
+			AVX_ECS = 179,
+			AVX_GTS = 180,
+			AVX_WALL_LEFT_FRONT = 181,
+			AVX_WALL_LEFT_REAR = 182,
+			AVX_WALL_RIGHT_FRONT = 183,
+			AVX_WALL_RIGHT_REAR = 184,
 			CABIN_LEFT_SIDE = 4,
 			CABIN_RIGHT_SIDE = 5,
 			COCKPIT = 3,
-			COUNTERMEASURES = 147,
 			CREW_1 = 90,
 			CREW_2 = 91,
-			DASHBOARD_PILOT = 148,
-			DASHBOARD_RIO = 149,
-			ECM_DUCKTAIL = 150,
-			EJECTION_SEAT_PILOT = 151,
-			EJECTION_SEAT_RIO = 152,
+			DASHBOARD_PILOT = 186,
+			DASHBOARD_RIO = 187,
+			EJECTION_SEAT_PILOT = 188,
+			EJECTION_SEAT_RIO = 189,
 			ELEVATOR_L = 51,
 			ELEVATOR_R = 52,
 			ENGINE_L = 11,
-			ENGINE_L_INTAKE = 153,
-			ENGINE_L_UPPER = 154,
+			ENGINE_L_INTAKE = 190,
+			ENGINE_L_UPPER = 191,
 			ENGINE_R = 12,
-			ENGINE_R_INTAKE = 155,
-			ENGINE_R_UPPER = 156,
-			F110_FRONT_L = 157,
-			F110_FRONT_R = 158,
-			F110_MID_L = 159,
-			F110_MID_R = 160,
-			F110_REAR_L = 161,
-			F110_REAR_R = 162,
+			ENGINE_R_INTAKE = 192,
+			ENGINE_R_UPPER = 193,
+			F110_FRONT_L = 194,
+			F110_FRONT_R = 195,
+			F110_MID_L = 196,
+			F110_MID_R = 197,
+			F110_REAR_L = 198,
+			F110_REAR_R = 199,
 			FIN_L_CENTER = 41,
 			FIN_L_TOP = 39,
 			FIN_R_CENTER = 42,
 			FIN_R_TOP = 40,
 			FLAP_L = 37,
 			FLAP_R = 38,
-			FRONT_PHOENIX = 163,
-			FUEL_TANK_CENTR = 164,
-			FUEL_TANK_FRONT = 165,
-			FUEL_TANK_REAR = 166,
+			FRONT_PHOENIX = 200,
+			FRONT_WHEEL = 83,
+			FUEL_TANK_FRONT = 201,
 			FUSELAGE_LEFT_SIDE = 9,
 			FUSELAGE_RIGHT_SIDE = 10,
 			FUSELAGE_TOP = 99,
-			GUN_AMMO = 167,
-			GUN_BARELLS = 168,
+			GUN_AMMO = 202,
+			GUN_BARELLS = 203,
 			HOOK = 98,
-			INTAKE_RAMPS_LEFT = 169,
-			INTAKE_RAMPS_RIGHT = 170,
 			KEEL_L = 43,
 			KEEL_R = 44,
+			LEFT_WHEEL = 84,
 			NOSE_CENTER = 0,
-			NOZZLE_L = 171,
-			NOZZLE_R = 172,
+			NOSE_CENTR = 0,
+			NOZZLE_L = 204,
+			NOZZLE_R = 205,
 			PYLONL = 86,
 			PYLONR = 87,
-			REAR_PHOENIX = 173,
+			REAR_PHOENIX = 206,
+			RIGHT_WHEEL = 85,
 			RUDDER_L = 53,
 			RUDDER_R = 54,
-			RWR_NACELLE_L = 174,
-			RWR_NACELLE_R = 175,
-			RWR_TAIL_L = 176,
-			RWR_TAIL_R = 177,
-			SPINE_LINES_01 = 178,
-			SPINE_LINES_02 = 179,
-			SPINE_LINES_03 = 180,
-			TACAN = 181,
-			TCS = 182,
-			UHF_IFF = 183,
-			WINGBOX_LEFT = 184,
-			WINGBOX_RIGHT = 185,
-			WING_FUEL_TANK_L = 186,
-			WING_FUEL_TANK_R = 187,
+			RWR_NACELLE_L = 207,
+			RWR_NACELLE_R = 208,
+			RWR_TAIL_L = 209,
+			RWR_TAIL_R = 210,
+			TACAN = 211,
+			TCS = 212,
+			UHF_IFF = 213,
+			WHEEL_F = 83,
+			WHEEL_L = 84,
+			WHEEL_R = 85,
+			WING_FUEL_TANK_L = 214,
+			WING_FUEL_TANK_R = 215,
 			WING_L = 35,
-			WING_R = 36
+			WING_L_OUT = 23,
+			WING_R = 36,
+			collision_belly = 185
 		}
 	},
 	DamageParts = {
